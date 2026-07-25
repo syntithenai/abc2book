@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import { Alert } from 'react-bootstrap'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
+import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
 import {
   applyFieldLookupChoice,
   buildSearchModeOptions,
@@ -47,6 +48,8 @@ export default function AliasesSearchButton({
   const resolverAvailable = typeof resolverAvailableProp === 'boolean'
     ? resolverAvailableProp
     : resolverAvailableFromHealth
+  const resolverAccess = useFieldLookupResolverAccess(token)
+  const automaticLookup = resolverAccess.automaticLookupFor('aliases')
   const searchModeRef = useRef('auto')
   const applyRef = useRef(null)
   const addedRef = useRef(false)
@@ -178,7 +181,7 @@ export default function AliasesSearchButton({
     buttonGroup: (
       <>
         <FieldLookupButtonGroup
-          automaticLookup={true}
+          automaticLookup={automaticLookup}
           showExternal={!!(externalUrl && externalLinkIcon)}
           busy={busy}
           disabled={!canSearch || disabled}

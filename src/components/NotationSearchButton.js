@@ -90,7 +90,7 @@ export default function NotationSearchButton({
   title,
   artist,
   rhythm,
-  currentGenre,
+  currentGenres,
   currentValue,
   onGenreAccept,
   token,
@@ -136,7 +136,7 @@ export default function NotationSearchButton({
       title: title,
       artist: artist,
       rhythm: rhythm,
-      currentGenre: currentGenre,
+      currentGenres: currentGenres,
       onGenreAccept: onGenreAccept,
     })
   }

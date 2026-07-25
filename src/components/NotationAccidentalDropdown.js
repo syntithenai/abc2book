@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, ButtonGroup, Dropdown } from 'react-bootstrap';
+import NotationClearIconButton from './NotationClearIconButton';
 
 const ACCIDENTAL_OPTIONS = [
   { value: 0, label: '♮', title: 'Natural (=)', key: '=' },
@@ -10,7 +11,7 @@ const ACCIDENTAL_OPTIONS = [
 ];
 
 export default function NotationAccidentalDropdown(props) {
-  const { session, dispatch, onApplyAccidental, expanded } = props;
+  const { session, dispatch, onApplyAccidental, expanded, tunebook } = props;
   const carry = session.accidentalCarry;
   const current = ACCIDENTAL_OPTIONS.find(function(o) { return o.value === carry; });
   const mainLabel = current ? current.label : '♮';
@@ -38,18 +39,34 @@ export default function NotationAccidentalDropdown(props) {
             >{opt.label}</Button>
           );
         })}
+        {hasSelection ? (
+          <NotationClearIconButton
+            tunebook={tunebook}
+            title="Clear accidental — remove sharp, flat, or natural from selection"
+            testId="notation-accidental-clear"
+            onClick={function() { apply(null); }}
+          />
+        ) : null}
       </ButtonGroup>
     );
   }
 
   return (
-    <Dropdown as={ButtonGroup} className="notation-accidental-dropdown" data-testid="notation-accidental-menu">
+    <ButtonGroup className="notation-accidental-dropdown" data-testid="notation-accidental-menu">
       <Button
         size="lg"
         variant={carry != null || hasSelection ? 'primary' : 'outline-secondary'}
         title={hasSelection ? 'Apply natural to selection' : 'Natural accidental carry'}
         onClick={function() { apply(0); }}
       >{mainLabel}</Button>
+      {hasSelection ? (
+        <NotationClearIconButton
+          tunebook={tunebook}
+          title="Clear accidental — remove sharp, flat, or natural from selection"
+          testId="notation-accidental-clear"
+          onClick={function() { apply(null); }}
+        />
+      ) : null}
       <Dropdown.Toggle split variant="outline-secondary" size="lg" aria-label="Choose accidental" />
       <Dropdown.Menu>
         {ACCIDENTAL_OPTIONS.map(function(opt) {
@@ -65,8 +82,12 @@ export default function NotationAccidentalDropdown(props) {
           );
         })}
         <Dropdown.Divider />
-        <Dropdown.Item onClick={function() { apply(null); }}>Clear carry</Dropdown.Item>
+        <Dropdown.Item onClick={function() {
+          if (typeof dispatch === 'function') {
+            dispatch({ type: 'SET_ACCIDENTAL_CARRY', value: null });
+          }
+        }}>Clear carry</Dropdown.Item>
       </Dropdown.Menu>
-    </Dropdown>
+    </ButtonGroup>
   );
 }

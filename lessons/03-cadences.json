@@ -1,0 +1,103 @@
+{
+  "id": "03-cadences",
+  "title": "03 Cadences",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "05-harmony/03-cadences.md",
+  "sections": [
+    {
+      "id": "cadences-full-half-plagal-and-deceptive",
+      "title": "Cadences: Full, Half, Plagal, and Deceptive",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** harmony | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cadences are harmonic punctuation at phrase endings."
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Authentic (PAC/IAC)**: V→I — full stop. **Half**: ends on V — comma, question. **Plagal**: IV→I — 'amen' cadence. **Deceptive**: V→vi — surprise."
+        }
+      ]
+    },
+    {
+      "id": "in-dance-tunes",
+      "title": "In dance tunes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A part often half-cadences at midpoint; B part authentic-cadences home. AABB structure maps to these patterns."
+        }
+      ]
+    },
+    {
+      "id": "accompaniment",
+      "title": "Accompaniment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Don't push dominant too early — steals the half cadence's lift."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-vi-at-phrase-end",
+      "title": "Q1. V→I at phrase end:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Authentic cadence\n- B) Half cadence\n- C) Deceptive cadence\n- D) Plagal only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-half-cadence-ends-on-v",
+      "title": "Q2. Half cadence ends on V.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. V→I at phrase end:\n\n- A) Authentic cadence\n- B) Half cadence\n- C) Deceptive cadence\n- D) Plagal only\n\n**Answer:** A\n\n### Q2. Half cadence ends on V.\n\n**Answer:** True"
+}

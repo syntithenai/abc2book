@@ -1,15 +1,15 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import MediaPlayerMedia from './MediaPlayerMedia'
-import MediaPlayerMidiFile from './MediaPlayerMidiFile'
 import Abc from './Abc'
 import {
   isQueueActive,
   getCurrentItem,
-  getCurrentTuneId,
   resolvePlaybackForItem,
 } from '../nowPlayingQueue'
 import {
   parseTunePagePlaybackFromUrl,
+  resolveHostPlayingTune,
+  resolveHostPlayingTuneId,
   shouldNowPlayingHostOwnPlayback,
 } from '../nowPlayingQueuePlayback'
 import { shouldSuppressHostAutostart } from '../playbackNavigationUtils'
@@ -18,7 +18,7 @@ import {
   shouldSkipHostMidiRouteApply,
 } from '../playbackHostTarget'
 import { buildPlayableTuneAbc } from '../abcVoiceFilter'
-import { getPlayableVoiceKeys, getTuneVoiceKeys, VOICE_VIEW_SETTINGS_CHANGED } from '../abcVoiceViewSettings'
+import { getPlaybackVoiceKeys, getTuneVoiceKeys, VOICE_VIEW_SETTINGS_CHANGED } from '../abcVoiceViewSettings'
 import { resolveLinkPlaybackSrcType } from '../mediaLinkSrcType'
 import './NowPlayingHost.css'
 
@@ -54,14 +54,21 @@ export default function NowPlayingHost(props) {
 
   const pathname = props.pathname || ''
   const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
-  const queuePlayingTuneId = getCurrentTuneId(queue)
-  const queuePlayingTune = queuePlayingTuneId ? tunes[queuePlayingTuneId] : null
   const currentItem = getCurrentItem(queue)
-  const controllerTune = mediaController && mediaController.tune ? mediaController.tune : null
-  const viewedTune = viewedTuneId ? tunes[viewedTuneId] : null
-  const playingTune = isQueueActive(queue)
-    ? queuePlayingTune
-    : (controllerTune || (urlPlayback && viewedTune ? viewedTune : null))
+  const hostPlayingTuneId = resolveHostPlayingTuneId({
+    queue: queue,
+    mediaController: mediaController,
+    viewedTuneId: viewedTuneId,
+    pathname: pathname,
+  })
+  const playingTune = useMemo(function() {
+    return resolveHostPlayingTune(hostPlayingTuneId, tunes, mediaController)
+  }, [
+    hostPlayingTuneId,
+    tunes,
+    mediaController,
+    mediaController && mediaController.tune,
+  ])
 
   const shouldHost = shouldNowPlayingHostOwnPlayback({
     viewedTuneId: viewedTuneId,
@@ -84,11 +91,14 @@ export default function NowPlayingHost(props) {
     urlPlayback
   )
 
+  const notationOwnsMidi = !!(mediaController && mediaController.notationMidiOwner)
+
   const playbackTarget = useMemo(function() {
+    const tune = playingTune
     const routeFromUrl = parseTunePagePlaybackFromUrl(pathname)
     return resolveHostPlaybackTarget(
       mediaController,
-      playingTune,
+      tune,
       tunebook,
       queue,
       currentItem,
@@ -110,18 +120,23 @@ export default function NowPlayingHost(props) {
     mediaController && mediaController.requestedPlayState,
     mediaController && mediaController.isPlaying,
     mediaController && mediaController.isLoading,
+    voiceSettingsRevision,
   ])
 
-  const playableVoiceKey = useMemo(function() {
-    if (!playingTune) return ''
-    const voiceKeys = getTuneVoiceKeys(playingTune)
-    return getPlayableVoiceKeys(playingTune.id, voiceKeys).join('\0')
-  }, [playingTune, voiceSettingsRevision])
+  const playbackVoiceKey = useMemo(function() {
+    if (!hostPlayingTuneId) return ''
+    const tune = playingTune || tunes[hostPlayingTuneId]
+    if (!tune) return ''
+    const voiceKeys = getTuneVoiceKeys(tune)
+    return getPlaybackVoiceKeys(tune.id, voiceKeys).join('\0')
+  }, [hostPlayingTuneId, playingTune, tunes, voiceSettingsRevision])
 
   const staffPlaybackAbc = useMemo(function() {
-    if (!playingTune || !tunebook) return ''
-    return buildPlayableTuneAbc(playingTune, tunebook)
-  }, [playingTune, tunebook, playableVoiceKey])
+    if (!hostPlayingTuneId || !tunebook) return ''
+    const tune = playingTune || tunes[hostPlayingTuneId]
+    if (!tune) return ''
+    return buildPlayableTuneAbc(tune, tunebook)
+  }, [hostPlayingTuneId, playingTune, tunes, tunebook, playbackVoiceKey])
 
   useEffect(function() {
     if (!shouldHost || !mediaController || !playingTune) return undefined
@@ -167,8 +182,10 @@ export default function NowPlayingHost(props) {
   const activeMediaSrcType = activeMediaLink && tunebook
     ? resolveLinkPlaybackSrcType(activeMediaLink, tunebook.utils && tunebook.utils.isYoutubeLink)
     : null
+  const isMidiFileRoute = mediaController && mediaController.isMidiFileMediaRoute
+    && mediaController.isMidiFileMediaRoute()
   const engineKey = playbackTarget.type === 'midi'
-    ? 'host-midi-' + playingTune.id + '-v' + playableVoiceKey
+    ? 'host-midi-' + playingTune.id + '-v' + playbackVoiceKey
     // Keep a stable media host key so queue advance reuses the same <audio>
     // element (src change) instead of remounting — required for mobile
     // screen-off auto-advance / continuous Media Session autoplay.
@@ -177,17 +194,7 @@ export default function NowPlayingHost(props) {
   return (
     <div className="now-playing-host" aria-hidden="true">
       {playbackTarget.type === 'media' ? (
-        activeMediaSrcType === 'midifile' ? (
-          <MediaPlayerMidiFile
-            key={'host-midifile-' + playingTune.id + '-' + routeMediaLinkNumber}
-            mediaController={mediaController}
-            tunebook={tunebook}
-            tune={playingTune}
-            routePlayState={routePlayState}
-            routeMediaLinkNumber={routeMediaLinkNumber}
-            suppressAutostart={suppressAutostart}
-          />
-        ) : (
+        activeMediaSrcType === 'midifile' || isMidiFileRoute ? null : (
           <MediaPlayerMedia
             key={engineKey}
             mediaController={mediaController}
@@ -196,7 +203,7 @@ export default function NowPlayingHost(props) {
             routePlayState={routePlayState}
             routeMediaLinkNumber={routeMediaLinkNumber}
             suppressAutostart={suppressAutostart}
-            suppressTapModal={true}
+            suppressTapModal={false}
             instanceId="queue"
             compactPlayer={true}
           />
@@ -206,8 +213,10 @@ export default function NowPlayingHost(props) {
           key={engineKey}
           mediaController={mediaController}
           tunebook={tunebook}
+          tunes={tunes}
           abc={staffPlaybackAbc}
           meter={playingTune.meter}
+          tablatureSourceTune={playingTune}
           autoPrime={true}
           autoStart={resumePlaybackOnHost && !suppressAutostart}
           editableTempo={false}
@@ -215,7 +224,7 @@ export default function NowPlayingHost(props) {
           hideSvg={true}
           hidePlayer={true}
           suppressPlaybackVisuals={true}
-          playbackEngine={true}
+          playbackEngine={!notationOwnsMidi}
           onEnded={function() {
             if (mediaController.onEnded) mediaController.onEnded()
           }}

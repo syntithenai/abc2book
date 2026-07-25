@@ -15,6 +15,7 @@ export default function NotationAnnotOverlay(props) {
     onCommit,
     onAdvance,
     onCancel,
+    onClear,
   } = props;
   const inputRef = useRef(null);
 
@@ -27,8 +28,9 @@ export default function NotationAnnotOverlay(props) {
 
   if (!mode) return null;
 
-  const placeholder = mode === 'finger' ? '1–5' : 'Am';
+  const placeholder = mode === 'finger' ? '1–5 or label' : 'Am';
   const title = mode === 'finger' ? 'Fingering' : 'Chord symbol';
+  const inputType = mode === 'chord' ? 'search' : 'text';
 
   return (
     <div
@@ -39,17 +41,31 @@ export default function NotationAnnotOverlay(props) {
     >
       <Form.Control
         ref={inputRef}
+        type={inputType}
         size="sm"
+        className="notation-annot-overlay-input"
         value={value || ''}
         placeholder={placeholder}
         aria-label={title}
-        title={title + ' — Space advances, Esc cancels'}
-        onChange={function(e) { if (onChange) onChange(e.target.value); }}
+        title={title + ' — Space advances, Enter saves, Esc cancels'}
+        onChange={function(e) {
+          const next = e.target.value;
+          if (onChange) onChange(next);
+        }}
+        onSearch={function(e) {
+          if (!String(e.target.value || '').length && typeof onClear === 'function') onClear();
+        }}
         onKeyDown={function(e) {
           if (e.key === 'Escape') {
             e.preventDefault();
             e.stopPropagation();
             if (onCancel) onCancel();
+            return;
+          }
+          if (e.key === 'Backspace' && !(value || '').length && typeof onClear === 'function') {
+            e.preventDefault();
+            e.stopPropagation();
+            onClear();
             return;
           }
           if (e.key === ' ' || e.key === 'Enter') {

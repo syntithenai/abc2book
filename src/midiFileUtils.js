@@ -34,6 +34,36 @@ export function isMidiOwnedMediaLink(link) {
 }
 
 /**
+ * abcjs getMidiFile(binary) may return a Uint8Array or an array of them (one per tune).
+ */
+export function normalizeMidiBinaryData(midi) {
+  if (!midi) return null
+  if (midi instanceof Uint8Array) {
+    return midi.byteLength >= 4 ? midi : null
+  }
+  if (midi instanceof ArrayBuffer) {
+    return midi.byteLength >= 4 ? new Uint8Array(midi) : null
+  }
+  if (Array.isArray(midi)) {
+    for (let i = 0; i < midi.length; i += 1) {
+      const normalized = normalizeMidiBinaryData(midi[i])
+      if (normalized) return normalized
+    }
+    return null
+  }
+  return null
+}
+
+export function isMidiHeader(bytes) {
+  return !!bytes
+    && bytes.length >= 4
+    && bytes[0] === 77
+    && bytes[1] === 84
+    && bytes[2] === 104
+    && bytes[3] === 100
+}
+
+/**
  * Probe MIDI file duration in seconds (best effort).
  * @param {Blob|ArrayBuffer} input
  * @returns {Promise<number|null>}

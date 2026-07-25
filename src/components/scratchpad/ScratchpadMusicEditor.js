@@ -71,6 +71,7 @@ export default function ScratchpadMusicEditor(props) {
             label: (options && options.historyLabel) || 'Edit',
             before: before,
             after: JSON.parse(JSON.stringify(next)),
+            immediate: !!(options && options.immediate),
           })
         }
         const patch = {}

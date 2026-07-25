@@ -204,9 +204,10 @@ export function probeMediaResolverHealth(accessToken, options) {
   return probePromise;
 }
 
-export function refreshMediaResolverHealth() {
+export function refreshMediaResolverHealth(accessToken) {
   clearActiveMediaProxyBase();
-  return probeMediaResolverHealth(activeAccessToken, { force: true });
+  const token = accessToken !== undefined ? accessToken : activeAccessToken;
+  return probeMediaResolverHealth(token, { force: true });
 }
 
 export function ensureMediaResolverHealthSettingsListener() {

@@ -7,9 +7,28 @@ import MediaPlaybackRegionPanel from './MediaPlaybackRegionPanel'
 import MidiPlaybackMetronomePanel from './MidiPlaybackMetronomePanel'
 import MediaSeekSlider from './MediaSeekSlider'
 import { getActiveLinkIndex, getFirstPlayableMediaLinkIndex } from '../mediaPlaybackUtils'
-import { youtubeAudioBytesAvailable } from '../youtubeUnlock'
+import { linkedMediaPitchPathAvailable } from '../linkedMediaPitchPath'
+import { isChromiumDesktopBrowser } from '../platformUtils'
 import { getViewedTuneIdFromPath, getSkipNavigationTuneId } from '../playbackNavigationUtils'
+import {
+  mediaLinkPlaybackIcon,
+  resolveMediaLinkPlaybackButton,
+} from '../mediaLinkPlaybackButton'
 import './MediaPlayerOptionsModal.css'
+
+function resolveTuneRecord(tunes, tune) {
+  if (!tune || !tune.id) return null
+  if (tunes && tunes[tune.id]) return tunes[tune.id]
+  return tune
+}
+
+function resolveControlsHeaderTune(mediaController, tunes, viewedTune) {
+  if (mediaController.isPlaying || mediaController.isLoading) {
+    return resolveTuneRecord(tunes, mediaController.tune) || viewedTune
+  }
+  if (viewedTune) return viewedTune
+  return resolveTuneRecord(tunes, mediaController.tune)
+}
 
 export default function MediaPlayerOptionsModal({
   mediaController,
@@ -49,17 +68,13 @@ export default function MediaPlayerOptionsModal({
   const showTunePlaybackControls = inPracticeContext
     || location.pathname.indexOf('/tunes/') === 0
     || location.pathname.indexOf('/editor/') === 0
-  const playingTune = (function() {
-    const tune = mediaController.tune
-    if (!tune || !tune.id) return null
-    if (tunes && tunes[tune.id]) return tunes[tune.id]
-    return tune
-  })()
-  const playingTuneLabel = playingTune
-    && playingTune.name
-    && playingTune.name.trim().length > 0
-    ? playingTune.name.trim()
-    : (playingTune ? 'Untitled Song' : '')
+  const controlsHeaderTune = resolveControlsHeaderTune(mediaController, tunes, viewedTune)
+  const controlsHeaderTuneLabel = controlsHeaderTune
+    && controlsHeaderTune.name
+    && controlsHeaderTune.name.trim().length > 0
+    ? controlsHeaderTune.name.trim()
+    : (controlsHeaderTune ? 'Untitled Song' : '')
+  const showNowPlayingHeader = !!(mediaController.isPlaying || mediaController.isLoading)
   const [show, setShow] = useState(false);
   const [settingsTab, setSettingsTab] = useState('playback');
   var useButtonSize=(buttonSize ? buttonSize : 'lg')
@@ -91,26 +106,81 @@ export default function MediaPlayerOptionsModal({
     && viewedTune.links
     && viewedTune.links[activeLinkIndex]
 
-  const [youtubePitchUnlocked, setYoutubePitchUnlocked] = useState(false)
+  const activeLinkSrcType = viewedTune
+    && activeLinkIndex !== null
+    && viewedTune.links
+    && viewedTune.links[activeLinkIndex]
+    ? mediaController.getSrcType(
+      viewedTune.links[activeLinkIndex].link,
+      viewedTune.links[activeLinkIndex]
+    )
+    : null
+  const needsLinkedMediaPitchPath = activeLinkSrcType === 'youtube' || activeLinkSrcType === 'audio'
+
+  const [linkedMediaPitchUnlocked, setLinkedMediaPitchUnlocked] = useState(false)
   useEffect(function() {
     let cancelled = false
-    youtubeAudioBytesAvailable({
+    if (!needsLinkedMediaPitchPath) {
+      setLinkedMediaPitchUnlocked(false)
+      return function() { cancelled = true }
+    }
+    linkedMediaPitchPathAvailable({
+      srcType: activeLinkSrcType,
       resolverFeatures: mediaController.resolverFeatures || null,
+      resolverStatus: mediaController.mediaResolverStatus || null,
+      accessToken: null,
     }).then(function(ok) {
-      if (!cancelled) setYoutubePitchUnlocked(!!ok)
+      if (!cancelled) setLinkedMediaPitchUnlocked(!!ok)
     })
     return function() { cancelled = true }
-  }, [mediaController.resolverFeatures, show])
+  }, [
+    needsLinkedMediaPitchPath,
+    activeLinkSrcType,
+    mediaController.resolverFeatures,
+    mediaController.mediaResolverStatus,
+    mediaController.mediaResolverChecked,
+    show,
+  ])
 
-  const showPitchControls = !!youtubePitchUnlocked
+  useEffect(function() {
+    if (typeof window === 'undefined') return undefined
+    function refreshPitchPath() {
+      if (!needsLinkedMediaPitchPath) return
+      linkedMediaPitchPathAvailable({
+        srcType: activeLinkSrcType,
+        resolverFeatures: mediaController.resolverFeatures || null,
+        resolverStatus: mediaController.mediaResolverStatus || null,
+        accessToken: null,
+      }).then(function(ok) {
+        setLinkedMediaPitchUnlocked(!!ok)
+      })
+    }
+    window.addEventListener('mediaProxySettingsChanged', refreshPitchPath)
+    window.addEventListener('youtubeHelperSettingsChanged', refreshPitchPath)
+    return function() {
+      window.removeEventListener('mediaProxySettingsChanged', refreshPitchPath)
+      window.removeEventListener('youtubeHelperSettingsChanged', refreshPitchPath)
+    }
+  }, [needsLinkedMediaPitchPath, activeLinkSrcType, mediaController.resolverFeatures, mediaController.mediaResolverStatus])
+
+  const showPitchControls = !!hasMusic
+    || (needsLinkedMediaPitchPath && linkedMediaPitchUnlocked)
+  const showYoutubeHelperInvite = !!needsLinkedMediaPitchPath
+    && activeLinkSrcType === 'youtube'
+    && !linkedMediaPitchUnlocked
+    && !hasMusic
+    && isChromiumDesktopBrowser()
 
   const showAudioFiltersTab = !!viewedTune
     && activeLinkIndex !== null
     && viewedTune.links
     && viewedTune.links[activeLinkIndex]
-    && mediaController.getSrcType(viewedTune.links[activeLinkIndex].link) !== 'abc'
+    && mediaController.getSrcType(
+      viewedTune.links[activeLinkIndex].link,
+      viewedTune.links[activeLinkIndex]
+    ) !== 'abc'
     && mediaController.stemsCapabilityAvailable
-    && youtubePitchUnlocked
+    && linkedMediaPitchUnlocked
 
   useEffect(function() {
     if (settingsTab === 'loop' && !showLoopTab) {
@@ -177,17 +247,12 @@ export default function MediaPlayerOptionsModal({
       playState: 'playMedia',
       linkNum: linkKey,
     })
-    if (!requestPlaybackForTarget({
+    requestPlaybackForTarget({
       playState: 'playMedia',
       linkNum: linkKey,
       fresh: !sameSource,
-    })) {
-      if (sameSource) {
-        startPlaybackFromGesture()
-      } else {
-        startPlaybackFromGesture({ fresh: true })
-      }
-    }
+    })
+    startPlaybackFromGesture(sameSource ? {} : { fresh: true })
     if (!suppressRouteNavigation && location.pathname !== path) {
       navigate(path)
     }
@@ -254,9 +319,12 @@ export default function MediaPlayerOptionsModal({
         <Modal.Header closeButton className="media-controls-modal-header">
           <Modal.Title className="media-controls-modal-title-row">
             <span className="media-controls-modal-title-text">Media Controls</span>
-            {playingTuneLabel ? (
-              <span className="media-controls-now-playing" title={'Now Playing: ' + playingTuneLabel}>
-                Now Playing: {playingTuneLabel}
+            {controlsHeaderTuneLabel ? (
+              <span
+                className="media-controls-now-playing"
+                title={(showNowPlayingHeader ? 'Now Playing: ' : '') + controlsHeaderTuneLabel}
+              >
+                {showNowPlayingHeader ? 'Now Playing: ' : ''}{controlsHeaderTuneLabel}
               </span>
             ) : null}
           </Modal.Title>
@@ -287,14 +355,28 @@ export default function MediaPlayerOptionsModal({
                   ) : (
                     <>
                       {hasLinks ? viewedTune.links.map(function(link, linkKey) {
+                        if (!link || !link.link || !String(link.link).trim()) return null
+                        const isYoutubeLink = tunebook.utils && tunebook.utils.isYoutubeLink
+                        const buttonProps = resolveMediaLinkPlaybackButton(link, isYoutubeLink)
+                        const isActiveLink = mediaController.isMediaPlaybackRoute
+                          && mediaController.isMediaPlaybackRoute()
+                          && mediaController.mediaLinkNumber === linkKey
                         return (
                           <Button
                             key={linkKey}
                             style={{marginLeft:'0.1em'}}
-                            variant="danger"
+                            variant={isActiveLink ? buttonProps.variant : 'outline-' + buttonProps.variant}
+                            className={buttonProps.className}
+                            title={buttonProps.label
+                              ? buttonProps.label + ' link ' + (linkKey + 1)
+                              : 'Media link ' + (linkKey + 1)}
                             onClick={function() { handleLinkPlayback(linkKey) }}
                           >
-                            {tunebook.icons.link} {tunebook.icons.play} {linkKey + 1}
+                            {mediaLinkPlaybackIcon(tunebook, buttonProps.iconKey)}
+                            {' '}
+                            {tunebook.icons.play}
+                            {' '}
+                            {linkKey + 1}
                           </Button>
                         )
                       }) : null}
@@ -364,6 +446,7 @@ export default function MediaPlayerOptionsModal({
                     tunebook={tunebook}
                     mediaController={mediaController}
                     showPitchControls={showPitchControls}
+                    showYoutubeHelperInvite={showYoutubeHelperInvite}
                   />
                 </Tab>
                 {showAudioFiltersTab && (

@@ -1,0 +1,103 @@
+{
+  "id": "04-diatonic-major",
+  "title": "04 Diatonic Major",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "03-chords/04-diatonic-major.md",
+  "sections": [
+    {
+      "id": "diatonic-triads-in-major-keys",
+      "title": "Diatonic Triads in Major Keys",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** chords | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Diatonic triads use only notes from the major scale, one chord per scale degree."
+        }
+      ]
+    },
+    {
+      "id": "pattern",
+      "title": "Pattern",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "I (major), ii (minor), iii (minor), IV (major), V (major), vi (minor), vii° (diminished). In G major: G, Am, Bm, C, D, Em, F♯dim."
+        }
+      ]
+    },
+    {
+      "id": "primary-harmonies",
+      "title": "Primary harmonies",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "I, IV, and V are the workhorses of folk song. vi (relative minor) adds emotional contrast. ii often precedes V in sophisticated progressions."
+        }
+      ]
+    },
+    {
+      "id": "melody-mapping",
+      "title": "Melody mapping",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "When guessing chords in D major, start with D, G, A, Bm. Melody notes on F♯ and A over a D bass suggest V."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-vi-chord-in-g-major",
+      "title": "Q1. vi chord in G major:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Em\n- B) Am\n- C) Bm\n- D) C\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-major-key-diatonic-pattern-i-ii-iii-iv-v-vi-vii",
+      "title": "Q2. Major key diatonic pattern: I ii iii IV V vi vii°",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. vi chord in G major:\n\n- A) Em\n- B) Am\n- C) Bm\n- D) C\n\n**Answer:** A\n\n### Q2. Major key diatonic pattern: I ii iii IV V vi vii°\n\n**Answer:** True"
+}

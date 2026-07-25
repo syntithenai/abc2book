@@ -2,6 +2,11 @@ function copyLink(link) {
   return link ? Object.assign({}, link) : {}
 }
 
+export function normalizeTuneId(id) {
+  if (id == null) return ''
+  return String(id)
+}
+
 export function getLiveTune(tuneId, opts) {
   if (tuneId == null || !opts) return null
 

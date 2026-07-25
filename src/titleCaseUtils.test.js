@@ -31,6 +31,7 @@ describe('titleCaseUtils', function() {
   test('isSongTitleCapitalized detects mismatch', function() {
     expect(isSongTitleCapitalized('Roots Down')).toBe(true)
     expect(isSongTitleCapitalized('Where Does the Water Go')).toBe(true)
+    expect(isSongTitleCapitalized('After The Battle Of Aughrim')).toBe(true)
     expect(isSongTitleCapitalized('ROOTS DOWN')).toBe(false)
     expect(isSongTitleCapitalized('roots down')).toBe(false)
     expect(isSongTitleCapitalized('')).toBe(true)

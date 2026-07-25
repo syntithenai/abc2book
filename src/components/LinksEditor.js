@@ -1,9 +1,10 @@
-import {useRef, useState, useEffect} from 'react'
+import {useRef, useState, useEffect, useMemo} from 'react'
 import {useNavigate} from 'react-router-dom'
 import {Button, ButtonGroup, Form, Badge} from 'react-bootstrap'
 import YouTube from 'react-youtube'
 import YouTubeSearchModal from './YouTubeSearchModal'
 import LinkPlayRangeModal from './LinkPlayRangeModal'
+import ScratchpadWorkspacePickerModal from './scratchpad/ScratchpadWorkspacePickerModal'
 import MediaImportWizard from './MediaImportWizard'
 import MediaImportEntryButton from './MediaImportEntryButton'
 import FileInputButton from './FileInputButton'
@@ -25,6 +26,11 @@ import { getLinkSrcType } from '../checkTuneLinkPlayback'
 import { fetchDirectOrProxy } from '../mediaProxyClient'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
 import { createScratchpadItemFromLink, linkCanOpenInScratchpad } from '../scratchpadFromLink'
+import { exportMidiLinkToScratchpad } from '../exportMidiLinkToScratchpad'
+import { scratchpadItemPath } from '../scratchpadExportToast'
+import { getMidiExportNotationAccess } from '../midiExportNotationAccess'
+import useMidiFilePlayback from '../useMidiFilePlayback'
+import { resolveMidiLinkPlaybackData } from '../midiLinkResolve'
 
 const YT_PLAYING = 1
 const YT_ENDED = 0
@@ -88,7 +94,19 @@ export default function LinksEditor(props) {
 
     const audioUtils = useAudioUtils()
     const driveDocs = useGoogleDocument(props.token, function() {})
-    const { available: resolverAvailable, features } = useMediaResolverHealth()
+    const { available: resolverAvailable, checked: resolverChecked, status: resolverStatus, features: resolverFeatures } = useMediaResolverHealth()
+    const resolverAccessContext = useMemo(function() {
+        return {
+            resolverAvailable: resolverAvailable,
+            resolverChecked: resolverChecked,
+            resolverStatus: resolverStatus,
+            features: resolverFeatures,
+            accessToken: props.token,
+        }
+    }, [resolverAvailable, resolverChecked, resolverStatus, resolverFeatures, props.token])
+    const midiExportAccess = useMemo(function() {
+        return getMidiExportNotationAccess(resolverAccessContext)
+    }, [resolverAccessContext])
     const recordingStartedAt = useRef(0)
     const recordingIntervalRef = useRef(null)
     const [warning, setWarning] = useState('')
@@ -101,6 +119,10 @@ export default function LinksEditor(props) {
     const [previewLinkIndex, setPreviewLinkIndex] = useState(null)
     const [previewLoadingIndex, setPreviewLoadingIndex] = useState(null)
     const [playRangeLinkIndex, setPlayRangeLinkIndex] = useState(null)
+    const [midiExportLinkIndex, setMidiExportLinkIndex] = useState(null)
+    const [showMidiExportPicker, setShowMidiExportPicker] = useState(false)
+    const [midiExportBusy, setMidiExportBusy] = useState(false)
+    const [pendingMidiExportLinkIndex, setPendingMidiExportLinkIndex] = useState(null)
     const [youtubePreview, setYoutubePreview] = useState(null)
     const previewAudioRef = useRef(null)
     const previewBlobUrlRef = useRef(null)
@@ -113,6 +135,66 @@ export default function LinksEditor(props) {
         ? Object.assign({}, props.tune, { id: props.tune.id || props.tuneId || '' })
         : null
     const isYoutubeLink = props.tunebook && props.tunebook.utils && props.tunebook.utils.isYoutubeLink
+
+    const midiFilePreview = useMidiFilePlayback({
+        onEnded: function() {
+            setPreviewLinkIndex(null)
+            setPreviewLoadingIndex(null)
+        },
+        onError: function(message) {
+            if (message) {
+                setWarning(String(message))
+            }
+            setPreviewLinkIndex(null)
+            setPreviewLoadingIndex(null)
+        },
+    })
+
+    useEffect(function() {
+        if (pendingMidiExportLinkIndex == null) return undefined
+        if (!midiExportAccess.canExport) return undefined
+        if (!props.token || !props.token.access_token) return undefined
+        setMidiExportLinkIndex(pendingMidiExportLinkIndex)
+        setShowMidiExportPicker(true)
+        setPendingMidiExportLinkIndex(null)
+        return undefined
+    }, [pendingMidiExportLinkIndex, midiExportAccess.canExport, props.token])
+
+    function runResolverGatedAction(access, linkIndex, options) {
+        const opts = options || {}
+        if (!access.showButton) return
+        if (access.needsLogin) {
+            if (typeof props.login !== 'function') {
+                setWarning(opts.loginRequiredMessage || 'Log in to continue')
+                return
+            }
+            if (opts.setPending) opts.setPending(linkIndex)
+            props.login().catch(function(e) {
+                if (opts.clearPending) opts.clearPending()
+                if (e && e.message && e.message.indexOf('cancelled') === -1
+                    && e.message.indexOf('Sign-in cancelled') === -1) {
+                    setWarning(e.message)
+                }
+            })
+            return
+        }
+        if (opts.onReady) opts.onReady(linkIndex)
+    }
+
+    function beginMidiExportToNotation(linkIndex) {
+        if (previewLinkIndex === linkIndex) {
+            stopLinkPreview()
+        }
+        runResolverGatedAction(midiExportAccess, linkIndex, {
+            loginRequiredMessage: 'Log in to export MIDI to notation',
+            setPending: setPendingMidiExportLinkIndex,
+            clearPending: function() { setPendingMidiExportLinkIndex(null) },
+            onReady: function(index) {
+                setMidiExportLinkIndex(index)
+                setShowMidiExportPicker(true)
+            },
+        })
+    }
 
     function stopYoutubePreview() {
         if (youtubeEndPollRef.current) {
@@ -133,6 +215,7 @@ export default function LinksEditor(props) {
 
     function stopLinkPreview() {
         stopYoutubePreview()
+        midiFilePreview.stop()
         const audio = previewAudioRef.current
         if (audio) {
             audio.pause()
@@ -182,6 +265,14 @@ export default function LinksEditor(props) {
         return storePreviewBlobUrl(URL.createObjectURL(blob))
     }
 
+    function shouldProxyLinkPreviewSrc(src, srcType) {
+        if (srcType !== 'audio') return false
+        const value = String(src || '').trim()
+        if (!value) return false
+        if (value.startsWith('blob:') || value.startsWith('data:')) return false
+        return value.startsWith('http://') || value.startsWith('https://')
+    }
+
     async function resolveLinkPreviewSrc(link, linkIndex, options) {
         const opts = options || {}
         const src = String(link.link).trim()
@@ -201,7 +292,7 @@ export default function LinksEditor(props) {
             }
             return storePreviewBlobUrl(URL.createObjectURL(resolved.blob))
         }
-        if (opts.forceFetch) {
+        if (opts.forceFetch || shouldProxyLinkPreviewSrc(src, srcType)) {
             return fetchExternalPreviewBlobUrl(src, srcType)
         }
         return src
@@ -317,13 +408,37 @@ export default function LinksEditor(props) {
     function pauseOtherPlayback() {
         const mediaController = props.mediaController
         if (!mediaController) return
-        if (typeof mediaController.pause === 'function') {
-            mediaController.pause()
-            return
+        if (mediaController.stopMidiFileRef && mediaController.stopMidiFileRef.current) {
+            mediaController.stopMidiFileRef.current()
         }
         if (typeof mediaController.abortPlayingIntent === 'function') {
             mediaController.abortPlayingIntent()
+            return
         }
+        if (typeof mediaController.pause === 'function') {
+            mediaController.pause()
+        }
+    }
+
+    async function startMidiLinkPreview(link, linkIndex) {
+        const tuneId = getTuneId()
+        if (!tuneId) {
+            throw new Error('Save the tune before playing MIDI links.')
+        }
+        midiFilePreview.resumeAudioContextFromGesture()
+        const resolved = await resolveMidiLinkPlaybackData(link, tuneId, linkIndex, {
+            accessToken: props.token && props.token.access_token,
+            driveApi: driveDocs,
+            isYoutubeLink: isYoutubeLink,
+        })
+        await midiFilePreview.init(resolved.arrayBuffer)
+        midiFilePreview.resumeAudioContextFromGesture()
+        const started = await midiFilePreview.start()
+        if (!started) {
+            throw new Error('Could not start MIDI preview.')
+        }
+        setPreviewLinkIndex(linkIndex)
+        setPreviewLoadingIndex(null)
     }
 
     async function toggleLinkPreview(linkIndex) {
@@ -332,6 +447,7 @@ export default function LinksEditor(props) {
 
         if (previewLinkIndex === linkIndex || previewLoadingIndex === linkIndex) {
             stopLinkPreview()
+            pauseOtherPlayback()
             return
         }
 
@@ -343,6 +459,10 @@ export default function LinksEditor(props) {
             const srcType = getLinkSrcType(link, isYoutubeLink)
             if (srcType === 'youtube') {
                 startYoutubePreview(link, linkIndex)
+                return
+            }
+            if (srcType === 'midifile') {
+                await startMidiLinkPreview(link, linkIndex)
                 return
             }
 
@@ -392,6 +512,35 @@ export default function LinksEditor(props) {
         return Object.assign({}, tuneForMedia, { id: tuneId })
     }
 
+    async function runMidiExportToNotation(linkIndex, workspaceId) {
+        const link = props.links && props.links[linkIndex]
+        const tuneId = getTuneId()
+        if (!link || !tuneId || !workspaceId) return
+        setMidiExportBusy(true)
+        setWarning('')
+        try {
+            await exportMidiLinkToScratchpad({
+                link: link,
+                linkIndex: linkIndex,
+                tuneId: tuneId,
+                workspaceId: workspaceId,
+                accessToken: props.token,
+                driveApi: driveDocs,
+                isYoutubeLink: isYoutubeLink,
+                onOpenItem: function(itemId) {
+                    navigate(scratchpadItemPath(itemId))
+                },
+            })
+        } catch (e) {
+            if (e && e.message && e.message.indexOf('cancelled') === -1) {
+                setWarning(e.message || 'Could not export MIDI to scratchpad')
+            }
+        } finally {
+            setMidiExportBusy(false)
+            setMidiExportLinkIndex(null)
+        }
+    }
+
     async function openLinkInScratchpad(link, linkIndex) {
         setScratchpadLinkIndex(linkIndex)
         setWarning('')
@@ -436,6 +585,9 @@ export default function LinksEditor(props) {
             return remapIndexAfterSwap(current, fromIndex, toIndex)
         })
         setPlayRangeLinkIndex(function(current) {
+            return remapIndexAfterSwap(current, fromIndex, toIndex)
+        })
+        setMidiExportLinkIndex(function(current) {
             return remapIndexAfterSwap(current, fromIndex, toIndex)
         })
         if (youtubePreviewRef.current && youtubePreviewRef.current.linkIndex != null) {
@@ -700,6 +852,7 @@ export default function LinksEditor(props) {
                     {Array.isArray(props.links) && props.links.map(function(link, lk) {
                         const ownedMedia = isOwnedMediaLink(link)
                         const syncStatus = ownedMedia ? getOwnedMediaSyncStatus(link) : null
+                        const linkSrcType = getLinkSrcType(link, isYoutubeLink)
                         return <div key={lk} className="links-editor-link-card">
                             <div className="links-editor-link-actions">
                                 <Button
@@ -854,18 +1007,38 @@ export default function LinksEditor(props) {
                                 {!simplified && (
                                     <div className="links-editor-fields-row links-editor-fields-row--region">
                                         <div className="links-editor-region-actions">
-                                            <Button
-                                                variant="primary"
-                                                size="sm"
-                                                onClick={function() {
-                                                    if (previewLinkIndex === lk) {
-                                                        stopLinkPreview()
-                                                    }
-                                                    setPlayRangeLinkIndex(lk)
-                                                }}
-                                            >
-                                                Play Range
-                                            </Button>
+                                            {linkSrcType === 'midifile' ? (
+                                                midiExportAccess.showButton ? (
+                                                    <Button
+                                                        variant="primary"
+                                                        size="sm"
+                                                        disabled={midiExportBusy}
+                                                        title={midiExportAccess.needsLogin && midiExportAccess.loginWarning
+                                                            ? midiExportAccess.loginWarning.message
+                                                            : 'Convert this MIDI link to scratchpad notation'}
+                                                        onClick={function() { beginMidiExportToNotation(lk) }}
+                                                    >
+                                                        {midiExportBusy && midiExportLinkIndex === lk
+                                                            ? props.tunebook.icons.waiting
+                                                            : (midiExportAccess.needsLogin
+                                                                ? 'Login To Export Notation'
+                                                                : 'Export To Notation')}
+                                                    </Button>
+                                                ) : null
+                                            ) : (
+                                                <Button
+                                                    variant="primary"
+                                                    size="sm"
+                                                    onClick={function() {
+                                                        if (previewLinkIndex === lk) {
+                                                            stopLinkPreview()
+                                                        }
+                                                        setPlayRangeLinkIndex(lk)
+                                                    }}
+                                                >
+                                                    Play Range
+                                                </Button>
+                                            )}
                                         </div>
                                     </div>
                                 )}
@@ -901,9 +1074,25 @@ export default function LinksEditor(props) {
                     tune={tuneForMedia || props.tune}
                     tunebook={props.tunebook}
                     token={props.token}
+                    login={props.login}
                     icons={props.tunebook && props.tunebook.icons}
                 />
             )}
+            <ScratchpadWorkspacePickerModal
+                show={showMidiExportPicker}
+                onHide={function() {
+                    if (midiExportBusy) return
+                    setShowMidiExportPicker(false)
+                    setMidiExportLinkIndex(null)
+                }}
+                title="Export MIDI to scratchpad"
+                description="Choose a workspace for the notation record created from this MIDI link."
+                onConfirm={function(workspaceId) {
+                    setShowMidiExportPicker(false)
+                    if (midiExportLinkIndex == null) return
+                    runMidiExportToNotation(midiExportLinkIndex, workspaceId)
+                }}
+            />
             {youtubePreview && (
                 <div
                     style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', overflow: 'hidden' }}

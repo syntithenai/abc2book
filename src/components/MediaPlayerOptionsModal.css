@@ -129,6 +129,18 @@
   align-items: center;
 }
 
+.media-controls-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15em;
+}
+
+.media-controls-link-btn--midi svg {
+  width: 1.15em;
+  height: 1.15em;
+  flex-shrink: 0;
+}
+
 .media-controls-skip-buttons {
   margin-left: 0.15em;
 }

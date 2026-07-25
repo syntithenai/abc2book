@@ -41,6 +41,8 @@ export default function BulkCheckTuneEditorModal(props) {
           embedded={true}
           tuneId={tuneId}
           tune={tune}
+          initialView={props.initialView || undefined}
+          autoStartChordSearch={props.autoStartChordSearch}
           tunes={props.tunes}
           tunesRevision={props.tunesRevision}
           tunebook={props.tunebook}

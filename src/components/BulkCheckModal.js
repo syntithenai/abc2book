@@ -1,8 +1,10 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Alert, Button, Form, Modal } from 'react-bootstrap'
 import BulkCheckTuneList from './BulkCheckTuneList'
 import BulkCheckTuneEditorModal from './BulkCheckTuneEditorModal'
 import SearchProgressBar from './SearchProgressBar'
+import { getBulkCheckActionAccess } from '../bulkCheckSearchAccess'
+import { useBulkCheckResolverAccess } from '../useBulkCheckSearchAccess'
 import { dismissBulkCheckReturnToast, selectedMapFromSelectionKey, subscribeBulkCheckOpenRequest } from '../bulkCheckReturnContext'
 import {
   buildLinkCheckQueue,
@@ -30,6 +32,25 @@ const BULK_CHECK_SELECTION_WARN_THRESHOLD = 100
 
 export default function BulkCheckModal(props) {
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
+  const accessToken = props.token && props.token.access_token ? props.token.access_token : null
+  const resolverAccess = useBulkCheckResolverAccess(accessToken)
+
+  const getSearchAccess = useCallback(function(actionId, tune) {
+    return getBulkCheckActionAccess(actionId, {
+      tune: tune,
+      tunebook: props.tunebook,
+      resolverAvailable: resolverAccess.resolverAvailable,
+      resolverStatus: resolverAccess.resolverStatus,
+      accessToken: accessToken,
+      features: resolverAccess.features,
+    })
+  }, [
+    props.tunebook,
+    accessToken,
+    resolverAccess.resolverAvailable,
+    resolverAccess.resolverStatus,
+    resolverAccess.features,
+  ])
 
   const [show, setShow] = useState(false)
   const [phase, setPhase] = useState('intro')
@@ -43,8 +64,10 @@ export default function BulkCheckModal(props) {
   const [showIgnored, setShowIgnored] = useState(false)
   const [sessionTick, setSessionTick] = useState(0)
   const [editingTuneId, setEditingTuneId] = useState(null)
+  const [editorOptions, setEditorOptions] = useState(null)
   const [fixBusyTuneId, setFixBusyTuneId] = useState(null)
   const [refreshKey, setRefreshKey] = useState(0)
+  const [tuneOverrides, setTuneOverrides] = useState({})
   const [pendingOpenRequest, setPendingOpenRequest] = useState(null)
   const autoLinkStartedRef = useRef(false)
   const lastLinkRefreshKeyRef = useRef('')
@@ -57,10 +80,12 @@ export default function BulkCheckModal(props) {
       .join(',')
   }, [props.selected])
 
+  // Stable tune list for bulk-check analysis — avoid re-running all reports when one
+  // tune is edited (tuneOverrides / tunesHash must not be deps here).
   const selectedTunes = useMemo(function() {
     if (!props.tunebook || !props.selected) return []
     const tunes = props.tunebook.fromSelection(props.selected).map(function(tune) {
-      if (!tune || !tune.id) return tune
+      if (!tune || tune.id == null) return tune
       const live = getLiveTune(tune.id, { tunebook: props.tunebook })
       return live || tune
     })
@@ -70,10 +95,22 @@ export default function BulkCheckModal(props) {
   const tunesById = useMemo(function() {
     const map = {}
     selectedTunes.forEach(function(tune) {
-      if (tune && tune.id) map[tune.id] = tune
+      if (!tune || tune.id == null) return
+      const key = String(tune.id)
+      const override = tuneOverrides[key]
+      if (override) {
+        map[key] = override
+        return
+      }
+      const live = getLiveTune(tune.id, { tunebook: props.tunebook })
+      map[key] = live || tune
     })
     return map
-  }, [selectedTunes])
+  }, [selectedTunes, tuneOverrides, props.tunebook, props.tunesHash])
+
+  useEffect(function() {
+    setTuneOverrides({})
+  }, [selectionKey])
 
   const queue = useMemo(function() {
     return buildLinkCheckQueue(selectedTunes)
@@ -291,11 +328,10 @@ export default function BulkCheckModal(props) {
   }
 
   useEffect(function() {
-    if (show && hasRun) {
-      refreshCheckData()
-    }
+    if (!show || !hasRun) return
+    if (props.forceRefresh) props.forceRefresh()
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [show, hasRun])
+  }, [show])
 
   useEffect(function() {
     return subscribeBulkCheckOpenRequest(queueOpenRequest)
@@ -347,15 +383,19 @@ export default function BulkCheckModal(props) {
   }
 
   function refreshTuneReportForId(tuneId, updatedTune) {
-    if (props.forceRefresh) props.forceRefresh()
-    const liveTune = (updatedTune && updatedTune.id)
+    const liveTune = (updatedTune && updatedTune.id != null)
       ? updatedTune
-      : (tuneId ? getLiveTune(tuneId, { tunebook: props.tunebook }) : null)
-    if (liveTune && reportsState.refreshTuneReport) {
+      : (tuneId != null ? getLiveTune(tuneId, { tunebook: props.tunebook }) : null)
+    if (liveTune && liveTune.id != null) {
+      setTuneOverrides(function(prev) {
+        const key = String(liveTune.id)
+        return Object.assign({}, prev, { [key]: liveTune })
+      })
       invalidateTuneReportCache(liveTune.id)
-      reportsState.refreshTuneReport(liveTune)
+      if (reportsState.refreshTuneReport) {
+        reportsState.refreshTuneReport(liveTune)
+      }
     }
-    setRefreshKey(function(k) { return k + 1 })
   }
 
   function handleRecheckTune(tuneId, updatedTune) {
@@ -377,8 +417,12 @@ export default function BulkCheckModal(props) {
   }
 
   function handleEditorClose() {
+    const closingId = editingTuneId
     setEditingTuneId(null)
-    refreshCheckData()
+    setEditorOptions(null)
+    if (closingId != null) {
+      refreshTuneReportForId(closingId, null)
+    }
   }
 
   const isRunning = isBulkCheckPhaseRunning(phase) || isBulkCheckRunnerActive()
@@ -413,8 +457,9 @@ export default function BulkCheckModal(props) {
 
   const editingTune = useMemo(function() {
     if (!editingTuneId) return null
-    return getLiveTune(editingTuneId, { tunebook: props.tunebook }) || tunesById[editingTuneId] || null
-  }, [editingTuneId, props.tunebook, tunesById, refreshKey, props.tunesHash])
+    const key = String(editingTuneId)
+    return tunesById[key] || getLiveTune(editingTuneId, { tunebook: props.tunebook }) || null
+  }, [editingTuneId, tunesById, props.tunebook])
 
   const ignoredCount = Object.keys(ignoredTuneIds).filter(function(id) {
     return ignoredTuneIds[id]
@@ -539,6 +584,19 @@ export default function BulkCheckModal(props) {
             <p className="bulk-check-status-message text-muted">{progressMessage}</p>
           )}
 
+          {resolverAccess.loginWarning ? (
+            <Alert variant="warning" className="bulk-check-resolver-login-warning">
+              <div>{resolverAccess.loginWarning.message}</div>
+              {resolverAccess.loginWarning.showLoginButton && typeof props.login === 'function' ? (
+                <div className="mt-2">
+                  <Button variant="outline-warning" size="sm" onClick={props.login}>
+                    Log in with Google
+                  </Button>
+                </div>
+              ) : null}
+            </Alert>
+          ) : null}
+
           <BulkCheckTuneList
             reports={reports}
             hasRun={hasRun}
@@ -549,7 +607,11 @@ export default function BulkCheckModal(props) {
             token={props.token}
             forceRefresh={props.forceRefresh}
             fixBusyTuneId={fixBusyTuneId}
-            onEditTune={function(tuneId) { setEditingTuneId(tuneId) }}
+            getSearchAccess={getSearchAccess}
+            onEditTune={function(tuneId, options) {
+              setEditorOptions(options || null)
+              setEditingTuneId(tuneId)
+            }}
             onIgnoreTune={handleIgnoreTune}
             onUnignoreTune={handleUnignoreTune}
             onRecheckTune={handleRecheckTune}
@@ -561,6 +623,8 @@ export default function BulkCheckModal(props) {
         show={!!editingTuneId}
         tuneId={editingTuneId}
         tune={editingTune}
+        initialView={editorOptions && editorOptions.initialView ? editorOptions.initialView : null}
+        autoStartChordSearch={!!(editorOptions && editorOptions.autoStartChordSearch)}
         tunes={tunesById}
         tunesRevision={refreshKey}
         tunebook={props.tunebook}

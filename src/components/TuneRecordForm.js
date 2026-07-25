@@ -3,7 +3,6 @@ import { Accordion, Button, ButtonGroup, Col, Form, Row } from 'react-bootstrap'
 import CreatableSelect from 'react-select/creatable';
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import { formatTuneFieldValue } from '../tuneImportMergeUtils';
-import { getMusicGenreSelectOptions, genreSelectValue } from '../musicGenreOptions';
 import useMusicBrainz from '../useMusicBrainz';
 import ImportFieldSuggestion from './ImportFieldSuggestion';
 import ReviewNotationMergePanel from './ReviewNotationMergePanel';
@@ -12,6 +11,7 @@ import LinksEditor from './LinksEditor';
 import ImportReviewSnapshotsSection from './ImportReviewSnapshotsSection';
 import TuneAliasesField from './TuneAliasesField';
 import TuneArtistsField from './TuneArtistsField';
+import TuneGenresField from './TuneGenresField';
 import ComposerSearchButton from './ComposerSearchButton';
 import NotationSearchButton from './NotationSearchButton';
 import GenreSearchButton from './GenreSearchButton';
@@ -692,31 +692,39 @@ export default function TuneRecordForm(props) {
             />
           </Form.Group>
           <Form.Group className="tune-record-form-meta-field">
-            <FieldLabelRow label="Genre" formKey="genre" suggestion={suggestions.genre} onApplySuggestion={props.onApplySuggestion} values={values} tight={true}>
-              <GenreSearchButton
-                tuneId={props.previewTune && props.previewTune.id}
-                candidateId={props.candidateId}
-                title={values.title}
-                artist={values.artist}
-                rhythm={values.rhythm}
-                currentGenre={values.genre}
-                backgroundInfo={values.backgroundInfo}
-                tunebook={tunebook}
-                disabled={!String(values.title || '').trim()}
-                onGenre={function(genre) { setField('genre', genre); }}
-              />
-            </FieldLabelRow>
-            <CreatableSelect
-              value={genreSelectValue(values.genre)}
-              onChange={function(val) { setField('genre', val ? val.label : ''); }}
-              options={getMusicGenreSelectOptions()}
-              isClearable={true}
-              blurInputOnSelect={true}
-              createOptionPosition="first"
-              placeholder="eg Folk, Jazz"
-              menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
-              styles={compactSelectStyles}
-            />
+            <GenreSearchButton
+              tuneId={props.previewTune && props.previewTune.id}
+              candidateId={props.candidateId}
+              title={values.title}
+              artist={values.artist}
+              rhythm={values.rhythm}
+              currentGenres={Array.isArray(values.genres) ? values.genres : []}
+              backgroundInfo={values.backgroundInfo}
+              tunebook={tunebook}
+              disabled={!String(values.title || '').trim()}
+              onAddGenre={function(genre) {
+                patchField('genres', function(current) {
+                  return mergeBibliographicList(current, [genre]);
+                });
+              }}
+            >
+              {function(api) {
+                return (
+                  <>
+                    <FieldLabelRow label="Genres" formKey="genre" suggestion={suggestions.genre} onApplySuggestion={props.onApplySuggestion} values={values} tight={true}>
+                      {api.buttonGroup}
+                    </FieldLabelRow>
+                    <TuneGenresField
+                      label=""
+                      className="mb-0"
+                      value={Array.isArray(values.genres) ? values.genres : []}
+                      onChange={function(next) { setField('genres', next); }}
+                    />
+                    {api.errorNode}
+                  </>
+                )
+              }}
+            </GenreSearchButton>
           </Form.Group>
         </div>
       </FormBlock>
@@ -738,7 +746,7 @@ export default function TuneRecordForm(props) {
                 title={values.title}
                 artist={values.artist}
                 rhythm={values.rhythm}
-                currentGenre={values.genre}
+                currentGenres={Array.isArray(values.genres) ? values.genres : []}
                 token={props.token}
                 tunebook={tunebook}
                 resolverAvailable={props.resolverAvailable}
@@ -746,7 +754,11 @@ export default function TuneRecordForm(props) {
                 disabled={!String(values.title || '').trim()}
                 alsoSearchChords={true}
                 forceReview={true}
-                onGenreAccept={function(genre) { setField('genre', genre); }}
+                onGenreAccept={function(genre) {
+                  patchField('genres', function(current) {
+                    return mergeBibliographicList(current, [genre]);
+                  });
+                }}
                 onLyrics={function(result) {
                   const text = result && (result.text || (Array.isArray(result.lines) ? result.lines.join('\n') : ''));
                   if (text) setField('lyrics', text);
@@ -834,13 +846,17 @@ export default function TuneRecordForm(props) {
                   title={values.title}
                   artist={values.artist}
                   rhythm={values.rhythm}
-                  currentGenre={values.genre}
+                  currentGenres={Array.isArray(values.genres) ? values.genres : []}
                   currentValue={values.notes || ''}
                   token={props.token}
                   tunebook={tunebook}
                   resolverAvailable={props.resolverAvailable}
                   disabled={!String(values.title || '').trim()}
-                  onGenreAccept={function(genre) { setField('genre', genre); }}
+                  onGenreAccept={function(genre) {
+                    patchField('genres', function(current) {
+                      return mergeBibliographicList(current, [genre]);
+                    });
+                  }}
                   onNotation={function(candidate) {
                     const abc = candidate && candidate.abc ? String(candidate.abc) : '';
                     if (!abc || !tunebook || !tunebook.abcTools) return;
@@ -914,12 +930,16 @@ export default function TuneRecordForm(props) {
                   artist={values.artist}
                   lyrics={values.lyrics}
                   rhythm={values.rhythm}
-                  currentGenre={values.genre}
+                  currentGenres={Array.isArray(values.genres) ? values.genres : []}
                   token={props.token}
                   existingBackgroundInfo={values.backgroundInfo}
                   tunebook={tunebook}
                   disabled={!String(values.title || '').trim()}
-                  onGenreAccept={function(genre) { setField('genre', genre); }}
+                  onGenreAccept={function(genre) {
+                    patchField('genres', function(current) {
+                      return mergeBibliographicList(current, [genre]);
+                    });
+                  }}
                   onBackgroundInfo={function(result) {
                     if (result && result.text) setField('backgroundInfo', result.text);
                   }}

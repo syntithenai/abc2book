@@ -3,6 +3,11 @@ import {
   hasTuneNotation,
 } from './tuneBulkCheckReport'
 import { STRUCTURE_FIX_ACTIONS } from './tuneAbcStructureFix'
+import {
+  canFixSessionLineBreaks,
+  canNormalizeMelodyRepeatMarks,
+  canCollapseEmptyRepeatBars,
+} from './tuneAbcStructureFix'
 
 const NOTATION_ISSUE_CODES = new Set([
   'empty_bar',
@@ -72,6 +77,7 @@ const ACTION_GROUP_IDS = {
   capitalizeTitle: ['otherInfo'],
   searchAbc: ['notation', 'abcRecord', 'otherInfo'],
   searchChordsLyrics: ['chordsLyrics', 'otherInfo'],
+  searchArtist: ['otherInfo'],
   backgroundInfo: ['otherInfo'],
   fixHeaders: ['abcRecord'],
   syncHeadersFromAbc: ['abcRecord'],
@@ -82,6 +88,7 @@ const ACTION_GROUP_IDS = {
   sessionLineBreaks: ['notation'],
   stanzaDoubleBarlines: ['notation'],
   normalizeRepeatMarks: ['notation'],
+  collapseEmptyRepeatBars: ['notation'],
   normalizeAbc: ['notation', 'abcRecord'],
   appendFinalBarline: ['notation'],
 }
@@ -95,7 +102,7 @@ const ISSUE_CODE_ACTIONS = {
   no_melody: ['searchAbc'],
   empty_voice: ['searchAbc'],
   missing_title: ['searchAbc'],
-  missing_composer: ['searchChordsLyrics', 'backgroundInfo'],
+  missing_composer: ['searchArtist', 'backgroundInfo'],
   missing_tempo: ['syncHeadersFromAbc'],
   title_not_capitalized: ['capitalizeTitle'],
   missing_background: ['backgroundInfo'],
@@ -104,14 +111,15 @@ const ISSUE_CODE_ACTIONS = {
   missing_meter: ['fixHeaders'],
   missing_key: ['fixHeaders'],
   header_field_mismatch: ['syncHeadersFromAbc'],
-  parse_failure: ['searchAbc', 'normalizeAbc'],
-  render_failure: ['searchAbc', 'normalizeAbc'],
+  parse_failure: ['searchAbc'],
+  render_failure: ['searchAbc'],
   render_warning: ['normalizeAbc'],
   round_trip_drift: ['normalizeAbc'],
   session_linebreak_markers: ['sessionLineBreaks'],
   stanza_strain_mismatch: ['stanzaDoubleBarlines'],
   stanza_barlines: ['stanzaDoubleBarlines'],
-  repeat_style_mixed: ['normalizeRepeatMarks'],
+  empty_bar: ['collapseEmptyRepeatBars'],
+  repeat_style_mixed: ['collapseEmptyRepeatBars', 'normalizeRepeatMarks'],
   missing_final_barline: ['appendFinalBarline'],
   blocked_practice: ['allowPractice'],
   missing_practice_instruments: ['editTunePractice'],
@@ -123,10 +131,20 @@ export const BULK_CHECK_NAV_ACTIONS = new Set([
   'editTunePractice',
 ])
 
+/** Never run these from Fix all — require an explicit button click. */
+export const FIX_ALL_EXCLUDED_ACTIONS = new Set([
+  'scanLinkRegion',
+  'analyse',
+  'stems',
+  'editTuneLinks',
+  'editTunePractice',
+])
+
 const SEARCH_ACTION_LABELS = {
   capitalizeTitle: 'Capitalise title',
   searchAbc: 'Search notation',
   searchChordsLyrics: 'Search chords and lyrics',
+  searchArtist: 'Search artist',
   backgroundInfo: 'Search background',
   allowPractice: 'Allow practice',
   editTunePractice: 'Set practice instruments',
@@ -225,12 +243,15 @@ function linkGroupActions(linkIssues) {
   return actions
 }
 
-function actionsFromIssues(groupId, groupIssues, tune) {
+function actionsFromIssues(groupId, groupIssues, tune, abcTools) {
   const actionIds = new Set()
 
   groupIssues.forEach(function(issueItem) {
     const mapped = ISSUE_CODE_ACTIONS[issueItem.code] || []
     mapped.forEach(function(actionId) {
+      if (actionId === 'sessionLineBreaks' && !canFixSessionLineBreaks(tune, abcTools)) return
+      if (actionId === 'normalizeRepeatMarks' && !canNormalizeMelodyRepeatMarks(tune)) return
+      if (actionId === 'collapseEmptyRepeatBars' && !canCollapseEmptyRepeatBars(tune)) return
       addActionId(actionIds, actionId, groupId)
     })
   })
@@ -313,31 +334,32 @@ export function groupReportIssues(report) {
 export function buildBulkCheckIssueGroups(report, tune, tunebook, parseAndRender) {
   const issues = collectReportIssuesForFixes(report)
   const groupedIssues = groupReportIssues(report)
+  const abcTools = tunebook && tunebook.abcTools ? tunebook.abcTools : null
 
   const groups = [
     {
       id: 'notation',
       title: 'Notation',
       issues: groupedIssues.notation,
-      actions: actionsFromIssues('notation', groupedIssues.notation, tune),
+      actions: actionsFromIssues('notation', groupedIssues.notation, tune, abcTools),
     },
     {
       id: 'abcRecord',
       title: 'ABC record',
       issues: groupedIssues.abcRecord,
-      actions: actionsFromIssues('abcRecord', groupedIssues.abcRecord, tune),
+      actions: actionsFromIssues('abcRecord', groupedIssues.abcRecord, tune, abcTools),
     },
     {
       id: 'chordsLyrics',
       title: 'Chords and lyrics',
       issues: groupedIssues.chordsLyrics,
-      actions: actionsFromIssues('chordsLyrics', groupedIssues.chordsLyrics, tune),
+      actions: actionsFromIssues('chordsLyrics', groupedIssues.chordsLyrics, tune, abcTools),
     },
     {
       id: 'otherInfo',
       title: 'Other information',
       issues: groupedIssues.otherInfo,
-      actions: actionsFromIssues('otherInfo', groupedIssues.otherInfo, tune),
+      actions: actionsFromIssues('otherInfo', groupedIssues.otherInfo, tune, abcTools),
     },
     {
       id: 'links',
@@ -364,8 +386,14 @@ export function listAvailableFixActionIds(report, tune, tunebook, parseAndRender
   return Array.from(actionIds)
 }
 
+export function listFixAllActionIds(report, tune, tunebook, parseAndRender) {
+  return listAvailableFixActionIds(report, tune, tunebook, parseAndRender).filter(function(actionId) {
+    return !FIX_ALL_EXCLUDED_ACTIONS.has(actionId)
+  })
+}
+
 export function canRunFixAll(tune, report, tunebook, parseAndRender) {
-  return listAvailableFixActionIds(report, tune, tunebook, parseAndRender).length > 0
+  return listFixAllActionIds(report, tune, tunebook, parseAndRender).length > 0
 }
 
 const TUNE_DIFF_FIELDS = [

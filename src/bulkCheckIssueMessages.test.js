@@ -2,21 +2,20 @@ import { formatBulkCheckIssueMessage } from './bulkCheckIssueMessages'
 import { collectReportIssuesForFixes } from './tuneBulkCheckReport'
 
 describe('bulkCheckIssueMessages', function() {
-  test('appends fix hint for missing background', function() {
+  test('shows issue message only', function() {
     const text = formatBulkCheckIssueMessage({
       code: 'missing_background',
       message: 'Background information is missing',
     })
-    expect(text).toContain('Background information is missing')
-    expect(text).toContain('Search background')
+    expect(text).toBe('Background information is missing')
   })
 
-  test('appends manual hint for unmatched repeat', function() {
+  test('shows repeat issue without inline hint', function() {
     const text = formatBulkCheckIssueMessage({
       code: 'unmatched_repeat_start',
       message: 'Repeat start |: has no matching end',
     })
-    expect(text).toContain('Edit tune')
+    expect(text).toBe('Repeat start |: has no matching end')
   })
 })
 

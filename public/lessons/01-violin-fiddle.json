@@ -1,0 +1,114 @@
+{
+  "id": "01-violin-fiddle",
+  "title": "01 Violin Fiddle",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/01-violin-fiddle.md",
+  "sections": [
+    {
+      "id": "violin-and-fiddle",
+      "title": "Violin and Fiddle",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The violin is a bowed string instrument with four strings tuned in fifths: G-D-A-E. 'Fiddle' denotes the same instrument in folk and traditional contexts — technique and repertoire differ, not the tool."
+        }
+      ]
+    },
+    {
+      "id": "construction",
+      "title": "Construction",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Spruce top, maple back and sides, ebony fingerboard. Soundpost and bass bar transmit vibrations. Baroque violins used gut strings and lower tension; modern setup uses steel or synthetic strings and higher bridge."
+        }
+      ]
+    },
+    {
+      "id": "playing-technique",
+      "title": "Playing technique",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bowing produces sustained tone; left-hand stops define pitch. Ornamentation in Irish trad includes cuts, rolls, and slides. Scottish style emphasises strong bowing and drone strings."
+        }
+      ]
+    },
+    {
+      "id": "range-and-role",
+      "title": "Range and role",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "G3 to E7+ depending on player. Lead melody in sessions; harmony in twin-fiddle arrangements. Hardanger fiddle (Norway) adds sympathetic strings."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-standard-violin-tuning-low-to-high",
+      "title": "Q1. Standard violin tuning (low to high):",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) G-D-A-E\n- B) E-A-D-G\n- C) D-A-D-A\n- D) C-G-C-G\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-fiddle-and-violin-are-the-same-instrument",
+      "title": "Q2. Fiddle and violin are the same instrument.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True — Different repertoire and style, same construction."
+        }
+      ]
+    },
+    {
+      "id": "q3-violin-belongs-to-hornbostel-sachs-class",
+      "title": "Q3. Violin belongs to Hornbostel-Sachs class:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Chordophone (bowed)\n- B) Aerophone\n- C) Membranophone\n- D) Idiophone\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Standard violin tuning (low to high):\n\n- A) G-D-A-E\n- B) E-A-D-G\n- C) D-A-D-A\n- D) C-G-C-G\n\n**Answer:** A\n\n### Q2. Fiddle and violin are the same instrument.\n\n**Answer:** True — Different repertoire and style, same construction.\n\n### Q3. Violin belongs to Hornbostel-Sachs class:\n\n- A) Chordophone (bowed)\n- B) Aerophone\n- C) Membranophone\n- D) Idiophone\n\n**Answer:** A"
+}

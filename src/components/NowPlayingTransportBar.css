@@ -149,6 +149,7 @@ body.app-has-playlist-transport .modal-fullscreen .modal-body {
  * / fullscreen on .modal-dialog. */
 body.app-has-playlist-transport .bulk-ops-modal.modal-fullscreen .modal-body,
 body.app-has-playlist-transport .media-import-wizard-modal.modal-fullscreen .modal-body,
+body.app-has-playlist-transport .midi-import-wizard-modal.modal-fullscreen .modal-body,
 body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body,
 body.app-has-playlist-transport .gig-mode-modal .modal-body,
 body.app-has-playlist-transport .field-preview-editor-modal--fill .modal-body {
@@ -157,7 +158,8 @@ body.app-has-playlist-transport .field-preview-editor-modal--fill .modal-body {
 
 /* Dialogs that hard-code 100vh / 100dvh must shrink for the transport too. */
 body.app-has-playlist-transport .bulk-ops-modal.modal-fullscreen .modal-content,
-body.app-has-playlist-transport .practice-session-modal .modal-content {
+body.app-has-playlist-transport .practice-session-modal .modal-content,
+body.app-has-playlist-transport .midi-import-wizard-modal.modal-fullscreen .modal-content {
   min-height: 0;
   height: 100%;
   max-height: 100%;
@@ -178,6 +180,29 @@ body.app-has-playlist-transport .media-import-wizard-modal.modal-fullscreen .med
   flex: 1 1 auto;
   min-height: 0;
   overflow: hidden;
+}
+
+body.app-has-playlist-transport .midi-import-wizard-modal.modal-fullscreen {
+  height: calc(100dvh - var(--app-playlist-transport-offset));
+  max-height: calc(100dvh - var(--app-playlist-transport-offset));
+}
+
+body.app-has-playlist-transport .midi-import-wizard-modal.modal-fullscreen .modal-content {
+  height: 100%;
+  max-height: 100%;
+}
+
+body.app-has-playlist-transport .midi-import-wizard-modal.modal-fullscreen .midi-import-wizard-body {
+  flex: 1 1 0%;
+  min-height: 0;
+  overflow: hidden !important;
+}
+
+body.app-has-playlist-transport .midi-import-wizard-modal.modal-fullscreen .midi-import-wizard-step-content {
+  flex: 1 1 0%;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 body.app-has-playlist-transport .import-review-embedded {

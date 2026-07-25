@@ -1,23 +1,17 @@
-import { useEffect, useState } from 'react'
-import { listItems } from '../../scratchpadStore'
+import { useMemo } from 'react'
+import { getScratchpadListItems } from '../../scratchpadListSearch'
 import ScratchpadItemCard from './ScratchpadItemCard'
 
 export default function ScratchpadItemGrid(props) {
-  const [items, setItems] = useState([])
+  const visibleItems = useMemo(function() {
+    return getScratchpadListItems(props.workspaceFilterId, props.search)
+  }, [props.workspaceFilterId, props.search, props.revision])
 
-  useEffect(function() {
-    if (!props.workspaceId) {
-      setItems([])
-      return
-    }
-    setItems(listItems(props.workspaceId))
-  }, [props.workspaceId, props.revision])
+  const allItems = useMemo(function() {
+    return getScratchpadListItems(props.workspaceFilterId, '')
+  }, [props.workspaceFilterId, props.revision])
 
-  if (!props.workspaceId) {
-    return <div className="scratchpad-grid-empty p-3">Select or create a workspace.</div>
-  }
-
-  if (!items.length) {
+  if (!allItems.length) {
     return (
       <div className="scratchpad-grid-empty p-3">
         No items yet. Use <strong>Create</strong> to add text, images, or notation.
@@ -25,9 +19,17 @@ export default function ScratchpadItemGrid(props) {
     )
   }
 
+  if (!visibleItems.length) {
+    return (
+      <div className="scratchpad-grid-empty p-3">
+        No scratchpad items match <strong>{props.search}</strong>.
+      </div>
+    )
+  }
+
   return (
     <div className="scratchpad-grid">
-      {items.map(function(item) {
+      {visibleItems.map(function(item) {
         return (
           <ScratchpadItemCard
             key={item.id}

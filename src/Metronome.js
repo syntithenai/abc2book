@@ -42,7 +42,9 @@ export default class Metronome
 
     setTempo(tempo) {
         const nextTempo = parseFloat(tempo);
-        this.tempo = nextTempo > 0 ? nextTempo : this.tempo;
+        if (!(nextTempo > 0)) return;
+        if (Math.abs(nextTempo - this.tempo) < 0.01) return;
+        this.tempo = nextTempo;
         // Re-anchor the schedule so the new tempo applies on the next click
         // instead of waiting out intervals already computed at the old tempo.
         if (this.isRunning && this.audioContext) {

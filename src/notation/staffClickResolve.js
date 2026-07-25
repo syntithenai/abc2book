@@ -24,12 +24,87 @@ function isNoteLike(ev) {
   return !!(ev && (ev.type === 'note' || ev.type === 'chord'));
 }
 
+function elementClassName(el) {
+  if (!el || !el.className) return '';
+  if (typeof el.className === 'string') return el.className;
+  if (el.className.baseVal != null) return el.className.baseVal;
+  return '';
+}
+
+/** Read abcjs voice staff index (abcjs-v0, abcjs-v1, …) from a DOM target. */
+export function voiceStaffIndexFromDom(mouseEvent) {
+  if (!mouseEvent || !mouseEvent.target || !mouseEvent.target.closest) return null;
+  let node = mouseEvent.target.closest('.abcjs-note, .abcjs-rest, .abcjs-bar, .abcjs-staff');
+  while (node) {
+    const cls = elementClassName(node);
+    const m = cls.match(/\babcjs-v(\d+)\b/);
+    if (m) return parseInt(m[1], 10);
+    node = node.parentElement;
+  }
+  return null;
+}
+
+/** Prefer abcjs analysis.voice; fall back to DOM class or an explicit default index. */
+export function voiceStaffIndexFromAnalysisOrDom(analysis, mouseEvent, fallbackIndex) {
+  if (analysis && typeof analysis.voice === 'number' && analysis.voice >= 0) {
+    return analysis.voice;
+  }
+  const fromDom = voiceStaffIndexFromDom(mouseEvent);
+  if (fromDom != null) return fromDom;
+  return typeof fallbackIndex === 'number' && fallbackIndex >= 0 ? fallbackIndex : 0;
+}
+
+/** Map staff click metadata to a displayed voice key (original tune key). */
+export function voiceKeyFromStaffAnalysis(displayedVoiceKeys, analysis, mouseEvent, fallbackVoiceKey) {
+  const keys = Array.isArray(displayedVoiceKeys) ? displayedVoiceKeys : [];
+  if (!keys.length) return fallbackVoiceKey || null;
+  let fallbackIdx = 0;
+  if (fallbackVoiceKey) {
+    const fi = keys.indexOf(fallbackVoiceKey);
+    if (fi >= 0) fallbackIdx = fi;
+  }
+  const idx = voiceStaffIndexFromAnalysisOrDom(analysis, mouseEvent, fallbackIdx);
+  const clamped = Math.max(0, Math.min(idx, keys.length - 1));
+  return keys[clamped];
+}
+
+/**
+ * Resolve a staff click against a specific voice's events (cross-voice safe).
+ * Caller supplies the target voice body as parsed events — not the active session.
+ */
+export function resolveStaffClickForVoice(params) {
+  const {
+    targetVoiceKey,
+    targetEvents,
+    displayedVoiceKeys,
+    wrapEl,
+    mouseEvent,
+    abcelem,
+    analysis,
+    tuneMeta,
+    fullAbc,
+  } = params;
+  const keys = displayedVoiceKeys || [];
+  const voiceStaffIdx = Math.max(0, keys.indexOf(targetVoiceKey));
+  return resolveStaffClick({
+    wrapEl: wrapEl,
+    events: targetEvents,
+    mouseEvent: mouseEvent,
+    abcelem: abcelem,
+    analysis: analysis,
+    voiceStaffIndex: voiceStaffIdx,
+    tuneMeta: tuneMeta,
+    fullAbc: fullAbc,
+    displayedVoiceKeys: keys,
+  });
+}
+
 /**
  * Unified staff click resolver.
  *
  * Selection (eventIndex):
- *   1. abcjs startChar when available (matches rendered ABC ↔ session events)
- *   2. Strict DOM glyph hit (pointer inside note/rest bbox)
+ *   1. Strict DOM glyph hit (pointer inside note/rest bbox)
+ *   2. abcjs startChar when DOM miss (matches rendered ABC ↔ session events)
  *   3. Geometry hitEventIndex when clicking a glyph via caret bisection
  *
  * Caret (caretIndex):
@@ -60,28 +135,8 @@ export function resolveStaffClick(params) {
       ? analysis.selectableElement
       : null);
 
-  // 1. Prefer abcjs startChar for selection — reliable when display ABC === serializeVoiceEvents.
-  if (abcElem && typeof abcElem.startChar === 'number'
-    && fullAbc && displayedVoiceKeys && displayedVoiceKeys.length) {
-    const idx = eventIndexFromStaffAbcElem(
-      list,
-      tuneMeta,
-      fullAbc,
-      displayedVoiceKeys,
-      voiceStaffIndex,
-      abcElem,
-      analysis
-    );
-    if (typeof idx === 'number' && idx >= 0 && idx < list.length && isNoteLike(list[idx])) {
-      source = 'startChar';
-      eventIndex = idx;
-      caretIndex = idx;
-      selectedFromNoteHit = true;
-    }
-  }
-
-  // 2. Strict DOM glyph hit (pointer must be inside the note/rest box).
-  if (!selectedFromNoteHit && wrapEl && mouseEvent) {
+  // 1. Strict DOM glyph hit — authoritative when pointer is inside a note/rest bbox.
+  if (wrapEl && mouseEvent) {
     const domIdx = eventIndexFromStaffNoteElement(
       wrapEl,
       list,
@@ -97,6 +152,26 @@ export function resolveStaffClick(params) {
         caretIndex = domIdx;
         selectedFromNoteHit = isNoteLike(domEv);
       }
+    }
+  }
+
+  // 2. abcjs startChar when DOM miss — reliable when display ABC === serializeVoiceEvents.
+  if (!selectedFromNoteHit && abcElem && typeof abcElem.startChar === 'number'
+    && fullAbc && displayedVoiceKeys && displayedVoiceKeys.length) {
+    const idx = eventIndexFromStaffAbcElem(
+      list,
+      tuneMeta,
+      fullAbc,
+      displayedVoiceKeys,
+      voiceStaffIndex,
+      abcElem,
+      analysis
+    );
+    if (typeof idx === 'number' && idx >= 0 && idx < list.length && isNoteLike(list[idx])) {
+      source = 'startChar';
+      eventIndex = idx;
+      caretIndex = idx;
+      selectedFromNoteHit = true;
     }
   }
 

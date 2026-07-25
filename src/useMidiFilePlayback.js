@@ -120,10 +120,15 @@ export default function useMidiFilePlayback(options) {
 
       player.on('fileLoaded', function() {
         const programs = Array.isArray(player.instruments) ? player.instruments.slice() : [0]
-        loadMidiInstruments(ac, programs).then(function(instruments) {
+        loadMidiInstruments(ac, programs).then(async function(instruments) {
           instrumentsRef.current = instruments
           isReadyRef.current = true
           const duration = typeof player.getSongTime === 'function' ? player.getSongTime() : 0
+          if (ac.state === 'suspended') {
+            try {
+              await ac.resume()
+            } catch (e) { /* ignore */ }
+          }
           if (onReady) onReady(duration)
           if (onLoading) onLoading(false)
           if (ac.state !== 'running') {
@@ -166,6 +171,13 @@ export default function useMidiFilePlayback(options) {
       }
     })
   }, [onLoading, onReady, onEnded, onError, stop])
+
+  const resumeAudioContextFromGesture = useCallback(function() {
+    const ac = getAudioContext()
+    if (ac.state === 'suspended') {
+      ac.resume().catch(function() {})
+    }
+  }, [])
 
   const start = useCallback(async function() {
     const ac = getAudioContext()
@@ -232,6 +244,7 @@ export default function useMidiFilePlayback(options) {
     currentTime: currentTime,
     duration: duration,
     setTempo: setTempo,
+    resumeAudioContextFromGesture: resumeAudioContextFromGesture,
     playerRef: playerRef,
     isReadyRef: isReadyRef,
   }

@@ -28,6 +28,14 @@ describe('voiceMeta', function() {
     });
   });
 
+  test('parseVoiceMeta extracts nm= attribute as display name', function() {
+    expect(parseVoiceMeta('nm="Violin" clef=treble')).toEqual({
+      name: 'Violin',
+      clef: 'treble',
+      extra: '',
+    });
+  });
+
   test('formatVoiceMeta always writes clef', function() {
     expect(formatVoiceMeta({ name: 'Voice 2', clef: 'alto' })).toBe('Voice 2 clef=alto');
     expect(defaultVoiceMeta('Voice 1')).toBe('Voice 1 clef=treble');

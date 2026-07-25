@@ -20,7 +20,37 @@ from midi_cleanup import apply_midi_cleanup, cleanup_is_active
 from midi_drum_map import build_drummap_lines, drum_note_to_abc_token
 from midi_note_events import midi_bytes_to_note_events
 
-MAX_MIDI_IMPORT_VOICES = 8
+MAX_MIDI_IMPORT_VOICES = 0  # 0 = no limit
+
+GM_PROGRAM_NAMES = (
+    "Acoustic Grand Piano", "Bright Acoustic Piano", "Electric Grand Piano", "Honky-tonk Piano",
+    "Electric Piano 1", "Electric Piano 2", "Harpsichord", "Clavinet",
+    "Celesta", "Glockenspiel", "Music Box", "Vibraphone", "Marimba", "Xylophone", "Tubular Bells", "Dulcimer",
+    "Drawbar Organ", "Percussive Organ", "Rock Organ", "Church Organ", "Reed Organ", "Accordion", "Harmonica", "Tango Accordion",
+    "Acoustic Guitar (nylon)", "Acoustic Guitar (steel)", "Electric Guitar (jazz)", "Electric Guitar (clean)",
+    "Electric Guitar (muted)", "Overdriven Guitar", "Distortion Guitar", "Guitar Harmonics",
+    "Acoustic Bass", "Electric Bass (finger)", "Electric Bass (pick)", "Fretless Bass",
+    "Slap Bass 1", "Slap Bass 2", "Synth Bass 1", "Synth Bass 2",
+    "Violin", "Viola", "Cello", "Contrabass", "Tremolo Strings", "Pizzicato Strings", "Orchestral Harp", "Timpani",
+    "String Ensemble 1", "String Ensemble 2", "Synth Strings 1", "Synth Strings 2",
+    "Choir Aahs", "Voice Oohs", "Synth Choir", "Orchestra Hit",
+    "Trumpet", "Trombone", "Tuba", "Muted Trumpet", "French Horn", "Brass Section", "Synth Brass 1", "Synth Brass 2",
+    "Soprano Sax", "Alto Sax", "Tenor Sax", "Baritone Sax", "Oboe", "English Horn", "Bassoon", "Clarinet",
+    "Piccolo", "Flute", "Recorder", "Pan Flute", "Blown Bottle", "Shakuhachi", "Whistle", "Ocarina",
+    "Lead 1 (square)", "Lead 2 (sawtooth)", "Lead 3 (calliope)", "Lead 4 (chiff)", "Lead 5 (charang)", "Lead 6 (voice)", "Lead 7 (fifths)", "Lead 8 (bass + lead)",
+    "Pad 1 (new age)", "Pad 2 (warm)", "Pad 3 (polysynth)", "Pad 4 (choir)", "Pad 5 (bowed)", "Pad 6 (metallic)", "Pad 7 (halo)", "Pad 8 (sweep)",
+    "FX 1 (rain)", "FX 2 (soundtrack)", "FX 3 (crystal)", "FX 4 (atmosphere)", "FX 5 (brightness)", "FX 6 (goblins)", "FX 7 (echoes)", "FX 8 (sci-fi)",
+    "Sitar", "Banjo", "Shamisen", "Koto", "Kalimba", "Bagpipe", "Fiddle", "Shanai",
+    "Tinkle Bell", "Agogo", "Steel Drums", "Woodblock", "Taiko Drum", "Melodic Tom", "Synth Drum", "Reverse Cymbal",
+    "Guitar Fret Noise", "Breath Noise", "Seashore", "Bird Tweet", "Telephone Ring", "Helicopter", "Applause", "Gunshot",
+)
+
+ROLE_DISPLAY_NAMES = {
+    "melody": "Melody",
+    "bass": "Bass",
+    "harmony": "Harmony",
+    "drum": "Drums",
+}
 
 
 @dataclass
@@ -178,6 +208,67 @@ def build_beat_times(duration: float, tempo_bpm: float, beats_per_bar: int = 4) 
     return times
 
 
+def _trim_notes_for_quantization(
+    notes: list[dict[str, Any]],
+    margin_sec: float = 1.0,
+) -> tuple[list[dict[str, Any]], float]:
+    if not notes:
+        return [], 0.0
+    starts = [float(note.get("start", 0) or 0) for note in notes]
+    ends = [float(note.get("end", note.get("start", 0)) or 0) for note in notes]
+    lo = min(starts)
+    hi = max(ends)
+    ends_sorted = sorted(ends)
+    p99_index = min(len(ends_sorted) - 1, int(len(ends_sorted) * 0.99))
+    p99 = ends_sorted[p99_index]
+    if p99 + 2 < hi:
+        hi = p99 + margin_sec
+    else:
+        hi += margin_sec
+    trimmed: list[dict[str, Any]] = []
+    for note in notes:
+        start = max(float(note.get("start", 0) or 0), lo)
+        end = min(float(note.get("end", start) or start), hi)
+        if end <= start + 0.001:
+            continue
+        trimmed.append({
+            **note,
+            "start": start - lo,
+            "end": end - lo,
+        })
+    duration = max(hi - lo, margin_sec) if trimmed else 0.0
+    return trimmed, duration
+
+
+def _rest_token(slots: int, slots_per_beat: int) -> str:
+    if slots <= 0:
+        return ""
+    if slots == 1:
+        return "z"
+    suffix = _duration_suffix(slots, slots_per_beat * 2)
+    return "z" + suffix
+
+
+def _format_within_bar(
+    bar_events: list[tuple[int, int, str]],
+    bar_start: int,
+    bar_slots: int,
+    slots_per_beat: int,
+) -> str:
+    parts: list[str] = []
+    cursor = bar_start
+    for slot, dur_slots, token in sorted(bar_events, key=lambda item: (item[0], item[1])):
+        if slot > cursor:
+            parts.append(_rest_token(slot - cursor, slots_per_beat))
+            cursor = slot
+        parts.append(token)
+        cursor = slot + max(1, dur_slots)
+    bar_end = bar_start + bar_slots
+    if cursor < bar_end:
+        parts.append(_rest_token(bar_end - cursor, slots_per_beat))
+    return " ".join(parts).strip()
+
+
 def _abc_pitch(midi: int, key: str) -> str:
     names_sharp = ["C", "^C", "D", "^D", "E", "F", "^F", "G", "^G", "A", "^A", "B"]
     names_flat = ["C", "_D", "D", "_E", "E", "F", "_G", "G", "_A", "A", "_B", "B"]
@@ -203,23 +294,48 @@ def _duration_suffix(slots: int, slots_per_beat: int) -> str:
     return str(slots)
 
 
-def format_notes_to_abc_body(
+def _token_with_duration(token: str, slots: int, slots_per_beat: int) -> str:
+    dur = _duration_suffix(slots, slots_per_beat * 2)
+    if len(token) >= 2 and token[0] == "!" and token[-1] == "!":
+        inner = re.sub(r"\d+$", "", token[1:-1])
+        return f"!{inner}{dur}!"
+    pitch = re.sub(r"\d+$", "", token)
+    return pitch + dur
+
+
+def _split_events_at_bar_boundaries(
+    events: list[tuple[int, int, str]],
+    bar_slots: int,
+    slots_per_beat: int,
+) -> list[tuple[int, int, str]]:
+    split: list[tuple[int, int, str]] = []
+    for slot, dur_slots, token in events:
+        remaining = max(1, dur_slots)
+        pos = slot
+        while remaining > 0:
+            pos_in_bar = pos % bar_slots
+            room = bar_slots - pos_in_bar
+            chunk = min(remaining, room)
+            split.append((pos, chunk, _token_with_duration(token, chunk, slots_per_beat)))
+            remaining -= chunk
+            pos += chunk
+    return split
+
+
+def _quantize_notes_to_events(
     notes: list[dict[str, Any]],
     beat_times: list[float],
     *,
-    beats_per_bar: int = 4,
-    slots_per_beat: int = 2,
-    key: str = "C",
-    is_drum: bool = False,
-) -> str:
+    slots_per_beat: int,
+    key: str,
+    is_drum: bool,
+) -> list[tuple[int, int, str]]:
     if not notes or not beat_times:
-        return ""
+        return []
 
     beat_duration = (beat_times[1] - beat_times[0]) if len(beat_times) > 1 else 0.5
     slot_duration = beat_duration / max(slots_per_beat, 1)
-    bar_slots = beats_per_bar * slots_per_beat
-
-    events: list[tuple[float, str]] = []
+    events: list[tuple[int, int, str]] = []
     for note in notes:
         start = float(note["start"])
         end = float(note["end"])
@@ -238,30 +354,87 @@ def format_notes_to_abc_body(
             pitch = drum_note_to_abc_token(int(note["midi"]), dur)
         else:
             pitch = _abc_pitch(int(note["midi"]), key) + dur
-        events.append((global_slot, pitch))
+        events.append((global_slot, dur_slots, pitch))
+    events.sort(key=lambda item: (item[0], item[1]))
+    return events
 
-    events.sort(key=lambda item: item[0])
-    if not events:
+
+def _join_abc_measures(measure_parts: list[str]) -> str:
+    if not measure_parts:
+        return ""
+    lines: list[str] = []
+    for part in measure_parts:
+        trimmed = (part or "").strip()
+        lines.append(f"{trimmed} |" if trimmed else "|")
+    return "\n".join(lines)
+
+
+def _format_split_events_to_body(
+    split_events: list[tuple[int, int, str]],
+    *,
+    bar_slots: int,
+    slots_per_beat: int,
+    total_bars: int | None = None,
+) -> str:
+    if not split_events:
+        if total_bars and total_bars > 0:
+            return _join_abc_measures([_rest_token(bar_slots, slots_per_beat) for _ in range(total_bars)])
         return ""
 
-    parts: list[str] = []
-    cursor = 0
-    for slot, token in events:
-        if slot > cursor:
-            gap = slot - cursor
-            if gap >= bar_slots:
-                parts.append(" |")
-                cursor = (slot // bar_slots) * bar_slots
-                gap = slot - cursor
-            if gap > 0:
-                parts.append("z" + _duration_suffix(gap, slots_per_beat * 2) if gap > 1 else "z")
-                cursor = slot
-        parts.append(token)
-        cursor = slot + max(1, 1)
+    max_end = max(slot + max(1, dur_slots) for slot, dur_slots, _token in split_events)
+    computed_bars = max(1, (max_end + bar_slots - 1) // bar_slots)
+    num_bars = max(total_bars or 0, computed_bars) if total_bars else computed_bars
 
-    body = " ".join(parts)
-    body = re.sub(r"\s+\|", " |", body)
-    return body.strip()
+    by_bar: dict[int, list[tuple[int, int, str]]] = {}
+    for slot, dur_slots, token in split_events:
+        bar = slot // bar_slots
+        by_bar.setdefault(bar, []).append((slot, dur_slots, token))
+
+    measure_parts: list[str] = []
+    for bar in range(num_bars):
+        bar_events = by_bar.get(bar, [])
+        if not bar_events:
+            measure_parts.append(_rest_token(bar_slots, slots_per_beat))
+        else:
+            measure_parts.append(_format_within_bar(bar_events, bar * bar_slots, bar_slots, slots_per_beat))
+
+    body = _join_abc_measures(measure_parts)
+    return body
+
+
+def format_notes_to_abc_body(
+    notes: list[dict[str, Any]],
+    beat_times: list[float],
+    *,
+    beats_per_bar: int = 4,
+    slots_per_beat: int = 2,
+    key: str = "C",
+    is_drum: bool = False,
+    total_bars: int | None = None,
+) -> str:
+    if not notes or not beat_times:
+        return ""
+
+    bar_slots = beats_per_bar * slots_per_beat
+    events = _quantize_notes_to_events(
+        notes,
+        beat_times,
+        slots_per_beat=slots_per_beat,
+        key=key,
+        is_drum=is_drum,
+    )
+    if not events:
+        if total_bars and total_bars > 0:
+            return " | ".join(_rest_token(bar_slots, slots_per_beat) for _ in range(total_bars)) + " |"
+        return ""
+
+    split_events = _split_events_at_bar_boundaries(events, bar_slots, slots_per_beat)
+    return _format_split_events_to_body(
+        split_events,
+        bar_slots=bar_slots,
+        slots_per_beat=slots_per_beat,
+        total_bars=total_bars,
+    )
 
 
 def _track_by_index(profile: MidiProfile, track_id: int) -> MidiTrackProfile | None:
@@ -271,9 +444,38 @@ def _track_by_index(profile: MidiProfile, track_id: int) -> MidiTrackProfile | N
     return None
 
 
+def _gm_program_name(program: int) -> str:
+    idx = int(program or 0)
+    if 0 <= idx < len(GM_PROGRAM_NAMES):
+        return GM_PROGRAM_NAMES[idx]
+    return ""
+
+
+def _is_generic_midi_track_name(name: str) -> bool:
+    return bool(re.match(r"^track\s", (name or "").strip(), re.I))
+
+
+def display_name_for_track(track: MidiTrackProfile | None, voice_id: int, override_name: str = "") -> str:
+    candidates: list[str] = []
+    if override_name:
+        candidates.append(override_name)
+    if track and track.name:
+        candidates.append(track.name)
+    for candidate in candidates:
+        if candidate and not _is_generic_midi_track_name(candidate):
+            return candidate
+    if track and track.is_drum:
+        return f"Drums {voice_id}"
+    if track:
+        gm_name = _gm_program_name(track.program)
+        if gm_name:
+            return gm_name.replace("_", " ")
+    return f"Voice {voice_id}"
+
+
 def _voice_meta_line(voice_id: int, track: MidiTrackProfile | None, name: str) -> str:
     clef = clef_hint_for_track(track) if track else "treble"
-    display_name = name or (track.name if track and track.name else f"Voice {voice_id}")
+    display_name = display_name_for_track(track, voice_id, name)
     safe_name = display_name.replace('"', "")
     return f'V:{voice_id} nm="{safe_name}" clef={clef}'
 
@@ -293,6 +495,7 @@ def build_abc_from_profile(
     options: MidiAbcBuildOptions | None = None,
 ) -> dict[str, Any]:
     opts = options or MidiAbcBuildOptions()
+    beat_times: list[float] = []
     apply_profile_overrides(
         profile,
         tempo_bpm=opts.tempo_bpm,
@@ -308,6 +511,8 @@ def build_abc_from_profile(
         explicit_track_ids=opts.track_ids,
         max_voices=opts.max_voices,
     )
+    if opts.track_ids and len(opts.track_ids) > 1:
+        import_mode = "multi_voice"
 
     drum_ids: list[int] = []
     if opts.include_drums and opts.drum_track_ids:
@@ -316,11 +521,8 @@ def build_abc_from_profile(
         drum_ids = [t.index for t in profile.tracks if t.is_drum]
 
     tempo = float(opts.tempo_bpm or profile.tempo_bpm or 120.0)
-    beat_times = build_beat_times(
-        profile.duration_seconds or 8.0,
-        tempo,
-        profile.beats_per_bar or 4,
-    )
+    beats_per_bar = profile.beats_per_bar or 4
+    min_bar_duration = beats_per_bar * (60.0 / max(tempo, 1.0))
     key = opts.estimated_key or profile.estimated_key or "C"
     meter = opts.time_signature or profile.time_signature or "4/4"
     note_length = opts.note_length or "1/8"
@@ -331,21 +533,23 @@ def build_abc_from_profile(
 
     if multi:
         voice_specs: list[tuple[int, int, bool]] = []
-        for track_id in track_ids[: opts.max_voices]:
+        limited_track_ids = track_ids if opts.max_voices <= 0 else track_ids[: opts.max_voices]
+        for track_id in limited_track_ids:
             track = _track_by_index(profile, track_id)
             if track and not track.is_drum:
                 voice_specs.append((track_id, len(voice_specs) + 1, False))
         for track_id in drum_ids:
-            if len(voice_specs) >= opts.max_voices:
+            if opts.max_voices > 0 and len(voice_specs) >= opts.max_voices:
                 break
             track = _track_by_index(profile, track_id)
             if track and track.is_drum:
                 voice_specs.append((track_id, len(voice_specs) + 1, True))
 
+        prepared_notes: list[tuple[int, int, bool, list[dict[str, Any]], float]] = []
         for track_id, vid, is_drum in voice_specs:
             track = _track_by_index(profile, track_id)
             collapse = (vid > 1) and not is_drum and import_mode == "multi_voice"
-            notes = _note_events_for_track(
+            raw_notes = _note_events_for_track(
                 midi_bytes,
                 track_id,
                 collapse_chords=collapse,
@@ -353,16 +557,44 @@ def build_abc_from_profile(
                 is_drum=is_drum,
                 cleanup_options=opts.cleanup_options,
             )
-            if not notes:
-                continue
-            track_name = track.name if track and track.name else (f"Drums {vid}" if is_drum else f"Voice {vid}")
-            body = format_notes_to_abc_body(
+            notes, voice_duration = _trim_notes_for_quantization(raw_notes)
+            if notes:
+                prepared_notes.append((track_id, vid, is_drum, notes, voice_duration))
+
+        max_voice_duration = max((voice_duration for *_rest, voice_duration in prepared_notes), default=min_bar_duration)
+        shared_beat_times = build_beat_times(max(max_voice_duration, min_bar_duration), tempo, beats_per_bar)
+        beat_times = shared_beat_times
+        bar_slots = beats_per_bar * slots_per_beat
+
+        voice_event_sets: list[tuple[int, int, bool, list[dict[str, Any]], list[tuple[int, int, str]]]] = []
+        max_end = 0
+        for track_id, vid, is_drum, notes, _voice_duration in prepared_notes:
+            events = _quantize_notes_to_events(
                 notes,
-                beat_times,
-                beats_per_bar=profile.beats_per_bar or 4,
+                shared_beat_times,
                 slots_per_beat=slots_per_beat,
                 key=key,
                 is_drum=is_drum,
+            )
+            split_events = _split_events_at_bar_boundaries(events, bar_slots, slots_per_beat)
+            local_max = max((slot + max(1, dur_slots) for slot, dur_slots, _token in split_events), default=0)
+            max_end = max(max_end, local_max)
+            voice_event_sets.append((track_id, vid, is_drum, notes, split_events))
+
+        total_bars = max(1, (max_end + bar_slots - 1) // bar_slots)
+        beat_duration = 60.0 / max(tempo, 1.0)
+        bar_duration = beats_per_bar * beat_duration
+        duration_bars = max(1, int((max_voice_duration + bar_duration - 1e-9) // bar_duration))
+        total_bars = max(1, min(total_bars, duration_bars + 2))
+
+        for track_id, vid, is_drum, notes, split_events in voice_event_sets:
+            track = _track_by_index(profile, track_id)
+            track_name = display_name_for_track(track, vid, track.name if track and track.name else "")
+            body = _format_split_events_to_body(
+                split_events,
+                bar_slots=bar_slots,
+                slots_per_beat=slots_per_beat,
+                total_bars=total_bars,
             )
             if not body:
                 continue
@@ -375,7 +607,8 @@ def build_abc_from_profile(
             voices.append({
                 "id": vid,
                 "name": track_name,
-                "body": "\n".join(prefix + [body]) if prefix else body,
+                "body": body,
+                "prefix": prefix,
                 "trackId": track_id,
                 "isDrum": is_drum,
             })
@@ -384,7 +617,7 @@ def build_abc_from_profile(
         track = _track_by_index(profile, primary_id) if primary_id is not None else None
         is_drum = bool(track and track.is_drum)
         if primary_id is not None:
-            notes = _note_events_for_track(
+            raw_notes = _note_events_for_track(
                 midi_bytes,
                 primary_id,
                 collapse_chords=not is_drum,
@@ -392,6 +625,7 @@ def build_abc_from_profile(
                 is_drum=is_drum,
                 cleanup_options=opts.cleanup_options,
             )
+            notes, score_duration = _trim_notes_for_quantization(raw_notes)
         else:
             notes = midi_bytes_to_note_events(
                 midi_bytes,
@@ -400,6 +634,8 @@ def build_abc_from_profile(
             )
             if cleanup_is_active(opts.cleanup_options):
                 notes, _stats = apply_midi_cleanup(notes, opts.cleanup_options, tempo_bpm=tempo)
+            notes, score_duration = _trim_notes_for_quantization(notes)
+        beat_times = build_beat_times(max(score_duration, min_bar_duration), tempo, beats_per_bar)
         if notes:
             body = format_notes_to_abc_body(
                 notes,
@@ -418,7 +654,8 @@ def build_abc_from_profile(
                 voices.append({
                     "id": 1,
                     "name": track.name if track and track.name else "",
-                    "body": "\n".join(prefix + [body]) if prefix else body,
+                    "body": body,
+                    "prefix": prefix,
                     "trackId": primary_id,
                     "isDrum": is_drum,
                 })
@@ -443,10 +680,18 @@ def build_abc_from_profile(
         "K:" + key,
     ]
     if len(voices) == 1:
-        lines.append(voices[0]["body"])
+        voice = voices[0]
+        track = _track_by_index(profile, voice.get("trackId", -1))
+        for prefix_line in voice.get("prefix") or []:
+            lines.append(prefix_line)
+        lines.append(_voice_meta_line(voice["id"], track, voice["name"]))
+        lines.append("[V:1]")
+        lines.append(voice["body"])
     else:
         for voice in voices:
             track = _track_by_index(profile, voice.get("trackId", -1))
+            for prefix_line in voice.get("prefix") or []:
+                lines.append(prefix_line)
             lines.append(_voice_meta_line(voice["id"], track, voice["name"]))
         lines.append("[V:1]")
         lines.append(voices[0]["body"])

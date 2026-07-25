@@ -1,0 +1,92 @@
+{
+  "id": "05-modes",
+  "title": "05 Modes",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "04-transposition/05-modes.md",
+  "sections": [
+    {
+      "id": "modes-and-modal-transposition",
+      "title": "Modes and Modal Transposition",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** transposition | **Difficulty:** 7/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modal transposition preserves characteristic altered scale degrees, not just letter names."
+        }
+      ]
+    },
+    {
+      "id": "key-signatures",
+      "title": "Key signatures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "D dorian shares C major's signature. G mixolydian shares C major's signature. D major has two sharps — different collection."
+        }
+      ]
+    },
+    {
+      "id": "preserving-colour",
+      "title": "Preserving colour",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Transposing D mixolydian to E mixolydian: keep the flat 7th (D natural in E mixolydian). Dorian keeps major 6th; mixolydian keeps flat 7th."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-d-dorian-key-signature",
+      "title": "Q1. D dorian key signature:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) C major (none)\n- B) D major (2 sharps)\n- C) F major (1 flat)\n- D) G major (1 sharp)\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-mixolydian-lowers-the-7th-vs-major",
+      "title": "Q2. Mixolydian lowers the 7th vs major.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. D dorian key signature:\n\n- A) C major (none)\n- B) D major (2 sharps)\n- C) F major (1 flat)\n- D) G major (1 sharp)\n\n**Answer:** A\n\n### Q2. Mixolydian lowers the 7th vs major.\n\n**Answer:** True"
+}

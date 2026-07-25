@@ -414,7 +414,12 @@ export function appendChordProMetaAbcHeaders(lines, meta, options) {
     }
   })
 
-  const genre = escape(draft.genre)
+  const genre = escape(
+    (Array.isArray(draft.genres) ? draft.genres : (draft.genre ? [draft.genre] : []))
+      .map(function(item) { return String(item || '').trim() })
+      .filter(Boolean)
+      .join(', ')
+  )
   if (genre) lines.push('G:' + genre)
 
   const discography = escape(draft.discography)

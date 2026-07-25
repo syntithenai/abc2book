@@ -40,7 +40,11 @@ import {
   isMidiStartFromBeginning,
   shouldUseMidiMetronomeCountIn,
   metronomeSlotFromMusicSeconds,
+  timeUntilNextMetronomeSlot,
   computePlaybackMetronomeTempo,
+  notationBeatToAudioSeconds,
+  notationBeatToAudioRatio,
+  notationMsToAudioRatio,
 } from './playbackStateLogic'
 import { rhythmFromPreset } from './metronomeRhythmPresets'
 
@@ -491,6 +495,45 @@ describe('isStaleSeekEngineReading', function() {
   })
 })
 
+describe('notationBeatToAudioSeconds', function() {
+  test('uses abcjs total time proportion when available', function() {
+    const visualObj = {
+      getTotalBeats: function() { return 8 },
+      getTotalTime: function() { return 4000 },
+    }
+    expect(notationBeatToAudioSeconds(4, visualObj, 120)).toBe(2)
+  })
+
+  test('uses abcjs visual timing when available', function() {
+    const visualObj = {
+      millisecondsPerMeasure: function() { return 2000 },
+      getBeatsPerMeasure: function() { return 4 },
+    }
+    expect(notationBeatToAudioSeconds(4, visualObj, 120)).toBe(2)
+    expect(notationBeatToAudioSeconds(8, visualObj, 120)).toBe(4)
+  })
+
+  test('falls back to BPM without visual object', function() {
+    expect(notationBeatToAudioSeconds(4, null, 120)).toBe(2)
+  })
+})
+
+describe('notationBeatToAudioRatio', function() {
+  test('maps beat position to buffer ratio', function() {
+    const visualObj = {
+      millisecondsPerMeasure: function() { return 2000 },
+      getBeatsPerMeasure: function() { return 4 },
+    }
+    expect(notationBeatToAudioRatio(4, visualObj, 8, 120)).toBe(0.25)
+  })
+})
+
+describe('notationMsToAudioRatio', function() {
+  test('maps abcjs ms to buffer ratio', function() {
+    expect(notationMsToAudioRatio(2000, 8)).toBe(0.25);
+  });
+})
+
 describe('isMidiStartFromBeginning', function() {
   test('zero seconds and ratio are treated as the start', function() {
     expect(isMidiStartFromBeginning({ seconds: 0, ratio: 0 })).toBe(true)
@@ -843,5 +886,17 @@ describe('metronomeSlotFromMusicSeconds', function() {
 
   test('wraps within the bar', function() {
     expect(metronomeSlotFromMusicSeconds(2.0, 120, rhythm44)).toBe(0)
+  })
+})
+
+describe('timeUntilNextMetronomeSlot', function() {
+  const rhythm44 = rhythmFromPreset('4-4')
+
+  test('returns one beat at 120 bpm from bar start', function() {
+    expect(timeUntilNextMetronomeSlot(0, 120, rhythm44)).toBeCloseTo(0.5)
+  })
+
+  test('returns remaining beat time mid-bar', function() {
+    expect(timeUntilNextMetronomeSlot(0.25, 120, rhythm44)).toBeCloseTo(0.25)
   })
 })

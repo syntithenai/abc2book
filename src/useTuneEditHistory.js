@@ -143,6 +143,7 @@ export default function useTuneEditHistory(options) {
     undoTune: undoTune,
     redoTune: redoTune,
     canUndo: function(tuneId) {
+      if (pendingEntriesRef.current && pendingEntriesRef.current[tuneId]) return true
       return canUndoTuneEdit(historyRef.current, tuneId)
     },
     canRedo: function(tuneId) {

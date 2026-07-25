@@ -1,4 +1,4 @@
-import { createInitialSession, notationSessionReducer } from './notationSession';
+import { createInitialSession, notationSessionReducer, remapSelectionByStartBeat } from './notationSession';
 import { EDITOR_MODES, EDITOR_VIEWS } from './notationConstants';
 
 describe('notationSession', function() {
@@ -72,6 +72,47 @@ describe('notationSession', function() {
     expect(loaded.pianoRollZoom.beatWidth).toBe(80);
     expect(loaded.snapEnabled).toBe(false);
     expect(loaded.midiEnabled).toBe(true);
+  });
+
+  test('LOAD_VOICE remaps selection by startBeat when ids change', function() {
+    let session = createInitialSession(tuneMeta, 'C D E F |');
+    const noteD = session.events.find(function(ev) {
+      return ev.type === 'note' && ev.pitch && ev.pitch.step === 'D';
+    });
+    expect(noteD).toBeTruthy();
+    session = notationSessionReducer(session, {
+      type: 'SET_SELECTION',
+      selection: { eventIds: [noteD.id], toneIndex: null, anchorId: noteD.id },
+    });
+
+    const loaded = notationSessionReducer(session, {
+      type: 'LOAD_VOICE',
+      tuneMeta: tuneMeta,
+      voiceBody: 'C D E F |',
+    });
+
+    expect(loaded.selection.eventIds.length).toBe(1);
+    const remapped = loaded.events.find(function(ev) { return ev.id === loaded.selection.eventIds[0]; });
+    expect(remapped && remapped.pitch && remapped.pitch.step).toBe('D');
+    expect(remapped.startBeat).toBeCloseTo(noteD.startBeat, 3);
+  });
+
+  test('remapSelectionByStartBeat disambiguates duplicate beats by pitch', function() {
+    const oldEvents = [
+      { id: 'f1', type: 'note', startBeat: 2, durationBeats: 1, pitch: { step: 'F', octave: 5, accidental: 1 } },
+      { id: 'f2', type: 'note', startBeat: 2, durationBeats: 1, pitch: { step: 'F', octave: 5, accidental: 0 } },
+    ];
+    const newEvents = [
+      { id: 'nf1', type: 'note', startBeat: 2, durationBeats: 1, pitch: { step: 'F', octave: 5, accidental: 1 } },
+      { id: 'nf2', type: 'note', startBeat: 2, durationBeats: 1, pitch: { step: 'F', octave: 5, accidental: 0 } },
+    ];
+    const remapped = remapSelectionByStartBeat(oldEvents, newEvents, {
+      eventIds: ['f1'],
+      toneIndex: null,
+      anchorId: 'f1',
+    });
+    expect(remapped.eventIds).toEqual(['nf1']);
+    expect(remapped.startMs).toBeUndefined();
   });
 
   test('SET_SELECTION SET_DURATION_KEY TOGGLE_DOT store exact values', function() {

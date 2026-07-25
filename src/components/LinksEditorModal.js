@@ -93,6 +93,7 @@ export default function LinksEditorModal(props) {
                     token={props.token}
                     googleDocumentId={props.googleDocumentId}
                     forceRefresh={props.forceRefresh}
+                    login={props.login}
                 />
             </div>
          

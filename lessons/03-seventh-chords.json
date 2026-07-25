@@ -1,0 +1,103 @@
+{
+  "id": "03-seventh-chords",
+  "title": "03 Seventh Chords",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "03-chords/03-seventh-chords.md",
+  "sections": [
+    {
+      "id": "seventh-chords-and-their-qualities",
+      "title": "Seventh Chords and Their Qualities",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** chords | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Adding a seventh above the root creates four-note chords with richer colour and stronger harmonic function."
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Major 7th (maj7)**: major triad + major 7th (C-E-G-B). **Dominant 7th (7)**: major triad + minor 7th (C-E-G-B♭) — V7 pulls to I. **Minor 7th (m7)**: minor triad + minor 7th (D-F-A-C). **Half-diminished (m7♭5)**: diminished triad + minor 7th. **Fully diminished (dim7)**: diminished triad + diminished 7th."
+        }
+      ]
+    },
+    {
+      "id": "guide-tones",
+      "title": "Guide tones",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The 3rd and 7th of a seventh chord define its function even when root is omitted. In G7, B and F are the tritone that resolves to C major."
+        }
+      ]
+    },
+    {
+      "id": "in-trad",
+      "title": "In trad",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dominant sevenths colour céilí band voicings; maj7 appears more in contemporary arrangements than strict session backup."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-g7-contains-which-seventh-above-g",
+      "title": "Q1. G7 contains which seventh above G?",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) F (minor 7th)\n- B) F♯\n- C) E\n- D) A\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-v7-strongly-pulls-to-i-in-major-keys",
+      "title": "Q2. V7 strongly pulls to I in major keys.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. G7 contains which seventh above G?\n\n- A) F (minor 7th)\n- B) F♯\n- C) E\n- D) A\n\n**Answer:** A\n\n### Q2. V7 strongly pulls to I in major keys.\n\n**Answer:** True"
+}

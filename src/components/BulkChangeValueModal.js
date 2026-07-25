@@ -1,9 +1,8 @@
 import {useMemo, useRef, useState} from 'react'
 import {Button, Modal, Form, Row, Col} from 'react-bootstrap'
-import CreatableSelect from 'react-select/creatable'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { BULK_FIELD_HELP, EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
-import { genreSelectValue } from '../musicGenreOptions'
+import TuneGenresField from './TuneGenresField'
 import {
   BULK_EDIT_FIELDS,
   getBulkEditField,
@@ -29,7 +28,7 @@ function createEmptyRow() {
 
 function defaultValueForField(field) {
   if (!field) return ''
-  if (field.type === 'instruments') return []
+  if (field.type === 'instruments' || field.type === 'genres') return []
   if (field.type === 'toggle') return 'true'
   return ''
 }
@@ -126,18 +125,13 @@ function BulkFieldValueInput({fieldKey, value, onChange, tunebook, rowId, token,
     )
   }
 
-  if (field.type === 'genre') {
-    var genreOptions = getBulkEditSelectOptions(field, tunebook)
+  if (field.type === 'genres') {
     return (
-      <CreatableSelect
-        value={genreSelectValue(value)}
-        onChange={function(val) { onChange(val ? val.label : '') }}
-        options={genreOptions}
-        isClearable={field.allowEmpty}
-        blurInputOnSelect={true}
-        createOptionPosition="first"
-        allowCreateWhileLoading={true}
-        placeholder={field.allowEmpty ? 'Choose or type a genre' : 'Choose or type a genre'}
+      <TuneGenresField
+        label=""
+        className="mb-0"
+        value={Array.isArray(value) ? value : []}
+        onChange={onChange}
       />
     )
   }

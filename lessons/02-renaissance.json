@@ -1,0 +1,103 @@
+{
+  "id": "02-renaissance",
+  "title": "02 Renaissance",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "10-music-periods/02-renaissance.md",
+  "sections": [
+    {
+      "id": "renaissance-music-14001600",
+      "title": "Renaissance Music (1400–1600)",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** music-periods | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Renaissance brought humanism, printing, and golden-age polyphony — Palestrina, Josquin, Byrd."
+        }
+      ]
+    },
+    {
+      "id": "polyphony",
+      "title": "Polyphony",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Independent vocal lines woven in imitative counterpoint. Mass settings and madrigals. Consonance rules refined; dissonance on weak beats."
+        }
+      ]
+    },
+    {
+      "id": "instruments",
+      "title": "Instruments",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lute flourished; viol consort; early keyboard. Dance music published in collections (Attaignant, Praetorius)."
+        }
+      ]
+    },
+    {
+      "id": "reformation-impact",
+      "title": "Reformation impact",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lutheran chorales and Anglican hymnody shaped congregational singing — ancestors of folk hymn tradition."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-renaissance-music-emphasises",
+      "title": "Q1. Renaissance music emphasises:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Imitative vocal polyphony\n- B) Heavy distortion guitar\n- C) 4/4 rock backbeat only\n- D) Serial twelve-tone rows\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-music-printing-spread-repertoire-widely-in-the-renaissance",
+      "title": "Q2. Music printing spread repertoire widely in the Renaissance.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Renaissance music emphasises:\n\n- A) Imitative vocal polyphony\n- B) Heavy distortion guitar\n- C) 4/4 rock backbeat only\n- D) Serial twelve-tone rows\n\n**Answer:** A\n\n### Q2. Music printing spread repertoire widely in the Renaissance.\n\n**Answer:** True"
+}

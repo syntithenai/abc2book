@@ -19,6 +19,10 @@ import {
   loadActiveQueue,
   persistActiveQueue,
   findQueueIndexForTuneId,
+  createLessonQueueFromItems,
+  isExternalQueueItem,
+  isLessonQueue,
+  getQueueItemLabel,
 } from './nowPlayingQueue'
 
 describe('nowPlayingQueue', function() {
@@ -113,14 +117,39 @@ describe('nowPlayingQueue', function() {
     })
   })
 
-  test('shouldSuppressFollowNavigate in editor and gig', function() {
+  test('shouldSuppressFollowNavigate in editor, scratchpad, and gig', function() {
     expect(shouldSuppressFollowNavigate({ pathname: '/editor/abc' })).toBe(true)
+    expect(shouldSuppressFollowNavigate({ pathname: '/scratchpad/item-1' })).toBe(true)
     expect(shouldSuppressFollowNavigate({ pathname: '/gig/set-1' })).toBe(true)
+    expect(shouldSuppressFollowNavigate({ pathname: '/lessons/foo' })).toBe(true)
     expect(shouldSuppressFollowNavigate({ pathname: '/tunes/abc' })).toBe(false)
     expect(shouldSuppressFollowNavigate({
       pathname: '/tunes/abc',
       setPlaylist: { tunes: [{ id: 'x' }] },
     })).toBe(true)
+  })
+
+  test('resolvePlaybackForItem external branch', function() {
+    const item = {
+      tuneId: null,
+      prefer: 'external',
+      externalMedia: { youtubeId: 'abc123XYZ12', title: 'Demo' },
+    }
+    expect(resolvePlaybackForItem(null, item, tunebook)).toEqual({
+      type: 'external',
+      youtubeId: 'abc123XYZ12',
+    })
+    expect(isExternalQueueItem(item)).toBe(true)
+  })
+
+  test('createLessonQueueFromItems sets lesson source', function() {
+    const queue = createLessonQueueFromItems({
+      lessonId: 'lesson-1',
+      name: 'Lesson',
+      items: [{ externalMedia: { youtubeId: 'abc123XYZ12', title: 'A' } }],
+    })
+    expect(isLessonQueue(queue)).toBe(true)
+    expect(getQueueItemLabel(queue.items[0], {})).toContain('A')
   })
 
   test('preview once restores index', function() {

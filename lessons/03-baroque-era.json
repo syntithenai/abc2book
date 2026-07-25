@@ -1,0 +1,103 @@
+{
+  "id": "03-baroque-era",
+  "title": "03 Baroque Era",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "10-music-periods/03-baroque-era.md",
+  "sections": [
+    {
+      "id": "baroque-era-overview-16001750",
+      "title": "Baroque Era Overview (1600–1750)",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** music-periods | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Baroque: birth of opera, oratorio, concerto, and tonality as we know it. Bach, Handel, Vivaldi, Corelli dominate."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "title": "Features",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Basso continuo, terraced dynamics, doctrine of affections (specific emotions per movement). Equal temperament enabled all-key composition."
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Forms",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Fugue, concerto grosso, suite, opera seria. Vivaldi's *Four Seasons*; Handel's *Messiah*."
+        }
+      ]
+    },
+    {
+      "id": "trad-link",
+      "title": "Trad link",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Baroque dance rhythms feed into European folk dance; ornamentation practice influences traditional gracing."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-baroque-basso-continuo-provides",
+      "title": "Q1. Baroque basso continuo provides:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Harmonic foundation from bass line\n- B) Only percussion\n- C) Random noise\n- D) Lyrics only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-bach-and-handel-are-baroque-composers",
+      "title": "Q2. Bach and Handel are Baroque composers.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Baroque basso continuo provides:\n\n- A) Harmonic foundation from bass line\n- B) Only percussion\n- C) Random noise\n- D) Lyrics only\n\n**Answer:** A\n\n### Q2. Bach and Handel are Baroque composers.\n\n**Answer:** True"
+}

@@ -59,8 +59,8 @@ export default function useMediaResolverHealth() {
     return subscribeMediaResolverHealth(setHealth);
   }, []);
 
-  const refreshMediaResolverHealth = useCallback(function() {
-    return refreshStoredMediaResolverHealth();
+  const refreshMediaResolverHealth = useCallback(function(accessToken) {
+    return refreshStoredMediaResolverHealth(accessToken);
   }, []);
 
   return {

@@ -1,0 +1,114 @@
+{
+  "id": "06-harp",
+  "title": "06 Harp",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/06-harp.md",
+  "sections": [
+    {
+      "id": "harp",
+      "title": "Harp",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The harp is among the oldest instruments — depicted in ancient Egypt and Mesopotamia. Sound from plucked strings; frame holds tension. Pedal harp (modern orchestra) and lever/folk harp (trad) serve different roles."
+        }
+      ]
+    },
+    {
+      "id": "irish-harp",
+      "title": "Irish harp",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Wire-strung cláirseach historically; modern Irish harp (neo-Irish) nylon strings, levers for semitone changes. National symbol of Ireland. Turlough O'Carolan (1670–1738) composed harp music still central to trad repertoire."
+        }
+      ]
+    },
+    {
+      "id": "concert-harp",
+      "title": "Concert harp",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "47 strings, seven pedals each altering pitch by semitone. Complex mechanism. Composers: Debussy (*Danse sacrée et danse profane*), Ravel."
+        }
+      ]
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Pluck near middle of string for warmest tone. Harmonics, pres de la table (near soundboard) effects. Left hand bass, right hand melody in classical; both hands melodic in trad."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-ocarolan-played",
+      "title": "Q1. O'Carolan played:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Irish harp\n- B) Electric guitar\n- C) Synthesizer\n- D) Timpani\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-pedal-harp-uses-seven-pedals-for-chromatic-alteration",
+      "title": "Q2. Pedal harp uses seven pedals for chromatic alteration.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-harp-is-classified-as",
+      "title": "Q3. Harp is classified as:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Plucked chordophone\n- B) Brass aerophone\n- C) Membranophone\n- D) Electrophone only\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. O'Carolan played:\n\n- A) Irish harp\n- B) Electric guitar\n- C) Synthesizer\n- D) Timpani\n\n**Answer:** A\n\n### Q2. Pedal harp uses seven pedals for chromatic alteration.\n\n**Answer:** True\n\n### Q3. Harp is classified as:\n\n- A) Plucked chordophone\n- B) Brass aerophone\n- C) Membranophone\n- D) Electrophone only\n\n**Answer:** A"
+}

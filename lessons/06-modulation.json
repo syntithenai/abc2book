@@ -1,0 +1,103 @@
+{
+  "id": "06-modulation",
+  "title": "06 Modulation",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "05-harmony/06-modulation.md",
+  "sections": [
+    {
+      "id": "modulation-changing-key-mid-tune",
+      "title": "Modulation: Changing Key Mid-Tune",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** harmony | **Difficulty:** 8/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modulation establishes a new tonic, not merely touching foreign chords."
+        }
+      ]
+    },
+    {
+      "id": "common-moves",
+      "title": "Common moves",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Up a whole step (G→A) for energy. To relative minor (G→Em). Pivot chord shared by two keys (C major = IV in G, I in C)."
+        }
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "Detection",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Sustained new accidentals + cadence confirming new tonic = modulation. Single A7 in D = tonicisation; four bars in A with A cadence = modulation."
+        }
+      ]
+    },
+    {
+      "id": "trad-context",
+      "title": "Trad context",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Less common in core repertoire than céilí arrangements and song verses."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-pivot-chord-modulation-uses",
+      "title": "Q1. Pivot-chord modulation uses:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Chord belonging to both old and new keys\n- B) Silence only\n- C) Tempo change only\n- D) Random accidentals\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-modulation-establishes-new-tonic-tonicisation-is-brief",
+      "title": "Q2. Modulation establishes new tonic; tonicisation is brief.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Pivot-chord modulation uses:\n\n- A) Chord belonging to both old and new keys\n- B) Silence only\n- C) Tempo change only\n- D) Random accidentals\n\n**Answer:** A\n\n### Q2. Modulation establishes new tonic; tonicisation is brief.\n\n**Answer:** True"
+}

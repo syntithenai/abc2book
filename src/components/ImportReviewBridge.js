@@ -78,6 +78,7 @@ import { applyAddFormInlineImport } from '../importReviewFieldUtils'
 import { mergeTuneCollectionExtras } from '../tuneMergeExtras'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
 import { attachMidiMediaLinkFromPendingFile } from '../attachMidiMediaLink'
+import { openMidiImportWizard, MidiImportWizardHost } from '../midiImportWizard'
 import { primaryArtist } from '../tuneBibliographicUtils'
 import {
   asIndependentReviewCandidate,
@@ -420,6 +421,32 @@ export default function ImportReviewBridge(props) {
     setShowAudioDriveUploadModal(true)
   }, [appendMediaImportCandidates])
 
+  const applyImportedTune = useCallback(function(importedTune, importedCandidate, draft) {
+    const sessionNow = getImportReviewSession()
+    if (!sessionNow) return false
+    const candidateIndex = sessionNow.mergeIndex != null ? sessionNow.mergeIndex : sessionNow.index
+    const candidate = sessionNow.candidates[candidateIndex]
+    if (!candidate) return false
+    const draftTune = (draft && draft.tune) || candidate.tune || {}
+    const mergedTune = mergeImportDraftTune(importedTune, draftTune)
+    const built = applyAddFormInlineImport(draftTune, importedTune || {})
+    const sourceKind = (importedCandidate && importedCandidate.sourceKind)
+      || (candidate.sourceKind && candidate.sourceKind !== 'manual' ? candidate.sourceKind : null)
+      || 'abc'
+    updateSession(updateCurrentCandidate(sessionNow, {
+      tune: mergedTune,
+      mergeTargetId: (draft && draft.mergeTargetId) || candidate.mergeTargetId || null,
+      sourceKind: sourceKind,
+      pendingInlineSuggestions: built.suggestions || {},
+      inlineFormValues: built.formValues || null,
+      importWarnings: (importedCandidate && importedCandidate.importWarnings) || candidate.importWarnings || null,
+      midiImport: (importedCandidate && importedCandidate.midiImport) || candidate.midiImport || null,
+      pendingFile: (importedCandidate && importedCandidate.pendingFile) || candidate.pendingFile || null,
+      inlineImportRevision: (Number(candidate.inlineImportRevision) || 0) + 1,
+    }))
+    return true
+  }, [updateSession])
+
   const handleReviewSourceImport = useCallback(async function(input, draft) {
     const current = getImportReviewSession()
     if (!current) {
@@ -453,31 +480,8 @@ export default function ImportReviewBridge(props) {
       updateSession(next)
     }
 
-    const applyImportedTune = function(importedTune, importedCandidate) {
-      const sessionNow = getImportReviewSession()
-      if (!sessionNow) return false
-      const candidateIndex = sessionNow.mergeIndex != null ? sessionNow.mergeIndex : sessionNow.index
-      const candidate = sessionNow.candidates[candidateIndex]
-      if (!candidate) return false
-      const draftTune = (draft && draft.tune) || candidate.tune || {}
-      // Prefer import as the base; keep only non-empty draft fields (book/tags/links).
-      const mergedTune = mergeImportDraftTune(importedTune, draftTune)
-      const built = applyAddFormInlineImport(draftTune, importedTune || {})
-      const sourceKind = (importedCandidate && importedCandidate.sourceKind)
-        || (candidate.sourceKind && candidate.sourceKind !== 'manual' ? candidate.sourceKind : null)
-        || 'abc'
-      updateSession(updateCurrentCandidate(sessionNow, {
-        tune: mergedTune,
-        mergeTargetId: (draft && draft.mergeTargetId) || candidate.mergeTargetId || null,
-        sourceKind: sourceKind,
-        pendingInlineSuggestions: built.suggestions || {},
-        inlineFormValues: built.formValues || null,
-        importWarnings: (importedCandidate && importedCandidate.importWarnings) || candidate.importWarnings || null,
-        midiImport: (importedCandidate && importedCandidate.midiImport) || candidate.midiImport || null,
-        pendingFile: (importedCandidate && importedCandidate.pendingFile) || candidate.pendingFile || null,
-        inlineImportRevision: (Number(candidate.inlineImportRevision) || 0) + 1,
-      }))
-      return true
+    const applyToCurrentDraft = function(importedTune, importedCandidate) {
+      return applyImportedTune(importedTune, importedCandidate, draft)
     }
 
     const normalizedInput = input && input.file ? input.file : input
@@ -519,6 +523,35 @@ export default function ImportReviewBridge(props) {
       return
     }
 
+    if (result.action === 'midiWizard' && result.pendingMidi) {
+      try {
+        const wizardResult = await openMidiImportWizard({
+          pendingMidi: result.pendingMidi,
+          file: result.pendingMidi.file,
+          sourceUrl: result.pendingMidi.sourceUrl,
+        })
+        const reviewResult = {
+          action: 'review',
+          candidates: wizardResult.candidates || [],
+        }
+        const outcome = processReviewResult(
+          reviewResult,
+          importContext,
+          applyToCurrentDraft,
+          appendCandidates,
+          toast
+        )
+        if (!outcome.handled) {
+          appendCandidates(reviewResult.candidates)
+        }
+      } catch (e) {
+        if (e && e.message && e.message.indexOf('cancelled') === -1) {
+          toast.error(e.message || 'MIDI import failed.')
+        }
+      }
+      return
+    }
+
     if (result.action === 'batch' && result.batchSummary) {
       setPendingAbcImportBatch(result.batchSummary)
       return
@@ -526,7 +559,7 @@ export default function ImportReviewBridge(props) {
 
     if (result.action === 'review') {
       if (input && input.forceApplyToCurrent && result.candidates && result.candidates.length === 1) {
-        applyImportedTune(result.candidates[0].tune, result.candidates[0])
+        applyToCurrentDraft(result.candidates[0].tune, result.candidates[0])
         return
       }
       // Sheet-image transcription review: on Add, still offer attach dialog if somehow reached.
@@ -548,13 +581,13 @@ export default function ImportReviewBridge(props) {
       const outcome = processReviewResult(
         result,
         { stayOnForm: true, entryPoint: 'add' },
-        applyImportedTune,
+        applyToCurrentDraft,
         appendCandidates,
         toast
       )
       if (outcome.handled) return
     }
-  }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, props.tunes, abcjsParser, driveApi, updateSession, props.forceRefresh, handleReviewMediaFilesImport])
+  }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, props.tunes, abcjsParser, driveApi, updateSession, props.forceRefresh, handleReviewMediaFilesImport, applyImportedTune])
 
   const handleMidiReimport = useCallback(async function(mode, includeChords) {
     const sessionNow = getImportReviewSession()
@@ -570,19 +603,19 @@ export default function ImportReviewBridge(props) {
         candidate.pendingFile.name || 'import.mid',
         { type: candidate.pendingFile.type || 'audio/midi' }
       )
-    await handleReviewSourceImport({
-      file: file,
-      midiMode: mode,
-      midiStrategy: 'auto',
-      includeChords: includeChords,
-      forceApplyToCurrent: true,
-    }, {
-      tune: candidate.tune,
-      mergeTargetId: candidate.mergeTargetId,
-    })
-    const chordLabel = includeChords === false ? ' without chords' : (includeChords ? ' with chords' : '')
-    toast.info(mode === 'multi_voice' ? 'Re-imported with all voices' + chordLabel : 'Re-imported melody only' + chordLabel)
-  }, [handleReviewSourceImport])
+    try {
+      const wizardResult = await openMidiImportWizard({ file: file })
+      const imported = wizardResult.candidates && wizardResult.candidates[0]
+      if (imported && imported.tune) {
+        applyImportedTune(imported.tune, imported)
+      }
+      toast.info('MIDI re-imported via wizard')
+    } catch (e) {
+      if (e && e.message && e.message.indexOf('cancelled') === -1) {
+        toast.error(e.message || 'MIDI re-import failed.')
+      }
+    }
+  }, [applyImportedTune])
 
   const resolveAttachBaseTune = useCallback(function(draft) {
     const sessionNow = getImportReviewSession()
@@ -1358,6 +1391,12 @@ export default function ImportReviewBridge(props) {
       <BulkSheetSnapshotImportModal
         show={!!bulkSnapshotProgress}
         progress={bulkSnapshotProgress}
+      />
+      <MidiImportWizardHost
+        accessToken={props.token && props.token.access_token ? props.token.access_token : ''}
+        tunebook={props.tunebook}
+        abcjsParser={abcjsParser}
+        book={props.currentTuneBook || ''}
       />
     </>
   )

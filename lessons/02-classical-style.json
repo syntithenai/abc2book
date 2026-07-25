@@ -1,0 +1,103 @@
+{
+  "id": "02-classical-style",
+  "title": "02 Classical Style",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "07-styles/02-classical-style.md",
+  "sections": [
+    {
+      "id": "classical-style-balance-and-sonata-form",
+      "title": "Classical Style: Balance and Sonata Form",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Classical era (c. 1750–1820) values symmetry, homophonic texture, and clearly articulated phrases."
+        }
+      ]
+    },
+    {
+      "id": "texture",
+      "title": "Texture",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Melody with accompaniment dominates over baroque polyphony. Alberti bass (broken chords) supports singable top lines."
+        }
+      ]
+    },
+    {
+      "id": "sonata-form",
+      "title": "Sonata form",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Exposition (themes in home and dominant keys) → development (fragmentation, modulation) → recapitulation (themes in home key). Large-scale question-answer logic applies to short tunes too."
+        }
+      ]
+    },
+    {
+      "id": "ensemble",
+      "title": "Ensemble",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Haydn and Mozart string quartets model conversational listening — metaphor for good session etiquette."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-classical-texture-often-features",
+      "title": "Q1. Classical texture often features:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Clear melody with accompaniment\n- B) Unstructured noise\n- C) Only 7/8 meter\n- D) No phrases\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-sonata-form-exposition-development-recapitulation",
+      "title": "Q2. Sonata form: exposition, development, recapitulation.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Classical texture often features:\n\n- A) Clear melody with accompaniment\n- B) Unstructured noise\n- C) Only 7/8 meter\n- D) No phrases\n\n**Answer:** A\n\n### Q2. Sonata form: exposition, development, recapitulation.\n\n**Answer:** True"
+}

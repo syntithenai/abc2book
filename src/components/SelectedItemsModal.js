@@ -423,6 +423,7 @@ export default function SelectedItemsModal(props) {
                 tunesHash={props.tunesHash}
                 mediaController={props.mediaController}
                 token={props.token}
+                login={props.login}
                 autoStartCheck={false}
               />
             </div>

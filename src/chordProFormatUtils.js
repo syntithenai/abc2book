@@ -424,7 +424,11 @@ export function createTuneFromChordSheet(options) {
   if (Array.isArray(draft.aliases) && draft.aliases.length) {
     tune.aliases = mergeBibliographicList(tune.aliases, draft.aliases);
   }
-  if (draft.genre && !tune.genre) tune.genre = draft.genre;
+  if (draft.genre) {
+    if (!Array.isArray(tune.genres)) tune.genres = []
+    tune.genres = mergeBibliographicList(tune.genres, draft.genre)
+    delete tune.genre
+  }
   if (draft.discography) {
     tune.meta = tune.meta || {};
     if (!tune.meta.D) tune.meta.D = draft.discography;

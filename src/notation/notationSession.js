@@ -6,9 +6,72 @@ import {
   PIANO_ROLL_TOOLS,
   DEFAULT_MIDI_CHORD_WINDOW_MS,
 } from './notationConstants';
-import { parseVoiceEvents, createEventId, cloneVoiceEvent } from './voiceEventModel';
+import { parseVoiceEvents, createEventId, cloneVoiceEvent, eventMelodicMidiPitch } from './voiceEventModel';
 import { assignTimingToEvents, parseNoteLengthDecimal, beatsToDuration, durationToBeats } from './beatGrid';
 import { reassignEventTiming } from './abcVoiceSerializer';
+
+/** Remap note selection onto re-parsed events after LOAD_VOICE assigns new ids. */
+function matchRemappedNoteEvent(oldEv, newEvents, usedIds) {
+  if (!oldEv || typeof oldEv.startBeat !== 'number') return null;
+  const oldMidi = eventMelodicMidiPitch(oldEv);
+  const oldDur = typeof oldEv.durationBeats === 'number' ? oldEv.durationBeats : null;
+  const candidates = (newEvents || []).filter(function(ev) {
+    return ev && ev.id && usedIds.indexOf(ev.id) < 0
+      && (ev.type === 'note' || ev.type === 'chord')
+      && typeof ev.startBeat === 'number'
+      && Math.abs(ev.startBeat - oldEv.startBeat) < 0.001;
+  });
+  if (!candidates.length) return null;
+  if (candidates.length === 1) return candidates[0];
+  if (oldMidi != null) {
+    const midiMatch = candidates.find(function(ev) {
+      return eventMelodicMidiPitch(ev) === oldMidi;
+    });
+    if (midiMatch) return midiMatch;
+  }
+  if (oldDur != null) {
+    const durMatch = candidates.find(function(ev) {
+      return Math.abs((ev.durationBeats || 0) - oldDur) < 0.001;
+    });
+    if (durMatch) return durMatch;
+  }
+  return candidates[0];
+}
+
+export function remapSelectionByStartBeat(oldEvents, newEvents, selection) {
+  if (!selection || !selection.eventIds || !selection.eventIds.length) {
+    return { eventIds: [], toneIndex: null, anchorId: null };
+  }
+  const oldById = {};
+  (oldEvents || []).forEach(function(ev) {
+    if (ev && ev.id) oldById[ev.id] = ev;
+  });
+  const newIds = [];
+  selection.eventIds.forEach(function(id) {
+    const oldEv = oldById[id];
+    if (!oldEv || (oldEv.type !== 'note' && oldEv.type !== 'chord')) return;
+    const match = matchRemappedNoteEvent(oldEv, newEvents, newIds);
+    if (match && newIds.indexOf(match.id) < 0) newIds.push(match.id);
+  });
+  if (!newIds.length) {
+    return { eventIds: [], toneIndex: null, anchorId: null };
+  }
+  let anchorId = selection.anchorId;
+  const anchorEv = oldById[anchorId];
+  if (anchorEv && (anchorEv.type === 'note' || anchorEv.type === 'chord')) {
+    const anchorMatch = matchRemappedNoteEvent(anchorEv, newEvents, []);
+    anchorId = anchorMatch ? anchorMatch.id : newIds[0];
+  } else {
+    anchorId = newIds[0];
+  }
+  const anchorNew = (newEvents || []).find(function(ev) { return ev.id === anchorId; });
+  return {
+    eventIds: newIds,
+    toneIndex: selection.toneIndex != null ? selection.toneIndex : null,
+    anchorId: anchorId,
+    startBeat: anchorNew && typeof anchorNew.startBeat === 'number' ? anchorNew.startBeat : undefined,
+  };
+}
 
 export function createInitialSession(tuneMeta, voiceBody) {
   const unit = parseNoteLengthDecimal(tuneMeta.noteLength, tuneMeta.meter);
@@ -64,12 +127,15 @@ export function notationSessionReducer(state, action) {
         typeof state.caretIndex === 'number' ? state.caretIndex : 0,
         next.events.length
       ));
+      const preservedSelection = remapSelectionByStartBeat(
+        state.events, next.events, state.selection);
       return Object.assign({}, next, {
         view: state.view,
         mode: state.mode,
         noteInputMethod: state.noteInputMethod,
         pitchCarry: state.pitchCarry,
         caretIndex: preservedCaret,
+        selection: preservedSelection,
         pianoRollZoom: state.pianoRollZoom,
         pianoRollTool: state.pianoRollTool,
         pianoRollShowWaveform: state.pianoRollShowWaveform,

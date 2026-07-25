@@ -8,6 +8,7 @@ import {
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
 import { advanceQueueToNextPlayable, isQueueItemPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
 import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
+import { hasFilteredPlaybackVoices } from './abcVoiceViewSettings'
 
 export { isQueuePlaybackEngaged }
 
@@ -51,6 +52,12 @@ export function resolvePlaybackTarget(mediaController, tunebook, location, tune)
         const linkNum = mediaController.mediaLinkNumber !== null && mediaController.mediaLinkNumber !== undefined
             ? mediaController.mediaLinkNumber : 0
         return { type: 'media', linkNum: linkNum }
+    }
+
+    if (hasMusic && hasLinks && hasFilteredPlaybackVoices(tune)
+        && mediaController.requestedPlayState !== 'playMedia'
+        && !(mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute())) {
+        return { type: 'midi' }
     }
 
     if (hasLinks) {
@@ -111,8 +118,11 @@ export function playTuneNow(mediaController, tunebook, navigate, tune) {
         ? tunebook.hasLinks(tune)
         : (Array.isArray(tune.links) && tune.links.length > 0)
     let target = null
-    if (hasLinks) target = { type: 'media', linkNum: 0 }
-    else if (hasMusic) target = { type: 'midi' }
+    if (hasLinks && !(hasMusic && hasFilteredPlaybackVoices(tune))) {
+        target = { type: 'media', linkNum: 0 }
+    } else if (hasMusic) {
+        target = { type: 'midi' }
+    }
     if (!target) {
         if (navigate) navigate('/tunes/' + tune.id)
         return false

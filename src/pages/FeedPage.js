@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, Link } from 'react-router-dom'
 import { useDocumentTitle } from '../pageTitle'
 import FeedCard from '../components/FeedCard'
+import StudyNavRail from '../components/StudyNavRail'
 import './FeedPage.css'
 import { getRecentViewedTuneIds } from '../tuneViewHistoryStore'
 import {
@@ -352,6 +353,7 @@ export default function FeedPage(props) {
 
   return (
     <div className="feed-page" data-testid="feed-page">
+      <StudyNavRail active="feed" tunebook={props.tunebook} />
       {showFeedbackControls && feedbackCount > 0 ? (
         <div className="feed-feedback-toolbar" data-testid="feed-feedback-toolbar">
           <button

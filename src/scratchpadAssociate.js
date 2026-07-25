@@ -1,6 +1,10 @@
 import { createTuneFileFromBlob } from './tuneFiles'
-import { createAttachedAudioLink } from './linkRecording'
+import { createAttachedAudioLink, createAttachedMidiLink } from './linkRecording'
+import { normalizeMidiBinaryData, isMidiHeader } from './midiFileUtils'
 import { setPlainLyricLines } from './wLinesUtils'
+import { filterTuneVoices } from './abcVoiceFilter'
+import { getTuneVoiceKeys, getVisibleVoiceKeys } from './abcVoiceViewSettings'
+import { applyScratchpadNotationMerge } from './scratchpadNotationMerge'
 
 /**
  * Attach scratchpad image to tune as snapshot.
@@ -47,34 +51,16 @@ export async function attachScratchpadAudioToTune(tune, blob, options) {
 }
 
 /**
- * Merge scratchpad notation melody into tune primary voice.
+ * Merge scratchpad notation into tune (supports multi-voice mapping via options).
  */
-export function mergeScratchpadNotationIntoTune(tune, scratchpadTune, melodyNotesText, mode) {
-  const next = Object.assign({}, tune)
-  const voices = Object.assign({}, next.voices || {})
-  const voiceKeys = Object.keys(voices)
-  const primaryKey = voiceKeys.length > 0 ? voiceKeys[0] : 'V'
-  const voice = Object.assign({}, voices[primaryKey] || { notes: [], meta: {} })
-  const incoming = String(melodyNotesText || '').trim()
-    ? String(melodyNotesText).trim().split(/\s+/)
-    : (scratchpadTune && scratchpadTune.voices && scratchpadTune.voices[primaryKey]
-      ? scratchpadTune.voices[primaryKey].notes
-      : [])
-  const incomingNotes = Array.isArray(incoming) ? incoming : [incoming]
-  const existingNotes = Array.isArray(voice.notes) ? voice.notes.slice() : []
-  if (mode === 'append' && existingNotes.length) {
-    voice.notes = existingNotes.concat(incomingNotes)
-  } else if (incomingNotes.length) {
-    voice.notes = incomingNotes
-  }
-  voices[primaryKey] = voice
-  next.voices = voices
-  if (scratchpadTune) {
-    if (scratchpadTune.key && !next.key) next.key = scratchpadTune.key
-    if (scratchpadTune.meter && !next.meter) next.meter = scratchpadTune.meter
-    if (scratchpadTune.noteLength && !next.noteLength) next.noteLength = scratchpadTune.noteLength
-  }
-  return next
+export function mergeScratchpadNotationIntoTune(tune, scratchpadTune, melodyNotesText, mode, options) {
+  const opts = options || {}
+  return applyScratchpadNotationMerge(tune, scratchpadTune, {
+    mode: mode,
+    voiceMapping: opts.voiceMapping,
+    fromBar: opts.fromBar,
+    toBar: opts.toBar,
+  })
 }
 
 /**
@@ -108,22 +94,91 @@ export function mergeScratchpadBackgroundIntoTune(tune, text, mode) {
   return next
 }
 
+/**
+ * Scratchpad notation for MIDI export: only voices visible in the editor.
+ */
+export function filterScratchpadNotationForMidiExport(scratchpadTune, scratchpadItemId) {
+  if (!scratchpadTune) return scratchpadTune
+  const voiceKeys = getTuneVoiceKeys(scratchpadTune)
+  const visibleKeys = getVisibleVoiceKeys(scratchpadItemId || scratchpadTune.id, voiceKeys)
+  return filterTuneVoices(scratchpadTune, visibleKeys)
+}
+
+/**
+ * Attach scratchpad notation as a notation-friendly MIDI media link.
+ */
+export async function attachScratchpadNotationMidiToTune(tune, scratchpadTune, options) {
+  const opts = options || {}
+  const tunebook = opts.tunebook
+  if (!tune || !tunebook || typeof tunebook.getMidiData !== 'function') {
+    throw new Error('Cannot generate MIDI')
+  }
+  const snapshot = filterScratchpadNotationForMidiExport(
+    scratchpadTune || tune,
+    opts.scratchpadItemId
+  )
+  const midiBytes = normalizeMidiBinaryData(
+    tunebook.getMidiData(snapshot, 'binary', { notationFriendly: true })
+  )
+  if (!midiBytes || !isMidiHeader(midiBytes)) {
+    throw new Error('Could not generate MIDI')
+  }
+  const blob = new Blob([midiBytes], { type: 'audio/midi' })
+  const baseName = String(opts.title || snapshot.name || 'scratchpad').replace(/\.[^.]+$/, '')
+  const file = new File([blob], baseName + '.notation.mid', { type: 'audio/midi' })
+  const attached = await createAttachedMidiLink({
+    tune: tune,
+    file: file,
+    title: opts.title || snapshot.name || 'Scratchpad notation MIDI',
+    token: opts.token,
+    driveApi: opts.driveApi,
+    uploadToDrive: opts.uploadToDrive === true,
+    linkIndex: 0,
+  })
+  const links = Array.isArray(tune.links) ? tune.links.slice() : []
+  if (attached && attached.link) links.unshift(attached.link)
+  return Object.assign({}, tune, { links: links })
+}
+
+export function getNotationAssociateMergeMode(associateMode, notationOperation) {
+  if (notationOperation === 'replace' || notationOperation === 'insert' || notationOperation === 'merge') {
+    return notationOperation
+  }
+  if (associateMode === 'notation-replace') return 'replace'
+  if (associateMode === 'notation-insert') return 'insert'
+  return 'merge'
+}
+
+export function isNotationAssociateMode(associateMode) {
+  return associateMode === 'notation'
+    || associateMode === 'notation-merge'
+    || associateMode === 'notation-insert'
+    || associateMode === 'notation-replace'
+}
+
+export function isNotationBarPickerMode(associateMode) {
+  return isNotationAssociateMode(associateMode)
+}
+
 export function getAssociateModesForItem(item) {
   if (!item) return []
   if (item.type === 'text') {
     return [
-      { id: 'lyrics', label: 'Use for lyrics' },
-      { id: 'background', label: 'Use for background information' },
+      { id: 'lyrics', label: 'For Lyrics' },
+      { id: 'background', label: 'For Background Information' },
     ]
   }
   if (item.type === 'image') {
-    return [{ id: 'snapshot', label: 'Attach as snapshot' }]
+    return [{ id: 'snapshot', label: 'As Snapshot' }]
   }
   if (item.type === 'audio') {
-    return [{ id: 'media', label: 'Attach as audio' }]
+    return [{ id: 'media', label: 'As Linked Media' }]
   }
   if (item.type === 'notation') {
-    return [{ id: 'notation', label: 'Append to Notation' }]
+    return [
+      { id: 'notation', label: 'As Notation' },
+      { id: 'midi', label: 'As Midi Linked Media' },
+    ]
   }
   return []
 }

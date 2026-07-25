@@ -1,0 +1,196 @@
+{
+  "id": "theory-cadences-intro",
+  "title": "Cadences — Introduction",
+  "track": "theory",
+  "tier": "intro",
+  "region": null,
+  "difficulty": 3,
+  "prerequisites": [
+    "theory-triads-intro"
+  ],
+  "tags": [
+    "cadences",
+    "harmony"
+  ],
+  "path": "00-theory/05-harmony/03-cadences-intro.md",
+  "sections": [
+    {
+      "id": "cadences-introduction",
+      "title": "Cadences — Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory | **Tier:** intro | **Difficulty:** 3/10\n**Prerequisites:** Triads — Introduction\n**Tags:** cadences, harmony"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A **cadence** is a harmonic punctuation at a phrase end — the musical equivalent of a comma or full stop."
+        }
+      ]
+    },
+    {
+      "id": "common-types",
+      "title": "Common types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Perfect (authentic)**: V–I (or V7–I) — strong closure\n- **Plagal**: IV–I — \"amen\" cadence\n- **Half**: ends on V — question, continues\n- **Deceptive**: V–vi — surprise, continues"
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-vi-is-perfect-authentic-cadence",
+      "title": "Q1. V–I is perfect authentic cadence.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q2-half-cadence-ends-on-dominant",
+      "title": "Q2. Half cadence ends on dominant.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-plagal-cadence-uses-ivi",
+      "title": "Q3. Plagal cadence uses IV–I.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q4-deceptive-cadence-goes-vvi",
+      "title": "Q4. Deceptive cadence goes V–vi.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q5-cadences-mark-phrase-endings",
+      "title": "Q5. Cadences mark phrase endings.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q6-leading-tone-resolves-up-to-tonic-in-vi",
+      "title": "Q6. Leading tone resolves up to tonic in V–I.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q7-half-cadence-feels-unfinished",
+      "title": "Q7. Half cadence feels unfinished.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q8-cadences-connect-to-phrase-structure-lessons",
+      "title": "Q8. Cadences connect to phrase structure lessons.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q9-folk-tunes-often-end-with-vi-or-i",
+      "title": "Q9. Folk tunes often end with V–I or I.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q10-plagal-is-softer-than-authentic",
+      "title": "Q10. Plagal is softer than authentic.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q11-cadence-names-describe-bass-and-harmony",
+      "title": "Q11. Cadence names describe bass and harmony.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q12-intro-tier-focuses-on-recognition",
+      "title": "Q12. Intro tier focuses on recognition.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. V–I is perfect authentic cadence.\n\n**Answer:** True\n\n### Q2. Half cadence ends on dominant.\n\n**Answer:** True\n\n### Q3. Plagal cadence uses IV–I.\n\n**Answer:** True\n\n### Q4. Deceptive cadence goes V–vi.\n\n**Answer:** True\n\n### Q5. Cadences mark phrase endings.\n\n**Answer:** True\n\n### Q6. Leading tone resolves up to tonic in V–I.\n\n**Answer:** True\n\n### Q7. Half cadence feels unfinished.\n\n**Answer:** True\n\n### Q8. Cadences connect to phrase structure lessons.\n\n**Answer:** True\n\n### Q9. Folk tunes often end with V–I or I.\n\n**Answer:** True\n\n### Q10. Plagal is softer than authentic.\n\n**Answer:** True\n\n### Q11. Cadence names describe bass and harmony.\n\n**Answer:** True\n\n### Q12. Intro tier focuses on recognition.\n\n**Answer:** True"
+}

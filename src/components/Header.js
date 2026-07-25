@@ -434,7 +434,7 @@ export default function Header(props) {
                             onClick={function() { setNavMenuOpen(false) }}
                         >
                             <span className="header-dropdown-btn-label">
-                                {props.tunebook.icons.words}
+                                {props.tunebook.icons.list}
                                 <span>Feed</span>
                             </span>
                         </Button>

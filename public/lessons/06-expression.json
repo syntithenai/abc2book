@@ -1,0 +1,114 @@
+{
+  "id": "06-expression",
+  "title": "06 Expression",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "08-singing/06-expression.md",
+  "sections": [
+    {
+      "id": "expression-and-storytelling",
+      "title": "Expression and Storytelling",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** singing | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Expression transforms correct notes into communication — the difference between reciting and telling."
+        }
+      ]
+    },
+    {
+      "id": "dynamics-and-colour",
+      "title": "Dynamics and colour",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Soft verses, louder chorus — or inverse for surprise. Vowel colour shifts mood: bright 'ee' vs dark 'oh'."
+        }
+      ]
+    },
+    {
+      "id": "rubato-in-folk",
+      "title": "Rubato in folk",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Melody breathes within steady pulse — especially ballads and airs. Rhythm section holds tempo while singer flexes."
+        }
+      ]
+    },
+    {
+      "id": "narrative-arc",
+      "title": "Narrative arc",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Know who speaks, what happened, why it matters. First verse sets scene; final verse lands emotional point."
+        }
+      ]
+    },
+    {
+      "id": "variation",
+      "title": "Variation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Second time through: subtle dynamic or tempo shift, not random ornament. Serve the story."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-rubato-in-folk-ballads",
+      "title": "Q1. Rubato in folk ballads:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Flexible melody timing within steady pulse\n- B) Ignoring rhythm entirely\n- C) Speeding up every bar\n- D) Eliminating all dynamics\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-understanding-lyric-meaning-improves-natural-phrasing",
+      "title": "Q2. Understanding lyric meaning improves natural phrasing.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Rubato in folk ballads:\n\n- A) Flexible melody timing within steady pulse\n- B) Ignoring rhythm entirely\n- C) Speeding up every bar\n- D) Eliminating all dynamics\n\n**Answer:** A\n\n### Q2. Understanding lyric meaning improves natural phrasing.\n\n**Answer:** True"
+}

@@ -1,0 +1,1568 @@
+{
+  "id": "regions-celtic-ireland-05-dance",
+  "title": "Irish Dance and Rhythm",
+  "track": "regions",
+  "tier": 5,
+  "region": "ireland",
+  "difficulty": 4,
+  "prerequisites": [
+    "regions-celtic-ireland-04-genres-forms"
+  ],
+  "tags": [
+    "ireland",
+    "dance",
+    "ceili",
+    "stepdance"
+  ],
+  "path": "10-regions/celtic/ireland/05-dance.md",
+  "sections": [
+    {
+      "id": "irish-dance-and-rhythm",
+      "title": "Irish Dance and Rhythm",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 5 | **Difficulty:** 4/10\n**Prerequisites:** regions-celtic-ireland-04-genres-forms\n**Tags:** ireland, dance, ceili, set-dance, stepdance, sean-nós, riverdance, fleadh, feis, rhythm"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish dance and Irish traditional music grew up together — not as separate art forms that later collaborated, but as a single social technology for marking time, building community, and carrying identity. A reel in the session is not abstract metre; it is the same pulse that once drove figures in a farmhouse kitchen and still drives sixteen people through *The Siege of Ennis* in a parish hall. A hornpipe's dotted bounce is the sound hard-shoe dancers hear in their heels.\n\nThis lesson maps **dance traditions** from the travelling masters of the seventeenth and eighteenth centuries to the global spectacle of **Riverdance**, from improvised **sean-nós** on a half-door to adjudicated **feiseanna** where tempo arguments ruin friendships. Musicians need this map. You cannot play well for dancers if you do not know which beat is strong, which tradition you are serving, and why a set dancer's polka is not a session reel with the same name."
+        }
+      ]
+    },
+    {
+      "id": "travelling-dance-masters-17th18th-centuries",
+      "title": "Travelling dance masters (17th–18th centuries)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Before competitions, before Comhaltas syllabi, before YouTube tutorials, **dance masters** (*máistir rince*) travelled from village to village teaching steps, posture, and figures. Sources from the eighteenth and nineteenth centuries describe them as colourful figures — sometimes lodging with prosperous farmers, teaching in kitchens and barns, carrying canes or sticks to correct foot placement, and competing with rivals for pupils and prestige.\n\nDance masters codified **regional repertoires** of steps while also spreading **shared figures** across counties. They linked **music and movement** explicitly: pupils learned to recognise jig from reel, to enter on the right beat, and to finish a figure cleanly so the musician could start the next tune. Oral histories describe masters who also **lilted** tunes or played fiddle — blurring the musician–dancer line that modern stage culture sometimes hardens.\n\nThe master tradition declined with emigration, rural change, and the rise of organised classes, but its ghost survives in **step vocabulary**, **set figures**, and the cultural memory of dance as **portable skill** — something you could learn in one parish and carry to Boston or Birmingham."
+        }
+      ]
+    },
+    {
+      "id": "what-masters-taught",
+      "title": "What masters taught",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Accounts from folklore collectors describe curricula that mixed **etiquette** and **athletics**: where to stand in a kitchen set, how to honour the musician, how to recover from a missed step without stopping the figure. Masters sometimes settled disputes between families over **who danced first** — dance was social power, not only entertainment.\n\nRivals competed for pupils; legends tell of **dance-offs** on table tops and wagers on who could execute the most complex treble. Whether every story is literal truth matters less than what they reveal: dance mastery was **public reputation**, like fiddle virtuosity today."
+        }
+      ]
+    },
+    {
+      "id": "from-kitchen-to-classroom",
+      "title": "From kitchen to classroom",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "By the early twentieth century, **Gaelic League** halls, **national schools**, and **church halls** replaced the itinerant master with **certified teachers**. An Coimisiún (1930) and later organisations standardised step syllabi. Set and céilí dancing were taught for **national revival** as well as fun — feet became evidence of cultural continuity.\n\nThe travelling master did not vanish so much as **transform** into the weekly class, the summer school instructor, and the YouTube channel — but the pedagogical insight remains: dance is learned **in community**, not only from a screen.\n\n**Memorable detail:** Some accounts claim dance masters taught on **platforms** or **doors** to protect floors and amplify sound — a direct ancestor of sean-nós dance on a half-door.\n\n![Historical Irish jig illustration — dance and music shared a social world long before stage shows](https://en.wikipedia.org/wiki/Special:FilePath/Irish_Jig%2C_from_National_Dances_%28N225%2C_Type_2%29_issued_by_Kinney_Bros._MET_DPB874573.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "social-dance-three-broad-families",
+      "title": "Social dance: three broad families",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish dance today is not one style but a **family of traditions**:\n\n| Tradition | Scale | Footwork | Typical music |\n|-----------|-------|----------|---------------|\n| Céilí | Groups, choreographed figures | Moderate | Reels, jigs; céilí bands |\n| Set dancing | Four couples per set, quadrille heritage | Moderate, figure-driven | Reels, jigs, polkas, slides |\n| Step dance | Solo (or line spectacle) | Rapid, codified | Reels, jigs, hornpipes, slip jigs |\n| Sean-nós dance | Solo, improvisatory | Low, percussive | Sean-nós song, free rhythm |\n\nThese overlap in musicians' lives — the same fiddler may play for a céilí, a set, and a pub session on one weekend — but each tradition asks different questions about **tempo**, **phrasing**, and **who leads** (caller, adjudicator, or singer)."
+        }
+      ]
+    },
+    {
+      "id": "céilí-dancing",
+      "title": "Céilí dancing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Céilí dancing** (*céilí* = social gathering) is **group choreography** for two to sixteen dancers, learned in classes and danced at weddings, festivals, and competitions. Footwork is **simpler** than solo step dance; emphasis falls on **formations** — circles, lines, chains, swings — and on moving together without collisions."
+        }
+      ]
+    },
+    {
+      "id": "figures-and-repertoire",
+      "title": "Figures and repertoire",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dances such as **The Siege of Ennis**, **The Walls of Limerick**, **The High Caul Cap**, **The Sweets of May**, and **The Fairy Reel** appear in repertoires worldwide thanks to Comhaltas teaching networks and diaspora classes. Each dance has a **prescribed figure sequence**: advance and retire, house, swing, basket, lead around. Musicians must hold **steady tempo** through long figures; dancers depend on predictable eight-bar phrasing.\n\n**The Siege of Ennis** — named for the Clare town — is the céilí dance many beginners learn first. Its figures teach basic skills used across the repertoire: facing partners, progressing around the set, and recovering when someone turns the wrong way (inevitable, human, forgiven)."
+        }
+      ]
+    },
+    {
+      "id": "céilí-bands",
+      "title": "Céilí bands",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Céilí bands** emerged in the twentieth century to provide **loud, steady** dance music — fiddle, flute, accordion, piano, drums, sometimes banjo — with clear downbeats for learners. They differ from pub sessions in **arrangement** and **volume**: less individual ornament, more ensemble drive. Bill McCabe, the Tulla Céilí Band, and Kilfenora Céilí Band names anchor the tradition on recordings.\n\nCéilí band rhythm can feel **straight** to session players — that is intentional. The job is to keep thirty beginners aligned, not to showcase personal rolls."
+        }
+      ]
+    },
+    {
+      "id": "learning-céilí-as-a-musician",
+      "title": "Learning céilí as a musician",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "If you are hired for a céilí night, expect **long tunes** — the same reel repeated through multiple figures without the session habit of switching every two minutes. Practice **endurance** at moderate tempo. Pianists and drummers in céilí bands anchor harmony and downbeat; melody players should avoid **over-ornamenting** when dancers are learning.\n\n**Ceili house** culture in diaspora cities (London, Boston, Sydney) kept figures alive when rural Ireland depopulated. Musicians in those scenes often know *Siege of Ennis* call patterns by heart — useful survival skill when a wedding floor fills unexpectedly.\n\n![Fleadh Cheoil accordion band — ensemble drive for dancers and competition](https://en.wikipedia.org/wiki/Special:FilePath/IMG_E9670_Holy_Cross_Accordion_Band_Atticall.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "set-dancing-quadrilles-clare-sets-and-the-1980s-revival",
+      "title": "Set dancing: quadrilles, Clare sets, and the 1980s revival",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "track",
+          "id": "set-dancing",
+          "label": "Set dancing"
+        },
+        {
+          "type": "markdown",
+          "text": " adapts **French quadrille** figures to local taste — four couples facing in a square, dancing **figures** to matched tunes. Sets arrived in Ireland in the nineteenth century through military and gentry ballrooms, then **folk-processed** into regional variants with Irish tune choices and social contexts far from Parisian salons."
+        }
+      ]
+    },
+    {
+      "id": "regional-sets",
+      "title": "Regional sets",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Clare** is set-dancing heartland: **Corofin Plain Set**, **Cullaun Set**, **Clare Lancers**, and dozens of local names. **South Galway**, **Kerry**, **Cork**, and **Donegal** carry their own sets — different figure orders, different tune pairings, different polka versus reel emphasis.\n\nA set is a **contract** between floor and musicians: the caller announces figures; the band plays the agreed tune type for each figure; dancers move on predictable phrasing. Breaking that contract — switching from polka to reel mid-figure without warning — causes chaos visible from the stage."
+        }
+      ]
+    },
+    {
+      "id": "quadrille-heritage",
+      "title": "Quadrille heritage",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Quadrilles are **choreographed social dance** with named figures (ladies chain, grand chain, promenade). Irish sets **retained** figure vocabulary but **replaced** continental tunes with reels, jigs, polkas, and slides. Studying sets teaches **music history** as well as dance: you hear how international fashion became local tradition."
+        }
+      ]
+    },
+    {
+      "id": "the-1980s90s-revival",
+      "title": "The 1980s–90s revival",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Set dancing **revived** sharply in the 1980s and 1990s — urban dancers rediscovered quadrille heritage many communities had let fade. Organisers ran **set-dancing weekends**; musicians who could play **polkas and slides** suddenly had full floors again. The revival connected **older rural dancers** with **younger city players** and fed back into session repertoire — polkas were cool again.\n\n**Memorable detail:** Set revival rooms often tolerated **higher volume** and **clearer downbeats** than some pub sessions — dance-first priorities."
+        }
+      ]
+    },
+    {
+      "id": "clare-sets-in-depth",
+      "title": "Clare sets in depth",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**County Clare** became synonymous with set dancing partly because **live music culture** never fully died — pipers, fiddlers, and accordionists who could play polkas for *plain sets* remained in villages while other regions turned to recorded pop in halls. Sets like the **Corofin Plain Set** use **polkas** and **jigs** in figure-specific combinations; musicians learn **which tune type** belongs to **which figure** by playing for callers week after week.\n\n**South Galway** sets (e.g. around Gort and Loughrea) carry different figure names and tune pairings — proof that \"Irish set dancing\" is a **patchwork**, not a single choreography. Visiting musicians should ask **which set** before assuming Clare defaults."
+        }
+      ]
+    },
+    {
+      "id": "set-dancing-weekends-and-musicians",
+      "title": "Set-dancing weekends and musicians",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Revival organisers ran **marathon weekends** — Friday night workshop, Saturday figures, Sunday charity ceilí. Musicians who could hold **polka tempo** for twenty minutes without speeding up became heroes. Those weekends fed **session repertoire**: players returned home with Sliabh Luachra polkas they had never needed in Dublin pubs."
+        }
+      ]
+    },
+    {
+      "id": "step-dance-an-coimisiún-shoes-and-feiseanna",
+      "title": "Step dance: An Coimisiún, shoes, and feiseanna",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Irish step dance** is solo performance with **rapid leg work**, **upright torso**, and arms often held still at the sides (a feature exaggerated in twentieth-century competition style). Two shoe types define sound:\n\n- **Soft shoes** (*ghillies* / pumps) — for reels, jigs, slip jigs; lighter foot percussion\n- **Hard shoes** — fibreglass or leather tips and heels; **percussive** rhythm on the floor"
+        }
+      ]
+    },
+    {
+      "id": "an-coimisiún-le-rincí-gaelacha",
+      "title": "An Coimisiún le Rincí Gaelacha",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**An Coimisiún** (the Irish Dancing Commission), founded **1930**, codifies rules, certifies teachers, and runs the competitive circuit most associated with **global Irish dance** today. Comhaltas promotes music and dance broadly; An Coimisiún focuses on **step dance** as sport and art with adjudicated standards.\n\nCompetition categories include **reel**, **light jig**, **heavy jig** (treble jig), **slip jig**, and **hornpipe** — each matched to tune type from the genres lesson. Dancers accumulate **medals** and **qualifiers** toward **Oireachtas** and **World Championships**."
+        }
+      ]
+    },
+    {
+      "id": "feiseanna-culture",
+      "title": "Feiseanna culture",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A **feis** (*feis*, plural *feiseanna*) is a **festival with competitions** — dance, music, song, and sometimes Irish language. Feis culture is **family logistics**: wigs, dresses, makeup, practice tapes, adjudicator sheets, and hotel ballrooms full of nervous nine-year-olds doing reels at speeds session musicians find alarming.\n\n**Feis tempo** is a musician controversy (see below): dancers train to fixed BPM ranges; session players prize **lift** over metronome. Accompanying feis dancers is a specialised skill."
+        }
+      ]
+    },
+    {
+      "id": "soft-shoe-versus-hard-shoe-in-competition",
+      "title": "Soft shoe versus hard shoe in competition",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Soft-shoe** dances (reel, light jig, slip jig) emphasise **elevation**, **turnout**, and **crossing** steps — feet relatively quiet. **Hard-shoe** dances (treble jig, hornpipe, traditional set dances) add **rhythmic code** — stamps, heels, toes — that adjudicators score for **timing** and **clarity**.\n\nMusicians must know which **tune type** matches which dance: a **treble jig** is not the same as a **double jig** in dance class terminology even though both live in 6/8 family music. Read the programme."
+        }
+      ]
+    },
+    {
+      "id": "dress-wigs-and-stage-culture",
+      "title": "Dress, wigs, and stage culture",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modern feis dancers often wear **elaborate dresses**, **curls**, and **makeup** — a visual world apart from pub sessions. Critics debate **authenticity**; parents debate **cost**. Musically, the takeaway is simple: **adjudicators hear feet** through PA systems that favour mid-range clarity — fiddle and piano cuts through; quiet flute may struggle unless mic'd."
+        }
+      ]
+    },
+    {
+      "id": "feis-versus-fleadh",
+      "title": "Feis versus fleadh",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A **feis** is local or regional; **Fleadh Cheoil** is Comhaltas's pinnacle circuit with **All-Ireland** titles. Dancers may compete in both ecosystems. Musicians hired for either should confirm **organisation**, **tempo chart**, and **number of repeats** before the first round.\n\n![Irish step dance performance — upright carriage and hard-shoe percussion](https://en.wikipedia.org/wiki/Special:FilePath/Trinity_Academy_of_Irish_Dance.jpg?width=640)\n\n**Memorable detail:** Hard-shoe dancers are **musicians whose instrument is the floor** — listen to heel patterns like bodhrán rhythms."
+        }
+      ]
+    },
+    {
+      "id": "festival-dance-a-separate-competitive-tradition",
+      "title": "Festival dance: a separate competitive tradition",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Not all competitive Irish dance runs through An Coimisiún. **Festival dance** (*féile*) developed as a **mid-twentieth-century** alternative emphasising **softer carriage**, **natural arms**, and different judging aesthetics — associated especially with **Ulster** traditions and organisations such as **An Comhdháil na Múinteoirí le Rincí Gaelacha** (teachers' congress).\n\nFestival and Commission dancers may learn **similar** step vocabulary but present **different** stage personas. Musicians backing festival competitions hear **slightly different** tempo and phrasing expectations. Treating \"Irish dance\" as monolithic misses this split.\n\nUnderstanding festival versus Commission explains why two excellent dancers side by side can look like different sports — because, in a sense, they are."
+        }
+      ]
+    },
+    {
+      "id": "where-to-see-festival-dance",
+      "title": "Where to see festival dance",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Ulster** halls, **Oireachtas na Gaeilge**, and certain **summer schools** showcase festival style. Musicians notice **softer landings** and **arm movement** in choreography. Backing tracks are rare in traditional contexts — live music still expected, but **piano** accompaniment appears more often than in some session scenes."
+        }
+      ]
+    },
+    {
+      "id": "sean-nós-dance-connemara-donegal-and-the-half-door",
+      "title": "Sean-nós dance: Connemara, Donegal, and the half-door",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "track",
+          "id": "sean-nos-dance",
+          "label": "Sean-nós dance"
+        },
+        {
+          "type": "markdown",
+          "text": " is **low to the ground**, **improvisatory**, and tied to **unaccompanied song** — performed on a **door**, table, or small platform so feet resonate. Arms move **freely**; steps respond to the **singer's phrasing** rather than an adjudicator's score sheet."
+        }
+      ]
+    },
+    {
+      "id": "regional-styles",
+      "title": "Regional styles",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Connemara** sean-nós dance often features **loose hips**, **gliding** steps, and close relationship to **Connemara sean-nós song** — the dancer listens for melodic peaks and rhythmic lulls.\n\n**Donegal** sean-nós can appear **lighter on the feet**, sometimes with **higher steps** and influence from Scottish step traditions — parallel to Donegal fiddle's cross-channel repertoire."
+        }
+      ]
+    },
+    {
+      "id": "improvisation-and-context",
+      "title": "Improvisation and context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Sean-nós dance is **not** choreographed for stadiums. It belongs to **house parties**, **after-hours festival corners**, and **singer–dancer** pairs where one person sings and another answers with feet. The musician (if any) follows the **singer**, not the other way around.\n\n**Memorable detail:** Dancing on a **half-door** lifted off hinges is not a tourist gimmick in origin — it was practical resonance and visible footwork in crowded kitchens.\n\n![16th-century Irish piper — historical image evoking pre-stage dance and music settings](https://en.wikipedia.org/wiki/Special:FilePath/Rosgall.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "riverdance-timedance-and-global-spectacle",
+      "title": "Riverdance, Timedance, and global spectacle",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "timedance-1981",
+      "title": "Timedance (1981)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Bill Whelan's** *Timedance* appeared as an interval act for **Eurovision 1981** in Dublin — an early fusion of Irish dance, rock rhythm section, and staged ensemble. It planted a seed: Irish dance could fill **arena-scale** stages with mic'd feet and arranged scores."
+        }
+      ]
+    },
+    {
+      "id": "riverdance-19941995-onward",
+      "title": "Riverdance (1994–1995 onward)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Riverdance** premiered as the **Eurovision 1994** interval act in Dublin — **Jean Butler**, **Michael Flatley**, **Anúna**, and Whelan's score. The seven-minute act drew a standing ovation; the stage show opened at the **Gaiety Theatre** on **9 February 1995** and toured for decades, reshaping global perception of Irish music and dance.\n\nRiverdance is **theatre**: orchestral arrangement, lighting, linear choreography, unified arm lines. It is **not** a pub session or a kitchen set. Critics sometimes mourn what spectacle omits; historians note what it **funded** — millions of children in dance classes, renewed interest in trad, and a new economic layer around Irish culture."
+        }
+      ]
+    },
+    {
+      "id": "after-riverdance",
+      "title": "After Riverdance",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Lord of the Dance**, **Feet of Flames**, and touring **dance shows** followed. Competitive dancers supply pipeline talent; trad musicians sometimes play in pit orchestras or hybrid ensembles. The **feet-on-floor** core remains audibly Irish even when the **arrangement** is pop."
+        }
+      ]
+    },
+    {
+      "id": "timeline-at-a-glance",
+      "title": "Timeline at a glance",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Year | Event |\n|------|--------|\n| 1981 | *Timedance* at Eurovision, Dublin |\n| 1994 | *Riverdance* interval act, Eurovision, Dublin |\n| 1995 | *Riverdance* stage show opens, Gaiety Theatre |\n| Late 1990s–2000s | Global tours, dance-show franchises, feis enrolment boom |"
+        }
+      ]
+    },
+    {
+      "id": "what-changed-for-musicians",
+      "title": "What changed for musicians",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Riverdance hired **trad players** and **orchestral arrangers** in the same pit — uilleann pipes beside string sections, bodhrán beside drum kit. Session purists sometimes sneered; payrolls kept players fed. The **show tune** arrangement of *The Countess Cathleen* / reel medleys introduced **non-trad audiences** to instrument names they later heard in pubs.\n\n**Memorable detail:** Flatley departed Riverdance early over creative control — a reminder that spectacle is **business** as well as art.\n\n![Riverdance cast at the Gaiety Theatre, Dublin, 2019](https://en.wikipedia.org/wiki/Special:FilePath/Riverdance_cast%2C_2019.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "events-where-dance-and-music-meet",
+      "title": "Events where dance and music meet",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "fleadh-cheoil-na-héireann",
+      "title": "Fleadh Cheoil na hÉireann",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Fleadh Cheoil** (Comhaltas's All-Ireland festival) combines **competitions** in music, song, and dance with **street sessions** many players consider the real heart. Winning a fleadh title launches careers; missing the sessions misses the social point."
+        }
+      ]
+    },
+    {
+      "id": "oireachtas-na-gaeilge",
+      "title": "Oireachtas na Gaeilge",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Oireachtas na Gaeilge** privileges **Irish-language** song, storytelling, and dance — especially sean-nós and festival traditions. It is a cultural pole distinct from English-language ballad stages."
+        }
+      ]
+    },
+    {
+      "id": "feiseanna",
+      "title": "Feiseanna",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Local **feiseanna** run year-round — step dance, music, song. They are the **grassroots engine** of competitive tradition: adjudicators, teachers, and parents sustaining repertoire one medal at a time."
+        }
+      ]
+    },
+    {
+      "id": "scoil-samhraidh-willie-clancy",
+      "title": "Scoil Samhraidh Willie Clancy",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Willie Clancy Summer School** in **Miltown Malbay**, Co. Clare, runs annually in early July — classes in pipes, fiddle, flute, set dancing, and more. Named for uilleann piper **Willie Clancy**, it epitomises **week-long immersion**: morning classes, afternoon sets, night sessions until the sun threatens to rise."
+        }
+      ]
+    },
+    {
+      "id": "ballad-boom-and-dance-halls-1960s70s",
+      "title": "Ballad boom and dance halls (1960s–70s)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Before Riverdance, **The Dubliners**, **The Clancy Brothers**, **The Chieftains**, and **showbands** filled **dance halls** and ballrooms. **Ballad boom** pubs paired **song** with **step-dance spots** and **céilí** nights. **Country-and-Irish** crossovers blurred trad and commercial dance floors. Musicians from that era bridged **session**, **stage**, and **ballroom** — different tempos, same tune names.\n\nUnderstanding dance-hall history explains why some older players **dislike** session speeds that ignore dancers — they remember when the floor was boss."
+        }
+      ]
+    },
+    {
+      "id": "showbands-and-the-ballroom-economy",
+      "title": "Showbands and the ballroom economy",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Showbands** (1950s–70s) dominated Irish dance halls with **brass**, **electric guitar**, and **covers** of pop hits — not trad reels. Yet the **social function** — Saturday night courtship, parish fundraising, crossroads of rural and urban youth — paralleled earlier set and céilí nights. When showbands faded, **ballad groups** and **discos** split the audience; trad revival scenes reclaimed smaller rooms.\n\n**Céilí houses** in London and Birmingham kept **figure dancing** alive for emigrants who might never return to Clare. Musicians in those networks often played **both** ballad sets and dance sets in one night — versatility as economic survival."
+        }
+      ]
+    },
+    {
+      "id": "comhaltas-branches-and-weekly-classes",
+      "title": "Comhaltas branches and weekly classes",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Comhaltas Ceoltóirí Éireann** (founded 1951) links **classes**, **competitions**, and **Fleadh Cheoil**. A child in a Comhaltas branch might learn **tin whistle**, **fiddle**, and **céilí dancing** in the same hall — explaining why so many professional trad musicians also **know figures**. The organisation is not the only path (feis Commission schools, festival teachers, informal family transmission), but it is the **institutional spine** for many.\n\n![Irish bouzouki — chordal drive in pub and festival ensembles backing song and dance nights](https://en.wikipedia.org/wiki/Special:FilePath/Irish_bouzouki.jpg?width=640)\n\n![Session culture — musicians who also play for dancers share the same tune vocabulary](https://en.wikipedia.org/wiki/Special:FilePath/177-Bodhran-Hinnerk-Ruemenapf-0037-p70.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "musiciandancer-relationship-and-tempo-debates",
+      "title": "Musician–dancer relationship and tempo debates",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "who-leads-whom",
+      "title": "Who leads whom?",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Context | Leader | Musician's job |\n|---------|--------|----------------|\n| Sean-nós dance + song | Singer | Follow phrasing; expect rubato |\n| Set dancing | Caller + figure phrasing | Steady tune-type; clear eight-bar units |\n| Céilí | Choreography + band | Steady tempo; survive long figures |\n| Step competition | Adjudicator expectations | Hold BPM; minimal rubato |\n| Pub session | Musicians (dancers optional) | Lift and taste; not feis speed |"
+        }
+      ]
+    },
+    {
+      "id": "tempo-arguments",
+      "title": "Tempo arguments",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Session tempo** versus **competition tempo** is the great trad argument. Session fiddlers want **lift** at a speed where ornaments breathe; dance teachers want **reels** fast enough to challenge adjudicators. Set dancers want **polkas** brisk but not rushed; musicians drunk on adrenaline speed up.\n\nPractical advice:\n\n- **Watch feet** before adjusting tempo mid-tune\n- **Agree BPM** before feis stages — metronome apps end fights\n- **Do not** accelerate through a set dancer's polka figure because the pub crowd cheers\n- **Do** communicate with callers — a raised hand beats guessing"
+        }
+      ]
+    },
+    {
+      "id": "rhythm-table-for-musicians",
+      "title": "Rhythm table for musicians",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Form | Metre | Dance use | Tempo note |\n|------|-------|-----------|------------|\n| Reel | 4/4 drive | Céilí, set, step | Session moderate; feis faster |\n| Double jig | 6/8 | Céilí, set, light jig | Bounce, not waltz |\n| Slip jig | 9/8 | Slip-jig step | Graceful, lighter |\n| Hornpipe | 4/4 dotted | Hard-shoe | Slower bounce |\n| Polka | 2/4 | Set dancing | Sliabh Luachra feel |\n| Slide | 12/8 | Kerry/Cork sets | Learn from dancers |"
+        }
+      ]
+    },
+    {
+      "id": "bodhrán-and-guitar-in-dance-contexts",
+      "title": "Bodhrán and guitar in dance contexts",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bodhrán players accompanying **sets** sometimes play **louder and steadier** than in sessions — dancers need pulse. Guitarists outline chords without **swamping** melody in noisy halls. Céilí bands add **piano and drums** for reason: frequency range and attack cut through shuffle."
+        }
+      ]
+    },
+    {
+      "id": "hiring-protocol-for-dance-gigs",
+      "title": "Hiring protocol for dance gigs",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Professional musicians asked to play for **feiseanna**, **weddings**, or **set workshops** should clarify:\n\n1. **Tradition** — céilí, set, step, or mixed?\n2. **Caller** — is there a named caller who signals figures?\n3. **Tune list** — written programme or ear-led?\n4. **Tempo** — BPM chart for feis; moderate for learners; session-fast only if agreed\n5. **Breaks** — how many repeats per figure?\n6. **PA** — who mics melody instruments?\n\nUnsigned assumptions cause **public disasters** — the band speeds up while the caller still has eight bars of **ladies chain** remaining."
+        }
+      ]
+    },
+    {
+      "id": "when-musicians-dance-and-dancers-play",
+      "title": "When musicians dance and dancers play",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cross-training helps: fiddlers who try **basic step** understand why hornpipe **dotting** matters; dancers who try **whistle** learn breath limits. Summer schools (Willie Clancy, Scoil Éigse, local branches) encourage **mixed classes** — not to make everyone expert, but to dissolve **mystification** between floor and stage."
+        }
+      ]
+    },
+    {
+      "id": "dance-nationalism-and-identity",
+      "title": "Dance, nationalism, and identity",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish dance became tied to **cultural nationalism** in the nineteenth and twentieth centuries — **Gaelic League** activities, language revival, and organised feiseanna positioned dance as **identity performance**. That history explains why competitions prize \"authentic\" posture while simultaneously embracing **global show business**.\n\nDance also carries **class** memory: quadrille sets evoke colonial ballroom fashion **reclaimed** by rural communities; step dance spectacle evokes **diaspora pride** and **tourist economy**. None of this is separate from the music — tune choices, tempos, and instruments were negotiated in the same social struggles."
+        }
+      ]
+    },
+    {
+      "id": "practical-checklist-for-musiciandancers",
+      "title": "Practical checklist for musician–dancers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. **Know which tradition** you are serving before the first tune.\n2. **Match form to figure** — polkas for polka figures, not surprise reels.\n3. **Watch the caller** in sets; **watch the singer** in sean-nós.\n4. **Hold tempo** through céilí long figures — resist adrenaline accelerando.\n5. **Respect feis BPM** when hired for competitions.\n6. **Remember** Riverdance and kitchen sets share vocabulary but not **social rules**."
+        }
+      ]
+    },
+    {
+      "id": "looking-ahead-dance-in-the-fusion-lesson",
+      "title": "Looking ahead: dance in the fusion lesson",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Later lessons in this unit cover **showbands**, **Celtic rock**, and **global diaspora** scenes. Dance connects there too: **Michael Flatley** meets **The Pogues** in wedding playlists; **set-dancing tourists** meet **techno ceilís** in cities. The rhythmic vocabulary you learned here — reel drive, jig lift, polka snap — remains the **DNA** even when the staging changes.\n\nIf you play only for **pub sessions**, you still benefit from dance literacy: the best session reels **dance in the air** even when no feet move. If you play for **dancers**, you owe them **clarity** over personal showcase. The tradition survives when both rooms respect the same pulse."
+        }
+      ]
+    },
+    {
+      "id": "step-vocabulary-for-musicians-glossary",
+      "title": "Step vocabulary for musicians (glossary)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "You do not need to execute these steps to play for dancers, but **naming** them helps communication with teachers and adjudicators:\n\n| Term | Rough meaning | Music link |\n|------|---------------|------------|\n| Treble | Percussive hard-shoe combination | Treble jig (6/8) |\n| Over | Jump with leg crossing | Reel tempo must stay steady for takeoff |\n| Cut | Quick foot exchange under body | Fiddle \"cut\" is different — context! |\n| Hop back | Small backward hop | Hornpipe dotted rhythm |\n| Sevens | Travelling steps in sean-nós | Follows singer, not bar lines |\n| Lead around | Céilí/set figure circling the set | Eight-bar phrasing |\n\nWhen a dance teacher says **\"slow it at the turn,\"** they mean **musical phrasing at figure boundaries** — not necessarily global tempo change. Listen for **foot stamp cues** in hard-shoe numbers; they are **downbeats** you can treat like drum hits."
+        }
+      ]
+    },
+    {
+      "id": "oireachtas-na-gaeilge-and-the-irish-language-pole",
+      "title": "Oireachtas na Gaeilge and the Irish-language pole",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Oireachtas na Gaeilge** (annual festival of Irish culture) centres **Irish language** — sean-nós song, **scéalaíocht** (storytelling), **agallamh beirte** (dialogue verse), and dance traditions aligned with **festival** aesthetics. It is not interchangeable with Fleadh Cheoil though some artists appear in both.\n\nMusicians backing **Oireachtas** competitions learn **song-first** logic similar to sean-nós dance: the **amhrán** sets timing; instruments enter sparingly if at all. English-language ballad stages at folk festivals operate differently — chorus participation, guitar accompaniment, louder PA.\n\nRespecting this distinction marks you as culturally literate in mixed Irish arts spaces."
+        }
+      ]
+    },
+    {
+      "id": "house-parties-kitchens-and-the-informal-floor",
+      "title": "House parties, kitchens, and the informal floor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Before parish halls and competition stages, **house parties** (*cóisirí*) were the default dance floor. Furniture pushed aside, musician in the corner, **half-door** lifted for sean-nós, neighbours arriving with **bottles** and **stories**. Set figures survived because **four couples** fit in a kitchen; céilí long lines needed bigger rooms.\n\nMusicians at house parties played **longer** on each tune — fewer dancers, more conversation between figures, **slower** social tempo than modern feis stages. Revival nostalgia sometimes romanticises poverty; still, the **scale** matters: a reel that works for two couples waltzing through a **house swing** may feel wrong when sixteen beginners collide in *Siege of Ennis*.\n\nIf you ever play in someone's **kitchen**, watch the **low beam**, protect the **pipes** from steam, and accept that **tempo** will be whatever the oldest dancer in the room needs. That is tradition too.\n\n![Tenor banjo — percussive melody doubling common in céilí bands and ballad-era ensembles](https://en.wikipedia.org/wiki/Special:FilePath/Tenor_banjo.jpg?width=640)"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "riverdance",
+      "type": "organization",
+      "name": "Riverdance",
+      "summary": "Global stage show that popularised Irish step dance",
+      "blurb": "1994 Eurovision interval act became worldwide touring phenomenon.",
+      "url": "https://www.riverdance.com/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Riverdance.jpg?width=320",
+      "playlist_index": 0
+    }
+  ],
+  "entity_order": [
+    "riverdance"
+  ],
+  "playlist": [
+    {
+      "id": "sean-nos-dance",
+      "entity_id": "riverdance",
+      "label": "Sean-nós dance",
+      "youtube": "https://www.youtube.com/watch?v=0qanF-91aEs",
+      "subtitle": "Riverdance"
+    },
+    {
+      "id": "set-dancing",
+      "entity_id": "riverdance",
+      "label": "Set dancing",
+      "youtube": "https://www.youtube.com/watch?v=6x0c3R6Lz5Y",
+      "subtitle": "Riverdance"
+    },
+    {
+      "id": "step-dance",
+      "entity_id": "riverdance",
+      "label": "Competition step dance",
+      "youtube": "https://www.youtube.com/watch?v=H1QldbqXh8I",
+      "subtitle": "Riverdance"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Sean-nós dance is low to the floor, improvisatory, and individual.",
+    "Step dance emphasises lifted knees, rigid torso, and adjudicated form.",
+    "Céilí and set dancing are social group forms with fixed figures.",
+    "Dance rhythm shapes how musicians phrase tunes at sessions.",
+    "Riverdance globalised step dance but did not replace local traditions."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "A Handbook of Irish Dances",
+      "author": "O'Keeffe & O'Brien",
+      "note": "Classic céilí dance figures"
+    },
+    {
+      "type": "link",
+      "title": "An Coimisiún le Rincí Gaelacha",
+      "url": "https://www.clrg.ie/",
+      "note": "Competition dance commission"
+    },
+    {
+      "type": "link",
+      "title": "Riverdance",
+      "url": "https://www.riverdance.com/",
+      "note": "Show history and touring"
+    },
+    {
+      "type": "book",
+      "title": "Irish Dancing",
+      "author": "Arthur Flynn",
+      "note": "Step dance history and competition"
+    },
+    {
+      "type": "book",
+      "title": "The Story of Irish Dance",
+      "author": "Helen Brennan",
+      "note": "From céilí to stage spectacle"
+    },
+    {
+      "type": "link",
+      "title": "CLRG — syllabus",
+      "url": "https://www.clrg.ie/",
+      "note": "Competition rules and grades"
+    },
+    {
+      "type": "link",
+      "title": "An Coimisiún — world championships",
+      "url": "https://www.clrg.ie/",
+      "note": "Oireachtas Rince na Cruinne"
+    },
+    {
+      "type": "link",
+      "title": "Set dancing — Dublin",
+      "url": "https://www.setdancingnews.net/",
+      "note": "Regional set dance figures"
+    },
+    {
+      "type": "link",
+      "title": "Bill Lynch — céilí band archive",
+      "url": "https://www.itma.ie/",
+      "note": "Dance-band recordings at ITMA"
+    },
+    {
+      "type": "link",
+      "title": "TG4 — Fleadh dance",
+      "url": "https://www.tg4.ie/",
+      "note": "Televised competition footage"
+    },
+    {
+      "type": "link",
+      "title": "Feis Ceoil",
+      "url": "https://www.feisceoil.ie/",
+      "note": "Classical and traditional competition festival"
+    }
+  ],
+  "quiz_markdown": "### Q1. Céilí dancing is best described as:\n\n- A) Group social choreography for multiple dancers with named figures\n- B) Solo ballet on pointe only\n- C) A type of slow air on harp\n- D) Electronic DJ mixing\n\n**Answer:** A\n\n### Q2. Sean-nós dance allows free use of the arms and low, improvisatory footwork.\n\n**Answer:** True\n\n### Q3. Riverdance premiered as an interval act at Eurovision in 1994 before becoming a stage show.\n\n**Answer:** True\n\n### Q4. Set dancing in Ireland often derives from:\n\n- A) Adapted quadrille figures with local tune and regional variants\n- B) Strictly classical Indian bharatanatyam\n- C) Hip-hop battles only\n- D) Gregorian chant notation\n\n**Answer:** A\n\n### Q5. Hard-shoe Irish step dance produces rhythm through:\n\n- A) Tips and heels striking the floor\n- B) Bowing violin strings only\n- C) Blowing uilleann regulators without chanter\n- D) Strumming guitar harmonics only\n\n**Answer:** A\n\n### Q6. Sean-nós dance and competitive step dance share identical posture and arm rules.\n\n**Answer:** False — Sean-nós is low and improvisatory; step dance is more upright and codified.\n\n### Q7. Musicians accompanying set dancers should prioritise:\n\n- A) Matching the figure's tune type and holding steady tempo\n- B) Playing as fast as possible regardless of figures\n- C) Ignoring the caller entirely\n- D) Switching metre every bar for variety\n\n**Answer:** A\n\n### Q8. Festival dance and An Coimisiún step dance are:\n\n- A) Separate competitive traditions with different aesthetics\n- B) The same organisation with identical rules worldwide\n- C) Not practised in Ireland\n- D) Only performed underwater\n\n**Answer:** A\n\n### Q9. A double jig's pulse matches which dance family?\n\n- A) Jigs in 6/8 including light jig step\n- B) Waltzes in 3/4 only\n- C) Reels in 4/4 only\n- D) Free-rhythm aleatoric dance only\n\n**Answer:** A\n\n### Q10. Travelling dance masters in 17th–18th century Ireland:\n\n- A) Taught regional steps and figures village to village\n- B) Invented electronic synthesizers\n- C) Banned all fiddle music permanently\n- D) Only taught opera singing in Italian\n\n**Answer:** A\n\n### Q11. Bill Whelan's Riverdance followed earlier Eurovision-related work called:\n\n- A) Timedance (1981)\n- B) The Blue Danube waltz exclusively\n- C) Gregorian chant mass settings\n- D) Random noise collage\n\n**Answer:** A\n\n### Q12. The Siege of Ennis is associated with:\n\n- A) Céilí group dance repertoire\n- B) Slow air competitions only\n- C) Sean-nós song in Irish exclusively\n- D) Electronic dance music festivals\n\n**Answer:** A\n\n### Q13. Willie Clancy Summer School is held annually in:\n\n- A) Miltown Malbay, County Clare\n- B) Antarctica\n- C) Vienna opera house\n- D) Las Vegas casino strip only\n\n**Answer:** A\n\n### Q14. Clare is especially noted for:\n\n- A) Set dancing repertoire and regional sets\n- B) Banning all polkas nationally\n- C) Eliminating fiddle music\n- D) Prohibiting céilí bands\n\n**Answer:** A\n\n### Q15. In sean-nós dance, who typically leads rhythmic phrasing?\n\n- A) The singer — musicians follow if present\n- B) The adjudicator's score sheet only\n- C) A fixed metronome at 120 BPM always\n- D) The lighting designer\n\n**Answer:** A\n\n### Q16. Set dancing revival in the 1980s–90s helped reconnect dancers with:\n\n- A) Quadrille heritage and live polka/slide repertoire\n- B) Complete abandonment of traditional music\n- C) Replacement of all reels with hip-hop\n- D) Ban on live musicians in favour of DJs only\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Céilí dancing is best described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers with named figures",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Group social choreography for multiple dancers with named figures"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Sean-nós dance allows free use of the arms and low, improvisatory footwork.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Riverdance premiered as an interval act at Eurovision in 1994 before becoming a stage show.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Set dancing in Ireland often derives from:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Adapted quadrille figures with local tune and regional variants",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Adapted quadrille figures with local tune and regional variants"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Hard-shoe Irish step dance produces rhythm through:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Tips and heels striking the floor",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Tips and heels striking the floor"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Sean-nós dance and competitive step dance share identical posture and arm rules.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "Sean-nós is low and improvisatory; step dance is more upright and codified."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Musicians accompanying set dancers should prioritise:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Matching the figure's tune type and holding steady tempo",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Matching the figure's tune type and holding steady tempo"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Festival dance and An Coimisiún step dance are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Separate competitive traditions with different aesthetics",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Separate competitive traditions with different aesthetics"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "A double jig's pulse matches which dance family?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jigs in 6/8 including light jig step",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Jigs in 6/8 including light jig step"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Travelling dance masters in 17th–18th century Ireland:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Taught regional steps and figures village to village",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Taught regional steps and figures village to village"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Bill Whelan's Riverdance followed earlier Eurovision-related work called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Timedance (1981)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Timedance (1981)"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Siege of Ennis is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Céilí group dance repertoire",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Céilí group dance repertoire"
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Willie Clancy Summer School is held annually in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Miltown Malbay, County Clare",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Miltown Malbay, County Clare"
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Clare is especially noted for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Set dancing repertoire and regional sets",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Set dancing repertoire and regional sets"
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "In sean-nós dance, who typically leads rhythmic phrasing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The singer — musicians follow if present",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: The singer — musicians follow if present"
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Set dancing revival in the 1980s–90s helped reconnect dancers with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Quadrille heritage and live polka/slide repertoire",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Quadrille heritage and live polka/slide repertoire"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-ireland-05-dance-quiz",
+    "title": "Irish Dance and Rhythm quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Céilí dancing is best described as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers with named figures",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Group social choreography for multiple dancers with named figures"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Sean-nós dance allows free use of the arms and low, improvisatory footwork.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Riverdance premiered as an interval act at Eurovision in 1994 before becoming a stage show.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Set dancing in Ireland often derives from:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Adapted quadrille figures with local tune and regional variants",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Adapted quadrille figures with local tune and regional variants"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Hard-shoe Irish step dance produces rhythm through:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Tips and heels striking the floor",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Tips and heels striking the floor"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Sean-nós dance and competitive step dance share identical posture and arm rules.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Sean-nós is low and improvisatory; step dance is more upright and codified."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Musicians accompanying set dancers should prioritise:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Matching the figure's tune type and holding steady tempo",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Matching the figure's tune type and holding steady tempo"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Festival dance and An Coimisiún step dance are:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Separate competitive traditions with different aesthetics",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Separate competitive traditions with different aesthetics"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "A double jig's pulse matches which dance family?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Jigs in 6/8 including light jig step",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Jigs in 6/8 including light jig step"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Travelling dance masters in 17th–18th century Ireland:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Taught regional steps and figures village to village",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Taught regional steps and figures village to village"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Bill Whelan's Riverdance followed earlier Eurovision-related work called:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Timedance (1981)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Timedance (1981)"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Siege of Ennis is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Céilí group dance repertoire",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Céilí group dance repertoire"
+      },
+      {
+        "id": "q13",
+        "type": "mcq",
+        "prompt": "Willie Clancy Summer School is held annually in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Miltown Malbay, County Clare",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Miltown Malbay, County Clare"
+      },
+      {
+        "id": "q14",
+        "type": "mcq",
+        "prompt": "Clare is especially noted for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Set dancing repertoire and regional sets",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Set dancing repertoire and regional sets"
+      },
+      {
+        "id": "q15",
+        "type": "mcq",
+        "prompt": "In sean-nós dance, who typically leads rhythmic phrasing?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "The singer — musicians follow if present",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: The singer — musicians follow if present"
+      },
+      {
+        "id": "q16",
+        "type": "mcq",
+        "prompt": "Set dancing revival in the 1980s–90s helped reconnect dancers with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Quadrille heritage and live polka/slide repertoire",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Quadrille heritage and live polka/slide repertoire"
+      }
+    ]
+  }
+}

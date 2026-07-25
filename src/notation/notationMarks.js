@@ -14,7 +14,22 @@ export function defaultNoteExtensions() {
     beamBreakBefore: false,
     abcLeading: '',
     abcTrailing: '',
+    fingeringLabel: '',
   };
+}
+
+/** ABC decoration prefix for arbitrary fingering text (abcjs only renders 0–5). */
+export const FINGER_LABEL_ABC_PREFIX = 'fgr';
+
+export function fingeringNeedsStaffOverlay(label) {
+  const text = String(label || '').trim();
+  return !!text && !/^[0-5]$/.test(text);
+}
+
+export function serializeFingeringAbcPrefix(ev) {
+  const label = ev && ev.fingeringLabel != null ? String(ev.fingeringLabel).trim() : '';
+  if (!fingeringNeedsStaffOverlay(label)) return '';
+  return '!' + FINGER_LABEL_ABC_PREFIX + label.replace(/!/g, '') + '!';
 }
 
 export function applyNoteExtensions(ev) {
@@ -104,6 +119,31 @@ export function fingerKeyFromDigit(digit) {
   return 'finger' + n;
 }
 
+function stripFingeringFromEvent(ev) {
+  applyNoteExtensions(ev);
+  ev.decorations = (ev.decorations || []).filter(function(d) { return !isFingerDecorationKey(d); });
+  ev.fingeringLabel = '';
+  if (ev.abcLeading) {
+    const prefix = FINGER_LABEL_ABC_PREFIX.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    ev.abcLeading = String(ev.abcLeading)
+      .replace(new RegExp('^!' + prefix + '[^!]*!'), '')
+      .replace(/^![^!]*!/, '');
+  }
+}
+
+/** Read piano fingering digit or arbitrary label from a note event. */
+export function fingeringLabelFromEvent(ev) {
+  if (!ev) return '';
+  if (ev.fingeringLabel) return String(ev.fingeringLabel);
+  const finger = (ev.decorations || []).find(isFingerDecorationKey);
+  if (finger) return String(finger).replace('finger', '');
+  const match = String(ev.abcLeading || '').match(/^!([^!]*)!/);
+  if (!match) return '';
+  const raw = match[1];
+  if (raw.indexOf(FINGER_LABEL_ABC_PREFIX) === 0) return raw.slice(FINGER_LABEL_ABC_PREFIX.length);
+  return raw;
+}
+
 /** Set or clear a chord symbol on the target note/rest (one symbol per event). */
 export function setChordSymbolOnSelection(session, chordText) {
   const ids = targetEventIds(session);
@@ -122,20 +162,27 @@ export function setChordSymbolOnSelection(session, chordText) {
   return patchSession(session, { events: events });
 }
 
-/** Stamp a single piano fingering decoration (replaces any existing finger0–5). */
-export function setFingerOnSelection(session, fingerKey) {
+/**
+ * Stamp fingering on selected notes: finger0–5 keys, digits 0–5, or arbitrary ABC !label!.
+ */
+export function setFingerOnSelection(session, fingerKeyOrLabel) {
   const ids = targetEventIds(session);
   if (!ids.length) return null;
-  const key = fingerKey ? String(fingerKey) : null;
-  if (key && !isFingerDecorationKey(key)) return null;
+  const raw = fingerKeyOrLabel == null ? '' : String(fingerKeyOrLabel).trim();
   const events = session.events.map(cloneVoiceEvent);
   let changed = false;
   ids.forEach(function(id) {
     const ev = events.find(function(e) { return e.id === id; });
     if (!ev || !isNoteLike(ev) || ev.type === 'rest') return;
-    applyNoteExtensions(ev);
-    ev.decorations = (ev.decorations || []).filter(function(d) { return !isFingerDecorationKey(d); });
-    if (key) ev.decorations.push(key);
+    stripFingeringFromEvent(ev);
+    if (raw) {
+      ev.fingeringLabel = raw;
+      if (isFingerDecorationKey(raw)) {
+        ev.decorations.push(raw);
+      } else if (/^[0-5]$/.test(raw)) {
+        ev.decorations.push('finger' + raw);
+      }
+    }
     changed = true;
   });
   if (!changed) return null;

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Button, ButtonGroup, Modal, Form, ToggleButton } from 'react-bootstrap'
 import NowPlayingQueueManager from './NowPlayingQueueManager'
 import SavedPlaylistsOpenModal from './SavedPlaylistsOpenModal'
-import { isQueueActive, getCurrentTuneId, getQueuePositionLabel, clearQueue, setLoop, setShuffle } from '../nowPlayingQueue'
+import { isQueueActive, getCurrentTuneId, getQueuePositionLabel, clearQueue, setLoop, setShuffle, getQueueItemLabel, isExternalQueueItem, isLessonQueue } from '../nowPlayingQueue'
 import { savePlaylistFromQueue } from '../savedPlaylistsStore'
 import { useIsNarrowViewport } from '../useMediaQuery'
 
@@ -44,14 +44,20 @@ export default function PlaylistModal({
   }
 
   const playingId = getCurrentTuneId(nowPlayingQueue)
+  const currentItem = nowPlayingQueue.items[nowPlayingQueue.currentIndex || 0]
   const playingTune = playingId && tunes ? tunes[playingId] : null
+  const externalLabel = isExternalQueueItem(currentItem)
+    ? getQueueItemLabel(currentItem, tunes)
+    : null
   const positionLabel = getQueuePositionLabel(nowPlayingQueue)
+  const isLesson = isLessonQueue(nowPlayingQueue)
 
   function handleClose() {
     setShow(false)
   }
 
   function handleSave() {
+    if (isLesson) return
     const defaultName = nowPlayingQueue.name || 'Playlist'
     const name = window.prompt('Save playlist as:', defaultName)
     if (name === null) return
@@ -68,7 +74,7 @@ export default function PlaylistModal({
 
   return (
     <>
-      {!hideTrigger && !isNarrow && playingTune && playingId && (
+      {!hideTrigger && !isNarrow && (playingTune && playingId ? (
         <Link
           to={'/tunes/' + playingId}
           className="header-now-playing-label"
@@ -76,7 +82,11 @@ export default function PlaylistModal({
         >
           {playingTune.name} ({positionLabel})
         </Link>
-      )}
+      ) : externalLabel ? (
+        <span className="header-now-playing-label" title={externalLabel}>
+          {externalLabel} ({positionLabel})
+        </span>
+      ) : null)}
       {!hideTrigger ? (
         <Button
           size={useButtonSize}
@@ -141,16 +151,18 @@ export default function PlaylistModal({
               />
             </div>
             <div className="d-flex align-items-center gap-2 flex-shrink-0 playlist-modal-actions">
-              <Button
-                variant="primary"
-                size="sm"
-                className="playlist-action-btn"
-                title="Save playlist"
-                data-testid="save-playlist-button"
-                onClick={handleSave}
-              >
-                {tunebook.icons.save} Save
-              </Button>
+              {!isLesson ? (
+                <Button
+                  variant="primary"
+                  size="sm"
+                  className="playlist-action-btn"
+                  title="Save playlist"
+                  data-testid="save-playlist-button"
+                  onClick={handleSave}
+                >
+                  {tunebook.icons.save} Save
+                </Button>
+              ) : null}
               <Button
                 variant="outline-primary"
                 size="sm"

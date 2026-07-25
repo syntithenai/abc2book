@@ -11,11 +11,14 @@ import { getInterleavedLyricLines, renderBlockLyricsAbc } from './wLinesUtils'
 import {
   mergeBibliographicList,
   normalizeBibliographicFields,
+  normalizeTuneGenres,
   renderBibliographicComposerLines,
+  renderBibliographicGenreLines,
   renderBibliographicTitleLines,
 } from './tuneBibliographicUtils'
 import { renderTimedJsonFields, applyAbcbookJsonChunks, collectAbcbookJsonChunk, parseAbcbookJsonLine, LEGACY_TIMED_JSON_FIELDS } from './abcbookJsonFields'
 import { convertSessionLineBreaks } from './abcImportNormalize'
+import { resolvePrimaryVoiceKey } from './abcVoiceUtils'
 
 var useAbcTools = () => {
     var utils = useUtils()
@@ -51,6 +54,16 @@ var useAbcTools = () => {
         }
         if (tune.playbackMetronomeDuringPlayback === true) {
             lines += "% abcbook-playback-metronome-during-playback true\n"
+        }
+        if (tune.playbackMetronomeClickRhythm) {
+            try {
+                lines += "% abcbook-playback-metronome-click-rhythm " + JSON.stringify(tune.playbackMetronomeClickRhythm) + "\n"
+            } catch (e) {}
+        }
+        if (tune.playbackMetronomeDrumRhythm) {
+            try {
+                lines += "% abcbook-playback-metronome-drum-rhythm " + JSON.stringify(tune.playbackMetronomeDrumRhythm) + "\n"
+            } catch (e) {}
         }
         if (tune.playbackMetronomeRhythm) {
             try {
@@ -163,12 +176,7 @@ var useAbcTools = () => {
     
     
     function normalizeGenre(tune) {
-        if (!tune) return tune
-        if (tune.meta && tune.meta.G && !tune.genre) {
-            tune.genre = Array.isArray(tune.meta.G) ? tune.meta.G[0] : tune.meta.G
-            delete tune.meta.G
-        }
-        return tune
+        return normalizeTuneGenres(tune)
     }
 
     // App-internal meta (objects / non-ABC). Never emit as header lines.
@@ -237,8 +245,11 @@ var useAbcTools = () => {
     function abc2json(abc) {
         //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genre: null, noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', lyricsScrollDurationSec: 0, meta: {}}
+        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genres: [], noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', lyricsScrollDurationSec: 0, meta: {}}
         var currentVoice = '1'
+        var pendingMidiPrograms = []
+        var seenVoiceHeader = false
+        var seenBodyVoiceSelector = false
         var links = {}
          var files = {}
          var tuneFiles = {}
@@ -267,9 +278,13 @@ var useAbcTools = () => {
                     case "V":
                         var parts = line.slice(2).trim().split(' ')
                         if (parts[0]) {
+                            seenVoiceHeader = true
                             tune.voices[parts[0]] = {meta: parts.slice(1).join(' '), notes:[]}
                             //console.log('LINE Vvoice meta real',parts[0],tune.voices[parts[0]],tune.voices)
                             currentVoice = parts[0]
+                            if (pendingMidiPrograms.length > 0) {
+                                tune.voices[parts[0]].notes.unshift('%%MIDI program ' + pendingMidiPrograms.shift())
+                            }
                         }
                         //console.log('LINE Vvoice meta',parts[0], line)
                         break
@@ -314,8 +329,9 @@ var useAbcTools = () => {
                         }
                         break
                     case "G":
-                        if (!tune.genre) {
-                            tune.genre = line.slice(2).trim()
+                        {
+                            if (!Array.isArray(tune.genres)) tune.genres = []
+                            tune.genres = mergeBibliographicList(tune.genres, line.slice(2).trim())
                         }
                         break
                     case "K":
@@ -396,6 +412,14 @@ var useAbcTools = () => {
                 } else  if (line.startsWith('% abcbook-playback-metronome-during-playback')) {
                     var duringPlaybackVal = abcbookFieldValue(line, '% abcbook-playback-metronome-during-playback')
                     tune.playbackMetronomeDuringPlayback = duringPlaybackVal === 'true' || duringPlaybackVal === '1'
+                } else  if (line.startsWith('% abcbook-playback-metronome-click-rhythm')) {
+                    try {
+                        tune.playbackMetronomeClickRhythm = JSON.parse(abcbookFieldValue(line, '% abcbook-playback-metronome-click-rhythm'))
+                    } catch (e) {}
+                } else  if (line.startsWith('% abcbook-playback-metronome-drum-rhythm')) {
+                    try {
+                        tune.playbackMetronomeDrumRhythm = JSON.parse(abcbookFieldValue(line, '% abcbook-playback-metronome-drum-rhythm'))
+                    } catch (e) {}
                 } else  if (line.startsWith('% abcbook-playback-metronome-rhythm')) {
                     try {
                         tune.playbackMetronomeRhythm = JSON.parse(abcbookFieldValue(line, '% abcbook-playback-metronome-rhythm'))
@@ -687,13 +711,28 @@ var useAbcTools = () => {
                     }
                     if (line.startsWith('%%MIDI transpose')) {
                         tune.transpose = line.slice(16).trim()
+                    } else if (/^%%MIDI\s+program\s+\d+/i.test(line.trim())) {
+                        var programMatch = line.trim().match(/^%%MIDI\s+program\s+(\d+)/i)
+                        if (programMatch) {
+                            if (!seenVoiceHeader) {
+                                pendingMidiPrograms.push(parseInt(programMatch[1], 10))
+                            } else {
+                                if (!tune.voices.hasOwnProperty(currentVoice)) tune.voices[currentVoice] = {meta:'',notes:[]}
+                                tune.voices[currentVoice].notes.push(line.trim())
+                            }
+                        }
                     } else if (line.trim().startsWith('[V:') && line.indexOf(']') !== -1 ) {
-                        var key = line.slice(1,line.indexOf(']'))
-                        //console.log(key)
-                        var voiceNotes = line.slice(line.indexOf(']')+1)
-                        //tune.notes.push(line.trim())
-                        if (!tune.voices.hasOwnProperty(key)) tune.voices[key] = {meta:'',notes:[]}
-                        tune.voices[key].notes.push(voiceNotes)
+                        var selectorMatch = line.trim().match(/^\[V:(\d+)\](.*)$/)
+                        if (selectorMatch) {
+                            var voiceKey = selectorMatch[1]
+                            var voiceNotes = selectorMatch[2].trim()
+                            seenBodyVoiceSelector = true
+                            if (!tune.voices.hasOwnProperty(voiceKey)) tune.voices[voiceKey] = {meta:'',notes:[]}
+                            currentVoice = voiceKey
+                            if (voiceNotes) {
+                                tune.voices[voiceKey].notes.push(voiceNotes)
+                            }
+                        }
                     } else {
                         //tune.notes.push(line.trim())
                         if (!tune.voices.hasOwnProperty(currentVoice) ) tune.voices[currentVoice] = {meta:'',notes:[]}
@@ -752,6 +791,8 @@ var useAbcTools = () => {
         if (titleHeaderText) titleHeaderText += "\n"
         var composerHeaderText = renderBibliographicComposerLines(tune).join("\n")
         if (composerHeaderText) composerHeaderText += "\n"
+        var genreHeaderText = renderBibliographicGenreLines(tune).join("\n")
+        if (genreHeaderText) genreHeaderText += "\n"
         var boost = tune.boost > 0 ? tune.boost : 0
         var tuneNumber = tune && tune.meta && parseInt(tune.meta.X) !== NaN && tune.meta.X >= 0 ? tune.meta.X : parseInt(Math.random()*100000)
         var books = Array.isArray(tune.books) && tune.books.length > 0 ? tune.books.map(function(book) {
@@ -774,6 +815,7 @@ var useAbcTools = () => {
         if (tune.voices && Object.keys(tune.voices).length > 0) {
             var wLineIndex = 0
             var wLines = getInterleavedLyricLines(tune)
+            var primaryVoiceKey = resolvePrimaryVoiceKey(tune.voices)
             Object.keys(tune.voices).forEach(function(voice) {
                 voicesAndNotes.push("V:"+voice+" "+ensureText(tune.voices[voice].meta,""))
                 var noteLines = Array.isArray(tune.voices[voice].notes)
@@ -782,7 +824,7 @@ var useAbcTools = () => {
                 if (noteLines.length === 0) noteLines = ['']
                 noteLines.forEach(function(noteLine) {
                         voicesAndNotes.push(noteLine)
-                        if (wLineIndex < wLines.length) {
+                        if (voice === primaryVoiceKey && wLineIndex < wLines.length) {
                             var wText = wLines[wLineIndex]
                             if (wText !== null && wText !== undefined && String(wText).length > 0) {
                                 voicesAndNotes.push('w: ' + wText)
@@ -895,7 +937,7 @@ var useAbcTools = () => {
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + titleHeaderText
                     + composerHeaderText
-                    + ensure(tune.genre, "G: " + ensureText(tune.genre) + "\n" )
+                    + genreHeaderText
                     + books
                     + ensure(tune.meter,"M:"+ensureText(tune.meter)+ "\n" )
                     + ensure(tune.noteLength, "L:" + ensureText(tune.noteLength) + "\n" )
@@ -993,6 +1035,8 @@ var useAbcTools = () => {
         if (titleHeaderText) titleHeaderText += "\n"
         var composerHeaderText = renderBibliographicComposerLines(tune).join("\n")
         if (composerHeaderText) composerHeaderText += "\n"
+        var genreHeaderText = renderBibliographicGenreLines(tune).join("\n")
+        if (genreHeaderText) genreHeaderText += "\n"
         var voicesAndNotes=[]
         if (tune.voices) {
             Object.keys(tune.voices).forEach(function(voice) {
@@ -1008,7 +1052,7 @@ var useAbcTools = () => {
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + titleHeaderText
                     + composerHeaderText
-                    + (tune.genre ? "G: " + ensureText(tune.genre) + "\n" : '')
+                    + genreHeaderText
                     + "M:"+ensureText(tune.meter)+ "\n" 
                     + "L:" + ensureText(tune.noteLength) + "\n" 
                     + "R: "+  ensureText(tune.rhythm) + "\n" 

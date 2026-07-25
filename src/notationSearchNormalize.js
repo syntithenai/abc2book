@@ -141,6 +141,28 @@ function normalizeSingleNotationResult(body) {
   if ((!abc || abc.indexOf('K:') === -1) && body && body.musicXml) {
     abc = convertMusicXmlCandidate(body) || ''
   }
+  if ((!abc || abc.indexOf('K:') === -1) && body && body.midiBytes) {
+    const out = {
+      abc: '',
+      source: typeof body.source === 'string' ? body.source : '',
+      sourceUrl: typeof body.sourceUrl === 'string' ? body.sourceUrl : '',
+      title: typeof body.title === 'string'
+        ? body.title
+        : (tuneMeta && tuneMeta.name ? String(tuneMeta.name) : ''),
+      artist: typeof body.artist === 'string'
+        ? body.artist
+        : (tuneMeta && tuneMeta.composer ? String(tuneMeta.composer) : ''),
+      preview: previewFromBody || 'MIDI file (wizard import)',
+      titleOnly: body.titleOnly === true,
+      tuneMeta: tuneMeta,
+      importFormat: 'midi',
+      midiBytes: body.midiBytes,
+    }
+    if (typeof body.matchScore === 'number' && Number.isFinite(body.matchScore)) {
+      out.matchScore = body.matchScore
+    }
+    return out
+  }
   if (!abc || abc.indexOf('K:') === -1) {
     throw new Error('Notation search returned no usable ABC')
   }

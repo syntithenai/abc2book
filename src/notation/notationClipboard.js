@@ -26,15 +26,27 @@ export function cutToClipboard(events, selectedIds, tuneMeta, voiceIndex) {
   return events.filter(function(ev) { return selectedIds.indexOf(ev.id) < 0; });
 }
 
-export function pasteFromClipboard(events, caretIndex, tuneMeta) {
+export function pasteFromClipboard(events, caretIndex, tuneMeta, replaceIds) {
   if (!clipboard || !clipboard.events.length) return null;
   const clone = clipboard.events.map(function(ev) {
     const c = cloneVoiceEvent(ev);
     c.id = createEventId('paste');
     return c;
   });
-  const next = events.slice();
-  const idx = Math.min(caretIndex, next.length);
+  let next = events.slice();
+  let idx = Math.min(caretIndex, next.length);
+  const ids = Array.isArray(replaceIds) ? replaceIds.filter(Boolean) : [];
+  if (ids.length) {
+    const idSet = {};
+    ids.forEach(function(id) { idSet[id] = true; });
+    let minIdx = next.length;
+    next.forEach(function(ev, i) {
+      if (idSet[ev.id] && i < minIdx) minIdx = i;
+    });
+    if (minIdx < next.length) idx = minIdx;
+    next = next.filter(function(ev) { return !idSet[ev.id]; });
+    if (idx > next.length) idx = next.length;
+  }
   next.splice(idx, 0, ...clone);
   return {
     events: next,

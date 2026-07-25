@@ -1,0 +1,103 @@
+{
+  "id": "10-women-in-music",
+  "title": "10 Women In Music",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "06-history/10-women-in-music.md",
+  "sections": [
+    {
+      "id": "women-in-music-history-composers-and-tradition-bearers",
+      "title": "Women in Music History: Composers and Tradition Bearers",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Women composed, performed, collected, and carried traditions at every level — often underdocumented in standard histories."
+        }
+      ]
+    },
+    {
+      "id": "composers",
+      "title": "Composers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Hildegard of Bingen** (1098–1179): visionary monophonic works and writings. **Clara Schumann** (1819–1896): leading pianist and composer of songs and chamber music. **Fanny Mendelssohn** (1805–1847): lieder published under brother Felix's name. **Ethel Smyth** (1858–1944): operas and suffragette anthem."
+        }
+      ]
+    },
+    {
+      "id": "tradition-bearers",
+      "title": "Tradition bearers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Women singers and dancers preserved repertoire in domestic settings while public stages restricted access. Regional archives document women tune-carriers alongside male composers like O'Carolan."
+        }
+      ]
+    },
+    {
+      "id": "today",
+      "title": "Today",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Festivals highlight women pipers, fiddlers, accordionists always present in sessions but rarely featured on album covers. Diverse sources enrich repertoire and ensemble culture."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-clara-schumann-known-as",
+      "title": "Q1. Clara Schumann known as:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Pianist and composer\n- B) Baroque trumpet maker\n- C) Disc jockey\n- D) Film projectionist\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-women-historically-carried-oral-tradition-music-in-underdocumented-roles",
+      "title": "Q2. Women historically carried oral-tradition music in underdocumented roles.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Clara Schumann known as:\n\n- A) Pianist and composer\n- B) Baroque trumpet maker\n- C) Disc jockey\n- D) Film projectionist\n\n**Answer:** A\n\n### Q2. Women historically carried oral-tradition music in underdocumented roles.\n\n**Answer:** True"
+}

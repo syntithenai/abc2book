@@ -1,0 +1,103 @@
+{
+  "id": "01-bach",
+  "title": "01 Bach",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "06-history/01-bach.md",
+  "sections": [
+    {
+      "id": "js-bach-counterpoint-and-dance-forms",
+      "title": "J.S. Bach: Counterpoint and Dance Forms",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Johann Sebastian Bach (1685–1750) worked in German churches and courts, composing fugues, chorales, suites, and partitas central to Western music education."
+        }
+      ]
+    },
+    {
+      "id": "key-works",
+      "title": "Key works",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The Well-Tempered Clavier (48 preludes and fugues in all keys) demonstrated equal-temperament keyboard writing. Brandenburg Concertos showcase Baroque orchestration. Cello Suites and violin Partitas remain performance staples."
+        }
+      ]
+    },
+    {
+      "id": "dance-forms",
+      "title": "Dance forms",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bach absorbed allemandes, courantes, sarabandes, and gigues into instrumental suites — linking court music to European dance tradition."
+        }
+      ]
+    },
+    {
+      "id": "legacy-for-trad",
+      "title": "Legacy for trad",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Two-part invention shows bass implying harmony while melody sings — same split session guitarists use. Ornament tables influence baroque-influenced flute and harp gracing."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-well-tempered-clavier-famous-for",
+      "title": "Q1. Well-Tempered Clavier famous for:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Preludes and fugues in all keys\n- B) Inventing tin whistle\n- C) Jazz standards only\n- D) Electric guitar\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-bach-used-dance-forms-like-gigues-in-suites",
+      "title": "Q2. Bach used dance forms like gigues in suites.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Well-Tempered Clavier famous for:\n\n- A) Preludes and fugues in all keys\n- B) Inventing tin whistle\n- C) Jazz standards only\n- D) Electric guitar\n\n**Answer:** A\n\n### Q2. Bach used dance forms like gigues in suites.\n\n**Answer:** True"
+}

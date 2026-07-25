@@ -220,6 +220,7 @@ describe('providerSettings', function() {
 
   test('buildProviderServiceStatusRows uses Connected / Not available and Using column', function() {
     const rows = buildProviderServiceStatusRows({
+      available: true,
       activeBase: 'http://127.0.0.1:8765',
       heavyMlBase: 'http://127.0.0.1:8765',
       features: { stems: true, practiceAnalysis: true, sheetImageOmr: false, sheetImageOcr: true },
@@ -266,6 +267,7 @@ describe('providerSettings', function() {
 
   test('localhost feature flags mark LLM Whisper OCR Connected without BYO keys', function() {
     const rows = buildProviderServiceStatusRows({
+      available: true,
       activeBase: 'http://localhost:3000',
       heavyMlBase: 'http://localhost:3000',
       features: {
@@ -325,6 +327,43 @@ describe('providerSettings', function() {
     })).toBe(true)
   })
 
+  test('isStemsCapabilityAvailable is false when resolver is reachable but not authorized', function() {
+    expect(isStemsCapabilityAvailable({
+      stems: true,
+      lightMode: false,
+    }, {
+      llm: [],
+      whisper: [],
+      ocr: [],
+      stems: [],
+    }, {
+      available: false,
+      activeBase: null,
+      candidates: [{
+        base: 'https://resolver.example',
+        reachable: true,
+        available: false,
+        requireAuth: true,
+        features: { stems: true },
+      }],
+    })).toBe(false)
+  })
+
+  test('isStemsCapabilityAvailable is true when resolver is available with stems feature', function() {
+    expect(isStemsCapabilityAvailable({
+      stems: true,
+      lightMode: false,
+    }, {
+      llm: [],
+      whisper: [],
+      ocr: [],
+      stems: [],
+    }, {
+      available: true,
+      activeBase: 'https://resolver.example',
+    })).toBe(true)
+  })
+
   test('isStemsCapabilityAvailable is false on light gateway without provider', function() {
     expect(isStemsCapabilityAvailable({
       stems: true,
@@ -366,6 +405,24 @@ describe('providerSettings', function() {
         label: 'fal',
         capability: 'stems',
       }],
-    }, null)).toBe(true)
+    }, { available: true })).toBe(true)
+  })
+
+  test('buildProviderServiceStatusRows does not mark stems Connected without authorized resolver', function() {
+    const settings = { llm: [], whisper: [], ocr: [], stems: [] }
+    const rows = buildProviderServiceStatusRows({
+      available: false,
+      activeBase: null,
+      heavyMlBase: 'https://resolver.example',
+      features: { stems: true },
+      providers: {
+        capabilities: {
+          stems: { localAvailable: true, active: { source: 'local', model: 'htdemucs' } },
+        },
+      },
+    }, settings, { webshareSaved: false, egressRequired: true })
+    const stems = rows.find(function(r) { return r.id === 'stems' })
+    expect(stems.available).toBe(false)
+    expect(stems.statusLabel).toBe('Not available')
   })
 })

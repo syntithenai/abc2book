@@ -8,20 +8,16 @@ describe('notationSearchNormalize archives', () => {
     expect(extractNotationSearchUrl('https://data.josqu.in/Jos2721.musicxml')).toContain('josqu.in')
   })
 
-  test('normalizeNotationSearch preserves pdf-only candidates', () => {
+  test('normalizeNotationSearch defers midi bytes to wizard import', () => {
     const result = normalizeNotationSearch({
-      title: 'Mass',
-      artist: 'Bach',
-      source: 'imslp.org',
-      sourceUrl: 'https://imslp.org/wiki/Mass',
-      pdfAttachment: {
-        downloadUrl: 'https://imslp.org/wiki/File:Mass.pdf',
-        filename: 'Mass.pdf',
-        contentType: 'application/pdf',
-      },
+      title: 'Jig',
+      source: 'example.com',
+      sourceUrl: 'https://example.com/tune.mid',
+      midiBytes: 'TVRoZA==',
     })
-    expect(result.pdfAttachment.downloadUrl).toContain('Mass.pdf')
-    expect(result.preview).toContain('PDF')
+    expect(result.importFormat).toBe('midi')
+    expect(result.midiBytes).toBe('TVRoZA==')
     expect(result.abc).toBe('')
+    expect(result.preview).toContain('MIDI')
   })
 })

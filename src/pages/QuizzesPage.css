@@ -1,0 +1,155 @@
+.quizzes-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.quizzes-hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.quizzes-search {
+  margin-top: 0.75rem;
+}
+
+.quizzes-dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.75rem;
+  background: #f8fafc;
+}
+
+.quizzes-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.quizzes-stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.quizzes-stat-label {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.quizzes-interests {
+  grid-column: 1 / -1;
+}
+
+.quizzes-interests ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.quizzes-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.quizzes-layout--collapsed {
+  grid-template-columns: 48px 1fr;
+}
+
+.quizzes-sidebar {
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+}
+
+.quizzes-sidebar-toggle {
+  border: 1px solid #dee2e6;
+  background: #fff;
+  border-radius: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.quizzes-index-unit-toggle {
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: transparent;
+  font-weight: 700;
+  padding: 0.35rem 0;
+}
+
+.quizzes-index-lessons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+.quizzes-row {
+  display: block;
+  padding: 0.45rem 0.6rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid transparent;
+}
+
+.quizzes-row:hover,
+.quizzes-row--active {
+  background: #e7f1ff;
+  border-color: #b6d4fe;
+  text-decoration: none;
+  color: inherit;
+}
+
+.quizzes-row-title {
+  display: block;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.quizzes-row-meta {
+  display: block;
+  font-size: 0.78rem;
+  color: #6c757d;
+}
+
+.quizzes-lesson-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.quizzes-lesson-link {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .quizzes-dashboard {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .quizzes-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .quizzes-sidebar {
+    position: static;
+    max-height: none;
+  }
+}

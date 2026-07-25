@@ -9,6 +9,7 @@ import {
   titleFromChordSheetFileName,
 } from './chordProFormatUtils';
 import { detectScoreFormat, importMusicXmlText, importScoreFile } from './scoreImportClient';
+import { isMidiImportFile } from './midiFileUtils';
 import { finalizeMidiImportAbc } from './midiImportFinalize';
 import {
   parseDriveFileInput,
@@ -20,6 +21,16 @@ import { transcribeSheetImageFile } from './sheetImageTranscriptionClient';
 import { buildDraftFromSheetImageResult, createTuneFromSheetImageImport } from './sheetImageImportUtils';
 import { createImportCandidate } from './importReviewSession';
 import { ensurePlainWordsFromNoteAlignedLyrics, setLyricLines } from './wLinesUtils';
+
+export function getMidiWizardPendingFromFile(file, sourceUrl) {
+  if (!file) return null;
+  if (!isMidiImportFile(file) && detectScoreFormat(file.name) !== 'midi') return null;
+  return {
+    file: file,
+    fileName: file.name || 'import.mid',
+    sourceUrl: sourceUrl || '',
+  };
+}
 
 const CHORD_SHEET_EXTENSIONS = CHORD_SHEET_IMPORT_EXTENSIONS;
 
@@ -145,6 +156,9 @@ export async function parseImportFile(options) {
   const scoreFormat = detectScoreFormat(file.name);
   if (scoreFormat === 'midi' && !resolverAvailable) {
     throw new Error('MIDI import needs the media resolver.');
+  }
+  if (scoreFormat === 'midi') {
+    throw new Error('MIDI files must be imported through the MIDI import wizard.');
   }
 
   if (isChordSheetExtension(file.name) || scoreFormat === 'abc') {

@@ -1,0 +1,103 @@
+{
+  "id": "02-mozart",
+  "title": "02 Mozart",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "06-history/02-mozart.md",
+  "sections": [
+    {
+      "id": "mozart-clarity-balance-and-melody",
+      "title": "Mozart: Clarity, Balance, and Melody",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Wolfgang Amadeus Mozart (1756–1791) composed symphonies, operas, chamber music, and piano works with effortless melodic balance — the epitome of Classical style."
+        }
+      ]
+    },
+    {
+      "id": "contributions",
+      "title": "Contributions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Over 600 works including operas *The Marriage of Figaro*, *Don Giovanni*, *The Magic Flute*. Piano concertos and symphonies define Classical form. Child prodigy who toured Europe before age 10."
+        }
+      ]
+    },
+    {
+      "id": "phrasing-model",
+      "title": "Phrasing model",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Clear four-bar antecedent/consequent structure. Alberti bass and I–V–I motion underpin countless songs. Lift at midpoint cadence, settle at authentic cadence."
+        }
+      ]
+    },
+    {
+      "id": "for-trad-players",
+      "title": "For trad players",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Mozart's phrasing helps shape airs and slow session tunes with intentional breathing points."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-mozarts-era",
+      "title": "Q1. Mozart's era:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Classical\n- B) Baroque only\n- C) Serialism\n- D) Electric blues\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-clear-four-bar-phrases-model-breathing-and-cadence",
+      "title": "Q2. Clear four-bar phrases model breathing and cadence.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Mozart's era:\n\n- A) Classical\n- B) Baroque only\n- C) Serialism\n- D) Electric blues\n\n**Answer:** A\n\n### Q2. Clear four-bar phrases model breathing and cadence.\n\n**Answer:** True"
+}

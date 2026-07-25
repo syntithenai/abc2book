@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Button, Form, Modal } from 'react-bootstrap'
 import abcjs from 'abcjs'
 import { fitNotationToWidth } from '../gigNotationFit'
+import { applyBarSlotHighlights } from '../notationPreviewBarHighlights'
 
 function hasRenderableNotes(abc) {
   return String(abc || '').split(/\n/).some(function(line) {
@@ -85,7 +86,13 @@ export function NotationPreview(props) {
   const hostRef = useRef(null)
   const abc = props.abc || ''
   const fitWidth = props.fitWidth !== false
+  const wrapToWidth = props.wrapToWidth === true
+  const maxHeight = props.maxHeight === undefined ? '50vh' : props.maxHeight
   const canRender = hasRenderableNotes(abc)
+  const wrapClassName = props.className ? (' ' + props.className) : ''
+  const mergePreviewHighlights = props.mergePreviewHighlights
+  const highlightTune = props.highlightTune
+  const highlightMeasuresPerLine = props.highlightMeasuresPerLine || 4
 
   useEffect(function() {
     const wrapper = wrapperRef.current
@@ -97,58 +104,120 @@ export function NotationPreview(props) {
       return undefined
     }
 
+    let lastWidth = 0
+    let resizeRaf = null
+    let cancelled = false
+
+    function measureAvailWidth() {
+      let el = wrapper
+      for (let depth = 0; depth < 5 && el; depth += 1) {
+        const measured = el.clientWidth
+        if (measured >= 160) return Math.max(120, measured - 24)
+        el = el.parentElement
+      }
+      return Math.max(120, wrapper.clientWidth - 24)
+    }
+
     function renderAndFit() {
+      if (cancelled) return
       host.innerHTML = ''
-      const availW = Math.max(120, wrapper.clientWidth)
+      const availW = Math.max(120, measureAvailWidth())
       const staffWidth = fitWidth ? availW : Math.max(480, availW)
+      const renderOptions = {
+        add_classes: true,
+        selectTypes: false,
+        staffwidth: staffWidth,
+        scale: 1,
+        paddingtop: wrapToWidth ? 12 : 10,
+        paddingbottom: wrapToWidth ? 28 : 10,
+        paddingleft: wrapToWidth ? 8 : 4,
+        paddingright: wrapToWidth ? 16 : 4,
+      }
+      if (wrapToWidth) {
+        renderOptions.wrap = {
+          minSpacing: 1.6,
+          maxSpacing: 2.8,
+          preferredMeasuresPerLine: 4,
+          lastLineLimit: 2,
+        }
+      }
       try {
-        abcjs.renderAbc(host, abc, {
-          add_classes: true,
-          selectTypes: false,
-          staffwidth: staffWidth,
-          scale: 1,
-          paddingtop: 10,
-          paddingbottom: 10,
-          paddingleft: 4,
-          paddingright: 4,
-        })
+        abcjs.renderAbc(host, abc, renderOptions)
         const svg = host.querySelector('svg')
-        if (svg && fitWidth && availW > 0) {
+        if (svg && wrapToWidth) {
+          svg.style.maxWidth = '100%'
+          svg.style.height = 'auto'
+          svg.style.display = 'block'
+          svg.style.overflow = 'visible'
+        } else if (svg && fitWidth && availW > 0) {
           fitNotationToWidth(svg, host, availW)
         }
+        if (mergePreviewHighlights && highlightTune) {
+          applyBarSlotHighlights(host, mergePreviewHighlights, highlightTune, {
+            measuresPerLine: highlightMeasuresPerLine,
+          })
+        }
+        lastWidth = availW
       } catch (e) {
         host.textContent = 'Unable to render notation.'
       }
     }
 
-    renderAndFit()
+    function scheduleRenderAndFit() {
+      if (resizeRaf) cancelAnimationFrame(resizeRaf)
+      resizeRaf = requestAnimationFrame(function() {
+        resizeRaf = requestAnimationFrame(function() {
+          resizeRaf = null
+          const availW = Math.max(120, measureAvailWidth())
+          if (Math.abs(availW - lastWidth) < 1) return
+          renderAndFit()
+        })
+      })
+    }
 
-    if (!fitWidth || typeof ResizeObserver === 'undefined') {
-      return undefined
+    if (wrapToWidth) {
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          if (!cancelled) renderAndFit()
+        })
+      })
+    } else {
+      renderAndFit()
+    }
+
+    if ((!fitWidth && !wrapToWidth) || typeof ResizeObserver === 'undefined') {
+      return function() {
+        cancelled = true
+        if (resizeRaf) cancelAnimationFrame(resizeRaf)
+      }
     }
     const observer = new ResizeObserver(function() {
-      renderAndFit()
+      scheduleRenderAndFit()
     })
     observer.observe(wrapper)
+    if (wrapper.parentElement) observer.observe(wrapper.parentElement)
     return function() {
+      cancelled = true
+      if (resizeRaf) cancelAnimationFrame(resizeRaf)
       observer.disconnect()
     }
-  }, [abc, canRender, fitWidth])
+  }, [abc, canRender, fitWidth, wrapToWidth, mergePreviewHighlights, highlightTune, highlightMeasuresPerLine])
 
   return (
     <div
       ref={wrapperRef}
-      className="suggestion-preview-notation-wrap"
-      style={{ maxWidth: '100%', minWidth: 0 }}
+      className={'suggestion-preview-notation-wrap' + wrapClassName}
+      style={{ maxWidth: '100%', minWidth: 0, width: wrapToWidth ? '100%' : undefined }}
     >
       <div
-        className="suggestion-preview-notation"
+        className={'suggestion-preview-notation' + (wrapToWidth ? ' suggestion-preview-notation--wrap' : '')}
         style={{
-          overflowX: 'hidden',
-          overflowY: 'auto',
-          maxHeight: '50vh',
-          minHeight: '8rem',
+          overflowX: wrapToWidth ? 'visible' : 'hidden',
+          overflowY: maxHeight ? 'auto' : (wrapToWidth ? 'visible' : 'visible'),
+          maxHeight: maxHeight || undefined,
+          minHeight: wrapToWidth ? '12rem' : '8rem',
           maxWidth: '100%',
+          width: wrapToWidth ? '100%' : undefined,
           border: '1px solid #ced4da',
           borderRadius: '0.375rem',
           padding: '0.5rem',

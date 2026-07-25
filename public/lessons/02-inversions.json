@@ -1,0 +1,103 @@
+{
+  "id": "02-inversions",
+  "title": "02 Inversions",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "03-chords/02-inversions.md",
+  "sections": [
+    {
+      "id": "triad-inversions-and-bass-notes",
+      "title": "Triad Inversions and Bass Notes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** chords | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Inversions rearrange which chord tone sits in the bass without changing the chord's identity."
+        }
+      ]
+    },
+    {
+      "id": "three-positions",
+      "title": "Three positions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Root position**: root in bass (C-E-G). **First inversion**: third in bass, written C/E. **Second inversion**: fifth in bass, written C/G. The chord symbol reflects root and quality; slash notation shows bass note."
+        }
+      ]
+    },
+    {
+      "id": "voice-leading",
+      "title": "Voice leading",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Inversions create smoother bass lines: C → G/B → Am → G/C descends stepwise. Figured bass uses 6 (first inversion) and 6/4 (second inversion) in classical sources."
+        }
+      ]
+    },
+    {
+      "id": "session-use",
+      "title": "Session use",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Choose inversions by ear for smooth bass motion and to keep the melody clear of the accompaniment register."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-ce-is-which-inversion",
+      "title": "Q1. C/E is which inversion?",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) First inversion\n- B) Root position\n- C) Second inversion\n- D) Not C major\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-inversions-change-letter-name-but-not-chord-identity",
+      "title": "Q2. Inversions change letter name but not chord identity.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. C/E is which inversion?\n\n- A) First inversion\n- B) Root position\n- C) Second inversion\n- D) Not C major\n\n**Answer:** A\n\n### Q2. Inversions change letter name but not chord identity.\n\n**Answer:** True"
+}

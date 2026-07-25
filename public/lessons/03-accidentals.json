@@ -1,0 +1,125 @@
+{
+  "id": "03-accidentals",
+  "title": "03 Accidentals",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "01-foundations/03-accidentals.md",
+  "sections": [
+    {
+      "id": "sharps-flats-and-accidentals",
+      "title": "Sharps, Flats, and Accidentals",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** foundations | **Difficulty:** 1/10 | **Time:** ~8 min\n**Prerequisites:** The Staff, Clefs, and Pitch Names\n**Tags:** accidentals, pitch, keys"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Accidentals alter pitch by a semitone (half step) — the smallest interval in Western equal temperament. One fret on guitar, one piano key (white to adjacent black), or one finger hole on whistle equals one semitone."
+        }
+      ]
+    },
+    {
+      "id": "the-three-accidentals",
+      "title": "The three accidentals",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Sharp (♯)** raises pitch one semitone. **Flat (♭)** lowers one semitone. **Natural (♮)** cancels a previous sharp or flat for that letter name in the measure. **Double sharp (𝄪)** and **double flat (𝄫)** move two semitones — rare in folk repertoire, common in classical harmony."
+        }
+      ]
+    },
+    {
+      "id": "key-signatures",
+      "title": "Key signatures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Sharps or flats at the start of a staff apply to every occurrence of those letter names throughout the piece unless cancelled. F♯ in the key signature means every F is sharp in every octave. This is why D major and G major feel different on the same melody shape."
+        }
+      ]
+    },
+    {
+      "id": "accidentals-within-a-measure",
+      "title": "Accidentals within a measure",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A sharp or flat mid-measure usually applies only until the end of that bar (in modern practice). Chromatic passing tones — notes sliding between scale degrees — appear constantly in ornamented trad playing, often unwritten. Players learn them by ear."
+        }
+      ]
+    },
+    {
+      "id": "enharmonic-equivalents",
+      "title": "Enharmonic equivalents",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The same pitch can be spelled two ways: F♯ and G♭ sound identical in equal temperament. Spelling follows harmonic context — G♭ leads down to F; F♯ leads up to G."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-what-effect-does-a-sharp-have-on-a-note",
+      "title": "Q1. What effect does a sharp have on a note?",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Raises pitch by one semitone\n- B) Lowers by one semitone\n- C) Raises by one whole tone\n- D) Cancels a previous accidental\n\n**Answer:** A — A sharp raises pitch by one half step."
+        }
+      ]
+    },
+    {
+      "id": "q2-key-signature-accidentals-apply-throughout-the-piece-unless-overridden",
+      "title": "Q2. Key signature accidentals apply throughout the piece unless overridden.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True — They affect every occurrence of that letter name in every octave."
+        }
+      ]
+    },
+    {
+      "id": "q3-f-and-g-are",
+      "title": "Q3. F♯ and G♭ are:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Enharmonic equivalents (same pitch in equal temperament)\n- B) A whole tone apart\n- C) Unrelated pitches\n- D) Only used in minor keys\n\n**Answer:** A — They sound the same but imply different voice-leading directions."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. What effect does a sharp have on a note?\n\n- A) Raises pitch by one semitone\n- B) Lowers by one semitone\n- C) Raises by one whole tone\n- D) Cancels a previous accidental\n\n**Answer:** A — A sharp raises pitch by one half step.\n\n### Q2. Key signature accidentals apply throughout the piece unless overridden.\n\n**Answer:** True — They affect every occurrence of that letter name in every octave.\n\n### Q3. F♯ and G♭ are:\n\n- A) Enharmonic equivalents (same pitch in equal temperament)\n- B) A whole tone apart\n- C) Unrelated pitches\n- D) Only used in minor keys\n\n**Answer:** A — They sound the same but imply different voice-leading directions."
+}

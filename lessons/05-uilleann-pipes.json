@@ -1,0 +1,114 @@
+{
+  "id": "05-uilleann-pipes",
+  "title": "05 Uilleann Pipes",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/05-uilleann-pipes.md",
+  "sections": [
+    {
+      "id": "uilleann-pipes",
+      "title": "Uilleann Pipes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The uilleann pipes (IPA: ˈɪlən) are the characteristic bagpipe of Ireland — softer and more chromatic than Highland pipes. 'Uilleann' is Irish for 'elbow,' referring to bellows pumped by the player's arm."
+        }
+      ]
+    },
+    {
+      "id": "components",
+      "title": "Components",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bellows (elbow-driven, not mouth-blown). Bag stores air. Chanter: conical bore, two octaves, closed end — stopped notes enable staccato. Drones (typically three) and regulators (keyed pipes for chords) optional."
+        }
+      ]
+    },
+    {
+      "id": "chromatic-capability",
+      "title": "Chromatic capability",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Half-holing and cross-fingerings give a chromatic chanter — unlike many mouth-blown pipes limited to mixolydian scale. Concert pitch, usually D."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Developed 18th–19th century from earlier Irish bellows pipes. Revival led by Seamus Ennis, Leo Rowsome. Liam O'Flynn brought pipes to international concert stages."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-uilleann-pipes-are-inflated-by",
+      "title": "Q1. Uilleann pipes are inflated by:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Elbow bellows\n- B) Mouth blowing only\n- C) Electricity\n- D) Foot pump exclusively\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-uilleann-chanter-can-play-staccato-due-to-closed-end",
+      "title": "Q2. Uilleann chanter can play staccato due to closed end.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-regulators-on-uilleann-pipes",
+      "title": "Q3. Regulators on uilleann pipes:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Keyed pipes for harmonic accompaniment\n- B) Volume controls\n- C) Tuning pegs only\n- D) Drum sticks\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Uilleann pipes are inflated by:\n\n- A) Elbow bellows\n- B) Mouth blowing only\n- C) Electricity\n- D) Foot pump exclusively\n\n**Answer:** A\n\n### Q2. Uilleann chanter can play staccato due to closed end.\n\n**Answer:** True\n\n### Q3. Regulators on uilleann pipes:\n\n- A) Keyed pipes for harmonic accompaniment\n- B) Volume controls\n- C) Tuning pegs only\n- D) Drum sticks\n\n**Answer:** A"
+}

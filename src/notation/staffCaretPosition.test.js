@@ -9,6 +9,8 @@ import {
   noteheadCenterInElement,
   staffCaretAnchorRect,
   staffSelectionAnchorRects,
+  syncStaffSelectionHighlight,
+  staffMarqueeSelectEventIds,
   staffNoteheadCentersForEventIds,
   countBarlinesBefore,
   eventIndexForBarDomIndex,
@@ -554,6 +556,60 @@ describe('staffCaretPosition', function() {
     expect(rects).toHaveLength(1);
     expect(rects[0].left).toBe(80);
     expect(rects[0].width).toBe(16);
+
+    document.body.removeChild(wrap);
+  });
+
+  test('syncStaffSelectionHighlight adds abcjs-note_selected on matching drawables', function() {
+    const wrap = document.createElement('div');
+    const first = document.createElement('g');
+    first.className = 'abcjs-note abcjs-v0';
+    const second = document.createElement('g');
+    second.className = 'abcjs-note abcjs-v0';
+    wrap.appendChild(first);
+    wrap.appendChild(second);
+    document.body.appendChild(wrap);
+
+    const events = [
+      { id: 'ev-a', type: 'note' },
+      { id: 'ev-b', type: 'note' },
+    ];
+    syncStaffSelectionHighlight(wrap, events, ['ev-b'], 0);
+    expect(first.classList.contains('abcjs-note_selected')).toBe(false);
+    expect(second.classList.contains('abcjs-note_selected')).toBe(true);
+
+    syncStaffSelectionHighlight(wrap, events, [], 0);
+    expect(second.classList.contains('abcjs-note_selected')).toBe(false);
+
+    document.body.removeChild(wrap);
+  });
+
+  test('staffMarqueeSelectEventIds selects when marquee touches notehead only', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() {
+      return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 };
+    };
+    const note = document.createElement('g');
+    note.className = 'abcjs-note abcjs-v0';
+    note.getBoundingClientRect = function() {
+      return { left: 80, top: 10, right: 96, bottom: 50, width: 16, height: 40 };
+    };
+    const head = document.createElement('path');
+    head.getBoundingClientRect = function() {
+      return { left: 80, top: 38, right: 94, bottom: 48, width: 14, height: 10 };
+    };
+    note.appendChild(head);
+    wrap.appendChild(note);
+    document.body.appendChild(wrap);
+
+    const events = [{ id: 'ev-a', type: 'note' }];
+    const ids = staffMarqueeSelectEventIds(wrap, events, {
+      left: 75,
+      right: 100,
+      top: 35,
+      bottom: 52,
+    }, 0);
+    expect(ids).toEqual(['ev-a']);
 
     document.body.removeChild(wrap);
   });

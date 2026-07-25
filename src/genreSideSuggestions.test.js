@@ -16,7 +16,7 @@ describe('side field suggestions', function() {
   })
 
   test('offerSideFieldSuggestion auto-applies empty genre without seeding', function() {
-    const tune = { id: 't1', name: 'Song', genre: '' }
+    const tune = { id: 't1', name: 'Song', genres: [] }
     const saveTune = jest.fn()
     const onApplied = jest.fn()
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
@@ -31,7 +31,7 @@ describe('side field suggestions', function() {
       onApplied: onApplied,
     })
     expect(result).toEqual({ applied: true })
-    expect(tune.genre).toBe('Folk')
+    expect(tune.genres).toEqual(['Folk'])
     expect(onApplied).toHaveBeenCalled()
     expect(tuneFieldLookupQueue.getAwaitingJob('tune:t1', 'genre')).toBeFalsy()
   })
@@ -67,7 +67,7 @@ describe('side field suggestions', function() {
   })
 
   test('maybeOfferGenreFromSearchResult caches when genre already set', function() {
-    const tune = { id: 't1', name: 'Song', genre: 'Pop' }
+    const tune = { id: 't1', name: 'Song', genres: ['Pop'] }
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
       getTune: function() { return tune },
       saveTune: jest.fn(),
@@ -76,16 +76,16 @@ describe('side field suggestions', function() {
       tuneId: 't1',
       result: { source: 'thesession.org', sourceUrl: 'https://thesession.org/tunes/1' },
       title: 'Song',
-      currentGenre: 'Pop',
+      currentGenres: ['Pop'],
     })
     expect(result && result.cached).toBe(true)
-    expect(tune.genre).toBe('Pop')
+    expect(tune.genres).toEqual(['Pop'])
     expect(tuneFieldLookupQueue.getAwaitingJob('tune:t1', 'genre')).toBeFalsy()
     expect(getFieldSearchResults('tune:t1', 'genre').length).toBeGreaterThan(0)
   })
 
   test('offerSideFieldSuggestion prefers currentValue over empty saved tune', function() {
-    const tune = { id: 't1', name: 'Song', genre: '' }
+    const tune = { id: 't1', name: 'Song', genres: [] }
     const onApplied = jest.fn()
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
       getTune: function() { return tune },
@@ -100,6 +100,6 @@ describe('side field suggestions', function() {
     })
     expect(result && result.cached).toBe(true)
     expect(onApplied).not.toHaveBeenCalled()
-    expect(tune.genre).toBe('')
+    expect(tune.genres).toEqual([])
   })
 })

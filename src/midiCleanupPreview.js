@@ -8,6 +8,15 @@ export const DEFAULT_CLEANUP_OPTIONS = {
   sustainTrim: false,
 };
 
+/** Light preset for notation-first MIDI import — only obvious ghosts. */
+export const LIGHT_CLEANUP_OPTIONS = {
+  velocityGate: 1,
+  minDurationMs: 40,
+  retriggerMergeMs: 25,
+  swingAmount: 0,
+  sustainTrim: true,
+};
+
 export function normalizeCleanupOptions(options) {
   const opts = options && typeof options === 'object' ? options : {};
   return {
@@ -79,6 +88,31 @@ function applySwing(notes, swingAmount, tempoBpm) {
   });
 }
 
+function applySustainTrim(notes, tempoBpm) {
+  if (!notes || !notes.length) return notes;
+  const beatDuration = 60 / Math.max(tempoBpm || 120, 1);
+  const maxSustain = beatDuration * 8;
+  const ordered = notes.slice().sort(function(a, b) {
+    return a.start - b.start || a.midi - b.midi;
+  });
+  const nextStartByPitch = {};
+  for (let i = ordered.length - 1; i >= 0; i -= 1) {
+    const note = ordered[i];
+    const pitch = note.midi;
+    const nextSame = nextStartByPitch[pitch];
+    let end = note.end;
+    if (nextSame != null && nextSame > note.start + 0.02) {
+      end = Math.min(end, nextSame);
+    }
+    if (end - note.start > maxSustain) {
+      end = note.start + maxSustain;
+    }
+    nextStartByPitch[pitch] = note.start;
+    ordered[i] = Object.assign({}, note, { end: Math.max(note.start + 0.03, end) });
+  }
+  return ordered;
+}
+
 export function cleanupIsActive(options) {
   const opts = normalizeCleanupOptions(options);
   return opts.velocityGate > 0
@@ -97,6 +131,9 @@ export function applyMidiCleanup(notes, options, tempoBpm) {
   cleaned = applyMinDuration(cleaned, opts.minDurationMs);
   cleaned = applyRetriggerMerge(cleaned, opts.retriggerMergeMs);
   cleaned = applySwing(cleaned, opts.swingAmount, tempoBpm || 120);
+  if (opts.sustainTrim) {
+    cleaned = applySustainTrim(cleaned, tempoBpm || 120);
+  }
 
   const removed = originalCount - cleaned.length;
   return {

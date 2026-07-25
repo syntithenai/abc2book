@@ -4616,7 +4616,17 @@ async def midi2abc(
         cleanup_options = _parse_cleanup_options(request)
 
         max_voices_param = request.query_params.get("max_voices")
-        max_voices = int(max_voices_param) if max_voices_param and max_voices_param.isdigit() else 8
+        max_voices = int(max_voices_param) if max_voices_param and max_voices_param.isdigit() else 0
+
+        rhythm_detail = (request.query_params.get("rhythm_detail") or "standard").strip().lower()
+        if rhythm_detail not in ("simple", "standard", "detailed"):
+            rhythm_detail = "standard"
+        quant_strength_param = request.query_params.get("quant_strength")
+        try:
+            quant_strength = float(quant_strength_param) if quant_strength_param else 0.7
+        except ValueError:
+            quant_strength = 0.7
+        quant_strength = max(0.0, min(1.0, quant_strength))
 
         result = await asyncio.to_thread(
             import_midi_bytes,
@@ -4635,6 +4645,8 @@ async def midi2abc(
             time_signature=time_signature,
             estimated_key=estimated_key,
             max_voices=max_voices,
+            rhythm_detail=rhythm_detail,
+            quant_strength=quant_strength,
         )
         return JSONResponse(result, headers=cors_headers(origin))
     except HTTPException as exc:

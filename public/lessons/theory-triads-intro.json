@@ -1,0 +1,207 @@
+{
+  "id": "theory-triads-intro",
+  "title": "Triads — Introduction",
+  "track": "theory",
+  "tier": "intro",
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [
+    "theory-scales-major-intro"
+  ],
+  "tags": [
+    "triads",
+    "chords"
+  ],
+  "path": "00-theory/03-chords/01-triads-intro.md",
+  "sections": [
+    {
+      "id": "triads-introduction",
+      "title": "Triads — Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory | **Tier:** intro | **Difficulty:** 2/10\n**Prerequisites:** Major Scales — Introduction\n**Tags:** triads, chords"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A **triad** stacks two thirds above a root — the basic harmonic unit of Western and much folk music."
+        }
+      ]
+    },
+    {
+      "id": "qualities",
+      "title": "Qualities",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Major**: M3 + m3 (C-E-G)\n- **Minor**: m3 + M3 (A-C-E)\n- **Diminished**: m3 + m3 (B-D-F)\n- **Augmented**: M3 + M3 (C-E-G♯)"
+        }
+      ]
+    },
+    {
+      "id": "roman-numerals-in-major",
+      "title": "Roman numerals in major",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "I, ii, iii, IV, V, vi, vii° — capital = major, lowercase = minor, ° = diminished."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-c-major-triad-notes",
+      "title": "Q1. C major triad notes:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) C-E-G\n- B) C-E♭-G\n- C) C-F-A\n- D) C-D-G\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-minor-triad-has-smaller-third-above-root-than-major",
+      "title": "Q2. Minor triad has smaller third above root than major.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-v-is-major-in-a-major-key",
+      "title": "Q3. V is major in a major key.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q4-triad-has-three-distinct-pitch-classes",
+      "title": "Q4. Triad has three distinct pitch classes.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q5-vii-is-diminished-in-major",
+      "title": "Q5. vii° is diminished in major.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q6-folk-accompaniment-often-uses-i-iv-v-vi",
+      "title": "Q6. Folk accompaniment often uses I, IV, V, vi.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q7-augmented-triad-is-rare-but-appears-as-passing-colour",
+      "title": "Q7. Augmented triad is rare but appears as passing colour.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q8-root-is-the-note-the-triad-is-named-after",
+      "title": "Q8. Root is the note the triad is named after.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q9-ii-is-minor-in-major-keys",
+      "title": "Q9. ii is minor in major keys.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q10-triads-build-from-intervals-learned-previously",
+      "title": "Q10. Triads build from intervals learned previously.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q11-three-notes-define-chord-quality",
+      "title": "Q11. Three notes define chord quality.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q12-session-guitar-uses-triad-shapes-in-g-and-d-often",
+      "title": "Q12. Session guitar uses triad shapes in G and D often.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. C major triad notes:\n\n- A) C-E-G\n- B) C-E♭-G\n- C) C-F-A\n- D) C-D-G\n\n**Answer:** A\n\n### Q2. Minor triad has smaller third above root than major.\n\n**Answer:** True\n\n### Q3. V is major in a major key.\n\n**Answer:** True\n\n### Q4. Triad has three distinct pitch classes.\n\n**Answer:** True\n\n### Q5. vii° is diminished in major.\n\n**Answer:** True\n\n### Q6. Folk accompaniment often uses I, IV, V, vi.\n\n**Answer:** True\n\n### Q7. Augmented triad is rare but appears as passing colour.\n\n**Answer:** True\n\n### Q8. Root is the note the triad is named after.\n\n**Answer:** True\n\n### Q9. ii is minor in major keys.\n\n**Answer:** True\n\n### Q10. Triads build from intervals learned previously.\n\n**Answer:** True\n\n### Q11. Three notes define chord quality.\n\n**Answer:** True\n\n### Q12. Session guitar uses triad shapes in G and D often.\n\n**Answer:** True"
+}

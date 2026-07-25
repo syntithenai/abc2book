@@ -10,32 +10,17 @@ export default function StaffSelectionOverlay(props) {
     session,
     displayAbc,
     voiceStaffIndex,
-    clickRects,
     dragPreview,
     marqueeRect,
     slurSnapEventId,
     onSlurHandlePointerDown,
   } = props;
-  const [rects, setRects] = useState([]);
   const [noteheadCenters, setNoteheadCenters] = useState([]);
   const [slurEndpointRects, setSlurEndpointRects] = useState({ start: null, end: null });
   const [snapRect, setSnapRect] = useState(null);
   const previewEventIds = dragPreview && Array.isArray(dragPreview.eventIds)
     ? dragPreview.eventIds
     : null;
-  const eventIdsForRects = (previewEventIds && previewEventIds.length)
-    ? previewEventIds
-    : session.selection.eventIds;
-  const showSelection = session.mode !== EDITOR_MODES.NOTE_INPUT
-    && eventIdsForRects
-    && eventIdsForRects.length > 0;
-  const useClickRects = !!(
-    clickRects
-    && clickRects.length
-    && session.selection.eventIds.length === 1
-    && clickRects.length === 1
-    && !dragPreview
-  );
 
   const previewSteps = dragPreview && typeof dragPreview.staffSteps === 'number'
     ? dragPreview.staffSteps
@@ -50,14 +35,7 @@ export default function StaffSelectionOverlay(props) {
   }, [session]);
 
   useLayoutEffect(function() {
-    if (!showSelection) {
-      setRects([]);
-      setNoteheadCenters([]);
-      return undefined;
-    }
-
-    if (useClickRects) {
-      setRects(clickRects);
+    if (!showPitchTarget || !previewEventIds || !previewEventIds.length) {
       setNoteheadCenters([]);
       return undefined;
     }
@@ -65,26 +43,15 @@ export default function StaffSelectionOverlay(props) {
     function measure() {
       const node = containerRef && containerRef.current;
       if (!node) {
-        setRects([]);
         setNoteheadCenters([]);
         return;
       }
-      setRects(selectionRectsForEventIds(
+      setNoteheadCenters(staffNoteheadCentersForEventIds(
         node,
         session.events,
-        eventIdsForRects,
+        previewEventIds,
         voiceStaffIndex
       ));
-      if (showPitchTarget) {
-        setNoteheadCenters(staffNoteheadCentersForEventIds(
-          node,
-          session.events,
-          eventIdsForRects,
-          voiceStaffIndex
-        ));
-      } else {
-        setNoteheadCenters([]);
-      }
     }
 
     measure();
@@ -104,16 +71,13 @@ export default function StaffSelectionOverlay(props) {
       window.removeEventListener('resize', measure);
     };
   }, [
-    showSelection,
-    useClickRects,
-    clickRects,
+    showPitchTarget,
+    previewEventIds,
     containerRef,
-    eventIdsForRects,
     session.events,
     displayAbc,
     voiceStaffIndex,
     dragPreview,
-    showPitchTarget,
   ]);
 
   useLayoutEffect(function() {
@@ -149,7 +113,7 @@ export default function StaffSelectionOverlay(props) {
     && Math.abs(marqueeRect.right - marqueeRect.left) > 2
     && Math.abs(marqueeRect.bottom - marqueeRect.top) > 2);
 
-  if ((!showSelection || !rects.length) && !hasMarquee && !slurGroup && !snapRect) return null;
+  if (!showPitchTarget && !hasMarquee && !slurGroup && !snapRect) return null;
 
   function handlePoint(rect, which) {
     if (!rect || typeof onSlurHandlePointerDown !== 'function') return null;
@@ -162,7 +126,6 @@ export default function StaffSelectionOverlay(props) {
         data-slur-end={which}
         style={{
           left: (rect.left + rect.width / 2) + 'px',
-          // Sit above the notehead so the grab target is not buried under pitch-drag.
           top: (rect.top - 4) + 'px',
           width: size + 'px',
           height: size + 'px',
@@ -177,43 +140,13 @@ export default function StaffSelectionOverlay(props) {
   }
 
   const pitchTargets = showPitchTarget
-    ? (noteheadCenters.length
-      ? noteheadCenters.map(function(c) {
-        return { left: c.x, top: c.y + previewOffsetY };
-      })
-      : rects.map(function(rect) {
-        // Fallback if notehead paths are missing: prefer lower bias for tall stem boxes.
-        const tall = rect.height > rect.width * 1.6;
-        const headY = tall
-          ? (rect.top + rect.height * 0.78)
-          : (rect.top + rect.height * 0.5);
-        return {
-          left: rect.left + rect.width / 2,
-          top: headY + previewOffsetY,
-        };
-      }))
+    ? noteheadCenters.map(function(c) {
+      return { left: c.x, top: c.y + previewOffsetY };
+    })
     : [];
 
   return (
     <div className="notation-staff-selection-layer" aria-hidden="true">
-      {showSelection ? rects.map(function(rect, index) {
-        return (
-          <div
-            key={'sel-' + index}
-            className={
-              'notation-staff-selection-box'
-              + (showPitchTarget ? ' notation-staff-selection-box--origin-muted' : '')
-            }
-            data-testid="notation-staff-selection-box"
-            style={{
-              left: rect.left + 'px',
-              top: rect.top + 'px',
-              width: rect.width + 'px',
-              height: rect.height + 'px',
-            }}
-          />
-        );
-      }) : null}
       {pitchTargets.map(function(pt, index) {
         const headW = 14;
         const headH = 10;

@@ -60,4 +60,29 @@ describe('midiToAbcClient', function() {
     expect(result.abc).toContain('K:D');
     expect(result.strategy).toBe('musicxml');
   });
+
+  test('importMidiToAbc converts MusicXML for multi_voice', async function() {
+    fetchViaMediaProxy.mockResolvedValue({
+      ok: true,
+      headers: { get: () => 'application/json' },
+      json: async () => ({
+        abc: 'X:1\nK:C\nold',
+        musicXml: '<score-partwise></score-partwise>',
+        strategy: 'musicxml',
+        mode: 'multi_voice',
+        confidence: 0.7,
+        warnings: [],
+        diagnostics: {},
+        profile: { tempo_bpm: 100 },
+      }),
+    });
+    musicXmlToAbc.mockReturnValue('X:1\nT:Test\nM:4/4\nL:1/8\nK:D\nV:1\n[V:1]\nD2 E2 |');
+
+    const result = await importMidiToAbc(new Uint8Array([77, 84, 104, 100]), 'tune.mid', 'token', {
+      trackIds: [0, 1],
+    });
+    expect(musicXmlToAbc).toHaveBeenCalled();
+    expect(result.abc).toContain('V:1');
+    expect(result.mode).toBe('multi_voice');
+  });
 });

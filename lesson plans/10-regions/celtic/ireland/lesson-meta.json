@@ -1,0 +1,4396 @@
+{
+  "regions-celtic-ireland-01-overview": {
+    "entities": [
+      {
+        "id": "comhaltas",
+        "type": "organization",
+        "name": "Comhaltas Ceoltóirí Éireann",
+        "summary": "Global network of branches teaching and promoting Irish traditional music",
+        "blurb": "Founded 1951; runs Fleadh Cheoil, classes, and archives across Ireland and the diaspora.",
+        "url": "https://comhaltas.ie/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Comhaltas_Ceolt%C3%B3ir%C3%AD_%C3%89ireann_logo.svg?width=320"
+      },
+      {
+        "id": "itma",
+        "type": "organization",
+        "name": "Irish Traditional Music Archive",
+        "summary": "National public archive for Irish traditional music, song, and dance",
+        "blurb": "ITMA in Dublin preserves recordings, manuscripts, and research materials.",
+        "url": "https://www.itma.ie/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Irish_Traditional_Music_Archive_logo.png?width=320"
+      },
+      {
+        "id": "fleadh",
+        "type": "organization",
+        "name": "Fleadh Cheoil na hÉireann",
+        "summary": "Annual all-Ireland festival of traditional music, song, and dance",
+        "blurb": "Comhaltas's flagship competition and concert gathering since 1951.",
+        "url": "https://comhaltas.ie/music/detail/fleadh_cheoil/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fleadh_Cheoil_na_h%C3%89ireann_2010.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "session-ennis",
+        "entity_id": "comhaltas",
+        "label": "Pub session footage",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      },
+      {
+        "id": "fleadh-stage",
+        "entity_id": "fleadh",
+        "label": "Fleadh stage performance",
+        "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY"
+      },
+      {
+        "id": "sean-nos-sample",
+        "entity_id": "itma",
+        "label": "Sean-nós singing sample",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      },
+      {
+        "id": "rocky-road-dublin",
+        "label": "The Rocky Road to Dublin",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "planxty-irwin",
+        "label": "Planxty Irwin",
+        "youtube": "https://www.youtube.com/watch?v=f5Q1zQr3pBk"
+      }
+    ],
+    "key_points": [
+      "Irish traditional music is oral, regional, and session-based — not one uniform style.",
+      "Trad names a specific island tradition; Celtic is a wider marketing and regional umbrella.",
+      "Sessions are social contracts: listen first, match tempo, respect tune sets.",
+      "Reels, jigs, hornpipes, and polkas differ in metre and foot-tap feel.",
+      "Comhaltas, the Fleadh, and ITMA anchor modern teaching, competition, and archives."
+    ],
+    "reading_list": [
+      {
+        "type": "book",
+        "title": "The Companion to Irish Traditional Music",
+        "author": "Fintan Vallely",
+        "note": "Encyclopaedic A–Z reference"
+      },
+      {
+        "type": "link",
+        "title": "Irish Traditional Music Archive (ITMA)",
+        "url": "https://www.itma.ie/",
+        "note": "Recordings, manuscripts, research"
+      },
+      {
+        "type": "link",
+        "title": "Comhaltas Ceoltóirí Éireann",
+        "url": "https://comhaltas.ie/",
+        "note": "Classes, fleadhanna, branches"
+      },
+      {
+        "type": "book",
+        "title": "Last Night's Fun",
+        "author": "Ciaran Carson",
+        "note": "Sessions, craic, and Belfast trad culture"
+      },
+      {
+        "type": "book",
+        "title": "Irish Music: A Fascinating Hobby",
+        "author": "Brendan Breathnach",
+        "note": "Classic introduction to tune types and session life"
+      },
+      {
+        "type": "book",
+        "title": "Tuned Out: Traditional Music and Identity in Northern Ireland",
+        "author": "Martin Stokes",
+        "note": "Ethnomusicology of regional identity"
+      },
+      {
+        "type": "link",
+        "title": "TG4 — Irish-language media",
+        "url": "https://www.tg4.ie/",
+        "note": "Programmes on sean-nós and Gaeltacht culture"
+      },
+      {
+        "type": "link",
+        "title": "RTÉ Raidió na Gaeltachta",
+        "url": "https://www.rte.ie/rnag/",
+        "note": "Irish-language radio with traditional music"
+      },
+      {
+        "type": "link",
+        "title": "Fleadh Cheoil archive",
+        "url": "https://comhaltas.ie/music/detail/fleadh_cheoil/",
+        "note": "Competition history and results"
+      },
+      {
+        "type": "link",
+        "title": "UNESCO — Uilleann piping",
+        "url": "https://ich.unesco.org/en/RL/uilleann-piping-01207",
+        "note": "Intangible heritage listing"
+      },
+      {
+        "type": "link",
+        "title": "The Session",
+        "url": "https://thesession.org/",
+        "note": "Tune database and session etiquette discussions"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "In a typical Irish session, which description best fits the music-making?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "3/4 waltz time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Musicians play sets of tunes by ear, often led informally with unwritten etiquette",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 with a dotted hornpipe swing",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Musicians play sets of tunes by ear, often led informally with unwritten etiquette"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "\"Celtic music\" and \"Irish traditional music\" are identical terms.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Celtic is a broader regional family; Irish trad is one tradition within it."
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "The Gaeltacht refers primarily to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "3/4 waltz time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Free rhythm without metre",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language, closely linked to sean-nós song heritage",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Regions where Irish remains a community language, closely linked to sean-nós song heritage"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "A double jig is most commonly in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song with personal phrasing",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Free rhythm without metre",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 6/8 with a two-beat feel per bar"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Common session keys for Irish dance tunes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "A competitive hard-shoe dance form",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Free rhythm without metre",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Highly ornamented, often unaccompanied traditional song with personal phrasing",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: D, G, A, and E minor"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Sean-nós singing is best described as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song with personal phrasing",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A competitive hard-shoe dance form",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Opera sung in Italian with orchestra",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Highly ornamented, often unaccompanied traditional song with personal phrasing"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Polkas and slides are especially associated with which region?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song with personal phrasing",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A competitive hard-shoe dance form",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Opera sung in Italian with orchestra",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra and parts of Munster/Kerry",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Sliabh Luachra and parts of Munster/Kerry"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Comhaltas Ceoltóirí Éireann was founded in 1951 and is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Opera sung in Italian with orchestra",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra and parts of Munster/Kerry",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Promoting Irish music, dance, and the Fleadh Cheoil circuit",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "A competitive hard-shoe dance form",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Promoting Irish music, dance, and the Fleadh Cheoil circuit"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Uilleann piping was recognised by UNESCO in 2017 as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Promoting Irish music, dance, and the Fleadh Cheoil circuit",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Opera sung in Italian with orchestra",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra and parts of Munster/Kerry",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Intangible cultural heritage of humanity"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Oral transmission remains central to Irish trad even when written scores and apps exist.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "A hornpipe is usually played with a steadier, undotted rhythm than a typical reel session reel.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Hornpipes are often played with a dotted, bouncy long-short feel (regional variation applies)."
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Irish Traditional Music Archive (ITMA) in Dublin primarily preserves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song with personal phrasing",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A competitive hard-shoe dance form",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Opera sung in Italian with orchestra",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Recordings, manuscripts, and research materials for traditional music",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Recordings, manuscripts, and research materials for traditional music"
+      },
+      {
+        "id": "q13",
+        "type": "mcq",
+        "prompt": "Sligo fiddle style is often characterised as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Opera sung in Italian with orchestra",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra and parts of Munster/Kerry",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "A competitive hard-shoe dance form",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s"
+      },
+      {
+        "id": "q14",
+        "type": "truefalse",
+        "prompt": "Slow airs are appropriate tunes to insert without warning in the middle of a reel set at a session.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Slow airs are lyrical and non-dance; switching unannounced disrupts session form."
+      },
+      {
+        "id": "q15",
+        "type": "truefalse",
+        "prompt": "Irish traditional music has influenced music outside Ireland, including American country and roots styles.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q16",
+        "type": "mcq",
+        "prompt": "The first national Fleadh Cheoil was held in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Promoting Irish music, dance, and the Fleadh Cheoil circuit",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A type of Scottish Highland bagpipe",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Mullingar, 1951"
+      }
+    ]
+  },
+  "regions-celtic-ireland-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "coleman",
+        "type": "artist",
+        "name": "Michael Coleman",
+        "summary": "Sligo fiddler whose New York 78s shaped global Irish fiddle style",
+        "blurb": "Sligo fiddler; ~80 New York 78s (1921–36); Library of Congress registry.",
+        "years": "1891–1945",
+        "region": "Sligo",
+        "url": "https://en.wikipedia.org/wiki/Michael_Coleman_(fiddler)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Coleman_fiddler.jpg?width=320",
+        "playlist_index": 0
+      },
+      {
+        "id": "doherty",
+        "type": "artist",
+        "name": "John Doherty",
+        "summary": "Donegal fiddler known for tight bowing and highland repertoire",
+        "blurb": "Travelling Donegal fiddler; distinctive snap bowing and pipe-influenced ornament.",
+        "years": "1900–1980",
+        "region": "Donegal",
+        "url": "https://en.wikipedia.org/wiki/John_Doherty_(fiddler)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/John_Doherty_fiddler.jpg?width=320",
+        "playlist_index": 1
+      },
+      {
+        "id": "hayes",
+        "type": "artist",
+        "name": "Martin Hayes",
+        "summary": "East Clare fiddler blending tradition with contemporary expression",
+        "blurb": "Slow, breathing phrasing; bridges session tradition and concert stage.",
+        "years": "1962–",
+        "region": "Clare",
+        "url": "https://en.wikipedia.org/wiki/Martin_Hayes_(musician)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Martin_Hayes_2008.jpg?width=320",
+        "playlist_index": 2
+      },
+      {
+        "id": "oflynn",
+        "type": "artist",
+        "name": "Liam O'Flynn",
+        "summary": "Uilleann piper who brought pipes to Planxty and concert halls",
+        "blurb": "Founding Planxty piper; refined articulation and slow-air mastery.",
+        "years": "1945–2018",
+        "region": "Kildare",
+        "url": "https://en.wikipedia.org/wiki/Liam_O%27Flynn",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Liam_O%27Flynn.jpg?width=320",
+        "playlist_index": 3
+      },
+      {
+        "id": "npu",
+        "type": "organization",
+        "name": "Na Píobairí Uilleann",
+        "summary": "Pipe makers, teachers, and UNESCO-supported craft organisation",
+        "blurb": "Dublin-based society preserving uilleann pipe making and teaching.",
+        "url": "https://pipers.ie/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/UilleannPipes.jpg?width=320"
+      },
+      {
+        "id": "morrison",
+        "type": "artist",
+        "name": "James Morrison",
+        "summary": "Sligo fiddler known for razor-clean technique on 78s",
+        "blurb": "New York emigrant; 1936 *Musical Priest* sets speed benchmarks.",
+        "years": "1893–1947",
+        "region": "Sligo",
+        "url": "https://en.wikipedia.org/wiki/James_Morrison_(fiddler)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Coleman_fiddler.jpg?width=320"
+      },
+      {
+        "id": "peoples",
+        "type": "artist",
+        "name": "Tommy Peoples",
+        "summary": "Donegal fiddler who brought dense ornament to Clare sessions",
+        "blurb": "Relentless cuts and rolls; influenced generations after settling in Clare.",
+        "years": "1945–2018",
+        "region": "Donegal",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Peoples",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/John_Doherty_fiddler.jpg?width=320"
+      },
+      {
+        "id": "burke",
+        "type": "artist",
+        "name": "Kevin Burke",
+        "summary": "Sligo-rooted fiddler; Bothy Band energy and long-line phrasing",
+        "blurb": "Dublin-raised; partnership with Mícheál Ó Domhnaill on *Promenade*.",
+        "years": "1950–",
+        "region": "Sligo",
+        "url": "https://en.wikipedia.org/wiki/Kevin_Burke_(musician)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Martin_Hayes_2008.jpg?width=320"
+      },
+      {
+        "id": "carroll",
+        "type": "artist",
+        "name": "Liz Carroll",
+        "summary": "Chicago composer-fiddler whose tunes entered session repertoire",
+        "blurb": "*Loosening the Belt*, *The Fruit and the Snoot*; Grammy-nominated diaspora voice.",
+        "years": "1956–",
+        "region": "Chicago",
+        "url": "https://en.wikipedia.org/wiki/Liz_Carroll",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Coleman_fiddler.jpg?width=320"
+      },
+      {
+        "id": "molloy",
+        "type": "artist",
+        "name": "Matt Molloy",
+        "summary": "Roscommon flautist; Planxty, Bothy Band, Chieftains",
+        "blurb": "Breathy ornament-rich flute; Westport pub session pilgrimage site.",
+        "years": "1947–",
+        "region": "Roscommon",
+        "url": "https://en.wikipedia.org/wiki/Matt_Molloy",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/UilleannPipes.jpg?width=320",
+        "playlist_index": 8
+      },
+      {
+        "id": "madden",
+        "type": "artist",
+        "name": "Joanie Madden",
+        "summary": "Bronx-born flute and whistle virtuoso; Cherish the Ladies founder",
+        "blurb": "All-Ireland titles; champions women in trad on global stages.",
+        "years": "1965–",
+        "region": "New York",
+        "url": "https://en.wikipedia.org/wiki/Joanie_Madden",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/UilleannPipes.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "coleman-boys-lough",
+        "entity_id": "coleman",
+        "label": "The Boys of the Lough",
+        "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
+      },
+      {
+        "id": "coleman-tarbolton",
+        "entity_id": "coleman",
+        "label": "Tarbolton",
+        "youtube": "https://www.youtube.com/watch?v=Ypxk7bTNGWc"
+      },
+      {
+        "id": "coleman-lord-gordons",
+        "entity_id": "coleman",
+        "label": "Lord Gordon's",
+        "youtube": "https://www.youtube.com/watch?v=wb67_Dv0gXM"
+      },
+      {
+        "id": "morrison-musical-priest",
+        "entity_id": "morrison",
+        "label": "The Musical Priest",
+        "youtube": "https://www.youtube.com/watch?v=AQiZ5nsZ1Bo"
+      },
+      {
+        "id": "doherty-highland",
+        "entity_id": "doherty",
+        "label": "Highland fiddle",
+        "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA"
+      },
+      {
+        "id": "hayes-clare",
+        "entity_id": "hayes",
+        "label": "East Clare style",
+        "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA"
+      },
+      {
+        "id": "oflynn-pipes",
+        "entity_id": "oflynn",
+        "label": "Uilleann pipes slow air",
+        "youtube": "https://www.youtube.com/watch?v=JyP407UnUWw"
+      },
+      {
+        "id": "burke-reel",
+        "entity_id": "burke",
+        "label": "Kevin Burke reel set",
+        "youtube": "https://www.youtube.com/watch?v=8J4FZqknpjg"
+      },
+      {
+        "id": "molloy-flute",
+        "entity_id": "molloy",
+        "label": "Matt Molloy flute",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      },
+      {
+        "id": "coleman-sally-gardens",
+        "entity_id": "coleman",
+        "label": "The Sally Gardens",
+        "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
+      },
+      {
+        "id": "hayes-tullycrine",
+        "entity_id": "hayes",
+        "label": "The Humours of Tullycrine",
+        "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA"
+      },
+      {
+        "id": "carroll-loosening-belt",
+        "entity_id": "carroll",
+        "label": "Loosening the Belt",
+        "youtube": "https://www.youtube.com/watch?v=ZVoB5Gx-uqc"
+      },
+      {
+        "id": "carroll-fruit-snoot",
+        "entity_id": "carroll",
+        "label": "The Fruit and the Snoot",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      }
+    ],
+    "key_points": [
+      "Fiddle regions (Sligo, Donegal, Clare) differ in bowing, ornament, and repertoire.",
+      "Flute and whistle share session keys centred on D and G.",
+      "Uilleann pipes use regulators and a softer indoor tone than Highland pipes.",
+      "Harp tradition spans wire-strung historical practice and modern nylon revival.",
+      "78 rpm diaspora recordings fixed tunes that sessions still reference today."
+    ],
+    "reading_list": [
+      {
+        "type": "book",
+        "title": "O'Neill's Music of Ireland",
+        "author": "Francis O'Neill",
+        "note": "Classic tune collection from Chicago"
+      },
+      {
+        "type": "link",
+        "title": "Na Píobairí Uilleann",
+        "url": "https://pipers.ie/",
+        "note": "Pipes, teachers, and recordings"
+      },
+      {
+        "type": "link",
+        "title": "Michael Coleman — Library of Congress",
+        "url": "https://www.loc.gov/item/ihas.200196405/",
+        "note": "National Recording Registry entry"
+      },
+      {
+        "type": "book",
+        "title": "The Irish Flute",
+        "author": "Fintan Vallely",
+        "note": "Wooden flute technique and repertoire"
+      },
+      {
+        "type": "book",
+        "title": "The Tin Whistle",
+        "author": "Fintan Vallely",
+        "note": "Whistle ornamentation and repertoire"
+      },
+      {
+        "type": "book",
+        "title": "The Irish Fiddle",
+        "author": "Fintan Vallely",
+        "note": "Regional bowing and ornament"
+      },
+      {
+        "type": "link",
+        "title": "Willie Clancy Summer School",
+        "url": "https://www.willieclancy.com/",
+        "note": "Piping and fiddle masterclasses"
+      },
+      {
+        "type": "link",
+        "title": "ITMA — Michael Coleman recordings",
+        "url": "https://www.itma.ie/",
+        "note": "78 rpm transfers and biographical notes"
+      },
+      {
+        "type": "link",
+        "title": "Cairdeas na bhFidiléirí",
+        "url": "https://www.donegalfiddle.com/",
+        "note": "Donegal fiddle preservation"
+      },
+      {
+        "type": "link",
+        "title": "Na Píobairí Uilleann — tutors",
+        "url": "https://pipers.ie/teachers/",
+        "note": "Registered pipe teachers worldwide"
+      },
+      {
+        "type": "link",
+        "title": "Trinity College harp",
+        "url": "https://www.tcd.ie/library/manuscripts/book-of-kells/",
+        "note": "Medieval harp context (Book of Kells collection)"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Uilleann pipes are inflated primarily by:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "1792",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Controlling stage lighting",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "2017",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Elbow bellows strapped to the player"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Michael Coleman is most associated with which regional fiddle style?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "2017",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "1792",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "1921 only as jazz",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Sligo"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared to classical violin, Irish fiddle vibrato is generally:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "1792",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "1921 only as jazz",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Never — pipes are not recognised",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Used sparingly, especially outside slow airs",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Used sparingly, especially outside slow airs"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "John Doherty is best remembered as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Never — pipes are not recognised",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "County Clare and the summer school at Miltown Malbay",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A travelling Donegal fiddler with Scottish-influenced repertoire",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "1921 only as jazz",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A travelling Donegal fiddler with Scottish-influenced repertoire"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Martin Hayes is often associated with which approach to fiddle?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dublin rock venues exclusively",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "East Clare lyricism and expressive phrasing",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Never — pipes are not recognised",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "County Clare and the summer school at Miltown Malbay",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: East Clare lyricism and expressive phrasing"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "The Irish flute in trad is typically a simple-system wooden instrument, not a Boehm silver orchestral flute.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Matt Molloy is renowned for Irish flute playing with Planxty, the Bothy Band, and The Chieftains.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Mary Bergin's album *Feadóga Stáin* helped establish tin whistle as a virtuoso concert instrument.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Uilleann pipe chanter staccato is possible because the chanter end is closed.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Regulators on uilleann pipes are used for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Harmonic accompaniment via keyed pipes",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Harmonic accompaniment via keyed pipes"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Uilleann piping was inscribed on UNESCO's Representative List in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "2017",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 2017"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Willie Clancy is closely tied to piping tradition in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "County Clare and the summer school at Miltown Malbay",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: County Clare and the summer school at Miltown Malbay"
+      },
+      {
+        "id": "q13",
+        "type": "truefalse",
+        "prompt": "Turlough Carolan composed planxties — pieces often named for patrons — still played today.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q14",
+        "type": "mcq",
+        "prompt": "Sorting fiddle, flute, whistle, pipes, and harp into a rigid \"melody only\" category fails because:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "They often provide harmony, rhythm lift, or accompaniment depending on context",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: They often provide harmony, rhythm lift, or accompaniment depending on context"
+      },
+      {
+        "id": "q15",
+        "type": "truefalse",
+        "prompt": "Kevin Burke is strongly associated with Sligo-influenced fiddle and the Bothy Band tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q16",
+        "type": "truefalse",
+        "prompt": "The Trinity College harp is a medieval survivor and national symbol, distinct from but related to modern trad harp revival.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  "regions-celtic-ireland-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "mckenna",
+        "type": "artist",
+        "name": "Paddy Keenan",
+        "summary": "Influential uilleann piper with driving session rhythm",
+        "blurb": "Bothy Band piper; powerful staccato and reel tempo.",
+        "years": "1950–",
+        "region": "Meath",
+        "url": "https://en.wikipedia.org/wiki/Paddy_Keenan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Paddy_Keenan.jpg?width=320",
+        "playlist_index": 0
+      },
+      {
+        "id": "noel-hill",
+        "type": "artist",
+        "name": "Noel Hill",
+        "summary": "Concertina master from West Clare",
+        "blurb": "Precise fingering and melodic phrasing on Anglo concertina.",
+        "years": "1958–",
+        "region": "Clare",
+        "url": "https://en.wikipedia.org/wiki/Noel_Hill_(musician)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Noel_Hill.jpg?width=320",
+        "playlist_index": 1
+      },
+      {
+        "id": "planxty",
+        "type": "band",
+        "name": "Planxty",
+        "summary": "Folk ensemble that made bouzouki and pipes mainstream in the 1970s",
+        "blurb": "Christy Moore, Dónal Lunny, Andy Irvine, Liam O'Flynn; formed 1972.",
+        "years": "1972–2005",
+        "url": "https://en.wikipedia.org/wiki/Planxty",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Planxty_1973.jpg?width=320",
+        "playlist_index": 2
+      }
+    ],
+    "playlist": [
+      {
+        "id": "keenan-pipes",
+        "entity_id": "mckenna",
+        "label": "Reels on pipes",
+        "youtube": "https://www.youtube.com/watch?v=AQiZ5nsZ1Bo"
+      },
+      {
+        "id": "noel-hill-box",
+        "entity_id": "noel-hill",
+        "label": "Concertina reels",
+        "youtube": "https://www.youtube.com/watch?v=8J4FZqknpjg"
+      },
+      {
+        "id": "planxty-raggle",
+        "entity_id": "planxty",
+        "label": "Raggle Taggle Gypsy",
+        "youtube": "https://www.youtube.com/watch?v=JyP407UnUWw"
+      }
+    ],
+    "key_points": [
+      "Bodhrán marks pulse without dominating; good players listen to melody.",
+      "Guitar and bouzouki provide harmonic rhythm using DADGAD and modal shapes.",
+      "Button accordion B/C and C#/D layouts shape regional box style.",
+      "Banjo entered sessions through diaspora and showband cross-pollination.",
+      "Ensemble bands like Planxty changed session instrumentation permanently."
+    ],
+    "reading_list": [
+      {
+        "type": "book",
+        "title": "The Bodhrán: An Irish Drum",
+        "author": "Fintan Vallely",
+        "note": "History and technique overview"
+      },
+      {
+        "type": "link",
+        "title": "The Session — tune discussions",
+        "url": "https://thesession.org/",
+        "note": "Community tune settings and comments"
+      },
+      {
+        "type": "link",
+        "title": "Planxty",
+        "url": "https://en.wikipedia.org/wiki/Planxty",
+        "note": "Band history and discography"
+      },
+      {
+        "type": "book",
+        "title": "The Irish Bouzouki",
+        "author": "Fintan Vallely",
+        "note": "Adapted instrument in Irish accompaniment"
+      },
+      {
+        "type": "book",
+        "title": "The Irish Concertina",
+        "author": "Fintan Vallely",
+        "note": "Anglo concertina in trad"
+      },
+      {
+        "type": "link",
+        "title": "Comhaltas — bodhrán tutors",
+        "url": "https://comhaltas.ie/",
+        "note": "Branch classes and workshops"
+      },
+      {
+        "type": "link",
+        "title": "Bothy Band discography",
+        "url": "https://en.wikipedia.org/wiki/The_Bothy_Band",
+        "note": "Iconic 1970s ensemble sound"
+      },
+      {
+        "type": "link",
+        "title": "The Chieftains",
+        "url": "https://www.thechieftains.com/",
+        "note": "Long-running ensemble recordings"
+      },
+      {
+        "type": "link",
+        "title": "ITMA — sean-nós song",
+        "url": "https://www.itma.ie/digitallibrary/",
+        "note": "Field recordings and song archives"
+      },
+      {
+        "type": "link",
+        "title": "TG4 — Fleadh TV",
+        "url": "https://www.tg4.ie/",
+        "note": "Competition and concert broadcasts"
+      },
+      {
+        "type": "link",
+        "title": "Crúit Éireann / Harp Ireland",
+        "url": "https://harpireland.ie/",
+        "note": "Harp teachers and festivals"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "DADGAD tuning on guitar is widely associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sessions forbid overlap by tradition",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Modal Irish and Celtic accompaniment"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "The bodhrán is a double-headed snare drum from Scotland.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "It is a single-headed Irish frame drum."
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Seán Ó Riada helped legitimise bodhrán in arranged Irish ensembles through Ceoltóirí Chualann.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Good bodhrán playing in a session should:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Follow melody phrasing and stay subtle",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Follow melody phrasing and stay subtle"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Irish session banjo is typically:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Four-string tenor banjo with a plectrum"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Common tenor banjo tuning in Irish trad includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "C-G-D-A",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: C-G-D-A"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Barney McKenna is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Tenor banjo in The Dubliners",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Tenor banjo in The Dubliners"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Paul Brady's *Welcome Here Kind Stranger* is a landmark album for Irish guitar accompaniment.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Andy Irvine and Dónal Lunny popularised the Irish bouzouki through Planxty and related ensembles.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "In Clare sessions, the button accordion often:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Guitar DADGAD only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highland pipe drone D only",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Many instruments commonly lead or accompany depending on context",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Leads melody — not only accompaniment",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Leads melody — not only accompaniment"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Common Irish button accordion tunings include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Many instruments commonly lead or accompany depending on context",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Irish trad has no rhythm at all",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "B/C and C#/D",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Highland pipe drone D only",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: B/C and C#/D"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Sharon Shannon is a prominent accordion player from County Clare.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q13",
+        "type": "truefalse",
+        "prompt": "Joe Burke is associated with East Galway button accordion style.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q14",
+        "type": "truefalse",
+        "prompt": "The Anglo concertina sounds different notes on push and pull of the bellows.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q15",
+        "type": "truefalse",
+        "prompt": "Noel Hill is widely regarded as a master Irish concertina player from Clare.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q16",
+        "type": "mcq",
+        "prompt": "Sorting session instruments into strict \"melody\" and \"rhythm\" categories fails because:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Many instruments commonly lead or accompany depending on context",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Many instruments commonly lead or accompany depending on context"
+      }
+    ]
+  },
+  "regions-celtic-ireland-04-genres-forms": {
+    "entities": [
+      {
+        "id": "reel-demo",
+        "type": "artist",
+        "name": "Session reel set",
+        "summary": "Typical 4/4 reel foot-tap and drive",
+        "blurb": "Reels are session workhorses in 4/4 with steady drive.",
+        "url": "https://en.wikipedia.org/wiki/Reel_(music)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Irish_fiddle.png?width=320",
+        "playlist_index": 0
+      },
+      {
+        "id": "jig-demo",
+        "type": "artist",
+        "name": "Double jig example",
+        "summary": "6/8 jig rhythm — two beats of three",
+        "blurb": "Double jigs feel like JIG-ged-y JIG-ged-y, not waltz time.",
+        "url": "https://en.wikipedia.org/wiki/Jig",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Irish_dance.png?width=320",
+        "playlist_index": 1
+      }
+    ],
+    "playlist": [
+      {
+        "id": "silver-spear-reel",
+        "entity_id": "reel-demo",
+        "label": "The Silver Spear (reel)",
+        "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
+      },
+      {
+        "id": "kesh-jig",
+        "entity_id": "jig-demo",
+        "label": "The Kesh Jig",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      },
+      {
+        "id": "off-california-hornpipe",
+        "entity_id": "reel-demo",
+        "label": "Off to California (hornpipe)",
+        "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA"
+      }
+    ],
+    "key_points": [
+      "Reels (4/4) and double jigs (6/8) have different foot-tap patterns.",
+      "Hornpipes are dotted and bouncy; polkas and slides suit Munster sets.",
+      "Slip jigs in 9/8 pair with graceful step dance.",
+      "Slow airs and songs sit outside dance sets but share ornament vocabulary.",
+      "Sets chain tunes of the same form before switching metre."
+    ],
+    "reading_list": [
+      {
+        "type": "book",
+        "title": "Field Guide to the Traditional Music of Ireland",
+        "author": "Fintan Vallely",
+        "note": "Tune types and regional styles"
+      },
+      {
+        "type": "link",
+        "title": "The Session — tune types",
+        "url": "https://thesession.org/",
+        "note": "Search by tune type and key"
+      },
+      {
+        "type": "link",
+        "title": "Irish Traditional Music Archive",
+        "url": "https://www.itma.ie/",
+        "note": "Recorded examples by form"
+      },
+      {
+        "type": "book",
+        "title": "The Dance Music of Ireland",
+        "author": "Brendan Breathnach",
+        "note": "Ceol Rince na hÉireann tune collections"
+      },
+      {
+        "type": "book",
+        "title": "Irish Music: 400 Years of Musical History",
+        "author": "Harry Long",
+        "note": "Historical survey of forms"
+      },
+      {
+        "type": "link",
+        "title": "The Session — reels",
+        "url": "https://thesession.org/tunes/reels",
+        "note": "Repertoire by tune type"
+      },
+      {
+        "type": "link",
+        "title": "The Session — jigs",
+        "url": "https://thesession.org/tunes/jigs",
+        "note": "Double and single jigs"
+      },
+      {
+        "type": "link",
+        "title": "ITMA — Sliabh Luachra",
+        "url": "https://www.itma.ie/",
+        "note": "Polka and slide recordings"
+      },
+      {
+        "type": "link",
+        "title": "Comhaltas tune books",
+        "url": "https://comhaltas.ie/music/",
+        "note": "Published collections by form"
+      },
+      {
+        "type": "link",
+        "title": "Slow air resources",
+        "url": "https://www.itma.ie/digitallibrary/",
+        "note": "Song airs and instrumental settings"
+      },
+      {
+        "type": "link",
+        "title": "O'Neill's 1850 — IMSLP",
+        "url": "https://imslp.org/wiki/Music_of_Ireland_(O%27Neill,_Francis)",
+        "note": "Public-domain tune book scan"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "A double jig is in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: 6/8 with a two-beat feel per bar"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Reels are generally played with a steadier, less dotted feel than hornpipes.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Slip jigs use which time signature?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 9/8"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Cranning is an ornament most associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Uilleann pipes",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Uilleann pipes"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Sean-nós singing is typically:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Unaccompanied, ornamented, and often in Irish with flexible metre",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Unaccompanied, ornamented, and often in Irish with flexible metre"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Polkas in Irish trad are most associated with regions such as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Munster and Sliabh Luachra",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Munster and Sliabh Luachra"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "A reel and a double jig share the same foot-tap pattern.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Reels are 4/4 drive; double jigs are 6/8 with a different grouping."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "\"Lilting\" (*portaireacht*) refers to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Wordless vocal imitation of tune rhythm and melody",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time only",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Wordless vocal imitation of tune rhythm and melody"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Hornpipes are often characterised by:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time only",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "3/4 waltz time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Dotted, bouncy long-short rhythms in 4/4",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Dotted, bouncy long-short rhythms in 4/4"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Sets in sessions usually chain tunes of:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Piano sustain pedal",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Guitar capo placement",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Unaccompanied, ornamented, and often in Irish with flexible metre",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "The same form (e.g. several reels in a row)",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: The same form (e.g. several reels in a row)"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Slides (12/8 tune type) are especially linked to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Unaccompanied, ornamented, and often in Irish with flexible metre",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Always sung with full rock band",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra and west Kerry",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Guitar capo placement",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Sliabh Luachra and west Kerry"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Slow airs are best described as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Strictly metronomic dance singing only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Lyrical melodies, often from song, not for dancing",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Unaccompanied, ornamented, and often in Irish with flexible metre",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Always sung with full rock band",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Lyrical melodies, often from song, not for dancing"
+      },
+      {
+        "id": "q13",
+        "type": "mcq",
+        "prompt": "Michael Coleman's recordings are famous for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Melodic variation and Sligo-style fiddle rolls",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Always sung with full rock band",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Strictly metronomic dance singing only",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "A type of reel in 4/4",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Melodic variation and Sligo-style fiddle rolls"
+      },
+      {
+        "id": "q14",
+        "type": "mcq",
+        "prompt": "Highlands and strathspey-influenced tunes are especially associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Strictly metronomic dance singing only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A type of reel in 4/4",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Munster and Sliabh Luachra",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal and cross-channel Scottish overlap",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Donegal and cross-channel Scottish overlap"
+      },
+      {
+        "id": "q15",
+        "type": "mcq",
+        "prompt": "The 12/8 \"slide\" tune type should not be confused with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Munster and Sliabh Luachra",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Strictly Donegal highlands only",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "The ornamental slide (portamento) between notes",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "A type of reel in 4/4",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: The ornamental slide (portamento) between notes"
+      },
+      {
+        "id": "q16",
+        "type": "mcq",
+        "prompt": "English-language ballads in Ireland often function as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Wordless vocal imitation of tune rhythm and melody",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Narrative story songs with communal choruses",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Munster and Sliabh Luachra",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Strictly Donegal highlands only",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Narrative story songs with communal choruses"
+      }
+    ]
+  },
+  "regions-celtic-ireland-05-dance": {
+    "entities": [
+      {
+        "id": "riverdance",
+        "type": "organization",
+        "name": "Riverdance",
+        "summary": "Global stage show that popularised Irish step dance",
+        "blurb": "1994 Eurovision interval act became worldwide touring phenomenon.",
+        "url": "https://www.riverdance.com/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Riverdance.jpg?width=320",
+        "playlist_index": 0
+      }
+    ],
+    "playlist": [
+      {
+        "id": "sean-nos-dance",
+        "entity_id": "riverdance",
+        "label": "Sean-nós dance",
+        "youtube": "https://www.youtube.com/watch?v=s11BuatTuXk"
+      },
+      {
+        "id": "set-dancing",
+        "entity_id": "riverdance",
+        "label": "Set dancing",
+        "youtube": "https://www.youtube.com/watch?v=L__TrWhq4Uk"
+      },
+      {
+        "id": "step-dance",
+        "entity_id": "riverdance",
+        "label": "Competition step dance",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      }
+    ],
+    "key_points": [
+      "Sean-nós dance is low to the floor, improvisatory, and individual.",
+      "Step dance emphasises lifted knees, rigid torso, and adjudicated form.",
+      "Céilí and set dancing are social group forms with fixed figures.",
+      "Dance rhythm shapes how musicians phrase tunes at sessions.",
+      "Riverdance globalised step dance but did not replace local traditions."
+    ],
+    "reading_list": [
+      {
+        "type": "book",
+        "title": "A Handbook of Irish Dances",
+        "author": "O'Keeffe & O'Brien",
+        "note": "Classic céilí dance figures"
+      },
+      {
+        "type": "link",
+        "title": "An Coimisiún le Rincí Gaelacha",
+        "url": "https://www.clrg.ie/",
+        "note": "Competition dance commission"
+      },
+      {
+        "type": "link",
+        "title": "Riverdance",
+        "url": "https://www.riverdance.com/",
+        "note": "Show history and touring"
+      },
+      {
+        "type": "book",
+        "title": "Irish Dancing",
+        "author": "Arthur Flynn",
+        "note": "Step dance history and competition"
+      },
+      {
+        "type": "book",
+        "title": "The Story of Irish Dance",
+        "author": "Helen Brennan",
+        "note": "From céilí to stage spectacle"
+      },
+      {
+        "type": "link",
+        "title": "CLRG — syllabus",
+        "url": "https://www.clrg.ie/",
+        "note": "Competition rules and grades"
+      },
+      {
+        "type": "link",
+        "title": "An Coimisiún — world championships",
+        "url": "https://www.clrg.ie/",
+        "note": "Oireachtas Rince na Cruinne"
+      },
+      {
+        "type": "link",
+        "title": "Set dancing — Dublin",
+        "url": "https://www.setdancingnews.net/",
+        "note": "Regional set dance figures"
+      },
+      {
+        "type": "link",
+        "title": "Bill Lynch — céilí band archive",
+        "url": "https://www.itma.ie/",
+        "note": "Dance-band recordings at ITMA"
+      },
+      {
+        "type": "link",
+        "title": "TG4 — Fleadh dance",
+        "url": "https://www.tg4.ie/",
+        "note": "Televised competition footage"
+      },
+      {
+        "type": "link",
+        "title": "Feis Ceoil",
+        "url": "https://www.feisceoil.ie/",
+        "note": "Classical and traditional competition festival"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Céilí dancing is best described as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "A fixed metronome at 120 BPM always",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers with named figures",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "The singer — musicians follow if present",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "The adjudicator's score sheet only",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Group social choreography for multiple dancers with named figures"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Sean-nós dance allows free use of the arms and low, improvisatory footwork.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Riverdance premiered as an interval act at Eurovision in 1994 before becoming a stage show.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Set dancing in Ireland often derives from:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quadrille heritage and live polka/slide repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Complete abandonment of traditional music",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Adapted quadrille figures with local tune and regional variants",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "The lighting designer",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Adapted quadrille figures with local tune and regional variants"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Hard-shoe Irish step dance produces rhythm through:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ban on live musicians in favour of DJs only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Tips and heels striking the floor",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Quadrille heritage and live polka/slide repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Complete abandonment of traditional music",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Tips and heels striking the floor"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Sean-nós dance and competitive step dance share identical posture and arm rules.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Sean-nós is low and improvisatory; step dance is more upright and codified."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Musicians accompanying set dancers should prioritise:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ban on live musicians in favour of DJs only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Matching the figure's tune type and holding steady tempo",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Matching the figure's tune type and holding steady tempo"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Festival dance and An Coimisiún step dance are:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Separate competitive traditions with different aesthetics",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Separate competitive traditions with different aesthetics"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "A double jig's pulse matches which dance family?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Jigs in 6/8 including light jig step",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Jigs in 6/8 including light jig step"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Travelling dance masters in 17th–18th century Ireland:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "A fixed metronome at 120 BPM always",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Taught regional steps and figures village to village",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "The singer — musicians follow if present",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "The adjudicator's score sheet only",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Taught regional steps and figures village to village"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Bill Whelan's Riverdance followed earlier Eurovision-related work called:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Timedance (1981)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "The adjudicator's score sheet only",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A fixed metronome at 120 BPM always",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "The lighting designer",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Timedance (1981)"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Siege of Ennis is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "A fixed metronome at 120 BPM always",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "The lighting designer",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Quadrille heritage and live polka/slide repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Céilí group dance repertoire",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Céilí group dance repertoire"
+      },
+      {
+        "id": "q13",
+        "type": "mcq",
+        "prompt": "Willie Clancy Summer School is held annually in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quadrille heritage and live polka/slide repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Complete abandonment of traditional music",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Miltown Malbay, County Clare",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "The lighting designer",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Miltown Malbay, County Clare"
+      },
+      {
+        "id": "q14",
+        "type": "mcq",
+        "prompt": "Clare is especially noted for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ban on live musicians in favour of DJs only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Set dancing repertoire and regional sets",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Quadrille heritage and live polka/slide repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Complete abandonment of traditional music",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Set dancing repertoire and regional sets"
+      },
+      {
+        "id": "q15",
+        "type": "mcq",
+        "prompt": "In sean-nós dance, who typically leads rhythmic phrasing?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "The singer — musicians follow if present",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Complete abandonment of traditional music",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Ban on live musicians in favour of DJs only",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: The singer — musicians follow if present"
+      },
+      {
+        "id": "q16",
+        "type": "mcq",
+        "prompt": "Set dancing revival in the 1980s–90s helped reconnect dancers with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ban on live musicians in favour of DJs only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Quadrille heritage and live polka/slide repertoire",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Quadrille heritage and live polka/slide repertoire"
+      }
+    ]
+  },
+  "regions-celtic-ireland-06-history": {
+    "entities": [
+      {
+        "id": "oneill",
+        "type": "artist",
+        "name": "Francis O'Neill",
+        "summary": "Chicago police chief who collected thousands of Irish tunes",
+        "blurb": "Music of Ireland (1903) preserved repertoire from diaspora musicians.",
+        "years": "1848–1936",
+        "region": "Chicago / Cork",
+        "url": "https://en.wikipedia.org/wiki/Francis_O%27Neill",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Francis_O%27Neill.jpg?width=320",
+        "playlist_index": 0
+      },
+      {
+        "id": "willie-clancy",
+        "type": "organization",
+        "name": "Willie Clancy Summer School",
+        "summary": "Major week-long traditional music school in Miltown Malbay",
+        "blurb": "Since 1973; classes, sessions, and memorial to uilleann piper Willie Clancy.",
+        "url": "https://www.willieclancy.com/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Willie_Clancy_Statue_Miltown_Malbay.jpg?width=320",
+        "playlist_index": 1
+      }
+    ],
+    "playlist": [
+      {
+        "id": "78rpm-archive",
+        "entity_id": "oneill",
+        "label": "Early 78 rpm recording",
+        "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
+      },
+      {
+        "id": "willie-clancy-week",
+        "entity_id": "willie-clancy",
+        "label": "Willie Clancy week session",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      }
+    ],
+    "key_points": [
+      "Collectors and tune books froze oral repertoire at specific moments.",
+      "78 rpm diaspora recordings made Sligo and other styles global defaults.",
+      "Comhaltas and the Fleadh institutionalised competition and teaching.",
+      "Summer schools (Willie Clancy, Scoil Samhraidh Willie Clancy) intensify transmission.",
+      "Archives like ITMA preserve sources for modern research and revival."
+    ],
+    "reading_list": [
+      {
+        "type": "book",
+        "title": "O'Neill's Music of Ireland",
+        "author": "Francis O'Neill",
+        "note": "1850 melodies with commentary"
+      },
+      {
+        "type": "link",
+        "title": "Willie Clancy Summer School",
+        "url": "https://www.willieclancy.com/",
+        "note": "Classes and festival programme"
+      },
+      {
+        "type": "link",
+        "title": "Irish Traditional Music Archive",
+        "url": "https://www.itma.ie/",
+        "note": "Manuscripts and field recordings"
+      },
+      {
+        "type": "book",
+        "title": "A Hidden Order: The Oral History of Irish Traditional Music",
+        "author": "Harry Long",
+        "note": "Transmission and collectors"
+      },
+      {
+        "type": "book",
+        "title": "The Chief: The Life of Francis O'Neill",
+        "author": "Nicholas Carolan",
+        "note": "Chicago police chief and tune collector"
+      },
+      {
+        "type": "link",
+        "title": "ITMA — Petrie collection",
+        "url": "https://www.itma.ie/",
+        "note": "19th-century manuscript sources"
+      },
+      {
+        "type": "link",
+        "title": "Bunting manuscripts",
+        "url": "https://www.itma.ie/digitallibrary/",
+        "note": "Harp festival transcriptions"
+      },
+      {
+        "type": "link",
+        "title": "Willie Clancy Summer School history",
+        "url": "https://www.willieclancy.com/about/",
+        "note": "Miltown Malbay festival origins"
+      },
+      {
+        "type": "link",
+        "title": "Comhaltas founding",
+        "url": "https://comhaltas.ie/about/",
+        "note": "1951 Mullingar meeting"
+      },
+      {
+        "type": "link",
+        "title": "Library of Congress — Irish collections",
+        "url": "https://www.loc.gov/collections/",
+        "note": "Field recordings and 78s"
+      },
+      {
+        "type": "link",
+        "title": "Irish emigration and music",
+        "url": "https://www.itma.ie/",
+        "note": "Diaspora archives and research"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Aed mac Donn Ó Sochlachain (d. 1226) is noted in the annals for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Exactly three",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Over ten thousand",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "1951, with the first fleadh in Mullingar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Skills in chanting, harp tuning, and making a novel instrument",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Skills in chanting, harp tuning, and making a novel instrument"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Turlough Carolan composed over 200 pieces and worked as a harper in the eighteenth century.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Edward Bunting is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "1792 Belfast only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Notating harpers at the 1792 Belfast Harp Festival",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "1951, with the first fleadh in Mullingar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "921 BC",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Notating harpers at the 1792 Belfast Harp Festival"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "The polka arrived in Irish tradition around the start of the nineteenth century through dancing masters and returning soldiers.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Francis O'Neill is remembered primarily for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "1792 Belfast only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "2017 UNESCO session",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Publishing influential collections of Irish dance music gathered in Chicago",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Publishing influential collections of Irish dance music gathered in Chicago"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Michael Coleman recorded approximately how many commercial 78-rpm discs between 1921 and 1936?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Medieval tiompan playing only",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "About eighty",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "2017 UNESCO session",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: About eighty"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Comhaltas Ceoltóirí Éireann and the first Fleadh Cheoil both date from:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Inventing the polka in Munster",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "1951, with the first fleadh in Mullingar",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Medieval tiompan playing only",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 1951, with the first fleadh in Mullingar"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Seán Ó Riada is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Medieval tiompan playing only",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Inventing the polka in Munster",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Exclusive use of synthesizers in trad",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "The Willie Clancy Summer School in Miltown Malbay, County Clare, began in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Medieval tiompan playing only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Inventing the polka in Munster",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Exclusive use of synthesizers in trad",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "1973",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: 1973"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "James Morrison and Paddy Killoran were associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "None — he only played live",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Exactly three",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Over ten thousand",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style recorded in New York in the 1920s–30s",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Sligo fiddle style recorded in New York in the 1920s–30s"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "The Irish Traditional Music Archive (ITMA) was co-founded in 1987 and preserves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Over ten thousand",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "1951, with the first fleadh in Mullingar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Recordings, manuscripts, and research materials for traditional music",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Exactly three",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Recordings, manuscripts, and research materials for traditional music"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Uilleann piping was inscribed on UNESCO's Intangible Cultural Heritage list in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "921 BC",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "2017",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Over ten thousand",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "1951, with the first fleadh in Mullingar",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 2017"
+      },
+      {
+        "id": "q13",
+        "type": "mcq",
+        "prompt": "The same Irish tune may appear under different names or keys because:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oral tradition and regional variation produce multiple living versions",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "1951, with the first fleadh in Mullingar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "921 BC",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "1792 Belfast only",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Oral tradition and regional variation produce multiple living versions"
+      },
+      {
+        "id": "q14",
+        "type": "truefalse",
+        "prompt": "Donell Dubh Ó Cathail served as harper to Elizabeth I.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q15",
+        "type": "truefalse",
+        "prompt": "After the 1920s–30s recording boom, Irish traditional music experienced no further revival and disappeared.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "A lull followed, but Ó Riada, Comhaltas, summer schools, and later bands renewed the tradition."
+      },
+      {
+        "id": "q16",
+        "type": "mcq",
+        "prompt": "County, provincial, and All-Ireland fleadh levels exist partly to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Medieval tiompan playing only",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Structure competition and advance winners toward the national fleadh",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "2017 UNESCO session",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Structure competition and advance winners toward the national fleadh"
+      }
+    ]
+  },
+  "regions-celtic-ireland-07-representative-depth": {
+    "entities": [
+      {
+        "id": "horslips",
+        "type": "band",
+        "name": "Horslips",
+        "summary": "Pioneers of Celtic rock blending trad tunes with electric guitars",
+        "blurb": "1970s band; The Táin and Dearg Doom linked myth and rock amplification.",
+        "years": "1970–1980",
+        "url": "https://en.wikipedia.org/wiki/Horslips",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Horslips.jpg?width=320",
+        "playlist_index": 0
+      },
+      {
+        "id": "clancy-brothers",
+        "type": "band",
+        "name": "The Clancy Brothers and Tommy Makem",
+        "summary": "Irish-American folk revival group of the 1960s",
+        "blurb": "Aran sweaters, ballad clarity, and Ed Sullivan visibility for Irish song in America.",
+        "years": "1956–1990s",
+        "url": "https://en.wikipedia.org/wiki/The_Clancy_Brothers_and_Tommy_Makem",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/TommyMakem_DublinOhio.jpg?width=320",
+        "playlist_index": 1
+      },
+      {
+        "id": "planxty",
+        "type": "band",
+        "name": "Planxty",
+        "summary": "Quartet that redefined Irish folk ensemble sound",
+        "blurb": "Christy Moore, Dónal Lunny, Andy Irvine, Liam O'Flynn.",
+        "years": "1972–2005",
+        "url": "https://en.wikipedia.org/wiki/Planxty",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Planxty_1973.jpg?width=320",
+        "playlist_index": 2
+      },
+      {
+        "id": "dubliners",
+        "type": "band",
+        "name": "The Dubliners",
+        "summary": "Ballad group that brought pub songs to international audiences",
+        "blurb": "Luke Kelly, Barney McKenna, and lineup changes across decades.",
+        "years": "1962–2012",
+        "url": "https://en.wikipedia.org/wiki/The_Dubliners",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/The_Dubliners.jpg?width=320",
+        "playlist_index": 3
+      },
+      {
+        "id": "pogues",
+        "type": "band",
+        "name": "The Pogues",
+        "summary": "Celtic punk marrying trad instruments to rock energy",
+        "blurb": "Shane MacGowan fronted chaotic, poetic London-Irish sound.",
+        "years": "1982–2014",
+        "url": "https://en.wikipedia.org/wiki/The_Pogues",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/The_Pogues.jpg?width=320",
+        "playlist_index": 4
+      },
+      {
+        "id": "thin-lizzy",
+        "type": "band",
+        "name": "Thin Lizzy",
+        "summary": "Dublin rock band led by Phil Lynott",
+        "blurb": "Twin guitars and Irish identity in hard rock; Jailbreak and Whiskey in the Jar.",
+        "years": "1969–1986",
+        "url": "https://en.wikipedia.org/wiki/Thin_Lizzy",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Thin_Lizzy_-1983.jpg?width=320",
+        "playlist_index": 5
+      }
+    ],
+    "playlist": [
+      {
+        "id": "horslips-dearg",
+        "entity_id": "horslips",
+        "label": "Dearg Doom",
+        "youtube": "https://www.youtube.com/watch?v=AQiZ5nsZ1Bo"
+      },
+      {
+        "id": "clancy-wild-rover",
+        "entity_id": "clancy-brothers",
+        "label": "Wild Rover",
+        "youtube": "https://www.youtube.com/watch?v=qdl-yB0MapI"
+      },
+      {
+        "id": "dubliners-wild-rover",
+        "entity_id": "dubliners",
+        "label": "Wild Rover",
+        "youtube": "https://www.youtube.com/watch?v=8J4FZqknpjg"
+      },
+      {
+        "id": "dubliners-rocky-road",
+        "entity_id": "dubliners",
+        "label": "The Rocky Road to Dublin",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "dubliners-seven-nights",
+        "entity_id": "dubliners",
+        "label": "Seven Drunken Nights",
+        "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY"
+      },
+      {
+        "id": "dubliners-molly-malone",
+        "entity_id": "dubliners",
+        "label": "Molly Malone",
+        "youtube": "https://www.youtube.com/watch?v=ocxyqLfHFqk"
+      },
+      {
+        "id": "dubliners-finnegans-wake",
+        "entity_id": "dubliners",
+        "label": "Finnegan's Wake",
+        "youtube": "https://www.youtube.com/watch?v=N0K8bww7rtQ"
+      },
+      {
+        "id": "dubliners-whiskey",
+        "entity_id": "dubliners",
+        "label": "Whiskey in the Jar",
+        "youtube": "https://www.youtube.com/watch?v=L__TrWhq4Uk"
+      },
+      {
+        "id": "dubliners-raglan-road",
+        "entity_id": "dubliners",
+        "label": "Raglan Road",
+        "youtube": "https://www.youtube.com/watch?v=ZIqr1Ge8Z5w"
+      },
+      {
+        "id": "dubliners-town-loved",
+        "entity_id": "dubliners",
+        "label": "The Town I Loved So Well",
+        "youtube": "https://www.youtube.com/watch?v=zt-qn7KwnFo"
+      },
+      {
+        "id": "pogues-dirty",
+        "entity_id": "pogues",
+        "label": "Dirty Old Town",
+        "youtube": "https://www.youtube.com/watch?v=s11BuatTuXk"
+      },
+      {
+        "id": "pogues-fairytale",
+        "entity_id": "pogues",
+        "label": "Fairytale of New York",
+        "youtube": "https://www.youtube.com/watch?v=j9jbdgZidu8"
+      },
+      {
+        "id": "planxty-raggle",
+        "entity_id": "planxty",
+        "label": "Raggle Taggle Gypsy",
+        "youtube": "https://www.youtube.com/watch?v=JyP407UnUWw"
+      },
+      {
+        "id": "chieftains-morning-dew",
+        "entity_id": "chieftains",
+        "label": "The Morning Dew",
+        "youtube": "https://www.youtube.com/watch?v=O9a8pVGa1Mo"
+      },
+      {
+        "id": "clannad-harrys-game",
+        "entity_id": "clannad",
+        "label": "Harry's Game",
+        "youtube": "https://www.youtube.com/watch?v=x3BkUknxAk8"
+      },
+      {
+        "id": "thin-lizzy-whiskey",
+        "entity_id": "thin-lizzy",
+        "label": "Whiskey in the Jar",
+        "youtube": "https://www.youtube.com/watch?v=Hwb8C2TijYE"
+      },
+      {
+        "id": "bowyer-hucklebuck",
+        "label": "The Hucklebuck",
+        "youtube": "https://www.youtube.com/watch?v=yZa_P6W2XlM"
+      },
+      {
+        "id": "big-tom-gentle-mother",
+        "label": "Gentle Mother",
+        "youtube": "https://www.youtube.com/watch?v=_J454Yb_cgk"
+      },
+      {
+        "id": "moving-hearts-politics",
+        "label": "Politics",
+        "youtube": "https://www.youtube.com/watch?v=wVHFnnbFW1g"
+      },
+      {
+        "id": "riverdance-eurovision",
+        "label": "Riverdance",
+        "youtube": "https://www.youtube.com/watch?v=w0v_pu6miJ8"
+      },
+      {
+        "id": "solas-lark",
+        "label": "The Lark in the Morning",
+        "youtube": "https://www.youtube.com/watch?v=yoiB1-Ubn2I"
+      }
+    ],
+    "key_points": [
+      "Showbands taught stagecraft before folk-rock took over dance halls.",
+      "Horslips and Planxty proved trad instruments could lead rock ensembles.",
+      "The Dubliners internationalised pub ballad repertoire.",
+      "Celtic punk (The Pogues) fed session repertoire and youth audiences.",
+      "Riverdance and fusion scenes fed back into straight trad performance."
+    ],
+    "reading_list": [
+      {
+        "type": "book",
+        "title": "Irish Folk, Trad and Blues: A Secret History",
+        "author": "Colin Harper",
+        "note": "Fusion and revival scenes"
+      },
+      {
+        "type": "link",
+        "title": "Horslips",
+        "url": "https://en.wikipedia.org/wiki/Horslips",
+        "note": "Celtic rock pioneers"
+      },
+      {
+        "type": "link",
+        "title": "The Pogues",
+        "url": "https://en.wikipedia.org/wiki/The_Pogues",
+        "note": "Celtic punk discography"
+      },
+      {
+        "type": "book",
+        "title": "Noisy at the Wrong Times",
+        "author": "Mark Hodkinson",
+        "note": "Shane MacGowan and The Pogues"
+      },
+      {
+        "type": "link",
+        "title": "Planxty",
+        "url": "https://en.wikipedia.org/wiki/Planxty",
+        "note": "1970s supergroup influence"
+      },
+      {
+        "type": "link",
+        "title": "The Dubliners",
+        "url": "https://en.wikipedia.org/wiki/The_Dubliners",
+        "note": "Ballad group legacy"
+      },
+      {
+        "type": "link",
+        "title": "Sinead O'Connor — trad connections",
+        "url": "https://www.itma.ie/",
+        "note": "ITMA interviews and archives"
+      },
+      {
+        "type": "link",
+        "title": "Moving Hearts",
+        "url": "https://en.wikipedia.org/wiki/Moving_Hearts",
+        "note": "Christy Moore and fusion"
+      },
+      {
+        "type": "link",
+        "title": "Irish showband archive",
+        "url": "https://www.itma.ie/",
+        "note": "Big Tom era recordings"
+      },
+      {
+        "type": "link",
+        "title": "RTÉ — Irish music documentaries",
+        "url": "https://www.rte.ie/culture/",
+        "note": "Television history features"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Irish showbands of the 1950s–70s primarily played:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "A medieval harp law manuscript from 1200",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Dance halls, mixing chart covers, country hits, and some Irish material",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Silent film piano accompaniment only",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Strict baroque harpsichord repertoire",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Dance halls, mixing chart covers, country hits, and some Irish material"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Big Tom and The Mainliners are associated with the country-and-Irish genre and the hit \"Gentle Mother.\"",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "The Clancy Brothers became internationally visible partly through appearances on American television, including The Ed Sullivan Show, often wearing Aran sweaters.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Barney McKenna was the banjo player whose style strongly defined The Dubliners' instrumental sound.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Johnny Moynihan of Sweeney's Men is credited with early popularisation of which instrument in Irish folk?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Strictly classical string quartet repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Greek bouzouki",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "West African music and electronic production",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Only American bluegrass without other influences",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Greek bouzouki"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Horslips album *The Táin* draws on which Irish literary source?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "The Cattle Raid of Cooley (Táin Bó Cúailnge)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Only American bluegrass without other influences",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Strictly classical string quartet repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Heavy metal exclusively",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: The Cattle Raid of Cooley (Táin Bó Cúailnge)"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Planxty's core founding lineup included all of the following EXCEPT:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Strictly classical string quartet repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Heavy metal exclusively",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Collected and published thousands of Irish dance tunes from musicians in Chicago",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Shane MacGowan",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Shane MacGowan"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Moving Hearts combined Irish folk with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Collected and published thousands of Irish dance tunes from musicians in Chicago",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Banned Irish music in the United States after 1900",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Jazz-rock fusion elements, including saxophone",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Heavy metal exclusively",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Jazz-rock fusion elements, including saxophone"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Paddy Moloney was the uilleann piper who led The Chieftains and pursued extensive international collaborations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Enya began her career as a member of Clannad before pursuing solo atmospheric pop.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Phil Lynott was the frontman and songwriter associated with Thin Lizzy.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "The Pogues' \"Fairytale of New York\" features a duet with Kirsty MacColl and has become a widely played seasonal song.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q13",
+        "type": "mcq",
+        "prompt": "Cruachan are associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Celtic folk metal drawing on Irish mythology",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Celtic folk metal drawing on Irish mythology"
+      },
+      {
+        "id": "q14",
+        "type": "mcq",
+        "prompt": "Riverdance began as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Founded Riverdance in 1994",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A 1994 Eurovision Song Contest interval act in Dublin",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Collected and published thousands of Irish dance tunes from musicians in Chicago",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Banned Irish music in the United States after 1900",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A 1994 Eurovision Song Contest interval act in Dublin"
+      },
+      {
+        "id": "q15",
+        "type": "mcq",
+        "prompt": "Afro Celt Sound System blended Irish traditional elements with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "West African music and electronic production",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: West African music and electronic production"
+      },
+      {
+        "id": "q16",
+        "type": "mcq",
+        "prompt": "Francis O'Neill is significant to diaspora tradition because he:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Collected and published thousands of Irish dance tunes from musicians in Chicago",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Collected and published thousands of Irish dance tunes from musicians in Chicago"
+      },
+      {
+        "id": "q17",
+        "type": "mcq",
+        "prompt": "Dropkick Murphys and Flogging Molly are both associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Irish-American Celtic punk scenes in the United States",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Irish-American Celtic punk scenes in the United States"
+      },
+      {
+        "id": "q18",
+        "type": "truefalse",
+        "prompt": "This lesson primarily surveys fusion genres and representative acts rather than repeating the general history of Irish music collecting and Comhaltas institutions.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  "regions-celtic-ireland-08-tunes": {
+    "entities": [
+      {
+        "id": "silver-spear",
+        "type": "tune",
+        "name": "The Silver Spear",
+        "form": "reel",
+        "reference": "Francis O'Neill, Music of Ireland",
+        "about": "Session staple with many regional settings.",
+        "made_famous_by": [
+          "coleman",
+          "hayes"
+        ]
+      },
+      {
+        "id": "coleman",
+        "type": "artist",
+        "name": "Michael Coleman",
+        "summary": "Sligo fiddler whose 78s popularised many session standards",
+        "blurb": "New York recordings fixed settings still played today.",
+        "years": "1891–1945",
+        "region": "Sligo",
+        "url": "https://en.wikipedia.org/wiki/Michael_Coleman_(fiddler)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Coleman_fiddler.jpg?width=320"
+      },
+      {
+        "id": "hayes",
+        "type": "artist",
+        "name": "Martin Hayes",
+        "summary": "Contemporary Clare fiddler with breathing phrasing",
+        "blurb": "Reinterprets standards with slow intros and dynamic range.",
+        "years": "1962–",
+        "region": "Clare",
+        "url": "https://en.wikipedia.org/wiki/Martin_Hayes_(musician)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Martin_Hayes_2008.jpg?width=320"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "silver-spear",
+        "type": "tune",
+        "name": "The Silver Spear",
+        "form": "reel",
+        "reference": "Francis O'Neill, Music of Ireland",
+        "about": "Session staple; Sligo roll-heavy settings vs Donegal bowing.",
+        "made_famous_by": [
+          "coleman",
+          "hayes"
+        ],
+        "playlist": [
+          {
+            "entity_id": "coleman",
+            "label": "Michael Coleman",
+            "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
+          },
+          {
+            "entity_id": "hayes",
+            "label": "Martin Hayes",
+            "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA"
+          }
+        ]
+      },
+      {
+        "id": "kesh-jig",
+        "type": "tune",
+        "name": "The Kesh Jig",
+        "form": "double jig",
+        "reference": "Brendan Breathnach, Ceol Rince na hÉireann",
+        "about": "Beginner-friendly jig heard in sessions worldwide.",
+        "playlist": [
+          {
+            "entity_id": "coleman",
+            "label": "Session jig set",
+            "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+          }
+        ]
+      }
+    ],
+    "playlist": [
+      {
+        "id": "silver-spear-coleman",
+        "entity_id": "coleman",
+        "label": "The Silver Spear",
+        "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
+      },
+      {
+        "id": "silver-spear-hayes",
+        "entity_id": "hayes",
+        "label": "The Silver Spear (Clare)",
+        "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA"
+      },
+      {
+        "id": "kesh-jig",
+        "entity_id": "coleman",
+        "label": "The Kesh Jig",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      }
+    ],
+    "key_points": [
+      "Tune names and settings vary by region and collector.",
+      "Reels, jigs, hornpipes, and polkas each have distinct metre.",
+      "78s and archives document how standards crystallised.",
+      "Compare two recordings to hear regional bowing and ornament.",
+      "Session sets chain tunes of the same form before switching."
+    ],
+    "reading_list": [
+      {
+        "type": "book",
+        "title": "O'Neill's Music of Ireland",
+        "author": "Francis O'Neill",
+        "note": "1850 tune settings"
+      },
+      {
+        "type": "link",
+        "title": "The Session",
+        "url": "https://thesession.org/",
+        "note": "Alternate settings and comments"
+      },
+      {
+        "type": "link",
+        "title": "ITMA tune resources",
+        "url": "https://www.itma.ie/",
+        "note": "Manuscripts and discography"
+      },
+      {
+        "type": "book",
+        "title": "The Dance Music of Ireland (vols 1–5)",
+        "author": "Brendan Breathnach",
+        "note": "Standard reference settings"
+      },
+      {
+        "type": "book",
+        "title": "The Northern Fiddler",
+        "author": "Caoimhín Mac Aoidh",
+        "note": "Donegal repertoire and players"
+      },
+      {
+        "type": "link",
+        "title": "The Session — tune comments",
+        "url": "https://thesession.org/tunes",
+        "note": "Alternate versions and keys"
+      },
+      {
+        "type": "link",
+        "title": "ITMA — tune manuscripts",
+        "url": "https://www.itma.ie/digitallibrary/",
+        "note": "Historical settings"
+      },
+      {
+        "type": "link",
+        "title": "Comhaltas tune of the week",
+        "url": "https://comhaltas.ie/music/",
+        "note": "Learning resources"
+      },
+      {
+        "type": "link",
+        "title": "Alan Ng's tunography",
+        "url": "http://www.irishtrad.com/",
+        "note": "Tune title index and discography"
+      },
+      {
+        "type": "link",
+        "title": "Feadóga Stáin — Mary Bergin",
+        "url": "https://www.itma.ie/",
+        "note": "Whistle repertoire recordings"
+      },
+      {
+        "type": "link",
+        "title": "O'Neill 1001 — online index",
+        "url": "https://www.irishtune.info/",
+        "note": "Cross-reference O'Neill numbers"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "What metre is a double jig?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: 6/8"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Which collector published *Music of Ireland* in 1903?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson gives: Francis O'Neill"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Michael Coleman recorded primarily in which city?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "New York",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: New York"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "A slip jig is typically in what metre?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: 9/8"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "What tune type is *Off to California*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hornpipe",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: Hornpipe"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Sessions usually chain tunes of the same what before switching?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Form",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson gives: Form"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "The Kesh Jig appears in which Breathnach collection?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Ceol Rince na hÉireann",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: Ceol Rince na hÉireann"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Compare two settings of the same tune to hear regional what?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Variation",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: Variation"
+      }
+    ]
+  }
+}

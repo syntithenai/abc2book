@@ -8,6 +8,7 @@ const {
   sleep,
   resetNotationFixture,
   clickStaffForNoteInput,
+  clickStaffVoiceNote,
 } = require('./helpers')
 const { assertNoteSteps, collapseAbcWhitespace } = require('./notation-assertions')
 
@@ -36,6 +37,34 @@ async function selectVoiceByKey(page, voiceKey) {
 
 async function runVoiceTests(page, ctx) {
   const results = ctx.results
+
+  await runScenario(results, 'P1: click voice 2 staff switches editing voice without radio', async function() {
+    await resetNotationFixture(page, TWO_VOICE_TUNE_ID)
+    await focusNotationEditor(page)
+    const voiceKeyBefore = await page.evaluate(function() {
+      return window.__abc2bookNotationTest.getVoiceKey()
+    })
+    if (voiceKeyBefore !== '1') {
+      throw new Error('expected to start on voice 1, got ' + voiceKeyBefore)
+    }
+
+    await clickStaffVoiceNote(page, 1, 0)
+    await page.waitForFunction(function() {
+      return window.__abc2bookNotationTest.getVoiceKey() === '2'
+    }, { timeout: 5000 })
+
+    await ensureNoteInputMode(page)
+    await clickStaffForNoteInput(page, { atEnd: true, voiceClass: 1 })
+    await pressKey(page, 'c')
+    await sleep(300)
+    await assertNoteSteps(page, ['G', 'B', 'D', 'C'], 'note added after staff click switched to voice 2')
+
+    await selectVoiceByKey(page, '1')
+    await page.waitForFunction(function() {
+      return window.__abc2bookNotationTest.getVoiceKey() === '1'
+    }, { timeout: 5000 })
+    await assertNoteSteps(page, ['C', 'E', 'G'], 'voice 1 unchanged after staff-click edit on voice 2')
+  })
 
   await runScenario(results, 'P1: switch voice updates active voice ABC', async function() {
     await resetNotationFixture(page, TWO_VOICE_TUNE_ID)

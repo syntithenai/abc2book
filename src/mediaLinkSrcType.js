@@ -1,5 +1,5 @@
 import { isOwnedMediaLinkUri } from './linkRecording'
-import { isHttpMidiUrl, isMidiOwnedMediaLink } from './midiFileUtils'
+import { isHttpMidiUrl, isMidiFileName, isMidiOwnedMediaLink } from './midiFileUtils'
 
 /**
  * Resolve playback source type for a tune link.
@@ -10,7 +10,7 @@ export function resolveLinkPlaybackSrcType(link, isYoutubeLink) {
     return 'empty'
   }
   const src = String(link.link).trim()
-  if (isMidiOwnedMediaLink(link)) {
+  if (isMidiOwnedMediaLink(link) || (isOwnedMediaLinkUri(src) && isMidiFileName(link.title))) {
     return 'midifile'
   }
   if (isOwnedMediaLinkUri(src)) {

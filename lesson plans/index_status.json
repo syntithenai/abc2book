@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-07-24T08:01:46.022373+00:00",
+  "progress_metric": "indexed_chunks",
+  "indexed_articles": 35842,
+  "indexed_chunks": 36966,
+  "high_value_articles": 9378,
+  "mean_importance_high_value": 0.694,
+  "manifest_lessons_generated": 7,
+  "ireland_unit_status": "manual",
+  "files_scanned": 34548,
+  "articles_skipped_low_importance": 26464,
+  "by_topic": {
+    "dance": 155,
+    "history": 18333,
+    "instruments": 6195,
+    "theory": 11159
+  },
+  "by_region": {},
+  "db_path": "/home/stever/projects/abc2book/lesson plans/wiki_index/wiki.db",
+  "note": "Corpus progress is measured by indexed pedagogical chunks, not raw download count."
+}

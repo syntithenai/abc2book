@@ -1,0 +1,208 @@
+{
+  "id": "theory-cadences-applied",
+  "title": "Cadences — Applied",
+  "track": "theory",
+  "tier": "applied",
+  "region": null,
+  "difficulty": 5,
+  "prerequisites": [
+    "theory-cadences-intro"
+  ],
+  "tags": [
+    "cadences",
+    "phrase",
+    "deceptive"
+  ],
+  "path": "00-theory/05-harmony/03-cadences-applied.md",
+  "sections": [
+    {
+      "id": "cadences-applied",
+      "title": "Cadences — Applied",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory | **Tier:** applied | **Difficulty:** 5/10\n**Prerequisites:** Cadences — Introduction\n**Tags:** cadences, phrase, deceptive"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Spot cadences in scores and tunes; connect them to **phrase structure** and bass lines."
+        }
+      ]
+    },
+    {
+      "id": "phrase-rhythm",
+      "title": "Phrase rhythm",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Antecedent phrase often ends half cadence; consequent ends perfect. AABB tune forms map naturally to question–answer pairs."
+        }
+      ]
+    },
+    {
+      "id": "inversions-at-cadence",
+      "title": "Inversions at cadence",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "I6–V or cadential 6/4 embellishes dominant before resolution — common in classical; simplified in folk."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-antecedent-often-ends-on-v",
+      "title": "Q1. Antecedent often ends on V.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q2-consequent-often-ends-on-i",
+      "title": "Q2. Consequent often ends on I.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-phrase-pairs-form-period-structure",
+      "title": "Q3. Phrase pairs form period structure.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q4-deceptive-cadence-delays-tonic-arrival",
+      "title": "Q4. Deceptive cadence delays tonic arrival.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q5-cadential-64-precedes-dominant",
+      "title": "Q5. Cadential 6/4 precedes dominant.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q6-applied-cadences-appear-in-tune-analysis",
+      "title": "Q6. Applied cadences appear in tune analysis.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q7-bass-line-defines-cadence-type",
+      "title": "Q7. Bass line defines cadence type.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q8-ivi-is-plagal",
+      "title": "Q8. IV–I is plagal.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q9-session-tunes-use-clear-cadence-points-for-repeats",
+      "title": "Q9. Session tunes use clear cadence points for repeats.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q10-half-cadence-invites-another-phrase",
+      "title": "Q10. Half cadence invites another phrase.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q11-voice-leading-smooths-vi-motion",
+      "title": "Q11. Voice-leading smooths V–I motion.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q12-applied-tier-links-to-phrase-structure-lesson",
+      "title": "Q12. Applied tier links to phrase-structure lesson.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Antecedent often ends on V.\n\n**Answer:** True\n\n### Q2. Consequent often ends on I.\n\n**Answer:** True\n\n### Q3. Phrase pairs form period structure.\n\n**Answer:** True\n\n### Q4. Deceptive cadence delays tonic arrival.\n\n**Answer:** True\n\n### Q5. Cadential 6/4 precedes dominant.\n\n**Answer:** True\n\n### Q6. Applied cadences appear in tune analysis.\n\n**Answer:** True\n\n### Q7. Bass line defines cadence type.\n\n**Answer:** True\n\n### Q8. IV–I is plagal.\n\n**Answer:** True\n\n### Q9. Session tunes use clear cadence points for repeats.\n\n**Answer:** True\n\n### Q10. Half cadence invites another phrase.\n\n**Answer:** True\n\n### Q11. Voice-leading smooths V–I motion.\n\n**Answer:** True\n\n### Q12. Applied tier links to phrase-structure lesson.\n\n**Answer:** True"
+}

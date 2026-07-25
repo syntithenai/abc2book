@@ -28,7 +28,7 @@ describe('abcVoiceFilter', function() {
 
   test('buildPlayableTuneAbc omits voices disabled for playback', function() {
     setVoiceViewSettings('t1', {
-      visible: { '1': true, '2': true },
+      visible: { '1': true, '2': false },
       playable: { '1': true, '2': false },
     }, ['1', '2']);
 

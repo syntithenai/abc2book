@@ -12,13 +12,6 @@ import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import { syncTuneFromStore } from './bulkCheckTuneSync'
 import { capitalizeSongTitle } from './titleCaseUtils'
 import {
-  listAvailableFixActionIds,
-  needsBackgroundSearch,
-  needsChordsLyricsSearch,
-  needsNotationSearch,
-  needsTitleCapitalize,
-} from './bulkCheckIssueGroups'
-import {
   applyStructureFix,
   previewStructureFix,
   STRUCTURE_FIX_ACTIONS,
@@ -185,6 +178,16 @@ export async function runBulkCheckFixAction(action, options) {
     return syncTuneFromStore(next, opts)
   }
 
+  if (action === 'searchArtist') {
+    const result = await searchChordsAndLyricsForTune(next, tunebook, token, signal, opts)
+    if (result.artist && String(result.artist).trim()) {
+      next.composer = String(result.artist).trim()
+    } else {
+      throw new Error('No artist found')
+    }
+    return syncTuneFromStore(next, opts)
+  }
+
   if (action === 'backgroundInfo') {
     const bg = await researchTuneBackground({
       title: tuneTitle(next),
@@ -260,42 +263,6 @@ export async function runBulkCheckFixAction(action, options) {
   }
 
   if (action === 'searchAll') {
-    const issues = Array.isArray(opts.issues) ? opts.issues : []
-    const searchOptions = {
-      hasNotesOrChords: tunebook && tunebook.hasNotesOrChords
-        ? tunebook.hasNotesOrChords.bind(tunebook)
-        : null,
-    }
-    const actions = []
-    if (needsTitleCapitalize(next, issues)) actions.push('capitalizeTitle')
-    if (needsNotationSearch(next, issues, searchOptions)) actions.push('searchAbc')
-    if (needsChordsLyricsSearch(next, issues)) actions.push('searchChordsLyrics')
-    if (needsBackgroundSearch(next, issues)) actions.push('backgroundInfo')
-
-    const safeStructureActions = STRUCTURE_FIX_ACTIONS
-      .filter(function(item) { return !item.requiresPreview })
-      .map(function(item) { return item.id })
-    if (opts.report) {
-      listAvailableFixActionIds(opts.report, next, tunebook, opts.parseAndRender).forEach(function(actionId) {
-        if (safeStructureActions.indexOf(actionId) >= 0 && actions.indexOf(actionId) < 0) {
-          actions.push(actionId)
-        }
-      })
-    }
-
-    for (let i = 0; i < actions.length; i++) {
-      if (signal && signal.aborted) break
-      const step = actions[i]
-      try {
-        next = await runBulkCheckFixAction(step, Object.assign({}, opts, { tune: next }))
-        next = syncTuneFromStore(next, opts)
-        if (tunebook && step !== 'stems') {
-          next = saveFixTune(next, tunebook, opts)
-        }
-      } catch (e) {
-        if (e && e.name === 'AbortError') throw e
-      }
-    }
     return syncTuneFromStore(next, opts)
   }
 

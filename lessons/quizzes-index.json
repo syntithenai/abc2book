@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "regions-celtic-ireland-01-overview",
+      "title": "Irish Traditional Music — Overview",
+      "trackId": "regions",
+      "trackLabel": "Regional traditions",
+      "unitId": "celtic-ireland",
+      "unitLabel": "Celtic — Ireland",
+      "questionCount": 16,
+      "tags": [
+        "ireland",
+        "celtic",
+        "tradition",
+        "overview"
+      ],
+      "path": "regions-celtic-ireland-01-overview.json"
+    },
+    {
+      "id": "regions-celtic-ireland-02-instruments-voices-i",
+      "title": "Irish Instruments — Traditional Voices I",
+      "trackId": "regions",
+      "trackLabel": "Regional traditions",
+      "unitId": "celtic-ireland",
+      "unitLabel": "Celtic — Ireland",
+      "questionCount": 16,
+      "tags": [
+        "ireland",
+        "fiddle",
+        "flute",
+        "whistle",
+        "pipes",
+        "harp"
+      ],
+      "path": "regions-celtic-ireland-02-instruments-voices-i.json"
+    },
+    {
+      "id": "regions-celtic-ireland-03-instruments-voices-ii",
+      "title": "Irish Instruments — Session Voices II",
+      "trackId": "regions",
+      "trackLabel": "Regional traditions",
+      "unitId": "celtic-ireland",
+      "unitLabel": "Celtic — Ireland",
+      "questionCount": 16,
+      "tags": [
+        "ireland",
+        "bodhrán",
+        "guitar",
+        "bouzouki",
+        "banjo",
+        "accordion",
+        "concertina",
+        "session"
+      ],
+      "path": "regions-celtic-ireland-03-instruments-voices-ii.json"
+    },
+    {
+      "id": "regions-celtic-ireland-04-genres-forms",
+      "title": "Tunes, Forms, and Style",
+      "trackId": "regions",
+      "trackLabel": "Regional traditions",
+      "unitId": "celtic-ireland",
+      "unitLabel": "Celtic — Ireland",
+      "questionCount": 16,
+      "tags": [
+        "ireland",
+        "jig",
+        "reel",
+        "hornpipe",
+        "session"
+      ],
+      "path": "regions-celtic-ireland-04-genres-forms.json"
+    },
+    {
+      "id": "regions-celtic-ireland-05-dance",
+      "title": "Irish Dance and Rhythm",
+      "trackId": "regions",
+      "trackLabel": "Regional traditions",
+      "unitId": "celtic-ireland",
+      "unitLabel": "Celtic — Ireland",
+      "questionCount": 16,
+      "tags": [
+        "ireland",
+        "dance",
+        "ceili",
+        "stepdance"
+      ],
+      "path": "regions-celtic-ireland-05-dance.json"
+    },
+    {
+      "id": "regions-celtic-ireland-06-history",
+      "title": "History, Revival, and Transmission",
+      "trackId": "regions",
+      "trackLabel": "Regional traditions",
+      "unitId": "celtic-ireland",
+      "unitLabel": "Celtic — Ireland",
+      "questionCount": 16,
+      "tags": [
+        "ireland",
+        "revival",
+        "collectors",
+        "diaspora"
+      ],
+      "path": "regions-celtic-ireland-06-history.json"
+    },
+    {
+      "id": "regions-celtic-ireland-07-representative-depth",
+      "title": "Representative Fusions and Scenes",
+      "trackId": "regions",
+      "trackLabel": "Regional traditions",
+      "unitId": "celtic-ireland",
+      "unitLabel": "Celtic — Ireland",
+      "questionCount": 18,
+      "tags": [
+        "ireland",
+        "fusion",
+        "celtic-rock",
+        "showband"
+      ],
+      "path": "regions-celtic-ireland-07-representative-depth.json"
+    },
+    {
+      "id": "regions-celtic-ireland-08-tunes",
+      "title": "Irish Tunes — Forms, History, and Recordings",
+      "trackId": "regions",
+      "trackLabel": "Regional traditions",
+      "unitId": "celtic-ireland",
+      "unitLabel": "Celtic — Ireland",
+      "questionCount": 8,
+      "tags": [
+        "ireland",
+        "tunes",
+        "reel",
+        "jig",
+        "recordings"
+      ],
+      "path": "regions-celtic-ireland-08-tunes.json"
+    }
+  ]
+}

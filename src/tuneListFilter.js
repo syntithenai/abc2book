@@ -29,15 +29,16 @@ export function filterTunes(tunes, filterSearchFn) {
 }
 
 export function dedupeTunesById(tunes) {
-  return filterTunes(
-    Array.isArray(tunes)
-      ? tunes.reduce(function(acc, tune) {
-        if (tune && tune.id != null) acc[tune.id] = tune
-        return acc
-      }, {})
-      : (tunes || {}),
-    function() { return true }
-  )
+  const list = Array.isArray(tunes) ? tunes : Object.values(tunes || {})
+  const byId = {}
+  const order = []
+  list.forEach(function(tune) {
+    if (!tune || tune.id == null) return
+    const key = String(tune.id)
+    if (!byId[key]) order.push(key)
+    byId[key] = tune
+  })
+  return order.map(function(key) { return byId[key] })
 }
 
 export function sortTunesByName(tunes) {

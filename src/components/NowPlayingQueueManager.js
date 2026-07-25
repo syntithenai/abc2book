@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import { Button, ListGroup } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
+import { resolveMediaLinkPlaybackButton, mediaLinkPlaybackIcon } from '../mediaLinkPlaybackButton'
 import VoiceFillInput from './VoiceFillInput'
 import {
   getCurrentTuneId,
   setQueueIndex,
   setQueueItemPlayback,
   removeQueueItem,
+  getQueueItemLabel,
+  isExternalQueueItem,
 } from '../nowPlayingQueue'
 import { navigateToQueueTune } from '../nowPlayingQueuePlayback'
 
@@ -45,24 +48,29 @@ export default function NowPlayingQueueManager(props) {
       <ListGroup style={{ clear: 'both', width: '100%', backgroundColor: 'white' }}>
         {queue.items.map(function(item, index) {
           const tune = item && item.tuneId ? tunes[item.tuneId] : null
-          const tuneName = tune && tune.name
-            ? tune.name
-            : (item && item.tuneId ? 'Missing tune (' + item.tuneId + ')' : 'Missing tune')
+          const tuneName = getQueueItemLabel(item, tunes)
           if (filter && filter.trim().length > 0 && tuneName.toLowerCase().indexOf(filter.toLowerCase()) === -1) {
             return null
           }
-          const isCurrent = !!(tune && tune.id === currentId)
+          const isCurrent = isExternalQueueItem(item)
+            ? index === (typeof queue.currentIndex === 'number' ? queue.currentIndex : 0)
+            : !!(tune && tune.id === currentId)
           const links = tune && Array.isArray(tune.links) ? tune.links : []
           const hasMusic = tune && props.tunebook.hasNotesOrChords(tune)
 
           function jumpToItem(playbackPatch) {
-            if (!tune) return
             let nextQueue = setQueueIndex(queue, index)
             if (playbackPatch) {
               nextQueue = setQueueItemPlayback(nextQueue, index, playbackPatch)
             }
             props.setNowPlayingQueue(nextQueue)
             const nextItem = nextQueue.items[index]
+            if (isExternalQueueItem(nextItem)) {
+              setFilter('')
+              if (props.handleClose) props.handleClose()
+              return
+            }
+            if (!tune) return
             navigateToQueueTune(navigate, tune.id, nextItem, props.tunebook, tunes)
             setFilter('')
             if (props.handleClose) props.handleClose()
@@ -70,7 +78,7 @@ export default function NowPlayingQueueManager(props) {
 
           return (
             <ListGroup.Item
-              key={(item && item.tuneId ? item.tuneId : 'item') + '-' + index}
+              key={(item && item.tuneId ? item.tuneId : 'ext-' + index) + '-' + index}
               className={index % 2 === 0 ? 'even' : 'odd'}
               style={{ border: isCurrent ? '2px solid blue' : 'none' }}
             >
@@ -80,12 +88,20 @@ export default function NowPlayingQueueManager(props) {
                   className="p-0 align-baseline"
                   style={{ marginRight: '1em', fontWeight: 'bold', textDecoration: 'none' }}
                   onClick={function() {
-                    // Update playlist position so transport play/next/prev use this item.
                     props.setNowPlayingQueue(setQueueIndex(queue, index))
                     navigate('/tunes/' + tune.id)
                     setFilter('')
                     if (props.handleClose) props.handleClose()
                   }}
+                >
+                  {tuneName}
+                </Button>
+              ) : isExternalQueueItem(item) ? (
+                <Button
+                  variant="link"
+                  className="p-0 align-baseline"
+                  style={{ marginRight: '1em', fontWeight: 'bold', textDecoration: 'none' }}
+                  onClick={function() { jumpToItem() }}
                 >
                   {tuneName}
                 </Button>
@@ -95,18 +111,36 @@ export default function NowPlayingQueueManager(props) {
                 </span>
               )}
               <div style={{ float: 'right' }}>
-                {links.map(function(link, lk) {
+                {isExternalQueueItem(item) ? (
+                  <Button
+                    variant="link"
+                    size="sm"
+                    title="Play"
+                    onClick={function() { jumpToItem() }}
+                  >
+                    {props.tunebook.icons.play}
+                  </Button>
+                ) : null}
+                {tune ? links.map(function(link, lk) {
+                  const isYoutubeLink = props.tunebook.utils && props.tunebook.utils.isYoutubeLink
+                  const buttonProps = resolveMediaLinkPlaybackButton(link, isYoutubeLink)
                   return (
                     <Button
                       key={lk}
                       style={{ marginRight: '0.1em' }}
-                      variant="danger"
+                      variant={buttonProps.variant}
+                      className={buttonProps.className}
+                      title={buttonProps.label ? buttonProps.label + ' link ' + lk : 'Media link ' + lk}
                       onClick={function() { jumpToItem({ prefer: 'media', linkIndex: lk }) }}
                     >
-                      {props.tunebook.icons.link} {props.tunebook.icons.play} {lk}
+                      {mediaLinkPlaybackIcon(props.tunebook, buttonProps.iconKey)}
+                      {' '}
+                      {props.tunebook.icons.play}
+                      {' '}
+                      {lk}
                     </Button>
                   )
-                })}
+                }) : null}
                 {hasMusic && (
                   <Button
                     style={{ marginRight: '0.1em' }}

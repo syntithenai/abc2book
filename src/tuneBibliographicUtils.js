@@ -117,11 +117,61 @@ export function renderBibliographicComposerLines(tune) {
   return lines
 }
 
+export function allGenres(tune) {
+  if (!tune) return []
+  normalizeTuneGenres(tune)
+  return Array.isArray(tune.genres) ? tune.genres.slice() : []
+}
+
+/** Migrate legacy tune.genre / meta.G into genres[] and remove obsolete fields. */
+export function normalizeTuneGenres(tune) {
+  if (!tune || typeof tune !== 'object') return tune
+  if (!Array.isArray(tune.genres)) tune.genres = []
+
+  if (tune.meta && tune.meta.G != null) {
+    const legacyGenres = Array.isArray(tune.meta.G) ? tune.meta.G : [tune.meta.G]
+    tune.genres = mergeBibliographicList(tune.genres, legacyGenres)
+    delete tune.meta.G
+  }
+
+  if (tune.genre != null && String(tune.genre).trim()) {
+    tune.genres = mergeBibliographicList(tune.genres, tune.genre)
+    delete tune.genre
+  }
+
+  return tune
+}
+
+/** True if any selected genre filter matches genres[] (case-insensitive). */
+export function tuneMatchesGenreFilter(tune, filterGenres) {
+  if (!Array.isArray(filterGenres) || filterGenres.length === 0) return true
+  const genres = allGenres(tune)
+  if (genres.length === 0) return false
+  const genreKeys = {}
+  genres.forEach(function(genre) {
+    genreKeys[normalizeKey(genre)] = true
+  })
+  return filterGenres.some(function(filter) {
+    const key = normalizeKey(filter)
+    return key && genreKeys[key]
+  })
+}
+
+export function renderBibliographicGenreLines(tune) {
+  const lines = []
+  allGenres(tune).forEach(function(genre) {
+    const text = String(genre || '').trim()
+    if (text) lines.push('G: ' + text)
+  })
+  return lines
+}
+
 export function normalizeBibliographicFields(tune) {
   if (!tune || typeof tune !== 'object') return tune
 
   if (!Array.isArray(tune.aliases)) tune.aliases = []
   if (!Array.isArray(tune.artists)) tune.artists = []
+  normalizeTuneGenres(tune)
 
   const excludeTitleKeys = {}
   const primaryName = String(tune.name || '').trim()

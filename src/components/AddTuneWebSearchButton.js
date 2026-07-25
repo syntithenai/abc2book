@@ -5,6 +5,7 @@ import useAbcjsParser from '../useAbcjsParser'
 import { useIsNarrowViewport } from '../useMediaQuery'
 import { isMediaResolverInfrastructureError, isNotationSearchEmptyError } from '../mediaProxyClient'
 import { isAbortError } from '../abortUtils'
+import { applyNotationSearchCandidate, isDeferredMidiNotationCandidate } from '../notationMidiImport'
 import { searchNotation } from '../notationSearchClient'
 import { searchChords } from '../chordsSearchClient'
 import { searchLyrics } from '../lyricsSearchClient'
@@ -26,7 +27,7 @@ export default function AddTuneWebSearchButton({
   title,
   artist,
   rhythm,
-  currentGenre,
+  currentGenres,
   onGenreAccept,
   lyrics,
   token,
@@ -152,7 +153,7 @@ export default function AddTuneWebSearchButton({
       title: title,
       artist: artist,
       rhythm: rhythm,
-      currentGenre: currentGenre,
+      currentGenres: currentGenres,
       onGenreAccept: onGenreAccept,
       extras: extras,
     })
@@ -363,11 +364,21 @@ export default function AddTuneWebSearchButton({
 
     if (result.multiple && Array.isArray(result.candidates)) {
       if (result.candidates.length === 1) {
-        beginFieldChooser(
-          result.candidates[0].abc,
-          notationSourceLabel(result.candidates[0]),
-          result.candidates[0]
-        )
+        const only = result.candidates[0]
+        if (isDeferredMidiNotationCandidate(only)) {
+          await applyNotationSearchCandidate(only, {
+            accessToken: token,
+            tunebook: tunebook,
+            sourceLabel: notationSourceLabel,
+            onAbc: beginFieldChooser,
+          })
+        } else {
+          beginFieldChooser(
+            only.abc,
+            notationSourceLabel(only),
+            only
+          )
+        }
         return true
       }
       setPickerCandidates(result.candidates)
@@ -474,7 +485,21 @@ export default function AddTuneWebSearchButton({
   function handleRemotePickerSelect(candidate) {
     setShowPicker(false)
     setPickerCandidates([])
-    if (candidate && candidate.abc) {
+    if (!candidate) return
+    if (isDeferredMidiNotationCandidate(candidate)) {
+      applyNotationSearchCandidate(candidate, {
+        accessToken: token,
+        tunebook: tunebook,
+        sourceLabel: notationSourceLabel,
+        onAbc: beginFieldChooser,
+      }).catch(function(e) {
+        if (e && e.message && e.message.indexOf('cancelled') === -1) {
+          setError(e.message)
+        }
+      })
+      return
+    }
+    if (candidate.abc) {
       beginFieldChooser(candidate.abc, notationSourceLabel(candidate), candidate)
     }
   }

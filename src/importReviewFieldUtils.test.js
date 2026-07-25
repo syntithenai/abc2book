@@ -132,7 +132,7 @@ describe('importReviewFieldUtils', function() {
     const current = tuneToFormValues({ name: 'Mine', rhythm: 'reel' });
     const result = applyInlineImportToForm(current, { name: 'Theirs', rhythm: 'jig', genre: 'Irish' });
     expect(result.formValues.title).toBe('Mine');
-    expect(result.formValues.genre).toBe('Irish');
+    expect(result.formValues.genres).toEqual(['Irish']);
     expect(result.suggestions.rhythm).toBeTruthy();
   });
 
@@ -221,7 +221,7 @@ describe('importReviewFieldUtils', function() {
 
   test('suggestOnly auto-fills empty listed metadata fields', function() {
     const result = buildReviewFormState(
-      { name: 'Local', composer: '', key: '', meter: '', tempo: '', genre: '' },
+      { name: 'Local', composer: '', key: '', meter: '', tempo: '', genres: [] },
       {
         name: 'Remote',
         composer: 'Trad',
@@ -245,7 +245,7 @@ describe('importReviewFieldUtils', function() {
     expect(result.formValues.tempo).toBe('144');
     expect(result.formValues.noteLength).toBe('1/8');
     expect(result.formValues.capo).toBe('2');
-    expect(result.formValues.genre).toBe('Irish');
+    expect(result.formValues.genres).toEqual(['Irish']);
     expect(result.suggestions.artist).toBeFalsy();
     expect(result.formValues.title).toBe('Local');
     expect(result.suggestions.title).toBeTruthy();

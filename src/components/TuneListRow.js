@@ -31,13 +31,29 @@ export default function TuneListRow(props) {
   const isPreview = props.isPreview
   const showRowExtras = props.showRowExtras
   const showStarToggle = props.showStarToggle
+  const showFilterChips = props.showFilterChips !== false
   const selected = props.selected || {}
   const tuneStatus = props.tuneStatus || {}
+
+  const filterChips = showFilterChips ? (
+    <TuneListFilterChips
+      books={tune.books}
+      tags={tune.tags}
+      currentTuneBook={props.currentTuneBook}
+      tagFilter={props.tagFilter}
+      onBookClick={props.onBookClick}
+      onTagClick={props.onTagClick}
+    />
+  ) : null
+
+  const composerLabel = snapshotMatch && snapshotMatch.composer
+    ? snapshotMatch.composer
+    : (tune.composer || '')
 
   return (
     <ListGroup.Item
       key={(tune.id || '') + '-' + tk + '-' + (snapshotMatch ? snapshotMatch.page : 'main')}
-      className={'tune-list-item ' + ((tk % 2 === 0) ? 'even' : 'odd') + (isCompact ? ' tune-list-item-compact' : '')}
+      className={'tune-list-item ' + ((tk % 2 === 0) ? 'even' : 'odd') + (isCompact ? ' tune-list-item-compact' : ' tune-list-item-detailed')}
       style={{ borderTop: '2px solid black', borderLeft: '2px solid black', borderRight: '2px solid black' }}
     >
       <div className="tune-list-item-row">
@@ -57,29 +73,29 @@ export default function TuneListRow(props) {
         )}
         <div className="tune-list-item-title-block">
           <span className="tune-list-item-title">
-            <Link style={{ textDecoration: 'none', color: 'black' }} to={linkTo} onClick={function() { props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage', 10) }}>
-              <Button variant="primary" size="lg">
-                {displayTitle}
-                {snapshotMatch ? <b>&nbsp;&nbsp;&nbsp;(PDF)</b> : null}
-                {tune.type && !snapshotMatch ? <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b> : null}
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <span style={{ fontSize: '0.5em' }}>
-                  {snapshotMatch && snapshotMatch.composer ? ' - ' + snapshotMatch.composer : (tune.composer ? ' - ' + tune.composer : '')}
-                </span>
-              </Button>
+            <Link
+              className={'tune-list-title-link' + (isCompact ? ' tune-list-title-link--compact' : '')}
+              to={linkTo}
+              onClick={function() { props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage', 10) }}
+            >
+              <span className="tune-list-title-text">
+                <span className="tune-list-title-name">{displayTitle}</span>
+                {composerLabel ? (
+                  <span className="tune-list-title-composer">
+                    <span className="tune-list-title-sep" aria-hidden="true"> — </span>
+                    {composerLabel}
+                  </span>
+                ) : null}
+              </span>
+              {snapshotMatch ? <span className="tune-list-title-badge">PDF</span> : null}
+              {tune.type && !snapshotMatch ? (
+                <span className="tune-list-title-badge">{String(tune.type).toLowerCase()}</span>
+              ) : null}
             </Link>
           </span>
           {showParentSubtitle ? <div className="small text-muted px-1">in {parentName}</div> : null}
         </div>
         <div className="tune-list-item-meta">
-          <TuneListFilterChips
-            books={tune.books}
-            tags={tune.tags}
-            currentTuneBook={props.currentTuneBook}
-            tagFilter={props.tagFilter}
-            onBookClick={props.onBookClick}
-            onTagClick={props.onTagClick}
-          />
           {showRowExtras ? (
             <>
               <span className="tune-list-item-icons">
@@ -110,7 +126,9 @@ export default function TuneListRow(props) {
               forceRefresh={props.forceRefresh}
             />
           ) : null}
+          {isCompact && filterChips ? <div className="tune-list-item-filter-chips tune-list-item-filter-chips--inline">{filterChips}</div> : null}
         </div>
+        {!isCompact && filterChips ? <div className="tune-list-item-filter-chips">{filterChips}</div> : null}
       </div>
 
       {isPreview && <Abc link={true} scale="0.7" abc={props.tunebook.abcTools.json2abc_cheatsheet(tune)} tunebook={props.tunebook} />}

@@ -43,26 +43,66 @@ export function fixSessionLineBreaksInTune(tune, abcTools) {
   const abcText = abcTools.json2abc(tune);
   const noteLines = getNoteLines(tune);
   const noteFlat = flattenMelodyText(noteLines);
-  const needsFix = needsSessionLineBreakFix(abcText) || needsSessionLineBreakFix(noteFlat);
-  if (!needsFix) return null;
+  const needsAbcFix = needsSessionLineBreakFix(abcText);
+  const needsNoteFix = needsSessionLineBreakFix(noteFlat);
+  if (!needsAbcFix && !needsNoteFix) return null;
 
-  if (needsSessionLineBreakFix(abcText)) {
+  let next = Object.assign({}, tune);
+
+  if (needsAbcFix) {
     const converted = convertSessionLineBreaks(abcText);
     const json = abcTools.abc2json(converted);
     json.id = tune.id;
-    return Object.assign({}, tune, json);
+    next = Object.assign({}, tune, json);
+  } else {
+    const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+    const convertedLines = noteLines.map(function(line) {
+      return convertSessionLineBreaks(String(line || ''));
+    });
+    next.voices = Object.assign({}, tune.voices);
+    next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], {
+      notes: convertedLines,
+    });
   }
 
-  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
-  const convertedLines = noteLines.map(function(line) {
-    return convertSessionLineBreaks(String(line || ''));
-  });
-  const next = Object.assign({}, tune);
-  next.voices = Object.assign({}, tune.voices);
-  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], {
-    notes: convertedLines,
-  });
+  const afterNoteLines = getNoteLines(next);
+  const afterFlat = flattenMelodyText(afterNoteLines);
+  if (needsSessionLineBreakFix(afterFlat)) {
+    const voiceKey = resolvePrimaryVoiceKey(next.voices);
+    const convertedLines = afterNoteLines.map(function(line) {
+      return convertSessionLineBreaks(String(line || ''));
+    });
+    next.voices = Object.assign({}, next.voices);
+    next.voices[voiceKey] = Object.assign({}, next.voices[voiceKey], {
+      notes: convertedLines,
+    });
+  }
+
+  const afterAbc = abcTools.json2abc(next);
+  if (needsSessionLineBreakFix(afterAbc)) {
+    const converted = convertSessionLineBreaks(afterAbc);
+    const json = abcTools.abc2json(converted);
+    json.id = tune.id;
+    next = Object.assign({}, next, json);
+  }
+
   return next;
+}
+
+export function canFixSessionLineBreaks(tune, abcTools) {
+  if (!tune || !abcTools) return false;
+  const abcText = abcTools.json2abc(tune);
+  const noteFlat = flattenMelodyText(getNoteLines(tune));
+  return needsSessionLineBreakFix(abcText) || needsSessionLineBreakFix(noteFlat);
+}
+
+export function canNormalizeMelodyRepeatMarks(tune) {
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return false;
+  const normalized = normalizeMelodyRepeatMarks(noteLines);
+  return normalized.some(function(line, index) {
+    return line !== noteLines[index];
+  });
 }
 
 export function syncTuneFieldsFromAbc(tune, abcTools) {
@@ -137,6 +177,55 @@ export function normalizeMelodyRepeatMarksInTune(tune) {
   return next;
 }
 
+/** End-repeat, zero or more empty bars, then start-repeat (e.g. :| |:, :| | |:). */
+const EMPTY_BARS_BETWEEN_REPEATS_RE = /:\|(?:\s*\|)*\s*\|:/g;
+
+export function hasEmptyBarsBetweenRepeatMarks(flat) {
+  EMPTY_BARS_BETWEEN_REPEATS_RE.lastIndex = 0;
+  return EMPTY_BARS_BETWEEN_REPEATS_RE.test(String(flat || ''));
+}
+
+export function collapseEmptyBarsBetweenRepeatMarks(flat) {
+  if (!hasEmptyBarsBetweenRepeatMarks(flat)) return String(flat || '');
+  return String(flat || '').replace(/:\|(?:\s*\|)*\s*\|:/g, '::');
+}
+
+function normalizeAdjacentRepeatMarks(flat) {
+  return String(flat || '')
+    .replace(/:\|\s*:\|/g, '::')
+    .replace(/\|\s+:/g, '|:')
+    .replace(/:\s+\|/g, ':|');
+}
+
+export function previewCollapseEmptyRepeatMarks(tune) {
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const flat = flattenMelodyText(noteLines);
+  let next = collapseEmptyBarsBetweenRepeatMarks(flat);
+  const normalized = normalizeMelodyRepeatMarks([next]);
+  next = normalized[0] || next;
+  next = normalizeAdjacentRepeatMarks(next);
+  if (next === flat) return null;
+  return next;
+}
+
+export function canCollapseEmptyRepeatBars(tune) {
+  return previewCollapseEmptyRepeatMarks(tune) != null;
+}
+
+export function collapseEmptyRepeatBarsInTune(tune) {
+  const nextFlat = previewCollapseEmptyRepeatMarks(tune);
+  if (!nextFlat) return null;
+
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], {
+    notes: [nextFlat],
+  });
+  return next;
+}
+
 function tuneEndsCleanly(noteLines) {
   const flat = flattenMelodyText(noteLines);
   if (!flat) return false;
@@ -181,6 +270,8 @@ export function previewStructureFix(action, tune, abcTools, parseAndRender) {
     next = fixStanzaDoubleBarlinesInTune(tune, abcTools);
   } else if (action === 'normalizeRepeatMarks') {
     next = normalizeMelodyRepeatMarksInTune(tune);
+  } else if (action === 'collapseEmptyRepeatBars') {
+    next = collapseEmptyRepeatBarsInTune(tune);
   } else if (action === 'normalizeAbc' && typeof parseAndRender === 'function') {
     next = normalizeTuneAbc(tune, abcTools, parseAndRender);
   } else if (action === 'appendFinalBarline') {
@@ -228,6 +319,11 @@ export function structureFixAvailable(action, tune, abcTools, issues) {
   if (action === 'normalizeRepeatMarks') {
     return codes.indexOf('repeat_style_mixed') >= 0;
   }
+  if (action === 'collapseEmptyRepeatBars') {
+    return codes.indexOf('empty_bar') >= 0
+      || codes.indexOf('repeat_style_mixed') >= 0
+      || canCollapseEmptyRepeatBars(tune);
+  }
   if (action === 'normalizeAbc') {
     return codes.indexOf('round_trip_drift') >= 0;
   }
@@ -243,7 +339,8 @@ export const STRUCTURE_FIX_ACTIONS = [
   { id: 'syncHeadersFromAbc', label: 'Sync fields from ABC headers', tier: 'a' },
   { id: 'stanzaDoubleBarlines', label: 'Insert stanza double bar lines', tier: 'a' },
   { id: 'normalizeRepeatMarks', label: 'Normalize repeat mark spacing', tier: 'a' },
-  { id: 'normalizeAbc', label: 'Normalize ABC (preview)', tier: 'b', requiresPreview: true },
+  { id: 'collapseEmptyRepeatBars', label: 'Remove empty bar between repeat marks', tier: 'a' },
+  { id: 'normalizeAbc', label: 'Normalize notation (preview)', tier: 'b', requiresPreview: true },
   { id: 'appendFinalBarline', label: 'Append final bar line (preview)', tier: 'b', requiresPreview: true },
 ];
 

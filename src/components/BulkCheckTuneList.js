@@ -3,9 +3,13 @@ import { Button } from 'react-bootstrap'
 import { SEVERITY_BLUE, SEVERITY_GREEN, SEVERITY_ORANGE, SEVERITY_RED, collectReportIssuesForFixes } from '../tuneBulkCheckReport'
 import { buildBulkCheckIssueGroups, canRunFixAll } from '../bulkCheckIssueGroups'
 import { formatBulkCheckIssueMessage } from '../bulkCheckIssueMessages'
+import { isBulkCheckResolverGatedAction, isBulkCheckSearchAction } from '../bulkCheckSearchAccess'
 import useBulkCheckFixRunner from '../useBulkCheckFixRunner'
 import useAbcjsParser from '../useAbcjsParser'
 import BulkCheckFixPreviewModal from './BulkCheckFixPreviewModal'
+import SearchProgressBar from './SearchProgressBar'
+import { useBulkCheckSearchJobRefresh, useBulkCheckSearchJobStatus } from '../useBulkCheckSearchJobStatus'
+import { useBulkCheckSearchActionAccess } from '../useBulkCheckSearchAccess'
 
 const SEVERITY_CLASS = {
   [SEVERITY_RED]: 'bulk-check-item--red',
@@ -14,10 +18,80 @@ const SEVERITY_CLASS = {
   [SEVERITY_GREEN]: 'bulk-check-item--green',
 }
 
+function BulkCheckSearchActionButton(props) {
+  const action = props.action
+  const access = useBulkCheckSearchActionAccess(
+    action.id,
+    props.tune,
+    props.tunebook,
+    props.token && props.token.access_token ? props.token.access_token : props.token
+  )
+  const jobStatus = useBulkCheckSearchJobStatus(props.tuneId, action.id)
+  const showProgress = !!(jobStatus && (jobStatus.busy || jobStatus.percent > 0))
+  const externalLinkIcon = props.tunebook && props.tunebook.icons ? props.tunebook.icons.externallink : null
+  const label = showProgress && jobStatus.busy ? 'Searching…' : action.label
+  const searchDisabled = props.disabled || !access || access.searchDisabled
+
+  if (access && access.showExternalOnly && access.externalUrl) {
+    return (
+      <Button
+        as="a"
+        href={access.externalUrl}
+        target="_blank"
+        rel="noreferrer"
+        variant="outline-primary"
+        size="sm"
+        title={action.label}
+      >
+        {externalLinkIcon ? <span className="bulk-check-external-link-icon">{externalLinkIcon}</span> : null}
+        {action.label}
+      </Button>
+    )
+  }
+
+  return (
+    <div className="bulk-check-action-button">
+      <Button
+        variant="outline-primary"
+        size="sm"
+        disabled={searchDisabled || (jobStatus && jobStatus.busy)}
+        onClick={props.onClick}
+        title={access && access.needsLogin && access.loginWarning ? access.loginWarning.message : undefined}
+      >
+        {label}
+      </Button>
+      {access && access.externalUrl && access.needsLogin ? (
+        <Button
+          as="a"
+          href={access.externalUrl}
+          target="_blank"
+          rel="noreferrer"
+          variant="outline-secondary"
+          size="sm"
+          className="bulk-check-external-fallback-btn"
+          title={'Open web search for ' + action.label.toLowerCase()}
+        >
+          {externalLinkIcon ? <span className="bulk-check-external-link-icon">{externalLinkIcon}</span> : null}
+          Web
+        </Button>
+      ) : null}
+      {showProgress ? (
+        <SearchProgressBar
+          visible={true}
+          message={jobStatus.message}
+          percent={jobStatus.percent}
+        />
+      ) : null}
+    </div>
+  )
+}
+
 function BulkCheckIssueGroup(props) {
   const group = props.group
   const fixRunner = props.fixRunner
   const isDisabled = fixRunner.isDisabled
+  const tuneId = props.tuneId
+  const tune = props.tune
 
   if (!group || (group.issues.length === 0 && group.actions.length === 0)) {
     return null
@@ -30,9 +104,41 @@ function BulkCheckIssueGroup(props) {
         {group.actions.length > 0 ? (
           <div className="bulk-check-item-group-actions">
             {group.actions.map(function(action) {
+              if (isBulkCheckSearchAction(action.id)) {
+                return (
+                  <BulkCheckSearchActionButton
+                    key={action.id + (action.linkIndex != null ? '-' + action.linkIndex : '')}
+                    action={action}
+                    tuneId={tuneId}
+                    tune={props.tune}
+                    tunebook={props.tunebook}
+                    token={props.token}
+                    disabled={isDisabled}
+                    onClick={function() { fixRunner.runAction(action) }}
+                  />
+                )
+              }
+              if (action.id === 'scanLinkRegion') {
+                const access = props.getSearchAccess
+                  ? props.getSearchAccess(action.id, props.tune)
+                  : null
+                const resolverDisabled = !access || !access.canRunAutomatic
+                return (
+                  <Button
+                    key={action.id + (action.linkIndex != null ? '-' + action.linkIndex : '')}
+                    variant="outline-primary"
+                    size="sm"
+                    disabled={isDisabled || resolverDisabled}
+                    title={access && access.unavailableReason ? access.unavailableReason : undefined}
+                    onClick={function() { fixRunner.runAction(action) }}
+                  >
+                    {action.label}
+                  </Button>
+                )
+              }
               return (
                 <Button
-                  key={action.id}
+                  key={action.id + (action.linkIndex != null ? '-' + action.linkIndex : '')}
                   variant="outline-primary"
                   size="sm"
                   disabled={isDisabled}
@@ -67,7 +173,9 @@ function BulkCheckReportCard(props) {
   const report = props.report
   const isIgnored = !!props.ignoredTuneIds[report.tuneId]
   const severityClass = isIgnored ? 'bulk-check-item--ignored' : (SEVERITY_CLASS[report.severity] || '')
-  const tune = props.tunesById ? props.tunesById[report.tuneId] : null
+  const tune = props.tunesById
+    ? (props.tunesById[report.tuneId] || props.tunesById[String(report.tuneId)])
+    : null
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
 
   const parseAndRender = useMemo(function() {
@@ -92,6 +200,11 @@ function BulkCheckReportCard(props) {
     onIgnoreTune: props.onIgnoreTune,
     onFixComplete: function(updatedTune) { props.onRecheckTune(report.tuneId, updatedTune) },
     forceRefresh: props.forceRefresh,
+    getSearchAccess: props.getSearchAccess,
+  })
+
+  useBulkCheckSearchJobRefresh(report.tuneId, function() {
+    props.onRecheckTune(report.tuneId, null)
   })
 
   const issueGroups = useMemo(function() {
@@ -142,6 +255,11 @@ function BulkCheckReportCard(props) {
             key={group.id}
             group={group}
             fixRunner={fixRunner}
+            tuneId={report.tuneId}
+            tune={tune}
+            tunebook={props.tunebook}
+            token={props.token}
+            getSearchAccess={props.getSearchAccess}
           />
         )
       })}
@@ -156,10 +274,7 @@ function BulkCheckReportCard(props) {
         onConfirm={fixRunner.handlePreviewConfirm}
         preview={fixRunner.previewState ? fixRunner.previewState.preview : null}
         actionLabel={fixRunner.previewState ? fixRunner.previewState.actionLabel : 'Apply fix'}
-        warning={fixRunner.previewState ? fixRunner.previewState.warning : ''}
         fieldDiffs={fixRunner.previewState ? fixRunner.previewState.fieldDiffs : []}
-        tuneId={fixRunner.tuneId}
-        onOpenTune={props.onEditTune}
       />
     </div>
   )
@@ -173,9 +288,10 @@ export default function BulkCheckTuneList(props) {
     const seen = new Set()
     return (props.reports || []).filter(function(report) {
       if (!report || report.tuneId == null) return false
-      if (seen.has(report.tuneId)) return false
-      seen.add(report.tuneId)
-      if (!ignoredTuneIds[report.tuneId]) return true
+      const tuneId = String(report.tuneId)
+      if (seen.has(tuneId)) return false
+      seen.add(tuneId)
+      if (!ignoredTuneIds[report.tuneId] && !ignoredTuneIds[tuneId]) return true
       return showIgnored
     })
   }, [props.reports, ignoredTuneIds, showIgnored])
@@ -195,7 +311,7 @@ export default function BulkCheckTuneList(props) {
       {visibleReports.map(function(report) {
         return (
           <BulkCheckReportCard
-            key={report.tuneId}
+            key={String(report.tuneId)}
             report={report}
             ignoredTuneIds={ignoredTuneIds}
             tunesById={props.tunesById}
@@ -207,6 +323,7 @@ export default function BulkCheckTuneList(props) {
             onUnignoreTune={props.onUnignoreTune}
             onRecheckTune={props.onRecheckTune}
             forceRefresh={props.forceRefresh}
+            getSearchAccess={props.getSearchAccess}
           />
         )
       })}

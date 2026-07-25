@@ -1,30 +1,111 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Button, Form, ListGroup, Modal } from 'react-bootstrap'
 import { toast } from 'react-toastify'
-import ReviewNotationMergePanel from '../ReviewNotationMergePanel'
 import LyricsMergePanel, { buildLyricsMergeResult } from '../mediaImportWizard/LyricsMergePanel'
+import ScratchpadNotationBarPickerPanel from './ScratchpadNotationBarPickerPanel'
 import { getScratchpadBlob } from '../../scratchpadBlobs'
 import { getActiveTake, normalizeAudioProject } from '../../scratchpadAudioProject'
-import { updateScratchpadItem } from '../../scratchpadStore'
+import { updateScratchpadItem, getScratchpadItem } from '../../scratchpadStore'
 import {
   attachScratchpadImageToTune,
   attachScratchpadAudioToTune,
+  attachScratchpadNotationMidiToTune,
   mergeScratchpadNotationIntoTune,
   mergeScratchpadLyricsIntoTune,
   mergeScratchpadBackgroundIntoTune,
-  getScratchpadMelodyNotesText,
-  getTuneMelodyNotesText,
+  getNotationAssociateMergeMode,
+  isNotationAssociateMode,
+  isNotationBarPickerMode,
 } from '../../scratchpadAssociate'
+import {
+  buildDefaultVoiceMapping,
+  countVoiceBars,
+  defaultEndBarForRange,
+  maxVoiceBarCount,
+} from '../../scratchpadNotationMerge'
 import { getPlainLyricLines } from '../../wLinesUtils'
+import { getScratchpadAssociateSuggestions, recordScratchpadAssociateTarget } from '../../scratchpadAssociateRecent'
+import {
+  editorPathForScratchpadAssociate,
+  showScratchpadAssociateSuccessToast,
+} from '../../scratchpadAssociateToast'
+
+function modalTitleForMode(associateMode, itemType, step) {
+  if (isNotationAssociateMode(associateMode)) {
+    if (step === 'pick') return 'Assign notation - Pick a song'
+    return 'Assign notation'
+  }
+  if (associateMode === 'midi') return 'Attach as MIDI link'
+  if (itemType === 'image') return 'Attach snapshot to tune'
+  if (itemType === 'audio') return 'Attach audio to tune'
+  return 'Associate with tune'
+}
+
+function attachLabelForMode(associateMode, notationOperation) {
+  if (associateMode === 'midi') return 'Attach as MIDI link'
+  if (notationOperation === 'insert') return 'Insert'
+  if (notationOperation === 'replace') return 'Replace'
+  if (isNotationAssociateMode(associateMode)) return 'Assign'
+  return 'Attach'
+}
+
+function successMessageForMode(associateMode, tuneName, notationOperation) {
+  const name = tuneName || 'tune'
+  const op = notationOperation || 'merge'
+  if (isNotationAssociateMode(associateMode)) {
+    if (op === 'insert') return 'Inserted into ' + name
+    if (op === 'replace') return 'Replaced notation on ' + name
+    return 'Merged into ' + name
+  }
+  return 'Attached to ' + name
+}
+
+function historyLabelForMode(associateMode, notationOperation) {
+  const op = notationOperation || 'merge'
+  if (isNotationAssociateMode(associateMode)) {
+    if (op === 'insert') return 'Insert scratchpad notation'
+    if (op === 'replace') return 'Replace with scratchpad notation'
+    return 'Merge scratchpad notation'
+  }
+  return 'Associate scratchpad'
+}
+
+function getScratchpadNotationTune(item) {
+  const current = getScratchpadItem(item && item.id) || item
+  if (!current || !current.notation || !current.notation.tuneSnapshot) return null
+  return JSON.parse(JSON.stringify(current.notation.tuneSnapshot))
+}
+
+function sourceBarCountForTune(sourceTune) {
+  if (!sourceTune || !sourceTune.voices) return 0
+  const keys = Object.keys(sourceTune.voices)
+  if (!keys.length) return 0
+  return countVoiceBars(sourceTune.voices[keys[0]].notes, sourceTune)
+}
+
+function maxBarForTune(tune) {
+  if (!tune || !tune.voices) return 1
+  const byKey = {}
+  Object.keys(tune.voices).forEach(function(key) {
+    byKey[key] = tune.voices[key].notes
+  })
+  return Math.max(1, maxVoiceBarCount(byKey, tune))
+}
 
 export default function ScratchpadAssociateModal(props) {
+  const navigate = useNavigate()
   const item = props.item
   const tunes = props.tunes || {}
+  const associateMode = props.associateMode || ''
   const [search, setSearch] = useState('')
   const [selectedTuneId, setSelectedTuneId] = useState('')
   const [step, setStep] = useState('pick')
-  const [melodyChoice, setMelodyChoice] = useState('')
   const [busy, setBusy] = useState(false)
+  const [voiceMapping, setVoiceMapping] = useState({})
+  const [notationOperation, setNotationOperation] = useState('merge')
+  const [fromBar, setFromBar] = useState(1)
+  const [toBar, setToBar] = useState(null)
 
   const tuneList = useMemo(function() {
     const q = String(search || '').trim().toLowerCase()
@@ -39,14 +120,52 @@ export default function ScratchpadAssociateModal(props) {
     }).slice(0, 50)
   }, [tunes, search])
 
+  const suggestedTunes = useMemo(function() {
+    return getScratchpadAssociateSuggestions(tunes, {
+      associateMode: associateMode,
+      linkedTuneId: item && item.linkedTuneId,
+      limit: 10,
+    })
+  }, [tunes, associateMode, item && item.id, item && item.linkedTuneId])
+
   const selectedTune = selectedTuneId ? tunes[selectedTuneId] : null
+  const scratchpadTune = useMemo(function() {
+    return getScratchpadNotationTune(item)
+  }, [item && item.id, item && item.notation])
+
+  useEffect(function() {
+    if (!selectedTune || !scratchpadTune) {
+      setVoiceMapping({})
+      return
+    }
+    setVoiceMapping(buildDefaultVoiceMapping(scratchpadTune, selectedTune))
+  }, [selectedTune && selectedTune.id, scratchpadTune])
+
+  function resetBarRangeForAssign(tune, sourceTune, operation) {
+    const start = 1
+    setFromBar(start)
+    if (operation === 'insert') {
+      setToBar(null)
+      return
+    }
+    const sourceBars = sourceBarCountForTune(sourceTune)
+    setToBar(defaultEndBarForRange(start, sourceBars, maxBarForTune(tune)))
+  }
+
+  useEffect(function() {
+    if (!selectedTune || !scratchpadTune) return
+    resetBarRangeForAssign(selectedTune, scratchpadTune, notationOperation)
+  }, [selectedTune && selectedTune.id, scratchpadTune, notationOperation])
 
   function reset() {
     setSearch('')
     setSelectedTuneId('')
     setStep('pick')
-    setMelodyChoice('')
     setBusy(false)
+    setVoiceMapping({})
+    setNotationOperation('merge')
+    setFromBar(1)
+    setToBar(null)
   }
 
   function handleHide() {
@@ -54,15 +173,29 @@ export default function ScratchpadAssociateModal(props) {
     if (props.onHide) props.onHide()
   }
 
-  function goToMerge() {
-    if (!selectedTune) return
+  function goToBarPicker(tune) {
+    const source = getScratchpadNotationTune(item) || scratchpadTune
+    resetBarRangeForAssign(tune, source, notationOperation)
+    setStep('bar-picker')
+  }
+
+  function goToNextStepForTune(tune) {
+    if (!tune) return
+    setSelectedTuneId(tune.id)
     if (item.type === 'image' || item.type === 'audio') {
       setStep('confirm')
-    } else if (item.type === 'notation') {
-      setMelodyChoice(getScratchpadMelodyNotesText(item))
-      setStep('notation')
-    } else if (item.type === 'text') {
-      if (props.associateMode === 'background') {
+      return
+    }
+    if (item.type === 'notation') {
+      if (associateMode === 'midi') {
+        setStep('confirm-midi')
+        return
+      }
+      goToBarPicker(tune)
+      return
+    }
+    if (item.type === 'text') {
+      if (associateMode === 'background') {
         setStep('background')
       } else {
         setStep('lyrics')
@@ -70,11 +203,40 @@ export default function ScratchpadAssociateModal(props) {
     }
   }
 
-  async function handleAttach() {
-    if (!selectedTune || !props.tunebook) return
+  function goToNextStep() {
+    if (!selectedTune) return
+    goToNextStepForTune(selectedTune)
+  }
+
+  function handlePickPrimary() {
+    if (!selectedTune) return
+    goToNextStep()
+  }
+
+  function handleNotationOperationChange(nextOperation) {
+    const op = nextOperation || 'merge'
+    setNotationOperation(op)
+    if (selectedTune && scratchpadTune) {
+      resetBarRangeForAssign(selectedTune, scratchpadTune, op)
+    }
+  }
+
+  function handleFromBarChange(nextFrom) {
+    const next = Math.max(1, parseInt(nextFrom, 10) || 1)
+    setFromBar(next)
+    if (notationOperation === 'insert') return
+    const sourceBars = sourceBarCountForTune(scratchpadTune)
+    setToBar(defaultEndBarForRange(next, sourceBars, maxBarForTune(selectedTune)))
+  }
+
+  async function handleAttach(tuneOverride) {
+    const targetTune = tuneOverride || selectedTune
+    if (!targetTune || !props.tunebook) return
     setBusy(true)
     try {
-      let tune = Object.assign({}, selectedTune)
+      let tune = JSON.parse(JSON.stringify(targetTune))
+      const sourceNotation = getScratchpadNotationTune(item)
+      const mergeMode = getNotationAssociateMergeMode(associateMode, notationOperation)
 
       if (item.type === 'image') {
         const blob = await getScratchpadBlob(item.image && item.image.blobKey)
@@ -102,14 +264,30 @@ export default function ScratchpadAssociateModal(props) {
           item: Object.assign({}, item, { audio: audio }),
         })
       } else if (item.type === 'notation') {
-        tune = mergeScratchpadNotationIntoTune(
-          tune,
-          item.notation && item.notation.tuneSnapshot,
-          melodyChoice,
-          'append'
-        )
+        if (!sourceNotation) throw new Error('Scratchpad notation is empty')
+        if (associateMode === 'midi') {
+          tune = await attachScratchpadNotationMidiToTune(
+            tune,
+            sourceNotation,
+            {
+              tunebook: props.tunebook,
+              title: item.title || 'Scratchpad notation MIDI',
+              token: props.token,
+              uploadToDrive: false,
+              scratchpadItemId: item.id,
+            }
+          )
+        } else {
+          tune = mergeScratchpadNotationIntoTune(
+            tune,
+            sourceNotation,
+            '',
+            mergeMode,
+            { voiceMapping: voiceMapping, fromBar: fromBar, toBar: toBar }
+          )
+        }
       } else if (item.type === 'text') {
-        if (props.associateMode === 'background') {
+        if (associateMode === 'background') {
           tune = mergeScratchpadBackgroundIntoTune(
             tune,
             String(item.text && item.text.body || ''),
@@ -117,7 +295,7 @@ export default function ScratchpadAssociateModal(props) {
           )
         } else {
           const merged = buildLyricsMergeResult(
-            getPlainLyricLines(selectedTune),
+            getPlainLyricLines(targetTune),
             String(item.text && item.text.body || '').split('\n')
           )
           const lines = Array.isArray(merged) ? merged : String(merged).split('\n')
@@ -125,10 +303,24 @@ export default function ScratchpadAssociateModal(props) {
         }
       }
 
-      tune.id = selectedTune.id
-      await props.tunebook.saveTune(tune, false, { historyLabel: 'Associate scratchpad', immediate: true })
-      updateScratchpadItem(item.id, { linkedTuneId: selectedTune.id })
-      toast.success('Attached to ' + (selectedTune.name || 'tune'))
+      tune.id = targetTune.id
+      await props.tunebook.saveTune(tune, false, {
+        historyLabel: historyLabelForMode(associateMode, notationOperation),
+        immediate: true,
+      })
+      if (props.tunebook.forceRefresh) props.tunebook.forceRefresh()
+      updateScratchpadItem(item.id, { linkedTuneId: targetTune.id })
+      const recentMode = isNotationAssociateMode(associateMode)
+        ? ('notation:' + mergeMode)
+        : associateMode
+      recordScratchpadAssociateTarget(targetTune.id, targetTune.name, recentMode)
+      showScratchpadAssociateSuccessToast({
+        message: successMessageForMode(associateMode, targetTune.name, notationOperation),
+        tuneId: targetTune.id,
+        onOpenTune: function(tuneId) {
+          navigate(editorPathForScratchpadAssociate(associateMode, tuneId))
+        },
+      })
       if (props.onAssociated) props.onAssociated()
       handleHide()
     } catch (e) {
@@ -138,16 +330,63 @@ export default function ScratchpadAssociateModal(props) {
     }
   }
 
+  function handleSuggestedTunePick(tune) {
+    goToNextStepForTune(tune)
+  }
+
+  const modalTitle = modalTitleForMode(associateMode, item && item.type, step)
+  const attachLabel = attachLabelForMode(associateMode, notationOperation)
+  const mergeMode = getNotationAssociateMergeMode(associateMode, notationOperation)
+  const notationFullscreen = isNotationBarPickerMode(associateMode)
+
   return (
-    <Modal show={!!props.show} onHide={handleHide} size="lg" centered scrollable>
+    <Modal
+      show={!!props.show}
+      onHide={handleHide}
+      size={notationFullscreen ? undefined : 'lg'}
+      centered={!notationFullscreen}
+      scrollable
+      fullscreen={notationFullscreen || undefined}
+      className={'scratchpad-associate-modal' + (notationFullscreen ? ' scratchpad-associate-modal--notation' : '')}
+      contentClassName={notationFullscreen ? 'scratchpad-associate-modal-content' : undefined}
+    >
       <Modal.Header closeButton>
-        <Modal.Title>Associate with tune</Modal.Title>
+        <Modal.Title>{modalTitle}</Modal.Title>
       </Modal.Header>
-      <Modal.Body>
+      <Modal.Body className={step === 'bar-picker' ? 'scratchpad-associate-modal-body--bar-picker' : undefined}>
         {step === 'pick' ? (
           <>
+            {suggestedTunes.length ? (
+              <div className="scratchpad-associate-tune-suggestions mb-3">
+                <div className="small text-muted mb-1">Suggestions</div>
+                <div className="scratchpad-associate-tune-suggestions__buttons">
+                  {suggestedTunes.map(function(entry) {
+                    const tune = entry.tune
+                    const composer = String(tune.composer || '').trim()
+                    return (
+                      <Button
+                        key={tune.id}
+                        size="sm"
+                        variant="outline-secondary"
+                        className="scratchpad-associate-tune-suggestion-btn"
+                        onClick={function() { handleSuggestedTunePick(tune) }}
+                        title={composer ? ((tune.name || 'Untitled') + ' — ' + composer) : (tune.name || 'Untitled')}
+                      >
+                        <span className="scratchpad-associate-tune-suggestion-text">
+                          <span className="scratchpad-associate-tune-suggestion-label">{tune.name || 'Untitled'}</span>
+                          {composer ? (
+                            <span className="scratchpad-associate-tune-suggestion-composer text-muted">{composer}</span>
+                          ) : null}
+                        </span>
+                      </Button>
+                    )
+                  })}
+                </div>
+              </div>
+            ) : null}
             <Form.Control
               className="mb-2"
+              type="search"
               placeholder="Search tunes…"
               value={search}
               onChange={function(e) { setSearch(e.target.value) }}
@@ -160,6 +399,7 @@ export default function ScratchpadAssociateModal(props) {
                     action
                     active={selectedTuneId === tune.id}
                     onClick={function() { setSelectedTuneId(tune.id) }}
+                    onDoubleClick={function() { goToNextStepForTune(tune) }}
                   >
                     {tune.name}
                     {tune.composer ? <span className="text-muted"> — {tune.composer}</span> : null}
@@ -177,16 +417,25 @@ export default function ScratchpadAssociateModal(props) {
           </p>
         ) : null}
 
-        {step === 'notation' && selectedTune ? (
-          <ReviewNotationMergePanel
-            currentText={getTuneMelodyNotesText(selectedTune)}
-            importedText={getScratchpadMelodyNotesText(item)}
-            metadata={{
-              meter: selectedTune.meter,
-              noteLength: selectedTune.noteLength,
-              key: selectedTune.key,
-            }}
-            onChange={setMelodyChoice}
+        {step === 'confirm-midi' && selectedTune ? (
+          <p>
+            Attach <strong>{item.title}</strong> to <strong>{selectedTune.name}</strong> as a MIDI link?
+          </p>
+        ) : null}
+
+        {step === 'bar-picker' && selectedTune && scratchpadTune ? (
+          <ScratchpadNotationBarPickerPanel
+            tune={selectedTune}
+            sourceTune={scratchpadTune}
+            sourceTitle={item.title}
+            voiceMapping={voiceMapping}
+            onVoiceMappingChange={setVoiceMapping}
+            mode={mergeMode}
+            onModeChange={handleNotationOperationChange}
+            fromBar={fromBar}
+            onFromBarChange={handleFromBarChange}
+            toBar={toBar}
+            onToBarChange={setToBar}
           />
         ) : null}
 
@@ -204,14 +453,26 @@ export default function ScratchpadAssociateModal(props) {
         ) : null}
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={handleHide}>Cancel</Button>
-        {step === 'pick' ? (
-          <Button variant="primary" disabled={!selectedTuneId} onClick={goToMerge}>Next</Button>
-        ) : (
-          <Button variant="success" disabled={busy} onClick={handleAttach}>
-            {busy ? 'Saving…' : 'Attach & merge'}
+        {step === 'bar-picker' ? (
+          <Button
+            variant="outline-secondary"
+            onClick={function() { setStep('pick') }}
+            disabled={busy}
+          >
+            Back
           </Button>
-        )}
+        ) : null}
+        <Button variant="secondary" onClick={handleHide} disabled={busy}>Cancel</Button>
+        {step === 'pick' ? (
+          <Button variant="primary" disabled={!selectedTuneId || busy} onClick={handlePickPrimary}>
+            Next
+          </Button>
+        ) : null}
+        {step !== 'pick' ? (
+          <Button variant="success" disabled={busy} onClick={function() { handleAttach() }}>
+            {busy ? 'Saving…' : attachLabel}
+          </Button>
+        ) : null}
       </Modal.Footer>
     </Modal>
   )

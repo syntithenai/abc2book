@@ -37,6 +37,7 @@ import {
   summarizeImportMergeFieldCounts,
   tuneToFormValues,
 } from '../importReviewFieldUtils';
+import { mergeBibliographicList } from '../tuneBibliographicUtils';
 import {
   fieldLookupJobIdsForCandidate,
   fieldLookupKindsForCandidate,
@@ -1228,7 +1229,10 @@ export default function ImportReviewModal(props) {
     }
     if (kind === 'genre' && result && result.genre) {
       patchFormValues(function(current) {
-        return Object.assign({}, current, { genre: result.genre });
+        const genres = Array.isArray(current.genres) ? current.genres.slice() : [];
+        return Object.assign({}, current, {
+          genres: mergeBibliographicList(genres, [result.genre]),
+        });
       });
       return;
     }

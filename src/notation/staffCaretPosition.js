@@ -455,6 +455,95 @@ function clickHitsNote(noteEl, clickX, clickY) {
     && clickY <= rect.bottom + 1;
 }
 
+/** True when the click target is a staff header glyph (clef, key, meter, tempo). */
+export function isStaffHeaderDomTarget(target) {
+  if (!target || !target.closest) return false;
+  return !!target.closest('.abcjs-clef, .abcjs-key-signature, .abcjs-meter, .abcjs-tempo');
+}
+
+/** Horizontal insert bounds from notehead geometry (ignores stem width). */
+function noteInsertBounds(noteEl) {
+  const rects = noteheadClientRects(noteEl);
+  if (!rects.length) {
+    const rect = noteEl.getBoundingClientRect();
+    return {
+      left: rect.left,
+      right: rect.right,
+      mid: rect.left + rect.width * 0.5,
+    };
+  }
+  let left = Infinity;
+  let right = -Infinity;
+  rects.forEach(function(r) {
+    left = Math.min(left, r.left);
+    right = Math.max(right, r.right);
+  });
+  return {
+    left: left,
+    right: right,
+    mid: left + (right - left) * 0.5,
+  };
+}
+
+/** Client rects for noteheads (excludes stems). */
+function noteheadClientRects(noteEl) {
+  const rects = [];
+  if (!noteEl) return rects;
+  const paths = noteEl.querySelectorAll ? noteEl.querySelectorAll('path, ellipse') : [];
+  for (let i = 0; i < paths.length; i += 1) {
+    const p = paths[i];
+    const cls = String(p.className && (p.className.baseVal || p.className) || '');
+    if (cls.indexOf('stem') >= 0 || cls.indexOf('ledger') >= 0) continue;
+    const r = p.getBoundingClientRect();
+    if (r.width < 4 || r.height < 4 || r.height > 18) continue;
+    rects.push(r);
+  }
+  if (rects.length) return rects;
+  const rect = noteEl.getBoundingClientRect();
+  if (rect.width <= 0 || rect.height <= 0) return rects;
+  if (rect.height <= rect.width * 1.6) {
+    rects.push(rect);
+    return rects;
+  }
+  const headH = Math.min(14, rect.height * 0.35);
+  rects.push({
+    left: rect.left,
+    right: rect.right,
+    top: rect.bottom - headH,
+    bottom: rect.bottom,
+    width: rect.width,
+    height: headH,
+  });
+  return rects;
+}
+
+function clientRectIntersectsMarquee(rect, left, right, top, bottom) {
+  return rect.right >= left && rect.left <= right && rect.bottom >= top && rect.top <= bottom;
+}
+
+/** True when any notehead overlaps a client-space marquee. */
+export function noteheadIntersectsMarquee(noteEl, left, right, top, bottom) {
+  const rects = noteheadClientRects(noteEl);
+  for (let i = 0; i < rects.length; i += 1) {
+    if (clientRectIntersectsMarquee(rects[i], left, right, top, bottom)) return true;
+  }
+  return false;
+}
+
+/** True when the pointer is on the notehead, not the stem or empty stem padding. */
+export function clickHitsNotehead(noteEl, clickX, clickY) {
+  if (!noteEl || clickX == null || clickY == null) return false;
+  const rects = noteheadClientRects(noteEl);
+  for (let i = 0; i < rects.length; i += 1) {
+    const r = rects[i];
+    if (clickX >= r.left - 2 && clickX <= r.right + 2
+      && clickY >= r.top - 2 && clickY <= r.bottom + 2) {
+      return true;
+    }
+  }
+  return false;
+}
+
 /**
  * Map a horizontal click on one system line to a caret slot between/around notes and barlines.
  * Notes and barlines are interleaved by X so clicks in empty measures (between bars) resolve
@@ -485,18 +574,28 @@ function caretFromLineDrawables(list, drawables, bars, lineDrawables, lineBars, 
   });
 
   const targets = [];
+  let rightmostNoteDomIdx = -1;
+  sortedNotes.forEach(function(el) {
+    const domIdx = findDrawableDomIndex(drawables, el);
+    if (domIdx >= 0 && domIdx >= rightmostNoteDomIdx) rightmostNoteDomIdx = domIdx;
+  });
   sortedNotes.forEach(function(el) {
     const rect = el.getBoundingClientRect();
     const domIdx = findDrawableDomIndex(drawables, el);
     if (domIdx < 0) return;
+    const head = noteInsertBounds(el);
+    const afterNote = caretIndexForDrawableDomIndex(list, domIdx, true);
+    const terminalNote = domIdx === rightmostNoteDomIdx
+      && terminalAppendIndex(list, afterNote) === list.length;
     targets.push({
       kind: 'note',
       el: el,
-      left: rect.left,
-      right: rect.right,
-      mid: rect.left + rect.width * 0.5,
+      left: head.left,
+      right: head.right + (terminalNote ? 72 : 4),
+      mid: head.mid,
       rect: rect,
       domIdx: domIdx,
+      terminalNote: terminalNote,
     });
   });
   sortedBars.forEach(function(el) {
@@ -929,6 +1028,49 @@ export function staffSelectionAnchorRects(wrapEl, events, eventIds, voiceStaffIn
 }
 
 /**
+ * Apply abcjs-style selection classes on staff drawables (notes turn blue).
+ * Scoped to one voice staff — does not disturb other displayed voices.
+ */
+export function syncStaffSelectionHighlight(wrapEl, events, eventIds, voiceStaffIndex) {
+  if (!wrapEl) return;
+  const drawables = drawableElementsForVoice(wrapEl, voiceStaffIndex);
+  const bars = barlineElementsForVoice(wrapEl, voiceStaffIndex);
+  drawables.forEach(function(el) {
+    el.classList.remove('abcjs-note_selected');
+    el.classList.remove('notation-rest-selected');
+  });
+  bars.forEach(function(el) {
+    el.classList.remove('notation-barline-selected');
+  });
+  if (!Array.isArray(events) || !eventIds || !eventIds.length) return;
+
+  const idSet = {};
+  eventIds.forEach(function(id) { idSet[id] = true; });
+  let drawableSeen = -1;
+  let barSeen = -1;
+
+  events.forEach(function(ev) {
+    if (isBarlineEvent(ev)) {
+      barSeen += 1;
+      if (!idSet[ev.id]) return;
+      const el = bars[barSeen];
+      if (el) el.classList.add('notation-barline-selected');
+      return;
+    }
+    if (!isStaffDrawableEvent(ev)) return;
+    drawableSeen += 1;
+    if (!idSet[ev.id]) return;
+    const el = drawables[drawableSeen];
+    if (!el) return;
+    if (ev.type === 'rest') {
+      el.classList.add('notation-rest-selected');
+    } else if (ev.type === 'note' || ev.type === 'chord') {
+      el.classList.add('abcjs-note_selected');
+    }
+  });
+}
+
+/**
  * Notehead centers for pitched selected events, relative to the staff wrap.
  * Used so pitch-drag landing ghosts sit on the same staff positions notes land on.
  */
@@ -1011,7 +1153,12 @@ export function staffMarqueeSelectEventIds(wrapEl, events, marquee, voiceStaffIn
     if (!isStaffDrawableEvent(ev)) return;
     drawableSeen += 1;
     const el = drawables[drawableSeen];
-    if (el && centerIn(el.getBoundingClientRect())) ids.push(ev.id);
+    if (!el) return;
+    if (ev.type === 'note' || ev.type === 'chord') {
+      if (noteheadIntersectsMarquee(el, left, right, top, bottom)) ids.push(ev.id);
+      return;
+    }
+    if (centerIn(el.getBoundingClientRect())) ids.push(ev.id);
   });
   return ids;
 }

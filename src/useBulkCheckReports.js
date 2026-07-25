@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { buildTuneCheckReport } from './tuneBulkCheckReport'
+import { normalizeTuneId } from './bulkCheckTuneSync'
 import { yieldToMain } from './tuneDuplicateScan'
 
 const BATCH_SIZE = 8
@@ -23,7 +24,7 @@ function tuneCacheKey(tune, options) {
     }).join(';')
     linkSuffix = ':links:' + (linkCtx.linksChecked ? '1' : '0') + ':' + failureKey + ':' + warningKey
   }
-  return tune.id + ':' + hash + ':' + (tune.lastUpdated || '') + linkSuffix
+  return normalizeTuneId(tune.id) + ':' + hash + ':' + (tune.lastUpdated || '') + linkSuffix
 }
 
 function dedupeReportsByTuneId(reports) {
@@ -31,8 +32,9 @@ function dedupeReportsByTuneId(reports) {
   const deduped = []
   reports.forEach(function(report) {
     if (!report || report.tuneId == null) return
-    if (seen.has(report.tuneId)) return
-    seen.add(report.tuneId)
+    const tuneId = normalizeTuneId(report.tuneId)
+    if (!tuneId || seen.has(tuneId)) return
+    seen.add(tuneId)
     deduped.push(report)
   })
   return deduped
@@ -62,7 +64,7 @@ function buildReportForTune(tune, checkOptions, options) {
 
 export function invalidateTuneReportCache(tuneId) {
   if (tuneId == null) return
-  const prefix = String(tuneId) + ':'
+  const prefix = normalizeTuneId(tuneId) + ':'
   reportCache.forEach(function(_value, key) {
     if (key.indexOf(prefix) === 0) reportCache.delete(key)
   })
@@ -81,16 +83,26 @@ export default function useBulkCheckReports(selectedTunes, checkOptions, enabled
   }, [reports])
 
   const refreshTuneReport = useCallback(function(tune) {
-    if (!tune || !tune.id) return
-    invalidateTuneReportCache(tune.id)
+    if (!tune || tune.id == null) return
+    const tuneId = normalizeTuneId(tune.id)
+    invalidateTuneReportCache(tuneId)
     const report = buildReportForTune(tune, checkOptions, { bypassCache: true })
     if (!report) return
     setReports(function(prev) {
-      const next = prev.slice()
-      const index = next.findIndex(function(item) { return item.tuneId === report.tuneId })
-      if (index >= 0) next[index] = report
-      else next.push(report)
-      return sortReports(next)
+      const next = []
+      let replaced = false
+      prev.forEach(function(item) {
+        if (normalizeTuneId(item.tuneId) === tuneId) {
+          if (!replaced) {
+            next.push(report)
+            replaced = true
+          }
+        } else {
+          next.push(item)
+        }
+      })
+      if (!replaced) next.push(report)
+      return sortReports(dedupeReportsByTuneId(next))
     })
   }, [checkOptions])
 
@@ -106,9 +118,10 @@ export default function useBulkCheckReports(selectedTunes, checkOptions, enabled
     const runId = runIdRef.current + 1
     runIdRef.current = runId
     let cancelled = false
+    const priorReports = dedupeReportsByTuneId(reportsRef.current)
 
     async function run() {
-      const showIncrementalProgress = reportsRef.current.length === 0
+      const showIncrementalProgress = priorReports.length === 0
       setRunning(true)
       setProgressPercent(0)
       setProgressMessage('Analyzing tunes...')
@@ -121,13 +134,15 @@ export default function useBulkCheckReports(selectedTunes, checkOptions, enabled
         const end = Math.min(start + BATCH_SIZE, total)
         for (let i = start; i < end; i += 1) {
           const tune = selectedTunes[i]
-          if (!tune || tune.id == null || seenTuneIds.has(tune.id)) continue
-          seenTuneIds.add(tune.id)
+          if (!tune || tune.id == null) continue
+          const tuneId = normalizeTuneId(tune.id)
+          if (seenTuneIds.has(tuneId)) continue
+          seenTuneIds.add(tuneId)
           const report = buildReportForTune(tune, checkOptions)
           if (report) built.push(report)
         }
         if (showIncrementalProgress) {
-          setReports(sortReports(built))
+          setReports(sortReports(dedupeReportsByTuneId(built)))
         }
         setProgressPercent(Math.round((end / total) * 100))
         setProgressMessage('Analyzed ' + end + ' of ' + total + ' tunes')
@@ -137,7 +152,7 @@ export default function useBulkCheckReports(selectedTunes, checkOptions, enabled
       }
 
       if (!cancelled && runIdRef.current === runId) {
-        setReports(sortReports(built))
+        setReports(sortReports(dedupeReportsByTuneId(built)))
         setRunning(false)
         setProgressPercent(100)
         setProgressMessage('Analysis complete')

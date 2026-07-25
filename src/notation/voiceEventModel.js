@@ -7,7 +7,7 @@ import {
   beatsToDuration,
 } from './beatGrid';
 import { decorationKeyFromAbcjs } from './notationTokens';
-import { defaultNoteExtensions } from './notationMarks';
+import { defaultNoteExtensions, FINGER_LABEL_ABC_PREFIX } from './notationMarks';
 
 let nextEventSeq = 1;
 
@@ -86,14 +86,27 @@ function pitchFromAbcjsName(name) {
 function parseDecorations(symbol) {
   const decorations = [];
   let abcLeading = '';
+  let fingeringLabel = '';
   if (Array.isArray(symbol.decoration)) {
     symbol.decoration.forEach(function(name) {
+      const text = String(name || '');
+      if (text.indexOf(FINGER_LABEL_ABC_PREFIX) === 0 && text.length > FINGER_LABEL_ABC_PREFIX.length) {
+        if (!fingeringLabel) fingeringLabel = text.slice(FINGER_LABEL_ABC_PREFIX.length);
+        return;
+      }
       const key = decorationKeyFromAbcjs(name);
       if (key) decorations.push(key);
-      else abcLeading += '!' + name + '!';
+      else abcLeading += '!' + text + '!';
     });
   }
-  return { decorations: decorations, abcLeading: abcLeading };
+  if (!fingeringLabel && abcLeading) {
+    const match = abcLeading.match(new RegExp('^!' + FINGER_LABEL_ABC_PREFIX + '([^!]*)!'));
+    if (match) {
+      fingeringLabel = match[1];
+      abcLeading = abcLeading.replace(new RegExp('^!' + FINGER_LABEL_ABC_PREFIX + '[^!]*!'), '');
+    }
+  }
+  return { decorations: decorations, abcLeading: abcLeading, fingeringLabel: fingeringLabel };
 }
 
 function parseGraceNotes(symbol, unitLengthDecimal) {
@@ -250,6 +263,30 @@ function symbolToEvent(symbol, unitLengthDecimal, ctx) {
   return ev;
 }
 
+function extractSerializedFingeringLabels(body) {
+  const labels = [];
+  const re = /!fgr([^!]+)!/g;
+  let match;
+  while ((match = re.exec(String(body || ''))) !== null) {
+    labels.push(match[1]);
+  }
+  return labels;
+}
+
+function applySerializedFingeringLabels(events, body) {
+  const labels = extractSerializedFingeringLabels(body);
+  if (!labels.length) return events;
+  let noteIdx = 0;
+  events.forEach(function(ev) {
+    if (ev.type !== 'note' && ev.type !== 'chord') return;
+    if (labels[noteIdx]) {
+      ev.fingeringLabel = labels[noteIdx];
+    }
+    noteIdx += 1;
+  });
+  return events;
+}
+
 export function parseVoiceEvents(voiceBody, tuneMeta) {
   const meter = tuneMeta && tuneMeta.meter ? tuneMeta.meter : '4/4';
   const noteLength = tuneMeta && tuneMeta.noteLength ? tuneMeta.noteLength : '';
@@ -302,6 +339,7 @@ export function parseVoiceEvents(voiceBody, tuneMeta) {
     });
   });
   stampSlurGroupMembers(events);
+  applySerializedFingeringLabels(events, body);
   return assignTimingToEvents(events, meter, unit);
 }
 

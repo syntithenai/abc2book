@@ -24,4 +24,11 @@ describe('mediaLinkSrcType', function() {
       mediaKind: 'audio',
     }, isYoutubeLink)).toBe('recording')
   })
+
+  test('resolveLinkPlaybackSrcType treats owned links with .mid titles as midifile', function() {
+    expect(resolveLinkPlaybackSrcType({
+      link: 'abcbook-recording:abc123',
+      title: 'scratchpad.notation.mid',
+    }, isYoutubeLink)).toBe('midifile')
+  })
 })

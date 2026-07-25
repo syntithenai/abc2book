@@ -33,14 +33,6 @@ export function stripBlockLyricsFromDisplayAbc(abcText) {
   }).join('\n');
 }
 
-function notationDisplayAbc(tune, tunebook) {
-  if (!tune || !tunebook || !tunebook.abcTools) return '';
-  // Include syllable-aligned lyrics under the staff; keep embedded chord symbols.
-  return stripNotationDisplayMetadata(
-    buildAbcWithNoteSpacing(tune, tunebook.abcTools, { includeLyrics: true })
-  );
-}
-
 /** Build ABC for editor display: active voice only, with live edits merged. */
 export function buildEditorDisplayAbc(tune, tunebook, voiceKey, liveVoiceBody) {
   if (!tune || !tunebook || !tunebook.abcTools) return '';
@@ -107,6 +99,16 @@ export function buildAbcPreviewFromBodies(tune, tunebook, voiceKeys, bodyTextsBy
   });
   if (!Object.keys(tuneCopy.voices).length) return '';
   return notationDisplayAbc(tuneCopy, tunebook);
+}
+
+function notationDisplayAbc(tune, tunebook, options) {
+  if (!tune || !tunebook || !tunebook.abcTools) return '';
+  const opts = options || {};
+  return stripNotationDisplayMetadata(
+    buildAbcWithNoteSpacing(tune, tunebook.abcTools, {
+      includeLyrics: opts.includeLyrics !== false,
+    })
+  );
 }
 
 /** Voice label for UI: display name from meta when set, otherwise Voice N from the voice key. */

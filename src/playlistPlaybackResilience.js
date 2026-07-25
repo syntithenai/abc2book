@@ -3,6 +3,7 @@ import {
   getCurrentItem,
   advanceQueue,
   resolvePlaybackForItem,
+  isExternalQueueItem,
 } from './nowPlayingQueue'
 import {
   isNavigatorOffline,
@@ -10,6 +11,7 @@ import {
 } from './offlinePlayback'
 
 export function isQueueItemPlayable(tune, item, tunebook) {
+  if (isExternalQueueItem(item)) return true
   return !!resolvePlaybackForItem(tune, item, tunebook)
 }
 
@@ -31,6 +33,7 @@ export function findFirstPlayableQueueIndex(queue, tunes, tunebook) {
   if (!isQueueActive(queue)) return -1
   for (let i = 0; i < queue.items.length; i++) {
     const item = queue.items[i]
+    if (isExternalQueueItem(item)) return i
     const tune = item && item.tuneId && tunes ? tunes[item.tuneId] : null
     if (isQueueItemPlayable(tune, item, tunebook)) {
       return i
@@ -69,8 +72,11 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
 
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     const item = getCurrentItem(workingQueue)
+    if (isExternalQueueItem(item)) {
+      return { queue: workingQueue, tune: null, item: item, atEnd: false, skipped: skipped }
+    }
     const tune = item && item.tuneId && tunes ? tunes[item.tuneId] : null
-    if (!tune || !item) {
+    if (!item) {
       return { queue: workingQueue, tune: null, item: null, atEnd: true, skipped: skipped }
     }
 

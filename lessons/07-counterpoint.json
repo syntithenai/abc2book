@@ -1,0 +1,103 @@
+{
+  "id": "07-counterpoint",
+  "title": "07 Counterpoint",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "05-harmony/07-counterpoint.md",
+  "sections": [
+    {
+      "id": "counterpoint-independent-melodic-lines",
+      "title": "Counterpoint: Independent Melodic Lines",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** harmony | **Difficulty:** 9/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Counterpoint combines melodies so each line remains intelligible while harmonising together."
+        }
+      ]
+    },
+    {
+      "id": "species-counterpoint",
+      "title": "Species counterpoint",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Gradus ad Parnassum tradition: stepwise motion, consonance on strong beats, careful dissonance treatment. Foundation for Bach fugues."
+        }
+      ]
+    },
+    {
+      "id": "motion-types",
+      "title": "Motion types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Contrary**: voices move opposite directions. **Parallel**: same direction. **Oblique**: one holds, other moves. Contrary and oblique preserve independence."
+        }
+      ]
+    },
+    {
+      "id": "in-trad",
+      "title": "In trad",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Pipe regulators, harp bass, twin-fiddle harmony. Lines need not share rhythm. Sing each line alone — if it sounds random, simplify."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-counterpoints-goal",
+      "title": "Q1. Counterpoint's goal:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Independent coherent melodic lines combined\n- B) Unison always\n- C) No dissonance ever\n- D) Percussion only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-contrary-motion-one-ascends-other-descends",
+      "title": "Q2. Contrary motion: one ascends, other descends.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Counterpoint's goal:\n\n- A) Independent coherent melodic lines combined\n- B) Unison always\n- C) No dissonance ever\n- D) Percussion only\n\n**Answer:** A\n\n### Q2. Contrary motion: one ascends, other descends.\n\n**Answer:** True"
+}

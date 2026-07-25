@@ -38,6 +38,7 @@ import { fillEmptyTuneFieldsFromMeta } from '../applyChordSheetToTune'
 import { noteLinesHaveRealMelody } from '../timedImportFinalizer'
 import { listLyricSections } from '../lyricStructureUtils'
 import { tuneHasLyricEmbeddedChords } from '../timedLyricsChordsDisplay'
+import { allGenres } from '../tuneBibliographicUtils'
 
 const AUTOSAVE_MS = 400
 
@@ -629,10 +630,11 @@ export default function ChordsWizard(props) {
               title={tune.name}
               artist={tune.composer || ''}
               rhythm={tune.rhythm || ''}
-              currentGenre={tune.genre || ''}
+              currentGenres={allGenres(tune)}
               onGenreAccept={props.onGenreAccept}
               token={props.token}
               tunebook={props.tunebook}
+              autoStartSearch={props.autoStartChordSearch}
               showLyricsCheckbox={false}
               defaultUpdateLyrics={false}
               confirmOverwrite={true}

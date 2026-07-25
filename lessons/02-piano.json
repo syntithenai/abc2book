@@ -1,0 +1,114 @@
+{
+  "id": "02-piano",
+  "title": "02 Piano",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/02-piano.md",
+  "sections": [
+    {
+      "id": "piano",
+      "title": "Piano",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The piano is a keyboard chordophone where hammers strike strings. 88 keys (standard) span over seven octaves in equal temperament. Invented c. 1700 by Bartolomeo Cristofori in Italy."
+        }
+      ]
+    },
+    {
+      "id": "mechanism",
+      "title": "Mechanism",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Key depression launches felt hammer; damper stops vibration on release. Sustain pedal lifts all dampers. Cast-iron frame (19th century) withstands 20+ tons string tension."
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Grand piano: horizontal strings, superior control — concert halls. Upright: vertical strings, domestic and school use. Fortepiano (historical) has lighter touch and quicker decay."
+        }
+      ]
+    },
+    {
+      "id": "in-music",
+      "title": "In music",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Solo repertoire from Bach to contemporary. Accompaniment for songs and céilí bands. Compositional tool — harmonic and contrapuntal possibilities in two hands. Cristofori solved hammer escapement; Steinway developed cross-stringing and duplex scaling."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-piano-inventor",
+      "title": "Q1. Piano inventor:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Bartolomeo Cristofori\n- B) Antonio Stradivari\n- C) Adolphe Sax\n- D) Leo Fender\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-standard-modern-piano-has-88-keys",
+      "title": "Q2. Standard modern piano has 88 keys.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-sustain-pedal",
+      "title": "Q3. Sustain pedal:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Lifts dampers to allow notes to ring\n- B) Makes piano quieter only\n- C) Changes tuning\n- D) Mutes all strings permanently\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Piano inventor:\n\n- A) Bartolomeo Cristofori\n- B) Antonio Stradivari\n- C) Adolphe Sax\n- D) Leo Fender\n\n**Answer:** A\n\n### Q2. Standard modern piano has 88 keys.\n\n**Answer:** True\n\n### Q3. Sustain pedal:\n\n- A) Lifts dampers to allow notes to ring\n- B) Makes piano quieter only\n- C) Changes tuning\n- D) Mutes all strings permanently\n\n**Answer:** A"
+}

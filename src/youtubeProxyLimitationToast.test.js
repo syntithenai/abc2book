@@ -60,6 +60,32 @@ describe('maybeNotifyYoutubeProxyLimitation', function() {
     toast.warning.mockClear()
   })
 
+  test('warns when shared resolver needs login for youtube pitch', function() {
+    maybeNotifyYoutubeProxyLimitation({
+      settings: { pitch: 2, fineTune: 0, audioFilters: null },
+      srcType: 'youtube',
+      resolverFeatures: { proxy: true, youtubeAudio: true },
+      resolverStatus: {
+        available: false,
+        candidates: [{
+          base: 'https://resolver.example',
+          reachable: true,
+          requireAuth: true,
+          available: false,
+          authReason: 'login_required',
+        }],
+      },
+      accessToken: null,
+      tuneId: 't1',
+      linkIndex: 0,
+      activated: true,
+      externalPitchUnavailable: true,
+    })
+    expect(toast.warning).toHaveBeenCalledTimes(1)
+    expect(String(toast.warning.mock.calls[0][0])).toMatch(/YouTube pitch shift/i)
+    expect(String(toast.warning.mock.calls[0][0])).toMatch(/Google login/i)
+  })
+
   test('warns on non-chrome when pitch shift needs cloud youtube proxy', function() {
     maybeNotifyYoutubeProxyLimitation({
       settings: { pitch: 2, fineTune: 0, audioFilters: null },

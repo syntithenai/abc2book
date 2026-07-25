@@ -83,9 +83,23 @@ export function capitalizeSongTitle(raw) {
   return tokens.join('')
 }
 
+/** True when every word starts with uppercase and the rest is lowercase. */
+function isLooselyTitleCased(text) {
+  const words = String(text || '').split(/\s+/).filter(Boolean)
+  if (words.length === 0) return true
+  return words.every(function(word) {
+    const core = stripWordPunctuation(word)
+    if (!core) return true
+    return core.charAt(0) === core.charAt(0).toUpperCase()
+      && core.slice(1) === core.slice(1).toLowerCase()
+  })
+}
+
 /** True when title is empty or already matches capitalizeSongTitle. */
 export function isSongTitleCapitalized(raw) {
   const text = String(raw == null ? '' : raw).trim()
   if (!text) return true
-  return text === capitalizeSongTitle(text)
+  if (text === capitalizeSongTitle(text)) return true
+  // Accept conventional Title Case where minor words stay capitalised.
+  return isLooselyTitleCased(text)
 }

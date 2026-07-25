@@ -1,0 +1,103 @@
+{
+  "id": "08-modes-folk",
+  "title": "08 Modes Folk",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "07-styles/08-modes-folk.md",
+  "sections": [
+    {
+      "id": "modes-in-folk-practice",
+      "title": "Modes in Folk Practice",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modes explain tunes that don't behave like textbook major or minor — central to authentic Irish and Scottish harmonisation."
+        }
+      ]
+    },
+    {
+      "id": "dorian",
+      "title": "Dorian",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Minor 3rd, major 6th. A dorian: A B C D E F♯ G A. 'Banish Misfortune' often analysed as A dorian."
+        }
+      ]
+    },
+    {
+      "id": "mixolydian",
+      "title": "Mixolydian",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Major 3rd, flat 7th. D mixolydian: D E F♯ G A B C D. Many D-centred tunes use C natural."
+        }
+      ]
+    },
+    {
+      "id": "harmonising",
+      "title": "Harmonising",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Don't sharp the characteristic flat note. Mode-aware backup keeps sessions sounding authentic."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-d-dorian-vs-d-natural-minor",
+      "title": "Q1. D dorian vs D natural minor:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Major sixth\n- B) Lowered third\n- C) No fourth\n- D) Extra sharps\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-mixolydian-lowers-the-7th-vs-major",
+      "title": "Q2. Mixolydian lowers the 7th vs major.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. D dorian vs D natural minor:\n\n- A) Major sixth\n- B) Lowered third\n- C) No fourth\n- D) Extra sharps\n\n**Answer:** A\n\n### Q2. Mixolydian lowers the 7th vs major.\n\n**Answer:** True"
+}

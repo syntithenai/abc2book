@@ -1,0 +1,253 @@
+{
+  "id": "theory-scales-major-applied",
+  "title": "Major Scales — Applied",
+  "track": "theory",
+  "tier": "applied",
+  "region": null,
+  "difficulty": 3,
+  "prerequisites": [
+    "theory-scales-major-intro"
+  ],
+  "tags": [
+    "scales",
+    "major",
+    "keys",
+    "circle-of-fifths"
+  ],
+  "path": "00-theory/01-foundations/04-major-scales-applied.md",
+  "sections": [
+    {
+      "id": "major-scales-applied",
+      "title": "Major Scales — Applied",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory | **Tier:** applied | **Difficulty:** 3/10 | **Time:** ~30 min\n**Prerequisites:** Major Scales — Introduction\n**Tags:** scales, major, keys, circle-of-fifths"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Applied tier: construct any major scale, read key signatures, and relate scales to practical keys on your instrument. Revisit WWHWWWH from the intro tier — here you use it for transposition and sight-reading."
+        }
+      ]
+    },
+    {
+      "id": "key-signatures-and-the-circle-of-fifths",
+      "title": "Key signatures and the circle of fifths",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Each sharp key adds one sharp in order: **F♯, C♯, G♯, D♯, A♯, E♯, B♯**.\n\nEach flat key adds one flat: **B♭, E♭, A♭, D♭, G♭, C♭, F♭**.\n\nMoving **clockwise** on the circle of fifths raises the key by a fifth (adds a sharp). Counter-clockwise adds a flat."
+        }
+      ]
+    },
+    {
+      "id": "tetrachords",
+      "title": "Tetrachords",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A major scale splits into two **tetrachords** (W-W-H each). Upper tetrachord of C (G-A-B-C) mirrors the lower (C-D-E-F). Splitting scales this way speeds mental transposition: learn the tetrachord shapes, then join them at the tonic."
+        }
+      ]
+    },
+    {
+      "id": "practical-keys",
+      "title": "Practical keys",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Fiddle, whistle, and guitar session repertoire clusters in **G, D, A, C, E** major (and related modes). Drill scales in these keys until fingerings are automatic before adding remote signatures."
+        }
+      ]
+    },
+    {
+      "id": "spiral-link",
+      "title": "Spiral link",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Intervals (next unit) measure the distances you have been counting as whole and half steps. Cadences (later) explain why degree 5 and degree 7 feel like \"going home.\""
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-order-of-sharps-begins",
+      "title": "Q1. Order of sharps begins:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) F♯ C♯ G♯\n- B) B♭ E♭ A♭\n- C) F♯ B♭ E♭\n- D) C♯ G♯ D♯ only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-a-tetrachord-in-major-follows-w-w-h",
+      "title": "Q2. A tetrachord in major follows W-W-H.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-d-major-has-two-sharps-f-and-c",
+      "title": "Q3. D major has two sharps: F♯ and C♯.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q4-moving-clockwise-on-the-circle-of-fifths-generally-adds-a-sharp",
+      "title": "Q4. Moving clockwise on the circle of fifths generally adds a sharp.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q5-a-major-has-three-sharps",
+      "title": "Q5. A major has three sharps.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q6-f-major-has-one-flat-b",
+      "title": "Q6. F major has one flat: B♭.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q7-two-identical-tetrachords-stack-to-form-a-major-scale",
+      "title": "Q7. Two identical tetrachords stack to form a major scale.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q8-e-major-is-a-common-session-key-on-fiddle",
+      "title": "Q8. E major is a common session key on fiddle.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q9-key-signature-tells-which-accidentals-apply-throughout-a-piece",
+      "title": "Q9. Key signature tells which accidentals apply throughout a piece.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q10-transposing-a-melody-from-g-to-d-raises-every-note-a-perfect-fifth",
+      "title": "Q10. Transposing a melody from G to D raises every note a perfect fifth.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q11-b-major-has-two-flats",
+      "title": "Q11. B♭ major has two flats.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q12-applied-scale-work-supports-reading-lead-sheets-in-multiple-keys",
+      "title": "Q12. Applied scale work supports reading lead sheets in multiple keys.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q13-lower-tetrachord-of-g-major-is-g-a-b-c",
+      "title": "Q13. Lower tetrachord of G major is G-A-B-C.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q14-upper-tetrachord-of-g-major-is-d-e-f-g",
+      "title": "Q14. Upper tetrachord of G major is D-E-F♯-G.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Order of sharps begins:\n\n- A) F♯ C♯ G♯\n- B) B♭ E♭ A♭\n- C) F♯ B♭ E♭\n- D) C♯ G♯ D♯ only\n\n**Answer:** A\n\n### Q2. A tetrachord in major follows W-W-H.\n\n**Answer:** True\n\n### Q3. D major has two sharps: F♯ and C♯.\n\n**Answer:** True\n\n### Q4. Moving clockwise on the circle of fifths generally adds a sharp.\n\n**Answer:** True\n\n### Q5. A major has three sharps.\n\n**Answer:** True\n\n### Q6. F major has one flat: B♭.\n\n**Answer:** True\n\n### Q7. Two identical tetrachords stack to form a major scale.\n\n**Answer:** True\n\n### Q8. E major is a common session key on fiddle.\n\n**Answer:** True\n\n### Q9. Key signature tells which accidentals apply throughout a piece.\n\n**Answer:** True\n\n### Q10. Transposing a melody from G to D raises every note a perfect fifth.\n\n**Answer:** True\n\n### Q11. B♭ major has two flats.\n\n**Answer:** True\n\n### Q12. Applied scale work supports reading lead sheets in multiple keys.\n\n**Answer:** True\n\n### Q13. Lower tetrachord of G major is G-A-B-C.\n\n**Answer:** True\n\n### Q14. Upper tetrachord of G major is D-E-F♯-G.\n\n**Answer:** True"
+}

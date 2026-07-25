@@ -8,6 +8,7 @@ import SearchResultPickerModal from './SearchResultPickerModal'
 import VoiceFillInput from './VoiceFillInput'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { isMediaResolverInfrastructureError, isNotationSearchEmptyError } from '../mediaProxyClient'
+import { applyNotationSearchCandidate, isDeferredMidiNotationCandidate } from '../notationMidiImport'
 import { searchNotation } from '../notationSearchClient'
 import { isAbortError } from '../abortUtils'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
@@ -232,7 +233,25 @@ function LocalSearchSelectorModal(props) {
   }
 
   function applyRemoteCandidate(candidate, jobId) {
-    if (!candidate || !candidate.abc) return
+    if (!candidate) return
+    if (isDeferredMidiNotationCandidate(candidate)) {
+      if (jobId) applyFieldLookupChoice(jobId, candidate)
+      applyNotationSearchCandidate(candidate, {
+        accessToken: token,
+        tunebook: props.tunebook,
+        sourceLabel: sourceLabelForCandidate,
+        onAbc: beginImport,
+      }).then(function() {
+        setShowPicker(false)
+        setPickerCandidates([])
+      }).catch(function(e) {
+        if (e && e.message && e.message.indexOf('cancelled') === -1) {
+          setError(e.message)
+        }
+      })
+      return
+    }
+    if (!candidate.abc) return
     if (jobId) applyFieldLookupChoice(jobId, candidate)
     beginImport(candidate.abc, sourceLabelForCandidate(candidate), candidate)
     setShowPicker(false)

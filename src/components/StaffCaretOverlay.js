@@ -3,9 +3,22 @@ import { EDITOR_MODES } from '../notation/notationConstants';
 import { rectForEventIndex } from '../notation/staffClickResolve';
 
 export default function StaffCaretOverlay(props) {
-  const { containerRef, session, displayAbc, voiceStaffIndex } = props;
+  const {
+    containerRef,
+    session,
+    displayAbc,
+    voiceStaffIndex,
+    insertAnchor,
+  } = props;
   const [computedAnchor, setComputedAnchor] = useState(null);
-  const showCaret = session.mode === EDITOR_MODES.NOTE_INPUT;
+  const hasNoteSelection = !!(
+    session.selection
+    && session.selection.eventIds
+    && session.selection.eventIds.length
+  );
+  const showNoteInputCaret = session.mode === EDITOR_MODES.NOTE_INPUT;
+  const showInsertCaret = session.mode === EDITOR_MODES.NORMAL && !hasNoteSelection;
+  const showCaret = showNoteInputCaret || showInsertCaret;
 
   useLayoutEffect(function() {
     if (!showCaret) {
@@ -14,6 +27,10 @@ export default function StaffCaretOverlay(props) {
     }
 
     function measure() {
+      if (insertAnchor && typeof insertAnchor.left === 'number') {
+        setComputedAnchor(insertAnchor);
+        return;
+      }
       const node = containerRef && containerRef.current;
       if (!node) {
         setComputedAnchor(null);
@@ -45,6 +62,7 @@ export default function StaffCaretOverlay(props) {
     session.events,
     displayAbc,
     voiceStaffIndex,
+    insertAnchor,
   ]);
 
   const anchor = computedAnchor;
@@ -52,8 +70,11 @@ export default function StaffCaretOverlay(props) {
 
   return (
     <div
-      className="notation-staff-caret"
-      data-testid="notation-staff-caret"
+      className={
+        'notation-staff-caret'
+        + (showInsertCaret ? ' notation-staff-caret--insert' : '')
+      }
+      data-testid={showInsertCaret ? 'notation-staff-insert-caret' : 'notation-staff-caret'}
       style={{
         left: anchor.left + 'px',
         top: anchor.top + 'px',

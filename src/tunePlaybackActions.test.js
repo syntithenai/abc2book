@@ -7,6 +7,7 @@ import {
   resumePlaylistPlayback,
 } from './tunePlaybackActions'
 import { createQueue } from './nowPlayingQueue'
+import { setVoiceViewSettings } from './abcVoiceViewSettings'
 import { SAMPLE_TUNE_IDS } from './devSeed/sampleTunebookAbc'
 
 function makeTune(id, overrides) {
@@ -176,6 +177,31 @@ describe('tunePlaybackActions navigate-then-play', function() {
     expect(resolvePlaybackTarget(mediaController, tunebook, location, tune)).toEqual({
       type: 'media',
       linkNum: 0,
+    })
+  })
+
+  test('resolvePlaybackTarget prefers live midi when voices are filtered', function() {
+    const tune = makeTune(SAMPLE_TUNE_IDS.amazingGrace, {
+      links: [{ link: 'abcbook-recording:midi', mediaKind: 'midi' }],
+      voices: {
+        '1': { notes: ['C'] },
+        '2': { notes: ['F'] },
+      },
+    })
+    setVoiceViewSettings(tune.id, {
+      visible: { '1': false, '2': true },
+      playable: { '1': false, '2': true },
+    }, ['1', '2'])
+    const mediaController = makeMockMediaController(tune)
+    const location = { pathname: '/tunes/' + tune.id }
+    const tunebook = Object.assign({}, makeMockTunebook(), {
+      hasNotesOrChords: function(t) {
+        return !!(t && t.voices && Object.keys(t.voices).length > 0)
+      },
+    })
+
+    expect(resolvePlaybackTarget(mediaController, tunebook, location, tune)).toEqual({
+      type: 'midi',
     })
   })
 })

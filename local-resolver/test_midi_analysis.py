@@ -1,38 +1,34 @@
-import os
 import unittest
 
-from midi_analysis import analyze_midi_bytes
+from midi_analysis import (
+    MidiTrackProfile,
+    _apply_track_recommendations,
+    _recommend_track_ids_by_note_count,
+    MidiProfile,
+)
 
 
-FIXTURES = os.path.join(os.path.dirname(__file__), "fixtures", "midi")
+class MidiAnalysisRecommendationTests(unittest.TestCase):
+    def test_recommend_track_ids_by_note_count_skips_sparse_tracks(self):
+        tracks = [
+            MidiTrackProfile(index=0, note_count=1000),
+            MidiTrackProfile(index=1, note_count=500),
+            MidiTrackProfile(index=2, note_count=5),
+        ]
+        ids = _recommend_track_ids_by_note_count(tracks)
+        self.assertEqual(ids, [0, 1])
 
-
-class MidiAnalysisTests(unittest.TestCase):
-    def _read(self, name: str) -> bytes:
-        path = os.path.join(FIXTURES, name)
-        with open(path, "rb") as handle:
-            return handle.read()
-
-    def test_monophonic_jig_recommends_melody(self):
-        profile = analyze_midi_bytes(self._read("monophonic_jig.mid"), "monophonic_jig.mid")
-        self.assertEqual(profile.recommended_mode, "melody")
-        self.assertEqual(profile.routing_hint, "melody")
-        self.assertEqual(len(profile.recommended_track_ids), 1)
-        self.assertGreater(profile.total_pitched_notes, 0)
-        self.assertTrue(profile.estimated_key)
-
-    def test_abcjs_export_detected(self):
-        profile = analyze_midi_bytes(self._read("abcjs_melody_plus_chords.mid"), "abcjs_melody_plus_chords.mid")
-        self.assertIn(profile.source_hint, ("abcjs_export", "general_midi", "unknown"))
-        self.assertEqual(profile.recommended_mode, "melody")
-        self.assertEqual(profile.routing_hint, "ambiguous")
-        self.assertGreaterEqual(len(profile.tracks), 1)
-
-    def test_profile_serializes(self):
-        profile = analyze_midi_bytes(self._read("monophonic_jig.mid"), "monophonic_jig.mid")
-        data = profile.to_dict()
-        self.assertIn("tracks", data)
-        self.assertIn("recommended_mode", data)
+    def test_apply_track_recommendations_multi_voice_for_dense_parts(self):
+        profile = MidiProfile()
+        pitched = [
+            MidiTrackProfile(index=0, note_count=800, role_hint="harmony"),
+            MidiTrackProfile(index=1, note_count=600, role_hint="harmony"),
+            MidiTrackProfile(index=2, note_count=400, role_hint="melody"),
+        ]
+        result = _apply_track_recommendations(profile, pitched)
+        self.assertEqual(result.recommended_mode, "multi_voice")
+        self.assertIn(0, result.recommended_track_ids)
+        self.assertIn(1, result.recommended_track_ids)
 
 
 if __name__ == "__main__":

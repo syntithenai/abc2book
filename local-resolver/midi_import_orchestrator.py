@@ -7,7 +7,7 @@ import shutil
 from typing import Any
 
 from midi_analysis import analyze_midi_bytes, apply_profile_overrides
-from midi_chord_infer import infer_chords_from_midi, should_infer_chords
+from midi_chord_infer import infer_chords_from_midi, should_infer_chords_for_import
 from midi_convert import convert_midi_bytes_to_musicxml_sync
 from midi_harmony_voice import build_harmony_voice_abc
 from midi_import_score import pick_best_candidate, score_abc_import, score_musicxml_candidate
@@ -100,7 +100,9 @@ def import_midi_bytes(
     tempo_bpm: float | None = None,
     time_signature: str | None = None,
     estimated_key: str | None = None,
-    max_voices: int = 8,
+    max_voices: int = 0,
+    rhythm_detail: str = "standard",
+    quant_strength: float = 0.7,
 ) -> dict[str, Any]:
     """
     Run MIDI import strategies and return the best result.
@@ -117,9 +119,17 @@ def import_midi_bytes(
         explicit_track_ids=track_ids,
     )
     forced_mode = mode if mode in ("melody", "multi_voice") else None
-    import_mode = forced_mode or profile.recommended_mode
+    if track_ids and len(track_ids) > 1:
+        import_mode = "multi_voice"
+    else:
+        import_mode = forced_mode or profile.recommended_mode
     routing_hint = getattr(profile, "routing_hint", None) or import_mode
-    infer_chords = should_infer_chords(profile, include_chords)
+    infer_chords = should_infer_chords_for_import(
+        profile,
+        include_chords,
+        track_ids,
+        import_mode,
+    )
 
     if import_mode == "reject" and not track_ids:
         return {
@@ -187,7 +197,9 @@ def import_midi_bytes(
                 include_chords=infer_chords,
                 explicit_track_ids=track_ids,
                 include_drums=include_drums,
-                max_parts=max_voices,
+                max_parts=max_voices if max_voices > 0 else None,
+                rhythm_detail=rhythm_detail,
+                quant_strength=quant_strength,
             )
             scored = score_musicxml_candidate(
                 music_xml,

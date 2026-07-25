@@ -147,6 +147,7 @@ export function shouldAutoApplyNotationCandidate(candidate, title, artist, optio
   const fallbackPool = opts.fallbackPool === true
 
   if (fallbackPool) {
+    if (isMidi) return false
     if (!isVeryCloseNotationTitleMatch(item, title)) return false
     if (artistKey && isTraditionalNotationSource(source) && artistScore < 30) return false
     return true

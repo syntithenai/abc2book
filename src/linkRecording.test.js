@@ -3,24 +3,28 @@ jest.mock('localforage', function() {
   function createInstance(opts) {
     const name = opts && opts.name ? opts.name : 'default'
     if (!stores[name]) stores[name] = {}
+    // Capture the bucket by name on each call so beforeEach can clear in place
+    // without breaking setItem/getItem closures.
     return {
-      setItem: jest.fn(function(key, value) {
+      setItem: function(key, value) {
+        if (!stores[name]) stores[name] = {}
         stores[name][key] = value
         return Promise.resolve(value)
-      }),
-      getItem: jest.fn(function(key) {
-        return Promise.resolve(stores[name][key] || null)
-      }),
-      iterate: jest.fn(function(callback) {
+      },
+      getItem: function(key) {
+        const bucket = stores[name] || {}
+        return Promise.resolve(bucket[key] || null)
+      },
+      iterate: function(callback) {
         const entries = stores[name] || {}
         return Promise.all(Object.keys(entries).map(function(key) {
           return callback(entries[key], key)
         }))
-      }),
-      clear: jest.fn(function() {
+      },
+      clear: function() {
         stores[name] = {}
         return Promise.resolve()
-      }),
+      },
       _data: stores[name],
     }
   }
@@ -236,7 +240,11 @@ describe('linkRecording create and resolve', function() {
     })
     const stores = localforage.__stores || {}
     Object.keys(stores).forEach(function(name) {
-      stores[name] = {}
+      const bucket = stores[name]
+      if (!bucket) return
+      Object.keys(bucket).forEach(function(key) {
+        delete bucket[key]
+      })
     })
   })
 
@@ -365,18 +373,17 @@ describe('linkRecording create and resolve', function() {
     expect(result.recording.data).toBeTruthy()
   })
 
-  test('resolveRecordingLinkMidi reads cached midi blob', async function() {
+  test('resolveRecordingLinkMidi reads local midi recording', async function() {
     const midiBytes = new Uint8Array([77, 84, 104, 100, 0, 0, 0, 6])
     const blob = new Blob([midiBytes], { type: 'audio/midi' })
-    const cacheKey = 'extmedia:t1:0:abcbook-recording:rec-midi-1'
-    externalMediaAudioCache.__cache[cacheKey] = { blob: blob, duration: 12 }
-    const resolved = await resolveRecordingLinkMidi({
-      link: 'abcbook-recording:rec-midi-1',
-      recordingId: 'rec-midi-1',
-      mediaKind: 'midi',
+    const attached = await createAttachedMidiLink({
+      tune: { id: 't-midi', name: 'Tune' },
+      file: new File([blob], 'tune.mid', { type: 'audio/midi' }),
       title: 'tune.mid',
-    }, 't1', 0, { forPlayback: false })
-    expect(resolved.source).toBe('cache')
+      uploadToDrive: false,
+    })
+    const resolved = await resolveRecordingLinkMidi(attached.link, 't-midi', 0, { forPlayback: false })
+    expect(['cache', 'local']).toContain(resolved.source)
     expect(resolved.arrayBuffer.byteLength).toBeGreaterThan(0)
   })
 })

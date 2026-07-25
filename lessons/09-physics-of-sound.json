@@ -1,0 +1,125 @@
+{
+  "id": "09-physics-of-sound",
+  "title": "09 Physics Of Sound",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "01-foundations/09-physics-of-sound.md",
+  "sections": [
+    {
+      "id": "physics-of-sound-and-tuning",
+      "title": "Physics of Sound and Tuning",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** foundations | **Difficulty:** 3/10 | **Time:** ~10 min\n**Tags:** acoustics, tuning, frequency"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Music theory rests on physical properties of sound: vibration frequency determines pitch; waveform shape determines timbre; amplitude determines loudness. Understanding acoustics explains why instruments sound different and why tuning systems matter."
+        }
+      ]
+    },
+    {
+      "id": "frequency-and-pitch",
+      "title": "Frequency and pitch",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Pitch corresponds to fundamental frequency measured in Hertz (Hz). A4 = 440 Hz is the international standard. Each octave doubles frequency: A3 = 220 Hz, A5 = 880 Hz. The human hearing range is roughly 20–20,000 Hz."
+        }
+      ]
+    },
+    {
+      "id": "harmonics-and-timbre",
+      "title": "Harmonics and timbre",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Instruments produce a fundamental plus overtones (harmonics) at integer multiples. A violin's bright tone has strong upper harmonics; a flute emphasises the fundamental. Timbre — the 'colour' of sound — is the harmonic fingerprint."
+        }
+      ]
+    },
+    {
+      "id": "tuning-systems",
+      "title": "Tuning systems",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Equal temperament** divides the octave into 12 equal semitones — standard for piano and guitar. **Just intonation** uses pure frequency ratios (5:4 for major third) — sweeter for chords but limits key changes. **Pythagorean** tuning favours perfect fifths. Fiddle players often adjust intonation contextually."
+        }
+      ]
+    },
+    {
+      "id": "beats-and-consonance",
+      "title": "Beats and consonance",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "When two frequencies are slightly apart, beating occurs — pulsing loudness. Pure intervals minimise beats. Dissonance often involves close but non-aligned frequencies creating roughness."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-international-standard-tuning-sets-a4-to",
+      "title": "Q1. International standard tuning sets A4 to:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) 440 Hz\n- B) 432 Hz\n- C) 220 Hz\n- D) 880 Hz\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-each-octave-doubles-the-fundamental-frequency",
+      "title": "Q2. Each octave doubles the fundamental frequency.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-timbre-is-primarily-determined-by",
+      "title": "Q3. Timbre is primarily determined by:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) The harmonic content (overtone series) of a sound\n- B) Only the fundamental frequency\n- C) Time signature\n- D) Key signature\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. International standard tuning sets A4 to:\n\n- A) 440 Hz\n- B) 432 Hz\n- C) 220 Hz\n- D) 880 Hz\n\n**Answer:** A\n\n### Q2. Each octave doubles the fundamental frequency.\n\n**Answer:** True\n\n### Q3. Timbre is primarily determined by:\n\n- A) The harmonic content (overtone series) of a sound\n- B) Only the fundamental frequency\n- C) Time signature\n- D) Key signature\n\n**Answer:** A"
+}

@@ -1,5 +1,6 @@
-import { useRef, useState } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { Alert, Button, ButtonGroup, Form, Modal, ToggleButton } from 'react-bootstrap'
+import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useAbcjsParser from '../useAbcjsParser'
 import { buildGoogleChordsSearchUrl } from '../chordSearchSites'
@@ -27,7 +28,7 @@ export default function ChordsSearchButton({
   title,
   artist,
   rhythm,
-  currentGenre,
+  currentGenres,
   onGenreAccept,
   token,
   onChords,
@@ -42,6 +43,8 @@ export default function ChordsSearchButton({
   confirmOverwrite = false,
   /** When true, lyrics checkbox is locked on (still only auto-writes if lyrics empty). */
   forceUpdateLyrics = false,
+  /** When true, start an automatic search once the button mounts. */
+  autoStartSearch = false,
   tunebook,
   book,
   resolverAvailable: resolverAvailableProp,
@@ -61,7 +64,10 @@ export default function ChordsSearchButton({
     ? resolverAvailableProp
     : resolverAvailableFromHealth
   const hasLocalChordSearch = !!(tunebook && tunebook.abcTools)
-  const automaticLookup = resolverAvailable || hasLocalChordSearch
+  const resolverAccess = useFieldLookupResolverAccess(token)
+  const automaticLookup = resolverAccess.automaticLookupFor('chords', {
+    hasLocalChordSearch: hasLocalChordSearch,
+  })
   const updateLyricsRef = useRef(updateLyrics)
   updateLyricsRef.current = updateLyrics
   const existingLyricsRef = useRef(existingLyrics)
@@ -112,7 +118,7 @@ export default function ChordsSearchButton({
       title: title,
       artist: artist,
       rhythm: rhythm,
-      currentGenre: currentGenre,
+      currentGenres: currentGenres,
       onGenreAccept: onGenreAccept,
     })
   }
@@ -237,6 +243,13 @@ export default function ChordsSearchButton({
     setShowOverwriteConfirm(false)
     runSearch(pendingModeRef.current)
   }
+
+  const autoStartedRef = useRef(false)
+  useEffect(function() {
+    if (!autoStartSearch || autoStartedRef.current || !canSearch || busy) return
+    autoStartedRef.current = true
+    runSearch('auto')
+  }, [autoStartSearch, canSearch, busy])
 
   const resultsCaret = (
     <FieldSearchResultsCaret

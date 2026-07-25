@@ -159,3 +159,138 @@ export function notesForTrack(midiBytes, trackIndex) {
   const track = parsed.tracks.find(function(t) { return t.index === trackIndex; });
   return track ? track.notes : [];
 }
+
+function resolveParsedTrackForProfileTrack(parsedTracks, profileTracks, trackId, usedParsed, pitchedIds) {
+  const profileTrack = profileTracks.find(function(t) { return t.index === trackId; });
+  const byIndex = parsedTracks.find(function(t) {
+    return t.index === trackId && t.notes && t.notes.length;
+  });
+  if (byIndex && !usedParsed.has(byIndex.index)) {
+    return byIndex;
+  }
+  if (!profileTrack) {
+    return null;
+  }
+
+  if (profileTrack.name) {
+    const byName = parsedTracks.find(function(t) {
+      return !usedParsed.has(t.index) && t.notes && t.notes.length
+        && t.name === profileTrack.name;
+    });
+    if (byName) return byName;
+  }
+
+  const count = profileTrack.note_count || 0;
+  if (count > 0) {
+    const byCount = parsedTracks.find(function(t) {
+      return !usedParsed.has(t.index) && t.notes && t.notes.length
+        && !!t.isDrum === !!profileTrack.is_drum
+        && t.notes.length === count;
+    });
+    if (byCount) return byCount;
+  }
+
+  const pitchedParsed = parsedTracks.filter(function(t) {
+    return !usedParsed.has(t.index) && t.notes && t.notes.length && !t.isDrum;
+  });
+  const pitchedProfile = profileTracks.filter(function(t) {
+    return !t.is_drum && pitchedIds.indexOf(t.index) >= 0;
+  });
+  const pos = pitchedProfile.findIndex(function(t) { return t.index === trackId; });
+  if (pos >= 0 && pitchedParsed[pos]) {
+    return pitchedParsed[pos];
+  }
+  return null;
+}
+
+/**
+ * Resolve one parsed track per selected import voice (pitched + percussion).
+ */
+export function resolveCleanupPreviewVoices(parsed, profile, selectedTrackIds, drumTrackModes) {
+  const parsedTracks = (parsed && parsed.tracks) || [];
+  const profileTracks = (profile && profile.tracks) || [];
+  const pitchedIds = Array.isArray(selectedTrackIds) ? selectedTrackIds.slice() : [];
+  const usedParsed = new Set();
+  const voices = [];
+  let voiceId = 1;
+
+  function claimParsedTrack(parsedTrack, profileTrackId) {
+    if (!parsedTrack || !parsedTrack.notes || !parsedTrack.notes.length || usedParsed.has(parsedTrack.index)) {
+      return false;
+    }
+    usedParsed.add(parsedTrack.index);
+    const profileTrack = profileTracks.find(function(t) { return t.index === profileTrackId; });
+    voices.push({
+      id: voiceId,
+      trackId: profileTrackId,
+      name: (profileTrack && profileTrack.name) || parsedTrack.name || '',
+      isDrum: !!(profileTrack && profileTrack.is_drum) || !!parsedTrack.isDrum,
+      roleHint: (profileTrack && profileTrack.role_hint) || 'unknown',
+      program: profileTrack ? profileTrack.program : (parsedTrack.program || 0),
+      notes: parsedTrack.notes.slice(),
+    });
+    voiceId += 1;
+    return true;
+  }
+
+  function tryAddVoice(trackId) {
+    const parsedTrack = resolveParsedTrackForProfileTrack(
+      parsedTracks,
+      profileTracks,
+      trackId,
+      usedParsed,
+      pitchedIds
+    );
+    return claimParsedTrack(parsedTrack, trackId);
+  }
+
+  pitchedIds.forEach(function(trackId) { tryAddVoice(trackId); });
+
+  const unmappedIds = pitchedIds.filter(function(trackId) {
+    return !voices.some(function(voice) { return voice.trackId === trackId; });
+  });
+  if (unmappedIds.length) {
+    const unusedParsed = parsedTracks
+      .filter(function(t) {
+        return !usedParsed.has(t.index) && t.notes && t.notes.length && !t.isDrum;
+      })
+      .sort(function(a, b) { return b.notes.length - a.notes.length; });
+    unmappedIds.forEach(function(trackId, index) {
+      claimParsedTrack(unusedParsed[index], trackId);
+    });
+  }
+
+  Object.keys(drumTrackModes || {}).forEach(function(trackIdStr) {
+    if (drumTrackModes[trackIdStr] !== 'percussion') return;
+    const trackId = parseInt(trackIdStr, 10);
+    if (voices.some(function(voice) { return voice.trackId === trackId; })) return;
+    tryAddVoice(trackId);
+  });
+
+  return voices;
+}
+
+/**
+ * Map resolver profile track ids onto locally parsed note events. The minimal
+ * client parser and server-side music21 analysis can disagree on empty meta
+ * tracks at the start of a file, so index-only lookup often returns [].
+ */
+export function resolveCleanupPreviewNotes(parsed, profile, selectedTrackIds) {
+  const voices = resolveCleanupPreviewVoices(parsed, profile, selectedTrackIds, {});
+  const notes = [];
+  voices.forEach(function(voice) {
+    notes.push.apply(notes, voice.notes);
+  });
+
+  if (notes.length) {
+    return notes;
+  }
+
+  const parsedTracks = (parsed && parsed.tracks) || [];
+  parsedTracks.forEach(function(t) {
+    if (t.notes && t.notes.length) {
+      notes.push.apply(notes, t.notes);
+    }
+  });
+  return notes;
+}

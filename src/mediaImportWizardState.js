@@ -1,4 +1,5 @@
 import { loadMelodyNoteSettings, loadMelodyProcessingSettings } from './melodyProcessingSettings';
+import { allGenres } from './tuneBibliographicUtils';
 import { extractMelodySourceNotes, applyMelodyNoteSettingsToDraft } from './melodyRefilterUtils';
 import { formatMediaAnalysisForTune, tuneHasTempo } from './mediaAnalysisClient';
 import { saveTimedMediaDraft } from './timedMediaCache';
@@ -13,7 +14,9 @@ export function mergeLookupTuneMetadata(metadata, tune) {
   if (tune.key && !next.key) next.key = tune.key;
   if (tune.meter && !next.meter) next.meter = tune.meter;
   if (tune.noteLength && !next.noteLength) next.noteLength = tune.noteLength;
-  if (tune.genre && !next.genre) next.genre = tune.genre;
+  if (tune.genres && tune.genres.length && (!next.genres || !next.genres.length)) {
+    next.genres = allGenres(tune);
+  }
   if (tune.tempo != null && tune.tempo !== '' && !tuneHasTempo({ tempo: next.tempo })) {
     next.tempo = String(tune.tempo);
   }
@@ -63,7 +66,7 @@ export function createWizardDraft(tune) {
       tempo: tune && tune.tempo ? tune.tempo : '',
       noteLength: tune && tune.noteLength ? tune.noteLength : '1/8',
       backgroundInfo: tune && tune.backgroundInfo ? tune.backgroundInfo : '',
-      genre: tune && tune.genre ? tune.genre : '',
+      genres: tune ? allGenres(tune) : [],
     },
     existingWLines: [],
     lyricLines: [],

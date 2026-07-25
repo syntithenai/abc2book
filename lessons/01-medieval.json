@@ -1,0 +1,103 @@
+{
+  "id": "01-medieval",
+  "title": "01 Medieval",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "10-music-periods/01-medieval.md",
+  "sections": [
+    {
+      "id": "medieval-music-5001400",
+      "title": "Medieval Music (500–1400)",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** music-periods | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Medieval music spans from fall of Rome through the Black Death to early Renaissance — monophonic chant to early polyphony."
+        }
+      ]
+    },
+    {
+      "id": "gregorian-chant",
+      "title": "Gregorian chant",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Monophonic, unmeasured sacred Latin song — foundation of Western notation. Neumes evolved into staff notation by Guido d'Arezzo (11th century)."
+        }
+      ]
+    },
+    {
+      "id": "early-polyphony",
+      "title": "Early polyphony",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Organum: parallel voices added to chant. Notre Dame school (Léonin, Pérotin) — 12th-13th century measured rhythm. Motets combined sacred and secular texts."
+        }
+      ]
+    },
+    {
+      "id": "instruments",
+      "title": "Instruments",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lute, harp, vielle (fiddle predecessor), recorder, bagpipe. Minstrels and troubadours performed secular song in courts."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-guido-darezzo-contributed-to",
+      "title": "Q1. Guido d'Arezzo contributed to:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Staff notation development\n- B) Electric guitar\n- C) Jazz improvisation\n- D) 12-bar blues\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-gregorian-chant-is-monophonic",
+      "title": "Q2. Gregorian chant is monophonic.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Guido d'Arezzo contributed to:\n\n- A) Staff notation development\n- B) Electric guitar\n- C) Jazz improvisation\n- D) 12-bar blues\n\n**Answer:** A\n\n### Q2. Gregorian chant is monophonic.\n\n**Answer:** True"
+}

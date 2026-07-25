@@ -1,0 +1,125 @@
+{
+  "id": "01-breath",
+  "title": "01 Breath",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "08-singing/01-breath.md",
+  "sections": [
+    {
+      "id": "breath-support-for-singers",
+      "title": "Breath Support for Singers",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** singing | **Difficulty:** 1/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Breath is the engine of singing. Efficient breath management gives steady tone, reliable pitch, and stamina through long sets without throat tension."
+        }
+      ]
+    },
+    {
+      "id": "low-breath",
+      "title": "Low breath",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Air should expand the lower ribs and belly — not lift the shoulders. Shoulder breathing tightens the throat and looks like 'performing breathing.' Let ribs widen sideways; keep jaw loose."
+        }
+      ]
+    },
+    {
+      "id": "phrase-planning",
+      "title": "Phrase planning",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Map breath marks before long chorus lines. Breathe at lyric commas or between repeated lines — not mid-word. Mark your lyric sheet."
+        }
+      ]
+    },
+    {
+      "id": "rebound-breath",
+      "title": "Rebound breath",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "After a soft exhale on 'ah' or hum, notice the automatic refill. Session singing needs phrase after phrase — quick low refills, not huge gulps. The breath returns naturally after speaking a sentence."
+        }
+      ]
+    },
+    {
+      "id": "try-this",
+      "title": "Try this",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Breathe in through nose for four counts, feel lower ribs widen, release on gentle hum. Hum, release, feel rebound inhale without lifting chest."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-efficient-singing-breath-expands",
+      "title": "Q1. Efficient singing breath expands:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Lower ribs and belly\n- B) Shoulders primarily\n- C) Only the throat\n- D) Leg muscles\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-shoulder-lifting-during-inhalation-often-tightens-the-throat",
+      "title": "Q2. Shoulder lifting during inhalation often tightens the throat.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-phrase-planning-means",
+      "title": "Q3. Phrase planning means:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Marking natural breath points before singing\n- B) Holding breath as long as possible always\n- C) Breathing only between songs\n- D) Avoiding all inhalation\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Efficient singing breath expands:\n\n- A) Lower ribs and belly\n- B) Shoulders primarily\n- C) Only the throat\n- D) Leg muscles\n\n**Answer:** A\n\n### Q2. Shoulder lifting during inhalation often tightens the throat.\n\n**Answer:** True\n\n### Q3. Phrase planning means:\n\n- A) Marking natural breath points before singing\n- B) Holding breath as long as possible always\n- C) Breathing only between songs\n- D) Avoiding all inhalation\n\n**Answer:** A"
+}

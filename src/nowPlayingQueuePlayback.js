@@ -6,6 +6,7 @@ import {
   resolvePlaybackForItem,
   buildPlaybackPath,
   shouldSuppressFollowNavigate,
+  isExternalQueueItem,
 } from './nowPlayingQueue'
 import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
 import {
@@ -13,9 +14,14 @@ import {
   isQueueItemPlayable,
   stopPlaylistPlayback,
 } from './playlistPlaybackResilience'
+import { playLessonYoutube } from './lessonYoutubePlayer'
 
 export function playQueueItem(mediaController, tunebook, tune, item, options) {
-  if (!mediaController || !tunebook || !tune || !item) return false
+  if (!mediaController || !item) return false
+  if (isExternalQueueItem(item)) {
+    return false
+  }
+  if (!tunebook || !tune) return false
   const target = resolvePlaybackForItem(tune, item, tunebook)
   if (!target) return false
 
@@ -53,6 +59,7 @@ export function playCurrentQueueItem(mediaController, tunebook, tunes, queue, op
   if (!isQueueActive(queue)) return false
   const item = getCurrentItem(queue)
   if (!item) return false
+  if (isExternalQueueItem(item)) return true
   const tune = tunes && item.tuneId ? tunes[item.tuneId] : null
   if (!tune) return false
   if (!isQueueItemPlayable(tune, item, tunebook)) return false
@@ -92,7 +99,19 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
     playbackOptions,
   } = params
 
-  if (!tune || !item || !mediaController || !setQueue) {
+  if (!item || !mediaController || !setQueue) {
+    stopPlaylistPlayback(mediaController)
+    if (failCallback) failCallback('end')
+    return false
+  }
+
+  if (isExternalQueueItem(item)) {
+    setQueue(nextQueue)
+    playLessonYoutube({ fromUserGesture: true })
+    return true
+  }
+
+  if (!tune || !tunebook) {
     stopPlaylistPlayback(mediaController)
     if (failCallback) failCallback('end')
     return false
@@ -156,7 +175,17 @@ export async function advanceQueueToPlayableAndStart(params) {
     playbackMode: playbackMode,
   })
 
-  if (result.atEnd || !result.tune || !result.item) {
+  if (result.atEnd || !result.item) {
+    stopPlaylistPlayback(mediaController)
+    if (failCallback) failCallback('end')
+    return false
+  }
+
+  if (isExternalQueueItem(result.item)) {
+    return finishQueueAdvance(params, result.queue, result.item, null)
+  }
+
+  if (!result.tune) {
     stopPlaylistPlayback(mediaController)
     if (failCallback) failCallback('end')
     return false
@@ -262,15 +291,55 @@ export function isMediaControllerPlaybackActive(mediaController) {
   )
 }
 
+function isQueueOutputting(mediaController) {
+  if (!mediaController) return false
+  return !!(
+    mediaController.isPlaying
+    || mediaController.isLoading
+    || (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent())
+  )
+}
+
+/** Prefer mediaController.tune when it matches the active host tune (fresher links). */
+export function resolveHostPlayingTune(hostPlayingTuneId, tunes, mediaController) {
+  if (!hostPlayingTuneId) return null
+  const storeTune = tunes && tunes[hostPlayingTuneId] ? tunes[hostPlayingTuneId] : null
+  const controllerTune = mediaController && mediaController.tune
+    && String(mediaController.tune.id) === String(hostPlayingTuneId)
+    ? mediaController.tune
+    : null
+  if (controllerTune) return controllerTune
+  return storeTune
+}
+
 export function resolveHostPlayingTuneId({ queue, mediaController, viewedTuneId, pathname }) {
-  if (isQueueActive(queue)) {
-    return getCurrentTuneId(queue)
-  }
-  if (mediaController && mediaController.tune && mediaController.tune.id) {
-    return mediaController.tune.id
-  }
   const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
   if (urlPlayback && viewedTuneId) {
+    return viewedTuneId
+  }
+
+  const controllerTuneId = mediaController && mediaController.tune && mediaController.tune.id
+    ? mediaController.tune.id
+    : null
+
+  if (isQueueActive(queue)) {
+    const queueTuneId = getCurrentTuneId(queue)
+    if (isViewingDifferentFromPlaying(viewedTuneId, queue) && viewedTuneId) {
+      // User started playback on the tune they are viewing (not the queue item).
+      if (controllerTuneId === viewedTuneId) {
+        return viewedTuneId
+      }
+      if (!isQueueOutputting(mediaController)) {
+        return viewedTuneId
+      }
+    }
+    return queueTuneId
+  }
+
+  if (controllerTuneId) {
+    return controllerTuneId
+  }
+  if (viewedTuneId) {
     return viewedTuneId
   }
   return null
@@ -291,6 +360,7 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
   } = opts || {}
 
   if (practiceSessionActive || gigModeActive) return false
+  if (mediaController && mediaController.notationMidiOwner) return false
   if (shouldMusicSingleOwnPlayback(viewedTuneId, queue)) return false
 
   const playingTuneId = resolveHostPlayingTuneId({
@@ -305,7 +375,10 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
   const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
   if (urlPlayback) return true
   if (isQueueActive(queue)) {
-    return isQueuePlaybackEngaged(mediaController)
+    return isQueuePlaybackEngaged(mediaController, {
+      queue: queue,
+      viewedTuneId: viewedTuneId,
+    })
   }
   return isMediaControllerPlaybackActive(mediaController)
 }

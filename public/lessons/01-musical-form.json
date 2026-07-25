@@ -1,0 +1,136 @@
+{
+  "id": "01-musical-form",
+  "title": "01 Musical Form",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "11-theory-advanced/01-musical-form.md",
+  "sections": [
+    {
+      "id": "binary-ternary-and-rondo-form",
+      "title": "Binary, Ternary, and Rondo Form",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory-advanced | **Difficulty:** 4/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Musical form describes how sections organise in time — from simple dance repeats to symphonic architecture."
+        }
+      ]
+    },
+    {
+      "id": "binary-ab",
+      "title": "Binary (AB)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Two complementary sections. Each may repeat: AABB. Baroque dances often binary. First section modulates to dominant; second returns home."
+        }
+      ]
+    },
+    {
+      "id": "ternary-aba",
+      "title": "Ternary (ABA)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Statement, contrast, return. Minuet and trio: minuet A, trio B, minuet A. Da capo aria in opera. Three-part song form."
+        }
+      ]
+    },
+    {
+      "id": "rondo",
+      "title": "Rondo",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Refrain alternates with episodes: ABACA or ABACABA. Episodes provide contrast; refrain returns familiar. Finale movements often rondo."
+        }
+      ]
+    },
+    {
+      "id": "sonata-form",
+      "title": "Sonata form",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Large-scale: exposition (themes in tonic and dominant), development (fragment, modulate), recapitulation (themes in tonic). Extended ternary at symphonic scale."
+        }
+      ]
+    },
+    {
+      "id": "trad-tunes",
+      "title": "Trad tunes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "AABB most common in reels and jigs. 32-bar song form (AABA) in jazz standards."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-aabb-structure-common-in",
+      "title": "Q1. AABB structure common in:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Irish dance tunes\n- B) Gregorian chant only\n- C) Twelve-tone rows\n- D) Free improvisation only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-ternary-form-statement-contrast-return-aba",
+      "title": "Q2. Ternary form: statement, contrast, return (ABA).",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-rondo-characterised-by",
+      "title": "Q3. Rondo characterised by:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Recurring refrain alternating with episodes\n- B) Single unbroken line\n- C) No repetition\n- D) Only 3/4 meter\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. AABB structure common in:\n\n- A) Irish dance tunes\n- B) Gregorian chant only\n- C) Twelve-tone rows\n- D) Free improvisation only\n\n**Answer:** A\n\n### Q2. Ternary form: statement, contrast, return (ABA).\n\n**Answer:** True\n\n### Q3. Rondo characterised by:\n\n- A) Recurring refrain alternating with episodes\n- B) Single unbroken line\n- C) No repetition\n- D) Only 3/4 meter\n\n**Answer:** A"
+}

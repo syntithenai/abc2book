@@ -1,0 +1,125 @@
+{
+  "id": "03-rhythm-dictation",
+  "title": "03 Rhythm Dictation",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "12-ear-training/03-rhythm-dictation.md",
+  "sections": [
+    {
+      "id": "rhythm-dictation",
+      "title": "Rhythm Dictation",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** ear-training | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Rhythm dictation trains you to notate or reproduce rhythmic patterns heard — essential for learning tunes by ear."
+        }
+      ]
+    },
+    {
+      "id": "subdivision",
+      "title": "Subdivision",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Feel beat first, then subdivide: eighths in 4/4, triplets in 6/8. Tap foot on main beat only."
+        }
+      ]
+    },
+    {
+      "id": "patterns",
+      "title": "Patterns",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Start with 2-bar patterns: quarter and eighth combinations. Add syncopation. Jig patterns: long-short-short or three equal eighths per beat."
+        }
+      ]
+    },
+    {
+      "id": "notation",
+      "title": "Notation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Use correct beam grouping — eighths beamed per beat in 4/4; in 6/8, beam three eighths per beat."
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Clap back rhythms before writing. Slow recordings to 75% speed. Bodhrán and metronome apps help."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-in-68-main-beats-are-felt-as",
+      "title": "Q1. In 6/8, main beats are felt as:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Two beats per bar (compound duple)\n- B) Six equal beats\n- C) Three quarter-note beats\n- D) One beat only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-tap-foot-on-main-beat-when-dictating-rhythm",
+      "title": "Q2. Tap foot on main beat when dictating rhythm.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-syncopation-stresses",
+      "title": "Q3. Syncopation stresses:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Weak beats or offbeats\n- B) Only beat one always\n- C) Silence only\n- D) Every bar line\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. In 6/8, main beats are felt as:\n\n- A) Two beats per bar (compound duple)\n- B) Six equal beats\n- C) Three quarter-note beats\n- D) One beat only\n\n**Answer:** A\n\n### Q2. Tap foot on main beat when dictating rhythm.\n\n**Answer:** True\n\n### Q3. Syncopation stresses:\n\n- A) Weak beats or offbeats\n- B) Only beat one always\n- C) Silence only\n- D) Every bar line\n\n**Answer:** A"
+}

@@ -9,6 +9,7 @@ import { noteLinesHaveRealMelody } from './timedImportFinalizer';
 import { hasLyricEmbeddedChords } from './chordSheetUtils';
 import { setPlainLyricLines } from './wLinesUtils';
 import { stripBraceTempoDirectiveLines } from './chordProMetaUtils';
+import { allGenres, mergeBibliographicList } from './tuneBibliographicUtils';
 import {
   inferKeyFromChordGrid,
   keysAreCompatible,
@@ -18,7 +19,7 @@ import { mergeImportDraftTune } from './importReviewCandidateUtils';
 const INLINE_IMPORT_SOURCE_KINDS = ['abc', 'chordsheet', 'bulk-text'];
 
 const FORM_SCALAR_FIELDS = [
-  'title', 'artist', 'genre', 'rhythm', 'meter', 'keyName', 'tempo', 'noteLength',
+  'title', 'artist', 'rhythm', 'meter', 'keyName', 'tempo', 'noteLength',
   'srcUrl', 'backgroundInfo', 'lyrics', 'notes', 'boost', 'difficulty', 'tablature',
   'capo', 'playbackTempo', 'playbackPitch', 'playbackFineTune', 'transpose', 'tuning',
   'repeats', 'composerId', 'abccomments',
@@ -49,12 +50,12 @@ const AUTO_FILL_EMPTY_TUNE_KEYS = {
   composer: true,
   artists: true,
   aliases: true,
+  genres: true,
   meter: true,
   key: true,
   tempo: true,
   noteLength: true,
   capo: true,
-  genre: true,
   voices: true,
 };
 
@@ -471,7 +472,7 @@ function importedLyricsAreChordPro(importedTune) {
 function tuneValueToFormValue(tuneKey, value) {
   if (tuneKey === 'books') return Array.isArray(value) ? value.join(', ') : '';
   if (tuneKey === 'tags') return Array.isArray(value) ? value.join(', ') : '';
-  if (tuneKey === 'aliases' || tuneKey === 'artists') return Array.isArray(value) ? value.slice() : [];
+  if (tuneKey === 'aliases' || tuneKey === 'artists' || tuneKey === 'genres') return Array.isArray(value) ? value.slice() : [];
   if (tuneKey === 'links') return Array.isArray(value) ? value.slice() : [];
   if (tuneKey === 'voices') return notationTextFromTune({ voices: value });
   if (tuneKey === 'words' || tuneKey === 'wLines') return Array.isArray(value) ? value.join('\n') : '';
@@ -483,7 +484,7 @@ function tuneValueToFormValue(tuneKey, value) {
 function formValueToTuneValue(formKey, value) {
   if (formKey === 'bookList') return parseListField(value);
   if (formKey === 'tagList') return parseListField(value);
-  if (formKey === 'aliases' || formKey === 'artists') return Array.isArray(value) ? value.slice() : [];
+  if (formKey === 'aliases' || formKey === 'artists' || formKey === 'genres') return Array.isArray(value) ? value.slice() : [];
   if (formKey === 'links') return Array.isArray(value) ? value.slice() : [];
   if (formKey === 'notes') return value;
   if (formKey === 'lyrics') return value;
@@ -509,7 +510,7 @@ export function emptyFormValues() {
     artist: '',
     artists: [],
     aliases: [],
-    genre: '',
+    genres: [],
     rhythm: '',
     meter: '',
     keyName: '',
@@ -554,7 +555,7 @@ export function tuneToFormValues(tune) {
   values.artist = source.composer || '';
   values.artists = Array.isArray(source.artists) ? source.artists.slice() : [];
   values.aliases = Array.isArray(source.aliases) ? source.aliases.slice() : [];
-  values.genre = source.genre || '';
+  values.genres = allGenres(source);
   values.rhythm = source.rhythm || '';
   values.meter = source.meter || '';
   values.keyName = source.key || '';
@@ -607,7 +608,8 @@ export function formValuesToTune(formValues, baseTune) {
   next.composer = String(values.artist || '').trim();
   next.artists = Array.isArray(values.artists) ? values.artists.slice() : [];
   next.aliases = Array.isArray(values.aliases) ? values.aliases.slice() : [];
-  next.genre = String(values.genre || '').trim();
+  next.genres = Array.isArray(values.genres) ? values.genres.slice() : [];
+  delete next.genre;
   next.rhythm = String(values.rhythm || '').trim();
   next.meter = String(values.meter || '').trim();
   next.key = String(values.keyName || '').trim();
@@ -728,13 +730,14 @@ function formKeyForTuneKey(tuneKey) {
   if (tuneKey === 'tags') return 'tagList';
   if (tuneKey === 'voices') return 'notes';
   if (tuneKey === 'words' || tuneKey === 'wLines') return 'lyrics';
-  if (tuneKey === 'artists' || tuneKey === 'aliases' || tuneKey === 'links') return tuneKey;
+  if (tuneKey === 'artists' || tuneKey === 'aliases' || tuneKey === 'links' || tuneKey === 'genres') return tuneKey;
   if (FORM_SCALAR_FIELDS.indexOf(tuneKey) >= 0 || FORM_JSON_FIELDS.indexOf(tuneKey) >= 0) return tuneKey;
   return null;
 }
 
 function getTuneFieldValue(tune, tuneKey) {
   if (!tune) return undefined;
+  if (tuneKey === 'genres') return allGenres(tune);
   if (tuneKey === 'voices') return tune.voices;
   return tune[tuneKey];
 }
@@ -1113,7 +1116,7 @@ function formValueAsTuneComparable(formKey, value) {
   if (formKey === 'lyrics') {
     return String(value || '').split(/\r?\n/);
   }
-  if (formKey === 'aliases' || formKey === 'artists' || formKey === 'links') {
+  if (formKey === 'aliases' || formKey === 'artists' || formKey === 'links' || formKey === 'genres') {
     return Array.isArray(value) ? value : [];
   }
   return value;

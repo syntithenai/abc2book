@@ -58,5 +58,7 @@ describe('genreInference', function() {
     expect(shouldOfferGenreSuggestion('Folk', '')).toBe(true);
     expect(shouldOfferGenreSuggestion('Folk', 'folk')).toBe(false);
     expect(shouldOfferGenreSuggestion('Jazz', 'Folk')).toBe(true);
+    expect(shouldOfferGenreSuggestion('Jazz', ['Folk'])).toBe(true);
+    expect(shouldOfferGenreSuggestion('Folk', ['Folk', 'Bluegrass'])).toBe(false);
   });
 });

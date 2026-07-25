@@ -6,6 +6,7 @@ import {
   applyPlaybackMetronomeCountInFields,
   getPlaybackMetronomeSettings,
 } from '../playbackMetronomeSettings'
+import { ENGINE_MODE_CLICK, ENGINE_MODE_DRUMS } from '../rhythmEngineTypes'
 
 import { getPlaybackSettings } from '../pitchTempoUtils'
 
@@ -38,6 +39,8 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
     tune && tune.playbackMetronomeCountInBars,
     tune && tune.playbackMetronomeDuringPlayback,
     tune && tune.playbackMetronomeRhythm,
+    tune && tune.playbackMetronomeClickRhythm,
+    tune && tune.playbackMetronomeDrumRhythm,
     tune && tune.playbackMetronomeEngine,
     tune && tune.playbackMetronomePresetId,
     tune && tune.playbackTempo,
@@ -87,9 +90,18 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
   }
 
   function handleRhythmSettingsChange(next) {
-    persistRhythm(Object.assign({}, settings, {
-      rhythm: next.rhythm,
-    }))
+    const updatedRhythm = next.rhythm
+    const nextSettings = Object.assign({}, settings, { rhythm: updatedRhythm })
+    if (updatedRhythm.engineMode === ENGINE_MODE_DRUMS) {
+      nextSettings.drumRhythm = updatedRhythm
+      nextSettings.clickRhythm = settings.clickRhythm
+      nextSettings.engine = ENGINE_MODE_DRUMS
+    } else {
+      nextSettings.clickRhythm = updatedRhythm
+      nextSettings.drumRhythm = settings.drumRhythm
+      nextSettings.engine = ENGINE_MODE_CLICK
+    }
+    persistRhythm(nextSettings)
   }
 
   const previewTempo = useMemo(function() {
@@ -155,6 +167,10 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
         previewTempo={previewTempo}
         stopOnPlayback={stopPreviewOnPlayback}
         rhythm={settings.rhythm}
+        rhythmStores={{
+          clickRhythm: settings.clickRhythm,
+          drumRhythm: settings.drumRhythm,
+        }}
         onRhythmChange={handleRhythmSettingsChange}
       />
     </div>

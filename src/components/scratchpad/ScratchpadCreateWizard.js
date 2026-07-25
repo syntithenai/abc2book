@@ -1,15 +1,20 @@
-import { useRef, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Button, Modal } from 'react-bootstrap'
 import SheetImageCameraModal from '../SheetImageCameraModal'
 import { classifyAddFormFile } from '../../addFormAttach'
-import { abcTextToCandidates } from '../../importSourceParse'
-import { importMidiToAbc } from '../../midiToAbcClient'
+import {
+  abcTextToCandidates,
+  detectTextImportFormat,
+  parseImportFile,
+  readFileAsText,
+} from '../../importSourceParse'
+import { detectScoreFormat } from '../../scoreImportClient'
+import { openMidiImportWizard } from '../../midiImportWizard'
 import { isMidiImportFile } from '../../midiFileUtils'
 import { createScratchpadItem, blankNotationTune } from '../../scratchpadStore'
-import utilsFunctions from '../../utilsFunctions'
+import { getScratchpadNotationImportAccess } from '../../scratchpadNotationImportAccess'
+import useMediaResolverHealth from '../../useMediaResolverHealth'
 import { toast } from 'react-toastify'
-
-const utils = utilsFunctions()
 
 function blankImageBlob() {
   const canvas = document.createElement('canvas')
@@ -31,7 +36,7 @@ function defaultTitle(itemType) {
   return 'Scratchpad item'
 }
 
-function sourcesForType(itemType) {
+function sourcesForType(itemType, notationImportAccess) {
   if (itemType === 'image') {
     return [
       { key: 'blank', label: 'Blank canvas' },
@@ -46,9 +51,22 @@ function sourcesForType(itemType) {
     ]
   }
   if (itemType === 'notation') {
+    if (notationImportAccess && notationImportAccess.mode === 'login') {
+      return [
+        { key: 'blank', label: 'Blank notation' },
+        { key: 'import', label: notationImportAccess.importLabel || 'Import ABC' },
+        {
+          key: 'login-import',
+          label: notationImportAccess.loginImportLabel || 'Login to Import MusicXML/MIDI',
+        },
+      ]
+    }
+    const importLabel = notationImportAccess
+      ? notationImportAccess.importLabel
+      : 'Import ABC/MusicXML/MIDI'
     return [
       { key: 'blank', label: 'Blank notation' },
-      { key: 'import', label: 'Import ABC/MusicXML/MIDI' },
+      { key: 'import', label: importLabel },
     ]
   }
   return [
@@ -57,15 +75,42 @@ function sourcesForType(itemType) {
   ]
 }
 
-async function importNotationTuneFromFile(file, tunebook, token) {
+function normalizeAccessToken(token) {
+  if (!token) return null
+  if (typeof token === 'string') return token
+  return token.access_token || null
+}
+
+async function importNotationTuneFromFile(file, tunebook, token, options) {
+  const opts = options || {}
+  const abcOnly = !!opts.abcOnly
   const fileTitle = file.name ? file.name.replace(/\.[^.]+$/, '') : 'Notation'
   const kind = classifyAddFormFile(file)
+  const scoreFormat = detectScoreFormat(file.name)
+  const accessToken = normalizeAccessToken(token)
 
-  if (kind === 'midi' || isMidiImportFile(file)) {
-    const buffer = await file.arrayBuffer()
-    const result = await importMidiToAbc(new Uint8Array(buffer), file.name, token)
-    const candidates = abcTextToCandidates(result.abc, tunebook, null)
+  if (abcOnly) {
+    if (kind === 'midi' || isMidiImportFile(file) || (scoreFormat && scoreFormat !== 'abc')) {
+      throw new Error('Only ABC files can be imported without the media resolver.')
+    }
+    const text = await readFileAsText(file)
+    if (detectTextImportFormat(text, file.name) !== 'abc') {
+      throw new Error('Only ABC notation can be imported without the media resolver.')
+    }
+    const candidates = abcTextToCandidates(text, tunebook, null)
     if (candidates && candidates.length > 0 && candidates[0].tune) {
+      return {
+        title: candidates[0].tune.name || fileTitle,
+        tuneSnapshot: candidates[0].tune,
+      }
+    }
+    return null
+  }
+
+  if (kind === 'midi' || isMidiImportFile(file) || scoreFormat === 'midi') {
+    const wizardResult = await openMidiImportWizard({ file: file, accessToken: accessToken })
+    const candidates = wizardResult.candidates || []
+    if (candidates.length > 0 && candidates[0].tune) {
       return {
         title: candidates[0].tune.name || fileTitle,
         tuneSnapshot: candidates[0].tune,
@@ -74,7 +119,23 @@ async function importNotationTuneFromFile(file, tunebook, token) {
     return { title: fileTitle, tuneSnapshot: blankNotationTune(null, fileTitle) }
   }
 
-  const text = await (utils.blobToText ? utils.blobToText(file) : new Response(file).text())
+  if (scoreFormat && scoreFormat !== 'abc') {
+    const candidates = await parseImportFile({
+      file: file,
+      tunebook: tunebook,
+      accessToken: accessToken,
+      resolverAvailable: true,
+    })
+    if (candidates && candidates.length > 0 && candidates[0].tune) {
+      return {
+        title: candidates[0].tune.name || fileTitle,
+        tuneSnapshot: candidates[0].tune,
+      }
+    }
+    return null
+  }
+
+  const text = await readFileAsText(file)
   const candidates = abcTextToCandidates(text, tunebook, null)
   if (candidates && candidates.length > 0 && candidates[0].tune) {
     return {
@@ -91,6 +152,15 @@ export default function ScratchpadCreateWizard(props) {
   const [showCamera, setShowCamera] = useState(false)
   const fileRef = useRef(null)
   const pendingImportType = useRef('')
+  const { available: resolverAvailable, checked: resolverChecked, status: resolverStatus } = useMediaResolverHealth()
+  const notationImportAccess = useMemo(function() {
+    return getScratchpadNotationImportAccess({
+      resolverAvailable: resolverAvailable,
+      resolverChecked: resolverChecked,
+      resolverStatus: resolverStatus,
+      accessToken: props.token,
+    })
+  }, [resolverAvailable, resolverChecked, resolverStatus, props.token])
 
   function reset() {
     setItemType('')
@@ -156,6 +226,19 @@ export default function ScratchpadCreateWizard(props) {
     }
   }
 
+  function beginNotationLogin() {
+    if (typeof props.login !== 'function') {
+      toast.error('Log in to import MusicXML and MIDI')
+      return
+    }
+    props.login().catch(function(e) {
+      if (e && e.message && e.message.indexOf('cancelled') === -1
+        && e.message.indexOf('Sign-in cancelled') === -1) {
+        toast.error(e.message)
+      }
+    })
+  }
+
   async function handleSourceClick(type, sourceKey) {
     if (busy) return
 
@@ -179,7 +262,15 @@ export default function ScratchpadCreateWizard(props) {
       return
     }
 
+    if (sourceKey === 'login-import') {
+      beginNotationLogin()
+      return
+    }
+
     if (sourceKey === 'import') {
+      if (type === 'notation' && !notationImportAccess.canPickFile) {
+        return
+      }
       pendingImportType.current = type
       if (fileRef.current) fileRef.current.click()
     }
@@ -202,14 +293,18 @@ export default function ScratchpadCreateWizard(props) {
     }
     if (type === 'notation') {
       try {
-        const imported = await importNotationTuneFromFile(file, props.tunebook, props.token)
+        const imported = await importNotationTuneFromFile(file, props.tunebook, props.token, {
+          abcOnly: notationImportAccess.abcOnly,
+        })
         if (imported) {
           await createFromOptions(type, imported)
         } else {
           toast.error('Could not import notation from file')
         }
       } catch (e) {
-        toast.error(e && e.message ? e.message : 'Could not import notation')
+        if (!e || !e.message || e.message.indexOf('cancelled') === -1) {
+          toast.error(e && e.message ? e.message : 'Could not import notation')
+        }
       }
       return
     }
@@ -245,13 +340,21 @@ export default function ScratchpadCreateWizard(props) {
     return (
       <div className="scratchpad-wizard-sources mt-3">
         <div className="small text-muted mb-2">Choose how to create your {itemType} item:</div>
-        {sourcesForType(itemType).map(function(src) {
+        {sourcesForType(itemType, notationImportAccess).map(function(src) {
+          const disabled = busy
+            || (itemType === 'notation' && src.key === 'import' && !notationImportAccess.canPickFile)
+          const importTitle = itemType === 'notation'
+            && src.key === 'login-import'
+            && notationImportAccess.loginWarning
+            ? notationImportAccess.loginWarning.message
+            : undefined
           return (
             <Button
               key={src.key}
               variant="outline-primary"
               className="m-1"
-              disabled={busy}
+              disabled={disabled}
+              title={importTitle}
               onClick={function() { handleSourceClick(itemType, src.key) }}
             >
               {src.label}
@@ -261,6 +364,10 @@ export default function ScratchpadCreateWizard(props) {
       </div>
     )
   }
+
+  const notationFileAccept = itemType === 'notation'
+    ? notationImportAccess.fileAccept
+    : null
 
   return (
     <>
@@ -282,7 +389,8 @@ export default function ScratchpadCreateWizard(props) {
           accept={
             itemType === 'image' ? 'image/*,.pdf'
               : itemType === 'audio' ? 'audio/*'
-                : itemType === 'notation' ? '.abc,.txt,.xml,.musicxml,.mxl,.mid,.midi,audio/midi'
+                : notationFileAccept
+                  ? notationFileAccept
                   : '.txt,.md'
           }
           onChange={function(e) {

@@ -26,8 +26,8 @@ export const EDITOR_INFO_FIELD_HELP = {
     body: 'Tune type such as reel or jig. Choosing a type may automatically set the time signature.',
   },
   genre: {
-    title: 'Genre',
-    body: 'Musical genre or style (for example Folk, Jazz, Bluegrass). Stored in the ABC G: header. Choose from suggestions or type your own.',
+    title: 'Genres',
+    body: 'One or more musical genres or styles (for example Folk, Jazz, Bluegrass). Each genre is stored as an ABC G: header line. Choose from suggestions or type your own.',
   },
   repeats: {
     title: 'Repeats',
@@ -208,5 +208,24 @@ export const SEARCH_FIELD_HELP = {
   showPreview: {
     title: 'Show preview',
     body: 'When enabled, the tune list shows a small cheatsheet snippet (first few bars) for each tune.',
+  },
+};
+
+export const MIDI_CLEANUP_FIELD_HELP = {
+  velocityGate: {
+    title: 'Velocity gate',
+    body: 'Drops notes below this MIDI velocity. Useful for filtering pedal noise, bleed, and weak double-strikes before quantization.',
+  },
+  minDurationMs: {
+    title: 'Min duration (ms)',
+    body: 'Removes notes shorter than this length. Trims flams and ghost notes but can remove fast ornaments if set too high.',
+  },
+  retriggerMergeMs: {
+    title: 'Retrigger merge (ms)',
+    body: 'Merges same-pitch notes when the gap between the end of one and the start of the next is within this tolerance. Reduces machine-gun retrigger artifacts.',
+  },
+  swingAmount: {
+    title: 'Swing amount',
+    body: 'Shifts off-beat eighth notes later (0–50%). Adjusts timing before quantization; this is not the same as swing playback in the editor.',
   },
 };

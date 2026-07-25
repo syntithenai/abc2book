@@ -74,7 +74,7 @@ describe('bulkCheckIssueGroups', function() {
 
     const groups = buildBulkCheckIssueGroups(report, tune, tunebook, null)
     const otherGroup = groups.find(function(group) { return group.id === 'otherInfo' })
-    expect(otherGroup.actions.map(function(item) { return item.id })).toContain('searchChordsLyrics')
+    expect(otherGroup.actions.map(function(item) { return item.id })).toContain('searchArtist')
     expect(otherGroup.actions.map(function(item) { return item.id })).toContain('backgroundInfo')
     expect(groups.find(function(group) { return group.id === 'chordsLyrics' })).toBeUndefined()
   })
@@ -154,6 +154,36 @@ describe('bulkCheckIssueGroups', function() {
     expect(linksGroup.actions.some(function(item) {
       return item.id === 'scanLinkRegion' && item.linkIndex === 0
     })).toBe(true)
+    expect(canRunFixAll(tune, report, tunebook, null)).toBe(false)
+  })
+
+  test('offers collapse empty repeat bar fix for empty bar between repeat marks', function() {
+    const tune = {
+      id: 't1',
+      name: 'Repeat Gap',
+      meter: '4/4',
+      key: 'C',
+      voices: { '1': { notes: ['A2 B2 c2 d2 | e2 f2 g2 a2 :| | |: b2 c\'2 d\'2 e\'2 |]'] } },
+    }
+    const report = {
+      completenessResult: null,
+      abcResult: null,
+      structureResult: {
+        issues: [
+          { code: 'empty_bar', message: 'Empty bars with no notes or rests: bar 10', severity: 'warning', field: 'voices' },
+          { code: 'repeat_style_mixed', message: 'Mixed repeat styles (:: and :| |:) in the same tune', severity: 'info', field: null },
+        ],
+      },
+      issues: [
+        { code: 'empty_bar', message: 'Empty bars with no notes or rests: bar 10', severity: 'warning', field: 'voices' },
+        { code: 'repeat_style_mixed', message: 'Mixed repeat styles (:: and :| |:) in the same tune', severity: 'info', field: null },
+      ],
+    }
+    tunebook.hasNotesOrChords = function() { return true }
+
+    const groups = buildBulkCheckIssueGroups(report, tune, tunebook, null)
+    const notationGroup = groups.find(function(group) { return group.id === 'notation' })
+    expect(notationGroup.actions.map(function(item) { return item.id })).toContain('collapseEmptyRepeatBars')
     expect(canRunFixAll(tune, report, tunebook, null)).toBe(true)
   })
 

@@ -1,0 +1,103 @@
+{
+  "id": "08-parker",
+  "title": "08 Parker",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "06-history/08-parker.md",
+  "sections": [
+    {
+      "id": "charlie-parker-bebop-and-harmonic-velocity",
+      "title": "Charlie Parker: Bebop and Harmonic Velocity",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 6/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Charlie 'Bird' Parker (1920–1955) revolutionised alto saxophone with bebop — fast harmonic rhythm, chromatic lines, improvisation on chord changes."
+        }
+      ]
+    },
+    {
+      "id": "compositions",
+      "title": "Compositions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "*Confirmation*, *Blues for Alice*, *Ko-Ko*, *Ornithology* (based on *How High the Moon*). Tunes became études for jazz musicians worldwide."
+        }
+      ]
+    },
+    {
+      "id": "practice-ethic",
+      "title": "Practice ethic",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Legendary woodshedding — 11–15 hours daily in youth. Oral tradition plus rigorous technique produces new vocabulary."
+        }
+      ]
+    },
+    {
+      "id": "for-trad-improvisers",
+      "title": "For trad improvisers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Target chord tones on strong beats; chromatic approaches between. Apply sparingly on modal tunes."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-parker-central-to",
+      "title": "Q1. Parker central to:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Bebop\n- B) Dixieland only\n- C) 1980s smooth jazz\n- D) Gregorian chant\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-bebop-emphasises-navigating-chord-changes-chromatically",
+      "title": "Q2. Bebop emphasises navigating chord changes chromatically.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Parker central to:\n\n- A) Bebop\n- B) Dixieland only\n- C) 1980s smooth jazz\n- D) Gregorian chant\n\n**Answer:** A\n\n### Q2. Bebop emphasises navigating chord changes chromatically.\n\n**Answer:** True"
+}

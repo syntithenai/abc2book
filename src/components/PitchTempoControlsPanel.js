@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Button } from 'react-bootstrap';
 import { formatPitchDisplay, formatFineTuneDisplay, getPlaybackSettings } from '../pitchTempoUtils';
+import { isChromiumDesktopBrowser } from '../platformUtils';
+import { requestOpenYoutubeHelperInstall } from '../youtubeHelperInstallOpen';
 import './PitchTempoControlsPanel.css';
 
 const tempoPresets = {
@@ -10,7 +12,13 @@ const tempoPresets = {
   fastReview: { label: 'Fast 125%', tempo: 1.25 },
 };
 
-export default function PitchTempoControlsPanel({ tune, tunebook, mediaController, showPitchControls = false }) {
+export default function PitchTempoControlsPanel({
+  tune,
+  tunebook,
+  mediaController,
+  showPitchControls = false,
+  showYoutubeHelperInvite = false,
+}) {
   const [tempo, setTempo] = useState(1.0);
   const [pitch, setPitch] = useState(0);
   const [fineTune, setFineTune] = useState(0);
@@ -32,8 +40,9 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
 
   function applyLive(nextTempo, nextPitch, nextFineTune) {
     if (!mediaController) return;
+    const liveOpts = { fromUserGesture: true };
     if (mediaController.applyLivePlaybackSettings) {
-      mediaController.applyLivePlaybackSettings(nextTempo, nextPitch, nextFineTune);
+      mediaController.applyLivePlaybackSettings(nextTempo, nextPitch, nextFineTune, liveOpts);
     } else if (mediaController.updateTunePlaybackSettings) {
       mediaController.updateTunePlaybackSettings(nextTempo, nextPitch, nextFineTune);
     }
@@ -135,6 +144,30 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
           </Button>
         </div>
       </div>
+
+      {showYoutubeHelperInvite && !showPitchControls && (
+      <div className="control-section youtube-helper-pitch-invite">
+        <h6>Pitch shift</h6>
+        <p className="youtube-helper-pitch-invite-text">
+          YouTube pitch shift needs downloaded audio. Install the TuneBook Helper extension in Chrome
+          to enable pitch and fine-tune controls here.
+        </p>
+        {isChromiumDesktopBrowser() ? (
+          <Button
+            variant="primary"
+            size="sm"
+            data-testid="youtube-helper-pitch-invite-install"
+            onClick={function() { requestOpenYoutubeHelperInstall() }}
+          >
+            Install TuneBook Helper
+          </Button>
+        ) : (
+          <p className="youtube-helper-pitch-invite-text">
+            TuneBook Helper is available on Chrome desktop.
+          </p>
+        )}
+      </div>
+      )}
 
       {showPitchControls && (
       <div className="control-section">

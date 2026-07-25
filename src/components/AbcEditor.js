@@ -38,19 +38,16 @@ import KeySignatureInput from './KeySignatureInput'
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
 import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings'
 import {
-  getMusicGenreSelectOptions,
-  genreSelectValue,
-} from '../musicGenreOptions'
-import {
   normalizeEditorViewMode,
   isNotationEditorView,
   editorViewModeToNotationView,
 } from '../viewModeUtils'
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
+import TuneGenresField from './TuneGenresField'
 import BookSelectorModal from './BookSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
-import { mergeBibliographicList } from '../tuneBibliographicUtils'
+import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
 
 
 export default function AbcEditor(props) {
@@ -143,7 +140,8 @@ export default function AbcEditor(props) {
 
   function acceptSuggestedGenre(genre) {
     if (!tune || !genre) return
-    tune.genre = genre
+    if (!Array.isArray(tune.genres)) tune.genres = []
+    tune.genres = mergeBibliographicList(tune.genres, [genre])
     tune.id = params.tuneId
     saveTune(tune, { historyLabel: 'Apply suggested genre', immediate: true })
   }
@@ -160,14 +158,17 @@ export default function AbcEditor(props) {
     }
   }
 
-  function tuneNotesChanged(voice, notes, historyLabel) {
+  function tuneNotesChanged(voice, notes, historyLabel, historyOptions) {
     //console.log('change NOTES',voice,tune,tune.voices)
     if (tune && tune.voices && tune.voices.hasOwnProperty(voice)) {
       //console.log('change NOTES',voice,tune,tune.voices)
       var v = props.tunebook.abcTools.justNotes(notes); 
       tune.voices[voice].notes = v.split("\n")
       tune.id = params.tuneId
-      saveTune(tune, false, { historyLabel: historyLabel || 'Edit notes' }) 
+      saveTune(tune, false, {
+        historyLabel: historyLabel || 'Edit notes',
+        immediate: !!(historyOptions && historyOptions.immediate),
+      }) 
       //setTune(tune)
       //console.log('SAVEd NOTES',tune, "V",voice,"N", notes, "JN",v)
     }
@@ -284,12 +285,13 @@ export default function AbcEditor(props) {
         onAddVoice={addVoice}
         onDeleteVoice={deleteVoice}
         onReorderVoices={reorderVoices}
-        onVoiceNotesChange={function(vk, notesText, label) { tuneNotesChanged(vk, notesText, label) }}
+        onVoiceNotesChange={function(vk, notesText, label, options) { tuneNotesChanged(vk, notesText, label, options) }}
         onVoiceMetaChange={function(vk, meta) { tuneVoiceMetaChanged(vk, meta) }}
         onActiveVoicesChange={function(voiceKeys) {
           tune.activeVoices = Array.isArray(voiceKeys) ? voiceKeys.slice() : []
           tune.id = params.tuneId
           saveTune(tune, { historyLabel: 'Active voices' })
+          if (props.forceRefresh) props.forceRefresh()
         }}
         onWarnings={onWarnings}
         onAbcClick={onAbcClick}
@@ -299,6 +301,7 @@ export default function AbcEditor(props) {
         onEditorViewChange={props.onEditorViewModeChange}
         onHelpModeChange={props.onNotationHelpModeChange}
         historyControls={props.historyControls}
+        onRegisterFlushCommit={props.onRegisterFlushCommit}
       />
     )
   }
@@ -510,12 +513,14 @@ export default function AbcEditor(props) {
                               title={tune.name || ''}
                               artist={tune.composer || ''}
                               rhythm={tune.rhythm || ''}
-                              currentGenre={tune.genre || ''}
+                              currentGenres={allGenres(tune)}
                               backgroundInfo={tune.backgroundInfo || ''}
+                              token={props.token}
                               tunebook={props.tunebook}
                               disabled={!(tune && tune.name && String(tune.name).trim())}
-                              onGenre={function(genre) {
-                                tune.genre = genre
+                              onAddGenre={function(genre) {
+                                if (!Array.isArray(tune.genres)) tune.genres = []
+                                tune.genres = mergeBibliographicList(tune.genres, [genre])
                                 tune.id = params.tuneId
                                 saveTune(tune)
                               }}
@@ -524,28 +529,17 @@ export default function AbcEditor(props) {
                                 return (
                                   <>
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                                      <Form.Label htmlFor="genre" style={{ marginBottom: 0 }}>Genre</Form.Label>
+                                      <Form.Label style={{ marginBottom: 0 }}>Genres</Form.Label>
                                       {api.buttonGroup}
                                     </div>
-                                    <CreatableSelect
-                                      inputId="genre"
-                                      value={genreSelectValue(tune.genre)}
-                                      onChange={function(val) {
-                                        tune.genre = val ? val.label : ''
+                                    <TuneGenresField
+                                      label=""
+                                      className="mb-0"
+                                      value={allGenres(tune)}
+                                      onChange={function(genres) {
+                                        tune.genres = genres
                                         tune.id = params.tuneId
                                         saveTune(tune)
-                                      }}
-                                      options={getMusicGenreSelectOptions()}
-                                      isClearable={true}
-                                      blurInputOnSelect={true}
-                                      createOptionPosition="first"
-                                      allowCreateWhileLoading={true}
-                                      placeholder="eg Folk, Jazz"
-                                      menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
-                                      styles={{
-                                        menuPortal: function(base) {
-                                          return Object.assign({}, base, { zIndex: 10050 })
-                                        },
                                       }}
                                     />
                                     {api.errorNode}
@@ -562,6 +556,7 @@ export default function AbcEditor(props) {
                             tuneId={params.tuneId || tune.id}
                             title={tune.name || ''}
                             artist={tune.composer || ''}
+                            token={props.token}
                             existingArtists={tune.artists}
                             tunebook={props.tunebook}
                             disabled={!(tune && tune.name && String(tune.name).trim())}
@@ -877,7 +872,7 @@ export default function AbcEditor(props) {
                           artist={tune.composer || ''}
                           lyrics={blockLyricsText}
                           rhythm={tune.rhythm || ''}
-                          currentGenre={tune.genre || ''}
+                          currentGenres={allGenres(tune)}
                           onGenreAccept={acceptSuggestedGenre}
                           token={props.token}
                           tunebook={props.tunebook}
@@ -953,6 +948,7 @@ export default function AbcEditor(props) {
                           loadTuneTexts={props.loadTuneTexts}
                           forceRefresh={props.forceRefresh}
                           mediaController={props.mediaController}
+                          login={props.login}
                           onChange={function(links) {
                             tune.links = links;
                             tune.id = params.tuneId;
@@ -1076,7 +1072,7 @@ export default function AbcEditor(props) {
                           title={tune.name}
                           artist={tune.composer || ''}
                           rhythm={tune.rhythm || ''}
-                          currentGenre={tune.genre || ''}
+                          currentGenres={allGenres(tune)}
                           onGenreAccept={acceptSuggestedGenre}
                           token={props.token}
                           tunebook={props.tunebook}
@@ -1231,6 +1227,7 @@ export default function AbcEditor(props) {
                       pendingChordImport={pendingChordImport}
                       onConsumePendingChordImport={function() { setPendingChordImport('') }}
                       autoActivateChordRecord={props.autoActivateChordRecord}
+                      autoStartChordSearch={props.autoStartChordSearch}
                       onLyricsImport={function(lines) {
                         setBlockLyricsText(lines.join('\n'))
                         setPlainLyricLines(tune, lines)

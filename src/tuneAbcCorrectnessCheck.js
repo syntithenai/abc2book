@@ -117,11 +117,71 @@ export function fixTuneAbcHeaders(tune, abcTools) {
   return next;
 }
 
+const NOTATION_HEADER_FIELDS = [
+  { header: 'M', field: 'meter', normalize: function(value, abcTools) {
+    return typeof abcTools.normalizeMeter === 'function'
+      ? abcTools.normalizeMeter(value)
+      : value;
+  } },
+  { header: 'K', field: 'key' },
+  { header: 'L', field: 'noteLength' },
+  { header: 'Q', field: 'tempo', normalize: function(value, abcTools) {
+    return typeof abcTools.cleanTempo === 'function'
+      ? abcTools.cleanTempo(value)
+      : value;
+  } },
+];
+
+export function applyNotationHeadersFromAbc(tune, abcText, abcTools) {
+  if (!tune || !abcTools || !abcText) return tune;
+  const next = Object.assign({}, tune);
+  let changed = false;
+
+  NOTATION_HEADER_FIELDS.forEach(function(entry) {
+    const raw = String(abcTools.getMetaValueFromAbc(entry.header, abcText) || '').trim();
+    if (!raw) return;
+    const value = entry.normalize ? entry.normalize(raw, abcTools) : raw;
+    if (String(next[entry.field] || '') !== String(value)) {
+      next[entry.field] = value;
+      changed = true;
+    }
+  });
+
+  return changed ? next : tune;
+}
+
+function notationStateEqual(beforeTune, afterTune) {
+  if (!beforeTune || !afterTune) return false;
+  return JSON.stringify(beforeTune.voices) === JSON.stringify(afterTune.voices)
+    && String(beforeTune.meter || '') === String(afterTune.meter || '')
+    && String(beforeTune.key || '') === String(afterTune.key || '')
+    && String(beforeTune.noteLength || '') === String(afterTune.noteLength || '')
+    && String(beforeTune.tempo || '') === String(afterTune.tempo || '');
+}
+
+/**
+ * Re-render notation through abcjs and apply only voice note lines plus
+ * notation headers (M/K/L/Q). Bibliographic and app fields are preserved.
+ */
 export function normalizeTuneAbc(tune, abcTools, parseAndRender) {
   if (!tune || !abcTools || typeof parseAndRender !== 'function') return null;
   const abcText = abcTools.json2abc(tune);
-  const rerendered = parseAndRender(abcText);
-  const json = abcTools.abc2json(rerendered);
-  json.id = tune.id;
-  return json;
+  let rerendered;
+  try {
+    rerendered = parseAndRender(abcText);
+  } catch (err) {
+    return null;
+  }
+  if (!rerendered) return null;
+
+  const parsed = abcTools.abc2json(rerendered);
+  if (!parsed || !parsed.voices) return null;
+
+  let next = Object.assign({}, tune, {
+    voices: parsed.voices,
+  });
+  next = applyNotationHeadersFromAbc(next, rerendered, abcTools);
+
+  if (notationStateEqual(tune, next)) return null;
+  return next;
 }

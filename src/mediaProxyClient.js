@@ -1,5 +1,6 @@
 import {
   getMediaProxyBaseCandidates as buildMediaProxyBaseCandidates,
+  DEFAULT_CLOUD_LIGHT_MEDIA_PROXY,
 } from './mediaProxyConfig';
 import { trackResolverRequest } from './analytics';
 import { parseResolverFeaturesFromHealthBody } from './resolverFeatures';
@@ -10,6 +11,7 @@ import { getYoutubeEgressHeaders } from './youtubeUnlock';
 
 let activeProxyBase = null;
 let heavyMlProxyBase = null;
+let midiImportProxyBase = null;
 
 // Health checks must fail fast. A configured-but-unreachable candidate (e.g. the
 // public resolver when the browser can't reach it via NAT loopback) would
@@ -85,6 +87,27 @@ export function isMediaProxyConfigured() {
 
 export function clearActiveMediaProxyBase() {
   activeProxyBase = null;
+  midiImportProxyBase = null;
+}
+
+function isCloudLightResolverBase(base) {
+  if (!base) return false;
+  if (base === DEFAULT_CLOUD_LIGHT_MEDIA_PROXY) return true;
+  return /resolver-light/i.test(String(base));
+}
+
+function pickMidiImportBase(candidates) {
+  let remoteFallback = null;
+  let anyFallback = null;
+  for (let i = 0; i < candidates.length; i++) {
+    const c = candidates[i];
+    if (!c.reachable || !c.available) continue;
+    if (!anyFallback) anyFallback = c.base;
+    if (isCloudLightResolverBase(c.base)) continue;
+    if (isLikelyLocalResolverBase(c.base)) return c.base;
+    if (!remoteFallback) remoteFallback = c.base;
+  }
+  return remoteFallback || anyFallback;
 }
 
 export function normalizeAccessToken(accessToken) {
@@ -357,8 +380,8 @@ export async function probeMediaResolverCandidates(accessToken) {
     }
   }
 
-  activeProxyBase = activeBase;
   heavyMlProxyBase = pickHeavyMlBase(candidates);
+  midiImportProxyBase = pickMidiImportBase(candidates);
   const preferredAuthBase = pickAuthResolverBase(candidates);
   const authBase = resolveStickyAuthBase(candidates, null);
   return {
@@ -415,9 +438,17 @@ function pathNeedsYoutubeEgress(pathAndQuery) {
   return path.indexOf('/youtube/') === 0;
 }
 
+function pathNeedsMidiAnalyze(pathAndQuery) {
+  const path = String(pathAndQuery || '').split('?')[0];
+  return path.indexOf('/midi2analyze') === 0;
+}
+
 export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptions = {}) {
   const preferHeavy = pathNeedsHeavyMl(pathAndQuery) && heavyMlProxyBase;
-  const preferredBase = preferHeavy ? heavyMlProxyBase : activeProxyBase;
+  const preferMidiAnalyze = pathNeedsMidiAnalyze(pathAndQuery) && midiImportProxyBase;
+  const preferredBase = preferHeavy
+    ? heavyMlProxyBase
+    : (preferMidiAnalyze ? midiImportProxyBase : activeProxyBase);
   const bases = preferredBase
     ? [preferredBase].concat(getMediaProxyBaseCandidates().filter(function(b) { return b !== preferredBase; }))
     : getMediaProxyBaseCandidates();
@@ -433,6 +464,14 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
     let lastError = null;
     for (let i = 0; i < bases.length; i++) {
       const proxyBase = bases[i];
+      if (isMixedContentBlocked(proxyBase)) {
+        continue;
+      }
+      if (pathNeedsMidiAnalyze(pathAndQuery)
+        && isCloudLightResolverBase(proxyBase)
+        && proxyBase !== midiImportProxyBase) {
+        continue;
+      }
       const url = proxyBase + pathAndQuery;
       try {
         const mergedHeaders = Object.assign(

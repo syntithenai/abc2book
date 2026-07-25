@@ -1,0 +1,719 @@
+{
+  "id": "regions-celtic-ireland-08-tunes",
+  "title": "Irish Tunes — Forms, History, and Recordings",
+  "track": "regions",
+  "tier": 4.5,
+  "region": "ireland",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-celtic-ireland-04-genres-forms"
+  ],
+  "tags": [
+    "ireland",
+    "tunes",
+    "reel",
+    "jig",
+    "recordings"
+  ],
+  "path": "10-regions/celtic/ireland/08-tunes.md",
+  "sections": [
+    {
+      "id": "irish-tunes-forms-history-and-recordings",
+      "title": "Irish Tunes — Forms, History, and Recordings",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 4.5 | **Difficulty:** 5/10\n**Prerequisites:** regions-celtic-ireland-04-genres-forms\n**Tags:** ireland, tunes, reel, jig, hornpipe, recordings"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "This lesson turns the tune-type field guide into **named repertoire**. You will meet representative reels, jigs, hornpipes, polkas, slides, slow airs, and a planxty — with oldest references, players who popularised each tune, regional variants, and multiple YouTube examples in different styles.\n\nListen comparatively: the same title can sound like a Sligo roll-heavy reel in one hands and a spare Donegal reading in another. That variation is the tradition working."
+        }
+      ]
+    },
+    {
+      "id": "the-silver-spear",
+      "title": "The Silver Spear",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The Silver Spear is among the most played reels in sessions worldwide. Francis O'Neill included it in *Music of Ireland*; Michael Coleman's New York 78s helped fix a setting that many players still treat as a reference. Martin Hayes and other Clare fiddlers often approach the tune with more space and dynamic breathing.\n\nCompare recordings below — notice bowing, ornament density, and tempo relative to dance."
+        }
+      ]
+    },
+    {
+      "id": "the-kesh-jig",
+      "title": "The Kesh Jig",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "track",
+          "id": "kesh-jig",
+          "label": "The Kesh Jig"
+        },
+        {
+          "type": "markdown",
+          "text": " appears in Brendan Breathnach's *Ceol Rince na hÉireann* and has become a learner's gateway into 6/8 repertoire. It chains easily with *The Merry Blacksmith* and other D-major jigs in pub sets."
+        }
+      ]
+    },
+    {
+      "id": "more-session-standards",
+      "title": "More session standards",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Tune | Form | Note |\n|------|------|------|\n| *The Wind That Shakes the Barley* | Reel | Political associations; many settings |\n| *Drowsy Maggie* | Reel | High-energy session opener |\n| *The Butterfly* | Slip jig | 9/8 asymmetry; graceful step |\n| *Off to California* | Hornpipe | Dotted bounce; emigration theme |\n| *Sí Bheag Sí Mhór* | Planxty | Carolan harp piece adapted widely |\n\nUse **Play all** at the top to hear curated examples, or tap ▶ beside each player row."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "silver-spear",
+      "type": "tune",
+      "name": "The Silver Spear",
+      "form": "reel",
+      "reference": "Francis O'Neill, Music of Ireland",
+      "about": "Session staple with many regional settings.",
+      "made_famous_by": [
+        "coleman",
+        "hayes"
+      ]
+    },
+    {
+      "id": "coleman",
+      "type": "artist",
+      "name": "Michael Coleman",
+      "summary": "Sligo fiddler whose 78s popularised many session standards",
+      "blurb": "New York recordings fixed settings still played today.",
+      "years": "1891–1945",
+      "region": "Sligo",
+      "url": "https://en.wikipedia.org/wiki/Michael_Coleman_(fiddler)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Coleman_fiddler.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "hayes",
+      "type": "artist",
+      "name": "Martin Hayes",
+      "summary": "Contemporary Clare fiddler with breathing phrasing",
+      "blurb": "Reinterprets standards with slow intros and dynamic range.",
+      "years": "1962–",
+      "region": "Clare",
+      "url": "https://en.wikipedia.org/wiki/Martin_Hayes_(musician)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Martin_Hayes_2008.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "coleman",
+    "hayes"
+  ],
+  "playlist": [
+    {
+      "id": "silver-spear-coleman",
+      "entity_id": "coleman",
+      "label": "The Silver Spear",
+      "youtube": "https://www.youtube.com/watch?v=6nXy8p8m7hY",
+      "subtitle": "Michael Coleman"
+    },
+    {
+      "id": "silver-spear-hayes",
+      "entity_id": "hayes",
+      "label": "The Silver Spear (Clare)",
+      "youtube": "https://www.youtube.com/watch?v=wq6wOu9vV9E",
+      "subtitle": "Martin Hayes"
+    },
+    {
+      "id": "kesh-jig",
+      "entity_id": "coleman",
+      "label": "The Kesh Jig",
+      "youtube": "https://www.youtube.com/watch?v=H1QldbqXh8I",
+      "subtitle": "Michael Coleman"
+    }
+  ],
+  "tunes": [
+    {
+      "id": "silver-spear",
+      "type": "tune",
+      "name": "The Silver Spear",
+      "form": "reel",
+      "reference": "Francis O'Neill, Music of Ireland",
+      "about": "Session staple; Sligo roll-heavy settings vs Donegal bowing.",
+      "made_famous_by": [
+        "coleman",
+        "hayes"
+      ],
+      "playlist": [
+        {
+          "entity_id": "coleman",
+          "label": "Michael Coleman",
+          "youtube": "https://www.youtube.com/watch?v=6nXy8p8m7hY"
+        },
+        {
+          "entity_id": "hayes",
+          "label": "Martin Hayes",
+          "youtube": "https://www.youtube.com/watch?v=wq6wOu9vV9E"
+        }
+      ]
+    },
+    {
+      "id": "kesh-jig",
+      "type": "tune",
+      "name": "The Kesh Jig",
+      "form": "double jig",
+      "reference": "Brendan Breathnach, Ceol Rince na hÉireann",
+      "about": "Beginner-friendly jig heard in sessions worldwide.",
+      "playlist": [
+        {
+          "entity_id": "coleman",
+          "label": "Session jig set",
+          "youtube": "https://www.youtube.com/watch?v=H1QldbqXh8I"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    "Tune names and settings vary by region and collector.",
+    "Reels, jigs, hornpipes, and polkas each have distinct metre.",
+    "78s and archives document how standards crystallised.",
+    "Compare two recordings to hear regional bowing and ornament.",
+    "Session sets chain tunes of the same form before switching."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "O'Neill's Music of Ireland",
+      "author": "Francis O'Neill",
+      "note": "1850 tune settings"
+    },
+    {
+      "type": "link",
+      "title": "The Session",
+      "url": "https://thesession.org/",
+      "note": "Alternate settings and comments"
+    },
+    {
+      "type": "link",
+      "title": "ITMA tune resources",
+      "url": "https://www.itma.ie/",
+      "note": "Manuscripts and discography"
+    },
+    {
+      "type": "book",
+      "title": "The Dance Music of Ireland (vols 1–5)",
+      "author": "Brendan Breathnach",
+      "note": "Standard reference settings"
+    },
+    {
+      "type": "book",
+      "title": "The Northern Fiddler",
+      "author": "Caoimhín Mac Aoidh",
+      "note": "Donegal repertoire and players"
+    },
+    {
+      "type": "link",
+      "title": "The Session — tune comments",
+      "url": "https://thesession.org/tunes",
+      "note": "Alternate versions and keys"
+    },
+    {
+      "type": "link",
+      "title": "ITMA — tune manuscripts",
+      "url": "https://www.itma.ie/digitallibrary/",
+      "note": "Historical settings"
+    },
+    {
+      "type": "link",
+      "title": "Comhaltas tune of the week",
+      "url": "https://comhaltas.ie/music/",
+      "note": "Learning resources"
+    },
+    {
+      "type": "link",
+      "title": "Alan Ng's tunography",
+      "url": "http://www.irishtrad.com/",
+      "note": "Tune title index and discography"
+    },
+    {
+      "type": "link",
+      "title": "Feadóga Stáin — Mary Bergin",
+      "url": "https://www.itma.ie/",
+      "note": "Whistle repertoire recordings"
+    },
+    {
+      "type": "link",
+      "title": "O'Neill 1001 — online index",
+      "url": "https://www.irishtune.info/",
+      "note": "Cross-reference O'Neill numbers"
+    }
+  ],
+  "quiz_markdown": "1. **What metre is a double jig?**\n   **Answer:** 6/8\n\n2. **Which collector published *Music of Ireland* in 1903?**\n   **Answer:** Francis O'Neill\n\n3. **Michael Coleman recorded primarily in which city?**\n   **Answer:** New York\n\n4. **A slip jig is typically in what metre?**\n   **Answer:** 9/8\n\n5. **What tune type is *Off to California*?**\n   **Answer:** Hornpipe\n\n6. **Sessions usually chain tunes of the same what before switching?**\n   **Answer:** Form\n\n7. **The Kesh Jig appears in which Breathnach collection?**\n   **Answer:** Ceol Rince na hÉireann\n\n8. **Compare two settings of the same tune to hear regional what?**\n   **Answer:** Variation",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What metre is a double jig?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson gives: 6/8"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Which collector published *Music of Ireland* in 1903?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson gives: Francis O'Neill"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Michael Coleman recorded primarily in which city?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "New York",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson gives: New York"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "A slip jig is typically in what metre?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson gives: 9/8"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "What tune type is *Off to California*?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hornpipe",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson gives: Hornpipe"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Sessions usually chain tunes of the same what before switching?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Form",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson gives: Form"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "The Kesh Jig appears in which Breathnach collection?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ceol Rince na hÉireann",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson gives: Ceol Rince na hÉireann"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Compare two settings of the same tune to hear regional what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Variation",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson gives: Variation"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-ireland-08-tunes-quiz",
+    "title": "Irish Tunes — Forms, History, and Recordings quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "What metre is a double jig?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: 6/8"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Which collector published *Music of Ireland* in 1903?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson gives: Francis O'Neill"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Michael Coleman recorded primarily in which city?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "New York",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: New York"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "A slip jig is typically in what metre?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: 9/8"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "What tune type is *Off to California*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hornpipe",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: Hornpipe"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Sessions usually chain tunes of the same what before switching?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Form",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson gives: Form"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "The Kesh Jig appears in which Breathnach collection?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Ceol Rince na hÉireann",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: Ceol Rince na hÉireann"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Compare two settings of the same tune to hear regional what?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Variation",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: Variation"
+      }
+    ]
+  }
+}

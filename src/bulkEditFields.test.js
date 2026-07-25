@@ -12,8 +12,8 @@ describe('bulkEditFields', function() {
     expect(BULK_EDIT_FIELDS.some(function(field) { return field.key === 'tranpose' })).toBe(false)
   })
 
-  test('includes genre field', function() {
-    expect(BULK_EDIT_FIELDS.some(function(field) { return field.key === 'genre' })).toBe(true)
+  test('includes genres field', function() {
+    expect(BULK_EDIT_FIELDS.some(function(field) { return field.key === 'genres' })).toBe(true)
   })
 
   test('coerces numeric fields', function() {

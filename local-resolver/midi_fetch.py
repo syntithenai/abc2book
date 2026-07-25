@@ -1,17 +1,17 @@
-"""Search allowlisted MIDI sites and convert public .mid files to MusicXML candidates."""
+"""Search allowlisted MIDI sites and return deferred MIDI candidates for client wizard."""
 
 from __future__ import annotations
 
+import base64
 import re
 from urllib.parse import urljoin, urlparse
 
 import httpx
 
 from browser_fetch import fetch_html_with_fallback
-from midi_convert import MAX_MIDI_IMPORT_BYTES, convert_midi_to_musicxml
+from midi_convert import MAX_MIDI_IMPORT_BYTES
 from midi_resources import (
     MAX_LOCAL_MIDI_CANDIDATES,
-    annotate_local_midi_candidate,
     midi_resources_enabled,
     read_midi_resource_bytes,
     search_midi_resources,
@@ -248,7 +248,7 @@ def extract_midi_file_urls_from_html(html, page_url=""):
     return ordered
 
 
-def annotate_midi_candidate(music_xml, title="", artist="", source_url=""):
+def annotate_midi_candidate(midi_bytes, title="", artist="", source_url="", music_xml=""):
     host = ""
     try:
         host = _strip_www(urlparse(source_url).hostname)
@@ -262,14 +262,17 @@ def annotate_midi_candidate(music_xml, title="", artist="", source_url=""):
         tune_meta["name"] = title
     if artist:
         tune_meta["composer"] = artist
+    encoded = base64.b64encode(midi_bytes).decode("ascii") if midi_bytes else ""
     return {
         "abc": "",
-        "musicXml": music_xml,
+        "musicXml": music_xml or "",
+        "midiBytes": encoded,
+        "importFormat": "midi",
         "title": title or "",
         "artist": artist or "",
         "source": host or "midi",
         "sourceUrl": source_url or "",
-        "preview": "",
+        "preview": "MIDI file (wizard import)",
         "titleOnly": not bool(title),
         "tuneMeta": tune_meta,
     }
@@ -307,10 +310,9 @@ async def fetch_midi_bytes(client, url, referer=None):
 
 
 async def convert_and_annotate_midi(midi_bytes, source_url, query_title="", artist=""):
-    music_xml, _diagnostics = await convert_midi_to_musicxml(midi_bytes, filename=source_url or "import.mid")
     title = title_from_midi_url(source_url, fallback=query_title)
     return annotate_midi_candidate(
-        music_xml,
+        midi_bytes,
         title=title,
         artist=artist or "",
         source_url=source_url,
@@ -327,14 +329,12 @@ async def fetch_midi_url(url, on_progress=None, client=None, title="", artist=""
             midi_bytes = read_midi_resource_bytes(rel_path)
         except Exception as exc:
             raise ValueError(str(exc) or "Could not load local MIDI file") from exc
-        await _emit_progress(on_progress, "midi", "Converting MIDI to MusicXML...", 0.7)
-        music_xml, _diagnostics = await convert_midi_to_musicxml(midi_bytes, filename=rel_path)
-        candidate = annotate_local_midi_candidate(
-            music_xml,
+        await _emit_progress(on_progress, "midi", "Preparing MIDI for import...", 0.7)
+        candidate = annotate_midi_candidate(
+            midi_bytes,
             title=title_from_midi_url(page_url, fallback=title),
-            path=rel_path,
-            query_title=title,
-            artist=artist,
+            artist=artist or "",
+            source_url=page_url,
         )
         await _emit_progress(on_progress, "midi", "MIDI notation ready", 1.0)
         return candidate
@@ -350,7 +350,7 @@ async def fetch_midi_url(url, on_progress=None, client=None, title="", artist=""
         midi_bytes = await fetch_midi_bytes(client, page_url)
         if not midi_bytes:
             raise ValueError("Could not download MIDI file from that URL")
-        await _emit_progress(on_progress, "midi", "Converting MIDI to MusicXML...", 0.7)
+        await _emit_progress(on_progress, "midi", "Preparing MIDI for import...", 0.7)
         candidate = await convert_and_annotate_midi(
             midi_bytes,
             page_url,
@@ -432,16 +432,11 @@ async def collect_local_midi_candidates(title, artist="", on_progress=None):
         )
         try:
             midi_bytes = read_midi_resource_bytes(rel_path)
-            music_xml, _diagnostics = await convert_midi_to_musicxml(
+            candidate = annotate_midi_candidate(
                 midi_bytes,
-                filename=rel_path,
-            )
-            candidate = annotate_local_midi_candidate(
-                music_xml,
                 title=str(match.get("title") or ""),
-                path=rel_path,
-                query_title=title,
-                artist=artist,
+                artist=artist or "",
+                source_url="/midi-resources/" + rel_path,
             )
             candidate["matchScore"] = int(match.get("matchScore") or 0)
             candidates.append(candidate)

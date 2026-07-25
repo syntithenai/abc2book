@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import { Alert } from 'react-bootstrap'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
+import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
 import { applyFieldLookupChoice, buildSearchModeOptions, dismissFieldLookup } from '../tuneFieldLookupQueue'
 import { buildGoogleGenreSearchUrl } from '../genreSearchClient'
 import {
@@ -16,17 +17,25 @@ import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
 import FieldSearchResultsCaret from './FieldSearchResultsCaret'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 
+function normalizeCurrentGenres(currentGenres) {
+  if (!Array.isArray(currentGenres)) return []
+  return currentGenres.map(function(genre) {
+    return String(genre || '').trim()
+  }).filter(Boolean)
+}
+
 export default function GenreSearchButton({
   tuneId,
   candidateId,
   title,
   artist,
   rhythm,
-  currentGenre,
+  currentGenres,
   backgroundInfo,
-  onGenre,
+  onAddGenre,
   buttonStyle,
   disabled,
+  token,
   tunebook,
   inline,
   children,
@@ -37,12 +46,15 @@ export default function GenreSearchButton({
   const searchModeRef = useRef('auto')
   const applyRef = useRef(null)
   const cachedCandidates = useFieldSearchResults(tuneId, candidateId, 'genre')
-  const fieldEmpty = !String(currentGenre || '').trim()
+  const genres = normalizeCurrentGenres(currentGenres)
+  const fieldEmpty = genres.length === 0
+  const resolverAccess = useFieldLookupResolverAccess(token)
+  const automaticLookup = resolverAccess.automaticLookupFor('genre')
 
   function finishApply(result, jobId) {
     if (jobId) applyFieldLookupChoice(jobId, result)
-    if (typeof onGenre === 'function' && result && result.genre) {
-      onGenre(result.genre)
+    if (typeof onAddGenre === 'function' && result && result.genre) {
+      onAddGenre(result.genre)
     }
   }
   applyRef.current = finishApply
@@ -68,9 +80,9 @@ export default function GenreSearchButton({
     onAwaiting: function(job) {
       const candidates = searchableSuggestions(job)
       if (job.status === 'done' || (job.appliedCandidate && fieldEmpty)) {
-        if (job.appliedCandidate && typeof onGenre === 'function') {
+        if (job.appliedCandidate && typeof onAddGenre === 'function') {
           const genre = String(job.appliedCandidate.genre || '').trim()
-          if (genre) onGenre(genre)
+          if (genre) onAddGenre(genre)
         }
         return
       }
@@ -94,6 +106,7 @@ export default function GenreSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
+  const currentGenreContext = genres.join(', ')
 
   function run() {
     if (!canSearch) return
@@ -112,13 +125,13 @@ export default function GenreSearchButton({
       tuneName: title,
       options: buildSearchModeOptions('auto', {
         rhythm: rhythm || '',
-        currentGenre: currentGenre || '',
+        currentGenre: currentGenreContext,
         backgroundInfo: backgroundInfo || '',
       }),
     })
   }
 
-  const originalValue = resolveOriginalValueForPicker(awaitingJob, currentGenre || '')
+  const originalValue = resolveOriginalValueForPicker(awaitingJob, currentGenreContext)
   const pickerItems = [
     buildPickerOriginalValueItem({ value: originalValue }),
   ].concat(pickerCandidates.map(function(candidate) {
@@ -147,7 +160,7 @@ export default function GenreSearchButton({
     buttonGroup: (
       <>
         <FieldLookupButtonGroup
-          automaticLookup={true}
+          automaticLookup={automaticLookup}
           showExternal={!!(googleUrl && externalLinkIcon)}
           busy={busy}
           disabled={!canSearch || disabled}

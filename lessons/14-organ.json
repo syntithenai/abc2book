@@ -1,0 +1,125 @@
+{
+  "id": "14-organ",
+  "title": "14 Organ",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/14-organ.md",
+  "sections": [
+    {
+      "id": "organ",
+      "title": "Organ",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The pipe organ forces air through pipes of varying length — one of the largest and oldest mechanical instruments. Church and concert hall icon."
+        }
+      ]
+    },
+    {
+      "id": "mechanism",
+      "title": "Mechanism",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Thousands of pipes; stops select which ranks sound. Manuals (keyboards) and pedalboard. Mechanical action (tracker) or electric/pneumatic."
+        }
+      ]
+    },
+    {
+      "id": "sound",
+      "title": "Sound",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Principals (flue pipes), flutes, reeds (trumpet stop), mixtures (multiple ranks). Enormous dynamic range — whisper to full tutti."
+        }
+      ]
+    },
+    {
+      "id": "composers",
+      "title": "Composers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bach (*Toccata and Fugue in D minor*), Franck, Widor, Messiaen. Baroque organ temperament and registration differ from Romantic symphonic organ."
+        }
+      ]
+    },
+    {
+      "id": "related",
+      "title": "Related",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Harmonium (reed organ, pressure bellows). Theatre organ. Hammond organ (electromagnetic tonewheels) in jazz and rock."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-pipe-organ-sound-from",
+      "title": "Q1. Pipe organ sound from:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Air through pipes\n- B) Hammered strings\n- C) Bowed strings\n- D) Plucked nylon\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-bach-wrote-extensively-for-organ",
+      "title": "Q2. Bach wrote extensively for organ.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-organ-stops",
+      "title": "Q3. Organ stops:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Select which pipe ranks sound\n- B) Mute all pipes permanently\n- C) Change time signature\n- D) Tune violin strings\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Pipe organ sound from:\n\n- A) Air through pipes\n- B) Hammered strings\n- C) Bowed strings\n- D) Plucked nylon\n\n**Answer:** A\n\n### Q2. Bach wrote extensively for organ.\n\n**Answer:** True\n\n### Q3. Organ stops:\n\n- A) Select which pipe ranks sound\n- B) Mute all pipes permanently\n- C) Change time signature\n- D) Tune violin strings\n\n**Answer:** A"
+}

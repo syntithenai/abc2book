@@ -103,6 +103,22 @@ export function getPlayableVoiceKeys(tuneId, voiceKeys) {
   return selectedVoiceKeys(voiceKeys, settings.playable);
 }
 
+/** Voices included in both display and playback (single-view voice toggles keep these in sync). */
+export function getPlaybackVoiceKeys(tuneId, voiceKeys) {
+  const settings = getVoiceViewSettings(tuneId, voiceKeys);
+  const flags = {};
+  (voiceKeys || []).forEach(function(key) {
+    flags[key] = settings.visible[key] !== false && settings.playable[key] !== false;
+  });
+  return selectedVoiceKeys(voiceKeys, flags);
+}
+
+export function hasFilteredPlaybackVoices(tune) {
+  const voiceKeys = getTuneVoiceKeys(tune);
+  if (voiceKeys.length <= 1) return false;
+  return getPlaybackVoiceKeys(tune.id, voiceKeys).length < voiceKeys.length;
+}
+
 /** Indices of tune.activeVoices within voiceKeys; defaults to all voices when unset. */
 export function activeVoiceIndicesFromTune(tune, voiceKeys) {
   const keys = voiceKeys && voiceKeys.length ? voiceKeys : getTuneVoiceKeys(tune);

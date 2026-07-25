@@ -60,7 +60,7 @@ export async function resolveMidiLinkPlaybackData(link, tuneId, linkIndex, optio
     }
   }
 
-  if (isOwnedMediaLink(link) && link.mediaKind === 'midi') {
+  if (isOwnedMediaLink(link)) {
     const resolved = await resolveRecordingLinkMidi(link, tuneId, linkIndex, opts)
     return {
       arrayBuffer: resolved.arrayBuffer,

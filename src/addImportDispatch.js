@@ -6,6 +6,7 @@ import {
   candidatesFromImportSource,
   classifyTextImport,
   fetchImportSourceFromUrl,
+  getMidiWizardPendingFromFile,
   isNotationImportFile,
   isSheetImageImportFile,
   parseImportFile,
@@ -22,6 +23,7 @@ import { isSbpFile, sbpFileToCandidates } from './sbpParse';
 import { isOnsongArchiveFile, onsongArchiveFileToCandidates } from './onsongArchiveParse';
 import { isIRealProHtmlFile, irealProFileToCandidates } from './irealProParse';
 import { isVideoImportFile } from './audioFileMetadata';
+import { openMidiImportWizard } from './midiImportWizard';
 import {
   buildBatchSummaryFromClassifier,
   classifyAbcTextForReview,
@@ -192,9 +194,17 @@ function isAbcNotationText(text, fileName) {
   return format === 'abc';
 }
 
+function midiWizardResult(file, sourceUrl) {
+  const pending = getMidiWizardPendingFromFile(file, sourceUrl);
+  if (!pending) return null;
+  return { action: 'midiWizard', pendingMidi: pending };
+}
+
 async function dispatchFromSource(source, ctx) {
   try {
     if (source && source.file) {
+      const midiResult = midiWizardResult(source.file, source.sourceUrl);
+      if (midiResult) return midiResult;
       const mediaKind = classifyImportContent({ kind: 'file', file: source.file }, ctx);
       if (mediaKind === 'audio' || mediaKind === 'video') {
         return {
@@ -295,6 +305,8 @@ async function dispatchFromFile(file, ctx) {
     if (detectScoreFormat(file.name) === 'midi' && !ctx.resolverAvailable) {
       return errorResult(MIDI_RESOLVER_ERROR, { needsResolver: true });
     }
+    const midiResult = midiWizardResult(file);
+    if (midiResult) return midiResult;
     if (detectScoreFormat(file.name) === 'abc' || /\.abc$/i.test(file.name || '')) {
       try {
         const text = await readFileAsText(file);

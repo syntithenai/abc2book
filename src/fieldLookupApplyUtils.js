@@ -6,6 +6,7 @@ import { isGenericArtist } from './genericArtistUtils'
 import { applyNotationTuneMeta } from './notationImportUtils'
 import { normalizeAbcForImport } from './abcImportNormalize'
 import { applyNotationPdfCandidateToTune, isNotationPdfCandidate } from './notationPdfApply'
+import { allGenres, mergeBibliographicList } from './tuneBibliographicUtils'
 
 export function fieldLookupKindToFormKey(kind) {
   if (kind === 'composer') return 'artist'
@@ -13,7 +14,7 @@ export function fieldLookupKindToFormKey(kind) {
   if (kind === 'chords') return 'chords'
   if (kind === 'notation') return 'notes'
   if (kind === 'links') return 'links'
-  if (kind === 'genre') return 'genre'
+  if (kind === 'genre') return 'genres'
   if (kind === 'title') return 'title'
   if (kind === 'artists') return 'artists'
   if (kind === 'aliases') return 'aliases'
@@ -99,7 +100,7 @@ export function isTuneFieldEmptyForKind(tune, kind) {
     })
   }
   if (kind === 'genre') {
-    return !String(tune.genre || '').trim()
+    return allGenres(tune).length === 0
   }
   if (kind === 'artists') {
     return !Array.isArray(tune.artists) || tune.artists.length === 0
@@ -191,7 +192,9 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
   if (kind === 'genre') {
     const genre = String(candidate.genre || '').trim()
     if (!genre) return false
-    tune.genre = genre
+    if (!Array.isArray(tune.genres)) tune.genres = []
+    tune.genres = mergeBibliographicList(tune.genres, [genre])
+    delete tune.genre
     return true
   }
   if (kind === 'title') {

@@ -31,11 +31,13 @@ class MidiImportOrchestratorTests(unittest.TestCase):
 
     def test_forced_multi_voice_returns_result(self):
         result = import_midi_bytes(
-            self._read("abcjs_melody_plus_chords.mid"),
-            "abcjs_melody_plus_chords.mid",
+            self._read("bass_and_melody.mid"),
+            "bass_and_melody.mid",
             mode="multi_voice",
+            track_ids=[0, 1],
         )
-        self.assertIn(result.get("mode"), ("multi_voice", "melody"))
+        self.assertEqual(result.get("mode"), "multi_voice")
+        self.assertTrue(result.get("abc") or result.get("musicXml"))
 
     def test_ambiguous_routing_runs_musescore(self):
         midi = self._read("abcjs_melody_plus_chords.mid")

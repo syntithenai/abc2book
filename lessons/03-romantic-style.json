@@ -1,0 +1,92 @@
+{
+  "id": "03-romantic-style",
+  "title": "03 Romantic Style",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "07-styles/03-romantic-style.md",
+  "sections": [
+    {
+      "id": "romantic-style-expression-and-expanded-harmony",
+      "title": "Romantic Style: Expression and Expanded Harmony",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "19th-century Romanticism stretches forms for emotional narrative — bigger orchestras, chromatic harmony, virtuoso solo writing."
+        }
+      ]
+    },
+    {
+      "id": "harmony",
+      "title": "Harmony",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Borrowed chords, augmented sixths, extended dominants colour mood. Nationalist composers (Dvořák, Grieg, Sibelius) embed folk dances in symphonic works."
+        }
+      ]
+    },
+    {
+      "id": "in-trad",
+      "title": "In trad",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lush piano intros to airs, dramatic key changes in céilí sets, vibrato-heavy string treatment. Use Romantic tools where story needs shadow — not every reel wants a Rachmaninoff ending."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-romantic-music-characterised-by",
+      "title": "Q1. Romantic music characterised by:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Expanded expression and richer harmony\n- B) No dynamics\n- C) Plainchant only\n- D) No solos\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-nationalist-romantics-incorporated-folk-material",
+      "title": "Q2. Nationalist Romantics incorporated folk material.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Romantic music characterised by:\n\n- A) Expanded expression and richer harmony\n- B) No dynamics\n- C) Plainchant only\n- D) No solos\n\n**Answer:** A\n\n### Q2. Nationalist Romantics incorporated folk material.\n\n**Answer:** True"
+}

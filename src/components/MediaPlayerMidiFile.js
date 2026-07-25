@@ -3,6 +3,14 @@ import useMidiFilePlayback from '../useMidiFilePlayback'
 import { resolveMidiLinkPlaybackData } from '../midiLinkResolve'
 import { resolveLinkPlaybackSrcType } from '../mediaLinkSrcType'
 
+function flushMountedPendingMidiPlay(mc) {
+  const pending = mc.pendingMidiFilePlayRef && mc.pendingMidiFilePlayRef.current
+  if (!pending || !mc.hasActivePlaybackIntent || !mc.hasActivePlaybackIntent()) return
+  if (typeof mc.flushPendingMidiFilePlay === 'function') {
+    mc.flushPendingMidiFilePlay()
+  }
+}
+
 export default function MediaPlayerMidiFile(props) {
   const mediaController = props.mediaController
   const tunebook = props.tunebook
@@ -107,15 +115,24 @@ export default function MediaPlayerMidiFile(props) {
       if (loadedKeyRef.current === key && playbackRef.current.isReadyRef.current) {
         return true
       }
+      const resolveOpts = (mc.getLinkedMediaResolveOptions && mc.getLinkedMediaResolveOptions())
+        || (opts || {})
       const resolved = await resolveMidiLinkPlaybackData(link, useTune.id, linkIndex, {
-        accessToken: opts && opts.accessToken,
-        driveApi: opts && opts.driveApi,
+        accessToken: resolveOpts.accessToken,
+        driveApi: resolveOpts.driveApi,
         isYoutubeLink: tunebook && tunebook.utils && tunebook.utils.isYoutubeLink,
       })
       await playbackRef.current.init(resolved.arrayBuffer)
       loadedKeyRef.current = key
       return true
     }
+
+    mc.resumeMidiFileAudioContextRef.current = function() {
+      playbackRef.current.resumeAudioContextFromGesture()
+    }
+
+    // Playback was requested before this engine mounted (common on /editor/).
+    flushMountedPendingMidiPlay(mc)
 
     return function() {
       if (mc.playMidiFileRef) mc.playMidiFileRef.current = null
@@ -124,6 +141,7 @@ export default function MediaPlayerMidiFile(props) {
       if (mc.getMidiFilePlaybackSecondsRef) mc.getMidiFilePlaybackSecondsRef.current = null
       if (mc.applyMidiFileTempoRef) mc.applyMidiFileTempoRef.current = null
       if (mc.prepareMidiFileLinkRef) mc.prepareMidiFileLinkRef.current = null
+      if (mc.resumeMidiFileAudioContextRef) mc.resumeMidiFileAudioContextRef.current = null
       if (mc.stopMidiFileRef) mc.stopMidiFileRef.current = null
     }
   }, [tunebook])
@@ -136,6 +154,10 @@ export default function MediaPlayerMidiFile(props) {
     const mc = mediaControllerRef.current
     if (!tune || !mc || !mc.applyPlaybackRoute) return undefined
     if (playState !== 'playMedia') return undefined
+    if (mc.notationMidiOwner) return undefined
+    if (mc.requestedPlayState === 'playMidi') return undefined
+    if (mc.playbackRouteMode === 'midi') return undefined
+    if (mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()) return undefined
 
     const route = mc.applyPlaybackRoute(playState, mediaLinkNumberParam, tune, tunebook)
     const linkIndex = route.mediaLinkNumber
@@ -156,7 +178,8 @@ export default function MediaPlayerMidiFile(props) {
       loadedKeyRef.current = ''
       if (mc.prepareMidiFileLinkRef && mc.prepareMidiFileLinkRef.current) {
         mc.setIsLoading(true)
-        mc.prepareMidiFileLinkRef.current(tune, linkIndex, route.src, {}).catch(function(err) {
+        const resolveOpts = mc.getLinkedMediaResolveOptions ? mc.getLinkedMediaResolveOptions() : {}
+        mc.prepareMidiFileLinkRef.current(tune, linkIndex, route.src, resolveOpts).catch(function(err) {
           if (mc.onError) mc.onError(err && err.message ? err.message : 'Failed to load MIDI')
         })
       }
@@ -169,7 +192,8 @@ export default function MediaPlayerMidiFile(props) {
       loadedKeyRef.current = ''
       if (mc.prepareMidiFileLinkRef && mc.prepareMidiFileLinkRef.current) {
         mc.setIsLoading(true)
-        mc.prepareMidiFileLinkRef.current(tune, linkIndex, route.src, {}).catch(function(err) {
+        const resolveOpts = mc.getLinkedMediaResolveOptions ? mc.getLinkedMediaResolveOptions() : {}
+        mc.prepareMidiFileLinkRef.current(tune, linkIndex, route.src, resolveOpts).catch(function(err) {
           if (mc.onError) mc.onError(err && err.message ? err.message : 'Failed to load MIDI')
         })
       }

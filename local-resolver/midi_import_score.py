@@ -26,6 +26,44 @@ def _pitch_variety_score(abc: str) -> float:
     return min(1.0, len(set(pitches)) / 6.0)
 
 
+def _count_abc_rests(abc: str) -> int:
+    if not abc:
+        return 0
+    body = abc.split("K:", 1)[-1]
+    tokens = re.findall(r"z\d*", body)
+    return len(tokens)
+
+
+def _count_abc_measures(abc: str) -> int:
+    if not abc:
+        return 0
+    body = abc.split("K:", 1)[-1]
+    return max(1, body.count("|"))
+
+
+def _rest_ratio_penalty(abc: str) -> float:
+    notes = _count_abc_notes(abc)
+    rests = _count_abc_rests(abc)
+    total = notes + rests
+    if total <= 0:
+        return 0.0
+    ratio = rests / total
+    if ratio <= 0.35:
+        return 0.0
+    return min(0.35, (ratio - 0.35) * 0.8)
+
+
+def _empty_measure_penalty(abc: str, source_note_count: int = 0) -> float:
+    measures = _count_abc_measures(abc)
+    notes = _count_abc_notes(abc)
+    if measures <= 0 or notes <= 0:
+        return 0.0
+    expected_measures = max(1, int(round(notes / max(4, min(source_note_count, notes)))))
+    if measures > expected_measures * 2 + 4:
+        return min(0.25, (measures - expected_measures * 2) * 0.01)
+    return 0.0
+
+
 def _chromatic_penalty(abc: str, key: str = "C") -> float:
     body = abc.split("K:", 1)[-1]
     accidentals = len(re.findall(r"[\^_]", body))
@@ -76,6 +114,13 @@ def score_abc_import(
         score += 0.1
 
     score -= _chromatic_penalty(abc, key)
+    rest_penalty = _rest_ratio_penalty(abc)
+    empty_penalty = _empty_measure_penalty(abc, source_note_count)
+    if rest_penalty > 0.1:
+        warnings.append("Imported notation contains many rests relative to notes")
+    if empty_penalty > 0.05:
+        warnings.append("Imported notation may contain excessive empty measures")
+    score -= rest_penalty + empty_penalty
     score = max(0.0, min(1.0, score))
     confidence = score
     if score < 0.35:
@@ -176,9 +221,7 @@ def pick_best_candidate(candidates: list[dict[str, Any]], profile_mode: str = "m
     best = ranked[0]
     second = ranked[1] if len(ranked) > 1 else None
     if second and abs(best.get("score", 0) - second.get("score", 0)) <= 0.05:
-        if profile_mode == "melody" and second.get("strategy") == "note_events":
-            best = second
-        elif profile_mode == "multi_voice" and second.get("strategy") == "musicxml":
+        if second.get("strategy") == "note_events":
             best = second
 
     warnings = list(best.get("warnings") or [])

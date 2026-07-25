@@ -2,6 +2,16 @@
   padding: 0.25rem 0;
 }
 
+.pitch-tempo-panel .youtube-helper-pitch-invite-text {
+  font-size: 0.85rem;
+  color: var(--bs-secondary-color, #6c757d);
+  margin-bottom: 0.75rem;
+}
+
+.pitch-tempo-panel .youtube-helper-pitch-invite .btn {
+  margin-top: 0.15rem;
+}
+
 .pitch-tempo-panel .control-section {
   margin-bottom: 1.25rem;
 }

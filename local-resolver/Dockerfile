@@ -196,6 +196,8 @@ COPY musescore_fetch.py /app/musescore_fetch.py
 COPY midi_convert.py /app/midi_convert.py
 COPY midi_analysis.py /app/midi_analysis.py
 COPY midi_to_abc.py /app/midi_to_abc.py
+COPY midi_cleanup.py /app/midi_cleanup.py
+COPY midi_drum_map.py /app/midi_drum_map.py
 COPY midi_import_score.py /app/midi_import_score.py
 COPY midi_import_orchestrator.py /app/midi_import_orchestrator.py
 COPY midi_chord_infer.py /app/midi_chord_infer.py

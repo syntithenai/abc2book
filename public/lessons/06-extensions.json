@@ -1,0 +1,103 @@
+{
+  "id": "06-extensions",
+  "title": "06 Extensions",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "03-chords/06-extensions.md",
+  "sections": [
+    {
+      "id": "chord-extensions-9ths-11ths-and-13ths",
+      "title": "Chord Extensions: 9ths, 11ths, and 13ths",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** chords | **Difficulty:** 6/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Extensions continue stacking thirds above the seventh, adding colour tones."
+        }
+      ]
+    },
+    {
+      "id": "naming",
+      "title": "Naming",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "9th = octave + 2nd. 11th = octave + 4th. 13th = octave + 6th. Cmaj9 = Cmaj7 + D. G13 might be voiced G-F-E-B, omitting some tones for playability."
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Add extensions one at a time. Maj7 before maj9. Plain 7 before 9. Listen whether the added tone supports or fights the melody."
+        }
+      ]
+    },
+    {
+      "id": "voicing",
+      "title": "Voicing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Players drop the 5th or even root, keeping 3rd, 7th, and chosen extensions within hand span."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-maj9-includes-which-interval-above-root-besides-maj7",
+      "title": "Q1. maj9 includes which interval above root (besides maj7)?",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Major 9th\n- B) Minor 9th only\n- C) Perfect 11th without 7th\n- D) Augmented 4th only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-real-world-voicings-often-omit-some-chord-tones",
+      "title": "Q2. Real-world voicings often omit some chord tones.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. maj9 includes which interval above root (besides maj7)?\n\n- A) Major 9th\n- B) Minor 9th only\n- C) Perfect 11th without 7th\n- D) Augmented 4th only\n\n**Answer:** A\n\n### Q2. Real-world voicings often omit some chord tones.\n\n**Answer:** True"
+}

@@ -233,4 +233,24 @@ describe('addImportDispatch', function() {
     const payload = normalizeImportInput(file);
     expect(classifyImportContent(payload, mockContext())).toBe('audio');
   });
+
+  test('dispatchAddImport routes midi files to midiWizard action', async function() {
+    const file = new File([new Uint8Array([77, 84, 104, 100, 0, 0, 0, 6])], 'tune.mid', {
+      type: 'audio/midi',
+    });
+    const result = await dispatchAddImport(file, mockContext({ resolverAvailable: true }));
+    expect(result.action).toBe('midiWizard');
+    expect(result.pendingMidi).toBeTruthy();
+    expect(result.pendingMidi.file).toBe(file);
+    expect(result.pendingMidi.fileName).toBe('tune.mid');
+  });
+
+  test('dispatchAddImport blocks midi without resolver', async function() {
+    const file = new File([new Uint8Array([77, 84, 104, 100, 0, 0, 0, 6])], 'tune.mid', {
+      type: 'audio/midi',
+    });
+    const result = await dispatchAddImport(file, mockContext({ resolverAvailable: false }));
+    expect(result.action).toBe('error');
+    expect(result.needsResolver).toBe(true);
+  });
 });

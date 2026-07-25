@@ -190,6 +190,9 @@ async function blobToMp3Blob(blob) {
 
 async function recordingDataToMp3(recording) {
   if (!recording) return null
+  if (recording.mediaKind === 'midi' || recording.type === 'audio/midi') {
+    return null
+  }
   if (recording.mp3Blob && recording.mp3Blob.type === 'audio/mpeg') {
     return { blob: recording.mp3Blob, duration: recording.duration || null }
   }
@@ -671,6 +674,16 @@ async function blobToArrayBuffer(blob) {
   if (blob instanceof ArrayBuffer) return blob
   if (typeof blob.arrayBuffer === 'function') {
     return blob.arrayBuffer()
+  }
+  // Prefer FileReader before Response: jsdom Blobs often lack arrayBuffer(), and
+  // some Response polyfills cannot read those Blobs either.
+  if (typeof FileReader !== 'undefined') {
+    return new Promise(function(resolve, reject) {
+      const reader = new FileReader()
+      reader.onload = function() { resolve(reader.result) }
+      reader.onerror = function() { reject(reader.error || new Error('Failed to read blob')) }
+      reader.readAsArrayBuffer(blob)
+    })
   }
   if (typeof Response !== 'undefined') {
     return new Response(blob).arrayBuffer()

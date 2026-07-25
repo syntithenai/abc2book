@@ -1,4 +1,5 @@
 import {
+  dedupeTunesById,
   filterTunes,
   sortTunesByName,
   filterSearchNoBooks,
@@ -20,6 +21,14 @@ function makeTune(id, name, extra) {
 }
 
 describe('tuneListFilter', function() {
+  test('dedupeTunesById merges numeric and string ids', function() {
+    const first = makeTune(42, 'Same Tune', { composer: 'Old Artist' })
+    const second = makeTune('42', 'Same Tune', { composer: 'New Artist' })
+    const deduped = dedupeTunesById([first, second])
+    expect(deduped).toHaveLength(1)
+    expect(deduped[0].composer).toBe('New Artist')
+  })
+
   test('filterTunes keeps only one entry per tune id', function() {
     const shared = makeTune('same-id', 'After the Battle of Aughrim')
     const tunes = {

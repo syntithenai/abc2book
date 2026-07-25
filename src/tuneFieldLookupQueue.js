@@ -34,7 +34,7 @@ import {
 import { isNotationPdfCandidate } from './notationPdfApply'
 import { getImportReviewSession } from './importReviewSessionStore'
 import { getPlainLyricLines } from './wLinesUtils'
-import { primaryArtist } from './tuneBibliographicUtils'
+import { allGenres, primaryArtist } from './tuneBibliographicUtils'
 import {
   setFieldSearchResults,
   targetKeyForFieldSearch,
@@ -1000,7 +1000,7 @@ function currentFieldValueForJob(job) {
     // Prefer chord-ish text in notes / words
     return (tune.abc && String(tune.abc)) || ''
   }
-  if (job.kind === 'genre') return tune.genre || ''
+  if (job.kind === 'genre') return allGenres(tune).join(', ')
   if (job.kind === 'title') return tune.name || ''
   if (job.kind === 'tempo') return tune.tempo != null ? String(tune.tempo) : ''
   if (job.kind === 'meter') return tune.meter || ''

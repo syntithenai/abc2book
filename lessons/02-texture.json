@@ -1,0 +1,136 @@
+{
+  "id": "02-texture",
+  "title": "02 Texture",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "11-theory-advanced/02-texture.md",
+  "sections": [
+    {
+      "id": "texture-monophony-to-polyphony",
+      "title": "Texture: Monophony to Polyphony",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory-advanced | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Texture describes how many melodic lines sound simultaneously and their relationship."
+        }
+      ]
+    },
+    {
+      "id": "monophony",
+      "title": "Monophony",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Single melodic line — unison singing, solo whistle, plainchant. No harmony."
+        }
+      ]
+    },
+    {
+      "id": "homophony",
+      "title": "Homophony",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Melody with chordal accompaniment — most pop, classical melody+accompaniment, hymnody."
+        }
+      ]
+    },
+    {
+      "id": "polyphony",
+      "title": "Polyphony",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Multiple independent melodies — fugue, round, session twin-fiddle countermelody."
+        }
+      ]
+    },
+    {
+      "id": "heterophony",
+      "title": "Heterophony",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Same melody simultaneously with slight variations — common in non-Western traditions and informal group singing."
+        }
+      ]
+    },
+    {
+      "id": "density",
+      "title": "Density",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Thin (solo) vs thick (full orchestra tutti). Arrangers control density for emotional arc."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-homophony-features",
+      "title": "Q1. Homophony features:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Melody with chordal accompaniment\n- B) Single line only\n- C) No melody at all\n- D) Random noise\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-polyphony-has-multiple-independent-melodic-lines",
+      "title": "Q2. Polyphony has multiple independent melodic lines.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-unison-singing-is",
+      "title": "Q3. Unison singing is:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Monophonic\n- B) Polyphonic\n- C) Homophonic\n- D) Heterophonic always\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Homophony features:\n\n- A) Melody with chordal accompaniment\n- B) Single line only\n- C) No melody at all\n- D) Random noise\n\n**Answer:** A\n\n### Q2. Polyphony has multiple independent melodic lines.\n\n**Answer:** True\n\n### Q3. Unison singing is:\n\n- A) Monophonic\n- B) Polyphonic\n- C) Homophonic\n- D) Heterophonic always\n\n**Answer:** A"
+}

@@ -123,6 +123,25 @@ describe('tuneBulkCheckReport', function() {
     expect(report.issues.some(function(i) { return i.code === 'title_not_capitalized' })).toBe(true)
   })
 
+  test('warns when melody tune has no lyrics', function() {
+    const tune = {
+      id: 'melody-no-lyrics',
+      name: 'Instrumental Tune',
+      composer: 'Artist',
+      tempo: 120,
+      meter: '4/4',
+      key: 'D',
+      backgroundInfo: 'info',
+      suitableFor: ['violin'],
+      voices: { '1': { notes: ['D2 E2 F2 G2 | A2 B2 c2 d2 |]'] } },
+    }
+    const report = buildTuneCheckReport(tune, {
+      hasChords: hasChords,
+      hasNotesOrChords: function() { return true },
+    })
+    expect(report.issues.some(function(i) { return i.code === 'no_lyrics' })).toBe(true)
+  })
+
   test('classifies only optional gaps as blue', function() {
     const tune = {
       id: 'blue',

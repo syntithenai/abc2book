@@ -63,6 +63,7 @@
   },
   "scripts": {
     "start": "BROWSERSLIST_IGNORE_OLD_DATA=true craco start",
+    "export-lessons": "python3 scripts/lesson_plans/fix_youtube_playlists.py && python3 scripts/lesson_plans/export_lessons.py --ireland-only",
     "buildresources": "cd ./abcresources; nodejs ./rename_all.js; nodejs ./indexes_from_files.js",
     "package:youtube-helper": "node scripts/packageYoutubeHelperExtension.js",
     "build": "npm run package:youtube-helper && craco build && rm -rf ./static/ && cp -r ./build/* ./ && cp ./manifest.template.json ./manifest.json && node hackSw.js ",

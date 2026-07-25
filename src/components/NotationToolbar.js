@@ -7,8 +7,10 @@ import NotationClipboardToolbar from './NotationClipboardToolbar';
 import NotationMarksDropdown from './NotationMarksDropdown';
 import NotationTupletDropdown from './NotationTupletDropdown';
 import NotationAccidentalDropdown from './NotationAccidentalDropdown';
+import NotationChordSymbolToolbar from './NotationChordSymbolToolbar';
 import NotationViewSelector from './NotationViewSelector';
 import MidiInputPanel from './MidiInputPanel';
+import NotationPlaybackControls from './NotationPlaybackControls';
 
 const BARLINE_OPTIONS = [
   { token: BARLINE_TOKENS.SINGLE, label: '|', description: 'Bar line' },
@@ -36,6 +38,8 @@ export default function NotationToolbar(props) {
     onMarkAction,
     onTupletAction,
     onApplyAccidental,
+    onEditChordSymbol,
+    onClearChordSymbol,
     onToggleRecord,
     onApplyRecord,
     onDiscardRecord,
@@ -47,6 +51,18 @@ export default function NotationToolbar(props) {
 
   return (
     <div className="notation-toolbar">
+      <NotationPlaybackControls
+        mediaController={props.mediaController}
+        tune={props.tune}
+        tunebook={tunebook}
+        getSession={props.getSession}
+        getLastNoteSelection={props.getLastNoteSelection}
+        session={session}
+        tempo={props.tempo}
+        playbackContext={props.playbackContext}
+        playbackControlRef={props.playbackControlRef}
+        onRefresh={props.onRefresh}
+      />
       <NotationVoicesDropdown
         tune={props.tune}
         voiceNames={props.voiceNames}
@@ -163,8 +179,16 @@ export default function NotationToolbar(props) {
       <NotationAccidentalDropdown
         session={session}
         dispatch={dispatch}
+        tunebook={tunebook}
         onApplyAccidental={onApplyAccidental}
         expanded={!!expand.accidentals}
+      />
+      <NotationChordSymbolToolbar
+        session={session}
+        tunebook={tunebook}
+        expanded={!!expand.accidentals}
+        onEditChord={onEditChordSymbol}
+        onClearChord={onClearChordSymbol}
       />
       <MidiInputPanel
         midi={midi}

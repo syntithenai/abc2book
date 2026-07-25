@@ -13,7 +13,7 @@ MELODY_NAME_RE = re.compile(r"melody|lead|voice\s*1|v:\s*1|soprano|treble", re.I
 CHORD_NAME_RE = re.compile(r"chord|accomp|harmony|pad|guitar|piano", re.I)
 BASS_NAME_RE = re.compile(r"bass|cello|tuba|baritone", re.I)
 
-MAX_MIDI_IMPORT_VOICES = 8
+MAX_MIDI_IMPORT_VOICES = 0  # 0 = no limit
 
 KEY_PROFILES = {
     "C": [6.35, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 2.88],
@@ -57,6 +57,8 @@ class MidiProfile:
     tempo_bpm: float = 120.0
     time_signature: str = "4/4"
     beats_per_bar: int = 4
+    beat_times: list[float] = field(default_factory=list)
+    downbeat_times: list[float] = field(default_factory=list)
     estimated_key: str = "C"
     source_hint: str = "unknown"  # abcjs_export | general_midi | abcbook_export | unknown
     title: str = ""
@@ -201,33 +203,20 @@ def _analyze_with_pretty_midi(midi_bytes: bytes) -> MidiProfile | None:
             profile.source_hint = "abcjs_export"
 
     all_notes: list[dict[str, Any]] = []
-    piano_programs = 0
-    duplicate_chord_tracks = 0
-    pitched_tracks = 0
 
     for index, instrument in enumerate(pm.instruments):
         name = str(getattr(instrument, "name", "") or "")
         is_drum = bool(getattr(instrument, "is_drum", False))
         program = int(getattr(instrument, "program", 0) or 0)
-        if program in (0, 1):
-            piano_programs += 1
         track = _track_metrics_from_notes(index, name, is_drum, program, instrument.notes, profile.duration_seconds)
         profile.tracks.append(track)
         if not is_drum and track.note_count > 0:
-            pitched_tracks += 1
             for note in instrument.notes:
                 all_notes.append({
                     "midi": int(note.pitch),
                     "start": float(note.start),
                     "end": float(note.end),
                 })
-
-    if profile.source_hint == "unknown" and piano_programs >= max(1, pitched_tracks) and pitched_tracks >= 2:
-        profile.source_hint = "abcjs_export"
-
-    harmony_tracks = [t for t in profile.tracks if not t.is_drum and t.role_hint == "harmony"]
-    if len(harmony_tracks) >= 2:
-        duplicate_chord_tracks = len(harmony_tracks) - 1
 
     profile.total_pitched_notes = len(all_notes)
     profile.estimated_key = estimate_key_from_notes(all_notes)
@@ -239,36 +228,9 @@ def _analyze_with_pretty_midi(midi_bytes: bytes) -> MidiProfile | None:
         profile.reject_reason = "No pitched notes found"
         return profile
 
-    if len(pitched) == 1 or all(t.monophony_score >= 0.9 for t in pitched):
-        profile.recommended_mode = "melody"
-        profile.routing_hint = "melody"
-        profile.recommended_track_ids = [_best_melody_track(pitched)]
-        return profile
-
-    # Multi-voice: 2-4 parts with separated pitch ranges
-    ranked = sorted(pitched, key=lambda t: (t.monophony_score, t.mean_pitch), reverse=True)
-    melody_track = ranked[0]
-    others = ranked[1:]
-    independent = []
-    for track in others:
-        if track.role_hint == "harmony" and profile.source_hint == "abcjs_export":
-            continue
-        if abs(track.mean_pitch - melody_track.mean_pitch) >= 7:
-            independent.append(track)
-        elif track.monophony_score >= 0.75 and track.role_hint in ("bass", "melody"):
-            independent.append(track)
-
-    if 1 <= len(independent) <= 3:
-        profile.recommended_mode = "multi_voice"
-        profile.routing_hint = "multi_voice"
-        ids = [melody_track.index] + [t.index for t in independent[:3]]
-        profile.recommended_track_ids = ids[:MAX_MIDI_IMPORT_VOICES]
-        return profile
-
-    profile.recommended_mode = "melody"
-    profile.routing_hint = "ambiguous"
-    profile.recommended_track_ids = [_best_melody_track(pitched)]
-    return profile
+    note_starts = [float(note["start"]) for note in all_notes if note.get("start") is not None]
+    _attach_beat_grid(profile, note_starts)
+    return _apply_track_recommendations(profile, pitched)
 
 
 def _best_melody_track(tracks: list[MidiTrackProfile]) -> int:
@@ -280,6 +242,47 @@ def _best_melody_track(tracks: list[MidiTrackProfile]) -> int:
         reverse=True,
     )
     return ranked[0].index
+
+
+def _recommend_track_ids_by_note_count(
+    pitched: list[MidiTrackProfile],
+    *,
+    max_voices: int = MAX_MIDI_IMPORT_VOICES,
+) -> list[int]:
+    ranked = sorted(pitched, key=lambda t: t.note_count, reverse=True)
+    if not ranked:
+        return []
+    top_count = ranked[0].note_count or 1
+    min_notes = max(20, int(top_count * 0.01))
+    ids: list[int] = []
+    for track in ranked:
+        if track.note_count < min_notes:
+            continue
+        ids.append(track.index)
+        if max_voices > 0 and len(ids) >= max_voices:
+            break
+    if not ids:
+        ids = [ranked[0].index]
+    return ids
+
+
+def _apply_track_recommendations(profile: MidiProfile, pitched: list[MidiTrackProfile]) -> MidiProfile:
+    if len(pitched) == 1:
+        profile.recommended_mode = "melody"
+        profile.routing_hint = "melody"
+        profile.recommended_track_ids = [pitched[0].index]
+        return profile
+
+    ids = _recommend_track_ids_by_note_count(pitched)
+    if len(ids) >= 2:
+        profile.recommended_mode = "multi_voice"
+        profile.routing_hint = "multi_voice"
+        profile.recommended_track_ids = ids
+    else:
+        profile.recommended_mode = "melody"
+        profile.routing_hint = "ambiguous"
+        profile.recommended_track_ids = ids or [_best_melody_track(pitched)]
+    return profile
 
 
 def harmony_track_ids_for_profile(profile: MidiProfile) -> list[int]:
@@ -316,11 +319,12 @@ def track_ids_for_import(
     if explicit_track_ids:
         valid = {t.index for t in profile.tracks}
         ids = [int(track_id) for track_id in explicit_track_ids if int(track_id) in valid]
-        return ids[:max(1, max_voices)]
+        return ids if max_voices <= 0 else ids[:max(1, max_voices)]
 
     import_mode = mode or profile.recommended_mode
     if import_mode == "multi_voice":
-        return list(profile.recommended_track_ids or [])[:max_voices]
+        rec = list(profile.recommended_track_ids or [])
+        return rec if max_voices <= 0 else rec[:max_voices]
     melody_id = (profile.recommended_track_ids or [None])[0]
     if melody_id is None:
         pitched = [t for t in profile.tracks if not t.is_drum and t.note_count > 0]
@@ -332,7 +336,7 @@ def track_ids_for_import(
     for track_id in harm_ids:
         if track_id not in ids:
             ids.append(track_id)
-    return ids[:min(2, max_voices)]
+    return ids if max_voices <= 0 else ids[:min(2, max_voices)]
 
 
 def clef_hint_for_track(track: MidiTrackProfile) -> str:
@@ -431,11 +435,54 @@ def _analyze_with_music21(midi_bytes: bytes) -> MidiProfile | None:
         profile.routing_hint = "reject"
         profile.reject_reason = "No pitched notes found"
         return profile
-    if len(pitched) >= 2:
-        profile.source_hint = "abcjs_export"
-    profile.recommended_mode = "melody"
-    profile.routing_hint = "ambiguous" if len(pitched) >= 2 else "melody"
-    profile.recommended_track_ids = [_best_melody_track(pitched)]
+    note_starts: list[float] = []
+    for part in score.parts:
+        for el in part.recurse().notes:
+            if getattr(el, "isChord", False):
+                note_starts.append(float(getattr(el, "offset", 0) or 0))
+            elif getattr(el, "isNote", False):
+                note_starts.append(float(getattr(el, "offset", 0) or 0))
+    _attach_beat_grid(profile, note_starts)
+    return _apply_track_recommendations(profile, pitched)
+
+
+def _estimate_midi_beat_grid(
+    *,
+    duration: float,
+    tempo_bpm: float,
+    beats_per_bar: int,
+    note_starts: list[float],
+) -> tuple[list[float], list[float]]:
+    beat_duration = 60.0 / max(tempo_bpm, 1.0)
+    if duration <= 0:
+        duration = beat_duration * beats_per_bar
+    beat_times: list[float] = []
+    t = 0.0
+    while t < duration + beat_duration:
+        beat_times.append(round(t, 4))
+        t += beat_duration
+    if not beat_times:
+        beat_times = [0.0]
+
+    anchor = min(note_starts) if note_starts else 0.0
+    downbeat_times: list[float] = []
+    bar_duration = beat_duration * max(1, beats_per_bar)
+    start = anchor
+    while start <= duration + bar_duration:
+        downbeat_times.append(round(start, 4))
+        start += bar_duration
+    if not downbeat_times:
+        downbeat_times = [0.0]
+    return beat_times, downbeat_times
+
+
+def _attach_beat_grid(profile: MidiProfile, note_starts: list[float]) -> MidiProfile:
+    profile.beat_times, profile.downbeat_times = _estimate_midi_beat_grid(
+        duration=profile.duration_seconds,
+        tempo_bpm=profile.tempo_bpm,
+        beats_per_bar=profile.beats_per_bar,
+        note_starts=note_starts,
+    )
     return profile
 
 

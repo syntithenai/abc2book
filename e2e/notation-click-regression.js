@@ -45,6 +45,25 @@ async function runClickRegressionTests(page, ctx) {
     await assertSelectionMatchesClick(page, 'note:D4', 'click D selects D with caret sync')
   })
 
+  await runScenario(results, 'Click: accidental applies to clicked note without re-select', async function() {
+    await resetNotationFixture(page, BASIC_TUNE_ID)
+    await focusNotationEditor(page)
+    await ensureNormalMode(page)
+    const centers = await staffNoteCenters(page, 0)
+    if (centers.length < 2) throw new Error('need at least 2 notes')
+    await page.mouse.click(centers[1].x, centers[1].y)
+    await sleep(150)
+    await pressKey(page, '+')
+    await sleep(400)
+    const body = await page.evaluate(function() {
+      const h = window.__abc2bookNotationTest
+      return (h.getCommittedVoiceAbc && h.getCommittedVoiceAbc()) || h.getVoiceAbc()
+    })
+    if (body.indexOf('^D') < 0 && body.indexOf('^d') < 0) {
+      throw new Error('sharp should apply to clicked D in committed ABC: ' + body)
+    }
+  })
+
   await runScenario(results, 'Click: note input between notes inserts at caret', async function() {
     await resetNotationFixture(page, BASIC_TUNE_ID)
     await focusNotationEditor(page)

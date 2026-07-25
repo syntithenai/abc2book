@@ -400,8 +400,9 @@ function checkStanzaStrain(tune, noteLines) {
   return issues;
 }
 
-function checkSessionLineBreaks(abcText) {
-  if (needsSessionLineBreakFix(abcText)) {
+function checkSessionLineBreaks(abcText, noteLines) {
+  const noteFlat = Array.isArray(noteLines) ? flattenMelodyText(noteLines) : '';
+  if (needsSessionLineBreakFix(abcText) || needsSessionLineBreakFix(noteFlat)) {
     return [issue(
       'session_linebreak_markers',
       'Session-style ! line-break markers may corrupt bar structure',
@@ -427,7 +428,7 @@ export function checkTuneAbcStructure(tune, options) {
   const issues = [];
   const pathB = suggestCompletenessPath(tune) === 'B' && noteLinesHaveRealMelody(noteLines);
 
-  issues.push.apply(issues, checkSessionLineBreaks(abcText));
+  issues.push.apply(issues, checkSessionLineBreaks(abcText, noteLines));
   issues.push.apply(issues, checkBarContent(noteLines, pathB));
   issues.push.apply(issues, checkRepeatStructure(noteLines));
   issues.push.apply(issues, checkScoreFinish(noteLines));

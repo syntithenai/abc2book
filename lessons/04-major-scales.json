@@ -1,0 +1,125 @@
+{
+  "id": "04-major-scales",
+  "title": "04 Major Scales",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "01-foundations/04-major-scales.md",
+  "sections": [
+    {
+      "id": "major-scales-and-the-leading-tone",
+      "title": "Major Scales and the Leading Tone",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** foundations | **Difficulty:** 1/10 | **Time:** ~10 min\n**Prerequisites:** Sharps, Flats, and Accidentals\n**Tags:** scales, major, leading-tone"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The major scale is the foundational pitch collection of Western music. Its fixed interval pattern generates the bright, stable sound of most folk songs, hymns, and dance tunes in major keys."
+        }
+      ]
+    },
+    {
+      "id": "the-wwhwwwh-pattern",
+      "title": "The WWHWWWH pattern",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A major scale follows **whole–whole–half–whole–whole–whole–half** between consecutive degrees. From C: C D E F G A B C — no accidentals. From G: one sharp (F♯). From F: one flat (B♭). The pattern is invariant; only the starting note and key signature change."
+        }
+      ]
+    },
+    {
+      "id": "scale-degree-names",
+      "title": "Scale degree names",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1 = **tonic** (home); 2 = supertonic; 3 = mediant; 4 = subdominant; 5 = dominant; 6 = submediant; 7 = **leading tone**; 8 = octave. The leading tone sits a semitone below the tonic and pulls strongly upward — a phrase ending on 7 feels unresolved."
+        }
+      ]
+    },
+    {
+      "id": "tetrachords",
+      "title": "Tetrachords",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A major scale splits into two four-note groups (tetrachords) each W-W-H. The upper tetrachord of C major (G-A-B-C) mirrors the lower (C-D-E-F). Understanding tetrachords speeds transposition."
+        }
+      ]
+    },
+    {
+      "id": "in-practice",
+      "title": "In practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Session keys G, D, A, C, and E dominate fiddle and whistle repertoire. Know the major scale in your most-played keys. The WWHWWWH formula is your checklist when learning an unfamiliar tune."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-what-is-the-interval-pattern-for-a-major-scale",
+      "title": "Q1. What is the interval pattern for a major scale?",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) WWHWWWH\n- B) WHWWHWW\n- C) WWWHWWH\n- D) WHWWWHW\n\n**Answer:** A — Whole-whole-half-whole-whole-whole-half."
+        }
+      ]
+    },
+    {
+      "id": "q2-the-seventh-scale-degree-in-major-is-called",
+      "title": "Q2. The seventh scale degree in major is called:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Leading tone\n- B) Subdominant\n- C) Mediant\n- D) Supertonic\n\n**Answer:** A — It leads the ear up to the tonic by semitone."
+        }
+      ]
+    },
+    {
+      "id": "q3-g-major-has-one-sharp-f",
+      "title": "Q3. G major has one sharp: F♯.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True — One step clockwise on the circle of fifths from C."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. What is the interval pattern for a major scale?\n\n- A) WWHWWWH\n- B) WHWWHWW\n- C) WWWHWWH\n- D) WHWWWHW\n\n**Answer:** A — Whole-whole-half-whole-whole-whole-half.\n\n### Q2. The seventh scale degree in major is called:\n\n- A) Leading tone\n- B) Subdominant\n- C) Mediant\n- D) Supertonic\n\n**Answer:** A — It leads the ear up to the tonic by semitone.\n\n### Q3. G major has one sharp: F♯.\n\n**Answer:** True — One step clockwise on the circle of fifths from C."
+}

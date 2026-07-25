@@ -6,6 +6,8 @@ import {
   shouldNowPlayingHostOwnPlayback,
   parseTunePagePlaybackFromUrl,
   isViewingDifferentFromPlaying,
+  resolveHostPlayingTune,
+  resolveHostPlayingTuneId,
   playQueueItem,
   handleQueueAdvanceOnEnded,
 } from './nowPlayingQueuePlayback'
@@ -17,6 +19,90 @@ describe('nowPlayingQueuePlayback', function() {
     expect(isViewingDifferentFromPlaying(null, queue)).toBe(false)
     expect(isViewingDifferentFromPlaying('other', queue)).toBe(true)
     expect(isViewingDifferentFromPlaying('playing', queue)).toBe(false)
+  })
+
+  test('resolveHostPlayingTuneId prefers viewed tune on playMidi URL', function() {
+    expect(resolveHostPlayingTuneId({
+      queue: queue,
+      mediaController: { tune: { id: 'playing' }, canResumePlayback: function() { return true } },
+      viewedTuneId: 'other',
+      pathname: '/tunes/other/playMidi',
+    })).toBe('other')
+  })
+
+  test('resolveHostPlayingTune prefers mediaController tune when ids match', function() {
+    const storeTune = {
+      id: 't1',
+      links: [],
+    }
+    const controllerTune = {
+      id: 't1',
+      links: [{ link: 'abcbook-recording:new', mediaKind: 'midi' }],
+    }
+    expect(resolveHostPlayingTune('t1', { t1: storeTune }, { tune: controllerTune })).toBe(controllerTune)
+    expect(resolveHostPlayingTune('t1', { t1: storeTune }, {})).toBe(storeTune)
+  })
+
+  test('resolveHostPlayingTuneId prefers viewed tune when queue paused on different tune', function() {
+    expect(resolveHostPlayingTuneId({
+      queue: queue,
+      mediaController: { canResumePlayback: function() { return true } },
+      viewedTuneId: 'other',
+      pathname: '/tunes/other',
+    })).toBe('other')
+  })
+
+  test('resolveHostPlayingTuneId keeps queue tune while actively playing', function() {
+    expect(resolveHostPlayingTuneId({
+      queue: queue,
+      mediaController: { isPlaying: true },
+      viewedTuneId: 'other',
+      pathname: '/tunes/other',
+    })).toBe('playing')
+  })
+
+  test('resolveHostPlayingTuneId prefers viewed tune when starting playback on different queue item', function() {
+    expect(resolveHostPlayingTuneId({
+      queue: queue,
+      mediaController: {
+        tune: { id: 'other' },
+        hasActivePlaybackIntent: function() { return true },
+      },
+      viewedTuneId: 'other',
+      pathname: '/tunes/other/playMedia/0',
+    })).toBe('other')
+  })
+
+  test('shouldNowPlayingHostOwnPlayback mounts for playMidi on different tune while queue paused', function() {
+    const tunes = {
+      playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] },
+      other: { id: 'other', notes: 'CDEF' },
+    }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'other',
+      queue: queue,
+      mediaController: { canResumePlayback: function() { return true } },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/other/playMidi',
+      tunes: tunes,
+    })).toBe(true)
+  })
+
+  test('shouldNowPlayingHostOwnPlayback does not mount for idle paused queue on different tune page', function() {
+    const tunes = {
+      playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] },
+      other: { id: 'other', notes: 'CDEF' },
+    }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'other',
+      queue: queue,
+      mediaController: { canResumePlayback: function() { return true } },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/other',
+      tunes: tunes,
+    })).toBe(false)
   })
 
   test('shouldMusicSingleOwnPlayback on list or settings uses background host', function() {
@@ -95,6 +181,19 @@ describe('nowPlayingQueuePlayback', function() {
       pathname: '/tunes',
       tunes: tunes,
     })).toBe(true)
+  })
+
+  test('shouldNowPlayingHostOwnPlayback yields to notation editor midi owner', function() {
+    const tunes = { playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] } }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'playing',
+      queue: queue,
+      mediaController: { isPlaying: true, notationMidiOwner: true, tune: tunes.playing },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/playing/playMidi',
+      tunes: tunes,
+    })).toBe(false)
   })
 
   test('shouldMusicSingleMountMediaEngine defers to NowPlayingHost during normal playback', function() {

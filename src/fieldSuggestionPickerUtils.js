@@ -6,6 +6,7 @@ import {
   searchableSuggestions,
 } from './fieldSuggestionsUtils'
 import { lyricLinesToText } from './wLinesUtils'
+import { allGenres } from './tuneBibliographicUtils'
 
 export function pickerTitleForKind(kind) {
   if (kind === 'composer') return 'Choose composer'
@@ -25,7 +26,7 @@ export function pickerTitleForKind(kind) {
 export function currentFieldDisplay(tune, kind) {
   if (!tune) return ''
   if (kind === 'composer') return String(tune.composer || '').trim()
-  if (kind === 'genre') return String(tune.genre || '').trim()
+  if (kind === 'genre') return allGenres(tune).join(', ')
   if (kind === 'artists') {
     return Array.isArray(tune.artists) ? tune.artists.filter(Boolean).join(', ') : ''
   }

@@ -148,4 +148,16 @@ describe('buildAbcPreviewFromBodies', function() {
     const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: '' });
     expect(abc).not.toMatch(/z4/);
   });
+
+  test('preserves note line breaks for multi-voice display', function() {
+    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1', '2'], {
+      1: 'CDEF | GABc |',
+      2: 'C,2 E,2 |\nG,2 B,2 |',
+    });
+    const lines = abc.split('\n');
+    const melodyLine = lines.find(function(line) { return /^CDEF/.test(line); });
+    const bassLines = lines.filter(function(line) { return /^C,2/.test(line) || /^G,2/.test(line); });
+    expect(melodyLine).toBe('CDEF | GABc |');
+    expect(bassLines).toEqual(['C,2 E,2 |', 'G,2 B,2 |']);
+  });
 });

@@ -103,14 +103,9 @@ export function insertRestAtCaret(session) {
 }
 
 /** Insert layout tokens before the leftmost selected note, or at the caret. */
-export function layoutInsertIndex(session, lastSelection, pinnedEventId) {
+export function layoutInsertIndex(session, lastSelection) {
   if (!session || !Array.isArray(session.events)) return 0;
   const events = session.events;
-
-  if (pinnedEventId) {
-    const pinnedIdx = events.findIndex(function(ev) { return ev.id === pinnedEventId; });
-    if (pinnedIdx >= 0) return pinnedIdx;
-  }
 
   const hasExplicitSelection = !!(
     (session.selection && session.selection.eventIds && session.selection.eventIds.length)
@@ -132,9 +127,30 @@ export function layoutInsertIndex(session, lastSelection, pinnedEventId) {
   return Math.min(Math.max(0, caret), events.length);
 }
 
-export function insertBarlineAtCaret(session, barToken) {
+/** Paste index: after the selection block, or at the caret when nothing is selected. */
+export function pasteInsertIndex(session, lastSelection) {
+  if (!session || !Array.isArray(session.events)) return 0;
+  const events = session.events;
+  const caret = typeof session.caretIndex === 'number' ? session.caretIndex : 0;
+  if (caret >= events.length) return events.length;
+
+  const resolved = resolveEditTargetIds(session, lastSelection);
+  if (resolved && resolved.eventIds.length) {
+    let maxIdx = -1;
+    resolved.eventIds.forEach(function(id) {
+      const i = events.findIndex(function(ev) { return ev.id === id; });
+      if (i > maxIdx) maxIdx = i;
+    });
+    if (maxIdx >= 0) return maxIdx + 1;
+  }
+  return Math.min(Math.max(0, caret), events.length);
+}
+
+export function insertBarlineAtCaret(session, barToken, insertIndex) {
   const events = session.events.map(cloneVoiceEvent);
-  const idx = layoutInsertIndex(session);
+  const idx = typeof insertIndex === 'number'
+    ? Math.min(Math.max(0, insertIndex), events.length)
+    : layoutInsertIndex(session);
   const ev = {
     id: createEventId('bar'),
     type: 'barline',
@@ -147,9 +163,11 @@ export function insertBarlineAtCaret(session, barToken) {
   return patchSession(session, { events: events, caretIndex: idx + 1, lastEvent: null });
 }
 
-export function insertSystemBreakAtCaret(session) {
+export function insertSystemBreakAtCaret(session, insertIndex) {
   const events = session.events.map(cloneVoiceEvent);
-  const idx = layoutInsertIndex(session);
+  const idx = typeof insertIndex === 'number'
+    ? Math.min(Math.max(0, insertIndex), events.length)
+    : layoutInsertIndex(session);
   const ev = {
     id: createEventId('break'),
     type: 'lineBreak',
@@ -377,27 +395,34 @@ export function transposeSelection(session, semitones, toneIndex) {
   return patchSession(session, { events: events });
 }
 
-/** Apply accidental to selected note/chord pitches. value: -2..2 (0 = natural). */
+/** Apply accidental to selected note/chord pitches. value: -2..2 (0 = natural), null = clear to key. */
 export function applyAccidentalToSelection(session, value) {
-  let ids = session.selection.eventIds || [];
-  if (!ids.length && session.caretIndex > 0) {
-    const prev = session.events[session.caretIndex - 1];
-    if (prev && (prev.type === 'note' || prev.type === 'chord')) ids = [prev.id];
-  }
-  if (!ids.length) return null;
-  const acc = typeof value === 'number' ? value : 0;
+  const resolved = resolveEditTargetIds(session);
+  if (!resolved || !resolved.eventIds.length) return null;
+  const ids = resolved.eventIds;
+  const clearing = value == null;
+  const acc = clearing ? null : (typeof value === 'number' ? value : 0);
   const events = session.events.map(cloneVoiceEvent);
   let changed = false;
   events.forEach(function(ev) {
     if (ids.indexOf(ev.id) < 0) return;
     if (ev.type !== 'note' && ev.type !== 'chord') return;
-    const toneIndex = session.selection.toneIndex;
+    const toneIndex = resolved.toneIndex;
     function patchPitch(p) {
       const step = p.step || 'C';
       const octave = typeof p.octave === 'number' ? p.octave : 4;
       let name = step;
       if (octave >= 5) name = String(step).toLowerCase() + "'".repeat(octave - 5);
       else if (octave < 4) name = step + ','.repeat(4 - octave);
+      if (clearing) {
+        return Object.assign({}, p, {
+          step: String(step).charAt(0).toUpperCase(),
+          octave: octave,
+          accidental: null,
+          forceNatural: false,
+          abcName: name,
+        });
+      }
       let prefix = '';
       if (acc === 2) prefix = '^^';
       else if (acc === -2) prefix = '__';
@@ -436,8 +461,8 @@ export function applyAccidentalToSelection(session, value) {
     accidentalCarry: null,
     selection: {
       eventIds: ids.slice(),
-      toneIndex: session.selection.toneIndex,
-      anchorId: session.selection.anchorId || ids[0],
+      toneIndex: resolved.toneIndex,
+      anchorId: resolved.anchorId || ids[0],
     },
   });
 }
@@ -552,6 +577,36 @@ export function resolveDragStaffSteps(options) {
 }
 
 /**
+ * Sort selection event ids by timeline position (notes/chords first, then other types).
+ */
+export function sortSelectionEventIdsByBeat(events, eventIds) {
+  if (!Array.isArray(events) || !eventIds || !eventIds.length) return [];
+  const idSet = {};
+  eventIds.forEach(function(id) { idSet[id] = true; });
+  const notes = events
+    .filter(function(ev) {
+      return ev && ev.id && idSet[ev.id]
+        && (ev.type === 'note' || ev.type === 'chord');
+    })
+    .sort(function(a, b) {
+      return (a.startBeat || 0) - (b.startBeat || 0);
+    })
+    .map(function(ev) { return ev.id; });
+  const other = eventIds.filter(function(id) {
+    if (notes.indexOf(id) >= 0) return false;
+    const ev = events.find(function(e) { return e.id === id; });
+    return ev && ev.type !== 'note' && ev.type !== 'chord';
+  });
+  return notes.concat(other);
+}
+
+function eventEndBeat(ev) {
+  if (!ev || typeof ev.startBeat !== 'number') return null;
+  const dur = typeof ev.durationBeats === 'number' ? ev.durationBeats : 0;
+  return ev.startBeat + dur;
+}
+
+/**
  * Keep edit-target IDs that still exist after LOAD_VOICE / remount.
  * Falls back to note at caret, then note before caret.
  */
@@ -564,15 +619,23 @@ export function resolveEditTargetIds(session, lastSelection) {
   function liveIds(ids) {
     return (ids || []).filter(function(id) { return idSet[id]; });
   }
-  let toneIndex = session.selection && session.selection.toneIndex;
-  let anchorId = session.selection && session.selection.anchorId;
-  let ids = liveIds(session.selection && session.selection.eventIds);
-  if (!ids.length && lastSelection) {
-    ids = liveIds(lastSelection.eventIds);
-    if (ids.length) {
-      toneIndex = lastSelection.toneIndex;
-      anchorId = lastSelection.anchorId;
-    }
+  let toneIndex;
+  let anchorId;
+  let startMs;
+  let startBeat;
+  // Prefer lastSelection: syncSessionAction updates it immediately; React session can lag one frame.
+  let ids = liveIds(lastSelection && lastSelection.eventIds);
+  if (ids.length) {
+    toneIndex = lastSelection.toneIndex;
+    anchorId = lastSelection.anchorId;
+    startMs = lastSelection.startMs;
+    startBeat = lastSelection.startBeat;
+  } else {
+    ids = liveIds(session.selection && session.selection.eventIds);
+    toneIndex = session.selection && session.selection.toneIndex;
+    anchorId = session.selection && session.selection.anchorId;
+    startMs = session.selection && session.selection.startMs;
+    startBeat = session.selection && session.selection.startBeat;
   }
   if (!ids.length) {
     const caret = typeof session.caretIndex === 'number' ? session.caretIndex : 0;
@@ -585,10 +648,23 @@ export function resolveEditTargetIds(session, lastSelection) {
     }
   }
   if (!ids.length) return null;
+  const sortedIds = sortSelectionEventIdsByBeat(session.events, ids);
+  const earliest = session.events.find(function(ev) { return ev.id === sortedIds[0]; });
+  if (earliest && typeof earliest.startBeat === 'number') {
+    startBeat = earliest.startBeat;
+  }
+  if (startMs != null && earliest && typeof startBeat === 'number'
+    && lastSelection && lastSelection.startBeat != null
+    && Math.abs(lastSelection.startBeat - startBeat) > 0.001) {
+    startMs = session.selection && session.selection.startMs != null
+      ? session.selection.startMs : null;
+  }
   return {
-    eventIds: ids,
+    eventIds: sortedIds,
     toneIndex: toneIndex != null ? toneIndex : null,
-    anchorId: (anchorId && idSet[anchorId]) ? anchorId : ids[0],
+    anchorId: (anchorId && idSet[anchorId]) ? anchorId : sortedIds[0],
+    startMs: typeof startMs === 'number' && startMs >= 0 ? startMs : undefined,
+    startBeat: typeof startBeat === 'number' ? startBeat : undefined,
   };
 }
 

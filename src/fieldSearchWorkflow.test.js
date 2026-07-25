@@ -42,7 +42,7 @@ describe('aliasesSearchClient harvest', function() {
 describe('fieldLookupApplyUtils new kinds', function() {
   test('isTuneFieldEmptyForKind for genre artists aliases', function() {
     expect(isTuneFieldEmptyForKind({}, 'genre')).toBe(true)
-    expect(isTuneFieldEmptyForKind({ genre: 'Folk' }, 'genre')).toBe(false)
+    expect(isTuneFieldEmptyForKind({ genres: ['Folk'] }, 'genre')).toBe(false)
     expect(isTuneFieldEmptyForKind({ artists: [] }, 'artists')).toBe(true)
     expect(isTuneFieldEmptyForKind({ artists: ['A'] }, 'artists')).toBe(false)
     expect(isTuneFieldEmptyForKind({ aliases: ['X'] }, 'aliases')).toBe(false)
@@ -55,7 +55,7 @@ describe('fieldLookupApplyUtils new kinds', function() {
     expect(applyCandidateToTune(tune, 'aliases', { alias: 'Alt' })).toBe(true)
     expect(tune.aliases).toEqual(['Alt'])
     expect(applyCandidateToTune(tune, 'genre', { genre: 'Jazz' })).toBe(true)
-    expect(tune.genre).toBe('Jazz')
+    expect(tune.genres).toEqual(['Jazz'])
   })
 })
 

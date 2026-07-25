@@ -5,7 +5,7 @@ import useUtils from './useUtils'
 import { getAudioFilterSettings } from './pitchTempoUtils'
 import useAbcTools from './useAbcTools'
 import useIndexes from './useIndexes'
-import { allArtists, allTitles, tuneMatchesArtistFilter } from './tuneBibliographicUtils'
+import { allArtists, allTitles, tuneMatchesArtistFilter, tuneMatchesGenreFilter } from './tuneBibliographicUtils'
 import { tuneMatchesPdfSnapshotSearch } from './pdfSnapshotIndex'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
@@ -28,6 +28,8 @@ import {
   tuneIdsFromTunes,
   shouldSuppressFollowNavigate,
   resolvePlaybackForItem,
+  isLessonQueue,
+  isExternalQueueItem,
 } from './nowPlayingQueue'
 import {
   playQueueItem,
@@ -37,6 +39,7 @@ import {
   advanceQueueToPlayableAndStart,
 } from './nowPlayingQueuePlayback'
 import { advanceQueueToNextPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
+import { playLessonYoutube, isLessonYoutubePlaying } from './lessonYoutubePlayer'
 import { playTuneNow } from './tunePlaybackActions'
 import {
   isQueuePlaybackEngaged,
@@ -171,12 +174,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
           }
           return false
         }
-        if (filterGenres && filterGenres.length > 0 && tune.genre) {
-          var tuneGenreLower = String(tune.genre).toLowerCase()
-          for (var g = 0; g < filterGenres.length; g++) {
-            if (filterGenres[g] && String(filterGenres[g]).toLowerCase() === tuneGenreLower) return true
-          }
-          return false
+        if (filterGenres && filterGenres.length > 0) {
+          return tuneMatchesGenreFilter(tune, filterGenres)
         }
         if (filterArtists && filterArtists.length > 0) {
           return tuneMatchesArtistFilter(tune, filterArtists)
@@ -204,6 +203,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     if (!isQueueActive(queue)) return null
     setNowPlayingQueue(queue)
     var item = getCurrentItem(queue)
+    if (!item) return null
+    if (item.externalMedia && item.externalMedia.youtubeId) {
+      var opts = options || {}
+      return 'lesson:' + item.externalMedia.youtubeId
+    }
     var tuneId = item && item.tuneId ? item.tuneId : null
     if (!tuneId) return null
     setCurrentTune(tuneId)
@@ -245,6 +249,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
 
   function isCurrentTuneInQueue(queue, currentSongId) {
     if (!isQueueActive(queue)) return false
+    if (isLessonQueue(queue)) return true
     if (!currentSongId) return false
     return queue.items.some(function(item) {
       return sameTuneId(queueItemTuneId(item), currentSongId)
@@ -279,7 +284,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       isYoutubeLink: utils.isYoutubeLink,
       playbackMode: playbackMode,
     }).then(function(result) {
-      if (result.atEnd || !result.tune || !result.item) {
+      if (result.atEnd || !result.item) {
         if (startPlayback) stopPlaylistPlayback(mediaController)
         if (failCallback) failCallback(stepDirection > 0 ? 'end' : 'start')
         return
@@ -289,9 +294,16 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       var item = result.item
       var tune = result.tune
       var tuneId = queueItemTuneId(item)
-      if (!tuneId) return
+      var isExternal = !!(item && item.externalMedia && item.externalMedia.youtubeId)
 
       setNowPlayingQueue(nextQueue)
+      if (isExternal) {
+        if (mediaController && startPlayback) stopPlaylistPlayback(mediaController)
+        if (startPlayback) playLessonYoutube({ fromUserGesture: true })
+        return
+      }
+      if (!tuneId) return
+
       if (mediaController && startPlayback && tune) {
         playQueueItem(mediaController, tunebookApi, tune, item, { fromUserGesture: true })
       }
@@ -400,7 +412,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     var mediaController = opts.mediaController
     var useQueueNavigation = shouldUseQueueNavigationForAdjacent(opts)
     // Capture before stop() clears intent/playing state.
-    var startPlayback = !!(mediaController && isPlaybackActivelyPlaying(mediaController))
+    var startPlayback = opts.startPlayback === true
+      || !!(mediaController && isPlaybackActivelyPlaying(mediaController))
+      || (isLessonQueue(nowPlayingQueue) && isLessonYoutubePlaying())
     // Header / media-controls skip walks search results. An active playlist
     // keeps playing in the background — do not stop it or restart the queue tune.
   // Playlist next/prev uses useQueueNavigation on the transport bar.
@@ -2014,11 +2028,8 @@ The main difference between the two functions is the additional condition in app
             }
             if (!Array.isArray(genreFilterClean) || genreFilterClean.length === 0) {
                 genreFilterOk = true
-            } else if (tune && tune.genre && String(tune.genre).trim()) {
-                var tuneGenreLower = String(tune.genre).trim().toLowerCase()
-                genreFilterOk = genreFilterClean.some(function(genre) {
-                    return genre && String(genre).toLowerCase() === tuneGenreLower
-                })
+            } else {
+                genreFilterOk = tuneMatchesGenreFilter(tune, genreFilterClean)
             }
             if (!Array.isArray(artistFilterClean) || artistFilterClean.length === 0) {
                 artistFilterOk = true

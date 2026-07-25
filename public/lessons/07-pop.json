@@ -1,0 +1,103 @@
+{
+  "id": "07-pop",
+  "title": "07 Pop",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "07-styles/07-pop.md",
+  "sections": [
+    {
+      "id": "pop-song-craft-hooks-verse-chorus-and-production",
+      "title": "Pop Song Craft: Hooks, Verse-Chorus, and Production",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Popular song favours memorable hooks, verse–chorus form, and repeating four-chord loops."
+        }
+      ]
+    },
+    {
+      "id": "chord-loops",
+      "title": "Chord loops",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "I–V–vi–IV and rotations (vi–IV–I–V) underpin countless hits. Folk singers borrow pop craft for originals and trad arrangements."
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "title": "Production",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Verse stripped to guitar-vocal; chorus adds bodhrán and fiddle. Dynamic build into final chorus. Pacing for festival slots."
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "title": "Form",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Verse narrates; chorus repeats hook. Bridge provides contrast before final chorus."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-common-pop-loop",
+      "title": "Q1. Common pop loop:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) I–V–vi–IV\n- B) vii°–I only\n- C) IV repeated\n- D) Drone only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-versechorus-alternates-narrative-and-repeated-hook",
+      "title": "Q2. Verse–chorus alternates narrative and repeated hook.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Common pop loop:\n\n- A) I–V–vi–IV\n- B) vii°–I only\n- C) IV repeated\n- D) Drone only\n\n**Answer:** A\n\n### Q2. Verse–chorus alternates narrative and repeated hook.\n\n**Answer:** True"
+}

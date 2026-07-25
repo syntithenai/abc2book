@@ -6,6 +6,7 @@ import {
   insertBarlineAtCaret,
   insertSystemBreakAtCaret,
   layoutInsertIndex,
+  pasteInsertIndex,
   pitchFromLetter,
   pitchFromMidi,
   transposeSelectionByStaffSteps,
@@ -79,14 +80,35 @@ describe('notationActions', function() {
     expect(layoutInsertIndex(session, lastSelection)).toBe(2);
   });
 
-  test('layoutInsertIndex uses pinned event id over stale caret', function() {
+  test('layoutInsertIndex prefers lastSelection over stale session selection', function() {
     let session = createInitialSession(tuneMeta, 'C D E F |');
     const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
     session = Object.assign({}, session, {
-      caretIndex: 4,
+      caretIndex: 0,
+      selection: { eventIds: [notes[0].id], toneIndex: null, anchorId: notes[0].id },
+    });
+    const lastSelection = { eventIds: [notes[2].id], toneIndex: null, anchorId: notes[2].id };
+    expect(layoutInsertIndex(session, lastSelection)).toBe(2);
+  });
+
+  test('pasteInsertIndex inserts after rightmost selected note', function() {
+    let session = createInitialSession(tuneMeta, 'C D E F |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      caretIndex: 3,
+      selection: { eventIds: [notes[3].id], toneIndex: null, anchorId: notes[3].id },
+    });
+    expect(pasteInsertIndex(session)).toBe(4);
+    expect(layoutInsertIndex(session)).toBe(3);
+  });
+
+  test('pasteInsertIndex uses append caret when past end', function() {
+    let session = createInitialSession(tuneMeta, 'C D |');
+    session = Object.assign({}, session, {
+      caretIndex: session.events.length,
       selection: { eventIds: [], toneIndex: null, anchorId: null },
     });
-    expect(layoutInsertIndex(session, null, notes[1].id)).toBe(1);
+    expect(pasteInsertIndex(session)).toBe(session.events.length);
   });
 
   test('insertSystemBreakAtCaret inserts before selected note', function() {
@@ -397,9 +419,28 @@ describe('notationActions', function() {
     expect(session.accidentalCarry).toBeNull();
   });
 
-  test('applyAccidentalToSelection returns null without selection', function() {
-    const session = createInitialSession(tuneMeta, 'C D |');
-    expect(applyAccidentalToSelection(session, 1)).toBeNull();
+  test('applyAccidentalToSelection clears accidental to diatonic pitch', function() {
+    let session = createInitialSession(tuneMeta, '^C D |');
+    const cId = session.events[0].id;
+    session = Object.assign({}, session, {
+      selection: { eventIds: [cId], toneIndex: null, anchorId: cId },
+    });
+    const patch = applyAccidentalToSelection(session, null);
+    expect(patch).not.toBeNull();
+    expect(patch.events[0].pitch.accidental).toBeNull();
+    expect(patch.events[0].pitch.forceNatural).toBe(false);
+    expect(String(patch.events[0].pitch.abcName)).toBe('C');
+  });
+
+  test('applyAccidentalToSelection uses caret note when selection empty', function() {
+    let session = createInitialSession(tuneMeta, 'C D |');
+    session = Object.assign({}, session, { caretIndex: 1 });
+    const patch = applyAccidentalToSelection(session, 1);
+    expect(patch).not.toBeNull();
+    const note = patch.events.find(function(ev) {
+      return ev.type === 'note' && ev.pitch && ev.pitch.step === 'D';
+    });
+    expect(note && note.pitch.accidental).toBe(1);
   });
 
   test('replaceSelectionPitch changes selected note letter', function() {
@@ -470,6 +511,44 @@ describe('notationActions', function() {
     });
     const resolved = resolveEditTargetIds(session, null);
     expect(resolved.eventIds).toEqual([dId]);
+  });
+
+  test('resolveEditTargetIds prefers lastSelection over stale session selection', function() {
+    let session = createInitialSession(tuneMeta, 'C D E |');
+    const cId = session.events[0].id;
+    const eId = session.events[2].id;
+    session = Object.assign({}, session, {
+      caretIndex: 0,
+      selection: { eventIds: [cId], toneIndex: null, anchorId: cId },
+    });
+    const resolved = resolveEditTargetIds(session, {
+      eventIds: [eId],
+      toneIndex: null,
+      anchorId: eId,
+    });
+    expect(resolved.eventIds).toEqual([eId]);
+    expect(resolved.anchorId).toBe(eId);
+  });
+
+  test('resolveEditTargetIds sorts ids by startBeat and preserves startMs', function() {
+    let session = createInitialSession(tuneMeta, 'C D E |');
+    const cId = session.events.find(function(ev) {
+      return ev.type === 'note' && ev.pitch && ev.pitch.step === 'C';
+    }).id;
+    const eId = session.events.find(function(ev) {
+      return ev.type === 'note' && ev.pitch && ev.pitch.step === 'E';
+    }).id;
+    session = Object.assign({}, session, {
+      selection: { eventIds: [eId, cId], toneIndex: null, anchorId: eId },
+    });
+    const resolved = resolveEditTargetIds(session, {
+      eventIds: [eId, cId],
+      startMs: 500,
+      startBeat: session.events.find(function(ev) { return ev.id === cId; }).startBeat,
+    });
+    expect(resolved.eventIds[0]).toBe(cId);
+    expect(resolved.eventIds[1]).toBe(eId);
+    expect(resolved.startMs).toBe(500);
   });
 
   test('selectEventRange returns contiguous ids inclusive', function() {

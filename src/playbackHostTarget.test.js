@@ -2,6 +2,7 @@ import {
   resolveHostPlaybackTarget,
   shouldSkipHostMidiRouteApply,
 } from './playbackHostTarget'
+import { setVoiceViewSettings } from './abcVoiceViewSettings'
 import { SAMPLE_TUNE_IDS } from './devSeed/sampleTunebookAbc'
 
 function makeTune(id, overrides) {
@@ -106,6 +107,31 @@ describe('resolveHostPlaybackTarget', function() {
     )
     expect(target).toEqual({ type: 'media', linkNum: 0 })
   })
+
+  test('ignores queue item when playing tune differs from current queue item', function() {
+    const mediaController = {
+      requestedPlayState: 'playMidi',
+      playbackRouteMode: 'midi',
+      mediaLinkNumber: null,
+      isMidiPlaybackRoute: function() { return true },
+      isMediaPlaybackRoute: function() { return false },
+    }
+    const queue = { items: [{ tuneId: 'other', prefer: 'auto' }], currentIndex: 0 }
+    const otherTune = makeTune('other', { notes: 'CDEF' })
+    const target = resolveHostPlaybackTarget(
+      mediaController,
+      tune,
+      tunebook,
+      queue,
+      queue.items[0],
+      { playState: 'playMidi', mediaLinkNumber: '0' },
+      {
+        isQueueActive: function() { return true },
+        resolvePlaybackForItem: function() { return { type: 'media', linkNum: 0 } },
+      }
+    )
+    expect(target).toEqual({ type: 'midi' })
+  })
 })
 
 describe('shouldSkipHostMidiRouteApply', function() {
@@ -128,5 +154,13 @@ describe('shouldSkipHostMidiRouteApply', function() {
       requestedPlayState: 'playMidi',
       isMediaPlaybackRoute: function() { return false },
     })).toBe(false)
+  })
+
+  test('skips when notation editor owns midi', function() {
+    expect(shouldSkipHostMidiRouteApply({
+      notationMidiOwner: true,
+      requestedPlayState: 'playMidi',
+      isMediaPlaybackRoute: function() { return false },
+    })).toBe(true)
   })
 })

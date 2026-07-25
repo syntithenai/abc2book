@@ -1,8 +1,21 @@
-"""Pre-quantization MIDI note cleanup (mirrors src/midiCleanupPreview.js)."""
+"""Pre-quantization MIDI note cleanup (mirrors src/midiCleanupPreview.js).
+- velocityGate: drop notes below MIDI velocity N (pedal noise, weak doubles)
+- minDurationMs: remove notes shorter than threshold (flams/ghosts vs ornaments)
+- retriggerMergeMs: merge same-pitch retriggered notes within tolerance
+- swingAmount: shift off-beat eighths before quantization (0-50%, not playback swing)
+"""
 
 from __future__ import annotations
 
 from typing import Any
+
+LIGHT_CLEANUP_OPTIONS = {
+    "velocityGate": 1,
+    "minDurationMs": 40.0,
+    "retriggerMergeMs": 25.0,
+    "swingAmount": 0.0,
+    "sustainTrim": True,
+}
 
 
 def normalize_cleanup_options(options: dict[str, Any] | None) -> dict[str, Any]:
@@ -82,6 +95,31 @@ def _apply_swing(notes: list[dict[str, Any]], swing_amount: float, tempo_bpm: fl
     return adjusted
 
 
+def _apply_sustain_trim(notes: list[dict[str, Any]], tempo_bpm: float) -> list[dict[str, Any]]:
+    if not notes:
+        return notes
+    beat_duration = 60.0 / max(tempo_bpm, 1.0)
+    max_sustain = beat_duration * 8.0
+    ordered = sorted(notes, key=lambda row: (float(row.get("start", 0)), int(row.get("midi", 0))))
+    next_start_by_pitch: dict[int, float] = {}
+    trimmed: list[dict[str, Any]] = []
+    for note in reversed(ordered):
+        row = dict(note)
+        pitch = int(row.get("midi", 0))
+        start = float(row.get("start", 0))
+        end = float(row.get("end", start))
+        next_same = next_start_by_pitch.get(pitch)
+        if next_same is not None and next_same > start + 0.02:
+            end = min(end, next_same)
+        if end - start > max_sustain:
+            end = start + max_sustain
+        row["end"] = max(start + 0.03, end)
+        next_start_by_pitch[pitch] = start
+        trimmed.append(row)
+    trimmed.reverse()
+    return trimmed
+
+
 def apply_midi_cleanup(
     notes: list[dict[str, Any]],
     options: dict[str, Any] | None = None,
@@ -97,6 +135,8 @@ def apply_midi_cleanup(
     cleaned = _apply_min_duration(cleaned, opts["minDurationMs"])
     cleaned = _apply_retrigger_merge(cleaned, opts["retriggerMergeMs"])
     cleaned = _apply_swing(cleaned, opts["swingAmount"], tempo_bpm)
+    if opts["sustainTrim"]:
+        cleaned = _apply_sustain_trim(cleaned, tempo_bpm)
 
     removed = original_count - len(cleaned)
     stats = {

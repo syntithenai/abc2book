@@ -26,22 +26,42 @@ function splitAbcHeadersAndBody(abc) {
   };
 }
 
-export function assembleHarmonyVoiceAbc(melodyAbc, harmonyBody, harmonyVoiceName) {
-  if (!harmonyBody || !String(harmonyBody).trim()) {
-    return melodyAbc;
+export function appendHarmonyVoiceAbc(abc, harmonyBody, harmonyVoiceName) {
+  const text = String(abc || '').trim();
+  const body = String(harmonyBody || '').trim();
+  if (!body || !text) return text;
+
+  const hasVoiceSection = /^\[V:\d+\]/m.test(text) || /^V:\d+/m.test(text);
+  if (!hasVoiceSection) {
+    const split = splitAbcHeadersAndBody(text);
+    const name = (harmonyVoiceName || 'Chords').replace(/"/g, '');
+    return split.headers.join('\n')
+      + '\nV:2 nm="' + name + '" clef=treble'
+      + '\n[V:1]\n' + split.body
+      + '\n[V:2]\n' + body;
   }
-  const split = splitAbcHeadersAndBody(melodyAbc);
-  const voiceName = harmonyVoiceName || 'Chords';
-  const headers = split.headers.filter(function(line) {
-    return !/^V:\d/.test(line.trim());
+
+  let maxVoice = 0;
+  text.split('\n').forEach(function(line) {
+    const match = line.trim().match(/^V:(\d+)/);
+    if (match) maxVoice = Math.max(maxVoice, parseInt(match[1], 10));
   });
-  headers.push('V:1');
-  headers.push('V:2 nm="' + voiceName.replace(/"/g, '') + '"');
-  return headers.join('\n')
-    + '\n[V:1]\n'
-    + split.body
-    + '\n[V:2]\n'
-    + String(harmonyBody).trim();
+  const newId = maxVoice + 1;
+  const name = (harmonyVoiceName || 'Chords').replace(/"/g, '');
+  const lines = text.split('\n');
+  let insertAt = lines.length;
+  for (let i = 0; i < lines.length; i += 1) {
+    if (/^\[V:\d+\]/.test(lines[i].trim())) {
+      insertAt = i;
+      break;
+    }
+  }
+  lines.splice(insertAt, 0, 'V:' + newId + ' nm="' + name + '" clef=treble');
+  return lines.join('\n') + '\n[V:' + newId + ']\n' + body;
+}
+
+export function assembleHarmonyVoiceAbc(melodyAbc, harmonyBody, harmonyVoiceName) {
+  return appendHarmonyVoiceAbc(melodyAbc, harmonyBody, harmonyVoiceName);
 }
 
 export function mergeMidiChordSegmentsIntoAbc(abc, chordSegments, abcjsParser, tuneMeta) {
@@ -65,15 +85,19 @@ export function mergeMidiChordSegmentsIntoAbc(abc, chordSegments, abcjsParser, t
   return abcjsParser.mergeChords(chordGrid, abc);
 }
 
-export function finalizeMidiImportAbc(abc, importResult, abcjsParser) {
+export function finalizeMidiImportAbc(abc, importResult, abcjsParser, options) {
+  const opts = options || {};
   let merged = abc || '';
   const profile = (importResult && importResult.profile) || {};
+  const trackCount = Array.isArray(opts.trackIds) ? opts.trackIds.length : 0;
+  const multiVoice = (importResult && importResult.mode === 'multi_voice') || trackCount > 1;
+  const allowChords = opts.includeChords === true && !(multiVoice && trackCount > 2);
   const tuneMeta = {
     meter: profile.time_signature || profile.meter || '4/4',
     noteLength: '1/8',
     tempo: profile.tempo_bpm || 120,
   };
-  if (importResult && importResult.chordSegments) {
+  if (allowChords && importResult && importResult.chordSegments) {
     merged = mergeMidiChordSegmentsIntoAbc(
       merged,
       importResult.chordSegments,
@@ -81,7 +105,7 @@ export function finalizeMidiImportAbc(abc, importResult, abcjsParser) {
       tuneMeta
     );
   }
-  if (importResult && importResult.harmonyAbc) {
+  if (allowChords && importResult && importResult.harmonyAbc) {
     merged = assembleHarmonyVoiceAbc(
       merged,
       importResult.harmonyAbc,

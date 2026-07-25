@@ -1,0 +1,103 @@
+{
+  "id": "09-modern-fusion",
+  "title": "09 Modern Fusion",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "07-styles/09-modern-fusion.md",
+  "sections": [
+    {
+      "id": "modern-and-contemporary-folk-fusion",
+      "title": "Modern and Contemporary Folk Fusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Contemporary trad embraces electric instruments, loops, minimalism, and genre crossover while keeping tune cores recognisable."
+        }
+      ]
+    },
+    {
+      "id": "landmarks",
+      "title": "Landmarks",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The Bothy Band (1970s) expanded harmony and instrumentation. Altan, Lúnasa, Lankum — each era stretches tradition differently. Celtic punk, folktronica, Nordic folk metal."
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Sample field recordings; synth under pipes; polymeter tunes for ceilidh. Credit composers on streaming platforms."
+        }
+      ]
+    },
+    {
+      "id": "principle",
+      "title": "Principle",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Fusion succeeds when trad pulse survives — reel groove through the drum kit. Know the unadorned version before stretching."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-successful-fusion",
+      "title": "Q1. Successful fusion:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Keeps core rhythm and tune identity\n- B) Removes all dance pulse\n- C) Avoids citing sources\n- D) Abandons acoustic always\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-modern-trad-uses-loops-electric-gear-production",
+      "title": "Q2. Modern trad uses loops, electric gear, production.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Successful fusion:\n\n- A) Keeps core rhythm and tune identity\n- B) Removes all dance pulse\n- C) Avoids citing sources\n- D) Abandons acoustic always\n\n**Answer:** A\n\n### Q2. Modern trad uses loops, electric gear, production.\n\n**Answer:** True"
+}

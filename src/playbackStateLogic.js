@@ -409,6 +409,49 @@ export function computePlaybackMetronomeTempo(input) {
  */
 export const MIDI_START_FROM_BEGINNING_TOLERANCE_SECONDS = 0.05
 
+/**
+ * Map editor quarter-note beat position to wall-clock seconds using abcjs visual timing.
+ * Falls back to BPM when visual timing is unavailable.
+ */
+export function notationBeatToAudioSeconds(startBeat, visualObj, tempoBpm) {
+  const beat = parseFloat(startBeat)
+  if (!(beat > 0)) return 0
+  if (visualObj && typeof visualObj.getTotalBeats === 'function'
+      && typeof visualObj.getTotalTime === 'function') {
+    const totalBeats = parseFloat(visualObj.getTotalBeats())
+    const totalTimeMs = parseFloat(visualObj.getTotalTime())
+    if (totalBeats > 0 && totalTimeMs > 0) {
+      return Math.min(totalTimeMs / 1000, (beat / totalBeats) * (totalTimeMs / 1000))
+    }
+  }
+  if (visualObj && typeof visualObj.millisecondsPerMeasure === 'function'
+      && typeof visualObj.getBeatsPerMeasure === 'function') {
+    const msPerMeasure = parseFloat(visualObj.millisecondsPerMeasure())
+    const beatsPerMeasure = parseFloat(visualObj.getBeatsPerMeasure())
+    if (msPerMeasure > 0 && beatsPerMeasure > 0) {
+      return beat * (msPerMeasure / beatsPerMeasure) / 1000
+    }
+  }
+  const bpm = parseFloat(tempoBpm) > 0 ? parseFloat(tempoBpm) : 120
+  return beat * 60 / bpm
+}
+
+/** Audio-buffer seek ratio (0–1) for abcjs track milliseconds. */
+export function notationMsToAudioRatio(startMs, audioDurationSeconds) {
+  const ms = parseFloat(startMs)
+  const duration = parseFloat(audioDurationSeconds)
+  if (!(ms >= 0) || !(duration > 0)) return 0
+  return Math.min(1, (ms / 1000) / duration)
+}
+
+/** Audio-buffer seek ratio (0–1) for a notation editor beat position. */
+export function notationBeatToAudioRatio(startBeat, visualObj, audioDurationSeconds, tempoBpm) {
+  const seconds = notationBeatToAudioSeconds(startBeat, visualObj, tempoBpm)
+  const duration = parseFloat(audioDurationSeconds)
+  if (!(seconds > 0) || !(duration > 0)) return 0
+  return Math.min(1, seconds / duration)
+}
+
 /** True when playback should be treated as at the start (not mid-song resume). */
 export function isMidiStartFromBeginning(input) {
   const o = input || {}
@@ -512,4 +555,31 @@ export function metronomeSlotFromMusicSeconds(musicSeconds, qpm, rhythm) {
     elapsed += slotDur
   }
   return 0
+}
+
+/**
+ * Seconds from the current music position to the next metronome slot boundary.
+ */
+export function timeUntilNextMetronomeSlot(musicSeconds, qpm, rhythm) {
+  if (!rhythm || !(rhythm.beatsPerBar > 0)) return 0
+  const tempo = parseFloat(qpm) || 120
+  const secPerBeat = 60 / tempo
+  const totalSlots = slotsPerBar(rhythm)
+  const barDur = rhythm.beatsPerBar * secPerBeat
+  const secs = Math.max(0, parseFloat(musicSeconds) || 0)
+  const posInBar = barDur > 0 ? (secs % barDur) : 0
+  let elapsed = 0
+  for (let slot = 0; slot < totalSlots; slot++) {
+    const beatIndex = slotBeatIndex(rhythm, slot)
+    const pulses = (rhythm.pulsesPerBeat && rhythm.pulsesPerBeat[beatIndex]) || 1
+    const slotDur = secPerBeat / pulses
+    const slotEnd = elapsed + slotDur
+    if (posInBar < slotEnd - 0.0001) {
+      return Math.max(0, slotEnd - posInBar)
+    }
+    elapsed = slotEnd
+  }
+  const beatIndex = 0
+  const pulses = (rhythm.pulsesPerBeat && rhythm.pulsesPerBeat[beatIndex]) || 1
+  return secPerBeat / pulses
 }

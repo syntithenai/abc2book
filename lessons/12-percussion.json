@@ -1,0 +1,114 @@
+{
+  "id": "12-percussion",
+  "title": "12 Percussion",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/12-percussion.md",
+  "sections": [
+    {
+      "id": "bodhrán-and-percussion",
+      "title": "Bodhrán and Percussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Percussion: sound from striking, shaking, or scraping. Definite pitch (timpani, xylophone) or indefinite (drum, cymbal)."
+        }
+      ]
+    },
+    {
+      "id": "bodhrán",
+      "title": "Bodhrán",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish frame drum — goatskin head, wooden rim, crossbar handle inside. Played with double-ended tipper (beater). Introduced widely to trad in mid-20th century; controversial if overused in sessions."
+        }
+      ]
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hand on inside of head controls pitch and damping. Kerry style vs West Limerick style. Not traditional in all regions — respect session culture."
+        }
+      ]
+    },
+    {
+      "id": "other-trad-percussion",
+      "title": "Other trad percussion",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Spoons, bones, tambourine. Cajón in fusion. Orchestral: timpani, snare, bass drum, cymbals, triangle."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-bodhrán-is",
+      "title": "Q1. Bodhrán is:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Irish frame drum\n- B) Brass horn\n- C) Plucked string\n- D) Keyboard\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-bodhrán-player-may-dampen-pitch-with-hand-inside-the-head",
+      "title": "Q2. Bodhrán player may dampen pitch with hand inside the head.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-tipper-is",
+      "title": "Q3. Tipper is:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Beater for bodhrán\n- B) Tuning peg\n- C) Reed for clarinet\n- D) Piano pedal\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Bodhrán is:\n\n- A) Irish frame drum\n- B) Brass horn\n- C) Plucked string\n- D) Keyboard\n\n**Answer:** A\n\n### Q2. Bodhrán player may dampen pitch with hand inside the head.\n\n**Answer:** True\n\n### Q3. Tipper is:\n\n- A) Beater for bodhrán\n- B) Tuning peg\n- C) Reed for clarinet\n- D) Piano pedal\n\n**Answer:** A"
+}

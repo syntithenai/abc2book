@@ -1,6 +1,6 @@
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
 import { stripNotationDisplayMetadata } from './notation/notationDisplayAbc';
-import { getTuneVoiceKeys, getPlayableVoiceKeys } from './abcVoiceViewSettings';
+import { getTuneVoiceKeys, getPlaybackVoiceKeys } from './abcVoiceViewSettings';
 import { buildAbcWithNoteSpacing } from './noteSpacingUtils';
 
 function sortVoiceKeys(voiceKeys) {
@@ -53,8 +53,8 @@ export function buildFilteredTuneAbc(tune, tunebook, voiceKeys, options) {
 export function buildPlayableTuneAbc(tune, tunebook, options) {
   if (!tune || !tunebook || !tunebook.abcTools) return '';
   const voiceKeys = getTuneVoiceKeys(tune);
-  const playableKeys = getPlayableVoiceKeys(tune.id, voiceKeys);
-  const filteredTune = filterTuneVoices(tune, playableKeys);
+  const playbackKeys = getPlaybackVoiceKeys(tune.id, voiceKeys);
+  const filteredTune = filterTuneVoices(tune, playbackKeys);
   const spacingOptions = Object.assign({ includeLyrics: false }, options || {});
   const abc = buildAbcWithNoteSpacing(filteredTune, tunebook.abcTools, spacingOptions);
   return abc.split('\n').filter(function(line) { return !line.startsWith('B:'); }).join('\n');

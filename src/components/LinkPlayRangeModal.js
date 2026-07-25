@@ -173,6 +173,7 @@ export default function LinkPlayRangeModal({
   tune,
   tunebook,
   token,
+  login,
   icons,
 }) {
   const driveDocs = useGoogleDocument(token, function() {})
@@ -629,6 +630,8 @@ export default function LinkPlayRangeModal({
               link={link}
               currentLinks={links}
               onLinksUpdated={onLinksUpdated}
+              login={login}
+              accessToken={token}
             />
           </div>
         </div>

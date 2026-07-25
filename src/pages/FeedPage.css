@@ -2,13 +2,14 @@
   width: 100%;
   max-width: 70%;
   margin: 0 auto;
-  padding: 5.5rem 1rem 4rem;
+  padding: 4.5rem 1rem 4rem;
   min-height: 100vh;
 }
 
 @media (max-width: 768px) {
   .feed-page {
     max-width: 100%;
+    padding-top: 4rem;
   }
 }
 

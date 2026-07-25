@@ -3,6 +3,7 @@ import { Alert, Button, Form, Modal } from 'react-bootstrap';
 import {
   candidatesFromImportSource,
   fetchImportSourceFromUrl,
+  getMidiWizardPendingFromFile,
 } from '../importSourceParse';
 
 export default function ImportUrlModal(props) {
@@ -53,6 +54,15 @@ export default function ImportUrlModal(props) {
         url: trimmed,
         driveApi: props.driveApi,
       });
+      const midiPending = source.file ? getMidiWizardPendingFromFile(source.file, source.sourceUrl) : null;
+      if (midiPending) {
+        if (!props.resolverAvailable) {
+          throw new Error('MIDI import needs the media resolver.');
+        }
+        setLoadedSource(source);
+        setTuneCount(1);
+        return;
+      }
       const candidates = await candidatesFromImportSource(source, {
         tunebook: props.tunebook,
         abcjsParser: props.abcjsParser,

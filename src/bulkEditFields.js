@@ -12,7 +12,7 @@ export const BULK_EDIT_FIELDS = [
   { key: 'difficulty', label: 'Difficulty', type: 'number', min: 0, max: 20, allowEmpty: true },
   { key: 'rhythm', label: 'Rhythm', type: 'rhythm', allowEmpty: true },
   { key: 'composer', label: 'Composer', type: 'text', allowEmpty: true },
-  { key: 'genre', label: 'Genre', type: 'genre', allowEmpty: true },
+  { key: 'genres', label: 'Genres', type: 'genres', allowEmpty: true },
   { key: 'transpose', label: 'Transpose', type: 'number', allowEmpty: true },
   { key: 'capo', label: 'Capo', type: 'number', min: 0, max: 12, allowEmpty: true },
   { key: 'repeats', label: 'Repeats', type: 'number', min: 1, allowEmpty: true },
@@ -98,7 +98,7 @@ export function isBulkChangeRowComplete(row) {
   if (!row || !row.field) return false
   var field = getBulkEditField(row.field)
   if (!field) return false
-  if (field.type === 'instruments') {
+  if (field.type === 'instruments' || field.type === 'genres') {
     return true
   }
   if (field.type === 'toggle') {
@@ -114,6 +114,10 @@ export function coerceBulkFieldValue(fieldKey, rawValue) {
   var field = getBulkEditField(fieldKey)
   if (fieldKey === 'suitableFor' || (field && field.type === 'instruments')) {
     return normalizeSuitableInstruments(Array.isArray(rawValue) ? rawValue : [])
+  }
+  if (fieldKey === 'genres' || (field && field.type === 'genres')) {
+    if (!Array.isArray(rawValue)) return []
+    return rawValue.map(function(item) { return String(item || '').trim() }).filter(Boolean)
   }
 
   if (!field) return rawValue
@@ -214,7 +218,7 @@ export function getBulkEditSelectOptions(field, tunebook) {
     })
   }
 
-  if (field.type === 'genre') {
+  if (field.type === 'genre' || field.type === 'genres') {
     return getMusicGenreSelectOptions()
   }
 

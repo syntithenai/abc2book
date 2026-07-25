@@ -1,0 +1,114 @@
+{
+  "id": "10-brass",
+  "title": "10 Brass",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/10-brass.md",
+  "sections": [
+    {
+      "id": "brass-trumpet-and-trombone",
+      "title": "Brass: Trumpet and Trombone",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Brass instruments produce sound by buzzing lips into a cup mouthpiece — air column resonates in tubular metal."
+        }
+      ]
+    },
+    {
+      "id": "trumpet",
+      "title": "Trumpet",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Three valves lower pitch by semitones. B♭ trumpet most common (transposing — written C sounds B♭). Natural trumpet (no valves) used in Baroque. Jazz, orchestral, and brass band repertoire."
+        }
+      ]
+    },
+    {
+      "id": "trombone",
+      "title": "Trombone",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Slide changes tube length — no valves. Seven positions. Unique glissando capability. Sacred (Gabrieli) to jazz (J.J. Johnson) to ska."
+        }
+      ]
+    },
+    {
+      "id": "french-horn-tuba",
+      "title": "French horn, tuba",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Horn: coiled tubing, hand-stopping technique, mellow tone. Tuba: lowest brass, bass foundation in bands."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-trumpet-pitch-changed-by",
+      "title": "Q1. Trumpet pitch changed by:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Valves (and embouchure)\n- B) Frets\n- C) Keys like clarinet\n- D) Bowing\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-trombone-uses-a-slide-not-valves",
+      "title": "Q2. Trombone uses a slide not valves.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-b-trumpet-is-a-transposing-instrument",
+      "title": "Q3. B♭ trumpet is a transposing instrument.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True — Written C sounds concert B♭."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Trumpet pitch changed by:\n\n- A) Valves (and embouchure)\n- B) Frets\n- C) Keys like clarinet\n- D) Bowing\n\n**Answer:** A\n\n### Q2. Trombone uses a slide not valves.\n\n**Answer:** True\n\n### Q3. B♭ trumpet is a transposing instrument.\n\n**Answer:** True — Written C sounds concert B♭."
+}

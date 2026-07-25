@@ -17,7 +17,7 @@ import LyricChordSheetEditorModal from './LyricChordSheetEditorModal'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
-import { mergeBibliographicList } from '../tuneBibliographicUtils'
+import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
 import EditorAddFromToolbar from './EditorAddFromToolbar'
 import useAbcjsParser from '../useAbcjsParser'
 
@@ -76,7 +76,8 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
 
   function acceptSuggestedGenre(genre) {
     if (!tune || !genre) return
-    tune.genre = genre
+    if (!Array.isArray(tune.genres)) tune.genres = []
+    tune.genres = mergeBibliographicList(tune.genres, [genre])
     tune.id = params.tuneId
     tunebook.saveTune(tune, false, { historyLabel: 'Apply suggested genre', immediate: true })
   }
@@ -137,7 +138,15 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                 setPlainLyricLines(tune, importedTune.words)
               }
               if (importedTune.key) tune.key = importedTune.key
-              if (importedTune.genre) tune.genre = importedTune.genre
+              if (importedTune.genre || (Array.isArray(importedTune.genres) && importedTune.genres.length)) {
+                if (!Array.isArray(tune.genres)) tune.genres = []
+                if (importedTune.genre) {
+                  tune.genres = mergeBibliographicList(tune.genres, importedTune.genre)
+                }
+                if (Array.isArray(importedTune.genres)) {
+                  tune.genres = mergeBibliographicList(tune.genres, importedTune.genres)
+                }
+              }
               tune.id = params.tuneId
               tunebook.saveTune(tune, false, { historyLabel: 'Add From import' })
               toast.success('Imported into this tune')
@@ -241,7 +250,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                           title={tune.name}
                           artist={tune.composer || ''}
                           rhythm={tune.rhythm || ''}
-                          currentGenre={tune.genre || ''}
+                          currentGenres={allGenres(tune)}
                           onGenreAccept={acceptSuggestedGenre}
                           token={token}
                           tunebook={tunebook}

@@ -31,7 +31,7 @@ export async function attachMidiMediaLinkFromPendingFile(tune, pendingFile, opti
       token: opts.token,
       driveApi: opts.driveApi,
       uploadToDrive: opts.uploadToDrive === true,
-      linkIndex: Array.isArray(tune.links) ? tune.links.length : 0,
+      linkIndex: 0,
     })
     const links = Array.isArray(tune.links) ? tune.links.slice() : []
     if (attached && attached.link) {

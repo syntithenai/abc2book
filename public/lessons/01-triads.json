@@ -1,0 +1,103 @@
+{
+  "id": "01-triads",
+  "title": "01 Triads",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "03-chords/01-triads.md",
+  "sections": [
+    {
+      "id": "triads-major-minor-diminished-and-augmented",
+      "title": "Triads: Major, Minor, Diminished, and Augmented",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** chords | **Difficulty:** 2/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A triad stacks two thirds above a root, forming the basic harmonic unit of Western music. Most folk accompaniment uses major and minor triads exclusively."
+        }
+      ]
+    },
+    {
+      "id": "building-triads",
+      "title": "Building triads",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Major**: root + major 3rd + perfect 5th (C-E-G). **Minor**: root + minor 3rd + perfect 5th (A-C-E). **Diminished**: root + minor 3rd + diminished 5th (B-D-F) — tense, unstable. **Augmented**: root + major 3rd + augmented 5th (C-E-G♯) — rare, passing colour."
+        }
+      ]
+    },
+    {
+      "id": "roman-numerals",
+      "title": "Roman numerals",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "In major keys: I, ii, iii, IV, V, vi, vii°. Capital = major; lowercase = minor; ° = diminished. Matching a tune's key to its diatonic triads is the first step toward session backup."
+        }
+      ]
+    },
+    {
+      "id": "in-practice",
+      "title": "In practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "On guitar or piano, learn triad shapes in G, D, A, C, and Em. Three notes define the chord quality; doublings and voicing are flexible."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-c-major-triad-notes",
+      "title": "Q1. C major triad notes:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) C-E-G\n- B) C-E♭-G\n- C) C-F-A\n- D) C-D-G\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-minor-triad-differs-from-major-by-a-smaller-third-above-root",
+      "title": "Q2. Minor triad differs from major by a smaller third above root.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. C major triad notes:\n\n- A) C-E-G\n- B) C-E♭-G\n- C) C-F-A\n- D) C-D-G\n\n**Answer:** A\n\n### Q2. Minor triad differs from major by a smaller third above root.\n\n**Answer:** True"
+}

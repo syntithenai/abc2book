@@ -14,6 +14,8 @@ import {
   reassignSlurEndpoints,
   findSlurGroupForSelection,
   clearTupletModeAndSelection,
+  setFingerOnSelection,
+  fingeringLabelFromEvent,
 } from './notationMarks';
 import { insertPitchAtCaret, pitchFromLetter } from './notationActions';
 import { createInitialSession } from './notationSession';
@@ -284,5 +286,22 @@ describe('notationMarks', function() {
     const abc = serializeVoiceEvents(events, meta);
     expect(abc).toMatch(/!1!/);
     expect(abc).toMatch(/!3!/);
+  });
+
+  test('setFingerOnSelection stores arbitrary labels for overlay display', function() {
+    let session = createInitialSession(meta, 'c d |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      selection: { eventIds: [notes[0].id], toneIndex: null, anchorId: notes[0].id },
+    });
+    session = setFingerOnSelection(session, 'LH');
+    expect(fingeringLabelFromEvent(session.events[0])).toBe('LH');
+    expect(session.events[0].fingeringLabel).toBe('LH');
+    const abc = serializeVoiceEvents(session.events, meta);
+    expect(abc).toMatch(/!fgrLH!/);
+    const reparsed = parseVoiceEvents(abc, meta);
+    const note = reparsed.find(function(ev) { return ev.type === 'note'; });
+    expect(note && note.fingeringLabel).toBe('LH');
+    expect(fingeringLabelFromEvent(note)).toBe('LH');
   });
 });

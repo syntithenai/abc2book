@@ -2,6 +2,7 @@ import useAbcTools from './useAbcTools';
 import { checkTuneAbcStructure } from './tuneAbcStructureCheck';
 import {
   appendFinalBarlineInTune,
+  collapseEmptyRepeatBarsInTune,
   fixSessionLineBreaksInTune,
   fixStanzaDoubleBarlinesInTune,
   normalizeMelodyRepeatMarks,
@@ -104,6 +105,21 @@ describe('tuneAbcStructureFix', function() {
     expect(out[0]).toBe('|: C D E F :|');
   });
 
+  test('collapseEmptyRepeatBarsInTune merges empty bar between repeat marks', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Repeat Gap'), {
+      voices: { '1': { notes: ['A2 B2 c2 d2 | e2 f2 g2 a2 :| | |: b2 c\'2 d\'2 e\'2 |]'] } },
+    });
+    const before = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    expect(before.issues.some(function(i) { return i.code === 'empty_bar'; })).toBe(true);
+
+    const fixed = collapseEmptyRepeatBarsInTune(tune);
+    expect(fixed).not.toBeNull();
+    const after = checkTuneAbcStructure(fixed, { abcTools: abcTools });
+    const codes = after && after.issues ? after.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('empty_bar');
+    expect(codes).not.toContain('repeat_style_mixed');
+  });
+
   test('fixSessionLineBreaksInTune converts Session markers', function() {
     const body = '|:"Am"E2A2 ABcd|e2d2 c2A2|! "Am"E2A2|';
     const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Session') + body, { key: 'Am', meter: '4/4' });
@@ -111,6 +127,9 @@ describe('tuneAbcStructureFix', function() {
     expect(fixed).not.toBeNull();
     const notes = fixed.voices[Object.keys(fixed.voices)[0]].notes.join('\n');
     expect(notes).toContain('|\n');
+    const result = checkTuneAbcStructure(fixed, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('session_linebreak_markers');
   });
 
   test('fixStanzaDoubleBarlinesInTune inserts || between equal stanzas', function() {

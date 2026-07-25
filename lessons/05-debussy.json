@@ -1,0 +1,103 @@
+{
+  "id": "05-debussy",
+  "title": "05 Debussy",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "06-history/05-debussy.md",
+  "sections": [
+    {
+      "id": "debussy-colour-modes-and-new-sonorities",
+      "title": "Debussy: Colour, Modes, and New Sonorities",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Claude Debussy (1862–1918) broke from Germanic functional harmony toward colour, parallel motion, and modal scales — founder of musical Impressionism."
+        }
+      ]
+    },
+    {
+      "id": "key-works",
+      "title": "Key works",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "*Prélude à l'après-midi d'un faune* (1894) treats chords as sonorities. *Clair de lune*, *La mer*, *Children's Corner*. Influenced film music and contemporary folk arranging."
+        }
+      ]
+    },
+    {
+      "id": "scales",
+      "title": "Scales",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Whole-tone and pentatonic collections overlap with Celtic and Asian traditions. Avoids heavy V–I cadences — parallels modal Irish melody."
+        }
+      ]
+    },
+    {
+      "id": "voicing",
+      "title": "Voicing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Wide spacing, soft doublings, planing parallel triads. Colour when tunes 'float' without demanding classical cadences."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-debussys-harmony-favours",
+      "title": "Q1. Debussy's harmony favours:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Colour over strict functional progression\n- B) Bach fugues exclusively\n- C) Twelve-tone rows only\n- D) Brass band unison\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-whole-tone-and-pentatonic-scales-appear-in-debussy-and-folk-traditions",
+      "title": "Q2. Whole-tone and pentatonic scales appear in Debussy and folk traditions.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Debussy's harmony favours:\n\n- A) Colour over strict functional progression\n- B) Bach fugues exclusively\n- C) Twelve-tone rows only\n- D) Brass band unison\n\n**Answer:** A\n\n### Q2. Whole-tone and pentatonic scales appear in Debussy and folk traditions.\n\n**Answer:** True"
+}

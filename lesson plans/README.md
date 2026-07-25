@@ -147,6 +147,36 @@ Work through tracks in order within each section. Prerequisites are listed at th
 | 83 | Expression and Storytelling | [08-singing/06-expression.md](08-singing/06-expression.md) |
 | 84 | Vocal Health | [08-singing/07-vocal-health.md](08-singing/07-vocal-health.md) |
 
+## Corpus progress
+
+Lesson corpus progress is measured by **indexed pedagogical chunks** and **manifest-mapped lessons**, not raw Wikipedia download count.
+
+```bash
+# Build / refresh wiki index from ~/Downloads/wikimusic
+python3 scripts/lesson_plans/wiki_index/build_index.py
+
+# Corpus cluster report (regions, Track B candidates)
+python3 scripts/lesson_plans/corpus_report.py
+
+# Generate regional pilot lessons from curriculum.json (extractive draft — prefer manual/hybrid for quality)
+python3 scripts/lesson_plans/generate_lesson.py --unit celtic-ireland
+
+# Ireland unit (8 lessons) is manually authored under 10-regions/celtic/ireland/
+python3 scripts/lesson_plans/verify_lesson.py --unit celtic-ireland
+
+# Export app-ready JSON for the in-app Lessons view
+python3 scripts/lesson_plans/export_lessons.py
+
+# Build static HTML index + lesson previews
+python3 scripts/lesson_plans/build_site.py
+
+# Open the site (from repo root)
+python3 -m http.server 8765 --directory "lesson plans/site"
+# then visit http://localhost:8765
+```
+
+Status file: `index_status.json` | Manifest: `curriculum.json` | Theory tiers: `00-theory/` | Static site: `site/`
+
 ## Source material
 
 Lessons draw on standard music theory pedagogy, the app's existing Knowledge Feed curriculum, and reference material including Wikipedia articles on instruments, composers, and music history. Facts are condensed for teaching; verify performance-practice details against specialist sources when preparing advanced coursework.

@@ -1,15 +1,35 @@
 import { fetchViaMediaProxy } from './mediaProxyClient';
-import { musicXmlToAbc, MIDI_XML2ABC_OPTIONS } from './musicXmlToAbc';
+import { resolveImportAbcFromResponse } from './midiImportAbcResolve';
 import { normalizeMidiBytes } from './scoreImportClient';
 
 export const MAX_MIDI_IMPORT_BYTES = 4 * 1024 * 1024;
 
+function appendListParam(params, key, values) {
+  if (!values || !values.length) return;
+  params.set(key, values.map(function(v) { return String(v); }).join(','));
+}
+
 function buildMidiImportUrl(options) {
   const params = new URLSearchParams();
-  if (options && options.mode) params.set('mode', options.mode);
-  if (options && options.strategy) params.set('strategy', options.strategy);
-  if (options && options.includeChords === true) params.set('include_chords', '1');
-  if (options && options.includeChords === false) params.set('include_chords', '0');
+  const opts = options || {};
+  if (opts.mode) params.set('mode', opts.mode);
+  if (opts.strategy) params.set('strategy', opts.strategy);
+  if (opts.includeChords === true) params.set('include_chords', '1');
+  if (opts.includeChords === false) params.set('include_chords', '0');
+  if (opts.includeDrums === true) params.set('include_drums', '1');
+  appendListParam(params, 'track_ids', opts.trackIds);
+  appendListParam(params, 'drum_track_ids', opts.drumTrackIds);
+  if (opts.quantSlotsPerBeat != null) params.set('quant_slots_per_beat', String(opts.quantSlotsPerBeat));
+  if (opts.noteLength) params.set('note_length', opts.noteLength);
+  if (opts.tempoBpm != null) params.set('tempo_bpm', String(opts.tempoBpm));
+  if (opts.timeSignature) params.set('time_signature', opts.timeSignature);
+  if (opts.estimatedKey) params.set('estimated_key', opts.estimatedKey);
+  if (opts.maxVoices != null) params.set('max_voices', String(opts.maxVoices));
+  if (opts.quantStrength != null) params.set('quant_strength', String(opts.quantStrength));
+  if (opts.rhythmDetail) params.set('rhythm_detail', opts.rhythmDetail);
+  if (opts.cleanupOptions && typeof opts.cleanupOptions === 'object') {
+    params.set('cleanup_options', JSON.stringify(opts.cleanupOptions));
+  }
   const query = params.toString();
   return query ? '/midi2abc?' + query : '/midi2abc';
 }
@@ -60,32 +80,8 @@ export async function importMidiToAbc(midiBytes, fileName, accessToken, options)
     throw new Error(body.error);
   }
 
-  let abc = body.abc ? String(body.abc).trim() : '';
+  const abc = resolveImportAbcFromResponse(body, fileName, opts);
   const mode = body.mode || 'melody';
-  const xml2abcOptions = Object.assign(
-    {},
-    MIDI_XML2ABC_OPTIONS,
-    {
-      fileName: fileName || 'import.mid',
-      v: mode === 'multi_voice' ? 1 : 0,
-      addq: body.profile && body.profile.tempo_bpm ? 1 : 0,
-      q: body.profile && body.profile.tempo_bpm ? Math.round(body.profile.tempo_bpm) : 100,
-    },
-    opts.xml2abcOptions || {}
-  );
-
-  if (!abc && body.musicXml) {
-    abc = musicXmlToAbc(body.musicXml, xml2abcOptions);
-  } else if (abc && body.musicXml && body.strategy === 'musicxml') {
-    try {
-      const refined = musicXmlToAbc(body.musicXml, xml2abcOptions);
-      if (refined && refined.trim()) {
-        abc = refined;
-      }
-    } catch (e) {
-      // Keep server-generated ABC fallback.
-    }
-  }
 
   return {
     abc: abc,

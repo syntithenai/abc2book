@@ -1,0 +1,213 @@
+{
+  "generated_at": "2026-07-24T08:01:02.399204+00:00",
+  "db_path": "/home/stever/projects/abc2book/lesson plans/wiki_index/wiki.db",
+  "indexed_articles": 35842,
+  "high_value_articles": 9378,
+  "by_topic": {
+    "theory": 11159,
+    "instruments": 6195,
+    "history": 18333,
+    "dance": 155
+  },
+  "by_region": {
+    "global": 27151,
+    "celtic": 3127,
+    "ireland": 1862,
+    "england": 1860,
+    "usa": 1461,
+    "east_asia": 1205,
+    "scotland": 986,
+    "middle_east": 580,
+    "latin_america": 534,
+    "wales": 459,
+    "india": 391,
+    "africa": 259,
+    "europe_classical": 163,
+    "brittany": 109
+  },
+  "track_b_candidates": [
+    {
+      "region": "celtic",
+      "articles": 3127,
+      "chunks": 3222,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of Australia",
+        "Music of Corsica",
+        "Music of Ireland",
+        "Music of New York City",
+        "Music of Newport"
+      ]
+    },
+    {
+      "region": "ireland",
+      "articles": 1862,
+      "chunks": 1920,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of Ireland",
+        "Music of New York City",
+        "Music of Northumbria",
+        "Music of the United Kingdom (2000s and 2010s)",
+        "Music of the United Kingdom"
+      ]
+    },
+    {
+      "region": "england",
+      "articles": 1860,
+      "chunks": 1899,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of Northumbria",
+        "Music of the United Kingdom (2000s and 2010s)",
+        "Music of the United Kingdom",
+        "Accordion concerto",
+        "Fantasy-Sonata (John Ireland)"
+      ]
+    },
+    {
+      "region": "usa",
+      "articles": 1461,
+      "chunks": 1505,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of New York City",
+        "Music of Omaha",
+        "Music of the African diaspora",
+        "Music of the United Kingdom (1960s)",
+        "Society for Music Theory"
+      ]
+    },
+    {
+      "region": "east_asia",
+      "articles": 1205,
+      "chunks": 1304,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Dance of the Yi People",
+        "Traditional music of Korea",
+        "Akebono scale",
+        "Anhemitonic scale",
+        "In scale"
+      ]
+    },
+    {
+      "region": "scotland",
+      "articles": 986,
+      "chunks": 1013,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of Northumbria",
+        "Music of Scotland in the eighteenth century",
+        "Music of Scotland in the nineteenth century",
+        "Music of the United Kingdom",
+        "Scottish folk music"
+      ]
+    },
+    {
+      "region": "middle_east",
+      "articles": 580,
+      "chunks": 588,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of Morocco",
+        "Music of Palestine",
+        "Music of Syria",
+        "Music of Tunisia",
+        "Ajam (maqam)"
+      ]
+    },
+    {
+      "region": "latin_america",
+      "articles": 534,
+      "chunks": 548,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of New York City",
+        "Canter rhythm",
+        "Clave (rhythm)",
+        "Interval recognition",
+        "Quintuple meter"
+      ]
+    },
+    {
+      "region": "wales",
+      "articles": 459,
+      "chunks": 469,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of Newport",
+        "Music of the United Kingdom",
+        "Celtic music",
+        "Big Golden Guitar",
+        "Celtic harp"
+      ]
+    },
+    {
+      "region": "india",
+      "articles": 391,
+      "chunks": 397,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of the United Kingdom (1970s)",
+        "Music of the United Kingdom (1980s)",
+        "Music of the World",
+        "Aeolian dominant scale",
+        "Algerian scale"
+      ]
+    },
+    {
+      "region": "africa",
+      "articles": 259,
+      "chunks": 266,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of Mauritania",
+        "Music of New Orleans",
+        "Music of the African diaspora",
+        "Additive rhythm and divisive rhythm",
+        "Clave (rhythm)"
+      ]
+    },
+    {
+      "region": "europe_classical",
+      "articles": 163,
+      "chunks": 169,
+      "estimated_tiers": 6,
+      "recommended": true,
+      "sample_articles": [
+        "Music of Scotland in the eighteenth century",
+        "Chord progression",
+        "Chord substitution",
+        "Counterpoint",
+        "Diminished triad"
+      ]
+    },
+    {
+      "region": "brittany",
+      "articles": 109,
+      "chunks": 110,
+      "estimated_tiers": 5,
+      "recommended": true,
+      "sample_articles": [
+        "Music of Corsica",
+        "Lai (poetic form)",
+        "Accordion in music",
+        "American fiddle",
+        "Bombard (musical instrument)"
+      ]
+    }
+  ],
+  "noise_note": "26464 articles indexed below importance 0.5 are retained for reference but excluded from default lesson retrieval."
+}

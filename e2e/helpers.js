@@ -428,7 +428,8 @@ async function staffNoteOnSystemLine(page, lineIndex) {
 
 async function clickStaffForNoteInput(page, options) {
   const opts = options || {}
-  const centers = await staffNoteCenters(page, 0)
+  const voiceClass = opts.voiceClass != null ? opts.voiceClass : 0
+  const centers = await staffNoteCenters(page, voiceClass)
   let x
   let y
   if (opts.atStart && centers.length) {
@@ -541,6 +542,17 @@ async function runScenario(results, name, fn) {
   }
 }
 
+async function clickStaffVoiceNote(page, voiceClass, noteIndex) {
+  const centers = await staffNoteCenters(page, voiceClass)
+  const idx = typeof noteIndex === 'number' ? noteIndex : 0
+  if (!centers.length || idx >= centers.length) {
+    throw new Error('no staff notes for voice ' + voiceClass + ' at index ' + idx)
+  }
+  const pt = centers[idx]
+  await page.mouse.click(pt.x, pt.y)
+  await sleep(300)
+}
+
 module.exports = {
   patchPageCompat,
   sleep,
@@ -577,6 +589,7 @@ module.exports = {
   dragStaffNoteFarOffGlyph,
   clickStaffGap,
   clickStaffForNoteInput,
+  clickStaffVoiceNote,
   clickAfterLastNoteHuman,
   setNotationFlag,
 }

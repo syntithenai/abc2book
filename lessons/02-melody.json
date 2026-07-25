@@ -1,0 +1,92 @@
+{
+  "id": "02-melody",
+  "title": "02 Melody",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "04-transposition/02-melody.md",
+  "sections": [
+    {
+      "id": "transposing-melodies-by-interval",
+      "title": "Transposing Melodies by Interval",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** transposition | **Difficulty:** 3/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Move every note by the same interval — up a tone from D to E major, down a fourth from G to D."
+        }
+      ]
+    },
+    {
+      "id": "scale-degree-method",
+      "title": "Scale-degree method",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "If a phrase starts on the 5th of G (D), the same phrase in D major starts on A (5th of D). Faster than note-by-note for experienced players."
+        }
+      ]
+    },
+    {
+      "id": "accidentals",
+      "title": "Accidentals",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Move accidentals with their notes. C♮ in F major becomes D♮ when transposing up a whole step to G — not C♯ unless harmony demands it."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-g-major-up-a-major-second",
+      "title": "Q1. G major up a major second:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) A major\n- B) D major\n- C) F major\n- D) E minor only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-move-every-note-including-accidentals-by-the-same-interval",
+      "title": "Q2. Move every note including accidentals by the same interval.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. G major up a major second:\n\n- A) A major\n- B) D major\n- C) F major\n- D) E minor only\n\n**Answer:** A\n\n### Q2. Move every note including accidentals by the same interval.\n\n**Answer:** True"
+}

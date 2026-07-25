@@ -13,8 +13,8 @@ export default function ScratchpadItemToolbar(props) {
   const historyState = editHistory ? editHistory.historyState : null
   const tuneId = item && item.id
 
-  const canUndo = tuneId && historyState ? canUndoTuneEdit(historyState, tuneId) : false
-  const canRedo = tuneId && historyState ? canRedoTuneEdit(historyState, tuneId) : false
+  const canUndo = tuneId && editHistory ? editHistory.canUndo(tuneId) : false
+  const canRedo = tuneId && editHistory ? editHistory.canRedo(tuneId) : false
   const undoTitle = tuneId && historyState ? getUndoTuneEditLabel(historyState, tuneId) : 'Undo'
   const redoTitle = tuneId && historyState ? getRedoTuneEditLabel(historyState, tuneId) : 'Redo'
 

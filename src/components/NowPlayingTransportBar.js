@@ -1,12 +1,16 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { Button } from 'react-bootstrap'
 import {
   isQueueActive,
   getCurrentTuneId,
   getQueuePositionLabel,
+  getQueueItemLabel,
+  isExternalQueueItem,
+  isLessonQueue,
 } from '../nowPlayingQueue'
 import { resumePlaylistPlayback } from '../tunePlaybackActions'
+import { playLessonYoutube, pauseLessonYoutube, isLessonYoutubePlaying, subscribeLessonYoutube } from '../lessonYoutubePlayer'
 import { isPlaybackInterruptPath } from '../toolPlaybackInterrupt'
 import { isQueuePlaybackEngaged } from '../playbackNavigationUtils'
 import PlaylistModal from './PlaylistModal'
@@ -23,6 +27,19 @@ export default function NowPlayingTransportBar({
   const location = useLocation()
   const navigate = useNavigate()
   const [showPlaylist, setShowPlaylist] = useState(false)
+  const isLessonExternal = isLessonQueue(nowPlayingQueue) && isExternalQueueItem(
+    nowPlayingQueue && nowPlayingQueue.items
+      ? nowPlayingQueue.items[nowPlayingQueue.currentIndex || 0]
+      : null
+  )
+  const [lessonYoutubePlaying, setLessonYoutubePlaying] = useState(isLessonYoutubePlaying)
+
+  useEffect(function() {
+    if (!isLessonExternal) return undefined
+    return subscribeLessonYoutube(function(state) {
+      setLessonYoutubePlaying(!!(state && state.isPlaying))
+    })
+  }, [isLessonExternal, nowPlayingQueue && nowPlayingQueue.currentIndex])
 
   if (gigModeActive || isPlaybackInterruptPath(location.pathname)) {
     return null
@@ -32,12 +49,17 @@ export default function NowPlayingTransportBar({
   }
 
   const queueTuneId = getCurrentTuneId(nowPlayingQueue)
-  if (!queueTuneId) return null
+  const currentItem = nowPlayingQueue.items[nowPlayingQueue.currentIndex || 0]
+  const isExternal = isExternalQueueItem(currentItem)
+  if (!queueTuneId && !isExternal) return null
 
-  const playingTune = tunes && tunes[queueTuneId] ? tunes[queueTuneId] : null
-  const tuneName = playingTune && playingTune.name ? playingTune.name : 'Playlist'
+  const playingTune = tunes && queueTuneId ? tunes[queueTuneId] : null
+  const tuneName = isExternal
+    ? getQueueItemLabel(currentItem, tunes)
+    : (playingTune && playingTune.name ? playingTune.name : 'Playlist')
   const positionLabel = getQueuePositionLabel(nowPlayingQueue)
-  const isPlaying = !!(mediaController && mediaController.isPlaying)
+  const mediaIsPlaying = !!(mediaController && mediaController.isPlaying)
+  const transportIsPlaying = isLessonExternal ? lessonYoutubePlaying : mediaIsPlaying
   const isLoading = !!(mediaController && mediaController.isLoading)
   const isEngaged = isQueuePlaybackEngaged(mediaController)
   const showLoading = isLoading && isEngaged
@@ -50,16 +72,24 @@ export default function NowPlayingTransportBar({
       tunebook.navigateToNextSong(queueTuneId, null, navigate, location.pathname, {
         mediaController: mediaController,
         useQueueNavigation: true,
+        startPlayback: true,
       })
     } else {
       tunebook.navigateToPreviousSong(queueTuneId, navigate, location.pathname, {
         mediaController: mediaController,
         useQueueNavigation: true,
+        startPlayback: true,
       })
     }
   }
 
   function handlePlaylistPlayPause() {
+    if (!mediaController && !isLessonQueue(nowPlayingQueue)) return
+    if (isLessonQueue(nowPlayingQueue) && isExternal) {
+      if (transportIsPlaying) pauseLessonYoutube()
+      else playLessonYoutube({ fromUserGesture: true })
+      return
+    }
     if (!mediaController) return
     if (showLoading) {
       mediaController.pause()
@@ -67,7 +97,7 @@ export default function NowPlayingTransportBar({
       mediaController.setIsReady(false)
       return
     }
-    if (isPlaying) {
+    if (mediaIsPlaying) {
       mediaController.pause()
       return
     }
@@ -101,7 +131,7 @@ export default function NowPlayingTransportBar({
               >
                 {tunebook.icons.waiting}
               </Button>
-            ) : isPlaying ? (
+            ) : transportIsPlaying ? (
               <Button
                 variant="warning"
                 className="now-playing-transport-play-btn"
@@ -146,7 +176,10 @@ export default function NowPlayingTransportBar({
                 <span className="now-playing-transport-position">({positionLabel})</span>
               </Link>
             ) : (
-              <span className="now-playing-transport-tune-name">{nowPlayingQueue.name || 'Playlist'}</span>
+              <span className="now-playing-transport-tune-link">
+                <span className="now-playing-transport-tune-name">{tuneName}</span>
+                <span className="now-playing-transport-position">({positionLabel})</span>
+              </span>
             )}
           </div>
         </div>
@@ -169,7 +202,7 @@ export default function NowPlayingTransportBar({
         nowPlayingQueue={nowPlayingQueue}
         setNowPlayingQueue={setNowPlayingQueue}
         tunes={tunes}
-        isPlaying={isPlaying}
+        isPlaying={transportIsPlaying}
         hideTrigger={true}
         show={showPlaylist}
         onShowChange={setShowPlaylist}

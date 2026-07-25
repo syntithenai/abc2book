@@ -1,0 +1,103 @@
+{
+  "id": "01-baroque-style",
+  "title": "01 Baroque Style",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "07-styles/01-baroque-style.md",
+  "sections": [
+    {
+      "id": "baroque-style-ornament-continuo-and-dance",
+      "title": "Baroque Style: Ornament, Continuo, and Dance",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Baroque music (c. 1600–1750) features continuous motion, basso continuo, expected ornamentation, and dance-suite organisation."
+        }
+      ]
+    },
+    {
+      "id": "continuo",
+      "title": "Continuo",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Keyboard and lute realise harmonies from a bass line with figured-bass numbers. Melody instruments play above this foundation."
+        }
+      ]
+    },
+    {
+      "id": "ornamentation",
+      "title": "Ornamentation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Trills, mordents, appoggiaturas expected — especially on cadences and repeats. Baroque treatises (Quantz, C.P.E. Bach) document practice."
+        }
+      ]
+    },
+    {
+      "id": "dance-suites",
+      "title": "Dance suites",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Allemande, courante, sarabande, gigue — court dances structuring instrumental music. O'Carolan and baroque flute arrangements inhabit this world."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-basso-continuo",
+      "title": "Q1. Basso continuo:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Bass line with harmonic figures realised by keyboard\n- B) Capo on fret 2\n- C) Solo whistle\n- D) Percussion only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-ornamentation-was-expected-in-baroque-performance",
+      "title": "Q2. Ornamentation was expected in baroque performance.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Basso continuo:\n\n- A) Bass line with harmonic figures realised by keyboard\n- B) Capo on fret 2\n- C) Solo whistle\n- D) Percussion only\n\n**Answer:** A\n\n### Q2. Ornamentation was expected in baroque performance.\n\n**Answer:** True"
+}

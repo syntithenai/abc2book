@@ -9,6 +9,54 @@ export function createQueueId() {
   return 'queue-' + Date.now() + '-' + Math.random().toString(36).slice(2, 9)
 }
 
+export function isExternalQueueItem(item) {
+  return !!(item && item.externalMedia && item.externalMedia.youtubeId)
+}
+
+export function isLessonQueue(queue) {
+  return !!(queue && queue.source === 'lesson')
+}
+
+export function getQueueItemLabel(item, tunesMap) {
+  if (!item) return 'Missing item'
+  if (isExternalQueueItem(item)) {
+    const em = item.externalMedia
+    if (em.subtitle) return em.subtitle + ' — ' + em.title
+    return em.title || 'Lesson track'
+  }
+  const tune = item.tuneId && tunesMap ? tunesMap[item.tuneId] : null
+  if (tune && tune.name) return tune.name
+  return item.tuneId ? 'Missing tune (' + item.tuneId + ')' : 'Missing tune'
+}
+
+export function createLessonQueueFromItems(options) {
+  const opts = options || {}
+  const rawItems = Array.isArray(opts.items) ? opts.items : []
+  const items = rawItems.map(function(item) {
+    if (!item || !item.externalMedia || !item.externalMedia.youtubeId) return null
+    return {
+      tuneId: null,
+      prefer: 'external',
+      externalMedia: Object.assign({}, item.externalMedia),
+    }
+  }).filter(Boolean)
+  return {
+    id: opts.id || createQueueId(),
+    name: opts.name || 'Lesson playlist',
+    source: 'lesson',
+    lessonId: opts.lessonId || null,
+    items: items,
+    currentIndex: typeof opts.currentIndex === 'number' ? opts.currentIndex : 0,
+    followTune: false,
+    autoAdvance: opts.autoAdvance !== false,
+    loop: !!opts.loop,
+    shuffle: false,
+    shuffleOrder: null,
+    suspendSnapshot: null,
+    previewOnce: null,
+  }
+}
+
 export function createQueue(options) {
   const opts = options || {}
   const tuneIds = Array.isArray(opts.tuneIds) ? opts.tuneIds.filter(Boolean) : []
@@ -125,7 +173,13 @@ export function getCurrentItem(queue) {
 
 export function getCurrentTuneId(queue) {
   const item = getCurrentItem(queue)
-  return item && item.tuneId ? item.tuneId : null
+  if (item && item.tuneId) return item.tuneId
+  return null
+}
+
+export function getCurrentExternalMedia(queue) {
+  const item = getCurrentItem(queue)
+  return item && item.externalMedia ? item.externalMedia : null
 }
 
 export function findQueueIndexForTuneId(queue, tuneId) {
@@ -302,7 +356,11 @@ export function isPreviewingTune(queue, tuneId) {
 }
 
 export function resolvePlaybackForItem(tune, item, tunebook) {
-  if (!tune || !item || !tunebook) return null
+  if (!item) return null
+  if (isExternalQueueItem(item)) {
+    return { type: 'external', youtubeId: item.externalMedia.youtubeId }
+  }
+  if (!tune || !tunebook) return null
   const prefer = item.prefer || 'auto'
   const hasMusic = tunebook.hasNotesOrChords(tune)
   const hasLinks = tunebook.hasLinks(tune)
@@ -331,8 +389,10 @@ export function shouldSuppressFollowNavigate(context) {
     return true
   }
   if (pathname.indexOf('/editor/') !== -1) return true
+  if (pathname.indexOf('/scratchpad') !== -1) return true
   if (pathname.indexOf('/print') !== -1) return true
   if (pathname.indexOf('/gig/') !== -1) return true
+  if (pathname.indexOf('/lessons') !== -1) return true
   return false
 }
 

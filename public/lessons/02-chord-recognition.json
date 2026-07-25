@@ -1,0 +1,125 @@
+{
+  "id": "02-chord-recognition",
+  "title": "02 Chord Recognition",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "12-ear-training/02-chord-recognition.md",
+  "sections": [
+    {
+      "id": "chord-quality-by-ear",
+      "title": "Chord Quality by Ear",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** ear-training | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Identifying major, minor, diminished, and seventh chords by ear accelerates session backup and transcription."
+        }
+      ]
+    },
+    {
+      "id": "triad-quality",
+      "title": "Triad quality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Major: bright, stable. Minor: darker, melancholic. Diminished: tense, unstable. Augmented: dreamy, unresolved."
+        }
+      ]
+    },
+    {
+      "id": "seventh-chords",
+      "title": "Seventh chords",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dominant 7th: bluesy tension, wants to resolve. Major 7th: jazzy, sophisticated. Minor 7th: mellow, modal."
+        }
+      ]
+    },
+    {
+      "id": "bass-note",
+      "title": "Bass note",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Same chord quality sounds different with different bass — train ear to hear root vs inversion."
+        }
+      ]
+    },
+    {
+      "id": "progressions",
+      "title": "Progressions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "I–IV–V–I loop — recognise by bass movement and overall colour shift. ii–V–I in jazz."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-minor-triad-sounds-compared-to-major",
+      "title": "Q1. Minor triad sounds compared to major:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Darker/more melancholic\n- B) Identical\n- C) Always dissonant\n- D) Only percussion\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-dominant-7th-chord-creates-tension-wanting-resolution",
+      "title": "Q2. Dominant 7th chord creates tension wanting resolution.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-chord-inversions-share-quality-but-differ-in-bass-note",
+      "title": "Q3. Chord inversions share quality but differ in bass note.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Minor triad sounds compared to major:\n\n- A) Darker/more melancholic\n- B) Identical\n- C) Always dissonant\n- D) Only percussion\n\n**Answer:** A\n\n### Q2. Dominant 7th chord creates tension wanting resolution.\n\n**Answer:** True\n\n### Q3. Chord inversions share quality but differ in bass note.\n\n**Answer:** True"
+}

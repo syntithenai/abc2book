@@ -1,0 +1,92 @@
+{
+  "id": "04-form-labels",
+  "title": "04 Form Labels",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "02-italian-terms/04-form-labels.md",
+  "sections": [
+    {
+      "id": "form-labels-dc-ds-coda-and-fine",
+      "title": "Form Labels: D.C., D.S., Coda, and Fine",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** italian-terms | **Difficulty:** 2/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Italian navigation signs tell performers how to traverse repeats and sectional jumps in longer pieces."
+        }
+      ]
+    },
+    {
+      "id": "key-terms",
+      "title": "Key terms",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Da capo (D.C.)** — from the head (beginning). **D.C. al fine** — return to start, play until *fine* (end). **Dal segno (D.S.)** — from the 𝄋 sign. **D.S. al coda** — play to 'To Coda', jump to coda section. **Coda** — concluding passage reached by jump. **Fine** — end point."
+        }
+      ]
+    },
+    {
+      "id": "practical-use",
+      "title": "Practical use",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Simple dance tunes use first/second endings (1. / 2.) instead. O'Carolan arrangements, classical transcriptions, and céilí set parts routinely use D.C. and D.S. Reading them keeps the ensemble aligned on repeats."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-dc-al-fine-means",
+      "title": "Q1. D.C. al fine means:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Return to beginning, play until fine\n- B) Skip to coda\n- C) Second ending only\n- D) Repeat last four bars\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-ds-resumes-from-the-segno-sign-not-the-beginning",
+      "title": "Q2. D.S. resumes from the segno sign, not the beginning.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. D.C. al fine means:\n\n- A) Return to beginning, play until fine\n- B) Skip to coda\n- C) Second ending only\n- D) Repeat last four bars\n\n**Answer:** A\n\n### Q2. D.S. resumes from the segno sign, not the beginning.\n\n**Answer:** True"
+}

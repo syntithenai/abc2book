@@ -411,11 +411,13 @@ function IndexLayout(props) {
         var rows = listRowsForTunes(items)
         var showRowExtras = (isDetailed || isPreview) && rows.length > 0 && rows.length < LIST_PROTECTION_LIMIT
         var showStarToggle = isDetailed
+        var showFilterChips = isDetailed || isPreview
         var rowProps = {
           isCompact: isCompact,
           isPreview: isPreview,
           showRowExtras: showRowExtras,
           showStarToggle: showStarToggle,
+          showFilterChips: showFilterChips,
           selected: selected,
           tuneStatus: tuneStatus,
           tunebook: props.tunebook,
@@ -453,6 +455,8 @@ function IndexLayout(props) {
             isCompact={isCompact}
             isPreview={false}
             showRowExtras={showRowExtras}
+            showStarToggle={showStarToggle}
+            showFilterChips={showFilterChips}
             selected={selected}
             tuneStatus={tuneStatus}
             tunebook={props.tunebook}
@@ -523,7 +527,7 @@ function IndexLayout(props) {
 			
 				{(showListSelectionControls && filtered && filtered.length > 0) &&<span  ><Button variant={freshSelectedCount > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
 				
-				{(showListSelectionControls && freshSelectedCount > 0) &&  <span style={{marginLeft:'0.35em'}}><SelectedItemsModal mediaController={props.mediaController} tunebook={props.tunebook} token={props.token} tunesHash={props.tunesHash} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} selectedCount={freshSelectedCount} setSelectedCount={setSelectedCount} /></span>}
+				{(showListSelectionControls && freshSelectedCount > 0) &&  <span style={{marginLeft:'0.35em'}}><SelectedItemsModal mediaController={props.mediaController} tunebook={props.tunebook} token={props.token} login={props.login} tunesHash={props.tunesHash} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} selectedCount={freshSelectedCount} setSelectedCount={setSelectedCount} /></span>}
 				
 				{(showListSelectionControls && freshSelectedCount > 0 && filtered)  && <span style={{marginLeft:'0.5em'}} >{freshSelectedCount}/{filtered.length} tunes selected</span>}
 				{(freshSelectedCount === 0 && filtered) && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}

@@ -144,6 +144,36 @@
   margin-left: auto;
   align-self: flex-start;
 }
+.notation-playback-controls .btn svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+.notation-playback-controls .notation-playback-tempo {
+  width: 4.75rem;
+  flex: 0 0 auto;
+  align-self: stretch;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  text-align: center;
+}
+.notation-playback-engine-host {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
+.notation-staff-wrap .abcjs-cursor {
+  stroke: #dc3545;
+  stroke-width: 2px;
+  opacity: 1;
+  pointer-events: none;
+}
+.notation-staff-wrap .color {
+  stroke: #dc3545;
+  fill: #dc3545;
+}
 .notation-marks-star {
   line-height: 1;
   text-decoration: none !important;
@@ -190,6 +220,23 @@
   min-width: 2.5rem;
   font-family: monospace;
   font-weight: 600;
+}
+.notation-accidental-buttons .btn svg,
+.notation-clear-icon-btn svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+}
+.notation-clear-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.75rem;
+  padding-left: 0.55rem;
+  padding-right: 0.55rem;
+}
+.notation-chord-symbol-toolbar .btn {
+  min-width: 2.75rem;
 }
 .notation-duration-dropdown .btn,
 .notation-accidental-dropdown .btn,
@@ -239,6 +286,13 @@
   position: relative;
   /* Keep staff drags (marquee / pitch) from scrolling the page on touch. */
   touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.notation-staff-wrap svg,
+.notation-staff-wrap .abcjs-container {
+  user-select: none;
+  -webkit-user-select: none;
 }
 .notation-staff-wrap--note-input {
   outline: 2px solid rgba(13, 110, 253, 0.55);
@@ -289,21 +343,15 @@
 .notation-staff-wrap--note-input .notation-staff-caret {
   border-left-width: 3px;
 }
+.notation-staff-caret--insert {
+  border-left-color: #198754;
+  border-left-width: 2px;
+}
 .notation-staff-selection-layer {
   position: absolute;
   inset: 0;
   pointer-events: none;
   z-index: 2;
-}
-.notation-staff-selection-box {
-  position: absolute;
-  border: none;
-  border-radius: 3px;
-  background: rgba(13, 110, 253, 0.35);
-  box-sizing: border-box;
-}
-.notation-staff-selection-box--origin-muted {
-  background: rgba(13, 110, 253, 0.18);
 }
 .notation-staff-pitch-target {
   position: absolute;
@@ -348,12 +396,24 @@
   box-sizing: border-box;
   pointer-events: none;
 }
-/* Overlay is the sole selection highlight — suppress abcjs native fill. */
-.notation-staff-wrap .abcjs-note_selected,
-.notation-staff-wrap .abcjs-note_selected path {
-  fill: inherit !important;
-  fill-opacity: inherit !important;
-  stroke: inherit !important;
+/* Selected notes: blue fill (abcjs-style), not overlay blocks. */
+.notation-staff-wrap .abcjs-note.abcjs-note_selected path,
+.notation-staff-wrap .abcjs-note.abcjs-note_selected ellipse {
+  fill: #0d6efd !important;
+  fill-opacity: 1 !important;
+}
+.notation-staff-wrap .abcjs-note.abcjs-note_selected path[class*="stem"],
+.notation-staff-wrap .abcjs-note.abcjs-note_selected .abcjs-stem {
+  fill: #0d6efd !important;
+  stroke: #0d6efd !important;
+}
+.notation-staff-wrap .abcjs-rest.notation-rest-selected path {
+  fill: #0d6efd !important;
+  fill-opacity: 0.85 !important;
+}
+.notation-staff-wrap .notation-barline-selected {
+  outline: 2px solid rgba(13, 110, 253, 0.75);
+  outline-offset: 1px;
 }
 .notation-voice-selector {
   display: flex;
@@ -484,11 +544,12 @@
   flex: 1 1 auto;
   min-height: 0;
   height: calc(100vh - 9.5rem);
+  overflow-y: auto;
 }
 .notation-abc-textarea-wrap {
   display: flex;
   flex-direction: column;
-  flex: 1 1 0;
+  flex: 0 0 auto;
   min-height: 0;
 }
 .notation-abc-textarea-label {
@@ -600,16 +661,22 @@
   min-height: 0;
 }
 .notation-abc-textarea {
-  flex: 1 1 auto;
-  resize: none;
+  flex: 0 0 auto;
+  resize: vertical;
   font-size: 1em;
   line-height: 1.4;
   width: 100%;
-  min-height: 0;
-  height: 100%;
+  min-height: calc(1.4em * 5 + 0.75rem);
+  height: calc(1.4em * 5 + 0.75rem);
   font-family: monospace;
   background-color: #fff;
   box-sizing: border-box;
+  transition: min-height 0.15s ease, height 0.15s ease;
+}
+.notation-abc-textarea--focused {
+  flex: 1 1 auto;
+  min-height: calc(1.4em * 14 + 0.75rem);
+  height: calc(1.4em * 14 + 0.75rem);
 }
 .notation-abc-preview {
   width: 100%;
@@ -897,16 +964,37 @@
   }
 }
 
+.notation-fingering-labels-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 12;
+}
+.notation-fingering-label {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #1a3d6b;
+  text-shadow: 0 0 2px #fff, 0 0 4px #fff;
+  white-space: nowrap;
+}
+
 .notation-annot-overlay {
   position: absolute;
   z-index: 30;
   min-width: 4.5rem;
   pointer-events: auto;
 }
-.notation-annot-overlay .form-control {
+.notation-annot-overlay-input {
+  min-width: 4rem;
   font-weight: 600;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+.notation-annot-overlay-input[type="search"]::-webkit-search-cancel-button {
+  cursor: pointer;
 }
 .notation-clipboard-toolbar .btn {
   display: inline-flex;

@@ -5,12 +5,19 @@ import {
 } from './genreInference'
 import { offerSideFieldSuggestion } from './tuneFieldLookupQueue'
 
+function normalizeCurrentGenres(opts) {
+  if (Array.isArray(opts.currentGenres)) return opts.currentGenres
+  if (opts.currentGenre) return [opts.currentGenre]
+  return []
+}
+
 /**
  * Route inferred genre from another search into Suggestions (or auto-apply when empty).
  * Without a tune/candidate id, auto-applies only when the genre field is empty.
  */
 export function maybeOfferGenreFromSearchResult(options) {
   const opts = options || {}
+  const currentGenres = normalizeCurrentGenres(opts)
   const inferred = inferGenreFromSearchContext(buildGenreSearchContext(
     opts.result || {},
     Object.assign({
@@ -19,7 +26,7 @@ export function maybeOfferGenreFromSearchResult(options) {
       rhythm: opts.rhythm || '',
     }, opts.extras || {})
   ))
-  if (!inferred || !shouldOfferGenreSuggestion(inferred.genre, opts.currentGenre)) {
+  if (!inferred || !shouldOfferGenreSuggestion(inferred.genre, currentGenres)) {
     return null
   }
 
@@ -37,7 +44,7 @@ export function maybeOfferGenreFromSearchResult(options) {
   }
 
   if (!opts.tuneId && !opts.candidateId) {
-    if (!String(opts.currentGenre || '').trim()) applyToForm()
+    if (currentGenres.length === 0) applyToForm()
     return null
   }
 
@@ -46,7 +53,7 @@ export function maybeOfferGenreFromSearchResult(options) {
     candidateId: opts.candidateId || null,
     kind: 'genre',
     candidate: candidate,
-    currentValue: opts.currentGenre || '',
+    currentValue: currentGenres.join(', '),
     title: opts.title || '',
     artist: opts.artist || '',
     label: 'Genre suggestion',

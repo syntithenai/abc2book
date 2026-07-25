@@ -32,7 +32,7 @@ Staff click and caret behavior must satisfy these contracts (verified by unit te
 ### Known limitations
 
 - **Empty measure within a bar** — clicking a beat gap where no note/rest is rendered may snap to measure start or nearest note; use arrow keys to fine-tune caret.
-- **Background voice clicks** — clicking a note on a non-active voice switches voice first, then resolves on the active voice.
+- **Hidden voice** — cannot click a voice that is hidden from the score; use the Voices dialog Edit radio or ABC view textarea focus to switch.
 
 ### Feature flags (dev / E2E)
 

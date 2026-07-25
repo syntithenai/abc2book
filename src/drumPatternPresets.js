@@ -237,11 +237,135 @@ const DRUM_GROOVE_PRESETS = [
   drumPreset('minimal-tom', 'Tom pattern', PRESET_CATEGORY_MINIMAL, 4, SIXTEEN, {
     tom: [0, 4, 8, 12],
   }),
+
+  // Curated from assets/drum-template.mid (see scripts/extractDrumPresets.mjs)
+  drumPreset('tpl-4-4-backbeat', 'Template rock sparse', PRESET_CATEGORY_ROCK_POP, 4, SIXTEEN, {
+    kick: [8],
+    snare: [4, 12],
+    hat: [4, 8, 12],
+  }),
+  drumPreset('tpl-4-4-light', 'Template rock steady hats', PRESET_CATEGORY_ROCK_POP, 4, SIXTEEN, {
+    kick: [8, 14],
+    snare: [4, 12],
+    hat: [0, 4, 8, 12],
+  }),
+  drumPreset('tpl-4-4-syncopated', 'Template rock kick syncopation', PRESET_CATEGORY_ROCK_POP, 4, SIXTEEN, {
+    kick: [10],
+    snare: [4, 12],
+  }),
+  drumPreset('tpl-4-4-sparse', 'Template rock offbeat kick', PRESET_CATEGORY_ROCK_POP, 4, SIXTEEN, {
+    kick: [10, 13],
+    snare: [4, 12],
+  }),
+  drumPreset('tpl-4-4-driving', 'Template rock pickup kick', PRESET_CATEGORY_ROCK_POP, 4, SIXTEEN, {
+    kick: [0, 10],
+    snare: [4, 12],
+  }),
+  drumPreset('tpl-4-4-steady', 'Template rock push kick', PRESET_CATEGORY_ROCK_POP, 4, SIXTEEN, {
+    kick: [7, 10],
+    snare: [4, 12],
+  }),
+
+  drumPreset('tpl-6-8-backbeat', 'Template jig basic', PRESET_CATEGORY_FOLK, 2, SIX_EIGHT, {
+    kick: [3],
+    snare: [2],
+    hat: [1],
+  }),
+  drumPreset('tpl-6-8-light', 'Template jig lift', PRESET_CATEGORY_FOLK, 2, SIX_EIGHT, {
+    kick: [3],
+    snare: [5],
+    hat: [2],
+  }),
+  drumPreset('tpl-6-8-syncopated', 'Template jig syncopated', PRESET_CATEGORY_FOLK, 2, SIX_EIGHT, {
+    kick: [3, 4],
+    snare: [0, 2],
+    hat: [5],
+  }),
+
+  drumPreset('tpl-3-4-backbeat', 'Template waltz basic', PRESET_CATEGORY_FOLK, 3, WALTZ, {
+    kick: [0],
+    snare: [1],
+    hat: [1],
+  }),
+  drumPreset('tpl-3-4-light', 'Template waltz light', PRESET_CATEGORY_FOLK, 3, WALTZ, {
+    kick: [0],
+    snare: [1],
+    hat: [0, 1],
+  }),
+
+  drumPreset('tpl-2-4-backbeat', 'Template reel basic', PRESET_CATEGORY_FOLK, 2, TWO_FOUR, {
+    kick: [0],
+    snare: [2],
+    hat: [0],
+  }),
+  drumPreset('tpl-2-4-light', 'Template reel driving', PRESET_CATEGORY_FOLK, 2, TWO_FOUR, {
+    kick: [0, 2],
+    snare: [2],
+    hat: [0, 1],
+  }),
+
+  drumPreset('tpl-12-8-backbeat', 'Template shuffle basic', PRESET_CATEGORY_FOLK, 4, TWELVE, {
+    kick: [11],
+    snare: [0, 3, 7, 9],
+  }),
+  drumPreset('tpl-12-8-light', 'Template shuffle light', PRESET_CATEGORY_FOLK, 4, TWELVE, {
+    kick: [10],
+    snare: [0, 3, 7, 9],
+  }),
 ]
 
 const METRONOME_CLICK_PRESETS = METRONOME_RHYTHM_PRESETS.map(clickPresetFromMetronome)
 
 export const ALL_RHYTHM_PRESETS = METRONOME_CLICK_PRESETS.concat(DRUM_GROOVE_PRESETS)
+
+const DEFAULT_DRUM_PRESET_BY_SIGNATURE = {
+  '4:[4,4,4,4]': 'rock-basic',
+  '2:[3,3]': 'tpl-6-8-backbeat',
+  '3:[1,1,1]': 'tpl-3-4-light',
+  '2:[1,1]': 'folk-reel',
+  '2:[2,2]': 'tpl-2-4-light',
+  '4:[3,3,3,3]': 'tpl-12-8-backbeat',
+}
+
+const FALLBACK_DRUM_PRESET_BY_SIGNATURE = {
+  '2:[3,3]': 'folk-jig',
+  '3:[1,1,1]': 'folk-waltz',
+  '2:[2,2]': 'folk-reel',
+  '4:[3,3,3,3]': 'folk-hornpipe',
+}
+
+export function rhythmSignatureKey(rhythm) {
+  const beatsPerBar = rhythm && rhythm.beatsPerBar != null ? rhythm.beatsPerBar : 4
+  const pulses = rhythm && Array.isArray(rhythm.pulsesPerBeat) ? rhythm.pulsesPerBeat : [1]
+  return beatsPerBar + ':' + JSON.stringify(pulses)
+}
+
+export function presetMatchesRhythm(preset, rhythm) {
+  if (!preset || !rhythm) return false
+  return rhythmSignatureKey(preset) === rhythmSignatureKey(rhythm)
+}
+
+export function getDrumPresetsForRhythm(rhythm) {
+  return DRUM_GROOVE_PRESETS.filter(function(preset) {
+    return presetMatchesRhythm(preset, rhythm)
+  })
+}
+
+export function defaultDrumPresetIdForRhythm(rhythm) {
+  const key = rhythmSignatureKey(rhythm)
+  const preferred = DEFAULT_DRUM_PRESET_BY_SIGNATURE[key]
+  if (preferred && getRhythmPresetById(preferred)) {
+    return preferred
+  }
+  const fallback = FALLBACK_DRUM_PRESET_BY_SIGNATURE[key]
+  if (fallback && getRhythmPresetById(fallback)) {
+    return fallback
+  }
+  const match = DRUM_GROOVE_PRESETS.find(function(preset) {
+    return presetMatchesRhythm(preset, rhythm)
+  })
+  return match ? match.id : 'rock-basic'
+}
 
 export function getRhythmPresetById(presetId) {
   return ALL_RHYTHM_PRESETS.find(function(preset) { return preset.id === presetId }) || null

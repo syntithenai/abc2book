@@ -1,0 +1,114 @@
+{
+  "id": "04-pitch",
+  "title": "04 Pitch",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "08-singing/04-pitch.md",
+  "sections": [
+    {
+      "id": "pitch-and-intonation",
+      "title": "Pitch and Intonation",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** singing | **Difficulty:** 2/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Accurate pitch is non-negotiable in ensemble singing — listeners forgive tone colour before they forgive wrong notes."
+        }
+      ]
+    },
+    {
+      "id": "listening",
+      "title": "Listening",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hear the target pitch internally before singing. Reference instruments (fiddle, guitar) or other singers. Unaccompanied singing demands stronger internal pitch sense."
+        }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Intonation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Equal temperament vs just intonation — major thirds slightly wide in ET. Blend with ensemble by listening, not forcing."
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Drone practice (tanpura, sustained chord, tuning app). Record yourself. Slow practice on difficult intervals."
+        }
+      ]
+    },
+    {
+      "id": "trad-tunes",
+      "title": "Trad tunes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ornamentation must land on correct pitch — grace notes approach from below/above but resolve accurately."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-internal-audiation-means",
+      "title": "Q1. Internal audiation means:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Hearing the pitch before singing it\n- B) Ignoring other musicians\n- C) Singing random notes\n- D) Only reading lyrics\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-unaccompanied-singing-requires-strong-internal-pitch-reference",
+      "title": "Q2. Unaccompanied singing requires strong internal pitch reference.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Internal audiation means:\n\n- A) Hearing the pitch before singing it\n- B) Ignoring other musicians\n- C) Singing random notes\n- D) Only reading lyrics\n\n**Answer:** A\n\n### Q2. Unaccompanied singing requires strong internal pitch reference.\n\n**Answer:** True"
+}

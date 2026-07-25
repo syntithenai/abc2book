@@ -91,7 +91,8 @@ export default function VoicesManageModal(props) {
         </Modal.Header>
         <Modal.Body>
           <p className="text-muted small mb-3">
-            Visible voices appear in the score. The editing voice is where new notes are entered.
+            Visible voices appear in the score. Click a note on the staff to edit that voice.
+            Use Edit here when you need to switch without clicking the score.
             Name and clef write into ABC <code>V:</code>; instrument writes <code>%%MIDI program</code>.
           </p>
           <Table responsive size="sm" className="align-middle mb-0">

@@ -71,6 +71,15 @@ function collectFieldWarnings(tune) {
   return warnings
 }
 
+function collectLyricsWarnings(tune, completenessResult) {
+  if (!tune || tuneHasLyrics(tune)) return []
+  const completenessCodes = completenessResult && Array.isArray(completenessResult.issues)
+    ? completenessResult.issues.map(function(item) { return item.code })
+    : []
+  if (completenessCodes.indexOf('no_lyrics') >= 0) return []
+  return [issue('no_lyrics', 'No singable lyrics (W: or w: lines)', 'warning', 'lyrics')]
+}
+
 function collectOptionalGaps(tune) {
   const gaps = []
   if (!tune) return gaps
@@ -183,6 +192,7 @@ export function buildTuneCheckReport(tune, options) {
   issues.push.apply(issues, flattenAbcIssues(abcResult))
   issues.push.apply(issues, flattenStructureIssues(structureResult))
   issues.push.apply(issues, collectFieldWarnings(tune))
+  issues.push.apply(issues, collectLyricsWarnings(tune, completenessResult))
   issues.push.apply(issues, collectLinkIssues(tune, opts.linkContext))
 
   const optionalGaps = collectOptionalGaps(tune)

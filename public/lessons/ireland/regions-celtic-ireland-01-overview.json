@@ -1,0 +1,1149 @@
+{
+  "id": "regions-celtic-ireland-01-overview",
+  "title": "Irish Traditional Music — Overview",
+  "track": "regions",
+  "tier": 1,
+  "region": "ireland",
+  "difficulty": 3,
+  "prerequisites": [
+    "theory-scales-major-intro"
+  ],
+  "tags": [
+    "ireland",
+    "celtic",
+    "tradition",
+    "overview"
+  ],
+  "path": "10-regions/celtic/ireland/01-overview.md",
+  "sections": [
+    {
+      "id": "irish-traditional-music-overview",
+      "title": "Irish Traditional Music — Overview",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 1 | **Difficulty:** 3/10\n**Prerequisites:** theory-scales-major-intro\n**Tags:** ireland, celtic, tradition, session, overview, gaeltacht, fleadh"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Walk into a pub in Ennis on a Thursday night and you may hear three fiddles, a flute, a box accordion, and a bodhrán negotiating the turn from *The Silver Spear* into *The Musical Priest* without a word spoken. Walk into a hall in Mullingar in August and you may hear the same tune played by a fifteen-year-old who has practised it for months to meet adjudicators' standards. Both scenes are Irish traditional music. Both are \"trad.\" Neither is more authentic than the other — but they answer different social needs, and a musician who understands only one will miss half the picture.\n\nThis lesson is your map. Before you study instruments, tune forms, dance, or the long history of collectors and 78 rpm records, you need orientation: what people mean by *trad* versus *Celtic*, where the music lives, what the main tune types feel like, how songs sit alongside dance music, and which institutions keep the tradition moving. Think of it as arriving in a new city with a good guidebook rather than a single street address.\n\nIrish traditional music is a living oral tradition of dance tunes, songs, and instrumental style. Wikipedia's *Music of Ireland* article stresses that despite emigration and mass exposure to British and American pop, Ireland's indigenous music **remained vibrant through the 20th century and into the 21st** — and in turn influenced country and roots music in the United States, which later fed back into rock. Fusion is not a betrayal of tradition; it is part of the story you will trace through this unit."
+        }
+      ]
+    },
+    {
+      "id": "trad-versus-celtic-labels-that-help-and-mislead",
+      "title": "\"Trad\" versus \"Celtic\": labels that help and mislead",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Irish traditional music** (*ceol traidisiúnta na hÉireann*) usually means orally transmitted dance music and song in Irish or English, played on acoustic instruments associated with the island: fiddle, flute, whistle, uilleann pipes, harp, button accordion, concertina, bodhrán, and others. Players learn tunes by ear, share **sets** at gatherings, and ornament melodies with cuts, rolls, bowed triplets, and tongued articulation. Written scores, tune books, and databases exist — Francis O'Neill's *Music of Ireland*, Brendan Breathnach's *Ceol Rince na hÉireann*, websites like *The Session* — but they supplement listening and copying living players; they do not replace them.\n\n**Celtic music** is a broader umbrella. Wikipedia describes it as a grouping of folk genres that evolved from the traditions of Celtic peoples across Northwestern Europe — Ireland, Scotland, Wales, Brittany, Galicia, and related diasporas. It covers both orally transmitted music and recorded hybrids, from pure session repertoire to festival stages where Rapalje-style bands blend pipes with rock staging. Irish trad is one branch of that family, often the best known abroad, but it is not interchangeable with \"Celtic.\" A Breton *gavotte*, a Galician *muiñeira*, and a Sligo reel share historical cousins; they do not share identical rhythm, ornament, or social context.\n\nMarketing has blurred the line. Gift shops sell \"Celtic meditation\" albums that have little to do with a Clare session. Conversely, some purists reject anything labelled Celtic as tourist kitsch — which dismisses legitimate cross-regional collaboration. As a student, hold two ideas at once: **Irish trad** names a specific island tradition with its tune types and session culture; **Celtic** names a wider network of related styles. When you choose recordings, prefer specificity (\"East Galway fiddle,\" \"Donegal highlands\") over a generic shamrock template.\n\n![Celtic fusion band performing at a festival](https://en.wikipedia.org/wiki/Special:FilePath/Keltfest_2010_%284610513447%29.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "the-gaeltacht-and-the-oral-tradition",
+      "title": "The Gaeltacht and the oral tradition",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **Gaeltacht** (*Gaeltachtaí* in plural) denotes regions where Irish remains a community language — parts of Connemara, the Aran Islands, Donegal's west, Kerry's Dingle peninsula, and other pockets. Traditional music and Gaeltacht life overlap but are not the same thing. Plenty of world-class trad musicians grew up in English-speaking Dublin, Belfast, or Chicago; plenty of Gaeltacht communities face the same global pop pressures as anywhere else. Still, the Gaeltacht matters for **sean-nós song** (*amhránaíocht ar an sean-nós* — \"old-style singing\"), where Irish-language poetry, local dialect, and personal phrasing survive in unaccompanied performance.\n\n**Oral transmission** means the tune passes person to person: at a kitchen table, a summer-school class, a pub session, a feis waiting room. The melody may shift — a extra turn in the B part, a different name, a new key to suit a whistle. That variation is a feature, not a bug. Print and recording freeze moments in time; the living tradition keeps moving. When Michael Coleman recorded *The Boys of the Lough* in New York in 1921, he fixed one version that became \"standard\" for generations — yet session players still vary it nightly.\n\nOral tradition does not mean anti-technology. Modern learners use slow-down apps, YouTube, and ABC files. The question is whether you treat those tools as the **source** or as a **teacher** pointing you back toward players. Competitions, archives, and radio also transmit music — Comhaltas classes, RTÉ programmes, the Irish Traditional Music Archive (ITMA) in Dublin. Healthy tradition uses all channels; unhealthy tradition either rejects the past entirely or fossilises one collector's edition as holy writ.\n\nComhaltas Ceoltóirí Éireann runs classes and branches worldwide; Irish Traditional Music Archive preserves recordings and manuscripts; the Fleadh Cheoil na hÉireann gathers competitors and audiences each summer."
+        }
+      ]
+    },
+    {
+      "id": "the-session-seisiún",
+      "title": "The session (*seisiún*)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A **session** is an informal gathering where musicians play tunes in **sets** — usually two or three tunes of the same form before switching. The word *seisiún* as a label for these gatherings is relatively recent (Wikipedia notes it was \"invented in the 1990s\" in some Irish circles), but the practice is old: neighbours with fiddles and flutes playing for dancers and listeners.\n\n![A traditional music session](https://en.wikipedia.org/wiki/Special:FilePath/Dungloe_music_festival_%281%29_-_geograph.org.uk_-_51567.jpg?width=640)\n\nSessions happen in pubs, festival tents, summer-school corridors, and private homes. They are social contracts. Unwritten rules vary by room, but the following will serve you almost anywhere:\n\n**Listen before you join.** Arrive early, buy a drink if you're in a pub, stand where you can hear, and count how many tunes make a set before anyone switches form. Jumping in mid-tune or mid-set disrupts the room. Regulars notice newcomers who respect the music; they also notice newcomers who treat the session as a backing track for their solo. Humility is not weakness — it is how you earn the nod to start the next set.\n\n**Know when not to play.** If the room is packed with melody players and someone is already struggling to be heard, adding another fiddle may help nobody. Some sessions designate a rotation; others rely on eye contact. When in doubt, play quietly or lay out for a tune and learn the local repertoire for next time.\n\n**Match tempo and volume.** Faster is not better. If the room is playing at a comfortable dance tempo, do not accelerate to show off. Uilleann pipes and harp suit smaller spaces; fiddle, flute, and accordion can dominate acoustically — balance matters.\n\n**Respect the form.** Do not drop a slow air into a reel set without warning. Do not switch from jigs to polkas until the set ends. Tunes of the same metre chain together; crossing metres feels like changing gears without a clutch.\n\n**Keys:** D major, G major, A major, and E minor cover a large share of session repertoire. Whistle and flute players often think in D first; accordion players may use B/C or C#/D button layouts that produce different \"shapes\" for the same session keys. Guitar and bouzouki backers learn chord patterns that fit those centres.\n\n**Sets:** Three reels, then maybe three jigs, is a common pattern. Some regions favour pairs. Listen for the subtle cue — a lifted foot, eye contact, a last-time-through repeat — before the leader starts the next tune.\n\n**Regional accents:** A Sligo reel roll is not a Donegal snap. Clare box players phrase differently from Kerry accordionists. Sliabh Luachra musicians may follow reels with polkas and slides in ways that surprise a Dublin player. Copy the local accent when you sit in; importing a generic \"Irish\" template sounds as odd as speaking the wrong dialect.\n\nSessions are where tradition renews itself nightly. They are also where repertoire spreads: someone returns from Willie Clancy week with a new tune, or a visitor from Melbourne teaches a composition that becomes local standard within a year."
+        }
+      ]
+    },
+    {
+      "id": "tune-types-a-field-guide-with-memorable-details",
+      "title": "Tune types: a field guide with memorable details",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dance music organises Irish trad. Each form has a metre, a default tempo band, and a physical feel on the floor. Misidentifying a reel for a jig is the classic beginner error — listeners tap the wrong pulse immediately.\n\n| Type | Metre | Feel | Memorable detail |\n|------|-------|------|------------------|\n| **Reel** | 4/4 or 2/2 | Steady drive | Session workhorse; foot-tap \"ONE-two THREE-four\" |\n| **Double jig** | 6/8 | Two beats of three | \"JIG-ged-y JIG-ged-y\" — not a waltz |\n| **Single jig** | 6/8 | Lighter, less dotted | Often confused with double jigs; listen for emphasis |\n| **Hornpipe** | 4/4 | Dotted, bouncy | Sailor associations; Clare and Donegal dot differently |\n| **Slip jig** | 9/8 | Asymmetrical, graceful | Linked to soft-shoe step dance; \"three-three-three\" lilt |\n| **Polka** | 2/4 | Brisk two-step | Arrived early 19th c. via dancing masters; Munster stronghold |\n| **Slide** | 12/8 | Related jig family | West Kerry and Sliabh Luachra specialty |\n| **Slow air** | Free or slow | Lyrical, vocal | Song melodies; sparse ornament; not for dance sets |\n| **March** | 4/4 | Steady | Donegal repertoire overlaps Scottish pipe marches |\n| **Highland** | Strathspey-related | Dotted Scottish flavour | Donegal fiddle import; different from hornpipe |\n| **Mazurka** | 3/4 | Later import | Part of wider 19th-century European dance fashion |\n\n**Reels** migrated through the diaspora and underpin much of North American fiddle tradition. A tune like *The Wind That Shakes the Barley* might appear in Ireland, Cape Breton, and Appalachia with different ornament.\n\n**Double jigs** are the second most common session form after reels. If your foot taps three evenly spaced pulses per beat, you are probably in jig territory.\n\n**Hornpipes** like *Off to California* or *The Sailor's Hornpipe* are often played with a dotted long-short swing — though some regions straighten the rhythm.\n\n**Polkas and slides** cluster in **Sliabh Luachra** (the Cork/Kerry border) and west Kerry. Wikipedia notes polkas spread at the start of the nineteenth century through itinerant dancing masters and returning soldiers. Sets of polkas alternate with slides at house dances and set-dancing events.\n\n**Slow airs** adapt sean-nós song melodies or lament traditions. Placing one unannounced in a reel set is a session faux pas — like reading poetry in the middle of a football match.\n\n![Historical illustration of Irish jig dancing](https://en.wikipedia.org/wiki/Special:FilePath/Irish_Jig%2C_from_National_Dances_%28N225%2C_Type_2%29_issued_by_Kinney_Bros._MET_DPB874573.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "song-a-parallel-river-preview",
+      "title": "Song: a parallel river (preview)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Instrumental dance music dominates pub sessions, but **song** carries much of Ireland's emotional and narrative weight. The genres lesson (Tier 4) goes deeper; here is orientation.\n\n**Sean-nós** (\"old style\") is unaccompanied, highly ornamented singing, often in Irish. Each singer's phrasing is personal; metre may stretch across bar lines. Regional styles differ — Connemara, Donegal, Munster — and the best performances sound like speech heightened into music, not like pop vocals with an Irish accent.\n\n**English-language ballads** tell stories: emigration, love, politics, humour. *The Wild Rover* and *The Fields of Athenry* are pub standards; older narrative ballads preserve local history in verse.\n\n**Drinking songs** (*weila weila*, *Molly Malone*, *Whiskey in the Jar*) fuel social singing. They are not the sum of Irish song — reducing Ireland to \"drinking songs\" annoys serious singers — but they belong in the picture.\n\n**Laments** (*caoineadh*) express grief for the dead or for exile. Slow airs on fiddle or pipes often trace lament melodies. The oral tradition preserved keening practices that blurred song and ritual. A lament performed well can silence a noisy room — which is why singers sometimes save them for concerts or dedicated song sessions rather than mixed instrumental nights.\n\n**Come-all-ye** and **street ballads** circulated on broadsheets and later through radio; they share narrative DNA with older Gaelic story-songs. **Comic songs** (*The Irish Rover*, *Seven Drunken Nights*) balance the tragic repertoire in pub singalongs. Teachers often remind students that Ireland's song wealth is not only melancholy — wit and wordplay are traditional too.\n\nSong and dance repertoires overlap: [[track:rocky-road-dublin|The Rocky Road to Dublin]] exists as both vocal narrative and instrumental set; [[track:planxty-irwin|Planxty Irwin]] began as Carolan's tribute to a patron and became a session tune. Knowing which side of the river you are on — singer's story or dancer's pulse — prevents category errors.\n\n**Lilting** (*portaireacht*) is wordless mouth music imitating fiddle or pipe rhythm — useful when no instrument is handy and a feature of house entertainment.\n\nEarly Irish poetry connects to this stream. The sixth-century hymn **Rop tú mo baile** by Dallán Forgaill, published in English in 1905 as **Be Thou My Vision**, and medieval lyrics like **The Blackbird of Belfast Lough** (*Int én bec*) bridge sacred verse and the later air tradition. You will meet that deep history in Lesson 6."
+        }
+      ]
+    },
+    {
+      "id": "social-settings-where-music-happens",
+      "title": "Social settings: where music happens",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**House dances** (*bothántaíocht*, kitchen parties) were the hearth of rural tradition — fiddles, flutes, sets of tunes for neighbours dancing in cramped kitchens. Noel Hill, the Clare concertina player, grew up in a house that still held the local **house dance** tradition; he learned tunes there before radio or records shaped his ear. That social form declined but never vanished; set-dancing revival and summer schools recreate something of the intimacy.\n\n**Pub sessions** are the public face of trad today — tourism, local regulars, and travelling musicians sharing a room. Quality varies from transcendent to chaotic. The good ones reward patience and listening.\n\n**Festivals** range from local fleadhs to multi-day events. **Fleadh Cheoil na hÉireann** combines All-Ireland competitions with street sessions; recent festivals have drawn hundreds of thousands of visitors. **Fleadh Nua** (Ennis) and regional fleadhs offer a lighter competitive mix. Diaspora branches run **Mid-Atlantic** and **Midwest** fleadhs in North America as qualifiers for the All-Ireland.\n\n**Competitions** (*feiseanna*, Fleadh stages) prize clarity, technique, and adherence to taught style. A feis winner and a session favourite are not always the same player — and the tension between those values runs through modern trad (see Lesson 6). Feiseanna often begin with children learning treble jig steps and tin-whistle polkas; teenagers carry tunes from Comhaltas classes into pub sessions (sometimes to the relief of older players, sometimes to the eye-rolling of purists). Understanding competitions helps you understand why a fourteen-year-old fiddler plays with a different attack than a fifty-year-old who learned at house dances.\n\n**Céilí bands** and **showbands** occupy other social niches — steadier tempos for group dances, or amplified dance-hall pop with Irish flavour. They fed the mid-century dance-hall economy that both sustained and threatened acoustic tradition. Your grandparents may have met at a showband dance; your teacher may have started in Comhaltas on Saturday morning. Both paths are Irish musical social history.\n\n![Irish step dance performance](https://en.wikipedia.org/wiki/Special:FilePath/Trinity_Academy_of_Irish_Dance.jpg?width=640)\n\n![Session with bodhrán](https://en.wikipedia.org/wiki/Special:FilePath/177-Bodhran-Hinnerk-Ruemenapf-0037-p70.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "institutions-that-shape-the-tradition",
+      "title": "Institutions that shape the tradition",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "You will meet these names repeatedly:\n\n**Comhaltas Ceoltóirí Éireann** (\"Society of the Musicians of Ireland\") formed in **1951** to promote Irish music, dance, and language. It runs hundreds of branches worldwide, classes for children and adults, and the **Fleadh Cheoil** circuit. Its director general Labhrás Ó Murchú and volunteer teachers are often the first contact a child has with fiddle or tin whistle.\n\n**Fleadh Cheoil** began in **Mullingar** the same year Comhaltas was founded. County winners advance to provincial fleadhs, then the All-Ireland — a pyramid that structures competitive life for thousands of young musicians. Around **20,000 performers** compete in fleadhs annually; the festival also hosts parades, concerts, and the informal sessions many players consider the real heart of the week.\n\n**Irish Traditional Music Archive (ITMA)** in Dublin, co-founded in **1987** by Nicholas Carolan and Harry Bradshaw, preserves recordings, manuscripts, photographs, and publications. Built on Brendan Breathnach's systematic collections, ITMA is a national reference centre for researchers and musicians tracing tune histories.\n\n**Summer schools** concentrate learning in a week of classes and nightly sessions. **Scoil Samhraidh Willie Clancy** in Miltown Malbay, County Clare (since **1973**), honours the uilleann piper Willie Clancy and draws international students each July. Other schools — Scoil Éigse, various regional camps, the Queen Maeve school in Sligo — extend the model.\n\n**Na Píobairí Uilleann** (NPU) promotes uilleann piping, pipe making, and teaching — especially vital after UNESCO recognition (below).\n\n**RTÉ** and local radio, **TG4** television, and online media broadcast performances that once reached only a parish.\n\n![Fleadh Cheoil accordion band](https://en.wikipedia.org/wiki/Special:FilePath/IMG_E9670_Holy_Cross_Accordion_Band_Atticall.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "regional-map-five-accents-to-know",
+      "title": "Regional map: five accents to know",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish trad is not one uniform style. Field recordings and Wikipedia's regional surveys commonly distinguish:\n\n**Sligo** — fast, flamboyant fiddle with heavy rolls. Michael Coleman and James Morrison's New York 78s defined this accent abroad so powerfully that other regional styles temporarily faded in parts of Ireland. If you hear a reel played with florid bowed triplets and aggressive ornament, think Sligo first.\n\n**Donegal** — strong bowing, tight rhythm, and Scottish tune overlap (marches, highlands). Travelling fiddler **John Doherty** carried a repertoire and technique distinct from the west coast. Flute and tin whistle also thrive here.\n\n**Clare** — concertina and button-accordion prominence; session culture in towns like Miltown Malbay and Doolin. Willie Clancy, Paddy Canny, and later Noel Hill made Clare synonymous with pipes and box. The county hosts major festivals and feels like a pilgrimage site for trad tourists — which brings economic benefit and crowding pressure.\n\n**Sliabh Luachra** (Cork/Kerry border) — polkas, slides, and tune names tied to local townlands. Fiddle and accordion repertoire here differs from Sligo flash; rhythm feels closer to stepping and set dancing.\n\n**Kerry** — west Kerry shares slides and polkas with Sliabh Luachra; accordion traditions run strong; sean-nós song pockets survive in Irish-speaking areas. Killarney and Dingle balance tourism with local sessions.\n\n**East and urban centres** — Dublin, Belfast, and Cork host vibrant scenes that do not map neatly onto one rural accent. Musicians commute between festival circuits, summer schools, and studio work; \"Dublin session style\" often means a blend of influences chosen by players who learned in Comhaltas, university folk societies, and online. Do not assume countryside authenticity versus city corruption — cities have been trad ports for centuries.\n\n**Listening exercise:** Take one reel — *The Mason's Apron* or *Drowsy Maggie* — and compare recordings by a Sligo-influenced fiddler, a Donegal player, and a Clare box-led ensemble. The notes may match; the accent will not. That exercise is worth more than memorising county colours on a map.\n\nA player who learns only from a single YouTube playlist misses this geography. Tag recordings by region when you can; notice how the same tune changes accent across counties."
+        }
+      ]
+    },
+    {
+      "id": "ancient-roots-a-preview-of-lesson-6",
+      "title": "Ancient roots — a preview of Lesson 6",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "You do not need medieval Irish to play a reel, but the tradition's depth is real. Irish annals name musicians from the early medieval period onward: harpers, **tiompanists** (players of the tiompan, a stringed instrument), singers, and instrument makers. Wikipedia's *Music of Ireland* lists entries such as **1226: Aed mac Donn Ó Sochlachain**, skilled at tuning harps and making instruments; **1168: Amhlaeibh Mac Innaighneorach**, chief ollamh of Ireland in harp-playing; and even an annalistic note from **921 BC** naming Cú Congalta, a \"Tethra\" (singer or orator).\n\nHarpers were patronised by Gaelic aristocracy until the collapse of that world in the eighteenth century. **Turlough Carolan** (1670–1738) composed more than two hundred pieces for patrons, blending bardic and baroque taste. **Edward Bunting** notated surviving harpers at the **Belfast Harp Festival of 1792** — a rescue mission at the edge of extinction.\n\nThat long arc — from annals to Carolan to Chicago police chief Francis O'Neill's tune books to UNESCO piping — is the subject of **Lesson 6: History, Revival, and Transmission**. Hold this preview: Irish trad is not a 1950s invention; it is a survivor with documented roots over a millennium deep.\n\n![Sixteenth-century Irish warpipes player](https://en.wikipedia.org/wiki/Special:FilePath/Rosgall.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "unesco-uilleann-piping-2017",
+      "title": "UNESCO: uilleann piping, 2017",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "In **2017**, **uilleann piping** was inscribed on UNESCO's **Representative List of the Intangible Cultural Heritage of Humanity** (reference 01264). The listing recognises not only concert performers but **pipe makers**, teachers, and the bellows-blown instrument's distinctive mechanism — chanter, drones, and regulators for chordal accompaniment.\n\nUNESCO status does not mean piping is museum pieces behind glass. It means the craft needs active stewardship — the same work **Na Píobairí Uilleann** pursues through classes, archives, and instrument support. The **Trinity College harp** on Irish euro coins evokes an older symbol — the medieval **cláirseach** — separate from pub fiddle music but part of one national musical imagination.\n\nPipe makers today train apprentices in reed adjustment, bag seasoning, and regulator voicing — skills that cannot be downloaded as a PDF. When you hear uilleann pipes in a small session, you are hearing an instrument whose UNESCO listing recognises workshop labour as much as stage performance. Respect the pipes' volume: in a crowded pub, a half-set can dominate; good session pipers learn when to play and when to listen, matching the etiquette described earlier.\n\n![Uilleann pipes being played](https://en.wikipedia.org/wiki/Special:FilePath/UilleannPipes.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "fusion-and-the-wider-world-briefly",
+      "title": "Fusion and the wider world (briefly)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "From **Riverdance** (1994 Eurovision interval act to global stage show) to **The Pogues**, **Planxty**, and **Horslips**, Irish roots music constantly meets pop and spectacle. Wikipedia notes Irish folk has fused with punk rock and electronic rock with mainstream success. Tier 7 explores those scenes; here, note that many rock musicians grew up in Comhaltas classes, and \"trad\" and \"fusion\" coexist in the same families."
+        }
+      ]
+    },
+    {
+      "id": "how-this-unit-is-organised",
+      "title": "How this unit is organised",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Lesson | ID | Focus |\n|--------|-----|--------|\n| 1 — Overview | `regions-celtic-ireland-01-overview` | Map of tradition, sessions, institutions, regions |\n| 2 — Traditional voices I | `regions-celtic-ireland-02-instruments-voices-i` | Fiddle, flute, whistle, uilleann pipes, harp |\n| 3 — Session voices II | `regions-celtic-ireland-03-instruments-voices-ii` | Bodhrán, guitar, bouzouki, banjo, box, concertina, and overlapping roles |\n| 4 — Genres & forms | `regions-celtic-ireland-04-genres-forms` | Reels, jigs, ornament, song depth |\n| 5 — Dance | `regions-celtic-ireland-05-dance` | Céilí, set, step, sean-nós dance |\n| 6 — History | `regions-celtic-ireland-06-history` | Annals to collectors, diaspora 78s, revival, transmission debate |\n| 7 — Representative depth | `regions-celtic-ireland-07-representative-depth` | Fusion scenes, showbands, global diaspora |\n\nWork through the unit in order if you are new. If you already play in sessions, skim this overview, then dive into regions and history where your gaps are."
+        }
+      ]
+    },
+    {
+      "id": "starting-points-for-learners",
+      "title": "Starting points for learners",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "If you are picking up an instrument for this unit, begin with **listening** before technique drills. Build a playlist tagged by form (reel, jig, hornpipe) and region (Sligo, Clare, Donegal). Attend a local session as audience before you play. Learn one tune thoroughly — both parts, at session tempo, with basic ornament — rather than half-learning twenty. Find a teacher or mentor if possible; even short corrections in bow grip or whistle embouchure save years of habit.\n\nIf you are a theorist or classroom teacher, use this overview to frame discussions of orality, cultural nationalism, and diaspora — topics Lesson 6 develops historically. Irish trad is a case study in how music survives colonisation, language shift, and emigration not as a sealed relic but as a negotiated living practice.\n\nThe tradition asks for participation, not only observation. Whether you compete at a fleadh, sit in at a pub, or teach the next generation a polka in a community hall, you join a chain of transmission stretching from medieval harpers to Chicago 78s to tonight's session. The following lessons give you the tools to take that seat with knowledge and respect."
+        }
+      ]
+    },
+    {
+      "id": "reading-and-listening-list-orientation",
+      "title": "Reading and listening list (orientation)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "To hear what this lesson describes, start with recordings rather than only reading:\n\n- **Michael Coleman** — *The Boys of the Lough* (1921) and other 78 reissues on Shanachie or similar labels; listen for Sligo rolls and piano accompaniment.\n- **James Morrison** — 1930s reels; compare ornament and tempo to Coleman.\n- **Willie Clancy** — uilleann pipe recordings from Clare; follow with contemporary pipers taught in his lineage.\n- **Seán Ó Riada** — *Mise Éire* soundtrack and Ceoltóirí Chualann arrangements; notice how ensemble writing treats trad melody.\n- **The Chieftains** — early albums for concert presentation of pipes, fiddle, and harp.\n- **Pádraigín Ní Uallacháin** or **Anúna** — modern interpretations connecting early Irish verse to present-day ears.\n\nPair listening with one reference work: Francis O'Neill's *Music of Ireland* (1903) for tune names, or ITMA's online catalogue for manuscript and field-recording trails. You are not expected to memorise annal dates from Tier 1 — but knowing that a tune has a history makes you less likely to treat it as anonymous wallpaper.\n\nFinally, remember that **difficulty 3/10** on this lesson measures conceptual breadth, not instrumental skill. You can understand session keys and fleadh structure before you can play a clean roll. The next tiers raise technical and stylistic demand; this one gives you language to talk about what you hear. Bring curiosity to your first session, festival, or Comhaltas class — the musicians around you were beginners once, and most are glad to see the tradition grow.\n\nOne practical habit will serve you through the whole unit: keep a **listening notebook**. Note tune names, keys, form (reel or jig?), region if known, and one detail you liked — a roll, a pipe regulator chord, a singer's phrase. Six months of notes beats six hours of random scrolling. You are building the same kind of attention collectors brought to kitchens and crossroads — except your fieldwork can start on a Tuesday night at the nearest session."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "comhaltas",
+      "type": "organization",
+      "name": "Comhaltas Ceoltóirí Éireann",
+      "summary": "Global network of branches teaching and promoting Irish traditional music",
+      "blurb": "Founded 1951; runs Fleadh Cheoil, classes, and archives across Ireland and the diaspora.",
+      "url": "https://comhaltas.ie/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Comhaltas_Ceolt%C3%B3ir%C3%AD_%C3%89ireann_logo.svg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "itma",
+      "type": "organization",
+      "name": "Irish Traditional Music Archive",
+      "summary": "National public archive for Irish traditional music, song, and dance",
+      "blurb": "ITMA in Dublin preserves recordings, manuscripts, and research materials.",
+      "url": "https://www.itma.ie/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Irish_Traditional_Music_Archive_logo.png?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "fleadh",
+      "type": "organization",
+      "name": "Fleadh Cheoil na hÉireann",
+      "summary": "Annual all-Ireland festival of traditional music, song, and dance",
+      "blurb": "Comhaltas's flagship competition and concert gathering since 1951.",
+      "url": "https://comhaltas.ie/music/detail/fleadh_cheoil/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fleadh_Cheoil_na_h%C3%89ireann_2010.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "comhaltas",
+    "itma",
+    "fleadh"
+  ],
+  "playlist": [
+    {
+      "id": "session-ennis",
+      "entity_id": "comhaltas",
+      "label": "Pub session footage",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
+      "subtitle": "Comhaltas Ceoltóirí Éireann"
+    },
+    {
+      "id": "fleadh-stage",
+      "entity_id": "fleadh",
+      "label": "Fleadh stage performance",
+      "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY",
+      "subtitle": "Fleadh Cheoil na hÉireann"
+    },
+    {
+      "id": "sean-nos-sample",
+      "entity_id": "itma",
+      "label": "Sean-nós singing sample",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": "Irish Traditional Music Archive"
+    },
+    {
+      "id": "rocky-road-dublin",
+      "label": "The Rocky Road to Dublin",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": ""
+    },
+    {
+      "id": "planxty-irwin",
+      "label": "Planxty Irwin",
+      "youtube": "https://www.youtube.com/watch?v=f5Q1zQr3pBk",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Irish traditional music is oral, regional, and session-based — not one uniform style.",
+    "Trad names a specific island tradition; Celtic is a wider marketing and regional umbrella.",
+    "Sessions are social contracts: listen first, match tempo, respect tune sets.",
+    "Reels, jigs, hornpipes, and polkas differ in metre and foot-tap feel.",
+    "Comhaltas, the Fleadh, and ITMA anchor modern teaching, competition, and archives."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "The Companion to Irish Traditional Music",
+      "author": "Fintan Vallely",
+      "note": "Encyclopaedic A–Z reference"
+    },
+    {
+      "type": "link",
+      "title": "Irish Traditional Music Archive (ITMA)",
+      "url": "https://www.itma.ie/",
+      "note": "Recordings, manuscripts, research"
+    },
+    {
+      "type": "link",
+      "title": "Comhaltas Ceoltóirí Éireann",
+      "url": "https://comhaltas.ie/",
+      "note": "Classes, fleadhanna, branches"
+    },
+    {
+      "type": "book",
+      "title": "Last Night's Fun",
+      "author": "Ciaran Carson",
+      "note": "Sessions, craic, and Belfast trad culture"
+    },
+    {
+      "type": "book",
+      "title": "Irish Music: A Fascinating Hobby",
+      "author": "Brendan Breathnach",
+      "note": "Classic introduction to tune types and session life"
+    },
+    {
+      "type": "book",
+      "title": "Tuned Out: Traditional Music and Identity in Northern Ireland",
+      "author": "Martin Stokes",
+      "note": "Ethnomusicology of regional identity"
+    },
+    {
+      "type": "link",
+      "title": "TG4 — Irish-language media",
+      "url": "https://www.tg4.ie/",
+      "note": "Programmes on sean-nós and Gaeltacht culture"
+    },
+    {
+      "type": "link",
+      "title": "RTÉ Raidió na Gaeltachta",
+      "url": "https://www.rte.ie/rnag/",
+      "note": "Irish-language radio with traditional music"
+    },
+    {
+      "type": "link",
+      "title": "Fleadh Cheoil archive",
+      "url": "https://comhaltas.ie/music/detail/fleadh_cheoil/",
+      "note": "Competition history and results"
+    },
+    {
+      "type": "link",
+      "title": "UNESCO — Uilleann piping",
+      "url": "https://ich.unesco.org/en/RL/uilleann-piping-01207",
+      "note": "Intangible heritage listing"
+    },
+    {
+      "type": "link",
+      "title": "The Session",
+      "url": "https://thesession.org/",
+      "note": "Tune database and session etiquette discussions"
+    }
+  ],
+  "quiz_markdown": "### Q1. In a typical Irish session, which description best fits the music-making?\n\n- A) Musicians play sets of tunes by ear, often led informally with unwritten etiquette\n- B) A conductor assigns parts from full orchestral scores\n- C) Only harp is permitted as melody instrument\n- D) Tunes must be performed exactly as written in O'Neill's 1903 edition\n\n**Answer:** A\n\n### Q2. \"Celtic music\" and \"Irish traditional music\" are identical terms.\n\n**Answer:** False — Celtic is a broader regional family; Irish trad is one tradition within it.\n\n### Q3. The Gaeltacht refers primarily to:\n\n- A) Regions where Irish remains a community language, closely linked to sean-nós song heritage\n- B) A type of reel in 7/8 metre\n- C) The judging hall at the All-Ireland fleadh only\n- D) A brand of electric guitar\n\n**Answer:** A\n\n### Q4. A double jig is most commonly in:\n\n- A) 6/8 with a two-beat feel per bar\n- B) 4/4 with a dotted hornpipe swing\n- C) 3/4 waltz time\n- D) Free rhythm without metre\n\n**Answer:** A\n\n### Q5. Common session keys for Irish dance tunes include:\n\n- A) D, G, A, and E minor\n- B) Only B-flat major\n- C) Atonal collections with no home key\n- D) F-sharp major exclusively\n\n**Answer:** A\n\n### Q6. Sean-nós singing is best described as:\n\n- A) Highly ornamented, often unaccompanied traditional song with personal phrasing\n- B) A competitive hard-shoe dance form\n- C) Opera sung in Italian with orchestra\n- D) Electronic dance music produced in Dublin studios\n\n**Answer:** A\n\n### Q7. Polkas and slides are especially associated with which region?\n\n- A) Sliabh Luachra and parts of Munster/Kerry\n- B) Only inner-city electronic clubs\n- C) Strictly classical opera houses\n- D) The Antarctic research stations\n\n**Answer:** A\n\n### Q8. Comhaltas Ceoltóirí Éireann was founded in 1951 and is associated with:\n\n- A) Promoting Irish music, dance, and the Fleadh Cheoil circuit\n- B) Banning all traditional instruments\n- C) Replacing oral tradition with mandatory classical piano exams only\n- D) Exclusive management of Riverdance licensing\n\n**Answer:** A\n\n### Q9. Uilleann piping was recognised by UNESCO in 2017 as:\n\n- A) Intangible cultural heritage of humanity\n- B) An extinct medieval craft with no living makers\n- C) A type of Scottish Highland bagpipe\n- D) A competitive step-dance category only\n\n**Answer:** A\n\n### Q10. Oral transmission remains central to Irish trad even when written scores and apps exist.\n\n**Answer:** True\n\n### Q11. A hornpipe is usually played with a steadier, undotted rhythm than a typical reel session reel.\n\n**Answer:** False — Hornpipes are often played with a dotted, bouncy long-short feel (regional variation applies).\n\n### Q12. The Irish Traditional Music Archive (ITMA) in Dublin primarily preserves:\n\n- A) Recordings, manuscripts, and research materials for traditional music\n- B) Only chart-topping pop singles from the 2020s\n- C) Stock exchange data for music companies\n- D) Recipes from medieval monasteries unrelated to music\n\n**Answer:** A\n\n### Q13. Sligo fiddle style is often characterised as:\n\n- A) Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s\n- B) Slow, unornamented, with no bow variation\n- C) Identical to Donegal highland piping\n- D) Exclusively played on harp\n\n**Answer:** A\n\n### Q14. Slow airs are appropriate tunes to insert without warning in the middle of a reel set at a session.\n\n**Answer:** False — Slow airs are lyrical and non-dance; switching unannounced disrupts session form.\n\n### Q15. Irish traditional music has influenced music outside Ireland, including American country and roots styles.\n\n**Answer:** True\n\n### Q16. The first national Fleadh Cheoil was held in:\n\n- A) Mullingar, 1951\n- B) Sydney, 1851\n- C) Vienna, 1792\n- D) It has never been held; the fleadh is fictional\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "In a typical Irish session, which description best fits the music-making?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Musicians play sets of tunes by ear, often led informally with unwritten etiquette",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra and parts of Munster/Kerry",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Promoting Irish music, dance, and the Fleadh Cheoil circuit",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Musicians play sets of tunes by ear, often led informally with unwritten etiquette"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "\"Celtic music\" and \"Irish traditional music\" are identical terms.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "Celtic is a broader regional family; Irish trad is one tradition within it."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "The Gaeltacht refers primarily to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Recordings, manuscripts, and research materials for traditional music",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language, closely linked to sean-nós song heritage",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Regions where Irish remains a community language, closely linked to sean-nós song heritage"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "A double jig is most commonly in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Recordings, manuscripts, and research materials for traditional music",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: 6/8 with a two-beat feel per bar"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Common session keys for Irish dance tunes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: D, G, A, and E minor"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Sean-nós singing is best described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song with personal phrasing",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Highly ornamented, often unaccompanied traditional song with personal phrasing"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Polkas and slides are especially associated with which region?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra and parts of Munster/Kerry",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Sliabh Luachra and parts of Munster/Kerry"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Comhaltas Ceoltóirí Éireann was founded in 1951 and is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Promoting Irish music, dance, and the Fleadh Cheoil circuit",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Promoting Irish music, dance, and the Fleadh Cheoil circuit"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Uilleann piping was recognised by UNESCO in 2017 as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Intangible cultural heritage of humanity"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Oral transmission remains central to Irish trad even when written scores and apps exist.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "A hornpipe is usually played with a steadier, undotted rhythm than a typical reel session reel.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "Hornpipes are often played with a dotted, bouncy long-short feel (regional variation applies)."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Irish Traditional Music Archive (ITMA) in Dublin primarily preserves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Recordings, manuscripts, and research materials for traditional music",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Recordings, manuscripts, and research materials for traditional music"
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Sligo fiddle style is often characterised as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s"
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Slow airs are appropriate tunes to insert without warning in the middle of a reel set at a session.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "Slow airs are lyrical and non-dance; switching unannounced disrupts session form."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Irish traditional music has influenced music outside Ireland, including American country and roots styles.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "The first national Fleadh Cheoil was held in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Mullingar, 1951"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-ireland-01-overview-quiz",
+    "title": "Irish Traditional Music — Overview quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "In a typical Irish session, which description best fits the music-making?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Musicians play sets of tunes by ear, often led informally with unwritten etiquette",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra and parts of Munster/Kerry",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Promoting Irish music, dance, and the Fleadh Cheoil circuit",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Musicians play sets of tunes by ear, often led informally with unwritten etiquette"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "\"Celtic music\" and \"Irish traditional music\" are identical terms.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Celtic is a broader regional family; Irish trad is one tradition within it."
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "The Gaeltacht refers primarily to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Recordings, manuscripts, and research materials for traditional music",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language, closely linked to sean-nós song heritage",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Regions where Irish remains a community language, closely linked to sean-nós song heritage"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "A double jig is most commonly in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Recordings, manuscripts, and research materials for traditional music",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 6/8 with a two-beat feel per bar"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Common session keys for Irish dance tunes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: D, G, A, and E minor"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Sean-nós singing is best described as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song with personal phrasing",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Highly ornamented, often unaccompanied traditional song with personal phrasing"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Polkas and slides are especially associated with which region?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra and parts of Munster/Kerry",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Sliabh Luachra and parts of Munster/Kerry"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Comhaltas Ceoltóirí Éireann was founded in 1951 and is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Promoting Irish music, dance, and the Fleadh Cheoil circuit",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Promoting Irish music, dance, and the Fleadh Cheoil circuit"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Uilleann piping was recognised by UNESCO in 2017 as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Intangible cultural heritage of humanity"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Oral transmission remains central to Irish trad even when written scores and apps exist.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "A hornpipe is usually played with a steadier, undotted rhythm than a typical reel session reel.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Hornpipes are often played with a dotted, bouncy long-short feel (regional variation applies)."
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Irish Traditional Music Archive (ITMA) in Dublin primarily preserves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Recordings, manuscripts, and research materials for traditional music",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Recordings, manuscripts, and research materials for traditional music"
+      },
+      {
+        "id": "q13",
+        "type": "mcq",
+        "prompt": "Sligo fiddle style is often characterised as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Fast, flamboyant, with heavy rolls — influenced abroad by Coleman and Morrison 78s"
+      },
+      {
+        "id": "q14",
+        "type": "truefalse",
+        "prompt": "Slow airs are appropriate tunes to insert without warning in the middle of a reel set at a session.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Slow airs are lyrical and non-dance; switching unannounced disrupts session form."
+      },
+      {
+        "id": "q15",
+        "type": "truefalse",
+        "prompt": "Irish traditional music has influenced music outside Ireland, including American country and roots styles.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q16",
+        "type": "mcq",
+        "prompt": "The first national Fleadh Cheoil was held in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Mullingar, 1951"
+      }
+    ]
+  }
+}

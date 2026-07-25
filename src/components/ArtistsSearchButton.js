@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import { Alert } from 'react-bootstrap'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
+import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
 import {
   applyFieldLookupChoice,
   buildSearchModeOptions,
@@ -29,6 +30,7 @@ export default function ArtistsSearchButton({
   onAddArtist,
   buttonStyle,
   disabled,
+  token,
   tunebook,
   inline,
   children,
@@ -38,6 +40,8 @@ export default function ArtistsSearchButton({
   const [showPicker, setShowPicker] = useState(false)
   const [selectedIndexes, setSelectedIndexes] = useState([])
   const searchModeRef = useRef('auto')
+  const resolverAccess = useFieldLookupResolverAccess(token)
+  const automaticLookup = resolverAccess.automaticLookupFor('artists')
   const applyRef = useRef(null)
   const addedRef = useRef(false)
   const cachedCandidates = useFieldSearchResults(tuneId, candidateId, 'artists')
@@ -165,7 +169,7 @@ export default function ArtistsSearchButton({
     buttonGroup: (
       <>
         <FieldLookupButtonGroup
-          automaticLookup={true}
+          automaticLookup={automaticLookup}
           showExternal={!!(googleUrl && externalLinkIcon)}
           busy={busy}
           disabled={!canSearch || disabled}

@@ -463,9 +463,11 @@ export function isCapabilityAvailable(capability, features, settings) {
 export function isStemsCapabilityAvailable(features, settings, resolverStatus) {
   const srcSettings = settings || loadProviderSettings()
   const active = getActiveProvider(srcSettings, 'stems')
-  if (active && active.provider === 'local') return true
-  if (active && (active.apiKey || active.apiUrl)) return true
+  const resolverAvailable = !!(resolverStatus && resolverStatus.available)
+  if (active && active.provider === 'local') return resolverAvailable
+  if (active && (active.apiKey || active.apiUrl)) return resolverAvailable
   if (!(features && features.stems)) return false
+  if (!resolverAvailable) return false
   if (!features.lightMode) return true
   const healthProviders = resolverStatus && resolverStatus.providers
   const base = (resolverStatus && resolverStatus.heavyMlBase)
@@ -576,6 +578,10 @@ function formatUsingLine(kind, model, resolverBase) {
   return '—'
 }
 
+function isResolverServiceAvailable(resolverStatus) {
+  return !!(resolverStatus && resolverStatus.available)
+}
+
 /**
  * Build rows for the Providers status matrix.
  * Each row: { id, service, available, statusLabel, statusTone, using }
@@ -586,6 +592,7 @@ export function buildProviderServiceStatusRows(resolverStatus, settings, opts) {
   const activeBase = (resolverStatus && resolverStatus.activeBase) || ''
   const heavyBase = (resolverStatus && resolverStatus.heavyMlBase) || activeBase
   const features = (resolverStatus && resolverStatus.features) || {}
+  const resolverAvailable = isResolverServiceAvailable(resolverStatus)
   const rows = []
 
   PROVIDER_CAPABILITIES.forEach(function(cap) {
@@ -596,16 +603,19 @@ export function buildProviderServiceStatusRows(resolverStatus, settings, opts) {
     let available = kind !== 'none'
     // Resolver feature fallback when no BYO / host / localAvailable signal
     if (kind === 'none') {
-      const featureOk = cap === 'llm' ? !!features.llm
+      const featureOk = resolverAvailable && (cap === 'llm' ? !!features.llm
         : (cap === 'whisper' ? !!features.whisper
           : (cap === 'ocr' ? !!(features.sheetImageOcr || features.sheetImage)
             : (cap === 'stems'
               ? isStemsCapabilityAvailable(features, settings, resolverStatus)
-              : false)))
+              : false))))
       if (featureOk) {
         kind = 'local'
         available = true
       }
+    }
+    if (available && !resolverAvailable) {
+      available = false
     }
     const model = source.model
       || (cap === 'stems' && kind === 'local' && resolverStatus && resolverStatus.demucsModel
@@ -657,7 +667,7 @@ export function buildProviderServiceStatusRows(resolverStatus, settings, opts) {
     detail: proxyUsing,
   })
 
-  const analysisAvailable = !!(features.practiceAnalysis)
+  const analysisAvailable = resolverAvailable && !!(features.practiceAnalysis)
   rows.push({
     id: 'analysis',
     service: 'Audio analysis',
@@ -673,7 +683,7 @@ export function buildProviderServiceStatusRows(resolverStatus, settings, opts) {
       : 'Needs full home resolver',
   })
 
-  const omrAvailable = !!features.sheetImageOmr
+  const omrAvailable = resolverAvailable && !!features.sheetImageOmr
   rows.push({
     id: 'omr',
     service: 'OMR',

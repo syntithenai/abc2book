@@ -55,6 +55,22 @@ describe('notationClipboard', function() {
     expect(swapped.events[1].pitch.step).toBe('C');
   });
 
+  test('pasteFromClipboard replaces selected events', function() {
+    const events = [
+      { id: 'a', type: 'note', duration: { num: 1, den: 1, dotted: false }, pitch: { step: 'C', octave: 4, accidental: 0 }, pitches: [{ step: 'C', octave: 4, accidental: 0 }] },
+      { id: 'b', type: 'note', duration: { num: 1, den: 1, dotted: false }, pitch: { step: 'D', octave: 4, accidental: 0 }, pitches: [{ step: 'D', octave: 4, accidental: 0 }] },
+      { id: 'c', type: 'note', duration: { num: 1, den: 1, dotted: false }, pitch: { step: 'E', octave: 4, accidental: 0 }, pitches: [{ step: 'E', octave: 4, accidental: 0 }] },
+    ];
+    copyToClipboard([
+      { id: 'x', type: 'note', duration: { num: 1, den: 1, dotted: false }, pitch: { step: 'G', octave: 4, accidental: 0 }, pitches: [{ step: 'G', octave: 4, accidental: 0 }] },
+    ], meta, 0);
+    const pasted = pasteFromClipboard(events, 2, meta, ['b', 'c']);
+    expect(pasted.events.length).toBe(2);
+    expect(pasted.events[0].pitch.step).toBe('C');
+    expect(pasted.events[1].pitch.step).toBe('G');
+    expect(pasted.caretIndex).toBe(2);
+  });
+
   test('repeatSelectionAtCaret duplicates exact pitches at caret', function() {
     const events = [
       { id: 'a', type: 'note', duration: { num: 1, den: 1, dotted: false }, pitch: { step: 'C', octave: 4, accidental: 0 }, pitches: [{ step: 'C', octave: 4, accidental: 0 }] },

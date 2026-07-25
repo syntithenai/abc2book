@@ -5,6 +5,7 @@ import { isChromiumDesktopBrowser } from './platformUtils'
 import {
   isCloudYoutubeProxyBlocked,
 } from './youtubeUnlock'
+import { getResolverLoginWarning } from './mediaProxyClient'
 import { requestOpenYoutubeHelperInstall } from './youtubeHelperInstallOpen'
 
 const TOAST_ID = 'youtube-cloud-proxy-limitation'
@@ -31,7 +32,6 @@ export function maybeNotifyYoutubeProxyLimitation(options) {
   if (opts.practiceNativeOnly) return
   if (srcType !== 'youtube') return
   if (!settingsNeedYoutubeProxyBytes(settings)) return
-  if (!isCloudYoutubeProxyBlocked(features)) return
 
   const notifyKey = [
     'cloud-yt',
@@ -40,6 +40,22 @@ export function maybeNotifyYoutubeProxyLimitation(options) {
   ].join('|')
   if (notifyKey === lastNotifiedKey) return
   lastNotifiedKey = notifyKey
+
+  const loginWarning = getResolverLoginWarning(opts.resolverStatus || null, opts.accessToken || null)
+  if (loginWarning) {
+    toast.warning(
+      'YouTube pitch shift needs downloaded audio from the media resolver. '
+        + loginWarning.message,
+      {
+        toastId: TOAST_ID,
+        autoClose: 12000,
+        closeOnClick: true,
+      }
+    )
+    return
+  }
+
+  if (!isCloudYoutubeProxyBlocked(features)) return
 
   if (isChromiumDesktopBrowser()) {
     toast.info(function(renderProps) {

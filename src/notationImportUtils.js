@@ -1,4 +1,5 @@
 import { normalizeAbcForImport } from './abcImportNormalize'
+import { mergeBibliographicList } from './tuneBibliographicUtils'
 
 export function applyNotationTuneMeta(importedTune, tuneMeta) {
   if (!importedTune || !tuneMeta || typeof tuneMeta !== 'object') {
@@ -13,7 +14,6 @@ export function applyNotationTuneMeta(importedTune, tuneMeta) {
     'key',
     'noteLength',
     'srcUrl',
-    'genre',
     'backgroundInfo',
   ]
 
@@ -22,6 +22,15 @@ export function applyNotationTuneMeta(importedTune, tuneMeta) {
     if (value === undefined || value === null || value === '') return
     importedTune[fieldKey] = value
   })
+
+  if (tuneMeta.genre) {
+    if (!Array.isArray(importedTune.genres)) importedTune.genres = []
+    importedTune.genres = mergeBibliographicList(importedTune.genres, tuneMeta.genre)
+  }
+  if (Array.isArray(tuneMeta.genres) && tuneMeta.genres.length > 0) {
+    if (!Array.isArray(importedTune.genres)) importedTune.genres = []
+    importedTune.genres = mergeBibliographicList(importedTune.genres, tuneMeta.genres)
+  }
 
   if (Array.isArray(tuneMeta.artists) && tuneMeta.artists.length > 0) {
     importedTune.artists = tuneMeta.artists.slice()

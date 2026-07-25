@@ -150,7 +150,9 @@ export default class PitchTempoShifter {
 
   connect() {
     if (!this._connected) {
-      this._mode = this._shouldUseDirectMode() ? 'direct' : 'soundtouch';
+      const needsProcessing = Math.abs(combinedPitchSemitones(this._pitch, this._fineTune)) >= 0.0001
+        || Math.abs(this._tempo - 1) >= 0.0001;
+      this._mode = needsProcessing ? 'soundtouch' : 'direct';
       if (this._mode === 'direct') {
         this._connectDirectSource();
       } else {
@@ -231,7 +233,10 @@ export default class PitchTempoShifter {
   }
 
   _shouldUseDirectMode() {
-    return Math.abs(combinedPitchSemitones(this._pitch, this._fineTune)) < 0.0001;
+    // Direct BufferSource playbackRate changes both tempo and pitch; use
+    // SoundTouch whenever tempo or pitch processing is needed.
+    return Math.abs(combinedPitchSemitones(this._pitch, this._fineTune)) < 0.0001
+      && Math.abs(this._tempo - 1) < 0.0001;
   }
 
   _connectDirectSource() {

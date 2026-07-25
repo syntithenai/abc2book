@@ -75,12 +75,12 @@ export default function ScratchpadEditorChrome(props) {
       {props.onBack ? (
         <Button
           variant="outline-secondary"
-          size="sm"
+          size="lg"
           className="scratchpad-editor-back-btn"
           title="Back to scratchpad list"
           onClick={props.onBack}
         >
-          {icons.list || icons.menu || '☰'}
+          {icons.scratchpadlist || icons.pencil || icons.menu || '☰'}
         </Button>
       ) : null}
       {props.onUndo || props.onRedo ? (
@@ -145,7 +145,7 @@ export default function ScratchpadEditorChrome(props) {
       {associateModes.length ? (
         <Dropdown className="scratchpad-associate-dropdown">
           <Dropdown.Toggle variant="outline-primary" size="sm">
-            Associate
+            Use
           </Dropdown.Toggle>
           <Dropdown.Menu>
             {associateModes.map(function(mode) {

@@ -1,0 +1,310 @@
+{
+  "version": 1,
+  "progress_metric": "indexed_chunks",
+  "description": "Curriculum manifest — lesson slots map to wiki index queries. Progress is indexed chunks + generated manifest lessons, not raw download count.",
+  "tracks": {
+    "theory": {
+      "label": "Theory spine",
+      "tiers": ["intro", "applied", "advanced"],
+      "folder": "00-theory"
+    },
+    "regions": {
+      "label": "Regional traditions",
+      "tiers": [1, 2, 3, 4, 5, 6, 7],
+      "folder": "10-regions"
+    },
+    "maintenance": {
+      "label": "Instrument maintenance",
+      "tiers": ["intro", "applied", "advanced"],
+      "folder": "20-maintenance",
+      "status": "planned"
+    },
+    "making": {
+      "label": "Instrument making",
+      "tiers": ["origins", "early-modern", "applied", "advanced"],
+      "folder": "21-making",
+      "status": "planned"
+    }
+  },
+  "units": {
+    "theory-foundations": {
+      "track": "theory",
+      "label": "Foundations",
+      "topics": ["scales", "intervals", "modes", "notation"]
+    },
+    "theory-harmony": {
+      "track": "theory",
+      "label": "Harmony",
+      "topics": ["triads", "cadences", "voice-leading"]
+    },
+    "celtic-ireland": {
+      "track": "regions",
+      "label": "Celtic — Ireland",
+      "region": "ireland",
+      "status": "pilot"
+    },
+    "instrument-maintenance": {
+      "track": "maintenance",
+      "label": "Instrument maintenance",
+      "status": "planned",
+      "notes": "Care, setup, and repair by instrument family — separate from regional units."
+    },
+    "instrument-making": {
+      "track": "making",
+      "label": "Instrument making",
+      "status": "planned",
+      "notes": "Earliest instrument forms and earliest modern versions; separate from maintenance."
+    }
+  },
+  "slots": [
+    {
+      "id": "theory-scales-major-intro",
+      "unit": "theory-foundations",
+      "track": "theory",
+      "tier": "intro",
+      "title": "Major Scales — Introduction",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": ["scales", "major", "foundations"],
+      "output": "00-theory/01-foundations/04-major-scales-intro.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-scales-major-applied",
+      "unit": "theory-foundations",
+      "track": "theory",
+      "tier": "applied",
+      "title": "Major Scales — Applied",
+      "difficulty": 3,
+      "prerequisites": ["theory-scales-major-intro"],
+      "tags": ["scales", "major", "keys", "circle-of-fifths"],
+      "output": "00-theory/01-foundations/04-major-scales-applied.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-scales-major-advanced",
+      "unit": "theory-foundations",
+      "track": "theory",
+      "tier": "advanced",
+      "title": "Major Scales — Advanced",
+      "difficulty": 6,
+      "prerequisites": ["theory-scales-major-applied"],
+      "tags": ["scales", "modulation", "tetrachords"],
+      "output": "00-theory/01-foundations/04-major-scales-advanced.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-intervals-intro",
+      "unit": "theory-foundations",
+      "track": "theory",
+      "tier": "intro",
+      "title": "Intervals — Introduction",
+      "difficulty": 2,
+      "prerequisites": ["theory-scales-major-intro"],
+      "tags": ["intervals", "ear-training"],
+      "output": "00-theory/01-foundations/06-intervals-intro.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-intervals-applied",
+      "unit": "theory-foundations",
+      "track": "theory",
+      "tier": "applied",
+      "title": "Intervals — Applied",
+      "difficulty": 4,
+      "prerequisites": ["theory-intervals-intro"],
+      "tags": ["intervals", "harmony", "compound"],
+      "output": "00-theory/01-foundations/06-intervals-applied.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-intervals-advanced",
+      "unit": "theory-foundations",
+      "track": "theory",
+      "tier": "advanced",
+      "title": "Intervals — Advanced",
+      "difficulty": 7,
+      "prerequisites": ["theory-intervals-applied"],
+      "tags": ["intervals", "microtonal", "extended"],
+      "output": "00-theory/01-foundations/06-intervals-advanced.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-triads-intro",
+      "unit": "theory-harmony",
+      "track": "theory",
+      "tier": "intro",
+      "title": "Triads — Introduction",
+      "difficulty": 2,
+      "prerequisites": ["theory-scales-major-intro"],
+      "tags": ["triads", "chords"],
+      "output": "00-theory/03-chords/01-triads-intro.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-triads-applied",
+      "unit": "theory-harmony",
+      "track": "theory",
+      "tier": "applied",
+      "title": "Triads — Applied",
+      "difficulty": 4,
+      "prerequisites": ["theory-triads-intro"],
+      "tags": ["triads", "inversions", "voice-leading"],
+      "output": "00-theory/03-chords/01-triads-applied.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-triads-advanced",
+      "unit": "theory-harmony",
+      "track": "theory",
+      "tier": "advanced",
+      "title": "Triads — Applied Harmony and Colour",
+      "difficulty": 6,
+      "prerequisites": ["theory-triads-applied"],
+      "tags": ["triads", "extensions", "jazz"],
+      "output": "00-theory/03-chords/01-triads-advanced.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-cadences-intro",
+      "unit": "theory-harmony",
+      "track": "theory",
+      "tier": "intro",
+      "title": "Cadences — Introduction",
+      "difficulty": 3,
+      "prerequisites": ["theory-triads-intro"],
+      "tags": ["cadences", "harmony"],
+      "output": "00-theory/05-harmony/03-cadences-intro.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-cadences-applied",
+      "unit": "theory-harmony",
+      "track": "theory",
+      "tier": "applied",
+      "title": "Cadences — Applied",
+      "difficulty": 5,
+      "prerequisites": ["theory-cadences-intro"],
+      "tags": ["cadences", "phrase", "deceptive"],
+      "output": "00-theory/05-harmony/03-cadences-applied.md",
+      "status": "manual"
+    },
+    {
+      "id": "theory-cadences-advanced",
+      "unit": "theory-harmony",
+      "track": "theory",
+      "tier": "advanced",
+      "title": "Cadences — Advanced and Historical",
+      "difficulty": 7,
+      "prerequisites": ["theory-cadences-applied"],
+      "tags": ["cadences", "baroque", "jazz-turnaround"],
+      "output": "00-theory/05-harmony/03-cadences-advanced.md",
+      "status": "manual"
+    },
+    {
+      "id": "regions-celtic-ireland-01-overview",
+      "unit": "celtic-ireland",
+      "track": "regions",
+      "tier": 1,
+      "region": "ireland",
+      "title": "Irish Traditional Music — Overview",
+      "difficulty": 3,
+      "prerequisites": ["theory-scales-major-intro"],
+      "tags": ["ireland", "celtic", "tradition", "overview"],
+      "output": "10-regions/celtic/ireland/01-overview.md",
+      "status": "manual"
+    },
+    {
+      "id": "regions-celtic-ireland-02-instruments-voices-i",
+      "unit": "celtic-ireland",
+      "track": "regions",
+      "tier": 2,
+      "region": "ireland",
+      "title": "Irish Instruments — Traditional Voices I",
+      "difficulty": 4,
+      "prerequisites": ["regions-celtic-ireland-01-overview"],
+      "tags": ["ireland", "fiddle", "flute", "whistle", "pipes", "harp"],
+      "output": "10-regions/celtic/ireland/02-instruments-traditional-voices-i.md",
+      "status": "manual"
+    },
+    {
+      "id": "regions-celtic-ireland-03-instruments-voices-ii",
+      "unit": "celtic-ireland",
+      "track": "regions",
+      "tier": 3,
+      "region": "ireland",
+      "title": "Irish Instruments — Session Voices II",
+      "difficulty": 4,
+      "prerequisites": ["regions-celtic-ireland-02-instruments-voices-i"],
+      "tags": ["ireland", "bodhrán", "guitar", "bouzouki", "banjo", "accordion", "concertina", "session"],
+      "output": "10-regions/celtic/ireland/03-instruments-session-voices-ii.md",
+      "status": "manual"
+    },
+    {
+      "id": "regions-celtic-ireland-04-genres-forms",
+      "unit": "celtic-ireland",
+      "track": "regions",
+      "tier": 4,
+      "region": "ireland",
+      "title": "Tunes, Forms, and Style",
+      "difficulty": 4,
+      "prerequisites": ["regions-celtic-ireland-03-instruments-voices-ii"],
+      "tags": ["ireland", "jig", "reel", "hornpipe", "session"],
+      "output": "10-regions/celtic/ireland/04-genres-forms.md",
+      "status": "manual"
+    },
+    {
+      "id": "regions-celtic-ireland-05-dance",
+      "unit": "celtic-ireland",
+      "track": "regions",
+      "tier": 5,
+      "region": "ireland",
+      "title": "Irish Dance and Rhythm",
+      "difficulty": 4,
+      "prerequisites": ["regions-celtic-ireland-04-genres-forms"],
+      "tags": ["ireland", "dance", "ceili", "stepdance"],
+      "output": "10-regions/celtic/ireland/05-dance.md",
+      "status": "manual"
+    },
+    {
+      "id": "regions-celtic-ireland-06-history",
+      "unit": "celtic-ireland",
+      "track": "regions",
+      "tier": 6,
+      "region": "ireland",
+      "title": "History, Revival, and Transmission",
+      "difficulty": 5,
+      "prerequisites": ["regions-celtic-ireland-05-dance"],
+      "tags": ["ireland", "revival", "collectors", "diaspora"],
+      "output": "10-regions/celtic/ireland/06-history-transmission.md",
+      "status": "manual"
+    },
+    {
+      "id": "regions-celtic-ireland-08-tunes",
+      "unit": "celtic-ireland",
+      "track": "regions",
+      "tier": 4.5,
+      "region": "ireland",
+      "title": "Irish Tunes — Forms, History, and Recordings",
+      "difficulty": 5,
+      "prerequisites": ["regions-celtic-ireland-04-genres-forms"],
+      "tags": ["ireland", "tunes", "reel", "jig", "recordings"],
+      "output": "10-regions/celtic/ireland/08-tunes.md",
+      "status": "manual"
+    },
+    {
+      "id": "regions-celtic-ireland-07-representative-depth",
+      "unit": "celtic-ireland",
+      "track": "regions",
+      "tier": 7,
+      "region": "ireland",
+      "title": "Representative Fusions and Scenes",
+      "difficulty": 6,
+      "prerequisites": ["regions-celtic-ireland-06-history"],
+      "tags": ["ireland", "fusion", "celtic-rock", "showband"],
+      "exclude_prior_articles": true,
+      "output": "10-regions/celtic/ireland/07-representative-depth.md",
+      "status": "manual"
+    }
+  ]
+}

@@ -109,7 +109,7 @@ export function HelpWhatYouCanDo() {
 export function HelpOrganise() {
   return (
     <>
-      <p>Books, tags, genres, and artists are the main organisation tools. Each tune can belong to many books and have many tags, one genre, a primary composer (<code>C:</code> first line), and optional additional artists (<code>C:</code> extra lines).</p>
+      <p>Books, tags, genres, and artists are the main organisation tools. Each tune can belong to many books and have many tags, one or more genres (each stored as a <code>G:</code> header line), a primary composer (<code>C:</code> first line), and optional additional artists (<code>C:</code> extra lines).</p>
       <p>Alternate titles are stored as aliases and round-trip as extra <code>T:</code> lines (legacy <code>N: AKA:</code> lines still import correctly).</p>
       <p>On the <strong>Tunes</strong> page, filter by book, tag, genre, artist, and title.</p>
       <p>

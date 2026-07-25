@@ -6,7 +6,7 @@ import {
   deleteSavedPlaylist,
   queueFromSavedPlaylist,
 } from './savedPlaylistsStore'
-import { createQueue } from './nowPlayingQueue'
+import { createQueue, createLessonQueueFromItems } from './nowPlayingQueue'
 
 describe('savedPlaylistsStore', function() {
   beforeEach(function() {
@@ -99,5 +99,13 @@ describe('savedPlaylistsStore', function() {
   test('savePlaylistFromQueue returns null for empty queue', function() {
     expect(savePlaylistFromQueue(null)).toBeNull()
     expect(savePlaylistFromQueue(createQueue({ tuneIds: [] }))).toBeNull()
+  })
+
+  test('savePlaylistFromQueue rejects lesson queues', function() {
+    const queue = createLessonQueueFromItems({
+      lessonId: 'lesson-1',
+      items: [{ externalMedia: { youtubeId: 'abc123XYZ12', title: 'A' } }],
+    })
+    expect(savePlaylistFromQueue(queue)).toBeNull()
   })
 })

@@ -22,15 +22,25 @@ function resolveInstrumentName(programOrName) {
   return 'acoustic_grand_piano';
 }
 
+function ensureSharedAudioContext() {
+  const AudioCtx = window.AudioContext || window.webkitAudioContext;
+  if (!AudioCtx) return null;
+  if (!sharedCtx) sharedCtx = new AudioCtx();
+  if (sharedCtx.state === 'suspended') {
+    sharedCtx.resume().catch(function() {});
+  }
+  return sharedCtx;
+}
+
 function loadInstrument(instrumentName) {
   const name = instrumentName || 'acoustic_grand_piano';
   if (instrumentCache[name]) return instrumentCache[name];
   instrumentCache[name] = import('soundfont-player').then(function(mod) {
     const Soundfont = mod.default || mod;
-    const AudioCtx = window.AudioContext || window.webkitAudioContext;
-    if (!sharedCtx) sharedCtx = new AudioCtx();
+    const audioContext = ensureSharedAudioContext();
+    if (!audioContext) return Promise.reject(new Error('No audio context'));
     const hostname = getSoundfontPlayerHostname();
-    return Soundfont.instrument(sharedCtx, name, {
+    return Soundfont.instrument(audioContext, name, {
       soundfont: 'MusyngKite',
       format: 'mp3',
       nameToUrl: function(instName, soundfont, format) {
@@ -41,11 +51,11 @@ function loadInstrument(instrumentName) {
         return host + '/' + soundfont + '/' + instName + '-' + format + '.js';
       },
     }).then(function(instrument) {
-      return { instrument: instrument, ctx: sharedCtx, name: name };
+      return { instrument: instrument, ctx: audioContext, name: name };
     }).catch(function() {
       // Fall back to default CDN piano if the named SF fails to load.
-      return Soundfont.instrument(sharedCtx, 'acoustic_grand_piano').then(function(instrument) {
-        return { instrument: instrument, ctx: sharedCtx, name: 'acoustic_grand_piano' };
+      return Soundfont.instrument(audioContext, 'acoustic_grand_piano').then(function(instrument) {
+        return { instrument: instrument, ctx: audioContext, name: 'acoustic_grand_piano' };
       });
     });
   });
@@ -83,12 +93,20 @@ export function useNoteAudition(initialProgramOrName) {
     if (lastMidiRef.current === midi && now - lastTimeRef.current < 80) return;
     lastMidiRef.current = midi;
     lastTimeRef.current = now;
+    ensureSharedAudioContext();
 
     function playWith(loaded) {
-      if (!loaded || !loaded.instrument) return;
-      try {
-        loaded.instrument.play(midi, loaded.ctx.currentTime, { duration: dur / 1000 });
-      } catch (err) { /* ignore */ }
+      if (!loaded || !loaded.instrument || !loaded.ctx) return;
+      const playNote = function() {
+        try {
+          loaded.instrument.play(midi, loaded.ctx.currentTime, { duration: dur / 1000 });
+        } catch (err) { /* ignore */ }
+      };
+      if (loaded.ctx.state === 'suspended') {
+        loaded.ctx.resume().then(playNote).catch(function() { /* ignore */ });
+        return;
+      }
+      playNote();
     }
 
     if (programOrName != null) {

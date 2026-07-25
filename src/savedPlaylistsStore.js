@@ -143,6 +143,7 @@ export function appendTunesToPlaylist(playlistId, tuneIds) {
 
 export function savePlaylistFromQueue(queue, options) {
   if (!isQueueActive(queue)) return null
+  if (queue.source === 'lesson') return null
   const opts = options || {}
   const items = queue.items.map(function(item) {
     if (!item || !item.tuneId) return null

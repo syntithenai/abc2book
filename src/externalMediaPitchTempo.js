@@ -447,7 +447,12 @@ export default class ExternalMediaPitchTempo {
     }
 
     if (this._stemLiveMixer && this._stemLiveMixer.isConnected()) {
-      this._stemLiveMixer.setTempo(tempo);
+      if (Math.abs(combinedPitchSemitones(pitch, fineTune)) < 0.0001) {
+        this._stemLiveMixer.setTempo(tempo);
+      } else {
+        this._teardownStemLiveMixer();
+        this.shifter.applySettings(tempo, pitch, fineTune);
+      }
     } else if (!(this._stemBuffers && this._canUseStemLiveMixer(tempo, pitch, fineTune))) {
       this.shifter.applySettings(tempo, pitch, fineTune);
     }

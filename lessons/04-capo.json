@@ -1,0 +1,103 @@
+{
+  "id": "04-capo",
+  "title": "04 Capo",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "04-transposition/04-capo.md",
+  "sections": [
+    {
+      "id": "capo-logic-for-guitar-and-mandolin",
+      "title": "Capo Logic for Guitar and Mandolin",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** transposition | **Difficulty:** 3/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A capo raises pitch without changing chord shapes."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "title": "How it works",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "G shapes + capo 2 = A major. Capo 3 from G = B♭. Capo 5 from G = C. Each fret = one semitone."
+        }
+      ]
+    },
+    {
+      "id": "why-use-it",
+      "title": "Why use it",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Open-chord resonance and easier fingerings in keys that would otherwise require barre chords. Balance against vocal range."
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tell the band 'capo 2, G shapes in A' to avoid mismatch with concert-pitch instruments."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-g-shapes-capo-fret-2",
+      "title": "Q1. G shapes, capo fret 2:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) A major\n- B) G major\n- C) B major\n- D) E major\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-capo-preserves-open-chord-fingerings-in-higher-keys",
+      "title": "Q2. Capo preserves open-chord fingerings in higher keys.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. G shapes, capo fret 2:\n\n- A) A major\n- B) G major\n- C) B major\n- D) E major\n\n**Answer:** A\n\n### Q2. Capo preserves open-chord fingerings in higher keys.\n\n**Answer:** True"
+}

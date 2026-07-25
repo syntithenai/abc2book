@@ -8,6 +8,7 @@ import {
   createRhythmConfig,
   normalizeRhythmConfig,
   ENGINE_MODE_CLICK,
+  ENGINE_MODE_DRUMS,
 } from './rhythmEngineTypes'
 
 export function resolveTuneTimeSignature(tune, tunebook) {
@@ -49,43 +50,206 @@ export function normalizePlaybackMetronomeRhythm(rhythm, tune, tunebook) {
   return defaultPlaybackMetronomeSettings(tune, tunebook).rhythm
 }
 
-export function getPlaybackMetronomeSettings(tune, tunebook) {
-  const defaults = defaultPlaybackMetronomeSettings(tune, tunebook)
-  if (!tune) return defaults
-  const countIn = tune.playbackMetronomeCountIn !== false
-  const bars = parseInt(tune.playbackMetronomeCountInBars, 10)
-  let rhythm = hasCustomPlaybackMetronomeRhythm(tune)
-    ? normalizePlaybackMetronomeRhythm(tune.playbackMetronomeRhythm, tune, tunebook)
-    : defaults.rhythm
-  if (tune.playbackMetronomeEngine) {
-    rhythm = normalizeRhythmConfig(Object.assign({}, rhythm, {
-      engineMode: tune.playbackMetronomeEngine,
-    }))
+export function resolveMetronomeSettingsTune(candidate, options) {
+  const opts = options || {}
+  const tunes = opts.tunes
+  const tablatureSourceTune = opts.tablatureSourceTune
+  const mediaControllerTune = opts.mediaControllerTune
+  const abc = opts.abc
+  const abcTools = opts.abcTools
+
+  const candidateId = (candidate && candidate.id)
+    || (mediaControllerTune && mediaControllerTune.id)
+    || (tablatureSourceTune && tablatureSourceTune.id)
+
+  if (candidateId && tunes) {
+    const fromTunes = tunes[candidateId] || tunes[String(candidateId)]
+    if (fromTunes) return fromTunes
   }
-  if (tune.playbackMetronomePresetId) {
-    rhythm = normalizeRhythmConfig(Object.assign({}, rhythm, {
+
+  if (tablatureSourceTune && (!candidateId || tablatureSourceTune.id === candidateId)) {
+    return tablatureSourceTune
+  }
+
+  if (mediaControllerTune) return mediaControllerTune
+
+  if (abc && abcTools && abcTools.abc2json) {
+    try {
+      const fromAbc = abcTools.abc2json(abc)
+      if (fromAbc && (!candidateId || fromAbc.id === candidateId)) {
+        return fromAbc
+      }
+    } catch (e) {}
+  }
+
+  return candidate || null
+}
+
+export function serializePlaybackMetronomeRhythmStore(rhythm, engineMode) {
+  const mode = engineMode === ENGINE_MODE_DRUMS ? ENGINE_MODE_DRUMS : ENGINE_MODE_CLICK
+  const normalized = normalizeRhythmConfig(Object.assign({}, rhythm, { engineMode: mode }))
+  const payload = {
+    beatsPerBar: normalized.beatsPerBar,
+    accents: normalized.accents,
+    pulsesPerBeat: normalized.pulsesPerBeat,
+    presetId: normalized.presetId || '',
+  }
+  if (mode === ENGINE_MODE_DRUMS && normalized.drumPattern) {
+    payload.drumPattern = normalized.drumPattern
+  }
+  return payload
+}
+
+function rhythmFieldToConfig(field, engineMode, tune, tunebook) {
+  if (!field || typeof field !== 'object' || !(field.beatsPerBar > 0)) return null
+  return normalizeRhythmConfig(Object.assign({}, field, {
+    engineMode: engineMode,
+    presetId: field.presetId || '',
+  }))
+}
+
+export function readPlaybackMetronomeRhythmStores(tune, tunebook) {
+  const defaults = defaultPlaybackMetronomeSettings(tune, tunebook)
+  const defaultClick = normalizeRhythmConfig(Object.assign({}, defaults.rhythm, {
+    engineMode: ENGINE_MODE_CLICK,
+    drumPattern: null,
+  }))
+
+  let clickRhythm = rhythmFieldToConfig(
+    tune && tune.playbackMetronomeClickRhythm,
+    ENGINE_MODE_CLICK,
+    tune,
+    tunebook
+  )
+  let drumRhythm = rhythmFieldToConfig(
+    tune && tune.playbackMetronomeDrumRhythm,
+    ENGINE_MODE_DRUMS,
+    tune,
+    tunebook
+  )
+
+  if (!clickRhythm && !drumRhythm && tune && hasCustomPlaybackMetronomeRhythm(tune)) {
+    const normalized = normalizePlaybackMetronomeRhythm(tune.playbackMetronomeRhythm, tune, tunebook)
+    const legacyEngine = tune.playbackMetronomeEngine === ENGINE_MODE_DRUMS
+      || normalized.engineMode === ENGINE_MODE_DRUMS
+        ? ENGINE_MODE_DRUMS
+        : ENGINE_MODE_CLICK
+    if (legacyEngine === ENGINE_MODE_DRUMS) {
+      drumRhythm = normalizeRhythmConfig(Object.assign({}, normalized, {
+        engineMode: ENGINE_MODE_DRUMS,
+      }))
+      clickRhythm = rhythmFieldToConfig({
+        beatsPerBar: normalized.beatsPerBar,
+        accents: normalized.accents,
+        pulsesPerBeat: normalized.pulsesPerBeat,
+        presetId: '',
+      }, ENGINE_MODE_CLICK, tune, tunebook)
+    } else {
+      clickRhythm = normalizeRhythmConfig(Object.assign({}, normalized, {
+        engineMode: ENGINE_MODE_CLICK,
+        drumPattern: null,
+      }))
+    }
+  }
+
+  if (!clickRhythm) clickRhythm = defaultClick
+
+  const activeEngine = tune && tune.playbackMetronomeEngine === ENGINE_MODE_DRUMS
+    && drumRhythm
+    ? ENGINE_MODE_DRUMS
+    : ENGINE_MODE_CLICK
+
+  let activeRhythm = activeEngine === ENGINE_MODE_DRUMS
+    ? normalizeRhythmConfig(Object.assign({}, drumRhythm, { engineMode: ENGINE_MODE_DRUMS }))
+    : normalizeRhythmConfig(Object.assign({}, clickRhythm, {
+      engineMode: ENGINE_MODE_CLICK,
+      drumPattern: null,
+    }))
+
+  if (tune && tune.playbackMetronomePresetId && !activeRhythm.presetId) {
+    activeRhythm = normalizeRhythmConfig(Object.assign({}, activeRhythm, {
       presetId: tune.playbackMetronomePresetId,
     }))
   }
+
+  return {
+    clickRhythm: clickRhythm,
+    drumRhythm: drumRhythm,
+    activeEngine: activeEngine,
+    activeRhythm: activeRhythm,
+  }
+}
+
+export function getPlaybackMetronomeSettings(tune, tunebook) {
+  const defaults = defaultPlaybackMetronomeSettings(tune, tunebook)
+  if (!tune) {
+    return {
+      countIn: defaults.countIn,
+      countInBars: defaults.countInBars,
+      duringPlayback: defaults.duringPlayback,
+      rhythm: defaults.rhythm,
+      clickRhythm: defaults.rhythm,
+      drumRhythm: null,
+      engine: ENGINE_MODE_CLICK,
+    }
+  }
+  const stores = readPlaybackMetronomeRhythmStores(tune, tunebook)
+  const countIn = tune.playbackMetronomeCountIn !== false
+  const bars = parseInt(tune.playbackMetronomeCountInBars, 10)
   return {
     countIn: countIn,
     countInBars: bars > 0 ? bars : defaults.countInBars,
     duringPlayback: tune.playbackMetronomeDuringPlayback === true,
-    rhythm: rhythm,
+    rhythm: stores.activeRhythm,
+    clickRhythm: stores.clickRhythm,
+    drumRhythm: stores.drumRhythm,
+    engine: stores.activeEngine,
   }
 }
 
 export function applyPlaybackMetronomeSettings(tune, settings, options) {
   if (!tune || !settings) return tune
+  const tunebook = tunebookFromOptions(options)
   const next = Object.assign({}, tune)
   next.playbackMetronomeCountIn = settings.countIn !== false
   const bars = parseInt(settings.countInBars, 10)
   next.playbackMetronomeCountInBars = bars > 0 ? bars : 1
   next.playbackMetronomeDuringPlayback = settings.duringPlayback === true
   if (!options || options.persistRhythm !== false) {
-    const normalized = normalizePlaybackMetronomeRhythm(settings.rhythm, tune, tunebookFromOptions(options))
+    const stores = readPlaybackMetronomeRhythmStores(tune, tunebook)
+    const normalized = normalizePlaybackMetronomeRhythm(settings.rhythm, tune, tunebook)
+    const engine = normalized.engineMode === ENGINE_MODE_DRUMS
+      ? ENGINE_MODE_DRUMS
+      : ENGINE_MODE_CLICK
+
+    let clickRhythm = settings.clickRhythm
+      ? rhythmFieldToConfig(settings.clickRhythm, ENGINE_MODE_CLICK, tune, tunebook)
+      : stores.clickRhythm
+    let drumRhythm = settings.drumRhythm
+      ? rhythmFieldToConfig(settings.drumRhythm, ENGINE_MODE_DRUMS, tune, tunebook)
+      : stores.drumRhythm
+
+    if (engine === ENGINE_MODE_DRUMS) {
+      drumRhythm = normalized
+    } else {
+      clickRhythm = normalizeRhythmConfig(Object.assign({}, normalized, {
+        engineMode: ENGINE_MODE_CLICK,
+        drumPattern: null,
+      }))
+    }
+
+    next.playbackMetronomeClickRhythm = serializePlaybackMetronomeRhythmStore(
+      clickRhythm,
+      ENGINE_MODE_CLICK
+    )
+    if (drumRhythm) {
+      next.playbackMetronomeDrumRhythm = serializePlaybackMetronomeRhythmStore(
+        drumRhythm,
+        ENGINE_MODE_DRUMS
+      )
+    }
     next.playbackMetronomeRhythm = normalized
-    next.playbackMetronomeEngine = normalized.engineMode || ENGINE_MODE_CLICK
+    next.playbackMetronomeEngine = engine
     next.playbackMetronomePresetId = normalized.presetId || ''
   }
   return next
@@ -107,17 +271,10 @@ export function applyPlaybackMetronomeCountInFields(tune, settings) {
 
 export function serializePlaybackMetronomeRhythm(rhythm) {
   const normalized = normalizePlaybackMetronomeRhythm(rhythm)
-  const payload = {
-    beatsPerBar: normalized.beatsPerBar,
-    accents: normalized.accents,
-    pulsesPerBeat: normalized.pulsesPerBeat,
-    engineMode: normalized.engineMode,
-    presetId: normalized.presetId || '',
-  }
-  if (normalized.engineMode === 'drums' && normalized.drumPattern) {
-    payload.drumPattern = normalized.drumPattern
-  }
-  return JSON.stringify(payload)
+  return serializePlaybackMetronomeRhythmStore(
+    normalized,
+    normalized.engineMode === ENGINE_MODE_DRUMS ? ENGINE_MODE_DRUMS : ENGINE_MODE_CLICK
+  )
 }
 
 export function parsePlaybackMetronomeRhythmField(raw, tune, tunebook) {

@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import { Alert } from 'react-bootstrap'
+import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import {
   buildGoogleComposerSearchUrl,
@@ -108,6 +109,8 @@ export default function ComposerSearchButton({
   const resolverAvailable = typeof resolverAvailableProp === 'boolean'
     ? resolverAvailableProp
     : resolverAvailableFromHealth
+  const resolverAccess = useFieldLookupResolverAccess(token)
+  const automaticLookup = resolverAccess.automaticLookupFor('composer')
   const alwaysPickRef = useRef(!!alwaysPick)
   alwaysPickRef.current = !!alwaysPick
   const pickWhenMultipleRef = useRef(!!pickWhenMultiple)
@@ -498,7 +501,7 @@ export default function ComposerSearchButton({
   const buttonGroup = (
     <>
       <FieldLookupButtonGroup
-        automaticLookup={true}
+        automaticLookup={automaticLookup}
         showExternal={!!(googleUrl && externalLinkIcon)}
         busy={busy}
         disabled={searchDisabled}

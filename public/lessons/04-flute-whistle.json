@@ -1,0 +1,114 @@
+{
+  "id": "04-flute-whistle",
+  "title": "04 Flute Whistle",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/04-flute-whistle.md",
+  "sections": [
+    {
+      "id": "flute-and-tin-whistle",
+      "title": "Flute and Tin Whistle",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The flute is an aerophone — sound from air splitting across an edge or hole. Concert flute (Boehm system, 19th century) is metal with complex keywork. Tin whistle (penny whistle) is a simple six-hole fipple flute central to Irish trad."
+        }
+      ]
+    },
+    {
+      "id": "concert-flute",
+      "title": "Concert flute",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "C instrument, range roughly C4–C7. Silver, gold, or nickel alloy. Embouchure (lip shape) controls tone. Baroque flute was wooden, one key."
+        }
+      ]
+    },
+    {
+      "id": "tin-whistle",
+      "title": "Tin whistle",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Typically D major (most common session key) but available in many keys. Diatonic with cross-fingerings for accidentals. Clarke, Generation, and Feadóg are classic brands. Simple enough for beginners; expressive in expert hands (Mary Bergin, Joanie Madden)."
+        }
+      ]
+    },
+    {
+      "id": "wooden-flute",
+      "title": "Wooden flute",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish traditional wooden flute (concert pitch) — breathy, reedy tone. Keyless or keyed. 8-key and 4-key systems common."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-tin-whistle-is-a",
+      "title": "Q1. Tin whistle is a:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Fipple flute (aerophone)\n- B) Bowed string\n- C) Struck percussion\n- D) Keyboard\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-most-common-session-whistle-key",
+      "title": "Q2. Most common session whistle key:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) D\n- B) B♭\n- C) F♯\n- D) A♭\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q3-boehm-system-improved-flute-keywork-in-the-19th-century",
+      "title": "Q3. Boehm system improved flute keywork in the 19th century.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Tin whistle is a:\n\n- A) Fipple flute (aerophone)\n- B) Bowed string\n- C) Struck percussion\n- D) Keyboard\n\n**Answer:** A\n\n### Q2. Most common session whistle key:\n\n- A) D\n- B) B♭\n- C) F♯\n- D) A♭\n\n**Answer:** A\n\n### Q3. Boehm system improved flute keywork in the 19th century.\n\n**Answer:** True"
+}

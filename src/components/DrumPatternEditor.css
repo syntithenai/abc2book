@@ -87,46 +87,49 @@
 
 .drum-pattern-editor__grid-wrap {
   overflow-x: auto;
+  max-width: 100%;
   margin-bottom: 0.5rem;
+  -webkit-overflow-scrolling: touch;
 }
 
 .drum-pattern-editor__grid {
-  display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: max-content;
   min-width: 100%;
 }
 
 .drum-pattern-editor__grid-header,
 .drum-pattern-editor__grid-row {
-  display: table-row;
-}
-
-.drum-pattern-editor__grid-label-cell,
-.drum-pattern-editor__grid-slot-header,
-.drum-pattern-editor__grid-cell {
-  display: table-cell;
-  vertical-align: middle;
+  display: grid;
+  gap: 2px;
+  align-items: center;
+  width: max-content;
+  min-width: 100%;
 }
 
 .drum-pattern-editor__grid-label-cell {
   font-size: 0.8rem;
   font-weight: 600;
-  padding-right: 0.5rem;
+  padding-right: 0.35rem;
   white-space: nowrap;
-  min-width: 3.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .drum-pattern-editor__grid-slot-header {
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   color: #6c757d;
   text-align: center;
-  min-width: 1.4rem;
-  padding-bottom: 0.15rem;
+  line-height: 1.2;
+  min-height: 1rem;
+  padding-bottom: 0.1rem;
 }
 
 .drum-pattern-editor__grid-slot-header.is-beat-start {
   border-left: 2px solid #adb5bd;
+  padding-left: 2px;
 }
 
 .drum-pattern-editor__grid-slot-header.is-active {
@@ -135,14 +138,15 @@
 }
 
 .drum-pattern-editor__grid-cell {
-  width: 1.4rem;
-  height: 1.4rem;
-  min-width: 1.4rem;
+  display: block;
+  width: 1.35rem;
+  height: 1.35rem;
   border: 1px solid #ced4da;
   border-radius: 3px;
   background: #f8f9fa;
   padding: 0;
   cursor: pointer;
+  justify-self: center;
 }
 
 .drum-pattern-editor__grid-cell.is-beat-start {

@@ -113,7 +113,19 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         if (mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()) return
         if (playState !== 'playMedia' && playState !== 'playMidi') return
 
+        const parsedLinkNum = parseInt(mediaLinkNumberParam, 10)
+        const requestedLinkNum = !isNaN(parsedLinkNum) ? parsedLinkNum : 0
         const isFirstTuneLoad = !lastTuneId
+        const tuneChanged = tune.id !== lastTuneId
+        const linkChanged = requestedLinkNum !== lastMediaLinkNumber
+        const playStateChanged = playState !== lastPlayState
+
+        // tune/tunebook are new object references on most App renders; only
+        // re-apply the route when the logical playback target actually changed.
+        if (!isFirstTuneLoad && !tuneChanged && !linkChanged && !playStateChanged) {
+            return
+        }
+
         const route = mc.applyPlaybackRoute(
             playState,
             mediaLinkNumberParam,
@@ -123,8 +135,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         setSrc(route.src === null ? null : route.src)
 
         let changeType = null
-        if (tune.id !== lastTuneId) {
-            changeType = 'tune'
+        if (tuneChanged) {
             mediaController.setTune(tune)
             if (mediaController.clearCachedNativePlaybackUrl) {
                 mediaController.clearCachedNativePlaybackUrl()
@@ -154,7 +165,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             if (mediaController.hasActivePlaybackIntent && !mediaController.hasActivePlaybackIntent()) {
                 mediaController.setIsLoading(false)
             }
-        } else if (route.mediaLinkNumber !== lastMediaLinkNumber) {
+        } else if (linkChanged) {
             changeType = 'link'
             if (mediaController.clearCachedNativePlaybackUrl) {
                 mediaController.clearCachedNativePlaybackUrl()
@@ -163,7 +174,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             mediaController.setClickSeek(0)
             mediaController.setDuration(0)
             mediaController.cleanupTimers()
-        } else if (playState !== lastPlayState) {
+        } else if (playStateChanged) {
             changeType = 'playState'
         }
 
@@ -187,7 +198,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         setLastMediaLinkNumber(route.mediaLinkNumber)
         setLastPlayState(playState)
     
-    },[tuneId, mediaLinkNumberParam, playState, tune, tunebook, lastTuneId, lastMediaLinkNumber, lastPlayState, suppressAutostart])
+    },[tuneId, mediaLinkNumberParam, playState, lastTuneId, lastMediaLinkNumber, lastPlayState, suppressAutostart])
     
     function handleControllerMediaReady(e) {
         if (mediaController.onMediaReady) {
@@ -313,7 +324,9 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         ? mediaController.isExternalOutputActive()
         : !!mediaController.externalMediaActive
     const showYoutubeEmbed = srcType === 'youtube'
-        && (instanceId === 'practice' || !externalOutputActive)
+        && (instanceId === 'practice'
+            || !externalOutputActive
+            || (mediaController.nativePlaybackFallbackRequired && !externalOutputActive))
 
     if (useCachedAudioPlayer || srcType === 'audio' || srcType === 'recording') {
         content =  <audio 

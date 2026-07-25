@@ -19,7 +19,12 @@ import {
   resizeDrumPattern,
 } from '../rhythmEngineTypes'
 import { primeDrumKit } from '../drumSampleKit'
-import { applyRhythmPreset } from '../drumPatternPresets'
+import {
+  applyRhythmPreset,
+  defaultDrumPresetIdForRhythm,
+  getRhythmPresetById,
+  presetMatchesRhythm,
+} from '../drumPatternPresets'
 import DrumPatternEditor from './DrumPatternEditor'
 import {
   METRONOME_PULSE_OPTIONS,
@@ -341,14 +346,45 @@ export default function MetronomePanel(props) {
     }
   }
 
+  function resolveDrumRhythmAfterMeterChange(nextRhythm, previousRhythm) {
+    if (nextRhythm.engineMode !== ENGINE_MODE_DRUMS) return nextRhythm
+
+    const prevPresetId = previousRhythm.presetId
+    if (prevPresetId) {
+      const prevPreset = getRhythmPresetById(prevPresetId)
+      if (prevPreset && presetMatchesRhythm(prevPreset, nextRhythm)) {
+        return applyRhythmPreset(prevPresetId)
+      }
+      return applyRhythmPreset(defaultDrumPresetIdForRhythm(nextRhythm))
+    }
+
+    if (nextRhythm.drumPattern) {
+      return Object.assign({}, nextRhythm, {
+        drumPattern: resizeDrumPattern(nextRhythm.drumPattern, slotsPerBar(nextRhythm)),
+      })
+    }
+    return applyRhythmPreset(defaultDrumPresetIdForRhythm(nextRhythm))
+  }
+
   function handleEngineModeChange(mode) {
     if (disabled) return
-    let next = normalizeRhythmConfig(Object.assign({}, rhythm, { engineMode: mode }))
-    if (mode === ENGINE_MODE_DRUMS && !next.drumPattern) {
-      next = applyRhythmPreset('rock-basic')
-    }
-    if (mode === ENGINE_MODE_CLICK) {
-      next = normalizeRhythmConfig(Object.assign({}, next, {
+    const stores = props.rhythmStores
+    let next
+    if (mode === ENGINE_MODE_DRUMS) {
+      if (stores && stores.drumRhythm) {
+        next = normalizeRhythmConfig(Object.assign({}, stores.drumRhythm, {
+          engineMode: ENGINE_MODE_DRUMS,
+        }))
+      } else {
+        next = applyRhythmPreset(defaultDrumPresetIdForRhythm(rhythm))
+      }
+    } else if (stores && stores.clickRhythm) {
+      next = normalizeRhythmConfig(Object.assign({}, stores.clickRhythm, {
+        engineMode: ENGINE_MODE_CLICK,
+        drumPattern: null,
+      }))
+    } else {
+      next = normalizeRhythmConfig(Object.assign({}, rhythm, {
         engineMode: ENGINE_MODE_CLICK,
         drumPattern: null,
       }))
@@ -436,14 +472,12 @@ export default function MetronomePanel(props) {
     let nextRhythm = createRhythmConfig(nextCount, rhythm.accents, rhythm.pulsesPerBeat, {
       engineMode: rhythm.engineMode,
       drumPattern: rhythm.drumPattern,
-      presetId: '',
+      presetId: rhythm.presetId || '',
     })
-    if (nextRhythm.engineMode === ENGINE_MODE_DRUMS && nextRhythm.drumPattern) {
-      nextRhythm = Object.assign({}, nextRhythm, {
-        drumPattern: resizeDrumPattern(nextRhythm.drumPattern, slotsPerBar(nextRhythm)),
-      })
+    if (nextRhythm.engineMode === ENGINE_MODE_DRUMS) {
+      nextRhythm = resolveDrumRhythmAfterMeterChange(nextRhythm, rhythm)
     }
-    applyRhythm(nextRhythm, formatRhythmText(nextRhythm), '')
+    applyRhythm(nextRhythm, formatRhythmText(nextRhythm), nextRhythm.presetId || '')
   }
 
   function setPulsesForBeat(beatIndex, pulses) {
@@ -452,14 +486,12 @@ export default function MetronomePanel(props) {
     let nextRhythm = createRhythmConfig(rhythm.beatsPerBar, rhythm.accents, nextPulses, {
       engineMode: rhythm.engineMode,
       drumPattern: rhythm.drumPattern,
-      presetId: '',
+      presetId: rhythm.presetId || '',
     })
-    if (nextRhythm.engineMode === ENGINE_MODE_DRUMS && nextRhythm.drumPattern) {
-      nextRhythm = Object.assign({}, nextRhythm, {
-        drumPattern: resizeDrumPattern(nextRhythm.drumPattern, slotsPerBar(nextRhythm)),
-      })
+    if (nextRhythm.engineMode === ENGINE_MODE_DRUMS) {
+      nextRhythm = resolveDrumRhythmAfterMeterChange(nextRhythm, rhythm)
     }
-    applyRhythm(nextRhythm, formatRhythmText(nextRhythm), '')
+    applyRhythm(nextRhythm, formatRhythmText(nextRhythm), nextRhythm.presetId || '')
   }
 
   function selectQuickRhythmPreset(preset) {

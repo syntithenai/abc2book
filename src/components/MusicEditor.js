@@ -1,6 +1,6 @@
 import {useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import {Button, ButtonGroup} from 'react-bootstrap'
-import {useState, useEffect, useCallback, useRef, useSyncExternalStore, useMemo} from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useSyncExternalStore, useState} from 'react'
 import AbcEditor from './AbcEditor'
 import TuneEnhanceButton from './TuneEnhanceButton'
 import NotationSearchButton from './NotationSearchButton'
@@ -19,6 +19,7 @@ import {
   subscribeMediaAnalysisJobs,
 } from '../mediaAnalysisJobs'
 import { mediaAnalysisJobHasMelodySourceNotes } from '../mediaAnalysisSuggestions'
+import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
 
 export default function MusicEditor(props) {
     const embedded = !!props.embedded
@@ -57,8 +58,9 @@ export default function MusicEditor(props) {
       if (typeof forceRefresh === 'function') forceRefresh()
       if (embedded && typeof props.onLiveSave === 'function') props.onLiveSave(tuneId)
     }, [embedded, forceRefresh, props.onLiveSave, tuneId])
-    const canUndo = tuneId && historyState ? canUndoTuneEdit(historyState, tuneId) : false
-    const canRedo = tuneId && historyState ? canRedoTuneEdit(historyState, tuneId) : false
+    const notationFlushRef = useRef(null)
+    const canUndo = tuneId && editHistory ? editHistory.canUndo(tuneId) : false
+    const canRedo = tuneId && editHistory ? editHistory.canRedo(tuneId) : false
     const undoLabel = tuneId && historyState ? getUndoTuneEditLabel(historyState, tuneId) : ''
     const redoLabel = tuneId && historyState ? getRedoTuneEditLabel(historyState, tuneId) : ''
     const autoActivateChordRecord = editorViewMode === 'chords' && searchParams.get('record') === '1'
@@ -77,6 +79,11 @@ export default function MusicEditor(props) {
         const nextView = params.view ? normalizeEditorViewMode(params.view) : 'info'
         setEditorViewMode(nextView)
     }, [embedded, params.tuneId, params.view])
+
+    useEffect(function() {
+        if (!embedded || !props.initialView) return
+        setEditorViewMode(normalizeEditorViewMode(props.initialView))
+    }, [embedded, props.initialView, resolvedTuneId])
 
     function handleEditorViewChange(nextView) {
         const normalized = normalizeEditorViewMode(nextView)
@@ -105,17 +112,25 @@ export default function MusicEditor(props) {
 
     const handleUndo = useCallback(function() {
         if (!tuneId) return
+        if (notationFlushRef.current) notationFlushRef.current()
+        if (editHistory && typeof editHistory.flushPendingTune === 'function') {
+            editHistory.flushPendingTune(tuneId)
+        }
         if (tunebook.undoTuneEdits(tuneId)) {
             notifyRefresh()
         }
-    }, [tuneId, tunebook, notifyRefresh])
+    }, [tuneId, tunebook, notifyRefresh, editHistory])
 
     const handleRedo = useCallback(function() {
         if (!tuneId) return
+        if (notationFlushRef.current) notationFlushRef.current()
+        if (editHistory && typeof editHistory.flushPendingTune === 'function') {
+            editHistory.flushPendingTune(tuneId)
+        }
         if (tunebook.redoTuneEdits(tuneId)) {
             notifyRefresh()
         }
-    }, [tuneId, tunebook, notifyRefresh])
+    }, [tuneId, tunebook, notifyRefresh, editHistory])
 
     // Editor does not clear the now-playing queue; follow-tune navigation is suppressed in editor.
     useEffect(function() {
@@ -232,7 +247,7 @@ export default function MusicEditor(props) {
                       title={tune && tune.name ? tune.name : ''}
                       artist={tune && tune.composer ? tune.composer : ''}
                       rhythm={tune && tune.rhythm ? tune.rhythm : ''}
-                      currentGenre={tune && tune.genre ? tune.genre : ''}
+                      currentGenres={allGenres(tune)}
                       currentValue={tune && tune.notes
                         ? (Array.isArray(tune.notes) ? tune.notes.join('\n') : String(tune.notes))
                         : (typeof abc === 'string' ? abc : '')}
@@ -241,7 +256,8 @@ export default function MusicEditor(props) {
                       disabled={!(tune && tune.name && String(tune.name).trim())}
                       onGenreAccept={function(genre) {
                         if (!tune) return
-                        tune.genre = genre
+                        if (!Array.isArray(tune.genres)) tune.genres = []
+                        tune.genres = mergeBibliographicList(tune.genres, [genre])
                         tune.id = tuneId
                         props.tunebook.saveTune(tune)
                       }}
@@ -332,11 +348,13 @@ export default function MusicEditor(props) {
           editorViewMode={editorViewMode}
           onEditorViewModeChange={handleEditorViewChange}
           autoActivateChordRecord={autoActivateChordRecord}
+          autoStartChordSearch={props.autoStartChordSearch}
           searchIndex={props.searchIndex}
           loadTuneTexts={props.loadTuneTexts}
           onNotationHelpModeChange={props.onNotationHelpModeChange}
           historyControls={embedded && notationOnly ? null : (isNotationView ? historyButtonGroup : null)}
           alignedLyricsOnly={notationOnly}
+          onRegisterFlushCommit={function(fn) { notationFlushRef.current = fn; }}
         />
     </div>
 }

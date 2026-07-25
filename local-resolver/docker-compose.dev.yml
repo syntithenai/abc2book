@@ -70,6 +70,8 @@ services:
       - ./midi_import_score.py:/app/midi_import_score.py
       - ./midi_note_events.py:/app/midi_note_events.py
       - ./midi_to_abc.py:/app/midi_to_abc.py
+      - ./midi_cleanup.py:/app/midi_cleanup.py
+      - ./midi_drum_map.py:/app/midi_drum_map.py
       - ./musescore_fetch.py:/app/musescore_fetch.py
       - ./notation_title_variants.py:/app/notation_title_variants.py
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"

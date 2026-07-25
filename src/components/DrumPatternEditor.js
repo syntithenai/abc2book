@@ -5,6 +5,7 @@ import {
   DRUM_PRESET_CATEGORIES,
   applyRhythmPreset,
   presetLabelForId,
+  presetMatchesRhythm,
 } from '../drumPatternPresets'
 import {
   ENGINE_MODE_CLICK,
@@ -41,12 +42,13 @@ export default function DrumPatternEditor(props) {
       if (categoryFilter && preset.category !== categoryFilter) return false
       if (engineMode === ENGINE_MODE_CLICK && preset.engineMode !== ENGINE_MODE_CLICK) return false
       if (engineMode === ENGINE_MODE_DRUMS && preset.engineMode !== ENGINE_MODE_DRUMS) return false
+      if (engineMode === ENGINE_MODE_DRUMS && !presetMatchesRhythm(preset, rhythm)) return false
       if (!query) return true
       return preset.label.toLowerCase().includes(query)
         || preset.category.toLowerCase().includes(query)
         || preset.id.toLowerCase().includes(query)
     })
-  }, [presetFilter, engineMode, props.presetCategory])
+  }, [presetFilter, engineMode, props.presetCategory, rhythm])
 
   function selectPreset(preset) {
     const next = applyRhythmPreset(preset.id)
@@ -76,6 +78,8 @@ export default function DrumPatternEditor(props) {
   const presetLabel = rhythm.presetId
     ? presetLabelForId(rhythm.presetId)
   : (isDrums ? 'Custom pattern' : '')
+
+  const gridColumnTemplate = '3.25rem repeat(' + totalSlots + ', 1.35rem)'
 
   return (
     <div className={'drum-pattern-editor' + (compact ? ' drum-pattern-editor--compact' : '')}>
@@ -185,7 +189,11 @@ export default function DrumPatternEditor(props) {
           {editOpen ? (
             <div className="drum-pattern-editor__grid-wrap">
               <div className="drum-pattern-editor__grid" role="grid" aria-label="Drum pattern">
-                <div className="drum-pattern-editor__grid-header" role="row">
+                <div
+                  className="drum-pattern-editor__grid-header"
+                  role="row"
+                  style={{ gridTemplateColumns: gridColumnTemplate }}
+                >
                   <div className="drum-pattern-editor__grid-label-cell" role="columnheader" />
                   {Array.from({ length: totalSlots }).map(function(_, slotIndex) {
                     const beatIndex = slotBeatIndex(rhythm, slotIndex)
@@ -198,14 +206,19 @@ export default function DrumPatternEditor(props) {
                           + (slotIndex === props.activeSlot ? ' is-active' : '')}
                         role="columnheader"
                       >
-                        {slotIndex + 1}
+                        {isBeatStart ? (beatIndex + 1) : ''}
                       </div>
                     )
                   })}
                 </div>
                 {(drumPattern.tracks || []).map(function(track) {
                   return (
-                    <div key={track.id} className="drum-pattern-editor__grid-row" role="row">
+                    <div
+                      key={track.id}
+                      className="drum-pattern-editor__grid-row"
+                      role="row"
+                      style={{ gridTemplateColumns: gridColumnTemplate }}
+                    >
                       <div className="drum-pattern-editor__grid-label-cell" role="rowheader">{track.label}</div>
                       {(track.steps || []).map(function(step, stepIndex) {
                         const isActive = stepIndex === props.activeSlot

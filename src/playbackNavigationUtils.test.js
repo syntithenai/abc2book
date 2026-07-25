@@ -44,6 +44,22 @@ describe('playbackNavigationUtils', function() {
     expect(isQueuePlaybackEngaged({})).toBe(false)
   })
 
+  test('isQueuePlaybackEngaged ignores paused queue when browsing a different tune', function() {
+    const queue = createQueue({ tuneIds: ['playing', 'other'], currentIndex: 0 })
+    expect(isQueuePlaybackEngaged({
+      canResumePlayback: function() { return true },
+    }, {
+      queue: queue,
+      viewedTuneId: 'other',
+    })).toBe(false)
+    expect(isQueuePlaybackEngaged({
+      canResumePlayback: function() { return true },
+    }, {
+      queue: queue,
+      viewedTuneId: 'playing',
+    })).toBe(true)
+  })
+
   test('getViewedTuneIdFromPath', function() {
     expect(getViewedTuneIdFromPath('/tunes/abc/playMidi')).toBe('abc')
     expect(getViewedTuneIdFromPath('/editor/xyz')).toBe('xyz')

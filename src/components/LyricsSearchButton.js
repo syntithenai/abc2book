@@ -42,7 +42,7 @@ export default function LyricsSearchButton({
   title,
   artist,
   rhythm,
-  currentGenre,
+  currentGenres,
   onGenreAccept,
   token,
   onLyrics,
@@ -92,7 +92,7 @@ export default function LyricsSearchButton({
       title: title,
       artist: artist,
       rhythm: rhythm,
-      currentGenre: currentGenre,
+      currentGenres: currentGenres,
       onGenreAccept: onGenreAccept,
     })
   }
@@ -116,7 +116,7 @@ export default function LyricsSearchButton({
       title: title,
       artist: artist,
       rhythm: rhythm,
-      currentGenre: currentGenre,
+      currentGenres: currentGenres,
       onGenreAccept: onGenreAccept,
     })
   }

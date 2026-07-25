@@ -1,0 +1,103 @@
+{
+  "id": "03-articulation",
+  "title": "03 Articulation",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "02-italian-terms/03-articulation.md",
+  "sections": [
+    {
+      "id": "articulation-marks-legato-staccato-and-accents",
+      "title": "Articulation Marks: Legato, Staccato, and Accents",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** italian-terms | **Difficulty:** 2/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Articulation defines how notes connect or separate — as important as pitch and rhythm for expressive performance."
+        }
+      ]
+    },
+    {
+      "id": "core-markings",
+      "title": "Core markings",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Legato** — smooth, connected. **Staccato** (dot) — detached, separated. **Slur** — curved line; play notes in one breath/bow without re-attacking. **Tenuto** (—) — full value, slight emphasis. **Marcato** (^) — marked, emphatic attack."
+        }
+      ]
+    },
+    {
+      "id": "ornaments",
+      "title": "Ornaments",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Trill** (tr) — rapid alternation with upper note. **Mordent** — quick neighbour-tone flick. **Turn** (∞) — encircle the main note. Irish ornamentation (cuts, rolls, cran) is often learned by ear rather than from symbols."
+        }
+      ]
+    },
+    {
+      "id": "instrument-specific",
+      "title": "Instrument-specific",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "String players articulate primarily through bowing: same-note re-bowing vs slurring changes dance feel entirely. Wind players use tonguing syllables (doo, too, doo-goo). Match articulation to dance type — crisp for reels, more legato for airs."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-legato-means",
+      "title": "Q1. Legato means:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Smooth and connected\n- B) Short and detached\n- C) Very loud\n- D) Gradually slower\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-a-slur-indicates-connected-notes-without-re-articulation",
+      "title": "Q2. A slur indicates connected notes without re-articulation.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Legato means:\n\n- A) Smooth and connected\n- B) Short and detached\n- C) Very loud\n- D) Gradually slower\n\n**Answer:** A\n\n### Q2. A slur indicates connected notes without re-articulation.\n\n**Answer:** True"
+}

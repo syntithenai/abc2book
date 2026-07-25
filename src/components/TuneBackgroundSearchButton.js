@@ -3,6 +3,7 @@ import { Alert, Button, Modal, ProgressBar } from 'react-bootstrap';
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup';
 import FieldSearchResultsCaret from './FieldSearchResultsCaret';
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi';
+import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { useIsNarrowViewport } from '../useMediaQuery';
 import { describeResolverAuthReason } from '../mediaProxyClient';
@@ -16,7 +17,6 @@ import {
   formatResearchDuration,
 } from '../tuneBackgroundResearchClient';
 import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions';
-import { isCapabilityAvailable, loadProviderSettings } from '../providerSettings';
 import { useFieldSearchResults } from '../useFieldSearchResults';
 import { setFieldSearchResults, targetKeyForFieldSearch } from '../fieldSearchResultCache';
 
@@ -70,7 +70,7 @@ export default function TuneBackgroundSearchButton({
   artist,
   lyrics,
   rhythm,
-  currentGenre,
+  currentGenres,
   onGenreAccept,
   token,
   existingBackgroundInfo,
@@ -91,8 +91,10 @@ export default function TuneBackgroundSearchButton({
   const startedJobIdRef = useRef(null);
   const handledTerminalJobRef = useRef(null);
   const pendingModeRef = useRef('auto');
+  const resolverAccess = useFieldLookupResolverAccess(token);
   const { available: resolverAvailable, status: resolverStatus, features, refreshMediaResolverHealth } = useMediaResolverHealth();
-  const canResearchBackground = resolverAvailable && isCapabilityAvailable('llm', features, loadProviderSettings());
+  const automaticLookup = resolverAccess.automaticLookupFor('background');
+  const canResearchBackground = automaticLookup;
   const cachedCandidates = useFieldSearchResults(tuneId, null, 'background');
 
   const googleUrl = buildTuneBackgroundSearchUrl(title, artist, lyrics);
@@ -182,7 +184,7 @@ export default function TuneBackgroundSearchButton({
         title: title,
         artist: artist,
         rhythm: rhythm,
-        currentGenre: currentGenre,
+        currentGenres: currentGenres,
         onGenreAccept: onGenreAccept,
         extras: { backgroundText: terminal.resultText },
       });
@@ -194,7 +196,7 @@ export default function TuneBackgroundSearchButton({
     title,
     artist,
     rhythm,
-    currentGenre,
+    currentGenres,
     tuneId,
     refreshMediaResolverHealth,
   ]);
@@ -296,7 +298,7 @@ export default function TuneBackgroundSearchButton({
     buttonGroup: (
       <>
         <FieldLookupButtonGroup
-          automaticLookup={true}
+          automaticLookup={automaticLookup}
           showExternal={!!(googleUrl && externalLinkIcon)}
           busy={busy}
           disabled={!title || !tuneId || disabled}

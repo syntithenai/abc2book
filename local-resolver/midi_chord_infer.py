@@ -26,6 +26,20 @@ CHORD_TEMPLATES: dict[str, set[int]] = {
 SIMULTANEOUS_TOL = 0.03
 
 
+def should_infer_chords_for_import(
+    profile: MidiProfile,
+    include_chords: bool | None,
+    track_ids: list[int] | None,
+    import_mode: str,
+) -> bool:
+    """Skip automatic chord inference on large multi-voice imports unless opted in."""
+    if include_chords is False:
+        return False
+    if import_mode == "multi_voice" and track_ids and len(track_ids) > 2:
+        return include_chords is True
+    return should_infer_chords(profile, include_chords)
+
+
 def should_infer_chords(profile: MidiProfile, include_chords: bool | None = None) -> bool:
     if include_chords is False:
         return False

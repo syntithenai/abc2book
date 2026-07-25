@@ -1,14 +1,19 @@
+import { useEffect, useMemo, useState } from 'react';
 import { Alert, Button } from 'react-bootstrap';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import usePlaybackRegionScan from '../usePlaybackRegionScan';
 import SearchProgressBar from './SearchProgressBar';
 import { isScannableLink } from '../linkPlaybackRegionScanUtils';
+import { getLinkPlayRangeAccess } from '../midiExportNotationAccess';
+import { resolveResolverAccessToken } from '../resolverAccessToken';
 
-function getUnavailableTitle(checked, available, whisper, link) {
-  if (!checked) return 'Checking media resolver...';
-  if (!available) return 'Media resolver is not available';
+function getScanTitle(access, whisper, link) {
+  if (!isScannableLink(link && link.link)) {
+    return 'Enter a media link URL first';
+  }
+  if (!access.showButton) return 'Media resolver is not available';
   if (!whisper) return 'Playback region scan is not available on this resolver';
-  if (!isScannableLink(link && link.link)) return 'Enter a media link URL first';
+  if (access.needsLogin && access.loginWarning) return access.loginWarning.message;
   return 'Detect intro/outro speech and set Start At and End At';
 }
 
@@ -20,8 +25,10 @@ export default function LinkPlaybackRegionScanControls({
   onLinksUpdated,
   className,
   idleLabel = 'Scan Range',
+  login,
+  accessToken,
 }) {
-  const { available: resolverAvailable, checked, features } = useMediaResolverHealth();
+    const { available: resolverAvailable, checked, status, features } = useMediaResolverHealth();
   const {
     isScanning,
     progress,
@@ -29,11 +36,63 @@ export default function LinkPlaybackRegionScanControls({
     requestScan,
     getStatusLabel,
   } = usePlaybackRegionScan(tune && tune.id, linkIndex);
+  const [pendingScanAfterLogin, setPendingScanAfterLogin] = useState(false);
+
+  const scanAccess = useMemo(function() {
+    return getLinkPlayRangeAccess({
+      resolverAvailable: resolverAvailable,
+      resolverChecked: checked,
+      resolverStatus: status,
+      features: features,
+      accessToken: accessToken,
+    });
+  }, [resolverAvailable, checked, status, features, accessToken]);
 
   const whisper = !!features.whisper;
-  const canScan = checked && resolverAvailable && whisper && isScannableLink(link && link.link);
-  const buttonLabel = isScanning ? (getStatusLabel() || 'Scanning...') : idleLabel;
-  const title = getUnavailableTitle(checked, resolverAvailable, whisper, link);
+  const scannable = isScannableLink(link && link.link);
+  const canScan = scanAccess.canOpen && whisper && scannable;
+  const resolvedAccessToken = resolveResolverAccessToken(accessToken);
+
+  useEffect(function() {
+    if (!pendingScanAfterLogin || !canScan || !resolvedAccessToken) return undefined;
+    setPendingScanAfterLogin(false);
+    requestScan(link, {
+      currentLinks: currentLinks,
+      onLinksUpdated: onLinksUpdated,
+    });
+    return undefined;
+  }, [pendingScanAfterLogin, canScan, resolvedAccessToken, link, currentLinks, onLinksUpdated, requestScan]);
+
+  if (!scannable || !checked || !scanAccess.showButton) {
+    return null;
+  }
+
+  function startScan() {
+    requestScan(link, {
+      currentLinks: currentLinks,
+      onLinksUpdated: onLinksUpdated,
+    });
+  }
+
+  function handleClick() {
+    if (isScanning) return;
+    if (scanAccess.needsLogin) {
+      if (typeof login !== 'function') return;
+      setPendingScanAfterLogin(true);
+      login().catch(function() {
+        setPendingScanAfterLogin(false);
+      });
+      return;
+    }
+    if (!canScan) return;
+    startScan();
+  }
+
+  const buttonLabel = isScanning
+    ? (getStatusLabel() || 'Scanning...')
+    : (scanAccess.needsLogin ? 'Login to Scan Range' : idleLabel);
+  const title = getScanTitle(scanAccess, whisper, link);
+  const enabled = !isScanning && (scanAccess.needsLogin || canScan);
 
   return (
     <div className={'link-playback-region-scan' + (className ? ' ' + className : '')}>
@@ -41,15 +100,9 @@ export default function LinkPlaybackRegionScanControls({
         <Button
           variant={isScanning ? 'warning' : 'outline-secondary'}
           size="sm"
-          disabled={!canScan || isScanning}
+          disabled={!enabled}
           title={title}
-          onClick={function() {
-            if (!canScan) return;
-            requestScan(link, {
-              currentLinks: currentLinks,
-              onLinksUpdated: onLinksUpdated,
-            });
-          }}
+          onClick={handleClick}
         >
           {buttonLabel}
         </Button>

@@ -1,0 +1,103 @@
+{
+  "id": "01-why-transpose",
+  "title": "01 Why Transpose",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "04-transposition/01-why-transpose.md",
+  "sections": [
+    {
+      "id": "why-transpose-keys-instruments-and-voices",
+      "title": "Why Transpose? Keys, Instruments, and Voices",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** transposition | **Difficulty:** 2/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Transposition moves all pitches by a fixed interval, changing key while preserving internal relationships."
+        }
+      ]
+    },
+    {
+      "id": "reasons",
+      "title": "Reasons",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Fit instrument range (whistle keys). Match singer's voice. Align with another musician's known key. Written vs concert pitch for transposing instruments (B♭ clarinet reads C, sounds B♭)."
+        }
+      ]
+    },
+    {
+      "id": "what-changes",
+      "title": "What changes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Only absolute pitch shifts. Intervals, contour, harmonic functions, and form remain identical."
+        }
+      ]
+    },
+    {
+      "id": "concert-vs-written",
+      "title": "Concert vs written",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "B♭ trumpet, E♭ alto sax, and F horn are transposing instruments. Clarify whether you mean written or sounding pitch at workshops."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-transposition-preserves",
+      "title": "Q1. Transposition preserves:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Intervals and melodic shape\n- B) Absolute concert pitch\n- C) Only key signature\n- D) Only bar count\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-singers-often-need-transposition-for-comfortable-range",
+      "title": "Q2. Singers often need transposition for comfortable range.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Transposition preserves:\n\n- A) Intervals and melodic shape\n- B) Absolute concert pitch\n- C) Only key signature\n- D) Only bar count\n\n**Answer:** A\n\n### Q2. Singers often need transposition for comfortable range.\n\n**Answer:** True"
+}

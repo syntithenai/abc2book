@@ -2,7 +2,7 @@ export const TUNE_IMPORT_FIELD_DEFS = [
   { key: 'name', label: 'Title', group: 'ABC metadata', defaultImport: true },
   { key: 'composer', label: 'Composer', group: 'ABC metadata', defaultImport: true },
   { key: 'artists', label: 'Artists', group: 'ABC metadata', defaultImport: true },
-  { key: 'genre', label: 'Genre', group: 'ABC metadata', defaultImport: true },
+  { key: 'genres', label: 'Genres', group: 'ABC metadata', defaultImport: true },
   { key: 'rhythm', label: 'Rhythm', group: 'ABC metadata', defaultImport: true },
   { key: 'meter', label: 'Time signature', group: 'ABC metadata', defaultImport: true },
   { key: 'noteLength', label: 'Note length', group: 'ABC metadata', defaultImport: true },

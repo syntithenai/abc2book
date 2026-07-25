@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import Abc from '../Abc'
+import { buildAbcFromTune, NotationPreview } from '../SuggestionPreviewDialog'
 import { getScratchpadBlob } from '../../scratchpadBlobs'
-import { getNotationPreviewAbc } from '../../scratchpadStore'
+import { resolveScratchpadItemAudioBlob, getScratchpadItemDuration } from '../../scratchpadAudioInsert'
 import { useWaveformPeaks } from '../../hooks/useWaveformPeaks'
+import { formatMarkerTime } from '../../scratchpadAudioMarkers'
 
 function typeLabel(type) {
   if (type === 'text') return 'Text'
@@ -13,55 +14,67 @@ function typeLabel(type) {
 }
 
 function AudioWaveformPreview(props) {
+  const item = props.item
   const [url, setUrl] = useState(null)
+  const [loadFailed, setLoadFailed] = useState(false)
   const waveform = useWaveformPeaks(url, !!url)
 
   useEffect(function() {
     let objectUrl = null
     let cancelled = false
-    if (!props.blobKey) {
-      setUrl(null)
-      return undefined
-    }
-    getScratchpadBlob(props.blobKey).then(function(blob) {
-      if (cancelled || !blob) return
-      objectUrl = URL.createObjectURL(blob)
-      setUrl(objectUrl)
-    })
+    setLoadFailed(false)
+    setUrl(null)
+    if (!item || item.type !== 'audio') return undefined
+    resolveScratchpadItemAudioBlob(item, { source: 'mixdown' })
+      .then(function(blob) {
+        if (cancelled || !blob) return
+        objectUrl = URL.createObjectURL(blob)
+        setUrl(objectUrl)
+      })
+      .catch(function() {
+        if (!cancelled) setLoadFailed(true)
+      })
     return function() {
       cancelled = true
       if (objectUrl) URL.revokeObjectURL(objectUrl)
     }
-  }, [props.blobKey])
+  }, [item])
+
+  if (loadFailed) {
+    return <div className="scratchpad-card-preview-placeholder">Audio</div>
+  }
 
   if (!waveform.peaks || !waveform.peaks.length) {
     return <div className="scratchpad-card-preview-audio-placeholder">Audio</div>
   }
 
   const peaks = waveform.peaks
-  const maxH = 40
+  const maxH = 48
   return (
-    <svg className="scratchpad-card-waveform" viewBox={'0 0 ' + peaks.length + ' ' + maxH} preserveAspectRatio="none">
-      {peaks.map(function(p, i) {
-        const h = Math.max(1, (p.max - p.min) * maxH * 0.8)
-        return (
-          <rect
-            key={i}
-            x={i}
-            y={(maxH - h) / 2}
-            width={1}
-            height={h}
-            fill="currentColor"
-          />
-        )
-      })}
-    </svg>
+    <div className="scratchpad-card-preview-audio">
+      <svg className="scratchpad-card-waveform" viewBox={'0 0 ' + peaks.length + ' ' + maxH} preserveAspectRatio="none" aria-hidden="true">
+        {peaks.map(function(p, i) {
+          const h = Math.max(1, (p.max - p.min) * maxH * 0.85)
+          return (
+            <rect
+              key={i}
+              x={i}
+              y={(maxH - h) / 2}
+              width={1}
+              height={h}
+              fill="currentColor"
+            />
+          )
+        })}
+      </svg>
+    </div>
   )
 }
 
 export default function ScratchpadItemCard(props) {
   const item = props.item
   const [imageUrl, setImageUrl] = useState(null)
+  const [audioDuration, setAudioDuration] = useState(0)
 
   useEffect(function() {
     let objectUrl = null
@@ -79,6 +92,20 @@ export default function ScratchpadItemCard(props) {
       cancelled = true
       if (objectUrl) URL.revokeObjectURL(objectUrl)
     }
+  }, [item])
+
+  useEffect(function() {
+    let cancelled = false
+    if (item.type !== 'audio' || !item.audio) {
+      setAudioDuration(0)
+      return undefined
+    }
+    getScratchpadItemDuration(item).then(function(duration) {
+      if (!cancelled) setAudioDuration(duration || 0)
+    }).catch(function() {
+      if (!cancelled) setAudioDuration(0)
+    })
+    return function() { cancelled = true }
   }, [item])
 
   function renderPreview() {
@@ -99,15 +126,25 @@ export default function ScratchpadItemCard(props) {
       return <div className="scratchpad-card-preview-placeholder">Image</div>
     }
     if (item.type === 'notation') {
-      const abc = getNotationPreviewAbc(item)
+      const tune = item.notation && item.notation.tuneSnapshot
+      const abc = buildAbcFromTune(tune)
+      if (!abc) {
+        return <div className="scratchpad-card-preview-placeholder">Notation</div>
+      }
       return (
         <div className="scratchpad-card-preview-notation">
-          <Abc abc={abc} tunebook={props.tunebook} />
+          <NotationPreview
+            abc={abc}
+            fitWidth={true}
+            wrapToWidth={true}
+            maxHeight={null}
+            className="scratchpad-card-notation-preview"
+          />
         </div>
       )
     }
     if (item.type === 'audio' && item.audio) {
-      return <AudioWaveformPreview blobKey={item.audio.blobKey} />
+      return <AudioWaveformPreview item={item} />
     }
     return <div className="scratchpad-card-preview-placeholder">{typeLabel(item.type)}</div>
   }
@@ -123,7 +160,12 @@ export default function ScratchpadItemCard(props) {
         {renderPreview()}
       </div>
       <div className="scratchpad-card-footer">
-        <span className="scratchpad-card-type">{typeLabel(item.type)}</span>
+        <span className="scratchpad-card-type">
+          {typeLabel(item.type)}
+          {item.type === 'audio' && audioDuration > 0 ? (
+            <span className="scratchpad-card-duration"> · {formatMarkerTime(audioDuration)}s</span>
+          ) : null}
+        </span>
         <span className="scratchpad-card-title">{item.title}</span>
       </div>
     </button>

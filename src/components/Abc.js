@@ -74,6 +74,11 @@ export default function Abc(props) {
       }
     }
 
+    function resolveTabOptions(renderTune) {
+      if (props.disableTablature) return null
+      return buildTablatureRenderOptions(renderTune, getTablatureRenderContext(renderTune))
+    }
+
     function applyFitToRenderedSvg() {
       if (!inputEl || !inputEl.current || props.hideSvg) return
       const renderEl = inputEl.current
@@ -92,7 +97,7 @@ export default function Abc(props) {
       let tune = null
       if (props.abc) {
         tune = props.tunebook.abcTools.abc2json(props.abc)
-        tabOptions = buildTablatureRenderOptions(tune, getTablatureRenderContext(tune))
+        tabOptions = resolveTabOptions(tune)
         displayTune = getTablatureDisplayTune(tune)
         verticalFitOptions = getVerticalFitOptions(tune, tabOptions)
       }
@@ -286,7 +291,7 @@ export default function Abc(props) {
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
         }
-        const tabOptions = buildTablatureRenderOptions(tune, getTablatureRenderContext(tune))
+        const tabOptions = resolveTabOptions(tune)
         if (tabOptions) {
           renderOptions.tablature = tabOptions
         }
@@ -384,12 +389,13 @@ export default function Abc(props) {
             // playbackEngine={false} marks a display-only notation view; the
             // App-level NowPlayingHost owns the midi engine in that case.
             const isPlaybackEngine = props.playbackEngine !== false
-            const wantsBackgroundPrime = isPlaybackEngine && (
+            const wantsMirrorPrime = props.mirrorNotationPlaybackCursor && props.autoPrime
+            const wantsBackgroundPrime = wantsMirrorPrime || (isPlaybackEngine && (
                 props.autoStart
                 || practiceAutoPlay
                 || (props.mediaController && props.mediaController.hasPlayingIntent
                     && props.mediaController.hasPlayingIntent())
-            )
+            ))
             if (props.autoPrime && onMidiRoute && wantsBackgroundPrime) {
                 var primeHash = (tuneObj.transpose || 0) + '-' + (props.meter || tuneObj.meter || '4/4') + '-' + (tuneObj.tempo || 100) + '-' + abcTools.getTuneHash(tuneObj)
                 if (primeHash !== audioChangedHash) {

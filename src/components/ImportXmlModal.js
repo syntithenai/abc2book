@@ -4,6 +4,7 @@ import {useNavigate} from 'react-router-dom'
 import BookSelectorModal from './BookSelectorModal'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { detectScoreFormat, importMusicXmlText, importScoreFile } from '../scoreImportClient'
+import { openMidiImportWizard } from '../midiImportWizard'
 
 const OFFLINE_ACCEPT = '.xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/xml'
 const MIDI_ACCEPT = ',.mid,.midi,audio/midi,audio/mid'
@@ -60,9 +61,38 @@ function ImportXmlModal(props) {
     }
   }
 
+  function doImportMidiFile(file) {
+    setError(null)
+    setLoading(true)
+    setStatusText('Opening MIDI import wizard...')
+    openMidiImportWizard({ file: file }).then(function(wizardResult) {
+      const first = wizardResult.candidates && wizardResult.candidates[0]
+      let abc = wizardResult.result && wizardResult.result.abc
+      if (!abc && first && first.tune && props.tunebook && props.tunebook.abcTools) {
+        abc = props.tunebook.abcTools.json2abc(first.tune)
+      }
+      if (!abc) {
+        throw new Error('MIDI import produced no notation')
+      }
+      setStatusText('Importing tunes...')
+      const importResults = props.tunebook.importAbc(abc, props.currentTuneBook)
+      finishImport(importResults)
+    }).catch(function(e) {
+      if (e && e.message && e.message.indexOf('cancelled') === -1) {
+        setError(e.message || 'Import failed')
+      }
+      setLoading(false)
+      setStatusText('')
+    })
+  }
+
   function doImportFile(file) {
     if (detectScoreFormat(file.name) === 'midi' && !resolverAvailable) {
       setError('MIDI import needs the media resolver. Log in with an authorized Google account and make sure the resolver is running.')
+      return
+    }
+    if (detectScoreFormat(file.name) === 'midi') {
+      doImportMidiFile(file)
       return
     }
     setError(null)

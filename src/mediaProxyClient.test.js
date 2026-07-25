@@ -77,6 +77,39 @@ describe('mediaProxyClient', function() {
     expect(warning.message).toMatch(/not authorized/i);
   });
 
+  test('fetchViaMediaProxy skips mixed-content HTTP bases on HTTPS pages', async function() {
+    const originalLocation = window.location;
+    Object.defineProperty(window, 'location', {
+      configurable: true,
+      value: { protocol: 'https:', origin: 'https://app.example' },
+    });
+
+    getMediaProxyBaseCandidates.mockReturnValue([
+      'http://localhost:8787',
+      'https://resolver.example',
+    ]);
+
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async function() { return { profile: {} }; },
+    });
+
+    const response = await mediaProxyClient.fetchViaMediaProxy('/midi2analyze', 'token', {
+      method: 'POST',
+      body: new FormData(),
+    });
+
+    expect(response.ok).toBe(true);
+    expect(global.fetch).toHaveBeenCalledTimes(1);
+    expect(global.fetch.mock.calls[0][0]).toBe('https://resolver.example/midi2analyze');
+
+    Object.defineProperty(window, 'location', {
+      configurable: true,
+      value: originalLocation,
+    });
+  });
+
   test('fetchViaMediaProxy retries 405 on later resolver candidates', async function() {
     getMediaProxyBaseCandidates.mockReturnValue([
       'https://public.example',

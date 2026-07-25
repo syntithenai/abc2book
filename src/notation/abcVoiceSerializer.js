@@ -1,5 +1,6 @@
 import { parseNoteLengthDecimal, assignTimingToEvents } from './beatGrid';
 import { abcTokenForDecoration } from './notationTokens';
+import { serializeFingeringAbcPrefix } from './notationMarks';
 
 function pitchToAbcToken(pitch) {
   if (!pitch) return '';
@@ -98,6 +99,7 @@ function eventToken(ev, unit) {
       + (ev.abcTrailing || '');
   }
   const leading = serializeChordSymbols(ev)
+    + serializeFingeringAbcPrefix(ev)
     + (ev.abcLeading || '')
     + serializeGraceNotes(ev.graceNotes, unit)
     + serializeTupletPrefix(ev)

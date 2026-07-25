@@ -1,0 +1,114 @@
+{
+  "id": "08-mandolin-banjo",
+  "title": "08 Mandolin Banjo",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/08-mandolin-banjo.md",
+  "sections": [
+    {
+      "id": "mandolin-and-banjo",
+      "title": "Mandolin and Banjo",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Both instruments anchor American old-time and bluegrass alongside Celtic sessions abroad."
+        }
+      ]
+    },
+    {
+      "id": "mandolin",
+      "title": "Mandolin",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Eight strings in four courses tuned G-D-A-E (like violin). Plucked with plectrum. Italian origin; Orville Gibson Americanised design. Tremolo technique sustains long notes."
+        }
+      ]
+    },
+    {
+      "id": "banjo",
+      "title": "Banjo",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "African origin via Caribbean. Drum-like head with stretched membrane; strings over a bridge. 5-string (bluegrass, clawhammer frailing) and 4-string (tenor banjo for Irish trad — tuned like mandola/viola)."
+        }
+      ]
+    },
+    {
+      "id": "in-sessions",
+      "title": "In sessions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tenor banjo provides chordal/melodic drive in Irish céilí bands. Mandolin doubles fiddle melodies an octave below or provides chord backup."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-mandolin-standard-tuning-matches",
+      "title": "Q1. Mandolin standard tuning matches:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Violin (G-D-A-E)\n- B) Guitar low four strings\n- C) Ukulele\n- D) Bass\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-tenor-banjo-common-in-irish-céilí-bands",
+      "title": "Q2. Tenor banjo common in Irish céilí bands.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-banjo-head-is-typically",
+      "title": "Q3. Banjo head is typically:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Stretched membrane over a frame\n- B) Solid wood only\n- C) Metal plate only\n- D) Glass\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Mandolin standard tuning matches:\n\n- A) Violin (G-D-A-E)\n- B) Guitar low four strings\n- C) Ukulele\n- D) Bass\n\n**Answer:** A\n\n### Q2. Tenor banjo common in Irish céilí bands.\n\n**Answer:** True\n\n### Q3. Banjo head is typically:\n\n- A) Stretched membrane over a frame\n- B) Solid wood only\n- C) Metal plate only\n- D) Glass\n\n**Answer:** A"
+}

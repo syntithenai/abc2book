@@ -5574,24 +5574,54 @@ button img:after {
 .virtualized-tune-list .virtualized-tune-list-row .tune-list-item-compact .tune-list-item-row {
   align-items: center;
   min-height: 100%;
+  flex-wrap: nowrap;
 }
 
 .virtualized-tune-list .virtualized-tune-list-row .tune-list-item-compact .tune-list-item-title-block {
   gap: 0;
-  flex: 1 1 40%;
+  flex: 1 1 0%;
   min-width: 0;
+  max-width: 100%;
+  align-items: stretch;
+  width: 100%;
 }
 
 .virtualized-tune-list .virtualized-tune-list-row .tune-list-item-compact .tune-list-item-meta {
-  flex: 1 1 45%;
+  flex: 0 0 auto;
   max-width: none;
   align-items: center;
 }
 
-.virtualized-tune-list .virtualized-tune-list-row .tune-list-item-compact .tune-list-item-title .btn-lg {
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  line-height: 1.2;
+.tune-list-item-compact .tune-list-item-meta:empty {
+  display: none;
+}
+
+.tune-list-item-compact .tune-list-item-title {
+  width: 100%;
+  min-width: 0;
+}
+
+.tune-list-item-compact .tune-list-item-title a {
+  width: 100%;
+}
+
+.tune-list-item-compact .tune-list-title-link {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: -0.15rem 0;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+
+.tune-list-item-compact .tune-list-title-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .tune-list-item-row {
@@ -5622,6 +5652,73 @@ button img:after {
   max-width: 55%;
 }
 
+.tune-list-item-detailed .tune-list-item-row {
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tune-list-item-detailed .tune-list-item-title-block {
+  flex: 0 1 auto;
+  width: fit-content;
+  max-width: calc(100% - 3.25rem);
+  min-width: 0;
+  margin-left: 0.5rem;
+}
+
+.tune-list-item-detailed .tune-list-item-title {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.tune-list-item-detailed .tune-list-item-title a {
+  flex: 0 1 auto;
+  width: auto;
+  min-width: 0;
+}
+
+.tune-list-item-detailed .tune-list-title-link {
+  flex: 0 1 auto;
+  max-width: none;
+  width: auto;
+  margin: -0.25rem -0.4rem -0.25rem 0;
+}
+
+.tune-list-item-detailed .tune-list-title-text {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tune-list-item-detailed .tune-list-item-meta {
+  max-width: none;
+  flex: 0 0 auto;
+}
+
+.tune-list-item-filter-chips {
+  flex: 1 0 100%;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.tune-list-item-filter-chips .tune-list-filter-btns {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+
+.tune-list-item-filter-chips--inline {
+  flex: 0 1 auto;
+  width: auto;
+}
+
+.tune-list-item-filter-chips--inline .tune-list-filter-btns {
+  flex-wrap: nowrap;
+}
+
 .tune-list-item-meta .tune-list-filter-btns {
   justify-content: flex-end;
 }
@@ -5632,18 +5729,90 @@ button img:after {
 }
 
 .tune-list-item-title {
-  display: inline-flex;
+  display: flex;
   min-width: 0;
+  flex: 1 1 auto;
 }
 
 .tune-list-item-title a {
-  display: inline-flex;
+  display: flex;
   min-width: 0;
+  flex: 1 1 auto;
 }
 
-.tune-list-item-title .btn {
-  width: auto;
+.tune-list-title-link {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0.35rem 0.5rem;
   max-width: 100%;
+  min-width: 0;
+  flex: 1 1 auto;
+  padding: 0.25rem 0.4rem 0.25rem 0.55rem;
+  margin: -0.25rem -0.4rem;
+  border-left: 3px solid transparent;
+  border-radius: 0.35rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.tune-list-title-link:hover,
+.tune-list-title-link:focus-visible {
+  background-color: rgba(63, 129, 227, 0.08);
+  border-left-color: #3f81e3;
+  text-decoration: none;
+}
+
+.tune-list-title-link:focus-visible {
+  outline: 2px solid #3f81e3;
+  outline-offset: 1px;
+}
+
+.tune-list-title-text {
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.tune-list-title-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  color: #1a5fb4;
+}
+
+.tune-list-title-link:hover .tune-list-title-name,
+.tune-list-title-link:focus-visible .tune-list-title-name {
+  color: #0d4a9e;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.tune-list-title-composer {
+  font-size: 0.88em;
+  font-weight: 400;
+  color: #5c6770;
+}
+
+.tune-list-title-sep {
+  color: #9aa3ab;
+}
+
+.tune-list-title-badge {
+  font-size: 0.68em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #5c6770;
+  background: #eef1f4;
+  padding: 0.12em 0.45em;
+  border-radius: 0.25rem;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.tune-list-title-link--compact .tune-list-title-name {
+  font-size: 1rem;
 }
 
 .tune-list-item-meta .tune-list-boost {
@@ -5773,8 +5942,11 @@ button img:after {
   display: none;
 }
 
-.platform-mobile .tune-list-filter-btns {
-  display: none;
+.platform-mobile .tune-list-filter-chip.btn:disabled,
+.platform-mobile .tune-list-filter-chip.btn[aria-disabled="true"] {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.9;
 }
 
 .tune-meta-modal-btn {
@@ -7899,6 +8071,34 @@ button img:after {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
+  align-items: flex-start;
+}
+
+.bulk-check-action-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.bulk-check-action-button .progress {
+  width: 12rem;
+  max-width: 100%;
+  margin-top: 0.35rem;
+}
+
+.bulk-check-resolver-login-warning {
+  margin-bottom: 0.75rem;
+}
+
+.bulk-check-external-link-icon {
+  display: inline-flex;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
+
+.bulk-check-external-fallback-btn {
+  margin-top: 0.25rem;
 }
 
 .bulk-check-item-group-issues {
@@ -7915,8 +8115,26 @@ button img:after {
   margin-bottom: 0.75rem;
 }
 
+.bulk-check-fix-preview-modal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bulk-check-fix-preview-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--bs-modal-bg, #fff);
+  padding: 0.25rem 0 0.75rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
 .bulk-check-fix-preview-fields {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .bulk-check-fix-preview-table {
@@ -7928,6 +8146,193 @@ button img:after {
   overflow-wrap: anywhere;
   white-space: pre-wrap;
   font-size: 0.85rem;
+}
+
+.bulk-check-fix-line-diff-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bulk-check-fix-differences {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.02);
+  overflow: visible;
+}
+
+.bulk-check-fix-differences-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  border: 0;
+  background: rgba(0, 0, 0, 0.03);
+  padding: 0.85rem 1rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.bulk-check-fix-differences-toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.bulk-check-fix-differences-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: inherit;
+}
+
+.bulk-check-fix-differences-summary {
+  flex: 1;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.bulk-check-fix-differences-chevron {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.bulk-check-fix-differences-panel {
+  padding: 0 1rem 1rem;
+  overflow: visible;
+}
+
+.bulk-check-fix-differences .bulk-check-fix-preview-cell {
+  max-width: none;
+}
+
+.bulk-check-fix-diff-value {
+  vertical-align: top;
+  max-width: none;
+  overflow: visible;
+}
+
+.bulk-check-fix-differences-help {
+  margin: 0.75rem 0 1rem;
+  font-size: 0.9rem;
+}
+
+.bulk-check-fix-differences-section + .bulk-check-fix-differences-section {
+  margin-top: 1rem;
+}
+
+.bulk-check-fix-differences-section-title {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.bulk-check-fix-differences-table {
+  margin-bottom: 0;
+  background: #fff;
+}
+
+.bulk-check-fix-differences-table .table-responsive {
+  overflow-x: auto;
+  overflow-y: visible;
+}
+
+.bulk-check-fix-diff-code {
+  display: block;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.82rem;
+  color: inherit;
+  background: transparent;
+}
+
+.bulk-check-fix-diff-mark {
+  background: #fff3cd;
+  color: inherit;
+  padding: 0 0.1em;
+  border-radius: 0.15rem;
+}
+
+.bulk-check-fix-diff-badge {
+  text-transform: capitalize;
+}
+
+.bulk-check-fix-line-diff-toggle {
+  align-self: flex-start;
+}
+
+.bulk-check-fix-line-diff-panel {
+  max-height: 40vh;
+  overflow: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.375rem;
+  background: rgba(0, 0, 0, 0.02);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.82rem;
+}
+
+.bulk-check-fix-line-diff-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  padding: 0.15rem 0;
+}
+
+.bulk-check-fix-line-diff-row code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.bulk-check-fix-line-diff-marker {
+  flex: 0 0 auto;
+  width: 1rem;
+  font-weight: 700;
+}
+
+.bulk-check-fix-line-diff-row--removed {
+  color: #a94442;
+}
+
+.bulk-check-fix-line-diff-row--added {
+  color: #2e6b2e;
+}
+
+.bulk-check-fix-line-diff-row--changed .bulk-check-fix-line-diff-change {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.bulk-check-fix-preview-notation-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.bulk-check-fix-preview-pane {
+  min-width: 0;
+}
+
+.bulk-check-fix-preview-pane h6 {
+  margin-bottom: 0.5rem;
+}
+
+.bulk-check-fix-preview-pane .suggestion-preview-notation-wrap {
+  width: 100%;
+}
+
+.bulk-check-fix-preview-pane .suggestion-preview-notation {
+  width: 100%;
+}
+
+.bulk-check-fix-preview-pane .suggestion-preview-notation svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .bulk-check-fix-preview-notation-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .bulk-check-fix-preview {
@@ -10286,17 +10691,74 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   min-height: calc(100vh - 4rem);
 }
 
-.scratchpad-toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-  padding: 0.5rem 0.75rem;
-  border-bottom: 1px solid #dee2e6;
-  background: #f8f9fa;
+.scratchpad-list-search {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 11;
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+  background: #fff;
+}
+
+.scratchpad-list-workspace-controls {
+  flex: 0 0 auto;
+}
+
+.scratchpad-list-workspace-filter {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 14rem;
+}
+
+.scratchpad-list-workspace-controls > .btn {
+  flex: 0 0 auto;
+}
+
+.scratchpad-list-search .form-control {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.scratchpad-list-search .scratchpad-create-btn {
+  flex: 0 0 auto;
+}
+
+.scratchpad-associate-tune-suggestions__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.scratchpad-associate-tune-suggestion-btn {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  text-align: left;
+}
+
+.scratchpad-associate-tune-suggestion-text {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5rem;
+  max-width: 18rem;
+}
+
+.scratchpad-associate-tune-suggestion-label {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.scratchpad-associate-tune-suggestion-composer {
+  font-size: 0.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .scratchpad-grid {
@@ -10361,14 +10823,51 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 
 .scratchpad-card-preview-notation {
   width: 100%;
+  height: 100%;
+  align-self: stretch;
   overflow: hidden;
-  transform: scale(0.85);
-  transform-origin: top left;
+}
+
+.scratchpad-card-preview-notation .scratchpad-card-notation-preview {
+  width: 100%;
+  height: 100%;
+}
+
+.scratchpad-card-preview-notation .suggestion-preview-notation {
+  border: none;
+  border-radius: 0;
+  padding: 0.25rem 0.35rem;
+  min-height: 0;
+  max-height: 100%;
+  background: transparent;
+}
+
+.scratchpad-card-preview-notation .suggestion-preview-notation svg {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.scratchpad-card-preview-audio {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 0.5rem;
+  box-sizing: border-box;
+}
+
+.scratchpad-card-preview-audio-placeholder {
+  font-size: 0.85rem;
+  color: #6c757d;
 }
 
 .scratchpad-card-waveform {
   width: 100%;
-  height: 3rem;
+  height: 100%;
+  min-height: 3rem;
   color: #0d6efd;
 }
 
@@ -10384,6 +10883,10 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   font-size: 0.7rem;
   text-transform: uppercase;
   color: #6c757d;
+}
+
+.scratchpad-card-duration {
+  text-transform: none;
 }
 
 .scratchpad-card-title {
@@ -10426,9 +10929,14 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   white-space: nowrap;
 }
 
+.scratchpad-editor-back-btn {
+  padding: 0.7rem 0.95rem;
+  line-height: 1;
+}
+
 .scratchpad-editor-back-btn svg {
-  width: 1.1rem;
-  height: 1.1rem;
+  width: 2.25rem;
+  height: 2.25rem;
 }
 
 .scratchpad-item-title-input {
@@ -10476,9 +10984,114 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   flex-direction: column;
 }
 
+.scratchpad-notation-replace-preview .abcjs-container,
+.scratchpad-notation-bar-picker .abcjs-container {
+  max-width: 100%;
+  overflow: visible;
+}
+
+.scratchpad-notation-replace-preview svg,
+.scratchpad-notation-bar-picker svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.scratchpad-associate-modal--notation .modal-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.scratchpad-associate-modal--notation .modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+}
+
+.scratchpad-associate-modal-body--bar-picker {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: auto;
+}
+
+.scratchpad-notation-bar-picker {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  gap: 1rem;
+}
+
+.scratchpad-notation-bar-picker__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
+  flex: 0 0 auto;
+}
+
+.scratchpad-notation-bar-picker__source-count {
+  flex: 1 1 12rem;
+  align-self: center;
+}
+
+.scratchpad-notation-bar-picker__previews {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1rem;
+  flex: 1 1 auto;
+  min-height: 0;
+  align-items: stretch;
+  width: 100%;
+}
+
+.scratchpad-notation-bar-picker__pane {
+  min-width: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.scratchpad-notation-bar-picker__pane .suggestion-preview-notation,
+.scratchpad-notation-bar-picker__pane .suggestion-preview-notation--wrap {
+  flex: 0 1 auto;
+  min-height: 12rem;
+  max-height: none;
+  width: 100%;
+  overflow: visible;
+}
+
+.scratchpad-notation-bar-picker__pane .suggestion-preview-notation-wrap {
+  flex: 0 1 auto;
+  min-height: 0;
+  width: 100%;
+  overflow: visible;
+}
+
+.scratchpad-notation-bar-picker__pane .suggestion-preview-notation .abcjs-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: visible;
+}
+
+@media (max-width: 900px) {
+  .scratchpad-notation-bar-picker__previews {
+    grid-template-columns: 1fr;
+  }
+}
+
 .scratchpad-music-editor .music-editor--notation-only .abc-editor {
   flex: 1 1 auto;
   min-height: 0;
+}
+
+.scratchpad-music-editor .notation-playback-controls .btn svg {
+  width: 1.15rem;
+  height: 1.15rem;
 }
 
 .scratchpad-image-stage-wrap {
@@ -10848,7 +11461,7 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 .abc-editor-lyrics-toolbar,
 .links-editor-toolbar,
 .chords-wizard-toolbar,
-.scratchpad-toolbar,
+.scratchpad-list-search,
 .scratchpad-editor-chrome {
   touch-action: manipulation;
   zoom: var(--chrome-vv-zoom, 1);
@@ -10856,7 +11469,7 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 
 .App-header,
 .music-editor-buttons,
-.scratchpad-toolbar,
+.scratchpad-list-search,
 .scratchpad-editor-chrome {
   width: calc(100% * var(--chrome-vv-scale, 1));
   max-width: none;

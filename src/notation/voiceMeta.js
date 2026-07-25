@@ -23,6 +23,8 @@ const ATTR_TOKEN_RE = /^[a-zA-Z][\w-]*=/;
  * Parse free-form ABC V: metadata into structured fields.
  * Example: `Piano clef=bass stem=up` → { name: 'Piano', clef: 'bass', extra: 'stem=up' }
  */
+const NM_ATTR_RE = /^nm=(?:"([^"]*)"|'([^']*)')$/i;
+
 export function parseVoiceMeta(metaStr) {
   if (metaStr && typeof metaStr === 'object' && !Array.isArray(metaStr)) {
     const name = metaStr.name != null ? String(metaStr.name).trim() : '';
@@ -36,6 +38,7 @@ export function parseVoiceMeta(metaStr) {
   }
   const tokens = String(metaStr || '').trim().split(/\s+/).filter(Boolean);
   let clef = DEFAULT_VOICE_CLEF;
+  let nmName = '';
   const nameParts = [];
   const extraParts = [];
   tokens.forEach(function(token) {
@@ -44,14 +47,20 @@ export function parseVoiceMeta(metaStr) {
       clef = clefMatch[1] || DEFAULT_VOICE_CLEF;
       return;
     }
+    const nmMatch = token.match(NM_ATTR_RE);
+    if (nmMatch) {
+      nmName = (nmMatch[1] != null ? nmMatch[1] : nmMatch[2]) || '';
+      return;
+    }
     if (ATTR_TOKEN_RE.test(token) || /^nm=/i.test(token)) {
       extraParts.push(token);
       return;
     }
     nameParts.push(token);
   });
+  const plainName = nameParts.join(' ');
   return {
-    name: nameParts.join(' '),
+    name: plainName || nmName,
     clef: clef,
     extra: extraParts.join(' '),
   };

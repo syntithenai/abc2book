@@ -1,0 +1,114 @@
+{
+  "id": "03-guitar",
+  "title": "03 Guitar",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/03-guitar.md",
+  "sections": [
+    {
+      "id": "guitar",
+      "title": "Guitar",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The guitar is a fretted chordophone — six strings standard (E-A-D-G-B-E low to high), though seven, eight, and twelve-string variants exist. Origins trace to medieval lute family; modern classical guitar crystallised in 19th-century Spain."
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Classical (nylon strings, fingerstyle). Steel-string acoustic (folk, country). Electric (magnetic pickups, amplification). Resonator (Dobro) for slide. Flamenco guitar — lighter, tap plate."
+        }
+      ]
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Right hand: fingerpicking (p-i-m-a) or plectrum. Left hand: frets fix pitch; barre chords across strings. Capo transposes open shapes."
+        }
+      ]
+    },
+    {
+      "id": "in-trad",
+      "title": "In trad",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Backing chords in sessions; DADGAD and open tunings for Celtic accompaniment. Flatpicking for reels; fingerstyle for airs."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-standard-guitar-string-tuning-includes",
+      "title": "Q1. Standard guitar string tuning includes:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) E-A-D-G-B-E\n- B) G-D-A-E only\n- C) C-F-A-D\n- D) D-A-D-A\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-guitar-is-a-fretted-chordophone",
+      "title": "Q2. Guitar is a fretted chordophone.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-dadgad-is",
+      "title": "Q3. DADGAD is:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) An alternate tuning used in Celtic guitar\n- B) A type of drum\n- C) A piano pedal\n- D) A vocal technique\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Standard guitar string tuning includes:\n\n- A) E-A-D-G-B-E\n- B) G-D-A-E only\n- C) C-F-A-D\n- D) D-A-D-A\n\n**Answer:** A\n\n### Q2. Guitar is a fretted chordophone.\n\n**Answer:** True\n\n### Q3. DADGAD is:\n\n- A) An alternate tuning used in Celtic guitar\n- B) A type of drum\n- C) A piano pedal\n- D) A vocal technique\n\n**Answer:** A"
+}

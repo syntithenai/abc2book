@@ -90,16 +90,27 @@ export function normalizeInferredGenre(value) {
 
 export function extractGenreFromAbc(abc) {
   if (!abc || typeof abc !== 'string') return '';
-  const match = abc.match(/^G:\s*(.+)$/m);
-  return match ? normalizeInferredGenre(match[1]) : '';
+  const matches = abc.match(/^G:\s*(.+)$/gm);
+  if (!matches || matches.length === 0) return '';
+  const genres = matches.map(function(line) {
+    return normalizeInferredGenre(line.replace(/^G:\s*/, ''));
+  }).filter(Boolean);
+  return genres.join(', ');
 }
 
 export function extractGenreFromTuneMeta(tuneMeta) {
   if (!tuneMeta || typeof tuneMeta !== 'object') return '';
+  if (Array.isArray(tuneMeta.genres) && tuneMeta.genres.length > 0) {
+    return tuneMeta.genres.map(function(genre) {
+      return normalizeInferredGenre(genre);
+    }).filter(Boolean).join(', ');
+  }
   if (tuneMeta.genre) return normalizeInferredGenre(tuneMeta.genre);
   if (tuneMeta.meta && tuneMeta.meta.G) {
-    const raw = Array.isArray(tuneMeta.meta.G) ? tuneMeta.meta.G[0] : tuneMeta.meta.G;
-    return normalizeInferredGenre(raw);
+    const rawList = Array.isArray(tuneMeta.meta.G) ? tuneMeta.meta.G : [tuneMeta.meta.G];
+    return rawList.map(function(raw) {
+      return normalizeInferredGenre(raw);
+    }).filter(Boolean).join(', ');
   }
   return '';
 }
@@ -184,12 +195,18 @@ export function inferGenreFromSearchContext(context) {
   return null;
 }
 
-export function shouldOfferGenreSuggestion(suggestedGenre, currentGenre) {
+export function shouldOfferGenreSuggestion(suggestedGenre, currentGenres) {
   const next = normalizeInferredGenre(suggestedGenre);
   if (!next) return false;
-  const current = normalizeInferredGenre(currentGenre);
-  if (!current) return true;
-  return current.toLowerCase() !== next.toLowerCase();
+  const currentList = Array.isArray(currentGenres)
+    ? currentGenres
+    : (currentGenres ? [currentGenres] : []);
+  if (currentList.length === 0) return true;
+  const nextKey = next.toLowerCase();
+  return !currentList.some(function(genre) {
+    const normalized = normalizeInferredGenre(genre);
+    return normalized && normalized.toLowerCase() === nextKey;
+  });
 }
 
 export function buildGenreSearchContext(result, extras) {

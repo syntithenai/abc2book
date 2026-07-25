@@ -1,5 +1,11 @@
 import { isQueueActive, getCurrentTuneId } from './nowPlayingQueue'
 
+function isViewingDifferentFromQueue(viewedTuneId, queue) {
+  if (!isQueueActive(queue)) return false
+  const playingId = getCurrentTuneId(queue)
+  return !!(playingId && viewedTuneId && playingId !== viewedTuneId)
+}
+
 /** Only an active now-playing queue with auto-advance should continue past track end. */
 export function shouldAdvancePlaybackOnEnd(queue, canUpdateQueue) {
   return isQueueActive(queue) && queue.autoAdvance !== false && !!canUpdateQueue
@@ -27,13 +33,17 @@ export function getAppPathname() {
  * mid-tune — i.e. the now-playing queue's playback is genuinely in use, as
  * opposed to a queue merely restored from storage with nothing happening.
  */
-export function isQueuePlaybackEngaged(mediaController) {
+export function isQueuePlaybackEngaged(mediaController, context) {
   if (!mediaController) return false
   if (mediaController.isPlaying || mediaController.isLoading) return true
   if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
     return true
   }
   if (mediaController.canResumePlayback && mediaController.canResumePlayback()) {
+    const ctx = context || {}
+    if (isViewingDifferentFromQueue(ctx.viewedTuneId, ctx.queue)) {
+      return false
+    }
     return true
   }
   return false

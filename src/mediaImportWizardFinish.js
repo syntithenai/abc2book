@@ -1,6 +1,7 @@
 import { clearTimedMediaDraft } from './timedMediaCache';
 import { finalizeMediaTimedImport } from './timedImportFinalizer';
 import { applyGeneratedBackgroundInfo } from './viewModeUtils';
+import { mergeBibliographicList } from './tuneBibliographicUtils';
 
 export function finishMediaImportWizard(options) {
   const {
@@ -23,7 +24,10 @@ export function finishMediaImportWizard(options) {
   if (metadata.tempo) tune.tempo = metadata.tempo;
   if (metadata.noteLength) tune.noteLength = metadata.noteLength;
   if (metadata.backgroundInfo) applyGeneratedBackgroundInfo(tune, metadata.backgroundInfo);
-  if (metadata.genre) tune.genre = metadata.genre;
+  if (metadata.genre) {
+    if (!Array.isArray(tune.genres)) tune.genres = [];
+    tune.genres = mergeBibliographicList(tune.genres, metadata.genre);
+  }
 
   const abcTools = tunebook.abcTools;
   const baseAbc = draft.baseTuneAbc && draft.baseTuneAbc.trim()
@@ -38,7 +42,10 @@ export function finishMediaImportWizard(options) {
   if (metadata.name) baseJson.name = metadata.name;
   if (metadata.composer) baseJson.composer = metadata.composer;
   if (metadata.backgroundInfo) applyGeneratedBackgroundInfo(baseJson, metadata.backgroundInfo);
-  if (metadata.genre) baseJson.genre = metadata.genre;
+  if (metadata.genre) {
+    if (!Array.isArray(baseJson.genres)) baseJson.genres = [];
+    baseJson.genres = mergeBibliographicList(baseJson.genres, metadata.genre);
+  }
 
   finalizeMediaTimedImport({
     tune: tune,

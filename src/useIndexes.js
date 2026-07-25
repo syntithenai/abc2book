@@ -1,7 +1,7 @@
 import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
 import {useState, useRef} from 'react'
-import { allArtists } from './tuneBibliographicUtils'
+import { allArtists, allGenres } from './tuneBibliographicUtils'
 
 function indexSnapshotEqual(a, b) {
     if (a === b) return true
@@ -66,8 +66,10 @@ var useIndexes = () => {
         }
 
         var genreIndexNew = removeTune(tune, Object.assign({}, lastGenreIndexRef.current || genreIndex))
-        if (tune && tune.id && tune.genre && String(tune.genre).trim()) {
-            addTuneIdToIndexKey(genreIndexNew, String(tune.genre).trim(), tune.id)
+        if (tune && tune.id) {
+            allGenres(tune).forEach(function(genreName) {
+                addTuneIdToIndexKey(genreIndexNew, genreName, tune.id)
+            })
         }
         if (!indexSnapshotEqual(genreIndexNew, lastGenreIndexRef.current)) {
             setGenreIndex(genreIndexNew)

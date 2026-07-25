@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "tracks": [
+    {
+      "id": "regions",
+      "label": "Regional traditions",
+      "units": [
+        {
+          "id": "celtic-ireland",
+          "label": "Celtic — Ireland",
+          "region": "ireland",
+          "lessons": [
+            {
+              "id": "regions-celtic-ireland-01-overview",
+              "title": "Irish Traditional Music — Overview",
+              "tier": 1,
+              "prerequisites": [
+                "theory-scales-major-intro"
+              ],
+              "path": "regions-celtic-ireland-01-overview.json"
+            },
+            {
+              "id": "regions-celtic-ireland-02-instruments-voices-i",
+              "title": "Irish Instruments — Traditional Voices I",
+              "tier": 2,
+              "prerequisites": [
+                "regions-celtic-ireland-01-overview"
+              ],
+              "path": "regions-celtic-ireland-02-instruments-voices-i.json"
+            },
+            {
+              "id": "regions-celtic-ireland-03-instruments-voices-ii",
+              "title": "Irish Instruments — Session Voices II",
+              "tier": 3,
+              "prerequisites": [
+                "regions-celtic-ireland-02-instruments-voices-i"
+              ],
+              "path": "regions-celtic-ireland-03-instruments-voices-ii.json"
+            },
+            {
+              "id": "regions-celtic-ireland-04-genres-forms",
+              "title": "Tunes, Forms, and Style",
+              "tier": 4,
+              "prerequisites": [
+                "regions-celtic-ireland-03-instruments-voices-ii"
+              ],
+              "path": "regions-celtic-ireland-04-genres-forms.json"
+            },
+            {
+              "id": "regions-celtic-ireland-05-dance",
+              "title": "Irish Dance and Rhythm",
+              "tier": 5,
+              "prerequisites": [
+                "regions-celtic-ireland-04-genres-forms"
+              ],
+              "path": "regions-celtic-ireland-05-dance.json"
+            },
+            {
+              "id": "regions-celtic-ireland-06-history",
+              "title": "History, Revival, and Transmission",
+              "tier": 6,
+              "prerequisites": [
+                "regions-celtic-ireland-05-dance"
+              ],
+              "path": "regions-celtic-ireland-06-history.json"
+            },
+            {
+              "id": "regions-celtic-ireland-07-representative-depth",
+              "title": "Representative Fusions and Scenes",
+              "tier": 7,
+              "prerequisites": [
+                "regions-celtic-ireland-06-history"
+              ],
+              "path": "regions-celtic-ireland-07-representative-depth.json"
+            },
+            {
+              "id": "regions-celtic-ireland-08-tunes",
+              "title": "Irish Tunes — Forms, History, and Recordings",
+              "tier": 4.5,
+              "prerequisites": [
+                "regions-celtic-ireland-04-genres-forms"
+              ],
+              "path": "regions-celtic-ireland-08-tunes.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    }
+  ]
+}
