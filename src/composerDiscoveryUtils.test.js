@@ -2,6 +2,7 @@ import {
   buildGoogleComposerSearchUrl,
   buildGoogleComposerSearchQuestion,
   buildComposerPickerCandidates,
+  buildComposerAutosuggestOptions,
   buildTitleSuggestions,
   needsComposerDiscovery,
   parseTitleComposerHints,
@@ -124,6 +125,33 @@ describe('composerDiscoveryUtils', function() {
     expect(candidates[0].role).toBe('writer')
     expect(candidates[0].source).toMatch(/Writer/)
     expect(candidates[1].role).toBe('performer')
+  })
+
+  test('buildComposerPickerCandidates puts Traditional first among search hits', function() {
+    const candidates = buildComposerPickerCandidates({
+      multiple: true,
+      candidates: [
+        { artist: 'Noel Gallagher', role: 'writer', source: 'MusicBrainz', preview: 'Writer' },
+        { artist: 'Traditional', role: 'writer', source: 'MusicBrainz', preview: 'Writer' },
+        { artist: 'Oasis', role: 'performer', source: 'MusicBrainz/Genius', preview: 'Performer' },
+      ],
+    }, '')
+    expect(candidates.map(function(item) { return item.artist })).toEqual([
+      'Traditional',
+      'Noel Gallagher',
+      'Oasis',
+    ])
+  })
+
+  test('buildComposerAutosuggestOptions promotes Traditional while typing trad', function() {
+    expect(buildComposerAutosuggestOptions(['Trad Jazz Band', 'Traditional'], 'trad')).toEqual([
+      'Traditional',
+      'Trad Jazz Band',
+    ])
+    expect(buildComposerAutosuggestOptions(['Trad Jazz Band'], 'trad')).toEqual([
+      'Traditional',
+      'Trad Jazz Band',
+    ])
   })
 
   test('FieldSearchResultsCaret options dropdown class is wired for caret hide', function() {

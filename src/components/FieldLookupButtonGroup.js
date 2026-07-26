@@ -105,6 +105,7 @@ export function FieldLookupButtonGroup(props) {
     <ButtonGroup>
       {searchBtn}
       {externalBtn}
+      {resultsCaret}
     </ButtonGroup>
   )
 
@@ -131,7 +132,6 @@ export function FieldLookupButtonGroup(props) {
           />
         ) : null}
       </div>
-      {resultsCaret}
     </div>
   )
 }

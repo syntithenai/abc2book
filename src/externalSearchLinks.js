@@ -41,6 +41,9 @@ const EXTERNAL_SEARCH_QUESTIONS = {
   composer: function(song) {
     return 'Who composed ' + song + ', and which artists have performed it?'
   },
+  albums: function(song) {
+    return 'On which albums does ' + song + ' appear?'
+  },
 }
 
 export function buildExternalSearchQuestion(kind, title, artist) {

@@ -67,6 +67,30 @@ describe('useAbcTools bibliographic fields', function() {
     expect(reparsed.artists).toEqual(['Band']);
   });
 
+  test('round-trips abcbook-albums lines', function() {
+    const abc = [
+      'X:1',
+      'T:Song',
+      'M:4/4',
+      'L:1/8',
+      'K:C',
+      'C |',
+      '% abcbook-tune_id test-id',
+      '% abcbook-albums Abbey Road (1969)',
+      '% abcbook-albums Let It Be (1970)',
+    ].join('\n');
+
+    const parsed = abcTools.abc2json(abc);
+    expect(parsed.albums).toEqual(['Abbey Road (1969)', 'Let It Be (1970)']);
+
+    const exported = abcTools.json2abc(parsed);
+    expect(exported).toContain('% abcbook-albums Abbey Road (1969)');
+    expect(exported).toContain('% abcbook-albums Let It Be (1970)');
+
+    const reparsed = abcTools.abc2json(exported);
+    expect(reparsed.albums).toEqual(['Abbey Road (1969)', 'Let It Be (1970)']);
+  });
+
   test('round-trips lyricsScrollDurationSec', function() {
     const abc = [
       'X:1',

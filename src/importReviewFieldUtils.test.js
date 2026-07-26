@@ -493,6 +493,16 @@ describe('importReviewFieldUtils', function() {
     expect(tune.words).toEqual(['line one']);
   });
 
+  test('tuneToFormValues and formValuesToTune round-trip albums', function() {
+    const values = tuneToFormValues({
+      name: 'Song',
+      albums: ['Abbey Road (1969)', 'Let It Be (1970)'],
+    });
+    expect(values.albums).toEqual(['Abbey Road (1969)', 'Let It Be (1970)']);
+    const tune = formValuesToTune(values, { id: 'x' });
+    expect(tune.albums).toEqual(['Abbey Road (1969)', 'Let It Be (1970)']);
+  });
+
   test('unionStringLists dedupes case-insensitively preserving order', function() {
     expect(unionStringLists(['songs', 'Irish'], ['SONGS', 'chordpro'])).toEqual([
       'songs',

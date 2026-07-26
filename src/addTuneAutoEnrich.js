@@ -12,6 +12,7 @@ import {
 } from './fieldLookupApplyUtils'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 import { getPlainLyricLines } from './wLinesUtils'
+import { enrichTuneMetadataFromMusicBrainz } from './tuneMetadataEnhance'
 
 const enrichByTuneId = {}
 const listeners = new Set()
@@ -41,6 +42,10 @@ function formatEnrichmentSummary(parts) {
   if (parts.chords) items.push('Chords from ' + parts.chords)
   if (parts.lyrics) items.push('Lyrics from ' + parts.lyrics)
   if (parts.notation) items.push('Notation from ' + parts.notation)
+  if (parts.composer) items.push('Artist from ' + parts.composer)
+  if (parts.artists) items.push('Performers from MusicBrainz')
+  if (parts.albums) items.push('Albums from MusicBrainz')
+  if (parts.genre) items.push('Genre: ' + parts.genre)
   if (!items.length) return ''
   if (parts.missing && parts.missing.length) {
     items.push('Not found: ' + parts.missing.join(', '))
@@ -61,6 +66,10 @@ function buildEnrichmentSummary(tune, parts) {
     chords: parts.chordSource,
     lyrics: parts.lyricSource,
     notation: parts.notationSource,
+    composer: parts.composer,
+    artists: parts.artists,
+    albums: parts.albums,
+    genre: parts.genre,
     missing: missing,
   })
 }
@@ -287,7 +296,7 @@ export async function runAddTuneAutoEnrich(options) {
 
   const title = String(tune.name || '').trim()
   const artist = String(tune.composer || '').trim()
-  if (!title || !artist) return false
+  if (!title) return false
   const songType = opts.songType || inferNotationSongType(tune.rhythm || '', artist)
 
   function notationPickOptions() {
@@ -337,8 +346,13 @@ export async function runAddTuneAutoEnrich(options) {
   let chordSource = chordApplied ? 'already on tune' : ''
   let lyricSource = lyricApplied ? 'already on tune' : ''
   let notationSource = notationApplied ? 'already on tune' : ''
+  let metadataComposer = ''
+  let metadataArtists = ''
+  let metadataAlbums = ''
+  let metadataGenre = ''
 
   try {
+    if (artist) {
     const chordPromise = searchChords({
       title: title,
       artist: artist,
@@ -536,6 +550,24 @@ export async function runAddTuneAutoEnrich(options) {
       // Drain settled promise so a fast miss cannot become an unhandled rejection.
       await notationSettled
     }
+    }
+
+    try {
+      const metaResult = await enrichTuneMetadataFromMusicBrainz(tune, {
+        title: title,
+        artist: artist,
+        accessToken: opts.accessToken || '',
+        resolverAvailable: opts.resolverAvailable,
+      })
+      const applied = metaResult && metaResult.applied ? metaResult.applied : {}
+      if (applied.composer) metadataComposer = 'MusicBrainz'
+      if (applied.artists && applied.artists.length) metadataArtists = 'MusicBrainz'
+      if (applied.albums && applied.albums.length) metadataAlbums = 'MusicBrainz'
+      if (applied.genre) metadataGenre = applied.genre
+      if (Object.keys(applied).length && typeof opts.forceRefresh === 'function') {
+        opts.forceRefresh()
+      }
+    } catch (e) {}
 
     return true
   } finally {
@@ -551,7 +583,7 @@ export async function runAddTuneAutoEnrich(options) {
     const chordPasteCandidate = stillNeedsChords && chordManualCandidates.length > 0
       ? pickChordPasteCandidate(chordManualCandidates, title, artist)
       : null
-    const bothFailed = lyricsSearchFailed
+    const bothFailed = artist && lyricsSearchFailed
       && (notationAttempted ? notationSearchFailed : false)
       && !notationPasteCandidate
       && !chordPasteCandidate
@@ -564,6 +596,10 @@ export async function runAddTuneAutoEnrich(options) {
       chordSource: chordSource,
       lyricSource: lyricSource,
       notationSource: notationSource,
+      composer: metadataComposer,
+      artists: metadataArtists,
+      albums: metadataAlbums,
+      genre: metadataGenre,
     })
 
     if (notationPasteCandidate || chordPasteCandidate) {

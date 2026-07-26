@@ -2,8 +2,10 @@ import { toast } from 'react-toastify'
 import {
   syncBackgroundReviewToast,
   collectAttachAnalysisReadyKeys,
+  showBulkImportStartedToast,
   __resetBackgroundReviewToastForTests,
 } from './backgroundReviewToast'
+import { isImportReviewUiVisible } from './importReviewSessionStore'
 import { getBackgroundReviewSummary } from './backgroundReviewQueue'
 
 jest.mock('react-toastify', function() {
@@ -13,6 +15,12 @@ jest.mock('react-toastify', function() {
       info: jest.fn(),
       dismiss: jest.fn(),
     }),
+  }
+})
+
+jest.mock('./importReviewSessionStore', function() {
+  return {
+    isImportReviewUiVisible: jest.fn().mockReturnValue(false),
   }
 })
 
@@ -31,6 +39,8 @@ describe('backgroundReviewToast', function() {
     getBackgroundReviewSummary.mockReturnValue({
       ready: 1,
       processing: 0,
+      importReady: 0,
+      importProcessing: 0,
       importReadyIds: ['a'],
       mediaReady: [],
       fieldLookupAwaiting: [],
@@ -56,11 +66,13 @@ describe('backgroundReviewToast', function() {
     expect(toast.warn).toHaveBeenCalled()
   })
 
-  test('syncBackgroundReviewToast skips when no attach-analysis ready work', function() {
+  test('syncBackgroundReviewToast skips when no attach-analysis or import ready work', function() {
     getBackgroundReviewSummary.mockReturnValue({
       ready: 2,
       processing: 0,
       importReadyIds: ['a'],
+      importReady: 0,
+      importProcessing: 0,
       mediaReady: [],
       fieldLookupAwaiting: ['f'],
       fileOcrReady: [],
@@ -70,5 +82,47 @@ describe('backgroundReviewToast', function() {
     })
     syncBackgroundReviewToast({ onReview: jest.fn() })
     expect(toast.warn).not.toHaveBeenCalled()
+  })
+
+  test('showBulkImportStartedToast shows background notice', function() {
+    showBulkImportStartedToast()
+    expect(toast.info).toHaveBeenCalledWith(
+      'Import running in the background…',
+      expect.objectContaining({ toastId: 'bulk-import-started' })
+    )
+  })
+
+  test('syncBackgroundReviewToast shows import review ready toast', function() {
+    getBackgroundReviewSummary
+      .mockReturnValueOnce({
+        ready: 0,
+        processing: 1,
+        importReady: 0,
+        importProcessing: 2,
+        importReadyIds: [],
+        mediaReady: [],
+        fieldLookupAwaiting: [],
+        fileOcrReady: [],
+        fileOcrProcessing: [],
+        fileOcrFailed: [],
+        mediaProcessing: [],
+      })
+      .mockReturnValueOnce({
+        ready: 2,
+        processing: 0,
+        importReady: 2,
+        importProcessing: 0,
+        importReadyIds: ['a', 'b'],
+        mediaReady: [],
+        fieldLookupAwaiting: [],
+        fileOcrReady: [],
+        fileOcrProcessing: [],
+        fileOcrFailed: [],
+        mediaProcessing: [],
+      })
+    syncBackgroundReviewToast({ onReview: jest.fn() })
+    syncBackgroundReviewToast({ onImportReview: jest.fn() })
+    expect(toast.warn).toHaveBeenCalled()
+    expect(isImportReviewUiVisible).toHaveBeenCalled()
   })
 })

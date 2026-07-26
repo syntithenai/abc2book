@@ -5929,6 +5929,18 @@ button img:after {
   min-width: 0;
 }
 
+.collapsible-button-row-more,
+.collapsible-button-row-less {
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.field-lookup-button-group .field-search-results-caret-wrap,
+.field-lookup-button-group .select-input-options-dropdown,
+.field-lookup-button-group .chip-list-options-dropdown {
+  margin-left: 0;
+}
+
 .select-input-loading-icon {
   display: inline-flex;
   align-items: center;

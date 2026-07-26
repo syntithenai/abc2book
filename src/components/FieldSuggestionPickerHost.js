@@ -84,6 +84,26 @@ export default function FieldSuggestionPickerHost(props) {
 
   const multiSelect = !!(picker && picker.multiSelect)
 
+  function selectAllSuggestions() {
+    if (!picker || !picker.job) return
+    const nextIndexes = selectedIndexes.slice()
+    picker.items.forEach(function(item, index) {
+      if (item && item.__current) return
+      if (nextIndexes.indexOf(index) >= 0) return
+      const candidate = (item && item.raw)
+        || (picker.candidates && picker.candidates[index - 1])
+        || null
+      if (!candidate) return
+      nextIndexes.push(index)
+      applyCandidate(picker.job, candidate, true)
+    })
+    setSelectedIndexes(nextIndexes)
+  }
+
+  function selectNoneSuggestions() {
+    setSelectedIndexes([])
+  }
+
   return (
     <>
       <SearchResultPickerModal
@@ -95,6 +115,8 @@ export default function FieldSuggestionPickerHost(props) {
         multiSelect={multiSelect}
         selectedIndexes={selectedIndexes}
         items={picker ? picker.items : []}
+        onSelectAll={multiSelect ? selectAllSuggestions : undefined}
+        onSelectNone={multiSelect ? selectNoneSuggestions : undefined}
         onSelect={function(item, index) {
           if (!picker || !picker.job) return
           if (item && item.__current) {

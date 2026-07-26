@@ -23,6 +23,12 @@
   line-height: 1.4;
 }
 
+.search-result-picker-bulk-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .search-result-picker-row-inner {
   display: flex;
   align-items: center;

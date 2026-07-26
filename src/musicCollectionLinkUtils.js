@@ -58,3 +58,25 @@ export function musicCollectionProxyPathFromUri(uri) {
     return src.slice(idx);
   }
 }
+
+const MUSIC_COLLECTION_ART_PATH = '/music-collection-art/';
+
+export function musicCollectionArtProxyPathFromUrl(url) {
+  const src = String(url || '').trim();
+  if (!src) return '';
+  try {
+    const parsed = new URL(src);
+    if (parsed.pathname.indexOf(MUSIC_COLLECTION_ART_PATH) === 0) {
+      return parsed.pathname;
+    }
+  } catch (e) {
+  }
+  if (src.indexOf(MUSIC_COLLECTION_ART_PATH) === 0) {
+    return src.split('?')[0];
+  }
+  const idx = src.indexOf(MUSIC_COLLECTION_ART_PATH);
+  if (idx >= 0) {
+    return src.slice(idx).split('?')[0];
+  }
+  return '';
+}

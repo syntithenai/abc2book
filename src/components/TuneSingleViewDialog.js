@@ -119,6 +119,9 @@ export function TuneSingleViewContent(props) {
   const tuneTags = Array.isArray(tune.tags)
     ? tune.tags.map(function(item) { return String(item || '').trim(); }).filter(Boolean)
     : [];
+  const tuneAlbums = Array.isArray(tune.albums)
+    ? tune.albums.map(function(item) { return String(item || '').trim(); }).filter(Boolean)
+    : [];
 
   return (
     <div className="tune-single-view-dialog-content music-single music-single--preview">
@@ -210,7 +213,7 @@ export function TuneSingleViewContent(props) {
         ) : null}
       </div>
 
-      {(viewFlags.info && backgroundInfoText) || tuneBooks.length > 0 || tuneTags.length > 0 ? (
+      {(viewFlags.info && backgroundInfoText) || tuneBooks.length > 0 || tuneTags.length > 0 || tuneAlbums.length > 0 ? (
         <div className="music-single-footer-meta">
           {viewFlags.info && backgroundInfoText ? (
             <div className="music-tune-info-section">
@@ -219,7 +222,7 @@ export function TuneSingleViewContent(props) {
               </div>
             </div>
           ) : null}
-          {tuneBooks.length > 0 || tuneTags.length > 0 ? (
+          {tuneBooks.length > 0 || tuneTags.length > 0 || tuneAlbums.length > 0 ? (
             <div className="music-single-books-tags" aria-label="Books and tags">
               {tuneBooks.length > 0 ? (
                 <div className="music-single-books-tags-row">
@@ -237,6 +240,16 @@ export function TuneSingleViewContent(props) {
                   <div className="music-single-books-tags-buttons">
                     {tuneTags.map(function(tag, idx) {
                       return <span key={'tag-' + idx} className="badge bg-light text-dark border">{tag}</span>;
+                    })}
+                  </div>
+                </div>
+              ) : null}
+              {tuneAlbums.length > 0 ? (
+                <div className="music-single-books-tags-row">
+                  <span className="music-single-books-tags-label">Albums</span>
+                  <div className="music-single-books-tags-buttons">
+                    {tuneAlbums.map(function(album, idx) {
+                      return <span key={'album-' + idx} className="badge bg-light text-dark border">{album}</span>;
                     })}
                   </div>
                 </div>

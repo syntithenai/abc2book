@@ -6,6 +6,7 @@ import json
 import mimetypes
 import os
 import re
+import sys
 import threading
 from urllib.parse import quote
 
@@ -182,7 +183,7 @@ def resolve_music_collection_file(relative_path):
     return abs_path
 
 
-def resolve_music_collection_art_file(entry_id):
+def resolve_music_collection_art_file(entry_id, *, allow_on_demand=True):
     art_dir = music_collection_art_dir()
     entry = str(entry_id or "").strip()
     if not entry or not re.fullmatch(r"[0-9]+", entry):
@@ -191,7 +192,99 @@ def resolve_music_collection_art_file(entry_id):
         abs_path = os.path.join(art_dir, entry + ext)
         if os.path.isfile(abs_path):
             return abs_path
+    if allow_on_demand:
+        extracted = ensure_music_collection_art_file(entry)
+        if extracted:
+            return extracted
     raise FileNotFoundError("Album art not found")
+
+
+def get_music_collection_entry(entry_id):
+    index = load_music_collection_index()
+    if not index:
+        return None
+    entry = (index.get("entries") or {}).get(str(entry_id or "").strip())
+    return entry if isinstance(entry, dict) else None
+
+
+def extract_music_collection_art_from_file(abs_path, entry_id, art_dir=None):
+    """Extract embedded cover art from an audio file and cache it by entry id."""
+    try:
+        from mutagen import File as MutagenFile
+    except ImportError:
+        return ""
+
+    try:
+        audio = MutagenFile(abs_path)
+    except Exception:
+        return ""
+    if audio is None:
+        return ""
+
+    pictures = []
+    if hasattr(audio, "tags") and audio.tags is not None:
+        tags = audio.tags
+        if hasattr(tags, "getall"):
+            try:
+                pictures.extend(tags.getall("APIC"))
+            except (ValueError, KeyError, TypeError):
+                pass
+        for key in ("APIC:", "APIC", "covr", "METADATA_BLOCK_PICTURE"):
+            try:
+                value = tags.get(key)
+            except (ValueError, KeyError, TypeError):
+                value = None
+            if value is None:
+                continue
+            if isinstance(value, list):
+                pictures.extend(value)
+            else:
+                pictures.append(value)
+
+    target_dir = art_dir or music_collection_art_dir()
+    for picture in pictures:
+        try:
+            data = getattr(picture, "data", None) or getattr(picture, "image", None)
+            if not data:
+                continue
+            mime = str(getattr(picture, "mime", "") or "").lower()
+            ext = ".jpg"
+            if "png" in mime:
+                ext = ".png"
+            elif "webp" in mime:
+                ext = ".webp"
+            os.makedirs(target_dir, exist_ok=True)
+            out_path = os.path.join(target_dir, str(entry_id) + ext)
+            with open(out_path, "wb") as handle:
+                handle.write(data)
+            return out_path
+        except Exception:
+            continue
+    return ""
+
+
+def ensure_music_collection_art_file(entry_id):
+    """Return cached art path, extracting from the source audio file on demand."""
+    entry = str(entry_id or "").strip()
+    if not entry or not re.fullmatch(r"[0-9]+", entry):
+        return ""
+    art_dir = music_collection_art_dir()
+    for ext in (".jpg", ".jpeg", ".png", ".webp"):
+        abs_path = os.path.join(art_dir, entry + ext)
+        if os.path.isfile(abs_path):
+            return abs_path
+
+    indexed = get_music_collection_entry(entry)
+    if not indexed:
+        return ""
+    rel_path = str(indexed.get("path") or "").strip()
+    if not rel_path:
+        return ""
+    try:
+        audio_path = resolve_music_collection_file(rel_path)
+    except (FileNotFoundError, ValueError):
+        return ""
+    return extract_music_collection_art_from_file(audio_path, entry, art_dir=art_dir)
 
 
 def guess_audio_mime_type(abs_path):
@@ -392,14 +485,13 @@ def build_music_collection_candidate(entry, *, public_base=None, request_base_ur
     if request_base_url:
         public_base = str(request_base_url).rstrip("/") + MUSIC_COLLECTION_PUBLIC_BASE
     link = build_music_collection_public_url(path, public_base=public_base)
-    image = ""
-    if entry.get("hasArt") and entry_id:
-        image = build_music_collection_art_url(entry_id, request_base_url=request_base_url)
+    image = build_music_collection_art_url(entry_id, request_base_url=request_base_url) if entry_id else ""
 
     return {
         "id": entry_id,
         "title": title,
         "artist": artist,
+        "path": path,
         "description": description,
         "image": image,
         "link": link,
@@ -408,49 +500,82 @@ def build_music_collection_candidate(entry, *, public_base=None, request_base_ur
     }
 
 
-def rebuild_music_collection_index(extract_art=True):
-    """Rebuild music_collection_index.json from files on disk and reload cache."""
-    import importlib.util
-
-    script_path = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)),
-        "scripts",
-        "build_music_collection_index.py",
-    )
-    spec = importlib.util.spec_from_file_location("_build_music_collection_index", script_path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError("Could not load music collection index builder")
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-
+def rebuild_music_collection_index(extract_art=True, resume=False, background=False):
+    """Rebuild music_collection_index.json from files on disk."""
     root = music_collection_root()
     if not os.path.isdir(root):
         raise FileNotFoundError("Music collection directory not found")
 
     metadata_dir = music_collection_metadata_dir()
     os.makedirs(metadata_dir, exist_ok=True)
-    index = module.build_index(
-        root,
+
+    if background:
+        return start_music_collection_index_build(extract_art=extract_art, resume=resume)
+
+    from music_collection_indexer import IndexBuildOptions, is_build_running, run_build
+
+    if is_build_running(metadata_dir):
+        raise RuntimeError("Music collection index build already running")
+
+    opts = IndexBuildOptions(
+        root_dir=root,
+        metadata_dir=metadata_dir,
         extract_art=extract_art,
-        art_dir=music_collection_art_dir(),
-        output_dir=metadata_dir,
-        progress_path=os.path.join(metadata_dir, "build_progress.json"),
+        resume=resume,
     )
-    output_path = music_collection_index_path()
-    with open(output_path, "w", encoding="utf-8") as handle:
-        json.dump(index, handle, separators=(",", ":"))
-
-    stats_path = music_collection_stats_path()
-    stats_payload = {
-        "version": index.get("version") or 2,
-        "builtAt": index.get("builtAt"),
-        "startedAt": index.get("startedAt"),
-        "root": index.get("root"),
-        "count": index.get("count"),
-        "stats": index.get("stats") or {},
-    }
-    with open(stats_path, "w", encoding="utf-8") as handle:
-        json.dump(stats_payload, handle, separators=(",", ":"))
-
+    index = run_build(
+        opts,
+        index_output_path=music_collection_index_path(),
+        stats_output_path=music_collection_stats_path(),
+        acquire_lock=True,
+    )
     load_music_collection_index(force_reload=True)
     return index
+
+
+def start_music_collection_index_build(extract_art=True, resume=False):
+    """Spawn a detached index build subprocess."""
+    import subprocess
+
+    metadata_dir = music_collection_metadata_dir()
+    os.makedirs(metadata_dir, exist_ok=True)
+
+    from music_collection_indexer import is_build_running
+
+    if is_build_running(metadata_dir):
+        raise RuntimeError("Music collection index build already running")
+
+    script_path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        "scripts",
+        "build_music_collection_index.py",
+    )
+    if not os.path.isfile(script_path):
+        raise RuntimeError("Music collection index builder script not found")
+
+    cmd = [
+        sys.executable,
+        script_path,
+        music_collection_root(),
+    ]
+    if not extract_art:
+        cmd.append("--no-art")
+    if resume:
+        cmd.append("--resume")
+
+    log_path = os.path.join(metadata_dir, "build.log")
+    log_handle = open(log_path, "a", encoding="utf-8")
+    proc = subprocess.Popen(
+        cmd,
+        cwd=os.path.dirname(os.path.abspath(__file__)),
+        stdout=log_handle,
+        stderr=subprocess.STDOUT,
+        start_new_session=True,
+    )
+    log_handle.close()
+    return {
+        "ok": True,
+        "started": True,
+        "pid": proc.pid,
+        "background": True,
+    }

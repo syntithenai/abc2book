@@ -332,6 +332,42 @@ export function beginSeekHold(now, ms) {
 }
 
 /**
+ * Map abcjs meter units onto the metronome rhythm beat grid. abcjs
+ * getBeatsPerMeasure() follows the tune's L: unit (often 2 for 4/4 half-notes)
+ * while the metronome rhythm preset counts quarter-note beats (4 for 4/4).
+ */
+export function rhythmAlignedCountInInput(visualObj, rhythm, options) {
+  const o = options || {}
+  if (!visualObj || typeof visualObj.getBeatsPerMeasure !== 'function') {
+    return null
+  }
+  const abcBeatsPerMeasure = parseFloat(visualObj.getBeatsPerMeasure()) || 0
+  const beatLength = parseFloat(visualObj.getBeatLength()) || 0
+  const msPerMeasure = typeof visualObj.millisecondsPerMeasure === 'function'
+    ? parseFloat(visualObj.millisecondsPerMeasure()) || 0
+    : 0
+  const rhythmBeatsPerBar = rhythm && rhythm.beatsPerBar > 0
+    ? rhythm.beatsPerBar
+    : abcBeatsPerMeasure
+  if (!(abcBeatsPerMeasure > 0) || !(beatLength > 0) || !(msPerMeasure > 0)
+      || !(rhythmBeatsPerBar > 0)) {
+    return null
+  }
+  const beatScale = rhythmBeatsPerBar / abcBeatsPerMeasure
+  const rhythmBeatLength = beatLength / beatScale
+  return {
+    beatsPerMeasure: rhythmBeatsPerBar,
+    pickupLength: parseFloat(visualObj.getPickupLength()) || 0,
+    beatLength: rhythmBeatLength,
+    millisecondsPerMeasure: msPerMeasure,
+    tempoFactor: o.tempoFactor > 0 ? parseFloat(o.tempoFactor) : 1,
+    countInBeats: o.countInBeats,
+    countInBarOnly: !!o.countInBarOnly,
+    countInBars: o.countInBars,
+  }
+}
+
+/**
  * Metronome count-in for MIDI playback with optional anacrusis (pickup).
  *
  * Without pickup: N bars of clicks (N = countInBars), then music on the next beat.

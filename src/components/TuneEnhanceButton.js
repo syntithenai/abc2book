@@ -8,8 +8,10 @@ import { lyricLinesToText } from '../wLinesUtils'
 import { capitalizeSongTitle, isSongTitleCapitalized } from '../titleCaseUtils'
 import { primaryArtist } from '../tuneBibliographicUtils'
 import { isTuneFieldEmptyForKind } from '../fieldLookupApplyUtils'
+import { enrichTuneMetadataFromMusicBrainz } from '../tuneMetadataEnhance'
 
 const ENHANCE_KINDS = ['chords', 'lyrics', 'notation', 'links']
+const METADATA_KINDS = ['composer', 'artists', 'albums', 'genre']
 
 /**
  * Header control: queue every available information enhancement for one tune.
@@ -43,6 +45,27 @@ export default function TuneEnhanceButton({
 
     const tokenValue = accessToken()
     let queued = 0
+    const needsMetadata = METADATA_KINDS.some(function(kind) {
+      return isTuneFieldEmptyForKind(tune, kind)
+    })
+    if (needsMetadata) {
+      queued += 1
+      enrichTuneMetadataFromMusicBrainz(tune, {
+        title: title,
+        artist: primaryArtist(tune),
+        accessToken: tokenValue,
+        resolverAvailable: checked ? resolverAvailable : undefined,
+      }).then(function(result) {
+        const applied = result && result.applied ? result.applied : {}
+        if (Object.keys(applied).length) {
+          tunebook.saveTune(tune, false, { historyLabel: 'Enhance metadata', immediate: true })
+          if (typeof forceRefresh === 'function') forceRefresh()
+        }
+      }).catch(function(e) {
+        console.log(e)
+      })
+    }
+
     ENHANCE_KINDS.forEach(function(kind) {
       if (kind !== 'links' && !isTuneFieldEmptyForKind(tune, kind)) return
       const id = fieldLookupQueue.enqueueLookup({
@@ -65,7 +88,7 @@ export default function TuneEnhanceButton({
     })
 
     const discoveryPreview = composerQueue.previewEnqueueTunes([tune])
-    if (discoveryPreview.willDiscover > 0) {
+    if (!needsMetadata && discoveryPreview.willDiscover > 0) {
       composerQueue.enqueueTunes([tune], { accessToken: tokenValue })
       composerQueue.start()
     }
@@ -84,7 +107,7 @@ export default function TuneEnhanceButton({
       backgroundQueue.start()
     }
 
-    if (queued > 0 || discoveryPreview.willDiscover > 0 || willResearch > 0) {
+    if (queued > 0 || (!needsMetadata && discoveryPreview.willDiscover > 0) || willResearch > 0) {
       toast.success('Queued enhancements for this tune.')
     } else {
       toast.info('No new enhancements queued (fields already filled or jobs already running).')

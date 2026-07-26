@@ -21,8 +21,8 @@ import TablatureSelector from './TablatureSelector'
 //import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
-import AsyncCreatableSelect from 'react-select/async-creatable';
-import useMusicBrainz from '../useMusicBrainz'
+import ComposerNameInput from './ComposerNameInput'
+import CollapsibleButtonRow from './CollapsibleButtonRow'
 import ChordsSearchButton from './ChordsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
@@ -45,6 +45,8 @@ import {
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
 import TuneGenresField from './TuneGenresField'
+import TuneAlbumsField from './TuneAlbumsField'
+import AlbumsSearchButton from './AlbumsSearchButton'
 import BookSelectorModal from './BookSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
 import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
@@ -55,7 +57,6 @@ export default function AbcEditor(props) {
   const [currentVoice, setCurrentVoice] = useState(0);
   const editorViewMode = normalizeEditorViewMode(props.editorViewMode);
   let params = useParams();
-  var musicBrainz = useMusicBrainz()
   const { available: resolverAvailable } = useMediaResolverHealth()
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
   var tune = props.tune
@@ -400,6 +401,9 @@ export default function AbcEditor(props) {
       const selectedTags = Array.isArray(tune.tags)
         ? tune.tags.map(function(item) { return String(item || '').trim() }).filter(Boolean)
         : []
+      const selectedAlbums = Array.isArray(tune.albums)
+        ? tune.albums.map(function(item) { return String(item || '').trim() }).filter(Boolean)
+        : []
       return (
                     <>
                     <Form className="abc-editor-info-form">
@@ -469,27 +473,16 @@ export default function AbcEditor(props) {
                                       <Form.Label style={{ marginBottom: 0 }}>Composer</Form.Label>
                                       {api.buttonGroup}
                                     </div>
-                                    <AsyncCreatableSelect
-                                      value={tune && tune.composer
-                                        ? { value: tune.composer, label: tune.composer }
-                                        : null}
-                                      onChange={function(val) {
-                                        tune.composer = val ? val.label : ''
+                                    <ComposerNameInput
+                                      controlId="composer"
+                                      value={tune && tune.composer ? tune.composer : ''}
+                                      placeholder="Type composer name"
+                                      token={props.token}
+                                      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                                      onChange={function(e) {
+                                        tune.composer = e.target.value
                                         tune.id = params.tuneId
                                         saveTune(tune)
-                                      }}
-                                      defaultOptions={[]}
-                                      loadOptions={musicBrainz.artistOptions}
-                                      isClearable={true}
-                                      blurInputOnSelect={true}
-                                      createOptionPosition="first"
-                                      allowCreateWhileLoading={true}
-                                      placeholder="Type composer name"
-                                      menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
-                                      styles={{
-                                        menuPortal: function(base) {
-                                          return Object.assign({}, base, { zIndex: 10050 })
-                                        },
                                       }}
                                     />
                                     {api.errorNode}
@@ -692,12 +685,54 @@ export default function AbcEditor(props) {
                                     }}
                                     showTags={true}
                                   />
-                                  {selectedTags.map(function(tag) {
-                                    return <Button key={tag} size="sm" variant="outline-info">{tag}</Button>
-                                  })}
+                                  <CollapsibleButtonRow
+                                    items={selectedTags}
+                                    renderItem={function(tag) {
+                                      return <Button key={tag} size="sm" variant="outline-info">{tag}</Button>
+                                    }}
+                                  />
                                 </div>
                               ) : null}
                             </div>
+                          </div>
+                          <div className="abc-editor-info-field-block">
+                            <AlbumsSearchButton
+                              tuneId={params.tuneId || tune.id}
+                              title={tune.name || ''}
+                              artist={tune.composer || ''}
+                              performers={Array.isArray(tune.artists) ? tune.artists : []}
+                              currentAlbums={selectedAlbums}
+                              token={props.token}
+                              tunebook={props.tunebook}
+                              disabled={!(tune && tune.name && String(tune.name).trim())}
+                              onSetAlbums={function(nextAlbums) {
+                                tune.albums = Array.isArray(nextAlbums) ? nextAlbums : []
+                                tune.id = params.tuneId
+                                saveTune(tune)
+                              }}
+                            >
+                              {function(api) {
+                                return (
+                                  <>
+                                    <div className="abc-editor-info-label-control-row">
+                                      <Form.Label className="mb-0">Albums</Form.Label>
+                                      {api.buttonGroup}
+                                    </div>
+                                    <TuneAlbumsField
+                                      label=""
+                                      className="mb-0"
+                                      value={selectedAlbums}
+                                      onChange={function(albums) {
+                                        tune.albums = albums
+                                        tune.id = params.tuneId
+                                        saveTune(tune)
+                                      }}
+                                    />
+                                    {api.errorNode}
+                                  </>
+                                )
+                              }}
+                            </AlbumsSearchButton>
                           </div>
                         </div>
                       </div>

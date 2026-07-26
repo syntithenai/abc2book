@@ -7,6 +7,7 @@ from music_collection_analytics import (
     metadata_sources,
     normalize_match_text,
     quick_content_fingerprint,
+    read_standard_tags,
     soft_duplicate_key,
     summarize_stats_for_health,
 )
@@ -21,6 +22,35 @@ class MusicCollectionAnalyticsTests(unittest.TestCase):
         self.assertEqual(sources["title"], "tag")
         self.assertEqual(sources["artist"], "tag")
         self.assertEqual(sources["album"], "derived")
+
+    def test_read_standard_tags_vorbis_membership(self):
+        class VorbisLikeTags(dict):
+            def __contains__(self, key):
+                raise ValueError
+
+            def get(self, key, default=None):
+                return {"TITLE": "Sally Gardens", "ARTIST": "Altan"}.get(key, default)
+
+            def items(self):
+                return [("TITLE", "Sally Gardens"), ("ARTIST", "Altan")]
+
+        standard, keys = read_standard_tags(VorbisLikeTags())
+        self.assertEqual(standard["title"], "Sally Gardens")
+        self.assertEqual(standard["artist"], "Altan")
+        self.assertIn("title", keys)
+        standard, keys = read_standard_tags({
+            "TIT2": "Sally Gardens",
+            "TPE1": "Altan",
+            "TALB": "The Gap",
+            "TCON": "Folk",
+            "TDRC": "1992",
+        })
+        self.assertEqual(standard["title"], "Sally Gardens")
+        self.assertEqual(standard["artist"], "Altan")
+        self.assertEqual(standard["album"], "The Gap")
+        self.assertEqual(standard["genre"], "Folk")
+        self.assertEqual(standard["year"], "1992")
+        self.assertIn("tit2", keys)
 
     def test_soft_duplicate_key(self):
         key_a = soft_duplicate_key("Sally Gardens", "Altan", 180.2)

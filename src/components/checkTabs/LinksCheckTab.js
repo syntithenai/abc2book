@@ -55,6 +55,7 @@ export function LinkAllocationRow({
   onSaveManual,
   onApplyYoutube,
   tunebook,
+  token,
   setBlockKeyboardShortcuts,
 }) {
   const label = linkIndex === NEW_LINK_INDEX
@@ -108,6 +109,7 @@ export function LinkAllocationRow({
         </Button>
         <YouTubeSearchModal
           tunebook={tunebook}
+          token={token}
           setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
           onChange={function(ytLink) {
             onApplyYoutube(tuneId, linkIndex, ytLink)
@@ -302,6 +304,7 @@ export default function LinksCheckTab(props) {
                       onSaveManual={props.onSaveManual}
                       onApplyYoutube={props.onApplyYoutube}
                       tunebook={props.tunebook}
+                      token={props.token}
                       setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                     />
                   )

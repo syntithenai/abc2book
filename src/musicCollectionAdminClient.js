@@ -1,6 +1,14 @@
 import { fetchViaMediaProxy } from './mediaProxyClient';
+import { getActiveResolverAccessToken, getMediaResolverHealthState } from './mediaResolverHealthStore';
 import { resolverHasFeature } from './resolverFeatures';
-import { getMediaResolverHealthState } from './mediaResolverHealthStore';
+import { resolveResolverAccessToken } from './resolverAccessToken';
+
+function resolveCollectionAdminToken(options) {
+  const opts = options || {};
+  return resolveResolverAccessToken(opts.accessToken || opts.token)
+    || getActiveResolverAccessToken()
+    || '';
+}
 
 export function getMusicCollectionStatusFromHealth(status) {
   const src = status || {};
@@ -38,7 +46,8 @@ export function readMusicCollectionSettingsStatus() {
 
 export async function rebuildMusicCollectionIndex(options) {
   const opts = options || {};
-  const response = await fetchViaMediaProxy('/rebuild-music-collection-index', opts.accessToken || opts.token, {
+  const accessToken = resolveCollectionAdminToken(opts) || null;
+  const response = await fetchViaMediaProxy('/rebuild-music-collection-index', accessToken, {
     method: 'POST',
     headers: {
       Accept: 'application/json',
@@ -46,6 +55,8 @@ export async function rebuildMusicCollectionIndex(options) {
     },
     body: JSON.stringify({
       extractArt: opts.extractArt === true,
+      resume: opts.resume === true,
+      background: opts.background !== false,
     }),
     signal: opts.signal,
   });
@@ -63,6 +74,9 @@ export async function rebuildMusicCollectionIndex(options) {
 
   return {
     ok: true,
+    started: body.started === true,
+    background: body.background === true,
+    pid: typeof body.pid === 'number' ? body.pid : null,
     count: typeof body.musicCollectionCount === 'number'
       ? body.musicCollectionCount
       : (typeof body.count === 'number' ? body.count : 0),
@@ -76,7 +90,8 @@ export async function rebuildMusicCollectionIndex(options) {
 
 export async function fetchMusicCollectionStats(options) {
   const opts = options || {};
-  const response = await fetchViaMediaProxy('/music-collection-stats', opts.accessToken || opts.token, {
+  const accessToken = resolveCollectionAdminToken(opts) || null;
+  const response = await fetchViaMediaProxy('/music-collection-stats', accessToken, {
     method: 'GET',
     headers: {
       Accept: 'application/json',
@@ -101,6 +116,8 @@ export async function fetchMusicCollectionStats(options) {
     builtAt: body.builtAt || null,
     stats: body.stats || null,
     progress: body.progress || null,
+    buildRunning: body.buildRunning === true,
+    recentErrors: Array.isArray(body.recentErrors) ? body.recentErrors : [],
     summary: body.musicCollectionSummary || null,
   };
 }

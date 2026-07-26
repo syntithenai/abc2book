@@ -232,7 +232,7 @@ describe('tuneFieldLookupQueue', function() {
     })
     tuneFieldLookupQueue.start()
     const job = await waitForJob(function(item) { return item && item.status === 'awaiting' })
-    const chosen = tuneFieldLookupQueue.applyFieldLookupChoice(job.id, job.candidates[0])
+    const chosen = await tuneFieldLookupQueue.applyFieldLookupChoice(job.id, job.candidates[0])
     expect(chosen.text).toBe('line one')
     expect(tuneFieldLookupQueue.findJobById(job.id).status).toBe('done')
     expect(tuneFieldLookupQueue.findJobById(job.id).candidates.length).toBe(0)
@@ -344,6 +344,7 @@ describe('tuneFieldLookupQueue', function() {
       artist: 'Only Artist',
       source: 'web',
       preview: 'Only Artist',
+      confidence: 'high',
     })
     tuneFieldLookupQueue.enqueueLookup({
       tuneId: 't1',
@@ -451,6 +452,7 @@ describe('tuneFieldLookupQueue', function() {
       artist: 'Only Artist',
       source: 'web',
       preview: 'Only Artist',
+      confidence: 'high',
     })
     tuneFieldLookupQueue.enqueueLookup({
       tuneId: 't1',

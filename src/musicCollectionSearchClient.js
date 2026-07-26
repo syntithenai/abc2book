@@ -2,8 +2,16 @@ import {
   fetchViaMediaProxy,
   isMediaProxyConfigured,
 } from './mediaProxyClient';
-import { getMediaResolverHealthState } from './mediaResolverHealthStore';
+import { getActiveResolverAccessToken, getMediaResolverHealthState } from './mediaResolverHealthStore';
 import { resolverHasFeature } from './resolverFeatures';
+import { resolveResolverAccessToken } from './resolverAccessToken';
+
+function resolveCollectionAccessToken(options) {
+  const opts = options || {};
+  return resolveResolverAccessToken(opts.accessToken || opts.token)
+    || getActiveResolverAccessToken()
+    || '';
+}
 
 function emptyResult() {
   return { empty: true, candidates: [] };
@@ -11,8 +19,11 @@ function emptyResult() {
 
 export function isMusicCollectionAvailable() {
   if (!isMediaProxyConfigured()) return false;
-  const status = getMediaResolverHealthState();
-  return resolverHasFeature(status, 'musicCollection');
+  const health = getMediaResolverHealthState();
+  if (!health || !health.available || !health.status) return false;
+  const status = health.status;
+  if (resolverHasFeature(status, 'musicCollection')) return true;
+  return typeof status.musicCollectionCount === 'number' && status.musicCollectionCount > 0;
 }
 
 /**
@@ -29,7 +40,7 @@ export async function searchMusicCollection(options) {
     return emptyResult();
   }
 
-  const accessToken = opts.accessToken || opts.token || null;
+  const accessToken = resolveCollectionAccessToken(opts) || null;
   const maxResults = opts.maxResults || 8;
   const response = await fetchViaMediaProxy('/search-music-collection', accessToken, {
     method: 'POST',

@@ -18,6 +18,7 @@ export function fieldLookupAutomaticLookup(kind, context) {
     case 'artists':
     case 'aliases':
     case 'genre':
+    case 'albums':
       return true
     case 'background':
       return hasLlm

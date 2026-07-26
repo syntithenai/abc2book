@@ -162,6 +162,57 @@ export function getEffectiveComposerSearchHints(title, composer, titleHint) {
   return parseTitleComposerHints(title, composer, titleHint)
 }
 
+export function isTraditionalComposerName(name) {
+  const text = String(name || '').trim()
+  if (!text) return false
+  const key = normalizeArtistKey(text)
+  return key === 'traditional' || key === 'trad'
+}
+
+export function traditionalComposerMatchesQuery(query) {
+  const q = normalizeArtistKey(query)
+  if (!q) return false
+  if (q === 'traditional' || q === 'trad') return true
+  return 'traditional'.indexOf(q) === 0 && q.length >= 2
+}
+
+export function prioritizeTraditionalComposerCandidates(candidates) {
+  if (!Array.isArray(candidates) || candidates.length < 2) {
+    return Array.isArray(candidates) ? candidates.slice() : []
+  }
+  const index = candidates.findIndex(function(candidate) {
+    const name = candidate && candidate.artist != null ? candidate.artist : candidate
+    return isTraditionalComposerName(name)
+  })
+  if (index <= 0) return candidates.slice()
+  const next = candidates.slice()
+  const hit = next.splice(index, 1)[0]
+  next.unshift(hit)
+  return next
+}
+
+export function prioritizeTraditionalComposerNames(names) {
+  if (!Array.isArray(names) || names.length < 2) {
+    return Array.isArray(names) ? names.slice() : []
+  }
+  const index = names.findIndex(isTraditionalComposerName)
+  if (index <= 0) return names.slice()
+  const next = names.slice()
+  const hit = next.splice(index, 1)[0]
+  next.unshift(hit)
+  return next
+}
+
+export function buildComposerAutosuggestOptions(mbOptions, searchDraft) {
+  const options = Array.isArray(mbOptions) ? mbOptions.slice() : []
+  const query = String(searchDraft || '').trim()
+  if (traditionalComposerMatchesQuery(query)) {
+    const hasTraditional = options.some(isTraditionalComposerName)
+    if (!hasTraditional) options.unshift('Traditional')
+  }
+  return prioritizeTraditionalComposerNames(options)
+}
+
 export function buildComposerPickerCandidates(result, currentComposer) {
   const candidates = []
   const seen = new Set()
@@ -170,7 +221,7 @@ export function buildComposerPickerCandidates(result, currentComposer) {
     return role === 'writer' ? 'Writer' : (role === 'performer' ? 'Performer' : '')
   }
 
-  function add(artist, source, preview, role) {
+  function add(artist, source, preview, role, confidence, matchType) {
     const name = String(artist || '').trim()
     const key = normalizeArtistKey(name)
     if (!name || !key || seen.has(key)) return
@@ -188,6 +239,8 @@ export function buildComposerPickerCandidates(result, currentComposer) {
       role: normalizedRole,
       source: displaySource,
       preview: preview || (label ? (label + ' of this song') : name),
+      confidence: confidence || '',
+      matchType: matchType || '',
     })
   }
 
@@ -205,16 +258,24 @@ export function buildComposerPickerCandidates(result, currentComposer) {
     incoming.push(result)
   }
 
-  incoming
-    .slice()
-    .sort(function(a, b) {
+  const orderedIncoming = prioritizeTraditionalComposerCandidates(
+    incoming.slice().sort(function(a, b) {
       const aWriter = a && a.role === 'writer' ? 0 : 1
       const bWriter = b && b.role === 'writer' ? 0 : 1
       return aWriter - bWriter
     })
-    .forEach(function(candidate) {
-      add(candidate.artist, candidate.source, candidate.preview, candidate.role)
-    })
+  )
+
+  orderedIncoming.forEach(function(candidate) {
+    add(
+      candidate.artist,
+      candidate.source,
+      candidate.preview,
+      candidate.role,
+      candidate.confidence,
+      candidate.matchType
+    )
+  })
 
   return candidates
 }

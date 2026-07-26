@@ -245,7 +245,7 @@ var useAbcTools = () => {
     function abc2json(abc) {
         //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genres: [], noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', lyricsScrollDurationSec: 0, meta: {}}
+        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genres: [], albums: [], noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', lyricsScrollDurationSec: 0, meta: {}}
         var currentVoice = '1'
         var pendingMidiPrograms = []
         var seenVoiceHeader = false
@@ -454,6 +454,10 @@ var useAbcTools = () => {
                     tune.tuning = line.slice(17).trim()
                 } else  if (line.startsWith('% abcbook-tags')) {
                     tune.tags = line.slice(14).trim() ? line.slice(14).trim().split(",") : []
+                } else  if (line.startsWith('% abcbook-albums ')) {
+                    if (!Array.isArray(tune.albums)) tune.albums = []
+                    const albumVal = line.slice(16).trim()
+                    if (albumVal) tune.albums.push(albumVal)
                 } else  if (line.startsWith('% abcbook-suitable-for')) {
                     const suitableVal = abcbookFieldValue(line, '% abcbook-suitable-for')
                     tune.suitableFor = suitableVal
@@ -969,7 +973,12 @@ var useAbcTools = () => {
                     + (Array.isArray(tune.activeVoices)
                       ? "% abcbook-active-voices " + tune.activeVoices.map(function(v) { return ensureText(v) }).filter(Boolean).join(",") + "\n"
                       : '')
-                    + "% abcbook-tags " +  ((Array.isArray(tune.tags) && tune.tags.length > 0) ? tune.tags.join(",") : '') + "\n" 
+                    + "% abcbook-tags " +  ((Array.isArray(tune.tags) && tune.tags.length > 0) ? tune.tags.join(",") : '') + "\n"
+                    + (Array.isArray(tune.albums) && tune.albums.length > 0
+                      ? tune.albums.map(function(album) {
+                        return '% abcbook-albums ' + ensureText(album) + '\n'
+                      }).join('')
+                      : '')
                     + (Array.isArray(tune.suitableFor) && tune.suitableFor.length > 0
                       ? "% abcbook-suitable-for " + tune.suitableFor.map(function(item) { return ensureText(item) }).filter(Boolean).join(",") + "\n"
                       : '')

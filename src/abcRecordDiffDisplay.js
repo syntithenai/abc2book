@@ -33,6 +33,9 @@ export function describeAbcLine(line) {
   if (!trimmed) {
     return { category: 'blank', label: 'Blank line' }
   }
+  if (trimmed.startsWith('% abcbook-albums ')) {
+    return { category: 'comment', label: 'Albums', value: trimmed.slice(16).trim() }
+  }
   if (trimmed.startsWith('%')) {
     return { category: 'comment', label: 'Comment' }
   }

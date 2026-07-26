@@ -3,6 +3,7 @@ import {
   isShareableCollectionLink,
   getCollectionLinkSyncStatus,
   musicCollectionProxyPathFromUri,
+  musicCollectionArtProxyPathFromUrl,
 } from './musicCollectionLinkUtils';
 
 describe('musicCollectionLinkUtils', function() {
@@ -34,5 +35,12 @@ describe('musicCollectionLinkUtils', function() {
   test('extracts proxy path from absolute url', function() {
     expect(musicCollectionProxyPathFromUri('https://example.com/music-collection/Altan/a.mp3'))
       .toBe('/music-collection/Altan/a.mp3');
+  });
+
+  test('extracts art proxy path from absolute url', function() {
+    expect(musicCollectionArtProxyPathFromUrl('https://example.com/music-collection-art/42'))
+      .toBe('/music-collection-art/42');
+    expect(musicCollectionArtProxyPathFromUrl('/music-collection-art/7'))
+      .toBe('/music-collection-art/7');
   });
 });

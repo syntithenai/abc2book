@@ -20,6 +20,7 @@ import { removeAddDraftTuneFile } from '../addFormAttach'
 import { fetchArtistDiscography } from '../artistDiscographyClient'
 import { fetchAlbumDiscography } from '../albumDiscographyClient'
 import { formatBulkLine } from '../bulkListFormat'
+import SearchResultPickerModal from './SearchResultPickerModal'
 
 function uniqueStrings(values) {
   const seen = {}
@@ -80,6 +81,8 @@ export default function AddTuneSimpleForm(props) {
   const [discographyProgress, setDiscographyProgress] = useState('')
   const [albumDiscographyBusy, setAlbumDiscographyBusy] = useState(false)
   const [albumDiscographyProgress, setAlbumDiscographyProgress] = useState('')
+  const [albumPickerCandidates, setAlbumPickerCandidates] = useState([])
+  const [showAlbumPicker, setShowAlbumPicker] = useState(false)
   const [album, setAlbum] = useState('')
   const artistsRef = useRef([])
   const discographyAbortRef = useRef(null)
@@ -248,6 +251,49 @@ export default function AddTuneSimpleForm(props) {
     }
   }
 
+  function applyAlbumTrackLines(result) {
+    const artistLabel = String(result.artistName || composer || '').trim()
+    const lines = (result.titles || []).map(function(songTitle) {
+      return formatBulkLine({
+        title: songTitle,
+        artist: artistLabel,
+      })
+    })
+    if (!lines.length) {
+      toast.info('No tracks found for that album.')
+      return
+    }
+    fillBulkImportLines(lines)
+    toast.success('Loaded ' + lines.length + ' track' + (lines.length === 1 ? '' : 's') + ' into bulk import.')
+  }
+
+  function albumPickerItems(candidates) {
+    return (candidates || []).map(function(candidate) {
+      const albumLine = candidate.label || candidate.albumName || ''
+      const metaParts = []
+      if (candidate.artistName) metaParts.push(String(candidate.artistName).trim())
+      if (candidate.matchType) metaParts.push(String(candidate.matchType))
+      if (candidate.confidence && candidate.confidence !== 'high') metaParts.push(candidate.confidence)
+      return {
+        title: albumLine,
+        artist: candidate.artistName || '',
+        matchType: metaParts.join(' · '),
+        candidate: candidate,
+      }
+    })
+  }
+
+  async function loadAlbumTracks(candidate, controller) {
+    const result = await fetchAlbumDiscography(albumName, composer, {
+      signal: controller.signal,
+      candidate: candidate,
+      onProgress: function(message) {
+        setAlbumDiscographyProgress(String(message || '').trim())
+      },
+    })
+    applyAlbumTrackLines(result)
+  }
+
   async function handleAlbumDiscography() {
     if (!albumName || albumDiscographyBusy || discographyBusy) return
     if (discographyAbortRef.current) {
@@ -257,6 +303,8 @@ export default function AddTuneSimpleForm(props) {
     discographyAbortRef.current = controller
     setAlbumDiscographyBusy(true)
     setAlbumDiscographyProgress('Looking up album…')
+    setShowAlbumPicker(false)
+    setAlbumPickerCandidates([])
     try {
       const result = await fetchAlbumDiscography(albumName, composer, {
         signal: controller.signal,
@@ -264,19 +312,37 @@ export default function AddTuneSimpleForm(props) {
           setAlbumDiscographyProgress(String(message || '').trim())
         },
       })
-      const artistLabel = String(result.artistName || composer || '').trim()
-      const lines = (result.titles || []).map(function(songTitle) {
-        return formatBulkLine({
-          title: songTitle,
-          artist: artistLabel,
-        })
-      })
-      if (!lines.length) {
-        toast.info('No tracks found for that album.')
+      if (result.needsPicker && Array.isArray(result.candidates) && result.candidates.length) {
+        setAlbumPickerCandidates(result.candidates)
+        setShowAlbumPicker(true)
         return
       }
-      fillBulkImportLines(lines)
-      toast.success('Loaded ' + lines.length + ' track' + (lines.length === 1 ? '' : 's') + ' into bulk import.')
+      applyAlbumTrackLines(result)
+    } catch (e) {
+      if (e && e.name === 'AbortError') return
+      toast.error((e && e.message) || 'Could not look up album tracks.')
+    } finally {
+      if (discographyAbortRef.current === controller) {
+        discographyAbortRef.current = null
+      }
+      setAlbumDiscographyBusy(false)
+      setAlbumDiscographyProgress('')
+    }
+  }
+
+  async function handleAlbumPickerSelect(item) {
+    if (!item || !item.candidate) return
+    setShowAlbumPicker(false)
+    setAlbumPickerCandidates([])
+    if (discographyAbortRef.current) {
+      discographyAbortRef.current.abort()
+    }
+    const controller = new AbortController()
+    discographyAbortRef.current = controller
+    setAlbumDiscographyBusy(true)
+    setAlbumDiscographyProgress('Loading album tracks…')
+    try {
+      await loadAlbumTracks(item.candidate, controller)
     } catch (e) {
       if (e && e.name === 'AbortError') return
       toast.error((e && e.message) || 'Could not look up album tracks.')
@@ -427,18 +493,6 @@ export default function AddTuneSimpleForm(props) {
                         label="Artists"
                         placeholder="Type or pick a performer"
                         searchResultCandidates={artistSearchCandidates}
-                        onOpenSearchResults={function(candidates) {
-                          const first = Array.isArray(candidates) ? candidates[0] : null
-                          const name = first && first.artist
-                            ? first.artist
-                            : String(first || '').trim()
-                          if (!name) return
-                          const next = mergeBibliographicList(artistsRef.current, [name])
-                          setField('artists', next)
-                          if (!String(values.artist || '').trim()) {
-                            scheduleYouTubeSearch('', next)
-                          }
-                        }}
                       />
                     </div>
                   </>
@@ -459,14 +513,14 @@ export default function AddTuneSimpleForm(props) {
                   title={
                     albumDiscographyBusy
                       ? (albumDiscographyProgress || 'Looking up album tracks…')
-                      : 'Load this album\'s track list into bulk import'
+                      : 'Find this album by name and load its track list into bulk import'
                   }
                   onClick={handleAlbumDiscography}
                 >
                   {albumDiscographyBusy ? (
                     <Spinner animation="border" size="sm" className="me-1" aria-hidden="true" />
                   ) : null}
-                  Discography
+                  Load tracks
                 </Button>
                 {albumDiscographyBusy && albumDiscographyProgress ? (
                   <span
@@ -639,6 +693,7 @@ export default function AddTuneSimpleForm(props) {
               searchNonce={youtubeSearchNonce}
               autoSelectFirst={!!(title && composer)}
               setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+              token={props.token}
               onChange={handleYouTubePick}
               onClear={clearYouTube}
             />
@@ -683,6 +738,19 @@ export default function AddTuneSimpleForm(props) {
           </div>
         </Col>
       </Row>
+
+      <SearchResultPickerModal
+        show={showAlbumPicker}
+        title="Choose album"
+        items={albumPickerItems(albumPickerCandidates)}
+        comment="Multiple albums matched this name. Pick the one you want before loading tracks."
+        emptyMessage="No albums found."
+        onSelect={handleAlbumPickerSelect}
+        onHide={function() {
+          setShowAlbumPicker(false)
+          setAlbumPickerCandidates([])
+        }}
+      />
     </div>
   )
 }

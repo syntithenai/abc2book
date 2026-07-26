@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Accordion, Alert, Button, ButtonGroup, Col, Form, Row } from 'react-bootstrap';
 import CreatableSelect from 'react-select/creatable';
-import AsyncCreatableSelect from 'react-select/async-creatable';
+import ComposerNameInput from './ComposerNameInput';
 import { formatTuneFieldValue } from '../tuneImportMergeUtils';
 import useMusicBrainz from '../useMusicBrainz';
 import ImportFieldSuggestion from './ImportFieldSuggestion';
@@ -12,6 +12,8 @@ import ImportReviewSnapshotsSection from './ImportReviewSnapshotsSection';
 import TuneAliasesField from './TuneAliasesField';
 import TuneArtistsField from './TuneArtistsField';
 import TuneGenresField from './TuneGenresField';
+import TuneAlbumsField from './TuneAlbumsField';
+import AlbumsSearchButton from './AlbumsSearchButton';
 import ComposerSearchButton from './ComposerSearchButton';
 import NotationSearchButton from './NotationSearchButton';
 import GenreSearchButton from './GenreSearchButton';
@@ -352,6 +354,41 @@ export default function TuneRecordForm(props) {
           </Form.Group>
         </Col>
       </Row>
+      <Row className="mt-2">
+        <Col xs={12}>
+          <AlbumsSearchButton
+            tuneId={props.previewTune && props.previewTune.id}
+            candidateId={props.candidateId}
+            title={values.title}
+            artist={values.artist}
+            performers={Array.isArray(values.artists) ? values.artists : []}
+            currentAlbums={Array.isArray(values.albums) ? values.albums : []}
+            token={props.token}
+            tunebook={tunebook}
+            disabled={!String(values.title || '').trim()}
+            onSetAlbums={function(nextAlbums) {
+              setField('albums', Array.isArray(nextAlbums) ? nextAlbums : []);
+            }}
+          >
+            {function(api) {
+              return (
+                <>
+                  <FieldLabelRow label="Albums" formKey="albums" suggestion={suggestions.albums} onApplySuggestion={props.onApplySuggestion} values={values} tight={true}>
+                    {api.buttonGroup}
+                  </FieldLabelRow>
+                  <TuneAlbumsField
+                    label=""
+                    className="mb-0"
+                    value={Array.isArray(values.albums) ? values.albums : []}
+                    onChange={function(next) { setField('albums', next); }}
+                  />
+                  {api.errorNode}
+                </>
+              );
+            }}
+          </AlbumsSearchButton>
+        </Col>
+      </Row>
       </>
     );
   }
@@ -474,20 +511,13 @@ export default function TuneRecordForm(props) {
                     >
                       {api.buttonGroup}
                     </FieldLabelRow>
-                    <AsyncCreatableSelect
-                      value={values.artist
-                        ? { value: values.artist, label: values.artist }
-                        : null}
-                      onChange={function(val) { setField('artist', val ? val.label : ''); }}
-                      defaultOptions={[]}
-                      loadOptions={musicBrainz.artistOptions}
-                      isClearable={true}
-                      blurInputOnSelect={true}
-                      createOptionPosition="first"
-                      allowCreateWhileLoading={true}
+                    <ComposerNameInput
+                      controlId="import-review-composer"
+                      value={values.artist || ''}
                       placeholder="Type composer name"
-                      menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
-                      styles={compactSelectStyles}
+                      token={props.token}
+                      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                      onChange={function(e) { setField('artist', e.target.value); }}
                     />
                     {api.errorNode}
                   </>
@@ -504,20 +534,13 @@ export default function TuneRecordForm(props) {
                 tight={true}
                 values={values}
               />
-              <AsyncCreatableSelect
-                value={values.artist
-                  ? { value: values.artist, label: values.artist }
-                  : null}
-                onChange={function(val) { setField('artist', val ? val.label : ''); }}
-                defaultOptions={[]}
-                loadOptions={musicBrainz.artistOptions}
-                isClearable={true}
-                blurInputOnSelect={true}
-                createOptionPosition="first"
-                allowCreateWhileLoading={true}
+              <ComposerNameInput
+                controlId="tune-record-composer"
+                value={values.artist || ''}
                 placeholder="Type composer name"
-                menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
-                styles={compactSelectStyles}
+                token={props.token}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                onChange={function(e) { setField('artist', e.target.value); }}
               />
             </>
           )}

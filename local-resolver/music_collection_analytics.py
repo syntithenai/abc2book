@@ -79,7 +79,10 @@ def _first_text(value):
             if text:
                 return text
         return ""
-    return str(value).strip()
+    try:
+        return str(value).strip()
+    except Exception:
+        return ""
 
 
 def _normalize_key(key):
@@ -89,8 +92,12 @@ def _normalize_key(key):
 def _iter_tag_items(tags):
     if tags is None:
         return
-    if hasattr(tags, "items"):
-        for key, value in tags.items():
+    try:
+        items = tags.items() if hasattr(tags, "items") else None
+    except (ValueError, TypeError):
+        items = None
+    if items is not None:
+        for key, value in items:
             yield str(key), value
         return
     if isinstance(tags, dict):
@@ -133,31 +140,58 @@ def read_playback_info(tags):
     }
 
 
+NATIVE_TAG_FIELD_KEYS = {
+    "title": ("title", "TIT2", "TITLE", "\xa9nam", "WM/Title"),
+    "artist": ("artist", "TPE1", "ARTIST", "\xa9ART", "WM/Artist", "performer"),
+    "album": ("album", "TALB", "ALBUM", "\xa9alb", "WM/AlbumTitle"),
+    "albumartist": ("albumartist", "TPE2", "ALBUMARTIST", "aART", "WM/AlbumArtist"),
+    "genre": ("genre", "TCON", "GENRE", "\xa9gen", "WM/Genre"),
+    "date": ("date", "originaldate", "TDRC", "TYER", "TDOR", "DATE", "\xa9day", "WM/Year"),
+    "composer": ("composer", "TCOM", "COMPOSER", "WM/Composer"),
+    "tracknumber": ("tracknumber", "TRCK", "TRACKNUMBER", "trkn"),
+    "discnumber": ("discnumber", "TPOS", "DISCNUMBER", "disk"),
+    "comment": ("comment", "COMM", "COMMENT", "\xa9cmt"),
+    "bpm": ("bpm", "TBPM", "BPM", "tmpo"),
+    "key": ("key", "TKEY", "INITIALKEY", "KEY"),
+    "label": ("label", "TPUB", "LABEL", "ORGANIZATION"),
+    "isrc": ("isrc", "TXXX:ISRC", "ISRC", "----:com.apple.iTunes:ISRC"),
+}
+
+
+def _tag_value_text(value):
+    if value is None:
+        return ""
+    if hasattr(value, "text"):
+        return _first_text(value.text)
+    return _first_text(value)
+
+
+def _get_mapped_tag(tags, *keys):
+    if not hasattr(tags, "get"):
+        return ""
+    for key in keys:
+        try:
+            value = tags.get(key)
+        except (ValueError, KeyError, TypeError):
+            continue
+        text = _tag_value_text(value)
+        if text:
+            return text
+    return ""
+
+
 def read_standard_tags(tags):
     if tags is None:
         return {}, []
 
     easy = {}
     if hasattr(tags, "get"):
-        easy = {
-            "title": _first_text(tags.get("title")),
-            "artist": _first_text(tags.get("artist") or tags.get("albumartist") or tags.get("performer")),
-            "album": _first_text(tags.get("album")),
-            "albumartist": _first_text(tags.get("albumartist")),
-            "genre": _first_text(tags.get("genre")),
-            "date": _first_text(tags.get("date") or tags.get("originaldate")),
-            "composer": _first_text(tags.get("composer")),
-            "tracknumber": _first_text(tags.get("tracknumber")),
-            "discnumber": _first_text(tags.get("discnumber")),
-            "comment": _first_text(tags.get("comment")),
-            "bpm": _first_text(tags.get("bpm")),
-            "key": _first_text(tags.get("key")),
-            "label": _first_text(tags.get("label")),
-            "isrc": _first_text(tags.get("isrc")),
-        }
+        easy = {}
+        for field, keys in NATIVE_TAG_FIELD_KEYS.items():
+            easy[field] = _get_mapped_tag(tags, *keys)
 
-    year = ""
-    if easy.get("date"):
+    year = _get_mapped_tag(tags, "TYER", "year") if hasattr(tags, "get") else ""
+    if not year and easy.get("date"):
         match = re.search(r"\d{4}", easy["date"])
         if match:
             year = match.group(0)
@@ -167,12 +201,12 @@ def read_standard_tags(tags):
     return easy, tag_keys
 
 
-def metadata_sources(raw_tags, resolved):
+def metadata_sources(tag_values, resolved):
     sources = {}
     for field in ("title", "artist", "album", "genre", "year", "composer", "tracknumber"):
-        raw_value = str((raw_tags or {}).get(field) or "").strip()
+        tag_value = str((tag_values or {}).get(field) or "").strip()
         resolved_value = str((resolved or {}).get(field) or "").strip()
-        if raw_value:
+        if tag_value:
             sources[field] = "tag"
         elif resolved_value:
             sources[field] = "derived"

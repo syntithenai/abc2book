@@ -7,6 +7,7 @@ from unittest.mock import patch
 from music_collection import (
     build_music_collection_candidate,
     build_music_collection_public_url,
+    ensure_music_collection_art_file,
     music_collection_access_allowed,
     music_collection_enabled,
     resolve_music_collection_file,
@@ -51,8 +52,19 @@ class MusicCollectionHelperTests(unittest.TestCase):
             "matchScore": 90,
         }, request_base_url="https://resolver.example")
         self.assertEqual(candidate["source"], "music-collection")
+        self.assertEqual(candidate["path"], "Altan/sally.mp3")
         self.assertIn("/music-collection/Altan/sally.mp3", candidate["link"])
         self.assertIn("/music-collection-art/0", candidate["image"])
+
+    def test_build_candidate_includes_art_url_without_has_art_flag(self):
+        candidate = build_music_collection_candidate({
+            "id": "12",
+            "title": "Sally Gardens",
+            "artist": "Altan",
+            "path": "Altan/sally.mp3",
+            "hasArt": False,
+        }, request_base_url="https://resolver.example")
+        self.assertIn("/music-collection-art/12", candidate["image"])
 
 
 class MusicCollectionIndexTests(unittest.TestCase):
@@ -113,6 +125,20 @@ class MusicCollectionIndexTests(unittest.TestCase):
             load_music_collection_index(force_reload=True)
             path = resolve_music_collection_file("folk/sally_gardens.mp3")
             self.assertTrue(os.path.isfile(path))
+
+    def test_ensure_art_extracts_on_demand(self):
+        with patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root}):
+            from music_collection import load_music_collection_index
+
+            load_music_collection_index(force_reload=True)
+            expected = os.path.join(self.root, "music_collection_art", "0.jpg")
+            with patch(
+                "music_collection.extract_music_collection_art_from_file",
+                return_value=expected,
+            ) as extract_mock:
+                art_path = ensure_music_collection_art_file("0")
+            extract_mock.assert_called_once()
+            self.assertEqual(art_path, expected)
 
 
 class MusicCollectionAccessTests(unittest.TestCase):

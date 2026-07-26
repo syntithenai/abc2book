@@ -10,8 +10,16 @@ import { isGenericArtist } from './genericArtistUtils'
 export function pickComposerFromSearchResult(result) {
   if (!result) return ''
   if (result.multiple && Array.isArray(result.candidates) && result.candidates.length > 0) {
-    return result.candidates[0].artist || ''
+    const highs = result.candidates.filter(function(candidate) {
+      return candidate && candidate.confidence === 'high'
+    })
+    if (highs.length === 1) return highs[0].artist || ''
+    if (!highs.length && result.candidates.length === 1) {
+      return result.candidates[0].artist || ''
+    }
+    return ''
   }
+  if (result.confidence && result.confidence !== 'high') return ''
   return result.artist || ''
 }
 

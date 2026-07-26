@@ -2692,6 +2692,9 @@ export default function useTuneBookMediaController(props) {
         stopProgressSync()
         playingIntentRef.current = true
         setPlayCancelled(false)
+        notationPlaybackSeekRef.current = null
+        notationPlaybackStartSecondsRef.current = null
+        pendingMidiPlayRef.current = null
         resumeSynthAudioContextFromGesture()
         resumeExternalAudioContextFromGesture()
 
@@ -5610,6 +5613,9 @@ export default function useTuneBookMediaController(props) {
             restartPlaybackFromStart()
             return
         }
+        notationPlaybackSeekRef.current = null
+        notationPlaybackStartSecondsRef.current = null
+        pendingMidiPlayRef.current = null
         const startAt = playbackRouteRef.current.mode === 'media' ? getLinkStartAt() : 0
         seekToSeconds(startAt, { wasPlaying: false, skipSeekOperation: true })
     }

@@ -6,6 +6,7 @@ import { syncBackgroundReviewToast } from './backgroundReviewToast'
 import {
   isImportReviewUiVisible,
   subscribeImportReviewSession,
+  openImportReviewFromToast,
 } from './importReviewSessionStore'
 import { syncParkedImportReviewToast } from './importReviewParkedToast'
 import { subscribeMediaAnalysisJobs } from './mediaAnalysisJobs'
@@ -54,6 +55,9 @@ export default function BackgroundReviewNotifications(props) {
           || practiceSessionActive
           || isImportReviewUiVisible(),
         onReview: navigateToReview,
+        onImportReview: function() {
+          openImportReviewFromToast()
+        },
       })
     }
 

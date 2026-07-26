@@ -15,6 +15,7 @@ export function fieldLookupKindToFormKey(kind) {
   if (kind === 'notation') return 'notes'
   if (kind === 'links') return 'links'
   if (kind === 'genre') return 'genres'
+  if (kind === 'albums') return 'albums'
   if (kind === 'title') return 'title'
   if (kind === 'artists') return 'artists'
   if (kind === 'aliases') return 'aliases'
@@ -48,6 +49,7 @@ export function candidateDisplayValue(kind, candidate) {
     return title || link
   }
   if (kind === 'genre') return String(candidate.genre || candidate.preview || '').trim()
+  if (kind === 'albums') return String(candidate.album || candidate.preview || '').trim()
   if (kind === 'title') return String(candidate.title || candidate.text || candidate.preview || '').trim()
   if (kind === 'artists') return String(candidate.artist || candidate.preview || '').trim()
   if (kind === 'aliases') return String(candidate.alias || candidate.preview || '').trim()
@@ -101,6 +103,10 @@ export function isTuneFieldEmptyForKind(tune, kind) {
   }
   if (kind === 'genre') {
     return allGenres(tune).length === 0
+  }
+  if (kind === 'albums') {
+    return !Array.isArray(tune.albums) || tune.albums.length === 0
+      || !tune.albums.some(function(a) { return String(a || '').trim() })
   }
   if (kind === 'artists') {
     return !Array.isArray(tune.artists) || tune.artists.length === 0
@@ -197,6 +203,13 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
     delete tune.genre
     return true
   }
+  if (kind === 'albums') {
+    const album = String(candidate.album || candidate.preview || '').trim()
+    if (!album) return false
+    if (!Array.isArray(tune.albums)) tune.albums = []
+    tune.albums = mergeBibliographicList(tune.albums, [album])
+    return true
+  }
   if (kind === 'title') {
     const title = String(candidate.title || candidate.text || '').trim()
     if (!title) return false
@@ -277,6 +290,7 @@ export function historyLabelForKind(kind) {
   if (kind === 'chords') return 'Search chords'
   if (kind === 'links') return 'Search links'
   if (kind === 'genre') return 'Search genre'
+  if (kind === 'albums') return 'Search albums'
   if (kind === 'title') return 'Update title'
   if (kind === 'artists') return 'Search artists'
   if (kind === 'aliases') return 'Search aliases'
@@ -297,6 +311,8 @@ export function toastAppliedFieldLookup(kind, tuneName) {
           ? 'link'
           : kind === 'genre'
             ? 'genre'
+            : kind === 'albums'
+              ? 'albums'
             : kind === 'title'
               ? 'title'
               : kind === 'artists'

@@ -1,12 +1,25 @@
 import { useEffect, useRef, useState } from 'react'
 import { Button, Modal, ListGroup } from 'react-bootstrap'
 import { searchMediaLinks } from '../mediaLinkSearchClient'
+import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
+import { resolveResolverAccessToken } from '../resolverAccessToken'
+import {
+  MediaSearchResultDetailsModal,
+  MediaSearchResultImage,
+} from './MediaSearchResultDetails'
 import VoiceFillInput from './VoiceFillInput'
 
-function sourceLabel(source) {
-  if (source === 'music-collection') return 'My library'
-  if (source === 'youtube') return 'YouTube'
-  return source || ''
+function resolvedSearchToken(props) {
+  return resolveResolverAccessToken(props && props.token) || getActiveResolverAccessToken() || ''
+}
+
+const MODAL_ART_STYLE = {
+  width: 80,
+  height: 80,
+  objectFit: 'cover',
+  borderRadius: 4,
+  marginRight: '0.75rem',
+  float: 'left',
 }
 
 function YouTubeSearchModal(props) {
@@ -36,11 +49,12 @@ function YouTubeSearchModal(props) {
       setError('')
       return
     }
+    const accessToken = resolvedSearchToken(props)
     searchMediaLinks({
       query: trimmed,
       maxResults: 10,
-      accessToken: props.token,
-      token: props.token,
+      accessToken: accessToken,
+      token: accessToken,
     }).then(function(listResult) {
       let list = []
       if (listResult && Array.isArray(listResult.candidates)) list = listResult.candidates
@@ -109,12 +123,12 @@ function YouTubeSearchModal(props) {
               return (
                 <ListGroup.Item key={tk} className={(tk % 2 === 0) ? 'even' : 'odd'}>
                   <Button style={{ float: 'right' }} onClick={function() { selectLink(option) }} variant="success">Select</Button>
-                  <div style={{ fontWeight: 'bold', fontSize: '1.1em' }}>{option.title}</div>
-                  {option.source ? <div className="small text-muted">{sourceLabel(option.source)}</div> : null}
-                  {option.image ? (
-                    <img alt="" src={option.image} style={{ maxWidth: '200px', maxHeight: '200px', float: 'right' }} />
-                  ) : null}
-                  <div>{option.description}</div>
+                  <MediaSearchResultImage
+                    item={option}
+                    token={props.token}
+                    style={MODAL_ART_STYLE}
+                  />
+                  <MediaSearchResultDetailsModal item={option} />
                 </ListGroup.Item>
               )
             })}

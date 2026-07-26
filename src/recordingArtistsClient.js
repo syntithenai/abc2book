@@ -1,4 +1,6 @@
 import axios from 'axios'
+import { resolveArtistMbid } from './artistDiscographyClient'
+import { escapeMusicBrainzQueryTerm } from './bibliographicSearchUtils'
 import { normalizeMatchText } from './notationMatchUtils'
 
 const MUSICBRAINZ_BASE = 'https://musicbrainz.org/ws/2'
@@ -35,30 +37,61 @@ function addArtist(store, artist) {
   store[key] = name
 }
 
-async function discoverArtistsMusicbrainz(title, maxArtists, signal) {
-  const artists = {}
+function addWriterProminence(store, name, recordingCount, workScore) {
+  const trimmed = String(name || '').trim()
+  if (!trimmed || isGenericArtist(trimmed)) return
+  const key = normalizeArtistKey(trimmed)
+  const rc = Number(recordingCount) || 0
+  const score = Number(workScore) || 0
+  if (!store[key]) {
+    store[key] = { artist: trimmed, recording_count: rc, score: score }
+    return
+  }
+  if (rc > store[key].recording_count) {
+    store[key].recording_count = rc
+    store[key].score = score
+  } else if (rc === store[key].recording_count && score > store[key].score) {
+    store[key].score = score
+  }
+}
+
+/**
+ * MusicBrainz recording search, optionally scoped to an artist MBID.
+ */
+export async function searchRecordingsScoped(title, artistMbid, options) {
+  const opts = options || {}
+  const queryTitle = String(title || '').trim()
+  if (!queryTitle) return []
+  const limit = typeof opts.limit === 'number' ? opts.limit : 15
+  let query = 'recording:"' + escapeMusicBrainzQueryTerm(queryTitle) + '"'
+  if (artistMbid) query += ' AND arid:' + artistMbid
   try {
     const response = await axios.get(MUSICBRAINZ_BASE + '/recording', {
-      params: {
-        query: 'recording:"' + title + '"',
-        fmt: 'json',
-        limit: 15,
-      },
+      params: { query: query, fmt: 'json', limit: limit },
       headers: { 'User-Agent': CLIENT_USER_AGENT },
-      signal: signal,
+      signal: opts.signal,
     })
-    const recordings = (response.data && response.data.recordings) || []
-    recordings.forEach(function(recording) {
-      if (Object.keys(artists).length >= maxArtists) return
-      ;(recording['artist-credit'] || []).forEach(function(credit) {
-        if (Object.keys(artists).length >= maxArtists) return
-        addArtist(artists, credit && credit.name)
-      })
-    })
+    return (response.data && response.data.recordings) || []
   } catch (e) {
-    // MusicBrainz lookup is best-effort.
+    return []
   }
+}
+
+function recordingArtistsFromList(recordings, maxArtists) {
+  const artists = {}
+  ;(recordings || []).forEach(function(recording) {
+    if (Object.keys(artists).length >= maxArtists) return
+    ;(recording['artist-credit'] || []).forEach(function(credit) {
+      if (Object.keys(artists).length >= maxArtists) return
+      addArtist(artists, credit && credit.name)
+    })
+  })
   return Object.values(artists)
+}
+
+async function discoverArtistsMusicbrainz(title, maxArtists, signal) {
+  const recordings = await searchRecordingsScoped(title, '', { signal: signal, limit: 25 })
+  return recordingArtistsFromList(recordings, maxArtists)
 }
 
 const WRITER_RELATION_TYPES = {
@@ -219,19 +252,32 @@ export async function discoverWorkWritersWithProminence(options) {
 
   for (let i = 0; i < selected.length; i += 1) {
     if (Object.keys(writers).length >= maxWriters) break
-    const found = await discoverWritersFromWork(selected[i].work.id, opts.signal)
-    found.forEach(function(name) { addArtist(writers, name) })
+    const work = selected[i].work
+    const recordingCount = workRecordingCount(work)
+    const workScore = selected[i].score
+    const found = await discoverWritersFromWork(work.id, opts.signal)
+    found.forEach(function(name) {
+      addWriterProminence(writers, name, recordingCount, workScore)
+    })
   }
 
+  const writerList = Object.values(writers).sort(function(a, b) {
+    const rc = (b.recording_count || 0) - (a.recording_count || 0)
+    if (rc !== 0) return rc
+    return (b.score || 0) - (a.score || 0)
+  })
+
   return {
-    writers: Object.values(writers).slice(0, maxWriters),
+    writers: writerList.slice(0, maxWriters),
     suggestedTitle: suggestedTitle,
   }
 }
 
 export async function discoverWorkWriters(options) {
   const enriched = await discoverWorkWritersWithProminence(options)
-  return enriched.writers || []
+  return (enriched.writers || []).map(function(writer) {
+    return typeof writer === 'string' ? writer : writer.artist
+  })
 }
 
 export async function discoverRecordingArtists(options) {
@@ -241,10 +287,27 @@ export async function discoverRecordingArtists(options) {
   if (!title) return []
 
   const merged = {}
-  const discovered = await discoverArtistsMusicbrainz(title, maxArtists, opts.signal)
+  let discovered = []
+  const userArtist = String(opts.artist || '').trim()
+  if (userArtist && !isGenericArtist(userArtist)) {
+    try {
+      const resolved = await resolveArtistMbid(userArtist, opts.signal)
+      if (resolved && resolved.id) {
+        const scoped = await searchRecordingsScoped(title, resolved.id, {
+          signal: opts.signal,
+          limit: 25,
+        })
+        discovered = recordingArtistsFromList(scoped, maxArtists)
+      }
+    } catch (e) {
+      // fall through to broad search
+    }
+  }
+  if (!discovered.length) {
+    discovered = await discoverArtistsMusicbrainz(title, maxArtists, opts.signal)
+  }
   discovered.forEach(function(name) { addArtist(merged, name) })
 
-  const userArtist = String(opts.artist || '').trim()
   if (userArtist && !isGenericArtist(userArtist)) {
     const ordered = [userArtist]
     Object.values(merged).forEach(function(name) {

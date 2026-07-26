@@ -1,7 +1,23 @@
 import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
-import { discoverRecordingArtists, discoverWorkWritersWithProminence } from './recordingArtistsClient'
-import { parseTitleComposerHints } from './composerDiscoveryUtils'
+import {
+  BIBLIO_CONFIDENCE_HIGH,
+  BIBLIO_CONFIDENCE_LOW,
+  BIBLIO_CONFIDENCE_MEDIUM,
+  downgradeConfidence,
+  isAmbiguousTitle,
+  pickProminentWriter,
+  scoreRecordingTitleMatch,
+} from './bibliographicSearchUtils'
+import { resolveArtistMbid } from './artistDiscographyClient'
+import {
+  discoverRecordingArtists,
+  discoverWorkWritersWithProminence,
+  isGenericArtist,
+  normalizeArtistKey,
+  searchRecordingsScoped,
+} from './recordingArtistsClient'
+import { parseTitleComposerHints, prioritizeTraditionalComposerCandidates } from './composerDiscoveryUtils'
 
 const COMPOSER_ACCEPT_HEADER = 'application/x-ndjson, application/json'
 
@@ -21,6 +37,8 @@ function normalizeSingleComposerResult(body) {
     role: role,
     source: typeof body.source === 'string' ? body.source : '',
     preview: typeof body.preview === 'string' ? body.preview : artist,
+    confidence: typeof body.confidence === 'string' ? body.confidence : '',
+    matchType: typeof body.matchType === 'string' ? body.matchType : '',
   }
 }
 
@@ -42,9 +60,11 @@ export function normalizeComposerSearch(body) {
     throw new Error(body.error)
   }
   if (body.multiple === true && Array.isArray(body.candidates)) {
-    const candidates = body.candidates.map(function(candidate) {
-      return normalizeSingleComposerResult(candidate)
-    })
+    const candidates = prioritizeTraditionalComposerCandidates(
+      body.candidates.map(function(candidate) {
+        return normalizeSingleComposerResult(candidate)
+      })
+    )
     if (candidates.length === 0) {
       throw new Error('Artist search returned no candidates')
     }
@@ -160,72 +180,156 @@ async function discoverComposersLight(options) {
   if (!hints.title) {
     throw new Error('Song title is required')
   }
+  const ambiguousTitle = isAmbiguousTitle(hints.title)
   const workResult = await discoverWorkWritersWithProminence({
     title: hints.title,
     signal: options.signal,
     maxWriters: 6,
   })
   const writers = (workResult && workResult.writers) || []
+  const prominentWriter = pickProminentWriter(writers)
   const suggestedTitle = workResult && workResult.suggestedTitle
     ? String(workResult.suggestedTitle).trim()
     : ''
-  const performers = await discoverRecordingArtists({
-    title: hints.title,
-    artist: hints.artistHint,
-    signal: options.signal,
-    maxArtists: 8,
-  })
+
   const seen = {}
   const candidates = []
-  function add(name, role, source, preview) {
+  function add(name, role, source, preview, confidence, matchType) {
     const artist = String(name || '').trim()
-    if (!artist) return
+    if (!artist || isGenericArtist(artist)) return
     const key = artist.toLowerCase().replace(/[^a-z0-9]+/g, '')
-    if (!key || seen[key]) {
-      if (seen[key] && seen[key].role !== 'writer' && role === 'writer') {
-        seen[key].role = 'writer'
-        seen[key].source = source
-        seen[key].preview = preview
-      }
-      return
-    }
+    if (!key) return
+    const normalizedRole = role === 'writer' || role === 'performer' ? role : ''
     const entry = {
       artist: artist,
-      role: role,
+      role: normalizedRole,
       source: source,
       preview: preview,
+      confidence: confidence || BIBLIO_CONFIDENCE_MEDIUM,
+      matchType: matchType || '',
+    }
+    if (seen[key]) {
+      const existing = seen[key]
+      if (existing.role !== 'writer' && normalizedRole === 'writer') {
+        existing.role = 'writer'
+        existing.source = source
+        existing.preview = preview
+        existing.confidence = confidence || existing.confidence
+        existing.matchType = matchType || existing.matchType
+      }
+      return
     }
     seen[key] = entry
     candidates.push(entry)
   }
-  writers.forEach(function(name) {
-    add(name, 'writer', 'Writer · MusicBrainz', 'Writer of this song')
-  })
-  if (hints.artistHint) {
-    add(hints.artistHint, 'performer', 'Performer · title hint', 'Performer of this song')
+
+  function composerMatchesWriter(writerName) {
+    const hint = hints.artistHint || options.artist || ''
+    if (!hint || isGenericArtist(hint)) return false
+    return normalizeArtistKey(hint) === normalizeArtistKey(writerName)
   }
-  performers.forEach(function(name) {
-    add(name, 'performer', 'Performer · MusicBrainz', 'Performer of this song')
+
+  writers.forEach(function(writer) {
+    const name = typeof writer === 'string' ? writer : writer.artist
+    if (!name) return
+    let confidence = BIBLIO_CONFIDENCE_MEDIUM
+    if (prominentWriter && normalizeArtistKey(prominentWriter.artist) === normalizeArtistKey(name)) {
+      confidence = BIBLIO_CONFIDENCE_HIGH
+    }
+    if (composerMatchesWriter(name)) {
+      confidence = BIBLIO_CONFIDENCE_HIGH
+    }
+    confidence = downgradeConfidence(confidence, ambiguousTitle && !composerMatchesWriter(name))
+    add(
+      name,
+      'writer',
+      'Writer · MusicBrainz',
+      'Writer of this song',
+      confidence,
+      'Work · writer'
+    )
   })
-  // Keep writers first after any role upgrades.
+
+  let hasStrongPerformer = false
+  const hint = hints.artistHint || ''
+  if (hint && !isGenericArtist(hint)) {
+    const resolved = await resolveArtistMbid(hint, options.signal)
+    if (resolved && resolved.id) {
+      const scoped = await searchRecordingsScoped(hints.title, resolved.id, {
+        signal: options.signal,
+        limit: 15,
+      })
+      scoped.forEach(function(recording) {
+        const titleScore = scoreRecordingTitleMatch(recording, hints.title)
+        if (titleScore < 70) return
+        hasStrongPerformer = hasStrongPerformer || titleScore === 100
+        let confidence = titleScore === 100 ? BIBLIO_CONFIDENCE_HIGH : BIBLIO_CONFIDENCE_MEDIUM
+        confidence = downgradeConfidence(confidence, ambiguousTitle)
+        add(
+          hint,
+          'performer',
+          'Performer · scoped search',
+          'Performer of this song',
+          confidence,
+          'Artist match'
+        )
+      })
+    }
+    if (!hasStrongPerformer) {
+      let confidence = BIBLIO_CONFIDENCE_MEDIUM
+      confidence = downgradeConfidence(confidence, ambiguousTitle)
+      add(
+        hint,
+        'performer',
+        'Performer · title hint',
+        'Performer of this song',
+        confidence,
+        'Title hint'
+      )
+    }
+  }
+
+  if (!hasStrongPerformer) {
+    const performers = await discoverRecordingArtists({
+      title: hints.title,
+      artist: hints.artistHint,
+      signal: options.signal,
+      maxArtists: 20,
+    })
+    performers.forEach(function(name) {
+      if (hint && normalizeArtistKey(name) === normalizeArtistKey(hint)) return
+      let confidence = BIBLIO_CONFIDENCE_LOW
+      confidence = downgradeConfidence(confidence, ambiguousTitle)
+      add(
+        name,
+        'performer',
+        'Performer · MusicBrainz',
+        'Performer of this song',
+        confidence,
+        ambiguousTitle ? 'Possible homonym' : 'Title match'
+      )
+    })
+  }
+
   candidates.sort(function(a, b) {
     if (a.role === b.role) return 0
     return a.role === 'writer' ? -1 : 1
   })
-  if (!candidates.length) {
+  const orderedCandidates = prioritizeTraditionalComposerCandidates(candidates)
+  if (!orderedCandidates.length) {
     throw new Error('No artist found')
   }
-  if (candidates.length === 1) {
+  if (orderedCandidates.length === 1) {
     return attachComposerMeta(
       { suggestedTitle: suggestedTitle },
-      Object.assign({ multiple: false }, candidates[0])
+      Object.assign({ multiple: false }, orderedCandidates[0])
     )
   }
   return attachComposerMeta(
     { suggestedTitle: suggestedTitle },
     {
       multiple: true,
-      candidates: candidates,
+      candidates: orderedCandidates,
     }
   )
 }

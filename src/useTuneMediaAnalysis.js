@@ -425,6 +425,10 @@ function useTuneMediaAnalysisState(options) {
   };
 }
 
+export function useTuneMediaAnalysisDeps() {
+  return useContext(TuneMediaAnalysisDepsContext);
+}
+
 export function TuneMediaAnalysisProvider({ children, tunebook, tunes, token, forceRefresh }) {
   const accessToken = token && token.access_token ? token.access_token : null;
   const abcjsParser = useAbcjsParser({ tunebook: tunebook });

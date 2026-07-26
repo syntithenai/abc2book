@@ -1,9 +1,12 @@
 import React from 'react'
 import { toast } from 'react-toastify'
 import { getBackgroundReviewSummary } from './backgroundReviewQueue'
+import { isImportReviewUiVisible } from './importReviewSessionStore'
 
 const BACKGROUND_REVIEW_TOAST_ID = 'background-review'
 const BACKGROUND_PROCESSING_TOAST_ID = 'background-review-processing'
+const BULK_IMPORT_STARTED_TOAST_ID = 'bulk-import-started'
+const IMPORT_REVIEW_READY_TOAST_ID = 'import-review-ready'
 const PROCESSING_TOAST_AUTO_CLOSE_MS = 4000
 const CONTINUING_TOAST_AUTO_CLOSE_MS = 5000
 const REVIEW_TOAST_SUPPRESS_MS = 30000
@@ -14,6 +17,8 @@ let suppressNextCloseCapture = false
 let snoozedReadyKeys = null
 let lastProcessingCount = 0
 let shownReadyFingerprint = null
+let shownImportReadyFingerprint = null
+let lastImportProcessing = 0
 
 function markReviewToastDismissedNow() {
   reviewToastDismissedUntil = Date.now() + REVIEW_TOAST_SUPPRESS_MS
@@ -31,6 +36,15 @@ function dismissReviewToastProgrammatically() {
 export function dismissBackgroundReviewToast() {
   dismissReviewToastProgrammatically()
   toast.dismiss(BACKGROUND_PROCESSING_TOAST_ID)
+  toast.dismiss(IMPORT_REVIEW_READY_TOAST_ID)
+}
+
+export function showBulkImportStartedToast() {
+  toast.info('Import running in the background…', {
+    toastId: BULK_IMPORT_STARTED_TOAST_ID,
+    autoClose: 5000,
+    hideProgressBar: true,
+  })
 }
 
 export function collectReadyReviewKeys(summary) {
@@ -100,6 +114,8 @@ export function __resetBackgroundReviewToastForTests() {
   snoozedReadyKeys = null
   lastProcessingCount = 0
   shownReadyFingerprint = null
+  shownImportReadyFingerprint = null
+  lastImportProcessing = 0
 }
 
 function renderReviewToast(message, opts, renderProps) {
@@ -187,7 +203,52 @@ export function syncBackgroundReviewToast(options) {
     })
   }
 
-  return readyMessage || processingMessage || null
+  const importReady = summary.importReady || 0
+  const importProcessing = summary.importProcessing || 0
+  const importReviewVisible = isImportReviewUiVisible()
+  const importReadyIds = Array.isArray(summary.importReadyIds) ? summary.importReadyIds : []
+  const importFingerprint = importReadyIds.slice().sort().join('|')
+  const importProcessingDropped = lastImportProcessing > 0 && importProcessing === 0
+  const importFingerprintChanged = importFingerprint !== shownImportReadyFingerprint
+  const importReadyMessage = importReady > 0
+    ? (importReady === 1 ? '1 song ready for import review' : (importReady + ' songs ready for import review'))
+    : ''
+
+  if (importProcessing > 0 || importReviewVisible || !importReadyMessage || shouldSuppressReadyToast(summary, opts)) {
+    if (importProcessing > 0 || importReady === 0) {
+      toast.dismiss(IMPORT_REVIEW_READY_TOAST_ID)
+      if (importReady === 0) shownImportReadyFingerprint = null
+    }
+  } else if (importProcessingDropped || importFingerprintChanged) {
+    shownImportReadyFingerprint = importFingerprint
+    suppressNextCloseCapture = false
+    toast.warn(
+      function(renderProps) {
+        return renderReviewToast(importReadyMessage, {
+          onReview: function() {
+            if (typeof opts.onImportReview === 'function') opts.onImportReview()
+            else if (typeof opts.onReview === 'function') opts.onReview()
+          },
+        }, renderProps)
+      },
+      {
+        toastId: IMPORT_REVIEW_READY_TOAST_ID,
+        autoClose: false,
+        closeOnClick: false,
+        onClose: function() {
+          if (suppressNextCloseCapture) {
+            suppressNextCloseCapture = false
+            return
+          }
+          markReviewToastDismissedNow()
+        },
+      }
+    )
+  }
+
+  lastImportProcessing = importProcessing
+
+  return readyMessage || processingMessage || importReadyMessage || null
 }
 
 export function showBackgroundProcessingNotice(options) {

@@ -31,6 +31,15 @@ import {
   searchableSuggestions,
 } from '../fieldSuggestionsUtils'
 
+function shouldAutoApplyComposer(composers) {
+  if (!Array.isArray(composers) || composers.length !== 1) return false
+  const candidate = composers[0]
+  if (!candidate || !candidate.artist) return false
+  if (candidate.confidence === 'high') return true
+  if (!candidate.confidence) return true
+  return false
+}
+
 function splitComposerSearchCandidates(candidates) {
   const list = Array.isArray(candidates) ? candidates : []
   const writers = []
@@ -343,7 +352,7 @@ export default function ComposerSearchButton({
       }
 
       if (pickWhenMultipleRef.current) {
-        if (composers.length === 1) {
+        if (composers.length === 1 && shouldAutoApplyComposer(composers)) {
           autoApplyComposerThenArtists(composers, split.artistCandidates, job.id)
           return
         }
@@ -356,9 +365,13 @@ export default function ComposerSearchButton({
         return
       }
 
-      // Empty field: auto-apply first composer, then chain performers.
+      // Empty field: auto-apply only high-confidence composer, then chain performers.
       if (needsComposerDiscovery(composerRef.current)) {
-        autoApplyComposerThenArtists(composers, split.artistCandidates, job.id)
+        if (shouldAutoApplyComposer(composers)) {
+          autoApplyComposerThenArtists(composers, split.artistCandidates, job.id)
+        } else {
+          openComposerPicker(composers, split.artistCandidates, { chainArtists: true })
+        }
         return
       }
 
@@ -478,6 +491,41 @@ export default function ComposerSearchButton({
     })
   }
 
+  const artistPickerItems = mapCandidateItems(artistPickerCandidates)
+
+  function selectComposerArtistItem(item, index) {
+    let alreadySelected = false
+    setSelectedArtistIndexes(function(prev) {
+      if (prev.indexOf(index) >= 0) {
+        alreadySelected = true
+        return prev
+      }
+      return prev.concat([index])
+    })
+    if (alreadySelected) return
+    if (typeof onAddArtist === 'function' && item && item.title) {
+      onAddArtist(item.title)
+      artistsAddedRef.current = true
+    }
+  }
+
+  function selectAllComposerArtists() {
+    const nextIndexes = selectedArtistIndexes.slice()
+    artistPickerItems.forEach(function(item, index) {
+      if (nextIndexes.indexOf(index) >= 0) return
+      nextIndexes.push(index)
+      if (typeof onAddArtist === 'function' && item && item.title) {
+        onAddArtist(item.title)
+        artistsAddedRef.current = true
+      }
+    })
+    setSelectedArtistIndexes(nextIndexes)
+  }
+
+  function selectNoneComposerArtists() {
+    setSelectedArtistIndexes([])
+  }
+
   const originalValue = resolveOriginalValueForPicker(awaitingJob, composer || '')
   const titleOriginalValue = resolveOriginalValueForPicker(
     getAwaitingJob(
@@ -551,21 +599,11 @@ export default function ComposerSearchButton({
         comment={artistPickerComment}
         multiSelect={true}
         selectedIndexes={selectedArtistIndexes}
-        items={mapCandidateItems(artistPickerCandidates)}
+        items={artistPickerItems}
+        onSelectAll={selectAllComposerArtists}
+        onSelectNone={selectNoneComposerArtists}
         onSelect={function(item, index) {
-          let alreadySelected = false
-          setSelectedArtistIndexes(function(prev) {
-            if (prev.indexOf(index) >= 0) {
-              alreadySelected = true
-              return prev
-            }
-            return prev.concat([index])
-          })
-          if (alreadySelected) return
-          if (typeof onAddArtist === 'function' && item && item.title) {
-            onAddArtist(item.title)
-            artistsAddedRef.current = true
-          }
+          selectComposerArtistItem(item, index)
         }}
         onDone={closeArtistPicker}
         onHide={closeArtistPicker}

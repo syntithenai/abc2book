@@ -153,6 +153,35 @@ export default function ArtistsSearchButton({
     }
   }))
 
+  function selectArtistItem(item, index) {
+    if (item && item.__current) return
+    let alreadySelected = false
+    setSelectedIndexes(function(prev) {
+      if (prev.indexOf(index) >= 0) {
+        alreadySelected = true
+        return prev
+      }
+      return prev.concat([index])
+    })
+    if (alreadySelected) return
+    finishApply({ artist: item.title, source: item.source }, null, { keepOpen: true })
+  }
+
+  function selectAllArtists() {
+    const nextIndexes = selectedIndexes.slice()
+    pickerItems.forEach(function(item, index) {
+      if (item && item.__current) return
+      if (nextIndexes.indexOf(index) >= 0) return
+      nextIndexes.push(index)
+      finishApply({ artist: item.title, source: item.source }, null, { keepOpen: true })
+    })
+    setSelectedIndexes(nextIndexes)
+  }
+
+  function selectNoneArtists() {
+    setSelectedIndexes([])
+  }
+
   const resultsCaret = (
     <FieldSearchResultsCaret
       candidates={cachedCandidates}
@@ -199,18 +228,10 @@ export default function ArtistsSearchButton({
         multiSelect={true}
         selectedIndexes={selectedIndexes}
         items={pickerItems}
+        onSelectAll={selectAllArtists}
+        onSelectNone={selectNoneArtists}
         onSelect={function(item, index) {
-          if (item && item.__current) return
-          let alreadySelected = false
-          setSelectedIndexes(function(prev) {
-            if (prev.indexOf(index) >= 0) {
-              alreadySelected = true
-              return prev
-            }
-            return prev.concat([index])
-          })
-          if (alreadySelected) return
-          finishApply({ artist: item.title, source: item.source }, null, { keepOpen: true })
+          selectArtistItem(item, index)
         }}
         onDone={function() {
           closePicker(true)

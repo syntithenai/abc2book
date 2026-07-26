@@ -8,6 +8,7 @@ import { searchMediaLinks } from './mediaLinkSearchClient'
 import { searchAliases } from './aliasesSearchClient'
 import { searchArtists } from './artistsSearchClient'
 import { searchGenre } from './genreSearchClient'
+import { searchAlbumsForSong } from './albumsSearchClient'
 import {
   checkAudioLinkPlayback,
   getEmptyLinkReason,
@@ -15,6 +16,7 @@ import {
   tuneHasLinkContent,
 } from './checkTuneLinkPlayback'
 import { buildComposerPickerCandidates } from './composerDiscoveryUtils'
+import { sortCandidatesByConfidence } from './bibliographicSearchUtils'
 import { isAbortError } from './abortUtils'
 import {
   buildCurrentValueSuggestion,
@@ -48,6 +50,7 @@ export const FIELD_LOOKUP_KINDS = [
   'notation',
   'links',
   'genre',
+  'albums',
   'artists',
   'aliases',
   'title',
@@ -158,6 +161,7 @@ function kindLabel(kind) {
   if (kind === 'notation') return 'Notation search'
   if (kind === 'links') return 'Link search'
   if (kind === 'genre') return 'Genre search'
+  if (kind === 'albums') return 'Album search'
   if (kind === 'artists') return 'Artists search'
   if (kind === 'aliases') return 'Alias search'
   if (kind === 'title') return 'Title suggestion'
@@ -820,6 +824,24 @@ function normalizeCandidatesFromResult(kind, result, options) {
     }
   }
 
+  if (kind === 'albums' && result && Array.isArray(result.candidates) && result.candidates.length > 0) {
+    return {
+      candidates: result.candidates,
+      manualCandidates: [],
+      empty: false,
+    }
+  }
+
+  if (kind === 'albums' && result && Array.isArray(result.albums) && result.albums.length > 0) {
+    return {
+      candidates: result.albums.map(function(album) {
+        return { album: album, preview: album, source: 'MusicBrainz' }
+      }),
+      manualCandidates: [],
+      empty: false,
+    }
+  }
+
   if (result.empty && result.musescorePaywalled === true) {
     return {
       candidates: [],
@@ -956,6 +978,11 @@ async function runSearch(job, signal) {
       backgroundInfo: (job.options && job.options.backgroundInfo) || '',
     }))
   }
+  if (job.kind === 'albums') {
+    return searchAlbumsForSong(job.title, job.artist || '', Object.assign({}, base, {
+      performers: (job.options && job.options.performers) || [],
+    }))
+  }
   if (job.kind === 'artists') {
     return searchArtists(base)
   }
@@ -1004,6 +1031,7 @@ function currentFieldValueForJob(job) {
     return (tune.abc && String(tune.abc)) || ''
   }
   if (job.kind === 'genre') return allGenres(tune).join(', ')
+  if (job.kind === 'albums') return Array.isArray(tune.albums) ? tune.albums.join(', ') : ''
   if (job.kind === 'title') return tune.name || ''
   if (job.kind === 'tempo') return tune.tempo != null ? String(tune.tempo) : ''
   if (job.kind === 'meter') return tune.meter || ''
@@ -1042,6 +1070,33 @@ function tryApplyCandidateKeepSuggestions(job, candidate) {
   }
 }
 
+function tryApplyAllAlbumCandidates(job, candidates) {
+  const getTune = queueContext.getTune
+  const saveTune = queueContext.saveTune
+  if (typeof getTune !== 'function' || typeof saveTune !== 'function' || !job.tuneId) {
+    return false
+  }
+  const tune = getTune(job.tuneId)
+  if (!tune || !Array.isArray(candidates) || !candidates.length) return false
+  let applied = false
+  candidates.forEach(function(candidate) {
+    if (applyCandidateToTune(tune, 'albums', candidate, queueContext.abcTools)) {
+      applied = true
+    }
+  })
+  if (!applied) return false
+  try {
+    saveTune(tune, false, { historyLabel: historyLabelForKind('albums') })
+    if (typeof queueContext.forceRefresh === 'function') {
+      queueContext.forceRefresh()
+    }
+    job.appliedCandidate = candidates[0]
+    return true
+  } catch (e) {
+    return false
+  }
+}
+
 /**
  * Settle a completed search:
  * - Persist unique suggestions (including Original Value when field non-empty).
@@ -1057,6 +1112,24 @@ const ALWAYS_PICK_KINDS = {
   lyrics: true,
   chords: true,
   notation: true,
+}
+
+const CONFIDENCE_AUTO_APPLY_KINDS = {
+  albums: true,
+  composer: true,
+  genre: true,
+}
+
+function highConfidenceCandidates(candidates) {
+  return (candidates || []).filter(function(candidate) {
+    return candidate && candidate.confidence === 'high'
+  })
+}
+
+function hasLowerConfidenceRemainder(candidates) {
+  return (candidates || []).some(function(candidate) {
+    return candidate && candidate.confidence && candidate.confidence !== 'high'
+  })
 }
 
 function settleCompletedJob(job) {
@@ -1078,6 +1151,9 @@ function settleCompletedJob(job) {
   } else {
     candidates = nonCurrentCandidates(candidates, { kind: job.kind })
   }
+  if (job.kind === 'artists') {
+    candidates = sortCandidatesByConfidence(candidates)
+  }
   candidates = collateUniqueSuggestions(job.kind, candidates)
   job.candidates = candidates
 
@@ -1095,13 +1171,22 @@ function settleCompletedJob(job) {
     || !!(job.options && job.options.alwaysPick)
 
   let applied = false
-  if (fieldEmpty && searchCandidates.length && !alwaysPick) {
+  let needsReview = false
+  if (CONFIDENCE_AUTO_APPLY_KINDS[job.kind] && fieldEmpty && searchCandidates.length > 0 && !alwaysPick) {
+    const highs = highConfidenceCandidates(searchCandidates)
+    if (job.kind === 'albums' && highs.length) {
+      applied = tryApplyAllAlbumCandidates(job, highs)
+    } else if ((job.kind === 'composer' || job.kind === 'genre') && highs.length === 1) {
+      applied = tryApplyCandidateKeepSuggestions(job, highs[0])
+    }
+    needsReview = highs.length > 1 || hasLowerConfidenceRemainder(searchCandidates)
+  } else if (fieldEmpty && searchCandidates.length && !alwaysPick) {
     applied = tryApplyCandidateKeepSuggestions(job, searchCandidates[0])
   }
 
   // Empty + auto-applied (or nothing to pick): finish. Cache keeps alternatives.
   const finishWithoutDialog = searchCandidates.length === 0
-    || (fieldEmpty && !alwaysPick && applied)
+    || (fieldEmpty && !alwaysPick && applied && !needsReview)
 
   if (finishWithoutDialog) {
     job.status = 'done'

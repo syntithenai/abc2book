@@ -538,6 +538,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
         tune.lastUpdated = new Date().getTime() 
       }
       tune.books = Array.isArray(tune.books) ? tune.books : []
+      tune.albums = Array.isArray(tune.albums) ? tune.albums : []
       tune.voices = tune.voices ? tune.voices : {}
       tune.capo = (tune.capo === undefined || tune.capo === null || tune.capo === '') ? 0 : parseInt(tune.capo, 10) || 0
       tune.playbackTempo = tune.playbackTempo > 0 ? parseFloat(tune.playbackTempo) : 1

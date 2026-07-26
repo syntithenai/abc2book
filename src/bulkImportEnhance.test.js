@@ -14,6 +14,9 @@ jest.mock('./commitChordSearchResultToTune', function() {
     }),
   }
 })
+jest.mock('./tuneMetadataEnhance', function() {
+  return { enrichTuneMetadataFromMusicBrainz: jest.fn().mockResolvedValue({ applied: {} }) }
+})
 
 import { searchChords } from './chordsSearchClient'
 import { searchLyrics } from './lyricsSearchClient'
@@ -21,6 +24,7 @@ import { searchNotation } from './notationSearchClient'
 import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
 import { enrichBulkImportCandidates, enrichBulkImportTune } from './bulkImportEnhance'
 import { applyCandidateToTune } from './fieldLookupApplyUtils'
+import { enrichTuneMetadataFromMusicBrainz } from './tuneMetadataEnhance'
 
 jest.mock('./fieldLookupApplyUtils', function() {
   const actual = jest.requireActual('./fieldLookupApplyUtils')
@@ -48,9 +52,10 @@ describe('bulkImportEnhance', function() {
     applyCandidateToTune.mockClear()
   })
 
-  test('enrichBulkImportTune skips search when title or artist missing', async function() {
+  test('enrichBulkImportTune skips chord search when title or artist missing but runs metadata', async function() {
     const tune = await enrichBulkImportTune({ name: 'Song', composer: '' }, { tunebook: tunebook })
     expect(searchChords).not.toHaveBeenCalled()
+    expect(enrichTuneMetadataFromMusicBrainz).toHaveBeenCalled()
     expect(tune.name).toBe('Song')
   })
 

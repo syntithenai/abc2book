@@ -51,6 +51,7 @@ import {
 import {
   dismissBackgroundReviewToast,
   showBackgroundJobsContinuingNotice,
+  showBulkImportStartedToast,
   snoozeBackgroundReviewToast,
 } from '../backgroundReviewToast'
 import { getBackgroundReviewSummary } from '../backgroundReviewQueue'
@@ -238,7 +239,9 @@ export default function ImportReviewBridge(props) {
         forcedBook: opts.forcedBook || '',
       })
       setImportReviewSession(nextSession)
-      showImportReviewUi()
+      if (!opts.background) {
+        showImportReviewUi()
+      }
     }
 
     if (split.duplicates.length > 0) {
@@ -1295,6 +1298,13 @@ export default function ImportReviewBridge(props) {
     }
   }, [updateSession, navigate, location.pathname])
 
+  const handleBulkImportStarted = useCallback(function() {
+    if (location.pathname.indexOf('/add') === 0) {
+      navigate('/tunes')
+    }
+    showBulkImportStartedToast()
+  }, [navigate, location.pathname])
+
   return (
     <>
       <ImportReviewModal
@@ -1336,6 +1346,7 @@ export default function ImportReviewBridge(props) {
         resolverAvailable={resolverAvailable}
         currentTuneBook={props.currentTuneBook}
         setCurrentTuneBook={props.setCurrentTuneBook}
+        onBulkImportStarted={handleBulkImportStarted}
         onImportFile={handleReviewSourceImport}
         onImportFiles={function(files, draft) {
           const list = Array.isArray(files) ? files.filter(Boolean) : []

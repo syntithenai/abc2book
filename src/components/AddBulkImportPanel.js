@@ -38,10 +38,13 @@ import {
   setBulkImportText,
 } from '../addBulkImportTextStore';
 import { enrichBulkImportCandidates } from '../bulkImportEnhance';
+import {
+  getBulkImportEnhanceEnabled,
+  setBulkImportEnhanceEnabled,
+} from '../bulkImportEnhanceSettings';
 import { classifyImportOutcome } from '../importIntakePolicy';
 
 const DEFAULT_BOOK = 'songs';
-const BULK_ENHANCE_STORAGE_KEY = 'addSongModal_bulkEnhance';
 
 function BulkImportStatEntryList(props) {
   const entries = Array.isArray(props.entries) ? props.entries : [];
@@ -80,13 +83,7 @@ export default function AddBulkImportPanel(props) {
   const [importError, setImportError] = useState('');
   const [pendingBulkAudioFiles, setPendingBulkAudioFiles] = useState([]);
   const [showAudioDriveUploadModal, setShowAudioDriveUploadModal] = useState(false);
-  const [enhanceEnabled, setEnhanceEnabled] = useState(function() {
-    try {
-      return sessionStorage.getItem(BULK_ENHANCE_STORAGE_KEY) === '1';
-    } catch (e) {
-      return false;
-    }
-  });
+  const [enhanceEnabled, setEnhanceEnabled] = useState(getBulkImportEnhanceEnabled);
   const [enhanceBusy, setEnhanceBusy] = useState(false);
   const [enhanceProgress, setEnhanceProgress] = useState('');
   const [enhanceProgressDetail, setEnhanceProgressDetail] = useState(null);
@@ -112,13 +109,6 @@ export default function AddBulkImportPanel(props) {
   const importEnabled = sufficiency.importableCount > 0 && !audioImportBusy && !enhanceBusy;
 
   useEffect(function() {
-    try {
-      if (enhanceEnabled) sessionStorage.setItem(BULK_ENHANCE_STORAGE_KEY, '1');
-      else sessionStorage.removeItem(BULK_ENHANCE_STORAGE_KEY);
-    } catch (e) {}
-  }, [enhanceEnabled]);
-
-  useEffect(function() {
     setBulkImportText(bulkText);
   }, [bulkText]);
 
@@ -136,33 +126,38 @@ export default function AddBulkImportPanel(props) {
   }
 
   const startImportReview = useCallback(function(candidates, options) {
-    if (!Array.isArray(candidates) || candidates.length === 0) return;
-    setImportError('');
-    setAudioImportBusy(false);
-    const forcedBook = props.forcedBook ? String(props.forcedBook).trim().toLowerCase() : '';
-    requestImportReview(candidates, Object.assign({}, options || { entryMode: 'import' }, {
+    if (!Array.isArray(candidates) || candidates.length === 0) return
+    setImportError('')
+    setAudioImportBusy(false)
+    const opts = options || {}
+    const forcedBook = props.forcedBook ? String(props.forcedBook).trim().toLowerCase() : ''
+    requestImportReview(candidates, Object.assign({}, opts.entryMode ? opts : { entryMode: 'import' }, {
       forcedBook: forcedBook,
-    }));
-    const current = getImportReviewSession();
+      background: !!opts.background,
+    }))
+    const current = getImportReviewSession()
     if (current) {
-      let next = current.entryMode === 'add' ? asImportReviewChrome(current) : current;
+      let next = current.entryMode === 'add' ? asImportReviewChrome(current) : current
       if (forcedBook && !next.forcedBook) {
-        next = Object.assign({}, next, { forcedBook: forcedBook });
+        next = Object.assign({}, next, { forcedBook: forcedBook })
       }
-      if (next !== current) setImportReviewSession(next);
+      if (next !== current) setImportReviewSession(next)
     }
-    showImportReviewUi();
-    if (typeof props.onStartedReview === 'function') props.onStartedReview();
-  }, [props]);
+    if (!opts.background) {
+      showImportReviewUi()
+      if (typeof props.onStartedReview === 'function') props.onStartedReview()
+    }
+  }, [props])
 
-  async function openBulkReview(candidates) {
-    let list = Array.isArray(candidates) ? candidates.slice() : [];
-    if (!list.length) return;
+  async function openBulkReview(candidates, options) {
+    const opts = options || {}
+    let list = Array.isArray(candidates) ? candidates.slice() : []
+    if (!list.length) return
 
     if (enhanceEnabled) {
-      setEnhanceBusy(true);
-      setEnhanceProgress('');
-      setEnhanceProgressDetail(null);
+      setEnhanceBusy(true)
+      setEnhanceProgress('')
+      setEnhanceProgressDetail(null)
       try {
         list = await enrichBulkImportCandidates(list, {
           tunebook: props.tunebook,
@@ -172,22 +167,21 @@ export default function AddBulkImportPanel(props) {
           searchIndex: props.searchIndex,
           loadTuneTexts: props.loadTuneTexts,
           onProgress: function(info) {
-            const message = info && info.message ? info.message : '';
-            setEnhanceProgress(message);
-            setEnhanceProgressDetail(info || null);
+            const message = info && info.message ? info.message : ''
+            setEnhanceProgress(message)
+            setEnhanceProgressDetail(info || null)
           },
-        });
-        toast.success('Enhanced ' + list.length + ' song' + (list.length === 1 ? '' : 's') + ' before review');
+        })
       } catch (e) {
-        toast.warn((e && e.message) || 'Some enhancements failed — opening review anyway.');
+        toast.warn((e && e.message) || 'Some enhancements failed — opening review anyway.')
       } finally {
-        setEnhanceBusy(false);
-        setEnhanceProgress('');
-        setEnhanceProgressDetail(null);
+        setEnhanceBusy(false)
+        setEnhanceProgress('')
+        setEnhanceProgressDetail(null)
       }
     }
 
-    startImportReview(list);
+    startImportReview(list, { background: !!opts.background })
   }
 
   async function normalizeBulkText(text) {
@@ -256,12 +250,12 @@ export default function AddBulkImportPanel(props) {
         result,
         Object.assign({}, importContext, { stayOnForm: false, bulkMode: true }),
         function() {},
-        startImportReview,
+        function(candidates, reviewOptions) {
+          startImportReview(candidates, Object.assign({}, reviewOptions || {}, { background: true }))
+        },
         toast
-      );
-      showImportReviewUi();
-      if (typeof props.onStartedReview === 'function') props.onStartedReview();
-      return false;
+      )
+      return false
     }
     if (result.action === 'audio' || result.action === 'video') {
       setPendingBulkAudioFiles(result.files || []);
@@ -276,9 +270,10 @@ export default function AddBulkImportPanel(props) {
   }
 
   async function handleBulkImport() {
-    if (!importEnabled) return;
-    setAudioImportBusy(true);
-    setImportError('');
+    if (!importEnabled) return
+    setImportError('')
+    if (typeof props.onStartedReview === 'function') props.onStartedReview()
+    setAudioImportBusy(true)
     try {
       const tidied = retidyBulkText(bulkText);
       const filtered = filterImportableBulkText(tidied);
@@ -293,19 +288,16 @@ export default function AddBulkImportPanel(props) {
       });
       if (filled.text !== filtered.text) setBulkText(filled.text);
       if (filled.prepared && filled.prepared.length) {
-        await openBulkReview(filled.prepared);
-        if (filled.filled > 0 || filled.enriched > 0) {
-          toast.info('Filled YouTube details where possible');
-        }
-        setAudioImportBusy(false);
-        return;
+        await openBulkReview(filled.prepared, { background: true })
+        setAudioImportBusy(false)
+        return
       }
-      const result = await dispatchAddImport(filtered.text, Object.assign({}, importContext, { bulkMode: true }));
+      const result = await dispatchAddImport(filtered.text, Object.assign({}, importContext, { bulkMode: true }))
       if (result && result.action === 'review') {
-        const classified = classifyImportOutcome(result.candidates || [], importContext);
-        await openBulkReview(classified.candidates || []);
-        setAudioImportBusy(false);
-        return;
+        const classified = classifyImportOutcome(result.candidates || [], importContext)
+        await openBulkReview(classified.candidates || [], { background: true })
+        setAudioImportBusy(false)
+        return
       }
       const keepBusy = await applyBulkImportResult(result);
       if (!keepBusy) setAudioImportBusy(false);
@@ -349,7 +341,8 @@ export default function AddBulkImportPanel(props) {
         mergeMode: 'suggestOnly',
       });
     }
-    startImportReview(candidates);
+    if (typeof props.onStartedReview === 'function') props.onStartedReview()
+    startImportReview(candidates, { background: true })
     setAudioImportBusy(false);
   }
 
@@ -466,10 +459,14 @@ export default function AddBulkImportPanel(props) {
               data-testid="bulk-import-enhance"
               className="mb-0 text-nowrap"
               label="Enhance"
-              title="Search for chords, lyrics, and notation for each song before opening review"
+              title="Search for chords, lyrics, notation, and metadata for each song before opening review"
               checked={enhanceEnabled}
               disabled={enhanceBusy || audioImportBusy || bulkBusy}
-              onChange={function(e) { setEnhanceEnabled(!!e.target.checked); }}
+              onChange={function(e) {
+                const next = !!e.target.checked;
+                setEnhanceEnabled(next);
+                setBulkImportEnhanceEnabled(next);
+              }}
             />
             <Button
               variant="success"
@@ -510,7 +507,7 @@ export default function AddBulkImportPanel(props) {
       <p className="text-muted small mt-2 mb-0">
         Prepare tidies YouTube-style titles, fills links, and enriches missing title/artist from YouTube.
         Import opens review for importable lines (title plus artist or link); unimportable lines are skipped.
-        With Enhance checked, chords, lyrics, and notation are looked up for each song before review.
+        With Enhance checked, chords, lyrics, notation, and MusicBrainz metadata are looked up for each song before review.
       </p>
       {sufficiency.rowCount > 0 ? (
         <div className="small mt-2 mb-0 text-muted" data-testid="bulk-import-stats">

@@ -4489,7 +4489,19 @@ async def rebuild_music_collection_index_endpoint(
         except Exception:
             payload = {}
         extract_art = payload.get("extractArt", True) is not False
-        index = rebuild_music_collection_index(extract_art=extract_art)
+        resume = payload.get("resume", False) is True
+        background = payload.get("background", True) is not False
+        if background:
+            result = rebuild_music_collection_index(
+                extract_art=extract_art,
+                resume=resume,
+                background=True,
+            )
+            body = dict(result)
+            body.update(music_collection_health_fields())
+            return JSONResponse(body, headers=cors_headers(origin))
+
+        index = rebuild_music_collection_index(extract_art=extract_art, resume=resume, background=False)
         body = {
             "ok": True,
             "count": int(index.get("count") or 0),
@@ -4515,11 +4527,15 @@ async def music_collection_stats_endpoint(
     origin = request.headers.get("origin")
     try:
         await require_music_collection_access(authorization)
-        if not music_collection_enabled():
+        from music_collection_indexer import BUILD_ERRORS_NAME, is_build_running
+
+        metadata_dir = os.path.dirname(music_collection_stats_path())
+        build_running = is_build_running(metadata_dir)
+        if not music_collection_enabled() and not build_running:
             return json_error(404, "Music collection index not found", origin)
         track_resolver_usage("music-collection-stats")
         payload = load_music_collection_stats() or {}
-        progress_path = os.path.join(os.path.dirname(music_collection_stats_path()), "build_progress.json")
+        progress_path = os.path.join(metadata_dir, "build_progress.json")
         progress = None
         if os.path.isfile(progress_path):
             try:
@@ -4527,12 +4543,27 @@ async def music_collection_stats_endpoint(
                     progress = json.load(handle)
             except Exception:
                 progress = None
+        recent_errors = []
+        errors_path = os.path.join(metadata_dir, BUILD_ERRORS_NAME)
+        if os.path.isfile(errors_path):
+            try:
+                with open(errors_path, "r", encoding="utf-8") as handle:
+                    lines = [line.strip() for line in handle if line.strip()]
+                for line in lines[-10:]:
+                    try:
+                        recent_errors.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        continue
+            except OSError:
+                recent_errors = []
         body = {
             "ok": True,
             "stats": payload.get("stats") or {},
             "builtAt": payload.get("builtAt"),
             "count": payload.get("count"),
             "progress": progress,
+            "buildRunning": build_running,
+            "recentErrors": recent_errors,
             "statsPath": music_collection_stats_path(),
             "indexPath": music_collection_index_path(),
             "root": music_collection_root(),

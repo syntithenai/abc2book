@@ -6,6 +6,10 @@ import YouTubeSearchModal from './YouTubeSearchModal'
 import LinkPlayRangeModal from './LinkPlayRangeModal'
 import ScratchpadWorkspacePickerModal from './scratchpad/ScratchpadWorkspacePickerModal'
 import MediaImportWizard from './MediaImportWizard'
+import {
+    TuneMediaAnalysisProvider,
+    useTuneMediaAnalysisDeps,
+} from '../useTuneMediaAnalysis'
 import MediaImportEntryButton from './MediaImportEntryButton'
 import FileInputButton from './FileInputButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
@@ -86,7 +90,18 @@ function syncStatusLabel(status) {
     return 'Local only'
 }
 
-export default function LinksEditor(props) {
+function tunesForMediaAnalysis(props) {
+  if (props.tunes && typeof props.tunes === 'object') return props.tunes
+  const tune = props.tune
+  if (tune && tune.id) {
+    const map = {}
+    map[tune.id] = tune
+    return map
+  }
+  return {}
+}
+
+function LinksEditorBody(props) {
     const navigate = useNavigate()
     function onChange(links) {
         props.onChange(links)
@@ -807,6 +822,7 @@ export default function LinksEditor(props) {
                                 <YouTubeSearchModal
                                     onClick={props.handleClose}
                                     tunebook={props.tunebook}
+                                    token={props.token}
                                     onChange={function(link) {
                                         var links = Array.isArray(props.links) ? props.links : []
                                         links.unshift({title: link.title, link: link.link, startAt: '', endAt: ''})
@@ -818,7 +834,7 @@ export default function LinksEditor(props) {
                                         return (
                                             <LinksEditorToolbarButton
                                                 icon={props.tunebook.icons.youtubeblack}
-                                                label="Search YouTube"
+                                                label="Search media"
                                                 variant="danger"
                                                 onClick={triggerProps.onClick}
                                             />
@@ -1047,7 +1063,7 @@ export default function LinksEditor(props) {
                     })}
                 </div>
             </Form>
-            {(tuneForMedia || props.tune) && (
+            {showMediaWizard && (tuneForMedia || props.tune) && (
                 <MediaImportWizard
                     show={showMediaWizard}
                     onClose={closeMediaWizard}
@@ -1117,4 +1133,21 @@ export default function LinksEditor(props) {
             )}
         </div>
     );
+}
+
+export default function LinksEditor(props) {
+    const existingDeps = useTuneMediaAnalysisDeps()
+    if (existingDeps) {
+        return <LinksEditorBody {...props} />
+    }
+    return (
+        <TuneMediaAnalysisProvider
+            tunebook={props.tunebook}
+            tunes={tunesForMediaAnalysis(props)}
+            token={props.token}
+            forceRefresh={props.forceRefresh}
+        >
+            <LinksEditorBody {...props} />
+        </TuneMediaAnalysisProvider>
+    )
 }

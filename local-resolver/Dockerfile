@@ -245,6 +245,7 @@ COPY sheet_image_features.py /app/sheet_image_features.py
 COPY image_search.py /app/image_search.py
 COPY music_collection.py /app/music_collection.py
 COPY music_collection_analytics.py /app/music_collection_analytics.py
+COPY music_collection_indexer.py /app/music_collection_indexer.py
 COPY scripts/build_music_collection_index.py /app/scripts/build_music_collection_index.py
 
 EXPOSE 8787

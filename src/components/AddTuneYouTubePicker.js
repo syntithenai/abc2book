@@ -1,14 +1,26 @@
 import { useEffect, useRef, useState } from 'react'
 import { Button, Form, ListGroup, Spinner } from 'react-bootstrap'
 import { searchMediaLinks } from '../mediaLinkSearchClient'
+import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
+import { resolveResolverAccessToken } from '../resolverAccessToken'
+import {
+  MediaSearchResultDetails,
+  MediaSearchResultImage,
+} from './MediaSearchResultDetails'
 import VoiceFillInput from './VoiceFillInput'
+
+function resolvedSearchToken(props) {
+  return resolveResolverAccessToken(props && props.token) || getActiveResolverAccessToken() || ''
+}
 
 const DEFAULT_DEBOUNCE_MS = 1800
 
-function sourceLabel(source) {
-  if (source === 'music-collection') return 'My library'
-  if (source === 'youtube') return 'YouTube'
-  return source || ''
+const RESULT_ART_STYLE = {
+  width: 64,
+  height: 64,
+  objectFit: 'cover',
+  borderRadius: 4,
+  flexShrink: 0,
 }
 
 /**
@@ -54,11 +66,12 @@ export default function AddTuneYouTubePicker(props) {
       if (abortRef.current) abortRef.current.abort()
       const controller = typeof AbortController !== 'undefined' ? new AbortController() : null
       abortRef.current = controller
+      const accessToken = resolvedSearchToken(props)
       searchMediaLinks({
         query: query,
         maxResults: 6,
-        accessToken: props.token,
-        token: props.token,
+        accessToken: accessToken,
+        token: accessToken,
         signal: controller ? controller.signal : undefined,
       }).then(function(result) {
         lastSearchedRef.current = query
@@ -145,26 +158,13 @@ export default function AddTuneYouTubePicker(props) {
                 key={(item.id || item.link || index) + ''}
                 className="d-flex justify-content-between align-items-start gap-2"
               >
-                <div style={{ minWidth: 0 }}>
-                  <div className="fw-semibold text-truncate">{item.title || 'Video'}</div>
-                  {item.source ? (
-                    <div className="small text-muted">{sourceLabel(item.source)}</div>
-                  ) : null}
-                  {item.description ? (
-                    <div className="small text-muted" style={{
-                      display: '-webkit-box',
-                      WebkitLineClamp: 2,
-                      WebkitBoxOrient: 'vertical',
-                      overflow: 'hidden',
-                    }}>
-                      {item.description}
-                    </div>
-                  ) : null}
-                </div>
+                <MediaSearchResultImage
+                  item={item}
+                  token={props.token}
+                  style={RESULT_ART_STYLE}
+                />
+                <MediaSearchResultDetails item={item} />
                 <div className="d-flex align-items-center gap-2 flex-shrink-0">
-                  {item.image ? (
-                    <img alt="" src={item.image} style={{ width: 64, height: 48, objectFit: 'cover' }} />
-                  ) : null}
                   <Button size="sm" variant="success" onClick={function() { selectLink(item) }}>
                     Select
                   </Button>

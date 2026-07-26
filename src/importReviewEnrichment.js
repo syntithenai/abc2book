@@ -23,6 +23,7 @@ import { capitalizeSongTitle } from './titleCaseUtils';
 import { primaryArtist } from './tuneBibliographicUtils';
 import { lyricLinesToText } from './wLinesUtils';
 import { isTuneFieldEmptyForKind } from './fieldLookupApplyUtils';
+import { enrichTuneMetadataFromMusicBrainz } from './tuneMetadataEnhance';
 
 async function searchChordsAndLyrics(options) {
   const {
@@ -200,23 +201,34 @@ export async function enrichImportCandidate(candidate, options) {
   const lookupBackgroundInfo = await backgroundPromise;
 
   let composerCandidates = [];
-  let composer = String(tune.composer || '').trim();
   const searchArtist = String(searchResult.artist || '').trim();
-  if (searchArtist && !isGenericArtist(searchArtist) && needsComposerDiscovery(composer)) {
-    composer = searchArtist;
+  if (searchArtist && !isGenericArtist(searchArtist) && needsComposerDiscovery(tune.composer)) {
+    tune.composer = searchArtist;
   }
-  if (needsComposerDiscovery(composer)) {
-    onProgress('Discovering artist…', 0.32);
+
+  onProgress('Discovering metadata…', 0.32);
+  await enrichTuneMetadataFromMusicBrainz(tune, {
+    title: title,
+    artist: tune.composer || artist,
+    accessToken: token,
+    signal: signal,
+    resolverAvailable: options.resolverAvailable,
+    onProgress: function(step, message) {
+      onProgress(message || step || 'Discovering metadata…', 0.32 + 0.08);
+    },
+  });
+
+  if (needsComposerDiscovery(tune.composer)) {
     composerCandidates = await discoverComposerCandidatesIfNeeded({
       title: title,
-      composer: composer,
+      composer: tune.composer || '',
       titleHint: title,
       accessToken: token,
       signal: signal,
       resolverAvailable: options.resolverAvailable,
       forceDiscover: true,
       onProgress: function(message, progress) {
-        onProgress(message || 'Discovering artist…', 0.32 + (progress || 0) * 0.08);
+        onProgress(message || 'Discovering artist…', 0.4 + (progress || 0) * 0.05);
       },
     });
   }

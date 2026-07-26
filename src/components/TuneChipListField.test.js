@@ -4,6 +4,15 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { act } from 'react-dom/test-utils'
+
+function setInputValue(input, value) {
+  const nativeInputValueSetter = Object.getOwnPropertyDescriptor(
+    window.HTMLInputElement.prototype,
+    'value'
+  ).set
+  nativeInputValueSetter.call(input, value)
+  input.dispatchEvent(new Event('input', { bubbles: true }))
+}
 import TuneChipListField from './TuneChipListField'
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
@@ -61,15 +70,14 @@ describe('TuneChipListField', function() {
     expect(options).not.toContain('Alpha')
   })
 
-  test('renders search results caret when candidates provided', function() {
-    const onOpen = jest.fn()
+  test('adds cached search candidate immediately as a chip', function() {
+    const onChange = jest.fn()
     act(function() {
       root.render(React.createElement(TuneChipListField, {
         value: [],
-        onChange: jest.fn(),
+        onChange: onChange,
         controlId: 'artists',
         searchResultCandidates: [{ artist: 'Lang Lang' }],
-        onOpenSearchResults: onOpen,
       }))
     })
 
@@ -81,7 +89,7 @@ describe('TuneChipListField', function() {
     })
     expect(item).toBeTruthy()
     act(function() { item.click() })
-    expect(onOpen).toHaveBeenCalled()
+    expect(onChange).toHaveBeenCalledWith(['Lang Lang'])
   })
 
   test('does not create an item on blur', function() {
@@ -134,5 +142,28 @@ describe('TuneChipListField', function() {
     })
 
     expect(container.querySelector('[data-testid="chip-list-loading"]')).toBeTruthy()
+  })
+
+  test('prepends new chips and collapses to two visible by default', function() {
+    const onChange = jest.fn()
+    act(function() {
+      root.render(React.createElement(TuneChipListField, {
+        value: ['Alpha', 'Beta', 'Gamma'],
+        onChange: onChange,
+        controlId: 'artists',
+      }))
+    })
+
+    expect(container.querySelectorAll('.tune-chip-list-item')).toHaveLength(2)
+    expect(container.textContent).toMatch(/\+1 more/)
+
+    const input = container.querySelector('#artists')
+    act(function() {
+      setInputValue(input, 'Delta')
+    })
+    const addButton = container.querySelector('.tune-chip-list-add')
+    act(function() { addButton.click() })
+
+    expect(onChange).toHaveBeenCalledWith(['Delta', 'Alpha', 'Beta', 'Gamma'])
   })
 })

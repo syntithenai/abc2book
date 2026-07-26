@@ -169,6 +169,13 @@ describe('tuneImportMergeUtils', function() {
     expect(metaDiffAutoAccept({ S: 'abc' }, { S: 'def' })).toBe(false);
   });
 
+  test('metaDiffAutoAccept ignores local chord block cache metadata', function() {
+    const cache = { version: 1, abcHash: '5196822991676376', blocks: [{ id: 'section-0' }] };
+    expect(metaDiffAutoAccept({ X: 52, chordBlockCache: cache }, { X: '3127' })).toBe(true);
+    expect(metaDiffAutoAccept({ chordBlockCache: cache }, {})).toBe(true);
+    expect(metaDiffAutoAccept({ X: 1, chordBlockCache: cache, S: 'abc' }, { X: 2, S: 'abc' })).toBe(true);
+  });
+
   test('applyTuneImportSelections auto-applies incoming ABC tune index metadata', function() {
     const merged = applyTuneImportSelections(
       { id: 'orig-id', meta: { X: 15, S: 'abc' } },

@@ -14,19 +14,30 @@ export default function useMusicBrainzArtistOptions(query, options) {
   const [loading, setLoading] = useState(false)
   const timerRef = useRef(null)
   const requestIdRef = useRef(0)
+  const lastScheduledQueryRef = useRef('')
 
   useEffect(function() {
     if (!enabled) {
+      if (timerRef.current) clearTimeout(timerRef.current)
+      requestIdRef.current += 1
+      lastScheduledQueryRef.current = ''
       setLabels([])
       setLoading(false)
       return undefined
     }
     const text = String(query || '').trim()
     if (!text) {
+      if (timerRef.current) clearTimeout(timerRef.current)
+      requestIdRef.current += 1
+      lastScheduledQueryRef.current = ''
       setLabels([])
       setLoading(false)
       return undefined
     }
+    if (text === lastScheduledQueryRef.current) {
+      return undefined
+    }
+    lastScheduledQueryRef.current = text
     if (timerRef.current) clearTimeout(timerRef.current)
     const requestId = requestIdRef.current + 1
     requestIdRef.current = requestId

@@ -16,6 +16,7 @@ export const TUNE_IMPORT_FIELD_DEFS = [
   { key: 'wLines', label: 'Lyrics (w: fields)', group: 'Lyrics', defaultImport: true },
   { key: 'books', label: 'Books', group: 'Collection data', defaultImport: false },
   { key: 'tags', label: 'Tags', group: 'Collection data', defaultImport: false },
+  { key: 'albums', label: 'Albums', group: 'Collection data', defaultImport: false },
   { key: 'links', label: 'Links', group: 'Collection data', defaultImport: false },
   { key: 'boost', label: 'Confidence', group: 'Playback & extras', defaultImport: false },
   { key: 'difficulty', label: 'Difficulty', group: 'Playback & extras', defaultImport: false },
@@ -128,11 +129,17 @@ export function tuneLinksEqual(a, b) {
   return JSON.stringify(keysA) === JSON.stringify(keysB);
 }
 
+/** Meta keys that are device-local or derived — not meaningful merge conflicts. */
+const INTERNAL_META_KEYS = {
+  X: true,
+  chordBlockCache: true,
+};
+
 function stripAbcIndexKeys(meta) {
   if (!meta || typeof meta !== 'object') return {};
   const stripped = {};
   Object.keys(meta).forEach(function(key) {
-    if (key !== 'X') stripped[key] = meta[key];
+    if (!INTERNAL_META_KEYS[key]) stripped[key] = meta[key];
   });
   return stripped;
 }
@@ -191,7 +198,7 @@ export function formatTuneFieldValue(fieldKey, value) {
   if (fieldKey === 'files' || fieldKey === 'recordings') {
     return (Array.isArray(value) ? value.length : 0) + ' item' + (value.length === 1 ? '' : 's');
   }
-  if (fieldKey === 'books' || fieldKey === 'tags' || fieldKey === 'aliases' || fieldKey === 'artists') {
+  if (fieldKey === 'books' || fieldKey === 'tags' || fieldKey === 'aliases' || fieldKey === 'artists' || fieldKey === 'albums' || fieldKey === 'genres') {
     return Array.isArray(value) ? value.join(', ') : String(value);
   }
   if (fieldKey === 'words' || fieldKey === 'wLines') {

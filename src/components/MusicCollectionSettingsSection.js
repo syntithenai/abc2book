@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { Alert, Button, Spinner } from 'react-bootstrap'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { resolverHasFeature } from '../resolverFeatures'
@@ -27,6 +27,12 @@ function formatBuiltAt(value) {
   return date.toLocaleString()
 }
 
+function isBuildActive(progress, buildRunning) {
+  if (buildRunning) return true
+  if (!progress || !progress.phase) return false
+  return progress.phase === 'starting' || progress.phase === 'scanning' || progress.phase === 'writing'
+}
+
 export default function MusicCollectionSettingsSection(props) {
   const accessToken = props.accessToken || null
   const { status, checked, refreshMediaResolverHealth } = useMediaResolverHealth()
@@ -39,25 +45,32 @@ export default function MusicCollectionSettingsSection(props) {
   })
   const [collectionStats, setCollectionStats] = useState(null)
   const [progress, setProgress] = useState(null)
+  const [buildRunning, setBuildRunning] = useState(false)
+  const [recentErrors, setRecentErrors] = useState([])
+  const pollRef = useRef(null)
 
   const featureAvailable = checked
     && !!(status && status.available)
     && resolverHasFeature(status, 'musicCollection')
 
   const loadStats = useCallback(async function() {
-    if (!accessToken || !featureAvailable) return
+    if (!accessToken || !featureAvailable) return null
     setStatsBusy(true)
     try {
       const result = await fetchMusicCollectionStats({ accessToken: accessToken })
       setCollectionStats(result.stats || null)
       setProgress(result.progress || null)
+      setBuildRunning(!!result.buildRunning)
+      setRecentErrors(result.recentErrors || [])
       if (result.summary) {
         setSummary(function(prev) {
           return Object.assign({}, prev, { summary: result.summary, builtAt: result.builtAt })
         })
       }
+      return result
     } catch (e) {
       setError(e && e.message ? e.message : 'Could not load collection stats')
+      return null
     } finally {
       setStatsBusy(false)
     }
@@ -73,6 +86,29 @@ export default function MusicCollectionSettingsSection(props) {
     }
   }, [featureAvailable, loadStats])
 
+  useEffect(function() {
+    if (!featureAvailable) return undefined
+    const active = isBuildActive(progress, buildRunning)
+    if (!active) {
+      if (pollRef.current) {
+        clearInterval(pollRef.current)
+        pollRef.current = null
+      }
+      return undefined
+    }
+    if (!pollRef.current) {
+      pollRef.current = setInterval(function() {
+        loadStats()
+      }, 5000)
+    }
+    return function() {
+      if (pollRef.current) {
+        clearInterval(pollRef.current)
+        pollRef.current = null
+      }
+    }
+  }, [featureAvailable, progress, buildRunning, loadStats])
+
   if (!featureAvailable) {
     return null
   }
@@ -83,6 +119,7 @@ export default function MusicCollectionSettingsSection(props) {
   const duplicates = (collectionStats && collectionStats.duplicates) || {}
   const exactDupes = duplicates.exact || {}
   const metadataDupes = duplicates.metadata || {}
+  const buildActive = isBuildActive(progress, buildRunning)
 
   async function handleRebuild() {
     if (!accessToken) {
@@ -96,8 +133,14 @@ export default function MusicCollectionSettingsSection(props) {
       const result = await rebuildMusicCollectionIndex({
         accessToken: accessToken,
         extractArt: false,
+        background: true,
       })
-      setMessage('Index rebuilt: ' + result.count + ' track' + (result.count === 1 ? '' : 's') + '.')
+      if (result.started) {
+        setMessage('Index rebuild started in background.')
+        setBuildRunning(true)
+      } else {
+        setMessage('Index rebuilt: ' + result.count + ' track' + (result.count === 1 ? '' : 's') + '.')
+      }
       await refreshMediaResolverHealth(accessToken)
       await loadStats()
     } catch (e) {
@@ -114,10 +157,23 @@ export default function MusicCollectionSettingsSection(props) {
         Personal audio library hosted on your connected resolver. Tunebook searches this collection before YouTube when adding links.
       </p>
 
-      {progress && progress.phase && progress.phase !== 'complete' ? (
+      {buildActive ? (
         <Alert variant="info" className="mt-3">
-          Index build in progress: {progress.processed || 0}
-          {progress.total ? ' / ' + progress.total : ''} files scanned.
+          Index build in progress: {progress && progress.processed ? progress.processed : 0}
+          {progress && progress.total ? ' / ' + progress.total : ''} files scanned.
+          {progress && typeof progress.errors === 'number' ? ' · ' + progress.errors + ' errors' : ''}
+          {progress && typeof progress.skipped === 'number' && progress.skipped > 0
+            ? ' · ' + progress.skipped + ' skipped (resume)'
+            : ''}
+          {progress && typeof progress.etaSeconds === 'number'
+            ? ' · ~' + Math.max(1, Math.round(progress.etaSeconds / 60)) + ' min remaining'
+            : ''}
+        </Alert>
+      ) : null}
+
+      {progress && progress.phase === 'failed' ? (
+        <Alert variant="danger" className="mt-3">
+          Index build failed{progress.error ? ': ' + progress.error : '.'}
         </Alert>
       ) : null}
 
@@ -176,6 +232,12 @@ export default function MusicCollectionSettingsSection(props) {
               <span className="settings-cache-stats-label">Core metadata complete</span>
               <span className="settings-cache-stats-value">{metadata.completeCore || 0}</span>
             </li>
+            {typeof collectionStats.readErrors === 'number' ? (
+              <li>
+                <span className="settings-cache-stats-label">Read errors (last build)</span>
+                <span className="settings-cache-stats-value">{collectionStats.readErrors}</span>
+              </li>
+            ) : null}
           </ul>
 
           <h3 className="h5 mt-4">Playback &amp; history</h3>
@@ -228,17 +290,35 @@ export default function MusicCollectionSettingsSection(props) {
         </>
       ) : null}
 
+      {recentErrors.length > 0 ? (
+        <>
+          <h3 className="h5 mt-4">Recent index errors</h3>
+          <ul className="settings-cache-stats-list">
+            {recentErrors.slice(-5).map(function(item, idx) {
+              return (
+                <li key={idx}>
+                  <span className="settings-cache-stats-label">{item.stage || 'error'}</span>
+                  <span className="settings-cache-stats-value settings-music-collection-path">
+                    {(item.path || '') + (item.message ? ' — ' + item.message : '')}
+                  </span>
+                </li>
+              )
+            })}
+          </ul>
+        </>
+      ) : null}
+
       {error ? <Alert variant="danger" className="mt-3 mb-0">{error}</Alert> : null}
       {message ? <Alert variant="success" className="mt-3 mb-0">{message}</Alert> : null}
 
       <div className="App-settings-actions">
-        <Button variant="primary" disabled={busy} onClick={handleRebuild}>
+        <Button variant="primary" disabled={busy || buildActive} onClick={handleRebuild}>
           {busy ? (
             <>
               <Spinner animation="border" size="sm" className="me-2" aria-hidden="true" />
-              Rebuilding index…
+              Starting rebuild…
             </>
-          ) : 'Rebuild index'}
+          ) : buildActive ? 'Rebuild running…' : 'Rebuild index'}
         </Button>
         <Button
           variant="outline-secondary"
@@ -252,7 +332,7 @@ export default function MusicCollectionSettingsSection(props) {
         </Button>
       </div>
       <p className="app-text-muted small mt-3 mb-0">
-        Rebuild scans file dates for add order, embedded tags for metadata and play counts, and fingerprints for duplicate detection. Art extraction is skipped by default for large libraries.
+        Rebuild runs in the background with per-file timeouts and error isolation. Bad files are logged and skipped without stopping the build.
       </p>
     </div>
   )

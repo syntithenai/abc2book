@@ -6,6 +6,7 @@ import { applyCandidateToTune, isTuneFieldEmptyForKind } from './fieldLookupAppl
 import { pickFirstSearchCandidate } from './addTuneAutoEnrich'
 import { pickAutoApplyNotationCandidate } from './notationMatchUtils'
 import { inferNotationSongType } from './textSearchIndexUtils'
+import { enrichTuneMetadataFromMusicBrainz } from './tuneMetadataEnhance'
 
 function notationLooksReplaceable(tune) {
   if (!tune || !tune.voices || typeof tune.voices !== 'object') return true
@@ -69,7 +70,7 @@ export async function enrichBulkImportTune(tune, options) {
     })
   }
 
-  if (!title || !artist) return next
+  if (!title) return next
 
   const tunebook = opts.tunebook
   const abcjsParser = opts.abcjsParser
@@ -86,6 +87,7 @@ export async function enrichBulkImportTune(tune, options) {
     signal: opts.signal,
   }
 
+  if (artist) {
   if (isTuneFieldEmptyForKind(next, 'chords')) {
     report('chords')
     try {
@@ -141,6 +143,22 @@ export async function enrichBulkImportTune(tune, options) {
     } catch (e) {
       if (e && e.name === 'AbortError') throw e
     }
+  }
+  }
+
+  try {
+    await enrichTuneMetadataFromMusicBrainz(next, {
+      title: title,
+      artist: artist,
+      accessToken: accessToken,
+      resolverAvailable: resolverAvailable,
+      signal: opts.signal,
+      onProgress: function(step) {
+        report(step)
+      },
+    })
+  } catch (e) {
+    if (e && e.name === 'AbortError') throw e
   }
 
   return next

@@ -23,6 +23,7 @@ export default function FieldSearchResultsCaret(props) {
       return String(
         item.artist
         || item.genre
+        || item.album
         || item.title
         || item.alias
         || item.meter

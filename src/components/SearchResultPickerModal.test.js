@@ -99,6 +99,33 @@ describe('SearchResultPickerModal multiSelect', function() {
     expect(onDone).toHaveBeenCalledTimes(1)
   })
 
+  test('renders select all and select none actions', function() {
+    const onSelectAll = jest.fn()
+    const onSelectNone = jest.fn()
+    act(function() {
+      root.render(
+        React.createElement(SearchResultPickerModal, {
+          show: true,
+          multiSelect: true,
+          items: [{ title: 'Alice', source: 'a' }],
+          onSelect: function() {},
+          onHide: function() {},
+          onSelectAll: onSelectAll,
+          onSelectNone: onSelectNone,
+        })
+      )
+    })
+    const bulk = container.querySelector('[data-testid="search-result-picker-bulk-actions"]')
+    expect(bulk).toBeTruthy()
+    const buttons = Array.from(bulk.querySelectorAll('button'))
+    const selectAll = buttons.find(function(btn) { return btn.textContent === 'Select all' })
+    const selectNone = buttons.find(function(btn) { return btn.textContent === 'Select none' })
+    act(function() { selectAll.click() })
+    act(function() { selectNone.click() })
+    expect(onSelectAll).toHaveBeenCalledTimes(1)
+    expect(onSelectNone).toHaveBeenCalledTimes(1)
+  })
+
   test('renders optional header comment', function() {
     act(function() {
       root.render(

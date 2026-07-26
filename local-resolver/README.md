@@ -118,7 +118,13 @@ Tunebook searches this library before YouTube when adding links. Files stream at
 `/music-collection/...`. Access is gated by `MUSIC_COLLECTION_EMAILS` when set
 (fail-closed allowlist, independent of `FREE_ACCESS_EMAILS`). Override the host
 path with `MUSIC_COLLECTION_HOST_DIR` in `.env`. Re-run the index script after
-adding or renaming files.
+adding or renaming files, or use **Settings → Music collection → Rebuild index**
+(background build with per-file timeouts and `build_errors.jsonl` logging).
+
+Robustness env vars (optional): `MUSIC_COLLECTION_FILE_TIMEOUT_SECONDS`,
+`MUSIC_COLLECTION_CHECKPOINT_EVERY`, `MUSIC_COLLECTION_MAX_ERROR_LOG`,
+`MUSIC_COLLECTION_SKIP_SYMLINKS`. Resume interrupted builds with
+`python3 scripts/build_music_collection_index.py /music-collection --resume`.
 
 Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
 

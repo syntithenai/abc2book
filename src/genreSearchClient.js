@@ -1,4 +1,14 @@
 import axios from 'axios'
+import { resolveArtistMbid } from './artistDiscographyClient'
+import {
+  BIBLIO_CONFIDENCE_HIGH,
+  BIBLIO_CONFIDENCE_LOW,
+  BIBLIO_CONFIDENCE_MEDIUM,
+  isAmbiguousTitle,
+  scoreRecordingTitleMatch,
+  sortCandidatesByConfidence,
+  splitCandidatesByConfidence,
+} from './bibliographicSearchUtils'
 import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import {
@@ -8,7 +18,7 @@ import {
 } from './genreInference'
 import { getMusicGenreList } from './musicGenreOptions'
 import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from './externalSearchLinks'
-import { isGenericArtist } from './recordingArtistsClient'
+import { isGenericArtist, searchRecordingsScoped } from './recordingArtistsClient'
 
 const GENRE_ACCEPT_HEADER = 'application/x-ndjson, application/json'
 const MUSICBRAINZ_BASE = 'https://musicbrainz.org/ws/2'
@@ -26,6 +36,7 @@ function normalizeSingleGenreResult(body) {
       : genre,
     source: typeof body.source === 'string' ? body.source : '',
     reason: typeof body.reason === 'string' ? body.reason : '',
+    confidence: typeof body.confidence === 'string' ? body.confidence : '',
   }
 }
 
@@ -111,13 +122,26 @@ async function parseStreamingGenreSearchResponse(response, onProgress) {
 }
 
 function finishCandidates(candidates) {
-  if (!candidates || candidates.length === 0) {
-    return { empty: true, candidates: [] }
+  const sorted = sortCandidatesByConfidence(candidates || [])
+  const split = splitCandidatesByConfidence(sorted)
+  if (!sorted.length) {
+    return { empty: true, candidates: [], autoApply: [], suggestions: [] }
   }
-  if (candidates.length === 1) {
-    return Object.assign({ empty: false, multiple: false }, candidates[0])
+  if (sorted.length === 1) {
+    return Object.assign({
+      empty: false,
+      multiple: false,
+      autoApply: split.autoApply,
+      suggestions: split.suggestions,
+    }, sorted[0])
   }
-  return { empty: false, multiple: true, candidates: candidates }
+  return {
+    empty: false,
+    multiple: true,
+    candidates: sorted,
+    autoApply: split.autoApply,
+    suggestions: split.suggestions,
+  }
 }
 
 function escapeRegExp(value) {
@@ -158,7 +182,7 @@ function createGenreCollector(currentGenre) {
   const seen = {}
   const currentKey = String(currentGenre || '').trim().toLowerCase()
 
-  function push(genre, source, reason) {
+  function push(genre, source, reason, confidence) {
     const label = normalizeInferredGenre(genre) || String(genre || '').trim()
     if (!label) return
     const key = label.toLowerCase()
@@ -170,10 +194,11 @@ function createGenreCollector(currentGenre) {
       preview: label,
       source: source || 'inference',
       reason: reason || '',
+      confidence: confidence || BIBLIO_CONFIDENCE_MEDIUM,
     })
   }
 
-  function pushFromText(text, source, reason) {
+  function pushFromText(text, source, reason, confidence) {
     const haystack = String(text || '')
     if (!haystack.trim()) return
     // Prefer longer genre names so "Progressive Bluegrass" wins over "Bluegrass".
@@ -183,7 +208,7 @@ function createGenreCollector(currentGenre) {
     genres.forEach(function(genre) {
       if (candidates.length >= 8) return
       if (textContainsGenreLabel(haystack, genre)) {
-        push(genre, source, reason)
+        push(genre, source, reason, confidence)
       }
     })
   }
@@ -216,12 +241,13 @@ export function searchGenreLocal(options) {
     rhythm: rhythm,
   }))
   if (inferred && inferred.genre) {
-    collector.push(inferred.genre, 'inference', inferred.reason || '')
+    collector.push(inferred.genre, 'inference', inferred.reason || '', BIBLIO_CONFIDENCE_HIGH)
   }
   collector.pushFromText(
     [title, artist, rhythm, backgroundInfo].join(' '),
     'title match',
-    'matched text'
+    'matched text',
+    BIBLIO_CONFIDENCE_MEDIUM
   )
   return finishCandidates(collector.list())
 }
@@ -290,37 +316,78 @@ async function fetchMusicBrainzArtistGenres(artist, signal) {
   const name = String(artist || '').trim()
   if (!name || isGenericArtist(name)) return []
   try {
-    const searchRes = await axios.get(MUSICBRAINZ_BASE + '/artist', {
-      params: {
-        query: 'artist:"' + name.replace(/"/g, '') + '"',
-        fmt: 'json',
-        limit: 1,
-      },
-      headers: { 'User-Agent': CLIENT_USER_AGENT },
-      signal: signal,
-    })
-    const hit = searchRes.data && searchRes.data.artists && searchRes.data.artists[0]
-    if (!hit || !hit.id) return []
+    const resolved = await resolveArtistMbid(name, signal)
+    if (!resolved || !resolved.id) return []
 
-    const detailRes = await axios.get(MUSICBRAINZ_BASE + '/artist/' + hit.id, {
+    const detailRes = await axios.get(MUSICBRAINZ_BASE + '/artist/' + resolved.id, {
       params: { fmt: 'json', inc: 'tags+genres' },
       headers: { 'User-Agent': CLIENT_USER_AGENT },
       signal: signal,
     })
+    return collectScoredGenreLabels(detailRes.data || {})
+  } catch (e) {
+    return []
+  }
+}
+
+function collectScoredGenreLabels(data) {
+  const scored = []
+  ;(data.genres || []).forEach(function(entry) {
+    const label = entry && entry.name
+    if (!label) return
+    scored.push({ name: label, count: Number(entry.count) || 0 })
+  })
+  ;(data.tags || []).forEach(function(entry) {
+    const label = entry && entry.name
+    if (!label) return
+    scored.push({ name: label, count: Number(entry.count) || 0 })
+  })
+  scored.sort(function(a, b) { return b.count - a.count })
+  return scored.map(function(entry) { return entry.name })
+}
+
+async function fetchMusicBrainzRecordingGenres(title, artist, signal) {
+  const queryTitle = String(title || '').trim()
+  if (!queryTitle) return []
+  let artistMbid = ''
+  const artistName = String(artist || '').trim()
+  if (artistName && !isGenericArtist(artistName)) {
+    const resolved = await resolveArtistMbid(artistName, signal)
+    if (resolved && resolved.id) artistMbid = resolved.id
+  }
+  const recordings = await searchRecordingsScoped(queryTitle, artistMbid, {
+    signal: signal,
+    limit: 8,
+  })
+  const ranked = recordings.slice().sort(function(a, b) {
+    return scoreRecordingTitleMatch(b, queryTitle) - scoreRecordingTitleMatch(a, queryTitle)
+  })
+  const best = ranked.find(function(recording) {
+    return scoreRecordingTitleMatch(recording, queryTitle) >= 70
+  })
+  if (!best || !best.id) return []
+  try {
+    const detailRes = await axios.get(MUSICBRAINZ_BASE + '/recording/' + best.id, {
+      params: { fmt: 'json', inc: 'genres+tags+work-rels' },
+      headers: { 'User-Agent': CLIENT_USER_AGENT },
+      signal: signal,
+    })
     const data = detailRes.data || {}
-    const scored = []
-    ;(data.genres || []).forEach(function(entry) {
-      const label = entry && entry.name
-      if (!label) return
-      scored.push({ name: label, count: Number(entry.count) || 0 })
+    const labels = collectScoredGenreLabels(data)
+    const workRelation = (data.relations || []).find(function(relation) {
+      return relation && relation.type === 'performance' && relation.work && relation.work.id
     })
-    ;(data.tags || []).forEach(function(entry) {
-      const label = entry && entry.name
-      if (!label) return
-      scored.push({ name: label, count: Number(entry.count) || 0 })
-    })
-    scored.sort(function(a, b) { return b.count - a.count })
-    return scored.map(function(entry) { return entry.name })
+    if (workRelation && workRelation.work && workRelation.work.id) {
+      const workRes = await axios.get(MUSICBRAINZ_BASE + '/work/' + workRelation.work.id, {
+        params: { fmt: 'json', inc: 'genres+tags' },
+        headers: { 'User-Agent': CLIENT_USER_AGENT },
+        signal: signal,
+      })
+      collectScoredGenreLabels(workRes.data || {}).forEach(function(name) {
+        if (labels.indexOf(name) < 0) labels.push(name)
+      })
+    }
+    return labels
   } catch (e) {
     return []
   }
@@ -333,29 +400,51 @@ export async function searchGenreLight(options) {
   const opts = options || {}
   const title = String(opts.title || '').trim()
   const artist = String(opts.artist || '').trim()
+  const ambiguousTitle = isAmbiguousTitle(title)
   const collector = createGenreCollector(opts.currentGenre)
 
   const local = searchGenreLocal(opts)
   ;(local.candidates || (local.genre ? [local] : [])).forEach(function(entry) {
-    collector.push(entry.genre, entry.source, entry.reason)
+    collector.push(
+      entry.genre,
+      entry.source,
+      entry.reason,
+      entry.confidence || BIBLIO_CONFIDENCE_MEDIUM
+    )
   })
 
   if (typeof opts.onProgress === 'function') {
-    opts.onProgress('Checking Wikipedia…', 0.35, 'wikipedia')
+    opts.onProgress('Checking recording tags…', 0.25, 'musicbrainz-recording')
+  }
+  const recordingGenres = await fetchMusicBrainzRecordingGenres(title, artist, opts.signal)
+  recordingGenres.forEach(function(name) {
+    const canonical = normalizeInferredGenre(name)
+    if (canonical) {
+      collector.push(canonical, 'MusicBrainz', 'recording/work genre tag', BIBLIO_CONFIDENCE_HIGH)
+    }
+  })
+
+  if (typeof opts.onProgress === 'function') {
+    opts.onProgress('Checking Wikipedia…', 0.45, 'wikipedia')
   }
   const extract = await fetchWikipediaExtract(title, artist, opts.signal)
   if (extract) {
-    collector.pushFromText(extract, 'Wikipedia', 'matched article text')
+    collector.pushFromText(
+      extract,
+      'Wikipedia',
+      'matched article text',
+      ambiguousTitle ? BIBLIO_CONFIDENCE_LOW : BIBLIO_CONFIDENCE_MEDIUM
+    )
   }
 
   if (typeof opts.onProgress === 'function') {
-    opts.onProgress('Checking MusicBrainz…', 0.65, 'musicbrainz')
+    opts.onProgress('Checking MusicBrainz…', 0.7, 'musicbrainz')
   }
   const mbGenres = await fetchMusicBrainzArtistGenres(artist, opts.signal)
   mbGenres.forEach(function(name) {
     const canonical = normalizeInferredGenre(name)
     if (canonical) {
-      collector.push(canonical, 'MusicBrainz', 'artist genre tag')
+      collector.push(canonical, 'MusicBrainz', 'artist genre tag', BIBLIO_CONFIDENCE_MEDIUM)
     }
   })
 

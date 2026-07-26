@@ -71,6 +71,10 @@ export default function SearchResultPickerModal({
   selectedIndexes,
   onDone,
   doneLabel,
+  onSelectAll,
+  onSelectNone,
+  selectAllLabel,
+  selectNoneLabel,
   layout,
   previewMetadata,
 }) {
@@ -78,6 +82,35 @@ export default function SearchResultPickerModal({
   const selectedSet = new Set(selected);
   const notationLayout = layout === 'notation';
   const headerComment = String(comment || '').trim();
+  const showBulkActions = !!(multiSelect && (typeof onSelectAll === 'function' || typeof onSelectNone === 'function'));
+
+  function renderBulkActions() {
+    if (!showBulkActions) return null;
+    return (
+      <div className="search-result-picker-bulk-actions mb-2" data-testid="search-result-picker-bulk-actions">
+        {typeof onSelectAll === 'function' ? (
+          <Button
+            type="button"
+            size="sm"
+            variant="outline-secondary"
+            onClick={onSelectAll}
+          >
+            {selectAllLabel || 'Select all'}
+          </Button>
+        ) : null}
+        {typeof onSelectNone === 'function' ? (
+          <Button
+            type="button"
+            size="sm"
+            variant="outline-secondary"
+            onClick={onSelectNone}
+          >
+            {selectNoneLabel || 'Select none'}
+          </Button>
+        ) : null}
+      </div>
+    );
+  }
 
   function renderListItem(item, index) {
     const label = formatCandidateLabel(item, fallbackTitle);
@@ -166,6 +199,7 @@ export default function SearchResultPickerModal({
           ? <p style={{ marginBottom: 0 }}>{emptyMessage || 'No results available.'}</p>
           : notationLayout ? (
             <>
+              {renderBulkActions()}
               {multiSelect ? (
                 <p className="text-muted small mb-2">
                   Click to add. You can select multiple, then Done when finished.
@@ -181,6 +215,7 @@ export default function SearchResultPickerModal({
             </>
           ) : (
             <>
+              {renderBulkActions()}
               {multiSelect ? (
                 <p className="text-muted small mb-2">
                   Click to add. You can select multiple, then Done when finished.

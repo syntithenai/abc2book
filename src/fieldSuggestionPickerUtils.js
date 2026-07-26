@@ -13,6 +13,7 @@ export function pickerTitleForKind(kind) {
   if (kind === 'artists') return 'Choose artists to add'
   if (kind === 'aliases') return 'Choose aliases to add'
   if (kind === 'genre') return 'Choose genre'
+  if (kind === 'albums') return 'Choose album'
   if (kind === 'notation') return 'Choose notation'
   if (kind === 'lyrics') return 'Choose lyrics'
   if (kind === 'chords') return 'Choose chords'
@@ -27,6 +28,7 @@ export function currentFieldDisplay(tune, kind) {
   if (!tune) return ''
   if (kind === 'composer') return String(tune.composer || '').trim()
   if (kind === 'genre') return allGenres(tune).join(', ')
+  if (kind === 'albums') return Array.isArray(tune.albums) ? tune.albums.join(', ') : ''
   if (kind === 'artists') {
     return Array.isArray(tune.artists) ? tune.artists.filter(Boolean).join(', ') : ''
   }

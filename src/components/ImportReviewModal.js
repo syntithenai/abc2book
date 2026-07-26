@@ -1208,6 +1208,7 @@ export default function ImportReviewModal(props) {
           />
           <YouTubeSearchModal
             tunebook={props.tunebook}
+            token={props.token}
             value={youtubeSearchQuery}
             onChange={function(link) {
               selectFormPanelMode();
@@ -1739,6 +1740,7 @@ export default function ImportReviewModal(props) {
       forcedBook={bulkForcedBook}
       searchIndex={props.searchIndex}
       loadTuneTexts={props.loadTuneTexts}
+      onStartedReview={props.onBulkImportStarted}
     />
   ) : (
     <AddTuneSimpleForm

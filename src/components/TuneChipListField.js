@@ -1,8 +1,17 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Button, Form, FormControl, InputGroup } from 'react-bootstrap'
 import { icons } from '../Icons'
+import {
+  blurInputTarget,
+  findAutosuggestOptionMatch,
+  isAutosuggestOptionPick,
+  isAutosuggestReplacementEvent,
+} from '../autosuggestInputUtils'
 import useMusicBrainzArtistOptions from '../useMusicBrainzArtistOptions'
+import CollapsibleButtonRow from './CollapsibleButtonRow'
 import FieldSearchResultsCaret from './FieldSearchResultsCaret'
+
+const DEFAULT_VISIBLE_CHIPS = 2
 
 function normalizeItems(value) {
   if (!Array.isArray(value)) return []
@@ -18,19 +27,30 @@ function splitDraftText(text) {
     .filter(Boolean)
 }
 
-function mergeUnique(existing, nextItems) {
-  const result = existing.slice()
+function prependUnique(existing, nextItems) {
+  const result = []
   const seen = {}
-  result.forEach(function(item) {
-    seen[item.toLowerCase()] = true
-  })
   nextItems.forEach(function(item) {
     const key = item.toLowerCase()
     if (seen[key]) return
     seen[key] = true
     result.push(item)
   })
+  existing.forEach(function(item) {
+    const key = item.toLowerCase()
+    if (seen[key]) return
+    seen[key] = true
+    result.push(item)
+  })
   return result
+}
+
+function candidateLabel(candidate) {
+  if (typeof candidate === 'string') return candidate
+  return String(
+    (candidate && (candidate.artist || candidate.alias || candidate.album || candidate.genre || candidate.title))
+    || ''
+  ).trim()
 }
 
 /**
@@ -51,7 +71,9 @@ export default function TuneChipListField(props) {
   const addLabel = props.addLabel || 'Add'
   const musicBrainzSuggest = !!props.musicBrainzSuggest
   const endAppend = props.endAppend || null
-  // Typing discovery only (e.g. MusicBrainz). Do not inject field-search cache here.
+  const visibleChipLimit = typeof props.visibleChipLimit === 'number'
+    ? props.visibleChipLimit
+    : DEFAULT_VISIBLE_CHIPS
   const searchResults = Array.isArray(props.searchResults) ? props.searchResults : []
   const searchResultCandidates = Array.isArray(props.searchResultCandidates)
     ? props.searchResultCandidates
@@ -61,12 +83,19 @@ export default function TuneChipListField(props) {
     : null
   const onSelectItem = typeof props.onSelectItem === 'function' ? props.onSelectItem : null
   const [draft, setDraft] = useState('')
+  const [searchDraft, setSearchDraft] = useState('')
+  const [suggestSuppressed, setSuggestSuppressed] = useState(false)
+  const inputRef = useRef(null)
   const datalistId = useMemo(function() {
     return controlId + '-suggestions'
   }, [controlId])
-  const musicBrainz = useMusicBrainzArtistOptions(draft, { enabled: musicBrainzSuggest })
+  const musicBrainz = useMusicBrainzArtistOptions(searchDraft, {
+    enabled: musicBrainzSuggest && !suggestSuppressed && String(searchDraft || '').trim().length > 0,
+  })
   const mbOptions = musicBrainz.options || []
-  const suggestLoading = !!(props.loading || musicBrainz.loading)
+  const suggestLoading = !!(props.loading || (musicBrainz.loading
+    && !suggestSuppressed
+    && String(searchDraft || '').trim().length > 0))
   const autosuggestOptions = []
   const seenOpts = {}
   items.forEach(function(item) {
@@ -85,11 +114,24 @@ export default function TuneChipListField(props) {
     if (typeof onChange === 'function') onChange(next)
   }
 
-  function commitDraft(text) {
-    const nextItems = splitDraftText(text != null ? text : draft)
-    if (nextItems.length === 0) return
-    emit(mergeUnique(items, nextItems))
+  function clearDraftInput() {
     setDraft('')
+    setSearchDraft('')
+    setSuggestSuppressed(true)
+  }
+
+  function addItemsImmediately(nextItems) {
+    const cleaned = nextItems.map(function(item) { return String(item || '').trim() }).filter(Boolean)
+    if (!cleaned.length) return
+    emit(prependUnique(items, cleaned))
+    clearDraftInput()
+    if (inputRef.current && typeof inputRef.current.blur === 'function') {
+      inputRef.current.blur()
+    }
+  }
+
+  function commitDraft(text) {
+    addItemsImmediately(splitDraftText(text != null ? text : draft))
   }
 
   function removeItem(index) {
@@ -97,15 +139,27 @@ export default function TuneChipListField(props) {
   }
 
   function applySearchCandidate(candidate) {
-    const name = typeof candidate === 'string'
-      ? candidate
-      : String((candidate && (candidate.artist || candidate.alias || candidate.title)) || '').trim()
+    const name = candidateLabel(candidate)
     if (!name) return
+    addItemsImmediately([name])
     if (typeof onOpenSearchResults === 'function') {
       onOpenSearchResults([candidate])
+    }
+  }
+
+  function handleDraftChange(e) {
+    const value = e.target.value
+    const matched = findAutosuggestOptionMatch(value, autosuggestOptions)
+    const fromAutosuggest = isAutosuggestReplacementEvent(e)
+      || isAutosuggestOptionPick(value, searchDraft, autosuggestOptions)
+    if (fromAutosuggest && matched) {
+      addItemsImmediately([matched])
+      blurInputTarget(e)
       return
     }
-    commitDraft(name)
+    setSuggestSuppressed(false)
+    setDraft(value)
+    setSearchDraft(value)
   }
 
   const searchCaret = (Array.isArray(searchResultCandidates) && searchResultCandidates.length > 0)
@@ -124,8 +178,12 @@ export default function TuneChipListField(props) {
     <Form.Group className={className} controlId={controlId}>
       {label ? <Form.Label>{label}</Form.Label> : null}
       {items.length > 0 ? (
-        <div className="tune-chip-list" role="list" aria-label={label || 'Selected values'}>
-          {items.map(function(item, index) {
+        <div role="list" aria-label={label || 'Selected values'}>
+          <CollapsibleButtonRow
+            className="tune-chip-list"
+            items={items}
+            limit={visibleChipLimit}
+          renderItem={function(item, index) {
             return (
               <span key={item + ':' + index} className="tune-chip-list-item" role="listitem">
                 {onSelectItem ? (
@@ -151,16 +209,18 @@ export default function TuneChipListField(props) {
                 </button>
               </span>
             )
-          })}
+          }}
+          />
         </div>
       ) : null}
       <div className="tune-chip-list-input-row">
         <InputGroup>
           <FormControl
+            ref={inputRef}
             value={draft}
             placeholder={placeholder}
             list={autosuggestOptions.length > 0 ? datalistId : undefined}
-            onChange={function(e) { setDraft(e.target.value) }}
+            onChange={handleDraftChange}
             onKeyDown={function(e) {
               if (e.key === 'Enter') {
                 e.preventDefault()
@@ -169,17 +229,14 @@ export default function TuneChipListField(props) {
               }
               if (e.key === 'Backspace' && !draft && items.length > 0) {
                 e.preventDefault()
-                removeItem(items.length - 1)
+                removeItem(0)
               }
             }}
             onPaste={function(e) {
               const pasted = e.clipboardData && e.clipboardData.getData('text')
               if (!pasted || pasted.indexOf(',') < 0) return
               e.preventDefault()
-              const nextItems = splitDraftText(draft + pasted)
-              if (nextItems.length === 0) return
-              emit(mergeUnique(items, nextItems))
-              setDraft('')
+              addItemsImmediately(splitDraftText(draft + pasted))
             }}
           />
           {suggestLoading ? (

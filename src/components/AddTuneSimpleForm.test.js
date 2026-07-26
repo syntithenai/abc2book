@@ -212,7 +212,7 @@ describe('AddTuneSimpleForm', function() {
     expect(button.querySelector('.spinner-border')).toBeNull()
   })
 
-  test('album discography button loads tracks into bulk import', async function() {
+  test('album load tracks button loads tracks into bulk import', async function() {
     fetchAlbumDiscography.mockResolvedValue({
       albumName: 'Abbey Road',
       artistName: 'The Beatles',
@@ -248,6 +248,53 @@ describe('AddTuneSimpleForm', function() {
       'Come Together by The Beatles',
       'Something by The Beatles',
     ])
+  })
+
+  test('album load tracks opens picker when lookup is ambiguous', async function() {
+    fetchAlbumDiscography.mockResolvedValue({
+      needsPicker: true,
+      candidates: [
+        {
+          label: 'Greatest Hits (1980)',
+          albumName: 'Greatest Hits',
+          artistName: 'Artist A',
+          matchType: 'Album match',
+          confidence: 'medium',
+        },
+        {
+          label: 'Greatest Hits (1990)',
+          albumName: 'Greatest Hits',
+          artistName: 'Artist B',
+          matchType: 'Album match',
+          confidence: 'medium',
+        },
+      ],
+      titles: [],
+    })
+
+    act(function() {
+      root.render(React.createElement(AddTuneSimpleForm, {
+        values: { title: 'Song' },
+        tunes: {},
+        candidateId: 'add-1',
+        onChange: jest.fn(),
+      }))
+    })
+
+    const albumInput = container.querySelector('[data-testid="add-tune-album"]')
+    await act(async function() {
+      Simulate.change(albumInput, { target: { value: 'Greatest Hits' } })
+    })
+
+    await act(async function() {
+      container.querySelector('[data-testid="add-tune-album-discography"]').click()
+      await Promise.resolve()
+    })
+
+    expect(fetchAlbumDiscography).toHaveBeenCalledWith('Greatest Hits', '', expect.any(Object))
+    expect(document.body.textContent).toContain('Choose album')
+    expect(document.body.textContent).toContain('Artist A')
+    expect(document.body.textContent).toContain('Greatest Hits (1980)')
   })
 
   test('album discography button is disabled without album name', function() {
