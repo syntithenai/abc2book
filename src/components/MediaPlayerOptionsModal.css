@@ -16,6 +16,11 @@
   margin-bottom: 0.5em;
 }
 
+.media-playback-region-panel .playback-loop-start {
+  flex: 0 0 auto;
+  margin-bottom: 0.35em;
+}
+
 .media-playback-region-panel .playback-loop-active {
   flex: 0 0 auto;
   margin-bottom: 0.35em;

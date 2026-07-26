@@ -13,7 +13,16 @@ jest.mock('./youtubeSearchClient', function() {
   };
 });
 
-import { youtubeAutoselectConfidence, prepareBulkTextQueue } from './bulkTextPrepare';
+jest.mock('./musicCollectionSearchClient', function() {
+  return {
+    searchMusicCollection: jest.fn(function() {
+      return Promise.resolve({ empty: true, candidates: [] });
+    }),
+  };
+});
+
+import { youtubeAutoselectConfidence, collectionAutoselectConfidence, prepareBulkTextQueue } from './bulkTextPrepare';
+import { searchMusicCollection } from './musicCollectionSearchClient';
 
 describe('bulkTextPrepare', function() {
   test('youtubeAutoselectConfidence high for exact title match', function() {
@@ -24,6 +33,32 @@ describe('bulkTextPrepare', function() {
   test('youtubeAutoselectConfidence low for unrelated', function() {
     const conf = youtubeAutoselectConfidence('Foo', '', { title: 'Completely Different Song' });
     expect(conf.confidence).toBe('low');
+  });
+
+  test('collectionAutoselectConfidence high for exact tagged match', function() {
+    const conf = collectionAutoselectConfidence('Sally Gardens', 'Altan', {
+      title: 'Sally Gardens',
+      artist: 'Altan',
+    });
+    expect(conf.confidence).toBe('high');
+  });
+
+  test('prepareBulkTextQueue prefers collection autoselect over YouTube', async function() {
+    searchMusicCollection.mockResolvedValueOnce({
+      empty: false,
+      multiple: false,
+      title: 'Sally Gardens',
+      artist: 'Altan',
+      link: 'https://resolver/music-collection/sally.mp3',
+      source: 'music-collection',
+    });
+
+    const prepared = await prepareBulkTextQueue('Sally Gardens by Altan', {
+      searchYouTube: true,
+    });
+
+    expect(prepared[0].collectionAutoselected).toBe(true);
+    expect(prepared[0].tune.links[0].link).toContain('/music-collection/');
   });
 
   test('prepareBulkTextQueue builds candidates with skipEnrich', async function() {

@@ -48,6 +48,12 @@ export const PIANO_ROLL_TOOLS = {
   ERASE: 'erase',
 };
 
+/** Staff marquee without Shift (desktop) or long-press (touch). */
+export const STAFF_SELECTION_TOOLS = {
+  NORMAL: 'normal',
+  MARQUEE: 'marquee',
+};
+
 export const MIDI_CHORD_MODES = {
   STEP_CHORD: 'stepChord',
   ADD_TONE: 'addTone',

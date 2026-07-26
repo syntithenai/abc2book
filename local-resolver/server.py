@@ -33,6 +33,20 @@ from midi_resources import (
     midi_resources_health_fields,
     resolve_midi_resource_file,
 )
+from music_collection import (
+    build_music_collection_candidate,
+    guess_audio_mime_type,
+    load_music_collection_stats,
+    music_collection_enabled,
+    music_collection_health_fields,
+    music_collection_index_path,
+    music_collection_root,
+    music_collection_stats_path,
+    rebuild_music_collection_index,
+    resolve_music_collection_art_file,
+    resolve_music_collection_file,
+    search_music_collection,
+)
 from score_attachment_fetch import fetch_score_attachment_bytes, is_allowed_score_attachment_url
 from subprocess_utils import (
     ClientDisconnected,
@@ -609,6 +623,7 @@ def resolver_features():
         "youtubeAudio": yt_flags["youtubeAudio"],
         "youtubeEgressRequired": yt_flags["youtubeEgressRequired"],
         "chordBackend": os.getenv("CHORD_BACKEND", "auto").strip().lower() or "auto",
+        "musicCollection": music_collection_enabled(),
     }
 
 
@@ -710,6 +725,26 @@ async def maybe_require_auth(authorization):
     if not REQUIRE_AUTH:
         return None
     return await require_auth(authorization)
+
+
+async def require_music_collection_access(authorization):
+    """Music collection may use a dedicated allowlist even when REQUIRE_AUTH is off."""
+    from music_collection import load_music_collection_emails
+    from allowlists import email_allowed
+
+    allowlist = load_music_collection_emails()
+    if allowlist:
+        token = get_bearer_token(authorization)
+        if not token:
+            raise HTTPException(status_code=401, detail="Missing Authorization Bearer token")
+        verified = await verify_google_access_token(token)
+        if not verified:
+            raise HTTPException(status_code=401, detail="Invalid or expired Google token")
+        email = verified.get("email")
+        if not email_allowed(allowlist, email):
+            raise HTTPException(status_code=403, detail="Email not authorized for music collection")
+        return verified
+    return await maybe_require_auth(authorization)
 
 
 def auth_access_flags(verified):
@@ -2592,6 +2627,7 @@ async def health(request: Request, authorization: str | None = Header(default=No
     }
     body.update(soundfont_health_fields())
     body.update(midi_resources_health_fields())
+    body.update(music_collection_health_fields())
     body.update(build_auth_health_fields(verified, bool(token), verified_failed))
     flags = {
         "freeAccess": body.get("freeAccess", False),
@@ -2634,6 +2670,7 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
     }
     body.update(soundfont_health_fields())
     body.update(midi_resources_health_fields())
+    body.update(music_collection_health_fields())
     body.update(build_auth_health_fields(verified, bool(token), verified_failed))
     flags = {
         "freeAccess": body.get("freeAccess", False),
@@ -4400,6 +4437,168 @@ async def get_midi_resource_file(
         )
     except FileNotFoundError:
         return json_error(404, "MIDI file not found", origin)
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/search-music-collection")
+async def search_music_collection_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        track_resolver_usage("search-music-collection")
+        payload = await request.json()
+        title = str(payload.get("title") or payload.get("query") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        limit = int(payload.get("limit") or payload.get("maxResults") or 20)
+        matches = search_music_collection(title, artist=artist, limit=limit)
+        request_base = str(request.base_url).rstrip("/")
+        candidates = [
+            build_music_collection_candidate(match, request_base_url=request_base)
+            for match in matches
+        ]
+        return JSONResponse(
+            {"ok": True, "candidates": candidates},
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.post("/rebuild-music-collection-index")
+async def rebuild_music_collection_index_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        track_resolver_usage("rebuild-music-collection-index")
+        payload = {}
+        try:
+            payload = await request.json()
+        except Exception:
+            payload = {}
+        extract_art = payload.get("extractArt", True) is not False
+        index = rebuild_music_collection_index(extract_art=extract_art)
+        body = {
+            "ok": True,
+            "count": int(index.get("count") or 0),
+            "tokens": len(index.get("tokens") or {}),
+            "indexPath": music_collection_index_path(),
+            "root": music_collection_root(),
+        }
+        body.update(music_collection_health_fields())
+        return JSONResponse(body, headers=cors_headers(origin))
+    except FileNotFoundError as exc:
+        return json_error(404, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection-stats")
+async def music_collection_stats_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection index not found", origin)
+        track_resolver_usage("music-collection-stats")
+        payload = load_music_collection_stats() or {}
+        progress_path = os.path.join(os.path.dirname(music_collection_stats_path()), "build_progress.json")
+        progress = None
+        if os.path.isfile(progress_path):
+            try:
+                with open(progress_path, "r", encoding="utf-8") as handle:
+                    progress = json.load(handle)
+            except Exception:
+                progress = None
+        body = {
+            "ok": True,
+            "stats": payload.get("stats") or {},
+            "builtAt": payload.get("builtAt"),
+            "count": payload.get("count"),
+            "progress": progress,
+            "statsPath": music_collection_stats_path(),
+            "indexPath": music_collection_index_path(),
+            "root": music_collection_root(),
+        }
+        body.update(music_collection_health_fields())
+        return JSONResponse(body, headers=cors_headers(origin))
+    except FileNotFoundError as exc:
+        return json_error(404, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection/{resource_path:path}")
+async def get_music_collection_file(
+    resource_path: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        track_resolver_usage("music-collection")
+        abs_path = resolve_music_collection_file(resource_path)
+        filename = os.path.basename(abs_path)
+        return FileResponse(
+            abs_path,
+            media_type=guess_audio_mime_type(abs_path),
+            filename=filename,
+            headers=cors_headers(origin),
+        )
+    except FileNotFoundError:
+        return json_error(404, "Audio file not found", origin)
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.get("/music-collection-art/{entry_id}")
+async def get_music_collection_art(
+    entry_id: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        abs_path = resolve_music_collection_art_file(entry_id)
+        mime = guess_audio_mime_type(abs_path)
+        if mime == "application/octet-stream":
+            lower = abs_path.lower()
+            if lower.endswith(".png"):
+                mime = "image/png"
+            elif lower.endswith(".webp"):
+                mime = "image/webp"
+            else:
+                mime = "image/jpeg"
+        return FileResponse(abs_path, media_type=mime, headers=cors_headers(origin))
+    except FileNotFoundError:
+        return json_error(404, "Album art not found", origin)
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:

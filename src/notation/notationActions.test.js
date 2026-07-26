@@ -27,6 +27,7 @@ import {
   selectEventRange,
   toggleSelectionEventId,
   selectMeasureContaining,
+  selectAllPitchedEvents,
   insertEmptyMeasureAtCaret,
   respellEnharmonicSelection,
 } from './notationActions';
@@ -124,18 +125,13 @@ describe('notationActions', function() {
     expect(abc).toMatch(/CDEF \|\nGABc/);
   });
 
-  test('sequential insert at caret advances and preserves order', function() {
+  test('sequential insert at caret replaces at caret when fillMeasures', function() {
     let session = createInitialSession(tuneMeta, 'C D E F |');
     session = Object.assign({}, session, { mode: 'noteInput', caretIndex: 2 });
     session = insertPitchAtCaret(session, pitchFromLetter('G', session));
-    expect(session.caretIndex).toBe(3);
     session = insertPitchAtCaret(session, pitchFromLetter('A', session));
-    expect(session.caretIndex).toBe(4);
     const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
-    expect(notes[2].pitch.step).toBe('G');
-    expect(notes[3].pitch.step).toBe('A');
-    expect(notes[4].pitch.step).toBe('E');
-    expect(notes[5].pitch.step).toBe('F');
+    expect(notes.map(function(n) { return n.pitch.step; })).toEqual(['C', 'D', 'G', 'A']);
   });
 
   test('inserts notes at caret and serializes', function() {
@@ -573,6 +569,18 @@ describe('notationActions', function() {
     sel = toggleSelectionEventId(sel, cId);
     expect(sel.eventIds).toEqual([dId]);
     expect(sel.anchorId).toBe(dId);
+  });
+
+  test('selectAllPitchedEvents selects notes chords rests not barlines', function() {
+    const session = createInitialSession(tuneMeta, 'C D E F |');
+    const patch = selectAllPitchedEvents(session);
+    expect(patch.selection.eventIds.length).toBe(4);
+    expect(patch.selection.anchorId).toBe(session.events[0].id);
+    expect(patch.caretIndex).toBe(0);
+    const types = patch.selection.eventIds.map(function(id) {
+      return session.events.find(function(ev) { return ev.id === id; }).type;
+    });
+    expect(types.every(function(t) { return t === 'note'; })).toBe(true);
   });
 
   test('selectMeasureContaining includes notes through trailing barline', function() {

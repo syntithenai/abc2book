@@ -30,6 +30,7 @@ import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
 import BackupSettingsSection from '../components/BackupSettingsSection'
 import SourcesSettingsSection from '../components/SourcesSettingsSection'
 import DuplicateManagerSettingsSection from '../components/DuplicateManagerSettingsSection'
+import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
   loadAudioCompressSettings,
@@ -51,6 +52,7 @@ import {
   setColorScheme,
 } from '../colorSchemeSettings'
 import { runMergeChecksNow } from '../mergeCheckTrigger'
+import { resolverHasFeature } from '../resolverFeatures'
 
 const TAB_BACKGROUND_JOBS = 'background-jobs'
 const TAB_APPEARANCE = 'appearance'
@@ -60,6 +62,7 @@ const TAB_PEDAL = 'pedal'
 const TAB_BACKUP = 'backup'
 const TAB_SOURCES = 'sources'
 const TAB_DUPLICATES = 'duplicates'
+const TAB_MUSIC_COLLECTION = 'music-collection'
 
 function formatFeatureSummary(features) {
   if (!features) return ''
@@ -129,6 +132,9 @@ export default function SettingsPage(props) {
   const [showMediaCacheTunes, setShowMediaCacheTunes] = useState(false)
   const [activeTab, setActiveTab] = useState(TAB_BACKGROUND_JOBS)
   const { status: resolverStatus, checked, features, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
+  const showMusicCollectionTab = checked
+    && !!(resolverStatus && resolverStatus.available)
+    && resolverHasFeature(resolverStatus, 'musicCollection')
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
   const [youtubeHelperStatus, setYoutubeHelperStatus] = useState({
     checking: true,
@@ -408,6 +414,11 @@ export default function SettingsPage(props) {
         <Nav.Item>
           <Nav.Link eventKey={TAB_DUPLICATES}>Duplicates</Nav.Link>
         </Nav.Item>
+        {showMusicCollectionTab ? (
+          <Nav.Item>
+            <Nav.Link eventKey={TAB_MUSIC_COLLECTION}>Music collection</Nav.Link>
+          </Nav.Item>
+        ) : null}
         <Nav.Item>
           <Nav.Link eventKey={TAB_PEDAL}>Pedal</Nav.Link>
         </Nav.Item>
@@ -704,6 +715,12 @@ export default function SettingsPage(props) {
             />
           ) : null}
         </Tab.Pane>
+
+        {showMusicCollectionTab ? (
+          <Tab.Pane eventKey={TAB_MUSIC_COLLECTION}>
+            <MusicCollectionSettingsSection accessToken={accessToken} />
+          </Tab.Pane>
+        ) : null}
 
         <Tab.Pane eventKey={TAB_PEDAL}>
           <div className="app-surface-panel App-settings-section">

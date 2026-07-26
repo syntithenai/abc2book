@@ -89,25 +89,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Instrumental dance music dominates pub sessions, but **song** carries much of Ireland's emotional and narrative weight. The genres lesson (Tier 4) goes deeper; here is orientation.\n\n**Sean-nós** (\"old style\") is unaccompanied, highly ornamented singing, often in Irish. Each singer's phrasing is personal; metre may stretch across bar lines. Regional styles differ — Connemara, Donegal, Munster — and the best performances sound like speech heightened into music, not like pop vocals with an Irish accent.\n\n**English-language ballads** tell stories: emigration, love, politics, humour. *The Wild Rover* and *The Fields of Athenry* are pub standards; older narrative ballads preserve local history in verse.\n\n**Drinking songs** (*weila weila*, *Molly Malone*, *Whiskey in the Jar*) fuel social singing. They are not the sum of Irish song — reducing Ireland to \"drinking songs\" annoys serious singers — but they belong in the picture.\n\n**Laments** (*caoineadh*) express grief for the dead or for exile. Slow airs on fiddle or pipes often trace lament melodies. The oral tradition preserved keening practices that blurred song and ritual. A lament performed well can silence a noisy room — which is why singers sometimes save them for concerts or dedicated song sessions rather than mixed instrumental nights.\n\n**Come-all-ye** and **street ballads** circulated on broadsheets and later through radio; they share narrative DNA with older Gaelic story-songs. **Comic songs** (*The Irish Rover*, *Seven Drunken Nights*) balance the tragic repertoire in pub singalongs. Teachers often remind students that Ireland's song wealth is not only melancholy — wit and wordplay are traditional too.\n\nSong and dance repertoires overlap: "
-        },
-        {
-          "type": "track",
-          "id": "rocky-road-dublin",
-          "label": "The Rocky Road to Dublin"
-        },
-        {
-          "type": "markdown",
-          "text": " exists as both vocal narrative and instrumental set; "
-        },
-        {
-          "type": "track",
-          "id": "planxty-irwin",
-          "label": "Planxty Irwin"
-        },
-        {
-          "type": "markdown",
-          "text": " began as Carolan's tribute to a patron and became a session tune. Knowing which side of the river you are on — singer's story or dancer's pulse — prevents category errors.\n\n**Lilting** (*portaireacht*) is wordless mouth music imitating fiddle or pipe rhythm — useful when no instrument is handy and a feature of house entertainment.\n\nEarly Irish poetry connects to this stream. The sixth-century hymn **Rop tú mo baile** by Dallán Forgaill, published in English in 1905 as **Be Thou My Vision**, and medieval lyrics like **The Blackbird of Belfast Lough** (*Int én bec*) bridge sacred verse and the later air tradition. You will meet that deep history in Lesson 6."
+          "text": "Instrumental dance music dominates pub sessions, but **song** carries much of Ireland's emotional and narrative weight. The genres lesson (Tier 4) goes deeper; here is orientation.\n\n**Sean-nós** (\"old style\") is unaccompanied, highly ornamented singing, often in Irish. Each singer's phrasing is personal; metre may stretch across bar lines. Regional styles differ — Connemara, Donegal, Munster — and the best performances sound like speech heightened into music, not like pop vocals with an Irish accent.\n\n**English-language ballads** tell stories: emigration, love, politics, humour. *The Wild Rover* and *The Fields of Athenry* are pub standards; older narrative ballads preserve local history in verse.\n\n**Drinking songs** (*weila weila*, *Molly Malone*, *Whiskey in the Jar*) fuel social singing. They are not the sum of Irish song — reducing Ireland to \"drinking songs\" annoys serious singers — but they belong in the picture.\n\n**Laments** (*caoineadh*) express grief for the dead or for exile. Slow airs on fiddle or pipes often trace lament melodies. The oral tradition preserved keening practices that blurred song and ritual. A lament performed well can silence a noisy room — which is why singers sometimes save them for concerts or dedicated song sessions rather than mixed instrumental nights.\n\n**Come-all-ye** and **street ballads** circulated on broadsheets and later through radio; they share narrative DNA with older Gaelic story-songs. **Comic songs** (*The Irish Rover*, *Seven Drunken Nights*) balance the tragic repertoire in pub singalongs. Teachers often remind students that Ireland's song wealth is not only melancholy — wit and wordplay are traditional too.\n\nSong and dance repertoires overlap: [[track:rocky-road-dublin|The Rocky Road to Dublin]] exists as both vocal narrative and instrumental set; [[track:planxty-irwin|Planxty Irwin]] began as Carolan's tribute to a patron and became a session tune. Knowing which side of the river you are on — singer's story or dancer's pulse — prevents category errors.\n\n**Lilting** (*portaireacht*) is wordless mouth music imitating fiddle or pipe rhythm — useful when no instrument is handy and a feature of house entertainment.\n\nEarly Irish poetry connects to this stream. The sixth-century hymn **Rop tú mo baile** by Dallán Forgaill, published in English in 1905 as **Be Thou My Vision**, and medieval lyrics like **The Blackbird of Belfast Lough** (*Int én bec*) bridge sacred verse and the later air tradition. You will meet that deep history in Lesson 6."
         }
       ]
     },
@@ -253,33 +235,33 @@
       "id": "session-ennis",
       "entity_id": "comhaltas",
       "label": "Pub session footage",
-      "youtube": "https://www.youtube.com/watch?v=H1QldbqXh8I",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
       "subtitle": "Comhaltas Ceoltóirí Éireann"
     },
     {
       "id": "fleadh-stage",
       "entity_id": "fleadh",
       "label": "Fleadh stage performance",
-      "youtube": "https://www.youtube.com/watch?v=6x0c3R6Lz5Y",
+      "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY",
       "subtitle": "Fleadh Cheoil na hÉireann"
     },
     {
       "id": "sean-nos-sample",
       "entity_id": "itma",
       "label": "Sean-nós singing sample",
-      "youtube": "https://www.youtube.com/watch?v=0qanF-91aEs",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
       "subtitle": "Irish Traditional Music Archive"
     },
     {
       "id": "rocky-road-dublin",
       "label": "The Rocky Road to Dublin",
-      "youtube": "https://www.youtube.com/watch?v=u7n8j7Q6BfM",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
       "subtitle": ""
     },
     {
       "id": "planxty-irwin",
       "label": "Planxty Irwin",
-      "youtube": "https://www.youtube.com/watch?v=0n3aXvZgY2c",
+      "youtube": "https://www.youtube.com/watch?v=f5Q1zQr3pBk",
       "subtitle": ""
     }
   ],

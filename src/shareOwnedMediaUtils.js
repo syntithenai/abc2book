@@ -3,6 +3,11 @@ import {
   getOwnedMediaSyncStatus,
   uploadOwnedMediaLinksForTune,
 } from './linkRecording'
+import { uploadCollectionLinksForTune } from './musicCollectionShare'
+import {
+  isShareableCollectionLink,
+  getCollectionLinkSyncStatus,
+} from './musicCollectionLinkUtils'
 import {
   collectTuneFilesForShareScope,
   uploadPendingTuneFilesInScope,
@@ -112,6 +117,57 @@ function collectScopedOwnedMediaLinkIndices(tunes, scope, tuneId) {
     if (isOwnedMediaLink(link)) indices.push(linkIndex)
   })
   return indices
+}
+
+function collectScopedCollectionLinkIndices(tunes, scope, tuneId) {
+  const tune = tunes && tunes[tuneId]
+  if (!tune || !Array.isArray(tune.links)) return []
+
+  const scopedLinkIndex = linkIndexForTuneInScope(tunes, scope, tuneId)
+  if (scopedLinkIndex != null) {
+    const link = tune.links[scopedLinkIndex]
+    return isShareableCollectionLink(link) ? [scopedLinkIndex] : []
+  }
+
+  const indices = []
+  tune.links.forEach(function(link, linkIndex) {
+    if (isShareableCollectionLink(link)) indices.push(linkIndex)
+  })
+  return indices
+}
+
+export function collectCollectionMediaForShareScope(tunes, scope) {
+  const tuneIds = collectTuneIdsInScope(tunes, scope)
+  const entries = []
+  const seen = {}
+
+  tuneIds.forEach(function(tuneId) {
+    const tune = tunes && tunes[tuneId]
+    if (!tune || !Array.isArray(tune.links)) return
+
+    const scopedLinkIndex = linkIndexForTuneInScope(tunes, scope, tuneId)
+    tune.links.forEach(function(link, linkIndex) {
+      if (!isShareableCollectionLink(link)) return
+      if (scopedLinkIndex != null && scopedLinkIndex !== linkIndex) return
+
+      const key = 'collection:' + tuneId + ':' + linkIndex + ':' + String(link.link || '')
+      if (seen[key]) return
+      seen[key] = true
+
+      entries.push({
+        tuneId: tuneId,
+        tuneName: tune.name || tuneId,
+        linkIndex: linkIndex,
+        linkTitle: link.title || ('Link ' + (linkIndex + 1)),
+        link: link,
+        status: getCollectionLinkSyncStatus(link),
+        alreadyPublic: false,
+        kind: 'collection',
+      })
+    })
+  })
+
+  return entries
 }
 
 export function collectOwnedMediaForShareScope(tunes, scope) {
@@ -435,10 +491,15 @@ function emitShareMediaProgress(opts, progress) {
 
 export function summarizeShareMediaWork(tunes, scope) {
   const entries = collectOwnedMediaForShareScope(tunes, scope)
+  const collectionEntries = collectCollectionMediaForShareScope(tunes, scope)
   const tuneIds = collectTuneIdsInScope(tunes, scope)
   const fileEntries = collectTuneFilesForShareScope(tunes, tuneIds)
   let needsUpload = 0
   let needsPublic = 0
+
+  collectionEntries.forEach(function() {
+    needsUpload += 1
+  })
 
   entries.forEach(function(entry) {
     const status = entry.status || getOwnedMediaSyncStatus(entry.link)
@@ -460,22 +521,122 @@ export function summarizeShareMediaWork(tunes, scope) {
 
   return {
     entries: entries,
+    collectionEntries: collectionEntries,
     fileEntries: fileEntries,
-    displayItems: entries.map(function(entry) {
+    displayItems: collectionEntries.map(function(entry) {
+      return {
+        tuneName: entry.tuneName,
+        label: entry.linkTitle + ' (library track)',
+      }
+    }).concat(entries.map(function(entry) {
       return {
         tuneName: entry.tuneName,
         label: entry.linkTitle,
       }
-    }).concat(fileEntries.map(function(entry) {
+    })).concat(fileEntries.map(function(entry) {
       return {
         tuneName: entry.tuneName,
         label: entry.fileName,
       }
     })),
-    totalItems: entries.length + fileEntries.length,
+    totalItems: entries.length + collectionEntries.length + fileEntries.length,
     needsUpload: needsUpload,
     needsPublic: needsPublic,
     hasWork: needsUpload > 0 || needsPublic > 0,
+  }
+}
+
+export async function uploadPendingCollectionMediaInScope(tunes, scope, options) {
+  const opts = options || {}
+  const token = opts.token
+  const driveApi = opts.driveApi
+  const saveTune = opts.saveTune
+  if (!token || !driveApi) {
+    emitShareMediaEvent(opts, {
+      type: 'error',
+      message: 'Log in with Google to upload library tracks to Drive.',
+    })
+    return { tunes: tunes, uploaded: 0, errors: ['Log in with Google to upload library tracks to Drive.'] }
+  }
+
+  const tuneIds = collectTuneIdsInScope(tunes, scope)
+  let uploaded = 0
+  const errors = []
+  const nextTunes = Object.assign({}, tunes || {})
+  const uploadTasks = []
+
+  tuneIds.forEach(function(tuneId) {
+    const tune = nextTunes[tuneId]
+    if (!tune) return
+    const linkIndices = collectScopedCollectionLinkIndices(nextTunes, scope, tuneId)
+    linkIndices.forEach(function(linkIndex) {
+      const link = tune.links && tune.links[linkIndex]
+      if (!isShareableCollectionLink(link)) return
+      uploadTasks.push({
+        tuneId: tuneId,
+        tuneName: tune.name || tuneId,
+        linkIndex: linkIndex,
+        title: link.title || ('Link ' + (linkIndex + 1)),
+      })
+    })
+  })
+
+  const totalUploadSteps = uploadTasks.length
+  let uploadStep = 0
+
+  for (let i = 0; i < tuneIds.length; i += 1) {
+    const tuneId = tuneIds[i]
+    const tune = nextTunes[tuneId]
+    if (!tune) continue
+    const linkIndices = collectScopedCollectionLinkIndices(nextTunes, scope, tuneId)
+    if (linkIndices.length === 0) continue
+
+    for (let j = 0; j < linkIndices.length; j += 1) {
+      const linkIndex = linkIndices[j]
+      const link = tune.links && tune.links[linkIndex]
+      if (!isShareableCollectionLink(link)) continue
+      uploadStep += 1
+      emitShareMediaProgress(opts, {
+        phase: 'upload',
+        current: uploadStep,
+        total: Math.max(totalUploadSteps, uploadStep),
+        message: 'Uploading library track "' + (link.title || 'audio') + '" for ' + (tune.name || tuneId) + '…',
+        fileName: link.title || '',
+      })
+      emitShareMediaEvent(opts, {
+        type: 'info',
+        message: 'Uploading library track "' + (link.title || 'audio') + '" (' + (tune.name || tuneId) + ')…',
+      })
+    }
+
+    const result = await uploadCollectionLinksForTune(tune, {
+      token: token,
+      driveApi: driveApi,
+      linkIndices: linkIndices,
+    })
+    if (result.uploaded) {
+      uploaded += result.uploaded
+      emitShareMediaEvent(opts, {
+        type: 'success',
+        message: 'Uploaded ' + result.uploaded + ' library track' + (result.uploaded === 1 ? '' : 's') + ' for ' + (tune.name || tuneId) + '.',
+      })
+    }
+    if (result.errors && result.errors.length) {
+      errors.push.apply(errors, result.errors)
+      result.errors.forEach(function(error) {
+        emitShareMediaEvent(opts, { type: 'error', message: error })
+      })
+    }
+    if (result.tune) {
+      nextTunes[tuneId] = result.tune
+      if (typeof saveTune === 'function') saveTune(result.tune)
+    }
+  }
+
+  return {
+    tunes: nextTunes,
+    uploaded: uploaded,
+    errors: errors,
   }
 }
 
@@ -659,6 +820,15 @@ export async function prepareOwnedMediaForShare(tunes, scope, options) {
   })
 
   let workingTunes = Object.assign({}, tunes || {})
+  const collectionUploadResult = await uploadPendingCollectionMediaInScope(workingTunes, scope, {
+    token: opts.token,
+    driveApi: driveApi,
+    saveTune: opts.saveTune,
+    onEvent: opts.onEvent,
+    onProgress: opts.onProgress,
+  })
+  workingTunes = collectionUploadResult.tunes
+
   const uploadResult = await uploadPendingOwnedMediaInScope(workingTunes, scope, {
     token: opts.token,
     driveApi: driveApi,
@@ -685,8 +855,8 @@ export async function prepareOwnedMediaForShare(tunes, scope, options) {
     notUploadable: [],
     alreadyPublic: 0,
     cancelled: 0,
-    uploaded: uploadResult.uploaded || 0,
-    uploadErrors: uploadResult.errors || [],
+    uploaded: (collectionUploadResult.uploaded || 0) + (uploadResult.uploaded || 0),
+    uploadErrors: (collectionUploadResult.errors || []).concat(uploadResult.errors || []),
   }
 
   const publicTasks = []

@@ -80,14 +80,13 @@ describe('chromeZoomGuard', function() {
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.App-header')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.music-buttons')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.music-editor-buttons')
-    expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.notation-editing-controls-main')
+    expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.notation-editing-controls')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.notation-nonstaff-controls-main')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.abc-editor-lyrics-toolbar')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.links-editor-toolbar')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.chords-wizard-toolbar')
-    expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.scratchpad-toolbar')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.scratchpad-editor-chrome')
-    expect(CHROME_ZOOM_GUARD_SELECTORS).toHaveLength(10)
+    expect(CHROME_ZOOM_GUARD_SELECTORS).toHaveLength(9)
   })
 
   it('updates scale variables from visualViewport pinch zoom', function() {

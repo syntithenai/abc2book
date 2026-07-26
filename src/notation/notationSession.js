@@ -4,6 +4,7 @@ import {
   MIDI_CHORD_MODES,
   NOTE_INPUT_METHODS,
   PIANO_ROLL_TOOLS,
+  STAFF_SELECTION_TOOLS,
   DEFAULT_MIDI_CHORD_WINDOW_MS,
 } from './notationConstants';
 import { parseVoiceEvents, createEventId, cloneVoiceEvent, eventMelodicMidiPitch } from './voiceEventModel';
@@ -93,6 +94,7 @@ export function createInitialSession(tuneMeta, voiceBody) {
     accidentalCarry: null,
     chordBuild: false,
     lastEvent: null,
+    fillMeasures: true,
     midiEnabled: false,
     midiInputId: null,
     midiChordMode: MIDI_CHORD_MODES.SINGLE,
@@ -107,6 +109,7 @@ export function createInitialSession(tuneMeta, voiceBody) {
     snapSlotsPerBeat: 4,
     snapEnabled: true,
     pianoRollTool: PIANO_ROLL_TOOLS.SELECT,
+    staffSelectionTool: STAFF_SELECTION_TOOLS.NORMAL,
     pianoRollZoom: { beatWidth: 48, rowHeight: 14 },
     pianoRollShowWaveform: true,
     lastEditedView: EDITOR_VIEWS.STAFF,
@@ -138,6 +141,7 @@ export function notationSessionReducer(state, action) {
         selection: preservedSelection,
         pianoRollZoom: state.pianoRollZoom,
         pianoRollTool: state.pianoRollTool,
+        staffSelectionTool: state.staffSelectionTool,
         pianoRollShowWaveform: state.pianoRollShowWaveform,
         snapSlotsPerBeat: state.snapSlotsPerBeat,
         snapEnabled: state.snapEnabled,
@@ -145,6 +149,7 @@ export function notationSessionReducer(state, action) {
         midiInputId: state.midiInputId,
         midiChordMode: state.midiChordMode,
         midiChordWindowMs: state.midiChordWindowMs,
+        fillMeasures: state.fillMeasures,
       });
     }
     case 'SET_MODE':

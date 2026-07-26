@@ -2,7 +2,7 @@
  * Bulk title-list import tools for Add chrome.
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Alert, Button, Form, ProgressBar } from 'react-bootstrap';
+import { Alert, Button, Form, ProgressBar, Spinner } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 import DriveFilePickerModal from './DriveFilePickerModal';
 import BulkYouTubePlaylistModal from './BulkYouTubePlaylistModal';
@@ -19,8 +19,10 @@ import { setPendingAbcImportBatch } from '../abcImportBatchStore';
 import {
   assessBulkTextSufficiency,
   bulkImportDisabledReason,
-  insufficientBulkLineDetails,
+  filterImportableBulkText,
+  focusBulkTextareaLine,
 } from '../bulkLineSufficiency';
+import { retidyBulkText } from '../bulkTextTidy';
 import {
   requestImportReview,
   showImportReviewUi,
@@ -31,28 +33,63 @@ import { asImportReviewChrome } from '../importReviewSession';
 import useAbcjsParser from '../useAbcjsParser';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import useGoogleDocument from '../useGoogleDocument';
+import {
+  getBulkImportText,
+  setBulkImportText,
+} from '../addBulkImportTextStore';
+import { enrichBulkImportCandidates } from '../bulkImportEnhance';
+import { classifyImportOutcome } from '../importIntakePolicy';
 
-const BULK_TEXT_STORAGE_KEY = 'addSongModal_bulkText';
 const DEFAULT_BOOK = 'songs';
+const BULK_ENHANCE_STORAGE_KEY = 'addSongModal_bulkEnhance';
+
+function BulkImportStatEntryList(props) {
+  const entries = Array.isArray(props.entries) ? props.entries : [];
+  if (!entries.length) return null;
+  return entries.map(function(entry, index) {
+    return (
+      <span key={entry.lineIndex + '-' + index}>
+        {index > 0 ? ', ' : null}
+        <button
+          type="button"
+          className="btn btn-link btn-sm p-0 align-baseline bulk-import-stat-link"
+          onClick={function() {
+            if (typeof props.onSelectLine === 'function') props.onSelectLine(entry.lineIndex);
+          }}
+          title={'Go to line ' + entry.lineNumber}
+        >
+          {entry.label}
+        </button>
+      </span>
+    );
+  });
+}
 
 export default function AddBulkImportPanel(props) {
   const abcjsParser = useAbcjsParser();
   const { available: resolverAvailable } = useMediaResolverHealth();
   const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh);
   const bulkFileInputRef = useRef(null);
+  const bulkTextareaRef = useRef(null);
 
   const [bulkText, setBulkText] = useState(function() {
-    try {
-      return sessionStorage.getItem(BULK_TEXT_STORAGE_KEY) || '';
-    } catch (e) {
-      return '';
-    }
+    return getBulkImportText();
   });
   const [bulkBusy, setBulkBusy] = useState(false);
   const [audioImportBusy, setAudioImportBusy] = useState(false);
   const [importError, setImportError] = useState('');
   const [pendingBulkAudioFiles, setPendingBulkAudioFiles] = useState([]);
   const [showAudioDriveUploadModal, setShowAudioDriveUploadModal] = useState(false);
+  const [enhanceEnabled, setEnhanceEnabled] = useState(function() {
+    try {
+      return sessionStorage.getItem(BULK_ENHANCE_STORAGE_KEY) === '1';
+    } catch (e) {
+      return false;
+    }
+  });
+  const [enhanceBusy, setEnhanceBusy] = useState(false);
+  const [enhanceProgress, setEnhanceProgress] = useState('');
+  const [enhanceProgressDetail, setEnhanceProgressDetail] = useState(null);
 
   const book = props.currentTuneBook || DEFAULT_BOOK;
 
@@ -72,16 +109,21 @@ export default function AddBulkImportPanel(props) {
     return assessBulkTextSufficiency(bulkText);
   }, [bulkText]);
   const importDisabledReason = bulkImportDisabledReason(sufficiency);
-  const insufficientDetails = useMemo(function() {
-    return insufficientBulkLineDetails(sufficiency);
-  }, [sufficiency]);
-  const importEnabled = sufficiency.sufficient && !audioImportBusy;
+  const importEnabled = sufficiency.importableCount > 0 && !audioImportBusy && !enhanceBusy;
 
   useEffect(function() {
     try {
-      if (bulkText) sessionStorage.setItem(BULK_TEXT_STORAGE_KEY, bulkText);
-      else sessionStorage.removeItem(BULK_TEXT_STORAGE_KEY);
+      if (enhanceEnabled) sessionStorage.setItem(BULK_ENHANCE_STORAGE_KEY, '1');
+      else sessionStorage.removeItem(BULK_ENHANCE_STORAGE_KEY);
     } catch (e) {}
+  }, [enhanceEnabled]);
+
+  useEffect(function() {
+    setBulkImportText(bulkText);
+  }, [bulkText]);
+
+  const focusBulkTextLine = useCallback(function(lineIndex) {
+    focusBulkTextareaLine(bulkTextareaRef.current, bulkText, lineIndex);
   }, [bulkText]);
 
   function appendBulkLines(lines) {
@@ -97,14 +139,56 @@ export default function AddBulkImportPanel(props) {
     if (!Array.isArray(candidates) || candidates.length === 0) return;
     setImportError('');
     setAudioImportBusy(false);
-    requestImportReview(candidates, options || { entryMode: 'import' });
+    const forcedBook = props.forcedBook ? String(props.forcedBook).trim().toLowerCase() : '';
+    requestImportReview(candidates, Object.assign({}, options || { entryMode: 'import' }, {
+      forcedBook: forcedBook,
+    }));
     const current = getImportReviewSession();
-    if (current && current.entryMode === 'add') {
-      setImportReviewSession(asImportReviewChrome(current));
+    if (current) {
+      let next = current.entryMode === 'add' ? asImportReviewChrome(current) : current;
+      if (forcedBook && !next.forcedBook) {
+        next = Object.assign({}, next, { forcedBook: forcedBook });
+      }
+      if (next !== current) setImportReviewSession(next);
     }
     showImportReviewUi();
     if (typeof props.onStartedReview === 'function') props.onStartedReview();
   }, [props]);
+
+  async function openBulkReview(candidates) {
+    let list = Array.isArray(candidates) ? candidates.slice() : [];
+    if (!list.length) return;
+
+    if (enhanceEnabled) {
+      setEnhanceBusy(true);
+      setEnhanceProgress('');
+      setEnhanceProgressDetail(null);
+      try {
+        list = await enrichBulkImportCandidates(list, {
+          tunebook: props.tunebook,
+          abcjsParser: abcjsParser,
+          accessToken: props.token && props.token.access_token ? props.token.access_token : '',
+          resolverAvailable: resolverAvailable,
+          searchIndex: props.searchIndex,
+          loadTuneTexts: props.loadTuneTexts,
+          onProgress: function(info) {
+            const message = info && info.message ? info.message : '';
+            setEnhanceProgress(message);
+            setEnhanceProgressDetail(info || null);
+          },
+        });
+        toast.success('Enhanced ' + list.length + ' song' + (list.length === 1 ? '' : 's') + ' before review');
+      } catch (e) {
+        toast.warn((e && e.message) || 'Some enhancements failed — opening review anyway.');
+      } finally {
+        setEnhanceBusy(false);
+        setEnhanceProgress('');
+        setEnhanceProgressDetail(null);
+      }
+    }
+
+    startImportReview(list);
+  }
 
   async function normalizeBulkText(text) {
     if (resolverAvailable && props.token && props.token.access_token) {
@@ -126,7 +210,8 @@ export default function AddBulkImportPanel(props) {
     setBulkBusy(true);
     setImportError('');
     try {
-      const normalized = await normalizeBulkText(bulkText);
+      const tidied = retidyBulkText(bulkText);
+      const normalized = await normalizeBulkText(tidied);
       const result = await prepareBulkTextIntoTextarea(normalized, {
         tunebook: props.tunebook,
         book: book,
@@ -144,7 +229,7 @@ export default function AddBulkImportPanel(props) {
       }
       if (parts.length) {
         toast.success('Prepared: filled ' + parts.join(', '));
-      } else if (normalized !== bulkText) {
+      } else if (normalized !== tidied || tidied !== bulkText) {
         toast.info('Cleaned up lines');
       } else {
         toast.info('No YouTube matches to fill — add artist or a link on incomplete lines');
@@ -195,20 +280,33 @@ export default function AddBulkImportPanel(props) {
     setAudioImportBusy(true);
     setImportError('');
     try {
-      const filled = await prepareBulkTextIntoTextarea(bulkText, {
+      const tidied = retidyBulkText(bulkText);
+      const filtered = filterImportableBulkText(tidied);
+      if (filtered.text !== bulkText) setBulkText(filtered.text);
+      if (filtered.skipped > 0) {
+        toast.info('Skipped ' + filtered.skipped + ' unimportable line' + (filtered.skipped === 1 ? '' : 's'));
+      }
+      const filled = await prepareBulkTextIntoTextarea(filtered.text, {
         tunebook: props.tunebook,
         book: book,
         searchYouTube: true,
       });
-      if (filled.text !== bulkText) setBulkText(filled.text);
+      if (filled.text !== filtered.text) setBulkText(filled.text);
       if (filled.prepared && filled.prepared.length) {
-        startImportReview(filled.prepared);
+        await openBulkReview(filled.prepared);
         if (filled.filled > 0 || filled.enriched > 0) {
-          toast.success('Opened review with YouTube details filled where possible');
+          toast.info('Filled YouTube details where possible');
         }
+        setAudioImportBusy(false);
         return;
       }
-      const result = await dispatchAddImport(bulkText, Object.assign({}, importContext, { bulkMode: true }));
+      const result = await dispatchAddImport(filtered.text, Object.assign({}, importContext, { bulkMode: true }));
+      if (result && result.action === 'review') {
+        const classified = classifyImportOutcome(result.candidates || [], importContext);
+        await openBulkReview(classified.candidates || []);
+        setAudioImportBusy(false);
+        return;
+      }
       const keepBusy = await applyBulkImportResult(result);
       if (!keepBusy) setAudioImportBusy(false);
     } catch (e) {
@@ -306,88 +404,168 @@ export default function AddBulkImportPanel(props) {
       </p>
       {importError ? <Alert variant="danger">{importError}</Alert> : null}
       <div
-        className="d-flex flex-wrap gap-2 align-items-center justify-content-between"
+        className="d-flex flex-wrap gap-2 align-items-stretch"
         data-testid="bulk-toolbar"
       >
-        <div className="d-flex flex-wrap gap-2 align-items-center" data-testid="bulk-sources">
-          <div style={{ display: 'inline-flex', flexDirection: 'column', alignItems: 'stretch' }}>
-            <Button
-              variant="outline-primary"
-              disabled={audioImportBusy}
-              onClick={function() { bulkFileInputRef.current && bulkFileInputRef.current.click(); }}
-            >
-              {audioImportBusy ? 'Processing files...' : 'File'}
-            </Button>
-            {audioImportBusy ? (
-              <ProgressBar
-                animated
-                striped
-                now={100}
-                style={{ marginTop: '0.35em', height: '0.45em', minWidth: '10em', width: '100%' }}
-              />
-            ) : null}
+        <div className="add-bulk-toolbar-block" data-testid="bulk-sources">
+          <span className="small text-muted d-block mb-1">Select</span>
+          <div className="d-flex flex-wrap gap-2 align-items-center">
+            <div style={{ display: 'inline-flex', flexDirection: 'column', alignItems: 'stretch' }}>
+              <Button
+                variant="outline-primary"
+                disabled={audioImportBusy}
+                onClick={function() { bulkFileInputRef.current && bulkFileInputRef.current.click(); }}
+              >
+                {audioImportBusy ? 'Processing files...' : 'File'}
+              </Button>
+              {audioImportBusy ? (
+                <ProgressBar
+                  animated
+                  striped
+                  now={100}
+                  style={{ marginTop: '0.35em', height: '0.45em', minWidth: '10em', width: '100%' }}
+                />
+              ) : null}
+            </div>
+            <DriveFilePickerModal
+              label="Drive"
+              title="Load list from Google Drive"
+              token={props.token}
+              driveApi={driveApi}
+              login={props.login}
+              requestGoogleScopes={props.requestGoogleScopes}
+              mimeTypes={[
+                'text/plain',
+                'text/csv',
+                'application/vnd.google-apps.document',
+                'application/vnd.google-apps.spreadsheet',
+              ]}
+              onFileText={function(text) { appendBulkLines(driveListTextToBulkLines(text)); }}
+            />
+            <BulkYouTubePlaylistModal onLines={appendBulkLines} disabled={audioImportBusy} />
           </div>
-          <DriveFilePickerModal
-            label="Drive"
-            title="Load list from Google Drive"
-            token={props.token}
-            driveApi={driveApi}
-            login={props.login}
-            requestGoogleScopes={props.requestGoogleScopes}
-            mimeTypes={[
-              'text/plain',
-              'text/csv',
-              'application/vnd.google-apps.document',
-              'application/vnd.google-apps.spreadsheet',
-            ]}
-            onFileText={function(text) { appendBulkLines(driveListTextToBulkLines(text)); }}
-          />
-          <BulkYouTubePlaylistModal onLines={appendBulkLines} disabled={audioImportBusy} />
         </div>
-        <div className="d-flex flex-wrap gap-2 align-items-center ms-auto" data-testid="bulk-actions">
+        <div className="add-bulk-toolbar-block" data-testid="bulk-prepare-block">
+          <span className="small text-muted d-block mb-1">Prepare</span>
           <Button
             variant="outline-success"
-            disabled={bulkBusy || audioImportBusy || !bulkText.trim()}
+            disabled={bulkBusy || audioImportBusy || enhanceBusy || !bulkText.trim()}
             onClick={handleBulkPrepare}
             title="Clean up lines and fill missing YouTube links / title / artist"
             data-testid="bulk-prepare"
           >
             {bulkBusy ? 'Preparing…' : 'Prepare'}
           </Button>
-          <Button
-            variant="success"
-            disabled={!importEnabled}
-            onClick={handleBulkImport}
-            data-testid="bulk-import"
-          >
-            Import
-          </Button>
+        </div>
+        <div className="add-bulk-toolbar-block ms-auto" data-testid="bulk-actions">
+          <span className="small text-muted d-block mb-1">Import</span>
+          <div className="d-flex flex-wrap gap-2 align-items-center">
+            <Form.Check
+              type="checkbox"
+              id="bulk-import-enhance"
+              data-testid="bulk-import-enhance"
+              className="mb-0 text-nowrap"
+              label="Enhance"
+              title="Search for chords, lyrics, and notation for each song before opening review"
+              checked={enhanceEnabled}
+              disabled={enhanceBusy || audioImportBusy || bulkBusy}
+              onChange={function(e) { setEnhanceEnabled(!!e.target.checked); }}
+            />
+            <Button
+              variant="success"
+              disabled={!importEnabled}
+              onClick={handleBulkImport}
+              data-testid="bulk-import"
+              title={enhanceBusy && enhanceProgress ? enhanceProgress : undefined}
+            >
+              {enhanceBusy ? (
+                <>
+                  <Spinner animation="border" size="sm" className="me-1" aria-hidden="true" />
+                  Enhancing…
+                </>
+              ) : 'Import'}
+            </Button>
+          </div>
+          {enhanceBusy && enhanceProgress ? (
+            <div className="small text-muted mt-1 mb-0" data-testid="bulk-enhance-progress" role="status">
+              {enhanceProgress}
+              {enhanceProgressDetail && enhanceProgressDetail.total > 0 ? (
+                <ProgressBar
+                  className="mt-1"
+                  now={Math.round((enhanceProgressDetail.index / enhanceProgressDetail.total) * 100)}
+                  label={enhanceProgressDetail.index + '/' + enhanceProgressDetail.total}
+                  visuallyHidden
+                  style={{ height: '0.45em' }}
+                />
+              ) : null}
+            </div>
+          ) : null}
         </div>
       </div>
       {!importEnabled && bulkText.trim() ? (
         <div className="text-warning small mt-2 mb-0" data-testid="bulk-import-warning">
-          <div>{importDisabledReason || 'Add artist or a YouTube link on each line, or run Prepare.'}</div>
-          {insufficientDetails.length > 0 ? (
-            <ul className="mb-0 mt-1 ps-3" data-testid="bulk-import-missing-lines">
-              {insufficientDetails.map(function(detail) {
-                return <li key={detail}>{detail}</li>;
-              })}
-            </ul>
-          ) : null}
+          <div>{importDisabledReason || 'Add a title and an artist or YouTube link on at least one line.'}</div>
         </div>
       ) : null}
       <p className="text-muted small mt-2 mb-0">
-        Prepare cleans up lines and fills high-confidence YouTube links plus missing title/artist from YouTube.
-        Import opens review when every line has a title and an artist or link.
+        Prepare tidies YouTube-style titles, fills links, and enriches missing title/artist from YouTube.
+        Import opens review for importable lines (title plus artist or link); unimportable lines are skipped.
+        With Enhance checked, chords, lyrics, and notation are looked up for each song before review.
       </p>
+      {sufficiency.rowCount > 0 ? (
+        <div className="small mt-2 mb-0 text-muted" data-testid="bulk-import-stats">
+          <div data-testid="bulk-import-stat-rows">
+            {sufficiency.rowCount} row{sufficiency.rowCount === 1 ? '' : 's'}
+          </div>
+          {sufficiency.missingTitleCount > 0 ? (
+            <div className="mt-1" data-testid="bulk-import-stat-missing-title">
+              Missing title ({sufficiency.missingTitleCount}):{' '}
+              <BulkImportStatEntryList
+                entries={sufficiency.missingTitleEntries}
+                onSelectLine={focusBulkTextLine}
+              />
+            </div>
+          ) : null}
+          {sufficiency.missingArtistCount > 0 ? (
+            <div className="mt-1" data-testid="bulk-import-stat-missing-artist">
+              Missing artist ({sufficiency.missingArtistCount}):{' '}
+              <BulkImportStatEntryList
+                entries={sufficiency.missingArtistEntries}
+                onSelectLine={focusBulkTextLine}
+              />
+            </div>
+          ) : null}
+          {sufficiency.missingLinkCount > 0 ? (
+            <div className="mt-1" data-testid="bulk-import-stat-missing-link">
+              Missing link ({sufficiency.missingLinkCount}):{' '}
+              <BulkImportStatEntryList
+                entries={sufficiency.missingLinkEntries}
+                onSelectLine={focusBulkTextLine}
+              />
+            </div>
+          ) : null}
+          {sufficiency.unimportableCount > 0 ? (
+            <div className="mt-1 text-warning" data-testid="bulk-import-stat-unimportable">
+              Unimportable ({sufficiency.unimportableCount}, skipped on import):{' '}
+              <BulkImportStatEntryList
+                entries={sufficiency.unimportableEntries}
+                onSelectLine={focusBulkTextLine}
+              />
+            </div>
+          ) : null}
+        </div>
+      ) : null}
       <Form.Control
+        ref={bulkTextareaRef}
         as="textarea"
         rows={18}
+        wrap="off"
         className="mt-3"
         value={bulkText}
         onChange={function(e) { setBulkText(e.target.value); }}
+        data-testid="bulk-import-textarea"
         placeholder={'Whiskey in the Jar\nThe Wild Rover by The Dubliners | https://www.youtube.com/watch?v=...'}
-        style={{ fontFamily: 'monospace', fontSize: '1.05em' }}
+        style={{ fontFamily: 'monospace', fontSize: '1.05em', overflowX: 'auto', whiteSpace: 'pre' }}
       />
       <input
         ref={bulkFileInputRef}

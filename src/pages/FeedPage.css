@@ -2,29 +2,25 @@
   width: 100%;
   max-width: 70%;
   margin: 0 auto;
-  padding: 4.5rem 1rem 4rem;
+  padding: 1rem 1rem 4rem;
   min-height: 100vh;
 }
 
 @media (max-width: 768px) {
   .feed-page {
     max-width: 100%;
-    padding-top: 4rem;
   }
 }
 
 .feed-feedback-toolbar {
-  position: fixed;
-  top: 4.25rem;
-  right: 0.75rem;
-  z-index: 6;
   display: flex;
   align-items: stretch;
-  border: 1px solid #6c757d;
+  border: 1px solid #ced4da;
   border-radius: 999px;
   background: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
   overflow: hidden;
+  min-height: var(--lessons-action-btn-height, 2.25rem);
 }
 
 .feed-feedback-download {

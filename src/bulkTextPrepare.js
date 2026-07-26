@@ -1,12 +1,14 @@
 /**
- * Prepare bulk text lines into review candidates with optional cautious YouTube preselection.
+ * Prepare bulk text lines into review candidates with optional cautious media preselection.
  */
 import { parseBulkLine, formatBulkLine, bulkLinesToCandidates } from './bulkListFormat';
 import {
   searchYouTubeVideos,
   fetchYouTubeOembedMetadata,
 } from './youtubeSearchClient';
+import { searchMusicCollection } from './musicCollectionSearchClient';
 import { parseTitleArtistFromYouTubeLabel } from './youtubeTitleParse';
+import { retidyBulkText } from './bulkTextTidy';
 import { applyIntakePolicyToCandidates } from './importIntakePolicy';
 
 function normalizeTitle(text) {
@@ -24,6 +26,46 @@ function firstTuneLink(tune) {
     if (link) return link;
   }
   return '';
+}
+
+function mediaCandidateArtist(candidate) {
+  return String((candidate && candidate.artist) || '').trim();
+}
+
+function mediaCandidateDescription(candidate) {
+  return String((candidate && candidate.description) || '').trim();
+}
+
+/**
+ * Confidence for auto-selecting a music collection hit (tag-backed metadata).
+ */
+export function collectionAutoselectConfidence(queryTitle, queryArtist, candidate) {
+  if (!candidate || !candidate.title) return { confidence: 'low', score: 0 };
+  const qTitle = normalizeTitle(queryTitle);
+  const cTitle = normalizeTitle(candidate.title);
+  if (!qTitle || !cTitle) return { confidence: 'low', score: 0 };
+
+  const qTokens = qTitle.split(' ').filter(Boolean);
+  const hits = qTokens.filter(function(t) { return cTitle.indexOf(t) >= 0; }).length;
+  const ratio = qTokens.length ? hits / qTokens.length : 0;
+  let score = ratio;
+
+  if (queryArtist) {
+    const artist = normalizeTitle(queryArtist);
+    const candidateArtist = normalizeTitle(mediaCandidateArtist(candidate));
+    const description = normalizeTitle(mediaCandidateDescription(candidate));
+    if (artist && (candidateArtist.indexOf(artist) >= 0 || description.indexOf(artist) >= 0 || cTitle.indexOf(artist) >= 0)) {
+      score += 0.25;
+    } else if (artist) {
+      score -= 0.15;
+    }
+  }
+
+  if (cTitle === qTitle || cTitle.indexOf(qTitle) >= 0) score += 0.2;
+
+  if (score >= 0.9) return { confidence: 'high', score: score };
+  if (score >= 0.7) return { confidence: 'medium', score: score };
+  return { confidence: 'low', score: score };
 }
 
 /**
@@ -54,6 +96,27 @@ export function youtubeAutoselectConfidence(queryTitle, queryArtist, video) {
   if (score >= 0.85) return { confidence: 'high', score: score };
   if (score >= 0.55) return { confidence: 'medium', score: score };
   return { confidence: 'low', score: score };
+}
+
+function applyAutoselectedLink(tune, pick, source) {
+  const nextTune = Object.assign({}, tune || {}, {
+    links: [{
+      link: pick.link,
+      title: pick.title || '',
+      startAt: '',
+      endAt: '',
+      source: source || pick.source || '',
+      collectionAutoselected: source === 'music-collection',
+      youtubeAutoselected: source === 'youtube',
+    }],
+  });
+  if (!String(nextTune.name || '').trim() && pick.title) {
+    nextTune.name = pick.title;
+  }
+  if (!String(nextTune.composer || '').trim() && pick.artist) {
+    nextTune.composer = pick.artist;
+  }
+  return nextTune;
 }
 
 async function enrichTuneFromYouTubeLink(tune, link, fetchMeta) {
@@ -87,15 +150,15 @@ async function enrichTuneFromYouTubeLink(tune, link, fetchMeta) {
 }
 
 /**
- * Build prepared candidates from bulk text. Optionally search YouTube for lines without a URL.
- * Autoselect only when confidence is high. When a YouTube URL is already present, fill
- * missing title/artist from oEmbed when possible.
+ * Build prepared candidates from bulk text. Optionally search collection then YouTube for lines without a URL.
  */
 export async function prepareBulkTextQueue(text, options) {
   const opts = options || {};
-  const lines = String(text || '').split(/\r?\n/).map(function(l) { return l.trim(); }).filter(Boolean);
+  const tidied = retidyBulkText(text, opts);
+  // All non-empty lines (import filtering happens on Import, not Prepare).
+  const lines = String(tidied || '').split(/\r?\n/).map(function(l) { return l.trim(); }).filter(Boolean);
   const base = bulkLinesToCandidates(lines, opts.tunebook, opts.book);
-  const searchYouTube = opts.searchYouTube !== false && typeof searchYouTubeVideos === 'function';
+  const searchMedia = opts.searchYouTube !== false;
   const prepared = [];
 
   for (let i = 0; i < base.length; i += 1) {
@@ -107,43 +170,66 @@ export async function prepareBulkTextQueue(text, options) {
     let tune = candidate.tune || {};
     const hasLink = !!firstTuneLink(tune);
 
-    if (!hasLink && searchYouTube && tune.name) {
+    if (!hasLink && searchMedia && tune.name) {
+      let autoselected = false;
       try {
-        const query = [tune.name, tune.composer].filter(Boolean).join(' ');
-        const result = await searchYouTubeVideos({
-          query: query,
-          maxResults: 5,
+        const collectionResult = await searchMusicCollection({
+          query: [tune.name, tune.composer].filter(Boolean).join(' '),
+          title: tune.name,
           artist: tune.composer || '',
+          maxResults: 5,
+          accessToken: opts.accessToken || opts.token,
+          signal: opts.signal,
         });
-        let list = [];
-        if (result && Array.isArray(result.candidates)) list = result.candidates;
-        else if (result && result.link) list = [result];
-
-        candidate.youtubeResults = list;
-        if (list.length) {
-          const conf = youtubeAutoselectConfidence(tune.name, tune.composer, list[0]);
-          candidate.youtubeConfidence = conf.confidence;
-          if (conf.confidence === 'high') {
-            const pick = list[0];
-            tune = Object.assign({}, tune, {
-              links: [{
-                link: pick.link,
-                title: pick.title || '',
-                startAt: '',
-                endAt: '',
-                youtubeAutoselected: true,
-              }],
-            });
-            const parsed = parseTitleArtistFromYouTubeLabel(pick.title, '');
-            if (!String(tune.name || '').trim() && parsed.title) tune.name = parsed.title;
-            if (!String(tune.composer || '').trim() && parsed.artist) tune.composer = parsed.artist;
-            candidate.youtubeUrl = pick.link;
-            candidate.youtubeAutoselected = true;
-            candidate.youtubeMetaEnriched = !!(parsed.title || parsed.artist);
+        let collectionList = [];
+        if (collectionResult && Array.isArray(collectionResult.candidates)) collectionList = collectionResult.candidates;
+        else if (collectionResult && collectionResult.link) collectionList = [collectionResult];
+        candidate.collectionResults = collectionList;
+        if (collectionList.length) {
+          const collectionConf = collectionAutoselectConfidence(tune.name, tune.composer, collectionList[0]);
+          candidate.collectionConfidence = collectionConf.confidence;
+          if (collectionConf.confidence === 'high') {
+            tune = applyAutoselectedLink(tune, collectionList[0], 'music-collection');
+            candidate.collectionUrl = collectionList[0].link;
+            candidate.collectionAutoselected = true;
+            candidate.mediaMetaEnriched = true;
+            autoselected = true;
           }
         }
       } catch (e) {
-        candidate.youtubeSearchError = e && e.message ? e.message : 'YouTube search failed';
+        candidate.collectionSearchError = e && e.message ? e.message : 'Music collection search failed';
+      }
+
+      if (!autoselected) {
+        try {
+          const query = [tune.name, tune.composer].filter(Boolean).join(' ');
+          const result = await searchYouTubeVideos({
+            query: query,
+            maxResults: 5,
+            artist: tune.composer || '',
+            signal: opts.signal,
+          });
+          let list = [];
+          if (result && Array.isArray(result.candidates)) list = result.candidates;
+          else if (result && result.link) list = [result];
+
+          candidate.youtubeResults = list;
+          if (list.length) {
+            const conf = youtubeAutoselectConfidence(tune.name, tune.composer, list[0]);
+            candidate.youtubeConfidence = conf.confidence;
+            if (conf.confidence === 'high') {
+              tune = applyAutoselectedLink(tune, list[0], 'youtube');
+              const parsed = parseTitleArtistFromYouTubeLabel(list[0].title, '');
+              if (!String(tune.name || '').trim() && parsed.title) tune.name = parsed.title;
+              if (!String(tune.composer || '').trim() && parsed.artist) tune.composer = parsed.artist;
+              candidate.youtubeUrl = list[0].link;
+              candidate.youtubeAutoselected = true;
+              candidate.mediaMetaEnriched = !!(parsed.title || parsed.artist);
+            }
+          }
+        } catch (e) {
+          candidate.youtubeSearchError = e && e.message ? e.message : 'YouTube search failed';
+        }
       }
     } else if (hasLink) {
       candidate.youtubeConfidence = 'given';

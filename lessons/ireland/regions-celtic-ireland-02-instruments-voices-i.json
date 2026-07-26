@@ -91,25 +91,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Irish fiddle style is not one accent. Three regions dominate discussion — each with sub-local flavours.\n\n**Sligo** style is fast, flamboyant, and roll-heavy. Bowing is fluid; fingered rolls decorate reel and jig lines densely. The county's diaspora recordings made Sligo synonymous with \"Irish fiddle\" abroad for much of the twentieth century. Repertoire overlaps with neighbouring Leitrim and Roscommon; session players worldwide still default to Sligo-settings of standards like "
-        },
-        {
-          "type": "track",
-          "id": "coleman-sally-gardens",
-          "label": "The Sally Gardens"
-        },
-        {
-          "type": "markdown",
-          "text": " or "
-        },
-        {
-          "type": "track",
-          "id": "coleman-tarbolton",
-          "label": "Tarbolton"
-        },
-        {
-          "type": "markdown",
-          "text": ".\n\n**Donegal** fiddling bears **Scottish influence** — marches, strathspeys, and highlands appear beside reels and jigs. Bowing is **assertive**; short bow strokes and **trebles** cut through. The **travelling fiddler** tradition — players moving between fairs and houses with vast tune memory — is epitomised by **John Doherty** (1900–1980), from Ardara. Donegal also produced **Tommy Peoples** (1945–2018), whose fierce ornamentation and precision influenced generations after he settled in Clare.\n\n**Clare** is often described as a **session county** rather than a single fiddle \"accent\": fiddle sits alongside strong concertina and accordion traditions. **Martin Hayes** (born 1961, East Clare) represents a lyrical, sometimes **rubato** approach — long bow strokes, emotional slow airs, and reel phrasing that prioritises **feel** over flash. Clare sessions may be less uniformly fast than Sligo stereotypes suggest; listening to local players beats importing a generic template.\n\n**Sliabh Luachra** (Cork–Kerry border) deserves mention: polkas, slides, and local tune names; fiddle bowing adapts to 2/4 and 12/8 forms. **East Galway** and **West Cork** have their own favoured players and tune stock.\n\n| Region | Bowing / ornament | Repertoire notes |\n|--------|-------------------|------------------|\n| Sligo | Heavy rolls, smooth slurs | Diaspora 78s defined global expectations |\n| Donegal | Strong bow, trebles, Scottish forms | Marches, highlands, travelling tradition |\n| Clare | Lyrical to driving depending on player | Session mix with box and concertina |\n| Sliabh Luachra | Polka / slide pulse | *Denis Murphy*, *Julia Clifford* recordings |\n\n![Fiddler in Strabane, Northern Ireland](https://en.wikipedia.org/wiki/Special:FilePath/The_fiddler%2C_Strabane_-_geograph.org.uk_-_654143.jpg?width=640)"
+          "text": "Irish fiddle style is not one accent. Three regions dominate discussion — each with sub-local flavours.\n\n**Sligo** style is fast, flamboyant, and roll-heavy. Bowing is fluid; fingered rolls decorate reel and jig lines densely. The county's diaspora recordings made Sligo synonymous with \"Irish fiddle\" abroad for much of the twentieth century. Repertoire overlaps with neighbouring Leitrim and Roscommon; session players worldwide still default to Sligo-settings of standards like [[track:coleman-sally-gardens|The Sally Gardens]] or [[track:coleman-tarbolton|Tarbolton]].\n\n**Donegal** fiddling bears **Scottish influence** — marches, strathspeys, and highlands appear beside reels and jigs. Bowing is **assertive**; short bow strokes and **trebles** cut through. The **travelling fiddler** tradition — players moving between fairs and houses with vast tune memory — is epitomised by **John Doherty** (1900–1980), from Ardara. Donegal also produced **Tommy Peoples** (1945–2018), whose fierce ornamentation and precision influenced generations after he settled in Clare.\n\n**Clare** is often described as a **session county** rather than a single fiddle \"accent\": fiddle sits alongside strong concertina and accordion traditions. **Martin Hayes** (born 1961, East Clare) represents a lyrical, sometimes **rubato** approach — long bow strokes, emotional slow airs, and reel phrasing that prioritises **feel** over flash. Clare sessions may be less uniformly fast than Sligo stereotypes suggest; listening to local players beats importing a generic template.\n\n**Sliabh Luachra** (Cork–Kerry border) deserves mention: polkas, slides, and local tune names; fiddle bowing adapts to 2/4 and 12/8 forms. **East Galway** and **West Cork** have their own favoured players and tune stock.\n\n| Region | Bowing / ornament | Repertoire notes |\n|--------|-------------------|------------------|\n| Sligo | Heavy rolls, smooth slurs | Diaspora 78s defined global expectations |\n| Donegal | Strong bow, trebles, Scottish forms | Marches, highlands, travelling tradition |\n| Clare | Lyrical to driving depending on player | Session mix with box and concertina |\n| Sliabh Luachra | Polka / slide pulse | *Denis Murphy*, *Julia Clifford* recordings |\n\n![Fiddler in Strabane, Northern Ireland](https://en.wikipedia.org/wiki/Special:FilePath/The_fiddler%2C_Strabane_-_geograph.org.uk_-_654143.jpg?width=640)"
         }
       ]
     },
@@ -120,88 +102,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Michael Coleman** (1891–1945), from Killavil, County Sligo, recorded roughly **eighty 78 rpm sides** in New York between 1921 and 1936. His versions of "
-        },
-        {
-          "type": "track",
-          "id": "coleman-boys-lough",
-          "label": "The Boys of the Lough"
-        },
-        {
-          "type": "markdown",
-          "text": ", "
-        },
-        {
-          "type": "track",
-          "id": "coleman-tarbolton",
-          "label": "Tarbolton"
-        },
-        {
-          "type": "markdown",
-          "text": ", and "
-        },
-        {
-          "type": "track",
-          "id": "coleman-lord-gordons",
-          "label": "Lord Gordon's"
-        },
-        {
-          "type": "markdown",
-          "text": " became reference standards; the U.S. Library of Congress placed his 1922 "
-        },
-        {
-          "type": "track",
-          "id": "coleman-boys-lough",
-          "label": "Boys of the Lough"
-        },
-        {
-          "type": "markdown",
-          "text": " / *Humors of Ennistymon* in the **National Recording Registry**. A monument near Gurteen honours him as \"Master of the fiddle. Saviour of Irish traditional music.\" **Memorable detail:** Coleman could **dance and fiddle at the same time** — showmanship rooted in house-party culture, not studio trickery.\n\n**James Morrison** (1893–1947), another Sligo-born New York emigrant, matched Coleman's brilliance with a **cleaner, razor-fast** attack. His 1936 recording of "
-        },
-        {
-          "type": "track",
-          "id": "morrison-musical-priest",
-          "label": "The Musical Priest"
-        },
-        {
-          "type": "markdown",
-          "text": " still intimidates students. Together, Coleman and Morrison fixed Sligo style in global imagination.\n\n**John Doherty** travelled Donegal with a vast oral repertoire, played for dancers, and preserved **highland** and **march** forms alongside reels. Field recordings capture his speaking voice introducing tunes — a bridge between storyteller and musician. **Memorable detail:** Doherty's **fiddle was often tuned slightly sharp** for dance halls, a practical choice for outdoor acoustics.\n\n**Tommy Peoples**, from St Johnston, Donegal, brought **Donegal density** to Clare sessions and recordings. His ornamentation was **relentless** — every reel a masterclass in cuts and rolls — yet timing stayed danceable.\n\n**Kevin Burke** (born 1950), Dublin-raised with Sligo roots, fused Sligo flow with **Bothy Band** energy — long lines, driving reels, and stage presence that influenced Irish-American fiddle. His partnership with **Mícheál Ó Domhnaill** on *Promenade* remains a template for fiddle–guitar dialogue.\n\n**Martin Hayes** slows the narrative: East Clare **lyricism**, long bow on "
-        },
-        {
-          "type": "track",
-          "id": "hayes-tullycrine",
-          "label": "The Humours of Tullycrine"
-        },
-        {
-          "type": "markdown",
-          "text": ", and collaborations with guitarist **Dennis Cahill** that treat silence and sustain as ornament. **Memorable detail:** Hayes has spoken of learning from **uilleann pipers and East Clare fiddle elders** equally — regional style as **listening**, not genealogy alone.\n\n**Liz Carroll** (born 1956), Chicago-born to Irish parents, is a **composer-fiddler**: tunes like "
-        },
-        {
-          "type": "track",
-          "id": "carroll-loosening-belt",
-          "label": "Loosening the Belt"
-        },
-        {
-          "type": "markdown",
-          "text": " and "
-        },
-        {
-          "type": "track",
-          "id": "carroll-fruit-snoot",
-          "label": "The Fruit and the Snoot"
-        },
-        {
-          "type": "markdown",
-          "text": " entered session repertoire worldwide. Her competition wins and **Grammy-nominated** recordings prove the tradition thrives in diaspora cities, not only in Ireland. **Memorable detail:** Carroll's compositions sound **traditional on first hearing** — the highest compliment in a genre wary of novelty for its own sake.\n\n**James Morrison** deserves equal billing with Coleman in Sligo history: his 1936 "
-        },
-        {
-          "type": "track",
-          "id": "morrison-musical-priest",
-          "label": "Musical Priest"
-        },
-        {
-          "type": "markdown",
-          "text": " reel still sets **speed and clarity** benchmarks. Where Coleman could sound **dance-floor loose**, Morrison leaned **razor-edged** — two Sligo giants, not one."
+          "text": "**Michael Coleman** (1891–1945), from Killavil, County Sligo, recorded roughly **eighty 78 rpm sides** in New York between 1921 and 1936. His versions of [[track:coleman-boys-lough|The Boys of the Lough]], [[track:coleman-tarbolton|Tarbolton]], and [[track:coleman-lord-gordons|Lord Gordon's]] became reference standards; the U.S. Library of Congress placed his 1922 [[track:coleman-boys-lough|Boys of the Lough]] / *Humors of Ennistymon* in the **National Recording Registry**. A monument near Gurteen honours him as \"Master of the fiddle. Saviour of Irish traditional music.\" **Memorable detail:** Coleman could **dance and fiddle at the same time** — showmanship rooted in house-party culture, not studio trickery.\n\n**James Morrison** (1893–1947), another Sligo-born New York emigrant, matched Coleman's brilliance with a **cleaner, razor-fast** attack. His 1936 recording of [[track:morrison-musical-priest|The Musical Priest]] still intimidates students. Together, Coleman and Morrison fixed Sligo style in global imagination.\n\n**John Doherty** travelled Donegal with a vast oral repertoire, played for dancers, and preserved **highland** and **march** forms alongside reels. Field recordings capture his speaking voice introducing tunes — a bridge between storyteller and musician. **Memorable detail:** Doherty's **fiddle was often tuned slightly sharp** for dance halls, a practical choice for outdoor acoustics.\n\n**Tommy Peoples**, from St Johnston, Donegal, brought **Donegal density** to Clare sessions and recordings. His ornamentation was **relentless** — every reel a masterclass in cuts and rolls — yet timing stayed danceable.\n\n**Kevin Burke** (born 1950), Dublin-raised with Sligo roots, fused Sligo flow with **Bothy Band** energy — long lines, driving reels, and stage presence that influenced Irish-American fiddle. His partnership with **Mícheál Ó Domhnaill** on *Promenade* remains a template for fiddle–guitar dialogue.\n\n**Martin Hayes** slows the narrative: East Clare **lyricism**, long bow on [[track:hayes-tullycrine|The Humours of Tullycrine]], and collaborations with guitarist **Dennis Cahill** that treat silence and sustain as ornament. **Memorable detail:** Hayes has spoken of learning from **uilleann pipers and East Clare fiddle elders** equally — regional style as **listening**, not genealogy alone.\n\n**Liz Carroll** (born 1956), Chicago-born to Irish parents, is a **composer-fiddler**: tunes like [[track:carroll-loosening-belt|Loosening the Belt]] and [[track:carroll-fruit-snoot|The Fruit and the Snoot]] entered session repertoire worldwide. Her competition wins and **Grammy-nominated** recordings prove the tradition thrives in diaspora cities, not only in Ireland. **Memorable detail:** Carroll's compositions sound **traditional on first hearing** — the highest compliment in a genre wary of novelty for its own sake.\n\n**James Morrison** deserves equal billing with Coleman in Sligo history: his 1936 [[track:morrison-musical-priest|Musical Priest]] reel still sets **speed and clarity** benchmarks. Where Coleman could sound **dance-floor loose**, Morrison leaned **razor-edged** — two Sligo giants, not one."
         }
       ]
     },
@@ -344,16 +245,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Mary Bergin** (born 1949), Galway-born, revolutionised whistle perception with *Feadóga Stáin* (1979) — proof that whistle could be **virtuosic** without losing trad grammar. Her ornament is **precise and driving**; reels like *The Silver Spear* became study material. **Memorable detail:** Bergin helped listeners hear whistle as a **serious concert instrument**, not only a stepping-stone to flute.\n\n**Paddy Moloney** (1938–2021), Dublin, founded **The Chieftains** and played whistle alongside **uilleann pipes**. His whistle lines on *The Morning Dew* and countless Chieftains tracks introduced millions to trad. **Memorable detail:** Moloney arranged **ensemble textures** where whistle doubled pipes an octave apart — orchestration thinking in a trad idiom.\n\n**Cathal McConnell** (born 1944), Fermanagh, of "
-        },
-        {
-          "type": "track",
-          "id": "coleman-boys-lough",
-          "label": "Boys of the Lough"
-        },
-        {
-          "type": "markdown",
-          "text": ", brings **Northern** whistle and flute lyricism — proof that Ulster trad is not fiddle-only. His **slow air** phrasing influences whistle players who resist **relentless reel speed** as the only goal.\n\n**Joanie Madden** (see flute) and **Micho Russell** (1915–1994), from Doolin, Clare, represent **regional whistle and song** — Russell's Doolin style, lilting, and stories tied whistle to **West Clare tourism** and session culture long before social media."
+          "text": "**Mary Bergin** (born 1949), Galway-born, revolutionised whistle perception with *Feadóga Stáin* (1979) — proof that whistle could be **virtuosic** without losing trad grammar. Her ornament is **precise and driving**; reels like *The Silver Spear* became study material. **Memorable detail:** Bergin helped listeners hear whistle as a **serious concert instrument**, not only a stepping-stone to flute.\n\n**Paddy Moloney** (1938–2021), Dublin, founded **The Chieftains** and played whistle alongside **uilleann pipes**. His whistle lines on *The Morning Dew* and countless Chieftains tracks introduced millions to trad. **Memorable detail:** Moloney arranged **ensemble textures** where whistle doubled pipes an octave apart — orchestration thinking in a trad idiom.\n\n**Cathal McConnell** (born 1944), Fermanagh, of [[track:coleman-boys-lough|Boys of the Lough]], brings **Northern** whistle and flute lyricism — proof that Ulster trad is not fiddle-only. His **slow air** phrasing influences whistle players who resist **relentless reel speed** as the only goal.\n\n**Joanie Madden** (see flute) and **Micho Russell** (1915–1994), from Doolin, Clare, represent **regional whistle and song** — Russell's Doolin style, lilting, and stories tied whistle to **West Clare tourism** and session culture long before social media."
         }
       ]
     },
@@ -692,87 +584,91 @@
       "id": "coleman-boys-lough",
       "entity_id": "coleman",
       "label": "The Boys of the Lough",
-      "youtube": "https://www.youtube.com/watch?v=i6mV7y95vGQ",
+      "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg",
       "subtitle": "Michael Coleman"
     },
     {
       "id": "coleman-tarbolton",
       "entity_id": "coleman",
       "label": "Tarbolton",
-      "youtube": "https://www.youtube.com/watch?v=OVRafYXf0nM",
+      "youtube": "https://www.youtube.com/watch?v=Ypxk7bTNGWc",
       "subtitle": "Michael Coleman"
     },
     {
       "id": "coleman-lord-gordons",
       "entity_id": "coleman",
       "label": "Lord Gordon's",
-      "youtube": "https://www.youtube.com/watch?v=sbb3xx70GN8",
+      "youtube": "https://www.youtube.com/watch?v=wb67_Dv0gXM",
       "subtitle": "Michael Coleman"
     },
     {
       "id": "morrison-musical-priest",
       "entity_id": "morrison",
       "label": "The Musical Priest",
-      "youtube": "https://www.youtube.com/watch?v=5gVj1k0qJZQ",
+      "youtube": "https://www.youtube.com/watch?v=AQiZ5nsZ1Bo",
       "subtitle": "James Morrison"
     },
     {
       "id": "doherty-highland",
       "entity_id": "doherty",
       "label": "Highland fiddle",
-      "youtube": "https://www.youtube.com/watch?v=1y6smkh6cNg",
+      "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA",
       "subtitle": "John Doherty"
     },
     {
       "id": "hayes-clare",
       "entity_id": "hayes",
       "label": "East Clare style",
-      "youtube": "https://www.youtube.com/watch?v=wq6wOu9vV9E",
+      "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA",
       "subtitle": "Martin Hayes"
     },
     {
       "id": "oflynn-pipes",
       "entity_id": "oflynn",
       "label": "Uilleann pipes slow air",
-      "youtube": "https://www.youtube.com/watch?v=0Y5a2vS8V8Y",
+      "youtube": "https://www.youtube.com/watch?v=JyP407UnUWw",
       "subtitle": "Liam O'Flynn"
     },
     {
       "id": "burke-reel",
       "entity_id": "burke",
       "label": "Kevin Burke reel set",
-      "youtube": "https://www.youtube.com/watch?v=8Qn_spdM5Zg",
+      "youtube": "https://www.youtube.com/watch?v=8J4FZqknpjg",
       "subtitle": "Kevin Burke"
     },
     {
       "id": "molloy-flute",
       "entity_id": "molloy",
       "label": "Matt Molloy flute",
-      "youtube": "https://www.youtube.com/watch?v=H1QldbqXh8I",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
       "subtitle": "Matt Molloy"
     },
     {
       "id": "coleman-sally-gardens",
       "entity_id": "coleman",
       "label": "The Sally Gardens",
+      "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg",
       "subtitle": "Michael Coleman"
     },
     {
       "id": "hayes-tullycrine",
       "entity_id": "hayes",
       "label": "The Humours of Tullycrine",
+      "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA",
       "subtitle": "Martin Hayes"
     },
     {
       "id": "carroll-loosening-belt",
       "entity_id": "carroll",
       "label": "Loosening the Belt",
+      "youtube": "https://www.youtube.com/watch?v=ZVoB5Gx-uqc",
       "subtitle": "Liz Carroll"
     },
     {
       "id": "carroll-fruit-snoot",
       "entity_id": "carroll",
       "label": "The Fruit and the Snoot",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
       "subtitle": "Liz Carroll"
     }
   ],

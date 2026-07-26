@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Form } from 'react-bootstrap'
 import { buildAbcFromTune, NotationPreview } from '../SuggestionPreviewDialog'
 import { getScratchpadBlob } from '../../scratchpadBlobs'
 import { resolveScratchpadItemAudioBlob, getScratchpadItemDuration } from '../../scratchpadAudioInsert'
@@ -150,24 +151,40 @@ export default function ScratchpadItemCard(props) {
   }
 
   return (
-    <button
-      type="button"
-      className="scratchpad-card"
-      onClick={props.onClick}
-      data-testid={'scratchpad-card-' + item.id}
+    <div
+      className={'scratchpad-card-wrap' + (props.selected ? ' scratchpad-card-wrap--selected' : '')}
+      data-testid={'scratchpad-card-wrap-' + item.id}
     >
-      <div className="scratchpad-card-preview">
-        {renderPreview()}
-      </div>
-      <div className="scratchpad-card-footer">
-        <span className="scratchpad-card-type">
-          {typeLabel(item.type)}
-          {item.type === 'audio' && audioDuration > 0 ? (
-            <span className="scratchpad-card-duration"> · {formatMarkerTime(audioDuration)}s</span>
-          ) : null}
-        </span>
-        <span className="scratchpad-card-title">{item.title}</span>
-      </div>
-    </button>
+      <Form.Check
+        type="checkbox"
+        className="scratchpad-card-select"
+        checked={!!props.selected}
+        aria-label={'Select ' + (item.title || 'scratchpad item')}
+        onChange={function(e) {
+          e.stopPropagation()
+          if (props.onToggleSelect) props.onToggleSelect()
+        }}
+        onClick={function(e) { e.stopPropagation() }}
+      />
+      <button
+        type="button"
+        className="scratchpad-card"
+        onClick={props.onClick}
+        data-testid={'scratchpad-card-' + item.id}
+      >
+        <div className="scratchpad-card-preview">
+          {renderPreview()}
+        </div>
+        <div className="scratchpad-card-footer">
+          <span className="scratchpad-card-type">
+            {typeLabel(item.type)}
+            {item.type === 'audio' && audioDuration > 0 ? (
+              <span className="scratchpad-card-duration"> · {formatMarkerTime(audioDuration)}s</span>
+            ) : null}
+          </span>
+          <span className="scratchpad-card-title">{item.title}</span>
+        </div>
+      </button>
+    </div>
   )
 }

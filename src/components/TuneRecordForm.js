@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Accordion, Button, ButtonGroup, Col, Form, Row } from 'react-bootstrap';
+import { Accordion, Alert, Button, ButtonGroup, Col, Form, Row } from 'react-bootstrap';
 import CreatableSelect from 'react-select/creatable';
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import { formatTuneFieldValue } from '../tuneImportMergeUtils';
@@ -252,10 +252,17 @@ export default function TuneRecordForm(props) {
   const primaryBook = selectedBooks[0] || '';
 
   function renderBooksAndTags() {
+    const forcedBookNotice = props.forcedBook ? (
+      <Alert variant="info" className="py-1 px-2 mb-2 small" data-testid="forced-book-notice">
+        Forced book for all imports: <strong>{props.forcedBook}</strong>
+      </Alert>
+    ) : null;
     if (props.bookTagsSlot) return props.bookTagsSlot;
     if (!tunebook) {
       return (
-        <Row>
+        <>
+          {forcedBookNotice}
+          <Row>
           <Col md={6}>
             <Form.Group className="mb-0">
               <FieldLabelRow label="Book(s)" formKey="bookList" suggestion={suggestions.bookList} onApplySuggestion={props.onApplySuggestion}  values={values} />
@@ -283,11 +290,14 @@ export default function TuneRecordForm(props) {
             </Form.Group>
           </Col>
         </Row>
+        </>
       );
     }
 
     return (
-      <Row>
+      <>
+        {forcedBookNotice}
+        <Row>
         <Col md={6}>
           <Form.Group className="mb-0">
             <FieldLabelRow label="Book(s)" formKey="bookList" suggestion={suggestions.bookList} onApplySuggestion={props.onApplySuggestion}  values={values} />
@@ -342,6 +352,7 @@ export default function TuneRecordForm(props) {
           </Form.Group>
         </Col>
       </Row>
+      </>
     );
   }
 

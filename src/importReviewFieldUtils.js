@@ -252,6 +252,28 @@ function parseListField(value) {
     .filter(Boolean);
 }
 
+export function primaryBookFromBookList(bookList) {
+  return String(bookList || '')
+    .split(',')
+    .map(function(part) { return part.trim(); })
+    .filter(Boolean)[0] || '';
+}
+
+export function applyForcedBookToBookList(bookList, forcedBook) {
+  const forced = String(forcedBook || '').trim().toLowerCase();
+  if (!forced) return String(bookList || '');
+  const books = parseListField(bookList);
+  if (books.indexOf(forced) >= 0) return books.join(', ');
+  return [forced].concat(books).join(', ');
+}
+
+export function applyForcedBookTuneFilter(session, setCurrentTuneBook) {
+  const forced = session && session.forcedBook ? String(session.forcedBook).trim() : '';
+  if (!forced || typeof setCurrentTuneBook !== 'function') return false;
+  setCurrentTuneBook(forced);
+  return true;
+}
+
 function isFormFieldEmpty(formKey, value) {
   if (value === null || value === undefined) return true;
   if (typeof value === 'string') return value.trim() === '';

@@ -74,7 +74,7 @@ import { processReviewResult } from '../addSongModalHelper'
 import { buildMediaImportCandidatesFromFiles } from '../mediaImportCandidates'
 import { isAudioImportFile, isVideoImportFile } from '../audioFileMetadata'
 import { runPendingShareImportSideEffect } from '../shareImportSession'
-import { applyAddFormInlineImport } from '../importReviewFieldUtils'
+import { applyAddFormInlineImport, applyForcedBookTuneFilter } from '../importReviewFieldUtils'
 import { mergeTuneCollectionExtras } from '../tuneMergeExtras'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
 import { attachMidiMediaLinkFromPendingFile } from '../attachMidiMediaLink'
@@ -235,6 +235,7 @@ export default function ImportReviewBridge(props) {
       const nextSession = createImportReviewSession(list, {
         skipEnrichment: !resolverAvailable,
         entryMode: opts.entryMode === 'add' ? 'add' : 'import',
+        forcedBook: opts.forcedBook || '',
       })
       setImportReviewSession(nextSession)
       showImportReviewUi()
@@ -814,9 +815,10 @@ export default function ImportReviewBridge(props) {
     updateSession(next)
     if (next.step === 'done') {
       hideImportReviewUi()
+      applyForcedBookTuneFilter(next, props.setCurrentTuneBook)
       navigate('/tunes')
     }
-  }, [updateSession, navigate])
+  }, [updateSession, navigate, props.setCurrentTuneBook])
 
   const handleReviewYouTubeImport = useCallback(function(link, draft) {
     if (!link || !link.link) return
@@ -883,7 +885,8 @@ export default function ImportReviewBridge(props) {
     }
 
     const tunebook = props.tunebook
-    const book = props.currentTuneBook
+    const book = (updatedSession && updatedSession.forcedBook)
+      || props.currentTuneBook
 
     if (candidate.mergeTargetId && props.tunes && props.tunes[candidate.mergeTargetId]) {
       const existing = props.tunes[candidate.mergeTargetId]
@@ -937,7 +940,8 @@ export default function ImportReviewBridge(props) {
 
   const finishAllCandidates = useCallback(function(updatedSession, done) {
     const tunebook = props.tunebook
-    const book = props.currentTuneBook
+    const book = (updatedSession && updatedSession.forcedBook)
+      || props.currentTuneBook
     const tunesSnapshot = Object.assign({}, props.tunes || {})
     const candidates = updatedSession && Array.isArray(updatedSession.candidates)
       ? updatedSession.candidates
@@ -1001,6 +1005,7 @@ export default function ImportReviewBridge(props) {
     dismissBackgroundReviewToast()
     runPendingShareImportSideEffect()
     if (onReviewRoute || location.pathname.indexOf('/add') === 0) {
+      applyForcedBookTuneFilter(finalSession, props.setCurrentTuneBook)
       navigate('/tunes')
     }
     if (typeof props.onComplete === 'function') props.onComplete(finalSession)

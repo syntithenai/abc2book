@@ -8,13 +8,13 @@ import AddTuneYouTubePicker from './AddTuneYouTubePicker'
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
 
-jest.mock('../youtubeSearchClient', function() {
+jest.mock('../mediaLinkSearchClient', function() {
   return {
-    searchYouTubeVideos: jest.fn(),
+    searchMediaLinks: jest.fn(),
   }
 })
 
-const { searchYouTubeVideos } = require('../youtubeSearchClient')
+const { searchMediaLinks } = require('../mediaLinkSearchClient')
 
 describe('AddTuneYouTubePicker', function() {
   let container
@@ -36,10 +36,10 @@ describe('AddTuneYouTubePicker', function() {
 
   test('auto-selects the first result when enabled', async function() {
     const onChange = jest.fn()
-    searchYouTubeVideos.mockResolvedValue({
+    searchMediaLinks.mockResolvedValue({
       candidates: [
-        { title: 'First', link: 'https://youtu.be/1' },
-        { title: 'Second', link: 'https://youtu.be/2' },
+        { title: 'First', link: 'https://youtu.be/1', source: 'youtube' },
+        { title: 'Second', link: 'https://resolver/music-collection/2.mp3', source: 'music-collection' },
       ],
     })
 

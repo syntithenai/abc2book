@@ -1,152 +1,92 @@
-import {useState, useEffect} from 'react'
-import {Button, Modal, ListGroup} from 'react-bootstrap'
-import axios from 'axios'
-import Abc from './Abc'
+import { useEffect, useRef, useState } from 'react'
+import { Button, Modal, ListGroup } from 'react-bootstrap'
+import { searchMediaLinks } from '../mediaLinkSearchClient'
 import VoiceFillInput from './VoiceFillInput'
 
+function sourceLabel(source) {
+  if (source === 'music-collection') return 'My library'
+  if (source === 'youtube') return 'YouTube'
+  return source || ''
+}
+
 function YouTubeSearchModal(props) {
-  const [show, setShow] = useState(false);
-  const [filter, setFilter] = useState('');
-  const [error, setError] = useState('');
-  const [options, setOptions] = useState(defaultOptions());
-  const handleClose = () => {
-      setShow(false);
-      if (props.handleClose) props.handleClose()
+  const [show, setShow] = useState(false)
+  const [filter, setFilter] = useState('')
+  const [error, setError] = useState('')
+  const [results, setResults] = useState([])
+  const filterChangeTimeoutRef = useRef(null)
+
+  const handleClose = function() {
+    setShow(false)
+    if (props.handleClose) props.handleClose()
   }
-  const handleShow = (e) => {
-      setShow(true);
+
+  const handleShow = function() {
+    setShow(true)
   }
-  
+
   useEffect(function() {
-      setFilter(props.value)
-  },[props.value])
-  
-  var filterChangeTimeout = null
-  function filterChange(e) {
-    setFilter(e.target.value)
-    if (e.target.value.trim() === '') {
-      setOptions(defaultOptions())
-    } else {
-      if (filterChangeTimeout) clearTimeout(filterChangeTimeout) 
-      filterChangeTimeout = setTimeout(function() {
-        searchOptions(e.target.value).then(function(options) {setOptions(options)})
-      },1000)
+    setFilter(props.value)
+  }, [props.value])
+
+  function runSearch(query) {
+    const trimmed = String(query || '').trim()
+    if (!trimmed) {
+      setResults([])
+      setError('')
+      return
     }
-  } 
-  
-  function defaultOptions() {
-    return {}
-  }
-  
-  //async function searchYouTube(query) {
-      //axios.get('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=' + query + '&key='+process.env.REACT_APP_GOOGLE_API_KEY).then(function(res) {
-         //console.log(res) 
-          
-      //})
-      //var results = []
-      //data['items'].forEach(function(item) {
-          ////console.log(item)
-          //if (item.id && item.id.kind === "youtube#video") {
-            //results.push(
-                //{
-                    //id: item.id.videoId, 
-                    //title: item.snippet.title, 
-                    //description: item.snippet.description, 
-                    //image: item.snippet.thumbnails['default']
-                //}
-            //)
-          //}
-      //})
-      //console.log(results)
-      //return results
-    //}
-  
-  function searchOptions(filter) {
-    return new Promise(function(resolve,reject) {
-      
-      //console.log('SEARCH',filter)
-      axios.get('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=' + filter + '&key='+process.env.REACT_APP_GOOGLE_API_KEY).then(function(searchRes) {
-        var results = []
-        if (searchRes && searchRes.error) {
-            setError(searchRes.error.message)
-        }
-        if (searchRes && searchRes.data) {
-          setError('') 
-          searchRes.data['items'].forEach(function(item) {
-              //console.log(item)
-              if (item.id && item.id.kind === "youtube#video") {
-                results.push(
-                    {
-                        id: item.id.videoId, 
-                        title: item.snippet.title, 
-                        description: item.snippet.description, 
-                        image: item.snippet.thumbnails['default'].url,
-                        link: 'https://www.youtube.com/watch?v='+item.id.videoId
-                    }
-                )
-              }
-          })
-        }
-        //console.log(results)
-        resolve( results)
-      }).catch((err) => {
-          console.log(err)
-          setError(err.message) 
-        });
+    searchMediaLinks({
+      query: trimmed,
+      maxResults: 10,
+      accessToken: props.token,
+      token: props.token,
+    }).then(function(listResult) {
+      let list = []
+      if (listResult && Array.isArray(listResult.candidates)) list = listResult.candidates
+      else if (listResult && listResult.link) list = [listResult]
+      setResults(list)
+      setError('')
+    }).catch(function(err) {
+      setError(err && err.message ? err.message : 'Media search failed')
+      setResults([])
     })
   }
 
-  useEffect(function() {
-    //setSettings(null)
-    //console.log('ini searc',props.value)
-    if (show) searchOptions(props.value).then(function(opts) {setOptions(opts)})
-  },[show, props.value])
-  
-  //useEffect(function() {
-    //setSettings(null)
-  //},[show])
-  
-  
-    
-  function selectLink(link) {
-      //console.log('select link ', link, props)
-      props.onChange(link)
-      handleClose()
+  function filterChange(e) {
+    setFilter(e.target.value)
+    if (filterChangeTimeoutRef.current) clearTimeout(filterChangeTimeoutRef.current)
+    if (e.target.value.trim() === '') {
+      setResults([])
+      return
+    }
+    filterChangeTimeoutRef.current = setTimeout(function() {
+      runSearch(e.target.value)
+    }, 1000)
   }
-  
-   //$.get('https://thesession.org/tunes/'+forceTuneId+'?format=json&perpage=50').then(function(tune) {
-          //handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback)
-        //}).catch(function(e) {
-          //console.log(["ERR1",e])
-          //handleFoundTune(null, tunesList, searchText, null, songNumber, settingCallback)
-        //})
-      //} else {
-        //$.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+searchText).then(function(searchRes) {
-          //// cache search results
-          //var searchCache = loadLocalObject('abc2book_search')
-          //searchCache[safeString(searchText)] = searchRes.tunes
-          //saveLocalObject('abc2book_search',searchCache)
-          //if (searchRes && searchRes.tunes && searchRes.tunes.length > 0 && searchRes.tunes[0].id) {
-            //$.get('https://thesession.org/tunes/' + searchRes.tunes[0].id+'?format=json&perpage=50').then(function(tune) {
-              //handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback)
-             
-  
-  
+
+  useEffect(function() {
+    if (show) runSearch(props.value)
+  }, [show, props.value])
+
+  function selectLink(link) {
+    props.onChange(link)
+    handleClose()
+  }
+
   return (
     <>
       {typeof props.renderTrigger === 'function'
         ? props.renderTrigger({ onClick: handleShow })
         : (
-          <Button style={{color:'black'}} variant="danger" disabled={props.disabled} onClick={handleShow}>
+          <Button style={{ color: 'black' }} variant="danger" disabled={props.disabled} onClick={handleShow}>
             {props.triggerElement}
           </Button>
         )}
 
       <Modal show={show} onHide={handleClose}>
-        
         <Modal.Header closeButton>
-          <Modal.Title>Search YouTube </Modal.Title>
-          
+          <Modal.Title>Search media</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <VoiceFillInput
@@ -155,31 +95,33 @@ function YouTubeSearchModal(props) {
             type="text"
             value={filter}
             onChange={filterChange}
-            onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}
-            onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}}
+            onBlur={function() { if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false) }}
+            onFocus={function() { if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true) }}
             setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
             token={props.token}
             fieldKind="search"
           />
         </Modal.Body>
         <Modal.Footer>
-          {(error && error.length > 0) && <b>{error}</b>} 
-          <ListGroup  style={{clear:'both', width: '100%'}}>
-            {Object.keys(options).map(function(option,tk) {
-              return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'}  >
-              <Button style={{float:'right'}}  onClick={function(e) {selectLink(options[option])}} variant="success" >Select</Button>
-              <div style={{fontWeight:'bold', fontSize:'1.1em'}} >{options[option].title}</div>
-              <img alt="" src={options[option].image} style={{maxWidth:'200px',maxHeight:'200px', float:'right'}} />
-              <div>{options[option].description}</div>
-              
-              </ListGroup.Item>
+          {(error && error.length > 0) && <b>{error}</b>}
+          <ListGroup style={{ clear: 'both', width: '100%' }}>
+            {results.map(function(option, tk) {
+              return (
+                <ListGroup.Item key={tk} className={(tk % 2 === 0) ? 'even' : 'odd'}>
+                  <Button style={{ float: 'right' }} onClick={function() { selectLink(option) }} variant="success">Select</Button>
+                  <div style={{ fontWeight: 'bold', fontSize: '1.1em' }}>{option.title}</div>
+                  {option.source ? <div className="small text-muted">{sourceLabel(option.source)}</div> : null}
+                  {option.image ? (
+                    <img alt="" src={option.image} style={{ maxWidth: '200px', maxHeight: '200px', float: 'right' }} />
+                  ) : null}
+                  <div>{option.description}</div>
+                </ListGroup.Item>
+              )
             })}
           </ListGroup>
         </Modal.Footer>
-        
-        
       </Modal>
     </>
-  );
+  )
 }
 export default YouTubeSearchModal

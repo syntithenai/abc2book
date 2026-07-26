@@ -19,6 +19,10 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | POST | `/search-chords` | Search supported chord-tab sites by title/artist (or fetch a supported chord URL) and return a normalized chord+lyric sheet for import into the chord editor. Accept `application/x-ndjson` for streaming progress events. |
 | POST | `/search-notation` | Search The Session, then ABC sites, public MuseScore.com MusicXML, and the mounted local MIDI library (then allowlisted MIDI sites on the web) in parallel by title (optional `songType`). Returns up to 20 candidates ranked by match (MuseScore boosted, MIDI demoted). Optional `url` for musescore.com, direct `.mid`/`.midi`, `/midi-resources/…`, allowlisted MIDI pages, or allowlisted ABC URLs. Accept `application/x-ndjson` for streaming progress. |
 | GET | `/midi-resources/:path` | Serve a file from the mounted local MIDI library (`MIDI_RESOURCES_DIR`) when an index is present |
+| POST | `/search-music-collection` | Search the personal music collection by title/artist |
+| POST | `/rebuild-music-collection-index` | Rebuild `music_collection_index.json` from files on disk |
+| GET | `/music-collection/:path` | Stream an audio file from the music collection |
+| GET | `/music-collection-art/:entryId` | Serve embedded album art for a collection entry |
 | POST | `/research-tune-background` | Research tune background from Wikipedia, MusicBrainz, and web search, then summarize with a configurable OpenAI-compatible LLM (compose `llm` / LM Studio fallback by default) |
 | POST | `/transcribe` | Transcribe either linked media URLs or uploaded audio |
 | POST | `/voice-command` | Combined voice command: upload short audio, transcribe with Whisper, parse SHOW/SEARCH intent (regex fast path + LLM), return structured tool call |
@@ -99,6 +103,22 @@ python3 scripts/build_midi_resources_index.py ../../abc2book_midi_resources
 Notation search checks this library before querying online MIDI sites. Files are
 served at `/midi-resources/...` for direct import. Override the host path with
 `MIDI_RESOURCES_HOST_DIR` in `.env`.
+
+### Personal music collection
+
+Mount a folder of tagged audio files at `/music-collection` (default host path
+`./music-collection` under `local-resolver/`). Build the search index:
+
+```bash
+cd local-resolver
+python3 scripts/build_music_collection_index.py ./music-collection
+```
+
+Tunebook searches this library before YouTube when adding links. Files stream at
+`/music-collection/...`. Access is gated by `MUSIC_COLLECTION_EMAILS` when set
+(fail-closed allowlist, independent of `FREE_ACCESS_EMAILS`). Override the host
+path with `MUSIC_COLLECTION_HOST_DIR` in `.env`. Re-run the index script after
+adding or renaming files.
 
 Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
 

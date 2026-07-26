@@ -1,6 +1,7 @@
 import { parseNoteLengthDecimal, assignTimingToEvents } from './beatGrid';
 import { abcTokenForDecoration } from './notationTokens';
 import { serializeFingeringAbcPrefix } from './notationMarks';
+import { stripFillerRests } from './staffMeasureFill';
 
 function pitchToAbcToken(pitch) {
   if (!pitch) return '';
@@ -149,7 +150,7 @@ export function serializeVoiceEventSpans(events, tuneMeta) {
 }
 
 export function serializeVoiceEvents(events, tuneMeta) {
-  return serializeVoiceEventSpans(events, tuneMeta).body;
+  return serializeVoiceEventSpans(stripFillerRests(events), tuneMeta).body;
 }
 
 export function serializeVoiceEventsViaParser(events, tuneMeta, abcjsParser) {

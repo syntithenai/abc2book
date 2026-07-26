@@ -8,10 +8,25 @@ import {
   beatsToDuration,
   durationToBeats,
   measureCapacityBeats,
+  assignTimingToEvents,
 } from './beatGrid';
 import { DURATION_KEY_MULTIPLIERS } from './notationConstants';
 import { midiToAbcPitch, enharmonicAbcName } from '../melodyPitchSpelling';
 import { reassignEventTiming } from './abcVoiceSerializer';
+import {
+  eventAtBeat,
+  insertTimedEventsAtBeat,
+  totalTimedBeats,
+} from './staffMeasureFill';
+import {
+  applyRestDurationChange,
+  finalizeRestOps,
+  beatSpanForEvent,
+  removeBeatRangeAndRefillLongestRests,
+  restSpansForIds,
+} from './staffRestEdit';
+import { collapseAdjacentRests } from './timingEdit';
+import { EDITOR_MODES } from './notationConstants';
 import { defaultNoteExtensions, attachTupletToNewEvent, advanceTupletMode } from './notationMarks';
 
 export function durationFromSession(session) {
@@ -179,8 +194,59 @@ export function insertSystemBreakAtCaret(session, insertIndex) {
   return patchSession(session, { events: events, caretIndex: idx + 1, lastEvent: null });
 }
 
+export function writeNoteAtBeat(session, beat, pitch, options) {
+  const opts = options || {};
+  if (!pitch) return null;
+  const hit = eventAtBeat(session.events, beat, session.tuneMeta);
+  if (opts.addChordTone && hit && (hit.event.type === 'note' || hit.event.type === 'chord')) {
+    return addToneToEvent(session, hit.index, pitch);
+  }
+  const noteEv = attachTupletToNewEvent(newNoteEvent('note', {
+    session: session,
+    extra: { pitch: pitch, pitches: [pitch] },
+  }), session.tupletMode);
+  const unit = session.unitLengthDecimal;
+  const clipBeats = noteEv.durationBeats != null
+    ? noteEv.durationBeats
+    : durationToBeats(noteEv.duration, unit);
+  const events = insertTimedEventsAtBeat(session.events, beat, [noteEv], session.tuneMeta);
+  const timed = assignTimingToEvents(events, session.tuneMeta.meter, session.unitLengthDecimal);
+  const targetBeat = beat + clipBeats;
+  let caretIndex = timed.length;
+  timed.forEach(function(ev, i) {
+    if (typeof ev.startBeat === 'number' && ev.startBeat >= targetBeat - 0.001) {
+      caretIndex = Math.min(caretIndex, i);
+    }
+  });
+  return patchSession(session, {
+    events: events,
+    caretIndex: caretIndex,
+    lastEvent: noteEv,
+    selection: { eventIds: [], toneIndex: null, anchorId: null },
+    tupletMode: advanceTupletMode(session.tupletMode),
+    accidentalCarry: null,
+    pitchCarry: pitch,
+  });
+}
+
+export function replaceOrInsertAtCaret(session, pitch, options) {
+  const opts = options || {};
+  const idx = Math.min(session.caretIndex, session.events.length);
+  const ev = idx < session.events.length ? session.events[idx] : null;
+  if (ev && typeof ev.startBeat === 'number'
+    && (ev.type === 'note' || ev.type === 'chord' || ev.type === 'rest')) {
+    return writeNoteAtBeat(session, ev.startBeat, pitch, {
+      addChordTone: opts.addChordTone || session.chordBuild,
+    });
+  }
+  return insertPitchAtCaret(session, pitch, Object.assign({}, opts, { forceNew: true }));
+}
+
 export function insertPitchAtCaret(session, pitch, options) {
   const opts = options || {};
+  if (session.fillMeasures && session.mode === EDITOR_MODES.NOTE_INPUT && !opts.forceNew) {
+    return replaceOrInsertAtCaret(session, pitch, opts);
+  }
   const events = session.events.map(cloneVoiceEvent);
   const idx = Math.min(session.caretIndex, events.length);
   if (!opts.forceNew && session.chordBuild && idx > 0) {
@@ -256,22 +322,58 @@ function convertEventToRest(ev) {
 export function deleteSelectionToRest(session, options) {
   const backward = !options || options.backward !== false;
   const ids = session.selection.eventIds || [];
-  const events = session.events.map(cloneVoiceEvent);
+  const tuneMeta = session.tuneMeta;
+  const unit = session.unitLengthDecimal;
+  let events = session.events.map(cloneVoiceEvent);
 
   if (ids.length > 0) {
+    const timed = assignTimingToEvents(events, tuneMeta.meter, unit);
+    const noteIds = [];
+    const restIds = [];
     let changed = false;
-    const next = [];
-    events.forEach(function(ev) {
-      if (ids.indexOf(ev.id) < 0) {
-        next.push(ev);
-        return;
-      }
-      changed = true;
-      // Bar lines and system breaks are layout — remove rather than turn into rests.
+
+    ids.forEach(function(id) {
+      const ev = timed.find(function(e) { return e.id === id; });
+      if (!ev) return;
       if (ev.type === 'barline' || ev.type === 'lineBreak') return;
-      next.push(convertEventToRest(ev));
+      if (ev.type === 'rest') restIds.push(id);
+      else noteIds.push(id);
     });
+
+    let next = events;
+    if (noteIds.length) {
+      next = next.map(function(ev) {
+        if (noteIds.indexOf(ev.id) < 0) return ev;
+        changed = true;
+        return convertEventToRest(ev);
+      });
+    }
+
+    if (restIds.length) {
+      const spans = restSpansForIds(next, restIds, tuneMeta);
+      spans.sort(function(a, b) { return b.start - a.start; });
+      spans.forEach(function(span) {
+        next = removeBeatRangeAndRefillLongestRests(
+          next, span.start, span.end - span.start, tuneMeta);
+        changed = true;
+      });
+    }
+
+  // Bar lines and system breaks are layout — remove rather than turn into rests.
+    const layoutIds = ids.filter(function(id) {
+      const ev = events.find(function(e) { return e.id === id; });
+      return ev && (ev.type === 'barline' || ev.type === 'lineBreak');
+    });
+    if (layoutIds.length) {
+      next = next.filter(function(ev) {
+        if (layoutIds.indexOf(ev.id) < 0) return true;
+        changed = true;
+        return false;
+      });
+    }
+
     if (!changed) return null;
+    next = finalizeRestOps(next, session);
     return patchSession(session, {
       events: next,
       caretIndex: Math.min(session.caretIndex, next.length),
@@ -295,15 +397,30 @@ export function deleteSelectionToRest(session, options) {
       caretIndex: Math.min(session.caretIndex, events.length),
     });
   }
+
+  const timedTarget = assignTimingToEvents(events, tuneMeta.meter, unit)[idx]
+    || assignTimingToEvents(events, tuneMeta.meter, unit).find(function(ev) { return ev.id === target.id; });
+
+  if (target.type === 'rest' && timedTarget) {
+    const span = beatSpanForEvent(timedTarget, unit);
+    if (!span) return null;
+    let next = removeBeatRangeAndRefillLongestRests(
+      events, span.start, span.end - span.start, tuneMeta);
+    next = finalizeRestOps(next, session);
+    return patchSession(session, { events: next });
+  }
+
   if (target.type !== 'note' && target.type !== 'chord') return null;
   events[idx] = convertEventToRest(target);
-  return patchSession(session, { events: events });
+  let next = finalizeRestOps(events, session);
+  return patchSession(session, { events: next });
 }
 
 export function removeSelection(session) {
   const ids = session.selection.eventIds || [];
   if (ids.length === 0) return null;
-  const events = session.events.filter(function(ev) { return ids.indexOf(ev.id) < 0; });
+  let events = session.events.filter(function(ev) { return ids.indexOf(ev.id) < 0; });
+  events = finalizeRestOps(events, session);
   return patchSession(session, {
     events: events,
     caretIndex: Math.min(session.caretIndex, events.length),
@@ -675,13 +792,93 @@ export function changeSelectedDuration(session, durationKey, dotted) {
   const unit = session.unitLengthDecimal;
   const beats = mult * unit * 4 * (dotted ? 1.5 : 1);
   const duration = beatsToDuration(beats, unit);
-  events.forEach(function(ev, i) {
-    if (ids.length && ids.indexOf(ev.id) < 0) return;
-    if (!ids.length && i !== Math.max(0, session.caretIndex - 1)) return;
-    if (ev.type === 'barline' || ev.type === 'lineBreak') return;
-    ev.duration = duration;
+  let next = events;
+  let touchedRest = false;
+
+  function applyNoteDurations(list) {
+    return list.map(function(ev) {
+      if (ids.length) {
+        if (ids.indexOf(ev.id) < 0 || ev.type === 'rest') return ev;
+      } else {
+        const idx = Math.max(0, session.caretIndex - 1);
+        const target = events[idx];
+        if (!target || ev.id !== target.id) return ev;
+      }
+      if (ev.type === 'barline' || ev.type === 'lineBreak') return ev;
+      const copy = cloneVoiceEvent(ev);
+      copy.duration = duration;
+      return copy;
+    });
+  }
+
+  if (ids.length) {
+    ids.forEach(function(id) {
+      const ev = events.find(function(e) { return e.id === id; });
+      if (ev && ev.type === 'rest') {
+        next = applyRestDurationChange(next, id, beats, session);
+        touchedRest = true;
+      }
+    });
+    next = applyNoteDurations(next);
+  } else {
+    const idx = Math.max(0, session.caretIndex - 1);
+    const ev = events[idx];
+    if (!ev) return patchSession(session, { events: events, durationKey: durationKey, dotted: !!dotted });
+    if (ev.type === 'rest') {
+      next = applyRestDurationChange(events, ev.id, beats, session);
+      touchedRest = true;
+    } else if (ev.type !== 'barline' && ev.type !== 'lineBreak') {
+      next = applyNoteDurations(events);
+    }
+  }
+
+  if (!touchedRest) {
+    next = collapseAdjacentRests(next, session.tuneMeta);
+  }
+  return patchSession(session, { events: next, durationKey: durationKey, dotted: !!dotted });
+}
+
+export function deleteToRestUndoLabel(session, options) {
+  const backward = !options || options.backward !== false;
+  const ids = session.selection.eventIds || [];
+  function isRestId(id) {
+    const ev = session.events.find(function(e) { return e.id === id; });
+    return ev && ev.type === 'rest';
+  }
+  function isNoteId(id) {
+    const ev = session.events.find(function(e) { return e.id === id; });
+    return ev && (ev.type === 'note' || ev.type === 'chord');
+  }
+  if (ids.length) {
+    const hasRest = ids.some(isRestId);
+    const hasNote = ids.some(isNoteId);
+    if (hasRest && !hasNote) return 'Delete rest';
+    return 'Delete to rest';
+  }
+  let idx = backward ? session.caretIndex - 1 : session.caretIndex;
+  const target = session.events[idx];
+  if (target && target.type === 'rest') return 'Delete rest';
+  return 'Delete to rest';
+}
+
+export function restDurationChangeLabel(session, durationKey, dotted) {
+  const mult = DURATION_KEY_MULTIPLIERS[durationKey] || 2;
+  const unit = session.unitLengthDecimal;
+  const beats = mult * unit * 4 * (dotted ? 1.5 : 1);
+  const ids = session.selection.eventIds || [];
+  const targetIds = ids.length
+    ? ids
+    : (function() {
+      const idx = Math.max(0, session.caretIndex - 1);
+      const ev = session.events[idx];
+      return ev && ev.id ? [ev.id] : [];
+    }());
+  const willSplit = targetIds.some(function(id) {
+    const ev = session.events.find(function(e) { return e.id === id; });
+    if (!ev || ev.type !== 'rest') return false;
+    return durationToBeats(ev.duration, unit) > beats + 0.001;
   });
-  return patchSession(session, { events: events, durationKey: durationKey, dotted: !!dotted });
+  return willSplit ? 'Split rest' : 'Change duration';
 }
 
 export function toggleDotOnSelection(session) {
@@ -773,6 +970,25 @@ export function toggleSelectionEventId(selection, eventId) {
  * Select the measure containing eventId: notes/rests from after the previous
  * barline through the trailing barline of that measure (exclusive of next measure).
  */
+/** Select all notes, chords, and rests in the voice (excludes barlines / line breaks). */
+export function selectAllPitchedEvents(session) {
+  const events = session.events || [];
+  const ids = events
+    .filter(function(ev) {
+      return ev.type === 'note' || ev.type === 'chord' || ev.type === 'rest';
+    })
+    .map(function(ev) { return ev.id; });
+  if (!ids.length) {
+    return Object.assign({}, session, {
+      selection: { eventIds: [], toneIndex: null, anchorId: null },
+    });
+  }
+  return Object.assign({}, session, {
+    selection: { eventIds: ids, toneIndex: null, anchorId: ids[0] },
+    caretIndex: 0,
+  });
+}
+
 export function selectMeasureContaining(events, eventId) {
   if (!events || !events.length || !eventId) return [];
   const idx = events.findIndex(function(ev) { return ev.id === eventId; });

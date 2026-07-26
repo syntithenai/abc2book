@@ -41,6 +41,7 @@ import {
   shouldUseMidiMetronomeCountIn,
   metronomeSlotFromMusicSeconds,
   timeUntilNextMetronomeSlot,
+  resolveMetronomeAlignTarget,
   computePlaybackMetronomeTempo,
   notationBeatToAudioSeconds,
   notationBeatToAudioRatio,
@@ -898,5 +899,27 @@ describe('timeUntilNextMetronomeSlot', function() {
 
   test('returns remaining beat time mid-bar', function() {
     expect(timeUntilNextMetronomeSlot(0.25, 120, rhythm44)).toBeCloseTo(0.25)
+  })
+})
+
+describe('resolveMetronomeAlignTarget', function() {
+  const rhythm44 = rhythmFromPreset('4-4')
+
+  test('at bar downbeat schedules accent slot immediately', function() {
+    const target = resolveMetronomeAlignTarget(0, 120, rhythm44)
+    expect(target.slot).toBe(0)
+    expect(target.delaySec).toBeCloseTo(0.02)
+  })
+
+  test('mid-beat schedules next slot at subdivision boundary', function() {
+    const target = resolveMetronomeAlignTarget(0.25, 120, rhythm44)
+    expect(target.slot).toBe(1)
+    expect(target.delaySec).toBeCloseTo(0.25)
+  })
+
+  test('wraps to next bar after last beat', function() {
+    const target = resolveMetronomeAlignTarget(1.75, 120, rhythm44)
+    expect(target.slot).toBe(0)
+    expect(target.delaySec).toBeCloseTo(0.25)
   })
 })

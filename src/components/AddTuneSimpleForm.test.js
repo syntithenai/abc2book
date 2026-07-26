@@ -3,7 +3,7 @@
  */
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import { act } from 'react-dom/test-utils'
+import { act, Simulate } from 'react-dom/test-utils'
 import AddTuneSimpleForm from './AddTuneSimpleForm'
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
@@ -53,6 +53,32 @@ jest.mock('../useMusicBrainzArtistOptions', function() {
   return function useMusicBrainzArtistOptions() { return { options: [], loading: false } }
 })
 
+jest.mock('../artistDiscographyClient', function() {
+  return {
+    fetchArtistDiscography: jest.fn(),
+  }
+})
+
+jest.mock('../albumDiscographyClient', function() {
+  return {
+    fetchAlbumDiscography: jest.fn(),
+  }
+})
+
+jest.mock('react-toastify', function() {
+  return {
+    toast: {
+      success: jest.fn(),
+      info: jest.fn(),
+      error: jest.fn(),
+    },
+  }
+})
+
+const { fetchArtistDiscography } = require('../artistDiscographyClient')
+const { fetchAlbumDiscography } = require('../albumDiscographyClient')
+const { toast } = require('react-toastify')
+
 describe('AddTuneSimpleForm', function() {
   let container
   let root
@@ -61,6 +87,10 @@ describe('AddTuneSimpleForm', function() {
     container = document.createElement('div')
     document.body.appendChild(container)
     root = createRoot(container)
+    fetchArtistDiscography.mockReset()
+    toast.success.mockReset()
+    toast.info.mockReset()
+    toast.error.mockReset()
   })
 
   afterEach(function() {
@@ -126,5 +156,109 @@ describe('AddTuneSimpleForm', function() {
     const youtube = container.querySelector('[data-testid="add-tune-youtube-block"]')
     expect(youtube.getAttribute('data-search-query')).toBe('Whiskey in the Jar The Dubliners')
     expect(Number(youtube.getAttribute('data-search-nonce'))).toBeGreaterThan(0)
+  })
+
+  test('discography button is disabled without composer', function() {
+    act(function() {
+      root.render(React.createElement(AddTuneSimpleForm, {
+        values: { title: 'Song', artist: '' },
+        tunes: {},
+        candidateId: 'add-1',
+        onChange: jest.fn(),
+      }))
+    })
+    expect(container.querySelector('[data-testid="add-tune-discography"]').disabled).toBe(true)
+  })
+
+  test('discography lookup shows spinner and fills bulk import', async function() {
+    let resolveLookup
+    fetchArtistDiscography.mockReturnValue(new Promise(function(resolve) {
+      resolveLookup = resolve
+    }))
+    const onFillBulkDiscography = jest.fn()
+
+    act(function() {
+      root.render(React.createElement(AddTuneSimpleForm, {
+        values: { title: 'Song', artist: 'The Beatles' },
+        tunes: {},
+        candidateId: 'add-1',
+        onChange: jest.fn(),
+        onFillBulkDiscography: onFillBulkDiscography,
+      }))
+    })
+
+    const button = container.querySelector('[data-testid="add-tune-discography"]')
+    expect(button.disabled).toBe(false)
+
+    await act(async function() {
+      button.click()
+    })
+    expect(container.querySelector('[data-testid="add-tune-discography-progress"]')).toBeTruthy()
+
+    await act(async function() {
+      resolveLookup({
+        artistName: 'The Beatles',
+        artistMbid: 'mbid-1',
+        titles: ['Yesterday', 'Let It Be'],
+      })
+      await Promise.resolve()
+    })
+
+    expect(onFillBulkDiscography).toHaveBeenCalledWith([
+      'Yesterday by The Beatles',
+      'Let It Be by The Beatles',
+    ])
+    expect(toast.success).toHaveBeenCalled()
+    expect(button.querySelector('.spinner-border')).toBeNull()
+  })
+
+  test('album discography button loads tracks into bulk import', async function() {
+    fetchAlbumDiscography.mockResolvedValue({
+      albumName: 'Abbey Road',
+      artistName: 'The Beatles',
+      titles: ['Come Together', 'Something'],
+    })
+    const onFillBulkDiscography = jest.fn()
+
+    act(function() {
+      root.render(React.createElement(AddTuneSimpleForm, {
+        values: { title: 'Song', artist: 'The Beatles' },
+        tunes: {},
+        candidateId: 'add-1',
+        onChange: jest.fn(),
+        onFillBulkDiscography: onFillBulkDiscography,
+      }))
+    })
+
+    const albumInput = container.querySelector('[data-testid="add-tune-album"]')
+    await act(async function() {
+      Simulate.change(albumInput, { target: { value: 'Abbey Road' } })
+    })
+
+    const button = container.querySelector('[data-testid="add-tune-album-discography"]')
+    expect(button.disabled).toBe(false)
+
+    await act(async function() {
+      button.click()
+      await Promise.resolve()
+    })
+
+    expect(fetchAlbumDiscography).toHaveBeenCalledWith('Abbey Road', 'The Beatles', expect.any(Object))
+    expect(onFillBulkDiscography).toHaveBeenCalledWith([
+      'Come Together by The Beatles',
+      'Something by The Beatles',
+    ])
+  })
+
+  test('album discography button is disabled without album name', function() {
+    act(function() {
+      root.render(React.createElement(AddTuneSimpleForm, {
+        values: { title: 'Song', artist: 'The Beatles' },
+        tunes: {},
+        candidateId: 'add-1',
+        onChange: jest.fn(),
+      }))
+    })
+    expect(container.querySelector('[data-testid="add-tune-album-discography"]').disabled).toBe(true)
   })
 })

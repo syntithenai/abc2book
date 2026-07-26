@@ -8,6 +8,7 @@ import { pickAuthResolverBase, resolveStickyAuthBase } from './authResolverClien
 import { tryRefreshAccessToken } from './googleLoginRefreshRegistry';
 import { getActiveProviderHeaders, loadProviderSettings } from './providerSettings';
 import { getYoutubeEgressHeaders } from './youtubeUnlock';
+import { isMusicCollectionLinkUri, musicCollectionProxyPathFromUri } from './musicCollectionLinkUtils';
 
 let activeProxyBase = null;
 let heavyMlProxyBase = null;
@@ -187,6 +188,10 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/lyrics-alliteration') === 0) return 'lyrics-alliteration';
   if (pathAndQuery.indexOf('/search-chords') === 0) return 'search-chords';
   if (pathAndQuery.indexOf('/search-notation') === 0) return 'search-notation';
+  if (pathAndQuery.indexOf('/search-music-collection') === 0) return 'search-music-collection';
+  if (pathAndQuery.indexOf('/rebuild-music-collection-index') === 0) return 'rebuild-music-collection-index';
+  if (pathAndQuery.indexOf('/music-collection/') === 0) return 'music-collection';
+  if (pathAndQuery.indexOf('/music-collection-art/') === 0) return 'music-collection-art';
   if (pathAndQuery.indexOf('/research-tune-background') === 0) return 'research-tune-background';
   if (pathAndQuery.indexOf('/generate-feed-articles') === 0) return 'generate-feed-articles';
   if (pathAndQuery.indexOf('/generate-feed-quizzes') === 0) return 'generate-feed-quizzes';
@@ -319,6 +324,16 @@ async function tryHealthAtBase(base, accessToken) {
         ? body.soundfontsProgress
         : null,
       soundfontsRunning: body.soundfontsRunning === true,
+      musicCollectionCount: typeof body.musicCollectionCount === 'number'
+        ? body.musicCollectionCount
+        : 0,
+      musicCollectionDir: typeof body.musicCollectionDir === 'string' ? body.musicCollectionDir : null,
+      musicCollectionIndex: typeof body.musicCollectionIndex === 'string' ? body.musicCollectionIndex : null,
+      musicCollectionStats: typeof body.musicCollectionStats === 'string' ? body.musicCollectionStats : null,
+      musicCollectionBuiltAt: typeof body.musicCollectionBuiltAt === 'string' ? body.musicCollectionBuiltAt : null,
+      musicCollectionSummary: body.musicCollectionSummary && typeof body.musicCollectionSummary === 'object'
+        ? body.musicCollectionSummary
+        : null,
     };
   } catch (e) {
     return {
@@ -406,6 +421,24 @@ export async function probeMediaResolverCandidates(accessToken) {
     authReason: activeCandidate ? (activeCandidate.authReason || '') : '',
     providers: activeCandidate && activeCandidate.providers
       ? activeCandidate.providers
+      : null,
+    musicCollectionCount: activeCandidate && typeof activeCandidate.musicCollectionCount === 'number'
+      ? activeCandidate.musicCollectionCount
+      : 0,
+    musicCollectionDir: activeCandidate && activeCandidate.musicCollectionDir
+      ? activeCandidate.musicCollectionDir
+      : null,
+    musicCollectionIndex: activeCandidate && activeCandidate.musicCollectionIndex
+      ? activeCandidate.musicCollectionIndex
+      : null,
+    musicCollectionStats: activeCandidate && activeCandidate.musicCollectionStats
+      ? activeCandidate.musicCollectionStats
+      : null,
+    musicCollectionBuiltAt: activeCandidate && activeCandidate.musicCollectionBuiltAt
+      ? activeCandidate.musicCollectionBuiltAt
+      : null,
+    musicCollectionSummary: activeCandidate && activeCandidate.musicCollectionSummary
+      ? activeCandidate.musicCollectionSummary
       : null,
   };
 }
@@ -581,6 +614,18 @@ export async function fetchDirectOrProxy(options) {
     throw new Error(
       'Could not resolve YouTube audio stream (install the TuneBook Helper extension, or configure a media resolver)'
     );
+  }
+
+  if (isMusicCollectionLinkUri(src)) {
+    if (!isMediaProxyConfigured()) {
+      throw new Error('Music collection playback requires a configured media resolver');
+    }
+    const proxyPath = musicCollectionProxyPathFromUri(src);
+    if (!proxyPath) {
+      throw new Error('Invalid music collection link');
+    }
+    const response = await fetchViaMediaProxy(proxyPath, accessToken);
+    return { response: response, viaProxy: true };
   }
 
   const directResponse = await tryDirectFetch(src);

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useLocation, Link } from 'react-router-dom'
 import { useDocumentTitle } from '../pageTitle'
 import FeedCard from '../components/FeedCard'
-import StudyNavRail from '../components/StudyNavRail'
+import StudyPageChrome from '../components/StudyPageChrome'
 import './FeedPage.css'
 import { getRecentViewedTuneIds } from '../tuneViewHistoryStore'
 import {
@@ -352,31 +352,36 @@ export default function FeedPage(props) {
   }
 
   return (
-    <div className="feed-page" data-testid="feed-page">
-      <StudyNavRail active="feed" tunebook={props.tunebook} />
-      {showFeedbackControls && feedbackCount > 0 ? (
-        <div className="feed-feedback-toolbar" data-testid="feed-feedback-toolbar">
-          <button
-            type="button"
-            className="feed-feedback-download"
-            data-testid="feed-feedback-download"
-            title="Download feedback JSON"
-            onClick={function() { downloadFeedFeedbackJson('feed-feedback.json') }}
-          >
-            Download feedback
-          </button>
-          <button
-            type="button"
-            className="feed-feedback-clear"
-            data-testid="feed-feedback-clear"
-            title="Clear all feedback"
-            aria-label="Clear all feedback"
-            onClick={handleClearFeedback}
-          >
-            ×
-          </button>
-        </div>
-      ) : null}
+    <div className="feed-page study-page-with-chrome" data-testid="feed-page">
+      <StudyPageChrome
+        active="feed"
+        tunebook={props.tunebook}
+        end={
+          showFeedbackControls && feedbackCount > 0 ? (
+            <div className="study-page-chrome__extra feed-feedback-toolbar" data-testid="feed-feedback-toolbar">
+              <button
+                type="button"
+                className="feed-feedback-download"
+                data-testid="feed-feedback-download"
+                title="Download feedback JSON"
+                onClick={function() { downloadFeedFeedbackJson('feed-feedback.json') }}
+              >
+                Download feedback
+              </button>
+              <button
+                type="button"
+                className="feed-feedback-clear"
+                data-testid="feed-feedback-clear"
+                title="Clear all feedback"
+                aria-label="Clear all feedback"
+                onClick={handleClearFeedback}
+              >
+                ×
+              </button>
+            </div>
+          ) : null
+        }
+      />
       <div className="feed-progress" data-testid="feed-progress">
         <span>Today {progress.learnedCount}/{FEED_DAILY_GOAL}</span>
       </div>

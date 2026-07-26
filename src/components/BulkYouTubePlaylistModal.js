@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Alert, Button, Form, Modal } from 'react-bootstrap';
 import useYouTubePlaylist, { parseYouTubePlaylistId } from '../useYouTubePlaylist';
 import { formatBulkLine } from '../bulkListFormat';
+import { parseTitleArtistFromYouTubeLabel } from '../youtubeTitleParse';
 
 export default function BulkYouTubePlaylistModal(props) {
   const [show, setShow] = useState(false);
@@ -32,9 +33,10 @@ export default function BulkYouTubePlaylistModal(props) {
         return;
       }
       const lines = items.map(function(item) {
+        const parsed = parseTitleArtistFromYouTubeLabel(item.title || '', '');
         return formatBulkLine({
-          title: item.title || 'Untitled',
-          artist: '',
+          title: parsed.title || item.title || 'Untitled',
+          artist: parsed.artist || '',
           link: item.youtubeId ? 'https://www.youtube.com/watch?v=' + item.youtubeId : '',
         });
       }).join('\n');

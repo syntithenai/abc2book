@@ -1,5 +1,6 @@
 import {
   collectOwnedMediaForShareScope,
+  collectCollectionMediaForShareScope,
   uploadPendingOwnedMediaInScope,
   summarizeShareMediaWork,
   isTunebookPublicShared,
@@ -20,7 +21,14 @@ jest.mock('./linkRecording', function() {
   }
 })
 
+jest.mock('./musicCollectionShare', function() {
+  return {
+    uploadCollectionLinksForTune: jest.fn(),
+  }
+})
+
 import { uploadOwnedMediaLinksForTune } from './linkRecording'
+import { uploadCollectionLinksForTune } from './musicCollectionShare'
 
 describe('shareOwnedMediaUtils', function() {
   const tunes = {
@@ -47,8 +55,48 @@ describe('shareOwnedMediaUtils', function() {
     uploadOwnedMediaLinksForTune.mockImplementation(async function(tune) {
       return { uploaded: 0, errors: [], tune: tune }
     })
+    uploadCollectionLinksForTune.mockReset()
+    uploadCollectionLinksForTune.mockImplementation(async function(tune) {
+      return { uploaded: 0, errors: [], tune: tune }
+    })
     resetTunebookPublicSharedCache()
     localStorage.clear()
+  })
+
+  test('collectCollectionMediaForShareScope finds library links', function() {
+    const withCollection = {
+      t3: {
+        id: 't3',
+        name: 'Library tune',
+        links: [
+          { title: 'Track', link: 'https://resolver/music-collection/a.mp3' },
+        ],
+      },
+    }
+    const entries = collectCollectionMediaForShareScope(withCollection, {
+      shareKind: 'tune',
+      tuneId: 't3',
+    })
+    expect(entries.length).toBe(1)
+    expect(entries[0].kind).toBe('collection')
+  })
+
+  test('summarizeShareMediaWork counts collection uploads', function() {
+    const withCollection = {
+      t3: {
+        id: 't3',
+        name: 'Library tune',
+        links: [
+          { title: 'Track', link: 'https://resolver/music-collection/a.mp3' },
+        ],
+      },
+    }
+    const summary = summarizeShareMediaWork(withCollection, {
+      shareKind: 'tune',
+      tuneId: 't3',
+    })
+    expect(summary.needsUpload).toBe(1)
+    expect(summary.hasWork).toBe(true)
   })
 
   test('collectOwnedMediaForShareScope on tune includes all owned links', function() {

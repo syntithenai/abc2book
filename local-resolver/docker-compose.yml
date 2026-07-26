@@ -12,12 +12,15 @@ services:
       - "${WHISPER_MODELS_DIR:-./whisper/models}:/models:ro"
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
+      - "${MUSIC_COLLECTION_HOST_DIR:-./music-collection}:/music-collection:ro"
       - ../:/app/www:ro
     environment:
       PORT: "8787"
       STATIC_SITE_DIR: /app/www
       SOUNDFONT_DIR: /soundfonts
       MIDI_RESOURCES_DIR: /midi-resources
+      MUSIC_COLLECTION_DIR: /music-collection
+      MUSIC_COLLECTION_INDEX_DIR: ${MUSIC_COLLECTION_INDEX_DIR:-/app/data/music-collection}
       SOUNDFONT_DOWNLOAD_ENABLED: "${SOUNDFONT_DOWNLOAD_ENABLED:-true}"
       # Auth settings (REQUIRE_AUTH, GOOGLE_CLIENT_ID, ALLOWED_EMAILS, ALLOWED_ORIGINS)
       # come from .env via env_file above. Do NOT hardcode REQUIRE_AUTH here, because

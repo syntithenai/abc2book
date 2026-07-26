@@ -336,16 +336,15 @@ async function runStaffCoreTests(page, ctx) {
     }
   })
 
-  await runScenario(results, 'P0: empty-staff marquee selects notes', async function() {
+  await runScenario(results, 'P0: Shift+drag marquee selects notes', async function() {
     await resetNotationFixture(page, BASIC_TUNE_ID)
     await focusNotationEditor(page)
     await ensureNormalMode(page)
     const centers = await staffNoteCenters(page, 0)
     if (centers.length < 2) throw new Error('need notes for marquee')
-    // Start well below the system (empty paper), expand upward over C and D centers.
-    // Avoid y-near noteheads/stems — that starts pitch-drag or glyph-hit, not marquee.
     const startX = centers[0].x - 12
     const startY = centers[0].y + 48
+    await page.keyboard.down('Shift')
     await page.mouse.move(startX, startY)
     await page.mouse.down()
     await page.mouse.move(centers[1].x + 18, centers[1].y - 20, { steps: 14 })
@@ -354,6 +353,7 @@ async function runStaffCoreTests(page, ctx) {
       return !!document.querySelector('[data-testid="notation-staff-marquee"]')
     })
     await page.mouse.up()
+    await page.keyboard.up('Shift')
     await sleep(300)
     const sel = await page.evaluate(function() {
       const h = window.__abc2bookNotationTest

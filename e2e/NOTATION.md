@@ -126,15 +126,16 @@ Semantics pinned by tests (see help for full list):
 | **R** | Repeat selection at caret (or repeat last) |
 | **T** | Toggle tie to next note |
 | **Q / W** | Halve / double duration |
-| **Ctrl+C/X/V** | Copy / cut / paste |
+| **Ctrl+C/X/V** | Copy / cut / paste (paste with selection overwrites beat span from anchor) |
+| **Ctrl/Cmd+A** | Select all notes, chords, and rests in active voice |
 | **Ctrl+Alt+P** | Cycle Staff → Piano roll → Split |
-| **Staff drag** | Vertical drag = diatonic steps; live ghost overlay while dragging; commit on pointerup (`dragging={false}`); auditions on commit |
-| **Click select note** | Selects + piano audition |
+| **Staff drag** | Vertical drag on selected notehead = diatonic steps; unselected note drag selects (no marquee) |
+| **Click select note** | Whole notehead selects + piano audition |
 | **Shift+click** | Contiguous range from selection `anchorId` |
 | **Ctrl/Cmd+click** | Toggle event in multi-select |
-| **Empty-staff drag** | Marquee select (glyph centers intersecting rect) |
+| **Shift+drag** | Marquee / block select (desktop); long-press+drag on touch |
 | **Double-click note** | Select whole measure through trailing barline |
-| **Click barline** | Select that barline event (Delete removes it) |
+| **Click barline** | Select measure before barline |
 | **(3** | Start triplet input or apply triplet to multi-selection; ABC `(p:q:r)` when needed |
 | **Slur endpoints** | Drag blue handles; red snap target; clear slur clears whole group |
 | **Break beam** | Tools/Tuplets menu — `beamBreakBefore` → space in ABC |

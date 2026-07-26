@@ -7,6 +7,7 @@ import {
   tokenResponseIncludesPhotosScope,
 } from '../googlePhotosPickerClient'
 import { clearFilePickerIntent } from '../filePickerIntent'
+import GoogleUnverifiedAppAlert from './GoogleUnverifiedAppAlert'
 
 export default function SheetImageGooglePhotosModal(props) {
   const allowVideos = !!props.allowVideos
@@ -123,18 +124,7 @@ export default function SheetImageGooglePhotosModal(props) {
       </Modal.Header>
       <Modal.Body>
         <p className="mb-2">{intro}</p>
-        <Alert variant="info" className="small mb-3">
-          <strong>If Google shows &quot;Google hasn&apos;t verified this app&quot;</strong>
-          <ol className="mb-0 ps-3 mt-2">
-            <li>Click <strong>Advanced</strong></li>
-            <li>Click <strong>Go to tunebook (unsafe)</strong> or <strong>Continue</strong></li>
-          </ol>
-          <div className="mt-2 text-muted">
-            That warning appears because photo access is a sensitive permission. For private use, add your Google account under
-            {' '}<strong>Google Cloud Console → OAuth consent screen → Test users</strong>.
-            Public use on tunebook.net requires submitting the app for Google verification.
-          </div>
-        </Alert>
+        <GoogleUnverifiedAppAlert permissionNote="photo access is a sensitive permission." />
         {status ? <div className="small text-muted mb-2">{status}</div> : null}
         {pickerUrl ? (
           <div className="mb-2">

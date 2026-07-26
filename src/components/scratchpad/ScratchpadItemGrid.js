@@ -35,6 +35,10 @@ export default function ScratchpadItemGrid(props) {
             key={item.id}
             item={item}
             tunebook={props.tunebook}
+            selected={!!(props.selected && props.selected[item.id])}
+            onToggleSelect={function() {
+              if (props.onToggleSelect) props.onToggleSelect(item.id)
+            }}
             onClick={function() {
               if (props.onItemClick) props.onItemClick(item.id)
             }}

@@ -46,8 +46,7 @@
   /* Match .App-header height so the toolbar sits just below the fixed nav */
   top: var(--chrome-header-offset, 3.3em);
   z-index: 30;
-}
-.notation-editing-controls-main {
+  touch-action: manipulation;
   zoom: var(--chrome-vv-zoom, 1);
 }
 .notation-editing-controls {
@@ -69,14 +68,14 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 3rem;
-  min-width: 2.75rem;
+  min-height: var(--notation-toolbar-btn-height, 2.35rem);
+  min-width: 2.25rem;
   font-weight: 600;
 }
 .notation-toolbar-history .btn svg {
   display: block;
-  width: 1.35rem;
-  height: 1.35rem;
+  width: 1.05rem;
+  height: 1.05rem;
 }
 .notation-toolbar-history .btn svg path:not([fill="none"]) {
   fill: currentColor;
@@ -120,8 +119,8 @@
 }
 .notation-view-toggle-icon svg {
   display: block;
-  width: 1.35rem;
-  height: 1.35rem;
+  width: 1.05rem;
+  height: 1.05rem;
 }
 .notation-view-toggle-icon svg path:not([fill="none"]) {
   fill: currentColor;
@@ -145,8 +144,8 @@
   align-self: flex-start;
 }
 .notation-playback-controls .btn svg {
-  width: 1.15rem;
-  height: 1.15rem;
+  width: 1.05rem;
+  height: 1.05rem;
 }
 .notation-playback-controls .notation-playback-tempo {
   width: 4.75rem;
@@ -200,10 +199,17 @@
     margin-left: 0.15rem;
   }
 }
-.notation-toolbar .btn-lg {
-  min-width: 2.75rem;
-  min-height: 3rem;
+.notation-editing-controls {
+  --notation-toolbar-btn-height: 2.35rem;
+}
+.notation-toolbar .btn-lg,
+.notation-duration-toolbar .btn-lg {
+  min-width: 2.25rem;
+  min-height: var(--notation-toolbar-btn-height, 2.35rem);
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   font-weight: 600;
+  line-height: 1.1;
 }
 .notation-view-selector .dropdown-toggle {
   font-weight: 600;
@@ -223,20 +229,22 @@
 }
 .notation-accidental-buttons .btn svg,
 .notation-clear-icon-btn svg {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.05rem;
+  height: 1.05rem;
   display: block;
 }
 .notation-clear-icon-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 2.75rem;
-  padding-left: 0.55rem;
-  padding-right: 0.55rem;
+  min-width: 2.25rem;
+  min-height: var(--notation-toolbar-btn-height, 2.35rem);
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
 }
 .notation-chord-symbol-toolbar .btn {
-  min-width: 2.75rem;
+  min-width: 2.25rem;
+  min-height: var(--notation-toolbar-btn-height, 2.35rem);
 }
 .notation-duration-dropdown .btn,
 .notation-accidental-dropdown .btn,
@@ -309,18 +317,29 @@
 .notation-mode-badge-input-slot {
   display: inline-flex;
   align-items: center;
+  align-self: center;
   flex-shrink: 0;
 }
 .notation-mode-badge-input--reserved {
   visibility: hidden;
   pointer-events: none;
 }
+.notation-note-input-method-group,
+.notation-duration-buttons {
+  align-self: center;
+}
+.notation-note-input-method-group > .btn,
+.notation-note-input-method-group .dropdown-toggle {
+  min-height: var(--notation-toolbar-btn-height, 2.35rem);
+}
 .notation-duration-buttons .btn {
-  min-width: 2.15rem;
+  min-width: 2rem;
+  min-height: var(--notation-toolbar-btn-height, 2.35rem);
   font-weight: 600;
-  font-size: 0.9rem;
-  padding-left: 0.35rem;
-  padding-right: 0.35rem;
+  font-size: 0.82rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  line-height: 1.1;
 }
 @media (min-width: 992px) {
   .notation-duration-buttons .btn {
@@ -747,8 +766,8 @@
 }
 .notation-toolbar [data-testid="notation-virtual-piano-toggle"] svg {
   display: block;
-  width: 1.35rem;
-  height: 1.35rem;
+  width: 1.05rem;
+  height: 1.05rem;
 }
 .notation-toolbar [data-testid="notation-virtual-piano-toggle"] svg path {
   fill: currentColor;
@@ -1000,13 +1019,14 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 2.75rem;
-  padding-left: 0.55rem;
-  padding-right: 0.55rem;
+  min-width: 2.25rem;
+  min-height: var(--notation-toolbar-btn-height, 2.35rem);
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
 }
 .notation-clipboard-toolbar .btn svg {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.05rem;
+  height: 1.05rem;
   display: block;
 }
 .notation-clipboard-toolbar .btn svg path:not([fill="none"]) {

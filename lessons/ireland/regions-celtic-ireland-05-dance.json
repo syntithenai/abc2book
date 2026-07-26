@@ -132,13 +132,8 @@
       "level": 2,
       "blocks": [
         {
-          "type": "track",
-          "id": "set-dancing",
-          "label": "Set dancing"
-        },
-        {
           "type": "markdown",
-          "text": " adapts **French quadrille** figures to local taste — four couples facing in a square, dancing **figures** to matched tunes. Sets arrived in Ireland in the nineteenth century through military and gentry ballrooms, then **folk-processed** into regional variants with Irish tune choices and social contexts far from Parisian salons."
+          "text": "[[track:set-dancing|Set dancing]] adapts **French quadrille** figures to local taste — four couples facing in a square, dancing **figures** to matched tunes. Sets arrived in Ireland in the nineteenth century through military and gentry ballrooms, then **folk-processed** into regional variants with Irish tune choices and social contexts far from Parisian salons."
         }
       ]
     },
@@ -291,13 +286,8 @@
       "level": 2,
       "blocks": [
         {
-          "type": "track",
-          "id": "sean-nos-dance",
-          "label": "Sean-nós dance"
-        },
-        {
           "type": "markdown",
-          "text": " is **low to the ground**, **improvisatory**, and tied to **unaccompanied song** — performed on a **door**, table, or small platform so feet resonate. Arms move **freely**; steps respond to the **singer's phrasing** rather than an adjudicator's score sheet."
+          "text": "[[track:sean-nos-dance|Sean-nós dance]] is **low to the ground**, **improvisatory**, and tied to **unaccompanied song** — performed on a **door**, table, or small platform so feet resonate. Arms move **freely**; steps respond to the **singer's phrasing** rather than an adjudicator's score sheet."
         }
       ]
     },
@@ -626,21 +616,21 @@
       "id": "sean-nos-dance",
       "entity_id": "riverdance",
       "label": "Sean-nós dance",
-      "youtube": "https://www.youtube.com/watch?v=0qanF-91aEs",
+      "youtube": "https://www.youtube.com/watch?v=s11BuatTuXk",
       "subtitle": "Riverdance"
     },
     {
       "id": "set-dancing",
       "entity_id": "riverdance",
       "label": "Set dancing",
-      "youtube": "https://www.youtube.com/watch?v=6x0c3R6Lz5Y",
+      "youtube": "https://www.youtube.com/watch?v=L__TrWhq4Uk",
       "subtitle": "Riverdance"
     },
     {
       "id": "step-dance",
       "entity_id": "riverdance",
       "label": "Competition step dance",
-      "youtube": "https://www.youtube.com/watch?v=H1QldbqXh8I",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
       "subtitle": "Riverdance"
     }
   ],

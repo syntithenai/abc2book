@@ -29,6 +29,8 @@ import {
   alignedLyricPreviewPairs,
   buildReviewFormState,
   buildTuneFormSyncSignal,
+  applyForcedBookToBookList,
+  primaryBookFromBookList,
   formValuesToTune,
   importSuggestionDiffersFromForm,
   importedNotationText,
@@ -62,6 +64,8 @@ import FieldLookupReviewButton from './FieldLookupReviewButton';
 import { summarizeSheetSnapshotCandidates } from '../bulkSheetSnapshotImport';
 import { pendingSnapshotsFromCandidate, describeSnapshotForCancel } from '../importReviewSnapshots';
 import { normalizeAbcForImport } from '../abcImportNormalize';
+import { setBulkImportText } from '../addBulkImportTextStore';
+import BookSelectorModal from './BookSelectorModal';
 
 function sheetSnapshotReviewMessage(summary) {
   if (!summary || !summary.total) return '';
@@ -405,6 +409,13 @@ export default function ImportReviewModal(props) {
     }) || null;
   }, [session, activeCandidate]);
 
+  const runningEnrichmentJob = useMemo(function() {
+    if (!session || !Array.isArray(session.enrichmentJobs)) return null;
+    return session.enrichmentJobs.find(function(job) {
+      return job.status === 'running' || job.status === 'pending';
+    }) || null;
+  }, [session]);
+
   const enrichedImportedTune = useMemo(function() {
     if (!activeCandidate) return null;
     return mergeCandidateWithEnrichment(activeCandidate, activeJob);
@@ -424,6 +435,12 @@ export default function ImportReviewModal(props) {
     const imported = enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {};
     const effectiveMergeId = targetMergeId != null ? targetMergeId : mergeTargetId;
     formDirtyRef.current = false;
+    function applySessionForcedBook(formValues) {
+      if (!session || isAddTunesChrome(session) || !session.forcedBook) return formValues;
+      const nextBookList = applyForcedBookToBookList(formValues.bookList, session.forcedBook);
+      if (nextBookList === formValues.bookList) return formValues;
+      return Object.assign({}, formValues, { bookList: nextBookList });
+    }
     const overrides = activeCandidate && activeCandidate.draftFormOverrides
       && typeof activeCandidate.draftFormOverrides === 'object'
       ? activeCandidate.draftFormOverrides
@@ -489,7 +506,7 @@ export default function ImportReviewModal(props) {
         built.formValues
       );
       const applied = applyDraftOverrides(built.formValues, withChoices);
-      setFormValues(applied.formValues);
+      setFormValues(applySessionForcedBook(applied.formValues));
       setSuggestions(applied.suggestions);
       setAutoAppliedKeys(Array.isArray(built.autoAppliedKeys) ? built.autoAppliedKeys.slice() : []);
       setAcceptedImportCount(0);
@@ -520,12 +537,12 @@ export default function ImportReviewModal(props) {
       formSyncTimerRef.current = null;
     }
     suppressFormInitRef.current = !!(activeCandidate && activeCandidate.inlineFormValues);
-    setFormValues(applied.formValues);
+    setFormValues(applySessionForcedBook(applied.formValues));
     setSuggestions(applied.suggestions);
     setAutoAppliedKeys(Array.isArray(built.autoAppliedKeys) ? built.autoAppliedKeys.slice() : []);
     setAcceptedImportCount(0);
     setMergeBaselineTune(null);
-  }, [activeCandidate, enrichedImportedTune, mergeTargetId, tunes]);
+  }, [activeCandidate, enrichedImportedTune, mergeTargetId, tunes, session && session.forcedBook]);
 
   function patchFormValues(updater) {
     formDirtyRef.current = true;
@@ -972,11 +989,81 @@ export default function ImportReviewModal(props) {
     ? session.addPanelMode
     : 'form';
 
+  function syncSessionForcedBookFromForm(targetSession) {
+    if (!targetSession || typeof props.onSessionChange !== 'function') return targetSession;
+    const book = primaryBookFromBookList(formValues.bookList);
+    if (!book) return targetSession;
+    const nextBook = String(book).trim().toLowerCase();
+    if (targetSession.forcedBook === nextBook) return targetSession;
+    return Object.assign({}, targetSession, { forcedBook: nextBook });
+  }
+
+  function fillBulkImportLines(lines) {
+    const text = Array.isArray(lines) ? lines.join('\n') : String(lines || '');
+    if (!text.trim()) return;
+    setBulkImportText(text);
+    if (session) {
+      const nextSession = syncSessionForcedBookFromForm(session);
+      if (nextSession !== session) props.onSessionChange(nextSession);
+    }
+    setAddPanelMode('bulk');
+  }
+
   function setAddPanelMode(mode) {
     if (!addTunesMode || !session || typeof props.onSessionChange !== 'function') return;
     const next = mode === 'curated' || mode === 'bulk' ? mode : 'form';
-    props.onSessionChange(Object.assign({}, session, { addPanelMode: next }));
+    let nextSession = Object.assign({}, session, { addPanelMode: next });
+    if (next === 'bulk') nextSession = syncSessionForcedBookFromForm(nextSession);
+    props.onSessionChange(nextSession);
   }
+
+  function setSessionForcedBook(book) {
+    const nextBook = book ? String(book).trim().toLowerCase() : '';
+    if (!session || typeof props.onSessionChange !== 'function') return;
+    props.onSessionChange(Object.assign({}, session, { forcedBook: nextBook }));
+    patchFormValues(function(current) {
+      const nextBookList = applyForcedBookToBookList(current.bookList, nextBook);
+      if (nextBookList === current.bookList) return current;
+      return Object.assign({}, current, { bookList: nextBookList });
+    });
+  }
+
+  const forcedBookBar = !addTunesMode && props.tunebook ? (
+    <div
+      className="d-flex align-items-center gap-2 import-review-forced-book-bar"
+      data-testid="import-review-forced-book-bar"
+    >
+      <span className="small text-muted mb-0 text-nowrap">Force book on all</span>
+      <ButtonGroup>
+        {session.forcedBook ? (
+          <Button
+            variant="outline-secondary"
+            title="Clear forced book"
+            onClick={function() { setSessionForcedBook(''); }}
+          >
+            {props.tunebook.icons && props.tunebook.icons.closecircle
+              ? props.tunebook.icons.closecircle
+              : '×'}
+          </Button>
+        ) : null}
+        <BookSelectorModal
+          forceRefresh={props.forceRefresh}
+          title="Force book on all imports"
+          tunebook={props.tunebook}
+          value={session.forcedBook || ''}
+          onChange={setSessionForcedBook}
+          defaultOptions={props.tunebook.getTuneBookOptions}
+          searchOptions={props.tunebook.getSearchTuneBookOptions}
+          triggerElement={
+            <Button variant="outline-secondary">
+              {props.tunebook.icons && props.tunebook.icons.book ? props.tunebook.icons.book : null}{' '}
+              {session.forcedBook ? <b>{session.forcedBook}</b> : 'Select book'}
+            </Button>
+          }
+        />
+      </ButtonGroup>
+    </div>
+  ) : null;
 
   function selectFormPanelMode() {
     if (!addTunesMode || addPanelMode === 'form') return;
@@ -984,6 +1071,10 @@ export default function ImportReviewModal(props) {
       props.onSessionChange(Object.assign({}, session, { addPanelMode: 'form' }));
     }
   }
+
+  const bulkForcedBook = session && session.forcedBook
+    ? session.forcedBook
+    : primaryBookFromBookList(formValues.bookList).toLowerCase();
 
   const addFromToolbar = (
     <div className="add-from-strip">
@@ -1597,6 +1688,7 @@ export default function ImportReviewModal(props) {
           tunes={tunes}
           statusBanner={statusBanner}
           pendingSnapshots={pendingSnapshotsFromCandidate(activeCandidate)}
+          forcedBook={!addTunesMode && session.forcedBook ? session.forcedBook : ''}
         />
       </div>
       <div style={{ flex: '0 0 280px', maxWidth: '280px', overflowY: 'auto' }}>
@@ -1644,6 +1736,9 @@ export default function ImportReviewModal(props) {
       requestGoogleScopes={props.requestGoogleScopes}
       forceRefresh={props.forceRefresh}
       currentTuneBook={props.currentTuneBook}
+      forcedBook={bulkForcedBook}
+      searchIndex={props.searchIndex}
+      loadTuneTexts={props.loadTuneTexts}
     />
   ) : (
     <AddTuneSimpleForm
@@ -1666,6 +1761,7 @@ export default function ImportReviewModal(props) {
       onPickYouTube={function(link) {
         applyYouTubeLinkToForm(link);
       }}
+      onFillBulkDiscography={fillBulkImportLines}
     />
   );
 
@@ -1719,6 +1815,7 @@ export default function ImportReviewModal(props) {
       className={'d-flex align-items-center gap-2 flex-wrap justify-content-end' + (addTunesMode ? ' add-tunes-header-actions' : '')}
       style={{ marginLeft: 'auto' }}
     >
+      {forcedBookBar}
       {canMoveQueue ? (
         <>
           <Button variant="outline-secondary" onClick={function() { jumpQueue(-1); }}>Prev</Button>
@@ -1741,8 +1838,22 @@ export default function ImportReviewModal(props) {
         </>
       ) : null}
       {showEnhance && !addTunesMode ? (
-        <Button variant="warning" onClick={handleEnhanceClick}>
-          Enhance
+        <Button
+          variant="warning"
+          onClick={handleEnhanceClick}
+          disabled={runningEnrichmentJob && runningEnrichmentJob.status === 'running'}
+          title={
+            (runningEnrichmentJob && runningEnrichmentJob.message)
+              || (activeJob && activeJob.message)
+              || undefined
+          }
+          data-testid="import-review-enhance"
+        >
+          {runningEnrichmentJob && runningEnrichmentJob.message
+            ? runningEnrichmentJob.message
+            : (activeJob && activeJob.status === 'running' && activeJob.message
+              ? activeJob.message
+              : 'Enhance')}
         </Button>
       ) : null}
       {addTunesMode ? (

@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Button, ButtonGroup, Dropdown, Form } from 'react-bootstrap'
 import {
   updateScratchpadItem,
@@ -7,21 +8,51 @@ import {
   deleteScratchpadItem,
   listWorkspaces,
 } from '../../scratchpadStore'
-import { getAssociateModesForItem } from '../../scratchpadAssociate'
+import { getAssociateModesForItem, isScratchpadAnalyseMode } from '../../scratchpadAssociate'
+import {
+  getScratchpadAnalyseAccess,
+  getScratchpadAnalyseUseLabel,
+} from '../../scratchpadAnalyseAccess'
+import useMediaResolverHealth from '../../useMediaResolverHealth'
+import { scratchpadItemPath } from '../../scratchpadExportToast'
 import ScratchpadAssociateModal from './ScratchpadAssociateModal'
+import ScratchpadAnalyseModal from './ScratchpadAnalyseModal'
 import ScratchpadCopyModal from './ScratchpadCopyModal'
 
 export default function ScratchpadEditorChrome(props) {
   const item = props.item
   const tunebook = props.tunebook
+  const navigate = useNavigate()
   const icons = tunebook && tunebook.icons ? tunebook.icons : {}
   const [title, setTitle] = useState(item.title || '')
   const [workspaces, setWorkspaces] = useState([])
   const [showAssociate, setShowAssociate] = useState(false)
+  const [showAnalyse, setShowAnalyse] = useState(false)
   const [showCopyModal, setShowCopyModal] = useState(false)
   const [associateMode, setAssociateMode] = useState('')
   const titleTimeout = useRef(null)
-  const associateModes = getAssociateModesForItem(item)
+  const { available: resolverAvailable, checked: resolverChecked, status: resolverStatus, features } = useMediaResolverHealth()
+
+  const analyseAccess = useMemo(function() {
+    return getScratchpadAnalyseAccess({
+      resolverChecked: resolverChecked,
+      resolverAvailable: resolverAvailable,
+      resolverStatus: resolverStatus,
+      features: features,
+      accessToken: props.token,
+    }, item && item.type)
+  }, [resolverChecked, resolverAvailable, resolverStatus, features, props.token, item && item.type])
+
+  const associateModes = useMemo(function() {
+    const modes = getAssociateModesForItem(item).slice()
+    if (analyseAccess.showOption) {
+      modes.push({
+        id: 'analyse',
+        label: getScratchpadAnalyseUseLabel(analyseAccess),
+      })
+    }
+    return modes
+  }, [item, analyseAccess])
 
   useEffect(function() {
     setTitle(item.title || '')
@@ -63,9 +94,17 @@ export default function ScratchpadEditorChrome(props) {
     if (props.onDeleted) props.onDeleted()
   }
 
-  function openAssociate(modeId) {
+  function openUseMode(modeId) {
+    if (isScratchpadAnalyseMode(modeId)) {
+      setShowAnalyse(true)
+      return
+    }
     setAssociateMode(modeId)
     setShowAssociate(true)
+  }
+
+  function openCreatedItem(itemId) {
+    navigate(scratchpadItemPath(itemId))
   }
 
   const currentWs = workspaces.find(function(w) { return w.id === item.workspaceId })
@@ -75,7 +114,7 @@ export default function ScratchpadEditorChrome(props) {
       {props.onBack ? (
         <Button
           variant="outline-secondary"
-          size="lg"
+          size="sm"
           className="scratchpad-editor-back-btn"
           title="Back to scratchpad list"
           onClick={props.onBack}
@@ -122,7 +161,7 @@ export default function ScratchpadEditorChrome(props) {
         <Dropdown.Toggle variant="outline-secondary" size="sm">
           {currentWs ? currentWs.name : 'Workspace'}
         </Dropdown.Toggle>
-        <Dropdown.Menu>
+        <Dropdown.Menu popperConfig={{ strategy: 'fixed' }}>
           {workspaces.map(function(ws) {
             return (
               <Dropdown.Item
@@ -147,10 +186,10 @@ export default function ScratchpadEditorChrome(props) {
           <Dropdown.Toggle variant="outline-primary" size="sm">
             Use
           </Dropdown.Toggle>
-          <Dropdown.Menu>
+          <Dropdown.Menu popperConfig={{ strategy: 'fixed' }}>
             {associateModes.map(function(mode) {
               return (
-                <Dropdown.Item key={mode.id} onClick={function() { openAssociate(mode.id) }}>
+                <Dropdown.Item key={mode.id} onClick={function() { openUseMode(mode.id) }}>
                   {mode.label}
                 </Dropdown.Item>
               )
@@ -175,6 +214,21 @@ export default function ScratchpadEditorChrome(props) {
           setAssociateMode('')
           if (props.onChange) props.onChange()
         }}
+      />
+
+      <ScratchpadAnalyseModal
+        show={showAnalyse}
+        item={item}
+        access={analyseAccess}
+        tunebook={props.tunebook}
+        token={props.token}
+        login={props.login}
+        onHide={function() { setShowAnalyse(false) }}
+        onCreated={function() {
+          setShowAnalyse(false)
+          if (props.onChange) props.onChange()
+        }}
+        onOpenItem={openCreatedItem}
       />
 
       <ScratchpadCopyModal

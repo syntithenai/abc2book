@@ -1,0 +1,45 @@
+.study-page-chrome {
+  --lessons-action-btn-height: 2.25rem;
+  --study-page-chrome-height: calc(var(--lessons-action-btn-height) + 1rem);
+  position: fixed;
+  top: var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)));
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0.5rem calc(0.2em + 1rem) 0.5rem 1rem;
+  pointer-events: none;
+  background: transparent;
+}
+
+.study-page-chrome__start {
+  margin-right: auto;
+  pointer-events: auto;
+}
+
+.study-page-chrome__actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: flex-end;
+  pointer-events: auto;
+}
+
+.study-page-chrome__extra {
+  display: flex;
+  align-items: center;
+}
+
+.study-page-with-chrome {
+  padding-top: var(--study-page-chrome-height);
+}
+
+.study-page-chrome .feed-feedback-toolbar {
+  position: static;
+  top: auto;
+  right: auto;
+}

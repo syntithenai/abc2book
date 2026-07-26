@@ -14,6 +14,13 @@ describe('notationShortcuts', function() {
     expect(action.letter).toBe('C');
   });
 
+  test('maps Ctrl+A to selectAll', function() {
+    expect(resolveNotationAction({ key: 'a', metaKey: false, ctrlKey: true, shiftKey: false, altKey: false }, {}).action)
+      .toBe('selectAll');
+    expect(resolveNotationAction({ key: 'A', metaKey: true, ctrlKey: false, shiftKey: false, altKey: false }, {}).action)
+      .toBe('selectAll');
+  });
+
   test('maps Ctrl+C to copy', function() {
     const action = resolveNotationAction({ key: 'c', metaKey: false, ctrlKey: true, shiftKey: false, altKey: false }, {});
     expect(action.action).toBe('copy');

@@ -3,6 +3,9 @@ import {
   applyInlineImportToForm,
   applyAddFormInlineImport,
   applyCoalescedFieldChoicesToSuggestions,
+  applyForcedBookToBookList,
+  applyForcedBookTuneFilter,
+  primaryBookFromBookList,
   alignedLyricPreviewPairs,
   attachCurrentValueChoice,
   buildReviewFormState,
@@ -22,6 +25,27 @@ import {
 } from './importReviewFieldUtils';
 
 describe('importReviewFieldUtils', function() {
+  test('primaryBookFromBookList returns first book', function() {
+    expect(primaryBookFromBookList('folk, songs')).toBe('folk')
+    expect(primaryBookFromBookList('')).toBe('')
+  })
+
+  test('applyForcedBookToBookList prepends forced book without duplicates', function() {
+    expect(applyForcedBookToBookList('folk, songs', 'jazz')).toBe('jazz, folk, songs');
+    expect(applyForcedBookToBookList('jazz, folk', 'jazz')).toBe('jazz, folk');
+    expect(applyForcedBookToBookList('', 'songs')).toBe('songs');
+    expect(applyForcedBookToBookList('folk', '')).toBe('folk');
+  })
+
+  test('applyForcedBookTuneFilter sets list book filter from session', function() {
+    const setCurrentTuneBook = jest.fn()
+    expect(applyForcedBookTuneFilter({ forcedBook: 'reels' }, setCurrentTuneBook)).toBe(true)
+    expect(setCurrentTuneBook).toHaveBeenCalledWith('reels')
+    setCurrentTuneBook.mockClear()
+    expect(applyForcedBookTuneFilter({ forcedBook: '' }, setCurrentTuneBook)).toBe(false)
+    expect(applyForcedBookTuneFilter(null, setCurrentTuneBook)).toBe(false)
+  });
+
   test('canApplyImportInline recognizes local parse kinds', function() {
     expect(canApplyImportInline('abc')).toBe(true);
     expect(canApplyImportInline('chordsheet')).toBe(true);

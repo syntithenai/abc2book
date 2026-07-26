@@ -9,12 +9,20 @@ function scrollIndexItemToTop(container, el) {
   container.scrollTop += elTop - containerTop
 }
 
+function scrollIndexItemAfterRender(container, el) {
+  if (!container || !el) return
+  requestAnimationFrame(function() {
+    scrollIndexItemToTop(container, el)
+  })
+}
+
 export default function LessonsIndex(props) {
   const manifest = props.manifest
   const currentId = props.lessonId
   const lesson = props.lesson
   const activeSectionId = props.activeSectionId
   const indexRef = useRef(null)
+  const scrollTargetRef = useRef(null)
   const [openUnitId, setOpenUnitId] = useState(null)
   const [openLessonId, setOpenLessonId] = useState(null)
 
@@ -26,6 +34,17 @@ export default function LessonsIndex(props) {
     setOpenLessonId(currentId)
   }, [manifest, currentId])
 
+  useEffect(function() {
+    const el = scrollTargetRef.current
+    if (!el || !indexRef.current) return
+    scrollTargetRef.current = null
+    scrollIndexItemAfterRender(indexRef.current, el)
+  }, [openUnitId, openLessonId])
+
+  function queueScroll(el) {
+    scrollTargetRef.current = el
+  }
+
   if (!manifest || !manifest.tracks) return null
 
   function toggleUnit(unitId, el) {
@@ -34,25 +53,13 @@ export default function LessonsIndex(props) {
     setOpenUnitId(function(current) {
       if (current === unitId) {
         if (isCurrentUnit) {
-          if (el) scrollIndexItemToTop(indexRef.current, el)
+          scrollIndexItemAfterRender(indexRef.current, el)
           return current
         }
         return null
       }
-      if (el) scrollIndexItemToTop(indexRef.current, el)
+      queueScroll(el)
       return unitId
-    })
-  }
-
-  function toggleLesson(lessonId, el) {
-    if (lessonId !== currentId) {
-      handleLessonClick(lessonId, el)
-      return
-    }
-    setOpenLessonId(function(current) {
-      const next = current === lessonId ? null : lessonId
-      if (next && el) scrollIndexItemToTop(indexRef.current, el)
-      return next
     })
   }
 
@@ -60,14 +67,18 @@ export default function LessonsIndex(props) {
     setOpenLessonId(lessonId)
     const location = findLessonManifestLocation(manifest, lessonId)
     if (location) setOpenUnitId(location.unitId)
-    if (el) scrollIndexItemToTop(indexRef.current, el)
+    if (el) queueScroll(el)
     if (typeof props.onLessonNavigate === 'function') props.onLessonNavigate(lessonId)
+  }
+
+  function handleLessonExpand(lessonId, el) {
+    handleLessonClick(lessonId, el)
   }
 
   function handleSectionClick(sectionId, e) {
     e.preventDefault()
     const row = e.currentTarget.closest('li')
-    scrollIndexItemToTop(indexRef.current, row)
+    scrollIndexItemAfterRender(indexRef.current, row)
     if (typeof props.onSectionNavigate === 'function') props.onSectionNavigate(sectionId)
   }
 
@@ -98,21 +109,22 @@ export default function LessonsIndex(props) {
                     <ul className="lessons-index-lessons">
                       {(unit.lessons || []).map(function(lessonItem) {
                         const isCurrent = lessonItem.id === currentId
-                        const isLessonOpen = openLessonId === lessonItem.id
-                        const sections = isLessonOpen && isCurrent ? currentSections : []
+                        const isLessonExpanded = isCurrent && openLessonId === lessonItem.id
+                        const sections = isLessonExpanded ? currentSections : []
                         return (
                           <li key={lessonItem.id} className={'lessons-index-lesson' + (isCurrent ? ' lessons-index-lesson--current' : '')}>
                             <div className="lessons-index-lesson-row">
                               <button
                                 type="button"
                                 className="lessons-index-lesson-expand"
-                                aria-expanded={isLessonOpen}
-                                aria-label={isLessonOpen ? 'Collapse headings' : 'Expand headings'}
+                                aria-expanded={isLessonExpanded}
+                                aria-label={isLessonExpanded ? 'Collapse headings' : 'Expand headings'}
                                 onClick={function(e) {
-                                  toggleLesson(lessonItem.id, e.currentTarget.closest('li'))
+                                  e.preventDefault()
+                                  handleLessonExpand(lessonItem.id, e.currentTarget.closest('li'))
                                 }}
                               >
-                                {isLessonOpen ? '▾' : '▸'}
+                                {isLessonExpanded ? '▾' : '▸'}
                               </button>
                               <Link
                                 to={'/lessons/' + lessonItem.id}
@@ -124,7 +136,7 @@ export default function LessonsIndex(props) {
                                 {lessonItem.title}
                               </Link>
                             </div>
-                            {isLessonOpen && sections.length ? (
+                            {isLessonExpanded && sections.length ? (
                               <ul className="lessons-index-sections">
                                 {sections.map(function(section) {
                                   const isActive = activeSectionId === section.id

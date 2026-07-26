@@ -10,11 +10,14 @@ export const DEFAULT_METRONOME_ACCENT_VOLUME = 1
 export const DEFAULT_DRUM_VOLUME = 0.85
 
 const TICK_PROFILES = {
-  // A bit louder/brighter than before so 100% accent cuts through clearly.
-  [METRONOME_ACCENT]: { filterHz: 2400, gain: 1.15, decay: 0.022 },
-  [METRONOME_TICK]: { filterHz: 1600, gain: 0.55, decay: 0.014 },
-  [METRONOME_SUB]: { filterHz: 1200, gain: 0.28, decay: 0.01 },
+  [METRONOME_ACCENT]: { filterHz: 2400, gain: 1.25, decay: 0.022 },
+  [METRONOME_TICK]: { filterHz: 1600, gain: 0.65, decay: 0.014 },
+  [METRONOME_SUB]: { filterHz: 1200, gain: 0.32, decay: 0.01 },
 }
+
+/** Extra headroom at slider 100% so clicks cut through playback. */
+const METRONOME_VOLUME_MAX_BOOST = 0.4
+const METRONOME_ACCENT_VOLUME_MAX_BOOST = 0.55
 
 let volumeState = loadVolumeSettings()
 
@@ -111,11 +114,17 @@ export function setMetronomeAccentVolume(accentVolume) {
   return setMetronomeVolumes({ accentVolume: accentVolume })
 }
 
+function sliderGain(sliderValue, maxBoost) {
+  const v = clampVolume(sliderValue, 0)
+  const boost = parseFloat(maxBoost) || 0
+  return v * (1 + boost * v)
+}
+
 function gainForAccentLevel(accentLevel) {
   const profile = TICK_PROFILES[accentLevel] || TICK_PROFILES[METRONOME_TICK]
   const userScale = accentLevel === METRONOME_ACCENT
-    ? volumeState.accentVolume
-    : volumeState.volume
+    ? sliderGain(volumeState.accentVolume, METRONOME_ACCENT_VOLUME_MAX_BOOST)
+    : sliderGain(volumeState.volume, METRONOME_VOLUME_MAX_BOOST)
   return Math.max(0, profile.gain * userScale)
 }
 

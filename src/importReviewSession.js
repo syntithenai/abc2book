@@ -107,6 +107,7 @@ export function createImportReviewSession(candidates, options) {
     skipEnrichment: !!opts.skipEnrichment,
     entryMode: opts.entryMode === 'add' ? 'add' : 'import',
     addPanelMode: opts.entryMode === 'add' ? addPanelMode : 'form',
+    forcedBook: opts.forcedBook ? String(opts.forcedBook).trim().toLowerCase() : '',
     sessionSummary: emptySessionSummary(),
   };
 }
@@ -193,6 +194,7 @@ export function ensureBlankAddSession(session, options) {
       entryMode: 'add',
       skipEnrichment: !!opts.skipEnrichment,
       addPanelMode: opts.addPanelMode,
+      forcedBook: opts.book ? String(opts.book).trim().toLowerCase() : '',
     });
   }
   if (isAddTunesChrome(session)) {

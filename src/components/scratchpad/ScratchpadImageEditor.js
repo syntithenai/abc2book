@@ -270,6 +270,7 @@ export default function ScratchpadImageEditor(props) {
         tunebook={props.tunebook}
         tunes={props.tunes}
         token={props.token}
+        login={props.login}
         onChange={props.onChange}
         onDeleted={props.onDeleted}
         onBack={props.onBack}

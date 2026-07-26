@@ -64,6 +64,7 @@ export default function ScratchpadItemPage(props) {
           tunebook={props.tunebook}
           tunes={props.tunes}
           token={props.token}
+          login={props.login}
           onChange={refresh}
           onDeleted={function() { navigate('/scratchpad') }}
           onBack={function() { navigate('/scratchpad') }}
@@ -97,6 +98,7 @@ export default function ScratchpadItemPage(props) {
           tunebook={props.tunebook}
           tunes={props.tunes}
           token={props.token}
+          login={props.login}
           onChange={refresh}
           onDeleted={function() { navigate('/scratchpad') }}
           onBack={function() { navigate('/scratchpad') }}

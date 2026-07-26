@@ -4,6 +4,7 @@ import {
   EDITOR_MODES,
   NOTE_INPUT_METHODS,
   NOTE_INPUT_METHOD_LABELS,
+  STAFF_SELECTION_TOOLS,
 } from '../notation/notationConstants';
 import NotationDurationDropdown from './NotationDurationDropdown';
 import NotationDurationButtonGroup from './NotationDurationButtonGroup';
@@ -36,6 +37,16 @@ export default function NotationDurationToolbar(props) {
   const expandDurations = expand.durations !== false;
   const method = session.noteInputMethod || NOTE_INPUT_METHODS.NOTE_NAME;
   const methodLabel = NOTE_INPUT_METHOD_LABELS[method] || 'Note name';
+  const staffTool = session.staffSelectionTool || STAFF_SELECTION_TOOLS.NORMAL;
+  const marqueeToolActive = staffTool === STAFF_SELECTION_TOOLS.MARQUEE;
+
+  function setStaffSelectionTool(tool) {
+    if (!dispatch) return;
+    dispatch({
+      type: 'SET_PIANO_ROLL_STATE',
+      patch: { staffSelectionTool: tool },
+    });
+  }
 
   return (
     <div className="notation-duration-toolbar">
@@ -125,6 +136,19 @@ export default function NotationDurationToolbar(props) {
           onClick={onInsertSystemBreak}
           data-testid="notation-system-break-btn"
         >↵</Button>
+      ) : null}
+      {session.mode !== EDITOR_MODES.NOTE_INPUT ? (
+        <Button
+          size="lg"
+          variant={marqueeToolActive ? 'primary' : 'outline-secondary'}
+          title="Selection tool — drag to marquee without Shift (desktop)"
+          data-testid="staff-selection-tool-marquee"
+          onClick={function() {
+            setStaffSelectionTool(
+              marqueeToolActive ? STAFF_SELECTION_TOOLS.NORMAL : STAFF_SELECTION_TOOLS.MARQUEE
+            );
+          }}
+        >Sel</Button>
       ) : null}
     </div>
   );

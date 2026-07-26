@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Button, Form, ListGroup, Modal } from 'react-bootstrap'
 import { toast } from 'react-toastify'
+import useAbcjsParser from '../../useAbcjsParser'
 import LyricsMergePanel, { buildLyricsMergeResult } from '../mediaImportWizard/LyricsMergePanel'
 import ScratchpadNotationBarPickerPanel from './ScratchpadNotationBarPickerPanel'
 import { getScratchpadBlob } from '../../scratchpadBlobs'
@@ -14,6 +15,7 @@ import {
   mergeScratchpadNotationIntoTune,
   mergeScratchpadLyricsIntoTune,
   mergeScratchpadBackgroundIntoTune,
+  mergeScratchpadChordsIntoTune,
   getNotationAssociateMergeMode,
   isNotationAssociateMode,
   isNotationBarPickerMode,
@@ -58,6 +60,9 @@ function successMessageForMode(associateMode, tuneName, notationOperation) {
     if (op === 'replace') return 'Replaced notation on ' + name
     return 'Merged into ' + name
   }
+  if (associateMode === 'chords') return 'Pasted chords and lyrics into ' + name
+  if (associateMode === 'lyrics') return 'Merged lyrics into ' + name
+  if (associateMode === 'background') return 'Copied background info into ' + name
   return 'Attached to ' + name
 }
 
@@ -68,6 +73,9 @@ function historyLabelForMode(associateMode, notationOperation) {
     if (op === 'replace') return 'Replace with scratchpad notation'
     return 'Merge scratchpad notation'
   }
+  if (associateMode === 'chords') return 'Paste chords and lyrics from scratchpad'
+  if (associateMode === 'lyrics') return 'Merge scratchpad lyrics'
+  if (associateMode === 'background') return 'Copy scratchpad background info'
   return 'Associate scratchpad'
 }
 
@@ -95,6 +103,7 @@ function maxBarForTune(tune) {
 
 export default function ScratchpadAssociateModal(props) {
   const navigate = useNavigate()
+  const abcjsParser = useAbcjsParser()
   const item = props.item
   const tunes = props.tunes || {}
   const associateMode = props.associateMode || ''
@@ -197,6 +206,8 @@ export default function ScratchpadAssociateModal(props) {
     if (item.type === 'text') {
       if (associateMode === 'background') {
         setStep('background')
+      } else if (associateMode === 'chords') {
+        setStep('chords')
       } else {
         setStep('lyrics')
       }
@@ -292,6 +303,18 @@ export default function ScratchpadAssociateModal(props) {
             tune,
             String(item.text && item.text.body || ''),
             'replace'
+          )
+        } else if (associateMode === 'chords') {
+          tune = mergeScratchpadChordsIntoTune(
+            tune,
+            String(item.text && item.text.body || ''),
+            {
+              tunebook: props.tunebook,
+              abcjsParser: abcjsParser,
+              abc: props.tunebook.abcTools
+                ? props.tunebook.abcTools.json2abc(tune)
+                : undefined,
+            }
           )
         } else {
           const merged = buildLyricsMergeResult(
@@ -442,6 +465,13 @@ export default function ScratchpadAssociateModal(props) {
         {step === 'background' && selectedTune ? (
           <p>
             Copy scratchpad text into <strong>{selectedTune.name}</strong> background information?
+          </p>
+        ) : null}
+
+        {step === 'chords' && selectedTune ? (
+          <p>
+            Paste scratchpad chord sheet into <strong>{selectedTune.name}</strong> chords editor
+            (updates chords and lyrics; notation is replaced)?
           </p>
         ) : null}
 

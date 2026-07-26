@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState } from 'react'
 import { Button, ButtonGroup, Col, Form, InputGroup, ListGroup, Row, Spinner } from 'react-bootstrap'
+import { toast } from 'react-toastify'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
 import VoiceFillInput from './VoiceFillInput'
@@ -16,6 +17,9 @@ import { useFieldSearchResults } from '../useFieldSearchResults'
 import { isOwnedMediaLink } from '../linkRecording'
 import { isPdfTuneFileType } from '../tuneFiles'
 import { removeAddDraftTuneFile } from '../addFormAttach'
+import { fetchArtistDiscography } from '../artistDiscographyClient'
+import { fetchAlbumDiscography } from '../albumDiscographyClient'
+import { formatBulkLine } from '../bulkListFormat'
 
 function uniqueStrings(values) {
   const seen = {}
@@ -72,7 +76,13 @@ export default function AddTuneSimpleForm(props) {
   const [composerSuggestOptions, setComposerSuggestOptions] = useState([])
   const [youtubeSearchQuery, setYoutubeSearchQuery] = useState('')
   const [youtubeSearchNonce, setYoutubeSearchNonce] = useState(0)
+  const [discographyBusy, setDiscographyBusy] = useState(false)
+  const [discographyProgress, setDiscographyProgress] = useState('')
+  const [albumDiscographyBusy, setAlbumDiscographyBusy] = useState(false)
+  const [albumDiscographyProgress, setAlbumDiscographyProgress] = useState('')
+  const [album, setAlbum] = useState('')
   const artistsRef = useRef([])
+  const discographyAbortRef = useRef(null)
 
   const matches = useMemo(function() {
     return findCollectionMatches({
@@ -191,6 +201,93 @@ export default function AddTuneSimpleForm(props) {
   }
 
   const canSearchComposer = !!(title && props.candidateId)
+  const albumName = String(album || '').trim()
+
+  function fillBulkImportLines(lines) {
+    if (!lines || !lines.length) return
+    if (typeof props.onFillBulkDiscography === 'function') {
+      props.onFillBulkDiscography(lines)
+    }
+  }
+
+  async function handleDiscography() {
+    if (!composer || discographyBusy) return
+    if (discographyAbortRef.current) {
+      discographyAbortRef.current.abort()
+    }
+    const controller = new AbortController()
+    discographyAbortRef.current = controller
+    setDiscographyBusy(true)
+    setDiscographyProgress('Looking up artist…')
+    try {
+      const result = await fetchArtistDiscography(composer, {
+        signal: controller.signal,
+        onProgress: function(message) {
+          setDiscographyProgress(String(message || '').trim())
+        },
+      })
+      const artistLabel = String(result.artistName || composer).trim()
+      const lines = (result.titles || []).map(function(songTitle) {
+        return formatBulkLine({ title: songTitle, artist: artistLabel })
+      })
+      if (!lines.length) {
+        toast.info('No songs found in that artist discography.')
+        return
+      }
+      fillBulkImportLines(lines)
+      toast.success('Loaded ' + lines.length + ' song' + (lines.length === 1 ? '' : 's') + ' into bulk import.')
+    } catch (e) {
+      if (e && e.name === 'AbortError') return
+      toast.error((e && e.message) || 'Could not look up discography.')
+    } finally {
+      if (discographyAbortRef.current === controller) {
+        discographyAbortRef.current = null
+      }
+      setDiscographyBusy(false)
+      setDiscographyProgress('')
+    }
+  }
+
+  async function handleAlbumDiscography() {
+    if (!albumName || albumDiscographyBusy || discographyBusy) return
+    if (discographyAbortRef.current) {
+      discographyAbortRef.current.abort()
+    }
+    const controller = new AbortController()
+    discographyAbortRef.current = controller
+    setAlbumDiscographyBusy(true)
+    setAlbumDiscographyProgress('Looking up album…')
+    try {
+      const result = await fetchAlbumDiscography(albumName, composer, {
+        signal: controller.signal,
+        onProgress: function(message) {
+          setAlbumDiscographyProgress(String(message || '').trim())
+        },
+      })
+      const artistLabel = String(result.artistName || composer || '').trim()
+      const lines = (result.titles || []).map(function(songTitle) {
+        return formatBulkLine({
+          title: songTitle,
+          artist: artistLabel,
+        })
+      })
+      if (!lines.length) {
+        toast.info('No tracks found for that album.')
+        return
+      }
+      fillBulkImportLines(lines)
+      toast.success('Loaded ' + lines.length + ' track' + (lines.length === 1 ? '' : 's') + ' into bulk import.')
+    } catch (e) {
+      if (e && e.name === 'AbortError') return
+      toast.error((e && e.message) || 'Could not look up album tracks.')
+    } finally {
+      if (discographyAbortRef.current === controller) {
+        discographyAbortRef.current = null
+      }
+      setAlbumDiscographyBusy(false)
+      setAlbumDiscographyProgress('')
+    }
+  }
 
   return (
     <div className="add-tune-simple-form" data-testid="add-tune-simple-form">
@@ -223,6 +320,33 @@ export default function AddTuneSimpleForm(props) {
           </Form.Group>
 
           <Form.Group className="mb-3 add-tune-field-block">
+            <div className="d-flex align-items-center justify-content-between gap-2 mb-2 flex-wrap">
+              <span className="small text-muted mb-0">Composer &amp; artists</span>
+            <div className="d-flex flex-column align-items-end gap-1">
+              <Button
+                variant="outline-primary"
+                size="sm"
+                disabled={!composer || discographyBusy || albumDiscographyBusy}
+                data-testid="add-tune-discography"
+                title={discographyBusy ? (discographyProgress || 'Looking up discography…') : 'Load this artist\'s discography into bulk import'}
+                onClick={handleDiscography}
+              >
+                {discographyBusy ? (
+                  <Spinner animation="border" size="sm" className="me-1" aria-hidden="true" />
+                ) : null}
+                Discography
+              </Button>
+              {discographyBusy && discographyProgress ? (
+                <span
+                  className="small text-muted text-end"
+                  data-testid="add-tune-discography-progress"
+                  role="status"
+                >
+                  {discographyProgress}
+                </span>
+              ) : null}
+            </div>
+            </div>
             <ComposerSearchButton
               candidateId={props.candidateId}
               title={values.title || ''}
@@ -321,6 +445,47 @@ export default function AddTuneSimpleForm(props) {
                 )
               }}
             </ComposerSearchButton>
+          </Form.Group>
+
+          <Form.Group className="mb-3 add-tune-field-block">
+            <div className="d-flex align-items-center justify-content-between gap-2 mb-2 flex-wrap">
+              <span className="small text-muted mb-0">Album</span>
+              <div className="d-flex flex-column align-items-end gap-1">
+                <Button
+                  variant="outline-primary"
+                  size="sm"
+                  disabled={!albumName || albumDiscographyBusy || discographyBusy}
+                  data-testid="add-tune-album-discography"
+                  title={
+                    albumDiscographyBusy
+                      ? (albumDiscographyProgress || 'Looking up album tracks…')
+                      : 'Load this album\'s track list into bulk import'
+                  }
+                  onClick={handleAlbumDiscography}
+                >
+                  {albumDiscographyBusy ? (
+                    <Spinner animation="border" size="sm" className="me-1" aria-hidden="true" />
+                  ) : null}
+                  Discography
+                </Button>
+                {albumDiscographyBusy && albumDiscographyProgress ? (
+                  <span
+                    className="small text-muted text-end"
+                    data-testid="add-tune-album-discography-progress"
+                    role="status"
+                  >
+                    {albumDiscographyProgress}
+                  </span>
+                ) : null}
+              </div>
+            </div>
+            <Form.Control
+              value={album}
+              autoComplete="off"
+              data-testid="add-tune-album"
+              placeholder="Album name (not saved on the tune)"
+              onChange={function(e) { setAlbum(e.target.value) }}
+            />
           </Form.Group>
 
           {props.matchingBusy ? (

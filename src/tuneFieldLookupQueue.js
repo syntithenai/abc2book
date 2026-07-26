@@ -3,7 +3,8 @@ import { searchLyrics } from './lyricsSearchClient'
 import { searchChords } from './chordsSearchClient'
 import { discoverComposers } from './composerSearchClient'
 import { searchNotation } from './notationSearchClient'
-import { searchYouTubeVideos, checkYouTubeLinkOembed } from './youtubeSearchClient'
+import { checkYouTubeLinkOembed } from './youtubeSearchClient'
+import { searchMediaLinks } from './mediaLinkSearchClient'
 import { searchAliases } from './aliasesSearchClient'
 import { searchArtists } from './artistsSearchClient'
 import { searchGenre } from './genreSearchClient'
@@ -937,13 +938,15 @@ async function runSearch(job, signal) {
       }
     }
     const query = [job.title, job.artist].filter(Boolean).join(' ').trim()
-    base.onProgress('Searching YouTube…', 0.35)
-    return searchYouTubeVideos({
+    base.onProgress('Searching media links…', 0.35)
+    return searchMediaLinks({
       query: query,
       title: job.title,
       artist: job.artist || '',
       signal: signal,
       maxResults: 8,
+      accessToken: searchOptions && searchOptions.accessToken,
+      token: searchOptions && searchOptions.token,
     })
   }
   if (job.kind === 'genre') {

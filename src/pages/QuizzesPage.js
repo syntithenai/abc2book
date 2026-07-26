@@ -4,7 +4,7 @@ import { Button, Form } from 'react-bootstrap'
 import { useDocumentTitle } from '../pageTitle'
 import LessonQuizPlayer from '../components/LessonQuizPlayer'
 import LessonFeedbackHost from '../components/LessonFeedbackHost'
-import StudyNavRail from '../components/StudyNavRail'
+import StudyPageChrome from '../components/StudyPageChrome'
 import { loadLessonById } from '../lessonSearch'
 import {
   loadQuizzesIndex,
@@ -112,12 +112,26 @@ export default function QuizzesPage(props) {
     setProgressTick(function(n) { return n + 1 })
   }
 
-  if (loading) return <div className="quizzes-page"><p>Loading quizzes…</p></div>
-  if (error) return <div className="quizzes-page"><p className="text-danger">{error}</p></div>
+  if (loading) {
+    return (
+      <div className="quizzes-page study-page-with-chrome">
+        <StudyPageChrome active="quizzes" tunebook={props.tunebook} />
+        <p>Loading quizzes…</p>
+      </div>
+    )
+  }
+  if (error) {
+    return (
+      <div className="quizzes-page study-page-with-chrome">
+        <StudyPageChrome active="quizzes" tunebook={props.tunebook} />
+        <p className="text-danger">{error}</p>
+      </div>
+    )
+  }
 
   return (
-    <div className="quizzes-page" data-testid="quizzes-page" key={'tick-' + progressTick}>
-      <StudyNavRail active="quizzes" tunebook={props.tunebook} />
+    <div className="quizzes-page study-page-with-chrome" data-testid="quizzes-page" key={'tick-' + progressTick}>
+      <StudyPageChrome active="quizzes" tunebook={props.tunebook} />
       <header className="quizzes-hero">
         <div className="quizzes-hero-top">
           <h1>Quizzes</h1>

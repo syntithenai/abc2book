@@ -583,3 +583,40 @@ export function timeUntilNextMetronomeSlot(musicSeconds, qpm, rhythm) {
   const pulses = (rhythm.pulsesPerBeat && rhythm.pulsesPerBeat[beatIndex]) || 1
   return secPerBeat / pulses
 }
+
+function slotDurationSec(rhythm, slot, secPerBeat) {
+  const beatIndex = slotBeatIndex(rhythm, slot)
+  const pulses = (rhythm.pulsesPerBeat && rhythm.pulsesPerBeat[beatIndex]) || 1
+  return secPerBeat / pulses
+}
+
+/**
+ * Where to schedule the next metronome click after a seek or count-in handoff.
+ * Returns slot index and seconds from "now" before that click should fire.
+ */
+export function resolveMetronomeAlignTarget(musicSeconds, qpm, rhythm) {
+  if (!rhythm || !(rhythm.beatsPerBar > 0)) {
+    return { slot: 0, delaySec: 0.02 }
+  }
+  const tempo = parseFloat(qpm) || 120
+  const secPerBeat = 60 / tempo
+  const totalSlots = slotsPerBar(rhythm)
+  const barDur = rhythm.beatsPerBar * secPerBeat
+  const secs = Math.max(0, parseFloat(musicSeconds) || 0)
+  const posInBar = barDur > 0 ? (secs % barDur) : 0
+  const slot = metronomeSlotFromMusicSeconds(secs, tempo, rhythm)
+
+  let elapsed = 0
+  for (let s = 0; s < slot; s++) {
+    elapsed += slotDurationSec(rhythm, s, secPerBeat)
+  }
+  const slotDur = slotDurationSec(rhythm, slot, secPerBeat)
+  const intoSlot = posInBar - elapsed
+  const delayToNext = timeUntilNextMetronomeSlot(secs, tempo, rhythm)
+
+  if (intoSlot <= slotDur * 0.12) {
+    return { slot: slot, delaySec: 0.02 }
+  }
+  const nextSlot = (slot + 1) % totalSlots
+  return { slot: nextSlot, delaySec: Math.max(0.02, delayToNext) }
+}

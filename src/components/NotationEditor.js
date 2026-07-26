@@ -24,6 +24,11 @@ import { serializeVoiceEvents } from '../notation/abcVoiceSerializer';
 import { buildAbcPreviewFromBodies, voiceDisplayLabel, mapAbcClickToVoiceCursor } from '../notation/notationDisplayAbc';
 import { activeVoiceIndicesFromTune } from '../abcVoiceViewSettings';
 import { notationSessionReducer, createInitialSession } from '../notation/notationSession';
+import {
+  isShiftMarqueeEnabled,
+  isCoarsePointerEvent,
+  STAFF_LONG_PRESS_MS,
+} from '../notation/staffGestureFlags';
 import { abcElemStartMs } from '../notation/notationPlayback';
 import { serializeVoiceEventsViaParser } from '../notation/abcVoiceSerializer';
 import {
@@ -35,6 +40,8 @@ import {
   pitchFromMidi,
   deleteSelectionToRest,
   removeSelection,
+  deleteToRestUndoLabel,
+  restDurationChangeLabel,
   transposeSelection,
   transposeSelectionByStaffSteps,
   changeSelectedDuration,
@@ -45,6 +52,7 @@ import {
   selectEventRange,
   toggleSelectionEventId,
   selectMeasureContaining,
+  selectAllPitchedEvents,
   applyAccidentalToSelection,
   replaceSelectionPitch,
   rePitchAtCaret,
@@ -58,6 +66,7 @@ import {
   layoutInsertIndex,
   pasteInsertIndex,
   respellEnharmonicSelection,
+  writeNoteAtBeat,
 } from '../notation/notationActions';
 import {
   copyToClipboard,
@@ -72,7 +81,7 @@ import {
   snapToPlaybackRegionStart,
   slideSelection,
 } from '../notation/pianoRollAlign';
-import { EDITOR_MODES, EDITOR_VIEWS, BARLINE_TOKENS, NOTE_INPUT_METHODS } from '../notation/notationConstants';
+import { EDITOR_MODES, EDITOR_VIEWS, BARLINE_TOKENS, NOTE_INPUT_METHODS, STAFF_SELECTION_TOOLS } from '../notation/notationConstants';
 import {
   eventIndexFromAbcCharPosition,
   abcCharRangeForEventIndex,
@@ -186,9 +195,32 @@ export default function NotationEditor(props) {
   const staffMarqueeRef = useRef(null);
   /** Note pointerdown: drag → marquee; selected notehead + vertical drag → pitch. */
   const staffPendingGestureRef = useRef(null);
+  const staffLongPressTimerRef = useRef(null);
+  const staffLongPressArmedRef = useRef(false);
   const slurDragRef = useRef(null);
   const [slurSnapEventId, setSlurSnapEventId] = useState(null);
   const displayedVoiceKeysRef = useRef([]);
+
+  function clearStaffLongPress() {
+    if (staffLongPressTimerRef.current) {
+      clearTimeout(staffLongPressTimerRef.current);
+      staffLongPressTimerRef.current = null;
+    }
+    staffLongPressArmedRef.current = false;
+  }
+
+  function scheduleStaffLongPressMarquee(e, captureEl, pointerId) {
+    if (!isShiftMarqueeEnabled() || !isCoarsePointerEvent(e)) return;
+    clearStaffLongPress();
+    const clientX = e.clientX;
+    const clientY = e.clientY;
+    staffLongPressTimerRef.current = window.setTimeout(function() {
+      staffLongPressTimerRef.current = null;
+      staffLongPressArmedRef.current = true;
+      staffPendingGestureRef.current = null;
+      beginStaffMarquee(clientX, clientY, captureEl, pointerId);
+    }, STAFF_LONG_PRESS_MS);
+  }
 
   function isStaffNoteAbcelem(abcelem) {
     if (!abcelem) return false;
@@ -448,9 +480,20 @@ export default function NotationEditor(props) {
       const slop = 6;
       const pitchMaxDx = 8;
       const pitchMinDy = 8;
+      if (staffLongPressTimerRef.current
+        && (Math.abs(dx) >= slop || Math.abs(dy) >= slop)) {
+        clearStaffLongPress();
+      }
       if (Math.abs(dx) < slop && Math.abs(dy) < slop) return true;
       staffPendingGestureRef.current = null;
-      // Pitch only on notehead + nearly pure vertical drag; any horizontal intent → marquee.
+      const shiftMarquee = isShiftMarqueeEnabled();
+      const coarse = isCoarsePointerEvent(e);
+      const staffMarqueeTool = sessionRef.current.staffSelectionTool === STAFF_SELECTION_TOOLS.MARQUEE;
+      const allowLegacyMarquee = staffMarqueeTool
+        || !shiftMarquee
+        || coarse
+        || staffLongPressArmedRef.current;
+      // Pitch only on notehead + nearly pure vertical drag; any horizontal intent → marquee (legacy).
       const pitchEligible = pending.allowPitch
         && Math.abs(dx) < pitchMaxDx
         && Math.abs(dy) >= pitchMinDy;
@@ -464,7 +507,7 @@ export default function NotationEditor(props) {
         };
         staffDragTargetRef.current = pending.eventId;
         staffDragSuppressClickRef.current = false;
-      } else {
+      } else if (allowLegacyMarquee) {
         staffDragPointerRef.current = null;
         staffDragTargetRef.current = null;
         setPitchDragPreview(null);
@@ -476,6 +519,13 @@ export default function NotationEditor(props) {
         };
         staffDragSuppressClickRef.current = false;
         updateMarqueeRect(e.clientX, e.clientY);
+      } else {
+        staffDragPointerRef.current = null;
+        staffDragTargetRef.current = null;
+        setPitchDragPreview(null);
+        staffMarqueeRef.current = null;
+        setMarqueeClientRect(null);
+        staffDragSuppressClickRef.current = false;
       }
       return true;
     }
@@ -757,6 +807,8 @@ export default function NotationEditor(props) {
   // and not torn down mid-drag when React re-renders (e.g. pitch-preview setState).
   const commitStaffPointerUpRef = useRef(null);
   commitStaffPointerUpRef.current = function(endClientX, endClientY) {
+    clearStaffLongPress();
+    staffLongPressArmedRef.current = false;
     // Tap without drag: select the note and preview (click may be suppressed by pointer capture).
     if (staffPendingGestureRef.current) {
       const pending = staffPendingGestureRef.current;
@@ -765,6 +817,13 @@ export default function NotationEditor(props) {
       const endY = typeof endClientY === 'number' ? endClientY : pending.clientY;
       const endX = typeof endClientX === 'number' ? endClientX : pending.clientX;
       const moved = Math.abs(endY - pending.clientY) >= 4 || Math.abs(endX - pending.clientX) >= 4;
+      if (pending.emptyGap && s && s.mode !== EDITOR_MODES.NOTE_INPUT) {
+        if (placeInsertCaretAtClientPoint(endX, endY)) {
+          staffDragSuppressClickRef.current = true;
+          window.setTimeout(function() { staffDragSuppressClickRef.current = false; }, 50);
+        }
+        return;
+      }
       if (!moved && s && s.mode !== EDITOR_MODES.NOTE_INPUT && pending.eventId) {
         const ev = s.events.find(function(e) { return e.id === pending.eventId; });
         if (ev && (ev.type === 'note' || ev.type === 'chord')) {
@@ -1183,6 +1242,18 @@ export default function NotationEditor(props) {
       }
       return;
     }
+    if (action.action === 'selectAll') {
+      if (!s.events.length) return;
+      const patch = selectAllPitchedEvents(s);
+      clearSelectionClickRects();
+      dispatch({
+        type: 'SET_SELECTION',
+        selection: patch.selection,
+      });
+      dispatch({ type: 'SET_CARET', index: patch.caretIndex });
+      focusStaffEditor();
+      return;
+    }
     if (action.action === 'copy') {
       const ids = s.selection.eventIds;
       const evs = s.events.filter(function(ev) { return ids.indexOf(ev.id) >= 0; });
@@ -1378,7 +1449,9 @@ export default function NotationEditor(props) {
     }
     if (action.action === 'deleteToRest') {
       const patch = deleteSelectionToRest(s, { backward: action.backward !== false });
-      if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Delete to rest');
+      if (patch) {
+        applyEvents(patch, EDITOR_VIEWS.STAFF, deleteToRestUndoLabel(s, action));
+      }
       return;
     }
     if (action.action === 'removeRange') {
@@ -1400,7 +1473,11 @@ export default function NotationEditor(props) {
       return;
     }
     if (action.action === 'setDuration' && s.selection.eventIds.length) {
-      applyEvents(changeSelectedDuration(s, action.key, s.dotted), EDITOR_VIEWS.STAFF, 'Change duration');
+      applyEvents(
+        changeSelectedDuration(s, action.key, s.dotted),
+        EDITOR_VIEWS.STAFF,
+        restDurationChangeLabel(s, action.key, s.dotted)
+      );
     }
   }
 
@@ -1654,9 +1731,14 @@ export default function NotationEditor(props) {
         const glyphUnderPointer = !!(noteEl || pitchedEv);
         const modToggle = !!(e.ctrlKey || e.metaKey);
         const modRange = !!e.shiftKey;
+        const shiftMarquee = isShiftMarqueeEnabled();
+        const coarse = isCoarsePointerEvent(e);
+        const staffMarqueeTool = activeSession.staffSelectionTool === STAFF_SELECTION_TOOLS.MARQUEE;
+        const desktopShiftMarquee = shiftMarquee && !coarse && !staffMarqueeTool;
 
-        // Shift+drag → marquee anywhere (including over notes).
-        if (modRange && e.button === 0) {
+        // Shift+drag or marquee tool → marquee anywhere (including over notes).
+        if ((modRange || staffMarqueeTool) && e.button === 0) {
+          clearStaffLongPress();
           beginStaffMarquee(e.clientX, e.clientY, e.currentTarget, e.pointerId);
           e.preventDefault();
           return;
@@ -1664,6 +1746,7 @@ export default function NotationEditor(props) {
 
         // Ctrl/Cmd clicks wait for click handler (toggle) — no gesture capture.
         if (modToggle) {
+          clearStaffLongPress();
           staffPendingGestureRef.current = null;
           staffDragPointerRef.current = null;
           staffDragTargetRef.current = null;
@@ -1675,6 +1758,12 @@ export default function NotationEditor(props) {
         }
 
         if (noteHit) {
+          if (staffMarqueeTool) {
+            clearStaffLongPress();
+            beginStaffMarquee(e.clientX, e.clientY, e.currentTarget, e.pointerId);
+            e.preventDefault();
+            return;
+          }
           const isSelected = !!(activeSession.selection
             && activeSession.selection.eventIds
             && activeSession.selection.eventIds.indexOf(eventId) >= 0);
@@ -1693,6 +1782,9 @@ export default function NotationEditor(props) {
             allowPitch: isSelected && noteheadHit,
           };
           staffDragSuppressClickRef.current = false;
+          if (coarse && shiftMarquee) {
+            scheduleStaffLongPressMarquee(e, e.currentTarget, e.pointerId);
+          }
           try {
             if (e.currentTarget && e.pointerId != null) {
               e.currentTarget.setPointerCapture(e.pointerId);
@@ -1713,7 +1805,36 @@ export default function NotationEditor(props) {
           return;
         }
 
-        // Empty staff / gap: start marquee (no pitch drag).
+        // Empty staff / gap.
+        if (desktopShiftMarquee) {
+          clearStaffLongPress();
+          staffMarqueeRef.current = null;
+          setMarqueeClientRect(null);
+          staffDragPointerRef.current = null;
+          staffDragTargetRef.current = null;
+          setPitchDragPreview(null);
+          staffPendingGestureRef.current = {
+            clientX: e.clientX,
+            clientY: e.clientY,
+            eventId: null,
+            stepPx: 0,
+            allowPitch: false,
+            emptyGap: true,
+          };
+          staffDragSuppressClickRef.current = false;
+          try {
+            if (e.currentTarget && e.pointerId != null) {
+              e.currentTarget.setPointerCapture(e.pointerId);
+            }
+          } catch (err) { /* ignore */ }
+          return;
+        }
+        if (coarse && shiftMarquee) {
+          scheduleStaffLongPressMarquee(e, e.currentTarget, e.pointerId);
+          e.preventDefault();
+          return;
+        }
+        // Legacy: empty staff drag starts marquee immediately.
         beginStaffMarquee(e.clientX, e.clientY, e.currentTarget, e.pointerId);
         e.preventDefault();
       }
@@ -1829,6 +1950,27 @@ export default function NotationEditor(props) {
       if (mouseEvent && mouseEvent.button === 2) {
         return;
       }
+      if (abcelem && abcelem.midi != null) {
+        const pitch = pitchFromMidi(abcelem.midi, tuneMeta);
+        let beat = null;
+        const clickEv = resolveClickedNoteEvent(resolved, s.events, abcelem);
+        if (clickEv && typeof clickEv.startBeat === 'number') {
+          beat = clickEv.startBeat;
+        } else if (idx >= 0 && idx < s.events.length && typeof s.events[idx].startBeat === 'number') {
+          beat = s.events[idx].startBeat;
+        }
+        if (beat != null) {
+          const patch = writeNoteAtBeat(s, beat, pitch, {
+            addChordTone: !!(mouseEvent && mouseEvent.shiftKey),
+          });
+          if (patch) {
+            applyEvents(patch, EDITOR_VIEWS.STAFF, 'Insert note');
+          }
+          staffInputHandledRef.current = true;
+          focusStaffEditor();
+          return;
+        }
+      }
       placeNoteInputCaretFromPointer(mouseEvent, analysis, renderedAbc);
       return;
     }
@@ -1841,8 +1983,8 @@ export default function NotationEditor(props) {
       || barEv
       || (idx >= 0 && idx < s.events.length ? s.events[idx] : null);
 
-    if (mouseEvent && mouseEvent.detail >= 3 && targetEv && targetEv.id) {
-      // Triple-click: select the containing measure (MuseScore-style range).
+    if (mouseEvent && mouseEvent.detail >= 2 && targetEv && targetEv.id) {
+      // Double-click: select containing measure (MuseScore-style).
       const ids = selectMeasureContaining(s.events, targetEv.id);
       if (ids.length) {
         dispatch({
@@ -1901,10 +2043,18 @@ export default function NotationEditor(props) {
     }
 
     if (barEv) {
-      dispatch({
-        type: 'SET_SELECTION',
-        selection: { eventIds: [barEv.id], toneIndex: null, anchorId: barEv.id },
-      });
+      const measureIds = selectMeasureContaining(s.events, barEv.id);
+      if (measureIds.length) {
+        dispatch({
+          type: 'SET_SELECTION',
+          selection: { eventIds: measureIds, toneIndex: null, anchorId: barEv.id },
+        });
+      } else {
+        dispatch({
+          type: 'SET_SELECTION',
+          selection: { eventIds: [barEv.id], toneIndex: null, anchorId: barEv.id },
+        });
+      }
       clearSelectionClickRects();
       setCaretIndex(s.events.findIndex(function(x) { return x.id === barEv.id; }));
       focusStaffEditor();
@@ -1929,32 +2079,9 @@ export default function NotationEditor(props) {
       return;
     }
 
-    const insertPos = caretIndexAndAnchorFromStaffClick(
-      wrap,
-      s.events,
-      mouseEvent,
-      analysis,
-      voiceStaffIdx
-    );
-    if (insertPos && typeof insertPos.caretIndex === 'number' && insertPos.caretIndex > idx) {
-      setInsertCaret(insertPos.caretIndex, insertPos.anchor || null);
-      clearSelectionClickRects();
-      dispatch({ type: 'SET_SELECTION', selection: { eventIds: [], toneIndex: null, anchorId: null } });
-      focusStaffEditor();
-      return;
-    }
-
-    // Capture the clicked glyph's screen box so the overlay tracks the real note,
-    // not a drawable-ordinal guess that drifts on long/multi-line scores.
     const startMs = abcElemStartMs(abcelem);
     applyStaffPitchedNoteSelection(ev, s, idx, startMs);
     auditionEvent(ev, null);
-    if (mouseEvent && mouseEvent.detail === 2) {
-      // Double-click note/rest → chord symbol edit (fingering via Ctrl+F / Marks).
-      const openId = ev.id;
-      window.setTimeout(function() { openAnnotEditor('chord', openId); }, 0);
-      return;
-    }
     focusStaffEditor();
     return;
   }
@@ -2477,11 +2604,21 @@ export default function NotationEditor(props) {
     const eventIds = opts && opts.eventIds ? opts.eventIds : [eventId];
     const ev = s.events.find(function(x) { return x.id === eventId; });
     const caretIndex = ev ? caretIndexForStartBeat(s.events, ev.startBeat || 0) : s.caretIndex;
+    clearSelectionClickRects();
     dispatch({
       type: 'SET_SELECTION',
       selection: { eventIds: eventIds, toneIndex: null, anchorId: eventId },
     });
     setCaretIndex(caretIndex);
+    const wrap = staffWrapRef.current;
+    if (wrap) {
+      syncStaffSelectionHighlight(
+        wrap,
+        s.events,
+        eventIds,
+        activeVoiceStaffIndex
+      );
+    }
   }
 
   function handlePianoRollAlign(action) {
@@ -3038,7 +3175,31 @@ export default function NotationEditor(props) {
                 return;
               }
               if (s.selection.eventIds.length) {
-                applyEvents(changeSelectedDuration(s, key, s.dotted), EDITOR_VIEWS.STAFF, 'Change duration');
+                applyEvents(
+                  changeSelectedDuration(s, key, s.dotted),
+                  EDITOR_VIEWS.STAFF,
+                  restDurationChangeLabel(s, key, s.dotted)
+                );
+              } else if (s.mode === EDITOR_MODES.NORMAL && s.events.length) {
+                let focusIdx = s.caretIndex > 0 ? s.caretIndex - 1 : 0;
+                if (focusIdx >= s.events.length) focusIdx = s.events.length - 1;
+                const focusEv = s.events[focusIdx];
+                if (focusEv && (focusEv.type === 'note' || focusEv.type === 'chord' || focusEv.type === 'rest')) {
+                  const withSel = Object.assign({}, s, {
+                    selection: {
+                      eventIds: [focusEv.id],
+                      toneIndex: null,
+                      anchorId: focusEv.id,
+                    },
+                  });
+                  applyEvents(
+                    changeSelectedDuration(withSel, key, s.dotted),
+                    EDITOR_VIEWS.STAFF,
+                    restDurationChangeLabel(withSel, key, s.dotted)
+                  );
+                } else {
+                  dispatch({ type: 'SET_DURATION_KEY', key: key });
+                }
               } else {
                 dispatch({ type: 'SET_DURATION_KEY', key: key });
               }

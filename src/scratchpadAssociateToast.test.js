@@ -17,10 +17,12 @@ describe('scratchpadAssociateToast', function() {
     toast.success.mockClear()
   })
 
-  test('editorPathForScratchpadAssociate opens music tab for notation modes', function() {
+  test('editorPathForScratchpadAssociate opens correct editor tabs', function() {
     expect(editorPathForScratchpadAssociate('notation', 'abc123')).toBe('/editor/abc123/music')
     expect(editorPathForScratchpadAssociate('notation:merge', 'abc123')).toBe('/editor/abc123/music')
-    expect(editorPathForScratchpadAssociate('background', 'abc123')).toBe('/editor/abc123')
+    expect(editorPathForScratchpadAssociate('chords', 'abc123')).toBe('/editor/abc123/chords')
+    expect(editorPathForScratchpadAssociate('lyrics', 'abc123')).toBe('/editor/abc123/lyrics')
+    expect(editorPathForScratchpadAssociate('background', 'abc123')).toBe('/editor/abc123/info')
   })
 
   test('showScratchpadAssociateSuccessToast renders Open tune button', function() {

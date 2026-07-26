@@ -291,16 +291,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Andy Irvine** (born 1942), London-born, brought **Balkan and Greek** influences to Irish ensemble after time in Eastern Europe. His bouzouki on "
-        },
-        {
-          "type": "track",
-          "id": "planxty-raggle",
-          "label": "Raggle Taggle Gypsy"
-        },
-        {
-          "type": "markdown",
-          "text": " and Planxty catalogue defined **ringing open-string** accompaniment. **Memorable detail:** Irvine plays **mandolin and harmonica** too — a model of **multi-instrument** trad musicianship.\n\n**Dónal Lunny** (born 1947), Tullamore, is a **founding architect** of Irish fusion ensemble — Planxty, **Moving Hearts**, **Coolfin**. His bouzouki and **bodhrán** work emphasise **rhythmic architecture**. **Memorable detail:** Lunny helped design **Irish bouzouki** maker specs — player as **instrument evolution** partner.\n\n**Roger McGuire**, **Donal Murphy**, and younger players extend **jazz-chord** and **picking** vocabulary."
+          "text": "**Andy Irvine** (born 1942), London-born, brought **Balkan and Greek** influences to Irish ensemble after time in Eastern Europe. His bouzouki on [[track:planxty-raggle|Raggle Taggle Gypsy]] and Planxty catalogue defined **ringing open-string** accompaniment. **Memorable detail:** Irvine plays **mandolin and harmonica** too — a model of **multi-instrument** trad musicianship.\n\n**Dónal Lunny** (born 1947), Tullamore, is a **founding architect** of Irish fusion ensemble — Planxty, **Moving Hearts**, **Coolfin**. His bouzouki and **bodhrán** work emphasise **rhythmic architecture**. **Memorable detail:** Lunny helped design **Irish bouzouki** maker specs — player as **instrument evolution** partner.\n\n**Roger McGuire**, **Donal Murphy**, and younger players extend **jazz-chord** and **picking** vocabulary."
         }
       ]
     },
@@ -685,16 +676,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "No survey of Session Voices II is complete without **Planxty** (1972–1980s, with later revivals): **Christy Moore** (guitar, bodhrán, voice), **Andy Irvine** (bouzouki, mandolin, harmonica), **Dónal Lunny** (bouzouki, guitar, bodhrán), **Liam O'Flynn** (uilleann pipes). Planxty did not invent guitar or bouzouki in Ireland, but it **codified** how they interact with pipes and fiddle — counter-melody, open-string ring, arranged transitions between tunes in a set.\n\nListen to *The Well Below the Valley* or "
-        },
-        {
-          "type": "track",
-          "id": "planxty-raggle",
-          "label": "Raggle Taggle Gypsy"
-        },
-        {
-          "type": "markdown",
-          "text": " as **ensemble textbooks**: who enters when, how bodhrán supports without dominating, how bouzouki **fills** harmonic space guitar leaves empty. **Memorable detail:** Planxty treated Irish trad as **arranged chamber music** without losing dance pulse — a direct ancestor of how **Lúnasa**, **Danú**, and **Goitse** stage sessions today.\n\n**Moving Hearts** (Lunny, rock pulse meets pipes) and **The Bothy Band** (banjo, flute, fiddle, guitar, bodhrán) extended the template in different directions — one toward **fusion**, one toward **pure trad** with modern ensemble clarity. **Ceoltóirí Chualann** (Ó Riada) preceded them; Planxty **popularised** the guitar-bouzouki-pipes triangle for post-1970 listeners.\n\n**Seán Ó Riada**'s legacy threads through this entire lesson: bodhrán on stage, harp in ensemble, pipes as **art music** — Session Voices II instruments gained **respect** through arranged bands before they saturated pub sessions. Understanding that history explains why older players sometimes say \"we didn't always play guitar in trad\" while younger players cannot imagine a session without it.\n\n---"
+          "text": "No survey of Session Voices II is complete without **Planxty** (1972–1980s, with later revivals): **Christy Moore** (guitar, bodhrán, voice), **Andy Irvine** (bouzouki, mandolin, harmonica), **Dónal Lunny** (bouzouki, guitar, bodhrán), **Liam O'Flynn** (uilleann pipes). Planxty did not invent guitar or bouzouki in Ireland, but it **codified** how they interact with pipes and fiddle — counter-melody, open-string ring, arranged transitions between tunes in a set.\n\nListen to *The Well Below the Valley* or [[track:planxty-raggle|Raggle Taggle Gypsy]] as **ensemble textbooks**: who enters when, how bodhrán supports without dominating, how bouzouki **fills** harmonic space guitar leaves empty. **Memorable detail:** Planxty treated Irish trad as **arranged chamber music** without losing dance pulse — a direct ancestor of how **Lúnasa**, **Danú**, and **Goitse** stage sessions today.\n\n**Moving Hearts** (Lunny, rock pulse meets pipes) and **The Bothy Band** (banjo, flute, fiddle, guitar, bodhrán) extended the template in different directions — one toward **fusion**, one toward **pure trad** with modern ensemble clarity. **Ceoltóirí Chualann** (Ó Riada) preceded them; Planxty **popularised** the guitar-bouzouki-pipes triangle for post-1970 listeners.\n\n**Seán Ó Riada**'s legacy threads through this entire lesson: bodhrán on stage, harp in ensemble, pipes as **art music** — Session Voices II instruments gained **respect** through arranged bands before they saturated pub sessions. Understanding that history explains why older players sometimes say \"we didn't always play guitar in trad\" while younger players cannot imagine a session without it.\n\n---"
         }
       ]
     },
@@ -790,21 +772,21 @@
       "id": "keenan-pipes",
       "entity_id": "mckenna",
       "label": "Reels on pipes",
-      "youtube": "https://www.youtube.com/watch?v=5gVj1k0qJZQ",
+      "youtube": "https://www.youtube.com/watch?v=AQiZ5nsZ1Bo",
       "subtitle": "Paddy Keenan"
     },
     {
       "id": "noel-hill-box",
       "entity_id": "noel-hill",
       "label": "Concertina reels",
-      "youtube": "https://www.youtube.com/watch?v=8Qn_spdM5Zg",
+      "youtube": "https://www.youtube.com/watch?v=8J4FZqknpjg",
       "subtitle": "Noel Hill"
     },
     {
       "id": "planxty-raggle",
       "entity_id": "planxty",
       "label": "Raggle Taggle Gypsy",
-      "youtube": "https://www.youtube.com/watch?v=0Y5a2vS8V8Y",
+      "youtube": "https://www.youtube.com/watch?v=JyP407UnUWw",
       "subtitle": "Planxty"
     }
   ],

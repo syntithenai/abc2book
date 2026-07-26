@@ -12,6 +12,7 @@ export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
   lightMode: false,
   youtubeAudio: false,
   youtubeEgressRequired: false,
+  musicCollection: false,
 });
 
 export const ALL_RESOLVER_FEATURES = Object.freeze({
@@ -30,6 +31,7 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   lightMode: false,
   youtubeAudio: true,
   youtubeEgressRequired: false,
+  musicCollection: false,
 });
 
 export function normalizeResolverFeatures(raw, options) {
@@ -54,6 +56,7 @@ export function normalizeResolverFeatures(raw, options) {
     lightMode: raw.lightMode === true,
     youtubeAudio: raw.youtubeAudio === true,
     youtubeEgressRequired: raw.youtubeEgressRequired === true,
+    musicCollection: raw.musicCollection === true,
   };
 }
 

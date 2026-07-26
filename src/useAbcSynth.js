@@ -20,7 +20,6 @@ import {
     shouldUseMidiMetronomeCountIn,
     MIDI_START_FROM_BEGINNING_TOLERANCE_SECONDS,
     metronomeSlotFromMusicSeconds,
-    timeUntilNextMetronomeSlot,
     computePlaybackMetronomeTempo,
     notationBeatToAudioSeconds,
     notationBeatToAudioRatio,
@@ -30,8 +29,9 @@ import {
     getPlaybackMetronomeSettings,
     resolveMetronomeSettingsTune,
 } from './playbackMetronomeSettings'
-import { countInMusicStartDelayMs, slotsForBeatCount, slotBeatIndex, slotsPerBar } from './metronomeRhythmPresets'
+import { countInMusicStartDelayMs, slotsForBeatCount } from './metronomeRhythmPresets'
 import { normalizeRhythmConfig, ENGINE_MODE_DRUMS } from './rhythmEngineTypes'
+import { playRhythmSlot } from './rhythmSlotPlayback'
 import { primeDrumKit } from './drumSampleKit'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
 import { preloadCountInCueInstrument, scheduleCountInCueNote, firstWarmupCueMidi, firstPlaybackCueMidiFromVisual } from './countInPitchCue'
@@ -40,7 +40,6 @@ export default function useAbcSynth(props) {
     
     const metronomeTimeout = useRef(null)
     const metronome = useRef(null)
-    const lastMetronomeAlignBeatRef = useRef(-1)
     const gaudioContext = useRef(null)
     const gmidiBuffer = useRef(null)
     const gvisualObj = useRef(null)
@@ -61,6 +60,9 @@ export default function useAbcSynth(props) {
     // isPlaying stays false until MIDI audio starts after the metronome.
     const forcePlaybackUntilStartRef = useRef(false)
     const isPlayingRef = useRef(false)
+    const musicDrivenMetronomeActiveRef = useRef(false)
+    const lastMusicDrivenSlotKeyRef = useRef(null)
+    const musicDrivenMetronomeIntervalRef = useRef(null)
     const pendingPlaybackStartSecondsRef = useRef(null)
     const beginMidiPlaybackRef = useRef(null)
     const playMidiBridgeRef = useRef(function(options) {
@@ -612,6 +614,8 @@ export default function useAbcSynth(props) {
         mc.applyPlaybackVolumeRef.current = applySynthPlaybackVolume
         mc.resumeSynthAudioContextRef.current = resumeSynthAudioContext
         mc.pauseSynthRef.current = pauseMidiSynth
+        mc.stopMetronomeRef.current = stopMetronome
+        mc.invalidatePendingMidiStartsRef.current = invalidatePendingMidiStarts
         mc.playMidiRef.current = playMidiBridgeRef.current
         if (mc.resumeMidiAfterSeekRef) {
             mc.resumeMidiAfterSeekRef.current = resumeMidiAfterSeek
@@ -750,41 +754,65 @@ export default function useAbcSynth(props) {
         mcTuneId,
     ])
      
+     function stopMusicDrivenMetronome() {
+        musicDrivenMetronomeActiveRef.current = false
+        lastMusicDrivenSlotKeyRef.current = null
+        if (musicDrivenMetronomeIntervalRef.current) {
+            clearInterval(musicDrivenMetronomeIntervalRef.current)
+            musicDrivenMetronomeIntervalRef.current = null
+        }
+     }
+
+     function resetMusicDrivenMetronomeState() {
+        lastMusicDrivenSlotKeyRef.current = null
+     }
+
+     function tickMusicDrivenMetronome(musicSeconds) {
+        if (!musicDrivenMetronomeActiveRef.current) return
+        if (!gaudioContext.current || gaudioContext.current.state !== 'running') return
+
+        const rhythm = resolvePlaybackMetronomeRhythm()
+        const tempo = getPlaybackMetronomeTempo()
+        if (!(tempo > 0)) return
+
+        const secs = Math.max(0, parseFloat(musicSeconds) || 0)
+        const secPerBeat = 60 / tempo
+        const barDur = rhythm.beatsPerBar * secPerBeat
+        const barIndex = barDur > 0 ? Math.floor(secs / barDur) : 0
+        const slot = metronomeSlotFromMusicSeconds(secs, tempo, rhythm)
+        const key = barIndex + ':' + slot
+
+        if (key === lastMusicDrivenSlotKeyRef.current) return
+        lastMusicDrivenSlotKeyRef.current = key
+
+        playRhythmSlot(gaudioContext.current, gaudioContext.current.currentTime + 0.001, rhythm, slot)
+     }
+
+     function startMusicDrivenMetronome() {
+        if (musicDrivenMetronomeActiveRef.current) return
+        musicDrivenMetronomeActiveRef.current = true
+        if (musicDrivenMetronomeIntervalRef.current) {
+            clearInterval(musicDrivenMetronomeIntervalRef.current)
+        }
+        musicDrivenMetronomeIntervalRef.current = setInterval(function() {
+            if (!musicDrivenMetronomeActiveRef.current) return
+            if (!isPlayingRef.current && !forcePlaybackUntilStartRef.current) return
+            tickMusicDrivenMetronome(getMusicSecondsForMetronomeSync())
+        }, 25)
+     }
+
      function stopMetronome() {
+        stopMusicDrivenMetronome()
         if (metronomeTimeout.current) {
             clearTimeout(metronomeTimeout.current)
             metronomeTimeout.current = null
         }
-        lastMetronomeAlignBeatRef.current = -1
         if (metronome.current) {
             metronome.current.onSlotChange = null
             metronome.current.onFirstNoteSchedule = null
             metronome.current.stop()
             metronome.current = null
         }
-     }
-
-     function slotForBeatStart(rhythm, beatInBar) {
-        const total = slotsPerBar(rhythm)
-        const beat = ((beatInBar % rhythm.beatsPerBar) + rhythm.beatsPerBar) % rhythm.beatsPerBar
-        for (let slot = 0; slot < total; slot++) {
-            if (slotBeatIndex(rhythm, slot) === beat) return slot
-        }
-        return beat
-     }
-
-     function startPlaybackMetronome(rhythm, slotIndex, tempo) {
-        const effectiveTempo = tempo > 0 ? tempo : getPlaybackMetronomeTempo()
-        metronome.current = new Metronome(
-            gaudioContext.current,
-            effectiveTempo > 0 ? effectiveTempo : 120,
-            rhythm.beatsPerBar,
-            0,
-            null,
-            metronomeStartErrorCallback,
-            rhythm
-        )
-        metronome.current.startAtSlot(slotIndex || 0)
      }
 
      function getMusicSecondsForMetronomeSync(ratio) {
@@ -795,42 +823,6 @@ export default function useAbcSynth(props) {
             return Math.max(0, r * gmidiBuffer.current.duration)
         }
         return getMidiPlaybackSeconds()
-     }
-
-     function alignPlaybackMetronomeFromMusicSeconds(musicSeconds) {
-        if (!resolvePlaybackMetronomeOptions().duringPlayback) return
-        if (!metronome.current || !metronome.current.isRunning) {
-            if (isPlayingRef.current) {
-                const ratio = gmidiBuffer.current && gmidiBuffer.current.duration > 0
-                    ? (parseFloat(musicSeconds) || 0) / gmidiBuffer.current.duration
-                    : getMidiPlaybackRatio()
-                ensureDuringPlaybackMetronome(ratio)
-            }
-            return
-        }
-        if (!gaudioContext.current) return
-
-        const rhythm = resolvePlaybackMetronomeRhythm()
-        const tempo = getPlaybackMetronomeTempo()
-        if (!(tempo > 0)) return
-        const beatDuration = 60 / tempo
-        const beatNumber = Math.max(0, Math.floor((parseFloat(musicSeconds) || 0) / beatDuration + 0.0001))
-        if (beatNumber === lastMetronomeAlignBeatRef.current) return
-
-        const jump = lastMetronomeAlignBeatRef.current >= 0
-            ? beatNumber - lastMetronomeAlignBeatRef.current
-            : 1
-        lastMetronomeAlignBeatRef.current = beatNumber
-
-        const slot = metronomeSlotFromMusicSeconds(musicSeconds, tempo, rhythm)
-        const now = gaudioContext.current.currentTime
-        const delayToNextSlot = timeUntilNextMetronomeSlot(musicSeconds, tempo, rhythm)
-        const expectedNext = now + delayToNextSlot
-        const drift = expectedNext - metronome.current.nextNoteTime
-
-        if (jump > 1 || Math.abs(drift) > 0.045) {
-            metronome.current.alignToSlot(slot, now + 0.02)
-        }
      }
 
      function invalidatePendingMidiStarts() {
@@ -1203,27 +1195,38 @@ export default function useAbcSynth(props) {
         setTapToPlayFlag(true)
     }
 
+    function shouldScheduleCountInPitchCue() {
+        if (props.onCountInBeat) return true
+        if (props.metronomeCountInCueMidi != null && Number.isFinite(props.metronomeCountInCueMidi)) {
+            return true
+        }
+        if (props.practiceReferenceGain != null && props.practiceReferenceGain >= 0) {
+            return true
+        }
+        if (props.mediaController && props.mediaController.isPracticeSessionActive) {
+            return props.mediaController.isPracticeSessionActive()
+        }
+        return false
+    }
+
     function ensureDuringPlaybackMetronome(ratio, options) {
         const opts = options || {}
         const metro = resolvePlaybackMetronomeOptions()
         if (!metro.duringPlayback) return
-        const rhythm = resolvePlaybackMetronomeRhythm()
-        const tempo = getPlaybackMetronomeTempo()
-        if (metronome.current && metronome.current.isRunning) {
-            if (opts.seamlessHandoff) {
-                syncPlaybackMetronomeTempo()
-                return
+
+        // During playback, drive clicks from the music clock so accents stay on
+        // the configured beats. A free-running Metronome drifts from abcjs timing.
+        if (opts.seamlessHandoff || (metronome.current && metronome.current.isRunning)) {
+            if (metronome.current) {
+                metronome.current.onSlotChange = null
+                metronome.current.onFirstNoteSchedule = null
+                metronome.current.stop()
+                metronome.current = null
             }
-            syncPlaybackMetronomeTempo()
-            lastMetronomeAlignBeatRef.current = -1
-            alignPlaybackMetronomeFromMusicSeconds(getMusicSecondsForMetronomeSync(ratio))
-            return
         }
-        const musicSeconds = getMusicSecondsForMetronomeSync(ratio)
-        const slot = metronomeSlotFromMusicSeconds(musicSeconds, tempo, rhythm)
-        startPlaybackMetronome(rhythm, slot, tempo)
-        lastMetronomeAlignBeatRef.current = -1
-        alignPlaybackMetronomeFromMusicSeconds(musicSeconds)
+        startMusicDrivenMetronome()
+        resetMusicDrivenMetronomeState()
+        tickMusicDrivenMetronome(getMusicSecondsForMetronomeSync(ratio))
     }
 
      function shouldStartMidiFromBeginning(forceRestart) {
@@ -1374,7 +1377,7 @@ export default function useAbcSynth(props) {
             })
         }
         if (!skipPositionUpdate) {
-            alignPlaybackMetronomeFromMusicSeconds(newSeconds)
+            tickMusicDrivenMetronome(newSeconds)
         }
          // FINISHED PLAYBACK
         // detect end of tune and handle repeats/call props.onEnded
@@ -2144,6 +2147,7 @@ export default function useAbcSynth(props) {
         currentTime.current = clamped * gmidiBuffer.current.duration
         if (opts.skipAutoResume) {
             stopNativeMidiBufferOutput()
+            resetMusicDrivenMetronomeState()
             if (pitchShifterRef.current) {
                 try { pitchShifterRef.current.disconnect() } catch (e) {}
             }
@@ -2472,7 +2476,8 @@ export default function useAbcSynth(props) {
                           : (cueMidi != null && Number.isFinite(cueMidi)
                             ? preloadCountInCueInstrument(gaudioContext.current)
                             : Promise.resolve(null))
-                        metronome.current.onFirstNoteSchedule = function(time) {
+                        metronome.current.onFirstNoteSchedule = shouldScheduleCountInPitchCue()
+                            ? function(time) {
                             if (!isPlaybackGenerationCurrent(countInGeneration)) return
                             const cueGain = props.practiceReferenceGain != null
                                 ? Math.max(0.35, Math.min(1, props.practiceReferenceGain * 4))
@@ -2489,6 +2494,7 @@ export default function useAbcSynth(props) {
                                 buffer || primedCueBuffer || null
                             )
                         }
+                            : null
                         metronome.current.onSlotChange = function() {
                             if (!isPlaybackGenerationCurrent(countInGeneration)) return
                             countInSlotEmitted += 1

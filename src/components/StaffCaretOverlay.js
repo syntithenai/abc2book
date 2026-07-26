@@ -11,14 +11,8 @@ export default function StaffCaretOverlay(props) {
     insertAnchor,
   } = props;
   const [computedAnchor, setComputedAnchor] = useState(null);
-  const hasNoteSelection = !!(
-    session.selection
-    && session.selection.eventIds
-    && session.selection.eventIds.length
-  );
   const showNoteInputCaret = session.mode === EDITOR_MODES.NOTE_INPUT;
-  const showInsertCaret = session.mode === EDITOR_MODES.NORMAL && !hasNoteSelection;
-  const showCaret = showNoteInputCaret || showInsertCaret;
+  const showCaret = showNoteInputCaret;
 
   useLayoutEffect(function() {
     if (!showCaret) {
@@ -70,11 +64,8 @@ export default function StaffCaretOverlay(props) {
 
   return (
     <div
-      className={
-        'notation-staff-caret'
-        + (showInsertCaret ? ' notation-staff-caret--insert' : '')
-      }
-      data-testid={showInsertCaret ? 'notation-staff-insert-caret' : 'notation-staff-caret'}
+      className="notation-staff-caret"
+      data-testid="notation-staff-caret"
       style={{
         left: anchor.left + 'px',
         top: anchor.top + 'px',

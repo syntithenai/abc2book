@@ -1,12 +1,18 @@
 import { useEffect, useRef, useState } from 'react'
 import { Button, Form, ListGroup, Spinner } from 'react-bootstrap'
-import { searchYouTubeVideos } from '../youtubeSearchClient'
+import { searchMediaLinks } from '../mediaLinkSearchClient'
 import VoiceFillInput from './VoiceFillInput'
 
 const DEFAULT_DEBOUNCE_MS = 1800
 
+function sourceLabel(source) {
+  if (source === 'music-collection') return 'My library'
+  if (source === 'youtube') return 'YouTube'
+  return source || ''
+}
+
 /**
- * Embedded YouTube picker for Add form: search field + result list.
+ * Embedded media picker for Add form: search field + result list.
  * External `searchQuery` / `searchNonce` triggers a long-debounced search.
  */
 export default function AddTuneYouTubePicker(props) {
@@ -48,9 +54,11 @@ export default function AddTuneYouTubePicker(props) {
       if (abortRef.current) abortRef.current.abort()
       const controller = typeof AbortController !== 'undefined' ? new AbortController() : null
       abortRef.current = controller
-      searchYouTubeVideos({
+      searchMediaLinks({
         query: query,
         maxResults: 6,
+        accessToken: props.token,
+        token: props.token,
         signal: controller ? controller.signal : undefined,
       }).then(function(result) {
         lastSearchedRef.current = query
@@ -67,14 +75,14 @@ export default function AddTuneYouTubePicker(props) {
       }).catch(function(err) {
         if (err && err.name === 'AbortError') return
         setBusy(false)
-        setError(err && err.message ? err.message : 'YouTube search failed')
+        setError(err && err.message ? err.message : 'Media search failed')
         setResults([])
       })
     }, debounceMs)
     return function() {
       if (timerRef.current) clearTimeout(timerRef.current)
     }
-  }, [filter, props.searchNonce, debounceMs])
+  }, [filter, props.searchNonce, debounceMs, props.token])
 
   useEffect(function() {
     return function() {
@@ -89,9 +97,9 @@ export default function AddTuneYouTubePicker(props) {
   return (
     <div className="add-tune-youtube-picker" data-testid="add-tune-youtube-block">
       <div className="d-flex align-items-center justify-content-between gap-2 flex-wrap mb-2">
-        <Form.Label className="mb-0">YouTube</Form.Label>
+        <Form.Label className="mb-0">Media link</Form.Label>
         <div className="d-flex align-items-center gap-2">
-          {busy ? <Spinner animation="border" size="sm" aria-label="Searching YouTube" /> : null}
+          {busy ? <Spinner animation="border" size="sm" aria-label="Searching media" /> : null}
           {selected ? (
             <Button size="sm" variant="outline-secondary" onClick={function() {
               if (typeof props.onClear === 'function') props.onClear()
@@ -113,7 +121,7 @@ export default function AddTuneYouTubePicker(props) {
 
       <VoiceFillInput
         value={filter}
-        placeholder="Search YouTube…"
+        placeholder="Search my library or YouTube…"
         data-testid="add-tune-youtube-query"
         onChange={function(e) { setFilter(e.target.value) }}
         onFocus={function() {
@@ -139,6 +147,9 @@ export default function AddTuneYouTubePicker(props) {
               >
                 <div style={{ minWidth: 0 }}>
                   <div className="fw-semibold text-truncate">{item.title || 'Video'}</div>
+                  {item.source ? (
+                    <div className="small text-muted">{sourceLabel(item.source)}</div>
+                  ) : null}
                   {item.description ? (
                     <div className="small text-muted" style={{
                       display: '-webkit-box',

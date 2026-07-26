@@ -168,7 +168,11 @@ export default function LyricsSectionsDropdown(props) {
           </span>
           Sections
         </Dropdown.Toggle>
-        <Dropdown.Menu className="lyrics-sections-dropdown-menu" style={{ minWidth: '16rem' }}>
+        <Dropdown.Menu
+          className="lyrics-sections-dropdown-menu"
+          style={{ minWidth: '16rem' }}
+          popperConfig={{ strategy: 'fixed' }}
+        >
           <Dropdown.Item
             as="button"
             type="button"

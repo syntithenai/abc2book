@@ -137,6 +137,21 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
     updateLoop(loopId, { endDisplay: getCurrentPlaybackTimeFormatted() });
   }
 
+  function canSeekToLoopStart(loop) {
+    return !!(loop.startDisplay && String(loop.startDisplay).trim());
+  }
+
+  function handleSeekToLoopStart(loop) {
+    if (!canSeekToLoopStart(loop)) return;
+    if (!mediaController || !mediaController.seekToSeconds) return;
+    const seconds = parseMsToSeconds(loop.startDisplay);
+    const wasPlaying = !!mediaController.isPlaying;
+    mediaController.seekToSeconds(seconds, {
+      wasPlaying: wasPlaying,
+      skipSeekOperation: !wasPlaying,
+    });
+  }
+
   if (!tune || linkIndex === null || !tune.links || !tune.links[linkIndex]) return null;
 
   return (
@@ -148,6 +163,16 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
       {loops.map(function(loop) {
         return (
           <div key={loop.id} className="playback-loop-row">
+            <Button
+              variant="outline-secondary"
+              size="sm"
+              className="playback-loop-start"
+              disabled={!canSeekToLoopStart(loop)}
+              onClick={function() { handleSeekToLoopStart(loop); }}
+              title="Seek to loop start"
+            >
+              Start
+            </Button>
             <Form.Check
               type="checkbox"
               className="playback-loop-active"

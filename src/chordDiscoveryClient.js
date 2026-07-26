@@ -41,7 +41,34 @@ export async function discoverChordsFromSource(options) {
     onProgress,
   } = options;
 
-  if (!source || !source.src) {
+  if (!source) {
+    throw new Error('No media source selected');
+  }
+
+  if (source.kind === 'recording') {
+    if (!source.blob) {
+      throw new Error('Recording data is not available');
+    }
+    if (typeof onProgress === 'function') {
+      onProgress('Uploading audio...');
+    }
+    const formData = new FormData();
+    formData.append('file', source.blob, source.fileName || 'recording.wav');
+    const response = await fetchViaMediaProxy('/detect-chords', accessToken, {
+      method: 'POST',
+      body: formData,
+      signal: signal,
+      headers: {
+        Accept: 'application/json',
+      },
+    });
+    if (typeof onProgress === 'function') {
+      onProgress('Formatting chords...');
+    }
+    return parseChordDiscoveryResponse(response);
+  }
+
+  if (!source.src) {
     throw new Error('No linked media source selected');
   }
 

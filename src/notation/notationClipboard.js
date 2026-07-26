@@ -1,4 +1,10 @@
 import { cloneVoiceEvent, createEventId } from './voiceEventModel';
+import {
+  insertTimedEventsAtBeat,
+  totalTimedBeats,
+  stripFillerRests,
+} from './staffMeasureFill';
+import { assignTimingToEvents, parseNoteLengthDecimal } from './beatGrid';
 
 let clipboard = null;
 
@@ -33,9 +39,38 @@ export function pasteFromClipboard(events, caretIndex, tuneMeta, replaceIds) {
     c.id = createEventId('paste');
     return c;
   });
+  const ids = Array.isArray(replaceIds) ? replaceIds.filter(Boolean) : [];
+  if (ids.length && tuneMeta) {
+    const unit = parseNoteLengthDecimal(tuneMeta.noteLength, tuneMeta.meter);
+    const timed = assignTimingToEvents(events.map(cloneVoiceEvent), tuneMeta.meter, unit);
+    let anchorBeat = 0;
+    let minIdx = timed.length;
+    ids.forEach(function(id) {
+      timed.forEach(function(ev, i) {
+        if (ev.id === id && i < minIdx) {
+          minIdx = i;
+          if (typeof ev.startBeat === 'number') anchorBeat = ev.startBeat;
+        }
+      });
+    });
+    const clipBeats = totalTimedBeats(clone, tuneMeta);
+    const next = stripFillerRests(
+      insertTimedEventsAtBeat(events, anchorBeat, clone, tuneMeta)
+    );
+    let caret = next.length;
+    next.forEach(function(ev, i) {
+      if (typeof ev.startBeat === 'number' && ev.startBeat >= anchorBeat + clipBeats - 0.001) {
+        caret = Math.min(caret, i);
+      }
+    });
+    return {
+      events: next,
+      caretIndex: caret,
+      meterWarning: clipboard.sourceMeter !== tuneMeta.meter,
+    };
+  }
   let next = events.slice();
   let idx = Math.min(caretIndex, next.length);
-  const ids = Array.isArray(replaceIds) ? replaceIds.filter(Boolean) : [];
   if (ids.length) {
     const idSet = {};
     ids.forEach(function(id) { idSet[id] = true; });

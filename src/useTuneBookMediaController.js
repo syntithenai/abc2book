@@ -152,6 +152,8 @@ export default function useTuneBookMediaController(props) {
     var resumeSynthAudioContextRef = useRef(null)
     var resumeMidiFileAudioContextRef = useRef(null)
     var pauseSynthRef = useRef(null)
+    var stopMetronomeRef = useRef(null)
+    var invalidatePendingMidiStartsRef = useRef(null)
     var stopMidiSynthRef = useRef(null)
     var playMidiRef = useRef(null)
     var pendingMidiPlayRef = useRef(null)
@@ -2468,10 +2470,13 @@ export default function useTuneBookMediaController(props) {
             const total = resolvePlaybackDuration()
             const ratio = total > 0 ? Math.min(1, clamped / total) : 0
             if (ratio >= 0) {
-                if (seekMidiRef.current) {
-                    seekMidiRef.current(ratio)
-                }
+            if (seekMidiRef.current) {
+                seekMidiRef.current(ratio, { skipAutoResume: !wasPlaying })
+            }
                 setClickSeek(ratio)
+            }
+            if (!wasPlaying) {
+                cancelPausedPlaybackSeek()
             }
             if (wasPlaying) {
                 startProgressSync()
@@ -4719,6 +4724,19 @@ export default function useTuneBookMediaController(props) {
         }
     }
 
+    function isPracticeSessionActive() {
+        return practiceSessionActiveRef.current
+    }
+
+    function cancelPausedPlaybackSeek() {
+        if (stopMetronomeRef.current) {
+            stopMetronomeRef.current()
+        }
+        if (invalidatePendingMidiStartsRef.current) {
+            invalidatePendingMidiStartsRef.current()
+        }
+    }
+
     function captureSuspendedQueuePlayback(queue) {
         const playingId = getCurrentTuneId(queue)
         const activeTune = tuneRef.current
@@ -5563,9 +5581,12 @@ export default function useTuneBookMediaController(props) {
                 setCurrentTime(total * clamped)
             }
             if (seekMidiRef.current) {
-                seekMidiRef.current(clamped)
+                seekMidiRef.current(clamped, { skipAutoResume: !wasPlaying })
             }
             setClickSeek(clamped)
+            if (!wasPlaying) {
+                cancelPausedPlaybackSeek()
+            }
             if (wasPlaying) {
                 startProgressSync()
                 if (resumeMidiAfterSeekRef.current) {
@@ -5585,14 +5606,12 @@ export default function useTuneBookMediaController(props) {
     }
 
     function rewindToStart() {
-        const wasActive = hasActivePlaybackIntent() || isPlaying
-        if (wasActive) {
+        if (isPlaying) {
             restartPlaybackFromStart()
             return
         }
         const startAt = playbackRouteRef.current.mode === 'media' ? getLinkStartAt() : 0
-        const ratio = duration > 0 ? startAt / duration : 0
-        seek(ratio)
+        seekToSeconds(startAt, { wasPlaying: false, skipSeekOperation: true })
     }
 
     function getPlaybackProgress() {
@@ -5652,7 +5671,7 @@ export default function useTuneBookMediaController(props) {
     })
     
     
-    return {play, playFromUserGesture, preparePlaybackFromUserGesture, requestPlayback, consumePendingPlayRequest, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, seekToSeconds, seekBySeconds, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef, filteredPlayerRef, ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyLivePlaybackSettings, updateTuneAudioFilterSettings, stemSeparationActive, stemAnalysisProgress, stemsReadyForMedia, hasStemsForCurrentMedia, analyseMediaStems, cancelStemAnalysis, saveProcessedMediaToFile, getDemucsModel, getAvailableAudioFilterKeys, getAvailableStemNames, availableStemNames, pitchShiftPreparing, finishPitchShiftPrepareRef, applyPlaybackSettingsLiveRef, applyMidiTempoRef, applyPlaybackVolumeRef, resumeSynthAudioContextRef, resumeMidiFileAudioContextRef, pauseSynthRef, stopMidiSynthRef, playMidiRef, pendingMidiPlayRef, notationPlaybackStartSecondsRef, notationPlaybackSeekRef, notationStaffCursorRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, playMidiFileRef, pauseMidiFileRef, seekMidiFileRef, getMidiFilePlaybackSecondsRef, applyMidiFileTempoRef, prepareMidiFileLinkRef, pendingMidiFilePlayRef, flushPendingMidiFilePlay, stopMidiFileRef, userGesturePlayRef, mediaLinkNumber, playbackRouteMode, requestedPlayState, setMediaLinkNumber, getSrc, getSrcType, getLinkedMediaResolveOptions, playbackSpeed, setPlaybackSpeed, playbackVolume, setPlaybackVolume, adjustPlaybackVolume, playbackVolumeStep: PLAYBACK_VOLUME_STEP, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playlistStalled, clearPlaylistStall, playCancelled, setPlayCancelled, notationMidiOwner, setNotationMidiOwner, startNotationMidiPlayback, stopNotationMidiPlayback, clearNotationPlayRetry, prepareExternalMedia, destroyExternalMedia, notifyYoutubeSrcChanged, clearYoutubePlayerRef, resetPracticeMediaPlayback, pauseYoutubeOutputOnly, silencePlaybackOutputs, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, isExternalOutputActive, nativePlaybackFallbackRequired, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, recoverUnexpectedNativePause, usesExternalPitchTempo, mediaResolverAvailable, mediaResolverChecked, mediaResolverStatus, resolverFeatures, stemsCapabilityAvailable, mediaResolverFeaturesEnabled: stemsCapabilityAvailable, refreshMediaResolverHealth, resumeAudioContextAndPlay, resumeExternalAudioContextFromGesture, ensureStemLivePlaybackHandoff, primeStemPlaybackEngine, prepareStemFilterHandoff, confirmPlayingStarted, abortPlayingIntent, armPlaybackIntent, hasPlayingIntent, hasActivePlaybackIntent, isSeekGuardActive, isMidiPlaybackRoute, isMidiFileMediaRoute, isMediaPlaybackRoute, applyPlaybackRoute, maybeAutostart, setPracticeSessionHandler, setPracticeSessionActive, invokePracticeSessionHandler, captureSuspendedQueuePlayback, restoreSuspendedQueuePlayback, consumeQueuePlaybackResume, getPlaybackHandoffPosition, applyPreservedPlaybackPosition, getActivePreparedMediaSrc, shouldPreserveMediaEngineOnHostHandoff, nativePlaybackSrcOverride, clearCachedNativePlaybackUrl}
+    return {play, playFromUserGesture, preparePlaybackFromUserGesture, requestPlayback, consumePendingPlayRequest, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, seekToSeconds, seekBySeconds, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef, filteredPlayerRef, ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyLivePlaybackSettings, updateTuneAudioFilterSettings, stemSeparationActive, stemAnalysisProgress, stemsReadyForMedia, hasStemsForCurrentMedia, analyseMediaStems, cancelStemAnalysis, saveProcessedMediaToFile, getDemucsModel, getAvailableAudioFilterKeys, getAvailableStemNames, availableStemNames, pitchShiftPreparing, finishPitchShiftPrepareRef, applyPlaybackSettingsLiveRef, applyMidiTempoRef, applyPlaybackVolumeRef, resumeSynthAudioContextRef, resumeMidiFileAudioContextRef, pauseSynthRef, stopMetronomeRef, invalidatePendingMidiStartsRef, stopMidiSynthRef, playMidiRef, pendingMidiPlayRef, notationPlaybackStartSecondsRef, notationPlaybackSeekRef, notationStaffCursorRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, playMidiFileRef, pauseMidiFileRef, seekMidiFileRef, getMidiFilePlaybackSecondsRef, applyMidiFileTempoRef, prepareMidiFileLinkRef, pendingMidiFilePlayRef, flushPendingMidiFilePlay, stopMidiFileRef, userGesturePlayRef, mediaLinkNumber, playbackRouteMode, requestedPlayState, setMediaLinkNumber, getSrc, getSrcType, getLinkedMediaResolveOptions, playbackSpeed, setPlaybackSpeed, playbackVolume, setPlaybackVolume, adjustPlaybackVolume, playbackVolumeStep: PLAYBACK_VOLUME_STEP, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playlistStalled, clearPlaylistStall, playCancelled, setPlayCancelled, notationMidiOwner, setNotationMidiOwner, startNotationMidiPlayback, stopNotationMidiPlayback, clearNotationPlayRetry, prepareExternalMedia, destroyExternalMedia, notifyYoutubeSrcChanged, clearYoutubePlayerRef, resetPracticeMediaPlayback, pauseYoutubeOutputOnly, silencePlaybackOutputs, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, isExternalOutputActive, nativePlaybackFallbackRequired, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, recoverUnexpectedNativePause, usesExternalPitchTempo, mediaResolverAvailable, mediaResolverChecked, mediaResolverStatus, resolverFeatures, stemsCapabilityAvailable, mediaResolverFeaturesEnabled: stemsCapabilityAvailable, refreshMediaResolverHealth, resumeAudioContextAndPlay, resumeExternalAudioContextFromGesture, ensureStemLivePlaybackHandoff, primeStemPlaybackEngine, prepareStemFilterHandoff, confirmPlayingStarted, abortPlayingIntent, armPlaybackIntent, hasPlayingIntent, hasActivePlaybackIntent, isPracticeSessionActive, isSeekGuardActive, isMidiPlaybackRoute, isMidiFileMediaRoute, isMediaPlaybackRoute, applyPlaybackRoute, maybeAutostart, setPracticeSessionHandler, setPracticeSessionActive, invokePracticeSessionHandler, captureSuspendedQueuePlayback, restoreSuspendedQueuePlayback, consumeQueuePlaybackResume, getPlaybackHandoffPosition, applyPreservedPlaybackPosition, getActivePreparedMediaSrc, shouldPreserveMediaEngineOnHostHandoff, nativePlaybackSrcOverride, clearCachedNativePlaybackUrl}
    //srcSelection, setSrcSelection, src, setSrc,
 }
  

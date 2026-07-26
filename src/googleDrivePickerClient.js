@@ -128,11 +128,14 @@ export async function openGoogleDrivePicker(options) {
       .addView(docsView)
       .setOAuthToken(accessToken)
       .setDeveloperKey(apiKey)
-      .setTitle(opts.title || 'Choose a file')
-      .setCallback(function(data) {
+      .setTitle(opts.title || 'Choose a file');
+    if (opts.multiSelect) {
+      picker.enableFeature(window.google.picker.Feature.MULTISELECT_ENABLED);
+    }
+    picker.setCallback(function(data) {
         if (!data) return;
-        if (data.action === window.google.picker.Action.PICKED && data.docs && data.docs[0]) {
-          resolve(data.docs[0]);
+        if (data.action === window.google.picker.Action.PICKED && data.docs && data.docs.length) {
+          resolve(opts.multiSelect ? data.docs : data.docs[0]);
           return;
         }
         if (data.action === window.google.picker.Action.CANCEL) {

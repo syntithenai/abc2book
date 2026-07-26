@@ -6,7 +6,7 @@ import LessonsIndex from '../components/LessonsIndex'
 import LessonContent from '../components/LessonContent'
 import LessonEntitiesModal from '../components/LessonEntitiesModal'
 import LessonFeedbackHost from '../components/LessonFeedbackHost'
-import StudyNavInline from '../components/StudyNavInline'
+import StudyPageChrome from '../components/StudyPageChrome'
 import {
   loadLessonManifest,
   loadLessonById,
@@ -247,32 +247,35 @@ export default function LessonsPage(props) {
     </div>
   )
 
-  function renderTopChrome(feedbackToolbar) {
+  function renderStudyChrome(feedbackToolbar) {
     return (
-      <div className="lessons-top-chrome">
-        <button
-          type="button"
-          className="lessons-index-toggle d-md-none"
-          data-testid="lessons-index-toggle"
-          aria-expanded={mobileIndexOpen}
-          onClick={function() { setMobileIndexOpen(function(open) { return !open }) }}
-        >
-          Index
-        </button>
-        <div className="lessons-study-actions" data-testid="lessons-study-actions">
-          <StudyNavInline active="lessons" tunebook={props.tunebook} />
-          {feedbackToolbar ? (
-            <div className="lessons-study-feedback" data-testid="lessons-study-bar-feedback">
+      <StudyPageChrome
+        active="lessons"
+        tunebook={props.tunebook}
+        start={
+          <button
+            type="button"
+            className="lessons-index-toggle d-md-none"
+            data-testid="lessons-index-toggle"
+            aria-expanded={mobileIndexOpen}
+            onClick={function() { setMobileIndexOpen(function(open) { return !open }) }}
+          >
+            Index
+          </button>
+        }
+        end={
+          feedbackToolbar ? (
+            <div className="study-page-chrome__extra" data-testid="lessons-study-bar-feedback">
               {feedbackToolbar}
             </div>
-          ) : null}
-        </div>
-      </div>
+          ) : null
+        }
+      />
     )
   }
 
   return (
-    <div className="lessons-page">
+    <div className="lessons-page study-page-with-chrome">
       {mobileIndexOpen ? (
         <button
           type="button"
@@ -285,7 +288,9 @@ export default function LessonsPage(props) {
       <LessonFeedbackHost lesson={lesson} user={props.user} inlineToolbar>
         {function(feedback) {
           return (
-            <div className="lessons-layout">
+            <>
+              {renderStudyChrome(feedback.toolbar)}
+              <div className="lessons-layout">
         <aside className={'lessons-sidebar' + (mobileIndexOpen ? ' lessons-sidebar--open' : '')}>
           <div className="lessons-sidebar-sticky">
             <div className="lessons-sidebar-head">
@@ -315,7 +320,6 @@ export default function LessonsPage(props) {
         </aside>
 
         <main className="lessons-main">
-          {renderTopChrome(feedback.toolbar)}
           {loading ? <p>Loading lessons…</p> : null}
           {error ? <p className="text-danger lessons-error">{error}</p> : null}
           {!loading && !error && lessonId && lessonLoading ? <p>Loading lesson…</p> : null}
@@ -361,6 +365,7 @@ export default function LessonsPage(props) {
           ) : null}
         </main>
             </div>
+            </>
           )
         }}
       </LessonFeedbackHost>

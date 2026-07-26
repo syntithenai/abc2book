@@ -9,9 +9,11 @@ jest.mock('./linkRecording', function() {
 import {
   mergeScratchpadNotationIntoTune,
   mergeScratchpadLyricsIntoTune,
+  mergeScratchpadChordsIntoTune,
   getAssociateModesForItem,
   getNotationAssociateMergeMode,
   isNotationBarPickerMode,
+  isScratchpadAnalyseMode,
   getTuneMelodyNotesText,
   filterScratchpadNotationForMidiExport,
   attachScratchpadNotationMidiToTune,
@@ -85,11 +87,58 @@ describe('scratchpadAssociate', function() {
 
   test('getAssociateModesForItem labels other scratchpad types', function() {
     expect(getAssociateModesForItem({ type: 'text' }).map(function(m) { return m.label })).toEqual([
+      'For Chords',
       'For Lyrics',
       'For Background Information',
     ])
     expect(getAssociateModesForItem({ type: 'image' })[0].label).toBe('As Snapshot')
     expect(getAssociateModesForItem({ type: 'audio' })[0].label).toBe('As Linked Media')
+  })
+
+  test('mergeScratchpadChordsIntoTune parses chord sheet text', function() {
+    const tune = {
+      id: 't1',
+      name: 'Test Song',
+      meter: '4/4',
+      key: 'C',
+      voices: { '1': { meta: '', notes: ['z4 |'] } },
+      words: [],
+      wLines: [],
+      timingScaffold: true,
+    }
+    const tunebook = {
+      abcTools: {
+        abc2json: function() { return Object.assign({}, tune) },
+        json2abc: function(t) {
+          return 'X:1\nT:' + (t && t.name ? t.name : '') + '\nM:4/4\nK:C\nz4 |'
+        },
+        justNotes: function() { return 'z4 |' },
+        emptyABC: function(name) { return 'X:1\nT:' + (name || '') + '\nM:4/4\nK:C\n' },
+        isNoteLine: function(line) {
+          return /[A-Ga-gz\[\]|]/.test(String(line || ''))
+        },
+      },
+      saveTune: function(next) { return next },
+    }
+    const abcjsParser = {
+      renderChords: function() { return 'C | G |' },
+      mergeChords: function(chords, abc) {
+        return String(abc || '') + '\n' + String(chords || '')
+      },
+    }
+    const merged = mergeScratchpadChordsIntoTune(
+      tune,
+      '[Verse 1]\nC | G |\nhello world',
+      { tunebook: tunebook, abcjsParser: abcjsParser }
+    )
+    expect(merged).toBeTruthy()
+    expect(Array.isArray(merged.words)).toBe(true)
+    expect(merged.words.join('\n')).toContain('hello world')
+  })
+
+  test('isScratchpadAnalyseMode identifies analyse use option', function() {
+    expect(isScratchpadAnalyseMode('analyse')).toBe(true)
+    expect(isScratchpadAnalyseMode('snapshot')).toBe(false)
   })
 
   test('getNotationAssociateMergeMode uses notation operation', function() {

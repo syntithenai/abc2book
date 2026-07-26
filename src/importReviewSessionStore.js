@@ -150,6 +150,7 @@ export function getImportReviewSessionRevision() {
     session.mergeIndex,
     session.entryMode || '',
     session.addPanelMode || 'form',
+    session.forcedBook || '',
     Object.keys(session.importedCandidateIds || {}).length,
     jobs.map(function(job) {
       return job.id + ':' + job.status

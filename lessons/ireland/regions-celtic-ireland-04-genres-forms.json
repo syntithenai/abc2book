@@ -74,16 +74,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Double jigs** are in **6/8** time with a strong **two-beat** feel per bar: each beat divides into three eighth notes. They are the second most common session form after reels. Dance associations are broad — group céilí figures, solo step dance, and informal kitchen dancing all use jig rhythm.\n\nFamous double jigs include *The Swallowtail Jig*, *The Irish Washerwoman* (often played faster and lighter than newcomers expect), "
-        },
-        {
-          "type": "track",
-          "id": "kesh-jig",
-          "label": "The Kesh Jig"
-        },
-        {
-          "type": "markdown",
-          "text": ", *Banish Misfortune*, and *The Lilting Banshee*. The A and B parts repeat; musicians often pair a well-known jig with a lesser-known companion in a set."
+          "text": "**Double jigs** are in **6/8** time with a strong **two-beat** feel per bar: each beat divides into three eighth notes. They are the second most common session form after reels. Dance associations are broad — group céilí figures, solo step dance, and informal kitchen dancing all use jig rhythm.\n\nFamous double jigs include *The Swallowtail Jig*, *The Irish Washerwoman* (often played faster and lighter than newcomers expect), [[track:kesh-jig|The Kesh Jig]], *Banish Misfortune*, and *The Lilting Banshee*. The A and B parts repeat; musicians often pair a well-known jig with a lesser-known companion in a set."
         }
       ]
     },
@@ -430,16 +421,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "| Form | Examples to recognise |\n|------|----------------------|\n| Reel | *The Wind That Shakes the Barley*, *Drowsy Maggie*, *The Silver Spear* |\n| Double jig | *The Swallowtail Jig*, *Banish Misfortune*, "
-        },
-        {
-          "type": "track",
-          "id": "kesh-jig",
-          "label": "The Kesh Jig"
-        },
-        {
-          "type": "markdown",
-          "text": " |\n| Slip jig | *The Butterfly*, *Hardiman the Fiddler* |\n| Hornpipe | *The Boys of Bluehill*, *Off to California* |\n| Polka | *Denis Murphy's Polka*, Sliabh Luachra sets |\n| Slide | *The Star Above the Garter* |\n| Slow air | *She Moved Through the Fair*, *The Coolin*, *Londonderry Air* |\n| Ballad | *The Fields of Athenry*, *The Wild Rover*, *Boolavogue* |\n| Sean-nós | Regional repertoire — learn from dedicated recordings, not generic anthologies |\n\nUse this table as orientation, not a ceiling. The tradition contains thousands of tunes; depth on a few beats breadth on hundreds."
+          "text": "| Form | Examples to recognise |\n|------|----------------------|\n| Reel | *The Wind That Shakes the Barley*, *Drowsy Maggie*, *The Silver Spear* |\n| Double jig | *The Swallowtail Jig*, *Banish Misfortune*, [[track:kesh-jig|The Kesh Jig]] |\n| Slip jig | *The Butterfly*, *Hardiman the Fiddler* |\n| Hornpipe | *The Boys of Bluehill*, *Off to California* |\n| Polka | *Denis Murphy's Polka*, Sliabh Luachra sets |\n| Slide | *The Star Above the Garter* |\n| Slow air | *She Moved Through the Fair*, *The Coolin*, *Londonderry Air* |\n| Ballad | *The Fields of Athenry*, *The Wild Rover*, *Boolavogue* |\n| Sean-nós | Regional repertoire — learn from dedicated recordings, not generic anthologies |\n\nUse this table as orientation, not a ceiling. The tradition contains thousands of tunes; depth on a few beats breadth on hundreds."
         }
       ]
     },
@@ -508,21 +490,21 @@
       "id": "silver-spear-reel",
       "entity_id": "reel-demo",
       "label": "The Silver Spear (reel)",
-      "youtube": "https://www.youtube.com/watch?v=6nXy8p8m7hY",
+      "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg",
       "subtitle": "Session reel set"
     },
     {
       "id": "kesh-jig",
       "entity_id": "jig-demo",
       "label": "The Kesh Jig",
-      "youtube": "https://www.youtube.com/watch?v=H1QldbqXh8I",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
       "subtitle": "Double jig example"
     },
     {
       "id": "off-california-hornpipe",
       "entity_id": "reel-demo",
       "label": "Off to California (hornpipe)",
-      "youtube": "https://www.youtube.com/watch?v=wq6wOu9vV9E",
+      "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA",
       "subtitle": "Session reel set"
     }
   ],

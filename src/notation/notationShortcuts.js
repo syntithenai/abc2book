@@ -10,6 +10,7 @@ export function resolveNotationAction(event, context) {
   if (mod && key.toLowerCase() === 'c') return { action: 'copy' };
   if (mod && key.toLowerCase() === 'x') return { action: 'cut' };
   if (mod && key.toLowerCase() === 'v') return { action: 'paste' };
+  if (mod && !shift && key.toLowerCase() === 'a') return { action: 'selectAll' };
   if (mod && !shift && key.toLowerCase() === 'k') return { action: 'editChordSymbol' };
   if (mod && !shift && key.toLowerCase() === 'f') return { action: 'editFingering' };
   if (mod && shift && key.toLowerCase() === 'i') return { action: 'setNoteInputMethod', method: 'rePitch' };

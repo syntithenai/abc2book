@@ -56,13 +56,8 @@
       "level": 2,
       "blocks": [
         {
-          "type": "track",
-          "id": "kesh-jig",
-          "label": "The Kesh Jig"
-        },
-        {
           "type": "markdown",
-          "text": " appears in Brendan Breathnach's *Ceol Rince na hÉireann* and has become a learner's gateway into 6/8 repertoire. It chains easily with *The Merry Blacksmith* and other D-major jigs in pub sets."
+          "text": "[[track:kesh-jig|The Kesh Jig]] appears in Brendan Breathnach's *Ceol Rince na hÉireann* and has become a learner's gateway into 6/8 repertoire. It chains easily with *The Merry Blacksmith* and other D-major jigs in pub sets."
         }
       ]
     },
@@ -125,21 +120,21 @@
       "id": "silver-spear-coleman",
       "entity_id": "coleman",
       "label": "The Silver Spear",
-      "youtube": "https://www.youtube.com/watch?v=6nXy8p8m7hY",
+      "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg",
       "subtitle": "Michael Coleman"
     },
     {
       "id": "silver-spear-hayes",
       "entity_id": "hayes",
       "label": "The Silver Spear (Clare)",
-      "youtube": "https://www.youtube.com/watch?v=wq6wOu9vV9E",
+      "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA",
       "subtitle": "Martin Hayes"
     },
     {
       "id": "kesh-jig",
       "entity_id": "coleman",
       "label": "The Kesh Jig",
-      "youtube": "https://www.youtube.com/watch?v=H1QldbqXh8I",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
       "subtitle": "Michael Coleman"
     }
   ],
@@ -159,12 +154,12 @@
         {
           "entity_id": "coleman",
           "label": "Michael Coleman",
-          "youtube": "https://www.youtube.com/watch?v=6nXy8p8m7hY"
+          "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
         },
         {
           "entity_id": "hayes",
           "label": "Martin Hayes",
-          "youtube": "https://www.youtube.com/watch?v=wq6wOu9vV9E"
+          "youtube": "https://www.youtube.com/watch?v=Lt-BUD37SwA"
         }
       ]
     },
@@ -179,7 +174,7 @@
         {
           "entity_id": "coleman",
           "label": "Session jig set",
-          "youtube": "https://www.youtube.com/watch?v=H1QldbqXh8I"
+          "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
         }
       ]
     }

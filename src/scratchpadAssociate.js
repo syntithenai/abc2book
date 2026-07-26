@@ -5,6 +5,7 @@ import { setPlainLyricLines } from './wLinesUtils'
 import { filterTuneVoices } from './abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from './abcVoiceViewSettings'
 import { applyScratchpadNotationMerge } from './scratchpadNotationMerge'
+import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
 
 /**
  * Attach scratchpad image to tune as snapshot.
@@ -95,6 +96,33 @@ export function mergeScratchpadBackgroundIntoTune(tune, text, mode) {
 }
 
 /**
+ * Parse scratchpad chord-sheet text and merge into tune (wipe notation + lyrics).
+ */
+export function mergeScratchpadChordsIntoTune(tune, text, options) {
+  const opts = options || {}
+  const body = String(text || '').trim()
+  if (!body) throw new Error('Scratchpad text is empty')
+  const committed = commitChordSearchResultToTune({
+    result: { chordText: body },
+    tune: tune,
+    tunebook: opts.tunebook,
+    abcjsParser: opts.abcjsParser,
+    abc: opts.abc,
+    updateLyrics: true,
+    skipSave: true,
+    historyLabel: opts.historyLabel || 'Paste chords and lyrics from scratchpad',
+  })
+  if (!committed.ok) {
+    throw new Error(
+      (committed.error && committed.error.message)
+        ? committed.error.message
+        : 'Could not apply chords and lyrics'
+    )
+  }
+  return committed.tune
+}
+
+/**
  * Scratchpad notation for MIDI export: only voices visible in the editor.
  */
 export function filterScratchpadNotationForMidiExport(scratchpadTune, scratchpadItemId) {
@@ -160,10 +188,15 @@ export function isNotationBarPickerMode(associateMode) {
   return isNotationAssociateMode(associateMode)
 }
 
+export function isScratchpadAnalyseMode(associateMode) {
+  return associateMode === 'analyse'
+}
+
 export function getAssociateModesForItem(item) {
   if (!item) return []
   if (item.type === 'text') {
     return [
+      { id: 'chords', label: 'For Chords' },
       { id: 'lyrics', label: 'For Lyrics' },
       { id: 'background', label: 'For Background Information' },
     ]
