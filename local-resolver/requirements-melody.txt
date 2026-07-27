@@ -1,4 +1,4 @@
-crepe
+# crepe is installed via install_crepe.py (setup.py weight downloads are flaky in Docker)
 music21
 soundfile
 demucs

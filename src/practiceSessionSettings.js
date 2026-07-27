@@ -28,6 +28,7 @@ export const DEFAULT_PRACTICE_SETTINGS = {
   recentInstruments: [],
   vocalRangeLow: '',
   vocalRangeHigh: '',
+  lastPracticeListId: '',
 }
 
 /** Cap for accuracy-mode reference notes (slider full = this, not unity). */
@@ -60,26 +61,6 @@ export function normalizePracticeInstrument(value) {
   }
   if (PRACTICE_INSTRUMENT_IDS.indexOf(id) !== -1) return id
   return DEFAULT_PRACTICE_SETTINGS.instrument
-}
-
-export function normalizeSuitableInstruments(values) {
-  if (!Array.isArray(values)) return []
-  const seen = {}
-  const normalized = []
-  values.forEach(function(value) {
-    const id = normalizePracticeInstrument(value)
-    if (seen[id]) return
-    seen[id] = true
-    normalized.push(id)
-  })
-  return normalized
-}
-
-export function tuneMatchesPracticeInstrument(tune, instrumentId) {
-  const suitable = normalizeSuitableInstruments(tune && tune.suitableFor)
-  if (suitable.length === 0) return true
-  const target = normalizePracticeInstrument(instrumentId)
-  return suitable.indexOf(target) !== -1
 }
 
 export function getPracticeInstrumentLabel(instrumentId) {
@@ -164,6 +145,7 @@ export function loadPracticeSettings() {
       recentInstruments: normalizeRecentInstruments(parsed.recentInstruments, instrument),
       vocalRangeLow: normalizeVocalNoteName(parsed.vocalRangeLow),
       vocalRangeHigh: normalizeVocalNoteName(parsed.vocalRangeHigh),
+      lastPracticeListId: parsed.lastPracticeListId != null ? String(parsed.lastPracticeListId) : '',
     }
   } catch (e) {
     return Object.assign({}, DEFAULT_PRACTICE_SETTINGS)
@@ -187,6 +169,9 @@ export function savePracticeSettings(settings) {
     ),
     vocalRangeLow: normalizeVocalNoteName(settings && settings.vocalRangeLow),
     vocalRangeHigh: normalizeVocalNoteName(settings && settings.vocalRangeHigh),
+    lastPracticeListId: settings && settings.lastPracticeListId != null
+      ? String(settings.lastPracticeListId)
+      : '',
   }
   try {
     localStorage.setItem(PRACTICE_SETTINGS_STORAGE_KEY, JSON.stringify(next))

@@ -32,7 +32,8 @@ function renderAbcVisual(abc) {
   }
 }
 
-async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal) {
+async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal, synthOptions) {
+  const opts = synthOptions || {}
   const visualObj = renderAbcVisual(abc)
   if (!visualObj) {
     throw new Error('Could not render notation for audio export')
@@ -50,7 +51,7 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal
     options: {
       soundFontUrl: soundFontUrl,
       soundFontVolumeMultiplier: getSoundFontVolumeMultiplier(),
-      chordsOff: false,
+      chordsOff: opts.chordsOff === true,
     },
   }
   if (remapLocal) {
@@ -92,7 +93,8 @@ function soundFontCandidates() {
   return list
 }
 
-export async function renderAbcToAudioBuffer(abc) {
+export async function renderAbcToAudioBuffer(abc, options) {
+  const opts = options || {}
   if (!abc || !String(abc).trim()) {
     throw new Error('No notation available for audio export')
   }
@@ -118,7 +120,8 @@ export async function renderAbcToAudioBuffer(abc) {
           abc,
           audioContext,
           candidates[i].url,
-          candidates[i].remapLocal
+          candidates[i].remapLocal,
+          opts
         )
       } catch (err) {
         lastError = err

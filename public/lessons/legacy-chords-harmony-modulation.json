@@ -1,0 +1,178 @@
+{
+  "id": "legacy-chords-harmony-modulation",
+  "title": "Modulation",
+  "track": "chords",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "chords",
+    "legacy"
+  ],
+  "path": "05-harmony/06-modulation.md",
+  "sections": [
+    {
+      "id": "modulation-changing-key-mid-tune",
+      "title": "Modulation: Changing Key Mid-Tune",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** harmony | **Difficulty:** 8/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modulation establishes a new tonic, not merely touching foreign chords."
+        }
+      ]
+    },
+    {
+      "id": "common-moves",
+      "title": "Common moves",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Up a whole step (G→A) for energy. To relative minor (G→Em). Pivot chord shared by two keys (C major = IV in G, I in C)."
+        }
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "Detection",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Sustained new accidentals + cadence confirming new tonic = modulation. Single A7 in D = tonicisation; four bars in A with A cadence = modulation."
+        }
+      ]
+    },
+    {
+      "id": "trad-context",
+      "title": "Trad context",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Less common in core repertoire than céilí arrangements and song verses."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Pivot-chord modulation uses:\n\n- A) Chord belonging to both old and new keys\n- B) Silence only\n- C) Tempo change only\n- D) Random accidentals\n\n**Answer:** A\n\n### Q2. Modulation establishes new tonic; tonicisation is brief.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pivot-chord modulation uses:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Chord belonging to both old and new keys",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Chord belonging to both old and new keys"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Modulation establishes new tonic; tonicisation is brief.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-chords-harmony-modulation-quiz",
+    "title": "Modulation quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Pivot-chord modulation uses:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Chord belonging to both old and new keys",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Chord belonging to both old and new keys"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Modulation establishes new tonic; tonicisation is brief.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

@@ -240,6 +240,20 @@ export default function SavedPlaylistsOpenModal({
                     <Button
                       variant="success"
                       size="sm"
+                      className="bulk-ops-action-btn playlist-play-btn"
+                      title="Play playlist"
+                      aria-label="Play playlist"
+                      data-testid={'play-saved-playlist-' + playlist.id}
+                      onClick={function(e) {
+                        e.stopPropagation()
+                        handleOpen(playlist.id)
+                      }}
+                    >
+                      <BulkOpsDualIcon leading={icons.start} trailing={icons.playlist} />
+                    </Button>
+                    <Button
+                      variant="success"
+                      size="sm"
                       className="bulk-ops-action-btn playlist-create-setlist-btn"
                       title="Create setlist"
                       aria-label="Create setlist"

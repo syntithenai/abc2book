@@ -24,6 +24,8 @@ import {
   readNotationSvgDims,
   buildGigNotationRenderOptions,
 } from '../gigNotationFit'
+import { useCapoViewState } from '../useCapoViewState'
+import { chordTransposeWithCapo } from '../capoViewUtils'
 
 const PRACTICE_FIT_HEIGHT_MIN_LINES = 4
 const PRACTICE_FIT_HEIGHT_MAX_LINES = 6
@@ -72,11 +74,17 @@ export default function PracticeTuneDisplay(props) {
   const voiceSettingsVersion = props.voiceSettingsVersion || 0
 
   const viewMode = props.viewMode || 'music'
-  const chordViewMode = props.chordViewMode || 'transposed'
+  const capoState = useCapoViewState(tune && tune.id, tune && tune.capo)
   const tuneTranspose = tune ? (Number(tune.transpose) || 0) : 0
-  const effectiveCapo = tune ? (Number(tune.capo) || 0) : 0
-  const chordTranspose = tuneTranspose - (chordViewMode === 'capo' ? effectiveCapo : 0)
+  const chordTranspose = chordTransposeWithCapo(tuneTranspose, capoState.capoOffset, capoState.capoEnabled)
   const notationVisualTranspose = chordTranspose
+
+  function handleCapoOffsetChange(offset) {
+    capoState.applyCapoOffset(offset)
+    if (tune && tunebook) {
+      tunebook.saveTune(Object.assign({}, tune, { capo: offset }))
+    }
+  }
 
   const hasNotes = !!(tune && tunebook && tunebook.hasNotes && tunebook.hasNotes(tune))
   const hasChords = !!tune && tuneHasExplicitChords(tune, tunebook, abcjsParser)
@@ -234,6 +242,11 @@ export default function PracticeTuneDisplay(props) {
         chordTranspose={chordTranspose}
         hideChords={hideChordsInText}
         chords={structureChordChart}
+        showCapoControl={showStructure}
+        capoOffset={capoState.capoOffset}
+        capoEnabled={capoState.capoEnabled}
+        onCapoToggle={capoState.toggleCapo}
+        onCapoOffsetChange={handleCapoOffsetChange}
       />
     </div>
   ) : null
@@ -255,6 +268,11 @@ export default function PracticeTuneDisplay(props) {
       <StructureChordBlock
         chords={structureChordChart}
         tune={tune}
+        showCapoControl={true}
+        capoOffset={capoState.capoOffset}
+        capoEnabled={capoState.capoEnabled}
+        onCapoToggle={capoState.toggleCapo}
+        onCapoOffsetChange={handleCapoOffsetChange}
       />
     </div>
   ) : null

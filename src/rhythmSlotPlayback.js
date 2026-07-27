@@ -3,20 +3,20 @@ import { slotAccentLevel, slotBeatIndex } from './metronomeRhythmPresets'
 import { ENGINE_MODE_DRUMS, normalizeRhythmConfig } from './rhythmEngineTypes'
 import { playDrumHit } from './drumSampleKit'
 
-export function playRhythmSlot(audioContext, time, rhythm, slotIndex) {
+export function playRhythmSlot(audioContext, time, rhythm, slotIndex, destination) {
   if (!audioContext || !rhythm) return
 
   const config = normalizeRhythmConfig(rhythm)
   if (config.engineMode === ENGINE_MODE_DRUMS && config.drumPattern) {
-    playDrumSlot(audioContext, time, config, slotIndex)
+    playDrumSlot(audioContext, time, config, slotIndex, destination)
     return
   }
 
   const accentLevel = slotAccentLevel(config, slotIndex)
-  playMetronomeTick(audioContext, time, accentLevel)
+  playMetronomeTick(audioContext, time, accentLevel, destination)
 }
 
-export function playDrumSlot(audioContext, time, rhythm, slotIndex) {
+export function playDrumSlot(audioContext, time, rhythm, slotIndex, destination) {
   if (!audioContext || !rhythm || !rhythm.drumPattern) return
 
   const pattern = rhythm.drumPattern
@@ -29,7 +29,7 @@ export function playDrumSlot(audioContext, time, rhythm, slotIndex) {
     const steps = track.steps || []
     if (!steps[stepIndex]) return
     const velocity = (parseFloat(track.velocity) || 0) * masterVolume
-    playDrumHit(audioContext, time, track.sample, velocity, 0)
+    playDrumHit(audioContext, time, track.sample, velocity, 0, destination)
   })
 }
 

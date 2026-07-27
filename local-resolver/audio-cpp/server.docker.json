@@ -1,0 +1,21 @@
+{
+  "host": "0.0.0.0",
+  "port": 8788,
+  "backend": "vulkan",
+  "device": 0,
+  "threads": 4,
+  "lazy_load": true,
+  "models": [
+    {
+      "id": "stable-audio-3-small-music",
+      "family": "stable_audio",
+      "path": "/audio-cpp/models/stable-audio-3-small-music",
+      "task": "gen",
+      "mode": "offline",
+      "lazy": true,
+      "session_options": {
+        "stable_audio.mem_saver": "true"
+      }
+    }
+  ]
+}

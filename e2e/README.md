@@ -154,9 +154,14 @@ PLAYBACK_TEST_REQUIRE_TUNE=1 npm run test:playback:e2e
 8. **Resume** — time advances again after pause/play
 9. **Seek after resume** — playhead moves and time keeps advancing
 10. **Second pause/play/seek cycle** — progress bar still works (regression guard)
+11. **MIDI rhythm diagnostics** — after count-in, `getRhythmDiagnostics()` reports playing phase and varied slot indices (catches metronome stuck on one beat; useful for **4/4 L:1/8** tunes where abcjs eighth beats differ from the quarter rhythm grid)
 
 Dev-only hook `window.__abc2bookPlaybackTest.seek(ratio)` is used when slider
 automation cannot drive the React range input reliably.
+
+In development builds, `window.__abc2bookPlaybackTest.getRhythmDiagnostics()` returns phase,
+tempo, `rhythmGridQpm` vs `playbackQpm`, count-in slot count, and a ring buffer of recent
+scheduled slots — inspect in DevTools during headed runs (`HEADLESS=0`).
 
 ## Selectors
 

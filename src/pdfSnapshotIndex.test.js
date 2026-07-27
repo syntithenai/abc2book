@@ -120,4 +120,27 @@ describe('pdfSnapshotIndex', function() {
     const link = buildSnapshotTuneLink('t1', { fileId: 'f1', page: 5 })
     expect(link).toBe('/tunes/t1?file=f1&page=5')
   })
+
+  test('pdfSnapshotSearchHits matches all tokens across segment title and composer', function() {
+    const tune = {
+      id: 't4',
+      name: 'Session Book',
+      tuneFiles: [{
+        id: 'f4',
+        name: 'book.pdf',
+        type: 'application/pdf',
+        pdfSegments: [
+          { title: 'Invention', page: 1, endPage: 2, composer: 'Bach' },
+        ],
+      }],
+    }
+    expect(pdfSnapshotSearchHits(tune, 'bach invention')).toHaveLength(1)
+    expect(pdfSnapshotSearchHits(tune, 'bach mozart')).toHaveLength(0)
+  })
+
+  test('expandPdfSnapshotSearchRows treats all-short-token queries as no text filter', function() {
+    const rows = expandPdfSnapshotSearchRows([tuneWithPdf], 'ab cd')
+    expect(rows).toHaveLength(1)
+    expect(rows[0].snapshotMatch).toBeNull()
+  })
 })

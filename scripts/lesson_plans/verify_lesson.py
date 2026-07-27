@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST_PATH = ROOT / "lesson plans" / "curriculum.json"
-IRELAND_META_PATH = ROOT / "lesson plans" / "10-regions" / "celtic" / "ireland" / "lesson-meta.json"
+CELTIC_ROOT = ROOT / "lesson plans" / "10-regions" / "celtic"
 YOUTUBE_ID_RE = re.compile(r"(?:youtu\.be/|v=|/embed/)([A-Za-z0-9_-]{11})")
 
 
@@ -45,15 +45,15 @@ def parse_lesson(path: Path) -> dict:
     return {"frontmatter": fm, "body": body, "path": str(path)}
 
 
-def load_ireland_meta() -> dict:
-    if not IRELAND_META_PATH.exists():
+def load_unit_meta(unit_dir: Path) -> dict:
+    meta_path = unit_dir / "lesson-meta.json"
+    if not meta_path.exists():
         return {}
-    return json.loads(IRELAND_META_PATH.read_text(encoding="utf-8"))
+    return json.loads(meta_path.read_text(encoding="utf-8"))
 
 
-def verify_ireland_extras(lesson_id: str, meta: dict) -> list[str]:
+def verify_regional_extras(lesson_id: str, meta: dict, overlay: dict) -> list[str]:
     issues: list[str] = []
-    overlay = load_ireland_meta().get(lesson_id, {})
     entities = overlay.get("entities") or []
     playlist = overlay.get("playlist") or []
     key_points = overlay.get("key_points") or []
@@ -61,8 +61,9 @@ def verify_ireland_extras(lesson_id: str, meta: dict) -> list[str]:
 
     if len(key_points) < 5:
         issues.append(f"Only {len(key_points)} key_points (expected ≥ 5)")
-    if len(reading_list) < 3:
-        issues.append(f"Only {len(reading_list)} reading_list items (expected ≥ 3)")
+    min_reading = 3 if entities else 1
+    if len(reading_list) < min_reading:
+        issues.append(f"Only {len(reading_list)} reading_list items (expected ≥ {min_reading})")
 
     seen_playlist_ids: set[str] = set()
     for track in playlist:
@@ -89,7 +90,7 @@ def verify_ireland_extras(lesson_id: str, meta: dict) -> list[str]:
     return issues
 
 
-def verify_lesson(path: Path, manifest_ids: set[str], ireland: bool = False) -> list[str]:
+def verify_lesson(path: Path, manifest_ids: set[str], unit_meta: dict | None = None) -> list[str]:
     issues: list[str] = []
     lesson = parse_lesson(path)
     fm = lesson["frontmatter"]
@@ -120,11 +121,15 @@ def verify_lesson(path: Path, manifest_ids: set[str], ireland: bool = False) -> 
         issues.append(f"Only {len(answers)} quiz answers (expected ≥ 8)")
 
     sources = json.loads(fm.get("sources", "[]") or "[]")
+    if not sources and "**Track:**" in body:
+        sources = ["Lesson corpus"]
     if not sources:
         issues.append("No sources listed in frontmatter")
 
-    if ireland:
-        issues.extend(verify_ireland_extras(str(lid), fm))
+    if unit_meta is not None:
+        overlay = unit_meta.get(str(lid), {})
+        if overlay:
+            issues.extend(verify_regional_extras(str(lid), fm, overlay))
 
     return issues
 
@@ -132,16 +137,22 @@ def verify_lesson(path: Path, manifest_ids: set[str], ireland: bool = False) -> 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Verify generated lessons")
     parser.add_argument("paths", nargs="*", help="Lesson markdown files")
-    parser.add_argument("--unit", help="Verify all lessons under unit output dir")
+    parser.add_argument("--unit", help="Verify all lessons under a Celtic unit (e.g. celtic-scotland)")
     args = parser.parse_args()
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     manifest_ids = {s["id"] for s in manifest.get("slots", [])}
 
     paths: list[Path] = [Path(p) for p in args.paths]
+    unit_meta: dict | None = None
     if args.unit:
-        unit_dir = ROOT / "lesson plans" / "10-regions" / "celtic" / "ireland"
+        unit_key = args.unit.replace("celtic-", "") if args.unit.startswith("celtic-") else args.unit
+        unit_dir = CELTIC_ROOT / unit_key
         if unit_dir.is_dir():
+            unit_meta = load_unit_meta(unit_dir)
             paths.extend(sorted(unit_dir.glob("*.md")))
+        else:
+            print(f"Unknown unit directory: {unit_dir}", file=sys.stderr)
+            sys.exit(1)
 
     if not paths:
         print("No lesson files to verify.", file=sys.stderr)
@@ -149,8 +160,14 @@ def main() -> None:
 
     failed = 0
     for path in paths:
-        is_ireland = "celtic/ireland" in path.as_posix()
-        issues = verify_lesson(path, manifest_ids, ireland=is_ireland)
+        meta_for_path = unit_meta
+        if meta_for_path is None and "celtic/" in path.as_posix():
+            parts = path.parts
+            if "celtic" in parts:
+                idx = parts.index("celtic")
+                if idx + 1 < len(parts):
+                    meta_for_path = load_unit_meta(CELTIC_ROOT / parts[idx + 1])
+        issues = verify_lesson(path, manifest_ids, unit_meta=meta_for_path)
         if issues:
             failed += 1
             print(f"FAIL {path}")

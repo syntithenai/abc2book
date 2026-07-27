@@ -33,6 +33,7 @@ import {
   beginSeekHold,
   isStaleSeekEngineReading,
   computeMidiMetronomeCountIn,
+  rhythmAlignedCountInInput,
   computeExtraMeasuresAtBeginning,
   computeTimingMusicStartMs,
   audioRatioToTimingProgress,
@@ -43,11 +44,15 @@ import {
   timeUntilNextMetronomeSlot,
   resolveMetronomeAlignTarget,
   computePlaybackMetronomeTempo,
+  computeRhythmGridTempo,
+  computeCountInSlotCount,
+  computeCountInGridTempo,
   notationBeatToAudioSeconds,
   notationBeatToAudioRatio,
   notationMsToAudioRatio,
 } from './playbackStateLogic'
-import { rhythmFromPreset } from './metronomeRhythmPresets'
+import { rhythmFromPreset, slotsForBeatCount } from './metronomeRhythmPresets'
+import { visual44L18 } from './testFixtures/rhythmTimingFixtures'
 
 const NOW = 1_000_000
 
@@ -722,6 +727,127 @@ describe('computeMidiMetronomeCountIn', function() {
   })
 })
 
+describe('rhythmAlignedCountInInput', function() {
+  const rhythm44 = rhythmFromPreset('4-4')
+
+  function mockVisual(overrides) {
+    const o = Object.assign({
+      getBeatsPerMeasure: function() { return 4 },
+      getPickupLength: function() { return 0 },
+      getBeatLength: function() { return 0.25 },
+      millisecondsPerMeasure: function() { return 2000 },
+    }, overrides || {})
+    return o
+  }
+
+  test('4/4 L:1/2 abcjs beats maps to 4 rhythm beats for count-in', function() {
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 2 },
+      getBeatLength: function() { return 0.5 },
+    })
+    const input = rhythmAlignedCountInInput(visual, rhythm44, { countInBars: 1 })
+    const countIn = computeMidiMetronomeCountIn(input)
+    expect(countIn.metronomeBeats).toBe(4)
+  })
+
+  test('4/4 L:1/8 abcjs beats maps to 4 rhythm beats for count-in', function() {
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 8 },
+      getBeatLength: function() { return 0.125 },
+      millisecondsPerMeasure: function() { return 2000 },
+    })
+    const input = rhythmAlignedCountInInput(visual, rhythm44, { countInBars: 1 })
+    const countIn = computeMidiMetronomeCountIn(input)
+    expect(countIn.metronomeBeats).toBe(4)
+    expect(computeCountInSlotCount(visual, rhythm44, { countInBars: 1 })).toBe(4)
+  })
+
+  test('parsed L:1/8 tune aligns count-in to rhythm grid', function() {
+    const visual = visual44L18()
+    const beats = visual.getBeatsPerMeasure()
+    expect(beats).toBeGreaterThan(0)
+    const input = rhythmAlignedCountInInput(visual, rhythm44, { countInBars: 1 })
+    expect(input).not.toBeNull()
+    const countIn = computeMidiMetronomeCountIn(input)
+    expect(countIn.metronomeBeats).toBe(4)
+  })
+
+  test('6/8 rhythm with abcjs half-note beats yields 6 slots worth of beats', function() {
+    const rhythm68 = rhythmFromPreset('6-8')
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 2 },
+      getBeatLength: function() { return 0.5 },
+      millisecondsPerMeasure: function() { return 2000 },
+    })
+    const input = rhythmAlignedCountInInput(visual, rhythm68, { countInBars: 1 })
+    const countIn = computeMidiMetronomeCountIn(input)
+    expect(countIn.metronomeBeats).toBe(2)
+  })
+
+  test('anacrusis pickup scales to rhythm beat units', function() {
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 2 },
+      getBeatLength: function() { return 0.5 },
+      getPickupLength: function() { return 0.5 },
+    })
+    const input = rhythmAlignedCountInInput(visual, rhythm44, { countInBars: 1 })
+    const countIn = computeMidiMetronomeCountIn(input)
+    expect(countIn.metronomeBeats).toBe(2)
+  })
+
+  test('meter overrides stale rhythm beat count for L:1/8 4/4 tunes', function() {
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 8 },
+      getBeatLength: function() { return 0.125 },
+      millisecondsPerMeasure: function() { return 2000 },
+    })
+    const wrongRhythm = {
+      beatsPerBar: 8,
+      accents: [1, 0, 0, 0, 0, 0, 0, 0],
+      pulsesPerBeat: [1, 1, 1, 1, 1, 1, 1, 1],
+    }
+    const input = rhythmAlignedCountInInput(visual, wrongRhythm, {
+      countInBars: 1,
+      meter: '4/4',
+    })
+    const countIn = computeMidiMetronomeCountIn(input)
+    expect(countIn.metronomeBeats).toBe(4)
+    expect(computeCountInSlotCount(visual, rhythm44, { countInBars: 1, meter: '4/4' })).toBe(4)
+  })
+
+  test('L:1/8 visual infers quarter-note count-in without meter', function() {
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 8 },
+      getBeatLength: function() { return 0.125 },
+      millisecondsPerMeasure: function() { return 2000 },
+    })
+    const wrongRhythm = {
+      beatsPerBar: 8,
+      accents: [1, 0, 0, 0, 0, 0, 0, 0],
+      pulsesPerBeat: [1, 1, 1, 1, 1, 1, 1, 1],
+    }
+    const input = rhythmAlignedCountInInput(visual, wrongRhythm, { countInBars: 1 })
+    const countIn = computeMidiMetronomeCountIn(input)
+    expect(countIn.metronomeBeats).toBe(4)
+    expect(computeCountInSlotCount(visual, rhythm44, { countInBars: 1 })).toBe(4)
+  })
+
+  test('missing L: infers default eighth-note beat length for 4/4', function() {
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 8 },
+      getBeatLength: function() { return 0 },
+      millisecondsPerMeasure: function() { return 2000 },
+    })
+    const input = rhythmAlignedCountInInput(visual, rhythm44, {
+      countInBars: 1,
+      meter: '4/4',
+    })
+    expect(input).not.toBeNull()
+    expect(input.beatLength).toBeCloseTo(0.25, 6)
+    expect(computeCountInSlotCount(visual, rhythm44, { countInBars: 1, meter: '4/4' })).toBe(4)
+  })
+})
+
 describe('computeExtraMeasuresAtBeginning', function() {
   test('no pickup: not representable as whole measures', function() {
     expect(computeExtraMeasuresAtBeginning({
@@ -842,6 +968,25 @@ describe('timing progress audio mapping', function() {
     expect(audioRatioToTimingProgress(0.25, 0, 8000)).toBeCloseTo(0.25)
     expect(timingProgressToAudioSeconds(0.25, 0, 8000, 40)).toBeCloseTo(10)
   })
+
+  test('L:1/8 first eighth beat maps to 0.25s audio with aligned QPM', function() {
+    const msPerMeasure = 2000
+    const playbackQpm = computePlaybackMetronomeTempo({
+      beatsPerMeasure: 8,
+      millisecondsPerMeasure: msPerMeasure,
+      tempoFactor: 1,
+    })
+    const lastMoment = msPerMeasure
+    const progressOneEighth = (msPerMeasure / 8) / lastMoment
+    const audioDur = 2
+    expect(timingProgressToAudioSeconds(
+      progressOneEighth,
+      0,
+      lastMoment,
+      audioDur
+    )).toBeCloseTo(0.25, 2)
+    expect(playbackQpm).toBeCloseTo(240)
+  })
 })
 
 describe('computePlaybackMetronomeTempo', function() {
@@ -871,6 +1016,69 @@ describe('computePlaybackMetronomeTempo', function() {
 
   test('falls back when timing data is missing', function() {
     expect(computePlaybackMetronomeTempo({ fallbackQpm: 96 })).toBe(96)
+  })
+})
+
+describe('computeCountInGridTempo', function() {
+  const rhythm44 = rhythmFromPreset('4-4')
+
+  test('matches rhythm grid tempo for L:1/8 4/4 visual', function() {
+    const visual = {
+      getBeatsPerMeasure: function() { return 8 },
+      getBeatLength: function() { return 0.125 },
+      getPickupLength: function() { return 0 },
+      millisecondsPerMeasure: function() { return 2000 },
+    }
+    expect(computeCountInGridTempo(visual, rhythm44, {
+      countInBars: 1,
+      meter: '4/4',
+      fallbackQpm: 240,
+    })).toBe(120)
+  })
+})
+
+describe('computeRhythmGridTempo', function() {
+  test('uses rhythm beats per bar for 4/4 quarter grid', function() {
+    expect(computeRhythmGridTempo({
+      rhythmBeatsPerBar: 4,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+    })).toBeCloseTo(120)
+  })
+
+  test('L:1/2 abcjs measure still yields quarter-note grid tempo', function() {
+    expect(computeRhythmGridTempo({
+      rhythmBeatsPerBar: 4,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+    })).toBeCloseTo(120)
+    expect(computePlaybackMetronomeTempo({
+      beatsPerMeasure: 2,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+    })).toBeCloseTo(60)
+  })
+
+  test('L:1/8 abcjs eighth beats vs quarter rhythm grid tempo', function() {
+    const msPerMeasure = 2000
+    expect(computeRhythmGridTempo({
+      rhythmBeatsPerBar: 4,
+      millisecondsPerMeasure: msPerMeasure,
+      tempoFactor: 1,
+    })).toBeCloseTo(120)
+    expect(computePlaybackMetronomeTempo({
+      beatsPerMeasure: 8,
+      millisecondsPerMeasure: msPerMeasure,
+      tempoFactor: 1,
+    })).toBeCloseTo(240)
+  })
+
+  test('applies playback tempo factor', function() {
+    expect(computeRhythmGridTempo({
+      rhythmBeatsPerBar: 4,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1.5,
+    })).toBeCloseTo(180)
   })
 })
 

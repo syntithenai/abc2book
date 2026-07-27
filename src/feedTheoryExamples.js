@@ -2,7 +2,7 @@ import { buildAbcSnippet } from './abcSnippetPreview'
 import { THEORY_LESSON_EXAMPLES } from './feedContent/theory/examples'
 
 /** History and style overview lessons use web images, not ABC notation. */
-const IMAGE_TRACKS = ['history', 'styles']
+const IMAGE_TRACKS = ['history', 'styles', 'celtic']
 
 /** Mechanics lessons: notes, chords, harmony, Italian terms, transposition. */
 const NOTATION_TRACKS = [
@@ -21,6 +21,7 @@ export function isImageTheoryExample(moduleId, module) {
   if (IMAGE_TRACKS.indexOf(track) >= 0) return true
   if (String(moduleId || '').indexOf('history-') === 0) return true
   if (String(moduleId || '').indexOf('styles-') === 0) return true
+  if (String(moduleId || '').indexOf('celtic-') === 0) return true
   return false
 }
 

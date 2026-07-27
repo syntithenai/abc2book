@@ -20,6 +20,10 @@ import {
   readPlaylistsMap,
   readDeletedPlaylists,
 } from './savedPlaylistsStore'
+import {
+  readPracticeListsMap,
+  readDeletedPracticeLists,
+} from './practiceListStore'
     
 export default function useGoogleSheet(props) {
   const {token, logout, refresh, tunes, pollingInterval, onMerge, pausePolling, setGoogleDocumentId, googleDocumentId} = props
@@ -84,12 +88,16 @@ export default function useGoogleSheet(props) {
               var deletedPerformanceSets = readDeletedPerformanceSets()
               var playlists = readPlaylistsMap()
               var deletedPlaylists = readDeletedPlaylists()
+              var practiceLists = readPracticeListsMap()
+              var deletedPracticeLists = readDeletedPracticeLists()
               var abc = appendTuneBookSyncSectionsToAbc(
                 abcTools.tunesToAbc(nowTunes, deletedTunes),
                 performanceSets,
                 deletedPerformanceSets,
                 playlists,
-                deletedPlaylists
+                deletedPlaylists,
+                practiceLists,
+                deletedPracticeLists
               )
               //console.log('do sheet update NOWTUNES', nowTunes, abc.split('abcbook-file'))
               docsRef.current.updateDocumentData(googleSheetId.current , abc).then(function() {
@@ -143,7 +151,9 @@ export default function useGoogleSheet(props) {
 	                readPerformanceSetsMap(),
 	                readDeletedPerformanceSets(),
 	                readPlaylistsMap(),
-	                readDeletedPlaylists()
+	                readDeletedPlaylists(),
+	                readPracticeListsMap(),
+	                readDeletedPracticeLists()
 	              )
 								docsRef.current.createDocument(tuneBookName, initialAbc, 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
 									var fileId = normalizeDriveFileId(newId)

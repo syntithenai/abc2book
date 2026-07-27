@@ -26,7 +26,12 @@ var icons = {
     'savesetting':<svg role="img"  viewBox="0 0 24 24"  ><title>Save Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"/></svg>,
     'previous':<svg role="img"  viewBox="0 0 24 24"  ><title>Previous</title><path fill="none" d="M0 0h24v24H0z"/><path d="M8 12l6-6v12z"/></svg>,
     'next':<svg role="img"  viewBox="0 0 24 24"  ><title>Next</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 12l-6 6V6z"/></svg>,
+    'expand': <svg role="img" viewBox="0 0 24 24"><title>Expand</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 3h5v5h-2V6.414l-6.293 6.293-1.414-1.414L17.586 5H16V3zM3 16v5h5v-2H5.586l6.293-6.293-1.414-1.414L4 17.586V16H3z"/></svg>,
+    'fullscreen': <img src="/icons/fullscreen.png" alt="Fullscreen" width="24" height="24" style={{display: 'block'}} />,
+    'volume': <img src="/icons/volume-speaker.png" alt="Volume" width="24" height="24" style={{display: 'block'}} />,
     'list': <svg role="img"   viewBox="0 0 24 24"  ><title>Review List</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h14v2H2v-2zm0-7h20v2H2V4zm17 11.17V9h5v2h-3v7a3 3 0 1 1-2-2.83z"/></svg>,
+    // list-unordered from https://remixicon.com/ (Apache-2.0) — bullet list for nav Lists menu
+    'lists': <svg role="img" viewBox="0 0 24 24" width="24" height="24"><title>Lists</title><path fill="none" d="M0 0h24v24H0z"/><path d="M8 4h13v2H8V4zM4.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 6.9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM8 11h13v2H8v-2zm0 7h13v2H8v-2z"/></svg>,
     // draft-line from https://remixicon.com/ (Apache-2.0) — scratchpad list with edit badge
     'scratchpadlist': <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Scratchpad list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M20 2C20.5523 2 21 2.44772 21 3V6.757L19 8.757V4H5V20H19V17.242L21 15.242V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H20ZM21.7782 8.80761L23.1924 10.2218L15.4142 18L13.9979 17.9979L14 16.5858L21.7782 8.80761ZM13 12V14H8V12H13ZM16 8V10H8V8H16Z"/></svg>,
     'start':<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.394 12L10 7.737v8.526L16.394 12zm2.982.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/></svg>

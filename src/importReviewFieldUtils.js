@@ -548,8 +548,6 @@ export function emptyFormValues() {
     lyrics: '',
     notes: '',
     voices: { '1': { meta: '', notes: [] } },
-    suitableForPractice: false,
-    suitableFor: [],
     boost: '',
     difficulty: '',
     tablature: '',
@@ -599,8 +597,6 @@ export function tuneToFormValues(tune) {
   if (!values.voices || !Object.keys(values.voices).length) {
     values.voices = { '1': { meta: '', notes: values.notes ? values.notes.split('\n') : [] } };
   }
-  values.suitableForPractice = !!source.suitableForPractice;
-  values.suitableFor = Array.isArray(source.suitableFor) ? source.suitableFor.slice() : [];
   values.boost = source.boost != null && source.boost !== '' ? String(source.boost) : '';
   values.difficulty = source.difficulty != null && source.difficulty !== '' ? String(source.difficulty) : '';
   values.tablature = source.tablature || '';
@@ -706,13 +702,6 @@ export function formValuesToTune(formValues, baseTune) {
     next.voices[firstVoice] = Object.assign({}, next.voices[firstVoice] || { meta: '' }, {
       notes: noteText ? noteText.split('\n') : [],
     });
-  }
-
-  next.suitableForPractice = !!values.suitableForPractice;
-  if (Array.isArray(values.suitableFor) && values.suitableFor.length) {
-    next.suitableFor = values.suitableFor.slice();
-  } else {
-    delete next.suitableFor;
   }
 
   const lyricText = String(values.lyrics || '').trim();

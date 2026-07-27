@@ -14,7 +14,9 @@ import {
   getViewedTuneIdFromPath,
   getSkipNavigationTuneId,
   isTuneListPath,
+  shouldPreferQueueNavigation,
 } from '../playbackNavigationUtils';
+import { toggleTunePlayback } from '../tunePlaybackActions';
 import { isEditorNotationPath } from '../viewModeUtils';
 import {
   isPlaybackInterruptPath,
@@ -39,6 +41,7 @@ export default function Header(props) {
     const [userImageError, setUserImageError] = useState(false)
     const [showPlaylists, setShowPlaylists] = useState(false)
     const [navMenuOpen, setNavMenuOpen] = useState(false)
+    const [listsMenuOpen, setListsMenuOpen] = useState(false)
     const importReviewRevision = useSyncExternalStore(
         subscribeImportReviewSession,
         getImportReviewSessionRevision,
@@ -90,9 +93,23 @@ export default function Header(props) {
         // Arrow list-browse starts from the viewed tune, or first result on a fresh search list.
         const navTuneId = viewedTuneId || null;
 
+        const preferQueueNav = shouldPreferQueueNavigation(mediaController, props.nowPlayingQueue);
+        const searchListNav = ctrlSeek || !preferQueueNav;
+
         if (ctrlSeek && (event.key === 'ArrowLeft' || event.key === 'ArrowRight') && mediaController && mediaController.seekBySeconds) {
             event.preventDefault();
             mediaController.seekBySeconds(event.key === 'ArrowLeft' ? -5 : 5);
+            return;
+        }
+
+        if ((event.key === ' ' || event.key === 'k' || event.key === 'K') && mediaController) {
+            event.preventDefault();
+            toggleTunePlayback(mediaController, props.tunebook, navigate, location, {
+                tunes: props.tunes,
+                nowPlayingQueue: props.nowPlayingQueue,
+                setNowPlayingQueue: props.setNowPlayingQueue,
+                setQueuePlayConfirm: props.setQueuePlayConfirm,
+            });
             return;
         }
 
@@ -107,23 +124,27 @@ export default function Header(props) {
 
         if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
             const onTunePage = !!(viewedTuneId && (location.pathname.startsWith('/tunes/') || location.pathname.startsWith('/editor/')));
-            if (!onTunePage && !queueActive && !(onTuneList && hasSearchList)) return;
-            if (!navTuneId && !(onTuneList && hasSearchList)) return;
+            const useSearchList = searchListNav;
+            if (!onTunePage && !queueActive && !(onTuneList && hasSearchList) && !preferQueueNav) return;
+            if (!navTuneId && !(onTuneList && hasSearchList) && !preferQueueNav) return;
             event.preventDefault();
-            if (event.key === 'ArrowRight') {
-                props.tunebook.navigateToNextSong(navTuneId, null, navigate, location.pathname, {
-                    mediaController: props.mediaController,
-                    forceSearchList: true,
-                });
+            const navOpts = {
+                mediaController: props.mediaController,
+            };
+            if (useSearchList) {
+                navOpts.forceSearchList = true;
             } else {
-                props.tunebook.navigateToPreviousSong(navTuneId, navigate, location.pathname, {
-                    mediaController: props.mediaController,
-                    forceSearchList: true,
-                });
+                navOpts.useQueueNavigation = true;
+                navOpts.startPlayback = true;
+            }
+            if (event.key === 'ArrowRight') {
+                props.tunebook.navigateToNextSong(navTuneId || getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue), null, navigate, location.pathname, navOpts);
+            } else {
+                props.tunebook.navigateToPreviousSong(navTuneId || getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue), navigate, location.pathname, navOpts);
             }
         }
     };
-    useKeyPress(['ArrowRight', 'ArrowLeft', 'ArrowUp', 'ArrowDown'], onKeyPress);
+    useKeyPress(['ArrowRight', 'ArrowLeft', 'ArrowUp', 'ArrowDown', ' ', 'k', 'K'], onKeyPress);
 
     const compactNav = narrowViewport
     const voiceMode = (location.pathname.startsWith('/help') || props.notationHelpActive) ? 'help' : 'playback'
@@ -153,9 +174,11 @@ export default function Header(props) {
     const onTuneList = isTuneListPath(location.pathname)
     // Offer prev/next on a tune page, and on the list after a search so the
     // first result can be opened without clicking a row first.
+    const preferQueueNav = shouldPreferQueueNavigation(props.mediaController, props.nowPlayingQueue)
     const showSkipButtons = !!(
         (skipTuneId && viewedTuneId)
         || (onTuneList && hasSearchList)
+        || preferQueueNav
     )
     // On settings/chords/help/etc., show the full player while a queue is active.
     // Hide on metronome/tuner/piano (those pages pause playback for their own audio).
@@ -170,23 +193,21 @@ export default function Header(props) {
 
     function renderSkipButtons(buttonSize) {
         if (!showSkipButtons) return null
-        const navFromId = viewedTuneId || null
-        const prevLabel = 'Previous search result'
-        const nextLabel = 'Next search result'
+        const navFromId = viewedTuneId || getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue) || null
+        const useQueueNav = preferQueueNav
+        const prevLabel = useQueueNav ? 'Previous in playlist' : 'Previous search result (Ctrl+← to seek)'
+        const nextLabel = useQueueNav ? 'Next in playlist' : 'Next search result (Ctrl+→ to seek)'
+        const navOpts = useQueueNav
+            ? { mediaController: props.mediaController, useQueueNavigation: true, startPlayback: true }
+            : { mediaController: props.mediaController, forceSearchList: true }
         return (
             <span className="header-list-nav">
                 <ButtonGroup className="header-skip-buttons">
                     <Button size={buttonSize} aria-label={prevLabel} title={prevLabel} onClick={function() {
-                        props.tunebook.navigateToPreviousSong(navFromId, navigate, location.pathname, {
-                            mediaController: props.mediaController,
-                            forceSearchList: true,
-                        })
+                        props.tunebook.navigateToPreviousSong(navFromId, navigate, location.pathname, navOpts)
                     }}>{props.tunebook.icons.skipback}</Button>
                     <Button size={buttonSize} aria-label={nextLabel} title={nextLabel} onClick={function() {
-                        props.tunebook.navigateToNextSong(navFromId, null, navigate, location.pathname, {
-                            mediaController: props.mediaController,
-                            forceSearchList: true,
-                        })
+                        props.tunebook.navigateToNextSong(navFromId, null, navigate, location.pathname, navOpts)
                     }}>{props.tunebook.icons.skipforward}</Button>
                 </ButtonGroup>
             </span>
@@ -334,23 +355,61 @@ export default function Header(props) {
                         </Link>
                     </Dropdown.Item>
                     <div className="header-dropdown-account-trailing">
-                        <Dropdown.Item as="div">
-                            <Link to="/sets">
-                                <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                    {props.tunebook.icons.setlist} Setlists
+                        <Dropdown.Item as="div" className="header-dropdown-lists-item">
+                            <div className="header-lists-dropdown">
+                                <Button
+                                    size={navButtonSize}
+                                    variant="info"
+                                    className={'header-dropdown-btn header-lists-toggle' + (listsMenuOpen ? ' header-lists-toggle--open' : '')}
+                                    data-testid="header-lists-button"
+                                    aria-expanded={listsMenuOpen}
+                                    onClick={function(e) {
+                                        e.preventDefault()
+                                        e.stopPropagation()
+                                        setListsMenuOpen(function(v) { return !v })
+                                    }}
+                                >
+                                    {props.tunebook.icons.lists} Lists
                                 </Button>
-                            </Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item as="div">
-                            <Button
-                                size={navButtonSize}
-                                variant="info"
-                                className="header-dropdown-btn"
-                                data-testid="header-playlists-button"
-                                onClick={function() { setShowPlaylists(function(v) { return !v }) }}
-                            >
-                                {props.tunebook.icons.playlist} Playlists
-                            </Button>
+                                {listsMenuOpen ? (
+                                    <div className="header-lists-submenu" role="menu">
+                                        <button
+                                            type="button"
+                                            className="header-lists-menu-item"
+                                            data-testid="header-playlists-button"
+                                            onClick={function() {
+                                                setListsMenuOpen(false)
+                                                setShowPlaylists(true)
+                                                setNavMenuOpen(false)
+                                            }}
+                                        >
+                                            {props.tunebook.icons.playlist} Playlists
+                                        </button>
+                                        <Link
+                                            to="/sets"
+                                            className="header-lists-menu-item"
+                                            role="menuitem"
+                                            onClick={function() {
+                                                setListsMenuOpen(false)
+                                                setNavMenuOpen(false)
+                                            }}
+                                        >
+                                            {props.tunebook.icons.setlist} Setlists
+                                        </Link>
+                                        <Link
+                                            to="/practice-lists"
+                                            className="header-lists-menu-item"
+                                            role="menuitem"
+                                            onClick={function() {
+                                                setListsMenuOpen(false)
+                                                setNavMenuOpen(false)
+                                            }}
+                                        >
+                                            {props.tunebook.icons.reviewsmall} Practice Lists
+                                        </Link>
+                                    </div>
+                                ) : null}
+                            </div>
                         </Dropdown.Item>
                         <Dropdown.Item as="div" className="header-dropdown-item-login">
                             {renderAuthButton(false)}
@@ -466,7 +525,10 @@ export default function Header(props) {
                 <Dropdown
                     as={ButtonGroup}
                     show={navMenuOpen}
-                    onToggle={function(next) { setNavMenuOpen(!!next) }}
+                    onToggle={function(next) {
+                        setNavMenuOpen(!!next)
+                        if (!next) setListsMenuOpen(false)
+                    }}
                     autoClose={true}
                     className="header-nav-dropdown"
                     style={{position:'relative'}}

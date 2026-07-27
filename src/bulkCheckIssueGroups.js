@@ -61,8 +61,6 @@ const OTHER_INFO_ISSUE_CODES = new Set([
   'missing_tempo',
   'title_not_capitalized',
   'missing_background',
-  'missing_practice_instruments',
-  'blocked_practice',
 ])
 
 const SEARCH_ACTIONS = new Set([
@@ -81,8 +79,6 @@ const ACTION_GROUP_IDS = {
   backgroundInfo: ['otherInfo'],
   fixHeaders: ['abcRecord'],
   syncHeadersFromAbc: ['abcRecord'],
-  allowPractice: ['otherInfo'],
-  editTunePractice: ['otherInfo'],
   editTuneLinks: ['links'],
   scanLinkRegion: ['links'],
   sessionLineBreaks: ['notation'],
@@ -121,14 +117,11 @@ const ISSUE_CODE_ACTIONS = {
   empty_bar: ['collapseEmptyRepeatBars'],
   repeat_style_mixed: ['collapseEmptyRepeatBars', 'normalizeRepeatMarks'],
   missing_final_barline: ['appendFinalBarline'],
-  blocked_practice: ['allowPractice'],
-  missing_practice_instruments: ['editTunePractice'],
 }
 
 /** Actions that open the editor instead of mutating the tune in place. */
 export const BULK_CHECK_NAV_ACTIONS = new Set([
   'editTuneLinks',
-  'editTunePractice',
 ])
 
 /** Never run these from Fix all — require an explicit button click. */
@@ -137,7 +130,6 @@ export const FIX_ALL_EXCLUDED_ACTIONS = new Set([
   'analyse',
   'stems',
   'editTuneLinks',
-  'editTunePractice',
 ])
 
 const SEARCH_ACTION_LABELS = {
@@ -146,8 +138,6 @@ const SEARCH_ACTION_LABELS = {
   searchChordsLyrics: 'Search chords and lyrics',
   searchArtist: 'Search artist',
   backgroundInfo: 'Search background',
-  allowPractice: 'Allow practice',
-  editTunePractice: 'Set practice instruments',
   editTuneLinks: 'Add playback link',
   scanLinkRegion: 'Scan link region',
 }

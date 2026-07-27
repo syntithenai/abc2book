@@ -666,7 +666,10 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
     throw new Error('Recording not shared publicly — owner may need to log in and save again.')
   }
 
-  throw new Error('Recording audio is not available offline')
+  const online = typeof navigator !== 'undefined' && navigator.onLine
+  throw new Error(online
+    ? 'Recording audio is not available — sign in and try again, or use MIDI playback.'
+    : 'Recording audio is not available offline')
 }
 
 async function blobToArrayBuffer(blob) {

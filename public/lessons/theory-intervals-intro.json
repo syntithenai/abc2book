@@ -57,144 +57,6 @@
           "text": "| Interval | Semitones | Example |\n|----------|-----------|---------|\n| m2 | 1 | C–D♭ |\n| M2 | 2 | C–D |\n| m3 | 3 | C–E♭ |\n| M3 | 4 | C–E |\n| P4 | 5 | C–F |\n| A4/d5 | 6 | C–F♯ / C–G♭ |\n| P5 | 7 | C–G |\n| M6 | 9 | C–A |\n| M7 | 11 | C–B |\n| P8 | 12 | C–C |"
         }
       ]
-    },
-    {
-      "id": "quiz-questions",
-      "title": "Quiz Questions",
-      "level": 2,
-      "blocks": []
-    },
-    {
-      "id": "q1-c-to-e-is-what-size-interval",
-      "title": "Q1. C to E is what size interval?",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "- A) Third\n- B) Second\n- C) Fourth\n- D) Fifth\n\n**Answer:** A"
-        }
-      ]
-    },
-    {
-      "id": "q2-a-perfect-fifth-spans-seven-semitones-from-c",
-      "title": "Q2. A perfect fifth spans seven semitones from C.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q3-minor-third-has-four-semitones-from-c-to-e",
-      "title": "Q3. Minor third has four semitones from C to E♭.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** False — three semitones."
-        }
-      ]
-    },
-    {
-      "id": "q4-octave-equals-twelve-semitones",
-      "title": "Q4. Octave equals twelve semitones.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q5-interval-quality-includes-major-and-minor",
-      "title": "Q5. Interval quality includes major and minor.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q6-c-to-f-is-a-perfect-fourth",
-      "title": "Q6. C to F is a perfect fourth.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q7-c-to-b-is-a-major-seventh",
-      "title": "Q7. C to B is a major seventh.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q8-intervals-are-measured-between-two-pitches",
-      "title": "Q8. Intervals are measured between two pitches.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q9-letter-count-and-semitone-count-both-matter",
-      "title": "Q9. Letter count and semitone count both matter.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q10-m3-is-wider-than-m3-by-one-semitone",
-      "title": "Q10. M3 is wider than m3 by one semitone.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q11-p8-is-also-called-octave",
-      "title": "Q11. P8 is also called octave.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q12-ear-training-builds-on-interval-recognition",
-      "title": "Q12. Ear training builds on interval recognition.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
     }
   ],
   "entities": [],
@@ -203,5 +65,465 @@
   "tunes": [],
   "key_points": [],
   "reading_list": [],
-  "quiz_markdown": "### Q1. C to E is what size interval?\n\n- A) Third\n- B) Second\n- C) Fourth\n- D) Fifth\n\n**Answer:** A\n\n### Q2. A perfect fifth spans seven semitones from C.\n\n**Answer:** True\n\n### Q3. Minor third has four semitones from C to E♭.\n\n**Answer:** False — three semitones.\n\n### Q4. Octave equals twelve semitones.\n\n**Answer:** True\n\n### Q5. Interval quality includes major and minor.\n\n**Answer:** True\n\n### Q6. C to F is a perfect fourth.\n\n**Answer:** True\n\n### Q7. C to B is a major seventh.\n\n**Answer:** True\n\n### Q8. Intervals are measured between two pitches.\n\n**Answer:** True\n\n### Q9. Letter count and semitone count both matter.\n\n**Answer:** True\n\n### Q10. M3 is wider than m3 by one semitone.\n\n**Answer:** True\n\n### Q11. P8 is also called octave.\n\n**Answer:** True\n\n### Q12. Ear training builds on interval recognition.\n\n**Answer:** True"
+  "quiz_markdown": "### Q1. C to E is what size interval?\n\n- A) Third\n- B) Second\n- C) Fourth\n- D) Fifth\n\n**Answer:** A\n\n### Q2. A perfect fifth spans seven semitones from C.\n\n**Answer:** True\n\n### Q3. Minor third has four semitones from C to E♭.\n\n**Answer:** False — three semitones.\n\n### Q4. Octave equals twelve semitones.\n\n**Answer:** True\n\n### Q5. Interval quality includes major and minor.\n\n**Answer:** True\n\n### Q6. C to F is a perfect fourth.\n\n**Answer:** True\n\n### Q7. C to B is a major seventh.\n\n**Answer:** True\n\n### Q8. Intervals are measured between two pitches.\n\n**Answer:** True\n\n### Q9. Letter count and semitone count both matter.\n\n**Answer:** True\n\n### Q10. M3 is wider than m3 by one semitone.\n\n**Answer:** True\n\n### Q11. P8 is also called octave.\n\n**Answer:** True\n\n### Q12. Ear training builds on interval recognition.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "C to E is what size interval?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Third",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Third"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "A perfect fifth spans seven semitones from C.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Minor third has four semitones from C to E♭.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "three semitones."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Octave equals twelve semitones.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Interval quality includes major and minor.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "C to F is a perfect fourth.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "C to B is a major seventh.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Intervals are measured between two pitches.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Letter count and semitone count both matter.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "M3 is wider than m3 by one semitone.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "P8 is also called octave.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Ear training builds on interval recognition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-intervals-intro-quiz",
+    "title": "Intervals — Introduction quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "C to E is what size interval?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Third",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Third"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "A perfect fifth spans seven semitones from C.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Minor third has four semitones from C to E♭.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "three semitones."
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Octave equals twelve semitones.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Interval quality includes major and minor.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "C to F is a perfect fourth.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "C to B is a major seventh.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Intervals are measured between two pitches.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Letter count and semitone count both matter.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "M3 is wider than m3 by one semitone.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "P8 is also called octave.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Ear training builds on interval recognition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
 }

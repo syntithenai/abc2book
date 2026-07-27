@@ -1,0 +1,767 @@
+{
+  "id": "regions-celtic-diaspora-01-cape-breton",
+  "title": "Cape Breton Fiddle and Dance",
+  "track": "regions",
+  "tier": 3,
+  "region": "celtic-diaspora",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-celtic-brittany-08-tunes"
+  ],
+  "tags": [
+    "celtic",
+    "diaspora",
+    "cape-breton",
+    "diaspora",
+    "fiddle"
+  ],
+  "path": "10-regions/celtic/diaspora/01-cape-breton.md",
+  "sections": [
+    {
+      "id": "cape-breton-fiddle-and-dance",
+      "title": "Cape Breton Fiddle and Dance",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Celtic Music | **Unit:** Diaspora & fringe | **Tier:** 3"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cape Breton fiddle style synthesises Scottish and Irish roots with step-dance rhythm and square/set dance culture in Nova Scotia."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish diaspora scenes (New York, Chicago, London) exported session culture and tune repertoire worldwide. This lesson traces how **cape breton fiddle and dance** relates to that network while developing its own accent."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.\n- Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.\n- Festivals and archives connect fringe regions to the pan-Celtic circuit."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [
+    "Diaspora scenes remix Irish/Scottish roots.",
+    "Compare accents—not only tune names.",
+    "Festivals link fringe regions to wider Celtic network.",
+    "Use Ireland unit as reference tradition.",
+    "Playlist study beats generic compilations.",
+    "Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.",
+    "Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.",
+    "Festivals and archives connect fringe regions to the pan-Celtic circuit."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Cape Breton Fiddle and Dance — orientation",
+      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+    }
+  ],
+  "quiz_markdown": "### Q1. Which description best fits the main social context emphasised in this lesson?\n- A) Concerto competitions only\n- B) Community dance and oral transmission\n- C) Strictly classical conservatory exams\n- D) Electronic dance clubs only\n**Answer:** B) Community dance and oral transmission\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q2. This tradition is identical to Irish traditional music in repertoire and social context.\n- A) True\n- B) False\n**Answer:** B) False\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q3. Compared with Ireland, this unit stresses which additional emphasis?\n- A) No differences whatsoever\n- B) See Compared with Ireland section\n- C) Only classical opera\n- D) Only hip-hop production\n**Answer:** B) See Compared with Ireland section\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q4. A typical learner should prioritise:\n- A) Only reading generic textbooks\n- B) Listening to regional recordings before generic \"Celtic\" compilations\n- C) Memorising one tune only\n- D) Ignoring dance context\n**Answer:** B) Listening to regional recordings before generic \"Celtic\" compilations\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q5. Sessions, festivals, and archives all play roles in modern transmission.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q6. Instrument focus in this lesson includes:\n- A) Only synthesizers\n- B) Voices named in the lesson introduction\n- C) Only orchestral brass\n- D) Only piano études\n**Answer:** B) Voices named in the lesson introduction\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q7. Dance rhythm topics in this lesson relate to:\n- A) Ballet syllabus only\n- B) Social dance forms discussed in the body\n- C) Marching band drill only\n- D) DJ beatmatching only\n**Answer:** B) Social dance forms discussed in the body\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q8. Revival movements and media broadcasting shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q9. When studying tune forms, you should:\n- A) Ignore metre entirely\n- B) Connect metre and foot-tap feel to named dance types\n- C) Assume all tunes are 4/4 rock beats\n- D) Avoid learning by ear\n**Answer:** B) Connect metre and foot-tap feel to named dance types\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q10. Fusion and modern scenes discussed here:\n- A) Erase all earlier repertoire\n- B) Build on—not replace—living tradition\n- C) Ban all acoustic instruments\n- D) Eliminate festivals\n**Answer:** B) Build on—not replace—living tradition\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q11. The Compared with Ireland section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Cape Breton Fiddle and Dance.*\n\n### Q12. Best next step after this lesson:\n- A) Stop listening to recordings\n- B) Follow playlists and return to the paired Ireland lesson\n- C) Skip all prerequisites\n- D) Avoid comparative study\n**Answer:** B) Follow playlists and return to the paired Ireland lesson\n*Explanation grounded in Cape Breton Fiddle and Dance.*",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which description best fits the main social context emphasised in this lesson?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "False",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "See Compared with Ireland section",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Community dance and oral transmission",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") Community dance and oral transmission"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Community dance and oral transmission",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "See Compared with Ireland section",
+          "correct": false
+        }
+      ],
+      "explain": ") False"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "See Compared with Ireland section",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") See Compared with Ireland section"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "A typical learner should prioritise:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "See Compared with Ireland section",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Voices named in the lesson introduction",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "correct": true
+        }
+      ],
+      "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Voices named in the lesson introduction",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Social dance forms discussed in the body",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Instrument focus in this lesson includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Connect metre and foot-tap feel to named dance types",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Voices named in the lesson introduction",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Social dance forms discussed in the body",
+          "correct": false
+        }
+      ],
+      "explain": ") Voices named in the lesson introduction"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm topics in this lesson relate to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Social dance forms discussed in the body",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Voices named in the lesson introduction",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Connect metre and foot-tap feel to named dance types",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Build on—not replace—living tradition",
+          "correct": false
+        }
+      ],
+      "explain": ") Social dance forms discussed in the body"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Connect metre and foot-tap feel to named dance types",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Build on—not replace—living tradition",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Follow playlists and return to the paired Ireland lesson",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "When studying tune forms, you should:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Follow playlists and return to the paired Ireland lesson",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Connect metre and foot-tap feel to named dance types",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Build on—not replace—living tradition",
+          "correct": false
+        }
+      ],
+      "explain": ") Connect metre and foot-tap feel to named dance types"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Fusion and modern scenes discussed here:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Build on—not replace—living tradition",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") Build on—not replace—living tradition"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Best next step after this lesson:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Follow playlists and return to the paired Ireland lesson",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") Follow playlists and return to the paired Ireland lesson"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-diaspora-01-cape-breton-quiz",
+    "title": "Cape Breton Fiddle and Dance quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "False",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "See Compared with Ireland section",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Community dance and oral transmission",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") Community dance and oral transmission"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Community dance and oral transmission",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "See Compared with Ireland section",
+            "correct": false
+          }
+        ],
+        "explain": ") False"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "See Compared with Ireland section",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") See Compared with Ireland section"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "A typical learner should prioritise:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "See Compared with Ireland section",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Voices named in the lesson introduction",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "correct": true
+          }
+        ],
+        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voices named in the lesson introduction",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Social dance forms discussed in the body",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Instrument focus in this lesson includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Connect metre and foot-tap feel to named dance types",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Voices named in the lesson introduction",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Social dance forms discussed in the body",
+            "correct": false
+          }
+        ],
+        "explain": ") Voices named in the lesson introduction"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Social dance forms discussed in the body",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Voices named in the lesson introduction",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Connect metre and foot-tap feel to named dance types",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Build on—not replace—living tradition",
+            "correct": false
+          }
+        ],
+        "explain": ") Social dance forms discussed in the body"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Connect metre and foot-tap feel to named dance types",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Build on—not replace—living tradition",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Follow playlists and return to the paired Ireland lesson",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "When studying tune forms, you should:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Follow playlists and return to the paired Ireland lesson",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Connect metre and foot-tap feel to named dance types",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Build on—not replace—living tradition",
+            "correct": false
+          }
+        ],
+        "explain": ") Connect metre and foot-tap feel to named dance types"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Fusion and modern scenes discussed here:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Build on—not replace—living tradition",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") Build on—not replace—living tradition"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Best next step after this lesson:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Follow playlists and return to the paired Ireland lesson",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") Follow playlists and return to the paired Ireland lesson"
+      }
+    ]
+  }
+}

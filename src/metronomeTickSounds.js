@@ -132,12 +132,14 @@ function gainForAccentLevel(accentLevel) {
  * Play a short filtered-noise click — closer to a mechanical metronome than a sine beep.
  * Respects shared volume / accent-volume settings used across the app.
  */
-export function playMetronomeTick(audioContext, time, accentLevel) {
+export function playMetronomeTick(audioContext, time, accentLevel, destination) {
   if (!audioContext || accentLevel === METRONOME_MUTE) return
 
   const profile = TICK_PROFILES[accentLevel] || TICK_PROFILES[METRONOME_TICK]
   const peakGain = gainForAccentLevel(accentLevel)
   if (!(peakGain > 0.0001)) return
+
+  const output = destination || audioContext.destination
 
   const sampleRate = audioContext.sampleRate
   const length = Math.max(1, Math.floor(sampleRate * profile.decay))
@@ -164,7 +166,7 @@ export function playMetronomeTick(audioContext, time, accentLevel) {
 
   source.connect(filter)
   filter.connect(gain)
-  gain.connect(audioContext.destination)
+  gain.connect(output)
 
   source.start(time)
   source.stop(time + profile.decay + 0.005)

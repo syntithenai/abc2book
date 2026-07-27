@@ -3,13 +3,16 @@ import { useState, useRef, useEffect, useCallback } from 'react'
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
 import {
   AUTH_MODE_PROBE_WAIT_MS,
+  candidateOffersOauthBff,
   readStoredAuthBase,
+  readStoredAuthSessionId,
 } from './authResolverClient'
 import {
   isMediaProxyConfigured,
 } from './mediaProxyClient'
 import {
   getAuthResolverBase,
+  getMediaResolverHealthState,
   waitForAuthBase,
   ensureMediaResolverHealthSettingsListener,
   probeMediaResolverHealth,
@@ -103,17 +106,26 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
           if (stillValid && (authBaseRef.current || getAuthResolverBase())) {
             return
           }
+          // An OAuth BFF resolver can renew silently; never open a GIS popup for that.
+          var health = getMediaResolverHealthState()
+          var candidates = health && health.status && health.status.candidates
+            ? health.status.candidates : []
+          for (var i = 0; i < candidates.length; i++) {
+            if (candidateOffersOauthBff(candidates[i])) return
+          }
           var tokenCtrl = ensureTokenController()
           activeControllerRef.current = tokenCtrl
           authModeRef.current = 'token'
           setAuthMode('token')
           if (localStorage.getItem('google_login_user')) {
-            var current = accessTokenRef.current
-            var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
-            var stillValid = current && current.access_token
-              && (!expiresAt || expiresAt > Date.now() + 60000)
-            if (!stillValid) {
-              toast.info('Google sign-in expired. Please sign in again.')
+            var expiredToken = accessTokenRef.current
+            var expiredAt = expiredToken && expiredToken.expires_at
+              ? Number(expiredToken.expires_at) : 0
+            var tokenStillValid = expiredToken && expiredToken.access_token
+              && (!expiredAt || expiredAt > Date.now() + 60000)
+            if (!tokenStillValid) {
+              // Try GIS silent renew before prompting — most sessions recover here.
+              tokenCtrl.refresh()
             }
           }
         },
@@ -318,17 +330,40 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       }
     })
 
+    function resolverOffersOauthBff() {
+      var health = getMediaResolverHealthState()
+      var candidates = health && health.status && health.status.candidates
+        ? health.status.candidates : []
+      for (var i = 0; i < candidates.length; i++) {
+        if (candidateOffersOauthBff(candidates[i])) return true
+      }
+      return false
+    }
+
     function finishModeAndResume() {
-      return waitForAuthBase(AUTH_MODE_PROBE_WAIT_MS).then(function(base) {
+      if (cancelled || shouldSkipAuthResume()) return Promise.resolve(null)
+      if (!localStorage.getItem('google_login_user')) return Promise.resolve(null)
+
+      // Stored BFF session: resume immediately without waiting for /health probe.
+      var storedBase = readStoredAuthBase()
+      var storedSession = readStoredAuthSessionId()
+      if (storedBase && storedSession) {
+        var storedController = selectController('oauth', storedBase)
+        if (storedController.resumeSession) {
+          return storedController.resumeSession()
+        }
+      }
+
+      return waitForAuthBase(AUTH_MODE_PROBE_WAIT_MS, { untilProbeSettled: true }).then(function(base) {
         if (cancelled) return null
         var controller = selectController(base ? 'oauth' : 'token', base)
-        if (shouldSkipAuthResume()) return null
         if (base && controller.resumeSession) {
           // Silent BFF resume only. Do not fall back to Token Client popup on
           // mount when an OAuth resolver is available — user can click Login.
           return controller.resumeSession()
         }
-        if (!base && localStorage.getItem('google_login_user')) {
+        // Pop-up renew only when no resolver offers OAuth BFF.
+        if (!base && !resolverOffersOauthBff()) {
           controller.refresh()
         }
         return null

@@ -15,6 +15,9 @@ export { isQueuePlaybackEngaged }
 function resolveTuneForPlayback(mediaController, location, queueContext) {
     const ctx = queueContext || {}
     const tunes = ctx.tunes
+    if (ctx.playTuneId && tunes && tunes[ctx.playTuneId]) {
+        return tunes[ctx.playTuneId]
+    }
     if (tunes && location && location.pathname) {
         const match = location.pathname.match(/\/(?:tunes|editor)\/([^/]+)/)
         if (match && tunes[match[1]]) {
@@ -77,18 +80,41 @@ function beginPlayback(mediaController, tunebook, navigate, location, tune, targ
         ? '/tunes/' + tune.id + '/playMidi'
         : '/tunes/' + tune.id + '/playMedia/' + target.linkNum
 
+    const currentPath = location && location.pathname ? location.pathname : ''
+    const needsNavigate = currentPath !== path
+    const item = {
+        tuneId: tune.id,
+        prefer: target.type === 'midi' ? 'midi' : 'media',
+        linkIndex: target.type === 'media' ? target.linkNum : undefined,
+    }
+
+    if (needsNavigate && navigate) {
+        playQueueItem(mediaController, tunebook, tune, item, { deferPlaybackEngine: true })
+        navigate(path)
+        return
+    }
+
     // NowPlayingHost reads mediaController.tune to mount the engine; set it
     // before arming intent so the host can appear without a MusicSingle mount.
     if (mediaController.setTune) {
         mediaController.setTune(tune)
     }
-    if (target.type === 'midi') {
-        mediaController.setMediaLinkNumber(null)
-    } else {
-        mediaController.setMediaLinkNumber(target.linkNum)
-    }
+        if (target.type === 'midi') {
+            mediaController.setMediaLinkNumber(null)
+        } else {
+            mediaController.setMediaLinkNumber(target.linkNum)
+        }
 
-    if (mediaController.requestPlayback) {
+        if (mediaController.applyPlaybackRoute) {
+            mediaController.applyPlaybackRoute(
+                playState,
+                target.type === 'media' ? String(target.linkNum != null ? target.linkNum : 0) : null,
+                tune,
+                tunebook
+            )
+        }
+
+        if (mediaController.requestPlayback) {
         mediaController.requestPlayback({
             tuneId: tune.id,
             playState: playState,
@@ -214,7 +240,10 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
                     prefer: target.type === 'midi' ? 'midi' : 'media',
                     linkIndex: target.type === 'media' ? target.linkNum : undefined,
                 }
-                playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+                playQueueItem(mediaController, tunebook, tune, item, { deferPlaybackEngine: true })
+                if (navigate) {
+                    navigateToQueueTune(navigate, tune.id, item, tunebook, ctx.tunes)
+                }
                 return true
             }
             setQueuePlayConfirm({

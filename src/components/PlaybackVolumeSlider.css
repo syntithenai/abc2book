@@ -1,0 +1,43 @@
+.playback-volume-slider {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 0;
+  margin: 0;
+}
+
+.playback-volume-slider-icon {
+  font-size: 0.85rem;
+  line-height: 1;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.playback-volume-slider-icon img,
+.playback-volume-slider-icon svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  display: block;
+}
+
+.playback-volume-slider-input {
+  width: 5rem;
+  max-width: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.playback-volume-slider--compact .playback-volume-slider-input {
+  width: 4rem;
+}
+
+@media (max-width: 520px) {
+  .playback-volume-slider--compact .playback-volume-slider-icon {
+    display: none;
+  }
+
+  .playback-volume-slider--compact .playback-volume-slider-input {
+    width: 3.5rem;
+  }
+}

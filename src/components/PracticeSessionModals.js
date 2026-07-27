@@ -72,7 +72,6 @@ export default function PracticeSessionModals(props) {
         mediaController={props.mediaController}
         onWarmupEnded={practice.advanceStep}
         onSkipTune={practice.advanceStep}
-        onBlockTune={practice.blockCurrentTune}
         onTunePlaybackStarted={practice.startPendingTempoRamp}
         consumePlaybackGesture={practice.consumePlaybackGesture}
         hasPlaybackGesture={practice.hasPlaybackGesture}

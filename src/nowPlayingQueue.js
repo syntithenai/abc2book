@@ -286,6 +286,82 @@ export function removeQueueItem(queue, index) {
   return next
 }
 
+function buildQueueItem(tuneId, options) {
+  const opts = options || {}
+  const item = {
+    tuneId: tuneId,
+    prefer: opts.prefer || 'auto',
+  }
+  if (opts.linkIndex != null) item.linkIndex = opts.linkIndex
+  return item
+}
+
+/** Append a tune to the end of the queue (or start a new queue). */
+export function appendTuneToQueue(queue, tuneId, options) {
+  if (!tuneId) return queue
+  const item = buildQueueItem(tuneId, options)
+  if (!isQueueActive(queue)) {
+    return createQueue({
+      tuneIds: [tuneId],
+      source: (options && options.source) || 'manual',
+      name: (options && options.name) || 'Playlist',
+    })
+  }
+  return Object.assign({}, queue, {
+    items: queue.items.concat([item]),
+  })
+}
+
+/** Insert a tune immediately after the current queue index. */
+export function insertTuneAfterCurrentInQueue(queue, tuneId, options) {
+  if (!tuneId) return queue
+  const item = buildQueueItem(tuneId, options)
+  if (!isQueueActive(queue)) {
+    return createQueue({
+      tuneIds: [tuneId],
+      source: (options && options.source) || 'manual',
+      name: (options && options.name) || 'Playlist',
+    })
+  }
+  const idx = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
+  const nextItems = queue.items.slice()
+  nextItems.splice(idx + 1, 0, item)
+  let next = Object.assign({}, queue, { items: nextItems })
+  if (next.shuffle) {
+    next = Object.assign({}, next, {
+      shuffleOrder: buildShuffleOrder(next.items.length, next.currentIndex),
+    })
+  }
+  return next
+}
+
+/** Append multiple tunes to the end of the queue. */
+export function appendTunesToQueue(queue, tuneIds, options) {
+  if (!tuneIds || !tuneIds.length) return queue
+  let next = queue
+  tuneIds.forEach(function(tuneId) {
+    next = appendTuneToQueue(next, tuneId, options)
+  })
+  return next
+}
+
+/** Insert multiple tunes immediately after the current queue index (preserves order). */
+export function insertTunesAfterCurrentInQueue(queue, tuneIds, options) {
+  if (!tuneIds || !tuneIds.length) return queue
+  let next = queue
+  tuneIds.slice().reverse().forEach(function(tuneId) {
+    next = insertTuneAfterCurrentInQueue(next, tuneId, options)
+  })
+  return next
+}
+
+function isRecordingLink(link) {
+  if (!link) return false
+  if (link.recordingId) return true
+  const uri = link.link || ''
+  return /^abcbook-recording:|^recording:/.test(uri)
+}
+
 export function loadActiveQueue() {
   try {
     const raw = localStorage.getItem(ACTIVE_QUEUE_STORAGE_KEY)
@@ -370,6 +446,12 @@ export function resolvePlaybackForItem(tune, item, tunebook) {
   }
   if (prefer === 'midi' && hasMusic) return { type: 'midi', linkNum: null }
   if (prefer === 'media' && hasLinks) return { type: 'media', linkNum: 0 }
+  if (prefer === 'auto' && hasMusic && hasLinks) {
+    const firstLink = tune.links[0]
+    if (isRecordingLink(firstLink)) {
+      return { type: 'midi', linkNum: null }
+    }
+  }
   if (hasLinks) return { type: 'media', linkNum: 0 }
   if (hasMusic) return { type: 'midi', linkNum: null }
   return null

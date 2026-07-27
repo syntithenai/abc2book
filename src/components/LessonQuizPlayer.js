@@ -54,7 +54,9 @@ export default function LessonQuizPlayer(props) {
       return
     }
     setSummary(true)
-    const finalCorrect = results.filter(function(r) { return r.correct }).length
+    const priorCorrect = results.filter(function(r) { return r.correct }).length
+    const lastChoice = (currentQ.choices || []).find(function(c) { return c.id === choiceId })
+    const finalCorrect = priorCorrect + (lastChoice && lastChoice.correct ? 1 : 0)
     const payload = {
       correctCount: finalCorrect,
       total: questions.length,

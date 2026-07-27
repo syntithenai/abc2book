@@ -8,7 +8,7 @@ import {
   shouldSuppressFollowNavigate,
   isExternalQueueItem,
 } from './nowPlayingQueue'
-import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
+import { isQueuePlaybackEngaged, getViewedTuneIdFromPath } from './playbackNavigationUtils'
 import {
   advanceQueueToNextPlayable,
   isQueueItemPlayable,
@@ -314,8 +314,9 @@ export function resolveHostPlayingTune(hostPlayingTuneId, tunes, mediaController
 
 export function resolveHostPlayingTuneId({ queue, mediaController, viewedTuneId, pathname }) {
   const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
-  if (urlPlayback && viewedTuneId) {
-    return viewedTuneId
+  const pathTuneId = viewedTuneId || getViewedTuneIdFromPath(pathname)
+  if (urlPlayback && pathTuneId) {
+    return pathTuneId
   }
 
   const controllerTuneId = mediaController && mediaController.tune && mediaController.tune.id
@@ -370,7 +371,7 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
     pathname: pathname,
   })
   if (!playingTuneId) return false
-  if (tunes && !tunes[playingTuneId]) return false
+  if (!resolveHostPlayingTune(playingTuneId, tunes, mediaController)) return false
 
   const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
   if (urlPlayback) return true
@@ -385,7 +386,8 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
 
 /**
  * Whether MusicSingle's Abc notation view should own the shared MIDI engine.
- * Same rule as preview-once media ownership: normal playback uses NowPlayingHost.
+ * Only preview-once uses a page-local engine; normal tune playback always
+ * mounts in NowPlayingHost so play() never hands off mid-start.
  */
 export function shouldMusicSingleOwnMidiEngine(viewedTuneId, queue) {
   return shouldMusicSingleOwnPlayback(viewedTuneId, queue)

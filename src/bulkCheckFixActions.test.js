@@ -54,15 +54,4 @@ describe('bulkCheckFixActions chords/lyrics fallback', function() {
     }))
     expect(next.words || next.wLines).toBeTruthy()
   })
-
-  test('allowPractice sets suitableForPractice', async function() {
-    const tune = { id: 't1', name: 'Wild Rover', suitableForPractice: false, voices: { '1': { notes: [] } } }
-    const next = await runBulkCheckFixAction('allowPractice', {
-      tune: tune,
-      tunebook: tunebook,
-      getTuneById: function() { return tune },
-    })
-
-    expect(next.suitableForPractice).toBe(true)
-  })
 })

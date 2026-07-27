@@ -1,9 +1,10 @@
 import curated from '../CuratedTuneBooks'
 import Accordion from 'react-bootstrap/Accordion';
-import {Link} from 'react-router-dom'
-import {Button, ButtonGroup} from 'react-bootstrap'
+import {Link, useNavigate} from 'react-router-dom'
+import {Button} from 'react-bootstrap'
 import {useState} from 'react'
 import { curatedScrapeUrl } from '../resourceBase'
+import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 
 function buildCuratedGroups() {
     var collatedCurated = {}
@@ -20,6 +21,7 @@ function buildCuratedGroups() {
 }
 
 export default function ImportCollectionsAccordion(props) {
+    const navigate = useNavigate()
     const [imageIsHidden, setImageIsHidden] = useState({})
     function hideImage(key) {
         setImageIsHidden(function(prev) {
@@ -28,7 +30,6 @@ export default function ImportCollectionsAccordion(props) {
         })
     }
     var baseImageLink = (process.env.PUBLIC_URL || '') + '/book_images/'
-    var buttonGroupStyle={marginBottom:'0.2em',marginLeft:'0.2em',backgroundColor:'#0d6efd', border:'1px solid black', borderRadius:'10px'}
     var groups = buildCuratedGroups()
     var collatedCurated = groups.collatedCurated
     var notCollatedCurated = groups.notCollatedCurated
@@ -36,30 +37,54 @@ export default function ImportCollectionsAccordion(props) {
 
     function renderBookButton(bookTitle, bookMeta, imageKey) {
         if (bookMeta.link) {
-            return <ButtonGroup key={bookTitle} style={buttonGroupStyle} variant="primary">
-                <Link to={'/importlink/' + encodeURIComponent(curatedScrapeUrl(bookMeta.link)) + (bookMeta.book ? "/book/"+encodeURIComponent(bookMeta.book) : "") + (bookMeta.tag ? "/tag/"+encodeURIComponent(bookMeta.tag) : "")} style={{textDecoration:'none'}} >
-                    <Button onClick={function() {props.setCurrentTuneBook(bookTitle)}} >
-                        {bookMeta.image && !imageIsHidden[imageKey] && <img alt="" style={{height:'80px'}} src={baseImageLink + bookMeta.image} onError={function() {hideImage(imageKey)}} />}
-                        &nbsp;{bookTitle}
+            const importPath = '/importlink/' + encodeURIComponent(curatedScrapeUrl(bookMeta.link)) + (bookMeta.book ? "/book/"+encodeURIComponent(bookMeta.book) : "") + (bookMeta.tag ? "/tag/"+encodeURIComponent(bookMeta.tag) : "")
+            const playPath = importPath + (bookMeta.book ? "/play" : "")
+            return <div key={bookTitle} className="books-page-book-card" role="group">
+                <Link to={importPath} className="books-page-collection-card-link" style={{textDecoration:'none'}}>
+                    <Button variant="primary" className="books-page-collection-card-main" onClick={function() {props.setCurrentTuneBook(bookTitle)}}>
+                        {bookMeta.image && !imageIsHidden[imageKey] && <img className="books-page-collection-card-cover" alt="" src={baseImageLink + bookMeta.image} onError={function() {hideImage(imageKey)}} />}
+                        <span className="books-page-collection-card-label">{bookTitle}</span>
                     </Button>
                 </Link>
-                <Link to={'/importlink/' + encodeURIComponent(curatedScrapeUrl(bookMeta.link)) + (bookMeta.book ? "/book/"+encodeURIComponent(bookMeta.book)+  (bookMeta.tag ? "/tag/"+encodeURIComponent(bookMeta.tag) : "") + "/play" : "")} style={{textDecoration:'none'}} >
-                    <Button variant={"primary"} size="small" >{props.tunebook.icons.playwhite}</Button>
-                </Link>
-            </ButtonGroup>
+                <PlayWithQueueDropdown
+                    variant="collection-side"
+                    playVariant="primary"
+                    playIcon={props.tunebook.icons.playwhite}
+                    showQueueMenu={false}
+                    onPlay={function(e) {
+                        e.preventDefault()
+                        e.stopPropagation()
+                        props.setCurrentTuneBook(bookTitle)
+                        navigate(playPath)
+                    }}
+                    onContainerClick={function(e) { e.stopPropagation() }}
+                />
+            </div>
         }
         if (bookMeta.googleDocumentId) {
-            return <ButtonGroup key={bookTitle} style={buttonGroupStyle} variant="primary">
-                <Link to={'/importdoc/' + bookMeta.googleDocumentId + (bookMeta.book ? "/book/"+encodeURIComponent(bookMeta.book) : "")} style={{textDecoration:'none'}} >
-                    <Button style={{marginTop:'0.4em', align:'top'}} onClick={function() {props.setCurrentTuneBook(bookTitle)}} >
-                        {bookMeta.image && !imageIsHidden[imageKey] ? <img alt="" style={{height:'80px'}} src={baseImageLink + bookMeta.image} onError={function() {hideImage(imageKey)}} /> : null}
-                        &nbsp;{bookTitle}
+            const importPath = '/importdoc/' + bookMeta.googleDocumentId + (bookMeta.book ? "/book/"+encodeURIComponent(bookMeta.book) : "")
+            const playPath = '/importlink/' + encodeURIComponent(bookMeta.link || '') + (bookMeta.book ? "/book/"+encodeURIComponent(bookMeta.book) + "play" : "")
+            return <div key={bookTitle} className="books-page-book-card" role="group">
+                <Link to={importPath} className="books-page-collection-card-link" style={{textDecoration:'none'}}>
+                    <Button variant="primary" className="books-page-collection-card-main" onClick={function() {props.setCurrentTuneBook(bookTitle)}}>
+                        {bookMeta.image && !imageIsHidden[imageKey] ? <img className="books-page-collection-card-cover" alt="" src={baseImageLink + bookMeta.image} onError={function() {hideImage(imageKey)}} /> : null}
+                        <span className="books-page-collection-card-label">{bookTitle}</span>
                     </Button>
                 </Link>
-                <Link to={'/importlink/' + encodeURIComponent(bookMeta.link || '') + (bookMeta.book ? "/book/"+encodeURIComponent(bookMeta.book) + "play" : "")} style={{textDecoration:'none'}} >
-                    <Button variant={"primary"} size="small" >{props.tunebook.icons.playwhite}</Button>
-                </Link>
-            </ButtonGroup>
+                <PlayWithQueueDropdown
+                    variant="collection-side"
+                    playVariant="primary"
+                    playIcon={props.tunebook.icons.playwhite}
+                    showQueueMenu={false}
+                    onPlay={function(e) {
+                        e.preventDefault()
+                        e.stopPropagation()
+                        props.setCurrentTuneBook(bookTitle)
+                        navigate(playPath)
+                    }}
+                    onContainerClick={function(e) { e.stopPropagation() }}
+                />
+            </div>
         }
         return null
     }
@@ -91,7 +116,7 @@ export default function ImportCollectionsAccordion(props) {
                             {!hideGroupHeadings ? (
                                 <h4 className="import-collections-flat-heading" style={{fontSize: '1rem', marginBottom: '0.4em'}}>{groupTitle}</h4>
                             ) : null}
-                            <div className="import-collections-flat-books">
+                            <div className="import-collections-flat-books books-page-grid">
                                 {renderGroupBooks(collatedCurated[groupTitle])}
                             </div>
                         </div>
@@ -102,7 +127,7 @@ export default function ImportCollectionsAccordion(props) {
                         {!hideGroupHeadings ? (
                             <h4 className="import-collections-flat-heading" style={{fontSize: '1rem', marginBottom: '0.4em'}}>Other</h4>
                         ) : null}
-                        <div className="import-collections-flat-books">
+                        <div className="import-collections-flat-books books-page-grid">
                             {renderOtherBooks()}
                         </div>
                     </div>

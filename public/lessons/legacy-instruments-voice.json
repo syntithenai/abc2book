@@ -1,0 +1,189 @@
+{
+  "id": "legacy-instruments-voice",
+  "title": "Voice as Instrument",
+  "track": "instruments",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "instruments",
+    "legacy"
+  ],
+  "path": "09-instruments/13-voice.md",
+  "sections": [
+    {
+      "id": "voice-as-instrument",
+      "title": "Voice as Instrument",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The human voice is the oldest instrument — sung, spoken, and shouted across every culture. Classified as aerophone (lungs provide air; vocal folds vibrate)."
+        }
+      ]
+    },
+    {
+      "id": "registers",
+      "title": "Registers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Chest voice (modal register), head voice, falsetto, whistle register. Passaggio — transition points between registers."
+        }
+      ]
+    },
+    {
+      "id": "voice-types",
+      "title": "Voice types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Soprano, mezzo, alto/contralto, tenor, baritone, bass — choral classification. Folk singing ignores Fach categories; find comfortable range."
+        }
+      ]
+    },
+    {
+      "id": "styles",
+      "title": "Styles",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Opera bel canto. Gospel and blues growl. Sean-nós unaccompanied Irish song. Shape-note hymnody. Throat singing (Tuva, Mongolia)."
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hydration, warm-up, rest. Hoarseness lasting >2 weeks warrants medical attention."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Voice produces sound via:\n\n- A) Vocal fold vibration\n- B) String plucking\n- C) Reed vibration\n- D) Hammered metal\n\n**Answer:** A\n\n### Q2. Sean-nós is unaccompanied Irish singing style.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Voice produces sound via:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vocal fold vibration",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Vocal fold vibration"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Sean-nós is unaccompanied Irish singing style.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-instruments-voice-quiz",
+    "title": "Voice as Instrument quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Voice produces sound via:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Vocal fold vibration",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Vocal fold vibration"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Sean-nós is unaccompanied Irish singing style.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

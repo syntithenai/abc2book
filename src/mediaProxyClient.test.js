@@ -136,6 +136,113 @@ describe('mediaProxyClient', function() {
     expect(global.fetch.mock.calls[1][0]).toBe('http://local.example/lyrics-dictionary');
   });
 
+  test('fetchDirectOrProxy routes Bandcamp URLs through resolver', async function() {
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
+
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      arrayBuffer: async function() { return new ArrayBuffer(0); },
+    });
+
+    const result = await mediaProxyClient.fetchDirectOrProxy({
+      src: 'https://altan.bandcamp.com/track/the-sally-gardens',
+      srcType: 'audio',
+      accessToken: 'token',
+    });
+
+    expect(result.viaProxy).toBe(true);
+    expect(global.fetch).toHaveBeenCalledTimes(1);
+    expect(global.fetch.mock.calls[0][0]).toContain('/bandcamp/audio?url=');
+    expect(decodeURIComponent(global.fetch.mock.calls[0][0])).toContain('altan.bandcamp.com/track/the-sally-gardens');
+  });
+
+  test('fetchDirectOrProxy routes Internet Archive details URLs through resolver', async function() {
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
+
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      arrayBuffer: async function() { return new ArrayBuffer(0); },
+    });
+
+    const result = await mediaProxyClient.fetchDirectOrProxy({
+      src: 'https://archive.org/details/foo',
+      srcType: 'audio',
+      accessToken: 'token',
+    });
+
+    expect(result.viaProxy).toBe(true);
+    expect(global.fetch.mock.calls[0][0]).toContain('/internet-archive/audio?url=');
+  });
+
+  test('fetchDirectOrProxy routes Internet Archive download URLs through proxy-audio', async function() {
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
+
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      arrayBuffer: async function() { return new ArrayBuffer(0); },
+    });
+
+    const result = await mediaProxyClient.fetchDirectOrProxy({
+      src: 'https://archive.org/download/foo/bar.mp3',
+      srcType: 'audio',
+      accessToken: 'token',
+    });
+
+    expect(result.viaProxy).toBe(true);
+    expect(global.fetch.mock.calls[0][0]).toContain('/proxy-audio?url=');
+  });
+
+  test('fetchDirectOrProxy routes loc.gov URLs through resolver', async function() {
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
+
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      arrayBuffer: async function() { return new ArrayBuffer(0); },
+    });
+
+    const result = await mediaProxyClient.fetchDirectOrProxy({
+      src: 'https://www.loc.gov/item/123/',
+      srcType: 'audio',
+      accessToken: 'token',
+    });
+
+    expect(result.viaProxy).toBe(true);
+    expect(global.fetch.mock.calls[0][0]).toContain('/loc/audio?url=');
+  });
+
+  test('requiresResolverProxiedPlayback detects music collection links', function() {
+    expect(mediaProxyClient.requiresResolverProxiedPlayback(
+      'http://localhost:8787/music-collection/clementine/track.mp3'
+    )).toBe(true);
+    expect(mediaProxyClient.requiresResolverProxiedPlayback(
+      'https://example.com/tunes/foo.mp3'
+    )).toBe(false);
+  });
+
+  test('fetchProxiedAudioBlobUrl returns a blob object URL', async function() {
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
+    const blob = new Blob(['audio'], { type: 'audio/mpeg' });
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      blob: async function() { return blob; },
+    });
+    global.URL.createObjectURL = jest.fn(function() { return 'blob:proxied-audio'; });
+
+    const blobUrl = await mediaProxyClient.fetchProxiedAudioBlobUrl(
+      'http://localhost:8787/music-collection/clementine/track.mp3',
+      'audio',
+      { accessToken: 'token' }
+    );
+
+    expect(blobUrl).toBe('blob:proxied-audio');
+    expect(global.fetch.mock.calls[0][0]).toContain('/music-collection/clementine/track.mp3');
+  });
+
   afterEach(function() {
     global.fetch = fetchMock;
   });

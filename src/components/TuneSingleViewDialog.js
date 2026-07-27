@@ -21,6 +21,8 @@ import { stripNotationDisplayMetadata, stripBlockLyricsFromDisplayAbc } from '..
 import { getTuneGigZoom } from '../gigDisplaySettings';
 import { NOTATION_FIT_VERTICAL } from '../gigNotationFit';
 import { tuneImportTitle } from '../importTitleMatch';
+import { useCapoViewState } from '../useCapoViewState';
+import { chordTransposeWithCapo } from '../capoViewUtils';
 
 function stripNotationMeta(abcText) {
   if (!abcText) return '';
@@ -76,12 +78,14 @@ export function TuneSingleViewContent(props) {
     return resolveTuneDisplayLayout(viewFlags);
   }, [viewFlags]);
 
+  const capoState = useCapoViewState(tune && tune.id, tune && tune.capo);
+
   if (!tune || !tunebook) return null;
 
   const visibleVoiceKeys = getVisibleVoiceKeys(tune.id, getTuneVoiceKeys(tune));
   const notationTune = filterTuneVoices(tune, visibleVoiceKeys);
   const tuneTranspose = Number(tune.transpose) || 0;
-  const chordTranspose = tuneTranspose;
+  const chordTranspose = chordTransposeWithCapo(tuneTranspose, capoState.capoOffset, capoState.capoEnabled);
   const notationVisualTranspose = chordTranspose;
   const notationFitMode = getTuneNotationFitMode(tune, visibleVoiceKeys);
   const lyricsZoom = getTuneGigZoom(tune) || 1.2;
@@ -182,6 +186,11 @@ export function TuneSingleViewContent(props) {
                   chords={chords}
                   uniqueChords={uniqueChords}
                   useInstrument={useInstrument}
+                  showCapoControl={structureVisible}
+                  capoOffset={capoState.capoOffset}
+                  capoEnabled={capoState.capoEnabled}
+                  onCapoToggle={capoState.toggleCapo}
+                  onCapoOffsetChange={capoState.applyCapoOffset}
                 />
               ) : (
                 <TimedLyricsChordsView
@@ -208,6 +217,11 @@ export function TuneSingleViewContent(props) {
               useInstrument={useInstrument}
               tune={tune}
               fitHeight={structureFitHeight}
+              showCapoControl={true}
+              capoOffset={capoState.capoOffset}
+              capoEnabled={capoState.capoEnabled}
+              onCapoToggle={capoState.toggleCapo}
+              onCapoOffsetChange={capoState.applyCapoOffset}
             />
           </div>
         ) : null}

@@ -3,7 +3,8 @@
  * Used by useTuneBookMediaController and unit-tested without React or DOM.
  */
 
-import { slotBeatIndex, slotsPerBar } from './metronomeRhythmPresets'
+import { slotBeatIndex, slotsPerBar, rhythmFromTimeSignature } from './metronomeRhythmPresets'
+import { defaultNoteLengthForMeter } from './barModel'
 
 export const YT_STATE = {
   UNSTARTED: -1,
@@ -332,6 +333,16 @@ export function beginSeekHold(now, ms) {
 }
 
 /**
+ * ABC default unit length when L: is omitted (matches abcjs / barModel).
+ */
+export function defaultAbcBeatLengthForMeter(meter) {
+  const parts = defaultNoteLengthForMeter(meter || '4/4').split('/')
+  const num = parseFloat(parts[0]) || 1
+  const den = parseFloat(parts[1]) || 8
+  return den > 0 ? num / den : 0.125
+}
+
+/**
  * Map abcjs meter units onto the metronome rhythm beat grid. abcjs
  * getBeatsPerMeasure() follows the tune's L: unit (often 2 for 4/4 half-notes)
  * while the metronome rhythm preset counts quarter-note beats (4 for 4/4).
@@ -342,13 +353,28 @@ export function rhythmAlignedCountInInput(visualObj, rhythm, options) {
     return null
   }
   const abcBeatsPerMeasure = parseFloat(visualObj.getBeatsPerMeasure()) || 0
-  const beatLength = parseFloat(visualObj.getBeatLength()) || 0
+  let beatLength = parseFloat(visualObj.getBeatLength()) || 0
   const msPerMeasure = typeof visualObj.millisecondsPerMeasure === 'function'
     ? parseFloat(visualObj.millisecondsPerMeasure()) || 0
     : 0
-  const rhythmBeatsPerBar = rhythm && rhythm.beatsPerBar > 0
+  const meter = o.meter != null ? String(o.meter).trim() : ''
+  if (!(beatLength > 0)) {
+    beatLength = defaultAbcBeatLengthForMeter(meter || '4/4')
+  }
+  let rhythmBeatsPerBar = rhythm && rhythm.beatsPerBar > 0
     ? rhythm.beatsPerBar
     : abcBeatsPerMeasure
+  if (meter) {
+    const meterRhythm = rhythmFromTimeSignature(meter)
+    if (meterRhythm && meterRhythm.beatsPerBar > 0) {
+      rhythmBeatsPerBar = meterRhythm.beatsPerBar
+    }
+  } else if (rhythmBeatsPerBar === abcBeatsPerMeasure && beatLength > 0 && beatLength < 0.25) {
+    const quarterBeats = Math.round(abcBeatsPerMeasure * beatLength / 0.25)
+    if (quarterBeats > 0 && quarterBeats < abcBeatsPerMeasure) {
+      rhythmBeatsPerBar = quarterBeats
+    }
+  }
   if (!(abcBeatsPerMeasure > 0) || !(beatLength > 0) || !(msPerMeasure > 0)
       || !(rhythmBeatsPerBar > 0)) {
     return null
@@ -431,6 +457,56 @@ export function computePlaybackMetronomeTempo(input) {
     return fallback > 0 ? fallback : 120
   }
   const beatDurationMs = (msPerMeasure / beatsPerMeasure) / tempoFactor
+  if (!(beatDurationMs > 0)) {
+    return fallback > 0 ? fallback : 120
+  }
+  return 60000 / beatDurationMs
+}
+
+/**
+ * BPM for one rhythm-preset beat (e.g. quarter in 4/4), used for metronome click
+ * and drum slot spacing. Differs from abcjs beat units when L: is not a quarter.
+ */
+/**
+ * Count-in click slots from visual timing and meter-aligned rhythm beats.
+ */
+export function computeCountInSlotCount(visualObj, rhythm, options) {
+  const input = rhythmAlignedCountInInput(visualObj, rhythm, options)
+  if (!input) return 0
+  const countIn = computeMidiMetronomeCountIn(input)
+  const beats = parseFloat(countIn.metronomeBeats) || 0
+  if (!(beats > 0)) return 0
+  return Math.floor(beats)
+}
+
+/**
+ * Rhythm-grid BPM for count-in scheduling (matches slot spacing to bar duration).
+ */
+export function computeCountInGridTempo(visualObj, rhythm, options) {
+  const o = options || {}
+  const input = rhythmAlignedCountInInput(visualObj, rhythm, options)
+  if (!input) return 0
+  const rhythmBeatsPerBar = rhythm && rhythm.beatsPerBar > 0
+    ? rhythm.beatsPerBar
+    : input.beatsPerMeasure
+  return computeRhythmGridTempo({
+    rhythmBeatsPerBar: rhythmBeatsPerBar,
+    millisecondsPerMeasure: input.millisecondsPerMeasure,
+    tempoFactor: input.tempoFactor,
+    fallbackQpm: parseFloat(o.fallbackQpm) || 120,
+  })
+}
+
+export function computeRhythmGridTempo(input) {
+  const o = input || {}
+  const rhythmBeatsPerBar = parseFloat(o.rhythmBeatsPerBar) || 0
+  const msPerMeasure = parseFloat(o.millisecondsPerMeasure) || 0
+  const tempoFactor = o.tempoFactor > 0 ? parseFloat(o.tempoFactor) : 1
+  const fallback = parseFloat(o.fallbackQpm) || 120
+  if (rhythmBeatsPerBar <= 0 || msPerMeasure <= 0) {
+    return fallback > 0 ? fallback : 120
+  }
+  const beatDurationMs = (msPerMeasure / rhythmBeatsPerBar) / tempoFactor
   if (!(beatDurationMs > 0)) {
     return fallback > 0 ? fallback : 120
   }

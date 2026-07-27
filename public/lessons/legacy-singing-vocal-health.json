@@ -1,0 +1,256 @@
+{
+  "id": "legacy-singing-vocal-health",
+  "title": "Vocal Health",
+  "track": "singing",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "singing",
+    "legacy"
+  ],
+  "path": "08-singing/07-vocal-health.md",
+  "sections": [
+    {
+      "id": "vocal-health",
+      "title": "Vocal Health",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** singing | **Difficulty:** 1/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Your voice is irreplaceable equipment — protect it like a fiddler protects their hands."
+        }
+      ]
+    },
+    {
+      "id": "hydration",
+      "title": "Hydration",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Water before and during gigs. Alcohol and caffeine dehydrate vocal folds. Steam inhalation helps before singing."
+        }
+      ]
+    },
+    {
+      "id": "rest",
+      "title": "Rest",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Avoid shouting over noisy pubs before sets. Schedule vocal rest days after demanding gigs."
+        }
+      ]
+    },
+    {
+      "id": "warm-up-and-cool-down",
+      "title": "Warm-up and cool-down",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Gentle hum descending after performance. Don't go from full belt to silence."
+        }
+      ]
+    },
+    {
+      "id": "warning-signs",
+      "title": "Warning signs",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hoarseness >2 weeks, pain, loss of range — see ENT specialist. Nodules from chronic misuse are preventable."
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dry air, smoke, and allergens irritate folds. Humidifier in hotel rooms on tour."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Persistent hoarseness over two weeks warrants:\n\n- A) Medical evaluation\n- B) Singing louder\n- C) Ignoring it\n- D) Only whispering forever\n\n**Answer:** A\n\n### Q2. Hydration supports healthy vocal fold function.\n\n**Answer:** True\n\n### Q3. Vocal cool-down after gig:\n\n- A) Gentle descending hums\n- B) Immediate maximum-volume singing\n- C) Complete dehydration\n- D) Shouting celebrations\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Persistent hoarseness over two weeks warrants:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Medical evaluation",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Medical evaluation"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Hydration supports healthy vocal fold function.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Vocal cool-down after gig:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Gentle descending hums",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Gentle descending hums"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-singing-vocal-health-quiz",
+    "title": "Vocal Health quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Persistent hoarseness over two weeks warrants:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Medical evaluation",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Medical evaluation"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Hydration supports healthy vocal fold function.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Vocal cool-down after gig:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Gentle descending hums",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Gentle descending hums"
+      }
+    ]
+  }
+}

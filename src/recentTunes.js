@@ -1,5 +1,5 @@
 import { allArtists } from './tuneBibliographicUtils'
-import { getRecentViewedTuneIds } from './tuneViewHistoryStore'
+import { getRecentViewedTuneIds, getRecentPlayedTuneIds } from './tuneViewHistoryStore'
 
 export const RECENT_TUNES_DEFAULT = 10
 export const RECENT_TUNES_EXPANDED = 60
@@ -74,9 +74,19 @@ export function getStarredTunes(tunes, limit) {
   return list
 }
 
+export function getRecentlyPlayedTunes(tunes, limit) {
+  if (!tunes) return []
+  const max = typeof limit === 'number' && limit > 0 ? limit : RECENT_TUNES_DEFAULT
+  return getRecentPlayedTuneIds(RECENT_TUNES_EXPANDED)
+    .map(function(id) { return tunes[id] })
+    .filter(function(tune) { return tune && tune.id })
+    .slice(0, max)
+}
+
 export const BOOKS_PAGE_SECTIONS = {
   filters: 'books-page-filters',
   recent: 'books-page-recent',
+  recentlyPlayed: 'books-page-recently-played',
   starred: 'books-page-starred',
   books: 'books-page-books',
   tags: 'books-page-tags',

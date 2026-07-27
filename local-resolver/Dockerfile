@@ -56,10 +56,11 @@ COPY prefetch_demucs.py /build/prefetch_demucs.py
 COPY prefetch_basic_pitch.py /build/prefetch_basic_pitch.py
 COPY prefetch_btc.py /build/prefetch_btc.py
 COPY prefetch_kong.py /build/prefetch_kong.py
+COPY install_crepe.py /build/install_crepe.py
 COPY btc_chords /build/btc_chords
 
-# Applied to isolated build environments too, so legacy setup.py builds (crepe,
-# madmom) get a setuptools that still provides pkg_resources.
+# Applied to isolated build environments too, so legacy setup.py builds (madmom)
+# get a setuptools that still provides pkg_resources.
 ENV PIP_CONSTRAINT=/build/constraints-build.txt
 
 ENV AUTOCHORD_VENV=/opt/autochord-venv
@@ -74,6 +75,7 @@ RUN python -m venv "${AUTOCHORD_VENV}" \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir -r /build/requirements-chords.txt \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir torch torchaudio --index-url ${MELODY_TORCH_INDEX} \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir -r /build/requirements-melody.txt \
+    && "${AUTOCHORD_VENV}/bin/python" /build/install_crepe.py \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir -r /build/requirements-amt.txt \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir "Cython>=0.29" \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir --no-build-isolation \
@@ -126,8 +128,10 @@ COPY requirements.txt /app/requirements.txt
 # vamp imports numpy in setup.py during installs in the chord build stage only.
 RUN pip3 install --no-cache-dir --break-system-packages "numpy>=1.19"
 RUN pip3 install --no-cache-dir --break-system-packages -r /app/requirements.txt \
-    && playwright install-deps chromium \
-    && playwright install chromium
+    && apt-get update \
+    && python3 -m playwright install-deps chromium \
+    && python3 -m playwright install chromium \
+    && rm -rf /var/lib/apt/lists/*
 
 ENV AUTOCHORD_VENV=/opt/autochord-venv
 COPY --from=autochord-env /opt/autochord-venv /opt/autochord-venv
@@ -214,6 +218,8 @@ COPY llm_runtime.py /app/llm_runtime.py
 COPY analyze_practice.py /app/analyze_practice.py
 COPY bulk_list_format.py /app/bulk_list_format.py
 COPY tune_background_research.py /app/tune_background_research.py
+COPY practice_track_api.py /app/practice_track_api.py
+COPY music_generation /app/music_generation
 COPY voice_command.py /app/voice_command.py
 COPY playback_region_detect.py /app/playback_region_detect.py
 COPY detect_chords.py /app/detect_chords.py
@@ -246,7 +252,16 @@ COPY image_search.py /app/image_search.py
 COPY music_collection.py /app/music_collection.py
 COPY music_collection_analytics.py /app/music_collection_analytics.py
 COPY music_collection_indexer.py /app/music_collection_indexer.py
+COPY music_collection_browse.py /app/music_collection_browse.py
+COPY music_collection_curation.py /app/music_collection_curation.py
+COPY music_collection_moves.py /app/music_collection_moves.py
+COPY music_collection_registry.py /app/music_collection_registry.py
+COPY music_collection_registry.json /app/music_collection_registry.json
 COPY scripts/build_music_collection_index.py /app/scripts/build_music_collection_index.py
+COPY bandcamp.py /app/bandcamp.py
+COPY internet_archive.py /app/internet_archive.py
+COPY europeana.py /app/europeana.py
+COPY loc_audio.py /app/loc_audio.py
 
 EXPOSE 8787
 

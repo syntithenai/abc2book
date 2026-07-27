@@ -34,6 +34,7 @@ import useGoogleDocument from '../useGoogleDocument'
 import { findTuneFileMeta, isPdfTuneFileType } from '../tuneFiles'
 import LyricsAutoscrollModal from './LyricsAutoscrollModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
+import PracticeTrackGenerator from './PracticeTrackGenerator'
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings'
 import { NOTATION_FIT_VERTICAL, NOTATION_FIT_HORIZONTAL } from '../gigNotationFit'
 import { stripNotationDisplayMetadata, stripBlockLyricsFromDisplayAbc } from '../notation/notationDisplayAbc'
@@ -57,6 +58,8 @@ import { filterTuneVoices } from '../abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
+import { useCapoViewState } from '../useCapoViewState'
+import { chordTransposeWithCapo } from '../capoViewUtils'
 import { recordTuneView } from '../tuneViewHistoryStore'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
 import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, abandonAutoEnrichNotationPaste } from '../addTuneAutoEnrich'
@@ -219,13 +222,16 @@ export default function MusicSingle(props) {
 		var t = props.tunes ? props.tunes[new String(params.tuneId)] : null
         if (t) {
             setTune(applyTuneSnapshotFromSearchParams(t, searchParams))
+            if (props.mediaController && props.mediaController.setTune) {
+              props.mediaController.setTune(t)
+            }
         }
         
     },[params.tuneId, props.tunes, props.mediaController.playbackSpeed, searchParams])
     
     //const [abc, setAbc] = useState('')
     //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
-    const [chordViewMode, setChordViewMode] = useState('transposed')
+    const capoState = useCapoViewState(tune && tune.id, tune && tune.capo)
     
     //let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
@@ -393,7 +399,7 @@ export default function MusicSingle(props) {
         //var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
         ////console.log('sING',parsed.chords)
         //var [a,b,chordsArray,c] = parsed
-        var chordTranspose = (Number(tune.transpose) || 0) - (chordViewMode === 'capo' ? (Number(tune.capo) || 0) : 0)
+        var chordTranspose = chordTransposeWithCapo(tune.transpose, capoState.capoOffset, capoState.capoEnabled)
         var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, chordTranspose, tune.key, tune.noteLength, tune.meter)
         var chordsWithDots = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, chordTranspose, tune.key, tune.noteLength, tune.meter)
         
@@ -450,10 +456,9 @@ export default function MusicSingle(props) {
             tunes: props.tunes,
         })
         const ownMidiEngine = shouldMusicSingleOwnMidiEngine(tune.id, props.nowPlayingQueue)
-       
+
                 const compactToolbar = windowSize[0] <= 768
-                const collapseToolbarToMenu = isMobilePlatform()
-                const foldControlsIntoMenu = isMusicToolbarFolded(windowSize[0], collapseToolbarToMenu)
+                const foldControlsIntoMenu = isMusicToolbarFolded(windowSize[0], compactToolbar)
                 const mediumToolbar = foldControlsIntoMenu
                 const compactNotationControls = isMusicToolbarCompact(
                   toolbarContainerWidth,
@@ -480,8 +485,8 @@ export default function MusicSingle(props) {
                 const toolbarClassName = 'music-buttons'
                   + (foldControlsIntoMenu ? ' music-buttons--folded-menu' : '')
                   + (compactNotationControls ? ' music-buttons--compact-controls' : '')
-                  + (collapseToolbarToMenu ? ' music-buttons--mobile-collapsed' : '')
-                  + (mediumToolbar && !collapseToolbarToMenu ? ' music-buttons--meta-collapsed' : '')
+                  + (compactToolbar ? ' music-buttons--mobile-collapsed' : '')
+                  + (mediumToolbar && !compactToolbar ? ' music-buttons--meta-collapsed' : '')
                   + (pdfSnapshotActive ? ' music-buttons--pdf-snapshot' : '')
                 const embedPdfToolbarInMainBar = pdfSnapshotActive
                 const pdfToolbarBesideMenu = pdfSnapshotActive && foldControlsIntoMenu
@@ -526,7 +531,11 @@ export default function MusicSingle(props) {
                 const visibleVoiceKeys = getVisibleVoiceKeys(tune.id, getTuneVoiceKeys(tune))
                 const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
                 const tuneTranspose = Number(tune.transpose) || 0
-                const effectiveCapo = Number(tune.capo) || 0
+
+                function handleCapoOffsetChange(offset) {
+                  capoState.applyCapoOffset(offset)
+                  persistTunePatch({ capo: offset })
+                }
 
                 const tablatureInViewMode = foldControlsIntoMenu || compactNotationControls
                 const tablatureSelector = availableFlags.notation && !fileOverlayActive ? (
@@ -550,21 +559,6 @@ export default function MusicSingle(props) {
                       <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
                       <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1) }} aria-label="Transpose up">+</Button>
                     </ButtonGroup>
-                    {effectiveCapo > 0 ? (
-                      <Button
-                        size="sm"
-                        variant={chordViewMode === 'capo' ? 'primary' : 'outline-secondary'}
-                        className="music-capo-toggle-btn"
-                        aria-pressed={chordViewMode === 'capo'}
-                        aria-label={'Capo ' + effectiveCapo + (chordViewMode === 'capo' ? ' fingering' : ' transposed')}
-                        title={chordViewMode === 'capo' ? 'Show transposed chords' : 'Show capo fingering'}
-                        onClick={function() {
-                          setChordViewMode(chordViewMode === 'capo' ? 'transposed' : 'capo')
-                        }}
-                      >
-                        Capo {effectiveCapo}
-                      </Button>
-                    ) : null}
                   </div>
                 )
 
@@ -753,6 +747,17 @@ export default function MusicSingle(props) {
                         {props.tunebook.icons.printer}
                         <span className="music-actions-menu-btn-label"> Print</span>
                       </Button>
+                    </Dropdown.Item>
+                    <Dropdown.Item as="div" className="music-actions-dropdown-item-labeled">
+                      <div className="music-actions-nested-dropdown-wrap" onClick={function(e) { e.stopPropagation() }}>
+                        <PracticeTrackGenerator
+                          tune={tune}
+                          tunebook={props.tunebook}
+                          token={props.token}
+                          login={props.login}
+                          onTuneChange={function(updated) { setTune(updated); props.tunebook.saveTune(updated); }}
+                        />
+                      </div>
                     </Dropdown.Item>
                     <Dropdown.Item as="div" className="music-actions-dropdown-item-labeled">
                       <div className="music-actions-nested-dropdown-wrap" onClick={function(e) { e.stopPropagation() }}>
@@ -1168,6 +1173,11 @@ export default function MusicSingle(props) {
                            chords={chords}
                            uniqueChords={uniqueChords}
                            useInstrument={useInstrument}
+                           showCapoControl={structureVisible}
+                           capoOffset={capoState.capoOffset}
+                           capoEnabled={capoState.capoEnabled}
+                           onCapoToggle={capoState.toggleCapo}
+                           onCapoOffsetChange={handleCapoOffsetChange}
                          />
                        ) : (
                          <TimedLyricsChordsView
@@ -1210,6 +1220,11 @@ export default function MusicSingle(props) {
                      useInstrument={useInstrument}
                      tune={tune}
                      fitHeight={structureFitHeight}
+                     showCapoControl={true}
+                     capoOffset={capoState.capoOffset}
+                     capoEnabled={capoState.capoEnabled}
+                     onCapoToggle={capoState.toggleCapo}
+                     onCapoOffsetChange={handleCapoOffsetChange}
                    />
                  </div>
                )}

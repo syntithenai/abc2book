@@ -1,0 +1,178 @@
+{
+  "id": "legacy-music-periods-romantic-era",
+  "title": "Romantic Era Overview",
+  "track": "history",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "history",
+    "legacy"
+  ],
+  "path": "10-music-periods/05-romantic-era.md",
+  "sections": [
+    {
+      "id": "romantic-era-overview-18101900",
+      "title": "Romantic Era Overview (1810–1900)",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** music-periods | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Romanticism: individual expression, nationalism, expanded orchestra, programme music."
+        }
+      ]
+    },
+    {
+      "id": "composers",
+      "title": "Composers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Chopin, Schumann, Liszt, Brahms, Wagner, Tchaikovsky, Mahler. Symphonies grow to 80+ minutes."
+        }
+      ]
+    },
+    {
+      "id": "nationalism",
+      "title": "Nationalism",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Folk melodies in concert works legitimised oral tradition for middle-class audiences."
+        }
+      ]
+    },
+    {
+      "id": "virtuosity",
+      "title": "Virtuosity",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Paganini, Liszt — performer-composers as celebrities. Virtuoso tradition continues in trad festival competition."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Romantic era emphasised:\n\n- A) Personal expression and nationalism\n- B) Strict church modes only\n- C) No orchestras\n- D) Unmeasured chant\n\n**Answer:** A\n\n### Q2. Wagner expanded opera with leitmotifs and huge forces.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Romantic era emphasised:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Personal expression and nationalism",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Personal expression and nationalism"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Wagner expanded opera with leitmotifs and huge forces.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-music-periods-romantic-era-quiz",
+    "title": "Romantic Era Overview quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Romantic era emphasised:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Personal expression and nationalism",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Personal expression and nationalism"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Wagner expanded opera with leitmotifs and huge forces.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

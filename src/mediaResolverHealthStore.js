@@ -128,10 +128,19 @@ export function subscribeMediaResolverHealth(listener) {
   };
 }
 
+// Resolver /health probes can take up to ~6s per candidate; do not treat the
+// auth base as settled while a probe is still in flight.
+const AUTH_PROBE_HARD_CAP_MS = 12000;
+
+function authProbeSettled() {
+  return state.authBaseChecked && !probeInFlight;
+}
+
 /** Wait until authBaseChecked (or timeout). Resolves with current authBase. */
-export function waitForAuthBase(timeoutMs) {
+export function waitForAuthBase(timeoutMs, options) {
   const limit = typeof timeoutMs === 'number' ? timeoutMs : 3000;
-  if (state.authBaseChecked) {
+  const untilProbeSettled = !!(options && options.untilProbeSettled);
+  if (authProbeSettled()) {
     return Promise.resolve(state.authBase || '');
   }
   if (!isMediaProxyConfigured()) {
@@ -140,26 +149,43 @@ export function waitForAuthBase(timeoutMs) {
   }
   return new Promise(function(resolve) {
     let settled = false;
-    const timer = setTimeout(function() {
+    const startedAt = Date.now();
+
+    function finish() {
       if (settled) return;
       settled = true;
+      clearTimeout(softTimer);
+      clearInterval(pollTimer);
       unsubscribe();
-      // Timed out — mark checked so login can proceed with Token Client.
-      if (!state.authBaseChecked) {
+      if (!state.authBaseChecked && !probeInFlight) {
         setState({ authBaseChecked: true });
       }
       resolve(state.authBase || '');
-    }, limit);
+    }
 
-    const unsubscribe = subscribeMediaResolverHealth(function(next) {
+    function maybeFinish() {
       if (settled) return;
-      if (next.authBaseChecked) {
-        settled = true;
-        clearTimeout(timer);
-        unsubscribe();
-        resolve(next.authBase || '');
+      const elapsed = Date.now() - startedAt;
+      if (authProbeSettled()) {
+        finish();
+        return;
       }
+      if (elapsed >= AUTH_PROBE_HARD_CAP_MS) {
+        finish();
+        return;
+      }
+      if (untilProbeSettled) return;
+      if (elapsed >= limit && !probeInFlight) finish();
+    }
+
+    const softTimer = setTimeout(maybeFinish, limit);
+    const pollTimer = setInterval(maybeFinish, 100);
+
+    const unsubscribe = subscribeMediaResolverHealth(function() {
+      maybeFinish();
     });
+
+    maybeFinish();
   });
 }
 

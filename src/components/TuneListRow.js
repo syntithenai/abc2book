@@ -6,6 +6,7 @@ import BoostSettingsModal from './BoostSettingsModal'
 import StarToggleButton from './StarToggleButton'
 import TuneListFilterChips from './TuneListFilterChips'
 import { getLyricLines } from '../wLinesUtils'
+import TuneListPlaybackButtons from './TuneListPlaybackButtons'
 import {
   buildSnapshotTuneLink,
   displayTitleForSearchRow,
@@ -50,10 +51,12 @@ export default function TuneListRow(props) {
     ? snapshotMatch.composer
     : (tune.composer || '')
 
+  const isNowPlaying = props.nowPlayingTuneId && tune.id === props.nowPlayingTuneId
+
   return (
     <ListGroup.Item
       key={(tune.id || '') + '-' + tk + '-' + (snapshotMatch ? snapshotMatch.page : 'main')}
-      className={'tune-list-item ' + ((tk % 2 === 0) ? 'even' : 'odd') + (isCompact ? ' tune-list-item-compact' : ' tune-list-item-detailed')}
+      className={'tune-list-item ' + ((tk % 2 === 0) ? 'even' : 'odd') + (isCompact ? ' tune-list-item-compact' : ' tune-list-item-detailed') + (isNowPlaying ? ' tune-list-item--now-playing' : '')}
       style={{ borderTop: '2px solid black', borderLeft: '2px solid black', borderRight: '2px solid black' }}
     >
       <div className="tune-list-item-row">
@@ -96,6 +99,18 @@ export default function TuneListRow(props) {
           {showParentSubtitle ? <div className="small text-muted px-1">in {parentName}</div> : null}
         </div>
         <div className="tune-list-item-meta">
+          <TuneListPlaybackButtons
+            tune={tune}
+            tunebook={props.tunebook}
+            mediaController={props.mediaController}
+            tunes={props.tunes}
+            nowPlayingQueue={props.nowPlayingQueue}
+            setNowPlayingQueue={props.setNowPlayingQueue}
+            setQueuePlayConfirm={props.setQueuePlayConfirm}
+            nowPlayingTuneId={props.nowPlayingTuneId}
+            className="tune-list-item-play"
+            buttonSize={showRowExtras ? 'lg' : undefined}
+          />
           {showRowExtras ? (
             <>
               <span className="tune-list-item-icons">

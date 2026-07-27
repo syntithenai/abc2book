@@ -58,144 +58,6 @@
           "text": "I6–V or cadential 6/4 embellishes dominant before resolution — common in classical; simplified in folk."
         }
       ]
-    },
-    {
-      "id": "quiz-questions",
-      "title": "Quiz Questions",
-      "level": 2,
-      "blocks": []
-    },
-    {
-      "id": "q1-antecedent-often-ends-on-v",
-      "title": "Q1. Antecedent often ends on V.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q2-consequent-often-ends-on-i",
-      "title": "Q2. Consequent often ends on I.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q3-phrase-pairs-form-period-structure",
-      "title": "Q3. Phrase pairs form period structure.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q4-deceptive-cadence-delays-tonic-arrival",
-      "title": "Q4. Deceptive cadence delays tonic arrival.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q5-cadential-64-precedes-dominant",
-      "title": "Q5. Cadential 6/4 precedes dominant.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q6-applied-cadences-appear-in-tune-analysis",
-      "title": "Q6. Applied cadences appear in tune analysis.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q7-bass-line-defines-cadence-type",
-      "title": "Q7. Bass line defines cadence type.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q8-ivi-is-plagal",
-      "title": "Q8. IV–I is plagal.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q9-session-tunes-use-clear-cadence-points-for-repeats",
-      "title": "Q9. Session tunes use clear cadence points for repeats.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q10-half-cadence-invites-another-phrase",
-      "title": "Q10. Half cadence invites another phrase.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q11-voice-leading-smooths-vi-motion",
-      "title": "Q11. Voice-leading smooths V–I motion.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q12-applied-tier-links-to-phrase-structure-lesson",
-      "title": "Q12. Applied tier links to phrase-structure lesson.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
     }
   ],
   "entities": [],
@@ -204,5 +66,445 @@
   "tunes": [],
   "key_points": [],
   "reading_list": [],
-  "quiz_markdown": "### Q1. Antecedent often ends on V.\n\n**Answer:** True\n\n### Q2. Consequent often ends on I.\n\n**Answer:** True\n\n### Q3. Phrase pairs form period structure.\n\n**Answer:** True\n\n### Q4. Deceptive cadence delays tonic arrival.\n\n**Answer:** True\n\n### Q5. Cadential 6/4 precedes dominant.\n\n**Answer:** True\n\n### Q6. Applied cadences appear in tune analysis.\n\n**Answer:** True\n\n### Q7. Bass line defines cadence type.\n\n**Answer:** True\n\n### Q8. IV–I is plagal.\n\n**Answer:** True\n\n### Q9. Session tunes use clear cadence points for repeats.\n\n**Answer:** True\n\n### Q10. Half cadence invites another phrase.\n\n**Answer:** True\n\n### Q11. Voice-leading smooths V–I motion.\n\n**Answer:** True\n\n### Q12. Applied tier links to phrase-structure lesson.\n\n**Answer:** True"
+  "quiz_markdown": "### Q1. Antecedent often ends on V.\n\n**Answer:** True\n\n### Q2. Consequent often ends on I.\n\n**Answer:** True\n\n### Q3. Phrase pairs form period structure.\n\n**Answer:** True\n\n### Q4. Deceptive cadence delays tonic arrival.\n\n**Answer:** True\n\n### Q5. Cadential 6/4 precedes dominant.\n\n**Answer:** True\n\n### Q6. Applied cadences appear in tune analysis.\n\n**Answer:** True\n\n### Q7. Bass line defines cadence type.\n\n**Answer:** True\n\n### Q8. IV–I is plagal.\n\n**Answer:** True\n\n### Q9. Session tunes use clear cadence points for repeats.\n\n**Answer:** True\n\n### Q10. Half cadence invites another phrase.\n\n**Answer:** True\n\n### Q11. Voice-leading smooths V–I motion.\n\n**Answer:** True\n\n### Q12. Applied tier links to phrase-structure lesson.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "prompt": "Antecedent often ends on V.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Consequent often ends on I.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Phrase pairs form period structure.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Deceptive cadence delays tonic arrival.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Cadential 6/4 precedes dominant.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Applied cadences appear in tune analysis.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Bass line defines cadence type.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "IV–I is plagal.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Session tunes use clear cadence points for repeats.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Half cadence invites another phrase.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Voice-leading smooths V–I motion.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Applied tier links to phrase-structure lesson.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-cadences-applied-quiz",
+    "title": "Cadences — Applied quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "truefalse",
+        "prompt": "Antecedent often ends on V.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Consequent often ends on I.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Phrase pairs form period structure.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Deceptive cadence delays tonic arrival.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Cadential 6/4 precedes dominant.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Applied cadences appear in tune analysis.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Bass line defines cadence type.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "IV–I is plagal.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Session tunes use clear cadence points for repeats.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Half cadence invites another phrase.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Voice-leading smooths V–I motion.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Applied tier links to phrase-structure lesson.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
 }

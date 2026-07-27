@@ -1,0 +1,167 @@
+{
+  "id": "legacy-transposition-melody",
+  "title": "Transposing Melodies",
+  "track": "transposition",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "transposition",
+    "legacy"
+  ],
+  "path": "04-transposition/02-melody.md",
+  "sections": [
+    {
+      "id": "transposing-melodies-by-interval",
+      "title": "Transposing Melodies by Interval",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** transposition | **Difficulty:** 3/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Move every note by the same interval — up a tone from D to E major, down a fourth from G to D."
+        }
+      ]
+    },
+    {
+      "id": "scale-degree-method",
+      "title": "Scale-degree method",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "If a phrase starts on the 5th of G (D), the same phrase in D major starts on A (5th of D). Faster than note-by-note for experienced players."
+        }
+      ]
+    },
+    {
+      "id": "accidentals",
+      "title": "Accidentals",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Move accidentals with their notes. C♮ in F major becomes D♮ when transposing up a whole step to G — not C♯ unless harmony demands it."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. G major up a major second:\n\n- A) A major\n- B) D major\n- C) F major\n- D) E minor only\n\n**Answer:** A\n\n### Q2. Move every note including accidentals by the same interval.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "G major up a major second:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "A major",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: A major"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Move every note including accidentals by the same interval.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-transposition-melody-quiz",
+    "title": "Transposing Melodies quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "G major up a major second:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A major",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A major"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Move every note including accidentals by the same interval.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

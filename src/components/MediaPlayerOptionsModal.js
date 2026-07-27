@@ -247,12 +247,13 @@ export default function MediaPlayerOptionsModal({
       playState: 'playMedia',
       linkNum: linkKey,
     })
-    requestPlaybackForTarget({
+    if (!requestPlaybackForTarget({
       playState: 'playMedia',
       linkNum: linkKey,
       fresh: !sameSource,
-    })
-    startPlaybackFromGesture(sameSource ? {} : { fresh: true })
+    })) {
+      startPlaybackFromGesture(sameSource ? {} : { fresh: true })
+    }
     if (!suppressRouteNavigation && location.pathname !== path) {
       navigate(path)
     }
@@ -271,11 +272,7 @@ export default function MediaPlayerOptionsModal({
       playState: 'playMidi',
       fresh: !sameSource,
     })) {
-      if (sameSource) {
-        startPlaybackFromGesture()
-      } else {
-        startPlaybackFromGesture({ fresh: true })
-      }
+      startPlaybackFromGesture(sameSource ? {} : { fresh: true })
     }
     if (!suppressRouteNavigation && location.pathname !== path) {
       navigate(path)

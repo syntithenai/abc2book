@@ -119,7 +119,7 @@ export function HelpOrganise() {
         On the <strong>Books</strong> page, use <strong>Collection nav</strong> to jump between filters, recent, books, tags, genres, and artists. Saved filters store your favourite book/tag/genre/artist/search combinations.
       </p>
       <p>
-        <strong>Capo in chord views:</strong> on the tune page, chord layout modes offer a <strong>Capo</strong> toggle to show chords as played with a capo vs fully transposed.
+        <strong>Capo in chord views:</strong> when the structure chord layout is visible, use the <strong>Capo</strong> control in the top-right of that panel to toggle capo fingering vs fully transposed chords and pick C, G, or D guitar shapes.
       </p>
     </>
   );

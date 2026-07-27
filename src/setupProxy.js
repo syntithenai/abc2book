@@ -25,6 +25,7 @@ const RESOLVER_PATHS = new Set([
   '/discover-composer',
   '/discover-genre',
   '/separate-stems',
+  '/generate-practice-track',
   '/midi2xml',
   '/midi2analyze',
   '/midi2abc',
@@ -32,6 +33,10 @@ const RESOLVER_PATHS = new Set([
   '/transcribe-sheet-image',
   '/extract-sheet-metadata',
   '/search-images',
+  '/search-bandcamp',
+  '/search-internet-archive',
+  '/search-europeana',
+  '/search-loc-audio',
   '/textsearch_index.json',
 ]);
 
@@ -41,9 +46,24 @@ const STATIC_RESOURCE_PREFIXES = [
   '/midi-js-soundfonts/',
 ];
 
+function isMusicCollectionApiPath(pathname) {
+  if (pathname.startsWith('/music-collection/')) return true;
+  if (pathname.startsWith('/music-collection-art/')) return true;
+  if (pathname.startsWith('/music-collection-')) return true;
+  if (pathname.startsWith('/browse-music-collection')) return true;
+  if (pathname === '/search-music-collection') return true;
+  if (pathname === '/rebuild-music-collection-index') return true;
+  return false;
+}
+
 function shouldProxyResolver(pathname) {
   if (RESOLVER_PATHS.has(pathname)) return true;
   if (pathname.startsWith('/youtube/')) return true;
+  if (pathname.startsWith('/bandcamp/')) return true;
+  if (pathname.startsWith('/internet-archive/')) return true;
+  if (pathname.startsWith('/loc/')) return true;
+  if (isMusicCollectionApiPath(pathname)) return true;
+  if (pathname.startsWith('/generate-practice-track')) return true;
   if (pathname.startsWith('/stems/')) return true;
   if (pathname.startsWith('/auth/google/')) return true;
   for (let i = 0; i < STATIC_RESOURCE_PREFIXES.length; i++) {

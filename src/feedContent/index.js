@@ -5,6 +5,7 @@ import transposition from './theory/transposition.js'
 import harmony from './theory/harmony.js'
 import history from './theory/history.js'
 import styles from './theory/styles.js'
+import celticRegions from './regions/index.js'
 import singingAll from './singing/index.js'
 
 export const theoryModules = []
@@ -15,6 +16,7 @@ export const theoryModules = []
   .concat(harmony)
   .concat(history)
   .concat(styles)
+  .concat(celticRegions)
 
 export const singingModules = Array.isArray(singingAll) ? singingAll : []
 

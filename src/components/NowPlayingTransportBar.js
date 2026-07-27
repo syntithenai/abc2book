@@ -9,11 +9,15 @@ import {
   isExternalQueueItem,
   isLessonQueue,
 } from '../nowPlayingQueue'
-import { resumePlaylistPlayback } from '../tunePlaybackActions'
+import { resumePlaylistPlayback, toggleTunePlayback } from '../tunePlaybackActions'
 import { playLessonYoutube, pauseLessonYoutube, isLessonYoutubePlaying, subscribeLessonYoutube } from '../lessonYoutubePlayer'
 import { isPlaybackInterruptPath } from '../toolPlaybackInterrupt'
-import { isQueuePlaybackEngaged } from '../playbackNavigationUtils'
-import PlaylistModal from './PlaylistModal'
+import {
+  isQueuePlaybackEngaged,
+  getActivePlaybackTuneId,
+} from '../playbackNavigationUtils'
+import MediaSeekSlider from './MediaSeekSlider'
+import TuneArtwork from './TuneArtwork'
 import './NowPlayingTransportBar.css'
 
 export default function NowPlayingTransportBar({
@@ -23,16 +27,34 @@ export default function NowPlayingTransportBar({
   tunes,
   mediaController,
   gigModeActive,
+  setQueuePlayConfirm,
 }) {
   const location = useLocation()
   const navigate = useNavigate()
-  const [showPlaylist, setShowPlaylist] = useState(false)
-  const isLessonExternal = isLessonQueue(nowPlayingQueue) && isExternalQueueItem(
-    nowPlayingQueue && nowPlayingQueue.items
-      ? nowPlayingQueue.items[nowPlayingQueue.currentIndex || 0]
-      : null
+  const [, setEngagementTick] = useState(0)
+  const isFullscreen = location.pathname === '/now-playing'
+
+  const queueActive = isQueueActive(nowPlayingQueue)
+  const playbackEngaged = isQueuePlaybackEngaged(mediaController, {
+    queue: nowPlayingQueue,
+    viewedTuneId: null,
+  })
+  const showBar = !gigModeActive
+    && !isPlaybackInterruptPath(location.pathname)
+    && (queueActive || playbackEngaged)
+
+  const isLessonExternal = queueActive && isLessonQueue(nowPlayingQueue) && isExternalQueueItem(
+    nowPlayingQueue.items[nowPlayingQueue.currentIndex || 0]
   )
   const [lessonYoutubePlaying, setLessonYoutubePlaying] = useState(isLessonYoutubePlaying)
+
+  useEffect(function() {
+    if (!showBar) return undefined
+    const id = setInterval(function() {
+      setEngagementTick(function(n) { return n + 1 })
+    }, 500)
+    return function() { clearInterval(id) }
+  }, [showBar, mediaController])
 
   useEffect(function() {
     if (!isLessonExternal) return undefined
@@ -41,23 +63,22 @@ export default function NowPlayingTransportBar({
     })
   }, [isLessonExternal, nowPlayingQueue && nowPlayingQueue.currentIndex])
 
-  if (gigModeActive || isPlaybackInterruptPath(location.pathname)) {
-    return null
-  }
-  if (!isQueueActive(nowPlayingQueue)) {
-    return null
-  }
+  if (!showBar) return null
 
-  const queueTuneId = getCurrentTuneId(nowPlayingQueue)
-  const currentItem = nowPlayingQueue.items[nowPlayingQueue.currentIndex || 0]
-  const isExternal = isExternalQueueItem(currentItem)
+  const activeTuneId = getActivePlaybackTuneId(mediaController, nowPlayingQueue)
+  const queueTuneId = queueActive ? getCurrentTuneId(nowPlayingQueue) : activeTuneId
+  const currentItem = queueActive
+    ? nowPlayingQueue.items[nowPlayingQueue.currentIndex || 0]
+    : null
+  const isExternal = currentItem ? isExternalQueueItem(currentItem) : false
   if (!queueTuneId && !isExternal) return null
 
-  const playingTune = tunes && queueTuneId ? tunes[queueTuneId] : null
+  const playingTune = tunes && queueTuneId ? tunes[queueTuneId] : (mediaController && mediaController.tune)
   const tuneName = isExternal
     ? getQueueItemLabel(currentItem, tunes)
-    : (playingTune && playingTune.name ? playingTune.name : 'Playlist')
-  const positionLabel = getQueuePositionLabel(nowPlayingQueue)
+    : (playingTune && playingTune.name ? playingTune.name : 'Now playing')
+  const composer = playingTune && playingTune.composer ? playingTune.composer : ''
+  const positionLabel = queueActive ? getQueuePositionLabel(nowPlayingQueue) : null
   const mediaIsPlaying = !!(mediaController && mediaController.isPlaying)
   const transportIsPlaying = isLessonExternal ? lessonYoutubePlaying : mediaIsPlaying
   const isLoading = !!(mediaController && mediaController.isLoading)
@@ -67,7 +88,16 @@ export default function NowPlayingTransportBar({
     ? 'Paused — network timeout'
     : null
 
+  const queueContext = {
+    tunes: tunes,
+    nowPlayingQueue: nowPlayingQueue,
+    setNowPlayingQueue: setNowPlayingQueue,
+    setQueuePlayConfirm: setQueuePlayConfirm,
+    skipQueueConfirm: true,
+  }
+
   function stepPlaylist(direction) {
+    if (!queueActive) return
     if (direction >= 0) {
       tunebook.navigateToNextSong(queueTuneId, null, navigate, location.pathname, {
         mediaController: mediaController,
@@ -83,51 +113,81 @@ export default function NowPlayingTransportBar({
     }
   }
 
-  function handlePlaylistPlayPause() {
-    if (!mediaController && !isLessonQueue(nowPlayingQueue)) return
+  function handlePlayPause() {
     if (isLessonQueue(nowPlayingQueue) && isExternal) {
       if (transportIsPlaying) pauseLessonYoutube()
       else playLessonYoutube({ fromUserGesture: true })
       return
     }
     if (!mediaController) return
-    if (showLoading) {
-      mediaController.pause()
-      mediaController.setIsLoading(false)
-      mediaController.setIsReady(false)
+    if (queueActive) {
+      if (showLoading) {
+        mediaController.pause()
+        mediaController.setIsLoading(false)
+        mediaController.setIsReady(false)
+        return
+      }
+      if (mediaIsPlaying) {
+        mediaController.pause()
+        return
+      }
+      resumePlaylistPlayback(mediaController, tunebook, navigate, nowPlayingQueue, tunes, setNowPlayingQueue)
       return
     }
-    if (mediaIsPlaying) {
-      mediaController.pause()
+    toggleTunePlayback(mediaController, tunebook, navigate, location, queueContext)
+  }
+
+  function handleFullscreenToggle() {
+    if (isFullscreen) {
+      if (window.history.length > 1) navigate(-1)
+      else navigate('/books')
       return
     }
-    resumePlaylistPlayback(mediaController, tunebook, navigate, nowPlayingQueue, tunes, setNowPlayingQueue)
+    navigate('/now-playing')
   }
 
   return (
-    <>
-      <div className="now-playing-transport-bar" role="toolbar" aria-label="Playlist transport">
-        <Button
-          variant="primary"
-          className="now-playing-transport-btn now-playing-transport-btn--previous"
-          aria-label="Previous in playlist"
-          title="Previous in playlist"
-          data-testid="playlist-previous-button"
-          onClick={function() { stepPlaylist(-1) }}
-        >
-          {tunebook.icons.previous}
-          <span className="now-playing-transport-btn-label">Previous</span>
-        </Button>
+    <div className="now-playing-transport-bar" role="toolbar" aria-label="Now playing transport">
+      <div className="now-playing-transport-main">
+        {queueActive ? (
+          <Button
+            variant="primary"
+            className="now-playing-transport-btn now-playing-transport-btn--previous"
+            aria-label="Previous in playlist"
+            title="Previous in playlist"
+            data-testid="playlist-previous-button"
+            onClick={function() { stepPlaylist(-1) }}
+          >
+            {tunebook.icons.previous}
+            <span className="now-playing-transport-btn-label">Previous</span>
+          </Button>
+        ) : (
+          <span className="now-playing-transport-btn-spacer" aria-hidden="true" />
+        )}
 
         <div className="now-playing-transport-center">
           <div className="now-playing-transport-center-group">
+            {playingTune ? (
+              <Link
+                to="/now-playing"
+                className="now-playing-transport-artwork-link"
+                title="Open now playing"
+                aria-label="Open now playing"
+              >
+                <TuneArtwork
+                  tune={playingTune}
+                  tunebook={tunebook}
+                  className="now-playing-transport-artwork"
+                />
+              </Link>
+            ) : null}
             {showLoading ? (
               <Button
                 variant="secondary"
                 className="now-playing-transport-play-btn"
                 title={stallTitle || 'Cancel loading'}
                 aria-label={stallTitle || 'Cancel loading'}
-                onClick={handlePlaylistPlayPause}
+                onClick={handlePlayPause}
               >
                 {tunebook.icons.waiting}
               </Button>
@@ -136,9 +196,9 @@ export default function NowPlayingTransportBar({
                 variant="warning"
                 className="now-playing-transport-play-btn"
                 data-testid="playlist-pause-button"
-                title="Pause playlist"
-                aria-label="Pause playlist"
-                onClick={handlePlaylistPlayPause}
+                title="Pause"
+                aria-label="Pause"
+                onClick={handlePlayPause}
               >
                 {tunebook.icons.pause}
               </Button>
@@ -147,25 +207,13 @@ export default function NowPlayingTransportBar({
                 variant="success"
                 className="now-playing-transport-play-btn"
                 data-testid="playlist-play-button"
-                title="Resume playlist"
-                aria-label="Resume playlist"
-                onClick={handlePlaylistPlayPause}
+                title="Play"
+                aria-label="Play"
+                onClick={handlePlayPause}
               >
                 {tunebook.icons.play}
               </Button>
             )}
-            <Button
-              variant="outline-secondary"
-              size="sm"
-              className="now-playing-transport-list-btn"
-              aria-label="Open playlist"
-              title="Playlist"
-              data-testid="playlist-list-button"
-              onClick={function() { setShowPlaylist(true) }}
-            >
-              {tunebook.icons.menu}
-              <span className="now-playing-transport-btn-label">List</span>
-            </Button>
             {playingTune && queueTuneId ? (
               <Link
                 to={'/tunes/' + queueTuneId}
@@ -173,40 +221,61 @@ export default function NowPlayingTransportBar({
                 title={'Go to ' + tuneName}
               >
                 <span className="now-playing-transport-tune-name">{tuneName}</span>
-                <span className="now-playing-transport-position">({positionLabel})</span>
+                {composer ? (
+                  <span className="now-playing-transport-composer"> — {composer}</span>
+                ) : null}
+                {positionLabel ? (
+                  <span className="now-playing-transport-position"> ({positionLabel})</span>
+                ) : null}
               </Link>
             ) : (
               <span className="now-playing-transport-tune-link">
                 <span className="now-playing-transport-tune-name">{tuneName}</span>
-                <span className="now-playing-transport-position">({positionLabel})</span>
+                {composer ? (
+                  <span className="now-playing-transport-composer"> — {composer}</span>
+                ) : null}
+                {positionLabel ? (
+                  <span className="now-playing-transport-position"> ({positionLabel})</span>
+                ) : null}
               </span>
             )}
+            <Button
+              variant={isFullscreen ? 'secondary' : 'outline-secondary'}
+              size="sm"
+              className="now-playing-transport-fullscreen-btn"
+              aria-label={isFullscreen ? 'Exit full screen' : 'Full screen'}
+              title={isFullscreen ? 'Exit full screen' : 'Full screen'}
+              aria-pressed={isFullscreen}
+              data-testid="now-playing-expand-button"
+              onClick={handleFullscreenToggle}
+            >
+              {tunebook.icons.fullscreen}
+            </Button>
           </div>
         </div>
 
-        <Button
-          variant="primary"
-          className="now-playing-transport-btn now-playing-transport-btn--next"
-          aria-label="Next in playlist"
-          title="Next in playlist"
-          data-testid="playlist-next-button"
-          onClick={function() { stepPlaylist(1) }}
-        >
-          <span className="now-playing-transport-btn-label">Next</span>
-          {tunebook.icons.next}
-        </Button>
+        {queueActive ? (
+          <Button
+            variant="primary"
+            className="now-playing-transport-btn now-playing-transport-btn--next"
+            aria-label="Next in playlist"
+            title="Next in playlist"
+            data-testid="playlist-next-button"
+            onClick={function() { stepPlaylist(1) }}
+          >
+            <span className="now-playing-transport-btn-label">Next</span>
+            {tunebook.icons.next}
+          </Button>
+        ) : (
+          <span className="now-playing-transport-btn-spacer" aria-hidden="true" />
+        )}
       </div>
 
-      <PlaylistModal
-        tunebook={tunebook}
-        nowPlayingQueue={nowPlayingQueue}
-        setNowPlayingQueue={setNowPlayingQueue}
-        tunes={tunes}
-        isPlaying={transportIsPlaying}
-        hideTrigger={true}
-        show={showPlaylist}
-        onShowChange={setShowPlaylist}
-      />
-    </>
+      {mediaController ? (
+        <div className="now-playing-transport-secondary">
+          <MediaSeekSlider mediaController={mediaController} className="transport compact" />
+        </div>
+      ) : null}
+    </div>
   )
 }

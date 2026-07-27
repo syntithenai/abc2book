@@ -207,11 +207,6 @@ export async function runBulkCheckFixAction(action, options) {
     return syncTuneFromStore(next, opts)
   }
 
-  if (action === 'allowPractice') {
-    next.suitableForPractice = true
-    return syncTuneFromStore(next, opts)
-  }
-
   if (action === 'scanLinkRegion') {
     const linkIndex = opts.linkIndex != null ? opts.linkIndex : 0
     const links = Array.isArray(next.links) ? next.links : []

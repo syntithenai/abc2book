@@ -5,13 +5,44 @@
   bottom: 0;
   z-index: 1200;
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  gap: 0.5rem;
+  flex-direction: column;
+  gap: 0.35rem;
   padding: 0.45rem 0.65rem calc(0.45rem + env(safe-area-inset-bottom, 0px));
   background: rgba(248, 249, 250, 0.97);
   border-top: 1px solid rgba(0, 0, 0, 0.12);
   box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.now-playing-transport-main {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.now-playing-transport-secondary {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.now-playing-transport-secondary .media-seek-slider {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.now-playing-transport-secondary .media-seek-slider.transport .media-seek-time {
+  display: none;
+}
+
+.now-playing-transport-btn-spacer {
+  min-width: 3rem;
+  flex: 0 0 auto;
 }
 
 .now-playing-transport-btn {
@@ -45,6 +76,8 @@
 .now-playing-transport-tune-link:visited {
   color: inherit;
   text-decoration: none;
+  flex: 1 1 auto;
+  min-width: 0;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -87,6 +120,43 @@
   flex: 0 0 auto;
 }
 
+.now-playing-transport-composer {
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.now-playing-transport-expand-btn svg,
+.now-playing-transport-fullscreen-btn svg,
+.now-playing-transport-fullscreen-btn img {
+  width: 1.15em;
+  height: 1.15em;
+}
+
+.now-playing-transport-fullscreen-btn {
+  flex: 0 0 auto;
+  min-width: 2.25rem;
+  position: relative;
+  z-index: 2;
+}
+
+.now-playing-transport-fullscreen-btn.active,
+.now-playing-transport-fullscreen-btn.btn-secondary {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.now-playing-transport-artwork-link {
+  flex: 0 0 auto;
+  line-height: 0;
+}
+
+.now-playing-transport-artwork {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .now-playing-transport-btn svg {
   width: 1.15em;
   height: 1.15em;
@@ -104,7 +174,7 @@
 }
 
 body.app-has-playlist-transport {
-  --app-playlist-transport-offset: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+  --app-playlist-transport-offset: calc(6.75rem + env(safe-area-inset-bottom, 0px));
 }
 
 body.app-has-playlist-transport .App-body {

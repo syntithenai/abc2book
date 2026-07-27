@@ -1,0 +1,245 @@
+{
+  "id": "legacy-foundations-intervals",
+  "title": "Intervals",
+  "track": "foundations",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "foundations",
+    "legacy"
+  ],
+  "path": "01-foundations/06-intervals.md",
+  "sections": [
+    {
+      "id": "intervals-measuring-distance-between-notes",
+      "title": "Intervals: Measuring Distance Between Notes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** foundations | **Difficulty:** 2/10 | **Time:** ~12 min\n**Prerequisites:** Major Scales\n**Tags:** intervals, ear-training, harmony"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "An interval is the distance between two pitches, named by counting letter names inclusively and qualifying the size (major, minor, perfect, augmented, diminished). Intervals are the vocabulary of melody, harmony, and transposition."
+        }
+      ]
+    },
+    {
+      "id": "naming-intervals",
+      "title": "Naming intervals",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Count letter names from lower to higher: C to G = fifth (C-D-E-F-G). C to E = third. Quality depends on semitone count: major third = 4 semitones; minor third = 3. Perfect fifth = 7 semitones. Augmented intervals are one semitone wider than major/perfect; diminished are one narrower."
+        }
+      ]
+    },
+    {
+      "id": "consonance-and-dissonance",
+      "title": "Consonance and dissonance",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Perfect intervals (unison, fourth, fifth, octave) sound open and stable. Major and minor thirds and sixths are consonant in tonal music. Seconds and sevenths create tension. The tritone (augmented fourth / diminished fifth) was called *diabolus in musica* in medieval theory — maximally tense."
+        }
+      ]
+    },
+    {
+      "id": "melodic-vs-harmonic",
+      "title": "Melodic vs harmonic",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Melodic intervals occur between consecutive notes in a melody. Harmonic intervals sound simultaneously as chords. The same interval name applies; context changes perception."
+        }
+      ]
+    },
+    {
+      "id": "in-practice",
+      "title": "In practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Recognising thirds and fifths by ear is the highest-leverage skill for session harmonisation. Fiddle players often narrow major thirds slightly (Pythagorean or just intonation) compared to equal temperament."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. C to E is what interval?\n\n- A) Major third\n- B) Minor third\n- C) Perfect fourth\n- D) Major second\n\n**Answer:** A — C-D-E counts a third; four semitones = major.\n\n### Q2. Perfect intervals include:\n\n- A) Unison, fourth, fifth, octave\n- B) Major and minor thirds only\n- C) All seconds and sevenths\n- D) Only the octave\n\n**Answer:** A\n\n### Q3. A tritone spans six semitones.\n\n**Answer:** True — Augmented fourth or diminished fifth; three whole steps.",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "C to E is what interval?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Major third",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": "C-D-E counts a third; four semitones = major."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Perfect intervals include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Unison, fourth, fifth, octave",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Unison, fourth, fifth, octave"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "A tritone spans six semitones.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Augmented fourth or diminished fifth; three whole steps."
+    }
+  ],
+  "quiz": {
+    "id": "legacy-foundations-intervals-quiz",
+    "title": "Intervals quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "C to E is what interval?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Major third",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": "C-D-E counts a third; four semitones = major."
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Perfect intervals include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Unison, fourth, fifth, octave",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Unison, fourth, fifth, octave"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "A tritone spans six semitones.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Augmented fourth or diminished fifth; three whole steps."
+      }
+    ]
+  }
+}

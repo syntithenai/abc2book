@@ -148,13 +148,19 @@ export default class PitchTempoShifter {
     return { tempo: this._tempo, pitch: this._pitch, fineTune: this._fineTune };
   }
 
-  connect() {
+  connect(startWhen) {
     if (!this._connected) {
+      if (!this.audioBuffer) {
+        return false
+      }
       const needsProcessing = Math.abs(combinedPitchSemitones(this._pitch, this._fineTune)) >= 0.0001
         || Math.abs(this._tempo - 1) >= 0.0001;
       this._mode = needsProcessing ? 'soundtouch' : 'direct';
       if (this._mode === 'direct') {
-        this._connectDirectSource();
+        this._connectDirectSource(startWhen);
+        if (!this._directSource) {
+          return false
+        }
       } else {
         this._applySoundTouchSettings();
         this.shifter.connect(this.gainNode);
@@ -163,6 +169,7 @@ export default class PitchTempoShifter {
       this._connected = true;
       this._startTimeUpdates();
     }
+    return this._connected;
   }
 
   isConnected() {
@@ -185,15 +192,13 @@ export default class PitchTempoShifter {
   seek(ratio) {
     const clamped = clamp(ratio, 0, 1);
     if (this._mode === 'direct') {
-      const wasConnected = this._connected;
-      if (wasConnected) {
+      if (this._connected) {
         this._disconnectDirectSource();
+        this._connected = false;
+        this._stopTimeUpdates();
       }
       this._directStartOffset = clamped * this.duration;
       this._directStartContextTime = this.audioContext.currentTime;
-      if (wasConnected) {
-        this._connectDirectSource();
-      }
       return;
     }
     if (this.shifter) {
@@ -239,21 +244,24 @@ export default class PitchTempoShifter {
       && Math.abs(this._tempo - 1) < 0.0001;
   }
 
-  _connectDirectSource() {
+  _connectDirectSource(startWhen) {
     if (!this.audioBuffer) return;
     const source = this.audioContext.createBufferSource();
     source.buffer = this.audioBuffer;
     source.playbackRate.value = this._tempo;
     source.connect(this.gainNode);
     this._directStopIntent = false;
-    this._directStartContextTime = this.audioContext.currentTime;
+    const when = Number.isFinite(startWhen) && startWhen > this.audioContext.currentTime + 0.001
+      ? startWhen
+      : this.audioContext.currentTime;
+    this._directStartContextTime = when;
     const offset = Math.min(Math.max(0, this._directStartOffset), Math.max(0, this.duration - 0.001));
     source.onended = () => {
       if (!this._directStopIntent && this._onEnded) {
         this._onEnded();
       }
     };
-    source.start(0, offset);
+    source.start(when, offset);
     this._directSource = source;
   }
 

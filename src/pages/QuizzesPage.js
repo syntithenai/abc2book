@@ -112,26 +112,25 @@ export default function QuizzesPage(props) {
     setProgressTick(function(n) { return n + 1 })
   }
 
-  if (loading) {
+  function renderStudyChrome(feedbackToolbar) {
     return (
-      <div className="quizzes-page study-page-with-chrome">
-        <StudyPageChrome active="quizzes" tunebook={props.tunebook} />
-        <p>Loading quizzes…</p>
-      </div>
-    )
-  }
-  if (error) {
-    return (
-      <div className="quizzes-page study-page-with-chrome">
-        <StudyPageChrome active="quizzes" tunebook={props.tunebook} />
-        <p className="text-danger">{error}</p>
-      </div>
+      <StudyPageChrome
+        active="quizzes"
+        tunebook={props.tunebook}
+        end={
+          feedbackToolbar ? (
+            <div className="study-page-chrome__extra" data-testid="quizzes-study-bar-feedback">
+              {feedbackToolbar}
+            </div>
+          ) : null
+        }
+      />
     )
   }
 
-  return (
-    <div className="quizzes-page study-page-with-chrome" data-testid="quizzes-page" key={'tick-' + progressTick}>
-      <StudyPageChrome active="quizzes" tunebook={props.tunebook} />
+  function renderPageContent(feedback) {
+    return (
+      <>
       <header className="quizzes-hero">
         <div className="quizzes-hero-top">
           <h1>Quizzes</h1>
@@ -223,24 +222,60 @@ export default function QuizzesPage(props) {
                   Open lesson →
                 </Link>
               </header>
-              <LessonFeedbackHost lesson={lesson} user={props.user}>
-                {function(feedback) {
-                  return (
-                    <LessonQuizPlayer
-                      lesson={lesson}
-                      autoStart
-                      onComplete={handleQuizComplete}
-                      onQuizFeedback={feedback.enabled ? feedback.openQuizFeedback : null}
-                    />
-                  )
-                }}
-              </LessonFeedbackHost>
+              <LessonQuizPlayer
+                lesson={lesson}
+                autoStart
+                onComplete={handleQuizComplete}
+                onQuizFeedback={feedback && feedback.enabled ? feedback.openQuizFeedback : null}
+              />
             </>
           ) : (
             <p className="text-muted">Select a quiz from the index.</p>
           )}
         </main>
       </div>
+      </>
+    )
+  }
+
+  if (loading) {
+    return (
+      <div className="quizzes-page study-page-with-chrome">
+        {renderStudyChrome(null)}
+        <p>Loading quizzes…</p>
+      </div>
+    )
+  }
+  if (error) {
+    return (
+      <div className="quizzes-page study-page-with-chrome">
+        {renderStudyChrome(null)}
+        <p className="text-danger">{error}</p>
+      </div>
+    )
+  }
+
+  if (lesson) {
+    return (
+      <div className="quizzes-page study-page-with-chrome" data-testid="quizzes-page" key={'tick-' + progressTick}>
+        <LessonFeedbackHost lesson={lesson} user={props.user} inlineToolbar>
+          {function(feedback) {
+            return (
+              <>
+                {renderStudyChrome(feedback.toolbar)}
+                {renderPageContent(feedback)}
+              </>
+            )
+          }}
+        </LessonFeedbackHost>
+      </div>
+    )
+  }
+
+  return (
+    <div className="quizzes-page study-page-with-chrome" data-testid="quizzes-page" key={'tick-' + progressTick}>
+      {renderStudyChrome(null)}
+      {renderPageContent(null)}
     </div>
   )
 }

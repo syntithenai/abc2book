@@ -69,144 +69,6 @@
           "text": "You do not need every extension in every style. Irish session backup is often triadic; jazz standards use sevenths extensively — revisit in style units."
         }
       ]
-    },
-    {
-      "id": "quiz-questions",
-      "title": "Quiz Questions",
-      "level": 2,
-      "blocks": []
-    },
-    {
-      "id": "q1-dominant-seventh-contains-a-minor-seventh-above-major-triad",
-      "title": "Q1. Dominant seventh contains a minor seventh above major triad.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q2-v7-resolves-strongly-to-i",
-      "title": "Q2. V7 resolves strongly to I.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q3-major-seventh-is-a-half-step-below-octave",
-      "title": "Q3. Major seventh is a half step below octave.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q4-extensions-are-thirds-stacked-above-the-seventh",
-      "title": "Q4. Extensions are thirds stacked above the seventh.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q5-triad-is-the-core-of-tertian-harmony",
-      "title": "Q5. Triad is the core of tertian harmony.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q6-jazz-colour-lesson-expands-triads-further",
-      "title": "Q6. Jazz colour lesson expands triads further.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q7-half-diminished-is-viiø7-in-minor-keys",
-      "title": "Q7. Half-diminished is viiø7 in minor keys.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q8-not-every-genre-uses-seventh-chords-equally",
-      "title": "Q8. Not every genre uses seventh chords equally.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q9-advanced-tier-prepares-secondary-dominants",
-      "title": "Q9. Advanced tier prepares secondary dominants.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q10-added-sixth-is-not-the-same-as-major-seventh",
-      "title": "Q10. Added sixth is not the same as major seventh.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q11-suspended-chords-replace-third-temporarily",
-      "title": "Q11. Suspended chords replace third temporarily.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q12-colour-chords-still-resolve-to-tonic-in-tonal-music",
-      "title": "Q12. Colour chords still resolve to tonic in tonal music.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
     }
   ],
   "entities": [],
@@ -215,5 +77,445 @@
   "tunes": [],
   "key_points": [],
   "reading_list": [],
-  "quiz_markdown": "### Q1. Dominant seventh contains a minor seventh above major triad.\n\n**Answer:** True\n\n### Q2. V7 resolves strongly to I.\n\n**Answer:** True\n\n### Q3. Major seventh is a half step below octave.\n\n**Answer:** True\n\n### Q4. Extensions are thirds stacked above the seventh.\n\n**Answer:** True\n\n### Q5. Triad is the core of tertian harmony.\n\n**Answer:** True\n\n### Q6. Jazz colour lesson expands triads further.\n\n**Answer:** True\n\n### Q7. Half-diminished is viiø7 in minor keys.\n\n**Answer:** True\n\n### Q8. Not every genre uses seventh chords equally.\n\n**Answer:** True\n\n### Q9. Advanced tier prepares secondary dominants.\n\n**Answer:** True\n\n### Q10. Added sixth is not the same as major seventh.\n\n**Answer:** True\n\n### Q11. Suspended chords replace third temporarily.\n\n**Answer:** True\n\n### Q12. Colour chords still resolve to tonic in tonal music.\n\n**Answer:** True"
+  "quiz_markdown": "### Q1. Dominant seventh contains a minor seventh above major triad.\n\n**Answer:** True\n\n### Q2. V7 resolves strongly to I.\n\n**Answer:** True\n\n### Q3. Major seventh is a half step below octave.\n\n**Answer:** True\n\n### Q4. Extensions are thirds stacked above the seventh.\n\n**Answer:** True\n\n### Q5. Triad is the core of tertian harmony.\n\n**Answer:** True\n\n### Q6. Jazz colour lesson expands triads further.\n\n**Answer:** True\n\n### Q7. Half-diminished is viiø7 in minor keys.\n\n**Answer:** True\n\n### Q8. Not every genre uses seventh chords equally.\n\n**Answer:** True\n\n### Q9. Advanced tier prepares secondary dominants.\n\n**Answer:** True\n\n### Q10. Added sixth is not the same as major seventh.\n\n**Answer:** True\n\n### Q11. Suspended chords replace third temporarily.\n\n**Answer:** True\n\n### Q12. Colour chords still resolve to tonic in tonal music.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "prompt": "Dominant seventh contains a minor seventh above major triad.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "V7 resolves strongly to I.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Major seventh is a half step below octave.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Extensions are thirds stacked above the seventh.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Triad is the core of tertian harmony.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Jazz colour lesson expands triads further.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Half-diminished is viiø7 in minor keys.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Not every genre uses seventh chords equally.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Advanced tier prepares secondary dominants.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Added sixth is not the same as major seventh.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Suspended chords replace third temporarily.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Colour chords still resolve to tonic in tonal music.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-triads-advanced-quiz",
+    "title": "Triads — Applied Harmony and Colour quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "truefalse",
+        "prompt": "Dominant seventh contains a minor seventh above major triad.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "V7 resolves strongly to I.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Major seventh is a half step below octave.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Extensions are thirds stacked above the seventh.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Triad is the core of tertian harmony.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Jazz colour lesson expands triads further.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Half-diminished is viiø7 in minor keys.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Not every genre uses seventh chords equally.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Advanced tier prepares secondary dominants.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Added sixth is not the same as major seventh.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Suspended chords replace third temporarily.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Colour chords still resolve to tonic in tonal music.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
 }

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Alert, Button, Spinner } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { resolverHasFeature } from '../resolverFeatures'
 import {
@@ -155,6 +156,10 @@ export default function MusicCollectionSettingsSection(props) {
       <h2>Music collection</h2>
       <p className="app-text-muted">
         Personal audio library hosted on your connected resolver. Tunebook searches this collection before YouTube when adding links.
+      </p>
+      <p>
+        <Link to="/collection-curator">Open collection curator</Link>
+        {' '}— triage tracks, review duplicates, and plan moves into <code>library/</code>.
       </p>
 
       {buildActive ? (

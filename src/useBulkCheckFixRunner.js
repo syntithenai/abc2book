@@ -78,7 +78,7 @@ export default function useBulkCheckFixRunner(props) {
     const actionId = actionIdFromAction(action)
     if (!tune || !props.tunebook) return null
 
-    if (actionId === 'editTuneLinks' || actionId === 'editTunePractice') {
+    if (actionId === 'editTuneLinks') {
       if (typeof props.onEditTune === 'function') props.onEditTune(tune.id)
       return null
     }
@@ -229,7 +229,7 @@ export default function useBulkCheckFixRunner(props) {
       return
     }
 
-    if (actionId === 'editTuneLinks' || actionId === 'editTunePractice') {
+    if (actionId === 'editTuneLinks') {
       if (typeof props.onEditTune === 'function') props.onEditTune(tune.id)
       return
     }

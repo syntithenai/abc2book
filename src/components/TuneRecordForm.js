@@ -34,7 +34,6 @@ import LyricsToolsModal from './LyricsToolsModal';
 import LyricsSectionsDropdown from './LyricsSectionsDropdown';
 import { FormLabelWithHelp } from './FormFieldHelp';
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText';
-import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings';
 import { formValuesToTune, importSuggestionDiffersFromForm } from '../importReviewFieldUtils';
 import { getPlainLyricLines } from '../wLinesUtils';
 import { mergeBibliographicList } from '../tuneBibliographicUtils';
@@ -58,11 +57,8 @@ const NOTE_LENGTH_OPTIONS = ['', '1', '1/2', '1/3', '1/4', '1/6', '1/8', '1/12',
 const ADVANCED_MERGE_FIELD_KEYS = [
   'rhythm',
   'noteLength',
-  'capo',
   'transpose',
   'tuning',
-  'suitableForPractice',
-  'suitableFor',
   'playbackAudioFilters',
   'soundFonts',
   'meta',
@@ -1047,82 +1043,19 @@ export default function TuneRecordForm(props) {
             </Form.Group>
 
             <Row>
-              <Col md={4}>
-                <Form.Group className="mb-3">
-                  <FieldLabelRow label="Capo" formKey="capo" suggestion={suggestions.capo} onApplySuggestion={props.onApplySuggestion}  values={values} />
-                  <Form.Control type="number" value={values.capo || ''} onChange={function(e) { setField('capo', e.target.value); }} />
-                </Form.Group>
-              </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <Form.Group className="mb-3">
                   <FieldLabelRow label="Transpose" formKey="transpose" suggestion={suggestions.transpose} onApplySuggestion={props.onApplySuggestion}  values={values} />
                   <Form.Control value={values.transpose || ''} onChange={function(e) { setField('transpose', e.target.value); }} />
                 </Form.Group>
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <Form.Group className="mb-3">
                   <FieldLabelRow label="Tuning" formKey="tuning" suggestion={suggestions.tuning} onApplySuggestion={props.onApplySuggestion}  values={values} />
                   <Form.Control value={values.tuning || ''} onChange={function(e) { setField('tuning', e.target.value); }} />
                 </Form.Group>
               </Col>
             </Row>
-
-            <div className="abc-editor-info-section abc-editor-info-section-practice mb-3">
-              <div className="abc-editor-info-section-heading">Practice</div>
-              <Row className="g-2 align-items-end">
-                <Col xs={12} lg={4}>
-                  <Form.Group className="mb-3" controlId="suitableForPractice">
-                    <FormLabelWithHelp
-                      label="Suitable for practice"
-                      helpBody={EDITOR_INFO_FIELD_HELP.suitableForPractice.body}
-                      helpTitle={EDITOR_INFO_FIELD_HELP.suitableForPractice.title}
-                    />
-                    <Form.Check
-                      type="checkbox"
-                      id="tune-record-suitable-for-practice"
-                      label="Include in practice sessions"
-                      checked={!!values.suitableForPractice}
-                      onChange={function(e) { setField('suitableForPractice', !!e.target.checked); }}
-                    />
-                  </Form.Group>
-                </Col>
-                <Col xs={12} lg={8}>
-                  <Form.Group className="mb-3" controlId="suitableFor">
-                    <FormLabelWithHelp
-                      label="Suitable for"
-                      helpBody={EDITOR_INFO_FIELD_HELP.suitableFor.body}
-                      helpTitle={EDITOR_INFO_FIELD_HELP.suitableFor.title}
-                    />
-                    <div className="abc-editor-suitable-for">
-                      {PRACTICE_INSTRUMENTS.map(function(item) {
-                        const selected = normalizeSuitableInstruments(values.suitableFor);
-                        const checked = selected.indexOf(item.id) !== -1;
-                        return (
-                          <Form.Check
-                            inline
-                            key={item.id}
-                            type="checkbox"
-                            id={'tune-record-suitable-for-' + item.id}
-                            label={item.label}
-                            checked={checked}
-                            onChange={function(e) {
-                              const next = selected.slice();
-                              if (e.target.checked) {
-                                if (next.indexOf(item.id) === -1) next.push(item.id);
-                              } else {
-                                const idx = next.indexOf(item.id);
-                                if (idx !== -1) next.splice(idx, 1);
-                              }
-                              setField('suitableFor', next);
-                            }}
-                          />
-                        );
-                      })}
-                    </div>
-                  </Form.Group>
-                </Col>
-              </Row>
-            </div>
 
             {['playbackAudioFilters', 'soundFonts', 'meta'].map(function(jsonKey) {
               if (!suggestions[jsonKey]) return null;

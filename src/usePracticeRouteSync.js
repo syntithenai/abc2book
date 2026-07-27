@@ -24,8 +24,7 @@ function buildAutoStartConfig(searchParams) {
     practiceReferenceGain: saved.practiceReferenceGain,
     vocalRangeLow: saved.vocalRangeLow,
     vocalRangeHigh: saved.vocalRangeHigh,
-    bookFilter: '',
-    tagFilter: [],
+    practiceListId: saved.lastPracticeListId || '',
   }
 
   if (!searchParams) return config
@@ -42,13 +41,8 @@ function buildAutoStartConfig(searchParams) {
   const warmups = searchParams.get('warmups')
   if (warmups != null) config.includeWarmups = warmups !== '0' && warmups !== 'false'
 
-  const book = searchParams.get('book')
-  if (book) config.bookFilter = book
-
-  const tags = searchParams.get('tags')
-  if (tags) {
-    config.tagFilter = tags.split(',').map(function(t) { return t.trim() }).filter(Boolean)
-  }
+  const list = searchParams.get('list')
+  if (list) config.practiceListId = list
 
   return config
 }

@@ -1,0 +1,178 @@
+{
+  "id": "legacy-composers-debussy",
+  "title": "Debussy",
+  "track": "history",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "history",
+    "legacy"
+  ],
+  "path": "06-history/05-debussy.md",
+  "sections": [
+    {
+      "id": "debussy-colour-modes-and-new-sonorities",
+      "title": "Debussy: Colour, Modes, and New Sonorities",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Claude Debussy (1862–1918) broke from Germanic functional harmony toward colour, parallel motion, and modal scales — founder of musical Impressionism."
+        }
+      ]
+    },
+    {
+      "id": "key-works",
+      "title": "Key works",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "*Prélude à l'après-midi d'un faune* (1894) treats chords as sonorities. *Clair de lune*, *La mer*, *Children's Corner*. Influenced film music and contemporary folk arranging."
+        }
+      ]
+    },
+    {
+      "id": "scales",
+      "title": "Scales",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Whole-tone and pentatonic collections overlap with Celtic and Asian traditions. Avoids heavy V–I cadences — parallels modal Irish melody."
+        }
+      ]
+    },
+    {
+      "id": "voicing",
+      "title": "Voicing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Wide spacing, soft doublings, planing parallel triads. Colour when tunes 'float' without demanding classical cadences."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Debussy's harmony favours:\n\n- A) Colour over strict functional progression\n- B) Bach fugues exclusively\n- C) Twelve-tone rows only\n- D) Brass band unison\n\n**Answer:** A\n\n### Q2. Whole-tone and pentatonic scales appear in Debussy and folk traditions.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Debussy's harmony favours:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Colour over strict functional progression",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Colour over strict functional progression"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Whole-tone and pentatonic scales appear in Debussy and folk traditions.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-composers-debussy-quiz",
+    "title": "Debussy quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Debussy's harmony favours:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Colour over strict functional progression",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Colour over strict functional progression"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Whole-tone and pentatonic scales appear in Debussy and folk traditions.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

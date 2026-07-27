@@ -41,14 +41,6 @@ export const EDITOR_INFO_FIELD_HELP = {
     title: 'Difficulty',
     body: 'Subjective difficulty from 0 to 20. Useful for sorting and filtering.',
   },
-  suitableFor: {
-    title: 'Suitable for',
-    body: 'Instruments this tune is appropriate for when choosing practice sessions. Leave blank to include the tune for any instrument.',
-  },
-  suitableForPractice: {
-    title: 'Suitable for practice',
-    body: 'When unchecked, this tune is excluded from practice sessions. Use Block tune in practice mode to turn this off for the current tune.',
-  },
   noteLength: {
     title: 'ABC Note Length',
     body: 'Default note length in ABC (the L: header). Affects how imported or exported notation is interpreted.',

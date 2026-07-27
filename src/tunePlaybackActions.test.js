@@ -25,6 +25,8 @@ function makeMockMediaController(tune, overrides) {
     playFromUserGesture: [],
     setMediaLinkNumber: [],
     setTune: [],
+    applyPlaybackRoute: [],
+    armPlaybackIntent: [],
     navigatePath: null,
   }
   const controller = Object.assign({
@@ -34,6 +36,10 @@ function makeMockMediaController(tune, overrides) {
     isMediaPlaybackRoute: function() { return false },
     setTune: function(t) { calls.setTune.push(t); controller.tune = t },
     setMediaLinkNumber: function(n) { calls.setMediaLinkNumber.push(n) },
+    applyPlaybackRoute: function(state, linkParam, t, tb) {
+      calls.applyPlaybackRoute.push({ state: state, linkParam: linkParam, tuneId: t && t.id })
+    },
+    armPlaybackIntent: function(opts) { calls.armPlaybackIntent.push(opts || {}) },
     requestPlayback: function(opts) {
       calls.requestPlayback.push(opts)
       return true
@@ -61,7 +67,7 @@ function makeMockTunebook() {
 }
 
 describe('tunePlaybackActions navigate-then-play', function() {
-  test('beginPlayback arms requestPlayback before navigate for midi', function() {
+  test('beginPlayback defers playback engine before navigate for midi', function() {
     const tune = makeTune(SAMPLE_TUNE_IDS.cooleys)
     const mediaController = makeMockMediaController(tune)
     const navigate = jest.fn()
@@ -72,18 +78,14 @@ describe('tunePlaybackActions navigate-then-play', function() {
 
     expect(mediaController._calls.setTune).toHaveLength(1)
     expect(mediaController._calls.setTune[0].id).toBe(tune.id)
-    expect(mediaController._calls.requestPlayback).toHaveLength(1)
-    expect(mediaController._calls.requestPlayback[0]).toEqual(expect.objectContaining({
-      tuneId: tune.id,
-      playState: 'playMidi',
-      fromUserGesture: true,
-      fresh: true,
-    }))
+    expect(mediaController._calls.applyPlaybackRoute).toHaveLength(1)
+    expect(mediaController._calls.armPlaybackIntent).toHaveLength(1)
     expect(navigate).toHaveBeenCalledWith('/tunes/' + tune.id + '/playMidi')
+    expect(mediaController._calls.requestPlayback).toHaveLength(0)
     expect(mediaController._calls.playFromUserGesture).toHaveLength(0)
   })
 
-  test('beginPlayback arms requestPlayback for media link before navigate', function() {
+  test('beginPlayback defers playback engine before navigate for media link', function() {
     const tune = makeTune(SAMPLE_TUNE_IDS.amazingGrace, {
       links: [{ link: 'https://example.com/a.mp3' }, { link: 'https://www.youtube.com/watch?v=abc' }],
     })
@@ -94,12 +96,32 @@ describe('tunePlaybackActions navigate-then-play', function() {
 
     startTunePlayback(mediaController, tunebook, navigate, location, { tunes: { [tune.id]: tune } })
 
-    expect(mediaController._calls.requestPlayback[0]).toEqual(expect.objectContaining({
+    expect(mediaController._calls.applyPlaybackRoute[0]).toEqual(expect.objectContaining({
+      state: 'playMedia',
+      linkParam: '0',
       tuneId: tune.id,
-      playState: 'playMedia',
-      linkNum: 0,
     }))
     expect(navigate).toHaveBeenCalledWith('/tunes/' + tune.id + '/playMedia/0')
+  })
+
+  test('uses playTuneId from context when page location has no tune id', function() {
+    const viewed = makeTune(SAMPLE_TUNE_IDS.cooleys)
+    const stale = makeTune(SAMPLE_TUNE_IDS.amazingGrace)
+    const mediaController = makeMockMediaController(stale)
+    const navigate = jest.fn()
+    const location = { pathname: '/books' }
+    const tunebook = makeMockTunebook()
+
+    startTunePlayback(mediaController, tunebook, navigate, location, {
+      playTuneId: viewed.id,
+      tunes: {
+        [viewed.id]: viewed,
+        [stale.id]: stale,
+      },
+    })
+
+    expect(mediaController._calls.setTune[0].id).toBe(viewed.id)
+    expect(navigate).toHaveBeenCalledWith('/tunes/' + viewed.id + '/playMidi')
   })
 
   test('uses viewed tune from location + tunes map instead of stale controller tune', function() {
@@ -117,7 +139,7 @@ describe('tunePlaybackActions navigate-then-play', function() {
       },
     })
 
-    expect(mediaController._calls.requestPlayback[0].tuneId).toBe(viewed.id)
+    expect(mediaController._calls.setTune[0].id).toBe(viewed.id)
     expect(navigate).toHaveBeenCalledWith('/tunes/' + viewed.id + '/playMidi')
   })
 
@@ -255,7 +277,7 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
 
     expect(setQueuePlayConfirm).not.toHaveBeenCalled()
     expect(setNowPlayingQueue).toHaveBeenCalledWith(null)
-    expect(mediaController._calls.requestPlayback[0].tuneId).toBe(viewed.id)
+    expect(mediaController._calls.applyPlaybackRoute[0].tuneId).toBe(viewed.id)
     expect(navigate).toHaveBeenCalledWith('/tunes/' + viewed.id + '/playMidi')
   })
 
@@ -422,11 +444,10 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
     const tunebook = makeMockTunebook()
 
     expect(playTuneNow(mediaController, tunebook, navigate, tune)).toBe(true)
-    expect(mediaController._calls.requestPlayback[0]).toEqual(expect.objectContaining({
+    expect(mediaController._calls.applyPlaybackRoute[0]).toEqual(expect.objectContaining({
+      state: 'playMedia',
+      linkParam: '0',
       tuneId: tune.id,
-      playState: 'playMedia',
-      linkNum: 0,
-      fresh: true,
     }))
     expect(navigate).toHaveBeenCalledWith('/tunes/' + tune.id + '/playMedia/0')
   })
@@ -437,7 +458,7 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
     const navigate = jest.fn()
 
     expect(playTuneNow(mediaController, makeMockTunebook(), navigate, tune)).toBe(true)
-    expect(mediaController._calls.requestPlayback[0].playState).toBe('playMidi')
+    expect(mediaController._calls.applyPlaybackRoute[0].state).toBe('playMidi')
     expect(navigate).toHaveBeenCalledWith('/tunes/' + tune.id + '/playMidi')
   })
 })

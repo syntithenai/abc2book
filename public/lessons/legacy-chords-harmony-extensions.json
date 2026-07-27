@@ -1,0 +1,178 @@
+{
+  "id": "legacy-chords-harmony-extensions",
+  "title": "Chord Extensions",
+  "track": "chords",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "chords",
+    "legacy"
+  ],
+  "path": "03-chords/06-extensions.md",
+  "sections": [
+    {
+      "id": "chord-extensions-9ths-11ths-and-13ths",
+      "title": "Chord Extensions: 9ths, 11ths, and 13ths",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** chords | **Difficulty:** 6/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Extensions continue stacking thirds above the seventh, adding colour tones."
+        }
+      ]
+    },
+    {
+      "id": "naming",
+      "title": "Naming",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "9th = octave + 2nd. 11th = octave + 4th. 13th = octave + 6th. Cmaj9 = Cmaj7 + D. G13 might be voiced G-F-E-B, omitting some tones for playability."
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Add extensions one at a time. Maj7 before maj9. Plain 7 before 9. Listen whether the added tone supports or fights the melody."
+        }
+      ]
+    },
+    {
+      "id": "voicing",
+      "title": "Voicing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Players drop the 5th or even root, keeping 3rd, 7th, and chosen extensions within hand span."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. maj9 includes which interval above root (besides maj7)?\n\n- A) Major 9th\n- B) Minor 9th only\n- C) Perfect 11th without 7th\n- D) Augmented 4th only\n\n**Answer:** A\n\n### Q2. Real-world voicings often omit some chord tones.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "maj9 includes which interval above root (besides maj7)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Major 9th",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Major 9th"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Real-world voicings often omit some chord tones.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-chords-harmony-extensions-quiz",
+    "title": "Chord Extensions quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "maj9 includes which interval above root (besides maj7)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Major 9th",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Major 9th"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Real-world voicings often omit some chord tones.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

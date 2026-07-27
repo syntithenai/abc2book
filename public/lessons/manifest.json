@@ -2,8 +2,484 @@
   "version": 1,
   "tracks": [
     {
+      "id": "chords",
+      "label": "Chords",
+      "units": [
+        {
+          "id": "legacy-chords-harmony",
+          "label": "Chords & harmony",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-chords-harmony-cadences",
+              "title": "Cadences",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-cadences.json"
+            },
+            {
+              "id": "legacy-chords-harmony-counterpoint",
+              "title": "Counterpoint",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-counterpoint.json"
+            },
+            {
+              "id": "legacy-chords-harmony-diatonic-major",
+              "title": "Diatonic Triads in Major Keys",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-diatonic-major.json"
+            },
+            {
+              "id": "legacy-chords-harmony-diatonic-minor",
+              "title": "Diatonic Harmony in Minor Keys",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-diatonic-minor.json"
+            },
+            {
+              "id": "legacy-chords-harmony-extensions",
+              "title": "Chord Extensions",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-extensions.json"
+            },
+            {
+              "id": "legacy-chords-harmony-inversions",
+              "title": "Triad Inversions",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-inversions.json"
+            },
+            {
+              "id": "legacy-chords-harmony-jazz-colour",
+              "title": "Altered Dominants and Jazz Colour",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-jazz-colour.json"
+            },
+            {
+              "id": "legacy-chords-harmony-modulation",
+              "title": "Modulation",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-modulation.json"
+            },
+            {
+              "id": "legacy-chords-harmony-phrase-structure",
+              "title": "Phrase Structure",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-phrase-structure.json"
+            },
+            {
+              "id": "legacy-chords-harmony-secondary-dominants",
+              "title": "Secondary Dominants",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-secondary-dominants.json"
+            },
+            {
+              "id": "legacy-chords-harmony-seventh-chords",
+              "title": "Seventh Chords",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-seventh-chords.json"
+            },
+            {
+              "id": "legacy-chords-harmony-tendency-tones",
+              "title": "Tendency Tones and Resolution",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-tendency-tones.json"
+            },
+            {
+              "id": "legacy-chords-harmony-triads",
+              "title": "Triads",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-triads.json"
+            },
+            {
+              "id": "legacy-chords-harmony-voice-leading",
+              "title": "Voice Leading Basics",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-chords-harmony-voice-leading.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    },
+    {
+      "id": "foundations",
+      "label": "Foundations",
+      "units": [
+        {
+          "id": "legacy-foundations",
+          "label": "Foundations",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-foundations-accidentals",
+              "title": "Sharps, Flats, and Accidentals",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-foundations-accidentals.json"
+            },
+            {
+              "id": "legacy-foundations-circle-of-fifths",
+              "title": "The Circle of Fifths and Key Signatures",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-foundations-circle-of-fifths.json"
+            },
+            {
+              "id": "legacy-foundations-intervals",
+              "title": "Intervals",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-foundations-intervals.json"
+            },
+            {
+              "id": "legacy-foundations-major-scales",
+              "title": "Major Scales and the Leading Tone",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-foundations-major-scales.json"
+            },
+            {
+              "id": "legacy-foundations-minor-scales",
+              "title": "Natural, Harmonic, and Melodic Minor",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-foundations-minor-scales.json"
+            },
+            {
+              "id": "legacy-foundations-modes",
+              "title": "Modes",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-foundations-modes.json"
+            },
+            {
+              "id": "legacy-foundations-physics-of-sound",
+              "title": "Physics of Sound and Tuning",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-foundations-physics-of-sound.json"
+            },
+            {
+              "id": "legacy-foundations-rhythm-meter",
+              "title": "Note Durations and Time Signatures",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-foundations-rhythm-meter.json"
+            },
+            {
+              "id": "legacy-foundations-staff-clefs-pitch",
+              "title": "The Staff, Clefs, and Pitch Names",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-foundations-staff-clefs-pitch.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    },
+    {
+      "id": "history",
+      "label": "History",
+      "units": [
+        {
+          "id": "legacy-music-periods",
+          "label": "Music periods",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-music-periods-baroque-era",
+              "title": "Baroque Era Overview",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-music-periods-baroque-era.json"
+            },
+            {
+              "id": "legacy-music-periods-classical-era",
+              "title": "Classical Era Overview",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-music-periods-classical-era.json"
+            },
+            {
+              "id": "legacy-music-periods-medieval",
+              "title": "Medieval Music (500–1400)",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-music-periods-medieval.json"
+            },
+            {
+              "id": "legacy-music-periods-renaissance",
+              "title": "Renaissance Music (1400–1600)",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-music-periods-renaissance.json"
+            },
+            {
+              "id": "legacy-music-periods-romantic-era",
+              "title": "Romantic Era Overview",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-music-periods-romantic-era.json"
+            },
+            {
+              "id": "legacy-music-periods-twentieth-century",
+              "title": "20th Century and Beyond",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-music-periods-twentieth-century.json"
+            }
+          ]
+        },
+        {
+          "id": "legacy-composers",
+          "label": "Composer profiles",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-composers-armstrong",
+              "title": "Louis Armstrong",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-armstrong.json"
+            },
+            {
+              "id": "legacy-composers-bach",
+              "title": "J.S. Bach",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-bach.json"
+            },
+            {
+              "id": "legacy-composers-beethoven",
+              "title": "Beethoven",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-beethoven.json"
+            },
+            {
+              "id": "legacy-composers-chopin",
+              "title": "Chopin",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-chopin.json"
+            },
+            {
+              "id": "legacy-composers-debussy",
+              "title": "Debussy",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-debussy.json"
+            },
+            {
+              "id": "legacy-composers-ellington",
+              "title": "Duke Ellington",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-ellington.json"
+            },
+            {
+              "id": "legacy-composers-mozart",
+              "title": "Mozart",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-mozart.json"
+            },
+            {
+              "id": "legacy-composers-parker",
+              "title": "Charlie Parker",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-parker.json"
+            },
+            {
+              "id": "legacy-composers-trad-collectors",
+              "title": "Folk Collectors and Revivals",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-trad-collectors.json"
+            },
+            {
+              "id": "legacy-composers-women-in-music",
+              "title": "Women in Music History",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-composers-women-in-music.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    },
+    {
+      "id": "instruments",
+      "label": "Instruments",
+      "units": [
+        {
+          "id": "legacy-instruments",
+          "label": "Instruments",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-instruments-accordion",
+              "title": "Accordion and Concertina",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-accordion.json"
+            },
+            {
+              "id": "legacy-instruments-brass",
+              "title": "Brass: Trumpet and Trombone",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-brass.json"
+            },
+            {
+              "id": "legacy-instruments-cello-bass",
+              "title": "Cello and Double Bass",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-cello-bass.json"
+            },
+            {
+              "id": "legacy-instruments-flute-whistle",
+              "title": "Flute and Tin Whistle",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-flute-whistle.json"
+            },
+            {
+              "id": "legacy-instruments-guitar",
+              "title": "Guitar",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-guitar.json"
+            },
+            {
+              "id": "legacy-instruments-harp",
+              "title": "Harp",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-harp.json"
+            },
+            {
+              "id": "legacy-instruments-mandolin-banjo",
+              "title": "Mandolin and Banjo",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-mandolin-banjo.json"
+            },
+            {
+              "id": "legacy-instruments-organ",
+              "title": "Organ",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-organ.json"
+            },
+            {
+              "id": "legacy-instruments-percussion",
+              "title": "Bodhrán and Percussion",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-percussion.json"
+            },
+            {
+              "id": "legacy-instruments-piano",
+              "title": "Piano",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-piano.json"
+            },
+            {
+              "id": "legacy-instruments-reed-winds",
+              "title": "Clarinet and Saxophone",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-reed-winds.json"
+            },
+            {
+              "id": "legacy-instruments-uilleann-pipes",
+              "title": "Uilleann Pipes",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-uilleann-pipes.json"
+            },
+            {
+              "id": "legacy-instruments-violin-fiddle",
+              "title": "Violin and Fiddle",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-violin-fiddle.json"
+            },
+            {
+              "id": "legacy-instruments-voice",
+              "title": "Voice as Instrument",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-instruments-voice.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    },
+    {
+      "id": "italian",
+      "label": "Italian",
+      "units": [
+        {
+          "id": "legacy-italian-terms",
+          "label": "Italian terms",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-italian-terms-articulation",
+              "title": "Articulation Marks",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-italian-terms-articulation.json"
+            },
+            {
+              "id": "legacy-italian-terms-dynamics",
+              "title": "Dynamic Markings",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-italian-terms-dynamics.json"
+            },
+            {
+              "id": "legacy-italian-terms-form-labels",
+              "title": "Form Labels: D.C., D.S., Coda",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-italian-terms-form-labels.json"
+            },
+            {
+              "id": "legacy-italian-terms-tempo",
+              "title": "Italian Tempo Markings",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-italian-terms-tempo.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    },
+    {
       "id": "regions",
-      "label": "Regional traditions",
+      "label": "Celtic Music",
       "units": [
         {
           "id": "celtic-ireland",
@@ -81,6 +557,710 @@
                 "regions-celtic-ireland-04-genres-forms"
               ],
               "path": "regions-celtic-ireland-08-tunes.json"
+            }
+          ]
+        },
+        {
+          "id": "celtic-scotland",
+          "label": "Celtic — Scotland",
+          "region": "scotland",
+          "lessons": [
+            {
+              "id": "regions-celtic-scotland-01-overview",
+              "title": "Scottish Traditional Music — Overview",
+              "tier": 1,
+              "prerequisites": [
+                "regions-celtic-ireland-01-overview"
+              ],
+              "path": "regions-celtic-scotland-01-overview.json"
+            },
+            {
+              "id": "regions-celtic-scotland-02-instruments-voices-i",
+              "title": "Scottish Traditional Instruments — Traditional Voices I",
+              "tier": 2,
+              "prerequisites": [
+                "regions-celtic-scotland-01-overview"
+              ],
+              "path": "regions-celtic-scotland-02-instruments-voices-i.json"
+            },
+            {
+              "id": "regions-celtic-scotland-03-instruments-voices-ii",
+              "title": "Scottish Traditional Instruments — Session Voices II",
+              "tier": 3,
+              "prerequisites": [
+                "regions-celtic-scotland-02-instruments-voices-i"
+              ],
+              "path": "regions-celtic-scotland-03-instruments-voices-ii.json"
+            },
+            {
+              "id": "regions-celtic-scotland-04-genres-forms",
+              "title": "Scottish Traditional Music — Tunes, Forms, and Style",
+              "tier": 4,
+              "prerequisites": [
+                "regions-celtic-scotland-03-instruments-voices-ii"
+              ],
+              "path": "regions-celtic-scotland-04-genres-forms.json"
+            },
+            {
+              "id": "regions-celtic-scotland-05-dance",
+              "title": "Scottish Traditional Music — Dance and Rhythm",
+              "tier": 5,
+              "prerequisites": [
+                "regions-celtic-scotland-04-genres-forms"
+              ],
+              "path": "regions-celtic-scotland-05-dance.json"
+            },
+            {
+              "id": "regions-celtic-scotland-06-history",
+              "title": "Scottish Traditional Music — History, Revival, and Transmission",
+              "tier": 6,
+              "prerequisites": [
+                "regions-celtic-scotland-05-dance"
+              ],
+              "path": "regions-celtic-scotland-06-history.json"
+            },
+            {
+              "id": "regions-celtic-scotland-07-representative-depth",
+              "title": "Scottish Traditional Music — Representative Fusions and Scenes",
+              "tier": 7,
+              "prerequisites": [
+                "regions-celtic-scotland-06-history"
+              ],
+              "path": "regions-celtic-scotland-07-representative-depth.json"
+            },
+            {
+              "id": "regions-celtic-scotland-08-tunes",
+              "title": "Scottish Traditional Music — Tunes — Forms, History, and Recordings",
+              "tier": 4.5,
+              "prerequisites": [
+                "regions-celtic-scotland-07-representative-depth"
+              ],
+              "path": "regions-celtic-scotland-08-tunes.json"
+            }
+          ]
+        },
+        {
+          "id": "celtic-wales",
+          "label": "Celtic — Wales",
+          "region": "wales",
+          "lessons": [
+            {
+              "id": "regions-celtic-wales-01-overview",
+              "title": "Welsh Traditional Music — Overview",
+              "tier": 1,
+              "prerequisites": [
+                "regions-celtic-ireland-01-overview"
+              ],
+              "path": "regions-celtic-wales-01-overview.json"
+            },
+            {
+              "id": "regions-celtic-wales-02-instruments-voices-i",
+              "title": "Welsh Traditional Instruments — Traditional Voices I",
+              "tier": 2,
+              "prerequisites": [
+                "regions-celtic-wales-01-overview"
+              ],
+              "path": "regions-celtic-wales-02-instruments-voices-i.json"
+            },
+            {
+              "id": "regions-celtic-wales-03-instruments-voices-ii",
+              "title": "Welsh Traditional Instruments — Session Voices II",
+              "tier": 3,
+              "prerequisites": [
+                "regions-celtic-wales-02-instruments-voices-i"
+              ],
+              "path": "regions-celtic-wales-03-instruments-voices-ii.json"
+            },
+            {
+              "id": "regions-celtic-wales-04-genres-forms",
+              "title": "Welsh Traditional Music — Tunes, Forms, and Style",
+              "tier": 4,
+              "prerequisites": [
+                "regions-celtic-wales-03-instruments-voices-ii"
+              ],
+              "path": "regions-celtic-wales-04-genres-forms.json"
+            },
+            {
+              "id": "regions-celtic-wales-05-dance",
+              "title": "Welsh Traditional Music — Dance and Rhythm",
+              "tier": 5,
+              "prerequisites": [
+                "regions-celtic-wales-04-genres-forms"
+              ],
+              "path": "regions-celtic-wales-05-dance.json"
+            },
+            {
+              "id": "regions-celtic-wales-06-history",
+              "title": "Welsh Traditional Music — History, Revival, and Transmission",
+              "tier": 6,
+              "prerequisites": [
+                "regions-celtic-wales-05-dance"
+              ],
+              "path": "regions-celtic-wales-06-history.json"
+            },
+            {
+              "id": "regions-celtic-wales-07-representative-depth",
+              "title": "Welsh Traditional Music — Representative Fusions and Scenes",
+              "tier": 7,
+              "prerequisites": [
+                "regions-celtic-wales-06-history"
+              ],
+              "path": "regions-celtic-wales-07-representative-depth.json"
+            },
+            {
+              "id": "regions-celtic-wales-08-tunes",
+              "title": "Welsh Traditional Music — Tunes — Forms, History, and Recordings",
+              "tier": 4.5,
+              "prerequisites": [
+                "regions-celtic-wales-07-representative-depth"
+              ],
+              "path": "regions-celtic-wales-08-tunes.json"
+            }
+          ]
+        },
+        {
+          "id": "celtic-brittany",
+          "label": "Celtic — Brittany",
+          "region": "brittany",
+          "lessons": [
+            {
+              "id": "regions-celtic-brittany-01-overview",
+              "title": "Breton Traditional Music — Overview",
+              "tier": 1,
+              "prerequisites": [
+                "regions-celtic-ireland-01-overview"
+              ],
+              "path": "regions-celtic-brittany-01-overview.json"
+            },
+            {
+              "id": "regions-celtic-brittany-02-instruments-voices-i",
+              "title": "Breton Traditional Instruments — Traditional Voices I",
+              "tier": 2,
+              "prerequisites": [
+                "regions-celtic-brittany-01-overview"
+              ],
+              "path": "regions-celtic-brittany-02-instruments-voices-i.json"
+            },
+            {
+              "id": "regions-celtic-brittany-03-instruments-voices-ii",
+              "title": "Breton Traditional Instruments — Session Voices II",
+              "tier": 3,
+              "prerequisites": [
+                "regions-celtic-brittany-02-instruments-voices-i"
+              ],
+              "path": "regions-celtic-brittany-03-instruments-voices-ii.json"
+            },
+            {
+              "id": "regions-celtic-brittany-04-genres-forms",
+              "title": "Breton Traditional Music — Tunes, Forms, and Style",
+              "tier": 4,
+              "prerequisites": [
+                "regions-celtic-brittany-03-instruments-voices-ii"
+              ],
+              "path": "regions-celtic-brittany-04-genres-forms.json"
+            },
+            {
+              "id": "regions-celtic-brittany-05-dance",
+              "title": "Breton Traditional Music — Dance and Rhythm",
+              "tier": 5,
+              "prerequisites": [
+                "regions-celtic-brittany-04-genres-forms"
+              ],
+              "path": "regions-celtic-brittany-05-dance.json"
+            },
+            {
+              "id": "regions-celtic-brittany-06-history",
+              "title": "Breton Traditional Music — History, Revival, and Transmission",
+              "tier": 6,
+              "prerequisites": [
+                "regions-celtic-brittany-05-dance"
+              ],
+              "path": "regions-celtic-brittany-06-history.json"
+            },
+            {
+              "id": "regions-celtic-brittany-07-representative-depth",
+              "title": "Breton Traditional Music — Representative Fusions and Scenes",
+              "tier": 7,
+              "prerequisites": [
+                "regions-celtic-brittany-06-history"
+              ],
+              "path": "regions-celtic-brittany-07-representative-depth.json"
+            },
+            {
+              "id": "regions-celtic-brittany-08-tunes",
+              "title": "Breton Traditional Music — Tunes — Forms, History, and Recordings",
+              "tier": 4.5,
+              "prerequisites": [
+                "regions-celtic-brittany-07-representative-depth"
+              ],
+              "path": "regions-celtic-brittany-08-tunes.json"
+            }
+          ]
+        },
+        {
+          "id": "celtic-diaspora",
+          "label": "Celtic — Diaspora & fringe",
+          "region": "celtic-diaspora",
+          "lessons": [
+            {
+              "id": "regions-celtic-diaspora-01-cape-breton",
+              "title": "Cape Breton Fiddle and Dance",
+              "tier": 3,
+              "prerequisites": [
+                "regions-celtic-brittany-08-tunes"
+              ],
+              "path": "regions-celtic-diaspora-01-cape-breton.json"
+            },
+            {
+              "id": "regions-celtic-diaspora-02-galicia-asturias",
+              "title": "Galicia & Asturias",
+              "tier": 3,
+              "prerequisites": [
+                "regions-celtic-diaspora-01-cape-breton"
+              ],
+              "path": "regions-celtic-diaspora-02-galicia-asturias.json"
+            },
+            {
+              "id": "regions-celtic-diaspora-03-cornwall-man",
+              "title": "Cornwall & Isle of Man",
+              "tier": 3,
+              "prerequisites": [
+                "regions-celtic-diaspora-02-galicia-asturias"
+              ],
+              "path": "regions-celtic-diaspora-03-cornwall-man.json"
+            },
+            {
+              "id": "regions-celtic-diaspora-04-pan-celtic-festivals",
+              "title": "Pan-Celtic Festivals and Institutions",
+              "tier": 4,
+              "prerequisites": [
+                "regions-celtic-diaspora-03-cornwall-man"
+              ],
+              "path": "regions-celtic-diaspora-04-pan-celtic-festivals.json"
+            },
+            {
+              "id": "regions-celtic-diaspora-05-listening-across-borders",
+              "title": "Listening Across Borders",
+              "tier": 4,
+              "prerequisites": [
+                "regions-celtic-diaspora-04-pan-celtic-festivals"
+              ],
+              "path": "regions-celtic-diaspora-05-listening-across-borders.json"
+            }
+          ]
+        },
+        {
+          "id": "celtic-comparative",
+          "label": "Celtic — Comparative",
+          "region": "celtic-comparative",
+          "lessons": [
+            {
+              "id": "regions-celtic-comparative-01-what-celtic-means",
+              "title": "What \"Celtic Music\" Means",
+              "tier": 3,
+              "prerequisites": [
+                "regions-celtic-ireland-01-overview"
+              ],
+              "path": "regions-celtic-comparative-01-what-celtic-means.json"
+            },
+            {
+              "id": "regions-celtic-comparative-02-shared-instruments",
+              "title": "Shared Instruments Compared",
+              "tier": 4,
+              "prerequisites": [
+                "regions-celtic-comparative-01-what-celtic-means"
+              ],
+              "path": "regions-celtic-comparative-02-shared-instruments.json"
+            },
+            {
+              "id": "regions-celtic-comparative-03-tune-forms-compared",
+              "title": "Tune Forms Compared",
+              "tier": 4,
+              "prerequisites": [
+                "regions-celtic-comparative-02-shared-instruments"
+              ],
+              "path": "regions-celtic-comparative-03-tune-forms-compared.json"
+            },
+            {
+              "id": "regions-celtic-comparative-04-revivals-compared",
+              "title": "Revivals Compared",
+              "tier": 5,
+              "prerequisites": [
+                "regions-celtic-comparative-03-tune-forms-compared"
+              ],
+              "path": "regions-celtic-comparative-04-revivals-compared.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    },
+    {
+      "id": "singing",
+      "label": "Singing",
+      "units": [
+        {
+          "id": "legacy-singing",
+          "label": "Singing technique",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-singing-breath",
+              "title": "Breath Support",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-singing-breath.json"
+            },
+            {
+              "id": "legacy-singing-diction",
+              "title": "Diction and Lyrics",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-singing-diction.json"
+            },
+            {
+              "id": "legacy-singing-expression",
+              "title": "Expression and Storytelling",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-singing-expression.json"
+            },
+            {
+              "id": "legacy-singing-pitch",
+              "title": "Pitch and Intonation",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-singing-pitch.json"
+            },
+            {
+              "id": "legacy-singing-tone",
+              "title": "Tone Production",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-singing-tone.json"
+            },
+            {
+              "id": "legacy-singing-vocal-health",
+              "title": "Vocal Health",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-singing-vocal-health.json"
+            },
+            {
+              "id": "legacy-singing-warmups",
+              "title": "Warm-Up Routines",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-singing-warmups.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    },
+    {
+      "id": "styles",
+      "label": "Styles",
+      "units": [
+        {
+          "id": "legacy-styles",
+          "label": "Styles & genres",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-styles-baroque-style",
+              "title": "Baroque Style",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-styles-baroque-style.json"
+            },
+            {
+              "id": "legacy-styles-blues",
+              "title": "Blues",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-styles-blues.json"
+            },
+            {
+              "id": "legacy-styles-classical-style",
+              "title": "Classical Style",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-styles-classical-style.json"
+            },
+            {
+              "id": "legacy-styles-folk-dances",
+              "title": "Reels, Jigs, Waltzes, Hornpipes",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-styles-folk-dances.json"
+            },
+            {
+              "id": "legacy-styles-jazz",
+              "title": "Jazz Basics",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-styles-jazz.json"
+            },
+            {
+              "id": "legacy-styles-modern-fusion",
+              "title": "Modern Folk Fusion",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-styles-modern-fusion.json"
+            },
+            {
+              "id": "legacy-styles-modes-folk",
+              "title": "Modes in Folk Practice",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-styles-modes-folk.json"
+            },
+            {
+              "id": "legacy-styles-pop",
+              "title": "Pop Song Craft",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-styles-pop.json"
+            },
+            {
+              "id": "legacy-styles-romantic-style",
+              "title": "Romantic Style",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-styles-romantic-style.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    },
+    {
+      "id": "theory",
+      "label": "Theory spine",
+      "units": [
+        {
+          "id": "theory-foundations",
+          "label": "Foundations",
+          "region": "",
+          "lessons": [
+            {
+              "id": "theory-intervals-advanced",
+              "title": "Intervals — Advanced",
+              "tier": "advanced",
+              "prerequisites": [
+                "theory-intervals-applied"
+              ],
+              "path": "theory-intervals-advanced.json"
+            },
+            {
+              "id": "theory-intervals-applied",
+              "title": "Intervals — Applied",
+              "tier": "applied",
+              "prerequisites": [
+                "theory-intervals-intro"
+              ],
+              "path": "theory-intervals-applied.json"
+            },
+            {
+              "id": "theory-intervals-intro",
+              "title": "Intervals — Introduction",
+              "tier": "intro",
+              "prerequisites": [
+                "theory-scales-major-intro"
+              ],
+              "path": "theory-intervals-intro.json"
+            },
+            {
+              "id": "theory-scales-major-advanced",
+              "title": "Major Scales — Advanced",
+              "tier": "advanced",
+              "prerequisites": [
+                "theory-scales-major-applied"
+              ],
+              "path": "theory-scales-major-advanced.json"
+            },
+            {
+              "id": "theory-scales-major-applied",
+              "title": "Major Scales — Applied",
+              "tier": "applied",
+              "prerequisites": [
+                "theory-scales-major-intro"
+              ],
+              "path": "theory-scales-major-applied.json"
+            },
+            {
+              "id": "theory-scales-major-intro",
+              "title": "Major Scales — Introduction",
+              "tier": "intro",
+              "prerequisites": [],
+              "path": "theory-scales-major-intro.json"
+            }
+          ]
+        },
+        {
+          "id": "theory-harmony",
+          "label": "Harmony",
+          "region": "",
+          "lessons": [
+            {
+              "id": "theory-cadences-advanced",
+              "title": "Cadences — Advanced and Historical",
+              "tier": "advanced",
+              "prerequisites": [
+                "theory-cadences-applied"
+              ],
+              "path": "theory-cadences-advanced.json"
+            },
+            {
+              "id": "theory-cadences-applied",
+              "title": "Cadences — Applied",
+              "tier": "applied",
+              "prerequisites": [
+                "theory-cadences-intro"
+              ],
+              "path": "theory-cadences-applied.json"
+            },
+            {
+              "id": "theory-cadences-intro",
+              "title": "Cadences — Introduction",
+              "tier": "intro",
+              "prerequisites": [
+                "theory-triads-intro"
+              ],
+              "path": "theory-cadences-intro.json"
+            },
+            {
+              "id": "theory-triads-advanced",
+              "title": "Triads — Applied Harmony and Colour",
+              "tier": "advanced",
+              "prerequisites": [
+                "theory-triads-applied"
+              ],
+              "path": "theory-triads-advanced.json"
+            },
+            {
+              "id": "theory-triads-applied",
+              "title": "Triads — Applied",
+              "tier": "applied",
+              "prerequisites": [
+                "theory-triads-intro"
+              ],
+              "path": "theory-triads-applied.json"
+            },
+            {
+              "id": "theory-triads-intro",
+              "title": "Triads — Introduction",
+              "tier": "intro",
+              "prerequisites": [
+                "theory-scales-major-intro"
+              ],
+              "path": "theory-triads-intro.json"
+            }
+          ]
+        },
+        {
+          "id": "legacy-form-analysis",
+          "label": "Form & analysis",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-form-analysis-figured-bass",
+              "title": "Figured Bass and Continuo",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-form-analysis-figured-bass.json"
+            },
+            {
+              "id": "legacy-form-analysis-musical-form",
+              "title": "Binary, Ternary, and Rondo Form",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-form-analysis-musical-form.json"
+            },
+            {
+              "id": "legacy-form-analysis-texture",
+              "title": "Texture: Monophony to Polyphony",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-form-analysis-texture.json"
+            }
+          ]
+        },
+        {
+          "id": "legacy-ear-training",
+          "label": "Ear training",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-ear-training-chord-recognition",
+              "title": "Chord Quality by Ear",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-ear-training-chord-recognition.json"
+            },
+            {
+              "id": "legacy-ear-training-interval-recognition",
+              "title": "Interval Recognition",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-ear-training-interval-recognition.json"
+            },
+            {
+              "id": "legacy-ear-training-rhythm-dictation",
+              "title": "Rhythm Dictation",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-ear-training-rhythm-dictation.json"
+            }
+          ]
+        }
+      ],
+      "lessons": []
+    },
+    {
+      "id": "transposition",
+      "label": "Transposition",
+      "units": [
+        {
+          "id": "legacy-transposition",
+          "label": "Transposition",
+          "region": "",
+          "lessons": [
+            {
+              "id": "legacy-transposition-capo",
+              "title": "Capo Logic",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-transposition-capo.json"
+            },
+            {
+              "id": "legacy-transposition-chords",
+              "title": "Transposing Chord Progressions",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-transposition-chords.json"
+            },
+            {
+              "id": "legacy-transposition-melody",
+              "title": "Transposing Melodies",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-transposition-melody.json"
+            },
+            {
+              "id": "legacy-transposition-modes",
+              "title": "Modal Transposition",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-transposition-modes.json"
+            },
+            {
+              "id": "legacy-transposition-why-transpose",
+              "title": "Why Transpose?",
+              "tier": 1,
+              "prerequisites": [],
+              "path": "legacy-transposition-why-transpose.json"
             }
           ]
         }

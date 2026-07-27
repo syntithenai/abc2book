@@ -13,6 +13,11 @@ import {
   updateTuneFileMeta,
 } from './tuneFiles'
 import { dedupeTunesById } from './tuneListFilter'
+import {
+  matchesMainSearchText,
+  textMatchesSearchTokens,
+  tokenizeMainSearchQuery,
+} from './searchTextUtils'
 
 const utils = utilsFunctions()
 
@@ -87,13 +92,13 @@ export function listPdfSnapshotSegments(tune) {
   return results
 }
 
-function listPdfFileNameSearchHits(tune, filter) {
+function listPdfFileNameSearchHits(tune, tokens) {
   const hits = []
   getTuneFiles(tune).forEach(function(meta) {
     if (!meta || !isPdfTuneFileType(meta.type)) return
     const name = String(meta.name || '').trim()
     const nameKey = normalizeFilterText(name)
-    if (!nameKey || nameKey.indexOf(filter) === -1) return
+    if (!nameKey || !textMatchesSearchTokens([nameKey], tokens)) return
     const page = meta.pdfPage > 0 ? parseInt(meta.pdfPage, 10) : 1
     hits.push({
       title: name || 'PDF',
@@ -121,19 +126,19 @@ function pushUniquePdfSearchHit(hits, seen, hit) {
 }
 
 export function pdfSnapshotSearchHits(tune, filterText) {
-  const filter = normalizeFilterText(filterText)
-  if (!filter || filter.length < 3 || !tune) return []
+  const tokens = tokenizeMainSearchQuery(filterText)
+  if (tokens.length === 0 || !tune) return []
   const hits = []
   const seen = new Set()
   listPdfSnapshotSegments(tune).forEach(function(segment) {
     const titleKey = normalizeFilterText(segment.title)
     const composerKey = normalizeFilterText(segment.composer)
-    if ((titleKey && titleKey.indexOf(filter) !== -1)
-      || (composerKey && composerKey.indexOf(filter) !== -1)) {
+    const haystack = [titleKey, composerKey].filter(Boolean)
+    if (textMatchesSearchTokens(haystack, tokens)) {
       pushUniquePdfSearchHit(hits, seen, segment)
     }
   })
-  listPdfFileNameSearchHits(tune, filter).forEach(function(hit) {
+  listPdfFileNameSearchHits(tune, tokens).forEach(function(hit) {
     pushUniquePdfSearchHit(hits, seen, hit)
   })
   return hits
@@ -144,20 +149,16 @@ export function tuneMatchesPdfSnapshotSearch(tune, filterText) {
 }
 
 export function parentTuneMatchesSearch(tune, filterText) {
-  const filter = normalizeFilterText(filterText)
-  if (!filter || !tune) return false
-  const searchableText = allTitles(tune).concat(allArtists(tune)).map(function(text) {
-    return normalizeFilterText(text)
-  })
-  return searchableText.some(function(text) {
-    return text && text.indexOf(filter) !== -1
-  })
+  if (!tune) return false
+  const searchableText = allTitles(tune).concat(allArtists(tune))
+  return matchesMainSearchText(searchableText, filterText)
 }
 
 export function expandPdfSnapshotSearchRows(tunes, filterText) {
   const filter = String(filterText || '').trim()
+  const tokens = tokenizeMainSearchQuery(filterText)
   const list = dedupeTunesById(Array.isArray(tunes) ? tunes : [])
-  if (!filter || filter.length < 3) {
+  if (!filter || tokens.length === 0) {
     return list.map(function(tune) {
       return { tune: tune, snapshotMatch: null }
     })

@@ -18,6 +18,11 @@ export default function LyricsStructureSyncPanel(props) {
     uniqueChords,
     useInstrument,
     fitHeight,
+    showCapoControl,
+    capoOffset,
+    capoEnabled,
+    onCapoToggle,
+    onCapoOffsetChange,
   } = props;
 
   const hostClass = 'tune-lyrics-structure-sync-host'
@@ -44,6 +49,11 @@ export default function LyricsStructureSyncPanel(props) {
             useInstrument={useInstrument}
             tune={tune}
             fitHeight={true}
+            showCapoControl={showCapoControl}
+            capoOffset={capoOffset}
+            capoEnabled={capoEnabled}
+            onCapoToggle={onCapoToggle}
+            onCapoOffsetChange={onCapoOffsetChange}
           />
         </div>
       </div>

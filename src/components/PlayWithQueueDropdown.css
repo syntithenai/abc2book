@@ -1,0 +1,83 @@
+.play-with-queue-dropdown {
+  display: inline-flex;
+  align-items: stretch;
+  flex-shrink: 0;
+}
+
+.play-with-queue-dropdown--compact:not(.tune-list-item-play) .btn {
+  min-width: 2rem;
+  padding: 0.15rem 0.35rem;
+  line-height: 1;
+}
+
+.play-with-queue-dropdown--compact:not(.tune-list-item-play) .play-with-queue-dropdown-toggle {
+  min-width: 1.5rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.play-with-queue-dropdown--compact.tune-list-item-play.btn-group {
+  gap: 0;
+}
+
+.play-with-queue-dropdown--compact.tune-list-item-play > .btn + .btn {
+  margin-left: -1px;
+}
+
+.play-with-queue-dropdown--collection-side {
+  align-self: stretch;
+}
+
+.play-with-queue-dropdown--collection-side > .btn,
+.play-with-queue-dropdown--collection-side.play-with-queue-dropdown-play-only {
+  height: 90px;
+  margin: 0 !important;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.play-with-queue-dropdown--collection-side .play-with-queue-dropdown-toggle {
+  border-left: 1px solid rgba(0, 0, 0, 0.15) !important;
+  min-width: 2rem;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+}
+
+.play-with-queue-dropdown--collection-side svg,
+.play-with-queue-dropdown--collection-side.play-with-queue-dropdown-play-only svg {
+  width: 2.25rem;
+  height: 2.25rem;
+  max-width: 2.25rem;
+  max-height: 2.25rem;
+  display: block;
+  flex: 0 0 auto;
+}
+
+.play-with-queue-dropdown--toolbar .btn {
+  min-height: 2.5rem;
+}
+
+.play-with-queue-dropdown--toolbar.btn-group {
+  gap: 0;
+}
+
+.play-with-queue-dropdown--toolbar > .btn + .btn {
+  margin-left: -1px;
+}
+
+.tune-list-item-row:hover .play-with-queue-dropdown--compact,
+.books-page-song-link:hover .play-with-queue-dropdown--compact {
+  opacity: 1;
+}
+
+@media (hover: hover) {
+  .play-with-queue-dropdown--compact {
+    opacity: 0.85;
+  }
+}

@@ -17,7 +17,11 @@ import { loadOfflineMediaSettings } from './offlineMediaSettings'
 import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import * as mediaCacheQueue from './mediaCacheQueue'
 import useMediaResolverHealth from './useMediaResolverHealth'
-import { isMediaProxyConfigured } from './mediaProxyClient'
+import {
+    isMediaProxyConfigured,
+    requiresResolverProxiedPlayback,
+    fetchProxiedAudioBlobUrl,
+} from './mediaProxyClient'
 import { linkedMediaPitchPathAvailableSync } from './linkedMediaPitchPath'
 import { maybeNotifyYoutubeProxyLimitation } from './youtubeProxyLimitationToast'
 import useGoogleDocument from './useGoogleDocument'
@@ -154,9 +158,13 @@ export default function useTuneBookMediaController(props) {
     var pauseSynthRef = useRef(null)
     var stopMetronomeRef = useRef(null)
     var invalidatePendingMidiStartsRef = useRef(null)
+    var armPlaybackFromZeroRef = useRef(null)
+    var getRhythmPlaybackPhaseRef = useRef(null)
+    var getRhythmDiagnosticsRef = useRef(null)
     var stopMidiSynthRef = useRef(null)
     var playMidiRef = useRef(null)
     var pendingMidiPlayRef = useRef(null)
+    var midiEngineWaitTimeoutRef = useRef(null)
   /** Seconds to seek when notation play starts (survives async engine registration). */
     var notationPlaybackStartSecondsRef = useRef(null)
     /** Beat/tempo seek target until the MIDI engine applies it. */
@@ -204,6 +212,8 @@ export default function useTuneBookMediaController(props) {
     var nativeFilteredLoadTokenRef = useRef(0)
     var nativeFilteredBlobCacheRef = useRef(new Map())
     var cachedNativeBlobUrlRef = useRef(null)
+    var proxiedNativeBlobSrcRef = useRef(null)
+    var proxiedNativeBlobPromiseRef = useRef(null)
     const [nativePlaybackSrcOverride, setNativePlaybackSrcOverride] = useState(null)
     const [nativePlaybackFallbackRequired, setNativePlaybackFallbackRequired] = useState(false)
     var nativeFilteredCacheKeyRef = useRef(null)
@@ -216,6 +226,7 @@ export default function useTuneBookMediaController(props) {
     var seekHoldUntilRef = useRef(0)
     var playingIntentRef = useRef(false)
     var pendingPlayRequestRef = useRef(null)
+    var playbackKickoffNeededRef = useRef(false)
     var playbackStartedRef = useRef(false)
     var userPausedRef = useRef(false)
     var routeReadyRef = useRef(false)
@@ -846,7 +857,21 @@ export default function useTuneBookMediaController(props) {
         if (playState !== 'playMidi' && playState !== 'playMedia') return
         if (playbackRouteRef.current.mode === 'none') return
 
+        const needsKickoff = playbackKickoffNeededRef.current
+            && !playbackStartedRef.current
+            && !userPausedRef.current
+
         if (changeType === 'playState') {
+            if (needsKickoff) {
+                playbackKickoffNeededRef.current = false
+                playingIntentRef.current = true
+                const kickoffOpts = freshPlaybackIntentRef.current ? { fresh: true } : {}
+                if (freshPlaybackIntentRef.current) {
+                    freshPlaybackIntentRef.current = false
+                }
+                play(kickoffOpts)
+                return
+            }
             if (!playingIntentRef.current) {
                 playingIntentRef.current = true
                 play()
@@ -855,6 +880,24 @@ export default function useTuneBookMediaController(props) {
         }
 
         if (changeType === 'tune' && (playingIntentRef.current || isFirstTuneLoad)) {
+            if (needsKickoff) {
+                playbackKickoffNeededRef.current = false
+                playingIntentRef.current = true
+                if (freshPlaybackIntentRef.current) {
+                    freshPlaybackIntentRef.current = false
+                    play({ fresh: true })
+                    return
+                }
+                const regionStart = getLinkStartAt()
+                const preserve = currentTimeRef.current > regionStart + 0.05
+                    && (playingIntentRef.current || userPausedRef.current)
+                play(preserve ? { preservePosition: true } : {})
+                return
+            }
+            // play() already started and is waiting on the media engine (YouTube iframe, etc.).
+            if (isLoading && playingIntentRef.current && !playbackStartedRef.current) {
+                return
+            }
             playingIntentRef.current = true
             if (freshPlaybackIntentRef.current) {
                 freshPlaybackIntentRef.current = false
@@ -880,6 +923,23 @@ export default function useTuneBookMediaController(props) {
         clearInterval(progressIntervalRef.current)
         progressIntervalRef.current = null
         cancelYoutubePlayPoll()
+        if (midiEngineWaitTimeoutRef.current) {
+            clearTimeout(midiEngineWaitTimeoutRef.current)
+            midiEngineWaitTimeoutRef.current = null
+        }
+    }
+
+    function scheduleMidiEngineRegistrationFallback() {
+        if (midiEngineWaitTimeoutRef.current) {
+            clearTimeout(midiEngineWaitTimeoutRef.current)
+        }
+        midiEngineWaitTimeoutRef.current = setTimeout(function() {
+            midiEngineWaitTimeoutRef.current = null
+            if (!hasActivePlaybackIntent()) return
+            if (playbackStartedRef.current || isPlaying) return
+            setIsLoading(false)
+            setTapToPlay(true)
+        }, 12000)
     }
 
     function cancelYoutubePlayPoll() {
@@ -1248,6 +1308,12 @@ export default function useTuneBookMediaController(props) {
         setPitchShiftPreparing(false)
     }
 
+    function notifyPitchShiftApplyFailed(message) {
+        finishPitchShiftPrepare()
+        const text = message || 'Pitch shift could not be applied. Tap play to try again.'
+        toast.warning(text, { toastId: 'pitch-shift-apply-failed' })
+    }
+
     finishPitchShiftPrepareRef.current = function(token) {
         finishPitchShiftPrepare(token)
     }
@@ -1297,6 +1363,9 @@ export default function useTuneBookMediaController(props) {
             notifyYoutubeProxyLimitationIfNeeded(settings)
         }
         if (!changed || !pitchShiftWillApply(settings)) {
+            return null
+        }
+        if (!hasActivePlaybackIntent()) {
             return null
         }
         return beginPitchShiftPrepare()
@@ -1375,6 +1444,8 @@ export default function useTuneBookMediaController(props) {
             URL.revokeObjectURL(cachedNativeBlobUrlRef.current)
             cachedNativeBlobUrlRef.current = null
         }
+        proxiedNativeBlobSrcRef.current = null
+        proxiedNativeBlobPromiseRef.current = null
         setNativePlaybackSrcOverride(null)
     }
 
@@ -1389,6 +1460,41 @@ export default function useTuneBookMediaController(props) {
         flushSync(function() {
             setNativePlaybackSrcOverride(blobUrl)
         })
+    }
+
+    async function ensureProxiedNativeAudioBlob(src) {
+        if (!src || !requiresResolverProxiedPlayback(src)) {
+            return true
+        }
+        if (cachedNativeBlobUrlRef.current && proxiedNativeBlobSrcRef.current === src) {
+            return true
+        }
+        if (proxiedNativeBlobPromiseRef.current && proxiedNativeBlobSrcRef.current === src) {
+            return proxiedNativeBlobPromiseRef.current
+        }
+        proxiedNativeBlobSrcRef.current = src
+        const loadPromise = (async function() {
+            try {
+                const blobUrl = await fetchProxiedAudioBlobUrl(src, 'audio', {
+                    youtubeGetId: props.tunebook.utils.YouTubeGetID,
+                    accessToken: getGoogleAccessToken(),
+                })
+                const settings = getActivePlaybackSettings(tuneRef.current || tune)
+                await attachNativeBlobUrlForPlayback(blobUrl, null, settings)
+                return hasActivePlaybackIntent()
+            } catch (e) {
+                toast.error(e && e.message ? e.message : 'Could not load library audio.')
+                setIsLoading(false)
+                abortPlayingIntent()
+                return false
+            } finally {
+                if (proxiedNativeBlobSrcRef.current === src) {
+                    proxiedNativeBlobPromiseRef.current = null
+                }
+            }
+        })()
+        proxiedNativeBlobPromiseRef.current = loadPromise
+        return loadPromise
     }
 
     function getNextQueuePrefetchTune() {
@@ -1637,6 +1743,17 @@ export default function useTuneBookMediaController(props) {
                 scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
                 return
             } catch (e) {
+                if (useTune && props.tunebook && props.tunebook.hasNotesOrChords(useTune)) {
+                    setMediaLinkNumber(null)
+                    requestPlayback({
+                        tuneId: useTune.id,
+                        playState: 'playMidi',
+                        linkNum: null,
+                        fromUserGesture: true,
+                        fresh: true,
+                    })
+                    return
+                }
                 toast.error(e && e.message ? e.message : 'Recording is not available for playback.')
                 setIsLoading(false)
                 abortPlayingIntent()
@@ -2695,6 +2812,9 @@ export default function useTuneBookMediaController(props) {
         notationPlaybackSeekRef.current = null
         notationPlaybackStartSecondsRef.current = null
         pendingMidiPlayRef.current = null
+        if (stopMetronomeRef.current) {
+            stopMetronomeRef.current()
+        }
         resumeSynthAudioContextFromGesture()
         resumeExternalAudioContextFromGesture()
 
@@ -3169,6 +3289,10 @@ export default function useTuneBookMediaController(props) {
         userGesturePlayRef.current = false
         youtubeAutoplayAttemptRef.current = 0
         clearYoutubeAutostartWatchdog()
+        if (midiEngineWaitTimeoutRef.current) {
+            clearTimeout(midiEngineWaitTimeoutRef.current)
+            midiEngineWaitTimeoutRef.current = null
+        }
         setTapToPlay(false)
         queuePlaybackErrorRetryRef.current = false
         clearPlaylistStall()
@@ -3224,6 +3348,7 @@ export default function useTuneBookMediaController(props) {
         notationPlaybackSeekRef.current = null
         pendingMidiFilePlayRef.current = null
         pendingPlayRequestRef.current = null
+        playbackKickoffNeededRef.current = false
         setRequestedPlayState(null)
         clearYoutubeAutostartWatchdog()
         setIsPlaying(false)
@@ -3241,6 +3366,7 @@ export default function useTuneBookMediaController(props) {
         userGesturePlayRef.current = false
         youtubeAutoplayAttemptRef.current = 0
         freshPlaybackIntentRef.current = !!opts.fresh
+        playbackKickoffNeededRef.current = true
         setPlayCancelled(false)
         setTapToPlay(false)
         setIsPlaying(false)
@@ -3526,13 +3652,14 @@ export default function useTuneBookMediaController(props) {
             fresh: opts.fresh !== false,
             restart: !!opts.restart,
         }
+        playbackKickoffNeededRef.current = true
 
         setIsLoading(true)
 
         if (routeMatchesPendingRequest(pendingPlayRequestRef.current, getPendingRouteSnapshot())) {
             return consumePendingPlayRequest(tuneId, playState, opts.linkNum)
         }
-        return true
+        return false
     }
 
     function consumePendingPlayRequest(tuneId, playState, linkNum) {
@@ -3596,6 +3723,9 @@ export default function useTuneBookMediaController(props) {
     async function handleFailedPitchHandoff(settings, srcType, resumeAt) {
         if (!externalMediaRef.current) {
             recoverNativePlaybackAfterFailedPitchHandoff(settings, srcType, resumeAt)
+            notifyPitchShiftApplyFailed(
+                'Pitch shift needs downloaded audio. Check your media resolver or TuneBook Helper extension.'
+            )
             return
         }
         let handoff = await trySyncExternalHandoff({
@@ -3621,6 +3751,11 @@ export default function useTuneBookMediaController(props) {
         unmuteNativePlayers()
         if (playingIntentRef.current && !userPausedRef.current) {
             setTapToPlay(true)
+            notifyPitchShiftApplyFailed(
+                'Pitch shift could not switch to processed audio. Tap play to try again.'
+            )
+        } else {
+            notifyPitchShiftApplyFailed()
         }
     }
 
@@ -5324,7 +5459,7 @@ export default function useTuneBookMediaController(props) {
         playingIntentRef.current = true
         setPlayCancelled(false)
         if (props.forceRefresh && !practiceSessionActiveRef.current && !opts.restart
-            && !notationMidiOwner && !opts.skipNotationRefresh) {
+            && !opts.fresh && !notationMidiOwner && !opts.skipNotationRefresh) {
             props.forceRefresh()
         }
 
@@ -5338,12 +5473,17 @@ export default function useTuneBookMediaController(props) {
                 seekWasPlayingRef.current = false
             }
             trackPlaybackStart('midi')
+            playbackKickoffNeededRef.current = false
             setIsLoading(true)
+            pendingMidiPlayRef.current = opts
             if (playMidiRef.current) {
-                playMidiRef.current(opts)
+                if (playMidiRef.current(opts) === false) {
+                    pendingMidiPlayRef.current = null
+                    setIsLoading(false)
+                }
             } else {
-                pendingMidiPlayRef.current = opts
                 forceMidiChange()
+                scheduleMidiEngineRegistrationFallback()
             }
             return
         }
@@ -5353,6 +5493,7 @@ export default function useTuneBookMediaController(props) {
                 return
             }
             playingIntentRef.current = false
+            playbackKickoffNeededRef.current = false
             setIsLoading(false)
             return
         }
@@ -5360,6 +5501,7 @@ export default function useTuneBookMediaController(props) {
         trackPlaybackStart('media')
 
         stopMidiPlayback()
+        playbackKickoffNeededRef.current = false
         const activeLink = useTune && useTune.links ? useTune.links[linkIndex] : null
         const src = getSrc(useTune, linkIndex)
         const srcType = getSrcType(src, activeLink)
@@ -5377,6 +5519,18 @@ export default function useTuneBookMediaController(props) {
         if (!hasActivePlaybackIntent()) {
             setIsLoading(false)
             return
+        }
+        if (srcType === 'audio') {
+            const activeSrc = getActiveMediaSrc()
+            if (activeSrc && requiresResolverProxiedPlayback(activeSrc) && !cachedNativeBlobUrlRef.current) {
+                setIsLoading(true)
+                ensureProxiedNativeAudioBlob(activeSrc).then(function(ok) {
+                    if (ok && hasActivePlaybackIntent()) {
+                        playNativeMedia(srcType, opts)
+                    }
+                })
+                return
+            }
         }
         unmuteNativePlayers()
         if (srcType === 'audio' && playerRef && playerRef.current) {
@@ -5500,6 +5654,9 @@ export default function useTuneBookMediaController(props) {
         if (isMidiPlaybackRoute() && pauseSynthRef.current) {
             pauseSynthRef.current()
         }
+        if (isMidiPlaybackRoute() && stopMetronomeRef.current) {
+            stopMetronomeRef.current()
+        }
         if (isMidiFileMediaRoute() && pauseMidiFileRef.current) {
             pauseMidiFileRef.current()
         }
@@ -5613,10 +5770,20 @@ export default function useTuneBookMediaController(props) {
             restartPlaybackFromStart()
             return
         }
+        userPausedRef.current = false
         notationPlaybackSeekRef.current = null
         notationPlaybackStartSecondsRef.current = null
         pendingMidiPlayRef.current = null
+        if (stopMetronomeRef.current) {
+            stopMetronomeRef.current()
+        }
+        if (armPlaybackFromZeroRef.current) {
+            armPlaybackFromZeroRef.current()
+        }
         const startAt = playbackRouteRef.current.mode === 'media' ? getLinkStartAt() : 0
+        setClickSeek(0)
+        setCurrentTime(startAt)
+        currentTimeRef.current = startAt
         seekToSeconds(startAt, { wasPlaying: false, skipSeekOperation: true })
     }
 
@@ -5652,6 +5819,16 @@ export default function useTuneBookMediaController(props) {
             rewindToStart: rewindToStart,
             restartPlaybackFromStart: restartPlaybackFromStart,
             getProgress: getPlaybackProgress,
+            getRhythmPhase: function() {
+                return getRhythmPlaybackPhaseRef.current
+                    ? getRhythmPlaybackPhaseRef.current()
+                    : null
+            },
+            getRhythmDiagnostics: function() {
+                return getRhythmDiagnosticsRef.current
+                    ? getRhythmDiagnosticsRef.current()
+                    : null
+            },
             debug: function() {
                 return {
                     progress: getPlaybackProgress(),
@@ -5671,13 +5848,17 @@ export default function useTuneBookMediaController(props) {
                 }
             },
         }
+        window.getRhythmDiagnostics = function() {
+            return window.__abc2bookPlaybackTest.getRhythmDiagnostics()
+        }
         return function() {
             delete window.__abc2bookPlaybackTest
+            delete window.getRhythmDiagnostics
         }
     })
     
     
-    return {play, playFromUserGesture, preparePlaybackFromUserGesture, requestPlayback, consumePendingPlayRequest, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, seekToSeconds, seekBySeconds, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef, filteredPlayerRef, ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyLivePlaybackSettings, updateTuneAudioFilterSettings, stemSeparationActive, stemAnalysisProgress, stemsReadyForMedia, hasStemsForCurrentMedia, analyseMediaStems, cancelStemAnalysis, saveProcessedMediaToFile, getDemucsModel, getAvailableAudioFilterKeys, getAvailableStemNames, availableStemNames, pitchShiftPreparing, finishPitchShiftPrepareRef, applyPlaybackSettingsLiveRef, applyMidiTempoRef, applyPlaybackVolumeRef, resumeSynthAudioContextRef, resumeMidiFileAudioContextRef, pauseSynthRef, stopMetronomeRef, invalidatePendingMidiStartsRef, stopMidiSynthRef, playMidiRef, pendingMidiPlayRef, notationPlaybackStartSecondsRef, notationPlaybackSeekRef, notationStaffCursorRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, playMidiFileRef, pauseMidiFileRef, seekMidiFileRef, getMidiFilePlaybackSecondsRef, applyMidiFileTempoRef, prepareMidiFileLinkRef, pendingMidiFilePlayRef, flushPendingMidiFilePlay, stopMidiFileRef, userGesturePlayRef, mediaLinkNumber, playbackRouteMode, requestedPlayState, setMediaLinkNumber, getSrc, getSrcType, getLinkedMediaResolveOptions, playbackSpeed, setPlaybackSpeed, playbackVolume, setPlaybackVolume, adjustPlaybackVolume, playbackVolumeStep: PLAYBACK_VOLUME_STEP, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playlistStalled, clearPlaylistStall, playCancelled, setPlayCancelled, notationMidiOwner, setNotationMidiOwner, startNotationMidiPlayback, stopNotationMidiPlayback, clearNotationPlayRetry, prepareExternalMedia, destroyExternalMedia, notifyYoutubeSrcChanged, clearYoutubePlayerRef, resetPracticeMediaPlayback, pauseYoutubeOutputOnly, silencePlaybackOutputs, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, isExternalOutputActive, nativePlaybackFallbackRequired, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, recoverUnexpectedNativePause, usesExternalPitchTempo, mediaResolverAvailable, mediaResolverChecked, mediaResolverStatus, resolverFeatures, stemsCapabilityAvailable, mediaResolverFeaturesEnabled: stemsCapabilityAvailable, refreshMediaResolverHealth, resumeAudioContextAndPlay, resumeExternalAudioContextFromGesture, ensureStemLivePlaybackHandoff, primeStemPlaybackEngine, prepareStemFilterHandoff, confirmPlayingStarted, abortPlayingIntent, armPlaybackIntent, hasPlayingIntent, hasActivePlaybackIntent, isPracticeSessionActive, isSeekGuardActive, isMidiPlaybackRoute, isMidiFileMediaRoute, isMediaPlaybackRoute, applyPlaybackRoute, maybeAutostart, setPracticeSessionHandler, setPracticeSessionActive, invokePracticeSessionHandler, captureSuspendedQueuePlayback, restoreSuspendedQueuePlayback, consumeQueuePlaybackResume, getPlaybackHandoffPosition, applyPreservedPlaybackPosition, getActivePreparedMediaSrc, shouldPreserveMediaEngineOnHostHandoff, nativePlaybackSrcOverride, clearCachedNativePlaybackUrl}
+    return {play, playFromUserGesture, preparePlaybackFromUserGesture, requestPlayback, consumePendingPlayRequest, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, seekToSeconds, seekBySeconds, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef, filteredPlayerRef, ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyLivePlaybackSettings, updateTuneAudioFilterSettings, stemSeparationActive, stemAnalysisProgress, stemsReadyForMedia, hasStemsForCurrentMedia, analyseMediaStems, cancelStemAnalysis, saveProcessedMediaToFile, getDemucsModel, getAvailableAudioFilterKeys, getAvailableStemNames, availableStemNames, pitchShiftPreparing, finishPitchShiftPrepareRef, applyPlaybackSettingsLiveRef, applyMidiTempoRef, applyPlaybackVolumeRef, resumeSynthAudioContextRef, resumeMidiFileAudioContextRef, pauseSynthRef, stopMetronomeRef, invalidatePendingMidiStartsRef, armPlaybackFromZeroRef, getRhythmPlaybackPhaseRef, getRhythmDiagnosticsRef, stopMidiSynthRef, playMidiRef, pendingMidiPlayRef, notationPlaybackStartSecondsRef, notationPlaybackSeekRef, notationStaffCursorRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, playMidiFileRef, pauseMidiFileRef, seekMidiFileRef, getMidiFilePlaybackSecondsRef, applyMidiFileTempoRef, prepareMidiFileLinkRef, pendingMidiFilePlayRef, flushPendingMidiFilePlay, stopMidiFileRef, userGesturePlayRef, mediaLinkNumber, playbackRouteMode, requestedPlayState, setMediaLinkNumber, getSrc, getSrcType, getLinkedMediaResolveOptions, playbackSpeed, setPlaybackSpeed, playbackVolume, setPlaybackVolume, adjustPlaybackVolume, playbackVolumeStep: PLAYBACK_VOLUME_STEP, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playlistStalled, clearPlaylistStall, playCancelled, setPlayCancelled, notationMidiOwner, setNotationMidiOwner, startNotationMidiPlayback, stopNotationMidiPlayback, clearNotationPlayRetry, prepareExternalMedia, destroyExternalMedia, notifyYoutubeSrcChanged, clearYoutubePlayerRef, resetPracticeMediaPlayback, pauseYoutubeOutputOnly, silencePlaybackOutputs, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, isExternalOutputActive, nativePlaybackFallbackRequired, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, recoverUnexpectedNativePause, usesExternalPitchTempo, mediaResolverAvailable, mediaResolverChecked, mediaResolverStatus, resolverFeatures, stemsCapabilityAvailable, mediaResolverFeaturesEnabled: stemsCapabilityAvailable, refreshMediaResolverHealth, resumeAudioContextAndPlay, resumeExternalAudioContextFromGesture, ensureStemLivePlaybackHandoff, primeStemPlaybackEngine, prepareStemFilterHandoff, confirmPlayingStarted, abortPlayingIntent, armPlaybackIntent, hasPlayingIntent, hasActivePlaybackIntent, isPracticeSessionActive, isSeekGuardActive, isMidiPlaybackRoute, isMidiFileMediaRoute, isMediaPlaybackRoute, applyPlaybackRoute, maybeAutostart, setPracticeSessionHandler, setPracticeSessionActive, invokePracticeSessionHandler, captureSuspendedQueuePlayback, restoreSuspendedQueuePlayback, consumeQueuePlaybackResume, getPlaybackHandoffPosition, applyPreservedPlaybackPosition, getActivePreparedMediaSrc, shouldPreserveMediaEngineOnHostHandoff, nativePlaybackSrcOverride, clearCachedNativePlaybackUrl}
    //srcSelection, setSrcSelection, src, setSrc,
 }
  

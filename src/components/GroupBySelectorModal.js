@@ -5,7 +5,7 @@ import { useResponsiveModalProps } from '../useResponsiveModalProps'
 function GroupBySelectorModal(props) {
   const [show, setShow] = useState(false);
   const responsiveModalProps = useResponsiveModalProps();
-  const options = {boost:'confidence',difficulty: 'difficulty', key: 'key',tuning: 'tuning', meter:'meter',  rhythm:'rhythm',composer:'artist', books: 'books', tags: 'tags', tuneStatus: 'tune status', tempoRange: 'tempo range', isBlocked: 'is blocked'} //, tags: 'tags'}
+  const options = {boost:'confidence',difficulty: 'difficulty', key: 'key',tuning: 'tuning', meter:'meter',  rhythm:'rhythm',composer:'artist', books: 'books', tags: 'tags', tuneStatus: 'tune status', tempoRange: 'tempo range'} //, tags: 'tags'}
   const handleClose = () => setShow(false);
   const handleShow = (e) => {
     setShow(true);

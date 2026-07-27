@@ -86,13 +86,6 @@ function collectOptionalGaps(tune) {
   if (!String(tune.backgroundInfo ?? '').trim()) {
     gaps.push(issue('missing_background', 'Background information is missing', 'info', 'backgroundInfo'))
   }
-  if (tune.suitableForPractice === false) {
-    gaps.push(issue('blocked_practice', 'Marked as not suitable for practice', 'info', 'suitableForPractice'))
-  }
-  const suitableFor = Array.isArray(tune.suitableFor) ? tune.suitableFor : []
-  if (suitableFor.length === 0) {
-    gaps.push(issue('missing_practice_instruments', 'No practice instrument settings (suitable for any instrument)', 'info', 'suitableFor'))
-  }
   return gaps
 }
 

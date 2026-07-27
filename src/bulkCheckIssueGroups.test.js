@@ -187,31 +187,6 @@ describe('bulkCheckIssueGroups', function() {
     expect(canRunFixAll(tune, report, tunebook, null)).toBe(true)
   })
 
-  test('offers practice actions for blocked practice', function() {
-    const tune = {
-      id: 't1',
-      name: 'Wild Rover',
-      suitableForPractice: false,
-      voices: { '1': { notes: ['C D |'] } },
-    }
-    const report = {
-      completenessResult: null,
-      abcResult: null,
-      structureResult: null,
-      issues: [
-        { code: 'blocked_practice', message: 'Practice blocked', severity: 'warning', field: 'suitableForPractice' },
-        { code: 'missing_practice_instruments', message: 'No practice instruments', severity: 'info', field: 'practiceInstruments' },
-      ],
-    }
-    tunebook.hasNotesOrChords = function() { return true }
-
-    const groups = buildBulkCheckIssueGroups(report, tune, tunebook, null)
-    const otherGroup = groups.find(function(group) { return group.id === 'otherInfo' })
-    expect(otherGroup.actions.map(function(item) { return item.id })).toContain('allowPractice')
-    expect(otherGroup.actions.map(function(item) { return item.id })).toContain('editTunePractice')
-    expect(canRunFixAll(tune, report, tunebook, null)).toBe(true)
-  })
-
   test('canRunFixAll is false when tune is complete', function() {
     const tune = {
       id: 't1',

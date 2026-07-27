@@ -23,8 +23,6 @@ describe('tuneBulkCheckReport', function() {
       meter: '4/4',
       key: 'C',
       backgroundInfo: 'Some history',
-      suitableFor: ['violin'],
-      suitableForPractice: true,
       words: ['Line one'],
       timingScaffold: true,
       voices: { '1': { notes: ['"C" z z z |'] } },
@@ -61,7 +59,6 @@ describe('tuneBulkCheckReport', function() {
       meter: '4/4',
       key: 'C',
       backgroundInfo: 'info',
-      suitableFor: ['violin'],
       words: ['Lyrics'],
       timingScaffold: true,
       links: [{ link: 'https://example.com/a.mp3' }],
@@ -85,7 +82,6 @@ describe('tuneBulkCheckReport', function() {
       meter: '4/4',
       key: 'C',
       backgroundInfo: '',
-      suitableFor: ['violin'],
       words: ['Lyrics'],
       timingScaffold: true,
       links: [{ link: 'https://example.com/a.mp3' }],
@@ -109,7 +105,6 @@ describe('tuneBulkCheckReport', function() {
       meter: '4/4',
       key: 'C',
       backgroundInfo: 'info',
-      suitableFor: ['violin'],
       words: ['Lyrics'],
       timingScaffold: true,
       links: [{ link: 'https://example.com/a.mp3' }],
@@ -132,7 +127,6 @@ describe('tuneBulkCheckReport', function() {
       meter: '4/4',
       key: 'D',
       backgroundInfo: 'info',
-      suitableFor: ['violin'],
       voices: { '1': { notes: ['D2 E2 F2 G2 | A2 B2 c2 d2 |]'] } },
     }
     const report = buildTuneCheckReport(tune, {
@@ -151,7 +145,6 @@ describe('tuneBulkCheckReport', function() {
       meter: '4/4',
       key: 'C',
       backgroundInfo: '',
-      suitableFor: [],
       words: ['Lyrics here'],
       timingScaffold: true,
       voices: { '1': { notes: ['"C" z z z |'] } },
@@ -166,7 +159,7 @@ describe('tuneBulkCheckReport', function() {
 
   test('sorts reports red then orange then blue then green', function() {
     const tunes = [
-      { id: 'g', name: 'Green', composer: 'A', tempo: 1, meter: '4/4', key: 'C', backgroundInfo: 'x', suitableFor: ['violin'], words: ['a'], timingScaffold: true, voices: { '1': { notes: ['"C" z |'] } } },
+      { id: 'g', name: 'Green', composer: 'A', tempo: 1, meter: '4/4', key: 'C', backgroundInfo: 'x', words: ['a'], timingScaffold: true, voices: { '1': { notes: ['"C" z |'] } } },
       { id: 'r', name: '', voices: { '1': { notes: [] } } },
       { id: 'o', name: 'Orange', meter: '4/4', key: 'C', words: ['a'], timingScaffold: true, voices: { '1': { notes: ['"C" z |'] } } },
     ]

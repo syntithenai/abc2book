@@ -6,6 +6,8 @@
  * - kind: 'notation' for concepts shown with abcjs (notes, not chord symbols alone)
  */
 
+import celticExamples from './examples-celtic.js'
+
 const WIKI = "https://upload.wikimedia.org/wikipedia/commons"
 
 /** Verified Commons URLs (broken hash paths were causing missing feed images). */
@@ -407,5 +409,7 @@ export const THEORY_LESSON_EXAMPLES = {
     { meter: "4/4", noteLength: "1/4", key: "C" }
   ),
 }
+
+Object.assign(THEORY_LESSON_EXAMPLES, celticExamples)
 
 export default THEORY_LESSON_EXAMPLES

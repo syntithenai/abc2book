@@ -1,4 +1,39 @@
 services:
+  # Stable Audio 3 backing for practice-track generation (Vulkan). Requires a
+  # host-built audio.cpp tree and model weights; see music_generation/README.md.
+  audio-cpp:
+    build: ./audio-cpp
+    container_name: abc2book-audio-cpp
+    ports:
+      - "${AUDIO_CPP_PUBLISH_PORT:-8788}:8788"
+    env_file:
+      - .env
+    environment:
+      AUDIO_CPP_SERVER_BIN: /audio-cpp/build/linux-vulkan-release/bin/audiocpp_server
+      AUDIO_CPP_CONFIG: /app/server.docker.json
+    volumes:
+      - "${AUDIO_CPP_HOST_DIR:-${HOME}/audio.cpp}:/audio-cpp:ro"
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/kfd:/dev/kfd
+    group_add:
+      - "44"
+      - "110"
+    device_cgroup_rules:
+      - "c 226:* rmw"
+      - "c 511:* rmw"
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS --max-time 5 http://127.0.0.1:8788/health || exit 1",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+    restart: unless-stopped
+
   local-resolver:
     build: .
     container_name: abc2book-local-resolver
@@ -6,6 +41,9 @@ services:
       - "8787:8787"
     env_file:
       - .env
+    depends_on:
+      audio-cpp:
+        condition: service_started
     volumes:
       - ./secrets:/app/secrets:ro
       - ./data:/app/data
@@ -15,12 +53,16 @@ services:
       - "${MUSIC_COLLECTION_HOST_DIR:-./music-collection}:/music-collection:ro"
       - ../:/app/www:ro
     environment:
+      # In-compose sidecar; override in .env for a host-managed process instead.
+      AUDIO_CPP_URL: ${AUDIO_CPP_URL:-http://audio-cpp:8788}
       PORT: "8787"
       STATIC_SITE_DIR: /app/www
       SOUNDFONT_DIR: /soundfonts
       MIDI_RESOURCES_DIR: /midi-resources
       MUSIC_COLLECTION_DIR: /music-collection
-      MUSIC_COLLECTION_INDEX_DIR: ${MUSIC_COLLECTION_INDEX_DIR:-/app/data/music-collection}
+      # Always use the in-container index mount; do not pass through host
+      # MUSIC_COLLECTION_INDEX_DIR (CLI scripts on the host set that separately).
+      MUSIC_COLLECTION_INDEX_DIR: /app/data/music-collection
       SOUNDFONT_DOWNLOAD_ENABLED: "${SOUNDFONT_DOWNLOAD_ENABLED:-true}"
       # Auth settings (REQUIRE_AUTH, GOOGLE_CLIENT_ID, ALLOWED_EMAILS, ALLOWED_ORIGINS)
       # come from .env via env_file above. Do NOT hardcode REQUIRE_AUTH here, because

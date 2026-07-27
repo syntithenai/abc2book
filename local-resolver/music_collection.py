@@ -8,6 +8,7 @@ import os
 import re
 import sys
 import threading
+import unicodedata
 from urllib.parse import quote
 
 from allowlists import email_allowed, load_free_access_emails, media_access_allowed, parse_email_allowlist
@@ -22,7 +23,7 @@ AUDIO_EXTENSIONS = frozenset({
     ".mp3", ".flac", ".m4a", ".aac", ".ogg", ".opus", ".wav", ".wma",
 })
 
-MAX_MUSIC_COLLECTION_SEARCH_RESULTS = 40
+MAX_MUSIC_COLLECTION_SEARCH_RESULTS = 50
 MAX_MUSIC_COLLECTION_FILE_BYTES = int(os.getenv("MAX_MUSIC_COLLECTION_BYTES", str(120 * 1024 * 1024)))
 
 _COMMON_WORDS = frozenset({
@@ -105,9 +106,15 @@ def music_collection_health_fields():
     }
 
 
+def _fold_search_text(text):
+    folded = unicodedata.normalize("NFKD", str(text or ""))
+    folded = "".join(ch for ch in folded if not unicodedata.combining(ch))
+    return folded.lower()
+
+
 def _strip_common_words(text):
     parts = []
-    for word in re.sub(r"[^a-z0-9 ]+", " ", str(text or "").lower()).split():
+    for word in re.sub(r"[^a-z0-9 ]+", " ", _fold_search_text(text)).split():
         if word and word not in _COMMON_WORDS:
             parts.append(word)
     return " ".join(parts)
@@ -120,10 +127,42 @@ def tokenize_music_search_query(text):
 
 def _tokenize_index_text(text):
     tokens = set()
-    for word in re.sub(r"[^a-z0-9 ]+", " ", str(text or "").lower()).split():
+    for word in re.sub(r"[^a-z0-9 ]+", " ", _fold_search_text(text)).split():
         if len(word) >= 3 and word not in _COMMON_WORDS:
             tokens.add(word)
     return tokens
+
+
+def _entry_metadata_tokens(entry):
+    entry_path = str(entry.get("path") or "").strip()
+    derived_title = title_from_audio_relative_path(entry_path) if entry_path else ""
+    filename = os.path.basename(entry_path) if entry_path else ""
+    filename_title, filename_artist = title_artist_from_filename(filename)
+    token_source = " ".join([
+        str(entry.get("title") or ""),
+        str(entry.get("artist") or ""),
+        str(entry.get("album") or ""),
+        str(entry.get("category") or ""),
+        str(entry.get("genre") or ""),
+        str(entry.get("composer") or ""),
+        derived_title,
+        filename_title,
+        filename_artist,
+    ])
+    return _tokenize_index_text(token_source)
+
+
+def _score_collection_text_match(entry_title, entry_artist, title, artist, query_parts):
+    score = score_title_artist_match(entry_title, entry_artist, title, artist)
+    if title and not artist:
+        score = max(score, score_title_artist_match(entry_title, entry_artist, "", title))
+    metadata_tokens = _tokenize_index_text(" ".join([entry_title, entry_artist]))
+    query_token_set = set(query_parts)
+    overlap = query_token_set & metadata_tokens
+    if overlap and score <= 0:
+        coverage = len(overlap) / max(len(query_token_set), 1)
+        score = max(score, int(coverage * 55))
+    return score, overlap
 
 
 def title_from_audio_relative_path(relative_path):
@@ -406,6 +445,25 @@ def _title_query_variants(title):
     return ordered
 
 
+_TITLE_SPLIT_STOP_WORDS = frozenset({
+    "a", "an", "and", "at", "by", "for", "from", "in", "of", "on", "or", "the", "to", "with",
+    "after", "before", "upon", "into", "over", "under",
+})
+
+
+def infer_title_artist_from_query(query: str) -> tuple[str, str]:
+    text = str(query or "").strip()
+    if not text:
+        return "", ""
+    words = text.split()
+    if len(words) < 4:
+        return text, ""
+    last_two = words[-2:]
+    if any(word.lower() in _TITLE_SPLIT_STOP_WORDS for word in last_two):
+        return text, ""
+    return " ".join(last_two), " ".join(words[:-2])
+
+
 def search_music_collection(title, artist="", limit=MAX_MUSIC_COLLECTION_SEARCH_RESULTS):
     index = load_music_collection_index()
     if not index:
@@ -442,7 +500,17 @@ def search_music_collection(title, artist="", limit=MAX_MUSIC_COLLECTION_SEARCH_
         entry_path = str(entry.get("path") or "").strip()
         if not entry_path:
             continue
-        text_score = score_title_artist_match(entry_title, entry_artist, title, artist)
+        metadata_tokens = _entry_metadata_tokens(entry)
+        metadata_overlap = set(query_parts) & metadata_tokens
+        text_score, _title_overlap = _score_collection_text_match(
+            entry_title,
+            entry_artist,
+            title,
+            artist,
+            query_parts,
+        )
+        if (title or artist) and text_score <= 0 and not metadata_overlap:
+            continue
         coverage = token_hits / max(query_token_count, 1)
         match_score = int((token_hits * 28) + (coverage * 42) + text_score)
         if query_token_count > 1 and token_hits < query_token_count:

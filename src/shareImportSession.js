@@ -7,6 +7,9 @@ import {
   importSinglePlaylistFromAbc,
 } from './playlistSyncClient'
 import {
+  mergePracticeListsFromTuneBookAbc,
+} from './practiceListSyncClient'
+import {
   registerSyncSourceAfterImport,
 } from './syncSourceImportUtils'
 
@@ -49,6 +52,9 @@ export function runPendingShareImportSideEffect() {
     return mergePerformanceSetsFromTuneBookAbc(effect.abcText, { interactive: false, applySilently: true })
       .then(function() {
         return mergePlaylistsFromTuneBookAbc(effect.abcText, { interactive: false, applySilently: true })
+      })
+      .then(function() {
+        return mergePracticeListsFromTuneBookAbc(effect.abcText, { interactive: false, applySilently: true })
       })
   }
   if (effect.scope === 'set' && effect.setId) {

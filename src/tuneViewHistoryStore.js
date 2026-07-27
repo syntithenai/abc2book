@@ -76,6 +76,19 @@ export function getRecentViewedTuneIds(limit) {
     .slice(0, max)
 }
 
+export function getRecentPlayedTuneIds(limit) {
+  const max = typeof limit === 'number' && limit > 0 ? limit : 40
+  const map = readMap()
+  return Object.keys(map)
+    .filter(function(id) {
+      return map[id] && map[id].lastPlayed > 0
+    })
+    .sort(function(a, b) {
+      return (map[b].lastPlayed || 0) - (map[a].lastPlayed || 0)
+    })
+    .slice(0, max)
+}
+
 export function recordTuneView(tuneId, options) {
   const id = tuneId != null ? String(tuneId).trim() : ''
   if (!id) return readMap()

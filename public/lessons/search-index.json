@@ -1,5 +1,2265 @@
 [
   {
+    "id": "theory-scales-major-advanced",
+    "title": "Major Scales — Advanced",
+    "snippet": "Major Scales — Advanced",
+    "section_titles": [
+      "Major Scales — Advanced",
+      "Overview",
+      "Modal mixture and borrowed colour",
+      "Tonicisation vs modulation",
+      "Scale networks",
+      "Representative depth (not exhaustive)"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "scales",
+      "modulation",
+      "tetrachords"
+    ]
+  },
+  {
+    "id": "theory-scales-major-applied",
+    "title": "Major Scales — Applied",
+    "snippet": "Major Scales — Applied",
+    "section_titles": [
+      "Major Scales — Applied",
+      "Overview",
+      "Key signatures and the circle of fifths",
+      "Tetrachords",
+      "Practical keys",
+      "Spiral link"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "scales",
+      "major",
+      "keys",
+      "circle-of-fifths"
+    ]
+  },
+  {
+    "id": "theory-scales-major-intro",
+    "title": "Major Scales — Introduction",
+    "snippet": "Major Scales — Introduction",
+    "section_titles": [
+      "Major Scales — Introduction",
+      "Overview",
+      "The WWHWWWH pattern",
+      "Scale degree names",
+      "First hearing goal"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "scales",
+      "major",
+      "foundations"
+    ]
+  },
+  {
+    "id": "theory-intervals-advanced",
+    "title": "Intervals — Advanced",
+    "snippet": "Intervals — Advanced",
+    "section_titles": [
+      "Intervals — Advanced",
+      "Overview",
+      "Enharmonic equivalence",
+      "Extended and altered intervals",
+      "World music note"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "intervals",
+      "microtonal",
+      "extended"
+    ]
+  },
+  {
+    "id": "theory-intervals-applied",
+    "title": "Intervals — Applied",
+    "snippet": "Intervals — Applied",
+    "section_titles": [
+      "Intervals — Applied",
+      "Overview",
+      "Inversion",
+      "Compound intervals",
+      "Harmonic use"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "intervals",
+      "harmony",
+      "compound"
+    ]
+  },
+  {
+    "id": "theory-intervals-intro",
+    "title": "Intervals — Introduction",
+    "snippet": "Intervals — Introduction",
+    "section_titles": [
+      "Intervals — Introduction",
+      "Overview",
+      "Size and quality",
+      "Core intervals from C"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "intervals",
+      "ear-training"
+    ]
+  },
+  {
+    "id": "theory-triads-advanced",
+    "title": "Triads — Applied Harmony and Colour",
+    "snippet": "Triads — Applied Harmony and Colour",
+    "section_titles": [
+      "Triads — Applied Harmony and Colour",
+      "Overview",
+      "Seventh chords",
+      "Extensions",
+      "Representative depth"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "triads",
+      "extensions",
+      "jazz"
+    ]
+  },
+  {
+    "id": "theory-triads-applied",
+    "title": "Triads — Applied",
+    "snippet": "Triads — Applied",
+    "section_titles": [
+      "Triads — Applied",
+      "Overview",
+      "Inversions",
+      "Voice-leading basics"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "triads",
+      "inversions",
+      "voice-leading"
+    ]
+  },
+  {
+    "id": "theory-triads-intro",
+    "title": "Triads — Introduction",
+    "snippet": "Triads — Introduction",
+    "section_titles": [
+      "Triads — Introduction",
+      "Overview",
+      "Qualities",
+      "Roman numerals in major"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "triads",
+      "chords"
+    ]
+  },
+  {
+    "id": "theory-cadences-advanced",
+    "title": "Cadences — Advanced and Historical",
+    "snippet": "Cadences — Advanced and Historical",
+    "section_titles": [
+      "Cadences — Advanced and Historical",
+      "Overview",
+      "Phrygian half cadence",
+      "Jazz turnaround",
+      "Evaded cadence"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "cadences",
+      "baroque",
+      "jazz-turnaround"
+    ]
+  },
+  {
+    "id": "theory-cadences-applied",
+    "title": "Cadences — Applied",
+    "snippet": "Cadences — Applied",
+    "section_titles": [
+      "Cadences — Applied",
+      "Overview",
+      "Phrase rhythm",
+      "Inversions at cadence"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "cadences",
+      "phrase",
+      "deceptive"
+    ]
+  },
+  {
+    "id": "theory-cadences-intro",
+    "title": "Cadences — Introduction",
+    "snippet": "Cadences — Introduction",
+    "section_titles": [
+      "Cadences — Introduction",
+      "Overview",
+      "Common types"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "cadences",
+      "harmony"
+    ]
+  },
+  {
+    "id": "legacy-foundations-staff-clefs-pitch",
+    "title": "The Staff, Clefs, and Pitch Names",
+    "snippet": "The Staff, Clefs, and Pitch Names",
+    "section_titles": [
+      "The Staff, Clefs, and Pitch Names",
+      "Overview",
+      "The treble clef (G clef)",
+      "The bass clef (F clef)",
+      "Pitch names and octaves",
+      "In practice"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "foundations",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-foundations-rhythm-meter",
+    "title": "Note Durations and Time Signatures",
+    "snippet": "Note Durations and Time Signatures",
+    "section_titles": [
+      "Note Durations and Time Signatures",
+      "Overview",
+      "Note values",
+      "Simple time signatures",
+      "Compound time signatures",
+      "Syncopation and pick-up notes",
+      "In practice"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "foundations",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-foundations-accidentals",
+    "title": "Sharps, Flats, and Accidentals",
+    "snippet": "Sharps, Flats, and Accidentals",
+    "section_titles": [
+      "Sharps, Flats, and Accidentals",
+      "Overview",
+      "The three accidentals",
+      "Key signatures",
+      "Accidentals within a measure",
+      "Enharmonic equivalents"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "foundations",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-foundations-major-scales",
+    "title": "Major Scales and the Leading Tone",
+    "snippet": "Major Scales and the Leading Tone",
+    "section_titles": [
+      "Major Scales and the Leading Tone",
+      "Overview",
+      "The WWHWWWH pattern",
+      "Scale degree names",
+      "Tetrachords",
+      "In practice"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "foundations",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-foundations-minor-scales",
+    "title": "Natural, Harmonic, and Melodic Minor",
+    "snippet": "Natural, Harmonic, and Melodic Minor",
+    "section_titles": [
+      "Natural, Harmonic, and Melodic Minor",
+      "Overview",
+      "Natural minor (Aeolian)",
+      "Harmonic minor",
+      "Melodic minor",
+      "In trad music"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "foundations",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-foundations-intervals",
+    "title": "Intervals",
+    "snippet": "Intervals",
+    "section_titles": [
+      "Intervals: Measuring Distance Between Notes",
+      "Overview",
+      "Naming intervals",
+      "Consonance and dissonance",
+      "Melodic vs harmonic",
+      "In practice"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "foundations",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-foundations-circle-of-fifths",
+    "title": "The Circle of Fifths and Key Signatures",
+    "snippet": "The Circle of Fifths and Key Signatures",
+    "section_titles": [
+      "The Circle of Fifths and Key Signatures",
+      "Overview",
+      "Sharp keys",
+      "Flat keys",
+      "Relative minors",
+      "In practice"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "foundations",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-foundations-modes",
+    "title": "Modes",
+    "snippet": "Modes",
+    "section_titles": [
+      "Modes: Dorian, Mixolydian, and Beyond",
+      "Overview",
+      "The seven modes",
+      "Modes in folk music",
+      "Modal harmony",
+      "Parallel vs relative"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "foundations",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-foundations-physics-of-sound",
+    "title": "Physics of Sound and Tuning",
+    "snippet": "Physics of Sound and Tuning",
+    "section_titles": [
+      "Physics of Sound and Tuning",
+      "Overview",
+      "Frequency and pitch",
+      "Harmonics and timbre",
+      "Tuning systems",
+      "Beats and consonance"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "foundations",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-italian-terms-tempo",
+    "title": "Italian Tempo Markings",
+    "snippet": "Italian Tempo Markings",
+    "section_titles": [
+      "Italian Tempo Markings",
+      "Overview",
+      "Common tempi",
+      "Modifiers",
+      "Metronome marks"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "italian",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-italian-terms-dynamics",
+    "title": "Dynamic Markings",
+    "snippet": "Dynamic Markings",
+    "section_titles": [
+      "Dynamic Markings: From Pianissimo to Fortissimo",
+      "Overview",
+      "Static dynamics",
+      "Changing dynamics",
+      "In ensemble"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "italian",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-italian-terms-articulation",
+    "title": "Articulation Marks",
+    "snippet": "Articulation Marks",
+    "section_titles": [
+      "Articulation Marks: Legato, Staccato, and Accents",
+      "Overview",
+      "Core markings",
+      "Ornaments",
+      "Instrument-specific"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "italian",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-italian-terms-form-labels",
+    "title": "Form Labels: D.C., D.S., Coda",
+    "snippet": "Form Labels: D.C., D.S., Coda",
+    "section_titles": [
+      "Form Labels: D.C., D.S., Coda, and Fine",
+      "Overview",
+      "Key terms",
+      "Practical use"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "italian",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-triads",
+    "title": "Triads",
+    "snippet": "Triads",
+    "section_titles": [
+      "Triads: Major, Minor, Diminished, and Augmented",
+      "Overview",
+      "Building triads",
+      "Roman numerals",
+      "In practice"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-inversions",
+    "title": "Triad Inversions",
+    "snippet": "Triad Inversions",
+    "section_titles": [
+      "Triad Inversions and Bass Notes",
+      "Overview",
+      "Three positions",
+      "Voice leading",
+      "Session use"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-seventh-chords",
+    "title": "Seventh Chords",
+    "snippet": "Seventh Chords",
+    "section_titles": [
+      "Seventh Chords and Their Qualities",
+      "Overview",
+      "Types",
+      "Guide tones",
+      "In trad"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-diatonic-major",
+    "title": "Diatonic Triads in Major Keys",
+    "snippet": "Diatonic Triads in Major Keys",
+    "section_titles": [
+      "Diatonic Triads in Major Keys",
+      "Overview",
+      "Pattern",
+      "Primary harmonies",
+      "Melody mapping"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-diatonic-minor",
+    "title": "Diatonic Harmony in Minor Keys",
+    "snippet": "Diatonic Harmony in Minor Keys",
+    "section_titles": [
+      "Diatonic Harmony in Minor Keys",
+      "Overview",
+      "Natural minor",
+      "Harmonic minor",
+      "Trad practice"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-extensions",
+    "title": "Chord Extensions",
+    "snippet": "Chord Extensions",
+    "section_titles": [
+      "Chord Extensions: 9ths, 11ths, and 13ths",
+      "Overview",
+      "Naming",
+      "Practice",
+      "Voicing"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-jazz-colour",
+    "title": "Altered Dominants and Jazz Colour",
+    "snippet": "Altered Dominants and Jazz Colour",
+    "section_titles": [
+      "Altered Dominants and Jazz Colour Chords",
+      "Overview",
+      "Altered dominants",
+      "Tritone substitution",
+      "Trad crossover"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-transposition-why-transpose",
+    "title": "Why Transpose?",
+    "snippet": "Why Transpose?",
+    "section_titles": [
+      "Why Transpose? Keys, Instruments, and Voices",
+      "Overview",
+      "Reasons",
+      "What changes",
+      "Concert vs written"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "transposition",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-transposition-melody",
+    "title": "Transposing Melodies",
+    "snippet": "Transposing Melodies",
+    "section_titles": [
+      "Transposing Melodies by Interval",
+      "Overview",
+      "Scale-degree method",
+      "Accidentals"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "transposition",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-transposition-chords",
+    "title": "Transposing Chord Progressions",
+    "snippet": "Transposing Chord Progressions",
+    "section_titles": [
+      "Transposing Chord Progressions",
+      "Overview",
+      "By letter",
+      "Nashville numbers",
+      "Non-diatonic chords"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "transposition",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-transposition-capo",
+    "title": "Capo Logic",
+    "snippet": "Capo Logic",
+    "section_titles": [
+      "Capo Logic for Guitar and Mandolin",
+      "Overview",
+      "How it works",
+      "Why use it",
+      "Communication"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "transposition",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-transposition-modes",
+    "title": "Modal Transposition",
+    "snippet": "Modal Transposition",
+    "section_titles": [
+      "Modes and Modal Transposition",
+      "Overview",
+      "Key signatures",
+      "Preserving colour"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "transposition",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-tendency-tones",
+    "title": "Tendency Tones and Resolution",
+    "snippet": "Tendency Tones and Resolution",
+    "section_titles": [
+      "Tendency Tones and Resolution",
+      "Overview",
+      "Leading tone",
+      "Tritone resolution",
+      "Melodic tendency"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-voice-leading",
+    "title": "Voice Leading Basics",
+    "snippet": "Voice Leading Basics",
+    "section_titles": [
+      "Voice Leading Basics",
+      "Overview",
+      "Principles",
+      "Classical rules",
+      "Session application"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-cadences",
+    "title": "Cadences",
+    "snippet": "Cadences",
+    "section_titles": [
+      "Cadences: Full, Half, Plagal, and Deceptive",
+      "Overview",
+      "Types",
+      "In dance tunes",
+      "Accompaniment"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-phrase-structure",
+    "title": "Phrase Structure",
+    "snippet": "Phrase Structure",
+    "section_titles": [
+      "Phrase Structure in Tunes and Songs",
+      "Overview",
+      "Grouping",
+      "Harmonic rhythm",
+      "Analysis skill"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-secondary-dominants",
+    "title": "Secondary Dominants",
+    "snippet": "Secondary Dominants",
+    "section_titles": [
+      "Secondary Dominants and Tonicisation",
+      "Overview",
+      "Labelling",
+      "In repertoire",
+      "Detection"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-modulation",
+    "title": "Modulation",
+    "snippet": "Modulation",
+    "section_titles": [
+      "Modulation: Changing Key Mid-Tune",
+      "Overview",
+      "Common moves",
+      "Detection",
+      "Trad context"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-chords-harmony-counterpoint",
+    "title": "Counterpoint",
+    "snippet": "Counterpoint",
+    "section_titles": [
+      "Counterpoint: Independent Melodic Lines",
+      "Overview",
+      "Species counterpoint",
+      "Motion types",
+      "In trad"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "chords",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-bach",
+    "title": "J.S. Bach",
+    "snippet": "J.S. Bach",
+    "section_titles": [
+      "J.S. Bach: Counterpoint and Dance Forms",
+      "Overview",
+      "Key works",
+      "Dance forms",
+      "Legacy for trad"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-mozart",
+    "title": "Mozart",
+    "snippet": "Mozart",
+    "section_titles": [
+      "Mozart: Clarity, Balance, and Melody",
+      "Overview",
+      "Contributions",
+      "Phrasing model",
+      "For trad players"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-beethoven",
+    "title": "Beethoven",
+    "snippet": "Beethoven",
+    "section_titles": [
+      "Beethoven: Drama, Form, and Expansion",
+      "Overview",
+      "Innovations",
+      "Motivic development",
+      "Cultural impact"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-chopin",
+    "title": "Chopin",
+    "snippet": "Chopin",
+    "section_titles": [
+      "Chopin: Piano Colour and Rubato",
+      "Overview",
+      "Technique",
+      "Rubato",
+      "National dances"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-debussy",
+    "title": "Debussy",
+    "snippet": "Debussy",
+    "section_titles": [
+      "Debussy: Colour, Modes, and New Sonorities",
+      "Overview",
+      "Key works",
+      "Scales",
+      "Voicing"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-armstrong",
+    "title": "Louis Armstrong",
+    "snippet": "Louis Armstrong",
+    "section_titles": [
+      "Louis Armstrong: Swing, Phrasing, and Improvisation",
+      "Overview",
+      "Recordings",
+      "Swing",
+      "Storytelling"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-ellington",
+    "title": "Duke Ellington",
+    "snippet": "Duke Ellington",
+    "section_titles": [
+      "Duke Ellington: Band Colour and Composition",
+      "Overview",
+      "Masterworks",
+      "Orchestration",
+      "Arranging"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-parker",
+    "title": "Charlie Parker",
+    "snippet": "Charlie Parker",
+    "section_titles": [
+      "Charlie Parker: Bebop and Harmonic Velocity",
+      "Overview",
+      "Compositions",
+      "Practice ethic",
+      "For trad improvisers"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-trad-collectors",
+    "title": "Folk Collectors and Revivals",
+    "snippet": "Folk Collectors and Revivals",
+    "section_titles": [
+      "Collectors and Revivals: Saving Oral Tradition",
+      "Overview",
+      "Key figures",
+      "Critical reading",
+      "Modern chain"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-composers-women-in-music",
+    "title": "Women in Music History",
+    "snippet": "Women in Music History",
+    "section_titles": [
+      "Women in Music History: Composers and Tradition Bearers",
+      "Overview",
+      "Composers",
+      "Tradition bearers",
+      "Today"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-styles-baroque-style",
+    "title": "Baroque Style",
+    "snippet": "Baroque Style",
+    "section_titles": [
+      "Baroque Style: Ornament, Continuo, and Dance",
+      "Overview",
+      "Continuo",
+      "Ornamentation",
+      "Dance suites"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "styles",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-styles-classical-style",
+    "title": "Classical Style",
+    "snippet": "Classical Style",
+    "section_titles": [
+      "Classical Style: Balance and Sonata Form",
+      "Overview",
+      "Texture",
+      "Sonata form",
+      "Ensemble"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "styles",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-styles-romantic-style",
+    "title": "Romantic Style",
+    "snippet": "Romantic Style",
+    "section_titles": [
+      "Romantic Style: Expression and Expanded Harmony",
+      "Overview",
+      "Harmony",
+      "In trad"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "styles",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-styles-folk-dances",
+    "title": "Reels, Jigs, Waltzes, Hornpipes",
+    "snippet": "Reels, Jigs, Waltzes, Hornpipes",
+    "section_titles": [
+      "Reels, Jigs, Waltzes, and Hornpipes",
+      "Overview",
+      "Reels",
+      "Jigs",
+      "Waltzes and hornpipes"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "styles",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-styles-blues",
+    "title": "Blues",
+    "snippet": "Blues",
+    "section_titles": [
+      "Blues: Form, Scale, and Expression",
+      "Overview",
+      "Twelve-bar blues",
+      "Blues scale",
+      "Folk intersection"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "styles",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-styles-jazz",
+    "title": "Jazz Basics",
+    "snippet": "Jazz Basics",
+    "section_titles": [
+      "Jazz Basics: Swing, Standards, and Changes",
+      "Overview",
+      "Lead sheets",
+      "Harmony",
+      "Folk crossover"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "styles",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-styles-pop",
+    "title": "Pop Song Craft",
+    "snippet": "Pop Song Craft",
+    "section_titles": [
+      "Pop Song Craft: Hooks, Verse-Chorus, and Production",
+      "Overview",
+      "Chord loops",
+      "Production",
+      "Form"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "styles",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-styles-modes-folk",
+    "title": "Modes in Folk Practice",
+    "snippet": "Modes in Folk Practice",
+    "section_titles": [
+      "Modes in Folk Practice",
+      "Overview",
+      "Dorian",
+      "Mixolydian",
+      "Harmonising"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "styles",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-styles-modern-fusion",
+    "title": "Modern Folk Fusion",
+    "snippet": "Modern Folk Fusion",
+    "section_titles": [
+      "Modern and Contemporary Folk Fusion",
+      "Overview",
+      "Landmarks",
+      "Practice",
+      "Principle"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "styles",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-singing-breath",
+    "title": "Breath Support",
+    "snippet": "Breath Support",
+    "section_titles": [
+      "Breath Support for Singers",
+      "Overview",
+      "Low breath",
+      "Phrase planning",
+      "Rebound breath",
+      "Try this"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "singing",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-singing-warmups",
+    "title": "Warm-Up Routines",
+    "snippet": "Warm-Up Routines",
+    "section_titles": [
+      "Vocal Warm-Up Routines",
+      "Overview",
+      "Progressive sequence",
+      "Hum wake-up",
+      "Lip trill",
+      "Ng–ah",
+      "Safety"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "singing",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-singing-tone",
+    "title": "Tone Production",
+    "snippet": "Tone Production",
+    "section_titles": [
+      "Tone Production",
+      "Overview",
+      "Resonance",
+      "Vowel uniformity",
+      "Folk context",
+      "Avoid"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "singing",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-singing-pitch",
+    "title": "Pitch and Intonation",
+    "snippet": "Pitch and Intonation",
+    "section_titles": [
+      "Pitch and Intonation",
+      "Overview",
+      "Listening",
+      "Intonation",
+      "Tools",
+      "Trad tunes"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "singing",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-singing-diction",
+    "title": "Diction and Lyrics",
+    "snippet": "Diction and Lyrics",
+    "section_titles": [
+      "Diction and Lyrics",
+      "Overview",
+      "Consonants",
+      "Vowels on long notes",
+      "Microphone",
+      "Lyric sheets"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "singing",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-singing-expression",
+    "title": "Expression and Storytelling",
+    "snippet": "Expression and Storytelling",
+    "section_titles": [
+      "Expression and Storytelling",
+      "Overview",
+      "Dynamics and colour",
+      "Rubato in folk",
+      "Narrative arc",
+      "Variation"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "singing",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-singing-vocal-health",
+    "title": "Vocal Health",
+    "snippet": "Vocal Health",
+    "section_titles": [
+      "Vocal Health",
+      "Overview",
+      "Hydration",
+      "Rest",
+      "Warm-up and cool-down",
+      "Warning signs",
+      "Environment"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "singing",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-violin-fiddle",
+    "title": "Violin and Fiddle",
+    "snippet": "Violin and Fiddle",
+    "section_titles": [
+      "Violin and Fiddle",
+      "Overview",
+      "Construction",
+      "Playing technique",
+      "Range and role"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-piano",
+    "title": "Piano",
+    "snippet": "Piano",
+    "section_titles": [
+      "Piano",
+      "Overview",
+      "Mechanism",
+      "Types",
+      "In music"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-guitar",
+    "title": "Guitar",
+    "snippet": "Guitar",
+    "section_titles": [
+      "Guitar",
+      "Overview",
+      "Types",
+      "Technique",
+      "In trad"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-flute-whistle",
+    "title": "Flute and Tin Whistle",
+    "snippet": "Flute and Tin Whistle",
+    "section_titles": [
+      "Flute and Tin Whistle",
+      "Overview",
+      "Concert flute",
+      "Tin whistle",
+      "Wooden flute"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-uilleann-pipes",
+    "title": "Uilleann Pipes",
+    "snippet": "Uilleann Pipes",
+    "section_titles": [
+      "Uilleann Pipes",
+      "Overview",
+      "Components",
+      "Chromatic capability",
+      "History"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-harp",
+    "title": "Harp",
+    "snippet": "Harp",
+    "section_titles": [
+      "Harp",
+      "Overview",
+      "Irish harp",
+      "Concert harp",
+      "Technique"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-accordion",
+    "title": "Accordion and Concertina",
+    "snippet": "Accordion and Concertina",
+    "section_titles": [
+      "Accordion and Concertina",
+      "Overview",
+      "Types",
+      "In trad",
+      "Mechanism"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-mandolin-banjo",
+    "title": "Mandolin and Banjo",
+    "snippet": "Mandolin and Banjo",
+    "section_titles": [
+      "Mandolin and Banjo",
+      "Overview",
+      "Mandolin",
+      "Banjo",
+      "In sessions"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-cello-bass",
+    "title": "Cello and Double Bass",
+    "snippet": "Cello and Double Bass",
+    "section_titles": [
+      "Cello and Double Bass",
+      "Overview",
+      "Cello",
+      "Double bass",
+      "Technique"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-brass",
+    "title": "Brass: Trumpet and Trombone",
+    "snippet": "Brass: Trumpet and Trombone",
+    "section_titles": [
+      "Brass: Trumpet and Trombone",
+      "Overview",
+      "Trumpet",
+      "Trombone",
+      "French horn, tuba"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-reed-winds",
+    "title": "Clarinet and Saxophone",
+    "snippet": "Clarinet and Saxophone",
+    "section_titles": [
+      "Clarinet and Saxophone",
+      "Overview",
+      "Clarinet",
+      "Saxophone",
+      "Double reeds"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-percussion",
+    "title": "Bodhrán and Percussion",
+    "snippet": "Bodhrán and Percussion",
+    "section_titles": [
+      "Bodhrán and Percussion",
+      "Overview",
+      "Bodhrán",
+      "Technique",
+      "Other trad percussion"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-voice",
+    "title": "Voice as Instrument",
+    "snippet": "Voice as Instrument",
+    "section_titles": [
+      "Voice as Instrument",
+      "Overview",
+      "Registers",
+      "Voice types",
+      "Styles",
+      "Health"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-instruments-organ",
+    "title": "Organ",
+    "snippet": "Organ",
+    "section_titles": [
+      "Organ",
+      "Overview",
+      "Mechanism",
+      "Sound",
+      "Composers",
+      "Related"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "instruments",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-music-periods-medieval",
+    "title": "Medieval Music (500–1400)",
+    "snippet": "Medieval Music (500–1400)",
+    "section_titles": [
+      "Medieval Music (500–1400)",
+      "Overview",
+      "Gregorian chant",
+      "Early polyphony",
+      "Instruments"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-music-periods-renaissance",
+    "title": "Renaissance Music (1400–1600)",
+    "snippet": "Renaissance Music (1400–1600)",
+    "section_titles": [
+      "Renaissance Music (1400–1600)",
+      "Overview",
+      "Polyphony",
+      "Instruments",
+      "Reformation impact"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-music-periods-baroque-era",
+    "title": "Baroque Era Overview",
+    "snippet": "Baroque Era Overview",
+    "section_titles": [
+      "Baroque Era Overview (1600–1750)",
+      "Overview",
+      "Features",
+      "Forms",
+      "Trad link"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-music-periods-classical-era",
+    "title": "Classical Era Overview",
+    "snippet": "Classical Era Overview",
+    "section_titles": [
+      "Classical Era Overview (1750–1820)",
+      "Overview",
+      "Ensemble",
+      "Public concerts",
+      "Piano replaces harpsichord"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-music-periods-romantic-era",
+    "title": "Romantic Era Overview",
+    "snippet": "Romantic Era Overview",
+    "section_titles": [
+      "Romantic Era Overview (1810–1900)",
+      "Overview",
+      "Composers",
+      "Nationalism",
+      "Virtuosity"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-music-periods-twentieth-century",
+    "title": "20th Century and Beyond",
+    "snippet": "20th Century and Beyond",
+    "section_titles": [
+      "20th Century and Beyond",
+      "Overview",
+      "Movements",
+      "Technology",
+      "Trad revival"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "history",
+      "legacy"
+    ]
+  },
+  {
+    "id": "regions-celtic-brittany-01-overview",
+    "title": "Breton Traditional Music — Overview",
+    "snippet": "Breton Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Breton Traditional Music — Overview",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Breton Traditional Music rewards comparative study with Ireland.",
+      "Focus: Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks..",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. revival movements from the mid-twentieth century rebuilt regional pride alongside pan-celtic festival networks. connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "brittany",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ]
+  },
+  {
+    "id": "regions-celtic-brittany-02-instruments-voices-i",
+    "title": "Breton Traditional Instruments — Traditional Voices I",
+    "snippet": "Breton Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Breton Traditional Instruments — Traditional Voices I",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Breton Traditional Music rewards comparative study with Ireland.",
+      "Focus: bombard, binou (Breton bagpipe), fiddle, and harp.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Bombard, binou (breton bagpipe), fiddle, and harp connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "brittany",
+      "celtic",
+      "instruments",
+      "melody"
+    ]
+  },
+  {
+    "id": "regions-celtic-brittany-03-instruments-voices-ii",
+    "title": "Breton Traditional Instruments — Session Voices II",
+    "snippet": "Breton Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Breton Traditional Instruments — Session Voices II",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Breton Traditional Music rewards comparative study with Ireland.",
+      "Focus: accordion, guitar, and bagad (pipe band) ensembles.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Accordion, guitar, and bagad (pipe band) ensembles connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "brittany",
+      "celtic",
+      "instruments",
+      "session"
+    ]
+  },
+  {
+    "id": "regions-celtic-brittany-04-genres-forms",
+    "title": "Breton Traditional Music — Tunes, Forms, and Style",
+    "snippet": "Breton Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Breton Traditional Music — Tunes, Forms, and Style",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Breton Traditional Music rewards comparative study with Ireland.",
+      "Focus: gavotte, plinn, mazurka, and son dance tunes.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Gavotte, plinn, mazurka, and son dance tunes connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "brittany",
+      "celtic",
+      "forms",
+      "style"
+    ]
+  },
+  {
+    "id": "regions-celtic-brittany-05-dance",
+    "title": "Breton Traditional Music — Dance and Rhythm",
+    "snippet": "Breton Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Breton Traditional Music — Dance and Rhythm",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Breton Traditional Music rewards comparative study with Ireland.",
+      "Focus: fest-noz circle dances and regional choreographies.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Fest-noz circle dances and regional choreographies connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "brittany",
+      "celtic",
+      "dance",
+      "rhythm"
+    ]
+  },
+  {
+    "id": "regions-celtic-brittany-06-history",
+    "title": "Breton Traditional Music — History, Revival, and Transmission",
+    "snippet": "Breton Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Breton Traditional Music — History, Revival, and Transmission",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Breton Traditional Music rewards comparative study with Ireland.",
+      "Focus: bagad revival, Alan Stivell's fusion era, and archival song collections.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Bagad revival, alan stivell's fusion era, and archival song collections connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "brittany",
+      "celtic",
+      "history",
+      "revival"
+    ]
+  },
+  {
+    "id": "regions-celtic-brittany-07-representative-depth",
+    "title": "Breton Traditional Music — Representative Fusions and Scenes",
+    "snippet": "Breton Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Breton Traditional Music — Representative Fusions and Scenes",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Breton Traditional Music rewards comparative study with Ireland.",
+      "Focus: fest-noz floors versus concert-stage fusion bands.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Fest-noz floors versus concert-stage fusion bands connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "brittany",
+      "celtic",
+      "fusion",
+      "scenes"
+    ]
+  },
+  {
+    "id": "regions-celtic-brittany-08-tunes",
+    "title": "Breton Traditional Music — Tunes — Forms, History, and Recordings",
+    "snippet": "Breton Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Breton Traditional Music — Tunes — Forms, History, and Recordings",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Breton Traditional Music rewards comparative study with Ireland.",
+      "Focus: Suite Sudarmoricaine repertoire and classic fest-noz sets.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Suite sudarmoricaine repertoire and classic fest-noz sets connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "brittany",
+      "celtic",
+      "tunes",
+      "recordings"
+    ]
+  },
+  {
+    "id": "regions-celtic-comparative-01-what-celtic-means",
+    "title": "What \"Celtic Music\" Means",
+    "snippet": "Ireland is the anchor; comparison adds precision.",
+    "section_titles": [
+      "What \"Celtic Music\" Means",
+      "Overview",
+      "Compared with Ireland",
+      "Key points"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Ireland is the anchor; comparison adds precision.",
+      "Shared instruments differ by social role.",
+      "Tune forms require dance-context listening.",
+      "Revival paths diverge by institution.",
+      "Avoid Celtic marketing cliché.",
+      "\"Celtic\" is a useful map, not a single repertoire.",
+      "Ireland provides one deep anchor; other nations add necessary contrast.",
+      "Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ]
+  },
+  {
+    "id": "regions-celtic-comparative-02-shared-instruments",
+    "title": "Shared Instruments Compared",
+    "snippet": "Ireland is the anchor; comparison adds precision.",
+    "section_titles": [
+      "Shared Instruments Compared",
+      "Overview",
+      "Compared with Ireland",
+      "Key points"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Ireland is the anchor; comparison adds precision.",
+      "Shared instruments differ by social role.",
+      "Tune forms require dance-context listening.",
+      "Revival paths diverge by institution.",
+      "Avoid Celtic marketing cliché.",
+      "\"Celtic\" is a useful map, not a single repertoire.",
+      "Ireland provides one deep anchor; other nations add necessary contrast.",
+      "Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ]
+  },
+  {
+    "id": "regions-celtic-comparative-03-tune-forms-compared",
+    "title": "Tune Forms Compared",
+    "snippet": "Ireland is the anchor; comparison adds precision.",
+    "section_titles": [
+      "Tune Forms Compared",
+      "Overview",
+      "Compared with Ireland",
+      "Key points"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Ireland is the anchor; comparison adds precision.",
+      "Shared instruments differ by social role.",
+      "Tune forms require dance-context listening.",
+      "Revival paths diverge by institution.",
+      "Avoid Celtic marketing cliché.",
+      "\"Celtic\" is a useful map, not a single repertoire.",
+      "Ireland provides one deep anchor; other nations add necessary contrast.",
+      "Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ]
+  },
+  {
+    "id": "regions-celtic-comparative-04-revivals-compared",
+    "title": "Revivals Compared",
+    "snippet": "Ireland is the anchor; comparison adds precision.",
+    "section_titles": [
+      "Revivals Compared",
+      "Overview",
+      "Compared with Ireland",
+      "Key points"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Ireland is the anchor; comparison adds precision.",
+      "Shared instruments differ by social role.",
+      "Tune forms require dance-context listening.",
+      "Revival paths diverge by institution.",
+      "Avoid Celtic marketing cliché.",
+      "\"Celtic\" is a useful map, not a single repertoire.",
+      "Ireland provides one deep anchor; other nations add necessary contrast.",
+      "Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ]
+  },
+  {
+    "id": "regions-celtic-diaspora-01-cape-breton",
+    "title": "Cape Breton Fiddle and Dance",
+    "snippet": "Diaspora scenes remix Irish/Scottish roots.",
+    "section_titles": [
+      "Cape Breton Fiddle and Dance",
+      "Overview",
+      "Compared with Ireland",
+      "Key points"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Diaspora scenes remix Irish/Scottish roots.",
+      "Compare accents—not only tune names.",
+      "Festivals link fringe regions to wider Celtic network.",
+      "Use Ireland unit as reference tradition.",
+      "Playlist study beats generic compilations.",
+      "Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.",
+      "Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.",
+      "Festivals and archives connect fringe regions to the pan-Celtic circuit."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cape-breton",
+      "diaspora",
+      "fiddle"
+    ]
+  },
+  {
+    "id": "regions-celtic-diaspora-02-galicia-asturias",
+    "title": "Galicia & Asturias",
+    "snippet": "Diaspora scenes remix Irish/Scottish roots.",
+    "section_titles": [
+      "Galicia & Asturias",
+      "Overview",
+      "Compared with Ireland",
+      "Key points"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Diaspora scenes remix Irish/Scottish roots.",
+      "Compare accents—not only tune names.",
+      "Festivals link fringe regions to wider Celtic network.",
+      "Use Ireland unit as reference tradition.",
+      "Playlist study beats generic compilations.",
+      "Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.",
+      "Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.",
+      "Festivals and archives connect fringe regions to the pan-Celtic circuit."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ]
+  },
+  {
+    "id": "regions-celtic-diaspora-03-cornwall-man",
+    "title": "Cornwall & Isle of Man",
+    "snippet": "Diaspora scenes remix Irish/Scottish roots.",
+    "section_titles": [
+      "Cornwall & Isle of Man",
+      "Overview",
+      "Compared with Ireland",
+      "Key points"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Diaspora scenes remix Irish/Scottish roots.",
+      "Compare accents—not only tune names.",
+      "Festivals link fringe regions to wider Celtic network.",
+      "Use Ireland unit as reference tradition.",
+      "Playlist study beats generic compilations.",
+      "Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.",
+      "Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.",
+      "Festivals and archives connect fringe regions to the pan-Celtic circuit."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ]
+  },
+  {
+    "id": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "title": "Pan-Celtic Festivals and Institutions",
+    "snippet": "Diaspora scenes remix Irish/Scottish roots.",
+    "section_titles": [
+      "Pan-Celtic Festivals and Institutions",
+      "Overview",
+      "Compared with Ireland",
+      "Key points"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Diaspora scenes remix Irish/Scottish roots.",
+      "Compare accents—not only tune names.",
+      "Festivals link fringe regions to wider Celtic network.",
+      "Use Ireland unit as reference tradition.",
+      "Playlist study beats generic compilations.",
+      "Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.",
+      "Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.",
+      "Festivals and archives connect fringe regions to the pan-Celtic circuit."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ]
+  },
+  {
+    "id": "regions-celtic-diaspora-05-listening-across-borders",
+    "title": "Listening Across Borders",
+    "snippet": "Diaspora scenes remix Irish/Scottish roots.",
+    "section_titles": [
+      "Listening Across Borders",
+      "Overview",
+      "Compared with Ireland",
+      "Key points"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Diaspora scenes remix Irish/Scottish roots.",
+      "Compare accents—not only tune names.",
+      "Festivals link fringe regions to wider Celtic network.",
+      "Use Ireland unit as reference tradition.",
+      "Playlist study beats generic compilations.",
+      "Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.",
+      "Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.",
+      "Festivals and archives connect fringe regions to the pan-Celtic circuit."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ]
+  },
+  {
     "id": "regions-celtic-ireland-01-overview",
     "title": "Irish Traditional Music — Overview",
     "snippet": "Comhaltas Ceoltóirí Éireann, Irish Traditional Music Archive, Fleadh Cheoil na hÉireann, Irish traditional music is oral, regional, and session-based — not one uniform style.",
@@ -608,6 +2868,641 @@
       "reel",
       "jig",
       "recordings"
+    ]
+  },
+  {
+    "id": "regions-celtic-scotland-01-overview",
+    "title": "Scottish Traditional Music — Overview",
+    "snippet": "Scottish Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Scottish Traditional Music — Overview",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Scottish Traditional Music rewards comparative study with Ireland.",
+      "Focus: Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages..",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Scottish traditional music spans highland and lowland streams: fiddle dance music, highland bagpipes, gaelic song, scots song, and the social world of ceilidhs and folk clubs. sessions exist in pubs and festivals, but pipe band competitions and highland games remain uniquely visible public stages. connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "scotland",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ]
+  },
+  {
+    "id": "regions-celtic-scotland-02-instruments-voices-i",
+    "title": "Scottish Traditional Instruments — Traditional Voices I",
+    "snippet": "Scottish Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Scottish Traditional Instruments — Traditional Voices I",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Scottish Traditional Music rewards comparative study with Ireland.",
+      "Focus: fiddle, Highland bagpipes, smallpipes, whistle, and clàrsach (Scottish harp).",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Fiddle, highland bagpipes, smallpipes, whistle, and clàrsach (scottish harp) connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "melody"
+    ]
+  },
+  {
+    "id": "regions-celtic-scotland-03-instruments-voices-ii",
+    "title": "Scottish Traditional Instruments — Session Voices II",
+    "snippet": "Scottish Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Scottish Traditional Instruments — Session Voices II",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Scottish Traditional Music rewards comparative study with Ireland.",
+      "Focus: accordion, piano, guitar, bodhrán-style percussion, and cello in folk ensembles.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Accordion, piano, guitar, bodhrán-style percussion, and cello in folk ensembles connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "session"
+    ]
+  },
+  {
+    "id": "regions-celtic-scotland-04-genres-forms",
+    "title": "Scottish Traditional Music — Tunes, Forms, and Style",
+    "snippet": "Scottish Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Scottish Traditional Music — Tunes, Forms, and Style",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Scottish Traditional Music rewards comparative study with Ireland.",
+      "Focus: reels, strathspeys, jigs, hornpipes, slow airs, and puirt à beul (mouth music).",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Reels, strathspeys, jigs, hornpipes, slow airs, and puirt à beul (mouth music) connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "scotland",
+      "celtic",
+      "forms",
+      "style"
+    ]
+  },
+  {
+    "id": "regions-celtic-scotland-05-dance",
+    "title": "Scottish Traditional Music — Dance and Rhythm",
+    "snippet": "Scottish Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Scottish Traditional Music — Dance and Rhythm",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Scottish Traditional Music rewards comparative study with Ireland.",
+      "Focus: ceilidh sets, Highland dancing, step dance, and pipe band drumming.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Ceilidh sets, highland dancing, step dance, and pipe band drumming connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "scotland",
+      "celtic",
+      "dance",
+      "rhythm"
+    ]
+  },
+  {
+    "id": "regions-celtic-scotland-06-history",
+    "title": "Scottish Traditional Music — History, Revival, and Transmission",
+    "snippet": "Scottish Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Scottish Traditional Music — History, Revival, and Transmission",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Scottish Traditional Music rewards comparative study with Ireland.",
+      "Focus: collectors, BBC broadcasting, the folk revival, and piping competitions.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Collectors, bbc broadcasting, the folk revival, and piping competitions connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "scotland",
+      "celtic",
+      "history",
+      "revival"
+    ]
+  },
+  {
+    "id": "regions-celtic-scotland-07-representative-depth",
+    "title": "Scottish Traditional Music — Representative Fusions and Scenes",
+    "snippet": "Scottish Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Scottish Traditional Music — Representative Fusions and Scenes",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Scottish Traditional Music rewards comparative study with Ireland.",
+      "Focus: Battlefield Band, Capercaillie, pub sessions versus games season.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Battlefield band, capercaillie, pub sessions versus games season connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "scotland",
+      "celtic",
+      "fusion",
+      "scenes"
+    ]
+  },
+  {
+    "id": "regions-celtic-scotland-08-tunes",
+    "title": "Scottish Traditional Music — Tunes — Forms, History, and Recordings",
+    "snippet": "Scottish Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Scottish Traditional Music — Tunes — Forms, History, and Recordings",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Scottish Traditional Music rewards comparative study with Ireland.",
+      "Focus: The Mason's Apron, Drummond Castle, and classic strathspey/reel recordings.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "The mason's apron, drummond castle, and classic strathspey/reel recordings connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "scotland",
+      "celtic",
+      "tunes",
+      "recordings"
+    ]
+  },
+  {
+    "id": "regions-celtic-wales-01-overview",
+    "title": "Welsh Traditional Music — Overview",
+    "snippet": "Welsh Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Welsh Traditional Music — Overview",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Welsh Traditional Music rewards comparative study with Ireland.",
+      "Focus: Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora..",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. the eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across wales and the diaspora. connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ]
+  },
+  {
+    "id": "regions-celtic-wales-02-instruments-voices-i",
+    "title": "Welsh Traditional Instruments — Traditional Voices I",
+    "snippet": "Welsh Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Welsh Traditional Instruments — Traditional Voices I",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Welsh Traditional Music rewards comparative study with Ireland.",
+      "Focus: fiddle, triple harp, pibgorn, and crwth in historical context.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Fiddle, triple harp, pibgorn, and crwth in historical context connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "melody"
+    ]
+  },
+  {
+    "id": "regions-celtic-wales-03-instruments-voices-ii",
+    "title": "Welsh Traditional Instruments — Session Voices II",
+    "snippet": "Welsh Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Welsh Traditional Instruments — Session Voices II",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Welsh Traditional Music rewards comparative study with Ireland.",
+      "Focus: guitar, accordion, and contemporary folk ensemble voices.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Guitar, accordion, and contemporary folk ensemble voices connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "session"
+    ]
+  },
+  {
+    "id": "regions-celtic-wales-04-genres-forms",
+    "title": "Welsh Traditional Music — Tunes, Forms, and Style",
+    "snippet": "Welsh Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Welsh Traditional Music — Tunes, Forms, and Style",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Welsh Traditional Music rewards comparative study with Ireland.",
+      "Focus: plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "wales",
+      "celtic",
+      "forms",
+      "style"
+    ]
+  },
+  {
+    "id": "regions-celtic-wales-05-dance",
+    "title": "Welsh Traditional Music — Dance and Rhythm",
+    "snippet": "Welsh Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Welsh Traditional Music — Dance and Rhythm",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Welsh Traditional Music rewards comparative study with Ireland.",
+      "Focus: twmpath dances, clog stepping, and hwyl in communal singing.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Twmpath dances, clog stepping, and hwyl in communal singing connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "wales",
+      "celtic",
+      "dance",
+      "rhythm"
+    ]
+  },
+  {
+    "id": "regions-celtic-wales-06-history",
+    "title": "Welsh Traditional Music — History, Revival, and Transmission",
+    "snippet": "Welsh Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Welsh Traditional Music — History, Revival, and Transmission",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Welsh Traditional Music rewards comparative study with Ireland.",
+      "Focus: chapel influence, industrial south Wales, and the 1970s folk revival.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Chapel influence, industrial south wales, and the 1970s folk revival connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "wales",
+      "celtic",
+      "history",
+      "revival"
+    ]
+  },
+  {
+    "id": "regions-celtic-wales-07-representative-depth",
+    "title": "Welsh Traditional Music — Representative Fusions and Scenes",
+    "snippet": "Welsh Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Welsh Traditional Music — Representative Fusions and Scenes",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Welsh Traditional Music rewards comparative study with Ireland.",
+      "Focus: Bob Delyn a'r Ebillion, festival culture, and choral crossover.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Bob delyn a'r ebillion, festival culture, and choral crossover connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "wales",
+      "celtic",
+      "fusion",
+      "scenes"
+    ]
+  },
+  {
+    "id": "regions-celtic-wales-08-tunes",
+    "title": "Welsh Traditional Music — Tunes — Forms, History, and Recordings",
+    "snippet": "Welsh Traditional Music rewards comparative study with Ireland.",
+    "section_titles": [
+      "Welsh Traditional Music — Tunes — Forms, History, and Recordings",
+      "Overview",
+      "Compared with Ireland",
+      "Core material",
+      "Listening and study habits",
+      "Key points",
+      "Reading list"
+    ],
+    "entity_names": [],
+    "key_points": [
+      "Welsh Traditional Music rewards comparative study with Ireland.",
+      "Focus: Ar Lan y Môr, Cader Idris, and classic harp/fiddle recordings.",
+      "Listen for regional accent, not generic Celtic cliché.",
+      "Sessions, festivals, and archives all transmit repertoire.",
+      "Dance metre and tune form belong together in study.",
+      "Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.",
+      "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
+      "Ar lan y môr, cader idris, and classic harp/fiddle recordings connects to dance, song, and community context—not isolated technique only."
+    ],
+    "playlist_labels": [],
+    "tags": [
+      "wales",
+      "celtic",
+      "tunes",
+      "recordings"
+    ]
+  },
+  {
+    "id": "legacy-form-analysis-musical-form",
+    "title": "Binary, Ternary, and Rondo Form",
+    "snippet": "Binary, Ternary, and Rondo Form",
+    "section_titles": [
+      "Binary, Ternary, and Rondo Form",
+      "Overview",
+      "Binary (AB)",
+      "Ternary (ABA)",
+      "Rondo",
+      "Sonata form",
+      "Trad tunes"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "theory",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-form-analysis-texture",
+    "title": "Texture: Monophony to Polyphony",
+    "snippet": "Texture: Monophony to Polyphony",
+    "section_titles": [
+      "Texture: Monophony to Polyphony",
+      "Overview",
+      "Monophony",
+      "Homophony",
+      "Polyphony",
+      "Heterophony",
+      "Density"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "theory",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-form-analysis-figured-bass",
+    "title": "Figured Bass and Continuo",
+    "snippet": "Figured Bass and Continuo",
+    "section_titles": [
+      "Figured Bass and Continuo Practice",
+      "Overview",
+      "Figures",
+      "Realisation",
+      "Modern relevance"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "theory",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-ear-training-interval-recognition",
+    "title": "Interval Recognition",
+    "snippet": "Interval Recognition",
+    "section_titles": [
+      "Interval Recognition",
+      "Overview",
+      "Consonant intervals",
+      "Dissonant intervals",
+      "Reference songs",
+      "Practice"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "theory",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-ear-training-chord-recognition",
+    "title": "Chord Quality by Ear",
+    "snippet": "Chord Quality by Ear",
+    "section_titles": [
+      "Chord Quality by Ear",
+      "Overview",
+      "Triad quality",
+      "Seventh chords",
+      "Bass note",
+      "Progressions"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "theory",
+      "legacy"
+    ]
+  },
+  {
+    "id": "legacy-ear-training-rhythm-dictation",
+    "title": "Rhythm Dictation",
+    "snippet": "Rhythm Dictation",
+    "section_titles": [
+      "Rhythm Dictation",
+      "Overview",
+      "Subdivision",
+      "Patterns",
+      "Notation",
+      "Practice"
+    ],
+    "entity_names": [],
+    "key_points": [],
+    "playlist_labels": [],
+    "tags": [
+      "theory",
+      "legacy"
     ]
   }
 ]

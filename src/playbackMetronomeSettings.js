@@ -3,10 +3,14 @@ import {
   parseRhythmText,
   formatRhythmText,
   rhythmFromTimeSignature,
+  slotsPerBar,
+  pulsesPatternEqual,
+  presetIdForRhythm,
 } from './metronomeRhythmPresets'
 import {
   createRhythmConfig,
   normalizeRhythmConfig,
+  normalizeDrumPattern,
   ENGINE_MODE_CLICK,
   ENGINE_MODE_DRUMS,
 } from './rhythmEngineTypes'
@@ -21,6 +25,43 @@ export function resolveTuneTimeSignature(tune, tunebook) {
     meter = String(tunebook.abcTools.timeSignatureFromTuneType(tune.rhythm) || '').trim()
   }
   return meter
+}
+
+export function meterDenominator(meter) {
+  const raw = String(meter || '').trim()
+  if (!raw) return 0
+  const lowered = raw.toLowerCase()
+  if (lowered === 'c' || lowered === 'common') return 4
+  if (lowered === 'c|' || lowered === 'cut') return 2
+  const match = raw.match(/^(\d+)\s*([\/\-:])\s*(\d+)$/i)
+  return match ? parseInt(match[3], 10) : 0
+}
+
+/**
+ * Count-in and during-playback clicks follow the tune time signature.
+ * Replaces stale presets (e.g. saved 4/4 rhythm on a 6/8 tune) while keeping
+ * drum patterns and engine mode when the slot grid changes.
+ */
+export function alignPlaybackRhythmToMeter(storedRhythm, meter) {
+  const stored = normalizeRhythmConfig(storedRhythm || defaultMetronomeRhythm())
+  if (!meter) return stored
+  const meterRhythm = normalizeRhythmConfig(rhythmFromTimeSignature(meter))
+  const sameGrid = stored.beatsPerBar === meterRhythm.beatsPerBar
+    && slotsPerBar(stored) === slotsPerBar(meterRhythm)
+    && pulsesPatternEqual(stored.pulsesPerBeat, meterRhythm.pulsesPerBeat)
+  if (sameGrid) return stored
+  const aligned = normalizeRhythmConfig(Object.assign({}, meterRhythm, {
+    engineMode: stored.engineMode,
+    presetId: stored.engineMode === ENGINE_MODE_DRUMS && stored.presetId
+      ? stored.presetId
+      : (presetIdForRhythm(meterRhythm) || stored.presetId || ''),
+  }))
+  if (aligned.engineMode === ENGINE_MODE_DRUMS && stored.drumPattern) {
+    return normalizeRhythmConfig(Object.assign({}, aligned, {
+      drumPattern: normalizeDrumPattern(stored.drumPattern, slotsPerBar(meterRhythm)),
+    }))
+  }
+  return aligned
 }
 
 export function hasCustomPlaybackMetronomeRhythm(tune) {
@@ -194,15 +235,19 @@ export function getPlaybackMetronomeSettings(tune, tunebook) {
     }
   }
   const stores = readPlaybackMetronomeRhythmStores(tune, tunebook)
+  const meter = resolveTuneTimeSignature(tune, tunebook)
   const countIn = tune.playbackMetronomeCountIn !== false
   const bars = parseInt(tune.playbackMetronomeCountInBars, 10)
+  const activeRhythm = alignPlaybackRhythmToMeter(stores.activeRhythm, meter)
   return {
     countIn: countIn,
     countInBars: bars > 0 ? bars : defaults.countInBars,
     duringPlayback: tune.playbackMetronomeDuringPlayback === true,
-    rhythm: stores.activeRhythm,
-    clickRhythm: stores.clickRhythm,
-    drumRhythm: stores.drumRhythm,
+    rhythm: activeRhythm,
+    clickRhythm: alignPlaybackRhythmToMeter(stores.clickRhythm, meter),
+    drumRhythm: stores.drumRhythm
+      ? alignPlaybackRhythmToMeter(stores.drumRhythm, meter)
+      : stores.drumRhythm,
     engine: stores.activeEngine,
   }
 }

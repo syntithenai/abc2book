@@ -1,0 +1,178 @@
+{
+  "id": "legacy-composers-armstrong",
+  "title": "Louis Armstrong",
+  "track": "history",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "history",
+    "legacy"
+  ],
+  "path": "06-history/06-armstrong.md",
+  "sections": [
+    {
+      "id": "louis-armstrong-swing-phrasing-and-improvisation",
+      "title": "Louis Armstrong: Swing, Phrasing, and Improvisation",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Louis Armstrong (1901–1971) transformed jazz from New Orleans collective improvisation into virtuoso solo trumpet and vocal art."
+        }
+      ]
+    },
+    {
+      "id": "recordings",
+      "title": "Recordings",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hot Five and Hot Seven sessions (1920s) set templates for swing, blues inflection, and improvising on changes. *West End Blues* opening cadenza remains iconic."
+        }
+      ]
+    },
+    {
+      "id": "swing",
+      "title": "Swing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Rhythmic feel placing emphasis flexibly within the beat — not metronomic equality. 'Playing behind the beat' then catching up."
+        }
+      ]
+    },
+    {
+      "id": "storytelling",
+      "title": "Storytelling",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Simple start, build intensity, memorable ending — applies to variation on the repeat in dance music."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Armstrong pioneered on:\n\n- A) Trumpet and voice\n- B) Harpsichord\n- C) Uilleann pipes\n- D) Sitar\n\n**Answer:** A\n\n### Q2. Swing subdivides the beat with bounce and syncopation.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Armstrong pioneered on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Trumpet and voice",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Trumpet and voice"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Swing subdivides the beat with bounce and syncopation.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-composers-armstrong-quiz",
+    "title": "Louis Armstrong quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Armstrong pioneered on:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Trumpet and voice",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Trumpet and voice"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Swing subdivides the beat with bounce and syncopation.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

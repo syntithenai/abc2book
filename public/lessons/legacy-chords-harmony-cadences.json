@@ -1,0 +1,178 @@
+{
+  "id": "legacy-chords-harmony-cadences",
+  "title": "Cadences",
+  "track": "chords",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "chords",
+    "legacy"
+  ],
+  "path": "05-harmony/03-cadences.md",
+  "sections": [
+    {
+      "id": "cadences-full-half-plagal-and-deceptive",
+      "title": "Cadences: Full, Half, Plagal, and Deceptive",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** harmony | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cadences are harmonic punctuation at phrase endings."
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Authentic (PAC/IAC)**: V→I — full stop. **Half**: ends on V — comma, question. **Plagal**: IV→I — 'amen' cadence. **Deceptive**: V→vi — surprise."
+        }
+      ]
+    },
+    {
+      "id": "in-dance-tunes",
+      "title": "In dance tunes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A part often half-cadences at midpoint; B part authentic-cadences home. AABB structure maps to these patterns."
+        }
+      ]
+    },
+    {
+      "id": "accompaniment",
+      "title": "Accompaniment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Don't push dominant too early — steals the half cadence's lift."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. V→I at phrase end:\n\n- A) Authentic cadence\n- B) Half cadence\n- C) Deceptive cadence\n- D) Plagal only\n\n**Answer:** A\n\n### Q2. Half cadence ends on V.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "V→I at phrase end:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Authentic cadence",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Authentic cadence"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Half cadence ends on V.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-chords-harmony-cadences-quiz",
+    "title": "Cadences quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "V→I at phrase end:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Authentic cadence",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Authentic cadence"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Half cadence ends on V.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

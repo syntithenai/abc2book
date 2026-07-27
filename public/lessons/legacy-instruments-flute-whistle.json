@@ -1,0 +1,234 @@
+{
+  "id": "legacy-instruments-flute-whistle",
+  "title": "Flute and Tin Whistle",
+  "track": "instruments",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "instruments",
+    "legacy"
+  ],
+  "path": "09-instruments/04-flute-whistle.md",
+  "sections": [
+    {
+      "id": "flute-and-tin-whistle",
+      "title": "Flute and Tin Whistle",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The flute is an aerophone — sound from air splitting across an edge or hole. Concert flute (Boehm system, 19th century) is metal with complex keywork. Tin whistle (penny whistle) is a simple six-hole fipple flute central to Irish trad."
+        }
+      ]
+    },
+    {
+      "id": "concert-flute",
+      "title": "Concert flute",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "C instrument, range roughly C4–C7. Silver, gold, or nickel alloy. Embouchure (lip shape) controls tone. Baroque flute was wooden, one key."
+        }
+      ]
+    },
+    {
+      "id": "tin-whistle",
+      "title": "Tin whistle",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Typically D major (most common session key) but available in many keys. Diatonic with cross-fingerings for accidentals. Clarke, Generation, and Feadóg are classic brands. Simple enough for beginners; expressive in expert hands (Mary Bergin, Joanie Madden)."
+        }
+      ]
+    },
+    {
+      "id": "wooden-flute",
+      "title": "Wooden flute",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish traditional wooden flute (concert pitch) — breathy, reedy tone. Keyless or keyed. 8-key and 4-key systems common."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Tin whistle is a:\n\n- A) Fipple flute (aerophone)\n- B) Bowed string\n- C) Struck percussion\n- D) Keyboard\n\n**Answer:** A\n\n### Q2. Most common session whistle key:\n\n- A) D\n- B) B♭\n- C) F♯\n- D) A♭\n\n**Answer:** A\n\n### Q3. Boehm system improved flute keywork in the 19th century.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Tin whistle is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Fipple flute (aerophone)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Fipple flute (aerophone)"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Most common session whistle key:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: D"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Boehm system improved flute keywork in the 19th century.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-instruments-flute-whistle-quiz",
+    "title": "Flute and Tin Whistle quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Tin whistle is a:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Fipple flute (aerophone)",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Fipple flute (aerophone)"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Most common session whistle key:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: D"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Boehm system improved flute keywork in the 19th century.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

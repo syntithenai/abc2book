@@ -9,6 +9,9 @@ import { tryRefreshAccessToken } from './googleLoginRefreshRegistry';
 import { getActiveProviderHeaders, loadProviderSettings } from './providerSettings';
 import { getYoutubeEgressHeaders } from './youtubeUnlock';
 import { isMusicCollectionLinkUri, musicCollectionProxyPathFromUri } from './musicCollectionLinkUtils';
+import { isBandcampLinkUri } from './bandcampLinkUtils';
+import { isArchiveOrgLinkUri, isArchiveOrgDirectDownloadUri } from './archiveOrgLinkUtils';
+import { isLocGovLinkUri } from './locGovLinkUtils';
 
 let activeProxyBase = null;
 let heavyMlProxyBase = null;
@@ -66,7 +69,7 @@ function isLikelyLocalResolverBase(base) {
 function candidateHasHeavyMl(candidate) {
   const f = candidate && candidate.features;
   if (!f) return false;
-  return !!(f.stems || f.sheetImage || f.sheetImageOmr || f.practiceAnalysis);
+  return !!(f.stems || f.sheetImage || f.sheetImageOmr || f.practiceAnalysis || f.practiceTrack);
 }
 
 function pickHeavyMlBase(candidates) {
@@ -176,6 +179,9 @@ function resolverEndpointForPath(pathAndQuery) {
   if (!pathAndQuery) return '';
   if (pathAndQuery.indexOf('/proxy-audio') === 0) return 'proxy-audio';
   if (pathAndQuery.indexOf('/youtube/') === 0) return 'youtube-audio';
+  if (pathAndQuery.indexOf('/bandcamp/audio') === 0) return 'bandcamp-audio';
+  if (pathAndQuery.indexOf('/internet-archive/audio') === 0) return 'internet-archive-audio';
+  if (pathAndQuery.indexOf('/loc/audio') === 0) return 'loc-audio';
   if (pathAndQuery.indexOf('/detect-chords') === 0) return 'detect-chords';
   if (pathAndQuery.indexOf('/detect-playback-region') === 0) return 'detect-playback-region';
   if (pathAndQuery.indexOf('/analyze-media') === 0) return 'analyze-media';
@@ -189,6 +195,18 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/search-chords') === 0) return 'search-chords';
   if (pathAndQuery.indexOf('/search-notation') === 0) return 'search-notation';
   if (pathAndQuery.indexOf('/search-music-collection') === 0) return 'search-music-collection';
+  if (pathAndQuery.indexOf('/browse-music-collection') === 0) return 'browse-music-collection';
+  if (pathAndQuery.indexOf('/music-collection-duplicates') === 0) return 'music-collection-duplicates';
+  if (pathAndQuery.indexOf('/music-collection-triage') === 0) return 'music-collection-triage';
+  if (pathAndQuery.indexOf('/music-collection-move-plan') === 0) return 'music-collection-move-plan';
+  if (pathAndQuery.indexOf('/music-collection-registry') === 0) return 'music-collection-registry';
+  if (pathAndQuery.indexOf('/music-collection-artists') === 0) return 'music-collection-artists';
+  if (pathAndQuery.indexOf('/music-collection-chunks') === 0) return 'music-collection-chunks';
+  if (pathAndQuery.indexOf('/music-collection-triage/bulk') === 0) return 'music-collection-triage-bulk';
+  if (pathAndQuery.indexOf('/search-bandcamp') === 0) return 'search-bandcamp';
+  if (pathAndQuery.indexOf('/search-internet-archive') === 0) return 'search-internet-archive';
+  if (pathAndQuery.indexOf('/search-europeana') === 0) return 'search-europeana';
+  if (pathAndQuery.indexOf('/search-loc-audio') === 0) return 'search-loc-audio';
   if (pathAndQuery.indexOf('/rebuild-music-collection-index') === 0) return 'rebuild-music-collection-index';
   if (pathAndQuery.indexOf('/music-collection/') === 0) return 'music-collection';
   if (pathAndQuery.indexOf('/music-collection-art/') === 0) return 'music-collection-art';
@@ -200,6 +218,7 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/discover-composer') === 0) return 'discover-composer';
   if (pathAndQuery.indexOf('/discover-genre') === 0) return 'discover-genre';
   if (pathAndQuery.indexOf('/separate-stems') === 0) return 'separate-stems';
+  if (pathAndQuery.indexOf('/generate-practice-track') === 0) return 'generate-practice-track';
   if (pathAndQuery.indexOf('/transcribe-sheet-image') === 0) return 'transcribe-sheet-image';
   if (pathAndQuery.indexOf('/search-images') === 0) return 'search-images';
   if (pathAndQuery.indexOf('/midi2abc') === 0) return 'midi2abc';
@@ -334,6 +353,9 @@ async function tryHealthAtBase(base, accessToken) {
       musicCollectionSummary: body.musicCollectionSummary && typeof body.musicCollectionSummary === 'object'
         ? body.musicCollectionSummary
         : null,
+      practiceTrackBackend: body.practiceTrackBackend && typeof body.practiceTrackBackend === 'object'
+        ? body.practiceTrackBackend
+        : null,
     };
   } catch (e) {
     return {
@@ -437,8 +459,11 @@ export async function probeMediaResolverCandidates(accessToken) {
     musicCollectionBuiltAt: activeCandidate && activeCandidate.musicCollectionBuiltAt
       ? activeCandidate.musicCollectionBuiltAt
       : null,
-    musicCollectionSummary: activeCandidate && activeCandidate.musicCollectionSummary
+      musicCollectionSummary: activeCandidate && activeCandidate.musicCollectionSummary
       ? activeCandidate.musicCollectionSummary
+      : null,
+    practiceTrackBackend: activeCandidate && activeCandidate.practiceTrackBackend
+      ? activeCandidate.practiceTrackBackend
       : null,
   };
 }
@@ -456,6 +481,7 @@ const HEAVY_ML_PATH_PREFIXES = [
   '/analyze-media',
   '/detect-chords',
   '/analyze-practice',
+  '/generate-practice-track',
 ];
 
 function pathNeedsHeavyMl(pathAndQuery) {
@@ -628,6 +654,46 @@ export async function fetchDirectOrProxy(options) {
     return { response: response, viaProxy: true };
   }
 
+  if (isBandcampLinkUri(src)) {
+    if (!isMediaProxyConfigured()) {
+      throw new Error('Bandcamp playback requires a configured media resolver');
+    }
+    const response = await fetchViaMediaProxy(
+      '/bandcamp/audio?url=' + encodeURIComponent(src),
+      accessToken
+    );
+    return { response: response, viaProxy: true };
+  }
+
+  if (isArchiveOrgLinkUri(src)) {
+    if (!isMediaProxyConfigured()) {
+      throw new Error('Internet Archive playback requires a configured media resolver');
+    }
+    if (isArchiveOrgDirectDownloadUri(src)) {
+      const response = await fetchViaMediaProxy(
+        '/proxy-audio?url=' + encodeURIComponent(src),
+        accessToken
+      );
+      return { response: response, viaProxy: true };
+    }
+    const response = await fetchViaMediaProxy(
+      '/internet-archive/audio?url=' + encodeURIComponent(src),
+      accessToken
+    );
+    return { response: response, viaProxy: true };
+  }
+
+  if (isLocGovLinkUri(src)) {
+    if (!isMediaProxyConfigured()) {
+      throw new Error('Library of Congress playback requires a configured media resolver');
+    }
+    const response = await fetchViaMediaProxy(
+      '/loc/audio?url=' + encodeURIComponent(src),
+      accessToken
+    );
+    return { response: response, viaProxy: true };
+  }
+
   const directResponse = await tryDirectFetch(src);
   if (directResponse) {
     return { response: directResponse, viaProxy: false };
@@ -642,6 +708,33 @@ export async function fetchDirectOrProxy(options) {
     accessToken
   );
   return { response: response, viaProxy: true };
+}
+
+/** True when the browser cannot play the link URL directly (resolver auth required). */
+export function requiresResolverProxiedPlayback(src) {
+  const trimmed = String(src || '').trim();
+  if (!trimmed) return false;
+  return isMusicCollectionLinkUri(trimmed)
+    || isBandcampLinkUri(trimmed)
+    || isArchiveOrgLinkUri(trimmed)
+    || isLocGovLinkUri(trimmed);
+}
+
+/** Fetch audio through the media resolver and return a blob: URL for <audio> playback. */
+export async function fetchProxiedAudioBlobUrl(src, srcType, options) {
+  const opts = options || {};
+  const { response } = await fetchDirectOrProxy({
+    src: src,
+    srcType: srcType,
+    youtubeGetId: opts.youtubeGetId,
+    accessToken: opts.accessToken,
+    resolveDirectUrl: opts.resolveDirectUrl,
+  });
+  const blob = await response.blob();
+  if (!blob || !blob.size) {
+    throw new Error('Could not load audio');
+  }
+  return URL.createObjectURL(blob);
 }
 
 export function describeResolverAuthReason(authReason) {

@@ -2,9 +2,13 @@ import { useEffect, useMemo, useState } from 'react'
 import { ListGroup, Modal } from 'react-bootstrap'
 import { listSavedPlaylists } from '../savedPlaylistsStore'
 import { listPerformanceSets } from '../performanceSetStore'
+import { listPracticeLists, practiceListTuneCount } from '../practiceListStore'
 import VoiceFillInput from './VoiceFillInput'
 
 function itemCount(list, kind) {
+  if (kind === 'practice-list') {
+    return practiceListTuneCount(list)
+  }
   if (!list || !Array.isArray(list.items)) return 0
   if (kind === 'setlist') {
     return list.items.filter(function(item) {
@@ -15,9 +19,9 @@ function itemCount(list, kind) {
 }
 
 /**
- * Pick an existing playlist or setlist and append selected tune ids.
+ * Pick an existing playlist, setlist, or practice list and append selected tune ids.
  *
- * @param {'playlist'|'setlist'} props.kind
+ * @param {'playlist'|'setlist'|'practice-list'} props.kind
  * @param {string[]} props.tuneIds
  * @param {(list: object) => void} props.onSelect
  */
@@ -34,15 +38,22 @@ export default function AddTunesToListModal({
   const [lists, setLists] = useState([])
   const [search, setSearch] = useState('')
   const isPlaylist = kind === 'playlist'
-  const noun = isPlaylist ? 'playlist' : 'setlist'
-  const nounPlural = isPlaylist ? 'playlists' : 'setlists'
+  const isPracticeList = kind === 'practice-list'
+  const noun = isPlaylist ? 'playlist' : (isPracticeList ? 'practice list' : 'setlist')
+  const nounPlural = isPlaylist ? 'playlists' : (isPracticeList ? 'practice lists' : 'setlists')
   const tuneCount = Array.isArray(tuneIds) ? tuneIds.length : 0
 
   useEffect(function() {
     if (!show) return
-    setLists(isPlaylist ? listSavedPlaylists() : listPerformanceSets())
+    if (isPlaylist) {
+      setLists(listSavedPlaylists())
+    } else if (isPracticeList) {
+      setLists(listPracticeLists())
+    } else {
+      setLists(listPerformanceSets())
+    }
     setSearch('')
-  }, [show, isPlaylist])
+  }, [show, isPlaylist, isPracticeList])
 
   const filtered = useMemo(function() {
     const q = String(search || '').trim().toLowerCase()
@@ -103,7 +114,7 @@ export default function AddTunesToListModal({
                   data-testid={'add-to-' + kind + '-' + list.id}
                 >
                   <span>
-                    <strong>{list.name || (isPlaylist ? 'Playlist' : 'Set')}</strong>
+                    <strong>{list.name || (isPlaylist ? 'Playlist' : (isPracticeList ? 'Practice list' : 'Set'))}</strong>
                     {list.date ? (
                       <span className="text-muted ms-2">{list.date}</span>
                     ) : null}

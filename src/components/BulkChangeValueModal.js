@@ -1,7 +1,7 @@
 import {useMemo, useRef, useState} from 'react'
 import {Button, Modal, Form, Row, Col} from 'react-bootstrap'
 import { FormLabelWithHelp } from './FormFieldHelp'
-import { BULK_FIELD_HELP, EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
+import { BULK_FIELD_HELP } from '../formFieldHelpText'
 import TuneGenresField from './TuneGenresField'
 import {
   BULK_EDIT_FIELDS,
@@ -11,10 +11,6 @@ import {
   prepareBulkActions,
   prepareBulkChanges,
 } from '../bulkEditFields'
-import {
-  PRACTICE_INSTRUMENTS,
-  normalizeSuitableInstruments,
-} from '../practiceSessionSettings'
 import { applyBulkCacheAction } from '../bulkCacheActions'
 import useMediaCacheQueue from '../useMediaCacheQueue'
 import KeySignatureInput from './KeySignatureInput'
@@ -28,45 +24,9 @@ function createEmptyRow() {
 
 function defaultValueForField(field) {
   if (!field) return ''
-  if (field.type === 'instruments' || field.type === 'genres') return []
+  if (field.type === 'genres') return []
   if (field.type === 'toggle') return 'true'
   return ''
-}
-
-function InstrumentsValueInput({value, onChange, rowId}) {
-  var selected = normalizeSuitableInstruments(Array.isArray(value) ? value : [])
-  return (
-    <div className="bulk-change-practice-instruments bulk-change-practice-instruments--inline">
-      <div className="abc-editor-suitable-for">
-        {PRACTICE_INSTRUMENTS.map(function(item) {
-          var checked = selected.indexOf(item.id) !== -1
-          return (
-            <Form.Check
-              inline
-              key={item.id}
-              type="checkbox"
-              id={(rowId || 'bulk') + '-suitable-for-' + item.id}
-              label={item.label}
-              checked={checked}
-              onChange={function(e) {
-                var next = selected.slice()
-                if (e.target.checked) {
-                  if (next.indexOf(item.id) === -1) next.push(item.id)
-                } else {
-                  var idx = next.indexOf(item.id)
-                  if (idx !== -1) next.splice(idx, 1)
-                }
-                onChange(next)
-              }}
-            />
-          )
-        })}
-      </div>
-      <Form.Text className="text-muted">
-        Leave all unchecked to allow any instrument.
-      </Form.Text>
-    </div>
-  )
 }
 
 function BulkFieldValueInput({fieldKey, value, onChange, tunebook, rowId, token, setBlockKeyboardShortcuts}) {
@@ -81,10 +41,6 @@ function BulkFieldValueInput({fieldKey, value, onChange, tunebook, rowId, token,
         onChange={function() {}}
       />
     )
-  }
-
-  if (field.type === 'instruments') {
-    return <InstrumentsValueInput value={value} onChange={onChange} rowId={rowId} />
   }
 
   if (field.type === 'toggle') {
@@ -304,12 +260,10 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
           <div className="bulk-change-rows" ref={listRef}>
             {rows.map(function(row, index) {
               var usedFields = fieldsUsedExcept(row.id)
-              var field = getBulkEditField(row.field)
-              var isInstruments = field && field.type === 'instruments'
               return (
                 <div className="bulk-change-row" key={row.id}>
                   <Row className="g-2 align-items-end">
-                    <Col xs={12} md={isInstruments ? 4 : 5}>
+                    <Col xs={12} md={5}>
                       {index === 0 ? <Form.Label className="bulk-change-row-label">Field</Form.Label> : null}
                       <Form.Select
                         value={row.field}
@@ -329,11 +283,9 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
                         })}
                       </Form.Select>
                     </Col>
-                    <Col xs={12} md={isInstruments ? 6 : 5}>
+                    <Col xs={12} md={5}>
                       {index === 0 ? (
-                        <Form.Label className="bulk-change-row-label">
-                          {isInstruments ? 'Instruments' : 'New value'}
-                        </Form.Label>
+                        <Form.Label className="bulk-change-row-label">New value</Form.Label>
                       ) : null}
                       <BulkFieldValueInput
                         fieldKey={row.field}
@@ -356,11 +308,6 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
                       </Button>
                     </Col>
                   </Row>
-                  {row.field === 'suitableFor' ? (
-                    <Form.Text className="text-muted d-block mt-1">
-                      {EDITOR_INFO_FIELD_HELP.suitableFor.body}
-                    </Form.Text>
-                  ) : null}
                   {row.field && !isBulkChangeRowComplete(row) ? (
                     <div className="bulk-change-row-hint text-muted">Enter a value for this field.</div>
                   ) : null}

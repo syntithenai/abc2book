@@ -4,7 +4,6 @@ import {
   getSkillTempoRange,
   getWarmupOptionsForSkill,
   normalizePracticeInstrument,
-  tuneMatchesPracticeInstrument,
 } from './practiceSessionSettings'
 import { getRecentTunes } from './recentTunes'
 import { filterOutRecentlyPracticedTunes } from './practiceRecentHistory'
@@ -79,10 +78,6 @@ export function isPlayableTune(tune, helpers) {
 }
 
 /** Voice practice: lyrics required. Other instruments: melody notes in ABC (not chord-only). */
-export function isSuitableForPractice(tune) {
-  return !!(tune && tune.suitableForPractice !== false)
-}
-
 export function tuneMatchesPracticeContent(tune, instrument, helpers) {
   const inst = normalizePracticeInstrument(instrument)
   if (inst === 'voice') {
@@ -166,14 +161,9 @@ function sortByIncreasingConfidence(candidates) {
 
 export function orderPracticeCandidates(candidates, options) {
   const opts = options || {}
-  const instrument = normalizePracticeInstrument(opts.instrument)
   const minConfidence = opts.minConfidence != null ? opts.minConfidence : MIN_PRACTICE_CONFIDENCE
   const minCount = opts.minCount != null ? opts.minCount : 1
   const pool = Array.isArray(candidates) ? candidates : []
-
-  function withInstrument(list) {
-    return list.filter(function(tune) { return tuneMatchesPracticeInstrument(tune, instrument) })
-  }
 
   function withMinConfidence(list) {
     return list.filter(function(tune) { return getTuneConfidence(tune) >= minConfidence })
@@ -188,12 +178,8 @@ export function orderPracticeCandidates(candidates, options) {
   }
 
   const attempts = [
-    sortByIncreasingConfidence(withMinConfidence(withInstrument(excludingRecentlyPracticed(pool)))),
-    sortByIncreasingConfidence(withInstrument(excludingRecentlyPracticed(pool))),
     sortByIncreasingConfidence(withMinConfidence(excludingRecentlyPracticed(pool))),
     sortByIncreasingConfidence(excludingRecentlyPracticed(pool)),
-    sortByIncreasingConfidence(withMinConfidence(withInstrument(pool))),
-    sortByIncreasingConfidence(withInstrument(pool)),
     sortByIncreasingConfidence(withMinConfidence(pool)),
     sortByIncreasingConfidence(pool),
   ]
@@ -207,26 +193,22 @@ export function orderPracticeCandidates(candidates, options) {
 }
 
 export function collectPracticeCandidates(tunes, filters, helpers, selectionOptions) {
-  const bookFilter = filters && filters.bookFilter ? String(filters.bookFilter).trim() : ''
-  const tagFilter = (filters && Array.isArray(filters.tagFilter) ? filters.tagFilter : [])
-    .filter(function(t) { return t && String(t).trim().length > 0 })
-  const hasExplicitFilters = bookFilter.length > 0 || tagFilter.length > 0
-  const recentContext = derivePracticeContextFromRecentTunes(tunes, RECENT_TUNES_FOR_PRACTICE_FILTER)
+  const practiceListTuneIds = (filters && Array.isArray(filters.practiceListTuneIds) ? filters.practiceListTuneIds : [])
+    .filter(function(id) { return id && String(id).trim().length > 0 })
+  const practiceListIdSet = {}
+  practiceListTuneIds.forEach(function(id) {
+    practiceListIdSet[String(id).trim()] = true
+  })
+  const hasPracticeList = practiceListTuneIds.length > 0
 
   const instrument = normalizePracticeInstrument(selectionOptions && selectionOptions.instrument)
 
   let candidates = Object.values(tunes || {}).filter(function(tune) {
+    if (!hasPracticeList) return false
+    if (!practiceListIdSet[tune.id]) return false
     if (!isPlayableTune(tune, helpers)) return false
-    if (!isSuitableForPractice(tune)) return false
     if (!tuneMatchesPracticeContent(tune, instrument, helpers)) return false
-    if (hasExplicitFilters) {
-      return helpers.filterSearch(tune, '', bookFilter, tagFilter)
-    }
-    return tuneMatchesRecentPracticeContext(
-      tune,
-      recentContext.recentBooks,
-      recentContext.recentTags
-    )
+    return true
   })
 
   return orderPracticeCandidates(candidates, selectionOptions || {})
@@ -295,26 +277,23 @@ export function buildPracticeSessionPlan(options) {
   const helpers = opts.helpers || {}
   const filters = opts.filters || {}
 
+  const practiceListTuneIds = (filters && Array.isArray(filters.practiceListTuneIds) ? filters.practiceListTuneIds : [])
+    .filter(function(id) { return id && String(id).trim().length > 0 })
+
   const candidates = collectPracticeCandidates(tunes, filters, helpers, {
     instrument: instrument,
     minConfidence: MIN_PRACTICE_CONFIDENCE,
     minCount: 1,
   })
-  const bookFilter = filters && filters.bookFilter ? String(filters.bookFilter).trim() : ''
-  const tagFilter = (filters && Array.isArray(filters.tagFilter) ? filters.tagFilter : [])
-    .filter(function(t) { return t && String(t).trim().length > 0 })
-  const hasExplicitFilters = bookFilter.length > 0 || tagFilter.length > 0
+
   if (candidates.length === 0) {
-    const recentContext = derivePracticeContextFromRecentTunes(tunes, RECENT_TUNES_FOR_PRACTICE_FILTER)
-    const hasRecentContext = recentContext.recentBooks.length > 0 || recentContext.recentTags.length > 0
+    const hasPracticeList = practiceListTuneIds.length > 0
     return {
-      error: hasExplicitFilters
-        ? 'No playable tunes match your filters.'
-        : (hasRecentContext
-          ? 'No playable tunes match your recently viewed books or tags.'
-          : (normalizePracticeInstrument(instrument) === 'voice'
-            ? 'No tunes with lyrics found for voice practice.'
-            : 'No tunes with melody notation found for practice.')),
+      error: !hasPracticeList
+        ? 'Add tunes to your practice lists before starting a session.'
+        : (normalizePracticeInstrument(instrument) === 'voice'
+          ? 'No tunes with lyrics in this practice list match your settings.'
+          : 'No playable tunes in this practice list match your instrument and practice settings.'),
       steps: [],
       practiceKey: 'C',
       totalMinutes,

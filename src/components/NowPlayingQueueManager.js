@@ -11,7 +11,8 @@ import {
   getQueueItemLabel,
   isExternalQueueItem,
 } from '../nowPlayingQueue'
-import { navigateToQueueTune } from '../nowPlayingQueuePlayback'
+import { navigateToQueueTune, playQueueItem } from '../nowPlayingQueuePlayback'
+import { playLessonYoutube } from '../lessonYoutubePlayer'
 
 export default function NowPlayingQueueManager(props) {
   const [filter, setFilter] = useState('')
@@ -66,11 +67,16 @@ export default function NowPlayingQueueManager(props) {
             props.setNowPlayingQueue(nextQueue)
             const nextItem = nextQueue.items[index]
             if (isExternalQueueItem(nextItem)) {
+              playLessonYoutube({ fromUserGesture: true })
               setFilter('')
               if (props.handleClose) props.handleClose()
               return
             }
             if (!tune) return
+            if (props.mediaController && props.mediaController.preparePlaybackFromUserGesture) {
+              props.mediaController.preparePlaybackFromUserGesture()
+            }
+            playQueueItem(props.mediaController, props.tunebook, tune, nextItem, { fromUserGesture: true })
             navigateToQueueTune(navigate, tune.id, nextItem, props.tunebook, tunes)
             setFilter('')
             if (props.handleClose) props.handleClose()

@@ -1,5 +1,9 @@
 import MusicCollectionArtImage from './MusicCollectionArtImage'
 import {
+  isBandcampResult,
+  isEuropeanaResult,
+  isInternetArchiveResult,
+  isLocAudioResult,
   isMusicCollectionResult,
   mediaSearchResultArtist,
   mediaSearchResultRelativePath,
@@ -8,6 +12,10 @@ import {
 
 function sourceLabel(source) {
   if (source === 'music-collection') return 'My library'
+  if (source === 'bandcamp') return 'Bandcamp'
+  if (source === 'internet-archive') return 'Internet Archive'
+  if (source === 'europeana') return 'Europeana'
+  if (source === 'loc') return 'Library of Congress'
   if (source === 'youtube') return 'YouTube'
   return source || ''
 }
@@ -57,6 +65,28 @@ export function MediaSearchResultDetails(props) {
     )
   }
 
+  if (isBandcampResult(item)) {
+    const artist = mediaSearchResultArtist(item)
+    return (
+      <div style={{ minWidth: 0, flex: 1 }}>
+        <div className="fw-semibold text-truncate">{item.title || 'Track'}</div>
+        {artist ? <div className="text-truncate">{artist}</div> : null}
+        <div className="small text-muted">{sourceLabel(item.source)}</div>
+      </div>
+    )
+  }
+
+  if (isInternetArchiveResult(item) || isEuropeanaResult(item) || isLocAudioResult(item)) {
+    const artist = mediaSearchResultArtist(item)
+    return (
+      <div style={{ minWidth: 0, flex: 1 }}>
+        <div className="fw-semibold text-truncate">{item.title || 'Recording'}</div>
+        {artist ? <div className="text-truncate">{artist}</div> : null}
+        <div className="small text-muted">{sourceLabel(item.source)}</div>
+      </div>
+    )
+  }
+
   return (
     <div style={{ minWidth: 0, flex: 1 }}>
       <div className="fw-semibold text-truncate">{item.title || 'Video'}</div>
@@ -92,6 +122,28 @@ export function MediaSearchResultDetailsModal(props) {
         {relativePath ? (
           <div className="mt-1" style={mediaSearchPathStyle}>{relativePath}</div>
         ) : null}
+      </>
+    )
+  }
+
+  if (isBandcampResult(item)) {
+    const artist = mediaSearchResultArtist(item)
+    return (
+      <>
+        <div style={{ fontWeight: 'bold', fontSize: '1.1em' }}>{item.title || 'Track'}</div>
+        {artist ? <div>{artist}</div> : null}
+        <div className="small text-muted">{sourceLabel(item.source)}</div>
+      </>
+    )
+  }
+
+  if (isInternetArchiveResult(item) || isEuropeanaResult(item) || isLocAudioResult(item)) {
+    const artist = mediaSearchResultArtist(item)
+    return (
+      <>
+        <div style={{ fontWeight: 'bold', fontSize: '1.1em' }}>{item.title || 'Recording'}</div>
+        {artist ? <div>{artist}</div> : null}
+        <div className="small text-muted">{sourceLabel(item.source)}</div>
       </>
     )
   }

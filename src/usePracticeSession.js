@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { getPracticeList, allPracticeListTuneIds } from './practiceListStore'
 import { buildPracticeSessionPlan } from './practiceSessionPlanner'
 import { configurePracticeTunePlayback } from './tunePlaybackActions'
 import { mergePracticeSettings } from './practiceSessionSettings'
@@ -307,26 +308,6 @@ export default function usePracticeSession(options) {
     }
   }, [clearRampTimer, restorePlaybackSettings, runTuneStep, mediaController, tunebook, tunes, resetPracticeMedia])
 
-  const blockCurrentTune = useCallback(function() {
-    if (phaseRef.current === 'ended' || phaseRef.current === 'idle') return
-    const activePlan = planRef.current
-    const currentStep = activePlan && activePlan.steps
-      ? activePlan.steps[stepIndexRef.current]
-      : null
-    if (currentStep && currentStep.type === 'tune' && tunebook && tunebook.saveTune) {
-      const tuneList = tunesRef.current || tunes || {}
-      const blockedTune = tuneList[currentStep.tuneId]
-      if (blockedTune) {
-        const updated = Object.assign({}, blockedTune, {
-          id: currentStep.tuneId,
-          suitableForPractice: false,
-        })
-        tunebook.saveTune(updated)
-      }
-    }
-    advanceStep({ fromBlock: true })
-  }, [advanceStep, tunebook, tunes])
-
   const pendingPlaybackGestureRef = useRef(false)
   const advanceStepRef = useRef(advanceStep)
 
@@ -364,6 +345,14 @@ export default function usePracticeSession(options) {
   const startSession = useCallback(function(config) {
     try {
       const helpers = buildHelpers(tunebook)
+      const practiceListTuneIds = config.practiceListId
+        ? (function() {
+            const practiceList = getPracticeList(config.practiceListId)
+            return practiceList && Array.isArray(practiceList.tuneIds)
+              ? practiceList.tuneIds.slice()
+              : []
+          })()
+        : allPracticeListTuneIds()
       const built = buildPracticeSessionPlan({
         totalMinutes: config.totalMinutes,
         includeWarmups: config.includeWarmups,
@@ -374,8 +363,7 @@ export default function usePracticeSession(options) {
         tunes: tunesRef.current || tunes,
         helpers,
         filters: {
-          bookFilter: config.bookFilter ? String(config.bookFilter).trim() : '',
-          tagFilter: (config.tagFilter || []).filter(function(t) { return t && String(t).trim().length > 0 }),
+          practiceListTuneIds: practiceListTuneIds,
         },
       })
 
@@ -511,6 +499,5 @@ export default function usePracticeSession(options) {
     consumePlaybackGesture,
     hasPlaybackGesture,
     armPlaybackGesture,
-    blockCurrentTune,
   }
 }

@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "preserve": [
+    "slipperyhill",
+    "WORLDOFMUSIC",
+    "audiobooks",
+    "mash",
+    "sven"
+  ],
+  "phases": {
+    "folk-world": {
+      "label": "Folk and world",
+      "sources": [
+        "clementine/folk songs",
+        "clementine/world",
+        "clementine/world2",
+        "clementine/celtic",
+        "WORLDOFMUSIC",
+        "music/musicfinal"
+      ]
+    },
+    "pop-rock": {
+      "label": "Pop and rock",
+      "sources": [
+        "clementine/rock",
+        "clementine/alternative rock",
+        "music/Music"
+      ]
+    },
+    "remainder": {
+      "label": "Everything else",
+      "sources": []
+    }
+  },
+  "libraryGenres": [
+    "folk",
+    "world",
+    "pop",
+    "rock",
+    "jazz",
+    "blues",
+    "classical",
+    "electronic",
+    "other"
+  ],
+  "genreMap": {
+    "folk": ["folk", "celtic", "traditional", "country", "bluegrass", "old-time", "old time"],
+    "world": ["world", "african", "latin", "reggae", "zydeco", "indian", "celtic"],
+    "pop": ["pop", "soul", "r&b", "rnb", "dance"],
+    "rock": ["rock", "alternative", "metal", "punk", "grunge", "indie"],
+    "jazz": ["jazz", "swing", "bebop"],
+    "blues": ["blues"],
+    "classical": ["classical", "baroque", "romantic", "opera", "choral"],
+    "electronic": ["electronic", "ambient", "techno", "house", "trance"]
+  }
+}

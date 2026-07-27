@@ -251,6 +251,13 @@ export function trackEditorOpen() {
 const RESOLVER_EVENTS = new Set([
   'proxy-audio',
   'youtube-audio',
+  'bandcamp-audio',
+  'search-bandcamp',
+  'internet-archive-audio',
+  'search-internet-archive',
+  'search-europeana',
+  'loc-audio',
+  'search-loc-audio',
   'detect-chords',
   'analyze-media',
   'transcribe',

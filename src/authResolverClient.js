@@ -1,7 +1,7 @@
 export const AUTH_SESSION_HEADER = 'X-Abc-Auth-Session'
 export const AUTH_SESSION_ID_KEY = 'abc_auth_session_id'
 export const AUTH_BASE_KEY = 'abc_auth_base'
-export const AUTH_MODE_PROBE_WAIT_MS = 3000
+export const AUTH_MODE_PROBE_WAIT_MS = 6500
 
 let oauthLoginInFlight = false
 

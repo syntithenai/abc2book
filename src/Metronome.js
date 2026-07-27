@@ -22,6 +22,7 @@ export default class Metronome
         this.onSlotChange = null;
         this.lastScheduledTime = 0;
         this.completionTimeoutId = null;
+        this.generation = 0;
 
         this.setRhythm(rhythm || createRhythmConfig(beatsPerBar));
     }
@@ -166,7 +167,9 @@ export default class Metronome
         if (this.audioContext.state === 'running') {
             this.beginScheduling();
         } else if (this.audioContext.state === 'suspended') {
+            const generation = this.generation
             this.audioContext.resume().then(() => {
+                if (generation !== this.generation) return
                 if (this.audioContext.state === 'running') {
                     this.beginScheduling();
                 } else if (this.errorCallback) {
@@ -221,7 +224,9 @@ export default class Metronome
             this.beginScheduling(pendingSlot);
         } else if (this.audioContext.state === 'suspended') {
             const self = this;
+            const generation = this.generation
             this.audioContext.resume().then(() => {
+                if (generation !== self.generation) return
                 if (self.audioContext.state === 'running') {
                     self.beginScheduling(pendingSlot);
                 } else if (self.errorCallback) {
@@ -237,6 +242,7 @@ export default class Metronome
 
     stop()
     {
+        this.generation += 1
         this.isRunning = false;
         if (this.completionTimeoutId) {
             clearTimeout(this.completionTimeoutId);

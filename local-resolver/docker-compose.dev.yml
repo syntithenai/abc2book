@@ -41,6 +41,8 @@ services:
       - ./analyze_practice.py:/app/analyze_practice.py
       - ./bulk_list_format.py:/app/bulk_list_format.py
       - ./tune_background_research.py:/app/tune_background_research.py
+      - ./practice_track_api.py:/app/practice_track_api.py
+      - ./music_generation:/app/music_generation
       - ./voice_command.py:/app/voice_command.py
       - ./playback_region_detect.py:/app/playback_region_detect.py
       - ./detect_chords.py:/app/detect_chords.py
@@ -56,6 +58,18 @@ services:
       - ./eval_transcription.py:/app/eval_transcription.py
       - ./scripts/eval_chords.py:/app/scripts/eval_chords.py
       - ./image_search.py:/app/image_search.py
+      - ./bandcamp.py:/app/bandcamp.py
+      - ./internet_archive.py:/app/internet_archive.py
+      - ./europeana.py:/app/europeana.py
+      - ./loc_audio.py:/app/loc_audio.py
+      - ./music_collection.py:/app/music_collection.py
+      - ./music_collection_analytics.py:/app/music_collection_analytics.py
+      - ./music_collection_indexer.py:/app/music_collection_indexer.py
+      - ./music_collection_browse.py:/app/music_collection_browse.py
+      - ./music_collection_curation.py:/app/music_collection_curation.py
+      - ./music_collection_moves.py:/app/music_collection_moves.py
+      - ./music_collection_registry.py:/app/music_collection_registry.py
+      - ./music_collection_registry.json:/app/music_collection_registry.json
       - ./sheet_image_features.py:/app/sheet_image_features.py
       - ./sheet_image_transcribe.py:/app/sheet_image_transcribe.py
       - ./sheet_image_metadata.py:/app/sheet_image_metadata.py

@@ -42,7 +42,6 @@ describe('normalizeTuneAbc', function() {
       backgroundInfo: 'Keep this background',
       words: ['Line one', 'Line two'],
       links: [{ link: 'https://example.com/a.mp3' }],
-      suitableFor: ['violin'],
       voices: { '1': { meta: '', notes: ['C D E F | G A B c |'] } },
     }
     const rerender = function(abc) {
@@ -57,7 +56,6 @@ describe('normalizeTuneAbc', function() {
     expect(normalized.backgroundInfo).toBe('Keep this background')
     expect(normalized.words).toEqual(['Line one', 'Line two'])
     expect(normalized.links).toEqual([{ link: 'https://example.com/a.mp3' }])
-    expect(normalized.suitableFor).toEqual(['violin'])
     expect(abcTools.json2abc(normalized).indexOf('C2 D2 E2 F2')).toBeGreaterThan(-1)
   })
 

@@ -59,13 +59,15 @@ export function primeDrumKit(audioContext) {
   return loadDrumKit(audioContext)
 }
 
-export function playDrumHit(audioContext, time, sampleId, velocity, pan) {
+export function playDrumHit(audioContext, time, sampleId, velocity, pan, destination) {
   if (!audioContext || !bufferCache) return false
   const buffer = bufferCache[sampleId]
   if (!buffer) return false
 
   const gainValue = Math.max(0, Math.min(1, parseFloat(velocity) || 0))
   if (!(gainValue > 0.0001)) return false
+
+  const output = destination || audioContext.destination
 
   const source = audioContext.createBufferSource()
   source.buffer = buffer
@@ -80,10 +82,10 @@ export function playDrumHit(audioContext, time, sampleId, velocity, pan) {
     panner.pan.setValueAtTime(Math.max(-1, Math.min(1, parseFloat(pan) || 0)), time)
     source.connect(gain)
     gain.connect(panner)
-    panner.connect(audioContext.destination)
+    panner.connect(output)
   } else {
     source.connect(gain)
-    gain.connect(audioContext.destination)
+    gain.connect(output)
   }
 
   source.start(time)

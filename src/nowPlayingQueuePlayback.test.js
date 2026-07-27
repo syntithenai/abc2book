@@ -157,6 +157,33 @@ describe('nowPlayingQueuePlayback', function() {
     })).toBe(true)
   })
 
+  test('shouldNowPlayingHostOwnPlayback mounts from controller tune when not in tunes store', function() {
+    const controllerTune = { id: 'abc', notes: ['C'], links: [] }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'abc',
+      queue: null,
+      mediaController: { tune: controllerTune },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/abc/playMidi',
+      tunes: {},
+    })).toBe(true)
+  })
+
+  test('resolveHostPlayingTuneId reads tune id from pathname when viewedTuneId missing', function() {
+    expect(resolveHostPlayingTuneId({
+      queue: null,
+      mediaController: {},
+      viewedTuneId: null,
+      pathname: '/tunes/abc/playMidi',
+    })).toBe('abc')
+  })
+
+  test('shouldMusicSingleOwnMidiEngine only for preview-once', function() {
+    expect(shouldMusicSingleOwnMidiEngine('abc', null)).toBe(false)
+    expect(shouldMusicSingleOwnMidiEngine('abc', null, { hostOwnsPlayback: false })).toBe(false)
+  })
+
   test('shouldNowPlayingHostOwnPlayback does not mount for idle queue', function() {
     const tunes = { playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] } }
     expect(shouldNowPlayingHostOwnPlayback({

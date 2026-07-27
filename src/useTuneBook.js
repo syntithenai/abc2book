@@ -7,6 +7,7 @@ import useAbcTools from './useAbcTools'
 import useIndexes from './useIndexes'
 import { allArtists, allTitles, tuneMatchesArtistFilter, tuneMatchesGenreFilter } from './tuneBibliographicUtils'
 import { tuneMatchesPdfSnapshotSearch } from './pdfSnapshotIndex'
+import { matchesMainSearchText } from './searchTextUtils'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 import abcjs from "abcjs";
@@ -45,6 +46,7 @@ import {
   isQueuePlaybackEngaged,
   shouldUseQueueNavigationForAdjacent,
   shouldPreservePlaylistAudioDuringSearchBrowse,
+  shouldStartPlaybackWhenAdvancing,
 } from './playbackNavigationUtils'
 import {
   isNavigatorOffline,
@@ -76,13 +78,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     if (mediaController && typeof mediaController.stop === 'function') {
       mediaController.stop()
     }
-  }
-
-  function isPlaybackActivelyPlaying(mediaController) {
-    if (!mediaController) return false
-    if (mediaController.isPlaying || mediaController.isLoading) return true
-    if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) return true
-    return false
   }
 
   function playbackApi() {
@@ -410,11 +405,12 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   function runAdjacentSongNavigation(direction, currentSongId, failCallback, navigateFn, locationPathname, options) {
     var opts = options || {}
     var mediaController = opts.mediaController
-    var useQueueNavigation = shouldUseQueueNavigationForAdjacent(opts)
+    var useQueueNavigation = shouldUseQueueNavigationForAdjacent(opts, mediaController, nowPlayingQueue)
     // Capture before stop() clears intent/playing state.
-    var startPlayback = opts.startPlayback === true
-      || !!(mediaController && isPlaybackActivelyPlaying(mediaController))
-      || (isLessonQueue(nowPlayingQueue) && isLessonYoutubePlaying())
+    var startPlayback = shouldStartPlaybackWhenAdvancing(
+      mediaController,
+      isLessonQueue(nowPlayingQueue) && isLessonYoutubePlaying()
+    )
     // Header / media-controls skip walks search results. An active playlist
     // keeps playing in the background — do not stop it or restart the queue tune.
   // Playlist next/prev uses useQueueNavigation on the transport bar.
@@ -550,20 +546,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       tune.zoom = tune.zoom > 0 ? parseFloat(tune.zoom) : undefined
       tune.playbackAudioFilters = getAudioFilterSettings(tune)
       tune.backgroundInfo = typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : ''
-      if (Array.isArray(tune.suitableFor)) {
-        tune.suitableFor = tune.suitableFor.map(function(item) {
-          return item != null ? String(item).trim() : ''
-        }).filter(Boolean)
-      } else if (tune.suitableFor) {
-        tune.suitableFor = [String(tune.suitableFor).trim()].filter(Boolean)
-      } else {
-        tune.suitableFor = []
-      }
-      if (tune.suitableForPractice === false || tune.suitableForPractice === 'false' || tune.suitableForPractice === 0 || tune.suitableForPractice === '0') {
-        tune.suitableForPractice = false
-      } else {
-        tune.suitableForPractice = true
-      }
       if (Array.isArray(tune.links)) {
         tune.links = tune.links.map(syncLegacyLinkLoopFields)
       }
@@ -1857,8 +1839,6 @@ The main difference between the two functions is the additional condition in app
                 var key = ''
                 if (groupBy === 'tempoRange') {
                     key = tempoRangeLabel(parseTempoBpm(item.tempo))
-                } else if (groupBy === 'isBlocked') {
-                    key = item.suitableForPractice === false ? 'Blocked' : 'Not blocked'
                 } else if (Array.isArray(item[groupBy])) {
                     //console.log('array',item[groupBy])
                     key = item[groupBy].sort().filter(function(a) { return (currentTuneBook && a != currentTuneBook)  }).join(", ")
@@ -1983,13 +1963,8 @@ The main difference between the two functions is the additional condition in app
                 filterOk = true
             } else {
                 if (tune) {
-                    const filterText = utils.toSearchText(filter.trim())
-                    const searchableText = allTitles(tune).concat(allArtists(tune)).map(function(text) {
-                        return utils.toSearchText(text)
-                    })
-                    if (searchableText.some(function(text) {
-                        return text && text.indexOf(filterText) !== -1
-                    })) {
+                    const searchableText = allTitles(tune).concat(allArtists(tune))
+                    if (matchesMainSearchText(searchableText, filter.trim())) {
                         filterOk = true
                     } else if (tuneMatchesPdfSnapshotSearch(tune, filter.trim())) {
                         filterOk = true

@@ -49,6 +49,12 @@ export default function VirtualizedTuneList(props) {
           onTagClick={props.onTagClick}
           onSelect={props.onSelect}
           forceRefresh={props.forceRefresh}
+          mediaController={props.mediaController}
+          tunes={props.tunes}
+          nowPlayingQueue={props.nowPlayingQueue}
+          setNowPlayingQueue={props.setNowPlayingQueue}
+          setQueuePlayConfirm={props.setQueuePlayConfirm}
+          nowPlayingTuneId={props.nowPlayingTuneId}
         />
       </div>
     )

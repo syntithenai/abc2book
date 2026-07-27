@@ -7,8 +7,10 @@ import {
   resolveTuneTimeSignature,
   resolveMetronomeSettingsTune,
   readPlaybackMetronomeRhythmStores,
+  alignPlaybackRhythmToMeter,
+  meterDenominator,
 } from './playbackMetronomeSettings'
-import { rhythmFromPreset } from './metronomeRhythmPresets'
+import { rhythmFromPreset, slotsPerBar } from './metronomeRhythmPresets'
 import { normalizeRhythmConfig, ENGINE_MODE_CLICK, ENGINE_MODE_DRUMS } from './rhythmEngineTypes'
 import { applyRhythmPreset } from './drumPatternPresets'
 
@@ -41,7 +43,42 @@ describe('playbackMetronomeSettings', function() {
     expectRhythmPreset(settings.rhythm, '4-4')
   })
 
-  test('getPlaybackMetronomeSettings uses meter until rhythm is customized', function() {
+  test('meterDenominator parses simple and common-time tokens', function() {
+    expect(meterDenominator('3/4')).toBe(4)
+    expect(meterDenominator('C')).toBe(4)
+    expect(meterDenominator('6/8')).toBe(8)
+  })
+
+  test('alignPlaybackRhythmToMeter corrects compound pulses on simple meters', function() {
+    const compound = normalizeRhythmConfig(rhythmFromPreset('9-8'))
+    const aligned = alignPlaybackRhythmToMeter(compound, '3/4')
+    expect(slotsPerBar(aligned)).toBe(3)
+    expect(aligned.pulsesPerBeat).toEqual([1, 1, 1])
+  })
+
+  test('alignPlaybackRhythmToMeter preserves drum preset id when realigning grid', function() {
+    const drumRhythm = applyRhythmPreset('rock-basic')
+    const aligned = alignPlaybackRhythmToMeter(drumRhythm, '3/4')
+    expect(aligned.presetId).toBe('rock-basic')
+    expect(aligned.beatsPerBar).toBe(3)
+    expect(slotsPerBar(aligned)).toBe(3)
+  })
+
+  test('alignPlaybackRhythmToMeter leaves compound meters unchanged', function() {
+    const jig = normalizeRhythmConfig(rhythmFromPreset('6-8'))
+    const aligned = alignPlaybackRhythmToMeter(jig, '6/8')
+    expect(slotsPerBar(aligned)).toBe(6)
+  })
+
+  test('alignPlaybackRhythmToMeter corrects stale 4/4 rhythm on compound meter', function() {
+    const wrong = normalizeRhythmConfig(rhythmFromPreset('4-4'))
+    const aligned = alignPlaybackRhythmToMeter(wrong, '6/8')
+    expect(slotsPerBar(aligned)).toBe(6)
+    expect(aligned.beatsPerBar).toBe(2)
+    expect(aligned.pulsesPerBeat).toEqual([3, 3])
+  })
+
+  test('getPlaybackMetronomeSettings aligns rhythm to meter', function() {
     const fromMeter = getPlaybackMetronomeSettings({ meter: '6/8' })
     expectRhythmPreset(fromMeter.rhythm, '6-8')
 
@@ -49,7 +86,9 @@ describe('playbackMetronomeSettings', function() {
       meter: '6/8',
       playbackMetronomeRhythm: { beatsPerBar: 4, accents: [1], pulsesPerBeat: [1, 1, 1, 1] },
     })
-    expect(customized.rhythm.beatsPerBar).toBe(4)
+    expect(customized.rhythm.beatsPerBar).toBe(2)
+    expect(slotsPerBar(customized.rhythm)).toBe(6)
+    expect(customized.rhythm.pulsesPerBeat).toEqual([3, 3])
   })
 
   test('hasCustomPlaybackMetronomeRhythm detects saved overrides only', function() {

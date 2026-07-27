@@ -145,7 +145,12 @@ function LinksEditorBody(props) {
     const youtubeEndPollRef = useRef(null)
     const youtubePreviewRef = useRef(null)
     const simplified = !!props.simplified
-    const hasTitle = !!(props.tune && props.tune.name && props.tune.name.trim())
+
+    const youtubeSearchQuery = [
+        props.tune && props.tune.name,
+        props.tune && props.tune.composer,
+        props.tune && props.tune.rhythm,
+    ].filter(Boolean).join(' ').trim()
     const tuneForMedia = props.tune
         ? Object.assign({}, props.tune, { id: props.tune.id || props.tuneId || '' })
         : null
@@ -761,10 +766,6 @@ function LinksEditorBody(props) {
         return link.link.startsWith('data:audio/') || isOwnedMediaLinkUri(link.link)
     }
 
-    const youtubeSearchQuery = (props.tune.name ? props.tune.name : '')
-        + (props.tune.composer ? ' ' + props.tune.composer : '')
-        + (props.tune.rhythm ? ' ' + props.tune.rhythm : '')
-
     return (
         <div>
             <div className="links-editor-toolbar" style={{display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:'0.5em'}} >
@@ -816,46 +817,43 @@ function LinksEditorBody(props) {
                         }}
                         disabled={ownedMediaBusy || audioUtils.isRecording}
                     />
-                    {(hasTitle || !simplified) && (
-                        <ButtonGroup>
-                            {hasTitle && (
-                                <YouTubeSearchModal
-                                    onClick={props.handleClose}
-                                    tunebook={props.tunebook}
-                                    token={props.token}
-                                    onChange={function(link) {
-                                        var links = Array.isArray(props.links) ? props.links : []
-                                        links.unshift({title: link.title, link: link.link, startAt: '', endAt: ''})
-                                        props.onChange(links)
-                                    }}
-                                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                                    value={youtubeSearchQuery}
-                                    renderTrigger={function(triggerProps) {
-                                        return (
-                                            <LinksEditorToolbarButton
-                                                icon={props.tunebook.icons.youtubeblack}
-                                                label="Search media"
-                                                variant="danger"
-                                                onClick={triggerProps.onClick}
-                                            />
-                                        )
-                                    }}
-                                />
-                            )}
-                            {!simplified && (
-                                <LinksEditorToolbarButton
-                                    icon={props.tunebook.icons.externallink}
-                                    label="Open YouTube search"
-                                    variant="danger"
-                                    iconOnly={true}
-                                    as="a"
-                                    href={'https://www.youtube.com/results?search_query=' + encodeURIComponent(youtubeSearchQuery.trim())}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                />
-                            )}
-                        </ButtonGroup>
-                    )}
+                    <ButtonGroup>
+                        <YouTubeSearchModal
+                            onClick={props.handleClose}
+                            tunebook={props.tunebook}
+                            token={props.token}
+                            login={props.login}
+                            onChange={function(link) {
+                                var links = Array.isArray(props.links) ? props.links : []
+                                links.unshift({title: link.title, link: link.link, startAt: '', endAt: ''})
+                                props.onChange(links)
+                            }}
+                            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                            value={youtubeSearchQuery}
+                            renderTrigger={function(triggerProps) {
+                                return (
+                                    <LinksEditorToolbarButton
+                                        icon={props.tunebook.icons.youtubeblack}
+                                        label="Search media"
+                                        variant="danger"
+                                        onClick={triggerProps.onClick}
+                                    />
+                                )
+                            }}
+                        />
+                        {!simplified && (
+                            <LinksEditorToolbarButton
+                                icon={props.tunebook.icons.externallink}
+                                label="Open YouTube search"
+                                variant="danger"
+                                iconOnly={true}
+                                as="a"
+                                href={'https://www.youtube.com/results?search_query=' + encodeURIComponent(youtubeSearchQuery.trim())}
+                                target="_blank"
+                                rel="noreferrer"
+                            />
+                        )}
+                    </ButtonGroup>
                 </div>
 
                 <div className="links-editor-toolbar-group links-editor-toolbar-group--end" style={{display:'flex', alignItems:'center', flexWrap:'wrap', gap:'0.5em', marginLeft:'auto'}} >

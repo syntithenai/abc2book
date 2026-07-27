@@ -2,6 +2,22 @@ export function isMusicCollectionResult(item) {
   return !!(item && item.source === 'music-collection');
 }
 
+export function isBandcampResult(item) {
+  return !!(item && item.source === 'bandcamp');
+}
+
+export function isInternetArchiveResult(item) {
+  return !!(item && item.source === 'internet-archive');
+}
+
+export function isEuropeanaResult(item) {
+  return !!(item && item.source === 'europeana');
+}
+
+export function isLocAudioResult(item) {
+  return !!(item && item.source === 'loc');
+}
+
 export function mediaSearchResultArtist(item) {
   if (!item) return '';
   return String(item.artist || '').trim();

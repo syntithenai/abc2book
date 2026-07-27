@@ -8,6 +8,7 @@ from music_collection import (
     build_music_collection_candidate,
     build_music_collection_public_url,
     ensure_music_collection_art_file,
+    infer_title_artist_from_query,
     music_collection_access_allowed,
     music_collection_enabled,
     resolve_music_collection_file,
@@ -100,6 +101,11 @@ class MusicCollectionIndexTests(unittest.TestCase):
                 "county": ["1"],
                 "down": ["1"],
                 "altan": ["0"],
+                "southern": ["1"],
+                "cross": ["1"],
+                "crosby": ["1"],
+                "stills": ["1"],
+                "nash": ["1"],
             },
         }
         with open(os.path.join(self.root, "music_collection_index.json"), "w", encoding="utf-8") as handle:
@@ -117,6 +123,83 @@ class MusicCollectionIndexTests(unittest.TestCase):
             matches = search_music_collection("Sally Gardens", artist="Altan")
             self.assertTrue(matches)
             self.assertEqual(matches[0]["title"], "Sally Gardens")
+
+    def test_ignores_path_only_token_matches(self):
+        with patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root}):
+            from music_collection import load_music_collection_index
+
+            load_music_collection_index(force_reload=True)
+            matches = search_music_collection(
+                "Southern Cross Crosby Stills Nash",
+                artist="",
+            )
+            self.assertEqual(matches, [])
+
+    def test_infer_title_artist_from_query(self):
+        self.assertEqual(
+            infer_title_artist_from_query("elvis presley love me"),
+            ("love me", "elvis presley"),
+        )
+        self.assertEqual(
+            infer_title_artist_from_query("After The Battle Of Aughrim"),
+            ("After The Battle Of Aughrim", ""),
+        )
+
+    def test_matches_artist_only_queries(self):
+        index = {
+            "version": 1,
+            "entries": {
+                "2": {
+                    "title": "The Miller's Maggot",
+                    "artist": "Lunasa",
+                    "path": "Lunasa/millers_maggot.mp3",
+                    "duration": 180,
+                    "hasArt": False,
+                },
+            },
+            "tokens": {
+                "lunasa": ["2"],
+                "miller": ["2"],
+                "maggot": ["2"],
+            },
+        }
+        with open(os.path.join(self.root, "music_collection_index.json"), "w", encoding="utf-8") as handle:
+            json.dump(index, handle)
+        with patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root}):
+            from music_collection import load_music_collection_index
+
+            load_music_collection_index(force_reload=True)
+            matches = search_music_collection("Lúnasa", artist="")
+            self.assertTrue(matches)
+            self.assertEqual(matches[0]["artist"], "Lunasa")
+
+    def test_matches_filename_when_tags_missing(self):
+        index = {
+            "version": 1,
+            "entries": {
+                "3": {
+                    "title": "",
+                    "artist": "",
+                    "path": "folk/sally_gardens.mp3",
+                    "duration": 180,
+                    "hasArt": False,
+                },
+            },
+            "tokens": {
+                "sally": ["3"],
+                "gardens": ["3"],
+                "folk": ["3"],
+            },
+        }
+        with open(os.path.join(self.root, "music_collection_index.json"), "w", encoding="utf-8") as handle:
+            json.dump(index, handle)
+        with patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root}):
+            from music_collection import load_music_collection_index
+
+            load_music_collection_index(force_reload=True)
+            matches = search_music_collection("Sally Gardens", artist="")
+            self.assertTrue(matches)
+            self.assertIn("sally", matches[0]["title"].lower())
 
     def test_resolve_file(self):
         with patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root}):

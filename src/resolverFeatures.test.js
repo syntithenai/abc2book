@@ -26,6 +26,12 @@ describe('resolverFeatures', function() {
       lightMode: false,
       youtubeAudio: false,
       youtubeEgressRequired: false,
+      musicCollection: false,
+      bandcamp: false,
+      internetArchive: false,
+      europeana: false,
+      locAudio: false,
+      practiceTrack: false,
     });
   });
 
@@ -57,6 +63,12 @@ describe('resolverFeatures', function() {
       lightMode: true,
       youtubeAudio: false,
       youtubeEgressRequired: true,
+      musicCollection: false,
+      bandcamp: false,
+      internetArchive: false,
+      europeana: false,
+      locAudio: false,
+      practiceTrack: false,
     });
   });
 

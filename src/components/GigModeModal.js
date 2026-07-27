@@ -46,6 +46,8 @@ import { buildGigRoute, getPlaylistTuneIdAtIndex } from '../gigRouteUtils';
 import MarkdownContent from './MarkdownContent';
 import LyricsZoomControls from './LyricsZoomControls';
 import StructureChordBlock from './StructureChordBlock';
+import { useCapoViewState } from '../useCapoViewState';
+import { chordTransposeWithCapo } from '../capoViewUtils';
 import './GigModeModal.css';
 
 function requestWakeLock() {
@@ -81,7 +83,6 @@ export default function GigModeModal(props) {
   });
   const [voiceSettingsVersion, setVoiceSettingsVersion] = useState(0);
   const [gigNightMode, setGigNightModeState] = useState(getGigNightMode);
-  const [chordViewMode, setChordViewMode] = useState('transposed');
 
   const currentIndex = setPlaylist && typeof setPlaylist.currentIndex === 'number'
     ? setPlaylist.currentIndex
@@ -156,19 +157,21 @@ export default function GigModeModal(props) {
     return Number(currentTune.transpose) || 0;
   }, [currentTune, currentTune && currentTune.transpose]);
 
-  const effectiveCapo = useMemo(function() {
+  const storedCapo = useMemo(function() {
     if (!currentTune) return 0;
     const baseCapo = Number(currentTune.capo) || 0;
     return setItem && setItem.capo != null ? Number(setItem.capo) : baseCapo;
   }, [currentTune, setItem]);
 
+  const capoState = useCapoViewState(currentTune && currentTune.id, storedCapo);
+
   const chordTranspose = useMemo(function() {
     if (!currentTune) return 0;
     const baseTranspose = Number(currentTune.transpose) || 0;
     const itemTranspose = setItem && setItem.transpose != null ? Number(setItem.transpose) : 0;
-    const capoOffset = chordViewMode === 'capo' ? effectiveCapo : 0;
-    return baseTranspose + itemTranspose - capoOffset;
-  }, [currentTune, setItem, tuneTranspose, chordViewMode, effectiveCapo]);
+    const totalTranspose = baseTranspose + itemTranspose;
+    return chordTransposeWithCapo(totalTranspose, capoState.capoOffset, capoState.capoEnabled);
+  }, [currentTune, setItem, capoState.capoOffset, capoState.capoEnabled]);
 
   const notationVisualTranspose = chordTranspose;
 
@@ -203,7 +206,6 @@ export default function GigModeModal(props) {
   const showInfo = !!displayFlags.info;
   const showNotation = displayFlags.notation !== 'off' && hasNotes;
   const viewModesEmpty = isViewModesEmpty(displayFlags, availableFlags);
-  const hasCapo = effectiveCapo > 0;
   const hideChordsInText = !showChordsAnnotate;
   const visibleVoiceKeys = useMemo(function() {
     if (!currentTune) return [];
@@ -414,6 +416,15 @@ export default function GigModeModal(props) {
     }));
   }
 
+  function handleCapoOffsetChange(offset) {
+    capoState.applyCapoOffset(offset);
+    if (!currentTune || !currentTune.id || !tunebook) return;
+    tunebook.saveTune(Object.assign({}, currentTune, {
+      id: currentTune.id,
+      capo: offset,
+    }));
+  }
+
   function handleToggleDarkTheme() {
     const next = toggleGigNightMode();
     setGigNightModeState(next);
@@ -466,6 +477,11 @@ export default function GigModeModal(props) {
         zoom={displayZoom}
         fitHeight={lyricsStructureFitHeight}
         chords={structureChordChart}
+        showCapoControl={showStructure}
+        capoOffset={capoState.capoOffset}
+        capoEnabled={capoState.capoEnabled}
+        onCapoToggle={capoState.toggleCapo}
+        onCapoOffsetChange={handleCapoOffsetChange}
       />
     </div>
   ) : null;
@@ -490,6 +506,11 @@ export default function GigModeModal(props) {
         chords={structureChordChart}
         tune={currentTune}
         fitHeight={structureFitHeight}
+        showCapoControl={true}
+        capoOffset={capoState.capoOffset}
+        capoEnabled={capoState.capoEnabled}
+        onCapoToggle={capoState.toggleCapo}
+        onCapoOffsetChange={handleCapoOffsetChange}
       />
     </div>
   ) : null;
@@ -577,21 +598,6 @@ export default function GigModeModal(props) {
               <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
               <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1); }} aria-label="Transpose up">+</Button>
             </ButtonGroup>
-            {(showChordsAnnotate || showStructure) && hasCapo ? (
-              <Button
-                size="sm"
-                variant={chordViewMode === 'capo' ? 'primary' : 'outline-secondary'}
-                className="gig-mode-capo-toggle-btn"
-                aria-pressed={chordViewMode === 'capo'}
-                aria-label={'Capo ' + effectiveCapo + (chordViewMode === 'capo' ? ' fingering' : ' transposed')}
-                title={chordViewMode === 'capo' ? 'Show transposed chords' : 'Show capo fingering'}
-                onClick={function() {
-                  setChordViewMode(chordViewMode === 'capo' ? 'transposed' : 'capo');
-                }}
-              >
-                Capo {effectiveCapo}
-              </Button>
-            ) : null}
             {availableFlags.lyrics && !fitHeightOn ? (
               <LyricsZoomControls
                 className="gig-mode-zoom-group"

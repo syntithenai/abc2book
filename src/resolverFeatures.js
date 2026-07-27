@@ -13,6 +13,11 @@ export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
   youtubeAudio: false,
   youtubeEgressRequired: false,
   musicCollection: false,
+  bandcamp: false,
+  internetArchive: false,
+  europeana: false,
+  locAudio: false,
+  practiceTrack: false,
 });
 
 export const ALL_RESOLVER_FEATURES = Object.freeze({
@@ -32,6 +37,11 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   youtubeAudio: true,
   youtubeEgressRequired: false,
   musicCollection: false,
+  bandcamp: true,
+  internetArchive: true,
+  europeana: true,
+  locAudio: true,
+  practiceTrack: true,
 });
 
 export function normalizeResolverFeatures(raw, options) {
@@ -57,6 +67,11 @@ export function normalizeResolverFeatures(raw, options) {
     youtubeAudio: raw.youtubeAudio === true,
     youtubeEgressRequired: raw.youtubeEgressRequired === true,
     musicCollection: raw.musicCollection === true,
+    bandcamp: raw.bandcamp === true,
+    internetArchive: raw.internetArchive === true,
+    europeana: raw.europeana === true,
+    locAudio: raw.locAudio === true,
+    practiceTrack: raw.practiceTrack === true,
   };
 }
 

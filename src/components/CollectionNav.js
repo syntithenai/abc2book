@@ -46,6 +46,11 @@ export default function CollectionNav(props) {
       icon: props.tunebook.icons.recent,
     },
     {
+      id: BOOKS_PAGE_SECTIONS.recentlyPlayed,
+      label: 'played',
+      icon: props.tunebook.icons.play,
+    },
+    {
       id: BOOKS_PAGE_SECTIONS.starred,
       label: 'starred',
       icon: props.tunebook.icons.starfilled || props.tunebook.icons.star,

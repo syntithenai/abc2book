@@ -15,6 +15,9 @@ import {
   mergePlaylistsFromTuneBookAbc,
   importSinglePlaylistFromAbc,
 } from '../playlistSyncClient'
+import {
+  mergePracticeListsFromTuneBookAbc,
+} from '../practiceListSyncClient'
 import { setPendingShareImportSideEffect, setPendingShareImportSourceRegistration, clearPendingShareImportSourceRegistration } from '../shareImportSession'
 import { useDocumentTitle } from '../pageTitle'
 import { classifyImportAbcResults, buildBatchSummaryFromClassifier } from '../importAbcClassifier'
@@ -231,6 +234,9 @@ export default function ImportGoogleDocumentPage({
           .then(function() {
             return mergePlaylistsFromTuneBookAbc(abcText, { interactive: false, applySilently: true })
           })
+          .then(function() {
+            return mergePracticeListsFromTuneBookAbc(abcText, { interactive: false, applySilently: true })
+          })
       }
     } else if (option.scope === 'set') {
       afterMerge = function() { return importSinglePerformanceSetFromAbc(abcText, option.setId) }
@@ -268,6 +274,9 @@ export default function ImportGoogleDocumentPage({
         return mergePerformanceSetsFromTuneBookAbc(abcText, { interactive: false, applySilently: true })
           .then(function() {
             return mergePlaylistsFromTuneBookAbc(abcText, { interactive: false, applySilently: true })
+          })
+          .then(function() {
+            return mergePracticeListsFromTuneBookAbc(abcText, { interactive: false, applySilently: true })
           })
       }
     } else if (pendingScope && pendingScope.scope === 'set') {

@@ -47,7 +47,7 @@ export function createEmptyDrumPattern(slotCount, swing) {
 }
 
 export function normalizeDrumPattern(pattern, slotCount) {
-  const count = Math.max(1, slotCount || (pattern && pattern.resolution) || 16)
+  const count = Math.max(1, slotCount > 0 ? slotCount : ((pattern && pattern.resolution) || 16))
   if (!pattern || typeof pattern !== 'object') {
     return createEmptyDrumPattern(count)
   }
@@ -108,14 +108,15 @@ export function normalizeRhythmConfig(rhythm) {
   const base = createRhythm(rhythm.beatsPerBar, rhythm.accents, rhythm.pulsesPerBeat)
   const engineMode = normalizeEngineMode(rhythm.engineMode)
   const slotCount = slotsPerBar(base)
+  const drumPattern = engineMode === ENGINE_MODE_DRUMS
+    ? normalizeDrumPattern(rhythm.drumPattern, slotCount)
+    : null
   return {
     beatsPerBar: base.beatsPerBar,
     accents: base.accents,
     pulsesPerBeat: base.pulsesPerBeat,
     engineMode: engineMode,
-    drumPattern: engineMode === ENGINE_MODE_DRUMS
-      ? normalizeDrumPattern(rhythm.drumPattern, slotCount)
-      : null,
+    drumPattern: drumPattern,
     presetId: typeof rhythm.presetId === 'string' ? rhythm.presetId : '',
   }
 }

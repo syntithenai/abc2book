@@ -109,6 +109,18 @@ describe('nowPlayingQueue', function() {
     })
   })
 
+  test('resolvePlaybackForItem prefers midi when first link is a recording', function() {
+    const tune = {
+      id: '1',
+      notes: true,
+      links: [{ link: 'recording:r1', recordingId: 'r1' }],
+    }
+    expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'auto' }, tunebook)).toEqual({
+      type: 'midi',
+      linkNum: null,
+    })
+  })
+
   test('resolvePlaybackForItem midi only', function() {
     const tune = { id: '1', notes: true }
     expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'midi' }, tunebook)).toEqual({

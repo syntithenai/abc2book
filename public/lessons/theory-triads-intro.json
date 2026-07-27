@@ -57,144 +57,6 @@
           "text": "I, ii, iii, IV, V, vi, vii° — capital = major, lowercase = minor, ° = diminished."
         }
       ]
-    },
-    {
-      "id": "quiz-questions",
-      "title": "Quiz Questions",
-      "level": 2,
-      "blocks": []
-    },
-    {
-      "id": "q1-c-major-triad-notes",
-      "title": "Q1. C major triad notes:",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "- A) C-E-G\n- B) C-E♭-G\n- C) C-F-A\n- D) C-D-G\n\n**Answer:** A"
-        }
-      ]
-    },
-    {
-      "id": "q2-minor-triad-has-smaller-third-above-root-than-major",
-      "title": "Q2. Minor triad has smaller third above root than major.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q3-v-is-major-in-a-major-key",
-      "title": "Q3. V is major in a major key.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q4-triad-has-three-distinct-pitch-classes",
-      "title": "Q4. Triad has three distinct pitch classes.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q5-vii-is-diminished-in-major",
-      "title": "Q5. vii° is diminished in major.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q6-folk-accompaniment-often-uses-i-iv-v-vi",
-      "title": "Q6. Folk accompaniment often uses I, IV, V, vi.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q7-augmented-triad-is-rare-but-appears-as-passing-colour",
-      "title": "Q7. Augmented triad is rare but appears as passing colour.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q8-root-is-the-note-the-triad-is-named-after",
-      "title": "Q8. Root is the note the triad is named after.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q9-ii-is-minor-in-major-keys",
-      "title": "Q9. ii is minor in major keys.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q10-triads-build-from-intervals-learned-previously",
-      "title": "Q10. Triads build from intervals learned previously.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q11-three-notes-define-chord-quality",
-      "title": "Q11. Three notes define chord quality.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q12-session-guitar-uses-triad-shapes-in-g-and-d-often",
-      "title": "Q12. Session guitar uses triad shapes in G and D often.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
     }
   ],
   "entities": [],
@@ -203,5 +65,465 @@
   "tunes": [],
   "key_points": [],
   "reading_list": [],
-  "quiz_markdown": "### Q1. C major triad notes:\n\n- A) C-E-G\n- B) C-E♭-G\n- C) C-F-A\n- D) C-D-G\n\n**Answer:** A\n\n### Q2. Minor triad has smaller third above root than major.\n\n**Answer:** True\n\n### Q3. V is major in a major key.\n\n**Answer:** True\n\n### Q4. Triad has three distinct pitch classes.\n\n**Answer:** True\n\n### Q5. vii° is diminished in major.\n\n**Answer:** True\n\n### Q6. Folk accompaniment often uses I, IV, V, vi.\n\n**Answer:** True\n\n### Q7. Augmented triad is rare but appears as passing colour.\n\n**Answer:** True\n\n### Q8. Root is the note the triad is named after.\n\n**Answer:** True\n\n### Q9. ii is minor in major keys.\n\n**Answer:** True\n\n### Q10. Triads build from intervals learned previously.\n\n**Answer:** True\n\n### Q11. Three notes define chord quality.\n\n**Answer:** True\n\n### Q12. Session guitar uses triad shapes in G and D often.\n\n**Answer:** True"
+  "quiz_markdown": "### Q1. C major triad notes:\n\n- A) C-E-G\n- B) C-E♭-G\n- C) C-F-A\n- D) C-D-G\n\n**Answer:** A\n\n### Q2. Minor triad has smaller third above root than major.\n\n**Answer:** True\n\n### Q3. V is major in a major key.\n\n**Answer:** True\n\n### Q4. Triad has three distinct pitch classes.\n\n**Answer:** True\n\n### Q5. vii° is diminished in major.\n\n**Answer:** True\n\n### Q6. Folk accompaniment often uses I, IV, V, vi.\n\n**Answer:** True\n\n### Q7. Augmented triad is rare but appears as passing colour.\n\n**Answer:** True\n\n### Q8. Root is the note the triad is named after.\n\n**Answer:** True\n\n### Q9. ii is minor in major keys.\n\n**Answer:** True\n\n### Q10. Triads build from intervals learned previously.\n\n**Answer:** True\n\n### Q11. Three notes define chord quality.\n\n**Answer:** True\n\n### Q12. Session guitar uses triad shapes in G and D often.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "C major triad notes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "C-E-G",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: C-E-G"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Minor triad has smaller third above root than major.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "V is major in a major key.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Triad has three distinct pitch classes.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "vii° is diminished in major.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Folk accompaniment often uses I, IV, V, vi.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Augmented triad is rare but appears as passing colour.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Root is the note the triad is named after.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "ii is minor in major keys.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Triads build from intervals learned previously.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Three notes define chord quality.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Session guitar uses triad shapes in G and D often.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-triads-intro-quiz",
+    "title": "Triads — Introduction quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "C major triad notes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "C-E-G",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: C-E-G"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Minor triad has smaller third above root than major.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "V is major in a major key.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Triad has three distinct pitch classes.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "vii° is diminished in major.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Folk accompaniment often uses I, IV, V, vi.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Augmented triad is rare but appears as passing colour.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Root is the note the triad is named after.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "ii is minor in major keys.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Triads build from intervals learned previously.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Three notes define chord quality.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Session guitar uses triad shapes in G and D often.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
 }

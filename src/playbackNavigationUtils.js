@@ -1,5 +1,16 @@
 import { isQueueActive, getCurrentTuneId } from './nowPlayingQueue'
 
+/** Tune id for the transport bar / now-playing UI (queue item or active engine tune). */
+export function getActivePlaybackTuneId(mediaController, queue) {
+  if (isQueueActive(queue)) {
+    const queueTuneId = getCurrentTuneId(queue)
+    if (queueTuneId) return queueTuneId
+  }
+  const tune = mediaController && mediaController.tune
+  if (tune && tune.id) return tune.id
+  return null
+}
+
 function isViewingDifferentFromQueue(viewedTuneId, queue) {
   if (!isQueueActive(queue)) return false
   const playingId = getCurrentTuneId(queue)
@@ -26,6 +37,26 @@ export function getAppPathname() {
     return hash.slice(1).split('?')[0]
   }
   return window.location.pathname || ''
+}
+
+/** True when playback is running or armed to continue (not user-paused). */
+export function isPlaybackActivelyPlaying(mediaController) {
+  if (!mediaController) return false
+  if (mediaController.isPlaying || mediaController.isLoading) return true
+  if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
+    return true
+  }
+  return false
+}
+
+/**
+ * Whether next/prev should start the next tune. Callers may pass startPlayback
+ * to mean "keep a playing session going", but paused playback must stay paused.
+ */
+export function shouldStartPlaybackWhenAdvancing(mediaController, lessonYoutubePlaying) {
+  if (isPlaybackActivelyPlaying(mediaController)) return true
+  if (lessonYoutubePlaying) return true
+  return false
 }
 
 /**
@@ -74,13 +105,22 @@ export function getSkipNavigationTuneId(pathname, nowPlayingQueue) {
 }
 
 /**
- * Header skip / keyboard arrows walk search results by default.
- * Only the playlist transport bar opts into queue stepping.
+ * Header skip / keyboard arrows walk the queue when playlist playback is engaged;
+ * otherwise they walk search results (unless forceSearchList is false and queue nav requested).
  */
-export function shouldUseQueueNavigationForAdjacent(options) {
+export function shouldUseQueueNavigationForAdjacent(options, mediaController, queue) {
   const opts = options || {}
   if (opts.forceSearchList) return false
-  return !!opts.useQueueNavigation
+  if (opts.useQueueNavigation) return true
+  if (isQueueActive(queue) && isQueuePlaybackEngaged(mediaController, { queue: queue })) {
+    return true
+  }
+  return false
+}
+
+/** True when header arrows should step the audible queue instead of search results. */
+export function shouldPreferQueueNavigation(mediaController, queue) {
+  return isQueueActive(queue) && isQueuePlaybackEngaged(mediaController, { queue: queue })
 }
 
 /** Keep playlist audio running while browsing search results in the header. */
@@ -89,9 +129,10 @@ export function shouldPreservePlaylistAudioDuringSearchBrowse(options, queue, me
   return isQueueActive(queue) && isQueuePlaybackEngaged(mediaController)
 }
 
-export function shouldShowPlaylistTransportBar(pathname, nowPlayingQueue, gigModeActive) {
+export function shouldShowPlaylistTransportBar(pathname, nowPlayingQueue, gigModeActive, mediaController) {
   if (gigModeActive) return false
   if (pathname && pathname.startsWith('/gig/')) return false
   if (pathname && pathname.startsWith('/print')) return false
-  return isQueueActive(nowPlayingQueue)
+  if (isQueueActive(nowPlayingQueue)) return true
+  return isQueuePlaybackEngaged(mediaController)
 }

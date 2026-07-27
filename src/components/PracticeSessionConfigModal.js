@@ -1,10 +1,17 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useSearchParams } from 'react-router-dom'
 import { Button, Modal, Form, ButtonGroup, Alert } from 'react-bootstrap'
-import BookSelectorModal from './BookSelectorModal'
-import TagsSearchSelectorModal from './TagsSearchSelectorModal'
 import VocalRangePickerModal from './VocalRangePickerModal'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
+import {
+  getPracticeList,
+  listPracticeLists,
+  MIN_RECOMMENDED_PRACTICE_LIST_TUNES,
+  allPracticeListTuneCount,
+  practiceListTuneCount,
+  subscribePracticeLists,
+} from '../practiceListStore'
 import {
   DURATION_OPTIONS,
   PRACTICE_INSTRUMENTS,
@@ -24,14 +31,25 @@ export default function PracticeSessionConfigModal(props) {
   const [instrument, setInstrument] = useState('mandolin')
   const [recentInstruments, setRecentInstruments] = useState([])
   const [totalMinutes, setTotalMinutes] = useState(10)
-  const [bookFilter, setBookFilter] = useState('')
-  const [tagFilter, setTagFilter] = useState([])
+  const [practiceListId, setPracticeListId] = useState('')
+  const [practiceLists, setPracticeLists] = useState([])
   const [includeWarmups, setIncludeWarmups] = useState(true)
   const [skillLevel, setSkillLevel] = useState(5)
   const [accuracyCheckingEnabled, setAccuracyCheckingEnabled] = useState(false)
   const [vocalRangeLow, setVocalRangeLow] = useState('')
   const [vocalRangeHigh, setVocalRangeHigh] = useState('')
   const [vocalRangeOpen, setVocalRangeOpen] = useState(false)
+
+  function refreshPracticeLists() {
+    setPracticeLists(listPracticeLists())
+  }
+
+  useEffect(function() {
+    if (!props.show) return
+    refreshPracticeLists()
+    const unsubscribe = subscribePracticeLists(refreshPracticeLists)
+    return function() { unsubscribe() }
+  }, [props.show])
 
   useEffect(function() {
     if (props.show) {
@@ -44,8 +62,14 @@ export default function PracticeSessionConfigModal(props) {
       setAccuracyCheckingEnabled(saved.accuracyCheckingEnabled === true)
       setVocalRangeLow(saved.vocalRangeLow || '')
       setVocalRangeHigh(saved.vocalRangeHigh || '')
-      setBookFilter('')
-      setTagFilter([])
+
+      const lists = listPracticeLists()
+      const listParam = searchParams.get('list')
+      const savedListId = saved.lastPracticeListId || ''
+      const initialListId = listParam != null && listParam !== ''
+        ? listParam
+        : (savedListId || '')
+      setPracticeListId(initialListId)
 
       const minutes = searchParams.get('minutes')
       if (minutes) setTotalMinutes(parseInt(minutes, 10))
@@ -58,14 +82,6 @@ export default function PracticeSessionConfigModal(props) {
 
       const warmups = searchParams.get('warmups')
       if (warmups != null) setIncludeWarmups(warmups !== '0' && warmups !== 'false')
-
-      const book = searchParams.get('book')
-      if (book) setBookFilter(book)
-
-      const tags = searchParams.get('tags')
-      if (tags) {
-        setTagFilter(tags.split(',').map(function(t) { return t.trim() }).filter(Boolean))
-      }
     }
   }, [props.show, searchParams])
 
@@ -77,6 +93,22 @@ export default function PracticeSessionConfigModal(props) {
       if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
     }
   }, [props.show, props.setBlockKeyboardShortcuts])
+
+  const selectedList = useMemo(function() {
+    return practiceListId ? getPracticeList(practiceListId) : null
+  }, [practiceListId, practiceLists])
+
+  const selectedListTuneCount = practiceListTuneCount(selectedList)
+  const allListsTuneCount = useMemo(function() {
+    return allPracticeListTuneCount()
+  }, [practiceLists])
+  const effectiveTuneCount = practiceListId ? selectedListTuneCount : allListsTuneCount
+  const hasPracticeLists = practiceLists.length > 0
+  const canStart = hasPracticeLists && effectiveTuneCount > 0
+  const showEmptyListWarning = !!practiceListId && selectedListTuneCount === 0
+  const showNoTunesAnywhereWarning = !practiceListId && hasPracticeLists && allListsTuneCount === 0
+  const showLowCountWarning = effectiveTuneCount > 0
+    && effectiveTuneCount < MIN_RECOMMENDED_PRACTICE_LIST_TUNES
 
   function persistSettings(next) {
     mergePracticeSettings({
@@ -90,6 +122,7 @@ export default function PracticeSessionConfigModal(props) {
         : accuracyCheckingEnabled,
       vocalRangeLow: next.vocalRangeLow != null ? next.vocalRangeLow : vocalRangeLow,
       vocalRangeHigh: next.vocalRangeHigh != null ? next.vocalRangeHigh : vocalRangeHigh,
+      lastPracticeListId: next.lastPracticeListId != null ? next.lastPracticeListId : practiceListId,
     })
   }
 
@@ -138,12 +171,18 @@ export default function PracticeSessionConfigModal(props) {
     setVocalRangeOpen(false)
   }
 
+  function handlePracticeListChange(nextListId) {
+    setPracticeListId(nextListId)
+    persistSettings({ lastPracticeListId: nextListId })
+  }
+
   const tempoPreview = getSkillTempoRange(skillLevel)
   const tempoPreviewStart = Math.round(tempoPreview.tempoStart * 100)
   const tempoPreviewEnd = Math.round(tempoPreview.tempoEnd * 100)
   const resolvedVocal = resolveVocalRange(vocalRangeLow, vocalRangeHigh)
 
   function handleStart() {
+    if (!canStart) return
     const accuracy = includeWarmups ? accuracyCheckingEnabled : false
     mergePracticeSettings({
       instrument,
@@ -154,14 +193,14 @@ export default function PracticeSessionConfigModal(props) {
       accuracyCheckingEnabled: accuracy,
       vocalRangeLow,
       vocalRangeHigh,
+      lastPracticeListId: practiceListId,
     })
     if (props.onStart) {
       props.onStart({
         instrument,
         recentInstruments,
         totalMinutes,
-        bookFilter,
-        tagFilter,
+        practiceListId,
         includeWarmups,
         skillLevel,
         accuracyCheckingEnabled: accuracy,
@@ -276,52 +315,72 @@ export default function PracticeSessionConfigModal(props) {
 
           <hr className="practice-config-section-divider" />
 
-          <div className="practice-config-filters-row mb-3">
-            <Form.Group className="practice-config-filter-field mb-0">
-              <Form.Label>Book filter</Form.Label>
-              <div>
-                <BookSelectorModal
-                  title="Filter by book"
-                  currentTuneBook={bookFilter}
-                  tunebook={props.tunebook}
-                  forceRefresh={props.forceRefresh}
-                  onChange={function(val) { setBookFilter(val || '') }}
-                  defaultOptions={props.tunebook.getTuneBookOptions}
-                  searchOptions={props.tunebook.getSearchTuneBookOptions}
-                  triggerElement={
-                    <Button variant="outline-secondary">
-                      {props.tunebook.icons.book} {bookFilter || 'Any book'}
-                    </Button>
-                  }
-                />
-                {bookFilter ? (
-                  <Button className="ms-2" variant="link" onClick={function() { setBookFilter('') }}>Clear</Button>
-                ) : null}
-              </div>
-            </Form.Group>
+          <Form.Group className="mb-3 practice-config-filter-field">
+            <Form.Label>Practice list</Form.Label>
+            {hasPracticeLists ? (
+              <Form.Select
+                value={practiceListId}
+                onChange={function(e) { handlePracticeListChange(e.target.value) }}
+                aria-label="Practice list"
+              >
+                <option value="">All practice lists</option>
+                {practiceLists.map(function(list) {
+                  const count = practiceListTuneCount(list)
+                  const label = list.name + (count ? (' (' + count + ' tune' + (count === 1 ? '' : 's') + ')') : ' (empty)')
+                  return (
+                    <option key={list.id} value={list.id}>{label}</option>
+                  )
+                })}
+              </Form.Select>
+            ) : (
+              <Alert variant="info" className="mb-0">
+                You do not have any practice lists yet.{' '}
+                <Link to="/practice-lists" onClick={props.onHide}>Create a practice list</Link>
+                {' '}and add tunes before starting a session.
+              </Alert>
+            )}
+            {hasPracticeLists ? (
+              <Form.Text className="text-muted d-block mt-1">
+                <Link to="/practice-lists" onClick={props.onHide}>Manage practice lists</Link>
+                {practiceListId
+                  ? (selectedListTuneCount > 0
+                    ? (' · ' + selectedListTuneCount + ' tune' + (selectedListTuneCount === 1 ? '' : 's') + ' in list')
+                    : '')
+                  : (allListsTuneCount > 0
+                    ? (' · ' + allListsTuneCount + ' tune' + (allListsTuneCount === 1 ? '' : 's') + ' across all lists')
+                    : '')}
+              </Form.Text>
+            ) : null}
+          </Form.Group>
 
-            <Form.Group className="practice-config-filter-field mb-0">
-              <Form.Label>Tag filter</Form.Label>
-              <div>
-                <TagsSearchSelectorModal
-                  title="Filter by tags"
-                  value={tagFilter}
-                  tunebook={props.tunebook}
-                  onChange={function(val) { setTagFilter(val || []) }}
-                  defaultOptions={props.tunebook.getTuneTagOptions}
-                  searchOptions={props.tunebook.getSearchTuneTagOptions}
-                  triggerElement={
-                    <Button variant="outline-secondary">
-                      {props.tunebook.icons.tag} {tagFilter.length > 0 ? tagFilter.join(', ') : 'Any tags'}
-                    </Button>
-                  }
-                />
-                {tagFilter.length > 0 ? (
-                  <Button className="ms-2" variant="link" onClick={function() { setTagFilter([]) }}>Clear</Button>
-                ) : null}
-              </div>
-            </Form.Group>
-          </div>
+          {showNoTunesAnywhereWarning ? (
+            <Alert variant="warning">
+              Your practice lists have no tunes yet.{' '}
+              <Link to="/practice-lists" onClick={props.onHide}>
+                Add tunes to a practice list
+              </Link>
+              {' '}before starting.
+            </Alert>
+          ) : null}
+
+          {showEmptyListWarning ? (
+            <Alert variant="warning">
+              This practice list has no tunes yet.{' '}
+              <Link to={'/practice-lists/' + encodeURIComponent(practiceListId)} onClick={props.onHide}>
+                Add tunes to this list
+              </Link>
+              {' '}before starting.
+            </Alert>
+          ) : null}
+
+          {showLowCountWarning ? (
+            <Alert variant="warning">
+              {practiceListId
+                ? ('This list only has ' + effectiveTuneCount + ' tune' + (effectiveTuneCount === 1 ? '' : 's') + '.')
+                : ('You only have ' + effectiveTuneCount + ' tune' + (effectiveTuneCount === 1 ? '' : 's') + ' across all practice lists.')}
+              {' '}Consider adding more to {MIN_RECOMMENDED_PRACTICE_LIST_TUNES}+ for a fuller session.
+            </Alert>
+          ) : null}
 
           <hr className="practice-config-section-divider" />
 
@@ -350,7 +409,7 @@ export default function PracticeSessionConfigModal(props) {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={props.onHide}>Cancel</Button>
-          <Button variant="success" onClick={handleStart}>Start</Button>
+          <Button variant="success" onClick={handleStart} disabled={!canStart}>Start</Button>
         </Modal.Footer>
       </Modal>
 

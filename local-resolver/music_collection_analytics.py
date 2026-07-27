@@ -243,6 +243,141 @@ def soft_duplicate_key(title, artist, duration):
     ])
 
 
+def song_key(artist, title):
+    """Canonical identity: one song per artist (album ignored)."""
+    artist_norm = normalize_match_text(artist)
+    title_norm = normalize_match_text(title)
+    if not artist_norm and not title_norm:
+        return ""
+    return f"{artist_norm}|{title_norm}"
+
+
+def read_audio_info(audio_file):
+    """Extract bitrate, sample rate, channels from mutagen audio object."""
+    info = getattr(audio_file, "info", None)
+    if info is None:
+        return {}
+    out = {}
+    for attr, key in (("bitrate", "bitrate"), ("sample_rate", "sampleRate"), ("channels", "channels")):
+        try:
+            value = getattr(info, attr, None)
+            if value is not None:
+                out[key] = int(value)
+        except (TypeError, ValueError):
+            pass
+    return out
+
+
+def parse_bpm_value(raw):
+    if raw is None:
+        return None
+    text = str(raw).strip()
+    if not text:
+        return None
+    match = re.search(r"(\d+(?:\.\d+)?)", text)
+    if not match:
+        return None
+    try:
+        value = float(match.group(1))
+    except (TypeError, ValueError):
+        return None
+    if value <= 0 or value > 400:
+        return None
+    return round(value, 1)
+
+
+def score_keeper_entry(entry):
+    """Higher is better when picking one copy per songKey."""
+    score = 0
+    play_count = entry.get("playCount")
+    if isinstance(play_count, int) and play_count > 0:
+        score += min(play_count, 500) * 10
+    bitrate = entry.get("bitrate")
+    if isinstance(bitrate, int) and bitrate > 0:
+        score += min(bitrate // 1000, 320)
+    meta = entry.get("meta") or {}
+    for field in ("title", "artist", "genre", "year"):
+        if meta.get(field) == "tag":
+            score += 5
+    if entry.get("bpm"):
+        score += 3
+    path = str(entry.get("path") or "")
+    if path.startswith("library/"):
+        score += 50
+    if entry.get("hasArt"):
+        score += 2
+    score -= min(len(path) // 40, 10)
+    return score
+
+
+def pick_keeper_entry_ids(entry_ids, entries):
+    best_id = None
+    best_score = -10**9
+    for entry_id in entry_ids:
+        entry = entries.get(entry_id) or {}
+        if not isinstance(entry, dict):
+            continue
+        score = score_keeper_entry(entry)
+        if score > best_score:
+            best_score = score
+            best_id = entry_id
+    return best_id
+
+
+def entry_summary(entry_id, entry):
+    return {
+        "id": entry_id,
+        "title": entry.get("title") or "",
+        "artist": entry.get("artist") or "",
+        "album": entry.get("album") or "",
+        "path": entry.get("path") or "",
+        "duration": entry.get("duration"),
+        "playCount": entry.get("playCount"),
+        "bitrate": entry.get("bitrate"),
+        "bpm": entry.get("bpm"),
+        "genre": entry.get("genre") or "",
+        "songKey": entry.get("songKey") or "",
+        "collectionId": entry.get("collectionId") or "",
+        "phase": entry.get("phase") or "",
+    }
+
+
+def build_duplicate_groups(entries, *, group_type="songKey", limit=50):
+    entries = entries or {}
+    groups_map = defaultdict(list)
+    for entry_id, entry in entries.items():
+        if not isinstance(entry, dict):
+            continue
+        if group_type == "exact":
+            key = entry.get("fingerprint") or ""
+        elif group_type == "soft":
+            key = entry.get("softDupKey") or ""
+        else:
+            key = entry.get("songKey") or song_key(entry.get("artist"), entry.get("title"))
+        if not key:
+            continue
+        groups_map[key].append(entry_id)
+
+    groups = []
+    for key, entry_ids in groups_map.items():
+        if len(entry_ids) < 2:
+            continue
+        keeper_id = pick_keeper_entry_ids(entry_ids, entries)
+        members = [entry_summary(eid, entries.get(eid) or {}) for eid in entry_ids]
+        for member in members:
+            member["keeper"] = member["id"] == keeper_id
+        groups.append({
+            "key": key,
+            "type": group_type,
+            "size": len(entry_ids),
+            "keeperId": keeper_id,
+            "members": members,
+        })
+
+    groups.sort(key=lambda item: (-item["size"], item.get("key") or ""))
+    return groups[: max(1, int(limit or 50))]
+
+
 def _top_counter(counter, limit=25):
     return [{"value": value, "count": count} for value, count in counter.most_common(limit)]
 
@@ -284,6 +419,7 @@ def build_collection_stats(entries):
     added_by_month = Counter()
     fingerprint_groups = defaultdict(list)
     soft_dup_groups = defaultdict(list)
+    song_key_groups = defaultdict(list)
     total_bytes = 0
 
     for entry_id, entry in entries.items():
@@ -307,6 +443,8 @@ def build_collection_stats(entries):
                 metadata_counts[field + "Derived"] += 1
             else:
                 metadata_counts[field + "Missing"] += 1
+        if entry.get("bpm"):
+            metadata_counts["bpm"] += 1
 
         if entry.get("hasArt"):
             metadata_counts["art"] += 1
@@ -352,11 +490,15 @@ def build_collection_stats(entries):
         soft_key = entry.get("softDupKey")
         if soft_key:
             soft_dup_groups[soft_key].append(entry_id)
+        sk = entry.get("songKey")
+        if sk:
+            song_key_groups[sk].append(entry_id)
 
     most_played.sort(key=lambda item: (item.get("playCount") or 0, item.get("title") or ""), reverse=True)
 
     exact_dup_groups = [ids for ids in fingerprint_groups.values() if len(ids) > 1]
     soft_dup_group_list = [ids for ids in soft_dup_groups.values() if len(ids) > 1]
+    song_key_group_list = [ids for ids in song_key_groups.values() if len(ids) > 1]
 
     def _dup_summary(groups):
         extra_copies = sum(len(group) - 1 for group in groups)
@@ -376,6 +518,7 @@ def build_collection_stats(entries):
         "taggedYear": metadata_counts.get("year", 0),
         "taggedComposer": metadata_counts.get("composer", 0),
         "taggedTrackNumber": metadata_counts.get("tracknumber", 0),
+        "taggedBpm": metadata_counts.get("bpm", 0),
         "derivedTitle": metadata_counts.get("titleDerived", 0),
         "derivedArtist": metadata_counts.get("artistDerived", 0),
         "withArt": metadata_counts.get("art", 0),
@@ -419,6 +562,7 @@ def build_collection_stats(entries):
         "duplicates": {
             "exact": _dup_summary(exact_dup_groups),
             "metadata": _dup_summary(soft_dup_group_list),
+            "songKey": _dup_summary(song_key_group_list),
         },
     }
 
@@ -438,6 +582,7 @@ def summarize_stats_for_health(stats):
         "withPlayCount": int(playback.get("withPlayCount") or 0),
         "duplicateExtras": int((duplicates.get("exact") or {}).get("extraCopies") or 0),
         "metadataDuplicateExtras": int((duplicates.get("metadata") or {}).get("extraCopies") or 0),
+        "songKeyDuplicateExtras": int((duplicates.get("songKey") or {}).get("extraCopies") or 0),
         "topGenres": (stats.get("genres") or [])[:5],
         "topCategories": (stats.get("categories") or [])[:5],
     }

@@ -36,7 +36,6 @@ import MarkdownContent from './MarkdownContent'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import KeySignatureInput from './KeySignatureInput'
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
-import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings'
 import {
   normalizeEditorViewMode,
   isNotationEditorView,
@@ -765,17 +764,6 @@ export default function AbcEditor(props) {
                             <Form.Control   value={tune.transpose ? tune.transpose : ''} onChange={function(e) {tune.transpose = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
                           </Form.Group>
                         </Col>
-                        <Col className="abc-editor-info-field-secondary abc-editor-info-field-narrow" xs={4} md={2}>
-                          <Form.Group className="mb-3" controlId="capo">
-                            <FormLabelWithHelp label="Capo" htmlFor="capo" helpBody={EDITOR_INFO_FIELD_HELP.capo.body} helpTitle={EDITOR_INFO_FIELD_HELP.capo.title} />
-                            <Form.Control type="number" min="0" max="12" value={tune.capo !== undefined && tune.capo !== null ? tune.capo : ''} onChange={function(e) {
-                              var value = e.target.value === '' ? 0 : parseInt(e.target.value, 10)
-                              tune.capo = Number.isFinite(value) ? value : 0
-                              tune.id = params.tuneId
-                              saveTune(tune)
-                            }} />
-                          </Form.Group>
-                        </Col>
                       </Row>
                       </div>
 
@@ -826,75 +814,18 @@ export default function AbcEditor(props) {
                           </Form.Group>
                         </Col>
                       </Row>
-                      </div>
-
-                      <div className="abc-editor-info-section abc-editor-info-section-practice">
-                      <div className="abc-editor-info-section-heading">Practice</div>
                       <Row className="g-2">
-                        <Col xs={12} md={8}>
-                          <Form.Group className="mb-3" controlId="suitableForPractice">
-                            <FormLabelWithHelp label="Suitable for practice" helpBody={EDITOR_INFO_FIELD_HELP.suitableForPractice.body} helpTitle={EDITOR_INFO_FIELD_HELP.suitableForPractice.title} />
-                            <Form.Check
-                              type="checkbox"
-                              id="suitable-for-practice"
-                              label="Include in practice sessions"
-                              checked={tune.suitableForPractice !== false}
-                              onChange={function(e) {
-                                tune.suitableForPractice = !!e.target.checked
-                                tune.id = params.tuneId
-                                saveTune(tune)
-                                if (typeof props.forceRefresh === 'function') props.forceRefresh()
-                              }}
-                            />
-                          </Form.Group>
-                          <Form.Group className="mb-3" controlId="suitableFor">
-                            <FormLabelWithHelp label="Suitable for" helpBody={EDITOR_INFO_FIELD_HELP.suitableFor.body} helpTitle={EDITOR_INFO_FIELD_HELP.suitableFor.title} />
-                            <div className="abc-editor-suitable-for">
-                              {PRACTICE_INSTRUMENTS.map(function(item) {
-                                const selected = normalizeSuitableInstruments(tune.suitableFor)
-                                const checked = selected.indexOf(item.id) !== -1
-                                return (
-                                  <Form.Check
-                                    inline
-                                    key={item.id}
-                                    type="checkbox"
-                                    id={'suitable-for-' + item.id}
-                                    label={item.label}
-                                    checked={checked}
-                                    onChange={function(e) {
-                                      const next = selected.slice()
-                                      if (e.target.checked) {
-                                        if (next.indexOf(item.id) === -1) next.push(item.id)
-                                      } else {
-                                        const idx = next.indexOf(item.id)
-                                        if (idx !== -1) next.splice(idx, 1)
-                                      }
-                                      tune.suitableFor = next
-                                      tune.id = params.tuneId
-                                      saveTune(tune)
-                                      if (typeof props.forceRefresh === 'function') props.forceRefresh()
-                                    }}
-                                  />
-                                )
-                              })}
-                            </div>
+                        <Col className="abc-editor-info-field-secondary abc-editor-info-field-narrow" xs={6} md={2}>
+                          <Form.Group className="mb-3" controlId="boost">
+                            <FormLabelWithHelp label="Confidence" htmlFor="boost" helpBody={EDITOR_INFO_FIELD_HELP.boost.body} helpTitle={EDITOR_INFO_FIELD_HELP.boost.title} />
+                            <Form.Control type='number' min="0" max="20" placeholder="" value={tune.boost ? tune.boost : ''} onChange={function(e) {tune.boost = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
                           </Form.Group>
                         </Col>
-                        <Col xs={12} md={4}>
-                          <Row className="g-2">
-                            <Col xs={6}>
-                              <Form.Group className="mb-3" controlId="boost">
-                                <FormLabelWithHelp label="Confidence" htmlFor="boost" helpBody={EDITOR_INFO_FIELD_HELP.boost.body} helpTitle={EDITOR_INFO_FIELD_HELP.boost.title} />
-                                <Form.Control type='number' min="0" max="20" placeholder="" value={tune.boost ? tune.boost : ''} onChange={function(e) {tune.boost = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
-                              </Form.Group>
-                            </Col>
-                            <Col xs={6}>
-                              <Form.Group className="mb-3" controlId="difficulty">
-                                <FormLabelWithHelp label="Difficulty" htmlFor="difficulty" helpBody={EDITOR_INFO_FIELD_HELP.difficulty.body} helpTitle={EDITOR_INFO_FIELD_HELP.difficulty.title} />
-                                <Form.Control type='number' min="0" max="20" placeholder="" value={tune.difficulty ? tune.difficulty : ''} onChange={function(e) {tune.difficulty = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
-                              </Form.Group>
-                            </Col>
-                          </Row>
+                        <Col className="abc-editor-info-field-secondary abc-editor-info-field-narrow" xs={6} md={2}>
+                          <Form.Group className="mb-3" controlId="difficulty">
+                            <FormLabelWithHelp label="Difficulty" htmlFor="difficulty" helpBody={EDITOR_INFO_FIELD_HELP.difficulty.body} helpTitle={EDITOR_INFO_FIELD_HELP.difficulty.title} />
+                            <Form.Control type='number' min="0" max="20" placeholder="" value={tune.difficulty ? tune.difficulty : ''} onChange={function(e) {tune.difficulty = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                          </Form.Group>
                         </Col>
                       </Row>
                       </div>

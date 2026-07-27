@@ -52,25 +52,6 @@ describe('bulkEditFields', function() {
     ])
   })
 
-  test('suitableFor instruments is a separate replaceable field', function() {
-    expect(BULK_EDIT_FIELDS.some(function(field) { return field.key === 'suitableFor' })).toBe(true)
-    expect(isBulkChangeRowComplete({ field: 'suitableFor', value: [] })).toBe(true)
-    expect(coerceBulkFieldValue('suitableFor', ['violin', 'fiddle', 'mandolin'])).toEqual([
-      'violin',
-      'mandolin',
-    ])
-
-    var changes = prepareBulkChanges([
-      { field: 'suitableForPractice', value: 'false' },
-      { field: 'suitableFor', value: ['guitar', 'voice'] },
-    ])
-
-    expect(changes).toEqual([
-      { key: 'suitableForPractice', value: false },
-      { key: 'suitableFor', value: ['guitar', 'voice'], replace: true },
-    ])
-  })
-
   test('cache is an action field and cache lock is a tune field', function() {
     expect(BULK_EDIT_FIELDS.some(function(field) { return field.key === 'cache' && field.action })).toBe(true)
     expect(BULK_EDIT_FIELDS.some(function(field) { return field.key === 'mediaCacheLocked' })).toBe(true)

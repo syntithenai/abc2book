@@ -6,6 +6,7 @@ import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { renderDeletedTunesToAbc } from './tuneBookSync'
 import { stripPerformanceSetLines } from './performanceSetSync'
 import { stripPlaylistLines } from './playlistSync'
+import { stripPracticeListLines } from './practiceListSync'
 import { buildLegacyTablatureConfigMap, parseTablatureVoices } from './tablatureConfig.js'
 import { getInterleavedLyricLines, renderBlockLyricsAbc } from './wLinesUtils'
 import {
@@ -458,14 +459,6 @@ var useAbcTools = () => {
                     if (!Array.isArray(tune.albums)) tune.albums = []
                     const albumVal = line.slice(16).trim()
                     if (albumVal) tune.albums.push(albumVal)
-                } else  if (line.startsWith('% abcbook-suitable-for')) {
-                    const suitableVal = abcbookFieldValue(line, '% abcbook-suitable-for')
-                    tune.suitableFor = suitableVal
-                      ? suitableVal.split(/[,\s]+/).map(function(part) { return part.trim() }).filter(Boolean)
-                      : []
-                } else  if (line.startsWith('% abcbook-suitable-for-practice')) {
-                    const practiceVal = abcbookFieldValue(line, '% abcbook-suitable-for-practice')
-                    tune.suitableForPractice = practiceVal !== 'false' && practiceVal !== '0'
                 } else  if (line.startsWith('% abcbook-lastupdated')) {
                     tune.lastUpdated = line.slice(22).trim()
                 } else  if (line.startsWith('% abcbook-soundfonts')) {
@@ -979,10 +972,6 @@ var useAbcTools = () => {
                         return '% abcbook-albums ' + ensureText(album) + '\n'
                       }).join('')
                       : '')
-                    + (Array.isArray(tune.suitableFor) && tune.suitableFor.length > 0
-                      ? "% abcbook-suitable-for " + tune.suitableFor.map(function(item) { return ensureText(item) }).filter(Boolean).join(",") + "\n"
-                      : '')
-                    + (tune.suitableForPractice === false ? "% abcbook-suitable-for-practice false\n" : '')
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
                     + (function() {
                       const voices = parseTablatureVoices(tune.tablatureVoices)
@@ -1269,7 +1258,7 @@ var useAbcTools = () => {
       // Deleted-tune tombstones and performance-set sections are appended to the
       // document as comment lines and are parsed separately. Strip them here so
       // they do not get turned into phantom tunes.
-      var withoutSets = stripPlaylistLines(stripPerformanceSetLines(abc || ''))
+      var withoutSets = stripPracticeListLines(stripPlaylistLines(stripPerformanceSetLines(abc || '')))
       var cleaned = withoutSets.split('\n').filter(function(line) {
         return !line.trim().startsWith('% abcbook-deleted-tune')
       }).join('\n')

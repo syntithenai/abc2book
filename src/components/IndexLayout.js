@@ -11,7 +11,11 @@ import TuneListRow from './TuneListRow'
 import {buildSearchPageTitle, DEFAULT_APP_TITLE, SEARCH_PAGE_TITLE_BASE, setDocumentTitle} from '../pageTitle'
 import { compareSearchGroupKeys } from '../searchListOrder'
 import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
+import { appendTunesToQueue, insertTunesAfterCurrentInQueue } from '../nowPlayingQueue'
+import { getPlayableTuneIdsFromListRows } from '../collectionQueueUtils'
+import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 import { toast } from 'react-toastify'
+import { getActivePlaybackTuneId } from '../playbackNavigationUtils'
 import {
   expandPdfSnapshotSearchRows,
 } from '../pdfSnapshotIndex'
@@ -428,6 +432,12 @@ function IndexLayout(props) {
           onTagClick: function(tag) { props.setTagFilter([tag]); props.setFilter(''); props.forceRefresh() },
           onSelect: handleSelection,
           forceRefresh: props.forceRefresh,
+          mediaController: props.mediaController,
+          tunes: props.tunes,
+          nowPlayingQueue: props.nowPlayingQueue,
+          setNowPlayingQueue: props.setNowPlayingQueue,
+          setQueuePlayConfirm: props.setQueuePlayConfirm,
+          nowPlayingTuneId: getActivePlaybackTuneId(props.mediaController, props.nowPlayingQueue),
         }
 
         if (rows.length === 0) {
@@ -467,6 +477,12 @@ function IndexLayout(props) {
             onTagClick={rowProps.onTagClick}
             onSelect={handleSelection}
             forceRefresh={props.forceRefresh}
+            mediaController={props.mediaController}
+            tunes={props.tunes}
+            nowPlayingQueue={props.nowPlayingQueue}
+            setNowPlayingQueue={props.setNowPlayingQueue}
+            setQueuePlayConfirm={props.setQueuePlayConfirm}
+            nowPlayingTuneId={getActivePlaybackTuneId(props.mediaController, props.nowPlayingQueue)}
           />
         )
     }
@@ -477,6 +493,13 @@ function IndexLayout(props) {
     var freshSelectedCount = countSelected()
     var listDisplayMode = props.listDisplayMode || 'compact'
     var showListSelectionControls = listDisplayMode !== 'compact'
+
+    function getListTuneIds() {
+        var selectedIds = Object.keys(selected).filter(function(id) {
+            return selected[id]
+        })
+        return getPlayableTuneIdsFromListRows(filtered, props.tunes, props.tunebook, selectedIds)
+    }
 
     function handlePlayFromList() {
         var selectedIds = Object.keys(selected).filter(function(id) {
@@ -510,6 +533,32 @@ function IndexLayout(props) {
         playQueueItem(mediaController, props.tunebook, tune, item, { deferPlaybackEngine: true })
         navigateToQueueTune(navigate, tuneId, item, props.tunebook, props.tunes)
     }
+
+    function handleAddAllToQueue(event) {
+        event.preventDefault()
+        event.stopPropagation()
+        var tuneIds = getListTuneIds()
+        if (!tuneIds.length) {
+            toast.warn('No playable tunes found in the current list.')
+            return
+        }
+        if (props.setNowPlayingQueue) {
+            props.setNowPlayingQueue(appendTunesToQueue(props.nowPlayingQueue, tuneIds))
+        }
+    }
+
+    function handlePlayAllNext(event) {
+        event.preventDefault()
+        event.stopPropagation()
+        var tuneIds = getListTuneIds()
+        if (!tuneIds.length) {
+            toast.warn('No playable tunes found in the current list.')
+            return
+        }
+        if (props.setNowPlayingQueue) {
+            props.setNowPlayingQueue(insertTunesAfterCurrentInQueue(props.nowPlayingQueue, tuneIds))
+        }
+    }
      
     return <div className="index-layout"  >
       <div id="tune-search-panel" className={tuneSearchPanelClass} >
@@ -531,7 +580,7 @@ function IndexLayout(props) {
 				
 				{(showListSelectionControls && freshSelectedCount > 0 && filtered)  && <span style={{marginLeft:'0.5em'}} >{freshSelectedCount}/{filtered.length} tunes selected</span>}
 				{(freshSelectedCount === 0 && filtered) && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
-				{(filtered && filtered.length > 0) && <span className="tune-list-play-wrap"><Button className="tune-list-play-btn" variant="success" data-testid="play-from-list-button" aria-label={freshSelectedCount > 0 ? 'Play Selected' : 'Play All'} onClick={handlePlayFromList}>{props.tunebook.icons.playwhite}<span className="tune-list-play-label"><span className="tune-list-play-verb">Play </span>{freshSelectedCount > 0 ? 'Selected' : 'All'}</span></Button></span>}
+				{(filtered && filtered.length > 0) && <span className="tune-list-play-wrap"><PlayWithQueueDropdown variant="toolbar" playVariant="success" playIcon={props.tunebook.icons.playwhite} playLabel={<span className="tune-list-play-label"><span className="tune-list-play-verb">Play </span>{freshSelectedCount > 0 ? 'Selected' : 'All'}</span>} testId="play-from-list-button" className="tune-list-play-btn-group" onPlay={handlePlayFromList} onAddToQueue={props.setNowPlayingQueue ? handleAddAllToQueue : null} onPlayNext={props.setNowPlayingQueue ? handlePlayAllNext : null} addToQueueLabel="Add all to queue" playNextLabel="Play all next" /></span>}
 			
 			</div>}
         </div>

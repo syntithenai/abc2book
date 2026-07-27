@@ -17,6 +17,13 @@ from playback_region_detect import (
     detect_playback_region_from_wav,
 )
 from tune_background_research import research_tune_background
+from practice_track_api import (
+    get_practice_track_audio,
+    get_practice_track_backends,
+    get_practice_track_job,
+    post_generate_practice_track,
+    practice_track_health,
+)
 from feed_generation import generate_feed_articles, generate_feed_quizzes
 from feed_source_scrape import enrich_feed_sources
 from composer_discovery import discover_composer
@@ -36,6 +43,7 @@ from midi_resources import (
 from music_collection import (
     build_music_collection_candidate,
     guess_audio_mime_type,
+    infer_title_artist_from_query,
     load_music_collection_stats,
     music_collection_enabled,
     music_collection_health_fields,
@@ -46,6 +54,31 @@ from music_collection import (
     resolve_music_collection_art_file,
     resolve_music_collection_file,
     search_music_collection,
+)
+from bandcamp import (
+    bandcamp_enabled,
+    build_bandcamp_candidate,
+    is_bandcamp_url,
+    search_bandcamp,
+)
+from internet_archive import (
+    build_internet_archive_candidate,
+    internet_archive_enabled,
+    is_archive_org_url,
+    resolve_archive_playback_url,
+    search_internet_archive,
+)
+from europeana import (
+    build_europeana_candidate,
+    europeana_enabled,
+    search_europeana,
+)
+from loc_audio import (
+    build_loc_audio_candidate,
+    is_loc_gov_url,
+    loc_audio_enabled,
+    resolve_loc_playback_url,
+    search_loc_audio,
 )
 from score_attachment_fetch import fetch_score_attachment_bytes, is_allowed_score_attachment_url
 from subprocess_utils import (
@@ -572,8 +605,15 @@ def _youtube_audio_feature_flags():
     }
 
 
-def resolver_features():
+def _practice_track_feature_flags():
+    health = practice_track_health()
+    return bool(health.get("ok")), health
+
+
+def resolver_features(practice_track_ok=None):
     yt_flags = _youtube_audio_feature_flags()
+    if practice_track_ok is None:
+        practice_track_ok, _ = _practice_track_feature_flags()
     if RESOLVER_LIGHT_MODE:
         # Slim Cloud Run / light gateway: provider-proxy capabilities only.
         # Stems available via cloud BYO/host keys (fal / Replicate).
@@ -594,6 +634,11 @@ def resolver_features():
             "youtubeAudio": yt_flags["youtubeAudio"],
             "youtubeEgressRequired": yt_flags["youtubeEgressRequired"],
             "chordBackend": "unavailable",
+            "bandcamp": bandcamp_enabled() and _proxy_available(),
+            "internetArchive": internet_archive_enabled() and _proxy_available(),
+            "europeana": europeana_enabled() and _proxy_available(),
+            "locAudio": loc_audio_enabled() and _proxy_available(),
+            "practiceTrack": practice_track_ok,
         }
     features = sheet_image_features()
     playwright_ok = False
@@ -624,6 +669,11 @@ def resolver_features():
         "youtubeEgressRequired": yt_flags["youtubeEgressRequired"],
         "chordBackend": os.getenv("CHORD_BACKEND", "auto").strip().lower() or "auto",
         "musicCollection": music_collection_enabled(),
+        "bandcamp": bandcamp_enabled() and _proxy_available(),
+        "internetArchive": internet_archive_enabled() and _proxy_available(),
+        "europeana": europeana_enabled() and _proxy_available(),
+        "locAudio": loc_audio_enabled() and _proxy_available(),
+        "practiceTrack": practice_track_ok,
     }
 
 
@@ -882,6 +932,14 @@ def prepare_ytdlp_cookies_path():
 
 
 def build_ytdlp_cmd(video_id, stream_to_stdout=False, proxy=None):
+    return build_ytdlp_cmd_for_url(
+        "https://www.youtube.com/watch?v=" + str(video_id or "").strip(),
+        stream_to_stdout=stream_to_stdout,
+        proxy=proxy,
+    )
+
+
+def build_ytdlp_cmd_for_url(target_url, stream_to_stdout=False, proxy=None):
     cmd = [
         "yt-dlp",
         "--no-playlist",
@@ -903,7 +961,7 @@ def build_ytdlp_cmd(video_id, stream_to_stdout=False, proxy=None):
     else:
         cmd.append("-g")
 
-    cmd.append("https://www.youtube.com/watch?v=" + video_id)
+    cmd.append(str(target_url or "").strip())
     return cmd
 
 
@@ -977,7 +1035,14 @@ def extract_youtube_video_id(raw_value):
 
 
 async def stream_youtube_via_ytdlp(video_id, proxy=None):
-    cmd = build_ytdlp_cmd(video_id, stream_to_stdout=True, proxy=proxy)
+    return await stream_url_via_ytdlp(
+        "https://www.youtube.com/watch?v=" + str(video_id or "").strip(),
+        proxy=proxy,
+    )
+
+
+async def stream_url_via_ytdlp(target_url, proxy=None):
+    cmd = build_ytdlp_cmd_for_url(target_url, stream_to_stdout=True, proxy=proxy)
 
     proc = await asyncio.create_subprocess_exec(
         *cmd,
@@ -1016,7 +1081,14 @@ async def stream_youtube_via_ytdlp(video_id, proxy=None):
 
 
 async def fetch_youtube_audio_bytes(video_id, proxy=None):
-    cmd = build_ytdlp_cmd(video_id, stream_to_stdout=True, proxy=proxy)
+    return await fetch_url_audio_bytes(
+        "https://www.youtube.com/watch?v=" + str(video_id or "").strip(),
+        proxy=proxy,
+    )
+
+
+async def fetch_url_audio_bytes(target_url, proxy=None):
+    cmd = build_ytdlp_cmd_for_url(target_url, stream_to_stdout=True, proxy=proxy)
     proc = await asyncio.create_subprocess_exec(
         *cmd,
         stdout=asyncio.subprocess.PIPE,
@@ -1037,6 +1109,69 @@ async def fetch_youtube_audio_bytes(video_id, proxy=None):
         return None, None, "Media file too large"
 
     return stdout, "audio/mpeg", None
+
+
+async def resolve_linked_media_audio_bytes(source_url, source_type="", proxy=None):
+    """Resolve audio bytes from a linked tune media URL (YouTube, Bandcamp, or direct HTTPS)."""
+    source_url = str(source_url or "").strip()
+    source_type = str(source_type or "").strip().lower()
+    if not source_url:
+        raise HTTPException(status_code=400, detail="Missing sourceUrl")
+
+    if source_type == "youtube" or "youtu" in source_url.lower():
+        video_id = extract_youtube_video_id(source_url)
+        if not video_id:
+            raise HTTPException(status_code=400, detail="Invalid YouTube URL")
+        audio_bytes, content_type, error = await fetch_youtube_audio_bytes(video_id, proxy=proxy)
+        if error:
+            raise HTTPException(
+                status_code=502,
+                detail=("Could not resolve YouTube audio stream" + (": " + error if error else "")).strip(),
+            )
+        return audio_bytes, video_id + ".mp3", content_type
+
+    if is_bandcamp_url(source_url):
+        audio_bytes, content_type, error = await fetch_url_audio_bytes(source_url, proxy=proxy)
+        if error:
+            raise HTTPException(
+                status_code=502,
+                detail=("Could not resolve Bandcamp audio stream" + (": " + error if error else "")).strip(),
+            )
+        parsed = urlparse(source_url)
+        filename = os.path.basename(parsed.path) or "bandcamp.mp3"
+        return audio_bytes, filename, content_type
+
+    if is_archive_org_url(source_url):
+        playback_url = await resolve_archive_playback_url(source_url)
+        if not playback_url:
+            raise HTTPException(status_code=502, detail="Could not resolve Internet Archive audio file")
+        validated, error = validate_target_url(playback_url)
+        if error:
+            raise HTTPException(status_code=400, detail=error)
+        audio_bytes, content_type = await fetch_upstream_audio_bytes(validated)
+        parsed = urlparse(validated)
+        filename = os.path.basename(parsed.path) or "archive.mp3"
+        return audio_bytes, filename, content_type
+
+    if is_loc_gov_url(source_url):
+        playback_url = await resolve_loc_playback_url(source_url)
+        if not playback_url:
+            raise HTTPException(status_code=502, detail="Could not resolve Library of Congress audio file")
+        validated, error = validate_target_url(playback_url)
+        if error:
+            raise HTTPException(status_code=400, detail=error)
+        audio_bytes, content_type = await fetch_upstream_audio_bytes(validated)
+        parsed = urlparse(validated)
+        filename = os.path.basename(parsed.path) or "loc.mp3"
+        return audio_bytes, filename, content_type
+
+    validated, error = validate_target_url(source_url)
+    if error:
+        raise HTTPException(status_code=400, detail=error)
+    audio_bytes, content_type = await fetch_upstream_audio_bytes(validated)
+    parsed = urlparse(validated)
+    filename = os.path.basename(parsed.path) or "audio.bin"
+    return audio_bytes, filename, content_type
 
 
 async def stream_upstream(target_url, request):
@@ -2492,24 +2627,10 @@ async def _resolve_audio_payload(request, file, payload=None):
     if not source_url:
         raise HTTPException(status_code=400, detail="Missing sourceUrl")
 
-    if source_type == "youtube" or "youtu" in source_url.lower():
-        video_id = extract_youtube_video_id(source_url)
-        if not video_id:
-            raise HTTPException(status_code=400, detail="Invalid YouTube URL")
-        audio_bytes, content_type, error = await fetch_youtube_audio_bytes(video_id)
-        if error:
-            raise HTTPException(
-                status_code=502,
-                detail=("Could not resolve YouTube audio stream" + (": " + error if error else "")).strip(),
-            )
-        filename = video_id + ".mp3"
-    else:
-        validated, error = validate_target_url(source_url)
-        if error:
-            raise HTTPException(status_code=400, detail=error)
-        audio_bytes, content_type = await fetch_upstream_audio_bytes(validated)
-        parsed = urlparse(validated)
-        filename = os.path.basename(parsed.path) or filename
+    audio_bytes, filename, content_type = await resolve_linked_media_audio_bytes(
+        source_url,
+        source_type,
+    )
 
     start_at = _parse_optional_seconds(payload.get("startAt"))
     end_at = _parse_optional_seconds(payload.get("endAt"))
@@ -2597,7 +2718,7 @@ async def root(request: Request):
             "health": "/health",
             "staticSite": static_site_enabled(),
             "staticSiteRoot": static_site_root() if static_site_enabled() else None,
-            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/fetch-score-attachment", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/midi-resources/:path", "/midi2xml", "/midi2analyze", "/midi2abc", "/abc2xml", "/extract-sheet-metadata", "/transcribe-sheet-image"],
+            "endpoints": ["/youtube/:videoId/audio", "/bandcamp/audio?url=...", "/search-bandcamp", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/fetch-score-attachment", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/generate-practice-track", "/generate-practice-track/:jobId", "/midi-resources/:path", "/midi2xml", "/midi2analyze", "/midi2abc", "/abc2xml", "/extract-sheet-metadata", "/transcribe-sheet-image"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(origin),
@@ -2615,6 +2736,7 @@ async def health(request: Request, authorization: str | None = Header(default=No
         verified = await verify_google_access_token(token)
         verified_failed = verified is None
 
+    practice_track_ok, practice_track_backend = _practice_track_feature_flags()
     body = {
         "ok": True,
         "requireAuth": REQUIRE_AUTH,
@@ -2623,7 +2745,8 @@ async def health(request: Request, authorization: str | None = Header(default=No
         # Top-level oauthBff for auth selection; full features map so SPA
         # discovery does not assume ALL_RESOLVER_FEATURES for legacy bodies.
         "oauthBff": oauth_bff,
-        "features": resolver_features(),
+        "features": resolver_features(practice_track_ok),
+        "practiceTrackBackend": practice_track_backend,
     }
     body.update(soundfont_health_fields())
     body.update(midi_resources_health_fields())
@@ -2710,6 +2833,87 @@ async def proxy_audio(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.get("/bandcamp/audio")
+async def bandcamp_audio(
+    request: Request,
+    url: str = Query(...),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        await require_resolver_feature("proxy")
+        if not bandcamp_enabled():
+            return json_error(404, "Bandcamp is not available", origin)
+        track_resolver_usage("bandcamp-audio")
+        if not is_bandcamp_url(url):
+            return json_error(400, "Invalid Bandcamp URL", origin)
+        proxy = resolve_ytdlp_proxy_from_request(request)
+        response, error = await stream_url_via_ytdlp(url, proxy=proxy)
+        if error:
+            return json_error(502, "Could not resolve Bandcamp audio stream", origin, error)
+        response.headers.update(cors_headers(origin))
+        return response
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.get("/internet-archive/audio")
+async def internet_archive_audio(
+    request: Request,
+    url: str = Query(...),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        await require_resolver_feature("proxy")
+        if not internet_archive_enabled():
+            return json_error(404, "Internet Archive is not available", origin)
+        track_resolver_usage("internet-archive-audio")
+        if not is_archive_org_url(url):
+            return json_error(400, "Invalid Internet Archive URL", origin)
+        playback_url = await resolve_archive_playback_url(url)
+        if not playback_url:
+            return json_error(502, "Could not resolve Internet Archive audio file", origin)
+        validated, error = validate_target_url(playback_url)
+        if error:
+            return json_error(400, error, origin)
+        response = await stream_upstream(validated, request)
+        response.headers.update(cors_headers(origin))
+        return response
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.get("/loc/audio")
+async def loc_audio(
+    request: Request,
+    url: str = Query(...),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        await require_resolver_feature("proxy")
+        if not loc_audio_enabled():
+            return json_error(404, "Library of Congress audio is not available", origin)
+        track_resolver_usage("loc-audio")
+        if not is_loc_gov_url(url):
+            return json_error(400, "Invalid Library of Congress URL", origin)
+        playback_url = await resolve_loc_playback_url(url)
+        if not playback_url:
+            return json_error(502, "Could not resolve Library of Congress audio file", origin)
+        validated, error = validate_target_url(playback_url)
+        if error:
+            return json_error(400, error, origin)
+        response = await stream_upstream(validated, request)
+        response.headers.update(cors_headers(origin))
+        return response
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
 @app.get("/youtube/{video_id}/audio")
 async def youtube_audio(
     video_id: str,
@@ -2759,21 +2963,13 @@ async def detect_chords(
             if not source_url:
                 return json_error(400, "Missing sourceUrl", origin)
 
-            if source_type == "youtube" or "youtu" in source_url.lower():
-                video_id = extract_youtube_video_id(source_url)
-                if not video_id:
-                    return json_error(400, "Invalid YouTube URL", origin)
-                audio_bytes, content_type, error = await fetch_youtube_audio_bytes(video_id)
-                if error:
-                    return json_error(502, "Could not resolve YouTube audio stream", origin, error)
-                filename = video_id + ".mp3"
-            else:
-                validated, error = validate_target_url(source_url)
-                if error:
-                    return json_error(400, error, origin)
-                audio_bytes, content_type = await fetch_upstream_audio_bytes(validated)
-                parsed = urlparse(validated)
-                filename = os.path.basename(parsed.path) or filename
+            try:
+                audio_bytes, filename, content_type = await resolve_linked_media_audio_bytes(
+                    source_url,
+                    source_type,
+                )
+            except HTTPException as exc:
+                return json_error(exc.status_code, str(exc.detail), origin)
 
         if not audio_bytes:
             return JSONResponse(
@@ -2948,21 +3144,13 @@ async def transcribe(
             if not source_url:
                 return json_error(400, "Missing sourceUrl", origin)
 
-            if source_type == "youtube" or "youtu" in source_url.lower():
-                video_id = extract_youtube_video_id(source_url)
-                if not video_id:
-                    return json_error(400, "Invalid YouTube URL", origin)
-                audio_bytes, content_type, error = await fetch_youtube_audio_bytes(video_id)
-                if error:
-                    return json_error(502, "Could not resolve YouTube audio stream", origin, error)
-                filename = video_id + ".mp3"
-            else:
-                validated, error = validate_target_url(source_url)
-                if error:
-                    return json_error(400, error, origin)
-                audio_bytes, content_type = await fetch_upstream_audio_bytes(validated)
-                parsed = urlparse(validated)
-                filename = os.path.basename(parsed.path) or filename
+            try:
+                audio_bytes, filename, content_type = await resolve_linked_media_audio_bytes(
+                    source_url,
+                    source_type,
+                )
+            except HTTPException as exc:
+                return json_error(exc.status_code, str(exc.detail), origin)
 
         if not audio_bytes:
             return JSONResponse(
@@ -4416,6 +4604,67 @@ async def get_stem_audio(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.get("/generate-practice-track/backends")
+async def generate_practice_track_backends(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await get_practice_track_backends(
+        request,
+        authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
+    )
+
+
+@app.post("/generate-practice-track")
+async def generate_practice_track(
+    request: Request,
+    timingPlan: str = Form(...),
+    melody: UploadFile = File(...),
+    authorization: str | None = Header(default=None),
+):
+    return await post_generate_practice_track(
+        request,
+        timing_plan=timingPlan,
+        melody=melody,
+        authorization=authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
+        heavy_job_slot=heavy_job_slot,
+    )
+
+
+@app.get("/generate-practice-track/{job_id}")
+async def generate_practice_track_status(
+    job_id: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await get_practice_track_job(
+        job_id,
+        request,
+        authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
+    )
+
+
+@app.get("/generate-practice-track/{job_id}/audio")
+async def generate_practice_track_audio(
+    job_id: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await get_practice_track_audio(
+        job_id,
+        request,
+        authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
+    )
+
+
 @app.get("/midi-resources/{resource_path:path}")
 async def get_midi_resource_file(
     resource_path: str,
@@ -4443,6 +4692,132 @@ async def get_midi_resource_file(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.post("/search-bandcamp")
+async def search_bandcamp_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        await require_resolver_feature("bandcamp")
+        if not bandcamp_enabled():
+            return json_error(404, "Bandcamp is not available", origin)
+        track_resolver_usage("search-bandcamp")
+        payload = await request.json()
+        title = str(payload.get("title") or payload.get("query") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        query = str(payload.get("query") or "").strip() or " ".join(
+            part for part in [title, artist] if part
+        ).strip()
+        limit = int(payload.get("limit") or payload.get("maxResults") or 20)
+        matches = await search_bandcamp(query, title=title, artist=artist, limit=limit)
+        candidates = [build_bandcamp_candidate(match, title=title, artist=artist) for match in matches]
+        return JSONResponse(
+            {"ok": True, "candidates": candidates},
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.post("/search-internet-archive")
+async def search_internet_archive_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        await require_resolver_feature("internetArchive")
+        if not internet_archive_enabled():
+            return json_error(404, "Internet Archive is not available", origin)
+        track_resolver_usage("search-internet-archive")
+        payload = await request.json()
+        title = str(payload.get("title") or payload.get("query") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        query = str(payload.get("query") or "").strip() or " ".join(
+            part for part in [title, artist] if part
+        ).strip()
+        limit = int(payload.get("limit") or payload.get("maxResults") or 20)
+        matches = await search_internet_archive(query, title=title, artist=artist, limit=limit)
+        candidates = [
+            build_internet_archive_candidate(match, title=title, artist=artist) for match in matches
+        ]
+        return JSONResponse(
+            {"ok": True, "candidates": candidates},
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.post("/search-europeana")
+async def search_europeana_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        await require_resolver_feature("europeana")
+        if not europeana_enabled():
+            return json_error(404, "Europeana is not available", origin)
+        track_resolver_usage("search-europeana")
+        payload = await request.json()
+        title = str(payload.get("title") or payload.get("query") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        query = str(payload.get("query") or "").strip() or " ".join(
+            part for part in [title, artist] if part
+        ).strip()
+        limit = int(payload.get("limit") or payload.get("maxResults") or 20)
+        matches = await search_europeana(query, title=title, artist=artist, limit=limit)
+        candidates = [build_europeana_candidate(match, title=title, artist=artist) for match in matches]
+        return JSONResponse(
+            {"ok": True, "candidates": candidates},
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.post("/search-loc-audio")
+async def search_loc_audio_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        await require_resolver_feature("locAudio")
+        if not loc_audio_enabled():
+            return json_error(404, "Library of Congress audio is not available", origin)
+        track_resolver_usage("search-loc-audio")
+        payload = await request.json()
+        title = str(payload.get("title") or payload.get("query") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        query = str(payload.get("query") or "").strip() or " ".join(
+            part for part in [title, artist] if part
+        ).strip()
+        limit = int(payload.get("limit") or payload.get("maxResults") or 20)
+        matches = await search_loc_audio(query, title=title, artist=artist, limit=limit)
+        candidates = [build_loc_audio_candidate(match, title=title, artist=artist) for match in matches]
+        return JSONResponse(
+            {"ok": True, "candidates": candidates},
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
 @app.post("/search-music-collection")
 async def search_music_collection_endpoint(
     request: Request,
@@ -4455,8 +4830,14 @@ async def search_music_collection_endpoint(
             return json_error(404, "Music collection is not available", origin)
         track_resolver_usage("search-music-collection")
         payload = await request.json()
-        title = str(payload.get("title") or payload.get("query") or "").strip()
+        query = str(payload.get("query") or "").strip()
+        title = str(payload.get("title") or query or "").strip()
         artist = str(payload.get("artist") or "").strip()
+        if query and not artist:
+            inferred_title, inferred_artist = infer_title_artist_from_query(query)
+            if inferred_artist:
+                title = str(payload.get("title") or inferred_title or title).strip()
+                artist = inferred_artist
         limit = int(payload.get("limit") or payload.get("maxResults") or 20)
         matches = search_music_collection(title, artist=artist, limit=limit)
         request_base = str(request.base_url).rstrip("/")
@@ -4572,6 +4953,289 @@ async def music_collection_stats_endpoint(
         return JSONResponse(body, headers=cors_headers(origin))
     except FileNotFoundError as exc:
         return json_error(404, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection-registry")
+async def music_collection_registry_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        from music_collection_registry import load_music_collection_registry
+
+        return JSONResponse(
+            {"ok": True, "registry": load_music_collection_registry()},
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.get("/browse-music-collection")
+async def browse_music_collection_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+    phase: str = "",
+    genre: str = "",
+    artist: str = "",
+    collectionId: str = "",
+    triageStatus: str = "",
+    unplayedOnly: bool = False,
+    query: str = "",
+    limit: int = 50,
+    offset: int = 0,
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        from music_collection_browse import browse_music_collection
+
+        track_resolver_usage("browse-music-collection")
+        body = browse_music_collection(
+            phase=phase,
+            genre=genre,
+            artist=artist,
+            collection_id=collectionId,
+            triage_status=triageStatus,
+            unplayed_only=unplayedOnly,
+            query=query,
+            limit=limit,
+            offset=offset,
+        )
+        return JSONResponse({"ok": True, **body}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection-artists")
+async def music_collection_artists_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+    phase: str = "",
+    query: str = "",
+    limit: int = 50,
+    offset: int = 0,
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        from music_collection_browse import aggregate_artists
+
+        track_resolver_usage("music-collection-artists")
+        body = aggregate_artists(phase=phase, query=query, limit=limit, offset=offset)
+        return JSONResponse({"ok": True, **body}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection-chunks")
+async def music_collection_chunks_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+    phase: str = "",
+    query: str = "",
+    limit: int = 50,
+    offset: int = 0,
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        from music_collection_browse import aggregate_chunks
+
+        track_resolver_usage("music-collection-chunks")
+        body = aggregate_chunks(phase=phase, query=query, limit=limit, offset=offset)
+        return JSONResponse({"ok": True, **body}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection-duplicates")
+async def music_collection_duplicates_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+    groupType: str = "songKey",
+    phase: str = "",
+    songKey: str = "",
+    limit: int = 50,
+    offset: int = 0,
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        from music_collection import load_music_collection_index
+        from music_collection_analytics import build_duplicate_groups
+        from music_collection_moves import filter_entries_for_phase
+
+        track_resolver_usage("music-collection-duplicates")
+        index = load_music_collection_index() or {}
+        entries = filter_entries_for_phase(index.get("entries") or {}, phase)
+        if songKey:
+            groups = []
+            matches = []
+            for entry_id, entry in entries.items():
+                if not isinstance(entry, dict):
+                    continue
+                if str(entry.get("songKey") or "") == songKey:
+                    matches.append(entry_id)
+            if len(matches) > 1:
+                groups = build_duplicate_groups(
+                    {eid: entries[eid] for eid in matches},
+                    group_type=groupType,
+                    limit=1,
+                )
+        else:
+            all_groups = build_duplicate_groups(entries, group_type=groupType, limit=5000)
+            start = max(int(offset or 0), 0)
+            end = start + max(int(limit or 50), 1)
+            groups = all_groups[start:end]
+            return JSONResponse(
+                {"ok": True, "groups": groups, "total": len(all_groups), "offset": start, "limit": limit},
+                headers=cors_headers(origin),
+            )
+        return JSONResponse({"ok": True, "groups": groups, "total": len(groups), "offset": 0, "limit": limit}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.post("/music-collection-triage/bulk")
+async def music_collection_triage_bulk_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        from music_collection_curation import set_triage_bulk_scope
+
+        track_resolver_usage("music-collection-triage-bulk")
+        payload = await request.json()
+        play_min = payload.get("playCountMin")
+        play_max = payload.get("playCountMax")
+        result = set_triage_bulk_scope(
+            scope=str(payload.get("scope") or "").strip(),
+            value=str(payload.get("value") or ""),
+            phase=str(payload.get("phase") or "").strip(),
+            status=str(payload.get("status") or "").strip().lower(),
+            play_count_min=int(play_min) if play_min is not None else None,
+            play_count_max=int(play_max) if play_max is not None else None,
+            triage_unset_only=payload.get("triageUnsetOnly") is True,
+            note=str(payload.get("note") or ""),
+        )
+        return JSONResponse({"ok": True, **result}, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.post("/music-collection-triage")
+async def music_collection_triage_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        from music_collection_curation import set_triage
+
+        track_resolver_usage("music-collection-triage")
+        payload = await request.json()
+        entry_id = str(payload.get("entryId") or payload.get("id") or "").strip()
+        status = str(payload.get("status") or "").strip().lower()
+        note = str(payload.get("note") or "")
+        result = set_triage(entry_id, status, note=note)
+        return JSONResponse({"ok": True, **result}, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection-triage")
+async def music_collection_triage_list_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+    status: str = "",
+    limit: int = 500,
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        from music_collection_curation import list_triage
+
+        items = list_triage(status=status or None, limit=limit)
+        return JSONResponse({"ok": True, "items": items}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/music-collection-move-plan")
+async def music_collection_move_plan_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        from music_collection_curation import save_move_plan
+        from music_collection_moves import plan_duplicate_quarantine, plan_library_moves
+
+        track_resolver_usage("music-collection-move-plan")
+        payload = await request.json()
+        plan_type = str(payload.get("type") or "library").strip().lower()
+        phase = str(payload.get("phase") or "").strip()
+        apply_moves = payload.get("apply") is True
+        staging = payload.get("staging") is True
+        if plan_type == "duplicates":
+            body = plan_duplicate_quarantine(
+                group_type=str(payload.get("groupType") or "songKey"),
+                phase=phase,
+                limit=int(payload.get("limit") or 200),
+            )
+            name = f"duplicate-quarantine-{phase or 'all'}"
+        else:
+            body = plan_library_moves(
+                phase=phase,
+                triage_only=payload.get("triageOnly") is not False,
+                include_duplicates=payload.get("includeDuplicates") is True,
+                limit=int(payload.get("limit") or 5000),
+            )
+            name = f"library-moves-{phase or 'all'}"
+        saved = save_move_plan(name, body, status="draft")
+        response = {"ok": True, "planId": saved.get("id"), "plan": body}
+        if apply_moves:
+            from music_collection_moves import apply_move_plan, mark_move_plan_applied
+
+            applied = apply_move_plan(body, apply=True, staging=staging)
+            mark_move_plan_applied(saved.get("id"))
+            response["applied"] = applied
+        return JSONResponse(response, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
     except Exception as exc:

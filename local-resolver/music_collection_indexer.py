@@ -26,11 +26,15 @@ from music_collection_analytics import (
     build_collection_stats,
     file_timestamps,
     metadata_sources,
+    parse_bpm_value,
     quick_content_fingerprint,
+    read_audio_info,
     read_playback_info,
     read_standard_tags,
+    song_key,
     soft_duplicate_key,
 )
+from music_collection_registry import is_preserved_path, match_phase, resolve_collection_id
 
 BUILD_LOCK_NAME = "build.lock"
 BUILD_PROGRESS_NAME = "build_progress.json"
@@ -250,7 +254,7 @@ def iter_audio_files(root_dir: str):
             yield rel_path, abs_path
 
 
-def _read_tags(abs_path: str) -> tuple[dict, list, dict, dict, list]:
+def _read_tags(abs_path: str) -> tuple[dict, list, dict, dict, list, dict]:
     issues: list[dict[str, str]] = []
     try:
         from mutagen import File as MutagenFile
@@ -270,7 +274,7 @@ def _read_tags(abs_path: str) -> tuple[dict, list, dict, dict, list]:
         issues.append({"stage": "tags_native", "error": type(exc).__name__})
 
     if audio is None and easy_audio is None:
-        return {}, [], {}, {}, issues
+        return {}, [], {}, {}, issues, {}
 
     tags = (audio.tags if audio and audio.tags else None) or (easy_audio.tags if easy_audio and easy_audio.tags else None)
     if tags is None:
@@ -325,7 +329,9 @@ def _read_tags(abs_path: str) -> tuple[dict, list, dict, dict, list]:
     except Exception as exc:
         issues.append({"stage": "extra_tags", "error": type(exc).__name__})
 
-    return standard, tag_keys, playback, extra_tags, issues
+    source_audio = audio or easy_audio
+    audio_info = read_audio_info(source_audio) if source_audio else {}
+    return standard, tag_keys, playback, extra_tags, issues, audio_info
 
 
 def _iter_tag_items_safe(tags):
@@ -363,10 +369,11 @@ def process_file(
     extra_tags: dict = {}
 
     try:
-        tags, tag_keys, playback, extra_tags, tag_issues = _read_tags(abs_path)
+        tags, tag_keys, playback, extra_tags, tag_issues, audio_info = _read_tags(abs_path)
         read_issues.extend(tag_issues)
     except Exception as exc:
         read_issues.append({"stage": "tags", "error": type(exc).__name__})
+        audio_info = {}
 
     filename = os.path.basename(rel_path)
     fallback_title, fallback_artist = title_artist_from_filename(filename)
@@ -394,6 +401,12 @@ def process_file(
         "composer": tags.get("composer") or "",
         "tracknumber": tags.get("tracknumber") or "",
     }
+    bpm = parse_bpm_value(tags.get("bpm"))
+    parent_path = "/".join(parts[:-1]) if len(parts) > 1 else ""
+    folder_depth = max(len(parts) - 1, 0)
+    phase = match_phase(rel_path)
+    collection_id = resolve_collection_id(rel_path)
+    sk = song_key(artist, title)
 
     has_art = False
     if extract_art and not tags_only:
@@ -415,11 +428,22 @@ def process_file(
         "album": album,
         "path": rel_path,
         "category": category,
+        "collectionId": collection_id,
+        "phase": phase,
+        "parentPath": parent_path,
+        "folderDepth": folder_depth,
         "duration": duration,
         "year": resolved["year"],
         "genre": resolved["genre"],
         "composer": resolved["composer"],
         "tracknumber": resolved["tracknumber"],
+        "albumartist": tags.get("albumartist") or "",
+        "discnumber": tags.get("discnumber") or "",
+        "bpm": bpm,
+        "key": tags.get("key") or "",
+        "bitrate": audio_info.get("bitrate"),
+        "sampleRate": audio_info.get("sampleRate"),
+        "channels": audio_info.get("channels"),
         "hasArt": has_art,
         "ext": ext,
         "size": size,
@@ -433,6 +457,8 @@ def process_file(
         "extraTags": extra_tags,
         "fingerprint": fingerprint,
         "softDupKey": soft_duplicate_key(title, artist, duration),
+        "songKey": sk,
+        "preserved": is_preserved_path(rel_path),
     }
     if read_issues:
         entry["readIssues"] = read_issues
@@ -498,17 +524,29 @@ def _fallback_entry(rel_path: str, abs_path: str, entry_id: str) -> dict[str, An
     ext = os.path.splitext(rel_path)[1].lower()
     category = rel_path.split("/")[0] if "/" in rel_path else ""
     resolved = {"title": title, "artist": artist, "album": "", "genre": "", "year": "", "composer": "", "tracknumber": ""}
+    sk = song_key(artist, title)
     return {
         "title": title,
         "artist": artist,
         "album": "",
         "path": rel_path,
         "category": category,
+        "collectionId": resolve_collection_id(rel_path),
+        "phase": match_phase(rel_path),
+        "parentPath": "/".join(rel_path.split("/")[:-1]) if "/" in rel_path else "",
+        "folderDepth": max(len(rel_path.split("/")) - 1, 0),
         "duration": None,
         "year": "",
         "genre": "",
         "composer": "",
         "tracknumber": "",
+        "albumartist": "",
+        "discnumber": "",
+        "bpm": None,
+        "key": "",
+        "bitrate": None,
+        "sampleRate": None,
+        "channels": None,
         "hasArt": False,
         "ext": ext,
         "size": size,
@@ -522,6 +560,8 @@ def _fallback_entry(rel_path: str, abs_path: str, entry_id: str) -> dict[str, An
         "extraTags": {},
         "fingerprint": None,
         "softDupKey": soft_duplicate_key(title, artist, None),
+        "songKey": sk,
+        "preserved": is_preserved_path(rel_path),
         "readIssues": [{"stage": "fallback", "error": "partial"}],
     }
 
@@ -587,7 +627,6 @@ def _add_entry_tokens(tokens: dict, entry_id: str, entry: dict) -> None:
         str(entry.get("title") or ""),
         str(entry.get("artist") or ""),
         str(entry.get("album") or ""),
-        str(entry.get("path") or "").replace("/", " "),
         str(entry.get("category") or ""),
         str(entry.get("genre") or ""),
         str(entry.get("composer") or ""),

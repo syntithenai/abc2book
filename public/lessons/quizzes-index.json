@@ -2,10 +2,808 @@
   "version": 1,
   "quizzes": [
     {
+      "id": "legacy-chords-harmony-cadences",
+      "title": "Cadences",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-cadences.json"
+    },
+    {
+      "id": "legacy-chords-harmony-counterpoint",
+      "title": "Counterpoint",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-counterpoint.json"
+    },
+    {
+      "id": "legacy-chords-harmony-diatonic-major",
+      "title": "Diatonic Triads in Major Keys",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-diatonic-major.json"
+    },
+    {
+      "id": "legacy-chords-harmony-diatonic-minor",
+      "title": "Diatonic Harmony in Minor Keys",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-diatonic-minor.json"
+    },
+    {
+      "id": "legacy-chords-harmony-extensions",
+      "title": "Chord Extensions",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-extensions.json"
+    },
+    {
+      "id": "legacy-chords-harmony-inversions",
+      "title": "Triad Inversions",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-inversions.json"
+    },
+    {
+      "id": "legacy-chords-harmony-jazz-colour",
+      "title": "Altered Dominants and Jazz Colour",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-jazz-colour.json"
+    },
+    {
+      "id": "legacy-chords-harmony-modulation",
+      "title": "Modulation",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-modulation.json"
+    },
+    {
+      "id": "legacy-chords-harmony-phrase-structure",
+      "title": "Phrase Structure",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-phrase-structure.json"
+    },
+    {
+      "id": "legacy-chords-harmony-secondary-dominants",
+      "title": "Secondary Dominants",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-secondary-dominants.json"
+    },
+    {
+      "id": "legacy-chords-harmony-seventh-chords",
+      "title": "Seventh Chords",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-seventh-chords.json"
+    },
+    {
+      "id": "legacy-chords-harmony-tendency-tones",
+      "title": "Tendency Tones and Resolution",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-tendency-tones.json"
+    },
+    {
+      "id": "legacy-chords-harmony-triads",
+      "title": "Triads",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-triads.json"
+    },
+    {
+      "id": "legacy-chords-harmony-voice-leading",
+      "title": "Voice Leading Basics",
+      "trackId": "chords",
+      "trackLabel": "Chords",
+      "unitId": "legacy-chords-harmony",
+      "unitLabel": "Chords & harmony",
+      "questionCount": 2,
+      "tags": [
+        "chords",
+        "legacy"
+      ],
+      "path": "legacy-chords-harmony-voice-leading.json"
+    },
+    {
+      "id": "legacy-foundations-accidentals",
+      "title": "Sharps, Flats, and Accidentals",
+      "trackId": "foundations",
+      "trackLabel": "Foundations",
+      "unitId": "legacy-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 3,
+      "tags": [
+        "foundations",
+        "legacy"
+      ],
+      "path": "legacy-foundations-accidentals.json"
+    },
+    {
+      "id": "legacy-foundations-circle-of-fifths",
+      "title": "The Circle of Fifths and Key Signatures",
+      "trackId": "foundations",
+      "trackLabel": "Foundations",
+      "unitId": "legacy-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 3,
+      "tags": [
+        "foundations",
+        "legacy"
+      ],
+      "path": "legacy-foundations-circle-of-fifths.json"
+    },
+    {
+      "id": "legacy-foundations-intervals",
+      "title": "Intervals",
+      "trackId": "foundations",
+      "trackLabel": "Foundations",
+      "unitId": "legacy-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 3,
+      "tags": [
+        "foundations",
+        "legacy"
+      ],
+      "path": "legacy-foundations-intervals.json"
+    },
+    {
+      "id": "legacy-foundations-major-scales",
+      "title": "Major Scales and the Leading Tone",
+      "trackId": "foundations",
+      "trackLabel": "Foundations",
+      "unitId": "legacy-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 3,
+      "tags": [
+        "foundations",
+        "legacy"
+      ],
+      "path": "legacy-foundations-major-scales.json"
+    },
+    {
+      "id": "legacy-foundations-minor-scales",
+      "title": "Natural, Harmonic, and Melodic Minor",
+      "trackId": "foundations",
+      "trackLabel": "Foundations",
+      "unitId": "legacy-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 3,
+      "tags": [
+        "foundations",
+        "legacy"
+      ],
+      "path": "legacy-foundations-minor-scales.json"
+    },
+    {
+      "id": "legacy-foundations-modes",
+      "title": "Modes",
+      "trackId": "foundations",
+      "trackLabel": "Foundations",
+      "unitId": "legacy-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 3,
+      "tags": [
+        "foundations",
+        "legacy"
+      ],
+      "path": "legacy-foundations-modes.json"
+    },
+    {
+      "id": "legacy-foundations-physics-of-sound",
+      "title": "Physics of Sound and Tuning",
+      "trackId": "foundations",
+      "trackLabel": "Foundations",
+      "unitId": "legacy-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 3,
+      "tags": [
+        "foundations",
+        "legacy"
+      ],
+      "path": "legacy-foundations-physics-of-sound.json"
+    },
+    {
+      "id": "legacy-foundations-rhythm-meter",
+      "title": "Note Durations and Time Signatures",
+      "trackId": "foundations",
+      "trackLabel": "Foundations",
+      "unitId": "legacy-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 4,
+      "tags": [
+        "foundations",
+        "legacy"
+      ],
+      "path": "legacy-foundations-rhythm-meter.json"
+    },
+    {
+      "id": "legacy-foundations-staff-clefs-pitch",
+      "title": "The Staff, Clefs, and Pitch Names",
+      "trackId": "foundations",
+      "trackLabel": "Foundations",
+      "unitId": "legacy-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 4,
+      "tags": [
+        "foundations",
+        "legacy"
+      ],
+      "path": "legacy-foundations-staff-clefs-pitch.json"
+    },
+    {
+      "id": "legacy-music-periods-baroque-era",
+      "title": "Baroque Era Overview",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-music-periods",
+      "unitLabel": "Music periods",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-music-periods-baroque-era.json"
+    },
+    {
+      "id": "legacy-music-periods-classical-era",
+      "title": "Classical Era Overview",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-music-periods",
+      "unitLabel": "Music periods",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-music-periods-classical-era.json"
+    },
+    {
+      "id": "legacy-music-periods-medieval",
+      "title": "Medieval Music (500–1400)",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-music-periods",
+      "unitLabel": "Music periods",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-music-periods-medieval.json"
+    },
+    {
+      "id": "legacy-music-periods-renaissance",
+      "title": "Renaissance Music (1400–1600)",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-music-periods",
+      "unitLabel": "Music periods",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-music-periods-renaissance.json"
+    },
+    {
+      "id": "legacy-music-periods-romantic-era",
+      "title": "Romantic Era Overview",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-music-periods",
+      "unitLabel": "Music periods",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-music-periods-romantic-era.json"
+    },
+    {
+      "id": "legacy-music-periods-twentieth-century",
+      "title": "20th Century and Beyond",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-music-periods",
+      "unitLabel": "Music periods",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-music-periods-twentieth-century.json"
+    },
+    {
+      "id": "legacy-composers-armstrong",
+      "title": "Louis Armstrong",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-armstrong.json"
+    },
+    {
+      "id": "legacy-composers-bach",
+      "title": "J.S. Bach",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-bach.json"
+    },
+    {
+      "id": "legacy-composers-beethoven",
+      "title": "Beethoven",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-beethoven.json"
+    },
+    {
+      "id": "legacy-composers-chopin",
+      "title": "Chopin",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-chopin.json"
+    },
+    {
+      "id": "legacy-composers-debussy",
+      "title": "Debussy",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-debussy.json"
+    },
+    {
+      "id": "legacy-composers-ellington",
+      "title": "Duke Ellington",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-ellington.json"
+    },
+    {
+      "id": "legacy-composers-mozart",
+      "title": "Mozart",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-mozart.json"
+    },
+    {
+      "id": "legacy-composers-parker",
+      "title": "Charlie Parker",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-parker.json"
+    },
+    {
+      "id": "legacy-composers-trad-collectors",
+      "title": "Folk Collectors and Revivals",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-trad-collectors.json"
+    },
+    {
+      "id": "legacy-composers-women-in-music",
+      "title": "Women in Music History",
+      "trackId": "history",
+      "trackLabel": "History",
+      "unitId": "legacy-composers",
+      "unitLabel": "Composer profiles",
+      "questionCount": 2,
+      "tags": [
+        "history",
+        "legacy"
+      ],
+      "path": "legacy-composers-women-in-music.json"
+    },
+    {
+      "id": "legacy-instruments-accordion",
+      "title": "Accordion and Concertina",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-accordion.json"
+    },
+    {
+      "id": "legacy-instruments-brass",
+      "title": "Brass: Trumpet and Trombone",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-brass.json"
+    },
+    {
+      "id": "legacy-instruments-cello-bass",
+      "title": "Cello and Double Bass",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 2,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-cello-bass.json"
+    },
+    {
+      "id": "legacy-instruments-flute-whistle",
+      "title": "Flute and Tin Whistle",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-flute-whistle.json"
+    },
+    {
+      "id": "legacy-instruments-guitar",
+      "title": "Guitar",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-guitar.json"
+    },
+    {
+      "id": "legacy-instruments-harp",
+      "title": "Harp",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-harp.json"
+    },
+    {
+      "id": "legacy-instruments-mandolin-banjo",
+      "title": "Mandolin and Banjo",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-mandolin-banjo.json"
+    },
+    {
+      "id": "legacy-instruments-organ",
+      "title": "Organ",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-organ.json"
+    },
+    {
+      "id": "legacy-instruments-percussion",
+      "title": "Bodhrán and Percussion",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-percussion.json"
+    },
+    {
+      "id": "legacy-instruments-piano",
+      "title": "Piano",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-piano.json"
+    },
+    {
+      "id": "legacy-instruments-reed-winds",
+      "title": "Clarinet and Saxophone",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-reed-winds.json"
+    },
+    {
+      "id": "legacy-instruments-uilleann-pipes",
+      "title": "Uilleann Pipes",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-uilleann-pipes.json"
+    },
+    {
+      "id": "legacy-instruments-violin-fiddle",
+      "title": "Violin and Fiddle",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 3,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-violin-fiddle.json"
+    },
+    {
+      "id": "legacy-instruments-voice",
+      "title": "Voice as Instrument",
+      "trackId": "instruments",
+      "trackLabel": "Instruments",
+      "unitId": "legacy-instruments",
+      "unitLabel": "Instruments",
+      "questionCount": 2,
+      "tags": [
+        "instruments",
+        "legacy"
+      ],
+      "path": "legacy-instruments-voice.json"
+    },
+    {
+      "id": "legacy-italian-terms-articulation",
+      "title": "Articulation Marks",
+      "trackId": "italian",
+      "trackLabel": "Italian",
+      "unitId": "legacy-italian-terms",
+      "unitLabel": "Italian terms",
+      "questionCount": 2,
+      "tags": [
+        "italian",
+        "legacy"
+      ],
+      "path": "legacy-italian-terms-articulation.json"
+    },
+    {
+      "id": "legacy-italian-terms-dynamics",
+      "title": "Dynamic Markings",
+      "trackId": "italian",
+      "trackLabel": "Italian",
+      "unitId": "legacy-italian-terms",
+      "unitLabel": "Italian terms",
+      "questionCount": 2,
+      "tags": [
+        "italian",
+        "legacy"
+      ],
+      "path": "legacy-italian-terms-dynamics.json"
+    },
+    {
+      "id": "legacy-italian-terms-form-labels",
+      "title": "Form Labels: D.C., D.S., Coda",
+      "trackId": "italian",
+      "trackLabel": "Italian",
+      "unitId": "legacy-italian-terms",
+      "unitLabel": "Italian terms",
+      "questionCount": 2,
+      "tags": [
+        "italian",
+        "legacy"
+      ],
+      "path": "legacy-italian-terms-form-labels.json"
+    },
+    {
+      "id": "legacy-italian-terms-tempo",
+      "title": "Italian Tempo Markings",
+      "trackId": "italian",
+      "trackLabel": "Italian",
+      "unitId": "legacy-italian-terms",
+      "unitLabel": "Italian terms",
+      "questionCount": 3,
+      "tags": [
+        "italian",
+        "legacy"
+      ],
+      "path": "legacy-italian-terms-tempo.json"
+    },
+    {
       "id": "regions-celtic-ireland-01-overview",
       "title": "Irish Traditional Music — Overview",
       "trackId": "regions",
-      "trackLabel": "Regional traditions",
+      "trackLabel": "Celtic Music",
       "unitId": "celtic-ireland",
       "unitLabel": "Celtic — Ireland",
       "questionCount": 16,
@@ -21,7 +819,7 @@
       "id": "regions-celtic-ireland-02-instruments-voices-i",
       "title": "Irish Instruments — Traditional Voices I",
       "trackId": "regions",
-      "trackLabel": "Regional traditions",
+      "trackLabel": "Celtic Music",
       "unitId": "celtic-ireland",
       "unitLabel": "Celtic — Ireland",
       "questionCount": 16,
@@ -39,7 +837,7 @@
       "id": "regions-celtic-ireland-03-instruments-voices-ii",
       "title": "Irish Instruments — Session Voices II",
       "trackId": "regions",
-      "trackLabel": "Regional traditions",
+      "trackLabel": "Celtic Music",
       "unitId": "celtic-ireland",
       "unitLabel": "Celtic — Ireland",
       "questionCount": 16,
@@ -59,7 +857,7 @@
       "id": "regions-celtic-ireland-04-genres-forms",
       "title": "Tunes, Forms, and Style",
       "trackId": "regions",
-      "trackLabel": "Regional traditions",
+      "trackLabel": "Celtic Music",
       "unitId": "celtic-ireland",
       "unitLabel": "Celtic — Ireland",
       "questionCount": 16,
@@ -76,7 +874,7 @@
       "id": "regions-celtic-ireland-05-dance",
       "title": "Irish Dance and Rhythm",
       "trackId": "regions",
-      "trackLabel": "Regional traditions",
+      "trackLabel": "Celtic Music",
       "unitId": "celtic-ireland",
       "unitLabel": "Celtic — Ireland",
       "questionCount": 16,
@@ -92,7 +890,7 @@
       "id": "regions-celtic-ireland-06-history",
       "title": "History, Revival, and Transmission",
       "trackId": "regions",
-      "trackLabel": "Regional traditions",
+      "trackLabel": "Celtic Music",
       "unitId": "celtic-ireland",
       "unitLabel": "Celtic — Ireland",
       "questionCount": 16,
@@ -108,7 +906,7 @@
       "id": "regions-celtic-ireland-07-representative-depth",
       "title": "Representative Fusions and Scenes",
       "trackId": "regions",
-      "trackLabel": "Regional traditions",
+      "trackLabel": "Celtic Music",
       "unitId": "celtic-ireland",
       "unitLabel": "Celtic — Ireland",
       "questionCount": 18,
@@ -124,7 +922,7 @@
       "id": "regions-celtic-ireland-08-tunes",
       "title": "Irish Tunes — Forms, History, and Recordings",
       "trackId": "regions",
-      "trackLabel": "Regional traditions",
+      "trackLabel": "Celtic Music",
       "unitId": "celtic-ireland",
       "unitLabel": "Celtic — Ireland",
       "questionCount": 8,
@@ -136,6 +934,1102 @@
         "recordings"
       ],
       "path": "regions-celtic-ireland-08-tunes.json"
+    },
+    {
+      "id": "regions-celtic-scotland-01-overview",
+      "title": "Scottish Traditional Music — Overview",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-scotland",
+      "unitLabel": "Celtic — Scotland",
+      "questionCount": 12,
+      "tags": [
+        "scotland",
+        "celtic",
+        "celtic",
+        "tradition",
+        "overview"
+      ],
+      "path": "regions-celtic-scotland-01-overview.json"
+    },
+    {
+      "id": "regions-celtic-scotland-02-instruments-voices-i",
+      "title": "Scottish Traditional Instruments — Traditional Voices I",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-scotland",
+      "unitLabel": "Celtic — Scotland",
+      "questionCount": 12,
+      "tags": [
+        "scotland",
+        "celtic",
+        "instruments",
+        "melody"
+      ],
+      "path": "regions-celtic-scotland-02-instruments-voices-i.json"
+    },
+    {
+      "id": "regions-celtic-scotland-03-instruments-voices-ii",
+      "title": "Scottish Traditional Instruments — Session Voices II",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-scotland",
+      "unitLabel": "Celtic — Scotland",
+      "questionCount": 12,
+      "tags": [
+        "scotland",
+        "celtic",
+        "instruments",
+        "session"
+      ],
+      "path": "regions-celtic-scotland-03-instruments-voices-ii.json"
+    },
+    {
+      "id": "regions-celtic-scotland-04-genres-forms",
+      "title": "Scottish Traditional Music — Tunes, Forms, and Style",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-scotland",
+      "unitLabel": "Celtic — Scotland",
+      "questionCount": 12,
+      "tags": [
+        "scotland",
+        "celtic",
+        "forms",
+        "style"
+      ],
+      "path": "regions-celtic-scotland-04-genres-forms.json"
+    },
+    {
+      "id": "regions-celtic-scotland-05-dance",
+      "title": "Scottish Traditional Music — Dance and Rhythm",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-scotland",
+      "unitLabel": "Celtic — Scotland",
+      "questionCount": 12,
+      "tags": [
+        "scotland",
+        "celtic",
+        "dance",
+        "rhythm"
+      ],
+      "path": "regions-celtic-scotland-05-dance.json"
+    },
+    {
+      "id": "regions-celtic-scotland-06-history",
+      "title": "Scottish Traditional Music — History, Revival, and Transmission",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-scotland",
+      "unitLabel": "Celtic — Scotland",
+      "questionCount": 12,
+      "tags": [
+        "scotland",
+        "celtic",
+        "history",
+        "revival"
+      ],
+      "path": "regions-celtic-scotland-06-history.json"
+    },
+    {
+      "id": "regions-celtic-scotland-07-representative-depth",
+      "title": "Scottish Traditional Music — Representative Fusions and Scenes",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-scotland",
+      "unitLabel": "Celtic — Scotland",
+      "questionCount": 12,
+      "tags": [
+        "scotland",
+        "celtic",
+        "fusion",
+        "scenes"
+      ],
+      "path": "regions-celtic-scotland-07-representative-depth.json"
+    },
+    {
+      "id": "regions-celtic-scotland-08-tunes",
+      "title": "Scottish Traditional Music — Tunes — Forms, History, and Recordings",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-scotland",
+      "unitLabel": "Celtic — Scotland",
+      "questionCount": 12,
+      "tags": [
+        "scotland",
+        "celtic",
+        "tunes",
+        "recordings"
+      ],
+      "path": "regions-celtic-scotland-08-tunes.json"
+    },
+    {
+      "id": "regions-celtic-wales-01-overview",
+      "title": "Welsh Traditional Music — Overview",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-wales",
+      "unitLabel": "Celtic — Wales",
+      "questionCount": 12,
+      "tags": [
+        "wales",
+        "celtic",
+        "celtic",
+        "tradition",
+        "overview"
+      ],
+      "path": "regions-celtic-wales-01-overview.json"
+    },
+    {
+      "id": "regions-celtic-wales-02-instruments-voices-i",
+      "title": "Welsh Traditional Instruments — Traditional Voices I",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-wales",
+      "unitLabel": "Celtic — Wales",
+      "questionCount": 12,
+      "tags": [
+        "wales",
+        "celtic",
+        "instruments",
+        "melody"
+      ],
+      "path": "regions-celtic-wales-02-instruments-voices-i.json"
+    },
+    {
+      "id": "regions-celtic-wales-03-instruments-voices-ii",
+      "title": "Welsh Traditional Instruments — Session Voices II",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-wales",
+      "unitLabel": "Celtic — Wales",
+      "questionCount": 12,
+      "tags": [
+        "wales",
+        "celtic",
+        "instruments",
+        "session"
+      ],
+      "path": "regions-celtic-wales-03-instruments-voices-ii.json"
+    },
+    {
+      "id": "regions-celtic-wales-04-genres-forms",
+      "title": "Welsh Traditional Music — Tunes, Forms, and Style",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-wales",
+      "unitLabel": "Celtic — Wales",
+      "questionCount": 12,
+      "tags": [
+        "wales",
+        "celtic",
+        "forms",
+        "style"
+      ],
+      "path": "regions-celtic-wales-04-genres-forms.json"
+    },
+    {
+      "id": "regions-celtic-wales-05-dance",
+      "title": "Welsh Traditional Music — Dance and Rhythm",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-wales",
+      "unitLabel": "Celtic — Wales",
+      "questionCount": 12,
+      "tags": [
+        "wales",
+        "celtic",
+        "dance",
+        "rhythm"
+      ],
+      "path": "regions-celtic-wales-05-dance.json"
+    },
+    {
+      "id": "regions-celtic-wales-06-history",
+      "title": "Welsh Traditional Music — History, Revival, and Transmission",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-wales",
+      "unitLabel": "Celtic — Wales",
+      "questionCount": 12,
+      "tags": [
+        "wales",
+        "celtic",
+        "history",
+        "revival"
+      ],
+      "path": "regions-celtic-wales-06-history.json"
+    },
+    {
+      "id": "regions-celtic-wales-07-representative-depth",
+      "title": "Welsh Traditional Music — Representative Fusions and Scenes",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-wales",
+      "unitLabel": "Celtic — Wales",
+      "questionCount": 12,
+      "tags": [
+        "wales",
+        "celtic",
+        "fusion",
+        "scenes"
+      ],
+      "path": "regions-celtic-wales-07-representative-depth.json"
+    },
+    {
+      "id": "regions-celtic-wales-08-tunes",
+      "title": "Welsh Traditional Music — Tunes — Forms, History, and Recordings",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-wales",
+      "unitLabel": "Celtic — Wales",
+      "questionCount": 12,
+      "tags": [
+        "wales",
+        "celtic",
+        "tunes",
+        "recordings"
+      ],
+      "path": "regions-celtic-wales-08-tunes.json"
+    },
+    {
+      "id": "regions-celtic-brittany-01-overview",
+      "title": "Breton Traditional Music — Overview",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-brittany",
+      "unitLabel": "Celtic — Brittany",
+      "questionCount": 12,
+      "tags": [
+        "brittany",
+        "celtic",
+        "celtic",
+        "tradition",
+        "overview"
+      ],
+      "path": "regions-celtic-brittany-01-overview.json"
+    },
+    {
+      "id": "regions-celtic-brittany-02-instruments-voices-i",
+      "title": "Breton Traditional Instruments — Traditional Voices I",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-brittany",
+      "unitLabel": "Celtic — Brittany",
+      "questionCount": 12,
+      "tags": [
+        "brittany",
+        "celtic",
+        "instruments",
+        "melody"
+      ],
+      "path": "regions-celtic-brittany-02-instruments-voices-i.json"
+    },
+    {
+      "id": "regions-celtic-brittany-03-instruments-voices-ii",
+      "title": "Breton Traditional Instruments — Session Voices II",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-brittany",
+      "unitLabel": "Celtic — Brittany",
+      "questionCount": 12,
+      "tags": [
+        "brittany",
+        "celtic",
+        "instruments",
+        "session"
+      ],
+      "path": "regions-celtic-brittany-03-instruments-voices-ii.json"
+    },
+    {
+      "id": "regions-celtic-brittany-04-genres-forms",
+      "title": "Breton Traditional Music — Tunes, Forms, and Style",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-brittany",
+      "unitLabel": "Celtic — Brittany",
+      "questionCount": 12,
+      "tags": [
+        "brittany",
+        "celtic",
+        "forms",
+        "style"
+      ],
+      "path": "regions-celtic-brittany-04-genres-forms.json"
+    },
+    {
+      "id": "regions-celtic-brittany-05-dance",
+      "title": "Breton Traditional Music — Dance and Rhythm",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-brittany",
+      "unitLabel": "Celtic — Brittany",
+      "questionCount": 12,
+      "tags": [
+        "brittany",
+        "celtic",
+        "dance",
+        "rhythm"
+      ],
+      "path": "regions-celtic-brittany-05-dance.json"
+    },
+    {
+      "id": "regions-celtic-brittany-06-history",
+      "title": "Breton Traditional Music — History, Revival, and Transmission",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-brittany",
+      "unitLabel": "Celtic — Brittany",
+      "questionCount": 12,
+      "tags": [
+        "brittany",
+        "celtic",
+        "history",
+        "revival"
+      ],
+      "path": "regions-celtic-brittany-06-history.json"
+    },
+    {
+      "id": "regions-celtic-brittany-07-representative-depth",
+      "title": "Breton Traditional Music — Representative Fusions and Scenes",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-brittany",
+      "unitLabel": "Celtic — Brittany",
+      "questionCount": 12,
+      "tags": [
+        "brittany",
+        "celtic",
+        "fusion",
+        "scenes"
+      ],
+      "path": "regions-celtic-brittany-07-representative-depth.json"
+    },
+    {
+      "id": "regions-celtic-brittany-08-tunes",
+      "title": "Breton Traditional Music — Tunes — Forms, History, and Recordings",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-brittany",
+      "unitLabel": "Celtic — Brittany",
+      "questionCount": 12,
+      "tags": [
+        "brittany",
+        "celtic",
+        "tunes",
+        "recordings"
+      ],
+      "path": "regions-celtic-brittany-08-tunes.json"
+    },
+    {
+      "id": "regions-celtic-diaspora-01-cape-breton",
+      "title": "Cape Breton Fiddle and Dance",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-diaspora",
+      "unitLabel": "Celtic — Diaspora & fringe",
+      "questionCount": 12,
+      "tags": [
+        "celtic",
+        "diaspora",
+        "cape-breton",
+        "diaspora",
+        "fiddle"
+      ],
+      "path": "regions-celtic-diaspora-01-cape-breton.json"
+    },
+    {
+      "id": "regions-celtic-diaspora-02-galicia-asturias",
+      "title": "Galicia & Asturias",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-diaspora",
+      "unitLabel": "Celtic — Diaspora & fringe",
+      "questionCount": 12,
+      "tags": [
+        "celtic",
+        "diaspora",
+        "galicia",
+        "asturias",
+        "gaita"
+      ],
+      "path": "regions-celtic-diaspora-02-galicia-asturias.json"
+    },
+    {
+      "id": "regions-celtic-diaspora-03-cornwall-man",
+      "title": "Cornwall & Isle of Man",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-diaspora",
+      "unitLabel": "Celtic — Diaspora & fringe",
+      "questionCount": 12,
+      "tags": [
+        "celtic",
+        "diaspora",
+        "cornwall",
+        "manx",
+        "revival"
+      ],
+      "path": "regions-celtic-diaspora-03-cornwall-man.json"
+    },
+    {
+      "id": "regions-celtic-diaspora-04-pan-celtic-festivals",
+      "title": "Pan-Celtic Festivals and Institutions",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-diaspora",
+      "unitLabel": "Celtic — Diaspora & fringe",
+      "questionCount": 12,
+      "tags": [
+        "celtic",
+        "diaspora",
+        "festivals",
+        "lorient",
+        "network"
+      ],
+      "path": "regions-celtic-diaspora-04-pan-celtic-festivals.json"
+    },
+    {
+      "id": "regions-celtic-diaspora-05-listening-across-borders",
+      "title": "Listening Across Borders",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-diaspora",
+      "unitLabel": "Celtic — Diaspora & fringe",
+      "questionCount": 12,
+      "tags": [
+        "celtic",
+        "diaspora",
+        "comparative",
+        "playlist"
+      ],
+      "path": "regions-celtic-diaspora-05-listening-across-borders.json"
+    },
+    {
+      "id": "regions-celtic-comparative-01-what-celtic-means",
+      "title": "What \"Celtic Music\" Means",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-comparative",
+      "unitLabel": "Celtic — Comparative",
+      "questionCount": 12,
+      "tags": [
+        "celtic",
+        "comparative",
+        "celtic",
+        "labels",
+        "marketing"
+      ],
+      "path": "regions-celtic-comparative-01-what-celtic-means.json"
+    },
+    {
+      "id": "regions-celtic-comparative-02-shared-instruments",
+      "title": "Shared Instruments Compared",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-comparative",
+      "unitLabel": "Celtic — Comparative",
+      "questionCount": 12,
+      "tags": [
+        "celtic",
+        "comparative",
+        "harp",
+        "pipes",
+        "fiddle"
+      ],
+      "path": "regions-celtic-comparative-02-shared-instruments.json"
+    },
+    {
+      "id": "regions-celtic-comparative-03-tune-forms-compared",
+      "title": "Tune Forms Compared",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-comparative",
+      "unitLabel": "Celtic — Comparative",
+      "questionCount": 12,
+      "tags": [
+        "celtic",
+        "comparative",
+        "jig",
+        "reel",
+        "strathspey",
+        "gavotte"
+      ],
+      "path": "regions-celtic-comparative-03-tune-forms-compared.json"
+    },
+    {
+      "id": "regions-celtic-comparative-04-revivals-compared",
+      "title": "Revivals Compared",
+      "trackId": "regions",
+      "trackLabel": "Celtic Music",
+      "unitId": "celtic-comparative",
+      "unitLabel": "Celtic — Comparative",
+      "questionCount": 12,
+      "tags": [
+        "celtic",
+        "comparative",
+        "revival",
+        "archives",
+        "broadcast"
+      ],
+      "path": "regions-celtic-comparative-04-revivals-compared.json"
+    },
+    {
+      "id": "legacy-singing-breath",
+      "title": "Breath Support",
+      "trackId": "singing",
+      "trackLabel": "Singing",
+      "unitId": "legacy-singing",
+      "unitLabel": "Singing technique",
+      "questionCount": 3,
+      "tags": [
+        "singing",
+        "legacy"
+      ],
+      "path": "legacy-singing-breath.json"
+    },
+    {
+      "id": "legacy-singing-diction",
+      "title": "Diction and Lyrics",
+      "trackId": "singing",
+      "trackLabel": "Singing",
+      "unitId": "legacy-singing",
+      "unitLabel": "Singing technique",
+      "questionCount": 2,
+      "tags": [
+        "singing",
+        "legacy"
+      ],
+      "path": "legacy-singing-diction.json"
+    },
+    {
+      "id": "legacy-singing-expression",
+      "title": "Expression and Storytelling",
+      "trackId": "singing",
+      "trackLabel": "Singing",
+      "unitId": "legacy-singing",
+      "unitLabel": "Singing technique",
+      "questionCount": 2,
+      "tags": [
+        "singing",
+        "legacy"
+      ],
+      "path": "legacy-singing-expression.json"
+    },
+    {
+      "id": "legacy-singing-pitch",
+      "title": "Pitch and Intonation",
+      "trackId": "singing",
+      "trackLabel": "Singing",
+      "unitId": "legacy-singing",
+      "unitLabel": "Singing technique",
+      "questionCount": 2,
+      "tags": [
+        "singing",
+        "legacy"
+      ],
+      "path": "legacy-singing-pitch.json"
+    },
+    {
+      "id": "legacy-singing-tone",
+      "title": "Tone Production",
+      "trackId": "singing",
+      "trackLabel": "Singing",
+      "unitId": "legacy-singing",
+      "unitLabel": "Singing technique",
+      "questionCount": 2,
+      "tags": [
+        "singing",
+        "legacy"
+      ],
+      "path": "legacy-singing-tone.json"
+    },
+    {
+      "id": "legacy-singing-vocal-health",
+      "title": "Vocal Health",
+      "trackId": "singing",
+      "trackLabel": "Singing",
+      "unitId": "legacy-singing",
+      "unitLabel": "Singing technique",
+      "questionCount": 3,
+      "tags": [
+        "singing",
+        "legacy"
+      ],
+      "path": "legacy-singing-vocal-health.json"
+    },
+    {
+      "id": "legacy-singing-warmups",
+      "title": "Warm-Up Routines",
+      "trackId": "singing",
+      "trackLabel": "Singing",
+      "unitId": "legacy-singing",
+      "unitLabel": "Singing technique",
+      "questionCount": 3,
+      "tags": [
+        "singing",
+        "legacy"
+      ],
+      "path": "legacy-singing-warmups.json"
+    },
+    {
+      "id": "legacy-styles-baroque-style",
+      "title": "Baroque Style",
+      "trackId": "styles",
+      "trackLabel": "Styles",
+      "unitId": "legacy-styles",
+      "unitLabel": "Styles & genres",
+      "questionCount": 2,
+      "tags": [
+        "styles",
+        "legacy"
+      ],
+      "path": "legacy-styles-baroque-style.json"
+    },
+    {
+      "id": "legacy-styles-blues",
+      "title": "Blues",
+      "trackId": "styles",
+      "trackLabel": "Styles",
+      "unitId": "legacy-styles",
+      "unitLabel": "Styles & genres",
+      "questionCount": 2,
+      "tags": [
+        "styles",
+        "legacy"
+      ],
+      "path": "legacy-styles-blues.json"
+    },
+    {
+      "id": "legacy-styles-classical-style",
+      "title": "Classical Style",
+      "trackId": "styles",
+      "trackLabel": "Styles",
+      "unitId": "legacy-styles",
+      "unitLabel": "Styles & genres",
+      "questionCount": 2,
+      "tags": [
+        "styles",
+        "legacy"
+      ],
+      "path": "legacy-styles-classical-style.json"
+    },
+    {
+      "id": "legacy-styles-folk-dances",
+      "title": "Reels, Jigs, Waltzes, Hornpipes",
+      "trackId": "styles",
+      "trackLabel": "Styles",
+      "unitId": "legacy-styles",
+      "unitLabel": "Styles & genres",
+      "questionCount": 2,
+      "tags": [
+        "styles",
+        "legacy"
+      ],
+      "path": "legacy-styles-folk-dances.json"
+    },
+    {
+      "id": "legacy-styles-jazz",
+      "title": "Jazz Basics",
+      "trackId": "styles",
+      "trackLabel": "Styles",
+      "unitId": "legacy-styles",
+      "unitLabel": "Styles & genres",
+      "questionCount": 2,
+      "tags": [
+        "styles",
+        "legacy"
+      ],
+      "path": "legacy-styles-jazz.json"
+    },
+    {
+      "id": "legacy-styles-modern-fusion",
+      "title": "Modern Folk Fusion",
+      "trackId": "styles",
+      "trackLabel": "Styles",
+      "unitId": "legacy-styles",
+      "unitLabel": "Styles & genres",
+      "questionCount": 2,
+      "tags": [
+        "styles",
+        "legacy"
+      ],
+      "path": "legacy-styles-modern-fusion.json"
+    },
+    {
+      "id": "legacy-styles-modes-folk",
+      "title": "Modes in Folk Practice",
+      "trackId": "styles",
+      "trackLabel": "Styles",
+      "unitId": "legacy-styles",
+      "unitLabel": "Styles & genres",
+      "questionCount": 2,
+      "tags": [
+        "styles",
+        "legacy"
+      ],
+      "path": "legacy-styles-modes-folk.json"
+    },
+    {
+      "id": "legacy-styles-pop",
+      "title": "Pop Song Craft",
+      "trackId": "styles",
+      "trackLabel": "Styles",
+      "unitId": "legacy-styles",
+      "unitLabel": "Styles & genres",
+      "questionCount": 2,
+      "tags": [
+        "styles",
+        "legacy"
+      ],
+      "path": "legacy-styles-pop.json"
+    },
+    {
+      "id": "legacy-styles-romantic-style",
+      "title": "Romantic Style",
+      "trackId": "styles",
+      "trackLabel": "Styles",
+      "unitId": "legacy-styles",
+      "unitLabel": "Styles & genres",
+      "questionCount": 2,
+      "tags": [
+        "styles",
+        "legacy"
+      ],
+      "path": "legacy-styles-romantic-style.json"
+    },
+    {
+      "id": "theory-intervals-advanced",
+      "title": "Intervals — Advanced",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 12,
+      "tags": [
+        "intervals",
+        "microtonal",
+        "extended"
+      ],
+      "path": "theory-intervals-advanced.json"
+    },
+    {
+      "id": "theory-intervals-applied",
+      "title": "Intervals — Applied",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 12,
+      "tags": [
+        "intervals",
+        "harmony",
+        "compound"
+      ],
+      "path": "theory-intervals-applied.json"
+    },
+    {
+      "id": "theory-intervals-intro",
+      "title": "Intervals — Introduction",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 12,
+      "tags": [
+        "intervals",
+        "ear-training"
+      ],
+      "path": "theory-intervals-intro.json"
+    },
+    {
+      "id": "theory-scales-major-advanced",
+      "title": "Major Scales — Advanced",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 14,
+      "tags": [
+        "scales",
+        "modulation",
+        "tetrachords"
+      ],
+      "path": "theory-scales-major-advanced.json"
+    },
+    {
+      "id": "theory-scales-major-applied",
+      "title": "Major Scales — Applied",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 14,
+      "tags": [
+        "scales",
+        "major",
+        "keys",
+        "circle-of-fifths"
+      ],
+      "path": "theory-scales-major-applied.json"
+    },
+    {
+      "id": "theory-scales-major-intro",
+      "title": "Major Scales — Introduction",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-foundations",
+      "unitLabel": "Foundations",
+      "questionCount": 12,
+      "tags": [
+        "scales",
+        "major",
+        "foundations"
+      ],
+      "path": "theory-scales-major-intro.json"
+    },
+    {
+      "id": "theory-cadences-advanced",
+      "title": "Cadences — Advanced and Historical",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-harmony",
+      "unitLabel": "Harmony",
+      "questionCount": 12,
+      "tags": [
+        "cadences",
+        "baroque",
+        "jazz-turnaround"
+      ],
+      "path": "theory-cadences-advanced.json"
+    },
+    {
+      "id": "theory-cadences-applied",
+      "title": "Cadences — Applied",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-harmony",
+      "unitLabel": "Harmony",
+      "questionCount": 12,
+      "tags": [
+        "cadences",
+        "phrase",
+        "deceptive"
+      ],
+      "path": "theory-cadences-applied.json"
+    },
+    {
+      "id": "theory-cadences-intro",
+      "title": "Cadences — Introduction",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-harmony",
+      "unitLabel": "Harmony",
+      "questionCount": 12,
+      "tags": [
+        "cadences",
+        "harmony"
+      ],
+      "path": "theory-cadences-intro.json"
+    },
+    {
+      "id": "theory-triads-advanced",
+      "title": "Triads — Applied Harmony and Colour",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-harmony",
+      "unitLabel": "Harmony",
+      "questionCount": 12,
+      "tags": [
+        "triads",
+        "extensions",
+        "jazz"
+      ],
+      "path": "theory-triads-advanced.json"
+    },
+    {
+      "id": "theory-triads-applied",
+      "title": "Triads — Applied",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-harmony",
+      "unitLabel": "Harmony",
+      "questionCount": 12,
+      "tags": [
+        "triads",
+        "inversions",
+        "voice-leading"
+      ],
+      "path": "theory-triads-applied.json"
+    },
+    {
+      "id": "theory-triads-intro",
+      "title": "Triads — Introduction",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "theory-harmony",
+      "unitLabel": "Harmony",
+      "questionCount": 12,
+      "tags": [
+        "triads",
+        "chords"
+      ],
+      "path": "theory-triads-intro.json"
+    },
+    {
+      "id": "legacy-form-analysis-figured-bass",
+      "title": "Figured Bass and Continuo",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "legacy-form-analysis",
+      "unitLabel": "Form & analysis",
+      "questionCount": 2,
+      "tags": [
+        "theory",
+        "legacy"
+      ],
+      "path": "legacy-form-analysis-figured-bass.json"
+    },
+    {
+      "id": "legacy-form-analysis-musical-form",
+      "title": "Binary, Ternary, and Rondo Form",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "legacy-form-analysis",
+      "unitLabel": "Form & analysis",
+      "questionCount": 3,
+      "tags": [
+        "theory",
+        "legacy"
+      ],
+      "path": "legacy-form-analysis-musical-form.json"
+    },
+    {
+      "id": "legacy-form-analysis-texture",
+      "title": "Texture: Monophony to Polyphony",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "legacy-form-analysis",
+      "unitLabel": "Form & analysis",
+      "questionCount": 3,
+      "tags": [
+        "theory",
+        "legacy"
+      ],
+      "path": "legacy-form-analysis-texture.json"
+    },
+    {
+      "id": "legacy-ear-training-chord-recognition",
+      "title": "Chord Quality by Ear",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "legacy-ear-training",
+      "unitLabel": "Ear training",
+      "questionCount": 3,
+      "tags": [
+        "theory",
+        "legacy"
+      ],
+      "path": "legacy-ear-training-chord-recognition.json"
+    },
+    {
+      "id": "legacy-ear-training-interval-recognition",
+      "title": "Interval Recognition",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "legacy-ear-training",
+      "unitLabel": "Ear training",
+      "questionCount": 3,
+      "tags": [
+        "theory",
+        "legacy"
+      ],
+      "path": "legacy-ear-training-interval-recognition.json"
+    },
+    {
+      "id": "legacy-ear-training-rhythm-dictation",
+      "title": "Rhythm Dictation",
+      "trackId": "theory",
+      "trackLabel": "Theory spine",
+      "unitId": "legacy-ear-training",
+      "unitLabel": "Ear training",
+      "questionCount": 3,
+      "tags": [
+        "theory",
+        "legacy"
+      ],
+      "path": "legacy-ear-training-rhythm-dictation.json"
+    },
+    {
+      "id": "legacy-transposition-capo",
+      "title": "Capo Logic",
+      "trackId": "transposition",
+      "trackLabel": "Transposition",
+      "unitId": "legacy-transposition",
+      "unitLabel": "Transposition",
+      "questionCount": 2,
+      "tags": [
+        "transposition",
+        "legacy"
+      ],
+      "path": "legacy-transposition-capo.json"
+    },
+    {
+      "id": "legacy-transposition-chords",
+      "title": "Transposing Chord Progressions",
+      "trackId": "transposition",
+      "trackLabel": "Transposition",
+      "unitId": "legacy-transposition",
+      "unitLabel": "Transposition",
+      "questionCount": 2,
+      "tags": [
+        "transposition",
+        "legacy"
+      ],
+      "path": "legacy-transposition-chords.json"
+    },
+    {
+      "id": "legacy-transposition-melody",
+      "title": "Transposing Melodies",
+      "trackId": "transposition",
+      "trackLabel": "Transposition",
+      "unitId": "legacy-transposition",
+      "unitLabel": "Transposition",
+      "questionCount": 2,
+      "tags": [
+        "transposition",
+        "legacy"
+      ],
+      "path": "legacy-transposition-melody.json"
+    },
+    {
+      "id": "legacy-transposition-modes",
+      "title": "Modal Transposition",
+      "trackId": "transposition",
+      "trackLabel": "Transposition",
+      "unitId": "legacy-transposition",
+      "unitLabel": "Transposition",
+      "questionCount": 2,
+      "tags": [
+        "transposition",
+        "legacy"
+      ],
+      "path": "legacy-transposition-modes.json"
+    },
+    {
+      "id": "legacy-transposition-why-transpose",
+      "title": "Why Transpose?",
+      "trackId": "transposition",
+      "trackLabel": "Transposition",
+      "unitId": "legacy-transposition",
+      "unitLabel": "Transposition",
+      "questionCount": 2,
+      "tags": [
+        "transposition",
+        "legacy"
+      ],
+      "path": "legacy-transposition-why-transpose.json"
     }
   ]
 }

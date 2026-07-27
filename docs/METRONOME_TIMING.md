@@ -1,50 +1,102 @@
 # Metronome and drum timing contract
 
 This document is the source of truth for MIDI playback count-in, during-playback
-metronome/drums, and handoff behaviour. Changes to metronome timing **must** update
-the corresponding tests listed in the regression section below.
+metronome/drums, and stop/pause behaviour. Changes to metronome timing **must**
+update the corresponding tests listed in the regression section below.
 
-## Beat grid
+## Terminology
 
-| Concept | Definition |
-|---------|------------|
-| **Rhythm grid** | Configured metronome rhythm (`beatsPerBar`, `pulsesPerBeat`, `accents`, optional `drumPattern`). All clicks and drum hits map to **slots** via `slotsPerBar` in `metronomeRhythmPresets.js`. |
-| **Music clock** | `beatCallback` in `useAbcSynth.js` → `currentTime.current` via `timingProgressToAudioSeconds` in `playbackStateLogic.js`. The **only** playhead writer during MIDI playback. |
-| **Tempo** | `computePlaybackMetronomeTempo` from `millisecondsPerMeasure / beatsPerMeasure / tempoFactor`. Used for TimingCallbacks `qpm` and click spacing. |
-| **Slot duration** | `60 / tempo / pulsesForBeat(beatIndex)` seconds per slot (swing may redistribute within a beat). |
+| Term | Definition |
+|------|------------|
+| **abcjs beat** | Unit from tune `L:` (`getBeatsPerMeasure()`, `getBeatLength()`). Drives **music playhead only** via TimingCallbacks. |
+| **Rhythm beat** | One entry in `rhythm.beatsPerBar` (e.g. 4 quarters in 4/4 preset). Drives **click/drum spacing**. |
+| **Pulse** | Subdivision within a rhythm beat (`pulsesPerBeat[i]`). |
+| **Slot** | Smallest grid cell. `slotsPerBar = sum(pulsesPerBeat)`. Slot index 0 = downbeat. |
+| **Music second** | `currentTime.current` from `timingProgressToAudioSeconds`. **0 = first note** (audio ratio 0). |
+| **Rhythm-grid tempo** | `computeRhythmGridTempo` — BPM for one rhythm beat. Used for all click/drum scheduling. |
+| **Music tempo** | `computePlaybackMetronomeTempo` — BPM for abcjs `TimingCallbacks` / music playhead (follows tune `L:` unit). **Do not** use for click spacing. |
 
 ### abcjs vs rhythm beat units
 
 abcjs `getBeatsPerMeasure()` follows the tune's `L:` default (often **2** half-note
-beats per 4/4 bar). The metronome rhythm preset uses **4** quarter-note beats per 4/4
-bar. Count-in **must** use `rhythmAlignedCountInInput` so click count matches the
-rhythm grid, not raw abcjs beat count.
+beats per 4/4 bar, or **8** eighth-note beats when `L:1/8`). The metronome rhythm preset
+uses **4** quarter-note beats per 4/4 bar. Count-in **must** use `rhythmAlignedCountInInput`
+so click count matches the rhythm grid, not raw abcjs beat count.
 
-## Count-in (no music playing)
+| Tune `L:` | abcjs beats/bar (typical) | Rhythm grid (4/4 preset) | `computePlaybackMetronomeTempo` vs `computeRhythmGridTempo` |
+|-----------|---------------------------|--------------------------|-------------------------------------------------------------|
+| `L:1/2` | 2 half-notes | 4 quarters @ 120 | ~60 vs ~120 QPM |
+| `L:1/4` | 4 quarters | 4 quarters @ 120 | ~120 vs ~120 QPM |
+| `L:1/8` | 8 eighths | 4 quarters @ 120 | ~240 vs ~120 QPM |
 
-| Case | Expected clicks | Gap before first note |
-|------|----------------|----------------------|
-| 4/4, 1 bar, no anacrusis | 4 quarter clicks | 1 slot (next subdivision), then music at audio ratio 0 |
-| 4/4, 1-beat anacrusis | 3 clicks | 1 slot, then pickup on correct upbeat |
-| 6/8, 1 bar | 6 eighth clicks | 1 eighth slot |
-| `countInBarOnly` (practice) | Full bar from time signature, ignore implicit pickup | Standard 1-slot gap |
-| Fractional pickup (`delayMs > 0`) | `floor(totalBeatsBeforeMusic)` clicks | `delayMs` wall-clock wait |
+`getTimingMusicStartMs` must use `getPlaybackMetronomeTempo` (abcjs beat unit), not raw
+`Q:` meta tempo, so `timingProgressToAudioSeconds` matches TimingCallbacks.
 
-**During-playback handoff:** music starts on the **next metronome slot** after the last
-count-in slot (`onSlotChange`), not via `setTimeout(beatDuration)`.
+## Architecture — single rhythm engine
 
-**Count-in-only (metronome stops):** use `Metronome` completion callback +
-`countInMusicStartDelayMs`.
+Tune playback uses **one** phase-driven engine (`rhythmPlaybackController.js`) and
+**one** cancellable audio bus (`rhythmOutputBus.js`). The standalone practice tool
+(`MetronomePanel` + `Metronome.js`) is separate and unaffected.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Idle
+    Idle --> CountIn: startCountIn
+    CountIn --> EntryGap: lastCountInSlot
+    CountIn --> Idle: countInOnly complete
+    EntryGap --> Playing: gapSlotBoundary
+    EntryGap --> Idle: cancelled
+    Playing --> Idle: stop
+    CountIn --> Idle: stop
+```
+
+| Phase | Clock | What schedules |
+|-------|-------|----------------|
+| `countIn` | AudioContext time (pre-scheduled) | All count-in slots upfront on the rhythm grid |
+| `entryGap` | AudioContext time | Silent gap slot before `onMusicStart` |
+| `playing` | AudioContext time (25ms lookahead) | Slots from anchored `downbeatAudioTime` |
+| `idle` | — | Nothing; output bus muted |
+
+**Count-in + during-playback:** same controller, no engine swap. Count-in ends at a
+virtual timeline boundary (`musicSeconds = 0`); the playing phase continues the same
+slot grid from 0.
+
+**Stop/pause:** `stopRhythmPlayback()` bumps a generation token, mutes the output bus
+(`silenceRhythmOutputBus`), and clears timers. Pre-scheduled Web Audio clicks are
+inaudible within ~50ms — no shortening of playback lookahead.
+
+Slot math lives in `rhythmGrid.js` (formerly inlined in
+`musicLockedMetronomeScheduler.js`).
+
+## Count-in
+
+| Case | Clicks (slots) | Gap before music | Music entry |
+|------|----------------|------------------|-------------|
+| 4/4, 1 bar, no pickup | 4 quarter slots | 1 slot (silent) | `musicSeconds = 0`, slot 0 accented |
+| 4/4, 1-beat pickup | 3 slots | 1 slot | Pickup on correct upbeat |
+| 6/8, 1 bar | 6 eighth slots | 1 eighth slot | Beat 1 accented |
+| 7/8, 9/8, 12/8 | `countInBars × slotsPerBar` (rhythm-aligned) | 1 slot or `delayMs` for fractional pickup | Per `computeMidiMetronomeCountIn` |
+| `countInBarOnly` | Full bar from meter, ignore implicit pickup | Standard 1-slot gap | Practice warmups |
+| `delayMs > 0` | `floor(totalBeatsBeforeMusic)` clicks | `delayMs` wall wait | Fractional pickup remainder |
+
+**Count-in-only (metronome stops):** `CountIn → EntryGap → Idle`; `onMusicStart`
+triggers MIDI via existing delayed-start path.
+
+**Count-in with during-playback:** `CountIn → EntryGap → Playing`; `onMusicStart`
+starts TimingCallbacks / MIDI; no overlap with a second scheduler.
 
 ## During playback (music playing)
 
 | Requirement | Rule |
 |-------------|------|
-| Zero drift | Clicks/drums scheduled from the **music clock** via `musicLockedMetronomeScheduler.js`, not a free-running oscillator. |
-| Scheduling | On each `beatCallback` (and start/resume/seek), schedule slot boundaries in `[musicSeconds, musicSeconds + LOOKAHEAD]` onto `audioContext.currentTime`. |
-| Seek | Reset scheduler state; re-anchor from new `musicSeconds`. |
-| Tempo change | Reset scheduler; reschedule lookahead at new tempo. |
-| Seamless handoff | Stop count-in `Metronome` interval; music-locked scheduler continues without replaying the current slot. |
+| Zero drift | Slots derived from **AudioContext time** on a single anchored grid (`rhythmTimeline.js`). |
+| Scheduling | 25ms interval schedules slot boundaries in `[now, now + LOOKAHEAD]` onto `audioContext.currentTime`. |
+| Lookahead | `DEFAULT_TIMELINE_LOOKAHEAD_SEC` (0.25s). Tempo changes affect at most one lookahead window. |
+| Music clock | `beatCallback` updates playhead only; drift watchdog re-anchors after 3 consecutive half-slot misses. |
+| Tempo factor | Wall-clock grid tempo uses `computeRhythmGridTempo` (includes `tempoFactor`). Music seconds map via `musicStartAudioTime + musicSeconds / tempoFactor`. |
+| Seek | `reanchorRhythm(musicSeconds)` resets schedule state and preserves slot phase. |
+| Tempo change | `setRhythmPlaybackTempo` recomputes anchor at current slot. |
+| Stop/pause | `stopRhythmPlayback()` **before** seek-guard early returns in `pauseMidiSynth`. |
 
 ## Drums
 
@@ -55,10 +107,11 @@ Drums use the **same slot grid and scheduler as clicks** (`playRhythmSlot` → `
 
 ## Do not
 
-- Start `Metronome` with `maxBeats = 0` during playback (infinite free-running mode). Count-in only.
+- Use `new Metronome(...)` for tune playback (count-in or during-playback). Standalone `MetronomePanel` only.
+- Run two schedulers simultaneously (wall-clock count-in + music-locked) for the same session.
 - Use `setTimeout` for beat alignment during playback.
 - Pass raw abcjs `getBeatsPerMeasure()` to count-in without rhythm alignment.
-- Put timing math inline in `useAbcSynth.js` — use `playbackStateLogic.js`, `metronomeRhythmPresets.js`, `musicLockedMetronomeScheduler.js`.
+- Put timing math inline in `useAbcSynth.js` — use `playbackStateLogic.js`, `metronomeRhythmPresets.js`, `rhythmGrid.js`, `rhythmPlaybackController.js`.
 
 ## Regression tests required
 
@@ -66,8 +119,11 @@ Any PR touching metronome timing must pass:
 
 - `src/playbackStateLogic.test.js` (count-in, slot mapping, rhythm alignment)
 - `src/metronomeRhythmPresets.test.js`
-- `src/musicLockedMetronomeScheduler.test.js`
-- `e2e/playback-smoke.js` (count-in beat count)
+- `src/musicLockedMetronomeScheduler.test.js` (slot math via `rhythmGrid.js`)
+- `src/rhythmTimeline.test.js` (audio-clock slot grid, count-in ranges)
+- `src/rhythmPlaybackController.test.js` (phases, stop, count-in)
+- `src/rhythmOutputBus.test.js` (instant mute on stop)
+- `e2e/playback-smoke.js` (count-in, from-start, stop silence)
 
 ## Example timelines (4/4, 120 BPM, no anacrusis)
 

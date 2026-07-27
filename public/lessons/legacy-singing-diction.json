@@ -1,0 +1,189 @@
+{
+  "id": "legacy-singing-diction",
+  "title": "Diction and Lyrics",
+  "track": "singing",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "singing",
+    "legacy"
+  ],
+  "path": "08-singing/05-diction.md",
+  "sections": [
+    {
+      "id": "diction-and-lyrics",
+      "title": "Diction and Lyrics",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** singing | **Difficulty:** 2/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Clear diction communicates story; sloppy consonants lose words in noisy sessions and recordings."
+        }
+      ]
+    },
+    {
+      "id": "consonants",
+      "title": "Consonants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Articulate final consonants lightly — 't' and 'k' without glottal stops unless stylistically intended. Irish and Scots Gaelic lyrics need language coaching for authentic pronunciation."
+        }
+      ]
+    },
+    {
+      "id": "vowels-on-long-notes",
+      "title": "Vowels on long notes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Sustain on pure vowel; place consonant at end. 'Love' = 'luh-uv' not 'luh-vuh' spread across the note."
+        }
+      ]
+    },
+    {
+      "id": "microphone",
+      "title": "Microphone",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Close-mic singing needs less consonant explosion than unamplified ballad in a hall."
+        }
+      ]
+    },
+    {
+      "id": "lyric-sheets",
+      "title": "Lyric sheets",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Know meaning, not just sounds. Storytelling improves phrasing naturally."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Sustain long notes primarily on:\n\n- A) Pure vowel sound\n- B) Consonants\n- C) Silence\n- D) Breath noise\n\n**Answer:** A\n\n### Q2. Gaelic song lyrics benefit from language-specific pronunciation guidance.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Sustain long notes primarily on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Pure vowel sound",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Pure vowel sound"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Gaelic song lyrics benefit from language-specific pronunciation guidance.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-singing-diction-quiz",
+    "title": "Diction and Lyrics quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Sustain long notes primarily on:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Pure vowel sound",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Pure vowel sound"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Gaelic song lyrics benefit from language-specific pronunciation guidance.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

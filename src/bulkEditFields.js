@@ -1,6 +1,5 @@
 import { getMusicGenreSelectOptions } from './musicGenreOptions'
 import { normalizeKeySignature } from './keySignatureNormalize'
-import { normalizeSuitableInstruments } from './practiceSessionSettings'
 import { TABLATURE_INSTRUMENT_OPTIONS } from './tablatureConfig'
 
 export const BULK_EDIT_FIELDS = [
@@ -44,22 +43,6 @@ export const BULK_EDIT_FIELDS = [
   },
   { key: 'srcUrl', label: 'Source URL', type: 'text', allowEmpty: true },
   {
-    key: 'suitableForPractice',
-    label: 'Suitable for practice',
-    type: 'select',
-    allowEmpty: false,
-    options: [
-      { value: 'true', label: 'Yes — include in practice' },
-      { value: 'false', label: 'No — exclude from practice' },
-    ],
-  },
-  {
-    key: 'suitableFor',
-    label: 'Suitable for instruments',
-    type: 'instruments',
-    allowEmpty: true,
-  },
-  {
     key: 'cache',
     label: 'Cache',
     type: 'select',
@@ -98,7 +81,7 @@ export function isBulkChangeRowComplete(row) {
   if (!row || !row.field) return false
   var field = getBulkEditField(row.field)
   if (!field) return false
-  if (field.type === 'instruments' || field.type === 'genres') {
+  if (field.type === 'genres') {
     return true
   }
   if (field.type === 'toggle') {
@@ -112,9 +95,6 @@ export function isBulkChangeRowComplete(row) {
 
 export function coerceBulkFieldValue(fieldKey, rawValue) {
   var field = getBulkEditField(fieldKey)
-  if (fieldKey === 'suitableFor' || (field && field.type === 'instruments')) {
-    return normalizeSuitableInstruments(Array.isArray(rawValue) ? rawValue : [])
-  }
   if (fieldKey === 'genres' || (field && field.type === 'genres')) {
     if (!Array.isArray(rawValue)) return []
     return rawValue.map(function(item) { return String(item || '').trim() }).filter(Boolean)
@@ -139,7 +119,7 @@ export function coerceBulkFieldValue(fieldKey, rawValue) {
     return String(parsed)
   }
 
-  if (field.key === 'suitableForPractice' || field.key === 'mediaCacheLocked' || field.type === 'toggle') {
+  if (field.key === 'mediaCacheLocked' || field.type === 'toggle') {
     return rawValue === false || rawValue === 'false' ? false : true
   }
 
@@ -157,14 +137,6 @@ export function prepareBulkChanges(rows) {
   rows.forEach(function(row) {
     if (!isBulkChangeRowComplete(row)) return
     if (isBulkActionField(row.field)) return
-    if (row.field === 'suitableFor') {
-      byField.suitableFor = {
-        key: 'suitableFor',
-        value: coerceBulkFieldValue('suitableFor', row.value),
-        replace: true,
-      }
-      return
-    }
     byField[row.field] = {
       key: row.field,
       value: coerceBulkFieldValue(row.field, row.value),

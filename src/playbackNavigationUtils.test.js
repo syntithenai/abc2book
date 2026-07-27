@@ -8,6 +8,10 @@ import {
   getSkipNavigationTuneId,
   shouldUseQueueNavigationForAdjacent,
   shouldPreservePlaylistAudioDuringSearchBrowse,
+  shouldPreferQueueNavigation,
+  getActivePlaybackTuneId,
+  isPlaybackActivelyPlaying,
+  shouldStartPlaybackWhenAdvancing,
 } from './playbackNavigationUtils'
 import { createQueue } from './nowPlayingQueue'
 
@@ -72,6 +76,8 @@ describe('playbackNavigationUtils', function() {
     expect(shouldShowPlaylistTransportBar('/gig/set-1', queue, false)).toBe(false)
     expect(shouldShowPlaylistTransportBar('/tunes/a', queue, true)).toBe(false)
     expect(shouldShowPlaylistTransportBar('/tunes/a', null, false)).toBe(false)
+    expect(shouldShowPlaylistTransportBar('/now-playing', queue, false)).toBe(true)
+    expect(shouldShowPlaylistTransportBar('/settings', null, false, { isPlaying: true })).toBe(true)
   })
 
   test('getSkipNavigationTuneId uses viewed tune only', function() {
@@ -80,10 +86,25 @@ describe('playbackNavigationUtils', function() {
     expect(getSkipNavigationTuneId('/tunes', queue)).toBeNull()
   })
 
-  test('shouldUseQueueNavigationForAdjacent only when transport opts in', function() {
-    expect(shouldUseQueueNavigationForAdjacent({})).toBe(false)
-    expect(shouldUseQueueNavigationForAdjacent({ forceSearchList: true })).toBe(false)
-    expect(shouldUseQueueNavigationForAdjacent({ useQueueNavigation: true })).toBe(true)
+  test('shouldUseQueueNavigationForAdjacent when playback engaged', function() {
+    const queue = createQueue({ tuneIds: ['a', 'b'] })
+    const mediaController = { isPlaying: true }
+    expect(shouldUseQueueNavigationForAdjacent({}, mediaController, queue)).toBe(true)
+    expect(shouldUseQueueNavigationForAdjacent({ forceSearchList: true }, mediaController, queue)).toBe(false)
+    expect(shouldUseQueueNavigationForAdjacent({ useQueueNavigation: true }, {}, null)).toBe(true)
+    expect(shouldUseQueueNavigationForAdjacent({}, {}, queue)).toBe(false)
+  })
+
+  test('shouldPreferQueueNavigation', function() {
+    const queue = createQueue({ tuneIds: ['a'] })
+    expect(shouldPreferQueueNavigation({ isPlaying: true }, queue)).toBe(true)
+    expect(shouldPreferQueueNavigation({}, queue)).toBe(false)
+  })
+
+  test('getActivePlaybackTuneId', function() {
+    const queue = createQueue({ tuneIds: ['queue-tune'], currentIndex: 0 })
+    expect(getActivePlaybackTuneId({ tune: { id: 'engine-tune' } }, queue)).toBe('queue-tune')
+    expect(getActivePlaybackTuneId({ tune: { id: 'engine-tune' } }, null)).toBe('engine-tune')
   })
 
   test('shouldPreservePlaylistAudioDuringSearchBrowse keeps queue audio during header browse', function() {
@@ -95,5 +116,30 @@ describe('playbackNavigationUtils', function() {
       queue,
       mediaController
     )).toBe(false)
+  })
+
+  test('isPlaybackActivelyPlaying ignores paused playback', function() {
+    expect(isPlaybackActivelyPlaying({ isPlaying: true })).toBe(true)
+    expect(isPlaybackActivelyPlaying({ isLoading: true })).toBe(true)
+    expect(isPlaybackActivelyPlaying({
+      hasActivePlaybackIntent: function() { return true },
+    })).toBe(true)
+    expect(isPlaybackActivelyPlaying({
+      canResumePlayback: function() { return true },
+    })).toBe(false)
+    expect(isPlaybackActivelyPlaying({
+      canResumePlayback: function() { return true },
+      hasActivePlaybackIntent: function() { return false },
+    })).toBe(false)
+  })
+
+  test('shouldStartPlaybackWhenAdvancing stays false while paused', function() {
+    const paused = {
+      canResumePlayback: function() { return true },
+      hasActivePlaybackIntent: function() { return false },
+    }
+    expect(shouldStartPlaybackWhenAdvancing(paused, false)).toBe(false)
+    expect(shouldStartPlaybackWhenAdvancing({ isPlaying: true }, false)).toBe(true)
+    expect(shouldStartPlaybackWhenAdvancing(paused, true)).toBe(true)
   })
 })

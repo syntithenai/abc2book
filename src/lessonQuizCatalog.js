@@ -79,16 +79,25 @@ export function summarizeQuizActivity(rows) {
   let completed = 0
   let totalQuestions = 0
   let totalBestCorrect = 0
+  let bestPct = 0
   const unitScores = {}
   withProgress.forEach(function(row) {
-    totalQuestions += Number(row.questionCount) || 0
-    if (row.attempted) attempted += 1
+    const questionCount = Number(row.questionCount) || 0
+    totalQuestions += questionCount
+    if (row.attempted) {
+      attempted += 1
+      const bestCorrect = Number(row.bestCorrect) || 0
+      totalBestCorrect += bestCorrect
+      if (questionCount) {
+        const pct = Math.round((bestCorrect / questionCount) * 100)
+        if (pct > bestPct) bestPct = pct
+      }
+    }
     if (row.completed) completed += 1
-    totalBestCorrect += Number(row.bestCorrect) || 0
     const unit = row.unitLabel || row.trackLabel || 'Other'
     if (!unitScores[unit]) unitScores[unit] = { label: unit, correct: 0, total: 0, count: 0 }
     unitScores[unit].correct += Number(row.bestCorrect) || 0
-    unitScores[unit].total += Number(row.questionCount) || 0
+    unitScores[unit].total += questionCount
     unitScores[unit].count += 1
   })
   const interests = Object.values(unitScores)
@@ -104,7 +113,7 @@ export function summarizeQuizActivity(rows) {
     completed: completed,
     totalQuestions: totalQuestions,
     totalBestCorrect: totalBestCorrect,
-    overallPct: totalQuestions ? Math.round((totalBestCorrect / totalQuestions) * 100) : 0,
+    overallPct: bestPct,
     interests: interests,
     rows: withProgress,
   }

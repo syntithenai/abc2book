@@ -50,7 +50,6 @@ export default function PracticeSessionModal(props) {
     hasLyrics: false,
     lyricLineCount: 0,
   })
-  const [chordViewMode, setChordViewMode] = useState('transposed')
   const [voiceSettingsVersion, setVoiceSettingsVersion] = useState(0)
   const handleTuneLayoutNeeds = useCallback(function(needs) {
     setTuneLayoutNeeds(function(prev) {
@@ -115,10 +114,6 @@ export default function PracticeSessionModal(props) {
   const mediaTapToPlay = props.mediaController && props.mediaController.tapToPlay
   const showPauseControl = canPausePlayback && !mediaTapToPlay
   const togglePausePlaybackRef = useRef(null)
-
-  useEffect(function() {
-    setChordViewMode('transposed')
-  }, [currentStep, props.stepIndex])
 
   useEffect(function() {
     if (currentStep && currentStep.type === 'warmup') {
@@ -245,11 +240,6 @@ export default function PracticeSessionModal(props) {
     if (props.onSkipTune) props.onSkipTune()
   }
 
-  function handleBlockTune() {
-    if (props.armPlaybackGesture) props.armPlaybackGesture()
-    if (props.onBlockTune) props.onBlockTune()
-  }
-
   function togglePausePlayback() {
     if (!canPausePlayback) return
     if (userPaused) {
@@ -340,7 +330,6 @@ export default function PracticeSessionModal(props) {
   const showAutoscroll = isTuneStep
     && (tuneLayoutNeeds.needsNotationScroll || tuneLayoutNeeds.lyricLineCount > 12)
   const tuneTranspose = tune ? (Number(tune.transpose) || 0) : 0
-  const effectiveCapo = tune ? (Number(tune.capo) || 0) : 0
   const hasChords = !!(tune && tuneHasExplicitChords(tune, props.tunebook, abcjsParser))
   const practiceDisplayFlags = tune ? resolveDisplayFlagsForTune(
     viewModeToDisplayFlags(props.practiceViewMode || 'music'),
@@ -375,21 +364,6 @@ export default function PracticeSessionModal(props) {
         <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
         <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1) }} aria-label="Transpose up">+</Button>
       </ButtonGroup>
-      {effectiveCapo > 0 ? (
-        <Button
-          size="sm"
-          variant={chordViewMode === 'capo' ? 'primary' : 'outline-secondary'}
-          className="music-capo-toggle-btn"
-          aria-pressed={chordViewMode === 'capo'}
-          aria-label={'Capo ' + effectiveCapo + (chordViewMode === 'capo' ? ' fingering' : ' transposed')}
-          title={chordViewMode === 'capo' ? 'Show transposed chords' : 'Show capo fingering'}
-          onClick={function() {
-            setChordViewMode(chordViewMode === 'capo' ? 'transposed' : 'capo')
-          }}
-        >
-          Capo {effectiveCapo}
-        </Button>
-      ) : null}
     </div>
   ) : null
 
@@ -480,22 +454,13 @@ export default function PracticeSessionModal(props) {
                   )
                 ) : null}
                 {currentStep && currentStep.type === 'tune' ? (
-                  <>
-                    {renderHeaderBtn(
-                      'Block tune',
-                      icons && icons.lock,
-                      'practice-session-header-btn--block',
-                      'warning',
-                      handleBlockTune
-                    )}
-                    {renderHeaderBtn(
-                      'Skip tune',
-                      icons && icons.skipforward,
-                      'practice-session-header-btn--skip',
-                      undefined,
-                      handleSkipTune
-                    )}
-                  </>
+                  renderHeaderBtn(
+                    'Skip tune',
+                    icons && icons.skipforward,
+                    'practice-session-header-btn--skip',
+                    undefined,
+                    handleSkipTune
+                  )
                 ) : null}
               </>
             ) : null}
@@ -706,11 +671,10 @@ export default function PracticeSessionModal(props) {
             }
           >
             <PracticeTuneDisplay
-              key={String(tune.id) + '-' + String(props.practiceViewMode || 'music') + '-' + voiceSettingsVersion + '-' + tuneTranspose + '-' + chordViewMode}
+              key={String(tune.id) + '-' + String(props.stepIndex) + '-' + String(props.practiceViewMode || 'music') + '-' + voiceSettingsVersion + '-' + tuneTranspose}
               tune={tune}
               tunebook={props.tunebook}
               viewMode={props.practiceViewMode}
-              chordViewMode={chordViewMode}
               voiceSettingsVersion={voiceSettingsVersion}
               onLayoutNeeds={handleTuneLayoutNeeds}
             />

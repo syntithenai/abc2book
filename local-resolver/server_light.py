@@ -170,6 +170,10 @@ def light_features(allow_embedded: bool = False) -> dict[str, Any]:
         "wordTools": True,
         "youtubeAudio": bool(host_proxy) or not require_egress,
         "youtubeEgressRequired": require_egress and not host_proxy,
+        "bandcamp": True,
+        "internetArchive": True,
+        "europeana": bool(os.getenv("EUROPEANA_API_KEY", "").strip()),
+        "locAudio": True,
     }
 
 
@@ -519,6 +523,273 @@ async def youtube_audio(
         return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
     except Exception as exc:
         return JSONResponse({"error": str(exc)[:500]}, status_code=502, headers=cors_headers(origin))
+
+
+@app.get("/bandcamp/audio")
+async def bandcamp_audio(
+    request: Request,
+    url: str,
+    authorization: str | None = Header(default=None),
+):
+    """Stream Bandcamp audio via yt-dlp."""
+    import asyncio
+
+    from bandcamp import bandcamp_enabled, is_bandcamp_url
+
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        if not bandcamp_enabled():
+            raise HTTPException(status_code=404, detail="Bandcamp is not available")
+        if not is_bandcamp_url(url):
+            raise HTTPException(status_code=400, detail="Invalid Bandcamp URL")
+        proxy = (request.headers.get("x-tunebook-ytdlp-proxy") or "").strip() or os.getenv("YTDLP_PROXY", "").strip()
+        cmd = [
+            "yt-dlp",
+            "--no-playlist",
+            "--no-warnings",
+            "-f",
+            "ba/b",
+            "-o",
+            "-",
+            url,
+        ]
+        if proxy:
+            cmd.extend(["--proxy", proxy])
+        proc = await asyncio.create_subprocess_exec(
+            *cmd,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+        )
+        first = await proc.stdout.read(8192)
+        if not first:
+            err = (await proc.stderr.read()).decode("utf-8", errors="ignore")[:400]
+            raise HTTPException(status_code=502, detail=err or "yt-dlp produced no audio")
+
+        async def body():
+            yield first
+            try:
+                while True:
+                    chunk = await proc.stdout.read(64 * 1024)
+                    if not chunk:
+                        break
+                    yield chunk
+            finally:
+                if proc.returncode is None:
+                    proc.terminate()
+                    try:
+                        await asyncio.wait_for(proc.wait(), timeout=5)
+                    except Exception:
+                        proc.kill()
+
+        from fastapi.responses import StreamingResponse
+
+        return StreamingResponse(
+            body(),
+            media_type="application/octet-stream",
+            headers={**cors_headers(origin), "Cache-Control": "private, max-age=3600"},
+        )
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+    except Exception as exc:
+        return JSONResponse({"error": str(exc)[:500]}, status_code=502, headers=cors_headers(origin))
+
+
+@app.post("/search-bandcamp")
+async def search_bandcamp_light(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    from bandcamp import bandcamp_enabled, build_bandcamp_candidate, search_bandcamp
+
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        if not bandcamp_enabled():
+            return JSONResponse({"error": "Bandcamp is not available"}, status_code=404, headers=cors_headers(origin))
+        payload = await request.json()
+        title = str(payload.get("title") or payload.get("query") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        query = str(payload.get("query") or "").strip() or " ".join(
+            part for part in [title, artist] if part
+        ).strip()
+        limit = int(payload.get("limit") or payload.get("maxResults") or 20)
+        matches = await search_bandcamp(query, title=title, artist=artist, limit=limit)
+        candidates = [build_bandcamp_candidate(match, title=title, artist=artist) for match in matches]
+        return JSONResponse({"ok": True, "candidates": candidates}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+    except Exception as exc:
+        return JSONResponse({"error": str(exc)[:500]}, status_code=500, headers=cors_headers(origin))
+
+
+async def _stream_https_audio(target_url: str, origin: str | None):
+    from fastapi.responses import StreamingResponse
+
+    timeout = httpx.Timeout(60.0, connect=10.0)
+    client = httpx.AsyncClient(follow_redirects=True, timeout=timeout)
+    upstream = await client.send(
+        client.build_request("GET", target_url),
+        stream=True,
+    )
+    if upstream.status_code not in (200, 206):
+        await upstream.aclose()
+        await client.aclose()
+        raise HTTPException(status_code=upstream.status_code, detail="Upstream fetch failed")
+
+    async def body():
+        try:
+            async for chunk in upstream.aiter_bytes():
+                yield chunk
+        finally:
+            await upstream.aclose()
+            await client.aclose()
+
+    headers = {"Cache-Control": "private, max-age=3600"}
+    content_type = upstream.headers.get("content-type")
+    if content_type:
+        headers["Content-Type"] = content_type
+    return StreamingResponse(body(), media_type=content_type or "application/octet-stream", headers={**cors_headers(origin), **headers})
+
+
+@app.get("/internet-archive/audio")
+async def internet_archive_audio_light(
+    request: Request,
+    url: str,
+    authorization: str | None = Header(default=None),
+):
+    from internet_archive import internet_archive_enabled, is_archive_org_url, resolve_archive_playback_url
+
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        if not internet_archive_enabled():
+            raise HTTPException(status_code=404, detail="Internet Archive is not available")
+        if not is_archive_org_url(url):
+            raise HTTPException(status_code=400, detail="Invalid Internet Archive URL")
+        playback_url = await resolve_archive_playback_url(url)
+        if not playback_url:
+            raise HTTPException(status_code=502, detail="Could not resolve Internet Archive audio file")
+        return await _stream_https_audio(playback_url, origin)
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+    except Exception as exc:
+        return JSONResponse({"error": str(exc)[:500]}, status_code=502, headers=cors_headers(origin))
+
+
+@app.get("/loc/audio")
+async def loc_audio_light(
+    request: Request,
+    url: str,
+    authorization: str | None = Header(default=None),
+):
+    from loc_audio import is_loc_gov_url, loc_audio_enabled, resolve_loc_playback_url
+
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        if not loc_audio_enabled():
+            raise HTTPException(status_code=404, detail="Library of Congress audio is not available")
+        if not is_loc_gov_url(url):
+            raise HTTPException(status_code=400, detail="Invalid Library of Congress URL")
+        playback_url = await resolve_loc_playback_url(url)
+        if not playback_url:
+            raise HTTPException(status_code=502, detail="Could not resolve Library of Congress audio file")
+        return await _stream_https_audio(playback_url, origin)
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+    except Exception as exc:
+        return JSONResponse({"error": str(exc)[:500]}, status_code=502, headers=cors_headers(origin))
+
+
+@app.post("/search-internet-archive")
+async def search_internet_archive_light(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    from internet_archive import (
+        build_internet_archive_candidate,
+        internet_archive_enabled,
+        search_internet_archive,
+    )
+
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        if not internet_archive_enabled():
+            return JSONResponse({"error": "Internet Archive is not available"}, status_code=404, headers=cors_headers(origin))
+        payload = await request.json()
+        title = str(payload.get("title") or payload.get("query") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        query = str(payload.get("query") or "").strip() or " ".join(
+            part for part in [title, artist] if part
+        ).strip()
+        limit = int(payload.get("limit") or payload.get("maxResults") or 20)
+        matches = await search_internet_archive(query, title=title, artist=artist, limit=limit)
+        candidates = [
+            build_internet_archive_candidate(match, title=title, artist=artist) for match in matches
+        ]
+        return JSONResponse({"ok": True, "candidates": candidates}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+    except Exception as exc:
+        return JSONResponse({"error": str(exc)[:500]}, status_code=500, headers=cors_headers(origin))
+
+
+@app.post("/search-europeana")
+async def search_europeana_light(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    from europeana import build_europeana_candidate, europeana_enabled, search_europeana
+
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        if not europeana_enabled():
+            return JSONResponse({"error": "Europeana is not available"}, status_code=404, headers=cors_headers(origin))
+        payload = await request.json()
+        title = str(payload.get("title") or payload.get("query") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        query = str(payload.get("query") or "").strip() or " ".join(
+            part for part in [title, artist] if part
+        ).strip()
+        limit = int(payload.get("limit") or payload.get("maxResults") or 20)
+        matches = await search_europeana(query, title=title, artist=artist, limit=limit)
+        candidates = [build_europeana_candidate(match, title=title, artist=artist) for match in matches]
+        return JSONResponse({"ok": True, "candidates": candidates}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+    except Exception as exc:
+        return JSONResponse({"error": str(exc)[:500]}, status_code=500, headers=cors_headers(origin))
+
+
+@app.post("/search-loc-audio")
+async def search_loc_audio_light(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    from loc_audio import build_loc_audio_candidate, loc_audio_enabled, search_loc_audio
+
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        if not loc_audio_enabled():
+            return JSONResponse({"error": "Library of Congress audio is not available"}, status_code=404, headers=cors_headers(origin))
+        payload = await request.json()
+        title = str(payload.get("title") or payload.get("query") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        query = str(payload.get("query") or "").strip() or " ".join(
+            part for part in [title, artist] if part
+        ).strip()
+        limit = int(payload.get("limit") or payload.get("maxResults") or 20)
+        matches = await search_loc_audio(query, title=title, artist=artist, limit=limit)
+        candidates = [build_loc_audio_candidate(match, title=title, artist=artist) for match in matches]
+        return JSONResponse({"ok": True, "candidates": candidates}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+    except Exception as exc:
+        return JSONResponse({"error": str(exc)[:500]}, status_code=500, headers=cors_headers(origin))
 
 
 @app.post("/transcribe-sheet-image")

@@ -1,0 +1,178 @@
+{
+  "id": "legacy-styles-folk-dances",
+  "title": "Reels, Jigs, Waltzes, Hornpipes",
+  "track": "styles",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "styles",
+    "legacy"
+  ],
+  "path": "07-styles/04-folk-dances.md",
+  "sections": [
+    {
+      "id": "reels-jigs-waltzes-and-hornpipes",
+      "title": "Reels, Jigs, Waltzes, and Hornpipes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 2/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish and Scottish session dance types each carry a distinct pulse — matching foot-tap to meter is essential session etiquette."
+        }
+      ]
+    },
+    {
+      "id": "reels",
+      "title": "Reels",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "2/2 or 4/4, steady driving beat. 'ONE-two THREE-four' at moderate-fast tempo. Most common session dance type."
+        }
+      ]
+    },
+    {
+      "id": "jigs",
+      "title": "Jigs",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Double jig: 6/8, two beats per bar of three eighths — 'JIG-ged-y JIG-ged-y'. Single jig and slide: 12/8 variants regionally."
+        }
+      ]
+    },
+    {
+      "id": "waltzes-and-hornpipes",
+      "title": "Waltzes and hornpipes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Waltz: 3/4, strong beat one. Hornpipe: often dotted long-short rhythm, 4/4, slower bouncy feel — regional variation in dotting."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Double jig notated in:\n\n- A) 6/8\n- B) 3/4 waltz\n- C) 5/4\n- D) 7/8 only\n\n**Answer:** A\n\n### Q2. Reels use steady 2/2 or 4/4 drive.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Double jig notated in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6/8",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: 6/8"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Reels use steady 2/2 or 4/4 drive.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-styles-folk-dances-quiz",
+    "title": "Reels, Jigs, Waltzes, Hornpipes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Double jig notated in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: 6/8"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Reels use steady 2/2 or 4/4 drive.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

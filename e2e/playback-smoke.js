@@ -404,6 +404,24 @@ async function assertSeekLandsNear(page, targetRatio, toleranceSeconds) {
   return after
 }
 
+async function getRhythmDiagnostics(page) {
+  return page.evaluate(function() {
+    if (window.__abc2bookPlaybackTest && window.__abc2bookPlaybackTest.getRhythmDiagnostics) {
+      return window.__abc2bookPlaybackTest.getRhythmDiagnostics()
+    }
+    return null
+  })
+}
+
+async function getRhythmPhase(page) {
+  return page.evaluate(function() {
+    if (window.__abc2bookPlaybackTest && window.__abc2bookPlaybackTest.getRhythmPhase) {
+      return window.__abc2bookPlaybackTest.getRhythmPhase()
+    }
+    return null
+  })
+}
+
 async function rewindViaTestHook(page) {
   await page.evaluate(function() {
     if (window.__abc2bookPlaybackTest && window.__abc2bookPlaybackTest.rewindToStart) {
@@ -762,6 +780,127 @@ async function main() {
         await assertSeekLandsNear(page, 0.3, 1.5)
         await assertSeekLandsNear(page, 0.7, 1.5)
         await assertSeekLandsNear(page, 0.5, 1.5)
+      })
+
+      await runScenario('midi count-in holds playhead before music starts', async function() {
+        await page.goto(midiUrl, { waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.reload({ waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.waitForFunction(function() {
+          return window.__abc2bookPlaybackTest && typeof window.__abc2bookPlaybackTest.seek === 'function'
+        }, { timeout: 30000 })
+        await dismissBlockingDialogs(page, 120000)
+        await waitForTuneReady(page, 60000)
+        await ensurePlaying(page, 60000)
+        await page.waitForTimeout(400)
+        const early = await getSeekTimes(page)
+        if (!early || early.current > 0.35) {
+          throw new Error('playhead advanced during count-in: ' + JSON.stringify(early))
+        }
+        await waitForProgressAdvance(page, 0, 0.2, 25000)
+        await waitForProgressAdvance(page, 0, 1.0, 8000)
+      })
+
+      await runScenario('midi playback crosses first beat without stall', async function() {
+        await page.goto(midiUrl, { waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.reload({ waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.waitForFunction(function() {
+          return window.__abc2bookPlaybackTest && typeof window.__abc2bookPlaybackTest.seek === 'function'
+        }, { timeout: 30000 })
+        await dismissBlockingDialogs(page, 120000)
+        await waitForTuneReady(page, 60000)
+        await ensurePlaying(page, 60000)
+        await waitForProgressAdvance(page, 0, 1.0, 6000)
+      })
+
+      await runScenario('midi paused from-start then play begins at zero', async function() {
+        await page.goto(midiUrl, { waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.reload({ waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.waitForFunction(function() {
+          return window.__abc2bookPlaybackTest && typeof window.__abc2bookPlaybackTest.seek === 'function'
+        }, { timeout: 30000 })
+        await dismissBlockingDialogs(page, 120000)
+        await waitForTuneReady(page, 60000)
+        await ensurePlaying(page, 60000)
+        await waitForProgressAdvance(page, 0, 0.5, 30000)
+        await ensurePaused(page, 20000)
+        const mid = await getSeekTimes(page)
+        if (!mid || mid.current < 0.3) {
+          throw new Error('expected mid-playback position before rewind: ' + JSON.stringify(mid))
+        }
+        await rewindViaTestHook(page)
+        const atStart = await getSeekTimes(page)
+        if (!atStart || atStart.current > 0.05) {
+          throw new Error('rewind while paused did not set UI to start: ' + JSON.stringify(atStart))
+        }
+        await ensurePlaying(page, 60000)
+        await waitForProgressAdvance(page, 0, 0.2, 25000)
+        const afterPlay = await getSeekTimes(page)
+        if (!afterPlay || afterPlay.current > 0.5) {
+          throw new Error('play after paused from-start resumed old position: ' + JSON.stringify(afterPlay))
+        }
+      })
+
+      await runScenario('midi stop silences rhythm engine', async function() {
+        await page.goto(midiUrl, { waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.reload({ waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.waitForFunction(function() {
+          return window.__abc2bookPlaybackTest && typeof window.__abc2bookPlaybackTest.getRhythmPhase === 'function'
+        }, { timeout: 30000 })
+        await dismissBlockingDialogs(page, 120000)
+        await waitForTuneReady(page, 60000)
+        await ensurePlaying(page, 60000)
+        await page.waitForTimeout(200)
+        await ensurePaused(page, 20000)
+        const phaseAfterPause = await getRhythmPhase(page)
+        if (phaseAfterPause && phaseAfterPause !== 'idle') {
+          throw new Error('rhythm engine still active after pause: ' + phaseAfterPause)
+        }
+        const pausedAt = await getSeekTimes(page)
+        await page.waitForTimeout(2000)
+        const phaseLater = await getRhythmPhase(page)
+        if (phaseLater && phaseLater !== 'idle') {
+          throw new Error('rhythm engine reactivated after pause: ' + phaseLater)
+        }
+        const stillPaused = await getSeekTimes(page)
+        if (pausedAt && stillPaused && Math.abs(stillPaused.current - pausedAt.current) > 0.4) {
+          throw new Error('playhead advanced while paused (metronome tail?): '
+            + JSON.stringify({ pausedAt: pausedAt, stillPaused: stillPaused }))
+        }
+      })
+
+      await runScenario('midi rhythm diagnostics report playing phase after count-in', async function() {
+        await page.goto(midiUrl, { waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.reload({ waitUntil: 'networkidle2', timeout: TIMEOUT_MS })
+        await page.waitForFunction(function() {
+          return window.__abc2bookPlaybackTest && typeof window.__abc2bookPlaybackTest.getRhythmDiagnostics === 'function'
+        }, { timeout: 30000 })
+        await dismissBlockingDialogs(page, 120000)
+        await waitForTuneReady(page, 60000)
+        await ensurePlaying(page, 60000)
+        await page.waitForTimeout(400)
+        const early = await getRhythmDiagnostics(page)
+        if (early && early.phase && early.phase !== 'idle' && early.phase !== 'countIn') {
+          if (early.countInSlotsEmitted > 8) {
+            throw new Error('too many count-in slots: ' + JSON.stringify(early))
+          }
+        }
+        await waitForProgressAdvance(page, 0, 0.5, 30000)
+        const playing = await getRhythmDiagnostics(page)
+        if (playing) {
+          if (playing.rhythmGridQpm > 0 && playing.playbackQpm > 0
+              && playing.rhythmBeatsPerBar === 4 && playing.playbackQpm < playing.rhythmGridQpm) {
+            // L:1/8 style tunes: abcjs beat unit is shorter than rhythm quarter grid
+          }
+          if (playing.lastScheduledSlots && playing.lastScheduledSlots.length > 0) {
+            const slots = playing.lastScheduledSlots.map(function(s) { return s.slotInBar })
+            if (slots.length >= 2 && new Set(slots).size < 2) {
+              throw new Error('metronome stuck on one slot: ' + JSON.stringify(playing))
+            }
+            if (typeof playing.maxSpacingErrorMs === 'number' && Math.abs(playing.maxSpacingErrorMs) > 5) {
+              throw new Error('metronome spacing error too large: ' + JSON.stringify(playing))
+            }
+          }
+        }
       })
 
       await runScenario('midi rewind returns to start with count-in', async function() {

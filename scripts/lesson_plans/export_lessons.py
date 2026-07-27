@@ -21,9 +21,26 @@ ROOT = Path(__file__).resolve().parents[2]
 LESSON_ROOT = ROOT / "lesson plans"
 OUT_ROOT = ROOT / "public" / "lessons"
 CURRICULUM_PATH = LESSON_ROOT / "curriculum.json"
-IRELAND_META_PATH = LESSON_ROOT / "10-regions" / "celtic" / "ireland" / "lesson-meta.json"
 SKIP_DIRS = {".reports", "wiki_index", "site"}
 SKIP_FILES = {"README.md"}
+
+CELTIC_UNITS = frozenset({
+    "celtic-ireland",
+    "celtic-scotland",
+    "celtic-wales",
+    "celtic-brittany",
+    "celtic-diaspora",
+    "celtic-comparative",
+})
+
+REGION_SUBDIRS = {
+    "ireland": "ireland",
+    "scotland": "scotland",
+    "wales": "wales",
+    "brittany": "brittany",
+    "celtic-diaspora": "celtic-diaspora",
+    "celtic-comparative": "celtic-comparative",
+}
 
 ENTITY_MARKER_RE = re.compile(r"\[\[entity:([a-z0-9_-]+)\]\]", re.IGNORECASE)
 INLINE_MARKER_RE = re.compile(
@@ -470,10 +487,23 @@ def normalize_playlist(raw_playlist: list | None, entities: list[dict]) -> list[
     return out
 
 
-def merge_ireland_meta(lesson_id: str, meta: dict) -> dict:
-    if not IRELAND_META_PATH.exists():
+def regional_meta_path(path: Path) -> Path | None:
+    rel = path.relative_to(LESSON_ROOT)
+    parts = rel.parts
+    if "celtic" not in parts:
+        return None
+    idx = parts.index("celtic")
+    if idx + 1 >= len(parts):
+        return None
+    meta_path = LESSON_ROOT.joinpath(*parts[: idx + 2]) / "lesson-meta.json"
+    return meta_path if meta_path.exists() else None
+
+
+def merge_regional_meta(lesson_id: str, meta: dict, path: Path) -> dict:
+    meta_path = regional_meta_path(path)
+    if not meta_path:
         return meta
-    overlay = json.loads(IRELAND_META_PATH.read_text(encoding="utf-8"))
+    overlay = json.loads(meta_path.read_text(encoding="utf-8"))
     extra = overlay.get(lesson_id)
     if not isinstance(extra, dict):
         return meta
@@ -484,11 +514,84 @@ def merge_ireland_meta(lesson_id: str, meta: dict) -> dict:
     return merged
 
 
+def parse_legacy_header(body: str) -> dict:
+    """Extract title/track/difficulty from legacy markdown without YAML frontmatter."""
+    extracted: dict = {}
+    title_match = re.match(r"^#\s+(.+)$", body, re.MULTILINE)
+    if title_match:
+        extracted["title"] = title_match.group(1).strip()
+    track_match = re.search(r"\*\*Track:\*\*\s*([^|]+)", body)
+    if track_match:
+        extracted["track"] = track_match.group(1).strip()
+    diff_match = re.search(r"\*\*Difficulty:\*\*\s*(\d+(?:\.\d+)?)", body)
+    if diff_match:
+        extracted["difficulty"] = float(diff_match.group(1))
+    prereq_match = re.search(r"\*\*Prerequisites:\*\*\s*(.+)$", body, re.MULTILINE)
+    if prereq_match:
+        raw = prereq_match.group(1).strip()
+        if raw.lower() not in ("none", "—", "-"):
+            extracted["prerequisites"] = [p.strip() for p in re.split(r",\s*", raw) if p.strip()]
+    tag_match = re.search(r"\*\*Tags:\*\*\s*(.+)$", body, re.MULTILINE)
+    if tag_match:
+        extracted["tags"] = [t.strip() for t in tag_match.group(1).split(",") if t.strip()]
+    return extracted
+
+
+def slot_in_manifest_scope(slot: dict, scope: str) -> bool:
+    unit = slot.get("unit", "")
+    track = slot.get("track", "")
+    if scope == "ireland":
+        return unit == "celtic-ireland"
+    if scope == "celtic":
+        return unit in CELTIC_UNITS
+    if scope == "theory":
+        return track == "theory"
+    if scope == "legacy":
+        return str(unit).startswith("legacy-")
+    if scope == "app":
+        return unit in CELTIC_UNITS or track == "theory" or str(unit).startswith("legacy-")
+    return True
+
+
+def lesson_path_in_export_scope(rel: str, slot: dict | None, scope: str) -> bool:
+    if scope == "all":
+        return True
+    if slot:
+        return slot_in_manifest_scope(slot, scope)
+    if scope == "celtic":
+        return "/celtic/" in f"/{rel}/"
+    if scope == "ireland":
+        return "celtic/ireland" in rel
+    if scope == "theory":
+        return rel.startswith("00-theory/")
+    if scope == "legacy":
+        return not rel.startswith(("00-theory/", "10-regions/"))
+    if scope == "app":
+        if "celtic/" in rel:
+            return True
+        if rel.startswith("00-theory/"):
+            return True
+        return not rel.startswith("10-regions/")
+    return False
+
+
+def lesson_output_path(lesson: dict, slot: dict | None) -> Path:
+    region = lesson.get("region") or (slot.get("region") if slot else "")
+    subdir = REGION_SUBDIRS.get(str(region), "")
+    if subdir:
+        out_dir = OUT_ROOT / subdir
+        out_dir.mkdir(parents=True, exist_ok=True)
+        return out_dir / f"{lesson['id']}.json"
+    return OUT_ROOT / f"{lesson['id']}.json"
+
+
 def build_lesson_payload(path: Path, slot: dict | None) -> dict:
     raw = path.read_text(encoding="utf-8")
     meta, body = parse_frontmatter(raw)
     lesson_id = meta.get("id") or (slot.get("id") if slot else path.stem)
-    meta = merge_ireland_meta(str(lesson_id), meta)
+    if not meta.get("title") and not slot:
+        meta.update(parse_legacy_header(body))
+    meta = merge_regional_meta(str(lesson_id), meta, path)
 
     entities = normalize_entities(meta.get("entities"))
     playlist = normalize_playlist(meta.get("playlist"), entities)
@@ -682,21 +785,28 @@ def collect_lesson_paths() -> list[Path]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export lessons to public/lessons JSON")
-    parser.add_argument("--ireland-only", action="store_true", help="Export only Ireland unit")
+    parser.add_argument("--ireland-only", action="store_true", help="Export only Ireland unit (deprecated)")
+    parser.add_argument(
+        "--manifest-scope",
+        choices=["all", "ireland", "celtic", "theory", "legacy", "app"],
+        default="",
+        help="Limit exported lessons and manifest slots (default: celtic, or ireland with --ireland-only)",
+    )
     args = parser.parse_args()
     ensure_yaml()
+
+    scope = args.manifest_scope or ("ireland" if args.ireland_only else "celtic")
 
     curriculum = json.loads(CURRICULUM_PATH.read_text(encoding="utf-8"))
     slots = curriculum.get("slots", [])
     slot_by_output: dict[str, dict] = {}
-    slot_by_id: dict[str, dict] = {}
     for slot in slots:
-        slot_by_id[slot["id"]] = slot
         if slot.get("output"):
             slot_by_output[slot["output"]] = slot
 
     OUT_ROOT.mkdir(parents=True, exist_ok=True)
-    (OUT_ROOT / "ireland").mkdir(parents=True, exist_ok=True)
+    for subdir in REGION_SUBDIRS.values():
+        (OUT_ROOT / subdir).mkdir(parents=True, exist_ok=True)
 
     lessons_by_id: dict[str, dict] = {}
     search_index: list[dict] = []
@@ -704,26 +814,19 @@ def main() -> None:
     for path in collect_lesson_paths():
         rel = path.relative_to(LESSON_ROOT).as_posix()
         slot = slot_by_output.get(rel)
-        if args.ireland_only and not (slot and slot.get("unit") == "celtic-ireland"):
-            if "celtic/ireland" not in rel:
-                continue
+        if not lesson_path_in_export_scope(rel, slot, scope):
+            continue
         lesson = build_lesson_payload(path, slot)
         lessons_by_id[lesson["id"]] = lesson
-        out_name = lesson["id"] + ".json"
-        if lesson.get("region") == "ireland" or (slot and slot.get("unit") == "celtic-ireland"):
-            (OUT_ROOT / "ireland" / out_name).write_text(
-                json.dumps(lesson, indent=2, ensure_ascii=False) + "\n",
-                encoding="utf-8",
-            )
-        else:
-            (OUT_ROOT / out_name).write_text(
-                json.dumps(lesson, indent=2, ensure_ascii=False) + "\n",
-                encoding="utf-8",
-            )
+        out_path = lesson_output_path(lesson, slot)
+        out_path.write_text(
+            json.dumps(lesson, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
         search_index.append(build_search_record(lesson))
 
-    manifest_slots = [s for s in slots if not args.ireland_only or s.get("unit") == "celtic-ireland"]
-    manifest = build_manifest(manifest_slots if args.ireland_only else slots, lessons_by_id)
+    manifest_slots = [s for s in slots if slot_in_manifest_scope(s, scope)]
+    manifest = build_manifest(manifest_slots, lessons_by_id)
     (OUT_ROOT / "manifest.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",

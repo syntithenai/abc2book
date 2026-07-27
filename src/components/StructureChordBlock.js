@@ -10,6 +10,7 @@ import {
 import { getLyricLinesForDisplay } from '../wLinesUtils';
 import { displaySectionHeader } from '../LyricsDisplayLines';
 import { useFitTextScale } from '../useFitTextScale';
+import StructureCapoControl from './StructureCapoControl';
 
 /**
  * Structure (chord block) panel.
@@ -29,6 +30,11 @@ export default function StructureChordBlock(props) {
     composer,
     fitHeight,
     inheritScale,
+    capoOffset,
+    capoEnabled,
+    onCapoToggle,
+    onCapoOffsetChange,
+    showCapoControl,
   } = props;
 
   const structureSections = useMemo(function() {
@@ -139,15 +145,29 @@ export default function StructureChordBlock(props) {
       }
       ref={useOwnFit ? containerRef : null}
     >
-      {chordKeys.length > 0 && useInstrument ? (
-        <div className="chord-block-diagram-buttons">
-          {chordKeys.map(function(chord) {
-            return (
-              <Link key={chord} to={'/chords/' + useInstrument + '/' + chord + '/'}>
-                <Button size="sm">{chord}</Button>
-              </Link>
-            );
-          })}
+      {(chordKeys.length > 0 && useInstrument) || showCapoControl ? (
+        <div className="chord-block-diagram-toolbar">
+          {chordKeys.length > 0 && useInstrument ? (
+            <div className="chord-block-diagram-buttons">
+              {chordKeys.map(function(chord) {
+                return (
+                  <Link key={chord} to={'/chords/' + useInstrument + '/' + chord + '/'}>
+                    <Button size="sm">{chord}</Button>
+                  </Link>
+                );
+              })}
+            </div>
+          ) : null}
+          {showCapoControl ? (
+            <StructureCapoControl
+              capoOffset={capoOffset || 0}
+              capoEnabled={!!capoEnabled}
+              onToggle={onCapoToggle}
+              onOffsetChange={onCapoOffsetChange}
+              tune={tune}
+              chordGridText={chords}
+            />
+          ) : null}
         </div>
       ) : null}
       <div

@@ -17,7 +17,7 @@ export async function searchYouTubeVideos(options) {
     throw new Error('YouTube search needs REACT_APP_GOOGLE_API_KEY')
   }
 
-  const maxResults = opts.maxResults || 8
+  const maxResults = opts.maxResults || 25
   const url = 'https://youtube.googleapis.com/youtube/v3/search'
     + '?part=snippet&type=video&maxResults=' + maxResults
     + '&q=' + encodeURIComponent(query)

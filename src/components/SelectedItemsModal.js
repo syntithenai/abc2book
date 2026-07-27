@@ -6,6 +6,7 @@ import BulkSearchModal from './BulkSearchModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import AddTunesToListModal from './AddTunesToListModal'
 import {appendTunesToPerformanceSet, savePerformanceSet} from '../performanceSetStore'
+import {appendTunesToPracticeList, savePracticeList} from '../practiceListStore'
 import {appendTunesToPlaylist, savePlaylistFromQueue} from '../savedPlaylistsStore'
 import {createQueue} from '../nowPlayingQueue'
 import {Link, useNavigate} from 'react-router-dom'
@@ -341,6 +342,25 @@ export default function SelectedItemsModal(props) {
     handleClose()
   }
 
+  function createPracticeListFromSelected() {
+    var tuneIds = selectedTuneIds()
+    if (!tuneIds.length) return
+    var defaultName = 'Practice list'
+    var name = window.prompt(
+      'Name for the new practice list with ' + tuneIds.length + ' tune' + (tuneIds.length === 1 ? '' : 's') + ':',
+      defaultName
+    )
+    if (name === null) return
+    name = String(name).trim() || defaultName
+    var saved = savePracticeList({
+      name: name,
+      notes: '',
+      tuneIds: tuneIds,
+    })
+    handleClose()
+    navigate('/practice-lists/' + encodeURIComponent(saved.id))
+  }
+
   function openAddToSetlist() {
     if (!selectedTuneIds().length) return
     setAddToListKind('setlist')
@@ -349,6 +369,11 @@ export default function SelectedItemsModal(props) {
   function openAddToPlaylist() {
     if (!selectedTuneIds().length) return
     setAddToListKind('playlist')
+  }
+
+  function openAddToPracticeList() {
+    if (!selectedTuneIds().length) return
+    setAddToListKind('practice-list')
   }
 
   function handleAddToList(list) {
@@ -374,6 +399,16 @@ export default function SelectedItemsModal(props) {
       toast.success(
         'Added ' + tuneIds.length + ' tune' + (tuneIds.length === 1 ? '' : 's') +
         ' to playlist "' + (updated.name || list.name || 'Playlist') + '"'
+      )
+    } else if (addToListKind === 'practice-list') {
+      updated = appendTunesToPracticeList(list.id, tuneIds)
+      if (!updated) {
+        toast.error('Could not add tunes to that practice list.')
+        return
+      }
+      toast.success(
+        'Added ' + tuneIds.length + ' tune' + (tuneIds.length === 1 ? '' : 's') +
+        ' to practice list "' + (updated.name || list.name || 'Practice list') + '"'
       )
     }
     setAddToListKind(null)
@@ -447,6 +482,14 @@ export default function SelectedItemsModal(props) {
                     Play List
                   </BulkOpsButton>
                   <BulkOpsButton
+                    variant="success"
+                    icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.practice} />}
+                    label="Create practice list"
+                    onClick={createPracticeListFromSelected}
+                  >
+                    Practice List
+                  </BulkOpsButton>
+                  <BulkOpsButton
                     variant="primary"
                     icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.setlist} />}
                     label="Add to setlist"
@@ -461,6 +504,14 @@ export default function SelectedItemsModal(props) {
                     onClick={openAddToPlaylist}
                   >
                     Add to Play List
+                  </BulkOpsButton>
+                  <BulkOpsButton
+                    variant="primary"
+                    icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.practice} />}
+                    label="Add to practice list"
+                    onClick={openAddToPracticeList}
+                  >
+                    Add to Practice List
                   </BulkOpsButton>
                 </ButtonGroup>
               </div>
