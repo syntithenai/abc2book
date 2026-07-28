@@ -78,7 +78,8 @@ describe('rhythmPlaybackController', function() {
       onMusicStart: function() {},
     })
     stopRhythmPlaybackController(controller)
-    expect(bus.masterGain.gain.value).toBe(0)
+    expect(bus.masterGain).toBeNull()
+    expect(bus.armed).toBe(false)
     expect(getRhythmPlaybackPhase(controller)).toBe(PHASE_IDLE)
     jest.useRealTimers()
   })

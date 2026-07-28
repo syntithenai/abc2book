@@ -1,0 +1,938 @@
+{
+  "id": "regions-british-song-02-instruments-voices-i",
+  "title": "English Song Tradition — Traditional Voices I",
+  "track": "regions",
+  "tier": 2,
+  "region": "british-song",
+  "difficulty": 4,
+  "prerequisites": [
+    "regions-british-song-01-overview"
+  ],
+  "tags": [
+    "british",
+    "song",
+    "british-folk",
+    "traditional",
+    "voices"
+  ],
+  "path": "10-regions/british-folk/song/02-instruments-traditional-voices-i.md",
+  "sections": [
+    {
+      "id": "english-song-tradition-traditional-voices-i",
+      "title": "English Song Tradition — Traditional Voices I",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** British Isles Folk | **Region:** british-song | **Tier:** 2\n**Prerequisites:** regions-british-song-01-overview\n**Tags:** british, song, british-folk, traditional, voices"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "unaccompanied voice, concertina, guitar\n\nEnglish Song Tradition belongs to the **British Isles Folk** curriculum. A. L. Lloyd\nNic Jones\n\nThis lesson develops listening precision for **unaccompanied voice, concertina, guitar** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-england",
+      "title": "Compared with England",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**English Traditional Music** (`regions-british-england-02-instruments-voices-i`) covers the same lesson slot from the anchor perspective. This lesson stresses: **ballad narrative vs Irish sean-nós**.\n\n| Topic | England anchor | English Song Tradition (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | fiddle, concertina, melodeon, and unaccompanied voice… | unaccompanied voice, concertina, guitar… |\n\n**Parallel anchor lesson:** `regions-british-england-02-instruments-voices-i`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-02-instruments-voices-i`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "unaccompanied voice, concertina, guitar\n\nStudy **english song tradition** through listening first. Wikipedia's article on [English folk music](https://en.wikipedia.org/wiki/English_folk_music) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **British Isles Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **unaccompanied voice, concertina, guitar**. Ensemble layer: **piano, harmony singers**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **ballad, broadside, shanty, carol**. Dance context: **social song, club performance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **Child ballads, broadsides, Topic Records**. Contemporary scenes: **folk clubs, radio ballads**. Tune repertoire anchor: **Barbara Allen, The Cruel Ship's Carpenter**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- unaccompanied voice, concertina, guitar\n- Lead instruments: unaccompanied voice, concertina, guitar\n- Ensemble: piano, harmony singers\n- Forms: ballad, broadside, shanty, carol\n- Dance: social song, club performance\n- History: Child ballads, broadsides, Topic Records\n- Scenes: folk clubs, radio ballads\n- Repertoire: Barbara Allen, The Cruel Ship's Carpenter\n- Compared with England: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- English Song Tradition is a living tradition with regional accent.\n- Focus: unaccompanied voice, concertina, guitar.\n- Compared with England: shared heritage, distinct emphasis.\n- Forms: ballad, broadside, shanty, carol.\n- Dance: social song, club performance.\n- Transmission: Child ballads, broadsides, Topic Records."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nE\nn\ng\nl\ni\ns\nh\n \nf\no\nl\nk\n \nm\nu\ns\ni\nc\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nE\nn\ng\nl\ni\ns\nh\n_\nf\no\nl\nk\n_\nm\nu\ns\ni\nc\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nE\nn\ng\nl\na\nn\nd\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "a-l-lloyd",
+      "type": "artist",
+      "name": "A. L. Lloyd",
+      "summary": "Representative musician or ensemble in british-song trad",
+      "blurb": "Study A. L. Lloyd for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/A._L._Lloyd",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "nic-jones",
+      "type": "band",
+      "name": "Nic Jones",
+      "summary": "Representative musician or ensemble in british-song trad",
+      "blurb": "Study Nic Jones for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Nic_Jones",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "a-l-lloyd",
+    "nic-jones"
+  ],
+  "playlist": [
+    {
+      "id": "regions-british-song-02-instruments-voices-i-pl1",
+      "entity_id": "a-l-lloyd",
+      "label": "A. L. Lloyd — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "A. L. Lloyd"
+    },
+    {
+      "id": "regions-british-song-02-instruments-voices-i-pl2",
+      "entity_id": "nic-jones",
+      "label": "Nic Jones — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Nic Jones"
+    },
+    {
+      "id": "regions-british-song-02-instruments-voices-i-pl3",
+      "label": "English Song Tradition — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-british-song-02-instruments-voices-i-pl4",
+      "label": "English Song Tradition — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "English Song Tradition rewards comparative study.",
+    "Focus: unaccompanied voice, concertina, guitar.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: ballad, broadside, shanty, carol.",
+    "Dance: social song, club performance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "English Song Tradition is a living tradition with regional accent.",
+    "Compared with England: shared heritage, distinct emphasis.",
+    "Transmission: Child ballads, broadsides, Topic Records."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "English folk music",
+      "url": "https://en.wikipedia.org/wiki/English_folk_music",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "British Isles Folk",
+      "url": "https://en.wikipedia.org/wiki/English_folk_music",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "unaccompanied voice, concertina, guitar",
+      "url": "https://en.wikipedia.org/wiki/English_folk_music",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) unaccompanied voice, concertina, guitar\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) unaccompanied voice, concertina, guitar\n\n### Q2. English Song Tradition rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with England, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) unaccompanied voice, concertina, guitar\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) unaccompanied voice, concertina, guitar\n\n### Q5. Ensemble voices include:\n- A) piano, harmony singers\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) piano, harmony singers\n\n### Q6. Tune and song forms include:\n- A) ballad, broadside, shanty, carol\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) ballad, broadside, shanty, carol\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) Child ballads, broadsides, Topic Records\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) Child ballads, broadsides, Topic Records\n\n### Q9. Contemporary scenes include:\n- A) folk clubs, radio ballads\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) folk clubs, radio ballads\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Barbara Allen, The Cruel Ship's Carpenter\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Barbara Allen, The Cruel Ship's Carpenter\n\n### Q12. The Compared with England section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "unaccompanied voice, concertina, guitar",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        }
+      ],
+      "explain": ") unaccompanied voice, concertina, guitar"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "English Song Tradition rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "unaccompanied voice, concertina, guitar",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with England, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "unaccompanied voice, concertina, guitar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "piano, harmony singers",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "piano, harmony singers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "ballad, broadside, shanty, carol",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "unaccompanied voice, concertina, guitar",
+          "correct": true
+        }
+      ],
+      "explain": ") unaccompanied voice, concertina, guitar"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ballad, broadside, shanty, carol",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Child ballads, broadsides, Topic Records",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "piano, harmony singers",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") piano, harmony singers"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "folk clubs, radio ballads",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "ballad, broadside, shanty, carol",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "piano, harmony singers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Child ballads, broadsides, Topic Records",
+          "correct": false
+        }
+      ],
+      "explain": ") ballad, broadside, shanty, carol"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Child ballads, broadsides, Topic Records",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "folk clubs, radio ballads",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Barbara Allen, The Cruel Ship's Carpenter",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "folk clubs, radio ballads",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Barbara Allen, The Cruel Ship's Carpenter",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Child ballads, broadsides, Topic Records",
+          "correct": true
+        }
+      ],
+      "explain": ") Child ballads, broadsides, Topic Records"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "folk clubs, radio ballads",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Barbara Allen, The Cruel Ship's Carpenter",
+          "correct": false
+        }
+      ],
+      "explain": ") folk clubs, radio ballads"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Barbara Allen, The Cruel Ship's Carpenter",
+          "correct": true
+        }
+      ],
+      "explain": ") Barbara Allen, The Cruel Ship's Carpenter"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with England section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-british-song-02-instruments-voices-i-quiz",
+    "title": "English Song Tradition — Traditional Voices I quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "unaccompanied voice, concertina, guitar",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          }
+        ],
+        "explain": ") unaccompanied voice, concertina, guitar"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "English Song Tradition rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "unaccompanied voice, concertina, guitar",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with England, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "unaccompanied voice, concertina, guitar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "piano, harmony singers",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "piano, harmony singers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "ballad, broadside, shanty, carol",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "unaccompanied voice, concertina, guitar",
+            "correct": true
+          }
+        ],
+        "explain": ") unaccompanied voice, concertina, guitar"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "ballad, broadside, shanty, carol",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Child ballads, broadsides, Topic Records",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "piano, harmony singers",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") piano, harmony singers"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "folk clubs, radio ballads",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "ballad, broadside, shanty, carol",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "piano, harmony singers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Child ballads, broadsides, Topic Records",
+            "correct": false
+          }
+        ],
+        "explain": ") ballad, broadside, shanty, carol"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Child ballads, broadsides, Topic Records",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "folk clubs, radio ballads",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Barbara Allen, The Cruel Ship's Carpenter",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "folk clubs, radio ballads",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Barbara Allen, The Cruel Ship's Carpenter",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Child ballads, broadsides, Topic Records",
+            "correct": true
+          }
+        ],
+        "explain": ") Child ballads, broadsides, Topic Records"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "folk clubs, radio ballads",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Barbara Allen, The Cruel Ship's Carpenter",
+            "correct": false
+          }
+        ],
+        "explain": ") folk clubs, radio ballads"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Barbara Allen, The Cruel Ship's Carpenter",
+            "correct": true
+          }
+        ],
+        "explain": ") Barbara Allen, The Cruel Ship's Carpenter"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with England section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

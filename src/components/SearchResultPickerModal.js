@@ -1,6 +1,7 @@
 import { Button, ListGroup, Modal } from 'react-bootstrap';
 import AbcSnippetPreview from './AbcSnippetPreview';
 import { notationSourceBadgeLabel } from '../notationSearchSites';
+import SelectAllToggle from './SelectAllToggle';
 import './SearchResultPickerModal.css';
 
 function formatCandidateLabel(item, fallbackTitle) {
@@ -73,8 +74,6 @@ export default function SearchResultPickerModal({
   doneLabel,
   onSelectAll,
   onSelectNone,
-  selectAllLabel,
-  selectNoneLabel,
   layout,
   previewMetadata,
 }) {
@@ -86,28 +85,23 @@ export default function SearchResultPickerModal({
 
   function renderBulkActions() {
     if (!showBulkActions) return null;
+    const selectableCount = items ? items.filter(function(item) { return !(item && item.__current); }).length : 0;
+    const selectedSelectableCount = items
+      ? items.reduce(function(count, item, index) {
+        if (item && item.__current) return count;
+        return count + (selectedSet.has(index) ? 1 : 0);
+      }, 0)
+      : 0;
     return (
-      <div className="search-result-picker-bulk-actions mb-2" data-testid="search-result-picker-bulk-actions">
-        {typeof onSelectAll === 'function' ? (
-          <Button
-            type="button"
-            size="sm"
-            variant="outline-secondary"
-            onClick={onSelectAll}
-          >
-            {selectAllLabel || 'Select all'}
-          </Button>
-        ) : null}
-        {typeof onSelectNone === 'function' ? (
-          <Button
-            type="button"
-            size="sm"
-            variant="outline-secondary"
-            onClick={onSelectNone}
-          >
-            {selectNoneLabel || 'Select none'}
-          </Button>
-        ) : null}
+      <div className="search-result-picker-bulk-actions select-all-host mb-2" data-testid="search-result-picker-bulk-actions">
+        <SelectAllToggle
+          size="sm"
+          totalCount={selectableCount}
+          selectedCount={selectedSelectableCount}
+          onSelectAll={onSelectAll}
+          onSelectNone={onSelectNone}
+          ariaLabel="Select all results"
+        />
       </div>
     );
   }

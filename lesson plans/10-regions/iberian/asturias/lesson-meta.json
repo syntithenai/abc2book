@@ -1,0 +1,782 @@
+{
+  "regions-iberian-asturias-01-overview": {
+    "entities": [
+      {
+        "id": "hevia",
+        "type": "artist",
+        "name": "Hevia",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Hevia for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Hevia",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "asturian-traditional-music",
+        "type": "band",
+        "name": "Asturian Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Asturian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Asturian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-asturias-01-overview-pl1",
+        "entity_id": "hevia",
+        "label": "Hevia — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-asturias-01-overview-pl2",
+        "entity_id": "asturian-traditional-music",
+        "label": "Asturian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-asturias-01-overview-pl3",
+        "label": "Asturian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-asturias-01-overview-pl4",
+        "label": "Asturian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Asturian Traditional Music rewards comparative study.",
+      "Focus: Asturian Traditional Music spans gaita, fiddle leading voices, asturian dance tunes, and r.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: asturian dance tunes.",
+      "Dance: regional dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Asturias",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Asturian Traditional Music spans gaita, fiddle leading voice",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-asturias-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "hevia",
+        "type": "artist",
+        "name": "Hevia",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Hevia for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Hevia",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "asturian-traditional-music",
+        "type": "band",
+        "name": "Asturian Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Asturian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Asturian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-asturias-02-instruments-voices-i-pl1",
+        "entity_id": "hevia",
+        "label": "Hevia — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-asturias-02-instruments-voices-i-pl2",
+        "entity_id": "asturian-traditional-music",
+        "label": "Asturian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-asturias-02-instruments-voices-i-pl3",
+        "label": "Asturian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-asturias-02-instruments-voices-i-pl4",
+        "label": "Asturian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Asturian Traditional Music rewards comparative study.",
+      "Focus: gaita, fiddle.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: asturian dance tunes.",
+      "Dance: regional dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Asturias",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "gaita, fiddle",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-asturias-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "hevia",
+        "type": "artist",
+        "name": "Hevia",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Hevia for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Hevia",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "asturian-traditional-music",
+        "type": "band",
+        "name": "Asturian Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Asturian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Asturian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-asturias-03-instruments-voices-ii-pl1",
+        "entity_id": "hevia",
+        "label": "Hevia — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-asturias-03-instruments-voices-ii-pl2",
+        "entity_id": "asturian-traditional-music",
+        "label": "Asturian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-asturias-03-instruments-voices-ii-pl3",
+        "label": "Asturian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-asturias-03-instruments-voices-ii-pl4",
+        "label": "Asturian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Asturian Traditional Music rewards comparative study.",
+      "Focus: percussion, band.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: asturian dance tunes.",
+      "Dance: regional dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Asturias",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "percussion, band",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-asturias-04-genres-forms": {
+    "entities": [
+      {
+        "id": "hevia",
+        "type": "artist",
+        "name": "Hevia",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Hevia for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Hevia",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "asturian-traditional-music",
+        "type": "band",
+        "name": "Asturian Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Asturian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Asturian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-asturias-04-genres-forms-pl1",
+        "entity_id": "hevia",
+        "label": "Hevia — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-asturias-04-genres-forms-pl2",
+        "entity_id": "asturian-traditional-music",
+        "label": "Asturian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-asturias-04-genres-forms-pl3",
+        "label": "Asturian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-asturias-04-genres-forms-pl4",
+        "label": "Asturian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Asturian Traditional Music rewards comparative study.",
+      "Focus: asturian dance tunes.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: asturian dance tunes.",
+      "Dance: regional dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Asturias",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "asturian dance tunes",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-asturias-05-dance": {
+    "entities": [
+      {
+        "id": "hevia",
+        "type": "artist",
+        "name": "Hevia",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Hevia for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Hevia",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "asturian-traditional-music",
+        "type": "band",
+        "name": "Asturian Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Asturian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Asturian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-asturias-05-dance-pl1",
+        "entity_id": "hevia",
+        "label": "Hevia — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-asturias-05-dance-pl2",
+        "entity_id": "asturian-traditional-music",
+        "label": "Asturian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-asturias-05-dance-pl3",
+        "label": "Asturian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-asturias-05-dance-pl4",
+        "label": "Asturian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Asturian Traditional Music rewards comparative study.",
+      "Focus: regional dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: asturian dance tunes.",
+      "Dance: regional dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Asturias",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "regional dance",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-asturias-06-history": {
+    "entities": [
+      {
+        "id": "hevia",
+        "type": "artist",
+        "name": "Hevia",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Hevia for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Hevia",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "asturian-traditional-music",
+        "type": "band",
+        "name": "Asturian Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Asturian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Asturian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-asturias-06-history-pl1",
+        "entity_id": "hevia",
+        "label": "Hevia — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-asturias-06-history-pl2",
+        "entity_id": "asturian-traditional-music",
+        "label": "Asturian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-asturias-06-history-pl3",
+        "label": "Asturian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-asturias-06-history-pl4",
+        "label": "Asturian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Asturian Traditional Music rewards comparative study.",
+      "Focus: Asturian revival.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: asturian dance tunes.",
+      "Dance: regional dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Asturias",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Asturian revival",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-asturias-07-representative-depth": {
+    "entities": [
+      {
+        "id": "hevia",
+        "type": "artist",
+        "name": "Hevia",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Hevia for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Hevia",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "asturian-traditional-music",
+        "type": "band",
+        "name": "Asturian Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Asturian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Asturian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-asturias-07-representative-depth-pl1",
+        "entity_id": "hevia",
+        "label": "Hevia — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-asturias-07-representative-depth-pl2",
+        "entity_id": "asturian-traditional-music",
+        "label": "Asturian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-asturias-07-representative-depth-pl3",
+        "label": "Asturian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-asturias-07-representative-depth-pl4",
+        "label": "Asturian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Asturian Traditional Music rewards comparative study.",
+      "Focus: festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: asturian dance tunes.",
+      "Dance: regional dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Asturias",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "festivals",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-asturias-08-tunes": {
+    "entities": [
+      {
+        "id": "hevia",
+        "type": "artist",
+        "name": "Hevia",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Hevia for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Hevia",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "asturian-traditional-music",
+        "type": "band",
+        "name": "Asturian Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-asturias trad",
+        "blurb": "Study Asturian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Asturian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-asturias-08-tunes-pl1",
+        "entity_id": "hevia",
+        "label": "Hevia — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-asturias-08-tunes-pl2",
+        "entity_id": "asturian-traditional-music",
+        "label": "Asturian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-asturias-08-tunes-pl3",
+        "label": "Asturian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-asturias-08-tunes-pl4",
+        "label": "Asturian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Asturian Traditional Music rewards comparative study.",
+      "Focus: Asturian repertoire.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: asturian dance tunes.",
+      "Dance: regional dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Asturias",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Asturian repertoire",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "asturian-repertoire",
+        "type": "tune",
+        "name": "Asturian repertoire",
+        "form": "asturian dance tunes",
+        "reference": "Music of Asturias repertoire",
+        "about": "Representative asturian traditional music listening study.",
+        "playlist": [
+          {
+            "label": "Asturian repertoire — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "asturias-standard-1",
+        "type": "tune",
+        "name": "asturias standard 1",
+        "form": "asturian dance tunes",
+        "reference": "Music of Asturias repertoire",
+        "about": "Representative asturian traditional music listening study.",
+        "playlist": [
+          {
+            "label": "asturias standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "asturias-standard-2",
+        "type": "tune",
+        "name": "asturias standard 2",
+        "form": "asturian dance tunes",
+        "reference": "Music of Asturias repertoire",
+        "about": "Representative asturian traditional music listening study.",
+        "playlist": [
+          {
+            "label": "asturias standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

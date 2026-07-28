@@ -1,0 +1,782 @@
+{
+  "regions-me-levant-01-overview": {
+    "entities": [
+      {
+        "id": "marcel-khalife",
+        "type": "artist",
+        "name": "Marcel Khalife",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Marcel Khalife for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Marcel_Khalife",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "levantine-folk-music",
+        "type": "band",
+        "name": "Levantine Folk Music",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Levantine Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Levantine_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-levant-01-overview-pl1",
+        "entity_id": "marcel-khalife",
+        "label": "Marcel Khalife — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-levant-01-overview-pl2",
+        "entity_id": "levantine-folk-music",
+        "label": "Levantine Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-levant-01-overview-pl3",
+        "label": "Levantine Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-levant-01-overview-pl4",
+        "label": "Levantine Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Levantine Folk Music rewards comparative study.",
+      "Focus: Levantine Folk Music spans oud, voice, mijwiz leading voices, dabke, song forms, and line .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: dabke, song forms.",
+      "Dance: line dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of the Levant",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Levantine Folk Music spans oud, voice, mijwiz leading voices",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-levant-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "marcel-khalife",
+        "type": "artist",
+        "name": "Marcel Khalife",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Marcel Khalife for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Marcel_Khalife",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "levantine-folk-music",
+        "type": "band",
+        "name": "Levantine Folk Music",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Levantine Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Levantine_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-levant-02-instruments-voices-i-pl1",
+        "entity_id": "marcel-khalife",
+        "label": "Marcel Khalife — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-levant-02-instruments-voices-i-pl2",
+        "entity_id": "levantine-folk-music",
+        "label": "Levantine Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-levant-02-instruments-voices-i-pl3",
+        "label": "Levantine Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-levant-02-instruments-voices-i-pl4",
+        "label": "Levantine Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Levantine Folk Music rewards comparative study.",
+      "Focus: oud, voice, mijwiz.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: dabke, song forms.",
+      "Dance: line dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of the Levant",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "oud, voice, mijwiz",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-levant-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "marcel-khalife",
+        "type": "artist",
+        "name": "Marcel Khalife",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Marcel Khalife for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Marcel_Khalife",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "levantine-folk-music",
+        "type": "band",
+        "name": "Levantine Folk Music",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Levantine Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Levantine_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-levant-03-instruments-voices-ii-pl1",
+        "entity_id": "marcel-khalife",
+        "label": "Marcel Khalife — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-levant-03-instruments-voices-ii-pl2",
+        "entity_id": "levantine-folk-music",
+        "label": "Levantine Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-levant-03-instruments-voices-ii-pl3",
+        "label": "Levantine Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-levant-03-instruments-voices-ii-pl4",
+        "label": "Levantine Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Levantine Folk Music rewards comparative study.",
+      "Focus: percussion, ensemble.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: dabke, song forms.",
+      "Dance: line dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of the Levant",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "percussion, ensemble",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-levant-04-genres-forms": {
+    "entities": [
+      {
+        "id": "marcel-khalife",
+        "type": "artist",
+        "name": "Marcel Khalife",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Marcel Khalife for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Marcel_Khalife",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "levantine-folk-music",
+        "type": "band",
+        "name": "Levantine Folk Music",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Levantine Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Levantine_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-levant-04-genres-forms-pl1",
+        "entity_id": "marcel-khalife",
+        "label": "Marcel Khalife — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-levant-04-genres-forms-pl2",
+        "entity_id": "levantine-folk-music",
+        "label": "Levantine Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-levant-04-genres-forms-pl3",
+        "label": "Levantine Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-levant-04-genres-forms-pl4",
+        "label": "Levantine Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Levantine Folk Music rewards comparative study.",
+      "Focus: dabke, song forms.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: dabke, song forms.",
+      "Dance: line dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of the Levant",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "dabke, song forms",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-levant-05-dance": {
+    "entities": [
+      {
+        "id": "marcel-khalife",
+        "type": "artist",
+        "name": "Marcel Khalife",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Marcel Khalife for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Marcel_Khalife",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "levantine-folk-music",
+        "type": "band",
+        "name": "Levantine Folk Music",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Levantine Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Levantine_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-levant-05-dance-pl1",
+        "entity_id": "marcel-khalife",
+        "label": "Marcel Khalife — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-levant-05-dance-pl2",
+        "entity_id": "levantine-folk-music",
+        "label": "Levantine Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-levant-05-dance-pl3",
+        "label": "Levantine Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-levant-05-dance-pl4",
+        "label": "Levantine Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Levantine Folk Music rewards comparative study.",
+      "Focus: line dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: dabke, song forms.",
+      "Dance: line dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of the Levant",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "line dance",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-levant-06-history": {
+    "entities": [
+      {
+        "id": "marcel-khalife",
+        "type": "artist",
+        "name": "Marcel Khalife",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Marcel Khalife for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Marcel_Khalife",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "levantine-folk-music",
+        "type": "band",
+        "name": "Levantine Folk Music",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Levantine Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Levantine_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-levant-06-history-pl1",
+        "entity_id": "marcel-khalife",
+        "label": "Marcel Khalife — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-levant-06-history-pl2",
+        "entity_id": "levantine-folk-music",
+        "label": "Levantine Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-levant-06-history-pl3",
+        "label": "Levantine Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-levant-06-history-pl4",
+        "label": "Levantine Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Levantine Folk Music rewards comparative study.",
+      "Focus: Levantine archives.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: dabke, song forms.",
+      "Dance: line dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of the Levant",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Levantine archives",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-levant-07-representative-depth": {
+    "entities": [
+      {
+        "id": "marcel-khalife",
+        "type": "artist",
+        "name": "Marcel Khalife",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Marcel Khalife for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Marcel_Khalife",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "levantine-folk-music",
+        "type": "band",
+        "name": "Levantine Folk Music",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Levantine Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Levantine_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-levant-07-representative-depth-pl1",
+        "entity_id": "marcel-khalife",
+        "label": "Marcel Khalife — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-levant-07-representative-depth-pl2",
+        "entity_id": "levantine-folk-music",
+        "label": "Levantine Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-levant-07-representative-depth-pl3",
+        "label": "Levantine Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-levant-07-representative-depth-pl4",
+        "label": "Levantine Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Levantine Folk Music rewards comparative study.",
+      "Focus: festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: dabke, song forms.",
+      "Dance: line dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of the Levant",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "festivals",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-levant-08-tunes": {
+    "entities": [
+      {
+        "id": "marcel-khalife",
+        "type": "artist",
+        "name": "Marcel Khalife",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Marcel Khalife for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Marcel_Khalife",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "levantine-folk-music",
+        "type": "band",
+        "name": "Levantine Folk Music",
+        "summary": "Representative musician or ensemble in me-levant trad",
+        "blurb": "Study Levantine Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Levantine_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-levant-08-tunes-pl1",
+        "entity_id": "marcel-khalife",
+        "label": "Marcel Khalife — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-levant-08-tunes-pl2",
+        "entity_id": "levantine-folk-music",
+        "label": "Levantine Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-levant-08-tunes-pl3",
+        "label": "Levantine Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-levant-08-tunes-pl4",
+        "label": "Levantine Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Levantine Folk Music rewards comparative study.",
+      "Focus: Levantine repertoire.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: dabke, song forms.",
+      "Dance: line dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of the Levant",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Levantine repertoire",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Levant",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "levantine-repertoire",
+        "type": "tune",
+        "name": "Levantine repertoire",
+        "form": "dabke",
+        "reference": "Music of the Levant repertoire",
+        "about": "Representative levantine folk music listening study.",
+        "playlist": [
+          {
+            "label": "Levantine repertoire — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "levant-standard-1",
+        "type": "tune",
+        "name": "levant standard 1",
+        "form": "dabke",
+        "reference": "Music of the Levant repertoire",
+        "about": "Representative levantine folk music listening study.",
+        "playlist": [
+          {
+            "label": "levant standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "levant-standard-2",
+        "type": "tune",
+        "name": "levant standard 2",
+        "form": "dabke",
+        "reference": "Music of the Levant repertoire",
+        "about": "Representative levantine folk music listening study.",
+        "playlist": [
+          {
+            "label": "levant standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

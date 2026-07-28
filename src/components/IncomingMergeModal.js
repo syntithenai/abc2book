@@ -9,6 +9,8 @@ import {
   setAllTuneImportSelections,
   setRecommendedTuneImportSelections,
 } from '../tuneImportMergeUtils';
+import SelectAllToggle from './SelectAllToggle';
+import CheckToggleButton from './CheckToggleButton';
 
 function RecordFieldTable(props) {
   const record = props.record;
@@ -83,16 +85,15 @@ function RecordFieldTable(props) {
           return (
             <tr key={row.key} className={row.differs ? 'table-warning' : undefined}>
               <td className="text-center align-middle">
-                <Form.Check
-                  type="checkbox"
-                  id={'incoming-merge-' + record.id + '-' + row.key}
+                <CheckToggleButton
+                  size="sm"
                   checked={!!selections[row.key]}
-                  onChange={function(e) {
+                  ariaLabel={'Import ' + row.label}
+                  onClick={function() {
                     if (typeof onChange === 'function') {
-                      onChange(Object.assign({}, selections, { [row.key]: e.target.checked }));
+                      onChange(Object.assign({}, selections, { [row.key]: !selections[row.key] }));
                     }
                   }}
-                  aria-label={'Import ' + row.label}
                 />
               </td>
               <td className="align-middle">
@@ -125,6 +126,12 @@ function MergeRecordSection(props) {
   const record = props.record;
   const state = props.state || {};
   const updateRecordState = props.updateRecordState;
+  const differingRows = useMemo(function() {
+    if (record.kind !== 'update') return [];
+    return buildTuneImportFieldRows(record.localTune, record.incomingTune).filter(function(r) { return r.differs; });
+  }, [record]);
+  const fieldSelections = state.fieldSelections || {};
+  const selectedDifferingCount = differingRows.filter(function(row) { return fieldSelections[row.key]; }).length;
 
   return (
     <div className="incoming-merge-record border rounded mb-3 overflow-hidden">
@@ -151,7 +158,7 @@ function MergeRecordSection(props) {
           }}
         />
         {record.kind === 'update' && (
-          <div style={{ marginTop: '0.75em', display: 'flex', gap: '0.5em', flexWrap: 'wrap' }}>
+          <div className="select-all-host" style={{ marginTop: '0.75em', display: 'flex', gap: '0.5em', flexWrap: 'wrap', alignItems: 'stretch' }}>
             <Button
               size="sm"
               variant="outline-primary"
@@ -165,31 +172,22 @@ function MergeRecordSection(props) {
             >
               Recommended fields
             </Button>
-            <Button
+            <SelectAllToggle
               size="sm"
-              variant="outline-success"
-              onClick={function() {
+              totalCount={differingRows.length}
+              selectedCount={selectedDifferingCount}
+              onSelectAll={function() {
                 updateRecordState(record.id, {
                   fieldSelections: buildFieldSelectionsForRecord(record, true),
                 });
               }}
-            >
-              Select all differing
-            </Button>
-            <Button
-              size="sm"
-              variant="outline-secondary"
-              onClick={function() {
+              onSelectNone={function() {
                 updateRecordState(record.id, {
-                  fieldSelections: setAllTuneImportSelections(
-                    buildTuneImportFieldRows(record.localTune, record.incomingTune).filter(function(r) { return r.differs; }),
-                    false
-                  ),
+                  fieldSelections: setAllTuneImportSelections(differingRows, false),
                 });
               }}
-            >
-              Select none
-            </Button>
+              ariaLabel="Select all differing fields"
+            />
           </div>
         )}
       </div>

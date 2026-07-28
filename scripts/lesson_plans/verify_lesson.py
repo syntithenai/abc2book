@@ -11,7 +11,25 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST_PATH = ROOT / "lesson plans" / "curriculum.json"
-CELTIC_ROOT = ROOT / "lesson plans" / "10-regions" / "celtic"
+REGIONS_ROOT = ROOT / "lesson plans" / "10-regions"
+
+
+def resolve_unit_dir(unit_key: str) -> Path | None:
+    """Resolve curriculum unit id to lesson directory (e.g. british-diaspora -> british-folk/diaspora)."""
+    if "/" in unit_key:
+        candidate = REGIONS_ROOT / unit_key
+        return candidate if candidate.is_dir() else None
+    curriculum = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    for slot in curriculum.get("slots", []):
+        if slot.get("unit") == unit_key and slot.get("output"):
+            return (ROOT / "lesson plans" / Path(slot["output"]).parent).resolve()
+    # Legacy Celtic shorthand: celtic-scotland -> celtic/scotland
+    if unit_key.startswith("celtic-"):
+        sub = unit_key.replace("celtic-", "", 1)
+        candidate = REGIONS_ROOT / "celtic" / sub
+        if candidate.is_dir():
+            return candidate
+    return None
 YOUTUBE_ID_RE = re.compile(r"(?:youtu\.be/|v=|/embed/)([A-Za-z0-9_-]{11})")
 
 
@@ -110,7 +128,8 @@ def verify_lesson(path: Path, manifest_ids: set[str], unit_meta: dict | None = N
     answers = re.findall(r"\*\*Answer:\*\*\s*(.+)", body)
     for ans in answers:
         ans = ans.split("**")[0].strip()
-        if re.match(r"^(True|False)\b", ans):
+        ans = re.sub(r"^[A-D]\)\s*", "", ans).strip()
+        if re.match(r"^(True|False)\b", ans, re.I):
             continue
         if not answer_grounded(ans, corpus_for_quiz):
             issues.append(f"Ungrounded answer: {ans[:80]}")
@@ -145,13 +164,12 @@ def main() -> None:
     paths: list[Path] = [Path(p) for p in args.paths]
     unit_meta: dict | None = None
     if args.unit:
-        unit_key = args.unit.replace("celtic-", "") if args.unit.startswith("celtic-") else args.unit
-        unit_dir = CELTIC_ROOT / unit_key
-        if unit_dir.is_dir():
+        unit_dir = resolve_unit_dir(args.unit)
+        if unit_dir and unit_dir.is_dir():
             unit_meta = load_unit_meta(unit_dir)
             paths.extend(sorted(unit_dir.glob("*.md")))
         else:
-            print(f"Unknown unit directory: {unit_dir}", file=sys.stderr)
+            print(f"Unknown unit: {args.unit}", file=sys.stderr)
             sys.exit(1)
 
     if not paths:
@@ -161,12 +179,12 @@ def main() -> None:
     failed = 0
     for path in paths:
         meta_for_path = unit_meta
-        if meta_for_path is None and "celtic/" in path.as_posix():
+        if meta_for_path is None and "10-regions/" in path.as_posix():
             parts = path.parts
-            if "celtic" in parts:
-                idx = parts.index("celtic")
-                if idx + 1 < len(parts):
-                    meta_for_path = load_unit_meta(CELTIC_ROOT / parts[idx + 1])
+            if "10-regions" in parts:
+                idx = parts.index("10-regions")
+                if idx + 2 < len(parts):
+                    meta_for_path = load_unit_meta(REGIONS_ROOT / parts[idx + 1] / parts[idx + 2])
         issues = verify_lesson(path, manifest_ids, unit_meta=meta_for_path)
         if issues:
             failed += 1

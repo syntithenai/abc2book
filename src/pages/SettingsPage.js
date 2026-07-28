@@ -30,6 +30,7 @@ import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
 import BackupSettingsSection from '../components/BackupSettingsSection'
 import SourcesSettingsSection from '../components/SourcesSettingsSection'
 import DuplicateManagerSettingsSection from '../components/DuplicateManagerSettingsSection'
+import LibraryScaleSettingsSection from '../components/LibraryScaleSettingsSection'
 import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
@@ -62,6 +63,7 @@ const TAB_PEDAL = 'pedal'
 const TAB_BACKUP = 'backup'
 const TAB_SOURCES = 'sources'
 const TAB_DUPLICATES = 'duplicates'
+const TAB_LIBRARY = 'library'
 const TAB_MUSIC_COLLECTION = 'music-collection'
 
 function formatFeatureSummary(features) {
@@ -414,6 +416,9 @@ export default function SettingsPage(props) {
         <Nav.Item>
           <Nav.Link eventKey={TAB_DUPLICATES}>Duplicates</Nav.Link>
         </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey={TAB_LIBRARY}>Library</Nav.Link>
+        </Nav.Item>
         {showMusicCollectionTab ? (
           <Nav.Item>
             <Nav.Link eventKey={TAB_MUSIC_COLLECTION}>Music collection</Nav.Link>
@@ -712,6 +717,17 @@ export default function SettingsPage(props) {
               tunes={tunes}
               tunesHash={tunesHash}
               tunebook={tunebook}
+              currentTuneBook={props.currentTuneBook}
+            />
+          ) : null}
+        </Tab.Pane>
+
+        <Tab.Pane eventKey={TAB_LIBRARY}>
+          {activeTab === TAB_LIBRARY ? (
+            <LibraryScaleSettingsSection
+              tunes={tunes}
+              indexes={props.indexes}
+              tunesContentRevision={props.tunesContentRevision}
             />
           ) : null}
         </Tab.Pane>

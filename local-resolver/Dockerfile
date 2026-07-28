@@ -103,6 +103,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     ffmpeg \
     libsndfile1 \
+    fluidsynth \
+    fluid-soundfont-gm \
     ca-certificates \
     curl \
     unzip \
@@ -219,6 +221,9 @@ COPY analyze_practice.py /app/analyze_practice.py
 COPY bulk_list_format.py /app/bulk_list_format.py
 COPY tune_background_research.py /app/tune_background_research.py
 COPY practice_track_api.py /app/practice_track_api.py
+COPY midi_render.py /app/midi_render.py
+COPY midi_score_prepare.py /app/midi_score_prepare.py
+COPY midi_drum_guide.py /app/midi_drum_guide.py
 COPY music_generation /app/music_generation
 COPY voice_command.py /app/voice_command.py
 COPY playback_region_detect.py /app/playback_region_detect.py

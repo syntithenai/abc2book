@@ -1,0 +1,938 @@
+{
+  "id": "regions-latin-mexico-07-representative-depth",
+  "title": "Mexican Folk Music — Representative Fusions and Scenes",
+  "track": "regions",
+  "tier": 7,
+  "region": "latin-mexico",
+  "difficulty": 9,
+  "prerequisites": [
+    "regions-latin-mexico-06-history"
+  ],
+  "tags": [
+    "latin",
+    "mexico",
+    "latin-america",
+    "representative",
+    "fusions"
+  ],
+  "path": "10-regions/latin-america/mexico/07-representative-depth.md",
+  "sections": [
+    {
+      "id": "mexican-folk-music-representative-fusions-and-scenes",
+      "title": "Mexican Folk Music — Representative Fusions and Scenes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Latin American Folk | **Region:** latin-mexico | **Tier:** 7\n**Prerequisites:** regions-latin-mexico-06-history\n**Tags:** latin, mexico, latin-america, representative, fusions"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "mariachi vs village son\n\nMexican Folk Music belongs to the **Latin American Folk** curriculum. Vicente Fernández\nLos Folkloristas\n\nThis lesson develops listening precision for **mariachi vs village son** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "This anchor unit establishes vocabulary for **Latin American Folk**. When you later study sibling nations in this block, compare each lesson to this chapter.\n\n**Optional Atlantic-trad link:** `regions-celtic-ireland-07-representative-depth` — useful if you completed the Celtic Ireland unit first."
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "mariachi vs village son\n\nStudy **mexican folk music** through listening first. Wikipedia's article on [Music of Mexico](https://en.wikipedia.org/wiki/Music_of_Mexico) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Latin American Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **violin, voice, harp**. Ensemble layer: **guitar, vihuela, percussion**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **son, huapango, corrido**. Dance context: **zapateado, social dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **regional archives**. Contemporary scenes: **mariachi vs village son**. Tune repertoire anchor: **La Bamba, Cielito Lindo**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- mariachi vs village son\n- Lead instruments: violin, voice, harp\n- Ensemble: guitar, vihuela, percussion\n- Forms: son, huapango, corrido\n- Dance: zapateado, social dance\n- History: regional archives\n- Scenes: mariachi vs village son\n- Repertoire: La Bamba, Cielito Lindo\n- Compared with Mexico: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Mexican Folk Music is a living tradition with regional accent.\n- Focus: mariachi vs village son.\n- Compared with Mexico: shared heritage, distinct emphasis.\n- Forms: son, huapango, corrido.\n- Dance: zapateado, social dance.\n- Transmission: regional archives."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nM\ne\nx\ni\nc\no\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nM\ne\nx\ni\nc\no\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nM\ne\nx\ni\nc\no\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "vicente-fern-ndez",
+      "type": "artist",
+      "name": "Vicente Fernández",
+      "summary": "Representative musician or ensemble in latin-mexico trad",
+      "blurb": "Study Vicente Fernández for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Vicente_Fernández",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "los-folkloristas",
+      "type": "band",
+      "name": "Los Folkloristas",
+      "summary": "Representative musician or ensemble in latin-mexico trad",
+      "blurb": "Study Los Folkloristas for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Los_Folkloristas",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "vicente-fern-ndez",
+    "los-folkloristas"
+  ],
+  "playlist": [
+    {
+      "id": "regions-latin-mexico-07-representative-depth-pl1",
+      "entity_id": "vicente-fern-ndez",
+      "label": "Vicente Fernández — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Vicente Fernández"
+    },
+    {
+      "id": "regions-latin-mexico-07-representative-depth-pl2",
+      "entity_id": "los-folkloristas",
+      "label": "Los Folkloristas — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Los Folkloristas"
+    },
+    {
+      "id": "regions-latin-mexico-07-representative-depth-pl3",
+      "label": "Mexican Folk Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-latin-mexico-07-representative-depth-pl4",
+      "label": "Mexican Folk Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Mexican Folk Music rewards comparative study.",
+    "Focus: mariachi vs village son.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: son, huapango, corrido.",
+    "Dance: zapateado, social dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Mexican Folk Music is a living tradition with regional accent.",
+    "Compared with Mexico: shared heritage, distinct emphasis.",
+    "Transmission: regional archives."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Mexico",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Latin American Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "mariachi vs village son",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) mariachi vs village son\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) mariachi vs village son\n\n### Q2. Mexican Folk Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Mexico, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) violin, voice, harp\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) violin, voice, harp\n\n### Q5. Ensemble voices include:\n- A) guitar, vihuela, percussion\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) guitar, vihuela, percussion\n\n### Q6. Tune and song forms include:\n- A) son, huapango, corrido\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) son, huapango, corrido\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) regional archives\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) regional archives\n\n### Q9. Contemporary scenes include:\n- A) mariachi vs village son\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) mariachi vs village son\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) La Bamba, Cielito Lindo\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) La Bamba, Cielito Lindo\n\n### Q12. The Compared with Mexico section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "mariachi vs village son",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") mariachi vs village son"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Mexican Folk Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Mexico, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "violin, voice, harp",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") violin, voice, harp"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "mariachi vs village son",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "guitar, vihuela, percussion",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") guitar, vihuela, percussion"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "son, huapango, corrido",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "mariachi vs village son",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") son, huapango, corrido"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "mariachi vs village son",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "violin, voice, harp",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "violin, voice, harp",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "regional archives",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") regional archives"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "son, huapango, corrido",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "mariachi vs village son",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "violin, voice, harp",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, vihuela, percussion",
+          "correct": false
+        }
+      ],
+      "explain": ") mariachi vs village son"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "La Bamba, Cielito Lindo",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "mariachi vs village son",
+          "correct": false
+        }
+      ],
+      "explain": ") La Bamba, Cielito Lindo"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Mexico section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "mariachi vs village son",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-latin-mexico-07-representative-depth-quiz",
+    "title": "Mexican Folk Music — Representative Fusions and Scenes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "mariachi vs village son",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") mariachi vs village son"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Mexican Folk Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Mexico, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "violin, voice, harp",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") violin, voice, harp"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "mariachi vs village son",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "guitar, vihuela, percussion",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") guitar, vihuela, percussion"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "son, huapango, corrido",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "mariachi vs village son",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") son, huapango, corrido"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "mariachi vs village son",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "violin, voice, harp",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "violin, voice, harp",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "regional archives",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") regional archives"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "son, huapango, corrido",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "mariachi vs village son",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "violin, voice, harp",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, vihuela, percussion",
+            "correct": false
+          }
+        ],
+        "explain": ") mariachi vs village son"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "La Bamba, Cielito Lindo",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "mariachi vs village son",
+            "correct": false
+          }
+        ],
+        "explain": ") La Bamba, Cielito Lindo"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Mexico section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "mariachi vs village son",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

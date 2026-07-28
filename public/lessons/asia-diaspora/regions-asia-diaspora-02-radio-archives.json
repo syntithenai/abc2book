@@ -1,0 +1,859 @@
+{
+  "id": "regions-asia-diaspora-02-radio-archives",
+  "title": "Radio and Archives Abroad",
+  "track": "regions",
+  "tier": 4,
+  "region": "asia-diaspora",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-asia-diaspora-01-diaspora-communities"
+  ],
+  "tags": [
+    "asia",
+    "diaspora",
+    "east-asia"
+  ],
+  "path": "10-regions/east-asia/diaspora/02-radio-archives.md",
+  "sections": [
+    {
+      "id": "radio-and-archives-abroad",
+      "title": "Radio and Archives Abroad",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** East Asian Traditions | **Unit:** Diaspora | **Tier:** 4"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Broadcasting and field archives shaped how Japanese min'yō repertoire spread internationally.\n\nBest study habit: **Listen to regional recordings and compare with the anchor unit.**"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-japan",
+      "title": "Compared with Japan",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Diaspora scenes remix anchor traditions with local dance floors, radio, and language communities. Compare accent and social context — not only tune titles."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Diaspora traditions carry anchor roots into new institutional settings.\n- Comparative listening prevents flattening regional specificity.\n- Festivals and archives link communities across borders."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Wikipedia diaspora and folk revival articles for orientation.\n- Lesson playlists when present in metadata."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "kodo",
+      "type": "artist",
+      "name": "Kodo",
+      "summary": "Representative musician or ensemble in asia-japan trad",
+      "blurb": "Study Kodo for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Kodo",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "shakuhachi-masters",
+      "type": "band",
+      "name": "Shakuhachi masters",
+      "summary": "Representative musician or ensemble in asia-japan trad",
+      "blurb": "Study Shakuhachi masters for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Shakuhachi_masters",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "kodo",
+    "shakuhachi-masters"
+  ],
+  "playlist": [
+    {
+      "id": "regions-asia-diaspora-02-radio-archives-pl1",
+      "entity_id": "kodo",
+      "label": "Kodo — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Kodo"
+    },
+    {
+      "id": "regions-asia-diaspora-02-radio-archives-pl2",
+      "entity_id": "shakuhachi-masters",
+      "label": "Shakuhachi masters — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Shakuhachi masters"
+    },
+    {
+      "id": "regions-asia-diaspora-02-radio-archives-pl3",
+      "label": "Japanese Traditional Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-asia-diaspora-02-radio-archives-pl4",
+      "label": "Japanese Traditional Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Japanese Traditional Music rewards comparative study.",
+    "Focus: Japanese Traditional Music spans shakuhachi, shamisen, voice leading voices, honkyoku, min.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: honkyoku, min'yō.",
+    "Dance: noh, bon odori.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Diaspora traditions carry anchor roots into new institutional settings.",
+    "Comparative listening prevents flattening regional specificity.",
+    "Festivals and archives link communities across borders."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Japan",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Japan",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "East Asian Traditions",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Japan",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Japanese Traditional Music spans shakuhachi, shamisen, voice",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Japan",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. Diaspora traditions typically remix anchor roots with local context.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q2. Best study habit for this lesson:\n- A) Listen to regional recordings and compare with the anchor unit\n- B) Avoid all comparative study\n- C) Use only one generic compilation\n- D) Skip dance context\n**Answer:** A) Listen to regional recordings and compare with the anchor unit\n\n### Q3. Festivals and archives help transmit diaspora repertoire.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q4. The Compared with section links back to:\n- A) Japan\n- B) Unrelated pop charts\n- C) Only classical piano\n- D) No anchor tradition\n**Answer:** A) Japan\n\n### Q5. Generic world-music labels often flatten regional accent.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q6. This lesson's overview emphasises:\n- A) Broadcasting and field archives shaped how Japanese min'yō repertoire spread int\n- B) Only hip-hop production\n- C) Only ballet syllabus\n- D) Only music engraving\n**Answer:** A) Broadcasting and field archives shaped how Japanese min'yō repertoire spread int\n\n### Q7. Parallel anchor lessons should be consulted when comparison feels abstract.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Oral and community transmission remain relevant in diaspora trad.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q9. Dance-linked repertoire matters in diaspora trad study.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q10. Listening across borders builds ear precision.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Anchor unit for this block is part of East Asian Traditions.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q12. Substitute equivalent recordings if playlist links shift.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Diaspora traditions typically remix anchor roots with local context.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Best study habit for this lesson:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Listen to regional recordings and compare with the anchor unit",
+          "correct": true
+        }
+      ],
+      "explain": ") Listen to regional recordings and compare with the anchor unit"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Festivals and archives help transmit diaspora repertoire.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "The Compared with section links back to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Japan",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") Japan"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Generic world-music labels often flatten regional accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "This lesson's overview emphasises:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Broadcasting and field archives shaped how Japanese min'yō repertoire spread int",
+          "correct": true
+        }
+      ],
+      "explain": ") Broadcasting and field archives shaped how Japanese min'yō repertoire spread int"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parallel anchor lessons should be consulted when comparison feels abstract.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Oral and community transmission remain relevant in diaspora trad.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dance-linked repertoire matters in diaspora trad study.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Listening across borders builds ear precision.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Anchor unit for this block is part of East Asian Traditions.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Substitute equivalent recordings if playlist links shift.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-asia-diaspora-02-radio-archives-quiz",
+    "title": "Radio and Archives Abroad quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Diaspora traditions typically remix anchor roots with local context.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Best study habit for this lesson:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Listen to regional recordings and compare with the anchor unit",
+            "correct": true
+          }
+        ],
+        "explain": ") Listen to regional recordings and compare with the anchor unit"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Festivals and archives help transmit diaspora repertoire.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "The Compared with section links back to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Japan",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") Japan"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Generic world-music labels often flatten regional accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "This lesson's overview emphasises:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Broadcasting and field archives shaped how Japanese min'yō repertoire spread int",
+            "correct": true
+          }
+        ],
+        "explain": ") Broadcasting and field archives shaped how Japanese min'yō repertoire spread int"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Parallel anchor lessons should be consulted when comparison feels abstract.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Oral and community transmission remain relevant in diaspora trad.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Dance-linked repertoire matters in diaspora trad study.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Listening across borders builds ear precision.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Anchor unit for this block is part of East Asian Traditions.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Substitute equivalent recordings if playlist links shift.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

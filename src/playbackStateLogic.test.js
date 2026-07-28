@@ -40,6 +40,7 @@ import {
   timingProgressToAudioSeconds,
   isMidiStartFromBeginning,
   shouldUseMidiMetronomeCountIn,
+  resolveCountInHandoffAnchor,
   metronomeSlotFromMusicSeconds,
   timeUntilNextMetronomeSlot,
   resolveMetronomeAlignTarget,
@@ -551,6 +552,30 @@ describe('isMidiStartFromBeginning', function() {
 
   test('tiny float noise near zero still counts as the start', function() {
     expect(isMidiStartFromBeginning({ seconds: 0.01, ratio: 0.001 })).toBe(true)
+  })
+})
+
+describe('resolveCountInHandoffAnchor', function() {
+  test('on-time handoff keeps the scheduled downbeat', function() {
+    const anchor = resolveCountInHandoffAnchor(10, 9.5, { minLeadSec: 0.002 })
+    expect(anchor.actualStartAudioTime).toBe(10)
+    expect(anchor.musicSeconds).toBe(0)
+  })
+
+  test('late handoff without pre-schedule re-anchors beat 1 to now', function() {
+    const anchor = resolveCountInHandoffAnchor(10, 10.5, { minLeadSec: 0.002 })
+    expect(anchor.actualStartAudioTime).toBeCloseTo(10.502, 5)
+    expect(anchor.musicSeconds).toBe(0)
+  })
+
+  test('late handoff with pre-scheduled audio advances musicSeconds on the grid', function() {
+    const anchor = resolveCountInHandoffAnchor(10, 10.5, {
+      minLeadSec: 0.002,
+      audioStartedAtScheduled: true,
+      tempoFactor: 1,
+    })
+    expect(anchor.actualStartAudioTime).toBe(10)
+    expect(anchor.musicSeconds).toBeCloseTo(0.5, 5)
   })
 })
 

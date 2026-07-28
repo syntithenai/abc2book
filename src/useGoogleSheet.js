@@ -8,6 +8,9 @@ import useUtils from './useUtils'
 
 import useGoogleDocument from './useGoogleDocument'
 import { appendTuneBookSyncSectionsToAbc } from './tuneBookAbc'
+import { isShardedSyncEnabled } from './tuneStorageFlags'
+import { buildShardedTuneAbc } from './tuneShardSync'
+import { SYNC_SHARD_SIZE } from './tuneScaleConstants'
 import {
   normalizeDriveFileId,
   tokenHasDriveAccess,
@@ -90,8 +93,17 @@ export default function useGoogleSheet(props) {
               var deletedPlaylists = readDeletedPlaylists()
               var practiceLists = readPracticeListsMap()
               var deletedPracticeLists = readDeletedPracticeLists()
+              var tuneCount = Object.keys(nowTunes).length
+              var tuneAbcBody
+              if (isShardedSyncEnabled() && tuneCount > SYNC_SHARD_SIZE) {
+                tuneAbcBody = buildShardedTuneAbc(nowTunes, function(chunkMap, del) {
+                  return abcTools.tunesToAbc(chunkMap, del)
+                }, deletedTunes)
+              } else {
+                tuneAbcBody = abcTools.tunesToAbc(nowTunes, deletedTunes)
+              }
               var abc = appendTuneBookSyncSectionsToAbc(
-                abcTools.tunesToAbc(nowTunes, deletedTunes),
+                tuneAbcBody,
                 performanceSets,
                 deletedPerformanceSets,
                 playlists,

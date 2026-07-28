@@ -25,7 +25,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Track:** Celtic Music | **Unit:** Pan-Celtic comparative | **Tier:** 4"
+          "text": "**Track:** regions | **Unit:** Pan-Celtic comparative | **Tier:** 4 | **Difficulty:** 6/10\n**Prerequisites:** regions-celtic-comparative-02-shared-instruments\n**Tags:** reel, jig, strathspey, gavotte, plinn, metre, dance-forms, comparative"
         }
       ]
     },
@@ -36,7 +36,62 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Jigs, reels, strathspeys, gavottes, and plygi share family resemblance; metre and dance context differ."
+          "text": "Tap your foot wrong and everyone in the room knows. Tune **form** — metre, pulse grouping, dance association — is the grammar of Celtic dance music. Ireland gave you a field guide: reels in 4/4, double jigs in 6/8, hornpipes dotted, polkas in 2/4, slides in 12/8. Scotland adds **strathspeys** with their dotted snap. Brittany offers **gavottes** and **plinn** in 6/8 and related metres. Galicia names **muiñeiras**. Wales contributes **plygi** and other regional forms. Family resemblance is real; **identity is not**.\n\nThis lesson compares forms across nations using Ireland as reference metre. You will learn to hear why a 6/8 tune is not automatically \"a jig,\" why strathspeys refuse reel bowing, and why fest-noz dancers care about plinn feel even when the time signature looks familiar.\n\n![Irish dancers in jig rhythm](https://en.wikipedia.org/wiki/Special:FilePath/Irish_Jig%2C_from_National_Dances_%28N225%2C_Type_2%29_issued_by_Kinney_Bros._MET_DPB874573.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "reels-the-atlantic-workhorse",
+      "title": "Reels: the Atlantic workhorse",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Irish reels** (4/4 or 2/2) drive pub sessions — steady \"ONE-two THREE-four\" pulse, foot-tap friendly, session default. Reels migrated through emigration to Cape Breton, Appalachia, and Quebec with regional bowing.\n\n**Scottish reels** share metre but often sit beside **strathspeys** in sets. Pipe band reels compress melody for outdoor unison.\n\n**Breton reels** exist in fest-noz repertoire but share billing with gavottes and plinn — different floor choreography.\n\n**Compared with Ireland:** Irish sessions chain three reels habitually. Scottish ceilidhs may insert strathspey between reels. Cape Breton reels prioritise dancer lift. Metre matches; **set architecture** does not."
+        }
+      ]
+    },
+    {
+      "id": "jigs-and-the-68-family",
+      "title": "Jigs and the 6/8 family",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Irish double jigs** — 6/8, two beats of three per bar, \"jiggedy\" syllables. **Single jigs** lighten the dotted feel. **Slip jigs** in 9/8 are a separate animal (soft-shoe dance).\n\n**Galician Muiñeiras** — also 6/8, but Galician melodic contour, gaita ensemble, and arm-raising dance steps. Not session jigs with Spanish titles.\n\n**Breton Gavotte (Breton)s** — 6/8 or related metres in fest-noz; call-and-response phrasing, circular dance. Subgenres (*gavotte des montagnes*, etc.) vary by region.\n\n**Breton plinn** — often discussed in 6/8 or simple duple feel depending on source; fast circular dance, distinct from Irish jig footwork.\n\n**Welsh plygi** (*plygi* / *jig* in Welsh contexts) — 6/8 dance tunes in Welsh folk revival; smaller session footprint than Irish jigs but legitimate form.\n\n| Form | Nation | Metre | Common error |\n|------|--------|-------|--------------|\n| Double jig | Ireland | 6/8 | Calling all 6/8 tunes jigs |\n| Muiñeira | Galicia | 6/8 | Ignoring gaita/dance context |\n| Gavotte | Brittany | 6/8 family | Confusing with Irish jig ornament |\n| Plinn | Brittany | dance-led pulse | Reading score without fest-noz feel |\n| Slip jig | Ireland | 9/8 | Mixing into reel sets unannounced |"
+        }
+      ]
+    },
+    {
+      "id": "strathspeys-scotlands-dotted-cousin",
+      "title": "Strathspeys: Scotland's dotted cousin",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Strathspeys** use 4/4 with a **dotted snap** — long-short rhythmic figure unlike Irish reel evenness. Highland and Scottish fiddle traditions treat strathspey as core form; Donegal highlands in Ireland borrow Scottish flavour but are not identical.\n\nIrish sessions rarely feature strathspeys in default pub sets. Scottish ceilidhs and fiddle competitions do constantly. Pipe bands adapt strathspeys to march discipline.\n\n**Compared with Ireland:** if your foot taps even reel pulse on a strathspey, you are missing the snap. Cross-border tune books that notate strathspeys as \"reels\" mislead learners.\n\n![Scottish country dancers](https://en.wikipedia.org/wiki/Special:FilePath/Scottish_country_dancing.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "hornpipes-marches-and-later-imports",
+      "title": "Hornpipes, marches, and later imports",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Irish hornpipes** — dotted 4/4, bouncy, sailor associations; regional dotting varies (Clare vs Donegal).\n\n**Scottish marches** — pipe band staples; Donegal fiddle marches overlap historically.\n\n**Breton mazurkas** and **Scottish waltzes** — nineteenth-century European dance imports absorbed into folk repertoire.\n\n**Irish polkas and slides** — 2/4 and 12/8 Munster specialties; rarely central in Scottish or Breton default sets.\n\nComparative listening: name the **dance** before the **nation**. A mazurka in Brittany and a polka in Kerry both arrived from nineteenth-century European fashion — parallel adoption, not shared ancient Celtic DNA."
+        }
+      ]
+    },
+    {
+      "id": "set-architecture-how-forms-chain",
+      "title": "Set architecture: how forms chain",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ireland: three reels → three jigs → maybe hornpipes. Scotland: reel-strathspey-reel sequences in ceilidh bands. Brittany: gavotte sets building fest-noz energy across the night. Cape Breton: reel sets for step dancers until the floor demands air.\n\nSwitching form without cue is a cross-cultural session faux pas. Dropping a Breton plinn into an Irish reel set unannounced disrupts like an uninvited slow air."
         }
       ]
     },
@@ -47,7 +102,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Use Ireland as the reference tradition you studied first: when this lesson names a shared instrument or tune form, ask how Irish session practice differs from Scottish, Welsh, or Breton contexts."
+          "text": "Ireland's genres lesson (`regions-celtic-ireland-04-genres-forms`) is your **metre dictionary**. Use it to anchor foot-tap tests:\n\n1. Count beats per bar.\n2. Name Irish form if it fits.\n3. If dance context is foreign (fest-noz, muiñeira, pipe band march), **rename** the form even when metre matches.\n4. Learn one tune in two national styles — e.g. reel in Clare session vs Cape Breton dance — and log bowing differences.\n\nIrish learners abroad often default to jig/reel binary — adequate for Ennis, insufficient for Lorient. Expanding form vocabulary prevents mislabelling Breton and Galician peers.\n\n**Parallel lessons:** Ireland `04-genres-forms`; Brittany `04-genres-forms`; Scotland `04-genres-forms`; diaspora `05-listening-across-borders`."
         }
       ]
     },
@@ -58,150 +113,231 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "- \"Celtic\" is a useful map, not a single repertoire.\n- Ireland provides one deep anchor; other nations add necessary contrast.\n- Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+          "text": "- Metre family resemblance does not make forms interchangeable — dance context names the tune.\n- Irish reels and jigs are session defaults; Scottish strathspeys add dotted snap foreign to typical Irish reel sets.\n- Muiñeiras, gavottes, and plinn share 6/8 territory with jigs but require distinct labels and listening.\n- Hornpipes, polkas, slides, and mazurkas show regional adoption of dance fashions.\n- Set architecture (how tunes chain) differs by nation — do not import Irish three-reel habit blindly.\n- Foot-tap tests and dance video clarify form faster than score reading alone."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Brendan Breathnach, *Ceol Rince na hÉireann* — Irish form definitions with examples.\n- Ireland unit lesson 04 — reel, jig, hornpipe, polka, slide depth.\n- Brittany unit lesson 04 — gavotte, plinn, fest-noz repertoire.\n- Scotland unit lesson 04 — strathspey and reel in ceilidh context.\n- Wikipedia: [Strathspey](https://en.wikipedia.org/wiki/Strathspey_(dance)), [Gavotte](https://en.wikipedia.org/wiki/Gavotte), [Muiñeira](https://en.wikipedia.org/wiki/Mui%C3%B1eira)."
         }
       ]
     }
   ],
-  "entities": [],
+  "entities": [
+    {
+      "id": "strathspey",
+      "type": "concept",
+      "name": "Strathspey",
+      "summary": "Scottish dance tune form with dotted snap in 4/4",
+      "blurb": "Core Scottish form rarely default in Irish pub sessions.",
+      "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Scottish_country_dancing.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "muiniera",
+      "type": "concept",
+      "name": "Muiñeira",
+      "summary": "Galician 6/8 dance tune form",
+      "blurb": "Metre cousin to jig; distinct dance and phrasing context.",
+      "url": "https://en.wikipedia.org/wiki/Mui%C3%B1eira",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Mu%C3%B1eira_dancers.jpg?width=320",
+      "playlist_index": 3
+    },
+    {
+      "id": "gavotte-bretonne",
+      "type": "concept",
+      "name": "Gavotte (Breton)",
+      "summary": "Breton fest-noz dance tune in 6/8 family",
+      "blurb": "Call-and-response phrasing linked to circular dance.",
+      "url": "https://en.wikipedia.org/wiki/Gavotte",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320",
+      "playlist_index": 2
+    }
+  ],
   "entity_order": [],
-  "playlist": [],
+  "playlist": [
+    {
+      "id": "irish-double-jig",
+      "label": "Irish double jig — reference",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": ""
+    },
+    {
+      "id": "scottish-strathspey",
+      "entity_id": "strathspey",
+      "label": "Scottish strathspey with snap",
+      "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY",
+      "subtitle": "Strathspey"
+    },
+    {
+      "id": "breton-gavotte",
+      "entity_id": "gavotte-bretonne",
+      "label": "Breton gavotte at fest-noz",
+      "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY",
+      "subtitle": "Gavotte (Breton)"
+    },
+    {
+      "id": "galician-muiniera",
+      "entity_id": "muiniera",
+      "label": "Galician muiñeira with dance",
+      "youtube": "https://www.youtube.com/watch?v=0nF5K1d6d0Y",
+      "subtitle": "Muiñeira"
+    }
+  ],
   "tunes": [],
   "key_points": [
-    "Ireland is the anchor; comparison adds precision.",
-    "Shared instruments differ by social role.",
-    "Tune forms require dance-context listening.",
-    "Revival paths diverge by institution.",
-    "Avoid Celtic marketing cliché.",
-    "\"Celtic\" is a useful map, not a single repertoire.",
-    "Ireland provides one deep anchor; other nations add necessary contrast.",
-    "Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+    "Metre resemblance does not make forms interchangeable — name the dance.",
+    "Irish reels and jigs are session defaults; strathspeys add Scottish dotted snap.",
+    "Muiñeiras, gavottes, and plinn share 6/8 territory with jigs — different labels.",
+    "Set architecture differs: Irish three-reel chains vs Breton fest-noz builds.",
+    "Foot-tap tests and dance video beat score reading alone.",
+    "Metre family resemblance does not make forms interchangeable — dance context names the tune.",
+    "Irish reels and jigs are session defaults; Scottish strathspeys add dotted snap foreign to typical Irish reel sets.",
+    "Muiñeiras, gavottes, and plinn share 6/8 territory with jigs but require distinct labels and listening.",
+    "Hornpipes, polkas, slides, and mazurkas show regional adoption of dance fashions.",
+    "Set architecture (how tunes chain) differs by nation — do not import Irish three-reel habit blindly.",
+    "Foot-tap tests and dance video clarify form faster than score reading alone."
   ],
   "reading_list": [
     {
+      "type": "book",
+      "title": "Ceol Rince na hÉireann",
+      "author": "Brendan Breathnach",
+      "note": "Irish form definitions"
+    },
+    {
       "type": "link",
-      "title": "Tune Forms Compared — orientation",
-      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+      "title": "Strathspey — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)"
+    },
+    {
+      "type": "link",
+      "title": "Muiñeira — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mui%C3%B1eira"
+    },
+    {
+      "type": "link",
+      "title": "Gavotte — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gavotte"
+    },
+    {
+      "type": "link",
+      "title": "Gavotte bretonne",
+      "url": "https://en.wikipedia.org/wiki/Gavotte",
+      "note": "Breton dance metre"
+    },
+    {
+      "type": "link",
+      "title": "Plygi",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Wales",
+      "note": "Welsh hornpipe family"
+    },
+    {
+      "type": "book",
+      "author": "Brendan Breathnach",
+      "title": "Ceol Rince na hÉireann"
+    },
+    {
+      "type": "link",
+      "title": "Strathspey",
+      "url": "https://en.wikipedia.org/wiki/Strathspey_(dance"
     }
   ],
-  "quiz_markdown": "### Q1. Which description best fits the main social context emphasised in this lesson?\n- A) Concerto competitions only\n- B) Community dance and oral transmission\n- C) Strictly classical conservatory exams\n- D) Electronic dance clubs only\n**Answer:** B) Community dance and oral transmission\n*Explanation grounded in Tune Forms Compared.*\n\n### Q2. This tradition is identical to Irish traditional music in repertoire and social context.\n- A) True\n- B) False\n**Answer:** B) False\n*Explanation grounded in Tune Forms Compared.*\n\n### Q3. Compared with Ireland, this unit stresses which additional emphasis?\n- A) No differences whatsoever\n- B) See Compared with Ireland section\n- C) Only classical opera\n- D) Only hip-hop production\n**Answer:** B) See Compared with Ireland section\n*Explanation grounded in Tune Forms Compared.*\n\n### Q4. A typical learner should prioritise:\n- A) Only reading generic textbooks\n- B) Listening to regional recordings before generic \"Celtic\" compilations\n- C) Memorising one tune only\n- D) Ignoring dance context\n**Answer:** B) Listening to regional recordings before generic \"Celtic\" compilations\n*Explanation grounded in Tune Forms Compared.*\n\n### Q5. Sessions, festivals, and archives all play roles in modern transmission.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Tune Forms Compared.*\n\n### Q6. Instrument focus in this lesson includes:\n- A) Only synthesizers\n- B) Voices named in the lesson introduction\n- C) Only orchestral brass\n- D) Only piano études\n**Answer:** B) Voices named in the lesson introduction\n*Explanation grounded in Tune Forms Compared.*\n\n### Q7. Dance rhythm topics in this lesson relate to:\n- A) Ballet syllabus only\n- B) Social dance forms discussed in the body\n- C) Marching band drill only\n- D) DJ beatmatching only\n**Answer:** B) Social dance forms discussed in the body\n*Explanation grounded in Tune Forms Compared.*\n\n### Q8. Revival movements and media broadcasting shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Tune Forms Compared.*\n\n### Q9. When studying tune forms, you should:\n- A) Ignore metre entirely\n- B) Connect metre and foot-tap feel to named dance types\n- C) Assume all tunes are 4/4 rock beats\n- D) Avoid learning by ear\n**Answer:** B) Connect metre and foot-tap feel to named dance types\n*Explanation grounded in Tune Forms Compared.*\n\n### Q10. Fusion and modern scenes discussed here:\n- A) Erase all earlier repertoire\n- B) Build on—not replace—living tradition\n- C) Ban all acoustic instruments\n- D) Eliminate festivals\n**Answer:** B) Build on—not replace—living tradition\n*Explanation grounded in Tune Forms Compared.*\n\n### Q11. The Compared with Ireland section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Tune Forms Compared.*\n\n### Q12. Best next step after this lesson:\n- A) Stop listening to recordings\n- B) Follow playlists and return to the paired Ireland lesson\n- C) Skip all prerequisites\n- D) Avoid comparative study\n**Answer:** B) Follow playlists and return to the paired Ireland lesson\n*Explanation grounded in Tune Forms Compared.*",
+  "quiz_markdown": "### Q1. Irish double jigs are most commonly in:\n\n- A) 6/8 with a two-beat feel per bar\n- B) 4/4 with strathspey snap only\n- C) 3/4 waltz time exclusively\n- D) Free rhythm without metre\n\n**Answer:** A\n\n### Q2. Strathspeys are strongly associated with Scottish tradition and feature a dotted rhythmic snap.\n\n**Answer:** True\n\n### Q3. A Galician muiñeira should be labelled simply \"an Irish jig\" without further context.\n\n**Answer:** False — dance and regional phrasing differ.\n\n### Q4. Breton gavottes and plinn relate to fest-noz dance culture.\n\n**Answer:** True\n\n### Q5. Irish sessions commonly chain three reels before switching form.\n\n**Answer:** True\n\n### Q6. Slip jigs are in 9/8 and associated with soft-shoe Irish dance.\n\n**Answer:** True\n\n### Q7. All 6/8 tunes across Celtic nations are musically interchangeable for dance.\n\n**Answer:** False\n\n### Q8. Cape Breton reel sets often prioritise dance lift for step dancers.\n\n**Answer:** True\n\n### Q9. Hornpipes in Irish tradition are typically in 4/4 with a dotted, bouncy feel.\n\n**Answer:** True\n\n### Q10. Dropping an unannounced slow air into a reel set is considered disruptive in Irish session etiquette.\n\n**Answer:** True\n\n### Q11. Scottish ceilidh sets may pair strathspeys with reels differently from Irish pub defaults.\n\n**Answer:** True\n\n### Q12. Best comparative exercise:\n\n- A) Learn one 6/8 tune family track from Ireland, Brittany, and Galicia; log dance name and foot-tap\n- B) Ignore metre and study only album art\n- C) Assume pipe band marches equal Irish polkas\n- D) Avoid all dance video\n\n**Answer:** A",
   "quiz_questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Which description best fits the main social context emphasised in this lesson?",
+      "prompt": "Irish double jigs are most commonly in:",
       "choices": [
         {
           "id": "a",
-          "text": "Community dance and oral transmission",
+          "text": "6/8 with a two-beat feel per bar",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Connect metre and foot-tap feel to named dance types",
+          "text": "Sligo fiddle style",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Build on—not replace—living tradition",
+          "text": "Donegal highland repertoire",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Follow playlists and return to the paired Ireland lesson",
+          "text": "Sliabh Luachra polkas and slides",
           "correct": false
         }
       ],
-      "explain": ") Community dance and oral transmission"
+      "explain": "The lesson identifies this as: 6/8 with a two-beat feel per bar"
     },
     {
       "id": "q2",
-      "type": "mcq",
-      "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+      "type": "truefalse",
+      "prompt": "Strathspeys are strongly associated with Scottish tradition and feature a dotted rhythmic snap.",
       "choices": [
         {
           "id": "a",
-          "text": "Build on—not replace—living tradition",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "A Galician muiñeira should be labelled simply \"an Irish jig\" without further context.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Follow playlists and return to the paired Ireland lesson",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "6/8 with a two-beat feel per bar",
-          "correct": false
-        },
-        {
-          "id": "d",
           "text": "False",
           "correct": true
         }
       ],
-      "explain": ") False"
-    },
-    {
-      "id": "q3",
-      "type": "mcq",
-      "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "6/8 with a two-beat feel per bar",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "9/8 slip-jig time",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "See Compared with Ireland section",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Follow playlists and return to the paired Ireland lesson",
-          "correct": false
-        }
-      ],
-      "explain": ") See Compared with Ireland section"
+      "explain": "dance and regional phrasing differ."
     },
     {
       "id": "q4",
-      "type": "mcq",
-      "prompt": "A typical learner should prioritise:",
+      "type": "truefalse",
+      "prompt": "Breton gavottes and plinn relate to fest-noz dance culture.",
       "choices": [
         {
           "id": "a",
-          "text": "4/4 reel time with a steady drive",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "text": "True",
           "correct": true
         },
         {
-          "id": "c",
-          "text": "6/8 with a two-beat feel per bar",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "9/8 slip-jig time",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q5",
-      "type": "mcq",
-      "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+      "type": "truefalse",
+      "prompt": "Irish sessions commonly chain three reels before switching form.",
       "choices": [
         {
           "id": "a",
@@ -210,217 +346,147 @@
         },
         {
           "id": "b",
-          "text": "9/8 slip-jig time",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "4/4 reel time with a steady drive",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Sligo fiddle style",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q6",
-      "type": "mcq",
-      "prompt": "Instrument focus in this lesson includes:",
+      "type": "truefalse",
+      "prompt": "Slip jigs are in 9/8 and associated with soft-shoe Irish dance.",
       "choices": [
         {
           "id": "a",
-          "text": "4/4 reel time with a steady drive",
-          "correct": false
+          "text": "True",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Sligo fiddle style",
+          "text": "False",
           "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Donegal highland repertoire",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Voices named in the lesson introduction",
-          "correct": true
         }
       ],
-      "explain": ") Voices named in the lesson introduction"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q7",
-      "type": "mcq",
-      "prompt": "Dance rhythm topics in this lesson relate to:",
+      "type": "truefalse",
+      "prompt": "All 6/8 tunes across Celtic nations are musically interchangeable for dance.",
       "choices": [
         {
           "id": "a",
-          "text": "Donegal highland repertoire",
+          "text": "True",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Sliabh Luachra polkas and slides",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Social dance forms discussed in the body",
+          "text": "False",
           "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Sligo fiddle style",
-          "correct": false
         }
       ],
-      "explain": ") Social dance forms discussed in the body"
+      "explain": "Correct answer: False"
     },
     {
       "id": "q8",
-      "type": "mcq",
-      "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+      "type": "truefalse",
+      "prompt": "Cape Breton reel sets often prioritise dance lift for step dancers.",
       "choices": [
         {
           "id": "a",
-          "text": "Mouth blowing only, like Highland pipes",
-          "correct": false
-        },
-        {
-          "id": "b",
           "text": "True",
           "correct": true
         },
         {
-          "id": "c",
-          "text": "Donegal highland repertoire",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Sliabh Luachra polkas and slides",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q9",
-      "type": "mcq",
-      "prompt": "When studying tune forms, you should:",
+      "type": "truefalse",
+      "prompt": "Hornpipes in Irish tradition are typically in 4/4 with a dotted, bouncy feel.",
       "choices": [
         {
           "id": "a",
-          "text": "Connect metre and foot-tap feel to named dance types",
+          "text": "True",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Sliabh Luachra polkas and slides",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Mouth blowing only, like Highland pipes",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Elbow bellows strapped to the player",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") Connect metre and foot-tap feel to named dance types"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q10",
-      "type": "mcq",
-      "prompt": "Fusion and modern scenes discussed here:",
+      "type": "truefalse",
+      "prompt": "Dropping an unannounced slow air into a reel set is considered disruptive in Irish session etiquette.",
       "choices": [
         {
           "id": "a",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": false
-        },
-        {
-          "id": "b",
           "text": "True",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Build on—not replace—living tradition",
           "correct": true
         },
         {
-          "id": "d",
-          "text": "See Compared with Ireland section",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") Build on—not replace—living tradition"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q11",
-      "type": "mcq",
-      "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+      "type": "truefalse",
+      "prompt": "Scottish ceilidh sets may pair strathspeys with reels differently from Irish pub defaults.",
       "choices": [
         {
           "id": "a",
-          "text": "Social dance forms discussed in the body",
-          "correct": false
-        },
-        {
-          "id": "b",
           "text": "True",
           "correct": true
         },
         {
-          "id": "c",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Voices named in the lesson introduction",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q12",
       "type": "mcq",
-      "prompt": "Best next step after this lesson:",
+      "prompt": "Best comparative exercise:",
       "choices": [
         {
           "id": "a",
-          "text": "Follow playlists and return to the paired Ireland lesson",
+          "text": "Learn one 6/8 tune family track from Ireland, Brittany, and Galicia; log dance name and foot-tap",
           "correct": true
         },
         {
           "id": "b",
-          "text": "True",
+          "text": "Sligo fiddle style",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Voices named in the lesson introduction",
+          "text": "Donegal highland repertoire",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Social dance forms discussed in the body",
+          "text": "Sliabh Luachra polkas and slides",
           "correct": false
         }
       ],
-      "explain": ") Follow playlists and return to the paired Ireland lesson"
+      "explain": "The lesson identifies this as: Learn one 6/8 tune family track from Ireland, Brittany, and Galicia; log dance name and foot-tap"
     }
   ],
   "quiz": {
@@ -430,119 +496,89 @@
       {
         "id": "q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Irish double jigs are most commonly in:",
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: 6/8 with a two-beat feel per bar"
       },
       {
         "id": "q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Strathspeys are strongly associated with Scottish tradition and feature a dotted rhythmic snap.",
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "A Galician muiñeira should be labelled simply \"an Irish jig\" without further context.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
             "correct": true
           }
         ],
-        "explain": ") False"
-      },
-      {
-        "id": "q3",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
-        "choices": [
-          {
-            "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "dance and regional phrasing differ."
       },
       {
         "id": "q4",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "Breton gavottes and plinn relate to fest-noz dance culture.",
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "9/8 slip-jig time",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q5",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Irish sessions commonly chain three reels before switching form.",
         "choices": [
           {
             "id": "a",
@@ -551,217 +587,147 @@
           },
           {
             "id": "b",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q6",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "Slip jigs are in 9/8 and associated with soft-shoe Irish dance.",
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Sligo fiddle style",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q7",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "All 6/8 tunes across Celtic nations are musically interchangeable for dance.",
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Sligo fiddle style",
-            "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "Correct answer: False"
       },
       {
         "id": "q8",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Cape Breton reel sets often prioritise dance lift for step dancers.",
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q9",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Hornpipes in Irish tradition are typically in 4/4 with a dotted, bouncy feel.",
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q10",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Dropping an unannounced slow air into a reel set is considered disruptive in Irish session etiquette.",
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "See Compared with Ireland section",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q11",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Scottish ceilidh sets may pair strathspeys with reels differently from Irish pub defaults.",
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q12",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Best comparative exercise:",
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Learn one 6/8 tune family track from Ireland, Brittany, and Galicia; log dance name and foot-tap",
             "correct": true
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Learn one 6/8 tune family track from Ireland, Brittany, and Galicia; log dance name and foot-tap"
       }
     ]
   }

@@ -9,10 +9,13 @@ import os
 from fastapi import File, Form, Header, HTTPException, Request, UploadFile
 from fastapi.responses import FileResponse, JSONResponse
 
+from midi_render import midi_render_health, render_midi_bytes_to_wav, try_render_midi_to_wav
 from music_generation.jobs import (
     create_job_id,
+    job_chords_wav,
     job_melody_wav,
     job_output_wav,
+    job_score_mid,
     read_job_progress,
     write_job_progress,
 )
@@ -38,6 +41,7 @@ def practice_track_health() -> dict:
         provider = get_audio_generation_provider()
         health = provider.health()
         health["enabled"] = True
+        health["midiRender"] = midi_render_health()
         return health
     except Exception as exc:
         return {"ok": False, "enabled": True, "message": str(exc)}
@@ -66,10 +70,52 @@ async def get_practice_track_backends(
         )
 
 
+async def post_render_midi(
+    request: Request,
+    midi: UploadFile = File(...),
+    authorization: str | None = Header(default=None),
+    *,
+    maybe_require_auth,
+    cors_headers,
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        midi_bytes = await midi.read()
+        if not midi_bytes:
+            raise HTTPException(status_code=400, detail="Missing MIDI file")
+
+        job_id = create_job_id()
+        score_path = job_score_mid(job_id)
+        score_path.write_bytes(midi_bytes)
+        output_path = job_output_wav(job_id)
+        rendered = try_render_midi_to_wav(score_path, output_path)
+        if not rendered:
+            try:
+                render_midi_bytes_to_wav(midi_bytes, output_path, work_dir=score_path.parent)
+            except (RuntimeError, OSError) as exc:
+                raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+        return FileResponse(
+            output_path,
+            media_type="audio/wav",
+            filename="midi-render.wav",
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return JSONResponse(
+            status_code=exc.status_code,
+            content={"error": str(exc.detail)},
+            headers=cors_headers(origin),
+        )
+
+
 async def post_generate_practice_track(
     request: Request,
     timing_plan: str = Form(...),
     melody: UploadFile = File(...),
+    chords: UploadFile | None = File(default=None),
+    score: UploadFile | None = File(default=None),
     authorization: str | None = Header(default=None),
     *,
     maybe_require_auth,
@@ -98,8 +144,20 @@ async def post_generate_practice_track(
         if not melody_bytes:
             raise HTTPException(status_code=400, detail="Missing melody WAV")
 
+        chord_bytes = None
+        if chords is not None:
+            chord_bytes = await chords.read()
+            if not chord_bytes:
+                chord_bytes = None
+
+        score_bytes = None
+        if score is not None:
+            score_bytes = await score.read()
+            if not score_bytes:
+                score_bytes = None
+
         job_id = create_job_id()
-        save_job_inputs(job_id, timing_plan_raw, melody_bytes)
+        save_job_inputs(job_id, timing_plan_raw, melody_bytes, chord_bytes, score_bytes)
         write_job_progress(job_id, {
             "stage": "queued",
             "progress": 0,
@@ -110,11 +168,15 @@ async def post_generate_practice_track(
         async def run_job():
             try:
                 async with heavy_job_slot():
+                    chord_path = job_chords_wav(job_id) if chord_bytes else None
+                    score_path = job_score_mid(job_id) if score_bytes else None
                     await asyncio.to_thread(
                         run_practice_track_job,
                         job_id,
                         timing_plan_raw,
                         job_melody_wav(job_id),
+                        chord_path=chord_path,
+                        score_path=score_path,
                     )
             except Exception as exc:
                 write_job_progress(job_id, {

@@ -6,7 +6,17 @@ import { getPlainLyricLines, getNoteAlignedLyricLines } from './wLinesUtils';
 import { checkTuneAbcStructure } from './tuneAbcStructureCheck';
 import { beatsPerBarFromMeter } from './notation/beatGrid';
 import { extractAbcjsTiming } from './abcjsTimingExtract';
-import { buildBackingPrompt, buildBackingNegativePrompt } from './backingPromptBuilder';
+import { loopDurationSecFromPlan } from './backingPromptBuilder';
+import { attachChordsToStrains, extractChordsPerBar } from './practiceTrackChordLayer';
+import { buildDrumGuideConfig } from './practiceTrackDrumGuide';
+import {
+  buildStyleBackingPrompt,
+  buildStyleNegativePrompt,
+  DEFAULT_RENDER_STYLE,
+  getStylePreset,
+  GUIDE_MODE_MIDI_WAV,
+  resolveLeadMidiProgram,
+} from './practiceTrackStylePresets';
 
 /** Structure checks that do not block practice-track generation when MIDI/audio renders. */
 const PRACTICE_TRACK_IGNORED_STRUCTURE_CODES = new Set([
@@ -139,9 +149,17 @@ function renderVisualFromAbc(abc) {
  */
 export function buildTimingSongPlan(tune, abc, options) {
   const opts = options || {};
+  const abcjsParser = opts.abcjsParser || null;
+  const tunebook = opts.tunebook || null;
   const noteLines = getNoteLines(tune);
   const barCount = totalMelodyBarCount(noteLines);
-  const strains = buildStrains(noteLines, tune);
+  let strains = buildStrains(noteLines, tune);
+  if (abcjsParser) {
+    const chordsPerBar = extractChordsPerBar(tune, tunebook, abcjsParser);
+    if (chordsPerBar.length) {
+      strains = attachChordsToStrains(strains, chordsPerBar);
+    }
+  }
   const lyricSections = normalizeLyricStructure(getPlainLyricLines(tune));
   const wLines = getNoteAlignedLyricLines(tune);
   const structureCheck = opts.abcTools
@@ -204,16 +222,37 @@ export function buildTimingSongPlan(tune, abc, options) {
       return section.lines && section.lines.some(function(line) { return String(line).trim(); });
     }),
     wLineCount: Array.isArray(wLines) ? wLines.length : 0,
-    generationMode: 'practice-backing',
+    generationMode: 'midi-guided-ai',
+    renderStyle: DEFAULT_RENDER_STYLE,
+    guideMode: GUIDE_MODE_MIDI_WAV,
+    melodySource: 'notation_midi',
+    includeDrumGuide: true,
+    guideAudioConditioning: false,
+    includeStyleMelodyStem: true,
+    leadMidiProgram: resolveLeadMidiProgram(DEFAULT_RENDER_STYLE),
+    drumGuide: null,
     structureWarnings: structureWarnings,
     structureErrors: structureErrors,
     backingPrompt: '',
     backingNegativePrompt: '',
-    backingGainDb: -9,
+    backingGainDb: -18,
+    arrangementGainDb: -14,
+    includeChordLayer: false,
+    includeNotationStem: false,
+    loopDurationSec: 0,
   };
 
-  plan.backingPrompt = buildBackingPrompt(plan);
-  plan.backingNegativePrompt = buildBackingNegativePrompt();
+  const stylePreset = getStylePreset(DEFAULT_RENDER_STYLE);
+  plan.includeChordLayer = false;
+  plan.includeNotationStem = false;
+  plan.includeStyleMelodyStem = true;
+  plan.leadMidiProgram = resolveLeadMidiProgram(DEFAULT_RENDER_STYLE);
+  plan.renderStyle = DEFAULT_RENDER_STYLE;
+  plan.includeDrumGuide = stylePreset.includeDrumGuideDefault;
+  plan.backingPrompt = buildStyleBackingPrompt(plan, DEFAULT_RENDER_STYLE);
+  plan.backingNegativePrompt = buildStyleNegativePrompt(DEFAULT_RENDER_STYLE);
+  plan.drumGuide = buildDrumGuideConfig(plan, { styleId: DEFAULT_RENDER_STYLE });
+  plan.loopDurationSec = loopDurationSecFromPlan(plan);
   return plan;
 }
 
@@ -273,17 +312,50 @@ export function refineTimingFromMelodyDuration(plan, melodyDurationSec) {
  */
 export function buildPracticeTrackRequestPayload(plan, overrides) {
   const o = overrides || {};
+  const styleId = o.renderStyle != null ? o.renderStyle : (plan.renderStyle || DEFAULT_RENDER_STYLE);
+  const stylePreset = getStylePreset(styleId);
+  const includeDrumGuide = o.includeDrumGuide != null
+    ? !!o.includeDrumGuide
+    : (plan.includeDrumGuide != null ? !!plan.includeDrumGuide : stylePreset.includeDrumGuideDefault);
+  const drumGuide = o.drumGuide != null
+    ? o.drumGuide
+    : (includeDrumGuide
+      ? buildDrumGuideConfig(plan, { styleId: styleId, presetId: o.drumPresetId })
+      : null);
+  const customPrompt = o.backingPrompt != null ? o.backingPrompt : plan.backingPrompt;
+  const backingPrompt = styleId === 'custom'
+    ? customPrompt
+    : buildStyleBackingPrompt(plan, styleId, { customPrompt: customPrompt });
   return {
     title: plan.title,
     musical: plan.musical,
     timing: plan.timing,
-    backingPrompt: o.backingPrompt != null ? o.backingPrompt : plan.backingPrompt,
+    backingPrompt: backingPrompt,
     backingNegativePrompt: o.backingNegativePrompt != null
       ? o.backingNegativePrompt
-      : plan.backingNegativePrompt,
+      : buildStyleNegativePrompt(styleId),
     backingGainDb: o.backingGainDb != null ? o.backingGainDb : plan.backingGainDb,
+    arrangementGainDb: o.arrangementGainDb != null ? o.arrangementGainDb : (plan.arrangementGainDb || 0),
+    includeChordLayer: o.includeChordLayer != null ? !!o.includeChordLayer : !!plan.includeChordLayer,
+    includeNotationStem: o.includeNotationStem != null
+      ? !!o.includeNotationStem
+      : (plan.includeNotationStem === true),
+    includeStyleMelodyStem: o.includeStyleMelodyStem != null
+      ? !!o.includeStyleMelodyStem
+      : (plan.includeStyleMelodyStem !== false),
+    leadMidiProgram: o.leadMidiProgram != null
+      ? o.leadMidiProgram
+      : resolveLeadMidiProgram(styleId),
+    loopDurationSec: plan.loopDurationSec || 0,
     structureWarnings: plan.structureWarnings,
-    includeChordLayer: !!o.includeChordLayer,
     acknowledgeBarEstimate: !!o.acknowledgeBarEstimate,
+    renderStyle: styleId,
+    guideMode: o.guideMode || plan.guideMode || GUIDE_MODE_MIDI_WAV,
+    melodySource: o.melodySource || plan.melodySource || 'notation_midi',
+    includeDrumGuide: includeDrumGuide,
+    drumGuide: drumGuide,
+    guideAudioConditioning: o.guideAudioConditioning != null
+      ? !!o.guideAudioConditioning
+      : (plan.guideAudioConditioning === true),
   };
 }

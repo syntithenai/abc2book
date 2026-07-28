@@ -1,0 +1,462 @@
+{
+  "regions-iberian-diaspora-01-diaspora-communities": {
+    "entities": [
+      {
+        "id": "carlos-n-ez",
+        "type": "artist",
+        "name": "Carlos Núñez",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Carlos Núñez for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Carlos_Núñez",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "galician-traditional-music",
+        "type": "band",
+        "name": "Galician Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Galician Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Galician_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-diaspora-01-diaspora-communities-pl1",
+        "entity_id": "carlos-n-ez",
+        "label": "Carlos Núñez — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-diaspora-01-diaspora-communities-pl2",
+        "entity_id": "galician-traditional-music",
+        "label": "Galician Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-diaspora-01-diaspora-communities-pl3",
+        "label": "Galician Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-diaspora-01-diaspora-communities-pl4",
+        "label": "Galician Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Galician Traditional Music rewards comparative study.",
+      "Focus: Galician Traditional Music spans gaita, fiddle, voice leading voices, muiñeira, alborada, .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: muiñeira, alborada.",
+      "Dance: parade and dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Galicia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Galician Traditional Music spans gaita, fiddle, voice leadin",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-diaspora-02-radio-archives": {
+    "entities": [
+      {
+        "id": "carlos-n-ez",
+        "type": "artist",
+        "name": "Carlos Núñez",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Carlos Núñez for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Carlos_Núñez",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "galician-traditional-music",
+        "type": "band",
+        "name": "Galician Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Galician Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Galician_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-diaspora-02-radio-archives-pl1",
+        "entity_id": "carlos-n-ez",
+        "label": "Carlos Núñez — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-diaspora-02-radio-archives-pl2",
+        "entity_id": "galician-traditional-music",
+        "label": "Galician Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-diaspora-02-radio-archives-pl3",
+        "label": "Galician Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-diaspora-02-radio-archives-pl4",
+        "label": "Galician Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Galician Traditional Music rewards comparative study.",
+      "Focus: Galician Traditional Music spans gaita, fiddle, voice leading voices, muiñeira, alborada, .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: muiñeira, alborada.",
+      "Dance: parade and dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Galicia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Galician Traditional Music spans gaita, fiddle, voice leadin",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-diaspora-03-festival-networks": {
+    "entities": [
+      {
+        "id": "carlos-n-ez",
+        "type": "artist",
+        "name": "Carlos Núñez",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Carlos Núñez for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Carlos_Núñez",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "galician-traditional-music",
+        "type": "band",
+        "name": "Galician Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Galician Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Galician_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-diaspora-03-festival-networks-pl1",
+        "entity_id": "carlos-n-ez",
+        "label": "Carlos Núñez — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-diaspora-03-festival-networks-pl2",
+        "entity_id": "galician-traditional-music",
+        "label": "Galician Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-diaspora-03-festival-networks-pl3",
+        "label": "Galician Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-diaspora-03-festival-networks-pl4",
+        "label": "Galician Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Galician Traditional Music rewards comparative study.",
+      "Focus: Galician Traditional Music spans gaita, fiddle, voice leading voices, muiñeira, alborada, .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: muiñeira, alborada.",
+      "Dance: parade and dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Galicia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Galician Traditional Music spans gaita, fiddle, voice leadin",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-diaspora-04-fusion-scenes": {
+    "entities": [
+      {
+        "id": "carlos-n-ez",
+        "type": "artist",
+        "name": "Carlos Núñez",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Carlos Núñez for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Carlos_Núñez",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "galician-traditional-music",
+        "type": "band",
+        "name": "Galician Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Galician Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Galician_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-diaspora-04-fusion-scenes-pl1",
+        "entity_id": "carlos-n-ez",
+        "label": "Carlos Núñez — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-diaspora-04-fusion-scenes-pl2",
+        "entity_id": "galician-traditional-music",
+        "label": "Galician Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-diaspora-04-fusion-scenes-pl3",
+        "label": "Galician Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-diaspora-04-fusion-scenes-pl4",
+        "label": "Galician Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Galician Traditional Music rewards comparative study.",
+      "Focus: Galician Traditional Music spans gaita, fiddle, voice leading voices, muiñeira, alborada, .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: muiñeira, alborada.",
+      "Dance: parade and dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Galicia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Galician Traditional Music spans gaita, fiddle, voice leadin",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-diaspora-05-listening-across-borders": {
+    "entities": [
+      {
+        "id": "carlos-n-ez",
+        "type": "artist",
+        "name": "Carlos Núñez",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Carlos Núñez for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Carlos_Núñez",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "galician-traditional-music",
+        "type": "band",
+        "name": "Galician Traditional Music",
+        "summary": "Representative musician or ensemble in iberian-galicia trad",
+        "blurb": "Study Galician Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Galician_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-diaspora-05-listening-across-borders-pl1",
+        "entity_id": "carlos-n-ez",
+        "label": "Carlos Núñez — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-diaspora-05-listening-across-borders-pl2",
+        "entity_id": "galician-traditional-music",
+        "label": "Galician Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-diaspora-05-listening-across-borders-pl3",
+        "label": "Galician Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-diaspora-05-listening-across-borders-pl4",
+        "label": "Galician Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Galician Traditional Music rewards comparative study.",
+      "Focus: Galician Traditional Music spans gaita, fiddle, voice leading voices, muiñeira, alborada, .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: muiñeira, alborada.",
+      "Dance: parade and dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Galicia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Galician Traditional Music spans gaita, fiddle, voice leadin",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia",
+        "note": "Lesson focus area"
+      }
+    ]
+  }
+}

@@ -1,0 +1,938 @@
+{
+  "id": "regions-nordic-sami-07-representative-depth",
+  "title": "Sámi Music — Representative Fusions and Scenes",
+  "track": "regions",
+  "tier": 7,
+  "region": "nordic-sami",
+  "difficulty": 9,
+  "prerequisites": [
+    "regions-nordic-sami-06-history"
+  ],
+  "tags": [
+    "nordic",
+    "sami",
+    "nordic",
+    "representative",
+    "fusions"
+  ],
+  "path": "10-regions/nordic/sami/07-representative-depth.md",
+  "sections": [
+    {
+      "id": "sámi-music-representative-fusions-and-scenes",
+      "title": "Sámi Music — Representative Fusions and Scenes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Nordic Folk | **Region:** nordic-sami | **Tier:** 7\n**Prerequisites:** regions-nordic-sami-06-history\n**Tags:** nordic, sami, nordic, representative, fusions"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Riddu Riđđu\n\nSámi Music belongs to the **Nordic Folk** curriculum. Mari Boine\nWimme\n\nThis lesson develops listening precision for **Riddu Riđđu** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-norway",
+      "title": "Compared with Norway",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Norwegian Folk Music** (`regions-nordic-norway-07-representative-depth`) covers the same lesson slot from the anchor perspective. This lesson stresses: **Riddu Riđđu**.\n\n| Topic | Norway anchor | Sámi Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | concerts, festivals… | Riddu Riđđu… |\n\n**Parallel anchor lesson:** `regions-nordic-norway-07-representative-depth`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-07-representative-depth`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Riddu Riđđu\n\nStudy **sámi music** through listening first. Wikipedia's article on [Sámi music](https://en.wikipedia.org/wiki/Sámi_music) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Nordic Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **joik, fiddle**. Ensemble layer: **contemporary ensemble**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **joik types**. Dance context: **ritual and festival**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **rights movement, revival**. Contemporary scenes: **Riddu Riđđu**. Tune repertoire anchor: **joik listening studies**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Riddu Riđđu\n- Lead instruments: joik, fiddle\n- Ensemble: contemporary ensemble\n- Forms: joik types\n- Dance: ritual and festival\n- History: rights movement, revival\n- Scenes: Riddu Riđđu\n- Repertoire: joik listening studies\n- Compared with Norway: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Sámi Music is a living tradition with regional accent.\n- Focus: Riddu Riđđu.\n- Compared with Norway: shared heritage, distinct emphasis.\n- Forms: joik types.\n- Dance: ritual and festival.\n- Transmission: rights movement, revival."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nS\ná\nm\ni\n \nm\nu\ns\ni\nc\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nS\ná\nm\ni\n_\nm\nu\ns\ni\nc\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nN\no\nr\nw\na\ny\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "mari-boine",
+      "type": "artist",
+      "name": "Mari Boine",
+      "summary": "Representative musician or ensemble in nordic-sami trad",
+      "blurb": "Study Mari Boine for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Mari_Boine",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "wimme",
+      "type": "band",
+      "name": "Wimme",
+      "summary": "Representative musician or ensemble in nordic-sami trad",
+      "blurb": "Study Wimme for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Wimme",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "mari-boine",
+    "wimme"
+  ],
+  "playlist": [
+    {
+      "id": "regions-nordic-sami-07-representative-depth-pl1",
+      "entity_id": "mari-boine",
+      "label": "Mari Boine — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Mari Boine"
+    },
+    {
+      "id": "regions-nordic-sami-07-representative-depth-pl2",
+      "entity_id": "wimme",
+      "label": "Wimme — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Wimme"
+    },
+    {
+      "id": "regions-nordic-sami-07-representative-depth-pl3",
+      "label": "Sámi Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-nordic-sami-07-representative-depth-pl4",
+      "label": "Sámi Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Sámi Music rewards comparative study.",
+    "Focus: Riddu Riđđu.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: joik types.",
+    "Dance: ritual and festival.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Sámi Music is a living tradition with regional accent.",
+    "Compared with Norway: shared heritage, distinct emphasis.",
+    "Transmission: rights movement, revival."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Sámi music",
+      "url": "https://en.wikipedia.org/wiki/Sámi_music",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Nordic Folk",
+      "url": "https://en.wikipedia.org/wiki/Sámi_music",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Riddu Riđđu",
+      "url": "https://en.wikipedia.org/wiki/Sámi_music",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) Riddu Riđđu\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) Riddu Riđđu\n\n### Q2. Sámi Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Norway, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) joik, fiddle\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) joik, fiddle\n\n### Q5. Ensemble voices include:\n- A) contemporary ensemble\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) contemporary ensemble\n\n### Q6. Tune and song forms include:\n- A) joik types\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) joik types\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) rights movement, revival\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) rights movement, revival\n\n### Q9. Contemporary scenes include:\n- A) Riddu Riđđu\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) Riddu Riđđu\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) joik listening studies\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) joik listening studies\n\n### Q12. The Compared with Norway section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Riddu Riđđu",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": ") Riddu Riđđu"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Sámi Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Norway, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "joik, fiddle",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") joik, fiddle"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "contemporary ensemble",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") contemporary ensemble"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "joik types",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") joik types"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Riddu Riđđu",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Riddu Riđđu",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "rights movement, revival",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") rights movement, revival"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "joik, fiddle",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Riddu Riđđu",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") Riddu Riđđu"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "joik listening studies",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        }
+      ],
+      "explain": ") joik listening studies"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Norway section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-nordic-sami-07-representative-depth-quiz",
+    "title": "Sámi Music — Representative Fusions and Scenes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Riddu Riđđu",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": ") Riddu Riđđu"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Sámi Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Norway, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "joik, fiddle",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") joik, fiddle"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "contemporary ensemble",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") contemporary ensemble"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "joik types",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") joik types"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Riddu Riđđu",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Riddu Riđđu",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "rights movement, revival",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") rights movement, revival"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "joik, fiddle",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Riddu Riđđu",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") Riddu Riđđu"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "joik listening studies",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": ") joik listening studies"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Norway section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

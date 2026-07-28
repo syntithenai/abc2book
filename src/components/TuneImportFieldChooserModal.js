@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Alert, Button, Form, Modal, Table } from 'react-bootstrap';
+import SelectAllToggle from './SelectAllToggle';
+import CheckToggleButton from './CheckToggleButton';
 import {
   applyTuneImportSelections,
   buildDefaultTuneImportSelections,
@@ -47,7 +49,7 @@ export function TuneImportFieldPicker(props) {
         Tick the fields you want to import. Unticked fields stay as they are on your current tune.
       </Alert>
 
-      <div style={{ display: 'flex', gap: '0.5em', flexWrap: 'wrap', marginBottom: '0.75em' }}>
+      <div className="tune-import-field-actions select-all-host" style={{ display: 'flex', gap: '0.5em', flexWrap: 'wrap', marginBottom: '0.75em', alignItems: 'stretch' }}>
         <Button
           size="sm"
           variant="outline-primary"
@@ -59,28 +61,22 @@ export function TuneImportFieldPicker(props) {
         >
           Recommended (metadata, music, lyrics)
         </Button>
-        <Button
+        <SelectAllToggle
           size="sm"
-          variant="outline-secondary"
-          onClick={function() {
-            const next = setAllTuneImportSelections(rows, false);
-            setSelections(next);
-            if (typeof props.onSelectionsChange === 'function') props.onSelectionsChange(next);
-          }}
-        >
-          Select none
-        </Button>
-        <Button
-          size="sm"
-          variant="outline-success"
-          onClick={function() {
+          totalCount={rows.length}
+          selectedCount={selectedCount}
+          onSelectAll={function() {
             const next = setAllTuneImportSelections(rows, true);
             setSelections(next);
             if (typeof props.onSelectionsChange === 'function') props.onSelectionsChange(next);
           }}
-        >
-          Select all
-        </Button>
+          onSelectNone={function() {
+            const next = setAllTuneImportSelections(rows, false);
+            setSelections(next);
+            if (typeof props.onSelectionsChange === 'function') props.onSelectionsChange(next);
+          }}
+          ariaLabel="Select all fields for import"
+        />
       </div>
 
       {changedCount > 0 && (
@@ -107,19 +103,16 @@ export function TuneImportFieldPicker(props) {
               return (
                 <tr key={row.key} className={row.differs ? 'table-warning' : undefined}>
                   <td className="text-center align-middle">
-                    <Form.Check
-                      type="checkbox"
-                      id={'tune-import-' + row.key + (props.idPrefix || '')}
+                    <CheckToggleButton
+                      size="sm"
                       checked={!!selections[row.key]}
-                      onChange={function(e) { updateSelection(row.key, e.target.checked); }}
-                      aria-label={'Import ' + row.label}
+                      ariaLabel={'Import ' + row.label}
+                      onClick={function() { updateSelection(row.key, !selections[row.key]); }}
                     />
                   </td>
                   <td className="align-middle">
-                    <label htmlFor={'tune-import-' + row.key + (props.idPrefix || '')} style={{ marginBottom: 0, cursor: 'pointer' }}>
-                      <div>{row.label}</div>
-                      <small className="text-muted">{row.group}</small>
-                    </label>
+                    <div>{row.label}</div>
+                    <small className="text-muted">{row.group}</small>
                   </td>
                   <td style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>{row.originalDisplay}</td>
                   <td style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>{row.importedDisplay}</td>

@@ -2,8 +2,8 @@
 
 export default [
   {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-1",
-    "title": "Celtic-Comparative trad: key ideas (1)",
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-1",
+    "title": "Comparative trad: key ideas (1)",
     "track": "celtic",
     "region": "celtic-comparative",
     "kind": "theory_lesson",
@@ -20,72 +20,52 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
     "estimateMinutes": 4,
-    "body": "From **What \"Celtic Music\" Means** (Celtic-Comparative trad):\n\n- Ireland is the anchor; comparison adds precision.\n\n- Shared instruments differ by social role.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **What \"Celtic Music\" Means** (Comparative trad):\n\n- Celtic music is scholarly umbrella, political project, and commercial brand.\n\n- Irish trad is one deep tradition — not interchangeable with Celtic marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-1-q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-1-q1",
+        "type": "truefalse",
+        "prompt": "\"Irish traditional music\" and \"Celtic music\" are identical terms.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "Celtic is broader; Irish trad is one specific tradition."
       },
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-1-q2",
+        "type": "truefalse",
+        "prompt": "Musical Celtism is partly a modern construct involving revivals and festivals, not only ancient unbroken practice.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
             "text": "False",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-2",
-    "title": "Celtic-Comparative trad: key ideas (2)",
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-2",
+    "title": "Comparative trad: key ideas (2)",
     "track": "celtic",
     "region": "celtic-comparative",
     "kind": "theory_lesson",
@@ -102,72 +82,52 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
     "estimateMinutes": 4,
-    "body": "From **What \"Celtic Music\" Means** (Celtic-Comparative trad):\n\n- Tune forms require dance-context listening.\n\n- Revival paths diverge by institution.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **What \"Celtic Music\" Means** (Comparative trad):\n\n- Prefer regional labels (Sligo reel, fest-noz gavotte) over mist-and-harp cliché.\n\n- Pan-Celtic festivals create encounter without merging repertoires.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-2-q1",
+        "type": "truefalse",
+        "prompt": "Marketing often flattens regional traditions into generic harp-and-mist imagery.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-2-q2",
+        "type": "truefalse",
+        "prompt": "Pan-Celtic festivals can support mutual visibility without merging all repertoires into one style.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-3",
-    "title": "Celtic-Comparative trad: key ideas (3)",
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-3",
+    "title": "Comparative trad: key ideas (3)",
     "track": "celtic",
     "region": "celtic-comparative",
     "kind": "theory_lesson",
@@ -184,72 +144,62 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
     "estimateMinutes": 4,
-    "body": "From **What \"Celtic Music\" Means** (Celtic-Comparative trad):\n\n- Avoid Celtic marketing cliché.\n\n- \"Celtic\" is a useful map, not a single repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **What \"Celtic Music\" Means** (Comparative trad):\n\n- Ireland is often default Celtic voice abroad — privilege and responsibility.\n\n- \"Celtic music\" is a modern umbrella — scholarly, political, and commercial at once.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-3-q1",
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "When studying recordings, prefer labels like \"East Galway fiddle\" over generic \"Celtic moods.\"",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Social dance forms discussed in the body",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "c",
-            "text": "True",
+            "text": "True — specificity aids learning",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: True — specificity aids learning"
       },
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Ireland often becomes the default \"Celtic\" voice in diaspora and tourism contexts.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "True",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-4",
-    "title": "Celtic-Comparative trad: key ideas (4)",
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-4",
+    "title": "Comparative trad: key ideas (4)",
     "track": "celtic",
     "region": "celtic-comparative",
     "kind": "theory_lesson",
@@ -266,72 +216,702 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
     "estimateMinutes": 4,
-    "body": "From **What \"Celtic Music\" Means** (Celtic-Comparative trad):\n\n- Ireland provides one deep anchor; other nations add necessary contrast.\n\n- Marketing labels often flatten regional specificity—compare recordings, not only album covers.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **What \"Celtic Music\" Means** (Comparative trad):\n\n- Irish traditional music is one deep tradition within that umbrella; not every \"Celtic\" product is trad.\n\n- Marketing flattens regional accents into harp-and-mist cliché.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-4-q1",
+        "type": "truefalse",
+        "prompt": "A New Age \"Celtic meditation\" album is equivalent to a Clare pub session for trad study.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
+            "text": "True",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
+            "text": "False",
+            "correct": true
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "Correct answer: False"
       },
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Pan-Celticism connects language revival, cultural exchange, and festival infrastructure.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-1",
-    "title": "Celtic-Comparative trad: key ideas (1)",
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-5",
+    "title": "Comparative trad: key ideas (5)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "From **What \"Celtic Music\" Means** (Comparative trad):\n\n- Pan-Celtic festivals and politics create valuable encounter without merging repertoires.\n\n- Ireland often serves as default \"Celtic\" voice abroad — privilege and responsibility.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-5-q1",
+        "type": "truefalse",
+        "prompt": "Ancient Celtic archaeological culture maps directly note-for-note onto modern session reels.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "continuity is narrative and revival-mediated."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Comparative study should notice which nations are absent from a \"Celtic\" lineup.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-6",
+    "title": "Comparative trad: key ideas (6)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "From **What \"Celtic Music\" Means** (Comparative trad):\n\n- Specify region, form, and social context when studying or performing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Irish artists touring internationally carry some educational responsibility about regional sources.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "many listeners meet Ireland first."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-kp-6-q2",
+        "type": "mcq",
+        "prompt": "Best practice after this lesson:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Rename your playlists by region and tune form; revisit Ireland overview trad vs Celtic section",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Rename your playlists by region and tune form; revisit Ireland overview trad vs Celtic section"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-1-overview",
+    "title": "Comparative trad: Overview",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "Walk into a gift shop in any tourist city and you will find \"Celtic\" incense, \"Celtic\" relaxation playlists, and harp motifs on mugs — often with no connection to a living session in Ennis, a fest-noz in Vannes, or a gaita parade in Santiago de Compostela. Walk into those communities and you will hear musicians who may reject the label \"Celtic\" as marketing fluff while proudly playing at the Festival Interceltique de Lorient. Both reactions are intelligible. Celtic music is simultaneously a scholarly family resemblance among Northwestern European folk traditions, a political project linking nations and language revivals, and a commercial brand that flattens regional specificity into misty harp clichés.\n\nThis lesson separates those layers. Ireland — which you studied first — becomes the reference tradition: deep repertoire, global diaspora, institutions like Comhaltas Ceoltóirí Éireann. When someone says \"Celtic fiddle,\" ask: Sligo roll, Shetland snap, Cape Breton cut, or Breton fest-noz phrasing? The word \"Celtic\" without a postcode misleads.\n\nWalk into a gift shop in any tourist city and you will find \"Celtic\" incense, \"Celtic\" relaxation playlists, and harp motifs on mugs — often with no connection to a living session in Ennis, a fest-noz in Vannes, or a gaita parade in Santiago de Compostela. Walk into those communities and you will hear musicians who may reject the label \"Celtic\" as marketing fluff while proudly playing at the Festival Interceltique de Lorient. Both reactions are intelligible. Celtic music is simultaneously a scholarly family resemblance among Northwestern European folk traditions, a political project linking nations and language revivals, and a commercial brand that flattens regional specificity into misty harp clichés. This lesson separates those layers. Ireland — which you studied…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-1-overview-q1",
+        "type": "truefalse",
+        "prompt": "\"Irish traditional music\" and \"Celtic music\" are identical terms.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Celtic is broader; Irish trad is one specific tradition."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Musical Celtism is partly a modern construct involving revivals and festivals, not only ancient unbroken practice.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-2-historical-celts-versus-musical-celtism",
+    "title": "Comparative trad: Historical Celts versus musical Celtism",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "Archaeologists and linguists debate who the ancient Celts were — La Tène material culture, Iron Age migrations, Celtic-language speakers across Europe. Modern Celtic nations (Ireland, Scotland, Wales, Brittany, Cornwall, Isle of Man, plus Galicia and Asturias in festival politics) claim cultural continuity with that past. Music does not descend in a straight line from Bronze Age horns to uilleann pipes. Instead, medieval harpers, nineteenth-century collectors, twentieth-century revivals, and twenty-first-century festivals assemble a narrative of kinship.\n\nMusical Celtism is therefore a modern construct as much as an ancient fact — useful for festival booking, language activism, and comparative study; dangerous when it implies all regions share one rhythm, one instrument lineup, one session etiquette.\n\nArchaeologists and linguists debate who the ancient Celts were — La Tène material culture, Iron Age migrations, Celtic-language speakers across Europe. Modern Celtic nations (Ireland, Scotland, Wales, Brittany, Cornwall, Isle of Man, plus Galicia and Asturias in festival politics) claim cultural continuity with that past. Music does not descend in a straight line from Bronze Age horns to uilleann pipes. Instead, medieval harpers, nineteenth-century collectors, twentieth-century revivals, and twenty-first-century festivals assemble a narrative of kinship.\n\nMusical Celtism is therefore a modern construct as much as an ancient fact — useful for festival booking, language activism, and comparative study; dangerous when it implies all regions share one rhythm, one instrument lineup, one session etiquette.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-2-historical-celts-versus-musical-celtism-q1",
+        "type": "truefalse",
+        "prompt": "Marketing often flattens regional traditions into generic harp-and-mist imagery.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-2-historical-celts-versus-musical-celtism-q2",
+        "type": "truefalse",
+        "prompt": "Pan-Celtic festivals can support mutual visibility without merging all repertoires into one style.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-3-trad-versus-celtic-ireland-as-anchor",
+    "title": "Comparative trad: Trad versus Celtic: Ireland as anchor",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "Irish traditional music names a specific island practice: oral tune transmission, session sets, defined dance forms (reel, jig, hornpipe, polka, slide), sean-nós song, uilleann pipes, bodhrán debates, fleadh competition culture. You learned this vocabulary in the Ireland unit.\n\nCeltic music names a wider shelf in record shops and festival brochures. Wikipedia groups folk genres that evolved from Celtic peoples' traditions across Northwestern Europe and the diaspora. The shelf includes:\n\n- Pure regional trad (Clare session, Breton fest-noz, Cape Breton square dance).\n- Cross-national collaborations (Irish-Breton bands).\n- New Age and ambient hybrids with harp and synthesiser pads.\n- Film soundtracks (Braveheart, Lord of the Rings) that borrow Celtic timbres without regional grammar.\n\nAs a student, prefer trad labels over Celtic labels when buying recordings or planning practice. \"East Galway fiddle\" teaches you something; \"Celtic moods\" does not.\n\nIrish traditional music names a specific island practice: oral tune transmission, session sets, defined dance forms (reel, jig, hornpipe, polka, slide), sean-nós song, uilleann pipes, bodhrán debates, fleadh competition culture. You learned this vocabulary in the Ireland unit. Celtic music names a wider shelf in record shops and festival brochures. Wikipedia groups folk genres that evolved from Celtic peoples' traditions across Northwestern Europe and the diaspora. The shelf includes: - Pure regional trad (Clare session, Breton fest-noz, Cape Breton square dance). - Cross-national collaborations (Irish-Breton bands). - New Age and ambient hybrids with harp and synthesiser pads. - Film soundtracks (Braveheart, Lord of the Rings) that borrow Celtic timbres without regional grammar. As a student, prefer trad labels over Celtic…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-3-trad-versus-celtic-ireland-as-anchor-q1",
+        "type": "mcq",
+        "prompt": "When studying recordings, prefer labels like \"East Galway fiddle\" over generic \"Celtic moods.\"",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True — specificity aids learning",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: True — specificity aids learning"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-3-trad-versus-celtic-ireland-as-anchor-q2",
+        "type": "truefalse",
+        "prompt": "Ireland often becomes the default \"Celtic\" voice in diaspora and tourism contexts.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-4-marketing-flattening-how-cliché-spreads",
+    "title": "Comparative trad: Marketing flattening: how cliché spreads",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "Several forces compress diversity:\n\n1. Tourism — shamrock iconography sells Dublin and Brittany alike to visitors who want one predictable sound.\n2. Streaming algorithms — playlists lump Enya, Clannad, and a pub session reel under one tag.\n3. Festival closing acts — fusion supergroups imply that all nations naturally merge into rock backbeats.\n4. Diaspora nostalgia — Irish-American events may programme only reel-and-jig session standards, ignoring Welsh plygi or Manx carvals.\n\nIrish trad suffers both ways: it is the default voice of Celtic marketing (erasing others), and it is sometimes dismissed as \"too mainstream\" within purist subcultures. Comparative study corrects both errors by naming accents.\n\nSeveral forces compress diversity:\n\n1. Tourism — shamrock iconography sells Dublin and Brittany alike to visitors who want one predictable sound.\n2. Streaming algorithms — playlists lump Enya, Clannad, and a pub session reel under one tag.\n3. Festival closing acts — fusion supergroups imply that all nations naturally merge into rock backbeats.\n4. Diaspora nostalgia — Irish-American events may programme only reel-and-jig session standards, ignoring Welsh plygi or Manx carvals.\n\nIrish trad suffers both ways: it is the default voice of Celtic marketing (erasing others), and it is sometimes dismissed as \"too mainstream\" within purist subcultures. Comparative study corrects both errors by naming accents.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-4-marketing-flattening-how-cliché-spreads-q1",
+        "type": "truefalse",
+        "prompt": "A New Age \"Celtic meditation\" album is equivalent to a Clare pub session for trad study.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Correct answer: False"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-4-marketing-flattening-how-cliché-spreads-q2",
+        "type": "truefalse",
+        "prompt": "Pan-Celticism connects language revival, cultural exchange, and festival infrastructure.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-5-pan-celticism-as-politics-and-practice",
+    "title": "Comparative trad: Pan-Celticism as politics and practice",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "Pan-Celticism links language revival, autonomy movements, and cultural exchange. Festivals, congresses, and broadcast specials create infrastructure for musicians who would never otherwise meet. Breton fest-noz organisers learn Irish set-dance curation; Galician pipers tour with Irish flute players; Cornish revivalists gain legitimacy beside larger nations.\n\nPan-Celticism does not require believing all musics are identical. It requires mutual visibility — especially for fringe nations rebuilding repertoire from manuscripts. Ireland's scale can overshadow; conscious programming gives Cornwall, Mann, and Asturias stage time.\n\nPan-Celticism links language revival, autonomy movements, and cultural exchange. Festivals, congresses, and broadcast specials create infrastructure for musicians who would never otherwise meet. Breton fest-noz organisers learn Irish set-dance curation; Galician pipers tour with Irish flute players; Cornish revivalists gain legitimacy beside larger nations.\n\nPan-Celticism does not require believing all musics are identical. It requires mutual visibility — especially for fringe nations rebuilding repertoire from manuscripts. Ireland's scale can overshadow; conscious programming gives Cornwall, Mann, and Asturias stage time.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-5-pan-celticism-as-politics-and-practice-q1",
+        "type": "truefalse",
+        "prompt": "Ancient Celtic archaeological culture maps directly note-for-note onto modern session reels.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "continuity is narrative and revival-mediated."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-5-pan-celticism-as-politics-and-practice-q2",
+        "type": "truefalse",
+        "prompt": "Comparative study should notice which nations are absent from a \"Celtic\" lineup.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-6-compared-with-ireland",
+    "title": "Comparative trad: Compared with Ireland",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "Use Ireland as your control when decoding \"Celtic\":\n\n| Question | Irish trad answer | \"Celtic\" marketing answer |\n|----------|-------------------|---------------------------|\n| Where does music live? | Pubs, fleadhanna, kitchens | Spotify, gift shops, arena tours |\n| Core dance forms | Reel, jig, hornpipe, polka, slide | Undefined \"foot-tapping\" |\n| Lead institutions | Comhaltas, ITMA, TG4 | Record labels, tourism boards |\n| Learning path | By ear, sessions, teachers | Passive ambient listening |\n| Ornament | Regional fiddle/flute accents | Generic harp arpeggios |\n\nWhen a product says \"Celtic,\" map it onto the Irish column first. If it matches none of the rows, it may still be enjoyable music — but it is not a substitute for studying trad.\n\nIrish musicians touring as \"Celtic\" acts should still honour tune sources: credit composers, name regions, avoid presenting Breton tunes as Irish without context. Listeners abroad often meet Ireland first; Irish artists carry educational responsibility whether they accept it or not.\n\nParallel Ireland lesson: `regions-celtic-ireland-01-overview` — \"Trad versus Celtic\" section; diaspora unit for festival networks.\n\nUse Ireland as your control when decoding \"Celtic\": | Question | Irish trad answer | \"Celtic\" marketing answer | |----------|-------------------|---------------------------| | Where does music live? | Pubs, fleadhanna, kitchens | Spotify, gift shops, arena tours | | Core dance forms | Reel, jig, hornpipe, polka, slide | Undefined \"foot-tapping\" | | Lead institutions | Comhaltas, ITMA, TG4 | Record labels, tourism boards | | Learning path | By ear, sessions, teachers | Passive ambient listening | | Ornament | Regional fiddle/flute accents | Generic harp arpeggios | When a product says \"Celtic,\" map it onto the Irish column first. If it matches none of the rows, it may still be enjoyable music — but it is not a substitute for…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-6-compared-with-ireland-q1",
+        "type": "truefalse",
+        "prompt": "Irish artists touring internationally carry some educational responsibility about regional sources.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "many listeners meet Ireland first."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-6-compared-with-ireland-q2",
+        "type": "mcq",
+        "prompt": "Best practice after this lesson:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Rename your playlists by region and tune form; revisit Ireland overview trad vs Celtic section",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Rename your playlists by region and tune form; revisit Ireland overview trad vs Celtic section"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-7-practical-rules-for-students",
+    "title": "Comparative trad: Practical rules for students",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "1. Specify region and form — \"Sligo reel\" beats \"Celtic fiddle.\"\n2. Compare recordings, not album covers — mist and castles lie.\n3. Attend regional events — one fest-noz teaches more than ten meditation albums.\n4. Notice who is absent — if a \"Celtic\" festival never books Welsh or Manx artists, the brand is incomplete.\n5. Hold two truths — family resemblance is real; identity is not interchangeable.\n\n1. Specify region and form — \"Sligo reel\" beats \"Celtic fiddle.\"\n2. Compare recordings, not album covers — mist and castles lie.\n3. Attend regional events — one fest-noz teaches more than ten meditation albums.\n4. Notice who is absent — if a \"Celtic\" festival never books Welsh or Manx artists, the brand is incomplete.\n5. Hold two truths — family resemblance is real; identity is not interchangeable.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-7-practical-rules-for-students-q1",
+        "type": "truefalse",
+        "prompt": "\"Irish traditional music\" and \"Celtic music\" are identical terms.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Celtic is broader; Irish trad is one specific tradition."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-7-practical-rules-for-students-q2",
+        "type": "truefalse",
+        "prompt": "Musical Celtism is partly a modern construct involving revivals and festivals, not only ancient unbroken practice.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-8-key-points",
+    "title": "Comparative trad: Key points",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "comparative",
+      "celtic",
+      "labels",
+      "marketing"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-01-what-celtic-means",
+    "estimateMinutes": 4,
+    "body": "- \"Celtic music\" is a modern umbrella — scholarly, political, and commercial at once.\n- Irish traditional music is one deep tradition within that umbrella; not every \"Celtic\" product is trad.\n- Marketing flattens regional accents into harp-and-mist cliché.\n- Pan-Celtic festivals and politics create valuable encounter without merging repertoires.\n- Ireland often serves as default \"Celtic\" voice abroad — privilege and responsibility.\n- Specify region, form, and social context when studying or performing.\n\n- \"Celtic music\" is a modern umbrella — scholarly, political, and commercial at once.\n- Irish traditional music is one deep tradition within that umbrella; not every \"Celtic\" product is trad.\n- Marketing flattens regional accents into harp-and-mist cliché.\n- Pan-Celtic festivals and politics create valuable encounter without merging repertoires.\n- Ireland often serves as default \"Celtic\" voice abroad — privilege and responsibility.\n- Specify region, form, and social context when studying or performing.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-8-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Marketing often flattens regional traditions into generic harp-and-mist imagery.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-01-what-celtic-means-sec-8-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Pan-Celtic festivals can support mutual visibility without merging all repertoires into one style.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-1",
+    "title": "Comparative trad: key ideas (1)",
     "track": "celtic",
     "region": "celtic-comparative",
     "kind": "theory_lesson",
@@ -348,72 +928,52 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
     "estimateMinutes": 4,
-    "body": "From **Shared Instruments Compared** (Celtic-Comparative trad):\n\n- Ireland is the anchor; comparison adds precision.\n\n- Shared instruments differ by social role.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Shared Instruments Compared** (Comparative trad):\n\n- Harp, pipes, and fiddle span nations with different construction and social role.\n\n- Uilleann pipes are bellows-driven with regulators — not Highland or gaita pipes.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-1-q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-1-q1",
+        "type": "truefalse",
+        "prompt": "Uilleann pipes use a bellows and may include regulator keys for chordal accompaniment.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
+            "id": "b",
             "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-1-q2",
+        "type": "truefalse",
+        "prompt": "Highland bagpipes are typically blown directly and associated with outdoor pipe bands.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-2",
-    "title": "Celtic-Comparative trad: key ideas (2)",
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-2",
+    "title": "Comparative trad: key ideas (2)",
     "track": "celtic",
     "region": "celtic-comparative",
     "kind": "theory_lesson",
@@ -430,42 +990,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
     "estimateMinutes": 4,
-    "body": "From **Shared Instruments Compared** (Celtic-Comparative trad):\n\n- Tune forms require dance-context listening.\n\n- Revival paths diverge by institution.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Shared Instruments Compared** (Comparative trad):\n\n- Fiddle ornament grammar differs by region despite shared tune names.\n\n- Welsh harp ties to eisteddfod; Breton bombard-biniou leads fest-noz.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "False",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "True",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": true
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
-      },
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-2-q1",
+        "type": "truefalse",
+        "prompt": "Fiddle ornament is interchangeable across Irish, Cape Breton, and Shetland styles without relearning.",
         "difficulty": 6,
         "choices": [
           {
@@ -475,493 +1006,16 @@ export default [
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          }
-        ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-3",
-    "title": "Celtic-Comparative trad: key ideas (3)",
-    "track": "celtic",
-    "region": "celtic-comparative",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "comparative",
-      "harp",
-      "pipes",
-      "fiddle"
-    ],
-    "prerequisites": [
-      "regions-celtic-comparative-01-what-celtic-means"
-    ],
-    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
-    "estimateMinutes": 4,
-    "body": "From **Shared Instruments Compared** (Celtic-Comparative trad):\n\n- Avoid Celtic marketing cliché.\n\n- \"Celtic\" is a useful map, not a single repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "True",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "True",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          }
-        ],
-        "explain": ") Voices named in the lesson introduction"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-4",
-    "title": "Celtic-Comparative trad: key ideas (4)",
-    "track": "celtic",
-    "region": "celtic-comparative",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "comparative",
-      "harp",
-      "pipes",
-      "fiddle"
-    ],
-    "prerequisites": [
-      "regions-celtic-comparative-01-what-celtic-means"
-    ],
-    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
-    "estimateMinutes": 4,
-    "body": "From **Shared Instruments Compared** (Celtic-Comparative trad):\n\n- Ireland provides one deep anchor; other nations add necessary contrast.\n\n- Marketing labels often flatten regional specificity—compare recordings, not only album covers.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "True",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-1",
-    "title": "Celtic-Comparative trad: key ideas (1)",
-    "track": "celtic",
-    "region": "celtic-comparative",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "comparative",
-      "jig",
-      "reel",
-      "strathspey",
-      "gavotte"
-    ],
-    "prerequisites": [
-      "regions-celtic-comparative-02-shared-instruments"
-    ],
-    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
-    "estimateMinutes": 4,
-    "body": "From **Tune Forms Compared** (Celtic-Comparative trad):\n\n- Ireland is the anchor; comparison adds precision.\n\n- Shared instruments differ by social role.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-1-q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Community dance and oral transmission",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          }
-        ],
-        "explain": ") Community dance and oral transmission"
-      },
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-2",
-    "title": "Celtic-Comparative trad: key ideas (2)",
-    "track": "celtic",
-    "region": "celtic-comparative",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "comparative",
-      "jig",
-      "reel",
-      "strathspey",
-      "gavotte"
-    ],
-    "prerequisites": [
-      "regions-celtic-comparative-02-shared-instruments"
-    ],
-    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
-    "estimateMinutes": 4,
-    "body": "From **Tune Forms Compared** (Celtic-Comparative trad):\n\n- Tune forms require dance-context listening.\n\n- Revival paths diverge by institution.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "regional bowing grammar differs."
       },
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-2-q2",
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          }
-        ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-3",
-    "title": "Celtic-Comparative trad: key ideas (3)",
-    "track": "celtic",
-    "region": "celtic-comparative",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "comparative",
-      "jig",
-      "reel",
-      "strathspey",
-      "gavotte"
-    ],
-    "prerequisites": [
-      "regions-celtic-comparative-02-shared-instruments"
-    ],
-    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
-    "estimateMinutes": 4,
-    "body": "From **Tune Forms Compared** (Celtic-Comparative trad):\n\n- Avoid Celtic marketing cliché.\n\n- \"Celtic\" is a useful map, not a single repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "True",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sligo fiddle style",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          }
-        ],
-        "explain": ") Voices named in the lesson introduction"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-4",
-    "title": "Celtic-Comparative trad: key ideas (4)",
-    "track": "celtic",
-    "region": "celtic-comparative",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "comparative",
-      "jig",
-      "reel",
-      "strathspey",
-      "gavotte"
-    ],
-    "prerequisites": [
-      "regions-celtic-comparative-02-shared-instruments"
-    ],
-    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
-    "estimateMinutes": 4,
-    "body": "From **Tune Forms Compared** (Celtic-Comparative trad):\n\n- Ireland provides one deep anchor; other nations add necessary contrast.\n\n- Marketing labels often flatten regional specificity—compare recordings, not only album covers.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Sligo fiddle style",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "prompt": "The gaita galega is most associated with:",
         "difficulty": 6,
         "choices": [
           {
@@ -971,8 +1025,774 @@ export default [
           },
           {
             "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Galicia",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Galicia"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-3",
+    "title": "Comparative trad: key ideas (3)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "From **Shared Instruments Compared** (Comparative trad):\n\n- Specify pipe type — bagpipes alone is insufficient.\n\n- Harp, pipes, and fiddle span Celtic nations but with different construction, ornament, and social role.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-3-q1",
+        "type": "truefalse",
+        "prompt": "Breton fest-noz often pairs bombard with biniou rather than stacking Irish-style fiddle leads.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Welsh harp tradition connects strongly to eisteddfod competition and ceremonial culture.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-4",
+    "title": "Comparative trad: key ideas (4)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "From **Shared Instruments Compared** (Comparative trad):\n\n- Uilleann pipes are bellows-driven with regulators — not interchangeable with Highland or gaita pipes.\n\n- Fiddle regional accents (Sligo, Donegal, Cape Breton, Shetland) share tunes but not bowing grammar.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-4-q1",
+        "type": "truefalse",
+        "prompt": "Calling all Celtic bagpipes one instrument type is sufficient for session arrangement.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "construction and social context differ radically."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Irish harp appears in modern sessions but rarely leads dance sets the way fiddle does.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-5",
+    "title": "Comparative trad: key ideas (5)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "From **Shared Instruments Compared** (Comparative trad):\n\n- Welsh harp carries competition and ceremonial weight distinct from Irish session harp.\n\n- Breton bombard-biniou and Galician gaita ensembles lead dance differently from Irish pub sessions.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-5-q1",
+        "type": "truefalse",
+        "prompt": "The bodhrán is a universal required instrument in all Celtic nations' sessions.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "it is Irish-associated and debated even there."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Cape Breton fiddle emphasises cut bowing and dance lift compared with many Irish session styles.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-6",
+    "title": "Comparative trad: key ideas (6)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "From **Shared Instruments Compared** (Comparative trad):\n\n- Specify pipe type and region — \"bagpipes\" alone is insufficient.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "UNESCO recognised uilleann piping as intangible cultural heritage.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-kp-6-q2",
+        "type": "mcq",
+        "prompt": "Best study approach:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Compare three regional recordings per instrument family using construction and social context notes",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Compare three regional recordings per instrument family using construction and social context notes"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-1-overview",
+    "title": "Comparative trad: Overview",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "Harp, bagpipes, and fiddle appear across Celtic nations — on festival posters, in museum cases, and in living rooms where learners practise by ear. Shared inventory tempts beginners to assume interchangeable technique: if you play Irish fiddle, Scottish fiddle is \"the same\"; if you know uilleann pipes, Galician gaita is a minor variation. Instrument families do share DNA. Social role, construction, ornament, and repertoire diverge sharply. This lesson compares three pillars using Ireland as reference, with Scotland, Wales, Brittany, Galicia, and diaspora accents in the frame.\n\nHarp, bagpipes, and fiddle appear across Celtic nations — on festival posters, in museum cases, and in living rooms where learners practise by ear. Shared inventory tempts beginners to assume interchangeable technique: if you play Irish fiddle, Scottish fiddle is \"the same\"; if you know uilleann pipes, Galician gaita is a minor variation. Instrument families do share DNA. Social role, construction, ornament, and repertoire diverge sharply. This lesson compares three pillars using Ireland as reference, with Scotland, Wales, Brittany, Galicia, and diaspora accents in the frame.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-1-overview-q1",
+        "type": "truefalse",
+        "prompt": "Uilleann pipes use a bellows and may include regulator keys for chordal accompaniment.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Highland bagpipes are typically blown directly and associated with outdoor pipe bands.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-2-harp-from-bardic-prestige-to-session-edge",
+    "title": "Comparative trad: Harp: from bardic prestige to session edge",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "Ireland's Irish harp (cláirseach) tradition spans medieval bardic culture (Turlough O'Carolan), nineteenth-century society harpers, and modern performers like Laoise Kelly who sit harp in sessions and concert halls. The instrument uses levers or historic gut-string technique; ornament includes trebles and hand placement that imitates fiddle rolls.\n\nWales claims one of Europe's oldest harp cultures — the triple-strung harp and cerdd dant (string music) with strict classical pedagogy and eisteddfod competition. Welsh harp is not a pub-session default the way fiddle is; it carries national ceremonial weight.\n\nScotland clàrsach revival connects to similar historical harpers; contemporary players bridge folk and early music.\n\nBrittany uses harp in fest-noz bands and Alan Stivell-era fusion — often alongside bombard and accordion.\n\nCompared with Ireland: Irish harp recovered from near-extinction through organisations like Cairde na Cruite; it now appears in sessions but rarely leads dance sets the way fiddle does. Welsh harp leads national competition culture. Do not transfer Irish session harp chord habits to Welsh cerdd dant without retraining.\n\nIreland's Irish harp (cláirseach) tradition spans medieval bardic culture (Turlough O'Carolan), nineteenth-century society harpers, and modern performers like Laoise Kelly who sit harp in sessions and concert halls. The instrument uses levers or historic gut-string technique; ornament includes trebles and hand placement that imitates fiddle rolls. Wales claims one of Europe's oldest harp cultures — the triple-strung harp and cerdd dant (string music) with strict classical pedagogy and eisteddfod competition. Welsh harp is not a pub-session default the way fiddle is; it carries national ceremonial weight. Scotland clàrsach revival connects to similar historical harpers; contemporary players bridge folk and early music. Brittany uses harp in fest-noz bands and Alan Stivell-era fusion — often alongside bombard and accordion. Compared with Ireland:…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-2-harp-from-bardic-prestige-to-session-edge-q1",
+        "type": "truefalse",
+        "prompt": "Fiddle ornament is interchangeable across Irish, Cape Breton, and Shetland styles without relearning.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "regional bowing grammar differs."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-2-harp-from-bardic-prestige-to-session-edge-q2",
+        "type": "mcq",
+        "prompt": "The gaita galega is most associated with:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Galicia",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Galicia"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-3-bagpipes-one-name-many-technologies",
+    "title": "Comparative trad: Bagpipes: one name, many technologies",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "\"Pipes\" is the most dangerous shared label in Celtic music. | Type | Region | Mechanism | Typical context | |------|--------|-----------|-----------------| | Uilleann pipes | Ireland | Bellows, chanter, drones, regulators | Indoor, seated, session/concert | | Highland pipes | Scotland | Blown, outdoor volume | Pipe bands, marches, dances | | Smallpipes | Scotland/Borders | Quieter indoor sets | Sessions, small halls | | Gaita galega | Galicia | Blown, snare/bass drum ensemble | Parades, muiñeira dances | | Biniou | Brittany | High-pitched with bombard | Fest-noz dance sets | | Cornish pipes | Cornwall | Revived historical form | Festival, revival contexts | Irish Uilleann pipes use a bellows under the arm — lungs never touch the bag directly. Regulator keys allow chordal accompaniment unique among Celtic pipes. Ornament includes cuts, rolls, and cran on the chanter. UNESCO listed uilleann piping as intangible heritage in 2017. Scottish Highland pipes power pipe bands — massed discipline, unison march phrasing, competition circuits unrelated to Irish regulator chords. Strathspeys and reels adapt to pipe scale and drone limitations. Galician Gaita…\n\n\"Pipes\" is the most dangerous shared label in Celtic music. | Type | Region | Mechanism | Typical context | |------|--------|-----------|-----------------| | Uilleann pipes | Ireland | Bellows, chanter, drones, regulators | Indoor, seated, session/concert | | Highland pipes | Scotland | Blown, outdoor volume | Pipe bands, marches, dances | | Smallpipes | Scotland/Borders | Quieter indoor sets | Sessions, small halls | | Gaita galega | Galicia | Blown, snare/bass drum ensemble | Parades, muiñeira dances | | Biniou | Brittany | High-pitched with bombard | Fest-noz dance sets | | Cornish pipes | Cornwall | Revived historical form | Festival, revival contexts | Irish Uilleann pipes use a bellows under the arm — lungs never touch the…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-3-bagpipes-one-name-many-technologies-q1",
+        "type": "truefalse",
+        "prompt": "Breton fest-noz often pairs bombard with biniou rather than stacking Irish-style fiddle leads.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-3-bagpipes-one-name-many-technologies-q2",
+        "type": "truefalse",
+        "prompt": "Welsh harp tradition connects strongly to eisteddfod competition and ceremonial culture.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-4-fiddle-regional-accent-on-a-shared-body",
+    "title": "Comparative trad: Fiddle: regional accent on a shared body",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "The violin becomes a fiddle when repertoire, bowing, and social context say so. Ireland's regional schools — Sligo rolls, Donegal short bowing, Clare spacing — differ from:\n\n- Scottish strathspey snap and Shetland ring.\n- Cape Breton cut bowing and drone strings for step dance.\n- Breton fest-noz phrasing beside bombard.\n- Galician ensemble fiddle in gaita bands.\n\nShared tune families travel (The Silver Spear, Miss Monaghan, St. Anne's Reel), but ornament grammar does not. An Irish roll transferred literally to Shetland style sounds wrong; Cape Breton lift misapplied in a slow Clare air rushes the phrase.\n\nSession social role differs: Irish pub sessions stack fiddles as melody peers; Breton fest-noz may subordinate fiddle to bombard-biniou; pipe bands eliminate fiddle entirely.\n\nCompared with Ireland: treat Irish fiddle as reference for tune names and session keys (D, G, A, E minor), then relearn bowing when crossing borders.\n\nThe violin becomes a fiddle when repertoire, bowing, and social context say so. Ireland's regional schools — Sligo rolls, Donegal short bowing, Clare spacing — differ from: - Scottish strathspey snap and Shetland ring. - Cape Breton cut bowing and drone strings for step dance. - Breton fest-noz phrasing beside bombard. - Galician ensemble fiddle in gaita bands. Shared tune families travel (The Silver Spear, Miss Monaghan, St. Anne's Reel), but ornament grammar does not. An Irish roll transferred literally to Shetland style sounds wrong; Cape Breton lift misapplied in a slow Clare air rushes the phrase. Session social role differs: Irish pub sessions stack fiddles as melody peers; Breton fest-noz may subordinate fiddle to bombard-biniou; pipe bands eliminate fiddle…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-4-fiddle-regional-accent-on-a-shared-body-q1",
+        "type": "truefalse",
+        "prompt": "Calling all Celtic bagpipes one instrument type is sufficient for session arrangement.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "construction and social context differ radically."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-4-fiddle-regional-accent-on-a-shared-body-q2",
+        "type": "truefalse",
+        "prompt": "Irish harp appears in modern sessions but rarely leads dance sets the way fiddle does.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-5-secondary-voices-worth-comparing",
+    "title": "Comparative trad: Secondary voices worth comparing",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "Briefly note instruments that appear in multiple nations with different weight:\n\n- Accordion/concertina — Irish box (B/C, C#/D) vs Breton diatonic vs Scottish piano accordion in ceilidh bands.\n- Flute/whistle — Irish wooden flute tradition vs Scottish and Galician contexts.\n- Bodhrán — Irish frame drum debated in sessions; not universal elsewhere.\n- Bombard — Breton shawm leading fest-noz; no Irish equivalent in sessions.\n\nBriefly note instruments that appear in multiple nations with different weight:\n\n- Accordion/concertina — Irish box (B/C, C#/D) vs Breton diatonic vs Scottish piano accordion in ceilidh bands.\n- Flute/whistle — Irish wooden flute tradition vs Scottish and Galician contexts.\n- Bodhrán — Irish frame drum debated in sessions; not universal elsewhere.\n- Bombard — Breton shawm leading fest-noz; no Irish equivalent in sessions.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-5-secondary-voices-worth-comparing-q1",
+        "type": "truefalse",
+        "prompt": "The bodhrán is a universal required instrument in all Celtic nations' sessions.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "it is Irish-associated and debated even there."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-5-secondary-voices-worth-comparing-q2",
+        "type": "truefalse",
+        "prompt": "Cape Breton fiddle emphasises cut bowing and dance lift compared with many Irish session styles.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-8-compared-with-ireland",
+    "title": "Comparative trad: Compared with Ireland",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "Ireland's instrument lesson split (`02-instruments-traditional-voices-i`, `03-instruments-session-voices-ii`) details uilleann pipes, fiddle, flute, bodhrán, box, and guitar roles in session equilibrium. Comparative study asks: which instruments lead elsewhere?\n\n- Scotland: Highland pipes and pipe bands visible public face.\n- Wales: harp and male voice choir overshadow fiddle in popular image.\n- Brittany: bombard-biniou dyad defines fest-noz.\n- Galicia: gaita ensemble with percussion.\n\nIrish session culture exported globally through diaspora — many foreign learners meet fiddle-flute-box stacks first. That export bias makes Irish layout feel \"normal\" and Breton or Galician lead voices feel \"exotic.\" Correct by listening to home-region defaults before judging.\n\nIreland's instrument lesson split (`02-instruments-traditional-voices-i`, `03-instruments-session-voices-ii`) details uilleann pipes, fiddle, flute, bodhrán, box, and guitar roles in session equilibrium. Comparative study asks: which instruments lead elsewhere?\n\n- Scotland: Highland pipes and pipe bands visible public face.\n- Wales: harp and male voice choir overshadow fiddle in popular image.\n- Brittany: bombard-biniou dyad defines fest-noz.\n- Galicia: gaita ensemble with percussion.\n\nIrish session culture exported globally through diaspora — many foreign learners meet fiddle-flute-box stacks first. That export bias makes Irish layout feel \"normal\" and Breton or Galician lead voices feel \"exotic.\" Correct by listening to home-region defaults before judging.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-8-compared-with-ireland-q1",
+        "type": "truefalse",
+        "prompt": "UNESCO recognised uilleann piping as intangible cultural heritage.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-8-compared-with-ireland-q2",
+        "type": "mcq",
+        "prompt": "Best study approach:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Compare three regional recordings per instrument family using construction and social context notes",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Compare three regional recordings per instrument family using construction and social context notes"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-9-key-points",
+    "title": "Comparative trad: Key points",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "harp",
+      "pipes",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-01-what-celtic-means"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-02-shared-instruments",
+    "estimateMinutes": 4,
+    "body": "- Harp, pipes, and fiddle span Celtic nations but with different construction, ornament, and social role.\n- Uilleann pipes are bellows-driven with regulators — not interchangeable with Highland or gaita pipes.\n- Fiddle regional accents (Sligo, Donegal, Cape Breton, Shetland) share tunes but not bowing grammar.\n- Welsh harp carries competition and ceremonial weight distinct from Irish session harp.\n- Breton bombard-biniou and Galician gaita ensembles lead dance differently from Irish pub sessions.\n- Specify pipe type and region — \"bagpipes\" alone is insufficient.\n\n- Harp, pipes, and fiddle span Celtic nations but with different construction, ornament, and social role.\n- Uilleann pipes are bellows-driven with regulators — not interchangeable with Highland or gaita pipes.\n- Fiddle regional accents (Sligo, Donegal, Cape Breton, Shetland) share tunes but not bowing grammar.\n- Welsh harp carries competition and ceremonial weight distinct from Irish session harp.\n- Breton bombard-biniou and Galician gaita ensembles lead dance differently from Irish pub sessions.\n- Specify pipe type and region — \"bagpipes\" alone is insufficient.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-9-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Uilleann pipes use a bellows and may include regulator keys for chordal accompaniment.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-02-shared-instruments-sec-9-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Highland bagpipes are typically blown directly and associated with outdoor pipe bands.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-1",
+    "title": "Comparative trad: key ideas (1)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "From **Tune Forms Compared** (Comparative trad):\n\n- Metre resemblance does not make forms interchangeable — name the dance.\n\n- Irish reels and jigs are session defaults; strathspeys add Scottish dotted snap.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-1-q1",
+        "type": "mcq",
+        "prompt": "Irish double jigs are most commonly in:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
           },
           {
             "id": "c",
@@ -985,312 +1805,76 @@ export default [
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: 6/8 with a two-beat feel per bar"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-1-q2",
+        "type": "truefalse",
+        "prompt": "Strathspeys are strongly associated with Scottish tradition and feature a dotted rhythmic snap.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-1",
-    "title": "Celtic-Comparative trad: key ideas (1)",
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-2",
+    "title": "Comparative trad: key ideas (2)",
     "track": "celtic",
     "region": "celtic-comparative",
     "kind": "theory_lesson",
-    "difficulty": 7,
+    "difficulty": 6,
     "tags": [
       "celtic",
       "comparative",
-      "revival",
-      "archives",
-      "broadcast"
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
     ],
     "prerequisites": [
-      "regions-celtic-comparative-03-tune-forms-compared"
+      "regions-celtic-comparative-02-shared-instruments"
     ],
-    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
     "estimateMinutes": 4,
-    "body": "From **Revivals Compared** (Celtic-Comparative trad):\n\n- Ireland is the anchor; comparison adds precision.\n\n- Shared instruments differ by social role.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Tune Forms Compared** (Comparative trad):\n\n- Muiñeiras, gavottes, and plinn share 6/8 territory with jigs — different labels.\n\n- Set architecture differs: Irish three-reel chains vs Breton fest-noz builds.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-1-q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
-        "difficulty": 7,
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-2-q1",
+        "type": "truefalse",
+        "prompt": "A Galician muiñeira should be labelled simply \"an Irish jig\" without further context.",
+        "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
-            "correct": true
-          }
-        ],
-        "explain": ") Community dance and oral transmission"
-      },
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-2",
-    "title": "Celtic-Comparative trad: key ideas (2)",
-    "track": "celtic",
-    "region": "celtic-comparative",
-    "kind": "theory_lesson",
-    "difficulty": 7,
-    "tags": [
-      "celtic",
-      "comparative",
-      "revival",
-      "archives",
-      "broadcast"
-    ],
-    "prerequisites": [
-      "regions-celtic-comparative-03-tune-forms-compared"
-    ],
-    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
-    "estimateMinutes": 4,
-    "body": "From **Revivals Compared** (Celtic-Comparative trad):\n\n- Tune forms require dance-context listening.\n\n- Revival paths diverge by institution.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "dance and regional phrasing differ."
       },
       {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          }
-        ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-3",
-    "title": "Celtic-Comparative trad: key ideas (3)",
-    "track": "celtic",
-    "region": "celtic-comparative",
-    "kind": "theory_lesson",
-    "difficulty": 7,
-    "tags": [
-      "celtic",
-      "comparative",
-      "revival",
-      "archives",
-      "broadcast"
-    ],
-    "prerequisites": [
-      "regions-celtic-comparative-03-tune-forms-compared"
-    ],
-    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
-    "estimateMinutes": 4,
-    "body": "From **Revivals Compared** (Celtic-Comparative trad):\n\n- Avoid Celtic marketing cliché.\n\n- \"Celtic\" is a useful map, not a single repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          }
-        ],
-        "explain": ") Voices named in the lesson introduction"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-4",
-    "title": "Celtic-Comparative trad: key ideas (4)",
-    "track": "celtic",
-    "region": "celtic-comparative",
-    "kind": "theory_lesson",
-    "difficulty": 7,
-    "tags": [
-      "celtic",
-      "comparative",
-      "revival",
-      "archives",
-      "broadcast"
-    ],
-    "prerequisites": [
-      "regions-celtic-comparative-03-tune-forms-compared"
-    ],
-    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
-    "estimateMinutes": 4,
-    "body": "From **Revivals Compared** (Celtic-Comparative trad):\n\n- Ireland provides one deep anchor; other nations add necessary contrast.\n\n- Marketing labels often flatten regional specificity—compare recordings, not only album covers.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 7,
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-2-q2",
+        "type": "truefalse",
+        "prompt": "Breton gavottes and plinn relate to fest-noz dance culture.",
+        "difficulty": 6,
         "choices": [
           {
             "id": "a",
@@ -1299,21 +1883,1745 @@ export default [
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-3",
+    "title": "Comparative trad: key ideas (3)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "From **Tune Forms Compared** (Comparative trad):\n\n- Foot-tap tests and dance video beat score reading alone.\n\n- Metre family resemblance does not make forms interchangeable — dance context names the tune.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-3-q1",
+        "type": "truefalse",
+        "prompt": "Irish sessions commonly chain three reels before switching form.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Slip jigs are in 9/8 and associated with soft-shoe Irish dance.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-4",
+    "title": "Comparative trad: key ideas (4)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "From **Tune Forms Compared** (Comparative trad):\n\n- Irish reels and jigs are session defaults; Scottish strathspeys add dotted snap foreign to typical Irish reel sets.\n\n- Muiñeiras, gavottes, and plinn share 6/8 territory with jigs but require distinct labels and listening.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-4-q1",
+        "type": "truefalse",
+        "prompt": "All 6/8 tunes across Celtic nations are musically interchangeable for dance.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Correct answer: False"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Cape Breton reel sets often prioritise dance lift for step dancers.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-5",
+    "title": "Comparative trad: key ideas (5)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "From **Tune Forms Compared** (Comparative trad):\n\n- Hornpipes, polkas, slides, and mazurkas show regional adoption of dance fashions.\n\n- Set architecture (how tunes chain) differs by nation — do not import Irish three-reel habit blindly.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-5-q1",
+        "type": "truefalse",
+        "prompt": "Hornpipes in Irish tradition are typically in 4/4 with a dotted, bouncy feel.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Dropping an unannounced slow air into a reel set is considered disruptive in Irish session etiquette.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-6",
+    "title": "Comparative trad: key ideas (6)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "From **Tune Forms Compared** (Comparative trad):\n\n- Foot-tap tests and dance video clarify form faster than score reading alone.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Scottish ceilidh sets may pair strathspeys with reels differently from Irish pub defaults.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-kp-6-q2",
+        "type": "mcq",
+        "prompt": "Best comparative exercise:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Learn one 6/8 tune family track from Ireland, Brittany, and Galicia; log dance name and foot-tap",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Single-headed Irish frame drum",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Learn one 6/8 tune family track from Ireland, Brittany, and Galicia; log dance name and foot-tap"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-1-overview",
+    "title": "Comparative trad: Overview",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "Tap your foot wrong and everyone in the room knows. Tune form — metre, pulse grouping, dance association — is the grammar of Celtic dance music. Ireland gave you a field guide: reels in 4/4, double jigs in 6/8, hornpipes dotted, polkas in 2/4, slides in 12/8. Scotland adds strathspeys with their dotted snap. Brittany offers gavottes and plinn in 6/8 and related metres. Galicia names muiñeiras. Wales contributes plygi and other regional forms. Family resemblance is real; identity is not.\n\nThis lesson compares forms across nations using Ireland as reference metre. You will learn to hear why a 6/8 tune is not automatically \"a jig,\" why strathspeys refuse reel bowing, and why fest-noz dancers care about plinn feel even when the time signature looks familiar.\n\nTap your foot wrong and everyone in the room knows. Tune form — metre, pulse grouping, dance association — is the grammar of Celtic dance music. Ireland gave you a field guide: reels in 4/4, double jigs in 6/8, hornpipes dotted, polkas in 2/4, slides in 12/8. Scotland adds strathspeys with their dotted snap. Brittany offers gavottes and plinn in 6/8 and related metres. Galicia names muiñeiras. Wales contributes plygi and other regional forms. Family resemblance is real; identity is not. This lesson compares forms across nations using Ireland as reference metre. You will learn to hear why a 6/8 tune is not automatically \"a jig,\" why strathspeys refuse reel bowing, and why fest-noz dancers care about plinn feel even…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-1-overview-q1",
+        "type": "mcq",
+        "prompt": "Irish double jigs are most commonly in:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 6/8 with a two-beat feel per bar"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Strathspeys are strongly associated with Scottish tradition and feature a dotted rhythmic snap.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-2-reels-the-atlantic-workhorse",
+    "title": "Comparative trad: Reels: the Atlantic workhorse",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "Irish reels (4/4 or 2/2) drive pub sessions — steady \"ONE-two THREE-four\" pulse, foot-tap friendly, session default. Reels migrated through emigration to Cape Breton, Appalachia, and Quebec with regional bowing.\n\nScottish reels share metre but often sit beside strathspeys in sets. Pipe band reels compress melody for outdoor unison.\n\nBreton reels exist in fest-noz repertoire but share billing with gavottes and plinn — different floor choreography.\n\nCompared with Ireland: Irish sessions chain three reels habitually. Scottish ceilidhs may insert strathspey between reels. Cape Breton reels prioritise dancer lift. Metre matches; set architecture does not.\n\nIrish reels (4/4 or 2/2) drive pub sessions — steady \"ONE-two THREE-four\" pulse, foot-tap friendly, session default. Reels migrated through emigration to Cape Breton, Appalachia, and Quebec with regional bowing.\n\nScottish reels share metre but often sit beside strathspeys in sets. Pipe band reels compress melody for outdoor unison.\n\nBreton reels exist in fest-noz repertoire but share billing with gavottes and plinn — different floor choreography.\n\nCompared with Ireland: Irish sessions chain three reels habitually. Scottish ceilidhs may insert strathspey between reels. Cape Breton reels prioritise dancer lift. Metre matches; set architecture does not.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-2-reels-the-atlantic-workhorse-q1",
+        "type": "truefalse",
+        "prompt": "A Galician muiñeira should be labelled simply \"an Irish jig\" without further context.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "dance and regional phrasing differ."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-2-reels-the-atlantic-workhorse-q2",
+        "type": "truefalse",
+        "prompt": "Breton gavottes and plinn relate to fest-noz dance culture.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-3-jigs-and-the-68-family",
+    "title": "Comparative trad: Jigs and the 6/8 family",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "Irish double jigs — 6/8, two beats of three per bar, \"jiggedy\" syllables. Single jigs lighten the dotted feel. Slip jigs in 9/8 are a separate animal (soft-shoe dance). Galician Muiñeiras — also 6/8, but Galician melodic contour, gaita ensemble, and arm-raising dance steps. Not session jigs with Spanish titles. Breton Gavotte (Breton)s — 6/8 or related metres in fest-noz; call-and-response phrasing, circular dance. Subgenres (gavotte des montagnes, etc.) vary by region. Breton plinn — often discussed in 6/8 or simple duple feel depending on source; fast circular dance, distinct from Irish jig footwork. Welsh plygi (plygi / jig in Welsh contexts) — 6/8 dance tunes in Welsh folk revival; smaller session footprint than Irish jigs but legitimate form. | Form | Nation | Metre | Common error | |------|--------|-------|--------------| | Double jig | Ireland | 6/8 | Calling all 6/8 tunes jigs | | Muiñeira | Galicia | 6/8 | Ignoring gaita/dance context | | Gavotte | Brittany | 6/8 family | Confusing with Irish jig ornament | | Plinn | Brittany | dance-led pulse | Reading score without…\n\nIrish double jigs — 6/8, two beats of three per bar, \"jiggedy\" syllables. Single jigs lighten the dotted feel. Slip jigs in 9/8 are a separate animal (soft-shoe dance). Galician Muiñeiras — also 6/8, but Galician melodic contour, gaita ensemble, and arm-raising dance steps. Not session jigs with Spanish titles. Breton Gavotte (Breton)s — 6/8 or related metres in fest-noz; call-and-response phrasing, circular dance. Subgenres (gavotte des montagnes, etc.) vary by region. Breton plinn — often discussed in 6/8 or simple duple feel depending on source; fast circular dance, distinct from Irish jig footwork. Welsh plygi (plygi / jig in Welsh contexts) — 6/8 dance tunes in Welsh folk revival; smaller session footprint than Irish jigs but legitimate form. |…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-3-jigs-and-the-68-family-q1",
+        "type": "truefalse",
+        "prompt": "Irish sessions commonly chain three reels before switching form.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-3-jigs-and-the-68-family-q2",
+        "type": "truefalse",
+        "prompt": "Slip jigs are in 9/8 and associated with soft-shoe Irish dance.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-4-strathspeys-scotlands-dotted-cousin",
+    "title": "Comparative trad: Strathspeys: Scotland's dotted cousin",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "Strathspeys use 4/4 with a dotted snap — long-short rhythmic figure unlike Irish reel evenness. Highland and Scottish fiddle traditions treat strathspey as core form; Donegal highlands in Ireland borrow Scottish flavour but are not identical.\n\nIrish sessions rarely feature strathspeys in default pub sets. Scottish ceilidhs and fiddle competitions do constantly. Pipe bands adapt strathspeys to march discipline.\n\nCompared with Ireland: if your foot taps even reel pulse on a strathspey, you are missing the snap. Cross-border tune books that notate strathspeys as \"reels\" mislead learners.\n\nStrathspeys use 4/4 with a dotted snap — long-short rhythmic figure unlike Irish reel evenness. Highland and Scottish fiddle traditions treat strathspey as core form; Donegal highlands in Ireland borrow Scottish flavour but are not identical.\n\nIrish sessions rarely feature strathspeys in default pub sets. Scottish ceilidhs and fiddle competitions do constantly. Pipe bands adapt strathspeys to march discipline.\n\nCompared with Ireland: if your foot taps even reel pulse on a strathspey, you are missing the snap. Cross-border tune books that notate strathspeys as \"reels\" mislead learners.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-4-strathspeys-scotlands-dotted-cousin-q1",
+        "type": "truefalse",
+        "prompt": "All 6/8 tunes across Celtic nations are musically interchangeable for dance.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Correct answer: False"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-4-strathspeys-scotlands-dotted-cousin-q2",
+        "type": "truefalse",
+        "prompt": "Cape Breton reel sets often prioritise dance lift for step dancers.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-5-hornpipes-marches-and-later-imports",
+    "title": "Comparative trad: Hornpipes, marches, and later imports",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "Irish hornpipes — dotted 4/4, bouncy, sailor associations; regional dotting varies (Clare vs Donegal).\n\nScottish marches — pipe band staples; Donegal fiddle marches overlap historically.\n\nBreton mazurkas and Scottish waltzes — nineteenth-century European dance imports absorbed into folk repertoire.\n\nIrish polkas and slides — 2/4 and 12/8 Munster specialties; rarely central in Scottish or Breton default sets.\n\nComparative listening: name the dance before the nation. A mazurka in Brittany and a polka in Kerry both arrived from nineteenth-century European fashion — parallel adoption, not shared ancient Celtic DNA.\n\nIrish hornpipes — dotted 4/4, bouncy, sailor associations; regional dotting varies (Clare vs Donegal).\n\nScottish marches — pipe band staples; Donegal fiddle marches overlap historically.\n\nBreton mazurkas and Scottish waltzes — nineteenth-century European dance imports absorbed into folk repertoire.\n\nIrish polkas and slides — 2/4 and 12/8 Munster specialties; rarely central in Scottish or Breton default sets.\n\nComparative listening: name the dance before the nation. A mazurka in Brittany and a polka in Kerry both arrived from nineteenth-century European fashion — parallel adoption, not shared ancient Celtic DNA.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-5-hornpipes-marches-and-later-imports-q1",
+        "type": "truefalse",
+        "prompt": "Hornpipes in Irish tradition are typically in 4/4 with a dotted, bouncy feel.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-5-hornpipes-marches-and-later-imports-q2",
+        "type": "truefalse",
+        "prompt": "Dropping an unannounced slow air into a reel set is considered disruptive in Irish session etiquette.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-6-set-architecture-how-forms-chain",
+    "title": "Comparative trad: Set architecture: how forms chain",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "Ireland: three reels → three jigs → maybe hornpipes. Scotland: reel-strathspey-reel sequences in ceilidh bands. Brittany: gavotte sets building fest-noz energy across the night. Cape Breton: reel sets for step dancers until the floor demands air.\n\nSwitching form without cue is a cross-cultural session faux pas. Dropping a Breton plinn into an Irish reel set unannounced disrupts like an uninvited slow air.\n\nIreland: three reels → three jigs → maybe hornpipes. Scotland: reel-strathspey-reel sequences in ceilidh bands. Brittany: gavotte sets building fest-noz energy across the night. Cape Breton: reel sets for step dancers until the floor demands air.\n\nSwitching form without cue is a cross-cultural session faux pas. Dropping a Breton plinn into an Irish reel set unannounced disrupts like an uninvited slow air.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-6-set-architecture-how-forms-chain-q1",
+        "type": "truefalse",
+        "prompt": "Scottish ceilidh sets may pair strathspeys with reels differently from Irish pub defaults.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-6-set-architecture-how-forms-chain-q2",
+        "type": "mcq",
+        "prompt": "Best comparative exercise:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Learn one 6/8 tune family track from Ireland, Brittany, and Galicia; log dance name and foot-tap",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Learn one 6/8 tune family track from Ireland, Brittany, and Galicia; log dance name and foot-tap"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-7-compared-with-ireland",
+    "title": "Comparative trad: Compared with Ireland",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "Ireland's genres lesson (`regions-celtic-ireland-04-genres-forms`) is your metre dictionary. Use it to anchor foot-tap tests:\n\n1. Count beats per bar.\n2. Name Irish form if it fits.\n3. If dance context is foreign (fest-noz, muiñeira, pipe band march), rename the form even when metre matches.\n4. Learn one tune in two national styles — e.g. reel in Clare session vs Cape Breton dance — and log bowing differences.\n\nIrish learners abroad often default to jig/reel binary — adequate for Ennis, insufficient for Lorient. Expanding form vocabulary prevents mislabelling Breton and Galician peers.\n\nParallel lessons: Ireland `04-genres-forms`; Brittany `04-genres-forms`; Scotland `04-genres-forms`; diaspora `05-listening-across-borders`.\n\nIreland's genres lesson (`regions-celtic-ireland-04-genres-forms`) is your metre dictionary. Use it to anchor foot-tap tests:\n\n1. Count beats per bar.\n2. Name Irish form if it fits.\n3. If dance context is foreign (fest-noz, muiñeira, pipe band march), rename the form even when metre matches.\n4. Learn one tune in two national styles — e.g. reel in Clare session vs Cape Breton dance — and log bowing differences.\n\nIrish learners abroad often default to jig/reel binary — adequate for Ennis, insufficient for Lorient. Expanding form vocabulary prevents mislabelling Breton and Galician peers.\n\nParallel lessons: Ireland `04-genres-forms`; Brittany `04-genres-forms`; Scotland `04-genres-forms`; diaspora `05-listening-across-borders`.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-7-compared-with-ireland-q1",
+        "type": "mcq",
+        "prompt": "Irish double jigs are most commonly in:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 6/8 with a two-beat feel per bar"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-7-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Strathspeys are strongly associated with Scottish tradition and feature a dotted rhythmic snap.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-8-key-points",
+    "title": "Comparative trad: Key points",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "comparative",
+      "jig",
+      "reel",
+      "strathspey",
+      "gavotte"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-02-shared-instruments"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-03-tune-forms-compared",
+    "estimateMinutes": 4,
+    "body": "- Metre family resemblance does not make forms interchangeable — dance context names the tune.\n- Irish reels and jigs are session defaults; Scottish strathspeys add dotted snap foreign to typical Irish reel sets.\n- Muiñeiras, gavottes, and plinn share 6/8 territory with jigs but require distinct labels and listening.\n- Hornpipes, polkas, slides, and mazurkas show regional adoption of dance fashions.\n- Set architecture (how tunes chain) differs by nation — do not import Irish three-reel habit blindly.\n- Foot-tap tests and dance video clarify form faster than score reading alone.\n\n- Metre family resemblance does not make forms interchangeable — dance context names the tune.\n- Irish reels and jigs are session defaults; Scottish strathspeys add dotted snap foreign to typical Irish reel sets.\n- Muiñeiras, gavottes, and plinn share 6/8 territory with jigs but require distinct labels and listening.\n- Hornpipes, polkas, slides, and mazurkas show regional adoption of dance fashions.\n- Set architecture (how tunes chain) differs by nation — do not import Irish three-reel habit blindly.\n- Foot-tap tests and dance video clarify form faster than score reading alone.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-8-key-points-q1",
+        "type": "truefalse",
+        "prompt": "A Galician muiñeira should be labelled simply \"an Irish jig\" without further context.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "dance and regional phrasing differ."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-03-tune-forms-compared-sec-8-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Breton gavottes and plinn relate to fest-noz dance culture.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-1",
+    "title": "Comparative trad: key ideas (1)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "From **Revivals Compared** (Comparative trad):\n\n- All Celtic nations reached modern practice through layered revivals.\n\n- Collectors fixed oral repertoire in print with regional bias.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-1-q1",
+        "type": "mcq",
+        "prompt": "Francis O'Neill published influential Irish tune collections while based in:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Chicago",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Chicago"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-1-q2",
+        "type": "truefalse",
+        "prompt": "Comhaltas Ceoltóirí Éireann was founded in 1951 and supports the Fleadh Cheoil circuit.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-2",
+    "title": "Comparative trad: key ideas (2)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "From **Revivals Compared** (Comparative trad):\n\n- Broadcasting and competitions standardise reach while homogenising accent.\n\n- Archives preserve sources; sessions keep variation alive.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-2-q1",
+        "type": "truefalse",
+        "prompt": "Collecting tunes in print always preserves oral tradition without changing it.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "print fixes versions and introduces bias."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-2-q2",
+        "type": "truefalse",
+        "prompt": "ITMA is the Irish Traditional Music Archive in Dublin.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-3",
+    "title": "Comparative trad: key ideas (3)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "From **Revivals Compared** (Comparative trad):\n\n- Fusion ensembles recruited audiences — Ireland (Chieftains), Brittany (Stivell).\n\n- All Celtic nations reached modern practice through revival — continuous, reconstructed, or both.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-3-q1",
+        "type": "mcq",
+        "prompt": "Alan Stivell is associated with:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Breton harp revival and Celtic fusion",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Breton harp revival and Celtic fusion"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Pipe band competition culture is a distinctive Scottish revival lever compared with Irish uilleann pipe session culture.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-4",
+    "title": "Comparative trad: key ideas (4)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "From **Revivals Compared** (Comparative trad):\n\n- Collectors (O'Neill, Breathnach, regional analogues) fixed oral repertoire in print with bias.\n\n- Broadcasting standardised repertoire reach while favouring polished short sets.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-4-q1",
+        "type": "truefalse",
+        "prompt": "Broadcasting tends to favour shorter polished sets over all-night pub sessions.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Cornwall and Mann rely more on manuscript revival and festival dignity than on mass fleadh-style infrastructure.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-5",
+    "title": "Comparative trad: key ideas (5)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "From **Revivals Compared** (Comparative trad):\n\n- Competitions — fleadh, eisteddfod, pipe band worlds — teach skill and homogenise accent.\n\n- Archives (ITMA and peers) preserve sources; they do not replace living sessions.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-5-q1",
+        "type": "truefalse",
+        "prompt": "Fusion groups like The Chieftains and Planxty recruited concert audiences without erasing source traditions entirely.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "trade-offs vary by listener."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Eisteddfod culture ties Welsh folk to broader national competition including harp and choir.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-6",
+    "title": "Comparative trad: key ideas (6)",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "From **Revivals Compared** (Comparative trad):\n\n- Fusion ensembles (Ó Riada, Stivell, Chieftains) recruited audiences with trade-offs.\n\n- Compared with Ireland: Comhaltas/fleadh is the reference competition pipeline; other nations lean more on festivals or bagad circuits.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "YouTube and tune databases ended all debate about oral versus archival transmission.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "tension continues; tools changed, stakes did not."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-kp-6-q2",
+        "type": "mcq",
+        "prompt": "Best critical question when hearing \"ancient Celtic\" marketing:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Chicago",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Which revival layer produced this recording — field, competition, broadcast, or fusion?",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Which revival layer produced this recording — field, competition, broadcast, or fusion?"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-1-overview",
+    "title": "Comparative trad: Overview",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "Every Celtic nation you studied arrived at the twenty-first century through revival — sometimes layered on unbroken rural practice, sometimes assembled from manuscripts and memory after near silence. Collectors wrote tunes down; broadcasters put fiddles on radio; competitions standardised ornament; archives froze field recordings for researchers. Ireland's path — Francis O'Neill in Chicago, Seán Ó Riada's ensembles, Comhaltas Ceoltóirí Éireann and the Fleadh Cheoil na hÉireann, TG4 and Irish Traditional Music Archive — is the reference revival this course assumes. Scotland, Wales, Brittany, Cornwall, Mann, and Galicia each diverge: different state support, different fusion heroes, different relationships between folk and nationalism.\n\nThis lesson compares revival machinery without ranking nations. The question is not \"who preserved best?\" but \"which institutions shaped what you hear today — and what got lost in the process?\"\n\nEvery Celtic nation you studied arrived at the twenty-first century through revival — sometimes layered on unbroken rural practice, sometimes assembled from manuscripts and memory after near silence. Collectors wrote tunes down; broadcasters put fiddles on radio; competitions standardised ornament; archives froze field recordings for researchers. Ireland's path — Francis O'Neill in Chicago, Seán Ó Riada's ensembles, Comhaltas Ceoltóirí Éireann and the Fleadh Cheoil na hÉireann, TG4 and Irish Traditional Music Archive — is the reference revival this course assumes. Scotland, Wales, Brittany, Cornwall, Mann, and Galicia each diverge: different state support, different fusion heroes, different relationships between folk and nationalism. This lesson compares revival machinery without ranking nations. The question is not \"who preserved best?\" but \"which institutions shaped…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-1-overview-q1",
+        "type": "mcq",
+        "prompt": "Francis O'Neill published influential Irish tune collections while based in:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Chicago",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Chicago"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Comhaltas Ceoltóirí Éireann was founded in 1951 and supports the Fleadh Cheoil circuit.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-2-collectors-and-the-print-revolution",
+    "title": "Comparative trad: Collectors and the print revolution",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "Nineteenth- and early twentieth-century collectors transformed oral tradition into tune books, lecture halls, and 78 rpm catalogues.\n\nIreland: Francis O'Neill — Chicago police chief, published Music of Ireland (1903) and Dance Music of Ireland, fixing thousands of settings that sessions still use. Breandán Breathnach's Ceol Rince na hÉireann continued the work mid-century. Collecting is never neutral: O'Neill favoured certain regions; print editions became \"correct\" versions.\n\nScotland: Francis Collinson, James Scott Skinner's compositions, and later Greig-Duncan collections document fiddle and song. Highland piping had military and competition codification parallel to folk collecting.\n\nWales: Nicholas Bennett, J. Lloyd Williams — hymnody and folk song intertwined with eisteddfod culture.\n\nBrittany: Anatole Le Braz, Carl-Friedrich Baumann, and twentieth-century fieldworkers before the fest-noz boom.\n\nCornwall & Man: Smaller corpuses — carols, lilting tunes, Mona Douglas on Mann — often revived rather than continuously streamed.\n\nCompared with Ireland: O'Neill's diaspora position — collecting from immigrant musicians in Chicago — mirrors how Irish music returned to Ireland via print and 78s. Other nations had fewer emigrant publishing hubs but similar \"freeze frame\" effects when tunes hit paper.\n\nNineteenth- and early twentieth-century collectors transformed oral tradition into tune books, lecture halls, and 78 rpm catalogues. Ireland: Francis O'Neill — Chicago police chief, published Music of Ireland (1903) and Dance Music of Ireland, fixing thousands of settings that sessions still use. Breandán Breathnach's Ceol Rince na hÉireann continued the work mid-century. Collecting is never neutral: O'Neill favoured certain regions; print editions became \"correct\" versions. Scotland: Francis Collinson, James Scott Skinner's compositions, and later Greig-Duncan collections document fiddle and song. Highland piping had military and competition codification parallel to folk collecting. Wales: Nicholas Bennett, J. Lloyd Williams — hymnody and folk song intertwined with eisteddfod culture. Brittany: Anatole Le Braz, Carl-Friedrich Baumann, and twentieth-century fieldworkers before the fest-noz boom. Cornwall…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-2-collectors-and-the-print-revolution-q1",
+        "type": "truefalse",
+        "prompt": "Collecting tunes in print always preserves oral tradition without changing it.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "print fixes versions and introduces bias."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-2-collectors-and-the-print-revolution-q2",
+        "type": "truefalse",
+        "prompt": "ITMA is the Irish Traditional Music Archive in Dublin.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-3-broadcasting-and-the-microphone",
+    "title": "Comparative trad: Broadcasting and the microphone",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "Radio and television amplified revival agendas.\n\nIreland: RTÉ, especially Raidió na Gaeltachta; Céilí House legacy; TG4's visual promotion of sean-nós and trad. Broadcast created stars and standardised repertoire reach into homes without local teachers.\n\nScotland: BBC Scotland, BBC Alba — ceilidh bands, pipe majors, Gaelic song programmes.\n\nBrittany: France 3 Bretagne, cultural radio supporting fest-noz and bagad scenes.\n\nGalicia: Regional Spanish broadcast plus pan-Celtic festival footage exporting gaita culture.\n\nBroadcast favours shorter, polished sets — unlike pub sessions that run all night. Competition tunes heard on radio become learner defaults, narrowing variation — a criticism voiced in every nation.\n\nRadio and television amplified revival agendas.\n\nIreland: RTÉ, especially Raidió na Gaeltachta; Céilí House legacy; TG4's visual promotion of sean-nós and trad. Broadcast created stars and standardised repertoire reach into homes without local teachers.\n\nScotland: BBC Scotland, BBC Alba — ceilidh bands, pipe majors, Gaelic song programmes.\n\nBrittany: France 3 Bretagne, cultural radio supporting fest-noz and bagad scenes.\n\nGalicia: Regional Spanish broadcast plus pan-Celtic festival footage exporting gaita culture.\n\nBroadcast favours shorter, polished sets — unlike pub sessions that run all night. Competition tunes heard on radio become learner defaults, narrowing variation — a criticism voiced in every nation.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-3-broadcasting-and-the-microphone-q1",
+        "type": "mcq",
+        "prompt": "Alan Stivell is associated with:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Breton harp revival and Celtic fusion",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Breton harp revival and Celtic fusion"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-3-broadcasting-and-the-microphone-q2",
+        "type": "truefalse",
+        "prompt": "Pipe band competition culture is a distinctive Scottish revival lever compared with Irish uilleann pipe session culture.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-4-competitions-fleadh-eisteddfod-bagad-mod",
+    "title": "Comparative trad: Competitions: fleadh, eisteddfod, bagad, mod",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "Ireland: Fleadh Cheoil na hÉireann circuit under Comhaltas — parish to county to All-Ireland. Pedagogical backbone for generations; also criticised for homogenising regional accent toward adjudicator taste.\n\nScotland: Mod (Gaelic song), fiddle competitions, pipe band worlds — highly formalised scoring.\n\nWales: Eisteddfod — poetry, harp, choir; folk competes within broader national cultural Olympics.\n\nBrittany: Bagad competitions — pipe band spectacle influencing youth recruitment; fest-noz remains less adjudicated than fleadh but has showcase stages.\n\nCornwall/Man: Smaller competition circuits at pan-Celtic festivals; revival contexts weigh participation over mass fleadh infrastructure.\n\nCompared with Ireland: Comhaltas created a global template diaspora branches copied. Nations without equivalent mass competition networks rely more on festivals and summer schools — different skill pipelines.\n\nIreland: Fleadh Cheoil na hÉireann circuit under Comhaltas — parish to county to All-Ireland. Pedagogical backbone for generations; also criticised for homogenising regional accent toward adjudicator taste.\n\nScotland: Mod (Gaelic song), fiddle competitions, pipe band worlds — highly formalised scoring.\n\nWales: Eisteddfod — poetry, harp, choir; folk competes within broader national cultural Olympics.\n\nBrittany: Bagad competitions — pipe band spectacle influencing youth recruitment; fest-noz remains less adjudicated than fleadh but has showcase stages.\n\nCornwall/Man: Smaller competition circuits at pan-Celtic festivals; revival contexts weigh participation over mass fleadh infrastructure.\n\nCompared with Ireland: Comhaltas created a global template diaspora branches copied. Nations without equivalent mass competition networks rely more on festivals and summer schools — different skill pipelines.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-4-competitions-fleadh-eisteddfod-bagad-mod-q1",
+        "type": "truefalse",
+        "prompt": "Broadcasting tends to favour shorter polished sets over all-night pub sessions.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-4-competitions-fleadh-eisteddfod-bagad-mod-q2",
+        "type": "truefalse",
+        "prompt": "Cornwall and Mann rely more on manuscript revival and festival dignity than on mass fleadh-style infrastructure.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-5-archives-and-the-digital-turn",
+    "title": "Comparative trad: Archives and the digital turn",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "Ireland: Irish Traditional Music Archive — national archive in Dublin; field recordings, manuscripts, research access.\n\nScotland: School of Scottish Studies archives, National Library of Scotland collections.\n\nBrittany: Cultural institutes and fest-noz organisational memory.\n\nWales: National Library of Wales folk holdings.\n\nDigital era: YouTube, tune databases (The Session), slow-down apps — global leveller. Every nation now fights attention economy against pop streaming. Archives preserve; they do not guarantee living practice.\n\nDebate repeats everywhere: archival purity vs living variation. Ireland's argument about \"authentic\" session style vs competition style is Brittany's argument about fest-noz purism vs fusion rock — same tension, different accents.\n\nIreland: Irish Traditional Music Archive — national archive in Dublin; field recordings, manuscripts, research access.\n\nScotland: School of Scottish Studies archives, National Library of Scotland collections.\n\nBrittany: Cultural institutes and fest-noz organisational memory.\n\nWales: National Library of Wales folk holdings.\n\nDigital era: YouTube, tune databases (The Session), slow-down apps — global leveller. Every nation now fights attention economy against pop streaming. Archives preserve; they do not guarantee living practice.\n\nDebate repeats everywhere: archival purity vs living variation. Ireland's argument about \"authentic\" session style vs competition style is Brittany's argument about fest-noz purism vs fusion rock — same tension, different accents.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-5-archives-and-the-digital-turn-q1",
+        "type": "truefalse",
+        "prompt": "Fusion groups like The Chieftains and Planxty recruited concert audiences without erasing source traditions entirely.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "trade-offs vary by listener."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-5-archives-and-the-digital-turn-q2",
+        "type": "truefalse",
+        "prompt": "Eisteddfod culture ties Welsh folk to broader national competition including harp and choir.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-6-fusion-heroes-and-soft-revivals",
+    "title": "Comparative trad: Fusion heroes and soft revivals",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "Revival is not only collectors and competitions. Ensemble modernisers recruited new audiences.\n\nIreland: Seán Ó Riada, Ceoltóirí Chualann, The Chieftains, Planxty, later supergroups — concert hall respectability.\n\nBrittany: Alan Stivell — harp-rock, global Breton identity, template for Celtic fusion marketing.\n\nGalicia: Luar na Lubre, Carlos Núñez — Atlantic Celtic branding.\n\nScotland: Battlefield Band, Silly Wizard, capercaillie lineage.\n\nFusion builds audiences who may never attend a village session — but some return to source traditions. Others stay at New Age Celtic shelf. Revivalists negotiate both outcomes.\n\nRevival is not only collectors and competitions. Ensemble modernisers recruited new audiences.\n\nIreland: Seán Ó Riada, Ceoltóirí Chualann, The Chieftains, Planxty, later supergroups — concert hall respectability.\n\nBrittany: Alan Stivell — harp-rock, global Breton identity, template for Celtic fusion marketing.\n\nGalicia: Luar na Lubre, Carlos Núñez — Atlantic Celtic branding.\n\nScotland: Battlefield Band, Silly Wizard, capercaillie lineage.\n\nFusion builds audiences who may never attend a village session — but some return to source traditions. Others stay at New Age Celtic shelf. Revivalists negotiate both outcomes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-6-fusion-heroes-and-soft-revivals-q1",
+        "type": "truefalse",
+        "prompt": "YouTube and tune databases ended all debate about oral versus archival transmission.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "tension continues; tools changed, stakes did not."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-6-fusion-heroes-and-soft-revivals-q2",
+        "type": "mcq",
+        "prompt": "Best critical question when hearing \"ancient Celtic\" marketing:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Chicago",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Which revival layer produced this recording — field, competition, broadcast, or fusion?",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Which revival layer produced this recording — field, competition, broadcast, or fusion?"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-7-compared-with-ireland",
+    "title": "Comparative trad: Compared with Ireland",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "Ireland's twentieth-century revival stack:\n\n1. Diaspora collecting (O'Neill) → fixed repertoire\n2. 78 rpm and emigrant dance halls → style export\n3. State broadcaster + language policy → Gaeltacht visibility\n4. Comhaltas/fleadh → pedagogy and competition\n5. ITMA + TG4 → archive and visual culture\n6. Concert fusion → export brand\n\nOther nations mix layers differently:\n\n| Nation | Distinctive revival lever |\n|--------|---------------------------|\n| Scotland | Pipe band military-competition complex |\n| Wales | Eisteddfod tying folk to hymnody and harp |\n| Brittany | Fest-noz grassroots + bagad spectacle + Stivell fusion |\n| Galicia | Celtic nation branding within Spanish state |\n| Cornwall/Man | Manuscript revival + pan-Celtic festival dignity |\n\nLessons for listeners: When you hear \"ancient Celtic music,\" ask which revival layer produced the recording — field, competition, broadcast, or fusion stage. Ireland's depth makes it easy to mistake the most documented revival for the only one.\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history-transmission` — diaspora 78s, collectors, transmission debate.\n\nIreland's twentieth-century revival stack: 1. Diaspora collecting (O'Neill) → fixed repertoire 2. 78 rpm and emigrant dance halls → style export 3. State broadcaster + language policy → Gaeltacht visibility 4. Comhaltas/fleadh → pedagogy and competition 5. ITMA + TG4 → archive and visual culture 6. Concert fusion → export brand Other nations mix layers differently: | Nation | Distinctive revival lever | |--------|---------------------------| | Scotland | Pipe band military-competition complex | | Wales | Eisteddfod tying folk to hymnody and harp | | Brittany | Fest-noz grassroots + bagad spectacle + Stivell fusion | | Galicia | Celtic nation branding within Spanish state | | Cornwall/Man | Manuscript revival + pan-Celtic festival dignity | Lessons for listeners: When you…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-7-compared-with-ireland-q1",
+        "type": "mcq",
+        "prompt": "Francis O'Neill published influential Irish tune collections while based in:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Chicago",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Chicago"
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-7-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Comhaltas Ceoltóirí Éireann was founded in 1951 and supports the Fleadh Cheoil circuit.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-8-key-points",
+    "title": "Comparative trad: Key points",
+    "track": "celtic",
+    "region": "celtic-comparative",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "celtic",
+      "comparative",
+      "revival",
+      "archives",
+      "broadcast"
+    ],
+    "prerequisites": [
+      "regions-celtic-comparative-03-tune-forms-compared"
+    ],
+    "lessonSourceId": "regions-celtic-comparative-04-revivals-compared",
+    "estimateMinutes": 4,
+    "body": "- All Celtic nations reached modern practice through revival — continuous, reconstructed, or both.\n- Collectors (O'Neill, Breathnach, regional analogues) fixed oral repertoire in print with bias.\n- Broadcasting standardised repertoire reach while favouring polished short sets.\n- Competitions — fleadh, eisteddfod, pipe band worlds — teach skill and homogenise accent.\n- Archives (ITMA and peers) preserve sources; they do not replace living sessions.\n- Fusion ensembles (Ó Riada, Stivell, Chieftains) recruited audiences with trade-offs.\n- Compared with Ireland: Comhaltas/fleadh is the reference competition pipeline; other nations lean more on festivals or bagad circuits.\n\n- All Celtic nations reached modern practice through revival — continuous, reconstructed, or both.\n- Collectors (O'Neill, Breathnach, regional analogues) fixed oral repertoire in print with bias.\n- Broadcasting standardised repertoire reach while favouring polished short sets.\n- Competitions — fleadh, eisteddfod, pipe band worlds — teach skill and homogenise accent.\n- Archives (ITMA and peers) preserve sources; they do not replace living sessions.\n- Fusion ensembles (Ó Riada, Stivell, Chieftains) recruited audiences with trade-offs.\n- Compared with Ireland: Comhaltas/fleadh is the reference competition pipeline; other nations lean more on festivals or bagad circuits.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-8-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Collecting tunes in print always preserves oral tradition without changing it.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "print fixes versions and introduces bias."
+      },
+      {
+        "id": "celtic-comparative-regions-celtic-comparative-04-revivals-compared-sec-8-key-points-q2",
+        "type": "truefalse",
+        "prompt": "ITMA is the Irish Traditional Music Archive in Dublin.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   }

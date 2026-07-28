@@ -1,0 +1,782 @@
+{
+  "regions-south-hindustani-01-overview": {
+    "entities": [
+      {
+        "id": "ravi-shankar",
+        "type": "artist",
+        "name": "Ravi Shankar",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Ravi Shankar for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ravi_Shankar",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "zakir-hussain",
+        "type": "band",
+        "name": "Zakir Hussain",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Zakir Hussain for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Zakir_Hussain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-hindustani-01-overview-pl1",
+        "entity_id": "ravi-shankar",
+        "label": "Ravi Shankar — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-hindustani-01-overview-pl2",
+        "entity_id": "zakir-hussain",
+        "label": "Zakir Hussain — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-hindustani-01-overview-pl3",
+        "label": "Hindustani Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-hindustani-01-overview-pl4",
+        "label": "Hindustani Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hindustani Music rewards comparative study.",
+      "Focus: Hindustani Music spans sitar, sarod, voice leading voices, raga, tala, bandish, and kathak.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: raga, tala, bandish.",
+      "Dance: kathak dance link.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Hindustani classical music",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Hindustani Music spans sitar, sarod, voice leading voices, r",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-hindustani-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "ravi-shankar",
+        "type": "artist",
+        "name": "Ravi Shankar",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Ravi Shankar for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ravi_Shankar",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "zakir-hussain",
+        "type": "band",
+        "name": "Zakir Hussain",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Zakir Hussain for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Zakir_Hussain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-hindustani-02-instruments-voices-i-pl1",
+        "entity_id": "ravi-shankar",
+        "label": "Ravi Shankar — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-hindustani-02-instruments-voices-i-pl2",
+        "entity_id": "zakir-hussain",
+        "label": "Zakir Hussain — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-hindustani-02-instruments-voices-i-pl3",
+        "label": "Hindustani Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-hindustani-02-instruments-voices-i-pl4",
+        "label": "Hindustani Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hindustani Music rewards comparative study.",
+      "Focus: sitar, sarod, voice.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: raga, tala, bandish.",
+      "Dance: kathak dance link.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Hindustani classical music",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "sitar, sarod, voice",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-hindustani-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "ravi-shankar",
+        "type": "artist",
+        "name": "Ravi Shankar",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Ravi Shankar for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ravi_Shankar",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "zakir-hussain",
+        "type": "band",
+        "name": "Zakir Hussain",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Zakir Hussain for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Zakir_Hussain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-hindustani-03-instruments-voices-ii-pl1",
+        "entity_id": "ravi-shankar",
+        "label": "Ravi Shankar — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-hindustani-03-instruments-voices-ii-pl2",
+        "entity_id": "zakir-hussain",
+        "label": "Zakir Hussain — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-hindustani-03-instruments-voices-ii-pl3",
+        "label": "Hindustani Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-hindustani-03-instruments-voices-ii-pl4",
+        "label": "Hindustani Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hindustani Music rewards comparative study.",
+      "Focus: tabla, tanpura, harmonium.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: raga, tala, bandish.",
+      "Dance: kathak dance link.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Hindustani classical music",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "tabla, tanpura, harmonium",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-hindustani-04-genres-forms": {
+    "entities": [
+      {
+        "id": "ravi-shankar",
+        "type": "artist",
+        "name": "Ravi Shankar",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Ravi Shankar for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ravi_Shankar",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "zakir-hussain",
+        "type": "band",
+        "name": "Zakir Hussain",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Zakir Hussain for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Zakir_Hussain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-hindustani-04-genres-forms-pl1",
+        "entity_id": "ravi-shankar",
+        "label": "Ravi Shankar — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-hindustani-04-genres-forms-pl2",
+        "entity_id": "zakir-hussain",
+        "label": "Zakir Hussain — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-hindustani-04-genres-forms-pl3",
+        "label": "Hindustani Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-hindustani-04-genres-forms-pl4",
+        "label": "Hindustani Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hindustani Music rewards comparative study.",
+      "Focus: raga, tala, bandish.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: raga, tala, bandish.",
+      "Dance: kathak dance link.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Hindustani classical music",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "raga, tala, bandish",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-hindustani-05-dance": {
+    "entities": [
+      {
+        "id": "ravi-shankar",
+        "type": "artist",
+        "name": "Ravi Shankar",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Ravi Shankar for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ravi_Shankar",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "zakir-hussain",
+        "type": "band",
+        "name": "Zakir Hussain",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Zakir Hussain for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Zakir_Hussain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-hindustani-05-dance-pl1",
+        "entity_id": "ravi-shankar",
+        "label": "Ravi Shankar — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-hindustani-05-dance-pl2",
+        "entity_id": "zakir-hussain",
+        "label": "Zakir Hussain — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-hindustani-05-dance-pl3",
+        "label": "Hindustani Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-hindustani-05-dance-pl4",
+        "label": "Hindustani Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hindustani Music rewards comparative study.",
+      "Focus: kathak dance link.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: raga, tala, bandish.",
+      "Dance: kathak dance link.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Hindustani classical music",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "kathak dance link",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-hindustani-06-history": {
+    "entities": [
+      {
+        "id": "ravi-shankar",
+        "type": "artist",
+        "name": "Ravi Shankar",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Ravi Shankar for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ravi_Shankar",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "zakir-hussain",
+        "type": "band",
+        "name": "Zakir Hussain",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Zakir Hussain for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Zakir_Hussain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-hindustani-06-history-pl1",
+        "entity_id": "ravi-shankar",
+        "label": "Ravi Shankar — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-hindustani-06-history-pl2",
+        "entity_id": "zakir-hussain",
+        "label": "Zakir Hussain — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-hindustani-06-history-pl3",
+        "label": "Hindustani Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-hindustani-06-history-pl4",
+        "label": "Hindustani Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hindustani Music rewards comparative study.",
+      "Focus: gharana, All India Radio.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: raga, tala, bandish.",
+      "Dance: kathak dance link.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Hindustani classical music",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "gharana, All India Radio",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-hindustani-07-representative-depth": {
+    "entities": [
+      {
+        "id": "ravi-shankar",
+        "type": "artist",
+        "name": "Ravi Shankar",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Ravi Shankar for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ravi_Shankar",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "zakir-hussain",
+        "type": "band",
+        "name": "Zakir Hussain",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Zakir Hussain for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Zakir_Hussain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-hindustani-07-representative-depth-pl1",
+        "entity_id": "ravi-shankar",
+        "label": "Ravi Shankar — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-hindustani-07-representative-depth-pl2",
+        "entity_id": "zakir-hussain",
+        "label": "Zakir Hussain — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-hindustani-07-representative-depth-pl3",
+        "label": "Hindustani Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-hindustani-07-representative-depth-pl4",
+        "label": "Hindustani Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hindustani Music rewards comparative study.",
+      "Focus: fusion festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: raga, tala, bandish.",
+      "Dance: kathak dance link.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Hindustani classical music",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "fusion festivals",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-hindustani-08-tunes": {
+    "entities": [
+      {
+        "id": "ravi-shankar",
+        "type": "artist",
+        "name": "Ravi Shankar",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Ravi Shankar for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ravi_Shankar",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "zakir-hussain",
+        "type": "band",
+        "name": "Zakir Hussain",
+        "summary": "Representative musician or ensemble in south-hindustani trad",
+        "blurb": "Study Zakir Hussain for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Zakir_Hussain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-hindustani-08-tunes-pl1",
+        "entity_id": "ravi-shankar",
+        "label": "Ravi Shankar — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-hindustani-08-tunes-pl2",
+        "entity_id": "zakir-hussain",
+        "label": "Zakir Hussain — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-hindustani-08-tunes-pl3",
+        "label": "Hindustani Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-hindustani-08-tunes-pl4",
+        "label": "Hindustani Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hindustani Music rewards comparative study.",
+      "Focus: Yaman, Bhairavi listening.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: raga, tala, bandish.",
+      "Dance: kathak dance link.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Hindustani classical music",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Yaman, Bhairavi listening",
+        "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "yaman",
+        "type": "tune",
+        "name": "Yaman",
+        "form": "raga",
+        "reference": "Hindustani classical music repertoire",
+        "about": "Representative hindustani music listening study.",
+        "playlist": [
+          {
+            "label": "Yaman — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "bhairavi-listening",
+        "type": "tune",
+        "name": "Bhairavi listening",
+        "form": "raga",
+        "reference": "Hindustani classical music repertoire",
+        "about": "Representative hindustani music listening study.",
+        "playlist": [
+          {
+            "label": "Bhairavi listening — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "hindustani-standard-2",
+        "type": "tune",
+        "name": "hindustani standard 2",
+        "form": "raga",
+        "reference": "Hindustani classical music repertoire",
+        "about": "Representative hindustani music listening study.",
+        "playlist": [
+          {
+            "label": "hindustani standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

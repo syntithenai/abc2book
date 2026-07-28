@@ -1,0 +1,32 @@
+.select-all-toggle.check-toggle-btn {
+  align-self: stretch;
+}
+
+.select-all-host > .select-all-toggle,
+.scratchpad-list-select-controls > .select-all-toggle,
+.tune-list-toolbar-row > .select-all-toggle,
+.tune-import-field-actions > .select-all-toggle,
+.search-result-picker-bulk-actions > .select-all-toggle,
+.audio-drive-upload-modal-select-actions > .select-all-toggle,
+.duplicate-merge-actions > .select-all-toggle {
+  align-self: stretch;
+  height: 100%;
+}
+
+.tune-list-toolbar-row > .select-all-toggle {
+  margin-left: 0.5rem;
+}
+
+.tune-list-group-select-wrap .select-all-toggle {
+  align-self: auto;
+}
+
+.select-all-toggle-with-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.select-all-toggle-label {
+  margin-bottom: 0;
+}

@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Track:** Celtic Music | **Unit:** Pan-Celtic comparative | **Tier:** 4"
+          "text": "**Track:** regions | **Unit:** Pan-Celtic comparative | **Tier:** 4 | **Difficulty:** 6/10\n**Prerequisites:** regions-celtic-comparative-01-what-celtic-means\n**Tags:** harp, pipes, fiddle, instruments, comparative, uilleann, gaita, bagpipes"
         }
       ]
     },
@@ -35,7 +35,73 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Harp, bagpipes, and fiddle appear across nations with different construction, repertoire, and social roles."
+          "text": "Harp, bagpipes, and fiddle appear across Celtic nations — on festival posters, in museum cases, and in living rooms where learners practise by ear. Shared inventory tempts beginners to assume **interchangeable technique**: if you play Irish fiddle, Scottish fiddle is \"the same\"; if you know uilleann pipes, Galician gaita is a minor variation. Instrument families do share DNA. Social role, construction, ornament, and repertoire **diverge sharply**. This lesson compares three pillars using Ireland as reference, with Scotland, Wales, Brittany, Galicia, and diaspora accents in the frame.\n\n![Irish harp (cláirseach)](https://en.wikipedia.org/wiki/Special:FilePath/Cl%C3%A1irseach.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "harp-from-bardic-prestige-to-session-edge",
+      "title": "Harp: from bardic prestige to session edge",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ireland's Irish harp (cláirseach) tradition spans medieval bardic culture (Turlough O'Carolan), nineteenth-century society harpers, and modern performers like Laoise Kelly who sit harp in sessions and concert halls. The instrument uses levers or historic gut-string technique; ornament includes trebles and hand placement that imitates fiddle rolls.\n\n**Wales** claims one of Europe's oldest harp cultures — the triple-strung harp and *cerdd dant* (string music) with strict classical pedagogy and eisteddfod competition. Welsh harp is not a pub-session default the way fiddle is; it carries national ceremonial weight.\n\n**Scotland** clàrsach revival connects to similar historical harpers; contemporary players bridge folk and early music.\n\n**Brittany** uses harp in fest-noz bands and Alan Stivell-era fusion — often alongside bombard and accordion.\n\n**Compared with Ireland:** Irish harp recovered from near-extinction through organisations like Cairde na Cruite; it now appears in sessions but rarely leads dance sets the way fiddle does. Welsh harp leads national competition culture. Do not transfer Irish session harp chord habits to Welsh *cerdd dant* without retraining."
+        }
+      ]
+    },
+    {
+      "id": "bagpipes-one-name-many-technologies",
+      "title": "Bagpipes: one name, many technologies",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "\"Pipes\" is the most dangerous shared label in Celtic music.\n\n| Type | Region | Mechanism | Typical context |\n|------|--------|-----------|-----------------|\n| **Uilleann pipes** | Ireland | Bellows, chanter, drones, regulators | Indoor, seated, session/concert |\n| **Highland pipes** | Scotland | Blown, outdoor volume | Pipe bands, marches, dances |\n| **Smallpipes** | Scotland/Borders | Quieter indoor sets | Sessions, small halls |\n| **Gaita galega** | Galicia | Blown, snare/bass drum ensemble | Parades, muiñeira dances |\n| **Biniou** | Brittany | High-pitched with bombard | Fest-noz dance sets |\n| **Cornish pipes** | Cornwall | Revived historical form | Festival, revival contexts |\n\nIrish Uilleann pipes use a bellows under the arm — lungs never touch the bag directly. Regulator keys allow chordal accompaniment unique among Celtic pipes. Ornament includes cuts, rolls, and cran on the chanter. UNESCO listed uilleann piping as intangible heritage in 2017.\n\nScottish Highland pipes power **pipe bands** — massed discipline, unison march phrasing, competition circuits unrelated to Irish regulator chords. Strathspeys and reels adapt to pipe scale and drone limitations.\n\nGalician Gaita galega projects with tambor and bombo — dance pulse is parade-forward. Breton **biniou-koz** pairs with bombard at fest-noz tempo; the bombard carries melody, biniou adds rhythmic scream.\n\n![Highland bagpiper](https://en.wikipedia.org/wiki/Special:FilePath/Bagpiper_in_Edinburgh.jpg?width=640)\n\n**Compared with Ireland:** uilleann pipes are chamber instruments with harmonic regulators; most other Celtic pipes are outdoor dance or march voices. Calling all of them \"bagpipes\" in a session tune list without specification causes wrong arrangements."
+        }
+      ]
+    },
+    {
+      "id": "fiddle-regional-accent-on-a-shared-body",
+      "title": "Fiddle: regional accent on a shared body",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The violin becomes a **fiddle** when repertoire, bowing, and social context say so. Ireland's regional schools — Sligo rolls, Donegal short bowing, Clare spacing — differ from:\n\n- **Scottish** strathspey snap and Shetland ring.\n- **Cape Breton** cut bowing and drone strings for step dance.\n- **Breton** fest-noz phrasing beside bombard.\n- **Galician** ensemble fiddle in gaita bands.\n\nShared tune families travel (*The Silver Spear*, *Miss Monaghan*, *St. Anne's Reel*), but **ornament grammar** does not. An Irish roll transferred literally to Shetland style sounds wrong; Cape Breton lift misapplied in a slow Clare air rushes the phrase.\n\nSession **social role** differs: Irish pub sessions stack fiddles as melody peers; Breton fest-noz may subordinate fiddle to bombard-biniou; pipe bands eliminate fiddle entirely.\n\n**Compared with Ireland:** treat Irish fiddle as reference for tune names and session keys (D, G, A, E minor), then relearn bowing when crossing borders."
+        }
+      ]
+    },
+    {
+      "id": "secondary-voices-worth-comparing",
+      "title": "Secondary voices worth comparing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Briefly note instruments that appear in multiple nations with different weight:\n\n- **Accordion/concertina** — Irish box (B/C, C#/D) vs Breton diatonic vs Scottish piano accordion in ceilidh bands.\n- **Flute/whistle** — Irish wooden flute tradition vs Scottish and Galician contexts.\n- **Bodhrán** — Irish frame drum debated in sessions; not universal elsewhere.\n- **Bombard** — Breton shawm leading fest-noz; no Irish equivalent in sessions."
+        }
+      ]
+    },
+    {
+      "id": "listening-laboratory",
+      "title": "Listening laboratory",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "For each instrument family, queue three tracks: Irish, second nation, third nation. Log construction (bellows vs blow), dynamic range, and dance linkage. See diaspora lesson 05 for notebook method."
+        }
+      ]
+    },
+    {
+      "id": "comparison-method",
+      "title": "Comparison method",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "For each instrument family, ask: **Who leads?** (session vs fest-noz vs pipe band). **Indoor or outdoor volume?** **Ornament vocabulary?** Ireland is the anchor; other nations answer these questions differently."
         }
       ]
     },
@@ -46,7 +112,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Use Ireland as the reference tradition you studied first: when this lesson names a shared instrument or tune form, ask how Irish session practice differs from Scottish, Welsh, or Breton contexts."
+          "text": "Ireland's instrument lesson split (`02-instruments-traditional-voices-i`, `03-instruments-session-voices-ii`) details uilleann pipes, fiddle, flute, bodhrán, box, and guitar roles in **session equilibrium**. Comparative study asks: which instruments lead elsewhere?\n\n- Scotland: Highland pipes and pipe bands visible public face.\n- Wales: harp and male voice choir overshadow fiddle in popular image.\n- Brittany: bombard-biniou dyad defines fest-noz.\n- Galicia: gaita ensemble with percussion.\n\nIrish session culture exported globally through diaspora — many foreign learners meet **fiddle-flute-box** stacks first. That export bias makes Irish layout feel \"normal\" and Breton or Galician lead voices feel \"exotic.\" Correct by listening to home-region defaults before judging."
         }
       ]
     },
@@ -57,318 +123,338 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "- \"Celtic\" is a useful map, not a single repertoire.\n- Ireland provides one deep anchor; other nations add necessary contrast.\n- Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+          "text": "- Harp, pipes, and fiddle span Celtic nations but with different construction, ornament, and social role.\n- Uilleann pipes are bellows-driven with regulators — not interchangeable with Highland or gaita pipes.\n- Fiddle regional accents (Sligo, Donegal, Cape Breton, Shetland) share tunes but not bowing grammar.\n- Welsh harp carries competition and ceremonial weight distinct from Irish session harp.\n- Breton bombard-biniou and Galician gaita ensembles lead dance differently from Irish pub sessions.\n- Specify pipe type and region — \"bagpipes\" alone is insufficient."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Ireland unit instrument lessons — baseline for uilleann pipes, fiddle, flute, bodhrán.\n- Hugh Cheape, *Bagpipes: A National Collection of a National Instrument* — comparative pipe history.\n- Wikipedia: [Uilleann pipes](https://en.wikipedia.org/wiki/Uilleann_pipes), [Great Highland bagpipe](https://en.wikipedia.org/wiki/Great_Highland_bagpipe), [Gaita galega](https://en.wikipedia.org/wiki/Gaita_galega).\n- John Purser, *Scotland's Music* — Scottish harp and fiddle context.\n- Scotland and Brittany unit lessons in this course."
         }
       ]
     }
   ],
-  "entities": [],
+  "entities": [
+    {
+      "id": "irish-harp",
+      "type": "instrument",
+      "name": "Irish harp (cláirseach)",
+      "summary": "National symbol and living folk instrument in Ireland",
+      "blurb": "From O'Carolan to modern session harpists; distinct from Welsh triple harp pedagogy.",
+      "url": "https://en.wikipedia.org/wiki/Irish_harp",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Cl%C3%A1irseach.jpg?width=320",
+      "playlist_index": 3
+    },
+    {
+      "id": "uilleann-pipes",
+      "type": "instrument",
+      "name": "Uilleann pipes",
+      "summary": "Irish bellows-blown pipes with regulators",
+      "blurb": "Indoor chamber instrument; UNESCO intangible heritage 2017.",
+      "url": "https://en.wikipedia.org/wiki/Uilleann_pipes",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Uilleann_pipes.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "gaita-galega",
+      "type": "instrument",
+      "name": "Gaita galega",
+      "summary": "Galician bagpipe for outdoor ensemble music",
+      "blurb": "Contrasts with uilleann pipes in construction and social context.",
+      "url": "https://en.wikipedia.org/wiki/Gaita_galega",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gaita_galega.jpg?width=320",
+      "playlist_index": 2
+    }
+  ],
   "entity_order": [],
-  "playlist": [],
+  "playlist": [
+    {
+      "id": "uilleann-indoor",
+      "entity_id": "uilleann-pipes",
+      "label": "Uilleann pipes session recording",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": "Uilleann pipes"
+    },
+    {
+      "id": "highland-pipe-band",
+      "label": "Highland pipe band march",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": ""
+    },
+    {
+      "id": "gaita-ensemble",
+      "entity_id": "gaita-galega",
+      "label": "Galician gaita with percussion",
+      "youtube": "https://www.youtube.com/watch?v=0nF5K1d6d0Y",
+      "subtitle": "Gaita galega"
+    },
+    {
+      "id": "irish-harp-session",
+      "entity_id": "irish-harp",
+      "label": "Irish harp in trad context",
+      "youtube": "https://www.youtube.com/watch?v=f5Q1zQr3pBk",
+      "subtitle": "Irish harp (cláirseach)"
+    },
+    {
+      "id": "fiddle-accent-compare",
+      "label": "Irish vs Cape Breton fiddle comparison",
+      "youtube": "https://www.youtube.com/watch?v=0YqJYgJhZ5E",
+      "subtitle": ""
+    }
+  ],
   "tunes": [],
   "key_points": [
-    "Ireland is the anchor; comparison adds precision.",
-    "Shared instruments differ by social role.",
-    "Tune forms require dance-context listening.",
-    "Revival paths diverge by institution.",
-    "Avoid Celtic marketing cliché.",
-    "\"Celtic\" is a useful map, not a single repertoire.",
-    "Ireland provides one deep anchor; other nations add necessary contrast.",
-    "Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+    "Harp, pipes, and fiddle span nations with different construction and social role.",
+    "Uilleann pipes are bellows-driven with regulators — not Highland or gaita pipes.",
+    "Fiddle ornament grammar differs by region despite shared tune names.",
+    "Welsh harp ties to eisteddfod; Breton bombard-biniou leads fest-noz.",
+    "Specify pipe type — bagpipes alone is insufficient.",
+    "Harp, pipes, and fiddle span Celtic nations but with different construction, ornament, and social role.",
+    "Uilleann pipes are bellows-driven with regulators — not interchangeable with Highland or gaita pipes.",
+    "Fiddle regional accents (Sligo, Donegal, Cape Breton, Shetland) share tunes but not bowing grammar.",
+    "Welsh harp carries competition and ceremonial weight distinct from Irish session harp.",
+    "Breton bombard-biniou and Galician gaita ensembles lead dance differently from Irish pub sessions.",
+    "Specify pipe type and region — \"bagpipes\" alone is insufficient."
   ],
   "reading_list": [
     {
       "type": "link",
-      "title": "Shared Instruments Compared — orientation",
-      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+      "title": "Uilleann pipes — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Uilleann_pipes"
+    },
+    {
+      "type": "link",
+      "title": "Great Highland bagpipe — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Highland_bagpipe"
+    },
+    {
+      "type": "link",
+      "title": "Irish harp — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Irish_harp"
+    },
+    {
+      "type": "book",
+      "title": "Bagpipes: A National Collection of a National Instrument",
+      "author": "Hugh Cheape",
+      "note": "Comparative pipe history"
+    },
+    {
+      "type": "book",
+      "title": "The Celtic Harp",
+      "author": "Joan Rimmer",
+      "note": "Cross-national harp history"
+    },
+    {
+      "type": "link",
+      "title": "Uilleann pipes vs Highland pipes",
+      "url": "https://en.wikipedia.org/wiki/Uilleann_pipes",
+      "note": "Pipe comparison"
+    },
+    {
+      "type": "link",
+      "title": "Fiddle styles compared",
+      "url": "https://en.wikipedia.org/wiki/Fiddle",
+      "note": "Regional bowing"
+    },
+    {
+      "type": "book",
+      "author": "Hugh Cheape",
+      "title": "Bagpipes: A National Collection of a National Instrument"
+    },
+    {
+      "type": "link",
+      "title": "Uilleann pipes",
+      "url": "https://en.wikipedia.org/wiki/Uilleann_pipes"
+    },
+    {
+      "type": "book",
+      "author": "John Purser",
+      "title": "Scotland's Music"
     }
   ],
-  "quiz_markdown": "### Q1. Which description best fits the main social context emphasised in this lesson?\n- A) Concerto competitions only\n- B) Community dance and oral transmission\n- C) Strictly classical conservatory exams\n- D) Electronic dance clubs only\n**Answer:** B) Community dance and oral transmission\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q2. This tradition is identical to Irish traditional music in repertoire and social context.\n- A) True\n- B) False\n**Answer:** B) False\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q3. Compared with Ireland, this unit stresses which additional emphasis?\n- A) No differences whatsoever\n- B) See Compared with Ireland section\n- C) Only classical opera\n- D) Only hip-hop production\n**Answer:** B) See Compared with Ireland section\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q4. A typical learner should prioritise:\n- A) Only reading generic textbooks\n- B) Listening to regional recordings before generic \"Celtic\" compilations\n- C) Memorising one tune only\n- D) Ignoring dance context\n**Answer:** B) Listening to regional recordings before generic \"Celtic\" compilations\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q5. Sessions, festivals, and archives all play roles in modern transmission.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q6. Instrument focus in this lesson includes:\n- A) Only synthesizers\n- B) Voices named in the lesson introduction\n- C) Only orchestral brass\n- D) Only piano études\n**Answer:** B) Voices named in the lesson introduction\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q7. Dance rhythm topics in this lesson relate to:\n- A) Ballet syllabus only\n- B) Social dance forms discussed in the body\n- C) Marching band drill only\n- D) DJ beatmatching only\n**Answer:** B) Social dance forms discussed in the body\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q8. Revival movements and media broadcasting shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q9. When studying tune forms, you should:\n- A) Ignore metre entirely\n- B) Connect metre and foot-tap feel to named dance types\n- C) Assume all tunes are 4/4 rock beats\n- D) Avoid learning by ear\n**Answer:** B) Connect metre and foot-tap feel to named dance types\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q10. Fusion and modern scenes discussed here:\n- A) Erase all earlier repertoire\n- B) Build on—not replace—living tradition\n- C) Ban all acoustic instruments\n- D) Eliminate festivals\n**Answer:** B) Build on—not replace—living tradition\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q11. The Compared with Ireland section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Shared Instruments Compared.*\n\n### Q12. Best next step after this lesson:\n- A) Stop listening to recordings\n- B) Follow playlists and return to the paired Ireland lesson\n- C) Skip all prerequisites\n- D) Avoid comparative study\n**Answer:** B) Follow playlists and return to the paired Ireland lesson\n*Explanation grounded in Shared Instruments Compared.*",
+  "quiz_markdown": "### Q1. Uilleann pipes use a bellows and may include regulator keys for chordal accompaniment.\n\n**Answer:** True\n\n### Q2. Highland bagpipes are typically blown directly and associated with outdoor pipe bands.\n\n**Answer:** True\n\n### Q3. Fiddle ornament is interchangeable across Irish, Cape Breton, and Shetland styles without relearning.\n\n**Answer:** False — regional bowing grammar differs.\n\n### Q4. The gaita galega is most associated with:\n\n- A) Galicia\n- B) Inner Mongolia exclusively\n- C) Vienna classical courts only\n- D) Antarctic research bases\n\n**Answer:** A\n\n### Q5. Breton fest-noz often pairs bombard with biniou rather than stacking Irish-style fiddle leads.\n\n**Answer:** True\n\n### Q6. Welsh harp tradition connects strongly to eisteddfod competition and ceremonial culture.\n\n**Answer:** True\n\n### Q7. Calling all Celtic bagpipes one instrument type is sufficient for session arrangement.\n\n**Answer:** False — construction and social context differ radically.\n\n### Q8. Irish harp appears in modern sessions but rarely leads dance sets the way fiddle does.\n\n**Answer:** True\n\n### Q9. The bodhrán is a universal required instrument in all Celtic nations' sessions.\n\n**Answer:** False — it is Irish-associated and debated even there.\n\n### Q10. Cape Breton fiddle emphasises cut bowing and dance lift compared with many Irish session styles.\n\n**Answer:** True\n\n### Q11. UNESCO recognised uilleann piping as intangible cultural heritage.\n\n**Answer:** True\n\n### Q12. Best study approach:\n\n- A) Compare three regional recordings per instrument family using construction and social context notes\n- B) Learn one pipe type and assume all others match\n- C) Ignore bombard and gaita entirely\n- D) Study only orchestral violin études\n\n**Answer:** A",
   "quiz_questions": [
     {
       "id": "q1",
-      "type": "mcq",
-      "prompt": "Which description best fits the main social context emphasised in this lesson?",
+      "type": "truefalse",
+      "prompt": "Uilleann pipes use a bellows and may include regulator keys for chordal accompaniment.",
       "choices": [
         {
           "id": "a",
-          "text": "See Compared with Ireland section",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Community dance and oral transmission",
+          "text": "True",
           "correct": true
         },
         {
-          "id": "c",
-          "text": "Single-headed Irish frame drum",
-          "correct": false
-        },
-        {
-          "id": "d",
+          "id": "b",
           "text": "False",
           "correct": false
         }
       ],
-      "explain": ") Community dance and oral transmission"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q2",
-      "type": "mcq",
-      "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+      "type": "truefalse",
+      "prompt": "Highland bagpipes are typically blown directly and associated with outdoor pipe bands.",
       "choices": [
         {
           "id": "a",
-          "text": "False",
+          "text": "True",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Community dance and oral transmission",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "See Compared with Ireland section",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") False"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q3",
-      "type": "mcq",
-      "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+      "type": "truefalse",
+      "prompt": "Fiddle ornament is interchangeable across Irish, Cape Breton, and Shetland styles without relearning.",
       "choices": [
         {
           "id": "a",
-          "text": "False",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": false
-        },
-        {
-          "id": "c",
           "text": "True",
           "correct": false
         },
         {
-          "id": "d",
-          "text": "See Compared with Ireland section",
+          "id": "b",
+          "text": "False",
           "correct": true
         }
       ],
-      "explain": ") See Compared with Ireland section"
+      "explain": "regional bowing grammar differs."
     },
     {
       "id": "q4",
       "type": "mcq",
-      "prompt": "A typical learner should prioritise:",
+      "prompt": "The gaita galega is most associated with:",
       "choices": [
         {
           "id": "a",
-          "text": "True",
+          "text": "Mouth blowing only, like Highland pipes",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Voices named in the lesson introduction",
+          "text": "Elbow bellows strapped to the player",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "text": "Galicia",
           "correct": true
         },
         {
           "id": "d",
-          "text": "See Compared with Ireland section",
+          "text": "Sliabh Luachra polkas and slides",
           "correct": false
         }
       ],
-      "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+      "explain": "The lesson identifies this as: Galicia"
     },
     {
       "id": "q5",
-      "type": "mcq",
-      "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+      "type": "truefalse",
+      "prompt": "Breton fest-noz often pairs bombard with biniou rather than stacking Irish-style fiddle leads.",
       "choices": [
         {
           "id": "a",
-          "text": "Social dance forms discussed in the body",
-          "correct": false
-        },
-        {
-          "id": "b",
           "text": "True",
           "correct": true
         },
         {
-          "id": "c",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Voices named in the lesson introduction",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q6",
-      "type": "mcq",
-      "prompt": "Instrument focus in this lesson includes:",
+      "type": "truefalse",
+      "prompt": "Welsh harp tradition connects strongly to eisteddfod competition and ceremonial culture.",
       "choices": [
         {
           "id": "a",
-          "text": "Voices named in the lesson introduction",
+          "text": "True",
           "correct": true
         },
         {
           "id": "b",
-          "text": "True",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Social dance forms discussed in the body",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Connect metre and foot-tap feel to named dance types",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") Voices named in the lesson introduction"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q7",
-      "type": "mcq",
-      "prompt": "Dance rhythm topics in this lesson relate to:",
+      "type": "truefalse",
+      "prompt": "Calling all Celtic bagpipes one instrument type is sufficient for session arrangement.",
       "choices": [
         {
           "id": "a",
-          "text": "Voices named in the lesson introduction",
+          "text": "True",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Build on—not replace—living tradition",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Social dance forms discussed in the body",
+          "text": "False",
           "correct": true
         }
       ],
-      "explain": ") Social dance forms discussed in the body"
+      "explain": "construction and social context differ radically."
     },
     {
       "id": "q8",
-      "type": "mcq",
-      "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+      "type": "truefalse",
+      "prompt": "Irish harp appears in modern sessions but rarely leads dance sets the way fiddle does.",
       "choices": [
         {
           "id": "a",
-          "text": "Build on—not replace—living tradition",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Follow playlists and return to the paired Ireland lesson",
-          "correct": false
-        },
-        {
-          "id": "c",
           "text": "True",
           "correct": true
         },
         {
-          "id": "d",
-          "text": "Connect metre and foot-tap feel to named dance types",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q9",
-      "type": "mcq",
-      "prompt": "When studying tune forms, you should:",
+      "type": "truefalse",
+      "prompt": "The bodhrán is a universal required instrument in all Celtic nations' sessions.",
       "choices": [
         {
           "id": "a",
-          "text": "6/8 with a two-beat feel per bar",
+          "text": "True",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Connect metre and foot-tap feel to named dance types",
+          "text": "False",
           "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Build on—not replace—living tradition",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Follow playlists and return to the paired Ireland lesson",
-          "correct": false
         }
       ],
-      "explain": ") Connect metre and foot-tap feel to named dance types"
+      "explain": "it is Irish-associated and debated even there."
     },
     {
       "id": "q10",
-      "type": "mcq",
-      "prompt": "Fusion and modern scenes discussed here:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Brendan Breathnach",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Build on—not replace—living tradition",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "D, G, A, and E minor",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Francis O'Neill",
-          "correct": false
-        }
-      ],
-      "explain": ") Build on—not replace—living tradition"
-    },
-    {
-      "id": "q11",
-      "type": "mcq",
-      "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+      "type": "truefalse",
+      "prompt": "Cape Breton fiddle emphasises cut bowing and dance lift compared with many Irish session styles.",
       "choices": [
         {
           "id": "a",
@@ -377,49 +463,57 @@
         },
         {
           "id": "b",
-          "text": "Francis O'Neill",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Brendan Breathnach",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Mullingar, 1951",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "UNESCO recognised uilleann piping as intangible cultural heritage.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
     },
     {
       "id": "q12",
       "type": "mcq",
-      "prompt": "Best next step after this lesson:",
+      "prompt": "Best study approach:",
       "choices": [
         {
           "id": "a",
-          "text": "Brendan Breathnach",
+          "text": "Tips and heels striking the floor",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Mullingar, 1951",
+          "text": "Four-string tenor banjo with a plectrum",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Intangible cultural heritage of humanity",
+          "text": "Modal Irish and Celtic accompaniment",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Follow playlists and return to the paired Ireland lesson",
+          "text": "Compare three regional recordings per instrument family using construction and social context notes",
           "correct": true
         }
       ],
-      "explain": ") Follow playlists and return to the paired Ireland lesson"
+      "explain": "The lesson identifies this as: Compare three regional recordings per instrument family using construction and social context notes"
     }
   ],
   "quiz": {
@@ -428,288 +522,180 @@
     "questions": [
       {
         "id": "q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "type": "truefalse",
+        "prompt": "Uilleann pipes use a bellows and may include regulator keys for chordal accompaniment.",
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
+            "id": "b",
             "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Highland bagpipes are typically blown directly and associated with outdoor pipe bands.",
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") False"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q3",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "type": "truefalse",
+        "prompt": "Fiddle ornament is interchangeable across Irish, Cape Breton, and Shetland styles without relearning.",
         "choices": [
           {
             "id": "a",
-            "text": "False",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": false
           },
           {
-            "id": "d",
-            "text": "See Compared with Ireland section",
+            "id": "b",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "regional bowing grammar differs."
       },
       {
         "id": "q4",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "The gaita galega is most associated with:",
         "choices": [
           {
             "id": "a",
-            "text": "True",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Galicia",
             "correct": true
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Galicia"
       },
       {
         "id": "q5",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Breton fest-noz often pairs bombard with biniou rather than stacking Irish-style fiddle leads.",
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q6",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "Welsh harp tradition connects strongly to eisteddfod competition and ceremonial culture.",
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "True",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q7",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Calling all Celtic bagpipes one instrument type is sufficient for session arrangement.",
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "construction and social context differ radically."
       },
       {
         "id": "q8",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Irish harp appears in modern sessions but rarely leads dance sets the way fiddle does.",
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q9",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "The bodhrán is a universal required instrument in all Celtic nations' sessions.",
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "it is Irish-associated and debated even there."
       },
       {
         "id": "q10",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
-            "correct": false
-          }
-        ],
-        "explain": ") Build on—not replace—living tradition"
-      },
-      {
-        "id": "q11",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Cape Breton fiddle emphasises cut bowing and dance lift compared with many Irish session styles.",
         "choices": [
           {
             "id": "a",
@@ -718,49 +704,57 @@
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mullingar, 1951",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "UNESCO recognised uilleann piping as intangible cultural heritage.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       },
       {
         "id": "q12",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Best study approach:",
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Mullingar, 1951",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Compare three regional recordings per instrument family using construction and social context notes",
             "correct": true
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Compare three regional recordings per instrument family using construction and social context notes"
       }
     ]
   }

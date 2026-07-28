@@ -1,0 +1,782 @@
+{
+  "regions-east-klezmer-01-overview": {
+    "entities": [
+      {
+        "id": "dave-tarras",
+        "type": "artist",
+        "name": "Dave Tarras",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Dave Tarras for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dave_Tarras",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "itzhak-perlman-klezmer",
+        "type": "band",
+        "name": "Itzhak Perlman klezmer",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Itzhak Perlman klezmer for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Itzhak_Perlman_klezmer",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-klezmer-01-overview-pl1",
+        "entity_id": "dave-tarras",
+        "label": "Dave Tarras — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-klezmer-01-overview-pl2",
+        "entity_id": "itzhak-perlman-klezmer",
+        "label": "Itzhak Perlman klezmer — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-klezmer-01-overview-pl3",
+        "label": "Klezmer Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-klezmer-01-overview-pl4",
+        "label": "Klezmer Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Klezmer Music rewards comparative study.",
+      "Focus: Klezmer Music spans clarinet, violin, voice leading voices, freylekhs, dobriden, and weddi.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: freylekhs, dobriden.",
+      "Dance: wedding dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Klezmer",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Klezmer Music spans clarinet, violin, voice leading voices, ",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-klezmer-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "dave-tarras",
+        "type": "artist",
+        "name": "Dave Tarras",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Dave Tarras for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dave_Tarras",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "itzhak-perlman-klezmer",
+        "type": "band",
+        "name": "Itzhak Perlman klezmer",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Itzhak Perlman klezmer for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Itzhak_Perlman_klezmer",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-klezmer-02-instruments-voices-i-pl1",
+        "entity_id": "dave-tarras",
+        "label": "Dave Tarras — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-klezmer-02-instruments-voices-i-pl2",
+        "entity_id": "itzhak-perlman-klezmer",
+        "label": "Itzhak Perlman klezmer — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-klezmer-02-instruments-voices-i-pl3",
+        "label": "Klezmer Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-klezmer-02-instruments-voices-i-pl4",
+        "label": "Klezmer Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Klezmer Music rewards comparative study.",
+      "Focus: clarinet, violin, voice.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: freylekhs, dobriden.",
+      "Dance: wedding dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Klezmer",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "clarinet, violin, voice",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-klezmer-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "dave-tarras",
+        "type": "artist",
+        "name": "Dave Tarras",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Dave Tarras for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dave_Tarras",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "itzhak-perlman-klezmer",
+        "type": "band",
+        "name": "Itzhak Perlman klezmer",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Itzhak Perlman klezmer for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Itzhak_Perlman_klezmer",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-klezmer-03-instruments-voices-ii-pl1",
+        "entity_id": "dave-tarras",
+        "label": "Dave Tarras — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-klezmer-03-instruments-voices-ii-pl2",
+        "entity_id": "itzhak-perlman-klezmer",
+        "label": "Itzhak Perlman klezmer — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-klezmer-03-instruments-voices-ii-pl3",
+        "label": "Klezmer Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-klezmer-03-instruments-voices-ii-pl4",
+        "label": "Klezmer Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Klezmer Music rewards comparative study.",
+      "Focus: accordion, bass, tsimbl.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: freylekhs, dobriden.",
+      "Dance: wedding dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Klezmer",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "accordion, bass, tsimbl",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-klezmer-04-genres-forms": {
+    "entities": [
+      {
+        "id": "dave-tarras",
+        "type": "artist",
+        "name": "Dave Tarras",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Dave Tarras for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dave_Tarras",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "itzhak-perlman-klezmer",
+        "type": "band",
+        "name": "Itzhak Perlman klezmer",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Itzhak Perlman klezmer for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Itzhak_Perlman_klezmer",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-klezmer-04-genres-forms-pl1",
+        "entity_id": "dave-tarras",
+        "label": "Dave Tarras — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-klezmer-04-genres-forms-pl2",
+        "entity_id": "itzhak-perlman-klezmer",
+        "label": "Itzhak Perlman klezmer — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-klezmer-04-genres-forms-pl3",
+        "label": "Klezmer Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-klezmer-04-genres-forms-pl4",
+        "label": "Klezmer Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Klezmer Music rewards comparative study.",
+      "Focus: freylekhs, dobriden.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: freylekhs, dobriden.",
+      "Dance: wedding dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Klezmer",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "freylekhs, dobriden",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-klezmer-05-dance": {
+    "entities": [
+      {
+        "id": "dave-tarras",
+        "type": "artist",
+        "name": "Dave Tarras",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Dave Tarras for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dave_Tarras",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "itzhak-perlman-klezmer",
+        "type": "band",
+        "name": "Itzhak Perlman klezmer",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Itzhak Perlman klezmer for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Itzhak_Perlman_klezmer",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-klezmer-05-dance-pl1",
+        "entity_id": "dave-tarras",
+        "label": "Dave Tarras — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-klezmer-05-dance-pl2",
+        "entity_id": "itzhak-perlman-klezmer",
+        "label": "Itzhak Perlman klezmer — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-klezmer-05-dance-pl3",
+        "label": "Klezmer Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-klezmer-05-dance-pl4",
+        "label": "Klezmer Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Klezmer Music rewards comparative study.",
+      "Focus: wedding dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: freylekhs, dobriden.",
+      "Dance: wedding dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Klezmer",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "wedding dance",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-klezmer-06-history": {
+    "entities": [
+      {
+        "id": "dave-tarras",
+        "type": "artist",
+        "name": "Dave Tarras",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Dave Tarras for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dave_Tarras",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "itzhak-perlman-klezmer",
+        "type": "band",
+        "name": "Itzhak Perlman klezmer",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Itzhak Perlman klezmer for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Itzhak_Perlman_klezmer",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-klezmer-06-history-pl1",
+        "entity_id": "dave-tarras",
+        "label": "Dave Tarras — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-klezmer-06-history-pl2",
+        "entity_id": "itzhak-perlman-klezmer",
+        "label": "Itzhak Perlman klezmer — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-klezmer-06-history-pl3",
+        "label": "Klezmer Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-klezmer-06-history-pl4",
+        "label": "Klezmer Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Klezmer Music rewards comparative study.",
+      "Focus: Ashkenazi diaspora, revival.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: freylekhs, dobriden.",
+      "Dance: wedding dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Klezmer",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Ashkenazi diaspora, revival",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-klezmer-07-representative-depth": {
+    "entities": [
+      {
+        "id": "dave-tarras",
+        "type": "artist",
+        "name": "Dave Tarras",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Dave Tarras for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dave_Tarras",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "itzhak-perlman-klezmer",
+        "type": "band",
+        "name": "Itzhak Perlman klezmer",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Itzhak Perlman klezmer for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Itzhak_Perlman_klezmer",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-klezmer-07-representative-depth-pl1",
+        "entity_id": "dave-tarras",
+        "label": "Dave Tarras — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-klezmer-07-representative-depth-pl2",
+        "entity_id": "itzhak-perlman-klezmer",
+        "label": "Itzhak Perlman klezmer — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-klezmer-07-representative-depth-pl3",
+        "label": "Klezmer Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-klezmer-07-representative-depth-pl4",
+        "label": "Klezmer Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Klezmer Music rewards comparative study.",
+      "Focus: Klezmer festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: freylekhs, dobriden.",
+      "Dance: wedding dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Klezmer",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Klezmer festivals",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-klezmer-08-tunes": {
+    "entities": [
+      {
+        "id": "dave-tarras",
+        "type": "artist",
+        "name": "Dave Tarras",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Dave Tarras for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dave_Tarras",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "itzhak-perlman-klezmer",
+        "type": "band",
+        "name": "Itzhak Perlman klezmer",
+        "summary": "Representative musician or ensemble in east-klezmer trad",
+        "blurb": "Study Itzhak Perlman klezmer for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Itzhak_Perlman_klezmer",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-klezmer-08-tunes-pl1",
+        "entity_id": "dave-tarras",
+        "label": "Dave Tarras — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-klezmer-08-tunes-pl2",
+        "entity_id": "itzhak-perlman-klezmer",
+        "label": "Itzhak Perlman klezmer — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-klezmer-08-tunes-pl3",
+        "label": "Klezmer Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-klezmer-08-tunes-pl4",
+        "label": "Klezmer Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Klezmer Music rewards comparative study.",
+      "Focus: Freylekhs forms.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: freylekhs, dobriden.",
+      "Dance: wedding dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Klezmer",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Freylekhs forms",
+        "url": "https://en.wikipedia.org/wiki/Klezmer",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "freylekhs-forms",
+        "type": "tune",
+        "name": "Freylekhs forms",
+        "form": "freylekhs",
+        "reference": "Klezmer repertoire",
+        "about": "Representative klezmer music listening study.",
+        "playlist": [
+          {
+            "label": "Freylekhs forms — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "klezmer-standard-1",
+        "type": "tune",
+        "name": "klezmer standard 1",
+        "form": "freylekhs",
+        "reference": "Klezmer repertoire",
+        "about": "Representative klezmer music listening study.",
+        "playlist": [
+          {
+            "label": "klezmer standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "klezmer-standard-2",
+        "type": "tune",
+        "name": "klezmer standard 2",
+        "form": "freylekhs",
+        "reference": "Klezmer repertoire",
+        "about": "Representative klezmer music listening study.",
+        "playlist": [
+          {
+            "label": "klezmer standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

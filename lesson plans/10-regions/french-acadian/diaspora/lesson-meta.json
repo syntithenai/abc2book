@@ -1,0 +1,462 @@
+{
+  "regions-french-diaspora-01-diaspora-communities": {
+    "entities": [
+      {
+        "id": "jean-carignan",
+        "type": "artist",
+        "name": "Jean Carignan",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study Jean Carignan for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Jean_Carignan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "la-bottine-souriante",
+        "type": "band",
+        "name": "La Bottine Souriante",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study La Bottine Souriante for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/La_Bottine_Souriante",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-diaspora-01-diaspora-communities-pl1",
+        "entity_id": "jean-carignan",
+        "label": "Jean Carignan — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-diaspora-01-diaspora-communities-pl2",
+        "entity_id": "la-bottine-souriante",
+        "label": "La Bottine Souriante — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-diaspora-01-diaspora-communities-pl3",
+        "label": "Quebecois Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-diaspora-01-diaspora-communities-pl4",
+        "label": "Quebecois Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Quebecois Traditional Music rewards comparative study.",
+      "Focus: Quebecois Traditional Music spans fiddle, voice leading voices, reels, jigs, quadrilles, a.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, jigs, quadrilles.",
+      "Dance: quadrille, podorythmie.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Quebec",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Quebecois Traditional Music spans fiddle, voice leading voic",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-diaspora-02-radio-archives": {
+    "entities": [
+      {
+        "id": "jean-carignan",
+        "type": "artist",
+        "name": "Jean Carignan",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study Jean Carignan for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Jean_Carignan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "la-bottine-souriante",
+        "type": "band",
+        "name": "La Bottine Souriante",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study La Bottine Souriante for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/La_Bottine_Souriante",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-diaspora-02-radio-archives-pl1",
+        "entity_id": "jean-carignan",
+        "label": "Jean Carignan — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-diaspora-02-radio-archives-pl2",
+        "entity_id": "la-bottine-souriante",
+        "label": "La Bottine Souriante — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-diaspora-02-radio-archives-pl3",
+        "label": "Quebecois Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-diaspora-02-radio-archives-pl4",
+        "label": "Quebecois Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Quebecois Traditional Music rewards comparative study.",
+      "Focus: Quebecois Traditional Music spans fiddle, voice leading voices, reels, jigs, quadrilles, a.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, jigs, quadrilles.",
+      "Dance: quadrille, podorythmie.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Quebec",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Quebecois Traditional Music spans fiddle, voice leading voic",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-diaspora-03-festival-networks": {
+    "entities": [
+      {
+        "id": "jean-carignan",
+        "type": "artist",
+        "name": "Jean Carignan",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study Jean Carignan for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Jean_Carignan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "la-bottine-souriante",
+        "type": "band",
+        "name": "La Bottine Souriante",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study La Bottine Souriante for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/La_Bottine_Souriante",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-diaspora-03-festival-networks-pl1",
+        "entity_id": "jean-carignan",
+        "label": "Jean Carignan — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-diaspora-03-festival-networks-pl2",
+        "entity_id": "la-bottine-souriante",
+        "label": "La Bottine Souriante — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-diaspora-03-festival-networks-pl3",
+        "label": "Quebecois Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-diaspora-03-festival-networks-pl4",
+        "label": "Quebecois Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Quebecois Traditional Music rewards comparative study.",
+      "Focus: Quebecois Traditional Music spans fiddle, voice leading voices, reels, jigs, quadrilles, a.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, jigs, quadrilles.",
+      "Dance: quadrille, podorythmie.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Quebec",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Quebecois Traditional Music spans fiddle, voice leading voic",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-diaspora-04-fusion-scenes": {
+    "entities": [
+      {
+        "id": "jean-carignan",
+        "type": "artist",
+        "name": "Jean Carignan",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study Jean Carignan for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Jean_Carignan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "la-bottine-souriante",
+        "type": "band",
+        "name": "La Bottine Souriante",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study La Bottine Souriante for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/La_Bottine_Souriante",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-diaspora-04-fusion-scenes-pl1",
+        "entity_id": "jean-carignan",
+        "label": "Jean Carignan — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-diaspora-04-fusion-scenes-pl2",
+        "entity_id": "la-bottine-souriante",
+        "label": "La Bottine Souriante — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-diaspora-04-fusion-scenes-pl3",
+        "label": "Quebecois Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-diaspora-04-fusion-scenes-pl4",
+        "label": "Quebecois Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Quebecois Traditional Music rewards comparative study.",
+      "Focus: Quebecois Traditional Music spans fiddle, voice leading voices, reels, jigs, quadrilles, a.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, jigs, quadrilles.",
+      "Dance: quadrille, podorythmie.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Quebec",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Quebecois Traditional Music spans fiddle, voice leading voic",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-diaspora-05-listening-across-borders": {
+    "entities": [
+      {
+        "id": "jean-carignan",
+        "type": "artist",
+        "name": "Jean Carignan",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study Jean Carignan for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Jean_Carignan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "la-bottine-souriante",
+        "type": "band",
+        "name": "La Bottine Souriante",
+        "summary": "Representative musician or ensemble in french-quebec trad",
+        "blurb": "Study La Bottine Souriante for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/La_Bottine_Souriante",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-diaspora-05-listening-across-borders-pl1",
+        "entity_id": "jean-carignan",
+        "label": "Jean Carignan — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-diaspora-05-listening-across-borders-pl2",
+        "entity_id": "la-bottine-souriante",
+        "label": "La Bottine Souriante — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-diaspora-05-listening-across-borders-pl3",
+        "label": "Quebecois Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-diaspora-05-listening-across-borders-pl4",
+        "label": "Quebecois Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Quebecois Traditional Music rewards comparative study.",
+      "Focus: Quebecois Traditional Music spans fiddle, voice leading voices, reels, jigs, quadrilles, a.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, jigs, quadrilles.",
+      "Dance: quadrille, podorythmie.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Quebec",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Quebecois Traditional Music spans fiddle, voice leading voic",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+        "note": "Lesson focus area"
+      }
+    ]
+  }
+}

@@ -1,0 +1,782 @@
+{
+  "regions-me-turkey-01-overview": {
+    "entities": [
+      {
+        "id": "a-k-veysel",
+        "type": "artist",
+        "name": "Aşık Veysel",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Aşık Veysel for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Aşık_Veysel",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "erkan-o-ur",
+        "type": "band",
+        "name": "Erkan Oğur",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Erkan Oğur for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Erkan_Oğur",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-turkey-01-overview-pl1",
+        "entity_id": "a-k-veysel",
+        "label": "Aşık Veysel — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-turkey-01-overview-pl2",
+        "entity_id": "erkan-o-ur",
+        "label": "Erkan Oğur — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-turkey-01-overview-pl3",
+        "label": "Turkish Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-turkey-01-overview-pl4",
+        "label": "Turkish Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Turkish Folk Music rewards comparative study.",
+      "Focus: Turkish Folk Music spans bağlama, kemençe, voice leading voices, türkü, halay, makam-influ.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: türkü, halay, makam-influenced song.",
+      "Dance: halay, horon.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Turkey",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Turkish Folk Music spans bağlama, kemençe, voice leading voi",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-turkey-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "a-k-veysel",
+        "type": "artist",
+        "name": "Aşık Veysel",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Aşık Veysel for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Aşık_Veysel",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "erkan-o-ur",
+        "type": "band",
+        "name": "Erkan Oğur",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Erkan Oğur for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Erkan_Oğur",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-turkey-02-instruments-voices-i-pl1",
+        "entity_id": "a-k-veysel",
+        "label": "Aşık Veysel — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-turkey-02-instruments-voices-i-pl2",
+        "entity_id": "erkan-o-ur",
+        "label": "Erkan Oğur — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-turkey-02-instruments-voices-i-pl3",
+        "label": "Turkish Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-turkey-02-instruments-voices-i-pl4",
+        "label": "Turkish Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Turkish Folk Music rewards comparative study.",
+      "Focus: bağlama, kemençe, voice.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: türkü, halay, makam-influenced song.",
+      "Dance: halay, horon.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Turkey",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "bağlama, kemençe, voice",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-turkey-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "a-k-veysel",
+        "type": "artist",
+        "name": "Aşık Veysel",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Aşık Veysel for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Aşık_Veysel",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "erkan-o-ur",
+        "type": "band",
+        "name": "Erkan Oğur",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Erkan Oğur for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Erkan_Oğur",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-turkey-03-instruments-voices-ii-pl1",
+        "entity_id": "a-k-veysel",
+        "label": "Aşık Veysel — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-turkey-03-instruments-voices-ii-pl2",
+        "entity_id": "erkan-o-ur",
+        "label": "Erkan Oğur — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-turkey-03-instruments-voices-ii-pl3",
+        "label": "Turkish Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-turkey-03-instruments-voices-ii-pl4",
+        "label": "Turkish Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Turkish Folk Music rewards comparative study.",
+      "Focus: davul, zurna, ensemble.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: türkü, halay, makam-influenced song.",
+      "Dance: halay, horon.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Turkey",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "davul, zurna, ensemble",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-turkey-04-genres-forms": {
+    "entities": [
+      {
+        "id": "a-k-veysel",
+        "type": "artist",
+        "name": "Aşık Veysel",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Aşık Veysel for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Aşık_Veysel",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "erkan-o-ur",
+        "type": "band",
+        "name": "Erkan Oğur",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Erkan Oğur for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Erkan_Oğur",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-turkey-04-genres-forms-pl1",
+        "entity_id": "a-k-veysel",
+        "label": "Aşık Veysel — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-turkey-04-genres-forms-pl2",
+        "entity_id": "erkan-o-ur",
+        "label": "Erkan Oğur — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-turkey-04-genres-forms-pl3",
+        "label": "Turkish Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-turkey-04-genres-forms-pl4",
+        "label": "Turkish Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Turkish Folk Music rewards comparative study.",
+      "Focus: türkü, halay, makam-influenced song.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: türkü, halay, makam-influenced song.",
+      "Dance: halay, horon.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Turkey",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "türkü, halay, makam-influenced song",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-turkey-05-dance": {
+    "entities": [
+      {
+        "id": "a-k-veysel",
+        "type": "artist",
+        "name": "Aşık Veysel",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Aşık Veysel for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Aşık_Veysel",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "erkan-o-ur",
+        "type": "band",
+        "name": "Erkan Oğur",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Erkan Oğur for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Erkan_Oğur",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-turkey-05-dance-pl1",
+        "entity_id": "a-k-veysel",
+        "label": "Aşık Veysel — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-turkey-05-dance-pl2",
+        "entity_id": "erkan-o-ur",
+        "label": "Erkan Oğur — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-turkey-05-dance-pl3",
+        "label": "Turkish Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-turkey-05-dance-pl4",
+        "label": "Turkish Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Turkish Folk Music rewards comparative study.",
+      "Focus: halay, horon.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: türkü, halay, makam-influenced song.",
+      "Dance: halay, horon.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Turkey",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "halay, horon",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-turkey-06-history": {
+    "entities": [
+      {
+        "id": "a-k-veysel",
+        "type": "artist",
+        "name": "Aşık Veysel",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Aşık Veysel for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Aşık_Veysel",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "erkan-o-ur",
+        "type": "band",
+        "name": "Erkan Oğur",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Erkan Oğur for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Erkan_Oğur",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-turkey-06-history-pl1",
+        "entity_id": "a-k-veysel",
+        "label": "Aşık Veysel — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-turkey-06-history-pl2",
+        "entity_id": "erkan-o-ur",
+        "label": "Erkan Oğur — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-turkey-06-history-pl3",
+        "label": "Turkish Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-turkey-06-history-pl4",
+        "label": "Turkish Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Turkish Folk Music rewards comparative study.",
+      "Focus: TRT archives, collectors.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: türkü, halay, makam-influenced song.",
+      "Dance: halay, horon.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Turkey",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "TRT archives, collectors",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-turkey-07-representative-depth": {
+    "entities": [
+      {
+        "id": "a-k-veysel",
+        "type": "artist",
+        "name": "Aşık Veysel",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Aşık Veysel for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Aşık_Veysel",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "erkan-o-ur",
+        "type": "band",
+        "name": "Erkan Oğur",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Erkan Oğur for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Erkan_Oğur",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-turkey-07-representative-depth-pl1",
+        "entity_id": "a-k-veysel",
+        "label": "Aşık Veysel — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-turkey-07-representative-depth-pl2",
+        "entity_id": "erkan-o-ur",
+        "label": "Erkan Oğur — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-turkey-07-representative-depth-pl3",
+        "label": "Turkish Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-turkey-07-representative-depth-pl4",
+        "label": "Turkish Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Turkish Folk Music rewards comparative study.",
+      "Focus: fusion, festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: türkü, halay, makam-influenced song.",
+      "Dance: halay, horon.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Turkey",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "fusion, festivals",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-me-turkey-08-tunes": {
+    "entities": [
+      {
+        "id": "a-k-veysel",
+        "type": "artist",
+        "name": "Aşık Veysel",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Aşık Veysel for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Aşık_Veysel",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "erkan-o-ur",
+        "type": "band",
+        "name": "Erkan Oğur",
+        "summary": "Representative musician or ensemble in me-turkey trad",
+        "blurb": "Study Erkan Oğur for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Erkan_Oğur",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-me-turkey-08-tunes-pl1",
+        "entity_id": "a-k-veysel",
+        "label": "Aşık Veysel — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-me-turkey-08-tunes-pl2",
+        "entity_id": "erkan-o-ur",
+        "label": "Erkan Oğur — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-me-turkey-08-tunes-pl3",
+        "label": "Turkish Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-me-turkey-08-tunes-pl4",
+        "label": "Turkish Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Turkish Folk Music rewards comparative study.",
+      "Focus: Türkü listening studies.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: türkü, halay, makam-influenced song.",
+      "Dance: halay, horon.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Turkey",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Middle Eastern & Mediterranean Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Türkü listening studies",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Turkey",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "t-rk-listening-studies",
+        "type": "tune",
+        "name": "Türkü listening studies",
+        "form": "türkü",
+        "reference": "Music of Turkey repertoire",
+        "about": "Representative turkish folk music listening study.",
+        "playlist": [
+          {
+            "label": "Türkü listening studies — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "turkey-standard-1",
+        "type": "tune",
+        "name": "turkey standard 1",
+        "form": "türkü",
+        "reference": "Music of Turkey repertoire",
+        "about": "Representative turkish folk music listening study.",
+        "playlist": [
+          {
+            "label": "turkey standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "turkey-standard-2",
+        "type": "tune",
+        "name": "turkey standard 2",
+        "form": "türkü",
+        "reference": "Music of Turkey repertoire",
+        "about": "Representative turkish folk music listening study.",
+        "playlist": [
+          {
+            "label": "turkey standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,9 @@
 /**
  * Master gain bus for tune-playback metronome and drum hits.
- * silence() mutes immediately so pre-scheduled Web Audio clicks do not tail after stop.
+ * silence() disconnects the gain so pre-scheduled Web Audio clicks cannot
+ * become audible again if something re-arms before a fresh node is created.
  */
+
 export function createRhythmOutputBus() {
   return {
     audioContext: null,
@@ -27,24 +29,24 @@ function createMasterGain(bus, audioContext) {
   return gain
 }
 
+/**
+ * Ensure a live destination exists. Never revives a silenced gain node —
+ * that would unmute leftover scheduled sources from a previous play.
+ */
 export function ensureRhythmOutputBus(bus, audioContext) {
   if (!bus || !audioContext) return null
   if (bus.audioContext === audioContext && bus.masterGain && bus.armed) {
     return bus.masterGain
   }
-  if (bus.audioContext !== audioContext) {
-    disconnectMasterGain(bus)
-  }
-  if (!bus.masterGain) {
-    createMasterGain(bus, audioContext)
-  }
+  disconnectMasterGain(bus)
+  createMasterGain(bus, audioContext)
   bus.armed = true
   return bus.masterGain
 }
 
 export function armRhythmOutputBus(bus, audioContext) {
   if (!bus || !audioContext) return null
-  if (!bus.armed || bus.audioContext !== audioContext) {
+  if (!bus.armed || bus.audioContext !== audioContext || !bus.masterGain) {
     disconnectMasterGain(bus)
     createMasterGain(bus, audioContext)
   }
@@ -61,10 +63,16 @@ export function silenceRhythmOutputBus(bus, audioContext) {
   if (!bus) return
   bus.armed = false
   const ctx = audioContext || bus.audioContext
-  if (!bus.masterGain || !ctx) return
-  const now = ctx.currentTime
-  bus.masterGain.gain.cancelScheduledValues(now)
-  bus.masterGain.gain.setValueAtTime(0, now)
+  if (bus.masterGain && ctx) {
+    const now = ctx.currentTime
+    try {
+      bus.masterGain.gain.cancelScheduledValues(now)
+      bus.masterGain.gain.setValueAtTime(0, now)
+    } catch (e) { /* ignore */ }
+  }
+  // Drop the node so orphaned BufferSources/oscillators have no path to speakers
+  // even if a concurrent tick calls ensure/arm before the next count-in.
+  disconnectMasterGain(bus)
 }
 
 export function getRhythmOutputDestination(bus, audioContext) {

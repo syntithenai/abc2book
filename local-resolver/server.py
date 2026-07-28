@@ -22,6 +22,7 @@ from practice_track_api import (
     get_practice_track_backends,
     get_practice_track_job,
     post_generate_practice_track,
+    post_render_midi,
     practice_track_health,
 )
 from feed_generation import generate_feed_articles, generate_feed_quizzes
@@ -4617,17 +4618,36 @@ async def generate_practice_track_backends(
     )
 
 
+@app.post("/render-midi")
+async def render_midi(
+    request: Request,
+    midi: UploadFile = File(...),
+    authorization: str | None = Header(default=None),
+):
+    return await post_render_midi(
+        request,
+        midi=midi,
+        authorization=authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
+    )
+
+
 @app.post("/generate-practice-track")
 async def generate_practice_track(
     request: Request,
     timingPlan: str = Form(...),
     melody: UploadFile = File(...),
+    chords: UploadFile | None = File(default=None),
+    score: UploadFile | None = File(default=None),
     authorization: str | None = Header(default=None),
 ):
     return await post_generate_practice_track(
         request,
         timing_plan=timingPlan,
         melody=melody,
+        chords=chords,
+        score=score,
         authorization=authorization,
         maybe_require_auth=maybe_require_auth,
         cors_headers=cors_headers,

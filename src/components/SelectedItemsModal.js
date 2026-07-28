@@ -422,7 +422,13 @@ export default function SelectedItemsModal(props) {
 
   return (
     <>
-      <Button variant="secondary" onClick={handleShow} aria-label="Bulk actions" title="Bulk actions">
+      <Button
+        variant="secondary"
+        className="tune-list-bulk-ops-btn"
+        onClick={handleShow}
+        aria-label="Bulk actions"
+        title="Bulk actions"
+      >
         {icons.dropdown}
       </Button>
 

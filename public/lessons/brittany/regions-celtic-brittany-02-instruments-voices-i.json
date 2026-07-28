@@ -23,7 +23,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Track:** Celtic Music | **Region:** brittany | **Tier:** 2\n**Prerequisites:** regions-celtic-brittany-01-overview"
+          "text": "**Track:** regions | **Tier:** 2 | **Difficulty:** 4/10\n**Prerequisites:** regions-celtic-brittany-01-overview\n**Tags:** brittany, bombard, binou, biniou, fiddle, harp, sonerion, fest-noz"
         }
       ]
     },
@@ -34,7 +34,18 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on **bombard, binou (Breton bagpipe), fiddle, and harp** within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions."
+          "text": "This lesson examines four instruments at the heart of Breton traditional music: the **bombard**, **binou kozh** (old-style Breton bagpipe), **fiddle**, and **Celtic harp**. Fest-noz programmes and bagad stages present them as \"melody leaders\" — useful shorthand that hides overlap. A bombard player drives rhythm with articulation; a harpist may harmonise a **kan ha diskan** set or step into dance melody at a fest-noz; fiddlers in **Trégor** and **Léon** share repertoire with pipers but phrase for dancers, not adjudicators.\n\nThe four voices share diatonic dance repertoire, ornament learned by ear, and association with regional fest-noz circuits. They differ in breath versus bow, in outdoor versus hall volume, and in whether they pair as **sonerion** duet or stand alone. A Cornouaille **gavotte** led by bombard–binou is not a Vannetais **plinn** led by accordion — regional accent matters from the first lesson.\n\nRead alongside **Session Voices II** (accordion, guitar, **bagad**), which covers equally essential fest-noz and competition voices."
+        }
+      ]
+    },
+    {
+      "id": "famous-players-and-memorable-details",
+      "title": "Famous players and memorable details",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Alan Stivell** (born 1944) placed Breton harp on global stages; **bodadeg** sonerien keep bombard-binou duets alive in fest-noz culture. **Memorable detail:** Breton pipes are **paired** (bombard + biniou) — not a solo Highland pipe on a hill."
         }
       ]
     },
@@ -45,29 +56,216 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-02-instruments-voices-i` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section."
+          "text": "Irish trad's core melody stack is fiddle, flute, whistle, and uilleann pipes in pub sessions. Breton trad's emblematic pair is **bombard and binou** — both in B-flat folk tuning, piercing enough for unamplified dance halls. Irish uilleann pipes use bellows, regulators, and session etiquette favouring indoor volume control; Breton **sonerion** favours **outdoor projection** and **unison doubling** with the bombard.\n\n| Voice | Irish parallel | Breton distinction |\n|-------|---------------|-------------------|\n| Bombard | Folk oboe cousins; not uilleann chanter | Paired with binou; fest-noz lead |\n| Binou | Uilleann pipes (superficial bagpipe kin) | One-armed pipe; sharper, smaller scale |\n| Fiddle | Irish fiddle | Dance tempo for gavotte/plinn, not reel sets |\n| Harp | Cláirseach / Celtic harp revival | Stivell lineage; concert and song |\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-02-instruments-voices-i`."
         }
       ]
     },
     {
-      "id": "core-material",
-      "title": "Core material",
+      "id": "session-roles-overlap-at-fest-noz",
+      "title": "Session roles overlap at fest-noz",
       "level": 2,
       "blocks": [
         {
           "type": "markdown",
-          "text": "Bombard, binou (breton bagpipe), fiddle, and harp in brittany trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic \"Celtic\" compilations when possible."
+          "text": "Before instrument detail, clear the beginner mistake: sorting fest-noz into fixed melody and rhythm columns.\n\n| Situation | What you might hear |\n|-----------|---------------------|\n| Cornouaille gavotte | Bombard and binou in unison, fiddle doubling, accordion later in mixed bands |\n| Kan ha diskan interlude | Voices lead; bombard rests |\n| Bagad concert | Massed binou and bombard sections with drums — not fest-noz floor pulse |\n| Stivell-style concert | Harp and electric bass fusion — different contract from village hall |\n\nWho **sets tempo for dancers** matters more than instrument labels.\n\n![Breton bagpipe (biniou)](https://en.wikipedia.org/wiki/Special:FilePath/Biniou_kozh.jpg?width=640)\n\n---"
         }
       ]
     },
     {
-      "id": "listening-and-study-habits",
-      "title": "Listening and study habits",
+      "id": "bombard",
+      "title": "Bombard",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **bombard** (*talabost* in Breton) is a loud folk oboe, typically in B-flat, with a penetrating timbre that defines **sonerion** bands. Wikipedia describes it as a traditional Breton woodwind paired with the **biniou** for fest-noz and parade music. It is **not** a medieval weapon name misapplied — the instrument's volume answered the need to lead dancers in barns and fields before PA systems."
+        }
+      ]
+    },
+    {
+      "id": "technique-and-cultural-context",
+      "title": "Technique and cultural context",
       "level": 3,
       "blocks": [
         {
           "type": "markdown",
-          "text": "1. Identify one field recording and one modern ensemble track mentioned or implied in this lesson's topic.\n2. Note the metre and dance association of at least two tune types discussed.\n3. Compare session or social-dance etiquette with what you learned from Irish trad.\n4. Follow the unit playlist entries in lesson metadata when available."
+          "text": "Bombard players use **circular breathing** or staggered breathing between partners so the dance pulse does not break. Fingering resembles other European folk oboes; ornament is **articulation-heavy** — tongued patterns that match **gavotte** lift. Intonation is negotiated with the binou player; fixed temperament purity is less important than **blend**.\n\nVolume is the bombard's social role: it cuts through crowd noise where a fiddle might sink. That power demands **floor awareness** — blasting during a lyrical **son** vocal section is a fest-noz faux pas."
+        }
+      ]
+    },
+    {
+      "id": "fest-noz-and-bagad-role",
+      "title": "Fest-noz and bagad role",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "In classic **Léon** and **Cornouaille** lineups, bombard **leads melody** in unison with binou. In **bagad** ensembles, a **bombard section** doubles pipe melodies at competition scale. Some contemporary fest-noz bands fold bombard into larger horn arrangements; tradition-focused nights keep the pair central.\n\nBombard players often learn through **bodadeg** classes and mentor relationships rather than conservatory tracks."
+        }
+      ]
+    },
+    {
+      "id": "famous-players-and-memorable-details",
+      "title": "Famous players and memorable details",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Jorj Botuhel** and generations of **sonerion** teachers standardised pedagogy through **Sonerion** publications. **Bagad** competition recordings document regional bombard sections — Kemper, Bro Kemperle, and Brieg bagads export reference timbres.\n\n**Memorable detail:** A bombard beginner's first challenge is not finger speed but **endurance** — dance sets run longer than concert pieces, and partners depend on steady pulse.\n\n![Bombard player](https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=640)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "binou-kozh-breton-bagpipe",
+      "title": "Binou kozh (Breton bagpipe)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **binou kozh** (\"old bagpipe\") is the small Breton bagpipe, pitched high and bright, traditionally paired with bombard. It uses a **single octave** scale in folk practice; the **one-armed** drone layout differs from Scottish Highland pipes and from Irish uilleann pipes' bellows-and-regulator system."
+        }
+      ]
+    },
+    {
+      "id": "technique-and-cultural-context",
+      "title": "Technique and cultural context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Binou players maintain **constant bag pressure** and tune to bombard partners. The instrument's **shrill** register projects outdoors — bagad parades, festival openings, village processions. Indoor fest-noz use demands sensitivity; a binou beside a fiddle-heavy band needs balance.\n\nRepertoire overlaps **gavotte**, **mazurka**, and **son** melodies shared across Brittany; Cornouaille tune names dominate export playlists."
+        }
+      ]
+    },
+    {
+      "id": "fest-noz-and-bagad-role",
+      "title": "Fest-noz and bagad role",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Sonerion** duet with bombard is the classic fest-noz lead. **Bagad** format multiplies binou players into **sections** with choreographed marching. Competition **suites** — including material related to the **Suite Sudarmoricaine** — showcase massed pipe tone.\n\nBinou kozh appears in entity markers alongside bombard in tune books and fest-noz posters."
+        }
+      ]
+    },
+    {
+      "id": "historical-notes",
+      "title": "Historical notes",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Revival movements from the 1950s onward rebuilt pipe making and teaching after rural depopulation and wartime disruption. **Bagad** creation in the mid-twentieth century gave binou a **youth pipeline** that pub-based sessions never provided in Ireland's model.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "fiddle",
+      "title": "Fiddle",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The Breton **fiddle** shares the violin's physical form but learns **gavotte** and **plinn** pulse, not primarily reel session drive. **Trégor** and **Léon** fiddlers trade tunes with pipers; **Cornouaille** bands may feature fiddle as secondary melody behind sonerion."
+        }
+      ]
+    },
+    {
+      "id": "technique-and-regional-accent",
+      "title": "Technique and regional accent",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bow patterns emphasise **dance lift** — shorter strokes on **plinn**, steadier drive on **gavotte**. Ornament includes cuts and bowed pulses familiar to Irish fiddlers, but **tempo discipline** follows the floor. Irish-style roll-heavy Sligo reels are the wrong template for a Vannetais walking dance."
+        }
+      ]
+    },
+    {
+      "id": "fest-noz-role",
+      "title": "Fest-noz role",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Fiddle often **doubles** or **fills** when bombard–binou rests; in accordion-led southeast bands it may lead. Twin fiddling appears in some fest-noz recordings; unison with pipes is more common in the northwest."
+        }
+      ]
+    },
+    {
+      "id": "listening-guide",
+      "title": "Listening guide",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Compare fiddle-led **Trégor** recordings with bombard-led **Cornouaille** sets of the same tune name if available — accent differs even when notes match.\n\n![Fiddle in folk context](https://en.wikipedia.org/wiki/Special:FilePath/Violin_VL100.png?width=640)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "celtic-harp",
+      "title": "Celtic harp",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **Breton Celtic harp** revival intertwines with **Alan Stivell**, who popularised harp, **binou**, and fusion staging from the late 1960s. Stivell's father **Jord Cochevelou** built harps that helped spark the **renaissance** documented on albums like *Renaissance de la harpe celtique* (1972)."
+        }
+      ]
+    },
+    {
+      "id": "technique-and-cultural-context",
+      "title": "Technique and cultural context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Harp in Brittany spans **classical Celtic harp** technique, **modal** dance accompaniment, and **rock-fusion** arrangements. Unlike Irish harp's historical **cláirseach** lineage alone, Breton revival harp is inseparable from **fest-noz song** and **concert export**."
+        }
+      ]
+    },
+    {
+      "id": "concert-and-fest-noz-role",
+      "title": "Concert and fest-noz role",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "At fest-noz, harp is less common than bombard or accordion as dance lead — but harp supports **kan ha diskan** and song programmes. On festival main stages, Alan Stivell's lineage defines public imagination of \"Breton harp.\""
+        }
+      ]
+    },
+    {
+      "id": "famous-players",
+      "title": "Famous players",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Alan Stivell** remains the reference — harp, pipes, and political-cultural symbolism of Breton identity. Contemporary harpists bridge fest-noz workshops and **Festival Interceltique** concerts.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "choosing-your-entry-instrument",
+      "title": "Choosing your entry instrument",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Goal | Consider |\n|------|----------|\n| Fest-noz dance leadership in northwest | Bombard or binou through bodadeg classes |\n| Dance bands in Vannetais | Accordion (Lesson 3) may precede fiddle |\n| Concert fusion path | Harp with Stivell recordings as model |\n| Bagad pipeline | Binou or bombard via youth **bagad** branches |"
+        }
+      ]
+    },
+    {
+      "id": "reading-and-listening-list",
+      "title": "Reading and listening list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Sonerion** tune books — bombard–binou repertoire in standard notation and Breton names.\n- **Bagad Kemper** competition sets — massed binou timbre.\n- **Alan Stivell** — *Renaissance de la harpe celtique* — harp revival context.\n- **Dastum** field recordings — village sonerion before stage amplification."
         }
       ]
     },
@@ -78,252 +276,340 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Bombard, binou (breton bagpipe), fiddle, and harp connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing."
-        }
-      ]
-    },
-    {
-      "id": "reading-list",
-      "title": "Reading list",
-      "level": 2,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "- Regional folk archive or national library listening guides (see lesson metadata links when present).\n- Companion to Irish unit readings for cross-border context (Fintan Vallely, *Companion to Irish Traditional Music*).\n- Wikipedia articles on Music of Brittany as orientation, verified against recordings."
+          "text": "- Bombard and binou are the emblematic fest-noz pair — volume, unison, and endurance define their role.\n- Binou differs from Irish uilleann pipes in scale, social pairing, and bagad massed format.\n- Fiddle serves dance pulse in gavotte and plinn — not Irish reel session defaults.\n- Harp revival links to Stivell and concert stages as much as village halls.\n- Compared with Ireland: paired winds replace fiddle-flute session centre; dance floor sets tempo."
         }
       ]
     }
   ],
-  "entities": [],
-  "entity_order": [],
-  "playlist": [],
+  "entities": [
+    {
+      "id": "bombard",
+      "type": "instrument",
+      "name": "Bombard",
+      "summary": "Loud Breton folk oboe paired with binou at fest-noz",
+      "blurb": "B-flat folk oboe leading sonerion duets with penetrating dance-hall volume.",
+      "url": "https://en.wikipedia.org/wiki/Bombard",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "binou",
+      "type": "instrument",
+      "name": "Binou kozh",
+      "summary": "Small Breton bagpipe traditionally paired with bombard",
+      "blurb": "High, bright one-armed pipe defining sonerion and bagad pipe sections.",
+      "url": "https://en.wikipedia.org/wiki/Biniou",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Biniou_kozh.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "stivell",
+      "type": "person",
+      "name": "Alan Stivell",
+      "summary": "Breton harp revivalist linking harp to fest-noz and fusion stages",
+      "blurb": "Father Jord Cochevelou's harps and Stivell's recordings revived Breton harp globally.",
+      "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "bodadeg",
+      "type": "organization",
+      "name": "Bodadeg ar Sonerion",
+      "summary": "Association for bombard and binou players",
+      "blurb": "Supports fest-noz repertoire, teaching, and regional sonerien culture.",
+      "url": "https://www.bodadeg.org/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320",
+      "playlist_index": 4
+    },
+    {
+      "id": "kan-ha-diskan",
+      "type": "tradition",
+      "name": "Kan ha diskan",
+      "summary": "Call-and-response Breton song form",
+      "blurb": "Leader and chorus trade lines at fest-noz; distinct from Irish lilting.",
+      "url": "https://en.wikipedia.org/wiki/Kan_ha_diskan",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+    }
+  ],
+  "entity_order": [
+    "bodadeg"
+  ],
+  "playlist": [
+    {
+      "id": "bombard-demo",
+      "entity_id": "bombard",
+      "label": "Bombard and binou fest-noz",
+      "youtube": "https://www.youtube.com/watch?v=lcSKcDwAMhU",
+      "subtitle": "Bombard"
+    },
+    {
+      "id": "binou-bagad",
+      "entity_id": "binou",
+      "label": "Massed binou bagad sound",
+      "youtube": "https://www.youtube.com/watch?v=RGOlgoGrVnE",
+      "subtitle": "Binou kozh"
+    },
+    {
+      "id": "stivell-renaissance",
+      "entity_id": "stivell",
+      "label": "Alan Stivell harp revival",
+      "youtube": "https://www.youtube.com/watch?v=VFp5bMaaMeg",
+      "subtitle": "Alan Stivell"
+    },
+    {
+      "id": "sonerion-duet",
+      "label": "Sonerion pair performance",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "bombard-binou",
+      "entity_id": "bodadeg",
+      "label": "Bombard and binou duet",
+      "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c",
+      "subtitle": "Bodadeg ar Sonerion"
+    }
+  ],
   "tunes": [],
   "key_points": [
-    "Breton Traditional Music rewards comparative study with Ireland.",
-    "Focus: bombard, binou (Breton bagpipe), fiddle, and harp.",
-    "Listen for regional accent, not generic Celtic cliché.",
-    "Sessions, festivals, and archives all transmit repertoire.",
-    "Dance metre and tune form belong together in study.",
-    "Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.",
-    "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
-    "Bombard, binou (breton bagpipe), fiddle, and harp connects to dance, song, and community context—not isolated technique only.",
-    "Revival institutions, broadcasting, and festivals shape what learners hear today.",
-    "Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing."
+    "Bombard and binou are the emblematic fest-noz pair — unison, volume, and endurance.",
+    "Binou differs from uilleann pipes in scale, pairing, and bagad massed format.",
+    "Breton fiddle phrases for gavotte and plinn pulse — not Irish reel session defaults.",
+    "Harp revival links to Stivell and concert stages as well as song nights.",
+    "Sonerion pedagogy trains sonerion players through bodadeg networks.",
+    "Bombard and binou are the emblematic fest-noz pair — volume, unison, and endurance define their role.",
+    "Binou differs from Irish uilleann pipes in scale, social pairing, and bagad massed format.",
+    "Fiddle serves dance pulse in gavotte and plinn — not Irish reel session defaults.",
+    "Harp revival links to Stivell and concert stages as much as village halls.",
+    "Compared with Ireland: paired winds replace fiddle-flute session centre; dance floor sets tempo."
   ],
   "reading_list": [
     {
       "type": "link",
-      "title": "Breton Traditional Instruments — Traditional Voices I — orientation",
-      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+      "title": "Bombard",
+      "url": "https://en.wikipedia.org/wiki/Bombard",
+      "note": "Breton folk oboe orientation"
+    },
+    {
+      "type": "link",
+      "title": "Biniou",
+      "url": "https://en.wikipedia.org/wiki/Biniou",
+      "note": "Breton bagpipe types including binou kozh"
     },
     {
       "type": "book",
-      "author": "Companion to Irish unit readings for cross-border context (Fintan Vallely",
-      "title": "Companion to Irish Traditional Music"
+      "title": "Sonerion tune books",
+      "author": "Bodadeg ar Sonerion",
+      "note": "Standard bombard–binou repertoire in print"
+    },
+    {
+      "type": "link",
+      "title": "Alan Stivell — Renaissance de la harpe celtique",
+      "url": "https://en.wikipedia.org/wiki/Renaissance_de_la_harpe_celtique",
+      "note": "1972 harp revival album context"
+    },
+    {
+      "type": "link",
+      "title": "Bodadeg ar Sonerion",
+      "url": "https://www.bodadeg.org/",
+      "note": "Bombard and binou teaching"
+    },
+    {
+      "type": "book",
+      "title": "Musiques de Bretagne",
+      "author": "Ronan Gorgil",
+      "note": "Instrument survey"
+    },
+    {
+      "type": "link",
+      "title": "Breton bagpipe types",
+      "url": "https://en.wikipedia.org/wiki/Biniou",
+      "note": "Binou vs Great Highland"
     }
   ],
-  "quiz_markdown": "### Q1. Which description best fits the main social context emphasised in this lesson?\n- A) Concerto competitions only\n- B) Community dance and oral transmission\n- C) Strictly classical conservatory exams\n- D) Electronic dance clubs only\n**Answer:** B) Community dance and oral transmission\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q2. This tradition is identical to Irish traditional music in repertoire and social context.\n- A) True\n- B) False\n**Answer:** B) False\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q3. Compared with Ireland, this unit stresses which additional emphasis?\n- A) No differences whatsoever\n- B) See Compared with Ireland section\n- C) Only classical opera\n- D) Only hip-hop production\n**Answer:** B) See Compared with Ireland section\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q4. A typical learner should prioritise:\n- A) Only reading generic textbooks\n- B) Listening to regional recordings before generic \"Celtic\" compilations\n- C) Memorising one tune only\n- D) Ignoring dance context\n**Answer:** B) Listening to regional recordings before generic \"Celtic\" compilations\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q5. Sessions, festivals, and archives all play roles in modern transmission.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q6. Instrument focus in this lesson includes:\n- A) Only synthesizers\n- B) Voices named in the lesson introduction\n- C) Only orchestral brass\n- D) Only piano études\n**Answer:** B) Voices named in the lesson introduction\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q7. Dance rhythm topics in this lesson relate to:\n- A) Ballet syllabus only\n- B) Social dance forms discussed in the body\n- C) Marching band drill only\n- D) DJ beatmatching only\n**Answer:** B) Social dance forms discussed in the body\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q8. Revival movements and media broadcasting shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q9. When studying tune forms, you should:\n- A) Ignore metre entirely\n- B) Connect metre and foot-tap feel to named dance types\n- C) Assume all tunes are 4/4 rock beats\n- D) Avoid learning by ear\n**Answer:** B) Connect metre and foot-tap feel to named dance types\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q10. Fusion and modern scenes discussed here:\n- A) Erase all earlier repertoire\n- B) Build on—not replace—living tradition\n- C) Ban all acoustic instruments\n- D) Eliminate festivals\n**Answer:** B) Build on—not replace—living tradition\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q11. The Compared with Ireland section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*\n\n### Q12. Best next step after this lesson:\n- A) Stop listening to recordings\n- B) Follow playlists and return to the paired Ireland lesson\n- C) Skip all prerequisites\n- D) Avoid comparative study\n**Answer:** B) Follow playlists and return to the paired Ireland lesson\n*Explanation grounded in Breton Traditional Instruments — Traditional Voices I.*",
+  "quiz_markdown": "### Q1. The bombard is typically paired with which instrument at fest-noz?\n\n- A) Binou kozh (Breton bagpipe)\n- B) Highland bagpipe only\n- C) Electric guitar only\n- D) Harp exclusively\n\n**Answer:** A\n\n### Q2. Sonerion refers to Breton piping tradition centred on bombard and binou.\n\n**Answer:** True\n\n### Q3. Compared with Irish uilleann pipes, the binou kozh is:\n\n- A) Smaller, sharper, and traditionally paired with bombard rather than session regulators\n- B) Identical in mechanism and social role\n- C) Always played with bellows and three drones like uilleann pipes\n- D) Never used in dance music\n\n**Answer:** A\n\n### Q4. Bombard players often rely on circular breathing or partner overlap because:\n\n- A) Dance sets require continuous pulse for the floor\n- B) The instrument is silent for long periods\n- C) Fest-noz bans all breathing sounds\n- D) Binou players forbid pauses\n\n**Answer:** A\n\n### Q5. Alan Stivell is closely associated with Breton harp revival and fusion.\n\n**Answer:** True\n\n### Q6. In a classic northwest fest-noz, fiddle most often:\n\n- A) Doubles or supports sonerion, following dance tempo\n- B) Replaces all vocals permanently\n- C) Plays only classical études\n- D) Leads Highland bagpipe marches exclusively\n\n**Answer:** A\n\n### Q7. Bagad ensembles use binou and bombard in:\n\n- A) Massed sections with drums for competition and parade formats\n- B) Solo chamber settings only\n- C) Jazz big-band arrangements only\n- D) Silent film accompaniment\n\n**Answer:** A\n\n### Q8. Breton fiddle style prioritises gavotte and plinn dance pulse over Irish reel session drive.\n\n**Answer:** True\n\n### Q9. Bodadeg ar Sonerion and Sonerion publications support learning bombard and binou repertoire.\n\n**Answer:** True\n\n### Q10. The bombard's social role includes leading unamplified dance halls with penetrating volume.\n\n**Answer:** True\n\n### Q11. Harp is the most common primary dance-lead instrument at every village fest-noz.\n\n**Answer:** False — bombard–binou or accordion bands often lead; harp is more prominent in concert and song contexts.\n\n### Q12. Cornouaille and Léon are associated with sonerion-led fest-noz sound.\n\n**Answer:** True",
   "quiz_questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Which description best fits the main social context emphasised in this lesson?",
+      "prompt": "The bombard is typically paired with which instrument at fest-noz?",
       "choices": [
         {
           "id": "a",
-          "text": "Group social choreography for multiple dancers",
+          "text": "Intangible cultural heritage of humanity",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Tips and heels striking the floor",
+          "text": "Regions where Irish remains a community language",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Four-string tenor banjo with a plectrum",
+          "text": "Highly ornamented, often unaccompanied traditional song",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Community dance and oral transmission",
+          "text": "Binou kozh (Breton bagpipe)",
           "correct": true
         }
       ],
-      "explain": ") Community dance and oral transmission"
+      "explain": "The lesson identifies this as: Binou kozh (Breton bagpipe)"
     },
     {
       "id": "q2",
-      "type": "mcq",
-      "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+      "type": "truefalse",
+      "prompt": "Sonerion refers to Breton piping tradition centred on bombard and binou.",
       "choices": [
         {
           "id": "a",
-          "text": "Four-string tenor banjo with a plectrum",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Modal Irish and Celtic accompaniment",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "False",
+          "text": "True",
           "correct": true
         },
         {
-          "id": "d",
-          "text": "Tips and heels striking the floor",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") False"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q3",
       "type": "mcq",
-      "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+      "prompt": "Compared with Irish uilleann pipes, the binou kozh is:",
       "choices": [
         {
           "id": "a",
-          "text": "Single-headed Irish frame drum",
+          "text": "Tips and heels striking the floor",
           "correct": false
         },
         {
           "id": "b",
-          "text": "See Compared with Ireland section",
+          "text": "Smaller, sharper, and traditionally paired with bombard rather than session regulators",
           "correct": true
         },
         {
           "id": "c",
-          "text": "Four-string tenor banjo with a plectrum",
+          "text": "Highly ornamented, often unaccompanied traditional song",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Modal Irish and Celtic accompaniment",
+          "text": "Group social choreography for multiple dancers",
           "correct": false
         }
       ],
-      "explain": ") See Compared with Ireland section"
+      "explain": "The lesson identifies this as: Smaller, sharper, and traditionally paired with bombard rather than session regulators"
     },
     {
       "id": "q4",
       "type": "mcq",
-      "prompt": "A typical learner should prioritise:",
+      "prompt": "Bombard players often rely on circular breathing or partner overlap because:",
       "choices": [
         {
           "id": "a",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "text": "Dance sets require continuous pulse for the floor",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Modal Irish and Celtic accompaniment",
+          "text": "Group social choreography for multiple dancers",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Single-headed Irish frame drum",
+          "text": "Tips and heels striking the floor",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Community dance and oral transmission",
+          "text": "Four-string tenor banjo with a plectrum",
           "correct": false
         }
       ],
-      "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+      "explain": "The lesson identifies this as: Dance sets require continuous pulse for the floor"
     },
     {
       "id": "q5",
-      "type": "mcq",
-      "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+      "type": "truefalse",
+      "prompt": "Alan Stivell is closely associated with Breton harp revival and fusion.",
       "choices": [
         {
           "id": "a",
-          "text": "Single-headed Irish frame drum",
-          "correct": false
+          "text": "True",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Community dance and oral transmission",
-          "correct": false
-        },
-        {
-          "id": "c",
           "text": "False",
           "correct": false
-        },
-        {
-          "id": "d",
-          "text": "True",
-          "correct": true
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q6",
       "type": "mcq",
-      "prompt": "Instrument focus in this lesson includes:",
+      "prompt": "In a classic northwest fest-noz, fiddle most often:",
       "choices": [
         {
           "id": "a",
-          "text": "False",
+          "text": "Modal Irish and Celtic accompaniment",
           "correct": false
         },
         {
           "id": "b",
-          "text": "See Compared with Ireland section",
+          "text": "Single-headed Irish frame drum",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Voices named in the lesson introduction",
+          "text": "Doubles or supports sonerion, following dance tempo",
           "correct": true
         },
         {
           "id": "d",
-          "text": "Community dance and oral transmission",
+          "text": "Four-string tenor banjo with a plectrum",
           "correct": false
         }
       ],
-      "explain": ") Voices named in the lesson introduction"
+      "explain": "The lesson identifies this as: Doubles or supports sonerion, following dance tempo"
     },
     {
       "id": "q7",
       "type": "mcq",
-      "prompt": "Dance rhythm topics in this lesson relate to:",
+      "prompt": "Bagad ensembles use binou and bombard in:",
       "choices": [
         {
           "id": "a",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "text": "Binou kozh (Breton bagpipe)",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Social dance forms discussed in the body",
+          "text": "Massed sections with drums for competition and parade formats",
           "correct": true
         },
         {
           "id": "c",
-          "text": "False",
+          "text": "Modal Irish and Celtic accompaniment",
           "correct": false
         },
         {
           "id": "d",
-          "text": "See Compared with Ireland section",
+          "text": "Single-headed Irish frame drum",
           "correct": false
         }
       ],
-      "explain": ") Social dance forms discussed in the body"
+      "explain": "The lesson identifies this as: Massed sections with drums for competition and parade formats"
     },
     {
       "id": "q8",
-      "type": "mcq",
-      "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+      "type": "truefalse",
+      "prompt": "Breton fiddle style prioritises gavotte and plinn dance pulse over Irish reel session drive.",
       "choices": [
         {
           "id": "a",
@@ -332,133 +618,83 @@
         },
         {
           "id": "b",
-          "text": "See Compared with Ireland section",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Voices named in the lesson introduction",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q9",
-      "type": "mcq",
-      "prompt": "When studying tune forms, you should:",
+      "type": "truefalse",
+      "prompt": "Bodadeg ar Sonerion and Sonerion publications support learning bombard and binou repertoire.",
       "choices": [
         {
           "id": "a",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": false
+          "text": "True",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "True",
+          "text": "False",
           "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Voices named in the lesson introduction",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": true
         }
       ],
-      "explain": ") Connect metre and foot-tap feel to named dance types"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q10",
-      "type": "mcq",
-      "prompt": "Fusion and modern scenes discussed here:",
+      "type": "truefalse",
+      "prompt": "The bombard's social role includes leading unamplified dance halls with penetrating volume.",
       "choices": [
         {
           "id": "a",
-          "text": "6/8 with a two-beat feel per bar",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "9/8 slip-jig time",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "4/4 reel time with a steady drive",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Build on—not replace—living tradition",
-          "correct": true
-        }
-      ],
-      "explain": ") Build on—not replace—living tradition"
-    },
-    {
-      "id": "q11",
-      "type": "mcq",
-      "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
-      "choices": [
-        {
-          "id": "a",
-          "text": "4/4 reel time with a steady drive",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Sligo fiddle style",
-          "correct": false
-        },
-        {
-          "id": "c",
           "text": "True",
           "correct": true
         },
         {
-          "id": "d",
-          "text": "9/8 slip-jig time",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
-      "id": "q12",
-      "type": "mcq",
-      "prompt": "Best next step after this lesson:",
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Harp is the most common primary dance-lead instrument at every village fest-noz.",
       "choices": [
         {
           "id": "a",
-          "text": "Donegal highland repertoire",
+          "text": "True",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Follow playlists and return to the paired Ireland lesson",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "bombard–binou or accordion bands often lead; harp is more prominent in concert and song contexts."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Cornouaille and Léon are associated with sonerion-led fest-noz sound.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
           "correct": true
         },
         {
-          "id": "c",
-          "text": "4/4 reel time with a steady drive",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Sligo fiddle style",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") Follow playlists and return to the paired Ireland lesson"
+      "explain": "Correct answer: True"
     }
   ],
   "quiz": {
@@ -468,203 +704,183 @@
       {
         "id": "q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The bombard is typically paired with which instrument at fest-noz?",
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Binou kozh (Breton bagpipe)",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Binou kozh (Breton bagpipe)"
       },
       {
         "id": "q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Sonerion refers to Breton piping tradition centred on bombard and binou.",
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") False"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q3",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Compared with Irish uilleann pipes, the binou kozh is:",
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "Smaller, sharper, and traditionally paired with bombard rather than session regulators",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Smaller, sharper, and traditionally paired with bombard rather than session regulators"
       },
       {
         "id": "q4",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Bombard players often rely on circular breathing or partner overlap because:",
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Dance sets require continuous pulse for the floor",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Single-headed Irish frame drum",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Dance sets require continuous pulse for the floor"
       },
       {
         "id": "q5",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Alan Stivell is closely associated with Breton harp revival and fusion.",
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q6",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "In a classic northwest fest-noz, fiddle most often:",
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "Doubles or supports sonerion, following dance tempo",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Doubles or supports sonerion, following dance tempo"
       },
       {
         "id": "q7",
         "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "prompt": "Bagad ensembles use binou and bombard in:",
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Binou kozh (Breton bagpipe)",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Social dance forms discussed in the body",
+            "text": "Massed sections with drums for competition and parade formats",
             "correct": true
           },
           {
             "id": "c",
-            "text": "False",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "The lesson identifies this as: Massed sections with drums for competition and parade formats"
       },
       {
         "id": "q8",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Breton fiddle style prioritises gavotte and plinn dance pulse over Irish reel session drive.",
         "choices": [
           {
             "id": "a",
@@ -673,133 +889,83 @@
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q9",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Bodadeg ar Sonerion and Sonerion publications support learning bombard and binou repertoire.",
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q10",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "The bombard's social role includes leading unamplified dance halls with penetrating volume.",
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
-            "correct": true
-          }
-        ],
-        "explain": ") Build on—not replace—living tradition"
-      },
-      {
-        "id": "q11",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
-        "choices": [
-          {
-            "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "9/8 slip-jig time",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "q12",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Harp is the most common primary dance-lead instrument at every village fest-noz.",
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "bombard–binou or accordion bands often lead; harp is more prominent in concert and song contexts."
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Cornouaille and Léon are associated with sonerion-led fest-noz sound.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sligo fiddle style",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   }

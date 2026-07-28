@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
-import { Modal, Button, Form } from 'react-bootstrap';
+import { Modal, Button } from 'react-bootstrap';
 import {
   getDefaultAudioDriveUpload,
   preferenceFromUploadSelection,
   setDefaultAudioDriveUpload,
 } from '../audioDriveUploadPrefs';
+import SelectAllToggle from './SelectAllToggle';
+import CheckToggleButton from './CheckToggleButton';
 
 export default function AudioDriveUploadModal(props) {
   const files = Array.isArray(props.files) ? props.files : [];
@@ -60,27 +62,32 @@ export default function AudioDriveUploadModal(props) {
           </p>
         )}
         {files.length > 0 && (
-          <div className="audio-drive-upload-modal-select-actions">
-            <Button variant="link" size="sm" className="p-0" onClick={function() { setAllSelected(true); }}>
-              Select all
-            </Button>
-            <span aria-hidden="true">·</span>
-            <Button variant="link" size="sm" className="p-0" onClick={function() { setAllSelected(false); }}>
-              Select none
-            </Button>
+          <div className="audio-drive-upload-modal-select-actions select-all-host">
+            <SelectAllToggle
+              size="sm"
+              totalCount={files.length}
+              selectedCount={selectedCount}
+              onSelectAll={function() { setAllSelected(true); }}
+              onSelectNone={function() { setAllSelected(false); }}
+              ariaLabel="Select all files for upload"
+            />
           </div>
         )}
         <div className="audio-drive-upload-modal-file-list">
           {files.map(function(file, index) {
             return (
-              <Form.Check
+              <div
                 key={file.name + '-' + file.size + '-' + file.lastModified + '-' + index}
-                type="checkbox"
-                id={'audio-drive-upload-' + index}
-                label={file.name || 'Audio file'}
-                checked={!!uploadSelected[index]}
-                onChange={function() { toggleFile(index); }}
-              />
+                className="audio-drive-upload-file-row"
+              >
+                <CheckToggleButton
+                  size="sm"
+                  checked={!!uploadSelected[index]}
+                  ariaLabel={'Upload ' + (file.name || 'Audio file')}
+                  onClick={function() { toggleFile(index); }}
+                />
+                <span className="audio-drive-upload-file-name">{file.name || 'Audio file'}</span>
+              </div>
             );
           })}
         </div>

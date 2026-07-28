@@ -1,0 +1,782 @@
+{
+  "regions-south-bengal-01-overview": {
+    "entities": [
+      {
+        "id": "lalan-fakir",
+        "type": "artist",
+        "name": "Lalan Fakir",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Lalan Fakir for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Lalan_Fakir",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "bengali-folk",
+        "type": "band",
+        "name": "Bengali Folk",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Bengali Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bengali_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-bengal-01-overview-pl1",
+        "entity_id": "lalan-fakir",
+        "label": "Lalan Fakir — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-bengal-01-overview-pl2",
+        "entity_id": "bengali-folk",
+        "label": "Bengali Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-bengal-01-overview-pl3",
+        "label": "Bengali Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-bengal-01-overview-pl4",
+        "label": "Bengali Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Bengali Folk rewards comparative study.",
+      "Focus: Bengali Folk spans ektara, dotara, voice leading voices, baul, bhatiali, and folk dance..",
+      "Listen for regional accent, not generic labels.",
+      "Forms: baul, bhatiali.",
+      "Dance: folk dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Bengal",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Bengali Folk spans ektara, dotara, voice leading voices, bau",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-bengal-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "lalan-fakir",
+        "type": "artist",
+        "name": "Lalan Fakir",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Lalan Fakir for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Lalan_Fakir",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "bengali-folk",
+        "type": "band",
+        "name": "Bengali Folk",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Bengali Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bengali_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-bengal-02-instruments-voices-i-pl1",
+        "entity_id": "lalan-fakir",
+        "label": "Lalan Fakir — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-bengal-02-instruments-voices-i-pl2",
+        "entity_id": "bengali-folk",
+        "label": "Bengali Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-bengal-02-instruments-voices-i-pl3",
+        "label": "Bengali Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-bengal-02-instruments-voices-i-pl4",
+        "label": "Bengali Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Bengali Folk rewards comparative study.",
+      "Focus: ektara, dotara, voice.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: baul, bhatiali.",
+      "Dance: folk dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Bengal",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "ektara, dotara, voice",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-bengal-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "lalan-fakir",
+        "type": "artist",
+        "name": "Lalan Fakir",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Lalan Fakir for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Lalan_Fakir",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "bengali-folk",
+        "type": "band",
+        "name": "Bengali Folk",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Bengali Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bengali_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-bengal-03-instruments-voices-ii-pl1",
+        "entity_id": "lalan-fakir",
+        "label": "Lalan Fakir — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-bengal-03-instruments-voices-ii-pl2",
+        "entity_id": "bengali-folk",
+        "label": "Bengali Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-bengal-03-instruments-voices-ii-pl3",
+        "label": "Bengali Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-bengal-03-instruments-voices-ii-pl4",
+        "label": "Bengali Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Bengali Folk rewards comparative study.",
+      "Focus: harmonium, percussion.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: baul, bhatiali.",
+      "Dance: folk dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Bengal",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "harmonium, percussion",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-bengal-04-genres-forms": {
+    "entities": [
+      {
+        "id": "lalan-fakir",
+        "type": "artist",
+        "name": "Lalan Fakir",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Lalan Fakir for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Lalan_Fakir",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "bengali-folk",
+        "type": "band",
+        "name": "Bengali Folk",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Bengali Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bengali_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-bengal-04-genres-forms-pl1",
+        "entity_id": "lalan-fakir",
+        "label": "Lalan Fakir — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-bengal-04-genres-forms-pl2",
+        "entity_id": "bengali-folk",
+        "label": "Bengali Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-bengal-04-genres-forms-pl3",
+        "label": "Bengali Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-bengal-04-genres-forms-pl4",
+        "label": "Bengali Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Bengali Folk rewards comparative study.",
+      "Focus: baul, bhatiali.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: baul, bhatiali.",
+      "Dance: folk dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Bengal",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "baul, bhatiali",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-bengal-05-dance": {
+    "entities": [
+      {
+        "id": "lalan-fakir",
+        "type": "artist",
+        "name": "Lalan Fakir",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Lalan Fakir for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Lalan_Fakir",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "bengali-folk",
+        "type": "band",
+        "name": "Bengali Folk",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Bengali Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bengali_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-bengal-05-dance-pl1",
+        "entity_id": "lalan-fakir",
+        "label": "Lalan Fakir — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-bengal-05-dance-pl2",
+        "entity_id": "bengali-folk",
+        "label": "Bengali Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-bengal-05-dance-pl3",
+        "label": "Bengali Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-bengal-05-dance-pl4",
+        "label": "Bengali Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Bengali Folk rewards comparative study.",
+      "Focus: folk dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: baul, bhatiali.",
+      "Dance: folk dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Bengal",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "folk dance",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-bengal-06-history": {
+    "entities": [
+      {
+        "id": "lalan-fakir",
+        "type": "artist",
+        "name": "Lalan Fakir",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Lalan Fakir for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Lalan_Fakir",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "bengali-folk",
+        "type": "band",
+        "name": "Bengali Folk",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Bengali Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bengali_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-bengal-06-history-pl1",
+        "entity_id": "lalan-fakir",
+        "label": "Lalan Fakir — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-bengal-06-history-pl2",
+        "entity_id": "bengali-folk",
+        "label": "Bengali Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-bengal-06-history-pl3",
+        "label": "Bengali Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-bengal-06-history-pl4",
+        "label": "Bengali Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Bengali Folk rewards comparative study.",
+      "Focus: poetry-song tradition.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: baul, bhatiali.",
+      "Dance: folk dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Bengal",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "poetry-song tradition",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-bengal-07-representative-depth": {
+    "entities": [
+      {
+        "id": "lalan-fakir",
+        "type": "artist",
+        "name": "Lalan Fakir",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Lalan Fakir for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Lalan_Fakir",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "bengali-folk",
+        "type": "band",
+        "name": "Bengali Folk",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Bengali Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bengali_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-bengal-07-representative-depth-pl1",
+        "entity_id": "lalan-fakir",
+        "label": "Lalan Fakir — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-bengal-07-representative-depth-pl2",
+        "entity_id": "bengali-folk",
+        "label": "Bengali Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-bengal-07-representative-depth-pl3",
+        "label": "Bengali Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-bengal-07-representative-depth-pl4",
+        "label": "Bengali Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Bengali Folk rewards comparative study.",
+      "Focus: festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: baul, bhatiali.",
+      "Dance: folk dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Bengal",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "festivals",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-south-bengal-08-tunes": {
+    "entities": [
+      {
+        "id": "lalan-fakir",
+        "type": "artist",
+        "name": "Lalan Fakir",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Lalan Fakir for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Lalan_Fakir",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "bengali-folk",
+        "type": "band",
+        "name": "Bengali Folk",
+        "summary": "Representative musician or ensemble in south-bengal trad",
+        "blurb": "Study Bengali Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bengali_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-south-bengal-08-tunes-pl1",
+        "entity_id": "lalan-fakir",
+        "label": "Lalan Fakir — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-south-bengal-08-tunes-pl2",
+        "entity_id": "bengali-folk",
+        "label": "Bengali Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-south-bengal-08-tunes-pl3",
+        "label": "Bengali Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-south-bengal-08-tunes-pl4",
+        "label": "Bengali Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Bengali Folk rewards comparative study.",
+      "Focus: Bhatiali forms.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: baul, bhatiali.",
+      "Dance: folk dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Bengal",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "South Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Bhatiali forms",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Bengal",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "bhatiali-forms",
+        "type": "tune",
+        "name": "Bhatiali forms",
+        "form": "baul",
+        "reference": "Music of Bengal repertoire",
+        "about": "Representative bengali folk listening study.",
+        "playlist": [
+          {
+            "label": "Bhatiali forms — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "bengal-standard-1",
+        "type": "tune",
+        "name": "bengal standard 1",
+        "form": "baul",
+        "reference": "Music of Bengal repertoire",
+        "about": "Representative bengali folk listening study.",
+        "playlist": [
+          {
+            "label": "bengal standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "bengal-standard-2",
+        "type": "tune",
+        "name": "bengal standard 2",
+        "form": "baul",
+        "reference": "Music of Bengal repertoire",
+        "about": "Representative bengali folk listening study.",
+        "playlist": [
+          {
+            "label": "bengal standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

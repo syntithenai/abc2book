@@ -1,7 +1,25 @@
-export const LIST_PROTECTION_LIMIT = 500
-export const PREVIEW_LIST_LIMIT = 150
-export const FILTER_STATUS_CHUNK_SIZE = 50
-export const LARGE_LIST_WARNING_THRESHOLD = 1000
+import {
+  LIST_PROTECTION_LIMIT,
+  PREVIEW_LIST_LIMIT,
+  FILTER_STATUS_CHUNK_SIZE,
+  LARGE_LIST_WARNING_THRESHOLD,
+  LARGE_BOOK_INDEX_THRESHOLD,
+  CATALOG_PAGE_SIZE,
+  BULK_SELECTION_LIMIT,
+} from './tuneScaleConstants'
+import { resolveCandidateTuneIds, intersectIds } from './tuneCandidateFilter'
+import { isCatalogStorageEnabled } from './tuneStorageFlags'
+import { listCatalogPage, getTune } from './tuneRepository'
+import { searchTextIndex } from './tuneTextSearchIndex'
+
+export {
+  LIST_PROTECTION_LIMIT,
+  PREVIEW_LIST_LIMIT,
+  FILTER_STATUS_CHUNK_SIZE,
+  LARGE_LIST_WARNING_THRESHOLD,
+  CATALOG_PAGE_SIZE,
+  BULK_SELECTION_LIMIT,
+}
 
 export function yieldToMain() {
   return new Promise(function(resolve) {
@@ -15,16 +33,28 @@ function compareTuneNames(a, b) {
   return nameA < nameB ? -1 : 1
 }
 
-export function filterTunes(tunes, filterSearchFn) {
+export function filterTunes(tunes, filterSearchFn, candidateIds) {
   if (!tunes || typeof tunes !== 'object') return []
   const seen = {}
   const result = []
-  Object.values(tunes).forEach(function(tune) {
+  const ids = Array.isArray(candidateIds) ? candidateIds : null
+
+  function consider(tune) {
     if (!tune || tune.id == null) return
     if (seen[tune.id]) return
     seen[tune.id] = true
     if (filterSearchFn(tune)) result.push(tune)
-  })
+  }
+
+  if (ids) {
+    ids.forEach(function(tuneId) {
+      const tune = tunes[tuneId] || tunes[String(tuneId)]
+      consider(tune)
+    })
+    return result
+  }
+
+  Object.values(tunes).forEach(consider)
   return result
 }
 
@@ -165,6 +195,19 @@ export async function buildTuneStatusMetadata(filteredTunes, tunebook, options) 
   return { tuneStatus: tuneStatus, anyTunesHaveNotes: anyTunesHaveNotes, anyTunesHaveLinks: anyTunesHaveLinks }
 }
 
+async function resolveTextCandidateIds(filterContext) {
+  const text = filterContext && (filterContext.textFilter || filterContext.filter)
+  const query = String(text || '').trim()
+  if (query.length < 3) return null
+  return searchTextIndex(query)
+}
+
+function applyTextCandidates(candidateIds, textIds) {
+  if (!textIds || textIds.length === 0) return candidateIds
+  if (candidateIds === null) return textIds
+  return intersectIds(candidateIds, textIds)
+}
+
 export async function runTuneListFilterAsync(params) {
   const {
     tunes,
@@ -172,11 +215,50 @@ export async function runTuneListFilterAsync(params) {
     groupBy,
     tunebook,
     shouldCancel,
+    indexes,
+    filterContext,
   } = params || {}
 
   if (shouldCancel && shouldCancel()) return null
 
-  const filtered = sortTunesByName(filterTunes(tunes, filterSearchFn))
+  const textIds = await resolveTextCandidateIds(filterContext)
+  let filtered
+  let listPage = null
+  if (isCatalogStorageEnabled() && filterContext) {
+    const catalogContext = Object.assign({}, filterContext, {
+      textFilter: filterContext.textFilter || filterContext.filter || '',
+    })
+    const page = await listCatalogPage(catalogContext, { offset: 0, limit: 10000 })
+    let candidateIds = page.ids || (page.rows || []).map(function(r) { return r.id })
+    candidateIds = applyTextCandidates(candidateIds, textIds)
+    const catalogTunes = []
+    for (let i = 0; i < candidateIds.length; i += 1) {
+      if (shouldCancel && shouldCancel()) return null
+      const tune = await getTune(candidateIds[i])
+      if (tune && filterSearchFn(tune)) catalogTunes.push(tune)
+      if (i > 0 && i % 50 === 0) await yieldToMain()
+    }
+    filtered = sortTunesByName(catalogTunes)
+    listPage = {
+      total: filtered.length,
+      offset: 0,
+      limit: CATALOG_PAGE_SIZE,
+      ids: filtered.map(function(t) { return t.id }),
+    }
+  } else {
+    const allIds = tunes ? Object.keys(tunes) : []
+    let candidateIds = resolveCandidateTuneIds(filterContext, indexes, allIds)
+    candidateIds = applyTextCandidates(candidateIds, textIds)
+    filtered = sortTunesByName(filterTunes(tunes, filterSearchFn, candidateIds))
+    if (filtered.length > CATALOG_PAGE_SIZE) {
+      listPage = {
+        total: filtered.length,
+        offset: 0,
+        limit: CATALOG_PAGE_SIZE,
+        ids: filtered.map(function(t) { return t.id }),
+      }
+    }
+  }
   const tagCollation = buildTagCollation(filtered)
   const statusResult = await buildTuneStatusMetadata(filtered, tunebook, { shouldCancel: shouldCancel })
   if (!statusResult) return null
@@ -188,6 +270,7 @@ export async function runTuneListFilterAsync(params) {
     grouped: grouped,
     tuneStatus: statusResult.tuneStatus,
     tagCollation: tagCollation,
+    listPage: listPage,
   }
 }
 
@@ -197,9 +280,16 @@ export function runTuneListFilterSync(params) {
     filterSearchFn,
     groupBy,
     tunebook,
+    indexes,
+    filterContext,
   } = params || {}
 
-  const filtered = sortTunesByName(filterTunes(tunes, filterSearchFn))
+  const allIds = tunes ? Object.keys(tunes) : []
+  let candidateIds = resolveCandidateTuneIds(filterContext, indexes, allIds)
+  if (filterContext && filterContext.textCandidateIds) {
+    candidateIds = applyTextCandidates(candidateIds, filterContext.textCandidateIds)
+  }
+  const filtered = sortTunesByName(filterTunes(tunes, filterSearchFn, candidateIds))
   const tagCollation = buildTagCollation(filtered)
   const tuneStatus = {}
   if (Array.isArray(filtered) && filtered.length < LIST_PROTECTION_LIMIT * 5) {

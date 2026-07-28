@@ -62,8 +62,36 @@ def job_backing_wav(job_id: str) -> Path:
     return _job_dir(job_id) / "backing.wav"
 
 
+def job_chords_wav(job_id: str) -> Path:
+    return _job_dir(job_id) / "chords.wav"
+
+
+def job_section_backing_wav(job_id: str, index: int) -> Path:
+    return _job_dir(job_id) / f"backing-section-{index}.wav"
+
+
 def job_timing_plan_path(job_id: str) -> Path:
     return _job_dir(job_id) / "timing-plan.json"
+
+
+def job_score_mid(job_id: str) -> Path:
+    return _job_dir(job_id) / "score.mid"
+
+
+def job_drums_mid(job_id: str) -> Path:
+    return _job_dir(job_id) / "drums.mid"
+
+
+def job_drums_wav(job_id: str) -> Path:
+    return _job_dir(job_id) / "drums.wav"
+
+
+def job_guide_wav(job_id: str) -> Path:
+    return _job_dir(job_id) / "guide.wav"
+
+
+def job_melody_rendered_wav(job_id: str) -> Path:
+    return _job_dir(job_id) / "melody-rendered.wav"
 
 
 def hash_melody_bytes(data: bytes) -> str:

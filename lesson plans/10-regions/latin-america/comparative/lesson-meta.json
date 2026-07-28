@@ -1,0 +1,370 @@
+{
+  "regions-latin-comparative-01-what-the-tradition-means": {
+    "entities": [
+      {
+        "id": "vicente-fern-ndez",
+        "type": "artist",
+        "name": "Vicente Fernández",
+        "summary": "Representative musician or ensemble in latin-mexico trad",
+        "blurb": "Study Vicente Fernández for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Vicente_Fernández",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "los-folkloristas",
+        "type": "band",
+        "name": "Los Folkloristas",
+        "summary": "Representative musician or ensemble in latin-mexico trad",
+        "blurb": "Study Los Folkloristas for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Los_Folkloristas",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-comparative-01-what-the-tradition-means-pl1",
+        "entity_id": "vicente-fern-ndez",
+        "label": "Vicente Fernández — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-comparative-01-what-the-tradition-means-pl2",
+        "entity_id": "los-folkloristas",
+        "label": "Los Folkloristas — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-comparative-01-what-the-tradition-means-pl3",
+        "label": "Mexican Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-comparative-01-what-the-tradition-means-pl4",
+        "label": "Mexican Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mexican Folk Music rewards comparative study.",
+      "Focus: Mexican Folk Music spans violin, voice, harp leading voices, son, huapango, corrido, and z.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: son, huapango, corrido.",
+      "Dance: zapateado, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mexico",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Mexican Folk Music spans violin, voice, harp leading voices,",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-comparative-02-shared-instruments": {
+    "entities": [
+      {
+        "id": "vicente-fern-ndez",
+        "type": "artist",
+        "name": "Vicente Fernández",
+        "summary": "Representative musician or ensemble in latin-mexico trad",
+        "blurb": "Study Vicente Fernández for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Vicente_Fernández",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "los-folkloristas",
+        "type": "band",
+        "name": "Los Folkloristas",
+        "summary": "Representative musician or ensemble in latin-mexico trad",
+        "blurb": "Study Los Folkloristas for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Los_Folkloristas",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-comparative-02-shared-instruments-pl1",
+        "entity_id": "vicente-fern-ndez",
+        "label": "Vicente Fernández — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-comparative-02-shared-instruments-pl2",
+        "entity_id": "los-folkloristas",
+        "label": "Los Folkloristas — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-comparative-02-shared-instruments-pl3",
+        "label": "Mexican Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-comparative-02-shared-instruments-pl4",
+        "label": "Mexican Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mexican Folk Music rewards comparative study.",
+      "Focus: Mexican Folk Music spans violin, voice, harp leading voices, son, huapango, corrido, and z.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: son, huapango, corrido.",
+      "Dance: zapateado, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mexico",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Mexican Folk Music spans violin, voice, harp leading voices,",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-comparative-03-forms-compared": {
+    "entities": [
+      {
+        "id": "vicente-fern-ndez",
+        "type": "artist",
+        "name": "Vicente Fernández",
+        "summary": "Representative musician or ensemble in latin-mexico trad",
+        "blurb": "Study Vicente Fernández for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Vicente_Fernández",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "los-folkloristas",
+        "type": "band",
+        "name": "Los Folkloristas",
+        "summary": "Representative musician or ensemble in latin-mexico trad",
+        "blurb": "Study Los Folkloristas for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Los_Folkloristas",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-comparative-03-forms-compared-pl1",
+        "entity_id": "vicente-fern-ndez",
+        "label": "Vicente Fernández — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-comparative-03-forms-compared-pl2",
+        "entity_id": "los-folkloristas",
+        "label": "Los Folkloristas — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-comparative-03-forms-compared-pl3",
+        "label": "Mexican Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-comparative-03-forms-compared-pl4",
+        "label": "Mexican Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mexican Folk Music rewards comparative study.",
+      "Focus: Mexican Folk Music spans violin, voice, harp leading voices, son, huapango, corrido, and z.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: son, huapango, corrido.",
+      "Dance: zapateado, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mexico",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Mexican Folk Music spans violin, voice, harp leading voices,",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-comparative-04-revivals-compared": {
+    "entities": [
+      {
+        "id": "vicente-fern-ndez",
+        "type": "artist",
+        "name": "Vicente Fernández",
+        "summary": "Representative musician or ensemble in latin-mexico trad",
+        "blurb": "Study Vicente Fernández for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Vicente_Fernández",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "los-folkloristas",
+        "type": "band",
+        "name": "Los Folkloristas",
+        "summary": "Representative musician or ensemble in latin-mexico trad",
+        "blurb": "Study Los Folkloristas for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Los_Folkloristas",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-comparative-04-revivals-compared-pl1",
+        "entity_id": "vicente-fern-ndez",
+        "label": "Vicente Fernández — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-comparative-04-revivals-compared-pl2",
+        "entity_id": "los-folkloristas",
+        "label": "Los Folkloristas — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-comparative-04-revivals-compared-pl3",
+        "label": "Mexican Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-comparative-04-revivals-compared-pl4",
+        "label": "Mexican Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mexican Folk Music rewards comparative study.",
+      "Focus: Mexican Folk Music spans violin, voice, harp leading voices, son, huapango, corrido, and z.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: son, huapango, corrido.",
+      "Dance: zapateado, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mexico",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Mexican Folk Music spans violin, voice, harp leading voices,",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+        "note": "Lesson focus area"
+      }
+    ]
+  }
+}

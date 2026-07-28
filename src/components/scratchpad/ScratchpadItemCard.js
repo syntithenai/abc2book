@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Form } from 'react-bootstrap'
+import CheckToggleButton from '../CheckToggleButton'
 import { buildAbcFromTune, NotationPreview } from '../SuggestionPreviewDialog'
 import { getScratchpadBlob } from '../../scratchpadBlobs'
 import { resolveScratchpadItemAudioBlob, getScratchpadItemDuration } from '../../scratchpadAudioInsert'
@@ -155,16 +155,15 @@ export default function ScratchpadItemCard(props) {
       className={'scratchpad-card-wrap' + (props.selected ? ' scratchpad-card-wrap--selected' : '')}
       data-testid={'scratchpad-card-wrap-' + item.id}
     >
-      <Form.Check
-        type="checkbox"
+      <CheckToggleButton
         className="scratchpad-card-select"
+        size="sm"
         checked={!!props.selected}
-        aria-label={'Select ' + (item.title || 'scratchpad item')}
-        onChange={function(e) {
+        ariaLabel={'Select ' + (item.title || 'scratchpad item')}
+        onClick={function(e) {
           e.stopPropagation()
           if (props.onToggleSelect) props.onToggleSelect()
         }}
-        onClick={function(e) { e.stopPropagation() }}
       />
       <button
         type="button"

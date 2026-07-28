@@ -1,0 +1,938 @@
+{
+  "id": "regions-latin-caribbean-06-history",
+  "title": "Caribbean Folk Music — History, Revival, and Transmission",
+  "track": "regions",
+  "tier": 6,
+  "region": "latin-caribbean",
+  "difficulty": 8,
+  "prerequisites": [
+    "regions-latin-caribbean-05-dance"
+  ],
+  "tags": [
+    "latin",
+    "caribbean",
+    "latin-america",
+    "history,",
+    "revival,"
+  ],
+  "path": "10-regions/latin-america/caribbean/06-history-transmission.md",
+  "sections": [
+    {
+      "id": "caribbean-folk-music-history-revival-and-transmission",
+      "title": "Caribbean Folk Music — History, Revival, and Transmission",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Latin American Folk | **Region:** latin-caribbean | **Tier:** 6\n**Prerequisites:** regions-latin-caribbean-05-dance\n**Tags:** latin, caribbean, latin-america, history,, revival,"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "colonial history\n\nCaribbean Folk Music belongs to the **Latin American Folk** curriculum. Buena Vista Social Club\n\nThis lesson develops listening precision for **colonial history** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-mexico",
+      "title": "Compared with Mexico",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Mexican Folk Music** (`regions-latin-mexico-06-history`) covers the same lesson slot from the anchor perspective. This lesson stresses: **colonial history**.\n\n| Topic | Mexico anchor | Caribbean Folk Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | regional archives… | colonial history… |\n\n**Parallel anchor lesson:** `regions-latin-mexico-06-history`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-06-history`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "colonial history\n\nStudy **caribbean folk music** through listening first. Wikipedia's article on [Music of the Caribbean](https://en.wikipedia.org/wiki/Music_of_the_Caribbean) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Latin American Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **voice, percussion**. Ensemble layer: **guitar, ensemble**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **son, calypso roots**. Dance context: **carnival and social dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **colonial history**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Caribbean regional forms**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- colonial history\n- Lead instruments: voice, percussion\n- Ensemble: guitar, ensemble\n- Forms: son, calypso roots\n- Dance: carnival and social dance\n- History: colonial history\n- Scenes: festivals\n- Repertoire: Caribbean regional forms\n- Compared with Mexico: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Caribbean Folk Music is a living tradition with regional accent.\n- Focus: colonial history.\n- Compared with Mexico: shared heritage, distinct emphasis.\n- Forms: son, calypso roots.\n- Dance: carnival and social dance.\n- Transmission: colonial history."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nt\nh\ne\n \nC\na\nr\ni\nb\nb\ne\na\nn\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nt\nh\ne\n_\nC\na\nr\ni\nb\nb\ne\na\nn\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nM\ne\nx\ni\nc\no\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "buena-vista-social-club",
+      "type": "artist",
+      "name": "Buena Vista Social Club",
+      "summary": "Representative musician or ensemble in latin-caribbean trad",
+      "blurb": "Study Buena Vista Social Club for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Buena_Vista_Social_Club",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "caribbean-folk-music",
+      "type": "band",
+      "name": "Caribbean Folk Music",
+      "summary": "Representative musician or ensemble in latin-caribbean trad",
+      "blurb": "Study Caribbean Folk Music for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Caribbean_Folk_Music",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "buena-vista-social-club",
+    "caribbean-folk-music"
+  ],
+  "playlist": [
+    {
+      "id": "regions-latin-caribbean-06-history-pl1",
+      "entity_id": "buena-vista-social-club",
+      "label": "Buena Vista Social Club — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Buena Vista Social Club"
+    },
+    {
+      "id": "regions-latin-caribbean-06-history-pl2",
+      "entity_id": "caribbean-folk-music",
+      "label": "Caribbean Folk Music — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Caribbean Folk Music"
+    },
+    {
+      "id": "regions-latin-caribbean-06-history-pl3",
+      "label": "Caribbean Folk Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-latin-caribbean-06-history-pl4",
+      "label": "Caribbean Folk Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Caribbean Folk Music rewards comparative study.",
+    "Focus: colonial history.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: son, calypso roots.",
+    "Dance: carnival and social dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Caribbean Folk Music is a living tradition with regional accent.",
+    "Compared with Mexico: shared heritage, distinct emphasis.",
+    "Transmission: colonial history."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of the Caribbean",
+      "url": "https://en.wikipedia.org/wiki/Music_of_the_Caribbean",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Latin American Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_the_Caribbean",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "colonial history",
+      "url": "https://en.wikipedia.org/wiki/Music_of_the_Caribbean",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) colonial history\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) colonial history\n\n### Q2. Caribbean Folk Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Mexico, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) voice, percussion\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) voice, percussion\n\n### Q5. Ensemble voices include:\n- A) guitar, ensemble\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) guitar, ensemble\n\n### Q6. Tune and song forms include:\n- A) son, calypso roots\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) son, calypso roots\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) colonial history\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) colonial history\n\n### Q9. Contemporary scenes include:\n- A) festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Caribbean regional forms\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Caribbean regional forms\n\n### Q12. The Compared with Mexico section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "colonial history",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") colonial history"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Caribbean Folk Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Mexico, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "voice, percussion",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        }
+      ],
+      "explain": ") voice, percussion"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "guitar, ensemble",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        }
+      ],
+      "explain": ") guitar, ensemble"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "son, calypso roots",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        }
+      ],
+      "explain": ") son, calypso roots"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "colonial history",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        }
+      ],
+      "explain": ") colonial history"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "festivals",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Caribbean regional forms",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "son, calypso roots",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "festivals",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Caribbean regional forms",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "son, calypso roots",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": ") Caribbean regional forms"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Mexico section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Caribbean regional forms",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-latin-caribbean-06-history-quiz",
+    "title": "Caribbean Folk Music — History, Revival, and Transmission quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "colonial history",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") colonial history"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Caribbean Folk Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Mexico, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "voice, percussion",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": ") voice, percussion"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "guitar, ensemble",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          }
+        ],
+        "explain": ") guitar, ensemble"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "son, calypso roots",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": ") son, calypso roots"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "colonial history",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": ") colonial history"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "festivals",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Caribbean regional forms",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "son, calypso roots",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "festivals",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Caribbean regional forms",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "son, calypso roots",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": ") Caribbean regional forms"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Mexico section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Caribbean regional forms",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

@@ -1,4 +1,5 @@
 import abcjs from 'abcjs'
+import { ABC_SYNTH_PROGRAM_OFFSETS } from './abcSynthProgramOffsets'
 import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig'
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 
@@ -32,6 +33,12 @@ function renderAbcVisual(abc) {
   }
 }
 
+function resolveMusyngKiteReady(tune) {
+  let musyngReady = isResolverMusyngKiteReady()
+  if (tune && tune.soundFonts === 'local') musyngReady = false
+  return musyngReady
+}
+
 async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal, synthOptions) {
   const opts = synthOptions || {}
   const visualObj = renderAbcVisual(abc)
@@ -52,6 +59,7 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal
       soundFontUrl: soundFontUrl,
       soundFontVolumeMultiplier: getSoundFontVolumeMultiplier(),
       chordsOff: opts.chordsOff === true,
+      programOffsets: ABC_SYNTH_PROGRAM_OFFSETS,
     },
   }
   if (remapLocal) {
@@ -82,8 +90,8 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal
   return buffer
 }
 
-function soundFontCandidates() {
-  const musyngReady = isResolverMusyngKiteReady()
+function soundFontCandidates(tune) {
+  const musyngReady = resolveMusyngKiteReady(tune)
   const configured = getSoundFontUrl({ musyngKiteReady: musyngReady })
   const list = []
   if (configured) {
@@ -110,7 +118,7 @@ export async function renderAbcToAudioBuffer(abc, options) {
   }
 
   const audioContext = new AudioContextClass()
-  const candidates = soundFontCandidates()
+  const candidates = soundFontCandidates(opts.tune)
   let lastError = null
   try {
     for (let i = 0; i < candidates.length; i += 1) {

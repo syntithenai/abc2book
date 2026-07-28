@@ -1,0 +1,782 @@
+{
+  "regions-french-occitan-01-overview": {
+    "entities": [
+      {
+        "id": "occitan-folk-ensembles",
+        "type": "artist",
+        "name": "Occitan folk ensembles",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan folk ensembles for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_folk_ensembles",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "occitan-folk-music",
+        "type": "band",
+        "name": "Occitan Folk Music",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-occitan-01-overview-pl1",
+        "entity_id": "occitan-folk-ensembles",
+        "label": "Occitan folk ensembles — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-occitan-01-overview-pl2",
+        "entity_id": "occitan-folk-music",
+        "label": "Occitan Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-occitan-01-overview-pl3",
+        "label": "Occitan Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-occitan-01-overview-pl4",
+        "label": "Occitan Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Occitan Folk Music rewards comparative study.",
+      "Focus: Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ball, couplet.",
+      "Dance: farandole, bal.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Occitania",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Occitan Folk Music spans bodega, voice, flute leading voices",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-occitan-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "occitan-folk-ensembles",
+        "type": "artist",
+        "name": "Occitan folk ensembles",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan folk ensembles for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_folk_ensembles",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "occitan-folk-music",
+        "type": "band",
+        "name": "Occitan Folk Music",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-occitan-02-instruments-voices-i-pl1",
+        "entity_id": "occitan-folk-ensembles",
+        "label": "Occitan folk ensembles — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-occitan-02-instruments-voices-i-pl2",
+        "entity_id": "occitan-folk-music",
+        "label": "Occitan Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-occitan-02-instruments-voices-i-pl3",
+        "label": "Occitan Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-occitan-02-instruments-voices-i-pl4",
+        "label": "Occitan Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Occitan Folk Music rewards comparative study.",
+      "Focus: bodega, voice, flute.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ball, couplet.",
+      "Dance: farandole, bal.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Occitania",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "bodega, voice, flute",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-occitan-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "occitan-folk-ensembles",
+        "type": "artist",
+        "name": "Occitan folk ensembles",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan folk ensembles for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_folk_ensembles",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "occitan-folk-music",
+        "type": "band",
+        "name": "Occitan Folk Music",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-occitan-03-instruments-voices-ii-pl1",
+        "entity_id": "occitan-folk-ensembles",
+        "label": "Occitan folk ensembles — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-occitan-03-instruments-voices-ii-pl2",
+        "entity_id": "occitan-folk-music",
+        "label": "Occitan Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-occitan-03-instruments-voices-ii-pl3",
+        "label": "Occitan Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-occitan-03-instruments-voices-ii-pl4",
+        "label": "Occitan Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Occitan Folk Music rewards comparative study.",
+      "Focus: accordion, guitar.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ball, couplet.",
+      "Dance: farandole, bal.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Occitania",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "accordion, guitar",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-occitan-04-genres-forms": {
+    "entities": [
+      {
+        "id": "occitan-folk-ensembles",
+        "type": "artist",
+        "name": "Occitan folk ensembles",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan folk ensembles for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_folk_ensembles",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "occitan-folk-music",
+        "type": "band",
+        "name": "Occitan Folk Music",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-occitan-04-genres-forms-pl1",
+        "entity_id": "occitan-folk-ensembles",
+        "label": "Occitan folk ensembles — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-occitan-04-genres-forms-pl2",
+        "entity_id": "occitan-folk-music",
+        "label": "Occitan Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-occitan-04-genres-forms-pl3",
+        "label": "Occitan Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-occitan-04-genres-forms-pl4",
+        "label": "Occitan Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Occitan Folk Music rewards comparative study.",
+      "Focus: ball, couplet.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ball, couplet.",
+      "Dance: farandole, bal.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Occitania",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "ball, couplet",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-occitan-05-dance": {
+    "entities": [
+      {
+        "id": "occitan-folk-ensembles",
+        "type": "artist",
+        "name": "Occitan folk ensembles",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan folk ensembles for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_folk_ensembles",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "occitan-folk-music",
+        "type": "band",
+        "name": "Occitan Folk Music",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-occitan-05-dance-pl1",
+        "entity_id": "occitan-folk-ensembles",
+        "label": "Occitan folk ensembles — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-occitan-05-dance-pl2",
+        "entity_id": "occitan-folk-music",
+        "label": "Occitan Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-occitan-05-dance-pl3",
+        "label": "Occitan Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-occitan-05-dance-pl4",
+        "label": "Occitan Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Occitan Folk Music rewards comparative study.",
+      "Focus: farandole, bal.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ball, couplet.",
+      "Dance: farandole, bal.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Occitania",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "farandole, bal",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-occitan-06-history": {
+    "entities": [
+      {
+        "id": "occitan-folk-ensembles",
+        "type": "artist",
+        "name": "Occitan folk ensembles",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan folk ensembles for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_folk_ensembles",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "occitan-folk-music",
+        "type": "band",
+        "name": "Occitan Folk Music",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-occitan-06-history-pl1",
+        "entity_id": "occitan-folk-ensembles",
+        "label": "Occitan folk ensembles — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-occitan-06-history-pl2",
+        "entity_id": "occitan-folk-music",
+        "label": "Occitan Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-occitan-06-history-pl3",
+        "label": "Occitan Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-occitan-06-history-pl4",
+        "label": "Occitan Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Occitan Folk Music rewards comparative study.",
+      "Focus: southern France revival.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ball, couplet.",
+      "Dance: farandole, bal.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Occitania",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "southern France revival",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-occitan-07-representative-depth": {
+    "entities": [
+      {
+        "id": "occitan-folk-ensembles",
+        "type": "artist",
+        "name": "Occitan folk ensembles",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan folk ensembles for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_folk_ensembles",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "occitan-folk-music",
+        "type": "band",
+        "name": "Occitan Folk Music",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-occitan-07-representative-depth-pl1",
+        "entity_id": "occitan-folk-ensembles",
+        "label": "Occitan folk ensembles — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-occitan-07-representative-depth-pl2",
+        "entity_id": "occitan-folk-music",
+        "label": "Occitan Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-occitan-07-representative-depth-pl3",
+        "label": "Occitan Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-occitan-07-representative-depth-pl4",
+        "label": "Occitan Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Occitan Folk Music rewards comparative study.",
+      "Focus: festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ball, couplet.",
+      "Dance: farandole, bal.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Occitania",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "festivals",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-occitan-08-tunes": {
+    "entities": [
+      {
+        "id": "occitan-folk-ensembles",
+        "type": "artist",
+        "name": "Occitan folk ensembles",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan folk ensembles for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_folk_ensembles",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "occitan-folk-music",
+        "type": "band",
+        "name": "Occitan Folk Music",
+        "summary": "Representative musician or ensemble in french-occitan trad",
+        "blurb": "Study Occitan Folk Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Occitan_Folk_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-occitan-08-tunes-pl1",
+        "entity_id": "occitan-folk-ensembles",
+        "label": "Occitan folk ensembles — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-occitan-08-tunes-pl2",
+        "entity_id": "occitan-folk-music",
+        "label": "Occitan Folk Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-occitan-08-tunes-pl3",
+        "label": "Occitan Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-occitan-08-tunes-pl4",
+        "label": "Occitan Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Occitan Folk Music rewards comparative study.",
+      "Focus: Occitan dance airs.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ball, couplet.",
+      "Dance: farandole, bal.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Occitania",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Occitan dance airs",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "occitan-dance-airs",
+        "type": "tune",
+        "name": "Occitan dance airs",
+        "form": "ball",
+        "reference": "Music of Occitania repertoire",
+        "about": "Representative occitan folk music listening study.",
+        "playlist": [
+          {
+            "label": "Occitan dance airs — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "occitan-standard-1",
+        "type": "tune",
+        "name": "occitan standard 1",
+        "form": "ball",
+        "reference": "Music of Occitania repertoire",
+        "about": "Representative occitan folk music listening study.",
+        "playlist": [
+          {
+            "label": "occitan standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "occitan-standard-2",
+        "type": "tune",
+        "name": "occitan standard 2",
+        "form": "ball",
+        "reference": "Music of Occitania repertoire",
+        "about": "Representative occitan folk music listening study.",
+        "playlist": [
+          {
+            "label": "occitan standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

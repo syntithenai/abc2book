@@ -14833,5 +14833,171 @@ export default [
         "explain": "The lesson gives: 9/8"
       }
     ]
+  },
+  {
+    "id": "celtic-ireland-regions-celtic-ireland-08-tunes-tune-silver-spear",
+    "title": "Ireland trad: The Silver Spear",
+    "track": "celtic",
+    "region": "ireland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "ireland",
+      "tunes",
+      "reel",
+      "jig",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-ireland-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**The Silver Spear** — tune study from the Ireland unit.\n\n**Form:** reel\n\n**Reference:** Francis O'Neill, Music of Ireland\n\nSession staple; Sligo roll-heavy settings vs Donegal bowing.\n\n**Made famous by:** coleman, hayes\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-ireland-regions-celtic-ireland-08-tunes-tune-silver-spear-q1",
+        "type": "mcq",
+        "prompt": "What tune type is *Off to California*?",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hornpipe",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: Hornpipe"
+      },
+      {
+        "id": "celtic-ireland-regions-celtic-ireland-08-tunes-tune-silver-spear-q2",
+        "type": "mcq",
+        "prompt": "Sessions usually chain tunes of the same what before switching?",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Form",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson gives: Form"
+      }
+    ]
+  },
+  {
+    "id": "celtic-ireland-regions-celtic-ireland-08-tunes-tune-kesh-jig",
+    "title": "Ireland trad: The Kesh Jig",
+    "track": "celtic",
+    "region": "ireland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "ireland",
+      "tunes",
+      "reel",
+      "jig",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-ireland-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**The Kesh Jig** — tune study from the Ireland unit.\n\n**Form:** double jig\n\n**Reference:** Brendan Breathnach, Ceol Rince na hÉireann\n\nBeginner-friendly jig heard in sessions worldwide.\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-ireland-regions-celtic-ireland-08-tunes-tune-kesh-jig-q1",
+        "type": "mcq",
+        "prompt": "The Kesh Jig appears in which Breathnach collection?",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Ceol Rince na hÉireann",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: Ceol Rince na hÉireann"
+      },
+      {
+        "id": "celtic-ireland-regions-celtic-ireland-08-tunes-tune-kesh-jig-q2",
+        "type": "mcq",
+        "prompt": "Compare two settings of the same tune to hear regional what?",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Variation",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson gives: Variation"
+      }
+    ]
   }
 ]

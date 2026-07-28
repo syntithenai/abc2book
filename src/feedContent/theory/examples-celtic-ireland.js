@@ -980,6 +980,16 @@ const EXAMPLES = {
     "kind": "none",
     "illustrationPlan": "More session standards — listen for regional style, session context, and tune form.",
     "imageUrl": ""
+  },
+  "celtic-ireland-regions-celtic-ireland-08-tunes-tune-silver-spear": {
+    "kind": "none",
+    "illustrationPlan": "Ireland trad: The Silver Spear — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-ireland-regions-celtic-ireland-08-tunes-tune-kesh-jig": {
+    "kind": "none",
+    "illustrationPlan": "Ireland trad: The Kesh Jig — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
   }
 }
 

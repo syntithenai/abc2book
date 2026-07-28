@@ -1,0 +1,782 @@
+{
+  "regions-iberian-castile-catalan-01-overview": {
+    "entities": [
+      {
+        "id": "els-berros-de-la-cort",
+        "type": "artist",
+        "name": "Els Berros de la Cort",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Els Berros de la Cort for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Els_Berros_de_la_Cort",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "castile-catalan-folk",
+        "type": "band",
+        "name": "Castile & Catalan Folk",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Castile & Catalan Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Castile_&_Catalan_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-castile-catalan-01-overview-pl1",
+        "entity_id": "els-berros-de-la-cort",
+        "label": "Els Berros de la Cort — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-01-overview-pl2",
+        "entity_id": "castile-catalan-folk",
+        "label": "Castile & Catalan Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-01-overview-pl3",
+        "label": "Castile & Catalan Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-01-overview-pl4",
+        "label": "Castile & Catalan Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Castile & Catalan Folk rewards comparative study.",
+      "Focus: Castile & Catalan Folk spans gralla, fiddle, voice leading voices, sardana, jota, and comm.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: sardana, jota.",
+      "Dance: community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Catalonia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Castile & Catalan Folk spans gralla, fiddle, voice leading v",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-castile-catalan-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "els-berros-de-la-cort",
+        "type": "artist",
+        "name": "Els Berros de la Cort",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Els Berros de la Cort for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Els_Berros_de_la_Cort",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "castile-catalan-folk",
+        "type": "band",
+        "name": "Castile & Catalan Folk",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Castile & Catalan Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Castile_&_Catalan_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-castile-catalan-02-instruments-voices-i-pl1",
+        "entity_id": "els-berros-de-la-cort",
+        "label": "Els Berros de la Cort — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-02-instruments-voices-i-pl2",
+        "entity_id": "castile-catalan-folk",
+        "label": "Castile & Catalan Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-02-instruments-voices-i-pl3",
+        "label": "Castile & Catalan Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-02-instruments-voices-i-pl4",
+        "label": "Castile & Catalan Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Castile & Catalan Folk rewards comparative study.",
+      "Focus: gralla, fiddle, voice.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: sardana, jota.",
+      "Dance: community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Catalonia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "gralla, fiddle, voice",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-castile-catalan-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "els-berros-de-la-cort",
+        "type": "artist",
+        "name": "Els Berros de la Cort",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Els Berros de la Cort for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Els_Berros_de_la_Cort",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "castile-catalan-folk",
+        "type": "band",
+        "name": "Castile & Catalan Folk",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Castile & Catalan Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Castile_&_Catalan_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-castile-catalan-03-instruments-voices-ii-pl1",
+        "entity_id": "els-berros-de-la-cort",
+        "label": "Els Berros de la Cort — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-03-instruments-voices-ii-pl2",
+        "entity_id": "castile-catalan-folk",
+        "label": "Castile & Catalan Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-03-instruments-voices-ii-pl3",
+        "label": "Castile & Catalan Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-03-instruments-voices-ii-pl4",
+        "label": "Castile & Catalan Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Castile & Catalan Folk rewards comparative study.",
+      "Focus: guitar, cobla.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: sardana, jota.",
+      "Dance: community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Catalonia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "guitar, cobla",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-castile-catalan-04-genres-forms": {
+    "entities": [
+      {
+        "id": "els-berros-de-la-cort",
+        "type": "artist",
+        "name": "Els Berros de la Cort",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Els Berros de la Cort for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Els_Berros_de_la_Cort",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "castile-catalan-folk",
+        "type": "band",
+        "name": "Castile & Catalan Folk",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Castile & Catalan Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Castile_&_Catalan_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-castile-catalan-04-genres-forms-pl1",
+        "entity_id": "els-berros-de-la-cort",
+        "label": "Els Berros de la Cort — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-04-genres-forms-pl2",
+        "entity_id": "castile-catalan-folk",
+        "label": "Castile & Catalan Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-04-genres-forms-pl3",
+        "label": "Castile & Catalan Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-04-genres-forms-pl4",
+        "label": "Castile & Catalan Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Castile & Catalan Folk rewards comparative study.",
+      "Focus: sardana, jota.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: sardana, jota.",
+      "Dance: community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Catalonia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "sardana, jota",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-castile-catalan-05-dance": {
+    "entities": [
+      {
+        "id": "els-berros-de-la-cort",
+        "type": "artist",
+        "name": "Els Berros de la Cort",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Els Berros de la Cort for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Els_Berros_de_la_Cort",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "castile-catalan-folk",
+        "type": "band",
+        "name": "Castile & Catalan Folk",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Castile & Catalan Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Castile_&_Catalan_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-castile-catalan-05-dance-pl1",
+        "entity_id": "els-berros-de-la-cort",
+        "label": "Els Berros de la Cort — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-05-dance-pl2",
+        "entity_id": "castile-catalan-folk",
+        "label": "Castile & Catalan Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-05-dance-pl3",
+        "label": "Castile & Catalan Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-05-dance-pl4",
+        "label": "Castile & Catalan Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Castile & Catalan Folk rewards comparative study.",
+      "Focus: community dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: sardana, jota.",
+      "Dance: community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Catalonia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "community dance",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-castile-catalan-06-history": {
+    "entities": [
+      {
+        "id": "els-berros-de-la-cort",
+        "type": "artist",
+        "name": "Els Berros de la Cort",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Els Berros de la Cort for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Els_Berros_de_la_Cort",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "castile-catalan-folk",
+        "type": "band",
+        "name": "Castile & Catalan Folk",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Castile & Catalan Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Castile_&_Catalan_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-castile-catalan-06-history-pl1",
+        "entity_id": "els-berros-de-la-cort",
+        "label": "Els Berros de la Cort — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-06-history-pl2",
+        "entity_id": "castile-catalan-folk",
+        "label": "Castile & Catalan Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-06-history-pl3",
+        "label": "Castile & Catalan Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-06-history-pl4",
+        "label": "Castile & Catalan Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Castile & Catalan Folk rewards comparative study.",
+      "Focus: regional revival.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: sardana, jota.",
+      "Dance: community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Catalonia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "regional revival",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-castile-catalan-07-representative-depth": {
+    "entities": [
+      {
+        "id": "els-berros-de-la-cort",
+        "type": "artist",
+        "name": "Els Berros de la Cort",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Els Berros de la Cort for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Els_Berros_de_la_Cort",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "castile-catalan-folk",
+        "type": "band",
+        "name": "Castile & Catalan Folk",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Castile & Catalan Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Castile_&_Catalan_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-castile-catalan-07-representative-depth-pl1",
+        "entity_id": "els-berros-de-la-cort",
+        "label": "Els Berros de la Cort — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-07-representative-depth-pl2",
+        "entity_id": "castile-catalan-folk",
+        "label": "Castile & Catalan Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-07-representative-depth-pl3",
+        "label": "Castile & Catalan Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-07-representative-depth-pl4",
+        "label": "Castile & Catalan Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Castile & Catalan Folk rewards comparative study.",
+      "Focus: festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: sardana, jota.",
+      "Dance: community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Catalonia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "festivals",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-iberian-castile-catalan-08-tunes": {
+    "entities": [
+      {
+        "id": "els-berros-de-la-cort",
+        "type": "artist",
+        "name": "Els Berros de la Cort",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Els Berros de la Cort for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Els_Berros_de_la_Cort",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "castile-catalan-folk",
+        "type": "band",
+        "name": "Castile & Catalan Folk",
+        "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+        "blurb": "Study Castile & Catalan Folk for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Castile_&_Catalan_Folk",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-iberian-castile-catalan-08-tunes-pl1",
+        "entity_id": "els-berros-de-la-cort",
+        "label": "Els Berros de la Cort — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-08-tunes-pl2",
+        "entity_id": "castile-catalan-folk",
+        "label": "Castile & Catalan Folk — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-08-tunes-pl3",
+        "label": "Castile & Catalan Folk — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-iberian-castile-catalan-08-tunes-pl4",
+        "label": "Castile & Catalan Folk — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Castile & Catalan Folk rewards comparative study.",
+      "Focus: Catalan sardana.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: sardana, jota.",
+      "Dance: community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Catalonia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Iberian Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Catalan sardana",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "catalan-sardana",
+        "type": "tune",
+        "name": "Catalan sardana",
+        "form": "sardana",
+        "reference": "Music of Catalonia repertoire",
+        "about": "Representative castile & catalan folk listening study.",
+        "playlist": [
+          {
+            "label": "Catalan sardana — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "castile-catalan-standard-1",
+        "type": "tune",
+        "name": "castile-catalan standard 1",
+        "form": "sardana",
+        "reference": "Music of Catalonia repertoire",
+        "about": "Representative castile & catalan folk listening study.",
+        "playlist": [
+          {
+            "label": "castile-catalan standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "castile-catalan-standard-2",
+        "type": "tune",
+        "name": "castile-catalan standard 2",
+        "form": "sardana",
+        "reference": "Music of Catalonia repertoire",
+        "about": "Representative castile & catalan folk listening study.",
+        "playlist": [
+          {
+            "label": "castile-catalan standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

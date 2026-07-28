@@ -4,141 +4,174 @@ title: Breton Traditional Music — Dance and Rhythm
 track: regions
 region: brittany
 tier: 5
-difficulty: 7
+difficulty: 5
 prerequisites: ["regions-celtic-brittany-04-genres-forms"]
+sources: ["Fest-noz", "Gavotte", "Plinn", "Music of Brittany", "Kan ha diskan"]
 status: manual
-sources: ["Celtic music", "Music of Brittany"]
 ---
 
 # Breton Traditional Music — Dance and Rhythm
 
-**Track:** Celtic Music | **Region:** brittany | **Tier:** 5
+**Track:** regions | **Tier:** 5 | **Difficulty:** 5/10
 **Prerequisites:** regions-celtic-brittany-04-genres-forms
+**Tags:** brittany, fest-noz, gavotte, plinn, dance, rond, choreography
 
 ## Overview
 
-Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.
+In Brittany, **dance is not decoration** around concert music — it is the reason bombard players maintain circular breathing and accordionists refuse to rush a **plinn**. A **fest-noz** programmes **gavottes**, **plinns**, **mazurkas**, **sons**, and **rond** circle dances with named figures; musicians, callers, and floor veterans negotiate tempo and repeats in real time. This lesson connects Lesson 4's form map to **feet on the floor**: etiquette, regional choreography accents, and rhythm cues that instrumentalists must internalise.
 
-This lesson focuses on **fest-noz circle dances and regional choreographies** within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.
+If you only study **bagad** competition videos, you may learn massed pipe drill without understanding why a village hall slows a **gavotte** when grandparents join the circle. If you only study **Alan Stivell** fusion, you may miss how **kan ha diskan** pauses the floor for voices. Dance knowledge makes you a better listener, player, and fest-noz guest.
 
 ## Compared with Ireland
 
-Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.
+Irish trad dance spans **céilí** group figures, **set dancing** quadrilles, and **step dance** (hard- and soft-shoe) often performed on stage or in competitions somewhat separate from pub sessions. Breton **fest-noz** integrates **social dance for all ages** with live band repertoire — closer to Irish **house dance** or **set-dancing revival** nights than to a fiddle-only session. **Riverdance** spectacle is a poor model for fest-noz; **set-dancing** nights in Clare or Galway are better analogues for **circle and couple participation**.
 
-**Parallel Ireland lesson:** `regions-celtic-ireland-05-dance` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.
+| Element | Irish parallel | Breton fest-noz |
+|---------|---------------|-----------------|
+| Social floor | Set dancing, céilí | Gavotte, plinn, rond |
+| Spectacle stage | Step dance shows | Bagad, fusion concerts |
+| Song on dance night | Pub singalong | Kan ha diskan sets |
+| Tempo authority | Dancers vs session lead | Dancers vs band — dancers win |
 
-## Core material
+**Parallel Ireland lesson:** `regions-celtic-ireland-05-dance`.
 
-Fest-noz circle dances and regional choreographies in brittany trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic "Celtic" compilations when possible.
+## Fest-noz floor etiquette
 
-### Listening and study habits
+**Join respectfully.** Circles and lines have direction and hand-hold customs; newcomers watch before entering. Cutting across active figures or pushing to the centre disrupts safety and social trust.
 
-1. Identify one field recording and one modern ensemble track mentioned or implied in this lesson's topic.
-2. Note the metre and dance association of at least two tune types discussed.
-3. Compare session or social-dance etiquette with what you learned from Irish trad.
-4. Follow the unit playlist entries in lesson metadata when available.
+**Follow the caller.** Many nights use a **animateur** naming the next figure — *gavotte*, *plinn*, *rond de Saint-Vincent*. Musicians and dancers depend on that cue chain.
+
+**Do not confuse forms.** Starting plinn music during announced gavotte figures breaks the evening's rhythm as surely as dropping a jig into an Irish reel set unannounced.
+
+**Pace for stamina.** Fest-noz can run hours; bands that accelerate for showmanship empty the floor. **Cornouaille** veterans expect sustainable tempos; **Vannetais** plinn nights prize hypnotic steadiness over flash.
+
+**Song pauses are participation.** When **kan ha diskan** begins, dance may stop — singing is not "break time" for disengagement but another branch of the same social contract.
+
+[[entity:fest-noz]] organisers (municipalities, **Fédération des Fest-Noz**, cultural associations) publish calendars; [[entity:bodadeg-ar-sonerion]] connects musicians to those dates.
+
+![Fest-noz dancers](https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=640)
+
+## Gavotte figures on the floor
+
+**Gavotte** nights feature couple turns, chains, and **rond** variants with regional names. Dancers emphasise **hand connection**, **shoulder orientation**, and **collective circle** motion — not solo acrobatics. Musicians match **four-beat** pulse to step accents; bombard–binou unison helps dancers lock timing across noisy halls.
+
+**Cornouaille** programmes may chain multiple gavottes before switching form — echoing **Suite Sudarmoricaine** concert logic on the social floor. Callers teach figures at **fest-noz débutant** (beginner) nights; attending one teaches more rhythm than a week of solo practice.
+
+### Memorable detail
+
+A gavotte that feels "slow" to session fiddlers may be **correct** for mixed-age floors — youth bands touring festivals sometimes learn humility when village halls request slower repeats.
+
+## Plinn: walking as dance
+
+**Plinn** reduces choreography to **walking** in lines or circles — deceptively demanding because **uniform pulse** across dozens of walkers requires musical discipline. **Vannetais** accordion bounce provides metronomic side-step cues; northwest **plinn** with fiddle or mixed bands still forbids reel acceleration.
+
+Teachers describe plinn as **meditative** — the opposite of Irish step-dance spectacle. Instrumentalists who ornament heavily can obscure the walking pulse; spare phrasing wins.
+
+[[entity:plinn]] dance culture ties to Morbihan and Vannetais fest-noz calendars more than to Lorient bagad finals.
+
+## Mazurka and son on the floor
+
+**Mazurka** couple dances use 3/4 holds and turns; fest-noz programmers often place mazurkas after gavotte blocks when dancers want variety without metre confusion. **Son** sets invite **chorus singing** — the floor may sing while stepping simplified figures, blurring Lesson 4's song-dance boundary.
+
+## Rond circle dances
+
+**Rond** figures — **Rond de Saint-Vincent**, **Rond de Landeda**, **Rond de Saint-Malo** — package circle choreography with specific tune associations. Learning one rond teaches how **named dances** bind repertoire: wrong tune breaks muscle memory.
+
+Circle direction, hand grip (little-finger hold traditions in some figures), and **caller cues** vary — copy local veterans at first attendance.
+
+## Bagad parade versus fest-noz floor
+
+**Bagad** marching combines **drum cadences**, **massed pipes**, and **bombard** sections in **parade** and **competition** formats — exhilarating but not substitutable for fest-noz etiquette. Dancers at **Festival Interceltique** may dance to bagad concerts in festival grounds; that experience differs from **commune hall** fest-noz where **animateurs** teach figures.
+
+Know which room you are in: competition **suite** tempi need not match village **gavotte** repeats.
+
+![Bagad in parade context](https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=640)
+
+## Regional dance map
+
+| Region | Dance emphasis | Typical lead timbre |
+|--------|---------------|---------------------|
+| Cornouaille | Gavotte, rond | Bombard–binou, fiddle |
+| Léon | Gavotte, kan ha diskan | Sonerion |
+| Vannetais | Plinn, mazurka | Accordion |
+| Trégor | Mixed fest-noz | Fiddle, pipes |
+| Bro Gozh cities | Mixed programmes | Fusion and traditional bands |
+
+## Practising rhythm without a floor
+
+Musicians isolated from dance communities should **watch fest-noz video** with feet visible, **tap plinn pulse** without acceleration, and **play along** at dance tempo rather than competition tempo. Dancers should attend **fest-noz débutant** before advanced nights — Breton communities often welcome newcomers when respect is visible.
+
+## Reading and listening list
+
+- **Fédération des Fest-Noz** — event listings and beginner workshop calendars.
+- **Dastum** video archives — historical floor footage compared to today.
+- **Festival de Cornouaille** dance programmes — named figures and bands.
+- **Skol an Eost** and regional dance schools — pedagogy for rond and gavotte.
 
 ## Key points
 
-- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.
-- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.
-- Fest-noz circle dances and regional choreographies connects to dance, song, and community context—not isolated technique only.
-- Revival institutions, broadcasting, and festivals shape what learners hear today.
-- Use comparative study to hear specificity; avoid flattening everything under "Celtic" marketing.
-
-## Reading list
-
-- Regional folk archive or national library listening guides (see lesson metadata links when present).
-- Companion to Irish unit readings for cross-border context (Fintan Vallely, *Companion to Irish Traditional Music*).
-- Wikipedia articles on Music of Brittany as orientation, verified against recordings.
+- Fest-noz is participatory social dance — tempo and repeats serve the floor.
+- Gavotte, plinn, mazurka, son, and rond name distinct choreography contracts.
+- Kan ha diskan pauses or redirects dance nights — voice is floor participation.
+- Bagad parade and competition differ from village fest-noz etiquette.
+- Compared with Ireland: closer to set-dancing social nights than pub session-only culture.
 
 ## Quiz Questions
 
-### Q1. Which description best fits the main social context emphasised in this lesson?
-- A) Concerto competitions only
-- B) Community dance and oral transmission
-- C) Strictly classical conservatory exams
-- D) Electronic dance clubs only
-**Answer:** B) Community dance and oral transmission
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+### Q1. At a fest-noz, who typically wins tempo disputes?
 
-### Q2. This tradition is identical to Irish traditional music in repertoire and social context.
-- A) True
-- B) False
-**Answer:** B) False
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+- A) Dancers on the floor
+- B) The fastest fiddle player always
+- C) Random audience vote by text message
+- D) Competition adjudicators from bagad finals
 
-### Q3. Compared with Ireland, this unit stresses which additional emphasis?
-- A) No differences whatsoever
-- B) See Compared with Ireland section
-- C) Only classical opera
-- D) Only hip-hop production
-**Answer:** B) See Compared with Ireland section
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+**Answer:** A
 
-### Q4. A typical learner should prioritise:
-- A) Only reading generic textbooks
-- B) Listening to regional recordings before generic "Celtic" compilations
-- C) Memorising one tune only
-- D) Ignoring dance context
-**Answer:** B) Listening to regional recordings before generic "Celtic" compilations
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+### Q2. Plinn is characterised by steady walking figures, often in the Vannetais.
 
-### Q5. Sessions, festivals, and archives all play roles in modern transmission.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+**Answer:** True
 
-### Q6. Instrument focus in this lesson includes:
-- A) Only synthesizers
-- B) Voices named in the lesson introduction
-- C) Only orchestral brass
-- D) Only piano études
-**Answer:** B) Voices named in the lesson introduction
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+### Q3. Kan ha diskan on a fest-noz night may pause dance for participatory singing.
 
-### Q7. Dance rhythm topics in this lesson relate to:
-- A) Ballet syllabus only
-- B) Social dance forms discussed in the body
-- C) Marching band drill only
-- D) DJ beatmatching only
-**Answer:** B) Social dance forms discussed in the body
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+**Answer:** True
 
-### Q8. Revival movements and media broadcasting shaped twentieth-century practice.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+### Q4. Rond de Saint-Vincent is:
 
-### Q9. When studying tune forms, you should:
-- A) Ignore metre entirely
-- B) Connect metre and foot-tap feel to named dance types
-- C) Assume all tunes are 4/4 rock beats
-- D) Avoid learning by ear
-**Answer:** B) Connect metre and foot-tap feel to named dance types
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+- A) A named circle dance figure associated with specific tunes
+- B) An Irish hard-shoe step dance
+- C) A Scottish pipe march only
+- D) A Welsh hymn tune
 
-### Q10. Fusion and modern scenes discussed here:
-- A) Erase all earlier repertoire
-- B) Build on—not replace—living tradition
-- C) Ban all acoustic instruments
-- D) Eliminate festivals
-**Answer:** B) Build on—not replace—living tradition
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+**Answer:** A
 
-### Q11. The Compared with Ireland section highlights both shared heritage and national accent.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+### Q5. Starting plinn music during an announced gavotte figure set is poor fest-noz etiquette.
 
-### Q12. Best next step after this lesson:
-- A) Stop listening to recordings
-- B) Follow playlists and return to the paired Ireland lesson
-- C) Skip all prerequisites
-- D) Avoid comparative study
-**Answer:** B) Follow playlists and return to the paired Ireland lesson
-*Explanation grounded in Breton Traditional Music — Dance and Rhythm.*
+**Answer:** True
 
+### Q6. Cornouaille fest-noz programmes emphasise gavotte and related circle dances.
+
+**Answer:** True
+
+### Q7. Bagad competition marching is identical to village fest-noz floor practice.
+
+**Answer:** False — parade/competition formats differ from commune hall dance nights.
+
+### Q8. Fest-noz débutant nights teach figures to newcomers — useful before advanced halls.
+
+**Answer:** True
+
+### Q9. Vannetais fest-noz often features plinn and mazurka with accordion-led bands.
+
+**Answer:** True
+
+### Q10. Gavotte tempo should accelerate whenever younger musicians join the band.
+
+**Answer:** False — sustainable tempo keeps mixed-age floors dancing.
+
+### Q11. Compared with Irish step-dance spectacle, fest-noz emphasises communal social dance for all ages.
+
+**Answer:** True
+
+### Q12. Animateurs or callers help link dance figures to tune types at fest-noz.
+
+**Answer:** True

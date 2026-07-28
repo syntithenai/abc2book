@@ -164,10 +164,11 @@ def module_from_body(
     if len(quizzes) < 2:
         return None
     region = lesson_obj.get("region") or "ireland"
+    track = "celtic" if str(region).startswith(("ireland", "scotland", "wales", "brittany", "celtic-")) else "regions"
     return {
         "id": module_id,
         "title": title,
-        "track": "celtic",
+        "track": track,
         "region": region,
         "kind": "theory_lesson",
         "difficulty": tier_to_difficulty(lesson_obj.get("tier")),
@@ -187,13 +188,14 @@ def modules_from_lesson(lesson_obj: dict) -> list[dict]:
     modules: list[dict] = []
     lesson_id = lesson_obj.get("id") or "lesson"
     region = lesson_obj.get("region") or "ireland"
-    region_label = region.replace("_", " ").title()
+    region_label = region.replace("_", " ").replace("celtic-", "").title()
+    id_prefix = module_id_prefix(region)
     quiz_offset = 0
 
     key_points = [str(p).strip() for p in (lesson_obj.get("key_points") or []) if str(p).strip()]
     for index in range(0, len(key_points), 2):
         chunk = key_points[index : index + 2]
-        module_id = f"celtic-{region}-{lesson_id}-kp-{index // 2 + 1}"
+        module_id = f"{id_prefix}-{lesson_id}-kp-{index // 2 + 1}"
         body = (
             f"From **{lesson_obj.get('title', 'the lesson')}** ({region_label} trad):\n\n"
             + "\n\n".join(f"- {point}" for point in chunk)
@@ -226,7 +228,7 @@ def modules_from_lesson(lesson_obj: dict) -> list[dict]:
         slug = str(section.get("id") or "").strip()
         if not slug:
             slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:48]
-        module_id = f"celtic-{region}-{lesson_id}-sec-{sec_index}-{slug}"
+        module_id = f"{id_prefix}-{lesson_id}-sec-{sec_index}-{slug}"
         mod = module_from_body(
             module_id,
             f"{region_label} trad: {title}",
@@ -254,7 +256,7 @@ def modules_from_lesson(lesson_obj: dict) -> list[dict]:
             f"This entity appears in the {region_label} unit. Follow links in the lesson for recordings and archives."
         )
         ent_id = str(ent.get("id") or re.sub(r"[^a-z0-9]+", "-", name.lower())).strip("-")
-        module_id = f"celtic-{region}-{lesson_id}-ent-{ent_id}"
+        module_id = f"{id_prefix}-{lesson_id}-ent-{ent_id}"
         mod = module_from_body(
             module_id,
             f"{region_label} trad: {name}",
@@ -269,33 +271,40 @@ def modules_from_lesson(lesson_obj: dict) -> list[dict]:
         if mod:
             modules.append(mod)
 
+    for tune in lesson_obj.get("tunes") or []:
+        if not isinstance(tune, dict):
+            continue
+        name = str(tune.get("name") or tune.get("id") or "").strip()
+        if not name:
+            continue
+        body = tune_study_body(tune, region_label)
+        tune_id = str(tune.get("id") or re.sub(r"[^a-z0-9]+", "-", name.lower())).strip("-")
+        module_id = f"{id_prefix}-{lesson_id}-tune-{tune_id}"
+        mod = module_from_body(
+            module_id,
+            f"{region_label} trad: {name}",
+            body,
+            lesson_obj,
+            tags=(lesson_obj.get("tags") or []) + ["tune"],
+            quiz_offset=quiz_offset,
+        )
+        quiz_offset += 2
+        if mod:
+            modules.append(mod)
+
     return modules
 
 
 def collect_lesson_files(unit: str | None, region: str | None) -> list[Path]:
     paths: list[Path] = []
-    ireland_dir = OUT_ROOT / "ireland"
-    if ireland_dir.exists():
-        paths.extend(sorted(ireland_dir.glob("*.json")))
-    for path in sorted(OUT_ROOT.glob("*.json")):
-        if path.name in {"manifest.json", "search-index.json", "quizzes-index.json"}:
-            continue
-        paths.append(path)
-    scotland_dir = OUT_ROOT / "scotland"
-    if scotland_dir.exists():
-        paths.extend(sorted(scotland_dir.glob("*.json")))
-    wales_dir = OUT_ROOT / "wales"
-    if wales_dir.exists():
-        paths.extend(sorted(wales_dir.glob("*.json")))
-    brittany_dir = OUT_ROOT / "brittany"
-    if brittany_dir.exists():
-        paths.extend(sorted(brittany_dir.glob("*.json")))
-    diaspora_dir = OUT_ROOT / "celtic-diaspora"
-    if diaspora_dir.exists():
-        paths.extend(sorted(diaspora_dir.glob("*.json")))
-    comparative_dir = OUT_ROOT / "celtic-comparative"
-    if comparative_dir.exists():
-        paths.extend(sorted(comparative_dir.glob("*.json")))
+    skip_names = {"manifest.json", "search-index.json", "quizzes-index.json"}
+    if OUT_ROOT.exists():
+        for sub in sorted(OUT_ROOT.iterdir()):
+            if sub.is_dir():
+                paths.extend(sorted(sub.glob("*.json")))
+        for path in sorted(OUT_ROOT.glob("*.json")):
+            if path.name not in skip_names:
+                paths.append(path)
 
     if not unit and not region:
         return paths
@@ -353,7 +362,37 @@ def region_export_name(region: str) -> str:
     region = str(region or "ireland")
     if region.startswith("celtic-"):
         return region
-    return f"celtic-{region}"
+    if region in ("ireland", "scotland", "wales", "brittany", "celtic-diaspora", "celtic-comparative"):
+        return f"celtic-{region}" if not region.startswith("celtic-") else region
+    return region
+
+
+def module_id_prefix(region: str) -> str:
+    """Stable feed module id prefix (avoids celtic-celtic-diaspora double prefix)."""
+    return region_export_name(region)
+
+
+def tune_study_body(tune: dict, region_label: str) -> str:
+    parts: list[str] = []
+    name = str(tune.get("name") or tune.get("id") or "Tune study").strip()
+    parts.append(f"**{name}** — tune study from the {region_label} unit.")
+    form = str(tune.get("form") or "").strip()
+    if form:
+        parts.append(f"**Form:** {form}")
+    reference = str(tune.get("reference") or "").strip()
+    if reference:
+        parts.append(f"**Reference:** {reference}")
+    about = str(tune.get("about") or "").strip()
+    if about:
+        parts.append(about)
+    made = [str(x).strip() for x in (tune.get("made_famous_by") or []) if str(x).strip()]
+    if made:
+        parts.append("**Made famous by:** " + ", ".join(made))
+    parts.append(
+        "Listen to multiple regional settings in the lesson playlist. "
+        "Compare ornament, tempo, and lead instrument before treating one recording as standard."
+    )
+    return "\n\n".join(parts)
 
 
 def group_modules_by_region(modules: list[dict]) -> dict[str, list[dict]]:

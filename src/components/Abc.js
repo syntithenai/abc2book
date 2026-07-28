@@ -403,7 +403,11 @@ export default function Abc(props) {
                 && props.mediaController.hasPlayingIntent())
             if (isPlaybackEngine && onMidiRoute && hasPendingMidiPlay) {
                 startPlayingFromIntent(true)
-            } else if (props.autoPrime && onMidiRoute && wantsBackgroundPrime) {
+            } else if (props.autoPrime && onMidiRoute && wantsBackgroundPrime
+                // When play intent is already armed (media-settings MIDI), do not
+                // start a second createPlayer — that stacks count-ins after reload.
+                && !(props.mediaController && props.mediaController.hasPlayingIntent
+                    && props.mediaController.hasPlayingIntent())) {
                 var primeHash = (tuneObj.transpose || 0) + '-' + (props.meter || tuneObj.meter || '4/4') + '-' + (tuneObj.tempo || 100) + '-' + abcTools.getTuneHash(tuneObj)
                 if (primeHash !== audioChangedHash) {
                     setAudioChangedHash(primeHash)

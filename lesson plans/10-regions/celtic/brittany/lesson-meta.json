@@ -1,145 +1,1083 @@
 {
   "regions-celtic-brittany-01-overview": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "fest-noz",
+        "type": "organization",
+        "name": "Fest-noz",
+        "summary": "Breton night-festival dance events anchoring traditional music socially",
+        "blurb": "Community fest-noz halls programme gavottes, plinns, and kan ha diskan for participatory dance.",
+        "url": "https://en.wikipedia.org/wiki/Fest-noz",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      },
+      {
+        "id": "bodadeg-ar-sonerion",
+        "type": "organization",
+        "name": "Bodadeg ar Sonerion",
+        "summary": "Breton musicians' association publishing Sonerion tune books and classes",
+        "blurb": "Supports bombard, binou, and fest-noz performers through pedagogy and print repertoire.",
+        "url": "https://sonerion.bzh/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320"
+      },
+      {
+        "id": "stivell",
+        "type": "person",
+        "name": "Alan Stivell",
+        "summary": "Breton harpist, piper, and fusion pioneer of the Celtic revival",
+        "blurb": "Internationalised Breton music from the early 1970s while supporting fest-noz culture.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320"
+      },
+      {
+        "id": "bagad",
+        "type": "organization",
+        "name": "Bagad",
+        "summary": "Breton pipe-band ensembles with binou, bombard, and drum sections",
+        "blurb": "Massed pipe bands compete at championships and parade at festivals such as Lorient.",
+        "url": "https://en.wikipedia.org/wiki/Bagad",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=320"
+      },
+      {
+        "id": "kan-ha-diskan",
+        "type": "genre",
+        "name": "Kan ha diskan",
+        "summary": "Breton call-and-response singing at fest-noz and veillées",
+        "blurb": "Lead and response voices overlap in rhythmic dialogue, often in Breton language.",
+        "url": "https://en.wikipedia.org/wiki/Kan_ha_diskan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      },
+      {
+        "id": "bodadeg",
+        "type": "organization",
+        "name": "Bodadeg ar Sonerion",
+        "summary": "Association for bombard and binou players",
+        "blurb": "Supports fest-noz repertoire, teaching, and regional sonerien culture.",
+        "url": "https://www.bodadeg.org/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320"
+      },
+      {
+        "id": "dastum",
+        "type": "organization",
+        "name": "Dastum",
+        "summary": "Breton folk archive and collecting society",
+        "blurb": "Parallel to Irish ITMA — field recordings, song books, revival research.",
+        "url": "https://www.dastum.net/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Brittany_flag.svg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "fest-noz-dance",
+        "entity_id": "fest-noz",
+        "label": "Fest-noz dance footage",
+        "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s"
+      },
+      {
+        "id": "stivell-harp",
+        "entity_id": "stivell",
+        "label": "Alan Stivell live performance",
+        "youtube": "https://www.youtube.com/watch?v=VFp5bMaaMeg"
+      },
+      {
+        "id": "bagad-lorient",
+        "entity_id": "bagad",
+        "label": "Bagad championship stage",
+        "youtube": "https://www.youtube.com/watch?v=RGOlgoGrVnE"
+      },
+      {
+        "id": "kan-ha-diskan-sample",
+        "entity_id": "kan-ha-diskan",
+        "label": "Kan ha diskan singing",
+        "youtube": "https://www.youtube.com/watch?v=8pP7x8p5g9Y"
+      },
+      {
+        "id": "bombard-binou-pair",
+        "label": "Bombard and binou duo",
+        "youtube": "https://www.youtube.com/watch?v=lcSKcDwAMhU"
+      },
+      {
+        "id": "fest-noz-overview",
+        "label": "Fest-noz dance floor",
+        "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+      }
+    ],
     "key_points": [
-      "Breton Traditional Music rewards comparative study with Ireland.",
-      "Focus: Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks..",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Breton trad is dance-led and fest-noz-centred — not generic Celtic wallpaper.",
+      "Bombard–binou, accordion bands, and bagads answer different social stages.",
+      "Kan ha diskan is participatory dialogue song, not a footnote to instrumentals.",
+      "Gavotte, plinn, mazurka, and son name distinct floor contracts.",
+      "Cornouaille, Léon, Vannetais, and Bro Gozh carry regional accents within one peninsula."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Breton Traditional Music — Overview — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Music of Brittany",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brittany",
+        "note": "Regional overview and revival context"
+      },
+      {
+        "type": "link",
+        "title": "Fest-noz",
+        "url": "https://en.wikipedia.org/wiki/Fest-noz",
+        "note": "Night festival dance culture"
+      },
+      {
+        "type": "link",
+        "title": "Bodadeg ar Sonerion",
+        "url": "https://sonerion.bzh/",
+        "note": "Musicians' association and Sonerion publications"
+      },
+      {
+        "type": "book",
+        "title": "La musique bretonne",
+        "author": "Ronan Gervais",
+        "note": "Breton music historiography in French"
+      },
+      {
+        "type": "link",
+        "title": "Fédération des Fest-Noz",
+        "url": "https://www.fest-noz.bzh/",
+        "note": "Fest-noz federation and event network"
+      },
+      {
+        "type": "book",
+        "title": "Breton Folk Music",
+        "author": "Ronan Gorgil",
+        "note": "Fest-noz and kan ha diskan overview"
+      },
+      {
+        "type": "link",
+        "title": "Festival Interceltique de Lorient",
+        "url": "https://www.festival-interceltique.com/",
+        "note": "Pan-Celtic meeting point"
+      },
+      {
+        "type": "link",
+        "title": "Dastum archives",
+        "url": "https://www.dastum.net/",
+        "note": "Breton folk collection"
+      },
+      {
+        "type": "link",
+        "title": "Breton language media",
+        "url": "https://www.francebleu.fr/breizh-izz",
+        "note": "Regional broadcasting"
+      },
+      {
+        "type": "link",
+        "title": "Kan ar Bobl",
+        "url": "https://www.dastum.net/",
+        "note": "Song archive"
       }
     ]
   },
   "regions-celtic-brittany-02-instruments-voices-i": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "bombard",
+        "type": "instrument",
+        "name": "Bombard",
+        "summary": "Loud Breton folk oboe paired with binou at fest-noz",
+        "blurb": "B-flat folk oboe leading sonerion duets with penetrating dance-hall volume.",
+        "url": "https://en.wikipedia.org/wiki/Bombard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320"
+      },
+      {
+        "id": "binou",
+        "type": "instrument",
+        "name": "Binou kozh",
+        "summary": "Small Breton bagpipe traditionally paired with bombard",
+        "blurb": "High, bright one-armed pipe defining sonerion and bagad pipe sections.",
+        "url": "https://en.wikipedia.org/wiki/Biniou",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Biniou_kozh.jpg?width=320"
+      },
+      {
+        "id": "stivell",
+        "type": "person",
+        "name": "Alan Stivell",
+        "summary": "Breton harp revivalist linking harp to fest-noz and fusion stages",
+        "blurb": "Father Jord Cochevelou's harps and Stivell's recordings revived Breton harp globally.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320"
+      },
+      {
+        "id": "bodadeg",
+        "type": "organization",
+        "name": "Bodadeg ar Sonerion",
+        "summary": "Association for bombard and binou players",
+        "blurb": "Supports fest-noz repertoire, teaching, and regional sonerien culture.",
+        "url": "https://www.bodadeg.org/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320"
+      },
+      {
+        "id": "kan-ha-diskan",
+        "type": "tradition",
+        "name": "Kan ha diskan",
+        "summary": "Call-and-response Breton song form",
+        "blurb": "Leader and chorus trade lines at fest-noz; distinct from Irish lilting.",
+        "url": "https://en.wikipedia.org/wiki/Kan_ha_diskan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "bombard-demo",
+        "entity_id": "bombard",
+        "label": "Bombard and binou fest-noz",
+        "youtube": "https://www.youtube.com/watch?v=lcSKcDwAMhU"
+      },
+      {
+        "id": "binou-bagad",
+        "entity_id": "binou",
+        "label": "Massed binou bagad sound",
+        "youtube": "https://www.youtube.com/watch?v=RGOlgoGrVnE"
+      },
+      {
+        "id": "stivell-renaissance",
+        "entity_id": "stivell",
+        "label": "Alan Stivell harp revival",
+        "youtube": "https://www.youtube.com/watch?v=VFp5bMaaMeg"
+      },
+      {
+        "id": "sonerion-duet",
+        "label": "Sonerion pair performance",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "bombard-binou",
+        "entity_id": "bodadeg",
+        "label": "Bombard and binou duet",
+        "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+      }
+    ],
     "key_points": [
-      "Breton Traditional Music rewards comparative study with Ireland.",
-      "Focus: bombard, binou (Breton bagpipe), fiddle, and harp.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Bombard and binou are the emblematic fest-noz pair — unison, volume, and endurance.",
+      "Binou differs from uilleann pipes in scale, pairing, and bagad massed format.",
+      "Breton fiddle phrases for gavotte and plinn pulse — not Irish reel session defaults.",
+      "Harp revival links to Stivell and concert stages as well as song nights.",
+      "Sonerion pedagogy trains sonerion players through bodadeg networks."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Breton Traditional Instruments — Traditional Voices I — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Bombard",
+        "url": "https://en.wikipedia.org/wiki/Bombard",
+        "note": "Breton folk oboe orientation"
+      },
+      {
+        "type": "link",
+        "title": "Biniou",
+        "url": "https://en.wikipedia.org/wiki/Biniou",
+        "note": "Breton bagpipe types including binou kozh"
+      },
+      {
+        "type": "book",
+        "title": "Sonerion tune books",
+        "author": "Bodadeg ar Sonerion",
+        "note": "Standard bombard–binou repertoire in print"
+      },
+      {
+        "type": "link",
+        "title": "Alan Stivell — Renaissance de la harpe celtique",
+        "url": "https://en.wikipedia.org/wiki/Renaissance_de_la_harpe_celtique",
+        "note": "1972 harp revival album context"
+      },
+      {
+        "type": "link",
+        "title": "Bodadeg ar Sonerion",
+        "url": "https://www.bodadeg.org/",
+        "note": "Bombard and binou teaching"
+      },
+      {
+        "type": "book",
+        "title": "Musiques de Bretagne",
+        "author": "Ronan Gorgil",
+        "note": "Instrument survey"
+      },
+      {
+        "type": "link",
+        "title": "Breton bagpipe types",
+        "url": "https://en.wikipedia.org/wiki/Biniou",
+        "note": "Binou vs Great Highland"
       }
     ]
   },
   "regions-celtic-brittany-03-instruments-voices-ii": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "bagad",
+        "type": "organization",
+        "name": "Bagad",
+        "summary": "Breton pipe-band format with binou, bombard, and percussion sections",
+        "blurb": "Youth pipeline and competition institution distinct from Irish pub sessions.",
+        "url": "https://en.wikipedia.org/wiki/Bagad",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=320"
+      },
+      {
+        "id": "bodadeg-ar-sonerion",
+        "type": "organization",
+        "name": "Bodadeg ar Sonerion",
+        "summary": "Publisher and teachers' network for Breton instrumentalists",
+        "blurb": "Connects accordion, bombard, and bagad learners to fest-noz practice.",
+        "url": "https://sonerion.bzh/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "bagad-kemper",
+        "entity_id": "bagad",
+        "label": "Bagad Kemper competition set",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "vannetais-accordion",
+        "label": "Vannetais accordion fest-noz",
+        "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s"
+      },
+      {
+        "id": "bagad-brieg",
+        "entity_id": "bagad",
+        "label": "Bagad Brieg parade",
+        "youtube": "https://www.youtube.com/watch?v=RGOlgoGrVnE"
+      },
+      {
+        "id": "bagad-drums",
+        "label": "Bagad drum corps",
+        "youtube": "https://www.youtube.com/watch?v=0nF5mB1JP8s"
+      }
+    ],
     "key_points": [
-      "Breton Traditional Music rewards comparative study with Ireland.",
-      "Focus: accordion, guitar, and bagad (pipe band) ensembles.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Accordion leads much Vannetais fest-noz — plinn and mazurka, not session backing only.",
+      "Guitar supports kan ha diskan, fusion, and mixed fest-noz bands.",
+      "Bagad trains thousands in massed binou, bombard, and drum sections.",
+      "Bagad competition tempi differ from village fest-noz dance stamina.",
+      "Compared with Ireland: no pub-session bagad equivalent exists."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Breton Traditional Instruments — Session Voices II — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Bagad",
+        "url": "https://en.wikipedia.org/wiki/Bagad",
+        "note": "Pipe-band structure and history"
+      },
+      {
+        "type": "link",
+        "title": "Fédération des bagadoù",
+        "url": "https://www.federationbagadoù.bzh/",
+        "note": "Bagad federation and championships"
+      },
+      {
+        "type": "link",
+        "title": "Bagad Kemper",
+        "url": "https://en.wikipedia.org/wiki/Bagad_Kemper",
+        "note": "Reference bagad from Quimper"
+      },
+      {
+        "type": "link",
+        "title": "Bagad Kemper",
+        "url": "https://en.wikipedia.org/wiki/Bagad",
+        "note": "Championship bagad"
+      },
+      {
+        "type": "link",
+        "title": "Breton accordion masters",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brittany",
+        "note": "Fest-noz box"
+      },
+      {
+        "type": "book",
+        "title": "Musiques de Bretagne",
+        "author": "Ronan Gorgil",
+        "note": "Ensemble survey"
       }
     ]
   },
   "regions-celtic-brittany-04-genres-forms": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "gavotte",
+        "type": "genre",
+        "name": "Gavotte",
+        "summary": "Core Breton dance-tune family of Cornouaille fest-noz",
+        "blurb": "Steady quadruple dance tunes with regional names and circle/couple figures.",
+        "url": "https://en.wikipedia.org/wiki/Gavotte_(folk_dance)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_de_Cornouaille_2014_-_Bagad_Keriz_-_003.jpg?width=320"
+      },
+      {
+        "id": "plinn",
+        "type": "genre",
+        "name": "Plinn",
+        "summary": "Breton walking dance in steady 4/4, Vannetais stronghold",
+        "blurb": "Processional and circle walking figures demanding tempo discipline from musicians.",
+        "url": "https://en.wikipedia.org/wiki/Plinn",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      },
+      {
+        "id": "kan-ha-diskan",
+        "type": "tradition",
+        "name": "Kan ha diskan",
+        "summary": "Call-and-response Breton song form",
+        "blurb": "Leader and chorus trade lines at fest-noz; distinct from Irish lilting.",
+        "url": "https://en.wikipedia.org/wiki/Kan_ha_diskan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      },
+      {
+        "id": "suite-sudarmoricaine",
+        "type": "tune",
+        "name": "Suite Sudarmoricaine",
+        "summary": "Cornouaille gavotte suite from south Morbihan repertoire",
+        "blurb": "Bagad and fest-noz reference set bundling regional gavotte identity.",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brittany",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_de_Cornouaille_2014_-_Bagad_Keriz_-_003.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "gavotte-cornouaille",
+        "entity_id": "gavotte",
+        "label": "Cornouaille gavotte",
+        "youtube": "https://www.youtube.com/watch?v=lcSKcDwAMhU"
+      },
+      {
+        "id": "plinn-vannetais",
+        "entity_id": "plinn",
+        "label": "Plinn walking dance",
+        "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s"
+      },
+      {
+        "id": "suite-sudarmoricaine-bagad",
+        "entity_id": "suite-sudarmoricaine",
+        "label": "Suite Sudarmoricaine bagad arrangement",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "kan-ha-diskan-set",
+        "entity_id": "kan-ha-diskan",
+        "label": "Kan ha diskan performance",
+        "youtube": "https://www.youtube.com/watch?v=8pP7x8p5g9Y"
+      },
+      {
+        "id": "kan-ha-diskan-demo",
+        "entity_id": "kan-ha-diskan",
+        "label": "Kan ha diskan call-response",
+        "youtube": "https://www.youtube.com/watch?v=2g6F8h8aZ0E"
+      }
+    ],
     "key_points": [
-      "Breton Traditional Music rewards comparative study with Ireland.",
-      "Focus: gavotte, plinn, mazurka, and son dance tunes.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Gavotte names Cornouaille fest-noz core repertoire.",
+      "Plinn demands steady walking pulse — accordion-led in Vannetais.",
+      "Kan ha diskan is rhythmic dialogue, not solo rubato song.",
+      "Suite Sudarmoricaine bundles Cornouaille gavotte identity for bagads.",
+      "Fest-noz repeats follow dancers, not fixed three-tune session chains."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Breton Traditional Music — Tunes, Forms, and Style — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Gavotte (folk dance)",
+        "url": "https://en.wikipedia.org/wiki/Gavotte_(folk_dance)",
+        "note": "Breton gavotte dance and tune context"
+      },
+      {
+        "type": "link",
+        "title": "Plinn",
+        "url": "https://en.wikipedia.org/wiki/Plinn",
+        "note": "Walking dance form and region"
+      },
+      {
+        "type": "link",
+        "title": "Kan ha diskan",
+        "url": "https://en.wikipedia.org/wiki/Kan_ha_diskan",
+        "note": "Call-and-response song structure"
+      },
+      {
+        "type": "book",
+        "title": "Sonerion tune books — gavotte and plinn sections",
+        "author": "Bodadeg ar Sonerion",
+        "note": "Printed form and repertoire map"
+      },
+      {
+        "type": "book",
+        "title": "Breton Dance Music",
+        "author": "Jean-Michel Guilcher",
+        "note": "Gavotte and plinn study"
+      },
+      {
+        "type": "link",
+        "title": "Plinn rhythm",
+        "url": "https://en.wikipedia.org/wiki/Plinn",
+        "note": "Dance form"
+      },
+      {
+        "type": "link",
+        "title": "Son Breton",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brittany",
+        "note": "Song types"
       }
     ]
   },
   "regions-celtic-brittany-05-dance": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "fest-noz",
+        "type": "organization",
+        "name": "Fest-noz",
+        "summary": "Participatory Breton night dance festivals",
+        "blurb": "Commune halls and festival tents where gavotte, plinn, and rond figures rule tempo.",
+        "url": "https://en.wikipedia.org/wiki/Fest-noz",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      },
+      {
+        "id": "gavotte",
+        "type": "genre",
+        "name": "Gavotte",
+        "summary": "Couple and circle dance form tied to Cornouaille programmes",
+        "blurb": "Four-beat figures including rond variants announced by callers.",
+        "url": "https://en.wikipedia.org/wiki/Gavotte_(folk_dance)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_de_Cornouaille_2014_-_Bagad_Keriz_-_003.jpg?width=320"
+      },
+      {
+        "id": "plinn",
+        "type": "genre",
+        "name": "Plinn",
+        "summary": "Walking dance form central to Vannetais fest-noz nights",
+        "blurb": "Lines and circles in steady 4/4 — meditative floor discipline.",
+        "url": "https://en.wikipedia.org/wiki/Plinn",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "fest-noz-floor",
+        "entity_id": "fest-noz",
+        "label": "Fest-noz floor dancing",
+        "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s"
+      },
+      {
+        "id": "gavotte-figures",
+        "entity_id": "gavotte",
+        "label": "Gavotte dance figures",
+        "youtube": "https://www.youtube.com/watch?v=lcSKcDwAMhU"
+      },
+      {
+        "id": "plinn-walk",
+        "entity_id": "plinn",
+        "label": "Plinn walking dance",
+        "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s"
+      },
+      {
+        "id": "fest-noz-circle",
+        "label": "Fest-noz circle dance",
+        "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+      }
+    ],
     "key_points": [
-      "Breton Traditional Music rewards comparative study with Ireland.",
-      "Focus: fest-noz circle dances and regional choreographies.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Fest-noz floors set tempo — musicians follow dancer stamina.",
+      "Gavotte, plinn, mazurka, son, and rond name distinct choreography contracts.",
+      "Kan ha diskan pauses dance for participatory singing.",
+      "Bagad parade differs from commune hall fest-noz etiquette.",
+      "Fest-noz débutant nights teach figures to newcomers."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Breton Traditional Music — Dance and Rhythm — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Fédération des Fest-Noz",
+        "url": "https://www.fest-noz.bzh/",
+        "note": "Event calendars and beginner workshops"
+      },
+      {
+        "type": "link",
+        "title": "Fest-noz",
+        "url": "https://en.wikipedia.org/wiki/Fest-noz",
+        "note": "Dance-first social context"
+      },
+      {
+        "type": "link",
+        "title": "Festival de Cornouaille",
+        "url": "https://en.wikipedia.org/wiki/Festival_de_Cornouaille",
+        "note": "Major Quimper festival dance programmes"
+      },
+      {
+        "type": "link",
+        "title": "Fest-noz circle dances",
+        "url": "https://en.wikipedia.org/wiki/Fest-noz",
+        "note": "Social dance context"
+      },
+      {
+        "type": "book",
+        "title": "La danse bretonne",
+        "author": "Jean-Michel Guilcher",
+        "note": "Choreography history"
+      },
+      {
+        "type": "link",
+        "title": "Gavotte en dro",
+        "url": "https://en.wikipedia.org/wiki/Gavotte",
+        "note": "Line dance form"
       }
     ]
   },
   "regions-celtic-brittany-06-history": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "dastum",
+        "type": "organization",
+        "name": "Dastum",
+        "summary": "Breton folk archive and collecting society",
+        "blurb": "Parallel to Irish ITMA — field recordings, song books, revival research.",
+        "url": "https://www.dastum.net/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Brittany_flag.svg?width=320"
+      },
+      {
+        "id": "stivell",
+        "type": "person",
+        "name": "Alan Stivell",
+        "summary": "Fusion media breakthrough for Breton revival in the 1970s",
+        "blurb": "Chemins de terre and Renaissance albums globalised Breton harp and pipes.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320"
+      },
+      {
+        "id": "bagad",
+        "type": "organization",
+        "name": "Bagad",
+        "summary": "Mid-twentieth-century youth pipe-band institution",
+        "blurb": "Bagad Kemper (1948) model spread massed binou–bombard pedagogy.",
+        "url": "https://en.wikipedia.org/wiki/Bagad",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=320"
+      },
+      {
+        "id": "bodadeg-ar-sonerion",
+        "type": "organization",
+        "name": "Bodadeg ar Sonerion",
+        "summary": "Tune-book transmission through Sonerion publications",
+        "blurb": "Standardised gavotte and plinn repertoire for post-revival learners.",
+        "url": "https://sonerion.bzh/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320"
+      },
+      {
+        "id": "alan-stivell",
+        "type": "artist",
+        "name": "Alan Stivell",
+        "summary": "Breton harpist and fusion pioneer",
+        "blurb": "Renaissance de la Harpe Celtique (1972) and fest-noz stages linked Brittany to pan-Celtic networks.",
+        "years": "1944–",
+        "region": "Brittany",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "dastum-field",
+        "entity_id": "dastum",
+        "label": "Historical fest-noz field sound",
+        "youtube": "https://www.youtube.com/watch?v=lcSKcDwAMhU"
+      },
+      {
+        "id": "stivell-chemins",
+        "entity_id": "stivell",
+        "label": "Alan Stivell Chemins de terre era",
+        "youtube": "https://www.youtube.com/watch?v=VFp5bMaaMeg"
+      },
+      {
+        "id": "bagad-history",
+        "entity_id": "bagad",
+        "label": "Early bagad sound",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "dastum-archive",
+        "entity_id": "dastum",
+        "label": "Breton field archive",
+        "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ"
+      }
+    ],
     "key_points": [
-      "Breton Traditional Music rewards comparative study with Ireland.",
-      "Focus: bagad revival, Alan Stivell's fusion era, and archival song collections.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Fest-noz floors preserved repertoire through centralisation and migration.",
+      "Dastum archives mediate oral tradition — maps back to recordings.",
+      "Bagad invented mid-century youth transmission unlike Irish sessions.",
+      "Stivell fusion globalised Breton music without replacing fest-noz core.",
+      "Sonerion books risk homogenisation if ear-first learning is skipped."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Breton Traditional Music — History, Revival, and Transmission — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Dastum",
+        "url": "https://www.dastum.net/",
+        "note": "Folklore archive and publications"
+      },
+      {
+        "type": "link",
+        "title": "Music of Brittany — revival",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brittany",
+        "note": "Historical overview"
+      },
+      {
+        "type": "book",
+        "title": "Chemins de terre",
+        "author": "Alan Stivell",
+        "note": "1973 fusion breakthrough album"
+      },
+      {
+        "type": "link",
+        "title": "Bagad Kemper history",
+        "url": "https://en.wikipedia.org/wiki/Bagad_Kemper",
+        "note": "Founding bagad institution"
+      },
+      {
+        "type": "book",
+        "title": "Alan Stivell: Racines",
+        "author": "Alan Stivell",
+        "note": "Autobiographical revival context"
+      },
+      {
+        "type": "link",
+        "title": "Bagad championships",
+        "url": "https://en.wikipedia.org/wiki/Bagad",
+        "note": "Pipe band revival institutions"
+      },
+      {
+        "type": "link",
+        "title": "Bagad revival 1950s",
+        "url": "https://en.wikipedia.org/wiki/Bagad",
+        "note": "Institutional revival"
+      },
+      {
+        "type": "link",
+        "title": "Kan ha diskan archives",
+        "url": "https://www.dastum.net/",
+        "note": "Song collections"
+      },
+      {
+        "type": "link",
+        "title": "Stivell Olympia 1972",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "note": "Fusion breakthrough"
       }
     ]
   },
   "regions-celtic-brittany-07-representative-depth": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "stivell",
+        "type": "person",
+        "name": "Alan Stivell",
+        "summary": "Concert fusion and export face of Breton music",
+        "blurb": "Harp-rock staging at Pan-Celtic festivals alongside fest-noz support.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320"
+      },
+      {
+        "id": "fest-noz",
+        "type": "organization",
+        "name": "Fest-noz",
+        "summary": "Community dance scene versus concert spectacle",
+        "blurb": "Village halls anchor tradition; festival tents scale participation.",
+        "url": "https://en.wikipedia.org/wiki/Fest-noz",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      },
+      {
+        "id": "bagad",
+        "type": "organization",
+        "name": "Bagad",
+        "summary": "Lorient championship spectacle transmission",
+        "blurb": "Massed pipes and bombards on festival main stages.",
+        "url": "https://en.wikipedia.org/wiki/Bagad",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=320"
+      },
+      {
+        "id": "kan-ha-diskan",
+        "type": "genre",
+        "name": "Kan ha diskan",
+        "summary": "Voice-forward fest-noz and concert song scenes",
+        "blurb": "Yann-Fanch Kemener lineage carries language and song transmission.",
+        "url": "https://en.wikipedia.org/wiki/Kan_ha_diskan",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      },
+      {
+        "id": "alan-stivell",
+        "type": "artist",
+        "name": "Alan Stivell",
+        "summary": "Breton harpist and fusion pioneer",
+        "blurb": "Renaissance de la Harpe Celtique (1972) and fest-noz stages linked Brittany to pan-Celtic networks.",
+        "years": "1944–",
+        "region": "Brittany",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "stivell-concert",
+        "entity_id": "stivell",
+        "label": "Alan Stivell concert fusion",
+        "youtube": "https://www.youtube.com/watch?v=VFp5bMaaMeg"
+      },
+      {
+        "id": "fest-noz-village",
+        "entity_id": "fest-noz",
+        "label": "Village fest-noz atmosphere",
+        "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s"
+      },
+      {
+        "id": "bagad-lorient-final",
+        "entity_id": "bagad",
+        "label": "Bagad Lorient finals",
+        "youtube": "https://www.youtube.com/watch?v=RGOlgoGrVnE"
+      },
+      {
+        "id": "fest-noz-rock",
+        "label": "Fest-noz rock energy",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "stivell-renaissance",
+        "entity_id": "alan-stivell",
+        "label": "Alan Stivell — Renaissance de la Harpe Celtique",
+        "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ"
+      }
+    ],
     "key_points": [
-      "Breton Traditional Music rewards comparative study with Ireland.",
-      "Focus: fest-noz floors versus concert-stage fusion bands.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Fest-noz floor and concert stage optimise different tempo and participation.",
+      "Bagad championships are spectacle transmission — not village hall substitutes.",
+      "Stivell embodies export fusion without replacing fest-noz social core.",
+      "Fest-noz rock recruits youth through electric dance nights.",
+      "Bro Gozh and Lorient mediate diaspora and Pan-Celtic exchange."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Breton Traditional Music — Representative Fusions and Scenes — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Festival Interceltique de Lorient",
+        "url": "https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient",
+        "note": "Pan-Celtic festival and bagad finals"
+      },
+      {
+        "type": "link",
+        "title": "Yaouank",
+        "url": "https://en.wikipedia.org/wiki/Yaouank",
+        "note": "Rennes fest-noz and youth festival"
+      },
+      {
+        "type": "link",
+        "title": "Alan Stivell discography",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell_discography",
+        "note": "Fusion lineage recordings"
+      },
+      {
+        "type": "album",
+        "title": "Renaissance de la Harpe Celtique",
+        "author": "Alan Stivell",
+        "note": "Landmark LP"
+      },
+      {
+        "type": "link",
+        "title": "Fest-noz vs concert stage",
+        "url": "https://en.wikipedia.org/wiki/Fest-noz",
+        "note": "Social vs commercial"
+      },
+      {
+        "type": "link",
+        "title": "Lorient Interceltique",
+        "url": "https://www.festival-interceltique.com/",
+        "note": "Festival network"
       }
     ]
   },
   "regions-celtic-brittany-08-tunes": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "suite-sudarmoricaine",
+        "type": "tune",
+        "name": "Suite Sudarmoricaine",
+        "summary": "Cornouaille gavotte suite central to bagad and fest-noz repertoire",
+        "blurb": "South Morbihan tune bundle recorded by Bagad Bro Kemperle and others.",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brittany",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_de_Cornouaille_2014_-_Bagad_Keriz_-_003.jpg?width=320"
+      },
+      {
+        "id": "gavotte",
+        "type": "genre",
+        "name": "Gavotte",
+        "summary": "Named gavotte tunes across Cornouaille fest-noz",
+        "blurb": "Gavotte des montagnes, de l'Aven, pourlet — regional title families.",
+        "url": "https://en.wikipedia.org/wiki/Gavotte_(folk_dance)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_de_Cornouaille_2014_-_Bagad_Keriz_-_003.jpg?width=320"
+      },
+      {
+        "id": "bombard",
+        "type": "instrument",
+        "name": "Bombard",
+        "summary": "Lead melody voice on Sonerion gavotte settings",
+        "blurb": "Unison with binou on standard fest-noz tune versions.",
+        "url": "https://en.wikipedia.org/wiki/Bombard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320"
+      },
+      {
+        "id": "bagad",
+        "type": "organization",
+        "name": "Bagad",
+        "summary": "Competition arrangements fixing export gavotte versions",
+        "blurb": "Lorient recordings as transmission standards for pipe sections.",
+        "url": "https://en.wikipedia.org/wiki/Bagad",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=320"
+      },
+      {
+        "id": "stivell",
+        "type": "person",
+        "name": "Alan Stivell",
+        "summary": "Fusion arrangements of Breton dance melodies",
+        "blurb": "Concert tempi and harmony layers atop floor repertoire.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320"
+      },
+      {
+        "id": "alan-stivell",
+        "type": "artist",
+        "name": "Alan Stivell",
+        "summary": "Breton harpist and fusion pioneer",
+        "blurb": "Renaissance de la Harpe Celtique (1972) and fest-noz stages linked Brittany to pan-Celtic networks.",
+        "years": "1944–",
+        "region": "Brittany",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "suite-sudarmoricaine",
+        "entity_id": "suite-sudarmoricaine",
+        "label": "Suite Sudarmoricaine bagad set",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "gavotte-montagnes",
+        "entity_id": "gavotte",
+        "label": "Gavotte des montagnes",
+        "youtube": "https://www.youtube.com/watch?v=lcSKcDwAMhU"
+      },
+      {
+        "id": "bombard-tune",
+        "entity_id": "bombard",
+        "label": "Bombard–binou gavotte",
+        "youtube": "https://www.youtube.com/watch?v=lcSKcDwAMhU"
+      },
+      {
+        "id": "stivell-arrangement",
+        "entity_id": "stivell",
+        "label": "Stivell Breton tune arrangement",
+        "youtube": "https://www.youtube.com/watch?v=VFp5bMaaMeg"
+      },
+      {
+        "id": "bagad-gavotte-suite",
+        "entity_id": "bagad",
+        "label": "Bagad gavotte suite",
+        "youtube": "https://www.youtube.com/watch?v=RGOlgoGrVnE"
+      }
+    ],
     "key_points": [
-      "Breton Traditional Music rewards comparative study with Ireland.",
-      "Focus: Suite Sudarmoricaine repertoire and classic fest-noz sets.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Suite Sudarmoricaine names Cornouaille gavotte suite logic.",
+      "Learn gavotte and plinn titles with region and dance figure context.",
+      "Bagad recordings fix export versions that may differ from village floors.",
+      "Stivell arrangements are layers atop dance repertoire — verify source tempi.",
+      "Compare floor, bagad, and fusion recordings before choosing a standard."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Sonerion tune books",
+        "author": "Bodadeg ar Sonerion",
+        "note": "Standard bombard–binou ABC and notation"
+      },
+      {
         "type": "link",
-        "title": "Breton Traditional Music — Tunes — Forms, History, and Recordings — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Bagad Bro Kemperle recordings",
+        "url": "https://en.wikipedia.org/wiki/Bagad_Bro_Kemperle",
+        "note": "Suite Sudarmoricaine reference arrangements"
+      },
+      {
+        "type": "link",
+        "title": "Dastum discography",
+        "url": "https://www.dastum.net/",
+        "note": "Village variant comparisons"
+      },
+      {
+        "type": "link",
+        "title": "Music of Brittany — repertoire",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brittany",
+        "note": "Regional tune family orientation"
+      },
+      {
+        "type": "link",
+        "title": "Suite Sudarmoricaine",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "note": "Stivell fest-noz repertoire"
+      },
+      {
+        "type": "link",
+        "title": "Bodadeg ar Sonerion",
+        "url": "https://www.bodadeg.org/",
+        "note": "Bombard and binou association"
+      },
+      {
+        "type": "link",
+        "title": "Gavotte des Montagnes",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brittany",
+        "note": "Regional gavotte"
+      },
+      {
+        "type": "link",
+        "title": "Fest-noz set listening",
+        "url": "https://www.festival-interceltique.com/",
+        "note": "Live repertoire models"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "suite-sudarmoricaine",
+        "type": "tune",
+        "name": "Suite Sudarmoricaine",
+        "form": "gavotte / fest-noz set",
+        "reference": "Alan Stivell",
+        "about": "Gateway fest-noz suite.",
+        "made_famous_by": [
+          "alan-stivell"
+        ],
+        "playlist": [
+          {
+            "entity_id": "alan-stivell",
+            "label": "Stivell live",
+            "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ"
+          }
+        ]
+      },
+      {
+        "id": "an-alarc'h",
+        "type": "tune",
+        "name": "An Alarc'h",
+        "form": "kan ha diskan",
+        "reference": "Breton song standard",
+        "about": "Call-and-response fest-noz favourite.",
+        "playlist": [
+          {
+            "label": "Fest-noz chorus",
+            "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+          }
+        ]
+      },
+      {
+        "id": "gavotte-des-montagnes",
+        "type": "tune",
+        "name": "Gavotte des Montagnes",
+        "form": "gavotte",
+        "reference": "Central Brittany dance repertoire",
+        "about": "Circle dance gavotte — compare footwork with Irish reel.",
+        "playlist": [
+          {
+            "label": "Fest-noz gavotte",
+            "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+          }
+        ]
       }
     ]
   }

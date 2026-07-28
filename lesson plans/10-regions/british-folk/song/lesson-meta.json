@@ -1,0 +1,782 @@
+{
+  "regions-british-song-01-overview": {
+    "entities": [
+      {
+        "id": "a-l-lloyd",
+        "type": "artist",
+        "name": "A. L. Lloyd",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study A. L. Lloyd for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/A._L._Lloyd",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "nic-jones",
+        "type": "band",
+        "name": "Nic Jones",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study Nic Jones for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Nic_Jones",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-song-01-overview-pl1",
+        "entity_id": "a-l-lloyd",
+        "label": "A. L. Lloyd — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-song-01-overview-pl2",
+        "entity_id": "nic-jones",
+        "label": "Nic Jones — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-song-01-overview-pl3",
+        "label": "English Song Tradition — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-song-01-overview-pl4",
+        "label": "English Song Tradition — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Song Tradition rewards comparative study.",
+      "Focus: English Song Tradition spans unaccompanied voice, concertina, guitar leading voices, balla.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ballad, broadside, shanty, carol.",
+      "Dance: social song, club performance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "English folk music",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "English Song Tradition spans unaccompanied voice, concertina",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-song-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "a-l-lloyd",
+        "type": "artist",
+        "name": "A. L. Lloyd",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study A. L. Lloyd for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/A._L._Lloyd",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "nic-jones",
+        "type": "band",
+        "name": "Nic Jones",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study Nic Jones for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Nic_Jones",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-song-02-instruments-voices-i-pl1",
+        "entity_id": "a-l-lloyd",
+        "label": "A. L. Lloyd — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-song-02-instruments-voices-i-pl2",
+        "entity_id": "nic-jones",
+        "label": "Nic Jones — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-song-02-instruments-voices-i-pl3",
+        "label": "English Song Tradition — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-song-02-instruments-voices-i-pl4",
+        "label": "English Song Tradition — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Song Tradition rewards comparative study.",
+      "Focus: unaccompanied voice, concertina, guitar.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ballad, broadside, shanty, carol.",
+      "Dance: social song, club performance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "English folk music",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "unaccompanied voice, concertina, guitar",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-song-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "a-l-lloyd",
+        "type": "artist",
+        "name": "A. L. Lloyd",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study A. L. Lloyd for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/A._L._Lloyd",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "nic-jones",
+        "type": "band",
+        "name": "Nic Jones",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study Nic Jones for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Nic_Jones",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-song-03-instruments-voices-ii-pl1",
+        "entity_id": "a-l-lloyd",
+        "label": "A. L. Lloyd — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-song-03-instruments-voices-ii-pl2",
+        "entity_id": "nic-jones",
+        "label": "Nic Jones — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-song-03-instruments-voices-ii-pl3",
+        "label": "English Song Tradition — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-song-03-instruments-voices-ii-pl4",
+        "label": "English Song Tradition — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Song Tradition rewards comparative study.",
+      "Focus: piano, harmony singers.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ballad, broadside, shanty, carol.",
+      "Dance: social song, club performance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "English folk music",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "piano, harmony singers",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-song-04-genres-forms": {
+    "entities": [
+      {
+        "id": "a-l-lloyd",
+        "type": "artist",
+        "name": "A. L. Lloyd",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study A. L. Lloyd for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/A._L._Lloyd",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "nic-jones",
+        "type": "band",
+        "name": "Nic Jones",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study Nic Jones for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Nic_Jones",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-song-04-genres-forms-pl1",
+        "entity_id": "a-l-lloyd",
+        "label": "A. L. Lloyd — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-song-04-genres-forms-pl2",
+        "entity_id": "nic-jones",
+        "label": "Nic Jones — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-song-04-genres-forms-pl3",
+        "label": "English Song Tradition — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-song-04-genres-forms-pl4",
+        "label": "English Song Tradition — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Song Tradition rewards comparative study.",
+      "Focus: ballad, broadside, shanty, carol.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ballad, broadside, shanty, carol.",
+      "Dance: social song, club performance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "English folk music",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "ballad, broadside, shanty, carol",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-song-05-dance": {
+    "entities": [
+      {
+        "id": "a-l-lloyd",
+        "type": "artist",
+        "name": "A. L. Lloyd",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study A. L. Lloyd for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/A._L._Lloyd",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "nic-jones",
+        "type": "band",
+        "name": "Nic Jones",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study Nic Jones for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Nic_Jones",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-song-05-dance-pl1",
+        "entity_id": "a-l-lloyd",
+        "label": "A. L. Lloyd — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-song-05-dance-pl2",
+        "entity_id": "nic-jones",
+        "label": "Nic Jones — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-song-05-dance-pl3",
+        "label": "English Song Tradition — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-song-05-dance-pl4",
+        "label": "English Song Tradition — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Song Tradition rewards comparative study.",
+      "Focus: social song, club performance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ballad, broadside, shanty, carol.",
+      "Dance: social song, club performance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "English folk music",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "social song, club performance",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-song-06-history": {
+    "entities": [
+      {
+        "id": "a-l-lloyd",
+        "type": "artist",
+        "name": "A. L. Lloyd",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study A. L. Lloyd for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/A._L._Lloyd",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "nic-jones",
+        "type": "band",
+        "name": "Nic Jones",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study Nic Jones for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Nic_Jones",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-song-06-history-pl1",
+        "entity_id": "a-l-lloyd",
+        "label": "A. L. Lloyd — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-song-06-history-pl2",
+        "entity_id": "nic-jones",
+        "label": "Nic Jones — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-song-06-history-pl3",
+        "label": "English Song Tradition — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-song-06-history-pl4",
+        "label": "English Song Tradition — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Song Tradition rewards comparative study.",
+      "Focus: Child ballads, broadsides, Topic Records.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ballad, broadside, shanty, carol.",
+      "Dance: social song, club performance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "English folk music",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Child ballads, broadsides, Topic Records",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-song-07-representative-depth": {
+    "entities": [
+      {
+        "id": "a-l-lloyd",
+        "type": "artist",
+        "name": "A. L. Lloyd",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study A. L. Lloyd for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/A._L._Lloyd",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "nic-jones",
+        "type": "band",
+        "name": "Nic Jones",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study Nic Jones for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Nic_Jones",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-song-07-representative-depth-pl1",
+        "entity_id": "a-l-lloyd",
+        "label": "A. L. Lloyd — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-song-07-representative-depth-pl2",
+        "entity_id": "nic-jones",
+        "label": "Nic Jones — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-song-07-representative-depth-pl3",
+        "label": "English Song Tradition — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-song-07-representative-depth-pl4",
+        "label": "English Song Tradition — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Song Tradition rewards comparative study.",
+      "Focus: folk clubs, radio ballads.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ballad, broadside, shanty, carol.",
+      "Dance: social song, club performance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "English folk music",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "folk clubs, radio ballads",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-song-08-tunes": {
+    "entities": [
+      {
+        "id": "a-l-lloyd",
+        "type": "artist",
+        "name": "A. L. Lloyd",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study A. L. Lloyd for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/A._L._Lloyd",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "nic-jones",
+        "type": "band",
+        "name": "Nic Jones",
+        "summary": "Representative musician or ensemble in british-song trad",
+        "blurb": "Study Nic Jones for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Nic_Jones",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-song-08-tunes-pl1",
+        "entity_id": "a-l-lloyd",
+        "label": "A. L. Lloyd — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-song-08-tunes-pl2",
+        "entity_id": "nic-jones",
+        "label": "Nic Jones — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-song-08-tunes-pl3",
+        "label": "English Song Tradition — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-song-08-tunes-pl4",
+        "label": "English Song Tradition — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Song Tradition rewards comparative study.",
+      "Focus: Barbara Allen, The Cruel Ship's Carpenter.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: ballad, broadside, shanty, carol.",
+      "Dance: social song, club performance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "English folk music",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Barbara Allen, The Cruel Ship's Carpenter",
+        "url": "https://en.wikipedia.org/wiki/English_folk_music",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "barbara-allen",
+        "type": "tune",
+        "name": "Barbara Allen",
+        "form": "ballad",
+        "reference": "English folk music repertoire",
+        "about": "Representative english song tradition listening study.",
+        "playlist": [
+          {
+            "label": "Barbara Allen — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "the-cruel-ship-s-carpenter",
+        "type": "tune",
+        "name": "The Cruel Ship's Carpenter",
+        "form": "ballad",
+        "reference": "English folk music repertoire",
+        "about": "Representative english song tradition listening study.",
+        "playlist": [
+          {
+            "label": "The Cruel Ship's Carpenter — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "song-standard-2",
+        "type": "tune",
+        "name": "song standard 2",
+        "form": "ballad",
+        "reference": "English folk music repertoire",
+        "about": "Representative english song tradition listening study.",
+        "playlist": [
+          {
+            "label": "song standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

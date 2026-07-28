@@ -1,7 +1,8 @@
 import {useState, useEffect, useCallback, useRef} from 'react'
 import useUtils from './useUtils'
 import { normalizeViewMode } from './viewModeUtils'
-import useAbcTools from './useAbcTools'
+import { configureTuneRepository, setMonolithTunesRef } from './tuneRepository'
+import { getTuneHash, getTuneImportHash } from './tuneHashUtils'
 import { loadActiveQueue, persistActiveQueue } from './nowPlayingQueue'
 
 /**
@@ -10,7 +11,6 @@ import { loadActiveQueue, persistActiveQueue } from './nowPlayingQueue'
 export default function useAppData() {
 
   let utils = useUtils();
-  let abcTools = useAbcTools();
   
   // refresh hash is used to force components to rerender
   const [refreshHash, setRefreshHash] = useState(utils.generateObjectId())
@@ -110,7 +110,7 @@ export default function useAppData() {
   
   // the tunes hash is used to determine if the audio generated from abc
   // notation needs to be updated
-  // the hash maps from tune ids to a hash dependant on tune voices, key, .... (see abcTools.getTuneHash)
+  // the hash maps from tune ids to a hash dependant on tune voices, key, .... (see tuneHashUtils)
   const [tunesHash, setTunesHashInner] = useState({})
   useEffect(function() {
       utils.loadLocalforageObject('bookstorage_tunes_hash').then(function(data) {
@@ -132,8 +132,8 @@ export default function useAppData() {
     if (useTunes && Object.values(useTunes).length > 0) {
       Object.values(useTunes).forEach(function(tune) {
         if (tune.id && tune.voices) {
-          var hash = abcTools.getTuneHash(tune) 
-          var importhash = abcTools.getTuneImportHash(tune) 
+          var hash = getTuneHash(tune) 
+          var importhash = getTuneImportHash(tune) 
           if (!Array.isArray(hashes[hash])) hashes[hash] = []
           hashes[hash].push(tune.id)
           ids[tune.id] = hash
@@ -154,7 +154,7 @@ export default function useAppData() {
   
   function updateTunesHash(tune) {
      if (!tune || !tune.id) return
-     var hash = abcTools.getTuneHash(tune)
+     var hash = getTuneHash(tune)
      var prev = tunesHash && typeof tunesHash === 'object' ? tunesHash : { ids: {}, hashes: {}, importhashes: {} }
      var prevIds = prev.ids && typeof prev.ids === 'object' ? prev.ids : {}
      var oldHash = prevIds[tune.id]
@@ -231,6 +231,8 @@ export default function useAppData() {
 
   function setTunes(val) {
     setTunesInner(val)
+    setMonolithTunesRef(val || {})
+    configureTuneRepository({ tunes: val || {} })
     bumpTunesContentRevision()
     pendingTunesSaveRef.current = val
     if (tunesSaveTimerRef.current) clearTimeout(tunesSaveTimerRef.current)
@@ -249,6 +251,8 @@ export default function useAppData() {
   useEffect(function() {
     utils.loadLocalforageObject('bookstorage_tunes').then(function(t) {
             setTunesInner(t)
+            setMonolithTunesRef(t || {})
+            configureTuneRepository({ tunes: t || {} })
             forceRefresh()
     })
     utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(t) {

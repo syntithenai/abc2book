@@ -17,6 +17,7 @@ import {
 import ScratchpadItemGrid from '../components/scratchpad/ScratchpadItemGrid'
 import ScratchpadWorkspaceDialog from '../components/scratchpad/ScratchpadWorkspaceDialog'
 import ScratchpadCreateWizard from '../components/scratchpad/ScratchpadCreateWizard'
+import SelectAllToggle from '../components/SelectAllToggle'
 
 export default function ScratchpadPage(props) {
   useDocumentTitle('Scratchpad')
@@ -143,24 +144,13 @@ export default function ScratchpadPage(props) {
           </Button>
         </ButtonGroup>
         <div className="scratchpad-list-select-controls">
-          <Button
-            variant="link"
-            size="sm"
-            className="scratchpad-list-select-btn"
-            disabled={!visibleItems.length}
-            onClick={handleSelectAll}
-          >
-            Select all
-          </Button>
-          <Button
-            variant="link"
-            size="sm"
-            className="scratchpad-list-select-btn"
-            disabled={!selectedCount}
-            onClick={handleSelectNone}
-          >
-            Select none
-          </Button>
+          <SelectAllToggle
+            totalCount={visibleItems.length}
+            selectedCount={selectedCount}
+            onSelectAll={handleSelectAll}
+            onSelectNone={handleSelectNone}
+            ariaLabel="Select all scratchpad items"
+          />
         </div>
         <Form.Control
           type="search"

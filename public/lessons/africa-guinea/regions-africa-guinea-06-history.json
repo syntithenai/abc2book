@@ -1,0 +1,938 @@
+{
+  "id": "regions-africa-guinea-06-history",
+  "title": "Guinea & Senegambia — History, Revival, and Transmission",
+  "track": "regions",
+  "tier": 6,
+  "region": "africa-guinea",
+  "difficulty": 8,
+  "prerequisites": [
+    "regions-africa-guinea-05-dance"
+  ],
+  "tags": [
+    "africa",
+    "guinea",
+    "west-africa",
+    "history,",
+    "revival,"
+  ],
+  "path": "10-regions/west-africa/guinea/06-history-transmission.md",
+  "sections": [
+    {
+      "id": "guinea-senegambia-history-revival-and-transmission",
+      "title": "Guinea & Senegambia — History, Revival, and Transmission",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** West African Roots | **Region:** africa-guinea | **Tier:** 6\n**Prerequisites:** regions-africa-guinea-05-dance\n**Tags:** africa, guinea, west-africa, history,, revival,"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "djembe tradition\n\nGuinea & Senegambia belongs to the **West African Roots** curriculum. Mory Kanté\n\nThis lesson develops listening precision for **djembe tradition** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-mali",
+      "title": "Compared with Mali",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Mande Music** (`regions-africa-mali-06-history`) covers the same lesson slot from the anchor perspective. This lesson stresses: **djembe tradition**.\n\n| Topic | Mali anchor | Guinea & Senegambia (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | griot lineage, empire history… | djembe tradition… |\n\n**Parallel anchor lesson:** `regions-africa-mali-06-history`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-06-history`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "djembe tradition\n\nStudy **guinea & senegambia** through listening first. Wikipedia's article on [Music of Guinea](https://en.wikipedia.org/wiki/Music_of_Guinea) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **West African Roots**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **kora, balafon, voice**. Ensemble layer: **djembe ensemble**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **Mande forms**. Dance context: **dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **djembe tradition**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Guinea percussion repertoire**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- djembe tradition\n- Lead instruments: kora, balafon, voice\n- Ensemble: djembe ensemble\n- Forms: Mande forms\n- Dance: dance\n- History: djembe tradition\n- Scenes: festivals\n- Repertoire: Guinea percussion repertoire\n- Compared with Mali: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Guinea & Senegambia is a living tradition with regional accent.\n- Focus: djembe tradition.\n- Compared with Mali: shared heritage, distinct emphasis.\n- Forms: Mande forms.\n- Dance: dance.\n- Transmission: djembe tradition."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nG\nu\ni\nn\ne\na\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nG\nu\ni\nn\ne\na\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nM\na\nl\ni\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "mory-kant",
+      "type": "artist",
+      "name": "Mory Kanté",
+      "summary": "Representative musician or ensemble in africa-guinea trad",
+      "blurb": "Study Mory Kanté for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Mory_Kanté",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "guinea-senegambia",
+      "type": "band",
+      "name": "Guinea & Senegambia",
+      "summary": "Representative musician or ensemble in africa-guinea trad",
+      "blurb": "Study Guinea & Senegambia for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Guinea_&_Senegambia",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "mory-kant",
+    "guinea-senegambia"
+  ],
+  "playlist": [
+    {
+      "id": "regions-africa-guinea-06-history-pl1",
+      "entity_id": "mory-kant",
+      "label": "Mory Kanté — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Mory Kanté"
+    },
+    {
+      "id": "regions-africa-guinea-06-history-pl2",
+      "entity_id": "guinea-senegambia",
+      "label": "Guinea & Senegambia — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Guinea & Senegambia"
+    },
+    {
+      "id": "regions-africa-guinea-06-history-pl3",
+      "label": "Guinea & Senegambia — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-africa-guinea-06-history-pl4",
+      "label": "Guinea & Senegambia — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Guinea & Senegambia rewards comparative study.",
+    "Focus: djembe tradition.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: Mande forms.",
+    "Dance: dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Guinea & Senegambia is a living tradition with regional accent.",
+    "Compared with Mali: shared heritage, distinct emphasis.",
+    "Transmission: djembe tradition."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Guinea",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Guinea",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "West African Roots",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Guinea",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "djembe tradition",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Guinea",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) djembe tradition\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) djembe tradition\n\n### Q2. Guinea & Senegambia rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Mali, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) kora, balafon, voice\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) kora, balafon, voice\n\n### Q5. Ensemble voices include:\n- A) djembe ensemble\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) djembe ensemble\n\n### Q6. Tune and song forms include:\n- A) Mande forms\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) Mande forms\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) djembe tradition\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) djembe tradition\n\n### Q9. Contemporary scenes include:\n- A) festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Guinea percussion repertoire\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Guinea percussion repertoire\n\n### Q12. The Compared with Mali section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "djembe ensemble",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mande forms",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "djembe tradition",
+          "correct": true
+        }
+      ],
+      "explain": ") djembe tradition"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Guinea & Senegambia rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Guinea percussion repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Mande forms",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Mali, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Guinea percussion repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "kora, balafon, voice",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Guinea percussion repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") kora, balafon, voice"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "djembe ensemble",
+          "correct": true
+        }
+      ],
+      "explain": ") djembe ensemble"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mande forms",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") Mande forms"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "djembe tradition",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": ") djembe tradition"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "festivals",
+          "correct": true
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Guinea percussion repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Guinea percussion repertoire",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": ") Guinea percussion repertoire"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Mali section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-africa-guinea-06-history-quiz",
+    "title": "Guinea & Senegambia — History, Revival, and Transmission quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "djembe ensemble",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mande forms",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "djembe tradition",
+            "correct": true
+          }
+        ],
+        "explain": ") djembe tradition"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Guinea & Senegambia rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Guinea percussion repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mande forms",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Mali, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Guinea percussion repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "kora, balafon, voice",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Guinea percussion repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") kora, balafon, voice"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "djembe ensemble",
+            "correct": true
+          }
+        ],
+        "explain": ") djembe ensemble"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mande forms",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") Mande forms"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "djembe tradition",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": ") djembe tradition"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "festivals",
+            "correct": true
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Guinea percussion repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Guinea percussion repertoire",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": ") Guinea percussion repertoire"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Mali section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

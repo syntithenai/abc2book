@@ -1,145 +1,1031 @@
 {
   "regions-celtic-wales-01-overview": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "eisteddfod",
+        "type": "organization",
+        "name": "National Eisteddfod of Wales",
+        "summary": "Annual competitive festival of Welsh poetry, music, and performance",
+        "blurb": "The National Eisteddfod moves between north and south Wales each year, anchoring competitive folk harp, song, and bardic culture.",
+        "url": "https://eisteddfod.wales/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Crowndd_beirdd_Ynys_Prydain.jpg?width=320"
+      },
+      {
+        "id": "triple-harp",
+        "type": "instrument",
+        "name": "Welsh triple harp",
+        "summary": "Three-row chromatic folk harp — Wales's signature traditional instrument",
+        "blurb": "The telyn deires is played with fingernails and underpins penillion singing and eisteddfod repertoire.",
+        "url": "https://en.wikipedia.org/wiki/Welsh_triple_harp",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      },
+      {
+        "id": "penillion",
+        "type": "genre",
+        "name": "Penillion",
+        "summary": "Welsh counter-melody singing over a fixed harp tune",
+        "blurb": "Canu penillion requires strict rhythmic fit between verse and harp alaw — a distinctive vocal art.",
+        "url": "https://en.wikipedia.org/wiki/Penillion",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      },
+      {
+        "id": "male-voice-choir",
+        "type": "ensemble",
+        "name": "Welsh male voice choir",
+        "summary": "Choral tradition rooted in industrial south chapel culture",
+        "blurb": "Male voice choirs from valleys like Rhondda export hymn hwyl worldwide.",
+        "url": "https://en.wikipedia.org/wiki/Male_voice_choirs_of_Wales",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Treorchy_Male_Voice_Choir.jpg?width=320"
+      },
+      {
+        "id": "bob-delyn",
+        "type": "band",
+        "name": "Bob Delyn a'r Ebillion",
+        "summary": "Welsh folk-rock band fronted by Chief Bard Twm Morys",
+        "blurb": "Formed 1988; blends trad tunes with rock, reggae, and country in Welsh and Breton.",
+        "url": "https://en.wikipedia.org/wiki/Bob_Delyn_a%27r_Ebillion",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "triple-harp-demo",
+        "entity_id": "triple-harp",
+        "label": "Welsh triple harp performance",
+        "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+      },
+      {
+        "id": "eisteddfod-folk",
+        "entity_id": "eisteddfod",
+        "label": "National Eisteddfod folk music",
+        "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s"
+      },
+      {
+        "id": "penillion-sample",
+        "entity_id": "penillion",
+        "label": "Penillion singing with harp",
+        "youtube": "https://www.youtube.com/watch?v=0vxCFIGCqnE"
+      },
+      {
+        "id": "cwm-rhondda-choir",
+        "entity_id": "male-voice-choir",
+        "label": "Cwm Rhondda — male voice choir",
+        "youtube": "https://www.youtube.com/watch?v=hwlbKJECe9U"
+      },
+      {
+        "id": "welsh-folk-dance",
+        "label": "Welsh folk dancing",
+        "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+      }
+    ],
     "key_points": [
-      "Welsh Traditional Music rewards comparative study with Ireland.",
-      "Focus: Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora..",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Welsh trad combines dance tunes, harp, penillion, hymnody, and choral culture — not pub session culture alone.",
+      "The eisteddfod is the prestige competitive frame; twmpathau and folk clubs are the social dance hearth.",
+      "The triple harp (telyn deires) is Wales's signature melody instrument.",
+      "Bilingual Welsh–English repertoire is everyday musical life.",
+      "Penillion counter-melody and chapel hymnody distinguish Wales from Irish session emphasis.",
+      "Compared with Ireland: shared Celtic family, distinct institutions and vocal traditions."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "The Harp and the Dragon",
+        "author": "Phyllis Kinney",
+        "note": "Survey of Welsh harp tradition"
+      },
+      {
+        "type": "book",
+        "title": "Music in Welsh Culture Before 1650",
+        "author": "Sally Harper",
+        "note": "Historical orientation"
+      },
+      {
         "type": "link",
-        "title": "Welsh Traditional Music — Overview — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Music of Wales — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Wales",
+        "note": "Orientation overview"
+      },
+      {
+        "type": "link",
+        "title": "Trac Cymru",
+        "url": "https://trac-cymru.org/",
+        "note": "Folk development, events, touring"
+      },
+      {
+        "type": "link",
+        "title": "National Eisteddfod of Wales",
+        "url": "https://eisteddfod.wales/",
+        "note": "Competition and festival culture"
+      },
+      {
+        "type": "book",
+        "title": "Welsh Folk Customs",
+        "author": "Trefor M. Owen",
+        "note": "Eisteddfod and community context"
+      },
+      {
+        "type": "link",
+        "title": "Trac Cymru",
+        "url": "https://www.trac-cymru.org/",
+        "note": "Folk development organisation"
+      },
+      {
+        "type": "book",
+        "title": "The Welsh Language",
+        "author": "Janet Davies",
+        "note": "Bilingual culture context"
+      },
+      {
+        "type": "link",
+        "title": "S4C",
+        "url": "https://www.s4c.cymru/",
+        "note": "Welsh-language media"
       }
     ]
   },
   "regions-celtic-wales-02-instruments-voices-i": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "triple-harp",
+        "type": "instrument",
+        "name": "Welsh triple harp",
+        "summary": "Three-row chromatic folk harp",
+        "blurb": "National instrument; eisteddfod and penillion centrepiece.",
+        "url": "https://en.wikipedia.org/wiki/Welsh_triple_harp",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      },
+      {
+        "id": "pibgorn",
+        "type": "instrument",
+        "name": "Pibgorn",
+        "summary": "Ancient Welsh single-reed pipe",
+        "blurb": "Revived from historical sources; pastoral tone for airs and research ensembles.",
+        "url": "https://en.wikipedia.org/wiki/Pibgorn",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Pibgorn.jpg?width=320"
+      },
+      {
+        "id": "crwth",
+        "type": "instrument",
+        "name": "Crwth",
+        "summary": "Historical Welsh bowed lyre",
+        "blurb": "Medieval professional instrument; museum and revival performance.",
+        "url": "https://en.wikipedia.org/wiki/Crwth",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Crwth.jpg?width=320"
+      },
+      {
+        "id": "nansi-richards",
+        "type": "artist",
+        "name": "Nansi Richards",
+        "summary": "Triple harpist known as Queen of the Harp",
+        "blurb": "1888–1979; bridged chapel, eisteddfod, and folk revival repertoire on telyn deires.",
+        "url": "https://en.wikipedia.org/wiki/Nansi_Richards",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320",
+        "years": "1888–1979",
+        "region": "Wales"
+      },
+      {
+        "id": "llio-rhydderch",
+        "type": "artist",
+        "name": "Llio Rhydderch",
+        "summary": "Contemporary triple harpist and composer",
+        "blurb": "Performs penillion, folk sets, and new works on historical and modern harps.",
+        "years": "1974–",
+        "region": "Wales",
+        "url": "https://en.wikipedia.org/wiki/Llio_Rhydderch",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      },
+      {
+        "id": "elinor-bennett",
+        "type": "artist",
+        "name": "Elinor Bennett",
+        "summary": "Triple harpist and eisteddfod adjudicator",
+        "blurb": "Teacher and performer linking competition standards to folk club repertoire.",
+        "years": "1943–",
+        "region": "Wales",
+        "url": "https://en.wikipedia.org/wiki/Elinor_Bennett",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "nansi-richards-harp",
+        "entity_id": "nansi-richards",
+        "label": "Nansi Richards — triple harp",
+        "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+      },
+      {
+        "id": "llio-rhydderch",
+        "entity_id": "triple-harp",
+        "label": "Llio Rhydderch — harp and penillion",
+        "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s"
+      },
+      {
+        "id": "bragod-pibgorn",
+        "entity_id": "pibgorn",
+        "label": "Bragod — early Welsh music",
+        "youtube": "https://www.youtube.com/watch?v=0vxCFIGCqnE"
+      },
+      {
+        "id": "welsh-fiddle-twmpath",
+        "label": "Welsh fiddle at folk event",
+        "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+      },
+      {
+        "id": "nansi-harp",
+        "entity_id": "nansi-richards",
+        "label": "Nansi Richards — triple harp",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      },
+      {
+        "id": "elinor-harp",
+        "entity_id": "elinor-bennett",
+        "label": "Elinor Bennett triple harp",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
     "key_points": [
-      "Welsh Traditional Music rewards comparative study with Ireland.",
-      "Focus: fiddle, triple harp, pibgorn, and crwth in historical context.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Triple harp is Wales's primary traditional melody instrument and penillion partner.",
+      "Fiddle drives twmpath and folk-club dance sets.",
+      "Pibgorn and crwth are ancient voices revived through scholarship.",
+      "Nansi Richards embodied twentieth-century harp national identity.",
+      "Eisteddfod shapes harp standards; twmpath shapes fiddle dance rhythm.",
+      "Compared with Ireland: harp over uilleann pipes; shared fiddle ornament vocabulary."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "The Harp and the Dragon",
+        "author": "Phyllis Kinney",
+        "note": "Welsh harp history"
+      },
+      {
         "type": "link",
-        "title": "Welsh Traditional Instruments — Traditional Voices I — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Welsh triple harp — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Welsh_triple_harp",
+        "note": "Instrument overview"
+      },
+      {
+        "type": "link",
+        "title": "Pibgorn — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pibgorn",
+        "note": "Historical pipe revival"
+      },
+      {
+        "type": "link",
+        "title": "Crwth — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Crwth",
+        "note": "Bowed lyre context"
+      },
+      {
+        "type": "book",
+        "title": "The Triple Harp",
+        "author": "Ann Griffiths",
+        "note": "Technique and penillion context"
+      },
+      {
+        "type": "link",
+        "title": "Nansi Richards biography",
+        "url": "https://en.wikipedia.org/wiki/Nansi_Richards",
+        "note": "Queen of the Harp legacy"
+      },
+      {
+        "type": "link",
+        "title": "Ceredigion Museum — crwth",
+        "url": "https://www.ceredigionmuseum.wales/",
+        "note": "Historic instrument displays"
       }
     ]
   },
   "regions-celtic-wales-03-instruments-voices-ii": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "bob-delyn",
+        "type": "band",
+        "name": "Bob Delyn a'r Ebillion",
+        "summary": "Welsh folk-rock ensemble",
+        "blurb": "Fiddle, harp, guitar, bass, drums — festival and Sain label releases.",
+        "url": "https://en.wikipedia.org/wiki/Bob_Delyn_a%27r_Ebillion",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=320"
+      },
+      {
+        "id": "twmpath",
+        "type": "event",
+        "name": "Twmpath",
+        "summary": "Welsh folk dance party with live band and caller",
+        "blurb": "Fiddle, accordion, and guitar drive social dance in village halls.",
+        "url": "https://en.wikipedia.org/wiki/Twmpath",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=320"
+      },
+      {
+        "id": "sain",
+        "type": "organization",
+        "name": "Sain",
+        "summary": "Welsh record label founded 1969",
+        "blurb": "Documented 1970s revival and folk-rock crossover.",
+        "url": "https://en.wikipedia.org/wiki/Sain_(record_label)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "bob-delyn-live",
+        "entity_id": "bob-delyn",
+        "label": "Bob Delyn a'r Ebillion — live",
+        "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+      },
+      {
+        "id": "twmpath-band",
+        "entity_id": "twmpath",
+        "label": "Welsh twmpath dance band",
+        "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s"
+      },
+      {
+        "id": "accordion-folk-wales",
+        "label": "Accordion at Welsh folk gathering",
+        "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+      },
+      {
+        "id": "folk-club-guitar",
+        "label": "Welsh folk song with guitar",
+        "youtube": "https://www.youtube.com/watch?v=0vxCFIGCqnE"
+      }
+    ],
     "key_points": [
-      "Welsh Traditional Music rewards comparative study with Ireland.",
-      "Focus: guitar, accordion, and contemporary folk ensemble voices.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Accordion is central to twmpath dance bands — melody and bass-chord drive.",
+      "Guitar provides harmonic backing shaped by chapel harmony traditions.",
+      "Welsh ensemble culture is dance- and folk-club-programmed.",
+      "Bob Delyn represents contemporary folk-rock festival ensembles.",
+      "Compared with Ireland: no bodhrán centrality; guitar over bouzouki canon.",
+      "Sain label supports revival recording infrastructure."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Welsh Traditional Instruments — Session Voices II — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Bob Delyn a'r Ebillion — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bob_Delyn_a%27r_Ebillion",
+        "note": "Folk-rock ensemble context"
+      },
+      {
+        "type": "link",
+        "title": "Twmpath — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Twmpath",
+        "note": "Social dance event"
+      },
+      {
+        "type": "link",
+        "title": "Sain record label — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sain_(record_label)",
+        "note": "Revival recordings"
+      },
+      {
+        "type": "link",
+        "title": "Trac Cymru — folk clubs",
+        "url": "https://trac-cymru.org/",
+        "note": "Club listings and resources"
+      },
+      {
+        "type": "link",
+        "title": "Calan — band profile",
+        "url": "https://en.wikipedia.org/wiki/Calan_(band)",
+        "note": "Contemporary Welsh folk ensemble"
+      },
+      {
+        "type": "link",
+        "title": "Folk Wales",
+        "url": "https://www.folkwales.org.uk/",
+        "note": "Gigs and resources"
+      },
+      {
+        "type": "book",
+        "title": "Folk Music of Wales",
+        "author": "Phyllis Kinney",
+        "note": "Historical survey"
       }
     ]
   },
   "regions-celtic-wales-04-genres-forms": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "penillion",
+        "type": "genre",
+        "name": "Penillion",
+        "summary": "Counter-melody singing over harp tune",
+        "blurb": "Strict bar-fit verse over fixed alaw.",
+        "url": "https://en.wikipedia.org/wiki/Penillion",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      },
+      {
+        "id": "plygi",
+        "type": "genre",
+        "name": "Plygi",
+        "summary": "Welsh folk dance form related to hornpipe repertoire",
+        "blurb": "Swinging 4/4 dance at twmpathau with called figures.",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Wales",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=320"
+      },
+      {
+        "id": "male-voice-choir",
+        "type": "ensemble",
+        "name": "Welsh male voice choir",
+        "summary": "Chapel-rooted choral tradition",
+        "blurb": "Hymn tune repertoire and hwyl at scale.",
+        "url": "https://en.wikipedia.org/wiki/Male_voice_choirs_of_Wales",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Treorchy_Male_Voice_Choir.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "penillion-harp",
+        "entity_id": "penillion",
+        "label": "Penillion with triple harp",
+        "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s"
+      },
+      {
+        "id": "hornpipe-wales",
+        "label": "Welsh hornpipe dance tune",
+        "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+      },
+      {
+        "id": "cwm-rhondda",
+        "entity_id": "male-voice-choir",
+        "label": "Cwm Rhondda hymn tune",
+        "youtube": "https://www.youtube.com/watch?v=hwlbKJECe9U"
+      },
+      {
+        "id": "waltz-twmpath",
+        "label": "Welsh folk waltz",
+        "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+      }
+    ],
     "key_points": [
-      "Welsh Traditional Music rewards comparative study with Ireland.",
-      "Focus: plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Plygi is a Welsh dance form with hornpipe-family pulse.",
+      "Hornpipes and waltzes are core twmpath repertoire.",
+      "Hymn tunes are a Welsh genre category shaped by chapel culture.",
+      "Penillion requires strict rhythmic fit over fixed harp tunes.",
+      "Hwyl marks communal vocal lift in hymn and folk song.",
+      "Compared with Ireland: less reel-jig dominance; more hymn and penillion weight."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Alawon Fy Ngwlad",
+        "author": "Nicholas Bennett",
+        "note": "Classic 1896 tune collection"
+      },
+      {
+        "type": "book",
+        "title": "Welsh Traditional Music",
+        "author": "Phyllis Kinney",
+        "note": "Genre survey"
+      },
+      {
         "type": "link",
-        "title": "Welsh Traditional Music — Tunes, Forms, and Style — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Penillion — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Penillion",
+        "note": "Vocal form overview"
+      },
+      {
+        "type": "link",
+        "title": "Cymdeithas Alawon Gwerin Cymru",
+        "url": "https://alawon-gwerin.cymru/",
+        "note": "Welsh Folk Song Society"
+      },
+      {
+        "type": "book",
+        "title": "Welsh Folk Songs",
+        "author": "Phyllis Kinney",
+        "note": "Song and hymn tune context"
+      },
+      {
+        "type": "link",
+        "title": "Penillion singing",
+        "url": "https://en.wikipedia.org/wiki/Penillion",
+        "note": "Counter-melody tradition"
+      },
+      {
+        "type": "link",
+        "title": "Plygi — Welsh hornpipe",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Wales",
+        "note": "Regional dance forms"
       }
     ]
   },
   "regions-celtic-wales-05-dance": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "twmpath",
+        "type": "event",
+        "name": "Twmpath",
+        "summary": "Welsh folk dance party with band and caller",
+        "blurb": "Dance-first social event in halls and festivals.",
+        "url": "https://en.wikipedia.org/wiki/Twmpath",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=320"
+      },
+      {
+        "id": "trac-cymru",
+        "type": "organization",
+        "name": "Trac Cymru",
+        "summary": "Welsh folk development organisation",
+        "blurb": "Supports twmpath listings, touring, and dance workshops.",
+        "url": "https://trac-cymru.org/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "twmpath-dancing",
+        "entity_id": "twmpath",
+        "label": "Welsh twmpath dancing",
+        "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+      },
+      {
+        "id": "clog-dance-wales",
+        "label": "Welsh clog dancing",
+        "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s"
+      },
+      {
+        "id": "cymanfa-hwyl",
+        "label": "Cymanfa Ganu — communal hymn singing",
+        "youtube": "https://www.youtube.com/watch?v=hwlbKJECe9U"
+      },
+      {
+        "id": "folk-dance-cardiff",
+        "label": "Welsh folk dance Cardiff",
+        "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+      }
+    ],
     "key_points": [
-      "Welsh Traditional Music rewards comparative study with Ireland.",
-      "Focus: twmpath dances, clog stepping, and hwyl in communal singing.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Twmpath is the core Welsh social dance event — band plus caller.",
+      "Clog stepping provides percussive rhythm with hornpipes and plygi.",
+      "Hwyl names communal vocal surge in hymn and folk contexts.",
+      "Musicians must match dance tempo and leave space for feet.",
+      "Bilingual calling is normal at twmpathau.",
+      "Compared with Ireland: twmpath/caller versus céilí/set dance models."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Welsh Traditional Music — Dance and Rhythm — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Twmpath — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Twmpath",
+        "note": "Dance party overview"
+      },
+      {
+        "type": "link",
+        "title": "Welsh dance — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Welsh_dance",
+        "note": "Dance forms survey"
+      },
+      {
+        "type": "link",
+        "title": "Trac Cymru — events",
+        "url": "https://trac-cymru.org/",
+        "note": "Twmpath and workshop calendar"
+      },
+      {
+        "type": "book",
+        "title": "Welsh Folk Dance",
+        "author": "Roy Dommett",
+        "note": "Twmpath figures"
+      },
+      {
+        "type": "link",
+        "title": "Clog dancing Wales",
+        "url": "https://www.trac-cymru.org/",
+        "note": "Trac Cymru dance notes"
+      },
+      {
+        "type": "link",
+        "title": "National Eisteddfod dance",
+        "url": "https://eisteddfod.wales/",
+        "note": "Competition context"
       }
     ]
   },
   "regions-celtic-wales-06-history": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "chapel",
+        "type": "institution",
+        "name": "Welsh Nonconformist chapel",
+        "summary": "Centre of hymnody and choral training",
+        "blurb": "Chapel culture shaped harmony literacy and male voice choirs.",
+        "url": "https://en.wikipedia.org/wiki/Religion_in_Wales",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Treorchy_Male_Voice_Choir.jpg?width=320"
+      },
+      {
+        "id": "sain",
+        "type": "organization",
+        "name": "Sain",
+        "summary": "Welsh record label founded 1969",
+        "blurb": "Key infrastructure for 1970s folk revival recordings.",
+        "url": "https://en.wikipedia.org/wiki/Sain_(record_label)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      },
+      {
+        "id": "eisteddfod",
+        "type": "organization",
+        "name": "National Eisteddfod of Wales",
+        "summary": "Competitive transmission institution",
+        "blurb": "Teaching pipeline for harp, song, and folk performance.",
+        "url": "https://eisteddfod.wales/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Crowndd_beirdd_Ynys_Prydain.jpg?width=320"
+      },
+      {
+        "id": "nicholas-bennett",
+        "type": "person",
+        "name": "Nicholas Bennett",
+        "summary": "Collector of Alawon Fy Ngwlad (1896)",
+        "blurb": "Printed oral repertoire for national audience.",
+        "url": "https://en.wikipedia.org/wiki/Nicholas_Bennett_(historian)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "cwm-rhondda-history",
+        "entity_id": "chapel",
+        "label": "Cwm Rhondda — chapel hymn tradition",
+        "youtube": "https://www.youtube.com/watch?v=hwlbKJECe9U"
+      },
+      {
+        "id": "sain-revival",
+        "entity_id": "sain",
+        "label": "1970s Welsh language pop — Sain era",
+        "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+      },
+      {
+        "id": "eisteddfod-history",
+        "entity_id": "eisteddfod",
+        "label": "National Eisteddfod ceremony",
+        "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s"
+      },
+      {
+        "id": "industrial-wales-choir",
+        "label": "South Wales male voice choir",
+        "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+      }
+    ],
     "key_points": [
-      "Welsh Traditional Music rewards comparative study with Ireland.",
-      "Focus: chapel influence, industrial south Wales, and the 1970s folk revival.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Chapel hymnody trained Wales in harmony and communal singing.",
+      "Industrial south concentrated choirs and bilingual musical life.",
+      "Nicholas Bennett's Alawon Fy Ngwlad (1896) printed oral repertoire.",
+      "1970s revival linked folk clubs, Sain label, and language activism.",
+      "Eisteddfod remains major teaching and prestige channel.",
+      "Compared with Ireland: chapel over Gaeltacht; eisteddfod over Comhaltas monoculture."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Hope and Heartbreak: A Social History of Wales and the Welsh, 1776–1871",
+        "author": "Russell Davies",
+        "note": "Industrial and social context"
+      },
+      {
+        "type": "book",
+        "title": "The Harp and the Dragon",
+        "author": "Phyllis Kinney",
+        "note": "Harp transmission history"
+      },
+      {
         "type": "link",
-        "title": "Welsh Traditional Music — History, Revival, and Transmission — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Sain record label — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sain_(record_label)",
+        "note": "Revival recording infrastructure"
+      },
+      {
+        "type": "link",
+        "title": "St Fagans National Museum of History",
+        "url": "https://museum.wales/st-fagans/",
+        "note": "Instrument and field recording archives"
+      },
+      {
+        "type": "book",
+        "title": "Hymns and the Amusement of the People",
+        "author": "Phyllis Kinney",
+        "note": "Chapel influence"
+      },
+      {
+        "type": "link",
+        "title": "Welsh Folk Song Society",
+        "url": "https://www.wfss-wscc.cymru/",
+        "note": "Collecting society"
+      },
+      {
+        "type": "link",
+        "title": "Industrial south Wales song",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Wales",
+        "note": "Labour and chapel history"
       }
     ]
   },
   "regions-celtic-wales-07-representative-depth": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "bob-delyn",
+        "type": "band",
+        "name": "Bob Delyn a'r Ebillion",
+        "summary": "Welsh folk-rock band led by Twm Morys",
+        "blurb": "Bilingual lyrics and festival energy bridge twmpath and contemporary rock.",
+        "url": "https://en.wikipedia.org/wiki/Bob_Delyn_a%27r_Ebillion",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_music.jpg?width=320"
+      },
+      {
+        "id": "eisteddfod",
+        "type": "organization",
+        "name": "National Eisteddfod of Wales",
+        "summary": "Festival maes for folk and rock crossover",
+        "blurb": "Prestige stage launching folk careers.",
+        "url": "https://eisteddfod.wales/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Crowndd_beirdd_Ynys_Prydain.jpg?width=320"
+      },
+      {
+        "id": "trac-cymru",
+        "type": "organization",
+        "name": "Trac Cymru",
+        "summary": "Welsh folk awards and touring network",
+        "blurb": "Contemporary festival infrastructure.",
+        "url": "https://trac-cymru.org/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=320"
+      },
+      {
+        "id": "male-voice-choir",
+        "type": "ensemble",
+        "name": "Welsh male voice choir",
+        "summary": "Choral crossover with folk-hymn identity",
+        "blurb": "Stadium hwyl and diaspora export.",
+        "url": "https://en.wikipedia.org/wiki/Male_voice_choirs_of_Wales",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Treorchy_Male_Voice_Choir.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "bob-delyn-track",
+        "entity_id": "bob-delyn",
+        "label": "Bob Delyn a'r Ebillion",
+        "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+      },
+      {
+        "id": "eisteddfod-concert",
+        "entity_id": "eisteddfod",
+        "label": "Eisteddfod evening concert",
+        "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s"
+      },
+      {
+        "id": "treorchy-choir",
+        "entity_id": "male-voice-choir",
+        "label": "Treorchy Male Voice Choir",
+        "youtube": "https://www.youtube.com/watch?v=hwlbKJECe9U"
+      },
+      {
+        "id": "green-man-welsh",
+        "label": "Welsh act at folk festival",
+        "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+      },
+      {
+        "id": "bob-delyn-live",
+        "entity_id": "bob-delyn",
+        "label": "Bob Delyn a'r Ebillion live",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      }
+    ],
     "key_points": [
-      "Welsh Traditional Music rewards comparative study with Ireland.",
-      "Focus: Bob Delyn a'r Ebillion, festival culture, and choral crossover.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Bob Delyn a'r Ebillion anchor 1990s Welsh folk-rock with Twm Morys.",
+      "National Eisteddfod and folk festivals are dual prestige and popular stages.",
+      "Choral crossover links hymn hwyl and folk melody at mass scale.",
+      "Bilingual and Breton collaboration mark festival internationalism.",
+      "Trac Cymru and Sain sustain touring and recording.",
+      "Compared with Ireland: choral stadium culture over Riverdance spectacle."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Welsh Traditional Music — Representative Fusions and Scenes — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Bob Delyn a'r Ebillion — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bob_Delyn_a%27r_Ebillion",
+        "note": "Band history and discography"
+      },
+      {
+        "type": "link",
+        "title": "Twm Morys — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Twm_Morys",
+        "note": "Chief Bard and frontman context"
+      },
+      {
+        "type": "link",
+        "title": "National Eisteddfod",
+        "url": "https://eisteddfod.wales/",
+        "note": "Festival culture"
+      },
+      {
+        "type": "link",
+        "title": "Trac Cymru — Welsh Folk Awards",
+        "url": "https://trac-cymru.org/",
+        "note": "Contemporary scene"
+      },
+      {
+        "type": "album",
+        "title": "Y Cynffonau",
+        "author": "Bob Delyn a'r Ebillion",
+        "note": "Welsh folk-rock"
+      },
+      {
+        "type": "link",
+        "title": "Green Man Festival",
+        "url": "https://www.greenman.net/",
+        "note": "Welsh festival culture"
+      },
+      {
+        "type": "link",
+        "title": "Only Boys Aloud",
+        "url": "https://en.wikipedia.org/wiki/Only_Boys_Aloud",
+        "note": "Choral crossover"
       }
     ]
   },
   "regions-celtic-wales-08-tunes": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "ar-lan-y-mor",
+        "type": "tune",
+        "name": "Ar Lan y Môr",
+        "summary": "Beloved Welsh folk song and harp slow air",
+        "blurb": "Beside the Sea — gateway song for language and festival chorus.",
+        "url": "https://en.wikipedia.org/wiki/Ar_Lan_y_M%C3%B4r",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Llanddwyn_Island_-_geograph.org.uk_-_1713660.jpg?width=320"
+      },
+      {
+        "id": "cader-idris",
+        "type": "tune",
+        "name": "Cader Idris",
+        "summary": "Harp and fiddle dance standard",
+        "blurb": "Tune named for Snowdonia mountain; Bennett collection lineage.",
+        "url": "https://en.wikipedia.org/wiki/Cadair_Idris",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Cadair_Idris,_Snowdonia,_Wales_-_May_2009.jpg?width=320"
+      },
+      {
+        "id": "nansi-richards",
+        "type": "artist",
+        "name": "Nansi Richards",
+        "summary": "Triple harpist known as Queen of the Harp",
+        "blurb": "1888–1979; bridged chapel, eisteddfod, and folk revival repertoire on telyn deires.",
+        "url": "https://en.wikipedia.org/wiki/Nansi_Richards",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320",
+        "years": "1888–1979",
+        "region": "Wales"
+      },
+      {
+        "id": "triple-harp",
+        "type": "instrument",
+        "name": "Welsh triple harp",
+        "summary": "Primary instrument for slow airs and eisteddfod repertoire",
+        "blurb": "Ar Lan y Môr and Cader Idris harp settings.",
+        "url": "https://en.wikipedia.org/wiki/Welsh_triple_harp",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      },
+      {
+        "id": "dafydd-y-garreg-wen",
+        "type": "tune",
+        "name": "Dafydd y Garreg Wen",
+        "summary": "Welsh air associated with David Owen, the White Rock",
+        "blurb": "Beloved slow air on harp and fiddle; eisteddfod and folk club staple.",
+        "url": "https://en.wikipedia.org/wiki/Dafydd_y_Garreg_Wen",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "ar-lan-y-mor-song",
+        "entity_id": "ar-lan-y-mor",
+        "label": "Ar Lan y Môr — folk song",
+        "youtube": "https://www.youtube.com/watch?v=0vxCFIGCqnE"
+      },
+      {
+        "id": "ar-lan-y-mor-harp",
+        "entity_id": "triple-harp",
+        "label": "Ar Lan y Môr — harp air",
+        "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+      },
+      {
+        "id": "cader-idris-harp",
+        "entity_id": "cader-idris",
+        "label": "Cader Idris — harp",
+        "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s"
+      },
+      {
+        "id": "cader-idris-fiddle",
+        "label": "Cader Idris — fiddle",
+        "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+      },
+      {
+        "id": "nansi-richards-tune",
+        "entity_id": "nansi-richards",
+        "label": "Nansi Richards — harp recording",
+        "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+      }
+    ],
     "key_points": [
-      "Welsh Traditional Music rewards comparative study with Ireland.",
-      "Focus: Ar Lan y Môr, Cader Idris, and classic harp/fiddle recordings.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Ar Lan y Môr is a gateway Welsh song and harp slow air.",
+      "Cader Idris is a harp and fiddle standard linked to mountain identity.",
+      "Nansi Richards anchors harp recording history.",
+      "Nicholas Bennett's Alawon Fy Ngwlad is a key print source.",
+      "Compare eisteddfod and twmpath readings for accent.",
+      "Compared with Ireland: song-air centrality over session reel standards."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Alawon Fy Ngwlad",
+        "author": "Nicholas Bennett",
+        "note": "1896 tune collection including Cader Idris lineage"
+      },
+      {
         "type": "link",
-        "title": "Welsh Traditional Music — Tunes — Forms, History, and Recordings — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Ar Lan y Môr — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ar_Lan_y_M%C3%B4r",
+        "note": "Song history"
+      },
+      {
+        "type": "link",
+        "title": "Cadair Idris — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cadair_Idris",
+        "note": "Mountain and tune name"
+      },
+      {
+        "type": "link",
+        "title": "Cymdeithas Alawon Gwerin Cymru",
+        "url": "https://alawon-gwerin.cymru/",
+        "note": "Tune book supplements"
+      },
+      {
+        "type": "link",
+        "title": "Ar Lan y Môr — song history",
+        "url": "https://en.wikipedia.org/wiki/Ar_Lan_y_M%C3%B4r",
+        "note": "Welsh folk standard"
+      },
+      {
+        "type": "link",
+        "title": "Cader Idris — tune background",
+        "url": "https://en.wikipedia.org/wiki/Cadair_Idris",
+        "note": "Mountain namesake tune"
+      },
+      {
+        "type": "link",
+        "title": "Dafydd y Garreg Wen",
+        "url": "https://en.wikipedia.org/wiki/Dafydd_y_Garreg_Wen",
+        "note": "Classic Welsh air"
+      },
+      {
+        "type": "book",
+        "title": "Alawon Gwerin Cymru",
+        "author": "Nicholas Bennett",
+        "note": "Historic tune collection"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "ar-lan-y-mor",
+        "type": "tune",
+        "name": "Ar Lan y Môr",
+        "form": "waltz / song air",
+        "reference": "Welsh folk song standard",
+        "about": "Seaside song — harp and penillion settings.",
+        "made_famous_by": [
+          "nansi-richards"
+        ],
+        "playlist": [
+          {
+            "entity_id": "nansi-richards",
+            "label": "Harp setting",
+            "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+          }
+        ]
+      },
+      {
+        "id": "cader-idris",
+        "type": "tune",
+        "name": "Cader Idris",
+        "form": "air / march",
+        "reference": "North Wales landscape tune",
+        "about": "Eisteddfod and folk club favourite.",
+        "playlist": [
+          {
+            "label": "Fiddle and harp",
+            "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+          }
+        ]
+      },
+      {
+        "id": "dafydd-y-garreg-wen",
+        "type": "tune",
+        "name": "Dafydd y Garreg Wen",
+        "form": "slow air",
+        "reference": "David Owen legend; Welsh air classic",
+        "about": "Slow air on harp and fiddle — eisteddfod staple.",
+        "playlist": [
+          {
+            "label": "Triple harp air",
+            "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+          }
+        ]
       }
     ]
   }

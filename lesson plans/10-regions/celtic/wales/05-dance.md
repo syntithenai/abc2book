@@ -6,139 +6,198 @@ region: wales
 tier: 5
 difficulty: 7
 prerequisites: ["regions-celtic-wales-04-genres-forms"]
+sources: ["Twmpath", "Welsh dance", "Clog dancing", "Hwyl", "Music of Wales", "Folk dance"]
 status: manual
-sources: ["Celtic music", "Music of Wales"]
 ---
 
 # Welsh Traditional Music — Dance and Rhythm
 
-**Track:** Celtic Music | **Region:** wales | **Tier:** 5
+**Track:** regions | **Tier:** 5 | **Difficulty:** 7/10
 **Prerequisites:** regions-celtic-wales-04-genres-forms
+**Tags:** wales, twmpath, clog, hwyl, dance, caller, folk-club
 
 ## Overview
 
-Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.
+This lesson connects **feet, floor, and pulse** in Welsh traditional music. Where Ireland's dance lesson maps céilí, set, and step dance, Wales centres **twmpath** social dance, **clog** (*clocsio*) stepping, and **hwyl** — the surging communal energy of group singing that dancers and musicians share at hymn festivals and folk nights alike.
 
-This lesson focuses on **twmpath dances, clog stepping, and hwyl in communal singing** within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.
+Dance is not decoration on top of tunes — it is **why** many melodies survive. A hornpipe played too fast for figures fails the room; a waltz without lift empties the floor. Learn rhythm from dancers' shoes as much as from metronomes.
 
 ## Compared with Ireland
 
-Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.
+Irish dance lesson (`regions-celtic-ireland-05-dance`) emphasises **céilí figures, set dancing, and competitive step dance** (Riverdance lineage). Welsh dance emphasises **twmpath called dances**, **clog percussion**, and **hwyl** in communal song — less global step-dance spectacle, more village-hall social function.
 
-**Parallel Ireland lesson:** `regions-celtic-ireland-05-dance` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.
+| Element | Ireland | Wales |
+|---------|---------|-------|
+| Social dance event | Céilí, house dance | **Twmpath** |
+| Percussive feet | Hard/soft shoe step | **Clog** stepping |
+| Vocal communal lift | Pub singalong, lilting | **Hwyl** in hymn and folk song |
+| Instruction | Dance masters, classes | **Caller** at twmpath |
 
-## Core material
+**Parallel Ireland lesson:** `regions-celtic-ireland-05-dance` — compare called group dance with set-dancing revival.
 
-Twmpath dances, clog stepping, and hwyl in communal singing in wales trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic "Celtic" compilations when possible.
+---
 
-### Listening and study habits
+## Twmpath: the Welsh folk dance party
 
-1. Identify one field recording and one modern ensemble track mentioned or implied in this lesson's topic.
-2. Note the metre and dance association of at least two tune types discussed.
-3. Compare session or social-dance etiquette with what you learned from Irish trad.
-4. Follow the unit playlist entries in lesson metadata when available.
+A **twmpath** (plural *twmpathau*) is a live-band social dance — fiddle, accordion, guitar, sometimes harp — with a **caller** (*galwr*) teaching or reminding figures. The word suggests a **hump** or rounded gathering; in practice it means **community dance night** in hall, pub back room, or festival tent.
+
+### How a twmpath works
+
+1. Band tunes up; caller welcomes dancers in Welsh, English, or both.
+2. **Circle dances**, **couple dances**, and **set figures** are taught briefly on the floor.
+3. Sets chain **hornpipes**, **plygi**, and **waltzes** — form matches dance.
+4. Breaks allow **clog** demonstrations or **penillion** sets.
+5. Night ends with communal song or hymn fragment — **hwyl** optional but common.
+
+[[entity:twmpath]] culture is strongest in **mid and south Wales** folk club networks; **Trac Cymru** and local societies organise annual twmpathau and workshops.
+
+### Etiquette for musicians
+
+- **Match caller tempo** — do not race ahead of teaching.
+- **Signal set changes** with eye contact; abrupt key jumps strand dancers.
+- **Leave space** for clog percussion — do not drown foot rhythm with accordion volume.
+- **Bilingual announcements** are normal; respect both languages.
+
+![Welsh folk dancing](https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=640)
+
+**Memorable detail:** A twmpath is **dance-first** — unlike an Irish pub session where sitting musicians may never see feet.
+
+---
+
+## Clog dancing (clocsio)
+
+**Clog** dancing in Wales uses **hard leather soles** (or wooden clogs historically) to strike rhythm on wooden floors — related to English clog and Appalachian flatfooting but with **Welsh figure traditions** and revival choreography from teachers like **Patricia Thomas** and folk dance societies.
+
+### Rhythm and musical partnership
+
+Clog dancers are **percussionists**: heel-toe patterns accent hornpipe offbeats and waltz downbeats. At twmpathau, a **clog solo** between sets is applause moment — band must hold tempo steady. Musicians who ignore foot rhythm play **at** dancers, not **with** them.
+
+### Revival and teaching
+
+Twentieth-century **folk dance revival** standardised some figures for festivals and schools; older regional variants survive in oral teaching. Urdd and school programmes occasionally teach simplified folk dance — pipeline for future twmpath dancers.
+
+---
+
+## Hwyl in communal singing
+
+**Hwyl** (approximate meaning: fervour, passion, communal surge) describes the **emotional lift** when a room sings together — especially in **Cymanfa Ganu** hymn festivals and powerful folk club choruses. It is not a dance form but a **rhythmic-social** phenomenon dancers know: the same community that twmpath on Saturday may **hwyl** on Sunday.
+
+### Musical characteristics
+
+Hwyl manifests as **accelerando** of spirit rather than tempo — voices swell, harmonies tighten, conductors or song leaders **cue** entries. Male voice choirs (*côr meibion*) channel hwyl in competitive and concert settings. Folk bands invoke hwyl when audience joins *Ar Lan y Môr* or *Cwm Rhondda* refrains.
+
+**Memorable detail:** Hwyl is why Welsh choral culture appears in a **dance** lesson — feet and voices share communal pulse.
+
+![Male voice choir hwyl](https://en.wikipedia.org/wiki/Special:FilePath/Treorchy_Male_Voice_Choir.jpg?width=640)
+
+---
+
+## Dance forms and tune pairing
+
+| Dance context | Typical tune forms | Band voices |
+|---------------|-------------------|-------------|
+| Circle hornpipe | Hornpipe, plygi | Fiddle + accordion lead |
+| Couple waltz | Waltz 3/4 | Guitar chords, accordion melody |
+| Clog solo | Hornpipe or plygi | Steady tempo; dynamic space |
+| Processional | March or slow air | Harp optional |
+
+Callers name figures in **Welsh** (*dos i'r chwith*, *circle left*) and **English**; musicians need not speak both but must **follow caller's count**.
+
+---
+
+## Festivals and transmission
+
+**National Eisteddfod** includes folk dance displays; **Urdd Eisteddfod** trains youth. **Interceltic Festival** (Lorient) and Welsh diaspora **St David's Day** events export twmpath culture. Dance teachers record choreography on video — modern oral transmission supplementing hall learning.
+
+Compared with Irish **feis** step competition, Welsh twmpath stays **social** rather than adjudicated — though eisteddfod folk dance categories exist for display teams.
 
 ## Key points
 
-- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.
-- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.
-- Twmpath dances, clog stepping, and hwyl in communal singing connects to dance, song, and community context—not isolated technique only.
-- Revival institutions, broadcasting, and festivals shape what learners hear today.
-- Use comparative study to hear specificity; avoid flattening everything under "Celtic" marketing.
+- **Twmpath** is the core Welsh social dance event — live band plus caller.
+- **Clog** stepping provides percussive rhythm partnering hornpipes and plygi.
+- **Hwyl** names communal vocal surge linking chapel, choir, and folk song to dance communities.
+- Musicians must match **dance tempo** and leave space for feet.
+- Compared with Ireland: twmpath/caller model versus céilí/set; clog versus competitive step.
+- Bilingual calling is normal at twmpathau.
 
 ## Reading list
 
-- Regional folk archive or national library listening guides (see lesson metadata links when present).
-- Companion to Irish unit readings for cross-border context (Fintan Vallely, *Companion to Irish Traditional Music*).
-- Wikipedia articles on Music of Wales as orientation, verified against recordings.
+- **Patricia Thomas** — Welsh folk dance teaching resources
+- Wikipedia — [Twmpath](https://en.wikipedia.org/wiki/Twmpath), [Welsh dance](https://en.wikipedia.org/wiki/Welsh_dance)
+- **Trac Cymru** — twmpath listings and dance workshop calendar
+- **Roy Dommett** — comparative Morris and British folk dance studies (context)
 
 ## Quiz Questions
 
-### Q1. Which description best fits the main social context emphasised in this lesson?
-- A) Concerto competitions only
-- B) Community dance and oral transmission
-- C) Strictly classical conservatory exams
-- D) Electronic dance clubs only
-**Answer:** B) Community dance and oral transmission
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+### Q1. A twmpath is:
 
-### Q2. This tradition is identical to Irish traditional music in repertoire and social context.
-- A) True
-- B) False
-**Answer:** B) False
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+- A) A Welsh folk dance party with live band and caller
+- B) A type of Irish uilleann pipe
+- C) A classical ballet exam only
+- D) An electronic music festival exclusively
 
-### Q3. Compared with Ireland, this unit stresses which additional emphasis?
-- A) No differences whatsoever
-- B) See Compared with Ireland section
-- C) Only classical opera
-- D) Only hip-hop production
-**Answer:** B) See Compared with Ireland section
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+**Answer:** A
 
-### Q4. A typical learner should prioritise:
-- A) Only reading generic textbooks
-- B) Listening to regional recordings before generic "Celtic" compilations
-- C) Memorising one tune only
-- D) Ignoring dance context
-**Answer:** B) Listening to regional recordings before generic "Celtic" compilations
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+### Q2. Clog dancing contributes:
 
-### Q5. Sessions, festivals, and archives all play roles in modern transmission.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+- A) Percussive foot rhythm on wooden floors
+- B) Harp tuning only
+- C) Opera staging exclusively
+- D) Silent meditation without pulse
 
-### Q6. Instrument focus in this lesson includes:
-- A) Only synthesizers
-- B) Voices named in the lesson introduction
-- C) Only orchestral brass
-- D) Only piano études
-**Answer:** B) Voices named in the lesson introduction
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+**Answer:** A
 
-### Q7. Dance rhythm topics in this lesson relate to:
-- A) Ballet syllabus only
-- B) Social dance forms discussed in the body
-- C) Marching band drill only
-- D) DJ beatmatching only
-**Answer:** B) Social dance forms discussed in the body
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+### Q3. Hwyl describes:
 
-### Q8. Revival movements and media broadcasting shaped twentieth-century practice.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+- A) Communal fervour and lift in group singing
+- B) A dotted hornpipe form in 7/8 only
+- C) A Breton bagpipe type only
+- D) Strictly solo unaccompanied dance
 
-### Q9. When studying tune forms, you should:
-- A) Ignore metre entirely
-- B) Connect metre and foot-tap feel to named dance types
-- C) Assume all tunes are 4/4 rock beats
-- D) Avoid learning by ear
-**Answer:** B) Connect metre and foot-tap feel to named dance types
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+**Answer:** A
 
-### Q10. Fusion and modern scenes discussed here:
-- A) Erase all earlier repertoire
-- B) Build on—not replace—living tradition
-- C) Ban all acoustic instruments
-- D) Eliminate festivals
-**Answer:** B) Build on—not replace—living tradition
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+### Q4. Twmpath musicians should:
 
-### Q11. The Compared with Ireland section highlights both shared heritage and national accent.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+- A) Match caller tempo and leave space for dancers' feet
+- B) Always play as fast as possible regardless of figures
+- C) Ignore the caller entirely
+- D) Switch to unrelated slow airs without warning during teaching
 
-### Q12. Best next step after this lesson:
-- A) Stop listening to recordings
-- B) Follow playlists and return to the paired Ireland lesson
-- C) Skip all prerequisites
-- D) Avoid comparative study
-**Answer:** B) Follow playlists and return to the paired Ireland lesson
-*Explanation grounded in Welsh Traditional Music — Dance and Rhythm.*
+**Answer:** A
 
+### Q5. Compared with Irish céilí culture, Welsh twmpath emphasises:
+
+- A) Called social dances in village halls with folk band
+- B) Only competitive hard-shoe adjudication
+- C) Orchestral ballet exclusively
+- D) Silent listening without movement
+
+**Answer:** A
+
+### Q6. Trac Cymru helps organise twmpath events.
+
+**Answer:** True
+
+### Q7. Clog dancers are irrelevant to hornpipe tempo at twmpath.
+
+**Answer:** False — foot rhythm partners the band.
+
+### Q8. Bilingual calling at twmpath is common.
+
+**Answer:** True
+
+### Q9. Hwyl appears only in electronic dance music.
+
+**Answer:** False — hwyl is associated with communal Welsh singing.
+
+### Q10. Plygi and hornpipe tunes are used at twmpath dances.
+
+**Answer:** True
+
+### Q11. Twmpath is identical to an Irish pub session with no dancing.
+
+**Answer:** False — twmpath is dance-first with caller.
+
+### Q12. Urdd Eisteddfod involves youth in Welsh cultural performance including dance.
+
+**Answer:** True

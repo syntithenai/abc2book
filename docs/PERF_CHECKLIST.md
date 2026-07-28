@@ -22,6 +22,25 @@ Use this checklist on a mid-range laptop after performance-related changes.
 2. Initial scan may take a few seconds but should not freeze the tab for more than ~3s at a time.
 3. Click Rescan — scan should restart immediately.
 
+## Large library — book filter (10,000 tunes)
+
+1. Dev seed: `await window.seedTunebook({ preset: '10k', replace: true })` or load with `?seed=10k`.
+2. Open Settings → Library — rebuild indexes; confirm tune count ~10k.
+3. Open `/tunes` with book filter **Perf Test** — list should update in under ~1s (candidate IDs, not full scan).
+4. Scroll compact list — virtualized scrolling stays smooth; pagination shows 200 tunes per page.
+5. Text filter with 3+ characters should narrow via search index without scanning all titles.
+
+## Large library — catalog mode (50,000 tunes, manual)
+
+1. Seed with `?seed=50k` (dev only); migrate via Settings → Library → Migrate to catalog storage.
+2. Enable catalog storage; reload — startup should not load all bodies into React state.
+3. Open a book — memory should stay bounded (check DevTools heap after scrolling several pages).
+
+## Duplicate manager (large library)
+
+1. With 1k+ tunes, Settings → Duplicates defaults to **current book only**.
+2. Toggle off to scan full library — UI should remain responsive (chunked scan).
+
 ## Single tune edit
 
 1. Edit and save one tune in a large library.

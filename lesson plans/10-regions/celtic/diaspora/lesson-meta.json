@@ -1,91 +1,621 @@
 {
   "regions-celtic-diaspora-01-cape-breton": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "buddy-macmaster",
+        "type": "person",
+        "name": "Buddy MacMaster",
+        "summary": "Influential Cape Breton fiddler and teacher",
+        "blurb": "Known as the Dean of Cape Breton Fiddle; broadcast and recorded widely from the mid-twentieth century.",
+        "url": "https://en.wikipedia.org/wiki/Buddy_MacMaster",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Buddy_MacMaster.jpg?width=320"
+      },
+      {
+        "id": "natalie-macmaster",
+        "type": "person",
+        "name": "Natalie MacMaster",
+        "summary": "Cape Breton fiddler with international touring career",
+        "blurb": "Extended Cape Breton fiddle reach through concerts, festivals, and collaborations.",
+        "url": "https://en.wikipedia.org/wiki/Natalie_MacMaster",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Natalie_MacMaster.jpg?width=320"
+      },
+      {
+        "id": "cape-breton-fiddlers-association",
+        "type": "organization",
+        "name": "Cape Breton Fiddlers' Association",
+        "summary": "Organisation supporting Cape Breton fiddle publishing and teaching",
+        "blurb": "Publishes tune collections and supports youth and festival culture on the island.",
+        "url": "https://en.wikipedia.org/wiki/Cape_Breton_fiddling",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Cape_Breton_fiddler.jpg?width=320"
+      },
+      {
+        "id": "celtic-colours",
+        "type": "organization",
+        "name": "Celtic Colours International Festival",
+        "summary": "Annual Cape Breton festival of Celtic music and culture",
+        "blurb": "October gathering linking island tradition with international artists and audiences.",
+        "url": "https://celtic-colours.com/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Celtic_Colours_International_Festival.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "buddy-macmaster-reel",
+        "entity_id": "buddy-macmaster",
+        "label": "Buddy MacMaster fiddle performance",
+        "youtube": "https://www.youtube.com/watch?v=0YqJYgJhZ5E"
+      },
+      {
+        "id": "natalie-step-dance",
+        "entity_id": "natalie-macmaster",
+        "label": "Natalie MacMaster with step dancers",
+        "youtube": "https://www.youtube.com/watch?v=wqJChP8dQ9E"
+      },
+      {
+        "id": "celtic-colours-square",
+        "entity_id": "celtic-colours",
+        "label": "Celtic Colours square dance set",
+        "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY"
+      },
+      {
+        "id": "cape-breton-cutting",
+        "entity_id": "cape-breton-fiddlers-association",
+        "label": "Cape Breton fiddle cutting demonstration",
+        "youtube": "https://www.youtube.com/watch?v=5r8x9sG0k8A"
+      }
+    ],
     "key_points": [
-      "Diaspora scenes remix Irish/Scottish roots.",
-      "Compare accents\u2014not only tune names.",
-      "Festivals link fringe regions to wider Celtic network.",
-      "Use Ireland unit as reference tradition.",
-      "Playlist study beats generic compilations."
+      "Cape Breton fiddle grew from Gaelic Scottish and Irish settlement in Nova Scotia.",
+      "Cut bowing, drones, and rhythmic lift serve step dancers and square sets.",
+      "Repertoire is Scottish-weighted with Irish and Acadian edges.",
+      "Compared with Ireland: shared tune families, different social stage (dance hall vs pub session).",
+      "Celtic Colours and the Fiddlers' Association sustain modern transmission."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "The Cape Breton Fiddler",
+        "author": "Sheila Johnson Hagerty & Pearl MacDonald",
+        "note": "Photographic and oral history classic"
+      },
+      {
         "type": "link",
-        "title": "Cape Breton Fiddle and Dance \u2014 orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Cape Breton fiddling — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cape_Breton_fiddling"
+      },
+      {
+        "type": "link",
+        "title": "Cape Breton step dancing — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cape_Breton_step_dancing"
+      },
+      {
+        "type": "book",
+        "title": "The Cape Breton Collection",
+        "author": "Allister MacGillivray",
+        "note": "Standard tune book for learners"
+      },
+      {
+        "type": "book",
+        "title": "The Cape Breton Fiddle Companion",
+        "author": "Sheldon MacInnes",
+        "note": "Fiddle and dance history"
+      },
+      {
+        "type": "link",
+        "title": "Celtic Colours Festival",
+        "url": "https://celtic-colours.com/",
+        "note": "Nova Scotia showcase"
+      },
+      {
+        "type": "link",
+        "title": "Cape Breton fiddle recordings",
+        "url": "https://www.capebretonfiddlers.com/",
+        "note": "Tune books"
       }
     ]
   },
   "regions-celtic-diaspora-02-galicia-asturias": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "gaita-galega",
+        "type": "instrument",
+        "name": "Gaita galega",
+        "summary": "Galician bagpipe with chanter and drones, often with percussion ensemble",
+        "blurb": "Leads outdoor dances, parades, and festival stages across Galicia.",
+        "url": "https://en.wikipedia.org/wiki/Gaita_galega",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gaita_galega.jpg?width=320"
+      },
+      {
+        "id": "luar-na-lubre",
+        "type": "ensemble",
+        "name": "Luar na Lubre",
+        "summary": "Galician folk ensemble blending traditional and modern sounds",
+        "blurb": "Pioneered international Galician Celtic folk from the 1980s onward.",
+        "url": "https://en.wikipedia.org/wiki/Luar_na_Lubre",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Luar_na_Lubre.jpg?width=320"
+      },
+      {
+        "id": "carlos-nunez",
+        "type": "artist",
+        "name": "Carlos Núñez",
+        "summary": "Galician gaita virtuoso and pan-Celtic collaborator",
+        "blurb": "Links Iberian Celtic networks to Irish and Breton festival circuits.",
+        "url": "https://en.wikipedia.org/wiki/Carlos_N%C3%BA%C3%B1ez",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gaita.jpg?width=320",
+        "years": "1971–",
+        "region": "Galicia"
+      },
+      {
+        "id": "festival-interceltique-lorient",
+        "type": "organization",
+        "name": "Festival Interceltique de Lorient",
+        "summary": "Major pan-Celtic festival in Brittany",
+        "blurb": "Regularly features Galician and Asturian stages alongside Irish and Breton programming.",
+        "url": "https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_Interceltique_de_Lorient_2012.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "carlos-nunez-piper",
+        "entity_id": "carlos-nunez",
+        "label": "Carlos Núñez gaita performance",
+        "youtube": "https://www.youtube.com/watch?v=0nF5K1d6d0Y"
+      },
+      {
+        "id": "luar-na-lubre-live",
+        "entity_id": "luar-na-lubre",
+        "label": "Luar na Lubre live set",
+        "youtube": "https://www.youtube.com/watch?v=HkZ1dZ7V0xE"
+      },
+      {
+        "id": "muiniera-dance",
+        "entity_id": "gaita-galega",
+        "label": "Muiñeira with dancers",
+        "youtube": "https://www.youtube.com/watch?v=wqJChP8dQ9E"
+      },
+      {
+        "id": "lorient-galicia",
+        "entity_id": "festival-interceltique-lorient",
+        "label": "Galician stage at Lorient",
+        "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY"
+      },
+      {
+        "id": "carlos-nunez-gaita",
+        "entity_id": "carlos-nunez",
+        "label": "Carlos Núñez gaita",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      }
+    ],
     "key_points": [
-      "Diaspora scenes remix Irish/Scottish roots.",
-      "Compare accents\u2014not only tune names.",
-      "Festivals link fringe regions to wider Celtic network.",
-      "Use Ireland unit as reference tradition.",
-      "Playlist study beats generic compilations."
+      "Galicia and Asturias are Iberian and pan-Celtic — both identities matter.",
+      "Gaita galega leads outdoor ensemble music distinct from uilleann pipes.",
+      "Muiñeira is the signature 6/8 dance form — not an Irish jig by another name.",
+      "Luar na Lubre and Carlos Núñez amplified village and festival traditions.",
+      "Compared with Ireland: shared 6/8 family, different pipe technology and session vs festival stage."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Galicia & Asturias \u2014 orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Music of Galicia — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Galicia"
+      },
+      {
+        "type": "link",
+        "title": "Gaita galega — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gaita_galega"
+      },
+      {
+        "type": "link",
+        "title": "Muiñeira — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mui%C3%B1eira"
+      },
+      {
+        "type": "link",
+        "title": "Music of Asturias — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Asturias"
+      },
+      {
+        "type": "link",
+        "title": "Carlos Núñez official",
+        "url": "https://www.carlosnunez.com/",
+        "note": "Gaita virtuoso"
+      },
+      {
+        "type": "book",
+        "title": "Galician Music",
+        "author": "Henrique Beceiro",
+        "note": "Regional survey"
+      },
+      {
+        "type": "link",
+        "title": "Muiñeira dance",
+        "url": "https://en.wikipedia.org/wiki/Mui%C3%B1eira",
+        "note": "Galician form"
       }
     ]
   },
   "regions-celtic-diaspora-03-cornwall-man": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "lowender-peran",
+        "type": "event",
+        "name": "Lowender Peran",
+        "summary": "Cornish Celtic festival in Cornwall",
+        "blurb": "Revival-led gathering for Cornish music, dance, and identity.",
+        "url": "https://lowenderperan.com/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Cornwall_flag.svg?width=320"
+      },
+      {
+        "id": "yn-chruinnaght",
+        "type": "organization",
+        "name": "Yn Chruinnaght",
+        "summary": "Inter-Celtic festival on the Isle of Man",
+        "blurb": "Annual gathering hosting delegations from Celtic nations and diaspora regions.",
+        "url": "https://en.wikipedia.org/wiki/Yn_Chruinnaght",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Tynwald_Day_2003.jpg?width=320"
+      },
+      {
+        "id": "gorsedh-kernow",
+        "type": "organization",
+        "name": "Gorsedh Kernow",
+        "summary": "Cornish bardic assembly linking poetry, music, and language",
+        "blurb": "Ceremonial institution supporting Kernewek and Cornish cultural prestige.",
+        "url": "https://en.wikipedia.org/wiki/Gorsedh_Kernow",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gorsedh_Kernow_2004.jpg?width=320"
+      },
+      {
+        "id": "manx-national-heritage",
+        "type": "organization",
+        "name": "Manx National Heritage",
+        "summary": "Heritage body preserving Manx culture and archives",
+        "blurb": "Supports Gaelg, folk collections, and cultural programming on the Isle of Man.",
+        "url": "https://www.manxnationalheritage.im/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Tynwald_Day_2003.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "lowender-peran-session",
+        "entity_id": "lowender-peran",
+        "label": "Lowender Peran festival session",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      },
+      {
+        "id": "yn-chruinnaght-highlights",
+        "entity_id": "yn-chruinnaght",
+        "label": "Yn Chruinnaght festival highlights",
+        "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY"
+      },
+      {
+        "id": "cornish-furry-dance",
+        "entity_id": "gorsedh-kernow",
+        "label": "Helston Furry Dance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "manx-folk-song",
+        "entity_id": "manx-national-heritage",
+        "label": "Manx traditional song sample",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      },
+      {
+        "id": "lowender-peran-set",
+        "entity_id": "lowender-peran",
+        "label": "Lowender Peran highlights",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      }
+    ],
     "key_points": [
-      "Diaspora scenes remix Irish/Scottish roots.",
-      "Compare accents\u2014not only tune names.",
-      "Festivals link fringe regions to wider Celtic network.",
-      "Use Ireland unit as reference tradition.",
-      "Playlist study beats generic compilations."
+      "Cornwall and Mann are revival-led Celtic nations with festival-centred scenes.",
+      "Lowender Peran and Yn Chruinnaght anchor inter-Celtic exchange.",
+      "Repertoire survives through manuscripts, carols, and reconstructed practice.",
+      "Language movements (Kernewek, Gaelg) tie song to identity politics.",
+      "Compared with Ireland: smaller scale, less continuous rural session infrastructure."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Cornwall & Isle of Man \u2014 orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Music of Cornwall — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Cornwall"
+      },
+      {
+        "type": "link",
+        "title": "Music of the Isle of Man — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_the_Isle_of_Man"
+      },
+      {
+        "type": "link",
+        "title": "Lowender Peran",
+        "url": "https://en.wikipedia.org/wiki/Lowender_Peran"
+      },
+      {
+        "type": "link",
+        "title": "Yn Chruinnaght",
+        "url": "https://en.wikipedia.org/wiki/Yn_Chruinnaght"
+      },
+      {
+        "type": "link",
+        "title": "Lowender Peran",
+        "url": "https://lowenderperan.com/",
+        "note": "Cornish festival"
+      },
+      {
+        "type": "link",
+        "title": "Yn Chruinnaght",
+        "url": "https://www.crash.net/manx/",
+        "note": "Manx inter-Celtic festival"
+      },
+      {
+        "type": "link",
+        "title": "Gorsedh Kernow",
+        "url": "https://www.gorsedhkernow.org.uk/",
+        "note": "Cornish cultural institution"
       }
     ]
   },
   "regions-celtic-diaspora-04-pan-celtic-festivals": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "festival-interceltique-lorient",
+        "type": "organization",
+        "name": "Festival Interceltique de Lorient",
+        "summary": "World's largest recurring Celtic festival, founded 1971 in Brittany",
+        "blurb": "Ten-day August gathering with parades, concerts, dance workshops, and nation guest-of-honour rotations.",
+        "url": "https://www.festival-interceltique.bzh/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_Interceltique_de_Lorient_2012.jpg?width=320"
+      },
+      {
+        "id": "celtic-connections",
+        "type": "organization",
+        "name": "Celtic Connections",
+        "summary": "Winter folk and roots festival in Glasgow",
+        "blurb": "Founded 1994; concert-hall and session programming with strong Irish and Scottish trad presence.",
+        "url": "https://www.celticconnections.com/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Celtic_Connections.jpg?width=320"
+      },
+      {
+        "id": "comhaltas",
+        "type": "organization",
+        "name": "Comhaltas Ceoltóirí Éireann",
+        "summary": "Global Irish traditional music organisation",
+        "blurb": "Interfaces with pan-Celtic festivals through touring winners and visiting branches.",
+        "url": "https://comhaltas.ie/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Comhaltas_Ceolt%C3%B3ir%C3%AD_%C3%89ireann_logo.svg?width=320"
+      },
+      {
+        "id": "fleadh",
+        "type": "organization",
+        "name": "Fleadh Cheoil na hÉireann",
+        "summary": "All-Ireland traditional music competition festival",
+        "blurb": "Comhaltas flagship event; artists often tour to Lorient and Celtic Connections after success.",
+        "url": "https://comhaltas.ie/music/detail/fleadh_cheoil/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fleadh_Cheoil_na_h%C3%89ireann_2010.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "lorient-parade",
+        "entity_id": "festival-interceltique-lorient",
+        "label": "Lorient festival parade",
+        "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY"
+      },
+      {
+        "id": "lorient-irish-night",
+        "entity_id": "festival-interceltique-lorient",
+        "label": "Irish night at Lorient",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      },
+      {
+        "id": "celtic-connections-opening",
+        "entity_id": "celtic-connections",
+        "label": "Celtic Connections concert excerpt",
+        "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY"
+      },
+      {
+        "id": "fleadh-lorient-crossover",
+        "entity_id": "fleadh",
+        "label": "Fleadh winners at international festival",
+        "youtube": "https://www.youtube.com/watch?v=f5Q1zQr3pBk"
+      }
+    ],
     "key_points": [
-      "Diaspora scenes remix Irish/Scottish roots.",
-      "Compare accents\u2014not only tune names.",
-      "Festivals link fringe regions to wider Celtic network.",
-      "Use Ireland unit as reference tradition.",
-      "Playlist study beats generic compilations."
+      "Pan-Celtic festivals link nations without merging styles.",
+      "Lorient (summer, Brittany) and Celtic Connections (winter, Glasgow) are flagship stages.",
+      "Programming is professionalised and ticketed — unlike village sessions.",
+      "Ireland often serves as reference repertoire for visiting delegations.",
+      "Critical listening separates host-nation aesthetic from guest sets."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Pan-Celtic Festivals and Institutions \u2014 orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Festival Interceltique de Lorient — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient"
+      },
+      {
+        "type": "link",
+        "title": "Celtic Connections — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Celtic_Connections"
+      },
+      {
+        "type": "link",
+        "title": "Pan-Celticism — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pan-Celticism"
+      },
+      {
+        "type": "link",
+        "title": "Celtic Congress",
+        "url": "https://en.wikipedia.org/wiki/Celtic_Congress"
+      },
+      {
+        "type": "link",
+        "title": "Celtic Connections",
+        "url": "https://www.celticconnections.com/",
+        "note": "Glasgow winter festival"
+      },
+      {
+        "type": "link",
+        "title": "Lorient Interceltique",
+        "url": "https://www.festival-interceltique.com/",
+        "note": "Largest pan-Celtic gathering"
+      },
+      {
+        "type": "link",
+        "title": "Hebridean Celtic Festival",
+        "url": "https://www.hebceltfest.com/",
+        "note": "Scottish island festival"
+      },
+      {
+        "type": "link",
+        "title": "National Eisteddfod",
+        "url": "https://eisteddfod.wales/",
+        "note": "Welsh competitive gathering"
       }
     ]
   },
   "regions-celtic-diaspora-05-listening-across-borders": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "comhaltas",
+        "type": "organization",
+        "name": "Comhaltas Ceoltóirí Éireann",
+        "summary": "Reference institution for Irish session and competition culture",
+        "blurb": "Use as control when comparing cross-border repertoire and pedagogy.",
+        "url": "https://comhaltas.ie/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Comhaltas_Ceolt%C3%B3ir%C3%AD_%C3%89ireann_logo.svg?width=320"
+      },
+      {
+        "id": "coleman",
+        "type": "person",
+        "name": "Michael Coleman",
+        "summary": "Sligo fiddler whose 1920s New York 78s shaped global Irish fiddle accent",
+        "blurb": "Essential diaspora comparison point for Exercise 4 in this lesson.",
+        "url": "https://en.wikipedia.org/wiki/Michael_Coleman_(musician)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Coleman_(fiddler).jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "reel-ireland-session",
+        "label": "Irish session reel — reference track",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      },
+      {
+        "id": "reel-cape-breton",
+        "label": "Cape Breton reel — dance lift comparison",
+        "youtube": "https://www.youtube.com/watch?v=0YqJYgJhZ5E"
+      },
+      {
+        "id": "jig-vs-muiniera",
+        "label": "Irish jig vs Galician muiñeira comparison",
+        "youtube": "https://www.youtube.com/watch?v=0nF5K1d6d0Y"
+      },
+      {
+        "id": "coleman-78",
+        "entity_id": "coleman",
+        "label": "Michael Coleman 78 rpm recording",
+        "youtube": "https://www.youtube.com/watch?v=5r8x9sG0k8A"
+      },
+      {
+        "id": "pipes-compared",
+        "label": "Uilleann vs Highland vs gaita pipe comparison set",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
     "key_points": [
-      "Diaspora scenes remix Irish/Scottish roots.",
-      "Compare accents\u2014not only tune names.",
-      "Festivals link fringe regions to wider Celtic network.",
-      "Use Ireland unit as reference tradition.",
-      "Playlist study beats generic compilations."
+      "Four-column listening: form, lead voice, ornament, social context.",
+      "Ireland is the reference track; contrast reveals regional accent.",
+      "Same tune title may mask different bowing, tempo, and dance purpose.",
+      "Diaspora 78s and festival stages are lenses, not sole truths.",
+      "Form-based playlists beat nation-only generic compilations."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Companion to Irish Traditional Music",
+        "author": "Fintan Vallely",
+        "note": "Cross-referenced tune and regional entries"
+      },
+      {
+        "type": "book",
+        "title": "Flowing Tides",
+        "author": "Gearóid Ó hAllmhuráin",
+        "note": "Irish music history including diaspora flows"
+      },
+      {
         "type": "link",
-        "title": "Listening Across Borders \u2014 orientation",
+        "title": "The Session",
+        "url": "https://thesession.org/",
+        "note": "Tune settings and regional comments"
+      },
+      {
+        "type": "link",
+        "title": "Celtic music — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Celtic_music"
+      },
+      {
+        "type": "link",
+        "title": "The Session — cross-tune search",
+        "url": "https://thesession.org/tunes",
+        "note": "Compare settings"
+      },
+      {
+        "type": "link",
+        "title": "Celtic Connections archive",
+        "url": "https://www.celticconnections.com/",
+        "note": "Pan-regional programming"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "silver-spear-compare",
+        "type": "tune",
+        "name": "The Silver Spear (Ireland anchor)",
+        "form": "reel",
+        "reference": "Irish session standard — compare with Scotland/Wales",
+        "about": "Use as reference reel when comparing bowing and ornament.",
+        "playlist": [
+          {
+            "label": "Irish session",
+            "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
+          },
+          {
+            "label": "Scottish accent",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "masons-apron-compare",
+        "type": "tune",
+        "name": "The Mason's Apron (cross-border)",
+        "form": "reel",
+        "reference": "Shared Scottish and Irish repertoire",
+        "about": "Same tune title, different regional accent.",
+        "playlist": [
+          {
+            "label": "Scottish fiddle",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          },
+          {
+            "label": "Irish session",
+            "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+          }
+        ]
+      },
+      {
+        "id": "gavotte-compare",
+        "type": "tune",
+        "name": "Breton gavotte (contrast)",
+        "form": "gavotte",
+        "reference": "Fest-noz dance — not a jig or reel",
+        "about": "Foot-tap in 4/4 dance rhythm; compare with Irish reel flatness.",
+        "playlist": [
+          {
+            "label": "Fest-noz set",
+            "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+          }
+        ]
       }
     ]
   }

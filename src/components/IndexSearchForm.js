@@ -12,10 +12,6 @@ import VoiceFillInput from './VoiceFillInput'
 import { trackSearch } from '../analytics'
 import { useIsCompactViewport } from '../useMediaQuery'
 
-import {
-  LARGE_LIST_WARNING_THRESHOLD,
-} from '../tuneListFilter'
-
 const SEARCH_DEBOUNCE_MS = 300
 
 export default function IndexSearchForm(props) {
@@ -440,11 +436,6 @@ export default function IndexSearchForm(props) {
                         </div>
                     ) : null}
                 </div>
-                {Array.isArray(props.filtered) && props.filtered.length > LARGE_LIST_WARNING_THRESHOLD && (
-                  <p className="tune-search-large-list-warning text-muted small mb-2">
-                    Showing {props.filtered.length} results — refine your search for better performance.
-                  </p>
-                )}
             </div>
 
             <Modal show={showSaveModal} onHide={closeSaveModal}>

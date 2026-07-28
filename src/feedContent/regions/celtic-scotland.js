@@ -20,66 +20,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Scottish Traditional Music rewards comparative study with Ireland.\n\n- Focus: Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages..\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Scottish trad spans Highland Gaelic, Lowland Scots, and island regional accents.\n\n- Ceilidh dances prioritise community participation with caller-led figures.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "A Scottish ceilidh is best described as:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "A social dance event with live band and often a caller teaching figures",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "Snare, tenor, and bass drums in ensemble competition",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Dancers and a caller leading figures like Strip the Willow",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: A social dance event with live band and often a caller teaching figures"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Strathspeys are a distinctly Scottish dance form with a dotted rhythmic feel often called the Scottish snap.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
-            "correct": true
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -102,66 +92,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Strathspeys and pipe bands are distinctly Scottish public faces of the tradition.\n\n- Gaelic and Scots song traditions run parallel to instrumental dance music.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Pipe bands typically combine Great Highland bagpipes with:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Island repertoire with Norse-influenced accents distinct from mainland Scotland",
             "correct": false
           },
           {
             "id": "b",
-            "text": "9/8 slip-jig time",
+            "text": "Cloth-fulling work with rhythmic Gaelic singing",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "Snare, tenor, and bass drums in ensemble competition",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Dancers and a caller leading figures like Strip the Willow",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Snare, tenor, and bass drums in ensemble competition"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "Gaelic song and Scots song are the same language tradition.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "9/8 slip-jig time",
-            "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Gaelic is a Celtic language; Scots is a Germanic language; both carry distinct song repertoires."
       }
     ]
   },
@@ -184,66 +164,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Dance metre and tune form belong together in study.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Highland games and BBC broadcasting shape seasonal and national listening habits.\n\n- Compare with Ireland to hear shared repertoire and distinct national accent.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Compared with an Irish pub session, a Scottish ceilidh night often emphasises:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "True",
+            "text": "Dancers and a caller leading figures like Strip the Willow",
             "correct": true
           },
           {
             "id": "b",
-            "text": "9/8 slip-jig time",
+            "text": "Cloth-fulling work with rhythmic Gaelic singing",
             "correct": false
           },
           {
             "id": "c",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Glasgow",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "regions-celtic-ireland-01-overview",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Dancers and a caller leading figures like Strip the Willow"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-3-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Shetland fiddle tradition is noted for:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Glasgow",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Sligo fiddle style",
+            "text": "regions-celtic-ireland-01-overview",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Donegal highland repertoire",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "text": "Island repertoire with Norse-influenced accents distinct from mainland Scotland",
             "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Island repertoire with Norse-influenced accents distinct from mainland Scotland"
       }
     ]
   },
@@ -266,66 +246,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Scottish traditional music spans highland and lowland streams: fiddle dance music, highland bagpipes, gaelic song, scots song, and the social world of ceilidhs and folk clubs. sessions exist in pubs and festivals, but pipe band competitions and highland games remain uniquely visible public stages. connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Scottish trad spans Highland Gaelic, Lowland Scots, and island accents — not one uniform style.\n\n- **Ceilidh** dances prioritise community participation; **sessions** prioritise musician-led tune sets with similar etiquette to Ireland.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "The World Pipe Band Championships are strongly associated with Glasgow and competitive pipe-band culture.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Sligo fiddle style",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-4-q2",
+        "type": "mcq",
+        "prompt": "Waulking songs historically accompanied:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cloth-fulling work with rhythmic Gaelic singing",
+            "correct": true
+          },
+          {
             "id": "c",
-            "text": "Donegal highland repertoire",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "9/8 slip-jig time",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Cloth-fulling work with rhythmic Gaelic singing"
       }
     ]
   },
@@ -348,66 +318,128 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- **Strathspeys** and **pipe bands** are distinctly Scottish public faces alongside fiddle and song.\n\n- **Gaelic** and **Scots** song traditions run parallel to instrumental dance music.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Scottish traditional music has no historical exchange with Irish traditional music.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          }
-        ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": false
           },
           {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "tune families and styles cross the narrow sea; Donegal and Scotland share repertoire."
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-5-q2",
+        "type": "mcq",
+        "prompt": "Celtic Connections is a major winter folk festival held in:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
             "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "Glasgow",
             "correct": true
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "Mullingar, 1951",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "The lesson identifies this as: Glasgow"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-6",
+    "title": "Scotland trad: key ideas (6)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "scotland",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-01-overview",
+    "estimateMinutes": 4,
+    "body": "From **Scottish Traditional Music — Overview** (Scotland trad):\n\n- Revival institutions, BBC broadcasting, and games-season competitions shape what learners hear today.\n\n- Compare with Ireland to hear shared repertoire and national accent — avoid generic \"Celtic\" flattening.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "A learner should prefer regional Scottish recordings over generic \"Celtic\" compilations when building ear training.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-kp-6-q2",
+        "type": "mcq",
+        "prompt": "This unit's overview lesson prerequisite is:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "regions-celtic-ireland-01-overview",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: regions-celtic-ireland-01-overview"
       }
     ]
   },
@@ -430,71 +462,503 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-01-overview",
     "estimateMinutes": 4,
-    "body": "Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages. within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nScottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages. within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Stand on Edinburgh's Royal Mile during festival season and you may hear a busker on whistle beside a piper in full regalia. Drive north to Ullapool and a pub session might run fiddle, accordion, and song in Gaelic and English until closing time. Visit a village hall on a Saturday and a ceilidh band could be driving sets of reels and jigs for dancers who learned the steps at school. All three scenes are Scottish traditional music — but they answer different social needs, and a musician who understands only pipe-band pageantry or only pub sessions will miss half the picture. This lesson is your map. Before you study instruments, strathspey rhythm, Highland dancing, or the collectors who saved bothy ballads from oblivion, you need orientation: what people mean by Highland versus Lowland, where the music lives, how ceilidh culture differs from an Irish seisiún, what tune types feel like underfoot, and which institutions — BBC Scotland, piping competitions, folk festivals — keep the tradition moving. Scottish traditional music is a living oral tradition of dance tunes, songs in Gaelic…\n\nStand on Edinburgh's Royal Mile during festival season and you may hear a busker on whistle beside a piper in full regalia. Drive north to Ullapool and a pub session might run fiddle, accordion, and song in Gaelic and English until closing time. Visit a village hall on a Saturday and a ceilidh band could be driving sets of reels and jigs for dancers who learned the steps at school. All three scenes are Scottish traditional music — but they answer different social needs, and a musician who understands only pipe-band pageantry or only pub sessions will miss half the picture. This lesson is your map. Before you study instruments, strathspey rhythm, Highland dancing, or the collectors who saved bothy…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "A Scottish ceilidh is best described as:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "True",
+            "text": "A social dance event with live band and often a caller teaching figures",
             "correct": true
           },
           {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
             "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Snare, tenor, and bass drums in ensemble competition",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "text": "Dancers and a caller leading figures like Strip the Willow",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: A social dance event with live band and often a caller teaching figures"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "type": "truefalse",
+        "prompt": "Strathspeys are a distinctly Scottish dance form with a dotted rhythmic feel often called the Scottish snap.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "True",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-2-compared-with-ireland",
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-2-highland-lowland-and-the-islands",
+    "title": "Scotland trad: Highland, Lowland, and the islands",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "scotland",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-01-overview",
+    "estimateMinutes": 4,
+    "body": "Highland tradition is often linked to Gaelic language areas, clan history, and the Great Highland bagpipe as public symbol. Fiddle styles in the North East (Aberdeenshire, Moray) and Shetland carry a different accent from West Highland piping or Gaelic waulking songs (òrain luaidh). Lowland and Borders streams emphasise Scots-language ballads, bothy ballads of farm workers, and song traditions tied to towns and mining communities as much as to glens.\n\nThe Western Isles, Skye, and Argyll remain heartlands for Gaelic song and puirt à beul (mouth music). Orkney and Shetland absorbed Norse influence; Shetland fiddle repertoire includes tunes rare on the mainland. None of these regions is a sealed box — musicians commute between festival circuits, BBC studios, and diaspora cities — but tagging recordings by place trains your ear faster than a generic \"Celtic\" playlist.\n\nHighland tradition is often linked to Gaelic language areas, clan history, and the Great Highland bagpipe as public symbol. Fiddle styles in the North East (Aberdeenshire, Moray) and Shetland carry a different accent from West Highland piping or Gaelic waulking songs (òrain luaidh). Lowland and Borders streams emphasise Scots-language ballads, bothy ballads of farm workers, and song traditions tied to towns and mining communities as much as to glens. The Western Isles, Skye, and Argyll remain heartlands for Gaelic song and puirt à beul (mouth music). Orkney and Shetland absorbed Norse influence; Shetland fiddle repertoire includes tunes rare on the mainland. None of these regions is a sealed box — musicians commute between festival circuits, BBC studios, and diaspora cities…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-2-highland-lowland-and-the-islands-q1",
+        "type": "mcq",
+        "prompt": "Pipe bands typically combine Great Highland bagpipes with:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Island repertoire with Norse-influenced accents distinct from mainland Scotland",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cloth-fulling work with rhythmic Gaelic singing",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Snare, tenor, and bass drums in ensemble competition",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Dancers and a caller leading figures like Strip the Willow",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Snare, tenor, and bass drums in ensemble competition"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-2-highland-lowland-and-the-islands-q2",
+        "type": "truefalse",
+        "prompt": "Gaelic song and Scots song are the same language tradition.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Gaelic is a Celtic language; Scots is a Germanic language; both carry distinct song repertoires."
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-3-ceilidh-versus-session",
+    "title": "Scotland trad: Ceilidh versus session",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "scotland",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-01-overview",
+    "estimateMinutes": 4,
+    "body": "A ceilidh (cèilidh in Gaelic) historically meant a visit, a house gathering with stories, song, and dance. Today the word often labels social dances in village halls, weddings, and festivals: a band plays sets of reels and jigs while a caller teaches or reminds dancers of figures like Strip the Willow or Dashing White Sergeant. The focus is participation — many attendees are not professional musicians.\n\nAn Irish-style session (seisiún) also exists in Scottish cities and festival pubs: fiddles, pipes, and accordion trading tune sets by ear with pub etiquette similar to Ireland — listen first, match tempo, respect the set. Scottish sessions may include more strathspeys and pipe marches in repertoire; ceilidh nights may prioritise dance tempo and familiar crowd-pleasers over exploratory deep cuts.\n\nBoth formats transmit tunes orally. The difference is often who leads the room: a ceilidh caller and band for dancers; a session regular nodding the next tune for listeners and musicians. Scottish Ceilidh culture keeps dance alive for communities who never enter a piping competition.\n\nA ceilidh (cèilidh in Gaelic) historically meant a visit, a house gathering with stories, song, and dance. Today the word often labels social dances in village halls, weddings, and festivals: a band plays sets of reels and jigs while a caller teaches or reminds dancers of figures like Strip the Willow or Dashing White Sergeant. The focus is participation — many attendees are not professional musicians. An Irish-style session (seisiún) also exists in Scottish cities and festival pubs: fiddles, pipes, and accordion trading tune sets by ear with pub etiquette similar to Ireland — listen first, match tempo, respect the set. Scottish sessions may include more strathspeys and pipe marches in repertoire; ceilidh nights may prioritise dance tempo and familiar…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-3-ceilidh-versus-session-q1",
+        "type": "mcq",
+        "prompt": "Compared with an Irish pub session, a Scottish ceilidh night often emphasises:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dancers and a caller leading figures like Strip the Willow",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Cloth-fulling work with rhythmic Gaelic singing",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Glasgow",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "regions-celtic-ireland-01-overview",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Dancers and a caller leading figures like Strip the Willow"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-3-ceilidh-versus-session-q2",
+        "type": "mcq",
+        "prompt": "Shetland fiddle tradition is noted for:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Glasgow",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "regions-celtic-ireland-01-overview",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Island repertoire with Norse-influenced accents distinct from mainland Scotland",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Island repertoire with Norse-influenced accents distinct from mainland Scotland"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-4-pipe-bands-and-public-stages",
+    "title": "Scotland trad: Pipe bands and public stages",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "scotland",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-01-overview",
+    "estimateMinutes": 4,
+    "body": "Pipe bands — bagpipes combined with snare, tenor, and bass drums — are among Scotland's most visible musical exports. Competitions at the World Pipe Band Championships in Glasgow and at Highland games from Cowal to local village fields place precision, unison, and drill on parade. Wikipedia notes the Great Highland bagpipe as a martial and ceremonial icon; pipe bands channel that into ensemble sport as much as folk art.\n\nPipe bands are not the whole tradition. Solo pipers, smallpipes in folk clubs, and fiddle-led sessions operate in parallel. Still, a learner arriving in Scotland cannot ignore the sound of massed pipes on a games day — it shapes public imagination the way Comhaltas and the Fleadh shape Ireland's. Royal Scottish Pipe Band Association organises competitive pipe-band life; Highland Games provide seasonal stages from summer through autumn.\n\nPipe bands — bagpipes combined with snare, tenor, and bass drums — are among Scotland's most visible musical exports. Competitions at the World Pipe Band Championships in Glasgow and at Highland games from Cowal to local village fields place precision, unison, and drill on parade. Wikipedia notes the Great Highland bagpipe as a martial and ceremonial icon; pipe bands channel that into ensemble sport as much as folk art. Pipe bands are not the whole tradition. Solo pipers, smallpipes in folk clubs, and fiddle-led sessions operate in parallel. Still, a learner arriving in Scotland cannot ignore the sound of massed pipes on a games day — it shapes public imagination the way Comhaltas and the Fleadh shape Ireland's. Royal Scottish…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-4-pipe-bands-and-public-stages-q1",
+        "type": "truefalse",
+        "prompt": "The World Pipe Band Championships are strongly associated with Glasgow and competitive pipe-band culture.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-4-pipe-bands-and-public-stages-q2",
+        "type": "mcq",
+        "prompt": "Waulking songs historically accompanied:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cloth-fulling work with rhythmic Gaelic singing",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cloth-fulling work with rhythmic Gaelic singing"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-5-gaelic-and-scots-song",
+    "title": "Scotland trad: Gaelic and Scots song",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "scotland",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-01-overview",
+    "estimateMinutes": 4,
+    "body": "Gaelic song (òrain Ghàidhlig) carries narrative, work-song rhythm, and highly ornamented puirt à beul — wordless or lightly worded mouth music for dancing when instruments were scarce. Waulking songs accompanied cloth-fulling; Òran na Cloiche and other classics survive in revival recordings by Capercaillie and traditional singers.\n\nScots song spans ballads (The Twa Corbies, Tam Lin), bothy ballads documenting farm life (The Barnyards o' Delgaty), music-hall favourites, and contemporary folk writing. Scots is a Germanic language distinct from Gaelic; both coexist in national repertoire. Song carries emotional weight that instrumental sets alone cannot — laments, humour, emigration, and political memory.\n\nGaelic Song heritage is promoted through BBC Radio nan Gàidheal, Fèisean nan Gàidheal, and festivals such as Celtic Connections in Glasgow. Learners should hear unaccompanied Gaelic song alongside band arrangements — the ornament and phrasing differ sharply from pop vocal style.\n\nGaelic song (òrain Ghàidhlig) carries narrative, work-song rhythm, and highly ornamented puirt à beul — wordless or lightly worded mouth music for dancing when instruments were scarce. Waulking songs accompanied cloth-fulling; Òran na Cloiche and other classics survive in revival recordings by Capercaillie and traditional singers. Scots song spans ballads (The Twa Corbies, Tam Lin), bothy ballads documenting farm life (The Barnyards o' Delgaty), music-hall favourites, and contemporary folk writing. Scots is a Germanic language distinct from Gaelic; both coexist in national repertoire. Song carries emotional weight that instrumental sets alone cannot — laments, humour, emigration, and political memory. Gaelic Song heritage is promoted through BBC Radio nan Gàidheal, Fèisean nan Gàidheal, and festivals such as Celtic Connections in Glasgow.…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-5-gaelic-and-scots-song-q1",
+        "type": "truefalse",
+        "prompt": "Scottish traditional music has no historical exchange with Irish traditional music.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "tune families and styles cross the narrow sea; Donegal and Scotland share repertoire."
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-5-gaelic-and-scots-song-q2",
+        "type": "mcq",
+        "prompt": "Celtic Connections is a major winter folk festival held in:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Glasgow",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Glasgow"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-6-tune-types-a-field-guide",
+    "title": "Scotland trad: Tune types: a field guide",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "scotland",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-01-overview",
+    "estimateMinutes": 4,
+    "body": "Dance music organises Scottish trad as it does Irish. Misidentifying a strathspey for a reel confuses dancers immediately.\n\n| Type | Metre | Feel | Memorable detail |\n|------|-------|------|------------------|\n| Reel | 4/4 or 2/2 | Steady drive | Session and ceilidh workhorse |\n| Strathspey | 4/4 | Dotted, proud pulse | Scotland's signature form; \"Scottish snap\" |\n| Jig | 6/8 | Two beats of three | Shared with Ireland; accent may differ |\n| Hornpipe | 4/4 | Dotted, bouncy | Sailor and stage associations |\n| Slow air | Free or slow | Lyrical | Pipe and fiddle laments; song melodies |\n| March | 4/4 | Steady | Pipe bands; military and ceremonial |\n| Puirt à beul | Varied | Vocal dance rhythm | Mouth music; Gaelic tradition |\n\nStrathspeys like Moneymusk or The Bonnie Lass of Bon Accord use a characteristic dotted rhythm — long-short snap — that fiddlers bow and pipers articulate differently from straight reels. Reels remain the common currency between sessions in Scotland and Ireland.\n\nDance music organises Scottish trad as it does Irish. Misidentifying a strathspey for a reel confuses dancers immediately. | Type | Metre | Feel | Memorable detail | |------|-------|------|------------------| | Reel | 4/4 or 2/2 | Steady drive | Session and ceilidh workhorse | | Strathspey | 4/4 | Dotted, proud pulse | Scotland's signature form; \"Scottish snap\" | | Jig | 6/8 | Two beats of three | Shared with Ireland; accent may differ | | Hornpipe | 4/4 | Dotted, bouncy | Sailor and stage associations | | Slow air | Free or slow | Lyrical | Pipe and fiddle laments; song melodies | | March | 4/4 | Steady | Pipe bands; military and ceremonial | |…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-6-tune-types-a-field-guide-q1",
+        "type": "truefalse",
+        "prompt": "A learner should prefer regional Scottish recordings over generic \"Celtic\" compilations when building ear training.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-6-tune-types-a-field-guide-q2",
+        "type": "mcq",
+        "prompt": "This unit's overview lesson prerequisite is:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "regions-celtic-ireland-01-overview",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: regions-celtic-ireland-01-overview"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-7-social-settings-where-music-happens",
+    "title": "Scotland trad: Social settings: where music happens",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "scotland",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-01-overview",
+    "estimateMinutes": 4,
+    "body": "Folk clubs in towns from Aberdeen to Inverness host concerts, singarounds, and guest artists — a Lowland and urban institution alongside pub culture. Mod competitions (Royal National Mòd) prize Gaelic song and poetry. Celtic Connections each January floods Glasgow with concerts, sessions, and cross-border collaborations.\n\nHighland games combine athletics, piping competitions, and dancing. Weddings and burns suppers hire ceilidh bands. BBC Scotland and BBC Radio nan Gàidheal broadcast performances that once reached only a parish. Diaspora Scottish societies from Nova Scotia to Dunedin sustain pipe bands and dances far from the Cairngorms.\n\nFolk clubs in towns from Aberdeen to Inverness host concerts, singarounds, and guest artists — a Lowland and urban institution alongside pub culture. Mod competitions (Royal National Mòd) prize Gaelic song and poetry. Celtic Connections each January floods Glasgow with concerts, sessions, and cross-border collaborations.\n\nHighland games combine athletics, piping competitions, and dancing. Weddings and burns suppers hire ceilidh bands. BBC Scotland and BBC Radio nan Gàidheal broadcast performances that once reached only a parish. Diaspora Scottish societies from Nova Scotia to Dunedin sustain pipe bands and dances far from the Cairngorms.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-7-social-settings-where-music-happens-q1",
+        "type": "mcq",
+        "prompt": "A Scottish ceilidh is best described as:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A social dance event with live band and often a caller teaching figures",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Snare, tenor, and bass drums in ensemble competition",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Dancers and a caller leading figures like Strip the Willow",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A social dance event with live band and often a caller teaching figures"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-7-social-settings-where-music-happens-q2",
+        "type": "truefalse",
+        "prompt": "Strathspeys are a distinctly Scottish dance form with a dotted rhythmic feel often called the Scottish snap.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-8-compared-with-ireland",
     "title": "Scotland trad: Compared with Ireland",
     "track": "celtic",
     "region": "scotland",
@@ -512,72 +976,62 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-01-overview",
     "estimateMinutes": 4,
-    "body": "If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-01-overview` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIf you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-01-overview` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "If you completed `regions-celtic-ireland-01-overview`, you already know session etiquette, jig/reel vocabulary, and how Comhaltas shapes teaching. Scottish music shares Gaelic roots, tune families, and diaspora links with Ireland — many tunes cross the narrow sea — but emphasises strathspeys, pipe-band competition culture, ceilidh dances with callers, and Scots as well as Gaelic song.\n\nIreland's Gaeltacht parallels Scotland's Gàidhealtachd; Irish sean-nós parallels Gaelic òrain style. Donegal fiddle already imports Scottish marches and highlands; Scottish North East fiddle returns the exchange. Hold both traditions as cousins, not clones.\n\nIf you completed `regions-celtic-ireland-01-overview`, you already know session etiquette, jig/reel vocabulary, and how Comhaltas shapes teaching. Scottish music shares Gaelic roots, tune families, and diaspora links with Ireland — many tunes cross the narrow sea — but emphasises strathspeys, pipe-band competition culture, ceilidh dances with callers, and Scots as well as Gaelic song.\n\nIreland's Gaeltacht parallels Scotland's Gàidhealtachd; Irish sean-nós parallels Gaelic òrain style. Donegal fiddle already imports Scottish marches and highlands; Scottish North East fiddle returns the exchange. Hold both traditions as cousins, not clones.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-2-compared-with-ireland-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-8-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Pipe bands typically combine Great Highland bagpipes with:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Island repertoire with Norse-influenced accents distinct from mainland Scotland",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cloth-fulling work with rhythmic Gaelic singing",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Snare, tenor, and bass drums in ensemble competition",
             "correct": true
           },
           {
-            "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
             "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Dancers and a caller leading figures like Strip the Willow",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Snare, tenor, and bass drums in ensemble competition"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-8-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Gaelic song and Scots song are the same language tradition.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Gaelic is a Celtic language; Scots is a Germanic language; both carry distinct song repertoires."
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-3-core-material",
-    "title": "Scotland trad: Core material",
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-9-how-this-unit-is-organised",
+    "title": "Scotland trad: How this unit is organised",
     "track": "celtic",
     "region": "scotland",
     "kind": "theory_lesson",
@@ -594,53 +1048,53 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-01-overview",
     "estimateMinutes": 4,
-    "body": "Scottish traditional music spans highland and lowland streams: fiddle dance music, highland bagpipes, gaelic song, scots song, and the social world of ceilidhs and folk clubs. sessions exist in pubs and festivals, but pipe band competitions and highland games remain uniquely visible public stages. in scotland trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic \"Celtic\" compilations when possible.\n\nScottish traditional music spans highland and lowland streams: fiddle dance music, highland bagpipes, gaelic song, scots song, and the social world of ceilidhs and folk clubs. sessions exist in pubs and festivals, but pipe band competitions and highland games remain uniquely visible public stages. in scotland trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic \"Celtic\" compilations when possible.",
+    "body": "| Lesson | ID | Focus |\n|--------|-----|--------|\n| 1 — Overview | `regions-celtic-scotland-01-overview` | Map, ceilidh, pipes, regions |\n| 2 — Traditional voices I | `regions-celtic-scotland-02-instruments-voices-i` | Fiddle, pipes, whistle, clàrsach |\n| 3 — Session voices II | `regions-celtic-scotland-03-instruments-voices-ii` | Accordion, piano, guitar, bodhrán, cello |\n| 4 — Genres & forms | `regions-celtic-scotland-04-genres-forms` | Strathspey, reel, puirt à beul |\n| 5 — Dance | `regions-celtic-scotland-05-dance` | Ceilidh, Highland dancing, pipe drums |\n| 6 — History | `regions-celtic-scotland-06-history` | Collectors, BBC, revival, competitions |\n| 7 — Representative depth | `regions-celtic-scotland-07-representative-depth` | Battlefield Band, Capercaillie, scenes |\n| 8 — Tunes | `regions-celtic-scotland-08-tunes` | Mason's Apron, Drummond Castle, recordings |\n\n| Lesson | ID | Focus |\n|--------|-----|--------|\n| 1 — Overview | `regions-celtic-scotland-01-overview` | Map, ceilidh, pipes, regions |\n| 2 — Traditional voices I | `regions-celtic-scotland-02-instruments-voices-i` | Fiddle, pipes, whistle, clàrsach |\n| 3 — Session voices II | `regions-celtic-scotland-03-instruments-voices-ii` | Accordion, piano, guitar, bodhrán, cello |\n| 4 — Genres & forms | `regions-celtic-scotland-04-genres-forms` | Strathspey, reel, puirt à beul |\n| 5 — Dance | `regions-celtic-scotland-05-dance` | Ceilidh, Highland dancing, pipe drums |\n| 6 — History | `regions-celtic-scotland-06-history` | Collectors, BBC, revival, competitions |\n| 7 — Representative depth | `regions-celtic-scotland-07-representative-depth` | Battlefield Band, Capercaillie, scenes |\n| 8 — Tunes | `regions-celtic-scotland-08-tunes` | Mason's Apron, Drummond Castle, recordings |",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-3-core-material-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-9-how-this-unit-is-organised-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Compared with an Irish pub session, a Scottish ceilidh night often emphasises:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
+            "text": "Dancers and a caller leading figures like Strip the Willow",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "9/8 slip-jig time",
+            "text": "Cloth-fulling work with rhythmic Gaelic singing",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": true
+            "text": "Glasgow",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "regions-celtic-ireland-01-overview",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Dancers and a caller leading figures like Strip the Willow"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-3-core-material-q2",
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-9-how-this-unit-is-organised-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Shetland fiddle tradition is noted for:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Glasgow",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
+            "text": "regions-celtic-ireland-01-overview",
+            "correct": false
           },
           {
             "id": "c",
@@ -649,16 +1103,16 @@ export default [
           },
           {
             "id": "d",
-            "text": "9/8 slip-jig time",
-            "correct": false
+            "text": "Island repertoire with Norse-influenced accents distinct from mainland Scotland",
+            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Island repertoire with Norse-influenced accents distinct from mainland Scotland"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-5-key-points",
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-10-key-points",
     "title": "Scotland trad: Key points",
     "track": "celtic",
     "region": "scotland",
@@ -676,13 +1130,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-01-overview",
     "estimateMinutes": 4,
-    "body": "- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Scottish traditional music spans highland and lowland streams: fiddle dance music, highland bagpipes, gaelic song, scots song, and the social world of ceilidhs and folk clubs. sessions exist in pubs and festivals, but pipe band competitions and highland games remain uniquely visible public stages. connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Scottish traditional music spans highland and lowland streams: fiddle dance music, highland bagpipes, gaelic song, scots song, and the social world of ceilidhs and folk clubs. sessions exist in pubs and festivals, but pipe band competitions and highland games remain uniquely visible public stages. connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Scottish trad spans Highland Gaelic, Lowland Scots, and island accents — not one uniform style.\n- Ceilidh dances prioritise community participation; sessions prioritise musician-led tune sets with similar etiquette to Ireland.\n- Strathspeys and pipe bands are distinctly Scottish public faces alongside fiddle and song.\n- Gaelic and Scots song traditions run parallel to instrumental dance music.\n- Revival institutions, BBC broadcasting, and games-season competitions shape what learners hear today.\n- Compare with Ireland to hear shared repertoire and national accent — avoid generic \"Celtic\" flattening.\n\n- Scottish trad spans Highland Gaelic, Lowland Scots, and island accents — not one uniform style.\n- Ceilidh dances prioritise community participation; sessions prioritise musician-led tune sets with similar etiquette to Ireland.\n- Strathspeys and pipe bands are distinctly Scottish public faces alongside fiddle and song.\n- Gaelic and Scots song traditions run parallel to instrumental dance music.\n- Revival institutions, BBC broadcasting, and games-season competitions shape what learners hear today.\n- Compare with Ireland to hear shared repertoire and national accent — avoid generic \"Celtic\" flattening.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-10-key-points-q1",
+        "type": "truefalse",
+        "prompt": "The World Pipe Band Championships are strongly associated with Glasgow and competitive pipe-band culture.",
         "difficulty": 3,
         "choices": [
           {
@@ -692,26 +1146,16 @@ export default [
           },
           {
             "id": "b",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-5-key-points-q2",
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-10-key-points-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Waulking songs historically accompanied:",
         "difficulty": 3,
         "choices": [
           {
@@ -721,21 +1165,93 @@ export default [
           },
           {
             "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
+            "text": "Cloth-fulling work with rhythmic Gaelic singing",
+            "correct": true
           },
           {
             "id": "c",
-            "text": "Donegal highland repertoire",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cloth-fulling work with rhythmic Gaelic singing"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-11-reading-list",
+    "title": "Scotland trad: Reading list",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "scotland",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-01-overview",
+    "estimateMinutes": 4,
+    "body": "- Hamish Henderson — writings on bothy ballads and folk revival; start with Alias MacAlias.\n- Gary West — Voicing Scotland: Folk, Culture, Nation (cultural context for trad and identity).\n- Fintan Vallely — Companion to Irish Traditional Music (cross-border comparison chapters).\n- Wikipedia — Music of Scotland as orientation, verified against recordings.\n- Hands Up for Trad — handsupfortrad.scot for news, awards, and Scottish folk scene coverage.\n\n- Hamish Henderson — writings on bothy ballads and folk revival; start with Alias MacAlias.\n- Gary West — Voicing Scotland: Folk, Culture, Nation (cultural context for trad and identity).\n- Fintan Vallely — Companion to Irish Traditional Music (cross-border comparison chapters).\n- Wikipedia — Music of Scotland as orientation, verified against recordings.\n- Hands Up for Trad — handsupfortrad.scot for news, awards, and Scottish folk scene coverage.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-11-reading-list-q1",
+        "type": "truefalse",
+        "prompt": "Scottish traditional music has no historical exchange with Irish traditional music.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "tune families and styles cross the narrow sea; Donegal and Scotland share repertoire."
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-01-overview-sec-11-reading-list-q2",
+        "type": "mcq",
+        "prompt": "Celtic Connections is a major winter folk festival held in:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Glasgow",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Glasgow"
       }
     ]
   },
@@ -757,66 +1273,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Traditional Voices I** (Scotland trad):\n\n- Scottish Traditional Music rewards comparative study with Ireland.\n\n- Focus: fiddle, Highland bagpipes, smallpipes, whistle, and clàrsach (Scottish harp).\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Instruments — Traditional Voices I** (Scotland trad):\n\n- Shetland and North East fiddle are flagship regional accents — learn them by name.\n\n- Great Highland bagpipe dominates public image; smallpipes suit indoor folk sessions.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "James Scott Skinner is widely known as:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "The Strathspey King — composer and virtuoso Scottish fiddler",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "Francis O'Neill",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Brendan Breathnach",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: The Strathspey King — composer and virtuoso Scottish fiddler"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Shetland fiddle style is associated with ringing open strings and twin-fiddle ensemble tradition.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
-            "correct": true
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -838,66 +1344,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Traditional Voices I** (Scotland trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Instruments — Traditional Voices I** (Scotland trad):\n\n- James Scott Skinner remains essential for strathspey repertoire and style.\n\n- Whistle shares much technique with Irish practice and suits session doubling.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Great Highland bagpipes are typically inflated by:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "Mullingar, 1951",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "Mouth blowing with bag under the arm",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Brendan Breathnach",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Mouth blowing with bag under the arm"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Scottish smallpipes are generally:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Softer and more suitable for indoor folk sessions than massed Highland pipes",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "Mullingar, 1951",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Softer and more suitable for indoor folk sessions than massed Highland pipes"
       }
     ]
   },
@@ -919,66 +1425,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Traditional Voices I** (Scotland trad):\n\n- Dance metre and tune form belong together in study.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Instruments — Traditional Voices I** (Scotland trad):\n\n- Clàrsach links medieval Gaelic heritage to modern folk and song accompaniment.\n\n- Instrument roles overlap — pipes drone, fiddle drives dance lift.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "The clàrsach is:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "True",
+            "text": "Scotland's traditional harp with medieval Gaelic heritage",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "d",
-            "text": "9/8 slip-jig time",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Scotland's traditional harp with medieval Gaelic heritage"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-3-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Aly Bain is strongly associated with:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "b",
-            "text": "9/8 slip-jig time",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "c",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "text": "Shetland fiddle and international folk broadcasting",
             "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Shetland fiddle and international folk broadcasting"
       }
     ]
   },
@@ -1000,66 +1506,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Traditional Voices I** (Scotland trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Fiddle, highland bagpipes, smallpipes, whistle, and clàrsach (scottish harp) connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Instruments — Traditional Voices I** (Scotland trad):\n\n- **Shetland** and **North East** fiddle are flagship regional accents — learn them by name, not as generic \"Scottish fiddle.\"\n\n- **Great Highland bagpipe** dominates public image and pipe-band competition; **smallpipes** suit indoor folk ensemble.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Strathspey bowing on fiddle emphasises a dotted long-short pulse called the Scottish snap.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 4,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-4-q2",
+        "type": "mcq",
+        "prompt": "Pipe bands at Highland games typically feature:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Massed Great Highland bagpipes with drum corps",
+            "correct": true
+          },
+          {
             "id": "c",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "Tips and heels striking the floor",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Massed Great Highland bagpipes with drum corps"
       }
     ]
   },
@@ -1081,66 +1577,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Traditional Voices I** (Scotland trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Instruments — Traditional Voices I** (Scotland trad):\n\n- **Whistle** is a democratic session voice shared closely with Irish practice.\n\n- **Clàrsach** links medieval Gaelic heritage to modern folk and song accompaniment.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Tin whistle in Scottish trad shares much ornament technique with Irish whistle practice.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "North East Scotland fiddle tradition is linked to composers and players including Scott Skinner.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-6",
+    "title": "Scotland trad: key ideas (6)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "From **Scottish Instruments — Traditional Voices I** (Scotland trad):\n\n- **James Scott Skinner** remains essential listening for strathspey repertoire and style.\n\n- Instrument roles overlap — pipes drone, fiddle drives dance lift, harp accompanies song.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Great Highland pipes are generally louder and more associated with outdoor ceremonial and games contexts than uilleann pipes.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Practice chanter is a common beginner step before playing full Highland bagpipes.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1162,71 +1699,568 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on fiddle, Highland bagpipes, smallpipes, whistle, and clàrsach (Scottish harp) within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nScottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on fiddle, Highland bagpipes, smallpipes, whistle, and clàrsach (Scottish harp) within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "This lesson examines five melody voices at the heart of Scottish traditional music: the fiddle, Great Highland bagpipe, Scottish smallpipes, tin whistle, and clàrsach (Scottish harp). Guidebooks often group them as \"lead instruments,\" but session reality is messier — pipes supply harmonic drones, fiddle bowing drives ceilidh rhythm, and harp accompanies Gaelic song. Scottish trad shares ornament vocabulary with Ireland (cuts, rolls, snaps) yet regional accents — Shetland, North East, West Highland piping — sound unmistakably local.\n\nRead alongside Session Voices II, which covers accordion, piano, guitar, and percussion in ceilidh bands and folk ensembles.\n\nThis lesson examines five melody voices at the heart of Scottish traditional music: the fiddle, Great Highland bagpipe, Scottish smallpipes, tin whistle, and clàrsach (Scottish harp). Guidebooks often group them as \"lead instruments,\" but session reality is messier — pipes supply harmonic drones, fiddle bowing drives ceilidh rhythm, and harp accompanies Gaelic song. Scottish trad shares ornament vocabulary with Ireland (cuts, rolls, snaps) yet regional accents — Shetland, North East, West Highland piping — sound unmistakably local.\n\nRead alongside Session Voices II, which covers accordion, piano, guitar, and percussion in ceilidh bands and folk ensembles.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "James Scott Skinner is widely known as:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "False",
-            "correct": false
+            "text": "The Strathspey King — composer and virtuoso Scottish fiddler",
+            "correct": true
           },
           {
             "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: The Strathspey King — composer and virtuoso Scottish fiddler"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Shetland fiddle style is associated with ringing open strings and twin-fiddle ensemble tradition.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
-        "difficulty": 4,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
-          },
-          {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-2-compared-with-ireland",
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-2-session-roles-overlap",
+    "title": "Scotland trad: Session roles overlap",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "| Situation | What you might hear |\n|-----------|---------------------|\n| Ceilidh night | Fiddle and accordion on melody; pipes for a march set; whistle doubling the reel |\n| Pipe band contest | Massed Highland pipes and drums only — no fiddle |\n| Folk club | Smallpipes and harp on airs; whistle learner beside a seasoned fiddler |\n| Shetland hall | Twin fiddles in ringing unison on reels unique to the islands |\n\nWho starts the tune and who matches whose phrasing matter more than rigid \"melody only\" labels.\n\n| Situation | What you might hear |\n|-----------|---------------------|\n| Ceilidh night | Fiddle and accordion on melody; pipes for a march set; whistle doubling the reel |\n| Pipe band contest | Massed Highland pipes and drums only — no fiddle |\n| Folk club | Smallpipes and harp on airs; whistle learner beside a seasoned fiddler |\n| Shetland hall | Twin fiddles in ringing unison on reels unique to the islands |\n\nWho starts the tune and who matches whose phrasing matter more than rigid \"melody only\" labels.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-2-session-roles-overlap-q1",
+        "type": "mcq",
+        "prompt": "Great Highland bagpipes are typically inflated by:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing with bag under the arm",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Mouth blowing with bag under the arm"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-2-session-roles-overlap-q2",
+        "type": "mcq",
+        "prompt": "Scottish smallpipes are generally:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Softer and more suitable for indoor folk sessions than massed Highland pipes",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Softer and more suitable for indoor folk sessions than massed Highland pipes"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-4-regional-schools-shetland-and-north-east",
+    "title": "Scotland trad: Regional schools: Shetland and North East",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Shetland fiddle style favours ringing open strings, precise ensemble with twin fiddles, and repertoire including listening tunes and Scandinavian-tinged melodies. Players like Aly Bain brought Shetland accent to international stages through Boys of the Lough and broadcasting. The Shetland Folk Festival concentrates island tradition for visitors and locals alike.\n\nThe North East (Aberdeenshire, Moray, Angus) produced fierce competition fiddlers and composers. Scott Skinner epitomises the region; modern players like Paul Anderson and Alasdair Fraser extend its technical brilliance. Bowing emphasises strathspey snap — the dotted long-short pulse that separates Scottish strathspeys from Irish reels.\n\nWest Highland and Gaelic areas may favour slower airs and pipe-influenced repertoire. Cape Breton fiddle in Nova Scotia preserves Scottish settler styles — a diaspora mirror worth comparing after you know mainland sources.\n\nShetland fiddle style favours ringing open strings, precise ensemble with twin fiddles, and repertoire including listening tunes and Scandinavian-tinged melodies. Players like Aly Bain brought Shetland accent to international stages through Boys of the Lough and broadcasting. The Shetland Folk Festival concentrates island tradition for visitors and locals alike. The North East (Aberdeenshire, Moray, Angus) produced fierce competition fiddlers and composers. Scott Skinner epitomises the region; modern players like Paul Anderson and Alasdair Fraser extend its technical brilliance. Bowing emphasises strathspey snap — the dotted long-short pulse that separates Scottish strathspeys from Irish reels. West Highland and Gaelic areas may favour slower airs and pipe-influenced repertoire. Cape Breton fiddle in Nova Scotia preserves Scottish settler styles — a diaspora mirror…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-4-regional-schools-shetland-and-north-east-q1",
+        "type": "mcq",
+        "prompt": "The clàrsach is:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Scotland's traditional harp with medieval Gaelic heritage",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Scotland's traditional harp with medieval Gaelic heritage"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-4-regional-schools-shetland-and-north-east-q2",
+        "type": "mcq",
+        "prompt": "Aly Bain is strongly associated with:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Shetland fiddle and international folk broadcasting",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Shetland fiddle and international folk broadcasting"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-5-famous-players-and-memorable-details",
+    "title": "Scotland trad: Famous players and memorable details",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "James Scott Skinner (1843–1927), the \"Strathspey King,\" composed The Bonnie Lass of Bon Accord and Hector the Hero while touring as dancer and fiddler. His Victorian showmanship fixed strathspey repertoire for competition pipers and ceilidh bands alike. Memorable detail: Skinner marketed himself with photographs and composed pieces dedicated to patrons — trad entrepreneurship before the word \"brand\" dominated music.\n\nAly Bain (born 1946, Shetland) brought ringing open-string fiddle to television through Boys of the Lough and Transatlantic Sessions. His duets with Irish fiddlers model healthy cross-border listening. Memorable detail: Bain's bow arm favours clarity over flash — a Shetland lesson in ensemble discipline.\n\nShetland Fiddle tradition is among Scotland's most distinctive regional voices — not interchangeable with Sligo or Donegal accents.\n\nJames Scott Skinner (1843–1927), the \"Strathspey King,\" composed The Bonnie Lass of Bon Accord and Hector the Hero while touring as dancer and fiddler. His Victorian showmanship fixed strathspey repertoire for competition pipers and ceilidh bands alike. Memorable detail: Skinner marketed himself with photographs and composed pieces dedicated to patrons — trad entrepreneurship before the word \"brand\" dominated music. Aly Bain (born 1946, Shetland) brought ringing open-string fiddle to television through Boys of the Lough and Transatlantic Sessions. His duets with Irish fiddlers model healthy cross-border listening. Memorable detail: Bain's bow arm favours clarity over flash — a Shetland lesson in ensemble discipline. Shetland Fiddle tradition is among Scotland's most distinctive regional voices — not interchangeable with Sligo or Donegal…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-5-famous-players-and-memorable-details-q1",
+        "type": "truefalse",
+        "prompt": "Strathspey bowing on fiddle emphasises a dotted long-short pulse called the Scottish snap.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-5-famous-players-and-memorable-details-q2",
+        "type": "mcq",
+        "prompt": "Pipe bands at Highland games typically feature:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Massed Great Highland bagpipes with drum corps",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Massed Great Highland bagpipes with drum corps"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-8-pipe-bands-and-solo-competition",
+    "title": "Scotland trad: Pipe bands and solo competition",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Pipe bands layer multiple pipe chanters in unison with drum corps. Great Highland Bagpipe culture includes solo piping competitions at Highland games — piobaireachd (classical ceòl mòr) as well as march, strathspey, and reel sets.\n\nLearners often begin on practice chanter before full pipes. Bag pressure from mouth blowing demands stamina; reeds need constant maintenance. In folk sessions, a lone piper may sit out crowded reels or lead a march set — etiquette parallels Irish pipe volume concerns.\n\nPipe bands layer multiple pipe chanters in unison with drum corps. Great Highland Bagpipe culture includes solo piping competitions at Highland games — piobaireachd (classical ceòl mòr) as well as march, strathspey, and reel sets.\n\nLearners often begin on practice chanter before full pipes. Bag pressure from mouth blowing demands stamina; reeds need constant maintenance. In folk sessions, a lone piper may sit out crowded reels or lead a march set — etiquette parallels Irish pipe volume concerns.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-8-pipe-bands-and-solo-competition-q1",
+        "type": "truefalse",
+        "prompt": "Tin whistle in Scottish trad shares much ornament technique with Irish whistle practice.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-8-pipe-bands-and-solo-competition-q2",
+        "type": "truefalse",
+        "prompt": "North East Scotland fiddle tradition is linked to composers and players including Scott Skinner.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-9-scottish-smallpipes",
+    "title": "Scotland trad: Scottish smallpipes",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Scottish smallpipes and border pipes are softer, often mouth-blown or bellows-blown, suited to indoor folk clubs and sessions. Northumbrian and Border traditions overlap the southern Scottish marches. Smallpipes let pipers join fiddle-and-accordion ceilidhs without overwhelming the room — parallel to uilleann pipes in Irish pubs, though mechanism and timbre differ.\n\nMakers and players like Hamish Moore helped revive smallpipes for folk ensemble use in the late twentieth century. If Highland pipes are the national billboard, smallpipes are the conversation voice beside harp and whistle.\n\nScottish smallpipes and border pipes are softer, often mouth-blown or bellows-blown, suited to indoor folk clubs and sessions. Northumbrian and Border traditions overlap the southern Scottish marches. Smallpipes let pipers join fiddle-and-accordion ceilidhs without overwhelming the room — parallel to uilleann pipes in Irish pubs, though mechanism and timbre differ.\n\nMakers and players like Hamish Moore helped revive smallpipes for folk ensemble use in the late twentieth century. If Highland pipes are the national billboard, smallpipes are the conversation voice beside harp and whistle.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-9-scottish-smallpipes-q1",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Great Highland pipes are generally louder and more associated with outdoor ceremonial and games contexts than uilleann pipes.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-9-scottish-smallpipes-q2",
+        "type": "truefalse",
+        "prompt": "Practice chanter is a common beginner step before playing full Highland bagpipes.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-10-tin-whistle",
+    "title": "Scotland trad: Tin whistle",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "The tin whistle (feadóg) is inexpensive, portable, and widely taught in schools and folk workshops. In Scottish sessions it doubles fiddle melody at pitch or octave. Repertoire aligns with fiddle keys — D, G, A — with ornament (cuts, rolls, tonguing) matching Irish whistle technique closely enough that cross-border players swap tunes easily.\n\nWhistle does not carry a distinct \"Scottish only\" reputation the way pipes do, but it remains a gateway instrument from childhood tuition to festival sessions. Listen for strathspey articulation — not every reel approach fits the snap.\n\nThe tin whistle (feadóg) is inexpensive, portable, and widely taught in schools and folk workshops. In Scottish sessions it doubles fiddle melody at pitch or octave. Repertoire aligns with fiddle keys — D, G, A — with ornament (cuts, rolls, tonguing) matching Irish whistle technique closely enough that cross-border players swap tunes easily.\n\nWhistle does not carry a distinct \"Scottish only\" reputation the way pipes do, but it remains a gateway instrument from childhood tuition to festival sessions. Listen for strathspey articulation — not every reel approach fits the snap.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-10-tin-whistle-q1",
+        "type": "mcq",
+        "prompt": "James Scott Skinner is widely known as:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The Strathspey King — composer and virtuoso Scottish fiddler",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: The Strathspey King — composer and virtuoso Scottish fiddler"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-10-tin-whistle-q2",
+        "type": "truefalse",
+        "prompt": "Shetland fiddle style is associated with ringing open strings and twin-fiddle ensemble tradition.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-11-clàrsach-scottish-harp",
+    "title": "Scotland trad: Clàrsach (Scottish harp)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "The clàrsach is Scotland's historical wire- or gut-strung harp, cousin to the Irish cláirseach. Medieval Gaelic courts prized harpers; the Queen Mary Harp and Lamont Harp survive in museums as icons. Revival players — Savourna Stevenson, Rachel Hair, Patsy Seddon — perform dance tunes, airs, and song accompaniment.\n\nHarp suits folk clubs, Gaelic song settings, and concert stages more than loud pub sessions. Wire-strung revivalists pursue bell-like historical timbre; lever harps handle modulations for modern ensemble work. Clàrsach connects Scotland to shared Gaelic harp heritage across the Irish Sea.\n\nThe clàrsach is Scotland's historical wire- or gut-strung harp, cousin to the Irish cláirseach. Medieval Gaelic courts prized harpers; the Queen Mary Harp and Lamont Harp survive in museums as icons. Revival players — Savourna Stevenson, Rachel Hair, Patsy Seddon — perform dance tunes, airs, and song accompaniment.\n\nHarp suits folk clubs, Gaelic song settings, and concert stages more than loud pub sessions. Wire-strung revivalists pursue bell-like historical timbre; lever harps handle modulations for modern ensemble work. Clàrsach connects Scotland to shared Gaelic harp heritage across the Irish Sea.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-11-clàrsach-scottish-harp-q1",
+        "type": "mcq",
+        "prompt": "Great Highland bagpipes are typically inflated by:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing with bag under the arm",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Mouth blowing with bag under the arm"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-11-clàrsach-scottish-harp-q2",
+        "type": "mcq",
+        "prompt": "Scottish smallpipes are generally:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Softer and more suitable for indoor folk sessions than massed Highland pipes",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Softer and more suitable for indoor folk sessions than massed Highland pipes"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-12-compared-with-ireland",
     "title": "Scotland trad: Compared with Ireland",
     "track": "celtic",
     "region": "scotland",
@@ -1243,71 +2277,71 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-02-instruments-voices-i` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIf you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-02-instruments-voices-i` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Parallel lesson: `regions-celtic-ireland-02-instruments-voices-i`. Irish fiddle regions (Sligo, Donegal, Clare) differ from Shetland and North East Scottish schools, yet Donegal imports Scottish marches and strathspeys freely. Uilleann pipes are bellows-blown and indoor-voiced; Great Highland pipes are mouth-blown and outdoor-loud. Both nations share whistle and harp revival stories.\n\nIrish sessions may lack pipe-band marches; Scottish ceilidhs may stack strathspey–reel–reel sets for dancers. Copy the local accent when you sit in — a Sligo roll on a strathspey snap will feel wrong under a Highland dancer's feet.\n\nParallel lesson: `regions-celtic-ireland-02-instruments-voices-i`. Irish fiddle regions (Sligo, Donegal, Clare) differ from Shetland and North East Scottish schools, yet Donegal imports Scottish marches and strathspeys freely. Uilleann pipes are bellows-blown and indoor-voiced; Great Highland pipes are mouth-blown and outdoor-loud. Both nations share whistle and harp revival stories.\n\nIrish sessions may lack pipe-band marches; Scottish ceilidhs may stack strathspey–reel–reel sets for dancers. Copy the local accent when you sit in — a Sligo roll on a strathspey snap will feel wrong under a Highland dancer's feet.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-2-compared-with-ireland-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-12-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The clàrsach is:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Scotland's traditional harp with medieval Gaelic heritage",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Scotland's traditional harp with medieval Gaelic heritage"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-2-compared-with-ireland-q2",
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-12-compared-with-ireland-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Aly Bain is strongly associated with:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "d",
-            "text": "False",
+            "text": "Shetland fiddle and international folk broadcasting",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Shetland fiddle and international folk broadcasting"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-5-key-points",
+    "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-13-key-points",
     "title": "Scotland trad: Key points",
     "track": "celtic",
     "region": "scotland",
@@ -1324,66 +2358,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Fiddle, highland bagpipes, smallpipes, whistle, and clàrsach (scottish harp) connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Fiddle, highland bagpipes, smallpipes, whistle, and clàrsach (scottish harp) connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Shetland and North East fiddle are flagship regional accents — learn them by name, not as generic \"Scottish fiddle.\"\n- Great Highland bagpipe dominates public image and pipe-band competition; smallpipes suit indoor folk ensemble.\n- Whistle is a democratic session voice shared closely with Irish practice.\n- Clàrsach links medieval Gaelic heritage to modern folk and song accompaniment.\n- James Scott Skinner remains essential listening for strathspey repertoire and style.\n- Instrument roles overlap — pipes drone, fiddle drives dance lift, harp accompanies song.\n\n- Shetland and North East fiddle are flagship regional accents — learn them by name, not as generic \"Scottish fiddle.\"\n- Great Highland bagpipe dominates public image and pipe-band competition; smallpipes suit indoor folk ensemble.\n- Whistle is a democratic session voice shared closely with Irish practice.\n- Clàrsach links medieval Gaelic heritage to modern folk and song accompaniment.\n- James Scott Skinner remains essential listening for strathspey repertoire and style.\n- Instrument roles overlap — pipes drone, fiddle drives dance lift, harp accompanies song.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-13-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Strathspey bowing on fiddle emphasises a dotted long-short pulse called the Scottish snap.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-5-key-points-q2",
+        "id": "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-13-key-points-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Pipe bands at Highland games typically feature:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Massed Great Highland bagpipes with drum corps",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Tips and heels striking the floor",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Massed Great Highland bagpipes with drum corps"
       }
     ]
   },
@@ -1405,66 +2429,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Session Voices II** (Scotland trad):\n\n- Scottish Traditional Music rewards comparative study with Ireland.\n\n- Focus: accordion, piano, guitar, bodhrán-style percussion, and cello in folk ensembles.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Instruments — Session Voices II** (Scotland trad):\n\n- Accordion and piano are ceilidh-band staples for hall volume and dance rhythm.\n\n- Guitar supports song and session backing across folk clubs and festivals.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "A typical Scottish ceilidh band often includes:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Fiddle, accordion, piano, and drums for dance music",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Fiddle, accordion, piano, and drums for dance music"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Phil Cunningham is renowned as a master of Scottish accordion playing.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
-            "correct": true
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1486,66 +2500,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Session Voices II** (Scotland trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Instruments — Session Voices II** (Scotland trad):\n\n- Bodhrán appears through cross-border session influence.\n\n- Pipe-band drumming is scored ensemble competition distinct from session bodhrán.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Piano in Scottish ceilidh bands primarily provides:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "Rhythmic chord accompaniment and bass support for dancers",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Rhythmic chord accompaniment and bass support for dancers"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "Pipe-band snare drumming is judged in competition with complex unison rudiments.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1567,13 +2571,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Session Voices II** (Scotland trad):\n\n- Dance metre and tune form belong together in study.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Instruments — Session Voices II** (Scotland trad):\n\n- Cello adds bass and harmony in modern folk and fusion ensembles.\n\n- Ceilidh tempo and lift matter more than solo flash for dancers.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Bodhrán appears in some Scottish sessions through influence from Irish session culture.",
         "difficulty": 5,
         "choices": [
           {
@@ -1583,50 +2587,40 @@ export default [
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "9/8 slip-jig time",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-3-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Cello in modern Scottish folk bands often plays:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "9/8 slip-jig time",
+            "text": "Francis O'Neill",
             "correct": false
           },
           {
             "id": "c",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Brendan Breathnach",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "text": "Bass lines and harmonic support beneath fiddle and pipes",
             "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Bass lines and harmonic support beneath fiddle and pipes"
       }
     ]
   },
@@ -1648,66 +2642,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Session Voices II** (Scotland trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Accordion, piano, guitar, bodhrán-style percussion, and cello in folk ensembles connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Instruments — Session Voices II** (Scotland trad):\n\n- **Accordion** and **piano** are ceilidh-band staples driving dance rhythm in large halls.\n\n- **Guitar** supports song and session backing; less dominant than in Irish bouzouki culture but widespread.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Scottish hall dances historically relied on piano volume more than small-pub guitar backing.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-4-q2",
+        "type": "mcq",
+        "prompt": "Dick Gaughan is associated with:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Scots song tradition and guitar-accompanied folk ballads",
+            "correct": true
+          },
+          {
             "id": "c",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Brendan Breathnach",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "Mullingar, 1951",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Scots song tradition and guitar-accompanied folk ballads"
       }
     ]
   },
@@ -1729,66 +2713,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Instruments — Session Voices II** (Scotland trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Instruments — Session Voices II** (Scotland trad):\n\n- **Bodhrán** appears through cross-border session influence; **pipe-band drums** are a separate competitive art.\n\n- **Cello** adds bass and harmony in modern folk ensembles and fusion bands.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Accordion in ceilidh bands may lead a dance set when fiddle rests.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, bouzouki is more central to Irish sessions than to typical Scottish ceilidh bands.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-6",
+    "title": "Scotland trad: key ideas (6)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "From **Scottish Instruments — Session Voices II** (Scotland trad):\n\n- Ceilidh **tempo and lift** matter more than virtuosic solos for dance crowds.\n\n- Ensemble roles flex — accordion may lead; fiddle may drop to harmony in arranged sets.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Overbearing bodhrán volume can disrupt balance with fiddle and pipes in sessions.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Capercaillie represents a folk ensemble that incorporated instruments like cello in modern arrangements.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1810,71 +2835,396 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on accordion, piano, guitar, bodhrán-style percussion, and cello in folk ensembles within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nScottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on accordion, piano, guitar, bodhrán-style percussion, and cello in folk ensembles within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Melody instruments open the tune, but Scottish social music depends equally on accordion, piano, guitar, percussion, and increasingly cello in folk ensembles. A ceilidh band might run fiddle, accordion, piano, drums, and bass for a hall full of dancers. A pub session may pair guitar and bodhrán behind pipes and whistle. Revival bands from Battlefield Band to Capercaillie layered rock-era instrumentation without abandoning trad grammar.\n\nThis lesson completes the ensemble picture begun in Traditional Voices I.\n\nMelody instruments open the tune, but Scottish social music depends equally on accordion, piano, guitar, percussion, and increasingly cello in folk ensembles. A ceilidh band might run fiddle, accordion, piano, drums, and bass for a hall full of dancers. A pub session may pair guitar and bodhrán behind pipes and whistle. Revival bands from Battlefield Band to Capercaillie layered rock-era instrumentation without abandoning trad grammar.\n\nThis lesson completes the ensemble picture begun in Traditional Voices I.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "A typical Scottish ceilidh band often includes:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "False",
-            "correct": false
+            "text": "Fiddle, accordion, piano, and drums for dance music",
+            "correct": true
           },
           {
             "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Fiddle, accordion, piano, and drums for dance music"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Phil Cunningham is renowned as a master of Scottish accordion playing.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
-          },
-          {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-2-compared-with-ireland",
+    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-2-accordion-in-ceilidh-bands",
+    "title": "Scotland trad: Accordion in ceilidh bands",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "The button accordion (often B/C or C#/D in Irish-influenced lineups; piano accordion in many Scottish ceilidh bands) supplies chords, bass pulse, and melody when needed. Scottish ceilidh repertoire favours strong left-hand rhythm for dancers — reels and jigs at steady tempo, strathspeys with lifted dotted feel.\n\nPhil Cunningham (with Aly Bain in Boys of the Lough and solo projects) represents masterful Scottish accordion — melody, harmony, and composition. Accordion often leads a ceilidh set when fiddle rests; in sessions it may start the tune with chordal introduction.\n\nCeilidh Band standard lineup frequently includes accordion as harmonic engine alongside fiddle and piano.\n\nThe button accordion (often B/C or C#/D in Irish-influenced lineups; piano accordion in many Scottish ceilidh bands) supplies chords, bass pulse, and melody when needed. Scottish ceilidh repertoire favours strong left-hand rhythm for dancers — reels and jigs at steady tempo, strathspeys with lifted dotted feel.\n\nPhil Cunningham (with Aly Bain in Boys of the Lough and solo projects) represents masterful Scottish accordion — melody, harmony, and composition. Accordion often leads a ceilidh set when fiddle rests; in sessions it may start the tune with chordal introduction.\n\nCeilidh Band standard lineup frequently includes accordion as harmonic engine alongside fiddle and piano.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-2-accordion-in-ceilidh-bands-q1",
+        "type": "mcq",
+        "prompt": "Piano in Scottish ceilidh bands primarily provides:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Rhythmic chord accompaniment and bass support for dancers",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Rhythmic chord accompaniment and bass support for dancers"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-2-accordion-in-ceilidh-bands-q2",
+        "type": "truefalse",
+        "prompt": "Pipe-band snare drumming is judged in competition with complex unison rudiments.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-3-piano",
+    "title": "Scotland trad: Piano",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "Piano anchors many ceilidh bands and country dance groups — vamping chords, bass lines, and occasional melody doubles. Unlike Irish pub sessions, where guitar and bouzouki dominate backing, Scottish hall dances historically relied on piano and drum kit for volume in large rooms.\n\nPiano style is rhythmic rather than classical — think dance-band voicing, not Liszt. Folk revival recordings from the 1970s onward feature piano in Battlefield Band and similar groups. Session pianists are rarer in small pubs (portability) but common on stages and in teaching rooms.\n\nPiano anchors many ceilidh bands and country dance groups — vamping chords, bass lines, and occasional melody doubles. Unlike Irish pub sessions, where guitar and bouzouki dominate backing, Scottish hall dances historically relied on piano and drum kit for volume in large rooms.\n\nPiano style is rhythmic rather than classical — think dance-band voicing, not Liszt. Folk revival recordings from the 1970s onward feature piano in Battlefield Band and similar groups. Session pianists are rarer in small pubs (portability) but common on stages and in teaching rooms.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-3-piano-q1",
+        "type": "truefalse",
+        "prompt": "Bodhrán appears in some Scottish sessions through influence from Irish session culture.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-3-piano-q2",
+        "type": "mcq",
+        "prompt": "Cello in modern Scottish folk bands often plays:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Bass lines and harmonic support beneath fiddle and pipes",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Bass lines and harmonic support beneath fiddle and pipes"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-4-guitar",
+    "title": "Scotland trad: Guitar",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "Guitar in Scottish folk plays chord accompaniment — strumming or picking patterns in D, G, A, and related keys. DADGAD tuning appears in Celtic folk backing, as in Irish practice. Guitar supports song sets in folk clubs and session backing where space allows.\n\nGuitar is less central than in Irish bouzouki-led sessions but ubiquitous in singer-songwriter folk, pub singarounds, and festival workshops. Dick Gaughan's guitar work shows how Scots song and political ballad tradition merge with trad harmony.\n\nGuitar in Scottish folk plays chord accompaniment — strumming or picking patterns in D, G, A, and related keys. DADGAD tuning appears in Celtic folk backing, as in Irish practice. Guitar supports song sets in folk clubs and session backing where space allows.\n\nGuitar is less central than in Irish bouzouki-led sessions but ubiquitous in singer-songwriter folk, pub singarounds, and festival workshops. Dick Gaughan's guitar work shows how Scots song and political ballad tradition merge with trad harmony.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-4-guitar-q1",
+        "type": "truefalse",
+        "prompt": "Scottish hall dances historically relied on piano volume more than small-pub guitar backing.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-4-guitar-q2",
+        "type": "mcq",
+        "prompt": "Dick Gaughan is associated with:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Scots song tradition and guitar-accompanied folk ballads",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Scots song tradition and guitar-accompanied folk ballads"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-5-bodhrán-and-percussion",
+    "title": "Scotland trad: Bodhrán and percussion",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "The bodhrán — Irish frame drum — appears in Scottish sessions through cross-border influence, especially where Irish and Scottish musicians share festival bills. Native Scottish percussion includes snare and bass drum in pipe bands, kit drums in ceilidh bands, and spoons or bones in informal settings.\n\nCeilidh drummers mark reel and jig lift with clear backbeat; pipe-band snare writing uses complex rudiments judged in competition. Session bodhrán players should listen — overbearing percussion ruins fiddle and pipe balance, as in Irish etiquette.\n\nPipe Band Drumming are a specialised world distinct from casual session bodhrán — competing drummers study scores and unison patterns for games seasons.\n\nThe bodhrán — Irish frame drum — appears in Scottish sessions through cross-border influence, especially where Irish and Scottish musicians share festival bills. Native Scottish percussion includes snare and bass drum in pipe bands, kit drums in ceilidh bands, and spoons or bones in informal settings.\n\nCeilidh drummers mark reel and jig lift with clear backbeat; pipe-band snare writing uses complex rudiments judged in competition. Session bodhrán players should listen — overbearing percussion ruins fiddle and pipe balance, as in Irish etiquette.\n\nPipe Band Drumming are a specialised world distinct from casual session bodhrán — competing drummers study scores and unison patterns for games seasons.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-5-bodhrán-and-percussion-q1",
+        "type": "truefalse",
+        "prompt": "Accordion in ceilidh bands may lead a dance set when fiddle rests.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-5-bodhrán-and-percussion-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, bouzouki is more central to Irish sessions than to typical Scottish ceilidh bands.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-6-cello-in-folk-scenes",
+    "title": "Scotland trad: Cello in folk scenes",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "scotland",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "Cello entered Scottish folk ensembles through revival and fusion groups seeking bass lines and harmonic colour below fiddle and accordion. Capercaillie and contemporary folk bands use cello for pad and rhythmic bowing; some quartets arrange trad tunes for string ensemble.\n\nCello is not a historical ceilidh instrument, but it is a living one on festival stages and recordings. Players adapt ornament sparingly — the role is often supportive, anchoring tonality for modern arrangements while fiddle and pipes carry melodic accent.\n\nCello entered Scottish folk ensembles through revival and fusion groups seeking bass lines and harmonic colour below fiddle and accordion. Capercaillie and contemporary folk bands use cello for pad and rhythmic bowing; some quartets arrange trad tunes for string ensemble.\n\nCello is not a historical ceilidh instrument, but it is a living one on festival stages and recordings. Players adapt ornament sparingly — the role is often supportive, anchoring tonality for modern arrangements while fiddle and pipes carry melodic accent.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-6-cello-in-folk-scenes-q1",
+        "type": "truefalse",
+        "prompt": "Overbearing bodhrán volume can disrupt balance with fiddle and pipes in sessions.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-6-cello-in-folk-scenes-q2",
+        "type": "truefalse",
+        "prompt": "Capercaillie represents a folk ensemble that incorporated instruments like cello in modern arrangements.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-9-compared-with-ireland",
     "title": "Scotland trad: Compared with Ireland",
     "track": "celtic",
     "region": "scotland",
@@ -1891,71 +3241,61 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-03-instruments-voices-ii` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIf you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-03-instruments-voices-ii` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Parallel lesson: `regions-celtic-ireland-03-instruments-voices-ii`. Irish sessions lean on guitar, bouzouki, banjo, and concertina; Scottish ceilidhs lean on piano, accordion, and kit drums for hall volume. Bodhrán crosses both worlds; pipe-band percussion is distinctly Scottish.\n\nIrish céilí bands parallel Scottish ceilidh bands — similar social function, different standard instrumentations by region. When you hear Battlefield Band, notice accordion and pipes sharing lead; when you hear Planxty, notice bouzouki and pipes — cousins, not copies.\n\nParallel lesson: `regions-celtic-ireland-03-instruments-voices-ii`. Irish sessions lean on guitar, bouzouki, banjo, and concertina; Scottish ceilidhs lean on piano, accordion, and kit drums for hall volume. Bodhrán crosses both worlds; pipe-band percussion is distinctly Scottish.\n\nIrish céilí bands parallel Scottish ceilidh bands — similar social function, different standard instrumentations by region. When you hear Battlefield Band, notice accordion and pipes sharing lead; when you hear Planxty, notice bouzouki and pipes — cousins, not copies.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-2-compared-with-ireland-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-9-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "A typical Scottish ceilidh band often includes:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Fiddle, accordion, piano, and drums for dance music",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Fiddle, accordion, piano, and drums for dance music"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-9-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Phil Cunningham is renowned as a master of Scottish accordion playing.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
-            "correct": true
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-5-key-points",
+    "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-10-key-points",
     "title": "Scotland trad: Key points",
     "track": "celtic",
     "region": "scotland",
@@ -1972,66 +3312,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Accordion, piano, guitar, bodhrán-style percussion, and cello in folk ensembles connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Accordion, piano, guitar, bodhrán-style percussion, and cello in folk ensembles connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Accordion and piano are ceilidh-band staples driving dance rhythm in large halls.\n- Guitar supports song and session backing; less dominant than in Irish bouzouki culture but widespread.\n- Bodhrán appears through cross-border session influence; pipe-band drums are a separate competitive art.\n- Cello adds bass and harmony in modern folk ensembles and fusion bands.\n- Ceilidh tempo and lift matter more than virtuosic solos for dance crowds.\n- Ensemble roles flex — accordion may lead; fiddle may drop to harmony in arranged sets.\n\n- Accordion and piano are ceilidh-band staples driving dance rhythm in large halls.\n- Guitar supports song and session backing; less dominant than in Irish bouzouki culture but widespread.\n- Bodhrán appears through cross-border session influence; pipe-band drums are a separate competitive art.\n- Cello adds bass and harmony in modern folk ensembles and fusion bands.\n- Ceilidh tempo and lift matter more than virtuosic solos for dance crowds.\n- Ensemble roles flex — accordion may lead; fiddle may drop to harmony in arranged sets.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-5-key-points-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-10-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Piano in Scottish ceilidh bands primarily provides:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "Rhythmic chord accompaniment and bass support for dancers",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Rhythmic chord accompaniment and bass support for dancers"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-10-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Pipe-band snare drumming is judged in competition with complex unison rudiments.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2053,66 +3383,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- Scottish Traditional Music rewards comparative study with Ireland.\n\n- Focus: reels, strathspeys, jigs, hornpipes, slow airs, and puirt à beul (mouth music).\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- Strathspey is Scotland's signature form with dotted Scottish snap in 4/4.\n\n- Reels and jigs overlap with Irish repertoire but sit in different ceilidh set orders.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The strathspey is characterised by:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "9/8 slip-jig time",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "A dotted proud pulse and Scottish snap in 4/4 metre",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: A dotted proud pulse and Scottish snap in 4/4 metre"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Puirt à beul is Gaelic mouth music used for dance rhythm and house entertainment.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
             "text": "False",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2134,66 +3454,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- Hornpipes use dotted swing — distinct from strathspey pride pulse.\n\n- Slow airs serve listening; unannounced airs disrupt ceilidh dance flow.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "A typical ceilidh medley might pair:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Strathspey followed by reels for Scottish country dance",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "9/8 slip-jig time",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "4/4 reel time with a steady drive",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Sligo fiddle style",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Strathspey followed by reels for Scottish country dance"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "Reels in Scottish trad commonly use 4/4 or 2/2 with steady even pulse.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2215,66 +3525,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- Dance metre and tune form belong together in study.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- Puirt à beul is Gaelic mouth music with dance and language heritage.\n\n- Piobaireachd is classical pipe ceòl mòr separate from ceilidh sets.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Piobaireachd is:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           },
           {
             "id": "c",
+            "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Classical Highland bagpipe ceòl mòr with theme and variations"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Hornpipes are often played with a dotted bouncy swing distinct from strathspey snap.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2296,66 +3596,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Reels, strathspeys, jigs, hornpipes, slow airs, and puirt à beul (mouth music) connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- **Strathspey** is Scotland's signature form — dotted snap in 4/4, distinct from straight reels.\n\n- **Reels** and **jigs** overlap heavily with Irish repertoire but sit in different typical set orders for ceilidh dance.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "James Scott Skinner composed strathspey repertoire including The Bonnie Lass of Bon Accord.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mullingar, 1951",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Slow airs are appropriate for unannounced insertion in the middle of a ceilidh reel set without warning.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "airs disrupt dance flow; etiquette parallels Irish session practice."
       }
     ]
   },
@@ -2377,66 +3657,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- **Hornpipes** use dotted swing; do not confuse with strathspey pride pulse.\n\n- **Slow airs** serve listening and song melody, not unannounced ceilidh breaks.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Jigs in Scotland share 6/8 two-beat feel with Irish double jigs.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Mullingar, 1951",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Waulking songs overlap with Gaelic work-song tradition related to puirt and cloth-fulling rhythm.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-6",
+    "title": "Scotland trad: key ideas (6)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "From **Scottish Traditional Music — Tunes, Forms, and Style** (Scotland trad):\n\n- **Puirt à beul** is Gaelic mouth music with serious dance and language heritage.\n\n- **Piobaireachd** is classical pipe repertoire separate from ceilidh dance sets.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Moneymusk is cited as an example strathspey tune in Scottish repertoire.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, strathspey is a core Scottish form without Irish equivalent prominence in session culture.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2458,71 +3779,457 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on reels, strathspeys, jigs, hornpipes, slow airs, and puirt à beul (mouth music) within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nScottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on reels, strathspeys, jigs, hornpipes, slow airs, and puirt à beul (mouth music) within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Dance and listening music in Scotland organise around metre, tempo, and physical feel on the floor. A dancer expecting a strathspey will stumble if the band launches a reel. A piper competing at games must distinguish march, strathspey, and reel sets in judging categories. This lesson maps the main forms — with emphasis on strathspey as Scotland's signature contribution — and introduces puirt à beul, Gaelic mouth music that blurs song and rhythm.\n\nDance and listening music in Scotland organise around metre, tempo, and physical feel on the floor. A dancer expecting a strathspey will stumble if the band launches a reel. A piper competing at games must distinguish march, strathspey, and reel sets in judging categories. This lesson maps the main forms — with emphasis on strathspey as Scotland's signature contribution — and introduces puirt à beul, Gaelic mouth music that blurs song and rhythm.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "The strathspey is characterised by:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
+            "text": "9/8 slip-jig time",
             "correct": false
           },
           {
             "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
+            "text": "A dotted proud pulse and Scottish snap in 4/4 metre",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "True",
-            "correct": true
+            "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: A dotted proud pulse and Scottish snap in 4/4 metre"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "type": "truefalse",
+        "prompt": "Puirt à beul is Gaelic mouth music used for dance rhythm and house entertainment.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-2-compared-with-ireland",
+    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-2-reels",
+    "title": "Scotland trad: Reels",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Reels in 4/4 (or 2/2) drive ceilidhs and sessions with steady ONE-two THREE-four pulse. The Mason's Apron, Highland Harry, and countless cross-border tunes share repertoire with Ireland. Scottish reel accent may feel straighter than strathspey — bowing and piping articulate even quavers after the snap forms are internalised.\n\nReels chain in sets for dancers: reel–reel–reel or strathspey–reel–reel is a classic ceilidh pattern. Session players trade reels by ear; ornament density varies by region — Shetland precision, North East fire.\n\nReels in 4/4 (or 2/2) drive ceilidhs and sessions with steady ONE-two THREE-four pulse. The Mason's Apron, Highland Harry, and countless cross-border tunes share repertoire with Ireland. Scottish reel accent may feel straighter than strathspey — bowing and piping articulate even quavers after the snap forms are internalised.\n\nReels chain in sets for dancers: reel–reel–reel or strathspey–reel–reel is a classic ceilidh pattern. Session players trade reels by ear; ornament density varies by region — Shetland precision, North East fire.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-2-reels-q1",
+        "type": "mcq",
+        "prompt": "A typical ceilidh medley might pair:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Strathspey followed by reels for Scottish country dance",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Strathspey followed by reels for Scottish country dance"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-2-reels-q2",
+        "type": "truefalse",
+        "prompt": "Reels in Scottish trad commonly use 4/4 or 2/2 with steady even pulse.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-3-strathspeys",
+    "title": "Scotland trad: Strathspeys",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "The strathspey is Scotland's defining dance form — 4/4 with a dotted, proud pulse and the Scottish snap (long-short figure on certain beats). Fiddlers bow it; pipers articulate it; dancers step it in Scottish country dance and Highland contexts.\n\nTunes like Moneymusk, Captain Horne, and The Bonnie Lass of Bon Accord (Skinner) exemplify the form. Strathspeys feel slower and more majestic than reels though metre is also 4/4 — the rhythmic shape differs, not the time signature alone.\n\nStrathspey rhythm is the first thing to master when leaving Irish-only reel–jig thinking. Mislabel a strathspey as a hornpipe and your foot-tap will lie.\n\nThe strathspey is Scotland's defining dance form — 4/4 with a dotted, proud pulse and the Scottish snap (long-short figure on certain beats). Fiddlers bow it; pipers articulate it; dancers step it in Scottish country dance and Highland contexts.\n\nTunes like Moneymusk, Captain Horne, and The Bonnie Lass of Bon Accord (Skinner) exemplify the form. Strathspeys feel slower and more majestic than reels though metre is also 4/4 — the rhythmic shape differs, not the time signature alone.\n\nStrathspey rhythm is the first thing to master when leaving Irish-only reel–jig thinking. Mislabel a strathspey as a hornpipe and your foot-tap will lie.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-3-strathspeys-q1",
+        "type": "mcq",
+        "prompt": "Piobaireachd is:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Classical Highland bagpipe ceòl mòr with theme and variations"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-3-strathspeys-q2",
+        "type": "truefalse",
+        "prompt": "Hornpipes are often played with a dotted bouncy swing distinct from strathspey snap.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-5-jigs",
+    "title": "Scotland trad: Jigs",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Jigs in 6/8 share the JIG-ged-y JIG-ged-y two-beat feel familiar from Ireland. Scottish ceilidhs use jigs for dances like Strip the Willow (often mixed with reels in medleys). Accent and tune choice may skew Scottish — The Irish Washerwoman appears ironically on both sides of the sea — but metre recognition transfers directly from Irish study.\n\nPipe jigs and fiddle jigs fill festival programmes; single jigs and double jigs distinctions matter less in casual ceilidh calling than steady lift.\n\nJigs in 6/8 share the JIG-ged-y JIG-ged-y two-beat feel familiar from Ireland. Scottish ceilidhs use jigs for dances like Strip the Willow (often mixed with reels in medleys). Accent and tune choice may skew Scottish — The Irish Washerwoman appears ironically on both sides of the sea — but metre recognition transfers directly from Irish study.\n\nPipe jigs and fiddle jigs fill festival programmes; single jigs and double jigs distinctions matter less in casual ceilidh calling than steady lift.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-5-jigs-q1",
+        "type": "truefalse",
+        "prompt": "James Scott Skinner composed strathspey repertoire including The Bonnie Lass of Bon Accord.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-5-jigs-q2",
+        "type": "truefalse",
+        "prompt": "Slow airs are appropriate for unannounced insertion in the middle of a ceilidh reel set without warning.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "airs disrupt dance flow; etiquette parallels Irish session practice."
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-6-hornpipes",
+    "title": "Scotland trad: Hornpipes",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Hornpipes in dotted 4/4 carry bouncy long-short swing — Off to California and sailor-associated tunes cross borders. Scottish players may hornpipe for stage and listening; ceilidh callers less often build full hornpipe sets than reel–jig blocks. Competition fiddle includes hornpipes as display pieces.\n\nDistinguish hornpipe swing from strathspey snap — both use dots, but strathspey pride and hornpipe bounce feel different underfoot.\n\nHornpipes in dotted 4/4 carry bouncy long-short swing — Off to California and sailor-associated tunes cross borders. Scottish players may hornpipe for stage and listening; ceilidh callers less often build full hornpipe sets than reel–jig blocks. Competition fiddle includes hornpipes as display pieces.\n\nDistinguish hornpipe swing from strathspey snap — both use dots, but strathspey pride and hornpipe bounce feel different underfoot.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-6-hornpipes-q1",
+        "type": "truefalse",
+        "prompt": "Jigs in Scotland share 6/8 two-beat feel with Irish double jigs.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-6-hornpipes-q2",
+        "type": "truefalse",
+        "prompt": "Waulking songs overlap with Gaelic work-song tradition related to puirt and cloth-fulling rhythm.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-7-slow-airs",
+    "title": "Scotland trad: Slow airs",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Slow airs adapt Gaelic song melodies, piobaireachd themes, or lament tradition for pipes, fiddle, and harp. Free or slow tempo; sparse ornament; no dance function in mixed sets. Dark Island and pipe airs from ceòl mòr repertoire appear in folk concerts.\n\nAnnouncing an air between ceilidh reels without warning disrupts the floor — parallel to Irish session etiquette. Airs suit listening rooms, folk clubs, and pipe recitals.\n\nSlow airs adapt Gaelic song melodies, piobaireachd themes, or lament tradition for pipes, fiddle, and harp. Free or slow tempo; sparse ornament; no dance function in mixed sets. Dark Island and pipe airs from ceòl mòr repertoire appear in folk concerts.\n\nAnnouncing an air between ceilidh reels without warning disrupts the floor — parallel to Irish session etiquette. Airs suit listening rooms, folk clubs, and pipe recitals.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-7-slow-airs-q1",
+        "type": "truefalse",
+        "prompt": "Moneymusk is cited as an example strathspey tune in Scottish repertoire.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-7-slow-airs-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, strathspey is a core Scottish form without Irish equivalent prominence in session culture.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-8-puirt-à-beul",
+    "title": "Scotland trad: Puirt à beul",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Puirt à beul (\"tunes from a mouth\") is Gaelic mouth music — rhythmic syllables carrying dance pulse when instruments were absent or for house entertainment. Not purely \"wordless\" — some pieces mix lyrics and vocables. Waulking songs overlap in work-rhythm function.\n\nRevival bands (Capercaillie, Mouth Music) arranged puirt for stage; traditional singers preserve West Highland and island versions. Puirt à Beul connects song, dance, and Gaelic language survival — study it as rhythm instrument, not novelty vocal.\n\nPuirt à beul (\"tunes from a mouth\") is Gaelic mouth music — rhythmic syllables carrying dance pulse when instruments were absent or for house entertainment. Not purely \"wordless\" — some pieces mix lyrics and vocables. Waulking songs overlap in work-rhythm function.\n\nRevival bands (Capercaillie, Mouth Music) arranged puirt for stage; traditional singers preserve West Highland and island versions. Puirt à Beul connects song, dance, and Gaelic language survival — study it as rhythm instrument, not novelty vocal.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-8-puirt-à-beul-q1",
+        "type": "mcq",
+        "prompt": "The strathspey is characterised by:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A dotted proud pulse and Scottish snap in 4/4 metre",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A dotted proud pulse and Scottish snap in 4/4 metre"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-8-puirt-à-beul-q2",
+        "type": "truefalse",
+        "prompt": "Puirt à beul is Gaelic mouth music used for dance rhythm and house entertainment.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-11-compared-with-ireland",
     "title": "Scotland trad: Compared with Ireland",
     "track": "celtic",
     "region": "scotland",
@@ -2539,29 +4246,29 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-04-genres-forms` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIf you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-04-genres-forms` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Parallel lesson: `regions-celtic-ireland-04-genres-forms`. Ireland lacks strathspey as a core session form; Scotland lacks polka and slide strongholds like Sliabh Luachra. Both share reels, jigs, hornpipes, and slow airs. Irish slip jig (9/8) is rarer in Scottish ceilidh default sets.\n\nDonegal highlands import Scottish strathspey family feel — compare recordings from Glencolmcille and Aberdeen. Puirt à beul parallels Irish lilting (portaireacht) — mouth rhythm when pipes or fiddle are elsewhere.\n\nParallel lesson: `regions-celtic-ireland-04-genres-forms`. Ireland lacks strathspey as a core session form; Scotland lacks polka and slide strongholds like Sliabh Luachra. Both share reels, jigs, hornpipes, and slow airs. Irish slip jig (9/8) is rarer in Scottish ceilidh default sets.\n\nDonegal highlands import Scottish strathspey family feel — compare recordings from Glencolmcille and Aberdeen. Puirt à beul parallels Irish lilting (portaireacht) — mouth rhythm when pipes or fiddle are elsewhere.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-2-compared-with-ireland-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-11-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "A typical ceilidh medley might pair:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
-            "correct": false
+            "text": "Strathspey followed by reels for Scottish country dance",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "9/8 slip-jig time",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
           },
           {
             "id": "d",
@@ -2569,41 +4276,31 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Strathspey followed by reels for Scottish country dance"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-11-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Reels in Scottish trad commonly use 4/4 or 2/2 with steady even pulse.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
             "text": "False",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-5-key-points",
+    "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-12-key-points",
     "title": "Scotland trad: Key points",
     "track": "celtic",
     "region": "scotland",
@@ -2620,19 +4317,19 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Reels, strathspeys, jigs, hornpipes, slow airs, and puirt à beul (mouth music) connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Reels, strathspeys, jigs, hornpipes, slow airs, and puirt à beul (mouth music) connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Strathspey is Scotland's signature form — dotted snap in 4/4, distinct from straight reels.\n- Reels and jigs overlap heavily with Irish repertoire but sit in different typical set orders for ceilidh dance.\n- Hornpipes use dotted swing; do not confuse with strathspey pride pulse.\n- Slow airs serve listening and song melody, not unannounced ceilidh breaks.\n- Puirt à beul is Gaelic mouth music with serious dance and language heritage.\n- Piobaireachd is classical pipe repertoire separate from ceilidh dance sets.\n\n- Strathspey is Scotland's signature form — dotted snap in 4/4, distinct from straight reels.\n- Reels and jigs overlap heavily with Irish repertoire but sit in different typical set orders for ceilidh dance.\n- Hornpipes use dotted swing; do not confuse with strathspey pride pulse.\n- Slow airs serve listening and song melody, not unannounced ceilidh breaks.\n- Puirt à beul is Gaelic mouth music with serious dance and language heritage.\n- Piobaireachd is classical pipe repertoire separate from ceilidh dance sets.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-5-key-points-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-12-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Piobaireachd is:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": true
+            "text": "Donegal highland repertoire",
+            "correct": false
           },
           {
             "id": "b",
@@ -2641,45 +4338,35 @@ export default [
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
+            "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Sligo fiddle style",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Classical Highland bagpipe ceòl mòr with theme and variations"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-12-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Hornpipes are often played with a dotted bouncy swing distinct from strathspey snap.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2701,66 +4388,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- Scottish Traditional Music rewards comparative study with Ireland.\n\n- Focus: ceilidh sets, Highland dancing, step dance, and pipe band drumming.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- Ceilidh dancing is inclusive social dance with caller-led figures.\n\n- Highland dancing is competitive athletic art tied to games and pipe sets.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "A ceilidh caller's role is to:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "Teach and remind dancers of figures during live music",
             "correct": true
           },
           {
             "id": "d",
-            "text": "D, G, A, and E minor",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Teach and remind dancers of figures during live music"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Highland dancing includes competition forms like Sword Dance and Highland Fling performed to pipe music.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
             "text": "False",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Brendan Breathnach",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2782,66 +4459,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- Step dance preserves percussive foot tradition in revival contexts.\n\n- Pipe-band drumming uses scored corps parts judged in competition.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Strip the Willow is associated with:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Ceilidh social dancing with reels or jigs",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mullingar, 1951",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Ceilidh social dancing with reels or jigs"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Pipe-band snare drummers typically play:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Regions where Irish remains a community language",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Written scores with unison rudiments judged in competition",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Written scores with unison rudiments judged in competition"
       }
     ]
   },
@@ -2863,66 +4540,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- Dance metre and tune form belong together in study.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- Musicians must match strathspey snap and reel lift to the dance form.\n\n- Summer games season concentrates pipe-band and Highland dance activity.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Ceilidh bands should prioritise danceable tempo over maximum reel speed for beginners on the floor.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "World Pipe Band Championships are strongly associated with Glasgow and graded pipe-band competition.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2944,66 +4601,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Ceilidh sets, highland dancing, step dance, and pipe band drumming connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- **Ceilidh** dancing is inclusive social dance with caller and band — reels, jigs, and strathspeys at danceable tempo.\n\n- **Highland dancing** is competitive athletic art tied to games and pipe music sets.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Step dance in Scotland may feature percussive footwork alongside fiddle in informal or revival settings.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Highland games combine athletics, piping, and Highland dancing on seasonal public stages.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3025,47 +4662,211 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- **Step dance** preserves percussive foot tradition in revival and informal festival contexts.\n\n- **Pipe-band drumming** is scored ensemble competition distinct from session bodhrán.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Strathspey–reel–reel is a cited ceilidh medley pattern in Scottish country dance convention.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Pipe-band drumming is identical to casual bodhrán backing in a small pub session.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
-            "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
+        "explain": "pipe-band drumming uses scored corps parts judged in competition."
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-6",
+    "title": "Scotland trad: key ideas (6)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "scotland",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-05-dance",
+    "estimateMinutes": 4,
+    "body": "From **Scottish Traditional Music — Dance and Rhythm** (Scotland trad):\n\n- Musicians must match **strathspey snap** and **reel lift** to the dance form on the floor.\n\n- Summer **games season** concentrates pipe-band and Highland dance activity; ceilidhs run year-round.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Dashing White Sergeant is named as a ceilidh dance figure in Scottish social tradition.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Scotland emphasises pipe-band drum corps and Highland dancing competition at games to a unique degree.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-2-ceilidh-dancing",
+    "title": "Scotland trad: Ceilidh dancing",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "scotland",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-05-dance",
+    "estimateMinutes": 4,
+    "body": "A ceilidh (cèilidh) today usually means a social dance with live band and caller who teaches or reminds figures. Dances like Dashing White Sergeant, Strip the Willow, Gay Gordons, and  require no prior expertise — the caller walks newcomers through formations while fiddles and accordion drive reels and jigs.\n\nCeilidh culture prizes inclusion: weddings, student unions, Burns suppers, and village halls pack the floor. Band tempo must stay danceable — racing reels lose beginners mid-figure. Sets often run strathspey–reel–reel or jig blocks matching Scottish country dance convention.\n\nCeilidh Dance connects Lowland halls, urban folk scenes, and diaspora St Andrew's nights. The word retains Gaelic roots (cèilidh — visit, gathering) even when the programme is English-language and accordion-led.\n\nA ceilidh (cèilidh) today usually means a social dance with live band and caller who teaches or reminds figures. Dances like Dashing White Sergeant, Strip the Willow, Gay Gordons, and  require no prior expertise — the caller walks newcomers through formations while fiddles and accordion drive reels and jigs.\n\nCeilidh culture prizes inclusion: weddings, student unions, Burns suppers, and village halls pack the floor. Band tempo must stay danceable — racing reels lose beginners mid-figure. Sets often run strathspey–reel–reel or jig blocks matching Scottish country dance convention.\n\nCeilidh Dance connects Lowland halls, urban folk scenes, and diaspora St Andrew's nights. The word retains Gaelic roots (cèilidh — visit, gathering) even when the programme is English-language and accordion-led.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-2-ceilidh-dancing-q1",
+        "type": "mcq",
+        "prompt": "A ceilidh caller's role is to:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Teach and remind dancers of figures during live music",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Teach and remind dancers of figures during live music"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-2-ceilidh-dancing-q2",
+        "type": "truefalse",
+        "prompt": "Highland dancing includes competition forms like Sword Dance and Highland Fling performed to pipe music.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-4-highland-dancing",
+    "title": "Scotland trad: Highland dancing",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "scotland",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-05-dance",
+    "estimateMinutes": 4,
+    "body": "Highland dancing is a competitive and performance tradition — Sword Dance (Gille Chaluim), Highland Fling, Seann Triubhas, Reel of Tulloch — judged at games and Highland dancing championships worldwide. Dancers wear kilt and ghillies; technique demands precision, elevation, and timing tied to pipe music.\n\nUnlike inclusive ceilidh rows, Highland dancing requires years of training. Pipers supply competition sets — marches, strathspeys, reels — at prescribed tempos. The visual iconography (swords, kilts, games fields) shapes global \"Scottish music\" imagery as strongly as pipe bands.\n\nHighland Dancing links music to athletics at Highland games from Cowal to small village gatherings. Wikipedia notes military and clan associations in historical development; modern sport emphasises athletic artistry.\n\nHighland dancing is a competitive and performance tradition — Sword Dance (Gille Chaluim), Highland Fling, Seann Triubhas, Reel of Tulloch — judged at games and Highland dancing championships worldwide. Dancers wear kilt and ghillies; technique demands precision, elevation, and timing tied to pipe music.\n\nUnlike inclusive ceilidh rows, Highland dancing requires years of training. Pipers supply competition sets — marches, strathspeys, reels — at prescribed tempos. The visual iconography (swords, kilts, games fields) shapes global \"Scottish music\" imagery as strongly as pipe bands.\n\nHighland Dancing links music to athletics at Highland games from Cowal to small village gatherings. Wikipedia notes military and clan associations in historical development; modern sport emphasises athletic artistry.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-4-highland-dancing-q1",
+        "type": "mcq",
+        "prompt": "Strip the Willow is associated with:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ceilidh social dancing with reels or jigs",
             "correct": true
           },
           {
@@ -3084,35 +4885,12 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
-      }
-    ]
-  },
-  {
-    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-1-overview",
-    "title": "Scotland trad: Overview",
-    "track": "celtic",
-    "region": "scotland",
-    "kind": "theory_lesson",
-    "difficulty": 7,
-    "tags": [
-      "scotland",
-      "celtic",
-      "dance",
-      "rhythm"
-    ],
-    "prerequisites": [
-      "regions-celtic-scotland-04-genres-forms"
-    ],
-    "lessonSourceId": "regions-celtic-scotland-05-dance",
-    "estimateMinutes": 4,
-    "body": "Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on ceilidh sets, Highland dancing, step dance, and pipe band drumming within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nScottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on ceilidh sets, Highland dancing, step dance, and pipe band drumming within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
-    "tryThis": "",
-    "quizzes": [
+        "explain": "The lesson identifies this as: Ceilidh social dancing with reels or jigs"
+      },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-1-overview-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-4-highland-dancing-q2",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "Pipe-band snare drummers typically play:",
         "difficulty": 7,
         "choices": [
           {
@@ -3132,45 +4910,199 @@ export default [
           },
           {
             "id": "d",
-            "text": "True",
+            "text": "Written scores with unison rudiments judged in competition",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          }
-        ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Written scores with unison rudiments judged in competition"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-2-compared-with-ireland",
+    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-5-step-dance",
+    "title": "Scotland trad: Step dance",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "scotland",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-05-dance",
+    "estimateMinutes": 4,
+    "body": "Step dance in Scotland includes hard-shoe and soft-shoe traditions overlapping Irish sean-nós dance and Cape Breton stepping. Perthshire and Shetland carry step-dance memory; revivalists reconstruct house-party foot percussion alongside fiddle.\n\nStep dance may appear informally in folk festivals — a fiddler and dancer trading phrases — rather than in games competition format. Rhythm is close to the tune — percussive feet as instrument. Compare Irish sean-nós dance lesson: shared Celtic dance family, distinct national competition structures.\n\nStep dance in Scotland includes hard-shoe and soft-shoe traditions overlapping Irish sean-nós dance and Cape Breton stepping. Perthshire and Shetland carry step-dance memory; revivalists reconstruct house-party foot percussion alongside fiddle.\n\nStep dance may appear informally in folk festivals — a fiddler and dancer trading phrases — rather than in games competition format. Rhythm is close to the tune — percussive feet as instrument. Compare Irish sean-nós dance lesson: shared Celtic dance family, distinct national competition structures.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-5-step-dance-q1",
+        "type": "truefalse",
+        "prompt": "Ceilidh bands should prioritise danceable tempo over maximum reel speed for beginners on the floor.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-5-step-dance-q2",
+        "type": "truefalse",
+        "prompt": "World Pipe Band Championships are strongly associated with Glasgow and graded pipe-band competition.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-6-pipe-band-drumming",
+    "title": "Scotland trad: Pipe band drumming",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "scotland",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-05-dance",
+    "estimateMinutes": 4,
+    "body": "Pipe bands pair massed Great Highland bagpipes with snare, tenor, and bass drums. Drummers play written scores with unison rudiments judged at World Pipe Band Championships in Glasgow. Snare lines use rolls, flams, and drags aligned to pipe melody; bass and tenor add visual and rhythmic punctuation.\n\nPipe-band drumming is not bodhrán backbeat — it is athletic ensemble sport with seasonal peak at games. rspba governs grades and contest rules. Musicians from trad fiddle backgrounds often underestimate drum corps complexity until they sit with a score.\n\nSeasonal rhythm: summer games concentrate competition; winter months shift to indoor concerts and pub sessions where drummers may play kit in ceilidh bands instead.\n\nPipe bands pair massed Great Highland bagpipes with snare, tenor, and bass drums. Drummers play written scores with unison rudiments judged at World Pipe Band Championships in Glasgow. Snare lines use rolls, flams, and drags aligned to pipe melody; bass and tenor add visual and rhythmic punctuation.\n\nPipe-band drumming is not bodhrán backbeat — it is athletic ensemble sport with seasonal peak at games. rspba governs grades and contest rules. Musicians from trad fiddle backgrounds often underestimate drum corps complexity until they sit with a score.\n\nSeasonal rhythm: summer games concentrate competition; winter months shift to indoor concerts and pub sessions where drummers may play kit in ceilidh bands instead.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-6-pipe-band-drumming-q1",
+        "type": "truefalse",
+        "prompt": "Step dance in Scotland may feature percussive footwork alongside fiddle in informal or revival settings.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-6-pipe-band-drumming-q2",
+        "type": "truefalse",
+        "prompt": "Highland games combine athletics, piping, and Highland dancing on seasonal public stages.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-7-rhythm-summary-table",
+    "title": "Scotland trad: Rhythm summary table",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "scotland",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-05-dance",
+    "estimateMinutes": 4,
+    "body": "| Context | Pulse driver | Typical forms | Social frame |\n|---------|--------------|---------------|--------------|\n| Ceilidh | Band + caller | Reels, jigs, strathspeys | Inclusive social dance |\n| Highland dancing | Solo piper | Marches, strathspeys, reels | Competition / games |\n| Step dance | Fiddler close | Reels, strathspeys | Informal / revival |\n| Pipe band | Drum corps + pipes | MSR sets, medleys | Graded competition |\n\n| Context | Pulse driver | Typical forms | Social frame |\n|---------|--------------|---------------|--------------|\n| Ceilidh | Band + caller | Reels, jigs, strathspeys | Inclusive social dance |\n| Highland dancing | Solo piper | Marches, strathspeys, reels | Competition / games |\n| Step dance | Fiddler close | Reels, strathspeys | Informal / revival |\n| Pipe band | Drum corps + pipes | MSR sets, medleys | Graded competition |",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-7-rhythm-summary-table-q1",
+        "type": "truefalse",
+        "prompt": "Strathspey–reel–reel is a cited ceilidh medley pattern in Scottish country dance convention.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-7-rhythm-summary-table-q2",
+        "type": "truefalse",
+        "prompt": "Pipe-band drumming is identical to casual bodhrán backing in a small pub session.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "pipe-band drumming uses scored corps parts judged in competition."
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-8-compared-with-ireland",
     "title": "Scotland trad: Compared with Ireland",
     "track": "celtic",
     "region": "scotland",
@@ -3187,71 +5119,51 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-05-dance",
     "estimateMinutes": 4,
-    "body": "If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-05-dance` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIf you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-05-dance` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Parallel lesson: `regions-celtic-ireland-05-dance`. Irish céilí and set dancing parallel Scottish ceilidh and country dance — group formations with live music. Irish step dance (Riverdance-era hard shoe) differs from Highland dancing competition repertoire though both demand pipe-and-fiddle timing.\n\nIreland lacks pipe-band drum corps at Scottish scale. Scottish ceilidh callers parallel Irish set-dance teachers — human guides essential for floor success. Both traditions warn against session tempo ill-suited to dancers' feet.\n\nParallel lesson: `regions-celtic-ireland-05-dance`. Irish céilí and set dancing parallel Scottish ceilidh and country dance — group formations with live music. Irish step dance (Riverdance-era hard shoe) differs from Highland dancing competition repertoire though both demand pipe-and-fiddle timing.\n\nIreland lacks pipe-band drum corps at Scottish scale. Scottish ceilidh callers parallel Irish set-dance teachers — human guides essential for floor success. Both traditions warn against session tempo ill-suited to dancers' feet.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-2-compared-with-ireland-q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-8-compared-with-ireland-q1",
+        "type": "truefalse",
+        "prompt": "Dashing White Sergeant is named as a ceilidh dance figure in Scottish social tradition.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "True",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          }
-        ],
-        "explain": ") Community dance and oral transmission"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Mullingar, 1951",
-            "correct": false
           },
           {
             "id": "b",
             "text": "False",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Brendan Breathnach",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-8-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Scotland emphasises pipe-band drum corps and Highland dancing competition at games to a unique degree.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-5-key-points",
+    "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-9-key-points",
     "title": "Scotland trad: Key points",
     "track": "celtic",
     "region": "scotland",
@@ -3268,66 +5180,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-05-dance",
     "estimateMinutes": 4,
-    "body": "- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Ceilidh sets, highland dancing, step dance, and pipe band drumming connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Ceilidh sets, highland dancing, step dance, and pipe band drumming connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Ceilidh dancing is inclusive social dance with caller and band — reels, jigs, and strathspeys at danceable tempo.\n- Highland dancing is competitive athletic art tied to games and pipe music sets.\n- Step dance preserves percussive foot tradition in revival and informal festival contexts.\n- Pipe-band drumming is scored ensemble competition distinct from session bodhrán.\n- Musicians must match strathspey snap and reel lift to the dance form on the floor.\n- Summer games season concentrates pipe-band and Highland dance activity; ceilidhs run year-round.\n\n- Ceilidh dancing is inclusive social dance with caller and band — reels, jigs, and strathspeys at danceable tempo.\n- Highland dancing is competitive athletic art tied to games and pipe music sets.\n- Step dance preserves percussive foot tradition in revival and informal festival contexts.\n- Pipe-band drumming is scored ensemble competition distinct from session bodhrán.\n- Musicians must match strathspey snap and reel lift to the dance form on the floor.\n- Summer games season concentrates pipe-band and Highland dance activity; ceilidhs run year-round.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-5-key-points-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-9-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "A ceilidh caller's role is to:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Teach and remind dancers of figures during live music",
             "correct": true
           },
           {
-            "id": "b",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
             "id": "d",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "Regions where Irish remains a community language",
             "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Teach and remind dancers of figures during live music"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-05-dance-sec-9-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Highland dancing includes competition forms like Sword Dance and Highland Fling performed to pipe music.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3349,66 +5251,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-06-history",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- Scottish Traditional Music rewards comparative study with Ireland.\n\n- Focus: collectors, BBC broadcasting, the folk revival, and piping competitions.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- Collectors from Burns to Henderson preserved orally circulating songs.\n\n- Bothy ballads document Lowland farm workers' Scots-language heritage.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Hamish Henderson is remembered for:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Collecting bothy ballads and anchoring Scotland's mid-century folk revival",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "Mullingar, 1951",
             "correct": false
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Collecting bothy ballads and anchoring Scotland's mid-century folk revival"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Bothy ballads document farm workers' lives in Scots-language song tradition.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
-            "correct": true
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3430,66 +5322,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-06-history",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- BBC Scotland and Radio nan Gàidheal broadcast trad to national audiences.\n\n- Folk revival bands reconnected urban listeners to rural sources.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "type": "truefalse",
+        "prompt": "BBC Radio nan Gàidheal broadcasts in support of Gaelic language and music heritage.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "The Royal Scottish Pipe Band Association organises graded pipe-band competition.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3511,13 +5383,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-06-history",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- Dance metre and tune form belong together in study.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- Piping competitions preserve piobaireachd and ceòl beag through judged performance.\n\n- Transmission today mixes ear learning, festivals, broadcasting, and online tools.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Piobaireachd is preserved partly through piping competitions at Highland games and major contests.",
         "difficulty": 8,
         "choices": [
           {
@@ -3527,50 +5399,30 @@ export default [
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "Francis Collinson's Traditional and National Music of Scotland is a reference work on national music history.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3592,66 +5444,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-06-history",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Collectors, bbc broadcasting, the folk revival, and piping competitions connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- **Collectors** from Burns to Henderson preserved songs that oral tradition alone might have lost.\n\n- **Bothy ballads** document Lowland working life; **Gaelic song** archives document West Highland heritage.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Folk revival bands like Battlefield Band formed in the 1970s to bring arranged ensemble sound to trad repertoire.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 8,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "School of Scottish Studies at Edinburgh University archives field recordings including Henderson's work.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3673,66 +5505,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-06-history",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- **BBC Scotland** and **Radio nan Gàidheal** broadcast trad to national and diaspora audiences.\n\n- **Folk revival** bands reconnected urban listeners to rural sources without inventing tradition from scratch.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Competition piping and pub session piping always reward identical values of rhythm and ornament.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          }
-        ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
-        "difficulty": 8,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
             "text": "False",
-            "correct": false
-          },
+            "correct": true
+          }
+        ],
+        "explain": "competition prizes precision; sessions prize dance lift and social flow."
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Celtic Connections is a major Glasgow winter festival supporting contemporary trad transmission.",
+        "difficulty": 8,
+        "choices": [
           {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "id": "a",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Single-headed Irish frame drum",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-6",
+    "title": "Scotland trad: key ideas (6)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "scotland",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-06-history",
+    "estimateMinutes": 4,
+    "body": "From **Scottish Traditional Music — History, Revival, and Transmission** (Scotland trad):\n\n- **Piping competitions** and **pipe-band grades** structure preservation of ceòl mòr and ceòl beag.\n\n- Transmission today mixes ear learning, festivals, broadcasting, and online tools — debate over competition versus session continues.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Robert Burns preserved and adapted orally circulating Scots song material for print.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Scotland emphasises pipe-band competition infrastructure and bothy ballad collection distinct from Comhaltas fleadh structure.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3754,71 +5627,366 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-06-history",
     "estimateMinutes": 4,
-    "body": "Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on collectors, BBC broadcasting, the folk revival, and piping competitions within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nScottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on collectors, BBC broadcasting, the folk revival, and piping competitions within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Scottish traditional music is not a static museum piece. It survived clan warfare, Clearances, urbanisation, and mass media through oral transmission, collectors' manuscripts, broadcasting, and periodic revivals that reintroduced bothy ballads, Gaelic song, and fiddle repertoire to new audiences. This lesson traces collectors, BBC Scotland's role, the folk revival of the 1950s–1970s, and piping competitions as engines of preservation and change.\n\nScottish traditional music is not a static museum piece. It survived clan warfare, Clearances, urbanisation, and mass media through oral transmission, collectors' manuscripts, broadcasting, and periodic revivals that reintroduced bothy ballads, Gaelic song, and fiddle repertoire to new audiences. This lesson traces collectors, BBC Scotland's role, the folk revival of the 1950s–1970s, and piping competitions as engines of preservation and change.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "Hamish Henderson is remembered for:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": false
+            "text": "Collecting bothy ballads and anchoring Scotland's mid-century folk revival",
+            "correct": true
           },
           {
             "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Collecting bothy ballads and anchoring Scotland's mid-century folk revival"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Bothy ballads document farm workers' lives in Scots-language song tradition.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "d",
+            "id": "b",
             "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      },
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-2-collectors-and-early-documentation",
+    "title": "Scotland trad: Collectors and early documentation",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "scotland",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-06-history",
+    "estimateMinutes": 4,
+    "body": "Before recording technology, tunes lived in fiddlers' memory, pipers' teaching lines, and ballad sheets. Nineteenth-century collectors gathered songs from workers and travellers:\n\nFrancis Collinson's The Traditional and National Music of Scotland (1966) synthesised earlier fieldwork and remains a reference for harp, pipe, and fiddle history. William Motherwell and Robert Burns preserved Scots song; Burns edited and adapted orally circulating material for print.\n\nHamish Henderson (1919–2002) — poet, soldier, and folklorist — collected bothy ballads from farm workers in the North East, recording singers like Jeannie Robertson and Jimmy MacBeath. His work anchored the mid-century folk revival in authentic voice rather than Victorian parlour arrangements. Hamish Henderson bridged academic folklore and pub performance — the School of Scottish Studies at Edinburgh University archives his field tapes.\n\nBothy ballads document harsh farm life — long hours, low pay, humour and defiance in Scots verse. They are as central to Lowland tradition as Gaelic waulking songs are to the West.\n\nBefore recording technology, tunes lived in fiddlers' memory, pipers' teaching lines, and ballad sheets. Nineteenth-century collectors gathered songs from workers and travellers: Francis Collinson's The Traditional and National Music of Scotland (1966) synthesised earlier fieldwork and remains a reference for harp, pipe, and fiddle history. William Motherwell and Robert Burns preserved Scots song; Burns edited and adapted orally circulating material for print. Hamish Henderson (1919–2002) — poet, soldier, and folklorist — collected bothy ballads from farm workers in the North East, recording singers like Jeannie Robertson and Jimmy MacBeath. His work anchored the mid-century folk revival in authentic voice rather than Victorian parlour arrangements. Hamish Henderson bridged academic folklore and pub performance — the School of Scottish Studies at Edinburgh…",
+    "tryThis": "",
+    "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-2-collectors-and-early-documentation-q1",
+        "type": "truefalse",
+        "prompt": "BBC Radio nan Gàidheal broadcasts in support of Gaelic language and music heritage.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
             "text": "False",
             "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-2-collectors-and-early-documentation-q2",
+        "type": "truefalse",
+        "prompt": "The Royal Scottish Pipe Band Association organises graded pipe-band competition.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
           },
           {
-            "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-2-compared-with-ireland",
+    "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-3-bbc-and-national-broadcasting",
+    "title": "Scotland trad: BBC and national broadcasting",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "scotland",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-06-history",
+    "estimateMinutes": 4,
+    "body": "BBC Scotland and BBC Radio nan Gàidheal shaped twentieth-century listening habits — piping recitals, fiddle programmes, Gaelic song hours, and folk clubs on air. Broadcasting could standardise repertoire (everyone hears the same strathspey) while also reviving forgotten singers when producers mined archives.\n\nRadio connected island Gaelic communities to Lowland cities and diaspora listeners. Competitions like BBC Radio Scotland Young Traditional Musician of the Year continue the pipeline from learner to professional stage. BBC Scotland is an institution parallel to Ireland's RTÉ and TG4 — not a replacement for sessions, but a national loudspeaker.\n\nTelevision brought Highland games, pipe bands, and Celtic Connections concerts into living rooms — visual association between kilts, pipes, and \"Scottish music\" owes much to broadcast choices.\n\nBBC Scotland and BBC Radio nan Gàidheal shaped twentieth-century listening habits — piping recitals, fiddle programmes, Gaelic song hours, and folk clubs on air. Broadcasting could standardise repertoire (everyone hears the same strathspey) while also reviving forgotten singers when producers mined archives.\n\nRadio connected island Gaelic communities to Lowland cities and diaspora listeners. Competitions like BBC Radio Scotland Young Traditional Musician of the Year continue the pipeline from learner to professional stage. BBC Scotland is an institution parallel to Ireland's RTÉ and TG4 — not a replacement for sessions, but a national loudspeaker.\n\nTelevision brought Highland games, pipe bands, and Celtic Connections concerts into living rooms — visual association between kilts, pipes, and \"Scottish music\" owes much to broadcast choices.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-3-bbc-and-national-broadcasting-q1",
+        "type": "truefalse",
+        "prompt": "Piobaireachd is preserved partly through piping competitions at Highland games and major contests.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-3-bbc-and-national-broadcasting-q2",
+        "type": "truefalse",
+        "prompt": "Francis Collinson's Traditional and National Music of Scotland is a reference work on national music history.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-4-folk-revival",
+    "title": "Scotland trad: Folk revival",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "scotland",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-06-history",
+    "estimateMinutes": 4,
+    "body": "The folk revival from the 1950s through 1970s paralleled Ireland's Comhaltas era and American folk boom. Henderson, Ewan MacColl (Scottish-born, influential in UK folk), and clubs in Edinburgh and Glasgow fostered singarounds and political ballad culture.\n\nRevival bands formed — Battlefield Band (1975) blended pipes, fiddle, and later accordion for international touring; The Corries, Ossian, and Silly Wizard (1970s–80s) brought arranged ensemble sound to trad repertoire. Revivalists debated authenticity — should ballads be unaccompanied? — while dancers demanded louder ceilidh bands.\n\nThe revival did not invent tradition; it reconnected urban audiences to rural sources after wartime disruption and emigration. Similar tensions animate Irish transmission debates in Lesson 6 of the Ireland unit.\n\nThe folk revival from the 1950s through 1970s paralleled Ireland's Comhaltas era and American folk boom. Henderson, Ewan MacColl (Scottish-born, influential in UK folk), and clubs in Edinburgh and Glasgow fostered singarounds and political ballad culture.\n\nRevival bands formed — Battlefield Band (1975) blended pipes, fiddle, and later accordion for international touring; The Corries, Ossian, and Silly Wizard (1970s–80s) brought arranged ensemble sound to trad repertoire. Revivalists debated authenticity — should ballads be unaccompanied? — while dancers demanded louder ceilidh bands.\n\nThe revival did not invent tradition; it reconnected urban audiences to rural sources after wartime disruption and emigration. Similar tensions animate Irish transmission debates in Lesson 6 of the Ireland unit.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-4-folk-revival-q1",
+        "type": "truefalse",
+        "prompt": "Folk revival bands like Battlefield Band formed in the 1970s to bring arranged ensemble sound to trad repertoire.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-4-folk-revival-q2",
+        "type": "truefalse",
+        "prompt": "School of Scottish Studies at Edinburgh University archives field recordings including Henderson's work.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-5-piping-competitions-and-games",
+    "title": "Scotland trad: Piping competitions and games",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "scotland",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-06-history",
+    "estimateMinutes": 4,
+    "body": "Highland games and piping competitions preserved piobaireachd and ceòl beag through judged performance. The Piobaireachd Society publishes scores and standards; solo pipers train for Gold Medal events at Inverness and Oban.\n\nPipe bands organised through rspba (Royal Scottish Pipe Band Association) compete in grades from novice to world champions. Winter practice, summer games — seasonal rhythm structures community life in ways pub sessions alone do not.\n\nCompetition can fossilise style — judges reward precision — while sessions reward lift and craic. Healthy tradition holds both: games pipers who also play folk clubs; fiddlers who learned strathspeys from Skinner scores and from ear at ceilidhs.\n\nHighland games and piping competitions preserved piobaireachd and ceòl beag through judged performance. The Piobaireachd Society publishes scores and standards; solo pipers train for Gold Medal events at Inverness and Oban.\n\nPipe bands organised through rspba (Royal Scottish Pipe Band Association) compete in grades from novice to world champions. Winter practice, summer games — seasonal rhythm structures community life in ways pub sessions alone do not.\n\nCompetition can fossilise style — judges reward precision — while sessions reward lift and craic. Healthy tradition holds both: games pipers who also play folk clubs; fiddlers who learned strathspeys from Skinner scores and from ear at ceilidhs.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-5-piping-competitions-and-games-q1",
+        "type": "truefalse",
+        "prompt": "Competition piping and pub session piping always reward identical values of rhythm and ornament.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "competition prizes precision; sessions prize dance lift and social flow."
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-5-piping-competitions-and-games-q2",
+        "type": "truefalse",
+        "prompt": "Celtic Connections is a major Glasgow winter festival supporting contemporary trad transmission.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-6-transmission-today",
+    "title": "Scotland trad: Transmission today",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "scotland",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-06-history",
+    "estimateMinutes": 4,
+    "body": "Modern learners use YouTube, ABC tune databases, Fèis classes for young Gaelic speakers, RSCDS dance workshops, and Hands Up for Trad advocacy. Celtic Connections festival each January concentrates teaching and concerts in Glasgow.\n\nTransmission debates continue: competition versus session values; Gaelic language decline versus song revival; fusion bands versus purist folk clubs. Scotland's story matches Ireland's — survival through negotiation, not sealed preservation.\n\nModern learners use YouTube, ABC tune databases, Fèis classes for young Gaelic speakers, RSCDS dance workshops, and Hands Up for Trad advocacy. Celtic Connections festival each January concentrates teaching and concerts in Glasgow.\n\nTransmission debates continue: competition versus session values; Gaelic language decline versus song revival; fusion bands versus purist folk clubs. Scotland's story matches Ireland's — survival through negotiation, not sealed preservation.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-6-transmission-today-q1",
+        "type": "truefalse",
+        "prompt": "Robert Burns preserved and adapted orally circulating Scots song material for print.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-6-transmission-today-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Scotland emphasises pipe-band competition infrastructure and bothy ballad collection distinct from Comhaltas fleadh structure.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-7-compared-with-ireland",
     "title": "Scotland trad: Compared with Ireland",
     "track": "celtic",
     "region": "scotland",
@@ -3835,71 +6003,61 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-06-history",
     "estimateMinutes": 4,
-    "body": "If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIf you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Parallel lesson: `regions-celtic-ireland-06-history`. Ireland has Edward Bunting at the 1792 Belfast Harp Festival; Scotland has Henderson and School of Scottish Studies fieldwork. Ireland has Comhaltas and Fleadh Cheoil; Scotland has pipe-band grades, Mod Gaelic competitions, and Fèisean nan Gàidheal.\n\nBoth nations use national broadcasters to amplify trad. Both experienced mid-century revival reconnecting urban youth to rural repertoire. Diaspora 78 rpm and emigrant networks matter in both histories — Scotland's Cape Breton and Nova Scotia branches mirror Irish-American Chicago recordings.\n\nParallel lesson: `regions-celtic-ireland-06-history`. Ireland has Edward Bunting at the 1792 Belfast Harp Festival; Scotland has Henderson and School of Scottish Studies fieldwork. Ireland has Comhaltas and Fleadh Cheoil; Scotland has pipe-band grades, Mod Gaelic competitions, and Fèisean nan Gàidheal.\n\nBoth nations use national broadcasters to amplify trad. Both experienced mid-century revival reconnecting urban youth to rural repertoire. Diaspora 78 rpm and emigrant networks matter in both histories — Scotland's Cape Breton and Nova Scotia branches mirror Irish-American Chicago recordings.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-2-compared-with-ireland-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-7-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Hamish Henderson is remembered for:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Collecting bothy ballads and anchoring Scotland's mid-century folk revival",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "Mullingar, 1951",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mullingar, 1951",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          }
-        ],
-        "explain": ") Community dance and oral transmission"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
-        "difficulty": 8,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "Regions where Irish remains a community language",
             "correct": false
-          },
-          {
-            "id": "d",
-            "text": "False",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Collecting bothy ballads and anchoring Scotland's mid-century folk revival"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-7-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Bothy ballads document farm workers' lives in Scots-language song tradition.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-5-key-points",
+    "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-8-key-points",
     "title": "Scotland trad: Key points",
     "track": "celtic",
     "region": "scotland",
@@ -3916,66 +6074,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-06-history",
     "estimateMinutes": 4,
-    "body": "- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Collectors, bbc broadcasting, the folk revival, and piping competitions connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Collectors, bbc broadcasting, the folk revival, and piping competitions connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Collectors from Burns to Henderson preserved songs that oral tradition alone might have lost.\n- Bothy ballads document Lowland working life; Gaelic song archives document West Highland heritage.\n- BBC Scotland and Radio nan Gàidheal broadcast trad to national and diaspora audiences.\n- Folk revival bands reconnected urban listeners to rural sources without inventing tradition from scratch.\n- Piping competitions and pipe-band grades structure preservation of ceòl mòr and ceòl beag.\n- Transmission today mixes ear learning, festivals, broadcasting, and online tools — debate over competition versus session continues.\n\n- Collectors from Burns to Henderson preserved songs that oral tradition alone might have lost.\n- Bothy ballads document Lowland working life; Gaelic song archives document West Highland heritage.\n- BBC Scotland and Radio nan Gàidheal broadcast trad to national and diaspora audiences.\n- Folk revival bands reconnected urban listeners to rural sources without inventing tradition from scratch.\n- Piping competitions and pipe-band grades structure preservation of ceòl mòr and ceòl beag.\n- Transmission today mixes ear learning, festivals, broadcasting, and online tools — debate over competition versus session continues.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-8-key-points-q1",
+        "type": "truefalse",
+        "prompt": "BBC Radio nan Gàidheal broadcasts in support of Gaelic language and music heritage.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-scotland-regions-celtic-scotland-06-history-sec-8-key-points-q2",
+        "type": "truefalse",
+        "prompt": "The Royal Scottish Pipe Band Association organises graded pipe-band competition.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3997,66 +6135,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- Scottish Traditional Music rewards comparative study with Ireland.\n\n- Focus: Battlefield Band, Capercaillie, pub sessions versus games season.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- Battlefield Band (1975) typifies revival ensemble with pipes, fiddle, and song.\n\n- Capercaillie brought Gaelic song and puirt à beul to global audiences.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Battlefield Band formed in 1975 and is associated with:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Pipes, fiddle, accordion, and Scottish revival ensemble touring",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Pipes, fiddle, accordion, and Scottish revival ensemble touring"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Capercaillie is known for Gaelic vocals fronted by Karen Matheson and fusion arrangements.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
-            "correct": true
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4078,66 +6206,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- Celtic Connections is a major winter hub for Scottish and international trad.\n\n- Pub sessions and games season follow different calendars and repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "type": "truefalse",
+        "prompt": "Coisich a Rùin brought nineteenth-century Gaelic song to wide audiences through modern production.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "Celtic Connections is a major winter folk festival in Glasgow.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4159,13 +6267,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- Dance metre and tune form belong together in study.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- Fusion builds on oral tradition — it does not replace it.\n\n- Study named bands and scenes rather than generic Celtic compilations.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Games season concentrates pipe bands and Highland dancing at outdoor fields in late spring through autumn.",
         "difficulty": 9,
         "choices": [
           {
@@ -4175,50 +6283,30 @@ export default [
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "Pub sessions in Scottish cities run with etiquette similar to Irish sessions — listen first, match tempo.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4240,66 +6328,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Battlefield band, capercaillie, pub sessions versus games season connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- **Battlefield Band** (1975) typifies revival ensemble — pipes, fiddle, accordion, song — with international touring reach.\n\n- **Capercaillie** brought Gaelic song and puirt à beul to global audiences through modern arrangement.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Brian McNeill was a founding member associated with Battlefield Band fiddle and pipes.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "False",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 9,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
+            "id": "b",
             "text": "False",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Capercaillie formed on Islay in the 1980s.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4321,66 +6389,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- **Celtic Connections** is a major winter hub for Scottish and international trad.\n\n- **Pub sessions** and **games season** follow different calendars and repertoire emphasis.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Fusion bands like Battlefield Band and Capercaillie erased all earlier oral tradition completely.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
+            "text": "True",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": false
+            "text": "False",
+            "correct": true
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "they build on trad repertoire and transmission; they do not replace oral tradition."
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Runrig represents rock with Gaelic language in Scottish popular music.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-6",
+    "title": "Scotland trad: key ideas (6)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "scotland",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "From **Scottish Traditional Music — Representative Fusions and Scenes** (Scotland trad):\n\n- Fusion builds on — does not replace — oral tradition and competition piping.\n\n- Representative depth means studying **named bands** and **named scenes**, not generic Celtic compilations.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Games season repertoire emphasises marches and MSR sets more than typical pub session sets alone.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Scotland's games-season pipe-band calendar is a distinct public scene without Irish equivalent scale.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4402,71 +6511,305 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on Battlefield Band, Capercaillie, pub sessions versus games season within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nScottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on Battlefield Band, Capercaillie, pub sessions versus games season within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Tradition and innovation share the same stages. Since the 1970s revival, Scottish ensembles have toured worldwide with pipes, fiddle, and accordion while absorbing rock production, Gaelic song arrangement, and global festival economics. This lesson focuses on Battlefield Band and Capercaillie as representative fusion voices, then contrasts pub session life with games season — two calendars that rarely overlap for the same musician.\n\nTradition and innovation share the same stages. Since the 1970s revival, Scottish ensembles have toured worldwide with pipes, fiddle, and accordion while absorbing rock production, Gaelic song arrangement, and global festival economics. This lesson focuses on Battlefield Band and Capercaillie as representative fusion voices, then contrasts pub session life with games season — two calendars that rarely overlap for the same musician.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "Battlefield Band formed in 1975 and is associated with:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
+            "text": "Pipes, fiddle, accordion, and Scottish revival ensemble touring",
+            "correct": true
           },
           {
             "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Pipes, fiddle, accordion, and Scottish revival ensemble touring"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Capercaillie is known for Gaelic vocals fronted by Karen Matheson and fusion arrangements.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
-        "difficulty": 9,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
-          },
-          {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-2-compared-with-ireland",
+    "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-2-battlefield-band",
+    "title": "Scotland trad: Battlefield Band",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "scotland",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "Battlefield Band formed in 1975 in Glasgow, named after the Battlefield district. The lineup evolved but consistently featured Highland pipes, fiddle, accordion, and guitar — a template for Scottish folk rock before the label existed. Albums like Home Is Where the Van Is and On the Rise introduced international audiences to reel and strathspey repertoire with energetic arrangement and humour.\n\nBattlefield Band represents the revival band model: trad grammar (pipe ornaments, fiddle snap) with stage volume and touring life. Founding members included Brian McNeill (fiddle, bagpipes) and Alan Reid (keyboards, vocals) — songwriters who added Scots ballad narrative to instrumental sets.\n\nListen for: pipes and fiddle unison on reels; accordion harmony; political and historical song in Scots. Battlefield Band proved Scottish trad could fill theatres without reducing to shortbread tin cliché.\n\nBattlefield Band formed in 1975 in Glasgow, named after the Battlefield district. The lineup evolved but consistently featured Highland pipes, fiddle, accordion, and guitar — a template for Scottish folk rock before the label existed. Albums like Home Is Where the Van Is and On the Rise introduced international audiences to reel and strathspey repertoire with energetic arrangement and humour. Battlefield Band represents the revival band model: trad grammar (pipe ornaments, fiddle snap) with stage volume and touring life. Founding members included Brian McNeill (fiddle, bagpipes) and Alan Reid (keyboards, vocals) — songwriters who added Scots ballad narrative to instrumental sets. Listen for: pipes and fiddle unison on reels; accordion harmony; political and historical song in Scots. Battlefield Band proved…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-2-battlefield-band-q1",
+        "type": "truefalse",
+        "prompt": "Coisich a Rùin brought nineteenth-century Gaelic song to wide audiences through modern production.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-2-battlefield-band-q2",
+        "type": "truefalse",
+        "prompt": "Celtic Connections is a major winter folk festival in Glasgow.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-3-capercaillie-and-gaelic-fusion",
+    "title": "Scotland trad: Capercaillie and Gaelic fusion",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "scotland",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "Capercaillie formed on Islay in the 1980s, fronted by Karen Matheson's Gaelic vocals. They blended puirt à beul, waulking song rhythm, fiddle, pipes, keyboard, and bass into a pop-aware folk sound that charted in the UK and reached global Celtic festival circuits.\n\nCoisich a Rùin (1992) — a nineteenth-century Gaelic song with modern production — brought Scottish Gaelic to millions who never attended a Mod competition. Capercaillie demonstrates language revival through arrangement — trad melody and Gaelic text with contemporary groove.\n\nListen for: Gaelic pronunciation as musical texture; puirt rhythms in band settings; slow airs arranged for concert hall. Capercaillie sits beside Irish Clannad in fusion genealogy — shared Celtic market, distinct Gaelic dialect and repertoire.\n\nCapercaillie formed on Islay in the 1980s, fronted by Karen Matheson's Gaelic vocals. They blended puirt à beul, waulking song rhythm, fiddle, pipes, keyboard, and bass into a pop-aware folk sound that charted in the UK and reached global Celtic festival circuits.\n\nCoisich a Rùin (1992) — a nineteenth-century Gaelic song with modern production — brought Scottish Gaelic to millions who never attended a Mod competition. Capercaillie demonstrates language revival through arrangement — trad melody and Gaelic text with contemporary groove.\n\nListen for: Gaelic pronunciation as musical texture; puirt rhythms in band settings; slow airs arranged for concert hall. Capercaillie sits beside Irish Clannad in fusion genealogy — shared Celtic market, distinct Gaelic dialect and repertoire.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-3-capercaillie-and-gaelic-fusion-q1",
+        "type": "truefalse",
+        "prompt": "Games season concentrates pipe bands and Highland dancing at outdoor fields in late spring through autumn.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-3-capercaillie-and-gaelic-fusion-q2",
+        "type": "truefalse",
+        "prompt": "Pub sessions in Scottish cities run with etiquette similar to Irish sessions — listen first, match tempo.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-4-other-scenes-brief-map",
+    "title": "Scotland trad: Other scenes (brief map)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "scotland",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "Silly Wizard, Ossian, The Tannahill Weavers, and Runrig (rock with Gaelic) occupied overlapping niches — dance halls, folk clubs, festival tents. Dick Gaughan brought political Scots ballad and guitar; Aly Bain and Phil Cunningham sustained cross-border Nordic–Scottish fiddle–accordion partnership.\n\nCeltic Connections in Glasgow each January concentrates global trad — Scottish, Irish, Breton, American — in concerts, sessions, and workshops. It is the winter counterweight to summer games outdoor season.\n\nSilly Wizard, Ossian, The Tannahill Weavers, and Runrig (rock with Gaelic) occupied overlapping niches — dance halls, folk clubs, festival tents. Dick Gaughan brought political Scots ballad and guitar; Aly Bain and Phil Cunningham sustained cross-border Nordic–Scottish fiddle–accordion partnership.\n\nCeltic Connections in Glasgow each January concentrates global trad — Scottish, Irish, Breton, American — in concerts, sessions, and workshops. It is the winter counterweight to summer games outdoor season.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-4-other-scenes-brief-map-q1",
+        "type": "truefalse",
+        "prompt": "Brian McNeill was a founding member associated with Battlefield Band fiddle and pipes.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-4-other-scenes-brief-map-q2",
+        "type": "truefalse",
+        "prompt": "Capercaillie formed on Islay in the 1980s.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-5-pub-session-versus-games-season",
+    "title": "Scotland trad: Pub session versus games season",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "scotland",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "Pub sessions run year-round in Edinburgh, Glasgow, Aberdeen, Inverness, and festival fringe — fiddles, pipes, whistle, guitar, informal sets, listener focus. Etiquette parallels Ireland: listen, match tempo, respect the set.\n\nGames season (late spring through autumn) concentrates pipe bands, Highland dancing, and solo piping at outdoor fields. Musicians who compete weekends may not appear in pubs the same months; calendar rhythm splits the community.\n\n| Feature | Pub session | Games season |\n|---------|-------------|--------------|\n| Lead voices | Fiddle, whistle, smallpipes | Massed pipes, solo competitors |\n| Audience | Listeners, occasional dancers | Spectators, graded contests |\n| Repertoire | Reels, jigs, strathspeys, songs | Marches, MSR sets, piobaireachd |\n| Volume | Pub acoustic balance | Outdoor pipe dominance |\n\nNeither scene is \"more authentic.\" Ceilidh halls bridge both — dancers need bands; bands need session-trained players. Fusion artists tour internationally while games pipers drill scores in church halls.\n\nPub sessions run year-round in Edinburgh, Glasgow, Aberdeen, Inverness, and festival fringe — fiddles, pipes, whistle, guitar, informal sets, listener focus. Etiquette parallels Ireland: listen, match tempo, respect the set. Games season (late spring through autumn) concentrates pipe bands, Highland dancing, and solo piping at outdoor fields. Musicians who compete weekends may not appear in pubs the same months; calendar rhythm splits the community. | Feature | Pub session | Games season | |---------|-------------|--------------| | Lead voices | Fiddle, whistle, smallpipes | Massed pipes, solo competitors | | Audience | Listeners, occasional dancers | Spectators, graded contests | | Repertoire | Reels, jigs, strathspeys, songs | Marches, MSR sets, piobaireachd | | Volume | Pub acoustic balance | Outdoor pipe…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-5-pub-session-versus-games-season-q1",
+        "type": "truefalse",
+        "prompt": "Fusion bands like Battlefield Band and Capercaillie erased all earlier oral tradition completely.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "they build on trad repertoire and transmission; they do not replace oral tradition."
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-5-pub-session-versus-games-season-q2",
+        "type": "truefalse",
+        "prompt": "Runrig represents rock with Gaelic language in Scottish popular music.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-7-compared-with-ireland",
     "title": "Scotland trad: Compared with Ireland",
     "track": "celtic",
     "region": "scotland",
@@ -4483,71 +6826,51 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIf you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Parallel lesson: `regions-celtic-ireland-07-representative-depth`. Ireland offers Planxty, Bothy Band, The Chieftains, and Riverdance as fusion reference points; Scotland offers Battlefield Band, Capercaillie, and Runrig. Irish showbands parallel Scottish dance hall eras differently — both nations negotiated amplification and pop economics.\n\nIrish pub session tourism (Doolin, Dingle) has Scottish equivalents (Edinburgh Festival fringe pubs, Skye venues) but pipe-band games lack Irish scale. Cross-border festival bills (Celtic Connections, Fleadh Cheoil visitors) increasingly mix musicians — listen for accent, not nationality alone.\n\nParallel lesson: `regions-celtic-ireland-07-representative-depth`. Ireland offers Planxty, Bothy Band, The Chieftains, and Riverdance as fusion reference points; Scotland offers Battlefield Band, Capercaillie, and Runrig. Irish showbands parallel Scottish dance hall eras differently — both nations negotiated amplification and pop economics.\n\nIrish pub session tourism (Doolin, Dingle) has Scottish equivalents (Edinburgh Festival fringe pubs, Skye venues) but pipe-band games lack Irish scale. Cross-border festival bills (Celtic Connections, Fleadh Cheoil visitors) increasingly mix musicians — listen for accent, not nationality alone.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-2-compared-with-ireland-q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-7-compared-with-ireland-q1",
+        "type": "truefalse",
+        "prompt": "Games season repertoire emphasises marches and MSR sets more than typical pub session sets alone.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-7-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Scotland's games-season pipe-band calendar is a distinct public scene without Irish equivalent scale.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
-            "correct": true
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-5-key-points",
+    "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-8-key-points",
     "title": "Scotland trad: Key points",
     "track": "celtic",
     "region": "scotland",
@@ -4564,66 +6887,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Battlefield band, capercaillie, pub sessions versus games season connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Battlefield band, capercaillie, pub sessions versus games season connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Battlefield Band (1975) typifies revival ensemble — pipes, fiddle, accordion, song — with international touring reach.\n- Capercaillie brought Gaelic song and puirt à beul to global audiences through modern arrangement.\n- Celtic Connections is a major winter hub for Scottish and international trad.\n- Pub sessions and games season follow different calendars and repertoire emphasis.\n- Fusion builds on — does not replace — oral tradition and competition piping.\n- Representative depth means studying named bands and named scenes, not generic Celtic compilations.\n\n- Battlefield Band (1975) typifies revival ensemble — pipes, fiddle, accordion, song — with international touring reach.\n- Capercaillie brought Gaelic song and puirt à beul to global audiences through modern arrangement.\n- Celtic Connections is a major winter hub for Scottish and international trad.\n- Pub sessions and games season follow different calendars and repertoire emphasis.\n- Fusion builds on — does not replace — oral tradition and competition piping.\n- Representative depth means studying named bands and named scenes, not generic Celtic compilations.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-5-key-points-q1",
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-8-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Battlefield Band formed in 1975 and is associated with:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
+            "text": "Pipes, fiddle, accordion, and Scottish revival ensemble touring",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": true
-          },
-          {
-            "id": "d",
             "text": "Tips and heels striking the floor",
             "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Pipes, fiddle, accordion, and Scottish revival ensemble touring"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-8-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Capercaillie is known for Gaelic vocals fronted by Karen Matheson and fusion arrangements.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4645,66 +6958,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- Scottish Traditional Music rewards comparative study with Ireland.\n\n- Focus: The Mason's Apron, Drummond Castle, and classic strathspey/reel recordings.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- The Mason's Apron is essential cross-border reel repertoire.\n\n- Drummond Castle Strathspey exemplifies dotted snap and Perthshire naming.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The Mason's Apron is typically played as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "A reel shared across Scottish and Irish session repertoire",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: A reel shared across Scottish and Irish session repertoire"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Drummond Castle Strathspey is associated with Perthshire estate naming and strathspey snap rhythm.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4726,66 +7029,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- Strathspey–reel set order dominates Scottish dance listening models.\n\n- James Scott Skinner recordings remain strathspey style reference.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "type": "truefalse",
+        "prompt": "Strathspey–reel–reel is a common Scottish set pattern in dance and pipe listening models.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "James Scott Skinner is a reference player for strathspey composition including tunes like The Bonnie Lass of Bon Accord.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4807,66 +7090,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- Dance metre and tune form belong together in study.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- Compare pipe and fiddle articulation on the same tune skeleton.\n\n- ABC supplements ear learning — it does not replace living players.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Scottish snap refers to the dotted long-short pulse characteristic of strathspeys.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Donegal highland repertoire",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "The Mason's Apron appears only in Scottish sources with no Irish session presence.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
+            "text": "True",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
+            "text": "False",
+            "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "the tune crosses the narrow sea and appears in Irish sessions too."
       }
     ]
   },
@@ -4888,66 +7151,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- The mason's apron, drummond castle, and classic strathspey/reel recordings connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- **The Mason's Apron** is a cross-border reel essential to Scottish and Irish session repertoire.\n\n- [[track:drummond-strathspey|Drummond Castle Strathspey]] exemplifies dotted strathspey snap and Perthshire estate tune naming.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Moneymusk is cited as a classic strathspey in Scottish repertoire.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Competition pipers perform MSR sets including march, strathspey, and reel categories.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4969,72 +7212,52 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- **Strathspey–reel** set order dominates Scottish dance and pipe-band listening models.\n\n- **James Scott Skinner** recordings remain reference for strathspey style and composition.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Learners should compare pipe and fiddle recordings of the same tune for articulation differences.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "D, G, A, and E minor",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "ABC notation replaces the need to learn tunes by ear from living players.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "ABC supplements ear learning; it does not replace copying phrasing from players."
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-1-overview",
-    "title": "Scotland trad: Overview",
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-6",
+    "title": "Scotland trad: key ideas (6)",
     "track": "celtic",
     "region": "scotland",
     "kind": "theory_lesson",
@@ -5050,13 +7273,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-08-tunes",
     "estimateMinutes": 4,
-    "body": "Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on The Mason's Apron, Drummond Castle, and classic strathspey/reel recordings within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nScottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on The Mason's Apron, Drummond Castle, and classic strathspey/reel recordings within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "From **Scottish Traditional Music — Tunes — Forms, History, and Recordings** (Scotland trad):\n\n- Compare recordings for **ornament** and **tempo**, not tune names alone.\n\n- ABC and tune books supplement — they do not replace — ear learning from players.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-1-overview-q1",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Drummond Castle trains the ear for dotted strathspey feel rather than even reel quavers.",
         "difficulty": 6,
         "choices": [
           {
@@ -5066,55 +7289,289 @@ export default [
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "A listening notebook tagging form, key, and region beats random scrolling for tune study.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-2-compared-with-ireland",
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-2-the-masons-apron",
+    "title": "Scotland trad: The Mason's Apron",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "tunes",
+      "recordings"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-08-tunes",
+    "estimateMinutes": 4,
+    "body": "The Mason's Apron is a reel in A major (often played in G or A depending on instrument) shared across Scottish, Irish, and North American sessions. The title references freemasonry apron imagery; the tune predates modern session culture and appears in nineteenth-century collections on both sides of the Irish Sea.\n\nScottish recordings emphasise driving reel pulse — fiddle bowing with cut and roll ornament, pipes articulating g gracenotes in ceòl beag sets. Irish sessions treat the same melody as a session workhorse — compare Donegal and Aberdeen versions for accent, not notes alone.\n\nUse Play all at the top of the tune panel to hear curated examples, or tap ▶ beside each player row. Compare at least two settings before treating one as \"the\" version.\n\nThe Mason's Apron belongs in every Scottish learner's ear-training list: if you can spot it by the first two bars in a ceilidh medley, you understand cross-border repertoire flow.\n\nThe Mason's Apron is a reel in A major (often played in G or A depending on instrument) shared across Scottish, Irish, and North American sessions. The title references freemasonry apron imagery; the tune predates modern session culture and appears in nineteenth-century collections on both sides of the Irish Sea. Scottish recordings emphasise driving reel pulse — fiddle bowing with cut and roll ornament, pipes articulating g gracenotes in ceòl beag sets. Irish sessions treat the same melody as a session workhorse — compare Donegal and Aberdeen versions for accent, not notes alone. Use Play all at the top of the tune panel to hear curated examples, or tap ▶ beside each player row. Compare at least two settings before…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-2-the-masons-apron-q1",
+        "type": "mcq",
+        "prompt": "The Mason's Apron is typically played as:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A reel shared across Scottish and Irish session repertoire",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A reel shared across Scottish and Irish session repertoire"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-2-the-masons-apron-q2",
+        "type": "truefalse",
+        "prompt": "Drummond Castle Strathspey is associated with Perthshire estate naming and strathspey snap rhythm.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-4-drummond-castle-strathspey",
+    "title": "Scotland trad: Drummond Castle strathspey",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "tunes",
+      "recordings"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-08-tunes",
+    "estimateMinutes": 4,
+    "body": "honours Drummond Castle in Perthshire — a seat of the Drummond family and a symbol of Highland–Lowland estate culture. As a strathspey, it demands dotted snap bowing or piping — long-short figures that feel regal rather than reel-flat.\n\nJames Scott Skinner recorded and composed strathspey repertoire that defines competition and ceilidh standards; Drummond Castle sits in the Perthshire geographic imagination alongside other estate-named tunes. Strathspey sets often precede reels in dance programmes — Drummond Castle might pair with reel counterparts in a Scottish country dance band book.\n\nDrummond Castle Strathspey trains the ear for snap — if your foot taps even quavers, you are treating it as a reel incorrectly.\n\nhonours Drummond Castle in Perthshire — a seat of the Drummond family and a symbol of Highland–Lowland estate culture. As a strathspey, it demands dotted snap bowing or piping — long-short figures that feel regal rather than reel-flat.\n\nJames Scott Skinner recorded and composed strathspey repertoire that defines competition and ceilidh standards; Drummond Castle sits in the Perthshire geographic imagination alongside other estate-named tunes. Strathspey sets often precede reels in dance programmes — Drummond Castle might pair with reel counterparts in a Scottish country dance band book.\n\nDrummond Castle Strathspey trains the ear for snap — if your foot taps even quavers, you are treating it as a reel incorrectly.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-4-drummond-castle-strathspey-q1",
+        "type": "truefalse",
+        "prompt": "Strathspey–reel–reel is a common Scottish set pattern in dance and pipe listening models.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-4-drummond-castle-strathspey-q2",
+        "type": "truefalse",
+        "prompt": "James Scott Skinner is a reference player for strathspey composition including tunes like The Bonnie Lass of Bon Accord.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-6-other-standards-orientation",
+    "title": "Scotland trad: Other standards (orientation)",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "tunes",
+      "recordings"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-08-tunes",
+    "estimateMinutes": 4,
+    "body": "| Tune | Form | Note |\n|------|------|------|\n| Moneymusk | Strathspey | Session and dance classic |\n| Captain Horne | Strathspey | Pipe and fiddle competition |\n| Highland Harry | Reel | Ceilidh favourite |\n| Hector the Hero | Slow air | Skinner composition |\n| Scotland the Brave | March | Ceremonial pipe band |\n\nBuild a listening notebook: tune name, form, key, player, region, one detail (snap, roll, pipe gracenote).\n\n| Tune | Form | Note |\n|------|------|------|\n| Moneymusk | Strathspey | Session and dance classic |\n| Captain Horne | Strathspey | Pipe and fiddle competition |\n| Highland Harry | Reel | Ceilidh favourite |\n| Hector the Hero | Slow air | Skinner composition |\n| Scotland the Brave | March | Ceremonial pipe band |\n\nBuild a listening notebook: tune name, form, key, player, region, one detail (snap, roll, pipe gracenote).",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-6-other-standards-orientation-q1",
+        "type": "truefalse",
+        "prompt": "Scottish snap refers to the dotted long-short pulse characteristic of strathspeys.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-6-other-standards-orientation-q2",
+        "type": "truefalse",
+        "prompt": "The Mason's Apron appears only in Scottish sources with no Irish session presence.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "the tune crosses the narrow sea and appears in Irish sessions too."
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-7-recording-history",
+    "title": "Scotland trad: Recording history",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "tunes",
+      "recordings"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-08-tunes",
+    "estimateMinutes": 4,
+    "body": "78 rpm and early LP transfers fixed regional accents — Skinner's Victorian recordings, twentieth-century pipe band discs, Shetland fiddle reissues. BBC broadcasts and Celtic Connections live albums document contemporary players.\n\nABC notation and websites like The Session host settings — supplements to ear learning, not substitutes. When a tune crosses to Ireland, name variants and part orders multiply; trust living players over one printed edition.\n\n78 rpm and early LP transfers fixed regional accents — Skinner's Victorian recordings, twentieth-century pipe band discs, Shetland fiddle reissues. BBC broadcasts and Celtic Connections live albums document contemporary players.\n\nABC notation and websites like The Session host settings — supplements to ear learning, not substitutes. When a tune crosses to Ireland, name variants and part orders multiply; trust living players over one printed edition.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-7-recording-history-q1",
+        "type": "truefalse",
+        "prompt": "Moneymusk is cited as a classic strathspey in Scottish repertoire.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-7-recording-history-q2",
+        "type": "truefalse",
+        "prompt": "Competition pipers perform MSR sets including march, strathspey, and reel categories.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-9-compared-with-ireland",
     "title": "Scotland trad: Compared with Ireland",
     "track": "celtic",
     "region": "scotland",
@@ -5131,71 +7588,51 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-08-tunes",
     "estimateMinutes": 4,
-    "body": "If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-08-tunes` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIf you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\nParallel Ireland lesson: `regions-celtic-ireland-08-tunes` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Parallel Ireland tune study appears across `regions-celtic-ireland-04-genres-forms` and session repertoire. The Mason's Apron is explicit cross-border proof — same tune, different accent. Ireland lacks Drummond Castle strathspey centrality; Scotland lacks Irish polka session clusters.\n\nWhen Irish players visit Scottish sessions, strathspey snap is the adjustment hurdle; when Scots visit Dublin, jig session speed is the hurdle. Tune lessons are practical diplomacy — shared repertoire, respectful accent.\n\nParallel Ireland tune study appears across `regions-celtic-ireland-04-genres-forms` and session repertoire. The Mason's Apron is explicit cross-border proof — same tune, different accent. Ireland lacks Drummond Castle strathspey centrality; Scotland lacks Irish polka session clusters.\n\nWhen Irish players visit Scottish sessions, strathspey snap is the adjustment hurdle; when Scots visit Dublin, jig session speed is the hurdle. Tune lessons are practical diplomacy — shared repertoire, respectful accent.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-2-compared-with-ireland-q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-9-compared-with-ireland-q1",
+        "type": "truefalse",
+        "prompt": "Learners should compare pipe and fiddle recordings of the same tune for articulation differences.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-9-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "ABC notation replaces the need to learn tunes by ear from living players.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "False",
-            "correct": true
+            "text": "True",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
+            "text": "False",
+            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "ABC supplements ear learning; it does not replace copying phrasing from players."
       }
     ]
   },
   {
-    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-5-key-points",
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-10-key-points",
     "title": "Scotland trad: Key points",
     "track": "celtic",
     "region": "scotland",
@@ -5212,66 +7649,242 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-scotland-08-tunes",
     "estimateMinutes": 4,
-    "body": "- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- The mason's apron, drummond castle, and classic strathspey/reel recordings connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- The mason's apron, drummond castle, and classic strathspey/reel recordings connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- The Mason's Apron is a cross-border reel essential to Scottish and Irish session repertoire.\n-  exemplifies dotted strathspey snap and Perthshire estate tune naming.\n- Strathspey–reel set order dominates Scottish dance and pipe-band listening models.\n- James Scott Skinner recordings remain reference for strathspey style and composition.\n- Compare recordings for ornament and tempo, not tune names alone.\n- ABC and tune books supplement — they do not replace — ear learning from players.\n\n- The Mason's Apron is a cross-border reel essential to Scottish and Irish session repertoire.\n-  exemplifies dotted strathspey snap and Perthshire estate tune naming.\n- Strathspey–reel set order dominates Scottish dance and pipe-band listening models.\n- James Scott Skinner recordings remain reference for strathspey style and composition.\n- Compare recordings for ornament and tempo, not tune names alone.\n- ABC and tune books supplement — they do not replace — ear learning from players.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-10-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Drummond Castle trains the ear for dotted strathspey feel rather than even reel quavers.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-sec-10-key-points-q2",
+        "type": "truefalse",
+        "prompt": "A listening notebook tagging form, key, and region beats random scrolling for tune study.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Sligo fiddle style",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-tune-masons-apron",
+    "title": "Scotland trad: The Mason's Apron",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "tunes",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**The Mason's Apron** — tune study from the Scotland unit.\n\n**Form:** reel\n\n**Reference:** Nineteenth-century Scottish and Irish collections\n\nCross-border session standard — compare Scottish drive with Irish roll-heavy settings.\n\n**Made famous by:** james-scott-skinner, aly-bain\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-tune-masons-apron-q1",
+        "type": "mcq",
+        "prompt": "The Mason's Apron is typically played as:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "A reel shared across Scottish and Irish session repertoire",
             "correct": true
           },
           {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
             "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: A reel shared across Scottish and Irish session repertoire"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-tune-masons-apron-q2",
+        "type": "truefalse",
+        "prompt": "Drummond Castle Strathspey is associated with Perthshire estate naming and strathspey snap rhythm.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-tune-drummond-castle",
+    "title": "Scotland trad: Drummond Castle Strathspey",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "tunes",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**Drummond Castle Strathspey** — tune study from the Scotland unit.\n\n**Form:** strathspey\n\n**Reference:** Perthshire estate tune; competition and ceilidh repertoire\n\nTrains the ear for Scottish snap — dotted long-short pulse.\n\n**Made famous by:** james-scott-skinner\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-tune-drummond-castle-q1",
+        "type": "truefalse",
+        "prompt": "Strathspey–reel–reel is a common Scottish set pattern in dance and pipe listening models.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-tune-drummond-castle-q2",
+        "type": "truefalse",
+        "prompt": "James Scott Skinner is a reference player for strathspey composition including tunes like The Bonnie Lass of Bon Accord.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-scotland-regions-celtic-scotland-08-tunes-tune-moneymusk",
+    "title": "Scotland trad: Moneymusk",
+    "track": "celtic",
+    "region": "scotland",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "scotland",
+      "celtic",
+      "tunes",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-scotland-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-scotland-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**Moneymusk** — tune study from the Scotland unit.\n\n**Form:** strathspey\n\n**Reference:** Neil Gow era; widely played in Scotland and Cape Breton\n\nSession and dance classic — often paired with reels in ceilidh sets.\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-tune-moneymusk-q1",
+        "type": "truefalse",
+        "prompt": "Scottish snap refers to the dotted long-short pulse characteristic of strathspeys.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-scotland-regions-celtic-scotland-08-tunes-tune-moneymusk-q2",
+        "type": "truefalse",
+        "prompt": "The Mason's Apron appears only in Scottish sources with no Irish session presence.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "the tune crosses the narrow sea and appears in Irish sessions too."
       }
     ]
   }

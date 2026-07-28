@@ -3672,6 +3672,7 @@ export default function useTuneBookMediaController(props) {
         const playOpts = {}
         if (pending.restart) {
             playOpts.restart = true
+            playOpts.fresh = true
         } else if (pending.fresh) {
             playOpts.fresh = true
         }

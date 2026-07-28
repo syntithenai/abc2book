@@ -12,6 +12,8 @@ import { pickDefaultSurvivorId } from '../tuneDuplicateMerge';
 import { tuneImportTitle } from '../importTitleMatch';
 import { buildAbcFromTune, NotationPreview } from './SuggestionPreviewDialog';
 import TuneSingleViewDialog from './TuneSingleViewDialog';
+import SelectAllToggle from './SelectAllToggle';
+import CheckToggleButton from './CheckToggleButton';
 
 function buildTuneMapFromGroup(group, liveTunes) {
   const map = {};
@@ -70,16 +72,15 @@ function DuplicateFieldTable(props) {
           return (
             <tr key={row.key} className={row.differs ? 'table-warning' : undefined}>
               <td className="text-center align-middle">
-                <Form.Check
-                  type="checkbox"
-                  id={'dup-merge-' + incoming.id + '-' + row.key}
+                <CheckToggleButton
+                  size="sm"
                   checked={!!selections[row.key]}
-                  onChange={function(e) {
+                  ariaLabel={'Take ' + row.label + ' from duplicate'}
+                  onClick={function() {
                     if (typeof onChange === 'function') {
-                      onChange(Object.assign({}, selections, { [row.key]: e.target.checked }));
+                      onChange(Object.assign({}, selections, { [row.key]: !selections[row.key] }));
                     }
                   }}
-                  aria-label={'Take ' + row.label + ' from duplicate'}
                 />
               </td>
               <td className="align-middle">
@@ -214,6 +215,8 @@ export default function DuplicateMergeModal(props) {
     if (!survivor || !activeIncoming) return [];
     return buildDuplicateMergeFieldRows(survivor, activeIncoming).filter(function(r) { return r.differs; });
   }, [survivor, activeIncoming]);
+  const activeSelections = activeDuplicateId ? (selectionsByTuneId[activeDuplicateId] || {}) : {};
+  const activeSelectedCount = activeRows.filter(function(row) { return activeSelections[row.key]; }).length;
 
   function updateSelectionsForTune(tuneId, nextSelections) {
     setSelectionsByTuneId(function(prev) {
@@ -335,7 +338,7 @@ export default function DuplicateMergeModal(props) {
         ) : null}
 
         {activeIncoming && !initializing ? (
-          <div className="duplicate-merge-actions mt-3 pt-3 border-top d-flex flex-wrap align-items-center gap-2">
+          <div className="duplicate-merge-actions mt-3 pt-3 border-top d-flex flex-wrap align-items-stretch gap-2 select-all-host">
             <Button
               size="sm"
               variant="outline-primary"
@@ -346,26 +349,20 @@ export default function DuplicateMergeModal(props) {
             >
               Keep survivor fields
             </Button>
-            <Button
+            <SelectAllToggle
               size="sm"
-              variant="outline-success"
-              onClick={function() {
+              totalCount={activeRows.length}
+              selectedCount={activeSelectedCount}
+              onSelectAll={function() {
                 if (!activeDuplicateId) return;
                 updateSelectionsForTune(activeDuplicateId, setAllTuneImportSelections(activeRows, true));
               }}
-            >
-              Select all differing
-            </Button>
-            <Button
-              size="sm"
-              variant="outline-secondary"
-              onClick={function() {
+              onSelectNone={function() {
                 if (!activeDuplicateId) return;
                 updateSelectionsForTune(activeDuplicateId, setAllTuneImportSelections(activeRows, false));
               }}
-            >
-              Select none
-            </Button>
+              ariaLabel="Select all differing fields"
+            />
             <div className="ms-auto d-flex flex-wrap gap-2">
               <Button variant="outline-secondary" size="sm" onClick={handleKeepSeparate}>
                 Keep separate

@@ -1,0 +1,782 @@
+{
+  "regions-french-louisiana-cajun-01-overview": {
+    "entities": [
+      {
+        "id": "dennis-mcgee",
+        "type": "artist",
+        "name": "Dennis McGee",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "louisiana-cajun-music",
+        "type": "band",
+        "name": "Louisiana Cajun Music",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Louisiana Cajun Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Louisiana_Cajun_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-louisiana-cajun-01-overview-pl1",
+        "entity_id": "dennis-mcgee",
+        "label": "Dennis McGee — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-01-overview-pl2",
+        "entity_id": "louisiana-cajun-music",
+        "label": "Louisiana Cajun Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-01-overview-pl3",
+        "label": "Louisiana Cajun Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-01-overview-pl4",
+        "label": "Louisiana Cajun Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Louisiana Cajun Music rewards comparative study.",
+      "Focus: Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance h.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: two-step, waltz.",
+      "Dance: dance hall.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Cajun music",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Louisiana Cajun Music spans accordion, fiddle leading voices",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-louisiana-cajun-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "dennis-mcgee",
+        "type": "artist",
+        "name": "Dennis McGee",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "louisiana-cajun-music",
+        "type": "band",
+        "name": "Louisiana Cajun Music",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Louisiana Cajun Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Louisiana_Cajun_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-louisiana-cajun-02-instruments-voices-i-pl1",
+        "entity_id": "dennis-mcgee",
+        "label": "Dennis McGee — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-02-instruments-voices-i-pl2",
+        "entity_id": "louisiana-cajun-music",
+        "label": "Louisiana Cajun Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-02-instruments-voices-i-pl3",
+        "label": "Louisiana Cajun Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-02-instruments-voices-i-pl4",
+        "label": "Louisiana Cajun Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Louisiana Cajun Music rewards comparative study.",
+      "Focus: accordion, fiddle.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: two-step, waltz.",
+      "Dance: dance hall.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Cajun music",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "accordion, fiddle",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-louisiana-cajun-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "dennis-mcgee",
+        "type": "artist",
+        "name": "Dennis McGee",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "louisiana-cajun-music",
+        "type": "band",
+        "name": "Louisiana Cajun Music",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Louisiana Cajun Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Louisiana_Cajun_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-louisiana-cajun-03-instruments-voices-ii-pl1",
+        "entity_id": "dennis-mcgee",
+        "label": "Dennis McGee — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-03-instruments-voices-ii-pl2",
+        "entity_id": "louisiana-cajun-music",
+        "label": "Louisiana Cajun Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-03-instruments-voices-ii-pl3",
+        "label": "Louisiana Cajun Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-03-instruments-voices-ii-pl4",
+        "label": "Louisiana Cajun Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Louisiana Cajun Music rewards comparative study.",
+      "Focus: guitar, triangle.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: two-step, waltz.",
+      "Dance: dance hall.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Cajun music",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "guitar, triangle",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-louisiana-cajun-04-genres-forms": {
+    "entities": [
+      {
+        "id": "dennis-mcgee",
+        "type": "artist",
+        "name": "Dennis McGee",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "louisiana-cajun-music",
+        "type": "band",
+        "name": "Louisiana Cajun Music",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Louisiana Cajun Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Louisiana_Cajun_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-louisiana-cajun-04-genres-forms-pl1",
+        "entity_id": "dennis-mcgee",
+        "label": "Dennis McGee — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-04-genres-forms-pl2",
+        "entity_id": "louisiana-cajun-music",
+        "label": "Louisiana Cajun Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-04-genres-forms-pl3",
+        "label": "Louisiana Cajun Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-04-genres-forms-pl4",
+        "label": "Louisiana Cajun Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Louisiana Cajun Music rewards comparative study.",
+      "Focus: two-step, waltz.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: two-step, waltz.",
+      "Dance: dance hall.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Cajun music",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "two-step, waltz",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-louisiana-cajun-05-dance": {
+    "entities": [
+      {
+        "id": "dennis-mcgee",
+        "type": "artist",
+        "name": "Dennis McGee",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "louisiana-cajun-music",
+        "type": "band",
+        "name": "Louisiana Cajun Music",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Louisiana Cajun Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Louisiana_Cajun_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-louisiana-cajun-05-dance-pl1",
+        "entity_id": "dennis-mcgee",
+        "label": "Dennis McGee — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-05-dance-pl2",
+        "entity_id": "louisiana-cajun-music",
+        "label": "Louisiana Cajun Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-05-dance-pl3",
+        "label": "Louisiana Cajun Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-05-dance-pl4",
+        "label": "Louisiana Cajun Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Louisiana Cajun Music rewards comparative study.",
+      "Focus: dance hall.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: two-step, waltz.",
+      "Dance: dance hall.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Cajun music",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "dance hall",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-louisiana-cajun-06-history": {
+    "entities": [
+      {
+        "id": "dennis-mcgee",
+        "type": "artist",
+        "name": "Dennis McGee",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "louisiana-cajun-music",
+        "type": "band",
+        "name": "Louisiana Cajun Music",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Louisiana Cajun Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Louisiana_Cajun_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-louisiana-cajun-06-history-pl1",
+        "entity_id": "dennis-mcgee",
+        "label": "Dennis McGee — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-06-history-pl2",
+        "entity_id": "louisiana-cajun-music",
+        "label": "Louisiana Cajun Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-06-history-pl3",
+        "label": "Louisiana Cajun Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-06-history-pl4",
+        "label": "Louisiana Cajun Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Louisiana Cajun Music rewards comparative study.",
+      "Focus: Louisiana French communities.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: two-step, waltz.",
+      "Dance: dance hall.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Cajun music",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Louisiana French communities",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-louisiana-cajun-07-representative-depth": {
+    "entities": [
+      {
+        "id": "dennis-mcgee",
+        "type": "artist",
+        "name": "Dennis McGee",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "louisiana-cajun-music",
+        "type": "band",
+        "name": "Louisiana Cajun Music",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Louisiana Cajun Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Louisiana_Cajun_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-louisiana-cajun-07-representative-depth-pl1",
+        "entity_id": "dennis-mcgee",
+        "label": "Dennis McGee — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-07-representative-depth-pl2",
+        "entity_id": "louisiana-cajun-music",
+        "label": "Louisiana Cajun Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-07-representative-depth-pl3",
+        "label": "Louisiana Cajun Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-07-representative-depth-pl4",
+        "label": "Louisiana Cajun Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Louisiana Cajun Music rewards comparative study.",
+      "Focus: Festivals Acadiens.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: two-step, waltz.",
+      "Dance: dance hall.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Cajun music",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Festivals Acadiens",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-louisiana-cajun-08-tunes": {
+    "entities": [
+      {
+        "id": "dennis-mcgee",
+        "type": "artist",
+        "name": "Dennis McGee",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "louisiana-cajun-music",
+        "type": "band",
+        "name": "Louisiana Cajun Music",
+        "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+        "blurb": "Study Louisiana Cajun Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Louisiana_Cajun_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-louisiana-cajun-08-tunes-pl1",
+        "entity_id": "dennis-mcgee",
+        "label": "Dennis McGee — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-08-tunes-pl2",
+        "entity_id": "louisiana-cajun-music",
+        "label": "Louisiana Cajun Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-08-tunes-pl3",
+        "label": "Louisiana Cajun Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-louisiana-cajun-08-tunes-pl4",
+        "label": "Louisiana Cajun Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Louisiana Cajun Music rewards comparative study.",
+      "Focus: Jolie Blonde.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: two-step, waltz.",
+      "Dance: dance hall.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Cajun music",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Jolie Blonde",
+        "url": "https://en.wikipedia.org/wiki/Cajun_music",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "jolie-blonde",
+        "type": "tune",
+        "name": "Jolie Blonde",
+        "form": "two-step",
+        "reference": "Cajun music repertoire",
+        "about": "Representative louisiana cajun music listening study.",
+        "playlist": [
+          {
+            "label": "Jolie Blonde — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "louisiana-cajun-standard-1",
+        "type": "tune",
+        "name": "louisiana-cajun standard 1",
+        "form": "two-step",
+        "reference": "Cajun music repertoire",
+        "about": "Representative louisiana cajun music listening study.",
+        "playlist": [
+          {
+            "label": "louisiana-cajun standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "louisiana-cajun-standard-2",
+        "type": "tune",
+        "name": "louisiana-cajun standard 2",
+        "form": "two-step",
+        "reference": "Cajun music repertoire",
+        "about": "Representative louisiana cajun music listening study.",
+        "playlist": [
+          {
+            "label": "louisiana-cajun standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

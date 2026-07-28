@@ -2842,9 +2842,62 @@ max-width: 90% !important ;
 }
 
 .tune-list-play-wrap {
-  margin-left: 1em;
   display: inline-flex;
   vertical-align: middle;
+}
+
+.tune-list-toolbar-btn-group {
+  margin-left: 3em;
+  vertical-align: middle;
+  align-self: stretch;
+}
+
+.tune-list-toolbar-btn-group > .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tune-list-bulk-ops-btn {
+  min-width: 2.75rem;
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+}
+
+.tune-list-bulk-ops-btn--placeholder:disabled {
+  opacity: 1;
+  pointer-events: none;
+}
+
+.tune-list-bulk-ops-btn--placeholder:disabled svg {
+  visibility: hidden;
+}
+
+.tune-list-toolbar-btn-group > .btn + .btn,
+.tune-list-toolbar-btn-group > .btn + .btn-group,
+.tune-list-toolbar-btn-group > .btn-group + .btn,
+.tune-list-toolbar-btn-group > .btn-group + .btn-group {
+  margin-left: -1px;
+}
+
+.tune-list-toolbar-btn-group .tune-list-selection-count.btn:disabled {
+  opacity: 1;
+  cursor: default;
+}
+
+.tune-list-toolbar-btn-group .tune-list-play-btn-group.play-with-queue-dropdown--toolbar .play-with-queue-dropdown-play {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.tune-list-toolbar-btn-group > .tune-list-play-btn-group:first-child:last-child .play-with-queue-dropdown-play {
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+}
+
+.tune-list-toolbar-btn-group .tune-list-play-btn-group.play-with-queue-dropdown--toolbar .play-with-queue-dropdown-toggle {
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
 }
 
 .play-with-queue-dropdown--toolbar .play-with-queue-dropdown-play {
@@ -6040,6 +6093,30 @@ button img:after {
 .tune-list-select-btn {
   flex-shrink: 0;
   vertical-align: middle;
+}
+
+.tune-list-toolbar-row {
+  height: 3em;
+  padding: 0.2em;
+  clear: both;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 0.25em;
+}
+
+.tune-list-toolbar-row .tune-list-toolbar-btn-group > .btn,
+.tune-list-toolbar-row .tune-list-toolbar-btn-group .play-with-queue-dropdown--toolbar .btn,
+.tune-list-toolbar-row .tune-list-toolbar-btn-group .tune-list-bulk-ops-btn {
+  min-height: 0;
+  height: 100%;
+}
+
+.tune-list-group-select-wrap {
+  float: left;
+  margin-right: 1em;
+  display: flex;
+  align-items: stretch;
 }
 
 .tune-list-item-title {
@@ -10074,7 +10151,7 @@ button img:after {
 
 .audio-drive-upload-modal-select-actions {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 0.45em;
   margin-bottom: 0.5rem;
 }
@@ -10087,7 +10164,13 @@ button img:after {
   overflow-y: auto;
 }
 
-.audio-drive-upload-modal-file-list .form-check-label {
+.audio-drive-upload-file-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.audio-drive-upload-file-name {
   word-break: break-word;
 }
 
@@ -11057,9 +11140,17 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 
 .scratchpad-list-select-controls {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   flex: 0 0 auto;
   gap: 0.15rem;
+  position: relative;
+  z-index: 2;
+  min-width: 2.75rem;
+}
+
+.scratchpad-list-select-controls .select-all-toggle {
+  flex-shrink: 0;
+  width: auto;
 }
 
 .scratchpad-list-select-btn {
@@ -11139,13 +11230,6 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   top: 0.35rem;
   left: 0.35rem;
   z-index: 2;
-  margin: 0;
-  padding: 0;
-}
-
-.scratchpad-card-select .form-check-input {
-  margin-top: 0;
-  cursor: pointer;
 }
 
 .scratchpad-card {

@@ -1,0 +1,938 @@
+{
+  "id": "regions-roots-quebec-03-instruments-voices-ii",
+  "title": "Quebecois Traditional Instruments — Ensemble Voices II",
+  "track": "regions",
+  "tier": 3,
+  "region": "roots-quebec",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-roots-quebec-02-instruments-voices-i"
+  ],
+  "tags": [
+    "roots",
+    "quebec",
+    "roots",
+    "session",
+    "&"
+  ],
+  "path": "10-regions/north-american-roots/quebec/03-instruments-session-voices-ii.md",
+  "sections": [
+    {
+      "id": "quebecois-traditional-instruments-ensemble-voices-ii",
+      "title": "Quebecois Traditional Instruments — Ensemble Voices II",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** North American Roots | **Region:** roots-quebec | **Tier:** 3\n**Prerequisites:** regions-roots-quebec-02-instruments-voices-i\n**Tags:** roots, quebec, roots, session, &"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "piano, guitar, accordion\n\nQuebecois Traditional Music belongs to the **North American Roots** curriculum. Jean Carignan\nLa Bottine Souriante\n\nThis lesson develops listening precision for **piano, guitar, accordion** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-appalachia",
+      "title": "Compared with Appalachia",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Appalachian Old-Time Music** (`regions-roots-appalachia-03-instruments-voices-ii`) covers the same lesson slot from the anchor perspective. This lesson stresses: **piano, guitar, accordion**.\n\n| Topic | Appalachia anchor | Quebecois Traditional Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | guitar, bass, clogging rhythm… | piano, guitar, accordion… |\n\n**Parallel anchor lesson:** `regions-roots-appalachia-03-instruments-voices-ii`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-03-instruments-voices-ii`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "piano, guitar, accordion\n\nStudy **quebecois traditional music** through listening first. Wikipedia's article on [Music of Quebec](https://en.wikipedia.org/wiki/Music_of_Quebec) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **North American Roots**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **fiddle, foot percussion**. Ensemble layer: **piano, guitar, accordion**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **reels, jigs, quadrilles**. Dance context: **quadrille, podorythmie**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **Jean Carignan, archives**. Contemporary scenes: **festivals, crooked tunes**. Tune repertoire anchor: **Reel de Saint-Antoine, Grande Gigue Simple**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- piano, guitar, accordion\n- Lead instruments: fiddle, foot percussion\n- Ensemble: piano, guitar, accordion\n- Forms: reels, jigs, quadrilles\n- Dance: quadrille, podorythmie\n- History: Jean Carignan, archives\n- Scenes: festivals, crooked tunes\n- Repertoire: Reel de Saint-Antoine, Grande Gigue Simple\n- Compared with Appalachia: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Quebecois Traditional Music is a living tradition with regional accent.\n- Focus: piano, guitar, accordion.\n- Compared with Appalachia: shared heritage, distinct emphasis.\n- Forms: reels, jigs, quadrilles.\n- Dance: quadrille, podorythmie.\n- Transmission: Jean Carignan, archives."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nQ\nu\ne\nb\ne\nc\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nQ\nu\ne\nb\ne\nc\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nA\np\np\na\nl\na\nc\nh\ni\na\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "jean-carignan",
+      "type": "artist",
+      "name": "Jean Carignan",
+      "summary": "Representative musician or ensemble in roots-quebec trad",
+      "blurb": "Study Jean Carignan for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Jean_Carignan",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "la-bottine-souriante",
+      "type": "band",
+      "name": "La Bottine Souriante",
+      "summary": "Representative musician or ensemble in roots-quebec trad",
+      "blurb": "Study La Bottine Souriante for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/La_Bottine_Souriante",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "jean-carignan",
+    "la-bottine-souriante"
+  ],
+  "playlist": [
+    {
+      "id": "regions-roots-quebec-03-instruments-voices-ii-pl1",
+      "entity_id": "jean-carignan",
+      "label": "Jean Carignan — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Jean Carignan"
+    },
+    {
+      "id": "regions-roots-quebec-03-instruments-voices-ii-pl2",
+      "entity_id": "la-bottine-souriante",
+      "label": "La Bottine Souriante — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "La Bottine Souriante"
+    },
+    {
+      "id": "regions-roots-quebec-03-instruments-voices-ii-pl3",
+      "label": "Quebecois Traditional Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-roots-quebec-03-instruments-voices-ii-pl4",
+      "label": "Quebecois Traditional Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Quebecois Traditional Music rewards comparative study.",
+    "Focus: piano, guitar, accordion.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: reels, jigs, quadrilles.",
+    "Dance: quadrille, podorythmie.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Quebecois Traditional Music is a living tradition with regional accent.",
+    "Compared with Appalachia: shared heritage, distinct emphasis.",
+    "Transmission: Jean Carignan, archives."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Quebec",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "North American Roots",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "piano, guitar, accordion",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Quebec",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) piano, guitar, accordion\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) piano, guitar, accordion\n\n### Q2. Quebecois Traditional Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Appalachia, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) fiddle, foot percussion\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) fiddle, foot percussion\n\n### Q5. Ensemble voices include:\n- A) piano, guitar, accordion\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) piano, guitar, accordion\n\n### Q6. Tune and song forms include:\n- A) reels, jigs, quadrilles\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) reels, jigs, quadrilles\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) Jean Carignan, archives\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) Jean Carignan, archives\n\n### Q9. Contemporary scenes include:\n- A) festivals, crooked tunes\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals, crooked tunes\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Reel de Saint-Antoine, Grande Gigue Simple\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Reel de Saint-Antoine, Grande Gigue Simple\n\n### Q12. The Compared with Appalachia section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "piano, guitar, accordion",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": ") piano, guitar, accordion"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quebecois Traditional Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Appalachia, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "fiddle, foot percussion",
+          "correct": true
+        }
+      ],
+      "explain": ") fiddle, foot percussion"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "piano, guitar, accordion",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") piano, guitar, accordion"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "piano, guitar, accordion",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "reels, jigs, quadrilles",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") reels, jigs, quadrilles"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "piano, guitar, accordion",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "piano, guitar, accordion",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jean Carignan, archives",
+          "correct": true
+        }
+      ],
+      "explain": ") Jean Carignan, archives"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "fiddle, foot percussion",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "festivals, crooked tunes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") festivals, crooked tunes"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Reel de Saint-Antoine, Grande Gigue Simple",
+          "correct": true
+        }
+      ],
+      "explain": ") Reel de Saint-Antoine, Grande Gigue Simple"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Appalachia section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-roots-quebec-03-instruments-voices-ii-quiz",
+    "title": "Quebecois Traditional Instruments — Ensemble Voices II quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "piano, guitar, accordion",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": ") piano, guitar, accordion"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Quebecois Traditional Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Appalachia, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "fiddle, foot percussion",
+            "correct": true
+          }
+        ],
+        "explain": ") fiddle, foot percussion"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "piano, guitar, accordion",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") piano, guitar, accordion"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "piano, guitar, accordion",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "reels, jigs, quadrilles",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") reels, jigs, quadrilles"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "piano, guitar, accordion",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "piano, guitar, accordion",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Jean Carignan, archives",
+            "correct": true
+          }
+        ],
+        "explain": ") Jean Carignan, archives"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "fiddle, foot percussion",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "festivals, crooked tunes",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") festivals, crooked tunes"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Reel de Saint-Antoine, Grande Gigue Simple",
+            "correct": true
+          }
+        ],
+        "explain": ") Reel de Saint-Antoine, Grande Gigue Simple"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Appalachia section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

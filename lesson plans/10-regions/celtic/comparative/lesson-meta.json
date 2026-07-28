@@ -1,73 +1,462 @@
 {
   "regions-celtic-comparative-01-what-celtic-means": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "comhaltas",
+        "type": "organization",
+        "name": "Comhaltas Ceoltóirí Éireann",
+        "summary": "Anchor institution for Irish trad as reference tradition",
+        "blurb": "Represents specific island practice within wider Celtic marketing.",
+        "url": "https://comhaltas.ie/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Comhaltas_Ceolt%C3%B3ir%C3%AD_%C3%89ireann_logo.svg?width=320"
+      },
+      {
+        "id": "festival-interceltique-lorient",
+        "type": "organization",
+        "name": "Festival Interceltique de Lorient",
+        "summary": "Pan-Celtic festival embodying political and musical networking",
+        "blurb": "Shows how Celtic label functions in practice without erasing national accents.",
+        "url": "https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_Interceltique_de_Lorient_2012.jpg?width=320"
+      },
+      {
+        "id": "pan-celticism",
+        "type": "concept",
+        "name": "Pan-Celticism",
+        "summary": "Political and cultural movement linking Celtic nations",
+        "blurb": "Connects language revival, festivals, and mutual visibility across regions.",
+        "url": "https://en.wikipedia.org/wiki/Pan-Celticism",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Celtic_nations.svg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "irish-session-reference",
+        "entity_id": "comhaltas",
+        "label": "Irish pub session — trad reference",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      },
+      {
+        "id": "celtic-fusion-festival",
+        "entity_id": "festival-interceltique-lorient",
+        "label": "Pan-Celtic festival fusion set",
+        "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY"
+      },
+      {
+        "id": "new-age-celtic-contrast",
+        "label": "Generic Celtic ambient — marketing contrast",
+        "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY"
+      },
+      {
+        "id": "regional-strathspey",
+        "label": "Scottish strathspey contrast",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      }
+    ],
     "key_points": [
-      "Ireland is the anchor; comparison adds precision.",
-      "Shared instruments differ by social role.",
-      "Tune forms require dance-context listening.",
-      "Revival paths diverge by institution.",
-      "Avoid Celtic marketing cliché."
+      "Celtic music is scholarly umbrella, political project, and commercial brand.",
+      "Irish trad is one deep tradition — not interchangeable with Celtic marketing.",
+      "Prefer regional labels (Sligo reel, fest-noz gavotte) over mist-and-harp cliché.",
+      "Pan-Celtic festivals create encounter without merging repertoires.",
+      "Ireland is often default Celtic voice abroad — privilege and responsibility."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Companion to Irish Traditional Music",
+        "author": "Fintan Vallely",
+        "note": "Entries on Celtic label and regional specificity"
+      },
+      {
         "type": "link",
-        "title": "What \"Celtic Music\" Means — orientation",
+        "title": "Celtic music — Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Celtic_music"
+      },
+      {
+        "type": "link",
+        "title": "Pan-Celticism — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pan-Celticism"
+      },
+      {
+        "type": "book",
+        "title": "Ethnicity, Identity and Music",
+        "author": "Martin Stokes",
+        "note": "Theoretical framing for nationalism and folk"
+      },
+      {
+        "type": "book",
+        "title": "The Companion to Irish Traditional Music",
+        "author": "Fintan Vallely",
+        "note": "Cross-reference for 'Celtic' marketing critique"
+      },
+      {
+        "type": "link",
+        "title": "Celtic nations",
+        "url": "https://en.wikipedia.org/wiki/Celtic_nations",
+        "note": "Political geography"
+      },
+      {
+        "type": "link",
+        "title": "World Music marketing",
+        "url": "https://en.wikipedia.org/wiki/World_music",
+        "note": "Commercial context"
       }
     ]
   },
   "regions-celtic-comparative-02-shared-instruments": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "irish-harp",
+        "type": "instrument",
+        "name": "Irish harp (cláirseach)",
+        "summary": "National symbol and living folk instrument in Ireland",
+        "blurb": "From O'Carolan to modern session harpists; distinct from Welsh triple harp pedagogy.",
+        "url": "https://en.wikipedia.org/wiki/Irish_harp",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Cl%C3%A1irseach.jpg?width=320"
+      },
+      {
+        "id": "uilleann-pipes",
+        "type": "instrument",
+        "name": "Uilleann pipes",
+        "summary": "Irish bellows-blown pipes with regulators",
+        "blurb": "Indoor chamber instrument; UNESCO intangible heritage 2017.",
+        "url": "https://en.wikipedia.org/wiki/Uilleann_pipes",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Uilleann_pipes.jpg?width=320"
+      },
+      {
+        "id": "gaita-galega",
+        "type": "instrument",
+        "name": "Gaita galega",
+        "summary": "Galician bagpipe for outdoor ensemble music",
+        "blurb": "Contrasts with uilleann pipes in construction and social context.",
+        "url": "https://en.wikipedia.org/wiki/Gaita_galega",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gaita_galega.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "uilleann-indoor",
+        "entity_id": "uilleann-pipes",
+        "label": "Uilleann pipes session recording",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      },
+      {
+        "id": "highland-pipe-band",
+        "label": "Highland pipe band march",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "gaita-ensemble",
+        "entity_id": "gaita-galega",
+        "label": "Galician gaita with percussion",
+        "youtube": "https://www.youtube.com/watch?v=0nF5K1d6d0Y"
+      },
+      {
+        "id": "irish-harp-session",
+        "entity_id": "irish-harp",
+        "label": "Irish harp in trad context",
+        "youtube": "https://www.youtube.com/watch?v=f5Q1zQr3pBk"
+      },
+      {
+        "id": "fiddle-accent-compare",
+        "label": "Irish vs Cape Breton fiddle comparison",
+        "youtube": "https://www.youtube.com/watch?v=0YqJYgJhZ5E"
+      }
+    ],
     "key_points": [
-      "Ireland is the anchor; comparison adds precision.",
-      "Shared instruments differ by social role.",
-      "Tune forms require dance-context listening.",
-      "Revival paths diverge by institution.",
-      "Avoid Celtic marketing cliché."
+      "Harp, pipes, and fiddle span nations with different construction and social role.",
+      "Uilleann pipes are bellows-driven with regulators — not Highland or gaita pipes.",
+      "Fiddle ornament grammar differs by region despite shared tune names.",
+      "Welsh harp ties to eisteddfod; Breton bombard-biniou leads fest-noz.",
+      "Specify pipe type — bagpipes alone is insufficient."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Shared Instruments Compared — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Uilleann pipes — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Uilleann_pipes"
+      },
+      {
+        "type": "link",
+        "title": "Great Highland bagpipe — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Great_Highland_bagpipe"
+      },
+      {
+        "type": "link",
+        "title": "Irish harp — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Irish_harp"
+      },
+      {
+        "type": "book",
+        "title": "Bagpipes: A National Collection of a National Instrument",
+        "author": "Hugh Cheape",
+        "note": "Comparative pipe history"
+      },
+      {
+        "type": "book",
+        "title": "The Celtic Harp",
+        "author": "Joan Rimmer",
+        "note": "Cross-national harp history"
+      },
+      {
+        "type": "link",
+        "title": "Uilleann pipes vs Highland pipes",
+        "url": "https://en.wikipedia.org/wiki/Uilleann_pipes",
+        "note": "Pipe comparison"
+      },
+      {
+        "type": "link",
+        "title": "Fiddle styles compared",
+        "url": "https://en.wikipedia.org/wiki/Fiddle",
+        "note": "Regional bowing"
       }
     ]
   },
   "regions-celtic-comparative-03-tune-forms-compared": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "strathspey",
+        "type": "concept",
+        "name": "Strathspey",
+        "summary": "Scottish dance tune form with dotted snap in 4/4",
+        "blurb": "Core Scottish form rarely default in Irish pub sessions.",
+        "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Scottish_country_dancing.jpg?width=320"
+      },
+      {
+        "id": "muiniera",
+        "type": "concept",
+        "name": "Muiñeira",
+        "summary": "Galician 6/8 dance tune form",
+        "blurb": "Metre cousin to jig; distinct dance and phrasing context.",
+        "url": "https://en.wikipedia.org/wiki/Mui%C3%B1eira",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Mu%C3%B1eira_dancers.jpg?width=320"
+      },
+      {
+        "id": "gavotte-bretonne",
+        "type": "concept",
+        "name": "Gavotte (Breton)",
+        "summary": "Breton fest-noz dance tune in 6/8 family",
+        "blurb": "Call-and-response phrasing linked to circular dance.",
+        "url": "https://en.wikipedia.org/wiki/Gavotte",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "irish-double-jig",
+        "label": "Irish double jig — reference",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "scottish-strathspey",
+        "entity_id": "strathspey",
+        "label": "Scottish strathspey with snap",
+        "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY"
+      },
+      {
+        "id": "breton-gavotte",
+        "entity_id": "gavotte-bretonne",
+        "label": "Breton gavotte at fest-noz",
+        "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY"
+      },
+      {
+        "id": "galician-muiniera",
+        "entity_id": "muiniera",
+        "label": "Galician muiñeira with dance",
+        "youtube": "https://www.youtube.com/watch?v=0nF5K1d6d0Y"
+      }
+    ],
     "key_points": [
-      "Ireland is the anchor; comparison adds precision.",
-      "Shared instruments differ by social role.",
-      "Tune forms require dance-context listening.",
-      "Revival paths diverge by institution.",
-      "Avoid Celtic marketing cliché."
+      "Metre resemblance does not make forms interchangeable — name the dance.",
+      "Irish reels and jigs are session defaults; strathspeys add Scottish dotted snap.",
+      "Muiñeiras, gavottes, and plinn share 6/8 territory with jigs — different labels.",
+      "Set architecture differs: Irish three-reel chains vs Breton fest-noz builds.",
+      "Foot-tap tests and dance video beat score reading alone."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Ceol Rince na hÉireann",
+        "author": "Brendan Breathnach",
+        "note": "Irish form definitions"
+      },
+      {
         "type": "link",
-        "title": "Tune Forms Compared — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Strathspey — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)"
+      },
+      {
+        "type": "link",
+        "title": "Muiñeira — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mui%C3%B1eira"
+      },
+      {
+        "type": "link",
+        "title": "Gavotte — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gavotte"
+      },
+      {
+        "type": "link",
+        "title": "Gavotte bretonne",
+        "url": "https://en.wikipedia.org/wiki/Gavotte",
+        "note": "Breton dance metre"
+      },
+      {
+        "type": "link",
+        "title": "Plygi",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Wales",
+        "note": "Welsh hornpipe family"
       }
     ]
   },
   "regions-celtic-comparative-04-revivals-compared": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "francis-oneill",
+        "type": "artist",
+        "name": "Francis O'Neill",
+        "summary": "Chicago police chief and Irish tune collector",
+        "blurb": "Music of Ireland (1903) fixed session standards — Irish revival benchmark.",
+        "url": "https://en.wikipedia.org/wiki/Francis_O%27Neill",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Francis_O%27Neill.jpg?width=320",
+        "years": "1848–1936",
+        "region": "Chicago / Ireland"
+      },
+      {
+        "id": "comhaltas",
+        "type": "organization",
+        "name": "Comhaltas Ceoltóirí Éireann",
+        "summary": "Irish trad organisation founded 1951",
+        "blurb": "Global template for competition-based revival pedagogy.",
+        "url": "https://comhaltas.ie/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Comhaltas_Ceolt%C3%B3ir%C3%AD_%C3%89ireann_logo.svg?width=320"
+      },
+      {
+        "id": "fleadh",
+        "type": "organization",
+        "name": "Fleadh Cheoil na hÉireann",
+        "summary": "All-Ireland traditional music competition festival",
+        "blurb": "Reference competition pipeline other nations contrast with festival-led models.",
+        "url": "https://comhaltas.ie/music/detail/fleadh_cheoil/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fleadh_Cheoil_na_h%C3%89ireann_2010.jpg?width=320"
+      },
+      {
+        "id": "itma",
+        "type": "organization",
+        "name": "Irish Traditional Music Archive",
+        "summary": "National archive for Irish trad",
+        "blurb": "Model for how broadcast, competition, and collecting intersect in revival.",
+        "url": "https://www.itma.ie/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Irish_Traditional_Music_Archive_logo.png?width=320"
+      },
+      {
+        "id": "alan-stivell",
+        "type": "person",
+        "name": "Alan Stivell",
+        "summary": "Breton harpist and Celtic fusion pioneer",
+        "blurb": "Parallels Seán Ó Riada and Chieftains as revival moderniser.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "oneill-era-78",
+        "entity_id": "francis-oneill",
+        "label": "78 rpm era Irish dance music",
+        "youtube": "https://www.youtube.com/watch?v=5r8x9sG0k8A"
+      },
+      {
+        "id": "fleadh-competition",
+        "entity_id": "fleadh",
+        "label": "Fleadh Cheoil competition stage",
+        "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY"
+      },
+      {
+        "id": "stivell-fusion",
+        "entity_id": "alan-stivell",
+        "label": "Alan Stivell Breton fusion",
+        "youtube": "https://www.youtube.com/watch?v=HkZ1dZ7V0xE"
+      },
+      {
+        "id": "itma-field-recording",
+        "entity_id": "itma",
+        "label": "ITMA archival field recording sample",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      },
+      {
+        "id": "oneill-legacy",
+        "entity_id": "francis-oneill",
+        "label": "O'Neill tune legacy",
+        "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
+      },
+      {
+        "id": "itma-archive",
+        "entity_id": "itma",
+        "label": "ITMA archive orientation",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
     "key_points": [
-      "Ireland is the anchor; comparison adds precision.",
-      "Shared instruments differ by social role.",
-      "Tune forms require dance-context listening.",
-      "Revival paths diverge by institution.",
-      "Avoid Celtic marketing cliché."
+      "All Celtic nations reached modern practice through layered revivals.",
+      "Collectors fixed oral repertoire in print with regional bias.",
+      "Broadcasting and competitions standardise reach while homogenising accent.",
+      "Archives preserve sources; sessions keep variation alive.",
+      "Fusion ensembles recruited audiences — Ireland (Chieftains), Brittany (Stivell)."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Music of Ireland",
+        "author": "Francis O'Neill",
+        "note": "1903 collector edition — diaspora impact"
+      },
+      {
+        "type": "book",
+        "title": "Flowing Tides",
+        "author": "Gearóid Ó hAllmhuráin",
+        "note": "Irish revival and diaspora history"
+      },
+      {
         "type": "link",
-        "title": "Revivals Compared — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Irish Traditional Music Archive",
+        "url": "https://www.itma.ie/"
+      },
+      {
+        "type": "link",
+        "title": "Alan Stivell — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alan_Stivell"
+      },
+      {
+        "type": "book",
+        "title": "The Chief: The Life of Francis O'Neill",
+        "author": "Nicholas Carolan",
+        "note": "Irish collector case study"
+      },
+      {
+        "type": "link",
+        "title": "ITMA archives",
+        "url": "https://www.itma.ie/",
+        "note": "Irish transmission model"
+      },
+      {
+        "type": "link",
+        "title": "Dastum — Breton archives",
+        "url": "https://www.dastum.net/",
+        "note": "Parallel Breton collecting"
+      },
+      {
+        "type": "link",
+        "title": "Hamish Henderson",
+        "url": "https://en.wikipedia.org/wiki/Hamish_Henderson",
+        "note": "Scottish collector"
+      },
+      {
+        "type": "link",
+        "title": "Alan Lomax in Britain",
+        "url": "https://en.wikipedia.org/wiki/Alan_Lomax",
+        "note": "Broadcast and archive"
       }
     ]
   }

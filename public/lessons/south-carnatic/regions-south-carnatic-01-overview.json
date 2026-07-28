@@ -1,0 +1,938 @@
+{
+  "id": "regions-south-carnatic-01-overview",
+  "title": "Carnatic Music — Overview",
+  "track": "regions",
+  "tier": 1,
+  "region": "south-carnatic",
+  "difficulty": 3,
+  "prerequisites": [
+    "regions-celtic-ireland-01-overview"
+  ],
+  "tags": [
+    "south",
+    "carnatic",
+    "south-asia",
+    "overview"
+  ],
+  "path": "10-regions/south-asia/carnatic/01-overview.md",
+  "sections": [
+    {
+      "id": "carnatic-music-overview",
+      "title": "Carnatic Music — Overview",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** South Asian Traditions | **Region:** south-carnatic | **Tier:** 1\n**Prerequisites:** regions-celtic-ireland-01-overview\n**Tags:** south, carnatic, south-asia, overview"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link.\n\nCarnatic Music belongs to the **South Asian Traditions** curriculum. M. S. Subbulakshmi\n\nThis lesson develops listening precision for **Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatana** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-hindustani-tradition",
+      "title": "Compared with Hindustani tradition",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Hindustani Music** (`regions-south-hindustani-01-overview`) covers the same lesson slot from the anchor perspective. This lesson stresses: **Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link.**.\n\n| Topic | Hindustani tradition anchor | Carnatic Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | Hindustani Music spans sitar, sarod, voice leading voices, raga, tala, bandish, … | Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and… |\n\n**Parallel anchor lesson:** `regions-south-hindustani-01-overview`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-01-overview`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link.\n\nStudy **carnatic music** through listening first. Wikipedia's article on [Carnatic music](https://en.wikipedia.org/wiki/Carnatic_music) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **South Asian Traditions**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **veena, violin, voice**. Ensemble layer: **mridangam, ensemble**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **raga, tala, kriti**. Dance context: **Bharatanatyam link**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **lineage transmission**. Contemporary scenes: **Cleveland aradhana**. Tune repertoire anchor: **Kriti repertoire**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link.\n- Lead instruments: veena, violin, voice\n- Ensemble: mridangam, ensemble\n- Forms: raga, tala, kriti\n- Dance: Bharatanatyam link\n- History: lineage transmission\n- Scenes: Cleveland aradhana\n- Repertoire: Kriti repertoire\n- Compared with Hindustani tradition: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Carnatic Music is a living tradition with regional accent.\n- Focus: Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link..\n- Compared with Hindustani tradition: shared heritage, distinct emphasis.\n- Forms: raga, tala, kriti.\n- Dance: Bharatanatyam link.\n- Transmission: lineage transmission."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nC\na\nr\nn\na\nt\ni\nc\n \nm\nu\ns\ni\nc\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nC\na\nr\nn\na\nt\ni\nc\n_\nm\nu\ns\ni\nc\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nH\ni\nn\nd\nu\ns\nt\na\nn\ni\n \nt\nr\na\nd\ni\nt\ni\no\nn\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "m-s-subbulakshmi",
+      "type": "artist",
+      "name": "M. S. Subbulakshmi",
+      "summary": "Representative musician or ensemble in south-carnatic trad",
+      "blurb": "Study M. S. Subbulakshmi for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/M._S._Subbulakshmi",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "carnatic-music",
+      "type": "band",
+      "name": "Carnatic Music",
+      "summary": "Representative musician or ensemble in south-carnatic trad",
+      "blurb": "Study Carnatic Music for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Carnatic_Music",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "m-s-subbulakshmi",
+    "carnatic-music"
+  ],
+  "playlist": [
+    {
+      "id": "regions-south-carnatic-01-overview-pl1",
+      "entity_id": "m-s-subbulakshmi",
+      "label": "M. S. Subbulakshmi — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "M. S. Subbulakshmi"
+    },
+    {
+      "id": "regions-south-carnatic-01-overview-pl2",
+      "entity_id": "carnatic-music",
+      "label": "Carnatic Music — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Carnatic Music"
+    },
+    {
+      "id": "regions-south-carnatic-01-overview-pl3",
+      "label": "Carnatic Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-south-carnatic-01-overview-pl4",
+      "label": "Carnatic Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Carnatic Music rewards comparative study.",
+    "Focus: Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatana.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: raga, tala, kriti.",
+    "Dance: Bharatanatyam link.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Carnatic Music is a living tradition with regional accent.",
+    "Focus: Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link..",
+    "Compared with Hindustani tradition: shared heritage, distinct emphasis.",
+    "Transmission: lineage transmission."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Carnatic music",
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "South Asian Traditions",
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Carnatic Music spans veena, violin, voice leading voices, ra",
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link.\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link.\n\n### Q2. Carnatic Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Hindustani tradition, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) veena, violin, voice\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) veena, violin, voice\n\n### Q5. Ensemble voices include:\n- A) mridangam, ensemble\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) mridangam, ensemble\n\n### Q6. Tune and song forms include:\n- A) raga, tala, kriti\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) raga, tala, kriti\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) lineage transmission\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) lineage transmission\n\n### Q9. Contemporary scenes include:\n- A) Cleveland aradhana\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) Cleveland aradhana\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Kriti repertoire\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Kriti repertoire\n\n### Q12. The Compared with Hindustani tradition section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "veena, violin, voice",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "mridangam, ensemble",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Carnatic Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "raga, tala, kriti",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "veena, violin, voice",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "mridangam, ensemble",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Hindustani tradition, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "mridangam, ensemble",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "raga, tala, kriti",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "lineage transmission",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "raga, tala, kriti",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "lineage transmission",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cleveland aradhana",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "veena, violin, voice",
+          "correct": true
+        }
+      ],
+      "explain": ") veena, violin, voice"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cleveland aradhana",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kriti repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "mridangam, ensemble",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "lineage transmission",
+          "correct": false
+        }
+      ],
+      "explain": ") mridangam, ensemble"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "raga, tala, kriti",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Cleveland aradhana",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Kriti repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") raga, tala, kriti"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Kriti repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "lineage transmission",
+          "correct": true
+        }
+      ],
+      "explain": ") lineage transmission"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cleveland aradhana",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") Cleveland aradhana"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Kriti repertoire",
+          "correct": true
+        }
+      ],
+      "explain": ") Kriti repertoire"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Hindustani tradition section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-south-carnatic-01-overview-quiz",
+    "title": "Carnatic Music — Overview quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "veena, violin, voice",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "mridangam, ensemble",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link.",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") Carnatic Music spans veena, violin, voice leading voices, raga, tala, kriti, and Bharatanatyam link."
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Carnatic Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "raga, tala, kriti",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "veena, violin, voice",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "mridangam, ensemble",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Hindustani tradition, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "mridangam, ensemble",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "raga, tala, kriti",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "lineage transmission",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "raga, tala, kriti",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "lineage transmission",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Cleveland aradhana",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "veena, violin, voice",
+            "correct": true
+          }
+        ],
+        "explain": ") veena, violin, voice"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cleveland aradhana",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Kriti repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "mridangam, ensemble",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "lineage transmission",
+            "correct": false
+          }
+        ],
+        "explain": ") mridangam, ensemble"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "raga, tala, kriti",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Cleveland aradhana",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Kriti repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") raga, tala, kriti"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Kriti repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "lineage transmission",
+            "correct": true
+          }
+        ],
+        "explain": ") lineage transmission"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Cleveland aradhana",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") Cleveland aradhana"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Kriti repertoire",
+            "correct": true
+          }
+        ],
+        "explain": ") Kriti repertoire"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Hindustani tradition section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

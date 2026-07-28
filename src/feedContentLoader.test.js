@@ -65,12 +65,14 @@ describe('feedContent quality', function() {
     expect(getEffectiveTheorySkill()).toBe(0)
   })
 
-  it('includes celtic lesson feed modules', async function() {
+  it('includes regional lesson feed modules', async function() {
     const bundle = await loadFeedContentModules()
-    const celtic = (bundle.theory || []).filter(function(m) { return m.track === 'celtic' })
-    expect(celtic.length).toBeGreaterThan(100)
-    expect(celtic.every(function(m) { return m.lessonSourceId })).toBe(true)
-    expect(celtic.every(function(m) { return (m.quizzes || []).length >= 2 })).toBe(true)
+    const regional = (bundle.theory || []).filter(function(m) {
+      return m.track === 'celtic' || m.track === 'regions'
+    })
+    expect(regional.length).toBeGreaterThan(100)
+    expect(regional.every(function(m) { return m.lessonSourceId })).toBe(true)
+    expect(regional.every(function(m) { return (m.quizzes || []).length >= 2 })).toBe(true)
   })
 
   it('assertModuleQuality rejects thin theory', function() {

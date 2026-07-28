@@ -271,8 +271,9 @@ export default function MediaPlayerOptionsModal({
     if (!requestPlaybackForTarget({
       playState: 'playMidi',
       fresh: !sameSource,
+      restart: true,
     })) {
-      startPlaybackFromGesture(sameSource ? {} : { fresh: true })
+      startPlaybackFromGesture({ fresh: true, restart: true })
     }
     if (!suppressRouteNavigation && location.pathname !== path) {
       navigate(path)

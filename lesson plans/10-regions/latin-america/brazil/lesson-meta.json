@@ -1,0 +1,782 @@
+{
+  "regions-latin-brazil-01-overview": {
+    "entities": [
+      {
+        "id": "pixinguinha",
+        "type": "artist",
+        "name": "Pixinguinha",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Pixinguinha for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Pixinguinha",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "brazilian-folk-roots",
+        "type": "band",
+        "name": "Brazilian Folk Roots",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Brazilian Folk Roots for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Folk_Roots",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-brazil-01-overview-pl1",
+        "entity_id": "pixinguinha",
+        "label": "Pixinguinha — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-brazil-01-overview-pl2",
+        "entity_id": "brazilian-folk-roots",
+        "label": "Brazilian Folk Roots — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-brazil-01-overview-pl3",
+        "label": "Brazilian Folk Roots — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-brazil-01-overview-pl4",
+        "label": "Brazilian Folk Roots — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Brazilian Folk Roots rewards comparative study.",
+      "Focus: Brazilian Folk Roots spans viola, voice, flute leading voices, choro, forró, samba roots, .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: choro, forró, samba roots.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Brazil",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Brazilian Folk Roots spans viola, voice, flute leading voice",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-brazil-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "pixinguinha",
+        "type": "artist",
+        "name": "Pixinguinha",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Pixinguinha for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Pixinguinha",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "brazilian-folk-roots",
+        "type": "band",
+        "name": "Brazilian Folk Roots",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Brazilian Folk Roots for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Folk_Roots",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-brazil-02-instruments-voices-i-pl1",
+        "entity_id": "pixinguinha",
+        "label": "Pixinguinha — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-brazil-02-instruments-voices-i-pl2",
+        "entity_id": "brazilian-folk-roots",
+        "label": "Brazilian Folk Roots — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-brazil-02-instruments-voices-i-pl3",
+        "label": "Brazilian Folk Roots — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-brazil-02-instruments-voices-i-pl4",
+        "label": "Brazilian Folk Roots — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Brazilian Folk Roots rewards comparative study.",
+      "Focus: viola, voice, flute.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: choro, forró, samba roots.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Brazil",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "viola, voice, flute",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-brazil-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "pixinguinha",
+        "type": "artist",
+        "name": "Pixinguinha",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Pixinguinha for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Pixinguinha",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "brazilian-folk-roots",
+        "type": "band",
+        "name": "Brazilian Folk Roots",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Brazilian Folk Roots for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Folk_Roots",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-brazil-03-instruments-voices-ii-pl1",
+        "entity_id": "pixinguinha",
+        "label": "Pixinguinha — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-brazil-03-instruments-voices-ii-pl2",
+        "entity_id": "brazilian-folk-roots",
+        "label": "Brazilian Folk Roots — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-brazil-03-instruments-voices-ii-pl3",
+        "label": "Brazilian Folk Roots — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-brazil-03-instruments-voices-ii-pl4",
+        "label": "Brazilian Folk Roots — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Brazilian Folk Roots rewards comparative study.",
+      "Focus: percussion, guitar.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: choro, forró, samba roots.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Brazil",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "percussion, guitar",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-brazil-04-genres-forms": {
+    "entities": [
+      {
+        "id": "pixinguinha",
+        "type": "artist",
+        "name": "Pixinguinha",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Pixinguinha for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Pixinguinha",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "brazilian-folk-roots",
+        "type": "band",
+        "name": "Brazilian Folk Roots",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Brazilian Folk Roots for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Folk_Roots",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-brazil-04-genres-forms-pl1",
+        "entity_id": "pixinguinha",
+        "label": "Pixinguinha — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-brazil-04-genres-forms-pl2",
+        "entity_id": "brazilian-folk-roots",
+        "label": "Brazilian Folk Roots — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-brazil-04-genres-forms-pl3",
+        "label": "Brazilian Folk Roots — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-brazil-04-genres-forms-pl4",
+        "label": "Brazilian Folk Roots — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Brazilian Folk Roots rewards comparative study.",
+      "Focus: choro, forró, samba roots.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: choro, forró, samba roots.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Brazil",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "choro, forró, samba roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-brazil-05-dance": {
+    "entities": [
+      {
+        "id": "pixinguinha",
+        "type": "artist",
+        "name": "Pixinguinha",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Pixinguinha for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Pixinguinha",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "brazilian-folk-roots",
+        "type": "band",
+        "name": "Brazilian Folk Roots",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Brazilian Folk Roots for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Folk_Roots",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-brazil-05-dance-pl1",
+        "entity_id": "pixinguinha",
+        "label": "Pixinguinha — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-brazil-05-dance-pl2",
+        "entity_id": "brazilian-folk-roots",
+        "label": "Brazilian Folk Roots — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-brazil-05-dance-pl3",
+        "label": "Brazilian Folk Roots — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-brazil-05-dance-pl4",
+        "label": "Brazilian Folk Roots — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Brazilian Folk Roots rewards comparative study.",
+      "Focus: dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: choro, forró, samba roots.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Brazil",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "dance",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-brazil-06-history": {
+    "entities": [
+      {
+        "id": "pixinguinha",
+        "type": "artist",
+        "name": "Pixinguinha",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Pixinguinha for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Pixinguinha",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "brazilian-folk-roots",
+        "type": "band",
+        "name": "Brazilian Folk Roots",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Brazilian Folk Roots for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Folk_Roots",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-brazil-06-history-pl1",
+        "entity_id": "pixinguinha",
+        "label": "Pixinguinha — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-brazil-06-history-pl2",
+        "entity_id": "brazilian-folk-roots",
+        "label": "Brazilian Folk Roots — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-brazil-06-history-pl3",
+        "label": "Brazilian Folk Roots — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-brazil-06-history-pl4",
+        "label": "Brazilian Folk Roots — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Brazilian Folk Roots rewards comparative study.",
+      "Focus: regional traditions.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: choro, forró, samba roots.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Brazil",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "regional traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-brazil-07-representative-depth": {
+    "entities": [
+      {
+        "id": "pixinguinha",
+        "type": "artist",
+        "name": "Pixinguinha",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Pixinguinha for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Pixinguinha",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "brazilian-folk-roots",
+        "type": "band",
+        "name": "Brazilian Folk Roots",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Brazilian Folk Roots for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Folk_Roots",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-brazil-07-representative-depth-pl1",
+        "entity_id": "pixinguinha",
+        "label": "Pixinguinha — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-brazil-07-representative-depth-pl2",
+        "entity_id": "brazilian-folk-roots",
+        "label": "Brazilian Folk Roots — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-brazil-07-representative-depth-pl3",
+        "label": "Brazilian Folk Roots — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-brazil-07-representative-depth-pl4",
+        "label": "Brazilian Folk Roots — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Brazilian Folk Roots rewards comparative study.",
+      "Focus: forró festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: choro, forró, samba roots.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Brazil",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "forró festivals",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-latin-brazil-08-tunes": {
+    "entities": [
+      {
+        "id": "pixinguinha",
+        "type": "artist",
+        "name": "Pixinguinha",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Pixinguinha for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Pixinguinha",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "brazilian-folk-roots",
+        "type": "band",
+        "name": "Brazilian Folk Roots",
+        "summary": "Representative musician or ensemble in latin-brazil trad",
+        "blurb": "Study Brazilian Folk Roots for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Folk_Roots",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-latin-brazil-08-tunes-pl1",
+        "entity_id": "pixinguinha",
+        "label": "Pixinguinha — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-latin-brazil-08-tunes-pl2",
+        "entity_id": "brazilian-folk-roots",
+        "label": "Brazilian Folk Roots — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-latin-brazil-08-tunes-pl3",
+        "label": "Brazilian Folk Roots — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-latin-brazil-08-tunes-pl4",
+        "label": "Brazilian Folk Roots — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Brazilian Folk Roots rewards comparative study.",
+      "Focus: Choro repertoire.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: choro, forró, samba roots.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Brazil",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Latin American Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Choro repertoire",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Brazil",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "choro-repertoire",
+        "type": "tune",
+        "name": "Choro repertoire",
+        "form": "choro",
+        "reference": "Music of Brazil repertoire",
+        "about": "Representative brazilian folk roots listening study.",
+        "playlist": [
+          {
+            "label": "Choro repertoire — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "brazil-standard-1",
+        "type": "tune",
+        "name": "brazil standard 1",
+        "form": "choro",
+        "reference": "Music of Brazil repertoire",
+        "about": "Representative brazilian folk roots listening study.",
+        "playlist": [
+          {
+            "label": "brazil standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "brazil-standard-2",
+        "type": "tune",
+        "name": "brazil standard 2",
+        "form": "choro",
+        "reference": "Music of Brazil repertoire",
+        "about": "Representative brazilian folk roots listening study.",
+        "playlist": [
+          {
+            "label": "brazil standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

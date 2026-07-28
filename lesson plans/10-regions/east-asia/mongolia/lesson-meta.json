@@ -1,0 +1,782 @@
+{
+  "regions-asia-mongolia-01-overview": {
+    "entities": [
+      {
+        "id": "huun-huur-tu",
+        "type": "artist",
+        "name": "Huun-Huur-Tu",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Huun-Huur-Tu for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Huun-Huur-Tu",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "mongolian-steppe-traditions",
+        "type": "band",
+        "name": "Mongolian & Steppe Traditions",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Mongolian & Steppe Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Mongolian_&_Steppe_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-asia-mongolia-01-overview-pl1",
+        "entity_id": "huun-huur-tu",
+        "label": "Huun-Huur-Tu — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-asia-mongolia-01-overview-pl2",
+        "entity_id": "mongolian-steppe-traditions",
+        "label": "Mongolian & Steppe Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-asia-mongolia-01-overview-pl3",
+        "label": "Mongolian & Steppe Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-asia-mongolia-01-overview-pl4",
+        "label": "Mongolian & Steppe Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mongolian & Steppe Traditions rewards comparative study.",
+      "Focus: Mongolian & Steppe Traditions spans morin khuur, voice leading voices, long song, throat s.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: long song, throat singing.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mongolia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "East Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Mongolian & Steppe Traditions spans morin khuur, voice leadi",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-asia-mongolia-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "huun-huur-tu",
+        "type": "artist",
+        "name": "Huun-Huur-Tu",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Huun-Huur-Tu for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Huun-Huur-Tu",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "mongolian-steppe-traditions",
+        "type": "band",
+        "name": "Mongolian & Steppe Traditions",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Mongolian & Steppe Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Mongolian_&_Steppe_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-asia-mongolia-02-instruments-voices-i-pl1",
+        "entity_id": "huun-huur-tu",
+        "label": "Huun-Huur-Tu — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-asia-mongolia-02-instruments-voices-i-pl2",
+        "entity_id": "mongolian-steppe-traditions",
+        "label": "Mongolian & Steppe Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-asia-mongolia-02-instruments-voices-i-pl3",
+        "label": "Mongolian & Steppe Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-asia-mongolia-02-instruments-voices-i-pl4",
+        "label": "Mongolian & Steppe Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mongolian & Steppe Traditions rewards comparative study.",
+      "Focus: morin khuur, voice.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: long song, throat singing.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mongolia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "East Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "morin khuur, voice",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-asia-mongolia-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "huun-huur-tu",
+        "type": "artist",
+        "name": "Huun-Huur-Tu",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Huun-Huur-Tu for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Huun-Huur-Tu",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "mongolian-steppe-traditions",
+        "type": "band",
+        "name": "Mongolian & Steppe Traditions",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Mongolian & Steppe Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Mongolian_&_Steppe_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-asia-mongolia-03-instruments-voices-ii-pl1",
+        "entity_id": "huun-huur-tu",
+        "label": "Huun-Huur-Tu — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-asia-mongolia-03-instruments-voices-ii-pl2",
+        "entity_id": "mongolian-steppe-traditions",
+        "label": "Mongolian & Steppe Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-asia-mongolia-03-instruments-voices-ii-pl3",
+        "label": "Mongolian & Steppe Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-asia-mongolia-03-instruments-voices-ii-pl4",
+        "label": "Mongolian & Steppe Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mongolian & Steppe Traditions rewards comparative study.",
+      "Focus: ensemble.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: long song, throat singing.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mongolia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "East Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "ensemble",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-asia-mongolia-04-genres-forms": {
+    "entities": [
+      {
+        "id": "huun-huur-tu",
+        "type": "artist",
+        "name": "Huun-Huur-Tu",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Huun-Huur-Tu for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Huun-Huur-Tu",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "mongolian-steppe-traditions",
+        "type": "band",
+        "name": "Mongolian & Steppe Traditions",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Mongolian & Steppe Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Mongolian_&_Steppe_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-asia-mongolia-04-genres-forms-pl1",
+        "entity_id": "huun-huur-tu",
+        "label": "Huun-Huur-Tu — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-asia-mongolia-04-genres-forms-pl2",
+        "entity_id": "mongolian-steppe-traditions",
+        "label": "Mongolian & Steppe Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-asia-mongolia-04-genres-forms-pl3",
+        "label": "Mongolian & Steppe Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-asia-mongolia-04-genres-forms-pl4",
+        "label": "Mongolian & Steppe Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mongolian & Steppe Traditions rewards comparative study.",
+      "Focus: long song, throat singing.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: long song, throat singing.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mongolia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "East Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "long song, throat singing",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-asia-mongolia-05-dance": {
+    "entities": [
+      {
+        "id": "huun-huur-tu",
+        "type": "artist",
+        "name": "Huun-Huur-Tu",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Huun-Huur-Tu for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Huun-Huur-Tu",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "mongolian-steppe-traditions",
+        "type": "band",
+        "name": "Mongolian & Steppe Traditions",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Mongolian & Steppe Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Mongolian_&_Steppe_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-asia-mongolia-05-dance-pl1",
+        "entity_id": "huun-huur-tu",
+        "label": "Huun-Huur-Tu — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-asia-mongolia-05-dance-pl2",
+        "entity_id": "mongolian-steppe-traditions",
+        "label": "Mongolian & Steppe Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-asia-mongolia-05-dance-pl3",
+        "label": "Mongolian & Steppe Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-asia-mongolia-05-dance-pl4",
+        "label": "Mongolian & Steppe Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mongolian & Steppe Traditions rewards comparative study.",
+      "Focus: dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: long song, throat singing.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mongolia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "East Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "dance",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-asia-mongolia-06-history": {
+    "entities": [
+      {
+        "id": "huun-huur-tu",
+        "type": "artist",
+        "name": "Huun-Huur-Tu",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Huun-Huur-Tu for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Huun-Huur-Tu",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "mongolian-steppe-traditions",
+        "type": "band",
+        "name": "Mongolian & Steppe Traditions",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Mongolian & Steppe Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Mongolian_&_Steppe_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-asia-mongolia-06-history-pl1",
+        "entity_id": "huun-huur-tu",
+        "label": "Huun-Huur-Tu — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-asia-mongolia-06-history-pl2",
+        "entity_id": "mongolian-steppe-traditions",
+        "label": "Mongolian & Steppe Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-asia-mongolia-06-history-pl3",
+        "label": "Mongolian & Steppe Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-asia-mongolia-06-history-pl4",
+        "label": "Mongolian & Steppe Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mongolian & Steppe Traditions rewards comparative study.",
+      "Focus: nomadic tradition.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: long song, throat singing.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mongolia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "East Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "nomadic tradition",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-asia-mongolia-07-representative-depth": {
+    "entities": [
+      {
+        "id": "huun-huur-tu",
+        "type": "artist",
+        "name": "Huun-Huur-Tu",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Huun-Huur-Tu for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Huun-Huur-Tu",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "mongolian-steppe-traditions",
+        "type": "band",
+        "name": "Mongolian & Steppe Traditions",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Mongolian & Steppe Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Mongolian_&_Steppe_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-asia-mongolia-07-representative-depth-pl1",
+        "entity_id": "huun-huur-tu",
+        "label": "Huun-Huur-Tu — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-asia-mongolia-07-representative-depth-pl2",
+        "entity_id": "mongolian-steppe-traditions",
+        "label": "Mongolian & Steppe Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-asia-mongolia-07-representative-depth-pl3",
+        "label": "Mongolian & Steppe Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-asia-mongolia-07-representative-depth-pl4",
+        "label": "Mongolian & Steppe Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mongolian & Steppe Traditions rewards comparative study.",
+      "Focus: festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: long song, throat singing.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mongolia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "East Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "festivals",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-asia-mongolia-08-tunes": {
+    "entities": [
+      {
+        "id": "huun-huur-tu",
+        "type": "artist",
+        "name": "Huun-Huur-Tu",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Huun-Huur-Tu for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Huun-Huur-Tu",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "mongolian-steppe-traditions",
+        "type": "band",
+        "name": "Mongolian & Steppe Traditions",
+        "summary": "Representative musician or ensemble in asia-mongolia trad",
+        "blurb": "Study Mongolian & Steppe Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Mongolian_&_Steppe_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-asia-mongolia-08-tunes-pl1",
+        "entity_id": "huun-huur-tu",
+        "label": "Huun-Huur-Tu — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-asia-mongolia-08-tunes-pl2",
+        "entity_id": "mongolian-steppe-traditions",
+        "label": "Mongolian & Steppe Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-asia-mongolia-08-tunes-pl3",
+        "label": "Mongolian & Steppe Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-asia-mongolia-08-tunes-pl4",
+        "label": "Mongolian & Steppe Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Mongolian & Steppe Traditions rewards comparative study.",
+      "Focus: Mongolian long song.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: long song, throat singing.",
+      "Dance: dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Mongolia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "East Asian Traditions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Mongolian long song",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Mongolia",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "mongolian-long-song",
+        "type": "tune",
+        "name": "Mongolian long song",
+        "form": "long song",
+        "reference": "Music of Mongolia repertoire",
+        "about": "Representative mongolian & steppe traditions listening study.",
+        "playlist": [
+          {
+            "label": "Mongolian long song — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "mongolia-standard-1",
+        "type": "tune",
+        "name": "mongolia standard 1",
+        "form": "long song",
+        "reference": "Music of Mongolia repertoire",
+        "about": "Representative mongolian & steppe traditions listening study.",
+        "playlist": [
+          {
+            "label": "mongolia standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "mongolia-standard-2",
+        "type": "tune",
+        "name": "mongolia standard 2",
+        "form": "long song",
+        "reference": "Music of Mongolia repertoire",
+        "about": "Representative mongolian & steppe traditions listening study.",
+        "playlist": [
+          {
+            "label": "mongolia standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

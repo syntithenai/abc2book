@@ -21,27 +21,62 @@ const EXAMPLES = {
     "illustrationPlan": "Brittany trad: key ideas (4) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-01-overview-kp-5": {
-    "kind": "none",
-    "illustrationPlan": "Brittany trad: key ideas (5) — listen for regional style, session context, and tune form.",
-    "imageUrl": ""
-  },
   "celtic-brittany-regions-celtic-brittany-01-overview-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-01-overview-sec-2-compared-with-ireland": {
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-2-breton-trad-versus-celtic-music-labels-that-help-and-mislead": {
+    "kind": "none",
+    "illustrationPlan": "\"Breton trad\" versus \"Celtic music\": labels that help and mislead",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-3-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-01-overview-sec-3-core-material": {
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-4-the-fest-noz-night-festival-as-social-engine": {
     "kind": "none",
-    "illustrationPlan": "Core material — listen for regional style, session context, and tune form.",
+    "illustrationPlan": "The fest-noz: night festival as social engine",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-01-overview-sec-5-key-points": {
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-5-kan-ha-diskan-call-and-response-song-preview": {
+    "kind": "none",
+    "illustrationPlan": "Kan ha diskan: call-and-response song (preview)",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-6-tune-types-a-field-guide-with-memorable-details": {
+    "kind": "none",
+    "illustrationPlan": "Tune types: a field guide with memorable details",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-7-regional-map-four-accents-to-know": {
+    "kind": "none",
+    "illustrationPlan": "Regional map: four accents to know — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-8-institutions-that-shape-the-tradition": {
+    "kind": "none",
+    "illustrationPlan": "Institutions that shape the tradition — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-10-how-this-unit-is-organised": {
+    "kind": "none",
+    "illustrationPlan": "How this unit is organised — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-11-starting-points-for-learners": {
+    "kind": "none",
+    "illustrationPlan": "Starting points for learners — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-12-reading-and-listening-list-orientation": {
+    "kind": "none",
+    "illustrationPlan": "Reading and listening list (orientation)",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-01-overview-sec-13-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -76,12 +111,37 @@ const EXAMPLES = {
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-2-compared-with-ireland": {
+  "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-3-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-5-key-points": {
+  "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-4-session-roles-overlap-at-fest-noz": {
+    "kind": "none",
+    "illustrationPlan": "Session roles overlap at fest-noz — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-6-technique-and-cultural-context": {
+    "kind": "none",
+    "illustrationPlan": "Technique and cultural context — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-7-fest-noz-and-bagad-role": {
+    "kind": "none",
+    "illustrationPlan": "Fest-noz and bagad role — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-8-famous-players-and-memorable-details": {
+    "kind": "none",
+    "illustrationPlan": "Famous players and memorable details — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-10-technique-and-cultural-context": {
+    "kind": "none",
+    "illustrationPlan": "Technique and cultural context — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-23-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -121,7 +181,12 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-5-key-points": {
+  "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-11-structure-and-pedagogy": {
+    "kind": "none",
+    "illustrationPlan": "Structure and pedagogy — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-16-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -156,14 +221,19 @@ const EXAMPLES = {
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-2-compared-with-ireland": {
+  "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-3-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-5-key-points": {
+  "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-16-ornament-and-phrasing": {
     "kind": "none",
-    "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
+    "illustrationPlan": "Ornament and phrasing — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-17-suite-sudarmoricaine-form-preview": {
+    "kind": "none",
+    "illustrationPlan": "Suite Sudarmoricaine (form preview) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
   "celtic-brittany-regions-celtic-brittany-05-dance-kp-1": {
@@ -201,7 +271,27 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-05-dance-sec-5-key-points": {
+  "celtic-brittany-regions-celtic-brittany-05-dance-sec-3-fest-noz-floor-etiquette": {
+    "kind": "none",
+    "illustrationPlan": "Fest-noz floor etiquette — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-05-dance-sec-4-gavotte-figures-on-the-floor": {
+    "kind": "none",
+    "illustrationPlan": "Gavotte figures on the floor — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-05-dance-sec-6-plinn-walking-as-dance": {
+    "kind": "none",
+    "illustrationPlan": "Plinn: walking as dance — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-05-dance-sec-9-bagad-parade-versus-fest-noz-floor": {
+    "kind": "none",
+    "illustrationPlan": "Bagad parade versus fest-noz floor — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-05-dance-sec-13-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -241,7 +331,47 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-06-history-sec-5-key-points": {
+  "celtic-brittany-regions-celtic-brittany-06-history-sec-3-pre-revival-rural-practice": {
+    "kind": "none",
+    "illustrationPlan": "Pre-revival rural practice — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-06-history-sec-4-dastum-and-archival-recovery": {
+    "kind": "none",
+    "illustrationPlan": "Dastum and archival recovery — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-06-history-sec-5-bodadeg-ar-sonerion-and-tune-book-transmission": {
+    "kind": "none",
+    "illustrationPlan": "Bodadeg ar Sonerion and tune book transmission",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-06-history-sec-6-bagad-institutional-revival-invention": {
+    "kind": "none",
+    "illustrationPlan": "Bagad: institutional revival invention — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-06-history-sec-7-alan-stivell-and-fusion-media": {
+    "kind": "none",
+    "illustrationPlan": "Alan Stivell and fusion media — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-06-history-sec-8-fest-noz-federation-and-modern-calendars": {
+    "kind": "none",
+    "illustrationPlan": "Fest-noz federation and modern calendars",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-06-history-sec-9-language-identity-and-song-transmission": {
+    "kind": "none",
+    "illustrationPlan": "Language, identity, and song transmission",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-06-history-sec-10-transmission-debates-living-tradition": {
+    "kind": "none",
+    "illustrationPlan": "Transmission debates (living tradition) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-06-history-sec-13-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -281,7 +411,42 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-5-key-points": {
+  "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-3-scene-1-village-fest-noz": {
+    "kind": "none",
+    "illustrationPlan": "Scene 1: Village fest-noz — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-4-scene-2-festival-dance-tent": {
+    "kind": "none",
+    "illustrationPlan": "Scene 2: Festival dance tent — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-5-scene-3-bagad-championships": {
+    "kind": "none",
+    "illustrationPlan": "Scene 3: Bagad championships — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-6-scene-4-alan-stivell-and-fusion-lineage": {
+    "kind": "none",
+    "illustrationPlan": "Scene 4: Alan Stivell and fusion lineage",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-7-scene-5-fest-noz-rock-and-electric-bands": {
+    "kind": "none",
+    "illustrationPlan": "Scene 5: Fest-noz rock and electric bands",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-9-scene-7-bro-gozh-diaspora": {
+    "kind": "none",
+    "illustrationPlan": "Scene 7: Bro Gozh diaspora — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-11-navigating-between-scenes": {
+    "kind": "none",
+    "illustrationPlan": "Navigating between scenes — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-13-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -316,14 +481,39 @@ const EXAMPLES = {
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-08-tunes-sec-2-compared-with-ireland": {
+  "celtic-brittany-regions-celtic-brittany-08-tunes-sec-3-suite-sudarmoricaine": {
     "kind": "none",
-    "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
+    "illustrationPlan": "Suite Sudarmoricaine — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-brittany-regions-celtic-brittany-08-tunes-sec-5-key-points": {
+  "celtic-brittany-regions-celtic-brittany-08-tunes-sec-5-representative-gavottes-fest-noz-and-bagad": {
+    "kind": "none",
+    "illustrationPlan": "Representative gavottes (fest-noz and bagad)",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-08-tunes-sec-12-learning-workflow": {
+    "kind": "none",
+    "illustrationPlan": "Learning workflow — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-08-tunes-sec-15-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-08-tunes-tune-suite-sudarmoricaine": {
+    "kind": "none",
+    "illustrationPlan": "Brittany trad: Suite Sudarmoricaine — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-08-tunes-tune-an-alarc'h": {
+    "kind": "none",
+    "illustrationPlan": "Brittany trad: An Alarc'h — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-brittany-regions-celtic-brittany-08-tunes-tune-gavotte-des-montagnes": {
+    "kind": "none",
+    "illustrationPlan": "Brittany trad: Gavotte des Montagnes — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   }
 }

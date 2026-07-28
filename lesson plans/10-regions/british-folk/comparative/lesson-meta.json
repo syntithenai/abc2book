@@ -1,0 +1,406 @@
+{
+  "regions-british-comparative-01-what-the-tradition-means": {
+    "entities": [
+      {
+        "id": "martin-carthy",
+        "type": "artist",
+        "name": "Martin Carthy",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study Martin Carthy for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Martin_Carthy",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "fairport-convention",
+        "type": "band",
+        "name": "Fairport Convention",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study Fairport Convention for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Fairport_Convention",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "efdss",
+        "type": "artist",
+        "name": "EFDSS",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study EFDSS for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/EFDSS",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-comparative-01-what-the-tradition-means-pl1",
+        "entity_id": "martin-carthy",
+        "label": "Martin Carthy — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-comparative-01-what-the-tradition-means-pl2",
+        "entity_id": "fairport-convention",
+        "label": "Fairport Convention — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-comparative-01-what-the-tradition-means-pl3",
+        "label": "English Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-comparative-01-what-the-tradition-means-pl4",
+        "label": "English Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Traditional Music rewards comparative study.",
+      "Focus: English Traditional Music spans fiddle, concertina, melodeon, and unaccompanied voice lead.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, jigs, ballads, shanties.",
+      "Dance: morris, country dance, ceilidh overlap.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of England",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "English Traditional Music spans fiddle, concertina, melodeon",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-comparative-02-shared-instruments": {
+    "entities": [
+      {
+        "id": "martin-carthy",
+        "type": "artist",
+        "name": "Martin Carthy",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study Martin Carthy for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Martin_Carthy",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "fairport-convention",
+        "type": "band",
+        "name": "Fairport Convention",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study Fairport Convention for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Fairport_Convention",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "efdss",
+        "type": "artist",
+        "name": "EFDSS",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study EFDSS for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/EFDSS",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-comparative-02-shared-instruments-pl1",
+        "entity_id": "martin-carthy",
+        "label": "Martin Carthy — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-comparative-02-shared-instruments-pl2",
+        "entity_id": "fairport-convention",
+        "label": "Fairport Convention — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-comparative-02-shared-instruments-pl3",
+        "label": "English Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-comparative-02-shared-instruments-pl4",
+        "label": "English Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Traditional Music rewards comparative study.",
+      "Focus: English Traditional Music spans fiddle, concertina, melodeon, and unaccompanied voice lead.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, jigs, ballads, shanties.",
+      "Dance: morris, country dance, ceilidh overlap.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of England",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "English Traditional Music spans fiddle, concertina, melodeon",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-comparative-03-forms-compared": {
+    "entities": [
+      {
+        "id": "martin-carthy",
+        "type": "artist",
+        "name": "Martin Carthy",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study Martin Carthy for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Martin_Carthy",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "fairport-convention",
+        "type": "band",
+        "name": "Fairport Convention",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study Fairport Convention for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Fairport_Convention",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "efdss",
+        "type": "artist",
+        "name": "EFDSS",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study EFDSS for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/EFDSS",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-comparative-03-forms-compared-pl1",
+        "entity_id": "martin-carthy",
+        "label": "Martin Carthy — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-comparative-03-forms-compared-pl2",
+        "entity_id": "fairport-convention",
+        "label": "Fairport Convention — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-comparative-03-forms-compared-pl3",
+        "label": "English Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-comparative-03-forms-compared-pl4",
+        "label": "English Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Traditional Music rewards comparative study.",
+      "Focus: English Traditional Music spans fiddle, concertina, melodeon, and unaccompanied voice lead.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, jigs, ballads, shanties.",
+      "Dance: morris, country dance, ceilidh overlap.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of England",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "English Traditional Music spans fiddle, concertina, melodeon",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-comparative-04-revivals-compared": {
+    "entities": [
+      {
+        "id": "martin-carthy",
+        "type": "artist",
+        "name": "Martin Carthy",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study Martin Carthy for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Martin_Carthy",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "fairport-convention",
+        "type": "band",
+        "name": "Fairport Convention",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study Fairport Convention for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Fairport_Convention",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "efdss",
+        "type": "artist",
+        "name": "EFDSS",
+        "summary": "Representative musician or ensemble in british-england trad",
+        "blurb": "Study EFDSS for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/EFDSS",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-comparative-04-revivals-compared-pl1",
+        "entity_id": "martin-carthy",
+        "label": "Martin Carthy — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-comparative-04-revivals-compared-pl2",
+        "entity_id": "fairport-convention",
+        "label": "Fairport Convention — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-comparative-04-revivals-compared-pl3",
+        "label": "English Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-comparative-04-revivals-compared-pl4",
+        "label": "English Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "English Traditional Music rewards comparative study.",
+      "Focus: English Traditional Music spans fiddle, concertina, melodeon, and unaccompanied voice lead.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, jigs, ballads, shanties.",
+      "Dance: morris, country dance, ceilidh overlap.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of England",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "English Traditional Music spans fiddle, concertina, melodeon",
+        "url": "https://en.wikipedia.org/wiki/Music_of_England",
+        "note": "Lesson focus area"
+      }
+    ]
+  }
+}

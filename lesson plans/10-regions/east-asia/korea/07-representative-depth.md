@@ -1,0 +1,342 @@
+---
+id: regions-asia-korea-07-representative-depth
+title: Korean Folk Music — Representative Fusions and Scenes
+track: regions
+region: asia-korea
+tier: 7
+difficulty: 9
+prerequisites: ["regions-asia-korea-06-history"]
+sources: ["Music of Korea", "East Asian Traditions"]
+status: manual
+---
+
+# Korean Folk Music — Representative Fusions and Scenes
+
+**Track:** East Asian Traditions | **Region:** asia-korea | **Tier:** 7
+**Prerequisites:** regions-asia-korea-06-history
+**Tags:** asia, korea, east-asia, representative, fusions
+
+## Overview
+
+festivals
+
+Korean Folk Music belongs to the **East Asian Traditions** curriculum. [[entity:pansori-masters]]
+
+This lesson develops listening precision for **festivals** — connecting repertoire, instruments, dance, and the institutions that transmit music today.
+
+![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)
+
+## Compared with Japan
+
+**Japanese Traditional Music** (`regions-asia-japan-07-representative-depth`) covers the same lesson slot from the anchor perspective. This lesson stresses: **festivals**.
+
+| Topic | Japan anchor | Korean Folk Music (this lesson) |
+|-------|------------------------------|-------------------------------------|
+| Focus | min'yō festivals… | festivals… |
+
+**Parallel anchor lesson:** `regions-asia-japan-07-representative-depth`
+**Secondary comparison (Ireland):** `regions-celtic-ireland-07-representative-depth`
+
+
+## Core material
+
+festivals
+
+Study **korean folk music** through listening first. Wikipedia's article on [Music of Korea](https://en.wikipedia.org/wiki/Music_of_Korea) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms.
+
+### Regional accent and social context
+
+Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **East Asian Traditions**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings.
+
+### Instruments and voices in this lesson
+
+Lead voices: **gayageum, piri, voice**. Ensemble layer: **janggu, ensemble**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged.
+
+### Forms, dance, and rhythm
+
+Named forms include **pansori, minyo**. Dance context: **folk dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats.
+
+### History, transmission, and today
+
+Historical threads: **court-folk continuum**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Arirang**. Follow lesson playlists and reading lists for recorded examples.
+
+### Listening habits
+
+1. Queue one field or archive recording and one contemporary ensemble track.
+2. Log metre, lead instrument, ornament, and social context in four columns.
+3. Return to the parallel anchor lesson if comparison feels abstract.
+4. Avoid generic world-music compilations when building ear training.
+
+
+## Study facts
+
+- festivals
+- Lead instruments: gayageum, piri, voice
+- Ensemble: janggu, ensemble
+- Forms: pansori, minyo
+- Dance: folk dance
+- History: court-folk continuum
+- Scenes: festivals
+- Repertoire: Arirang
+- Compared with Japan: regional accent and social context differ.
+- Revival movements and media shaped twentieth-century practice.
+- Dance rhythm and tune metre are linked in this tradition.
+
+
+## Key points
+
+- Korean Folk Music is a living tradition with regional accent.
+- Focus: festivals.
+- Compared with Japan: shared heritage, distinct emphasis.
+- Forms: pansori, minyo.
+- Dance: folk dance.
+- Transmission: court-folk continuum.
+
+## Reading list
+
+-
+ 
+[
+M
+u
+s
+i
+c
+ 
+o
+f
+ 
+K
+o
+r
+e
+a
+]
+(
+h
+t
+t
+p
+s
+:
+/
+/
+e
+n
+.
+w
+i
+k
+i
+p
+e
+d
+i
+a
+.
+o
+r
+g
+/
+w
+i
+k
+i
+/
+M
+u
+s
+i
+c
+_
+o
+f
+_
+K
+o
+r
+e
+a
+)
+ 
+—
+ 
+o
+r
+i
+e
+n
+t
+a
+t
+i
+o
+n
+
+
+-
+ 
+C
+o
+m
+p
+a
+n
+i
+o
+n
+ 
+l
+i
+s
+t
+e
+n
+i
+n
+g
+:
+ 
+l
+e
+s
+s
+o
+n
+ 
+p
+l
+a
+y
+l
+i
+s
+t
+ 
+i
+n
+ 
+m
+e
+t
+a
+d
+a
+t
+a
+
+
+-
+ 
+P
+a
+r
+a
+l
+l
+e
+l
+ 
+s
+t
+u
+d
+y
+:
+ 
+J
+a
+p
+a
+n
+ 
+a
+n
+c
+h
+o
+r
+ 
+u
+n
+i
+t
+
+## Quiz Questions
+
+### Q1. The main focus of this lesson is:
+- A) festivals
+- B) Only electronic dance music
+- C) Only opera competitions
+- D) Only music theory exams
+**Answer:** A) festivals
+
+### Q2. Korean Folk Music rewards listening to regional recordings before generic compilations.
+- A) True
+- B) False
+**Answer:** A) True
+
+### Q3. Compared with Japan, learners should note:
+- A) Identical repertoire everywhere
+- B) Regional accent and social context differ
+- C) No dance connection
+- D) No oral tradition
+**Answer:** B) Regional accent and social context differ
+
+### Q4. Lead instruments discussed include:
+- A) gayageum, piri, voice
+- B) Only synthesizers
+- C) Only trumpet concertos
+- D) Only drum machines
+**Answer:** A) gayageum, piri, voice
+
+### Q5. Ensemble voices include:
+- A) janggu, ensemble
+- B) Only solo harp
+- C) Only symphony orchestra
+- D) Only DJ controllers
+**Answer:** A) janggu, ensemble
+
+### Q6. Tune and song forms include:
+- A) pansori, minyo
+- B) Only 4/4 rock
+- C) Only serialism
+- D) Only Gregorian chant
+**Answer:** A) pansori, minyo
+
+### Q7. Dance rhythm and tune metre are linked in this tradition.
+- A) True
+- B) False
+**Answer:** A) True
+
+### Q8. Historical transmission involves:
+- A) court-folk continuum
+- B) No community memory
+- C) Only printed scores from 1700
+- D) Only streaming algorithms
+**Answer:** A) court-folk continuum
+
+### Q9. Contemporary scenes include:
+- A) festivals
+- B) No living musicians
+- C) Only museum exhibits
+- D) Only silent film
+**Answer:** A) festivals
+
+### Q10. Revival movements and media shaped twentieth-century practice.
+- A) True
+- B) False
+**Answer:** A) True
+
+### Q11. Representative repertoire includes:
+- A) Arirang
+- B) No named tunes
+- C) Only one melody worldwide
+- D) Tunes forbidden in archives
+**Answer:** A) Arirang
+
+### Q12. The Compared with Japan section highlights both shared heritage and national accent.
+- A) True
+- B) False
+**Answer:** A) True
+

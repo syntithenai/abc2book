@@ -1,6 +1,6 @@
 {
   "id": "regions-celtic-scotland-02-instruments-voices-i",
-  "title": "Scottish Traditional Instruments — Traditional Voices I",
+  "title": "Scottish Instruments — Traditional Voices I",
   "track": "regions",
   "tier": 2,
   "region": "scotland",
@@ -17,13 +17,13 @@
   "path": "10-regions/celtic/scotland/02-instruments-traditional-voices-i.md",
   "sections": [
     {
-      "id": "scottish-traditional-instruments-traditional-voices-i",
-      "title": "Scottish Traditional Instruments — Traditional Voices I",
+      "id": "scottish-instruments-traditional-voices-i",
+      "title": "Scottish Instruments — Traditional Voices I",
       "level": 1,
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Track:** Celtic Music | **Region:** scotland | **Tier:** 2\n**Prerequisites:** regions-celtic-scotland-01-overview"
+          "text": "**Track:** regions | **Tier:** 2 | **Difficulty:** 4/10\n**Prerequisites:** regions-celtic-scotland-01-overview\n**Tags:** scotland, fiddle, pipes, whistle, harp, shetland, highland"
         }
       ]
     },
@@ -34,7 +34,117 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.\n\nThis lesson focuses on **fiddle, Highland bagpipes, smallpipes, whistle, and clàrsach (Scottish harp)** within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions."
+          "text": "This lesson examines five melody voices at the heart of Scottish traditional music: the **fiddle**, **Great Highland bagpipe**, **Scottish smallpipes**, **tin whistle**, and **clàrsach** (Scottish harp). Guidebooks often group them as \"lead instruments,\" but session reality is messier — pipes supply harmonic drones, fiddle bowing drives ceilidh rhythm, and harp accompanies Gaelic song. Scottish trad shares ornament vocabulary with Ireland (cuts, rolls, snaps) yet regional accents — **Shetland**, **North East**, **West Highland** piping — sound unmistakably local.\n\nRead alongside **Session Voices II**, which covers accordion, piano, guitar, and percussion in ceilidh bands and folk ensembles."
+        }
+      ]
+    },
+    {
+      "id": "session-roles-overlap",
+      "title": "Session roles overlap",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Situation | What you might hear |\n|-----------|---------------------|\n| Ceilidh night | Fiddle and accordion on melody; pipes for a march set; whistle doubling the reel |\n| Pipe band contest | Massed Highland pipes and drums only — no fiddle |\n| Folk club | Smallpipes and harp on airs; whistle learner beside a seasoned fiddler |\n| Shetland hall | Twin fiddles in ringing unison on reels unique to the islands |\n\n**Who starts the tune** and **who matches whose phrasing** matter more than rigid \"melody only\" labels.\n\n![Fiddler performing traditional music](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "scottish-fiddle",
+      "title": "Scottish fiddle",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **Scottish fiddle** is the violin played with traditional bowing, ornament, and repertoire centred on **reels**, **strathspeys**, **jigs**, and **slow airs**. **James Scott Skinner** (1843–1927), the \"Strathspey King,\" composed and performed pieces that remain competition and session standards — *The Bonnie Lass of Bon Accord*, *Hector the Hero*. His Victorian showmanship bridged parlour taste and dance-hall drive."
+        }
+      ]
+    },
+    {
+      "id": "regional-schools-shetland-and-north-east",
+      "title": "Regional schools: Shetland and North East",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Shetland** fiddle style favours **ringing open strings**, precise ensemble with **twin fiddles**, and repertoire including **listening tunes** and Scandinavian-tinged melodies. Players like **Aly Bain** brought Shetland accent to international stages through **Boys of the Lough** and broadcasting. The **Shetland Folk Festival** concentrates island tradition for visitors and locals alike.\n\nThe **North East** (Aberdeenshire, Moray, Angus) produced fierce competition fiddlers and composers. **Scott Skinner** epitomises the region; modern players like **Paul Anderson** and **Alasdair Fraser** extend its technical brilliance. Bowing emphasises **strathspey snap** — the dotted long-short pulse that separates Scottish strathspeys from Irish reels.\n\n**West Highland** and **Gaelic** areas may favour slower airs and pipe-influenced repertoire. **Cape Breton** fiddle in Nova Scotia preserves Scottish settler styles — a diaspora mirror worth comparing after you know mainland sources."
+        }
+      ]
+    },
+    {
+      "id": "famous-players-and-memorable-details",
+      "title": "Famous players and memorable details",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**James Scott Skinner** (1843–1927), the \"Strathspey King,\" composed *The Bonnie Lass of Bon Accord* and *Hector the Hero* while touring as dancer and fiddler. His Victorian showmanship fixed strathspey repertoire for competition pipers and ceilidh bands alike. **Memorable detail:** Skinner marketed himself with photographs and composed pieces dedicated to patrons — trad entrepreneurship before the word \"brand\" dominated music.\n\n**Aly Bain** (born 1946, Shetland) brought **ringing open-string** fiddle to television through *Boys of the Lough* and *Transatlantic Sessions*. His duets with Irish fiddlers model healthy cross-border listening. **Memorable detail:** Bain's bow arm favours **clarity over flash** — a Shetland lesson in ensemble discipline.\n\nShetland Fiddle tradition is among Scotland's most distinctive regional voices — not interchangeable with Sligo or Donegal accents."
+        }
+      ]
+    },
+    {
+      "id": "technique-and-ornament",
+      "title": "Technique and ornament",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Scottish fiddlers use **cuts**, **rolls**, **birls** (bowed tremolo figures), and **snap bowing** on strathspeys. Vibrato is sparing outside airs. **Scordatura** and **cross-tuning** appear in historical practice. Sessions and ceilidhs demand **danceable tempo** — flash without lift fails the room."
+        }
+      ]
+    },
+    {
+      "id": "great-highland-bagpipe",
+      "title": "Great Highland bagpipe",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **Great Highland bagpipe** (*pìob mhòr*) is mouth-blown, with a conical **chanter** and **drones** (bass, tenor, alto). Volume suits outdoors — games, parades, battle memorials. The chanter is **open-ended**; staccato comes from finger technique, not closed-end design like uilleann pipes."
+        }
+      ]
+    },
+    {
+      "id": "pipe-bands-and-solo-competition",
+      "title": "Pipe bands and solo competition",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Pipe bands** layer multiple pipe chanters in unison with drum corps. Great Highland Bagpipe culture includes **solo piping competitions** at Highland games — **piobaireachd** (classical ceòl mòr) as well as march, strathspey, and reel sets.\n\nLearners often begin on **practice chanter** before full pipes. Bag pressure from **mouth blowing** demands stamina; reeds need constant maintenance. In folk sessions, a lone piper may sit out crowded reels or lead a march set — etiquette parallels Irish pipe volume concerns.\n\n![Bagpiper in traditional dress](https://en.wikipedia.org/wiki/Special:FilePath/Scottish_bagpiper_at_Pennsylvania_Renaissance_Faire.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "scottish-smallpipes",
+      "title": "Scottish smallpipes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Scottish smallpipes** and **border pipes** are softer, often **mouth-blown** or **bellows-blown**, suited to **indoor** folk clubs and sessions. **Northumbrian** and **Border** traditions overlap the southern Scottish marches. Smallpipes let pipers join fiddle-and-accordion ceilidhs without overwhelming the room — parallel to uilleann pipes in Irish pubs, though mechanism and timbre differ.\n\nMakers and players like **Hamish Moore** helped revive smallpipes for folk ensemble use in the late twentieth century. If Highland pipes are the national billboard, smallpipes are the **conversation voice** beside harp and whistle."
+        }
+      ]
+    },
+    {
+      "id": "tin-whistle",
+      "title": "Tin whistle",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **tin whistle** (*feadóg*) is inexpensive, portable, and widely taught in schools and folk workshops. In Scottish sessions it doubles fiddle melody at pitch or octave. Repertoire aligns with fiddle keys — **D**, **G**, **A** — with ornament (cuts, rolls, tonguing) matching Irish whistle technique closely enough that cross-border players swap tunes easily.\n\n**Whistle** does not carry a distinct \"Scottish only\" reputation the way pipes do, but it remains a **gateway instrument** from childhood tuition to festival sessions. Listen for strathspey **articulation** — not every reel approach fits the snap."
+        }
+      ]
+    },
+    {
+      "id": "clàrsach-scottish-harp",
+      "title": "Clàrsach (Scottish harp)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **clàrsach** is Scotland's historical wire- or gut-strung harp, cousin to the Irish **cláirseach**. Medieval **Gaelic** courts prized harpers; the **Queen Mary Harp** and **Lamont Harp** survive in museums as icons. Revival players — **Savourna Stevenson**, **Rachel Hair**, **Patsy Seddon** — perform dance tunes, airs, and song accompaniment.\n\nHarp suits **folk clubs**, **Gaelic song** settings, and concert stages more than loud pub sessions. **Wire-strung** revivalists pursue bell-like historical timbre; **lever harps** handle modulations for modern ensemble work. Clàrsach connects Scotland to shared Gaelic harp heritage across the Irish Sea.\n\n![Clàrsach (Scottish harp)](https://en.wikipedia.org/wiki/Special:FilePath/Clarsach.jpg?width=640)"
         }
       ]
     },
@@ -45,29 +155,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-02-instruments-voices-i` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section."
-        }
-      ]
-    },
-    {
-      "id": "core-material",
-      "title": "Core material",
-      "level": 2,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "Fiddle, highland bagpipes, smallpipes, whistle, and clàrsach (scottish harp) in scotland trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic \"Celtic\" compilations when possible."
-        }
-      ]
-    },
-    {
-      "id": "listening-and-study-habits",
-      "title": "Listening and study habits",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "1. Identify one field recording and one modern ensemble track mentioned or implied in this lesson's topic.\n2. Note the metre and dance association of at least two tune types discussed.\n3. Compare session or social-dance etiquette with what you learned from Irish trad.\n4. Follow the unit playlist entries in lesson metadata when available."
+          "text": "Parallel lesson: `regions-celtic-ireland-02-instruments-voices-i`. Irish fiddle regions (Sligo, Donegal, Clare) differ from **Shetland** and **North East** Scottish schools, yet **Donegal** imports Scottish marches and strathspeys freely. **Uilleann pipes** are bellows-blown and indoor-voiced; **Great Highland pipes** are mouth-blown and outdoor-loud. Both nations share whistle and harp revival stories.\n\nIrish sessions may lack pipe-band marches; Scottish ceilidhs may stack strathspey–reel–reel sets for dancers. Copy the **local accent** when you sit in — a Sligo roll on a strathspey snap will feel wrong under a Highland dancer's feet."
         }
       ]
     },
@@ -78,7 +166,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Fiddle, highland bagpipes, smallpipes, whistle, and clàrsach (scottish harp) connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing."
+          "text": "- **Shetland** and **North East** fiddle are flagship regional accents — learn them by name, not as generic \"Scottish fiddle.\"\n- **Great Highland bagpipe** dominates public image and pipe-band competition; **smallpipes** suit indoor folk ensemble.\n- **Whistle** is a democratic session voice shared closely with Irish practice.\n- **Clàrsach** links medieval Gaelic heritage to modern folk and song accompaniment.\n- **James Scott Skinner** remains essential listening for strathspey repertoire and style.\n- Instrument roles overlap — pipes drone, fiddle drives dance lift, harp accompanies song."
         }
       ]
     },
@@ -89,717 +177,741 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "- Regional folk archive or national library listening guides (see lesson metadata links when present).\n- Companion to Irish unit readings for cross-border context (Fintan Vallely, *Companion to Irish Traditional Music*).\n- Wikipedia articles on Music of Scotland as orientation, verified against recordings."
+          "text": "- **Mary Anne Alburger** — *Scottish Fiddlers and Their Music* (historical regional survey).\n- **Joshua Dickson** — *When Piping Was Strong* (Highland piping tradition).\n- **Wikipedia** — [Scottish fiddle](https://en.wikipedia.org/wiki/Scottish_fiddle), [Great Highland bagpipe](https://en.wikipedia.org/wiki/Great_Highland_bagpipe).\n- **Shetland Folk Festival** and **Hands Up for Trad** websites for contemporary player discovery."
         }
       ]
     }
   ],
-  "entities": [],
-  "entity_order": [],
-  "playlist": [],
+  "entities": [
+    {
+      "id": "shetland-fiddle",
+      "type": "tradition",
+      "name": "Shetland Fiddle",
+      "summary": "Island fiddle style with ringing strings and twin-fiddle ensemble",
+      "blurb": "Norse-influenced repertoire and Aly Bain's international broadcasting made Shetland accent globally known.",
+      "url": "https://en.wikipedia.org/wiki/Shetland_fiddle",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "great-highland-bagpipe",
+      "type": "instrument",
+      "name": "Great Highland Bagpipe",
+      "summary": "Mouth-blown national bagpipe of Scotland",
+      "blurb": "Outdoor volume suits games, parades, and pipe-band competition; practice chanter precedes full pipes.",
+      "url": "https://en.wikipedia.org/wiki/Great_Highland_bagpipe",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bagpipe_1.jpg?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "clarsach",
+      "type": "instrument",
+      "name": "Clàrsach",
+      "summary": "Scottish Gaelic harp",
+      "blurb": "Medieval wire-strung heritage survives in museum harps and modern revival performance.",
+      "url": "https://en.wikipedia.org/wiki/Cl%C3%A0rsach",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Clarsach.jpg?width=320",
+      "playlist_index": 3
+    },
+    {
+      "id": "james-scott-skinner",
+      "type": "artist",
+      "name": "James Scott Skinner",
+      "summary": "Aberdeenshire fiddler and composer, the Strathspey King",
+      "blurb": "Victorian showman whose strathspeys and recordings fixed competition repertoire for generations.",
+      "years": "1843–1927",
+      "region": "North East Scotland",
+      "url": "https://en.wikipedia.org/wiki/James_Scott_Skinner",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/James_Scott_Skinner.jpg?width=320"
+    },
+    {
+      "id": "aly-bain",
+      "type": "artist",
+      "name": "Aly Bain",
+      "summary": "Shetland fiddler and broadcaster",
+      "blurb": "Boys of the Lough and Transatlantic Sessions brought Shetland ringing style to global audiences.",
+      "years": "1946–",
+      "region": "Shetland",
+      "url": "https://en.wikipedia.org/wiki/Aly_Bain",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=320"
+    }
+  ],
+  "entity_order": [
+    "james-scott-skinner",
+    "aly-bain"
+  ],
+  "playlist": [
+    {
+      "id": "aly-bain-shetland",
+      "entity_id": "shetland-fiddle",
+      "label": "Aly Bain — Shetland fiddle",
+      "youtube": "https://www.youtube.com/watch?v=WJ4nYnLqvA0",
+      "subtitle": "Shetland Fiddle"
+    },
+    {
+      "id": "skinner-strathspey",
+      "label": "James Scott Skinner — strathspey",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": ""
+    },
+    {
+      "id": "highland-pipes-solo",
+      "entity_id": "great-highland-bagpipe",
+      "label": "Solo Highland bagpipe march",
+      "youtube": "https://www.youtube.com/watch?v=L0MK7awyLUI",
+      "subtitle": "Great Highland Bagpipe"
+    },
+    {
+      "id": "clarsach-air",
+      "entity_id": "clarsach",
+      "label": "Scottish harp slow air",
+      "youtube": "https://www.youtube.com/watch?v=3JZ_D3Xw5xw",
+      "subtitle": "Clàrsach"
+    }
+  ],
   "tunes": [],
   "key_points": [
-    "Scottish Traditional Music rewards comparative study with Ireland.",
-    "Focus: fiddle, Highland bagpipes, smallpipes, whistle, and clàrsach (Scottish harp).",
-    "Listen for regional accent, not generic Celtic cliché.",
-    "Sessions, festivals, and archives all transmit repertoire.",
-    "Dance metre and tune form belong together in study.",
-    "Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.",
-    "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
-    "Fiddle, highland bagpipes, smallpipes, whistle, and clàrsach (scottish harp) connects to dance, song, and community context—not isolated technique only.",
-    "Revival institutions, broadcasting, and festivals shape what learners hear today.",
-    "Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing."
+    "Shetland and North East fiddle are flagship regional accents — learn them by name.",
+    "Great Highland bagpipe dominates public image; smallpipes suit indoor folk sessions.",
+    "James Scott Skinner remains essential for strathspey repertoire and style.",
+    "Whistle shares much technique with Irish practice and suits session doubling.",
+    "Clàrsach links medieval Gaelic heritage to modern folk and song accompaniment.",
+    "Instrument roles overlap — pipes drone, fiddle drives dance lift.",
+    "**Shetland** and **North East** fiddle are flagship regional accents — learn them by name, not as generic \"Scottish fiddle.\"",
+    "**Great Highland bagpipe** dominates public image and pipe-band competition; **smallpipes** suit indoor folk ensemble.",
+    "**Whistle** is a democratic session voice shared closely with Irish practice.",
+    "**Clàrsach** links medieval Gaelic heritage to modern folk and song accompaniment.",
+    "**James Scott Skinner** remains essential listening for strathspey repertoire and style.",
+    "Instrument roles overlap — pipes drone, fiddle drives dance lift, harp accompanies song."
   ],
   "reading_list": [
     {
-      "type": "link",
-      "title": "Scottish Traditional Instruments — Traditional Voices I — orientation",
-      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+      "type": "book",
+      "title": "Scottish Fiddlers and Their Music",
+      "author": "Mary Anne Alburger",
+      "note": "Regional fiddle history"
     },
     {
       "type": "book",
-      "author": "Companion to Irish unit readings for cross-border context (Fintan Vallely",
-      "title": "Companion to Irish Traditional Music"
+      "title": "When Piping Was Strong",
+      "author": "Joshua Dickson",
+      "note": "Highland piping tradition"
+    },
+    {
+      "type": "link",
+      "title": "Scottish fiddle — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scottish_fiddle",
+      "note": "Instrument overview"
+    },
+    {
+      "type": "link",
+      "title": "Shetland Folk Festival",
+      "url": "https://www.shetlandfolkfestival.com/",
+      "note": "Contemporary island tradition"
+    },
+    {
+      "type": "book",
+      "title": "The Scottish Violinist",
+      "author": "James Scott Skinner",
+      "note": "Strathspey and reel collections"
+    },
+    {
+      "type": "link",
+      "title": "Aly Bain — discography",
+      "url": "https://en.wikipedia.org/wiki/Aly_Bain",
+      "note": "Shetland fiddle reference"
+    },
+    {
+      "type": "link",
+      "title": "Hamish Moore — smallpipes",
+      "url": "https://en.wikipedia.org/wiki/Hamish_Moore",
+      "note": "Revival maker and player"
+    },
+    {
+      "type": "link",
+      "title": "Clarsach Society",
+      "url": "https://www.clarsachsociety.co.uk/",
+      "note": "Scottish harp teachers and events"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "Scottish fiddle",
+      "url": "https://en.wikipedia.org/wiki/Scottish_fiddle"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
     }
   ],
-  "quiz_markdown": "### Q1. Which description best fits the main social context emphasised in this lesson?\n- A) Concerto competitions only\n- B) Community dance and oral transmission\n- C) Strictly classical conservatory exams\n- D) Electronic dance clubs only\n**Answer:** B) Community dance and oral transmission\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q2. This tradition is identical to Irish traditional music in repertoire and social context.\n- A) True\n- B) False\n**Answer:** B) False\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q3. Compared with Ireland, this unit stresses which additional emphasis?\n- A) No differences whatsoever\n- B) See Compared with Ireland section\n- C) Only classical opera\n- D) Only hip-hop production\n**Answer:** B) See Compared with Ireland section\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q4. A typical learner should prioritise:\n- A) Only reading generic textbooks\n- B) Listening to regional recordings before generic \"Celtic\" compilations\n- C) Memorising one tune only\n- D) Ignoring dance context\n**Answer:** B) Listening to regional recordings before generic \"Celtic\" compilations\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q5. Sessions, festivals, and archives all play roles in modern transmission.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q6. Instrument focus in this lesson includes:\n- A) Only synthesizers\n- B) Voices named in the lesson introduction\n- C) Only orchestral brass\n- D) Only piano études\n**Answer:** B) Voices named in the lesson introduction\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q7. Dance rhythm topics in this lesson relate to:\n- A) Ballet syllabus only\n- B) Social dance forms discussed in the body\n- C) Marching band drill only\n- D) DJ beatmatching only\n**Answer:** B) Social dance forms discussed in the body\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q8. Revival movements and media broadcasting shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q9. When studying tune forms, you should:\n- A) Ignore metre entirely\n- B) Connect metre and foot-tap feel to named dance types\n- C) Assume all tunes are 4/4 rock beats\n- D) Avoid learning by ear\n**Answer:** B) Connect metre and foot-tap feel to named dance types\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q10. Fusion and modern scenes discussed here:\n- A) Erase all earlier repertoire\n- B) Build on—not replace—living tradition\n- C) Ban all acoustic instruments\n- D) Eliminate festivals\n**Answer:** B) Build on—not replace—living tradition\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q11. The Compared with Ireland section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*\n\n### Q12. Best next step after this lesson:\n- A) Stop listening to recordings\n- B) Follow playlists and return to the paired Ireland lesson\n- C) Skip all prerequisites\n- D) Avoid comparative study\n**Answer:** B) Follow playlists and return to the paired Ireland lesson\n*Explanation grounded in Scottish Traditional Instruments — Traditional Voices I.*",
+  "quiz_markdown": "### Q1. James Scott Skinner is widely known as:\n\n- A) The Strathspey King — composer and virtuoso Scottish fiddler\n- B) An Italian opera conductor only\n- C) Inventor of the bodhrán tipper\n- D) A Cape Breton accordion maker exclusively\n\n**Answer:** A\n\n### Q2. Shetland fiddle style is associated with ringing open strings and twin-fiddle ensemble tradition.\n\n**Answer:** True\n\n### Q3. Great Highland bagpipes are typically inflated by:\n\n- A) Mouth blowing with bag under the arm\n- B) Elbow bellows only like uilleann pipes\n- C) Electric air compressor exclusively\n- D) Foot pump operated by the dancer\n\n**Answer:** A\n\n### Q4. Scottish smallpipes are generally:\n\n- A) Softer and more suitable for indoor folk sessions than massed Highland pipes\n- B) Louder than a full pipe band on a games field\n- C) Identical to Northumbrian pipes in every historical detail\n- D) Never used with fiddle or whistle\n\n**Answer:** A\n\n### Q5. The clàrsach is:\n\n- A) Scotland's traditional harp with medieval Gaelic heritage\n- B) A type of snare drum in pipe bands\n- C) An electronic keyboard from the 1980s\n- D) A vocal technique for puirt à beul only\n\n**Answer:** A\n\n### Q6. Aly Bain is strongly associated with:\n\n- A) Shetland fiddle and international folk broadcasting\n- B) Flamenco guitar only\n- C) Vienna waltz orchestra leadership\n- D) Disco production in the 1970s\n\n**Answer:** A\n\n### Q7. Strathspey bowing on fiddle emphasises a dotted long-short pulse called the Scottish snap.\n\n**Answer:** True\n\n### Q8. Pipe bands at Highland games typically feature:\n\n- A) Massed Great Highland bagpipes with drum corps\n- B) Solo clàrsach with no other instruments\n- C) Only jazz saxophone sections\n- D) Synthesiser orchestration exclusively\n\n**Answer:** A\n\n### Q9. Tin whistle in Scottish trad shares much ornament technique with Irish whistle practice.\n\n**Answer:** True\n\n### Q10. North East Scotland fiddle tradition is linked to composers and players including Scott Skinner.\n\n**Answer:** True\n\n### Q11. Compared with Ireland, Great Highland pipes are generally louder and more associated with outdoor ceremonial and games contexts than uilleann pipes.\n\n**Answer:** True\n\n### Q12. Practice chanter is a common beginner step before playing full Highland bagpipes.\n\n**Answer:** True",
   "quiz_questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Which description best fits the main social context emphasised in this lesson?",
+      "prompt": "James Scott Skinner is widely known as:",
       "choices": [
         {
           "id": "a",
-          "text": "Community dance and oral transmission",
+          "text": "The Strathspey King — composer and virtuoso Scottish fiddler",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Voices named in the lesson introduction",
+          "text": "D, G, A, and E minor",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Social dance forms discussed in the body",
+          "text": "Francis O'Neill",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Connect metre and foot-tap feel to named dance types",
+          "text": "Brendan Breathnach",
           "correct": false
         }
       ],
-      "explain": ") Community dance and oral transmission"
+      "explain": "The lesson identifies this as: The Strathspey King — composer and virtuoso Scottish fiddler"
     },
     {
       "id": "q2",
-      "type": "mcq",
-      "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+      "type": "truefalse",
+      "prompt": "Shetland fiddle style is associated with ringing open strings and twin-fiddle ensemble tradition.",
       "choices": [
         {
           "id": "a",
-          "text": "Social dance forms discussed in the body",
-          "correct": false
+          "text": "True",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Build on—not replace—living tradition",
-          "correct": false
-        },
-        {
-          "id": "d",
           "text": "False",
-          "correct": true
+          "correct": false
         }
       ],
-      "explain": ") False"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q3",
       "type": "mcq",
-      "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+      "prompt": "Great Highland bagpipes are typically inflated by:",
       "choices": [
         {
           "id": "a",
-          "text": "Build on—not replace—living tradition",
+          "text": "Mullingar, 1951",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Follow playlists and return to the paired Ireland lesson",
+          "text": "Intangible cultural heritage of humanity",
           "correct": false
         },
         {
           "id": "c",
-          "text": "See Compared with Ireland section",
+          "text": "Mouth blowing with bag under the arm",
           "correct": true
         },
         {
           "id": "d",
-          "text": "Connect metre and foot-tap feel to named dance types",
+          "text": "Brendan Breathnach",
           "correct": false
         }
       ],
-      "explain": ") See Compared with Ireland section"
+      "explain": "The lesson identifies this as: Mouth blowing with bag under the arm"
     },
     {
       "id": "q4",
       "type": "mcq",
-      "prompt": "A typical learner should prioritise:",
+      "prompt": "Scottish smallpipes are generally:",
       "choices": [
         {
           "id": "a",
-          "text": "6/8 with a two-beat feel per bar",
+          "text": "Regions where Irish remains a community language",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "text": "Softer and more suitable for indoor folk sessions than massed Highland pipes",
           "correct": true
         },
         {
           "id": "c",
-          "text": "Build on—not replace—living tradition",
+          "text": "Mullingar, 1951",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Follow playlists and return to the paired Ireland lesson",
+          "text": "Intangible cultural heritage of humanity",
           "correct": false
         }
       ],
-      "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+      "explain": "The lesson identifies this as: Softer and more suitable for indoor folk sessions than massed Highland pipes"
     },
     {
       "id": "q5",
       "type": "mcq",
-      "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+      "prompt": "The clàrsach is:",
       "choices": [
         {
           "id": "a",
-          "text": "True",
+          "text": "Scotland's traditional harp with medieval Gaelic heritage",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Follow playlists and return to the paired Ireland lesson",
+          "text": "Intangible cultural heritage of humanity",
           "correct": false
         },
         {
           "id": "c",
-          "text": "6/8 with a two-beat feel per bar",
+          "text": "Regions where Irish remains a community language",
           "correct": false
         },
         {
           "id": "d",
-          "text": "9/8 slip-jig time",
+          "text": "Highly ornamented, often unaccompanied traditional song",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "The lesson identifies this as: Scotland's traditional harp with medieval Gaelic heritage"
     },
     {
       "id": "q6",
       "type": "mcq",
-      "prompt": "Instrument focus in this lesson includes:",
+      "prompt": "Aly Bain is strongly associated with:",
       "choices": [
         {
           "id": "a",
-          "text": "6/8 with a two-beat feel per bar",
+          "text": "Regions where Irish remains a community language",
           "correct": false
         },
         {
           "id": "b",
-          "text": "9/8 slip-jig time",
+          "text": "Highly ornamented, often unaccompanied traditional song",
           "correct": false
         },
         {
           "id": "c",
-          "text": "4/4 reel time with a steady drive",
+          "text": "Group social choreography for multiple dancers",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Voices named in the lesson introduction",
+          "text": "Shetland fiddle and international folk broadcasting",
           "correct": true
         }
       ],
-      "explain": ") Voices named in the lesson introduction"
+      "explain": "The lesson identifies this as: Shetland fiddle and international folk broadcasting"
     },
     {
       "id": "q7",
-      "type": "mcq",
-      "prompt": "Dance rhythm topics in this lesson relate to:",
+      "type": "truefalse",
+      "prompt": "Strathspey bowing on fiddle emphasises a dotted long-short pulse called the Scottish snap.",
       "choices": [
         {
           "id": "a",
-          "text": "4/4 reel time with a steady drive",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Sligo fiddle style",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Social dance forms discussed in the body",
+          "text": "True",
           "correct": true
         },
         {
-          "id": "d",
-          "text": "9/8 slip-jig time",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") Social dance forms discussed in the body"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q8",
       "type": "mcq",
-      "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+      "prompt": "Pipe bands at Highland games typically feature:",
       "choices": [
         {
           "id": "a",
-          "text": "Donegal highland repertoire",
+          "text": "Four-string tenor banjo with a plectrum",
           "correct": false
         },
         {
           "id": "b",
-          "text": "True",
+          "text": "Massed Great Highland bagpipes with drum corps",
           "correct": true
         },
         {
           "id": "c",
-          "text": "4/4 reel time with a steady drive",
+          "text": "Group social choreography for multiple dancers",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Sligo fiddle style",
+          "text": "Tips and heels striking the floor",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "The lesson identifies this as: Massed Great Highland bagpipes with drum corps"
     },
     {
       "id": "q9",
-      "type": "mcq",
-      "prompt": "When studying tune forms, you should:",
+      "type": "truefalse",
+      "prompt": "Tin whistle in Scottish trad shares much ornament technique with Irish whistle practice.",
       "choices": [
         {
           "id": "a",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": true
-        },
-        {
-          "id": "b",
-          "text": "Sligo fiddle style",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Donegal highland repertoire",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Sliabh Luachra polkas and slides",
-          "correct": false
-        }
-      ],
-      "explain": ") Connect metre and foot-tap feel to named dance types"
-    },
-    {
-      "id": "q10",
-      "type": "mcq",
-      "prompt": "Fusion and modern scenes discussed here:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Single-headed Irish frame drum",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Community dance and oral transmission",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Build on—not replace—living tradition",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Modal Irish and Celtic accompaniment",
-          "correct": false
-        }
-      ],
-      "explain": ") Build on—not replace—living tradition"
-    },
-    {
-      "id": "q11",
-      "type": "mcq",
-      "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
-      "choices": [
-        {
-          "id": "a",
-          "text": "False",
-          "correct": false
-        },
-        {
-          "id": "b",
           "text": "True",
           "correct": true
         },
         {
-          "id": "c",
-          "text": "Single-headed Irish frame drum",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Community dance and oral transmission",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
-      "id": "q12",
-      "type": "mcq",
-      "prompt": "Best next step after this lesson:",
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "North East Scotland fiddle tradition is linked to composers and players including Scott Skinner.",
       "choices": [
         {
           "id": "a",
-          "text": "Follow playlists and return to the paired Ireland lesson",
+          "text": "True",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Community dance and oral transmission",
-          "correct": false
-        },
-        {
-          "id": "c",
           "text": "False",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "See Compared with Ireland section",
           "correct": false
         }
       ],
-      "explain": ") Follow playlists and return to the paired Ireland lesson"
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Compared with Ireland, Great Highland pipes are generally louder and more associated with outdoor ceremonial and games contexts than uilleann pipes.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Practice chanter is a common beginner step before playing full Highland bagpipes.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
     }
   ],
   "quiz": {
     "id": "regions-celtic-scotland-02-instruments-voices-i-quiz",
-    "title": "Scottish Traditional Instruments — Traditional Voices I quiz",
+    "title": "Scottish Instruments — Traditional Voices I quiz",
     "questions": [
       {
         "id": "q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "James Scott Skinner is widely known as:",
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "The Strathspey King — composer and virtuoso Scottish fiddler",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "Francis O'Neill",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Brendan Breathnach",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: The Strathspey King — composer and virtuoso Scottish fiddler"
       },
       {
         "id": "q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Shetland fiddle style is associated with ringing open strings and twin-fiddle ensemble tradition.",
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
-            "correct": true
+            "correct": false
           }
         ],
-        "explain": ") False"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q3",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Great Highland bagpipes are typically inflated by:",
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "Mullingar, 1951",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "Mouth blowing with bag under the arm",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Brendan Breathnach",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Mouth blowing with bag under the arm"
       },
       {
         "id": "q4",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Scottish smallpipes are generally:",
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Softer and more suitable for indoor folk sessions than massed Highland pipes",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "text": "Mullingar, 1951",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Softer and more suitable for indoor folk sessions than massed Highland pipes"
       },
       {
         "id": "q5",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "The clàrsach is:",
         "choices": [
           {
             "id": "a",
-            "text": "True",
+            "text": "Scotland's traditional harp with medieval Gaelic heritage",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "d",
-            "text": "9/8 slip-jig time",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "The lesson identifies this as: Scotland's traditional harp with medieval Gaelic heritage"
       },
       {
         "id": "q6",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Aly Bain is strongly associated with:",
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "b",
-            "text": "9/8 slip-jig time",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "c",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "text": "Shetland fiddle and international folk broadcasting",
             "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Shetland fiddle and international folk broadcasting"
       },
       {
         "id": "q7",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Strathspey bowing on fiddle emphasises a dotted long-short pulse called the Scottish snap.",
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "9/8 slip-jig time",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q8",
         "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "prompt": "Pipe bands at Highland games typically feature:",
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "Massed Great Highland bagpipes with drum corps",
             "correct": true
           },
           {
             "id": "c",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "Tips and heels striking the floor",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "The lesson identifies this as: Massed Great Highland bagpipes with drum corps"
       },
       {
         "id": "q9",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Tin whistle in Scottish trad shares much ornament technique with Irish whistle practice.",
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          }
-        ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
-      {
-        "id": "q10",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          }
-        ],
-        "explain": ") Build on—not replace—living tradition"
-      },
-      {
-        "id": "q11",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
-        "choices": [
-          {
-            "id": "a",
-            "text": "False",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "q12",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "North East Scotland fiddle tradition is linked to composers and players including Scott Skinner.",
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Great Highland pipes are generally louder and more associated with outdoor ceremonial and games contexts than uilleann pipes.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Practice chanter is a common beginner step before playing full Highland bagpipes.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   }

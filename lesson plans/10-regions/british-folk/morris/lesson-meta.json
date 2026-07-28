@@ -1,0 +1,782 @@
+{
+  "regions-british-morris-01-overview": {
+    "entities": [
+      {
+        "id": "bampton-morris",
+        "type": "artist",
+        "name": "Bampton Morris",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Bampton Morris for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bampton_Morris",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "oak",
+        "type": "band",
+        "name": "Oak",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Oak for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Oak",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-morris-01-overview-pl1",
+        "entity_id": "bampton-morris",
+        "label": "Bampton Morris — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-morris-01-overview-pl2",
+        "entity_id": "oak",
+        "label": "Oak — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-morris-01-overview-pl3",
+        "label": "Morris and Country Dance — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-morris-01-overview-pl4",
+        "label": "Morris and Country Dance — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Morris and Country Dance rewards comparative study.",
+      "Focus: Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polk.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: jigs, polkas, processional tunes.",
+      "Dance: Cotswold, Border, Northwest morris.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Morris dance",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Morris and Country Dance spans melodeon, pipe and tabor, fid",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-morris-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "bampton-morris",
+        "type": "artist",
+        "name": "Bampton Morris",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Bampton Morris for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bampton_Morris",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "oak",
+        "type": "band",
+        "name": "Oak",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Oak for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Oak",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-morris-02-instruments-voices-i-pl1",
+        "entity_id": "bampton-morris",
+        "label": "Bampton Morris — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-morris-02-instruments-voices-i-pl2",
+        "entity_id": "oak",
+        "label": "Oak — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-morris-02-instruments-voices-i-pl3",
+        "label": "Morris and Country Dance — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-morris-02-instruments-voices-i-pl4",
+        "label": "Morris and Country Dance — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Morris and Country Dance rewards comparative study.",
+      "Focus: melodeon, pipe and tabor, fiddle.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: jigs, polkas, processional tunes.",
+      "Dance: Cotswold, Border, Northwest morris.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Morris dance",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "melodeon, pipe and tabor, fiddle",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-morris-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "bampton-morris",
+        "type": "artist",
+        "name": "Bampton Morris",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Bampton Morris for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bampton_Morris",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "oak",
+        "type": "band",
+        "name": "Oak",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Oak for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Oak",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-morris-03-instruments-voices-ii-pl1",
+        "entity_id": "bampton-morris",
+        "label": "Bampton Morris — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-morris-03-instruments-voices-ii-pl2",
+        "entity_id": "oak",
+        "label": "Oak — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-morris-03-instruments-voices-ii-pl3",
+        "label": "Morris and Country Dance — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-morris-03-instruments-voices-ii-pl4",
+        "label": "Morris and Country Dance — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Morris and Country Dance rewards comparative study.",
+      "Focus: morris side band, concertina.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: jigs, polkas, processional tunes.",
+      "Dance: Cotswold, Border, Northwest morris.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Morris dance",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "morris side band, concertina",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-morris-04-genres-forms": {
+    "entities": [
+      {
+        "id": "bampton-morris",
+        "type": "artist",
+        "name": "Bampton Morris",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Bampton Morris for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bampton_Morris",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "oak",
+        "type": "band",
+        "name": "Oak",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Oak for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Oak",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-morris-04-genres-forms-pl1",
+        "entity_id": "bampton-morris",
+        "label": "Bampton Morris — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-morris-04-genres-forms-pl2",
+        "entity_id": "oak",
+        "label": "Oak — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-morris-04-genres-forms-pl3",
+        "label": "Morris and Country Dance — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-morris-04-genres-forms-pl4",
+        "label": "Morris and Country Dance — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Morris and Country Dance rewards comparative study.",
+      "Focus: jigs, polkas, processional tunes.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: jigs, polkas, processional tunes.",
+      "Dance: Cotswold, Border, Northwest morris.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Morris dance",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "jigs, polkas, processional tunes",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-morris-05-dance": {
+    "entities": [
+      {
+        "id": "bampton-morris",
+        "type": "artist",
+        "name": "Bampton Morris",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Bampton Morris for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bampton_Morris",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "oak",
+        "type": "band",
+        "name": "Oak",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Oak for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Oak",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-morris-05-dance-pl1",
+        "entity_id": "bampton-morris",
+        "label": "Bampton Morris — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-morris-05-dance-pl2",
+        "entity_id": "oak",
+        "label": "Oak — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-morris-05-dance-pl3",
+        "label": "Morris and Country Dance — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-morris-05-dance-pl4",
+        "label": "Morris and Country Dance — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Morris and Country Dance rewards comparative study.",
+      "Focus: Cotswold, Border, Northwest morris.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: jigs, polkas, processional tunes.",
+      "Dance: Cotswold, Border, Northwest morris.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Morris dance",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Cotswold, Border, Northwest morris",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-morris-06-history": {
+    "entities": [
+      {
+        "id": "bampton-morris",
+        "type": "artist",
+        "name": "Bampton Morris",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Bampton Morris for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bampton_Morris",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "oak",
+        "type": "band",
+        "name": "Oak",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Oak for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Oak",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-morris-06-history-pl1",
+        "entity_id": "bampton-morris",
+        "label": "Bampton Morris — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-morris-06-history-pl2",
+        "entity_id": "oak",
+        "label": "Oak — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-morris-06-history-pl3",
+        "label": "Morris and Country Dance — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-morris-06-history-pl4",
+        "label": "Morris and Country Dance — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Morris and Country Dance rewards comparative study.",
+      "Focus: Sharp revival, Morris Ring.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: jigs, polkas, processional tunes.",
+      "Dance: Cotswold, Border, Northwest morris.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Morris dance",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Sharp revival, Morris Ring",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-morris-07-representative-depth": {
+    "entities": [
+      {
+        "id": "bampton-morris",
+        "type": "artist",
+        "name": "Bampton Morris",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Bampton Morris for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bampton_Morris",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "oak",
+        "type": "band",
+        "name": "Oak",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Oak for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Oak",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-morris-07-representative-depth-pl1",
+        "entity_id": "bampton-morris",
+        "label": "Bampton Morris — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-morris-07-representative-depth-pl2",
+        "entity_id": "oak",
+        "label": "Oak — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-morris-07-representative-depth-pl3",
+        "label": "Morris and Country Dance — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-morris-07-representative-depth-pl4",
+        "label": "Morris and Country Dance — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Morris and Country Dance rewards comparative study.",
+      "Focus: display sides, May Day.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: jigs, polkas, processional tunes.",
+      "Dance: Cotswold, Border, Northwest morris.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Morris dance",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "display sides, May Day",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-morris-08-tunes": {
+    "entities": [
+      {
+        "id": "bampton-morris",
+        "type": "artist",
+        "name": "Bampton Morris",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Bampton Morris for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Bampton_Morris",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "oak",
+        "type": "band",
+        "name": "Oak",
+        "summary": "Representative musician or ensemble in british-morris trad",
+        "blurb": "Study Oak for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Oak",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-morris-08-tunes-pl1",
+        "entity_id": "bampton-morris",
+        "label": "Bampton Morris — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-morris-08-tunes-pl2",
+        "entity_id": "oak",
+        "label": "Oak — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-morris-08-tunes-pl3",
+        "label": "Morris and Country Dance — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-morris-08-tunes-pl4",
+        "label": "Morris and Country Dance — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Morris and Country Dance rewards comparative study.",
+      "Focus: Banbury Bill, Lads-a-Bunchum.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: jigs, polkas, processional tunes.",
+      "Dance: Cotswold, Border, Northwest morris.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Morris dance",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Banbury Bill, Lads-a-Bunchum",
+        "url": "https://en.wikipedia.org/wiki/Morris_dance",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "banbury-bill",
+        "type": "tune",
+        "name": "Banbury Bill",
+        "form": "jigs",
+        "reference": "Morris dance repertoire",
+        "about": "Representative morris and country dance listening study.",
+        "playlist": [
+          {
+            "label": "Banbury Bill — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "lads-a-bunchum",
+        "type": "tune",
+        "name": "Lads-a-Bunchum",
+        "form": "jigs",
+        "reference": "Morris dance repertoire",
+        "about": "Representative morris and country dance listening study.",
+        "playlist": [
+          {
+            "label": "Lads-a-Bunchum — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "morris-standard-2",
+        "type": "tune",
+        "name": "morris standard 2",
+        "form": "jigs",
+        "reference": "Morris dance repertoire",
+        "about": "Representative morris and country dance listening study.",
+        "playlist": [
+          {
+            "label": "morris standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

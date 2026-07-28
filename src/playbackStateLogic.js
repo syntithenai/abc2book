@@ -585,6 +585,53 @@ export function shouldUseMidiMetronomeCountIn(input) {
   return isMidiStartFromBeginning(o)
 }
 
+/**
+ * Anchor for count-in → music handoff.
+ *
+ * - On time: musicSeconds=0 at the scheduled downbeat.
+ * - Late, audio already pre-scheduled on that downbeat: keep the grid and
+ *   advance musicSeconds so accent phase matches audible music.
+ * - Late, audio starts only now: re-anchor musicSeconds=0 to now so accent
+ *   stays on beat 1 (avoids hearing the accent on beat 4).
+ */
+export function resolveCountInHandoffAnchor(scheduledMusicStartAudioTime, audioContextCurrentTime, options) {
+  const opts = options || {}
+  const lead = opts.minLeadSec != null ? parseFloat(opts.minLeadSec) : 0.002
+  const safeLead = Number.isFinite(lead) && lead >= 0 ? lead : 0.002
+  const audioStartedAtScheduled = opts.audioStartedAtScheduled === true
+  const tempoFactor = opts.tempoFactor > 0 ? parseFloat(opts.tempoFactor) : 1
+  const scheduled = parseFloat(scheduledMusicStartAudioTime)
+  const now = parseFloat(audioContextCurrentTime)
+  if (!Number.isFinite(now)) {
+    return {
+      actualStartAudioTime: Number.isFinite(scheduled) ? scheduled : null,
+      musicSeconds: 0,
+    }
+  }
+  if (!Number.isFinite(scheduled)) {
+    return {
+      actualStartAudioTime: now + safeLead,
+      musicSeconds: 0,
+    }
+  }
+  if (now > scheduled + safeLead) {
+    if (audioStartedAtScheduled) {
+      return {
+        actualStartAudioTime: scheduled,
+        musicSeconds: Math.max(0, (now - scheduled) * tempoFactor),
+      }
+    }
+    return {
+      actualStartAudioTime: now + safeLead,
+      musicSeconds: 0,
+    }
+  }
+  return {
+    actualStartAudioTime: Math.max(now + safeLead, scheduled),
+    musicSeconds: 0,
+  }
+}
+
 export function computeExtraMeasuresAtBeginning(input) {
   const o = input || {}
   const beatsPerMeasure = parseFloat(o.beatsPerMeasure) || 0

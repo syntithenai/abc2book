@@ -1,0 +1,782 @@
+{
+  "regions-british-northumbria-01-overview": {
+    "entities": [
+      {
+        "id": "billy-pigg",
+        "type": "artist",
+        "name": "Billy Pigg",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Billy Pigg for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Billy_Pigg",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "kathryn-tickell",
+        "type": "band",
+        "name": "Kathryn Tickell",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Kathryn Tickell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Kathryn_Tickell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-northumbria-01-overview-pl1",
+        "entity_id": "billy-pigg",
+        "label": "Billy Pigg — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-northumbria-01-overview-pl2",
+        "entity_id": "kathryn-tickell",
+        "label": "Kathryn Tickell — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-northumbria-01-overview-pl3",
+        "label": "Northumbrian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-northumbria-01-overview-pl4",
+        "label": "Northumbrian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Northumbrian Traditional Music rewards comparative study.",
+      "Focus: Northumbrian Traditional Music spans Northumbrian smallpipes, fiddle, border ballad voice .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, rants, jigs.",
+      "Dance: rapper sword, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Northumbria",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Northumbrian Traditional Music spans Northumbrian smallpipes",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-northumbria-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "billy-pigg",
+        "type": "artist",
+        "name": "Billy Pigg",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Billy Pigg for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Billy_Pigg",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "kathryn-tickell",
+        "type": "band",
+        "name": "Kathryn Tickell",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Kathryn Tickell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Kathryn_Tickell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-northumbria-02-instruments-voices-i-pl1",
+        "entity_id": "billy-pigg",
+        "label": "Billy Pigg — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-northumbria-02-instruments-voices-i-pl2",
+        "entity_id": "kathryn-tickell",
+        "label": "Kathryn Tickell — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-northumbria-02-instruments-voices-i-pl3",
+        "label": "Northumbrian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-northumbria-02-instruments-voices-i-pl4",
+        "label": "Northumbrian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Northumbrian Traditional Music rewards comparative study.",
+      "Focus: Northumbrian smallpipes, fiddle, border ballad voice.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, rants, jigs.",
+      "Dance: rapper sword, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Northumbria",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Northumbrian smallpipes, fiddle, border ballad voice",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-northumbria-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "billy-pigg",
+        "type": "artist",
+        "name": "Billy Pigg",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Billy Pigg for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Billy_Pigg",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "kathryn-tickell",
+        "type": "band",
+        "name": "Kathryn Tickell",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Kathryn Tickell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Kathryn_Tickell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-northumbria-03-instruments-voices-ii-pl1",
+        "entity_id": "billy-pigg",
+        "label": "Billy Pigg — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-northumbria-03-instruments-voices-ii-pl2",
+        "entity_id": "kathryn-tickell",
+        "label": "Kathryn Tickell — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-northumbria-03-instruments-voices-ii-pl3",
+        "label": "Northumbrian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-northumbria-03-instruments-voices-ii-pl4",
+        "label": "Northumbrian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Northumbrian Traditional Music rewards comparative study.",
+      "Focus: guitar, piano, session backing.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, rants, jigs.",
+      "Dance: rapper sword, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Northumbria",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "guitar, piano, session backing",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-northumbria-04-genres-forms": {
+    "entities": [
+      {
+        "id": "billy-pigg",
+        "type": "artist",
+        "name": "Billy Pigg",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Billy Pigg for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Billy_Pigg",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "kathryn-tickell",
+        "type": "band",
+        "name": "Kathryn Tickell",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Kathryn Tickell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Kathryn_Tickell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-northumbria-04-genres-forms-pl1",
+        "entity_id": "billy-pigg",
+        "label": "Billy Pigg — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-northumbria-04-genres-forms-pl2",
+        "entity_id": "kathryn-tickell",
+        "label": "Kathryn Tickell — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-northumbria-04-genres-forms-pl3",
+        "label": "Northumbrian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-northumbria-04-genres-forms-pl4",
+        "label": "Northumbrian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Northumbrian Traditional Music rewards comparative study.",
+      "Focus: hornpipes, rants, jigs.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, rants, jigs.",
+      "Dance: rapper sword, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Northumbria",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "hornpipes, rants, jigs",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-northumbria-05-dance": {
+    "entities": [
+      {
+        "id": "billy-pigg",
+        "type": "artist",
+        "name": "Billy Pigg",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Billy Pigg for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Billy_Pigg",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "kathryn-tickell",
+        "type": "band",
+        "name": "Kathryn Tickell",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Kathryn Tickell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Kathryn_Tickell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-northumbria-05-dance-pl1",
+        "entity_id": "billy-pigg",
+        "label": "Billy Pigg — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-northumbria-05-dance-pl2",
+        "entity_id": "kathryn-tickell",
+        "label": "Kathryn Tickell — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-northumbria-05-dance-pl3",
+        "label": "Northumbrian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-northumbria-05-dance-pl4",
+        "label": "Northumbrian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Northumbrian Traditional Music rewards comparative study.",
+      "Focus: rapper sword, social dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, rants, jigs.",
+      "Dance: rapper sword, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Northumbria",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "rapper sword, social dance",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-northumbria-06-history": {
+    "entities": [
+      {
+        "id": "billy-pigg",
+        "type": "artist",
+        "name": "Billy Pigg",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Billy Pigg for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Billy_Pigg",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "kathryn-tickell",
+        "type": "band",
+        "name": "Kathryn Tickell",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Kathryn Tickell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Kathryn_Tickell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-northumbria-06-history-pl1",
+        "entity_id": "billy-pigg",
+        "label": "Billy Pigg — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-northumbria-06-history-pl2",
+        "entity_id": "kathryn-tickell",
+        "label": "Kathryn Tickell — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-northumbria-06-history-pl3",
+        "label": "Northumbrian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-northumbria-06-history-pl4",
+        "label": "Northumbrian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Northumbrian Traditional Music rewards comparative study.",
+      "Focus: Northumbrian Minstrelsy, collectors.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, rants, jigs.",
+      "Dance: rapper sword, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Northumbria",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Northumbrian Minstrelsy, collectors",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-northumbria-07-representative-depth": {
+    "entities": [
+      {
+        "id": "billy-pigg",
+        "type": "artist",
+        "name": "Billy Pigg",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Billy Pigg for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Billy_Pigg",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "kathryn-tickell",
+        "type": "band",
+        "name": "Kathryn Tickell",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Kathryn Tickell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Kathryn_Tickell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-northumbria-07-representative-depth-pl1",
+        "entity_id": "billy-pigg",
+        "label": "Billy Pigg — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-northumbria-07-representative-depth-pl2",
+        "entity_id": "kathryn-tickell",
+        "label": "Kathryn Tickell — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-northumbria-07-representative-depth-pl3",
+        "label": "Northumbrian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-northumbria-07-representative-depth-pl4",
+        "label": "Northumbrian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Northumbrian Traditional Music rewards comparative study.",
+      "Focus: Folkworks, festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, rants, jigs.",
+      "Dance: rapper sword, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Northumbria",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Folkworks, festivals",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-british-northumbria-08-tunes": {
+    "entities": [
+      {
+        "id": "billy-pigg",
+        "type": "artist",
+        "name": "Billy Pigg",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Billy Pigg for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Billy_Pigg",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "kathryn-tickell",
+        "type": "band",
+        "name": "Kathryn Tickell",
+        "summary": "Representative musician or ensemble in british-northumbria trad",
+        "blurb": "Study Kathryn Tickell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Kathryn_Tickell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-british-northumbria-08-tunes-pl1",
+        "entity_id": "billy-pigg",
+        "label": "Billy Pigg — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-british-northumbria-08-tunes-pl2",
+        "entity_id": "kathryn-tickell",
+        "label": "Kathryn Tickell — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-british-northumbria-08-tunes-pl3",
+        "label": "Northumbrian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-british-northumbria-08-tunes-pl4",
+        "label": "Northumbrian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Northumbrian Traditional Music rewards comparative study.",
+      "Focus: Bonny at Morn, Peacock Follow the Hen.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: hornpipes, rants, jigs.",
+      "Dance: rapper sword, social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Northumbria",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "British Isles Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Bonny at Morn, Peacock Follow the Hen",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Northumbria",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "bonny-at-morn",
+        "type": "tune",
+        "name": "Bonny at Morn",
+        "form": "hornpipes",
+        "reference": "Music of Northumbria repertoire",
+        "about": "Representative northumbrian traditional music listening study.",
+        "playlist": [
+          {
+            "label": "Bonny at Morn — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "peacock-follow-the-hen",
+        "type": "tune",
+        "name": "Peacock Follow the Hen",
+        "form": "hornpipes",
+        "reference": "Music of Northumbria repertoire",
+        "about": "Representative northumbrian traditional music listening study.",
+        "playlist": [
+          {
+            "label": "Peacock Follow the Hen — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "northumbria-standard-2",
+        "type": "tune",
+        "name": "northumbria standard 2",
+        "form": "hornpipes",
+        "reference": "Music of Northumbria repertoire",
+        "about": "Representative northumbrian traditional music listening study.",
+        "playlist": [
+          {
+            "label": "northumbria standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

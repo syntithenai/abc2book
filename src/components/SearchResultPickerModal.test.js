@@ -3,7 +3,7 @@
  */
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import { act } from 'react-dom/test-utils'
+import { act, Simulate } from 'react-dom/test-utils'
 import SearchResultPickerModal from './SearchResultPickerModal'
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
@@ -29,7 +29,11 @@ jest.mock('react-bootstrap', function() {
   function Button(props) {
     return React.createElement('button', {
       type: 'button',
+      className: props.className,
       onClick: props.onClick,
+      'aria-label': props['aria-label'],
+      'aria-pressed': props['aria-pressed'],
+      disabled: props.disabled,
     }, props.children)
   }
   function ListGroup(props) {
@@ -42,7 +46,22 @@ jest.mock('react-bootstrap', function() {
       'data-active': props.active ? '1' : '0',
     }, props.children)
   }
-  return { Modal: Modal, Button: Button, ListGroup: ListGroup }
+  function FormCheck(props) {
+    return React.createElement('div', { className: props.className }, props.children)
+  }
+  FormCheck.Input = function CheckInput(props) {
+    return React.createElement('input', {
+      type: 'checkbox',
+      checked: !!props.checked,
+      onChange: props.onChange,
+      'aria-label': props['aria-label'],
+    })
+  }
+  FormCheck.Label = function CheckLabel(props) {
+    return React.createElement('label', null, props.children)
+  }
+  const Form = { Check: FormCheck }
+  return { Modal: Modal, Button: Button, ListGroup: ListGroup, Form: Form }
 })
 
 describe('SearchResultPickerModal multiSelect', function() {
@@ -99,15 +118,17 @@ describe('SearchResultPickerModal multiSelect', function() {
     expect(onDone).toHaveBeenCalledTimes(1)
   })
 
-  test('renders select all and select none actions', function() {
+  test('renders select-all toggle and calls bulk handlers', function() {
     const onSelectAll = jest.fn()
     const onSelectNone = jest.fn()
+    const items = [{ title: 'Alice', source: 'a' }]
     act(function() {
       root.render(
         React.createElement(SearchResultPickerModal, {
           show: true,
           multiSelect: true,
-          items: [{ title: 'Alice', source: 'a' }],
+          selectedIndexes: [],
+          items: items,
           onSelect: function() {},
           onHide: function() {},
           onSelectAll: onSelectAll,
@@ -117,12 +138,26 @@ describe('SearchResultPickerModal multiSelect', function() {
     })
     const bulk = container.querySelector('[data-testid="search-result-picker-bulk-actions"]')
     expect(bulk).toBeTruthy()
-    const buttons = Array.from(bulk.querySelectorAll('button'))
-    const selectAll = buttons.find(function(btn) { return btn.textContent === 'Select all' })
-    const selectNone = buttons.find(function(btn) { return btn.textContent === 'Select none' })
-    act(function() { selectAll.click() })
-    act(function() { selectNone.click() })
+    const toggle = bulk.querySelector('button[aria-label="Select all results"]')
+    expect(toggle).toBeTruthy()
+    act(function() { Simulate.click(toggle) })
     expect(onSelectAll).toHaveBeenCalledTimes(1)
+    act(function() {
+      root.render(
+        React.createElement(SearchResultPickerModal, {
+          show: true,
+          multiSelect: true,
+          selectedIndexes: [0],
+          items: items,
+          onSelect: function() {},
+          onHide: function() {},
+          onSelectAll: onSelectAll,
+          onSelectNone: onSelectNone,
+        })
+      )
+    })
+    const toggleAfterSelect = container.querySelector('[data-testid="search-result-picker-bulk-actions"] button[aria-label="Select all results"]')
+    act(function() { Simulate.click(toggleAfterSelect) })
     expect(onSelectNone).toHaveBeenCalledTimes(1)
   })
 

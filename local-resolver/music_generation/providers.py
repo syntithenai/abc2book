@@ -25,6 +25,7 @@ class AudioGenerationProvider(ABC):
         duration_sec: float,
         negative_prompt: str = "",
         output_path: str | Path | None = None,
+        guide_audio_path: str | Path | None = None,
     ) -> Path:
         raise NotImplementedError
 
@@ -48,6 +49,7 @@ class MockAudioGenerationProvider(AudioGenerationProvider):
         duration_sec: float,
         negative_prompt: str = "",
         output_path: str | Path | None = None,
+        guide_audio_path: str | Path | None = None,
     ) -> Path:
         duration = max(0.5, float(duration_sec))
         sr = self.sample_rate
@@ -78,6 +80,14 @@ class MockAudioGenerationProvider(AudioGenerationProvider):
 
 class AudioCppProvider(AudioGenerationProvider):
     """HTTP client for audio.cpp /v1/tasks/run (Stable Audio 3)."""
+
+    # Spike (Phase 2c): field names tried for guide-audio conditioning, in order.
+    GUIDE_AUDIO_REQUEST_FIELDS = (
+        "init_audio",
+        "audio",
+        "conditioning_audio",
+        "cover_audio",
+    )
 
     def __init__(
         self,
@@ -125,12 +135,23 @@ class AudioCppProvider(AudioGenerationProvider):
             "message": "Sidecar not reachable",
         }
 
+    def _encode_guide_audio(self, guide_audio_path: str | Path | None) -> str | None:
+        if not guide_audio_path:
+            return None
+        path = Path(guide_audio_path)
+        if not path.is_file():
+            return None
+        import base64
+
+        return base64.b64encode(path.read_bytes()).decode("ascii")
+
     def generate_backing(
         self,
         prompt: str,
         duration_sec: float,
         negative_prompt: str = "",
         output_path: str | Path | None = None,
+        guide_audio_path: str | Path | None = None,
     ) -> Path:
         duration = max(0.5, float(duration_sec))
         out = Path(output_path) if output_path else Path("/tmp/audio-cpp-backing.wav")
@@ -141,14 +162,34 @@ class AudioCppProvider(AudioGenerationProvider):
             "duration_seconds": duration,
             "language": "en",
         }
+        options: dict = {}
         if negative_prompt:
-            request_body["options"] = {"negative_prompt": negative_prompt}
+            options["negative_prompt"] = negative_prompt
+
+        guide_b64 = self._encode_guide_audio(guide_audio_path)
+        conditioning_field: str | None = None
+        if guide_b64:
+            for field in self.GUIDE_AUDIO_REQUEST_FIELDS:
+                request_body[field] = guide_b64
+                conditioning_field = field
+                break
+
+        if options:
+            request_body["options"] = options
 
         payload = {
             "model": self.model_id,
             "request": request_body,
         }
-        result = self._request_json("POST", "/v1/tasks/run", payload)
+        try:
+            result = self._request_json("POST", "/v1/tasks/run", payload)
+        except RuntimeError:
+            if guide_b64 and conditioning_field:
+                request_body.pop(conditioning_field, None)
+                payload = {"model": self.model_id, "request": request_body}
+                result = self._request_json("POST", "/v1/tasks/run", payload)
+            else:
+                raise
 
         audio_path = result.get("audio_path") or result.get("output_path")
         if audio_path and Path(audio_path).is_file():

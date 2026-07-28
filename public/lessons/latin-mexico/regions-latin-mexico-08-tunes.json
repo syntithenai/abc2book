@@ -1,0 +1,992 @@
+{
+  "id": "regions-latin-mexico-08-tunes",
+  "title": "Mexican Folk Music — Tunes — Forms, History, and Recordings",
+  "track": "regions",
+  "tier": 4.5,
+  "region": "latin-mexico",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-latin-mexico-07-representative-depth"
+  ],
+  "tags": [
+    "latin",
+    "mexico",
+    "latin-america",
+    "tunes",
+    "—"
+  ],
+  "path": "10-regions/latin-america/mexico/08-tunes.md",
+  "sections": [
+    {
+      "id": "mexican-folk-music-tunes-forms-history-and-recordings",
+      "title": "Mexican Folk Music — Tunes — Forms, History, and Recordings",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Latin American Folk | **Region:** latin-mexico | **Tier:** 4.5\n**Prerequisites:** regions-latin-mexico-07-representative-depth\n**Tags:** latin, mexico, latin-america, tunes, —"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "La Bamba, Cielito Lindo\n\nMexican Folk Music belongs to the **Latin American Folk** curriculum. Vicente Fernández\nLos Folkloristas\n\nThis lesson develops listening precision for **La Bamba, Cielito Lindo** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "This anchor unit establishes vocabulary for **Latin American Folk**. When you later study sibling nations in this block, compare each lesson to this chapter.\n\n**Optional Atlantic-trad link:** `regions-celtic-ireland-08-tunes` — useful if you completed the Celtic Ireland unit first."
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "La Bamba, Cielito Lindo\n\nStudy **mexican folk music** through listening first. Wikipedia's article on [Music of Mexico](https://en.wikipedia.org/wiki/Music_of_Mexico) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "tune-studies",
+      "title": "Tune studies",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Representative repertoire includes **La Bamba, Cielito Lindo**. Use the lesson tune panel and **Play all** to compare multiple settings of the same title or form."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Latin American Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **violin, voice, harp**. Ensemble layer: **guitar, vihuela, percussion**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **son, huapango, corrido**. Dance context: **zapateado, social dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **regional archives**. Contemporary scenes: **mariachi vs village son**. Tune repertoire anchor: **La Bamba, Cielito Lindo**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- La Bamba, Cielito Lindo\n- Lead instruments: violin, voice, harp\n- Ensemble: guitar, vihuela, percussion\n- Forms: son, huapango, corrido\n- Dance: zapateado, social dance\n- History: regional archives\n- Scenes: mariachi vs village son\n- Repertoire: La Bamba, Cielito Lindo\n- Compared with Mexico: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Mexican Folk Music is a living tradition with regional accent.\n- Focus: La Bamba, Cielito Lindo.\n- Compared with Mexico: shared heritage, distinct emphasis.\n- Forms: son, huapango, corrido.\n- Dance: zapateado, social dance.\n- Transmission: regional archives."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nM\ne\nx\ni\nc\no\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nM\ne\nx\ni\nc\no\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nM\ne\nx\ni\nc\no\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "vicente-fern-ndez",
+      "type": "artist",
+      "name": "Vicente Fernández",
+      "summary": "Representative musician or ensemble in latin-mexico trad",
+      "blurb": "Study Vicente Fernández for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Vicente_Fernández",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "los-folkloristas",
+      "type": "band",
+      "name": "Los Folkloristas",
+      "summary": "Representative musician or ensemble in latin-mexico trad",
+      "blurb": "Study Los Folkloristas for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Los_Folkloristas",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "vicente-fern-ndez",
+    "los-folkloristas"
+  ],
+  "playlist": [
+    {
+      "id": "regions-latin-mexico-08-tunes-pl1",
+      "entity_id": "vicente-fern-ndez",
+      "label": "Vicente Fernández — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Vicente Fernández"
+    },
+    {
+      "id": "regions-latin-mexico-08-tunes-pl2",
+      "entity_id": "los-folkloristas",
+      "label": "Los Folkloristas — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Los Folkloristas"
+    },
+    {
+      "id": "regions-latin-mexico-08-tunes-pl3",
+      "label": "Mexican Folk Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-latin-mexico-08-tunes-pl4",
+      "label": "Mexican Folk Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [
+    {
+      "id": "la-bamba",
+      "type": "tune",
+      "name": "La Bamba",
+      "form": "son",
+      "reference": "Music of Mexico repertoire",
+      "about": "Representative mexican folk music listening study.",
+      "playlist": [
+        {
+          "label": "La Bamba — regional recording",
+          "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+        }
+      ]
+    },
+    {
+      "id": "cielito-lindo",
+      "type": "tune",
+      "name": "Cielito Lindo",
+      "form": "son",
+      "reference": "Music of Mexico repertoire",
+      "about": "Representative mexican folk music listening study.",
+      "playlist": [
+        {
+          "label": "Cielito Lindo — regional recording",
+          "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+        }
+      ]
+    },
+    {
+      "id": "mexico-standard-2",
+      "type": "tune",
+      "name": "mexico standard 2",
+      "form": "son",
+      "reference": "Music of Mexico repertoire",
+      "about": "Representative mexican folk music listening study.",
+      "playlist": [
+        {
+          "label": "mexico standard 2 — regional recording",
+          "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    "Mexican Folk Music rewards comparative study.",
+    "Focus: La Bamba, Cielito Lindo.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: son, huapango, corrido.",
+    "Dance: zapateado, social dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Mexican Folk Music is a living tradition with regional accent.",
+    "Compared with Mexico: shared heritage, distinct emphasis.",
+    "Transmission: regional archives."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Mexico",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Latin American Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "La Bamba, Cielito Lindo",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Mexico",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) La Bamba, Cielito Lindo\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) La Bamba, Cielito Lindo\n\n### Q2. Mexican Folk Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Mexico, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) violin, voice, harp\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) violin, voice, harp\n\n### Q5. Ensemble voices include:\n- A) guitar, vihuela, percussion\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) guitar, vihuela, percussion\n\n### Q6. Tune and song forms include:\n- A) son, huapango, corrido\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) son, huapango, corrido\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) regional archives\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) regional archives\n\n### Q9. Contemporary scenes include:\n- A) mariachi vs village son\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) mariachi vs village son\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) La Bamba, Cielito Lindo\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) La Bamba, Cielito Lindo\n\n### Q12. The Compared with Mexico section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "La Bamba, Cielito Lindo",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "guitar, vihuela, percussion",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "son, huapango, corrido",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "regional archives",
+          "correct": false
+        }
+      ],
+      "explain": ") La Bamba, Cielito Lindo"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Mexican Folk Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "son, huapango, corrido",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "regional archives",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "mariachi vs village son",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Mexico, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "mariachi vs village son",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "regional archives",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "violin, voice, harp",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "mariachi vs village son",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": ") violin, voice, harp"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "guitar, vihuela, percussion",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") guitar, vihuela, percussion"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "son, huapango, corrido",
+          "correct": true
+        }
+      ],
+      "explain": ") son, huapango, corrido"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "regional archives",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") regional archives"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "mariachi vs village son",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        }
+      ],
+      "explain": ") mariachi vs village son"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "mariachi vs village son",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bamba, Cielito Lindo",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") La Bamba, Cielito Lindo"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Mexico section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-latin-mexico-08-tunes-quiz",
+    "title": "Mexican Folk Music — Tunes — Forms, History, and Recordings quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "La Bamba, Cielito Lindo",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "guitar, vihuela, percussion",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "son, huapango, corrido",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "regional archives",
+            "correct": false
+          }
+        ],
+        "explain": ") La Bamba, Cielito Lindo"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Mexican Folk Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "son, huapango, corrido",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "regional archives",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "mariachi vs village son",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Mexico, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "mariachi vs village son",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "regional archives",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "violin, voice, harp",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "mariachi vs village son",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": ") violin, voice, harp"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "guitar, vihuela, percussion",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") guitar, vihuela, percussion"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "son, huapango, corrido",
+            "correct": true
+          }
+        ],
+        "explain": ") son, huapango, corrido"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "regional archives",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") regional archives"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "mariachi vs village son",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": ") mariachi vs village son"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "mariachi vs village son",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "La Bamba, Cielito Lindo",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") La Bamba, Cielito Lindo"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Mexico section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

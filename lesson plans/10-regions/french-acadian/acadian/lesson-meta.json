@@ -1,0 +1,782 @@
+{
+  "regions-french-acadian-01-overview": {
+    "entities": [
+      {
+        "id": "joseph-allard",
+        "type": "artist",
+        "name": "Joseph Allard",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Joseph Allard for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Allard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "acadian-traditional-music",
+        "type": "band",
+        "name": "Acadian Traditional Music",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Acadian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Acadian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-acadian-01-overview-pl1",
+        "entity_id": "joseph-allard",
+        "label": "Joseph Allard — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-acadian-01-overview-pl2",
+        "entity_id": "acadian-traditional-music",
+        "label": "Acadian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-acadian-01-overview-pl3",
+        "label": "Acadian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-acadian-01-overview-pl4",
+        "label": "Acadian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Acadian Traditional Music rewards comparative study.",
+      "Focus: Acadian Traditional Music spans fiddle, voice leading voices, reels, waltzes, and kitchen .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, waltzes.",
+      "Dance: kitchen party, community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Acadian music",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Acadian Traditional Music spans fiddle, voice leading voices",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-acadian-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "joseph-allard",
+        "type": "artist",
+        "name": "Joseph Allard",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Joseph Allard for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Allard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "acadian-traditional-music",
+        "type": "band",
+        "name": "Acadian Traditional Music",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Acadian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Acadian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-acadian-02-instruments-voices-i-pl1",
+        "entity_id": "joseph-allard",
+        "label": "Joseph Allard — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-acadian-02-instruments-voices-i-pl2",
+        "entity_id": "acadian-traditional-music",
+        "label": "Acadian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-acadian-02-instruments-voices-i-pl3",
+        "label": "Acadian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-acadian-02-instruments-voices-i-pl4",
+        "label": "Acadian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Acadian Traditional Music rewards comparative study.",
+      "Focus: fiddle, voice.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, waltzes.",
+      "Dance: kitchen party, community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Acadian music",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "fiddle, voice",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-acadian-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "joseph-allard",
+        "type": "artist",
+        "name": "Joseph Allard",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Joseph Allard for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Allard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "acadian-traditional-music",
+        "type": "band",
+        "name": "Acadian Traditional Music",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Acadian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Acadian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-acadian-03-instruments-voices-ii-pl1",
+        "entity_id": "joseph-allard",
+        "label": "Joseph Allard — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-acadian-03-instruments-voices-ii-pl2",
+        "entity_id": "acadian-traditional-music",
+        "label": "Acadian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-acadian-03-instruments-voices-ii-pl3",
+        "label": "Acadian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-acadian-03-instruments-voices-ii-pl4",
+        "label": "Acadian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Acadian Traditional Music rewards comparative study.",
+      "Focus: guitar, piano.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, waltzes.",
+      "Dance: kitchen party, community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Acadian music",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "guitar, piano",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-acadian-04-genres-forms": {
+    "entities": [
+      {
+        "id": "joseph-allard",
+        "type": "artist",
+        "name": "Joseph Allard",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Joseph Allard for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Allard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "acadian-traditional-music",
+        "type": "band",
+        "name": "Acadian Traditional Music",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Acadian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Acadian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-acadian-04-genres-forms-pl1",
+        "entity_id": "joseph-allard",
+        "label": "Joseph Allard — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-acadian-04-genres-forms-pl2",
+        "entity_id": "acadian-traditional-music",
+        "label": "Acadian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-acadian-04-genres-forms-pl3",
+        "label": "Acadian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-acadian-04-genres-forms-pl4",
+        "label": "Acadian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Acadian Traditional Music rewards comparative study.",
+      "Focus: reels, waltzes.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, waltzes.",
+      "Dance: kitchen party, community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Acadian music",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "reels, waltzes",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-acadian-05-dance": {
+    "entities": [
+      {
+        "id": "joseph-allard",
+        "type": "artist",
+        "name": "Joseph Allard",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Joseph Allard for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Allard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "acadian-traditional-music",
+        "type": "band",
+        "name": "Acadian Traditional Music",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Acadian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Acadian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-acadian-05-dance-pl1",
+        "entity_id": "joseph-allard",
+        "label": "Joseph Allard — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-acadian-05-dance-pl2",
+        "entity_id": "acadian-traditional-music",
+        "label": "Acadian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-acadian-05-dance-pl3",
+        "label": "Acadian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-acadian-05-dance-pl4",
+        "label": "Acadian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Acadian Traditional Music rewards comparative study.",
+      "Focus: kitchen party, community dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, waltzes.",
+      "Dance: kitchen party, community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Acadian music",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "kitchen party, community dance",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-acadian-06-history": {
+    "entities": [
+      {
+        "id": "joseph-allard",
+        "type": "artist",
+        "name": "Joseph Allard",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Joseph Allard for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Allard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "acadian-traditional-music",
+        "type": "band",
+        "name": "Acadian Traditional Music",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Acadian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Acadian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-acadian-06-history-pl1",
+        "entity_id": "joseph-allard",
+        "label": "Joseph Allard — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-acadian-06-history-pl2",
+        "entity_id": "acadian-traditional-music",
+        "label": "Acadian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-acadian-06-history-pl3",
+        "label": "Acadian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-acadian-06-history-pl4",
+        "label": "Acadian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Acadian Traditional Music rewards comparative study.",
+      "Focus: Grand Dérangement, revival.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, waltzes.",
+      "Dance: kitchen party, community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Acadian music",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Grand Dérangement, revival",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-acadian-07-representative-depth": {
+    "entities": [
+      {
+        "id": "joseph-allard",
+        "type": "artist",
+        "name": "Joseph Allard",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Joseph Allard for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Allard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "acadian-traditional-music",
+        "type": "band",
+        "name": "Acadian Traditional Music",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Acadian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Acadian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-acadian-07-representative-depth-pl1",
+        "entity_id": "joseph-allard",
+        "label": "Joseph Allard — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-acadian-07-representative-depth-pl2",
+        "entity_id": "acadian-traditional-music",
+        "label": "Acadian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-acadian-07-representative-depth-pl3",
+        "label": "Acadian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-acadian-07-representative-depth-pl4",
+        "label": "Acadian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Acadian Traditional Music rewards comparative study.",
+      "Focus: Maritime festivals.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, waltzes.",
+      "Dance: kitchen party, community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Acadian music",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Maritime festivals",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-french-acadian-08-tunes": {
+    "entities": [
+      {
+        "id": "joseph-allard",
+        "type": "artist",
+        "name": "Joseph Allard",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Joseph Allard for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Allard",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "acadian-traditional-music",
+        "type": "band",
+        "name": "Acadian Traditional Music",
+        "summary": "Representative musician or ensemble in french-acadian trad",
+        "blurb": "Study Acadian Traditional Music for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Acadian_Traditional_Music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-french-acadian-08-tunes-pl1",
+        "entity_id": "joseph-allard",
+        "label": "Joseph Allard — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-french-acadian-08-tunes-pl2",
+        "entity_id": "acadian-traditional-music",
+        "label": "Acadian Traditional Music — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-french-acadian-08-tunes-pl3",
+        "label": "Acadian Traditional Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-french-acadian-08-tunes-pl4",
+        "label": "Acadian Traditional Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Acadian Traditional Music rewards comparative study.",
+      "Focus: Acadian regional repertoire.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, waltzes.",
+      "Dance: kitchen party, community dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Acadian music",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "French & Acadian Folk",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Acadian regional repertoire",
+        "url": "https://en.wikipedia.org/wiki/Acadian_music",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "acadian-regional-repertoire",
+        "type": "tune",
+        "name": "Acadian regional repertoire",
+        "form": "reels",
+        "reference": "Acadian music repertoire",
+        "about": "Representative acadian traditional music listening study.",
+        "playlist": [
+          {
+            "label": "Acadian regional repertoire — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "acadian-standard-1",
+        "type": "tune",
+        "name": "acadian standard 1",
+        "form": "reels",
+        "reference": "Acadian music repertoire",
+        "about": "Representative acadian traditional music listening study.",
+        "playlist": [
+          {
+            "label": "acadian standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "acadian-standard-2",
+        "type": "tune",
+        "name": "acadian standard 2",
+        "form": "reels",
+        "reference": "Acadian music repertoire",
+        "about": "Representative acadian traditional music listening study.",
+        "playlist": [
+          {
+            "label": "acadian standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

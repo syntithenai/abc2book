@@ -6,139 +6,136 @@ region: scotland
 tier: 6
 difficulty: 8
 prerequisites: ["regions-celtic-scotland-05-dance"]
+sources: ["Hamish Henderson", "Francis Collinson", "BBC Scotland", "Folk revival", "Piobaireachd", "Bothy ballad", "Music of Scotland"]
 status: manual
-sources: ["Celtic music", "Music of Scotland"]
 ---
 
 # Scottish Traditional Music — History, Revival, and Transmission
 
-**Track:** Celtic Music | **Region:** scotland | **Tier:** 6
+**Track:** regions | **Tier:** 6 | **Difficulty:** 8/10
 **Prerequisites:** regions-celtic-scotland-05-dance
+**Tags:** scotland, history, collectors, bbc, revival, piping-competitions
 
 ## Overview
 
-Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.
+Scottish traditional music is not a static museum piece. It survived clan warfare, Clearances, urbanisation, and mass media through **oral transmission**, **collectors' manuscripts**, **broadcasting**, and periodic **revivals** that reintroduced bothy ballads, Gaelic song, and fiddle repertoire to new audiences. This lesson traces collectors, **BBC Scotland**'s role, the **folk revival** of the 1950s–1970s, and **piping competitions** as engines of preservation and change.
 
-This lesson focuses on **collectors, BBC broadcasting, the folk revival, and piping competitions** within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.
+## Collectors and early documentation
+
+Before recording technology, tunes lived in **fiddlers' memory**, **pipers' teaching lines**, and **ballad sheets**. Nineteenth-century collectors gathered songs from workers and travellers:
+
+**Francis Collinson**'s *The Traditional and National Music of Scotland* (1966) synthesised earlier fieldwork and remains a reference for harp, pipe, and fiddle history. **William Motherwell** and **Robert Burns** preserved **Scots song**; Burns edited and adapted orally circulating material for print.
+
+**Hamish Henderson** (1919–2002) — poet, soldier, and folklorist — collected **bothy ballads** from farm workers in the North East, recording singers like **Jeannie Robertson** and **Jimmy MacBeath**. His work anchored the mid-century folk revival in **authentic voice** rather than Victorian parlour arrangements. [[entity:hamish-henderson]] bridged academic folklore and pub performance — the **School of Scottish Studies** at Edinburgh University archives his field tapes.
+
+**Bothy ballads** document harsh farm life — long hours, low pay, humour and defiance in Scots verse. They are as central to Lowland tradition as Gaelic **waulking songs** are to the West.
+
+![Hamish Henderson memorial](https://en.wikipedia.org/wiki/Special:FilePath/Hamish_Henderson_memorial%2C_Mount_Hooly%2C_Edinburgh.JPG?width=640)
+
+## BBC and national broadcasting
+
+**BBC Scotland** and **BBC Radio nan Gàidheal** shaped twentieth-century listening habits — piping recitals, fiddle programmes, Gaelic song hours, and folk clubs on air. Broadcasting could **standardise** repertoire (everyone hears the same strathspey) while also **reviving** forgotten singers when producers mined archives.
+
+Radio connected **island Gaelic** communities to **Lowland cities** and **diaspora** listeners. Competitions like **BBC Radio Scotland Young Traditional Musician of the Year** continue the pipeline from learner to professional stage. [[entity:bbc-scotland]] is an institution parallel to Ireland's **RTÉ** and **TG4** — not a replacement for sessions, but a national loudspeaker.
+
+Television brought **Highland games**, **pipe bands**, and **Celtic Connections** concerts into living rooms — visual association between kilts, pipes, and "Scottish music" owes much to broadcast choices.
+
+## Folk revival
+
+The **folk revival** from the 1950s through 1970s paralleled Ireland's Comhaltas era and American folk boom. Henderson, **Ewan MacColl** (Scottish-born, influential in UK folk), and clubs in Edinburgh and Glasgow fostered **singarounds** and **political ballad** culture.
+
+**Revival bands** formed — **Battlefield Band** (1975) blended pipes, fiddle, and later accordion for international touring; **The Corries**, **Ossian**, and **Silly Wizard** (1970s–80s) brought arranged ensemble sound to trad repertoire. Revivalists debated **authenticity** — should ballads be unaccompanied? — while dancers demanded louder ceilidh bands.
+
+The revival **did not invent** tradition; it **reconnected** urban audiences to rural sources after wartime disruption and emigration. Similar tensions animate Irish transmission debates in Lesson 6 of the Ireland unit.
+
+## Piping competitions and games
+
+**Highland games** and **piping competitions** preserved **piobaireachd** and **ceòl beag** through judged performance. The **Piobaireachd Society** publishes scores and standards; solo pipers train for **Gold Medal** events at **Inverness** and **Oban**.
+
+**Pipe bands** organised through [[entity:rspba]] (Royal Scottish Pipe Band Association) compete in grades from novice to world champions. Winter practice, summer games — seasonal rhythm structures community life in ways pub sessions alone do not.
+
+Competition can **fossilise** style — judges reward precision — while sessions reward **lift** and **craic**. Healthy tradition holds both: games pipers who also play folk clubs; fiddlers who learned strathspeys from Skinner scores and from ear at ceilidhs.
+
+## Transmission today
+
+Modern learners use **YouTube**, **ABC tune databases**, **Fèis** classes for young Gaelic speakers, **RSCDS** dance workshops, and **Hands Up for Trad** advocacy. **Celtic Connections** festival each January concentrates teaching and concerts in Glasgow.
+
+Transmission debates continue: **competition** versus **session** values; **Gaelic language** decline versus song revival; **fusion** bands versus purist folk clubs. Scotland's story matches Ireland's — survival through negotiation, not sealed preservation.
 
 ## Compared with Ireland
 
-If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.
+Parallel lesson: `regions-celtic-ireland-06-history`. Ireland has **Edward Bunting** at the 1792 Belfast Harp Festival; Scotland has **Henderson** and **School of Scottish Studies** fieldwork. Ireland has **Comhaltas** and **Fleadh Cheoil**; Scotland has **pipe-band grades**, **Mod** Gaelic competitions, and **Fèisean nan Gàidheal**.
 
-**Parallel Ireland lesson:** `regions-celtic-ireland-06-history` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.
-
-## Core material
-
-Collectors, bbc broadcasting, the folk revival, and piping competitions in scotland trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic "Celtic" compilations when possible.
-
-### Listening and study habits
-
-1. Identify one field recording and one modern ensemble track mentioned or implied in this lesson's topic.
-2. Note the metre and dance association of at least two tune types discussed.
-3. Compare session or social-dance etiquette with what you learned from Irish trad.
-4. Follow the unit playlist entries in lesson metadata when available.
+Both nations use **national broadcasters** to amplify trad. Both experienced mid-century **revival** reconnecting urban youth to rural repertoire. Diaspora **78 rpm** and **emigrant** networks matter in both histories — Scotland's Cape Breton and Nova Scotia branches mirror Irish-American Chicago recordings.
 
 ## Key points
 
-- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.
-- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.
-- Collectors, bbc broadcasting, the folk revival, and piping competitions connects to dance, song, and community context—not isolated technique only.
-- Revival institutions, broadcasting, and festivals shape what learners hear today.
-- Use comparative study to hear specificity; avoid flattening everything under "Celtic" marketing.
+- **Collectors** from Burns to Henderson preserved songs that oral tradition alone might have lost.
+- **Bothy ballads** document Lowland working life; **Gaelic song** archives document West Highland heritage.
+- **BBC Scotland** and **Radio nan Gàidheal** broadcast trad to national and diaspora audiences.
+- **Folk revival** bands reconnected urban listeners to rural sources without inventing tradition from scratch.
+- **Piping competitions** and **pipe-band grades** structure preservation of ceòl mòr and ceòl beag.
+- Transmission today mixes ear learning, festivals, broadcasting, and online tools — debate over competition versus session continues.
 
 ## Reading list
 
-- Regional folk archive or national library listening guides (see lesson metadata links when present).
-- Companion to Irish unit readings for cross-border context (Fintan Vallely, *Companion to Irish Traditional Music*).
-- Wikipedia articles on Music of Scotland as orientation, verified against recordings.
+- **Hamish Henderson** — *Alias MacAlias: Selected Writings* (ballads, politics, folklore).
+- **Francis Collinson** — *The Traditional and National Music of Scotland*.
+- **School of Scottish Studies Archives** — University of Edinburgh ([ed.ac.uk](https://www.ed.ac.uk/)).
+- **Wikipedia** — [Hamish Henderson](https://en.wikipedia.org/wiki/Hamish_Henderson), [Music of Scotland](https://en.wikipedia.org/wiki/Music_of_Scotland).
+- **Piobaireachd Society** — [piobaireachd.co.uk](https://www.piobaireachd.co.uk/) for ceòl mòr context.
 
 ## Quiz Questions
 
-### Q1. Which description best fits the main social context emphasised in this lesson?
-- A) Concerto competitions only
-- B) Community dance and oral transmission
-- C) Strictly classical conservatory exams
-- D) Electronic dance clubs only
-**Answer:** B) Community dance and oral transmission
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+### Q1. Hamish Henderson is remembered for:
 
-### Q2. This tradition is identical to Irish traditional music in repertoire and social context.
-- A) True
-- B) False
-**Answer:** B) False
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+- A) Collecting bothy ballads and anchoring Scotland's mid-century folk revival
+- B) Inventing the electric guitar in Nashville
+- C) Writing exclusively Italian opera libretti
+- D) Founding the World Wide Web
 
-### Q3. Compared with Ireland, this unit stresses which additional emphasis?
-- A) No differences whatsoever
-- B) See Compared with Ireland section
-- C) Only classical opera
-- D) Only hip-hop production
-**Answer:** B) See Compared with Ireland section
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+**Answer:** A
 
-### Q4. A typical learner should prioritise:
-- A) Only reading generic textbooks
-- B) Listening to regional recordings before generic "Celtic" compilations
-- C) Memorising one tune only
-- D) Ignoring dance context
-**Answer:** B) Listening to regional recordings before generic "Celtic" compilations
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+### Q2. Bothy ballads document farm workers' lives in Scots-language song tradition.
 
-### Q5. Sessions, festivals, and archives all play roles in modern transmission.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+**Answer:** True
 
-### Q6. Instrument focus in this lesson includes:
-- A) Only synthesizers
-- B) Voices named in the lesson introduction
-- C) Only orchestral brass
-- D) Only piano études
-**Answer:** B) Voices named in the lesson introduction
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+### Q3. BBC Radio nan Gàidheal broadcasts in support of Gaelic language and music heritage.
 
-### Q7. Dance rhythm topics in this lesson relate to:
-- A) Ballet syllabus only
-- B) Social dance forms discussed in the body
-- C) Marching band drill only
-- D) DJ beatmatching only
-**Answer:** B) Social dance forms discussed in the body
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+**Answer:** True
 
-### Q8. Revival movements and media broadcasting shaped twentieth-century practice.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+### Q4. The Royal Scottish Pipe Band Association organises graded pipe-band competition.
 
-### Q9. When studying tune forms, you should:
-- A) Ignore metre entirely
-- B) Connect metre and foot-tap feel to named dance types
-- C) Assume all tunes are 4/4 rock beats
-- D) Avoid learning by ear
-**Answer:** B) Connect metre and foot-tap feel to named dance types
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+**Answer:** True
 
-### Q10. Fusion and modern scenes discussed here:
-- A) Erase all earlier repertoire
-- B) Build on—not replace—living tradition
-- C) Ban all acoustic instruments
-- D) Eliminate festivals
-**Answer:** B) Build on—not replace—living tradition
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+### Q5. Piobaireachd is preserved partly through piping competitions at Highland games and major contests.
 
-### Q11. The Compared with Ireland section highlights both shared heritage and national accent.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+**Answer:** True
 
-### Q12. Best next step after this lesson:
-- A) Stop listening to recordings
-- B) Follow playlists and return to the paired Ireland lesson
-- C) Skip all prerequisites
-- D) Avoid comparative study
-**Answer:** B) Follow playlists and return to the paired Ireland lesson
-*Explanation grounded in Scottish Traditional Music — History, Revival, and Transmission.*
+### Q6. Francis Collinson's Traditional and National Music of Scotland is a reference work on national music history.
 
+**Answer:** True
+
+### Q7. Folk revival bands like Battlefield Band formed in the 1970s to bring arranged ensemble sound to trad repertoire.
+
+**Answer:** True
+
+### Q8. School of Scottish Studies at Edinburgh University archives field recordings including Henderson's work.
+
+**Answer:** True
+
+### Q9. Competition piping and pub session piping always reward identical values of rhythm and ornament.
+
+**Answer:** False — competition prizes precision; sessions prize dance lift and social flow.
+
+### Q10. Celtic Connections is a major Glasgow winter festival supporting contemporary trad transmission.
+
+**Answer:** True
+
+### Q11. Robert Burns preserved and adapted orally circulating Scots song material for print.
+
+**Answer:** True
+
+### Q12. Compared with Ireland, Scotland emphasises pipe-band competition infrastructure and bothy ballad collection distinct from Comhaltas fleadh structure.
+
+**Answer:** True

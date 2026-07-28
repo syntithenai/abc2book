@@ -7,6 +7,7 @@ import StarToggleButton from './StarToggleButton'
 import TuneListFilterChips from './TuneListFilterChips'
 import { getLyricLines } from '../wLinesUtils'
 import TuneListPlaybackButtons from './TuneListPlaybackButtons'
+import CheckToggleButton from './CheckToggleButton'
 import {
   buildSnapshotTuneLink,
   displayTitleForSearchRow,
@@ -61,18 +62,13 @@ export default function TuneListRow(props) {
     >
       <div className="tune-list-item-row">
         {showRowExtras && (
-          <>
-            {(selected[tune.id]) && (
-              <Button className="tune-list-select-btn" variant="success" size="lg" aria-label="Selected" onClick={function(e) { props.onSelect(e, tune.id) }}>
-                {props.tunebook.icons.check}
-              </Button>
-            )}
-            {(!selected[tune.id]) && (
-              <Button className="tune-list-select-btn" variant="secondary" size="lg" aria-label="Not selected" onClick={function(e) { props.onSelect(e, tune.id) }}>
-                {props.tunebook.icons.check}
-              </Button>
-            )}
-          </>
+          <CheckToggleButton
+            className="tune-list-select-btn"
+            checked={!!selected[tune.id]}
+            size="lg"
+            ariaLabel={selected[tune.id] ? 'Selected' : 'Not selected'}
+            onClick={function(e) { props.onSelect(e, tune.id) }}
+          />
         )}
         <div className="tune-list-item-title-block">
           <span className="tune-list-item-title">

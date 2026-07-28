@@ -42,6 +42,12 @@ export async function startPracticeTrackGeneration(payload, melodyBlob, options)
   const form = new FormData();
   form.append('timingPlan', JSON.stringify(payload));
   form.append('melody', melodyBlob, 'melody.wav');
+  if (opts.chordsBlob) {
+    form.append('chords', opts.chordsBlob, 'chords.wav');
+  }
+  if (opts.scoreBlob) {
+    form.append('score', opts.scoreBlob, 'score.mid');
+  }
 
   const response = await fetchViaMediaProxy(practiceTrackPath(), opts.token, {
     method: 'POST',

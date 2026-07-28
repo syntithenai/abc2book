@@ -1,0 +1,938 @@
+{
+  "id": "regions-nordic-islands-03-instruments-voices-ii",
+  "title": "Iceland & Faroe Traditions — Ensemble Voices II",
+  "track": "regions",
+  "tier": 3,
+  "region": "nordic-islands",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-nordic-islands-02-instruments-voices-i"
+  ],
+  "tags": [
+    "nordic",
+    "islands",
+    "nordic",
+    "session",
+    "&"
+  ],
+  "path": "10-regions/nordic/islands/03-instruments-session-voices-ii.md",
+  "sections": [
+    {
+      "id": "iceland-faroe-traditions-ensemble-voices-ii",
+      "title": "Iceland & Faroe Traditions — Ensemble Voices II",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Nordic Folk | **Region:** nordic-islands | **Tier:** 3\n**Prerequisites:** regions-nordic-islands-02-instruments-voices-i\n**Tags:** nordic, islands, nordic, session, &"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "guitar, ensemble\n\nIceland & Faroe Traditions belongs to the **Nordic Folk** curriculum. Brynhildur Þórarinsdóttir\n\nThis lesson develops listening precision for **guitar, ensemble** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-norway",
+      "title": "Compared with Norway",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Norwegian Folk Music** (`regions-nordic-norway-03-instruments-voices-ii`) covers the same lesson slot from the anchor perspective. This lesson stresses: **guitar, ensemble**.\n\n| Topic | Norway anchor | Iceland & Faroe Traditions (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | accordion, guitar… | guitar, ensemble… |\n\n**Parallel anchor lesson:** `regions-nordic-norway-03-instruments-voices-ii`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-03-instruments-voices-ii`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "guitar, ensemble\n\nStudy **iceland & faroe traditions** through listening first. Wikipedia's article on [Music of Iceland](https://en.wikipedia.org/wiki/Music_of_Iceland) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Nordic Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **fiddle, voice, langspil**. Ensemble layer: **guitar, ensemble**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **rimur, chain dance**. Dance context: **chain dance, vikivaki**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **island isolation, revival**. Contemporary scenes: **folk festivals**. Tune repertoire anchor: **Icelandic rimur**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- guitar, ensemble\n- Lead instruments: fiddle, voice, langspil\n- Ensemble: guitar, ensemble\n- Forms: rimur, chain dance\n- Dance: chain dance, vikivaki\n- History: island isolation, revival\n- Scenes: folk festivals\n- Repertoire: Icelandic rimur\n- Compared with Norway: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Iceland & Faroe Traditions is a living tradition with regional accent.\n- Focus: guitar, ensemble.\n- Compared with Norway: shared heritage, distinct emphasis.\n- Forms: rimur, chain dance.\n- Dance: chain dance, vikivaki.\n- Transmission: island isolation, revival."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nI\nc\ne\nl\na\nn\nd\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nI\nc\ne\nl\na\nn\nd\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nN\no\nr\nw\na\ny\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "brynhildur-rarinsd-ttir",
+      "type": "artist",
+      "name": "Brynhildur Þórarinsdóttir",
+      "summary": "Representative musician or ensemble in nordic-islands trad",
+      "blurb": "Study Brynhildur Þórarinsdóttir for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Brynhildur_Þórarinsdóttir",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "iceland-faroe-traditions",
+      "type": "band",
+      "name": "Iceland & Faroe Traditions",
+      "summary": "Representative musician or ensemble in nordic-islands trad",
+      "blurb": "Study Iceland & Faroe Traditions for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Iceland_&_Faroe_Traditions",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "brynhildur-rarinsd-ttir",
+    "iceland-faroe-traditions"
+  ],
+  "playlist": [
+    {
+      "id": "regions-nordic-islands-03-instruments-voices-ii-pl1",
+      "entity_id": "brynhildur-rarinsd-ttir",
+      "label": "Brynhildur Þórarinsdóttir — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Brynhildur Þórarinsdóttir"
+    },
+    {
+      "id": "regions-nordic-islands-03-instruments-voices-ii-pl2",
+      "entity_id": "iceland-faroe-traditions",
+      "label": "Iceland & Faroe Traditions — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Iceland & Faroe Traditions"
+    },
+    {
+      "id": "regions-nordic-islands-03-instruments-voices-ii-pl3",
+      "label": "Iceland & Faroe Traditions — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-nordic-islands-03-instruments-voices-ii-pl4",
+      "label": "Iceland & Faroe Traditions — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Iceland & Faroe Traditions rewards comparative study.",
+    "Focus: guitar, ensemble.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: rimur, chain dance.",
+    "Dance: chain dance, vikivaki.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Iceland & Faroe Traditions is a living tradition with regional accent.",
+    "Compared with Norway: shared heritage, distinct emphasis.",
+    "Transmission: island isolation, revival."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Iceland",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Iceland",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Nordic Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Iceland",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "guitar, ensemble",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Iceland",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) guitar, ensemble\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) guitar, ensemble\n\n### Q2. Iceland & Faroe Traditions rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Norway, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) fiddle, voice, langspil\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) fiddle, voice, langspil\n\n### Q5. Ensemble voices include:\n- A) guitar, ensemble\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) guitar, ensemble\n\n### Q6. Tune and song forms include:\n- A) rimur, chain dance\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) rimur, chain dance\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) island isolation, revival\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) island isolation, revival\n\n### Q9. Contemporary scenes include:\n- A) folk festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) folk festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Icelandic rimur\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Icelandic rimur\n\n### Q12. The Compared with Norway section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, ensemble",
+          "correct": true
+        }
+      ],
+      "explain": ") guitar, ensemble"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Iceland & Faroe Traditions rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Norway, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "fiddle, voice, langspil",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") fiddle, voice, langspil"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, ensemble",
+          "correct": true
+        }
+      ],
+      "explain": ") guitar, ensemble"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "rimur, chain dance",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") rimur, chain dance"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "island isolation, revival",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        }
+      ],
+      "explain": ") island isolation, revival"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "folk festivals",
+          "correct": true
+        }
+      ],
+      "explain": ") folk festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Icelandic rimur",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": ") Icelandic rimur"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Norway section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-nordic-islands-03-instruments-voices-ii-quiz",
+    "title": "Iceland & Faroe Traditions — Ensemble Voices II quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, ensemble",
+            "correct": true
+          }
+        ],
+        "explain": ") guitar, ensemble"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Iceland & Faroe Traditions rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Norway, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "fiddle, voice, langspil",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") fiddle, voice, langspil"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, ensemble",
+            "correct": true
+          }
+        ],
+        "explain": ") guitar, ensemble"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "rimur, chain dance",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") rimur, chain dance"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "island isolation, revival",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          }
+        ],
+        "explain": ") island isolation, revival"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "folk festivals",
+            "correct": true
+          }
+        ],
+        "explain": ") folk festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Icelandic rimur",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": ") Icelandic rimur"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Norway section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

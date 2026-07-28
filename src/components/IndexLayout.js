@@ -1,6 +1,6 @@
 /* global window */
 import { useNavigate } from 'react-router-dom'
-import { Button, Badge } from 'react-bootstrap'
+import { Button, Badge, ButtonGroup } from 'react-bootstrap'
 import { ListGroup } from 'react-bootstrap'
 import { useState, useEffect, useRef, memo } from 'react'
 import IndexSearchForm from './IndexSearchForm'
@@ -14,6 +14,7 @@ import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
 import { appendTunesToQueue, insertTunesAfterCurrentInQueue } from '../nowPlayingQueue'
 import { getPlayableTuneIdsFromListRows } from '../collectionQueueUtils'
 import PlayWithQueueDropdown from './PlayWithQueueDropdown'
+import SelectAllToggle from './SelectAllToggle'
 import { toast } from 'react-toastify'
 import { getActivePlaybackTuneId } from '../playbackNavigationUtils'
 import {
@@ -28,7 +29,10 @@ import {
   buildTuneStatusEntry,
   pruneSelectionForStatus,
   buildListHashKey,
+  CATALOG_PAGE_SIZE,
+  BULK_SELECTION_LIMIT,
 } from '../tuneListFilter'
+import { isCatalogStorageEnabled } from '../tuneStorageFlags'
 
 function IndexLayout(props) {
     //var [filtered, setFiltered] = useState('')
@@ -54,7 +58,9 @@ function IndexLayout(props) {
     var setSelectedCount = props.setSelectedCount
     var tagCollation = props.tagCollation
     var setTagCollation = props.setTagCollation
-    var [onlyShowDuplicates, setOnlyShowDuplicates] = useState(false) 
+    var [onlyShowDuplicates, setOnlyShowDuplicates] = useState(false)
+    var [listPageOffset, setListPageOffset] = useState(0)
+    var [listPageMeta, setListPageMeta] = useState(null)
     var filterRunIdRef = useRef(0)
     var listSelectionCurtailedToastKeyRef = useRef(null)
     const navigate = useNavigate()
@@ -77,10 +83,10 @@ function IndexLayout(props) {
 
     // reset selection when grouping, book, tag or genre filters change (but not text filter)
     useEffect(function() {
-        //console.log('CLEAR SELECTION',props.groupBy,props.currentTuneBook, props.tagFilter)
         setSelected({})
         setSelectedCount(0)
-    },[props.groupBy,props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter, setSelected, setSelectedCount])
+        setListPageOffset(0)
+    },[props.groupBy,props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter, props.filter, setSelected, setSelectedCount])
     
     function filterSearch(tune) {
        return props.tunebook.filterSearch(tune, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter)
@@ -92,9 +98,30 @@ function IndexLayout(props) {
       setGrouped(result.grouped)
       setTuneStatus(result.tuneStatus)
       setTagCollation(result.tagCollation)
+      setListPageMeta(result.listPage || null)
+      setListPageOffset(0)
       const pruned = pruneSelectionForStatus(selected, result.tuneStatus)
       setSelected(pruned.selected)
       setSelectedCount(pruned.selectedCount)
+    }
+
+    function usesPaginatedList() {
+      if (isCatalogStorageEnabled()) return true
+      if (listPageMeta && listPageMeta.total > CATALOG_PAGE_SIZE) return true
+      return Array.isArray(filtered) && filtered.length > CATALOG_PAGE_SIZE
+    }
+
+    function getVisibleFilteredTunes() {
+      if (!Array.isArray(filtered) || filtered.length === 0) return filtered
+      if (!usesPaginatedList()) return filtered
+      const offset = listPageOffset
+      const limit = CATALOG_PAGE_SIZE
+      return filtered.slice(offset, offset + limit)
+    }
+
+    function getListPageTotal() {
+      if (listPageMeta && listPageMeta.total) return listPageMeta.total
+      return Array.isArray(filtered) ? filtered.length : 0
     }
 
     function runFilter() {
@@ -110,6 +137,16 @@ function IndexLayout(props) {
         groupBy: props.groupBy,
         tunebook: props.tunebook,
         shouldCancel: function() { return filterRunIdRef.current !== runId },
+        indexes: props.indexes && props.indexes.getIndexBundle ? props.indexes.getIndexBundle() : null,
+        filterContext: {
+          currentTuneBook: props.currentTuneBook,
+          tagFilter: props.tagFilter,
+          genreFilter: props.genreFilter,
+          artistFilter: props.artistFilter,
+          starredFilter: props.starredFilter,
+          filter: props.filter,
+          textFilter: props.filter,
+        },
       }).then(function(result) {
         if (!result || filterRunIdRef.current !== runId) return
         applyFilterResult(result)
@@ -123,6 +160,16 @@ function IndexLayout(props) {
         filterSearchFn: filterSearchNoBooks,
         groupBy: props.groupBy,
         tunebook: props.tunebook,
+        indexes: props.indexes && props.indexes.getIndexBundle ? props.indexes.getIndexBundle() : null,
+        filterContext: {
+          currentTuneBook: props.currentTuneBook,
+          tagFilter: props.tagFilter,
+          genreFilter: props.genreFilter,
+          artistFilter: props.artistFilter,
+          starredFilter: props.starredFilter,
+          filter: props.filter,
+          textFilter: props.filter,
+        },
       })
       setGrouped(result.grouped)
       setFiltered(result.filtered)
@@ -285,12 +332,14 @@ function IndexLayout(props) {
                     selected[tune.id] = false
                 })
             } else {
-                //console.log('HS NO sele')
-                filtered.forEach(function(tune) {
+                var selectedCount = 0
+                getVisibleFilteredTunes().forEach(function(tune) {
+                    if (selectedCount >= BULK_SELECTION_LIMIT) return
                     selected[tune.id] = true
+                    selectedCount += 1
                 })
             }
-            setSelected(selected)
+            setSelected(enforceSelectionLimit(selected))
             setSelectedCount(countSelected())
             props.forceRefresh()
         } else {
@@ -310,9 +359,9 @@ function IndexLayout(props) {
                         if (filtered[id] && filtered[id].id) selected[filtered[id].id] = true
                     })
                 }
+                setSelected(enforceSelectionLimit(selected))
                 setSelectedCount(countSelected())
                 props.forceRefresh()
-                //console.log('count grouepd',selected,grouped)
                 //grouped[groupKey].forEach(function(id) {
                     //if (filtered[id] && filtered[id].id && selected[filtered[id].id]) count++ 
                 //})
@@ -334,12 +383,21 @@ function IndexLayout(props) {
                 }
             })
             
-            setSelected(selected)
+            setSelected(enforceSelectionLimit(selected))
             setSelectedCount(countSelected())
             props.forceRefresh()
         }
     }
     
+    function enforceSelectionLimit(nextSelected) {
+      const ids = Object.keys(nextSelected).filter(function(id) { return nextSelected[id] })
+      if (ids.length <= BULK_SELECTION_LIMIT) return nextSelected
+      const trimmed = Object.assign({}, nextSelected)
+      ids.slice(BULK_SELECTION_LIMIT).forEach(function(id) { trimmed[id] = false })
+      toast.warn('Selection limited to ' + BULK_SELECTION_LIMIT + ' tunes at once.')
+      return trimmed
+    }
+
     function handleSelection(e,tuneId) {
         // TODO grouped
         
@@ -359,7 +417,7 @@ function IndexLayout(props) {
                 setLastSelected(tuneId)
             }
             
-            setSelected(selected)
+            setSelected(enforceSelectionLimit(selected))
             setSelectedCount(countSelected())
             //props.forceRefresh()
         }
@@ -487,6 +545,9 @@ function IndexLayout(props) {
         )
     }
     
+    var visibleFiltered = getVisibleFilteredTunes()
+    var listPageTotal = getListPageTotal()
+    var showPagination = usesPaginatedList() && listPageTotal > CATALOG_PAGE_SIZE
     var tuneSearchPanelClass = fixedSingleMenu
         ? 'tune-search-panel tune-search-panel-fixed'
         : 'tune-search-panel'
@@ -572,15 +633,103 @@ function IndexLayout(props) {
             } nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter} forceRefresh={function() { setListHash(''); props.forceRefresh()}} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} groupBy={props.groupBy} setGroupBy={props.setGroupBy} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} genreFilter={props.genreFilter} setGenreFilter={props.setGenreFilter} artistFilter={props.artistFilter} setArtistFilter={props.setArtistFilter} starredFilter={props.starredFilter} setStarredFilter={props.setStarredFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  listDisplayMode={props.listDisplayMode} setListDisplayMode={props.setListDisplayMode} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} PREVIEW_LIST_LIMIT={PREVIEW_LIST_LIMIT} tagCollation={tagCollation} />
         
 
-			{props.tunes && <div style={{ height:'3em', padding:'0.2em', clear:'both'}}  >
+			{props.tunes && <div className="tune-list-toolbar-row">
+
+				{showPagination ? (
+          <span className="d-inline-flex align-items-center gap-2" style={{ marginRight: '0.5em' }}>
+            <Button
+              variant="outline-secondary"
+              size="sm"
+              disabled={listPageOffset <= 0}
+              onClick={function() { setListPageOffset(Math.max(0, listPageOffset - CATALOG_PAGE_SIZE)) }}
+            >Previous</Button>
+            <span className="app-text-muted">
+              Page {Math.floor(listPageOffset / CATALOG_PAGE_SIZE) + 1} of {Math.ceil(listPageTotal / CATALOG_PAGE_SIZE)}
+            </span>
+            <Button
+              variant="outline-secondary"
+              size="sm"
+              disabled={listPageOffset + CATALOG_PAGE_SIZE >= listPageTotal}
+              onClick={function() { setListPageOffset(listPageOffset + CATALOG_PAGE_SIZE) }}
+            >Next</Button>
+          </span>
+        ) : null}
 			
-				{(showListSelectionControls && filtered && filtered.length > 0) &&<span  ><Button variant={freshSelectedCount > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
-				
-				{(showListSelectionControls && freshSelectedCount > 0) &&  <span style={{marginLeft:'0.35em'}}><SelectedItemsModal mediaController={props.mediaController} tunebook={props.tunebook} token={props.token} login={props.login} tunesHash={props.tunesHash} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} selectedCount={freshSelectedCount} setSelectedCount={setSelectedCount} /></span>}
-				
-				{(showListSelectionControls && freshSelectedCount > 0 && filtered)  && <span style={{marginLeft:'0.5em'}} >{freshSelectedCount}/{filtered.length} tunes selected</span>}
-				{(freshSelectedCount === 0 && filtered) && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
-				{(filtered && filtered.length > 0) && <span className="tune-list-play-wrap"><PlayWithQueueDropdown variant="toolbar" playVariant="success" playIcon={props.tunebook.icons.playwhite} playLabel={<span className="tune-list-play-label"><span className="tune-list-play-verb">Play </span>{freshSelectedCount > 0 ? 'Selected' : 'All'}</span>} testId="play-from-list-button" className="tune-list-play-btn-group" onPlay={handlePlayFromList} onAddToQueue={props.setNowPlayingQueue ? handleAddAllToQueue : null} onPlayNext={props.setNowPlayingQueue ? handlePlayAllNext : null} addToQueueLabel="Add all to queue" playNextLabel="Play all next" /></span>}
+				{(showListSelectionControls && filtered && filtered.length > 0) && (
+          <SelectAllToggle
+            size="lg"
+            totalCount={filtered.length}
+            selectedCount={freshSelectedCount}
+            onSelectAll={function() { selectAllToggle() }}
+            onSelectNone={function() { selectAllToggle() }}
+            ariaLabel="Select all tunes"
+          />
+        )}
+
+        {filtered && filtered.length > 0 && (
+          <ButtonGroup className="tune-list-toolbar-btn-group">
+            {showListSelectionControls ? (
+              freshSelectedCount > 0 ? (
+                <SelectedItemsModal
+                  mediaController={props.mediaController}
+                  tunebook={props.tunebook}
+                  token={props.token}
+                  login={props.login}
+                  tunesHash={props.tunesHash}
+                  defaultOptions={props.tunebook.getTuneBookOptions}
+                  searchOptions={props.tunebook.getSearchTuneBookOptions}
+                  defaultTagOptions={props.tunebook.getTuneTagOptions}
+                  searchTagOptions={props.tunebook.getSearchTuneTagOptions}
+                  forceRefresh={function() { forceRefresh() }}
+                  selected={selected}
+                  setSelected={setSelected}
+                  nowPlayingQueue={props.nowPlayingQueue}
+                  setNowPlayingQueue={props.setNowPlayingQueue}
+                  selectedCount={freshSelectedCount}
+                  setSelectedCount={setSelectedCount}
+                />
+              ) : (
+                <Button
+                  variant="secondary"
+                  disabled
+                  className="tune-list-bulk-ops-btn tune-list-bulk-ops-btn--placeholder"
+                  aria-hidden="true"
+                  tabIndex={-1}
+                >
+                  {props.tunebook.icons.dropdown}
+                </Button>
+              )
+            ) : null}
+            {showListSelectionControls && freshSelectedCount > 0 && (
+              <Button variant="outline-secondary" disabled className="tune-list-selection-count">
+                {freshSelectedCount}/{filtered.length} tunes selected
+              </Button>
+            )}
+            {freshSelectedCount === 0 && (
+              <Button variant="outline-secondary" disabled className="tune-list-selection-count">
+                {listPageTotal} matching tunes
+              </Button>
+            )}
+            <PlayWithQueueDropdown
+              variant="toolbar"
+              playVariant="success"
+              playIcon={props.tunebook.icons.playwhite}
+              playLabel={(
+                <span className="tune-list-play-label">
+                  <span className="tune-list-play-verb">Play </span>
+                  {freshSelectedCount > 0 ? 'Selected' : 'All'}
+                </span>
+              )}
+              testId="play-from-list-button"
+              className="tune-list-play-btn-group"
+              onPlay={handlePlayFromList}
+              onAddToQueue={props.setNowPlayingQueue ? handleAddAllToQueue : null}
+              onPlayNext={props.setNowPlayingQueue ? handlePlayAllNext : null}
+              addToQueueLabel="Add all to queue"
+              playNextLabel="Play all next"
+            />
+          </ButtonGroup>
+        )}
 			
 			</div>}
         </div>
@@ -590,7 +739,7 @@ function IndexLayout(props) {
             Updating tune list...
           </div>
         )}
-        {!grouped && renderListItems(filtered)}
+        {!grouped && renderListItems(visibleFiltered)}
         
         {grouped && <div>{ Object.keys(grouped).sort(function(a,b) {
             return compareSearchGroupKeys(props.groupBy, a, b)
@@ -609,9 +758,17 @@ function IndexLayout(props) {
             <span id={"group-"+groupKey} aria-hidden="true"></span>
            
             <br/>
-            <div style={{float:'left', marginRight:'1em'}}>
-            {showListSelectionControls && (countSelected(groupKey) === filteredGroup.length) && <Button    variant={'success'} size="lg" onClick={function(e) {selectAllToggle(groupKey)}} >{props.tunebook.icons.checkdouble}</Button>}
-            {showListSelectionControls && (countSelected(groupKey) < filteredGroup.length) && <Button variant={'secondary'} size="lg"  onClick={function(e) {selectAllToggle(groupKey)}} >{props.tunebook.icons.checkdouble}</Button>}
+            <div className="tune-list-group-select-wrap">
+            {showListSelectionControls && (
+              <SelectAllToggle
+                size="lg"
+                totalCount={filteredGroup.length}
+                selectedCount={countSelected(groupKey)}
+                onSelectAll={function() { selectAllToggle(groupKey) }}
+                onSelectNone={function() { selectAllToggle(groupKey) }}
+                ariaLabel={'Select all tunes in ' + groupKey}
+              />
+            )}
             </div>
             <Badge style={{float:'right'}} >{filteredGroup.length}</Badge>
             <h3> {groupKey && <Button style={{float:'left'}} variant="outline-secondary" onClick={function() {props.tunebook.utils.scrollTo('topofpage')}} >{props.tunebook.icons.arrowup}</Button>}&nbsp;&nbsp;&nbsp;{groupKey} </h3>

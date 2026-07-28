@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Track:** Celtic Music | **Unit:** Diaspora & fringe | **Tier:** 3"
+          "text": "**Track:** regions | **Unit:** Diaspora & fringe | **Tier:** 3 | **Difficulty:** 5/10\n**Prerequisites:** regions-celtic-diaspora-02-galicia-asturias\n**Tags:** cornwall, isle-of-man, revival, kernow, manx, diaspora, celtic-nations"
         }
       ]
     },
@@ -35,7 +35,40 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Cornish and Manx revivals rebuild regional identity through festivals, dance, and conscious language/music activism."
+          "text": "Cornwall and the Isle of Man sit at the Celtic fringe of the British Isles: small populations, complex colonial histories within the United Kingdom, and twentieth-century **revival movements** that rebuilt language, dance, and music as symbols of regional identity. Neither region offers the volume of living dance-music infrastructure you find in Ireland or Brittany. Both punch above their weight at pan-Celtic festivals, in language classrooms, and in conscious **cultural activism** that treats a wedding march, a carol, or a session tune as evidence that Kernow and Mann still sing.\n\nThis lesson maps Cornish and Manx music scenes: what survived in manuscripts and memory, what revivalists reconstructed, how festivals like Lowender Peran and Yn Chruinnaght connect to Irish and Breton networks, and why comparing these regions to Ireland requires honesty about gaps, invention, and community effort.\n\n![Cornish bardic ceremony](https://en.wikipedia.org/wiki/Special:FilePath/Gorsedh_Kernow_2004.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "cornwall-mines-methodism-and-kernow-identity",
+      "title": "Cornwall: mines, Methodism, and Kernow identity",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cornish traditional music blends Celtic-affiliated folk with maritime, mining, and chapel histories. Carols like *Hark! The Glad Sound of Cornishmen* and tunes collected in nineteenth-century manuscripts reveal a regional repertoire distinct from English country dance, though cross-border borrowing always occurred. The **furry dance** in Helston, shanties, and brass-band culture coexist with folk revival projects.\n\nThe late twentieth century saw deliberate rebuilding. Lowender Peran (\"Cornish moon\") became a flagship winter festival in Perranporth, drawing Breton, Welsh, Irish, and Cornish musicians. Cornish bagpipes — historically documented, then revived through reconstruction — appear alongside fiddles, concertinas, and voices singing in **Kernewek** (Cornish). The Gorsedh Kernow bardic ceremony links poetry, music, and language prestige.\n\nRevival work here often means **assembling fragments**: field notes, parish records, oral memory, and informed recreation. That process differs from Ireland, where unbroken rural practice fed directly into Comhaltas-era competition. Cornish musicians may learn Breton gavottes at festival workshops and adapt them to local dance — comparative exchange, not plagiarism."
+        }
+      ]
+    },
+    {
+      "id": "isle-of-man-manx-song-dance-and-festival-life",
+      "title": "Isle of Man: Manx song, dance, and festival life",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The Isle of Man (*Mann*) preserves **Manx Gaelic** (*Gaelg*) through schools, media, and cultural organisations including Manx National Heritage. Musical survivals include carvals (Christmas carols), lilting dance tunes, and songs collected by figures such as Mona Douglas. The **scoop** (a rhythmic vocalisation) and social dances like the **Manx freestyle** connect music to community gatherings.\n\nYn Chruinnaght (\"the gathering\") is the island's inter-Celtic festival, hosting competitors and guests from Ireland, Scotland, Wales, Brittany, Cornwall, and Galicia. Manx music at such events may include fiddle tunes, harp, small pipes, and choir repertoire — a smaller scene than Dublin or Glasgow, but institutionally serious.\n\n![Tynwald Day ceremony on the Isle of Man](https://en.wikipedia.org/wiki/Special:FilePath/Tynwald_Day_2003.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-repertoire-notes",
+      "title": "Instruments and repertoire notes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Both regions share instruments with wider Celtic practice:\n\n- **Fiddle and concertina** — session-friendly, portable, common at festivals.\n- **Harp** — historical Manx and Cornish harp traditions inform modern players.\n- **Bagpipes** — Cornish revived pipes; Manx smallpipes projects connect to Scottish and Northumbrian cousins.\n- **Voice** — language revival makes song pedagogy politically loaded; every new generation learning *Gaelg* or Kernewek inherits repertoire as identity curriculum.\n\nTune forms include marches, hornpipes, jigs, and reels familiar from Irish sessions — but local names and settings may differ. A Manx tune in a manuscript might surface at Yn Chruinnaght decades later, taught by a revival arranger rather than a continuous village line."
         }
       ]
     },
@@ -46,7 +79,18 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Irish diaspora scenes (New York, Chicago, London) exported session culture and tune repertoire worldwide. This lesson traces how **cornwall & isle of man** relates to that network while developing its own accent."
+          "text": "Ireland offers our baseline: dense rural practice, commercial recording history from Coleman forward, global session network, state and NGO support (Comhaltas, ITMA, TG4).\n\nCornwall and Man contrast sharply in **scale and continuity**:\n\n| Aspect | Ireland | Cornwall & Isle of Man |\n|--------|---------|------------------------|\n| Living rural dance floor | Extensive through 20th c. | Patchy; revival-led |\n| Language context | Gaeltacht pockets | Revived Cornish & Manx |\n| Institutions | Comhaltas, fleadh, RTÉ | Festivals, heritage trusts, bardic councils |\n| Diaspora export | Mass emigration → global sessions | Smaller emigrant communities |\n| Repertoire transmission | Oral line + collectors | Manuscript + revival assembly |\n\nSimilarities remain instructive. All three use music in **language activism**. All three send delegations to Lorient. Irish musicians routinely guest at Lowender Peran and Yn Chruinnaght; Cornish and Manx learners travel to Willie Clancy week or Breton fest-noz for immersion. The **compared with Ireland** exercise is not \"which is more authentic\" but \"what changes when tradition must be rebuilt rather than assumed?\"\n\nIrish session etiquette — listen first, match sets, respect form — still helps at Cornish or Manx festival sessions. But expect smaller rooms, more mixed beginners, and repertoire lists weighted toward revival publications.\n\n**Parallel Ireland lessons:** `regions-celtic-ireland-06-history-transmission` for collector/revival debate; `regions-celtic-ireland-01-overview` for session baseline; diaspora lesson 04 for festival institutions."
+        }
+      ]
+    },
+    {
+      "id": "why-these-regions-matter-in-the-celtic-map",
+      "title": "Why these regions matter in the Celtic map",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Without Cornwall and Mann, pan-Celtic ideology becomes a convenient six-nation marketing shorthand. Including fringe nations forces questions: Who defines Celtic? What counts as continuity? Revival is not fake — it is how many communities now experience tradition. Irish musicians benefit from remembering their own revival moments (O'Neill, Ceoltóirí Chualann, 1970s folk boom) when judging smaller nations."
         }
       ]
     },
@@ -57,94 +101,419 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "- Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.\n- Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.\n- Festivals and archives connect fringe regions to the pan-Celtic circuit."
+          "text": "- Cornwall and the Isle of Man are small Celtic nations with strong revival-led music scenes.\n- Lowender Peran (Cornwall) and Yn Chruinnaght (Man) anchor festival and inter-Celtic exchange.\n- Repertoire often survives through manuscripts, carols, and reconstructed practice — not only unbroken oral lines.\n- Language movements (Kernewek, Gaelg) tie song pedagogy to identity politics.\n- Compared with Ireland: shared instruments and tune families, different scale of session infrastructure and historical continuity.\n- Gorsedh Kernow and Manx National Heritage exemplify institutional support for bardic and archival culture."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Wikipedia: [Music of Cornwall](https://en.wikipedia.org/wiki/Music_of_Cornwall) — historical overview.\n- Wikipedia: [Music of the Isle of Man](https://en.wikipedia.org/wiki/Music_of_the_Isle_of_Man) — carvals, dance, collectors.\n- Mike O'Connor, *The Cornish Songbook* — practical revival repertoire.\n- Mona Douglas writings and Manx folk collections — foundational Manx sources.\n- Lowender Peran and Yn Chruinnaght festival websites — contemporary programming."
         }
       ]
     }
   ],
-  "entities": [],
-  "entity_order": [],
-  "playlist": [],
+  "entities": [
+    {
+      "id": "lowender-peran",
+      "type": "event",
+      "name": "Lowender Peran",
+      "summary": "Cornish Celtic festival in Cornwall",
+      "blurb": "Revival-led gathering for Cornish music, dance, and identity.",
+      "url": "https://lowenderperan.com/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Cornwall_flag.svg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "yn-chruinnaght",
+      "type": "organization",
+      "name": "Yn Chruinnaght",
+      "summary": "Inter-Celtic festival on the Isle of Man",
+      "blurb": "Annual gathering hosting delegations from Celtic nations and diaspora regions.",
+      "url": "https://en.wikipedia.org/wiki/Yn_Chruinnaght",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Tynwald_Day_2003.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "gorsedh-kernow",
+      "type": "organization",
+      "name": "Gorsedh Kernow",
+      "summary": "Cornish bardic assembly linking poetry, music, and language",
+      "blurb": "Ceremonial institution supporting Kernewek and Cornish cultural prestige.",
+      "url": "https://en.wikipedia.org/wiki/Gorsedh_Kernow",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gorsedh_Kernow_2004.jpg?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "manx-national-heritage",
+      "type": "organization",
+      "name": "Manx National Heritage",
+      "summary": "Heritage body preserving Manx culture and archives",
+      "blurb": "Supports Gaelg, folk collections, and cultural programming on the Isle of Man.",
+      "url": "https://www.manxnationalheritage.im/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Tynwald_Day_2003.jpg?width=320",
+      "playlist_index": 3
+    }
+  ],
+  "entity_order": [
+    "yn-chruinnaght",
+    "gorsedh-kernow",
+    "manx-national-heritage"
+  ],
+  "playlist": [
+    {
+      "id": "lowender-peran-session",
+      "entity_id": "lowender-peran",
+      "label": "Lowender Peran festival session",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
+      "subtitle": "Lowender Peran"
+    },
+    {
+      "id": "yn-chruinnaght-highlights",
+      "entity_id": "yn-chruinnaght",
+      "label": "Yn Chruinnaght festival highlights",
+      "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY",
+      "subtitle": "Yn Chruinnaght"
+    },
+    {
+      "id": "cornish-furry-dance",
+      "entity_id": "gorsedh-kernow",
+      "label": "Helston Furry Dance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Gorsedh Kernow"
+    },
+    {
+      "id": "manx-folk-song",
+      "entity_id": "manx-national-heritage",
+      "label": "Manx traditional song sample",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": "Manx National Heritage"
+    },
+    {
+      "id": "lowender-peran-set",
+      "entity_id": "lowender-peran",
+      "label": "Lowender Peran highlights",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
+      "subtitle": "Lowender Peran"
+    }
+  ],
   "tunes": [],
   "key_points": [
-    "Diaspora scenes remix Irish/Scottish roots.",
-    "Compare accents—not only tune names.",
-    "Festivals link fringe regions to wider Celtic network.",
-    "Use Ireland unit as reference tradition.",
-    "Playlist study beats generic compilations.",
-    "Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.",
-    "Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.",
-    "Festivals and archives connect fringe regions to the pan-Celtic circuit."
+    "Cornwall and Mann are revival-led Celtic nations with festival-centred scenes.",
+    "Lowender Peran and Yn Chruinnaght anchor inter-Celtic exchange.",
+    "Repertoire survives through manuscripts, carols, and reconstructed practice.",
+    "Language movements (Kernewek, Gaelg) tie song to identity politics.",
+    "Compared with Ireland: smaller scale, less continuous rural session infrastructure.",
+    "Cornwall and the Isle of Man are small Celtic nations with strong revival-led music scenes.",
+    "Lowender Peran (Cornwall) and Yn Chruinnaght (Man) anchor festival and inter-Celtic exchange.",
+    "Repertoire often survives through manuscripts, carols, and reconstructed practice — not only unbroken oral lines.",
+    "Language movements (Kernewek, Gaelg) tie song pedagogy to identity politics.",
+    "Compared with Ireland: shared instruments and tune families, different scale of session infrastructure and historical continuity.",
+    "Gorsedh Kernow and Manx National Heritage exemplify institutional support for bardic and archival culture."
   ],
   "reading_list": [
     {
       "type": "link",
-      "title": "Cornwall & Isle of Man — orientation",
-      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+      "title": "Music of Cornwall — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Cornwall"
+    },
+    {
+      "type": "link",
+      "title": "Music of the Isle of Man — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Music_of_the_Isle_of_Man"
+    },
+    {
+      "type": "link",
+      "title": "Lowender Peran",
+      "url": "https://en.wikipedia.org/wiki/Lowender_Peran"
+    },
+    {
+      "type": "link",
+      "title": "Yn Chruinnaght",
+      "url": "https://en.wikipedia.org/wiki/Yn_Chruinnaght"
+    },
+    {
+      "type": "link",
+      "title": "Lowender Peran",
+      "url": "https://lowenderperan.com/",
+      "note": "Cornish festival"
+    },
+    {
+      "type": "link",
+      "title": "Yn Chruinnaght",
+      "url": "https://www.crash.net/manx/",
+      "note": "Manx inter-Celtic festival"
+    },
+    {
+      "type": "link",
+      "title": "Gorsedh Kernow",
+      "url": "https://www.gorsedhkernow.org.uk/",
+      "note": "Cornish cultural institution"
+    },
+    {
+      "type": "link",
+      "title": "Music of Cornwall",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Cornwall"
+    },
+    {
+      "type": "link",
+      "title": "Music of the Isle of Man",
+      "url": "https://en.wikipedia.org/wiki/Music_of_the_Isle_of_Man"
+    },
+    {
+      "type": "book",
+      "author": "Mike O'Connor",
+      "title": "The Cornish Songbook"
     }
   ],
-  "quiz_markdown": "### Q1. Which description best fits the main social context emphasised in this lesson?\n- A) Concerto competitions only\n- B) Community dance and oral transmission\n- C) Strictly classical conservatory exams\n- D) Electronic dance clubs only\n**Answer:** B) Community dance and oral transmission\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q2. This tradition is identical to Irish traditional music in repertoire and social context.\n- A) True\n- B) False\n**Answer:** B) False\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q3. Compared with Ireland, this unit stresses which additional emphasis?\n- A) No differences whatsoever\n- B) See Compared with Ireland section\n- C) Only classical opera\n- D) Only hip-hop production\n**Answer:** B) See Compared with Ireland section\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q4. A typical learner should prioritise:\n- A) Only reading generic textbooks\n- B) Listening to regional recordings before generic \"Celtic\" compilations\n- C) Memorising one tune only\n- D) Ignoring dance context\n**Answer:** B) Listening to regional recordings before generic \"Celtic\" compilations\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q5. Sessions, festivals, and archives all play roles in modern transmission.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q6. Instrument focus in this lesson includes:\n- A) Only synthesizers\n- B) Voices named in the lesson introduction\n- C) Only orchestral brass\n- D) Only piano études\n**Answer:** B) Voices named in the lesson introduction\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q7. Dance rhythm topics in this lesson relate to:\n- A) Ballet syllabus only\n- B) Social dance forms discussed in the body\n- C) Marching band drill only\n- D) DJ beatmatching only\n**Answer:** B) Social dance forms discussed in the body\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q8. Revival movements and media broadcasting shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q9. When studying tune forms, you should:\n- A) Ignore metre entirely\n- B) Connect metre and foot-tap feel to named dance types\n- C) Assume all tunes are 4/4 rock beats\n- D) Avoid learning by ear\n**Answer:** B) Connect metre and foot-tap feel to named dance types\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q10. Fusion and modern scenes discussed here:\n- A) Erase all earlier repertoire\n- B) Build on—not replace—living tradition\n- C) Ban all acoustic instruments\n- D) Eliminate festivals\n**Answer:** B) Build on—not replace—living tradition\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q11. The Compared with Ireland section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Cornwall & Isle of Man.*\n\n### Q12. Best next step after this lesson:\n- A) Stop listening to recordings\n- B) Follow playlists and return to the paired Ireland lesson\n- C) Skip all prerequisites\n- D) Avoid comparative study\n**Answer:** B) Follow playlists and return to the paired Ireland lesson\n*Explanation grounded in Cornwall & Isle of Man.*",
+  "quiz_markdown": "### Q1. Lowender Peran is a festival associated with:\n\n- A) Cornwall\n- B) Mongolia\n- C) Classical piano competitions in Milan\n- D) Antarctic folk research stations\n\n**Answer:** A\n\n### Q2. Yn Chruinnaght is the inter-Celtic festival on the Isle of Man.\n\n**Answer:** True\n\n### Q3. Compared with Ireland, Cornish and Manx traditions often rely more heavily on:\n\n- A) Revival movements assembling manuscripts, carols, and reconstructed practice\n- B) Exclusive use of symphony orchestras only\n- C) Complete absence of any festival culture\n- D) Government bans on folk instruments\n\n**Answer:** A\n\n### Q4. Gorsedh Kernow connects bardic ceremony, poetry, and Cornish cultural identity.\n\n**Answer:** True\n\n### Q5. Manx Gaelic (Gaelg) is part of the cultural context for song and revival on the Isle of Man.\n\n**Answer:** True\n\n### Q6. Cornish and Manx music scenes are identical in scale to Dublin pub sessions.\n\n**Answer:** False — smaller populations and revival-led infrastructure differ from Ireland's density.\n\n### Q7. The furry dance is associated with:\n\n- A) Helston, Cornwall\n- B) Sligo, Ireland exclusively\n- C) Vienna opera houses\n- D) Tokyo electronic clubs\n\n**Answer:** A\n\n### Q8. Manx carvals are:\n\n- A) Traditional carols with regional Manx history\n- B) A type of heavy metal exclusively\n- C) Irish uilleann pipe regulators\n- D) Breton bombard reeds only\n\n**Answer:** A\n\n### Q9. Irish musicians frequently participate in Cornish and Manx festival networks.\n\n**Answer:** True\n\n### Q10. Revival-based tradition is inherently illegitimate compared with continuous oral transmission.\n\n**Answer:** False — revival is a legitimate mode of cultural life; Ireland has its own revival history.\n\n### Q11. Bagpipe revival projects exist in Cornwall with historical documentation behind them.\n\n**Answer:** True\n\n### Q12. Best study approach:\n\n- A) Explore Lowender Peran and Yn Chruinnaght recordings alongside Irish festival crossovers\n- B) Assume Cornwall is musically identical to Clare\n- C) Ignore language revival context\n- D) Skip all manuscript and carol sources\n\n**Answer:** A",
   "quiz_questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Which description best fits the main social context emphasised in this lesson?",
+      "prompt": "Lowender Peran is a festival associated with:",
       "choices": [
         {
           "id": "a",
-          "text": "D, G, A, and E minor",
+          "text": "Revival movements assembling manuscripts, carols, and reconstructed practice",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Community dance and oral transmission",
+          "text": "Cornwall",
           "correct": true
         },
         {
           "id": "c",
-          "text": "Mouth blowing only, like Highland pipes",
+          "text": "Modal Irish and Celtic accompaniment",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Elbow bellows strapped to the player",
+          "text": "Single-headed Irish frame drum",
           "correct": false
         }
       ],
-      "explain": ") Community dance and oral transmission"
+      "explain": "The lesson identifies this as: Cornwall"
     },
     {
       "id": "q2",
-      "type": "mcq",
-      "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+      "type": "truefalse",
+      "prompt": "Yn Chruinnaght is the inter-Celtic festival on the Isle of Man.",
       "choices": [
         {
           "id": "a",
-          "text": "False",
+          "text": "True",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Elbow bellows strapped to the player",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "D, G, A, and E minor",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Francis O'Neill",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") False"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q3",
       "type": "mcq",
-      "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+      "prompt": "Compared with Ireland, Cornish and Manx traditions often rely more heavily on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cornwall",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Helston, Cornwall",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Traditional carols with regional Manx history",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Revival movements assembling manuscripts, carols, and reconstructed practice",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Revival movements assembling manuscripts, carols, and reconstructed practice"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Gorsedh Kernow connects bardic ceremony, poetry, and Cornish cultural identity.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Manx Gaelic (Gaelg) is part of the cultural context for song and revival on the Isle of Man.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Cornish and Manx music scenes are identical in scale to Dublin pub sessions.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "smaller populations and revival-led infrastructure differ from Ireland's density."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "The furry dance is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Helston, Cornwall",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Helston, Cornwall"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Manx carvals are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Traditional carols with regional Manx history",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Traditional carols with regional Manx history"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Irish musicians frequently participate in Cornish and Manx festival networks.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Revival-based tradition is inherently illegitimate compared with continuous oral transmission.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "revival is a legitimate mode of cultural life; Ireland has its own revival history."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Bagpipe revival projects exist in Cornwall with historical documentation behind them.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Best study approach:",
       "choices": [
         {
           "id": "a",
@@ -163,263 +532,11 @@
         },
         {
           "id": "d",
-          "text": "See Compared with Ireland section",
+          "text": "Explore Lowender Peran and Yn Chruinnaght recordings alongside Irish festival crossovers",
           "correct": true
         }
       ],
-      "explain": ") See Compared with Ireland section"
-    },
-    {
-      "id": "q4",
-      "type": "mcq",
-      "prompt": "A typical learner should prioritise:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Brendan Breathnach",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Mullingar, 1951",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Francis O'Neill",
-          "correct": false
-        }
-      ],
-      "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
-    },
-    {
-      "id": "q5",
-      "type": "mcq",
-      "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Intangible cultural heritage of humanity",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "True",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Brendan Breathnach",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Mullingar, 1951",
-          "correct": false
-        }
-      ],
-      "explain": ") True"
-    },
-    {
-      "id": "q6",
-      "type": "mcq",
-      "prompt": "Instrument focus in this lesson includes:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Voices named in the lesson introduction",
-          "correct": true
-        },
-        {
-          "id": "b",
-          "text": "Mullingar, 1951",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Intangible cultural heritage of humanity",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Regions where Irish remains a community language",
-          "correct": false
-        }
-      ],
-      "explain": ") Voices named in the lesson introduction"
-    },
-    {
-      "id": "q7",
-      "type": "mcq",
-      "prompt": "Dance rhythm topics in this lesson relate to:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Intangible cultural heritage of humanity",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Regions where Irish remains a community language",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Highly ornamented, often unaccompanied traditional song",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Social dance forms discussed in the body",
-          "correct": true
-        }
-      ],
-      "explain": ") Social dance forms discussed in the body"
-    },
-    {
-      "id": "q8",
-      "type": "mcq",
-      "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Highly ornamented, often unaccompanied traditional song",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Group social choreography for multiple dancers",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "True",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Regions where Irish remains a community language",
-          "correct": false
-        }
-      ],
-      "explain": ") True"
-    },
-    {
-      "id": "q9",
-      "type": "mcq",
-      "prompt": "When studying tune forms, you should:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Tips and heels striking the floor",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Highly ornamented, often unaccompanied traditional song",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Group social choreography for multiple dancers",
-          "correct": false
-        }
-      ],
-      "explain": ") Connect metre and foot-tap feel to named dance types"
-    },
-    {
-      "id": "q10",
-      "type": "mcq",
-      "prompt": "Fusion and modern scenes discussed here:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Regions where Irish remains a community language",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Build on—not replace—living tradition",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Mullingar, 1951",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Intangible cultural heritage of humanity",
-          "correct": false
-        }
-      ],
-      "explain": ") Build on—not replace—living tradition"
-    },
-    {
-      "id": "q11",
-      "type": "mcq",
-      "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
-      "choices": [
-        {
-          "id": "a",
-          "text": "True",
-          "correct": true
-        },
-        {
-          "id": "b",
-          "text": "Intangible cultural heritage of humanity",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Regions where Irish remains a community language",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Highly ornamented, often unaccompanied traditional song",
-          "correct": false
-        }
-      ],
-      "explain": ") True"
-    },
-    {
-      "id": "q12",
-      "type": "mcq",
-      "prompt": "Best next step after this lesson:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Regions where Irish remains a community language",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Highly ornamented, often unaccompanied traditional song",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Group social choreography for multiple dancers",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Follow playlists and return to the paired Ireland lesson",
-          "correct": true
-        }
-      ],
-      "explain": ") Follow playlists and return to the paired Ireland lesson"
+      "explain": "The lesson identifies this as: Explore Lowender Peran and Yn Chruinnaght recordings alongside Irish festival crossovers"
     }
   ],
   "quiz": {
@@ -429,63 +546,245 @@
       {
         "id": "q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Lowender Peran is a festival associated with:",
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "Revival movements assembling manuscripts, carols, and reconstructed practice",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Cornwall",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Cornwall"
       },
       {
         "id": "q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Yn Chruinnaght is the inter-Celtic festival on the Isle of Man.",
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") False"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q3",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Compared with Ireland, Cornish and Manx traditions often rely more heavily on:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cornwall",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Helston, Cornwall",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Traditional carols with regional Manx history",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Revival movements assembling manuscripts, carols, and reconstructed practice",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Revival movements assembling manuscripts, carols, and reconstructed practice"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Gorsedh Kernow connects bardic ceremony, poetry, and Cornish cultural identity.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Manx Gaelic (Gaelg) is part of the cultural context for song and revival on the Isle of Man.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Cornish and Manx music scenes are identical in scale to Dublin pub sessions.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "smaller populations and revival-led infrastructure differ from Ireland's density."
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "The furry dance is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Helston, Cornwall",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Helston, Cornwall"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Manx carvals are:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Traditional carols with regional Manx history",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Traditional carols with regional Manx history"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Irish musicians frequently participate in Cornish and Manx festival networks.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Revival-based tradition is inherently illegitimate compared with continuous oral transmission.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "revival is a legitimate mode of cultural life; Ireland has its own revival history."
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Bagpipe revival projects exist in Cornwall with historical documentation behind them.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Best study approach:",
         "choices": [
           {
             "id": "a",
@@ -504,263 +803,11 @@
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "Explore Lowender Peran and Yn Chruinnaght recordings alongside Irish festival crossovers",
             "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
-      },
-      {
-        "id": "q4",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
-            "correct": false
-          }
-        ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
-      },
-      {
-        "id": "q5",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "True",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mullingar, 1951",
-            "correct": false
-          }
-        ],
-        "explain": ") True"
-      },
-      {
-        "id": "q6",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          }
-        ],
-        "explain": ") Voices named in the lesson introduction"
-      },
-      {
-        "id": "q7",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "q8",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "True",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          }
-        ],
-        "explain": ") True"
-      },
-      {
-        "id": "q9",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          }
-        ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
-      {
-        "id": "q10",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          }
-        ],
-        "explain": ") Build on—not replace—living tradition"
-      },
-      {
-        "id": "q11",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
-        "choices": [
-          {
-            "id": "a",
-            "text": "True",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          }
-        ],
-        "explain": ") True"
-      },
-      {
-        "id": "q12",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
-          }
-        ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Explore Lowender Peran and Yn Chruinnaght recordings alongside Irish festival crossovers"
       }
     ]
   }

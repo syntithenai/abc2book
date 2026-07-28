@@ -1,0 +1,782 @@
+{
+  "regions-africa-ghana-01-overview": {
+    "entities": [
+      {
+        "id": "e-t-mensah",
+        "type": "artist",
+        "name": "E.T. Mensah",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study E.T. Mensah for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/E.T._Mensah",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "ghanaian-traditions",
+        "type": "band",
+        "name": "Ghanaian Traditions",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study Ghanaian Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ghanaian_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-africa-ghana-01-overview-pl1",
+        "entity_id": "e-t-mensah",
+        "label": "E.T. Mensah — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-africa-ghana-01-overview-pl2",
+        "entity_id": "ghanaian-traditions",
+        "label": "Ghanaian Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-africa-ghana-01-overview-pl3",
+        "label": "Ghanaian Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-africa-ghana-01-overview-pl4",
+        "label": "Ghanaian Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Ghanaian Traditions rewards comparative study.",
+      "Focus: Ghanaian Traditions spans kora overlap, voice, percussion leading voices, highlife roots, .",
+      "Listen for regional accent, not generic labels.",
+      "Forms: highlife roots, folk song.",
+      "Dance: social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Ghana",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "West African Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Ghanaian Traditions spans kora overlap, voice, percussion le",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-africa-ghana-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "e-t-mensah",
+        "type": "artist",
+        "name": "E.T. Mensah",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study E.T. Mensah for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/E.T._Mensah",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "ghanaian-traditions",
+        "type": "band",
+        "name": "Ghanaian Traditions",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study Ghanaian Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ghanaian_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-africa-ghana-02-instruments-voices-i-pl1",
+        "entity_id": "e-t-mensah",
+        "label": "E.T. Mensah — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-africa-ghana-02-instruments-voices-i-pl2",
+        "entity_id": "ghanaian-traditions",
+        "label": "Ghanaian Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-africa-ghana-02-instruments-voices-i-pl3",
+        "label": "Ghanaian Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-africa-ghana-02-instruments-voices-i-pl4",
+        "label": "Ghanaian Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Ghanaian Traditions rewards comparative study.",
+      "Focus: kora overlap, voice, percussion.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: highlife roots, folk song.",
+      "Dance: social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Ghana",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "West African Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "kora overlap, voice, percussion",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-africa-ghana-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "e-t-mensah",
+        "type": "artist",
+        "name": "E.T. Mensah",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study E.T. Mensah for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/E.T._Mensah",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "ghanaian-traditions",
+        "type": "band",
+        "name": "Ghanaian Traditions",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study Ghanaian Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ghanaian_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-africa-ghana-03-instruments-voices-ii-pl1",
+        "entity_id": "e-t-mensah",
+        "label": "E.T. Mensah — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-africa-ghana-03-instruments-voices-ii-pl2",
+        "entity_id": "ghanaian-traditions",
+        "label": "Ghanaian Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-africa-ghana-03-instruments-voices-ii-pl3",
+        "label": "Ghanaian Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-africa-ghana-03-instruments-voices-ii-pl4",
+        "label": "Ghanaian Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Ghanaian Traditions rewards comparative study.",
+      "Focus: ensemble.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: highlife roots, folk song.",
+      "Dance: social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Ghana",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "West African Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "ensemble",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-africa-ghana-04-genres-forms": {
+    "entities": [
+      {
+        "id": "e-t-mensah",
+        "type": "artist",
+        "name": "E.T. Mensah",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study E.T. Mensah for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/E.T._Mensah",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "ghanaian-traditions",
+        "type": "band",
+        "name": "Ghanaian Traditions",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study Ghanaian Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ghanaian_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-africa-ghana-04-genres-forms-pl1",
+        "entity_id": "e-t-mensah",
+        "label": "E.T. Mensah — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-africa-ghana-04-genres-forms-pl2",
+        "entity_id": "ghanaian-traditions",
+        "label": "Ghanaian Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-africa-ghana-04-genres-forms-pl3",
+        "label": "Ghanaian Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-africa-ghana-04-genres-forms-pl4",
+        "label": "Ghanaian Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Ghanaian Traditions rewards comparative study.",
+      "Focus: highlife roots, folk song.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: highlife roots, folk song.",
+      "Dance: social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Ghana",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "West African Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "highlife roots, folk song",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-africa-ghana-05-dance": {
+    "entities": [
+      {
+        "id": "e-t-mensah",
+        "type": "artist",
+        "name": "E.T. Mensah",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study E.T. Mensah for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/E.T._Mensah",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "ghanaian-traditions",
+        "type": "band",
+        "name": "Ghanaian Traditions",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study Ghanaian Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ghanaian_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-africa-ghana-05-dance-pl1",
+        "entity_id": "e-t-mensah",
+        "label": "E.T. Mensah — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-africa-ghana-05-dance-pl2",
+        "entity_id": "ghanaian-traditions",
+        "label": "Ghanaian Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-africa-ghana-05-dance-pl3",
+        "label": "Ghanaian Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-africa-ghana-05-dance-pl4",
+        "label": "Ghanaian Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Ghanaian Traditions rewards comparative study.",
+      "Focus: social dance.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: highlife roots, folk song.",
+      "Dance: social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Ghana",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "West African Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "social dance",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-africa-ghana-06-history": {
+    "entities": [
+      {
+        "id": "e-t-mensah",
+        "type": "artist",
+        "name": "E.T. Mensah",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study E.T. Mensah for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/E.T._Mensah",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "ghanaian-traditions",
+        "type": "band",
+        "name": "Ghanaian Traditions",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study Ghanaian Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ghanaian_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-africa-ghana-06-history-pl1",
+        "entity_id": "e-t-mensah",
+        "label": "E.T. Mensah — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-africa-ghana-06-history-pl2",
+        "entity_id": "ghanaian-traditions",
+        "label": "Ghanaian Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-africa-ghana-06-history-pl3",
+        "label": "Ghanaian Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-africa-ghana-06-history-pl4",
+        "label": "Ghanaian Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Ghanaian Traditions rewards comparative study.",
+      "Focus: colonial and post-colonial media.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: highlife roots, folk song.",
+      "Dance: social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Ghana",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "West African Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "colonial and post-colonial media",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-africa-ghana-07-representative-depth": {
+    "entities": [
+      {
+        "id": "e-t-mensah",
+        "type": "artist",
+        "name": "E.T. Mensah",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study E.T. Mensah for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/E.T._Mensah",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "ghanaian-traditions",
+        "type": "band",
+        "name": "Ghanaian Traditions",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study Ghanaian Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ghanaian_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-africa-ghana-07-representative-depth-pl1",
+        "entity_id": "e-t-mensah",
+        "label": "E.T. Mensah — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-africa-ghana-07-representative-depth-pl2",
+        "entity_id": "ghanaian-traditions",
+        "label": "Ghanaian Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-africa-ghana-07-representative-depth-pl3",
+        "label": "Ghanaian Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-africa-ghana-07-representative-depth-pl4",
+        "label": "Ghanaian Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Ghanaian Traditions rewards comparative study.",
+      "Focus: highlife scenes.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: highlife roots, folk song.",
+      "Dance: social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Ghana",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "West African Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "highlife scenes",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-africa-ghana-08-tunes": {
+    "entities": [
+      {
+        "id": "e-t-mensah",
+        "type": "artist",
+        "name": "E.T. Mensah",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study E.T. Mensah for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/E.T._Mensah",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "ghanaian-traditions",
+        "type": "band",
+        "name": "Ghanaian Traditions",
+        "summary": "Representative musician or ensemble in africa-ghana trad",
+        "blurb": "Study Ghanaian Traditions for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Ghanaian_Traditions",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-africa-ghana-08-tunes-pl1",
+        "entity_id": "e-t-mensah",
+        "label": "E.T. Mensah — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-africa-ghana-08-tunes-pl2",
+        "entity_id": "ghanaian-traditions",
+        "label": "Ghanaian Traditions — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-africa-ghana-08-tunes-pl3",
+        "label": "Ghanaian Traditions — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-africa-ghana-08-tunes-pl4",
+        "label": "Ghanaian Traditions — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Ghanaian Traditions rewards comparative study.",
+      "Focus: Highlife listening.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: highlife roots, folk song.",
+      "Dance: social dance.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Ghana",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "West African Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Highlife listening",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Ghana",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "highlife-listening",
+        "type": "tune",
+        "name": "Highlife listening",
+        "form": "highlife roots",
+        "reference": "Music of Ghana repertoire",
+        "about": "Representative ghanaian traditions listening study.",
+        "playlist": [
+          {
+            "label": "Highlife listening — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "ghana-standard-1",
+        "type": "tune",
+        "name": "ghana standard 1",
+        "form": "highlife roots",
+        "reference": "Music of Ghana repertoire",
+        "about": "Representative ghanaian traditions listening study.",
+        "playlist": [
+          {
+            "label": "ghana standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "ghana-standard-2",
+        "type": "tune",
+        "name": "ghana standard 2",
+        "form": "highlife roots",
+        "reference": "Music of Ghana repertoire",
+        "about": "Representative ghanaian traditions listening study.",
+        "playlist": [
+          {
+            "label": "ghana standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

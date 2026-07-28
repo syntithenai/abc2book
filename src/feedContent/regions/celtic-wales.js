@@ -20,66 +20,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- Welsh Traditional Music rewards comparative study with Ireland.\n\n- Focus: Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora..\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- Welsh trad combines dance tunes, harp, penillion, hymnody, and choral culture — not pub session culture alone.\n\n- The eisteddfod is the prestige competitive frame; twmpathau and folk clubs are the social dance hearth.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The National Eisteddfod is best described as:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
+            "text": "A counter-melody sung over a fixed harp tune",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Telyn deires",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "A competitive festival of Welsh poetry, music, and performance",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: A competitive festival of Welsh poetry, music, and performance"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-kp-1-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Penillion singing involves:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Twmpath gatherings with live band and caller",
             "correct": false
           },
           {
             "id": "b",
-            "text": "False",
+            "text": "A counter-melody sung over a fixed harp tune",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Donegal highland repertoire",
+            "text": "A competitive festival of Welsh poetry, music, and performance",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Telyn deires",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: A counter-melody sung over a fixed harp tune"
       }
     ]
   },
@@ -102,66 +102,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- The triple harp (telyn deires) is Wales's signature melody instrument.\n\n- Bilingual Welsh–English repertoire is everyday musical life.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "The Welsh triple harp is called in Welsh:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Telyn deires",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "A counter-melody sung over a fixed harp tune",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Twmpath gatherings with live band and caller",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Chapel and industrial south choral culture",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Telyn deires"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Compared with Irish pub sessions, Welsh social dance often centres on:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Telyn deires",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Chapel and industrial south choral culture",
             "correct": false
           },
           {
             "id": "c",
-            "text": "D, G, A, and E minor",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Twmpath gatherings with live band and caller",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Twmpath gatherings with live band and caller"
       }
     ]
   },
@@ -184,66 +184,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- Dance metre and tune form belong together in study.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- Penillion counter-melody and chapel hymnody distinguish Wales from Irish session emphasis.\n\n- Compared with Ireland: shared Celtic family, distinct institutions and vocal traditions.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Male voice choirs are strongly associated with Welsh:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
             "correct": false
           },
           {
             "id": "c",
-            "text": "True",
+            "text": "Chapel and industrial south choral culture",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Twmpath gatherings with live band and caller",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Chapel and industrial south choral culture"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "Welsh traditional music and generic \"Celtic music\" are identical terms.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
-            "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Celtic is a broader regional umbrella; Welsh trad is one specific tradition."
       }
     ]
   },
@@ -266,66 +256,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. the eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across wales and the diaspora. connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- Welsh traditional music combines dance tunes, harp repertoire, penillion, hymnody, and choral culture — not pub session culture alone.\n\n- The **eisteddfod** is the prestige competitive frame; **twmpathau** and folk clubs are the social dance hearth.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-kp-4-q1",
         "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "prompt": "Hymn tunes like *Cwm Rhondda* connect Welsh folk identity to:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Brendan Breathnach",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Mullingar, 1951",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "The lesson identifies this as: Nonconformist chapel and Cymanfa Ganu singing"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-kp-4-q2",
         "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "prompt": "Bilingual song in Wales means:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Mullingar, 1951",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "9/8 slip-jig time",
             "correct": false
           },
           {
             "id": "d",
-            "text": "True",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Welsh and English repertoires share stages and everyday musical life"
       }
     ]
   },
@@ -348,66 +338,118 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- The **triple harp** is Wales's signature melody instrument; fiddle and accordion share modern stages.\n\n- **Bilingual** Welsh–English repertoire is everyday, not a Gaeltacht exception.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "The triple harp has three rows of strings.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Trac Cymru supports Welsh folk development, education, and touring.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-kp-6",
+    "title": "Wales trad: key ideas (6)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "From **Welsh Traditional Music — Overview** (Wales trad):\n\n- **Penillion** counter-melody singing and **chapel hymnody** distinguish Wales from Irish session emphasis.\n\n- Avoid generic \"Celtic\" compilations; seek regional recordings and named artists.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Penillion is unrelated to harp playing in Welsh tradition.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "penillion is traditionally sung to harp accompaniment."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-kp-6-q2",
+        "type": "mcq",
+        "prompt": "A plygi is:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
             "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Mullingar, 1951",
-            "correct": false
-          }
-        ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-01-overview-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": true
-          },
-          {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "The lesson identifies this as: A Welsh folk dance form related to hornpipe repertoire"
       }
     ]
   },
@@ -430,71 +472,153 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-01-overview",
     "estimateMinutes": 4,
-    "body": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora. within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nWelsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora. within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Walk into a village hall in Ceredigion on a Saturday night and you may hear a fiddle, a triple harp, and an accordion driving dancers through a twmpath — couples circling, clogs striking the floor, callers switching between Welsh and English. Walk into the National Eisteddfod field in August and you may hear the same tune played by a teenage harpist judged on tone, repertoire, and stagecraft before a silent audience. Both scenes are Welsh traditional music. Neither is more authentic than the other — but they answer different social needs, and a musician who understands only pub sessions or only competition stages will miss half the picture. This lesson is your map. Before you study instruments, tune forms, dance, or the long history of chapel hymnody and industrial revival, you need orientation: what people mean by Welsh folk versus generic \"Celtic,\" where the music lives, how bilingual song shapes repertoire, how penillion and hymnody sit alongside dance tunes, and which institutions — especially the eisteddfod — keep the tradition moving. Think of it as arriving in a new country…\n\nWalk into a village hall in Ceredigion on a Saturday night and you may hear a fiddle, a triple harp, and an accordion driving dancers through a twmpath — couples circling, clogs striking the floor, callers switching between Welsh and English. Walk into the National Eisteddfod field in August and you may hear the same tune played by a teenage harpist judged on tone, repertoire, and stagecraft before a silent audience. Both scenes are Welsh traditional music. Neither is more authentic than the other — but they answer different social needs, and a musician who understands only pub sessions or only competition stages will miss half the picture. This lesson is your map. Before you study instruments, tune forms, dance,…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "The National Eisteddfod is best described as:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "A counter-melody sung over a fixed harp tune",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Telyn deires",
             "correct": false
           },
           {
             "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
+            "text": "A competitive festival of Welsh poetry, music, and performance",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "True",
-            "correct": true
+            "text": "Single-headed Irish frame drum",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: A competitive festival of Welsh poetry, music, and performance"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-01-overview-sec-1-overview-q2",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Penillion singing involves:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "Twmpath gatherings with live band and caller",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "A counter-melody sung over a fixed harp tune",
             "correct": true
           },
           {
+            "id": "c",
+            "text": "A competitive festival of Welsh poetry, music, and performance",
+            "correct": false
+          },
+          {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Telyn deires",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: A counter-melody sung over a fixed harp tune"
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-2-compared-with-ireland",
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-2-trad-versus-celtic-labels-that-help-and-mislead",
+    "title": "Wales trad: \"Trad\" versus \"Celtic\": labels that help and mislead",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "Welsh traditional music (cerddoriaeth draddodiadol Gymreig) usually means orally transmitted dance music and song in Welsh and English, played on acoustic instruments associated with the country: fiddle, triple harp (telyn deires), accordion, pibgorn, guitar, and voice in many combinations. Players learn tunes by ear, share sets at twmpathau and folk clubs, and ornament melodies with cuts, rolls, and harp techniques distinct from Irish or Scottish norms. Written scores, tune books, and broadcast archives exist — collections by Nicholas Bennett, J. Lloyd Williams, and modern publishers like Sain — but they supplement listening and copying living players; they do not replace them. Celtic music is a broader umbrella. Wikipedia describes it as a grouping of folk genres that evolved from the traditions of Celtic peoples across Northwestern Europe — Ireland, Scotland, Wales, Brittany, Galicia, and related diasporas. Welsh trad is one branch of that family, often less marketed abroad than Irish session culture, but it is not interchangeable with \"Celtic.\" A Breton gavotte, a Galician muiñeira, and a Welsh plygi share historical cousins; they do not share identical rhythm, ornament, or…\n\nWelsh traditional music (cerddoriaeth draddodiadol Gymreig) usually means orally transmitted dance music and song in Welsh and English, played on acoustic instruments associated with the country: fiddle, triple harp (telyn deires), accordion, pibgorn, guitar, and voice in many combinations. Players learn tunes by ear, share sets at twmpathau and folk clubs, and ornament melodies with cuts, rolls, and harp techniques distinct from Irish or Scottish norms. Written scores, tune books, and broadcast archives exist — collections by Nicholas Bennett, J. Lloyd Williams, and modern publishers like Sain — but they supplement listening and copying living players; they do not replace them. Celtic music is a broader umbrella. Wikipedia describes it as a grouping of folk genres that evolved from the…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-2-trad-versus-celtic-labels-that-help-and-mislead-q1",
+        "type": "mcq",
+        "prompt": "The Welsh triple harp is called in Welsh:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Telyn deires",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "A counter-melody sung over a fixed harp tune",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Twmpath gatherings with live band and caller",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Chapel and industrial south choral culture",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Telyn deires"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-2-trad-versus-celtic-labels-that-help-and-mislead-q2",
+        "type": "mcq",
+        "prompt": "Compared with Irish pub sessions, Welsh social dance often centres on:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Telyn deires",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Chapel and industrial south choral culture",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Twmpath gatherings with live band and caller",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Twmpath gatherings with live band and caller"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-3-compared-with-ireland",
     "title": "Wales trad: Compared with Ireland",
     "track": "celtic",
     "region": "wales",
@@ -512,72 +636,62 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-01-overview",
     "estimateMinutes": 4,
-    "body": "Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-01-overview` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-01-overview` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Irish traditional music foregrounds the pub session (seisiún): informal gatherings where fiddles, flutes, and accordions chain reels and jigs by ear with unwritten etiquette. Welsh tradition shares oral learning and dance-linked repertoire, but its institutional spine differs sharply.\n\n| Feature | Ireland (see `regions-celtic-ireland-01-overview`) | Wales (this unit) |\n|---------|---------------------------------------------------|-------------------|\n| Primary social stage | Pub session, fleadh competition | Eisteddfod, folk club, twmpath |\n| Signature instruments | Fiddle, flute, uilleann pipes, bodhrán | Triple harp, fiddle, accordion |\n| Song emphasis | Sean-nós, English ballads | Penillion, hymnody, male voice choirs |\n| Language context | Gaeltacht Irish pockets | Bilingual Welsh–English everyday life |\n| Competitive frame | Fleadh Cheoil / Comhaltas | National & local eisteddfodau |\n\nParallel Ireland lesson: `regions-celtic-ireland-01-overview` — revisit when comparison feels abstract. Note similarities (oral transmission, diaspora, revival media) and differences named above. Irish session culture is an excellent reference point, but Welsh music is not \"Irish trad with a dragon\" — chapel harmony, penillion counter-melody, and eisteddfod adjudication shape sound and values differently.\n\nIrish traditional music foregrounds the pub session (seisiún): informal gatherings where fiddles, flutes, and accordions chain reels and jigs by ear with unwritten etiquette. Welsh tradition shares oral learning and dance-linked repertoire, but its institutional spine differs sharply. | Feature | Ireland (see `regions-celtic-ireland-01-overview`) | Wales (this unit) | |---------|---------------------------------------------------|-------------------| | Primary social stage | Pub session, fleadh competition | Eisteddfod, folk club, twmpath | | Signature instruments | Fiddle, flute, uilleann pipes, bodhrán | Triple harp, fiddle, accordion | | Song emphasis | Sean-nós, English ballads | Penillion, hymnody, male voice choirs | | Language context | Gaeltacht Irish pockets | Bilingual Welsh–English everyday life | | Competitive frame | Fleadh Cheoil / Comhaltas | National & local eisteddfodau…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-2-compared-with-ireland-q1",
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-3-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Male voice choirs are strongly associated with Welsh:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "Chapel and industrial south choral culture",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "Twmpath gatherings with live band and caller",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Chapel and industrial south choral culture"
       },
       {
-        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-3-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Welsh traditional music and generic \"Celtic music\" are identical terms.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
             "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Celtic is a broader regional umbrella; Welsh trad is one specific tradition."
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-3-core-material",
-    "title": "Wales trad: Core material",
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-4-the-eisteddfod-competition-as-cultural-spine",
+    "title": "Wales trad: The eisteddfod: competition as cultural spine",
     "track": "celtic",
     "region": "wales",
     "kind": "theory_lesson",
@@ -594,71 +708,821 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-01-overview",
     "estimateMinutes": 4,
-    "body": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. the eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across wales and the diaspora. in wales trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic \"Celtic\" compilations when possible.\n\nWelsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. the eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across wales and the diaspora. in wales trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic \"Celtic\" compilations when possible.",
+    "body": "The eisteddfod (eisteddfodau in plural) is a competitive festival of Welsh poetry, music, and performance with roots stretching to at least the 12th century. The modern National Eisteddfod (Eisteddfod Genedlaethol Cymru) moves between north and south Wales annually, drawing tens of thousands to competitions in harp, folk song, choral singing, and literary forms. National Eisteddfod of Wales is not merely a music contest — it is a national ritual where the Gorsedd of Bards crowns poets, Welsh language prestige is performed on stage, and young musicians measure themselves against adjudicators' standards. Local eisteddfodau in villages and schools feed the national pyramid. A harpist who wins at county level may advance to the National; a folk singer who excels in canu gwerin (folk song) categories carries repertoire learned from family and tutors into broadcast and recording careers. The tension between competition clarity and twmpath swing runs through modern Welsh folk — the same tune may sound precise on an eisteddfod stage and loose in a folk club. Memorable detail: The eisteddfod's chairing of the bard (cadeirio'r bardd) — awarding an ornate…\n\nThe eisteddfod (eisteddfodau in plural) is a competitive festival of Welsh poetry, music, and performance with roots stretching to at least the 12th century. The modern National Eisteddfod (Eisteddfod Genedlaethol Cymru) moves between north and south Wales annually, drawing tens of thousands to competitions in harp, folk song, choral singing, and literary forms. National Eisteddfod of Wales is not merely a music contest — it is a national ritual where the Gorsedd of Bards crowns poets, Welsh language prestige is performed on stage, and young musicians measure themselves against adjudicators' standards. Local eisteddfodau in villages and schools feed the national pyramid. A harpist who wins at county level may advance to the National; a folk singer who excels in canu…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-3-core-material-q1",
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-4-the-eisteddfod-competition-as-cultural-spine-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Hymn tunes like *Cwm Rhondda* connect Welsh folk identity to:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Nonconformist chapel and Cymanfa Ganu singing"
       },
       {
-        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-3-core-material-q2",
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-4-the-eisteddfod-competition-as-cultural-spine-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Bilingual song in Wales means:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "c",
-            "text": "D, G, A, and E minor",
+            "text": "9/8 slip-jig time",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Welsh and English repertoires share stages and everyday musical life"
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-5-key-points",
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-5-hymnody-and-the-chapel-tradition",
+    "title": "Wales trad: Hymnody and the chapel tradition",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "Nonconformist chapel (capel) culture shaped Welsh musical life from the eighteenth century through the twentieth. Hymn tunes (tune metrig / alawon emyn) — many composed by Welsh musicians — entered oral tradition alongside folk dance melodies. Cymanfa Ganu (singing festivals) gather hundreds of voices to sing hymns in harmony; male voice choirs (côr meibion) became an export symbol of Welsh identity from the industrial south to diaspora halls in Pennsylvania and Australia.\n\nWelsh male voice choir tradition overlaps with folk: the same communities that sang Guide Me, O Thou Great Redeemer (Cwm Rhondda) at chapel also danced twmpath tunes on Saturday night. Hymnody trained ears in harmony, phrase breathing, and communal rhythm — skills penillion singers and festival choirs still draw on. Lesson 6 traces how industrial south Wales concentrated this choral wealth; here, note that hymn tune is a Welsh genre category as important as hornpipe or waltz.\n\nNonconformist chapel (capel) culture shaped Welsh musical life from the eighteenth century through the twentieth. Hymn tunes (tune metrig / alawon emyn) — many composed by Welsh musicians — entered oral tradition alongside folk dance melodies. Cymanfa Ganu (singing festivals) gather hundreds of voices to sing hymns in harmony; male voice choirs (côr meibion) became an export symbol of Welsh identity from the industrial south to diaspora halls in Pennsylvania and Australia. Welsh male voice choir tradition overlaps with folk: the same communities that sang Guide Me, O Thou Great Redeemer (Cwm Rhondda) at chapel also danced twmpath tunes on Saturday night. Hymnody trained ears in harmony, phrase breathing, and communal rhythm — skills penillion singers and festival choirs still…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-5-hymnody-and-the-chapel-tradition-q1",
+        "type": "truefalse",
+        "prompt": "The triple harp has three rows of strings.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-5-hymnody-and-the-chapel-tradition-q2",
+        "type": "truefalse",
+        "prompt": "Trac Cymru supports Welsh folk development, education, and touring.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-6-penillion-and-bardic-song",
+    "title": "Wales trad: Penillion and bardic song",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "Penillion (penillion singing) is the art of improvising or composing a counter-melody over a fixed harp tune — the singer answers the harp's melody with verse, often witty or topical, in strict rhythmic fit. It is one of Wales's most distinctive vocal traditions and a direct cousin to Irish lilting and mouth music, but with formal eisteddfod categories and harp partnership at its core.\n\nPenillion survives in competition, revival recordings, and teaching by harpists who train singers to match bar lines without drowning the tune. Penillion connects medieval bardic praise poetry to contemporary folk clubs where a harpist plays Cader Idris and a singer weaves new verses in Welsh.\n\nPenillion (penillion singing) is the art of improvising or composing a counter-melody over a fixed harp tune — the singer answers the harp's melody with verse, often witty or topical, in strict rhythmic fit. It is one of Wales's most distinctive vocal traditions and a direct cousin to Irish lilting and mouth music, but with formal eisteddfod categories and harp partnership at its core.\n\nPenillion survives in competition, revival recordings, and teaching by harpists who train singers to match bar lines without drowning the tune. Penillion connects medieval bardic praise poetry to contemporary folk clubs where a harpist plays Cader Idris and a singer weaves new verses in Welsh.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-6-penillion-and-bardic-song-q1",
+        "type": "truefalse",
+        "prompt": "Penillion is unrelated to harp playing in Welsh tradition.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "penillion is traditionally sung to harp accompaniment."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-6-penillion-and-bardic-song-q2",
+        "type": "mcq",
+        "prompt": "A plygi is:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A Welsh folk dance form related to hornpipe repertoire"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-7-bilingual-song-versus-irish-session-culture",
+    "title": "Wales trad: Bilingual song versus Irish session culture",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "Wales is bilingually lived in a way that differs from Ireland's Gaeltacht model. Welsh and English songs share stages, folk club programmes, and family repertoires. A twmpath caller may announce figures in both languages; a folk-rock band like Bob Delyn a'r Ebillion records Welsh and Breton tracks on the same album. Irish session culture often centres Irish-language song in dedicated pockets (sean-nós) and English ballads in pub singalongs — overlapping but geographically marked.\n\nWelsh bilingual song means:\n\n- Dance tunes with Welsh titles (Dafydd y Garreg Wen, Cader Idris) played in English-speaking rooms without translation loss — the tune carries the identity.\n- English-language folk songs from industrial valleys sitting beside Welsh hymn translations.\n- Revival artists choosing language for artistic and political reasons, not only for audience geography.\n\nListeners should not treat Welsh as \"optional garnish.\" Language choice is repertoire choice. Seek recordings tagged by region (Gwynedd, Ceredigion, south Wales valleys) and by medium (Welsh-language broadcast on BBC Radio Cymru, folk club sets in Cardiff or Wrexham).\n\nWales is bilingually lived in a way that differs from Ireland's Gaeltacht model. Welsh and English songs share stages, folk club programmes, and family repertoires. A twmpath caller may announce figures in both languages; a folk-rock band like Bob Delyn a'r Ebillion records Welsh and Breton tracks on the same album. Irish session culture often centres Irish-language song in dedicated pockets (sean-nós) and English ballads in pub singalongs — overlapping but geographically marked. Welsh bilingual song means: - Dance tunes with Welsh titles (Dafydd y Garreg Wen, Cader Idris) played in English-speaking rooms without translation loss — the tune carries the identity. - English-language folk songs from industrial valleys sitting beside Welsh hymn translations. - Revival artists choosing language for…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-7-bilingual-song-versus-irish-session-culture-q1",
+        "type": "mcq",
+        "prompt": "The National Eisteddfod is best described as:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A counter-melody sung over a fixed harp tune",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Telyn deires",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A competitive festival of Welsh poetry, music, and performance",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A competitive festival of Welsh poetry, music, and performance"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-7-bilingual-song-versus-irish-session-culture-q2",
+        "type": "mcq",
+        "prompt": "Penillion singing involves:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Twmpath gatherings with live band and caller",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A counter-melody sung over a fixed harp tune",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "A competitive festival of Welsh poetry, music, and performance",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Telyn deires",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A counter-melody sung over a fixed harp tune"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-8-the-triple-harp-national-symbol",
+    "title": "Wales trad: The triple harp: national symbol",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "The Welsh triple harp (telyn deires) has three rows of strings — two diatonic outer rows and a chromatic inner row — allowing complex harmonies and the left-hand patterns that underpin penillion. Welsh triple harp was recognised in popular imagination as Wales's national instrument; eisteddfod harp competitions historically centred on it before pedal harp categories expanded.\n\nTriple harp technique differs from Irish cláirseach or concert pedal harp: players pluck with fingernails, damp selectively, and voice chords in a folk idiom. Revival makers and teachers — Nansi Richards, Llio Rhydderch, and contemporary harpists — keep the instrument out of museum silence. Lesson 2 examines technique and repertoire; here, recognise the harp as default melody voice in many Welsh rooms where Ireland would default to fiddle.\n\nThe Welsh triple harp (telyn deires) has three rows of strings — two diatonic outer rows and a chromatic inner row — allowing complex harmonies and the left-hand patterns that underpin penillion. Welsh triple harp was recognised in popular imagination as Wales's national instrument; eisteddfod harp competitions historically centred on it before pedal harp categories expanded. Triple harp technique differs from Irish cláirseach or concert pedal harp: players pluck with fingernails, damp selectively, and voice chords in a folk idiom. Revival makers and teachers — Nansi Richards, Llio Rhydderch, and contemporary harpists — keep the instrument out of museum silence. Lesson 2 examines technique and repertoire; here, recognise the harp as default melody voice in many Welsh rooms where Ireland…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-8-the-triple-harp-national-symbol-q1",
+        "type": "mcq",
+        "prompt": "The Welsh triple harp is called in Welsh:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Telyn deires",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "A counter-melody sung over a fixed harp tune",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Twmpath gatherings with live band and caller",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Chapel and industrial south choral culture",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Telyn deires"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-8-the-triple-harp-national-symbol-q2",
+        "type": "mcq",
+        "prompt": "Compared with Irish pub sessions, Welsh social dance often centres on:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Telyn deires",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Chapel and industrial south choral culture",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Twmpath gatherings with live band and caller",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Twmpath gatherings with live band and caller"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-9-twmpath-and-social-dance-preview",
+    "title": "Wales trad: Twmpath and social dance (preview)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "A twmpath is a Welsh folk dance party — live band, caller, circle and couple dances, often in a hall or pub back room. Unlike the Irish pub session (sit, listen, join tunes by ear), twmpath culture is dance-first: musicians serve feet. Clog (clocsio) stepping — percussive footwork in leather-soled shoes — adds rhythmic drive. Lesson 5 goes deep; here, note that social dance is the hearth of tune transmission alongside eisteddfod teaching.\n\nA twmpath is a Welsh folk dance party — live band, caller, circle and couple dances, often in a hall or pub back room. Unlike the Irish pub session (sit, listen, join tunes by ear), twmpath culture is dance-first: musicians serve feet. Clog (clocsio) stepping — percussive footwork in leather-soled shoes — adds rhythmic drive. Lesson 5 goes deep; here, note that social dance is the hearth of tune transmission alongside eisteddfod teaching.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-9-twmpath-and-social-dance-preview-q1",
+        "type": "mcq",
+        "prompt": "Male voice choirs are strongly associated with Welsh:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Chapel and industrial south choral culture",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Twmpath gatherings with live band and caller",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Chapel and industrial south choral culture"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-9-twmpath-and-social-dance-preview-q2",
+        "type": "truefalse",
+        "prompt": "Welsh traditional music and generic \"Celtic music\" are identical terms.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Celtic is a broader regional umbrella; Welsh trad is one specific tradition."
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-10-tune-types-a-field-guide",
+    "title": "Wales trad: Tune types: a field guide",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "Welsh dance music organises around forms that overlap Irish and English neighbours but carry local names and feel.\n\n| Type | Metre | Feel | Memorable detail |\n|------|-------|------|------------------|\n| Plygi | Often 4/4 | Swinging folk dance | Welsh \"fold\" dance; hornpipe cousin |\n| Hornpipe | 4/4 | Dotted, bouncy | Shared British Isles repertoire; sailor associations |\n| Waltz | 3/4 | Round dance | Twmpath favourite; hymn tunes sometimes waltz-time |\n| Reel / jig family | 4/4, 6/8 | Session overlap | Irish imports common; local settings differ |\n| Hymn tune | Variable | Communal, harmonic | Chapel DNA; Cwm Rhondda scale |\n| Slow air | Free/slow | Lyrical | Harp and vocal; Ar Lan y Môr tradition |\n\nMisidentifying a hornpipe for a plygi matters less than in Irish reel-versus-jig confusion — but foot-tap wrong and dancers notice immediately.\n\nWelsh dance music organises around forms that overlap Irish and English neighbours but carry local names and feel. | Type | Metre | Feel | Memorable detail | |------|-------|------|------------------| | Plygi | Often 4/4 | Swinging folk dance | Welsh \"fold\" dance; hornpipe cousin | | Hornpipe | 4/4 | Dotted, bouncy | Shared British Isles repertoire; sailor associations | | Waltz | 3/4 | Round dance | Twmpath favourite; hymn tunes sometimes waltz-time | | Reel / jig family | 4/4, 6/8 | Session overlap | Irish imports common; local settings differ | | Hymn tune | Variable | Communal, harmonic | Chapel DNA; Cwm Rhondda scale | | Slow air | Free/slow | Lyrical | Harp and vocal;…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-10-tune-types-a-field-guide-q1",
+        "type": "mcq",
+        "prompt": "Hymn tunes like *Cwm Rhondda* connect Welsh folk identity to:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Nonconformist chapel and Cymanfa Ganu singing"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-10-tune-types-a-field-guide-q2",
+        "type": "mcq",
+        "prompt": "Bilingual song in Wales means:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Welsh and English repertoires share stages and everyday musical life"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-11-institutions-that-shape-the-tradition",
+    "title": "Wales trad: Institutions that shape the tradition",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "You will meet these names repeatedly:\n\nTrac Cymru (folk development organisation) supports tours, education, and archives. BBC Radio Cymru and BBC Radio Wales broadcast folk programmes that once reached only local clubs. Sain and Fflach record labels document revival and rock-crossover acts. The Welsh Folk Song Society (Cymdeithas Alawon Gwerin Cymru) publishes and researches tunes. Local folk clubs — from Cardiff to Caernarfon — host twmpath nights and guest artists.\n\nNational Eisteddfod of Wales remains the prestige frame: winning a folk harp or song category opens doors to festival slots and teaching posts. Diaspora St David's Day concerts and Urdd (Welsh League of Youth) eisteddfodau extend the model to children.\n\nYou will meet these names repeatedly:\n\nTrac Cymru (folk development organisation) supports tours, education, and archives. BBC Radio Cymru and BBC Radio Wales broadcast folk programmes that once reached only local clubs. Sain and Fflach record labels document revival and rock-crossover acts. The Welsh Folk Song Society (Cymdeithas Alawon Gwerin Cymru) publishes and researches tunes. Local folk clubs — from Cardiff to Caernarfon — host twmpath nights and guest artists.\n\nNational Eisteddfod of Wales remains the prestige frame: winning a folk harp or song category opens doors to festival slots and teaching posts. Diaspora St David's Day concerts and Urdd (Welsh League of Youth) eisteddfodau extend the model to children.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-11-institutions-that-shape-the-tradition-q1",
+        "type": "truefalse",
+        "prompt": "The triple harp has three rows of strings.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-11-institutions-that-shape-the-tradition-q2",
+        "type": "truefalse",
+        "prompt": "Trac Cymru supports Welsh folk development, education, and touring.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-12-regional-accents-four-areas-to-know",
+    "title": "Wales trad: Regional accents: four areas to know",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "Welsh trad is not one uniform style.\n\nNorth Wales — strong triple harp history, penillion heritage, eisteddfod harp winners from Gwynedd and Anglesey. Fiddle and pibgorn revival projects draw on rural archives.\n\nMid Wales — Montgomeryshire and Ceredigion folk clubs; twmpath circuits linking villages. Harp and fiddle duets common.\n\nSouth Wales valleys — industrial migration, male voice choirs, hymnody, and 1970s folk revival bands. English and Welsh song mix freely.\n\nUrban centres — Cardiff, Swansea, Wrexham host bilingual scenes, universities folk societies, and festival crossovers with rock and world music.\n\nListening exercise: Compare two recordings of Cader Idris — one eisteddfod harp, one folk-club fiddle-led. Same tune, different accent.\n\nWelsh trad is not one uniform style.\n\nNorth Wales — strong triple harp history, penillion heritage, eisteddfod harp winners from Gwynedd and Anglesey. Fiddle and pibgorn revival projects draw on rural archives.\n\nMid Wales — Montgomeryshire and Ceredigion folk clubs; twmpath circuits linking villages. Harp and fiddle duets common.\n\nSouth Wales valleys — industrial migration, male voice choirs, hymnody, and 1970s folk revival bands. English and Welsh song mix freely.\n\nUrban centres — Cardiff, Swansea, Wrexham host bilingual scenes, universities folk societies, and festival crossovers with rock and world music.\n\nListening exercise: Compare two recordings of Cader Idris — one eisteddfod harp, one folk-club fiddle-led. Same tune, different accent.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-12-regional-accents-four-areas-to-know-q1",
+        "type": "truefalse",
+        "prompt": "Penillion is unrelated to harp playing in Welsh tradition.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "penillion is traditionally sung to harp accompaniment."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-12-regional-accents-four-areas-to-know-q2",
+        "type": "mcq",
+        "prompt": "A plygi is:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A Welsh folk dance form related to hornpipe repertoire"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-13-how-this-unit-is-organised",
+    "title": "Wales trad: How this unit is organised",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "| Lesson | ID | Focus |\n|--------|-----|--------|\n| 1 — Overview | `regions-celtic-wales-01-overview` | Map, eisteddfod, hymnody, bilingual song |\n| 2 — Traditional voices I | `regions-celtic-wales-02-instruments-voices-i` | Fiddle, triple harp, pibgorn, crwth |\n| 3 — Session voices II | `regions-celtic-wales-03-instruments-voices-ii` | Guitar, accordion, ensemble |\n| 4 — Genres & forms | `regions-celtic-wales-04-genres-forms` | Plygi, hornpipe, penillion, hymn tunes |\n| 5 — Dance | `regions-celtic-wales-05-dance` | Twmpath, clog, hwyl |\n| 6 — History | `regions-celtic-wales-06-history` | Chapel, industrial south, 1970s revival |\n| 7 — Representative depth | `regions-celtic-wales-07-representative-depth` | Bob Delyn, festivals, choral crossover |\n| 8 — Tunes | `regions-celtic-wales-08-tunes` | Ar Lan y Môr, Cader Idris, recordings |\n\nWork through in order if you are new. If you already play in folk clubs, skim this overview, then dive into instruments and history where your gaps are.\n\n| Lesson | ID | Focus | |--------|-----|--------| | 1 — Overview | `regions-celtic-wales-01-overview` | Map, eisteddfod, hymnody, bilingual song | | 2 — Traditional voices I | `regions-celtic-wales-02-instruments-voices-i` | Fiddle, triple harp, pibgorn, crwth | | 3 — Session voices II | `regions-celtic-wales-03-instruments-voices-ii` | Guitar, accordion, ensemble | | 4 — Genres & forms | `regions-celtic-wales-04-genres-forms` | Plygi, hornpipe, penillion, hymn tunes | | 5 — Dance | `regions-celtic-wales-05-dance` | Twmpath, clog, hwyl | | 6 — History | `regions-celtic-wales-06-history` | Chapel, industrial south, 1970s revival | | 7 — Representative depth | `regions-celtic-wales-07-representative-depth` | Bob Delyn, festivals, choral crossover | | 8 — Tunes | `regions-celtic-wales-08-tunes` | Ar Lan y Môr, Cader Idris, recordings | Work through in…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-13-how-this-unit-is-organised-q1",
+        "type": "mcq",
+        "prompt": "The National Eisteddfod is best described as:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A counter-melody sung over a fixed harp tune",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Telyn deires",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A competitive festival of Welsh poetry, music, and performance",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A competitive festival of Welsh poetry, music, and performance"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-13-how-this-unit-is-organised-q2",
+        "type": "mcq",
+        "prompt": "Penillion singing involves:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Twmpath gatherings with live band and caller",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A counter-melody sung over a fixed harp tune",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "A competitive festival of Welsh poetry, music, and performance",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Telyn deires",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A counter-melody sung over a fixed harp tune"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-14-starting-points-for-learners",
+    "title": "Wales trad: Starting points for learners",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "wales",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-01-overview",
+    "estimateMinutes": 4,
+    "body": "Begin with listening tagged by form (plygi, hornpipe, hymn) and region. Attend a twmpath or folk club as audience before you play. Learn one tune thoroughly — both parts, at dance tempo — rather than half-learning twenty. Find a harp or fiddle teacher if possible; Welsh ornament rewards correction early.\n\nKeep a listening notebook: tune names, keys, Welsh titles, one detail you liked. Six months of notes beats six hours of random scrolling.\n\nBegin with listening tagged by form (plygi, hornpipe, hymn) and region. Attend a twmpath or folk club as audience before you play. Learn one tune thoroughly — both parts, at dance tempo — rather than half-learning twenty. Find a harp or fiddle teacher if possible; Welsh ornament rewards correction early.\n\nKeep a listening notebook: tune names, keys, Welsh titles, one detail you liked. Six months of notes beats six hours of random scrolling.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-14-starting-points-for-learners-q1",
+        "type": "mcq",
+        "prompt": "The Welsh triple harp is called in Welsh:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Telyn deires",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "A counter-melody sung over a fixed harp tune",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Twmpath gatherings with live band and caller",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Chapel and industrial south choral culture",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Telyn deires"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-14-starting-points-for-learners-q2",
+        "type": "mcq",
+        "prompt": "Compared with Irish pub sessions, Welsh social dance often centres on:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Telyn deires",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Chapel and industrial south choral culture",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Twmpath gatherings with live band and caller",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Twmpath gatherings with live band and caller"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-01-overview-sec-15-key-points",
     "title": "Wales trad: Key points",
     "track": "celtic",
     "region": "wales",
@@ -676,66 +1540,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-01-overview",
     "estimateMinutes": 4,
-    "body": "- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. the eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across wales and the diaspora. connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. the eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across wales and the diaspora. connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Welsh traditional music combines dance tunes, harp repertoire, penillion, hymnody, and choral culture — not pub session culture alone.\n- The eisteddfod is the prestige competitive frame; twmpathau and folk clubs are the social dance hearth.\n- The triple harp is Wales's signature melody instrument; fiddle and accordion share modern stages.\n- Bilingual Welsh–English repertoire is everyday, not a Gaeltacht exception.\n- Penillion counter-melody singing and chapel hymnody distinguish Wales from Irish session emphasis.\n- Compared with Ireland: shared Celtic family, distinct institutions and vocal traditions.\n- Avoid generic \"Celtic\" compilations; seek regional recordings and named artists.\n\n- Welsh traditional music combines dance tunes, harp repertoire, penillion, hymnody, and choral culture — not pub session culture alone.\n- The eisteddfod is the prestige competitive frame; twmpathau and folk clubs are the social dance hearth.\n- The triple harp is Wales's signature melody instrument; fiddle and accordion share modern stages.\n- Bilingual Welsh–English repertoire is everyday, not a Gaeltacht exception.\n- Penillion counter-melody singing and chapel hymnody distinguish Wales from Irish session emphasis.\n- Compared with Ireland: shared Celtic family, distinct institutions and vocal traditions.\n- Avoid generic \"Celtic\" compilations; seek regional recordings and named artists.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-5-key-points-q1",
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-15-key-points-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Male voice choirs are strongly associated with Welsh:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "Nonconformist chapel and Cymanfa Ganu singing",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
+            "text": "Welsh and English repertoires share stages and everyday musical life",
             "correct": false
           },
           {
             "id": "c",
-            "text": "True",
+            "text": "Chapel and industrial south choral culture",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Twmpath gatherings with live band and caller",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Chapel and industrial south choral culture"
       },
       {
-        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "id": "celtic-wales-regions-celtic-wales-01-overview-sec-15-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Welsh traditional music and generic \"Celtic music\" are identical terms.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
-            "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Celtic is a broader regional umbrella; Welsh trad is one specific tradition."
       }
     ]
   },
@@ -757,66 +1611,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Traditional Voices I** (Wales trad):\n\n- Welsh Traditional Music rewards comparative study with Ireland.\n\n- Focus: fiddle, triple harp, pibgorn, and crwth in historical context.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Instruments — Traditional Voices I** (Wales trad):\n\n- Triple harp is Wales's primary traditional melody instrument and penillion partner.\n\n- Fiddle drives twmpath and folk-club dance sets.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The Welsh triple harp is known in Welsh as:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "Telyn deires",
             "correct": true
           },
           {
             "id": "d",
-            "text": "D, G, A, and E minor",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Telyn deires"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-1-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Penillion singing traditionally partners which instrument?",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "False",
+            "text": "Triple harp",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Francis O'Neill",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Brendan Breathnach",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Triple harp"
       }
     ]
   },
@@ -838,66 +1692,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Traditional Voices I** (Wales trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Instruments — Traditional Voices I** (Wales trad):\n\n- Pibgorn and crwth are ancient voices revived through scholarship.\n\n- Nansi Richards embodied twentieth-century harp national identity.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "The pibgorn is a:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Single-reed wooden pipe of ancient Wales",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mullingar, 1951",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Francis O'Neill",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Single-reed wooden pipe of ancient Wales"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "The crwth is:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Francis O'Neill",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Regions where Irish remains a community language",
+            "text": "Brendan Breathnach",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "A bowed lyre with historical roots in Wales",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: A bowed lyre with historical roots in Wales"
       }
     ]
   },
@@ -919,66 +1773,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Traditional Voices I** (Wales trad):\n\n- Dance metre and tune form belong together in study.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Instruments — Traditional Voices I** (Wales trad):\n\n- Eisteddfod shapes harp standards; twmpath shapes fiddle dance rhythm.\n\n- Compared with Ireland: harp over uilleann pipes; shared fiddle ornament vocabulary.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Nansi Richards was known as:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
+            "text": "Brendan Breathnach",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Mullingar, 1951",
             "correct": false
           },
           {
             "id": "c",
+            "text": "\"The Queen of the Harp\"",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: \"The Queen of the Harp\""
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Welsh fiddle typically uses standard violin tuning G-D-A-E.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 4,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1000,66 +1844,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Traditional Voices I** (Wales trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Fiddle, triple harp, pibgorn, and crwth in historical context connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Instruments — Traditional Voices I** (Wales trad):\n\n- **Triple harp** is Wales's primary traditional melody instrument and penillion partner.\n\n- **Fiddle** drives twmpath and folk-club dance sets with repertoire overlapping British Isles neighbours.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Triple harp players pluck primarily with fingernails.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Wales foregrounds triple harp over uilleann pipes in traditional settings.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1081,66 +1905,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Traditional Voices I** (Wales trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Instruments — Traditional Voices I** (Wales trad):\n\n- **Pibgorn** and **crwth** are ancient voices revived through scholarship and performance.\n\n- Eisteddfod competition shapes harp and fiddle standards; twmpath culture shapes dance rhythm.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "The crwth is the most common instrument at modern weekly twmpathau.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
-            "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "fiddle, accordion, and harp dominate contemporary social dance bands."
       },
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Bragod is associated with revival of early Welsh instruments including pibgorn and crwth.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-6",
+    "title": "Wales trad: key ideas (6)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "From **Welsh Instruments — Traditional Voices I** (Wales trad):\n\n- Compared with Ireland: harp over pipes; shared fiddle ornament vocabulary, different social stages.\n\n- Instrument roles overlap — harp harmonises, fiddle drives, revival winds educate.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Triple harp has only one row of strings.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "it has three rows of strings."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "In twmpath bands, fiddle often helps drive dance tempo alongside accordion.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1162,66 +2027,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on fiddle, triple harp, pibgorn, and crwth in historical context within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nWelsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on fiddle, triple harp, pibgorn, and crwth in historical context within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "This lesson examines four instruments at the heart of Welsh traditional music: the fiddle, triple harp (telyn deires), pibgorn, and crwth. Guidebooks often group them as \"melody instruments,\" but session and eisteddfod culture rewards listening over labelling: a harpist voices chords while a singer performs penillion; a fiddler drives a twmpath set; a pibgorn revivalist may play solo in a small hall where an accordion would dominate.\n\nThe four voices share diatonic tune types, ornament learned by ear, and repertoire tied to dance and song. They differ in breath versus pluck, in competition stage versus folk club, and in revival status — the triple harp never left living hands, while crwth and pibgorn required twentieth-century reconstruction. Read alongside Session Voices II, which covers guitar, accordion, and contemporary ensemble voices.\n\nThis lesson examines four instruments at the heart of Welsh traditional music: the fiddle, triple harp (telyn deires), pibgorn, and crwth. Guidebooks often group them as \"melody instruments,\" but session and eisteddfod culture rewards listening over labelling: a harpist voices chords while a singer performs penillion; a fiddler drives a twmpath set; a pibgorn revivalist may play solo in a small hall where an accordion would dominate. The four voices share diatonic tune types, ornament learned by ear, and repertoire tied to dance and song. They differ in breath versus pluck, in competition stage versus folk club, and in revival status — the triple harp never left living hands, while crwth and pibgorn required twentieth-century reconstruction. Read alongside Session Voices…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "The Welsh triple harp is known in Welsh as:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Tips and heels striking the floor",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
+            "text": "Telyn deires",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "True",
-            "correct": true
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Telyn deires"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-1-overview-q2",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Penillion singing traditionally partners which instrument?",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Triple harp",
             "correct": true
           },
           {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
             "id": "d",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Triple harp"
       }
     ]
   },
@@ -1243,71 +2108,406 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-02-instruments-voices-i` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-02-instruments-voices-i` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Ireland's Traditional Voices I lesson centres fiddle, flute, whistle, uilleann pipes, and cláirseach — the pub session stack. Wales swaps flute-and-pipes prominence for triple harp as national melody voice and preserves pibgorn and crwth as ancient cousins rather than daily session tools.\n\n| Voice | Ireland (`regions-celtic-ireland-02-instruments-voices-i`) | Wales (this lesson) |\n|-------|----------------------------------------------------------|---------------------|\n| Bowed strings | Fiddle (default leader) | Fiddle (twmpath and folk club) |\n| Harp | Cláirseach (revival, concert) | Triple harp (eisteddfod + folk) |\n| Wind | Flute, whistle, uilleann pipes | Pibgorn (revival) |\n| Historic bowed lyre | — | Crwth (museum + revival) |\n\nParallel Ireland lesson: `regions-celtic-ireland-02-instruments-voices-i` — compare ornament and social role, not just instrument names.\n\nIreland's Traditional Voices I lesson centres fiddle, flute, whistle, uilleann pipes, and cláirseach — the pub session stack. Wales swaps flute-and-pipes prominence for triple harp as national melody voice and preserves pibgorn and crwth as ancient cousins rather than daily session tools.\n\n| Voice | Ireland (`regions-celtic-ireland-02-instruments-voices-i`) | Wales (this lesson) |\n|-------|----------------------------------------------------------|---------------------|\n| Bowed strings | Fiddle (default leader) | Fiddle (twmpath and folk club) |\n| Harp | Cláirseach (revival, concert) | Triple harp (eisteddfod + folk) |\n| Wind | Flute, whistle, uilleann pipes | Pibgorn (revival) |\n| Historic bowed lyre | — | Crwth (museum + revival) |\n\nParallel Ireland lesson: `regions-celtic-ireland-02-instruments-voices-i` — compare ornament and social role, not just instrument names.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The pibgorn is a:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
-            "correct": false
+            "text": "Single-reed wooden pipe of ancient Wales",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "D, G, A, and E minor",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "D, G, A, and E minor",
+            "text": "Francis O'Neill",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Single-reed wooden pipe of ancient Wales"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-2-compared-with-ireland-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "The crwth is:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "A bowed lyre with historical roots in Wales",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: A bowed lyre with historical roots in Wales"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-3-session-and-stage-roles-overlap",
+    "title": "Wales trad: Session and stage roles overlap",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "| Situation | What you might hear |\n|-----------|---------------------|\n| Twmpath in a village hall | Fiddle and accordion on melody, harp resting until penillion set |\n| Eisteddfod folk harp competition | Triple harp solo; fiddle and pibgorn in separate categories |\n| Folk club concert | Fiddle–harp duet; crwth demonstration between dance sets |\n| Penillion set | Harp plays fixed tune; voice is equal partner, not \"accompaniment\" |\n\nOverlap in practice: Fiddle leads dance sets; harp leads song and competition repertoire; pibgorn and crwth appear in revival and education contexts more than weekly pub nights.\n\n| Situation | What you might hear |\n|-----------|---------------------|\n| Twmpath in a village hall | Fiddle and accordion on melody, harp resting until penillion set |\n| Eisteddfod folk harp competition | Triple harp solo; fiddle and pibgorn in separate categories |\n| Folk club concert | Fiddle–harp duet; crwth demonstration between dance sets |\n| Penillion set | Harp plays fixed tune; voice is equal partner, not \"accompaniment\" |\n\nOverlap in practice: Fiddle leads dance sets; harp leads song and competition repertoire; pibgorn and crwth appear in revival and education contexts more than weekly pub nights.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-3-session-and-stage-roles-overlap-q1",
+        "type": "mcq",
+        "prompt": "Nansi Richards was known as:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
             "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "\"The Queen of the Harp\"",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: \"The Queen of the Harp\""
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-3-session-and-stage-roles-overlap-q2",
+        "type": "truefalse",
+        "prompt": "Welsh fiddle typically uses standard violin tuning G-D-A-E.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-7-regional-notes",
+    "title": "Wales trad: Regional notes",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "North Wales fiddlers share repertoire with harpists — Cader Idris, Dafydd y Garreg Wen. Mid Wales folk clubs maintain mixed instrument sessions. South Wales revival bands blend fiddle with guitar and rock instrumentation (see Lesson 7).\n\nMemorable detail: Welsh fiddle rarely dominates global \"Celtic fiddle\" marketing the way Sligo does — which frees learners from one template but requires active regional listening.\n\nNorth Wales fiddlers share repertoire with harpists — Cader Idris, Dafydd y Garreg Wen. Mid Wales folk clubs maintain mixed instrument sessions. South Wales revival bands blend fiddle with guitar and rock instrumentation (see Lesson 7).\n\nMemorable detail: Welsh fiddle rarely dominates global \"Celtic fiddle\" marketing the way Sligo does — which frees learners from one template but requires active regional listening.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-7-regional-notes-q1",
+        "type": "truefalse",
+        "prompt": "Triple harp players pluck primarily with fingernails.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-7-regional-notes-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Wales foregrounds triple harp over uilleann pipes in traditional settings.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-9-famous-players-and-memorable-details",
+    "title": "Wales trad: Famous players and memorable details",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Nansi Richards (1888–1979), Brenhines y Delyn (Queen of the Harp), performed penillion and folk sets when triple harp seemed endangered. Llio Rhydderch continues the tradition with contemporary compositions and eisteddfod teaching. Memorable detail: Richards played for royalty and chapel alike — harp prestige in Wales spans sacred and competitive stages.\n\nWelsh triple harp appears on eisteddfod stages, folk club nights, and recordings from Nansi Richards (\"The Queen of the Harp,\" 1888–1979) to Llio Rhydderch, Elinor Bennett, and Rhian Samuel.\n\nNansi Richards (1888–1979), Brenhines y Delyn (Queen of the Harp), performed penillion and folk sets when triple harp seemed endangered. Llio Rhydderch continues the tradition with contemporary compositions and eisteddfod teaching. Memorable detail: Richards played for royalty and chapel alike — harp prestige in Wales spans sacred and competitive stages.\n\nWelsh triple harp appears on eisteddfod stages, folk club nights, and recordings from Nansi Richards (\"The Queen of the Harp,\" 1888–1979) to Llio Rhydderch, Elinor Bennett, and Rhian Samuel.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-9-famous-players-and-memorable-details-q1",
+        "type": "truefalse",
+        "prompt": "The crwth is the most common instrument at modern weekly twmpathau.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
             "text": "False",
             "correct": true
+          }
+        ],
+        "explain": "fiddle, accordion, and harp dominate contemporary social dance bands."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-9-famous-players-and-memorable-details-q2",
+        "type": "truefalse",
+        "prompt": "Bragod is associated with revival of early Welsh instruments including pibgorn and crwth.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
           },
           {
-            "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Brendan Breathnach",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-5-key-points",
+    "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-15-revival-context",
+    "title": "Wales trad: Revival context",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Ensembles like Bragod (Bob Evans and Mary-Anne Roberts) research and perform medieval and early Welsh music including pibgorn and crwth. Pibgorn today signals historical depth in concert programmes more than twmpath dance floors — though revivalists occasionally join mixed folk bands.\n\nMemorable detail: The pibgorn's name connects to pib (pipe) and corn (horn) — Wales's answer to pastoral bagpipe cousins, without the Highland volume.\n\nEnsembles like Bragod (Bob Evans and Mary-Anne Roberts) research and perform medieval and early Welsh music including pibgorn and crwth. Pibgorn today signals historical depth in concert programmes more than twmpath dance floors — though revivalists occasionally join mixed folk bands.\n\nMemorable detail: The pibgorn's name connects to pib (pipe) and corn (horn) — Wales's answer to pastoral bagpipe cousins, without the Highland volume.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-15-revival-context-q1",
+        "type": "truefalse",
+        "prompt": "Triple harp has only one row of strings.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "it has three rows of strings."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-15-revival-context-q2",
+        "type": "truefalse",
+        "prompt": "In twmpath bands, fiddle often helps drive dance tempo alongside accordion.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-19-how-these-four-voices-fit-together",
+    "title": "Wales trad: How these four voices fit together",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Picture an eisteddfod afternoon: triple harp competition in the pavilion, fiddle class in the tent next door. Picture a folk club: fiddle and harp duet for Cader Idris, then a Bragod member demonstrating pibgorn. None owns a fixed \"melody only\" slot.\n\nYour homework: one recording each featuring Richards or Rhydderch (harp), a twmpath fiddle band, and a Bragod pibgorn track. Note volume, ornament, and partnership with voice. Then continue to Session Voices II for guitar and accordion.\n\nPicture an eisteddfod afternoon: triple harp competition in the pavilion, fiddle class in the tent next door. Picture a folk club: fiddle and harp duet for Cader Idris, then a Bragod member demonstrating pibgorn. None owns a fixed \"melody only\" slot.\n\nYour homework: one recording each featuring Richards or Rhydderch (harp), a twmpath fiddle band, and a Bragod pibgorn track. Note volume, ornament, and partnership with voice. Then continue to Session Voices II for guitar and accordion.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-19-how-these-four-voices-fit-together-q1",
+        "type": "mcq",
+        "prompt": "The Welsh triple harp is known in Welsh as:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Telyn deires",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Telyn deires"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-19-how-these-four-voices-fit-together-q2",
+        "type": "mcq",
+        "prompt": "Penillion singing traditionally partners which instrument?",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Triple harp",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Triple harp"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-20-key-points",
     "title": "Wales trad: Key points",
     "track": "celtic",
     "region": "wales",
@@ -1324,66 +2524,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Fiddle, triple harp, pibgorn, and crwth in historical context connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Fiddle, triple harp, pibgorn, and crwth in historical context connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Triple harp is Wales's primary traditional melody instrument and penillion partner.\n- Fiddle drives twmpath and folk-club dance sets with repertoire overlapping British Isles neighbours.\n- Pibgorn and crwth are ancient voices revived through scholarship and performance.\n- Eisteddfod competition shapes harp and fiddle standards; twmpath culture shapes dance rhythm.\n- Compared with Ireland: harp over pipes; shared fiddle ornament vocabulary, different social stages.\n- Instrument roles overlap — harp harmonises, fiddle drives, revival winds educate.\n\n- Triple harp is Wales's primary traditional melody instrument and penillion partner.\n- Fiddle drives twmpath and folk-club dance sets with repertoire overlapping British Isles neighbours.\n- Pibgorn and crwth are ancient voices revived through scholarship and performance.\n- Eisteddfod competition shapes harp and fiddle standards; twmpath culture shapes dance rhythm.\n- Compared with Ireland: harp over pipes; shared fiddle ornament vocabulary, different social stages.\n- Instrument roles overlap — harp harmonises, fiddle drives, revival winds educate.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-5-key-points-q1",
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-20-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "The pibgorn is a:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Single-reed wooden pipe of ancient Wales",
             "correct": true
           },
           {
             "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Single-reed wooden pipe of ancient Wales"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-20-key-points-q2",
+        "type": "mcq",
+        "prompt": "The crwth is:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
             "text": "Brendan Breathnach",
             "correct": false
           },
           {
-            "id": "c",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
             "id": "d",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "difficulty": 4,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "A bowed lyre with historical roots in Wales",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: A bowed lyre with historical roots in Wales"
       }
     ]
   },
@@ -1405,66 +2605,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Session Voices II** (Wales trad):\n\n- Welsh Traditional Music rewards comparative study with Ireland.\n\n- Focus: guitar, accordion, and contemporary folk ensemble voices.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Instruments — Session Voices II** (Wales trad):\n\n- Accordion is central to twmpath dance bands — melody and bass-chord drive.\n\n- Guitar provides harmonic backing shaped by chapel harmony traditions.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "In typical twmpath bands, accordion often:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Dancers' feet and steady chord pulse for called dances",
             "correct": false
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "Programmed venues for guest acts, learners, and twmpath nights",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "Shares melody duty with fiddle and provides bass-chord accompaniment",
             "correct": true
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "Welsh folk-rock ensemble blending trad with rock and other styles",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Shares melody duty with fiddle and provides bass-chord accompaniment"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-1-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Welsh folk guitar harmony is influenced by:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "b",
-            "text": "False",
+            "text": "Chapel hymn singing traditions",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Dancers' feet and steady chord pulse for called dances",
             "correct": false
           },
           {
             "id": "d",
-            "text": "True",
+            "text": "Programmed venues for guest acts, learners, and twmpath nights",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Chapel hymn singing traditions"
       }
     ]
   },
@@ -1486,66 +2686,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Session Voices II** (Wales trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Instruments — Session Voices II** (Wales trad):\n\n- Welsh ensemble culture is dance- and folk-club-programmed.\n\n- Bob Delyn represents contemporary folk-rock festival ensembles.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Bob Delyn a'r Ebillion represent:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Welsh folk-rock ensemble blending trad with rock and other styles",
             "correct": true
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "Programmed venues for guest acts, learners, and twmpath nights",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "text": "9/8 slip-jig time",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Welsh folk-rock ensemble blending trad with rock and other styles"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Compared with Irish sessions, Welsh twmpath rhythm often emphasises:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Social dance forms discussed in the body",
+            "text": "9/8 slip-jig time",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "4/4 reel time with a steady drive",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Dancers' feet and steady chord pulse for called dances",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Dancers' feet and steady chord pulse for called dances"
       }
     ]
   },
@@ -1567,66 +2767,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Session Voices II** (Wales trad):\n\n- Dance metre and tune form belong together in study.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Instruments — Session Voices II** (Wales trad):\n\n- Compared with Ireland: no bodhrán centrality; guitar over bouzouki canon.\n\n- Sain label supports revival recording infrastructure.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Folk clubs (*clybiau gwerin*) function as:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "4/4 reel time with a steady drive",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
+            "text": "Programmed venues for guest acts, learners, and twmpath nights",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Programmed venues for guest acts, learners, and twmpath nights"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Twm Morys is associated with Bob Delyn a'r Ebillion.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1648,66 +2838,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Session Voices II** (Wales trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Guitar, accordion, and contemporary folk ensemble voices connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Instruments — Session Voices II** (Wales trad):\n\n- **Accordion** is central to twmpath dance bands — melody and bass-chord drive.\n\n- **Guitar** provides harmonic backing for dance and song; chapel harmony influences chord choices.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Accordion is rare at Welsh twmpathau.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
+            "text": "True",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
+            "text": "False",
+            "correct": true
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "accordion is a central dance-band instrument in much of Wales."
       },
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Irish bouzouki has the same canonical status in Welsh trad as in Planxty-era Ireland.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "guitar serves similar harmonic role without the same iconic lineage."
       }
     ]
   },
@@ -1729,66 +2899,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Instruments — Session Voices II** (Wales trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Instruments — Session Voices II** (Wales trad):\n\n- Welsh ensemble culture is **dance- and club-programmed**, not open session marathon by default.\n\n- Contemporary **folk-rock** bands extend trad repertoire to festival stages.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Contemporary Welsh folk ensembles may include electric guitar and drums.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Guitar at twmpath must always play melody while accordion rests.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "roles overlap; accordion often leads melody while guitar chords."
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-6",
+    "title": "Wales trad: key ideas (6)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "From **Welsh Instruments — Session Voices II** (Wales trad):\n\n- Compared with Ireland: shared guitar/accordion but different bodhrán role; bouzouki less canonical.\n\n- Folk clubs and twmpath bands are primary modern transmission for these voices.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Clog dancing contributes percussion at twmpath events.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Sain is a Welsh record label associated with folk and revival releases.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1810,71 +3021,71 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on guitar, accordion, and contemporary folk ensemble voices within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nWelsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on guitar, accordion, and contemporary folk ensemble voices within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "This lesson covers guitar, accordion, and the contemporary folk ensemble — the voices that complete Welsh twmpath bands, folk clubs, and festival stages. If Traditional Voices I taught harp, fiddle, and ancient winds, Session Voices II teaches the rhythm-harmony engine and the post-1970 revival band that blended rock, reggae, and country with alawon gwerin (folk tunes).\n\nWelsh ensemble culture differs from Irish pub sessions: a caller may need steady chord changes for dancers; a folk-rock band may amplify for a tent crowd. Guitar and accordion are not \"background only\" — they start tunes, signal sets, and define regional accent in south Wales clubs especially.\n\nThis lesson covers guitar, accordion, and the contemporary folk ensemble — the voices that complete Welsh twmpath bands, folk clubs, and festival stages. If Traditional Voices I taught harp, fiddle, and ancient winds, Session Voices II teaches the rhythm-harmony engine and the post-1970 revival band that blended rock, reggae, and country with alawon gwerin (folk tunes).\n\nWelsh ensemble culture differs from Irish pub sessions: a caller may need steady chord changes for dancers; a folk-rock band may amplify for a tent crowd. Guitar and accordion are not \"background only\" — they start tunes, signal sets, and define regional accent in south Wales clubs especially.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "In typical twmpath bands, accordion often:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
+            "text": "Dancers' feet and steady chord pulse for called dances",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Programmed venues for guest acts, learners, and twmpath nights",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
+            "text": "Shares melody duty with fiddle and provides bass-chord accompaniment",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "True",
-            "correct": true
+            "text": "Welsh folk-rock ensemble blending trad with rock and other styles",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Shares melody duty with fiddle and provides bass-chord accompaniment"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-1-overview-q2",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Welsh folk guitar harmony is influenced by:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Chapel hymn singing traditions",
             "correct": true
           },
           {
+            "id": "c",
+            "text": "Dancers' feet and steady chord pulse for called dances",
+            "correct": false
+          },
+          {
             "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Programmed venues for guest acts, learners, and twmpath nights",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Chapel hymn singing traditions"
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-2-compared-with-ireland",
+    "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-3-compared-with-ireland",
     "title": "Wales trad: Compared with Ireland",
     "track": "celtic",
     "region": "wales",
@@ -1891,71 +3102,203 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-03-instruments-voices-ii` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-03-instruments-voices-ii` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Ireland's Session Voices II covers bodhrán, guitar, bouzouki, banjo, box accordion, and concertina — the pub session rhythm stack. Wales shares guitar and accordion but uses them primarily for twmpath dance and folk-club song rather than reel-and-jig marathon sets.\n\n| Voice | Ireland (`regions-celtic-ireland-03-instruments-voices-ii`) | Wales (this lesson) |\n|-------|----------------------------------------------------------|---------------------|\n| Chord/rhythm | Guitar, bouzouki, bodhrán | Guitar, accordion |\n| Melody double | Banjo, concertina | Accordion melody on dance sets |\n| Percussion | Bodhrán central | Clog feet + optional kit in fusion bands |\n| Ensemble model | Pub session | Twmpath band, folk-rock |\n\nParallel Ireland lesson: `regions-celtic-ireland-03-instruments-voices-ii` — compare who starts the tune and how dance function shapes arrangement.\n\nIreland's Session Voices II covers bodhrán, guitar, bouzouki, banjo, box accordion, and concertina — the pub session rhythm stack. Wales shares guitar and accordion but uses them primarily for twmpath dance and folk-club song rather than reel-and-jig marathon sets.\n\n| Voice | Ireland (`regions-celtic-ireland-03-instruments-voices-ii`) | Wales (this lesson) |\n|-------|----------------------------------------------------------|---------------------|\n| Chord/rhythm | Guitar, bouzouki, bodhrán | Guitar, accordion |\n| Melody double | Banjo, concertina | Accordion melody on dance sets |\n| Percussion | Bodhrán central | Clog feet + optional kit in fusion bands |\n| Ensemble model | Pub session | Twmpath band, folk-rock |\n\nParallel Ireland lesson: `regions-celtic-ireland-03-instruments-voices-ii` — compare who starts the tune and how dance function shapes arrangement.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-2-compared-with-ireland-q1",
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-3-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Bob Delyn a'r Ebillion represent:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
+            "text": "Welsh folk-rock ensemble blending trad with rock and other styles",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "Programmed venues for guest acts, learners, and twmpath nights",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "9/8 slip-jig time",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Welsh folk-rock ensemble blending trad with rock and other styles"
       },
       {
-        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-2-compared-with-ireland-q2",
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-3-compared-with-ireland-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Compared with Irish sessions, Welsh twmpath rhythm often emphasises:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Dancers' feet and steady chord pulse for called dances",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Dancers' feet and steady chord pulse for called dances"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-4-ensemble-roles-in-welsh-rooms",
+    "title": "Wales trad: Ensemble roles in Welsh rooms",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "| Situation | Guitar | Accordion | Full band |\n|-----------|--------|-----------|-----------|\n| Twmpath waltz | Chord vamping, steady pulse | Melody + bass buttons | Caller + dancers lead form |\n| Folk club song | Fingerpicking intro to Ar Lan y Môr | Resting or harmony fill | Singer centre stage |\n| Festival tent | Electric rhythm in Bob Delyn a'r Ebillion set | Rare; fiddle/harp lead | Rock backbeat + trad tunes |\n| Eisteddfod | Usually not competitive category | Accordion folk classes exist | Judged ensemble pieces |\n\n| Situation | Guitar | Accordion | Full band |\n|-----------|--------|-----------|-----------|\n| Twmpath waltz | Chord vamping, steady pulse | Melody + bass buttons | Caller + dancers lead form |\n| Folk club song | Fingerpicking intro to Ar Lan y Môr | Resting or harmony fill | Singer centre stage |\n| Festival tent | Electric rhythm in Bob Delyn a'r Ebillion set | Rare; fiddle/harp lead | Rock backbeat + trad tunes |\n| Eisteddfod | Usually not competitive category | Accordion folk classes exist | Judged ensemble pieces |",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-4-ensemble-roles-in-welsh-rooms-q1",
+        "type": "mcq",
+        "prompt": "Folk clubs (*clybiau gwerin*) function as:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Programmed venues for guest acts, learners, and twmpath nights",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Programmed venues for guest acts, learners, and twmpath nights"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-4-ensemble-roles-in-welsh-rooms-q2",
+        "type": "truefalse",
+        "prompt": "Twm Morys is associated with Bob Delyn a'r Ebillion.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-7-notable-contexts",
+    "title": "Wales trad: Notable contexts",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "wales",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "Folk clubs from Cardiff to Aberystwyth feature solo guitar–voice acts. Revival bands layered electric guitar over fiddle and harp (Lesson 7). Unlike Irish bouzouki culture (Planxty lineage), Welsh guitar often stays straightforward rhythmic — serving dance and song rather than virtuoso counter-melody.\n\nMemorable detail: Many Welsh folk guitarists learned chords in chapel before learning hornpipes — hymnody as harmonic boot camp.\n\nFolk clubs from Cardiff to Aberystwyth feature solo guitar–voice acts. Revival bands layered electric guitar over fiddle and harp (Lesson 7). Unlike Irish bouzouki culture (Planxty lineage), Welsh guitar often stays straightforward rhythmic — serving dance and song rather than virtuoso counter-melody.\n\nMemorable detail: Many Welsh folk guitarists learned chords in chapel before learning hornpipes — hymnody as harmonic boot camp.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-7-notable-contexts-q1",
+        "type": "truefalse",
+        "prompt": "Accordion is rare at Welsh twmpathau.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
             "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "accordion is a central dance-band instrument in much of Wales."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-7-notable-contexts-q2",
+        "type": "truefalse",
+        "prompt": "Irish bouzouki has the same canonical status in Welsh trad as in Planxty-era Ireland.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "guitar serves similar harmonic role without the same iconic lineage."
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-5-key-points",
+    "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-16-key-points",
     "title": "Wales trad: Key points",
     "track": "celtic",
     "region": "wales",
@@ -1972,66 +3315,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Guitar, accordion, and contemporary folk ensemble voices connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Guitar, accordion, and contemporary folk ensemble voices connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Accordion is central to twmpath dance bands — melody and bass-chord drive.\n- Guitar provides harmonic backing for dance and song; chapel harmony influences chord choices.\n- Welsh ensemble culture is dance- and club-programmed, not open session marathon by default.\n- Contemporary folk-rock bands extend trad repertoire to festival stages.\n- Compared with Ireland: shared guitar/accordion but different bodhrán role; bouzouki less canonical.\n- Folk clubs and twmpath bands are primary modern transmission for these voices.\n\n- Accordion is central to twmpath dance bands — melody and bass-chord drive.\n- Guitar provides harmonic backing for dance and song; chapel harmony influences chord choices.\n- Welsh ensemble culture is dance- and club-programmed, not open session marathon by default.\n- Contemporary folk-rock bands extend trad repertoire to festival stages.\n- Compared with Ireland: shared guitar/accordion but different bodhrán role; bouzouki less canonical.\n- Folk clubs and twmpath bands are primary modern transmission for these voices.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-16-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Contemporary Welsh folk ensembles may include electric guitar and drums.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-16-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Guitar at twmpath must always play melody while accordion rests.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": false
           },
           {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
             "id": "b",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "roles overlap; accordion often leads melody while guitar chords."
       }
     ]
   },
@@ -2053,66 +3376,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- Welsh Traditional Music rewards comparative study with Ireland.\n\n- Focus: plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- Plygi is a Welsh dance form with hornpipe-family pulse.\n\n- Hornpipes and waltzes are core twmpath repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Penillion singing requires:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Strict rhythmic fit of verse over a fixed harp tune",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Regions where Irish remains a community language",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Strict rhythmic fit of verse over a fixed harp tune"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-1-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Plygi is:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "False",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: A Welsh folk dance form related to hornpipe repertoire"
       }
     ]
   },
@@ -2134,66 +3457,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- Hymn tunes are a Welsh genre category shaped by chapel culture.\n\n- Penillion requires strict rhythmic fit over fixed harp tunes.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Cwm Rhondda is best known as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "A Welsh hymn tune sung worldwide",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: A Welsh hymn tune sung worldwide"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Welsh hornpipes are typically in:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "4/4 with dotted, bouncy feel",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Tips and heels striking the floor",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: 4/4 with dotted, bouncy feel"
       }
     ]
   },
@@ -2215,13 +3538,42 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- Dance metre and tune form belong together in study.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- Hwyl marks communal vocal lift in hymn and folk song.\n\n- Compared with Ireland: less reel-jig dominance; more hymn and penillion weight.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Compared with Irish sean-nós, penillion emphasises:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Counter-melody over harp with strict bar fit",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Counter-melody over harp with strict bar fit"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Waltzes at twmpath are usually in 3/4 time.",
         "difficulty": 6,
         "choices": [
           {
@@ -2231,50 +3583,11 @@ export default [
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          }
-        ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2296,66 +3609,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- **Plygi** is a Welsh dance form with hornpipe-family pulse and twmpath figures.\n\n- **Hornpipes** and **waltzes** are core twmpath repertoire with dotted or triple feel.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Hymn tune repertoire is unrelated to Welsh folk identity.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "hymnody deeply shapes Welsh musical culture."
       },
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Hwyl describes communal lift in Welsh singing.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "False",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2377,42 +3670,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- **Hymn tunes** are a Welsh genre category shaped by chapel and male voice choirs.\n\n- **Penillion** is counter-melody singing over fixed harp tunes — rhythmic discipline is essential.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          }
-        ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Plygi and hornpipe are identical in every Welsh region without variation.",
         "difficulty": 6,
         "choices": [
           {
@@ -2422,21 +3686,91 @@ export default [
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "regional accent and dance figures vary."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Nicholas Bennett's Alawon Fy Ngwlad is a classic Welsh tune source.",
+        "difficulty": 6,
+        "choices": [
           {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "id": "a",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-6",
+    "title": "Wales trad: key ideas (6)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-wales-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "From **Welsh Traditional Music — Tunes, Forms, and Style** (Wales trad):\n\n- Compared with Ireland: less reel-jig dominance; more hymn and penillion vocal genre weight.\n\n- Metre and foot-tap must match dance; hwyl marks communal vocal lift.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Penillion singers may improvise topical verses.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Irish reels are the only dance form ever played at Welsh twmpathau.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "plygi, hornpipe, and waltz are central Welsh forms."
       }
     ]
   },
@@ -2458,66 +3792,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nWelsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "If the instrument lessons taught you who speaks in a Welsh folk room, this lesson teaches you what language they speak. Welsh traditional music organises around dance forms — plygi, hornpipes, waltzes — alongside hymn tunes and penillion vocal art. Ornamentation turns a skeleton tune into a recognisable Welsh accent; bilingual titles and chapel harmony turn a single melody into a national symbol.\n\nTake it in sections: learn to identify the form first, then study penillion as vocal genre, then explore hymn tunes as separate repertoire that sometimes crosses into twmpath sets.\n\nIf the instrument lessons taught you who speaks in a Welsh folk room, this lesson teaches you what language they speak. Welsh traditional music organises around dance forms — plygi, hornpipes, waltzes — alongside hymn tunes and penillion vocal art. Ornamentation turns a skeleton tune into a recognisable Welsh accent; bilingual titles and chapel harmony turn a single melody into a national symbol.\n\nTake it in sections: learn to identify the form first, then study penillion as vocal genre, then explore hymn tunes as separate repertoire that sometimes crosses into twmpath sets.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "Penillion singing requires:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "True",
+            "text": "Strict rhythmic fit of verse over a fixed harp tune",
             "correct": true
           },
           {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
             "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Strict rhythmic fit of verse over a fixed harp tune"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-1-overview-q2",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Plygi is:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
+            "text": "Donegal highland repertoire",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
+            "correct": true
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: A Welsh folk dance form related to hornpipe repertoire"
       }
     ]
   },
@@ -2539,71 +3873,406 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-04-genres-forms` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-04-genres-forms` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Ireland's Genres lesson centres reels, jigs, hornpipes, polkas, slides, sean-nós, and lilting. Wales shares hornpipe and waltz metre with British neighbours but names plygi as distinct dance form and elevates penillion and hymn tune to genre status alongside instrumental dance music.\n\n| Form | Ireland (`regions-celtic-ireland-04-genres-forms`) | Wales (this lesson) |\n|------|--------------------------------------------------|---------------------|\n| Primary dance drive | Reels and double jigs | Plygi, hornpipe, waltz |\n| Signature vocal form | Sean-nós | Penillion over harp |\n| Sacred crossover | Slow airs from song | Hymn tunes (Cwm Rhondda) |\n| Mouth music | Lilting (portaireacht) | Penillion verse fitting |\n\nParallel Ireland lesson: `regions-celtic-ireland-04-genres-forms` — compare metre identification and song–dance overlap.\n\nIreland's Genres lesson centres reels, jigs, hornpipes, polkas, slides, sean-nós, and lilting. Wales shares hornpipe and waltz metre with British neighbours but names plygi as distinct dance form and elevates penillion and hymn tune to genre status alongside instrumental dance music.\n\n| Form | Ireland (`regions-celtic-ireland-04-genres-forms`) | Wales (this lesson) |\n|------|--------------------------------------------------|---------------------|\n| Primary dance drive | Reels and double jigs | Plygi, hornpipe, waltz |\n| Signature vocal form | Sean-nós | Penillion over harp |\n| Sacred crossover | Slow airs from song | Hymn tunes (Cwm Rhondda) |\n| Mouth music | Lilting (portaireacht) | Penillion verse fitting |\n\nParallel Ireland lesson: `regions-celtic-ireland-04-genres-forms` — compare metre identification and song–dance overlap.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Cwm Rhondda is best known as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
+            "text": "A Welsh hymn tune sung worldwide",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: A Welsh hymn tune sung worldwide"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-2-compared-with-ireland-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Welsh hornpipes are typically in:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
+            "text": "4/4 with dotted, bouncy feel",
+            "correct": true
           },
           {
             "id": "c",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "False",
-            "correct": true
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: 4/4 with dotted, bouncy feel"
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-5-key-points",
+    "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-3-how-to-listen-metre-pulse-and-hwyl",
+    "title": "Wales trad: How to listen: metre, pulse, and hwyl",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-wales-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Train your ear for metre (beat grouping) and hwyl — the communal lift when voices and instruments surge together in hymn or folk song. Written time signatures guide but do not imprison: hornpipes may be notated 4/4 with dotted performance; penillion demands strict fit between harp bar and sung syllables.\n\nFoot-tap habit: Plygi and hornpipe want dotted bounce; waltz wants ONE-two-three; hymn tunes may stretch phrase lengths for breathing in Cymanfa Ganu.\n\nTrain your ear for metre (beat grouping) and hwyl — the communal lift when voices and instruments surge together in hymn or folk song. Written time signatures guide but do not imprison: hornpipes may be notated 4/4 with dotted performance; penillion demands strict fit between harp bar and sung syllables.\n\nFoot-tap habit: Plygi and hornpipe want dotted bounce; waltz wants ONE-two-three; hymn tunes may stretch phrase lengths for breathing in Cymanfa Ganu.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-3-how-to-listen-metre-pulse-and-hwyl-q1",
+        "type": "mcq",
+        "prompt": "Compared with Irish sean-nós, penillion emphasises:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Counter-melody over harp with strict bar fit",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Counter-melody over harp with strict bar fit"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-3-how-to-listen-metre-pulse-and-hwyl-q2",
+        "type": "truefalse",
+        "prompt": "Waltzes at twmpath are usually in 3/4 time.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-5-feel-and-repertoire",
+    "title": "Wales trad: Feel and repertoire",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-wales-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Plygi pulse is dance-functional: accordion and fiddle articulate long-short patterns; guitar chords mark downbeats. Tunes may be local variants of wider British hornpipe stock or distinctly Welsh titles from collectors Nicholas Bennett (Alawon Fy Ngwlad) and later folk society editions.\n\nMemorable detail: Dancers recognise plygi by figure name and floor pattern — musicians who only learn tune titles miss half the form.\n\nPlygi pulse is dance-functional: accordion and fiddle articulate long-short patterns; guitar chords mark downbeats. Tunes may be local variants of wider British hornpipe stock or distinctly Welsh titles from collectors Nicholas Bennett (Alawon Fy Ngwlad) and later folk society editions.\n\nMemorable detail: Dancers recognise plygi by figure name and floor pattern — musicians who only learn tune titles miss half the form.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-5-feel-and-repertoire-q1",
+        "type": "truefalse",
+        "prompt": "Hymn tune repertoire is unrelated to Welsh folk identity.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "hymnody deeply shapes Welsh musical culture."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-5-feel-and-repertoire-q2",
+        "type": "truefalse",
+        "prompt": "Hwyl describes communal lift in Welsh singing.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-8-waltzes",
+    "title": "Wales trad: Waltzes",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-wales-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Waltzes in 3/4 are twmpath staples — couple dances, circle waltzes, and newer choreographies from folk revival teachers. Melody may come from imported European waltz fashion (nineteenth century) or from Welsh song airs arranged for dance.\n\nGuitar and accordion share oom-pah-pah or flowing arpeggio accompaniment; harp arrangements appear in eisteddfod repertoire. Waltz tempo must stay dancer-safe — faster is not better.\n\nWaltzes in 3/4 are twmpath staples — couple dances, circle waltzes, and newer choreographies from folk revival teachers. Melody may come from imported European waltz fashion (nineteenth century) or from Welsh song airs arranged for dance.\n\nGuitar and accordion share oom-pah-pah or flowing arpeggio accompaniment; harp arrangements appear in eisteddfod repertoire. Waltz tempo must stay dancer-safe — faster is not better.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-8-waltzes-q1",
+        "type": "truefalse",
+        "prompt": "Plygi and hornpipe are identical in every Welsh region without variation.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "regional accent and dance figures vary."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-8-waltzes-q2",
+        "type": "truefalse",
+        "prompt": "Nicholas Bennett's Alawon Fy Ngwlad is a classic Welsh tune source.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-10-chapel-dna-in-folk",
+    "title": "Wales trad: Chapel DNA in folk",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-wales-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Welsh male voice choir culture trained generations in harmony, breath, and communal rhythm — skills penillion singers and festival choirs reuse. A folk band may quote hymn tune fragments in medleys; a twmpath waltz may share harmonic language with Sunday chapel.\n\nMemorable detail: Cwm Rhondda is among the world's most sung hymn tunes — Welsh composition (John Hughes, 1907) with global diaspora life.\n\nWelsh male voice choir culture trained generations in harmony, breath, and communal rhythm — skills penillion singers and festival choirs reuse. A folk band may quote hymn tune fragments in medleys; a twmpath waltz may share harmonic language with Sunday chapel.\n\nMemorable detail: Cwm Rhondda is among the world's most sung hymn tunes — Welsh composition (John Hughes, 1907) with global diaspora life.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-10-chapel-dna-in-folk-q1",
+        "type": "truefalse",
+        "prompt": "Penillion singers may improvise topical verses.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-10-chapel-dna-in-folk-q2",
+        "type": "truefalse",
+        "prompt": "Irish reels are the only dance form ever played at Welsh twmpathau.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "plygi, hornpipe, and waltz are central Welsh forms."
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-14-ornament-and-regional-accent",
+    "title": "Wales trad: Ornament and regional accent",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-wales-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "Welsh instrumental ornament shares cuts and rolls with Irish fiddle vocabulary but applies them to harp fingernail patterns and accordion bellows differently. Harpists use trills and grace figures; fiddlers use bowed trebles sparingly compared to Sligo density.\n\nRegional accent: north Wales harp repertoire emphasises penillion tunes; south Wales clubs may favour hornpipe–waltz sets with guitar harmony. Tag recordings by region when possible.\n\nWelsh instrumental ornament shares cuts and rolls with Irish fiddle vocabulary but applies them to harp fingernail patterns and accordion bellows differently. Harpists use trills and grace figures; fiddlers use bowed trebles sparingly compared to Sligo density.\n\nRegional accent: north Wales harp repertoire emphasises penillion tunes; south Wales clubs may favour hornpipe–waltz sets with guitar harmony. Tag recordings by region when possible.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-14-ornament-and-regional-accent-q1",
+        "type": "mcq",
+        "prompt": "Penillion singing requires:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Strict rhythmic fit of verse over a fixed harp tune",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Strict rhythmic fit of verse over a fixed harp tune"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-14-ornament-and-regional-accent-q2",
+        "type": "mcq",
+        "prompt": "Plygi is:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: A Welsh folk dance form related to hornpipe repertoire"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-16-key-points",
     "title": "Wales trad: Key points",
     "track": "celtic",
     "region": "wales",
@@ -2620,66 +4289,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Plygi is a Welsh dance form with hornpipe-family pulse and twmpath figures.\n- Hornpipes and waltzes are core twmpath repertoire with dotted or triple feel.\n- Hymn tunes are a Welsh genre category shaped by chapel and male voice choirs.\n- Penillion is counter-melody singing over fixed harp tunes — rhythmic discipline is essential.\n- Compared with Ireland: less reel-jig dominance; more hymn and penillion vocal genre weight.\n- Metre and foot-tap must match dance; hwyl marks communal vocal lift.\n\n- Plygi is a Welsh dance form with hornpipe-family pulse and twmpath figures.\n- Hornpipes and waltzes are core twmpath repertoire with dotted or triple feel.\n- Hymn tunes are a Welsh genre category shaped by chapel and male voice choirs.\n- Penillion is counter-melody singing over fixed harp tunes — rhythmic discipline is essential.\n- Compared with Ireland: less reel-jig dominance; more hymn and penillion vocal genre weight.\n- Metre and foot-tap must match dance; hwyl marks communal vocal lift.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-5-key-points-q1",
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-16-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Cwm Rhondda is best known as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "A Welsh hymn tune sung worldwide",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: A Welsh hymn tune sung worldwide"
       },
       {
-        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-5-key-points-q2",
+        "id": "celtic-wales-regions-celtic-wales-04-genres-forms-sec-16-key-points-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Welsh hornpipes are typically in:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "4/4 with dotted, bouncy feel",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Tips and heels striking the floor",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: 4/4 with dotted, bouncy feel"
       }
     ]
   },
@@ -2701,66 +4370,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- Welsh Traditional Music rewards comparative study with Ireland.\n\n- Focus: twmpath dances, clog stepping, and hwyl in communal singing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- Twmpath is the core Welsh social dance event — band plus caller.\n\n- Clog stepping provides percussive rhythm with hornpipes and plygi.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "A twmpath is:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "A Welsh folk dance party with live band and caller",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: A Welsh folk dance party with live band and caller"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-kp-1-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Clog dancing contributes:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Single-headed Irish frame drum",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "False",
+            "text": "Percussive foot rhythm on wooden floors",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Percussive foot rhythm on wooden floors"
       }
     ]
   },
@@ -2782,66 +4451,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- Hwyl names communal vocal surge in hymn and folk contexts.\n\n- Musicians must match dance tempo and leave space for feet.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Hwyl describes:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "Communal fervour and lift in group singing",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Communal fervour and lift in group singing"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Twmpath musicians should:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Match caller tempo and leave space for dancers' feet",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Single-headed Irish frame drum",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Match caller tempo and leave space for dancers' feet"
       }
     ]
   },
@@ -2863,13 +4532,42 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- Dance metre and tune form belong together in study.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- Bilingual calling is normal at twmpathau.\n\n- Compared with Ireland: twmpath/caller versus céilí/set dance models.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Compared with Irish céilí culture, Welsh twmpath emphasises:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Called social dances in village halls with folk band",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Called social dances in village halls with folk band"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Trac Cymru helps organise twmpath events.",
         "difficulty": 7,
         "choices": [
           {
@@ -2879,50 +4577,11 @@ export default [
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-05-dance-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 7,
-        "choices": [
-          {
-            "id": "a",
-            "text": "False",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          }
-        ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2944,66 +4603,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Twmpath dances, clog stepping, and hwyl in communal singing connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- **Twmpath** is the core Welsh social dance event — live band plus caller.\n\n- **Clog** stepping provides percussive rhythm partnering hornpipes and plygi.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Clog dancers are irrelevant to hornpipe tempo at twmpath.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": false
           },
           {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "id": "b",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "foot rhythm partners the band."
       },
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Bilingual calling at twmpath is common.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3025,66 +4664,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- **Hwyl** names communal vocal surge linking chapel, choir, and folk song to dance communities.\n\n- Musicians must match **dance tempo** and leave space for feet.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Hwyl appears only in electronic dance music.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": false
           },
           {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
+            "id": "b",
+            "text": "False",
+            "correct": true
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "hwyl is associated with communal Welsh singing."
       },
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Plygi and hornpipe tunes are used at twmpath dances.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Sligo fiddle style",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-05-dance-kp-6",
+    "title": "Wales trad: key ideas (6)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "wales",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-wales-05-dance",
+    "estimateMinutes": 4,
+    "body": "From **Welsh Traditional Music — Dance and Rhythm** (Wales trad):\n\n- Compared with Ireland: twmpath/caller model versus céilí/set; clog versus competitive step.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Twmpath is identical to an Irish pub session with no dancing.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "twmpath is dance-first with caller."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Urdd Eisteddfod involves youth in Welsh cultural performance including dance.",
+        "difficulty": 7,
+        "choices": [
           {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
+            "id": "a",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3106,66 +4786,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-05-dance",
     "estimateMinutes": 4,
-    "body": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on twmpath dances, clog stepping, and hwyl in communal singing within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nWelsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on twmpath dances, clog stepping, and hwyl in communal singing within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "This lesson connects feet, floor, and pulse in Welsh traditional music. Where Ireland's dance lesson maps céilí, set, and step dance, Wales centres twmpath social dance, clog (clocsio) stepping, and hwyl — the surging communal energy of group singing that dancers and musicians share at hymn festivals and folk nights alike.\n\nDance is not decoration on top of tunes — it is why many melodies survive. A hornpipe played too fast for figures fails the room; a waltz without lift empties the floor. Learn rhythm from dancers' shoes as much as from metronomes.\n\nThis lesson connects feet, floor, and pulse in Welsh traditional music. Where Ireland's dance lesson maps céilí, set, and step dance, Wales centres twmpath social dance, clog (clocsio) stepping, and hwyl — the surging communal energy of group singing that dancers and musicians share at hymn festivals and folk nights alike.\n\nDance is not decoration on top of tunes — it is why many melodies survive. A hornpipe played too fast for figures fails the room; a waltz without lift empties the floor. Learn rhythm from dancers' shoes as much as from metronomes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "A twmpath is:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "True",
+            "text": "A Welsh folk dance party with live band and caller",
             "correct": true
           },
           {
-            "id": "c",
+            "id": "b",
             "text": "Sligo fiddle style",
             "correct": false
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: A Welsh folk dance party with live band and caller"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-sec-1-overview-q2",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Clog dancing contributes:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
-          },
-          {
-            "id": "b",
             "text": "Donegal highland repertoire",
             "correct": false
           },
           {
-            "id": "c",
+            "id": "b",
             "text": "Sliabh Luachra polkas and slides",
             "correct": false
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "Mouth blowing only, like Highland pipes",
             "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Percussive foot rhythm on wooden floors",
+            "correct": true
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Percussive foot rhythm on wooden floors"
       }
     ]
   },
@@ -3187,71 +4867,325 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-05-dance",
     "estimateMinutes": 4,
-    "body": "Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-05-dance` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-05-dance` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Irish dance lesson (`regions-celtic-ireland-05-dance`) emphasises céilí figures, set dancing, and competitive step dance (Riverdance lineage). Welsh dance emphasises twmpath called dances, clog percussion, and hwyl in communal song — less global step-dance spectacle, more village-hall social function.\n\n| Element | Ireland | Wales |\n|---------|---------|-------|\n| Social dance event | Céilí, house dance | Twmpath |\n| Percussive feet | Hard/soft shoe step | Clog stepping |\n| Vocal communal lift | Pub singalong, lilting | Hwyl in hymn and folk song |\n| Instruction | Dance masters, classes | Caller at twmpath |\n\nParallel Ireland lesson: `regions-celtic-ireland-05-dance` — compare called group dance with set-dancing revival.\n\nIrish dance lesson (`regions-celtic-ireland-05-dance`) emphasises céilí figures, set dancing, and competitive step dance (Riverdance lineage). Welsh dance emphasises twmpath called dances, clog percussion, and hwyl in communal song — less global step-dance spectacle, more village-hall social function.\n\n| Element | Ireland | Wales |\n|---------|---------|-------|\n| Social dance event | Céilí, house dance | Twmpath |\n| Percussive feet | Hard/soft shoe step | Clog stepping |\n| Vocal communal lift | Pub singalong, lilting | Hwyl in hymn and folk song |\n| Instruction | Dance masters, classes | Caller at twmpath |\n\nParallel Ireland lesson: `regions-celtic-ireland-05-dance` — compare called group dance with set-dancing revival.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Hwyl describes:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
+            "text": "Communal fervour and lift in group singing",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Communal fervour and lift in group singing"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-05-dance-sec-2-compared-with-ireland-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Twmpath musicians should:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
+            "text": "Match caller tempo and leave space for dancers' feet",
+            "correct": true
           },
           {
             "id": "c",
-            "text": "Single-headed Irish frame drum",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "False",
-            "correct": true
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Match caller tempo and leave space for dancers' feet"
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-05-dance-sec-5-key-points",
+    "id": "celtic-wales-regions-celtic-wales-05-dance-sec-4-how-a-twmpath-works",
+    "title": "Wales trad: How a twmpath works",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "wales",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-wales-05-dance",
+    "estimateMinutes": 4,
+    "body": "1. Band tunes up; caller welcomes dancers in Welsh, English, or both.\n2. Circle dances, couple dances, and set figures are taught briefly on the floor.\n3. Sets chain hornpipes, plygi, and waltzes — form matches dance.\n4. Breaks allow clog demonstrations or penillion sets.\n5. Night ends with communal song or hymn fragment — hwyl optional but common.\n\nTwmpath culture is strongest in mid and south Wales folk club networks; Trac Cymru and local societies organise annual twmpathau and workshops.\n\n1. Band tunes up; caller welcomes dancers in Welsh, English, or both.\n2. Circle dances, couple dances, and set figures are taught briefly on the floor.\n3. Sets chain hornpipes, plygi, and waltzes — form matches dance.\n4. Breaks allow clog demonstrations or penillion sets.\n5. Night ends with communal song or hymn fragment — hwyl optional but common.\n\nTwmpath culture is strongest in mid and south Wales folk club networks; Trac Cymru and local societies organise annual twmpathau and workshops.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-4-how-a-twmpath-works-q1",
+        "type": "mcq",
+        "prompt": "Compared with Irish céilí culture, Welsh twmpath emphasises:",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Called social dances in village halls with folk band",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Called social dances in village halls with folk band"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-4-how-a-twmpath-works-q2",
+        "type": "truefalse",
+        "prompt": "Trac Cymru helps organise twmpath events.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-05-dance-sec-10-musical-characteristics",
+    "title": "Wales trad: Musical characteristics",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "wales",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-wales-05-dance",
+    "estimateMinutes": 4,
+    "body": "Hwyl manifests as accelerando of spirit rather than tempo — voices swell, harmonies tighten, conductors or song leaders cue entries. Male voice choirs (côr meibion) channel hwyl in competitive and concert settings. Folk bands invoke hwyl when audience joins Ar Lan y Môr or Cwm Rhondda refrains.\n\nMemorable detail: Hwyl is why Welsh choral culture appears in a dance lesson — feet and voices share communal pulse.\n\nHwyl manifests as accelerando of spirit rather than tempo — voices swell, harmonies tighten, conductors or song leaders cue entries. Male voice choirs (côr meibion) channel hwyl in competitive and concert settings. Folk bands invoke hwyl when audience joins Ar Lan y Môr or Cwm Rhondda refrains.\n\nMemorable detail: Hwyl is why Welsh choral culture appears in a dance lesson — feet and voices share communal pulse.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-10-musical-characteristics-q1",
+        "type": "truefalse",
+        "prompt": "Clog dancers are irrelevant to hornpipe tempo at twmpath.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "foot rhythm partners the band."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-10-musical-characteristics-q2",
+        "type": "truefalse",
+        "prompt": "Bilingual calling at twmpath is common.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-05-dance-sec-11-dance-forms-and-tune-pairing",
+    "title": "Wales trad: Dance forms and tune pairing",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "wales",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-wales-05-dance",
+    "estimateMinutes": 4,
+    "body": "| Dance context | Typical tune forms | Band voices |\n|---------------|-------------------|-------------|\n| Circle hornpipe | Hornpipe, plygi | Fiddle + accordion lead |\n| Couple waltz | Waltz 3/4 | Guitar chords, accordion melody |\n| Clog solo | Hornpipe or plygi | Steady tempo; dynamic space |\n| Processional | March or slow air | Harp optional |\n\nCallers name figures in Welsh (dos i'r chwith, circle left) and English; musicians need not speak both but must follow caller's count.\n\n| Dance context | Typical tune forms | Band voices |\n|---------------|-------------------|-------------|\n| Circle hornpipe | Hornpipe, plygi | Fiddle + accordion lead |\n| Couple waltz | Waltz 3/4 | Guitar chords, accordion melody |\n| Clog solo | Hornpipe or plygi | Steady tempo; dynamic space |\n| Processional | March or slow air | Harp optional |\n\nCallers name figures in Welsh (dos i'r chwith, circle left) and English; musicians need not speak both but must follow caller's count.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-11-dance-forms-and-tune-pairing-q1",
+        "type": "truefalse",
+        "prompt": "Hwyl appears only in electronic dance music.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "hwyl is associated with communal Welsh singing."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-11-dance-forms-and-tune-pairing-q2",
+        "type": "truefalse",
+        "prompt": "Plygi and hornpipe tunes are used at twmpath dances.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-05-dance-sec-12-festivals-and-transmission",
+    "title": "Wales trad: Festivals and transmission",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "wales",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-wales-05-dance",
+    "estimateMinutes": 4,
+    "body": "National Eisteddfod includes folk dance displays; Urdd Eisteddfod trains youth. Interceltic Festival (Lorient) and Welsh diaspora St David's Day events export twmpath culture. Dance teachers record choreography on video — modern oral transmission supplementing hall learning.\n\nCompared with Irish feis step competition, Welsh twmpath stays social rather than adjudicated — though eisteddfod folk dance categories exist for display teams.\n\nNational Eisteddfod includes folk dance displays; Urdd Eisteddfod trains youth. Interceltic Festival (Lorient) and Welsh diaspora St David's Day events export twmpath culture. Dance teachers record choreography on video — modern oral transmission supplementing hall learning.\n\nCompared with Irish feis step competition, Welsh twmpath stays social rather than adjudicated — though eisteddfod folk dance categories exist for display teams.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-12-festivals-and-transmission-q1",
+        "type": "truefalse",
+        "prompt": "Twmpath is identical to an Irish pub session with no dancing.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "twmpath is dance-first with caller."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-12-festivals-and-transmission-q2",
+        "type": "truefalse",
+        "prompt": "Urdd Eisteddfod involves youth in Welsh cultural performance including dance.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-05-dance-sec-13-key-points",
     "title": "Wales trad: Key points",
     "track": "celtic",
     "region": "wales",
@@ -3268,66 +5202,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-05-dance",
     "estimateMinutes": 4,
-    "body": "- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Twmpath dances, clog stepping, and hwyl in communal singing connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Twmpath dances, clog stepping, and hwyl in communal singing connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Twmpath is the core Welsh social dance event — live band plus caller.\n- Clog stepping provides percussive rhythm partnering hornpipes and plygi.\n- Hwyl names communal vocal surge linking chapel, choir, and folk song to dance communities.\n- Musicians must match dance tempo and leave space for feet.\n- Compared with Ireland: twmpath/caller model versus céilí/set; clog versus competitive step.\n- Bilingual calling is normal at twmpathau.\n\n- Twmpath is the core Welsh social dance event — live band plus caller.\n- Clog stepping provides percussive rhythm partnering hornpipes and plygi.\n- Hwyl names communal vocal surge linking chapel, choir, and folk song to dance communities.\n- Musicians must match dance tempo and leave space for feet.\n- Compared with Ireland: twmpath/caller model versus céilí/set; clog versus competitive step.\n- Bilingual calling is normal at twmpathau.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-5-key-points-q1",
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-13-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "A twmpath is:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
+            "text": "A Welsh folk dance party with live band and caller",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": true
+            "text": "Donegal highland repertoire",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: A Welsh folk dance party with live band and caller"
       },
       {
-        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-5-key-points-q2",
+        "id": "celtic-wales-regions-celtic-wales-05-dance-sec-13-key-points-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Clog dancing contributes:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
           },
           {
             "id": "c",
-            "text": "Single-headed Irish frame drum",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
-            "correct": false
+            "text": "Percussive foot rhythm on wooden floors",
+            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Percussive foot rhythm on wooden floors"
       }
     ]
   },
@@ -3349,66 +5283,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-06-history",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- Welsh Traditional Music rewards comparative study with Ireland.\n\n- Focus: chapel influence, industrial south Wales, and the 1970s folk revival.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- Chapel hymnody trained Wales in harmony and communal singing.\n\n- Industrial south concentrated choirs and bilingual musical life.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Chapel culture in Wales strongly promoted:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "4/4 reel time with a steady drive",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "Hymn singing and harmonic literacy in communities",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Regions where Irish remains a community language",
+            "text": "9/8 slip-jig time",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Hymn singing and harmonic literacy in communities"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-kp-1-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Cwm Rhondda was composed by:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Tips and heels striking the floor",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "False",
+            "text": "John Hughes (1907)",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "4/4 reel time with a steady drive",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Sligo fiddle style",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: John Hughes (1907)"
       }
     ]
   },
@@ -3430,66 +5364,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-06-history",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- Nicholas Bennett's Alawon Fy Ngwlad (1896) printed oral repertoire.\n\n- 1970s revival linked folk clubs, Sain label, and language activism.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Nicholas Bennett's key collection is:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Alawon Fy Ngwlad (1896)",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Tips and heels striking the floor",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Alawon Fy Ngwlad (1896)"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Industrial south Wales is associated with:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Tips and heels striking the floor",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Coal and steel valleys, male voice choirs, and dense communities",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Coal and steel valleys, male voice choirs, and dense communities"
       }
     ]
   },
@@ -3511,66 +5445,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-06-history",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- Dance metre and tune form belong together in study.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- Eisteddfod remains major teaching and prestige channel.\n\n- Compared with Ireland: chapel over Gaeltacht; eisteddfod over Comhaltas monoculture.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "The Sain record label was founded in:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Single-headed Irish frame drum",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
+            "text": "1969",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 1969"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "The 1970s folk revival in Wales linked folk clubs to Welsh-language identity activism.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-06-history-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 8,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Single-headed Irish frame drum",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3592,66 +5516,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-06-history",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Chapel influence, industrial south wales, and the 1970s folk revival connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- **Chapel hymnody** trained Wales in harmony and communal singing — foundation for choirs and hwyl.\n\n- **Industrial south** concentrated choirs, eisteddfod life, and bilingual tension.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Welsh transmission has no relationship to eisteddfod competitions.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
+            "text": "True",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "False",
-            "correct": false
+            "correct": true
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "eisteddfod remains a major teaching and prestige channel."
       },
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Collectors mediated oral village tunes into print for wider audiences.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3673,66 +5577,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-06-history",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- **Collectors** like Nicholas Bennett printed oral repertoire for national audience.\n\n- **1970s revival** linked folk clubs, Sain label, and language activism.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Chapel and twmpath existed in completely separate worlds with zero musical overlap.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "communities often participated in both hymn and dance traditions."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "BBC Radio Cymru helps broadcast Welsh-language music including folk.",
+        "difficulty": 8,
+        "choices": [
           {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "id": "a",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
+            "id": "b",
             "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-06-history-kp-6",
+    "title": "Wales trad: key ideas (6)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "wales",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-wales-06-history",
+    "estimateMinutes": 4,
+    "body": "From **Welsh Traditional Music — History, Revival, and Transmission** (Wales trad):\n\n- Modern transmission mixes eisteddfod teaching, folk clubs, and digital media.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-06-history-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "id": "celtic-wales-regions-celtic-wales-06-history-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Wales emphasises chapel hymnody more than pub session culture in historical transmission.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "St Fagans National Museum preserves Welsh musical instruments and heritage.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3754,66 +5699,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-06-history",
     "estimateMinutes": 4,
-    "body": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on chapel influence, industrial south Wales, and the 1970s folk revival within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nWelsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on chapel influence, industrial south Wales, and the 1970s folk revival within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Why does a Welsh hymn tune fill a rugby stadium while a plygi lives in a village hall? Because Welsh traditional music survived language pressure, industrial upheaval, and emigration through chapel, eisteddfod, collectors, and revival media — not through a single pub-session pipeline. This lesson follows transmission from medieval harp law to twentieth-century folk clubs, Sain recordings, and the 1970s folk revival that fed Bob Delyn and festival culture (Lesson 7).\n\nYou have met tune types, instruments, and dance. Here you learn how repertoire moved — and why chapel harmony and coal-valley migration matter as much as harp manuscripts.\n\nWhy does a Welsh hymn tune fill a rugby stadium while a plygi lives in a village hall? Because Welsh traditional music survived language pressure, industrial upheaval, and emigration through chapel, eisteddfod, collectors, and revival media — not through a single pub-session pipeline. This lesson follows transmission from medieval harp law to twentieth-century folk clubs, Sain recordings, and the 1970s folk revival that fed Bob Delyn and festival culture (Lesson 7).\n\nYou have met tune types, instruments, and dance. Here you learn how repertoire moved — and why chapel harmony and coal-valley migration matter as much as harp manuscripts.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "Chapel culture in Wales strongly promoted:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "4/4 reel time with a steady drive",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
+            "text": "Hymn singing and harmonic literacy in communities",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "True",
-            "correct": true
+            "text": "9/8 slip-jig time",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Hymn singing and harmonic literacy in communities"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-sec-1-overview-q2",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Cwm Rhondda was composed by:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "John Hughes (1907)",
             "correct": true
           },
           {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Sligo fiddle style",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: John Hughes (1907)"
       }
     ]
   },
@@ -3835,71 +5780,487 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-06-history",
     "estimateMinutes": 4,
-    "body": "Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Ireland's history lesson (`regions-celtic-ireland-06-history`) traces annals, Carolan, O'Neill's Chicago tune books, Comhaltas 1951, and diaspora 78s. Wales parallels collector print and revival institutions but emphasises Nonconformist chapel, industrial south migration, and eisteddfod rather than fleadh session culture.\n\n| Transmission channel | Ireland | Wales |\n|---------------------|---------|-------|\n| Sacred music | Monastic hymn, slow air | Chapel hymnody, Cymanfa Ganu |\n| Industrial era | Emigration, 78 rpm | Coal and steel valleys, choirs |\n| Revival institution | Comhaltas, fleadh | Eisteddfod, folk clubs, Sain |\n| Key collector | Francis O'Neill | Nicholas Bennett, J. Lloyd Williams |\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history` — compare oral survival strategies under colonial pressure.\n\nIreland's history lesson (`regions-celtic-ireland-06-history`) traces annals, Carolan, O'Neill's Chicago tune books, Comhaltas 1951, and diaspora 78s. Wales parallels collector print and revival institutions but emphasises Nonconformist chapel, industrial south migration, and eisteddfod rather than fleadh session culture.\n\n| Transmission channel | Ireland | Wales |\n|---------------------|---------|-------|\n| Sacred music | Monastic hymn, slow air | Chapel hymnody, Cymanfa Ganu |\n| Industrial era | Emigration, 78 rpm | Coal and steel valleys, choirs |\n| Revival institution | Comhaltas, fleadh | Eisteddfod, folk clubs, Sain |\n| Key collector | Francis O'Neill | Nicholas Bennett, J. Lloyd Williams |\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history` — compare oral survival strategies under colonial pressure.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Nicholas Bennett's key collection is:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
+            "text": "Alawon Fy Ngwlad (1896)",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "Donegal highland repertoire",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "Regions where Irish remains a community language",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Alawon Fy Ngwlad (1896)"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-06-history-sec-2-compared-with-ireland-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Industrial south Wales is associated with:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Tips and heels striking the floor",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Coal and steel valleys, male voice choirs, and dense communities",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Coal and steel valleys, male voice choirs, and dense communities"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-06-history-sec-3-medieval-harp-and-bardic-law",
+    "title": "Wales trad: Medieval harp and bardic law",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "wales",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-wales-06-history",
+    "estimateMinutes": 4,
+    "body": "Welsh law codes (e.g. Hywel Dda traditions) and poetry treat harpers as privileged professionals. The crwth and harp served courts and gentry before fiddle democratisation. Bardic praise poetry (cywydd, englyn) linked verse to musical performance — ancestor of penillion discipline.\n\nLoss of aristocratic patronage after Tudor conquest and Anglicisation pushed musicians toward village and chapel contexts — same broad pattern as Irish harp decline, different legal and linguistic details.\n\nWelsh law codes (e.g. Hywel Dda traditions) and poetry treat harpers as privileged professionals. The crwth and harp served courts and gentry before fiddle democratisation. Bardic praise poetry (cywydd, englyn) linked verse to musical performance — ancestor of penillion discipline.\n\nLoss of aristocratic patronage after Tudor conquest and Anglicisation pushed musicians toward village and chapel contexts — same broad pattern as Irish harp decline, different legal and linguistic details.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-3-medieval-harp-and-bardic-law-q1",
+        "type": "mcq",
+        "prompt": "The Sain record label was founded in:",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "1969",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 1969"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-3-medieval-harp-and-bardic-law-q2",
+        "type": "truefalse",
+        "prompt": "The 1970s folk revival in Wales linked folk clubs to Welsh-language identity activism.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-06-history-sec-4-chapel-influence-hymnody-as-national-spine",
+    "title": "Wales trad: Chapel influence: hymnody as national spine",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "wales",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-wales-06-history",
+    "estimateMinutes": 4,
+    "body": "Eighteenth- and nineteenth-century Nonconformist revival (Cymru yn deffro — Wales awakes) made chapel the centre of Welsh musical education. Congregations sang hymn tunes in harmony; Cymanfa Ganu festivals gathered thousands. Composers like William Williams Pantycelyn (hymn writer) and tune writers John Hughes (Cwm Rhondda) embedded melody in daily life.\n\nWelsh Nonconformist chapel culture taught:\n\n- Four-part harmony literacy in working-class communities\n- Male voice choirs in mining valleys — export to diaspora\n- Bilingual repertoire — Welsh lyrics, sometimes English gospel hymns\n\nFolk dance did not die in chapel disapproval everywhere — but Sunday sacred and Saturday twmpath split social time, shaping who played where. Revivalists in the 1970s reclaimed Saturday night without abandoning hymn heritage.\n\nMemorable detail: Cwm Rhondda was sung at Princess Diana's funeral (1997) — Welsh hymn tune as global ceremonial music.\n\nEighteenth- and nineteenth-century Nonconformist revival (Cymru yn deffro — Wales awakes) made chapel the centre of Welsh musical education. Congregations sang hymn tunes in harmony; Cymanfa Ganu festivals gathered thousands. Composers like William Williams Pantycelyn (hymn writer) and tune writers John Hughes (Cwm Rhondda) embedded melody in daily life. Welsh Nonconformist chapel culture taught: - Four-part harmony literacy in working-class communities - Male voice choirs in mining valleys — export to diaspora - Bilingual repertoire — Welsh lyrics, sometimes English gospel hymns Folk dance did not die in chapel disapproval everywhere — but Sunday sacred and Saturday twmpath split social time, shaping who played where. Revivalists in the 1970s reclaimed Saturday night without abandoning hymn heritage. Memorable detail: Cwm Rhondda…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-4-chapel-influence-hymnody-as-national-spine-q1",
+        "type": "truefalse",
+        "prompt": "Welsh transmission has no relationship to eisteddfod competitions.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
             "text": "False",
             "correct": true
+          }
+        ],
+        "explain": "eisteddfod remains a major teaching and prestige channel."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-4-chapel-influence-hymnody-as-national-spine-q2",
+        "type": "truefalse",
+        "prompt": "Collectors mediated oral village tunes into print for wider audiences.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
           },
           {
-            "id": "c",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Group social choreography for multiple dancers",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-06-history-sec-5-key-points",
+    "id": "celtic-wales-regions-celtic-wales-06-history-sec-5-industrial-south-wales-coal-steel-and-migration",
+    "title": "Wales trad: Industrial south Wales: coal, steel, and migration",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "wales",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-wales-06-history",
+    "estimateMinutes": 4,
+    "body": "Industrial south Wales — Rhondda, Merthyr, Swansea valleys — concentrated population, choirs, and pub folk in tight communities. Coal and steel work brought internal migration from Welsh-speaking north and west; English became dominant in some valleys while music kept Welsh titles alive.\n\nTransmission paths:\n\n- Eisteddfod competitions in mining towns\n- St David's Day school concerts\n- Emigration to Pennsylvania, Ohio, and Australia — choirs and harp societies abroad\n- BBC Wales broadcasting folk and hymn programmes post-1922\n\nIndustrial decline in late twentieth century closed chapels and halls — threatening venues — but also fuelled folk revival activism to document survivors.\n\nIndustrial south Wales — Rhondda, Merthyr, Swansea valleys — concentrated population, choirs, and pub folk in tight communities. Coal and steel work brought internal migration from Welsh-speaking north and west; English became dominant in some valleys while music kept Welsh titles alive.\n\nTransmission paths:\n\n- Eisteddfod competitions in mining towns\n- St David's Day school concerts\n- Emigration to Pennsylvania, Ohio, and Australia — choirs and harp societies abroad\n- BBC Wales broadcasting folk and hymn programmes post-1922\n\nIndustrial decline in late twentieth century closed chapels and halls — threatening venues — but also fuelled folk revival activism to document survivors.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-5-industrial-south-wales-coal-steel-and-migration-q1",
+        "type": "truefalse",
+        "prompt": "Chapel and twmpath existed in completely separate worlds with zero musical overlap.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "communities often participated in both hymn and dance traditions."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-5-industrial-south-wales-coal-steel-and-migration-q2",
+        "type": "truefalse",
+        "prompt": "BBC Radio Cymru helps broadcast Welsh-language music including folk.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-06-history-sec-6-collectors-and-print-tradition",
+    "title": "Wales trad: Collectors and print tradition",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "wales",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-wales-06-history",
+    "estimateMinutes": 4,
+    "body": "Before recording, print fixed tunes:\n\n- Nicholas Bennett — Alawon Fy Ngwlad (1896) — foundational Welsh tune collection\n- J. Lloyd Williams and Arthur Somerville Velarde — Alawon Cymru and related editions\n- Maria Jane Williams — Ancient National Airs of Gwent and Morgannwg (1844)\n\nCollectors mediated oral village repertoire into sheet music for middle-class pianos and eisteddfod competitors — same tension as O'Neill in Chicago: standard settings versus living variation.\n\nBefore recording, print fixed tunes:\n\n- Nicholas Bennett — Alawon Fy Ngwlad (1896) — foundational Welsh tune collection\n- J. Lloyd Williams and Arthur Somerville Velarde — Alawon Cymru and related editions\n- Maria Jane Williams — Ancient National Airs of Gwent and Morgannwg (1844)\n\nCollectors mediated oral village repertoire into sheet music for middle-class pianos and eisteddfod competitors — same tension as O'Neill in Chicago: standard settings versus living variation.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-6-collectors-and-print-tradition-q1",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Wales emphasises chapel hymnody more than pub session culture in historical transmission.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-6-collectors-and-print-tradition-q2",
+        "type": "truefalse",
+        "prompt": "St Fagans National Museum preserves Welsh musical instruments and heritage.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-06-history-sec-7-the-1970s-folk-revival",
+    "title": "Wales trad: The 1970s folk revival",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "wales",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-wales-06-history",
+    "estimateMinutes": 4,
+    "body": "The 1970s folk revival in Wales paralleled Irish and Scottish revivals: folk clubs multiplied, Sain label (founded 1969) recorded Welsh-language rock and folk, BBC folk programmes archived artists. Young musicians learned trad tunes and rock technique simultaneously — pipeline to bob-delyn (1988 onward).\n\nKey dynamics:\n\n- Political Welsh language activism (Cymdeithas yr Iaith) linked folk to identity\n- Festivals (National Eisteddfod, Cambridge Folk Festival Welsh acts) exported sound\n- Teachers standardised twmpath dance and harp pedagogy\n\nCompared with Irish Comhaltas 1951 foundation, Welsh revival stayed more fragmented across clubs, labels, and eisteddfod — no single global body, but National Eisteddfod of Wales prestige anchor.\n\nMemorable detail: Sain's first hit (Y Blew by Heather Jones, 1973) proved Welsh-language pop could sell — folk rode the same infrastructure.\n\nThe 1970s folk revival in Wales paralleled Irish and Scottish revivals: folk clubs multiplied, Sain label (founded 1969) recorded Welsh-language rock and folk, BBC folk programmes archived artists. Young musicians learned trad tunes and rock technique simultaneously — pipeline to bob-delyn (1988 onward). Key dynamics: - Political Welsh language activism (Cymdeithas yr Iaith) linked folk to identity - Festivals (National Eisteddfod, Cambridge Folk Festival Welsh acts) exported sound - Teachers standardised twmpath dance and harp pedagogy Compared with Irish Comhaltas 1951 foundation, Welsh revival stayed more fragmented across clubs, labels, and eisteddfod — no single global body, but National Eisteddfod of Wales prestige anchor. Memorable detail: Sain's first hit (Y Blew by Heather Jones, 1973) proved Welsh-language pop could sell…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-7-the-1970s-folk-revival-q1",
+        "type": "mcq",
+        "prompt": "Chapel culture in Wales strongly promoted:",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Hymn singing and harmonic literacy in communities",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Hymn singing and harmonic literacy in communities"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-7-the-1970s-folk-revival-q2",
+        "type": "mcq",
+        "prompt": "Cwm Rhondda was composed by:",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "John Hughes (1907)",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: John Hughes (1907)"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-06-history-sec-8-broadcasting-archives-and-modern-transmission",
+    "title": "Wales trad: Broadcasting, archives, and modern transmission",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "wales",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-wales-06-history",
+    "estimateMinutes": 4,
+    "body": "BBC Radio Cymru (1982) and BBC Radio Wales sustain folk playlists. St Fagans National Museum of History preserves instruments and field recordings. Trac Cymru funds touring and education. YouTube and social media now spread twmpath clips — oral tradition with digital speed.\n\nDebates echo Ireland: competition precision versus club swing; language policy versus bilingual audiences; fusion versus source.\n\nBBC Radio Cymru (1982) and BBC Radio Wales sustain folk playlists. St Fagans National Museum of History preserves instruments and field recordings. Trac Cymru funds touring and education. YouTube and social media now spread twmpath clips — oral tradition with digital speed.\n\nDebates echo Ireland: competition precision versus club swing; language policy versus bilingual audiences; fusion versus source.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-8-broadcasting-archives-and-modern-transmission-q1",
+        "type": "mcq",
+        "prompt": "Nicholas Bennett's key collection is:",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Alawon Fy Ngwlad (1896)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Alawon Fy Ngwlad (1896)"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-8-broadcasting-archives-and-modern-transmission-q2",
+        "type": "mcq",
+        "prompt": "Industrial south Wales is associated with:",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Coal and steel valleys, male voice choirs, and dense communities",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Coal and steel valleys, male voice choirs, and dense communities"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-06-history-sec-10-key-points",
     "title": "Wales trad: Key points",
     "track": "celtic",
     "region": "wales",
@@ -3916,66 +6277,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-06-history",
     "estimateMinutes": 4,
-    "body": "- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Chapel influence, industrial south wales, and the 1970s folk revival connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Chapel influence, industrial south wales, and the 1970s folk revival connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Chapel hymnody trained Wales in harmony and communal singing — foundation for choirs and hwyl.\n- Industrial south concentrated choirs, eisteddfod life, and bilingual tension.\n- Collectors like Nicholas Bennett printed oral repertoire for national audience.\n- 1970s revival linked folk clubs, Sain label, and language activism.\n- Compared with Ireland: chapel over Gaeltacht; eisteddfod over Comhaltas monoculture.\n- Modern transmission mixes eisteddfod teaching, folk clubs, and digital media.\n\n- Chapel hymnody trained Wales in harmony and communal singing — foundation for choirs and hwyl.\n- Industrial south concentrated choirs, eisteddfod life, and bilingual tension.\n- Collectors like Nicholas Bennett printed oral repertoire for national audience.\n- 1970s revival linked folk clubs, Sain label, and language activism.\n- Compared with Ireland: chapel over Gaeltacht; eisteddfod over Comhaltas monoculture.\n- Modern transmission mixes eisteddfod teaching, folk clubs, and digital media.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-06-history-sec-5-key-points-q1",
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-10-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "The Sain record label was founded in:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": true
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Tips and heels striking the floor",
-            "correct": false
+            "text": "1969",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: 1969"
       },
       {
-        "id": "celtic-wales-regions-celtic-wales-06-history-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-wales-regions-celtic-wales-06-history-sec-10-key-points-q2",
+        "type": "truefalse",
+        "prompt": "The 1970s folk revival in Wales linked folk clubs to Welsh-language identity activism.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Tips and heels striking the floor",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3997,66 +6348,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- Welsh Traditional Music rewards comparative study with Ireland.\n\n- Focus: Bob Delyn a'r Ebillion, festival culture, and choral crossover.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- Bob Delyn a'r Ebillion anchor 1990s Welsh folk-rock with Twm Morys.\n\n- National Eisteddfod and folk festivals are dual prestige and popular stages.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Bob Delyn a'r Ebillion are:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "A Welsh folk-rock band fronted by Twm Morys",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Build on—not replace—living tradition",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: A Welsh folk-rock band fronted by Twm Morys"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-1-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Twm Morys holds the title:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "False",
+            "text": "Prifardd (Chief Bard)",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Prifardd (Chief Bard)"
       }
     ]
   },
@@ -4078,66 +6429,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- Choral crossover links hymn hwyl and folk melody at mass scale.\n\n- Bilingual and Breton collaboration mark festival internationalism.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Bob Delyn was formed in:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "1988",
             "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "9/8 slip-jig time",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: 1988"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "National Eisteddfod festival culture includes:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Sligo fiddle style",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Folk concerts, twmpath, and competitive music on the maes",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Folk concerts, twmpath, and competitive music on the maes"
       }
     ]
   },
@@ -4159,66 +6510,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- Dance metre and tune form belong together in study.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- Trac Cymru and Sain sustain touring and recording.\n\n- Compared with Ireland: choral stadium culture over Riverdance spectacle.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Choral crossover in Wales connects:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Sligo fiddle style",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "c",
+            "text": "Male voice choirs, hymn hwyl, and folk melody traditions",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Male voice choirs, hymn hwyl, and folk melody traditions"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Bob Delyn records include songs in Welsh and Breton.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 9,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Donegal highland repertoire",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4240,66 +6581,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Bob delyn a'r ebillion, festival culture, and choral crossover connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- [[track:bob-delyn-track|Bob Delyn a'r Ebillion]] anchor 1990s Welsh folk-rock with Twm Morys as Chief Bard frontman.\n\n- **National Eisteddfod** and folk festivals are dual prestige and popular stages.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Trac Cymru supports Welsh folk touring and awards.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Green Man Festival is unrelated to any Welsh music.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "it books Welsh folk artists among its lineup."
       }
     ]
   },
@@ -4321,66 +6642,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- **Choral crossover** links hymn hwyl, male voice choirs, and folk melody at mass scale.\n\n- Bilingual and **Breton** collaboration mark Welsh festival internationalism.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Cwm Rhondda has been sung at large public ceremonies including Princess Diana's funeral.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Bob Delyn's Sain label releases helped document the folk revival.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-6",
+    "title": "Wales trad: key ideas (6)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "wales",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-wales-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "From **Welsh Traditional Music — Representative Fusions and Scenes** (Wales trad):\n\n- Compared with Ireland: choral stadium culture and eisteddfod over Riverdance model.\n\n- Trac Cymru and Sain sustain touring and recording infrastructure.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Welsh fusion scenes never interact with eisteddfod culture.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": false
           },
           {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "bardic prestige and rock staging interpenetrate."
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Compared with Riverdance, Wales more often exports choral hwyl and hymn-folk identity to stadiums.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
           },
           {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4402,66 +6764,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on Bob Delyn a'r Ebillion, festival culture, and choral crossover within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nWelsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on Bob Delyn a'r Ebillion, festival culture, and choral crossover within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "This lesson maps how Welsh traditional music left the chapel, the twmpath hall, and the eisteddfod stage to meet rock amplifiers, festival crowds, diaspora choirs, and Breton collaboration. It assumes you know chapel history, industrial south transmission, and the 1970s revival (Lesson 6). Here the focus is named bands, festival scenes, and choral crossover from the 1980s to the present.\n\nThink of Welsh music as braided strands: male voice choir hwyl, folk club acoustic tradition, National Eisteddfod prestige, and folk-rock festival energy.  — listen for bilingual lyrics and rock rhythm section beneath fiddle and harp lines. Bob Delyn a'r Ebillion knot them together for international listeners.\n\nThis lesson maps how Welsh traditional music left the chapel, the twmpath hall, and the eisteddfod stage to meet rock amplifiers, festival crowds, diaspora choirs, and Breton collaboration. It assumes you know chapel history, industrial south transmission, and the 1970s revival (Lesson 6). Here the focus is named bands, festival scenes, and choral crossover from the 1980s to the present.\n\nThink of Welsh music as braided strands: male voice choir hwyl, folk club acoustic tradition, National Eisteddfod prestige, and folk-rock festival energy.  — listen for bilingual lyrics and rock rhythm section beneath fiddle and harp lines. Bob Delyn a'r Ebillion knot them together for international listeners.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "Bob Delyn a'r Ebillion are:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
+            "text": "A Welsh folk-rock band fronted by Twm Morys",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "True",
-            "correct": true
+            "text": "Regions where Irish remains a community language",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: A Welsh folk-rock band fronted by Twm Morys"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-1-overview-q2",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Twm Morys holds the title:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Prifardd (Chief Bard)",
             "correct": true
           },
           {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
             "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Prifardd (Chief Bard)"
       }
     ]
   },
@@ -4483,71 +6845,203 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Ireland's Representative Depth lesson (`regions-celtic-ireland-07-representative-depth`) surveys showbands, Planxty, Pogues, Riverdance. Wales offers Bob Delyn folk-rock, eisteddfod–festival pipeline, and choral stadium culture rather than global step-dance spectacle.\n\n| Scene | Ireland | Wales |\n|-------|---------|-------|\n| Rock-folk fusion | Planxty, Horslips, Pogues |  |\n| Mega spectacle | Riverdance | Choral hwyl (rugby, Cymanfa) |\n| Festival anchor | Fleadh Cheoil | National Eisteddfod, folk festivals |\n| Diaspora export | Irish pubs, Comhaltas branches | Welsh choirs, St David's societies |\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth` — compare fusion porousness and return paths to acoustic trad.\n\nIreland's Representative Depth lesson (`regions-celtic-ireland-07-representative-depth`) surveys showbands, Planxty, Pogues, Riverdance. Wales offers Bob Delyn folk-rock, eisteddfod–festival pipeline, and choral stadium culture rather than global step-dance spectacle.\n\n| Scene | Ireland | Wales |\n|-------|---------|-------|\n| Rock-folk fusion | Planxty, Horslips, Pogues |  |\n| Mega spectacle | Riverdance | Choral hwyl (rugby, Cymanfa) |\n| Festival anchor | Fleadh Cheoil | National Eisteddfod, folk festivals |\n| Diaspora export | Irish pubs, Comhaltas branches | Welsh choirs, St David's societies |\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth` — compare fusion porousness and return paths to acoustic trad.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Bob Delyn was formed in:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
+            "text": "1988",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "Tips and heels striking the floor",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "Build on—not replace—living tradition",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: 1988"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-2-compared-with-ireland-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "National Eisteddfod festival culture includes:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Folk concerts, twmpath, and competitive music on the maes",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Folk concerts, twmpath, and competitive music on the maes"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-10-choral-crossover",
+    "title": "Wales trad: Choral crossover",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "wales",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-wales-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "Choral crossover connects folk melody to mass participation:\n\n- Male voice choirs (Treorchy, Morriston Orpheus) perform hymn and folk arrangements in halls and on television\n- Only Boys Aloud and youth choirs modernise image\n- Cymanfa Ganu events draw thousands — folk singers join hymn hwyl\n- Rugby internationals feature Hen Wlad Fy Nhadau and Cwm Rhondda — folk-hymn identity at stadium scale\n\nWelsh male voice choir tradition is not separate from folk — same valleys, same families, different Saturday night.\n\nMemorable detail: A folk harpist and a choir bass may share a eisteddfod coach as teenagers — scenes interpenetrate.\n\nChoral crossover connects folk melody to mass participation:\n\n- Male voice choirs (Treorchy, Morriston Orpheus) perform hymn and folk arrangements in halls and on television\n- Only Boys Aloud and youth choirs modernise image\n- Cymanfa Ganu events draw thousands — folk singers join hymn hwyl\n- Rugby internationals feature Hen Wlad Fy Nhadau and Cwm Rhondda — folk-hymn identity at stadium scale\n\nWelsh male voice choir tradition is not separate from folk — same valleys, same families, different Saturday night.\n\nMemorable detail: A folk harpist and a choir bass may share a eisteddfod coach as teenagers — scenes interpenetrate.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-10-choral-crossover-q1",
+        "type": "mcq",
+        "prompt": "Choral crossover in Wales connects:",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Male voice choirs, hymn hwyl, and folk melody traditions",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Male voice choirs, hymn hwyl, and folk melody traditions"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-10-choral-crossover-q2",
+        "type": "truefalse",
+        "prompt": "Bob Delyn records include songs in Welsh and Breton.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-11-other-fusion-and-scene-voices-brief",
+    "title": "Wales trad: Other fusion and scene voices (brief)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "wales",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-wales-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "| Artist / scene | Notes |\n|----------------|-------|\n| Heather Jones | Sain star; Welsh-language pop-folk bridge |\n| 9 Bach | Folk-electronic; trad samples in ambient production |\n| Calan | Contemporary folk band; festival circuit |\n| Bragod | Early music — crwth, pibgorn scholarship |\n| Diaspora | London Welsh societies, Patagonia Welsh choirs |\n\nIrish fusion acts influenced Welsh musicians who heard Planxty and Chieftains on BBC — porous border, shared retail shelves.\n\n| Artist / scene | Notes |\n|----------------|-------|\n| Heather Jones | Sain star; Welsh-language pop-folk bridge |\n| 9 Bach | Folk-electronic; trad samples in ambient production |\n| Calan | Contemporary folk band; festival circuit |\n| Bragod | Early music — crwth, pibgorn scholarship |\n| Diaspora | London Welsh societies, Patagonia Welsh choirs |\n\nIrish fusion acts influenced Welsh musicians who heard Planxty and Chieftains on BBC — porous border, shared retail shelves.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-11-other-fusion-and-scene-voices-brief-q1",
+        "type": "truefalse",
+        "prompt": "Trac Cymru supports Welsh folk touring and awards.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-11-other-fusion-and-scene-voices-brief-q2",
+        "type": "truefalse",
+        "prompt": "Green Man Festival is unrelated to any Welsh music.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
             "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "it books Welsh folk artists among its lineup."
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-5-key-points",
+    "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-13-key-points",
     "title": "Wales trad: Key points",
     "track": "celtic",
     "region": "wales",
@@ -4564,66 +7058,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Bob delyn a'r ebillion, festival culture, and choral crossover connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Bob delyn a'r ebillion, festival culture, and choral crossover connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "-  anchor 1990s Welsh folk-rock with Twm Morys as Chief Bard frontman.\n- National Eisteddfod and folk festivals are dual prestige and popular stages.\n- Choral crossover links hymn hwyl, male voice choirs, and folk melody at mass scale.\n- Bilingual and Breton collaboration mark Welsh festival internationalism.\n- Compared with Ireland: choral stadium culture and eisteddfod over Riverdance model.\n- Trac Cymru and Sain sustain touring and recording infrastructure.\n\n-  anchor 1990s Welsh folk-rock with Twm Morys as Chief Bard frontman.\n- National Eisteddfod and folk festivals are dual prestige and popular stages.\n- Choral crossover links hymn hwyl, male voice choirs, and folk melody at mass scale.\n- Bilingual and Breton collaboration mark Welsh festival internationalism.\n- Compared with Ireland: choral stadium culture and eisteddfod over Riverdance model.\n- Trac Cymru and Sain sustain touring and recording infrastructure.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-13-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Cwm Rhondda has been sung at large public ceremonies including Princess Diana's funeral.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-wales-regions-celtic-wales-07-representative-depth-sec-13-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Bob Delyn's Sain label releases helped document the folk revival.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4645,66 +7119,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- Welsh Traditional Music rewards comparative study with Ireland.\n\n- Focus: Ar Lan y Môr, Cader Idris, and classic harp/fiddle recordings.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- Ar Lan y Môr is a gateway Welsh song and harp slow air.\n\n- Cader Idris is a harp and fiddle standard linked to mountain identity.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Ar Lan y Môr translates approximately as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "D, G, A, and E minor",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Francis O'Neill",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Beside the Sea",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Beside the Sea"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-1-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Cader Idris is associated with:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "False",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
             "correct": true
           },
           {
             "id": "d",
-            "text": "D, G, A, and E minor",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: A mountain in Snowdonia and a folk tune of the same name"
       }
     ]
   },
@@ -4726,66 +7200,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- Nansi Richards anchors harp recording history.\n\n- Nicholas Bennett's Alawon Fy Ngwlad is a key print source.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Nansi Richards was known as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
+            "text": "Beside the Sea",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "The Queen of the Harp",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Francis O'Neill",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Brendan Breathnach",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: The Queen of the Harp"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Alawon Fy Ngwlad was published by:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Nicholas Bennett (1896)",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mullingar, 1951",
+            "text": "Beside the Sea",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Nicholas Bennett (1896)"
       }
     ]
   },
@@ -4807,66 +7281,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- Dance metre and tune form belong together in study.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- Compare eisteddfod and twmpath readings for accent.\n\n- Compared with Ireland: song-air centrality over session reel standards.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Ar Lan y Môr circulates as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
+            "text": "Beside the Sea",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Regions where Irish remains a community language",
+            "text": "The Queen of the Harp",
             "correct": false
           },
           {
             "id": "d",
-            "text": "True",
+            "text": "Folk song, harp air, and choral arrangement",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Folk song, harp air, and choral arrangement"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "Triple harp is a primary instrument for Ar Lan y Môr slow air settings.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4888,42 +7352,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Ar lan y môr, cader idris, and classic harp/fiddle recordings connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- **Ar Lan y Môr** is a gateway Welsh song and harp slow air with festival chorus life.\n\n- **Cader Idris** is a harp and fiddle dance standard linked to mountain identity.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Cader Idris appears in Welsh dance and harp repertoire.",
         "difficulty": 6,
         "choices": [
           {
@@ -4933,21 +7368,30 @@ export default [
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Nansi Richards performed at Queen Elizabeth II's coronation tour in 1953.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4969,66 +7413,107 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- **Nansi Richards** anchors harp recording history; contemporary artists refresh settings.\n\n- Nicholas Bennett's *Alawon Fy Ngwlad* is a key print source for tune names.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Welsh tune study requires no comparison between harp and fiddle recordings.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "comparative listening reveals accent and setting."
       },
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Suo Gân is a Welsh lullaby with wider popular culture exposure.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-6",
+    "title": "Wales trad: key ideas (6)",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "tunes",
+      "recordings"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-wales-08-tunes",
+    "estimateMinutes": 4,
+    "body": "From **Welsh Traditional Music — Tunes — Forms, History, and Recordings** (Wales trad):\n\n- Compare eisteddfod and twmpath readings for regional accent.\n\n- Compared with Ireland: song-air centrality over session reel marathon.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Dafydd y Garreg Wen is linked to harp legend tradition.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-kp-6-q2",
+        "type": "truefalse",
+        "prompt": "Cader Idris is unrelated to any Welsh geographical feature.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "tune and mountain share the name Cadair Idris."
       }
     ]
   },
@@ -5050,66 +7535,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-08-tunes",
     "estimateMinutes": 4,
-    "body": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on Ar Lan y Môr, Cader Idris, and classic harp/fiddle recordings within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nWelsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on Ar Lan y Môr, Cader Idris, and classic harp/fiddle recordings within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "This lesson turns the genre field guide into named repertoire. You will meet Ar Lan y Môr and Cader Idris — two pillars of Welsh song and dance music — with harp and fiddle recordings, collector history, and comparative listening. The same title may sound lyrical on triple harp at eisteddfod and driving in a twmpath fiddle set; that variation is tradition working.\n\nListen comparatively: eisteddfod precision versus folk-club swing; Welsh lyrics versus instrumental air.\n\nThis lesson turns the genre field guide into named repertoire. You will meet Ar Lan y Môr and Cader Idris — two pillars of Welsh song and dance music — with harp and fiddle recordings, collector history, and comparative listening. The same title may sound lyrical on triple harp at eisteddfod and driving in a twmpath fiddle set; that variation is tradition working.\n\nListen comparatively: eisteddfod precision versus folk-club swing; Welsh lyrics versus instrumental air.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-1-overview-q1",
         "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "prompt": "Ar Lan y Môr translates approximately as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
-            "id": "c",
-            "text": "True",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
+            "id": "b",
             "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
-            "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
-          },
-          {
             "id": "c",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Tips and heels striking the floor",
+            "text": "Beside the Sea",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Beside the Sea"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-1-overview-q2",
+        "type": "mcq",
+        "prompt": "Cader Idris is associated with:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: A mountain in Snowdonia and a folk tune of the same name"
       }
     ]
   },
@@ -5131,71 +7616,203 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-08-tunes",
     "estimateMinutes": 4,
-    "body": "Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-08-tunes` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\nParallel Ireland lesson: `regions-celtic-ireland-08-tunes` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Ireland's Tunes lesson (`regions-celtic-ireland-08-tunes`) centres session standards like The Silver Spear and The Kesh Jig with Coleman 78 history. Wales centres song airs and harp standards with Nicholas Bennett print lineage and Nansi Richards harp recordings.\n\n| Tune | Ireland parallel | Welsh role |\n|------|-----------------|------------|\n| Session reel standard | The Silver Spear | Cader Idris (dance + harp) |\n| Gateway song/air | The Rocky Road | Ar Lan y Môr (lyric + air) |\n| Iconic player | Michael Coleman | Nansi Richards (harp) |\n\nParallel Ireland lesson: `regions-celtic-ireland-08-tunes` — compare how one recording fixes a \"standard\" setting.\n\nIreland's Tunes lesson (`regions-celtic-ireland-08-tunes`) centres session standards like The Silver Spear and The Kesh Jig with Coleman 78 history. Wales centres song airs and harp standards with Nicholas Bennett print lineage and Nansi Richards harp recordings.\n\n| Tune | Ireland parallel | Welsh role |\n|------|-----------------|------------|\n| Session reel standard | The Silver Spear | Cader Idris (dance + harp) |\n| Gateway song/air | The Rocky Road | Ar Lan y Môr (lyric + air) |\n| Iconic player | Michael Coleman | Nansi Richards (harp) |\n\nParallel Ireland lesson: `regions-celtic-ireland-08-tunes` — compare how one recording fixes a \"standard\" setting.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Nansi Richards was known as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Beside the Sea",
             "correct": false
           },
           {
             "id": "b",
-            "text": "D, G, A, and E minor",
-            "correct": false
+            "text": "The Queen of the Harp",
+            "correct": true
           },
           {
             "id": "c",
-            "text": "Francis O'Neill",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "Single-headed Irish frame drum",
+            "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: The Queen of the Harp"
       },
       {
         "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-2-compared-with-ireland-q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Alawon Fy Ngwlad was published by:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
-            "correct": false
+            "text": "Nicholas Bennett (1896)",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "False",
-            "correct": true
+            "text": "Beside the Sea",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "D, G, A, and E minor",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Nicholas Bennett (1896)"
       }
     ]
   },
   {
-    "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-5-key-points",
+    "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-9-classic-harp-and-fiddle-recordings",
+    "title": "Wales trad: Classic harp and fiddle recordings",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "tunes",
+      "recordings"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-wales-08-tunes",
+    "estimateMinutes": 4,
+    "body": "| Artist | Instrument | Notes |\n|--------|------------|-------|\n| Nansi Richards | Triple harp | National symbol; coronation tour 1953 |\n| Llio Rhydderch | Triple harp | Penillion and trad revival |\n| Elinor Bennett | Triple harp | Concert and folk repertoire |\n| Patrick Rimes | Fiddle (also crwth) | Contemporary twmpath and festival |\n| Cass Meurig | Crwth, fiddle | Scholar-performer crossover |\n\nUse lesson metadata playlist entries to hear harp versus fiddle readings of the same tune.\n\n| Artist | Instrument | Notes |\n|--------|------------|-------|\n| Nansi Richards | Triple harp | National symbol; coronation tour 1953 |\n| Llio Rhydderch | Triple harp | Penillion and trad revival |\n| Elinor Bennett | Triple harp | Concert and folk repertoire |\n| Patrick Rimes | Fiddle (also crwth) | Contemporary twmpath and festival |\n| Cass Meurig | Crwth, fiddle | Scholar-performer crossover |\n\nUse lesson metadata playlist entries to hear harp versus fiddle readings of the same tune.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-9-classic-harp-and-fiddle-recordings-q1",
+        "type": "mcq",
+        "prompt": "Ar Lan y Môr circulates as:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Beside the Sea",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "The Queen of the Harp",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Folk song, harp air, and choral arrangement",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Folk song, harp air, and choral arrangement"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-9-classic-harp-and-fiddle-recordings-q2",
+        "type": "truefalse",
+        "prompt": "Triple harp is a primary instrument for Ar Lan y Môr slow air settings.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-10-more-repertoire-table",
+    "title": "Wales trad: More repertoire table",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "tunes",
+      "recordings"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-wales-08-tunes",
+    "estimateMinutes": 4,
+    "body": "| Tune / song | Form | Note |\n|-------------|------|------|\n| Dafydd y Garreg Wen | Slow air / song | David of the White Rock; deathbed harp legend |\n| Suo Gân | Lullaby | Welsh lyrics; film Empire of the Sun exposure |\n| Cwm Rhondda | Hymn tune | Also folk-choral hwyl |\n| Myfanwy | Art song / folk | Love lament; male voice favourite |\n| Ymdaith Gwyr Harlech | March | Men of Harlech — patriotic association |\n\n| Tune / song | Form | Note |\n|-------------|------|------|\n| Dafydd y Garreg Wen | Slow air / song | David of the White Rock; deathbed harp legend |\n| Suo Gân | Lullaby | Welsh lyrics; film Empire of the Sun exposure |\n| Cwm Rhondda | Hymn tune | Also folk-choral hwyl |\n| Myfanwy | Art song / folk | Love lament; male voice favourite |\n| Ymdaith Gwyr Harlech | March | Men of Harlech — patriotic association |",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-10-more-repertoire-table-q1",
+        "type": "truefalse",
+        "prompt": "Cader Idris appears in Welsh dance and harp repertoire.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-10-more-repertoire-table-q2",
+        "type": "truefalse",
+        "prompt": "Nansi Richards performed at Queen Elizabeth II's coronation tour in 1953.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-12-key-points",
     "title": "Wales trad: Key points",
     "track": "celtic",
     "region": "wales",
@@ -5212,66 +7829,272 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-wales-08-tunes",
     "estimateMinutes": 4,
-    "body": "- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Ar lan y môr, cader idris, and classic harp/fiddle recordings connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Ar lan y môr, cader idris, and classic harp/fiddle recordings connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Ar Lan y Môr is a gateway Welsh song and harp slow air with festival chorus life.\n- Cader Idris is a harp and fiddle dance standard linked to mountain identity.\n- Nansi Richards anchors harp recording history; contemporary artists refresh settings.\n- Nicholas Bennett's Alawon Fy Ngwlad is a key print source for tune names.\n- Compare eisteddfod and twmpath readings for regional accent.\n- Compared with Ireland: song-air centrality over session reel marathon.\n\n- Ar Lan y Môr is a gateway Welsh song and harp slow air with festival chorus life.\n- Cader Idris is a harp and fiddle dance standard linked to mountain identity.\n- Nansi Richards anchors harp recording history; contemporary artists refresh settings.\n- Nicholas Bennett's Alawon Fy Ngwlad is a key print source for tune names.\n- Compare eisteddfod and twmpath readings for regional accent.\n- Compared with Ireland: song-air centrality over session reel marathon.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-12-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Welsh tune study requires no comparison between harp and fiddle recordings.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Brendan Breathnach",
-            "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "comparative listening reveals accent and setting."
       },
       {
-        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-sec-12-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Suo Gân is a Welsh lullaby with wider popular culture exposure.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-08-tunes-tune-ar-lan-y-mor",
+    "title": "Wales trad: Ar Lan y Môr",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "tunes",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-wales-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**Ar Lan y Môr** — tune study from the Wales unit.\n\n**Form:** waltz / song air\n\n**Reference:** Welsh folk song standard\n\nSeaside song — harp and penillion settings.\n\n**Made famous by:** nansi-richards\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-tune-ar-lan-y-mor-q1",
+        "type": "truefalse",
+        "prompt": "Dafydd y Garreg Wen is linked to harp legend tradition.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-tune-ar-lan-y-mor-q2",
+        "type": "truefalse",
+        "prompt": "Cader Idris is unrelated to any Welsh geographical feature.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "tune and mountain share the name Cadair Idris."
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-08-tunes-tune-cader-idris",
+    "title": "Wales trad: Cader Idris",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "tunes",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-wales-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**Cader Idris** — tune study from the Wales unit.\n\n**Form:** air / march\n\n**Reference:** North Wales landscape tune\n\nEisteddfod and folk club favourite.\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-tune-cader-idris-q1",
+        "type": "mcq",
+        "prompt": "Ar Lan y Môr translates approximately as:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mullingar, 1951",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Beside the Sea",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Beside the Sea"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-tune-cader-idris-q2",
+        "type": "mcq",
+        "prompt": "Cader Idris is associated with:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: A mountain in Snowdonia and a folk tune of the same name"
+      }
+    ]
+  },
+  {
+    "id": "celtic-wales-regions-celtic-wales-08-tunes-tune-dafydd-y-garreg-wen",
+    "title": "Wales trad: Dafydd y Garreg Wen",
+    "track": "celtic",
+    "region": "wales",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "wales",
+      "celtic",
+      "tunes",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-wales-07-representative-depth"
+    ],
+    "lessonSourceId": "regions-celtic-wales-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**Dafydd y Garreg Wen** — tune study from the Wales unit.\n\n**Form:** slow air\n\n**Reference:** David Owen legend; Welsh air classic\n\nSlow air on harp and fiddle — eisteddfod staple.\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-tune-dafydd-y-garreg-wen-q1",
+        "type": "mcq",
+        "prompt": "Nansi Richards was known as:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Beside the Sea",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "The Queen of the Harp",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: The Queen of the Harp"
+      },
+      {
+        "id": "celtic-wales-regions-celtic-wales-08-tunes-tune-dafydd-y-garreg-wen-q2",
+        "type": "mcq",
+        "prompt": "Alawon Fy Ngwlad was published by:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nicholas Bennett (1896)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Beside the Sea",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Nicholas Bennett (1896)"
       }
     ]
   }

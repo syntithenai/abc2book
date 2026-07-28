@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Track:** Celtic Music | **Unit:** Pan-Celtic comparative | **Tier:** 3"
+          "text": "**Track:** regions | **Unit:** Pan-Celtic comparative | **Tier:** 3 | **Difficulty:** 5/10\n**Prerequisites:** regions-celtic-ireland-01-overview\n**Tags:** celtic, marketing, tradition, pan-celtic, terminology, ireland-anchor"
         }
       ]
     },
@@ -35,7 +35,51 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Marketing \"Celtic\" often flattens Ireland, Scotland, Wales, Brittany, and diaspora scenes into one sound. Traditions are related—not identical."
+          "text": "Walk into a gift shop in any tourist city and you will find \"Celtic\" incense, \"Celtic\" relaxation playlists, and harp motifs on mugs — often with no connection to a living session in Ennis, a fest-noz in Vannes, or a gaita parade in Santiago de Compostela. Walk into those communities and you will hear musicians who may reject the label \"Celtic\" as marketing fluff while proudly playing at the Festival Interceltique de Lorient. Both reactions are intelligible. **Celtic music** is simultaneously a scholarly family resemblance among Northwestern European folk traditions, a political project linking nations and language revivals, and a commercial brand that flattens regional specificity into misty harp clichés.\n\nThis lesson separates those layers. Ireland — which you studied first — becomes the **reference tradition**: deep repertoire, global diaspora, institutions like Comhaltas Ceoltóirí Éireann. When someone says \"Celtic fiddle,\" ask: Sligo roll, Shetland snap, Cape Breton cut, or Breton fest-noz phrasing? The word \"Celtic\" without a postcode misleads.\n\n![Celtic knot design on merchandise](https://en.wikipedia.org/wiki/Special:FilePath/Celtic_knot.svg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "historical-celts-versus-musical-celtism",
+      "title": "Historical Celts versus musical Celtism",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Archaeologists and linguists debate who the ancient **Celts** were — La Tène material culture, Iron Age migrations, Celtic-language speakers across Europe. Modern **Celtic nations** (Ireland, Scotland, Wales, Brittany, Cornwall, Isle of Man, plus Galicia and Asturias in festival politics) claim cultural continuity with that past. Music does not descend in a straight line from Bronze Age horns to uilleann pipes. Instead, medieval harpers, nineteenth-century collectors, twentieth-century revivals, and twenty-first-century festivals **assemble** a narrative of kinship.\n\nMusical Celtism is therefore a **modern construct** as much as an ancient fact — useful for festival booking, language activism, and comparative study; dangerous when it implies all regions share one rhythm, one instrument lineup, one session etiquette."
+        }
+      ]
+    },
+    {
+      "id": "trad-versus-celtic-ireland-as-anchor",
+      "title": "Trad versus Celtic: Ireland as anchor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Irish traditional music** names a specific island practice: oral tune transmission, session sets, defined dance forms (reel, jig, hornpipe, polka, slide), sean-nós song, uilleann pipes, bodhrán debates, fleadh competition culture. You learned this vocabulary in the Ireland unit.\n\n**Celtic music** names a **wider shelf** in record shops and festival brochures. Wikipedia groups folk genres that evolved from Celtic peoples' traditions across Northwestern Europe and the diaspora. The shelf includes:\n\n- Pure regional trad (Clare session, Breton fest-noz, Cape Breton square dance).\n- Cross-national collaborations (Irish-Breton bands).\n- New Age and ambient hybrids with harp and synthesiser pads.\n- Film soundtracks (*Braveheart*, *Lord of the Rings*) that borrow Celtic timbres without regional grammar.\n\nAs a student, **prefer trad labels over Celtic labels** when buying recordings or planning practice. \"East Galway fiddle\" teaches you something; \"Celtic moods\" does not."
+        }
+      ]
+    },
+    {
+      "id": "marketing-flattening-how-cliché-spreads",
+      "title": "Marketing flattening: how cliché spreads",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Several forces compress diversity:\n\n1. **Tourism** — shamrock iconography sells Dublin and Brittany alike to visitors who want one predictable sound.\n2. **Streaming algorithms** — playlists lump Enya, Clannad, and a pub session reel under one tag.\n3. **Festival closing acts** — fusion supergroups imply that all nations naturally merge into rock backbeats.\n4. **Diaspora nostalgia** — Irish-American events may programme only reel-and-jig session standards, ignoring Welsh plygi or Manx carvals.\n\nIrish trad suffers both ways: it is the **default voice** of Celtic marketing (erasing others), and it is sometimes dismissed as \"too mainstream\" within purist subcultures. Comparative study corrects both errors by naming accents.\n\n![Keltfest crowd in the Netherlands](https://en.wikipedia.org/wiki/Special:FilePath/Keltfest_2010_%284610513447%29.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "pan-celticism-as-politics-and-practice",
+      "title": "Pan-Celticism as politics and practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Pan-Celticism links language revival, autonomy movements, and cultural exchange. Festivals, congresses, and broadcast specials create **infrastructure** for musicians who would never otherwise meet. Breton fest-noz organisers learn Irish set-dance curation; Galician pipers tour with Irish flute players; Cornish revivalists gain legitimacy beside larger nations.\n\nPan-Celticism does not require believing all musics are identical. It requires **mutual visibility** — especially for fringe nations rebuilding repertoire from manuscripts. Ireland's scale can overshadow; conscious programming gives Cornwall, Mann, and Asturias stage time."
         }
       ]
     },
@@ -46,7 +90,18 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Use Ireland as the reference tradition you studied first: when this lesson names a shared instrument or tune form, ask how Irish session practice differs from Scottish, Welsh, or Breton contexts."
+          "text": "Use Ireland as your **control** when decoding \"Celtic\":\n\n| Question | Irish trad answer | \"Celtic\" marketing answer |\n|----------|-------------------|---------------------------|\n| Where does music live? | Pubs, fleadhanna, kitchens | Spotify, gift shops, arena tours |\n| Core dance forms | Reel, jig, hornpipe, polka, slide | Undefined \"foot-tapping\" |\n| Lead institutions | Comhaltas, ITMA, TG4 | Record labels, tourism boards |\n| Learning path | By ear, sessions, teachers | Passive ambient listening |\n| Ornament | Regional fiddle/flute accents | Generic harp arpeggios |\n\nWhen a product says \"Celtic,\" map it onto the Irish column first. If it matches none of the rows, it may still be enjoyable music — but it is not a substitute for studying trad.\n\nIrish musicians touring as \"Celtic\" acts should still honour tune sources: credit composers, name regions, avoid presenting Breton tunes as Irish without context. Listeners abroad often meet Ireland first; Irish artists carry **educational responsibility** whether they accept it or not.\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-01-overview` — \"Trad versus Celtic\" section; diaspora unit for festival networks."
+        }
+      ]
+    },
+    {
+      "id": "practical-rules-for-students",
+      "title": "Practical rules for students",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. **Specify region and form** — \"Sligo reel\" beats \"Celtic fiddle.\"\n2. **Compare recordings, not album covers** — mist and castles lie.\n3. **Attend regional events** — one fest-noz teaches more than ten meditation albums.\n4. **Notice who is absent** — if a \"Celtic\" festival never books Welsh or Manx artists, the brand is incomplete.\n5. **Hold two truths** — family resemblance is real; identity is not interchangeable."
         }
       ]
     },
@@ -57,295 +112,239 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "- \"Celtic\" is a useful map, not a single repertoire.\n- Ireland provides one deep anchor; other nations add necessary contrast.\n- Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+          "text": "- \"Celtic music\" is a modern umbrella — scholarly, political, and commercial at once.\n- Irish traditional music is one deep tradition within that umbrella; not every \"Celtic\" product is trad.\n- Marketing flattens regional accents into harp-and-mist cliché.\n- Pan-Celtic festivals and politics create valuable encounter without merging repertoires.\n- Ireland often serves as default \"Celtic\" voice abroad — privilege and responsibility.\n- Specify region, form, and social context when studying or performing."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Fintan Vallely, *Companion to Irish Traditional Music* — entries on \"Celtic\" and regional labels.\n- Simon Keegan-Phipps & Trish Edelstein, work on Breton identity and festival culture.\n- Wikipedia: [Celtic music](https://en.wikipedia.org/wiki/Celtic_music) and [Pan-Celticism](https://en.wikipedia.org/wiki/Pan-Celticism).\n- Martin Stokes, *Ethnicity, Identity and Music* — theoretical framing for nationalism and folk.\n- Ireland unit overview — trad vs Celtic distinction in situ."
         }
       ]
     }
   ],
-  "entities": [],
-  "entity_order": [],
-  "playlist": [],
+  "entities": [
+    {
+      "id": "comhaltas",
+      "type": "organization",
+      "name": "Comhaltas Ceoltóirí Éireann",
+      "summary": "Anchor institution for Irish trad as reference tradition",
+      "blurb": "Represents specific island practice within wider Celtic marketing.",
+      "url": "https://comhaltas.ie/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Comhaltas_Ceolt%C3%B3ir%C3%AD_%C3%89ireann_logo.svg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "festival-interceltique-lorient",
+      "type": "organization",
+      "name": "Festival Interceltique de Lorient",
+      "summary": "Pan-Celtic festival embodying political and musical networking",
+      "blurb": "Shows how Celtic label functions in practice without erasing national accents.",
+      "url": "https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_Interceltique_de_Lorient_2012.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "pan-celticism",
+      "type": "concept",
+      "name": "Pan-Celticism",
+      "summary": "Political and cultural movement linking Celtic nations",
+      "blurb": "Connects language revival, festivals, and mutual visibility across regions.",
+      "url": "https://en.wikipedia.org/wiki/Pan-Celticism",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Celtic_nations.svg?width=320"
+    }
+  ],
+  "entity_order": [
+    "comhaltas",
+    "festival-interceltique-lorient"
+  ],
+  "playlist": [
+    {
+      "id": "irish-session-reference",
+      "entity_id": "comhaltas",
+      "label": "Irish pub session — trad reference",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
+      "subtitle": "Comhaltas Ceoltóirí Éireann"
+    },
+    {
+      "id": "celtic-fusion-festival",
+      "entity_id": "festival-interceltique-lorient",
+      "label": "Pan-Celtic festival fusion set",
+      "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY",
+      "subtitle": "Festival Interceltique de Lorient"
+    },
+    {
+      "id": "new-age-celtic-contrast",
+      "label": "Generic Celtic ambient — marketing contrast",
+      "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY",
+      "subtitle": ""
+    },
+    {
+      "id": "regional-strathspey",
+      "label": "Scottish strathspey contrast",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": ""
+    }
+  ],
   "tunes": [],
   "key_points": [
-    "Ireland is the anchor; comparison adds precision.",
-    "Shared instruments differ by social role.",
-    "Tune forms require dance-context listening.",
-    "Revival paths diverge by institution.",
-    "Avoid Celtic marketing cliché.",
-    "\"Celtic\" is a useful map, not a single repertoire.",
-    "Ireland provides one deep anchor; other nations add necessary contrast.",
-    "Marketing labels often flatten regional specificity—compare recordings, not only album covers."
+    "Celtic music is scholarly umbrella, political project, and commercial brand.",
+    "Irish trad is one deep tradition — not interchangeable with Celtic marketing.",
+    "Prefer regional labels (Sligo reel, fest-noz gavotte) over mist-and-harp cliché.",
+    "Pan-Celtic festivals create encounter without merging repertoires.",
+    "Ireland is often default Celtic voice abroad — privilege and responsibility.",
+    "\"Celtic music\" is a modern umbrella — scholarly, political, and commercial at once.",
+    "Irish traditional music is one deep tradition within that umbrella; not every \"Celtic\" product is trad.",
+    "Marketing flattens regional accents into harp-and-mist cliché.",
+    "Pan-Celtic festivals and politics create valuable encounter without merging repertoires.",
+    "Ireland often serves as default \"Celtic\" voice abroad — privilege and responsibility.",
+    "Specify region, form, and social context when studying or performing."
   ],
   "reading_list": [
     {
+      "type": "book",
+      "title": "Companion to Irish Traditional Music",
+      "author": "Fintan Vallely",
+      "note": "Entries on Celtic label and regional specificity"
+    },
+    {
       "type": "link",
-      "title": "What \"Celtic Music\" Means — orientation",
+      "title": "Celtic music — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Celtic_music"
+    },
+    {
+      "type": "link",
+      "title": "Pan-Celticism — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pan-Celticism"
+    },
+    {
+      "type": "book",
+      "title": "Ethnicity, Identity and Music",
+      "author": "Martin Stokes",
+      "note": "Theoretical framing for nationalism and folk"
+    },
+    {
+      "type": "book",
+      "title": "The Companion to Irish Traditional Music",
+      "author": "Fintan Vallely",
+      "note": "Cross-reference for 'Celtic' marketing critique"
+    },
+    {
+      "type": "link",
+      "title": "Celtic nations",
+      "url": "https://en.wikipedia.org/wiki/Celtic_nations",
+      "note": "Political geography"
+    },
+    {
+      "type": "link",
+      "title": "World Music marketing",
+      "url": "https://en.wikipedia.org/wiki/World_music",
+      "note": "Commercial context"
+    },
+    {
+      "type": "book",
+      "author": "Fintan Vallely",
+      "title": "Companion to Irish Traditional Music"
+    },
+    {
+      "type": "link",
+      "title": "Celtic music",
+      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+    },
+    {
+      "type": "book",
+      "author": "Martin Stokes",
+      "title": "Ethnicity, Identity and Music"
     }
   ],
-  "quiz_markdown": "### Q1. Which description best fits the main social context emphasised in this lesson?\n- A) Concerto competitions only\n- B) Community dance and oral transmission\n- C) Strictly classical conservatory exams\n- D) Electronic dance clubs only\n**Answer:** B) Community dance and oral transmission\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q2. This tradition is identical to Irish traditional music in repertoire and social context.\n- A) True\n- B) False\n**Answer:** B) False\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q3. Compared with Ireland, this unit stresses which additional emphasis?\n- A) No differences whatsoever\n- B) See Compared with Ireland section\n- C) Only classical opera\n- D) Only hip-hop production\n**Answer:** B) See Compared with Ireland section\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q4. A typical learner should prioritise:\n- A) Only reading generic textbooks\n- B) Listening to regional recordings before generic \"Celtic\" compilations\n- C) Memorising one tune only\n- D) Ignoring dance context\n**Answer:** B) Listening to regional recordings before generic \"Celtic\" compilations\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q5. Sessions, festivals, and archives all play roles in modern transmission.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q6. Instrument focus in this lesson includes:\n- A) Only synthesizers\n- B) Voices named in the lesson introduction\n- C) Only orchestral brass\n- D) Only piano études\n**Answer:** B) Voices named in the lesson introduction\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q7. Dance rhythm topics in this lesson relate to:\n- A) Ballet syllabus only\n- B) Social dance forms discussed in the body\n- C) Marching band drill only\n- D) DJ beatmatching only\n**Answer:** B) Social dance forms discussed in the body\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q8. Revival movements and media broadcasting shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q9. When studying tune forms, you should:\n- A) Ignore metre entirely\n- B) Connect metre and foot-tap feel to named dance types\n- C) Assume all tunes are 4/4 rock beats\n- D) Avoid learning by ear\n**Answer:** B) Connect metre and foot-tap feel to named dance types\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q10. Fusion and modern scenes discussed here:\n- A) Erase all earlier repertoire\n- B) Build on—not replace—living tradition\n- C) Ban all acoustic instruments\n- D) Eliminate festivals\n**Answer:** B) Build on—not replace—living tradition\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q11. The Compared with Ireland section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in What \"Celtic Music\" Means.*\n\n### Q12. Best next step after this lesson:\n- A) Stop listening to recordings\n- B) Follow playlists and return to the paired Ireland lesson\n- C) Skip all prerequisites\n- D) Avoid comparative study\n**Answer:** B) Follow playlists and return to the paired Ireland lesson\n*Explanation grounded in What \"Celtic Music\" Means.*",
+  "quiz_markdown": "### Q1. \"Irish traditional music\" and \"Celtic music\" are identical terms.\n\n**Answer:** False — Celtic is broader; Irish trad is one specific tradition.\n\n### Q2. Musical Celtism is partly a modern construct involving revivals and festivals, not only ancient unbroken practice.\n\n**Answer:** True\n\n### Q3. Marketing often flattens regional traditions into generic harp-and-mist imagery.\n\n**Answer:** True\n\n### Q4. Pan-Celtic festivals can support mutual visibility without merging all repertoires into one style.\n\n**Answer:** True\n\n### Q5. When studying recordings, prefer labels like \"East Galway fiddle\" over generic \"Celtic moods.\"\n\n- A) True — specificity aids learning\n- B) False — generic labels are always better\n\n**Answer:** A\n\n### Q6. Ireland often becomes the default \"Celtic\" voice in diaspora and tourism contexts.\n\n**Answer:** True\n\n### Q7. A New Age \"Celtic meditation\" album is equivalent to a Clare pub session for trad study.\n\n**Answer:** False\n\n### Q8. Pan-Celticism connects language revival, cultural exchange, and festival infrastructure.\n\n**Answer:** True\n\n### Q9. Ancient Celtic archaeological culture maps directly note-for-note onto modern session reels.\n\n**Answer:** False — continuity is narrative and revival-mediated.\n\n### Q10. Comparative study should notice which nations are absent from a \"Celtic\" lineup.\n\n**Answer:** True\n\n### Q11. Irish artists touring internationally carry some educational responsibility about regional sources.\n\n**Answer:** True — many listeners meet Ireland first.\n\n### Q12. Best practice after this lesson:\n\n- A) Rename your playlists by region and tune form; revisit Ireland overview trad vs Celtic section\n- B) Buy only one generic compilation and stop regional study\n- C) Assume Brittany and Ireland share session etiquette identically\n- D) Reject all pan-Celtic festivals as fake\n\n**Answer:** A",
   "quiz_questions": [
     {
       "id": "q1",
-      "type": "mcq",
-      "prompt": "Which description best fits the main social context emphasised in this lesson?",
+      "type": "truefalse",
+      "prompt": "\"Irish traditional music\" and \"Celtic music\" are identical terms.",
       "choices": [
         {
           "id": "a",
-          "text": "False",
+          "text": "True",
           "correct": false
         },
         {
           "id": "b",
-          "text": "See Compared with Ireland section",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Community dance and oral transmission",
+          "text": "False",
           "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Single-headed Irish frame drum",
-          "correct": false
         }
       ],
-      "explain": ") Community dance and oral transmission"
+      "explain": "Celtic is broader; Irish trad is one specific tradition."
     },
     {
       "id": "q2",
-      "type": "mcq",
-      "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+      "type": "truefalse",
+      "prompt": "Musical Celtism is partly a modern construct involving revivals and festivals, not only ancient unbroken practice.",
       "choices": [
         {
           "id": "a",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": false
+          "text": "True",
+          "correct": true
         },
         {
           "id": "b",
           "text": "False",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "Community dance and oral transmission",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "See Compared with Ireland section",
           "correct": false
         }
       ],
-      "explain": ") False"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q3",
-      "type": "mcq",
-      "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+      "type": "truefalse",
+      "prompt": "Marketing often flattens regional traditions into generic harp-and-mist imagery.",
       "choices": [
         {
           "id": "a",
-          "text": "See Compared with Ireland section",
+          "text": "True",
           "correct": true
         },
         {
           "id": "b",
           "text": "False",
           "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "True",
-          "correct": false
         }
       ],
-      "explain": ") See Compared with Ireland section"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q4",
-      "type": "mcq",
-      "prompt": "A typical learner should prioritise:",
+      "type": "truefalse",
+      "prompt": "Pan-Celtic festivals can support mutual visibility without merging all repertoires into one style.",
       "choices": [
         {
           "id": "a",
-          "text": "See Compared with Ireland section",
-          "correct": false
+          "text": "True",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "True",
+          "text": "False",
           "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Voices named in the lesson introduction",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": true
         }
       ],
-      "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q5",
       "type": "mcq",
-      "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+      "prompt": "When studying recordings, prefer labels like \"East Galway fiddle\" over generic \"Celtic moods.\"",
       "choices": [
         {
           "id": "a",
-          "text": "Voices named in the lesson introduction",
+          "text": "Elbow bellows strapped to the player",
           "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Social dance forms discussed in the body",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "True",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-          "correct": false
-        }
-      ],
-      "explain": ") True"
-    },
-    {
-      "id": "q6",
-      "type": "mcq",
-      "prompt": "Instrument focus in this lesson includes:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Voices named in the lesson introduction",
-          "correct": true
-        },
-        {
-          "id": "c",
-          "text": "True",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Social dance forms discussed in the body",
-          "correct": false
-        }
-      ],
-      "explain": ") Voices named in the lesson introduction"
-    },
-    {
-      "id": "q7",
-      "type": "mcq",
-      "prompt": "Dance rhythm topics in this lesson relate to:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Social dance forms discussed in the body",
-          "correct": true
-        },
-        {
-          "id": "b",
-          "text": "Voices named in the lesson introduction",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Build on—not replace—living tradition",
-          "correct": false
-        }
-      ],
-      "explain": ") Social dance forms discussed in the body"
-    },
-    {
-      "id": "q8",
-      "type": "mcq",
-      "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Build on—not replace—living tradition",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Follow playlists and return to the paired Ireland lesson",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "True",
-          "correct": true
-        }
-      ],
-      "explain": ") True"
-    },
-    {
-      "id": "q9",
-      "type": "mcq",
-      "prompt": "When studying tune forms, you should:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Follow playlists and return to the paired Ireland lesson",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "6/8 with a two-beat feel per bar",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Build on—not replace—living tradition",
-          "correct": false
-        }
-      ],
-      "explain": ") Connect metre and foot-tap feel to named dance types"
-    },
-    {
-      "id": "q10",
-      "type": "mcq",
-      "prompt": "Fusion and modern scenes discussed here:",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Build on—not replace—living tradition",
-          "correct": true
         },
         {
           "id": "b",
@@ -354,72 +353,152 @@
         },
         {
           "id": "c",
-          "text": "Francis O'Neill",
-          "correct": false
+          "text": "True — specificity aids learning",
+          "correct": true
         },
         {
           "id": "d",
-          "text": "Brendan Breathnach",
+          "text": "Mouth blowing only, like Highland pipes",
           "correct": false
         }
       ],
-      "explain": ") Build on—not replace—living tradition"
+      "explain": "The lesson identifies this as: True — specificity aids learning"
     },
     {
-      "id": "q11",
-      "type": "mcq",
-      "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Ireland often becomes the default \"Celtic\" voice in diaspora and tourism contexts.",
       "choices": [
         {
           "id": "a",
-          "text": "Francis O'Neill",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "A New Age \"Celtic meditation\" album is equivalent to a Clare pub session for trad study.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Brendan Breathnach",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Mullingar, 1951",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "True",
+          "text": "False",
           "correct": true
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: False"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Pan-Celticism connects language revival, cultural exchange, and festival infrastructure.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Ancient Celtic archaeological culture maps directly note-for-note onto modern session reels.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "continuity is narrative and revival-mediated."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Comparative study should notice which nations are absent from a \"Celtic\" lineup.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Irish artists touring internationally carry some educational responsibility about regional sources.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "many listeners meet Ireland first."
     },
     {
       "id": "q12",
       "type": "mcq",
-      "prompt": "Best next step after this lesson:",
+      "prompt": "Best practice after this lesson:",
       "choices": [
         {
           "id": "a",
-          "text": "Mullingar, 1951",
+          "text": "Four-string tenor banjo with a plectrum",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Intangible cultural heritage of humanity",
+          "text": "Modal Irish and Celtic accompaniment",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Follow playlists and return to the paired Ireland lesson",
+          "text": "Rename your playlists by region and tune form; revisit Ireland overview trad vs Celtic section",
           "correct": true
         },
         {
           "id": "d",
-          "text": "Brendan Breathnach",
+          "text": "Tips and heels striking the floor",
           "correct": false
         }
       ],
-      "explain": ") Follow playlists and return to the paired Ireland lesson"
+      "explain": "The lesson identifies this as: Rename your playlists by region and tune form; revisit Ireland overview trad vs Celtic section"
     }
   ],
   "quiz": {
@@ -428,265 +507,85 @@
     "questions": [
       {
         "id": "q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "type": "truefalse",
+        "prompt": "\"Irish traditional music\" and \"Celtic music\" are identical terms.",
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "Celtic is broader; Irish trad is one specific tradition."
       },
       {
         "id": "q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Musical Celtism is partly a modern construct involving revivals and festivals, not only ancient unbroken practice.",
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
             "text": "False",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
             "correct": false
           }
         ],
-        "explain": ") False"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q3",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "type": "truefalse",
+        "prompt": "Marketing often flattens regional traditions into generic harp-and-mist imagery.",
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q4",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "Pan-Celtic festivals can support mutual visibility without merging all repertoires into one style.",
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q5",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "When studying recordings, prefer labels like \"East Galway fiddle\" over generic \"Celtic moods.\"",
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "True",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          }
-        ],
-        "explain": ") True"
-      },
-      {
-        "id": "q6",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "True",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          }
-        ],
-        "explain": ") Voices named in the lesson introduction"
-      },
-      {
-        "id": "q7",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "q8",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
-          }
-        ],
-        "explain": ") True"
-      },
-      {
-        "id": "q9",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          }
-        ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
-      {
-        "id": "q10",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
-        "choices": [
-          {
-            "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": true
           },
           {
             "id": "b",
@@ -695,72 +594,152 @@
           },
           {
             "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
+            "text": "True — specificity aids learning",
+            "correct": true
           },
           {
             "id": "d",
-            "text": "Brendan Breathnach",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "The lesson identifies this as: True — specificity aids learning"
       },
       {
-        "id": "q11",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Ireland often becomes the default \"Celtic\" voice in diaspora and tourism contexts.",
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "A New Age \"Celtic meditation\" album is equivalent to a Clare pub session for trad study.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: False"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Pan-Celticism connects language revival, cultural exchange, and festival infrastructure.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Ancient Celtic archaeological culture maps directly note-for-note onto modern session reels.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "continuity is narrative and revival-mediated."
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Comparative study should notice which nations are absent from a \"Celtic\" lineup.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Irish artists touring internationally carry some educational responsibility about regional sources.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "many listeners meet Ireland first."
       },
       {
         "id": "q12",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Best practice after this lesson:",
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Rename your playlists by region and tune form; revisit Ireland overview trad vs Celtic section",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Brendan Breathnach",
+            "text": "Tips and heels striking the floor",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Rename your playlists by region and tune form; revisit Ireland overview trad vs Celtic section"
       }
     ]
   }

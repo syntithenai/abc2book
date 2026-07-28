@@ -23,7 +23,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "**Track:** Celtic Music | **Region:** wales | **Tier:** 4\n**Prerequisites:** regions-celtic-wales-03-instruments-voices-ii"
+          "text": "**Track:** regions | **Tier:** 4 | **Difficulty:** 6/10\n**Prerequisites:** regions-celtic-wales-03-instruments-voices-ii\n**Tags:** wales, plygi, hornpipe, waltz, hymn, penillion, ornament, bilingual"
         }
       ]
     },
@@ -34,7 +34,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Welsh traditional music intertwines folk dance, harp repertoire, penillion singing, and chapel hymnody. The eisteddfod circuit celebrates competitive performance; folk clubs and twmpath dances keep social dance alive in communities across Wales and the diaspora.\n\nThis lesson focuses on **plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing** within welsh traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions."
+          "text": "If the instrument lessons taught you *who* speaks in a Welsh folk room, this lesson teaches you *what language they speak*. Welsh traditional music organises around **dance forms** — plygi, hornpipes, waltzes — alongside **hymn tunes** and **penillion** vocal art. Ornamentation turns a skeleton tune into a recognisable Welsh accent; bilingual titles and chapel harmony turn a single melody into a national symbol.\n\nTake it in sections: learn to **identify the form** first, then study **penillion** as vocal genre, then explore **hymn tunes** as separate repertoire that sometimes crosses into twmpath sets."
         }
       ]
     },
@@ -45,29 +45,150 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "Irish trad foregrounds session tune sets and dance forms like reels and jigs. Welsh tradition equally values harp and fiddle, but hymnody, male voice choirs, eisteddfod culture, and bilingual song give the scene a distinct institutional spine.\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-04-genres-forms` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section."
+          "text": "Ireland's Genres lesson centres **reels, jigs, hornpipes, polkas, slides, sean-nós, and lilting**. Wales shares hornpipe and waltz metre with British neighbours but names **plygi** as distinct dance form and elevates **penillion** and **hymn tune** to genre status alongside instrumental dance music.\n\n| Form | Ireland (`regions-celtic-ireland-04-genres-forms`) | Wales (this lesson) |\n|------|--------------------------------------------------|---------------------|\n| Primary dance drive | Reels and double jigs | **Plygi**, hornpipe, waltz |\n| Signature vocal form | Sean-nós | **Penillion** over harp |\n| Sacred crossover | Slow airs from song | **Hymn tunes** (*Cwm Rhondda*) |\n| Mouth music | Lilting (*portaireacht*) | Penillion verse fitting |\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-04-genres-forms` — compare metre identification and song–dance overlap."
         }
       ]
     },
     {
-      "id": "core-material",
-      "title": "Core material",
+      "id": "how-to-listen-metre-pulse-and-hwyl",
+      "title": "How to listen: metre, pulse, and hwyl",
       "level": 2,
       "blocks": [
         {
           "type": "markdown",
-          "text": "Plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing in wales trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic \"Celtic\" compilations when possible."
+          "text": "Train your ear for **metre** (beat grouping) and **hwyl** — the communal lift when voices and instruments surge together in hymn or folk song. Written time signatures guide but do not imprison: hornpipes may be notated 4/4 with dotted performance; penillion demands **strict fit** between harp bar and sung syllables.\n\n**Foot-tap habit:** Plygi and hornpipe want **dotted bounce**; waltz wants **ONE-two-three**; hymn tunes may **stretch** phrase lengths for breathing in Cymanfa Ganu.\n\n![Welsh folk musicians](https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=640)\n\n---"
         }
       ]
     },
     {
-      "id": "listening-and-study-habits",
-      "title": "Listening and study habits",
+      "id": "plygi",
+      "title": "Plygi",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Plygi** (plural *plygiau*) is a Welsh **folk dance form** — name related to \"fold\" or \"bend\" — often played as a **swinging 4/4** tune related to hornpipe repertoire. Plygi sets appear at **twmpathau** where callers teach figures between chorus lines."
+        }
+      ]
+    },
+    {
+      "id": "feel-and-repertoire",
+      "title": "Feel and repertoire",
       "level": 3,
       "blocks": [
         {
           "type": "markdown",
-          "text": "1. Identify one field recording and one modern ensemble track mentioned or implied in this lesson's topic.\n2. Note the metre and dance association of at least two tune types discussed.\n3. Compare session or social-dance etiquette with what you learned from Irish trad.\n4. Follow the unit playlist entries in lesson metadata when available."
+          "text": "Plygi **pulse** is dance-functional: accordion and fiddle articulate **long-short** patterns; guitar chords mark downbeats. Tunes may be local variants of wider British hornpipe stock or distinctly Welsh titles from collectors **Nicholas Bennett** (*Alawon Fy Ngwlad*) and later folk society editions.\n\n**Memorable detail:** Dancers recognise plygi by **figure name** and **floor pattern** — musicians who only learn tune titles miss half the form.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "hornpipes",
+      "title": "Hornpipes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Hornpipes** in Wales share the **British Isles dotted 4/4** tradition — long-short swing, moderate tempo, bouncy footwork. Sailor associations and stage hornpipe dance echo Irish and English practice; Welsh settings may differ in **dotting** and **ornament** from Clare or Donegal readings."
+        }
+      ]
+    },
+    {
+      "id": "session-and-twmpath-role",
+      "title": "Session and twmpath role",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hornpipes chain in sets before waltzes or plygi at twmpath nights. Accordion leads often **signal** hornpipe sets with a characteristic intro figure. Compare recordings: Welsh folk club hornpipe may be **straighter** than Irish session dotting — regional taste, not error.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "waltzes",
+      "title": "Waltzes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Waltzes** in 3/4 are twmpath staples — couple dances, circle waltzes, and newer choreographies from folk revival teachers. Melody may come from **imported** European waltz fashion (nineteenth century) or from **Welsh song airs** arranged for dance.\n\nGuitar and accordion share **oom-pah-pah** or flowing arpeggio accompaniment; harp arrangements appear in eisteddfod repertoire. Waltz tempo must stay **dancer-safe** — faster is not better.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "hymn-tunes",
+      "title": "Hymn tunes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Hymn tunes** (*tune metrig* / *alawon emyn*) are a **genre category** in Welsh musical life, not merely church music. *Cwm Rhondda* (*Guide Me, O Thou Great Redeemer*), *Aberystwyth*, *Ton-y-Botel*, and hundreds of Welsh-composed melodies circulate in **Cymanfa Ganu**, male voice choir repertoire, and occasionally folk arrangements."
+        }
+      ]
+    },
+    {
+      "id": "chapel-dna-in-folk",
+      "title": "Chapel DNA in folk",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Welsh male voice choir culture trained generations in **harmony**, **breath**, and **communal rhythm** — skills penillion singers and festival choirs reuse. A folk band may quote hymn tune fragments in medleys; a twmpath waltz may share harmonic language with Sunday chapel.\n\n**Memorable detail:** *Cwm Rhondda* is among the world's most sung hymn tunes — Welsh composition (*John Hughes*, 1907) with global diaspora life.\n\n![Cymanfa Ganu hymn singing](https://en.wikipedia.org/wiki/Special:FilePath/Treorchy_Male_Voice_Choir.jpg?width=640)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "penillion-canu-penillion",
+      "title": "Penillion (canu penillion)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Penillion** (*canu penillion* — \"verse singing\") is the art of composing or improvising a **counter-melody** in strict rhythm over a harpist's fixed tune. The singer's verse — often witty, topical, or praise poetry — must **fit the bar structure** without colliding with the harp melody."
+        }
+      ]
+    },
+    {
+      "id": "technique-and-partnership",
+      "title": "Technique and partnership",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The harp plays an established **alaw** (tune); the singer enters with **penillion** lines that **answer** the melody. Penillion appears in eisteddfod competitions, folk club demonstrations, and teaching studios. It is **not** free-rhythm sean-nós — rhythmic discipline is the art."
+        }
+      ]
+    },
+    {
+      "id": "historical-and-modern-life",
+      "title": "Historical and modern life",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Medieval **bardic** praise poetry feeds penillion's prestige; modern harpists like **Llio Rhydderch** and teachers at eisteddfod workshops train new singers. Compared with Irish **lilting** (wordless mouth music), penillion is **texted verse** with harp partnership.\n\n**Memorable detail:** A successful penillion performance leaves listeners unsure whether harp or voice \"leads\" — duet equality.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "ornament-and-regional-accent",
+      "title": "Ornament and regional accent",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Welsh instrumental ornament shares **cuts and rolls** with Irish fiddle vocabulary but applies them to **harp fingernail patterns** and **accordion bellows** differently. Harpists use **trills** and **grace figures**; fiddlers use **bowed trebles** sparingly compared to Sligo density.\n\nRegional accent: **north Wales** harp repertoire emphasises penillion tunes; **south Wales** clubs may favour hornpipe–waltz sets with guitar harmony. Tag recordings by region when possible.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "bilingual-titles-and-songtune-overlap",
+      "title": "Bilingual titles and song–tune overlap",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tunes carry **Welsh titles** (*Cader Idris*, *Dafydd y Garreg Wen*) with English exonyms in some books. Songs like ar-lan-y-mor exist as **vocal airs** and **instrumental slow airs** — know which side of the repertoire you are on. Lesson 8 examines named tunes in depth."
         }
       ]
     },
@@ -78,7 +199,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "- Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing."
+          "text": "- **Plygi** is a Welsh dance form with hornpipe-family pulse and twmpath figures.\n- **Hornpipes** and **waltzes** are core twmpath repertoire with dotted or triple feel.\n- **Hymn tunes** are a Welsh genre category shaped by chapel and male voice choirs.\n- **Penillion** is counter-melody singing over fixed harp tunes — rhythmic discipline is essential.\n- Compared with Ireland: less reel-jig dominance; more hymn and penillion vocal genre weight.\n- Metre and foot-tap must match dance; hwyl marks communal vocal lift."
         }
       ]
     },
@@ -89,376 +210,417 @@
       "blocks": [
         {
           "type": "markdown",
-          "text": "- Regional folk archive or national library listening guides (see lesson metadata links when present).\n- Companion to Irish unit readings for cross-border context (Fintan Vallely, *Companion to Irish Traditional Music*).\n- Wikipedia articles on Music of Wales as orientation, verified against recordings."
+          "text": "- **Nicholas Bennett** — *Alawon Fy Ngwlad* (classic tune collection)\n- **Phyllis Kinney** — *Welsh Traditional Music* (genre survey)\n- Wikipedia — [Penillion](https://en.wikipedia.org/wiki/Penillion), [Music of Wales](https://en.wikipedia.org/wiki/Music_of_Wales)\n- **Cymdeithas Alawon Gwerin Cymru** — folk song society publications"
         }
       ]
     }
   ],
-  "entities": [],
+  "entities": [
+    {
+      "id": "penillion",
+      "type": "genre",
+      "name": "Penillion",
+      "summary": "Counter-melody singing over harp tune",
+      "blurb": "Strict bar-fit verse over fixed alaw.",
+      "url": "https://en.wikipedia.org/wiki/Penillion",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "plygi",
+      "type": "genre",
+      "name": "Plygi",
+      "summary": "Welsh folk dance form related to hornpipe repertoire",
+      "blurb": "Swinging 4/4 dance at twmpathau with called figures.",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Wales",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=320"
+    },
+    {
+      "id": "male-voice-choir",
+      "type": "ensemble",
+      "name": "Welsh male voice choir",
+      "summary": "Chapel-rooted choral tradition",
+      "blurb": "Hymn tune repertoire and hwyl at scale.",
+      "url": "https://en.wikipedia.org/wiki/Male_voice_choirs_of_Wales",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Treorchy_Male_Voice_Choir.jpg?width=320",
+      "playlist_index": 2
+    }
+  ],
   "entity_order": [],
-  "playlist": [],
+  "playlist": [
+    {
+      "id": "penillion-harp",
+      "entity_id": "penillion",
+      "label": "Penillion with triple harp",
+      "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s",
+      "subtitle": "Penillion"
+    },
+    {
+      "id": "hornpipe-wales",
+      "label": "Welsh hornpipe dance tune",
+      "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+      "subtitle": ""
+    },
+    {
+      "id": "cwm-rhondda",
+      "entity_id": "male-voice-choir",
+      "label": "Cwm Rhondda hymn tune",
+      "youtube": "https://www.youtube.com/watch?v=hwlbKJECe9U",
+      "subtitle": "Welsh male voice choir"
+    },
+    {
+      "id": "waltz-twmpath",
+      "label": "Welsh folk waltz",
+      "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A",
+      "subtitle": ""
+    }
+  ],
   "tunes": [],
   "key_points": [
-    "Welsh Traditional Music rewards comparative study with Ireland.",
-    "Focus: plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing.",
-    "Listen for regional accent, not generic Celtic cliché.",
-    "Sessions, festivals, and archives all transmit repertoire.",
-    "Dance metre and tune form belong together in study.",
-    "Welsh Traditional Music is a living tradition with regional accents, not a museum exhibit.",
-    "Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.",
-    "Plygi, hornpipes, waltzes, hymn tunes, and penillion counter-melody singing connects to dance, song, and community context—not isolated technique only.",
-    "Revival institutions, broadcasting, and festivals shape what learners hear today.",
-    "Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing."
+    "Plygi is a Welsh dance form with hornpipe-family pulse.",
+    "Hornpipes and waltzes are core twmpath repertoire.",
+    "Hymn tunes are a Welsh genre category shaped by chapel culture.",
+    "Penillion requires strict rhythmic fit over fixed harp tunes.",
+    "Hwyl marks communal vocal lift in hymn and folk song.",
+    "Compared with Ireland: less reel-jig dominance; more hymn and penillion weight.",
+    "**Plygi** is a Welsh dance form with hornpipe-family pulse and twmpath figures.",
+    "**Hornpipes** and **waltzes** are core twmpath repertoire with dotted or triple feel.",
+    "**Hymn tunes** are a Welsh genre category shaped by chapel and male voice choirs.",
+    "**Penillion** is counter-melody singing over fixed harp tunes — rhythmic discipline is essential.",
+    "Compared with Ireland: less reel-jig dominance; more hymn and penillion vocal genre weight.",
+    "Metre and foot-tap must match dance; hwyl marks communal vocal lift."
   ],
   "reading_list": [
     {
-      "type": "link",
-      "title": "Welsh Traditional Music — Tunes, Forms, and Style — orientation",
-      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+      "type": "book",
+      "title": "Alawon Fy Ngwlad",
+      "author": "Nicholas Bennett",
+      "note": "Classic 1896 tune collection"
     },
     {
       "type": "book",
-      "author": "Companion to Irish unit readings for cross-border context (Fintan Vallely",
-      "title": "Companion to Irish Traditional Music"
+      "title": "Welsh Traditional Music",
+      "author": "Phyllis Kinney",
+      "note": "Genre survey"
+    },
+    {
+      "type": "link",
+      "title": "Penillion — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Penillion",
+      "note": "Vocal form overview"
+    },
+    {
+      "type": "link",
+      "title": "Cymdeithas Alawon Gwerin Cymru",
+      "url": "https://alawon-gwerin.cymru/",
+      "note": "Welsh Folk Song Society"
+    },
+    {
+      "type": "book",
+      "title": "Welsh Folk Songs",
+      "author": "Phyllis Kinney",
+      "note": "Song and hymn tune context"
+    },
+    {
+      "type": "link",
+      "title": "Penillion singing",
+      "url": "https://en.wikipedia.org/wiki/Penillion",
+      "note": "Counter-melody tradition"
+    },
+    {
+      "type": "link",
+      "title": "Plygi — Welsh hornpipe",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Wales",
+      "note": "Regional dance forms"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "Penillion",
+      "url": "https://en.wikipedia.org/wiki/Penillion"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
     }
   ],
-  "quiz_markdown": "### Q1. Which description best fits the main social context emphasised in this lesson?\n- A) Concerto competitions only\n- B) Community dance and oral transmission\n- C) Strictly classical conservatory exams\n- D) Electronic dance clubs only\n**Answer:** B) Community dance and oral transmission\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q2. This tradition is identical to Irish traditional music in repertoire and social context.\n- A) True\n- B) False\n**Answer:** B) False\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q3. Compared with Ireland, this unit stresses which additional emphasis?\n- A) No differences whatsoever\n- B) See Compared with Ireland section\n- C) Only classical opera\n- D) Only hip-hop production\n**Answer:** B) See Compared with Ireland section\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q4. A typical learner should prioritise:\n- A) Only reading generic textbooks\n- B) Listening to regional recordings before generic \"Celtic\" compilations\n- C) Memorising one tune only\n- D) Ignoring dance context\n**Answer:** B) Listening to regional recordings before generic \"Celtic\" compilations\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q5. Sessions, festivals, and archives all play roles in modern transmission.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q6. Instrument focus in this lesson includes:\n- A) Only synthesizers\n- B) Voices named in the lesson introduction\n- C) Only orchestral brass\n- D) Only piano études\n**Answer:** B) Voices named in the lesson introduction\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q7. Dance rhythm topics in this lesson relate to:\n- A) Ballet syllabus only\n- B) Social dance forms discussed in the body\n- C) Marching band drill only\n- D) DJ beatmatching only\n**Answer:** B) Social dance forms discussed in the body\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q8. Revival movements and media broadcasting shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q9. When studying tune forms, you should:\n- A) Ignore metre entirely\n- B) Connect metre and foot-tap feel to named dance types\n- C) Assume all tunes are 4/4 rock beats\n- D) Avoid learning by ear\n**Answer:** B) Connect metre and foot-tap feel to named dance types\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q10. Fusion and modern scenes discussed here:\n- A) Erase all earlier repertoire\n- B) Build on—not replace—living tradition\n- C) Ban all acoustic instruments\n- D) Eliminate festivals\n**Answer:** B) Build on—not replace—living tradition\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q11. The Compared with Ireland section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*\n\n### Q12. Best next step after this lesson:\n- A) Stop listening to recordings\n- B) Follow playlists and return to the paired Ireland lesson\n- C) Skip all prerequisites\n- D) Avoid comparative study\n**Answer:** B) Follow playlists and return to the paired Ireland lesson\n*Explanation grounded in Welsh Traditional Music — Tunes, Forms, and Style.*",
+  "quiz_markdown": "### Q1. Penillion singing requires:\n\n- A) Strict rhythmic fit of verse over a fixed harp tune\n- B) Free-rhythm speech with no pulse\n- C) Operatic vibrato only in Italian\n- D) Electronic drum loops exclusively\n\n**Answer:** A\n\n### Q2. Plygi is:\n\n- A) A Welsh folk dance form related to hornpipe repertoire\n- B) A type of Irish reel in 6/8 only\n- C) A Scottish bagpipe drone\n- D) A jazz waltz exclusively\n\n**Answer:** A\n\n### Q3. Cwm Rhondda is best known as:\n\n- A) A Welsh hymn tune sung worldwide\n- B) A Breton bagpipe march only\n- C) An electronic dance track\n- D) A classical piano sonata exclusively\n\n**Answer:** A\n\n### Q4. Welsh hornpipes are typically in:\n\n- A) 4/4 with dotted, bouncy feel\n- B) 9/8 slip jig metre only\n- C) Free rhythm without pulse\n- D) 7/8 exclusively\n\n**Answer:** A\n\n### Q5. Compared with Irish sean-nós, penillion emphasises:\n\n- A) Counter-melody over harp with strict bar fit\n- B) Unaccompanied Irish-language song only\n- C) Hard-shoe step dance exclusively\n- D) Synthesizer leads only\n\n**Answer:** A\n\n### Q6. Waltzes at twmpath are usually in 3/4 time.\n\n**Answer:** True\n\n### Q7. Hymn tune repertoire is unrelated to Welsh folk identity.\n\n**Answer:** False — hymnody deeply shapes Welsh musical culture.\n\n### Q8. Hwyl describes communal lift in Welsh singing.\n\n**Answer:** True\n\n### Q9. Plygi and hornpipe are identical in every Welsh region without variation.\n\n**Answer:** False — regional accent and dance figures vary.\n\n### Q10. Nicholas Bennett's Alawon Fy Ngwlad is a classic Welsh tune source.\n\n**Answer:** True\n\n### Q11. Penillion singers may improvise topical verses.\n\n**Answer:** True\n\n### Q12. Irish reels are the only dance form ever played at Welsh twmpathau.\n\n**Answer:** False — plygi, hornpipe, and waltz are central Welsh forms.",
   "quiz_questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Which description best fits the main social context emphasised in this lesson?",
+      "prompt": "Penillion singing requires:",
       "choices": [
         {
           "id": "a",
-          "text": "Community dance and oral transmission",
+          "text": "Strict rhythmic fit of verse over a fixed harp tune",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Intangible cultural heritage of humanity",
+          "text": "Sligo fiddle style",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Regions where Irish remains a community language",
+          "text": "Donegal highland repertoire",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Highly ornamented, often unaccompanied traditional song",
+          "text": "Sliabh Luachra polkas and slides",
           "correct": false
         }
       ],
-      "explain": ") Community dance and oral transmission"
+      "explain": "The lesson identifies this as: Strict rhythmic fit of verse over a fixed harp tune"
     },
     {
       "id": "q2",
       "type": "mcq",
-      "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+      "prompt": "Plygi is:",
       "choices": [
         {
           "id": "a",
-          "text": "Regions where Irish remains a community language",
+          "text": "Donegal highland repertoire",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Highly ornamented, often unaccompanied traditional song",
+          "text": "Sliabh Luachra polkas and slides",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Group social choreography for multiple dancers",
+          "text": "Mouth blowing only, like Highland pipes",
           "correct": false
         },
         {
           "id": "d",
-          "text": "False",
+          "text": "A Welsh folk dance form related to hornpipe repertoire",
           "correct": true
         }
       ],
-      "explain": ") False"
+      "explain": "The lesson identifies this as: A Welsh folk dance form related to hornpipe repertoire"
     },
     {
       "id": "q3",
       "type": "mcq",
-      "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+      "prompt": "Cwm Rhondda is best known as:",
       "choices": [
         {
           "id": "a",
-          "text": "Group social choreography for multiple dancers",
+          "text": "Mouth blowing only, like Highland pipes",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Tips and heels striking the floor",
+          "text": "Elbow bellows strapped to the player",
           "correct": false
         },
         {
           "id": "c",
-          "text": "See Compared with Ireland section",
+          "text": "A Welsh hymn tune sung worldwide",
           "correct": true
         },
         {
           "id": "d",
-          "text": "Highly ornamented, often unaccompanied traditional song",
+          "text": "Sliabh Luachra polkas and slides",
           "correct": false
         }
       ],
-      "explain": ") See Compared with Ireland section"
+      "explain": "The lesson identifies this as: A Welsh hymn tune sung worldwide"
     },
     {
       "id": "q4",
       "type": "mcq",
-      "prompt": "A typical learner should prioritise:",
+      "prompt": "Welsh hornpipes are typically in:",
       "choices": [
         {
           "id": "a",
-          "text": "Four-string tenor banjo with a plectrum",
+          "text": "D, G, A, and E minor",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "text": "4/4 with dotted, bouncy feel",
           "correct": true
         },
         {
           "id": "c",
-          "text": "Group social choreography for multiple dancers",
+          "text": "Mouth blowing only, like Highland pipes",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Tips and heels striking the floor",
+          "text": "Elbow bellows strapped to the player",
           "correct": false
         }
       ],
-      "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+      "explain": "The lesson identifies this as: 4/4 with dotted, bouncy feel"
     },
     {
       "id": "q5",
       "type": "mcq",
-      "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+      "prompt": "Compared with Irish sean-nós, penillion emphasises:",
       "choices": [
         {
           "id": "a",
-          "text": "True",
+          "text": "Counter-melody over harp with strict bar fit",
           "correct": true
         },
         {
           "id": "b",
-          "text": "Tips and heels striking the floor",
+          "text": "Elbow bellows strapped to the player",
           "correct": false
         },
         {
           "id": "c",
-          "text": "Four-string tenor banjo with a plectrum",
+          "text": "D, G, A, and E minor",
           "correct": false
         },
         {
           "id": "d",
-          "text": "Modal Irish and Celtic accompaniment",
+          "text": "Francis O'Neill",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "The lesson identifies this as: Counter-melody over harp with strict bar fit"
     },
     {
       "id": "q6",
-      "type": "mcq",
-      "prompt": "Instrument focus in this lesson includes:",
+      "type": "truefalse",
+      "prompt": "Waltzes at twmpath are usually in 3/4 time.",
       "choices": [
         {
           "id": "a",
-          "text": "Four-string tenor banjo with a plectrum",
-          "correct": false
+          "text": "True",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Modal Irish and Celtic accompaniment",
+          "text": "False",
           "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Single-headed Irish frame drum",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Voices named in the lesson introduction",
-          "correct": true
         }
       ],
-      "explain": ") Voices named in the lesson introduction"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q7",
-      "type": "mcq",
-      "prompt": "Dance rhythm topics in this lesson relate to:",
+      "type": "truefalse",
+      "prompt": "Hymn tune repertoire is unrelated to Welsh folk identity.",
       "choices": [
         {
           "id": "a",
-          "text": "Single-headed Irish frame drum",
+          "text": "True",
           "correct": false
         },
         {
           "id": "b",
-          "text": "Community dance and oral transmission",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Social dance forms discussed in the body",
+          "text": "False",
           "correct": true
-        },
-        {
-          "id": "d",
-          "text": "Modal Irish and Celtic accompaniment",
-          "correct": false
         }
       ],
-      "explain": ") Social dance forms discussed in the body"
+      "explain": "hymnody deeply shapes Welsh musical culture."
     },
     {
       "id": "q8",
-      "type": "mcq",
-      "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+      "type": "truefalse",
+      "prompt": "Hwyl describes communal lift in Welsh singing.",
       "choices": [
         {
           "id": "a",
-          "text": "False",
-          "correct": false
-        },
-        {
-          "id": "b",
           "text": "True",
           "correct": true
         },
         {
-          "id": "c",
-          "text": "Single-headed Irish frame drum",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Community dance and oral transmission",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q9",
-      "type": "mcq",
-      "prompt": "When studying tune forms, you should:",
+      "type": "truefalse",
+      "prompt": "Plygi and hornpipe are identical in every Welsh region without variation.",
       "choices": [
         {
           "id": "a",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": true
+          "text": "True",
+          "correct": false
         },
         {
           "id": "b",
-          "text": "Community dance and oral transmission",
-          "correct": false
-        },
-        {
-          "id": "c",
           "text": "False",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "See Compared with Ireland section",
-          "correct": false
+          "correct": true
         }
       ],
-      "explain": ") Connect metre and foot-tap feel to named dance types"
+      "explain": "regional accent and dance figures vary."
     },
     {
       "id": "q10",
-      "type": "mcq",
-      "prompt": "Fusion and modern scenes discussed here:",
+      "type": "truefalse",
+      "prompt": "Nicholas Bennett's Alawon Fy Ngwlad is a classic Welsh tune source.",
       "choices": [
         {
           "id": "a",
           "text": "True",
-          "correct": false
-        },
-        {
-          "id": "b",
-          "text": "Voices named in the lesson introduction",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Build on—not replace—living tradition",
           "correct": true
         },
         {
-          "id": "d",
-          "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") Build on—not replace—living tradition"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q11",
-      "type": "mcq",
-      "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+      "type": "truefalse",
+      "prompt": "Penillion singers may improvise topical verses.",
       "choices": [
         {
           "id": "a",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": false
-        },
-        {
-          "id": "b",
           "text": "True",
           "correct": true
         },
         {
-          "id": "c",
-          "text": "Voices named in the lesson introduction",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Social dance forms discussed in the body",
+          "id": "b",
+          "text": "False",
           "correct": false
         }
       ],
-      "explain": ") True"
+      "explain": "Correct answer: True"
     },
     {
       "id": "q12",
-      "type": "mcq",
-      "prompt": "Best next step after this lesson:",
+      "type": "truefalse",
+      "prompt": "Irish reels are the only dance form ever played at Welsh twmpathau.",
       "choices": [
         {
           "id": "a",
-          "text": "Follow playlists and return to the paired Ireland lesson",
-          "correct": true
+          "text": "True",
+          "correct": false
         },
         {
           "id": "b",
-          "text": "Voices named in the lesson introduction",
-          "correct": false
-        },
-        {
-          "id": "c",
-          "text": "Social dance forms discussed in the body",
-          "correct": false
-        },
-        {
-          "id": "d",
-          "text": "Connect metre and foot-tap feel to named dance types",
-          "correct": false
+          "text": "False",
+          "correct": true
         }
       ],
-      "explain": ") Follow playlists and return to the paired Ireland lesson"
+      "explain": "plygi, hornpipe, and waltz are central Welsh forms."
     }
   ],
   "quiz": {
@@ -468,338 +630,268 @@
       {
         "id": "q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Penillion singing requires:",
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Strict rhythmic fit of verse over a fixed harp tune",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Regions where Irish remains a community language",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Strict rhythmic fit of verse over a fixed harp tune"
       },
       {
         "id": "q2",
         "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "prompt": "Plygi is:",
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
+            "text": "Donegal highland repertoire",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "False",
+            "text": "A Welsh folk dance form related to hornpipe repertoire",
             "correct": true
           }
         ],
-        "explain": ") False"
+        "explain": "The lesson identifies this as: A Welsh folk dance form related to hornpipe repertoire"
       },
       {
         "id": "q3",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Cwm Rhondda is best known as:",
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "See Compared with Ireland section",
+            "text": "A Welsh hymn tune sung worldwide",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "Sliabh Luachra polkas and slides",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: A Welsh hymn tune sung worldwide"
       },
       {
         "id": "q4",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Welsh hornpipes are typically in:",
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "4/4 with dotted, bouncy feel",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Mouth blowing only, like Highland pipes",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Tips and heels striking the floor",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: 4/4 with dotted, bouncy feel"
       },
       {
         "id": "q5",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Compared with Irish sean-nós, penillion emphasises:",
         "choices": [
           {
             "id": "a",
-            "text": "True",
+            "text": "Counter-melody over harp with strict bar fit",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Francis O'Neill",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "The lesson identifies this as: Counter-melody over harp with strict bar fit"
       },
       {
         "id": "q6",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "Waltzes at twmpath are usually in 3/4 time.",
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q7",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Hymn tune repertoire is unrelated to Welsh folk identity.",
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "hymnody deeply shapes Welsh musical culture."
       },
       {
         "id": "q8",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Hwyl describes communal lift in Welsh singing.",
         "choices": [
           {
             "id": "a",
-            "text": "False",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q9",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Plygi and hornpipe are identical in every Welsh region without variation.",
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
+            "text": "True",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": false
+            "correct": true
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "regional accent and dance figures vary."
       },
       {
         "id": "q10",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Nicholas Bennett's Alawon Fy Ngwlad is a classic Welsh tune source.",
         "choices": [
           {
             "id": "a",
             "text": "True",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q11",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Penillion singers may improvise topical verses.",
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") True"
+        "explain": "Correct answer: True"
       },
       {
         "id": "q12",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "type": "truefalse",
+        "prompt": "Irish reels are the only dance form ever played at Welsh twmpathau.",
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
+            "text": "True",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
+            "text": "False",
+            "correct": true
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "plygi, hornpipe, and waltz are central Welsh forms."
       }
     ]
   }

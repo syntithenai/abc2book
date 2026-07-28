@@ -26,6 +26,7 @@
 .search-result-picker-bulk-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
   gap: 0.5rem;
 }
 

@@ -6,10 +6,14 @@ import FormFieldHelp from './FormFieldHelp';
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText';
 import { tuneImportTitle } from '../importTitleMatch';
 import {
-  scanDuplicateGroupsAsync,
   filterDuplicateGroupsByKind,
   filterDuplicateGroupsByName,
 } from '../tuneDuplicateScan';
+import {
+  scanDuplicateGroupsWithScope,
+  shouldDefaultBookScope,
+} from '../tuneDuplicateScanWorkerBridge';
+import { LARGE_LIST_WARNING_THRESHOLD } from '../tuneScaleConstants';
 import { dismissDuplicateGroup } from '../tuneDuplicateDismissals';
 import { applyDuplicateMerge, pickDefaultSurvivorId } from '../tuneDuplicateMerge';
 import DuplicateMergeModal from './DuplicateMergeModal';
@@ -54,6 +58,9 @@ export default function DuplicateManagerSettingsSection(props) {
   const [scanResult, setScanResult] = useState(EMPTY_SCAN_RESULT);
   const [scanning, setScanning] = useState(true);
   const tuneCount = Object.keys(tunes || {}).length;
+  const [scopeCurrentBookOnly, setScopeCurrentBookOnly] = useState(
+    shouldDefaultBookScope(tuneCount, props.currentTuneBook)
+  );
 
   const getTuneImportHashRef = useRef(function() { return ''; });
   useEffect(function() {
@@ -82,11 +89,13 @@ export default function DuplicateManagerSettingsSection(props) {
       await new Promise(function(resolve) { setTimeout(resolve, 0); });
       if (cancelled) return;
       try {
-        const result = await scanDuplicateGroupsAsync({
+        const result = await scanDuplicateGroupsWithScope({
           tunes: tunes,
           tunesHash: tunesHash,
           getTuneImportHash: function(tune) { return getTuneImportHashRef.current(tune); },
           shouldCancel: function() { return cancelled; },
+          scopeCurrentBookOnly: scopeCurrentBookOnly,
+          currentTuneBook: props.currentTuneBook,
         });
         if (cancelled || !result) return;
         setScanResult(result);
@@ -103,7 +112,7 @@ export default function DuplicateManagerSettingsSection(props) {
     };
     // scanVersion forces rescan when user clicks Rescan; tuneCount debounces library edits
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [tuneCount, scanVersion]);
+  }, [tuneCount, scanVersion, scopeCurrentBookOnly, props.currentTuneBook]);
 
   const filteredGroups = useMemo(function() {
     const byKind = filterDuplicateGroupsByKind(scanResult.groups, filterKind);
@@ -209,6 +218,24 @@ export default function DuplicateManagerSettingsSection(props) {
 
         {scanning ? (
           <p className="app-text-muted mb-3">Scanning your library for duplicates…</p>
+        ) : null}
+
+        {tuneCount > LARGE_LIST_WARNING_THRESHOLD ? (
+          <Alert variant="info" className="mb-3">
+            Large library ({tuneCount} tunes). Scanning the full library can be slow — consider limiting to the current book.
+          </Alert>
+        ) : null}
+
+        {props.currentTuneBook ? (
+          <Form.Check
+            type="switch"
+            id="duplicate-scope-current-book"
+            className="mb-3"
+            label={'Scan current book only (' + props.currentTuneBook + ')'}
+            checked={scopeCurrentBookOnly}
+            onChange={function(e) { setScopeCurrentBookOnly(!!e.target.checked); }}
+            disabled={scanning}
+          />
         ) : null}
 
         <Form.Group className="mb-3" controlId="duplicate-manager-name-filter">

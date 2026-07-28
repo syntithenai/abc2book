@@ -1,0 +1,462 @@
+{
+  "regions-east-diaspora-01-diaspora-communities": {
+    "entities": [
+      {
+        "id": "muzsik-s",
+        "type": "artist",
+        "name": "Muzsikás",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Muzsikás for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Muzsikás",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "b-la-bart-k",
+        "type": "band",
+        "name": "Béla Bartók",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Béla Bartók for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Béla_Bartók",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-diaspora-01-diaspora-communities-pl1",
+        "entity_id": "muzsik-s",
+        "label": "Muzsikás — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-diaspora-01-diaspora-communities-pl2",
+        "entity_id": "b-la-bart-k",
+        "label": "Béla Bartók — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-diaspora-01-diaspora-communities-pl3",
+        "label": "Hungarian Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-diaspora-01-diaspora-communities-pl4",
+        "label": "Hungarian Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hungarian Folk Music rewards comparative study.",
+      "Focus: Hungarian Folk Music spans violin, voice, shepherd flute leading voices, csárdás, verbunko.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: csárdás, verbunkos, asymmetric metre.",
+      "Dance: couple dance, village circle.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Hungary",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Hungarian Folk Music spans violin, voice, shepherd flute lea",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-diaspora-02-radio-archives": {
+    "entities": [
+      {
+        "id": "muzsik-s",
+        "type": "artist",
+        "name": "Muzsikás",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Muzsikás for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Muzsikás",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "b-la-bart-k",
+        "type": "band",
+        "name": "Béla Bartók",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Béla Bartók for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Béla_Bartók",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-diaspora-02-radio-archives-pl1",
+        "entity_id": "muzsik-s",
+        "label": "Muzsikás — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-diaspora-02-radio-archives-pl2",
+        "entity_id": "b-la-bart-k",
+        "label": "Béla Bartók — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-diaspora-02-radio-archives-pl3",
+        "label": "Hungarian Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-diaspora-02-radio-archives-pl4",
+        "label": "Hungarian Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hungarian Folk Music rewards comparative study.",
+      "Focus: Hungarian Folk Music spans violin, voice, shepherd flute leading voices, csárdás, verbunko.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: csárdás, verbunkos, asymmetric metre.",
+      "Dance: couple dance, village circle.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Hungary",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Hungarian Folk Music spans violin, voice, shepherd flute lea",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-diaspora-03-festival-networks": {
+    "entities": [
+      {
+        "id": "muzsik-s",
+        "type": "artist",
+        "name": "Muzsikás",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Muzsikás for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Muzsikás",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "b-la-bart-k",
+        "type": "band",
+        "name": "Béla Bartók",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Béla Bartók for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Béla_Bartók",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-diaspora-03-festival-networks-pl1",
+        "entity_id": "muzsik-s",
+        "label": "Muzsikás — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-diaspora-03-festival-networks-pl2",
+        "entity_id": "b-la-bart-k",
+        "label": "Béla Bartók — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-diaspora-03-festival-networks-pl3",
+        "label": "Hungarian Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-diaspora-03-festival-networks-pl4",
+        "label": "Hungarian Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hungarian Folk Music rewards comparative study.",
+      "Focus: Hungarian Folk Music spans violin, voice, shepherd flute leading voices, csárdás, verbunko.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: csárdás, verbunkos, asymmetric metre.",
+      "Dance: couple dance, village circle.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Hungary",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Hungarian Folk Music spans violin, voice, shepherd flute lea",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-diaspora-04-fusion-scenes": {
+    "entities": [
+      {
+        "id": "muzsik-s",
+        "type": "artist",
+        "name": "Muzsikás",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Muzsikás for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Muzsikás",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "b-la-bart-k",
+        "type": "band",
+        "name": "Béla Bartók",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Béla Bartók for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Béla_Bartók",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-diaspora-04-fusion-scenes-pl1",
+        "entity_id": "muzsik-s",
+        "label": "Muzsikás — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-diaspora-04-fusion-scenes-pl2",
+        "entity_id": "b-la-bart-k",
+        "label": "Béla Bartók — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-diaspora-04-fusion-scenes-pl3",
+        "label": "Hungarian Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-diaspora-04-fusion-scenes-pl4",
+        "label": "Hungarian Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hungarian Folk Music rewards comparative study.",
+      "Focus: Hungarian Folk Music spans violin, voice, shepherd flute leading voices, csárdás, verbunko.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: csárdás, verbunkos, asymmetric metre.",
+      "Dance: couple dance, village circle.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Hungary",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Hungarian Folk Music spans violin, voice, shepherd flute lea",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-east-diaspora-05-listening-across-borders": {
+    "entities": [
+      {
+        "id": "muzsik-s",
+        "type": "artist",
+        "name": "Muzsikás",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Muzsikás for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Muzsikás",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "b-la-bart-k",
+        "type": "band",
+        "name": "Béla Bartók",
+        "summary": "Representative musician or ensemble in east-hungary trad",
+        "blurb": "Study Béla Bartók for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Béla_Bartók",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-east-diaspora-05-listening-across-borders-pl1",
+        "entity_id": "muzsik-s",
+        "label": "Muzsikás — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-east-diaspora-05-listening-across-borders-pl2",
+        "entity_id": "b-la-bart-k",
+        "label": "Béla Bartók — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-east-diaspora-05-listening-across-borders-pl3",
+        "label": "Hungarian Folk Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-east-diaspora-05-listening-across-borders-pl4",
+        "label": "Hungarian Folk Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Hungarian Folk Music rewards comparative study.",
+      "Focus: Hungarian Folk Music spans violin, voice, shepherd flute leading voices, csárdás, verbunko.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: csárdás, verbunkos, asymmetric metre.",
+      "Dance: couple dance, village circle.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Hungary",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "Eastern European Folk",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Hungarian Folk Music spans violin, voice, shepherd flute lea",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+        "note": "Lesson focus area"
+      }
+    ]
+  }
+}

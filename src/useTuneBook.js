@@ -14,6 +14,8 @@ import abcjs from "abcjs";
 import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
 import { getLyricLines } from './wLinesUtils'
 import { buildNotationWLines } from './noteSpacingUtils'
+import { filterTunes } from './tuneListFilter'
+import { resolveCandidateTuneIds } from './tuneCandidateFilter'
 import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
 import { applyDuplicateBookMerges } from './importDuplicateBooks'
 import { importTitlesMatchForDeduping, tuneImportTitle } from './importTitleMatch'
@@ -1792,29 +1794,29 @@ The main difference between the two functions is the additional condition in app
   }
 
   function fromBook(book) {
-    //console.log('from book',book, tunes)
-    var res = Object.values(tunes).filter(function(tune) {
-        if (book) {
-          if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
-            return true
-          } else {
-            return false
-          }
-        } else {
-          return true
-        }
-    })
-    //console.log('to abc res',res)
-    return res
+    const candidateIds = resolveCandidateTuneIds(
+      { currentTuneBook: book },
+      indexes && indexes.getIndexBundle ? indexes.getIndexBundle() : null,
+      tunes ? Object.keys(tunes) : []
+    )
+    return filterTunes(tunes, function(tune) { return true }, candidateIds)
   }
   
   function fromSearch(filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly) {
-    //console.log('from book',book, tunes)
-    var res = Object.values(tunes).filter(function(tune) {
-        return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly)
-    })
-    //console.log('to abc res',res)
-    return res
+    const candidateIds = resolveCandidateTuneIds(
+      {
+        currentTuneBook: bookFilter,
+        tagFilter: tagFilter,
+        genreFilter: genreFilter,
+        artistFilter: artistFilter,
+        starredFilter: starredOnly,
+      },
+      indexes && indexes.getIndexBundle ? indexes.getIndexBundle() : null,
+      tunes ? Object.keys(tunes) : []
+    )
+    return filterTunes(tunes, function(tune) {
+      return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly)
+    }, candidateIds)
   }
   
   function fromSelection(selection) {

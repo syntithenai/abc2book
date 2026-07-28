@@ -1,0 +1,782 @@
+{
+  "regions-roots-contra-01-overview": {
+    "entities": [
+      {
+        "id": "rodney-miller",
+        "type": "artist",
+        "name": "Rodney Miller",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Rodney Miller for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Rodney_Miller",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "dudley-laufman",
+        "type": "band",
+        "name": "Dudley Laufman",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Dudley Laufman for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dudley_Laufman",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-contra-01-overview-pl1",
+        "entity_id": "rodney-miller",
+        "label": "Rodney Miller — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-contra-01-overview-pl2",
+        "entity_id": "dudley-laufman",
+        "label": "Dudley Laufman — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-contra-01-overview-pl3",
+        "label": "New England Contra Dance Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-contra-01-overview-pl4",
+        "label": "New England Contra Dance Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "New England Contra Dance Music rewards comparative study.",
+      "Focus: New England Contra Dance Music spans fiddle, piano leading voices, reels, quadrilles, comp.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, quadrilles, composed tunes.",
+      "Dance: contra, square, caller-led.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Contra dance",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "New England Contra Dance Music spans fiddle, piano leading v",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-contra-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "rodney-miller",
+        "type": "artist",
+        "name": "Rodney Miller",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Rodney Miller for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Rodney_Miller",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "dudley-laufman",
+        "type": "band",
+        "name": "Dudley Laufman",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Dudley Laufman for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dudley_Laufman",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-contra-02-instruments-voices-i-pl1",
+        "entity_id": "rodney-miller",
+        "label": "Rodney Miller — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-contra-02-instruments-voices-i-pl2",
+        "entity_id": "dudley-laufman",
+        "label": "Dudley Laufman — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-contra-02-instruments-voices-i-pl3",
+        "label": "New England Contra Dance Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-contra-02-instruments-voices-i-pl4",
+        "label": "New England Contra Dance Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "New England Contra Dance Music rewards comparative study.",
+      "Focus: fiddle, piano.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, quadrilles, composed tunes.",
+      "Dance: contra, square, caller-led.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Contra dance",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "fiddle, piano",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-contra-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "rodney-miller",
+        "type": "artist",
+        "name": "Rodney Miller",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Rodney Miller for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Rodney_Miller",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "dudley-laufman",
+        "type": "band",
+        "name": "Dudley Laufman",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Dudley Laufman for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dudley_Laufman",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-contra-03-instruments-voices-ii-pl1",
+        "entity_id": "rodney-miller",
+        "label": "Rodney Miller — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-contra-03-instruments-voices-ii-pl2",
+        "entity_id": "dudley-laufman",
+        "label": "Dudley Laufman — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-contra-03-instruments-voices-ii-pl3",
+        "label": "New England Contra Dance Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-contra-03-instruments-voices-ii-pl4",
+        "label": "New England Contra Dance Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "New England Contra Dance Music rewards comparative study.",
+      "Focus: guitar, band.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, quadrilles, composed tunes.",
+      "Dance: contra, square, caller-led.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Contra dance",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "guitar, band",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-contra-04-genres-forms": {
+    "entities": [
+      {
+        "id": "rodney-miller",
+        "type": "artist",
+        "name": "Rodney Miller",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Rodney Miller for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Rodney_Miller",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "dudley-laufman",
+        "type": "band",
+        "name": "Dudley Laufman",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Dudley Laufman for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dudley_Laufman",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-contra-04-genres-forms-pl1",
+        "entity_id": "rodney-miller",
+        "label": "Rodney Miller — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-contra-04-genres-forms-pl2",
+        "entity_id": "dudley-laufman",
+        "label": "Dudley Laufman — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-contra-04-genres-forms-pl3",
+        "label": "New England Contra Dance Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-contra-04-genres-forms-pl4",
+        "label": "New England Contra Dance Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "New England Contra Dance Music rewards comparative study.",
+      "Focus: reels, quadrilles, composed tunes.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, quadrilles, composed tunes.",
+      "Dance: contra, square, caller-led.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Contra dance",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "reels, quadrilles, composed tunes",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-contra-05-dance": {
+    "entities": [
+      {
+        "id": "rodney-miller",
+        "type": "artist",
+        "name": "Rodney Miller",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Rodney Miller for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Rodney_Miller",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "dudley-laufman",
+        "type": "band",
+        "name": "Dudley Laufman",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Dudley Laufman for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dudley_Laufman",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-contra-05-dance-pl1",
+        "entity_id": "rodney-miller",
+        "label": "Rodney Miller — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-contra-05-dance-pl2",
+        "entity_id": "dudley-laufman",
+        "label": "Dudley Laufman — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-contra-05-dance-pl3",
+        "label": "New England Contra Dance Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-contra-05-dance-pl4",
+        "label": "New England Contra Dance Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "New England Contra Dance Music rewards comparative study.",
+      "Focus: contra, square, caller-led.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, quadrilles, composed tunes.",
+      "Dance: contra, square, caller-led.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Contra dance",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "contra, square, caller-led",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-contra-06-history": {
+    "entities": [
+      {
+        "id": "rodney-miller",
+        "type": "artist",
+        "name": "Rodney Miller",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Rodney Miller for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Rodney_Miller",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "dudley-laufman",
+        "type": "band",
+        "name": "Dudley Laufman",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Dudley Laufman for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dudley_Laufman",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-contra-06-history-pl1",
+        "entity_id": "rodney-miller",
+        "label": "Rodney Miller — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-contra-06-history-pl2",
+        "entity_id": "dudley-laufman",
+        "label": "Dudley Laufman — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-contra-06-history-pl3",
+        "label": "New England Contra Dance Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-contra-06-history-pl4",
+        "label": "New England Contra Dance Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "New England Contra Dance Music rewards comparative study.",
+      "Focus: Dudley Laufman, camp culture.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, quadrilles, composed tunes.",
+      "Dance: contra, square, caller-led.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Contra dance",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Dudley Laufman, camp culture",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-contra-07-representative-depth": {
+    "entities": [
+      {
+        "id": "rodney-miller",
+        "type": "artist",
+        "name": "Rodney Miller",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Rodney Miller for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Rodney_Miller",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "dudley-laufman",
+        "type": "band",
+        "name": "Dudley Laufman",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Dudley Laufman for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dudley_Laufman",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-contra-07-representative-depth-pl1",
+        "entity_id": "rodney-miller",
+        "label": "Rodney Miller — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-contra-07-representative-depth-pl2",
+        "entity_id": "dudley-laufman",
+        "label": "Dudley Laufman — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-contra-07-representative-depth-pl3",
+        "label": "New England Contra Dance Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-contra-07-representative-depth-pl4",
+        "label": "New England Contra Dance Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "New England Contra Dance Music rewards comparative study.",
+      "Focus: fusion bands, NEFFA.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, quadrilles, composed tunes.",
+      "Dance: contra, square, caller-led.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Contra dance",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "fusion bands, NEFFA",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-contra-08-tunes": {
+    "entities": [
+      {
+        "id": "rodney-miller",
+        "type": "artist",
+        "name": "Rodney Miller",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Rodney Miller for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Rodney_Miller",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "dudley-laufman",
+        "type": "band",
+        "name": "Dudley Laufman",
+        "summary": "Representative musician or ensemble in roots-contra trad",
+        "blurb": "Study Dudley Laufman for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Dudley_Laufman",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-contra-08-tunes-pl1",
+        "entity_id": "rodney-miller",
+        "label": "Rodney Miller — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-contra-08-tunes-pl2",
+        "entity_id": "dudley-laufman",
+        "label": "Dudley Laufman — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-contra-08-tunes-pl3",
+        "label": "New England Contra Dance Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-contra-08-tunes-pl4",
+        "label": "New England Contra Dance Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "New England Contra Dance Music rewards comparative study.",
+      "Focus: Girl with the Blue Dress On.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: reels, quadrilles, composed tunes.",
+      "Dance: contra, square, caller-led.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Contra dance",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Girl with the Blue Dress On",
+        "url": "https://en.wikipedia.org/wiki/Contra_dance",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "girl-with-the-blue-dress-on",
+        "type": "tune",
+        "name": "Girl with the Blue Dress On",
+        "form": "reels",
+        "reference": "Contra dance repertoire",
+        "about": "Representative new england contra dance music listening study.",
+        "playlist": [
+          {
+            "label": "Girl with the Blue Dress On — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "contra-standard-1",
+        "type": "tune",
+        "name": "contra standard 1",
+        "form": "reels",
+        "reference": "Contra dance repertoire",
+        "about": "Representative new england contra dance music listening study.",
+        "playlist": [
+          {
+            "label": "contra standard 1 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "contra-standard-2",
+        "type": "tune",
+        "name": "contra standard 2",
+        "form": "reels",
+        "reference": "Contra dance repertoire",
+        "about": "Representative new england contra dance music listening study.",
+        "playlist": [
+          {
+            "label": "contra standard 2 — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

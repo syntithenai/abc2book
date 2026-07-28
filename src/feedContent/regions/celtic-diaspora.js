@@ -2,8 +2,8 @@
 
 export default [
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-1",
-    "title": "Celtic-Diaspora trad: key ideas (1)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-1",
+    "title": "Diaspora trad: key ideas (1)",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
@@ -20,28 +20,417 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
     "estimateMinutes": 4,
-    "body": "From **Cape Breton Fiddle and Dance** (Celtic-Diaspora trad):\n\n- Diaspora scenes remix Irish/Scottish roots.\n\n- Compare accents—not only tune names.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Cape Breton Fiddle and Dance** (Diaspora trad):\n\n- Cape Breton fiddle grew from Gaelic Scottish and Irish settlement in Nova Scotia.\n\n- Cut bowing, drones, and rhythmic lift serve step dancers and square sets.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-1-q1",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Cape Breton fiddle tradition developed primarily through:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-1-q2",
+        "type": "truefalse",
+        "prompt": "Step dancing in Cape Breton is typically performed in close relationship with a fiddler keeping dance tempo.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-2",
+    "title": "Diaspora trad: key ideas (2)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cape-breton",
+      "diaspora",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-08-tunes"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
+    "estimateMinutes": 4,
+    "body": "From **Cape Breton Fiddle and Dance** (Diaspora trad):\n\n- Repertoire is Scottish-weighted with Irish and Acadian edges.\n\n- Compared with Ireland: shared tune families, different social stage (dance hall vs pub session).\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-2-q1",
+        "type": "mcq",
+        "prompt": "Compared with a typical Irish pub session, Cape Breton social music more often emphasises:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Fiddle-led music for square sets and solo step dancers"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-2-q2",
+        "type": "mcq",
+        "prompt": "Cape Breton bowing is often characterised by:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Cut strokes, drones, and strong rhythmic lift for dance"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-3",
+    "title": "Diaspora trad: key ideas (3)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cape-breton",
+      "diaspora",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-08-tunes"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
+    "estimateMinutes": 4,
+    "body": "From **Cape Breton Fiddle and Dance** (Diaspora trad):\n\n- Celtic Colours and the Fiddlers' Association sustain modern transmission.\n\n- Cape Breton music grew from Gaelic Scottish and Irish settlement in Nova Scotia, not from a single \"exported Ireland\" package.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-3-q1",
+        "type": "truefalse",
+        "prompt": "The repertoire draws heavily from Scottish sources such as reels, strathspeys, and marches.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-3-q2",
+        "type": "mcq",
+        "prompt": "Buddy MacMaster and Natalie MacMaster are associated with:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cape Breton fiddle performance and transmission",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cape Breton fiddle performance and transmission"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-4",
+    "title": "Diaspora trad: key ideas (4)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cape-breton",
+      "diaspora",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-08-tunes"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
+    "estimateMinutes": 4,
+    "body": "From **Cape Breton Fiddle and Dance** (Diaspora trad):\n\n- Fiddle style emphasises rhythmic lift, cut bowing, and drones — optimised for step dancers.\n\n- Solo step dance and square sets are central social forms; the fiddler leads the floor.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-4-q1",
+        "type": "mcq",
+        "prompt": "Celtic Colours International Festival takes place in:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cape Breton, Nova Scotia",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Cape Breton fiddle performance and transmission",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cape Breton, Nova Scotia"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "A tune like *The Silver Spear* might appear in both Irish sessions and Cape Breton sets, but with different regional accent.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-5",
+    "title": "Diaspora trad: key ideas (5)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cape-breton",
+      "diaspora",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-08-tunes"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
+    "estimateMinutes": 4,
+    "body": "From **Cape Breton Fiddle and Dance** (Diaspora trad):\n\n- Repertoire is Scottish-weighted (reels, strathspeys, marches) with Irish and Acadian edges.\n\n- Radio, festivals, and family transmission — including the Cape Breton Fiddlers' Association and Celtic Colours — sustain modern practice.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-5-q1",
+        "type": "mcq",
+        "prompt": "Gaelic language was part of the historical community context for Cape Breton settlers.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cape Breton, Nova Scotia",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Watch fiddle-and-step-dance footage from community halls and festival stages",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Cape Breton fiddle performance and transmission",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Importing Irish session etiquette without listening to local Cape Breton dance context is a good default approach.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "regional accent and social stage differ; listen first."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-1-overview",
+    "title": "Diaspora trad: Overview",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cape-breton",
+      "diaspora",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-08-tunes"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
+    "estimateMinutes": 4,
+    "body": "Stand in a community hall in Inverness County, Nova Scotia, on a Saturday night and you may hear a fiddle driving a square set while dancers tap intricate rhythms on a wooden board. The tune might be a reel you recognise from an Irish session — The Silver Spear, The Devil's Dream, St. Anne's Reel — but the bowing, the lift, and the relationship between player and dancer will feel unmistakably Cape Breton. This is not Ireland transported intact across the Atlantic, nor Scotland frozen in time. It is a diaspora tradition that crystallised when Gaelic-speaking settlers from the Scottish Highlands and islands, alongside Irish immigrants, built communities on Cape Breton Island and kept music central to kitchen parties, parish halls, and later radio studios. Cape Breton fiddle style is one of the most celebrated branches of North American Celtic music. Its reputation rests on a distinctive rhythmic pulse, heavy use of cut bowing and drones, close coupling with step dancing, and a repertoire that draws heavily from Scottish pipe and fiddle sources while absorbing Irish and French-Canadian influences. Wikipedia's…\n\nStand in a community hall in Inverness County, Nova Scotia, on a Saturday night and you may hear a fiddle driving a square set while dancers tap intricate rhythms on a wooden board. The tune might be a reel you recognise from an Irish session — The Silver Spear, The Devil's Dream, St. Anne's Reel — but the bowing, the lift, and the relationship between player and dancer will feel unmistakably Cape Breton. This is not Ireland transported intact across the Atlantic, nor Scotland frozen in time. It is a diaspora tradition that crystallised when Gaelic-speaking settlers from the Scottish Highlands and islands, alongside Irish immigrants, built communities on Cape Breton Island and kept music central to kitchen parties, parish…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-1-overview-q1",
+        "type": "truefalse",
+        "prompt": "The Cape Breton Fiddlers' Association supports publishing, teaching, and festival culture.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-1-overview-q2",
+        "type": "mcq",
+        "prompt": "Best study approach after this lesson:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Watch fiddle-and-step-dance footage from community halls and festival stages",
             "correct": true
           },
           {
@@ -50,42 +439,13 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "False",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Watch fiddle-and-step-dance footage from community halls and festival stages"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-2",
-    "title": "Celtic-Diaspora trad: key ideas (2)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-2-settlement-and-the-gaelic-atlantic-world",
+    "title": "Diaspora trad: Settlement and the Gaelic Atlantic world",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
@@ -102,72 +462,62 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
     "estimateMinutes": 4,
-    "body": "From **Cape Breton Fiddle and Dance** (Celtic-Diaspora trad):\n\n- Festivals link fringe regions to wider Celtic network.\n\n- Use Ireland unit as reference tradition.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "Cape Breton Island lies off the northeast coast of Nova Scotia. From the late eighteenth century, displaced Highlanders and Islanders arrived in large numbers after the Clearances and earlier emigration waves. Irish settlers also came — some via Newfoundland, others directly — adding tune families and song to the mix. Gaelic remained a community language in many districts into the early twentieth century; church, kitchen, and dance floor reinforced a cultural world that mainland anglophone Canada did not share. Music travelled in people, not in institutional pipelines. A fiddle learned in Barra or Donegal might pass to grandchildren in Judique or Mabou. Pipe marches became fiddle tunes; songs became instrumental sets. French-Acadian neighbours contributed rhythmic habits and repertoire edges. The result is a regional accent within the wider Gaelic diaspora — closer to Scottish Cape Breton cousins in Antigonish and PEI than to Clare sessions, but recognisably part of the same extended family. Radio transformed reach. CBC programmes and local stations broadcast fiddle music into kitchens where travel to festivals was difficult. Recordings by Buddy MacMaster, Natalie MacMaster, and earlier…\n\nCape Breton Island lies off the northeast coast of Nova Scotia. From the late eighteenth century, displaced Highlanders and Islanders arrived in large numbers after the Clearances and earlier emigration waves. Irish settlers also came — some via Newfoundland, others directly — adding tune families and song to the mix. Gaelic remained a community language in many districts into the early twentieth century; church, kitchen, and dance floor reinforced a cultural world that mainland anglophone Canada did not share. Music travelled in people, not in institutional pipelines. A fiddle learned in Barra or Donegal might pass to grandchildren in Judique or Mabou. Pipe marches became fiddle tunes; songs became instrumental sets. French-Acadian neighbours contributed rhythmic habits and repertoire edges. The…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-2-q1",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-2-settlement-and-the-gaelic-atlantic-world-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Cape Breton fiddle tradition developed primarily through:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-2-settlement-and-the-gaelic-atlantic-world-q2",
+        "type": "truefalse",
+        "prompt": "Step dancing in Cape Breton is typically performed in close relationship with a fiddler keeping dance tempo.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "True",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
-          }
-        ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-3",
-    "title": "Celtic-Diaspora trad: key ideas (3)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-3-fiddle-style-what-to-listen-for",
+    "title": "Diaspora trad: Fiddle style: what to listen for",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
@@ -184,72 +534,72 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
     "estimateMinutes": 4,
-    "body": "From **Cape Breton Fiddle and Dance** (Celtic-Diaspora trad):\n\n- Playlist study beats generic compilations.\n\n- Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "Cape Breton fiddling prizes drive and lift. The player keeps a steady dance pulse; ornament serves rhythm more than lyrical decoration. Common techniques include:\n\n- Cuts and snaps — short bow strokes that articulate beats sharply.\n- Drone strings — open-string or double-stop resonance giving a bagpipe-like floor.\n- Strong downbows on beat one — the foot and the bow agree.\n- Tempo suited to step dancers, often brisk but never chaotic.\n\nRepertoire leans on reels, strathspeys, jigs, marches, and slow airs from Scottish sources, with Irish reels and hornpipes in the mix. A tune like Inverness County Reel or The Banks of Spey signals Scottish genealogy immediately. Yet the same player may follow with a jig heard at an Irish festival — phrased with Cape Breton bow weight, not Sligo rolls.\n\nRegional families matter. The Beatons, the MacMasters, the Cremos, the Chisholms — names learners encounter in tune books and festival programmes. Cape Breton Fiddlers' Association supports teaching, publishing, and the annual Celtic Colours festival circuit.\n\nCape Breton fiddling prizes drive and lift. The player keeps a steady dance pulse; ornament serves rhythm more than lyrical decoration. Common techniques include: - Cuts and snaps — short bow strokes that articulate beats sharply. - Drone strings — open-string or double-stop resonance giving a bagpipe-like floor. - Strong downbows on beat one — the foot and the bow agree. - Tempo suited to step dancers, often brisk but never chaotic. Repertoire leans on reels, strathspeys, jigs, marches, and slow airs from Scottish sources, with Irish reels and hornpipes in the mix. A tune like Inverness County Reel or The Banks of Spey signals Scottish genealogy immediately. Yet the same player may follow with a jig heard at an…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-3-q1",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-3-fiddle-style-what-to-listen-for-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Compared with a typical Irish pub session, Cape Breton social music more often emphasises:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Social dance forms discussed in the body",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "True",
-            "correct": true
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Fiddle-led music for square sets and solo step dancers"
       },
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-3-q2",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-3-fiddle-style-what-to-listen-for-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Cape Breton bowing is often characterised by:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
+            "text": "Single-headed Irish frame drum",
+            "correct": false
           },
           {
             "id": "c",
-            "text": "True",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
+            "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+            "correct": true
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Cut strokes, drones, and strong rhythmic lift for dance"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-4",
-    "title": "Celtic-Diaspora trad: key ideas (4)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-4-step-dance-and-square-sets",
+    "title": "Diaspora trad: Step dance and square sets",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
@@ -266,72 +616,62 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
     "estimateMinutes": 4,
-    "body": "From **Cape Breton Fiddle and Dance** (Celtic-Diaspora trad):\n\n- Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.\n\n- Festivals and archives connect fringe regions to the pan-Celtic circuit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "Unlike Irish céilí or set dancing, which organise groups in formations, Cape Breton social dance often pairs a solo step dancer (or small group) with a single fiddler. The dancer's feet mark rhythms on a board or hard floor; the fiddler responds to visible energy, sometimes accelerating into a closing flourish. Step dance is not Riverdance theatrical spectacle — it is community virtuosity honed in kitchens and halls.\n\nSquare sets and round dances fill parish halls and benefit concerts. Fiddlers may trade sets through the night while dancers rotate. The social contract resembles an Irish session in one respect — everyone knows the forms — but leadership is more explicitly fiddle-led for dance than tune-led for listeners. In a pub session in Ennis, melody players trade sets for ears; in Mabou, the fiddler's job is to keep feet moving.\n\nUnlike Irish céilí or set dancing, which organise groups in formations, Cape Breton social dance often pairs a solo step dancer (or small group) with a single fiddler. The dancer's feet mark rhythms on a board or hard floor; the fiddler responds to visible energy, sometimes accelerating into a closing flourish. Step dance is not Riverdance theatrical spectacle — it is community virtuosity honed in kitchens and halls. Square sets and round dances fill parish halls and benefit concerts. Fiddlers may trade sets through the night while dancers rotate. The social contract resembles an Irish session in one respect — everyone knows the forms — but leadership is more explicitly fiddle-led for dance than tune-led for listeners. In a pub…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-4-step-dance-and-square-sets-q1",
+        "type": "truefalse",
+        "prompt": "The repertoire draws heavily from Scottish sources such as reels, strathspeys, and marches.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-01-cape-breton-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "True",
             "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-4-step-dance-and-square-sets-q2",
+        "type": "mcq",
+        "prompt": "Buddy MacMaster and Natalie MacMaster are associated with:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cape Breton fiddle performance and transmission",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cape Breton fiddle performance and transmission"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-1",
-    "title": "Celtic-Diaspora trad: key ideas (1)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-5-compared-with-ireland",
+    "title": "Diaspora trad: Compared with Ireland",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
@@ -339,81 +679,143 @@ export default [
     "tags": [
       "celtic",
       "diaspora",
-      "galicia",
-      "asturias",
-      "gaita"
+      "cape-breton",
+      "diaspora",
+      "fiddle"
     ],
     "prerequisites": [
-      "regions-celtic-diaspora-01-cape-breton"
+      "regions-celtic-brittany-08-tunes"
     ],
-    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
     "estimateMinutes": 4,
-    "body": "From **Galicia & Asturias** (Celtic-Diaspora trad):\n\n- Diaspora scenes remix Irish/Scottish roots.\n\n- Compare accents—not only tune names.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "Irish diaspora cities — New York, Chicago, Boston, London — exported session culture: informal tune trading, Comhaltas branches, fleadh competition circuits. Irish trad abroad often re-centres on melody instruments in pubs, with dance as a parallel scene (set dancing groups, feiseanna). Cape Breton diverges in several ways: | Feature | Ireland (reference) | Cape Breton | |---------|---------------------|-------------| | Primary social stage | Pub session, fleadh stage | Kitchen party, parish hall, square dance | | Dance emphasis | Céilí, set, step (feis) | Solo step dance + square sets | | Repertoire centre | Reels, jigs, hornpipes, polkas | Scottish-weighted reels, strathspeys, marches | | Ornament habit | Rolls, cuts (flute/fiddle) | Cut bowing, drones, dance lift | | Language context | Irish/English | Gaelic/English/French edges | Shared heritage is real. Many tunes exist in both traditions under different names or settings. Diaspora 78s crossed borders: Coleman influenced Cape Breton players; Cape Breton fiddlers toured Celtic festivals in Europe. But accent differs. Importing Irish session etiquette into a Cape Breton dance — or playing Cape Breton bowing in a Clare…\n\nIrish diaspora cities — New York, Chicago, Boston, London — exported session culture: informal tune trading, Comhaltas branches, fleadh competition circuits. Irish trad abroad often re-centres on melody instruments in pubs, with dance as a parallel scene (set dancing groups, feiseanna). Cape Breton diverges in several ways: | Feature | Ireland (reference) | Cape Breton | |---------|---------------------|-------------| | Primary social stage | Pub session, fleadh stage | Kitchen party, parish hall, square dance | | Dance emphasis | Céilí, set, step (feis) | Solo step dance + square sets | | Repertoire centre | Reels, jigs, hornpipes, polkas | Scottish-weighted reels, strathspeys, marches | | Ornament habit | Rolls, cuts (flute/fiddle) | Cut bowing, drones, dance lift | | Language…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-1-q1",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-5-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Celtic Colours International Festival takes place in:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Community dance and oral transmission",
+            "text": "Cape Breton, Nova Scotia",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
+            "text": "Fiddle-led music for square sets and solo step dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Cut strokes, drones, and strong rhythmic lift for dance",
             "correct": false
           },
           {
             "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Cape Breton fiddle performance and transmission",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Cape Breton, Nova Scotia"
       },
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-5-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "A tune like *The Silver Spear* might appear in both Irish sessions and Cape Breton sets, but with different regional accent.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-6-transmission-today",
+    "title": "Diaspora trad: Transmission today",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cape-breton",
+      "diaspora",
+      "fiddle"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-08-tunes"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
+    "estimateMinutes": 4,
+    "body": "The tradition is family-strong but no longer family-only. Summer schools, online lessons, tune books, and festivals teach bowing to learners worldwide. Celtic Colours International Festival gathers international audiences each October. The Cape Breton Fiddlers' Association publishes collections and supports youth programmes. Still, the ideal remains: a fiddler who can play all night for dancers, learned by ear from older players.\n\nFusion acts exist — Cape Breton fiddlers collaborate with Irish, Scottish, and Breton musicians on pan-Celtic stages — but community halls remain the heartbeat. When you study this scene, prioritise field recordings and dance-context videos over studio albums stripped of feet.\n\nThe tradition is family-strong but no longer family-only. Summer schools, online lessons, tune books, and festivals teach bowing to learners worldwide. Celtic Colours International Festival gathers international audiences each October. The Cape Breton Fiddlers' Association publishes collections and supports youth programmes. Still, the ideal remains: a fiddler who can play all night for dancers, learned by ear from older players.\n\nFusion acts exist — Cape Breton fiddlers collaborate with Irish, Scottish, and Breton musicians on pan-Celtic stages — but community halls remain the heartbeat. When you study this scene, prioritise field recordings and dance-context videos over studio albums stripped of feet.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-6-transmission-today-q1",
+        "type": "mcq",
+        "prompt": "Gaelic language was part of the historical community context for Cape Breton settlers.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cape Breton, Nova Scotia",
             "correct": false
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Watch fiddle-and-step-dance footage from community halls and festival stages",
             "correct": false
           },
           {
             "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "d",
+            "text": "Cape Breton fiddle performance and transmission",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-6-transmission-today-q2",
+        "type": "truefalse",
+        "prompt": "Importing Irish session etiquette without listening to local Cape Breton dance context is a good default approach.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
             "text": "False",
             "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "regional accent and social stage differ; listen first."
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-2",
-    "title": "Celtic-Diaspora trad: key ideas (2)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-7-key-points",
+    "title": "Diaspora trad: Key points",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
@@ -421,104 +823,22 @@ export default [
     "tags": [
       "celtic",
       "diaspora",
-      "galicia",
-      "asturias",
-      "gaita"
-    ],
-    "prerequisites": [
-      "regions-celtic-diaspora-01-cape-breton"
-    ],
-    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
-    "estimateMinutes": 4,
-    "body": "From **Galicia & Asturias** (Celtic-Diaspora trad):\n\n- Festivals link fringe regions to wider Celtic network.\n\n- Use Ireland unit as reference tradition.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "See Compared with Ireland section",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          }
-        ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-3",
-    "title": "Celtic-Diaspora trad: key ideas (3)",
-    "track": "celtic",
-    "region": "celtic-diaspora",
-    "kind": "theory_lesson",
-    "difficulty": 5,
-    "tags": [
-      "celtic",
+      "cape-breton",
       "diaspora",
-      "galicia",
-      "asturias",
-      "gaita"
+      "fiddle"
     ],
     "prerequisites": [
-      "regions-celtic-diaspora-01-cape-breton"
+      "regions-celtic-brittany-08-tunes"
     ],
-    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
     "estimateMinutes": 4,
-    "body": "From **Galicia & Asturias** (Celtic-Diaspora trad):\n\n- Playlist study beats generic compilations.\n\n- Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "- Cape Breton music grew from Gaelic Scottish and Irish settlement in Nova Scotia, not from a single \"exported Ireland\" package.\n- Fiddle style emphasises rhythmic lift, cut bowing, and drones — optimised for step dancers.\n- Solo step dance and square sets are central social forms; the fiddler leads the floor.\n- Repertoire is Scottish-weighted (reels, strathspeys, marches) with Irish and Acadian edges.\n- Compared with Ireland: shared tune families, different social stage (dance hall vs pub session).\n- Radio, festivals, and family transmission — including the Cape Breton Fiddlers' Association and Celtic Colours — sustain modern practice.\n\n- Cape Breton music grew from Gaelic Scottish and Irish settlement in Nova Scotia, not from a single \"exported Ireland\" package.\n- Fiddle style emphasises rhythmic lift, cut bowing, and drones — optimised for step dancers.\n- Solo step dance and square sets are central social forms; the fiddler leads the floor.\n- Repertoire is Scottish-weighted (reels, strathspeys, marches) with Irish and Acadian edges.\n- Compared with Ireland: shared tune families, different social stage (dance hall vs pub session).\n- Radio, festivals, and family transmission — including the Cape Breton Fiddlers' Association and Celtic Colours — sustain modern practice.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-7-key-points-q1",
+        "type": "truefalse",
+        "prompt": "The Cape Breton Fiddlers' Association supports publishing, teaching, and festival culture.",
         "difficulty": 5,
         "choices": [
           {
@@ -528,302 +848,46 @@ export default [
           },
           {
             "id": "b",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          }
-        ],
-        "explain": ") Voices named in the lesson introduction"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-4",
-    "title": "Celtic-Diaspora trad: key ideas (4)",
-    "track": "celtic",
-    "region": "celtic-diaspora",
-    "kind": "theory_lesson",
-    "difficulty": 5,
-    "tags": [
-      "celtic",
-      "diaspora",
-      "galicia",
-      "asturias",
-      "gaita"
-    ],
-    "prerequisites": [
-      "regions-celtic-diaspora-01-cape-breton"
-    ],
-    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
-    "estimateMinutes": 4,
-    "body": "From **Galicia & Asturias** (Celtic-Diaspora trad):\n\n- Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.\n\n- Festivals and archives connect fringe regions to the pan-Celtic circuit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "True",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-1",
-    "title": "Celtic-Diaspora trad: key ideas (1)",
-    "track": "celtic",
-    "region": "celtic-diaspora",
-    "kind": "theory_lesson",
-    "difficulty": 5,
-    "tags": [
-      "celtic",
-      "diaspora",
-      "cornwall",
-      "manx",
-      "revival"
-    ],
-    "prerequisites": [
-      "regions-celtic-diaspora-02-galicia-asturias"
-    ],
-    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
-    "estimateMinutes": 4,
-    "body": "From **Cornwall & Isle of Man** (Celtic-Diaspora trad):\n\n- Diaspora scenes remix Irish/Scottish roots.\n\n- Compare accents—not only tune names.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-1-q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          }
-        ],
-        "explain": ") Community dance and oral transmission"
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
             "text": "False",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-2",
-    "title": "Celtic-Diaspora trad: key ideas (2)",
-    "track": "celtic",
-    "region": "celtic-diaspora",
-    "kind": "theory_lesson",
-    "difficulty": 5,
-    "tags": [
-      "celtic",
-      "diaspora",
-      "cornwall",
-      "manx",
-      "revival"
-    ],
-    "prerequisites": [
-      "regions-celtic-diaspora-02-galicia-asturias"
-    ],
-    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
-    "estimateMinutes": 4,
-    "body": "From **Cornwall & Isle of Man** (Celtic-Diaspora trad):\n\n- Festivals link fringe regions to wider Celtic network.\n\n- Use Ireland unit as reference tradition.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": true
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-2-q2",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-7-key-points-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Best study approach after this lesson:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Mullingar, 1951",
+            "text": "Fiddle-led music for square sets and solo step dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Watch fiddle-and-step-dance footage from community halls and festival stages",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Francis O'Neill",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Watch fiddle-and-step-dance footage from community halls and festival stages"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-3",
-    "title": "Celtic-Diaspora trad: key ideas (3)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-8-reading-list",
+    "title": "Diaspora trad: Reading list",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
@@ -831,56 +895,99 @@ export default [
     "tags": [
       "celtic",
       "diaspora",
-      "cornwall",
-      "manx",
-      "revival"
+      "cape-breton",
+      "diaspora",
+      "fiddle"
     ],
     "prerequisites": [
-      "regions-celtic-diaspora-02-galicia-asturias"
+      "regions-celtic-brittany-08-tunes"
     ],
-    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "lessonSourceId": "regions-celtic-diaspora-01-cape-breton",
     "estimateMinutes": 4,
-    "body": "From **Cornwall & Isle of Man** (Celtic-Diaspora trad):\n\n- Playlist study beats generic compilations.\n\n- Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "- Sheila Johnson Hagerty & Pearl MacDonald, The Cape Breton Fiddler — photographic and oral history classic.\n- Allister MacGillivray, The Cape Breton Collection — tune book used by many learners.\n- Wikipedia: Cape Breton fiddling — orientation article.\n- Wikipedia: Cape Breton step dancing — dance context.\n- CBC Archives and local Nova Scotia folk collections — historic broadcast trails.\n- Kate Dunlay & David Greenberg, Traditional Celtic Violin Music of Cape Breton — analytical study of style.\n\n- Sheila Johnson Hagerty & Pearl MacDonald, The Cape Breton Fiddler — photographic and oral history classic.\n- Allister MacGillivray, The Cape Breton Collection — tune book used by many learners.\n- Wikipedia: Cape Breton fiddling — orientation article.\n- Wikipedia: Cape Breton step dancing — dance context.\n- CBC Archives and local Nova Scotia folk collections — historic broadcast trails.\n- Kate Dunlay & David Greenberg, Traditional Celtic Violin Music of Cape Breton — analytical study of style.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-3-q1",
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-8-reading-list-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Cape Breton fiddle tradition developed primarily through:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-01-cape-breton-sec-8-reading-list-q2",
+        "type": "truefalse",
+        "prompt": "Step dancing in Cape Breton is typically performed in close relationship with a fiddler keeping dance tempo.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mullingar, 1951",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      },
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-1",
+    "title": "Diaspora trad: key ideas (1)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-01-cape-breton"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "estimateMinutes": 4,
+    "body": "From **Galicia & Asturias** (Diaspora trad):\n\n- Galicia and Asturias are Iberian and pan-Celtic — both identities matter.\n\n- Gaita galega leads outdoor ensemble music distinct from uilleann pipes.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-3-q2",
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-1-q1",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "The gaita galega is most associated with which region?",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "Galicia in northwest Spain",
             "correct": true
           },
           {
@@ -899,13 +1006,32 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Galicia in northwest Spain"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-1-q2",
+        "type": "truefalse",
+        "prompt": "A muiñeira is typically a dance tune in 6/8 with Galician regional accent.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-4",
-    "title": "Celtic-Diaspora trad: key ideas (4)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-2",
+    "title": "Diaspora trad: key ideas (2)",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
@@ -913,51 +1039,22 @@ export default [
     "tags": [
       "celtic",
       "diaspora",
-      "cornwall",
-      "manx",
-      "revival"
+      "galicia",
+      "asturias",
+      "gaita"
     ],
     "prerequisites": [
-      "regions-celtic-diaspora-02-galicia-asturias"
+      "regions-celtic-diaspora-01-cape-breton"
     ],
-    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
     "estimateMinutes": 4,
-    "body": "From **Cornwall & Isle of Man** (Celtic-Diaspora trad):\n\n- Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.\n\n- Festivals and archives connect fringe regions to the pan-Celtic circuit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Galicia & Asturias** (Diaspora trad):\n\n- Muiñeira is the signature 6/8 dance form — not an Irish jig by another name.\n\n- Luar na Lubre and Carlos Núñez amplified village and festival traditions.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-4-q1",
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-2-q1",
         "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "prompt": "Compared with Irish uilleann pipes, the Galician gaita is more often heard in:",
         "difficulty": 5,
         "choices": [
           {
@@ -972,7 +1069,7 @@ export default [
           },
           {
             "id": "c",
-            "text": "True",
+            "text": "Outdoor ensemble settings with drones and percussion",
             "correct": true
           },
           {
@@ -981,316 +1078,338 @@ export default [
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Outdoor ensemble settings with drones and percussion"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-2-q2",
+        "type": "truefalse",
+        "prompt": "Galicia participates in pan-Celtic festival networks alongside Ireland, Scotland, Wales, and Brittany.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-1",
-    "title": "Celtic-Diaspora trad: key ideas (1)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-3",
+    "title": "Diaspora trad: key ideas (3)",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
-    "difficulty": 6,
+    "difficulty": 5,
     "tags": [
       "celtic",
       "diaspora",
-      "festivals",
-      "lorient",
-      "network"
+      "galicia",
+      "asturias",
+      "gaita"
     ],
     "prerequisites": [
-      "regions-celtic-diaspora-03-cornwall-man"
+      "regions-celtic-diaspora-01-cape-breton"
     ],
-    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
     "estimateMinutes": 4,
-    "body": "From **Pan-Celtic Festivals and Institutions** (Celtic-Diaspora trad):\n\n- Diaspora scenes remix Irish/Scottish roots.\n\n- Compare accents—not only tune names.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Galicia & Asturias** (Diaspora trad):\n\n- Compared with Ireland: shared 6/8 family, different pipe technology and session vs festival stage.\n\n- Galicia and Asturias are musically Iberian and politically part of the Celtic nations network — both truths matter.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-1-q1",
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-3-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
-        "difficulty": 6,
+        "prompt": "Carlos Núñez is known as:",
+        "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
-            "correct": false
+            "text": "A Galician piper with international collaborations including Irish musicians",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: A Galician piper with international collaborations including Irish musicians"
       },
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
-        "difficulty": 6,
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Asturias shares northwestern Spanish pipe and dance traditions with its own regional accent.",
+        "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-4",
+    "title": "Diaspora trad: key ideas (4)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-01-cape-breton"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "estimateMinutes": 4,
+    "body": "From **Galicia & Asturias** (Diaspora trad):\n\n- The gaita galega leads outdoor ensemble music distinct from Irish uilleann pipes.\n\n- Muiñeira is the signature dance tune form; it resembles Irish jigs in metre but not in social or stylistic context.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-4-q1",
+        "type": "truefalse",
+        "prompt": "Labelling every 6/8 Celtic tune \"an Irish jig\" is good comparative practice.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
             "correct": true
+          }
+        ],
+        "explain": "muiñeiras and jigs require distinct dance and stylistic context."
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-4-q2",
+        "type": "mcq",
+        "prompt": "Luar na Lubre contributed to:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Galicia in northwest Spain",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Modern Galician folk and Celtic fusion reaching international audiences",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Modern Galician folk and Celtic fusion reaching international audiences"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-2",
-    "title": "Celtic-Diaspora trad: key ideas (2)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-5",
+    "title": "Diaspora trad: key ideas (5)",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
-    "difficulty": 6,
+    "difficulty": 5,
     "tags": [
       "celtic",
       "diaspora",
-      "festivals",
-      "lorient",
-      "network"
+      "galicia",
+      "asturias",
+      "gaita"
     ],
     "prerequisites": [
-      "regions-celtic-diaspora-03-cornwall-man"
+      "regions-celtic-diaspora-01-cape-breton"
     ],
-    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
     "estimateMinutes": 4,
-    "body": "From **Pan-Celtic Festivals and Institutions** (Celtic-Diaspora trad):\n\n- Festivals link fringe regions to wider Celtic network.\n\n- Use Ireland unit as reference tradition.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Galicia & Asturias** (Diaspora trad):\n\n- Modern stars (Luar na Lubre, Carlos Núñez) amplify village and festival traditions rather than replacing them.\n\n- Compared with Ireland: shared 6/8 dance family, different pipe technology, session vs festival stage emphasis.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
-            "correct": false
-          }
-        ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-3",
-    "title": "Celtic-Diaspora trad: key ideas (3)",
-    "track": "celtic",
-    "region": "celtic-diaspora",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "diaspora",
-      "festivals",
-      "lorient",
-      "network"
-    ],
-    "prerequisites": [
-      "regions-celtic-diaspora-03-cornwall-man"
-    ],
-    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
-    "estimateMinutes": 4,
-    "body": "From **Pan-Celtic Festivals and Institutions** (Celtic-Diaspora trad):\n\n- Playlist study beats generic compilations.\n\n- Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
-            "correct": false
-          }
-        ],
-        "explain": ") Voices named in the lesson introduction"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-4",
-    "title": "Celtic-Diaspora trad: key ideas (4)",
-    "track": "celtic",
-    "region": "celtic-diaspora",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "diaspora",
-      "festivals",
-      "lorient",
-      "network"
-    ],
-    "prerequisites": [
-      "regions-celtic-diaspora-03-cornwall-man"
-    ],
-    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
-    "estimateMinutes": 4,
-    "body": "From **Pan-Celtic Festivals and Institutions** (Celtic-Diaspora trad):\n\n- Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.\n\n- Festivals and archives connect fringe regions to the pan-Celtic circuit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mullingar, 1951",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 6,
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-5-q1",
+        "type": "truefalse",
+        "prompt": "Galician music is only a copy of Irish session repertoire without local forms.",
+        "difficulty": 5,
         "choices": [
           {
             "id": "a",
             "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "jotas, alboradas, and regional song/dance practices are distinct."
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Watching dance footage helps clarify muiñeira metre and phrasing.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-6",
+    "title": "Diaspora trad: key ideas (6)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-01-cape-breton"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "estimateMinutes": 4,
+    "body": "From **Galicia & Asturias** (Diaspora trad):\n\n- Pan-Celtic festivals connect Galicia to Ireland, Brittany, and Scotland without merging repertoires into one style.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "The Celtic nations concept includes Galicia in festival and political networking contexts.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-kp-6-q2",
+        "type": "mcq",
+        "prompt": "Best next step after this lesson:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Compare one gaita track and one uilleann pipe recording, then watch a muiñeira dance",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Compare one gaita track and one uilleann pipe recording, then watch a muiñeira dance"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-1-overview",
+    "title": "Diaspora trad: Overview",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-01-cape-breton"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "estimateMinutes": 4,
+    "body": "In the northwest corner of Spain, the gaita galega (Galician bagpipe) leads processions, dance floors, and festival stages with a timbre instantly distinct from Irish uilleann pipes or Scottish Highland pipes. Beside it you may hear tambourines, snare drums, hurdy-gurdies, and fiddles playing muiñeiras — six-beat dance tunes whose lilt feels cousin to an Irish jig without being interchangeable with one. Galicia and neighbouring Asturias participate actively in pan-Celtic networks: flags at Lorient, collaborations with Irish and Breton musicians, and a modern industry that exports \"Celtic Galicia\" worldwide through groups like Luar na Lubre and pipers such as Carlos Núñez.\n\nYet Galician music is also deeply Iberian. Roman, medieval, and Atlantic fishing cultures shaped repertoire alongside any historical Celtic-language past. Asturias shares pipe and dance traditions with its own regional accent. This lesson treats Galicia and Asturias as fringe Celtic nations in the political and festival sense — places that chose affiliation with Ireland, Scotland, Wales, Brittany, Cornwall, and the Isle of Man — while insisting on local dance forms, language (Galician and Asturian), and instrumental craft.\n\nIn the northwest corner of Spain, the gaita galega (Galician bagpipe) leads processions, dance floors, and festival stages with a timbre instantly distinct from Irish uilleann pipes or Scottish Highland pipes. Beside it you may hear tambourines, snare drums, hurdy-gurdies, and fiddles playing muiñeiras — six-beat dance tunes whose lilt feels cousin to an Irish jig without being interchangeable with one. Galicia and neighbouring Asturias participate actively in pan-Celtic networks: flags at Lorient, collaborations with Irish and Breton musicians, and a modern industry that exports \"Celtic Galicia\" worldwide through groups like Luar na Lubre and pipers such as Carlos Núñez. Yet Galician music is also deeply Iberian. Roman, medieval, and Atlantic fishing cultures shaped repertoire alongside any historical Celtic-language past.…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-1-overview-q1",
+        "type": "mcq",
+        "prompt": "The gaita galega is most associated with which region?",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Galicia in northwest Spain",
             "correct": true
           },
           {
@@ -1309,308 +1428,291 @@ export default [
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Galicia in northwest Spain"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "A muiñeira is typically a dance tune in 6/8 with Galician regional accent.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-1",
-    "title": "Celtic-Diaspora trad: key ideas (1)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-2-the-gaita-and-its-ensemble",
+    "title": "Diaspora trad: The gaita and its ensemble",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
-    "difficulty": 6,
+    "difficulty": 5,
     "tags": [
       "celtic",
       "diaspora",
-      "comparative",
-      "playlist"
+      "galicia",
+      "asturias",
+      "gaita"
     ],
     "prerequisites": [
-      "regions-celtic-diaspora-04-pan-celtic-festivals"
+      "regions-celtic-diaspora-01-cape-breton"
     ],
-    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
     "estimateMinutes": 4,
-    "body": "From **Listening Across Borders** (Celtic-Diaspora trad):\n\n- Diaspora scenes remix Irish/Scottish roots.\n\n- Compare accents—not only tune names.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "The gaita galega uses a conical chanter and one or more drones, often with a snare drum (tambor) and bass drum (bombo) in ensemble. Unlike the uilleann pipes' regulator chords and seated chamber aesthetic, the Galician gaita projects outdoors: pilgrimages, civic parades, and open-air dances. Chanter ornament includes finger vibrato and rhythmic articulation suited to dance sets.\n\nAsturian pipe traditions parallel Galicia with regional bore and repertoire differences. Both regions maintain schools, pipe makers, and competition circuits. Gaita galega craft is a living trade — not museum display.\n\nEnsemble texture matters. Where an Irish session stacks melody instruments in a pub, a Galician foliada or festival set may foreground pipes and percussion with voices joining in choruses. Listen for call-and-response song habits that connect to wider Atlantic folk practice.\n\nThe gaita galega uses a conical chanter and one or more drones, often with a snare drum (tambor) and bass drum (bombo) in ensemble. Unlike the uilleann pipes' regulator chords and seated chamber aesthetic, the Galician gaita projects outdoors: pilgrimages, civic parades, and open-air dances. Chanter ornament includes finger vibrato and rhythmic articulation suited to dance sets. Asturian pipe traditions parallel Galicia with regional bore and repertoire differences. Both regions maintain schools, pipe makers, and competition circuits. Gaita galega craft is a living trade — not museum display. Ensemble texture matters. Where an Irish session stacks melody instruments in a pub, a Galician foliada or festival set may foreground pipes and percussion with voices joining in choruses. Listen for call-and-response…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-1-q1",
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-2-the-gaita-and-its-ensemble-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
-        "difficulty": 6,
+        "prompt": "Compared with Irish uilleann pipes, the Galician gaita is more often heard in:",
+        "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Outdoor ensemble settings with drones and percussion",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Outdoor ensemble settings with drones and percussion"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-2-the-gaita-and-its-ensemble-q2",
+        "type": "truefalse",
+        "prompt": "Galicia participates in pan-Celtic festival networks alongside Ireland, Scotland, Wales, and Brittany.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-3-muiñeira-and-dance-repertoire",
+    "title": "Diaspora trad: Muiñeira and dance repertoire",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-01-cape-breton"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "estimateMinutes": 4,
+    "body": "The muiñeira is the signature Galician dance tune — typically in 6/8 with a distinctive rhythmic emphasis that dancers mark with raised arms and structured steps. Musicians also play jotas, alboradas, pasodobles, and valses in regional style. Asturias contributes pasucáis and corridos among its dance music.\n\nComparing metres to Ireland:\n\n| Form | Region | Metre / feel | Dance link |\n|------|--------|--------------|------------|\n| Double jig | Ireland | 6/8, jiggedy pulse | Céilí, set dance |\n| Muiñeira | Galicia | 6/8, regional accent | Couple / group folk dance |\n| Reel | Ireland | 4/4 drive | Session staple |\n| Jota | Galicia / Asturias | 3/4 or hybrid | Regional choreographies |\n\nFamily resemblance does not mean identity. A learner who plays Irish jigs with Galician phrasing — or vice versa — will sound misplaced on the wrong floor.\n\nThe muiñeira is the signature Galician dance tune — typically in 6/8 with a distinctive rhythmic emphasis that dancers mark with raised arms and structured steps. Musicians also play jotas, alboradas, pasodobles, and valses in regional style. Asturias contributes pasucáis and corridos among its dance music. Comparing metres to Ireland: | Form | Region | Metre / feel | Dance link | |------|--------|--------------|------------| | Double jig | Ireland | 6/8, jiggedy pulse | Céilí, set dance | | Muiñeira | Galicia | 6/8, regional accent | Couple / group folk dance | | Reel | Ireland | 4/4 drive | Session staple | | Jota | Galicia / Asturias | 3/4 or hybrid | Regional choreographies | Family resemblance does…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-3-muiñeira-and-dance-repertoire-q1",
+        "type": "mcq",
+        "prompt": "Carlos Núñez is known as:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A Galician piper with international collaborations including Irish musicians",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
-            "correct": true
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: A Galician piper with international collaborations including Irish musicians"
       },
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
-        "difficulty": 6,
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-3-muiñeira-and-dance-repertoire-q2",
+        "type": "truefalse",
+        "prompt": "Asturias shares northwestern Spanish pipe and dance traditions with its own regional accent.",
+        "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-4-pan-celtic-networks-and-modern-scenes",
+    "title": "Diaspora trad: Pan-Celtic networks and modern scenes",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-01-cape-breton"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "estimateMinutes": 4,
+    "body": "From the 1970s onward, Galicia embraced Celtic identity as cultural politics and festival strategy. Wikipedia's coverage of Celtic nations lists Galicia and Asturias alongside the \"historic\" six. The Festival Interceltique de Lorient regularly features Galician stages; pipers tour with Irish and Scottish artists; broadcasters document cross-border collaborations.\n\nLuar na Lubre blended harp, pipes, and Atlantic folk rock, influencing a generation. Carlos Núñez became an international ambassador, recording with The Chieftains and Breton musicians. These stars build on — they do not replace — village pipe bands and dance associations.\n\nAsturias maintains its own festivals and language activism. Both regions use music to assert distinctiveness within Spain while claiming Celtic fraternity abroad.\n\nFrom the 1970s onward, Galicia embraced Celtic identity as cultural politics and festival strategy. Wikipedia's coverage of Celtic nations lists Galicia and Asturias alongside the \"historic\" six. The Festival Interceltique de Lorient regularly features Galician stages; pipers tour with Irish and Scottish artists; broadcasters document cross-border collaborations.\n\nLuar na Lubre blended harp, pipes, and Atlantic folk rock, influencing a generation. Carlos Núñez became an international ambassador, recording with The Chieftains and Breton musicians. These stars build on — they do not replace — village pipe bands and dance associations.\n\nAsturias maintains its own festivals and language activism. Both regions use music to assert distinctiveness within Spain while claiming Celtic fraternity abroad.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-4-pan-celtic-networks-and-modern-scenes-q1",
+        "type": "truefalse",
+        "prompt": "Labelling every 6/8 Celtic tune \"an Irish jig\" is good comparative practice.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-2",
-    "title": "Celtic-Diaspora trad: key ideas (2)",
-    "track": "celtic",
-    "region": "celtic-diaspora",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "diaspora",
-      "comparative",
-      "playlist"
-    ],
-    "prerequisites": [
-      "regions-celtic-diaspora-04-pan-celtic-festivals"
-    ],
-    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
-    "estimateMinutes": 4,
-    "body": "From **Listening Across Borders** (Celtic-Diaspora trad):\n\n- Festivals link fringe regions to wider Celtic network.\n\n- Use Ireland unit as reference tradition.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          }
-        ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "muiñeiras and jigs require distinct dance and stylistic context."
       },
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-2-q2",
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-4-pan-celtic-networks-and-modern-scenes-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
-        "difficulty": 6,
+        "prompt": "Luar na Lubre contributed to:",
+        "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
-          },
-          {
-            "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Galicia in northwest Spain",
             "correct": false
           },
           {
+            "id": "b",
+            "text": "Modern Galician folk and Celtic fusion reaching international audiences",
+            "correct": true
+          },
+          {
             "id": "c",
-            "text": "9/8 slip-jig time",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Modern Galician folk and Celtic fusion reaching international audiences"
       }
     ]
   },
   {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-3",
-    "title": "Celtic-Diaspora trad: key ideas (3)",
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-5-compared-with-ireland",
+    "title": "Diaspora trad: Compared with Ireland",
     "track": "celtic",
     "region": "celtic-diaspora",
     "kind": "theory_lesson",
-    "difficulty": 6,
+    "difficulty": 5,
     "tags": [
       "celtic",
       "diaspora",
-      "comparative",
-      "playlist"
+      "galicia",
+      "asturias",
+      "gaita"
     ],
     "prerequisites": [
-      "regions-celtic-diaspora-04-pan-celtic-festivals"
+      "regions-celtic-diaspora-01-cape-breton"
     ],
-    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
     "estimateMinutes": 4,
-    "body": "From **Listening Across Borders** (Celtic-Diaspora trad):\n\n- Playlist study beats generic compilations.\n\n- Diaspora traditions remix Irish and Scottish roots with local dance floors and radio.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "Ireland remains our reference tradition: session-based reel and jig repertoire, uilleann pipes in indoor settings, sean-nós song, Comhaltas infrastructure.\n\nGalicia and Asturias contrast on several axes:\n\nSocial stage. Irish trad often orbits pub sessions and fleadh competition; Galician music orbits civic festivals, pipe band gatherings, and choreographed folk dance displays as much as informal tune trading.\n\nPipe culture. Uilleann pipes use bellows, regulators, and a seated aesthetic; gaita is outdoor, drone-forward, and ensemble-percussive.\n\nTune names and forms. Muiñeiras are not \"Irish jigs with Spanish titles.\" Learn the dance step that matches the tune.\n\nLanguage. Galician (galego) and Asturian connect song texts to regional identity similarly to Irish in the Gaeltacht — but the political history within Spain differs from Ireland's colonial narrative.\n\nDiaspora links. Irish emigration built sessions in Buenos Aires, Boston, and Birmingham. Galician emigration built communities in Latin America; music followed ships. Comparative study means hearing Atlantic routes, not assuming all diaspora scenes copy Ireland.\n\nParallel Ireland lessons: `regions-celtic-ireland-02-instruments-traditional-voices-i` for uilleann pipes; `regions-celtic-ireland-04-genres-forms` for jig/reel comparison; comparative unit for pan-Celtic marketing critique.\n\nIreland remains our reference tradition: session-based reel and jig repertoire, uilleann pipes in indoor settings, sean-nós song, Comhaltas infrastructure. Galicia and Asturias contrast on several axes: Social stage. Irish trad often orbits pub sessions and fleadh competition; Galician music orbits civic festivals, pipe band gatherings, and choreographed folk dance displays as much as informal tune trading. Pipe culture. Uilleann pipes use bellows, regulators, and a seated aesthetic; gaita is outdoor, drone-forward, and ensemble-percussive. Tune names and forms. Muiñeiras are not \"Irish jigs with Spanish titles.\" Learn the dance step that matches the tune. Language. Galician (galego) and Asturian connect song texts to regional identity similarly to Irish in the Gaeltacht — but the political history within Spain differs from Ireland's…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
-        "difficulty": 6,
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-5-compared-with-ireland-q1",
+        "type": "truefalse",
+        "prompt": "Galician music is only a copy of Irish session repertoire without local forms.",
+        "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
             "text": "True",
-            "correct": true
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Sligo fiddle style",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
-      }
-    ]
-  },
-  {
-    "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-4",
-    "title": "Celtic-Diaspora trad: key ideas (4)",
-    "track": "celtic",
-    "region": "celtic-diaspora",
-    "kind": "theory_lesson",
-    "difficulty": 6,
-    "tags": [
-      "celtic",
-      "diaspora",
-      "comparative",
-      "playlist"
-    ],
-    "prerequisites": [
-      "regions-celtic-diaspora-04-pan-celtic-festivals"
-    ],
-    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
-    "estimateMinutes": 4,
-    "body": "From **Listening Across Borders** (Celtic-Diaspora trad):\n\n- Comparative listening prevents mistaking one region's accent for the whole \"Celtic\" label.\n\n- Festivals and archives connect fringe regions to the pan-Celtic circuit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "jotas, alboradas, and regional song/dance practices are distinct."
       },
       {
-        "id": "celtic-celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 6,
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-5-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Watching dance footage helps clarify muiñeira metre and phrasing.",
+        "difficulty": 5,
         "choices": [
           {
             "id": "a",
@@ -1619,21 +1721,2996 @@ export default [
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-6-study-habits-for-learners",
+    "title": "Diaspora trad: Study habits for learners",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-01-cape-breton"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "estimateMinutes": 4,
+    "body": "1. Watch a muiñeira with dancers visible — foot and arm timing clarify metre.\n2. Compare one gaita track and one uilleann pipe track of similar tempo; note drone and ornament differences.\n3. Attend or stream a pan-Celtic festival set where Galician and Irish musicians alternate — listen for arrangement choices, not only tune names.\n4. Learn one muiñeira by ear before labelling it \"a jig\" in your notebook.\n\n1. Watch a muiñeira with dancers visible — foot and arm timing clarify metre.\n2. Compare one gaita track and one uilleann pipe track of similar tempo; note drone and ornament differences.\n3. Attend or stream a pan-Celtic festival set where Galician and Irish musicians alternate — listen for arrangement choices, not only tune names.\n4. Learn one muiñeira by ear before labelling it \"a jig\" in your notebook.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-6-study-habits-for-learners-q1",
+        "type": "truefalse",
+        "prompt": "The Celtic nations concept includes Galicia in festival and political networking contexts.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-6-study-habits-for-learners-q2",
+        "type": "mcq",
+        "prompt": "Best next step after this lesson:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Compare one gaita track and one uilleann pipe recording, then watch a muiñeira dance",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "D, G, A, and E minor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Francis O'Neill",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Compare one gaita track and one uilleann pipe recording, then watch a muiñeira dance"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-7-key-points",
+    "title": "Diaspora trad: Key points",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-01-cape-breton"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "estimateMinutes": 4,
+    "body": "- Galicia and Asturias are musically Iberian and politically part of the Celtic nations network — both truths matter.\n- The gaita galega leads outdoor ensemble music distinct from Irish uilleann pipes.\n- Muiñeira is the signature dance tune form; it resembles Irish jigs in metre but not in social or stylistic context.\n- Modern stars (Luar na Lubre, Carlos Núñez) amplify village and festival traditions rather than replacing them.\n- Compared with Ireland: shared 6/8 dance family, different pipe technology, session vs festival stage emphasis.\n- Pan-Celtic festivals connect Galicia to Ireland, Brittany, and Scotland without merging repertoires into one style.\n\n- Galicia and Asturias are musically Iberian and politically part of the Celtic nations network — both truths matter.\n- The gaita galega leads outdoor ensemble music distinct from Irish uilleann pipes.\n- Muiñeira is the signature dance tune form; it resembles Irish jigs in metre but not in social or stylistic context.\n- Modern stars (Luar na Lubre, Carlos Núñez) amplify village and festival traditions rather than replacing them.\n- Compared with Ireland: shared 6/8 dance family, different pipe technology, session vs festival stage emphasis.\n- Pan-Celtic festivals connect Galicia to Ireland, Brittany, and Scotland without merging repertoires into one style.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-7-key-points-q1",
+        "type": "mcq",
+        "prompt": "The gaita galega is most associated with which region?",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Galicia in northwest Spain",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Galicia in northwest Spain"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-7-key-points-q2",
+        "type": "truefalse",
+        "prompt": "A muiñeira is typically a dance tune in 6/8 with Galician regional accent.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-8-reading-list",
+    "title": "Diaspora trad: Reading list",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "galicia",
+      "asturias",
+      "gaita"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-01-cape-breton"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-02-galicia-asturias",
+    "estimateMinutes": 4,
+    "body": "- Wikipedia: Music of Galicia — overview of forms and instruments.\n- Wikipedia: Gaita galega — pipe construction and history.\n- Susana Moreno Fernández, studies on Galician folk revival — academic context for Celtic identity politics.\n- Discography: Luar na Lubre, Carlos Núñez, Milladoiro — modern ensemble listening.\n- Festival Interceltique de Lorient programmes — cross-border collaboration examples.\n\n- Wikipedia: Music of Galicia — overview of forms and instruments.\n- Wikipedia: Gaita galega — pipe construction and history.\n- Susana Moreno Fernández, studies on Galician folk revival — academic context for Celtic identity politics.\n- Discography: Luar na Lubre, Carlos Núñez, Milladoiro — modern ensemble listening.\n- Festival Interceltique de Lorient programmes — cross-border collaboration examples.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-8-reading-list-q1",
+        "type": "mcq",
+        "prompt": "Compared with Irish uilleann pipes, the Galician gaita is more often heard in:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Outdoor ensemble settings with drones and percussion",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Outdoor ensemble settings with drones and percussion"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-02-galicia-asturias-sec-8-reading-list-q2",
+        "type": "truefalse",
+        "prompt": "Galicia participates in pan-Celtic festival networks alongside Ireland, Scotland, Wales, and Brittany.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-1",
+    "title": "Diaspora trad: key ideas (1)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "From **Cornwall & Isle of Man** (Diaspora trad):\n\n- Cornwall and Mann are revival-led Celtic nations with festival-centred scenes.\n\n- Lowender Peran and Yn Chruinnaght anchor inter-Celtic exchange.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-1-q1",
+        "type": "mcq",
+        "prompt": "Lowender Peran is a festival associated with:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Revival movements assembling manuscripts, carols, and reconstructed practice",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cornwall",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cornwall"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-1-q2",
+        "type": "truefalse",
+        "prompt": "Yn Chruinnaght is the inter-Celtic festival on the Isle of Man.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-2",
+    "title": "Diaspora trad: key ideas (2)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "From **Cornwall & Isle of Man** (Diaspora trad):\n\n- Repertoire survives through manuscripts, carols, and reconstructed practice.\n\n- Language movements (Kernewek, Gaelg) tie song to identity politics.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-2-q1",
+        "type": "mcq",
+        "prompt": "Compared with Ireland, Cornish and Manx traditions often rely more heavily on:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cornwall",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Helston, Cornwall",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Traditional carols with regional Manx history",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Revival movements assembling manuscripts, carols, and reconstructed practice",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Revival movements assembling manuscripts, carols, and reconstructed practice"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-2-q2",
+        "type": "truefalse",
+        "prompt": "Gorsedh Kernow connects bardic ceremony, poetry, and Cornish cultural identity.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-3",
+    "title": "Diaspora trad: key ideas (3)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "From **Cornwall & Isle of Man** (Diaspora trad):\n\n- Compared with Ireland: smaller scale, less continuous rural session infrastructure.\n\n- Cornwall and the Isle of Man are small Celtic nations with strong revival-led music scenes.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-3-q1",
+        "type": "truefalse",
+        "prompt": "Manx Gaelic (Gaelg) is part of the cultural context for song and revival on the Isle of Man.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Cornish and Manx music scenes are identical in scale to Dublin pub sessions.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "smaller populations and revival-led infrastructure differ from Ireland's density."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-4",
+    "title": "Diaspora trad: key ideas (4)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "From **Cornwall & Isle of Man** (Diaspora trad):\n\n- Lowender Peran (Cornwall) and Yn Chruinnaght (Man) anchor festival and inter-Celtic exchange.\n\n- Repertoire often survives through manuscripts, carols, and reconstructed practice — not only unbroken oral lines.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-4-q1",
+        "type": "mcq",
+        "prompt": "The furry dance is associated with:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Helston, Cornwall",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Helston, Cornwall"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-4-q2",
+        "type": "mcq",
+        "prompt": "Manx carvals are:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Traditional carols with regional Manx history",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Traditional carols with regional Manx history"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-5",
+    "title": "Diaspora trad: key ideas (5)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "From **Cornwall & Isle of Man** (Diaspora trad):\n\n- Language movements (Kernewek, Gaelg) tie song pedagogy to identity politics.\n\n- Compared with Ireland: shared instruments and tune families, different scale of session infrastructure and historical continuity.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-5-q1",
+        "type": "truefalse",
+        "prompt": "Irish musicians frequently participate in Cornish and Manx festival networks.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Revival-based tradition is inherently illegitimate compared with continuous oral transmission.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "revival is a legitimate mode of cultural life; Ireland has its own revival history."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-6",
+    "title": "Diaspora trad: key ideas (6)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "From **Cornwall & Isle of Man** (Diaspora trad):\n\n- Gorsedh Kernow and Manx National Heritage exemplify institutional support for bardic and archival culture.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Bagpipe revival projects exist in Cornwall with historical documentation behind them.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-kp-6-q2",
+        "type": "mcq",
+        "prompt": "Best study approach:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Explore Lowender Peran and Yn Chruinnaght recordings alongside Irish festival crossovers",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Explore Lowender Peran and Yn Chruinnaght recordings alongside Irish festival crossovers"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-1-overview",
+    "title": "Diaspora trad: Overview",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "Cornwall and the Isle of Man sit at the Celtic fringe of the British Isles: small populations, complex colonial histories within the United Kingdom, and twentieth-century revival movements that rebuilt language, dance, and music as symbols of regional identity. Neither region offers the volume of living dance-music infrastructure you find in Ireland or Brittany. Both punch above their weight at pan-Celtic festivals, in language classrooms, and in conscious cultural activism that treats a wedding march, a carol, or a session tune as evidence that Kernow and Mann still sing.\n\nThis lesson maps Cornish and Manx music scenes: what survived in manuscripts and memory, what revivalists reconstructed, how festivals like Lowender Peran and Yn Chruinnaght connect to Irish and Breton networks, and why comparing these regions to Ireland requires honesty about gaps, invention, and community effort.\n\nCornwall and the Isle of Man sit at the Celtic fringe of the British Isles: small populations, complex colonial histories within the United Kingdom, and twentieth-century revival movements that rebuilt language, dance, and music as symbols of regional identity. Neither region offers the volume of living dance-music infrastructure you find in Ireland or Brittany. Both punch above their weight at pan-Celtic festivals, in language classrooms, and in conscious cultural activism that treats a wedding march, a carol, or a session tune as evidence that Kernow and Mann still sing. This lesson maps Cornish and Manx music scenes: what survived in manuscripts and memory, what revivalists reconstructed, how festivals like Lowender Peran and Yn Chruinnaght connect to Irish and Breton networks,…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-1-overview-q1",
+        "type": "mcq",
+        "prompt": "Lowender Peran is a festival associated with:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Revival movements assembling manuscripts, carols, and reconstructed practice",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cornwall",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cornwall"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Yn Chruinnaght is the inter-Celtic festival on the Isle of Man.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-2-cornwall-mines-methodism-and-kernow-identity",
+    "title": "Diaspora trad: Cornwall: mines, Methodism, and Kernow identity",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "Cornish traditional music blends Celtic-affiliated folk with maritime, mining, and chapel histories. Carols like Hark! The Glad Sound of Cornishmen and tunes collected in nineteenth-century manuscripts reveal a regional repertoire distinct from English country dance, though cross-border borrowing always occurred. The furry dance in Helston, shanties, and brass-band culture coexist with folk revival projects.\n\nThe late twentieth century saw deliberate rebuilding. Lowender Peran (\"Cornish moon\") became a flagship winter festival in Perranporth, drawing Breton, Welsh, Irish, and Cornish musicians. Cornish bagpipes — historically documented, then revived through reconstruction — appear alongside fiddles, concertinas, and voices singing in Kernewek (Cornish). The Gorsedh Kernow bardic ceremony links poetry, music, and language prestige.\n\nRevival work here often means assembling fragments: field notes, parish records, oral memory, and informed recreation. That process differs from Ireland, where unbroken rural practice fed directly into Comhaltas-era competition. Cornish musicians may learn Breton gavottes at festival workshops and adapt them to local dance — comparative exchange, not plagiarism.\n\nCornish traditional music blends Celtic-affiliated folk with maritime, mining, and chapel histories. Carols like Hark! The Glad Sound of Cornishmen and tunes collected in nineteenth-century manuscripts reveal a regional repertoire distinct from English country dance, though cross-border borrowing always occurred. The furry dance in Helston, shanties, and brass-band culture coexist with folk revival projects. The late twentieth century saw deliberate rebuilding. Lowender Peran (\"Cornish moon\") became a flagship winter festival in Perranporth, drawing Breton, Welsh, Irish, and Cornish musicians. Cornish bagpipes — historically documented, then revived through reconstruction — appear alongside fiddles, concertinas, and voices singing in Kernewek (Cornish). The Gorsedh Kernow bardic ceremony links poetry, music, and language prestige. Revival work here often means assembling fragments: field notes, parish…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-2-cornwall-mines-methodism-and-kernow-identity-q1",
+        "type": "mcq",
+        "prompt": "Compared with Ireland, Cornish and Manx traditions often rely more heavily on:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cornwall",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Helston, Cornwall",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Traditional carols with regional Manx history",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Revival movements assembling manuscripts, carols, and reconstructed practice",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Revival movements assembling manuscripts, carols, and reconstructed practice"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-2-cornwall-mines-methodism-and-kernow-identity-q2",
+        "type": "truefalse",
+        "prompt": "Gorsedh Kernow connects bardic ceremony, poetry, and Cornish cultural identity.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-3-isle-of-man-manx-song-dance-and-festival-life",
+    "title": "Diaspora trad: Isle of Man: Manx song, dance, and festival life",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "The Isle of Man (Mann) preserves Manx Gaelic (Gaelg) through schools, media, and cultural organisations including Manx National Heritage. Musical survivals include carvals (Christmas carols), lilting dance tunes, and songs collected by figures such as Mona Douglas. The scoop (a rhythmic vocalisation) and social dances like the Manx freestyle connect music to community gatherings.\n\nYn Chruinnaght (\"the gathering\") is the island's inter-Celtic festival, hosting competitors and guests from Ireland, Scotland, Wales, Brittany, Cornwall, and Galicia. Manx music at such events may include fiddle tunes, harp, small pipes, and choir repertoire — a smaller scene than Dublin or Glasgow, but institutionally serious.\n\nThe Isle of Man (Mann) preserves Manx Gaelic (Gaelg) through schools, media, and cultural organisations including Manx National Heritage. Musical survivals include carvals (Christmas carols), lilting dance tunes, and songs collected by figures such as Mona Douglas. The scoop (a rhythmic vocalisation) and social dances like the Manx freestyle connect music to community gatherings.\n\nYn Chruinnaght (\"the gathering\") is the island's inter-Celtic festival, hosting competitors and guests from Ireland, Scotland, Wales, Brittany, Cornwall, and Galicia. Manx music at such events may include fiddle tunes, harp, small pipes, and choir repertoire — a smaller scene than Dublin or Glasgow, but institutionally serious.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-3-isle-of-man-manx-song-dance-and-festival-life-q1",
+        "type": "truefalse",
+        "prompt": "Manx Gaelic (Gaelg) is part of the cultural context for song and revival on the Isle of Man.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-3-isle-of-man-manx-song-dance-and-festival-life-q2",
+        "type": "truefalse",
+        "prompt": "Cornish and Manx music scenes are identical in scale to Dublin pub sessions.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "smaller populations and revival-led infrastructure differ from Ireland's density."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-4-instruments-and-repertoire-notes",
+    "title": "Diaspora trad: Instruments and repertoire notes",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "Both regions share instruments with wider Celtic practice:\n\n- Fiddle and concertina — session-friendly, portable, common at festivals.\n- Harp — historical Manx and Cornish harp traditions inform modern players.\n- Bagpipes — Cornish revived pipes; Manx smallpipes projects connect to Scottish and Northumbrian cousins.\n- Voice — language revival makes song pedagogy politically loaded; every new generation learning Gaelg or Kernewek inherits repertoire as identity curriculum.\n\nTune forms include marches, hornpipes, jigs, and reels familiar from Irish sessions — but local names and settings may differ. A Manx tune in a manuscript might surface at Yn Chruinnaght decades later, taught by a revival arranger rather than a continuous village line.\n\nBoth regions share instruments with wider Celtic practice:\n\n- Fiddle and concertina — session-friendly, portable, common at festivals.\n- Harp — historical Manx and Cornish harp traditions inform modern players.\n- Bagpipes — Cornish revived pipes; Manx smallpipes projects connect to Scottish and Northumbrian cousins.\n- Voice — language revival makes song pedagogy politically loaded; every new generation learning Gaelg or Kernewek inherits repertoire as identity curriculum.\n\nTune forms include marches, hornpipes, jigs, and reels familiar from Irish sessions — but local names and settings may differ. A Manx tune in a manuscript might surface at Yn Chruinnaght decades later, taught by a revival arranger rather than a continuous village line.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-4-instruments-and-repertoire-notes-q1",
+        "type": "mcq",
+        "prompt": "The furry dance is associated with:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Helston, Cornwall",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Helston, Cornwall"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-4-instruments-and-repertoire-notes-q2",
+        "type": "mcq",
+        "prompt": "Manx carvals are:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Traditional carols with regional Manx history",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Traditional carols with regional Manx history"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-5-compared-with-ireland",
+    "title": "Diaspora trad: Compared with Ireland",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "Ireland offers our baseline: dense rural practice, commercial recording history from Coleman forward, global session network, state and NGO support (Comhaltas, ITMA, TG4). Cornwall and Man contrast sharply in scale and continuity: | Aspect | Ireland | Cornwall & Isle of Man | |--------|---------|------------------------| | Living rural dance floor | Extensive through 20th c. | Patchy; revival-led | | Language context | Gaeltacht pockets | Revived Cornish & Manx | | Institutions | Comhaltas, fleadh, RTÉ | Festivals, heritage trusts, bardic councils | | Diaspora export | Mass emigration → global sessions | Smaller emigrant communities | | Repertoire transmission | Oral line + collectors | Manuscript + revival assembly | Similarities remain instructive. All three use music in language activism. All three send delegations to Lorient. Irish musicians routinely guest at Lowender Peran and Yn Chruinnaght; Cornish and Manx learners travel to Willie Clancy week or Breton fest-noz for immersion. The compared with Ireland exercise is not \"which is more authentic\" but \"what changes when tradition must be rebuilt rather than assumed?\" Irish session etiquette — listen first, match…\n\nIreland offers our baseline: dense rural practice, commercial recording history from Coleman forward, global session network, state and NGO support (Comhaltas, ITMA, TG4). Cornwall and Man contrast sharply in scale and continuity: | Aspect | Ireland | Cornwall & Isle of Man | |--------|---------|------------------------| | Living rural dance floor | Extensive through 20th c. | Patchy; revival-led | | Language context | Gaeltacht pockets | Revived Cornish & Manx | | Institutions | Comhaltas, fleadh, RTÉ | Festivals, heritage trusts, bardic councils | | Diaspora export | Mass emigration → global sessions | Smaller emigrant communities | | Repertoire transmission | Oral line + collectors | Manuscript + revival assembly | Similarities remain instructive. All three use music in language…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-5-compared-with-ireland-q1",
+        "type": "truefalse",
+        "prompt": "Irish musicians frequently participate in Cornish and Manx festival networks.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-5-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Revival-based tradition is inherently illegitimate compared with continuous oral transmission.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "revival is a legitimate mode of cultural life; Ireland has its own revival history."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-6-why-these-regions-matter-in-the-celtic-map",
+    "title": "Diaspora trad: Why these regions matter in the Celtic map",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "Without Cornwall and Mann, pan-Celtic ideology becomes a convenient six-nation marketing shorthand. Including fringe nations forces questions: Who defines Celtic? What counts as continuity? Revival is not fake — it is how many communities now experience tradition. Irish musicians benefit from remembering their own revival moments (O'Neill, Ceoltóirí Chualann, 1970s folk boom) when judging smaller nations.\n\nWithout Cornwall and Mann, pan-Celtic ideology becomes a convenient six-nation marketing shorthand. Including fringe nations forces questions: Who defines Celtic? What counts as continuity? Revival is not fake — it is how many communities now experience tradition. Irish musicians benefit from remembering their own revival moments (O'Neill, Ceoltóirí Chualann, 1970s folk boom) when judging smaller nations.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-6-why-these-regions-matter-in-the-celtic-map-q1",
+        "type": "truefalse",
+        "prompt": "Bagpipe revival projects exist in Cornwall with historical documentation behind them.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-6-why-these-regions-matter-in-the-celtic-map-q2",
+        "type": "mcq",
+        "prompt": "Best study approach:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Explore Lowender Peran and Yn Chruinnaght recordings alongside Irish festival crossovers",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Explore Lowender Peran and Yn Chruinnaght recordings alongside Irish festival crossovers"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-7-key-points",
+    "title": "Diaspora trad: Key points",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "cornwall",
+      "manx",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-02-galicia-asturias"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-03-cornwall-man",
+    "estimateMinutes": 4,
+    "body": "- Cornwall and the Isle of Man are small Celtic nations with strong revival-led music scenes.\n- Lowender Peran (Cornwall) and Yn Chruinnaght (Man) anchor festival and inter-Celtic exchange.\n- Repertoire often survives through manuscripts, carols, and reconstructed practice — not only unbroken oral lines.\n- Language movements (Kernewek, Gaelg) tie song pedagogy to identity politics.\n- Compared with Ireland: shared instruments and tune families, different scale of session infrastructure and historical continuity.\n- Gorsedh Kernow and Manx National Heritage exemplify institutional support for bardic and archival culture.\n\n- Cornwall and the Isle of Man are small Celtic nations with strong revival-led music scenes.\n- Lowender Peran (Cornwall) and Yn Chruinnaght (Man) anchor festival and inter-Celtic exchange.\n- Repertoire often survives through manuscripts, carols, and reconstructed practice — not only unbroken oral lines.\n- Language movements (Kernewek, Gaelg) tie song pedagogy to identity politics.\n- Compared with Ireland: shared instruments and tune families, different scale of session infrastructure and historical continuity.\n- Gorsedh Kernow and Manx National Heritage exemplify institutional support for bardic and archival culture.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-7-key-points-q1",
+        "type": "mcq",
+        "prompt": "Lowender Peran is a festival associated with:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Revival movements assembling manuscripts, carols, and reconstructed practice",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cornwall",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cornwall"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-03-cornwall-man-sec-7-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Yn Chruinnaght is the inter-Celtic festival on the Isle of Man.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-1",
+    "title": "Diaspora trad: key ideas (1)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "From **Pan-Celtic Festivals and Institutions** (Diaspora trad):\n\n- Pan-Celtic festivals link nations without merging styles.\n\n- Lorient (summer, Brittany) and Celtic Connections (winter, Glasgow) are flagship stages.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-1-q1",
+        "type": "mcq",
+        "prompt": "The Festival Interceltique de Lorient is held in:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brittany, France",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Brittany, France"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-1-q2",
+        "type": "truefalse",
+        "prompt": "Celtic Connections takes place annually in Glasgow during the winter.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-2",
+    "title": "Diaspora trad: key ideas (2)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "From **Pan-Celtic Festivals and Institutions** (Diaspora trad):\n\n- Programming is professionalised and ticketed — unlike village sessions.\n\n- Ireland often serves as reference repertoire for visiting delegations.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-2-q1",
+        "type": "mcq",
+        "prompt": "Pan-Celtic festivals primarily aim to:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Shorter stage sets and more professional/ticketed presentation",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Showcase multiple Celtic nations while hosting cross-border collaboration",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brittany, France",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Showcase multiple Celtic nations while hosting cross-border collaboration"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-2-q2",
+        "type": "truefalse",
+        "prompt": "Lorient was founded in 1971 and grew from Breton cultural revival contexts.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-3",
+    "title": "Diaspora trad: key ideas (3)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "From **Pan-Celtic Festivals and Institutions** (Diaspora trad):\n\n- Critical listening separates host-nation aesthetic from guest sets.\n\n- Pan-Celtic festivals link nations without erasing national accents.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-3-q1",
+        "type": "mcq",
+        "prompt": "Compared with a parish fleadh, mega-festivals often feature:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Showcase multiple Celtic nations while hosting cross-border collaboration",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Watch full sets from multiple nations at one festival programme, noting dance and instrument leads",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Shorter stage sets and more professional/ticketed presentation",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Shorter stage sets and more professional/ticketed presentation"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Comhaltas and the Fleadh Cheoil interface with pan-Celtic festival networks.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-4",
+    "title": "Diaspora trad: key ideas (4)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "From **Pan-Celtic Festivals and Institutions** (Diaspora trad):\n\n- Lorient (summer, Brittany) and Celtic Connections (winter, Glasgow) are flagship international stages.\n\n- Programming mixes concerts, parades, competitions, and workshops — professionalised unlike village sessions.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-4-q1",
+        "type": "truefalse",
+        "prompt": "The host nation's aesthetic (e.g. Breton at Lorient) shapes default festival atmosphere.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Pan-Celtic festivals make Irish trad identical to Breton fest-noz practice.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "encounter does not equal merger."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-5",
+    "title": "Diaspora trad: key ideas (5)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "From **Pan-Celtic Festivals and Institutions** (Diaspora trad):\n\n- Ireland often serves as reference repertoire for visiting delegations — privilege and distortion both.\n\n- Institutions (Celtic Congress, national broadcasters, touring bands) extend festival networks year-round.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-5-q1",
+        "type": "truefalse",
+        "prompt": "Celtic Congress relates to political and cultural coordination among Celtic nations.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Critical festival listening should compare stage sets with home-region session or dance recordings.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-6",
+    "title": "Diaspora trad: key ideas (6)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "From **Pan-Celtic Festivals and Institutions** (Diaspora trad):\n\n- Compared with Ireland: fleadh/feis roots community; mega-festivals brand and export — listen for both.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Guest-of-honour nation rotations at Lorient have included Ireland, Galicia, and Cornwall among others.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-kp-6-q2",
+        "type": "mcq",
+        "prompt": "Best next step:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Watch full sets from multiple nations at one festival programme, noting dance and instrument leads",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Watch full sets from multiple nations at one festival programme, noting dance and instrument leads"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-1-overview",
+    "title": "Diaspora trad: Overview",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "Every August, the Breton port of Lorient hosts the Festival Interceltique de Lorient — ten days of stages, parades, dance floors, and market stalls where Irish fiddlers share billing with Galician gaitas, Welsh choirs, Cornish pipers, and Cape Breton step dancers. In January, Glasgow's Celtic Connections fills concert halls and pub sessions during the dark Scottish winter. These events are not neutral showcases. They manufacture encounter: musicians meet, tunes swap, careers launch, and audiences learn to hear \"Celtic\" as plural rather than Irish-by-default.\n\nPan-Celtic institutions — festivals, congresses, broadcast specials, touring ensembles — link national scenes without merging them into one style. This lesson explains how that infrastructure works, what it borrows from Irish revival models, where it diverges, and how to listen critically when the festival programme flatten differences for marketing.\n\nEvery August, the Breton port of Lorient hosts the Festival Interceltique de Lorient — ten days of stages, parades, dance floors, and market stalls where Irish fiddlers share billing with Galician gaitas, Welsh choirs, Cornish pipers, and Cape Breton step dancers. In January, Glasgow's Celtic Connections fills concert halls and pub sessions during the dark Scottish winter. These events are not neutral showcases. They manufacture encounter: musicians meet, tunes swap, careers launch, and audiences learn to hear \"Celtic\" as plural rather than Irish-by-default. Pan-Celtic institutions — festivals, congresses, broadcast specials, touring ensembles — link national scenes without merging them into one style. This lesson explains how that infrastructure works, what it borrows from Irish revival models, where it diverges, and…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-1-overview-q1",
+        "type": "mcq",
+        "prompt": "The Festival Interceltique de Lorient is held in:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brittany, France",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Brittany, France"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Celtic Connections takes place annually in Glasgow during the winter.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-2-lorient-the-flagship-interceltique",
+    "title": "Diaspora trad: Lorient: the flagship Interceltique",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "Founded in 1971, the Festival Interceltique de Lorient grew from Breton cultural nationalism into the world's largest recurring Celtic gathering. Each year highlights a \"Celtic nation\" as guest of honour — Ireland, Scotland, Wales, Cornwall, Isle of Man, Galicia, Asturias, and diaspora regions rotate. Programming mixes:\n\n- Concert stages — from pure trad to fusion supergroups.\n- Parades and bagad competitions — Breton pipe bands in spectacular massed formation.\n- Dance workshops — fest-noz circles beside Irish set-dance introductions.\n- Market and craft — instrument makers, CD stalls, food.\n\nLorient exports repertoire traffic. A Breton fiddler hears Cape Breton bowing; an Irish piper meets Asturian gaita; arrangements return home on YouTube. Yet the festival's Breton host culture shapes the default aesthetic: bombard and biniou volume, fest-noz dance as nightly climax, French media framing.\n\nFounded in 1971, the Festival Interceltique de Lorient grew from Breton cultural nationalism into the world's largest recurring Celtic gathering. Each year highlights a \"Celtic nation\" as guest of honour — Ireland, Scotland, Wales, Cornwall, Isle of Man, Galicia, Asturias, and diaspora regions rotate. Programming mixes: - Concert stages — from pure trad to fusion supergroups. - Parades and bagad competitions — Breton pipe bands in spectacular massed formation. - Dance workshops — fest-noz circles beside Irish set-dance introductions. - Market and craft — instrument makers, CD stalls, food. Lorient exports repertoire traffic. A Breton fiddler hears Cape Breton bowing; an Irish piper meets Asturian gaita; arrangements return home on YouTube. Yet the festival's Breton host culture shapes the default…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-2-lorient-the-flagship-interceltique-q1",
+        "type": "mcq",
+        "prompt": "Pan-Celtic festivals primarily aim to:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Shorter stage sets and more professional/ticketed presentation",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Showcase multiple Celtic nations while hosting cross-border collaboration",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brittany, France",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Showcase multiple Celtic nations while hosting cross-border collaboration"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-2-lorient-the-flagship-interceltique-q2",
+        "type": "truefalse",
+        "prompt": "Lorient was founded in 1971 and grew from Breton cultural revival contexts.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-3-celtic-connections-winter-session-city",
+    "title": "Diaspora trad: Celtic Connections: winter session city",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "Celtic Connections began in 1994 as Glasgow's midwinter antidote to festival summer concentration. It emphasises curated concerts — themed nights, cross-genre collaborations, political song — alongside a growing fringe of pub sessions. Scottish trad is home turf, but Irish artists feature heavily: shared repertoire, shared language of reels and jigs, diaspora acts from North America.\n\nCompared with Lorient's outdoor mass spectacle, Celtic Connections feels like a concert hall and club circuit with session spillover. Both are professionalised — ticketed events, arts council funding, international press — unlike a village kitchen party. That professional layer matters for careers but can distance music from local dance floors if programmers favour stage virtuosity over community form.\n\nCeltic Connections began in 1994 as Glasgow's midwinter antidote to festival summer concentration. It emphasises curated concerts — themed nights, cross-genre collaborations, political song — alongside a growing fringe of pub sessions. Scottish trad is home turf, but Irish artists feature heavily: shared repertoire, shared language of reels and jigs, diaspora acts from North America.\n\nCompared with Lorient's outdoor mass spectacle, Celtic Connections feels like a concert hall and club circuit with session spillover. Both are professionalised — ticketed events, arts council funding, international press — unlike a village kitchen party. That professional layer matters for careers but can distance music from local dance floors if programmers favour stage virtuosity over community form.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-3-celtic-connections-winter-session-city-q1",
+        "type": "mcq",
+        "prompt": "Compared with a parish fleadh, mega-festivals often feature:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Showcase multiple Celtic nations while hosting cross-border collaboration",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Watch full sets from multiple nations at one festival programme, noting dance and instrument leads",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Shorter stage sets and more professional/ticketed presentation",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Shorter stage sets and more professional/ticketed presentation"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-3-celtic-connections-winter-session-city-q2",
+        "type": "truefalse",
+        "prompt": "Comhaltas and the Fleadh Cheoil interface with pan-Celtic festival networks.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-4-congresses-councils-and-touring-networks",
+    "title": "Diaspora trad: Congresses, councils, and touring networks",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "Beyond the two giants, smaller institutions stitch the map:\n\n- Celtic Congress and related political-cultural forums — language, autonomy, heritage policy.\n- Inter-Celtic festivals in Ireland (e.g. Pan Celtic Festival in Killarney), Wales, and Cornwall — often competition-focused for song and dance.\n- Touring ensembles — The Chieftains, Danú, Breton-Irish collaborations — carry festival networks year-round.\n- Broadcast — RTÉ, BBC Alba, France 3 Bretagne, TG4 — document festivals and feed home audiences.\n\nIrish institutions like Comhaltas Ceoltóirí Éireann and the Fleadh Cheoil na hÉireann predate many pan-Celtic festivals but now interface with them: fleadh winners tour Lorient; Comhaltas branches host visiting Galician pipe bands. Ireland is often the reference repertoire foreign delegations learn first — a privilege and a distortion.\n\nBeyond the two giants, smaller institutions stitch the map: - Celtic Congress and related political-cultural forums — language, autonomy, heritage policy. - Inter-Celtic festivals in Ireland (e.g. Pan Celtic Festival in Killarney), Wales, and Cornwall — often competition-focused for song and dance. - Touring ensembles — The Chieftains, Danú, Breton-Irish collaborations — carry festival networks year-round. - Broadcast — RTÉ, BBC Alba, France 3 Bretagne, TG4 — document festivals and feed home audiences. Irish institutions like Comhaltas Ceoltóirí Éireann and the Fleadh Cheoil na hÉireann predate many pan-Celtic festivals but now interface with them: fleadh winners tour Lorient; Comhaltas branches host visiting Galician pipe bands. Ireland is often the reference repertoire foreign delegations learn first — a privilege and a…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-4-congresses-councils-and-touring-networks-q1",
+        "type": "truefalse",
+        "prompt": "The host nation's aesthetic (e.g. Breton at Lorient) shapes default festival atmosphere.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-4-congresses-councils-and-touring-networks-q2",
+        "type": "truefalse",
+        "prompt": "Pan-Celtic festivals make Irish trad identical to Breton fest-noz practice.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "encounter does not equal merger."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-5-compared-with-ireland",
+    "title": "Diaspora trad: Compared with Ireland",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "Ireland's festival economy is layered: 1. Community feiseanna and fleadhanna — competitive, pedagogical, rooted in parishes. 2. Summer schools — Willie Clancy, Scoil Samhraidh Willie Clancy, etc. 3. Commercial tours — Riverdance legacy, arena acts. 4. Pub sessions — non-ticketed, local. Pan-Celtic mega-festivals add a fifth layer: international branding. They amplify Irish artists abroad but risk presenting trad as world-music product — polished, abbreviated sets, fusion-heavy closers. | Layer | Irish anchor | Pan-Celtic festival | |-------|--------------|---------------------| | Primary goal | Teach, compete, socialise | Showcase nations, sell tickets | | Dance context | Céilí, set, feis | Mixed workshops; stage dance | | Repertoire depth | Full session sets | Short feature slots | | Funding | Community + state arts | Municipal + tourism + arts councils | Irish musicians benefit enormously from Lorient and Celtic Connections — income, discovery, cross-pollination. They also negotiate authenticity questions when a seven-minute stage slot must represent an entire county. Fringe nations face sharper pressure: Cornwall or Mann may field smaller delegations but need equal dignity on the programme. Listeners should attend…\n\nIreland's festival economy is layered: 1. Community feiseanna and fleadhanna — competitive, pedagogical, rooted in parishes. 2. Summer schools — Willie Clancy, Scoil Samhraidh Willie Clancy, etc. 3. Commercial tours — Riverdance legacy, arena acts. 4. Pub sessions — non-ticketed, local. Pan-Celtic mega-festivals add a fifth layer: international branding. They amplify Irish artists abroad but risk presenting trad as world-music product — polished, abbreviated sets, fusion-heavy closers. | Layer | Irish anchor | Pan-Celtic festival | |-------|--------------|---------------------| | Primary goal | Teach, compete, socialise | Showcase nations, sell tickets | | Dance context | Céilí, set, feis | Mixed workshops; stage dance | | Repertoire depth | Full session sets | Short feature slots | | Funding | Community +…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-5-compared-with-ireland-q1",
+        "type": "truefalse",
+        "prompt": "Celtic Congress relates to political and cultural coordination among Celtic nations.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-5-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Critical festival listening should compare stage sets with home-region session or dance recordings.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-7-key-points",
+    "title": "Diaspora trad: Key points",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "festivals",
+      "lorient",
+      "network"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-03-cornwall-man"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-04-pan-celtic-festivals",
+    "estimateMinutes": 4,
+    "body": "- Pan-Celtic festivals link nations without erasing national accents.\n- Lorient (summer, Brittany) and Celtic Connections (winter, Glasgow) are flagship international stages.\n- Programming mixes concerts, parades, competitions, and workshops — professionalised unlike village sessions.\n- Ireland often serves as reference repertoire for visiting delegations — privilege and distortion both.\n- Institutions (Celtic Congress, national broadcasters, touring bands) extend festival networks year-round.\n- Compared with Ireland: fleadh/feis roots community; mega-festivals brand and export — listen for both.\n\n- Pan-Celtic festivals link nations without erasing national accents.\n- Lorient (summer, Brittany) and Celtic Connections (winter, Glasgow) are flagship international stages.\n- Programming mixes concerts, parades, competitions, and workshops — professionalised unlike village sessions.\n- Ireland often serves as reference repertoire for visiting delegations — privilege and distortion both.\n- Institutions (Celtic Congress, national broadcasters, touring bands) extend festival networks year-round.\n- Compared with Ireland: fleadh/feis roots community; mega-festivals brand and export — listen for both.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-7-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Guest-of-honour nation rotations at Lorient have included Ireland, Galicia, and Cornwall among others.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-04-pan-celtic-festivals-sec-7-key-points-q2",
+        "type": "mcq",
+        "prompt": "Best next step:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Watch full sets from multiple nations at one festival programme, noting dance and instrument leads",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Watch full sets from multiple nations at one festival programme, noting dance and instrument leads"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-1",
+    "title": "Diaspora trad: key ideas (1)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "From **Listening Across Borders** (Diaspora trad):\n\n- Four-column listening: form, lead voice, ornament, social context.\n\n- Ireland is the reference track; contrast reveals regional accent.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-1-q1",
+        "type": "mcq",
+        "prompt": "The four-column comparative listen logs form, lead voice, ornament, and:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Social context (session, dance, parade, stage)",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Social context (session, dance, parade, stage)"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-1-q2",
+        "type": "truefalse",
+        "prompt": "Ireland is used as a reference track in this course because students studied it first — not because other traditions are inferior.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-2",
+    "title": "Diaspora trad: key ideas (2)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "From **Listening Across Borders** (Diaspora trad):\n\n- Same tune title may mask different bowing, tempo, and dance purpose.\n\n- Diaspora 78s and festival stages are lenses, not sole truths.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-2-q1",
+        "type": "truefalse",
+        "prompt": "The same reel title may appear in Irish, Scottish, and Cape Breton recordings with different accent and tempo.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-2-q2",
+        "type": "truefalse",
+        "prompt": "All 6/8 Celtic tunes should be called jigs.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "muiñeiras, gavottes, and plinn-related forms need distinct names."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-3",
+    "title": "Diaspora trad: key ideas (3)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "From **Listening Across Borders** (Diaspora trad):\n\n- Form-based playlists beat nation-only generic compilations.\n\n- Comparative listening uses form, lead instrument, ornament, and social context — not tune title alone.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-3-q1",
+        "type": "truefalse",
+        "prompt": "Michael Coleman's 1920s recordings illustrate how diaspora media shaped tune accents retroactively.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Festival supergroup arrangements always represent home-region session practice accurately.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "stage arrangement compresses and blends accents."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-4",
+    "title": "Diaspora trad: key ideas (4)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "From **Listening Across Borders** (Diaspora trad):\n\n- Ireland serves as reference track; other regions reveal accent by contrast.\n\n- Reels, jigs, and pipe timbres travel but change with dance floor and room acoustics.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-4-q1",
+        "type": "truefalse",
+        "prompt": "When comparing pipes, uilleann and Highland pipes differ in bellows vs blow, indoor vs outdoor defaults.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Comparative playlists should be organised only by nation, never by tune form.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "form-based playlists reveal family resemblance faster."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-5",
+    "title": "Diaspora trad: key ideas (5)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "From **Listening Across Borders** (Diaspora trad):\n\n- Diaspora 78s and festival stages are lenses — not the only truth of a tradition.\n\n- Labelling all 6/8 tunes \"jigs\" is a common beginner error; use dance names.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-5-q1",
+        "type": "truefalse",
+        "prompt": "Cape Breton reel settings often emphasise dance lift and cut bowing compared with many Irish session takes.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-5-q2",
+        "type": "truefalse",
+        "prompt": "Listening notebooks that track metre and ornament beat passive scrolling.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-6",
+    "title": "Diaspora trad: key ideas (6)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "From **Listening Across Borders** (Diaspora trad):\n\n- A notebook with four-column logs beats passive playlist shuffling.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-6-q1",
+        "type": "truefalse",
+        "prompt": "Breton gavottes and Irish jigs share metre family resemblance but different dance context.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-kp-6-q2",
+        "type": "mcq",
+        "prompt": "Best next step after this lesson:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Complete at least two four-column comparisons using the exercises above",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Social context (session, dance, parade, stage)",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Complete at least two four-column comparisons using the exercises above"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-1-overview",
+    "title": "Diaspora trad: Overview",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "You have studied Ireland as anchor, Scotland and Wales as neighbours, Brittany as dance-led cousin, and diaspora scenes from Cape Breton to Galicia. This lesson turns study into practice: a guided comparative listening method. Same tune family, multiple regions — hear what changes in tempo, ornament, instrumentation, and social purpose. The goal is not to win arguments about authenticity but to build ear precision so generic \"Celtic\" compilations no longer fool you.\n\nThink of this as a lab session. Bring headphones, a notebook, and patience. Each exercise pairs recordings across borders. Metadata in `lesson-meta.json` suggests playlist entries; you may substitute equivalent tracks if links shift.\n\nYou have studied Ireland as anchor, Scotland and Wales as neighbours, Brittany as dance-led cousin, and diaspora scenes from Cape Breton to Galicia. This lesson turns study into practice: a guided comparative listening method. Same tune family, multiple regions — hear what changes in tempo, ornament, instrumentation, and social purpose. The goal is not to win arguments about authenticity but to build ear precision so generic \"Celtic\" compilations no longer fool you.\n\nThink of this as a lab session. Bring headphones, a notebook, and patience. Each exercise pairs recordings across borders. Metadata in `lesson-meta.json` suggests playlist entries; you may substitute equivalent tracks if links shift.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-1-overview-q1",
+        "type": "mcq",
+        "prompt": "The four-column comparative listen logs form, lead voice, ornament, and:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Social context (session, dance, parade, stage)",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Social context (session, dance, parade, stage)"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Ireland is used as a reference track in this course because students studied it first — not because other traditions are inferior.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-2-method-the-four-column-listen",
+    "title": "Diaspora trad: Method: the four-column listen",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "For each comparison, log four columns:\n\n| Column | Question |\n|--------|----------|\n| Form | Reel, jig, strathspey, gavotte, muiñeira? Metre and foot-tap? |\n| Lead voice | Fiddle, pipes, harp, box, voice? |\n| Ornament | Rolls, cuts, drones, cran, vibrato? |\n| Social context | Session, fest-noz, step dance, parade, concert stage? |\n\nAfter three comparisons, patterns emerge. Irish sessions favour melody stacks in moderate pub acoustics. Cape Breton fiddling drives step dancers with cut bowing. Breton fest-noz pairs bombard with biniou at dance tempo. Galician gaita leads outdoor percussion. The tune title may match; the room does not.\n\nFor each comparison, log four columns:\n\n| Column | Question |\n|--------|----------|\n| Form | Reel, jig, strathspey, gavotte, muiñeira? Metre and foot-tap? |\n| Lead voice | Fiddle, pipes, harp, box, voice? |\n| Ornament | Rolls, cuts, drones, cran, vibrato? |\n| Social context | Session, fest-noz, step dance, parade, concert stage? |\n\nAfter three comparisons, patterns emerge. Irish sessions favour melody stacks in moderate pub acoustics. Cape Breton fiddling drives step dancers with cut bowing. Breton fest-noz pairs bombard with biniou at dance tempo. Galician gaita leads outdoor percussion. The tune title may match; the room does not.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-2-method-the-four-column-listen-q1",
+        "type": "truefalse",
+        "prompt": "The same reel title may appear in Irish, Scottish, and Cape Breton recordings with different accent and tempo.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-2-method-the-four-column-listen-q2",
+        "type": "truefalse",
+        "prompt": "All 6/8 Celtic tunes should be called jigs.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "muiñeiras, gavottes, and plinn-related forms need distinct names."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-3-exercise-1-reel-family-across-atlantic-shores",
+    "title": "Diaspora trad: Exercise 1: reel family across Atlantic shores",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "Prompt: Find The Wind That Shakes the Barley, St. Anne's Reel, or another widely travelled reel in Irish, Cape Breton, and Scottish settings.\n\nListen for:\n- Irish session: roll-heavy fiddle or flute, guitar/bouzouki backing, steady 4/4.\n- Cape Breton: lifted downbows, possible drone strings, dancer tempo.\n- Scottish: strathspey neighbours in sets; possible pipe band march adaptation.\n\nCompared with Ireland: Irish settings often treat the reel as session default — three tunes, next form. Cape Breton may hold one reel for extended dance. Scottish pipe bands compress melody for outdoor march phrasing.\n\nPrompt: Find The Wind That Shakes the Barley, St. Anne's Reel, or another widely travelled reel in Irish, Cape Breton, and Scottish settings.\n\nListen for:\n- Irish session: roll-heavy fiddle or flute, guitar/bouzouki backing, steady 4/4.\n- Cape Breton: lifted downbows, possible drone strings, dancer tempo.\n- Scottish: strathspey neighbours in sets; possible pipe band march adaptation.\n\nCompared with Ireland: Irish settings often treat the reel as session default — three tunes, next form. Cape Breton may hold one reel for extended dance. Scottish pipe bands compress melody for outdoor march phrasing.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-3-exercise-1-reel-family-across-atlantic-shores-q1",
+        "type": "truefalse",
+        "prompt": "Michael Coleman's 1920s recordings illustrate how diaspora media shaped tune accents retroactively.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-3-exercise-1-reel-family-across-atlantic-shores-q2",
+        "type": "truefalse",
+        "prompt": "Festival supergroup arrangements always represent home-region session practice accurately.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "stage arrangement compresses and blends accents."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-5-exercise-3-pipe-voices",
+    "title": "Diaspora trad: Exercise 3: pipe voices",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "Prompt: Compare uilleann pipes (Irish), Highland pipes (Scottish), gaita galega (Galician), and if available Cornish or Breton biniou.\n\nListen for:\n- Uilleann: bellows, regulators, indoor dynamic range.\n- Highland: outdoor march and dance sets, massed band discipline.\n- Gaita: drone + snare/bass drum ensemble.\n- Biniou: paired with bombard at fest-noz pitch.\n\nIreland's pipe revival (Willie Clancy, UNESCO listing) differs from Galician parade aesthetic — same word \"bagpipes,\" different technology and room.\n\nPrompt: Compare uilleann pipes (Irish), Highland pipes (Scottish), gaita galega (Galician), and if available Cornish or Breton biniou.\n\nListen for:\n- Uilleann: bellows, regulators, indoor dynamic range.\n- Highland: outdoor march and dance sets, massed band discipline.\n- Gaita: drone + snare/bass drum ensemble.\n- Biniou: paired with bombard at fest-noz pitch.\n\nIreland's pipe revival (Willie Clancy, UNESCO listing) differs from Galician parade aesthetic — same word \"bagpipes,\" different technology and room.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-5-exercise-3-pipe-voices-q1",
+        "type": "truefalse",
+        "prompt": "When comparing pipes, uilleann and Highland pipes differ in bellows vs blow, indoor vs outdoor defaults.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-5-exercise-3-pipe-voices-q2",
+        "type": "truefalse",
+        "prompt": "Comparative playlists should be organised only by nation, never by tune form.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "form-based playlists reveal family resemblance faster."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-8-building-your-comparative-playlist",
+    "title": "Diaspora trad: Building your comparative playlist",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "Organise playlists by form (reel set, jig family, slow air) not by nation alone. Within each playlist, slot Ireland first as reference, then contrast tracks. Tag entries with Comhaltas Ceoltóirí Éireann-style session context notes where relevant.\n\nSuggested structure (see lesson-meta.json for concrete links):\n\n1. Reels Atlantic — Ireland / Scotland / Cape Breton / Quebec\n2. Six-beat dances — jig / muiñeira / gavotte\n3. Pipes compared — uilleann / Highland / gaita / biniou\n4. Diaspora 78s — Coleman vs modern session\n5. Festival vs home — Lorient stage vs Breton fest-noz field\n\nOrganise playlists by form (reel set, jig family, slow air) not by nation alone. Within each playlist, slot Ireland first as reference, then contrast tracks. Tag entries with Comhaltas Ceoltóirí Éireann-style session context notes where relevant.\n\nSuggested structure (see lesson-meta.json for concrete links):\n\n1. Reels Atlantic — Ireland / Scotland / Cape Breton / Quebec\n2. Six-beat dances — jig / muiñeira / gavotte\n3. Pipes compared — uilleann / Highland / gaita / biniou\n4. Diaspora 78s — Coleman vs modern session\n5. Festival vs home — Lorient stage vs Breton fest-noz field",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-8-building-your-comparative-playlist-q1",
+        "type": "truefalse",
+        "prompt": "Cape Breton reel settings often emphasise dance lift and cut bowing compared with many Irish session takes.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-8-building-your-comparative-playlist-q2",
+        "type": "truefalse",
+        "prompt": "Listening notebooks that track metre and ornament beat passive scrolling.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-9-compared-with-ireland",
+    "title": "Diaspora trad: Compared with Ireland",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "Every exercise above uses Ireland as control track. That is deliberate: this course studied Irish trad first because of repertoire depth, session ubiquity, and diaspora influence. Comparison is not ranking. Breton fest-noz is not \"behind\" Irish sessions — it answers different social needs. Cape Breton dance fiddling is not \"Scottish with errors\" — it is a matured diaspora accent.\n\nIrish listeners abroad should notice their own export bias: tunes everyone knows (Drowsy Maggie, Out on the Ocean) may dominate cross-border sets while Welsh plygi or Manx carvals stay invisible. Corrective listening widens empathy and repertoire.\n\nParallel lessons: comparative unit (`regions-celtic-comparative-02-shared-instruments`, `03-tune-forms-compared`); Ireland `08-tunes` for session standards; diaspora 01–04 for regional depth.\n\nEvery exercise above uses Ireland as control track. That is deliberate: this course studied Irish trad first because of repertoire depth, session ubiquity, and diaspora influence. Comparison is not ranking. Breton fest-noz is not \"behind\" Irish sessions — it answers different social needs. Cape Breton dance fiddling is not \"Scottish with errors\" — it is a matured diaspora accent.\n\nIrish listeners abroad should notice their own export bias: tunes everyone knows (Drowsy Maggie, Out on the Ocean) may dominate cross-border sets while Welsh plygi or Manx carvals stay invisible. Corrective listening widens empathy and repertoire.\n\nParallel lessons: comparative unit (`regions-celtic-comparative-02-shared-instruments`, `03-tune-forms-compared`); Ireland `08-tunes` for session standards; diaspora 01–04 for regional depth.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-9-compared-with-ireland-q1",
+        "type": "truefalse",
+        "prompt": "Breton gavottes and Irish jigs share metre family resemblance but different dance context.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-9-compared-with-ireland-q2",
+        "type": "mcq",
+        "prompt": "Best next step after this lesson:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Complete at least two four-column comparisons using the exercises above",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Social context (session, dance, parade, stage)",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Complete at least two four-column comparisons using the exercises above"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-10-key-points",
+    "title": "Diaspora trad: Key points",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "- Comparative listening uses form, lead instrument, ornament, and social context — not tune title alone.\n- Ireland serves as reference track; other regions reveal accent by contrast.\n- Reels, jigs, and pipe timbres travel but change with dance floor and room acoustics.\n- Diaspora 78s and festival stages are lenses — not the only truth of a tradition.\n- Labelling all 6/8 tunes \"jigs\" is a common beginner error; use dance names.\n- A notebook with four-column logs beats passive playlist shuffling.\n\n- Comparative listening uses form, lead instrument, ornament, and social context — not tune title alone.\n- Ireland serves as reference track; other regions reveal accent by contrast.\n- Reels, jigs, and pipe timbres travel but change with dance floor and room acoustics.\n- Diaspora 78s and festival stages are lenses — not the only truth of a tradition.\n- Labelling all 6/8 tunes \"jigs\" is a common beginner error; use dance names.\n- A notebook with four-column logs beats passive playlist shuffling.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-10-key-points-q1",
+        "type": "mcq",
+        "prompt": "The four-column comparative listen logs form, lead voice, ornament, and:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Social context (session, dance, parade, stage)",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Social context (session, dance, parade, stage)"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-sec-10-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Ireland is used as a reference track in this course because students studied it first — not because other traditions are inferior.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-tune-silver-spear-compare",
+    "title": "Diaspora trad: The Silver Spear (Ireland anchor)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "**The Silver Spear (Ireland anchor)** — tune study from the Diaspora unit.\n\n**Form:** reel\n\n**Reference:** Irish session standard — compare with Scotland/Wales\n\nUse as reference reel when comparing bowing and ornament.\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-tune-silver-spear-compare-q1",
+        "type": "truefalse",
+        "prompt": "The same reel title may appear in Irish, Scottish, and Cape Breton recordings with different accent and tempo.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-tune-silver-spear-compare-q2",
+        "type": "truefalse",
+        "prompt": "All 6/8 Celtic tunes should be called jigs.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "muiñeiras, gavottes, and plinn-related forms need distinct names."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-tune-masons-apron-compare",
+    "title": "Diaspora trad: The Mason's Apron (cross-border)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "**The Mason's Apron (cross-border)** — tune study from the Diaspora unit.\n\n**Form:** reel\n\n**Reference:** Shared Scottish and Irish repertoire\n\nSame tune title, different regional accent.\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-tune-masons-apron-compare-q1",
+        "type": "truefalse",
+        "prompt": "Michael Coleman's 1920s recordings illustrate how diaspora media shaped tune accents retroactively.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-tune-masons-apron-compare-q2",
+        "type": "truefalse",
+        "prompt": "Festival supergroup arrangements always represent home-region session practice accurately.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "stage arrangement compresses and blends accents."
+      }
+    ]
+  },
+  {
+    "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-tune-gavotte-compare",
+    "title": "Diaspora trad: Breton gavotte (contrast)",
+    "track": "celtic",
+    "region": "celtic-diaspora",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "celtic",
+      "diaspora",
+      "comparative",
+      "playlist",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-diaspora-04-pan-celtic-festivals"
+    ],
+    "lessonSourceId": "regions-celtic-diaspora-05-listening-across-borders",
+    "estimateMinutes": 4,
+    "body": "**Breton gavotte (contrast)** — tune study from the Diaspora unit.\n\n**Form:** gavotte\n\n**Reference:** Fest-noz dance — not a jig or reel\n\nFoot-tap in 4/4 dance rhythm; compare with Irish reel flatness.\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-tune-gavotte-compare-q1",
+        "type": "truefalse",
+        "prompt": "When comparing pipes, uilleann and Highland pipes differ in bellows vs blow, indoor vs outdoor defaults.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-diaspora-regions-celtic-diaspora-05-listening-across-borders-tune-gavotte-compare-q2",
+        "type": "truefalse",
+        "prompt": "Comparative playlists should be organised only by nation, never by tune form.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "form-based playlists reveal family resemblance faster."
       }
     ]
   }

@@ -1,145 +1,973 @@
 {
   "regions-celtic-scotland-01-overview": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "ceilidh",
+        "type": "tradition",
+        "name": "Scottish Ceilidh",
+        "summary": "Social dance gathering with live band and caller",
+        "blurb": "Modern ceilidhs feature reels, jigs, and strathspeys for community dancers in village halls and festivals.",
+        "url": "https://en.wikipedia.org/wiki/C%C3%A8ilidh",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Ceilidh_dancing.jpg?width=320"
+      },
+      {
+        "id": "rspba",
+        "type": "organization",
+        "name": "Royal Scottish Pipe Band Association",
+        "summary": "Governing body for competitive pipe bands",
+        "blurb": "Organises graded pipe-band contests including the World Pipe Band Championships in Glasgow.",
+        "url": "https://www.rspba.org/",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Pipe_band_at_the_2005_Scottish_Highland_Games_in_Estes_Park%2C_Colorado.jpg?width=320"
+      },
+      {
+        "id": "highland-games",
+        "type": "event",
+        "name": "Highland Games",
+        "summary": "Athletic and cultural festivals with piping and dancing",
+        "blurb": "Summer gatherings combining sport, solo piping, pipe bands, and Highland dancing.",
+        "url": "https://en.wikipedia.org/wiki/Highland_games",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Highland_Games_%28geograph_2453870%29.jpg?width=320"
+      },
+      {
+        "id": "gaelic-song",
+        "type": "tradition",
+        "name": "Gaelic Song",
+        "summary": "Scottish Gaelic vocal tradition including waulking songs and puirt",
+        "blurb": "Òrain Ghàidhlig carry narrative, work rhythm, and highly ornamented vocal style in the Gàidhealtachd.",
+        "url": "https://en.wikipedia.org/wiki/Gaelic_music",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gaelic_medium_education_sign_in_Portree%2C_Skye.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "ceilidh-strip-willow",
+        "entity_id": "ceilidh",
+        "label": "Ceilidh dancing — Strip the Willow",
+        "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+      },
+      {
+        "id": "pipe-band-worlds",
+        "entity_id": "rspba",
+        "label": "World Pipe Band Championships excerpt",
+        "youtube": "https://www.youtube.com/watch?v=0nF5mB1JP8s"
+      },
+      {
+        "id": "gaelic-waulking",
+        "entity_id": "gaelic-song",
+        "label": "Gaelic waulking song demonstration",
+        "youtube": "https://www.youtube.com/watch?v=2g6F8h8aZ0E"
+      },
+      {
+        "id": "celtic-connections",
+        "label": "Celtic Connections festival highlights",
+        "youtube": "https://www.youtube.com/watch?v=KxVxZP7VqH0"
+      },
+      {
+        "id": "scotland-ceilidh-overview",
+        "label": "Ceilidh band set",
+        "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+      }
+    ],
     "key_points": [
-      "Scottish Traditional Music rewards comparative study with Ireland.",
-      "Focus: Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages..",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Scottish trad spans Highland Gaelic, Lowland Scots, and island regional accents.",
+      "Ceilidh dances prioritise community participation with caller-led figures.",
+      "Strathspeys and pipe bands are distinctly Scottish public faces of the tradition.",
+      "Gaelic and Scots song traditions run parallel to instrumental dance music.",
+      "Highland games and BBC broadcasting shape seasonal and national listening habits.",
+      "Compare with Ireland to hear shared repertoire and distinct national accent."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Alias MacAlias: Selected Writings",
+        "author": "Hamish Henderson",
+        "note": "Ballads, folklore, and revival context"
+      },
+      {
+        "type": "book",
+        "title": "Voicing Scotland: Folk, Culture, Nation",
+        "author": "Gary West",
+        "note": "Cultural framing for Scottish trad"
+      },
+      {
         "type": "link",
-        "title": "Scottish Traditional Music — Overview — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Music of Scotland — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Scotland",
+        "note": "Orientation article verified against recordings"
+      },
+      {
+        "type": "link",
+        "title": "Hands Up for Trad",
+        "url": "https://www.handsupfortrad.scot/",
+        "note": "Scottish folk news and Scottish Trad Music Awards"
+      },
+      {
+        "type": "book",
+        "title": "The Highland Bagpipe",
+        "author": "Joshua Dickson",
+        "note": "Piping history and competition"
+      },
+      {
+        "type": "link",
+        "title": "National Piping Centre",
+        "url": "https://www.thepipingcentre.co.uk/",
+        "note": "Lessons and archives"
+      },
+      {
+        "type": "link",
+        "title": "Shetland Folk Festival",
+        "url": "https://www.shetlandfolkfestival.com/",
+        "note": "Island tradition showcase"
+      },
+      {
+        "type": "link",
+        "title": "BBC Radio Scotland — Travelling Folk",
+        "url": "https://www.bbc.co.uk/sounds",
+        "note": "Contemporary trad broadcasting"
       }
     ]
   },
   "regions-celtic-scotland-02-instruments-voices-i": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "shetland-fiddle",
+        "type": "tradition",
+        "name": "Shetland Fiddle",
+        "summary": "Island fiddle style with ringing strings and twin-fiddle ensemble",
+        "blurb": "Norse-influenced repertoire and Aly Bain's international broadcasting made Shetland accent globally known.",
+        "url": "https://en.wikipedia.org/wiki/Shetland_fiddle",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=320"
+      },
+      {
+        "id": "great-highland-bagpipe",
+        "type": "instrument",
+        "name": "Great Highland Bagpipe",
+        "summary": "Mouth-blown national bagpipe of Scotland",
+        "blurb": "Outdoor volume suits games, parades, and pipe-band competition; practice chanter precedes full pipes.",
+        "url": "https://en.wikipedia.org/wiki/Great_Highland_bagpipe",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bagpipe_1.jpg?width=320"
+      },
+      {
+        "id": "clarsach",
+        "type": "instrument",
+        "name": "Clàrsach",
+        "summary": "Scottish Gaelic harp",
+        "blurb": "Medieval wire-strung heritage survives in museum harps and modern revival performance.",
+        "url": "https://en.wikipedia.org/wiki/Cl%C3%A0rsach",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Clarsach.jpg?width=320"
+      },
+      {
+        "id": "james-scott-skinner",
+        "type": "artist",
+        "name": "James Scott Skinner",
+        "summary": "Aberdeenshire fiddler and composer, the Strathspey King",
+        "blurb": "Victorian showman whose strathspeys and recordings fixed competition repertoire for generations.",
+        "years": "1843–1927",
+        "region": "North East Scotland",
+        "url": "https://en.wikipedia.org/wiki/James_Scott_Skinner",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/James_Scott_Skinner.jpg?width=320"
+      },
+      {
+        "id": "aly-bain",
+        "type": "artist",
+        "name": "Aly Bain",
+        "summary": "Shetland fiddler and broadcaster",
+        "blurb": "Boys of the Lough and Transatlantic Sessions brought Shetland ringing style to global audiences.",
+        "years": "1946–",
+        "region": "Shetland",
+        "url": "https://en.wikipedia.org/wiki/Aly_Bain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "aly-bain-shetland",
+        "entity_id": "shetland-fiddle",
+        "label": "Aly Bain — Shetland fiddle",
+        "youtube": "https://www.youtube.com/watch?v=WJ4nYnLqvA0"
+      },
+      {
+        "id": "skinner-strathspey",
+        "label": "James Scott Skinner — strathspey",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "highland-pipes-solo",
+        "entity_id": "great-highland-bagpipe",
+        "label": "Solo Highland bagpipe march",
+        "youtube": "https://www.youtube.com/watch?v=L0MK7awyLUI"
+      },
+      {
+        "id": "clarsach-air",
+        "entity_id": "clarsach",
+        "label": "Scottish harp slow air",
+        "youtube": "https://www.youtube.com/watch?v=3JZ_D3Xw5xw"
+      }
+    ],
     "key_points": [
-      "Scottish Traditional Music rewards comparative study with Ireland.",
-      "Focus: fiddle, Highland bagpipes, smallpipes, whistle, and clàrsach (Scottish harp).",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Shetland and North East fiddle are flagship regional accents — learn them by name.",
+      "Great Highland bagpipe dominates public image; smallpipes suit indoor folk sessions.",
+      "James Scott Skinner remains essential for strathspey repertoire and style.",
+      "Whistle shares much technique with Irish practice and suits session doubling.",
+      "Clàrsach links medieval Gaelic heritage to modern folk and song accompaniment.",
+      "Instrument roles overlap — pipes drone, fiddle drives dance lift."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Scottish Fiddlers and Their Music",
+        "author": "Mary Anne Alburger",
+        "note": "Regional fiddle history"
+      },
+      {
+        "type": "book",
+        "title": "When Piping Was Strong",
+        "author": "Joshua Dickson",
+        "note": "Highland piping tradition"
+      },
+      {
         "type": "link",
-        "title": "Scottish Traditional Instruments — Traditional Voices I — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Scottish fiddle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Scottish_fiddle",
+        "note": "Instrument overview"
+      },
+      {
+        "type": "link",
+        "title": "Shetland Folk Festival",
+        "url": "https://www.shetlandfolkfestival.com/",
+        "note": "Contemporary island tradition"
+      },
+      {
+        "type": "book",
+        "title": "The Scottish Violinist",
+        "author": "James Scott Skinner",
+        "note": "Strathspey and reel collections"
+      },
+      {
+        "type": "link",
+        "title": "Aly Bain — discography",
+        "url": "https://en.wikipedia.org/wiki/Aly_Bain",
+        "note": "Shetland fiddle reference"
+      },
+      {
+        "type": "link",
+        "title": "Hamish Moore — smallpipes",
+        "url": "https://en.wikipedia.org/wiki/Hamish_Moore",
+        "note": "Revival maker and player"
+      },
+      {
+        "type": "link",
+        "title": "Clarsach Society",
+        "url": "https://www.clarsachsociety.co.uk/",
+        "note": "Scottish harp teachers and events"
       }
     ]
   },
   "regions-celtic-scotland-03-instruments-voices-ii": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "ceilidh-band",
+        "type": "ensemble",
+        "name": "Ceilidh Band",
+        "summary": "Dance ensemble with fiddle, accordion, piano, and drums",
+        "blurb": "Standard lineup drives reels and jigs for village halls, weddings, and Burns suppers.",
+        "url": "https://en.wikipedia.org/wiki/C%C3%A8ilidh",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Accordion_player.jpg?width=320"
+      },
+      {
+        "id": "pipe-band-drums",
+        "type": "tradition",
+        "name": "Pipe Band Drumming",
+        "summary": "Scored snare, tenor, and bass drum corps with massed pipes",
+        "blurb": "Competitive rudiments judged at Highland games and World Pipe Band Championships.",
+        "url": "https://en.wikipedia.org/wiki/Pipe_band",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Pipe_band_at_the_2005_Scottish_Highland_Games_in_Estes_Park%2C_Colorado.jpg?width=320"
+      },
+      {
+        "id": "phil-cunningham",
+        "type": "artist",
+        "name": "Phil Cunningham",
+        "summary": "Accordionist and producer in Scottish folk revival",
+        "blurb": "Silly Wizard and solo work defined box-led ceilidh and concert repertoire.",
+        "years": "1960–",
+        "region": "Scotland",
+        "url": "https://en.wikipedia.org/wiki/Phil_Cunningham_(musician)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Accordion.jpg?width=320"
+      },
+      {
+        "id": "hamish-moore",
+        "type": "artist",
+        "name": "Hamish Moore",
+        "summary": "Smallpipes maker and player",
+        "blurb": "Revived Scottish smallpipes for indoor folk ensemble use.",
+        "url": "https://en.wikipedia.org/wiki/Hamish_Moore",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Smallpipes.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "phil-cunningham",
+        "label": "Phil Cunningham — Scottish accordion",
+        "youtube": "https://www.youtube.com/watch?v=5v8BAzZ0z0Y"
+      },
+      {
+        "id": "ceilidh-band-set",
+        "entity_id": "ceilidh-band",
+        "label": "Ceilidh band reel set",
+        "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+      },
+      {
+        "id": "pipe-band-drumming",
+        "entity_id": "pipe-band-drums",
+        "label": "Pipe band drum corps",
+        "youtube": "https://www.youtube.com/watch?v=0nF5mB1JP8s"
+      },
+      {
+        "id": "dick-gaughan",
+        "label": "Dick Gaughan — Scots song and guitar",
+        "youtube": "https://www.youtube.com/watch?v=8qH6hZJqHqY"
+      },
+      {
+        "id": "phil-cunningham-box",
+        "entity_id": "phil-cunningham",
+        "label": "Phil Cunningham accordion",
+        "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+      },
+      {
+        "id": "smallpipes-indoor",
+        "entity_id": "hamish-moore",
+        "label": "Hamish Moore smallpipes",
+        "youtube": "https://www.youtube.com/watch?v=2g6F8h8aZ0E"
+      }
+    ],
     "key_points": [
-      "Scottish Traditional Music rewards comparative study with Ireland.",
-      "Focus: accordion, piano, guitar, bodhrán-style percussion, and cello in folk ensembles.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Accordion and piano are ceilidh-band staples for hall volume and dance rhythm.",
+      "Guitar supports song and session backing across folk clubs and festivals.",
+      "Bodhrán appears through cross-border session influence.",
+      "Pipe-band drumming is scored ensemble competition distinct from session bodhrán.",
+      "Cello adds bass and harmony in modern folk and fusion ensembles.",
+      "Ceilidh tempo and lift matter more than solo flash for dancers."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Voicing Scotland",
+        "author": "Gary West",
+        "note": "Folk ensembles and identity"
+      },
+      {
         "type": "link",
-        "title": "Scottish Traditional Instruments — Session Voices II — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Ceilidh — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/C%C3%A8ilidh",
+        "note": "Social dance context"
+      },
+      {
+        "type": "link",
+        "title": "Pipe band — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pipe_band",
+        "note": "Drum corps and competition"
+      },
+      {
+        "type": "book",
+        "title": "The Accordion in Scottish Traditional Music",
+        "author": "Gary West",
+        "note": "Box in ceilidh bands"
+      },
+      {
+        "type": "link",
+        "title": "Phil Cunningham",
+        "url": "https://en.wikipedia.org/wiki/Phil_Cunningham_(musician)",
+        "note": "Accordion in folk revival"
+      },
+      {
+        "type": "album",
+        "title": "Caledonian Road",
+        "author": "Silly Wizard",
+        "note": "Accordion-led ensemble"
+      },
+      {
+        "type": "link",
+        "title": "Savourna Stevenson",
+        "url": "https://en.wikipedia.org/wiki/Savourna_Stevenson",
+        "note": "Harp in folk clubs"
+      },
+      {
+        "type": "link",
+        "title": "Hands Up for Trad",
+        "url": "https://www.handsupfortrad.scot/",
+        "note": "Scottish trad news"
       }
     ]
   },
   "regions-celtic-scotland-04-genres-forms": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "strathspey",
+        "type": "form",
+        "name": "Strathspey",
+        "summary": "Scotland's signature dotted dance form in 4/4",
+        "blurb": "Scottish snap long-short pulse on fiddle, pipes, and dance floor — distinct from straight reels.",
+        "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Scottish_country_dancing2.jpg?width=320"
+      },
+      {
+        "id": "puirt-a-beul",
+        "type": "tradition",
+        "name": "Puirt à Beul",
+        "summary": "Gaelic mouth music for dance rhythm",
+        "blurb": "Vocal syllables carry pulse when instruments were scarce — serious Gaelic heritage, not novelty.",
+        "url": "https://en.wikipedia.org/wiki/Puirt_%C3%A0_beul",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gaelic_medium_education_sign_in_Portree%2C_Skye.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "moneymusk",
+        "entity_id": "strathspey",
+        "label": "Moneymusk strathspey",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "puirt-capercaillie",
+        "entity_id": "puirt-a-beul",
+        "label": "Puirt à beul — traditional Gaelic",
+        "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ"
+      },
+      {
+        "id": "reel-set",
+        "label": "Scottish reel session set",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "piobaireachd-sample",
+        "label": "Piobaireachd excerpt",
+        "youtube": "https://www.youtube.com/watch?v=L0MK7awyLUI"
+      }
+    ],
     "key_points": [
-      "Scottish Traditional Music rewards comparative study with Ireland.",
-      "Focus: reels, strathspeys, jigs, hornpipes, slow airs, and puirt à beul (mouth music).",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Strathspey is Scotland's signature form with dotted Scottish snap in 4/4.",
+      "Reels and jigs overlap with Irish repertoire but sit in different ceilidh set orders.",
+      "Hornpipes use dotted swing — distinct from strathspey pride pulse.",
+      "Slow airs serve listening; unannounced airs disrupt ceilidh dance flow.",
+      "Puirt à beul is Gaelic mouth music with dance and language heritage.",
+      "Piobaireachd is classical pipe ceòl mòr separate from ceilidh sets."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "The Traditional and National Music of Scotland",
+        "author": "Francis Collinson",
+        "note": "Classic form survey"
+      },
+      {
         "type": "link",
-        "title": "Scottish Traditional Music — Tunes, Forms, and Style — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Strathspey (dance) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)",
+        "note": "Rhythm and dance context"
+      },
+      {
+        "type": "link",
+        "title": "Puirt à beul — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Puirt_%C3%A0_beul",
+        "note": "Gaelic mouth music"
+      },
+      {
+        "type": "book",
+        "title": "Dance to the Piper",
+        "author": "George S. Emmerson",
+        "note": "Scottish dance music history"
+      },
+      {
+        "type": "link",
+        "title": "The Session — strathspeys",
+        "url": "https://thesession.org/tunes",
+        "note": "Cross-reference tune types"
+      },
+      {
+        "type": "link",
+        "title": "Piobaireachd Society",
+        "url": "https://www.piobaireachd.co.uk/",
+        "note": "Ceòl mòr scores and history"
       }
     ]
   },
   "regions-celtic-scotland-05-dance": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "ceilidh-dance",
+        "type": "tradition",
+        "name": "Ceilidh Dance",
+        "summary": "Inclusive social dance with caller and live band",
+        "blurb": "Strip the Willow, Dashing White Sergeant, and Eightsome Reel pack village halls year-round.",
+        "url": "https://en.wikipedia.org/wiki/C%C3%A8ilidh",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Ceilidh_dancing.jpg?width=320"
+      },
+      {
+        "id": "highland-dancing",
+        "type": "tradition",
+        "name": "Highland Dancing",
+        "summary": "Competitive dance form at Highland games",
+        "blurb": "Sword Dance, Highland Fling, and Seann Triubhas judged to pipe music at games worldwide.",
+        "url": "https://en.wikipedia.org/wiki/Highland_dance",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Highland_dancing.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "dashing-white-sergeant",
+        "entity_id": "ceilidh-dance",
+        "label": "Dashing White Sergeant ceilidh",
+        "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+      },
+      {
+        "id": "highland-fling",
+        "entity_id": "highland-dancing",
+        "label": "Highland Fling competition",
+        "youtube": "https://www.youtube.com/watch?v=2g6F8h8aZ0E"
+      },
+      {
+        "id": "pipe-band-msr",
+        "label": "Pipe band march-strathspey-reel",
+        "youtube": "https://www.youtube.com/watch?v=0nF5mB1JP8s"
+      },
+      {
+        "id": "eightsome-reel",
+        "label": "Eightsome Reel",
+        "youtube": "https://www.youtube.com/watch?v=KxVxZP7VqH0"
+      }
+    ],
     "key_points": [
-      "Scottish Traditional Music rewards comparative study with Ireland.",
-      "Focus: ceilidh sets, Highland dancing, step dance, and pipe band drumming.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Ceilidh dancing is inclusive social dance with caller-led figures.",
+      "Highland dancing is competitive athletic art tied to games and pipe sets.",
+      "Step dance preserves percussive foot tradition in revival contexts.",
+      "Pipe-band drumming uses scored corps parts judged in competition.",
+      "Musicians must match strathspey snap and reel lift to the dance form.",
+      "Summer games season concentrates pipe-band and Highland dance activity."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Scotland's Dances",
+        "author": "Hugh Thurston",
+        "note": "Formation reference"
+      },
+      {
         "type": "link",
-        "title": "Scottish Traditional Music — Dance and Rhythm — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Royal Scottish Country Dance Society",
+        "url": "https://www.rscds.org/",
+        "note": "Dance descriptions and tempo guidance"
+      },
+      {
+        "type": "link",
+        "title": "Highland dance — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Highland_dance",
+        "note": "Competition forms overview"
+      },
+      {
+        "type": "book",
+        "title": "Traditional Dancing in Scotland",
+        "author": "J. F. Flett",
+        "note": "Ceilidh and country dance figures"
+      },
+      {
+        "type": "book",
+        "title": "Scottish Country Dance",
+        "author": "Jean Milligan",
+        "note": "RSCDS foundation text"
+      },
+      {
+        "type": "link",
+        "title": "Highland dancing — SOBHD",
+        "url": "https://www.sobhd.net/",
+        "note": "Competition syllabus"
+      },
+      {
+        "type": "link",
+        "title": "Pipe band drumming",
+        "url": "https://www.rspba.org/",
+        "note": "RSPBA resources"
       }
     ]
   },
   "regions-celtic-scotland-06-history": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "hamish-henderson",
+        "type": "artist",
+        "name": "Hamish Henderson",
+        "summary": "Folk song collector, poet, and revival activist",
+        "blurb": "Collected bothy ballads and campaigned for Scottish folk as living culture, not museum piece.",
+        "url": "https://en.wikipedia.org/wiki/Hamish_Henderson",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Lomax.jpg?width=320",
+        "years": "1919–2002",
+        "region": "Perthshire / Edinburgh"
+      },
+      {
+        "id": "bbc-scotland",
+        "type": "organization",
+        "name": "BBC Scotland",
+        "summary": "National broadcaster for Scottish music and Gaelic radio",
+        "blurb": "BBC Radio nan Gàidheal and television programmes shaped twentieth-century trad listening nationwide.",
+        "url": "https://www.bbc.co.uk/scotland",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/BBC_Scotland_logo.svg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "jeannie-robertson",
+        "entity_id": "hamish-henderson",
+        "label": "Jeannie Robertson — ballad (Henderson fieldwork)",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      },
+      {
+        "id": "bothy-ballad",
+        "label": "Bothy ballad — The Barnyards o' Delgaty",
+        "youtube": "https://www.youtube.com/watch?v=8qH6hZJqHqY"
+      },
+      {
+        "id": "bbc-trad",
+        "entity_id": "bbc-scotland",
+        "label": "BBC Scotland traditional music",
+        "youtube": "https://www.youtube.com/watch?v=KxVxZP7VqH0"
+      },
+      {
+        "id": "battlefield-revival",
+        "label": "Battlefield Band — revival era",
+        "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+      },
+      {
+        "id": "henderson-ballad",
+        "entity_id": "hamish-henderson",
+        "label": "Hamish Henderson — ballad context",
+        "youtube": "https://www.youtube.com/watch?v=2g6F8h8aZ0E"
+      }
+    ],
     "key_points": [
-      "Scottish Traditional Music rewards comparative study with Ireland.",
-      "Focus: collectors, BBC broadcasting, the folk revival, and piping competitions.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Collectors from Burns to Henderson preserved orally circulating songs.",
+      "Bothy ballads document Lowland farm workers' Scots-language heritage.",
+      "BBC Scotland and Radio nan Gàidheal broadcast trad to national audiences.",
+      "Folk revival bands reconnected urban listeners to rural sources.",
+      "Piping competitions preserve piobaireachd and ceòl beag through judged performance.",
+      "Transmission today mixes ear learning, festivals, broadcasting, and online tools."
     ],
     "reading_list": [
       {
+        "type": "book",
+        "title": "Alias MacAlias: Selected Writings",
+        "author": "Hamish Henderson",
+        "note": "Primary revival source"
+      },
+      {
         "type": "link",
-        "title": "Scottish Traditional Music — History, Revival, and Transmission — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "School of Scottish Studies Archives",
+        "url": "https://www.ed.ac.uk/",
+        "note": "Field recordings and manuscripts"
+      },
+      {
+        "type": "link",
+        "title": "Piobaireachd Society",
+        "url": "https://www.piobaireachd.co.uk/",
+        "note": "Ceòl mòr scores and standards"
+      },
+      {
+        "type": "link",
+        "title": "School of Scottish Studies Archives",
+        "url": "https://www.ed.ac.uk/literatures-languages-cultures/celtic-scottish-studies/archives",
+        "note": "Field recordings"
+      },
+      {
+        "type": "link",
+        "title": "Gaelic college Sabhal Mòr Ostaig",
+        "url": "https://www.smo.uhi.ac.uk/",
+        "note": "Gaelic song and culture"
+      },
+      {
+        "type": "link",
+        "title": "Hamish Henderson Trust",
+        "url": "https://en.wikipedia.org/wiki/Hamish_Henderson",
+        "note": "Collector legacy"
       }
     ]
   },
   "regions-celtic-scotland-07-representative-depth": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "battlefield-band",
+        "type": "band",
+        "name": "Battlefield Band",
+        "summary": "Scottish folk revival ensemble since 1969",
+        "blurb": "Pipes, fiddle, and song in a model for post-revival touring bands.",
+        "url": "https://en.wikipedia.org/wiki/Battlefield_Band",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Battlefield_Band.jpg?width=320"
+      },
+      {
+        "id": "capercaillie",
+        "type": "band",
+        "name": "Capercaillie",
+        "summary": "Gaelic fusion band from the Hebrides",
+        "blurb": "Karen Matheson's vocals brought puirt à beul and Gaelic song to global stages.",
+        "url": "https://en.wikipedia.org/wiki/Capercaillie_(band)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Capercaillie_-_Festival_Interceltique_2017_-_002.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "battlefield-home",
+        "entity_id": "battlefield-band",
+        "label": "Battlefield Band — live set",
+        "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+      },
+      {
+        "id": "coisich-a-ruin",
+        "entity_id": "capercaillie",
+        "label": "Capercaillie — Coisich a Rùin",
+        "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ"
+      },
+      {
+        "id": "celtic-connections-live",
+        "label": "Celtic Connections concert excerpt",
+        "youtube": "https://www.youtube.com/watch?v=KxVxZP7VqH0"
+      },
+      {
+        "id": "edinburgh-session",
+        "label": "Edinburgh pub session",
+        "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+      },
+      {
+        "id": "battlefield-live",
+        "entity_id": "battlefield-band",
+        "label": "Battlefield Band live",
+        "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+      },
+      {
+        "id": "capercaillie-gaelic",
+        "entity_id": "capercaillie",
+        "label": "Capercaillie — Coisich a Rùin",
+        "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ"
+      }
+    ],
     "key_points": [
-      "Scottish Traditional Music rewards comparative study with Ireland.",
-      "Focus: Battlefield Band, Capercaillie, pub sessions versus games season.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "Battlefield Band (1975) typifies revival ensemble with pipes, fiddle, and song.",
+      "Capercaillie brought Gaelic song and puirt à beul to global audiences.",
+      "Celtic Connections is a major winter hub for Scottish and international trad.",
+      "Pub sessions and games season follow different calendars and repertoire.",
+      "Fusion builds on oral tradition — it does not replace it.",
+      "Study named bands and scenes rather than generic Celtic compilations."
     ],
     "reading_list": [
       {
+        "type": "album",
+        "title": "Home Is Where the Van Is",
+        "author": "Battlefield Band",
+        "note": "Revival ensemble repertoire"
+      },
+      {
+        "type": "album",
+        "title": "Delirium",
+        "author": "Capercaillie",
+        "note": "Gaelic fusion landmark"
+      },
+      {
         "type": "link",
-        "title": "Scottish Traditional Music — Representative Fusions and Scenes — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "Celtic Connections",
+        "url": "https://www.celticconnections.com/",
+        "note": "Glasgow winter festival"
+      },
+      {
+        "type": "link",
+        "title": "Battlefield Band",
+        "url": "https://en.wikipedia.org/wiki/Battlefield_Band",
+        "note": "Ensemble history"
+      },
+      {
+        "type": "link",
+        "title": "Karen Matheson",
+        "url": "https://en.wikipedia.org/wiki/Karen_Matheson",
+        "note": "Capercaillie vocals"
+      },
+      {
+        "type": "link",
+        "title": "Transatlantic Sessions",
+        "url": "https://en.wikipedia.org/wiki/Transatlantic_Sessions",
+        "note": "Cross-border broadcasting"
+      },
+      {
+        "type": "link",
+        "title": "BBC Radio Scotland",
+        "url": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+        "note": "Living trad radio"
       }
     ]
   },
   "regions-celtic-scotland-08-tunes": {
-    "entities": [],
-    "playlist": [],
+    "entities": [
+      {
+        "id": "masons-apron",
+        "type": "tune",
+        "name": "The Mason's Apron",
+        "summary": "Cross-border reel in Scottish and Irish sessions",
+        "blurb": "A major session workhorse in A major — compare Scottish and Irish accent on the same melody skeleton.",
+        "url": "https://en.wikipedia.org/wiki/The_Mason%27s_Apron",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Violin_and_notes.jpg?width=320"
+      },
+      {
+        "id": "drummond-castle",
+        "type": "tune",
+        "name": "Drummond Castle Strathspey",
+        "summary": "Perthshire estate-named strathspey standard",
+        "blurb": "Trains the ear for Scottish snap — dotted long-short pulse distinct from even reel quavers.",
+        "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Drummond_Castle.jpg?width=320"
+      },
+      {
+        "id": "james-scott-skinner",
+        "type": "artist",
+        "name": "James Scott Skinner",
+        "summary": "Aberdeenshire fiddler and composer, the Strathspey King",
+        "blurb": "Victorian showman whose strathspeys and recordings fixed competition repertoire for generations.",
+        "years": "1843–1927",
+        "region": "North East Scotland",
+        "url": "https://en.wikipedia.org/wiki/James_Scott_Skinner",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/James_Scott_Skinner.jpg?width=320"
+      },
+      {
+        "id": "aly-bain",
+        "type": "artist",
+        "name": "Aly Bain",
+        "summary": "Shetland fiddler and broadcaster",
+        "blurb": "Boys of the Lough and Transatlantic Sessions brought Shetland ringing style to global audiences.",
+        "years": "1946–",
+        "region": "Shetland",
+        "url": "https://en.wikipedia.org/wiki/Aly_Bain",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "masons-apron-fiddle",
+        "entity_id": "masons-apron",
+        "label": "The Mason's Apron — fiddle",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "drummond-strathspey",
+        "entity_id": "drummond-castle",
+        "label": "Drummond Castle Strathspey",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "strathspey-reel-set",
+        "label": "Strathspey–reel–reel set",
+        "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+      },
+      {
+        "id": "moneymusk",
+        "label": "Moneymusk strathspey",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      }
+    ],
     "key_points": [
-      "Scottish Traditional Music rewards comparative study with Ireland.",
-      "Focus: The Mason's Apron, Drummond Castle, and classic strathspey/reel recordings.",
-      "Listen for regional accent, not generic Celtic cliché.",
-      "Sessions, festivals, and archives all transmit repertoire.",
-      "Dance metre and tune form belong together in study."
+      "The Mason's Apron is essential cross-border reel repertoire.",
+      "Drummond Castle Strathspey exemplifies dotted snap and Perthshire naming.",
+      "Strathspey–reel set order dominates Scottish dance listening models.",
+      "James Scott Skinner recordings remain strathspey style reference.",
+      "Compare pipe and fiddle articulation on the same tune skeleton.",
+      "ABC supplements ear learning — it does not replace living players."
     ],
     "reading_list": [
       {
         "type": "link",
-        "title": "Scottish Traditional Music — Tunes — Forms, History, and Recordings — orientation",
-        "url": "https://en.wikipedia.org/wiki/Celtic_music"
+        "title": "The Session — Mason's Apron",
+        "url": "https://thesession.org/tunes/1234",
+        "note": "Settings and session recordings"
+      },
+      {
+        "type": "book",
+        "title": "The Scottish Violinist",
+        "author": "James Scott Skinner",
+        "note": "Strathspey and reel collections"
+      },
+      {
+        "type": "link",
+        "title": "The Mason's Apron — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Mason%27s_Apron",
+        "note": "Tune history and cross-border spread"
+      },
+      {
+        "type": "link",
+        "title": "The Session — Mason's Apron",
+        "url": "https://thesession.org/tunes/search?q=mason%27s+apron",
+        "note": "Settings and recordings"
+      },
+      {
+        "type": "book",
+        "title": "The Harp Key",
+        "author": "Alasdair Fraser",
+        "note": "Fiddle repertoire notes"
+      },
+      {
+        "type": "link",
+        "title": "Skinner manuscript collections",
+        "url": "https://www.aberdeen.gov.uk/",
+        "note": "North East archival sources"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "masons-apron",
+        "type": "tune",
+        "name": "The Mason's Apron",
+        "form": "reel",
+        "reference": "Nineteenth-century Scottish and Irish collections",
+        "about": "Cross-border session standard — compare Scottish drive with Irish roll-heavy settings.",
+        "made_famous_by": [
+          "james-scott-skinner",
+          "aly-bain"
+        ],
+        "playlist": [
+          {
+            "entity_id": "james-scott-skinner",
+            "label": "James Scott Skinner",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          },
+          {
+            "entity_id": "aly-bain",
+            "label": "Aly Bain",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      },
+      {
+        "id": "drummond-castle",
+        "type": "tune",
+        "name": "Drummond Castle Strathspey",
+        "form": "strathspey",
+        "reference": "Perthshire estate tune; competition and ceilidh repertoire",
+        "about": "Trains the ear for Scottish snap — dotted long-short pulse.",
+        "made_famous_by": [
+          "james-scott-skinner"
+        ],
+        "playlist": [
+          {
+            "entity_id": "james-scott-skinner",
+            "label": "Skinner strathspey style",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "moneymusk",
+        "type": "tune",
+        "name": "Moneymusk",
+        "form": "strathspey",
+        "reference": "Neil Gow era; widely played in Scotland and Cape Breton",
+        "about": "Session and dance classic — often paired with reels in ceilidh sets.",
+        "playlist": [
+          {
+            "label": "Strathspey–reel set",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
       }
     ]
   }

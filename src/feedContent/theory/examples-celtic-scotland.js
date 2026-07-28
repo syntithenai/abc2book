@@ -26,24 +26,64 @@ const EXAMPLES = {
     "illustrationPlan": "Scotland trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-scotland-regions-celtic-scotland-01-overview-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Scotland trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-scotland-regions-celtic-scotland-01-overview-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-01-overview-sec-2-compared-with-ireland": {
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-2-highland-lowland-and-the-islands": {
+    "kind": "none",
+    "illustrationPlan": "Highland, Lowland, and the islands — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-3-ceilidh-versus-session": {
+    "kind": "none",
+    "illustrationPlan": "Ceilidh versus session — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-4-pipe-bands-and-public-stages": {
+    "kind": "none",
+    "illustrationPlan": "Pipe bands and public stages — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-5-gaelic-and-scots-song": {
+    "kind": "none",
+    "illustrationPlan": "Gaelic and Scots song — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-6-tune-types-a-field-guide": {
+    "kind": "none",
+    "illustrationPlan": "Tune types: a field guide — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-7-social-settings-where-music-happens": {
+    "kind": "none",
+    "illustrationPlan": "Social settings: where music happens — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-8-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-01-overview-sec-3-core-material": {
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-9-how-this-unit-is-organised": {
     "kind": "none",
-    "illustrationPlan": "Core material — listen for regional style, session context, and tune form.",
+    "illustrationPlan": "How this unit is organised — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-01-overview-sec-5-key-points": {
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-10-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-01-overview-sec-11-reading-list": {
+    "kind": "none",
+    "illustrationPlan": "Reading list — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
   "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-1": {
@@ -71,17 +111,57 @@ const EXAMPLES = {
     "illustrationPlan": "Scotland trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Scotland trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-2-compared-with-ireland": {
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-2-session-roles-overlap": {
+    "kind": "none",
+    "illustrationPlan": "Session roles overlap — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-4-regional-schools-shetland-and-north-east": {
+    "kind": "none",
+    "illustrationPlan": "Regional schools: Shetland and North East",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-5-famous-players-and-memorable-details": {
+    "kind": "none",
+    "illustrationPlan": "Famous players and memorable details — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-8-pipe-bands-and-solo-competition": {
+    "kind": "none",
+    "illustrationPlan": "Pipe bands and solo competition — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-9-scottish-smallpipes": {
+    "kind": "none",
+    "illustrationPlan": "Scottish smallpipes — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-10-tin-whistle": {
+    "kind": "none",
+    "illustrationPlan": "Tin whistle — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-11-clàrsach-scottish-harp": {
+    "kind": "none",
+    "illustrationPlan": "Clàrsach (Scottish harp) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-12-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-5-key-points": {
+  "celtic-scotland-regions-celtic-scotland-02-instruments-voices-i-sec-13-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -111,17 +191,47 @@ const EXAMPLES = {
     "illustrationPlan": "Scotland trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Scotland trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-2-compared-with-ireland": {
+  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-2-accordion-in-ceilidh-bands": {
+    "kind": "none",
+    "illustrationPlan": "Accordion in ceilidh bands — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-3-piano": {
+    "kind": "none",
+    "illustrationPlan": "Piano — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-4-guitar": {
+    "kind": "none",
+    "illustrationPlan": "Guitar — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-5-bodhrán-and-percussion": {
+    "kind": "none",
+    "illustrationPlan": "Bodhrán and percussion — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-6-cello-in-folk-scenes": {
+    "kind": "none",
+    "illustrationPlan": "Cello in folk scenes — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-9-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-5-key-points": {
+  "celtic-scotland-regions-celtic-scotland-03-instruments-voices-ii-sec-10-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -151,17 +261,52 @@ const EXAMPLES = {
     "illustrationPlan": "Scotland trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-scotland-regions-celtic-scotland-04-genres-forms-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Scotland trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-2-compared-with-ireland": {
+  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-2-reels": {
+    "kind": "none",
+    "illustrationPlan": "Reels — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-3-strathspeys": {
+    "kind": "none",
+    "illustrationPlan": "Strathspeys — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-5-jigs": {
+    "kind": "none",
+    "illustrationPlan": "Jigs — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-6-hornpipes": {
+    "kind": "none",
+    "illustrationPlan": "Hornpipes — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-7-slow-airs": {
+    "kind": "none",
+    "illustrationPlan": "Slow airs — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-8-puirt-à-beul": {
+    "kind": "none",
+    "illustrationPlan": "Puirt à beul — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-11-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-5-key-points": {
+  "celtic-scotland-regions-celtic-scotland-04-genres-forms-sec-12-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -191,17 +336,42 @@ const EXAMPLES = {
     "illustrationPlan": "Scotland trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-05-dance-sec-1-overview": {
+  "celtic-scotland-regions-celtic-scotland-05-dance-kp-6": {
     "kind": "none",
-    "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
+    "illustrationPlan": "Scotland trad: key ideas (6) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-05-dance-sec-2-compared-with-ireland": {
+  "celtic-scotland-regions-celtic-scotland-05-dance-sec-2-ceilidh-dancing": {
+    "kind": "none",
+    "illustrationPlan": "Ceilidh dancing — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-05-dance-sec-4-highland-dancing": {
+    "kind": "none",
+    "illustrationPlan": "Highland dancing — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-05-dance-sec-5-step-dance": {
+    "kind": "none",
+    "illustrationPlan": "Step dance — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-05-dance-sec-6-pipe-band-drumming": {
+    "kind": "none",
+    "illustrationPlan": "Pipe band drumming — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-05-dance-sec-7-rhythm-summary-table": {
+    "kind": "none",
+    "illustrationPlan": "Rhythm summary table — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-05-dance-sec-8-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-05-dance-sec-5-key-points": {
+  "celtic-scotland-regions-celtic-scotland-05-dance-sec-9-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -231,17 +401,47 @@ const EXAMPLES = {
     "illustrationPlan": "Scotland trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-scotland-regions-celtic-scotland-06-history-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Scotland trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-scotland-regions-celtic-scotland-06-history-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-06-history-sec-2-compared-with-ireland": {
+  "celtic-scotland-regions-celtic-scotland-06-history-sec-2-collectors-and-early-documentation": {
+    "kind": "none",
+    "illustrationPlan": "Collectors and early documentation — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-06-history-sec-3-bbc-and-national-broadcasting": {
+    "kind": "none",
+    "illustrationPlan": "BBC and national broadcasting — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-06-history-sec-4-folk-revival": {
+    "kind": "none",
+    "illustrationPlan": "Folk revival — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-06-history-sec-5-piping-competitions-and-games": {
+    "kind": "none",
+    "illustrationPlan": "Piping competitions and games — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-06-history-sec-6-transmission-today": {
+    "kind": "none",
+    "illustrationPlan": "Transmission today — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-06-history-sec-7-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-06-history-sec-5-key-points": {
+  "celtic-scotland-regions-celtic-scotland-06-history-sec-8-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -271,17 +471,42 @@ const EXAMPLES = {
     "illustrationPlan": "Scotland trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-scotland-regions-celtic-scotland-07-representative-depth-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Scotland trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-2-compared-with-ireland": {
+  "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-2-battlefield-band": {
+    "kind": "none",
+    "illustrationPlan": "Battlefield Band — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-3-capercaillie-and-gaelic-fusion": {
+    "kind": "none",
+    "illustrationPlan": "Capercaillie and Gaelic fusion — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-4-other-scenes-brief-map": {
+    "kind": "none",
+    "illustrationPlan": "Other scenes (brief map) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-5-pub-session-versus-games-season": {
+    "kind": "none",
+    "illustrationPlan": "Pub session versus games season — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-7-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-5-key-points": {
+  "celtic-scotland-regions-celtic-scotland-07-representative-depth-sec-8-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -311,19 +536,54 @@ const EXAMPLES = {
     "illustrationPlan": "Scotland trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-08-tunes-sec-1-overview": {
+  "celtic-scotland-regions-celtic-scotland-08-tunes-kp-6": {
     "kind": "none",
-    "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
+    "illustrationPlan": "Scotland trad: key ideas (6) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-08-tunes-sec-2-compared-with-ireland": {
+  "celtic-scotland-regions-celtic-scotland-08-tunes-sec-2-the-masons-apron": {
+    "kind": "none",
+    "illustrationPlan": "The Mason's Apron — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-08-tunes-sec-4-drummond-castle-strathspey": {
+    "kind": "none",
+    "illustrationPlan": "Drummond Castle strathspey — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-08-tunes-sec-6-other-standards-orientation": {
+    "kind": "none",
+    "illustrationPlan": "Other standards (orientation) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-08-tunes-sec-7-recording-history": {
+    "kind": "none",
+    "illustrationPlan": "Recording history — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-08-tunes-sec-9-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-scotland-regions-celtic-scotland-08-tunes-sec-5-key-points": {
+  "celtic-scotland-regions-celtic-scotland-08-tunes-sec-10-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-08-tunes-tune-masons-apron": {
+    "kind": "none",
+    "illustrationPlan": "Scotland trad: The Mason's Apron — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-08-tunes-tune-drummond-castle": {
+    "kind": "none",
+    "illustrationPlan": "Scotland trad: Drummond Castle Strathspey",
+    "imageUrl": ""
+  },
+  "celtic-scotland-regions-celtic-scotland-08-tunes-tune-moneymusk": {
+    "kind": "none",
+    "illustrationPlan": "Scotland trad: Moneymusk — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   }
 }

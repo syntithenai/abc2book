@@ -17,8 +17,20 @@ import {
 } from '../musicGenerationClient';
 import { createAttachedAudioLink } from '../linkRecording';
 import useMediaResolverHealth from '../useMediaResolverHealth';
+import useAbcjsParser from '../useAbcjsParser';
 import { getPracticeTrackAccess, getPracticeTrackGenerateLabel } from '../practiceTrackAccess';
 import { resolveResolverAccessToken } from '../resolverAccessToken';
+import { extractChordsPerBar, renderChordLayerWav } from '../practiceTrackChordLayer';
+import {
+  buildPracticeTrackMidiScore,
+  downloadMidiScore,
+  midiScoreToBlob,
+} from '../practiceTrackMidiScore';
+import {
+  DEFAULT_RENDER_STYLE,
+  getStylePreset,
+  listStylePresetOptions,
+} from '../practiceTrackStylePresets';
 
 function formatSeconds(value) {
   const sec = Math.max(0, parseFloat(value) || 0);
@@ -32,6 +44,7 @@ export default function PracticeTrackGenerator(props) {
   const login = props.login;
   const onTuneChange = props.onTuneChange;
 
+  const abcjsParser = useAbcjsParser({ tunebook: tunebook });
   const { available, checked, status, features, refreshMediaResolverHealth } = useMediaResolverHealth();
   const access = useMemo(function() {
     return getPracticeTrackAccess({
@@ -60,11 +73,21 @@ export default function PracticeTrackGenerator(props) {
   const [statusMessage, setStatusMessage] = useState('');
   const [error, setError] = useState('');
   const [backingPrompt, setBackingPrompt] = useState('');
+  const [renderStyle, setRenderStyle] = useState(DEFAULT_RENDER_STYLE);
+  const [melodySource, setMelodySource] = useState('notation_midi');
+  const [includeDrumGuide, setIncludeDrumGuide] = useState(true);
   const [ackBarEstimate, setAckBarEstimate] = useState(false);
   const [validation, setValidation] = useState(null);
   const [melodyBlob, setMelodyBlob] = useState(null);
+  const [chordsBlob, setChordsBlob] = useState(null);
+  const [scoreMidiBytes, setScoreMidiBytes] = useState(null);
+  const [includeChordLayer, setIncludeChordLayer] = useState(false);
   const [pendingGenerate, setPendingGenerate] = useState(false);
   const [pendingRegenerateBacking, setPendingRegenerateBacking] = useState(false);
+
+  const styleOptions = useMemo(function() {
+    return listStylePresetOptions();
+  }, []);
 
   const abc = useMemo(function() {
     if (!tune || !tunebook || !tunebook.abcTools) return '';
@@ -76,16 +99,23 @@ export default function PracticeTrackGenerator(props) {
     try {
       return buildTimingSongPlan(tune, abc, {
         abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
+        abcjsParser: abcjsParser,
+        tunebook: tunebook,
         forPracticeTrack: true,
       });
     } catch (err) {
       return null;
     }
-  }, [tune, abc, tunebook]);
+  }, [tune, abc, tunebook, abcjsParser]);
 
   useEffect(function() {
     if (plan && plan.backingPrompt) {
       setBackingPrompt(plan.backingPrompt);
+    }
+    if (plan) {
+      setIncludeChordLayer(false);
+      setRenderStyle(plan.renderStyle || DEFAULT_RENDER_STYLE);
+      setIncludeDrumGuide(plan.includeDrumGuide !== false);
     }
   }, [plan]);
 
@@ -93,6 +123,8 @@ export default function PracticeTrackGenerator(props) {
     setError('');
     setValidation(null);
     setMelodyBlob(null);
+    setChordsBlob(null);
+    setScoreMidiBytes(null);
     setAckBarEstimate(false);
     setShowModal(true);
   }, []);
@@ -115,44 +147,83 @@ export default function PracticeTrackGenerator(props) {
     setBusy(true);
     setError('');
     setProgress(5);
-    setStatusMessage('Rendering melody…');
+    setStatusMessage('Building MIDI score…');
 
     try {
       let melody = melodyBlob;
+      let chords = chordsBlob;
+      let scoreBytes = scoreMidiBytes;
       let activePlan = plan;
       if (!regenerateBackingOnly || !melody) {
-        const buffer = await renderAbcToAudioBuffer(abc, { chordsOff: true });
+        setStatusMessage('Building canonical MIDI score…');
+        const midiScore = buildPracticeTrackMidiScore(tune, tunebook, plan);
+        scoreBytes = midiScore.midiBytes;
+        setScoreMidiBytes(scoreBytes);
+
+        setStatusMessage('Rendering melody from notation…');
+        const melodyAbc = melodySource === 'notation_midi'
+          ? midiScore.abc
+          : abc;
+        const buffer = await renderAbcToAudioBuffer(melodyAbc, {
+          chordsOff: melodySource !== 'notation_midi',
+          tune: tune,
+        });
         melody = encodeAudioBufferToWav(buffer);
         setMelodyBlob(melody);
         activePlan = refineTimingFromMelodyDuration(plan, buffer.duration);
+
+        if (includeChordLayer && plan.includeChordLayer) {
+          setStatusMessage('Rendering chord layer…');
+          const chordsPerBar = extractChordsPerBar(tune, tunebook, abcjsParser);
+          if (chordsPerBar.length) {
+            chords = await renderChordLayerWav(tune, chordsPerBar);
+            setChordsBlob(chords);
+          } else {
+            chords = null;
+            setChordsBlob(null);
+          }
+        } else {
+          chords = null;
+          setChordsBlob(null);
+        }
       }
 
       setProgress(15);
-      setStatusMessage('Starting AI backing…');
+      setStatusMessage('Starting AI arrangement…');
+      const stylePreset = getStylePreset(renderStyle);
       const payload = buildPracticeTrackRequestPayload(activePlan, {
-        backingPrompt: backingPrompt,
+        backingPrompt: renderStyle === 'custom' ? backingPrompt : undefined,
+        renderStyle: renderStyle,
+        melodySource: melodySource,
+        includeChordLayer: includeChordLayer && !!chords,
+        includeDrumGuide: includeDrumGuide && stylePreset.includeDrumGuideDefault,
         acknowledgeBarEstimate: activePlan.timing.source !== 'bar-estimate',
       });
       const started = await startPracticeTrackGeneration(payload, melody, {
         token: token,
+        chordsBlob: includeChordLayer ? chords : null,
+        scoreBlob: scoreBytes ? midiScoreToBlob(scoreBytes) : null,
       });
 
       setProgress(25);
-      setStatusMessage('Generating backing…');
+      setStatusMessage('Generating styled backing…');
       const job = await waitForPracticeTrackJob(started.jobId, {
         token: token,
         intervalMs: 1200,
-        onProgress: function(status) {
-          if (status && typeof status.progress === 'number') {
-            setProgress(Math.max(25, Math.min(90, status.progress)));
+        onProgress: function(jobStatus) {
+          if (jobStatus && typeof jobStatus.progress === 'number') {
+            setProgress(Math.max(25, Math.min(90, jobStatus.progress)));
           }
-          if (status && status.message) {
-            setStatusMessage(status.message);
+          if (jobStatus && jobStatus.message) {
+            setStatusMessage(jobStatus.message);
           }
         },
       });
 
-      setValidation(job.validation || null);
+      setValidation(Object.assign({}, job.validation || {}, {
+        mix: job.mix || null,
+        stems: job.stems || null,
+      }));
       setProgress(95);
       setStatusMessage('Downloading mix…');
       const audioBlob = await downloadPracticeTrackAudio(job.audioUrl, {
@@ -165,7 +236,7 @@ export default function PracticeTrackGenerator(props) {
       });
       const linkResult = await createAttachedAudioLink({
         file: file,
-        title: (tune.name || 'Practice track') + ' (AI backing)',
+        title: (tune.name || 'Practice track') + ' (AI arrangement)',
         tune: tune,
         token: token,
         uploadToDrive: false,
@@ -191,6 +262,14 @@ export default function PracticeTrackGenerator(props) {
     plan,
     ackBarEstimate,
     melodyBlob,
+    chordsBlob,
+    scoreMidiBytes,
+    includeChordLayer,
+    includeDrumGuide,
+    melodySource,
+    renderStyle,
+    abcjsParser,
+    tunebook,
     backingPrompt,
     token,
     tune,
@@ -238,6 +317,15 @@ export default function PracticeTrackGenerator(props) {
     runGeneration(regenerateBackingOnly);
   }, [access.needsLogin, requestLoginForGeneration, runGeneration]);
 
+  const handleDownloadScore = useCallback(function() {
+    try {
+      const bytes = scoreMidiBytes || buildPracticeTrackMidiScore(tune, tunebook, plan).midiBytes;
+      downloadMidiScore(bytes, (tune && tune.name ? tune.name : 'score') + '.mid');
+    } catch (err) {
+      setError(err && err.message ? err.message : 'Could not export MIDI score.');
+    }
+  }, [scoreMidiBytes, tune, tunebook, plan]);
+
   if (!access.showButton || !tune || !abc) return null;
 
   return (
@@ -246,7 +334,7 @@ export default function PracticeTrackGenerator(props) {
         variant="outline-primary"
         style={{ marginLeft: '0.5em' }}
         onClick={openModal}
-        title="Generate timing-accurate practice track (notation melody + AI backing)"
+        title="Practice track: notation MIDI guides a styled AI full-band render"
       >
         Practice track
       </Button>
@@ -259,9 +347,12 @@ export default function PracticeTrackGenerator(props) {
           {plan ? (
             <>
               <p>
-                Melody from notation (exact timing) + AI rhythm backing at{' '}
-                <strong>{formatSeconds(plan.timing.totalDurationSec)}</strong>
-                {' '}({Math.round(plan.timing.tempoBpm)} BPM, {plan.timing.source} timing).
+                Your tune is played accurately on the <strong>style lead instrument</strong> (from notation MIDI via FluidSynth).
+                AI generates <strong>accompaniment only</strong> — no piano fill, no invented lead melody.
+              </p>
+              <p className="mb-2">
+                Length <strong>{formatSeconds(plan.timing.totalDurationSec)}</strong>
+                {' '}at {Math.round(plan.timing.tempoBpm)} BPM ({plan.timing.source} timing).
               </p>
               {plan.structureErrors && plan.structureErrors.length > 0 && (
                 <Alert variant="danger">
@@ -287,15 +378,75 @@ export default function PracticeTrackGenerator(props) {
                 />
               )}
               <Form.Group className="mb-3">
-                <Form.Label>Backing prompt</Form.Label>
-                <Form.Control
-                  as="textarea"
-                  rows={3}
-                  value={backingPrompt}
-                  onChange={function(e) { setBackingPrompt(e.target.value); }}
+                <Form.Label>Style</Form.Label>
+                <Form.Select
+                  value={renderStyle}
+                  onChange={function(e) { setRenderStyle(e.target.value); }}
+                  disabled={busy}
+                >
+                  {styleOptions.map(function(option) {
+                    return (
+                      <option key={option.id} value={option.id}>
+                        {option.label}
+                      </option>
+                    );
+                  })}
+                </Form.Select>
+                <Form.Text muted>
+                  {getStylePreset(renderStyle).description}
+                </Form.Text>
+              </Form.Group>
+              <Form.Group className="mb-3">
+                <Form.Label>Melody source</Form.Label>
+                <Form.Select
+                  value={melodySource}
+                  onChange={function(e) { setMelodySource(e.target.value); }}
+                  disabled={busy}
+                >
+                  <option value="notation_midi">Notation MIDI (default)</option>
+                  <option value="soundfont">Legacy soundfont (melody only)</option>
+                </Form.Select>
+              </Form.Group>
+              {false && plan.includeChordLayer && (
+                <Form.Check
+                  type="checkbox"
+                  className="mb-2"
+                  label="Include chord layer from the tune chart"
+                  checked={includeChordLayer}
+                  onChange={function(e) { setIncludeChordLayer(e.target.checked); }}
                   disabled={busy}
                 />
-              </Form.Group>
+              )}
+              <Form.Check
+                type="checkbox"
+                className="mb-3"
+                label="Include beat-locked MIDI drum guide (recommended)"
+                checked={includeDrumGuide}
+                onChange={function(e) { setIncludeDrumGuide(e.target.checked); }}
+                disabled={busy}
+              />
+              {renderStyle === 'custom' && (
+                <Form.Group className="mb-3">
+                  <Form.Label>Custom backing prompt</Form.Label>
+                  <Form.Control
+                    as="textarea"
+                    rows={3}
+                    value={backingPrompt}
+                    onChange={function(e) { setBackingPrompt(e.target.value); }}
+                    disabled={busy}
+                  />
+                </Form.Group>
+              )}
+              <div className="mb-3">
+                <Button
+                  variant="outline-secondary"
+                  size="sm"
+                  disabled={busy}
+                  onClick={handleDownloadScore}
+                >
+                  Download score.mid
+                </Button>
+              </div>
               <div style={{ fontSize: '0.9em', color: '#666' }}>
                 Strains: {plan.structure.map(function(section) {
                   return section.strainLabel + ' (' + formatSeconds(section.durationSec) + ')';
@@ -306,6 +457,24 @@ export default function PracticeTrackGenerator(props) {
                   {validation.stretchNotes && validation.stretchNotes.length > 0
                     ? validation.stretchNotes.join('; ')
                     : 'Timing validation complete.'}
+                  {validation.sectional ? ' Sectional backing stitched.' : ''}
+                  {validation.loopDurationSec
+                    ? (' Loop tile ~' + formatSeconds(validation.loopDurationSec) + '.')
+                    : ''}
+                  {validation.styleMelodyStem || (validation.stems && validation.stems.styleMelodyStem)
+                    ? ' Style lead from notation MIDI.'
+                    : ' AI accompaniment only (FluidSynth melody stem unavailable).'}
+                  {validation.mix && validation.mix.chordLayer ? ' Chord layer included.' : ''}
+                  {validation.mix && validation.mix.drumGuide ? ' Drum guide included.' : ''}
+                  {validation.stems ? (
+                    <div className="mt-1">
+                      Stems: {validation.stems.arrangement ? 'AI arrangement' : 'backing'}
+                      {validation.stems.melody ? ', notation melody' : ''}
+                      {validation.stems.chords ? ', chords' : ''}
+                      {validation.stems.drumGuide ? ', drum guide' : ''}
+                      {validation.stems.scoreMid ? ', score.mid (guide)' : ''}
+                    </div>
+                  ) : null}
                 </Alert>
               )}
             </>

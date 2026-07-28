@@ -6,139 +6,154 @@ region: scotland
 tier: 4.5
 difficulty: 6
 prerequisites: ["regions-celtic-scotland-07-representative-depth"]
+sources: ["The Mason's Apron", "Drummond Castle", "Scottish fiddle", "Strathspey", "James Scott Skinner", "Music of Scotland"]
 status: manual
-sources: ["Celtic music", "Music of Scotland"]
 ---
 
 # Scottish Traditional Music — Tunes — Forms, History, and Recordings
 
-**Track:** Celtic Music | **Region:** scotland | **Tier:** 4.5
+**Track:** regions | **Tier:** 4.5 | **Difficulty:** 6/10
 **Prerequisites:** regions-celtic-scotland-07-representative-depth
+**Tags:** scotland, tunes, masons-apron, drummond-castle, strathspey, reel, recordings
 
 ## Overview
 
-Scottish traditional music spans Highland and Lowland streams: fiddle dance music, Highland bagpipes, Gaelic song, Scots song, and the social world of ceilidhs and folk clubs. Sessions exist in pubs and festivals, but pipe band competitions and Highland games remain uniquely visible public stages.
+Tunes are where tradition becomes concrete — a melody you can hum, bow, or pipe after midnight. This lesson centres two widely played standards — **The Mason's Apron** and **The Drummond Castle Strathspey** — and uses them to study **strathspey–reel** recording history, cross-border repertoire, and how to listen for **Scottish snap** versus Irish reel roll.
 
-This lesson focuses on **The Mason's Apron, Drummond Castle, and classic strathspey/reel recordings** within scottish traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.
+## The Mason's Apron
+
+**The Mason's Apron** is a **reel** in A major (often played in G or A depending on instrument) shared across **Scottish**, **Irish**, and **North American** sessions. The title references **freemasonry** apron imagery; the tune predates modern session culture and appears in nineteenth-century collections on both sides of the Irish Sea.
+
+Scottish recordings emphasise **driving reel** pulse — fiddle bowing with **cut** and **roll** ornament, pipes articulating **g gracenotes** in ceòl beag sets. Irish sessions treat the same melody as a session workhorse — compare **Donegal** and **Aberdeen** versions for accent, not notes alone.
+
+
+Use **Play all** at the top of the tune panel to hear curated examples, or tap ▶ beside each player row. Compare at least two settings before treating one as "the" version.
+
+[[entity:masons-apron]] belongs in every Scottish learner's ear-training list: if you can spot it by the first two bars in a ceilidh medley, you understand cross-border repertoire flow.
+
+### Listening approach
+
+1. Identify **key** and **form** (reel, 4/4).
+2. Note **ornament density** — North East fiddle fire versus Shetland clarity.
+3. Compare **pipe** and **fiddle** versions — same skeleton, different articulation.
+4. Sit with **session tempo** — danceable, not race-track.
+
+![Fiddle and sheet music](https://en.wikipedia.org/wiki/Special:FilePath/Violin_and_notes.jpg?width=640)
+
+## Drummond Castle strathspey
+
+**The Drummond Castle Strathspey** honours **Drummond Castle** in Perthshire — a seat of the Drummond family and a symbol of Highland–Lowland estate culture. As a **strathspey**, it demands **dotted snap** bowing or piping — long-short figures that feel regal rather than reel-flat.
+
+**James Scott Skinner** recorded and composed strathspey repertoire that defines competition and ceilidh standards; Drummond Castle sits in the **Perthshire** geographic imagination alongside other estate-named tunes. Strathspey sets often precede reels in dance programmes — Drummond Castle might pair with reel counterparts in a **Scottish country dance** band book.
+
+[[entity:drummond-castle]] trains the ear for **snap** — if your foot taps even quavers, you are treating it as a reel incorrectly.
+
+### Strathspey–reel sets in recordings
+
+Classic Scottish albums chain **strathspey–reel–reel** — Drummond Castle or *Moneymusk* into reels like *Mason's Apron* or *Highland Harry*. **Battlefield Band**, **Aly Bain**, and **competition pipers** offer contrasting models:
+
+- **Competition pipe** — precise MSR (march, strathspey, reel) separation.
+- **Ceilidh band** — tempo for dancers, fewer repeats.
+- **Session** — informal order, keys negotiated by ear.
+
+## Other standards (orientation)
+
+| Tune | Form | Note |
+|------|------|------|
+| *Moneymusk* | Strathspey | Session and dance classic |
+| *Captain Horne* | Strathspey | Pipe and fiddle competition |
+| *Highland Harry* | Reel | Ceilidh favourite |
+| *Hector the Hero* | Slow air | Skinner composition |
+| *Scotland the Brave* | March | Ceremonial pipe band |
+
+Build a **listening notebook**: tune name, form, key, player, region, one detail (snap, roll, pipe gracenote).
+
+## Recording history
+
+**78 rpm** and early **LP** transfers fixed regional accents — Skinner's Victorian recordings, twentieth-century **pipe band** discs, **Shetland** fiddle reissues. **BBC** broadcasts and **Celtic Connections** live albums document contemporary players.
+
+**ABC notation** and websites like **The Session** host settings — supplements to ear learning, not substitutes. When a tune crosses to Ireland, **name variants** and **part orders** multiply; trust living players over one printed edition.
+
+## Learning practice
+
+1. Learn **one strathspey** and **one reel** thoroughly — both parts, dance tempo, basic ornament.
+2. Record yourself and compare to **Skinner** or **Bain** models.
+3. Attend a **ceilidh** and count how many sets use strathspey–reel order.
+4. Cross-reference Ireland unit tune lesson — *Mason's Apron* may appear in Irish lists too.
 
 ## Compared with Ireland
 
-If you completed the Ireland unit, you already know session etiquette, jig/reel vocabulary, and how revival institutions shape modern trad. Scottish music shares that Gaelic-and-diaspora family resemblance but emphasises strathspeys, pipe bands, bothy ballads, and ceilidh dance culture.
+Parallel Ireland tune study appears across `regions-celtic-ireland-04-genres-forms` and session repertoire. **The Mason's Apron** is explicit cross-border proof — same tune, different accent. Ireland lacks **Drummond Castle** strathspey centrality; Scotland lacks Irish **polka** session clusters.
 
-**Parallel Ireland lesson:** `regions-celtic-ireland-08-tunes` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.
-
-## Core material
-
-The mason's apron, drummond castle, and classic strathspey/reel recordings in scotland trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic "Celtic" compilations when possible.
-
-### Listening and study habits
-
-1. Identify one field recording and one modern ensemble track mentioned or implied in this lesson's topic.
-2. Note the metre and dance association of at least two tune types discussed.
-3. Compare session or social-dance etiquette with what you learned from Irish trad.
-4. Follow the unit playlist entries in lesson metadata when available.
+When Irish players visit Scottish sessions, strathspey **snap** is the adjustment hurdle; when Scots visit Dublin, **jig** session speed is the hurdle. Tune lessons are **practical diplomacy** — shared repertoire, respectful accent.
 
 ## Key points
 
-- Scottish Traditional Music is a living tradition with regional accents, not a museum exhibit.
-- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.
-- The mason's apron, drummond castle, and classic strathspey/reel recordings connects to dance, song, and community context—not isolated technique only.
-- Revival institutions, broadcasting, and festivals shape what learners hear today.
-- Use comparative study to hear specificity; avoid flattening everything under "Celtic" marketing.
+- **The Mason's Apron** is a cross-border reel essential to Scottish and Irish session repertoire.
+- **Drummond Castle Strathspey** exemplifies dotted strathspey snap and Perthshire estate tune naming.
+- **Strathspey–reel** set order dominates Scottish dance and pipe-band listening models.
+- **James Scott Skinner** recordings remain reference for strathspey style and composition.
+- Compare recordings for **ornament** and **tempo**, not tune names alone.
+- ABC and tune books supplement — they do not replace — ear learning from players.
 
 ## Reading list
 
-- Regional folk archive or national library listening guides (see lesson metadata links when present).
-- Companion to Irish unit readings for cross-border context (Fintan Vallely, *Companion to Irish Traditional Music*).
-- Wikipedia articles on Music of Scotland as orientation, verified against recordings.
+- **The Session** — [thesession.org](https://thesession.org/tunes) for *Mason's Apron* settings and recordings.
+- **James Scott Skinner** — reissued recordings and *The Scottish Violinist* collection.
+- **Greentrax** compilations — regional fiddle and pipe anthologies.
+- **Wikipedia** — [The Mason's Apron (tune)](https://en.wikipedia.org/wiki/The_Mason%27s_Apron), [Strathspey](https://en.wikipedia.org/wiki/Strathspey_(dance)).
 
 ## Quiz Questions
 
-### Q1. Which description best fits the main social context emphasised in this lesson?
-- A) Concerto competitions only
-- B) Community dance and oral transmission
-- C) Strictly classical conservatory exams
-- D) Electronic dance clubs only
-**Answer:** B) Community dance and oral transmission
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+### Q1. The Mason's Apron is typically played as:
 
-### Q2. This tradition is identical to Irish traditional music in repertoire and social context.
-- A) True
-- B) False
-**Answer:** B) False
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+- A) A reel shared across Scottish and Irish session repertoire
+- B) A 9/8 slip jig exclusively
+- C) A piobaireachd theme with variations only
+- D) A free-rhythm lament without pulse
 
-### Q3. Compared with Ireland, this unit stresses which additional emphasis?
-- A) No differences whatsoever
-- B) See Compared with Ireland section
-- C) Only classical opera
-- D) Only hip-hop production
-**Answer:** B) See Compared with Ireland section
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+**Answer:** A
 
-### Q4. A typical learner should prioritise:
-- A) Only reading generic textbooks
-- B) Listening to regional recordings before generic "Celtic" compilations
-- C) Memorising one tune only
-- D) Ignoring dance context
-**Answer:** B) Listening to regional recordings before generic "Celtic" compilations
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+### Q2. Drummond Castle Strathspey is associated with Perthshire estate naming and strathspey snap rhythm.
 
-### Q5. Sessions, festivals, and archives all play roles in modern transmission.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+**Answer:** True
 
-### Q6. Instrument focus in this lesson includes:
-- A) Only synthesizers
-- B) Voices named in the lesson introduction
-- C) Only orchestral brass
-- D) Only piano études
-**Answer:** B) Voices named in the lesson introduction
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+### Q3. Strathspey–reel–reel is a common Scottish set pattern in dance and pipe listening models.
 
-### Q7. Dance rhythm topics in this lesson relate to:
-- A) Ballet syllabus only
-- B) Social dance forms discussed in the body
-- C) Marching band drill only
-- D) DJ beatmatching only
-**Answer:** B) Social dance forms discussed in the body
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+**Answer:** True
 
-### Q8. Revival movements and media broadcasting shaped twentieth-century practice.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+### Q4. James Scott Skinner is a reference player for strathspey composition including tunes like The Bonnie Lass of Bon Accord.
 
-### Q9. When studying tune forms, you should:
-- A) Ignore metre entirely
-- B) Connect metre and foot-tap feel to named dance types
-- C) Assume all tunes are 4/4 rock beats
-- D) Avoid learning by ear
-**Answer:** B) Connect metre and foot-tap feel to named dance types
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+**Answer:** True
 
-### Q10. Fusion and modern scenes discussed here:
-- A) Erase all earlier repertoire
-- B) Build on—not replace—living tradition
-- C) Ban all acoustic instruments
-- D) Eliminate festivals
-**Answer:** B) Build on—not replace—living tradition
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+### Q5. Scottish snap refers to the dotted long-short pulse characteristic of strathspeys.
 
-### Q11. The Compared with Ireland section highlights both shared heritage and national accent.
-- A) True
-- B) False
-**Answer:** A) True
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+**Answer:** True
 
-### Q12. Best next step after this lesson:
-- A) Stop listening to recordings
-- B) Follow playlists and return to the paired Ireland lesson
-- C) Skip all prerequisites
-- D) Avoid comparative study
-**Answer:** B) Follow playlists and return to the paired Ireland lesson
-*Explanation grounded in Scottish Traditional Music — Tunes — Forms, History, and Recordings.*
+### Q6. The Mason's Apron appears only in Scottish sources with no Irish session presence.
 
+**Answer:** False — the tune crosses the narrow sea and appears in Irish sessions too.
+
+### Q7. Moneymusk is cited as a classic strathspey in Scottish repertoire.
+
+**Answer:** True
+
+### Q8. Competition pipers perform MSR sets including march, strathspey, and reel categories.
+
+**Answer:** True
+
+### Q9. Learners should compare pipe and fiddle recordings of the same tune for articulation differences.
+
+**Answer:** True
+
+### Q10. ABC notation replaces the need to learn tunes by ear from living players.
+
+**Answer:** False — ABC supplements ear learning; it does not replace copying phrasing from players.
+
+### Q11. Drummond Castle trains the ear for dotted strathspey feel rather than even reel quavers.
+
+**Answer:** True
+
+### Q12. A listening notebook tagging form, key, and region beats random scrolling for tune study.
+
+**Answer:** True

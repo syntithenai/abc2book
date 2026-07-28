@@ -105,6 +105,16 @@ describe('tuneListFilter', function() {
     expect(result.grouped.Book).toEqual([0])
   })
 
+  test('filterTunes uses candidate ids when provided', function() {
+    const tunes = {
+      a: makeTune('a', 'Alpha'),
+      b: makeTune('b', 'Beta'),
+    }
+    const filtered = filterTunes(tunes, function() { return true }, ['b'])
+    expect(filtered).toHaveLength(1)
+    expect(filtered[0].id).toBe('b')
+  })
+
   test('buildListHashKey includes content revision', function() {
     const a = buildListHashKey(['', '', '', [], [], [], 10, 0])
     const b = buildListHashKey(['', '', '', [], [], [], 10, 3])

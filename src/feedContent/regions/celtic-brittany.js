@@ -20,66 +20,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Overview** (Brittany trad):\n\n- Breton Traditional Music rewards comparative study with Ireland.\n\n- Focus: Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks..\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Overview** (Brittany trad):\n\n- Breton trad is dance-led and fest-noz-centred — not generic Celtic wallpaper.\n\n- Bombard–binou, accordion bands, and bagads answer different social stages.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The primary social setting for Breton traditional dance music is:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Dance-first circular and couple figures tied to tune types",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Fest-noz community dance events",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Fest-noz community dance events"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan is Breton call-and-response singing, often heard at fest-noz.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -102,66 +92,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Overview** (Brittany trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Overview** (Brittany trad):\n\n- Kan ha diskan is participatory dialogue song, not a footnote to instrumentals.\n\n- Gavotte, plinn, mazurka, and son name distinct floor contracts.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Compared with Irish pub sessions, Breton fest-noz culture emphasises:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "A Breton pipe-band ensemble with pipers, bombard section, and drums",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "Dance-first circular and couple figures tied to tune types",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Fest-noz community dance events",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Bombard and binou (Breton bagpipe)",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Dance-first circular and couple figures tied to tune types"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "The classic Breton paired wind instruments at many fest-noz are:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Bombard and binou (Breton bagpipe)",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Dance-first circular and couple figures tied to tune types",
             "correct": false
           },
           {
             "id": "c",
-            "text": "D, G, A, and E minor",
+            "text": "A Breton pipe-band ensemble with pipers, bombard section, and drums",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Francis O'Neill",
+            "text": "Harp and piping revival plus international fusion from the 1960s–70s onward",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Bombard and binou (Breton bagpipe)"
       }
     ]
   },
@@ -184,66 +174,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Overview** (Brittany trad):\n\n- Dance metre and tune form belong together in study.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Overview** (Brittany trad):\n\n- Cornouaille, Léon, Vannetais, and Bro Gozh carry regional accents within one peninsula.\n\n- Breton trad is dance-led, fest-noz-centred, and regionally accented — not generic Celtic wallpaper.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "A plinn is especially associated with steady walking dance figures, often in the Vannetais.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-3-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Bagad refers to:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
+            "text": "Match tempo to dancers and respect dance-type conventions",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Mullingar, 1951",
+            "text": "Collecting and publishing Breton field recordings and folklore research",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "A Breton pipe-band ensemble with pipers, bombard section, and drums",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Francis O'Neill",
+            "text": "Harp and piping revival plus international fusion from the 1960s–70s onward",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: A Breton pipe-band ensemble with pipers, bombard section, and drums"
       }
     ]
   },
@@ -266,42 +246,42 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-01-overview",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Overview** (Brittany trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. revival movements from the mid-twentieth century rebuilt regional pride alongside pan-celtic festival networks. connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Overview** (Brittany trad):\n\n- Bombard–binou, accordion bands, and bagad ensembles answer different social needs.\n\n- Revival institutions (bodadeg, Dastum, bagad federations) and artists like Stivell shape what learners hear today.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-4-q1",
         "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "prompt": "Alan Stivell is known for:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Social dance forms discussed in the body",
+            "text": "Harp and piping revival plus international fusion from the 1960s–70s onward",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Brendan Breathnach",
+            "text": "Match tempo to dancers and respect dance-type conventions",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Mullingar, 1951",
+            "text": "Collecting and publishing Breton field recordings and folklore research",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "The lesson identifies this as: Harp and piping revival plus international fusion from the 1960s–70s onward"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Cornouaille is strongly associated with gavotte repertoire, including material in the Suite Sudarmoricaine.",
         "difficulty": 3,
         "choices": [
           {
@@ -311,103 +291,11 @@ export default [
           },
           {
             "id": "b",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Regions where Irish remains a community language",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      }
-    ]
-  },
-  {
-    "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-5",
-    "title": "Brittany trad: key ideas (5)",
-    "track": "celtic",
-    "region": "brittany",
-    "kind": "theory_lesson",
-    "difficulty": 3,
-    "tags": [
-      "brittany",
-      "celtic",
-      "celtic",
-      "tradition",
-      "overview"
-    ],
-    "prerequisites": [
-      "regions-celtic-ireland-01-overview"
-    ],
-    "lessonSourceId": "regions-celtic-brittany-01-overview",
-    "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Overview** (Brittany trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
-    "tryThis": "",
-    "quizzes": [
-      {
-        "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
-          }
-        ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
-      },
-      {
-        "id": "celtic-brittany-regions-celtic-brittany-01-overview-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
-            "correct": true
-          }
-        ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -430,71 +318,133 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-01-overview",
     "estimateMinutes": 4,
-    "body": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks. within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nBreton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks. within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Walk into a village hall in Cornouaille on a Saturday night and the floor may fill before the band finishes the first gavotte. Couples and circles move to a pulse driven by bombard and binou — the shrill Breton bagpipe paired with a keyed folk oboe — while a caller names the next figure. Walk into a concert hall in Brest and you may hear Alan Stivell's harp fused with rock staging, or a bagad of sixty pipers and drummers marching in disciplined ranks. Both scenes are Breton music. Both answer to living tradition. A musician who understands only the festival stage will miss the social engine of the fest-noz; a dancer who never hears Stivell's 1970s fusion may underestimate how revival media reshaped regional pride. This lesson is your map. Before you study instruments, tune forms, dance figures, or the archives of Dastum, you need orientation: what people mean by Breton trad versus pan-Celtic marketing, where the music lives (fest-noz floors, bagad competitions, chapel song, concert fusion), what gavotte and plinn feel like on the foot, and which institutions…\n\nWalk into a village hall in Cornouaille on a Saturday night and the floor may fill before the band finishes the first gavotte. Couples and circles move to a pulse driven by bombard and binou — the shrill Breton bagpipe paired with a keyed folk oboe — while a caller names the next figure. Walk into a concert hall in Brest and you may hear Alan Stivell's harp fused with rock staging, or a bagad of sixty pipers and drummers marching in disciplined ranks. Both scenes are Breton music. Both answer to living tradition. A musician who understands only the festival stage will miss the social engine of the fest-noz; a dancer who never hears Stivell's 1970s fusion may underestimate…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-1-overview-q1",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Bodadeg ar Sonerion supports Breton musicians through publications and classes, including Sonerion tune books.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "D, G, A, and E minor",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "type": "truefalse",
+        "prompt": "\"Celtic music\" marketing and Breton traditional music are interchangeable names for identical repertoire.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Brendan Breathnach",
-            "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Celtic is a broader umbrella; Breton trad names a specific peninsula practice."
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-2-compared-with-ireland",
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-2-breton-trad-versus-celtic-music-labels-that-help-and-mislead",
+    "title": "Brittany trad: \"Breton trad\" versus \"Celtic music\": labels that help and mislead",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "brittany",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-01-overview",
+    "estimateMinutes": 4,
+    "body": "Breton traditional music (sonerezh, kan ha diskan, fest-noz repertoire) usually means orally transmitted dance tunes and songs in Breton or French, played on instruments associated with the peninsula: bombard, binou kozh (old-style bagpipe), fiddle, accordion, harp, and the massed bagad format. Players learn tunes by ear at fest-noz, classes, and bodadeg (musicians' association) workshops. Written collections — Sonerion tune books, Dastum field recordings, online ABC archives — supplement listening; they do not replace copying living players on the floor.\n\nCeltic music is the wider umbrella you met in the Ireland unit: related folk genres across Northwestern Europe and diaspora scenes. A Breton gavotte de l'aven shares historical cousins with Irish reels and Galician muiñeira; it does not share identical rhythm, ornament, or social context. Marketing flattens those differences into shamrock-and-harp wallpaper. As a student, hold two ideas: Breton trad names a peninsula tradition with its dance forms and fest-noz etiquette; Celtic names a festival and record-shop category that can still point you toward real cross-border listening when used carefully.\n\nBreton traditional music (sonerezh, kan ha diskan, fest-noz repertoire) usually means orally transmitted dance tunes and songs in Breton or French, played on instruments associated with the peninsula: bombard, binou kozh (old-style bagpipe), fiddle, accordion, harp, and the massed bagad format. Players learn tunes by ear at fest-noz, classes, and bodadeg (musicians' association) workshops. Written collections — Sonerion tune books, Dastum field recordings, online ABC archives — supplement listening; they do not replace copying living players on the floor. Celtic music is the wider umbrella you met in the Ireland unit: related folk genres across Northwestern Europe and diaspora scenes. A Breton gavotte de l'aven shares historical cousins with Irish reels and Galician muiñeira; it does not share identical rhythm,…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-2-breton-trad-versus-celtic-music-labels-that-help-and-mislead-q1",
+        "type": "mcq",
+        "prompt": "At a fest-noz, musicians should generally:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Match tempo to dancers and respect dance-type conventions",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Match tempo to dancers and respect dance-type conventions"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-2-breton-trad-versus-celtic-music-labels-that-help-and-mislead-q2",
+        "type": "mcq",
+        "prompt": "Dastum is associated with:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Collecting and publishing Breton field recordings and folklore research",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Collecting and publishing Breton field recordings and folklore research"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-3-compared-with-ireland",
     "title": "Brittany trad: Compared with Ireland",
     "track": "celtic",
     "region": "brittany",
@@ -512,72 +462,62 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-01-overview",
     "estimateMinutes": 4,
-    "body": "Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-01-overview` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-01-overview` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Irish sessions centre on melody instruments trading sets of reels and jigs in pubs, with song often in a separate room or concert. Breton fest-noz culture is dance-first: circular and couple dances chain to specific tune types (gavotte, plinn, mazurka, son), and the bombard–binou pair often leads with piercing unison melody rather than a pub session's layered fiddle-flute stack.\n\n| Feature | Ireland (session) | Brittany (fest-noz) |\n|---------|-------------------|---------------------|\n| Default social stage | Pub session, fleadh | Village fest-noz, festival dance tent |\n| Lead timbre | Fiddle, flute, pipes | Bombard + binou; accordion in Vannetais |\n| Song form | Sean-nós, ballad, pub chorus | Kan ha diskan call-and-response |\n| Massed pipes | Rare in sessions | Bagad competitions and parades |\n| Tune chaining | Sets by form (3 reels) | Dance suites tied to choreography |\n\nParallel Ireland lesson: `regions-celtic-ireland-01-overview` — revisit when comparison feels abstract. Note shared orality, revival media, and diaspora pride; note different floor etiquette and metre emphasis.\n\nIrish sessions centre on melody instruments trading sets of reels and jigs in pubs, with song often in a separate room or concert. Breton fest-noz culture is dance-first: circular and couple dances chain to specific tune types (gavotte, plinn, mazurka, son), and the bombard–binou pair often leads with piercing unison melody rather than a pub session's layered fiddle-flute stack. | Feature | Ireland (session) | Brittany (fest-noz) | |---------|-------------------|---------------------| | Default social stage | Pub session, fleadh | Village fest-noz, festival dance tent | | Lead timbre | Fiddle, flute, pipes | Bombard + binou; accordion in Vannetais | | Song form | Sean-nós, ballad, pub chorus | Kan ha diskan call-and-response | | Massed pipes | Rare in sessions…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-2-compared-with-ireland-q1",
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-3-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The primary social setting for Breton traditional dance music is:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Dance-first circular and couple figures tied to tune types",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Fest-noz community dance events",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Fest-noz community dance events"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-3-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan is Breton call-and-response singing, often heard at fest-noz.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-3-core-material",
-    "title": "Brittany trad: Core material",
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-4-the-fest-noz-night-festival-as-social-engine",
+    "title": "Brittany trad: The fest-noz: night festival as social engine",
     "track": "celtic",
     "region": "brittany",
     "kind": "theory_lesson",
@@ -594,13 +534,301 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-01-overview",
     "estimateMinutes": 4,
-    "body": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. revival movements from the mid-twentieth century rebuilt regional pride alongside pan-celtic festival networks. in brittany trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic \"Celtic\" compilations when possible.\n\nBreton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. revival movements from the mid-twentieth century rebuilt regional pride alongside pan-celtic festival networks. in brittany trad is not a copy of Irish practice. Listen for rhythmic feel, language of song, institutional context (competitions, festivals, chapel, fest-noz), and which instruments lead in a room. Use regional recordings rather than generic \"Celtic\" compilations when possible.",
+    "body": "A fest-noz (\"night festival\") is a community dance event — historically after agricultural work, now on weekend calendars year-round. Wikipedia describes it as the core social setting for Breton traditional dance and music: live bands, circular rond dances, couple gavottes, and plinn figures that pack halls from Quimper to Lorient. Fest-noz etiquette differs from pub session etiquette: The floor leads. Musicians adjust tempo to dancers' stamina, not to adjudicators' clocks. A band that races ahead of the circle loses the room. Know the dance before you lead. Callers and experienced dancers expect specific figures for each tune type. Starting a plinn when the hall prepared for a gavotte breaks the social contract. Listen to the bombard–binou. In classic sonerion (piping) regions, the paired wind instruments set pitch and drive. Accordion-led Vannetais bands follow different balance rules. Respect the chain. Dancers join hands in circles; newcomers wait for invitation or open spaces rather than barging into the centre. Song interludes. Kan ha diskan sets may pause instrumental dance — participation through singing matters as much as stepping. Fest-noz gatherings are organised…\n\nA fest-noz (\"night festival\") is a community dance event — historically after agricultural work, now on weekend calendars year-round. Wikipedia describes it as the core social setting for Breton traditional dance and music: live bands, circular rond dances, couple gavottes, and plinn figures that pack halls from Quimper to Lorient. Fest-noz etiquette differs from pub session etiquette: The floor leads. Musicians adjust tempo to dancers' stamina, not to adjudicators' clocks. A band that races ahead of the circle loses the room. Know the dance before you lead. Callers and experienced dancers expect specific figures for each tune type. Starting a plinn when the hall prepared for a gavotte breaks the social contract. Listen to the bombard–binou. In classic sonerion (piping)…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-3-core-material-q1",
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-4-the-fest-noz-night-festival-as-social-engine-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Compared with Irish pub sessions, Breton fest-noz culture emphasises:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A Breton pipe-band ensemble with pipers, bombard section, and drums",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Dance-first circular and couple figures tied to tune types",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Fest-noz community dance events",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Bombard and binou (Breton bagpipe)",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Dance-first circular and couple figures tied to tune types"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-4-the-fest-noz-night-festival-as-social-engine-q2",
+        "type": "mcq",
+        "prompt": "The classic Breton paired wind instruments at many fest-noz are:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Bombard and binou (Breton bagpipe)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Dance-first circular and couple figures tied to tune types",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A Breton pipe-band ensemble with pipers, bombard section, and drums",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Harp and piping revival plus international fusion from the 1960s–70s onward",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Bombard and binou (Breton bagpipe)"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-5-kan-ha-diskan-call-and-response-song-preview",
+    "title": "Brittany trad: Kan ha diskan: call-and-response song (preview)",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "brittany",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-01-overview",
+    "estimateMinutes": 4,
+    "body": "Kan ha diskan (\"sing and unsing\") is Breton counter-singing: a lead voice (kaner) phrases a line while a partner (diskaner) answers with overlapping text, often on a held vowel or repeated motif. It belongs to fest-noz nights, weddings, and veillées (evening gatherings) as much as to concert stages. Unlike Irish sean-nós's solo ornamented line, kan ha diskan is dialogue — rhythmically tight, socially participatory, sometimes competitive in wit.\n\nInstrumental dance music dominates export recordings; kan ha diskan carries narrative, humour, and Breton language practice. Lesson 4 develops song and tune overlap; here, note that voice is not a side dish in Brittany.\n\nKan ha diskan appears on fest-noz programmes between dance sets and preserves oral poetry alongside son dance tunes.\n\nKan ha diskan (\"sing and unsing\") is Breton counter-singing: a lead voice (kaner) phrases a line while a partner (diskaner) answers with overlapping text, often on a held vowel or repeated motif. It belongs to fest-noz nights, weddings, and veillées (evening gatherings) as much as to concert stages. Unlike Irish sean-nós's solo ornamented line, kan ha diskan is dialogue — rhythmically tight, socially participatory, sometimes competitive in wit.\n\nInstrumental dance music dominates export recordings; kan ha diskan carries narrative, humour, and Breton language practice. Lesson 4 develops song and tune overlap; here, note that voice is not a side dish in Brittany.\n\nKan ha diskan appears on fest-noz programmes between dance sets and preserves oral poetry alongside son dance tunes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-5-kan-ha-diskan-call-and-response-song-preview-q1",
+        "type": "truefalse",
+        "prompt": "A plinn is especially associated with steady walking dance figures, often in the Vannetais.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-5-kan-ha-diskan-call-and-response-song-preview-q2",
+        "type": "mcq",
+        "prompt": "Bagad refers to:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Match tempo to dancers and respect dance-type conventions",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Collecting and publishing Breton field recordings and folklore research",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A Breton pipe-band ensemble with pipers, bombard section, and drums",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Harp and piping revival plus international fusion from the 1960s–70s onward",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A Breton pipe-band ensemble with pipers, bombard section, and drums"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-6-tune-types-a-field-guide-with-memorable-details",
+    "title": "Brittany trad: Tune types: a field guide with memorable details",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "brittany",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-01-overview",
+    "estimateMinutes": 4,
+    "body": "Breton dance music organises fest-noz repertoire. Each form has metre, regional variant, and foot feel. Misidentifying plinn for gavotte confuses dancers immediately. | Type | Metre / feel | Memorable detail | |------|------------|------------------| | Gavotte | Often 4/4 or regional variants | Cornouaille and Bro Léon staples; couple and circle figures | | Plinn | Steady 4/4 step | \"Plain\" walking dance; Vannetais stronghold | | Mazurka | 3/4 | Nineteenth-century import; fest-noz favourite | | Son | Dance-song form | Tune + sung chorus; links kan and instrumental sets | | Rond | Circle dances | Rond de Saint-Vincent, Rond de Landeda — named figures | | Scottish / Suite | Imported or composed sets | Pipe-band and bagad concert material | Gavottes from Cornouaille — including material in the Suite Sudarmoricaine — are among the most exported Breton dance tunes. Foot-tap: steady quadruple pulse with lift on figures, not Irish reel swing. Plinn feels deceptively simple: walkers in lines or circles, but tempo discipline keeps the hall unified. Vannetais bands often lead plinn with accordion rather than bombard.…\n\nBreton dance music organises fest-noz repertoire. Each form has metre, regional variant, and foot feel. Misidentifying plinn for gavotte confuses dancers immediately. | Type | Metre / feel | Memorable detail | |------|------------|------------------| | Gavotte | Often 4/4 or regional variants | Cornouaille and Bro Léon staples; couple and circle figures | | Plinn | Steady 4/4 step | \"Plain\" walking dance; Vannetais stronghold | | Mazurka | 3/4 | Nineteenth-century import; fest-noz favourite | | Son | Dance-song form | Tune + sung chorus; links kan and instrumental sets | | Rond | Circle dances | Rond de Saint-Vincent, Rond de Landeda — named figures | | Scottish / Suite | Imported or composed sets | Pipe-band and bagad…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-6-tune-types-a-field-guide-with-memorable-details-q1",
+        "type": "mcq",
+        "prompt": "Alan Stivell is known for:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Harp and piping revival plus international fusion from the 1960s–70s onward",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Match tempo to dancers and respect dance-type conventions",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Collecting and publishing Breton field recordings and folklore research",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Harp and piping revival plus international fusion from the 1960s–70s onward"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-6-tune-types-a-field-guide-with-memorable-details-q2",
+        "type": "truefalse",
+        "prompt": "Cornouaille is strongly associated with gavotte repertoire, including material in the Suite Sudarmoricaine.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-7-regional-map-four-accents-to-know",
+    "title": "Brittany trad: Regional map: four accents to know",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "brittany",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-01-overview",
+    "estimateMinutes": 4,
+    "body": "Breton trad is not one uniform style. Field recordings and festival programmes commonly distinguish:\n\nCornouaille (southwest) — gavotte heartland; bagad culture strong; Quimper and Pont-Croix festivals anchor tourism and serious revival pedagogy. Suite Sudarmoricaine material is Cornouaille identity in sound.\n\nLéon (northwest) — sonerion (bombard–binou) prominence; Kan ha diskan pockets; close links to Bro Gozh urban scenes in Brest.\n\nTrégor (north) — fiddle and pipe traditions overlap with Léon; fest-noz circuits share repertoire with neighbouring Côtes-d'Armor.\n\nVannetais (southeast) — accordion-led bands; plinn and mazurka emphasis; different timbre from bombard-dominated west.\n\nBro Gozh diaspora — Paris, Nantes, and other cities host fest-noz, classes, and bagad branches; urban learners often meet tradition here before village halls.\n\nListening exercise: Compare a Cornouaille gavotte led by bombard–binou with a Vannetais plinn led by accordion. Same peninsula, different accent — the exercise beats memorising administrative map colours alone.\n\nBreton trad is not one uniform style. Field recordings and festival programmes commonly distinguish: Cornouaille (southwest) — gavotte heartland; bagad culture strong; Quimper and Pont-Croix festivals anchor tourism and serious revival pedagogy. Suite Sudarmoricaine material is Cornouaille identity in sound. Léon (northwest) — sonerion (bombard–binou) prominence; Kan ha diskan pockets; close links to Bro Gozh urban scenes in Brest. Trégor (north) — fiddle and pipe traditions overlap with Léon; fest-noz circuits share repertoire with neighbouring Côtes-d'Armor. Vannetais (southeast) — accordion-led bands; plinn and mazurka emphasis; different timbre from bombard-dominated west. Bro Gozh diaspora — Paris, Nantes, and other cities host fest-noz, classes, and bagad branches; urban learners often meet tradition here before village halls. Listening exercise: Compare a Cornouaille gavotte…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-7-regional-map-four-accents-to-know-q1",
+        "type": "truefalse",
+        "prompt": "Bodadeg ar Sonerion supports Breton musicians through publications and classes, including Sonerion tune books.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-7-regional-map-four-accents-to-know-q2",
+        "type": "truefalse",
+        "prompt": "\"Celtic music\" marketing and Breton traditional music are interchangeable names for identical repertoire.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Celtic is a broader umbrella; Breton trad names a specific peninsula practice."
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-8-institutions-that-shape-the-tradition",
+    "title": "Brittany trad: Institutions that shape the tradition",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "brittany",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-01-overview",
+    "estimateMinutes": 4,
+    "body": "Bodadeg ar Sonerion (\"World of the Musicians\") is the Breton musicians' association publishing Sonerion tune books, running classes, and supporting fest-noz performers since the mid-twentieth century revival.\n\nDastum collects and publishes field recordings, photographs, and research — Brittany's parallel to archives like Ireland's ITMA. Revival scholars traced vanishing repertoires through Dastum campaigns.\n\nBagad competitions — organised through Bagad federations — structure pipe-and-drum pedagogy for thousands of young musicians. A village child may march in a bagad before sitting in a pub-style session (which barely exists as an Irish analogue).\n\nAlan Stivell (born 1944) — harpist, piper, and fusion pioneer — brought Breton music to international rock and folk-rock audiences from the late 1960s; his work is revival media as much as any archive.\n\nPan-Celtic festivals — Festival Interceltique de Lorient, Yaouank in Rennes — place Brittany beside Ireland, Scotland, Wales, and Galicia on shared stages. They spread repertoire and sometimes homogenise it; they also fund professional careers.\n\nAlan Stivell embodies concert fusion; Bagad embodies massed disciplined ensemble; Dastum embodies archival recovery.\n\nBodadeg ar Sonerion (\"World of the Musicians\") is the Breton musicians' association publishing Sonerion tune books, running classes, and supporting fest-noz performers since the mid-twentieth century revival. Dastum collects and publishes field recordings, photographs, and research — Brittany's parallel to archives like Ireland's ITMA. Revival scholars traced vanishing repertoires through Dastum campaigns. Bagad competitions — organised through Bagad federations — structure pipe-and-drum pedagogy for thousands of young musicians. A village child may march in a bagad before sitting in a pub-style session (which barely exists as an Irish analogue). Alan Stivell (born 1944) — harpist, piper, and fusion pioneer — brought Breton music to international rock and folk-rock audiences from the late 1960s; his work is revival media as much…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-8-institutions-that-shape-the-tradition-q1",
+        "type": "mcq",
+        "prompt": "At a fest-noz, musicians should generally:",
         "difficulty": 3,
         "choices": [
           {
@@ -610,13 +838,13 @@ export default [
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": true
+            "text": "Francis O'Neill",
+            "correct": false
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
+            "text": "Match tempo to dancers and respect dance-type conventions",
+            "correct": true
           },
           {
             "id": "d",
@@ -624,23 +852,23 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Match tempo to dancers and respect dance-type conventions"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-3-core-material-q2",
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-8-institutions-that-shape-the-tradition-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Dastum is associated with:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
+            "text": "Brendan Breathnach",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
+            "text": "Collecting and publishing Breton field recordings and folklore research",
+            "correct": true
           },
           {
             "id": "c",
@@ -653,12 +881,238 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Collecting and publishing Breton field recordings and folklore research"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-5-key-points",
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-10-how-this-unit-is-organised",
+    "title": "Brittany trad: How this unit is organised",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "brittany",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-01-overview",
+    "estimateMinutes": 4,
+    "body": "| Lesson | ID | Focus |\n|--------|-----|--------|\n| 1 — Overview | `regions-celtic-brittany-01-overview` | Fest-noz, regions, institutions, tune map |\n| 2 — Traditional voices I | `regions-celtic-brittany-02-instruments-voices-i` | Bombard, binou, fiddle, harp |\n| 3 — Session voices II | `regions-celtic-brittany-03-instruments-voices-ii` | Accordion, guitar, bagad |\n| 4 — Genres & forms | `regions-celtic-brittany-04-genres-forms` | Gavotte, plinn, mazurka, son |\n| 5 — Dance | `regions-celtic-brittany-05-dance` | Fest-noz figures and floor etiquette |\n| 6 — History | `regions-celtic-brittany-06-history` | Revival, Stivell, archives, transmission |\n| 7 — Representative depth | `regions-celtic-brittany-07-representative-depth` | Fest-noz floors vs fusion concerts |\n| 8 — Tunes | `regions-celtic-brittany-08-tunes` | Suite Sudarmoricaine and classic sets |\n\nWork through in order if you are new. If you already dance fest-noz, skim this overview then deepen history and tune lessons where gaps show.\n\n| Lesson | ID | Focus | |--------|-----|--------| | 1 — Overview | `regions-celtic-brittany-01-overview` | Fest-noz, regions, institutions, tune map | | 2 — Traditional voices I | `regions-celtic-brittany-02-instruments-voices-i` | Bombard, binou, fiddle, harp | | 3 — Session voices II | `regions-celtic-brittany-03-instruments-voices-ii` | Accordion, guitar, bagad | | 4 — Genres & forms | `regions-celtic-brittany-04-genres-forms` | Gavotte, plinn, mazurka, son | | 5 — Dance | `regions-celtic-brittany-05-dance` | Fest-noz figures and floor etiquette | | 6 — History | `regions-celtic-brittany-06-history` | Revival, Stivell, archives, transmission | | 7 — Representative depth | `regions-celtic-brittany-07-representative-depth` | Fest-noz floors vs fusion concerts | | 8 — Tunes | `regions-celtic-brittany-08-tunes` | Suite Sudarmoricaine and classic sets | Work through in order if you…",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-10-how-this-unit-is-organised-q1",
+        "type": "mcq",
+        "prompt": "The primary social setting for Breton traditional dance music is:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Dance-first circular and couple figures tied to tune types",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Fest-noz community dance events",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Fest-noz community dance events"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-10-how-this-unit-is-organised-q2",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan is Breton call-and-response singing, often heard at fest-noz.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-11-starting-points-for-learners",
+    "title": "Brittany trad: Starting points for learners",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "brittany",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-01-overview",
+    "estimateMinutes": 4,
+    "body": "Begin with listening tagged by dance form and region. Attend a fest-noz as dancer or audience before claiming tune leadership. Learn one gavotte or plinn thoroughly — melody, tempo, associated figure name — rather than half-learning ten imports from a \"Celtic\" compilation. Find bodadeg or fest-noz workshop teachers where possible; ear correction from dancers saves years of wrong pulse.\n\nKeep a listening notebook: tune name, dance type, region, leader instrument, one detail (bombard unison, accordion bounce). Six months of notes beats random playlist scrolling.\n\nBegin with listening tagged by dance form and region. Attend a fest-noz as dancer or audience before claiming tune leadership. Learn one gavotte or plinn thoroughly — melody, tempo, associated figure name — rather than half-learning ten imports from a \"Celtic\" compilation. Find bodadeg or fest-noz workshop teachers where possible; ear correction from dancers saves years of wrong pulse.\n\nKeep a listening notebook: tune name, dance type, region, leader instrument, one detail (bombard unison, accordion bounce). Six months of notes beats random playlist scrolling.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-11-starting-points-for-learners-q1",
+        "type": "mcq",
+        "prompt": "Compared with Irish pub sessions, Breton fest-noz culture emphasises:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A Breton pipe-band ensemble with pipers, bombard section, and drums",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Dance-first circular and couple figures tied to tune types",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Fest-noz community dance events",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Bombard and binou (Breton bagpipe)",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Dance-first circular and couple figures tied to tune types"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-11-starting-points-for-learners-q2",
+        "type": "mcq",
+        "prompt": "The classic Breton paired wind instruments at many fest-noz are:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Bombard and binou (Breton bagpipe)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Dance-first circular and couple figures tied to tune types",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A Breton pipe-band ensemble with pipers, bombard section, and drums",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Harp and piping revival plus international fusion from the 1960s–70s onward",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Bombard and binou (Breton bagpipe)"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-12-reading-and-listening-list-orientation",
+    "title": "Brittany trad: Reading and listening list (orientation)",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 3,
+    "tags": [
+      "brittany",
+      "celtic",
+      "celtic",
+      "tradition",
+      "overview"
+    ],
+    "prerequisites": [
+      "regions-celtic-ireland-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-01-overview",
+    "estimateMinutes": 4,
+    "body": "- Alan Stivell — Renaissance de la harpe celtique (1972) and Chemins de terre (1973); revival harps and fusion staging.\n- Bagad Kemper or Bagad Bro Kemperle — competition sets and gavotte suites on festival recordings.\n- Dastum field recordings — compare village fest-noz sound to stage bands.\n- Yann-Fanch Kemener — kan ha diskan and song; links voice tradition to dance nights.\n- Wikipedia Music of Brittany and Fest-noz — orientation verified against recordings.\n\nPair listening with Sonerion tune books or online ABC collections. Difficulty 3/10 measures conceptual breadth, not instrumental skill.\n\n- Alan Stivell — Renaissance de la harpe celtique (1972) and Chemins de terre (1973); revival harps and fusion staging.\n- Bagad Kemper or Bagad Bro Kemperle — competition sets and gavotte suites on festival recordings.\n- Dastum field recordings — compare village fest-noz sound to stage bands.\n- Yann-Fanch Kemener — kan ha diskan and song; links voice tradition to dance nights.\n- Wikipedia Music of Brittany and Fest-noz — orientation verified against recordings.\n\nPair listening with Sonerion tune books or online ABC collections. Difficulty 3/10 measures conceptual breadth, not instrumental skill.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-12-reading-and-listening-list-orientation-q1",
+        "type": "truefalse",
+        "prompt": "A plinn is especially associated with steady walking dance figures, often in the Vannetais.",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-12-reading-and-listening-list-orientation-q2",
+        "type": "mcq",
+        "prompt": "Bagad refers to:",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Match tempo to dancers and respect dance-type conventions",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Collecting and publishing Breton field recordings and folklore research",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A Breton pipe-band ensemble with pipers, bombard section, and drums",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Harp and piping revival plus international fusion from the 1960s–70s onward",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A Breton pipe-band ensemble with pipers, bombard section, and drums"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-13-key-points",
     "title": "Brittany trad: Key points",
     "track": "celtic",
     "region": "brittany",
@@ -676,66 +1130,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-01-overview",
     "estimateMinutes": 4,
-    "body": "- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. revival movements from the mid-twentieth century rebuilt regional pride alongside pan-celtic festival networks. connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. revival movements from the mid-twentieth century rebuilt regional pride alongside pan-celtic festival networks. connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Breton trad is dance-led, fest-noz-centred, and regionally accented — not generic Celtic wallpaper.\n- Bombard–binou, accordion bands, and bagad ensembles answer different social needs.\n- Kan ha diskan is participatory dialogue song, not a footnote to instrumentals.\n- Gavotte, plinn, mazurka, and son name distinct floor contracts.\n- Revival institutions (bodadeg, Dastum, bagad federations) and artists like Stivell shape what learners hear today.\n\n- Breton trad is dance-led, fest-noz-centred, and regionally accented — not generic Celtic wallpaper.\n- Bombard–binou, accordion bands, and bagad ensembles answer different social needs.\n- Kan ha diskan is participatory dialogue song, not a footnote to instrumentals.\n- Gavotte, plinn, mazurka, and son name distinct floor contracts.\n- Revival institutions (bodadeg, Dastum, bagad federations) and artists like Stivell shape what learners hear today.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-5-key-points-q1",
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-13-key-points-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Alan Stivell is known for:",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
-            "correct": false
+            "text": "Harp and piping revival plus international fusion from the 1960s–70s onward",
+            "correct": true
           },
           {
             "id": "c",
-            "text": "Brendan Breathnach",
+            "text": "Match tempo to dancers and respect dance-type conventions",
             "correct": false
           },
           {
             "id": "d",
-            "text": "True",
-            "correct": true
+            "text": "Collecting and publishing Breton field recordings and folklore research",
+            "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "The lesson identifies this as: Harp and piping revival plus international fusion from the 1960s–70s onward"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "id": "celtic-brittany-regions-celtic-brittany-01-overview-sec-13-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Cornouaille is strongly associated with gavotte repertoire, including material in the Suite Sudarmoricaine.",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Francis O'Neill",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -757,66 +1201,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Breton Traditional Music rewards comparative study with Ireland.\n\n- Focus: bombard, binou (Breton bagpipe), fiddle, and harp.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Bombard and binou are the emblematic fest-noz pair — unison, volume, and endurance.\n\n- Binou differs from uilleann pipes in scale, pairing, and bagad massed format.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The bombard is typically paired with which instrument at fest-noz?",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Binou kozh (Breton bagpipe)",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Binou kozh (Breton bagpipe)"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Sonerion refers to Breton piping tradition centred on bombard and binou.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -838,66 +1272,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Breton fiddle phrases for gavotte and plinn pulse — not Irish reel session defaults.\n\n- Harp revival links to Stivell and concert stages as well as song nights.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Compared with Irish uilleann pipes, the binou kozh is:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "Smaller, sharper, and traditionally paired with bombard rather than session regulators",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Smaller, sharper, and traditionally paired with bombard rather than session regulators"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Bombard players often rely on circular breathing or partner overlap because:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Dance sets require continuous pulse for the floor",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Single-headed Irish frame drum",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Dance sets require continuous pulse for the floor"
       }
     ]
   },
@@ -919,66 +1353,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Dance metre and tune form belong together in study.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Sonerion pedagogy trains sonerion players through bodadeg networks.\n\n- Bombard and binou are the emblematic fest-noz pair — volume, unison, and endurance define their role.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Alan Stivell is closely associated with Breton harp revival and fusion.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-3-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "In a classic northwest fest-noz, fiddle most often:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "Doubles or supports sonerion, following dance tempo",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Doubles or supports sonerion, following dance tempo"
       }
     ]
   },
@@ -1000,42 +1424,42 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Bombard, binou (breton bagpipe), fiddle, and harp connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Binou differs from Irish uilleann pipes in scale, social pairing, and bagad massed format.\n\n- Fiddle serves dance pulse in gavotte and plinn — not Irish reel session defaults.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-4-q1",
         "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "prompt": "Bagad ensembles use binou and bombard in:",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Binou kozh (Breton bagpipe)",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Social dance forms discussed in the body",
+            "text": "Massed sections with drums for competition and parade formats",
             "correct": true
           },
           {
             "id": "c",
-            "text": "False",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "The lesson identifies this as: Massed sections with drums for competition and parade formats"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Breton fiddle style prioritises gavotte and plinn dance pulse over Irish reel session drive.",
         "difficulty": 4,
         "choices": [
           {
@@ -1045,21 +1469,11 @@ export default [
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Voices named in the lesson introduction",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1081,66 +1495,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Instruments — Traditional Voices I** (Brittany trad):\n\n- Harp revival links to Stivell and concert stages as much as village halls.\n\n- Compared with Ireland: paired winds replace fiddle-flute session centre; dance floor sets tempo.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Bodadeg ar Sonerion and Sonerion publications support learning bombard and binou repertoire.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "The bombard's social role includes leading unamplified dance halls with penetrating volume.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "9/8 slip-jig time",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
-            "correct": true
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1162,71 +1556,51 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on bombard, binou (Breton bagpipe), fiddle, and harp within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nBreton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on bombard, binou (Breton bagpipe), fiddle, and harp within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "This lesson examines four instruments at the heart of Breton traditional music: the bombard, binou kozh (old-style Breton bagpipe), fiddle, and Celtic harp. Fest-noz programmes and bagad stages present them as \"melody leaders\" — useful shorthand that hides overlap. A bombard player drives rhythm with articulation; a harpist may harmonise a kan ha diskan set or step into dance melody at a fest-noz; fiddlers in Trégor and Léon share repertoire with pipers but phrase for dancers, not adjudicators.\n\nThe four voices share diatonic dance repertoire, ornament learned by ear, and association with regional fest-noz circuits. They differ in breath versus bow, in outdoor versus hall volume, and in whether they pair as sonerion duet or stand alone. A Cornouaille gavotte led by bombard–binou is not a Vannetais plinn led by accordion — regional accent matters from the first lesson.\n\nRead alongside Session Voices II (accordion, guitar, bagad), which covers equally essential fest-noz and competition voices.\n\nThis lesson examines four instruments at the heart of Breton traditional music: the bombard, binou kozh (old-style Breton bagpipe), fiddle, and Celtic harp. Fest-noz programmes and bagad stages present them as \"melody leaders\" — useful shorthand that hides overlap. A bombard player drives rhythm with articulation; a harpist may harmonise a kan ha diskan set or step into dance melody at a fest-noz; fiddlers in Trégor and Léon share repertoire with pipers but phrase for dancers, not adjudicators. The four voices share diatonic dance repertoire, ornament learned by ear, and association with regional fest-noz circuits. They differ in breath versus bow, in outdoor versus hall volume, and in whether they pair as sonerion duet or stand alone. A Cornouaille gavotte…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-1-overview-q1",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Harp is the most common primary dance-lead instrument at every village fest-noz.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "bombard–binou or accordion bands often lead; harp is more prominent in concert and song contexts."
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Cornouaille and Léon are associated with sonerion-led fest-noz sound.",
+        "difficulty": 4,
+        "choices": [
           {
-            "id": "c",
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
-        "difficulty": 4,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sligo fiddle style",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-2-compared-with-ireland",
+    "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-3-compared-with-ireland",
     "title": "Brittany trad: Compared with Ireland",
     "track": "celtic",
     "region": "brittany",
@@ -1243,71 +1617,406 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-02-instruments-voices-i` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-02-instruments-voices-i` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Irish trad's core melody stack is fiddle, flute, whistle, and uilleann pipes in pub sessions. Breton trad's emblematic pair is bombard and binou — both in B-flat folk tuning, piercing enough for unamplified dance halls. Irish uilleann pipes use bellows, regulators, and session etiquette favouring indoor volume control; Breton sonerion favours outdoor projection and unison doubling with the bombard.\n\n| Voice | Irish parallel | Breton distinction |\n|-------|---------------|-------------------|\n| Bombard | Folk oboe cousins; not uilleann chanter | Paired with binou; fest-noz lead |\n| Binou | Uilleann pipes (superficial bagpipe kin) | One-armed pipe; sharper, smaller scale |\n| Fiddle | Irish fiddle | Dance tempo for gavotte/plinn, not reel sets |\n| Harp | Cláirseach / Celtic harp revival | Stivell lineage; concert and song |\n\nParallel Ireland lesson: `regions-celtic-ireland-02-instruments-voices-i`.\n\nIrish trad's core melody stack is fiddle, flute, whistle, and uilleann pipes in pub sessions. Breton trad's emblematic pair is bombard and binou — both in B-flat folk tuning, piercing enough for unamplified dance halls. Irish uilleann pipes use bellows, regulators, and session etiquette favouring indoor volume control; Breton sonerion favours outdoor projection and unison doubling with the bombard. | Voice | Irish parallel | Breton distinction | |-------|---------------|-------------------| | Bombard | Folk oboe cousins; not uilleann chanter | Paired with binou; fest-noz lead | | Binou | Uilleann pipes (superficial bagpipe kin) | One-armed pipe; sharper, smaller scale | | Fiddle | Irish fiddle | Dance tempo for gavotte/plinn, not reel sets | | Harp | Cláirseach / Celtic…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-2-compared-with-ireland-q1",
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-3-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The bombard is typically paired with which instrument at fest-noz?",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Group social choreography for multiple dancers",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Tips and heels striking the floor",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Binou kozh (Breton bagpipe)",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Binou kozh (Breton bagpipe)"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-3-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Sonerion refers to Breton piping tradition centred on bombard and binou.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Four-string tenor banjo with a plectrum",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Tips and heels striking the floor",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-5-key-points",
+    "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-4-session-roles-overlap-at-fest-noz",
+    "title": "Brittany trad: Session roles overlap at fest-noz",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "brittany",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Before instrument detail, clear the beginner mistake: sorting fest-noz into fixed melody and rhythm columns.\n\n| Situation | What you might hear |\n|-----------|---------------------|\n| Cornouaille gavotte | Bombard and binou in unison, fiddle doubling, accordion later in mixed bands |\n| Kan ha diskan interlude | Voices lead; bombard rests |\n| Bagad concert | Massed binou and bombard sections with drums — not fest-noz floor pulse |\n| Stivell-style concert | Harp and electric bass fusion — different contract from village hall |\n\nWho sets tempo for dancers matters more than instrument labels.\n\nBefore instrument detail, clear the beginner mistake: sorting fest-noz into fixed melody and rhythm columns.\n\n| Situation | What you might hear |\n|-----------|---------------------|\n| Cornouaille gavotte | Bombard and binou in unison, fiddle doubling, accordion later in mixed bands |\n| Kan ha diskan interlude | Voices lead; bombard rests |\n| Bagad concert | Massed binou and bombard sections with drums — not fest-noz floor pulse |\n| Stivell-style concert | Harp and electric bass fusion — different contract from village hall |\n\nWho sets tempo for dancers matters more than instrument labels.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-4-session-roles-overlap-at-fest-noz-q1",
+        "type": "mcq",
+        "prompt": "Compared with Irish uilleann pipes, the binou kozh is:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Smaller, sharper, and traditionally paired with bombard rather than session regulators",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Smaller, sharper, and traditionally paired with bombard rather than session regulators"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-4-session-roles-overlap-at-fest-noz-q2",
+        "type": "mcq",
+        "prompt": "Bombard players often rely on circular breathing or partner overlap because:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dance sets require continuous pulse for the floor",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Dance sets require continuous pulse for the floor"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-6-technique-and-cultural-context",
+    "title": "Brittany trad: Technique and cultural context",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "brittany",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Bombard players use circular breathing or staggered breathing between partners so the dance pulse does not break. Fingering resembles other European folk oboes; ornament is articulation-heavy — tongued patterns that match gavotte lift. Intonation is negotiated with the binou player; fixed temperament purity is less important than blend.\n\nVolume is the bombard's social role: it cuts through crowd noise where a fiddle might sink. That power demands floor awareness — blasting during a lyrical son vocal section is a fest-noz faux pas.\n\nBombard players use circular breathing or staggered breathing between partners so the dance pulse does not break. Fingering resembles other European folk oboes; ornament is articulation-heavy — tongued patterns that match gavotte lift. Intonation is negotiated with the binou player; fixed temperament purity is less important than blend.\n\nVolume is the bombard's social role: it cuts through crowd noise where a fiddle might sink. That power demands floor awareness — blasting during a lyrical son vocal section is a fest-noz faux pas.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-6-technique-and-cultural-context-q1",
+        "type": "truefalse",
+        "prompt": "Alan Stivell is closely associated with Breton harp revival and fusion.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-6-technique-and-cultural-context-q2",
+        "type": "mcq",
+        "prompt": "In a classic northwest fest-noz, fiddle most often:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Doubles or supports sonerion, following dance tempo",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Doubles or supports sonerion, following dance tempo"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-7-fest-noz-and-bagad-role",
+    "title": "Brittany trad: Fest-noz and bagad role",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "brittany",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "In classic Léon and Cornouaille lineups, bombard leads melody in unison with binou. In bagad ensembles, a bombard section doubles pipe melodies at competition scale. Some contemporary fest-noz bands fold bombard into larger horn arrangements; tradition-focused nights keep the pair central.\n\nBombard players often learn through bodadeg classes and mentor relationships rather than conservatory tracks.\n\nIn classic Léon and Cornouaille lineups, bombard leads melody in unison with binou. In bagad ensembles, a bombard section doubles pipe melodies at competition scale. Some contemporary fest-noz bands fold bombard into larger horn arrangements; tradition-focused nights keep the pair central.\n\nBombard players often learn through bodadeg classes and mentor relationships rather than conservatory tracks.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-7-fest-noz-and-bagad-role-q1",
+        "type": "mcq",
+        "prompt": "Bagad ensembles use binou and bombard in:",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Binou kozh (Breton bagpipe)",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Massed sections with drums for competition and parade formats",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Massed sections with drums for competition and parade formats"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-7-fest-noz-and-bagad-role-q2",
+        "type": "truefalse",
+        "prompt": "Breton fiddle style prioritises gavotte and plinn dance pulse over Irish reel session drive.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-8-famous-players-and-memorable-details",
+    "title": "Brittany trad: Famous players and memorable details",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "brittany",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Jorj Botuhel and generations of sonerion teachers standardised pedagogy through Sonerion publications. Bagad competition recordings document regional bombard sections — Kemper, Bro Kemperle, and Brieg bagads export reference timbres.\n\nMemorable detail: A bombard beginner's first challenge is not finger speed but endurance — dance sets run longer than concert pieces, and partners depend on steady pulse.\n\nJorj Botuhel and generations of sonerion teachers standardised pedagogy through Sonerion publications. Bagad competition recordings document regional bombard sections — Kemper, Bro Kemperle, and Brieg bagads export reference timbres.\n\nMemorable detail: A bombard beginner's first challenge is not finger speed but endurance — dance sets run longer than concert pieces, and partners depend on steady pulse.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-8-famous-players-and-memorable-details-q1",
+        "type": "truefalse",
+        "prompt": "Bodadeg ar Sonerion and Sonerion publications support learning bombard and binou repertoire.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-8-famous-players-and-memorable-details-q2",
+        "type": "truefalse",
+        "prompt": "The bombard's social role includes leading unamplified dance halls with penetrating volume.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-10-technique-and-cultural-context",
+    "title": "Brittany trad: Technique and cultural context",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 4,
+    "tags": [
+      "brittany",
+      "celtic",
+      "instruments",
+      "melody"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-01-overview"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
+    "estimateMinutes": 4,
+    "body": "Binou players maintain constant bag pressure and tune to bombard partners. The instrument's shrill register projects outdoors — bagad parades, festival openings, village processions. Indoor fest-noz use demands sensitivity; a binou beside a fiddle-heavy band needs balance.\n\nRepertoire overlaps gavotte, mazurka, and son melodies shared across Brittany; Cornouaille tune names dominate export playlists.\n\nBinou players maintain constant bag pressure and tune to bombard partners. The instrument's shrill register projects outdoors — bagad parades, festival openings, village processions. Indoor fest-noz use demands sensitivity; a binou beside a fiddle-heavy band needs balance.\n\nRepertoire overlaps gavotte, mazurka, and son melodies shared across Brittany; Cornouaille tune names dominate export playlists.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-10-technique-and-cultural-context-q1",
+        "type": "truefalse",
+        "prompt": "Harp is the most common primary dance-lead instrument at every village fest-noz.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "bombard–binou or accordion bands often lead; harp is more prominent in concert and song contexts."
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-10-technique-and-cultural-context-q2",
+        "type": "truefalse",
+        "prompt": "Cornouaille and Léon are associated with sonerion-led fest-noz sound.",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-23-key-points",
     "title": "Brittany trad: Key points",
     "track": "celtic",
     "region": "brittany",
@@ -1324,66 +2033,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-02-instruments-voices-i",
     "estimateMinutes": 4,
-    "body": "- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Bombard, binou (breton bagpipe), fiddle, and harp connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Bombard, binou (breton bagpipe), fiddle, and harp connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Bombard and binou are the emblematic fest-noz pair — volume, unison, and endurance define their role.\n- Binou differs from Irish uilleann pipes in scale, social pairing, and bagad massed format.\n- Fiddle serves dance pulse in gavotte and plinn — not Irish reel session defaults.\n- Harp revival links to Stivell and concert stages as much as village halls.\n- Compared with Ireland: paired winds replace fiddle-flute session centre; dance floor sets tempo.\n\n- Bombard and binou are the emblematic fest-noz pair — volume, unison, and endurance define their role.\n- Binou differs from Irish uilleann pipes in scale, social pairing, and bagad massed format.\n- Fiddle serves dance pulse in gavotte and plinn — not Irish reel session defaults.\n- Harp revival links to Stivell and concert stages as much as village halls.\n- Compared with Ireland: paired winds replace fiddle-flute session centre; dance floor sets tempo.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-5-key-points-q1",
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-23-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "The bombard is typically paired with which instrument at fest-noz?",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
-            "correct": true
+            "text": "Regions where Irish remains a community language",
+            "correct": false
           },
           {
             "id": "c",
-            "text": "Four-string tenor banjo with a plectrum",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
+            "text": "Binou kozh (Breton bagpipe)",
+            "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Binou kozh (Breton bagpipe)"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-brittany-regions-celtic-brittany-02-instruments-voices-i-sec-23-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Sonerion refers to Breton piping tradition centred on bombard and binou.",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1405,66 +2104,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Breton Traditional Music rewards comparative study with Ireland.\n\n- Focus: accordion, guitar, and bagad (pipe band) ensembles.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Accordion leads much Vannetais fest-noz — plinn and mazurka, not session backing only.\n\n- Guitar supports kan ha diskan, fusion, and mixed fest-noz bands.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Accordion is especially prominent leading fest-noz in:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "Provides massed pipe-band training with no direct Irish session parallel",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Vannetais (southeast Brittany)",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Vannetais (southeast Brittany)"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "A bagad includes binou, bombard, and drum sections in competition format.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1486,66 +2175,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Bagad trains thousands in massed binou, bombard, and drum sections.\n\n- Bagad competition tempi differ from village fest-noz dance stamina.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Compared with Irish pub sessions, Breton bagad culture:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "Vannetais (southeast Brittany)",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
+            "text": "Kan ha diskan, fusion concerts, and mixed fest-noz bands",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Brendan Breathnach",
+            "text": "Suites combining marches, gavottes, and massed pipe arrangements",
             "correct": false
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "Provides massed pipe-band training with no direct Irish session parallel",
             "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Provides massed pipe-band training with no direct Irish session parallel"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Guitar in Brittany commonly supports:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
+            "text": "Suites combining marches, gavottes, and massed pipe arrangements",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Mullingar, 1951",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Kan ha diskan, fusion concerts, and mixed fest-noz bands",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Francis O'Neill",
+            "text": "Provides massed pipe-band training with no direct Irish session parallel",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Kan ha diskan, fusion concerts, and mixed fest-noz bands"
       }
     ]
   },
@@ -1567,66 +2256,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Dance metre and tune form belong together in study.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Compared with Ireland: no pub-session bagad equivalent exists.\n\n- Accordion leads much Vannetais fest-noz — plinn and mazurka pulse, not secondary \"session backing.\"\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Plinn at a Vannetais fest-noz is often led by accordion rather than bombard–binou.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mullingar, 1951",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-3-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Bagad competitions often feature:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "Suites combining marches, gavottes, and massed pipe arrangements",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Mullingar, 1951",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Intangible cultural heritage of humanity",
+            "text": "9/8 slip-jig time",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Regions where Irish remains a community language",
+            "text": "4/4 reel time with a steady drive",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Suites combining marches, gavottes, and massed pipe arrangements"
       }
     ]
   },
@@ -1648,66 +2327,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Accordion, guitar, and bagad (pipe band) ensembles connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Guitar supports song, fusion, and mixed fest-noz bands; role varies by region and genre.\n\n- Bagad is a distinct Breton institution — massed binou, bombard, and drums with youth pedagogy.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Bombard sections are part of bagad ensemble structure.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Regions where Irish remains a community language",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Fest-noz rock and fusion bands expanded guitar's role beyond village sonerion lineups.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1729,66 +2388,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Instruments — Session Voices II** (Brittany trad):\n\n- Bagad competitions and village fest-noz answer different social needs from the same instrument pool.\n\n- Compared with Ireland: no pub-session bagad equivalent; accordion regional lead differs from Clare session box.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Bagad Kemper is an example of a renowned Breton bagad on festival recordings.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Tips and heels striking the floor",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Group social choreography for multiple dancers",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Accordion-led fest-noz is a \"less authentic\" tradition than bombard-only nights.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Vannetais accordion lead is a legitimate regional contract, not a degradation."
       }
     ]
   },
@@ -1810,13 +2449,32 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on accordion, guitar, and bagad (pipe band) ensembles within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nBreton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on accordion, guitar, and bagad (pipe band) ensembles within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "This lesson covers accordion, guitar, and the bagad — three voices that shape Breton music beyond the bombard–binou pair. The Vannetais fest-noz floor often hears accordion-led plinn and mazurka; guitar supports kan ha diskan and modern fest-noz bands; bagad pipe bands train thousands of young musicians in a format with no Irish pub-session equivalent. Together with Lesson 2's winds, fiddle, and harp, you have the instrumental map of peninsula trad and its competition stages.\n\nAccordion and guitar are sometimes dismissed as \"modern additions\" — historically inaccurate. Accordion entered rural Brittany in the nineteenth century and became structural to southeast dance culture. Guitar backs fusion concerts and informal veillées. Bagad is mid-twentieth century institutional innovation — but it now carries gavotte suites, bombard sections, and regional identity on par with any ancient pipe form.\n\nThis lesson covers accordion, guitar, and the bagad — three voices that shape Breton music beyond the bombard–binou pair. The Vannetais fest-noz floor often hears accordion-led plinn and mazurka; guitar supports kan ha diskan and modern fest-noz bands; bagad pipe bands train thousands of young musicians in a format with no Irish pub-session equivalent. Together with Lesson 2's winds, fiddle, and harp, you have the instrumental map of peninsula trad and its competition stages. Accordion and guitar are sometimes dismissed as \"modern additions\" — historically inaccurate. Accordion entered rural Brittany in the nineteenth century and became structural to southeast dance culture. Guitar backs fusion concerts and informal veillées. Bagad is mid-twentieth century institutional innovation — but it now carries gavotte…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-1-overview-q1",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Guitar typically leads every classic northwest fest-noz dance set alone.",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "sonerion or fiddle often lead in northwest; guitar varies by band and region."
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Bagad federations organise grading and championships for pipe bands across Brittany.",
         "difficulty": 5,
         "choices": [
           {
@@ -1826,50 +2484,11 @@ export default [
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
-        "difficulty": 5,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
-          }
-        ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -1891,71 +2510,142 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-03-instruments-voices-ii` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-03-instruments-voices-ii` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Irish Session Voices II treats bodhrán, guitar, bouzouki, banjo, box accordion, and concertina as pub-session support and occasional lead. Breton accordion often leads entire fest-noz sets in the Vannetais; guitar is less central to dance pulse than Irish session backing but vital in Bro Gozh urban bands. Bagad has no Irish parallel in session culture — closest kin is Scottish pipe band, but Breton format adds bombard ranks and Binou sections with distinct competition repertoire.\n\n| Voice | Irish session role | Breton fest-noz / bagad role |\n|-------|-------------------|------------------------------|\n| Accordion | Clare/Kerry box drive in sessions | Vannetais plinn/mazurka lead |\n| Guitar | Chord backing, bouzouki patterns | Song sets, fusion bands, fest-noz support |\n| Bagad | Not applicable | Massed pipes, bombards, drums — competitions |\n\nParallel Ireland lesson: `regions-celtic-ireland-03-instruments-voices-ii`.\n\nIrish Session Voices II treats bodhrán, guitar, bouzouki, banjo, box accordion, and concertina as pub-session support and occasional lead. Breton accordion often leads entire fest-noz sets in the Vannetais; guitar is less central to dance pulse than Irish session backing but vital in Bro Gozh urban bands. Bagad has no Irish parallel in session culture — closest kin is Scottish pipe band, but Breton format adds bombard ranks and Binou sections with distinct competition repertoire. | Voice | Irish session role | Breton fest-noz / bagad role | |-------|-------------------|------------------------------| | Accordion | Clare/Kerry box drive in sessions | Vannetais plinn/mazurka lead | | Guitar | Chord backing, bouzouki patterns | Song sets, fusion bands, fest-noz support | | Bagad |…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Accordion is especially prominent leading fest-noz in:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
+            "text": "Provides massed pipe-band training with no direct Irish session parallel",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Vannetais (southeast Brittany)",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Vannetais (southeast Brittany)"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "A bagad includes binou, bombard, and drum sections in competition format.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Francis O'Neill",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-5-key-points",
+    "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-11-structure-and-pedagogy",
+    "title": "Brittany trad: Structure and pedagogy",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 5,
+    "tags": [
+      "brittany",
+      "celtic",
+      "instruments",
+      "session"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-02-instruments-voices-i"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-03-instruments-voices-ii",
+    "estimateMinutes": 4,
+    "body": "Bagads function as music schools — children learn pipes and bombards in ranked sections, march in uniform, and compete at championships drawing bands from across Brittany and diaspora branches. Repertoire includes gavottes, marches, and composed suites — including arrangements of Suite Sudarmoricaine material.\n\nBagad federations organise grades, adjudication, and festival showcases. Bagad Kemper, Bagad Bro Kemperle, and Bagad Brieg are reference names on recordings.\n\nBagads function as music schools — children learn pipes and bombards in ranked sections, march in uniform, and compete at championships drawing bands from across Brittany and diaspora branches. Repertoire includes gavottes, marches, and composed suites — including arrangements of Suite Sudarmoricaine material.\n\nBagad federations organise grades, adjudication, and festival showcases. Bagad Kemper, Bagad Bro Kemperle, and Bagad Brieg are reference names on recordings.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-11-structure-and-pedagogy-q1",
+        "type": "mcq",
+        "prompt": "Compared with Irish pub sessions, Breton bagad culture:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Vannetais (southeast Brittany)",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Kan ha diskan, fusion concerts, and mixed fest-noz bands",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Suites combining marches, gavottes, and massed pipe arrangements",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Provides massed pipe-band training with no direct Irish session parallel",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Provides massed pipe-band training with no direct Irish session parallel"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-11-structure-and-pedagogy-q2",
+        "type": "mcq",
+        "prompt": "Guitar in Brittany commonly supports:",
+        "difficulty": 5,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Suites combining marches, gavottes, and massed pipe arrangements",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Kan ha diskan, fusion concerts, and mixed fest-noz bands",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Provides massed pipe-band training with no direct Irish session parallel",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Kan ha diskan, fusion concerts, and mixed fest-noz bands"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-16-key-points",
     "title": "Brittany trad: Key points",
     "track": "celtic",
     "region": "brittany",
@@ -1972,66 +2662,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-03-instruments-voices-ii",
     "estimateMinutes": 4,
-    "body": "- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Accordion, guitar, and bagad (pipe band) ensembles connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Accordion, guitar, and bagad (pipe band) ensembles connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Accordion leads much Vannetais fest-noz — plinn and mazurka pulse, not secondary \"session backing.\"\n- Guitar supports song, fusion, and mixed fest-noz bands; role varies by region and genre.\n- Bagad is a distinct Breton institution — massed binou, bombard, and drums with youth pedagogy.\n- Bagad competitions and village fest-noz answer different social needs from the same instrument pool.\n- Compared with Ireland: no pub-session bagad equivalent; accordion regional lead differs from Clare session box.\n\n- Accordion leads much Vannetais fest-noz — plinn and mazurka pulse, not secondary \"session backing.\"\n- Guitar supports song, fusion, and mixed fest-noz bands; role varies by region and genre.\n- Bagad is a distinct Breton institution — massed binou, bombard, and drums with youth pedagogy.\n- Bagad competitions and village fest-noz answer different social needs from the same instrument pool.\n- Compared with Ireland: no pub-session bagad equivalent; accordion regional lead differs from Clare session box.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-16-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Plinn at a Vannetais fest-noz is often led by accordion rather than bombard–binou.",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "D, G, A, and E minor",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Francis O'Neill",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-5-key-points-q2",
+        "id": "celtic-brittany-regions-celtic-brittany-03-instruments-voices-ii-sec-16-key-points-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Bagad competitions often feature:",
         "difficulty": 5,
         "choices": [
           {
             "id": "a",
-            "text": "Brendan Breathnach",
-            "correct": false
+            "text": "Suites combining marches, gavottes, and massed pipe arrangements",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Mullingar, 1951",
+            "text": "6/8 with a two-beat feel per bar",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
+            "text": "9/8 slip-jig time",
+            "correct": false
           },
           {
             "id": "d",
-            "text": "Francis O'Neill",
+            "text": "4/4 reel time with a steady drive",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Suites combining marches, gavottes, and massed pipe arrangements"
       }
     ]
   },
@@ -2053,66 +2733,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Breton Traditional Music rewards comparative study with Ireland.\n\n- Focus: gavotte, plinn, mazurka, and son dance tunes.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Gavotte names Cornouaille fest-noz core repertoire.\n\n- Plinn demands steady walking pulse — accordion-led in Vannetais.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "A gavotte is most strongly associated with which Breton region?",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Cornouaille (southwest)",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Brendan Breathnach",
             "correct": false
           },
           {
             "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Mullingar, 1951",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Cornouaille (southwest)"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Plinn is a steady walking dance, often led by accordion in the Vannetais.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2134,66 +2804,66 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Kan ha diskan is rhythmic dialogue, not solo rubato song.\n\n- Suite Sudarmoricaine bundles Cornouaille gavotte identity for bagads.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-2-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Kan ha diskan is:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "b",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Sligo fiddle style",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "Breton call-and-response singing between lead and response voices",
             "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Breton call-and-response singing between lead and response voices"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "A son in Breton tradition links:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Sligo fiddle style",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Dance pulse with sung verse and chorus",
             "correct": true
           },
           {
             "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Dance pulse with sung verse and chorus"
       }
     ]
   },
@@ -2215,66 +2885,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Dance metre and tune form belong together in study.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Fest-noz repeats follow dancers, not fixed three-tune session chains.\n\n- Gavotte names Cornouaille fest-noz core; Suite Sudarmoricaine bundles regional gavotte identity.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Breton mazurka uses 3/4 metre with fest-noz choreography distinct from Irish session mazurkas.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "b",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Donegal highland repertoire",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-3-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Suite Sudarmoricaine refers to:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Voices named in the lesson introduction",
+            "text": "A Cornouaille gavotte suite associated with south Morbihan repertoire",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Tips and heels striking the floor",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: A Cornouaille gavotte suite associated with south Morbihan repertoire"
       }
     ]
   },
@@ -2296,66 +2956,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Gavotte, plinn, mazurka, and son dance tunes connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Plinn demands steady walking pulse — especially accordion-led in Vannetais.\n\n- Mazurka and son extend fest-noz programmes beyond gavotte alone.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Bombard–binou ornament emphasises articulation and unison more than Irish fiddle roll density.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 6,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Fest-noz sets often repeat until callers release dancers — unlike fixed three-tune Irish session sets.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2377,66 +3017,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Tunes, Forms, and Style** (Brittany trad):\n\n- Kan ha diskan is rhythmic dialogue song, programmed beside instrumentals.\n\n- Ornament and set length follow dancers, not session-style three-tune chains.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-5-q1",
         "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "prompt": "Misidentifying plinn for gavotte primarily confuses:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
+            "text": "Cornouaille (southwest)",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Dancers expecting different figures and pulse",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Elbow bellows strapped to the player",
+            "text": "Modal Irish and Celtic accompaniment",
             "correct": false
           },
           {
             "id": "d",
-            "text": "D, G, A, and E minor",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "The lesson identifies this as: Dancers expecting different figures and pulse"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Rond de Saint-Vincent is an example of a named circle dance figure.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2458,71 +3088,51 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on gavotte, plinn, mazurka, and son dance tunes within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nBreton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on gavotte, plinn, mazurka, and son dance tunes within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Breton dance music organises fest-noz life by named forms — each with metre, regional variant, choreography contract, and instrumental accent. Misidentifying a plinn for a gavotte is the Breton equivalent of confusing a reel with a jig: dancers feel the error instantly. This lesson maps gavotte, plinn, mazurka, son, and related rond dances; introduces kan ha diskan as vocal form; and explains ornament and phrasing on bombard, binou, and accordion.\n\nInstrument lessons covered who leads; this lesson covers what they play and how pulse and melody behave. Suite Sudarmoricaine material — a cornerstone of Cornouaille gavotte repertoire — appears here as form example and returns in Lesson 8 with named tunes.\n\nBreton dance music organises fest-noz life by named forms — each with metre, regional variant, choreography contract, and instrumental accent. Misidentifying a plinn for a gavotte is the Breton equivalent of confusing a reel with a jig: dancers feel the error instantly. This lesson maps gavotte, plinn, mazurka, son, and related rond dances; introduces kan ha diskan as vocal form; and explains ornament and phrasing on bombard, binou, and accordion.\n\nInstrument lessons covered who leads; this lesson covers what they play and how pulse and melody behave. Suite Sudarmoricaine material — a cornerstone of Cornouaille gavotte repertoire — appears here as form example and returns in Lesson 8 with named tunes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-1-overview-q1",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Gavotte foot feel matches Irish reel swing in the same metre.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
             "text": "True",
-            "correct": true
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
+            "text": "False",
+            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "gavotte uses Breton quadruple dance pulse, not reel swing."
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan is never heard on fest-noz programmes with instrumental dance sets.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "song and dance alternate on many fest-noz nights."
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-2-compared-with-ireland",
+    "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-3-compared-with-ireland",
     "title": "Brittany trad: Compared with Ireland",
     "track": "celtic",
     "region": "brittany",
@@ -2539,72 +3149,62 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-04-genres-forms` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-04-genres-forms` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Irish trad sorts session repertoire into reels, jigs, hornpipes, polkas, and slides — chained in sets by form. Breton fest-noz sorts into dance types with figures: gavotte couple and circle variants, plinn walking chains, mazurka triple-time steps, son dance-song hybrids. Irish sean-nós is solo song; Breton kan ha diskan is duet dialogue often on fest-noz programmes between instrumental sets.\n\n| Form | Irish analogue (loose) | Breton distinction |\n|------|------------------------|-------------------|\n| Gavotte | Reel or polka drive (metre differs) | Named Cornouaille/Bro Léon figures |\n| Plinn | Steady march or processional | Walking dance; Vannetais identity |\n| Mazurka | Irish mazurka import | Fest-noz choreography distinct |\n| Son | Lilting / song-dance | Fixed chorus + dance pulse |\n| Kan ha diskan | Sean-nós (misleading) | Two-voice call-and-response |\n\nParallel Ireland lesson: `regions-celtic-ireland-04-genres-forms`.\n\nIrish trad sorts session repertoire into reels, jigs, hornpipes, polkas, and slides — chained in sets by form. Breton fest-noz sorts into dance types with figures: gavotte couple and circle variants, plinn walking chains, mazurka triple-time steps, son dance-song hybrids. Irish sean-nós is solo song; Breton kan ha diskan is duet dialogue often on fest-noz programmes between instrumental sets. | Form | Irish analogue (loose) | Breton distinction | |------|------------------------|-------------------| | Gavotte | Reel or polka drive (metre differs) | Named Cornouaille/Bro Léon figures | | Plinn | Steady march or processional | Walking dance; Vannetais identity | | Mazurka | Irish mazurka import | Fest-noz choreography distinct | | Son | Lilting / song-dance | Fixed chorus + dance…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-2-compared-with-ireland-q1",
+        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-3-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "A gavotte is most strongly associated with which Breton region?",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Cornouaille (southwest)",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Brendan Breathnach",
             "correct": false
           },
           {
             "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Mullingar, 1951",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Cornouaille (southwest)"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-3-compared-with-ireland-q2",
+        "type": "truefalse",
+        "prompt": "Plinn is a steady walking dance, often led by accordion in the Vannetais.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-5-key-points",
-    "title": "Brittany trad: Key points",
+    "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-16-ornament-and-phrasing",
+    "title": "Brittany trad: Ornament and phrasing",
     "track": "celtic",
     "region": "brittany",
     "kind": "theory_lesson",
@@ -2620,66 +3220,137 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-04-genres-forms",
     "estimateMinutes": 4,
-    "body": "- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Gavotte, plinn, mazurka, and son dance tunes connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Gavotte, plinn, mazurka, and son dance tunes connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "Breton instrumental ornament on bombard and binou emphasises articulation — tongued cuts, repeated pulse notes, unison doubling rather than Irish fiddle roll density. Accordion ornament uses bellows reversals and treble fills; fiddle adopts dance-length bow strokes.\n\nTempo negotiation: Leaders watch the floor, not the clock. Repeat structures: Fest-noz sets repeat until the caller releases dancers — unlike fixed three-tune Irish session sets.\n\nMode and key: B-flat centre for sonerion pairs; D and G common for fiddle bands; accordion layouts determine practical keys for plinn nights.\n\nBreton instrumental ornament on bombard and binou emphasises articulation — tongued cuts, repeated pulse notes, unison doubling rather than Irish fiddle roll density. Accordion ornament uses bellows reversals and treble fills; fiddle adopts dance-length bow strokes.\n\nTempo negotiation: Leaders watch the floor, not the clock. Repeat structures: Fest-noz sets repeat until the caller releases dancers — unlike fixed three-tune Irish session sets.\n\nMode and key: B-flat centre for sonerion pairs; D and G common for fiddle bands; accordion layouts determine practical keys for plinn nights.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-5-key-points-q1",
+        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-16-ornament-and-phrasing-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Kan ha diskan is:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "b",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Sligo fiddle style",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "d",
-            "text": "See Compared with Ireland section",
+            "text": "Breton call-and-response singing between lead and response voices",
             "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Breton call-and-response singing between lead and response voices"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-5-key-points-q2",
+        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-16-ornament-and-phrasing-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "A son in Breton tradition links:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Sligo fiddle style",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Dance pulse with sung verse and chorus",
             "correct": true
           },
           {
             "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Dance pulse with sung verse and chorus"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-17-suite-sudarmoricaine-form-preview",
+    "title": "Brittany trad: Suite Sudarmoricaine (form preview)",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "brittany",
+      "celtic",
+      "forms",
+      "style"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-03-instruments-voices-ii"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-04-genres-forms",
+    "estimateMinutes": 4,
+    "body": "The Suite Sudarmoricaine (\"South Morbihan suite\") aggregates gavotte and related dance tunes from Cornouaille / south Morbihan — a reference set for bagad competitions and fest-noz veterans. Lesson 8 names individual tunes and recordings; here, treat it as form bundle: multiple gavottes chained for regional identity, not a single abstract melody.\n\nSuite Sudarmoricaine appears in bagad programmes and tune books as Cornouaille shorthand.\n\nThe Suite Sudarmoricaine (\"South Morbihan suite\") aggregates gavotte and related dance tunes from Cornouaille / south Morbihan — a reference set for bagad competitions and fest-noz veterans. Lesson 8 names individual tunes and recordings; here, treat it as form bundle: multiple gavottes chained for regional identity, not a single abstract melody.\n\nSuite Sudarmoricaine appears in bagad programmes and tune books as Cornouaille shorthand.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-17-suite-sudarmoricaine-form-preview-q1",
+        "type": "truefalse",
+        "prompt": "Breton mazurka uses 3/4 metre with fest-noz choreography distinct from Irish session mazurkas.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-04-genres-forms-sec-17-suite-sudarmoricaine-form-preview-q2",
+        "type": "mcq",
+        "prompt": "Suite Sudarmoricaine refers to:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A Cornouaille gavotte suite associated with south Morbihan repertoire",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A Cornouaille gavotte suite associated with south Morbihan repertoire"
       }
     ]
   },
@@ -2701,23 +3372,23 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Breton Traditional Music rewards comparative study with Ireland.\n\n- Focus: fest-noz circle dances and regional choreographies.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Fest-noz floors set tempo — musicians follow dancer stamina.\n\n- Gavotte, plinn, mazurka, son, and rond name distinct choreography contracts.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "At a fest-noz, who typically wins tempo disputes?",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "A named circle dance figure associated with specific tunes",
             "correct": false
           },
           {
@@ -2727,40 +3398,30 @@ export default [
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Dancers on the floor",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Dancers on the floor"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Plinn is characterised by steady walking figures, often in the Vannetais.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2782,47 +3443,37 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Kan ha diskan pauses dance for participatory singing.\n\n- Bagad parade differs from commune hall fest-noz etiquette.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan on a fest-noz night may pause dance for participatory singing.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "9/8 slip-jig time",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-2-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Rond de Saint-Vincent is:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "A named circle dance figure associated with specific tunes",
             "correct": true
           },
           {
@@ -2841,7 +3492,7 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: A named circle dance figure associated with specific tunes"
       }
     ]
   },
@@ -2863,66 +3514,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Dance metre and tune form belong together in study.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Fest-noz débutant nights teach figures to newcomers.\n\n- Fest-noz is participatory social dance — tempo and repeats serve the floor.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Starting plinn music during an announced gavotte figure set is poor fest-noz etiquette.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Sligo fiddle style",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "Cornouaille fest-noz programmes emphasise gavotte and related circle dances.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Sligo fiddle style",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -2944,42 +3575,32 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Fest-noz circle dances and regional choreographies connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Kan ha diskan pauses or redirects dance nights — voice is floor participation.\n\n- Bagad parade and competition differ from village fest-noz etiquette.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Bagad competition marching is identical to village fest-noz floor practice.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Social dance forms discussed in the body",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "parade/competition formats differ from commune hall dance nights."
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Fest-noz débutant nights teach figures to newcomers — useful before advanced halls.",
         "difficulty": 7,
         "choices": [
           {
@@ -2989,21 +3610,11 @@ export default [
           },
           {
             "id": "b",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Elbow bellows strapped to the player",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3025,42 +3636,32 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-05-dance",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Dance and Rhythm** (Brittany trad):\n\n- Compared with Ireland: closer to set-dancing social nights than pub session-only culture.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Vannetais fest-noz often features plinn and mazurka with accordion-led bands.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Elbow bellows strapped to the player",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Gavotte tempo should accelerate whenever younger musicians join the band.",
         "difficulty": 7,
         "choices": [
           {
@@ -3070,21 +3671,11 @@ export default [
           },
           {
             "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "sustainable tempo keeps mixed-age floors dancing."
       }
     ]
   },
@@ -3106,66 +3697,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-05-dance",
     "estimateMinutes": 4,
-    "body": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on fest-noz circle dances and regional choreographies within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nBreton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on fest-noz circle dances and regional choreographies within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "In Brittany, dance is not decoration around concert music — it is the reason bombard players maintain circular breathing and accordionists refuse to rush a plinn. A fest-noz programmes gavottes, plinns, mazurkas, sons, and rond circle dances with named figures; musicians, callers, and floor veterans negotiate tempo and repeats in real time. This lesson connects Lesson 4's form map to feet on the floor: etiquette, regional choreography accents, and rhythm cues that instrumentalists must internalise.\n\nIf you only study bagad competition videos, you may learn massed pipe drill without understanding why a village hall slows a gavotte when grandparents join the circle. If you only study Alan Stivell fusion, you may miss how kan ha diskan pauses the floor for voices. Dance knowledge makes you a better listener, player, and fest-noz guest.\n\nIn Brittany, dance is not decoration around concert music — it is the reason bombard players maintain circular breathing and accordionists refuse to rush a plinn. A fest-noz programmes gavottes, plinns, mazurkas, sons, and rond circle dances with named figures; musicians, callers, and floor veterans negotiate tempo and repeats in real time. This lesson connects Lesson 4's form map to feet on the floor: etiquette, regional choreography accents, and rhythm cues that instrumentalists must internalise. If you only study bagad competition videos, you may learn massed pipe drill without understanding why a village hall slows a gavotte when grandparents join the circle. If you only study Alan Stivell fusion, you may miss how kan ha diskan pauses the floor for…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-1-overview-q1",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Compared with Irish step-dance spectacle, fest-noz emphasises communal social dance for all ages.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "type": "truefalse",
+        "prompt": "Animateurs or callers help link dance figures to tune types at fest-noz.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3187,23 +3758,23 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-05-dance",
     "estimateMinutes": 4,
-    "body": "Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-05-dance` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-05-dance` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Irish trad dance spans céilí group figures, set dancing quadrilles, and step dance (hard- and soft-shoe) often performed on stage or in competitions somewhat separate from pub sessions. Breton fest-noz integrates social dance for all ages with live band repertoire — closer to Irish house dance or set-dancing revival nights than to a fiddle-only session. Riverdance spectacle is a poor model for fest-noz; set-dancing nights in Clare or Galway are better analogues for circle and couple participation.\n\n| Element | Irish parallel | Breton fest-noz |\n|---------|---------------|-----------------|\n| Social floor | Set dancing, céilí | Gavotte, plinn, rond |\n| Spectacle stage | Step dance shows | Bagad, fusion concerts |\n| Song on dance night | Pub singalong | Kan ha diskan sets |\n| Tempo authority | Dancers vs session lead | Dancers vs band — dancers win |\n\nParallel Ireland lesson: `regions-celtic-ireland-05-dance`.\n\nIrish trad dance spans céilí group figures, set dancing quadrilles, and step dance (hard- and soft-shoe) often performed on stage or in competitions somewhat separate from pub sessions. Breton fest-noz integrates social dance for all ages with live band repertoire — closer to Irish house dance or set-dancing revival nights than to a fiddle-only session. Riverdance spectacle is a poor model for fest-noz; set-dancing nights in Clare or Galway are better analogues for circle and couple participation. | Element | Irish parallel | Breton fest-noz | |---------|---------------|-----------------| | Social floor | Set dancing, céilí | Gavotte, plinn, rond | | Spectacle stage | Step dance shows | Bagad, fusion concerts | | Song on dance night | Pub singalong |…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "At a fest-noz, who typically wins tempo disputes?",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
+            "text": "Single-headed Irish frame drum",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "A named circle dance figure associated with specific tunes",
             "correct": false
           },
           {
@@ -3213,46 +3784,36 @@ export default [
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Dancers on the floor",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Dancers on the floor"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Plinn is characterised by steady walking figures, often in the Vannetais.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-5-key-points",
-    "title": "Brittany trad: Key points",
+    "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-3-fest-noz-floor-etiquette",
+    "title": "Brittany trad: Fest-noz floor etiquette",
     "track": "celtic",
     "region": "brittany",
     "kind": "theory_lesson",
@@ -3268,47 +3829,37 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-05-dance",
     "estimateMinutes": 4,
-    "body": "- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Fest-noz circle dances and regional choreographies connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Fest-noz circle dances and regional choreographies connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "Join respectfully. Circles and lines have direction and hand-hold customs; newcomers watch before entering. Cutting across active figures or pushing to the centre disrupts safety and social trust.\n\nFollow the caller. Many nights use a animateur naming the next figure — gavotte, plinn, rond de Saint-Vincent. Musicians and dancers depend on that cue chain.\n\nDo not confuse forms. Starting plinn music during announced gavotte figures breaks the evening's rhythm as surely as dropping a jig into an Irish reel set unannounced.\n\nPace for stamina. Fest-noz can run hours; bands that accelerate for showmanship empty the floor. Cornouaille veterans expect sustainable tempos; Vannetais plinn nights prize hypnotic steadiness over flash.\n\nSong pauses are participation. When kan ha diskan begins, dance may stop — singing is not \"break time\" for disengagement but another branch of the same social contract.\n\nFest-noz organisers (municipalities, Fédération des Fest-Noz, cultural associations) publish calendars; bodadeg-ar-sonerion connects musicians to those dates.\n\nJoin respectfully. Circles and lines have direction and hand-hold customs; newcomers watch before entering. Cutting across active figures or pushing to the centre disrupts safety and social trust. Follow the caller. Many nights use a animateur naming the next figure — gavotte, plinn, rond de Saint-Vincent. Musicians and dancers depend on that cue chain. Do not confuse forms. Starting plinn music during announced gavotte figures breaks the evening's rhythm as surely as dropping a jig into an Irish reel set unannounced. Pace for stamina. Fest-noz can run hours; bands that accelerate for showmanship empty the floor. Cornouaille veterans expect sustainable tempos; Vannetais plinn nights prize hypnotic steadiness over flash. Song pauses are participation. When kan ha diskan begins, dance may…",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-3-fest-noz-floor-etiquette-q1",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan on a fest-noz night may pause dance for participatory singing.",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "9/8 slip-jig time",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-5-key-points-q2",
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-3-fest-noz-floor-etiquette-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Rond de Saint-Vincent is:",
         "difficulty": 7,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "A named circle dance figure associated with specific tunes",
             "correct": true
           },
           {
@@ -3327,7 +3878,251 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: A named circle dance figure associated with specific tunes"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-4-gavotte-figures-on-the-floor",
+    "title": "Brittany trad: Gavotte figures on the floor",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "brittany",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-05-dance",
+    "estimateMinutes": 4,
+    "body": "Gavotte nights feature couple turns, chains, and rond variants with regional names. Dancers emphasise hand connection, shoulder orientation, and collective circle motion — not solo acrobatics. Musicians match four-beat pulse to step accents; bombard–binou unison helps dancers lock timing across noisy halls.\n\nCornouaille programmes may chain multiple gavottes before switching form — echoing Suite Sudarmoricaine concert logic on the social floor. Callers teach figures at fest-noz débutant (beginner) nights; attending one teaches more rhythm than a week of solo practice.\n\nGavotte nights feature couple turns, chains, and rond variants with regional names. Dancers emphasise hand connection, shoulder orientation, and collective circle motion — not solo acrobatics. Musicians match four-beat pulse to step accents; bombard–binou unison helps dancers lock timing across noisy halls.\n\nCornouaille programmes may chain multiple gavottes before switching form — echoing Suite Sudarmoricaine concert logic on the social floor. Callers teach figures at fest-noz débutant (beginner) nights; attending one teaches more rhythm than a week of solo practice.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-4-gavotte-figures-on-the-floor-q1",
+        "type": "truefalse",
+        "prompt": "Starting plinn music during an announced gavotte figure set is poor fest-noz etiquette.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-4-gavotte-figures-on-the-floor-q2",
+        "type": "truefalse",
+        "prompt": "Cornouaille fest-noz programmes emphasise gavotte and related circle dances.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-6-plinn-walking-as-dance",
+    "title": "Brittany trad: Plinn: walking as dance",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "brittany",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-05-dance",
+    "estimateMinutes": 4,
+    "body": "Plinn reduces choreography to walking in lines or circles — deceptively demanding because uniform pulse across dozens of walkers requires musical discipline. Vannetais accordion bounce provides metronomic side-step cues; northwest plinn with fiddle or mixed bands still forbids reel acceleration.\n\nTeachers describe plinn as meditative — the opposite of Irish step-dance spectacle. Instrumentalists who ornament heavily can obscure the walking pulse; spare phrasing wins.\n\nPlinn dance culture ties to Morbihan and Vannetais fest-noz calendars more than to Lorient bagad finals.\n\nPlinn reduces choreography to walking in lines or circles — deceptively demanding because uniform pulse across dozens of walkers requires musical discipline. Vannetais accordion bounce provides metronomic side-step cues; northwest plinn with fiddle or mixed bands still forbids reel acceleration.\n\nTeachers describe plinn as meditative — the opposite of Irish step-dance spectacle. Instrumentalists who ornament heavily can obscure the walking pulse; spare phrasing wins.\n\nPlinn dance culture ties to Morbihan and Vannetais fest-noz calendars more than to Lorient bagad finals.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-6-plinn-walking-as-dance-q1",
+        "type": "truefalse",
+        "prompt": "Bagad competition marching is identical to village fest-noz floor practice.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "parade/competition formats differ from commune hall dance nights."
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-6-plinn-walking-as-dance-q2",
+        "type": "truefalse",
+        "prompt": "Fest-noz débutant nights teach figures to newcomers — useful before advanced halls.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-9-bagad-parade-versus-fest-noz-floor",
+    "title": "Brittany trad: Bagad parade versus fest-noz floor",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "brittany",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-05-dance",
+    "estimateMinutes": 4,
+    "body": "Bagad marching combines drum cadences, massed pipes, and bombard sections in parade and competition formats — exhilarating but not substitutable for fest-noz etiquette. Dancers at Festival Interceltique may dance to bagad concerts in festival grounds; that experience differs from commune hall fest-noz where animateurs teach figures.\n\nKnow which room you are in: competition suite tempi need not match village gavotte repeats.\n\nBagad marching combines drum cadences, massed pipes, and bombard sections in parade and competition formats — exhilarating but not substitutable for fest-noz etiquette. Dancers at Festival Interceltique may dance to bagad concerts in festival grounds; that experience differs from commune hall fest-noz where animateurs teach figures.\n\nKnow which room you are in: competition suite tempi need not match village gavotte repeats.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-9-bagad-parade-versus-fest-noz-floor-q1",
+        "type": "truefalse",
+        "prompt": "Vannetais fest-noz often features plinn and mazurka with accordion-led bands.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-9-bagad-parade-versus-fest-noz-floor-q2",
+        "type": "truefalse",
+        "prompt": "Gavotte tempo should accelerate whenever younger musicians join the band.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "sustainable tempo keeps mixed-age floors dancing."
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-13-key-points",
+    "title": "Brittany trad: Key points",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 7,
+    "tags": [
+      "brittany",
+      "celtic",
+      "dance",
+      "rhythm"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-05-dance",
+    "estimateMinutes": 4,
+    "body": "- Fest-noz is participatory social dance — tempo and repeats serve the floor.\n- Gavotte, plinn, mazurka, son, and rond name distinct choreography contracts.\n- Kan ha diskan pauses or redirects dance nights — voice is floor participation.\n- Bagad parade and competition differ from village fest-noz etiquette.\n- Compared with Ireland: closer to set-dancing social nights than pub session-only culture.\n\n- Fest-noz is participatory social dance — tempo and repeats serve the floor.\n- Gavotte, plinn, mazurka, son, and rond name distinct choreography contracts.\n- Kan ha diskan pauses or redirects dance nights — voice is floor participation.\n- Bagad parade and competition differ from village fest-noz etiquette.\n- Compared with Ireland: closer to set-dancing social nights than pub session-only culture.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-13-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Compared with Irish step-dance spectacle, fest-noz emphasises communal social dance for all ages.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-05-dance-sec-13-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Animateurs or callers help link dance figures to tune types at fest-noz.",
+        "difficulty": 7,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3349,66 +4144,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-06-history",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Breton Traditional Music rewards comparative study with Ireland.\n\n- Focus: bagad revival, Alan Stivell's fusion era, and archival song collections.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Fest-noz floors preserved repertoire through centralisation and migration.\n\n- Dastum archives mediate oral tradition — maps back to recordings.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Dastum is primarily associated with:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Collecting Breton folklore, music, and field recordings",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Mullingar, 1951",
             "correct": false
           },
           {
             "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Collecting Breton folklore, music, and field recordings"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Bagad ensembles emerged in the mid-twentieth century as youth pipe-band institutions.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3430,66 +4215,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-06-history",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Bagad invented mid-century youth transmission unlike Irish sessions.\n\n- Stivell fusion globalised Breton music without replacing fest-noz core.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "type": "truefalse",
+        "prompt": "Alan Stivell's early 1970s albums helped internationalise Breton harp and fusion.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "Bodadeg ar Sonerion publishes Sonerion tune books and supports musicians.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3511,66 +4276,56 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-06-history",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Dance metre and tune form belong together in study.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Sonerion books risk homogenisation if ear-first learning is skipped.\n\n- Fest-noz floors preserved dance repertoire through centralisation and migration pressures.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-3-q1",
         "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "prompt": "Compared with Ireland's Comhaltas-Fleadh pipeline, Brittany's mass youth instrumental pipeline is often:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
+            "text": "Four-string tenor banjo with a plectrum",
             "correct": false
           },
           {
             "id": "b",
+            "text": "Bagad training and competition",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Bagad training and competition"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-3-q2",
+        "type": "truefalse",
+        "prompt": "Fest-noz federation networks help transmit repertoire through modern event calendars.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          }
-        ],
-        "explain": "See the lesson text for the grounded answer."
-      },
-      {
-        "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
-        "difficulty": 8,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Voices named in the lesson introduction",
-            "correct": true
-          },
-          {
             "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3592,66 +4347,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-06-history",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Bagad revival, alan stivell's fusion era, and archival song collections connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Dastum archives and Sonerion books mediate oral tradition — use as maps, not sole sources.\n\n- Bagad invented mid-century youth transmission distinct from Irish session pedagogy.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan transmission connects to Breton language renewal efforts.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Sliabh Luachra polkas and slides",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
-            "correct": true
-          }
-        ],
-        "explain": ") Social dance forms discussed in the body"
-      },
-      {
-        "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
-        "difficulty": 8,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-4-q2",
+        "type": "truefalse",
+        "prompt": "Bagad competition suites always match village fest-noz tempo and repeats.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "competition and floor contexts differ."
       }
     ]
   },
@@ -3673,66 +4408,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-06-history",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — History, Revival, and Transmission** (Brittany trad):\n\n- Alan Stivell's fusion era globalised Breton music without replacing fest-noz social core.\n\n- Transmission debates mirror Ireland: floor vs stage, book vs ear, innovation vs source.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Festival Interceltique de Lorient promotes Pan-Celtic exchange including Breton bagads.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "D, G, A, and E minor",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Stivell fusion erased all fest-noz practice permanently.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": false
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "fusion coexists with continuing fest-noz culture."
       }
     ]
   },
@@ -3754,13 +4469,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-06-history",
     "estimateMinutes": 4,
-    "body": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on bagad revival, Alan Stivell's fusion era, and archival song collections within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nBreton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on bagad revival, Alan Stivell's fusion era, and archival song collections within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Why does a gavotte in Quimper share a name with a tune in Paris diaspora classes but differ in tempo and repeats? Because Breton traditional music survived French centralisation, wartime disruption, rural depopulation, and language shift through oral transmission on fest-noz floors — and every link left fingerprints. A village version became a bagad competition suite; a field recording became a Sonerion book standard; Alan Stivell's rock staging became how foreigners imagine \"Breton music\" before they ever enter a commune hall.\n\nThis lesson follows transmission from regional practice through Dastum collecting, bodadeg publishing, bagad youth pipelines, fest-noz federation networks, and fusion media — ending with debates familiar across Celtic regions: stage versus floor, competition clarity versus fest-noz stamina, Breton language renewal versus French pop default.\n\nYou have met instruments, forms, and dance. Here you learn how repertoire moved — and why transmission history makes you a better fest-noz musician, not only a historian.\n\nWhy does a gavotte in Quimper share a name with a tune in Paris diaspora classes but differ in tempo and repeats? Because Breton traditional music survived French centralisation, wartime disruption, rural depopulation, and language shift through oral transmission on fest-noz floors — and every link left fingerprints. A village version became a bagad competition suite; a field recording became a Sonerion book standard; Alan Stivell's rock staging became how foreigners imagine \"Breton music\" before they ever enter a commune hall. This lesson follows transmission from regional practice through Dastum collecting, bodadeg publishing, bagad youth pipelines, fest-noz federation networks, and fusion media — ending with debates familiar across Celtic regions: stage versus floor, competition clarity versus fest-noz stamina, Breton language…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-1-overview-q1",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Sonerion books risk homogenisation if learners skip ear-first floor learning.",
         "difficulty": 8,
         "choices": [
           {
@@ -3770,50 +4485,30 @@ export default [
           },
           {
             "id": "b",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "type": "truefalse",
+        "prompt": "Oral transmission in Brittany now includes mediated channels like streaming and workshops.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": true
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -3835,71 +4530,579 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-06-history",
     "estimateMinutes": 4,
-    "body": "Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Ireland's transmission story runs through annals, harp patronage collapse, O'Neill tune books, diaspora 78 rpm records, Comhaltas and Fleadh pyramids, and ITMA archives. Brittany's parallel emphasises fest-noz continuity, kan ha diskan song collection, mid-twentieth century cultural nationalism, bagad institutional invention, and Stivell-era international fusion rather than pub-session export alone.\n\n| Channel | Ireland | Brittany |\n|---------|---------|----------|\n| Key archive | ITMA | Dastum, regional fonds |\n| Youth pipeline | Comhaltas classes | Bagad, bodadeg workshops |\n| Media breakthrough | Coleman 78s, Riverdance | Stivell albums, Lorient festival |\n| Social anchor | Pub session | Fest-noz |\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history`.\n\nIreland's transmission story runs through annals, harp patronage collapse, O'Neill tune books, diaspora 78 rpm records, Comhaltas and Fleadh pyramids, and ITMA archives. Brittany's parallel emphasises fest-noz continuity, kan ha diskan song collection, mid-twentieth century cultural nationalism, bagad institutional invention, and Stivell-era international fusion rather than pub-session export alone.\n\n| Channel | Ireland | Brittany |\n|---------|---------|----------|\n| Key archive | ITMA | Dastum, regional fonds |\n| Youth pipeline | Comhaltas classes | Bagad, bodadeg workshops |\n| Media breakthrough | Coleman 78s, Riverdance | Stivell albums, Lorient festival |\n| Social anchor | Pub session | Fest-noz |\n\nParallel Ireland lesson: `regions-celtic-ireland-06-history`.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Dastum is primarily associated with:",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
+            "text": "Regions where Irish remains a community language",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Collecting Breton folklore, music, and field recordings",
             "correct": true
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Mullingar, 1951",
             "correct": false
           },
           {
             "id": "d",
-            "text": "6/8 with a two-beat feel per bar",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Collecting Breton folklore, music, and field recordings"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Bagad ensembles emerged in the mid-twentieth century as youth pipe-band institutions.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "6/8 with a two-beat feel per bar",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "9/8 slip-jig time",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-5-key-points",
+    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-3-pre-revival-rural-practice",
+    "title": "Brittany trad: Pre-revival rural practice",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "brittany",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-06-history",
+    "estimateMinutes": 4,
+    "body": "Before industrial recording, Breton dance music lived at veillées, weddings, seasonal fest-noz, and parish social life — led by sonerion pairs, fiddles, and voices. Kan ha diskan carried oral poetry and Breton language practice. French state policy and economic migration weakened Breton monolingual communities but did not erase dance nights entirely — ethnographers found living repertoire when revivalists listened.\n\nBombard and binou makers maintained local workshops; tune variation persisted village by village. Unlike Ireland's well-documented collector wave in the eighteenth and nineteenth centuries, Brittany's rural corpus entered wider print partly through twentieth-century revival urgency.\n\nBefore industrial recording, Breton dance music lived at veillées, weddings, seasonal fest-noz, and parish social life — led by sonerion pairs, fiddles, and voices. Kan ha diskan carried oral poetry and Breton language practice. French state policy and economic migration weakened Breton monolingual communities but did not erase dance nights entirely — ethnographers found living repertoire when revivalists listened.\n\nBombard and binou makers maintained local workshops; tune variation persisted village by village. Unlike Ireland's well-documented collector wave in the eighteenth and nineteenth centuries, Brittany's rural corpus entered wider print partly through twentieth-century revival urgency.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-3-pre-revival-rural-practice-q1",
+        "type": "truefalse",
+        "prompt": "Alan Stivell's early 1970s albums helped internationalise Breton harp and fusion.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-3-pre-revival-rural-practice-q2",
+        "type": "truefalse",
+        "prompt": "Bodadeg ar Sonerion publishes Sonerion tune books and supports musicians.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-4-dastum-and-archival-recovery",
+    "title": "Brittany trad: Dastum and archival recovery",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "brittany",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-06-history",
+    "estimateMinutes": 4,
+    "body": "Dastum (founded 1972) collects folklore — music, song, dance, oral history — through field campaigns and publications. Wikipedia links Dastum to the Breton cultural movement's effort to document vanishing practice. Field recordings preserve fest-noz sound before amplification homogenised balance — bombard–binou duets, accordion plinn, and kan ha diskan in domestic rooms.\n\nDastum parallels Ireland's ITMA in function: researchers and musicians trace tune histories, compare village variants, and source teaching material. Without archives, revival risks single-book fossilisation — one Sonerion edition mistaken for universal law.\n\nDastum (founded 1972) collects folklore — music, song, dance, oral history — through field campaigns and publications. Wikipedia links Dastum to the Breton cultural movement's effort to document vanishing practice. Field recordings preserve fest-noz sound before amplification homogenised balance — bombard–binou duets, accordion plinn, and kan ha diskan in domestic rooms.\n\nDastum parallels Ireland's ITMA in function: researchers and musicians trace tune histories, compare village variants, and source teaching material. Without archives, revival risks single-book fossilisation — one Sonerion edition mistaken for universal law.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-4-dastum-and-archival-recovery-q1",
+        "type": "mcq",
+        "prompt": "Compared with Ireland's Comhaltas-Fleadh pipeline, Brittany's mass youth instrumental pipeline is often:",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Bagad training and competition",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Bagad training and competition"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-4-dastum-and-archival-recovery-q2",
+        "type": "truefalse",
+        "prompt": "Fest-noz federation networks help transmit repertoire through modern event calendars.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-5-bodadeg-ar-sonerion-and-tune-book-transmission",
+    "title": "Brittany trad: Bodadeg ar Sonerion and tune book transmission",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "brittany",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-06-history",
+    "estimateMinutes": 4,
+    "body": "Bodadeg ar Sonerion publishes Sonerion tune books, supports classes, and connects musicians to fest-noz calendars. Print standardised gavotte and plinn repertoire for learners who could not access village mentors — the same double-edged gift as O'Neill in Ireland: access plus potential homogenisation.\n\nTeachers debate whether book learning should follow ear-first pedagogy; healthy scenes use books as maps back to floors and recordings.\n\nBodadeg ar Sonerion anchors instrumental pedagogy especially for bombard and binou.\n\nBodadeg ar Sonerion publishes Sonerion tune books, supports classes, and connects musicians to fest-noz calendars. Print standardised gavotte and plinn repertoire for learners who could not access village mentors — the same double-edged gift as O'Neill in Ireland: access plus potential homogenisation.\n\nTeachers debate whether book learning should follow ear-first pedagogy; healthy scenes use books as maps back to floors and recordings.\n\nBodadeg ar Sonerion anchors instrumental pedagogy especially for bombard and binou.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-5-bodadeg-ar-sonerion-and-tune-book-transmission-q1",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan transmission connects to Breton language renewal efforts.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-5-bodadeg-ar-sonerion-and-tune-book-transmission-q2",
+        "type": "truefalse",
+        "prompt": "Bagad competition suites always match village fest-noz tempo and repeats.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "competition and floor contexts differ."
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-6-bagad-institutional-revival-invention",
+    "title": "Brittany trad: Bagad: institutional revival invention",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "brittany",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-06-history",
+    "estimateMinutes": 4,
+    "body": "Bagad ensembles emerged in the 1940s–1950s as youth pipe bands tied to Breton identity movements — Wikipedia notes Bagad Kemper (1948) among early models. Bagads gave binou and bombard massed pedagogy, competition goals, and parade visibility distinct from quiet veillée practice.\n\nTransmission through bagad means thousands learn Breton repertoire before choosing fest-noz dance culture or fusion concerts. Competition suites — including Suite Sudarmoricaine arrangements — circulate through adjudicated performances, fixing tempi and harmonies alien to village halls.\n\nBagad federations grade bands and host championships — a transmission channel Ireland's session culture lacks.\n\nBagad ensembles emerged in the 1940s–1950s as youth pipe bands tied to Breton identity movements — Wikipedia notes Bagad Kemper (1948) among early models. Bagads gave binou and bombard massed pedagogy, competition goals, and parade visibility distinct from quiet veillée practice.\n\nTransmission through bagad means thousands learn Breton repertoire before choosing fest-noz dance culture or fusion concerts. Competition suites — including Suite Sudarmoricaine arrangements — circulate through adjudicated performances, fixing tempi and harmonies alien to village halls.\n\nBagad federations grade bands and host championships — a transmission channel Ireland's session culture lacks.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-6-bagad-institutional-revival-invention-q1",
+        "type": "truefalse",
+        "prompt": "Festival Interceltique de Lorient promotes Pan-Celtic exchange including Breton bagads.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-6-bagad-institutional-revival-invention-q2",
+        "type": "truefalse",
+        "prompt": "Stivell fusion erased all fest-noz practice permanently.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "fusion coexists with continuing fest-noz culture."
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-7-alan-stivell-and-fusion-media",
+    "title": "Brittany trad: Alan Stivell and fusion media",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "brittany",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-06-history",
+    "estimateMinutes": 4,
+    "body": "Alan Stivell (born 1944, Riom) — son of harp builder Jord Cochevelou — released Renaissance de la harpe celtique (1972) and Chemins de terre (1973), fusing harp, binou, rock rhythm section, and Breton identity politics. Stivell did not invent fest-noz; he amplified Breton music to European festival networks and Pan-Celtic imagination.\n\nCritics and fans still argue: fusion energises youth or distorts floor repertoire? Stivell's answer in practice — decades of recording and fest-noz support — suggests both can coexist when floor tradition stays staffed.\n\nAlan Stivell embodies media transmission as powerfully as any archive.\n\nAlan Stivell (born 1944, Riom) — son of harp builder Jord Cochevelou — released Renaissance de la harpe celtique (1972) and Chemins de terre (1973), fusing harp, binou, rock rhythm section, and Breton identity politics. Stivell did not invent fest-noz; he amplified Breton music to European festival networks and Pan-Celtic imagination.\n\nCritics and fans still argue: fusion energises youth or distorts floor repertoire? Stivell's answer in practice — decades of recording and fest-noz support — suggests both can coexist when floor tradition stays staffed.\n\nAlan Stivell embodies media transmission as powerfully as any archive.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-7-alan-stivell-and-fusion-media-q1",
+        "type": "truefalse",
+        "prompt": "Sonerion books risk homogenisation if learners skip ear-first floor learning.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-7-alan-stivell-and-fusion-media-q2",
+        "type": "truefalse",
+        "prompt": "Oral transmission in Brittany now includes mediated channels like streaming and workshops.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-8-fest-noz-federation-and-modern-calendars",
+    "title": "Brittany trad: Fest-noz federation and modern calendars",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "brittany",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-06-history",
+    "estimateMinutes": 4,
+    "body": "The Fédération des Fest-Noz and municipal cultural offices publish fest-noz calendars across Brittany and Bro Gozh cities. Transmission today includes Facebook event pages, YouTube livestreams, and fest-noz rock hybrids — oral tradition now mediated like Irish trad's slow-down apps.\n\nFestival Interceltique de Lorient (since 1971) and Yaouank in Rennes export Breton dance to international audiences — spreading repertoire and risking festival tempo stereotypes.\n\nfest-noz as institution connects villages to touring bands and diaspora learners.\n\nThe Fédération des Fest-Noz and municipal cultural offices publish fest-noz calendars across Brittany and Bro Gozh cities. Transmission today includes Facebook event pages, YouTube livestreams, and fest-noz rock hybrids — oral tradition now mediated like Irish trad's slow-down apps.\n\nFestival Interceltique de Lorient (since 1971) and Yaouank in Rennes export Breton dance to international audiences — spreading repertoire and risking festival tempo stereotypes.\n\nfest-noz as institution connects villages to touring bands and diaspora learners.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-8-fest-noz-federation-and-modern-calendars-q1",
+        "type": "mcq",
+        "prompt": "Dastum is primarily associated with:",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Collecting Breton folklore, music, and field recordings",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Collecting Breton folklore, music, and field recordings"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-8-fest-noz-federation-and-modern-calendars-q2",
+        "type": "truefalse",
+        "prompt": "Bagad ensembles emerged in the mid-twentieth century as youth pipe-band institutions.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-9-language-identity-and-song-transmission",
+    "title": "Brittany trad: Language, identity, and song transmission",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "brittany",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-06-history",
+    "estimateMinutes": 4,
+    "body": "Kan ha diskan and son repertoires carry Breton language text — transmission ties to Breton medium education (Diwan schools) and adult learners. French-language fest-noz exists, but revivalists link song transmission to linguistic survival more explicitly than most Irish session contexts link reels to Irish Gaelic.\n\nYann-Fanch Kemener and Annie Ebrel represent song carriers bridging archive, fest-noz, and concert stages.\n\nKan ha diskan and son repertoires carry Breton language text — transmission ties to Breton medium education (Diwan schools) and adult learners. French-language fest-noz exists, but revivalists link song transmission to linguistic survival more explicitly than most Irish session contexts link reels to Irish Gaelic.\n\nYann-Fanch Kemener and Annie Ebrel represent song carriers bridging archive, fest-noz, and concert stages.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-9-language-identity-and-song-transmission-q1",
+        "type": "truefalse",
+        "prompt": "Alan Stivell's early 1970s albums helped internationalise Breton harp and fusion.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-9-language-identity-and-song-transmission-q2",
+        "type": "truefalse",
+        "prompt": "Bodadeg ar Sonerion publishes Sonerion tune books and supports musicians.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-10-transmission-debates-living-tradition",
+    "title": "Brittany trad: Transmission debates (living tradition)",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 8,
+    "tags": [
+      "brittany",
+      "celtic",
+      "history",
+      "revival"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-05-dance"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-06-history",
+    "estimateMinutes": 4,
+    "body": "Floor versus stage. Village gavotte repeats differ from bagad suite cuts — neither is \"wrong.\"\n\nCompetition versus fest-noz. Bagad adjudication prizes precision; fest-noz prizes dancer stamina — musicians crossing between worlds must recalibrate.\n\nBook versus ear. Sonerion books accelerate learning; elders' phrasing still teaches regional accent.\n\nFusion versus sonerion purism. Fest-noz rock and Stivell-line concerts coexist with bombard–binou duos — flattening either misrepresents Brittany.\n\nFloor versus stage. Village gavotte repeats differ from bagad suite cuts — neither is \"wrong.\"\n\nCompetition versus fest-noz. Bagad adjudication prizes precision; fest-noz prizes dancer stamina — musicians crossing between worlds must recalibrate.\n\nBook versus ear. Sonerion books accelerate learning; elders' phrasing still teaches regional accent.\n\nFusion versus sonerion purism. Fest-noz rock and Stivell-line concerts coexist with bombard–binou duos — flattening either misrepresents Brittany.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-10-transmission-debates-living-tradition-q1",
+        "type": "mcq",
+        "prompt": "Compared with Ireland's Comhaltas-Fleadh pipeline, Brittany's mass youth instrumental pipeline is often:",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Bagad training and competition",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Bagad training and competition"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-10-transmission-debates-living-tradition-q2",
+        "type": "truefalse",
+        "prompt": "Fest-noz federation networks help transmit repertoire through modern event calendars.",
+        "difficulty": 8,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-13-key-points",
     "title": "Brittany trad: Key points",
     "track": "celtic",
     "region": "brittany",
@@ -3916,66 +5119,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-06-history",
     "estimateMinutes": 4,
-    "body": "- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Bagad revival, alan stivell's fusion era, and archival song collections connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Bagad revival, alan stivell's fusion era, and archival song collections connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Fest-noz floors preserved dance repertoire through centralisation and migration pressures.\n- Dastum archives and Sonerion books mediate oral tradition — use as maps, not sole sources.\n- Bagad invented mid-century youth transmission distinct from Irish session pedagogy.\n- Alan Stivell's fusion era globalised Breton music without replacing fest-noz social core.\n- Transmission debates mirror Ireland: floor vs stage, book vs ear, innovation vs source.\n\n- Fest-noz floors preserved dance repertoire through centralisation and migration pressures.\n- Dastum archives and Sonerion books mediate oral tradition — use as maps, not sole sources.\n- Bagad invented mid-century youth transmission distinct from Irish session pedagogy.\n- Alan Stivell's fusion era globalised Breton music without replacing fest-noz social core.\n- Transmission debates mirror Ireland: floor vs stage, book vs ear, innovation vs source.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-13-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan transmission connects to Breton language renewal efforts.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "9/8 slip-jig time",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "4/4 reel time with a steady drive",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Sligo fiddle style",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "See Compared with Ireland section",
-            "correct": true
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-brittany-regions-celtic-brittany-06-history-sec-13-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Bagad competition suites always match village fest-noz tempo and repeats.",
         "difficulty": 8,
         "choices": [
           {
             "id": "a",
-            "text": "Sligo fiddle style",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Donegal highland repertoire",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "d",
-            "text": "4/4 reel time with a steady drive",
-            "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "competition and floor contexts differ."
       }
     ]
   },
@@ -3997,13 +5180,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Breton Traditional Music rewards comparative study with Ireland.\n\n- Focus: fest-noz floors versus concert-stage fusion bands.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Fest-noz floor and concert stage optimise different tempo and participation.\n\n- Bagad championships are spectacle transmission — not village hall substitutes.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The commune hall fest-noz prioritises:",
         "difficulty": 9,
         "choices": [
           {
@@ -4023,40 +5206,30 @@ export default [
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Dancer stamina and participatory dance and song",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Dancer stamina and participatory dance and song"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Bagad finals at Lorient differ from village fest-noz in scale and adjudicated suite format.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4078,66 +5251,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Stivell embodies export fusion without replacing fest-noz social core.\n\n- Fest-noz rock recruits youth through electric dance nights.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "type": "truefalse",
+        "prompt": "Alan Stivell is associated with concert fusion export, not solely village sonerion duets.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "D, G, A, and E minor",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "Fest-noz rock bands connect electric rock energy to dance functions like gavotte and plinn.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Brendan Breathnach",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4159,42 +5312,32 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Dance metre and tune form belong together in study.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Bro Gozh and Lorient mediate diaspora and Pan-Celtic exchange.\n\n- Fest-noz floor and concert stage optimise different tempo, arrangement, and participation rules.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan specialists perform in voice-forward scenes separate from pure instrumental dance sets.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-3-q2",
         "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "prompt": "Bro Gozh refers to:",
         "difficulty": 9,
         "choices": [
           {
@@ -4209,7 +5352,7 @@ export default [
           },
           {
             "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "Breton diaspora cultural life in cities like Paris and Nantes",
             "correct": true
           },
           {
@@ -4218,7 +5361,7 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "The lesson identifies this as: Breton diaspora cultural life in cities like Paris and Nantes"
       }
     ]
   },
@@ -4240,42 +5383,32 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Fest-noz floors versus concert-stage fusion bands connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Bagad championships are spectacle transmission — not substitutes for commune dance pedagogy.\n\n- Alan Stivell embodies export fusion without replacing fest-noz social core.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-4-q1",
-        "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "type": "truefalse",
+        "prompt": "Musicians should always play bagad competition tempi at village fest-noz.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Social dance forms discussed in the body",
+            "text": "False",
             "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "floor context requires sustainable dance tempo."
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Festival Interceltique de Lorient programmes Pan-Celtic exchange across regions.",
         "difficulty": 9,
         "choices": [
           {
@@ -4285,21 +5418,11 @@ export default [
           },
           {
             "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4321,66 +5444,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Representative Fusions and Scenes** (Brittany trad):\n\n- Fest-noz rock recruits youth through electric dance nights tied to gavotte and plinn function.\n\n- Bro Gozh and Pan-Celtic festivals mediate diaspora and cross-border repertoire exchange.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Compared with Irish pub sessions, Breton representative scenes centre fest-noz rather than fiddle-session trade.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Highly ornamented, often unaccompanied traditional song",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Group social choreography for multiple dancers",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
-            "correct": true
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Concert fusion and fest-noz floor practice cannot coexist in the same cultural ecosystem.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
+            "text": "True",
             "correct": false
           },
           {
             "id": "b",
-            "text": "Brendan Breathnach",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Build on—not replace—living tradition",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "they coexist with different contracts."
       }
     ]
   },
@@ -4402,66 +5505,46 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on fest-noz floors versus concert-stage fusion bands within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nBreton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on fest-noz floors versus concert-stage fusion bands within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "Breton music lives in two overlapping worlds tourists often confuse: the fest-noz floor — commune halls, dancer stamina, bombard–binou unison, kan ha diskan participation — and the concert stage — bagad finals at Lorient, Alan Stivell harp-rock fusion, fest-noz rock bands packing youth into halls with electric guitar. This lesson maps representative scenes, not a exhaustive artist catalogue: what each stage optimises, who listens, how repertoire crosses between floor and spotlight, and why flattening everything into \"Celtic fusion\" misses Brittany's social nuance.\n\nRepresentative depth means hearing institutions in sound: a Bagad Kemper championship set teaches competition transmission; a Quimper fest-noz teaches floor tempo; a Stivell anniversary concert teaches export fusion. Musicians who excel in one scene may fail in another without recalibration — the same tension Irish step-dance spectacle versus Clare session culture demonstrates.\n\nBreton music lives in two overlapping worlds tourists often confuse: the fest-noz floor — commune halls, dancer stamina, bombard–binou unison, kan ha diskan participation — and the concert stage — bagad finals at Lorient, Alan Stivell harp-rock fusion, fest-noz rock bands packing youth into halls with electric guitar. This lesson maps representative scenes, not a exhaustive artist catalogue: what each stage optimises, who listens, how repertoire crosses between floor and spotlight, and why flattening everything into \"Celtic fusion\" misses Brittany's social nuance. Representative depth means hearing institutions in sound: a Bagad Kemper championship set teaches competition transmission; a Quimper fest-noz teaches floor tempo; a Stivell anniversary concert teaches export fusion. Musicians who excel in one scene may fail in another…",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-1-overview-q1",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Red Cardell represents fest-noz rock bridging youth audiences to dance nights.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Intangible cultural heritage of humanity",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Brendan Breathnach",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-1-overview-q2",
-        "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "type": "truefalse",
+        "prompt": "Flattening all Breton scenes into generic Celtic fusion misrepresents social context.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Regions where Irish remains a community language",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Mullingar, 1951",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Intangible cultural heritage of humanity",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4483,13 +5566,13 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "Ireland's representative depth spans pub sessions, fleadh stages, Riverdance-scale spectacle, Planxty folk-rock, and diaspora cities. Brittany's parallel centres fest-noz (not pub session), bagad (not céilí band), Stivell-line fusion (not solely Dublin folk-rock), and Bro Gozh urban fest-noz rather than Boston Irish pub circuits as the default diaspora image.\n\n| Scene | Irish reference | Breton exemplar |\n|-------|---------------|-----------------|\n| Community dance night | Set dancing, céilí | Fest-noz |\n| Massed pipes spectacle | Rare in trad | Bagad finals |\n| Fusion export | Planxty, Chieftains rock crossover | Alan Stivell |\n| Youth dance-rock | Ceoltóirí plus later bands | Fest-noz rock |\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth`.\n\nIreland's representative depth spans pub sessions, fleadh stages, Riverdance-scale spectacle, Planxty folk-rock, and diaspora cities. Brittany's parallel centres fest-noz (not pub session), bagad (not céilí band), Stivell-line fusion (not solely Dublin folk-rock), and Bro Gozh urban fest-noz rather than Boston Irish pub circuits as the default diaspora image.\n\n| Scene | Irish reference | Breton exemplar |\n|-------|---------------|-----------------|\n| Community dance night | Set dancing, céilí | Fest-noz |\n| Massed pipes spectacle | Rare in trad | Bagad finals |\n| Fusion export | Planxty, Chieftains rock crossover | Alan Stivell |\n| Youth dance-rock | Ceoltóirí plus later bands | Fest-noz rock |\n\nParallel Ireland lesson: `regions-celtic-ireland-07-representative-depth`.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-2-compared-with-ireland-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "The commune hall fest-noz prioritises:",
         "difficulty": 9,
         "choices": [
           {
@@ -4509,45 +5592,482 @@ export default [
           },
           {
             "id": "d",
-            "text": "Community dance and oral transmission",
+            "text": "Dancer stamina and participatory dance and song",
             "correct": true
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Dancer stamina and participatory dance and song"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Bagad finals at Lorient differ from village fest-noz in scale and adjudicated suite format.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "D, G, A, and E minor",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "False",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Mouth blowing only, like Highland pipes",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-5-key-points",
+    "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-3-scene-1-village-fest-noz",
+    "title": "Brittany trad: Scene 1: Village fest-noz",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "brittany",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "The commune hall fest-noz is the tradition's heartbeat. Band scale is modest — sonerion duo plus fiddle, or accordion-led Vannetais lineup. Animateurs teach gavotte and plinn figures; kan ha diskan singers step forward between sets. Revenue often funds local cultural associations; alcohol policy varies but dance participation is central.\n\nMusician contract: Sustain tempo, repeat until released, avoid competition-showmanship accelerations. Listener contract: Join floor or respect space; song sections invite voices.\n\nFest-noz calendars list these nights across Brittany — the first scene serious learners should attend.\n\nThe commune hall fest-noz is the tradition's heartbeat. Band scale is modest — sonerion duo plus fiddle, or accordion-led Vannetais lineup. Animateurs teach gavotte and plinn figures; kan ha diskan singers step forward between sets. Revenue often funds local cultural associations; alcohol policy varies but dance participation is central.\n\nMusician contract: Sustain tempo, repeat until released, avoid competition-showmanship accelerations. Listener contract: Join floor or respect space; song sections invite voices.\n\nFest-noz calendars list these nights across Brittany — the first scene serious learners should attend.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-3-scene-1-village-fest-noz-q1",
+        "type": "truefalse",
+        "prompt": "Alan Stivell is associated with concert fusion export, not solely village sonerion duets.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-3-scene-1-village-fest-noz-q2",
+        "type": "truefalse",
+        "prompt": "Fest-noz rock bands connect electric rock energy to dance functions like gavotte and plinn.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-4-scene-2-festival-dance-tent",
+    "title": "Brittany trad: Scene 2: Festival dance tent",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "brittany",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "Regional festivals — Festival de Cornouaille in Quimper, Yaouank in Rennes — host large fest-noz with touring bands and mixed audiences. Sound is louder, floors more crowded, repertoire more standardised across regions. Useful for hearing star bombard players; less ideal as sole model for tempo if you only play village halls.\n\nCrossover: Festival programmes preview bagad guests and fusion acts — programmers bridge scenes intentionally.\n\nRegional festivals — Festival de Cornouaille in Quimper, Yaouank in Rennes — host large fest-noz with touring bands and mixed audiences. Sound is louder, floors more crowded, repertoire more standardised across regions. Useful for hearing star bombard players; less ideal as sole model for tempo if you only play village halls.\n\nCrossover: Festival programmes preview bagad guests and fusion acts — programmers bridge scenes intentionally.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-4-scene-2-festival-dance-tent-q1",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan specialists perform in voice-forward scenes separate from pure instrumental dance sets.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-4-scene-2-festival-dance-tent-q2",
+        "type": "mcq",
+        "prompt": "Bro Gozh refers to:",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Breton diaspora cultural life in cities like Paris and Nantes",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Breton diaspora cultural life in cities like Paris and Nantes"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-5-scene-3-bagad-championships",
+    "title": "Brittany trad: Scene 3: Bagad championships",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "brittany",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "Bagad finals — especially at Festival Interceltique de Lorient — showcase massed binou, bombard, and percussion with adjudicated suites. Visual drill, uniform, and harmonic arrangement matter. Repertoire includes gavotte arrangements and composed Suite Sudarmoricaine material scaled for stadium impact.\n\nMusician contract: Precision, unison, dynamic control across sections. Listener contract: Audience often dances in festival grounds but differently from commune rond teaching nights.\n\nBagad Kemper, Bro Kemperle, and Brieg symbolise competitive excellence on recordings.\n\nBagad finals — especially at Festival Interceltique de Lorient — showcase massed binou, bombard, and percussion with adjudicated suites. Visual drill, uniform, and harmonic arrangement matter. Repertoire includes gavotte arrangements and composed Suite Sudarmoricaine material scaled for stadium impact.\n\nMusician contract: Precision, unison, dynamic control across sections. Listener contract: Audience often dances in festival grounds but differently from commune rond teaching nights.\n\nBagad Kemper, Bro Kemperle, and Brieg symbolise competitive excellence on recordings.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-5-scene-3-bagad-championships-q1",
+        "type": "truefalse",
+        "prompt": "Musicians should always play bagad competition tempi at village fest-noz.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "floor context requires sustainable dance tempo."
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-5-scene-3-bagad-championships-q2",
+        "type": "truefalse",
+        "prompt": "Festival Interceltique de Lorient programmes Pan-Celtic exchange across regions.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-6-scene-4-alan-stivell-and-fusion-lineage",
+    "title": "Brittany trad: Scene 4: Alan Stivell and fusion lineage",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "brittany",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "Alan Stivell defined Breton export fusion: electric bass and drums under harp and binou, Breton and French lyrics, Pan-Celtic festival circuits. Follow-on artists and collaborators extended Celtic rock without single formula — some lean folk, some arena rock.\n\nMusician contract: Concert staging, album arc, audience seated or standing — not caller-driven figures. Listener contract: Appreciate arrangement and identity politics; do not assume concert tempi suit fest-noz floors.\n\n — listen to Renaissance de la Harpe Celtique (1972) before judging Breton fusion by festival staging alone. Alan Stivell remains the reference for international Breton sound — Chemins de terre, live anniversary sets, harp-and-pipe dialogues.\n\nAlan Stivell defined Breton export fusion: electric bass and drums under harp and binou, Breton and French lyrics, Pan-Celtic festival circuits. Follow-on artists and collaborators extended Celtic rock without single formula — some lean folk, some arena rock.\n\nMusician contract: Concert staging, album arc, audience seated or standing — not caller-driven figures. Listener contract: Appreciate arrangement and identity politics; do not assume concert tempi suit fest-noz floors.\n\n — listen to Renaissance de la Harpe Celtique (1972) before judging Breton fusion by festival staging alone. Alan Stivell remains the reference for international Breton sound — Chemins de terre, live anniversary sets, harp-and-pipe dialogues.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-6-scene-4-alan-stivell-and-fusion-lineage-q1",
+        "type": "truefalse",
+        "prompt": "Compared with Irish pub sessions, Breton representative scenes centre fest-noz rather than fiddle-session trade.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-6-scene-4-alan-stivell-and-fusion-lineage-q2",
+        "type": "truefalse",
+        "prompt": "Concert fusion and fest-noz floor practice cannot coexist in the same cultural ecosystem.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "they coexist with different contracts."
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-7-scene-5-fest-noz-rock-and-electric-bands",
+    "title": "Brittany trad: Scene 5: Fest-noz rock and electric bands",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "brittany",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "From the 1990s–2000s, fest-noz rock (fest-noz rock movement) brought electric guitar, rock rhythm, and youth crowds to dance nights — Red Cardell, Bleizi Ruz, and related bands pack halls with energy closer to rock gig than sonerion duet. Repertoire still ties to pliñ and gavotte dance function — the pulse remains fest-noz, not abstract rock concert.\n\nDebate echoes Ireland's folk-rock history: purists versus youth engagement. Practically, electric bands recruit dancers who may later explore bombard classes.\n\nFrom the 1990s–2000s, fest-noz rock (fest-noz rock movement) brought electric guitar, rock rhythm, and youth crowds to dance nights — Red Cardell, Bleizi Ruz, and related bands pack halls with energy closer to rock gig than sonerion duet. Repertoire still ties to pliñ and gavotte dance function — the pulse remains fest-noz, not abstract rock concert.\n\nDebate echoes Ireland's folk-rock history: purists versus youth engagement. Practically, electric bands recruit dancers who may later explore bombard classes.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-7-scene-5-fest-noz-rock-and-electric-bands-q1",
+        "type": "truefalse",
+        "prompt": "Red Cardell represents fest-noz rock bridging youth audiences to dance nights.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-7-scene-5-fest-noz-rock-and-electric-bands-q2",
+        "type": "truefalse",
+        "prompt": "Flattening all Breton scenes into generic Celtic fusion misrepresents social context.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-9-scene-7-bro-gozh-diaspora",
+    "title": "Brittany trad: Scene 7: Bro Gozh diaspora",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "brittany",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "Paris, Nantes, and other cities host Bro Gozh (\"Old Country\") fest-noz, classes, and bagad branches. Urban learners often meet tradition here before village travel. Diaspora tempi and repertoire skew toward portable standards — Sonerion book favourites, festival hits — with less village variation.\n\nCompared with Irish diaspora sessions in Boston or Chicago, Breton urban scenes emphasise organised fest-noz and bagad youth more than pub trade.\n\nParis, Nantes, and other cities host Bro Gozh (\"Old Country\") fest-noz, classes, and bagad branches. Urban learners often meet tradition here before village travel. Diaspora tempi and repertoire skew toward portable standards — Sonerion book favourites, festival hits — with less village variation.\n\nCompared with Irish diaspora sessions in Boston or Chicago, Breton urban scenes emphasise organised fest-noz and bagad youth more than pub trade.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-9-scene-7-bro-gozh-diaspora-q1",
+        "type": "mcq",
+        "prompt": "The commune hall fest-noz prioritises:",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Dancer stamina and participatory dance and song",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Dancer stamina and participatory dance and song"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-9-scene-7-bro-gozh-diaspora-q2",
+        "type": "truefalse",
+        "prompt": "Bagad finals at Lorient differ from village fest-noz in scale and adjudicated suite format.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-11-navigating-between-scenes",
+    "title": "Brittany trad: Navigating between scenes",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 9,
+    "tags": [
+      "brittany",
+      "celtic",
+      "fusion",
+      "scenes"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-06-history"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
+    "estimateMinutes": 4,
+    "body": "| If you play… | Learn from… | Avoid… |\n|-------------|-------------|--------|\n| Village fest-noz | Dastum field recordings, local animateurs | Bagad competition tempi only |\n| Bagad competition | Championship recordings, section teachers | Ignoring fest-noz dancer stamina |\n| Fusion concerts | Stivell discography, festival live sets | Assuming export set lists equal floor repeats |\n| Song nights | Kemener, Ebrel, kan ha diskan archives | Forcing dance figures during long song sets |\n\n| If you play… | Learn from… | Avoid… |\n|-------------|-------------|--------|\n| Village fest-noz | Dastum field recordings, local animateurs | Bagad competition tempi only |\n| Bagad competition | Championship recordings, section teachers | Ignoring fest-noz dancer stamina |\n| Fusion concerts | Stivell discography, festival live sets | Assuming export set lists equal floor repeats |\n| Song nights | Kemener, Ebrel, kan ha diskan archives | Forcing dance figures during long song sets |",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-11-navigating-between-scenes-q1",
+        "type": "truefalse",
+        "prompt": "Alan Stivell is associated with concert fusion export, not solely village sonerion duets.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-11-navigating-between-scenes-q2",
+        "type": "truefalse",
+        "prompt": "Fest-noz rock bands connect electric rock energy to dance functions like gavotte and plinn.",
+        "difficulty": 9,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-13-key-points",
     "title": "Brittany trad: Key points",
     "track": "celtic",
     "region": "brittany",
@@ -4564,58 +6084,48 @@ export default [
     ],
     "lessonSourceId": "regions-celtic-brittany-07-representative-depth",
     "estimateMinutes": 4,
-    "body": "- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Fest-noz floors versus concert-stage fusion bands connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Fest-noz floors versus concert-stage fusion bands connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Fest-noz floor and concert stage optimise different tempo, arrangement, and participation rules.\n- Bagad championships are spectacle transmission — not substitutes for commune dance pedagogy.\n- Alan Stivell embodies export fusion without replacing fest-noz social core.\n- Fest-noz rock recruits youth through electric dance nights tied to gavotte and plinn function.\n- Bro Gozh and Pan-Celtic festivals mediate diaspora and cross-border repertoire exchange.\n\n- Fest-noz floor and concert stage optimise different tempo, arrangement, and participation rules.\n- Bagad championships are spectacle transmission — not substitutes for commune dance pedagogy.\n- Alan Stivell embodies export fusion without replacing fest-noz social core.\n- Fest-noz rock recruits youth through electric dance nights tied to gavotte and plinn function.\n- Bro Gozh and Pan-Celtic festivals mediate diaspora and cross-border repertoire exchange.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-5-key-points-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-13-key-points-q1",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan specialists perform in voice-forward scenes separate from pure instrumental dance sets.",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "D, G, A, and E minor",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-5-key-points-q2",
+        "id": "celtic-brittany-regions-celtic-brittany-07-representative-depth-sec-13-key-points-q2",
         "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "prompt": "Bro Gozh refers to:",
         "difficulty": 9,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
+            "text": "Mullingar, 1951",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "D, G, A, and E minor",
+            "text": "Intangible cultural heritage of humanity",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
+            "text": "Breton diaspora cultural life in cities like Paris and Nantes",
+            "correct": true
           },
           {
             "id": "d",
@@ -4623,7 +6133,7 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "The lesson identifies this as: Breton diaspora cultural life in cities like Paris and Nantes"
       }
     ]
   },
@@ -4641,70 +6151,60 @@ export default [
       "recordings"
     ],
     "prerequisites": [
-      "regions-celtic-brittany-07-representative-depth"
+      "regions-celtic-brittany-04-genres-forms"
     ],
     "lessonSourceId": "regions-celtic-brittany-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Breton Traditional Music rewards comparative study with Ireland.\n\n- Focus: Suite Sudarmoricaine repertoire and classic fest-noz sets.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Suite Sudarmoricaine names Cornouaille gavotte suite logic.\n\n- Learn gavotte and plinn titles with region and dance figure context.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-1-q1",
         "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "prompt": "Suite Sudarmoricaine is associated with:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
+            "text": "Francis O'Neill",
             "correct": false
           },
           {
             "id": "b",
-            "text": "False",
+            "text": "Brendan Breathnach",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Community dance and oral transmission",
+            "text": "Cornouaille / south Morbihan gavotte repertoire",
             "correct": true
           },
           {
             "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
+            "text": "D, G, A, and E minor",
             "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "The lesson identifies this as: Cornouaille / south Morbihan gavotte repertoire"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-1-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "type": "truefalse",
+        "prompt": "Gavotte des montagnes is a representative gavotte family tune in Cornouaille contexts.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
             "text": "False",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4722,70 +6222,50 @@ export default [
       "recordings"
     ],
     "prerequisites": [
-      "regions-celtic-brittany-07-representative-depth"
+      "regions-celtic-brittany-04-genres-forms"
     ],
     "lessonSourceId": "regions-celtic-brittany-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Listen for regional accent, not generic Celtic cliché.\n\n- Sessions, festivals, and archives all transmit repertoire.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Bagad recordings fix export versions that may differ from village floors.\n\n- Stivell arrangements are layers atop dance repertoire — verify source tempi.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-2-q1",
-        "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "type": "truefalse",
+        "prompt": "Learning a gavotte only from bagad competition tempo may misprepare you for village fest-noz repeats.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "True",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "False",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-2-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "type": "truefalse",
+        "prompt": "Plinn repertoire is especially linked to steady walking dance in the Vannetais.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "False",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "True",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4803,70 +6283,50 @@ export default [
       "recordings"
     ],
     "prerequisites": [
-      "regions-celtic-brittany-07-representative-depth"
+      "regions-celtic-brittany-04-genres-forms"
     ],
     "lessonSourceId": "regions-celtic-brittany-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Dance metre and tune form belong together in study.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Compare floor, bagad, and fusion recordings before choosing a standard.\n\n- Suite Sudarmoricaine names a Cornouaille gavotte suite logic, not one monolithic tune.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-3-q1",
-        "type": "mcq",
-        "prompt": "Sessions, festivals, and archives all play roles in modern transmission.",
+        "type": "truefalse",
+        "prompt": "Son tunes like regional sonioù can link sung chorus to dance pulse.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Voices named in the lesson introduction",
-            "correct": false
-          },
-          {
-            "id": "c",
             "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "See Compared with Ireland section",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-3-q2",
-        "type": "mcq",
-        "prompt": "Instrument focus in this lesson includes:",
+        "type": "truefalse",
+        "prompt": "Sonerion publications provide standard bombard–binou settings for dance tunes.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Voices named in the lesson introduction",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "c",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Voices named in the lesson introduction"
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4884,70 +6344,60 @@ export default [
       "recordings"
     ],
     "prerequisites": [
-      "regions-celtic-brittany-07-representative-depth"
+      "regions-celtic-brittany-04-genres-forms"
     ],
     "lessonSourceId": "regions-celtic-brittany-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n\n- Suite sudarmoricaine repertoire and classic fest-noz sets connects to dance, song, and community context—not isolated technique only.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Gavotte and plinn titles tie to regions and dance figures — learn melody with context.\n\n- Bagad recordings fix export versions that may differ from village fest-noz practice.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-4-q1",
         "type": "mcq",
-        "prompt": "Dance rhythm topics in this lesson relate to:",
+        "prompt": "Alan Stivell recordings should be treated as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
+            "text": "Arrangement studies — identify source dance form before adopting concert tempi",
             "correct": true
           },
           {
             "id": "b",
-            "text": "True",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "c",
-            "text": "Voices named in the lesson introduction",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "Tips and heels striking the floor",
             "correct": false
           }
         ],
-        "explain": ") Social dance forms discussed in the body"
+        "explain": "The lesson identifies this as: Arrangement studies — identify source dance form before adopting concert tempi"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-4-q2",
-        "type": "mcq",
-        "prompt": "Revival movements and media broadcasting shaped twentieth-century practice.",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan sets belong on learner playlists alongside instrumental dance tunes.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Social dance forms discussed in the body",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
@@ -4965,70 +6415,50 @@ export default [
       "recordings"
     ],
     "prerequisites": [
-      "regions-celtic-brittany-07-representative-depth"
+      "regions-celtic-brittany-04-genres-forms"
     ],
     "lessonSourceId": "regions-celtic-brittany-08-tunes",
     "estimateMinutes": 4,
-    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
+    "body": "From **Breton Traditional Music — Tunes — Forms, History, and Recordings** (Brittany trad):\n\n- Stivell arrangements are arrangement layers atop dance repertoire.\n\n- Compare recordings by scene: floor, bagad, fusion — before choosing a \"standard.\"\n\nThese points summarise what to listen for in sessions, archives, and classroom study. Return to the full lesson for recordings, entities, and comparative notes.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-5-q1",
-        "type": "mcq",
-        "prompt": "When studying tune forms, you should:",
+        "type": "truefalse",
+        "prompt": "Gavotte de l'Aven is associated with river-region repertoire in Bro Léon / Cornouaille contexts.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": false
-          },
-          {
-            "id": "b",
-            "text": "Follow playlists and return to the paired Ireland lesson",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Connect metre and foot-tap feel to named dance types",
+            "text": "True",
             "correct": true
           },
           {
-            "id": "d",
-            "text": "Social dance forms discussed in the body",
+            "id": "b",
+            "text": "False",
             "correct": false
           }
         ],
-        "explain": ") Connect metre and foot-tap feel to named dance types"
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-kp-5-q2",
-        "type": "mcq",
-        "prompt": "Fusion and modern scenes discussed here:",
+        "type": "truefalse",
+        "prompt": "Every Breton tune has one fixed global tempo identical across all scenes.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Build on—not replace—living tradition",
-            "correct": true
+            "text": "True",
+            "correct": false
           },
           {
             "id": "b",
-            "text": "Mouth blowing only, like Highland pipes",
-            "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "D, G, A, and E minor",
-            "correct": false
+            "text": "False",
+            "correct": true
           }
         ],
-        "explain": ") Build on—not replace—living tradition"
+        "explain": "floor, bagad, and fusion scenes differ."
       }
     ]
   },
@@ -5046,46 +6476,78 @@ export default [
       "recordings"
     ],
     "prerequisites": [
-      "regions-celtic-brittany-07-representative-depth"
+      "regions-celtic-brittany-04-genres-forms"
     ],
     "lessonSourceId": "regions-celtic-brittany-08-tunes",
     "estimateMinutes": 4,
-    "body": "Breton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on Suite Sudarmoricaine repertoire and classic fest-noz sets within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.\n\nBreton traditional music is dance-led: fest-noz nights, gavotte and plinn rhythms, and the paired sounds of bombard and biniou. Revival movements from the mid-twentieth century rebuilt regional pride alongside pan-Celtic festival networks.\n\nThis lesson focuses on Suite Sudarmoricaine repertoire and classic fest-noz sets within breton traditional music. Read it alongside the Ireland unit: shared Celtic family traits meet distinct national accent, repertoire, and institutions.",
+    "body": "This lesson turns Breton form theory into named repertoire — with emphasis on the Suite Sudarmoricaine, classic gavotte tunes heard at fest-noz, plinn standards from the Vannetais, and bagad arrangements that fixed export versions. Listen comparatively: the same gavotte title at a Quimper fest-noz, on a Bagad Bro Kemperle competition stage, and on a Stivell fusion album shares melody but differs in tempo, repeats, and arrangement mass.\n\nNamed tunes carry dance contracts: learn the melody with the figure family and region it serves. Mislearning a Suite Sudarmoricaine gavotte as abstract concert piece misses why repeats continue until dancers release the band.\n\nThis lesson turns Breton form theory into named repertoire — with emphasis on the Suite Sudarmoricaine, classic gavotte tunes heard at fest-noz, plinn standards from the Vannetais, and bagad arrangements that fixed export versions. Listen comparatively: the same gavotte title at a Quimper fest-noz, on a Bagad Bro Kemperle competition stage, and on a Stivell fusion album shares melody but differs in tempo, repeats, and arrangement mass.\n\nNamed tunes carry dance contracts: learn the melody with the figure family and region it serves. Mislearning a Suite Sudarmoricaine gavotte as abstract concert piece misses why repeats continue until dancers release the band.",
     "tryThis": "",
     "quizzes": [
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-1-overview-q1",
-        "type": "mcq",
-        "prompt": "The Compared with Ireland section highlights both shared heritage and national accent.",
+        "type": "truefalse",
+        "prompt": "Dastum field recordings help compare village tune variants to modern fest-noz standards.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Elbow bellows strapped to the player",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "D, G, A, and E minor",
+            "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Francis O'Neill",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "True",
-            "correct": true
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       },
       {
         "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-1-overview-q2",
+        "type": "truefalse",
+        "prompt": "Dérobée names a family of figure dances with associated tunes.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-3-suite-sudarmoricaine",
+    "title": "Brittany trad: Suite Sudarmoricaine",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "brittany",
+      "celtic",
+      "tunes",
+      "recordings"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-08-tunes",
+    "estimateMinutes": 4,
+    "body": "The Suite Sudarmoricaine (\"South Morbihan suite\") aggregates gavotte and related dance tunes from Cornouaille and south Morbihan — a cornerstone of bagad repertoire and fest-noz veteran knowledge. It is not one tune but a suite logic: regional identity expressed through chained gavottes with distinct local names and figures.\n\nSuite Sudarmoricaine appears on bagad competition programmes and in tune books as shorthand for Cornouaille export repertoire. Bagad Bro Kemperle and other bands recorded arrangements that learners treat as references — compare always to village fest-noz tempi.\n\nThe Suite Sudarmoricaine (\"South Morbihan suite\") aggregates gavotte and related dance tunes from Cornouaille and south Morbihan — a cornerstone of bagad repertoire and fest-noz veteran knowledge. It is not one tune but a suite logic: regional identity expressed through chained gavottes with distinct local names and figures.\n\nSuite Sudarmoricaine appears on bagad competition programmes and in tune books as shorthand for Cornouaille export repertoire. Bagad Bro Kemperle and other bands recorded arrangements that learners treat as references — compare always to village fest-noz tempi.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-3-suite-sudarmoricaine-q1",
         "type": "mcq",
-        "prompt": "Best next step after this lesson:",
+        "prompt": "Suite Sudarmoricaine is associated with:",
         "difficulty": 6,
         "choices": [
           {
@@ -5100,7 +6562,7 @@ export default [
           },
           {
             "id": "c",
-            "text": "Follow playlists and return to the paired Ireland lesson",
+            "text": "Cornouaille / south Morbihan gavotte repertoire",
             "correct": true
           },
           {
@@ -5109,13 +6571,32 @@ export default [
             "correct": false
           }
         ],
-        "explain": ") Follow playlists and return to the paired Ireland lesson"
+        "explain": "The lesson identifies this as: Cornouaille / south Morbihan gavotte repertoire"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-3-suite-sudarmoricaine-q2",
+        "type": "truefalse",
+        "prompt": "Gavotte des montagnes is a representative gavotte family tune in Cornouaille contexts.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-2-compared-with-ireland",
-    "title": "Brittany trad: Compared with Ireland",
+    "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-5-representative-gavottes-fest-noz-and-bagad",
+    "title": "Brittany trad: Representative gavottes (fest-noz and bagad)",
     "track": "celtic",
     "region": "brittany",
     "kind": "theory_lesson",
@@ -5127,75 +6608,116 @@ export default [
       "recordings"
     ],
     "prerequisites": [
-      "regions-celtic-brittany-07-representative-depth"
+      "regions-celtic-brittany-04-genres-forms"
     ],
     "lessonSourceId": "regions-celtic-brittany-08-tunes",
     "estimateMinutes": 4,
-    "body": "Irish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-08-tunes` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.\n\nIrish sessions centre on melody instruments trading tune sets. Breton fest-noz culture pairs dance-first circular sets with call-and-response song (kan ha diskan) and distinctive binou-bombard timbres.\n\nParallel Ireland lesson: `regions-celtic-ireland-08-tunes` — revisit that chapter when a comparison feels abstract. Note similarities (oral learning, dance-linked repertoire, revival media) and differences named in this section.",
+    "body": "| Tune / family | Region / use | Memorable detail |\n|---------------|-------------|------------------|\n|  | Cornouaille, bagad suites | Mountain gavotte figures; steady drive |\n| Gavotte de l'Aven | Bro Léon / Cornouaille border | Named for river region; fest-noz favourite |\n| Gavotte pourlet | Cornouaille | Couple dance associations |\n| Dérobée (family) | Various | \"Sneaking\" figure dances with specific tunes |\n\nGavotte tune names in Breton and French vary by village; Dastum field notes help trace variants.\n\n| Tune / family | Region / use | Memorable detail |\n|---------------|-------------|------------------|\n|  | Cornouaille, bagad suites | Mountain gavotte figures; steady drive |\n| Gavotte de l'Aven | Bro Léon / Cornouaille border | Named for river region; fest-noz favourite |\n| Gavotte pourlet | Cornouaille | Couple dance associations |\n| Dérobée (family) | Various | \"Sneaking\" figure dances with specific tunes |\n\nGavotte tune names in Breton and French vary by village; Dastum field notes help trace variants.",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-2-compared-with-ireland-q1",
-        "type": "mcq",
-        "prompt": "Which description best fits the main social context emphasised in this lesson?",
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-5-representative-gavottes-fest-noz-and-bagad-q1",
+        "type": "truefalse",
+        "prompt": "Learning a gavotte only from bagad competition tempo may misprepare you for village fest-noz repeats.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
             "text": "False",
             "correct": false
-          },
-          {
-            "id": "c",
-            "text": "Community dance and oral transmission",
-            "correct": true
-          },
-          {
-            "id": "d",
-            "text": "Modal Irish and Celtic accompaniment",
-            "correct": false
           }
         ],
-        "explain": ") Community dance and oral transmission"
+        "explain": "Correct answer: True"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-2-compared-with-ireland-q2",
-        "type": "mcq",
-        "prompt": "This tradition is identical to Irish traditional music in repertoire and social context.",
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-5-representative-gavottes-fest-noz-and-bagad-q2",
+        "type": "truefalse",
+        "prompt": "Plinn repertoire is especially linked to steady walking dance in the Vannetais.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
             "text": "False",
-            "correct": true
-          },
-          {
-            "id": "c",
-            "text": "Single-headed Irish frame drum",
-            "correct": false
-          },
-          {
-            "id": "d",
-            "text": "Community dance and oral transmission",
             "correct": false
           }
         ],
-        "explain": "See the lesson text for the grounded answer."
+        "explain": "Correct answer: True"
       }
     ]
   },
   {
-    "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-5-key-points",
+    "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-12-learning-workflow",
+    "title": "Brittany trad: Learning workflow",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "brittany",
+      "celtic",
+      "tunes",
+      "recordings"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-08-tunes",
+    "estimateMinutes": 4,
+    "body": "1. Pick one gavotte from Suite Sudarmoricaine family — learn A and B parts at fest-noz tempo on your instrument.\n2. Attend or watch video of associated dance figure — connect repeat structure to floor.\n3. Compare bagad arrangement — note added harmonies and cuts.\n4. Add one plinn and one mazurka from Vannetais sources for form contrast.\n5. Log variants in a listening notebook — tune name, region, leader instrument, tempo feel.\n\n1. Pick one gavotte from Suite Sudarmoricaine family — learn A and B parts at fest-noz tempo on your instrument.\n2. Attend or watch video of associated dance figure — connect repeat structure to floor.\n3. Compare bagad arrangement — note added harmonies and cuts.\n4. Add one plinn and one mazurka from Vannetais sources for form contrast.\n5. Log variants in a listening notebook — tune name, region, leader instrument, tempo feel.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-12-learning-workflow-q1",
+        "type": "truefalse",
+        "prompt": "Son tunes like regional sonioù can link sung chorus to dance pulse.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-12-learning-workflow-q2",
+        "type": "truefalse",
+        "prompt": "Sonerion publications provide standard bombard–binou settings for dance tunes.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-15-key-points",
     "title": "Brittany trad: Key points",
     "track": "celtic",
     "region": "brittany",
@@ -5208,70 +6730,256 @@ export default [
       "recordings"
     ],
     "prerequisites": [
-      "regions-celtic-brittany-07-representative-depth"
+      "regions-celtic-brittany-04-genres-forms"
     ],
     "lessonSourceId": "regions-celtic-brittany-08-tunes",
     "estimateMinutes": 4,
-    "body": "- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Suite sudarmoricaine repertoire and classic fest-noz sets connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.\n\n- Breton Traditional Music is a living tradition with regional accents, not a museum exhibit.\n- Compared with Ireland: shared tune families and diaspora links, distinct social stages and repertoire emphasis.\n- Suite sudarmoricaine repertoire and classic fest-noz sets connects to dance, song, and community context—not isolated technique only.\n- Revival institutions, broadcasting, and festivals shape what learners hear today.\n- Use comparative study to hear specificity; avoid flattening everything under \"Celtic\" marketing.",
+    "body": "- Suite Sudarmoricaine names a Cornouaille gavotte suite logic, not one monolithic tune.\n- Gavotte and plinn titles tie to regions and dance figures — learn melody with context.\n- Bagad recordings fix export versions that may differ from village fest-noz practice.\n- Stivell arrangements are arrangement layers atop dance repertoire.\n- Compare recordings by scene: floor, bagad, fusion — before choosing a \"standard.\"\n\n- Suite Sudarmoricaine names a Cornouaille gavotte suite logic, not one monolithic tune.\n- Gavotte and plinn titles tie to regions and dance figures — learn melody with context.\n- Bagad recordings fix export versions that may differ from village fest-noz practice.\n- Stivell arrangements are arrangement layers atop dance repertoire.\n- Compare recordings by scene: floor, bagad, fusion — before choosing a \"standard.\"",
     "tryThis": "",
     "quizzes": [
       {
-        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-5-key-points-q1",
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-15-key-points-q1",
         "type": "mcq",
-        "prompt": "Compared with Ireland, this unit stresses which additional emphasis?",
+        "prompt": "Alan Stivell recordings should be treated as:",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "See Compared with Ireland section",
+            "text": "Arrangement studies — identify source dance form before adopting concert tempi",
             "correct": true
           },
           {
             "id": "b",
-            "text": "Community dance and oral transmission",
+            "text": "Highly ornamented, often unaccompanied traditional song",
             "correct": false
           },
           {
             "id": "c",
-            "text": "False",
+            "text": "Group social choreography for multiple dancers",
             "correct": false
           },
           {
             "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "text": "Tips and heels striking the floor",
             "correct": false
           }
         ],
-        "explain": ") See Compared with Ireland section"
+        "explain": "The lesson identifies this as: Arrangement studies — identify source dance form before adopting concert tempi"
       },
       {
-        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-5-key-points-q2",
-        "type": "mcq",
-        "prompt": "A typical learner should prioritise:",
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-sec-15-key-points-q2",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan sets belong on learner playlists alongside instrumental dance tunes.",
         "difficulty": 6,
         "choices": [
           {
             "id": "a",
-            "text": "False",
-            "correct": false
+            "text": "True",
+            "correct": true
           },
           {
             "id": "b",
-            "text": "See Compared with Ireland section",
+            "text": "False",
             "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-08-tunes-tune-suite-sudarmoricaine",
+    "title": "Brittany trad: Suite Sudarmoricaine",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "brittany",
+      "celtic",
+      "tunes",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**Suite Sudarmoricaine** — tune study from the Brittany unit.\n\n**Form:** gavotte / fest-noz set\n\n**Reference:** Alan Stivell\n\nGateway fest-noz suite.\n\n**Made famous by:** alan-stivell\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-tune-suite-sudarmoricaine-q1",
+        "type": "truefalse",
+        "prompt": "Gavotte de l'Aven is associated with river-region repertoire in Bro Léon / Cornouaille contexts.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
           },
           {
-            "id": "c",
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-tune-suite-sudarmoricaine-q2",
+        "type": "truefalse",
+        "prompt": "Every Breton tune has one fixed global tempo identical across all scenes.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
             "text": "True",
             "correct": false
           },
           {
-            "id": "d",
-            "text": "Listening to regional recordings before generic \"Celtic\" compilations",
+            "id": "b",
+            "text": "False",
             "correct": true
           }
         ],
-        "explain": ") Listening to regional recordings before generic \"Celtic\" compilations"
+        "explain": "floor, bagad, and fusion scenes differ."
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-08-tunes-tune-an-alarc'h",
+    "title": "Brittany trad: An Alarc'h",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "brittany",
+      "celtic",
+      "tunes",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**An Alarc'h** — tune study from the Brittany unit.\n\n**Form:** kan ha diskan\n\n**Reference:** Breton song standard\n\nCall-and-response fest-noz favourite.\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-tune-an-alarc'h-q1",
+        "type": "truefalse",
+        "prompt": "Dastum field recordings help compare village tune variants to modern fest-noz standards.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-tune-an-alarc'h-q2",
+        "type": "truefalse",
+        "prompt": "Dérobée names a family of figure dances with associated tunes.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  },
+  {
+    "id": "celtic-brittany-regions-celtic-brittany-08-tunes-tune-gavotte-des-montagnes",
+    "title": "Brittany trad: Gavotte des Montagnes",
+    "track": "celtic",
+    "region": "brittany",
+    "kind": "theory_lesson",
+    "difficulty": 6,
+    "tags": [
+      "brittany",
+      "celtic",
+      "tunes",
+      "recordings",
+      "tune"
+    ],
+    "prerequisites": [
+      "regions-celtic-brittany-04-genres-forms"
+    ],
+    "lessonSourceId": "regions-celtic-brittany-08-tunes",
+    "estimateMinutes": 4,
+    "body": "**Gavotte des Montagnes** — tune study from the Brittany unit.\n\n**Form:** gavotte\n\n**Reference:** Central Brittany dance repertoire\n\nCircle dance gavotte — compare footwork with Irish reel.\n\nListen to multiple regional settings in the lesson playlist. Compare ornament, tempo, and lead instrument before treating one recording as standard. Listen for regional accent, session etiquette, and how players phrase repeats. Compare recordings from archives and festivals before treating any single version as standard.",
+    "tryThis": "",
+    "quizzes": [
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-tune-gavotte-des-montagnes-q1",
+        "type": "mcq",
+        "prompt": "Suite Sudarmoricaine is associated with:",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Cornouaille / south Morbihan gavotte repertoire",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cornouaille / south Morbihan gavotte repertoire"
+      },
+      {
+        "id": "celtic-brittany-regions-celtic-brittany-08-tunes-tune-gavotte-des-montagnes-q2",
+        "type": "truefalse",
+        "prompt": "Gavotte des montagnes is a representative gavotte family tune in Cornouaille contexts.",
+        "difficulty": 6,
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
       }
     ]
   }

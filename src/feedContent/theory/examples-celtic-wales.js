@@ -26,22 +26,82 @@ const EXAMPLES = {
     "illustrationPlan": "Wales trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-wales-regions-celtic-wales-01-overview-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-wales-regions-celtic-wales-01-overview-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-01-overview-sec-2-compared-with-ireland": {
+  "celtic-wales-regions-celtic-wales-01-overview-sec-2-trad-versus-celtic-labels-that-help-and-mislead": {
+    "kind": "none",
+    "illustrationPlan": "\"Trad\" versus \"Celtic\": labels that help and mislead",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-3-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-01-overview-sec-3-core-material": {
+  "celtic-wales-regions-celtic-wales-01-overview-sec-4-the-eisteddfod-competition-as-cultural-spine": {
     "kind": "none",
-    "illustrationPlan": "Core material — listen for regional style, session context, and tune form.",
+    "illustrationPlan": "The eisteddfod: competition as cultural spine",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-01-overview-sec-5-key-points": {
+  "celtic-wales-regions-celtic-wales-01-overview-sec-5-hymnody-and-the-chapel-tradition": {
+    "kind": "none",
+    "illustrationPlan": "Hymnody and the chapel tradition — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-6-penillion-and-bardic-song": {
+    "kind": "none",
+    "illustrationPlan": "Penillion and bardic song — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-7-bilingual-song-versus-irish-session-culture": {
+    "kind": "none",
+    "illustrationPlan": "Bilingual song versus Irish session culture",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-8-the-triple-harp-national-symbol": {
+    "kind": "none",
+    "illustrationPlan": "The triple harp: national symbol — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-9-twmpath-and-social-dance-preview": {
+    "kind": "none",
+    "illustrationPlan": "Twmpath and social dance (preview) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-10-tune-types-a-field-guide": {
+    "kind": "none",
+    "illustrationPlan": "Tune types: a field guide — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-11-institutions-that-shape-the-tradition": {
+    "kind": "none",
+    "illustrationPlan": "Institutions that shape the tradition — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-12-regional-accents-four-areas-to-know": {
+    "kind": "none",
+    "illustrationPlan": "Regional accents: four areas to know — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-13-how-this-unit-is-organised": {
+    "kind": "none",
+    "illustrationPlan": "How this unit is organised — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-14-starting-points-for-learners": {
+    "kind": "none",
+    "illustrationPlan": "Starting points for learners — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-01-overview-sec-15-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -71,6 +131,11 @@ const EXAMPLES = {
     "illustrationPlan": "Wales trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-wales-regions-celtic-wales-02-instruments-voices-i-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
@@ -81,7 +146,32 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-5-key-points": {
+  "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-3-session-and-stage-roles-overlap": {
+    "kind": "none",
+    "illustrationPlan": "Session and stage roles overlap — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-7-regional-notes": {
+    "kind": "none",
+    "illustrationPlan": "Regional notes — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-9-famous-players-and-memorable-details": {
+    "kind": "none",
+    "illustrationPlan": "Famous players and memorable details — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-15-revival-context": {
+    "kind": "none",
+    "illustrationPlan": "Revival context — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-19-how-these-four-voices-fit-together": {
+    "kind": "none",
+    "illustrationPlan": "How these four voices fit together — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-02-instruments-voices-i-sec-20-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -111,17 +201,32 @@ const EXAMPLES = {
     "illustrationPlan": "Wales trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-2-compared-with-ireland": {
+  "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-3-compared-with-ireland": {
     "kind": "none",
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-5-key-points": {
+  "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-4-ensemble-roles-in-welsh-rooms": {
+    "kind": "none",
+    "illustrationPlan": "Ensemble roles in Welsh rooms — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-7-notable-contexts": {
+    "kind": "none",
+    "illustrationPlan": "Notable contexts — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-03-instruments-voices-ii-sec-16-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -151,6 +256,11 @@ const EXAMPLES = {
     "illustrationPlan": "Wales trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-wales-regions-celtic-wales-04-genres-forms-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-wales-regions-celtic-wales-04-genres-forms-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
@@ -161,7 +271,32 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-04-genres-forms-sec-5-key-points": {
+  "celtic-wales-regions-celtic-wales-04-genres-forms-sec-3-how-to-listen-metre-pulse-and-hwyl": {
+    "kind": "none",
+    "illustrationPlan": "How to listen: metre, pulse, and hwyl — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-04-genres-forms-sec-5-feel-and-repertoire": {
+    "kind": "none",
+    "illustrationPlan": "Feel and repertoire — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-04-genres-forms-sec-8-waltzes": {
+    "kind": "none",
+    "illustrationPlan": "Waltzes — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-04-genres-forms-sec-10-chapel-dna-in-folk": {
+    "kind": "none",
+    "illustrationPlan": "Chapel DNA in folk — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-04-genres-forms-sec-14-ornament-and-regional-accent": {
+    "kind": "none",
+    "illustrationPlan": "Ornament and regional accent — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-04-genres-forms-sec-16-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -191,6 +326,11 @@ const EXAMPLES = {
     "illustrationPlan": "Wales trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-wales-regions-celtic-wales-05-dance-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-wales-regions-celtic-wales-05-dance-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
@@ -201,7 +341,27 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-05-dance-sec-5-key-points": {
+  "celtic-wales-regions-celtic-wales-05-dance-sec-4-how-a-twmpath-works": {
+    "kind": "none",
+    "illustrationPlan": "How a twmpath works — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-05-dance-sec-10-musical-characteristics": {
+    "kind": "none",
+    "illustrationPlan": "Musical characteristics — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-05-dance-sec-11-dance-forms-and-tune-pairing": {
+    "kind": "none",
+    "illustrationPlan": "Dance forms and tune pairing — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-05-dance-sec-12-festivals-and-transmission": {
+    "kind": "none",
+    "illustrationPlan": "Festivals and transmission — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-05-dance-sec-13-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -231,6 +391,11 @@ const EXAMPLES = {
     "illustrationPlan": "Wales trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-wales-regions-celtic-wales-06-history-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-wales-regions-celtic-wales-06-history-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
@@ -241,7 +406,37 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-06-history-sec-5-key-points": {
+  "celtic-wales-regions-celtic-wales-06-history-sec-3-medieval-harp-and-bardic-law": {
+    "kind": "none",
+    "illustrationPlan": "Medieval harp and bardic law — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-06-history-sec-4-chapel-influence-hymnody-as-national-spine": {
+    "kind": "none",
+    "illustrationPlan": "Chapel influence: hymnody as national spine",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-06-history-sec-5-industrial-south-wales-coal-steel-and-migration": {
+    "kind": "none",
+    "illustrationPlan": "Industrial south Wales: coal, steel, and migration",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-06-history-sec-6-collectors-and-print-tradition": {
+    "kind": "none",
+    "illustrationPlan": "Collectors and print tradition — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-06-history-sec-7-the-1970s-folk-revival": {
+    "kind": "none",
+    "illustrationPlan": "The 1970s folk revival — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-06-history-sec-8-broadcasting-archives-and-modern-transmission": {
+    "kind": "none",
+    "illustrationPlan": "Broadcasting, archives, and modern transmission",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-06-history-sec-10-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -271,6 +466,11 @@ const EXAMPLES = {
     "illustrationPlan": "Wales trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-wales-regions-celtic-wales-07-representative-depth-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-wales-regions-celtic-wales-07-representative-depth-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
@@ -281,7 +481,17 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-07-representative-depth-sec-5-key-points": {
+  "celtic-wales-regions-celtic-wales-07-representative-depth-sec-10-choral-crossover": {
+    "kind": "none",
+    "illustrationPlan": "Choral crossover — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-07-representative-depth-sec-11-other-fusion-and-scene-voices-brief": {
+    "kind": "none",
+    "illustrationPlan": "Other fusion and scene voices (brief) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-07-representative-depth-sec-13-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
     "imageUrl": ""
@@ -311,6 +521,11 @@ const EXAMPLES = {
     "illustrationPlan": "Wales trad: key ideas (5) — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
+  "celtic-wales-regions-celtic-wales-08-tunes-kp-6": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: key ideas (6) — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
   "celtic-wales-regions-celtic-wales-08-tunes-sec-1-overview": {
     "kind": "none",
     "illustrationPlan": "Overview — listen for regional style, session context, and tune form.",
@@ -321,9 +536,34 @@ const EXAMPLES = {
     "illustrationPlan": "Compared with Ireland — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   },
-  "celtic-wales-regions-celtic-wales-08-tunes-sec-5-key-points": {
+  "celtic-wales-regions-celtic-wales-08-tunes-sec-9-classic-harp-and-fiddle-recordings": {
+    "kind": "none",
+    "illustrationPlan": "Classic harp and fiddle recordings — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-08-tunes-sec-10-more-repertoire-table": {
+    "kind": "none",
+    "illustrationPlan": "More repertoire table — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-08-tunes-sec-12-key-points": {
     "kind": "none",
     "illustrationPlan": "Key points — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-08-tunes-tune-ar-lan-y-mor": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: Ar Lan y Môr — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-08-tunes-tune-cader-idris": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: Cader Idris — listen for regional style, session context, and tune form.",
+    "imageUrl": ""
+  },
+  "celtic-wales-regions-celtic-wales-08-tunes-tune-dafydd-y-garreg-wen": {
+    "kind": "none",
+    "illustrationPlan": "Wales trad: Dafydd y Garreg Wen — listen for regional style, session context, and tune form.",
     "imageUrl": ""
   }
 }

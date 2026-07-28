@@ -13,6 +13,8 @@ import { buildCleanupScorePreviewAbc } from '../midiCleanupNotationPreview';
 import { parseMidiBytesToTracks, resolveCleanupPreviewVoices } from '../midiParseClient';
 import { resolveImportAbcFromResponse } from '../midiImportAbcResolve';
 import { finalizeMidiImportAbc } from '../midiImportFinalize';
+import SelectAllToggle from './SelectAllToggle';
+import CheckToggleButton from './CheckToggleButton';
 import { displayNameForMidiTrack } from '../midiTrackNaming';
 import useMidiFilePlayback from '../useMidiFilePlayback';
 import { NotationPreview } from './SuggestionPreviewDialog';
@@ -99,6 +101,10 @@ function TrackMapStep(props) {
     updateDraft({ drumTrackModes: drumTrackModes });
   }
 
+  const pitchedTracks = tracks.filter(function(track) {
+    return !track.is_drum && (track.note_count || 0) > 0;
+  });
+  const pitchedTotal = pitchedTracks.length;
   const pitchedSelected = (draft.selectedTrackIds || []).length;
   const percussionSelected = Object.keys(draft.drumTrackModes || {}).filter(function(trackId) {
     return draft.drumTrackModes[trackId] === 'percussion';
@@ -112,13 +118,15 @@ function TrackMapStep(props) {
           Leave <strong>Infer chord symbols</strong> off unless you specifically want a separate chord staff.
         </Alert>
       ) : null}
-      <div className="d-flex flex-wrap gap-2 align-items-center mb-2">
-        <Button size="sm" variant="outline-secondary" onClick={selectAllPitched}>
-          Select all pitched
-        </Button>
-        <Button size="sm" variant="outline-secondary" onClick={selectNonePitched}>
-          Select none
-        </Button>
+      <div className="d-flex flex-wrap gap-2 align-items-stretch mb-2 select-all-host">
+        <SelectAllToggle
+          size="sm"
+          totalCount={pitchedTotal}
+          selectedCount={pitchedSelected}
+          onSelectAll={selectAllPitched}
+          onSelectNone={selectNonePitched}
+          ariaLabel="Select all pitched tracks"
+        />
         <Button size="sm" variant="outline-secondary" onClick={importAllPercussion}>
           Import all percussion
         </Button>
@@ -160,11 +168,12 @@ function TrackMapStep(props) {
               >
                 <td>
                   {!isDrum ? (
-                    <Form.Check
-                      type="checkbox"
+                    <CheckToggleButton
+                      size="sm"
                       checked={selected}
                       disabled={isEmpty}
-                      onChange={function() { toggleTrack(track.index); }}
+                      ariaLabel={'Import track ' + (track.name || track.index)}
+                      onClick={function() { toggleTrack(track.index); }}
                     />
                   ) : null}
                 </td>

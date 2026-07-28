@@ -42,6 +42,19 @@ REGION_SUBDIRS = {
     "celtic-comparative": "celtic-comparative",
 }
 
+
+def region_subdirs_from_curriculum(curriculum: dict) -> dict[str, str]:
+    subdirs = dict(REGION_SUBDIRS)
+    for unit in curriculum.get("units", {}).values():
+        region = str(unit.get("region") or "").strip()
+        if region:
+            subdirs.setdefault(region, region)
+    for slot in curriculum.get("slots", []):
+        region = str(slot.get("region") or "").strip()
+        if region:
+            subdirs.setdefault(region, region)
+    return subdirs
+
 ENTITY_MARKER_RE = re.compile(r"\[\[entity:([a-z0-9_-]+)\]\]", re.IGNORECASE)
 INLINE_MARKER_RE = re.compile(
     r"\[\[(entity|track):([a-z0-9_-]+)(?:\|([^\]]+))?\]\]",
@@ -490,12 +503,9 @@ def normalize_playlist(raw_playlist: list | None, entities: list[dict]) -> list[
 def regional_meta_path(path: Path) -> Path | None:
     rel = path.relative_to(LESSON_ROOT)
     parts = rel.parts
-    if "celtic" not in parts:
+    if len(parts) < 3 or parts[0] != "10-regions":
         return None
-    idx = parts.index("celtic")
-    if idx + 1 >= len(parts):
-        return None
-    meta_path = LESSON_ROOT.joinpath(*parts[: idx + 2]) / "lesson-meta.json"
+    meta_path = LESSON_ROOT.joinpath(*parts[:3]) / "lesson-meta.json"
     return meta_path if meta_path.exists() else None
 
 
@@ -549,7 +559,12 @@ def slot_in_manifest_scope(slot: dict, scope: str) -> bool:
     if scope == "legacy":
         return str(unit).startswith("legacy-")
     if scope == "app":
-        return unit in CELTIC_UNITS or track == "theory" or str(unit).startswith("legacy-")
+        return (
+            unit in CELTIC_UNITS
+            or track == "regions"
+            or track == "theory"
+            or str(unit).startswith("legacy-")
+        )
     return True
 
 
@@ -567,7 +582,7 @@ def lesson_path_in_export_scope(rel: str, slot: dict | None, scope: str) -> bool
     if scope == "legacy":
         return not rel.startswith(("00-theory/", "10-regions/"))
     if scope == "app":
-        if "celtic/" in rel:
+        if rel.startswith("10-regions/"):
             return True
         if rel.startswith("00-theory/"):
             return True
@@ -575,9 +590,9 @@ def lesson_path_in_export_scope(rel: str, slot: dict | None, scope: str) -> bool
     return False
 
 
-def lesson_output_path(lesson: dict, slot: dict | None) -> Path:
+def lesson_output_path(lesson: dict, slot: dict | None, region_subdirs: dict[str, str]) -> Path:
     region = lesson.get("region") or (slot.get("region") if slot else "")
-    subdir = REGION_SUBDIRS.get(str(region), "")
+    subdir = region_subdirs.get(str(region), "")
     if subdir:
         out_dir = OUT_ROOT / subdir
         out_dir.mkdir(parents=True, exist_ok=True)
@@ -805,7 +820,8 @@ def main() -> None:
             slot_by_output[slot["output"]] = slot
 
     OUT_ROOT.mkdir(parents=True, exist_ok=True)
-    for subdir in REGION_SUBDIRS.values():
+    region_subdirs = region_subdirs_from_curriculum(curriculum)
+    for subdir in region_subdirs.values():
         (OUT_ROOT / subdir).mkdir(parents=True, exist_ok=True)
 
     lessons_by_id: dict[str, dict] = {}
@@ -818,7 +834,7 @@ def main() -> None:
             continue
         lesson = build_lesson_payload(path, slot)
         lessons_by_id[lesson["id"]] = lesson
-        out_path = lesson_output_path(lesson, slot)
+        out_path = lesson_output_path(lesson, slot, region_subdirs)
         out_path.write_text(
             json.dumps(lesson, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",

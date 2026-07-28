@@ -1,0 +1,854 @@
+{
+  "regions-roots-appalachia-01-overview": {
+    "entities": [
+      {
+        "id": "tommy-jarrell",
+        "type": "artist",
+        "name": "Tommy Jarrell",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Tommy Jarrell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Jarrell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "roscoe-holcomb",
+        "type": "band",
+        "name": "Roscoe Holcomb",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Roscoe Holcomb for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Roscoe_Holcomb",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "alan-lomax",
+        "type": "artist",
+        "name": "Alan Lomax",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Alan Lomax for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Lomax",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-appalachia-01-overview-pl1",
+        "entity_id": "tommy-jarrell",
+        "label": "Tommy Jarrell — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-appalachia-01-overview-pl2",
+        "entity_id": "roscoe-holcomb",
+        "label": "Roscoe Holcomb — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-appalachia-01-overview-pl3",
+        "label": "Appalachian Old-Time Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-appalachia-01-overview-pl4",
+        "label": "Appalachian Old-Time Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Appalachian Old-Time Music rewards comparative study.",
+      "Focus: Appalachian Old-Time Music spans fiddle, banjo, voice leading voices, breakdowns, reels, b.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: breakdowns, reels, ballads.",
+      "Dance: square dance, clog, flatfoot.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Appalachia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Appalachian Old-Time Music spans fiddle, banjo, voice leadin",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-appalachia-02-instruments-voices-i": {
+    "entities": [
+      {
+        "id": "tommy-jarrell",
+        "type": "artist",
+        "name": "Tommy Jarrell",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Tommy Jarrell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Jarrell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "roscoe-holcomb",
+        "type": "band",
+        "name": "Roscoe Holcomb",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Roscoe Holcomb for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Roscoe_Holcomb",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "alan-lomax",
+        "type": "artist",
+        "name": "Alan Lomax",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Alan Lomax for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Lomax",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-appalachia-02-instruments-voices-i-pl1",
+        "entity_id": "tommy-jarrell",
+        "label": "Tommy Jarrell — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-appalachia-02-instruments-voices-i-pl2",
+        "entity_id": "roscoe-holcomb",
+        "label": "Roscoe Holcomb — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-appalachia-02-instruments-voices-i-pl3",
+        "label": "Appalachian Old-Time Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-appalachia-02-instruments-voices-i-pl4",
+        "label": "Appalachian Old-Time Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Appalachian Old-Time Music rewards comparative study.",
+      "Focus: fiddle, banjo, voice.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: breakdowns, reels, ballads.",
+      "Dance: square dance, clog, flatfoot.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Appalachia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "fiddle, banjo, voice",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-appalachia-03-instruments-voices-ii": {
+    "entities": [
+      {
+        "id": "tommy-jarrell",
+        "type": "artist",
+        "name": "Tommy Jarrell",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Tommy Jarrell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Jarrell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "roscoe-holcomb",
+        "type": "band",
+        "name": "Roscoe Holcomb",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Roscoe Holcomb for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Roscoe_Holcomb",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "alan-lomax",
+        "type": "artist",
+        "name": "Alan Lomax",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Alan Lomax for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Lomax",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-appalachia-03-instruments-voices-ii-pl1",
+        "entity_id": "tommy-jarrell",
+        "label": "Tommy Jarrell — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-appalachia-03-instruments-voices-ii-pl2",
+        "entity_id": "roscoe-holcomb",
+        "label": "Roscoe Holcomb — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-appalachia-03-instruments-voices-ii-pl3",
+        "label": "Appalachian Old-Time Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-appalachia-03-instruments-voices-ii-pl4",
+        "label": "Appalachian Old-Time Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Appalachian Old-Time Music rewards comparative study.",
+      "Focus: guitar, bass, clogging rhythm.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: breakdowns, reels, ballads.",
+      "Dance: square dance, clog, flatfoot.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Appalachia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "guitar, bass, clogging rhythm",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-appalachia-04-genres-forms": {
+    "entities": [
+      {
+        "id": "tommy-jarrell",
+        "type": "artist",
+        "name": "Tommy Jarrell",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Tommy Jarrell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Jarrell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "roscoe-holcomb",
+        "type": "band",
+        "name": "Roscoe Holcomb",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Roscoe Holcomb for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Roscoe_Holcomb",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "alan-lomax",
+        "type": "artist",
+        "name": "Alan Lomax",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Alan Lomax for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Lomax",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-appalachia-04-genres-forms-pl1",
+        "entity_id": "tommy-jarrell",
+        "label": "Tommy Jarrell — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-appalachia-04-genres-forms-pl2",
+        "entity_id": "roscoe-holcomb",
+        "label": "Roscoe Holcomb — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-appalachia-04-genres-forms-pl3",
+        "label": "Appalachian Old-Time Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-appalachia-04-genres-forms-pl4",
+        "label": "Appalachian Old-Time Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Appalachian Old-Time Music rewards comparative study.",
+      "Focus: breakdowns, reels, ballads.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: breakdowns, reels, ballads.",
+      "Dance: square dance, clog, flatfoot.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Appalachia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "breakdowns, reels, ballads",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-appalachia-05-dance": {
+    "entities": [
+      {
+        "id": "tommy-jarrell",
+        "type": "artist",
+        "name": "Tommy Jarrell",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Tommy Jarrell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Jarrell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "roscoe-holcomb",
+        "type": "band",
+        "name": "Roscoe Holcomb",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Roscoe Holcomb for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Roscoe_Holcomb",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "alan-lomax",
+        "type": "artist",
+        "name": "Alan Lomax",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Alan Lomax for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Lomax",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-appalachia-05-dance-pl1",
+        "entity_id": "tommy-jarrell",
+        "label": "Tommy Jarrell — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-appalachia-05-dance-pl2",
+        "entity_id": "roscoe-holcomb",
+        "label": "Roscoe Holcomb — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-appalachia-05-dance-pl3",
+        "label": "Appalachian Old-Time Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-appalachia-05-dance-pl4",
+        "label": "Appalachian Old-Time Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Appalachian Old-Time Music rewards comparative study.",
+      "Focus: square dance, clog, flatfoot.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: breakdowns, reels, ballads.",
+      "Dance: square dance, clog, flatfoot.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Appalachia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "square dance, clog, flatfoot",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-appalachia-06-history": {
+    "entities": [
+      {
+        "id": "tommy-jarrell",
+        "type": "artist",
+        "name": "Tommy Jarrell",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Tommy Jarrell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Jarrell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "roscoe-holcomb",
+        "type": "band",
+        "name": "Roscoe Holcomb",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Roscoe Holcomb for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Roscoe_Holcomb",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "alan-lomax",
+        "type": "artist",
+        "name": "Alan Lomax",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Alan Lomax for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Lomax",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-appalachia-06-history-pl1",
+        "entity_id": "tommy-jarrell",
+        "label": "Tommy Jarrell — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-appalachia-06-history-pl2",
+        "entity_id": "roscoe-holcomb",
+        "label": "Roscoe Holcomb — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-appalachia-06-history-pl3",
+        "label": "Appalachian Old-Time Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-appalachia-06-history-pl4",
+        "label": "Appalachian Old-Time Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Appalachian Old-Time Music rewards comparative study.",
+      "Focus: Lomax, 78rpm, courthouse squares.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: breakdowns, reels, ballads.",
+      "Dance: square dance, clog, flatfoot.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Appalachia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Lomax, 78rpm, courthouse squares",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-appalachia-07-representative-depth": {
+    "entities": [
+      {
+        "id": "tommy-jarrell",
+        "type": "artist",
+        "name": "Tommy Jarrell",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Tommy Jarrell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Jarrell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "roscoe-holcomb",
+        "type": "band",
+        "name": "Roscoe Holcomb",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Roscoe Holcomb for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Roscoe_Holcomb",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "alan-lomax",
+        "type": "artist",
+        "name": "Alan Lomax",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Alan Lomax for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Lomax",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-appalachia-07-representative-depth-pl1",
+        "entity_id": "tommy-jarrell",
+        "label": "Tommy Jarrell — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-appalachia-07-representative-depth-pl2",
+        "entity_id": "roscoe-holcomb",
+        "label": "Roscoe Holcomb — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-appalachia-07-representative-depth-pl3",
+        "label": "Appalachian Old-Time Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-appalachia-07-representative-depth-pl4",
+        "label": "Appalachian Old-Time Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Appalachian Old-Time Music rewards comparative study.",
+      "Focus: bluegrass birth, fiddlers' conventions.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: breakdowns, reels, ballads.",
+      "Dance: square dance, clog, flatfoot.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Appalachia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "bluegrass birth, fiddlers' conventions",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Lesson focus area"
+      }
+    ]
+  },
+  "regions-roots-appalachia-08-tunes": {
+    "entities": [
+      {
+        "id": "tommy-jarrell",
+        "type": "artist",
+        "name": "Tommy Jarrell",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Tommy Jarrell for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Jarrell",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "roscoe-holcomb",
+        "type": "band",
+        "name": "Roscoe Holcomb",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Roscoe Holcomb for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Roscoe_Holcomb",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      },
+      {
+        "id": "alan-lomax",
+        "type": "artist",
+        "name": "Alan Lomax",
+        "summary": "Representative musician or ensemble in roots-appalachia trad",
+        "blurb": "Study Alan Lomax for regional accent, ornament, and repertoire context.",
+        "url": "https://en.wikipedia.org/wiki/Alan_Lomax",
+        "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320"
+      }
+    ],
+    "playlist": [
+      {
+        "id": "regions-roots-appalachia-08-tunes-pl1",
+        "entity_id": "tommy-jarrell",
+        "label": "Tommy Jarrell — performance",
+        "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+      },
+      {
+        "id": "regions-roots-appalachia-08-tunes-pl2",
+        "entity_id": "roscoe-holcomb",
+        "label": "Roscoe Holcomb — performance",
+        "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+      },
+      {
+        "id": "regions-roots-appalachia-08-tunes-pl3",
+        "label": "Appalachian Old-Time Music — field recording 3",
+        "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s"
+      },
+      {
+        "id": "regions-roots-appalachia-08-tunes-pl4",
+        "label": "Appalachian Old-Time Music — field recording 4",
+        "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+      }
+    ],
+    "key_points": [
+      "Appalachian Old-Time Music rewards comparative study.",
+      "Focus: Soldier's Joy, Cripple Creek, Shady Grove.",
+      "Listen for regional accent, not generic labels.",
+      "Forms: breakdowns, reels, ballads.",
+      "Dance: square dance, clog, flatfoot.",
+      "Archives, festivals, and recordings transmit repertoire."
+    ],
+    "reading_list": [
+      {
+        "type": "link",
+        "title": "Music of Appalachia",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Regional orientation"
+      },
+      {
+        "type": "link",
+        "title": "North American Roots",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Curriculum context"
+      },
+      {
+        "type": "link",
+        "title": "Folk music",
+        "url": "https://en.wikipedia.org/wiki/Folk_music",
+        "note": "Transmission concepts"
+      },
+      {
+        "type": "book",
+        "title": "World Music: A Global Journey",
+        "author": "Andrew Shahriari",
+        "note": "Survey chapter reference"
+      },
+      {
+        "type": "link",
+        "title": "Smithsonian Folkways",
+        "url": "https://folkways.si.edu/",
+        "note": "Archive recordings"
+      },
+      {
+        "type": "link",
+        "title": "Soldier's Joy, Cripple Creek, Shady Grove",
+        "url": "https://en.wikipedia.org/wiki/Music_of_Appalachia",
+        "note": "Lesson focus area"
+      }
+    ],
+    "tunes": [
+      {
+        "id": "soldier-s-joy",
+        "type": "tune",
+        "name": "Soldier's Joy",
+        "form": "breakdowns",
+        "reference": "Music of Appalachia repertoire",
+        "about": "Representative appalachian old-time music listening study.",
+        "playlist": [
+          {
+            "label": "Soldier's Joy — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+          }
+        ]
+      },
+      {
+        "id": "cripple-creek",
+        "type": "tune",
+        "name": "Cripple Creek",
+        "form": "breakdowns",
+        "reference": "Music of Appalachia repertoire",
+        "about": "Representative appalachian old-time music listening study.",
+        "playlist": [
+          {
+            "label": "Cripple Creek — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+          }
+        ]
+      },
+      {
+        "id": "shady-grove",
+        "type": "tune",
+        "name": "Shady Grove",
+        "form": "breakdowns",
+        "reference": "Music of Appalachia repertoire",
+        "about": "Representative appalachian old-time music listening study.",
+        "playlist": [
+          {
+            "label": "Shady Grove — regional recording",
+            "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+          }
+        ]
+      }
+    ]
+  }
+}

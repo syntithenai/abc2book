@@ -9,6 +9,8 @@ import {
   setAllPerformanceSetSelections,
   setRecommendedPerformanceSetSelections,
 } from '../performanceSetMergeUtils';
+import SelectAllToggle from './SelectAllToggle';
+import CheckToggleButton from './CheckToggleButton';
 
 function SetRecordFieldTable(props) {
   const record = props.record;
@@ -81,16 +83,15 @@ function SetRecordFieldTable(props) {
           return (
             <tr key={row.key} className={row.differs ? 'table-warning' : undefined}>
               <td className="text-center align-middle">
-                <Form.Check
-                  type="checkbox"
-                  id={'set-merge-' + record.id + '-' + row.key}
+                <CheckToggleButton
+                  size="sm"
                   checked={!!selections[row.key]}
-                  onChange={function(e) {
+                  ariaLabel={'Import ' + row.label}
+                  onClick={function() {
                     if (typeof onChange === 'function') {
-                      onChange(Object.assign({}, selections, { [row.key]: e.target.checked }));
+                      onChange(Object.assign({}, selections, { [row.key]: !selections[row.key] }));
                     }
                   }}
-                  aria-label={'Import ' + row.label}
                 />
               </td>
               <td className="align-middle">{row.label}</td>
@@ -121,6 +122,12 @@ function SetMergeRecordSection(props) {
   const state = props.state || {};
   const updateRecordState = props.updateRecordState;
   const tunesById = props.tunesById || {};
+  const differingRows = useMemo(function() {
+    if (record.kind !== 'update') return [];
+    return buildPerformanceSetFieldRows(record.localSet, record.incomingSet, tunesById).filter(function(r) { return r.differs; });
+  }, [record, tunesById]);
+  const fieldSelections = state.fieldSelections || {};
+  const selectedDifferingCount = differingRows.filter(function(row) { return fieldSelections[row.key]; }).length;
 
   return (
     <div className="performance-set-merge-record border rounded mb-3 overflow-hidden">
@@ -147,7 +154,7 @@ function SetMergeRecordSection(props) {
           }}
         />
         {record.kind === 'update' && (
-          <div style={{ marginTop: '0.75em', display: 'flex', gap: '0.5em', flexWrap: 'wrap' }}>
+          <div className="select-all-host" style={{ marginTop: '0.75em', display: 'flex', gap: '0.5em', flexWrap: 'wrap', alignItems: 'stretch' }}>
             <Button
               size="sm"
               variant="outline-primary"
@@ -161,31 +168,22 @@ function SetMergeRecordSection(props) {
             >
               Recommended fields
             </Button>
-            <Button
+            <SelectAllToggle
               size="sm"
-              variant="outline-success"
-              onClick={function() {
+              totalCount={differingRows.length}
+              selectedCount={selectedDifferingCount}
+              onSelectAll={function() {
                 updateRecordState(record.id, {
                   fieldSelections: buildFieldSelectionsForSetRecord(record, true, tunesById),
                 });
               }}
-            >
-              Select all differing
-            </Button>
-            <Button
-              size="sm"
-              variant="outline-secondary"
-              onClick={function() {
+              onSelectNone={function() {
                 updateRecordState(record.id, {
-                  fieldSelections: setAllPerformanceSetSelections(
-                    buildPerformanceSetFieldRows(record.localSet, record.incomingSet, tunesById).filter(function(r) { return r.differs; }),
-                    false
-                  ),
+                  fieldSelections: setAllPerformanceSetSelections(differingRows, false),
                 });
               }}
-            >
-              Select none
-            </Button>
+              ariaLabel="Select all differing fields"
+            />
           </div>
         )}
       </div>

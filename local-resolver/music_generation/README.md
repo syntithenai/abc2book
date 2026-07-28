@@ -1,6 +1,31 @@
-# Practice track generation (AI backing + notation melody)
+# Practice track generation (MIDI-guided AI backing + notation melody)
 
-Hybrid practice tracks: **abcjs soundfont melody** (timing-accurate) + **AI accompaniment** (Stable Audio 3 via [audio.cpp](https://github.com/FGDumitru/audio.cpp) Vulkan sidecar).
+Hybrid practice tracks: **canonical notation MIDI** (timing + harmony spine) + **styled AI arrangement** (Stable Audio 3 via [audio.cpp](https://github.com/FGDumitru/audio.cpp) Vulkan sidecar), with optional **FluidSynth** melody render and **beat-locked MIDI drum guide**.
+
+## MIDI render (FluidSynth)
+
+The resolver image installs `fluidsynth` and `fluid-soundfont-gm`. Optional env:
+
+```
+SF2_PATH=/usr/share/sounds/sf2/FluidR3_GM.sf2
+MIDI_RENDER_SAMPLE_RATE=44100
+```
+
+- `POST /render-midi` — multipart `midi` file → WAV (debug / preview)
+- Practice-track jobs accept optional `score` (`score.mid`); when FluidSynth is ready the server prefers that render for the melody stem.
+
+## audio.cpp guide-audio conditioning (Phase 2c spike)
+
+`AudioCppProvider` sends guide WAV as base64 using the first accepted request field:
+
+1. `init_audio`
+2. `audio`
+3. `conditioning_audio`
+4. `cover_audio`
+
+If the sidecar rejects the field, the provider retries without conditioning. **Hybrid fallback** (always available): AI style bed + MIDI drum guide + notation melody/chords — the MIDI guide defines the bar clock; backing is trimmed/tiled, not stretched onto the melody.
+
+Document results of your sidecar version in Phase 0 below before relying on single-pass conditioned generation.
 
 ## Phase 0 spike (run before relying on production generation)
 
@@ -72,9 +97,10 @@ PRACTICE_TRACK_CACHE_DIR=/tmp/practice-track-cache
 
 ## API
 
-- `GET /generate-practice-track/backends` — provider health
-- `POST /generate-practice-track` — multipart: `timingPlan` (JSON), `melody` (WAV); returns `{ jobId }`
-- `GET /generate-practice-track/{jobId}` — status; `audioUrl` when complete
+- `GET /generate-practice-track/backends` — provider health (+ `midiRender` status)
+- `POST /render-midi` — multipart: `midi` (`.mid`); returns WAV
+- `POST /generate-practice-track` — multipart: `timingPlan` (JSON), `melody` (WAV), optional `chords` (WAV), optional `score` (`.mid`); returns `{ jobId }`
+- `GET /generate-practice-track/{jobId}` — status; `audioUrl` and `stems` when complete
 
 ## Disk
 
