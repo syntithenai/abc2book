@@ -6,7 +6,6 @@ import MP3Converter from './MP3Converter'
 import { extractMusicXmlFromMxl } from './mxlExtract'
 
 export default function useFileManager(storeName = 'files', token, logout, tune = null, allowMimeTypes=null, loadData = false, filterByTuneId = true) {
-  //console.log(storeName, allowMimeTypes)
 	var [files, setFiles] = useState([])
 	var [filter, setFilter] = useState('')
 	var [filtered, setFiltered] = useState([])
@@ -22,7 +21,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 	
 
 	function allowMime(mimeFragment) {
-		//console.log('allowMime',mimeFragment)
 		const mimeFragmentParts = mimeFragment.trim().split("/")
 		var found = false;
 		if (Array.isArray(allowMimeTypes)) {
@@ -41,19 +39,15 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 						}
 					}
 				})
-				//console.log('allowMime',found)
 				return found
 			} else {
-				//console.log('allowMime',false)
 				return false
 			}
 			
 		}
-		//console.log('allowMime',true)
 		return true
 	}
 	async function refresh() {
-		console.log('refresh',tuneId)
 		//if (tuneId) {
 			search(null, tuneId).then(function(res) {
 				return updateFiles(res)
@@ -61,10 +55,8 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 		//}
 	}
 	useEffect(function() {
-		console.log('INIT',tuneId, filterByTuneId)
 		if (tuneId || !filterByTuneId) {
 			search(null, tuneId).then(function(res) {
-				console.log('INIT ff',tuneId, res)
 				updateFiles(res)
 				//setFiltered(res.filter(function(file) {
 					//return (file && file.name && file.name.toLowerCase().indexOf(filter.toLowerCase) !== -1) ? true : false
@@ -77,7 +69,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 		
 	var [filterTimeout, setFilterTimeout] = useState(null)
 	useEffect(function() {
-		console.log('filter change')
 		if (files) {
 			//clearTimeout(filterTimeout)
 			//setFilterTimeout(setTimeout(function() {
@@ -89,14 +80,12 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 	
 	
 	function runFilter(filter, files) {
-		//console.log('FILTER',filter, files)
 		if (files) {
 			var nf = files.filter(function(file) {
 				return (!filter || (file && file.name && file.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1)) ? true : false
 			}).sort(function(a,b) {
 				return (a.updatedTimestamp > b.updatedTimestamp) ? -1 : 1
 			})
-			console.log('FILTERED',nf)
 			setFiltered(nf)
 		}
 	}
@@ -104,7 +93,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 
 	
 	function addFiles(filesToAdd, resetFilter = true) {
-		console.log('add', filesToAdd, resetFilter)
 		if (Array.isArray(filesToAdd)) {
 			var newFiles = files
 			filesToAdd.forEach(function(file) {
@@ -113,7 +101,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 			setFiles(newFiles)
 			if (resetFilter) {
 				setFilter('')
-				console.log()
 				runFilter('', newFiles) 
 			} else {
 				runFilter(filter, newFiles)
@@ -123,7 +110,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 	}
 	
 	function updateFiles(files, resetFilter = true) {
-		console.log('updatefiles',files,resetFilter)
 		setFiles(files)
 		if (resetFilter) {
 			setFilter('')
@@ -137,16 +123,13 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 	
 	function scrapeUrl(url) {
 		return new Promise(function(resolve,reject) {
-			console.log('scrape',url)
 			if (url) {
 				var xhr = new XMLHttpRequest();
 				xhr.responseType = 'blob';
 
 				xhr.onload = function (res) {
 					
-					console.log("SCRAPED",res)
 					const type = res && res.target && res.target.response ? res.target.response.type : ''
-					console.log("SCRAPED TYPE",type)
 					if (xhr.response && type)  {
 						utils.blobToBase64(xhr.response).then(function(b64) {
 							resolve({b64,type})
@@ -157,7 +140,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 					//setWaiting(null)
 				};
 				xhr.onerror = function(err) {
-					console.log(err)
 					resolve(null)
 				}
 				//setWaiting(true)
@@ -168,7 +150,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
   }  
   
 	function pasteFiles() {
-		console.log('paste',token)
 		return new Promise(function(resolve,reject) {
 			var files = []
 			var promises = []
@@ -189,9 +170,7 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 												a.split("/n").forEach(function(line) {
 													if (line.trim().startsWith('http://') || line.trim().startsWith('https://')) {
 														foundLink = true
-														console.log("FFFFFFFFFFFFF PRE",line)
 														scrapeUrl(line.trim()).then(function(f) {
-															console.log("FFFFFFFFFFFFF",f)
 															if (f) {
 																resolve2({id: utils.generateObjectId(), name: line, type: f.type, data: f.b64, tuneId: tuneId, tuneName: tuneName})
 															} else {
@@ -220,12 +199,10 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 												resolve2({id: id, name: 'pasted file ' + id , type: type, data: a, tuneId: tuneId, tuneName: tuneName})
 											})
 										}
-										//console.log(t, type, item)
 									})
 								})
 							}))
 						})
-						console.log("PPP",promises)
 						Promise.all(promises).then(function(newFiles) {
 							if (Array.isArray(newFiles)) {
 								var savePromises = []
@@ -237,7 +214,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 									}))
 								})
 								Promise.all(savePromises).then(function(newFiles) {
-									console.log("NdF", newFiles)
 									resolve(addFiles(newFiles))
 								})
 							}
@@ -251,16 +227,13 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 
 	
 	function filesSelected(e) {
-		//console.log('ssss files selected', e.target.files)
 		if (e.target.files) {
 			var files = []
 			var promises = []
 			Array.from(e.target.files).forEach(function(file) {
-				console.log(file)
 				// UNZIP MUSIC XML FILE
 				if (file && file.name && file.name.trim().toLowerCase().endsWith(".mxl")) {
 					if (allowMime('application/musicxml')) {
-						//console.log('file selected')
 						promises.push(new Promise(function(resolve,reject) {
 							utils.readFileAsArrayBuffer(file).then(function(b) {
 								extractMusicXmlFromMxl(b).then(function(text) {
@@ -277,7 +250,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 				
 				}  else if (file && file.type && file.type === "text/plain") {
 					if (allowMime(file.type) ) {
-						console.log('file selected read b64')
 						promises.push(new Promise(function(resolve,reject) {
 							utils.readFileAsText(file).then(function (res) {
 								resolve({id: utils.generateObjectId(), name: file.name, type: file.type, data: res, tuneId: tuneId, tuneName: tuneName})
@@ -288,7 +260,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 					}
 				// READ FILE AS BASE64
 				} else {
-					console.log('file selected read b64')
 					if (file && allowMime(file.type)) {
 						promises.push(new Promise(function(resolve,reject) {
 							utils.readFileAsBase64(file).then(function (res) {
@@ -320,26 +291,21 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 					}))
 				})
 				Promise.all(savePromises).then(function(finalFiles) {
-					console.log("add selected files", finalFiles)
 					addFiles(finalFiles)
 				})
 			})
 		}
 	}
 	async function doDeleteFile(file) {
-		//console.log("DOdelete", file)
 		if (file && file.id) {
 			file.deleted = true
 			file.data  = null
 			await store.setItem(file.id, file)
 			
 			//.then(function (item) {
-				//console.log("DOdelete removed")
 			    //if (token) {
 					//docs.deleteDocument(file.googleId).then(function() {
-						////console.log("DOdelete removed google")
 						//search(null, tuneId).then(function(res) {
-							//console.log('REFRESH AFTER DELETE',res)
 							//updateFiles(res)
 							//return null;
 						//})
@@ -347,7 +313,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 					
 				//} else {
 					search(null, tuneId).then(function(res) {
-						console.log('REFRESH AFTER DELETE',res)
 						updateFiles(res)
 						return null;
 					})
@@ -360,18 +325,14 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 	}
 	
 	async function deleteFile(file, fileKey){
-		//console.log("delete", file,fileKey,JSON.parse(JSON.stringify(files)))
 		var m = file.name ? "Really delete the file " + file.name : 'Really delete this file?'
 		if (window.confirm(m)) {
 			doDeleteFile(file).then(function() {
-				//console.log("done delete", fileKey) //, 'l',files[fileKey])
 				//var newFiles = JSON.parse(JSON.stringify(files))
 				//if (newFiles[fileKey]) {
 					//newFiles.splice(fileKey,1)
-					//console.log("done delete", JSON.parse(JSON.stringify(newFiles)))
 					//updateFiles(newFiles, false)
 				//}
-				//console.log("done delete u")
 				// update filemanager base files
 				updateFiles(files.filter(function(f) {
 					if (f & f.id & file.id && file.id == f.id)  {
@@ -393,7 +354,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
       store.getItem(fileId).then(function (value) {
         resolve(value)
       }).catch(function (err) {
-        console.log('err',err)
         resolve({error:err})
       })
     })
@@ -429,7 +389,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 			resolve()
           }
         }).catch(function (err) {
-          console.log('serr',err)
           resolve({error:err})
         });
       } else {
@@ -441,7 +400,6 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
   
   
 function save(file, filteredKey = null) {
-	console.log("save",file, token)
 	return new Promise(function(resolve,reject) {
 		if (file) {
 			if (!file.id)  {
@@ -454,10 +412,8 @@ function save(file, filteredKey = null) {
 			}
 			file.updatedTimestamp = new Date()
 			store.setItem(file.id, file).then(function (item) {
-				console.log("save set item",item)
 				if (token) {
 					if (!file.googleId && file.data) {
-						console.log("save create gdoc", file.data)
 						// plain text and musicxml files hold file data decoded, otherwise convert from b64
 						var d = (file.type !== 'text/plain' && file.type !== 'application/musicxml')  ? 
 							utils.dataURItoBlob(file.data,file.type) 
@@ -466,14 +422,11 @@ function save(file, filteredKey = null) {
 						docs.findTuneBookFolderInDrive().then(function(folderId) {
 							docs.createDocument(file.name, d ,file.type,'File from TuneBook', folderId).then(function(newId) {
 								docs.getDocumentMeta(newId).then(function(meta) {
-									console.log('META',meta)
 									// update store with googleId
 									file.googleId = newId
 									file.googleModifiedTime = meta.modifiedTime
-									console.log("save create gdoc", newId)
 									store.setItem(file.id, file).then(function (item) {
 										//delete file.data
-										console.log("resolve", file, files, filtered)
 										// update filemanager base files
 										updateFiles(files.map(function(f) {
 											if (f & f.id & file.id && file.id == f.id)  {
@@ -484,7 +437,6 @@ function save(file, filteredKey = null) {
 										}))
 										
 										//search(null, tuneId).then(function(res) {
-											//console.log('REFRESH AFTER  SAVE',res)
 											//updateFiles(res)
 											//resolve(file)
 										//})
@@ -495,7 +447,6 @@ function save(file, filteredKey = null) {
 							})
 						})
 					} else {
-						console.log('have gid', file.googleId)
 						//docs.updateDocumentData(file.googleId, file.data).then(function(result) {
 						//delete file.data
 						// update filemanager base files
@@ -508,7 +459,6 @@ function save(file, filteredKey = null) {
 						}))
 						resolve(file)
 						//search(null, tuneId).then(function(res) {
-								//console.log('REFRESH AFTER  SAVE',res)
 								//updateFiles(res)
 							//})
 							
@@ -537,7 +487,6 @@ function save(file, filteredKey = null) {
 
 
 	function search(titleFilter = null, tuneId = null, noData = true) {
-		console.log('search', titleFilter, tuneId)
 		return new Promise(function(resolve,reject) {
 			var final = []
 			store.iterate(function(value, key, iterationNumber) {
@@ -550,17 +499,14 @@ function save(file, filteredKey = null) {
 						passedFilters = false
 					}
 				}
-				//console.log('searchFF', passedFilters, value, key, iterationNumber)
 				if (passedFilters && value) {
 					value.bitLength = value.data ? value.data.size : 0
 					if (noData && !loadData) delete value.data  // don't return data with list
 					final.push(value)
 				}
 			}).catch(function(err) {
-				console.log(err);
 				resolve([])
 			}).finally(function() {
-				//console.log('finaly', final)
 				resolve(final)
 			})
 		})

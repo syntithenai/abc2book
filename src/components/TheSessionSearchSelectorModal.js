@@ -36,7 +36,6 @@ function TheSessionSearchSelectorModal(props) {
   
   async function searchOptions(filter) {
     return new Promise(function(resolve,reject) {
-      //console.log('SEARCH',filter)
       axios.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+filter).then(function(searchRes) {
         var final = {}
         if (searchRes && searchRes.data && searchRes.data.tunes) {
@@ -52,7 +51,6 @@ function TheSessionSearchSelectorModal(props) {
 
   useEffect(function() {
     setSettings(null)
-    //console.log('ini searc',props.value)
     if (show) searchOptions(props.value).then(function(opts) {setOptions(opts)})
   },[show, props.value])
   
@@ -105,7 +103,6 @@ function TheSessionSearchSelectorModal(props) {
   function selectTune(tuneId) {
     return new Promise(function(resolve,reject) {
       axios.get('https://thesession.org/tunes/'+tuneId+'?format=json&perpage=50').then(function(searchRes) {
-        //console.log('res',searchRes)
         var final = {}
         if (searchRes && searchRes.data && searchRes.data.settings ) {
           var tune = searchRes.data
@@ -132,7 +129,6 @@ function TheSessionSearchSelectorModal(props) {
    //$.get('https://thesession.org/tunes/'+forceTuneId+'?format=json&perpage=50').then(function(tune) {
           //handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback)
         //}).catch(function(e) {
-          //console.log(["ERR1",e])
           //handleFoundTune(null, tunesList, searchText, null, songNumber, settingCallback)
         //})
       //} else {

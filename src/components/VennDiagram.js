@@ -28,7 +28,6 @@ export default function VennDiagram(props) {
                 div
                   .selectAll("g")
                   .on("mouseover", function (d, i) {
-                    ////console.log(d , i)
                     //venn.sortAreas(div, d);
                     //// Display a tooltip with the current size
                     //tooltip
@@ -48,9 +47,6 @@ export default function VennDiagram(props) {
                   })
 
                   .on("mousemove", function (e) {
-                    //console.log(d3)
-                     //console.log(e)
-                    //console.log(tooltip);
                     //tooltip
                       //.style("left", e.pageX + "px")
                       //.style("top", e.pageY - 28 + "px");

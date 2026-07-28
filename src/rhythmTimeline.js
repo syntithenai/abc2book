@@ -175,11 +175,8 @@ export function computeCountInSchedule(timeline, options) {
     })
     t += timeline.secPerBeat
   }
-  if (pickupBeats > 0 || pickupDelaySec > 0) {
-    const gapSlot = range.gapSlot
-    const gapInBar = slotInBarForGlobal(gapSlot, timeline.totalSlots)
-    t += timeline.slotDurations[gapInBar]
-  }
+  // Beat-aligned clicks already end one beat before musicStartSlot, so the next
+  // beat boundary is the anacrusis/downbeat. Only add fractional pickup delay.
   t += pickupDelaySec
   const downbeatAudioTime = t + pickupBeats * timeline.secPerBeat
   return {

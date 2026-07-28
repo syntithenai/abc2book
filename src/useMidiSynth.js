@@ -31,7 +31,6 @@ export default function useMidiSynth({midiData, onLoading, onReady, onEnded, onE
                     loadInstruments(ac,instruments).then(function(instruments) {
                         console.log("mididatachange instruments",instruments)
                         instrumentsRef.current = instruments
-                        //console.log(player)
                         isReady.current = true
                         //if (onLoading) onLoading(false)
                         if (onReady) onReady(player.getSongTime())
@@ -46,7 +45,6 @@ export default function useMidiSynth({midiData, onLoading, onReady, onEnded, onE
                     
                 })
                 //.catch(function() {
-                    //console.log("FAILED TO INIT MIDI AUDIO")
                     //if (onLoading) onLoading(false)
                     //if (onError) onError("FAILED TO INIT MIDI AUDIO")
                 //})
@@ -71,7 +69,6 @@ export default function useMidiSynth({midiData, onLoading, onReady, onEnded, onE
     //},[])
     
     //useEffect(function() {
-        //console.log("media controller change",mediaController)
     //},[mediaController])
     
     
@@ -96,7 +93,6 @@ export default function useMidiSynth({midiData, onLoading, onReady, onEnded, onE
                  var activeNotes={}
                  var player = new MidiPlayer.Player(function(event) {
                     if (Array.isArray(instrumentsRef.current) && instrumentsRef.current.length > 0) {
-                        //console.log(event)
                         if (event.name == 'Note on') {
                             var useInstrument = event.track < instrumentsRef.current.length + 1 && instrumentsRef.current[event.track - 1] ? event.track - 1 : 0
                             activeNotes[event.track + '-' + event.noteNumber] = instrumentsRef.current[useInstrument].play(event.noteNumber, ac.currentTime, {gain:event.velocity/100});

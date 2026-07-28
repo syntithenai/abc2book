@@ -2,7 +2,6 @@ const Notes = function(selector, tuner) {
   this.tuner = tuner
   this.isAutoMode = true
   this.$root = selector //document.querySelector(selector)
-  //console.log("DDD",selector,this.$root)
   this.$notesList = this.$root.querySelector('.notes-list')
   this.$frequency = this.$root.querySelector('.frequency')
   this.$notes = []

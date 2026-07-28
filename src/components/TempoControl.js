@@ -5,7 +5,6 @@ import {isMobile} from 'react-device-detect';
   
 export default function TempoControl(props) {
     //var metronome = useRef(null)
-    //metronome.current = new Metronome(props.value, props.beatsPerBar, 0, function() {console.log('done')});
     const handleClose = () => props.setShowTempo(false);
     const handleShow = () => props.setShowTempo(true);
     const [started, setStarted] = useState(false)

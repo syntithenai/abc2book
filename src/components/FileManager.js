@@ -41,10 +41,8 @@ export default function FileManager(props) {
    
 	//function fileInputChanged(e, lk) {
 		//utils.onFileSelectedToBase64(e,function(data) {
-			//console.log(data,e)
 			//var type = e.target.files[0].type
 			//var name = e.target.files[0].name
-			//console.log(type)
 			//if (type.startsWith('image/')) {
 				//var files = props.files
 				//if (!files[lk]) files[lk] = {}
@@ -55,7 +53,6 @@ export default function FileManager(props) {
 				//// TODO create google document and assign id to "data"
 				//googleDocument.findTuneBookFolderInDrive().then(function(folderId) {
 					//if (folderId)  googleDocument.createDocument(name,utils.dataURItoBlob(data, type),'application/vnd.google-apps.document','ABC Tune Book Image',folderId  ).then(function(res) {
-						////console.log(res)
 						//if (!res.error) files[lk].googleDocumentId = res
 						//props.onChange(files) 
 						//setWarningRow(lk, null)
@@ -67,7 +64,6 @@ export default function FileManager(props) {
 				//// TODO create google document and assign id to "data"
 				//googleDocument.findTuneBookFolderInDrive().then(function(folderId) {
 					//if (folderId) googleDocument.createDocument(name,utils.dataURItoBlob(data, type),'application/vnd.google-apps.document','ABC Tune Book PDF',folderId ).then(function(res) {
-						////console.log(res)
 						//files[lk].data = data
 						//files[lk].type = "pdf"
 						//files[lk].name = name
@@ -81,18 +77,14 @@ export default function FileManager(props) {
 			//} else if (name.endsWith('.mxl')) {
 				//var files = props.tune.files
 				//if (!files[lk]) files[lk] = {}
-				//console.log('OCTET')
 				//// TODO create google document and assign id to "data"
 				////googleDocument.findTuneBookFolderInDrive().then(function(folderId) {
 					//var b = utils.dataURItoBlob(data, type)
 					////if (folderId) googleDocument.createDocument(name,b,'application/vnd.google-apps.document','ABC Tune Book MusicXML File',folderId ).then(function(res) {
-						//////console.log(res)
 						//////utils.blobToText(b)
 						//utils.unzipBlob(b).then(function(entries) {
-							//console.log(entries)
 							//entries['score.xml'].blob('application/xml').then(function (blob) {
 								//utils.blobToText(blob).then(function(text) {
-									////console.log(b64)
 									//files[lk].data = text
 									//files[lk].type = "musicxml"
 									//files[lk].name = name
@@ -119,8 +111,6 @@ export default function FileManager(props) {
 			//var files = props.tune.files
 			//var fileToDelete = (files.length > lk && files[lk].hasOwnProperty('googleDocumentId')) ? files[lk].googleDocumentId : ''
 			//files.splice(lk,1)
-			//console.log('DELETE',fileToDelete,files)
-			//if (fileToDelete) googleDocument.deleteDocument(fileToDelete).then(function(res) {console.log(res)})
 			
 			//props.onChange(files)  
 		//}
@@ -139,13 +129,11 @@ export default function FileManager(props) {
   //}
     
 	//function scrapeUrl(lk) {
-		//console.log('scrape',lk,fileUrls[lk])
 		//if (fileUrls[lk]) {
 			//var xhr = new XMLHttpRequest();
 			//xhr.responseType = 'blob';
 
 			//xhr.onload = function (res) {
-				//console.log(res)
 				//var files = Array.isArray(props.tune.files) ? props.tune.files : []
                 ////files[lk] = utils.blobToBase64(res.response)
                 ////props.tune.files[lk].type
@@ -184,10 +172,8 @@ export default function FileManager(props) {
             //<div style={{clear:'both'}}>
                 
             //{(props.tune && Array.isArray(props.tune.files)) && props.tune.files.map(function(file,lk) {
-                ////console.log(file,lk)
                 //var hasFileData = (props.tune.files.length >= lk && props.tune.files[lk].hasOwnProperty('data') && props.tune.files[lk].data > 0) 
                 ////var b = hasFileData ? utils.dataURItoBlob(props.tune.files[lk].data,'text/plain') : new Blob()
-                ////console.log(b)
                 
                 //return <div key={lk} style={{marginTop:'0.3em', backgroundColor:'lightgrey', border:'1px solid black', padding:'0.3em'}} >
                     
@@ -227,7 +213,6 @@ export default function FileManager(props) {
                          //<Row><Col>{!hasFileData && <Form.Control  type='text'  value={fileUrls[lk]} onChange={function(e){
 							 //var f = fileUrls
 							 //f[lk] = e.target.value
-							 ////console.log(f)
 							 //setFileUrls(f)
 						 //}} />}</Col>
 						 

@@ -127,7 +127,6 @@ var Microphone = function(config) {
                     }
                 };
                 let readyCallback = function() {
-                    //console.log('hotword ready')
                     hotwordReady = true;
                     if (onCallbacks.hasOwnProperty('hotwordReady')) {
                         onCallbacks['hotwordReady']()
@@ -140,17 +139,13 @@ var Microphone = function(config) {
                 };
 
                 //if (!porcupineManager) {
-                    //console.log('CREATE NEW porc WORKER')
                     var webpack = false ;
-                    //console.log(config.javascript_environment)
-                    //console.log(config)
                     if (config.javascript_environment === 'react') {
                         webpack = true
                     } 
                     porcupineManager = PorcupineManager("./porcupine/porcupine_worker.js",webpack  );
                 //}
                 porcupineManager.start(KeywordData, SENSITIVITIES, processCallback, audioManagerErrorCallback, readyCallback);
-                //console.log(    'HOW STARYTED')
                 hotwordInitialised = true;
             }
         };
@@ -346,10 +341,8 @@ var Microphone = function(config) {
         
      
         function stopPlaying() {
-            //console.log('STOP PLAY')
             isPlaying = false
             if (bufferSource) {
-                 //console.log('STOP PLAY real')
                  bufferSource.stop()
              }
             if (urlAudioPlayer) {

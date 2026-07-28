@@ -6,7 +6,6 @@ import * as localForage from "localforage";
 import { tryRefreshAccessToken } from './googleLoginRefreshRegistry'
 import { normalizeDriveFileId } from './googleDrivePickerClient'
 import { normalizeAccessToken } from './mediaProxyClient'
-//console.log(await isOnline());
 
 var unauthorizedRefreshInFlight = null
 
@@ -33,7 +32,6 @@ function driveId(input) {
 }
 
 export default function useGoogleDocument(token, logout, refresh, onChanges, pausePolling, pollInterval) {
-//console.log('use g doc',token)
   var accessToken = token ? token.access_token : null
 
   function bearerToken(forceToken) {
@@ -62,20 +60,16 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   }, [onChanges, pollInterval])
 
   useEffect(function() {
-    //console.log('use doc tok change',onChanges, token)
     if (token && token.access_token && onChangesRef.current) {
-      //console.log('START POLL')
       pollChanges(pollIntervalRef.current, onChangesRef.current)
     }
     return function() {
-      //console.log('STOP POLL')
       stopPollChanges()
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps -- poll when token changes; callbacks read from refs
   },[token])
 	 
 	//function indexFiles() {
-		//console.log('create index')
 		//return new Promise(function(resolve,reject) {
 			//var final = {}
 			//filestore.iterate(function(value, key, iterationNumber) {
@@ -84,17 +78,14 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 					 //final[value.tuneId].push({id: value.id, googleDocumentId: value.googleId, data: value.data ? true : false, name: value.name})
 				//}
 			//}).catch(function(err) {
-				//console.log(err);
 				//resolve([])
 			//}).finally(function() {
-				////console.log('finaly', final)
 				//resolve(final)
 			//})
 		//})
 	//} 
 	
 	//function indexRecordings() {
-		//console.log('create r index')
 		//return new Promise(function(resolve,reject) {
 			//var final = {}
 			//recordingsstore.iterate(function(value, key, iterationNumber) {
@@ -103,10 +94,8 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 					 //final[value.tuneId].push({id: value.id, googleDocumentId: value.googleId, data: value.data ? true : false, name: value.name})
 				//}
 			//}).catch(function(err) {
-				//console.log(err);
 				//resolve([])
 			//}).finally(function() {
-				////console.log('finaly', final)
 				//resolve(final)
 			//})
 		//})
@@ -118,7 +107,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 		 //// load missing
 		 //var final = {}
 		 //var useToken = force_token ? force_token : (token ? token.access_token : null)
-		 //console.log('sync', useToken, tunes)
 		 //return new Promise(function(resolve,reject) { 
 			 //var promises = []
 			 //indexFiles().then(function(fileIndex) {
@@ -130,28 +118,20 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 							//fileIndex[tune.id].forEach(function(file, fileKey) {
 								//// have doc but not data so load 
 								//if (file && file.googleDocumentId && !file.data) { 
-									////console.log('sync load tune ',tune, file, useToken)
 									//promises.push(new Promise(function(iresolve,ireject) {
-										////console.log('start prom ')
 											
 										//getDocumentBlob(file.googleId, useToken).then(function(blob) {
-										 ////console.log('got blob ')
 											////TODO convert base64
 											//utils.blobToBase64(blob).then(function(cbData) {
-												////console.log('set final loaded',tune.id, fileKey)
 												////final[tune.id].files[fileKey].data = cbData
 												//iresolve([tune.id,fileKey,cbData])
-												////console.log('sync loaded tune ',cbData, final[tune.id].files)
 											//})
 										//})
 									//}))
 								//} else {
 									//if (file && !file.googleDocumentId && file.data && file.name) { 
-										////console.log('sync save tune ',tune, file, useToken)
-										////console.log('have tune data ',tunes[tuneId].files[fileKey])
 										//findTuneBookFolderInDrive().then(function(folderId) {
 											//createDocument(file.name, utils.dataURItoBlob(file.data),'application/vnd.google-apps.document','',folderId,useToken).then(function(res) {
-												////console.log('created', res)
 												//if (!res.error) final[tune.id].files[fileKey].googleDocumentId = res
 											//})
 										//})
@@ -163,28 +143,20 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 							//recordingsIndex[tune.id].forEach(function(file, fileKey) {
 								//// have doc but not data so load 
 								//if (file && file.googleDocumentId && !file.data) { 
-									////console.log('sync load tune ',tune, file, useToken)
 									//promises.push(new Promise(function(iresolve,ireject) {
-										////console.log('start prom ')
 											
 										//getDocumentBlob(file.googleDocumentId, useToken).then(function(blob) {
-										 ////console.log('got blob ')
 											////TODO convert base64
 											//utils.blobToBase64(blob).then(function(cbData) {
-												////console.log('set final loaded',tune.id, fileKey)
 												////final[tune.id].files[fileKey].data = cbData
 												//iresolve([tune.id,fileKey,cbData])
-												////console.log('sync loaded tune ',cbData, final[tune.id].files)
 											//})
 										//})
 									//}))
 								//} else {
 									//if (file && !file.googleDocumentId && file.data && file.name) { 
-										////console.log('sync save tune ',tune, file, useToken)
-										////console.log('have tune data ',tunes[tuneId].files[fileKey])
 										//findTuneBookFolderInDrive().then(function(folderId) {
 											//createDocument(file.name, utils.dataURItoBlob(file.data),'application/vnd.google-apps.document','',folderId,useToken).then(function(res) {
-												////console.log('created', res)
 												//if (!res.error) final[tune.id].files[fileKey].googleDocumentId = res
 											//})
 										//})
@@ -194,17 +166,13 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 						//}
 					//}) 
 					////Object.keys(tunes).forEach(function(tune) {
-						////console.log('sync save file ',tune)
 						////if (tunes[tuneId]) {
-							////console.log('have tune ',filesToSave[tuneId],tunes[tuneId].files)
 							////var fileKey = filesToSave[tuneId]
 							
 						////}
 					////})
 					//Promise.all(promises).then(function(f) {
-						////console.log('FINAL LOAD PROMISES',f, "FFF",final)
 						//f.forEach(function(fileData) {
-							////console.log('SET FILE ',fileData)
 							//final[fileData[0]].files[fileData[1]].data = fileData[2]
 						//})
 						//resolve(final)
@@ -219,12 +187,10 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 	
     function findTuneBookFolderInDrive() {
 		return new Promise(function(resolve,reject) {
-			//console.log('find folder in drive')
 				var xhr = new XMLHttpRequest();
 				xhr.onload = function (res) {
 					if (res.target.responseText) {
 						var response = JSON.parse(res.target.responseText)
-						//console.log('find tunebook folder',response)
 						var found = false
 						if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
 							// load whole file
@@ -236,7 +202,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 								})
 							}
 						}
-						//console.log('FOUND tunebook folder',found)
 						if (found) {
 							resolve(found)
 						} else {
@@ -463,7 +428,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 	}
 	
   function _pollChanges(interval, onChanges, multiplier = 1) {
-      //console.log('_DO POLL',multiplier, localStorage.getItem('google_last_page_token'))
       // Always re-arm the next poll, even when this poll was paused, errored, or
       // returned no changes. Otherwise the recursive polling chain dies after the
       // first paused/failed poll and cross-device changes are never seen again
@@ -491,7 +455,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   function pollChanges(interval, onChanges, multiplier = 1) {
     // min 4 sec
     var useInterval = interval > 4000 ? interval : 15000
-    //console.log('POLL',useInterval , interval, multiplier)
     clearTimeout(pollChangesTimeout.current) 
     pollChangesTimeout.current = setTimeout(function() {_pollChanges(interval,onChanges, multiplier)}, useInterval) // * multiplier/3)
     return 
@@ -503,10 +466,8 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function getStartPageToken() {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec' ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       var online = isOnline()
-      //console.log('get start token' ,accessToken, online)
       if (accessToken && online) {
         var url = 'https://www.googleapis.com/drive/v3/changes/startPageToken'
         axios({
@@ -515,10 +476,8 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           if (postRes.data && postRes.data.startPageToken) localStorage.setItem('google_last_page_token',postRes.data.startPageToken)
-          //console.log(postRes)
           resolve(postRes.data)
         }).catch(function(e) {
-			console.log(e)
 			if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -533,39 +492,33 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
 	function doPollChanges() {
 		return new Promise(function(resolve,reject) {
-			//console.log('DO POLL' ,accessToken, localStorage.getItem('google_last_page_token'))
 			if (pausePolling && pausePolling.current) {
 				resolve()
 			} else {
 				if (localStorage.getItem('google_last_page_token') && accessToken) {
-					//console.log('REALLY DO POLL token ',accessToken)
 					var url = 'https://www.googleapis.com/drive/v3/changes?pageToken=' + localStorage.getItem('google_last_page_token')
 					axios({
 						method: 'get',
 						url: url,
 						headers: {'Authorization': 'Bearer '+accessToken},
 					}).then(function(postRes) {
-						//console.log('CHANGES',postRes)
 						if (postRes && postRes.data && postRes.data.newStartPageToken) {
 						  localStorage.setItem('google_last_page_token',postRes.data.newStartPageToken)
 						}
 						if (postRes && postRes.data && Array.isArray(postRes.data.changes) && postRes.data.changes.length > 0) {
 						  resolve(postRes.data.changes)
 						} else {
-							//console.log('no data')
 							//stopPollChanges()
 							//refresh()
 							resolve([])
 						} 
 					}).catch(function(e) {
-						console.log('axios err', e)
 						if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 						}
 						resolve()
 					})
 				} else {
-					console.log('no token or last page token')
 					//stopPollChanges()
 					resolve()
 				}
@@ -575,7 +528,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 
   function findDocument(title) {
     return new Promise(function(resolve,reject) {
-      //console.log('find rec',title ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (title && accessToken) {
         var filter = "?q="+ encodeURIComponent("name='"+title+"'") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
@@ -585,7 +537,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           url: url,
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          //console.log(postRes)
           resolve(postRes.data)
         }).catch(function(e) {
           //getToken()
@@ -626,7 +577,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
     
   function getPublicDocument(id, mimeType='text') {
     return new Promise(function(resolve,reject) {
-      //console.log('get public rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id ) {
         axios({
@@ -637,9 +587,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           //headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          console.log("USE GOT public DOC",postRes)
         }).catch(function(e) {
-          console.log(e)
           if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -663,11 +611,9 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           url: 'https://www.googleapis.com/drive/v3/files/'+fileId+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          console.log("USE GOT DOC",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
-          console.log(e)
           if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -691,11 +637,9 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           url: 'https://www.googleapis.com/drive/v3/files/'+fileId+'?alt=media',
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          //console.log("export GOT DOC",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
-          console.log(e)
           if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -721,11 +665,9 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           headers: {'Authorization': 'Bearer '+useToken},
           responseType: 'blob'
         }).then(function(postRes) {
-          console.log("USE GOT DOC blob",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
-          console.log(e)
           if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -750,9 +692,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          console.log("DOCUMENT META",postRes)
         }).catch(function(e) {
-			console.log(e)
 			if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -792,7 +732,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
             resolve(revisions)
           }
         }).catch(function(e) {
-          console.log(e)
           if (e && e.response && e.response.status == '401') {
             handleDriveUnauthorized(logout)
           }
@@ -826,7 +765,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).then(function(postRes) {
           resolve(postRes.data)
         }).catch(function(e) {
-          console.log(e)
           if (e && e.response && e.response.status == '401') {
             handleDriveUnauthorized(logout)
           }
@@ -842,7 +780,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
       }).then(function(postRes) {
         resolve(postRes.data)
       }).catch(function(e) {
-        console.log(e)
         if (e && e.response && e.response.status == '401') {
           handleDriveUnauthorized(logout)
           resolve()
@@ -856,7 +793,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
    function createDocument(title, documentData, documentType='application/vnd.google-apps.document', documentDescription='', documentFolderId = null, force_token = null) {
     return new Promise(function(resolve,reject) {
 		var useToken = force_token ? force_token : (token ? token.access_token : null)
-      console.log('create google doc' ,token,useToken, 'T:',title, 'Y:',documentType, 'D:',documentDescription, 'F:',documentFolderId)
       if (documentType && title && useToken) {
         var  data = {
           "description": documentDescription,
@@ -872,12 +808,10 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           headers: {'Authorization': 'Bearer '+useToken},
         }).then(function(postRes) {
           //googleSheetId.current = postRes.data.id
-          console.log('created',postRes)
 			if (postRes && postRes.data && postRes.data.id) {
 				if (documentData ) {
 				  updateDocumentData(postRes.data.id, documentData, useToken).then(function(updated) {
 					//onLogin("")
-					console.log('created updated',updated)
 					localStorage.setItem('google_last_page_token','')
 					resolve(postRes.data.id)
 				  })
@@ -889,7 +823,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 			}
         }).catch(function(e) {
             //getToken()
-            console.log(e)
 			if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -904,7 +837,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function updateDocument(id,metaData) {
     return new Promise(function(resolve,reject) {  
-      //console.log('update',id,metaData)
       if (id && accessToken) {
           axios({
             method: 'patch',
@@ -913,11 +845,9 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
             headers: {'Authorization': 'Bearer '+accessToken},
           }).then(function(postRes) {
             //googleSheetId.current = postRes.data.id
-            //console.log('updated title',postRes)
             localStorage.setItem('google_last_page_token','')
             resolve()
           }).catch(function(e) {
-            console.log(e)
 			if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 			}
@@ -934,7 +864,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   function updateDocumentData(id,data, force_token = null) {
     return new Promise(function(resolve,reject) {
 		var useToken = force_token ? force_token : (token ? token.access_token : null)
-      //console.log('trigger  update data ', id,data, "L",accessToken,"K", token)
       if (id && useToken) {
         
         axios({
@@ -943,11 +872,9 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           headers: {'Authorization': 'Bearer '+useToken},
           data: data,
         }).then(function(postRes) {
-          //console.log('updated',postRes.data  )
           localStorage.setItem('google_last_page_token','')
           resolve(postRes)
         }).catch(function(e) {
-          console.log(e)
           if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -962,18 +889,15 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function deleteDocument(id) {
     return new Promise(function(resolve,reject) {
-      console.log('trigger delete ', id, accessToken)
       if (id && accessToken) {
         axios({
           method: 'delete',
           url: 'https://www.googleapis.com/drive/v2/files/'+id,
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          console.log('deleted',postRes.data  )
           localStorage.setItem('google_last_page_token','')
           resolve(postRes)
         }).catch(function(e) {
-			console.log(e)
 			if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -989,7 +913,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function addPermission(id,permissionData) {
     return new Promise(function(resolve,reject) {
-      //console.log('trigger rec update ', id,data, accessToken)
       if (id && accessToken) {
         axios({
           method: 'post',
@@ -997,10 +920,8 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           headers: {'Authorization': 'Bearer '+accessToken},
           data: permissionData,
         }).then(function(postRes) {
-          //console.log('add perm',postRes  )
           resolve(postRes)
         }).catch(function(e) {
-			console.log(e)
 			if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -1015,17 +936,14 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function listPermissions(id) {
     return new Promise(function(resolve,reject) {
-      //console.log('trigger rec update ', id,data, accessToken)
       if (id && accessToken) {
         axios({
           method: 'get',
           url: 'https://www.googleapis.com/drive/v3/files/'+id+"/permissions",
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          //console.log('get perm',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
-			console.log(e)
 			if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -1040,7 +958,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function updatePermission(id, permissionId, permissionData) {
     return new Promise(function(resolve,reject) {
-      //console.log('trigger rec update ', id,data, accessToken)
       if (id && accessToken) {
         axios({
           method: 'patch',
@@ -1048,10 +965,8 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           headers: {'Authorization': 'Bearer '+accessToken},
           data: permissionData,
         }).then(function(postRes) {
-          //console.log('update perm',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
-			console.log(e)
 			if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 		  }
@@ -1065,17 +980,14 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   }
   function deletePermission(id,permissionId) {
     return new Promise(function(resolve,reject) {
-      //console.log('trigger rec update ', id,data, accessToken)
       if (id && accessToken) {
         axios({
           method: 'delete',
           url: 'https://www.googleapis.com/drive/v3/files/'+id+"/permissions/"+permissionId,
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          //console.log('del perm',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
-			console.log(e)
 			if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout)
 			}

@@ -6,7 +6,6 @@ import QuickPlayButton from '../components/QuickPlayButton'
 var ALLOW_RECORDING = false
 
 export default function AbcPlayButton({tune, started, ready, isPlaying, clickInit, clickPlay, setIsPlaying, clickStopPlaying, tunebook, forceRefresh}) {
-    //console.log('button',tune)
     
     const [isRecording, setIsRecording] = useState(false)
     const [recordings, setRecordings] = useState([])
@@ -51,7 +50,6 @@ export default function AbcPlayButton({tune, started, ready, isPlaying, clickIni
         loadRecordings()
       }
       return function() {
-        //console.log('button unload',isPlaying)
         ////clickStop()
         //clickStopPlaying()
       }

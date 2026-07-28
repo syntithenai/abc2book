@@ -31,7 +31,6 @@ export default function useAudioUtils() {
    
     
     function startRecording(tune, timeout=0) { 
-		//console.log('start recprdomg')
       return new Promise(function(resolve,reject) {
         if (navigator.mediaDevices.getUserMedia) {
           const constraints = { audio: true };
@@ -82,7 +81,6 @@ export default function useAudioUtils() {
     
     
     function stopPlayRecording() {
-      //console.log('stop play rec',audio.current)
       setIsPlaying(false)
       if (audio.current) {
         audio.current.pause()

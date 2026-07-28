@@ -111,7 +111,6 @@ export default function Abc(props) {
       fitAppliedRef.current = true
     }
     
-        //console.log('ABC tune',tune) //, props.abc, metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor)
     
     function updateOnChange() {
          //, props.tempo, lastTempo,  props.abc , lastAbc )
@@ -133,7 +132,6 @@ export default function Abc(props) {
         //}
         
         return function cleanup() {
-           //console.log('ABC CLEANUP')
            resetAudioState()
         }
     }
@@ -141,7 +139,6 @@ export default function Abc(props) {
 
     // when abc changes, do a full update
     useEffect(() => {
-    //console.log(props.abc)
         if (props.mediaController) {
             //if (props.mediaController.checkAudioContext()) {
                 return updateOnChange()
@@ -229,7 +226,6 @@ export default function Abc(props) {
 
     // autostart
     //useEffect(() => {
-        //console.log('autostart change', props.autoStart)
         //if (props.autoStart) {
           //if (props.autoStart) {
            //setIsPlaying(true)
@@ -242,7 +238,6 @@ export default function Abc(props) {
 
     // save autoscroll prop to ref
     useEffect(() => {
-      //console.log('set AS,',props.autoScroll)
       autoScroll.current = props.autoScroll
     }, [props.autoScroll, autoScroll])
 
@@ -252,7 +247,6 @@ export default function Abc(props) {
       return
     }
     // && !renderActive) {
-      //console.log('RENDER TUNE aa')
       try {
         var clickListener = abcSynth.clickListener
         if (props.onClick && props.suppressPlaybackSeek) {
@@ -372,14 +366,12 @@ export default function Abc(props) {
             var playbackObj = playbackRes && playbackRes.length > 0 ? playbackRes[0] : null
             setPlaybackVisualObj(playbackObj)
           } catch (playbackErr) {
-            console.log('PLAYBACK RENDER EXC', playbackErr)
             setPlaybackVisualObj(null)
           }
         } else {
           setPlaybackVisualObj(null)
         }
                
-        //console.log('RENDERED TUNE ',o, tune) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
         if (o) {
             setStarted(true)
             const tuneObj = tune || {}
@@ -416,7 +408,6 @@ export default function Abc(props) {
                         if (!isPlaybackGenerationCurrent(autoPrimeGeneration)) return
                         var [audioContext, midiBuffer, timingCallbacks, cursor] = p
                         if (!midiBuffer) {
-                            console.log('autoPrime failed: soundfont or synth prime returned null', getSoundFontUrl())
                             setReady(false)
                             setStarted(false)
                             if (props.mediaController && props.mediaController.abortPlayingIntent) {
@@ -433,7 +424,6 @@ export default function Abc(props) {
                         }
                     }).catch(function(e) {
                         if (e === 'cancelled' || !isPlaybackGenerationCurrent(autoPrimeGeneration)) return
-                        console.log('autoPrime REJECT CREATE PLAYER', e, getSoundFontUrl())
                         setReady(false)
                         setStarted(false)
                         if (props.mediaController && props.mediaController.abortPlayingIntent) {
@@ -445,7 +435,6 @@ export default function Abc(props) {
         }
          //setSeekTo(0)
       } catch (e) {
-        console.log('RENDER EXC',e)
       }
   }
 
@@ -540,9 +529,7 @@ export default function Abc(props) {
 
 }
     //function clickPlay(seekTo) {
-        //console.log('onClickHandler PLAY',seekTo)
         //if (playTimerRef && playTimerRef.current) {
-          ////console.log('onClickHandler DOUBLE')
             //clearTimeout(playTimerRef.current)
             //playTimerRef.current = null
             //setPlayCount(0)
@@ -551,9 +538,7 @@ export default function Abc(props) {
             ////setIsWaiting(true); 
             //setIsPlaying(true);
         //} else {
-          ////console.log('onClickHandler start')
             //playTimerRef.current = setTimeout(() => {
-              ////console.log('onClickHandler TIMEOUT TO SINGLE')
                 //clearTimeout(playTimerRef.current)
                 ////setIsWaiting(true); 
                 //setIsPlaying(true);
@@ -567,7 +552,6 @@ export default function Abc(props) {
       
   //function bodyClick(enable) { 
     //if (!started) {
-      //console.log('BODYCLICK')
       ////setStarted(true)
       //if (enable) enable() // enable no sleep 
       //clickInit()
@@ -576,7 +560,6 @@ export default function Abc(props) {
     
   
   //function clickInit(playing) {
-      //console.log('CLICK INIT', gvisualObj)
       //if (gvisualObj && gvisualObj.current) {
         //setReady(false)
         //setStarted(true)
@@ -600,7 +583,6 @@ export default function Abc(props) {
 
     // start stop synth when isPlaying changes
     //useEffect(() => {
-        //console.log("CHANGE isplaying ",isPlaying)
         //if (isPlaying) {
           //startPlaying()
         //} else {
@@ -610,7 +592,6 @@ export default function Abc(props) {
 
   
   //useEffect(() => {
-    ////console.log('tempo change',props.tempo, props.abc)
       //if (props.tunes) {
         //var tuneLocal = props.tunebook.abcTools.abc2json(props.abc)
         //var tune = props.tunes[tuneLocal.id]
@@ -623,7 +604,6 @@ export default function Abc(props) {
       ////props.forceRefresh()
    //}, [props.tempo]) 
  
-//console.log('abc',props.tunebook)
 
   //{(props.tempo) ? <span  >
               //{!props.hidePlayer && <AbcPlayButton forceRefresh={props.forceRefresh} tune={tune}  started={started} ready={ready}  isPlaying={isPlaying} setIsPlaying={setIsPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay}  clickRecord={clickRecord} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  }

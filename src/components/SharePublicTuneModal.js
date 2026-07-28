@@ -4,7 +4,6 @@ import useGoogleDocument from '../useGoogleDocument'
 
 
 export default function SharePublicTuneModal({tunebook, tune, buttonClassName}) {
-  //console.log({tunebook, token,googleDocumentId, tiny, tuneId,currentTuneBook, variant})
   const [show, setShow] = useState(false);
  
   const handleClose = () => setShow(false);

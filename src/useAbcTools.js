@@ -89,7 +89,6 @@ var useAbcTools = () => {
     }
     
     function isMetaLine(line) {
-        //console.log('ismeta', line[0],line[1])
         return (line.length > 1 && line[1] === ":" && line[0] !=='|')
     }
     
@@ -131,7 +130,6 @@ var useAbcTools = () => {
     
    
     function pushMeta(meta,key,line) {
-        //console.log('pushemeta',meta,key,line)
         if (!meta) meta = {}
         if (!(meta.hasOwnProperty(key) && Array.isArray(meta[key]))) {
             meta[key] = []
@@ -193,7 +191,6 @@ var useAbcTools = () => {
     }
 
     function renderOtherHeaders(tune) {
-        //console.log('RNoTER',tune.meta,tune)
       if (tune && tune.meta) {
         return Object.keys(tune.meta).map(function(key) {
           if (key === 'G' || INTERNAL_META_KEYS[key]) return ''
@@ -244,7 +241,6 @@ var useAbcTools = () => {
 
     
     function abc2json(abc) {
-        //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
         var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genres: [], albums: [], noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', lyricsScrollDurationSec: 0, meta: {}}
         var currentVoice = '1'
@@ -258,7 +254,6 @@ var useAbcTools = () => {
          var abcbookJsonChunks = {}
          var hLines = []
          abc.split("\n").forEach(function(line) {
-            //console.log('LINE', line)
             var capoMatch = line.trim().match(/^capo:\s*(\d+)/i) || line.trim().match(/^%%capo\s+(\d+)/i)
             if (capoMatch) {
                 tune.capo = parseInt(capoMatch[1], 10) || 0
@@ -281,13 +276,11 @@ var useAbcTools = () => {
                         if (parts[0]) {
                             seenVoiceHeader = true
                             tune.voices[parts[0]] = {meta: parts.slice(1).join(' '), notes:[]}
-                            //console.log('LINE Vvoice meta real',parts[0],tune.voices[parts[0]],tune.voices)
                             currentVoice = parts[0]
                             if (pendingMidiPrograms.length > 0) {
                                 tune.voices[parts[0]].notes.unshift('%%MIDI program ' + pendingMidiPrograms.shift())
                             }
                         }
-                        //console.log('LINE Vvoice meta',parts[0], line)
                         break
                     case "T":
                         {
@@ -365,13 +358,10 @@ var useAbcTools = () => {
                         break
                 }
             } else if (isDataLine(line)) {
-                //console.log('data line',line)
                 if (line.startsWith('% abcbook-tune_id')) {
                     tune.id = line.slice(17).trim()
-                    //console.log('FOUNDID',tune.id,line)
                 } else if (line.startsWith('% abcbook-tune_composer_id')) {
                     tune.composerId = line.slice(26).trim()
-                    //console.log('FOUNDID',tune.id,line)
                 } else if (line.startsWith('% abcbook-boost')) {
                     tune.boost = parseInt(line.slice(16).trim())
                 } else if (line.startsWith('% abcbook-starred')) {
@@ -523,13 +513,10 @@ var useAbcTools = () => {
                         }
                     }
                } else  if (line.startsWith('% abcbook-file-')) {
-				   //console.log('read file line',line)
                     if (line.startsWith('% abcbook-file-type-')) {
                         var parts = line.trim().split('% abcbook-file-type-')
-                        //console.log('TTs',parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (tuneFiles[numberParts[0]]) {
                                     tuneFiles[numberParts[0]].type = numberParts.slice(1).join(' ')
@@ -541,10 +528,8 @@ var useAbcTools = () => {
                         }
                     } else if (line.startsWith('% abcbook-file-google-document-id-')) {
                         var parts = line.trim().split('% abcbook-file-google-document-id-')
-                        //console.log(parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!files[numberParts[0]]) files[numberParts[0]] = {}
                                 files[numberParts[0]].googleDocumentId = numberParts[1]
@@ -552,10 +537,8 @@ var useAbcTools = () => {
                         }
                     } else if (line.startsWith('% abcbook-file-name-')) {
                         var parts = line.trim().split('% abcbook-file-name-')
-                        //console.log('TTs',parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (tuneFiles[numberParts[0]]) {
                                     tuneFiles[numberParts[0]].name = numberParts.slice(1).join(' ')
@@ -567,10 +550,8 @@ var useAbcTools = () => {
                         }
                     } else if (line.startsWith('% abcbook-file-data-')) {
                         var parts = line.trim().split('% abcbook-file-data-')
-                        //console.log('TTs',parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!files[numberParts[0]]) files[numberParts[0]] = {}
                                 files[numberParts[0]].data = numberParts.slice(1).join(' ')
@@ -578,13 +559,10 @@ var useAbcTools = () => {
                         }
                     }
                 } else  if (line.startsWith('% abcbook-recording-')) {
-				   //console.log('read file line',line)
                     if (line.startsWith('% abcbook-recording-type-')) {
                         var parts = line.trim().split('% abcbook-recording-type-')
-                        //console.log('TTs',parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!recordings[numberParts[0]]) recordings[numberParts[0]] = {}
                                 recordings[numberParts[0]].type = numberParts.slice(1).join(' ')
@@ -592,10 +570,8 @@ var useAbcTools = () => {
                         }
                     } else if (line.startsWith('% abcbook-recording-google-document-id-')) {
                         var parts = line.trim().split('% abcbook-recording-google-document-id-')
-                        //console.log(parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!recordings[numberParts[0]]) recordings[numberParts[0]] = {}
                                 recordings[numberParts[0]].googleDocumentId = numberParts[1]
@@ -603,10 +579,8 @@ var useAbcTools = () => {
                         }
                     } else if (line.startsWith('% abcbook-recording-name-')) {
                         var parts = line.trim().split('% abcbook-recording-name-')
-                        //console.log('TTs',parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!recordings[numberParts[0]]) recordings[numberParts[0]] = {}
                                 recordings[numberParts[0]].name = numberParts.slice(1).join(' ')
@@ -614,10 +588,8 @@ var useAbcTools = () => {
                         }
                     } else if (line.startsWith('% abcbook-recording-data-')) {
                         var parts = line.trim().split('% abcbook-recording-data-')
-                        //console.log('TTs',parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!recordings[numberParts[0]]) recordings[numberParts[0]] = {}
                                 recordings[numberParts[0]].data = numberParts.slice(1).join(' ')
@@ -627,10 +599,8 @@ var useAbcTools = () => {
                 } else  if (line.startsWith('% abcbook-link-')) {
                     if (line.startsWith('% abcbook-link-title-')) {
                         var parts = line.trim().split('% abcbook-link-title-')
-                        //console.log('TTs',parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!links[numberParts[0]]) links[numberParts[0]] = {}
                                 links[numberParts[0]].title = numberParts.slice(1).join(' ')
@@ -638,10 +608,8 @@ var useAbcTools = () => {
                         }
                     } else if (line.startsWith('% abcbook-link-start-at-')) {
                         var parts = line.trim().split('% abcbook-link-start-at-')
-                        //console.log('TTs',parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!links[numberParts[0]]) links[numberParts[0]] = {}
                                 links[numberParts[0]].startAt = numberParts.slice(1).join(' ')
@@ -649,10 +617,8 @@ var useAbcTools = () => {
                         }
                     } else if (line.startsWith('% abcbook-link-end-at-')) {
                         var parts = line.trim().split('% abcbook-link-end-at-')
-                        //console.log('TTs',parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!links[numberParts[0]]) links[numberParts[0]] = {}
                                 links[numberParts[0]].endAt = numberParts.slice(1).join(' ')
@@ -687,10 +653,8 @@ var useAbcTools = () => {
                         }
                     } else {
                         var parts = line.trim().split('% abcbook-link-')
-                        //console.log(parts)
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
-                            //console.log('numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!links[numberParts[0]]) links[numberParts[0]] = {}
                                 links[numberParts[0]].link = numberParts.slice(1).join(' ')
@@ -700,7 +664,6 @@ var useAbcTools = () => {
                 }
           
             } else if (isNoteLine(line)) {
-                //console.log('LINE ISNOTE', line)
                 if (line.trim().length > 0) {
                     // Legacy leak: chordSheetAlignment objects were stringified into ABC.
                     if (/^chordSheetAlignment:\s*\[object Object\]/i.test(line.trim())) {
@@ -738,7 +701,6 @@ var useAbcTools = () => {
                 }
             } 
         })
-        //if (Object.keys(links).length > 0) console.log('FOUND TUNE LINKS',links)
         tune.links = Object.values(links)
         tune.files = Object.values(files)
         tune.tuneFiles = Object.keys(tuneFiles).sort(function(a, b) {
@@ -764,7 +726,6 @@ var useAbcTools = () => {
           delete tune[fieldName]
         })
         if (tune.id === null)  tune.id = utils.generateObjectId()
-          //console.log('LINE Vm ABC2JSON single',tune)
           return normalizeGenre(tune)
       }
       return {}
@@ -780,7 +741,6 @@ var useAbcTools = () => {
      * @return multiline abc string starting with \nX:<tuneid>\n suitable for tune book 
      */
     function json2abc(tune) {
-      //console.log('json2abc',tune)
       //var bookData = {}
       if (tune) {
         normalizeGenre(tune)
@@ -855,7 +815,6 @@ var useAbcTools = () => {
                     if (link.mediaKind) {
                         linksRendered.push("% abcbook-link-media-kind-"+k + ' ' +  ensureText(link.mediaKind,"") )
                     }
-                    //console.log("TOABC",link.link,JSON.stringify(linksRendered))
                 }
                 
             })
@@ -927,10 +886,6 @@ var useAbcTools = () => {
             //voicesAnd Notes.push('|')
         //}
         var otherHeaders = renderOtherHeaders(tune)
-       //console.log('voicesAndNotes',voicesAndNotes)
-        //console.log(otherHeaders)
-        //console.log('voicesandnotes',tune.voices,voicesAndNotes)
-        //console.log('JSON2abc tempo',tune.tempo,cleanTempo(tune.tempo), tempoLine)
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + titleHeaderText
                     + composerHeaderText
@@ -1005,7 +960,6 @@ var useAbcTools = () => {
                     + ((recordingsRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
                     
         
-        //console.log('ABC OUT', finalAbc)
         return finalAbc
       } else {
         return ''
@@ -1013,14 +967,11 @@ var useAbcTools = () => {
     }
     
     function cleanTempo(tempoIn) {
-        //console.log('clean tempo',tempoIn)
         var tempo = new String(tempoIn)
         if (tempo && tempo.trim)  {
             var parts = tempo.trim().split('=')
-            //console.log('clean tempo',parts)
             if (parts.length > 0) {
                 var t = parseInt(parts[parts.length-1])
-                //console.log('clean tempot',t, t > 0)
                 if (t > 0) return t
                 else return 100 
             } else return ''
@@ -1063,7 +1014,6 @@ var useAbcTools = () => {
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n"
                     + renderPlaybackAbcbookFields(tune)
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
-        //console.log('ABC OUT', finalAbc)
         return finalAbc
       } else {
         return ''
@@ -1103,7 +1053,6 @@ var useAbcTools = () => {
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
                     
         
-        //console.log('ABC OUT', finalAbc)
         return finalAbc
       } else {
         return ''
@@ -1349,7 +1298,6 @@ var useAbcTools = () => {
                         var nl = ''
                         var offset = 0
                         if (tunes[0].hasPickup) offset = 1
-                        //console.log('3 for nl ',((measureNumber - offset) % useBarsPerLine))
                         if (((measureNumber - offset) % useBarsPerLine) === (useBarsPerLine - 1) ) nl="\n" 
                         return measure.abc + nl
                     })
@@ -1419,7 +1367,6 @@ var useAbcTools = () => {
     }
 
     function removeAbcInnerStrings(abc) {
-        //console.log('removeinner',abc)
       if (abc ) {
             // remove strings from abc notes
           abc = new String(abc).trim()
@@ -1439,11 +1386,9 @@ var useAbcTools = () => {
     }
     
     function hasChords(abcNotes) {
-        //console.log('haschords',abcNotes)
         return (abcNotes && abcNotes.indexOf('"') !== -1)
     }
       //var chords = getInnerStrings(abc)
-      //console.log('haschords',chords)
       //var haveChords = false;
       //// any match success
       //chords.map(function(chord,k) {
@@ -1513,10 +1458,8 @@ var useAbcTools = () => {
     }
     
     function multiplyAbcTiming(multiplier,abc) {
-        //console.log('mult',multiplier,abc)
         var measuresRaw = abcjs.extractMeasures(abc)
         var measures = measuresRaw[0].measures
-        //console.log('mult',measuresRaw, measures)
         var newMeasures = measures.map(function(m) {
           var abc = m.abc
           var c = 0
@@ -1784,7 +1727,6 @@ var useAbcTools = () => {
     }
 
     function getTempo(tune) {
-        //console.log('gettempo',tune)
         var tempo = 100
         var tempoString = tune && tune.tempo ? tune.tempo : '1/4=100'
         var tempoStringParts = removeAbcInnerStrings(tempoString).split("=")
@@ -1795,7 +1737,6 @@ var useAbcTools = () => {
             tempo = parseInt(tempoStringParts[0])
             if (!tempo > 0) tempo = 100
         }
-        //console.log('GET TEMPO',tempoString,tempoStringParts,tempo)
         return tempo
     }
 
@@ -1804,12 +1745,10 @@ var useAbcTools = () => {
        //var meter = ensureText(getTuneMeter(tune), '4/4')
        //var beats = getBeatsPerBar(meter)
        //var tempo = forceTempo ? forceTempo : getTempo(tune)
-       ////console.log('beats',beats, meter, tempo, tune)
        //return 60000/tempo * beats
     //}
 
     //function getReviewTempo(tune) {
-      //console.log('get tempo ',tune)
       //if (tune) {
         //var boost = tune.boost > 0 ? tune.boost : 0
         //var useBoost = boost > 20 ? 20 : boost
@@ -1876,7 +1815,6 @@ var useAbcTools = () => {
             })
         }
         const hashString = tune.title + tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts + (voicesAndNotes.join("\n") )
-        //console.log("HASH",hashString)
         var hash = utils.hash(hashString)
         return hash
     } else {
@@ -1885,7 +1823,6 @@ var useAbcTools = () => {
   }
   
   function getNotes(tune) {
-      //console.log('getnotes',tune)
       var voicesAndNotes=[]
       if (tune) {
         
@@ -1935,7 +1872,6 @@ var useAbcTools = () => {
           wLinesPart,
           wordsPart,
         ].join('\u0001')
-        //console.log("HASH",hashString)
         var hash = utils.hash(hashString)
         return hash
     } else {
@@ -1949,10 +1885,8 @@ var useAbcTools = () => {
   //}
 
   function tunesToAbc(tunes, deletedTunes) {
-    //console.log('to abc',book, tunes)
     var res = Object.values(tunes).map(function(tune, k) {
       //var newTune = tune
-     // console.log(tune)
       if (tune && tune.meta) tune.meta.X = k
       return json2abc(tune)
     }).join("\n")
@@ -1960,7 +1894,6 @@ var useAbcTools = () => {
     if (tombstones) {
       res = res ? res + '\n' + tombstones : tombstones
     }
-    //console.log('to abc res',res)
     return res
 
   }

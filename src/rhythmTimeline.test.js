@@ -125,25 +125,31 @@ describe('rhythmTimeline', function() {
     expect(schedule.clicks[0].audioTime).toBeCloseTo(8)
   })
 
-  test('3/4 one-beat pickup count-in uses three clicks', function() {
+  test('3/4 one-beat pickup count-in uses two clicks then anacrusis', function() {
     const timeline = createRhythmTimeline({
-      rhythm: rhythm44,
+      rhythm: rhythm34,
       tempo: 100,
       downbeatAudioTime: 100,
     })
+    const beat = 0.6
     const musicStart = computeMusicStartAudioTime({
       downbeatAudioTime: 100,
       pickupBeats: 1,
       tempo: 100,
     })
-    expect(musicStart).toBeCloseTo(99.4)
+    expect(musicStart).toBeCloseTo(100 - beat)
+    const firstClick = 100 - 3 * beat
     const schedule = computeCountInSchedule(timeline, {
-      slotCount: 3,
+      slotCount: 2,
       pickupBeats: 1,
-      firstClickAudioTime: 97.6,
+      firstClickAudioTime: firstClick,
     })
-    expect(schedule.clicks.length).toBe(3)
+    expect(schedule.clicks.length).toBe(2)
     expect(schedule.musicStartSlot).toBe(-1)
+    expect(schedule.musicStartAudioTime).toBeCloseTo(firstClick + 2 * beat)
+    expect(schedule.downbeatAudioTime).toBeCloseTo(100)
+    expect(schedule.clicks[0].slotInBar).toBe(0)
+    expect(schedule.clicks[1].slotInBar).toBe(1)
   })
 
   test('pickup downbeat conversion round-trips', function() {

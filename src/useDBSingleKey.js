@@ -10,7 +10,6 @@ import localforage from 'localforage'
 function reducer(state, action) {
     //if (Array.isArray(state)) {
         const index = parseInt(action.index)
-        ////console.log(['REDUCE',action.type,action.index, action.item,action.items,state])
         switch (action.type) {
         case "append":
           if (action.item) {
@@ -50,10 +49,8 @@ function reducer(state, action) {
                 return action.items
             } else return state
         case "sort":
-            //console.log(['DISP SORT',action.sort])
             if (typeof action.sort === "function") {
                 var ret = state.sort(action.sort)
-                //console.log(['DISP SORT ret',ret, ret[0],ret[1]])
                 return [...ret]
             } else return state
         default:
@@ -68,7 +65,6 @@ function reducer(state, action) {
 
 // state manager with local storage backing
 export default function useDB(database, databaseTable,singleKey, initialData=[],setChanged) {
-    ////console.log(['use db single key', database, databaseTable,singleKey])
     if (!singleKey) singleKey = 'data'
      const [items, dispatch] = useReducer(reducer,initialData);
      var localforageStorage = localforage.createInstance({
@@ -78,22 +74,18 @@ export default function useDB(database, databaseTable,singleKey, initialData=[],
 
     
     useEffect(function() {
-        ////console.log(['dbsingle key items loaded',items])
         //loadAll()
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
     
     useEffect(function() {
-        //console.log(['dbsingle key items updated',items])
         //var cleanItems = []
         //try {
             //cleanItems = JSON.parse(JSON.stringify(items))
-            //console.log(['dbsingle key items updated CLEAN',cleanItems])
         if (typeof items === "object") {
             localforageStorage.setItem(singleKey,items)  
         }
         //} catch (e) {
-            //console.log(e)
         //}
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[items])
@@ -109,7 +101,6 @@ export default function useDB(database, databaseTable,singleKey, initialData=[],
     function loadAll() {
         return new Promise(function(resolve, reject) {
             localforageStorage.getItem(singleKey).then(function(res) {
-              ////console.log(['loadall',database, databaseTable,singleKey,res])
               dispatch({ type: "replaceall", items: res ? res : initialData});
               resolve(res)
             })
@@ -119,7 +110,6 @@ export default function useDB(database, databaseTable,singleKey, initialData=[],
     
     // save or create
     function saveItem(item,index) {
-        //console.log(['save singlekey',item,index])
         if (item) {
             // update sources and save text in seperate localstorage
             // ensure id
@@ -172,7 +162,6 @@ export default function useDB(database, databaseTable,singleKey, initialData=[],
     }
 
     function setItemsWrap(items) {
-        //console.log(['setitems is singlekey',items])
         localforageStorage.clear().then(function() {
             dispatch({ type: "replaceall", items: items})
             if (setChanged) setChanged(true)

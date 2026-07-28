@@ -198,7 +198,6 @@ function IndexLayout(props) {
 
     const stopWaiting = props.stopWaiting
     useEffect(function() {
-        //console.log("IL boot")
         setTimeout(function() {
             window.scroll(0, scrollOffset)
             stopWaiting()
@@ -209,18 +208,13 @@ function IndexLayout(props) {
     const lastScrollTopRef = useRef(0);
 	const [fixedSingleMenu, setFixedSingleMenu] = useState(false)
 	useEffect(() => {
-		//console.log('scroll init')
 		const handleScroll = (e) => {
-			//console.log('scroll e')
-			//console.log('scrolld e',e, e.currentTarget, e.target)
 				const currentScrollTop = window.scrollY;
 				if (currentScrollTop > lastScrollTopRef.current) {
 				  // Scrolling down
-				  //console.log('Scrolling down',window.scrollY);
 				  setFixedSingleMenu(false)
 				} else {
 				  // Scrolling up
-				  //console.log('Scrolling up',window.scrollY);
 				  if (currentScrollTop > 100) {
 					  setFixedSingleMenu(true)
 					  //setTimeout(function() { setFixedSingleMenu(false) }, 5000)
@@ -327,7 +321,6 @@ function IndexLayout(props) {
     function selectAllToggle(groupKey=null) {
         if (groupKey === null) {
             if (countSelected() > 0) {
-                //console.log('HS sele')
                 filtered.forEach(function(tune) {
                     selected[tune.id] = false
                 })
@@ -343,17 +336,14 @@ function IndexLayout(props) {
             setSelectedCount(countSelected())
             props.forceRefresh()
         } else {
-             //console.log('select all toggle group',groupKey)
              if (grouped && Array.isArray(grouped[groupKey])) {
                 var count = 0
                 if (grouped[groupKey].length === countSelected(groupKey)) {
-                    //console.log('select all ON')
                     // all off
                     grouped[groupKey].forEach(function(id) {
                         if (filtered[id] && filtered[id].id) selected[filtered[id].id] = false
                     })
                 } else {
-                    //console.log('select all OFF')
                     // all on
                     grouped[groupKey].forEach(function(id) {
                         if (filtered[id] && filtered[id].id) selected[filtered[id].id] = true
@@ -401,7 +391,6 @@ function IndexLayout(props) {
     function handleSelection(e,tuneId) {
         // TODO grouped
         
-        //console.log('HS',e, tuneId,selected[tuneId],selected)
         if (!grouped && e.shiftKey && lastSelected) {
             e.preventDefault(); 
             e.stopPropagation();
@@ -422,13 +411,11 @@ function IndexLayout(props) {
             //props.forceRefresh()
         }
         
-        //console.log('HSend',tuneId,selected[tuneId],selected)
     }
     
     function countSelected(groupKey = null) {
         if (grouped && Array.isArray(grouped[groupKey])) {
             var count = 0
-            //console.log('count grouepd',selected,grouped)
             grouped[groupKey].forEach(function(id) {
                 if (filtered[id] && filtered[id].id && selected[filtered[id].id]) count++ 
             })
@@ -438,7 +425,6 @@ function IndexLayout(props) {
             Object.keys(selected).forEach(function(key) {
                 if (selected[key]) count++ 
             })
-            //console.log("CCC",count)
             return count
         }
     }
@@ -450,7 +436,6 @@ function IndexLayout(props) {
         //return selected.split(",").forEach(function(key) {
             //if (key && props.tunes[key] && props.tunes[key]._id) final[props.tunes[key]._id] = props.tunes[key] 
         //})
-        //console.log("CCC",props.selected,final )
         //return final
     //}
     
@@ -633,7 +618,7 @@ function IndexLayout(props) {
             } nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter} forceRefresh={function() { setListHash(''); props.forceRefresh()}} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} groupBy={props.groupBy} setGroupBy={props.setGroupBy} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} genreFilter={props.genreFilter} setGenreFilter={props.setGenreFilter} artistFilter={props.artistFilter} setArtistFilter={props.setArtistFilter} starredFilter={props.starredFilter} setStarredFilter={props.setStarredFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  listDisplayMode={props.listDisplayMode} setListDisplayMode={props.setListDisplayMode} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} PREVIEW_LIST_LIMIT={PREVIEW_LIST_LIMIT} tagCollation={tagCollation} />
         
 
-			{props.tunes && <div className="tune-list-toolbar-row">
+			{props.tunes && <div className={'tune-list-toolbar-row' + (showListSelectionControls ? '' : ' tune-list-toolbar-row--compact')}>
 
 				{showPagination ? (
           <span className="d-inline-flex align-items-center gap-2" style={{ marginRight: '0.5em' }}>
@@ -758,8 +743,8 @@ function IndexLayout(props) {
             <span id={"group-"+groupKey} aria-hidden="true"></span>
            
             <br/>
+            {showListSelectionControls ? (
             <div className="tune-list-group-select-wrap">
-            {showListSelectionControls && (
               <SelectAllToggle
                 size="lg"
                 totalCount={filteredGroup.length}
@@ -768,8 +753,8 @@ function IndexLayout(props) {
                 onSelectNone={function() { selectAllToggle(groupKey) }}
                 ariaLabel={'Select all tunes in ' + groupKey}
               />
-            )}
             </div>
+            ) : null}
             <Badge style={{float:'right'}} >{filteredGroup.length}</Badge>
             <h3> {groupKey && <Button style={{float:'left'}} variant="outline-secondary" onClick={function() {props.tunebook.utils.scrollTo('topofpage')}} >{props.tunebook.icons.arrowup}</Button>}&nbsp;&nbsp;&nbsp;{groupKey} </h3>
             {renderListItems(filteredGroup)}

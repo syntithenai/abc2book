@@ -29,15 +29,12 @@ export default function ImportPage(props) {
     return error ? <b>{error}</b> : <b>Loading....</b>
     
     
-    //console.log(params, curated)
     //if (curated.hasOwnProperty(params.curation)) {
-        //console.log("D",params.curation) //curated[params.curation])
     //} 
     //const [agree, setAgree] = useState(false)
     //const [show, setShow] = useState(false)
     
     //function handleCloseAgree() {
-        ////console.log('close',params)
         //if (params.tuneId) {
             //navigate("/tunes/"+params.tuneId)
         //} else {
@@ -46,7 +43,6 @@ export default function ImportPage(props) {
     //}
     
     //function onClose() {
-        ////console.log('onClose')
         //props.setCurrentTuneBook(params.curation)
         //navigate("/tunes")
     //}

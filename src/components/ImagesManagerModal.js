@@ -3,7 +3,6 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 import ImagesManager from './ImagesManager'
 
 export default function ImagesManagerModal({tunebook, tune, login, logout, token, fileManager}) {
-  //console.log({tunebook, token,googleDocumentId, tiny, tuneId,currentTuneBook, variant})
   const [show, setShow] = useState(false);
  
   const handleClose = () => {

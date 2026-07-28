@@ -36,12 +36,10 @@ export default function RecordingsManager(props) {
 		recordingStartedAt.current = new Date().getTime()
 		setRecordingDuration(0)
 		recordingInterval = setInterval(function() {
-			//console.log( recordingStartedAt, new Date().getTime())
 			setRecordingDuration(parseInt((new Date().getTime() - recordingStartedAt.current)/1000))
 		},1000)
 		audioUtils.startRecording().then(function(data) {
 			clearInterval(recordingInterval)
-			console.log('captured', data)
 			utils.blobToBase64(data).then(function(b64) {
 				fileManager.save({id: utils.generateObjectId(), name:'Recording '+new Date().toLocaleString(), data: b64, createdTimestamp : new Date(), updatedTimestamp : new Date(),  type:'audio/wav', tuneId : props.tune ? props.tune.id : null, tuneName: props.tune ? props.tune.name : null}).then(function(file) {
 					fileManager.addFiles([file])
@@ -105,7 +103,6 @@ export default function RecordingsManager(props) {
 							<Button variant="danger" style={{float:'right'}} onClick={function() {fileManager.deleteFile(file,fk)}} >{props.tunebook.icons.deletebin}</Button>
 							
 							<span style={{float:'right'}} ><FileNameEditorModal tunebook={props.tunebook} initvalue={file.name} onChange={function(v) {
-								console.log(v)
 								// ensure data is loaded
 								fileManager.load(file.id).then(function(orig) {
 									orig.name = v
@@ -155,7 +152,6 @@ export default function RecordingsManager(props) {
 //export default function RecordingsManager(props) {
     //const navigate = useNavigate()
     //const googleDocument = useGoogleDocument(props.token, props.logout)
-	////console.log("DD",props.token, props.tune)
     //// TODO AUTOLOAD GOOGLE DOCUMENT (if possible) if link but no data AND cache in file.data
     //// TODO single view autoload doc
 	//var utils = useUtils();
@@ -191,7 +187,6 @@ export default function RecordingsManager(props) {
 	//} 
  
 	//function rotateImage(inputBase64, toward='right') {
-		////console.log('ROTATE',toward,inputBase64)
 		//return new Promise(function(resolve,reject) {
 		  
 		  //if (!inputBase64) {
@@ -220,14 +215,12 @@ export default function RecordingsManager(props) {
 
 			//// Convert the rotated image to base64
 			//const rotatedBase64 = canvas.toDataURL('image/png') //.split(',')[1];
-			////console.log('ROTATED')
 			//resolve(rotatedBase64)
 		  //};
 		//})
 	//}
   
   	//function rotateLeft(itemKey) {
-		////console.log('rotate left')
 		//var nl = props.tune.files
 		//if (nl[itemKey] && nl[itemKey].data) {
 			//rotateImage(nl[itemKey].data,'left').then(function(res) {
@@ -235,7 +228,6 @@ export default function RecordingsManager(props) {
 				//// update online version
 				//if (nl[itemKey].googleDocumentId) {
 					//googleDocument.updateDocumentData(nl[itemKey].googleDocumentId, res).then(function() {
-						//console.log('saved rotated image')
 					//})
 				//}
 			//})
@@ -246,7 +238,6 @@ export default function RecordingsManager(props) {
 	//}
     
     //function rotateRight(itemKey) {
-		////console.log('rotacte right')
 		//var nl = props.tune.files
 		//if (nl[itemKey] && nl[itemKey].data) {
 			//rotateImage(nl[itemKey].data,'right').then(function(res) {
@@ -254,7 +245,6 @@ export default function RecordingsManager(props) {
 				//// update online version
 				//if (nl[itemKey].googleDocumentId) {
 					//googleDocument.updateDocumentData(nl[itemKey].googleDocumentId, res).then(function() {
-						//console.log('saved rotated image')
 					//})
 				//}
 			//})
@@ -267,10 +257,8 @@ export default function RecordingsManager(props) {
    
 	//function fileInputChanged(e, lk) {
 		//utils.onFileSelectedToBase64(e,function(data) {
-			//console.log(data,e)
 			//var type = e.target.files[0].type
 			//var name = e.target.files[0].name
-			//console.log(type)
 			//if (type.startsWith('image/')) {
 				//var files = props.tune.files
 				//if (!files[lk]) files[lk] = {}
@@ -281,7 +269,6 @@ export default function RecordingsManager(props) {
 				//// TODO create google document and assign id to "data"
 				//googleDocument.findTuneBookFolderInDrive().then(function(folderId) {
 					//if (folderId)  googleDocument.createDocument(name,utils.dataURItoBlob(data, type),'application/vnd.google-apps.document','ABC Tune Book Image',folderId  ).then(function(res) {
-						////console.log(res)
 						//if (!res.error)files[lk].googleDocumentId = res
 						//var tune = props.tune
 						//tune.files = files; 
@@ -295,7 +282,6 @@ export default function RecordingsManager(props) {
 				//// TODO create google document and assign id to "data"
 				//googleDocument.findTuneBookFolderInDrive().then(function(folderId) {
 					//if (folderId) googleDocument.createDocument(name,utils.dataURItoBlob(data, type),'application/vnd.google-apps.document','ABC Tune Book PDF',folderId ).then(function(res) {
-						////console.log(res)
 						//files[lk].data = data
 						//files[lk].type = "pdf"
 						//files[lk].name = name
@@ -311,18 +297,14 @@ export default function RecordingsManager(props) {
 			//} else if (name.endsWith('.mxl')) {
 				//var files = props.tune.files
 				//if (!files[lk]) files[lk] = {}
-				//console.log('OCTET')
 				//// TODO create google document and assign id to "data"
 				////googleDocument.findTuneBookFolderInDrive().then(function(folderId) {
 					//var b = utils.dataURItoBlob(data, type)
 					////if (folderId) googleDocument.createDocument(name,b,'application/vnd.google-apps.document','ABC Tune Book MusicXML File',folderId ).then(function(res) {
-						//////console.log(res)
 						//////utils.blobToText(b)
 						//utils.unzipBlob(b).then(function(entries) {
-							//console.log(entries)
 							//entries['score.xml'].blob('application/xml').then(function (blob) {
 								//utils.blobToText(blob).then(function(text) {
-									////console.log(b64)
 									//files[lk].data = text
 									//files[lk].type = "musicxml"
 									//files[lk].name = name
@@ -351,8 +333,6 @@ export default function RecordingsManager(props) {
 			//var files = props.tune.files
 			//var fileToDelete = (files.length > lk && files[lk].hasOwnProperty('googleDocumentId')) ? files[lk].googleDocumentId : ''
 			//files.splice(lk,1)
-			//console.log('DELETE',fileToDelete,files)
-			//if (fileToDelete) googleDocument.deleteDocument(fileToDelete).then(function(res) {console.log(res)})
 			
 			//var tune = props.tune
 			//tune.files = files; 
@@ -373,13 +353,11 @@ export default function RecordingsManager(props) {
   //}
     
 	//function scrapeUrl(lk) {
-		//console.log('scrape',lk,fileUrls[lk])
 		//if (fileUrls[lk]) {
 			//var xhr = new XMLHttpRequest();
 			//xhr.responseType = 'blob';
 
 			//xhr.onload = function (res) {
-				//console.log(res)
 				//var files = Array.isArray(props.tune.files) ? props.tune.files : []
                 ////files[lk] = utils.blobToBase64(res.response)
                 ////props.tune.files[lk].type
@@ -434,10 +412,8 @@ export default function RecordingsManager(props) {
             //<div style={{clear:'both'}}>
                 
             //{(props.tune && Array.isArray(props.tune.files)) && props.tune.files.map(function(file,lk) {
-                ////console.log(file,lk)
                 //var hasFileData = (props.tune.files.length >= lk && props.tune.files[lk].hasOwnProperty('data') && props.tune.files[lk].data > 0) 
                 ////var b = hasFileData ? utils.dataURItoBlob(props.tune.files[lk].data,'text/plain') : new Blob()
-                ////console.log(b)
                 
                 //return <div key={lk} style={{marginTop:'0.3em', backgroundColor:'lightgrey', border:'1px solid black', padding:'0.3em'}} >
                     
@@ -477,7 +453,6 @@ export default function RecordingsManager(props) {
                          //<Row><Col>{!hasFileData && <Form.Control  type='text'  value={fileUrls[lk]} onChange={function(e){
 							 //var f = fileUrls
 							 //f[lk] = e.target.value
-							 ////console.log(f)
 							 //setFileUrls(f)
 						 //}} />}</Col>
 						 

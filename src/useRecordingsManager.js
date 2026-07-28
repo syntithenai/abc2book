@@ -9,7 +9,6 @@ export default function useRecordingsManager(token, logout, fileManager) {
     //name: "recordings"
   //});
   //var fileManager = useFileManager('recordings',token,logout)
-    //console.log('rec man ',token)
   //var docs = useGoogleDocument(token, logout)
   var utils = useUtils()
   var mediaRecorder = useRef(null)
@@ -31,10 +30,8 @@ export default function useRecordingsManager(token, logout, fileManager) {
         //return new Promise(function(resolve,reject) {
       //store.getItem(recordingId).then(function (value) {
         ////return localForage.getItem(recordingId);
-        ////console.log('lfok',value)
         //resolve(value)
       //}).catch(function (err) {
-        //console.log('lferr',err)
         //// we got an error
         //resolve(null)
       //})
@@ -56,7 +53,6 @@ export default function useRecordingsManager(token, logout, fileManager) {
           //})
         //})
       //}).catch(function (err) {
-        //console.log('serr',err)
         //// we got an error
         //resolve(null)
       //});
@@ -64,22 +60,17 @@ export default function useRecordingsManager(token, logout, fileManager) {
   //}
   //function updateRecordingTitle(recording) {
     //return new Promise(function(resolve,reject) {
-      ////console.log('uprectit',recording)
       //if (recording && recording.id && recording.title) {
         //recording.createdTimestamp = new Date().getTime()
         //store.setItem(recording.id, recording).then(function (item) {
-          ////console.log('uprectit into store',recording)
           //if (recording.googleId) {
-            ////console.log('uprectit have google id',recording)
             //docs.updateDocument(recording.googleId,{name: recording.title}).then(function(newId) {
-              ////console.log('uprectit done online')
               //resolve()
             //})
           //} else {
             //resolve()
           //}
         //}).catch(function (err) {
-          //console.log('serr',err)
           //resolve()
           //// we got an error
         //});
@@ -99,41 +90,32 @@ export default function useRecordingsManager(token, logout, fileManager) {
 	}
 	
     //return new Promise(function(resolve,reject) {
-      ////console.log('AAAsave rec',recording,"dd", token,"dd")
       //if (recording) {
         
         //if (!recording.id)  {
           //recording.id = utils.generateObjectId() 
         //}
         //recording.createdTimestamp = new Date().getTime()
-        ////console.log('AAAsave 2rec',recording)
         //store.setItem(recording.id, recording).then(function (item) {
-          ////console.log('AAAsave rec set',recording)
           //if (token) {
             //if (!recording.googleId) {
-              ////console.log('AAAsave noid so create',recording)
               //docs.createDocument(recording.title, recording.data,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
                 //recording.googleId = newId
-                ////console.log('created doc',recording.googleId,"REC",recording, "gooRES",newId)
                 //store.setItem(recording.id, recording).then(function (item) {
                   //resolve(recording)
                 //})
               //}).catch(function(err) {
-                ////console.log('failed created online doc')
                 //store.setItem(recording.id, recording).then(function (item) {
                   //resolve(recording)
                 //})
               //})
             //} else {
-              ////console.log('update doc',recording.googleId,recording.data,recording)
               //docs.updateDocumentData(recording.googleId, recording.data).then(function(result) {
-                ////console.log('updated doc',recording.googleId,recording,result)
                 //resolve(recording)
               //})
             //}
           //}
         //}).catch(function (err) {
-          //console.log('serr',err)
           //resolve(recording)
           //// we got an error
         //});
@@ -153,7 +135,6 @@ export default function useRecordingsManager(token, logout, fileManager) {
 
   
   //function listRecordings() {
-    ////console.log('list');
     //return new Promise(function(resolve,reject) {
       ////resolve([
         ////{id:'234234', title:'test1', data: [], tuneId: '22222', createdTimestamp : new Date().getTime()},
@@ -161,62 +142,51 @@ export default function useRecordingsManager(token, logout, fileManager) {
       ////])
       //var final = []
       //store.iterate(function(value, key, iterationNumber) {
-          ////console.log([key, value]);
           //if (value) {
             //value.bitLength = value.data ? value.data.size : 0
             //delete value.data  // don't return data with list
             //final.push(value)
           //}
       //}).then(function() {
-          ////console.log('list all has completed', final);
           //resolve(final)
       //}).catch(function(err) {
           //// This code runs if there were any errors
-          //console.log(err);
           //reject()
       //})
     //})
   //}
   
   //function listRecordingsByTuneId(tuneId) {
-    ////console.log('list id',tuneId);
     //return new Promise(function(resolve,reject) {
       //var final = []
       //store.iterate(function(value, key, iterationNumber) {
-          ////console.log([key, value]);
           //if (value && value.tuneId && value.tuneId === tuneId) {
             //value.bitLength = value.data ? value.data.size : 0
             //delete value.data  // don't return data with list
             //final.push(value)
           //}
       //}).then(function() {
-          ////console.log('search tuneid has completed', final);
           //resolve(final)
       //}).catch(function(err) {
           //// This code runs if there were any errors
-          //console.log(err);
           //reject()
       //});
     //})
   //}
   
   //function searchRecordingsByTitle(title) {
-    ////console.log('list searc',title);
     //return new Promise(function(resolve,reject) {
       //var final = []
       //store.iterate(function(value, key, iterationNumber) {
-          ////console.log([key, value]);
           //if (value && value.title && value.title === title) {
              //value.bitLength = value.data ? value.data.size : 0
              //delete value.data  // don't return data with list
              //final.push(value)
           //}
       //}).then(function() {
-          ////console.log('search name has completed', final);
           //resolve(final)
       //}).catch(function(err) {
           //// This code runs if there were any errors
-          //console.log(err);
           //reject()
       //});
     //})
@@ -307,7 +277,6 @@ export default function useRecordingsManager(token, logout, fileManager) {
     
     
     function stopPlayRecording() {
-      //console.log('stop play rec',audio.current)
       if (audio.current) {
         audio.current.pause()
         audio.currentTime = 0;
@@ -316,7 +285,6 @@ export default function useRecordingsManager(token, logout, fileManager) {
 
     function downloadRecording (recordingId) {
       loadRecording(recordingId).then(function(rec) {
-        //console.log('DL',rec, rec.data)
        
         var url = URL.createObjectURL(rec.data);
 

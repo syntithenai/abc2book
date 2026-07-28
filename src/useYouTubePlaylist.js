@@ -63,7 +63,6 @@ export default function useYouTubePlaylist() {
       else toast.error(finalMsg || 'Export failed')
     } catch (e) {}
   }
-  //console.log('use yt pl',token)
   //var accessToken = token ? token.access_token : null
   function _extractAjaxError(e) {
     try {
@@ -89,7 +88,6 @@ export default function useYouTubePlaylist() {
           url: url,
           headers: {'Authorization': 'Bearer '+accessToken, 'Accept': 'application/json'},
         }).then(function(postRes) {
-          //console.log(postRes)
           //resolve(postRes.data)
           if (postRes && postRes.data  && Array.isArray(postRes.data.items)) {
               var final = []
@@ -131,7 +129,6 @@ export default function useYouTubePlaylist() {
               url: url,
               headers: headers,
             }).then(function(postRes) {
-                //console.log(postRes)
                 if (postRes && postRes.data  && Array.isArray(postRes.data.items)) {
                     
                   var final = []
@@ -171,7 +168,6 @@ export default function useYouTubePlaylist() {
   
   function insertPlaylist(title, accessToken) {
       return new Promise(function(resolve,reject) {
-      //console.log('create playlist')
       //var useToken = accessToken ? accessToken : access_token
   if (accessToken) {
         var url = 'https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2Cstatus&key=' + process.env.REACT_APP_GOOGLE_API_KEY
@@ -381,7 +377,6 @@ export default function useYouTubePlaylist() {
    
   function deletePlaylistItem(playlistItemId, accessToken) {
       return new Promise(function(resolve,reject) {
-      //console.log('deletePlaylistItem',playlistItemId)
       //var useToken = accessToken ? accessToken : access_token
       if (accessToken) {
         var url = 'https://youtube.googleapis.com/youtube/v3/playlistItems?id=' + playlistItemId
@@ -402,7 +397,6 @@ export default function useYouTubePlaylist() {
   }
   
   function insertPlaylistItems(playlistId, items, accessToken) {
-      //console.log('insertPlaylistItems', playlistId, items)
       return new Promise(function(resolve,reject) {
         var promises = []
         if (Array.isArray(items)) {

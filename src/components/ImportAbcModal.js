@@ -22,10 +22,7 @@ function ImportAbcModal(props) {
   var [message, setMessage] = useState(null)
   
   function doImport(list) {
-    //console.log('import',list)
-      //console.log("gotres",res.data.length)
           var results = props.tunebook.importAbc(list,props.currentTuneBook)
-      //console.log("gotreeees",results,props.tunebook.showImportWarning(results))
       if (!props.tunebook.showImportWarning(results)) {
           props.tunebook.applyImportData(results).then(function() {
               //setTimeout(function() {
@@ -48,7 +45,6 @@ function ImportAbcModal(props) {
       //props.tunebook.utils.scrollTo('bottomofpage')
     //},100)
     handleClose()
-    //console.log('imported',inserts,updates,duplicates)
     //props.setImportResults(importResults)
     //var [inserts, updates, duplicates] = importResults
     //setMessage(null)
@@ -73,7 +69,6 @@ function ImportAbcModal(props) {
   
   //function forceImport(duplicates) {
     //var [inserts, updates, d] = props.tunebook.importAbc(duplicates.map(function(d) {return props.tunebook.abcTools.json2abc(d) }).join("\n"), props.currentTuneBook, true)
-    ////console.log('FFimported',inserts,updates,duplicates,d)
      //setMessage(<>
       //{<div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
     //</>)
@@ -82,13 +77,11 @@ function ImportAbcModal(props) {
   //}
       
   function fileSelected (event) {
-      //console.log('FILESel',event,event.target.files[0]);
       
       //const fileList = event.target.files;
       function readFile(file){
           var reader = new FileReader();
           reader.onloadend = function(){
-            //console.log("read"+reader.result.length )
             if (reader.result.trim().length > 0) {
               setList(reader.result)
               doImport(reader.result)

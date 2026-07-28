@@ -243,6 +243,7 @@ function runPlayingTick(controller) {
     tempo: controller.tempo,
     swing: controller.swing,
     musicSeconds: musicSeconds,
+    musicStartSlot: controller.musicStartSlot != null ? controller.musicStartSlot : 0,
     audioContextTime: controller.audioContext.currentTime,
     playSlot: function(audioTime, slotInBar, globalSlot) {
       playSlotAt(controller, audioTime, slotInBar, globalSlot, audioTime)

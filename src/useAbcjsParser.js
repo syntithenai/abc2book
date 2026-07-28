@@ -182,7 +182,6 @@ export default function useAbcjsParser() {
      * to determine note spacings  and note length  
      */
     function render(abc, abcString) {
-        //console.log('ren',abc)
         var noteLength = getNoteLengthDecimal(abcString)
         var final = []
         var symbolsSinceLastBar = 0
@@ -281,7 +280,6 @@ export default function useAbcjsParser() {
                 })
             }
         }) 
-        //console.log(final)
         var lastLineNumber = 0
         return final.map(function(noteData) {
             if (noteData.lineNumber != lastLineNumber) {
@@ -305,7 +303,6 @@ export default function useAbcjsParser() {
         var parsedChord = parseChord(chord)
         
         var renderOptions = { useShortNamings: true }
-        //console.log('TRSPOS',transpose,abcString)
         if (transpose > 0 || transpose < 0) {
             renderOptions.transposeValue = Number(transpose)
         }
@@ -314,7 +311,6 @@ export default function useAbcjsParser() {
         
         var parsedKey = parseChord(key)
         var keyRenderOptions = { useShortNamings: true }
-        //console.log('TRSPOS',transpose,abcString)
         if (transpose > 0 || transpose < 0) {
             keyRenderOptions.transposeValue = Number(transpose)
         }
@@ -322,7 +318,6 @@ export default function useAbcjsParser() {
         var renderedKey = renderKey(parsedKey)
         
         var renderedChord2 = utils.canonicalChordForKey(renderedKey,renderedChord)
-        //console.log('CLEAN',key,chord,transpose,renderedChord, renderedKey, renderedChord2)
         return renderedChord2
     }
    
@@ -345,9 +340,6 @@ export default function useAbcjsParser() {
         var barSize = abcTools.getNoteLengthsPerBar(noteLengthText, meter)
         //var meter = getMeter(abcString)
         var abc = parse(abcString)
-        //console.log("render chords",noteLength,barSize, meter, abcJson, abc)
-        //console.log("render chords",abc)
-        //console.log("AAAA",abc, abc[0].lines[0].staff[0].voices[0])
         var final = []
         var noteLengthsSinceLastBar = 0
         var hasWrittenBar = false
@@ -357,7 +349,6 @@ export default function useAbcjsParser() {
         var pendingEndingLabel = null
         
         function writeBar(barLayout, closeBarline) {
-            //console.log("BL",barLayout)
             var close = closeBarline || '|'
             var chunks = []
             if (!showDots) {
@@ -390,7 +381,6 @@ export default function useAbcjsParser() {
             //line.staff[0].voices.forEach(function(symbols, voiceNumber) {
                 if (line && Array.isArray(line.staff) && line.staff.length > 0) {
                     var symbols = line.staff[0].voices[0]
-                    //console.log("VVV",lineNumber,symbols)
                     //var lastBarLayout = null
                     // prepare an array of arrays to allocate chords into
                     // top level array is beats
@@ -428,7 +418,6 @@ export default function useAbcjsParser() {
                                         var renderedChord2 = cleanChord(key, chord, transpose)
                                     
                                         var assignChordToBeat = Math.round(noteLengthsSinceLastBar / noteLength)
-                                        //console.log('assign',assignChordToBeat,renderedChord2, chord)
                                         if (assignChordToBeat <= barSize && Array.isArray(barLayout[assignChordToBeat])) {
                                             var current = Array.isArray(barLayout[assignChordToBeat]) ? barLayout[assignChordToBeat] : []
                                             current.push(renderedChord2 ? renderedChord2.trim() : '')
@@ -440,7 +429,6 @@ export default function useAbcjsParser() {
                             } 
                             if (symbol.duration > 0) {
                                 noteLengthsSinceLastBar = noteLengthsSinceLastBar + symbol.duration
-                                //console.log('sincelast',noteLengthsSinceLastBar,symbol.duration)
                             }
                        } else if (symbol.el_type === 'bar') {
                            // Display charts omit the opening anacrusis (pickup) bar so
@@ -483,10 +471,8 @@ export default function useAbcjsParser() {
                             for (var i=0; i < barSize; i++) {
                                 barLayout.push([])
                             }
-                     //console.log(final.join(' '))
                     }
                 }) 
-                //console.log("LASTBAR",lineNumber)
                 if (lastSymbol && lastSymbol.el_type == 'bar') {
                     final.push("\n")
                     if (lastSymbol.type === 'bar_thin_thin') {
@@ -501,7 +487,6 @@ export default function useAbcjsParser() {
                 }
             }
         }) 
-        //console.log(final.join(' '))
         return normalizeChordChartRepeatMarks(final.join(' ').replaceAll("\n ","\n"))
     }
     
@@ -702,7 +687,6 @@ export default function useAbcjsParser() {
         if (barSize > 0) {
             var final = []
             var noteLengthsSinceLastBar = 0
-            //console.log("meRGE",noteLength, meter, barSize, chordLayout,abc)
             var barIndex = {} 
 
             // abcjs collapses a rest filling an entire bar into a single
@@ -738,20 +722,16 @@ export default function useAbcjsParser() {
                 if (line && line.staff && line.staff.length > 0) {
                     line.staff[0].voices[0].forEach(function(symbol, symbolNumber) {
                         var indexKey = lineNumber + "-" + barCount + '-' + barTally
-                        //console.log(indexKey, symbol, symbol.el_type)
                         if (!Array.isArray(barIndex[indexKey])) barIndex[indexKey] = []
                         if (symbol.el_type === 'timeSignature' && symbol.value && symbol.value[0]) {
                             lineMeter = normalizeMeter(String(symbol.value[0].num) + '/' + String(symbol.value[0].den))
                             noteLength = meterState(lineMeter).noteLength
                         } else if (symbol.el_type === 'note') {
                             barIndex[indexKey].push(symbolNumber)
-                            //console.log('UPDDURpre',barTally)
                             if (symbol.duration > 0) barTally = barTally + (symbol.duration/noteLength)
-                            //console.log('UPDDUR',symbol.duration, noteLength, barTally)
                         } else if (symbol.el_type === 'bar') {
                             barCount++
                             barTally = 0
-                            //console.log('UPDtally',barCount)
                         }
                         // clear chords
                         abc[0].lines[lineNumber].staff[0].voices[0][symbolNumber].chord = []
@@ -759,7 +739,6 @@ export default function useAbcjsParser() {
                 }
             })
            
-            //console.log("BARIND",barIndex, chordLayout)    
             
             // ensure the correct number of lines
             var parsedLength = abc[0].lines.length
@@ -781,7 +760,6 @@ export default function useAbcjsParser() {
             
             // chop or slice lines to ensure correct number of lines
             var chordLength = chordLinesNotEmpty.length
-            //console.log("LENGS",lineNewLines,chordLength, parsedLength)    
             function barSymbolForLine(lineIndex, barNumber, barsOnLine) {
                 var isLastBarOnLine = barNumber === barsOnLine - 1;
                 return (isLastBarOnLine && lineNewLines[lineIndex])
@@ -827,7 +805,6 @@ export default function useAbcjsParser() {
                         for (var j = 0; j< createBarSize; j++) {
                             var r = {rest: {type:'rest'}, el_type:'note', duration: createNoteLength}
                             if (restChord && Array.isArray(restChord[j])) r.chord = restChord[j].map(function(c) {return {name: c}})
-                            //console.log("RRRR",restChord,r)
                             restLine.push(r)
                         }
                         restLine.push(barSymbolForLine(lineIndex, k, barsToCreate))
@@ -836,12 +813,10 @@ export default function useAbcjsParser() {
                     //var totalBars = 0
                     //var totalRests = 0
                     //for var
-                    //console.log('push line',chordLength > parsedLength)
                     abc[0].lines.push({staff:[{voices:[restLine]}]})
                 }
             } else if (chordLength < parsedLength) {
                 // chop lines
-                //console.log('chops lines',parsedLength - chordLength)
                 abc[0].lines = abc[0].lines.slice(0,chordLength)
             }
             
@@ -866,12 +841,10 @@ export default function useAbcjsParser() {
                 if (lastSymbol.el_type !== 'bar') {
                     barCount++
                     // append rests and bar line to 
-                    //console.log('append bar with rests')
                     abc[0].lines[lineNumber].staff[0].voices[0].push(lineNewLines[lineNumber] ? {type:'bar_thin_thin', el_type:'bar'} : {type:'bar_thin', el_type:'bar'})
                 } else {
                     // if lineNewLine force double bar
                     var barLine = abc[0].lines[lineNumber].staff[0].voices[0][lastSymbolNumber]
-                    //console.log("FIRCECDIB",barLine,lastSymbolNumber, lastSymbol)
                     barLine.type = lineNewLines[lineNumber] ? 'bar_thin_thin' : 'bar_thin'
                     abc[0].lines[lineNumber].staff[0].voices[0].splice(lastSymbolNumber,1,barLine)
                     //push(lineNewLines[lineNumber] ? {type:'bar_thin_thin', el_type:'bar'} : {type:'bar_thin', el_type:'bar'})
@@ -881,7 +854,6 @@ export default function useAbcjsParser() {
                 var barCountDiff = barsInChordText - barCount
                 if (barCountDiff > 0) {
                     // add bars
-                    //console.log('add bars',barCountDiff,parsedLength,chordLinesNotEmpty)
                     for (var k = 0; k < barCountDiff; k++) {
                         var restChord = chordLinesNotEmpty[lineNumber][barCount + k]
                         var addMeter = meterByBarKey[lineNumber + '-' + (barCount + k)] || meter
@@ -903,15 +875,12 @@ export default function useAbcjsParser() {
                     //var totalBars = 0
                     //var totalRests = 0
                     //for var
-                    //console.log('push line',chordLength > parsedLength)
                     //abc[0].lines.push({staff:[{voices:[restLine]}]})
                 } else if (barCountDiff < 0) {
                     // remove bars
                     var removeBarsAfter = barCount + barCountDiff - 1
                     var barLineIndex = barEnds[removeBarsAfter] + 1
-                    //console.log('remove bars',barCountDiff, removeBarsAfter, barLineIndex )
                     abc[0].lines[lineNumber].staff[0].voices[0] = abc[0].lines[lineNumber].staff[0].voices[0].slice(0,barLineIndex) 
-                    //console.log('removed bars',abc[0].lines[lineNumber].staff[0].voices[0])
                 }
             })
 
@@ -992,14 +961,11 @@ export default function useAbcjsParser() {
                 }
             })
             
-            //console.log('Fixed bars',abc[0].lines)
             
             var lineCount = 0        
             // iterate incoming chords assigning to parsed abc 
-            //console.log(chordLayout)
             chordLayout.forEach(function(line,lineNumber) {
                 //var addNewLine = false
-                //console.log(lineNumber,line)
                 
                 line.forEach(function(bar,barNumber) {
                     var lastSymbolNumber = null
@@ -1012,20 +978,16 @@ export default function useAbcjsParser() {
                     }).forEach(function(barKey, barCount) {
                         var chords = bar[barKey]
                         var key = lineCount + "-" + barNumber + "-" + Math.floor(barKey)
-                        //console.log(key,chords)
                         if (barIndex.hasOwnProperty(key) && barIndex[key] && barIndex[key].length > 0) {
-                            //console.log('note exists at correct time ' ,barKey , Math.floor(barKey))
                             var firstNoteSymbolNumber = barIndex[key][0]
                             lastSymbolNumber = firstNoteSymbolNumber
                             abc[0].lines[lineCount].staff[0].voices[0][firstNoteSymbolNumber].chord = chords.reverse().map(function(c) {
                               return {name: c}  
                             })
                         } else {
-                            //console.log('NO note exists at correct time ' + Math.floor(barKey))
                             //var akey = lineCount + "-" + barNumber + "-" + Math.floor(barKey * 2) / 2
                             if (lastSymbolNumber !== null) {
                                 //barIndex.hasOwnProperty(akey) && barIndex[akey] && barIndex[akey].length > 0) {
-                                //console.log('use previous note ' + lastSymbolNumber)
                                 //var firstNoteSymbolNumber = barIndex[akey][0]
                                 var oldChords = abc[0].lines[lineCount].staff[0].voices[0][lastSymbolNumber].chord 
                                 
@@ -1034,8 +996,6 @@ export default function useAbcjsParser() {
                                 })
                                 abc[0].lines[lineCount].staff[0].voices[0][lastSymbolNumber].chord = oldChords
                             } else {
-                                //console.log('DUMP NOTE',key, barIndex, barKey) //.hasOwnProperty(akey) )
-                                //if (barIndex[akey]) console.log(barIndex[akey] , barIndex[akey].length > 0)
                             }
                         }
                     })  
@@ -1052,7 +1012,6 @@ export default function useAbcjsParser() {
         }
 
         var final = render(abc, abcString)            
-        //console.log("MERGED",abc,final)
         return final
     }
 

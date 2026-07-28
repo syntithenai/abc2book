@@ -38,12 +38,10 @@ export default function ImagesManager(props) {
 		//recordingStartedAt.current = new Date().getTime()
 		//setRecordingDuration(0)
 		//recordingInterval = setInterval(function() {
-			////console.log( recordingStartedAt, new Date().getTime())
 			//setRecordingDuration(parseInt((new Date().getTime() - recordingStartedAt.current)/1000))
 		//},1000)
 		//audioUtils.startRecording().then(function(data) {
 			//clearInterval(recordingInterval)
-			//console.log('captured', data)
 			//utils.blobToBase64(data).then(function(b64) {
 				//fileManager.save({id: utils.generateObjectId(), name:'Recording '+new Date().toLocaleString(), data: b64, createdTimestamp : new Date(), updatedTimestamp : new Date(),  type:'audio/wav'}).then(function(file) {
 					//fileManager.addFiles([file])
@@ -102,10 +100,8 @@ export default function ImagesManager(props) {
 							<Button variant="danger" style={{float:'right'}} onClick={function() {fileManager.deleteFile(file,fk)}} >{props.tunebook.icons.deletebin}</Button>
 							
 							<span style={{float:'right'}} ><FileNameEditorModal tunebook={props.tunebook} initvalue={file.name} onChange={function(v) {
-								console.log(v)
 								// ensure data is loaded
 								fileManager.load(file.id).then(function(orig) {
-									//console.log('laoded for save', orig)
 									orig.name = v
 									orig.updatedTimestamp = new Date()
 									fileManager.save(orig) //.then(function() {props.forceRefresh()})

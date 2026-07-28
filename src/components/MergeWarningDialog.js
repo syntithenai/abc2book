@@ -1,7 +1,6 @@
 import {Tabs, Tab, Modal, Button} from 'react-bootstrap'
 import DiffModal from './DiffModal'
 export default function MergeWarningDialog(props) {
-//console.log('MW',props.sheetUpdateResults)
 return <Modal.Dialog 
   backdrop="static"
   style={{minWidth:'95%'}} 

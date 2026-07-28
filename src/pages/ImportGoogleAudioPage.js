@@ -5,17 +5,14 @@ import useGoogleDocument from '../useGoogleDocument'
 export default function ImportGoogleAudioPage({tunebook, token, refresh}) {
     var navigate = useNavigate()
     var params = useParams()
-    //console.log("IGA",params,token)
     const [error,setError] = useState('')
     var docs = useGoogleDocument(token, refresh)
     //if (curated.hasOwnProperty(params.curation)) {
-        //console.log("D",params.curation) //curated[params.curation])
     //} 
     const [agree, setAgree] = useState(false)
     const [show, setShow] = useState(false)
     
     function handleCloseAgree() {
-        //console.log('close',params)
         //if (params.tuneId) {
             //navigate("/recordings/"+params.googleDocumentId)
         //} else {
@@ -24,24 +21,19 @@ export default function ImportGoogleAudioPage({tunebook, token, refresh}) {
     }
     
     function onClose() {
-        //console.log('onClose')
         //props.setCurrentTuneBook(params.googleDocumentId)
         navigate("/recordings")
     }
     
     useEffect(function() {
-      //console.log('impo go usef',params.googleDocumentId,token)
       if (!params.googleDocumentId) {
           navigate("/recordings")
       } else {
           if (token) {
               // load document 
-              //console.log('ldd DO',params.googleDocumentId)
               docs.getDocumentMeta(params.googleDocumentId).then(function(rec) {
                   docs.getDocumentBlob(params.googleDocumentId).then(function(recData) {
-                    //console.log('GFOT',rec,"D" ,"E",params.googleDocumentId)
                     if (rec && rec.name && recData) {
-                    //console.log('GFOTOK')
                         tunebook.recordingsManager.newRecording(rec.name,new Blob([recData], { 'type' : 'audio/ogg; codecs=opus' })).then(function() {
                           navigate('/recordings')  
                         })

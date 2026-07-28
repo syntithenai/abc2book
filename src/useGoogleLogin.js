@@ -268,7 +268,6 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       if (t && t.access_token) {
         var broken = Object.assign({}, t, { access_token: 'broken' })
         setAccessToken(broken)
-        console.log('break token', broken)
       }
       resolve()
     })
@@ -285,11 +284,9 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
         }).then(function(postRes) {
           resolve(postRes.data)
         }).catch(function(e) {
-          console.log(e)
           resolve()
         })
       } else {
-        console.log('no token given ')
         resolve()
       }
     })

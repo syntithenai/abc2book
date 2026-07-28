@@ -1,6 +1,5 @@
 //import aubio from './aubio'
 
-//console.log("WWWWIN",window)
 
 import { rmsFromChannelData } from './tunerDisplayUtils.js'
 
@@ -29,7 +28,6 @@ const Tuner = function(a4) {
 }
 
 Tuner.prototype.initGetUserMedia = function() {
-  //console.log('init get media')
   window.AudioContext = window.AudioContext || window.webkitAudioContext
   if (!window.AudioContext) {
     return alert('AudioContext not supported')
@@ -117,9 +115,7 @@ Tuner.prototype.init = function() {
   )
 
   const self = this
-  //console.log('start aubio')
   aubio().then(function(aubio) {
-    //console.log('got aubio')
     self.pitchDetector = new aubio.Pitch(
       'default',
       self.bufferSize,
@@ -207,7 +203,6 @@ Tuner.prototype.play = function(frequency) {
 }
 
 Tuner.prototype.stop = function() {
-  //console.log('stop rec')
   if (this.oscillator) this.oscillator.stop()
   this.oscillator = null
 }

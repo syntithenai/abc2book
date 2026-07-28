@@ -107,7 +107,6 @@ export default function AbcEditor(props) {
   //var [tune, setTune] = useState(null)
   //var [noteSaveTimeout, setNoteSaveTimeout] = useState(null)
   useEffect(() => {
-	  //console.log('abcedit abc change',props.abc)
     setAbcText(props.abc);
     //var tune = props.tunebook.abcTools.abc2json(props.abc)
     //setTune(tune)
@@ -118,7 +117,6 @@ export default function AbcEditor(props) {
       //})
     //}
     //return function() {
-        //console.log('UNLOAD',chordsChanged)
     //}
     //props.mediaController.setTune(props.tune)
     //props.mediaController.setSrc('')
@@ -154,23 +152,20 @@ export default function AbcEditor(props) {
     if (tune && tune.voices && tune.voices.hasOwnProperty(voice)) {
       tune.voices[voice].meta = meta;
       tune.id = params.tuneId;
-      saveTune(tune, false, { historyLabel: historyLabel || 'Edit voice name' });
+      saveTune(tune, { historyLabel: historyLabel || 'Edit voice name' });
     }
   }
 
   function tuneNotesChanged(voice, notes, historyLabel, historyOptions) {
-    //console.log('change NOTES',voice,tune,tune.voices)
     if (tune && tune.voices && tune.voices.hasOwnProperty(voice)) {
-      //console.log('change NOTES',voice,tune,tune.voices)
       var v = props.tunebook.abcTools.justNotes(notes); 
       tune.voices[voice].notes = v.split("\n")
       tune.id = params.tuneId
-      saveTune(tune, false, {
+      saveTune(tune, {
         historyLabel: historyLabel || 'Edit notes',
         immediate: !!(historyOptions && historyOptions.immediate),
       }) 
       //setTune(tune)
-      //console.log('SAVEd NOTES',tune, "V",voice,"N", notes, "JN",v)
     }
   }
     //setAbcTuneNotes(v); 
@@ -180,7 +175,6 @@ export default function AbcEditor(props) {
         ////setAbcTune(props.tunebook.abcTools.json2abc(tune)) ; 
         ////if (noteSaveTimeout) clearTimeout(noteSaveTimeout)
         ////setNoteSaveTimeout(setTimeout(function() {
-          ////console.log('SAVE NOTES TIMEOUT')
           //props.tunebook.saveTune(tune) 
         //}
     //}, 500))
@@ -233,7 +227,7 @@ export default function AbcEditor(props) {
     var nextIndex = orderedKeys.indexOf(currentKey)
     if (nextIndex >= 0) setCurrentVoice(nextIndex)
     tune.id = params.tuneId
-    saveTune(tune, false, { historyLabel: 'Reorder voices' })
+    saveTune(tune, { historyLabel: 'Reorder voices' })
     props.forceRefresh()
   }
 
@@ -1263,5 +1257,4 @@ export default function AbcEditor(props) {
 //
 //value={abc} onChange={function(e) {saveTune(params.tuneId, props.tunebook.abcTools.abc2json(e.target.value))}}
   //<Tab eventKey="books" title="Books">
-                //<span style={{float:'left', marginLeft:'0.3em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) {console.log("save book selection",val); tune.books = val; saveTune(tune);} } /></span>
               //</Tab>

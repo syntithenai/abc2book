@@ -25,32 +25,27 @@ export default function PDFViewer(props) {
 	const [showIndex, setShowIndex] = useState(false);
 	
 	function search(searchText) {
-		//console.log('SEARCH '+ searchText)
 		if (searchText.trim().length > 1) { 
 			setSearchActive(true)
 			
 			function searchPage(doc, pageNumber) {
 			  return doc.getPage(pageNumber).then(function (page) {
-				  //console.log(page)
 				return page.getTextContent();
 			  }).then(function (content) {
 				// Search combined text content using regular expression
 				var text = content.items.map(function (i) { return i.str; }).join('');
-				//console.log(text)
 				var re = new RegExp("(.{0,20})" + searchText.trim() + "(.{0,20})", "gi"), m;
 				var lines = [];
 				while (m = re.exec(text)) {
 				  var line = (m[1] ? "..." : "") + m[0] + (m[2] ? "..." : "");
 				  lines.push(line);
 				}
-				//if (lines.length > 0) console.log(lines)
 				return {page: pageNumber, items: lines};
 			  });
 			}
 
 			var loading = pdfjs.getDocument(props.src);
 			loading.promise.then(function (doc) {
-				//console.log(doc)
 			  var results = [];
 			  for (var i = 1; i <= doc.numPages; i++)
 				results.push(searchPage(doc, i));

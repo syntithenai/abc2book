@@ -17,26 +17,21 @@ export default function TransposeModal(props) {
   
   //function tranposeKey(key,transpose) {
     //var t = parseInt(transpose)
-    ////console.log(t, typeof t, t === NaN, t === 'NaN')
     //return key + '-' + ( isNaN(parseInt(transpose)) ? 0 : parseInt(transpose) )
   //}
   
   //function transposeKey(chord, amount) {
-    //console.log('transp',chord, amount)
         //var scale = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
         //var normalizeMap = {"Cb":"B", "Db":"C#", "Eb":"D#", "Fb":"E", "Gb":"F#", "Ab":"G#", "Bb":"A#",  "E#":"F", "B#":"C"}
         //var re =  chord.replace(/[CDEFGAB](b|#)?/g, function(match) {
             //var i = (scale.indexOf((normalizeMap[match] ? normalizeMap[match] : match)) + amount) % scale.length
-            //console.log("dd",i)
             
             //return scale[ i < 0 ? i + scale.length : i ]
         //})
-        //console.log("dd",re,scale)
         //return re
         
     //}
    var dest = ''
-   //console.log('tk',tune.key)
    if (tune.key) {
      //try {
       const parseChord = chordParserFactory();
@@ -49,13 +44,10 @@ export default function TransposeModal(props) {
             dest = renderChord(destChord)
            } catch (e) {}
       }
-      //console.log('tk dd',dest,destChord)
       //setDestKey(dest)
       //} catch (e) {
-        //console.log(e)
       //}
    }
-      //console.log(renderChord(chord));
   return (
     <>
         <Modal show={props.show} onHide={handleClose}>

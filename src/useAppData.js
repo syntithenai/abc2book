@@ -96,7 +96,6 @@ export default function useAppData() {
     // restore scroll on load
     const [scrollOffset, setScrollOffsetReal] = useState(null);
     const setScrollOffset = (e) => {
-        //console.log('setScroll',window.pageYOffset,e)
         setScrollOffsetReal(window.pageYOffset);
     };
   

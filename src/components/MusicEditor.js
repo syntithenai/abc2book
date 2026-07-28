@@ -46,7 +46,7 @@ export default function MusicEditor(props) {
       if (props.tunes && props.tunes[resolvedTuneId]) return props.tunes[resolvedTuneId]
       if (embedded && props.tune) return props.tune
       return null
-    }, [embedded, resolvedTuneId, tunebook, props.tunes, props.tune, props.tunesRevision])
+    }, [embedded, resolvedTuneId, tunebook, props.tunes, props.tunes && resolvedTuneId && props.tunes[resolvedTuneId], props.tune, props.tunesRevision])
 
     let abc = tune ? tunebook.abcTools.json2abc(tune) : ''
     const editHistory = props.editHistory
@@ -112,7 +112,6 @@ export default function MusicEditor(props) {
 
     const handleUndo = useCallback(function() {
         if (!tuneId) return
-        if (notationFlushRef.current) notationFlushRef.current()
         if (editHistory && typeof editHistory.flushPendingTune === 'function') {
             editHistory.flushPendingTune(tuneId)
         }
@@ -123,7 +122,6 @@ export default function MusicEditor(props) {
 
     const handleRedo = useCallback(function() {
         if (!tuneId) return
-        if (notationFlushRef.current) notationFlushRef.current()
         if (editHistory && typeof editHistory.flushPendingTune === 'function') {
             editHistory.flushPendingTune(tuneId)
         }
@@ -221,7 +219,6 @@ export default function MusicEditor(props) {
       </ButtonGroup>
     )
 
-    //console.log('EDIT',tune,abc)
     if (!tune) return null
 
     return <div className={'music-editor' + (embedded ? ' music-editor--embedded' : '') + (notationOnly ? ' music-editor--notation-only' : '') + (editorViewMode === 'lyrics' ? ' music-editor--lyrics' : '')} style={{width:'100%'}}>

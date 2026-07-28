@@ -2852,6 +2852,10 @@ max-width: 90% !important ;
   align-self: stretch;
 }
 
+.tune-list-toolbar-row--compact .tune-list-toolbar-btn-group {
+  margin-left: 0;
+}
+
 .tune-list-toolbar-btn-group > .btn {
   display: inline-flex;
   align-items: center;
@@ -5909,7 +5913,7 @@ button img:after {
 /* Compact virtualized rows: fit btn-lg title buttons inside row borders */
 .virtualized-tune-list .virtualized-tune-list-row {
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .virtualized-tune-list .virtualized-tune-list-row .list-group-item.tune-list-item-compact {
@@ -6061,7 +6065,14 @@ button img:after {
 
 .tune-list-item-detailed .tune-list-item-meta {
   max-width: none;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.tune-list-item-detailed .tune-list-item-meta > * {
+  flex-shrink: 0;
 }
 
 .tune-list-item-filter-chips {

@@ -145,6 +145,12 @@ export function ensureScheduleEpoch(state, musicSeconds, audioContextTime, tempo
     state.tempo = nextTempo
     return
   }
+  const expectedAudio = state.epochAudioTime + (musicSeconds - state.epochMusicSeconds)
+  const drift = Math.abs(expectedAudio - audioContextTime)
+  if (drift > SCHEDULE_DRIFT_REANCHOR_SEC) {
+    state.epochMusicSeconds = musicSeconds
+    state.epochAudioTime = audioContextTime
+  }
   state.tempo = nextTempo
 }
 
@@ -153,8 +159,12 @@ function slotMusicTimeToAudio(state, slotMusicTime) {
 }
 
 /**
- * Schedule clicks/drums from the music clock. Re-anchors each call so playback
- * cannot drift from the tune.
+ * Schedule clicks/drums from the music clock. Re-anchors when the music/audio
+ * mapping drifts so slots are not marked scheduled without sounding.
+ *
+ * musicStartSlot: global slot of the first sounding note (0 = bar downbeat,
+ * -1 = one-beat anacrusis). Offsets the grid so accent stays on the true
+ * downbeat after a pickup.
  */
 export function schedulePlayingSlots(state, options) {
   const opts = options || {}
@@ -164,6 +174,7 @@ export function schedulePlayingSlots(state, options) {
   const swing = opts.swing != null ? opts.swing : getRhythmSwing(rhythm)
   const musicSeconds = Math.max(0, parseFloat(opts.musicSeconds) || 0)
   const audioContextTime = parseFloat(opts.audioContextTime)
+  const musicStartSlot = Math.floor(parseFloat(opts.musicStartSlot) || 0)
   const lookaheadSec = opts.lookaheadSec > 0
     ? parseFloat(opts.lookaheadSec)
     : computeMusicLockedLookaheadSec(rhythm, tempo, swing)
@@ -177,14 +188,22 @@ export function schedulePlayingSlots(state, options) {
   const totalSlots = slotsPerBar(rhythm)
   if (!(totalSlots > 0)) return { scheduled: 0 }
 
+  // musicSeconds=0 is the first sounding note (pickup or downbeat).
   const currentGlobalSlot = globalSlotAtMusicSeconds(musicSeconds, rhythm, tempo, swing)
+    + musicStartSlot
   let globalSlot = currentGlobalSlot
   const endMusicSeconds = musicSeconds + lookaheadSec
   let scheduled = 0
   const scheduleToleranceSec = 0.002
 
   while (true) {
-    const slotMusicTime = musicSecondsForGlobalSlot(globalSlot, rhythm, tempo, swing)
+    // Slot times are relative to the first note, not the barline.
+    const slotMusicTime = musicSecondsForGlobalSlot(
+      globalSlot - musicStartSlot,
+      rhythm,
+      tempo,
+      swing
+    )
     if (slotMusicTime >= endMusicSeconds) break
     const key = slotScheduleKey(globalSlot)
     if (!state.scheduledKeys.has(key)) {
@@ -195,9 +214,11 @@ export function schedulePlayingSlots(state, options) {
         const audioTime = slotMusicTimeToAudio(state, slotMusicTime)
         if (audioTime >= audioContextTime - scheduleToleranceSec) {
           playSlot(audioTime, slotInBar, globalSlot)
+          state.scheduledKeys.add(key)
+          scheduled += 1
         }
-        state.scheduledKeys.add(key)
-        scheduled += 1
+        // If audioTime is still in the past after drift checks, leave the key
+        // unset so the next tick can play it after re-anchor.
       }
     }
     globalSlot += 1

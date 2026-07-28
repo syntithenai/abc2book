@@ -3,7 +3,6 @@ import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 
 export default function QuickPlayButton(props) {
-    //console.log('button',tune)
     
     const [started, setStarted] = useState()
     
@@ -33,7 +32,6 @@ export default function QuickPlayButton(props) {
     
     function clickStop(e) {
       setStarted(false)
-      //console.log('clickstop',props.tunebook.recordingsManager.stopPlayRecording)
       props.tunebook.recordingsManager.stopPlayRecording()
       //clickStopPlaying()
       //props.tunebook.recordingsManager.stopRecording(tune).then(function() {

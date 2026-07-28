@@ -18,7 +18,6 @@ function ImportOptionsModal(props) {
   //const [list, setList] = useState('');
 
   const handleClose = () => {
-    //console.log('close')
     setShow(false);
   }
   const handleShow = () => setShow(true);
@@ -32,7 +31,6 @@ function ImportOptionsModal(props) {
     //}
     
     //function getSearchCuratedTuneBookOptions(filter) {
-      //console.log('search cur')
         //var opts = getCuratedTuneBookOptions()
         //var filtered = {}
         //Object.keys(opts).forEach(function(key) {
@@ -43,7 +41,6 @@ function ImportOptionsModal(props) {
                 //filtered[key] = val
             //}
         //})
-        //console.log('search cur', filtered)
         //return filtered
     //}
     
@@ -57,7 +54,6 @@ function ImportOptionsModal(props) {
   function importCuratedCollection(val) {
     props.setCurrentTuneBook(val);
     var [inserts, updates, duplicates] = props.tunebook.collection(val, props.currentTuneBook)
-    //console.log('impcur', {inserts, updates, duplicates})
     setMessage(null)
     setDuplicates(duplicates)
     //setList('')

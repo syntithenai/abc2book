@@ -12,9 +12,7 @@ function PlaylistManagerModal(props) {
   }
   const handleShow = () => {
       setShow(true);
-      //console.log('SHOW',props.mediaPlaylist.currentTune)
       //if (props.mediaPlaylist.currentTune > 0) {
-          //console.log('SCROLLTO','playlist-tune-'+props.mediaPlaylist.currentTune)
         //setTimeout(function() {
             //props.tunebook.utils.scrollTo('playlist-tune-'+props.mediaPlaylist.currentTune)
         //},200)

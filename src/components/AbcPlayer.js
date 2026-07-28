@@ -18,16 +18,13 @@ export default function AbcPlayer(props) {
     var playerRef = useRef()
     var isLoading = useRef(false) // protect from double page loads
     //var timingCallbacks = useRef()
-    //console.log(props.timing)
     
     function initMidi() {
-        //console.log('init midi',playerRef.current, synth.current, isLoading.current)
         return new Promise(function(resolve,reject) {
             if (!isLoading.current) { 
                 isLoading.current = true
         
                 if (props.abc) {
-                    //console.log(props.abc)
                     var a = new Date().getTime()
                     var linkBase = getResourceBase()
                          
@@ -37,7 +34,6 @@ export default function AbcPlayer(props) {
                     
                     var myContext = new AudioContext();
                     var visualObj = abcjs.renderAbc(null, props.abc, {});
-                    //console.log(visualObj)
                     var jsonAbc = props.tunebook.abcTools.abc2json(props.abc)
                     var tempo = jsonAbc.tempo > 20 ? jsonAbc.tempo : 100
                     var timingConfig = props.timing
@@ -46,7 +42,6 @@ export default function AbcPlayer(props) {
                     var s = new abcjs.synth.CreateSynth()
                     
                     if (abcjs.synth.supportsAudio()) {
-                      //console.log('PRIMAUDIO support ok')
                       window.AudioContext = window.AudioContext ||
                         window.webkitAudioContext ||
                         navigator.mozAudioContext ||
@@ -59,36 +54,29 @@ export default function AbcPlayer(props) {
                           //options: {onEnded: props.onEnded}
                           
                       }).then(() => {
-                          //console.log('init')
                           s.prime().then((response) => {
                               synth.current = s
                               isLoading.current = false
                               if (props.onReady) props.onReady(s, timingCallbacks, audioContext, response)
                                
-                              //console.log('primed')
-                              //console.log(response.status)
                               //synth.start()
                               resolve()
                           });
                       });
                     } else {
-                        console.log('NOAUDIO')
                         reject()
                     }
                     
                 } else {
-                    console.log('NOABC')
                     reject()
                 }
             } else {
-                console.log('already loading')
                 reject()
             }
         })
     }
     
     const startPlaying = useCallback(function() {
-        console.log('start', props.duration, synth.current)
          //if (props.currentTime > props.duration) {
             //props.setCurrentTime(0)
         //}
@@ -100,10 +88,8 @@ export default function AbcPlayer(props) {
                     //if (timingCallbacks.current) timingCallbacks.current.start()
                     //if (props.onPlay) props.onPlay()
                 } else {
-                    console.log('start no synth')
                     props.onLoading(true)
                     initMidi().then(function() {
-                        console.log('start init ready')
                         if (synth.current)  {
                             props.setDuration(synth.current.duration)
                             //synth.current.seek(props.currentTime,"seconds")
@@ -115,16 +101,13 @@ export default function AbcPlayer(props) {
                     })
                 }
             } catch (e) {
-                console.log(e,synth,playerRef,isLoading)
             }
         //} else {
-            //console.log('synth still loading')
         //}
     // eslint-disable-next-line react-hooks/exhaustive-deps -- startPlaying uses initMidi/props; effect below keys on isPlaying
     }, [])
     
     function stopPlaying() {
-        console.log('ABCPLAYER STOP',synth.current) //, timingCallbacks.current)
         if (synth.current) synth.current.pause()
         //if (timingCallbacks.current) timingCallbacks.current.pause()
         //if (props.onPlaying) props.onPause()
@@ -132,7 +115,6 @@ export default function AbcPlayer(props) {
     
     
      useEffect(function() {
-        console.log('abcplayer isplaying', props.isPlaying)
         if (props.isPlaying) {
             startPlaying()
         } else {
@@ -141,21 +123,18 @@ export default function AbcPlayer(props) {
     },[props.isPlaying, startPlaying])
     
     //useEffect(function() {
-         //console.log('abcplayer time update', props.currentTime, synth.current)
         ////if (synth.current && props.currentTime < synth.current.duration) synth.current.seek(props.currentTime,"seconds")
         //if (timingCallbacks.current) timingCallbacks.current.setProgress(props.currentTime,"seconds")
     //},[props.currentTime])
     
     
     //useEffect(function() {
-        //console.log('abcplayer currentTime', props.currentTime)
         //if (synth.current) synth.current.seek(props.currentTime,"seconds")
         //if (synth.current) synth.current.seek(props.currentTime,"seconds")
     //},[props.currentTime])
             
     //useEffect(function() {
         //initMidi().then(function() {
-            //console.log('abcplayer boot')
             ////if (props.isPlaying) {
                 ////startPlaying()
             ////} else {
@@ -173,7 +152,6 @@ export default function AbcPlayer(props) {
     }
     
     useEffect(function() {
-        console.log('ABC STARTUP')
         if (props.isPlaying) {
             startPlaying()
         } else {
@@ -181,7 +159,6 @@ export default function AbcPlayer(props) {
         }
         //initMidi()
         return function shutdown() {
-            console.log('ABC PLAYER SHUTDOWN')
             //stopPlaying()
             //cleanup()
             //clearTimeout(abcProgressInterval.current)

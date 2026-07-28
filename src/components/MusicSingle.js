@@ -74,6 +74,7 @@ import { ensurePlainWordsFromNoteAlignedLyrics, getPlainLyricLines } from '../wL
 import { isMobilePlatform } from '../platformUtils'
 import useMusicToolbarWidth from '../useMusicToolbarWidth'
 import { isMusicToolbarCompact, isMusicToolbarFolded } from '../musicToolbarLayout'
+import { getTune as getTuneFromRepository } from '../tuneRepository'
 
 export default function MusicSingle(props) {
     let params = useParams();
@@ -90,7 +91,6 @@ export default function MusicSingle(props) {
     var speakTimeout = null
     const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
     //var {searchYouTube} = useYouTubeSearch()
-    //console.log('single',props)
     const [showMedia, setShowMedia] = useState(false)
 
     useEffect(function() {
@@ -108,6 +108,7 @@ export default function MusicSingle(props) {
     const [hasSpoken, setHasSpoken] = useState(false)
     const [squashLyrics, setSquashLyrics] = useState(false)
     const [tune, setTune] = useState(null)
+    const [tuneLoadState, setTuneLoadState] = useState('idle')
     const [notationFitMode, setNotationFitModeState] = useState(function() {
       return getTuneNotationFitMode(null)
     })
@@ -207,27 +208,57 @@ export default function MusicSingle(props) {
 	//const [recordings, setRecordings] = useState([])
 
 	//function forceFileRefresh(t) {
-		//console.log("FORCE FILE REFRESH",t)
 		//fileManager.search(null,t && t.id ? t.id : null,false).then(function(res) {
-			//console.log("searchres files",t,res)
 			//setFiles(res)
 		//})
 		//recordingsManager.search(null,t && t.id ? t.id : null,false).then(function(res) {
-			//console.log("searchres recs",t,res)
 			//setRecordings(res)
 		//})
 	//}
 
     useEffect(function() {
-		var t = props.tunes ? props.tunes[new String(params.tuneId)] : null
-        if (t) {
-            setTune(applyTuneSnapshotFromSearchParams(t, searchParams))
-            if (props.mediaController && props.mediaController.setTune) {
-              props.mediaController.setTune(t)
-            }
+        let cancelled = false
+        const tuneId = params.tuneId
+        if (!tuneId) {
+            setTune(null)
+            setTuneLoadState('missing')
+            return undefined
         }
-        
-    },[params.tuneId, props.tunes, props.mediaController.playbackSpeed, searchParams])
+
+        const fromProps = props.tunes ? props.tunes[new String(tuneId)] : null
+        if (fromProps) {
+            setTune(applyTuneSnapshotFromSearchParams(fromProps, searchParams))
+            setTuneLoadState('ready')
+            if (props.mediaController && props.mediaController.setTune) {
+              props.mediaController.setTune(fromProps)
+            }
+            return undefined
+        }
+
+        setTune(null)
+        setTuneLoadState('loading')
+        getTuneFromRepository(tuneId).then(function(loaded) {
+            if (cancelled) return
+            if (loaded) {
+                setTune(applyTuneSnapshotFromSearchParams(loaded, searchParams))
+                setTuneLoadState('ready')
+                if (props.mediaController && props.mediaController.setTune) {
+                  props.mediaController.setTune(loaded)
+                }
+                return
+            }
+            setTune(null)
+            setTuneLoadState('missing')
+        }).catch(function() {
+            if (cancelled) return
+            setTune(null)
+            setTuneLoadState('missing')
+        })
+
+        return function() {
+            cancelled = true
+        }
+    },[params.tuneId, props.tunes, props.mediaController, props.mediaController && props.mediaController.playbackSpeed, searchParams])
     
     //const [abc, setAbc] = useState('')
     //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
@@ -253,7 +284,6 @@ export default function MusicSingle(props) {
     
     //useEffect(function() {
         //if (!showMedia) {
-            ////console.log('stop tom er')
             //clearInterval(youtubeProgressInterval.current)
             //youtubeProgressInterval.current = null
         //}
@@ -293,7 +323,6 @@ export default function MusicSingle(props) {
 
     function setupTune() {
         let tune = props.tunes ? props.tunes[params.tuneId] : null
-        //console.log('setuptune',tune)
         if (tune) {
            setLyricsZoom(getTuneGigZoom(tune))
            setFileViewZoom(1)
@@ -313,7 +342,6 @@ export default function MusicSingle(props) {
            }
            //props.tunebook.utils.scrollTo('topofpage')
            //setMediaLinkNumber(params.mediaLinkNumber)
-           //console.log(params,tune.links)
            //props.mediaController.setTune(tune)
            //if (params.mediaLinkNumber > 0) props.mediaController.setSourceFromTune(params.mediaLinkNumber)
            
@@ -331,7 +359,6 @@ export default function MusicSingle(props) {
                     ////setShowMedia(true)
                 ////}
            //} else if (params.playState === "playMidi") {
-               ////console.log('playmidi')
                //props.mediaController.setSrc('')
                ////props.mediaController.ytPlayerRef.current = null
                ////props.mediaController.playerRef.current = null
@@ -346,7 +373,6 @@ export default function MusicSingle(props) {
              ////else {
                 ////setAutoStart(false)
             ////}
-            //console.log('Set Tune',tune)
             
         } else {
             //props.mediaController.setTune(null)
@@ -378,7 +404,25 @@ export default function MusicSingle(props) {
     
     
        //<Button style={{float:'right'}} variant="danger" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zm0-2a5 5 0 0 1 5 5v4a5 5 0 0 1-10 0V6a5 5 0 0 1 5-5zM3.055 11H5.07a7.002 7.002 0 0 0 13.858 0h2.016A9.004 9.004 0 0 1 13 18.945V23h-2v-4.055A9.004 9.004 0 0 1 3.055 11z"/></svg></Button>
-    //console.log('single T',params.tuneId,tune,props.tunes)
+    if (tuneLoadState === 'loading') {
+        return (
+          <div className="music-single music-single--loading p-3" role="status">
+            Loading tune…
+          </div>
+        )
+    }
+
+    if (!tune) {
+        return (
+          <Alert variant="warning" className="m-2" role="status">
+            <div>This tune could not be found. It may have been deleted or is not loaded yet.</div>
+            <div className="mt-2">
+              <Button as={Link} to="/tunes" variant="primary" size="sm">Back to tune list</Button>
+            </div>
+          </Alert>
+        )
+    }
+
     var words = {}
         
     if (tune) {
@@ -393,11 +437,9 @@ export default function MusicSingle(props) {
         })
         
         //<iframe src={link} ></iframe>
-        //console.log('sING abc',props.tunebook.abcTools.tunesToAbc(props.tunes))
         const previewTune = filterTuneVoices(tune, getVisibleVoiceKeys(tune.id, getTuneVoiceKeys(tune)))
         var firstVoice = previewTune.voices && Object.keys(previewTune.voices).length > 0 ? Object.values(previewTune.voices)[0] : {notes:[]}
         //var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
-        ////console.log('sING',parsed.chords)
         //var [a,b,chordsArray,c] = parsed
         var chordTranspose = chordTransposeWithCapo(tune.transpose, capoState.capoOffset, capoState.capoEnabled)
         var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, chordTranspose, tune.key, tune.noteLength, tune.meter)
@@ -429,7 +471,6 @@ export default function MusicSingle(props) {
         }
         
         function shouldPlayMedia() {
-            //console.log('SPM',showMedia,tune)
             return (showMedia && Array.isArray(tune.links) && tune.links.length > mediaLinkNumber && tune.links[mediaLinkNumber])
         }
         var useMediaLinkNumber = mediaLinkNumber > 0 ? mediaLinkNumber : 0
@@ -1294,17 +1335,14 @@ export default function MusicSingle(props) {
  //{(!props.abcPlaylist && props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && <div style={{position:'fixed', top: '6px', right: '6px', zIndex:999}} >
                     //<ButtonGroup variant="danger">
                         //{(!mediaLoading && showMedia && isPlaying) && <Button variant="warning" onClick={function() {
-                            ////console.log(audioPlayer)
                                 //try {
                                     //if (audioPlayer && audioPlayer.current) audioPlayer.current.pause()
                                     //if (ytMediaPlayer) ytMediaPlayer.pauseVideo()
                                 //} catch (e) {
-                                    //console.log(e)
                                 //}
                                 //try {
                                     //setIsPlaying(false)
                                 //} catch (e) {
-                                    //console.log(e)
                                 //}
                             //}} >{props.tunebook.icons.pause}</Button>}
                         //{(!mediaLoading && showMedia && !isPlaying) && <Button variant="success" onClick={function() {
@@ -1312,12 +1350,10 @@ export default function MusicSingle(props) {
                                     //if (audioPlayer && audioPlayer.current) audioPlayer.current.play()
                                     //if (ytMediaPlayer) ytMediaPlayer.playVideo()
                                 //} catch (e) {
-                                    //console.log(e)
                                 //}
                                 //try {
                                     //setIsPlaying(true)
                                 //} catch (e) {
-                                    //console.log(e)
                                 //}
                             //}} >{props.tunebook.icons.play}</Button>}
                         //<Button variant="danger" size="xl"  onClick={function() {props.setMediaPlaylist(null); setShowMedia(false)}} >{mediaLoading ? props.tunebook.icons.waiting : props.tunebook.icons.stop} </Button>
@@ -1339,14 +1375,12 @@ export default function MusicSingle(props) {
                             //}} 
                             //width="1px" height="1px" autoPlay={"true"} 
                             //onEnded={function() {
-                                ////console.log('ended a')
                                 //// next link
                                 //if (props.mediaPlaylist || props.abcPlaylist) {
                                     //nextLinkOrTune()
                                 //}
                             //}}
                             //onError={function(e) {
-                                //console.log('err media',e); 
                                 //if (props.mediaPlaylist || props.abcPlaylist) {
                                     //nextLinkOrTune()
                                 //}
@@ -1370,7 +1404,6 @@ export default function MusicSingle(props) {
                                   //},
                                 //}} 
                                 //onEnd={function() {
-                                    ////console.log('ty ended')
                                     //clearInterval(youtubeProgressInterval.current)
                                     //youtubeProgressInterval.current = null
                                     //if (props.mediaPlaylist || props.abcPlaylist) {
@@ -1378,7 +1411,6 @@ export default function MusicSingle(props) {
                                     //}
                                 //}} 
                                 //onError={function(e) {
-                                    //console.log('err yt',e)
                                     //clearInterval(youtubeProgressInterval.current)
                                     //youtubeProgressInterval.current = null
                                     //if (props.mediaPlaylist || props.abcPlaylist) {
@@ -1388,7 +1420,6 @@ export default function MusicSingle(props) {
                                 //onReady={
                                     //function(event) {
                                         //setYTMediaPlayer(event.target); 
-                                        //console.log('YTREDD')
                                         //var toSpeak = tune.name
                                         //if (tune.composer) toSpeak += " by " + tune.composer
                                         //var speakTitle = localStorage.getItem('bookstorage_announcesong') === "true" ? true : false
@@ -1407,7 +1438,6 @@ export default function MusicSingle(props) {
                                             //clearInterval(youtubeProgressInterval.current)
                                             //youtubeProgressInterval.current = setInterval(function() {
                                                 //setMediaProgress(e.target.getCurrentTime()/e.target.getDuration())
-                                                ////console.log('yt progress',e.target.getCurrentTime(),e.target.getDuration())
                                             //}, 100)
                                         //}
                                     //}
@@ -1433,12 +1463,10 @@ export default function MusicSingle(props) {
                                         //setMediaProgress(e.target.value); 
                                             
                                         //try {
-                                            ////console.log(e.target.value); 
                                             //if (ytMediaPlayer && ytMediaPlayer.getDuration && ytMediaPlayer.seekTo) {
                                                 //ytMediaPlayer.seekTo(parseFloat(e.target.value * ytMediaPlayer.getDuration()).toFixed(2)) 
                                             //};
                                         //} catch (e) {
-                                            //console.log(e)
                                         //}
                                         //if (audioPlayer && audioPlayer.current) {
                                             //audioPlayer.current.currentTime = parseFloat(e.target.value * audioPlayer.current.duration ).toFixed(2)

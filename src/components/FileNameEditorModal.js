@@ -4,7 +4,6 @@ import ImagesManager from './ImagesManager'
 import VoiceFillInput from './VoiceFillInput'
 
 export default function FileNameEditorModal({tunebook, initvalue, onChange, token, setBlockKeyboardShortcuts}) {
-  //console.log({tunebook, token,googleDocumentId, tiny, tuneId,currentTuneBook, variant})
   const [show, setShow] = useState(false);
   const [value, setValue] = useState(initvalue ? initvalue : '')
  

@@ -56,15 +56,12 @@ const chordBase = {
   //labelWeight // weight of label font
 };
 function calcFrets(chordData) {
-  //console.log('CF',chordData)
   var max = 3
   if (chordData && Array.isArray(chordData.chord)) {
     chordData.chord.forEach(function(dataRow) {
       if (dataRow.length > 1) {
         var val = parseInt(dataRow[1])
-        //console.log('CF have good row',val,dataRow)
         if (!isNaN(val) && val > 0 && val > max) {
-          //console.log('CF mewmax',val)
           max = val
         }
       }
@@ -79,7 +76,6 @@ export default function ChordsPage(props) {
     var chordsRef = useRef([])
     var schordsRef = useRef([])
     var [qualities,setQualities] = useState(Object.keys(chordLib['guitar']))
-    //console.log('coll',params,chordLib)
 
     var [useInstrument, setUseInstrument] = useState('guitar') 
     var [useChordLetter, setUseChordLetter] = useState('C') 
@@ -90,7 +86,6 @@ export default function ChordsPage(props) {
     
     useEffect(function() {
       var parseChordFn = chordParserFactory()
-      //console.log("EFF",params)
       // for single view chord links, persist instrument selection
       var useInstrument = params.instrument ? params.instrument : (localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : "guitar")
       setUseInstrument(useInstrument)
@@ -108,7 +103,6 @@ export default function ChordsPage(props) {
           // TODO EMBED QUALITY
           ll = chordLabelFromQuality(l,q)
           
-          //console.log('HAVE QUAL PARAM',l,q,ll)
         // otherwise determine quality from chordLetter/name
         } else  {
           const parseChord = chordParserFactory();
@@ -116,28 +110,23 @@ export default function ChordsPage(props) {
           const destChord = parseChord(canonicalChordLetter(params.chordLetter));
           if (!destChord.error) {
             var dest = renderChord(destChord)
-            //console.log("short",dest,"long",dest2,"qual",destChord.normalized.quality,"sus?",destChord.normalized.isSuspended,"M",destChord)
             l = destChord.normalized.rootNote
             q = destChord.normalized.quality
             ll = dest
-            //console.log('PARSED CHORD',canonicalChordLetter(params.chordLetter),l,q,ll)
           } else {
             if (destChord.normalized.rootNote && destChord.normalized.quality) {
               l = destChord.normalized.rootNote
               q = destChord.normalized.quality
               ll = chordLabelFromQuality(l,q)
-              //console.log('PARSED CHORD fail1',l,q,ll)
             } else {
               if (destChord.normalized.rootNote) {
                 l = destChord.normalized.rootNote
                 q = 'major'
                 ll = chordLabelFromQuality(l,q)
-                //console.log('PARSED CHORD fail2 force quality',l,q,ll)
               } else {
                 l = 'C'
                 q = 'major'
                 ll = 'C'
-                //console.log('PARSED CHORD fail3 force quality and letter',l,q,ll)
               }
             }
           }
@@ -146,9 +135,7 @@ export default function ChordsPage(props) {
         l = 'C'
         q = 'major'
         ll = 'C'
-        //console.log('PARSED CHORD fail4 force quality and letter',l,q,ll)
       }
-      //console.log("FIN",l,q,ll)
       setUseChordLetter(l)
       setUseChordQuality(q)
       setUseChordLabel(ll)
@@ -162,18 +149,14 @@ export default function ChordsPage(props) {
       var voicings = chordVoicingsFromEntry(chordEntry, ll, voicingOptions)
       var primaryChord = voicings.primaryChord
       var secondaryChords = voicings.secondaryChords
-      //console.log("FOUND CHORD",useInstrument, q,l, primaryChord, "SEC",secondaryChords,chordLib[useInstrument])
       
       if (Array.isArray(primaryChord)) {
         
-        //console.log("FOUND CHORDdata",primaryChord)
         
-        //console.log('chord effe',chordLetter + chordType,chordData,chordChart)
         chordsRef.current.innerHTML = ''
         var chordBase1 = JSON.parse(JSON.stringify(chordBase))
         chordBase1.numStrings = stringsFromInstrument(useInstrument)
         
-        //console.log('main chord data',primaryChord,chordBase1)
             
         primaryChord.forEach(function(primaryChordInner) {
           primaryChordInner.forEach(function(chordData) {
@@ -225,7 +208,6 @@ export default function ChordsPage(props) {
     //var instruments = Object.keys(chords)
     
     var major = scale('1 2 3 4 5 6 7 ',useChordLetter)
-    //console.log("MAJ",major)
     var chordsInKey=<div style={{float:'right'}}>
     
     {(useChordQuality === 'minor' || useChordQuality === 'minor7'|| useChordQuality === 'diminished') && <>

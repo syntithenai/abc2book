@@ -22,7 +22,6 @@ function TagsSelectorModal(props) {
       if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
     }
   }, [show, props.setBlockKeyboardShortcuts]);
-  //console.log(props,options)
   var filterChangeTimeout = null
   function filterChange(e) {
     setFilter(e.target.value.toLowerCase())
@@ -38,7 +37,6 @@ function TagsSelectorModal(props) {
   
   
     function newTag(tag) {
-        //console.log('new tag',tag)
         if(tag && tag.trim()) {
             props.tunebook.indexes.addTagToIndex(tag); 
             var newValue = Array.isArray(props.value) ? props.value : []
@@ -53,7 +51,6 @@ function TagsSelectorModal(props) {
     }
     
     function selectTag(tag) {
-        //console.log('sel tag',tag)
       var newValue = Array.isArray(props.value) ? props.value : []
       newValue.push(tag)
       var uniqueTagsSelected = props.tunebook.utils.uniquifyArray(newValue)
@@ -64,7 +61,6 @@ function TagsSelectorModal(props) {
     }
     
     function deselectTag(tag) {
-        //console.log('desel tag',tag)
       var uniqueTagsSelected = props.value.filter(function(selectedTag) {
         if (selectedTag === tag) {
           return false

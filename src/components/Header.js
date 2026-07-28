@@ -34,7 +34,6 @@ import {
 export default function Header(props) {
     var location = useLocation()
     var navigate = useNavigate()
-    //console.log(props.token)
     //var params = useParams() // empty  ???
     var parts = location.pathname.split("/")
     var params = {tuneId: parts.length >= 3 ? parts[2] : null}
@@ -61,9 +60,7 @@ export default function Header(props) {
     const forceNav = props.forceNav
     const setForceNav = props.setForceNav
     useEffect(function() {
-        //console.log("FORCE NAV", props.forceNav)
         if (forceNav) {
-            //console.log("REALLY FORCE NAV", props.forceNav)
             setForceNav(null)
             navigate(forceNav)
         }
@@ -504,7 +501,6 @@ export default function Header(props) {
     }
 
     if (location.pathname.startsWith('/print')) return null
-    //console.log("param  ",params,location)
     return <header className="App-header" style={{fontSize:'1.2em'}} >
         <span className="header-left">
             <ButtonGroup className="header-nav-buttons">

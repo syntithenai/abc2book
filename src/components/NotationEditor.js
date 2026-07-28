@@ -659,7 +659,15 @@ export default function NotationEditor(props) {
       });
     }
     const voiceBody = voiceBodyForSession(props.voiceNotes);
-    if (!voiceKeyChanged && voiceBody === prevLoadedVoiceBodyRef.current) {
+    let sessionOutOfSync = false;
+    const s = sessionRef.current;
+    if (!voiceKeyChanged && s && Array.isArray(s.events)) {
+      const raw = serializeVoiceEvents(s.events, tuneMeta);
+      const sessionBody = commitBodyWithMidi(raw, props.voiceKey).trim();
+      const incoming = String(voiceBody || '').trim();
+      sessionOutOfSync = incoming !== sessionBody && incoming !== String(raw).trim();
+    }
+    if (!voiceKeyChanged && !sessionOutOfSync && voiceBody === prevLoadedVoiceBodyRef.current) {
       return;
     }
     prevLoadedVoiceBodyRef.current = voiceBody;
@@ -739,7 +747,7 @@ export default function NotationEditor(props) {
     const body = commitBodyWithMidi(raw, vk);
     lastCommittedAbcRef.current = body;
     skipExternalLoad.current = true;
-    props.onVoiceNotesChange(vk, body, 'Edit notation');
+    props.onVoiceNotesChange(vk, body, 'Edit notation', { immediate: true });
   }, [props, tuneMeta, commitBodyWithMidi]);
 
   useEffect(function() {

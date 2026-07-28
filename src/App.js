@@ -327,13 +327,11 @@ function AppQueueLayer(props) {
 
 function App(props) {
   const tuneBookName='ABC Tune Book'
-  //console.log(window.location.href)
   //let mediaController = useTuneBookMediaController()
   let dbTunes = {}
   let utils = useUtils();
   let abcTools = useAbcTools();
   //window.onclick=function(e) {
-    //console.log('clickdoc',e.y) //,e.screenY,e.x,e.screenX)
     ////window.scrollTo(0,e.y)
   //}
   var [showWaitingOverlay, setShowWaitingOverlay] = useState(false)
@@ -345,7 +343,6 @@ function App(props) {
   useAudioAnalysisLoginSync(token, logout)
   useScratchpadLoginSync(token, logout)
   const filesDocumentManager = useGoogleDocument(token, logout)
-  //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
   const {tunes, setTunes, setTunesInner, tunesContentRevision, flushTunesPersistence, deletedTunes, setDeletedTunes, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset , filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
   useAppFreshLoad()
@@ -801,21 +798,17 @@ function App(props) {
     queuePlaybackBlockedRef.current = blocked
   }, [practiceSession && practiceSession.sessionOpen, setPlaylist, resumeNowPlayingQueue])
   //, onEnded:function() {
-      //console.log('app ended',this)
         //tunebook.navigateToNextSong()
   //}})
   
   
   function onMerge(fullSheet) {
-    //console.log('onmerge',fullSheet)
     //var trialResults = 
     mergeTuneBook(fullSheet).then(function(trialResults) {
-        //console.log('onmerge', fullSheet.length, trialResults)
         // warning if items are being deleted
         if (trialResults) {
 			var needsWarning = Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0
 			if (needsWarning) {
-			  //console.log('onmerge set results',trialResults)
 			  setSheetUpdateResults(trialResults)
 			  tunebook.utils.scrollTo('topofpage')
 			  forceRefresh()
@@ -823,7 +816,6 @@ function App(props) {
 			  // Local changes (edits newer than Drive, or new local-only tunes) are saved silently without warning.
 			  applyMergeChanges(trialResults)
 			} else {
-			  //console.log('onmerge empty results',trialResults)
 			  setSheetUpdateResults(trialResults)
 			  //utils.scrollTo('topofpage')
 			  //applyMergeChanges(trialResults)
@@ -999,7 +991,6 @@ function App(props) {
   function showWarning() {
     //if (sheetUpdateResults) return true
     //return false 
-    //console.log('showWarning')
           //return true
 
 
@@ -1032,7 +1023,6 @@ function App(props) {
 	  //return true
     //if (sheetUpdateResults) return true
     //return false 
-    //console.log('showWarning', localStorage.getItem('bookstorage_mergewarnings'), importResults)
     if (importResults !== null) {
         //return true
         if (localStorage.getItem('bookstorage_mergewarnings') === "true")  {

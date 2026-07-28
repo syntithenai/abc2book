@@ -81,7 +81,12 @@ export async function removeFromTextSearchIndex(tuneId) {
 export async function searchTextIndex(query) {
   const parts = tokenize(query)
   if (parts.length === 0) return null
-  const index = await loadTextSearchIndex()
+  let index
+  try {
+    index = await loadTextSearchIndex()
+  } catch (e) {
+    return null
+  }
   const counts = {}
   parts.forEach(function(part) {
     (index[part] || []).forEach(function(id) {

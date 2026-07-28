@@ -7,7 +7,6 @@ import VoiceFillInput from './VoiceFillInput'
 
 function ImportCollectionModal(props) {
   const { setCurrentTuneBook, tunebook } = props
-  //console.log(props.tunebook.curatedTuneBooks)
   const navigate = useNavigate()
   const [show, setShow] = useState(props.autoStart ? props.autoStart : '');
   const [filter, setFilter] = useState('')
@@ -49,7 +48,6 @@ function ImportCollectionModal(props) {
     }
     
     function getSearchOptions(filter) {
-      //console.log('search cur')
         var opts = getOptions()
         var filtered = {}
         Object.keys(opts).forEach(function(key) {
@@ -60,12 +58,10 @@ function ImportCollectionModal(props) {
                 filtered[key] = val
             }
         })
-        //console.log('search cur', filtered)
         return filtered
     }
   
   const doImport = useCallback(function(collection) {
-    //console.log('import')
     setCurrentTuneBook(collection)
     if (tunebook.curatedTuneBooks[collection]) {
       if (tunebook.curatedTuneBooks[collection].link) {
@@ -76,14 +72,11 @@ function ImportCollectionModal(props) {
     }
     
     //var [inserts, updates, duplicates] = props.tunebook.importCollection(collection, collection)
-    //console.log('imported',inserts,updates,duplicates)
     //setMessage(null)
     //const importResults = props.tunebook.importAbc(list, props.currentTuneBook)
-    ////console.log('imported',inserts,updates,duplicates)
     //props.setImportResults(importResults)
     //var [inserts, updates, duplicates] = importResults
     //if (duplicates.length > 0) {
-          ////console.log('import dup', duplicates)
 
       //setDuplicates(duplicates)
       //setMessage(<div>
@@ -92,7 +85,6 @@ function ImportCollectionModal(props) {
         //Skipped {duplicates.length} duplicate tunes<Button style={{marginLeft:'1em'}}  variant="primary" onClick={function(e) {forceImport(duplicates,collection)}}>Import Duplicates</Button></div>
       //)
     //} else {
-      ////console.log('import ok', inserts, updates)
       ////setList('')
       ////props.forceRefresh()
       //setMessage(<>
@@ -113,7 +105,6 @@ function ImportCollectionModal(props) {
       function readFile(file){
           var reader = new FileReader();
           reader.onloadend = function(){
-            //console.log("read"+reader.result.length )
             if (reader.result.trim().length > 0) {
               setList(reader.result)
               //doImport(reader.result)

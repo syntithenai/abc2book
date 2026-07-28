@@ -14,6 +14,7 @@ export default function CheckToggleButton({
   const variant = checked ? 'primary' : 'outline-primary';
   const rootClassName = [
     'check-toggle-btn',
+    checked ? 'check-toggle-btn--checked' : 'check-toggle-btn--unchecked',
     stretch ? 'check-toggle-btn--stretch' : null,
     className,
   ].filter(Boolean).join(' ');

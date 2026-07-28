@@ -58,9 +58,9 @@ import {
 import { parseTempoBpm, tempoRangeLabel } from './tempoRange'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 import { buildOrderedSearchListIds, compareSearchGroupKeys } from './searchListOrder'
+import { purgeTuneFromSecondaryStores } from './tuneRepository'
 
 var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, practiceSessionActiveRef}) => {
-  //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
   // from old data
@@ -495,7 +495,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     navigateToSearchListTune(orderedIds[nextIdx], navigateFn, locationPathname, mediaController, startPlayback)
   }
 
-  //,  navigate = function(a) {console.log("NAVTO",a); window.location = "#"+a}
   function navigateToNextSong(currentSongId, failCallback, navigateFn, locationPathname, options) {
       var opts = options || {}
       // Run immediately when continuing playback so the click stays a user gesture.
@@ -526,7 +525,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   function createTune(tune = null, skipTimestampUpdate = false) {
       if (!tune) tune = {} 
       if (!tune.id) {
-        //console.log('create id')
         tune.id = utils.generateObjectId()
       }
       if (skipTimestampUpdate) {
@@ -615,7 +613,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
           if (options.hasOwnProperty('tombstone')) {
               setTombstoneStateForTune(tuneId, options.tombstone)
           }
-          setTunes(tunes)
+          setTunes(Object.assign({}, tunes))
           saveTunesOnline()
           return restoredTune
       }
@@ -627,7 +625,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       if (options.hasOwnProperty('tombstone')) {
           setTombstoneStateForTune(tuneId, options.tombstone)
       }
-      setTunes(tunes)
+      setTunes(Object.assign({}, tunes))
       saveTunesOnline()
       return null
   }
@@ -665,7 +663,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   
   function saveTune(tune, skipTimestampUpdate = false, options = {}) {
       
-    //console.log('save tune', tune, tunes)
     if (!tune || !tunes) return tune
     if (saveTuneInProgressRef.current) return tune
     saveTuneInProgressRef.current = true
@@ -677,7 +674,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       //var cleanTune = JSON.parse(JSON.stringify(tune))
       //cleanTune.lastHash = null
       //tune.lastHash = utils.hash(JSON.stringify(cleanTune))
-      //console.log('save tune id', tune.id)
       // clear invalid links
       tune.links = Array.isArray(tune.links) ? tune.links.filter(function(link) {
           return (link && (link.title || link.link || link.startAt || link.endAt))
@@ -700,7 +696,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
         })
       }
       setTunes(Object.assign({}, tunes))
-      //console.log('set tunes', tune, tunes)
       saveTunesOnline()
     } finally {
       saveTuneInProgressRef.current = false
@@ -729,6 +724,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     return commitTombstones([{id: tuneId, name: name}])
   }
 
+  function purgeDeletedTuneStorage(tuneId) {
+    if (!tuneId) return
+    purgeTuneFromSecondaryStores(tuneId).catch(function() {})
+  }
+
   function deleteTune(tuneId) {
     pauseSheetUpdates.current = true
     var tune = tunes[tuneId]
@@ -736,10 +736,14 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     var tombstoneBefore = deletedTunes && tuneId ? JSON.parse(JSON.stringify(deletedTunes[tuneId] || null)) : null
     var tombstoneAfter = tune ? createTombstone(tuneId, tune.name) : null
     if (tune) {
-      indexes.removeTune(tune, indexes.bookIndex)
+      if (indexes.unindexTune) indexes.unindexTune(tune)
+      else indexes.removeTune(tune, indexes.bookIndex)
       recordTombstone(tuneId, tune.name)
+    } else if (tuneId && indexes.unindexTune) {
+      indexes.unindexTune({ id: tuneId })
     }
-    
+    purgeDeletedTuneStorage(tuneId)
+
     delete tunes[tuneId]
     deletePersistedTuneSnapshot(tuneId)
     recordHistoryChange({
@@ -755,19 +759,21 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     })
     setTunes(tunes)
     saveTunesOnline()
+    if (typeof forceRefresh === 'function') forceRefresh()
   }
   
     
   function deleteTunes(tuneIds) {
-    //console.log('delete tunes',tuneIds, tunes)
     if (Array.isArray(tuneIds)) {
       pauseSheetUpdates.current = true
       var tombstones = []
       var historyChanges = []
       tuneIds.forEach(function(tuneId) {
-        if (tunes[tuneId]) {
-          indexes.removeTune(tunes[tuneId], indexes.bookIndex)
-          tombstones.push({id: tuneId, name: tunes[tuneId].name})
+        var existing = tunes[tuneId]
+        if (existing) {
+          if (indexes.unindexTune) indexes.unindexTune(existing)
+          else indexes.removeTune(existing, indexes.bookIndex)
+          tombstones.push({id: tuneId, name: existing.name})
           historyChanges.push({
             tuneId: tuneId,
             before: getPersistedTuneSnapshot(tuneId),
@@ -776,10 +782,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
             immediate: true,
             meta: {
               tombstoneBefore: deletedTunes && tuneId ? JSON.parse(JSON.stringify(deletedTunes[tuneId] || null)) : null,
-              tombstoneAfter: createTombstone(tuneId, tunes[tuneId].name),
+              tombstoneAfter: createTombstone(tuneId, existing.name),
             },
           })
+        } else if (tuneId && indexes.unindexTune) {
+          indexes.unindexTune({ id: tuneId })
         }
+        purgeDeletedTuneStorage(tuneId)
         delete tunes[tuneId]
         deletePersistedTuneSnapshot(tuneId)
       })
@@ -787,10 +796,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       historyChanges.forEach(function(change) {
         recordHistoryChange(change)
       })
-      //console.log('deleted',tuneIds)
       setTunes(tunes)
       saveTunesOnline()
-      //forceRefresh()
+      if (typeof forceRefresh === 'function') forceRefresh()
     }
   }
   
@@ -841,7 +849,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   
   
   function addTunesToTag(tuneIds,tag) {
-      //console.log('attt',tuneIds,tag)
     if (Array.isArray(tuneIds) && tag && tag.trim()) {
        pauseSheetUpdates.current = true
        tuneIds.forEach(function(id) {
@@ -995,10 +1002,8 @@ The main difference between the two functions is the additional condition in app
   }
 
   function applyMergeData(data, forceDuplicates=false, discardLocalUpdates = false) {
-    //console.log('apply merge',data)
     return new Promise(function(resolve,reject) {
         utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
-            //console.log('havetunes',  tunes, tunesHash)
       
             var {inserts, updates, duplicates, localUpdates, deletes, remoteDeleted} = data
             var deleteSnapshots = {}
@@ -1015,7 +1020,6 @@ The main difference between the two functions is the additional condition in app
                 tunes[updates[u].id] = updates[u]
               }
             })
-            //console.log('done updates')
             
             
             Object.values(inserts).forEach(function(tune) {
@@ -1025,7 +1029,6 @@ The main difference between the two functions is the additional condition in app
               var newTune = createTune(tune,true)
               tunes[tune.id] = newTune
             })
-            //console.log('done inserts')
             // any more recent changes locally get saved online
             if (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) {
               Object.values(localUpdates).forEach(function(tune) {
@@ -1035,7 +1038,6 @@ The main difference between the two functions is the additional condition in app
               })
               //updateSheet(0)
             } 
-            //console.log('done local updates')
             // any more recent changes locally get saved online
             var bookMergesChanged = false
             if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
@@ -1058,9 +1060,7 @@ The main difference between the two functions is the additional condition in app
             clearTombstonesForTunes(
               tuneIdsFromBucket(updates).concat(tuneIdsFromBucket(inserts))
             )
-            //console.log('done dups')
             if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| bookMergesChanged || (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
-                //console.log('FINALLY SET ',tunes)
               refreshPersistedTuneSnapshots(tunes)
               setTunes(tunes)
               buildTunesHash()
@@ -1077,7 +1077,6 @@ The main difference between the two functions is the additional condition in app
   }
   
   function applyImportData(data, forceDuplicates=false, discardLocalUpdates = false) {
-    //console.log('apply import',importResults)
     return new Promise(function(resolve,reject) {
             var beforeSnapshots = {}
             var {inserts, updates, duplicates, localUpdates, skippedUpdates, forceBook, deletes, remoteDeleted} = data
@@ -1108,12 +1107,10 @@ The main difference between the two functions is the additional condition in app
                     var books = Array.isArray(tunes[updates[u].id].books) ? tunes[updates[u].id].books : []
                     books.push(forceBook)
                     tunes[updates[u].id].books = utils.uniquifyArray(books)
-                    //console.log('force book updates',tunes[updates[u].id].books)
                     
                 }
               }
             })
-            //console.log('done updates')
             
             
             Object.values(inserts).forEach(function(tune) {
@@ -1125,27 +1122,21 @@ The main difference between the two functions is the additional condition in app
                     var books = Array.isArray(newTune.books) ? newTune.books : []
                     books.push(forceBook)
                     newTune.books = utils.uniquifyArray(books)
-                     //console.log('force book insert',newTune.books)
               }
               tunes[tune.id] = newTune
              
                     
             })
-            //console.log('done inserts')
             // any more recent changes locally get saved online
             if (localUpdates && Object.keys(localUpdates).length > 0) {
-                //console.log('loca upd')
                 if (discardLocalUpdates) {
                   Object.values(localUpdates).forEach(function(tune) {
                     //tune.id = null
                     //var newTune = saveTune(tune)
-                    //console.log('loca upd',tune)
                     if (forceBook) {
-                        //console.log('loca upd force')
                         var books = Array.isArray(tune.books) ? tune.books : []
                         books.push(forceBook)
                         tune.books = utils.uniquifyArray(books)
-                        //console.log('force book local upda disc',tune.books)
                     }
                     tunes[tune.id] = tune
                   })
@@ -1156,7 +1147,6 @@ The main difference between the two functions is the additional condition in app
                             var books = Array.isArray(tunes[tune.id].books) ? tunes[tune.id].books : []
                             books.push(forceBook)
                             tunes[tune.id].books = utils.uniquifyArray(books)
-                            //console.log('force book local upda no disc',tunes[tune.id].books)
                         })
                     }
                 }
@@ -1167,11 +1157,9 @@ The main difference between the two functions is the additional condition in app
                         var books = Array.isArray(tunes[tune.id].books) ? tunes[tune.id].books : []
                         books.push(forceBook)
                         tunes[tune.id].books = utils.uniquifyArray(books)
-                        //console.log('force book skipped up',tunes[tune.id].books)
                     }
                 })
             }
-            //console.log('done local updates')
             // any more recent changes locally get saved online
             if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
               Object.values(duplicates).forEach(function(tune) {
@@ -1181,7 +1169,6 @@ The main difference between the two functions is the additional condition in app
                     var books = Array.isArray(newTune.books) ? newTune.books : []
                     books.push(forceBook)
                     newTune.books = utils.uniquifyArray(books)
-                    //console.log('force book dups',tune.books)
                 }
                 tunes[tune.id] = newTune
               })
@@ -1222,7 +1209,6 @@ The main difference between the two functions is the additional condition in app
             })
              
                       
-            //console.log('done dups')
             var bookMergeResult = data && data._bookMerge
             var bookMergesChanged = !!(bookMergeResult && bookMergeResult.mergedTuneIds && bookMergeResult.mergedTuneIds.length > 0)
             if (forceBook || bookMergesChanged || (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
@@ -1310,7 +1296,6 @@ The main difference between the two functions is the additional condition in app
                   },
                 })
               })
-                //console.log('FINALLY SET ',tunes)
               refreshPersistedTuneSnapshots(tunes)
               setTunes(tunes)
               buildTunesHash()
@@ -1331,7 +1316,6 @@ The main difference between the two functions is the additional condition in app
   
 
   //useEffect(function() {
-        //console.log("IL")
       //var filtered = Object.values(props.tunes).filter(filterSearch)
       //setFiltered(filtered)
       //var tuneStatus = {}
@@ -1366,10 +1350,7 @@ The main difference between the two functions is the additional condition in app
       ////},100)
     //},[filter,props.currentTuneBook])
     function hasLinks(tune) {
-        //console.log('HL',tune,Array.isArray(tune.links))
-        //if (Array.isArray(tune.links)) console.log((tune.links[0] && tune.links[0].link && tune.links[0].link.trim().length > 0))
         var a = (tune && Array.isArray(tune.links) && tune.links.length > 0 && ((tune.links[0].link && tune.links[0].link.trim().length > 0) || (tune.links[0].title && tune.links[0].title.trim().length > 0) || (tune.links[0].startAt && tune.links[0].startAt.trim().length > 0) || (tune.links[0].endAt && tune.links[0].endAt.trim().length > 0) ) )
-        //console.log(a)
         return a
         
         //return true
@@ -1400,7 +1381,6 @@ The main difference between the two functions is the additional condition in app
       //return false
     //if (sheetUpdateResults) return true
     //return false 
-    //console.log('TB showWarning',importResults, localStorage.getItem('bookstorage_mergewarnings'))
     if (importResults !== null) {
         if (localStorage.getItem('bookstorage_mergewarnings') === "true")  {
           if (importResults.deletes && Object.keys(importResults.deletes).length > 0) {
@@ -1435,7 +1415,6 @@ The main difference between the two functions is the additional condition in app
    * Pass options.classifyOnly to classify without setting importResults or saving online.
    */
   function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null, limitToTagName=null, limitToTuneIds=null, options) {
-      //console.log('importabc', forceBook, limitToTuneId, limitToBookName, limitToTagName)
       var opts = options && typeof options === 'object' ? options : {}
       var classifyOnly = !!opts.classifyOnly
       var currentTunesHash = buildTunesHash(tunes) || tunesHash
@@ -1449,11 +1428,8 @@ The main difference between the two functions is the additional condition in app
       var importedActiveIds = {}
       var tuneStatus = {updates:[],inserts:[],localUpdates:[],skippedUpdates:[],duplicates:[],deletes:[]}
       if (abc) {
-        //console.log('haveabc')
         var intunes = abcTools.abc2Tunebook(abc)
-        //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         intunes.forEach(function(tune) { 
-          //if ((!limitToTuneId || tune.id == limitToTuneId))    console.log('HAVETUNE',limitToTuneId,tune.id, limitToBookName, (tune.books), limitToTagName, tune.tags)
             
           if (importScopeMatch(tune, limitToTuneId, limitToBookName, limitToTagName, limitToTuneIds))  {
               if (tune.id) importedActiveIds[tune.id] = true
@@ -1463,7 +1439,6 @@ The main difference between the two functions is the additional condition in app
               if (localTombAt > 0 && localTombAt >= remoteTuneAt) {
                 return
               }
-              //console.log('HAVETUNE filtered')
             var hasNotes = false
             var hasChords = false
             tune.boost = 0 // reset boost on import
@@ -1489,7 +1464,6 @@ The main difference between the two functions is the additional condition in app
             
             
             // existing tunes are updated
-            //console.log('haveabc',tune.id,tunes[tune.id])
             if (tune.id && tunes[tune.id]) {
               //if (forceBook) {
                 //var books = Array.isArray(tune.books) ? tune.books : []
@@ -1505,7 +1479,6 @@ The main difference between the two functions is the additional condition in app
                   hasNotes: hasNotes,
                   hasChords: hasChords
                 })
-                //console.log('update MORE RECENT')
               } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
                 localUpdates.push(tune)
                 tuneStatus.localUpdates.push({
@@ -1513,7 +1486,6 @@ The main difference between the two functions is the additional condition in app
                   hasNotes: hasNotes,
                   hasChords: hasChords
                 })
-                //console.log('local update MORE RECENT')
               } else {
                 skippedUpdates.push(tune)
                 tuneStatus.skippedUpdates.push({
@@ -1521,7 +1493,6 @@ The main difference between the two functions is the additional condition in app
                   hasNotes: hasNotes,
                   hasChords: hasChords
                 })
-                //console.log('skip update NOT MORE RECENT')
               }
               
               //saveTune(tune)
@@ -1538,7 +1509,6 @@ The main difference between the two functions is the additional condition in app
               //} else {
                 var hash = abcTools.getTuneImportHash(tune)
                 //utils.hash(tune.notes.join("\n"))
-                //console.log("tryhash",hash,tunesHash, tunesHash.hashes[hash]   )
                 var existingImportIds = []
                 if (currentTunesHash && currentTunesHash.importhashes && currentTunesHash.importhashes[hash]) {
                   var hashEntry = currentTunesHash.importhashes[hash]
@@ -1595,7 +1565,6 @@ The main difference between the two functions is the additional condition in app
         })
       }
       var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, deletes, remoteDeleted, tuneStatus, forceBook: forceBook}
-      //console.log('imported SABC',final)
       if (!classifyOnly) {
         saveTunesOnline()
         setImportResults(final)
@@ -1606,7 +1575,6 @@ The main difference between the two functions is the additional condition in app
  
   
   //function importCollection(title) {
-    ////console.log('impo col',title,curatedTuneBooks[title])
     //return importAbc(curatedTuneBooks[title], title)
   //}
   
@@ -1617,7 +1585,6 @@ The main difference between the two functions is the additional condition in app
       Object.keys(indexes.bookIndex).forEach(function(tuneBookKey) {
           final[tuneBookKey] = tuneBookKey
       })
-      //console.log("GET TUNEBOOKOPTIONS",indexes,final)
       return final
   }
   
@@ -1630,7 +1597,6 @@ The main difference between the two functions is the additional condition in app
               filtered[key] = val
           }
       })
-    //console.log("search TUNEBOOKOPTIONS",filter,opts,filtered)
       return filtered
   }
   
@@ -1641,7 +1607,6 @@ The main difference between the two functions is the additional condition in app
       Object.keys(indexes.tagIndex).forEach(function(tuneTagKey) {
           final[tuneTagKey] = tuneTagKey
       })
-      //console.log("GET TUNEBOOKOPTIONS",indexes,final)
       return final
   }
   
@@ -1654,7 +1619,6 @@ The main difference between the two functions is the additional condition in app
               filtered[key] = val
           }
       })
-    //console.log("search TUNEBOOKOPTIONS",filter,opts,filtered)
       return filtered
   }
 
@@ -1719,33 +1683,24 @@ The main difference between the two functions is the additional condition in app
   }
     
   function deleteTuneBook(book) {
-    //console.log('delete tune book',book)
     pauseSheetUpdates.current = true
     var final = {}
     var tombstones = []
     Object.values(tunes).map(function(tune) {
-      //console.log('delete tune book book',tune.books)
       if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
-        //console.log('delete tune book book MATCH',book,tune.books.length)
         if (tune.books.length > 1) {
-          //console.log('update books lose '+book)
           //,tune.books.indexOf(book),JSON.parse(JSON.stringify(tune.books)),JSON.parse(JSON.stringify(tune.books.splice(tune.books.indexOf(book),1))) )
-          //console.log('before '+JSON.stringify(tune.books))
           tune.books.splice(tune.books.indexOf(book),1)
-          //console.log('after '+JSON.stringify(tune.books))
           final[tune.id] = tune
         } else {
-          //console.log('last book')
           tombstones.push({id: tune.id, name: tune.name})
         }
       } else {
-        //console.log('no books for tune match')
         final[tune.id] = tune
       }
     })
     commitTombstones(tombstones)
     indexes.removeBookFromIndex(book)
-    //console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
     setTunes(final)
     buildTunesHash(final)
     saveTunesOnline()
@@ -1820,7 +1775,6 @@ The main difference between the two functions is the additional condition in app
   }
   
   function fromSelection(selection) {
-    //console.log('from book',book, tunes)
     var res = Object.values(tunes).filter(function(tune) {
         if (selection[tune.id]) {
           return true
@@ -1828,13 +1782,11 @@ The main difference between the two functions is the additional condition in app
           return false
         }
     })
-    //console.log('to abc res',res)
     return res
   }
   
   // create an index of list items collated by groupBy
     function groupTunes(items, groupBy) {
-        //console.log('gropu tunes',groupBy)
         var collated = {}
         if (groupBy) {
             items.forEach(function(item,itemKey) {
@@ -1842,10 +1794,8 @@ The main difference between the two functions is the additional condition in app
                 if (groupBy === 'tempoRange') {
                     key = tempoRangeLabel(parseTempoBpm(item.tempo))
                 } else if (Array.isArray(item[groupBy])) {
-                    //console.log('array',item[groupBy])
                     key = item[groupBy].sort().filter(function(a) { return (currentTuneBook && a != currentTuneBook)  }).join(", ")
                 } else {
-                    //console.log('no array',item[groupBy])
                     key = item[groupBy]
                     if (key > 0) {
                         key = parseInt(key)
@@ -1856,7 +1806,6 @@ The main difference between the two functions is the additional condition in app
                     }
                 }
                 if (key) {
-                    //console.log('key',key)
                     if (!collated.hasOwnProperty(key)) {
                         collated[key] = []
                         collated[key].push(itemKey)
@@ -1864,7 +1813,6 @@ The main difference between the two functions is the additional condition in app
                         collated[key].push(itemKey)
                     }
                 } else {
-                    //console.log('nokey')
                     if (!collated.hasOwnProperty('')) {
                         collated[''] = []
                     }
@@ -1872,7 +1820,6 @@ The main difference between the two functions is the additional condition in app
                 }
             })
         }
-        //console.log('gropu tunes coll',collated)
         
         return collated
     }
@@ -1900,7 +1847,6 @@ The main difference between the two functions is the additional condition in app
     }
   function mediaFromBook(book, useTunes) {
     if (!useTunes) useTunes = tunes
-    //console.log('from book',book, useTunes)
     var res = Object.values(useTunes).filter(function(tune) {
         if (book) {
           if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
@@ -1932,13 +1878,11 @@ The main difference between the two functions is the additional condition in app
             }
         }
     })
-    //console.log('to abc res',res)
     res = shuffle(res)
     return res
   }
   
   function filterSearch(tune, filter, bookFilter, tagFilter = [], genreFilter = [], artistFilter = [], starredOnly = false) {
-       //console.log('filterSearch',props.currentTuneBook,props.filter, props.tagFilter)
         var filterOk = false
         var bookFilterOk = false
         var tagFilterOk = false
@@ -1985,17 +1929,14 @@ The main difference between the two functions is the additional condition in app
                 } 
             }
             if (!Array.isArray(tagFilterClean) || tagFilterClean.length === 0) {
-                 //console.log('skip tag filt')
                 tagFilterOk = true
             } else {
-                //console.log(' tag filt',tune.tags,tagFilter)
                 if (tune && tune.tags && tune.tags.length > 0 && Array.isArray(tagFilterClean) && tagFilterClean.length > 0) {
                     tagFilterOk = true
                     var tuneTagsLower = tune.tags.map(function(t) {
                         return (t && t.toLowerCase) ? t.toLowerCase() : t
                     })
                     tagFilterClean.forEach(function(tag) {
-                        //console.log(tag)
                         if (tag && tag.toLowerCase && tuneTagsLower.indexOf(tag.toLowerCase()) !== -1) {
                             //tagFilterOk = true
                         } else {
@@ -2014,7 +1955,6 @@ The main difference between the two functions is the additional condition in app
             } else {
                 artistFilterOk = tuneMatchesArtistFilter(tune, artistFilterClean)
             }
-            //console.log('FILTER',tune,props.filter, bookFilter,tune.name, tune.books,(filterOk && bookFilterOk))
             var starredFilterOk = !starredOnly || !!(tune && tune.starred)
             return (filterOk && bookFilterOk && tagFilterOk && genreFilterOk && artistFilterOk && starredFilterOk)
         }
@@ -2022,25 +1962,20 @@ The main difference between the two functions is the additional condition in app
   
   function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null, genreFilter = [], artistFilter = [], starredOnly = false) {
     if (!useTunes) useTunes = tunes
-    //console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
     var res = Object.values(useTunes).filter(function(tune) {
         return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly)
     })
-    //console.log('from search res',res)
     res = shuffle(res)
     return res
   }
   
   function mediaFromSelection(selection, mergedTunes) {
-    //console.log('m from sel',selection)
     var final = []
     if (selection && selection.split) {
         var res = selection.split(",").forEach(function(tuneId) {
-            //console.log('m from sel',tuneId)
             var useTunes = (mergedTunes !== null ? mergedTunes : tunes)
             if (useTunes[tuneId]) {
                   var tune = useTunes[tuneId]
-                  //console.log('m from sel',tune)
                   if (hasLinks(tune)) {
                         //tune.links.forEach(function(link) {
                           //if (link.link && link.link.trim()) {
@@ -2051,14 +1986,12 @@ The main difference between the two functions is the additional condition in app
             }
         })
     //res = shuffle(res)
-    //console.log('m from sel res',final)
         
     }
     return final
   }
   
   function toAbc(book) {
-    //console.log('to abc',book, tunes)
     var res = Object.values(tunes).filter(function(tune) {
         if (book) {
           if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
@@ -2071,11 +2004,9 @@ The main difference between the two functions is the additional condition in app
         }
     }).map(function(tune, k) {
       //var newTune = tune
-     // console.log(tune)
       if (tune && tune.meta) tune.meta.X = k
       return abcTools.json2abc(tune)
     }).join("\n")
-    //console.log('to abc res',res)
     return res 
 
   }
@@ -2093,7 +2024,6 @@ The main difference between the two functions is the additional condition in app
   }
     
     //function fillMediaPlaylistFromTag(tag) {
-        //console.log('fill media by tag',tag)
         //var fillTunes = mediaFromSearch('','',[tag])
         //fillTunes = fillTunes.filter(function(tune) {
               //var ret = false
@@ -2106,9 +2036,7 @@ The main difference between the two functions is the additional condition in app
               //}
               //return ret
         //})
-        //console.log('fill media tunes',fillTunes)
         //shuffleArray(fillTunes)
-        ////console.log('shuffle media tunes',fillTunes)
         //if (Array.isArray(fillTunes)) {
             //fillTunes = fillTunes.sort(function(a,b) {
                 //return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
@@ -2200,7 +2128,6 @@ The main difference between the two functions is the additional condition in app
             try {
                 abc = abcjs.strTranspose(abc, visualObj, tune.transpose)
             } catch (e) {
-                console.log("Failed tranpose", e)
             }
         }
         return abc
@@ -2221,7 +2148,6 @@ The main difference between the two functions is the additional condition in app
             try {
                 abc = abcjs.strTranspose(abc, visualObj, tune.transpose)
             } catch (e) {
-                console.log("Failed tranpose", e)
             }
         }
         return abc

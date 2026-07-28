@@ -24,16 +24,11 @@ function ImportListModal(props) {
    * import songs to a tunebook from an list looked up on thesession.org
    */
   let [importQueue, setImportQueue] = useState([])
-  //console.log('im plist',props,props.tunebook, props.tunebook.importAbc)
   
   function bulkCreate() {
-    //console.log('bulkCreate',list)
     var abc =list.split("\n").map(function(d,k) {return "X:"+k+"\nT:"+d+"\nK:G\n" }).join("\n\n")
     var doImp = props.tunebook.importAbc
     var result = doImp(abc, props.currentTuneBook, false)
-    //console.log('bulkCreate')
-    //console.log(abc)
-    //console.log(result)
     //var [inserts, updates, d] = result
     setList('')
     setTunes([])
@@ -54,7 +49,6 @@ function ImportListModal(props) {
       return
     } 
     //setErrorHistory([])
-    //console.log('imp list',list)
     var useList = (list && list.trim ? list : '').split("\n")
     useList.forEach(function(songTitle) {
       importQueue.push(songTitle)
@@ -72,15 +66,12 @@ function ImportListModal(props) {
   function nextImportItem() {   
     if (importQueue.length > 0) {
       var songTitle = importQueue.shift()
-      //console.log('next   import item '+songTitle)
       setImportQueue(importQueue)
       
       if (songTitle && songTitle.trim().length > 0) {
         axios.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+songTitle).then(function(searchRes) {
-          //console.log(typeof searchRes, searchRes)
           if (searchRes && searchRes.data && searchRes.data.tunes && searchRes.data.tunes.length > 0 && searchRes.data.tunes[0].id) {
             axios.get('https://thesession.org/tunes/' + searchRes.data.tunes[0].id+'?format=json&perpage=50').then(function(res) {
-              //console.log('TUNE',res)
               if (res.data) {
                 var tune = res.data
                 if (Array.isArray(tune.settings) && tune.settings.length > 0) {
@@ -102,15 +93,12 @@ function ImportListModal(props) {
                     found.voices = {'1': {meta:'', notes: tune.settings[0].abc.split("\n")}}
                   }
                   var hash = props.tunebook.abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash(found.notes.join("\n"))
-                  //console.log("tryhash",hash,tunesHash.hashes[hash]   )
                   if (props.tunesHash && props.tunesHash.hashes && props.tunesHash.hashes[hash]) {
-                    //console.log('dup ',found)
                     errorHistory.push('Duplicate tune '+songTitle)
                     setErrorHistory(errorHistory)
                     props.forceRefresh()
                     nextImportItem()
                   } else {
-                    //console.log('imported ',found) 
                     props.tunebook.saveTune(found)
                     tunes.push(found)
                     setTunes(tunes)
@@ -150,14 +138,12 @@ function ImportListModal(props) {
   }
   
   function onFinished() {
-    //console.log('DONE')
     setStarted(false)
     setList('')
     props.forceRefresh()
   }
   
   //function importCallback(cbData) {
-    //console.log('IIIIICCCC',cbData)
       //if (cbData && cbData.error) {
         //errors.push(cbData.error)
         //setErrors(errors)
@@ -184,13 +170,11 @@ function ImportListModal(props) {
   //}
      
   function fileSelected (event) {
-      //console.log('FILESel',event,event.target.files[0]);
       
       //const fileList = event.target.files;
       function readFile(file){
           var reader = new FileReader();
           reader.onloadend = function(){
-            //console.log("read"+reader.result )
             if (reader.result.trim().length > 0) {
               setList(reader.result)
               //importListFrom(reader.result)

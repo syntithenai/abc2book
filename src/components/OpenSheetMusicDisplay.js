@@ -10,9 +10,7 @@ class OpenSheetMusicDisplay extends Component {
     }
   
     setupOsmd() {
-		//console.log(this.props	)
       //var config = typeof this.props.config === 'object' ? this.props.config : {}
-      //console.log(config)
       var options = {}
       options = Object.assign(options,{
         autoResize: this.props.autoResize !== undefined ? this.props.autoResize : true,
@@ -20,7 +18,6 @@ class OpenSheetMusicDisplay extends Component {
       })
       //options = Object.assign(options,config)
       //if (this.divRef.current && this.props.width && this.props.width.trim().length > 0) this.divRef.current.style.width = this.props.width
-      //console.log(this.divRef.current.style.width)
       this.osmd = new OSMD(this.divRef.current, options);
       //this.osmd.load(this.props.file).then(() => this.osmd.render());
     }

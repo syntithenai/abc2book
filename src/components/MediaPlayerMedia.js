@@ -9,7 +9,6 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
     const location = useLocation()
     const playState = routePlayState != null ? routePlayState : params.playState
     const mediaLinkNumberParam = routeMediaLinkNumber != null ? routeMediaLinkNumber : params.mediaLinkNumber
-    //console.log("MediaPlayerMedia")
     const isFirefox = false; //typeof InstallTrigger !== 'undefined';
                     
     
@@ -375,24 +374,20 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         //{content}
     //</div>
 //if (params.playState == "playMedia") {
-            ////console.log("MPLAYER TUNE playMedia")
             //if (!checkAudioContext()) {
                 //setTapToPlay(true)
             //} else {
                 //// cleanup
                 ////if (mediaController.abcSynthRef.current) mediaController.abcSynthRef.current.stop()
                 //////mediaController.abcSynthRef = null
-                ////console.log(mediaController.playerRef.current)
                 ////if (mediaController.playerRef.current) mediaController.playerRef.current.stop()
                 ////mediaController.playerRef = null
                 //if (tunebook.hasLinks(tune)) {
-                    ////console.log("play media")
                     //mediaController.setTune(tune)
                     ////mediaController.setSourceFromTune(tune,useMediaLinkNumber)
                     //mediaController.setMediaLinkNumber(useMediaLinkNumber)
                     //setSrc(mediaController.getSrc(tune, useMediaLinkNumber))
                     //mediaController.setCurrentTime(0)
-                    ////console.log("should start play media", !playCancelled)
                     ////if (!playCancelled) mediaController.setIsPlaying(true) 
                     //if (!playCancelled) mediaController.play(useMediaLinkNumber, tune)
                 //} else if (tunebook.hasNotesOrChords(tune)) {

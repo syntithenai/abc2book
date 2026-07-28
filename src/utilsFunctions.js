@@ -30,30 +30,23 @@ export default function utilsFunctions(props) {
         var keyLetter = (chord && chord.length > 0 && chord[0].toUpperCase)  ? chord[0].toUpperCase() : ''
         if (!keyLetter) return ''
         var modifierLetter =(chord.length > 1 && (chord[1] === 'b' || chord[1] === '#')) ? chord[1] : ''
-        //console.log('km',keyLetter,modifierLetter, key, showFlats(key))
         if (showFlats(key)) {
-            //console.log('showfloat')
             if (modifierLetter == '#') {
                 var letterIndex = letters.indexOf(keyLetter)
                 if (letterIndex !== -1) { 
                     var useLetterIndex = letterIndex + 1
                     if (useLetterIndex >= letters.length) useLetterIndex = useLetterIndex - letters.length
-                    //console.log('km2',letters.length, letterIndex, (letterIndex + 1)%letters.length, useLetterIndex)
                     keyLetter = letters[useLetterIndex]
-                    //console.log('km2t',keyLetter, letters.length, letterIndex, (letterIndex + 1)%letters.length)
                     modifierLetter = "b"
                 }
             }
         } else {
-            //console.log('showsharp')
             if (modifierLetter == 'b') {
                 var letterIndex = letters.indexOf(keyLetter)
                 if (letterIndex !== -1) { 
                     var useLetterIndex = letterIndex - 1
                     if (useLetterIndex < 0) useLetterIndex = useLetterIndex + letters.length
-                    //console.log('km3',letters.length, letterIndex, (letterIndex + 1)%letters.length, useLetterIndex)
                     keyLetter = letters[useLetterIndex]
-                    //console.log('km3t',keyLetter, letters.length, letterIndex, (letterIndex + 1)%letters.length)
                     modifierLetter = "#"
                 }
             }
@@ -174,12 +167,10 @@ export default function utilsFunctions(props) {
      */    
     function scrollTo(id, offset) {
 		var element = document.getElementById(id);
-        //console.log('scrollto ',id,offset, element)
         if (element) {
           var headerOffset = offset ? offset : 10;
           var elementPosition = element.offsetTop;
           var offsetPosition = elementPosition - headerOffset;
-          //console.log('DO scrollto ',offsetPosition)
           setTimeout(function() {
 			document.documentElement.scrollTop = offsetPosition;
 			document.body.scrollTop = offsetPosition; // For Safari
@@ -271,7 +262,6 @@ export default function utilsFunctions(props) {
         cb.writeText(text).then(function() {
             alert('Copied!')
         }).catch(function(e) {	
-            console.log(e)
         });
     }  
 
@@ -301,14 +291,12 @@ export default function utilsFunctions(props) {
       return store.clear().then(function() {
           scheduleMediaCacheStorageCheck(0);
       }).catch(function(err) {
-          console.log(err);
           throw err;
       });
     }
 
     function clearMidiCacheForTunes(tuneIds) {
       return clearMidiCacheForTuneIds(tuneIds).catch(function(err) {
-          console.log(err);
           throw err;
       });
     }
@@ -318,7 +306,6 @@ export default function utilsFunctions(props) {
      */
     function clearDownloadedAudioCache(lockedTuneIds) {
       return clearExternalMediaCache(lockedTuneIds).catch(function(err) {
-          console.log(err);
           throw err;
       });
     }
@@ -329,7 +316,6 @@ export default function utilsFunctions(props) {
     function cleanupHalfDownloadedAudioCache(lockedTuneIds) {
       const options = lockedTuneIds ? { lockedTuneIds: lockedTuneIds } : null;
       return cleanupHalfAudioCache(options).catch(function(err) {
-          console.log(err);
           throw err;
       });
     }
@@ -339,28 +325,24 @@ export default function utilsFunctions(props) {
      */
     function clearStemsCache(lockedTuneIds) {
       return clearStemCache(lockedTuneIds).catch(function(err) {
-          console.log(err);
           throw err;
       });
     }
 
     function clearDownloadedAudioCacheForTunes(tuneIds, options) {
       return clearAudioCacheForTuneIds(tuneIds, options).catch(function(err) {
-          console.log(err);
           throw err;
       });
     }
 
     function clearStemsCacheForTunes(tuneIds, options) {
       return clearStemCacheForTunes(tuneIds, options).catch(function(err) {
-          console.log(err);
           throw err;
       });
     }
 
     function clearAudioAndStemsCacheForTunes(tuneIds, options) {
       return clearAudioAndStemCacheForTuneIds(tuneIds, options).catch(function(err) {
-          console.log(err);
           throw err;
       });
     }
@@ -444,7 +426,6 @@ export default function utilsFunctions(props) {
 			}
 			return new Blob([new Uint8Array(array)], {type: mime});
 		} catch (e) {
-			console.log(e)
 			return new Blob([], {type: mime});
 		}
 		
@@ -507,13 +488,10 @@ export default function utilsFunctions(props) {
 	}
 	
 	function readFileAsArrayBuffer(f) {
-		//console.log('readfile2blb s',f)
 		return new Promise(function(resolve,reject) {
 			function readFile(file){
-				//console.log('readfile2blb',file)
 				var reader = new FileReader();
 				reader.onloadend = function(){
-					//console.log('readfile2blb loaded',reader.result)
 					// skip empty files
 					if (reader.result) {
 					  resolve(reader.result)
@@ -528,13 +506,10 @@ export default function utilsFunctions(props) {
 	}
     
 	function readFileAsText(f) {
-		//console.log('readfile2blb s',f)
 		return new Promise(function(resolve,reject) {
 			function readFile(file){
-				//console.log('readfile2blb',file)
 				var reader = new FileReader();
 				reader.onloadend = function(){
-					//console.log('readfile2blb loaded',reader.result)
 					// skip empty files
 					if (reader.result) {
 					  resolve(reader.result)
@@ -552,7 +527,6 @@ export default function utilsFunctions(props) {
 		return entries
 	  //// print all entries and their sizes
 	  //for (const [name, entry] of Object.entries(entries)) {
-		//console.log(name, entry.size);
 	  //}
 
 	  //// read an entry as an ArrayBuffer

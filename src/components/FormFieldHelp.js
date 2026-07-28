@@ -13,9 +13,9 @@ export function FieldHelpModal({ show, title, body, fields, onHide }) {
         <Modal.Title>{title || 'Help'}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        {items.map(function(field) {
+        {items.map(function(field, index) {
           return (
-            <div key={field.title} style={{ marginBottom: '1em' }}>
+            <div key={(field.title || 'help') + '-' + index} style={{ marginBottom: '1em' }}>
               <strong>{field.title}</strong>
               <div style={{ marginTop: '0.25em' }}>{field.body}</div>
             </div>

@@ -917,7 +917,6 @@ export default function useTuneBookMediaController(props) {
     }
 
     function cleanupTimers() {
-        //console.log('CLEANUP TIMERS')
         clearInterval(youtubeProgressInterval.current)
         youtubeProgressInterval.current = null
         clearInterval(progressIntervalRef.current)
@@ -2028,7 +2027,6 @@ export default function useTuneBookMediaController(props) {
                 play: playingNow,
             })
         } catch (e) {
-            console.log('Native filtered playback failed', e)
             destroyNativeFilteredPlayback()
             return false
         } finally {
@@ -3990,7 +3988,6 @@ export default function useTuneBookMediaController(props) {
                 { allowNetworkSeparation: false }
             ).then(finalize)
         }).catch(function(e) {
-            console.log('External media settings failed', e)
             finishPitchShiftPrepareRef.current()
             if (pitchShiftIsActive(settings.pitch, settings.fineTune) && hasActivePlaybackIntent()) {
                 handleFailedPitchHandoff(settings, srcType, opts.resumeAt)
@@ -4186,7 +4183,6 @@ export default function useTuneBookMediaController(props) {
 
                 return true
             } catch (e) {
-                console.log('External pitch/tempo load failed, using native playback', e)
                 finishPitchShiftPrepareRef.current()
                 if (processor) {
                     processor.destroy()
@@ -4295,7 +4291,6 @@ export default function useTuneBookMediaController(props) {
             confirmPlayingStarted()
             return true
         } catch (e) {
-            console.log('External pitch/tempo play failed', e)
             unmuteNativePlayers()
             if (playingIntentRef.current) {
                 setTapToPlay(true)
@@ -4417,23 +4412,18 @@ export default function useTuneBookMediaController(props) {
         if (tune) {
             if (mediaLinkNumber !== null && parseInt(mediaLinkNumber) != NaN) {
                 if (Array.isArray(tune.links) && tune.links.length > mediaLinkNumber && tune.links[mediaLinkNumber] && tune.links[mediaLinkNumber].link) {
-                    //console.log('GETSRC GOT ',mediaLinkNumber,tune.links[mediaLinkNumber].link)
                     return tune.links[mediaLinkNumber].link
                 } else {
-                    //console.log('GETSRC mediaLinkNumber not available',mediaLinkNumber,tune.links)
                     if (Array.isArray(tune.links) && tune.links.length > 0 && tune.links[0] && tune.links[0].link) {
-                        //console.log('GETSRC fallback ',0,tune.links[0].link)
                         return tune.links[0].link
                     } else {
                         return ''
                     }
                 }
             } else {
-                //console.log('GETSRC mediaLinkNumber not a number',mediaLinkNumber)
                 return ''
             }
         } else {
-            //console.log('GETSRC no tune',mediaLinkNumber)
             return ''
         }
     }
@@ -5057,7 +5047,6 @@ export default function useTuneBookMediaController(props) {
     }
     
     function onError(e) {
-        console.log('ERROR',e)
         if (practiceSessionActiveRef.current && playingIntentRef.current) {
             setTapToPlay(true)
             abortPlayingIntent()
@@ -5568,7 +5557,6 @@ export default function useTuneBookMediaController(props) {
                     })
             } catch (e) {
                 abortPlayingIntent()
-                console.log(e)
             }
         } else if (srcType === 'youtube') {
             const useTune = tuneRef.current || tune
@@ -5609,7 +5597,6 @@ export default function useTuneBookMediaController(props) {
                     ytPlayerRef.current.playVideo()
                     pollConfirmYoutubePlaying()
                 } catch (e) {
-                    console.log("YT play err", e)
                     if (isYoutubeDetachedError(e)) {
                         clearYoutubePlayerRef()
                     }
@@ -5808,7 +5795,6 @@ export default function useTuneBookMediaController(props) {
           // check if the context was successfully created
           return (context.state === 'running') 
         } else {
-          console.log('AudioContext is not supported in this browser.');
           return false
         }
     }

@@ -54,6 +54,21 @@ export default function TuneListRow(props) {
 
   const isNowPlaying = props.nowPlayingTuneId && tune.id === props.nowPlayingTuneId
 
+  const playButtons = (
+    <TuneListPlaybackButtons
+      tune={tune}
+      tunebook={props.tunebook}
+      mediaController={props.mediaController}
+      tunes={props.tunes}
+      nowPlayingQueue={props.nowPlayingQueue}
+      setNowPlayingQueue={props.setNowPlayingQueue}
+      setQueuePlayConfirm={props.setQueuePlayConfirm}
+      nowPlayingTuneId={props.nowPlayingTuneId}
+      className="tune-list-item-play"
+      buttonSize={showRowExtras ? 'lg' : undefined}
+    />
+  )
+
   return (
     <ListGroup.Item
       key={(tune.id || '') + '-' + tk + '-' + (snapshotMatch ? snapshotMatch.page : 'main')}
@@ -95,18 +110,7 @@ export default function TuneListRow(props) {
           {showParentSubtitle ? <div className="small text-muted px-1">in {parentName}</div> : null}
         </div>
         <div className="tune-list-item-meta">
-          <TuneListPlaybackButtons
-            tune={tune}
-            tunebook={props.tunebook}
-            mediaController={props.mediaController}
-            tunes={props.tunes}
-            nowPlayingQueue={props.nowPlayingQueue}
-            setNowPlayingQueue={props.setNowPlayingQueue}
-            setQueuePlayConfirm={props.setQueuePlayConfirm}
-            nowPlayingTuneId={props.nowPlayingTuneId}
-            className="tune-list-item-play"
-            buttonSize={showRowExtras ? 'lg' : undefined}
-          />
+          {isCompact ? playButtons : null}
           {showRowExtras ? (
             <>
               <span className="tune-list-item-icons">
@@ -138,6 +142,7 @@ export default function TuneListRow(props) {
             />
           ) : null}
           {isCompact && filterChips ? <div className="tune-list-item-filter-chips tune-list-item-filter-chips--inline">{filterChips}</div> : null}
+          {!isCompact ? playButtons : null}
         </div>
         {!isCompact && filterChips ? <div className="tune-list-item-filter-chips">{filterChips}</div> : null}
       </div>

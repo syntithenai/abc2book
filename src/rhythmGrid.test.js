@@ -117,15 +117,45 @@ describe('rhythmGrid', function() {
     expect(slot2Hits[0].audioTime).toBeCloseTo(11.0)
   })
 
-  test('ensureScheduleEpoch keeps initial anchor unless tempo changes', function() {
+  test('ensureScheduleEpoch keeps initial anchor when drift is small', function() {
+    const state = createPlayingScheduleState()
+    ensureScheduleEpoch(state, 0, 10, 120)
+    ensureScheduleEpoch(state, 2, 12.02, 120)
+    expect(state.epochMusicSeconds).toBe(0)
+    expect(state.epochAudioTime).toBe(10)
+  })
+
+  test('ensureScheduleEpoch reanchors when drift exceeds threshold or tempo changes', function() {
     const state = createPlayingScheduleState()
     ensureScheduleEpoch(state, 0, 10, 120)
     ensureScheduleEpoch(state, 2, 12.5, 120)
-    expect(state.epochMusicSeconds).toBe(0)
-    expect(state.epochAudioTime).toBe(10)
-    ensureScheduleEpoch(state, 2, 12.5, 100)
     expect(state.epochMusicSeconds).toBe(2)
     expect(state.epochAudioTime).toBe(12.5)
+    ensureScheduleEpoch(state, 3, 13.5, 100)
+    expect(state.epochMusicSeconds).toBe(3)
+    expect(state.epochAudioTime).toBe(13.5)
     expect(state.tempo).toBe(100)
+  })
+
+  test('schedulePlayingSlots with one-beat pickup accents the true downbeat', function() {
+    const rhythm34 = rhythmFromPreset('3-4')
+    const state = createPlayingScheduleState()
+    const hits = []
+    schedulePlayingSlots(state, {
+      rhythm: rhythm34,
+      tempo: 120,
+      musicSeconds: 0,
+      musicStartSlot: -1,
+      audioContextTime: 50,
+      playSlot: function(audioTime, slotInBar, globalSlot) {
+        hits.push({ audioTime: audioTime, slotInBar: slotInBar, globalSlot: globalSlot })
+      },
+    })
+    expect(hits[0].globalSlot).toBe(-1)
+    expect(hits[0].slotInBar).toBe(2)
+    expect(hits[0].audioTime).toBeCloseTo(50)
+    expect(hits[1].globalSlot).toBe(0)
+    expect(hits[1].slotInBar).toBe(0)
+    expect(hits[1].audioTime).toBeCloseTo(50.5)
   })
 })

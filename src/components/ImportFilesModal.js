@@ -24,7 +24,6 @@ function ImportFilesModal(props) {
   var [selectNameOptions, setSelectNameOptions] = useState([])
   
   useEffect(function() {
-	//console.log('tunes or list change',props.tunes)
 		if (props.tunes && list) {
 		  var nameHash = {}
 		  Object.values(props.tunes).map(function(tune) {
@@ -43,7 +42,6 @@ function ImportFilesModal(props) {
 		  Object.keys(nameHash).sort().forEach(function(type, key) {
 			  options.push({value:'tune_'+nameHash[type], label: type})
 		  })
-		  //console.log('tunes or list change end',nameHash, options)
 		}
 	  //['aa','bb'].map(function(type,key) {
 									//return {value:type, label: type}
@@ -52,14 +50,12 @@ function ImportFilesModal(props) {
   },[list,props.tunes])
  
 	function saveImportFiles() {
-		//console.log('save',props.currentTuneBook, list)
 		
 		// collate file updates by id (or name for newTunes)
 		var changedTunes = {}
 		var newTunes = {}
 		
 		list.forEach(function(listItem) {
-			//console.log('process item', listItem)
 			if (listItem && listItem.tuneId) { 
 				// update existing tune
 				var tuneId = listItem.tuneId
@@ -69,7 +65,6 @@ function ImportFilesModal(props) {
 					tune.files.push({name: listItem.name, type:listItem.type, data: listItem.data})
 					tune.books.push(props.currentTuneBook)
 					tune.books = utils.uniquifyArray(tune.books)
-					//console.log('attach file to tune', tune)
 					changedTunes[tuneId] = tune
 				} else {
 					console.log('invalid tune id', tuneId, props.tunes)
@@ -83,11 +78,9 @@ function ImportFilesModal(props) {
 					tune.files = Array.isArray(tune.files) ? tune.files : []
 					tune.files.push({name: listItem.name, type:listItem.type, data: listItem.data})
 					tune.books = [props.currentTuneBook]
-					//console.log('new update', tune, 'b',props.currentTuneBook,'BB')
 					
 				} else {
 					tune = {name: listItem.name ? listItem.name : '', books:[props.currentTuneBook], files:[{name:listItem.name, data: listItem.data,type: listItem.type}]} 
-					//console.log('new new', tune, 'b',props.currentTuneBook,'BB')
 					
 				}
 				newTunes[tk] = tune
@@ -95,7 +88,6 @@ function ImportFilesModal(props) {
 				
 				//
 		})
-		//console.log('COLLATED CHANGES',changedTunes, newTunes)
 		// save updated tunes
 		Object.values(changedTunes).forEach(function(tune) {
 			props.tunebook.saveTune(tune)
@@ -114,18 +106,15 @@ function ImportFilesModal(props) {
 		if (val.value && val.value.startsWith('tune_')) {
 			var parts = val.value.split('_')
 			if (parts.length > 1 && parts[1].length > 0) {
-				//console.log('setfrom tune id',newList[itemKey].tuneId)
 				newList[itemKey].tuneId = parts[1]
 			}
 		} else if (val.value && val.value.startsWith('list_')) {
 			// check if referenced list has a proper tuneId
 			var lkParts = val.value.split('_')
 			var lkKey = lkParts.length > 1 ? lkParts[1] : null
-			//console.log('link parts',val,  lkKey, lkParts)
 			// yay found in list with tuneId
 			if (lkKey && list[lkKey] && list[lkKey].tuneId) {
 				var useTuneId = list[lkKey].tuneId
-				//console.log('attach file to tune linked', useTuneId,props.tunes[useTuneId])
 				//var tune = changedTunes[useTuneId] ? changedTunes[useTuneId] : props.tunes[useTuneId]
 				newList[itemKey].tuneId = props.tunes[useTuneId].id
 			} else {
@@ -140,22 +129,17 @@ function ImportFilesModal(props) {
 	}
 	
 	function deleteListItem(itemKey) {
-		//console.log('delete')
 		var nl = JSON.parse(JSON.stringify(list))
 		nl.splice(itemKey,1); 
-		//console.log('deleted ', list, nl)
 		setList(nl)
 	}
      
 	function fileSelected (event) {
 		var validFiles = Array.isArray(list) ? list : []
-		//console.log ('FILESel',event,event.target.files, validFiles);
-		//console.log ('TUNESW',props.tunes)
 		var promises = []
 		setMessage('Thinking')
 			
 		Object.values(event.target.files).forEach(function(file) {
-			//console.log(file)
 			if (file && ((file.type.startsWith('image/') && file.type !== 'image/svg+xml') || file.type==='application/pdf')) {
 				var tags = []
 				if (file.webkitRelativePath) {
@@ -175,9 +159,7 @@ function ImportFilesModal(props) {
 			}
 			
 		})
-		//console.log('set list',validFiles)
 		Promise.all(promises).then(function(res) {
-			//console.log('alol promises',res)
 			var final = res.map(function(fileData) {
 				if (Array.isArray(fileData) && fileData.length === 2) {
 					validFiles[fileData[1]].data = fileData[0]
@@ -193,7 +175,6 @@ function ImportFilesModal(props) {
 		return new Promise(function(resolve,reject) {
 			var reader = new FileReader();
 			reader.onloadend = function(){
-				//console.log("read"+reader.result.length , fileIndex)
 				resolve([reader.result, fileIndex])
 			}
 			if(file){
@@ -212,8 +193,6 @@ function ImportFilesModal(props) {
 			nl[itemKey] = nl[itemKey + 1]
 			nl[itemKey + 1] = tmp
 		}
-		//console.log('moved down ',itemKey, JSON.stringify(list.map(function(i) {return i ? i.name : null})))
-		//console.log('moved down TO ', JSON.stringify(nl.map(function(i) {return i ? i.name : null})) )
 		setList(nl)
 		setTimeout(function() {
 			setMessage(null)
@@ -228,8 +207,6 @@ function ImportFilesModal(props) {
 			nl[itemKey] = nl[itemKey - 1]
 			nl[itemKey - 1] = tmp
 		}
-		//console.log('moved up ',itemKey, JSON.stringify(list.map(function(i) {return i ? i.name : null})))
-		//console.log('moved up TO ',JSON.stringify(nl.map(function(i) {return i ? i.name : null})) )
 		setList(nl)
 		setTimeout(function() {
 			setMessage(null)
@@ -237,7 +214,6 @@ function ImportFilesModal(props) {
   } 
  
 	function rotateImage(inputBase64, toward='right') {
-		//console.log('ROTATE',toward,inputBase64)
 		return new Promise(function(resolve,reject) {
 		  
 		  if (!inputBase64) {
@@ -266,19 +242,16 @@ function ImportFilesModal(props) {
 
 			// Convert the rotated image to base64
 			const rotatedBase64 = canvas.toDataURL('image/png') //.split(',')[1];
-			//console.log('ROTATED')
 			resolve(rotatedBase64)
 		  };
 		})
 	}
   
   	function rotateLeft(itemKey) {
-		//console.log('rotate left')
 		var nl = JSON.parse(JSON.stringify(list))
 		if (nl[itemKey] && nl[itemKey].data) {
 			rotateImage(nl[itemKey].data,'left').then(function(res) {
 				nl[itemKey].data = res
-				//console.log('rotated ', list, nl)
 				setList(nl)
 			})
 		}
@@ -286,7 +259,6 @@ function ImportFilesModal(props) {
 	}
     
     function rotateRight(itemKey) {
-		//console.log('rotacte right')
 		var nl = JSON.parse(JSON.stringify(list))
 		if (nl[itemKey] && nl[itemKey].data) {
 			rotateImage(nl[itemKey].data).then(function(res) {
@@ -369,7 +341,6 @@ function ImportFilesModal(props) {
 									var newList = JSON.parse(JSON.stringify(list))
 									var newTags = Array.isArray(newList[itemKey].tags) ? newList[itemKey].tags : []
 									newTags.splice(tagKey)
-									//console.log(tagKey)
 									//newList[itemKey].name = val.label
 									//if (val.value && val.value.startsWith('tune_')) {
 										//newList[itemKey].tuneId = val.value
@@ -427,7 +398,6 @@ export default ImportFilesModal
 
 //{list.length} tune{list.length> 1 ? 's' : ''}
 //var tuneId = listKeyParts.length > 1 ? listKeyParts[1] : null
-				//console.log('process list', listType, "ID", tuneId)
 				//// linked to tune
 				//if (listType === 'tune' && tuneId && props.tunes[tuneId]) {
 					//// save file to tune and ensure book
@@ -436,29 +406,23 @@ export default ImportFilesModal
 					//tune.files.push({name: listItem.name, type:listItem.type, data: listItem.data})
 					//tune.books.push(props.currentTuneBook)
 					//tune.books = utils.uniquifyArray(tune.books)
-					//console.log('attach file to tune', tune)
 					//changedTunes[tuneId] = tune
 				//// linked to list item	
 				//} else if (listType === 'list' && tuneId && list[tuneId] && list[tuneId].tuneId) { // && list[tuneId].tuneId && props.tunes[list[tuneId].tuneId]) { 
 					//var lkParts = list[tuneId].tuneId.split('_')
 					//var lkTuneId = lkParts.length > 1 ? lkParts[1] : null
-					//console.log('link parts', lkParts)
 					//if (lkTuneId && props.tunes[lkTuneId]) {
-						//console.log('attach file to tune linked', list[tuneId], list[tuneId].tuneId ,props.tunes[list[tuneId].tuneId])
 						//var tune =  props.tunes[list[tuneId].tuneId]
 						//if (tune) {
 							//tune.files = Array.isArray(tune.files) ? tune.files : []
 							//tune.files.push({name: listItem.name, type:listItem.type, data: listItem.data})
 							//tune.books.push(props.currentTuneBook)
 							//tune.books = utils.uniquifyArray(tune.books)
-							//console.log('attach file to tune linked', tune)
 						//}
 						////changedTunes[list[tuneId].tuneId] = tune
 					//} else {
-						//console.log('invalid list link')
 					//}
 				//} else {
-					//console.log('invalid link')
 				//}
 			//// not linked
 			//} else {
@@ -469,11 +433,9 @@ export default ImportFilesModal
 					//tune = newTunes[tk]
 					//tune.files = Array.isArray(tune.files) ? tune.files : []
 					//tune.files.push({name: listItem.name, type:listItem.type, data: listItem.data})
-					//console.log('new update', tune)
 					
 				//} else {
 					//tune = {name: listItem.name ? listItem.name : '', files:[{name:listItem.name, data: listItem.data,type: listItem.type, books:[props.currentTuneBook]}]} 
-					//console.log('new new', tune)
 					
 				//}
 				//newTunes[tk] = tune
@@ -484,10 +446,7 @@ export default ImportFilesModal
 			
   
   //function doImport(list) {
-    //console.log('import',list)
-      ////console.log("gotres",res.data.length)
           //var results = props.tunebook.importAbc(list,props.currentTuneBook)
-      //console.log("gotreeees",results,props.tunebook.showImportWarning(results))
       //if (!props.tunebook.showImportWarning(results)) {
           //props.tunebook.applyImportData(results).then(function() {
               ////setTimeout(function() {

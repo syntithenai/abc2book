@@ -54,7 +54,6 @@ export default function PlayWithQueueDropdown({
       as={ButtonGroup}
       className={groupClass}
       onClick={handleContainerClick}
-      popperConfig={{ strategy: 'fixed' }}
     >
       <Button
         variant={playButtonVariant}
@@ -77,7 +76,11 @@ export default function PlayWithQueueDropdown({
         aria-label="Queue options"
         disabled={disabled}
       />
-      <Dropdown.Menu align="end">
+      <Dropdown.Menu
+        align="end"
+        className="play-with-queue-dropdown-menu"
+        popperConfig={{ strategy: 'fixed' }}
+      >
         {onAddToQueue ? (
           <Dropdown.Item onClick={onAddToQueue}>{addToQueueLabel}</Dropdown.Item>
         ) : null}

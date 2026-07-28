@@ -9,7 +9,9 @@ import {
   queryCatalogRows,
   getCatalogCount,
   buildCatalogRowFromTune,
+  deleteTuneFromCatalog,
 } from './tuneCatalogStore'
+import { removeFromTextSearchIndex } from './tuneTextSearchIndex'
 import { BODY_LRU_CACHE_SIZE } from './tuneScaleConstants'
 
 let monolithTunesRef = {}
@@ -44,6 +46,15 @@ export function invalidateBodyCache(tuneId) {
     bodyCache.clear()
     bodyCacheOrder = []
   }
+}
+
+/** Remove a tune from catalog bodies, text search, and the in-memory body cache. */
+export async function purgeTuneFromSecondaryStores(tuneId) {
+  if (tuneId == null) return
+  const id = String(tuneId)
+  invalidateBodyCache(id)
+  await deleteTuneFromCatalog(id)
+  await removeFromTextSearchIndex(id)
 }
 
 export async function getTune(tuneId) {

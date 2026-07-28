@@ -1013,7 +1013,6 @@ MIDIFile.prototype.addSlide = function (event, song) {
 			 && track.notes[i].when < event.playTime / 1000) {
 			//if (Math.abs(track.notes[i].shift) < Math.abs(event.param2 - 64) / 6) {
 			//track.notes[i].shift = (event.param2 - 64) / 6;
-			//console.log(event.param2-64);
 			//}
 			track.notes[i].slides.push({
 				//pitch: track.notes[i].pitch + (event.param2 - 64) / 6,
@@ -1065,9 +1064,7 @@ MIDIFile.prototype.parseSong = function () {
 		beats: []
 	};
 	var events = this.getMidiEvents();
-	//console.log(events);
 	for (var i = 0; i < events.length; i++) {
-		//console.log('		next',events[i]);
 		if (song.duration < events[i].playTime / 1000) {
 			song.duration = events[i].playTime / 1000;
 		}
@@ -1080,7 +1077,6 @@ MIDIFile.prototype.parseSong = function () {
 				}
 			} else {
 				if (events[i].param1 >= 0 && events[i].param1 <= 127) {
-					//console.log('start', events[i].param1);
 					this.startNote(events[i], song);
 				} else {
 					console.log('wrong tone', events[i]);
@@ -1090,7 +1086,6 @@ MIDIFile.prototype.parseSong = function () {
 			if (events[i].subtype == MIDIEvents.EVENT_MIDI_NOTE_OFF) {
 				if (events[i].channel != 9) {
 					this.closeNote(events[i], song);
-					//console.log('close', events[i].param1);
 				}
 			} else {
 				if (events[i].subtype == MIDIEvents.EVENT_MIDI_PROGRAM_CHANGE) {
@@ -1106,14 +1101,11 @@ MIDIFile.prototype.parseSong = function () {
 							if (events[i].channel != 9) {
 								var track = this.takeTrack(events[i].channel, song);
 								track.volume = events[i].param2/127||0.000001;
-								//console.log('volume', track.volume,'for',events[i].channel);
 							}
 						} else {
-							//console.log('controller', events[i]);
 						}
 					} else {
 						if (events[i].subtype == MIDIEvents.EVENT_MIDI_PITCH_BEND) {
-							//console.log('	bend', events[i].channel, events[i].param1, events[i].param2);
 							this.addSlide(events[i], song);
 						} else {
 							console.log('unknown', events[i].channel, events[i]);
@@ -1241,16 +1233,12 @@ MIDIFile.prototype.getLyrics = function () {
 			// Ignore special texts
 			if ('@' === String.fromCharCode(event.data[0])) {
 				if ('T' === String.fromCharCode(event.data[1])) {
-					// console.log('Title : ' + event.text.substring(2));
 				} else if ('I' === String.fromCharCode(event.data[1])) {
-					// console.log('Info : ' + event.text.substring(2));
 				} else if ('L' === String.fromCharCode(event.data[1])) {
-					// console.log('Lang : ' + event.text.substring(2));
 				}
 				// karaoke text follows, remove all previous text
 			} else if (0 === String.fromCharCode.apply(String, event.data).indexOf('words')) {
 				texts.length = 0;
-				// console.log('Word marker found');
 				// Karaoke texts
 				// If playtime is greater than 0
 			} else if (0 !== event.playTime) {

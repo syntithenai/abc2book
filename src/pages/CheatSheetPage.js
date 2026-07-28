@@ -9,7 +9,6 @@ import { useDocumentTitle } from '../pageTitle'
 
 export default function CheatSheetPage(props) {
     useDocumentTitle('Cheat sheet')
-    //console.log(props)
     var params = useParams()
     var navigate = useNavigate()
     //var [refs , setRefs] = useState([])

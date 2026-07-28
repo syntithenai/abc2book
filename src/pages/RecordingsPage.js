@@ -38,12 +38,10 @@ export default function RecordingsPage(props) {
 		//recordingStartedAt.current = new Date().getTime()
 		//setRecordingDuration(0)
 		//recordingInterval = setInterval(function() {
-			////console.log( recordingStartedAt, new Date().getTime())
 			//setRecordingDuration(parseInt((new Date().getTime() - recordingStartedAt.current)/1000))
 		//},1000)
 		//audioUtils.startRecording().then(function(data) {
 			//clearInterval(recordingInterval)
-			//console.log('captured', data)
 			//utils.blobToBase64(data).then(function(b64) {
 				//fileManager.save({id: utils.generateObjectId(), name:'Recording '+new Date().toLocaleString(), data: b64, createdTimestamp : new Date(), updatedTimestamp : new Date(),  type:'audio/wav'}).then(function(file) {
 					//fileManager.addFiles([file])
@@ -145,8 +143,6 @@ export default function RecordingsPage(props) {
 			////var files = tune.files
 			////var fileToDelete = (files.length > lk && files[lk].hasOwnProperty('googleDocumentId')) ? files[lk].googleDocumentId : ''
 			////files.splice(lk,1)
-			////console.log('DELETE',fileToDelete,files)
-			////if (fileToDelete) googleDocument.deleteDocument(fileToDelete).then(function(res) {console.log(res)})
 			
 			////tune.files = files; 
 			////props.tunebook.saveTune(tune); 
@@ -186,10 +182,8 @@ export default function RecordingsPage(props) {
 
 	////function fileInputChanged(e, lk) {
 		////utils.onFileSelectedToBase64(e,function(data) {
-			////console.log(data,e)
 			////var type = e.target.files[0].type
 			////var name = e.target.files[0].name
-			////console.log(type)
 			////if (type.startsWith('image/')) {
 				////var files = props.tune.files
 				////if (!files[lk]) files[lk] = {}
@@ -200,7 +194,6 @@ export default function RecordingsPage(props) {
 				////// TODO create google document and assign id to "data"
 				////googleDocument.findTuneBookFolderInDrive().then(function(folderId) {
 					////if (folderId)  googleDocument.createDocument(name,utils.dataURItoBlob(data, type),'application/vnd.google-apps.document','ABC Tune Book Image',folderId  ).then(function(res) {
-						//////console.log(res)
 						////if (!res.error)files[lk].googleDocumentId = res
 						////var tune = props.tune
 						////tune.files = files; 
@@ -214,7 +207,6 @@ export default function RecordingsPage(props) {
 				////// TODO create google document and assign id to "data"
 				////googleDocument.findTuneBookFolderInDrive().then(function(folderId) {
 					////if (folderId) googleDocument.createDocument(name,utils.dataURItoBlob(data, type),'application/vnd.google-apps.document','ABC Tune Book PDF',folderId ).then(function(res) {
-						//////console.log(res)
 						////files[lk].data = data
 						////files[lk].type = "pdf"
 						////files[lk].name = name
@@ -230,18 +222,14 @@ export default function RecordingsPage(props) {
 			////} else if (name.endsWith('.mxl')) {
 				////var files = props.tune.files
 				////if (!files[lk]) files[lk] = {}
-				////console.log('OCTET')
 				////// TODO create google document and assign id to "data"
 				//////googleDocument.findTuneBookFolderInDrive().then(function(folderId) {
 					////var b = utils.dataURItoBlob(data, type)
 					//////if (folderId) googleDocument.createDocument(name,b,'application/vnd.google-apps.document','ABC Tune Book MusicXML File',folderId ).then(function(res) {
-						////////console.log(res)
 						////////utils.blobToText(b)
 						////utils.unzipBlob(b).then(function(entries) {
-							////console.log(entries)
 							////entries['score.xml'].blob('application/xml').then(function (blob) {
 								////utils.blobToText(blob).then(function(text) {
-									//////console.log(b64)
 									////files[lk].data = text
 									////files[lk].type = "musicxml"
 									////files[lk].name = name

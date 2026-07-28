@@ -76,7 +76,6 @@ export default function useGoogleSheet(props) {
   // save current tunes database online
   function updateSheet(delay=3000) {
     return new Promise(function(resolve,reject) {
-      //console.log('trigger sheet update',delay, googleSheetId.current )
       pausePolling.current = true
       if (googleSheetId.current) { 
         clearTimeout(updateSheetTimer.current)
@@ -111,10 +110,8 @@ export default function useGoogleSheet(props) {
                 practiceLists,
                 deletedPracticeLists
               )
-              //console.log('do sheet update NOWTUNES', nowTunes, abc.split('abcbook-file'))
               docsRef.current.updateDocumentData(googleSheetId.current , abc).then(function() {
                   pausePolling.current = false
-                  //console.log('done sheet update')
               })
               resolve()
             })

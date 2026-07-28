@@ -40,12 +40,10 @@ const VideoPlayerTest = ({playbackRate, setPlaybackRate}) => {
             console.log('HIDE')
             //setShowVid(false)
             //setTimeout(function() {
-                //console.log('NOWSHOW')
                 //setShowVid(true)
             //},1000)
             //if (playerRef.current) {
                 //setLastPlaybackRate(playerRef.current.getPlaybackRate())
-                //console.log("update speed",v, playerRef.current, playerRef.current.getPlaybackRate())
                 //playerRef.current.setPlaybackRate(v)
             //} 
         }}/>

@@ -35,7 +35,6 @@ A/G/ |:  "Am"EA A/B/c/d/| ed cA| "G"BG G/F/G/A/| B2/A/G/ ED| "Am"EA A/G/A/B/| ee
         //MIDI.loadPlugin({
           //instrument: "acoustic_grand_piano", // or the instrument code 1 (aka the default)
           //instruments: [ "acoustic_grand_piano", "acoustic_guitar_nylon" ], // or multiple instruments
-          //onsuccess: function() {console.log('LOADED SOUNDFONTS') }
         //});
     //})
 

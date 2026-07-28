@@ -4,6 +4,12 @@
   flex-shrink: 0;
 }
 
+/* Fixed-strategy menus escape virtualized row clipping. */
+.virtualized-tune-list .play-with-queue-dropdown-menu[data-bs-popper],
+.virtualized-tune-list .play-with-queue-dropdown-menu[style*="position: fixed"] {
+  z-index: 10020;
+}
+
 .play-with-queue-dropdown--compact:not(.tune-list-item-play) .btn {
   min-width: 2rem;
   padding: 0.15rem 0.35rem;

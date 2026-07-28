@@ -4,7 +4,6 @@ import useGoogleDocument from '../useGoogleDocument'
 
 
 export default function ShareAudioModal({tunebook, token, recording, recordingsManager}) {
-  //console.log({tunebook, token,googleDocumentId, tiny, tuneId,currentTuneBook, variant})
   const [show, setShow] = useState(false);
  
   const handleClose = () => setShow(false);
@@ -15,7 +14,6 @@ export default function ShareAudioModal({tunebook, token, recording, recordingsM
   var linkBase = window.location.origin 
   linkBase = 'https://tunebook.net'
   const [link,setLink] = useState(null)
-  //console.log(recording,token)
   if (!recording || !token) return null 
 
   var shared = localStorage.getItem('bookstorage_audio_public_'+recording.id) === "true" ? true : false
@@ -39,10 +37,8 @@ export default function ShareAudioModal({tunebook, token, recording, recordingsM
               
               function doConfirm() {
                 if (recording && recording.googleId) {
-                  //console.log('save easy')
                   finishConfirm()
                 } else {
-                  //console.log('save before share')
                   recordingsManager.saveRecording(recording).then(function(googleRecording) {
                     if (googleRecording && googleRecording.googleId) {
                        finishConfirm()

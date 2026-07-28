@@ -61,7 +61,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 				}
 				return new Blob([new Uint8Array(array)], {type: mime});
 			} catch (e) {
-				console.log(e)
 				return new Blob([], {type: mime});
 			}
 		}
@@ -74,23 +73,19 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 				const getRequest = objectStore.get(doc.id);
 				getRequest.onerror = (event) => {
 				  // Handle errors!
-				  console.log('ERROR GET',event)
 				};
 				getRequest.onsuccess = (event) => {
 				  // Get the old value that we want to update
 				    const data = event.target.result;
-					console.log('SUCCESS GET',event, data)
 					if (data && data.id) {
 						const requestUpdate = objectStore.put(doc, doc.id);
 						requestUpdate.onerror = (event) => {
 							// Do something with the error
-							console.log('ERROR PUT',event, doc)
 						};
 					} else {
 						const requestInsert = objectStore.add(doc);
 						requestInsert.onerror = (event) => {
 							// Do something with the error
-							console.log('ERROR ADD',event, doc)
 						};
 					}
 				}
@@ -105,7 +100,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 				const deleteRequest = objectStore.delete(doc.id);
 				deleteRequest.onerror = (event) => {
 				  // Handle errors!
-				  console.log('ERROR GET',event)
 				};
 			}
 		}
@@ -124,18 +118,14 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 						if (doc.googleId) {
 							// load missing from google
 							if (!doc.data) {
-								console.log('LOAD',doc)
 								gGetBlob(doc.googleId).then(function(docData) {
 									doc.data = docData
 									saveFile(doc).then(function() {
-											console.log('SAVED blob')
 										})
 								})
 							} else {
 								// load out of date from google
-								console.log('OK check dates',doc)
 								gGetMeta(doc.googleId).then(function(meta) {
-									console.log('meta',meta)
 									if (meta) {
 										var localDate = new Date(doc.googleModifedTime)
 										var remoteDate = new Date(meta.modifedTime)
@@ -145,15 +135,12 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 											gGetBlob(doc.googleId).then(function(docData) {
 												doc.data = docData
 												saveFile(doc).then(function() {
-													console.log('SAVED blob')
 												})
 											})
 										}
 									// not found trashed
 									} else {
-										console.log('Delete remotely trashed file locally',doc)
 										deleteFile(doc).then(function() {
-											console.log('deleted local file')
 										})
 									}
 								})
@@ -180,12 +167,10 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 		function findAllDocumentsInFolder(googleFolderId) {
 				return new Promise(function(resolve,reject) {
 					if (!token) resolve(null)
-					console.log('find folder in drive',googleFolderId)
 						var xhr = new XMLHttpRequest();
 						xhr.onload = function (res) {
 							if (res.target.responseText) {
 								var response = JSON.parse(res.target.responseText)
-								console.log('search tunebook folder', googleFolderId, response)
 								var promises = []
 								if (response && response.files) {
 									 response.files.filter(function(d) { return d && d.id }).forEach(function(d) {
@@ -197,9 +182,7 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 									 })
 								}
 								Promise.all(promises).then(function(final) {
-									console.log("final",final)
 								})
-								//console.log(ids)
 								
 							}
 						};
@@ -215,12 +198,10 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 			function findTuneBookFolderInDrive(tuneBookName) {
 				return new Promise(function(resolve,reject) {
 					if (!token) resolve(null)
-					//console.log('find folder in drive')
 						var xhr = new XMLHttpRequest();
 						xhr.onload = function (res) {
 							if (res.target.responseText) {
 								var response = JSON.parse(res.target.responseText)
-								console.log('find tunebook folder',tuneBookName, token, response)
 								var found = false
 								if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
 									// load whole file
@@ -232,7 +213,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 										})
 									}
 								}
-								console.log('FOUND tunebook folder',found)
 								if (found) {
 									resolve(found)
 								} else {
@@ -254,7 +234,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 			return new Promise(function(resolve,reject) {
 				//var useToken = force_token ? force_token : (token ? token.access_token : null)
 				var persistToken = token + ''
-			  console.log('create google doc' ,token, 'T:',title, 'Y:',documentType, 'D:',documentDescription, 'F:',documentFolderId)
 			  //if (documentType && title && useToken) {
 				var  data = {
 				  "description": documentDescription,
@@ -271,7 +250,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 					xhr.onload = function() {
 						if (xhr.status >= 200 && xhr.status < 300) {
 							var newFile = JSON.parse(xhr.response)
-							console.log("AAA",newFile)
 							if (documentData ) {
 								updateDocumentData(persistToken, newFile.id, documentData).then(function(updated) {
 									// Request was successful, send the response data back to the main thread
@@ -331,7 +309,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 			return new Promise(function(resolve,reject) {
 				findTuneBookFolderInDrive(tuneBookName).then(function(tunebookFolderId) {
 						createDocument(doc.name, doc.data, doc.type, doc.tuneId , tunebookFolderId).then(function(newDocId) {
-							console.log('created dome ',newDocId)
 							resolve(newDocId)
 						})
 				})
@@ -395,7 +372,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 		}
 		
 		function gGetMeta(id) {
-			console.log("get meta",id, token)
 			return new Promise(function(resolve,reject) {
 				if (id && token) {
 					var xhr = new XMLHttpRequest();
@@ -408,16 +384,13 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 							// Request was successful, send the response data back to the main thread
 							e.target.postMessage('Get meta request successful');
 							if (xhr.response && !xhr.response.explicitlyTrashed) {
-								console.log("meta success", xhr.response, xhr)
 								resolve(xhr.response)
 							} else {
-								console.log("meta trashed", xhr.response, xhr)
 								resolve()
 							}
 								
 						} else {
 							// Request failed
-							console.log("meta fail")
 							e.target.postMessage('Get meta request failed with status: ' + xhr.status);
 							resolve()
 						}
@@ -425,7 +398,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 					
 					xhr.onerror = function() {
 						// Request failed
-						console.log("meta fail2")
 						e.target.postMessage('Get meta request failed');
 						resolve()
 					};
@@ -435,19 +407,16 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 			})
 		}
 		
-		//console.log("|"+token+"|")
 		if (e.data.startsWith('token=')) {
 			token = e.data.slice(6)
 		} else if (token && token !== 'null' && e.data === 'start' && !isRunning) { // accessToken
 			findTuneBookFolderInDrive(tuneBookName).then(function(tunebookFolderId) {
 				findAllDocumentsInFolder(tunebookFolderId).then(function(googleDocsInFolder) {
-					console.log("Loaded folder docs:", googleDocsInFolder);
 					isRunning = true
 					e.currentTarget.postMessage('running=true');
 					var request = e.target.indexedDB.open("files", 2);
 
 					request.onerror = function(event) {
-						console.log("Error opening database:", event, event.target.errorCode);
 					};
 
 					request.onsuccess = function(event) {
@@ -462,7 +431,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 							var cursor = event.target.result;
 
 							if (cursor) {
-								console.log('CURSOR',cursor)
 								syncDocument(cursor.value)
 								cursor.continue();
 							} else {
@@ -474,7 +442,6 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 						};
 
 						cursorRequest.onerror = function(event) {
-							console.log("Error retrieving data:", event.target.errorCode);
 							isRunning = false
 							e.currentTarget.postMessage('running=false');
 						};
@@ -484,13 +451,11 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 						// If the database hasn't been created yet, create it and define the object store
 						var db = event.target.result;
 						var objectStore = db.createObjectStore("keyvaluepairs", { keyPath: "id" });
-						console.log("Database and object store created.");
 					};
 					
 				})
 			})
 		} else {
-			//console.log(!token ? "Missing token" : (isRunning ? "Already running" : "Invalid request") , isRunning, token, e.data)
 		}
 	}
 	
