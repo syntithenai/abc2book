@@ -94,6 +94,14 @@ local-resolver/whisper/models/
 local-resolver/soundfonts/
 *.bin
 
+# Capacitor / Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.keystore
+!android/keystore.properties.example
+
 # Theory example generator checkpoint (committed output is examples.js)
 src/feedContent/theory/examples.generated.json
 .cursor/debug-90131e.log

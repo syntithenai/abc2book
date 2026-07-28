@@ -19,6 +19,9 @@ import {
 } from '../mediaProxyConfig'
 import { describeResolverAuthReason } from '../mediaProxyClient'
 import { pingYoutubeExtension } from '../youtubeExtensionClient'
+import { pingYoutubeNative } from '../youtubeNativeClient'
+import { isAndroidApp } from '../platformUtils'
+import { openBatteryOptimizationSettings } from '../androidNativePlayback'
 import {
   isYoutubeHelperDisabled,
   setYoutubeHelperDisabled,
@@ -153,6 +156,17 @@ export default function SettingsPage(props) {
     !!(props.user && props.user.email === 'syntithenai@gmail.com')
 
   const refreshYoutubeHelperStatus = useCallback(function() {
+    if (isAndroidApp()) {
+      return pingYoutubeNative({ force: true }).then(function(result) {
+        setYoutubeHelperStatus({
+          checking: false,
+          ok: !!result.ok,
+          version: result.version || null,
+          error: result.error || null,
+          via: result.via || 'native',
+        })
+      })
+    }
     if (isYoutubeHelperDisabled()) {
       setYoutubeHelperStatus({
         checking: false,
@@ -521,15 +535,41 @@ export default function SettingsPage(props) {
 
           <div className="app-surface-panel App-settings-section">
             <h2>
-              TuneBook Helper extension
+              {isAndroidApp() ? 'Built-in YouTube fetch' : 'TuneBook Helper extension'}
               <FormFieldHelp
                 title={SETTINGS_FIELD_HELP.youtubeHelper.title}
                 body={SETTINGS_FIELD_HELP.youtubeHelper.body}
               />
             </h2>
             <p className="app-text-muted">
-              Optional Chromium extension that loads audio in your browser so pitch, filters, and caching work without a resolver.
+              {isAndroidApp()
+                ? 'The Android app downloads YouTube audio on-device so pitch, filters, and caching work without a browser extension or resolver.'
+                : 'Optional Chromium extension that loads audio in your browser so pitch, filters, and caching work without a resolver.'}
             </p>
+            {isAndroidApp() ? (
+              <>
+                <p className="app-text-muted">
+                  {youtubeHelperStatus.checking
+                    ? 'Checking built-in YouTube fetch…'
+                    : youtubeHelperStatus.ok
+                      ? ('Built-in YouTube fetch: ready' +
+                        (youtubeHelperStatus.version ? ' (v' + youtubeHelperStatus.version + ')' : ''))
+                      : 'Built-in YouTube fetch: unavailable'}
+                  {!youtubeHelperStatus.checking && !youtubeHelperStatus.ok && youtubeHelperStatus.error ? (
+                    <span> — {youtubeHelperStatus.error}</span>
+                  ) : null}
+                </p>
+                <div className="App-settings-actions" style={{ marginTop: '0.75rem' }}>
+                  <Button variant="outline-secondary" onClick={refreshYoutubeHelperStatus}>
+                    Refresh status
+                  </Button>
+                  <Button variant="outline-secondary" onClick={openBatteryOptimizationSettings}>
+                    Battery settings
+                  </Button>
+                </div>
+              </>
+            ) : (
+            <>
             <Form.Group className="mb-3">
               <Form.Check
                 type="switch"
@@ -584,6 +624,8 @@ export default function SettingsPage(props) {
               fields={SETTINGS_FIELD_HELP.youtubeHelperInstall.fields}
               onHide={function() { setShowYoutubeHelperInstallHelp(false) }}
             />
+            </>
+            )}
           </div>
 
           <div className="app-surface-panel App-settings-section">

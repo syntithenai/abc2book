@@ -165,6 +165,45 @@ Set `RESEARCH_LLM_MODEL` to the Ollama model name. The overlay points `llm` / `l
 
 Gateway health: `curl -s http://127.0.0.1:12340/health`. If the in-compose `llm` container is down or still loading, requests fall through to LM Studio when it is running on `:1234`.
 
+### Text-to-speech (Kokoro GPU + Piper CPU)
+
+Optional TTS for future screen-free practice announcements (not wired into the SPA yet). A small **gateway** on port **8789** exposes OpenAI-compatible `POST /v1/audio/speech` and auto-selects the best backend:
+
+| Service | Port | Role |
+|---------|------|------|
+| `tts-gateway` (`abc2book-tts-gateway`) | `8789` | Routes to Kokoro when healthy, else Piper |
+| `tts-gpu` (`abc2book-tts-gpu`) | internal `:8880` | Kokoro-82M on AMD ROCm (`profile tts-gpu`) |
+| `tts-cpu` (`abc2book-tts-cpu`) | internal `:5000` | Piper CPU (`en_US-lessac-medium` by default) |
+
+**Start (auto-detects AMD GPU):**
+
+```bash
+cd local-resolver
+chmod +x scripts/tts-up.sh
+./scripts/tts-up.sh
+```
+
+`tts-up.sh` adds the `tts-gpu` profile when `/dev/kfd` and `/dev/dri` exist; otherwise only Piper + gateway start. You can also run manually:
+
+```bash
+docker compose --profile tts up -d --build                     # CPU Piper only
+docker compose --profile tts --profile tts-gpu up -d --build     # AMD GPU + CPU fallback
+```
+
+**Smoke test:**
+
+```bash
+curl -s http://localhost:8789/health | jq .
+curl -X POST http://localhost:8789/v1/audio/speech \
+  -H "Content-Type: application/json" \
+  -d '{"model":"kokoro","input":"Practice session starting.","voice":"af_bella","response_format":"wav"}' \
+  -o /tmp/practice.wav
+```
+
+`/health` reports `activeBackend` (`kokoro` or `piper`). Kokoro voices: `af_bella`, `af_sky`, `am_adam`. Piper voice: set `TTS_PIPER_VOICE` (see [piper samples](https://rhasspy.github.io/piper-samples/)). In-compose URL: `TTS_URL=http://tts-gateway:8789`.
+
+First Kokoro start downloads the model and may take several minutes. MIOpen cache volumes persist kernel tuning. After startup, synthesize a few varied sentences once for low latency on short prompts.
+
 Watch prompts and model reasoning in the llm container logs:
 
 ```bash

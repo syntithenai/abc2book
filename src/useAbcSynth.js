@@ -108,6 +108,7 @@ export default function useAbcSynth(props) {
     const midiPrimeInFlightRef = useRef(false)
     const playbackTimingMapRef = useRef(null)
     const lastPlaybackTimingSampleRef = useRef(null)
+    const audioContextKeepAliveRef = useRef(null)
     const beginMidiPlaybackRef = useRef(null)
     const playMidiBridgeRef = useRef(function(options) {
         midiPlaybackGuardUntilRef.current = 0
@@ -145,9 +146,35 @@ export default function useAbcSynth(props) {
     }
 
     function resumeSynthAudioContext() {
-        if (gaudioContext.current && gaudioContext.current.state === 'suspended') {
-            gaudioContext.current.resume()
+        if (!abcjs.synth || !abcjs.synth.supportsAudio || !abcjs.synth.supportsAudio()) {
+            return null
         }
+        const Ctx = window.AudioContext || window.webkitAudioContext
+            || window.mozAudioContext || window.msAudioContext
+        if (!Ctx) return null
+        let ctx = gaudioContext.current
+        if (!ctx || ctx.state === 'closed') {
+            ctx = new Ctx()
+            gaudioContext.current = ctx
+        }
+        if (ctx.state === 'suspended') {
+            try { ctx.resume() } catch (e) { /* ignore */ }
+        }
+        // Hold the context open through long offline synth renders (10–30s).
+        if (!audioContextKeepAliveRef.current) {
+            try {
+                const buffer = ctx.createBuffer(1, 1, ctx.sampleRate || 44100)
+                const source = ctx.createBufferSource()
+                source.buffer = buffer
+                const gain = ctx.createGain()
+                gain.gain.value = 0
+                source.connect(gain)
+                gain.connect(ctx.destination)
+                source.start(0)
+                audioContextKeepAliveRef.current = { source: source, gain: gain }
+            } catch (e) { /* ignore */ }
+        }
+        return ctx
     }
 
     async function ensureSynthAudioContextRunning() {
@@ -181,11 +208,33 @@ export default function useAbcSynth(props) {
     }
 
     function releaseMidiUiLoading() {
-        midiPrimeInFlightRef.current = false
+        // Only hold the kickoff lock during live synth render, count-in, or handoff.
+        // Keeping it for any active intent leaves a stale lock after cancelled primes.
+        if (!primePromiseRef.current && !countInPendingRef.current && !isRhythmHandoffPhase()) {
+            midiPrimeInFlightRef.current = false
+        }
         isLoading.current = false
         if (props.mediaController && props.mediaController.setIsLoading) {
             props.mediaController.setIsLoading(false)
         }
+    }
+
+    function clearStaleMidiKickoffLock() {
+        if (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase()) {
+            return false
+        }
+        if (midiPrimeInFlightRef.current) {
+            midiPrimeInFlightRef.current = false
+            return true
+        }
+        return false
+    }
+
+    function isMidiKickoffActive() {
+        return midiPrimeInFlightRef.current
+            || countInPendingRef.current
+            || isRhythmHandoffPhase()
+            || !!primePromiseRef.current
     }
 
     function clearForcedPlaybackIntent() {
@@ -681,6 +730,9 @@ export default function useAbcSynth(props) {
             mc.getRhythmDiagnosticsRef.current = getRhythmDiagnostics
         }
         mc.playMidiRef.current = playMidiBridgeRef.current
+        if (mc.clearMidiEngineRegistrationFallback) {
+            mc.clearMidiEngineRegistrationFallback()
+        }
         if (mc.resumeMidiAfterSeekRef) {
             mc.resumeMidiAfterSeekRef.current = resumeMidiAfterSeek
         }
@@ -691,11 +743,12 @@ export default function useAbcSynth(props) {
         if (mc.seekMidiRef) {
             mc.seekMidiRef.current = seekMidiPlayback
         }
-        const pendingMidiPlay = mc.pendingMidiPlayRef && mc.pendingMidiPlayRef.current
-        if (pendingMidiPlay && gvisualObj.current && beginMidiPlaybackRef.current) {
-            mc.pendingMidiPlayRef.current = null
-            beginMidiPlaybackRef.current(pendingMidiPlay)
+        if (mc.isMidiKickoffActiveRef) {
+            mc.isMidiKickoffActiveRef.current = isMidiKickoffActive
         }
+        // #region agent log
+        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H5',location:'useAbcSynth.js:engineRegister',message:'midi engine registered',data:{hasVisualObj:!!gvisualObj.current,hasPending:!!(mc.pendingMidiPlayRef&&mc.pendingMidiPlayRef.current),playbackEngine:props.playbackEngine!==false},timestamp:Date.now()})}).catch(function(){})
+        // #endregion
         return function() {
             if (mc.playMidiRef.current === playMidiBridgeRef.current) {
                 mc.playMidiRef.current = null
@@ -708,10 +761,24 @@ export default function useAbcSynth(props) {
         if (props.playbackEngine === false || !props.mediaController) return undefined
         const mc = props.mediaController
         const pendingMidiPlay = mc.pendingMidiPlayRef && mc.pendingMidiPlayRef.current
-        if (!pendingMidiPlay || !gvisualObj.current || !beginMidiPlaybackRef.current) return undefined
+        if (!pendingMidiPlay || !gvisualObj.current || !beginMidiPlaybackRef.current) {
+            // #region agent log
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H1',location:'useAbcSynth.js:mcAbcEffect',message:'pending play not consumed',data:{hasPending:!!pendingMidiPlay,hasVisualObj:!!gvisualObj.current,hasBeginRef:!!beginMidiPlaybackRef.current,routeMidi:!!(mc.isMidiPlaybackRoute&&mc.isMidiPlaybackRoute()),hasIntent:!!(mc.hasActivePlaybackIntent&&mc.hasActivePlaybackIntent())},timestamp:Date.now()})}).catch(function(){})
+            // #endregion
+            return undefined
+        }
         if (mc.isMidiPlaybackRoute && !mc.isMidiPlaybackRoute()) return undefined
         if (!(mc.hasActivePlaybackIntent && mc.hasActivePlaybackIntent())) return undefined
+        if (isMidiKickoffActive()) {
+            if (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase()) {
+                return undefined
+            }
+            clearStaleMidiKickoffLock()
+        }
         mc.pendingMidiPlayRef.current = null
+        // #region agent log
+        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H1',location:'useAbcSynth.js:mcAbcEffect',message:'consuming pending play',data:{restart:!!pendingMidiPlay.restart,fresh:!!pendingMidiPlay.fresh},timestamp:Date.now()})}).catch(function(){})
+        // #endregion
         beginMidiPlaybackRef.current(pendingMidiPlay)
         return undefined
     }, [props.mediaController, props.playbackEngine, mcAbc])
@@ -1556,8 +1623,12 @@ export default function useAbcSynth(props) {
      }
 
      function notifyPlaybackStarted() {
+        // #region agent log
+        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H3',location:'useAbcSynth.js:notifyPlaybackStarted',message:'playback started',data:{wantsMidi:wantsMidiPlayback()},timestamp:Date.now()})}).catch(function(){})
+        // #endregion
         if (!wantsMidiPlayback()) {
             releaseMidiUiLoading()
+            midiPrimeInFlightRef.current = false
             return
         }
         midiPrimeInFlightRef.current = false
@@ -2113,19 +2184,34 @@ export default function useAbcSynth(props) {
         // beginMidiPlayback, Abc pending-play, and autoPrime createPlayer.
         // Stacking those restarts count-in mid-schedule (3 quick + 3 even).
         if (countInPendingRef.current || isRhythmHandoffPhase()) {
+            // #region agent log
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'countInOrHandoff',force:!!force},timestamp:Date.now()})}).catch(function(){})
+            // #endregion
             return
         }
         if (midiPrimeInFlightRef.current) {
-            return
+            if (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase()) {
+                // #region agent log
+                fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'primeInFlight',force:!!force},timestamp:Date.now()})}).catch(function(){})
+                // #endregion
+                return
+            }
+            midiPrimeInFlightRef.current = false
         }
         if (!force && isSynthSeekGuardActive()) {
             releaseMidiUiLoading()
+            // #region agent log
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'seekGuard',force:!!force},timestamp:Date.now()})}).catch(function(){})
+            // #endregion
             return
         }
         if (!wantsMidiPlayback(force)) {
             if (force) {
                 releaseMidiUiLoading()
             }
+            // #region agent log
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'noWantsMidi',force:!!force},timestamp:Date.now()})}).catch(function(){})
+            // #endregion
             return
         }
         if (force) {
@@ -2138,13 +2224,21 @@ export default function useAbcSynth(props) {
         midiPrimeInFlightRef.current = true
         resumeSynthAudioContext()
         if (gaudioContext.current && gmidiBuffer.current) {
-          midiPrimeInFlightRef.current = false
+          // #region agent log
+          fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H3',location:'useAbcSynth.js:startPlaying',message:'startPrimedTune',data:{force:!!force,bufferDur:gmidiBuffer.current&&gmidiBuffer.current.duration},timestamp:Date.now()})}).catch(function(){})
+          // #endregion
           startPrimedTune(force)
         } else {
+            // #region agent log
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H4',location:'useAbcSynth.js:startPlaying',message:'createPlayer starting',data:{force:!!force,hasVisualObj:!!gvisualObj.current,generation:playbackGenerationRef.current},timestamp:Date.now()})}).catch(function(){})
+            // #endregion
             setStarted(true)
             const loadGeneration = playbackGenerationRef.current
             createPlayer(tune, gvisualObj.current, { showUiLoading: true }).then(function(p) {
                   if (!isPlaybackGenerationCurrent(loadGeneration)) {
+                      // #region agent log
+                      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H4',location:'useAbcSynth.js:createPlayer',message:'prime cancelled stale generation',data:{loadGeneration:loadGeneration,currentGeneration:playbackGenerationRef.current},timestamp:Date.now()})}).catch(function(){})
+                      // #endregion
                       releaseMidiUiLoading()
                       return
                   }
@@ -2152,6 +2246,7 @@ export default function useAbcSynth(props) {
                  if (!midiBuffer) {
                    setReady(false)
                    setStarted(false)
+                   midiPrimeInFlightRef.current = false
                    releaseMidiUiLoading()
                    if (props.mediaController) {
                      if (props.mediaController.setTapToPlay) {
@@ -2183,13 +2278,11 @@ export default function useAbcSynth(props) {
                      || Math.min(1, pendingStartSeconds / midiBuffer.duration)
                    syncPlaybackSeekFromSeconds(pendingStartSeconds, ratio)
                    setPlayCount(0)
-                   midiPrimeInFlightRef.current = false
                    startMidiAndTiming({ forceRatio: ratio, forcePlayback: true })
                    return
                  }
                  setSeekTo(0)
                  setPlayCount(0)
-                 midiPrimeInFlightRef.current = false
                  startPrimedTune(!hasPendingNotationSeek())
             }).catch(function(e) {
               if (e === 'cancelled' || !isPlaybackGenerationCurrent(loadGeneration)) {
@@ -2281,6 +2374,9 @@ export default function useAbcSynth(props) {
 
     function beginMidiPlayback(options) {
         let opts = options || {}
+        // #region agent log
+        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:beginMidiPlayback',message:'entry',data:{restart:!!opts.restart,fresh:!!opts.fresh,resume:!!opts.resume,kickoffActive:isMidiKickoffActive(),primePromise:!!primePromiseRef.current,hasBuffer:!!(gmidiBuffer.current&&gmidiBuffer.current.duration>0)},timestamp:Date.now()})}).catch(function(){})
+        // #endregion
         // Media-controls "Play MIDI" uses fresh:true after reload; treat like
         // From start so count-in is a single clean rewind path.
         if (opts.fresh && !opts.resume && !opts.preservePosition) {
@@ -2371,20 +2467,27 @@ export default function useAbcSynth(props) {
                     || (explicitStartMs != null && explicitStartMs > 0))
                 : (!hasStartPosition && shouldRestartMidiFromStart(opts.restart)))
         if (fromBeginning) {
-            const fromUserGesture = props.mediaController
-                && props.mediaController.userGesturePlayRef
-                && props.mediaController.userGesturePlayRef.current
-            // Never stack a second prime — invalidatePendingMidiStarts bumps
-            // playbackGeneration and the in-flight render exits with no audio.
-            if (midiPrimeInFlightRef.current) {
-                return true
+            if (isMidiKickoffActive()) {
+                if (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase()) {
+                    // #region agent log
+                    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:beginMidiPlayback',message:'kickoff no-op return true',data:{primePromise:!!primePromiseRef.current,countIn:!!countInPendingRef.current,handoff:isRhythmHandoffPhase()},timestamp:Date.now()})}).catch(function(){})
+                    // #endregion
+                    return true
+                }
+                clearStaleMidiKickoffLock()
             }
-            if (!fromUserGesture && (countInPendingRef.current
-                || isRhythmHandoffPhase())) {
+            if (!opts.restart
+                && gaudioContext.current && gmidiBuffer.current && gtimingCallbacks.current
+                && wantsMidiPlayback(true)) {
+                if (props.mediaController && props.mediaController.pendingMidiPlayRef) {
+                    props.mediaController.pendingMidiPlayRef.current = null
+                }
+                pendingPlaybackStartSecondsRef.current = null
+                midiStartHandledRef.current = true
+                setForceStop(false)
+                midiPrimeInFlightRef.current = true
+                startPrimedTune(false)
                 return true
-            }
-            if (fromUserGesture && (countInPendingRef.current || isRhythmHandoffPhase())) {
-                stopMetronome()
             }
             if (props.mediaController && props.mediaController.pendingMidiPlayRef) {
                 props.mediaController.pendingMidiPlayRef.current = null
@@ -3133,29 +3236,36 @@ export default function useAbcSynth(props) {
   function primeAudio() {
       
     return new Promise(function(resolve,reject) {
-        var audioContext = null
-        if (abcjs.synth.supportsAudio()) {
-          window.AudioContext = window.AudioContext ||
-            window.webkitAudioContext ||
-            navigator.mozAudioContext ||
-            navigator.msAudioContext;
-          audioContext = new window.AudioContext();
-          const fromGesture = props.mediaController && props.mediaController.userGesturePlayRef
-              && props.mediaController.userGesturePlayRef.current
-          const fromPracticeGesture = props.consumePlaybackGesture && props.consumePlaybackGesture()
-          if ((fromGesture || fromPracticeGesture) && audioContext.state === 'suspended') {
-              audioContext.resume()
-          }
-            resolve(audioContext)
-        } else {
+        if (!abcjs.synth.supportsAudio()) {
           setTapToPlayFlag(true)
           if (props.mediaController) {
               props.mediaController.setIsLoading(false)
               props.mediaController.setIsPlaying(false)
           }
           reject('No audio available')
+          return
         }
-      //}
+        const existing = gaudioContext.current
+        if (existing && existing.state !== 'closed') {
+            if (existing.state === 'suspended') {
+                try { existing.resume() } catch (e) { /* ignore */ }
+            }
+            resolve(existing)
+            return
+        }
+        window.AudioContext = window.AudioContext ||
+          window.webkitAudioContext ||
+          navigator.mozAudioContext ||
+          navigator.msAudioContext;
+        const audioContext = new window.AudioContext();
+        gaudioContext.current = audioContext
+        const fromGesture = props.mediaController && props.mediaController.userGesturePlayRef
+            && props.mediaController.userGesturePlayRef.current
+        const fromPracticeGesture = props.consumePlaybackGesture && props.consumePlaybackGesture()
+        if ((fromGesture || fromPracticeGesture) && audioContext.state === 'suspended') {
+            audioContext.resume().catch(function() {})
+        }
+        resolve(audioContext)
     })
   } 
 
@@ -3168,6 +3278,7 @@ export default function useAbcSynth(props) {
       //var tempo = tune ? tune.tempo : 100
       const promise = new Promise(function(resolve,reject) {
           isLoading.current = true
+          midiPrimeInFlightRef.current = true
           if (showUiLoading && props.mediaController) props.mediaController.setIsLoading(true)
           // cleanup first — tear down old engines only; do not bump playback
           // generation or we invalidate the prime we are about to start.
@@ -3370,11 +3481,15 @@ export default function useAbcSynth(props) {
       const debounceMs = showUiLoading
           ? 0
           : (props.audioRenderTimeout > 0 ? props.audioRenderTimeout : 1500)
+      const alreadyPrimed = !!(gmidiBuffer.current && gtimingCallbacks.current
+          && gcursor.current && gaudioContext.current)
+      if (!alreadyPrimed) {
+          midiPrimeInFlightRef.current = true
+      }
       return new Promise(function(resolve, reject) {
         if (tune && visualObj) {
-            // already created
-            if (gmidiBuffer.current && gtimingCallbacks.current && gcursor.current && gaudioContext.current) {
-            } 
+            if (alreadyPrimed) {
+            }
             if (true) {
                 primeAudio().then(function(audioContext) {
                     if (audioContext) {

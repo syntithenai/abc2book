@@ -4,6 +4,11 @@ import {
   fetchYoutubeAudioViaExtension,
   isYoutubeExtensionConnected,
 } from './youtubeExtensionClient';
+import {
+  fetchYoutubeAudioViaNative,
+  isYoutubeNativeConnected,
+} from './youtubeNativeClient';
+import { isAndroidApp } from './platformUtils';
 
 const PIPED_INSTANCES = [
   'https://pipedapi.kavin.rocks',
@@ -29,12 +34,28 @@ export async function resolveYoutubeAudioUrl(videoId) {
 }
 
 /**
- * Prefer TuneBook Helper extension, then media resolver /youtube,
+ * Prefer native Android fetch, TuneBook Helper extension, media resolver /youtube,
  * then Piped direct URL (best-effort).
  */
 export async function fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, accessToken) {
   if (srcType === 'youtube' && typeof youtubeGetId === 'function') {
     const videoId = youtubeGetId(src);
+    if (videoId && isAndroidApp() && (await isYoutubeNativeConnected())) {
+      try {
+        const fetched = await fetchYoutubeAudioViaNative(videoId);
+        const audioBuffer = await decodeAudioBytes(fetched.arrayBuffer);
+        return {
+          audioBuffer: audioBuffer,
+          duration: audioBuffer.duration,
+          sourceUrl: 'native',
+          mime: fetched.mime,
+          arrayBuffer: fetched.arrayBuffer,
+          filePath: fetched.filePath,
+        };
+      } catch (nativeError) {
+        console.log(nativeError);
+      }
+    }
     if (videoId && (await isYoutubeExtensionConnected())) {
       try {
         const fetched = await fetchYoutubeAudioViaExtension(videoId);

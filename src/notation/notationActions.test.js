@@ -5,6 +5,10 @@ import {
   insertMidiChordAtCaret,
   insertBarlineAtCaret,
   insertSystemBreakAtCaret,
+  insertKeyChangeAtCaret,
+  insertMeterChangeAtCaret,
+  barStartInsertIndex,
+  updateKeyChangeEvent,
   layoutInsertIndex,
   pasteInsertIndex,
   pitchFromLetter,
@@ -632,5 +636,43 @@ describe('notationActions', function() {
     expect(session.events[0].pitch.abcName).toMatch(/_D/);
     session = respellEnharmonicSelection(session);
     expect(session.events[0].pitch.abcName).toMatch(/\^C/);
+  });
+
+  test('insertKeyChangeAtCaret writes inline [K:…] token', function() {
+    let session = createInitialSession(tuneMeta, 'C D E |');
+    session = Object.assign({}, session, { caretIndex: 2 });
+    session = insertKeyChangeAtCaret(session, 'Am', 2);
+    const abc = serializeVoiceEvents(session.events, tuneMeta);
+    expect(abc).toContain('[K:Am]');
+  });
+
+  test('insertMeterChangeAtCaret snaps to bar start', function() {
+    let session = createInitialSession(tuneMeta, 'C D | E F |');
+    session = Object.assign({}, session, { caretIndex: 3 });
+    expect(barStartInsertIndex(session, 3)).toBe(3);
+    session = insertMeterChangeAtCaret(session, '3/4', 3);
+    const abc = serializeVoiceEvents(session.events, tuneMeta);
+    expect(abc).toContain('[M:3/4]');
+    expect(abc.indexOf('[M:3/4]')).toBeLessThan(abc.indexOf('E'));
+  });
+
+  test('updateKeyChangeEvent edits existing inline key change', function() {
+    let session = createInitialSession(tuneMeta, '| [K:G] C D |');
+    const keyEv = session.events.find(function(ev) { return ev.type === 'keyChange'; });
+    expect(keyEv).toBeTruthy();
+    session = updateKeyChangeEvent(session, keyEv.id, 'Am');
+    const abc = serializeVoiceEvents(session.events, tuneMeta);
+    expect(abc).toContain('[K:Am]');
+  });
+
+  test('deleteSelectionToRest removes key and meter change events', function() {
+    let session = createInitialSession(tuneMeta, '| [K:Am] C | [M:3/4] D |');
+    const keyEv = session.events.find(function(ev) { return ev.type === 'keyChange'; });
+    expect(keyEv).toBeTruthy();
+    session = Object.assign({}, session, {
+      selection: { eventIds: [keyEv.id], toneIndex: null, anchorId: keyEv.id },
+    });
+    session = deleteSelectionToRest(session, { backward: false });
+    expect(session.events.some(function(ev) { return ev.type === 'keyChange'; })).toBe(false);
   });
 });

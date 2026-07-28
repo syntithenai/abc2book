@@ -11,6 +11,7 @@ import NotationChordSymbolToolbar from './NotationChordSymbolToolbar';
 import NotationViewSelector from './NotationViewSelector';
 import MidiInputPanel from './MidiInputPanel';
 import NotationPlaybackControls from './NotationPlaybackControls';
+import NotationSignaturesDropdown from './NotationSignaturesDropdown';
 
 const BARLINE_OPTIONS = [
   { token: BARLINE_TOKENS.SINGLE, label: '|', description: 'Bar line' },
@@ -32,6 +33,8 @@ export default function NotationToolbar(props) {
     onOpenHelp,
     onQuantize,
     onInsertBarline,
+    onInsertKeyChange,
+    onInsertMeterChange,
     onInsertMeasure,
     onBeamBreak,
     onToggleTie,
@@ -158,6 +161,10 @@ export default function NotationToolbar(props) {
           </Dropdown.Menu>
         </Dropdown>
       )}
+      <NotationSignaturesDropdown
+        onInsertKeyChange={onInsertKeyChange}
+        onInsertMeterChange={onInsertMeterChange}
+      />
       <NotationMarksDropdown
         onToggleTie={onToggleTie}
         onMarkAction={onMarkAction}

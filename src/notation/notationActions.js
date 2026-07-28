@@ -28,6 +28,7 @@ import {
 import { collapseAdjacentRests } from './timingEdit';
 import { EDITOR_MODES } from './notationConstants';
 import { defaultNoteExtensions, attachTupletToNewEvent, advanceTupletMode } from './notationMarks';
+import { isLayoutEventType, zeroDurationFields } from './inlineSignatureTokens';
 
 export function durationFromSession(session) {
   const mult = DURATION_KEY_MULTIPLIERS[session.durationKey] || 2;
@@ -194,6 +195,65 @@ export function insertSystemBreakAtCaret(session, insertIndex) {
   return patchSession(session, { events: events, caretIndex: idx + 1, lastEvent: null });
 }
 
+/** Snap meter-change insertion to the start of the current bar (after preceding barline). */
+export function barStartInsertIndex(session, insertIndex) {
+  const events = session.events || [];
+  let idx = typeof insertIndex === 'number'
+    ? Math.min(Math.max(0, insertIndex), events.length)
+    : layoutInsertIndex(session);
+  if (idx < events.length && events[idx].type === 'barline') return idx + 1;
+  for (let i = idx - 1; i >= 0; i -= 1) {
+    if (events[i].type === 'barline') return i + 1;
+  }
+  return 0;
+}
+
+export function insertKeyChangeAtCaret(session, key, insertIndex) {
+  const events = session.events.map(cloneVoiceEvent);
+  const idx = typeof insertIndex === 'number'
+    ? Math.min(Math.max(0, insertIndex), events.length)
+    : layoutInsertIndex(session);
+  const ev = Object.assign({
+    id: createEventId('key'),
+    type: 'keyChange',
+    key: String(key == null ? '' : key).trim() || 'C',
+  }, zeroDurationFields());
+  events.splice(idx, 0, ev);
+  return patchSession(session, { events: events, caretIndex: idx + 1, lastEvent: null });
+}
+
+export function insertMeterChangeAtCaret(session, meter, insertIndex) {
+  const events = session.events.map(cloneVoiceEvent);
+  const idx = barStartInsertIndex(session, insertIndex);
+  const ev = Object.assign({
+    id: createEventId('meter'),
+    type: 'meterChange',
+    meter: String(meter == null ? '' : meter).trim() || '4/4',
+  }, zeroDurationFields());
+  events.splice(idx, 0, ev);
+  return patchSession(session, { events: events, caretIndex: idx + 1, lastEvent: null });
+}
+
+export function updateKeyChangeEvent(session, eventId, key) {
+  const events = session.events.map(cloneVoiceEvent);
+  const idx = events.findIndex(function(ev) { return ev.id === eventId; });
+  if (idx < 0 || events[idx].type !== 'keyChange') return null;
+  events[idx] = Object.assign({}, events[idx], {
+    key: String(key == null ? '' : key).trim() || 'C',
+  });
+  return patchSession(session, { events: events });
+}
+
+export function updateMeterChangeEvent(session, eventId, meter) {
+  const events = session.events.map(cloneVoiceEvent);
+  const idx = events.findIndex(function(ev) { return ev.id === eventId; });
+  if (idx < 0 || events[idx].type !== 'meterChange') return null;
+  events[idx] = Object.assign({}, events[idx], {
+    meter: String(meter == null ? '' : meter).trim() || '4/4',
+  });
+  return patchSession(session, { events: events });
+}
+
 export function writeNoteAtBeat(session, beat, pitch, options) {
   const opts = options || {};
   if (!pitch) return null;
@@ -335,7 +395,7 @@ export function deleteSelectionToRest(session, options) {
     ids.forEach(function(id) {
       const ev = timed.find(function(e) { return e.id === id; });
       if (!ev) return;
-      if (ev.type === 'barline' || ev.type === 'lineBreak') return;
+      if (ev.type === 'barline' || ev.type === 'lineBreak' || ev.type === 'keyChange' || ev.type === 'meterChange') return;
       if (ev.type === 'rest') restIds.push(id);
       else noteIds.push(id);
     });
@@ -362,7 +422,7 @@ export function deleteSelectionToRest(session, options) {
   // Bar lines and system breaks are layout — remove rather than turn into rests.
     const layoutIds = ids.filter(function(id) {
       const ev = events.find(function(e) { return e.id === id; });
-      return ev && (ev.type === 'barline' || ev.type === 'lineBreak');
+      return ev && isLayoutEventType(ev.type);
     });
     if (layoutIds.length) {
       next = next.filter(function(ev) {
@@ -390,7 +450,7 @@ export function deleteSelectionToRest(session, options) {
   if (idx == null) return null;
   const target = events[idx];
   if (!target) return null;
-  if (target.type === 'barline' || target.type === 'lineBreak') {
+  if (isLayoutEventType(target.type)) {
     events.splice(idx, 1);
     return patchSession(session, {
       events: events,
@@ -460,7 +520,7 @@ export function transposeSelectionByStaffSteps(session, staffSteps, toneIndex) {
   const events = session.events.map(cloneVoiceEvent);
   events.forEach(function(ev) {
     if (ids.indexOf(ev.id) < 0) return;
-    if (ev.type === 'rest' || ev.type === 'barline' || ev.type === 'lineBreak') return;
+    if (ev.type === 'rest' || isLayoutEventType(ev.type)) return;
     if (ev.type === 'chord' && typeof toneIndex === 'number') {
       let midi = eventMidiPitch(ev, toneIndex);
       if (midi == null) return;
@@ -493,7 +553,7 @@ export function transposeSelection(session, semitones, toneIndex) {
   const events = session.events.map(cloneVoiceEvent);
   events.forEach(function(ev) {
     if (ids.indexOf(ev.id) < 0) return;
-    if (ev.type === 'rest' || ev.type === 'barline' || ev.type === 'lineBreak') return;
+    if (ev.type === 'rest' || isLayoutEventType(ev.type)) return;
     if (ev.type === 'chord' && typeof toneIndex === 'number') {
       const midi = eventMidiPitch(ev, toneIndex);
       if (midi != null) ev.pitches[toneIndex] = pitchFromMidi(midi + semitones, session.tuneMeta);
@@ -804,7 +864,7 @@ export function changeSelectedDuration(session, durationKey, dotted) {
         const target = events[idx];
         if (!target || ev.id !== target.id) return ev;
       }
-      if (ev.type === 'barline' || ev.type === 'lineBreak') return ev;
+      if (isLayoutEventType(ev.type)) return ev;
       const copy = cloneVoiceEvent(ev);
       copy.duration = duration;
       return copy;
@@ -827,7 +887,7 @@ export function changeSelectedDuration(session, durationKey, dotted) {
     if (ev.type === 'rest') {
       next = applyRestDurationChange(events, ev.id, beats, session);
       touchedRest = true;
-    } else if (ev.type !== 'barline' && ev.type !== 'lineBreak') {
+    } else if (!isLayoutEventType(ev.type)) {
       next = applyNoteDurations(events);
     }
   }
@@ -889,7 +949,7 @@ export function toggleDotOnSelection(session) {
   let changed = false;
   events.forEach(function(ev) {
     if (ids.indexOf(ev.id) < 0) return;
-    if (ev.type === 'barline' || ev.type === 'lineBreak' || ev.type === 'rest') return;
+    if (isLayoutEventType(ev.type) || ev.type === 'rest') return;
     if (!ev.duration) return;
     ev.duration = Object.assign({}, ev.duration, { dotted: !ev.duration.dotted });
     changed = true;
@@ -906,7 +966,7 @@ export function scaleDuration(session, factor, dotAware) {
   const targetIndex = ids.length ? null : Math.max(0, session.caretIndex - 1);
   const events = session.events.map(cloneVoiceEvent);
   events.forEach(function(ev, i) {
-    if (ev.type === 'barline' || ev.type === 'lineBreak') return;
+    if (isLayoutEventType(ev.type)) return;
     if (ids.length && ids.indexOf(ev.id) < 0) return;
     if (targetIndex != null && i !== targetIndex) return;
     let beats = durationToBeats(ev.duration, session.unitLengthDecimal);

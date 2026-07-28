@@ -50,4 +50,18 @@ describe('voiceEventModel', function() {
     expect(out).toContain('"Am"');
     expect(out.replace(/\s/g, '')).toMatch(/"Am"z/);
   });
+
+  test('parses and roundtrips inline key and meter changes', function() {
+    const body = '| C D E | [M:3/4] F G A | [K:Am] c d e |';
+    const events = parseVoiceEvents(body, meta);
+    const keyChange = events.find(function(ev) { return ev.type === 'keyChange'; });
+    const meterChange = events.find(function(ev) { return ev.type === 'meterChange'; });
+    expect(keyChange).toBeTruthy();
+    expect(keyChange.key).toBe('Am');
+    expect(meterChange).toBeTruthy();
+    expect(meterChange.meter).toBe('3/4');
+    const out = serializeVoiceEvents(events, meta);
+    expect(out).toContain('[M:3/4]');
+    expect(out).toContain('[K:Am]');
+  });
 });

@@ -8,6 +8,12 @@ import {
 } from './beatGrid';
 import { decorationKeyFromAbcjs } from './notationTokens';
 import { defaultNoteExtensions, FINGER_LABEL_ABC_PREFIX } from './notationMarks';
+import {
+  keyTextFromAbcjsSymbol,
+  meterTextFromAbcjsSymbol,
+  zeroDurationFields,
+  isLayoutEventType,
+} from './inlineSignatureTokens';
 
 let nextEventSeq = 1;
 
@@ -212,6 +218,26 @@ function symbolToEvent(symbol, unitLengthDecimal, ctx) {
     ctx.advance(ev);
     return ev;
   }
+  if (symbol.el_type === 'key' || symbol.el_type === 'keySignature') {
+    const ev = Object.assign({
+      id: createEventId('key'),
+      type: 'keyChange',
+      key: keyTextFromAbcjsSymbol(symbol, ctx.abcSource),
+    }, zeroDurationFields());
+    ctx.advance(ev);
+    return ev;
+  }
+  if (symbol.el_type === 'meter' || symbol.el_type === 'timeSignature') {
+    const meterText = meterTextFromAbcjsSymbol(symbol, ctx.abcSource);
+    if (!meterText) return null;
+    const ev = Object.assign({
+      id: createEventId('meter'),
+      type: 'meterChange',
+      meter: meterText,
+    }, zeroDurationFields());
+    ctx.advance(ev);
+    return ev;
+  }
   if (symbol.el_type === 'stem') return null;
   if (symbol.el_type !== 'note') return null;
   const duration = rationalFromAbcjsDuration(symbol.duration, unitLengthDecimal);
@@ -305,6 +331,7 @@ export function parseVoiceEvents(voiceBody, tuneMeta) {
   const events = [];
   const beatsPerBar = beatsPerBarFromMeter(meter);
   const ctx = {
+    abcSource: abc,
     cursorBeat: 0,
     measureIndex: 0,
     slurStack: {},
@@ -313,7 +340,7 @@ export function parseVoiceEvents(voiceBody, tuneMeta) {
       ev.startBeat = ctx.cursorBeat;
       ev.durationBeats = durationToBeats(ev.duration, unit);
       ev.measureIndex = ctx.measureIndex;
-      if (ev.type !== 'barline' && ev.type !== 'lineBreak') {
+      if (!isLayoutEventType(ev.type)) {
         ctx.cursorBeat += ev.durationBeats;
         if (ctx.cursorBeat >= beatsPerBar * (ctx.measureIndex + 1) - 0.0001) {
           ctx.measureIndex = Math.floor(ctx.cursorBeat / beatsPerBar);

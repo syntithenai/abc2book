@@ -93,6 +93,8 @@ function serializeNoteBody(ev, unit) {
 
 function eventToken(ev, unit) {
   if (!ev || ev.type === 'lineBreak') return null;
+  if (ev.type === 'keyChange') return '[K:' + (ev.key || 'C') + ']';
+  if (ev.type === 'meterChange') return '[M:' + (ev.meter || '4/4') + ']';
   if (ev.type === 'barline') {
     return serializeChordSymbols(ev)
       + (ev.abcLeading || '')
@@ -137,6 +139,10 @@ export function serializeVoiceEventSpans(events, tuneMeta) {
     const needSpace = !!prevPrintable && (
       prevPrintable.type === 'barline'
       || ev.type === 'barline'
+      || prevPrintable.type === 'keyChange'
+      || prevPrintable.type === 'meterChange'
+      || ev.type === 'keyChange'
+      || ev.type === 'meterChange'
       || !!ev.beamBreakBefore
     );
     if (needSpace) body += ' ';

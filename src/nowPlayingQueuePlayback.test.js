@@ -105,6 +105,30 @@ describe('nowPlayingQueuePlayback', function() {
     })).toBe(false)
   })
 
+  test('shouldNowPlayingHostOwnPlayback mounts for midi start on viewed tune page without playMidi URL', function() {
+    const tunes = {
+      playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] },
+      other: { id: 'other', notes: 'CDEF', links: [{ link: 'https://youtu.be/y' }] },
+    }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'other',
+      queue: queue,
+      mediaController: {
+        isLoading: true,
+        tune: tunes.other,
+        hasActivePlaybackIntent: function() { return true },
+        playbackRouteMode: 'midi',
+        requestedPlayState: 'playMidi',
+        isMidiPlaybackRoute: function() { return true },
+        isMediaPlaybackRoute: function() { return false },
+      },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/other',
+      tunes: tunes,
+    })).toBe(true)
+  })
+
   test('shouldMusicSingleOwnPlayback on list or settings uses background host', function() {
     expect(shouldMusicSingleOwnPlayback(null, queue)).toBe(false)
     expect(shouldMusicSingleOwnPlayback(undefined, queue)).toBe(false)

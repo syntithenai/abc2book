@@ -61,9 +61,14 @@ export function tupletBeatScale(tuplet) {
 }
 
 export function assignTimingToEvents(events, meterText, unitLengthDecimal) {
-  const beatsPerBar = beatsPerBarFromMeter(meterText);
+  let currentMeter = meterText;
+  let beatsPerBar = beatsPerBarFromMeter(currentMeter);
   let cursor = 0;
   return events.map(function(event, index) {
+    if (event.type === 'meterChange' && event.meter) {
+      currentMeter = event.meter;
+      beatsPerBar = beatsPerBarFromMeter(currentMeter);
+    }
     let durationBeats = durationToBeats(event.duration, unitLengthDecimal);
     if (event.tuplet) durationBeats *= tupletBeatScale(event.tuplet);
     const measureIndex = Math.floor(cursor / beatsPerBar);
@@ -73,7 +78,10 @@ export function assignTimingToEvents(events, meterText, unitLengthDecimal) {
       durationBeats: durationBeats,
       measureIndex: measureIndex,
     });
-    if (event.type !== 'barline' && event.type !== 'lineBreak') {
+    if (event.type !== 'barline'
+      && event.type !== 'lineBreak'
+      && event.type !== 'keyChange'
+      && event.type !== 'meterChange') {
       cursor += durationBeats;
     }
     return next;

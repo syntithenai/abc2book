@@ -83,6 +83,7 @@ import LongRunningJobNavigationGuard from './LongRunningJobNavigationGuard'
 import BulkCheckYoutubeHost from './components/BulkCheckYoutubeHost'
 import BulkCheckCompleteToastHost from './components/BulkCheckCompleteToastHost'
 import YoutubeHelperInstallHost from './components/YoutubeHelperInstallHost'
+import AndroidBatteryPrompt from './components/AndroidBatteryPrompt'
 import BackgroundJobCompletionNotifications from './backgroundJobCompletionNotifications'
 import BackgroundReviewNotifications from './backgroundReviewNotifications'
 import ImportReviewBridge from './components/ImportReviewBridge'
@@ -1128,6 +1129,7 @@ function App(props) {
             <BulkCheckYoutubeHost />
             <BulkCheckCompleteToastHost />
             <YoutubeHelperInstallHost />
+            <AndroidBatteryPrompt />
             <BackgroundJobCompletionNotifications />
             <BackgroundReviewNotifications
               practiceSessionActive={!!(practiceSession && practiceSession.sessionOpen)}

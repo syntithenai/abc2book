@@ -1,4 +1,5 @@
 import { eventIndexFromStaffAbcElem } from './voiceEventTiming';
+import { isLayoutEventType } from './inlineSignatureTokens';
 
 export function isStaffDrawableEvent(event) {
   return !!(event && (event.type === 'note' || event.type === 'chord' || event.type === 'rest'));
@@ -455,10 +456,19 @@ function clickHitsNote(noteEl, clickX, clickY) {
     && clickY <= rect.bottom + 1;
 }
 
+/** Which staff header was clicked (clef / key / meter / tempo), from DOM. */
+export function staffHeaderKindFromDomTarget(target) {
+  if (!target || !target.closest) return null;
+  if (target.closest('.abcjs-clef')) return 'clef';
+  if (target.closest('.abcjs-key-signature')) return 'key';
+  if (target.closest('.abcjs-time-signature, .abcjs-meter')) return 'meter';
+  if (target.closest('.abcjs-tempo')) return 'tempo';
+  return null;
+}
+
 /** True when the click target is a staff header glyph (clef, key, meter, tempo). */
 export function isStaffHeaderDomTarget(target) {
-  if (!target || !target.closest) return false;
-  return !!target.closest('.abcjs-clef, .abcjs-key-signature, .abcjs-meter, .abcjs-tempo');
+  return !!staffHeaderKindFromDomTarget(target);
 }
 
 /** Horizontal insert bounds from notehead geometry (ignores stem width). */
@@ -554,8 +564,7 @@ export function clickHitsNotehead(noteEl, clickX, clickY) {
  */
 function onlyTrailingLayoutAfter(list, index) {
   for (let i = index; i < list.length; i += 1) {
-    const t = list[i].type;
-    if (t !== 'barline' && t !== 'lineBreak') return false;
+    if (!isLayoutEventType(list[i].type)) return false;
   }
   return true;
 }

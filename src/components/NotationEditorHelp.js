@@ -11,6 +11,7 @@ const SECTIONS = [
   { id: 'midi', title: 'MIDI keyboard' },
   { id: 'virtual-piano', title: 'Virtual piano' },
   { id: 'barlines', title: 'Bar lines & layout' },
+  { id: 'signatures', title: 'Key & time signature changes' },
   { id: 'marks', title: 'Marks & articulations' },
   { id: 'tuplets', title: 'Tuplets & grace notes' },
   { id: 'selection', title: 'Selection & clipboard' },
@@ -264,6 +265,28 @@ export default function NotationEditorHelp(props) {
               </p>
               <p>
                 Layout wizards (Auto Fix, halve/double lengths, 4/6/8-bar layout) run on <strong>every voice</strong> in the tune.
+              </p>
+            </div>
+          </section>
+
+          <section id="notation-help-signatures" className="help-section">
+            <h2>Key &amp; time signature changes</h2>
+            <div className="help-section-body">
+              <p>
+                Use the <strong>K</strong> split button in the staff toolbar to insert mid-tune signature changes.
+                These write standard ABC inline tokens such as <code>[K:Am]</code> and <code>[M:3/4]</code>.
+              </p>
+              <ul>
+                <li><strong>Key change…</strong> — insert at the caret (any position in the bar).</li>
+                <li><strong>Time signature change…</strong> — inserted at the start of the current bar (after the preceding bar line).</li>
+              </ul>
+              <p>
+                Tune-level key and meter in the <strong>Info</strong> tab (or by clicking the staff header) still set the opening signature.
+                Inline changes affect notation from that point onward without changing the tune metadata fields.
+              </p>
+              <p>
+                Select an existing inline key or meter change and open the same menu to edit its value.
+                Delete selected signature-change events with <kbd>Delete</kbd> or <kbd>Backspace</kbd>, like bar lines.
               </p>
             </div>
           </section>

@@ -10,6 +10,31 @@ export function isMobilePlatform() {
 }
 
 /**
+ * True when running inside a Capacitor native shell (Android/iOS app).
+ */
+export function isCapacitorNative() {
+  if (typeof window === 'undefined') return false;
+  const cap = window.Capacitor;
+  return !!(cap && typeof cap.isNativePlatform === 'function' && cap.isNativePlatform());
+}
+
+/**
+ * True when running as the Tunebook Android app (Capacitor on Android).
+ */
+export function isAndroidApp() {
+  if (!isCapacitorNative()) return false;
+  const cap = window.Capacitor;
+  return cap.getPlatform && cap.getPlatform() === 'android';
+}
+
+/**
+ * Prefer native ExoPlayer foreground-service playback on Android app builds.
+ */
+export function prefersNativeMediaPlayback() {
+  return isAndroidApp();
+}
+
+/**
  * Desktop Chromium-based Google Chrome (not Edge, Opera, or mobile Chrome).
  * TuneBook Helper is a desktop Chrome extension.
  */

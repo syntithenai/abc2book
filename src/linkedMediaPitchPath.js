@@ -1,5 +1,6 @@
 import { getResolverLoginWarning, isMediaProxyConfigured } from './mediaProxyClient'
 import { isYoutubeExtensionConnected, isYoutubeExtensionConnectedSync } from './youtubeExtensionClient'
+import { isYoutubeNativeConnected, isYoutubeNativeConnectedSync } from './youtubeNativeClient'
 import { isWebshareProxyConfigured } from './webshareProxySettings'
 
 function resolverYoutubeBytesAvailable(features) {
@@ -27,6 +28,10 @@ export function linkedMediaPitchPathAvailableSync(options) {
     return true
   }
 
+  if (srcType === 'youtube' && isYoutubeNativeConnectedSync()) {
+    return true
+  }
+
   if (!isMediaProxyConfigured()) return false
   if (getResolverLoginWarning(resolverStatus, accessToken)) return false
   if (!resolverStatus || !resolverStatus.available) return false
@@ -42,6 +47,9 @@ export function linkedMediaPitchPathAvailableSync(options) {
 export async function linkedMediaPitchPathAvailable(options) {
   const opts = options || {}
   if (linkedMediaPitchPathAvailableSync(opts)) return true
+  if (opts.srcType === 'youtube' && (await isYoutubeNativeConnected())) {
+    return true
+  }
   if (opts.srcType === 'youtube' && (await isYoutubeExtensionConnected())) {
     return true
   }

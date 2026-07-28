@@ -4,8 +4,10 @@ import {
   eventIndexFromSelectableIndex,
   eventsFromVoiceBody,
   globalMeasureFromAnalysis,
+  inlineSignatureEventAtCharPosition,
+  inlineSignatureEventAtStaffClick,
 } from './voiceEventTiming';
-import { serializeVoiceEvents } from './abcVoiceSerializer';
+import { serializeVoiceEvents, serializeVoiceEventSpans } from './abcVoiceSerializer';
 import { buildAbcPreviewFromBodies } from './notationDisplayAbc';
 import useAbcTools from '../useAbcTools';
 
@@ -255,5 +257,24 @@ describe('eventIndexFromStaffAbcElem', function() {
     // With only barlines and no selectable indices, should handle gracefully
     const result = eventIndexFromSelectableIndex(events, 0);
     expect(typeof result === 'number' || result === undefined).toBe(true);
+  });
+});
+
+describe('inlineSignatureEventAtCharPosition', function() {
+  const meta = { meter: '4/4', noteLength: '1/8', key: 'C' };
+
+  test('finds meter change token in serialized body', function() {
+    const body = '| C D E | [M:3/4] F G |';
+    const events = eventsFromVoiceBody(body, meta);
+    const meterEv = events.find(function(ev) { return ev.type === 'meterChange'; });
+    expect(meterEv).toBeTruthy();
+    const packed = serializeVoiceEventSpans(events, meta);
+    const span = packed.spans.find(function(s) {
+      return events[s.eventIndex] && events[s.eventIndex].type === 'meterChange';
+    });
+    expect(span).toBeTruthy();
+    const hit = inlineSignatureEventAtCharPosition(events, meta, span.start);
+    expect(hit).toBe(meterEv);
+    expect(hit.meter).toBe('3/4');
   });
 });

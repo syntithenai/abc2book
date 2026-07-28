@@ -89,6 +89,15 @@ export default function MediaSourcePlaybackButtons({
     }
     const sameSource = mediaController.isMidiPlaybackRoute
       && mediaController.isMidiPlaybackRoute()
+    const kickoffActive = mediaController.isMidiKickoffActiveRef
+      && mediaController.isMidiKickoffActiveRef.current
+      && mediaController.isMidiKickoffActiveRef.current()
+    // #region agent log
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H1',location:'MediaSourcePlaybackButtons.js:handleMidiPlayback',message:'midi button click',data:{tuneId:tune&&tune.id,sameSource:!!sameSource,kickoffActive:!!kickoffActive,isLoading:!!mediaController.isLoading,hasPlayMidiRef:!!(mediaController.playMidiRef&&mediaController.playMidiRef.current)},timestamp:Date.now()})}).catch(function(){})
+    // #endregion
+    if (kickoffActive || (sameSource && mediaController.isLoading)) {
+      return
+    }
     const path = '/tunes/' + tune.id + '/playMidi'
     applyRouteForTarget({ playState: 'playMidi' })
     if (!requestPlaybackForTarget({

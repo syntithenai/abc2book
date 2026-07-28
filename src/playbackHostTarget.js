@@ -60,6 +60,12 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
   }
 
   if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
+    if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute() && hasMusic) {
+      return { type: 'midi' }
+    }
+    if (mediaController.requestedPlayState === 'playMidi' && hasMusic) {
+      return { type: 'midi' }
+    }
     if (hasLinks) {
       const linkNum = mediaController.mediaLinkNumber != null ? mediaController.mediaLinkNumber : 0
       return { type: 'media', linkNum: linkNum }

@@ -186,6 +186,24 @@ export const WALKTHROUGH_STEPS = [
     ],
   },
   {
+    id: 'signatures',
+    phase: 'staff-edit',
+    title: 'Key and time signature changes',
+    summary: 'Insert mid-tune [K:…] and [M:…] changes.',
+    body: [
+      'The K split button in the staff toolbar opens signature changes.',
+      'Key change… inserts [K:…] at the caret — for example [K:Am] partway through a tune.',
+      'Time signature change… inserts [M:…] at the start of the current bar (after the preceding bar line).',
+      'Select an existing inline key or meter token and open the same menu to edit it.',
+      'Tune-level key and meter (Info tab or staff header click) still set the opening signature for the whole tune.',
+    ],
+    tryIt: [
+      'Place the caret after a few notes and insert a key change to Am.',
+      'Move to the start of a later bar and insert a 3/4 time signature change.',
+      'Switch to ABC view and confirm [K:…] / [M:…] tokens appear in the voice text.',
+    ],
+  },
+  {
     id: 'layout-breaks',
     phase: 'staff-edit',
     title: 'System breaks and layout tools',

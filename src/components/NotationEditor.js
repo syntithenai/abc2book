@@ -18,6 +18,7 @@ import NotationVoicesDropdown from './NotationVoicesDropdown';
 import NotationViewSelector from './NotationViewSelector';
 import WizardOptionsModal from './WizardOptionsModal';
 import NotationTuneMetaModal from './NotationTuneMetaModal';
+import NotationInlineSignatureModal from './NotationInlineSignatureModal';
 import useAbcjsParser from '../useAbcjsParser';
 import { notationViewToEditorViewMode } from '../viewModeUtils';
 import { serializeVoiceEvents } from '../notation/abcVoiceSerializer';
@@ -63,6 +64,10 @@ import {
   insertBarlineAtCaret,
   insertSystemBreakAtCaret,
   insertEmptyMeasureAtCaret,
+  insertKeyChangeAtCaret,
+  insertMeterChangeAtCaret,
+  updateKeyChangeEvent,
+  updateMeterChangeEvent,
   layoutInsertIndex,
   pasteInsertIndex,
   respellEnharmonicSelection,
@@ -89,6 +94,7 @@ import {
   caretIndexForStartBeat,
   eventIndexFromStaffAbcElem,
   eventIndexFromSelectableIndex,
+  inlineSignatureEventAtStaffClick,
 } from '../notation/voiceEventTiming';
 import { beatsPerBarFromMeter } from '../notation/beatGrid';
 import {
@@ -96,6 +102,7 @@ import {
   findStaffClickNoteEl,
   caretIndexAndAnchorFromStaffClick,
   isStaffHeaderDomTarget,
+  staffHeaderKindFromDomTarget,
   findBarlineEventAtClick,
   staffMarqueeSelectEventIds,
   syncStaffSelectionHighlight,
@@ -229,9 +236,10 @@ export default function NotationEditor(props) {
     return abcelem.midi != null;
   }
 
-  function auditionEvent(ev, toneIndex) {
+  function auditionEvent(ev, toneIndex, midiFallback) {
     if (!ev || (ev.type !== 'note' && ev.type !== 'chord')) return;
-    const midi = eventMidiPitch(ev, toneIndex) || eventMelodicMidiPitch(ev);
+    const midi = eventMidiPitch(ev, toneIndex) || eventMelodicMidiPitch(ev)
+      || (typeof midiFallback === 'number' ? midiFallback : null);
     if (midi != null && auditionMidiRef.current) {
       auditionMidiRef.current(midi, 200, activeMidiProgramRef.current);
     }
@@ -403,6 +411,7 @@ export default function NotationEditor(props) {
   const [showQuantize, setShowQuantize] = useState(false);
   const [showTuneMeta, setShowTuneMeta] = useState(false);
   const [tuneMetaFocus, setTuneMetaFocus] = useState(null);
+  const [inlineSigModal, setInlineSigModal] = useState(null);
   const [quantizeNoChangeHint, setQuantizeNoChangeHint] = useState(null);
   const [showWizard, setShowWizard] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
@@ -836,26 +845,6 @@ export default function NotationEditor(props) {
         const ev = s.events.find(function(e) { return e.id === pending.eventId; });
         if (ev && (ev.type === 'note' || ev.type === 'chord')) {
           const idx = s.events.findIndex(function(e) { return e.id === ev.id; });
-          const wrap = staffWrapRef.current;
-          const voiceStaffIdx = Math.max(0, displayedVoiceKeysRef.current.indexOf(props.voiceKey));
-          const insertPos = wrap
-            ? caretIndexAndAnchorFromStaffClick(
-              wrap,
-              s.events,
-              { clientX: endX, clientY: endY },
-              null,
-              voiceStaffIdx
-            )
-            : null;
-          if (insertPos && typeof insertPos.caretIndex === 'number' && insertPos.caretIndex > idx) {
-            setInsertCaret(insertPos.caretIndex, insertPos.anchor || null);
-            clearSelectionClickRects();
-            dispatch({ type: 'SET_SELECTION', selection: { eventIds: [], toneIndex: null, anchorId: null } });
-            focusStaffEditor();
-            staffDragSuppressClickRef.current = true;
-            window.setTimeout(function() { staffDragSuppressClickRef.current = false; }, 50);
-            return;
-          }
           applyStaffPitchedNoteSelection(ev, s, idx, null);
           if (auditionEventRef.current) {
             auditionEventRef.current(ev, null);
@@ -1881,20 +1870,60 @@ export default function NotationEditor(props) {
     }
   }
 
-  function handleStaffClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent, renderedAbc) {
+  function openSignatureDialogFromStaffClick(abcelem, mouseEvent, renderedAbc, domKind) {
     const headerType = abcelem && (abcelem.el_type || abcelem.type);
-    if (headerType && ['clef', 'keySignature', 'timeSignature'].indexOf(headerType) >= 0) {
-      staffPendingGestureRef.current = null;
-      staffMarqueeRef.current = null;
-      setMarqueeClientRect(null);
-      setStaffInsertAnchor(null);
-      setTuneMetaFocus(
-        headerType === 'clef' ? 'clef'
-          : headerType === 'timeSignature' ? 'meter'
-            : 'key'
+    const signatureHeaderTypes = ['keySignature', 'timeSignature', 'key', 'meter'];
+    let kind = domKind;
+    if (!kind) {
+      if (headerType === 'clef') kind = 'clef';
+      else if (headerType === 'timeSignature' || headerType === 'meter') kind = 'meter';
+      else if (headerType === 'keySignature' || headerType === 'key') kind = 'key';
+    }
+    if (!kind || kind === 'tempo') return false;
+
+    staffPendingGestureRef.current = null;
+    staffMarqueeRef.current = null;
+    setMarqueeClientRect(null);
+    setStaffInsertAnchor(null);
+    staffDragPointerRef.current = null;
+    staffDragTargetRef.current = null;
+    staffDragSuppressClickRef.current = true;
+    window.setTimeout(function() { staffDragSuppressClickRef.current = false; }, 50);
+
+    if (kind !== 'clef') {
+      const voiceStaffIdx = Math.max(0, displayedVoiceKeysRef.current.indexOf(props.voiceKey));
+      const inlineEv = inlineSignatureEventAtStaffClick(
+        sessionRef.current.events,
+        tuneMeta,
+        renderedAbc,
+        displayedVoiceKeysRef.current,
+        voiceStaffIdx,
+        abcelem
       );
-      setShowTuneMeta(true);
-      return;
+      if (inlineEv) {
+        setInlineSigModal({
+          kind: inlineEv.type === 'keyChange' ? 'key' : 'meter',
+          eventId: inlineEv.id,
+          initialKey: inlineEv.key,
+          initialMeter: inlineEv.meter,
+        });
+        return true;
+      }
+    }
+    setTuneMetaFocus(kind === 'clef' ? 'clef' : kind === 'meter' ? 'meter' : 'key');
+    setShowTuneMeta(true);
+    return true;
+  }
+
+  function handleStaffClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent, renderedAbc) {
+    const domKind = staffHeaderKindFromDomTarget(mouseEvent && mouseEvent.target);
+    if (domKind && domKind !== 'tempo') {
+      if (openSignatureDialogFromStaffClick(abcelem, mouseEvent, renderedAbc, domKind)) return;
+    }
+    const headerType = abcelem && (abcelem.el_type || abcelem.type);
+    const signatureHeaderTypes = ['keySignature', 'timeSignature', 'key', 'meter'];
+    if (headerType && (headerType === 'clef' || signatureHeaderTypes.indexOf(headerType) >= 0)) {
+      if (openSignatureDialogFromStaffClick(abcelem, mouseEvent, renderedAbc, null)) return;
     }
     if (headerType && ['tempo', 'part'].indexOf(headerType) >= 0) {
       return;
@@ -2034,6 +2063,10 @@ export default function NotationEditor(props) {
       const nextSel = toggleSelectionEventId(s.selection, targetEv.id);
       dispatch({ type: 'SET_SELECTION', selection: nextSel });
       clearSelectionClickRects();
+      if (nextSel.eventIds.indexOf(targetEv.id) >= 0
+        && (targetEv.type === 'note' || targetEv.type === 'chord')) {
+        auditionEvent(targetEv, null, abcelem && abcelem.midi);
+      }
       focusStaffEditor();
       return;
     }
@@ -2089,7 +2122,7 @@ export default function NotationEditor(props) {
 
     const startMs = abcElemStartMs(abcelem);
     applyStaffPitchedNoteSelection(ev, s, idx, startMs);
-    auditionEvent(ev, null);
+    auditionEvent(ev, null, abcelem && abcelem.midi);
     focusStaffEditor();
     return;
   }
@@ -2227,6 +2260,46 @@ export default function NotationEditor(props) {
     const prepared = sessionForCaretInsert(s);
     const patch = actionFn(prepared, prepared.caretIndex);
     if (patch) applyEvents(patchAfterLayoutInsert(s, patch), s.view, label);
+  }
+
+  function openInlineSignatureModal(kind) {
+    const s = sessionWithEditSelection(sessionRef.current);
+    const sel = s.selection && s.selection.eventIds ? s.selection.eventIds : [];
+    if (sel.length === 1) {
+      const ev = s.events.find(function(e) { return e.id === sel[0]; });
+      if (kind === 'key' && ev && ev.type === 'keyChange') {
+        setInlineSigModal({ kind: 'key', eventId: ev.id, initialKey: ev.key });
+        return;
+      }
+      if (kind === 'meter' && ev && ev.type === 'meterChange') {
+        setInlineSigModal({ kind: 'meter', eventId: ev.id, initialMeter: ev.meter });
+        return;
+      }
+    }
+    setInlineSigModal({ kind: kind });
+  }
+
+  function applyInlineSignature(value) {
+    const modal = inlineSigModal;
+    if (!modal) return;
+    const s = sessionWithEditSelection(sessionRef.current);
+    let patch = null;
+    let label = modal.kind === 'key' ? 'Key change' : 'Time signature change';
+    if (modal.eventId) {
+      patch = modal.kind === 'key'
+        ? updateKeyChangeEvent(s, modal.eventId, value)
+        : updateMeterChangeEvent(s, modal.eventId, value);
+      label = modal.kind === 'key' ? 'Edit key change' : 'Edit time signature change';
+    } else {
+      const prepared = sessionForCaretInsert(s);
+      patch = modal.kind === 'key'
+        ? insertKeyChangeAtCaret(prepared, value, prepared.caretIndex)
+        : insertMeterChangeAtCaret(prepared, value, prepared.caretIndex);
+      patch = patchAfterLayoutInsert(s, patch);
+      label = modal.kind === 'key' ? 'Insert key change' : 'Insert time signature change';
+    }
+    if (patch) applyEvents(patch, s.view, label);
+    setInlineSigModal(null);
   }
 
   function handleToggleTie() {
@@ -2844,7 +2917,7 @@ export default function NotationEditor(props) {
 
   const staffAbcSelectTypes = session.mode === EDITOR_MODES.NOTE_INPUT
     ? ['note', 'rest']
-    : ['note', 'clef', 'keySignature', 'timeSignature'];
+    : ['note', 'clef', 'keySignature', 'timeSignature', 'key', 'meter'];
 
   const activeVoiceStaffIndex = useMemo(function() {
     const idx = displayedVoiceKeys.indexOf(props.voiceKey);
@@ -3135,6 +3208,8 @@ export default function NotationEditor(props) {
                 onInsertBarline={function(barToken) {
                   insertLayout(function(s, insertAt) { return insertBarlineAtCaret(s, barToken, insertAt); }, 'Insert bar line');
                 }}
+                onInsertKeyChange={function() { openInlineSignatureModal('key'); }}
+                onInsertMeterChange={function() { openInlineSignatureModal('meter'); }}
                 onInsertMeasure={function() {
                   handleShortcutAction({ action: 'insertMeasure' });
                 }}
@@ -3376,6 +3451,17 @@ export default function NotationEditor(props) {
         voiceKey={props.voiceKey}
         focusField={tuneMetaFocus}
         forceRefresh={props.forceRefresh}
+      />
+
+      <NotationInlineSignatureModal
+        show={!!inlineSigModal}
+        kind={inlineSigModal ? inlineSigModal.kind : 'key'}
+        eventId={inlineSigModal ? inlineSigModal.eventId : null}
+        initialKey={inlineSigModal ? inlineSigModal.initialKey : null}
+        initialMeter={inlineSigModal ? inlineSigModal.initialMeter : null}
+        tunebook={props.tunebook}
+        onHide={function() { setInlineSigModal(null); }}
+        onApply={applyInlineSignature}
       />
 
       <QuantizeDialog

@@ -578,13 +578,15 @@ export function HelpYouTube() {
       <p>On the Books page, open Book Tools for <strong>Play Media</strong>, <strong>Play Midi</strong>, <strong>Cheat Sheet</strong>, and <strong>Print</strong>.</p>
 
       <h4>Phone screen-off playback tips</h4>
-      <p>If you are playing a YouTube link, screen-off playback is often blocked in mobile browsers by YouTube policy.</p>
-      <p>If you are playing a normal audio URL/file, playback should usually continue, but Android/iOS battery management can still suspend the tab.</p>
+      <p>If you are using the <strong>Tunebook Android app</strong>, playback runs through a foreground media service and should continue with the screen off. For best results, set battery mode to unrestricted for Tunebook in Android settings.</p>
+      <p>If you are playing a YouTube link in a mobile browser, screen-off playback is often blocked by YouTube policy.</p>
+      <p>If you are playing a normal audio URL/file in a browser, playback should usually continue, but Android/iOS battery management can still suspend the tab.</p>
       <p><strong>Quick things to try on the phone:</strong></p>
       <ul>
-        <li>Set battery mode to unrestricted for your browser (Chrome/Safari/Firefox) and disable battery saver/low power mode.</li>
+        <li>Install the Tunebook Android app (sideload APK) for reliable background playback.</li>
+        <li>Set battery mode to unrestricted for Tunebook or your browser and disable battery saver/low power mode.</li>
         <li>Keep only one tab with the player open; some phones aggressively freeze background tabs.</li>
-        <li>Add the app to home screen and run it as a PWA (often survives better than a normal tab).</li>
+        <li>Add the web app to home screen and run it as a PWA (often survives better than a normal tab).</li>
       </ul>
     </>
   );

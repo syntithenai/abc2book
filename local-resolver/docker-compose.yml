@@ -186,6 +186,104 @@ services:
       start_period: 20s
     restart: unless-stopped
 
+  # Text-to-speech stack (profile `tts`). Gateway on :8789 auto-selects Kokoro GPU
+  # when healthy (profile `tts-gpu`, AMD ROCm) else Piper CPU.
+  #   ./scripts/tts-up.sh
+  # or manually:
+  #   docker compose --profile tts --profile tts-gpu up -d --build   # AMD GPU
+  #   docker compose --profile tts up -d --build                     # CPU only
+  tts-cpu:
+    build:
+      context: ./tts
+      dockerfile: Dockerfile
+    container_name: abc2book-tts-cpu
+    profiles: ["tts"]
+    environment:
+      TTS_PIPER_VOICE: ${TTS_PIPER_VOICE:-en_US-lessac-medium}
+      TTS_PIPER_DATA_DIR: /voices
+      TTS_LISTEN_HOST: 0.0.0.0
+      TTS_LISTEN_PORT: "5000"
+    volumes:
+      - tts_piper_voices:/voices
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS --max-time 5 http://127.0.0.1:5000/info || exit 1",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+    restart: unless-stopped
+
+  tts-gpu:
+    image: ghcr.io/remsky/kokoro-fastapi-rocm:latest
+    container_name: abc2book-tts-gpu
+    profiles: ["tts-gpu"]
+    environment:
+      USE_GPU: "true"
+      DEVICE: gpu
+      DOWNLOAD_MODEL: "true"
+      MIOPEN_FIND_MODE: "2"
+      TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL: "1"
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/kfd:/dev/kfd
+    group_add:
+      - "44"
+      - "110"
+    device_cgroup_rules:
+      - "c 226:* rmw"
+      - "c 511:* rmw"
+    volumes:
+      - tts_miopen_config:/home/appuser/.config/miopen
+      - tts_miopen_cache:/home/appuser/.cache/miopen
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS --max-time 5 http://127.0.0.1:8880/health || curl -fsS --max-time 5 http://127.0.0.1:8880/v1/models || exit 1",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 300s
+    restart: unless-stopped
+
+  tts-gateway:
+    build:
+      context: ./tts
+      dockerfile: Dockerfile.gateway
+    container_name: abc2book-tts-gateway
+    profiles: ["tts"]
+    ports:
+      - "${TTS_PUBLISH_PORT:-8789}:8789"
+    environment:
+      TTS_GATEWAY_LISTEN_HOST: 0.0.0.0
+      TTS_GATEWAY_LISTEN_PORT: "8789"
+      TTS_PRIMARY_URL: http://tts-gpu:8880
+      TTS_FALLBACK_URL: http://tts-cpu:5000
+      TTS_PRIMARY_KIND: openai
+      TTS_FALLBACK_KIND: piper
+      TTS_PRIMARY_PROBE_PATH: /health
+      TTS_FALLBACK_PROBE_PATH: /info
+      TTS_GATEWAY_HEALTH_TTL_SECONDS: ${TTS_GATEWAY_HEALTH_TTL_SECONDS:-15}
+    depends_on:
+      tts-cpu:
+        condition: service_started
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS --max-time 5 http://127.0.0.1:8789/health || exit 1",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+
   # Optional HTTPS reverse proxy. Enable with:
   #   docker compose --profile https up --build
   # Requires RESOLVER_DOMAIN (and optionally ACME_EMAIL) in .env, public DNS
@@ -229,3 +327,6 @@ services:
 volumes:
   caddy_data:
   caddy_config:
+  tts_miopen_config:
+  tts_miopen_cache:
+  tts_piper_voices:

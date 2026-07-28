@@ -410,7 +410,12 @@ export default function Abc(props) {
                         if (!midiBuffer) {
                             setReady(false)
                             setStarted(false)
-                            if (props.mediaController && props.mediaController.abortPlayingIntent) {
+                            if (props.mediaController && props.mediaController.hasActivePlaybackIntent
+                                && props.mediaController.hasActivePlaybackIntent()) {
+                                if (props.mediaController.setTapToPlay) {
+                                    props.mediaController.setTapToPlay(true)
+                                }
+                            } else if (props.mediaController && props.mediaController.abortPlayingIntent) {
                                 props.mediaController.abortPlayingIntent()
                             }
                             return

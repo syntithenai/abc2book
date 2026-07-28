@@ -14,6 +14,8 @@ import {
   staffNoteheadCentersForEventIds,
   countBarlinesBefore,
   eventIndexForBarDomIndex,
+  isStaffHeaderDomTarget,
+  staffHeaderKindFromDomTarget,
 } from './staffCaretPosition';
 import { eventIndexFromStaffClick } from './staffCaretPosition';
 import { eventIndexFromStaffAbcElem, eventsFromVoiceBody } from './voiceEventTiming';
@@ -21,6 +23,22 @@ import { buildAbcPreviewFromBodies } from './notationDisplayAbc';
 import useAbcTools from '../useAbcTools';
 
 describe('staffCaretPosition', function() {
+  test('staffHeaderKindFromDomTarget recognizes abcjs header glyphs', function() {
+    function el(className) {
+      const node = document.createElement('g');
+      node.className = className;
+      return node;
+    }
+    expect(staffHeaderKindFromDomTarget(el('abcjs-clef'))).toBe('clef');
+    expect(staffHeaderKindFromDomTarget(el('abcjs-key-signature'))).toBe('key');
+    expect(staffHeaderKindFromDomTarget(el('abcjs-time-signature'))).toBe('meter');
+    expect(staffHeaderKindFromDomTarget(el('abcjs-meter'))).toBe('meter');
+    expect(staffHeaderKindFromDomTarget(el('abcjs-tempo'))).toBe('tempo');
+    expect(staffHeaderKindFromDomTarget(el('abcjs-note'))).toBe(null);
+    expect(isStaffHeaderDomTarget(el('abcjs-time-signature'))).toBe(true);
+    expect(isStaffHeaderDomTarget(el('abcjs-note'))).toBe(false);
+  });
+
   test('isStaffDrawableEvent recognizes notes and rests', function() {
     expect(isStaffDrawableEvent({ type: 'note' })).toBe(true);
     expect(isStaffDrawableEvent({ type: 'rest' })).toBe(true);

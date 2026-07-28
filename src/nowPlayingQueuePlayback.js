@@ -346,6 +346,35 @@ export function resolveHostPlayingTuneId({ queue, mediaController, viewedTuneId,
   return null
 }
 
+function isViewedTunePagePath(pathname) {
+  if (!pathname || pathname.indexOf('/tunes/') < 0) return false
+  return pathname.indexOf('/playMidi') < 0 && pathname.indexOf('/playMedia') < 0
+}
+
+/** True when the user has armed playback (not merely can-resume a prior session). */
+function isPlaybackArmed(mediaController) {
+  if (!mediaController) return false
+  if (mediaController.isPlaying || mediaController.isLoading) return true
+  if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
+    return true
+  }
+  return false
+}
+
+/** Mount the shared engine when playback starts from a plain tune page (no /playMidi URL). */
+function shouldHostViewedTunePlayback(viewedTuneId, pathname, queue, mediaController, tunes) {
+  if (!viewedTuneId || !isViewedTunePagePath(pathname)) return false
+  if (!isPlaybackArmed(mediaController)) return false
+  const hostTuneId = resolveHostPlayingTuneId({
+    queue: queue,
+    mediaController: mediaController,
+    viewedTuneId: viewedTuneId,
+    pathname: pathname,
+  })
+  if (hostTuneId !== viewedTuneId) return false
+  return !!resolveHostPlayingTune(hostTuneId, tunes, mediaController)
+}
+
 /**
  * Whether the app-level NowPlayingHost should mount the shared media/midi engine.
  */
@@ -375,6 +404,9 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
 
   const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
   if (urlPlayback) return true
+  if (shouldHostViewedTunePlayback(viewedTuneId, pathname, queue, mediaController, tunes)) {
+    return true
+  }
   if (isQueueActive(queue)) {
     return isQueuePlaybackEngaged(mediaController, {
       queue: queue,

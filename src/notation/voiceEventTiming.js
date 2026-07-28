@@ -211,3 +211,34 @@ export function eventIndexFromAbcCharPosition(events, tuneMeta, charPos) {
   }
   return events.length;
 }
+
+/** Find inline [K:…] / [M:…] event at a voice-body character offset. */
+export function inlineSignatureEventAtCharPosition(events, tuneMeta, charPos) {
+  const packed = serializeVoiceEventSpans(events, tuneMeta);
+  const pos = Math.max(0, charPos);
+  for (let i = 0; i < (events || []).length; i += 1) {
+    const ev = events[i];
+    if (ev.type !== 'keyChange' && ev.type !== 'meterChange') continue;
+    const span = packed.spans.find(function(s) { return s.eventIndex === i; });
+    if (span && pos >= span.start && pos < span.end) return ev;
+  }
+  const idx = eventIndexFromAbcCharPosition(events, tuneMeta, pos);
+  const hit = events[idx];
+  if (hit && (hit.type === 'keyChange' || hit.type === 'meterChange')) return hit;
+  if (idx > 0) {
+    const prev = events[idx - 1];
+    if (prev && (prev.type === 'keyChange' || prev.type === 'meterChange')) {
+      const span = packed.spans.find(function(s) { return s.eventIndex === idx - 1; });
+      if (span && pos >= span.start && pos <= span.end) return prev;
+    }
+  }
+  return null;
+}
+
+/** Map a staff click on an inline signature glyph to its editor event. */
+export function inlineSignatureEventAtStaffClick(events, tuneMeta, fullAbc, displayedVoiceKeys, analysisVoiceIndex, abcelem) {
+  if (!abcelem || typeof abcelem.startChar !== 'number' || !fullAbc) return null;
+  const mapped = mapAbcClickToVoiceCursor(fullAbc, displayedVoiceKeys, analysisVoiceIndex, abcelem.startChar);
+  if (!mapped) return null;
+  return inlineSignatureEventAtCharPosition(events, tuneMeta, mapped.offset);
+}
