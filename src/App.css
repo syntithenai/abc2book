@@ -5592,6 +5592,20 @@ button img:after {
   white-space: normal;
 }
 
+.music-actions-dropdown-autoscroll-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.35rem;
+}
+
+.music-actions-dropdown-autoscroll-row .music-actions-dropdown-autoscroll {
+  margin-top: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 .music-actions-dropdown-autoscroll {
   margin-top: 0.35rem;
 }
@@ -9269,6 +9283,11 @@ button img:after {
     display: none;
   }
 
+  .bulk-ops-star-dropdown .dropdown-toggle::after,
+  .bulk-ops-lists-dropdown .dropdown-toggle::after {
+    display: none;
+  }
+
   .bulk-ops-action-btn {
     min-width: 2.75rem;
     padding-left: 0.5rem;
@@ -9368,6 +9387,36 @@ button img:after {
   font-size: 0.8em;
   opacity: 0.7;
   white-space: normal;
+}
+
+.bulk-ops-star-dropdown .dropdown-toggle::after,
+.bulk-ops-lists-dropdown .dropdown-toggle::after {
+  margin-left: 0.35em;
+}
+
+.bulk-ops-lists-dropdown .dropdown-item,
+.bulk-ops-star-dropdown .dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bulk-ops-dropdown-item-icon {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.bulk-ops-dropdown-item-icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  float: none;
+  margin-top: 0;
+}
+
+.bulk-ops-lists-dropdown .bulk-ops-dual-icon svg {
+  width: 1.1rem;
+  height: 1.1rem;
 }
 
 .bulk-change-add-row {

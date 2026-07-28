@@ -52,6 +52,7 @@ import MarkdownContent from './MarkdownContent'
 import StructureChordBlock from './StructureChordBlock'
 import LyricsZoomControls from './LyricsZoomControls'
 import FileZoomControls, { clampFileViewZoom } from './FileZoomControls'
+import ChordPitchButton from './ChordPitchButton'
 import TimedLyricsChordsView from './TimedLyricsChordsView'
 import LyricsStructureSyncPanel from './LyricsStructureSyncPanel'
 import { filterTuneVoices } from '../abcVoiceFilter'
@@ -83,6 +84,7 @@ export default function MusicSingle(props) {
     const [searchParams] = useSearchParams();
     var windowSize = useWindowSize()
     const toolbarRef = useRef(null)
+    const lastNotationChordRef = useRef('')
     const toolbarContainerWidth = useMusicToolbarWidth(toolbarRef)
     const audioPlayer = useRef(); 
     const { available: resolverAvailable } = useMediaResolverHealth()
@@ -439,6 +441,14 @@ export default function MusicSingle(props) {
         //<iframe src={link} ></iframe>
         const previewTune = filterTuneVoices(tune, getVisibleVoiceKeys(tune.id, getTuneVoiceKeys(tune)))
         var firstVoice = previewTune.voices && Object.keys(previewTune.voices).length > 0 ? Object.values(previewTune.voices)[0] : {notes:[]}
+        const hasAbcChords = props.tunebook.abcTools.hasChords(firstVoice.notes.join('\n'))
+        function handleNotationChordClick(abcelem) {
+          if (abcelem && Array.isArray(abcelem.chord) && abcelem.chord.length > 0) {
+            lastNotationChordRef.current = String(abcelem.chord[0].name || '')
+              .replace(/♭/g, 'b')
+              .replace(/♯/g, '#')
+          }
+        }
         //var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
         //var [a,b,chordsArray,c] = parsed
         var chordTranspose = chordTransposeWithCapo(tune.transpose, capoState.capoOffset, capoState.capoEnabled)
@@ -700,6 +710,14 @@ export default function MusicSingle(props) {
                     onChange={handleLyricsZoomChange}
                   />
                 ) : null
+                const chordPitchButtonElement = hasAbcChords && !fileOverlayActive ? (
+                  <ChordPitchButton
+                    chordChart={chords}
+                    structureSelector=".structure-chord-block"
+                    lastNotationChordRef={lastNotationChordRef}
+                    icon={props.tunebook.icons.blockchord}
+                  />
+                ) : null
                 const tuneMetaButtons = (
                   <ButtonGroup className="music-tune-meta-group">
                     <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
@@ -849,20 +867,23 @@ export default function MusicSingle(props) {
                       {viewModeSelector}
                       {!pdfSnapshotActive ? (
                         <div
-                          className="music-actions-dropdown-autoscroll"
+                          className="music-actions-dropdown-autoscroll-row"
                           onClick={function(e) { e.stopPropagation() }}
                           onMouseDown={function(e) { e.stopPropagation() }}
                         >
-                          <LyricsAutoscrollModal
-                            tune={tune}
-                            tunebook={props.tunebook}
-                            mediaController={props.mediaController}
-                            mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null ? props.mediaController.mediaLinkNumber : 0}
-                            musicSingleSelector=".music-single"
-                            barLayout="gig-inline"
-                            buttonVariant="outline-secondary"
-                            buttonSize="sm"
-                          />
+                          {chordPitchButtonElement}
+                          <div className="music-actions-dropdown-autoscroll">
+                            <LyricsAutoscrollModal
+                              tune={tune}
+                              tunebook={props.tunebook}
+                              mediaController={props.mediaController}
+                              mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null ? props.mediaController.mediaLinkNumber : 0}
+                              musicSingleSelector=".music-single"
+                              barLayout="gig-inline"
+                              buttonVariant="outline-secondary"
+                              buttonSize="sm"
+                            />
+                          </div>
                         </div>
                       ) : null}
                     </div>
@@ -926,6 +947,7 @@ export default function MusicSingle(props) {
               />
             ) : null}
 			      {zoomControlsElement}
+			      {chordPitchButtonElement}
 			      {!pdfSnapshotActive ? (
               <LyricsAutoscrollModal
                 tune={tune}
@@ -1187,8 +1209,8 @@ export default function MusicSingle(props) {
                  <div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                    {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{clear:'both', width:'100%', height:'3em'}} />}
                    <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>
-                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} />}
-                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} />}
+                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
                    </div>
                  </div>
                </div>

@@ -76,6 +76,7 @@ Slot math lives in `rhythmGrid.js` (formerly inlined in
 | 4/4, 1-beat pickup | 3 slots | 1 slot | Pickup on correct upbeat |
 | 6/8, 1 bar | 6 eighth slots | 1 eighth slot | Beat 1 accented |
 | 7/8, 9/8, 12/8 | `countInBars × slotsPerBar` (rhythm-aligned) | 1 slot or `delayMs` for fractional pickup | Per `computeMidiMetronomeCountIn` |
+| 5/8, 11/8 | Additive presets (`3+2`, `2+2+3+2+2`) | Same as other compound meters | Medium accents on group starts |
 | `countInBarOnly` | Full bar from meter, ignore implicit pickup | Standard 1-slot gap | Practice warmups |
 | `delayMs > 0` | `floor(totalBeatsBeforeMusic)` clicks | `delayMs` wall wait | Fractional pickup remainder |
 
@@ -96,6 +97,8 @@ starts TimingCallbacks / MIDI; no overlap with a second scheduler.
 | Tempo factor | Wall-clock grid tempo uses `computeRhythmGridTempo` (includes `tempoFactor`). Music seconds map via `musicStartAudioTime + musicSeconds / tempoFactor`. |
 | Seek | `reanchorRhythm(musicSeconds)` resets schedule state and preserves slot phase. |
 | Tempo change | `setRhythmPlaybackTempo` recomputes anchor at current slot. |
+| Meter change | `setRhythmPlaybackRhythm` swaps rhythm grid at current slot (from `playbackTimingMap` during play). |
+| Section tempo/meter | `buildPlaybackTimingMap` walks inline `Q:` / `M:`; `timingAtMusicSeconds` samples active section. Count-in uses **opening** section only. |
 | Stop/pause | `stopRhythmPlayback()` **before** seek-guard early returns in `pauseMidiSynth`. |
 
 ## Drums
@@ -104,6 +107,20 @@ Drums use the **same slot grid and scheduler as clicks** (`playRhythmSlot` → `
 
 - `drumPattern.resolution` must equal `slotsPerBar(rhythm)` (enforced in `normalizeRhythmConfig`).
 - Swing (`drumPattern.swing`, 0–0.5) lengthens the first pulse and shortens the second within each beat that has two or more pulses.
+
+## Additive metres
+
+ABC additive metres (`M:2+2+3`, `M:2+2+3/8`, `M:3+2+3/8`) and typed patterns in the metronome UI map to unequal pulse groups:
+
+| Pattern | Slots/bar | Default accents |
+|---------|-----------|-----------------|
+| `2+2+3` / `7/8` | 7 | Strong beat 1; **medium** (`tick`) on beats 2–3 |
+| `3+2` / `5/8` | 5 | Strong + medium |
+| `2+2+3+2+2` / `11/8` | 11 | Strong + medium on each later group |
+
+Off-pulses inside a group use `sub`. Simple `M:7/8` defaults to `2+2+3` grouping.
+
+`meterTextFromAbcMeterElement` reads abcjs `meter.value[]` arrays for additive header/mid-tune `M:` fields.
 
 ## Do not
 
@@ -121,7 +138,8 @@ Any PR touching metronome timing must pass:
 - `src/metronomeRhythmPresets.test.js`
 - `src/musicLockedMetronomeScheduler.test.js` (slot math via `rhythmGrid.js`)
 - `src/rhythmTimeline.test.js` (audio-clock slot grid, count-in ranges)
-- `src/rhythmPlaybackController.test.js` (phases, stop, count-in)
+- `src/rhythmPlaybackController.test.js` (phases, stop, count-in, rhythm swap)
+- `src/playbackTimingMap.test.js` (mid-tune `Q:` / `M:`, additive metres)
 - `src/rhythmOutputBus.test.js` (instant mute on stop)
 - `e2e/playback-smoke.js` (count-in, from-start, stop silence)
 

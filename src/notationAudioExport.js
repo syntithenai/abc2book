@@ -2,6 +2,8 @@ import abcjs from 'abcjs'
 import { ABC_SYNTH_PROGRAM_OFFSETS } from './abcSynthProgramOffsets'
 import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig'
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
+import { resolveFillPlaybackOptions } from './playbackFillSettings'
+import { buildPlaybackSequence } from './playbackFillPattern'
 
 const ORIGINAL_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/'
 
@@ -51,6 +53,7 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal
     throw new Error('Invalid notation timing for audio export')
   }
 
+  const fillPlayback = resolveFillPlaybackOptions(opts.tune)
   const synth = new abcjs.synth.CreateSynth()
   const initOptions = {
     audioContext: audioContext,
@@ -58,12 +61,19 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal
     options: {
       soundFontUrl: soundFontUrl,
       soundFontVolumeMultiplier: getSoundFontVolumeMultiplier(),
-      chordsOff: opts.chordsOff === true,
+      chordsOff: opts.chordsOff === true ? true : fillPlayback.chordsOff,
       programOffsets: ABC_SYNTH_PROGRAM_OFFSETS,
     },
   }
-  if (remapLocal) {
-    const flattened = visualObj.setUpAudio({})
+  const useSequencePath = remapLocal || fillPlayback.injectCustomFill
+  if (useSequencePath) {
+    const flattened = buildPlaybackSequence(visualObj, {
+      fillOptions: fillPlayback,
+      tune: opts.tune,
+      tunebook: opts.tunebook,
+      millisecondsPerMeasure: msPerMeasure,
+      transpose: visualObj.visualTranspose,
+    })
     remapFlattenedMidiPrograms(flattened)
     initOptions.sequence = flattened
   } else {

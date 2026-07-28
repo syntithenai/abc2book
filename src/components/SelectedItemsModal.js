@@ -1,5 +1,5 @@
 import {useRef, useState} from 'react'
-import {Button, ButtonGroup, Form, Modal, Tabs, Tab, ListGroup} from 'react-bootstrap'
+import {Button, ButtonGroup, Dropdown, Form, Modal, Tabs, Tab, ListGroup} from 'react-bootstrap'
 import BulkChangeValueModal from './BulkChangeValueModal'
 import BulkCheckModal from './BulkCheckModal'
 import BulkSearchModal from './BulkSearchModal'
@@ -19,6 +19,15 @@ function BulkOpsDualIcon({leading, trailing}) {
       {leading}
       {trailing}
     </span>
+  )
+}
+
+function BulkOpsDropdownItem({icon, label, onClick}) {
+  return (
+    <Dropdown.Item onClick={onClick}>
+      <span className="bulk-ops-dropdown-item-icon" aria-hidden="true">{icon}</span>
+      <span className="bulk-ops-dropdown-item-label">{label}</span>
+    </Dropdown.Item>
   )
 }
 
@@ -376,6 +385,20 @@ export default function SelectedItemsModal(props) {
     setAddToListKind('practice-list')
   }
 
+  function bulkSetStarred(starred) {
+    var tuneIds = selectedTuneIds()
+    if (!tuneIds.length) return
+    var actionLabel = starred ? 'star' : 'unstar'
+    if (!window.confirm(
+      'Are you sure you want to ' + actionLabel + ' all ' + props.selectedCount + ' selected tune' +
+      (props.selectedCount === 1 ? '' : 's') + '?'
+    )) {
+      return
+    }
+    props.tunebook.bulkChangeTunes(tuneIds, [{ key: 'starred', value: starred }])
+    props.forceRefresh()
+  }
+
   function handleAddToList(list) {
     var tuneIds = selectedTuneIds()
     if (!list || !list.id || !tuneIds.length) return
@@ -439,6 +462,37 @@ export default function SelectedItemsModal(props) {
         <Modal.Body>
           <div className="bulk-ops-toolbar">
             <div className="bulk-ops-toolbar-block bulk-ops-tools-block">
+              <Dropdown
+                as={ButtonGroup}
+                className="bulk-ops-star-dropdown"
+                onSelect={function(key) {
+                  if (key === 'star') bulkSetStarred(true)
+                  else if (key === 'unstar') bulkSetStarred(false)
+                }}
+              >
+                <Dropdown.Toggle
+                  variant="warning"
+                  className="bulk-ops-action-btn"
+                  id="bulk-ops-star"
+                  aria-label="Star selected tunes"
+                  title="Star selected tunes"
+                >
+                  {icons.star}
+                  <span className="bulk-ops-btn-label"> Star</span>
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                  <Dropdown.Item eventKey="star">
+                    <span className="bulk-ops-dropdown-item-icon" aria-hidden="true">
+                      {icons.starfilled || icons.star}
+                    </span>
+                    <span className="bulk-ops-dropdown-item-label">Star selected</span>
+                  </Dropdown.Item>
+                  <Dropdown.Item eventKey="unstar">
+                    <span className="bulk-ops-dropdown-item-icon" aria-hidden="true">{icons.star}</span>
+                    <span className="bulk-ops-dropdown-item-label">Unstar selected</span>
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
               <BulkChangeValueModal
                 forceRefresh={props.forceRefresh}
                 tunebook={props.tunebook}
@@ -469,57 +523,51 @@ export default function SelectedItemsModal(props) {
               />
             </div>
               <div className="bulk-ops-toolbar-block bulk-ops-create-block">
-                <span className="bulk-ops-toolbar-block-title">Lists</span>
-                <ButtonGroup className="bulk-ops-create-btn-group" aria-label="Create or add to lists from selection">
-                  <BulkOpsButton
+                <Dropdown as={ButtonGroup} className="bulk-ops-lists-dropdown">
+                  <Dropdown.Toggle
                     variant="success"
-                    icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.setlist} />}
-                    label="Create setlist"
-                    onClick={createSetlistFromSelected}
+                    className="bulk-ops-action-btn"
+                    id="bulk-ops-lists"
+                    aria-label="Create or add to lists from selection"
+                    title="Create or add to lists from selection"
                   >
-                    Set List
-                  </BulkOpsButton>
-                  <BulkOpsButton
-                    variant="success"
-                    icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.playlist} />}
-                    label="Create playlist"
-                    onClick={createPlaylistFromSelected}
-                  >
-                    Play List
-                  </BulkOpsButton>
-                  <BulkOpsButton
-                    variant="success"
-                    icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.practice} />}
-                    label="Create practice list"
-                    onClick={createPracticeListFromSelected}
-                  >
-                    Practice List
-                  </BulkOpsButton>
-                  <BulkOpsButton
-                    variant="primary"
-                    icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.setlist} />}
-                    label="Add to setlist"
-                    onClick={openAddToSetlist}
-                  >
-                    Add to Set List
-                  </BulkOpsButton>
-                  <BulkOpsButton
-                    variant="primary"
-                    icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.playlist} />}
-                    label="Add to playlist"
-                    onClick={openAddToPlaylist}
-                  >
-                    Add to Play List
-                  </BulkOpsButton>
-                  <BulkOpsButton
-                    variant="primary"
-                    icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.practice} />}
-                    label="Add to practice list"
-                    onClick={openAddToPracticeList}
-                  >
-                    Add to Practice List
-                  </BulkOpsButton>
-                </ButtonGroup>
+                    {icons.filelist}
+                    <span className="bulk-ops-btn-label"> Lists</span>
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <BulkOpsDropdownItem
+                      icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.setlist} />}
+                      label="Create setlist"
+                      onClick={createSetlistFromSelected}
+                    />
+                    <BulkOpsDropdownItem
+                      icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.playlist} />}
+                      label="Create playlist"
+                      onClick={createPlaylistFromSelected}
+                    />
+                    <BulkOpsDropdownItem
+                      icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.reviewsmall} />}
+                      label="Create practice list"
+                      onClick={createPracticeListFromSelected}
+                    />
+                    <Dropdown.Divider />
+                    <BulkOpsDropdownItem
+                      icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.setlist} />}
+                      label="Add to setlist"
+                      onClick={openAddToSetlist}
+                    />
+                    <BulkOpsDropdownItem
+                      icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.playlist} />}
+                      label="Add to playlist"
+                      onClick={openAddToPlaylist}
+                    />
+                    <BulkOpsDropdownItem
+                      icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.reviewsmall} />}
+                      label="Add to practice list"
+                      onClick={openAddToPracticeList}
+                    />
+                  </Dropdown.Menu>
+                </Dropdown>
               </div>
             <div className="bulk-ops-toolbar-block bulk-ops-download-block">
               <TuneDownloadDropdown

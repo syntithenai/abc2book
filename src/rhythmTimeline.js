@@ -96,12 +96,37 @@ export function globalSlotAtOrAfterAudioTime(timeline, audioTime) {
 }
 
 /**
- * Count-in click slots: slotCount clicks, then one silent gap slot, then music at musicStartSlot.
+ * Global slot where music (anacrusis) begins, relative to downbeat slot 0.
+ * Compound meters use pulses (e.g. 12/8 eighth pickup = 1/3 beat → slot -1).
+ * Rounding whole beats alone maps sub-beat pickups to 0 and re-anchors the
+ * downbeat onto the pickup, shifting accents during playback.
  */
-export function musicStartSlotForPickup(pickupBeats) {
+export function musicStartSlotForPickup(pickupBeats, rhythm) {
   const beats = parseFloat(pickupBeats) || 0
   if (beats <= 0) return 0
-  return -Math.round(beats)
+  const pulses = rhythm && Array.isArray(rhythm.pulsesPerBeat)
+    ? rhythm.pulsesPerBeat
+    : null
+  if (!pulses || pulses.length === 0) {
+    return -Math.max(1, Math.round(beats))
+  }
+  let remaining = beats
+  let slots = 0
+  let beatIndex = pulses.length - 1
+  // Walk backward from the barline, consuming whole beats then a fraction.
+  while (remaining > 1e-6) {
+    const pulsesInBeat = pulses[((beatIndex % pulses.length) + pulses.length) % pulses.length] || 1
+    if (remaining >= 1 - 1e-6) {
+      slots += pulsesInBeat
+      remaining -= 1
+      beatIndex -= 1
+    } else {
+      const fracSlots = Math.round(remaining * pulsesInBeat)
+      slots += Math.max(1, fracSlots)
+      remaining = 0
+    }
+  }
+  return slots > 0 ? -slots : 0
 }
 
 export function beatStartSlotBeforeMusic(timeline, musicStartSlot, beatsBack) {
@@ -136,7 +161,7 @@ export function countInSlotRange(timeline, options) {
     ? Math.floor(opts.musicStartSlot)
     : (opts.musicStartAudioTime != null
       ? globalSlotAtOrAfterAudioTime(timeline, parseFloat(opts.musicStartAudioTime))
-      : musicStartSlotForPickup(opts.pickupBeats))
+      : musicStartSlotForPickup(opts.pickupBeats, timeline && timeline.rhythm))
   const clickSlots = countInBeatClickSlots(timeline, beatCount, musicStartSlot)
   const firstSlot = clickSlots.length > 0
     ? clickSlots[0]

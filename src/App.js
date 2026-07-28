@@ -215,11 +215,19 @@ function useIsEmbeddedAppFrame() {
 /** Header + queue host; omitted when the app is loaded in an embed iframe (e.g. Lyrics Tools). */
 function AppMainChrome(props) {
   const embedded = useIsEmbeddedAppFrame()
+  const [nowPlayingExpanded, setNowPlayingExpanded] = useState(false)
   if (embedded) return null
   return (
     <>
-      <Header {...props.headerProps} />
-      <AppQueueLayer {...props.queueProps} />
+      <Header
+        {...props.headerProps}
+        onOpenNowPlaying={function() { setNowPlayingExpanded(true) }}
+      />
+      <AppQueueLayer
+        {...props.queueProps}
+        nowPlayingExpanded={nowPlayingExpanded}
+        setNowPlayingExpanded={setNowPlayingExpanded}
+      />
     </>
   )
 }
@@ -235,6 +243,8 @@ function AppQueueLayer(props) {
   const location = useLocation()
   const navigate = useNavigate()
   const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
+  const nowPlayingExpanded = !!props.nowPlayingExpanded
+  const setNowPlayingExpanded = props.setNowPlayingExpanded
   const showPlaylistTransport = shouldShowPlaylistTransportBar(
     location.pathname,
     props.nowPlayingQueue,
@@ -253,6 +263,24 @@ function AppQueueLayer(props) {
       document.body.classList.remove('app-has-playlist-transport')
     }
   }, [showPlaylistTransport])
+
+  useEffect(function() {
+    if (typeof document === 'undefined') return undefined
+    if (nowPlayingExpanded) {
+      document.body.classList.add('app-now-playing-expanded')
+    } else {
+      document.body.classList.remove('app-now-playing-expanded')
+    }
+    return function() {
+      document.body.classList.remove('app-now-playing-expanded')
+    }
+  }, [nowPlayingExpanded])
+
+  useEffect(function() {
+    if (location.pathname !== '/now-playing') return
+    if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(true)
+    navigate('/books', { replace: true })
+  }, [location.pathname, navigate, setNowPlayingExpanded])
 
   function handleQueueConfirmPlayThisTune() {
     const request = props.queuePlayConfirm
@@ -311,6 +339,31 @@ function AppQueueLayer(props) {
         onResumePlaylist={handleQueueConfirmResumePlaylist}
         onCancel={function() { props.setQueuePlayConfirm(null) }}
       />
+      {nowPlayingExpanded ? (
+        <div
+          className="now-playing-overlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Now playing"
+          onClick={function(event) {
+            if (event.target !== event.currentTarget) return
+            if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(false)
+          }}
+        >
+          <NowPlayingPage
+            mediaController={props.mediaController}
+            tunebook={props.tunebook}
+            tunes={props.tunes}
+            nowPlayingQueue={props.nowPlayingQueue}
+            setNowPlayingQueue={props.setNowPlayingQueue}
+            setQueuePlayConfirm={props.setQueuePlayConfirm}
+            returnPath={location.pathname}
+            onClose={function() {
+              if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(false)
+            }}
+          />
+        </div>
+      ) : null}
       <NowPlayingTransportBar
         nowPlayingQueue={props.nowPlayingQueue}
         setNowPlayingQueue={props.setNowPlayingQueue}
@@ -320,6 +373,8 @@ function AppQueueLayer(props) {
         gigModeActive={props.gigModeActive}
         queuePlayConfirm={props.queuePlayConfirm}
         setQueuePlayConfirm={props.setQueuePlayConfirm}
+        nowPlayingExpanded={nowPlayingExpanded}
+        onNowPlayingExpandedChange={setNowPlayingExpanded}
       />
     </>
   )
@@ -1225,7 +1280,6 @@ function App(props) {
                      <Route  path={`tags`}   element={<BooksPage defaultTab={'tags'} mediaController={mediaController} tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} setCurrentTune={setCurrentTune}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} setQueuePlayConfirm={setQueuePlayConfirm} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token}  user={user} login={login} requestGoogleScopes={requestGoogleScopes} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} filter={filter} tagFilter={tagFilter} setTagFilter={setTagFilter} setGenreFilter={setGenreFilter} setArtistFilter={setArtistFilter} setFilter={setFilter} setGroupBy={setGroupBy} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} googleDocumentId={googleDocumentId} />} />
                     <Route  path={`filters`}   element={<FiltersPage tunebook={tunebook} setFilter={setFilter} setGroupBy={setGroupBy} setTagFilter={setTagFilter} setGenreFilter={setGenreFilter} setArtistFilter={setArtistFilter} setCurrentTuneBook={setCurrentTuneBook} />} />
                     
-                    <Route path={`now-playing`} element={<NowPlayingPage mediaController={mediaController} tunebook={tunebook} tunes={tunes} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} setQueuePlayConfirm={setQueuePlayConfirm} />} />
                     <Route  path={`feed`}   element={<FeedPage  tunebook={tunebook} tunes={tunes} user={user} />}  />
                     <Route  path={`lessons/:lessonId?`} element={<LessonsPage tunebook={tunebook} mediaController={mediaController} user={user} />} />
                     <Route  path={`quizzes`} element={<QuizzesPage tunebook={tunebook} user={user} />} />

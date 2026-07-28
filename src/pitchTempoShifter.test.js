@@ -61,4 +61,14 @@ describe('PitchTempoShifter seek', function() {
     expect(shifter.connect()).toBe(true);
     expect(shifter.isConnected()).toBe(true);
   });
+
+  test('getCurrentTime tracks direct-mode buffer playhead', function() {
+    const ctx = makeAudioContext();
+    const shifter = new PitchTempoShifter(ctx, makeBuffer(10), null, null, null);
+    shifter.applySettings(1, 0, 0);
+    expect(shifter.connect()).toBe(true);
+    expect(shifter.getCurrentTime()).toBeCloseTo(0);
+    ctx.currentTime = 10.5;
+    expect(shifter.getCurrentTime()).toBeCloseTo(0.5);
+  });
 });

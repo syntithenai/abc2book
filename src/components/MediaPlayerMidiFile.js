@@ -33,16 +33,24 @@ export default function MediaPlayerMidiFile(props) {
       const mc = mediaControllerRef.current
       if (mc && mc.setIsLoading) mc.setIsLoading(!!loading)
     },
-    onReady: function(songDuration) {
+    onReady: function(songDuration, readyMeta) {
       const mc = mediaControllerRef.current
+      const audioBlocked = !!(readyMeta && readyMeta.audioBlocked)
       if (mc && mc.setDuration) mc.setDuration(songDuration || 0)
       if (mc && mc.setIsReady) mc.setIsReady(true)
       if (mc && mc.onMediaReady) mc.onMediaReady()
-      if (pendingPlayRef.current && mc && mc.hasActivePlaybackIntent && mc.hasActivePlaybackIntent()) {
+      if (!audioBlocked && pendingPlayRef.current && mc && mc.hasActivePlaybackIntent && mc.hasActivePlaybackIntent()) {
         pendingPlayRef.current = false
-        playback.start()
-        if (mc.setIsPlaying) mc.setIsPlaying(true)
-        if (mc.setIsLoading) mc.setIsLoading(false)
+        playback.start().then(function(ok) {
+          if (ok) {
+            if (mc.setIsPlaying) mc.setIsPlaying(true)
+            if (mc.setIsLoading) mc.setIsLoading(false)
+          } else if (mc.setTapToPlay) {
+            mc.setTapToPlay(true)
+            if (mc.setIsPlaying) mc.setIsPlaying(false)
+            if (mc.setIsLoading) mc.setIsLoading(false)
+          }
+        })
       } else if (mc && mc.setIsLoading) {
         mc.setIsLoading(false)
       }
@@ -84,7 +92,9 @@ export default function MediaPlayerMidiFile(props) {
       }
       const ok = await engine.start()
       if (ok && mc.setIsPlaying) mc.setIsPlaying(true)
+      if (!ok && mc.setTapToPlay) mc.setTapToPlay(true)
       if (ok && mc.setIsLoading) mc.setIsLoading(false)
+      if (!ok && mc.setIsLoading) mc.setIsLoading(false)
       return ok
     }
 

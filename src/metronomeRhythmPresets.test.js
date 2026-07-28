@@ -5,15 +5,18 @@ import {
   METRONOME_TICK,
 } from './metronomeTickSounds'
 import {
+  accentsForAdditiveGroups,
   createRhythm,
   countInMusicStartDelayMs,
   cycleAccentLevel,
   defaultMetronomeRhythm,
   formatRhythmText,
+  meterTextFromAbcMeterElement,
   normalizeAccentPattern,
   normalizeTimeSignatureText,
   parseRhythmText,
   presetIdForRhythm,
+  rhythmFromAbcMeterElement,
   rhythmFromPreset,
   rhythmFromTimeSignature,
   rhythmKey,
@@ -140,29 +143,66 @@ describe('metronomeRhythmPresets', function() {
     expect(rhythmFromTimeSignature('C')).toEqual(rhythmFromPreset('4-4'))
   })
 
-  test('parseRhythmText converts time signatures with first-beat accent', function() {
+  test('parseRhythmText converts time signatures with accent patterns', function() {
     expect(parseRhythmText('4/4')).toEqual(defaultMetronomeRhythm())
     expect(parseRhythmText('3-4')).toEqual(createRhythm(3, [METRONOME_ACCENT], 1))
     expect(parseRhythmText('6/8')).toEqual(createRhythm(2, [METRONOME_ACCENT], 3))
     expect(parseRhythmText('9/8').beatsPerBar).toBe(3)
     expect(parseRhythmText('9/8').pulsesPerBeat).toEqual([3, 3, 3])
-    expect(parseRhythmText('7/8')).toEqual(createRhythm(4, [METRONOME_ACCENT], 2))
-    expect(parseRhythmText('5/4').accents).toEqual([
+    expect(parseRhythmText('7/8')).toEqual(rhythmFromPreset('7-8'))
+    expect(slotsPerBar(parseRhythmText('7/8'))).toBe(7)
+    expect(parseRhythmText('5/8')).toEqual(rhythmFromPreset('5-8'))
+    expect(parseRhythmText('11/8')).toEqual(rhythmFromPreset('11-8'))
+    expect(parseRhythmText('5/4')).toEqual(rhythmFromPreset('5-4'))
+    expect(parseRhythmText('3+2')).toEqual(createRhythm(
+      2,
+      [METRONOME_ACCENT, METRONOME_TICK],
+      [3, 2]
+    ))
+    expect(parseRhythmText('2+2+3/8').pulsesPerBeat).toEqual([2, 2, 3])
+    expect(slotsPerBar(parseRhythmText('2+2+3/8'))).toBe(7)
+    expect(parseRhythmText('2+2+3/8').accents).toEqual([
       METRONOME_ACCENT,
       METRONOME_TICK,
       METRONOME_TICK,
+    ])
+    expect(parseRhythmText('3+2+3/8').pulsesPerBeat).toEqual([3, 2, 3])
+    expect(slotsPerBar(parseRhythmText('3+2+3/8'))).toBe(8)
+    expect(parseRhythmText('nope')).toBeNull()
+  })
+
+  test('additive accents use strong downbeat and medium group starts', function() {
+    expect(accentsForAdditiveGroups(3)).toEqual([
+      METRONOME_ACCENT,
       METRONOME_TICK,
       METRONOME_TICK,
     ])
-    expect(parseRhythmText('5/4').pulsesPerBeat).toEqual([1, 1, 1, 1, 1])
-    expect(parseRhythmText('3+2')).toEqual(createRhythm(2, [METRONOME_ACCENT], [3, 2]))
-    expect(parseRhythmText('nope')).toBeNull()
+    const rhythm = parseRhythmText('2+2+3/8')
+    expect(slotAccentLevel(rhythm, 0)).toBe(METRONOME_ACCENT)
+    expect(slotAccentLevel(rhythm, 2)).toBe(METRONOME_TICK)
+    expect(slotAccentLevel(rhythm, 3)).toBe(METRONOME_SUB)
+    expect(slotAccentLevel(rhythm, 4)).toBe(METRONOME_TICK)
+  })
+
+  test('meterTextFromAbcMeterElement supports additive value arrays', function() {
+    const element = {
+      el_type: 'timeSignature',
+      value: [{ num: 2, den: 8 }, { num: 2, den: 8 }, { num: 3, den: 8 }],
+    }
+    expect(meterTextFromAbcMeterElement(element)).toBe('2+2+3/8')
+    const rhythm = rhythmFromAbcMeterElement(element)
+    expect(slotsPerBar(rhythm)).toBe(7)
+    expect(rhythm.accents).toEqual([
+      METRONOME_ACCENT,
+      METRONOME_TICK,
+      METRONOME_TICK,
+    ])
   })
 
   test('formatRhythmText prefers known labels and additive patterns', function() {
     expect(formatRhythmText(defaultMetronomeRhythm())).toBe('4/4')
     expect(formatRhythmText(createRhythm(2, [METRONOME_ACCENT], 3))).toBe('6/8')
     expect(formatRhythmText(createRhythm(5, [METRONOME_ACCENT], 1))).toBe('5/4')
-    expect(formatRhythmText(createRhythm(2, [METRONOME_ACCENT], [3, 2]))).toBe('3+2')
+    expect(formatRhythmText(createRhythm(2, [METRONOME_ACCENT], [3, 2]))).toBe('5/8')
   })
 })

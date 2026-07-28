@@ -45,6 +45,19 @@ export default class PitchTempoShifter {
     return this.shifter ? this.shifter.percentagePlayed / 100 : 0;
   }
 
+  /** Seconds into the rendered buffer (score/audio timeline), not wall clock. */
+  getCurrentTime() {
+    if (this._mode === 'direct') {
+      return Math.max(0, this._getDirectPlaybackSeconds());
+    }
+    if (this.shifter && typeof this.shifter.timePlayed === 'number') {
+      return Math.max(0, this.shifter.timePlayed);
+    }
+    const duration = this.duration;
+    if (!duration) return 0;
+    return Math.max(0, this.getPlaybackRatio() * duration);
+  }
+
   _applySoundTouchSettings() {
     if (!this.shifter) return;
     this.shifter.tempo = this._tempo;

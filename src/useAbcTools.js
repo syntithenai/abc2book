@@ -77,6 +77,12 @@ var useAbcTools = () => {
         if (tune.playbackMetronomePresetId) {
             lines += "% abcbook-playback-metronome-preset-id " + tune.playbackMetronomePresetId + "\n"
         }
+        if (tune.playbackFillStyle && tune.playbackFillStyle !== 'boom-chick') {
+            lines += "% abcbook-playback-fill-style " + tune.playbackFillStyle + "\n"
+        }
+        if (tune.playbackFillLevel != null && tune.playbackFillLevel !== 100) {
+            lines += "% abcbook-playback-fill-level " + tune.playbackFillLevel + "\n"
+        }
         return lines
     }
     
@@ -419,6 +425,11 @@ var useAbcTools = () => {
                     tune.playbackMetronomeEngine = abcbookFieldValue(line, '% abcbook-playback-metronome-engine')
                 } else  if (line.startsWith('% abcbook-playback-metronome-preset-id')) {
                     tune.playbackMetronomePresetId = abcbookFieldValue(line, '% abcbook-playback-metronome-preset-id')
+                } else  if (line.startsWith('% abcbook-playback-fill-style')) {
+                    tune.playbackFillStyle = abcbookFieldValue(line, '% abcbook-playback-fill-style')
+                } else  if (line.startsWith('% abcbook-playback-fill-level')) {
+                    var fillLevelVal = parseInt(abcbookFieldValue(line, '% abcbook-playback-fill-level'), 10)
+                    tune.playbackFillLevel = fillLevelVal >= 0 ? fillLevelVal : 100
                 } else  if (line.startsWith('% abcbook-lyrics-scroll-speed')) {
                     var lyricsScrollSpeedVal = parseFloat(abcbookFieldValue(line, '% abcbook-lyrics-scroll-speed'))
                     tune.lyricsScrollSpeed = lyricsScrollSpeedVal > 0 ? lyricsScrollSpeedVal : 1

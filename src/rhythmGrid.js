@@ -118,12 +118,14 @@ export function createPlayingScheduleState() {
     epochMusicSeconds: null,
     epochAudioTime: null,
     tempo: 0,
+    tempoFactor: 1,
+    nextGlobalSlot: null,
   }
 }
 
-export function bootstrapPlayingScheduleEpoch(state, musicSeconds, audioContextTime, tempo) {
+export function bootstrapPlayingScheduleEpoch(state, musicSeconds, audioContextTime, tempo, tempoFactor) {
   resetPlayingScheduleState(state)
-  ensureScheduleEpoch(state, musicSeconds, audioContextTime, tempo)
+  ensureScheduleEpoch(state, musicSeconds, audioContextTime, tempo, tempoFactor)
 }
 
 export function resetPlayingScheduleState(state) {
@@ -132,49 +134,89 @@ export function resetPlayingScheduleState(state) {
   state.epochMusicSeconds = null
   state.epochAudioTime = null
   state.tempo = 0
+  state.tempoFactor = 1
+  state.nextGlobalSlot = null
 }
 
 export const SCHEDULE_DRIFT_REANCHOR_SEC = 0.08
 
-export function ensureScheduleEpoch(state, musicSeconds, audioContextTime, tempo) {
+function normalizeTempoFactor(tempoFactor) {
+  const factor = parseFloat(tempoFactor)
+  return factor > 0 ? factor : 1
+}
+
+/**
+ * musicSeconds is score time; audio advances as score / tempoFactor.
+ * tempo is score BPM (not multiplied by playback speed).
+ */
+export function ensureScheduleEpoch(state, musicSeconds, audioContextTime, tempo, tempoFactor) {
   const nextTempo = parseFloat(tempo) || 120
+  const factor = normalizeTempoFactor(tempoFactor)
   const tempoChanged = state.tempo > 0 && state.tempo !== nextTempo
-  if (state.epochMusicSeconds == null || state.epochAudioTime == null || tempoChanged) {
+  const factorChanged = state.tempoFactor > 0 && state.tempoFactor !== factor
+  if (state.epochMusicSeconds == null || state.epochAudioTime == null
+      || tempoChanged || factorChanged) {
     state.epochMusicSeconds = musicSeconds
     state.epochAudioTime = audioContextTime
     state.tempo = nextTempo
+    state.tempoFactor = factor
     return
   }
-  const expectedAudio = state.epochAudioTime + (musicSeconds - state.epochMusicSeconds)
+  const expectedAudio = state.epochAudioTime
+    + (musicSeconds - state.epochMusicSeconds) / factor
   const drift = Math.abs(expectedAudio - audioContextTime)
   if (drift > SCHEDULE_DRIFT_REANCHOR_SEC) {
     state.epochMusicSeconds = musicSeconds
     state.epochAudioTime = audioContextTime
   }
   state.tempo = nextTempo
-}
-
-function slotMusicTimeToAudio(state, slotMusicTime) {
-  return state.epochAudioTime + (slotMusicTime - state.epochMusicSeconds)
+  state.tempoFactor = factor
 }
 
 /**
- * Schedule clicks/drums from the music clock. Re-anchors when the music/audio
- * mapping drifts so slots are not marked scheduled without sounding.
+ * Map a score/buffer time onto the audio clock using this tick's playhead sample.
+ * Prefer this over a sticky epoch so clicks stay locked to the audible buffer.
+ */
+export function slotMusicTimeToAudio(state, slotMusicTime, tempoFactor, musicSeconds, audioContextTime) {
+  const factor = normalizeTempoFactor(
+    tempoFactor != null ? tempoFactor : (state && state.tempoFactor)
+  )
+  if (Number.isFinite(musicSeconds) && Number.isFinite(audioContextTime)) {
+    return audioContextTime + (slotMusicTime - musicSeconds) / factor
+  }
+  if (!state || state.epochAudioTime == null || state.epochMusicSeconds == null) {
+    return audioContextTime
+  }
+  return state.epochAudioTime + (slotMusicTime - state.epochMusicSeconds) / factor
+}
+
+/**
+ * Schedule clicks/drums from the music clock.
  *
  * musicStartSlot: global slot of the first sounding note (0 = bar downbeat,
  * -1 = one-beat anacrusis). Offsets the grid so accent stays on the true
  * downbeat after a pickup.
+ *
+ * tempo: score BPM (buffer timeline). tempoFactor: playback speed
+ * (buffer_seconds ≈ wall * factor for direct/SoundTouch engines).
+ *
+ * Each tick schedules relative to the live (musicSeconds, audioContextTime)
+ * pair so a stale epoch cannot drag the click tempo off the tune.
  */
 export function schedulePlayingSlots(state, options) {
   const opts = options || {}
   if (!state) return { scheduled: 0 }
   const rhythm = normalizeRhythmConfig(opts.rhythm)
   const tempo = parseFloat(opts.tempo) || 120
+  const tempoFactor = normalizeTempoFactor(opts.tempoFactor)
   const swing = opts.swing != null ? opts.swing : getRhythmSwing(rhythm)
   const musicSeconds = Math.max(0, parseFloat(opts.musicSeconds) || 0)
   const audioContextTime = parseFloat(opts.audioContextTime)
-  const musicStartSlot = Math.floor(parseFloat(opts.musicStartSlot) || 0)
+  // Use != null so musicStartSlot=-1 (one-beat anacrusis) is preserved.
+  const rawMusicStartSlot = opts.musicStartSlot != null
+    ? Math.floor(parseFloat(opts.musicStartSlot))
+    : 0
+  const musicStartSlot = Number.isFinite(rawMusicStartSlot) ? rawMusicStartSlot : 0
   const lookaheadSec = opts.lookaheadSec > 0
     ? parseFloat(opts.lookaheadSec)
     : computeMusicLockedLookaheadSec(rhythm, tempo, swing)
@@ -183,7 +225,7 @@ export function schedulePlayingSlots(state, options) {
     return { scheduled: 0 }
   }
 
-  ensureScheduleEpoch(state, musicSeconds, audioContextTime, tempo)
+  ensureScheduleEpoch(state, musicSeconds, audioContextTime, tempo, tempoFactor)
 
   const totalSlots = slotsPerBar(rhythm)
   if (!(totalSlots > 0)) return { scheduled: 0 }
@@ -211,7 +253,13 @@ export function schedulePlayingSlots(state, options) {
         state.scheduledKeys.add(key)
       } else {
         const slotInBar = slotInBarForGlobal(globalSlot, totalSlots)
-        const audioTime = slotMusicTimeToAudio(state, slotMusicTime)
+        const audioTime = slotMusicTimeToAudio(
+          state,
+          slotMusicTime,
+          tempoFactor,
+          musicSeconds,
+          audioContextTime
+        )
         if (audioTime >= audioContextTime - scheduleToleranceSec) {
           playSlot(audioTime, slotInBar, globalSlot)
           state.scheduledKeys.add(key)

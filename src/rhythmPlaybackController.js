@@ -11,8 +11,12 @@ import {
   computeCountInSchedule,
   reanchorTimelineAtSlot,
   countInSlotRange,
+  scheduleTimelineSlots,
+  audioTimeForGlobalSlot,
+  globalSlotAtOrAfterAudioTime,
 } from './rhythmTimeline'
 import { armRhythmOutputBus, silenceRhythmOutputBus } from './rhythmOutputBus'
+import { rhythmsEqual } from './metronomeRhythmPresets'
 
 export const PHASE_IDLE = 'idle'
 export const PHASE_COUNT_IN = 'countIn'
@@ -236,18 +240,38 @@ function runPlayingTick(controller) {
   if (controller.phase === PHASE_COUNT_IN || controller.phase === PHASE_ENTRY_GAP) return
   if (controller.phase !== PHASE_PLAYING) return
   if (!controller.rhythm) return
+  const playSlot = function(audioTime, slotInBar, globalSlot) {
+    playSlotAt(controller, audioTime, slotInBar, globalSlot, audioTime)
+  }
+  if (controller.timeline) {
+    const barLookahead = controller.timeline.barDur > 0
+      ? controller.timeline.barDur
+      : 2
+    const minSlot = controller.musicStartSlot != null
+      ? Math.floor(controller.musicStartSlot)
+      : 0
+    scheduleTimelineSlots(controller.timeline, controller.scheduleState, {
+      audioContextTime: controller.audioContext.currentTime,
+      lookaheadSec: Math.max(0.25, barLookahead),
+      minGlobalSlot: minSlot,
+      playSlot: playSlot,
+    })
+    return
+  }
   const getMusicSeconds = controller.callbacks.getMusicSeconds
   const musicSeconds = typeof getMusicSeconds === 'function' ? getMusicSeconds() : 0
+  const tempoFactor = typeof controller.callbacks.getTempoFactor === 'function'
+    ? controller.callbacks.getTempoFactor()
+    : 1
   schedulePlayingSlots(controller.scheduleState, {
     rhythm: controller.rhythm,
     tempo: controller.tempo,
+    tempoFactor: tempoFactor,
     swing: controller.swing,
     musicSeconds: musicSeconds,
     musicStartSlot: controller.musicStartSlot != null ? controller.musicStartSlot : 0,
     audioContextTime: controller.audioContext.currentTime,
-    playSlot: function(audioTime, slotInBar, globalSlot) {
-      playSlotAt(controller, audioTime, slotInBar, globalSlot, audioTime)
-    },
+    playSlot: playSlot,
   })
 }
 
@@ -274,7 +298,8 @@ function bootstrapPlayingFromMusicStart(controller, musicSeconds) {
     controller.scheduleState,
     secs,
     anchorAudio,
-    controller.tempo
+    controller.tempo,
+    factor
   )
 }
 
@@ -385,6 +410,8 @@ export function enterRhythmPlaying(controller, options) {
   controller.callbacks.getTempoFactor = opts.getTempoFactor || controller.callbacks.getTempoFactor
   controller.callbacks.onDrift = opts.onDrift || controller.callbacks.onDrift
   controller.pickupBeats = opts.pickupBeats != null ? parseFloat(opts.pickupBeats) || 0 : controller.pickupBeats
+  // Mid-tune resume has no count-in timeline — use music-seconds scheduling.
+  controller.timeline = null
   if (typeof opts.musicStartAudioTime === 'number') {
     controller.musicStartAudioTime = opts.musicStartAudioTime
   }
@@ -433,8 +460,51 @@ export function setRhythmPlaybackTempo(controller, tempo) {
   if (!controller) return
   const next = parseFloat(tempo)
   if (!(next > 0)) return
+  if (Math.abs(controller.tempo - next) < 0.01) return
   controller.tempo = next
   if (controller.phase === PHASE_PLAYING && controller.audioContext) {
+    if (controller.timeline) {
+      const now = controller.audioContext.currentTime
+      const currentSlot = globalSlotAtOrAfterAudioTime(controller.timeline, now)
+      controller.timeline = createRhythmTimeline({
+        rhythm: controller.rhythm,
+        tempo: next,
+        swing: controller.swing,
+        downbeatAudioTime: 0,
+      })
+      reanchorTimelineAtSlot(controller.timeline, currentSlot, now)
+      resetPlayingScheduleState(controller.scheduleState)
+      runPlayingTick(controller)
+      return
+    }
+    const getMusicSeconds = controller.callbacks.getMusicSeconds
+    const musicSeconds = typeof getMusicSeconds === 'function' ? getMusicSeconds() : 0
+    bootstrapPlayingFromMusicStart(controller, musicSeconds)
+    runPlayingTick(controller)
+  }
+}
+
+export function setRhythmPlaybackRhythm(controller, rhythm) {
+  if (!controller) return
+  const next = normalizeRhythmConfig(rhythm)
+  if (!next) return
+  if (controller.rhythm && rhythmsEqual(controller.rhythm, next)) return
+  controller.rhythm = next
+  if (controller.phase === PHASE_PLAYING && controller.audioContext) {
+    if (controller.timeline) {
+      const now = controller.audioContext.currentTime
+      const currentSlot = globalSlotAtOrAfterAudioTime(controller.timeline, now)
+      controller.timeline = createRhythmTimeline({
+        rhythm: next,
+        tempo: controller.tempo,
+        swing: controller.swing,
+        downbeatAudioTime: 0,
+      })
+      reanchorTimelineAtSlot(controller.timeline, currentSlot, now)
+      resetPlayingScheduleState(controller.scheduleState)
+      runPlayingTick(controller)
+      return
+    }
     const getMusicSeconds = controller.callbacks.getMusicSeconds
     const musicSeconds = typeof getMusicSeconds === 'function' ? getMusicSeconds() : 0
     bootstrapPlayingFromMusicStart(controller, musicSeconds)
@@ -456,7 +526,28 @@ export function beginRhythmPlayingAtMusicStart(controller, options) {
     controller.musicStartSlot = opts.musicStartSlot
   }
   if (controller.audioContext) {
-    bootstrapPlayingFromMusicStart(controller, musicSeconds)
+    if (controller.timeline) {
+      // Continue the count-in audio grid; optionally re-anchor if handoff
+      // reports a different audible start than the pre-scheduled downbeat.
+      if (typeof opts.musicStartAudioTime === 'number'
+          && controller.musicStartSlot != null) {
+        const expected = audioTimeForGlobalSlot(
+          controller.timeline,
+          controller.musicStartSlot
+        )
+        const drift = Math.abs(expected - opts.musicStartAudioTime)
+        if (drift > 0.02) {
+          reanchorTimelineAtSlot(
+            controller.timeline,
+            controller.musicStartSlot,
+            opts.musicStartAudioTime
+          )
+        }
+      }
+      resetPlayingScheduleState(controller.scheduleState)
+    } else {
+      bootstrapPlayingFromMusicStart(controller, musicSeconds)
+    }
     runPlayingTick(controller)
     ensurePlayingInterval(controller)
   }

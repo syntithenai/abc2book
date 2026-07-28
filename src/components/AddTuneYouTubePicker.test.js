@@ -11,6 +11,40 @@ globalThis.IS_REACT_ACT_ENVIRONMENT = true
 jest.mock('../mediaLinkSearchClient', function() {
   return {
     searchMediaLinks: jest.fn(),
+    MAX_MEDIA_SEARCH_RESULTS: 50,
+  }
+})
+
+jest.mock('../useMediaResolverHealth', function() {
+  return function useMediaResolverHealth() {
+    return {
+      status: null,
+      available: true,
+      features: {},
+      refreshMediaResolverHealth: jest.fn(),
+    }
+  }
+})
+
+jest.mock('./VoiceFillInput', function() {
+  const React = require('react')
+  return function VoiceFillInput(props) {
+    return React.createElement('input', {
+      value: props.value || '',
+      'data-testid': props['data-testid'] || 'voice-fill-input',
+      onChange: props.onChange,
+      onBlur: props.onBlur,
+      onFocus: props.onFocus,
+    })
+  }
+})
+
+jest.mock('../mediaSearchAccess', function() {
+  return {
+    __esModule: true,
+    getMediaSearchAccess: function() {
+      return { loginWarning: null, needsLogin: false }
+    },
   }
 })
 
@@ -61,5 +95,28 @@ describe('AddTuneYouTubePicker', function() {
     expect(onChange).toHaveBeenCalledWith(
       expect.objectContaining({ title: 'First', link: 'https://youtu.be/1' })
     )
+  })
+
+  test('searches all media sources with the full result cap', async function() {
+    searchMediaLinks.mockResolvedValue({ candidates: [] })
+
+    await act(async function() {
+      root.render(React.createElement(AddTuneYouTubePicker, {
+        searchQuery: 'Song Writer',
+        searchNonce: 1,
+        debounceMs: 0,
+      }))
+    })
+
+    await act(async function() {
+      jest.runAllTimers()
+      await Promise.resolve()
+    })
+
+    expect(searchMediaLinks).toHaveBeenCalledWith(expect.objectContaining({
+      query: 'Song Writer',
+      maxResults: 50,
+      maxTotalResults: 50,
+    }))
   })
 })

@@ -29,6 +29,8 @@ export default function TuneListRow(props) {
 
   if (!tune || !tune.id) return null
 
+  const liveTune = (props.tunes && props.tunes[tune.id]) || tune
+
   const isCompact = props.isCompact
   const isPreview = props.isPreview
   const showRowExtras = props.showRowExtras
@@ -137,7 +139,7 @@ export default function TuneListRow(props) {
             <StarToggleButton
               className="tune-list-star-btn"
               tunebook={props.tunebook}
-              tune={tune}
+              tune={liveTune}
               forceRefresh={props.forceRefresh}
             />
           ) : null}

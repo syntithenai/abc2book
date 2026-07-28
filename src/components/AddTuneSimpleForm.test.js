@@ -131,13 +131,12 @@ describe('AddTuneSimpleForm', function() {
     expect(container.querySelector('[data-testid="add-tune-media-block"]')).toBeTruthy()
   })
 
-  test('clicking a selected artist updates the YouTube search to that artist', function() {
+  test('artist blur updates the YouTube search query', function() {
     act(function() {
       root.render(React.createElement(AddTuneSimpleForm, {
         values: {
           title: 'Whiskey in the Jar',
-          artist: 'Traditional',
-          artists: ['The Dubliners', 'Metallica'],
+          artist: 'The Dubliners',
         },
         tunes: {},
         candidateId: 'add-1',
@@ -145,12 +144,11 @@ describe('AddTuneSimpleForm', function() {
       }))
     })
 
-    const chip = container.querySelector('[data-testid="chip-list-select-item"]')
-    expect(chip).toBeTruthy()
-    expect(chip.textContent).toBe('The Dubliners')
+    const artistInput = container.querySelector('[data-testid="add-tune-composer"]')
+    expect(artistInput).toBeTruthy()
 
     act(function() {
-      chip.click()
+      Simulate.blur(artistInput)
     })
 
     const youtube = container.querySelector('[data-testid="add-tune-youtube-block"]')
@@ -158,7 +156,7 @@ describe('AddTuneSimpleForm', function() {
     expect(Number(youtube.getAttribute('data-search-nonce'))).toBeGreaterThan(0)
   })
 
-  test('discography button is disabled without composer', function() {
+  test('discography button is disabled without artist', function() {
     act(function() {
       root.render(React.createElement(AddTuneSimpleForm, {
         values: { title: 'Song', artist: '' },

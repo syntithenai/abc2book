@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { Button } from 'react-bootstrap'
 import {
   isQueueActive,
@@ -10,14 +10,17 @@ import { isQueuePlaybackEngaged, getActivePlaybackTuneId } from '../playbackNavi
 import MediaSeekSlider from '../components/MediaSeekSlider'
 import PlaybackVolumeSlider from '../components/PlaybackVolumeSlider'
 import TuneArtwork from '../components/TuneArtwork'
-import NowPlayingQueueManager from '../components/NowPlayingQueueManager'
-import PlaylistToolbar from '../components/PlaylistToolbar'
+import { getTuneArtworkUrl } from '../nowPlayingArtwork'
+import MediaPlaybackSettingsTabs from '../components/MediaPlaybackSettingsTabs'
+import MediaSourcePlaybackButtons from '../components/MediaSourcePlaybackButtons'
 import { useDocumentTitle } from '../pageTitle'
 import './NowPlayingPage.css'
 
 export default function NowPlayingPage(props) {
   const navigate = useNavigate()
+  const location = useLocation()
   const [, setTick] = useState(0)
+  const returnPath = props.returnPath || location.pathname
   const mediaController = props.mediaController
   const nowPlayingQueue = props.nowPlayingQueue
   const queueActive = isQueueActive(nowPlayingQueue)
@@ -29,16 +32,26 @@ export default function NowPlayingPage(props) {
   const positionLabel = queueActive ? getQueuePositionLabel(nowPlayingQueue) : null
   const mediaIsPlaying = !!(mediaController && mediaController.isPlaying)
   const isLoading = !!(mediaController && mediaController.isLoading)
+  const artworkUrl = playingTune ? getTuneArtworkUrl(playingTune, props.tunebook) : null
+  const [showArtwork, setShowArtwork] = useState(!!artworkUrl)
 
   useDocumentTitle(tuneName + ' — Now Playing')
 
+  useEffect(function() {
+    setShowArtwork(!!artworkUrl)
+  }, [artworkUrl, activeTuneId])
+
   const handleClose = useCallback(function() {
+    if (typeof props.onClose === 'function') {
+      props.onClose()
+      return
+    }
     if (window.history.length > 1) {
       navigate(-1)
     } else {
       navigate('/books')
     }
-  }, [navigate])
+  }, [navigate, props.onClose])
 
   useEffect(function() {
     if (!playbackEngaged && !queueActive) return undefined
@@ -89,19 +102,25 @@ export default function NowPlayingPage(props) {
       )
       return
     }
-    toggleTunePlayback(mediaController, props.tunebook, navigate, { pathname: activeTuneId ? '/tunes/' + activeTuneId : '/now-playing' }, queueContext)
+    toggleTunePlayback(
+      mediaController,
+      props.tunebook,
+      navigate,
+      { pathname: activeTuneId ? '/tunes/' + activeTuneId : returnPath },
+      queueContext
+    )
   }
 
   function stepPlaylist(direction) {
     if (!queueActive || !activeTuneId) return
     if (direction >= 0) {
-      props.tunebook.navigateToNextSong(activeTuneId, null, navigate, '/now-playing', {
+      props.tunebook.navigateToNextSong(activeTuneId, null, navigate, returnPath, {
         mediaController: mediaController,
         useQueueNavigation: true,
         startPlayback: true,
       })
     } else {
-      props.tunebook.navigateToPreviousSong(activeTuneId, navigate, '/now-playing', {
+      props.tunebook.navigateToPreviousSong(activeTuneId, navigate, returnPath, {
         mediaController: mediaController,
         useQueueNavigation: true,
         startPlayback: true,
@@ -134,38 +153,16 @@ export default function NowPlayingPage(props) {
       </div>
 
       <div className="now-playing-page-body">
-        <div className="now-playing-page-main-row">
-          <div className="now-playing-page-artwork-col">
-            {playingTune ? (
-              <TuneArtwork
-                tune={playingTune}
-                tunebook={props.tunebook}
-                className="now-playing-page-artwork"
-              />
-            ) : null}
-          </div>
-
+        <div
+          className={
+            'now-playing-page-main-row'
+            + (showArtwork ? ' now-playing-page-main-row--with-artwork' : '')
+          }
+        >
           <div className="now-playing-page-center">
             <div className="now-playing-page-title-row">
-              <div className="now-playing-page-title-line">
-                {activeTuneId ? (
-                  <Link to={'/tunes/' + activeTuneId} className="now-playing-page-title-link">
-                    {tuneName}
-                  </Link>
-                ) : (
-                  <span className="now-playing-page-title-link">{tuneName}</span>
-                )}
-                {composer ? <span className="now-playing-page-title-composer"> — {composer}</span> : null}
-                {positionLabel ? <span className="now-playing-page-title-position"> ({positionLabel})</span> : null}
-              </div>
-
               {mediaController ? (
                 <div className="now-playing-page-transport-row">
-                  <PlaybackVolumeSlider
-                    mediaController={mediaController}
-                    className="now-playing-page-volume"
-                    volumeIcon={props.tunebook.icons.volume}
-                  />
                   {queueActive ? (
                     <Button variant="outline-primary" className="now-playing-page-step-btn" aria-label="Previous" onClick={function() { stepPlaylist(-1) }}>
                       {props.tunebook.icons.previous}
@@ -186,34 +183,73 @@ export default function NowPlayingPage(props) {
                   ) : null}
                 </div>
               ) : null}
+
+              <div className="now-playing-page-title-line">
+                {activeTuneId ? (
+                  <Link to={'/tunes/' + activeTuneId} className="now-playing-page-title-link">
+                    {tuneName}
+                  </Link>
+                ) : (
+                  <span className="now-playing-page-title-link">{tuneName}</span>
+                )}
+                {composer ? <span className="now-playing-page-title-composer"> — {composer}</span> : null}
+                {positionLabel ? <span className="now-playing-page-title-position"> ({positionLabel})</span> : null}
+              </div>
+
+              {mediaController ? (
+                <PlaybackVolumeSlider
+                  mediaController={mediaController}
+                  className="now-playing-page-volume"
+                  volumeIcon={props.tunebook.icons.volume}
+                />
+              ) : null}
             </div>
           </div>
+
+          {showArtwork && playingTune ? (
+            <div className="now-playing-page-artwork-col">
+              <TuneArtwork
+                tune={playingTune}
+                tunebook={props.tunebook}
+                className="now-playing-page-artwork"
+                onHidden={function() { setShowArtwork(false) }}
+              />
+            </div>
+          ) : null}
         </div>
 
-        {mediaController ? (
-          <MediaSeekSlider mediaController={mediaController} className="now-playing-page-seek" />
+        {mediaController && playingTune ? (
+          <>
+            <MediaSeekSlider mediaController={mediaController} className="now-playing-page-seek" />
+            <div className="now-playing-page-media-sources">
+              <div className="media-controls-playback-buttons">
+                <MediaSourcePlaybackButtons
+                  tune={playingTune}
+                  tunebook={props.tunebook}
+                  mediaController={mediaController}
+                  suppressRouteNavigation
+                />
+              </div>
+            </div>
+          </>
         ) : null}
       </div>
 
-      {queueActive ? (
-        <div className="now-playing-page-playlist-section">
-          <hr className="now-playing-page-playlist-divider" />
-          <div className="now-playing-page-playlist-header">
-            <h2>Playlist{nowPlayingQueue.name ? ': ' + nowPlayingQueue.name : ''}</h2>
-          </div>
-          <PlaylistToolbar
+      {mediaController && (playingTune || queueActive) ? (
+        <div className="now-playing-page-controls-section">
+          {playingTune ? (
+            <hr className="now-playing-page-tabs-divider" />
+          ) : null}
+          <MediaPlaybackSettingsTabs
+            tune={playingTune}
             tunebook={props.tunebook}
-            nowPlayingQueue={nowPlayingQueue}
-            setNowPlayingQueue={props.setNowPlayingQueue}
-            tunes={props.tunes}
-            onCleared={handleClose}
-          />
-          <NowPlayingQueueManager
-            tunebook={props.tunebook}
-            nowPlayingQueue={nowPlayingQueue}
-            setNowPlayingQueue={props.setNowPlayingQueue}
-            tunes={props.tunes}
             mediaController={mediaController}
+            className="now-playing-page-settings-tabs"
+            active
+            nowPlayingQueue={nowPlayingQueue}
+            setNowPlayingQueue={props.setNowPlayingQueue}
+            tunes={props.tunes}
+            onPlaylistCleared={handleClose}
           />
         </div>
       ) : null}

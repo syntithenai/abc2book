@@ -46,6 +46,8 @@ import { buildGigRoute, getPlaylistTuneIdAtIndex } from '../gigRouteUtils';
 import MarkdownContent from './MarkdownContent';
 import LyricsZoomControls from './LyricsZoomControls';
 import StructureChordBlock from './StructureChordBlock';
+import StructureCapoControl from './StructureCapoControl';
+import ChordPitchButton from './ChordPitchButton';
 import { useCapoViewState } from '../useCapoViewState';
 import { chordTransposeWithCapo } from '../capoViewUtils';
 import './GigModeModal.css';
@@ -73,6 +75,7 @@ export default function GigModeModal(props) {
   const gigBodyRef = useRef(null);
   const notationColRef = useRef(null);
   const notationRef = useRef(null);
+  const lastNotationChordRef = useRef('');
   const notationFitSizeRef = useRef({ width: 0, height: 0 });
   const [showSetList, setShowSetList] = useState(false);
   const [fontScale, setFontScale] = useState(1.2);
@@ -173,6 +176,45 @@ export default function GigModeModal(props) {
     return chordTransposeWithCapo(totalTranspose, capoState.capoOffset, capoState.capoEnabled);
   }, [currentTune, setItem, capoState.capoOffset, capoState.capoEnabled]);
 
+  const melodyChordChart = useMemo(function() {
+    if (!currentTune || !tunebook) return '';
+    try {
+      const firstVoice = currentTune.voices && Object.keys(currentTune.voices).length > 0
+        ? Object.values(currentTune.voices)[0]
+        : { notes: [] };
+      return abcjsParser.renderChords(
+        tunebook.abcTools.emptyABC(currentTune.name) + (firstVoice.notes || []).join('\n'),
+        false,
+        chordTranspose,
+        currentTune.key,
+        currentTune.noteLength,
+        currentTune.meter
+      ) || '';
+    } catch (e) {
+      return '';
+    }
+  }, [currentTune, tunebook, abcjsParser, chordTranspose]);
+
+  const hasAbcChords = useMemo(function() {
+    if (!currentTune || !tunebook) return false;
+    const firstVoice = currentTune.voices && Object.keys(currentTune.voices).length > 0
+      ? Object.values(currentTune.voices)[0]
+      : { notes: [] };
+    return tunebook.abcTools.hasChords((firstVoice.notes || []).join('\n'));
+  }, [currentTune, tunebook]);
+
+  useEffect(function() {
+    lastNotationChordRef.current = '';
+  }, [currentTune && currentTune.id]);
+
+  const handleNotationChordClick = useCallback(function(abcelem) {
+    if (abcelem && Array.isArray(abcelem.chord) && abcelem.chord.length > 0) {
+      lastNotationChordRef.current = String(abcelem.chord[0].name || '')
+        .replace(/♭/g, 'b')
+        .replace(/♯/g, '#');
+    }
+  }, []);
+
   const notationVisualTranspose = chordTranspose;
 
   const hasNotes = !!(currentTune && tunebook && tunebook.hasNotes && tunebook.hasNotes(currentTune));
@@ -254,7 +296,9 @@ export default function GigModeModal(props) {
       if (!showChordsAnnotate) {
         staffAbc = stripEmbeddedChordsFromAbc(staffAbc, tunebook.abcTools);
       }
-      const renderOptions = buildGigNotationRenderOptions(notationVisualTranspose);
+      const renderOptions = Object.assign({}, buildGigNotationRenderOptions(notationVisualTranspose), {
+        clickListener: handleNotationChordClick,
+      });
 
       function renderAtStaffWidth(staffWidth) {
         renderEl.innerHTML = '';
@@ -306,7 +350,7 @@ export default function GigModeModal(props) {
     requestAnimationFrame(function() {
       requestAnimationFrame(function() { runRender(0); });
     });
-  }, [props.show, currentTune, showNotation, showChordsAnnotate, notationFitMode, notationVisualTranspose, tunebook, visibleVoiceKeys, voiceSettingsVersion]);
+  }, [props.show, currentTune, showNotation, showChordsAnnotate, notationFitMode, notationVisualTranspose, tunebook, visibleVoiceKeys, voiceSettingsVersion, handleNotationChordClick]);
 
   useEffect(function() {
     renderNotation();
@@ -448,24 +492,7 @@ export default function GigModeModal(props) {
   // Structure always height-fits the viewport; Fit height only controls lyrics/notation.
   const structureFitHeight = showStructure && !syncLyricsStructure;
 
-  let structureChordChart = '';
-  if (currentTune && showStructure && tunebook) {
-    try {
-      const firstVoice = currentTune.voices && Object.keys(currentTune.voices).length > 0
-        ? Object.values(currentTune.voices)[0]
-        : { notes: [] };
-      structureChordChart = abcjsParser.renderChords(
-        tunebook.abcTools.emptyABC(currentTune.name) + (firstVoice.notes || []).join('\n'),
-        false,
-        chordTranspose,
-        currentTune.key,
-        currentTune.noteLength,
-        currentTune.meter
-      ) || '';
-    } catch (e) {
-      structureChordChart = '';
-    }
-  }
+  const structureChordChart = melodyChordChart;
 
   const lyricsStructurePanel = currentTune && syncLyricsStructure ? (
     <div className="tune-panel-lyrics-structure-sync tune-panel-lyrics tune-slot-main">
@@ -477,7 +504,7 @@ export default function GigModeModal(props) {
         zoom={displayZoom}
         fitHeight={lyricsStructureFitHeight}
         chords={structureChordChart}
-        showCapoControl={showStructure}
+        showCapoControl={false}
         capoOffset={capoState.capoOffset}
         capoEnabled={capoState.capoEnabled}
         onCapoToggle={capoState.toggleCapo}
@@ -506,7 +533,7 @@ export default function GigModeModal(props) {
         chords={structureChordChart}
         tune={currentTune}
         fitHeight={structureFitHeight}
-        showCapoControl={true}
+        showCapoControl={false}
         capoOffset={capoState.capoOffset}
         capoEnabled={capoState.capoEnabled}
         onCapoToggle={capoState.toggleCapo}
@@ -566,59 +593,93 @@ export default function GigModeModal(props) {
             </Button>
           </div>
           <div className="gig-mode-toolbar">
-            {currentTune && (
-              <LyricsAutoscrollModal
-                tune={currentTune}
-                tunebook={tunebook}
-                mediaController={props.mediaController}
-                mediaLinkNumber={0}
-                musicSingleSelector=".gig-mode-body"
-                barLayout="gig-inline"
-                buttonVariant="outline-secondary"
-                buttonSize="sm"
-              />
-            )}
-            {currentTune && (
-              <ViewModeSelectorModal
-                className="gig-mode-view-mode-selector"
-                viewMode={viewMode}
-                tune={currentTune}
-                tunebook={tunebook}
-                notationFitMode={notationFitMode}
-                onNotationFitModeChange={handleNotationFitModeChange}
-                onVoiceSettingsChange={function() {
-                  setVoiceSettingsVersion(function(v) { return v + 1; });
-                }}
-                onChange={handleViewModeChange}
-              />
-            )}
-            <span className="gig-mode-toolbar-label">Transpose</span>
-            <ButtonGroup size="sm">
-              <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(-1); }} aria-label="Transpose down">−</Button>
-              <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
-              <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1); }} aria-label="Transpose up">+</Button>
-            </ButtonGroup>
-            {availableFlags.lyrics && !fitHeightOn ? (
-              <LyricsZoomControls
-                className="gig-mode-zoom-group"
-                zoom={fontScale}
-                onChange={changeFontScale}
-              />
-            ) : null}
-            {currentTune && (
-              <Button
-                size="sm"
-                variant="outline-secondary"
-                className="gig-mode-open-tune-btn"
-                aria-label="Open tune"
-                title="Open tune"
-                onClick={function() {
-                  if (currentTune.id) navigate('/editor/' + encodeURIComponent(currentTune.id));
-                }}
-              >
-                {tunebook.icons.pencil}
-              </Button>
-            )}
+            <div className="gig-mode-toolbar-cluster">
+              {currentTune && (
+                <LyricsAutoscrollModal
+                  tune={currentTune}
+                  tunebook={tunebook}
+                  mediaController={props.mediaController}
+                  mediaLinkNumber={0}
+                  musicSingleSelector=".gig-mode-body"
+                  barLayout="gig-inline"
+                  buttonVariant="outline-secondary"
+                  buttonSize="sm"
+                />
+              )}
+              {currentTune && (
+                <ViewModeSelectorModal
+                  className="gig-mode-view-mode-selector"
+                  viewMode={viewMode}
+                  tune={currentTune}
+                  tunebook={tunebook}
+                  notationFitMode={notationFitMode}
+                  onNotationFitModeChange={handleNotationFitModeChange}
+                  onVoiceSettingsChange={function() {
+                    setVoiceSettingsVersion(function(v) { return v + 1; });
+                  }}
+                  onChange={handleViewModeChange}
+                />
+              )}
+              <span className="gig-mode-toolbar-label">Transpose</span>
+              <ButtonGroup size="sm" className="gig-mode-transpose-group">
+                <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(-1); }} aria-label="Transpose down">−</Button>
+                <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
+                <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1); }} aria-label="Transpose up">+</Button>
+              </ButtonGroup>
+              {availableFlags.lyrics && !fitHeightOn ? (
+                <LyricsZoomControls
+                  className="gig-mode-zoom-group"
+                  zoom={fontScale}
+                  onChange={changeFontScale}
+                />
+              ) : null}
+              {currentTune && hasAbcChords ? (
+                <ChordPitchButton
+                  chordChart={melodyChordChart}
+                  structureSelector=".structure-chord-block"
+                  lastNotationChordRef={lastNotationChordRef}
+                  icon={tunebook.icons.blockchord}
+                />
+              ) : null}
+              <div className="gig-mode-toolbar-right">
+                {currentTune ? (
+                  <StructureCapoControl
+                    className="gig-mode-capo-control"
+                    tune={currentTune}
+                    chordGridText={melodyChordChart}
+                    capoOffset={capoState.capoOffset}
+                    capoEnabled={capoState.capoEnabled}
+                    onToggle={capoState.toggleCapo}
+                    onOffsetChange={handleCapoOffsetChange}
+                  />
+                ) : null}
+                <Button
+                  size="sm"
+                  variant={isDarkTheme ? 'primary' : 'outline-secondary'}
+                  className="gig-mode-theme-btn"
+                  aria-label={isDarkTheme ? 'Switch to light theme' : 'Switch to dark theme'}
+                  title={isDarkTheme ? 'Light theme' : 'Dark theme'}
+                  aria-pressed={isDarkTheme}
+                  onClick={handleToggleDarkTheme}
+                >
+                  {tunebook.icons.moon}
+                </Button>
+                {currentTune ? (
+                  <Button
+                    size="sm"
+                    variant="outline-secondary"
+                    className="gig-mode-open-tune-btn"
+                    aria-label="Open tune"
+                    title="Open tune"
+                    onClick={function() {
+                      if (currentTune.id) navigate('/editor/' + encodeURIComponent(currentTune.id));
+                    }}
+                  >
+                    {tunebook.icons.pencil}
+                  </Button>
+                ) : null}
+              </div>
+            </div>
           </div>
         </Modal.Header>
         <Modal.Body className="gig-mode-body" ref={gigBodyRef} tabIndex={-1}>
@@ -641,17 +702,6 @@ export default function GigModeModal(props) {
                         )}
                       </div>
                     </div>
-                    <Button
-                      size="sm"
-                      variant={isDarkTheme ? 'primary' : 'outline-secondary'}
-                      className="gig-mode-theme-btn"
-                      aria-label={isDarkTheme ? 'Switch to light theme' : 'Switch to dark theme'}
-                      title={isDarkTheme ? 'Light theme' : 'Dark theme'}
-                      aria-pressed={isDarkTheme}
-                      onClick={handleToggleDarkTheme}
-                    >
-                      {tunebook.icons.moon}
-                    </Button>
                   </div>
                 </div>
                 {viewModesEmpty ? (

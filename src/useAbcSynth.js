@@ -5,6 +5,7 @@ import {isMobile} from 'react-device-detect'
 import abcjs from "abcjs";
 import { encodeAudioBufferWithSetting } from './audioCompressEncode'
 import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig'
+import { programOffsetsForSoundFontUrl } from './abcSynthProgramOffsets'
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import PitchTempoShifter from './pitchTempoShifter'
 import { getPlaybackSettings, combinedPitchSemitones } from './pitchTempoUtils'
@@ -38,6 +39,8 @@ import {
 import { slotsPerBar, rhythmFromTimeSignature, defaultMetronomeRhythm } from './metronomeRhythmPresets'
 import { normalizeRhythmConfig, ENGINE_MODE_DRUMS } from './rhythmEngineTypes'
 import { primeDrumKit } from './drumSampleKit'
+import { resolveFillPlaybackOptions } from './playbackFillSettings'
+import { buildPlaybackSequence } from './playbackFillPattern'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
 import { preloadCountInCueInstrument, scheduleCountInCueNote, firstWarmupCueMidi, firstPlaybackCueMidiFromVisual } from './countInPitchCue'
 import { playRhythmSlot } from './rhythmSlotPlayback'
@@ -50,6 +53,7 @@ import {
     enterRhythmPlaying,
     seekRhythmPlaying,
     setRhythmPlaybackTempo,
+    setRhythmPlaybackRhythm,
     getRhythmPlaybackPhase,
     PHASE_IDLE,
     PHASE_COUNT_IN,
@@ -66,6 +70,7 @@ import {
     resetRhythmTimingDiagnostics,
     buildRhythmDiagnosticsSnapshot,
 } from './rhythmTimingDiagnostics'
+import { buildPlaybackTimingMap, timingAtMusicSeconds } from './playbackTimingMap'
 
 export default function useAbcSynth(props) {
     
@@ -101,6 +106,8 @@ export default function useAbcSynth(props) {
     const isPlayingRef = useRef(false)
     const pendingPlaybackStartSecondsRef = useRef(null)
     const midiPrimeInFlightRef = useRef(false)
+    const playbackTimingMapRef = useRef(null)
+    const lastPlaybackTimingSampleRef = useRef(null)
     const beginMidiPlaybackRef = useRef(null)
     const playMidiBridgeRef = useRef(function(options) {
         midiPlaybackGuardUntilRef.current = 0
@@ -147,13 +154,15 @@ export default function useAbcSynth(props) {
         if (!gaudioContext.current) return false
         if (gaudioContext.current.state === 'running') return true
         if (gaudioContext.current.state === 'closed') return false
+        const fromUserGesture = (props.hasPlaybackGesture && props.hasPlaybackGesture())
+            || (props.mediaController && props.mediaController.userGesturePlayRef
+                && props.mediaController.userGesturePlayRef.current)
         try {
             await gaudioContext.current.resume()
         } catch (e) {
             return false
         }
-        if (gaudioContext.current.state !== 'running'
-            && props.hasPlaybackGesture && props.hasPlaybackGesture()) {
+        if (gaudioContext.current.state !== 'running' && fromUserGesture) {
             try {
                 await gaudioContext.current.resume()
             } catch (e) {
@@ -184,6 +193,9 @@ export default function useAbcSynth(props) {
     }
 
     function handleMidiAudioStartFailure() {
+        // Count-in can leave countInPending / rhythm handoff set while audio never
+        // started; without clearing these, tap-to-play retries no-op in beginMidiPlayback.
+        stopMetronome()
         pauseMidiSynth()
         setIsPlaying(false)
         clearForcedPlaybackIntent()
@@ -510,6 +522,7 @@ export default function useAbcSynth(props) {
             && props.mediaController.isMidiPlaybackRoute()) {
             const currentMidiHash = props.mediaController.midiHash ? props.mediaController.midiHash.current : null
             if (lastMidiHashRef.current !== undefined && currentMidiHash !== lastMidiHashRef.current) {
+                destroyAudioEngines()
                 const pendingMidiPlay = props.mediaController.pendingMidiPlayRef
                     && props.mediaController.pendingMidiPlayRef.current
                 if (pendingMidiPlay
@@ -915,16 +928,18 @@ export default function useAbcSynth(props) {
      }
 
      function getRhythmGridMetronomeTempo(visualObj) {
+        // Score BPM only — playback speed is applied via tempoFactor when
+        // mapping music seconds onto the audio clock (see schedulePlayingSlots).
         const o = visualObj || gvisualObj.current
         const rhythm = resolvePlaybackMetronomeRhythm()
-        const fallback = getPlaybackMetronomeTempo(o)
+        const fallback = getBaseQpm()
         if (!o || !o.millisecondsPerMeasure) {
             return fallback
         }
         return computeRhythmGridTempo({
             rhythmBeatsPerBar: rhythm.beatsPerBar,
             millisecondsPerMeasure: o.millisecondsPerMeasure(),
-            tempoFactor: getTempoFactor(),
+            tempoFactor: 1,
             fallbackQpm: fallback,
         })
      }
@@ -951,18 +966,65 @@ export default function useAbcSynth(props) {
      }
 
      function getRhythmMusicSeconds() {
+        // Lock clicks to the audible buffer playhead. TimingCallbacks / wall-clock
+        // anchors can drift from the pitch-shifter engine (especially in 3/4 with
+        // anacrusis extraMeasures), which made the metronome run slow or off-phase.
+        if (pitchShifterRef.current && pitchShifterRef.current.isConnected()) {
+            try {
+                const secs = pitchShifterRef.current.getCurrentTime()
+                if (Number.isFinite(secs) && secs >= 0) return secs
+            } catch (e) {}
+        }
+        if (isMidiAudioEngineRunning() && typeof currentTime.current === 'number'
+            && currentTime.current >= 0) {
+            return currentTime.current
+        }
         if (rhythmMusicAnchorRef.current.active && gaudioContext.current) {
             const anchor = rhythmMusicAnchorRef.current
-            if (!isMidiAudioEngineRunning()) {
-                return anchor.musicSeconds
-            }
             const elapsed = gaudioContext.current.currentTime - anchor.audioContextTime
             if (elapsed >= 0 && elapsed < 30) {
                 const tempoFactor = getTempoFactor()
-                return anchor.musicSeconds + elapsed * tempoFactor
+                return anchor.musicSeconds + elapsed * (tempoFactor > 0 ? tempoFactor : 1)
             }
+            return anchor.musicSeconds
         }
         return currentTime.current || 0
+     }
+
+     function rebuildPlaybackTimingMap() {
+        const visual = gvisualObj.current
+        if (!visual) {
+            playbackTimingMapRef.current = null
+            lastPlaybackTimingSampleRef.current = null
+            return
+        }
+        const bufDur = gmidiBuffer.current && gmidiBuffer.current.duration
+        playbackTimingMapRef.current = buildPlaybackTimingMap(visual, { bufferDuration: bufDur })
+        lastPlaybackTimingSampleRef.current = null
+     }
+
+     function syncPlaybackTimingFromMap(force) {
+        const map = playbackTimingMapRef.current
+        if (!map) return
+        if (getRhythmPlaybackPhase(getRhythmController()) !== PHASE_PLAYING) return
+        const musicSeconds = getRhythmMusicSeconds()
+        const at = timingAtMusicSeconds(map, musicSeconds)
+        const last = lastPlaybackTimingSampleRef.current
+        const controller = getRhythmController()
+        const tempoChanged = !!force
+            || !last
+            || Math.abs(last.rhythmBeatBpm - at.rhythmBeatBpm) > 0.5
+        const meterChanged = !!force || !last || last.meterText !== at.meterText
+        if (tempoChanged) {
+            setRhythmPlaybackTempo(controller, at.rhythmBeatBpm)
+        }
+        if (meterChanged) {
+            setRhythmPlaybackRhythm(controller, at.rhythm)
+        }
+        lastPlaybackTimingSampleRef.current = {
+            meterText: at.meterText,
+            rhythmBeatBpm: at.rhythmBeatBpm,
+        }
      }
 
      function isRhythmHandoffPhase() {
@@ -1590,7 +1652,7 @@ export default function useAbcSynth(props) {
             updateRhythmMusicAnchor(newSeconds)
             maybeStopNotationSelectionPlayback(newSeconds)
             if (getRhythmPlaybackPhase(getRhythmController()) === PHASE_PLAYING) {
-                // Playing clicks are driven by the 25ms scheduler on the music clock.
+                syncPlaybackTimingFromMap(false)
             } else {
                 reconcileDuringPlaybackRhythm()
             }
@@ -1711,15 +1773,13 @@ export default function useAbcSynth(props) {
     }
     
       async function saveAudioToCache(tuneId,audioBuffers, duration) {
-      if (duration > 0) {
-        encodeAudioBufferWithSetting(audioBuffers[0]).then(function (encoded) {
-          store.setItem(tuneId, [duration, encoded.blob, encoded.format] ).then(function () {
-            scheduleMediaCacheStorageCheck()
-            return store.getItem(tuneId);
-          })
+      if (!(duration > 0) || !audioBuffers || !audioBuffers[0]) return null
+      return encodeAudioBufferWithSetting(audioBuffers[0]).then(function (encoded) {
+        return store.setItem(tuneId, [duration, encoded.blob, encoded.format] ).then(function () {
+          scheduleMediaCacheStorageCheck()
+          return store.getItem(tuneId);
         })
-        
-      }
+      })
     }
     
     async function getAudioFromCache(tuneId, audioContext) {
@@ -2093,9 +2153,14 @@ export default function useAbcSynth(props) {
                    setReady(false)
                    setStarted(false)
                    releaseMidiUiLoading()
-                   if (props.mediaController && props.mediaController.abortPlayingIntent
-                       && !(props.mediaController.notationMidiOwner)) {
+                   if (props.mediaController) {
+                     if (props.mediaController.setTapToPlay) {
+                       props.mediaController.setTapToPlay(true)
+                       props.mediaController.setIsPlaying(false)
+                     } else if (props.mediaController.abortPlayingIntent
+                         && !(props.mediaController.notationMidiOwner)) {
                        props.mediaController.abortPlayingIntent()
+                     }
                    }
                    return
                  }
@@ -2306,12 +2371,20 @@ export default function useAbcSynth(props) {
                     || (explicitStartMs != null && explicitStartMs > 0))
                 : (!hasStartPosition && shouldRestartMidiFromStart(opts.restart)))
         if (fromBeginning) {
-            // Already priming or counting in — ignore duplicate kicks from
-            // media-settings play + Abc autoPrime/pending-play after reload.
-            if (midiPrimeInFlightRef.current
-                || countInPendingRef.current
-                || isRhythmHandoffPhase()) {
+            const fromUserGesture = props.mediaController
+                && props.mediaController.userGesturePlayRef
+                && props.mediaController.userGesturePlayRef.current
+            // Never stack a second prime — invalidatePendingMidiStarts bumps
+            // playbackGeneration and the in-flight render exits with no audio.
+            if (midiPrimeInFlightRef.current) {
                 return true
+            }
+            if (!fromUserGesture && (countInPendingRef.current
+                || isRhythmHandoffPhase())) {
+                return true
+            }
+            if (fromUserGesture && (countInPendingRef.current || isRhythmHandoffPhase())) {
+                stopMetronome()
             }
             if (props.mediaController && props.mediaController.pendingMidiPlayRef) {
                 props.mediaController.pendingMidiPlayRef.current = null
@@ -2486,6 +2559,7 @@ export default function useAbcSynth(props) {
             const musicSeconds = clamped * gmidiBuffer.current.duration
             if (getRhythmPlaybackPhase(getRhythmController()) === PHASE_PLAYING) {
                 seekRhythmPlaying(getRhythmController(), musicSeconds)
+                syncPlaybackTimingFromMap(true)
             } else if (allowAutoResume) {
                 ensureDuringPlaybackMetronome(clamped)
             }
@@ -2660,8 +2734,13 @@ export default function useAbcSynth(props) {
           const rhythmHandoffReady = rhythmPhase === PHASE_PLAYING
               || (duringPlayback && rhythmPhase === PHASE_ENTRY_GAP && countInHandoff)
           if (rhythmHandoffReady) {
-              syncPlaybackMetronomeTempo()
               const controller = getRhythmController()
+              // Count-in already built an audio-clock timeline at the correct
+              // wall tempo. Do not retarget score BPM here — that made post
+              // anacrusis clicks late/slow versus the tune.
+              if (!controller.timeline) {
+                  syncPlaybackMetronomeTempo()
+              }
               const snap = getRhythmTimelineSnapshot(controller)
               const scheduledStart = typeof opts.startAtAudioTime === 'number'
                   ? opts.startAtAudioTime
@@ -2677,11 +2756,14 @@ export default function useAbcSynth(props) {
               )
               const musicStartAudioTime = handoff.actualStartAudioTime
               const musicSeconds = handoff.musicSeconds
+              const tempoFactor = getTempoFactor()
+              const factor = tempoFactor > 0 ? tempoFactor : 1
+              const anchorAudio = typeof musicStartAudioTime === 'number'
+                  ? musicStartAudioTime + musicSeconds / factor
+                  : (gaudioContext.current ? gaudioContext.current.currentTime : 0)
               rhythmMusicAnchorRef.current = {
                   musicSeconds: musicSeconds,
-                  audioContextTime: gaudioContext.current
-                      ? gaudioContext.current.currentTime
-                      : (musicStartAudioTime || 0),
+                  audioContextTime: anchorAudio,
                   active: true,
               }
               beginRhythmPlayingAtMusicStart(controller, {
@@ -2692,6 +2774,8 @@ export default function useAbcSynth(props) {
                       ? snap.musicStartSlot
                       : (controller.musicStartSlot != null ? controller.musicStartSlot : 0),
               })
+              rebuildPlaybackTimingMap()
+              syncPlaybackTimingFromMap(true)
           }
           if (duringPlayback
               && rhythmPhase !== PHASE_PLAYING
@@ -2813,6 +2897,7 @@ export default function useAbcSynth(props) {
                 const countInPickupLength = metro.countInBarOnly
                     ? 0
                     : (parseFloat(countInInput.pickupLength) || 0)
+                // Rhythm-beat units (e.g. 1.0 for a quarter anacrusis in 3/4).
                 const pickupBeats = (countInPickupLength > 0 && countInBeatLength > 0)
                     ? countInPickupLength / countInBeatLength
                     : 0
@@ -2857,7 +2942,14 @@ export default function useAbcSynth(props) {
                         var effectiveTempo = computeCountInGridTempo(o, countInRhythm, Object.assign({}, countInOptions, {
                             fallbackQpm: getPlaybackMetronomeTempo(o),
                         }))
-                        if (!(effectiveTempo > 0)) effectiveTempo = getRhythmGridMetronomeTempo()
+                        // Count-in is scheduled on the audio clock, so use wall BPM
+                        // (score BPM × playback speed). During-playback uses score BPM
+                        // + tempoFactor separately.
+                        if (!(effectiveTempo > 0)) {
+                            const baseGrid = getRhythmGridMetronomeTempo()
+                            const factor = getTempoFactor()
+                            effectiveTempo = baseGrid > 0 ? baseGrid * (factor > 0 ? factor : 1) : 0
+                        }
                         if (!(effectiveTempo > 0)) effectiveTempo = getPlaybackMetronomeTempo()
                         if (!(effectiveTempo > 0)) effectiveTempo = 120
                         var countInSlots = computeCountInSlotCount(o, countInRhythm, countInOptions)
@@ -2915,7 +3007,7 @@ export default function useAbcSynth(props) {
                                 getGridTempo: function() {
                                     return computeCountInGridTempo(o, countInRhythm, Object.assign({}, countInOptions, {
                                         fallbackQpm: effectiveTempo,
-                                    })) || getRhythmGridMetronomeTempo()
+                                    })) || effectiveTempo
                                 },
                                 onSlot: function(slot, emitted, total) {
                                     if (!isPlaybackGenerationCurrent(countInGeneration)) return
@@ -3093,6 +3185,10 @@ export default function useAbcSynth(props) {
             var a = getSoundFontUrl({ musyngKiteReady: musyngReady })
             //var warp =  props.warp > 0 ? props.warp : 1
             var soundFontVolume = getSoundFontVolumeMultiplier()
+            // MusyngKite must not use original-bank programOffsets — those shift
+            // note peaks ~15–90ms early vs the metronome (median ~35ms measured).
+            var effectiveProgramOffsets = programOffsetsForSoundFontUrl(a)
+            var fillPlayback = resolveFillPlaybackOptions(tune)
             // Practice quiet/loud level is applied live via pitch-shifter output
             // gain so the session volume slider can change without re-priming.
             var initOptions = {
@@ -3105,23 +3201,48 @@ export default function useAbcSynth(props) {
                  soundFontUrl: a,
                  soundFontVolumeMultiplier: soundFontVolume,
                  //program: 21,
-                 chordsOff: false,
-                 programOffsets: programOffsets,
+                 chordsOff: fillPlayback.chordsOff,
+                 programOffsets: effectiveProgramOffsets,
                },
             }
-            if (musyngReady) {
-              initOptions.visualObj = synthObj
-            } else {
+            var useSequencePath = !musyngReady || fillPlayback.injectCustomFill
+            if (useSequencePath) {
               // Remap GM programs onto the local instrument subset so abcjs only
               // requests samples that exist under selection/MusyngKite.
               try {
-                var flattened = synthObj.setUpAudio({})
+                var flattened = buildPlaybackSequence(synthObj, {
+                  fillOptions: fillPlayback,
+                  tune: tune,
+                  tunebook: props.tunebook,
+                  millisecondsPerMeasure: initOptions.millisecondsPerMeasure,
+                  transpose: synthObj.visualTranspose,
+                })
                 remapFlattenedMidiPrograms(flattened)
                 initOptions.sequence = flattened
+                // abcjs CreateSynth defaults meterSize=1 when only `sequence` is
+                // passed (visualObj path sets num/den). tempoMultiplier =
+                // msPerMeasure/1000/meterSize, so 3/4 audio was rendered 4/3
+                // fast vs the metronome (count-in start aligned; then drifted).
+                // Compensate by scaling millisecondsPerMeasure by 1/meterSize.
+                if (typeof synthObj.getMeterFraction === 'function') {
+                  var meterFrac = synthObj.getMeterFraction()
+                  if (meterFrac && meterFrac.den > 0 && meterFrac.num > 0) {
+                    var meterSize = meterFrac.num / meterFrac.den
+                    if (meterSize > 0 && Math.abs(meterSize - 1) > 0.0001) {
+                      initOptions.millisecondsPerMeasure =
+                        synthObj.millisecondsPerMeasure() / meterSize
+                    }
+                  }
+                }
               } catch (remapErr) {
                 console.warn('Local soundfont program remap failed; using visualObj', remapErr)
-                initOptions.visualObj = synthObj
+                if (!fillPlayback.injectCustomFill) {
+                  initOptions.visualObj = synthObj
+                  delete initOptions.sequence
+                }
               }
+            } else {
+              initOptions.visualObj = synthObj
             }
             // Legacy "online" preference: when resolver bank is ready, MusyngKite
             // already covers full GM. When not ready, keep remapped local fonts
@@ -3131,7 +3252,21 @@ export default function useAbcSynth(props) {
             }
          
             function getAudioHash(tune) {
-              return tune.id + "-" + tune.tempo  + '-'+tune.transpose+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
+              // Include meter so pre-fix sequence-path caches (wrong meterSize)
+              // are not reused after the millisecondsPerMeasure compensation.
+              // Include ofsMusyng0 so MusyngKite buffers rendered with original-bank
+              // programOffsets are not reused after offsets were cleared.
+              var meterKey = ''
+              try {
+                if (synthObj && typeof synthObj.getMeterFraction === 'function') {
+                  var mf = synthObj.getMeterFraction()
+                  if (mf && mf.num && mf.den) meterKey = mf.num + '_' + mf.den + 'msfix'
+                }
+              } catch (e) {}
+              var ofsKey = Object.keys(effectiveProgramOffsets || {}).length ? 'ofs1' : 'ofsMusyng0'
+              var fillKey = (tune && tune.playbackFillStyle ? tune.playbackFillStyle : 'boom-chick')
+                + '-' + (tune && tune.playbackFillLevel != null ? tune.playbackFillLevel : 100)
+              return tune.id + "-" + tune.tempo  + '-'+tune.transpose+"-"+meterKey+"-"+ofsKey+"-"+fillKey+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
             }
             
             function resolveWithTimingAndCursor(midiBuffer) {
@@ -3192,7 +3327,7 @@ export default function useAbcSynth(props) {
                           if (audioBuffers) {
                              midiBuffer.init(initOptions).then(function (response) { 
                                 midiBuffer.audioBuffers = audioBuffers
-                                midiBuffer.duration = duration 
+                                midiBuffer.duration = duration
                                 resolveWithTimingAndCursor(midiBuffer)
                             })
                           } else {

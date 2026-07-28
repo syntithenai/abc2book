@@ -45,6 +45,7 @@ import {
   fieldLookupKindsForCandidate,
 } from '../importReviewCandidateUtils';
 import { addDraftHasLocalAttachments } from '../addFormAttach';
+import { isOwnedMediaLink } from '../linkRecording';
 import TuneRecordForm from './TuneRecordForm';
 import AddTuneSimpleForm from './AddTuneSimpleForm';
 import AddCuratedCollectionsPanel from './AddCuratedCollectionsPanel';
@@ -945,13 +946,13 @@ export default function ImportReviewModal(props) {
 
   function applyYouTubeLinkToForm(link) {
     if (!link || !link.link) return;
-    const youtubeLink = {
+    const mediaLink = {
       title: link.title || '',
       link: link.link,
       startAt: '',
       endAt: '',
     };
-    if (link.image) youtubeLink.image = link.image;
+    if (link.image) mediaLink.image = link.image;
     if (formSyncTimerRef.current) {
       clearTimeout(formSyncTimerRef.current);
       formSyncTimerRef.current = null;
@@ -959,9 +960,8 @@ export default function ImportReviewModal(props) {
     suppressFormInitRef.current = true;
     patchFormValues(function(current) {
       const existing = Array.isArray(current.links) ? current.links.slice() : [];
-      // Single YouTube source: replace any prior YouTube links.
-      const nextLinks = [youtubeLink].concat(existing.filter(function(item) {
-        return !(item && item.link && /youtu\.?be/i.test(String(item.link)));
+      const nextLinks = [mediaLink].concat(existing.filter(function(item) {
+        return isOwnedMediaLink(item);
       }));
       const next = Object.assign({}, current, { links: nextLinks });
       if (!String(current.title || '').trim() && link.title) {
@@ -1761,6 +1761,7 @@ export default function ImportReviewModal(props) {
       onOpenMatch={handleOpenCollectionMatch}
       candidateId={activeCandidate && activeCandidate.id}
       resolverAvailable={props.resolverAvailable}
+      login={props.login}
       onPickYouTube={function(link) {
         applyYouTubeLinkToForm(link);
       }}

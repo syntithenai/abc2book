@@ -28,11 +28,13 @@ export default function NowPlayingTransportBar({
   mediaController,
   gigModeActive,
   setQueuePlayConfirm,
+  nowPlayingExpanded,
+  onNowPlayingExpandedChange,
 }) {
   const location = useLocation()
   const navigate = useNavigate()
   const [, setEngagementTick] = useState(0)
-  const isFullscreen = location.pathname === '/now-playing'
+  const isFullscreen = !!nowPlayingExpanded
 
   const queueActive = isQueueActive(nowPlayingQueue)
   const playbackEngaged = isQueuePlaybackEngaged(mediaController, {
@@ -138,137 +140,162 @@ export default function NowPlayingTransportBar({
   }
 
   function handleFullscreenToggle() {
-    if (isFullscreen) {
-      if (window.history.length > 1) navigate(-1)
-      else navigate('/books')
-      return
-    }
-    navigate('/now-playing')
+    if (typeof onNowPlayingExpandedChange !== 'function') return
+    onNowPlayingExpandedChange(!isFullscreen)
   }
 
-  return (
-    <div className="now-playing-transport-bar" role="toolbar" aria-label="Now playing transport">
-      <div className="now-playing-transport-main">
-        {queueActive ? (
-          <Button
-            variant="primary"
-            className="now-playing-transport-btn now-playing-transport-btn--previous"
-            aria-label="Previous in playlist"
-            title="Previous in playlist"
-            data-testid="playlist-previous-button"
-            onClick={function() { stepPlaylist(-1) }}
-          >
-            {tunebook.icons.previous}
-            <span className="now-playing-transport-btn-label">Previous</span>
-          </Button>
-        ) : (
-          <span className="now-playing-transport-btn-spacer" aria-hidden="true" />
-        )}
+  function openNowPlaying() {
+    if (typeof onNowPlayingExpandedChange === 'function') {
+      onNowPlayingExpandedChange(true)
+    }
+  }
 
-        <div className="now-playing-transport-center">
-          <div className="now-playing-transport-center-group">
-            {playingTune ? (
-              <Link
-                to="/now-playing"
-                className="now-playing-transport-artwork-link"
-                title="Open now playing"
-                aria-label="Open now playing"
-              >
-                <TuneArtwork
-                  tune={playingTune}
-                  tunebook={tunebook}
-                  className="now-playing-transport-artwork"
-                />
-              </Link>
-            ) : null}
-            {showLoading ? (
-              <Button
-                variant="secondary"
-                className="now-playing-transport-play-btn"
-                title={stallTitle || 'Cancel loading'}
-                aria-label={stallTitle || 'Cancel loading'}
-                onClick={handlePlayPause}
-              >
-                {tunebook.icons.waiting}
-              </Button>
-            ) : transportIsPlaying ? (
-              <Button
-                variant="warning"
-                className="now-playing-transport-play-btn"
-                data-testid="playlist-pause-button"
-                title="Pause"
-                aria-label="Pause"
-                onClick={handlePlayPause}
-              >
-                {tunebook.icons.pause}
-              </Button>
-            ) : (
-              <Button
-                variant="success"
-                className="now-playing-transport-play-btn"
-                data-testid="playlist-play-button"
-                title="Play"
-                aria-label="Play"
-                onClick={handlePlayPause}
-              >
-                {tunebook.icons.play}
-              </Button>
-            )}
-            {playingTune && queueTuneId ? (
-              <Link
-                to={'/tunes/' + queueTuneId}
-                className="now-playing-transport-tune-link"
-                title={'Go to ' + tuneName}
-              >
-                <span className="now-playing-transport-tune-name">{tuneName}</span>
-                {composer ? (
-                  <span className="now-playing-transport-composer"> — {composer}</span>
-                ) : null}
-                {positionLabel ? (
-                  <span className="now-playing-transport-position"> ({positionLabel})</span>
-                ) : null}
-              </Link>
-            ) : (
-              <span className="now-playing-transport-tune-link">
-                <span className="now-playing-transport-tune-name">{tuneName}</span>
-                {composer ? (
-                  <span className="now-playing-transport-composer"> — {composer}</span>
-                ) : null}
-                {positionLabel ? (
-                  <span className="now-playing-transport-position"> ({positionLabel})</span>
-                ) : null}
-              </span>
-            )}
-            <Button
-              variant={isFullscreen ? 'secondary' : 'outline-secondary'}
-              size="sm"
-              className="now-playing-transport-fullscreen-btn"
-              aria-label={isFullscreen ? 'Exit full screen' : 'Full screen'}
-              title={isFullscreen ? 'Exit full screen' : 'Full screen'}
-              aria-pressed={isFullscreen}
-              data-testid="now-playing-expand-button"
-              onClick={handleFullscreenToggle}
-            >
-              {tunebook.icons.fullscreen}
-            </Button>
-          </div>
+  const previousButton = queueActive ? (
+    <Button
+      variant="primary"
+      className="now-playing-transport-btn now-playing-transport-btn--previous"
+      aria-label="Previous in playlist"
+      title="Previous in playlist"
+      data-testid="playlist-previous-button"
+      onClick={function() { stepPlaylist(-1) }}
+    >
+      {tunebook.icons.previous}
+      <span className="now-playing-transport-btn-label">Previous</span>
+    </Button>
+  ) : null
+
+  const nextButton = queueActive ? (
+    <Button
+      variant="primary"
+      className="now-playing-transport-btn now-playing-transport-btn--next"
+      aria-label="Next in playlist"
+      title="Next in playlist"
+      data-testid="playlist-next-button"
+      onClick={function() { stepPlaylist(1) }}
+    >
+      <span className="now-playing-transport-btn-label">Next</span>
+      {tunebook.icons.next}
+    </Button>
+  ) : null
+
+  const playPauseButton = showLoading ? (
+    <Button
+      variant="secondary"
+      className="now-playing-transport-play-btn"
+      title={stallTitle || 'Cancel loading'}
+      aria-label={stallTitle || 'Cancel loading'}
+      onClick={handlePlayPause}
+    >
+      {tunebook.icons.waiting}
+    </Button>
+  ) : transportIsPlaying ? (
+    <Button
+      variant="warning"
+      className="now-playing-transport-play-btn"
+      data-testid="playlist-pause-button"
+      title="Pause"
+      aria-label="Pause"
+      onClick={handlePlayPause}
+    >
+      {tunebook.icons.pause}
+    </Button>
+  ) : (
+    <Button
+      variant="success"
+      className="now-playing-transport-play-btn"
+      data-testid="playlist-play-button"
+      title="Play"
+      aria-label="Play"
+      onClick={handlePlayPause}
+    >
+      {tunebook.icons.play}
+    </Button>
+  )
+
+  const tuneTitle = playingTune && queueTuneId ? (
+    <Link
+      to={'/tunes/' + queueTuneId}
+      className="now-playing-transport-tune-link"
+      title={'Go to ' + tuneName}
+    >
+      <span className="now-playing-transport-tune-name">{tuneName}</span>
+      {composer ? (
+        <span className="now-playing-transport-composer"> — {composer}</span>
+      ) : null}
+      {positionLabel ? (
+        <span className="now-playing-transport-position"> ({positionLabel})</span>
+      ) : null}
+    </Link>
+  ) : (
+    <span className="now-playing-transport-tune-link">
+      <span className="now-playing-transport-tune-name">{tuneName}</span>
+      {composer ? (
+        <span className="now-playing-transport-composer"> — {composer}</span>
+      ) : null}
+      {positionLabel ? (
+        <span className="now-playing-transport-position"> ({positionLabel})</span>
+      ) : null}
+    </span>
+  )
+
+  const fullscreenButton = (
+    <Button
+      variant={isFullscreen ? 'secondary' : 'outline-secondary'}
+      size="sm"
+      className="now-playing-transport-fullscreen-btn"
+      aria-label={isFullscreen ? 'Exit full screen' : 'Full screen'}
+      title={isFullscreen ? 'Exit full screen' : 'Full screen'}
+      aria-pressed={isFullscreen}
+      data-testid="now-playing-expand-button"
+      onClick={handleFullscreenToggle}
+    >
+      {tunebook.icons.fullscreen}
+    </Button>
+  )
+
+  return (
+    <div
+      className={'now-playing-transport-bar' + (isFullscreen ? ' now-playing-transport-bar--fullscreen' : '')}
+      role="toolbar"
+      aria-label="Now playing transport"
+    >
+      <div className="now-playing-transport-main">
+        <div className="now-playing-transport-left">
+          {queueActive ? previousButton : (
+            <span className="now-playing-transport-btn-spacer" aria-hidden="true" />
+          )}
         </div>
 
-        {queueActive ? (
-          <Button
-            variant="primary"
-            className="now-playing-transport-btn now-playing-transport-btn--next"
-            aria-label="Next in playlist"
-            title="Next in playlist"
-            data-testid="playlist-next-button"
-            onClick={function() { stepPlaylist(1) }}
-          >
-            <span className="now-playing-transport-btn-label">Next</span>
-            {tunebook.icons.next}
-          </Button>
-        ) : (
-          <span className="now-playing-transport-btn-spacer" aria-hidden="true" />
-        )}
+        <div className="now-playing-transport-center">
+          {!isFullscreen ? (
+            <div className="now-playing-transport-center-cluster">
+              {playPauseButton}
+              {playingTune ? (
+                <button
+                  type="button"
+                  className="now-playing-transport-artwork-link"
+                  title="Open now playing"
+                  aria-label="Open now playing"
+                  onClick={openNowPlaying}
+                >
+                  <TuneArtwork
+                    tune={playingTune}
+                    tunebook={tunebook}
+                    className="now-playing-transport-artwork"
+                  />
+                </button>
+              ) : null}
+              {tuneTitle}
+            </div>
+          ) : null}
+        </div>
+
+        <div className="now-playing-transport-right">
+          {queueActive ? nextButton : (
+            <span className="now-playing-transport-btn-spacer" aria-hidden="true" />
+          )}
+          {fullscreenButton}
+        </div>
       </div>
 
       {mediaController ? (

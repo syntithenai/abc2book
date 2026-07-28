@@ -1,5 +1,6 @@
 /**
- * abcjs programOffsets trim instrument attack transients (milliseconds), not volume.
+ * abcjs programOffsets shift note starts earlier (ms) so soft sample attacks land
+ * on the beat. Calibrated for the original soft-attack abcjs soundfont bank.
  * Shared by live playback (useAbcSynth), preview synth, and notation audio export.
  */
 export const ABC_SYNTH_PROGRAM_OFFSETS = {
@@ -50,3 +51,16 @@ export const ABC_SYNTH_PROGRAM_OFFSETS = {
   mandolin: 25,
   woodblock: 20,
 };
+
+/**
+ * MusyngKite / FluidR3 samples already have tighter onsets; abcjs defaults to
+ * empty offsets for those banks. Applying original-bank offsets there shifts
+ * note peaks early vs a metronome on the notated grid (~35ms median lead).
+ */
+export function programOffsetsForSoundFontUrl(soundFontUrl) {
+  const url = String(soundFontUrl || '')
+  if (/MusyngKite|FluidR3/i.test(url)) {
+    return {}
+  }
+  return ABC_SYNTH_PROGRAM_OFFSETS
+}

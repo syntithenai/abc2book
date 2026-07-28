@@ -1,4 +1,5 @@
 import { isQueueActive, getCurrentTuneId } from './nowPlayingQueue'
+import { isPlaybackInterruptPath } from './toolPlaybackInterrupt'
 
 /** Tune id for the transport bar / now-playing UI (queue item or active engine tune). */
 export function getActivePlaybackTuneId(mediaController, queue) {
@@ -133,6 +134,14 @@ export function shouldShowPlaylistTransportBar(pathname, nowPlayingQueue, gigMod
   if (gigModeActive) return false
   if (pathname && pathname.startsWith('/gig/')) return false
   if (pathname && pathname.startsWith('/print')) return false
+  if (isQueueActive(nowPlayingQueue)) return true
+  return isQueuePlaybackEngaged(mediaController)
+}
+
+/** True when the bottom now-playing transport bar is visible. */
+export function isMiniPlayerTransportVisible(pathname, nowPlayingQueue, gigModeActive, mediaController) {
+  if (gigModeActive) return false
+  if (pathname && isPlaybackInterruptPath(pathname)) return false
   if (isQueueActive(nowPlayingQueue)) return true
   return isQueuePlaybackEngaged(mediaController)
 }

@@ -12,6 +12,7 @@ import {
   getActivePlaybackTuneId,
   isPlaybackActivelyPlaying,
   shouldStartPlaybackWhenAdvancing,
+  isMiniPlayerTransportVisible,
 } from './playbackNavigationUtils'
 import { createQueue } from './nowPlayingQueue'
 
@@ -78,6 +79,14 @@ describe('playbackNavigationUtils', function() {
     expect(shouldShowPlaylistTransportBar('/tunes/a', null, false)).toBe(false)
     expect(shouldShowPlaylistTransportBar('/now-playing', queue, false)).toBe(true)
     expect(shouldShowPlaylistTransportBar('/settings', null, false, { isPlaying: true })).toBe(true)
+  })
+
+  test('isMiniPlayerTransportVisible', function() {
+    const queue = createQueue({ tuneIds: ['a'] })
+    expect(isMiniPlayerTransportVisible('/tunes/a', queue, false)).toBe(true)
+    expect(isMiniPlayerTransportVisible('/scratchpad', queue, false)).toBe(false)
+    expect(isMiniPlayerTransportVisible('/tunes/a', queue, true)).toBe(false)
+    expect(isMiniPlayerTransportVisible('/settings', null, false, { isPlaying: true })).toBe(true)
   })
 
   test('getSkipNavigationTuneId uses viewed tune only', function() {

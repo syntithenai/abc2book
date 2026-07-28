@@ -48,6 +48,14 @@ export function invalidateBodyCache(tuneId) {
   }
 }
 
+/** Keep in-memory / catalog body cache aligned after a bulk or inline edit. */
+export function rememberTuneBody(tune) {
+  if (!tune || tune.id == null) return
+  const key = String(tune.id)
+  monolithTunesRef[key] = tune
+  touchBodyCache(key, tune)
+}
+
 /** Remove a tune from catalog bodies, text search, and the in-memory body cache. */
 export async function purgeTuneFromSecondaryStores(tuneId) {
   if (tuneId == null) return

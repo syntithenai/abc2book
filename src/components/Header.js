@@ -259,6 +259,7 @@ export default function Header(props) {
                 genreFilter={props.genreFilter}
                 artistFilter={props.artistFilter}
                 selected={selected}
+                onOpenNowPlaying={props.onOpenNowPlaying}
             />
         )
     }

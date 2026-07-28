@@ -382,6 +382,7 @@ export default function FeedPage(props) {
           ) : null
         }
       />
+      <h1 className="feed-page-title">Feed</h1>
       <div className="feed-progress" data-testid="feed-progress">
         <span>Today {progress.learnedCount}/{FEED_DAILY_GOAL}</span>
       </div>

@@ -58,7 +58,12 @@ import {
 import { parseTempoBpm, tempoRangeLabel } from './tempoRange'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 import { buildOrderedSearchListIds, compareSearchGroupKeys } from './searchListOrder'
-import { purgeTuneFromSecondaryStores } from './tuneRepository'
+import {
+  purgeTuneFromSecondaryStores,
+  getTuneSync,
+  rememberTuneBody,
+  saveTuneToRepository,
+} from './tuneRepository'
 
 var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, practiceSessionActiveRef}) => {
   const utils = useUtils()
@@ -898,26 +903,34 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       pauseSheetUpdates.current = true
       var historyChanges = []
       tuneIds.forEach(function(id) {
-        if (tunes[id] && changes.length > 0) {
-            var before = getPersistedTuneSnapshot(id)
-            changes.forEach(function(change) {
-              var key = change.key
-              var nextValue = change.value
-              if (change.replace) {
-                  tunes[id][key] = Array.isArray(nextValue) ? nextValue.slice() : nextValue
-              } else if (Array.isArray(tunes[id][key]) && Array.isArray(nextValue)) {
-                  nextValue.forEach(function(v) {
-                      tunes[id][key].push(v)
-                  })
-              } else {
-                  tunes[id][key] = nextValue
-              }
-            })
-            savePersistedTuneSnapshot(tunes[id])
-            historyChanges.push({
+        if (!changes.length) return
+        var tune = tunes[id] || getTuneSync(id)
+        if (!tune) return
+        if (!tunes[id]) tunes[id] = tune
+        var before = getPersistedTuneSnapshot(id)
+        changes.forEach(function(change) {
+          var key = change.key
+          var nextValue = change.value
+          if (change.replace) {
+              tunes[id][key] = Array.isArray(nextValue) ? nextValue.slice() : nextValue
+          } else if (Array.isArray(tunes[id][key]) && Array.isArray(nextValue)) {
+              nextValue.forEach(function(v) {
+                  tunes[id][key].push(v)
+              })
+          } else {
+              tunes[id][key] = nextValue
+          }
+        })
+        tunes[id] = createTune(tunes[id])
+        indexes.indexTune(tunes[id])
+        updateTunesHash(tunes[id])
+        savePersistedTuneSnapshot(tunes[id])
+        rememberTuneBody(tunes[id])
+        saveTuneToRepository(tunes[id]).catch(function() {})
+        historyChanges.push({
               tuneId: id,
               before: before,
-              after: tunes[id],
+              after: cloneTuneSnapshot(tunes[id]),
               label: changes.length > 1 ? ('Bulk change (' + changes.length + ' fields)') : 'Bulk change',
               immediate: true,
               meta: {
@@ -925,12 +938,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
                 tombstoneAfter: deletedTunes && id ? JSON.parse(JSON.stringify(deletedTunes[id] || null)) : null,
               },
             })
-        }
       })
       historyChanges.forEach(function(change) {
         recordHistoryChange(change)
       })
-      setTunes(tunes)
+      setTunes(Object.assign({}, tunes))
       
     }
     return saveTunesOnline()

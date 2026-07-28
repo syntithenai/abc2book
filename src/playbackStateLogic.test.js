@@ -754,6 +754,7 @@ describe('computeMidiMetronomeCountIn', function() {
 
 describe('rhythmAlignedCountInInput', function() {
   const rhythm44 = rhythmFromPreset('4-4')
+  const rhythm34 = rhythmFromPreset('3-4')
 
   function mockVisual(overrides) {
     const o = Object.assign({
@@ -764,6 +765,27 @@ describe('rhythmAlignedCountInInput', function() {
     }, overrides || {})
     return o
   }
+
+  test('3/4 visual with one-beat pickup aligns to two count-in clicks', function() {
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 3 },
+      getBeatLength: function() { return 0.25 },
+      getPickupLength: function() { return 0.25 },
+      millisecondsPerMeasure: function() { return 1800 },
+    })
+    const input = rhythmAlignedCountInInput(visual, rhythm34, {
+      countInBars: 1,
+      meter: '3/4',
+    })
+    expect(input.beatsPerMeasure).toBe(3)
+    expect(input.pickupLength / input.beatLength).toBeCloseTo(1)
+    const countIn = computeMidiMetronomeCountIn(input)
+    expect(countIn.metronomeBeats).toBe(2)
+    expect(computeCountInSlotCount(visual, rhythm34, {
+      countInBars: 1,
+      meter: '3/4',
+    })).toBe(2)
+  })
 
   test('4/4 L:1/2 abcjs beats maps to 4 rhythm beats for count-in', function() {
     const visual = mockVisual({

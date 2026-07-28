@@ -129,11 +129,15 @@ export default function useMidiFilePlayback(options) {
               await ac.resume()
             } catch (e) { /* ignore */ }
           }
+          if (ac.state !== 'running') {
+            if (onLoading) onLoading(false)
+            if (onReady) onReady(duration, { audioBlocked: true })
+            if (onError) onError('Tap play to start MIDI audio')
+            resolve()
+            return
+          }
           if (onReady) onReady(duration)
           if (onLoading) onLoading(false)
-          if (ac.state !== 'running') {
-            if (onError) onError('Tap play to start MIDI audio')
-          }
           resolve()
         }).catch(function(err) {
           isReadyRef.current = false
@@ -175,15 +179,21 @@ export default function useMidiFilePlayback(options) {
   const resumeAudioContextFromGesture = useCallback(function() {
     const ac = getAudioContext()
     if (ac.state === 'suspended') {
-      ac.resume().catch(function() {})
+      return ac.resume().catch(function() {})
     }
+    return Promise.resolve()
   }, [])
 
   const start = useCallback(async function() {
     const ac = getAudioContext()
     if (ac.state === 'suspended') {
-      await ac.resume()
+      try {
+        await ac.resume()
+      } catch (e) {
+        return false
+      }
     }
+    if (ac.state !== 'running') return false
     if (!isReadyRef.current || !playerRef.current) return false
     if (!playerRef.current.isPlaying()) {
       playerRef.current.play()

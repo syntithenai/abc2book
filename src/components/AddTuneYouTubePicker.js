@@ -1,8 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
-import { Button, Form, ListGroup, Spinner } from 'react-bootstrap'
-import { searchMediaLinks } from '../mediaLinkSearchClient'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { Alert, Button, Form, ListGroup, Spinner } from 'react-bootstrap'
+import { MAX_MEDIA_SEARCH_RESULTS, searchMediaLinks } from '../mediaLinkSearchClient'
+import { getMediaSearchAccess } from '../mediaSearchAccess'
 import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
 import { resolveResolverAccessToken } from '../resolverAccessToken'
+import useMediaResolverHealth from '../useMediaResolverHealth'
 import {
   MediaSearchResultDetails,
   MediaSearchResultImage,
@@ -38,6 +40,19 @@ export default function AddTuneYouTubePicker(props) {
   const abortRef = useRef(null)
   const lastSearchedRef = useRef('')
   const autoSelectedQueryRef = useRef('')
+  const { status: resolverStatus, available: resolverAvailable, refreshMediaResolverHealth } = useMediaResolverHealth()
+  const accessToken = resolvedSearchToken(props)
+  const mediaSearchAccess = useMemo(function() {
+    return getMediaSearchAccess({
+      resolverStatus: resolverStatus,
+      resolverAvailable: resolverAvailable,
+      accessToken: accessToken,
+    }) || { loginWarning: null, needsLogin: false }
+  }, [resolverStatus, resolverAvailable, accessToken])
+
+  useEffect(function() {
+    refreshMediaResolverHealth(accessToken || null)
+  }, [accessToken, refreshMediaResolverHealth])
 
   useEffect(function() {
     const next = String(props.searchQuery || '')
@@ -69,7 +84,8 @@ export default function AddTuneYouTubePicker(props) {
       const accessToken = resolvedSearchToken(props)
       searchMediaLinks({
         query: query,
-        maxResults: 6,
+        maxResults: MAX_MEDIA_SEARCH_RESULTS,
+        maxTotalResults: MAX_MEDIA_SEARCH_RESULTS,
         accessToken: accessToken,
         token: accessToken,
         signal: controller ? controller.signal : undefined,
@@ -103,6 +119,23 @@ export default function AddTuneYouTubePicker(props) {
     }
   }, [])
 
+  function handleLogin() {
+    if (typeof props.login !== 'function') return
+    props.login().then(function() {
+      const nextToken = resolvedSearchToken(props)
+      if (nextToken) {
+        return refreshMediaResolverHealth(nextToken)
+      }
+      return null
+    }).then(function() {
+      const query = String(filter || '').trim()
+      if (query) {
+        lastSearchedRef.current = ''
+        setFilter(query)
+      }
+    }).catch(function() {})
+  }
+
   function selectLink(link) {
     if (typeof props.onChange === 'function') props.onChange(link)
   }
@@ -132,9 +165,22 @@ export default function AddTuneYouTubePicker(props) {
         </div>
       ) : null}
 
+      {mediaSearchAccess.loginWarning ? (
+        <Alert variant="warning" className="py-2 px-2 small mb-2">
+          <div className="d-flex align-items-center justify-content-between gap-2 flex-wrap">
+            <span>{mediaSearchAccess.loginWarning.message}</span>
+            {mediaSearchAccess.loginWarning.showLoginButton && typeof props.login === 'function' ? (
+              <Button variant="outline-warning" size="sm" onClick={handleLogin}>
+                Log in with Google
+              </Button>
+            ) : null}
+          </div>
+        </Alert>
+      ) : null}
+
       <VoiceFillInput
         value={filter}
-        placeholder="Search my library or YouTube…"
+        placeholder="Search my library, Bandcamp, archives, or YouTube…"
         data-testid="add-tune-youtube-query"
         onChange={function(e) { setFilter(e.target.value) }}
         onFocus={function() {
@@ -175,7 +221,7 @@ export default function AddTuneYouTubePicker(props) {
         </ListGroup>
       ) : (!busy && !selected ? (
         <div className="text-muted small mt-2">
-          Results appear after composer / artist is set (or type a search above).
+          Results appear after artist is set (or type a search above).
         </div>
       ) : null)}
     </div>

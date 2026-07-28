@@ -96,3 +96,4 @@ local-resolver/soundfonts/
 
 # Theory example generator checkpoint (committed output is examples.js)
 src/feedContent/theory/examples.generated.json
+.cursor/debug-90131e.log

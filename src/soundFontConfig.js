@@ -2,7 +2,7 @@ import { getResourceBase, resourceUrl } from './resourceBase';
 import { getMediaResolverHealthState } from './mediaResolverHealthStore';
 
 const DEFAULT_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs';
-const DEFAULT_SOUNDFONT_VOLUME = 1.0;
+const DEFAULT_SOUNDFONT_VOLUME = 2.0;
 
 export const MUSYNGKITE_SOUNDFONT_PATH = 'midi-js-soundfonts/MusyngKite/';
 export const LOCAL_SELECTION_SOUNDFONT_PATH = 'midi-js-soundfonts/selection/MusyngKite/';

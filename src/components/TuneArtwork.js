@@ -7,6 +7,7 @@ export default function TuneArtwork({
   className,
   linkIndex,
   alt = '',
+  onHidden,
 }) {
   const [hidden, setHidden] = useState(false)
   const url = getTuneArtworkUrl(tune, tunebook, { linkIndex: linkIndex })
@@ -16,7 +17,10 @@ export default function TuneArtwork({
       src={url}
       alt={alt}
       className={className}
-      onError={function() { setHidden(true) }}
+      onError={function() {
+        setHidden(true)
+        if (onHidden) onHidden()
+      }}
     />
   )
 }

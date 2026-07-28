@@ -44,11 +44,18 @@ export const METRONOME_RHYTHM_PRESETS = [
     pulsesPerBeat: 3,
   },
   {
+    id: '5-8',
+    label: '5/8',
+    beatsPerBar: 2,
+    accents: [METRONOME_ACCENT, METRONOME_TICK],
+    pulsesPerBeat: [3, 2],
+  },
+  {
     id: '7-8',
     label: '7/8',
-    beatsPerBar: 4,
-    accents: [METRONOME_ACCENT, METRONOME_TICK, METRONOME_ACCENT, METRONOME_TICK],
-    pulsesPerBeat: 2,
+    beatsPerBar: 3,
+    accents: [METRONOME_ACCENT, METRONOME_TICK, METRONOME_TICK],
+    pulsesPerBeat: [2, 2, 3],
   },
   {
     id: '9-8',
@@ -64,7 +71,79 @@ export const METRONOME_RHYTHM_PRESETS = [
     accents: [METRONOME_ACCENT, METRONOME_TICK, METRONOME_TICK, METRONOME_TICK],
     pulsesPerBeat: 3,
   },
+  {
+    id: '11-8',
+    label: '11/8',
+    beatsPerBar: 5,
+    accents: [METRONOME_ACCENT, METRONOME_TICK, METRONOME_TICK, METRONOME_TICK, METRONOME_TICK],
+    pulsesPerBeat: [2, 2, 3, 2, 2],
+  },
 ]
+
+/** Strong downbeat + medium accent on each later additive group start. */
+export function accentsForAdditiveGroups(beatsPerBar) {
+  const count = Math.max(1, Math.min(16, parseInt(beatsPerBar, 10) || 1))
+  const accents = []
+  for (let i = 0; i < count; i++) {
+    accents.push(i === 0 ? METRONOME_ACCENT : METRONOME_TICK)
+  }
+  return accents
+}
+
+export function createAdditiveRhythm(pulses) {
+  const pattern = Array.isArray(pulses) ? pulses.slice() : []
+  if (!pattern.length || pattern.some(function(value) {
+    return !METRONOME_PULSE_OPTIONS.includes(value)
+  })) {
+    return null
+  }
+  return createRhythm(pattern.length, accentsForAdditiveGroups(pattern.length), pattern)
+}
+
+function parseAdditivePulseText(text) {
+  const raw = String(text || '').trim()
+  const withDen = raw.match(/^(\d+(?:\s*\+\s*\d+)+)\s*\/\s*(\d+)$/)
+  if (withDen) {
+    const pulses = withDen[1].split(/\s*\+\s*/).map(function(part) { return parseInt(part, 10) })
+    return createAdditiveRhythm(pulses)
+  }
+  const bare = raw.match(/^(\d+(?:\s*\+\s*\d+)+)$/)
+  if (bare) {
+    const pulses = bare[1].split(/\s*\+\s*/).map(function(part) { return parseInt(part, 10) })
+    return createAdditiveRhythm(pulses)
+  }
+  return null
+}
+
+/**
+ * Build meter text from an abcjs timeSignature / meter element (supports additive value[]).
+ */
+export function meterTextFromAbcMeterElement(element) {
+  if (!element) return ''
+  if (element.type === 'common_time') return '4/4'
+  if (element.type === 'cut_time') return '2/2'
+  if (element.el_type === 'meter' && element.num && element.den) {
+    return String(element.num) + '/' + String(element.den)
+  }
+  const values = element.value
+  if (Array.isArray(values) && values.length > 0) {
+    if (values.length > 1) {
+      const den = values[0] && values[0].den ? values[0].den : 8
+      return values.map(function(part) { return parseInt(part.num, 10) || 0 }).join('+') + '/' + den
+    }
+    if (values[0] && values[0].num && values[0].den) {
+      return String(values[0].num) + '/' + String(values[0].den)
+    }
+  }
+  return ''
+}
+
+/** Rhythm grid from abcjs meter element (additive-aware). */
+export function rhythmFromAbcMeterElement(element) {
+  const text = meterTextFromAbcMeterElement(element)
+  if (text) return rhythmFromTimeSignature(text)
+  return defaultMetronomeRhythm()
+}
 
 const ACCENT_CYCLE = [METRONOME_ACCENT, METRONOME_TICK, METRONOME_MUTE]
 
@@ -186,15 +265,11 @@ export function parseRhythmText(text) {
       || item.id === lowered.replace('/', '-')
   })
   if (preset) {
-    return createRhythm(preset.beatsPerBar, [METRONOME_ACCENT], preset.pulsesPerBeat)
+    return rhythmFromPreset(preset.id)
   }
 
-  const additive = raw.match(/^(\d+(?:\s*\+\s*\d+)+)$/)
-  if (additive) {
-    const pulses = additive[1].split(/\s*\+\s*/).map(function(part) { return parseInt(part, 10) })
-    if (pulses.some(function(value) { return !METRONOME_PULSE_OPTIONS.includes(value) })) return null
-    return createRhythm(pulses.length, [METRONOME_ACCENT], pulses)
-  }
+  const additive = parseAdditivePulseText(raw)
+  if (additive) return additive
 
   const match = raw.match(/^(\d+)\s*[\/\-:]\s*(\d+)$/)
   if (!match) return null
@@ -203,12 +278,25 @@ export function parseRhythmText(text) {
   if (!(numerator > 0) || !(denominator > 0)) return null
 
   if (denominator === 8 && numerator >= 6 && numerator % 3 === 0) {
-    return createRhythm(numerator / 3, [METRONOME_ACCENT], 3)
+    return createRhythm(
+      numerator / 3,
+      accentsForAdditiveGroups(numerator / 3),
+      3
+    )
   }
   if (denominator === 8 && numerator === 7) {
-    return createRhythm(4, [METRONOME_ACCENT], 2)
+    return rhythmFromPreset('7-8')
   }
-  return createRhythm(numerator, [METRONOME_ACCENT], 1)
+  if (denominator === 8 && numerator === 5) {
+    return rhythmFromPreset('5-8')
+  }
+  if (denominator === 8 && numerator === 11) {
+    return rhythmFromPreset('11-8')
+  }
+  if (denominator === 4 && numerator === 5) {
+    return rhythmFromPreset('5-4')
+  }
+  return createRhythm(numerator, accentsForAdditiveGroups(numerator), 1)
 }
 
 export function formatRhythmText(rhythm) {

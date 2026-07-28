@@ -62,6 +62,13 @@
   padding-bottom: 0.5em;
 }
 
+.media-controls-seek {
+  border-bottom: 1px solid black;
+  padding-top: 0.5em;
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 .media-controls-settings-tabs .nav-tabs {
   margin-bottom: 0.75em;
 }

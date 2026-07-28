@@ -65,9 +65,9 @@ describe('rhythmTimeline', function() {
       tempo: 120,
       downbeatAudioTime: 0,
     })
-    expect(timeline.totalSlots).toBe(8)
+    expect(timeline.totalSlots).toBe(7)
     expect(timeline.barDur).toBeGreaterThan(0)
-    expect(audioTimeForGlobalSlot(timeline, 8)).toBeCloseTo(timeline.barDur)
+    expect(audioTimeForGlobalSlot(timeline, 7)).toBeCloseTo(timeline.barDur)
   })
 
   test('swing lengthens first pulse of each beat', function() {
@@ -150,6 +150,31 @@ describe('rhythmTimeline', function() {
     expect(schedule.downbeatAudioTime).toBeCloseTo(100)
     expect(schedule.clicks[0].slotInBar).toBe(0)
     expect(schedule.clicks[1].slotInBar).toBe(1)
+  })
+
+  test('12/8 one-eighth pickup maps to pulse slot -1 (not 0)', function() {
+    const rhythm128 = rhythmFromPreset('12-8')
+    const timeline = createRhythmTimeline({
+      rhythm: rhythm128,
+      tempo: 100,
+      downbeatAudioTime: 100,
+    })
+    const beat = 0.6
+    const pickupBeats = 1 / 3
+    const schedule = computeCountInSchedule(timeline, {
+      slotCount: 3,
+      pickupBeats: pickupBeats,
+      pickupDelaySec: (2 / 3) * beat,
+      firstClickAudioTime: 100 - 4 * beat,
+    })
+    expect(schedule.musicStartSlot).toBe(-1)
+    expect(schedule.musicStartAudioTime).toBeCloseTo(100 - pickupBeats * beat)
+    expect(schedule.downbeatAudioTime).toBeCloseTo(100)
+    // Re-anchor as the controller does: pulse -1 at music start keeps true downbeat.
+    reanchorTimelineAtSlot(timeline, schedule.musicStartSlot, schedule.musicStartAudioTime)
+    expect(audioTimeForGlobalSlot(timeline, -1)).toBeCloseTo(schedule.musicStartAudioTime)
+    expect(audioTimeForGlobalSlot(timeline, 0)).toBeCloseTo(100)
+    expect(audioTimeForGlobalSlot(timeline, 3)).toBeCloseTo(100 + beat)
   })
 
   test('pickup downbeat conversion round-trips', function() {

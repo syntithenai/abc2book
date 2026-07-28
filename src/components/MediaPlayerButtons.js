@@ -78,6 +78,7 @@ export default function MediaPlayerButtons({
   genreFilter,
   artistFilter,
   selected,
+  onOpenNowPlaying,
   user,
   tunes,
 }) {
@@ -214,6 +215,7 @@ export default function MediaPlayerButtons({
          tunes={tunes}
          nowPlayingQueue={nowPlayingQueue}
          setNowPlayingQueue={setNowPlayingQueue}
+         onOpenNowPlaying={onOpenNowPlaying}
        />
      </ButtonGroup>
    )

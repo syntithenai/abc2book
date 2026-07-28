@@ -6,12 +6,13 @@ import {
     tickRhythmPlaying,
     beginRhythmPlayingAtMusicStart,
     getRhythmPlaybackPhase,
+    setRhythmPlaybackRhythm,
     PHASE_IDLE,
     PHASE_ENTRY_GAP,
     PHASE_PLAYING,
 } from './rhythmPlaybackController'
 import { createRhythmOutputBus, armRhythmOutputBus } from './rhythmOutputBus'
-import { rhythmFromPreset } from './metronomeRhythmPresets'
+import { rhythmFromPreset, slotsPerBar } from './metronomeRhythmPresets'
 
 function mockAudioContext() {
   return {
@@ -167,6 +168,47 @@ describe('rhythmPlaybackController', function() {
     jest.useRealTimers()
   })
 
+  test('3/4 anacrusis keeps count-in beat spacing through playing phase', function() {
+    jest.useFakeTimers()
+    const bus = createRhythmOutputBus()
+    const controller = createRhythmPlaybackController(bus)
+    const ctx = mockAudioContext()
+    const clickTimes = []
+    startRhythmCountIn(controller, {
+      rhythm: rhythmFromPreset('3-4'),
+      tempo: 120,
+      slotCount: 2,
+      pickupBeats: 1,
+      duringPlayback: true,
+      audioContext: ctx,
+      playSlot: function(ac, audioTime) {
+        clickTimes.push(audioTime)
+      },
+      getMusicSeconds: function() { return 0 },
+      getTempoFactor: function() { return 1 },
+      onMusicStart: function(startAt) {
+        beginRhythmPlayingAtMusicStart(controller, {
+          musicSeconds: 0,
+          musicStartAudioTime: startAt,
+          musicStartSlot: controller.musicStartSlot,
+        })
+      },
+    })
+    expect(clickTimes.length).toBe(2)
+    const countInBeat = clickTimes[1] - clickTimes[0]
+    expect(countInBeat).toBeCloseTo(0.5, 4)
+    const musicStart = controller.musicStartAudioTime
+    // Advance past anacrusis onto the first downbeat and next beat.
+    ctx.currentTime = musicStart
+    jest.advanceTimersByTime(25)
+    advancePlayingTicks(ctx, 30)
+    const afterMusic = clickTimes.filter(function(t) { return t >= musicStart - 0.001 })
+    expect(afterMusic.length).toBeGreaterThanOrEqual(2)
+    expect(afterMusic[1] - afterMusic[0]).toBeCloseTo(countInBeat, 3)
+    stopRhythmPlaybackController(controller)
+    jest.useRealTimers()
+  })
+
   test('beginRhythmPlayingAtMusicStart schedules after MIDI anchor', function() {
     jest.useFakeTimers()
     const bus = createRhythmOutputBus()
@@ -218,6 +260,30 @@ describe('rhythmPlaybackController', function() {
     expect(slots.length).toBeGreaterThanOrEqual(4)
     stopRhythmPlaybackController(controller)
     expect(getRhythmPlaybackPhase(controller)).toBe(PHASE_IDLE)
+    jest.useRealTimers()
+  })
+
+  test('setRhythmPlaybackRhythm swaps grid during playing', function() {
+    jest.useFakeTimers()
+    const bus = createRhythmOutputBus()
+    const controller = createRhythmPlaybackController(bus)
+    const ctx = mockAudioContext()
+    armRhythmOutputBus(bus, ctx)
+    enterRhythmPlaying(controller, {
+      rhythm: rhythmFromPreset('4-4'),
+      tempo: 120,
+      audioContext: ctx,
+      musicSeconds: 0,
+      musicStartAudioTime: 0,
+      playSlot: function() {},
+      getMusicSeconds: function() { return 0 },
+      getTempoFactor: function() { return 1 },
+    })
+    expect(slotsPerBar(controller.rhythm)).toBe(4)
+    setRhythmPlaybackRhythm(controller, rhythmFromPreset('3-4'))
+    expect(slotsPerBar(controller.rhythm)).toBe(3)
+    expect(getRhythmPlaybackPhase(controller)).toBe(PHASE_PLAYING)
+    stopRhythmPlaybackController(controller)
     jest.useRealTimers()
   })
 })

@@ -3685,7 +3685,28 @@ export default function useTuneBookMediaController(props) {
         youtubeAutoplayAttemptRef.current = 0
         resumeSynthAudioContextFromGesture()
         resumeExternalAudioContextFromGesture()
-        play({ restart: false })
+        if (stopMetronomeRef.current) {
+            stopMetronomeRef.current()
+        }
+        const route = playbackRouteRef.current
+        if (route.mode === 'midi') {
+            // Synth prime can take several seconds; do not restart it here.
+            if (isLoading) {
+                return
+            }
+            const preserve = currentTimeRef.current > 0.05
+            play({
+                resume: true,
+                userResume: true,
+                preservePosition: preserve,
+            })
+            return
+        }
+        if (isMidiFileMediaRoute()) {
+            play({ preservePosition: true, userResume: true })
+            return
+        }
+        play({ restart: false, preservePosition: true, userResume: true })
     }
 
     function muteNativePlayers() {

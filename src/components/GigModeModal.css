@@ -27,6 +27,8 @@
   /* Near-white staff paper (hint of cool grey), independent of app scheme tokens. */
   --app-notation-paper: #e8ecf2;
   --app-notation-paper-border: #c8d0dc;
+  --app-chord-text: #e8ecf4;
+  --app-lyrics-section-header: #e0a86a;
 }
 
 .gig-mode-setlist-modal.gig-mode-night .modal-content {
@@ -61,6 +63,39 @@
 
 .gig-mode-modal.gig-mode-night .gig-mode-header .gig-mode-stop-btn {
   color: #fff;
+}
+
+/* Structure chord blocks: light text on dark surface (match lyrics, not grey chips). */
+.gig-mode-modal.gig-mode-night .chord-block-line,
+.gig-mode-modal.gig-mode-night .chord-chart-line {
+  background-color: transparent;
+  border-color: var(--app-border);
+  color: var(--app-chord-text);
+}
+
+.gig-mode-modal.gig-mode-night .chord-block-line {
+  border-bottom: 1px solid var(--app-border);
+}
+
+.gig-mode-modal.gig-mode-night .chord-block-lines,
+.gig-mode-modal.gig-mode-night .chord-chart {
+  color: var(--app-chord-text);
+}
+
+.gig-mode-modal.gig-mode-night .chord-section-header,
+.gig-mode-modal.gig-mode-night .lyrics-section-header {
+  background-color: var(--app-brand-muted);
+  border-left-color: var(--app-border-strong);
+  color: var(--app-lyrics-section-header);
+}
+
+.gig-mode-modal.gig-mode-night .chord-block-diagram-toolbar {
+  border-bottom-color: var(--app-border);
+}
+
+.gig-mode-modal.gig-mode-night .music-chords-block-col {
+  background: transparent;
+  border-color: var(--app-border);
 }
 
 .gig-mode-modal .modal-header.gig-mode-header {
@@ -133,8 +168,72 @@
   width: 100%;
 }
 
-.gig-mode-open-tune-btn {
+.gig-mode-toolbar-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0.15rem;
+  border: 1px solid var(--bs-border-color, #ced4da);
+  border-radius: 0.375rem;
+  background: var(--bs-secondary-bg, #e9ecef);
+}
+
+.gig-mode-toolbar-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   margin-left: auto;
+  flex: 0 0 auto;
+}
+
+.gig-mode-open-tune-btn {
+  flex: 0 0 auto;
+  margin-left: 0;
+}
+
+.gig-mode-toolbar-cluster .gig-mode-view-mode-selector.display-mode-toolbar {
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+
+.gig-mode-toolbar-cluster .gig-mode-transpose-group .btn,
+.gig-mode-toolbar-cluster .gig-mode-zoom-group .btn,
+.gig-mode-toolbar-cluster .chord-pitch-group .btn,
+.gig-mode-toolbar-cluster .gig-mode-theme-btn,
+.gig-mode-toolbar-cluster .gig-mode-open-tune-btn,
+.gig-mode-toolbar-cluster .gig-mode-capo-control .btn {
+  min-height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gig-mode-toolbar-cluster .gig-mode-capo-control {
+  margin-left: 0;
+}
+
+.gig-mode-toolbar-cluster .gig-mode-theme-btn {
+  min-width: 2.35rem;
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+}
+
+.gig-mode-toolbar-cluster .gig-mode-theme-btn svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.gig-mode-toolbar-cluster .lyrics-autoscroll-bar--inline {
+  margin-right: 0;
+}
+
+.gig-mode-modal.gig-mode-night .gig-mode-toolbar-cluster {
+  border-color: var(--app-border-strong);
+  background: var(--app-brand-muted);
 }
 
 .gig-mode-display-toggle-btn {
@@ -159,13 +258,13 @@
 }
 
 .gig-mode-zoom-group {
-  margin-right: 0.85rem;
+  margin-right: 0;
 }
 
 .gig-mode-tune-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
   margin-bottom: 0.5rem;
 }
@@ -173,21 +272,6 @@
 .gig-mode-tune-header-text {
   flex: 1 1 auto;
   min-width: 0;
-}
-
-.gig-mode-tune-header .gig-mode-theme-btn {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 2.35rem;
-  padding-left: 0.45rem;
-  padding-right: 0.45rem;
-}
-
-.gig-mode-tune-header .gig-mode-theme-btn svg {
-  width: 1.35rem;
-  height: 1.35rem;
 }
 
 .gig-mode-toolbar-label {

@@ -53,6 +53,11 @@
   color: #b42318;
 }
 
+.feed-page-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.15rem;
+}
+
 .feed-progress {
   display: flex;
   gap: 1rem;
