@@ -150,8 +150,26 @@ function getCacheFiles(callback) {
                 cache.push('static/css/'+file)
             });
             notes.forEach(function(file) {cache.push('midi-js-soundfonts/abcjs/acoustic_grand_piano-mp3/'+file)})
-            notes.forEach(function(file) {cache.push('midi-js-soundfonts/selection/MusyngKite/acoustic_grand_piano-mp3/'+file)})
-            cache.push('midi-js-soundfonts/selection/MusyngKite/acoustic_grand_piano-mp3.js')
+            var selectionInstruments = [
+                'acoustic_grand_piano',
+                'acoustic_guitar_nylon',
+                'acoustic_guitar_steel',
+                'acoustic_bass',
+                'cello',
+                'flute',
+                'orchestral_harp',
+                'pizzicato_strings',
+                'string_ensemble_1',
+                'violin',
+                'brass_section',
+                'slap_bass_1',
+            ]
+            selectionInstruments.forEach(function(instrument) {
+                notes.forEach(function(file) {
+                    cache.push('midi-js-soundfonts/selection/MusyngKite/' + instrument + '-mp3/' + file)
+                })
+                cache.push('midi-js-soundfonts/selection/MusyngKite/' + instrument + '-mp3.js')
+            })
             mainFiles.forEach(function(file) {cache.push(file)})
             //console.log('load dyn',cache)
             callback(cache)

@@ -74,6 +74,8 @@ from europeana import (
     europeana_enabled,
     search_europeana,
 )
+from snapcast_config import snapcast_enabled, snapcast_server_host
+from snapcast_routes import register_snapcast_routes, snapcast_feature_enabled
 from loc_audio import (
     build_loc_audio_candidate,
     is_loc_gov_url,
@@ -640,6 +642,8 @@ def resolver_features(practice_track_ok=None):
             "europeana": europeana_enabled() and _proxy_available(),
             "locAudio": loc_audio_enabled() and _proxy_available(),
             "practiceTrack": practice_track_ok,
+            "snapcastControl": snapcast_enabled(),
+            "snapcastPlayback": snapcast_feature_enabled(),
         }
     features = sheet_image_features()
     playwright_ok = False
@@ -675,6 +679,8 @@ def resolver_features(practice_track_ok=None):
         "europeana": europeana_enabled() and _proxy_available(),
         "locAudio": loc_audio_enabled() and _proxy_available(),
         "practiceTrack": practice_track_ok,
+        "snapcastControl": snapcast_enabled(),
+        "snapcastPlayback": snapcast_feature_enabled(),
     }
 
 
@@ -1173,6 +1179,16 @@ async def resolve_linked_media_audio_bytes(source_url, source_type="", proxy=Non
     parsed = urlparse(validated)
     filename = os.path.basename(parsed.path) or "audio.bin"
     return audio_bytes, filename, content_type
+
+
+register_snapcast_routes(
+    app,
+    maybe_require_auth=maybe_require_auth,
+    cors_headers=cors_headers,
+    resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
+    resolve_ytdlp_proxy_from_request=resolve_ytdlp_proxy_from_request,
+    snapcast_server_host=snapcast_server_host(),
+)
 
 
 async def stream_upstream(target_url, request):
@@ -2767,6 +2783,12 @@ async def health(request: Request, authorization: str | None = Header(default=No
         local_backends=local_provider_backends(),
     )
     body["heavyJobs"] = heavy_jobs_status()
+    if snapcast_enabled():
+        builder = getattr(app.state, "snapcast_health_builder", None)
+        if builder:
+            body["snapcast"] = await builder(request)
+        else:
+            body["snapcast"] = {"enabled": True, "reachable": False, "controlUrl": None}
     return JSONResponse(body, headers=cors_headers(request.headers.get("origin")))
 
 

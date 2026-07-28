@@ -52,6 +52,7 @@ services:
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
       - "${MUSIC_COLLECTION_HOST_DIR:-./music-collection}:/music-collection:ro"
       - ../:/app/www:ro
+      - snapcast_run:/run/snapcast
     environment:
       # In-compose sidecar; override in .env for a host-managed process instead.
       AUDIO_CPP_URL: ${AUDIO_CPP_URL:-http://audio-cpp:8788}
@@ -64,6 +65,11 @@ services:
       # MUSIC_COLLECTION_INDEX_DIR (CLI scripts on the host set that separately).
       MUSIC_COLLECTION_INDEX_DIR: /app/data/music-collection
       SOUNDFONT_DOWNLOAD_ENABLED: "${SOUNDFONT_DOWNLOAD_ENABLED:-true}"
+      SNAPCAST_ENABLED: "${SNAPCAST_ENABLED:-false}"
+      SNAPCAST_TCP_BIND: "${SNAPCAST_TCP_BIND:-0.0.0.0:4954}"
+      SNAPCAST_SERVER_HOST: "${SNAPCAST_SERVER_HOST:-snapserver}"
+      SNAPCAST_STREAM_NAME: "${SNAPCAST_STREAM_NAME:-TuneBook}"
+      SNAPCAST_PLUGIN_URL: "${SNAPCAST_PLUGIN_URL:-http://127.0.0.1:8787/snapcast-playback/plugin}"
       # Auth settings (REQUIRE_AUTH, GOOGLE_CLIENT_ID, ALLOWED_EMAILS, ALLOWED_ORIGINS)
       # come from .env via env_file above. Do NOT hardcode REQUIRE_AUTH here, because
       # values in this environment block override env_file and would disable auth.
@@ -324,9 +330,32 @@ services:
       - ./ddns-namecheap.sh:/usr/local/bin/ddns-namecheap.sh:ro
     restart: unless-stopped
 
+  snapserver:
+    image: ghcr.io/badaix/snapserver:latest
+    container_name: abc2book-snapserver
+    profiles: ["snapcast"]
+    ports:
+      - "${SNAPCAST_PUBLISH_PORT:-1780}:1780"
+      - "${SNAPCAST_CLIENT_PORT:-1704}:1704"
+      - "${SNAPCAST_CLIENT_PORT_TLS:-1705}:1705"
+    volumes:
+      - ./snapcast/snapserver.conf:/etc/snapserver.conf:ro
+      - ./scripts/snapcast_tunebook_plugin.py:/snapcast/tunebook_snapcast_plugin.py:ro
+      - snapcast_run:/run/snapcast
+    environment:
+      SNAPCAST_PLUGIN_URL: http://local-resolver:8787/snapcast-playback/plugin
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS --max-time 3 http://127.0.0.1:1780/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
 volumes:
   caddy_data:
   caddy_config:
   tts_miopen_config:
   tts_miopen_cache:
   tts_piper_voices:
+  snapcast_run:

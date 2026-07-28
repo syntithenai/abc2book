@@ -3,6 +3,8 @@
  * Active queue is persisted in localStorage so it survives refresh and navigation.
  */
 
+import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
+
 const ACTIVE_QUEUE_STORAGE_KEY = 'bookstorage_now_playing_queue'
 
 export function createQueueId() {
@@ -31,7 +33,7 @@ export function getQueueItemLabel(item, tunesMap) {
 
 export function createLessonQueueFromItems(options) {
   const opts = options || {}
-  const rawItems = Array.isArray(opts.items) ? opts.items : []
+  const rawItems = Array.isArray(opts.items) ? opts.items.slice(0, PLAYLIST_MAX_ITEMS) : []
   const items = rawItems.map(function(item) {
     if (!item || !item.externalMedia || !item.externalMedia.youtubeId) return null
     return {
@@ -59,7 +61,7 @@ export function createLessonQueueFromItems(options) {
 
 export function createQueue(options) {
   const opts = options || {}
-  const tuneIds = Array.isArray(opts.tuneIds) ? opts.tuneIds.filter(Boolean) : []
+  const tuneIds = clampTuneIds(Array.isArray(opts.tuneIds) ? opts.tuneIds.filter(Boolean) : [])
   const items = tuneIds.map(function(tuneId) {
     return { tuneId: tuneId, prefer: 'auto' }
   })
@@ -307,6 +309,7 @@ export function appendTuneToQueue(queue, tuneId, options) {
       name: (options && options.name) || 'Playlist',
     })
   }
+  if (queue.items.length >= PLAYLIST_MAX_ITEMS) return queue
   return Object.assign({}, queue, {
     items: queue.items.concat([item]),
   })
@@ -323,6 +326,7 @@ export function insertTuneAfterCurrentInQueue(queue, tuneId, options) {
       name: (options && options.name) || 'Playlist',
     })
   }
+  if (queue.items.length >= PLAYLIST_MAX_ITEMS) return queue
   const idx = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
   const nextItems = queue.items.slice()
   nextItems.splice(idx + 1, 0, item)
@@ -491,8 +495,14 @@ export function sortTunesForQueue(tunes, hasNotesOrChords, hasLinks) {
 }
 
 export function tuneIdsFromTunes(tunes, limit) {
-  const max = typeof limit === 'number' ? limit : 30
+  const max = typeof limit === 'number' ? limit : PLAYLIST_MAX_ITEMS
   return tunes.slice(0, max).map(function(t) { return t.id }).filter(Boolean)
+}
+
+export function clampTuneIds(tuneIds, limit) {
+  const max = typeof limit === 'number' ? limit : PLAYLIST_MAX_ITEMS
+  if (!Array.isArray(tuneIds)) return []
+  return tuneIds.filter(Boolean).slice(0, max)
 }
 
 export function getQueueTunes(queue, tunesMap) {

@@ -356,6 +356,7 @@ async function tryHealthAtBase(base, accessToken) {
       practiceTrackBackend: body.practiceTrackBackend && typeof body.practiceTrackBackend === 'object'
         ? body.practiceTrackBackend
         : null,
+      snapcast: body.snapcast && typeof body.snapcast === 'object' ? body.snapcast : null,
     };
   } catch (e) {
     return {
@@ -464,6 +465,9 @@ export async function probeMediaResolverCandidates(accessToken) {
       : null,
     practiceTrackBackend: activeCandidate && activeCandidate.practiceTrackBackend
       ? activeCandidate.practiceTrackBackend
+      : null,
+    snapcast: activeCandidate && activeCandidate.snapcast
+      ? activeCandidate.snapcast
       : null,
   };
 }

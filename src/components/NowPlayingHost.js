@@ -179,16 +179,23 @@ export default function NowPlayingHost(props) {
     return undefined
   }, [shouldHost, playbackTarget && playbackTarget.type, playingTune && playingTune.id, tunebook, suppressAutostart])
 
+  // #region agent log
+  useEffect(function() {
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'714b89'},body:JSON.stringify({sessionId:'714b89',runId:'post-fix',hypothesisId:'W3',location:'NowPlayingHost.js:targetEffect',message:shouldHost&&playbackTarget?'host mounting engine':'host not mounting engine',data:{shouldHost:!!shouldHost,targetType:playbackTarget&&playbackTarget.type,pathname:pathname,isLoading:!!(mediaController&&mediaController.isLoading),routeMode:mediaController&&mediaController.playbackRouteMode,requestedPlayState:mediaController&&mediaController.requestedPlayState,hasPendingMidi:!!(mediaController&&mediaController.pendingMidiPlayRef&&mediaController.pendingMidiPlayRef.current)},timestamp:Date.now()})}).catch(function(){})
+  }, [
+    shouldHost,
+    playbackTarget && playbackTarget.type,
+    playbackTarget && playbackTarget.linkNum,
+    pathname,
+    mediaController && mediaController.isLoading,
+    mediaController && mediaController.playbackRouteMode,
+    mediaController && mediaController.requestedPlayState,
+  ])
+  // #endregion
+
   if (!shouldHost || !playbackTarget) {
-    // #region agent log
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H5',location:'NowPlayingHost.js:render',message:'host not mounting engine',data:{shouldHost:!!shouldHost,targetType:playbackTarget&&playbackTarget.type,pathname:pathname,isLoading:!!(mediaController&&mediaController.isLoading),routeMode:mediaController&&mediaController.playbackRouteMode},timestamp:Date.now()})}).catch(function(){})
-    // #endregion
     return null
   }
-
-  // #region agent log
-  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',runId:'post-fix',hypothesisId:'H5',location:'NowPlayingHost.js:render',message:'host mounting engine',data:{targetType:playbackTarget.type,pathname:pathname,isLoading:!!(mediaController&&mediaController.isLoading),routeMode:mediaController&&mediaController.playbackRouteMode},timestamp:Date.now()})}).catch(function(){})
-  // #endregion
 
   const routePlayState = playbackTarget.type === 'midi' ? 'playMidi' : 'playMedia'
   const routeMediaLinkNumber = playbackTarget.type === 'media'

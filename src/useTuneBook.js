@@ -16,6 +16,7 @@ import { getLyricLines } from './wLinesUtils'
 import { buildNotationWLines } from './noteSpacingUtils'
 import { filterTunes } from './tuneListFilter'
 import { resolveCandidateTuneIds } from './tuneCandidateFilter'
+import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
 import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
 import { applyDuplicateBookMerges } from './importDuplicateBooks'
 import { importTitlesMatchForDeduping, tuneImportTitle } from './importTitleMatch'
@@ -29,6 +30,7 @@ import {
   setQueueIndex,
   sortTunesForQueue,
   tuneIdsFromTunes,
+  clampTuneIds,
   shouldSuppressFollowNavigate,
   resolvePlaybackForItem,
   isLessonQueue,
@@ -197,7 +199,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       })
     }
     fillTunes = sortTunesForQueue(fillTunes, hasNotesOrChords, hasLinks)
-    var limit = typeof opts.limit === 'number' ? opts.limit : 30
+    var limit = typeof opts.limit === 'number' ? opts.limit : PLAYLIST_MAX_ITEMS
     return { tunes: fillTunes.slice(0, limit), name: useBook || opts.name || 'Playlist' }
   }
 
@@ -2025,10 +2027,10 @@ The main difference between the two functions is the additional condition in app
   
   
   function fillMediaPlaylist(book = null, selectedIds = null, filterTags = null, mergedTunes = null, navigateFn, filterGenres = null, filterArtists = null) {
-        var built = buildQueueTunesFromContext(book, selectedIds, filterTags, mergedTunes, { mediaOnly: true, limit: 20, genreFilter: filterGenres, artistFilter: filterArtists })
+        var built = buildQueueTunesFromContext(book, selectedIds, filterTags, mergedTunes, { mediaOnly: true, limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists })
         if (!built.tunes.length) return null
         var queue = createQueue({
-          tuneIds: tuneIdsFromTunes(built.tunes, 20),
+          tuneIds: tuneIdsFromTunes(built.tunes, PLAYLIST_MAX_ITEMS),
           name: built.name,
           source: selectedIds ? 'selection' : 'filter',
         })
@@ -2070,11 +2072,11 @@ The main difference between the two functions is the additional condition in app
     }
 
     function fillAbcPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists) {
-        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: 30, genreFilter: filterGenres, artistFilter: filterArtists })
+        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists })
         var midiTunes = built.tunes.filter(function(tune) { return hasNotesOrChords(tune) })
         if (!midiTunes.length) return null
         var queue = createQueue({
-          tuneIds: tuneIdsFromTunes(midiTunes, 30),
+          tuneIds: tuneIdsFromTunes(midiTunes, PLAYLIST_MAX_ITEMS),
           name: built.name,
           source: selected ? 'selection' : 'filter',
         })
@@ -2085,10 +2087,10 @@ The main difference between the two functions is the additional condition in app
     }
     
     function fillAnyPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists) {
-        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: 30, genreFilter: filterGenres, artistFilter: filterArtists })
+        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists })
         if (!built.tunes.length) return null
         var queue = createQueue({
-          tuneIds: tuneIdsFromTunes(built.tunes, 30),
+          tuneIds: tuneIdsFromTunes(built.tunes, PLAYLIST_MAX_ITEMS),
           name: built.name,
           source: selected ? 'selection' : 'filter',
         })
@@ -2102,7 +2104,7 @@ The main difference between the two functions is the additional condition in app
     function createQueueFromTuneIds(tuneIds, options) {
       var opts = options || {}
       var queue = createQueue({
-        tuneIds: tuneIds,
+        tuneIds: clampTuneIds(tuneIds),
         name: opts.name || 'Playlist',
         source: opts.source || 'manual',
         followTune: opts.followTune !== undefined ? !!opts.followTune : true,

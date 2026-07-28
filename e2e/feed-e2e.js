@@ -33,13 +33,13 @@ async function run() {
     await openFeed(page, BASE)
     recordPass('feed-page-renders')
 
-    const header = await page.$('[data-testid="header-feed-button"]')
+    const header = await page.$('[data-testid="header-theory-button"]')
     // Header button may be inside closed dropdown; navigate already used hash
     if (!header) {
       // still ok if we reached feed via hash; try opening dropdown
       recordPass('feed-route-hash')
     } else {
-      recordPass('header-feed-button-present')
+      recordPass('header-theory-button-present')
     }
 
     await page.waitForSelector('[data-testid="feed-card"]', { timeout: 15000 })

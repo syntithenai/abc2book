@@ -20,6 +20,9 @@ import WizardOptionsModal from './WizardOptionsModal';
 import NotationTuneMetaModal from './NotationTuneMetaModal';
 import NotationInlineSignatureModal from './NotationInlineSignatureModal';
 import useAbcjsParser from '../useAbcjsParser';
+import useNotationCheck from '../useNotationCheck';
+import NotationIssuesPanel from './NotationIssuesPanel';
+import NotationPasteModeModal from './NotationPasteModeModal';
 import { notationViewToEditorViewMode } from '../viewModeUtils';
 import { serializeVoiceEvents } from '../notation/abcVoiceSerializer';
 import { buildAbcPreviewFromBodies, voiceDisplayLabel, mapAbcClickToVoiceCursor } from '../notation/notationDisplayAbc';
@@ -79,7 +82,14 @@ import {
   cutToClipboard,
   swapWithClipboard,
   repeatSelectionAtCaret,
+  getNotationClipboard,
+  hasClipboardContent,
 } from '../notation/notationClipboard';
+import {
+  applyBarPasteToEvents,
+  defaultPasteFromBar,
+  eventsToNoteLines,
+} from '../notation/notationBarPaste';
 import { quantizeVoiceEvents } from '../notation/quantizeVoiceEvents';
 import {
   applyDownbeatOffset,
@@ -273,6 +283,7 @@ export default function NotationEditor(props) {
   const [pitchDragPreview, setPitchDragPreview] = useState(null);
   const [marqueeClientRect, setMarqueeClientRect] = useState(null);
   const [clipboardEpoch, setClipboardEpoch] = useState(0);
+  const [pasteModal, setPasteModal] = useState(null);
   const [annotEdit, setAnnotEdit] = useState(null); // { mode, value, eventId, left, top }
   const [staffInsertAnchor, setStaffInsertAnchor] = useState(null);
 
@@ -1299,6 +1310,22 @@ export default function NotationEditor(props) {
         caret = replacing
           ? layoutInsertIndex(editSession, lastNoteSelectionRef.current)
           : pasteInsertIndex(editSession, lastNoteSelectionRef.current);
+      }
+      if (hasClipboardContent()) {
+        const range = defaultPasteFromBar(
+          editSession.events,
+          caret,
+          replacing ? replaceIds : null,
+          tuneMeta
+        );
+        setPasteModal({
+          mode: 'merge',
+          fromBar: range.fromBar,
+          toBar: range.toBar,
+          events: editSession.events,
+          view: s.view,
+        });
+        return;
       }
       const pasted = pasteFromClipboard(editSession.events, caret, tuneMeta, replacing ? replaceIds : null);
       if (pasted) {
@@ -2608,6 +2635,50 @@ export default function NotationEditor(props) {
     });
   }, [props.tune, props.tunebook, displayedVoiceKeys, displayedVoiceBodiesKey, session.view]);
 
+  const liveBodiesForCheck = useMemo(function() {
+    const bodies = {};
+    const voiceNames = props.voiceNames || [];
+    voiceNames.forEach(function(vk) {
+      bodies[vk] = voiceBodyForDisplay(vk);
+    });
+    return bodies;
+  }, [displayedVoiceBodiesKey, props.voiceNames, props.voiceKey, liveVoiceBody, abcDrafts, props.voiceNotes, session.view, session.dirty, props.tune]);
+
+  const parseAndRenderAbc = useCallback(function(abc) {
+    const parsed = abcjsParser.parse(abc);
+    return abcjsParser.render(parsed, abc);
+  }, [abcjsParser]);
+
+  const notationCheck = useNotationCheck(props.tune, liveBodiesForCheck, {
+    abcTools: props.tunebook && props.tunebook.abcTools,
+    hasChords: props.tunebook && props.tunebook.abcTools
+      ? props.tunebook.abcTools.hasChords.bind(props.tunebook.abcTools)
+      : null,
+    parseAndRender: parseAndRenderAbc,
+    skipRenderAbc: true,
+  });
+
+  const handleNavigateIssue = useCallback(function(issueItem) {
+    if (!issueItem) return;
+    const s = sessionRef.current;
+    if (issueItem.barIndex != null) {
+      const beat = (issueItem.barIndex - 1) * beatsPerBarFromMeter(tuneMeta.meter);
+      setCaretIndex(caretIndexForStartBeat(s.events, beat));
+      return;
+    }
+    if (issueItem.lineIndex != null && session.view === EDITOR_VIEWS.ABC) {
+      const ta = textareaRefs.current[props.voiceKey];
+      if (ta) ta.focus();
+    }
+  }, [tuneMeta.meter, props.voiceKey]);
+
+  const handleFixTuneSaved = useCallback(function(nextTune) {
+    if (!props.tunebook || !nextTune) return;
+    props.tunebook.saveTune(nextTune, false, { historyLabel: 'Notation fix', immediate: true });
+    if (props.forceRefresh) props.forceRefresh();
+    notationCheck.refresh();
+  }, [props.tunebook, props.forceRefresh, notationCheck]);
+
   const abcPreviewAbc = displayAbc;
 
   const backgroundPianoRollEvents = useMemo(function() {
@@ -3009,6 +3080,7 @@ export default function NotationEditor(props) {
         marqueeRect={marqueeClientRect}
         slurSnapEventId={slurSnapEventId}
         onSlurHandlePointerDown={handleSlurHandlePointerDown}
+        issueBarIndices={notationCheck.issueBarIndices}
       />
       <GhostNoteOverlay session={session} />
       <NotationFingeringLabelsOverlay
@@ -3048,6 +3120,7 @@ export default function NotationEditor(props) {
       onFlushCommit={flushCommit}
       onQuantize={function() { setShowQuantize(true); }}
       onAlignAction={handlePianoRollAlign}
+      issueBarIndices={notationCheck.issueBarIndices}
     />
   );
 
@@ -3338,6 +3411,16 @@ export default function NotationEditor(props) {
         noteInputActive={session.mode === EDITOR_MODES.NOTE_INPUT}
       />
 
+      <NotationIssuesPanel
+        tune={props.tune}
+        tunebook={props.tunebook}
+        issues={notationCheck.issues}
+        checkResults={notationCheck}
+        parseAndRender={parseAndRenderAbc}
+        onNavigateIssue={handleNavigateIssue}
+        onTuneSaved={handleFixTuneSaved}
+      />
+
       {isStaffView ? staffPanel
       : isSplitView ? (
         <div className="notation-split-view">
@@ -3464,6 +3547,60 @@ export default function NotationEditor(props) {
         onApply={applyInlineSignature}
       />
 
+      <NotationPasteModeModal
+        show={!!pasteModal}
+        mode={pasteModal && pasteModal.mode}
+        fromBar={pasteModal && pasteModal.fromBar}
+        toBar={pasteModal && pasteModal.toBar}
+        targetNotes={pasteModal ? eventsToNoteLines(pasteModal.events, tuneMeta) : []}
+        sourceNotes={pasteModal && hasClipboardContent()
+          ? eventsToNoteLines(getNotationClipboard().events, tuneMeta)
+          : []}
+        tune={props.tune}
+        onHide={function() { setPasteModal(null); }}
+        onConfirm={function() {
+          if (!pasteModal) return;
+          const clip = getNotationClipboard();
+          if (!clip || !clip.events.length) {
+            setPasteModal(null);
+            return;
+          }
+          const nextEvents = applyBarPasteToEvents(
+            pasteModal.events,
+            clip.events,
+            props.tune,
+            pasteModal.mode,
+            pasteModal.fromBar,
+            pasteModal.toBar
+          );
+          const s = sessionRef.current;
+          applyEvents(Object.assign({}, s, {
+            events: nextEvents,
+            selection: { eventIds: [], toneIndex: null, anchorId: null },
+          }), pasteModal.view || s.view, 'Paste');
+          setPasteModal(null);
+        }}
+        onModeChange={function(mode) {
+          setPasteModal(function(current) {
+            return current ? Object.assign({}, current, { mode: mode }) : current;
+          });
+        }}
+        onFromBarChange={function(value) {
+          setPasteModal(function(current) {
+            return current
+              ? Object.assign({}, current, { fromBar: Math.max(1, parseInt(value, 10) || 1) })
+              : current;
+          });
+        }}
+        onToBarChange={function(value) {
+          setPasteModal(function(current) {
+            if (!current) return current;
+            return Object.assign({}, current, {
+              toBar: value === '' || value == null ? null : Math.max(current.fromBar, parseInt(value, 10) || current.fromBar),
+            });
+          });
+        }}
+      />
       <QuantizeDialog
         show={showQuantize}
         noChangeHint={quantizeNoChangeHint}

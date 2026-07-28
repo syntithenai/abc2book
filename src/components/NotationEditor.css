@@ -1045,3 +1045,96 @@
 .voices-manage-modal .table th {
   vertical-align: middle;
 }
+
+.notation-issues-panel {
+  margin: 0.5rem 0 0.75rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.375rem;
+  background: var(--bs-body-bg, #fff);
+}
+
+.notation-issues-panel-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.notation-issues-panel-title {
+  font-weight: 600;
+}
+
+.notation-issues-panel-chevron {
+  margin-left: auto;
+}
+
+.notation-issues-panel-body {
+  padding: 0 0.75rem 0.75rem;
+}
+
+.notation-issues-group + .notation-issues-group {
+  margin-top: 0.75rem;
+}
+
+.notation-issues-group-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--bs-secondary-color, #6c757d);
+}
+
+.notation-issues-list {
+  list-style: none;
+  margin: 0.25rem 0 0;
+  padding: 0;
+}
+
+.notation-issues-item-button {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.notation-issues-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.35rem;
+}
+
+.notation-staff-issue-bar {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(255, 193, 7, 0.18);
+  border: 1px solid rgba(255, 193, 7, 0.55);
+  border-radius: 2px;
+  z-index: 2;
+}
+
+.notation-paste-mode-options {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.notation-paste-mode-bars {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.notation-paste-bar-field {
+  max-width: 10rem;
+}
+
+.notation-paste-preview {
+  margin-top: 0.75rem;
+}

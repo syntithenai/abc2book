@@ -487,12 +487,12 @@ export default function Header(props) {
                             size={navButtonSize}
                             variant="primary"
                             className="header-dropdown-btn header-dropdown-feed-btn"
-                            data-testid="header-feed-button"
+                            data-testid="header-theory-button"
                             onClick={function() { setNavMenuOpen(false) }}
                         >
                             <span className="header-dropdown-btn-label">
-                                {props.tunebook.icons.list}
-                                <span>Feed</span>
+                                {props.tunebook.icons.theory}
+                                <span>Theory</span>
                             </span>
                         </Button>
                     </div>

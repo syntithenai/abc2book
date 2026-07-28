@@ -39,4 +39,20 @@ describe('nowPlayingQueue append helpers', function() {
     const queue = insertTunesAfterCurrentInQueue(base, ['b', 'c'])
     expect(queue.items.map(function(item) { return item.tuneId })).toEqual(['a', 'b', 'c', 'd'])
   })
+
+  test('createQueue caps tune ids at PLAYLIST_MAX_ITEMS', function() {
+    const tuneIds = []
+    for (let i = 0; i < 250; i++) tuneIds.push('t' + i)
+    const queue = createQueue({ tuneIds: tuneIds })
+    expect(queue.items.length).toBe(200)
+  })
+
+  test('appendTuneToQueue does not exceed PLAYLIST_MAX_ITEMS', function() {
+    const tuneIds = []
+    for (let i = 0; i < 200; i++) tuneIds.push('t' + i)
+    const base = createQueue({ tuneIds: tuneIds })
+    const queue = appendTuneToQueue(base, 'overflow')
+    expect(queue.items.length).toBe(200)
+    expect(queue.items.some(function(item) { return item.tuneId === 'overflow' })).toBe(false)
+  })
 })

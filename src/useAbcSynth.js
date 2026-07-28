@@ -4,7 +4,7 @@ import useAbcTools from './useAbcTools'
 import {isMobile} from 'react-device-detect'
 import abcjs from "abcjs";
 import { encodeAudioBufferWithSetting } from './audioCompressEncode'
-import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig'
+import { getPlaybackSoundFontPlan, getSoundFontVolumeMultiplier } from './soundFontConfig'
 import { programOffsetsForSoundFontUrl } from './abcSynthProgramOffsets'
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import PitchTempoShifter from './pitchTempoShifter'
@@ -1080,10 +1080,28 @@ export default function useAbcSynth(props) {
         const at = timingAtMusicSeconds(map, musicSeconds)
         const last = lastPlaybackTimingSampleRef.current
         const controller = getRhythmController()
+        const tempoFactor = getTempoFactor()
+        const meterChanged = !!force || !last || last.meterText !== at.meterText
+        // Count-in leaves a free-running wall-tempo timeline. Do not retarget
+        // score BPM onto that timeline (scrambles clicks when speed ≠ 1x, or
+        // when getBpm drifts from millisecondsPerMeasure). Still apply meter
+        // changes so mid-tune M: updates keep the click pattern correct.
+        if (controller.timeline) {
+          if (meterChanged && at.rhythm) {
+            setRhythmPlaybackRhythm(controller, at.rhythm)
+          }
+          // #region agent log
+          fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'714b89'},body:JSON.stringify({sessionId:'714b89',runId:'post-fix',hypothesisId:'M2',location:'useAbcSynth.js:syncPlaybackTimingFromMap',message:'timeline meter-only sync',data:{force:!!force,mapBpm:at.rhythmBeatBpm,timelineTempo:controller.tempo,tempoFactor:tempoFactor,meterText:at.meterText,meterChanged:!!meterChanged,musicSeconds:musicSeconds},timestamp:Date.now()})}).catch(function(){})
+          // #endregion
+          lastPlaybackTimingSampleRef.current = {
+            meterText: at.meterText,
+            rhythmBeatBpm: at.rhythmBeatBpm,
+          }
+          return
+        }
         const tempoChanged = !!force
             || !last
             || Math.abs(last.rhythmBeatBpm - at.rhythmBeatBpm) > 0.5
-        const meterChanged = !!force || !last || last.meterText !== at.meterText
         if (tempoChanged) {
             setRhythmPlaybackTempo(controller, at.rhythmBeatBpm)
         }
@@ -1097,10 +1115,11 @@ export default function useAbcSynth(props) {
      }
 
      function isRhythmHandoffPhase() {
+        // Only true count-in / entry-gap — not PHASE_PLAYING. Treating playing as
+        // handoff blocked startPlaying/restart while the during-playback metronome
+        // ran (UI stuck on waiting; play returned true without starting).
         const phase = getRhythmPlaybackPhase(getRhythmController())
-        return phase === PHASE_PLAYING
-            || phase === PHASE_COUNT_IN
-            || phase === PHASE_ENTRY_GAP
+        return phase === PHASE_COUNT_IN || phase === PHASE_ENTRY_GAP
      }
 
      function ensureDuringPlaybackMetronome(ratio) {
@@ -1132,6 +1151,8 @@ export default function useAbcSynth(props) {
             audioContext: gaudioContext.current,
             musicSeconds: musicSeconds,
             musicStartAudioTime: musicStartAudioTime,
+            // Mid-tune entry is not anacrusis — clear leftover pickup slot.
+            musicStartSlot: 0,
             playSlot: rhythmPlaySlotFn,
             getMusicSeconds: getRhythmMusicSeconds,
             getTempoFactor: getTempoFactor,
@@ -2187,7 +2208,7 @@ export default function useAbcSynth(props) {
         // Stacking those restarts count-in mid-schedule (3 quick + 3 even).
         if (countInPendingRef.current || isRhythmHandoffPhase()) {
             // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'countInOrHandoff',force:!!force},timestamp:Date.now()})}).catch(function(){})
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'714b89'},body:JSON.stringify({sessionId:'714b89',runId:'post-fix',hypothesisId:'W1',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'countInOrHandoff',force:!!force,phase:getRhythmPlaybackPhase(getRhythmController()),countInPending:!!countInPendingRef.current},timestamp:Date.now()})}).catch(function(){})
             // #endregion
             return
         }
@@ -2478,7 +2499,7 @@ export default function useAbcSynth(props) {
             if (isMidiKickoffActive()) {
                 if (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase()) {
                     // #region agent log
-                    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:beginMidiPlayback',message:'kickoff no-op return true',data:{primePromise:!!primePromiseRef.current,countIn:!!countInPendingRef.current,handoff:isRhythmHandoffPhase()},timestamp:Date.now()})}).catch(function(){})
+                    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'714b89'},body:JSON.stringify({sessionId:'714b89',runId:'post-fix',hypothesisId:'W1',location:'useAbcSynth.js:beginMidiPlayback',message:'kickoff no-op return true',data:{primePromise:!!primePromiseRef.current,countIn:!!countInPendingRef.current,handoff:isRhythmHandoffPhase(),phase:getRhythmPlaybackPhase(getRhythmController())},timestamp:Date.now()})}).catch(function(){})
                     // #endregion
                     return true
                 }
@@ -3063,6 +3084,15 @@ export default function useAbcSynth(props) {
                         }
                         if (!(effectiveTempo > 0)) effectiveTempo = getPlaybackMetronomeTempo()
                         if (!(effectiveTempo > 0)) effectiveTempo = 120
+                        // #region agent log
+                        try {
+                          var _ms = o.millisecondsPerMeasure ? o.millisecondsPerMeasure() : null
+                          var _bpm = o.getBpm ? o.getBpm() : null
+                          var _beats = o.getBeatsPerMeasure ? o.getBeatsPerMeasure() : null
+                          var _mf = o.getMeterFraction ? o.getMeterFraction() : null
+                          fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'714b89'},body:JSON.stringify({sessionId:'714b89',runId:'post-fix',hypothesisId:'M3',location:'useAbcSynth.js:startWithMetronome',message:'count-in tempo sources',data:{effectiveTempo:effectiveTempo,tempoFactor:tempoFactor,msPerMeasure:_ms,getBpm:_bpm,beatsPerMeasure:_beats,meter:_mf?(_mf.num+'/'+_mf.den):null,rhythmBeats:countInRhythm&&countInRhythm.beatsPerBar,gridTempoFallback:getRhythmGridMetronomeTempo()},timestamp:Date.now()})}).catch(function(){})
+                        } catch (e) {}
+                        // #endregion
                         var countInSlots = computeCountInSlotCount(o, countInRhythm, countInOptions)
                         if (!(countInSlots > 0)) countInSlots = metronomeBeats
                         // No anacrusis: exact N bars of rhythm beats (4 in 4/4, 3 in 3/4).
@@ -3296,18 +3326,14 @@ export default function useAbcSynth(props) {
             setMidiBuffer(null)
             var midiBuffer = new abcjs.synth.CreateSynth()
             var count = 0
-            // Prefer full MusyngKite from the resolver when the volume bank is ready;
-            // otherwise use the embedded selection and remap GM programs onto it.
-            // Per-tune: "local" forces remap; "online"/"" uses resolver when ready.
-            var musyngReady = isResolverMusyngKiteReady()
-            if (tune && tune.soundFonts === 'local') musyngReady = false
-            var a = getSoundFontUrl({ musyngKiteReady: musyngReady })
+            var fillPlayback = resolveFillPlaybackOptions(tune)
+            var soundFontPlan = getPlaybackSoundFontPlan({ tune: tune })
+            var a = soundFontPlan.url
             //var warp =  props.warp > 0 ? props.warp : 1
             var soundFontVolume = getSoundFontVolumeMultiplier()
             // MusyngKite must not use original-bank programOffsets — those shift
             // note peaks ~15–90ms early vs the metronome (median ~35ms measured).
             var effectiveProgramOffsets = programOffsetsForSoundFontUrl(a)
-            var fillPlayback = resolveFillPlaybackOptions(tune)
             // Practice quiet/loud level is applied live via pitch-shifter output
             // gain so the session volume slider can change without re-priming.
             var initOptions = {
@@ -3324,9 +3350,9 @@ export default function useAbcSynth(props) {
                  programOffsets: effectiveProgramOffsets,
                },
             }
-            var useSequencePath = !musyngReady || fillPlayback.injectCustomFill
+            var useSequencePath = soundFontPlan.remap || fillPlayback.injectCustomFill
             if (useSequencePath) {
-              // Remap GM programs onto the local instrument subset so abcjs only
+              // Remap GM programs onto the embedded selection so abcjs only
               // requests samples that exist under selection/MusyngKite.
               try {
                 var flattened = buildPlaybackSequence(synthObj, {
@@ -3336,7 +3362,9 @@ export default function useAbcSynth(props) {
                   millisecondsPerMeasure: initOptions.millisecondsPerMeasure,
                   transpose: synthObj.visualTranspose,
                 })
-                remapFlattenedMidiPrograms(flattened)
+                if (soundFontPlan.remap) {
+                  remapFlattenedMidiPrograms(flattened)
+                }
                 initOptions.sequence = flattened
                 // abcjs CreateSynth defaults meterSize=1 when only `sequence` is
                 // passed (visualObj path sets num/den). tempoMultiplier =
@@ -3383,9 +3411,10 @@ export default function useAbcSynth(props) {
                 }
               } catch (e) {}
               var ofsKey = Object.keys(effectiveProgramOffsets || {}).length ? 'ofs1' : 'ofsMusyng0'
+              var bankKey = soundFontPlan.bank === 'online' ? 'online' : 'sel'
               var fillKey = (tune && tune.playbackFillStyle ? tune.playbackFillStyle : 'boom-chick')
                 + '-' + (tune && tune.playbackFillLevel != null ? tune.playbackFillLevel : 100)
-              return tune.id + "-" + tune.tempo  + '-'+tune.transpose+"-"+meterKey+"-"+ofsKey+"-"+fillKey+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
+              return tune.id + "-" + tune.tempo  + '-'+tune.transpose+"-"+meterKey+"-"+ofsKey+"-"+bankKey+"-"+fillKey+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
             }
             
             function resolveWithTimingAndCursor(midiBuffer) {
@@ -3407,12 +3436,10 @@ export default function useAbcSynth(props) {
                   function (response) { 
                     midiBuffer.prime().then(function(presponse) {
                       //if (props.setMidiData) props.setMidiData(abcjs.synth.getMidiFile(visualObj, { midiOutputType: 'binary', bpm: tune.tempo ? tune.tempo : 100 }))
-                      if (tune && tune.id && props.cacheAudio !== false) { 
-                        saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
-                          resolveWithTimingAndCursor(midiBuffer)
-                        })
-                      } else {
-                        resolveWithTimingAndCursor(midiBuffer)
+                      resolveWithTimingAndCursor(midiBuffer)
+                      if (tune && tune.id && props.cacheAudio !== false) {
+                        saveAudioToCache(getAudioHash(tune), midiBuffer.audioBuffers, midiBuffer.duration)
+                          .catch(function() {})
                       }
                     })
                     .catch(function (error) {

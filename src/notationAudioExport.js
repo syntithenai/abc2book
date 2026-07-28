@@ -1,6 +1,6 @@
 import abcjs from 'abcjs'
 import { ABC_SYNTH_PROGRAM_OFFSETS } from './abcSynthProgramOffsets'
-import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig'
+import { getPlaybackSoundFontPlan, getSoundFontVolumeMultiplier } from './soundFontConfig'
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import { resolveFillPlaybackOptions } from './playbackFillSettings'
 import { buildPlaybackSequence } from './playbackFillPattern'
@@ -35,13 +35,7 @@ function renderAbcVisual(abc) {
   }
 }
 
-function resolveMusyngKiteReady(tune) {
-  let musyngReady = isResolverMusyngKiteReady()
-  if (tune && tune.soundFonts === 'local') musyngReady = false
-  return musyngReady
-}
-
-async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal, synthOptions) {
+async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOptions) {
   const opts = synthOptions || {}
   const visualObj = renderAbcVisual(abc)
   if (!visualObj) {
@@ -59,13 +53,13 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal
     audioContext: audioContext,
     millisecondsPerMeasure: msPerMeasure,
     options: {
-      soundFontUrl: soundFontUrl,
+      soundFontUrl: soundFontPlan.url,
       soundFontVolumeMultiplier: getSoundFontVolumeMultiplier(),
       chordsOff: opts.chordsOff === true ? true : fillPlayback.chordsOff,
       programOffsets: ABC_SYNTH_PROGRAM_OFFSETS,
     },
   }
-  const useSequencePath = remapLocal || fillPlayback.injectCustomFill
+  const useSequencePath = soundFontPlan.remap || fillPlayback.injectCustomFill
   if (useSequencePath) {
     const flattened = buildPlaybackSequence(visualObj, {
       fillOptions: fillPlayback,
@@ -74,7 +68,9 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal
       millisecondsPerMeasure: msPerMeasure,
       transpose: visualObj.visualTranspose,
     })
-    remapFlattenedMidiPrograms(flattened)
+    if (soundFontPlan.remap) {
+      remapFlattenedMidiPrograms(flattened)
+    }
     initOptions.sequence = flattened
   } else {
     initOptions.visualObj = visualObj
@@ -101,13 +97,18 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontUrl, remapLocal
 }
 
 function soundFontCandidates(tune) {
-  const musyngReady = resolveMusyngKiteReady(tune)
-  const configured = getSoundFontUrl({ musyngKiteReady: musyngReady })
-  const list = []
-  if (configured) {
-    list.push({ url: configured, remapLocal: !musyngReady })
+  const plan = getPlaybackSoundFontPlan({ tune: tune })
+  const list = [{ url: plan.url, plan: plan }]
+  if (plan.bank !== 'online') {
+    list.push({
+      url: 'https://paulrosen.github.io/midi-js-soundfonts/MusyngKite/',
+      plan: { url: 'https://paulrosen.github.io/midi-js-soundfonts/MusyngKite/', remap: false, bank: 'online' },
+    })
   }
-  list.push({ url: ORIGINAL_SOUNDFONT_CDN, remapLocal: true })
+  list.push({
+    url: ORIGINAL_SOUNDFONT_CDN,
+    plan: { url: ORIGINAL_SOUNDFONT_CDN, remap: true, bank: 'selection' },
+  })
   return list
 }
 
@@ -137,8 +138,7 @@ export async function renderAbcToAudioBuffer(abc, options) {
         return await primeAbcToAudioBuffer(
           abc,
           audioContext,
-          candidates[i].url,
-          candidates[i].remapLocal,
+          candidates[i].plan,
           opts
         )
       } catch (err) {

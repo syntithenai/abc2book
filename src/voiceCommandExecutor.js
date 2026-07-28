@@ -8,6 +8,7 @@ import {
   shouldAutoPickCandidate,
 } from './voiceCommandUtils';
 import { playTuneNow } from './tunePlaybackActions';
+import { clampTuneIds } from './nowPlayingQueue';
 
 function transcriptWantsPlayback(transcript) {
   return /^\s*play\b/i.test(String(transcript || ''));
@@ -63,7 +64,7 @@ function executePlayFilter(result, context) {
   }
 
   const tunes = collectPlaylistTunes(result, context) || [];
-  const tuneIds = tunes.map(function(tune) { return tune && tune.id; }).filter(Boolean);
+  const tuneIds = clampTuneIds(tunes.map(function(tune) { return tune && tune.id; }).filter(Boolean));
   if (!tuneIds.length) {
     if (context.onFeedback) context.onFeedback('No matches for ' + buildPlaylistLabel(result));
     return { ok: false };

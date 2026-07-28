@@ -5,6 +5,7 @@
 import { createQueue, createQueueId, isQueueActive } from './nowPlayingQueue'
 import { createPlaylistTombstone } from './playlistSync'
 import { normalizePlaylistItems } from './playlistMergeUtils'
+import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
 
 const STORAGE_KEY = 'bookstorage_saved_playlists'
 const DELETED_STORAGE_KEY = 'bookstorage_deleted_playlists'
@@ -74,7 +75,7 @@ export function writeDeletedPlaylists(deleted) {
 
 function normalizeRecord(record, id) {
   if (!record || typeof record !== 'object') return null
-  const items = normalizePlaylistItems(record.items)
+  const items = normalizePlaylistItems(record.items).slice(0, PLAYLIST_MAX_ITEMS)
   return {
     id: id || record.id,
     name: record.name || 'Playlist',
@@ -137,7 +138,7 @@ export function appendTunesToPlaylist(playlistId, tuneIds) {
   if (!existing) return null
   const nextItems = (existing.items || []).concat(ids.map(function(tuneId) {
     return { tuneId: tuneId }
-  }))
+  })).slice(0, PLAYLIST_MAX_ITEMS)
   return savePlaylist(Object.assign({}, existing, { items: nextItems }), { id: playlistId })
 }
 

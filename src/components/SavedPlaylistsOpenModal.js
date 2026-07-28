@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Button, ListGroup, Modal } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import { createQueue } from '../nowPlayingQueue'
+import { createQueue, clampTuneIds } from '../nowPlayingQueue'
 import ShareTunebookModal from './ShareTunebookModal'
 import VoiceFillInput from './VoiceFillInput'
 import { savePerformanceSet } from '../performanceSetStore'
@@ -143,9 +143,9 @@ export default function SavedPlaylistsOpenModal({
       genreFilter,
       artistFilter
     )
-    const tuneIds = (matching || []).map(function(tune) {
+    const tuneIds = clampTuneIds((matching || []).map(function(tune) {
       return tune && tune.id
-    }).filter(Boolean)
+    }).filter(Boolean))
     if (!tuneIds.length) {
       window.alert('No tunes match the current search.')
       return

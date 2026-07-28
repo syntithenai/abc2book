@@ -358,6 +358,7 @@ export default function Abc(props) {
         }
             
         var o = res && res.length > 0 ? res[0] : null
+        if (o && props.onWarnings) props.onWarnings(o.warnings)
         setVisualObj(o)
         if (props.playbackAbc) {
           try {

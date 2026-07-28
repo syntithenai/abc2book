@@ -3,6 +3,7 @@ import { EDITOR_MODES } from '../notation/notationConstants';
 import { selectionRectsForEventIds } from '../notation/staffClickResolve';
 import { staffNoteheadCentersForEventIds } from '../notation/staffCaretPosition';
 import { findSlurGroupForSelection } from '../notation/notationMarks';
+import { assignTimingToEvents, parseNoteLengthDecimal } from '../notation/beatGrid';
 
 export default function StaffSelectionOverlay(props) {
   const {
@@ -14,6 +15,7 @@ export default function StaffSelectionOverlay(props) {
     marqueeRect,
     slurSnapEventId,
     onSlurHandlePointerDown,
+    issueBarIndices,
   } = props;
   const [noteheadCenters, setNoteheadCenters] = useState([]);
   const [slurEndpointRects, setSlurEndpointRects] = useState({ start: null, end: null });
@@ -109,11 +111,42 @@ export default function StaffSelectionOverlay(props) {
     setSnapRect(snapRects[0] || null);
   }, [containerRef, slurSnapEventId, session.events, displayAbc, voiceStaffIndex]);
 
+  const [issueBarRects, setIssueBarRects] = useState([]);
+
+  useLayoutEffect(function() {
+    const node = containerRef && containerRef.current;
+    const bars = Array.isArray(issueBarIndices) ? issueBarIndices : [];
+    if (!node || !bars.length || !session || !session.events) {
+      setIssueBarRects([]);
+      return undefined;
+    }
+    const unit = parseNoteLengthDecimal(session.tuneMeta && session.tuneMeta.noteLength, session.tuneMeta && session.tuneMeta.meter);
+    const meter = session.tuneMeta && session.tuneMeta.meter;
+    const timed = assignTimingToEvents(session.events, meter, unit);
+    function measureIssues() {
+      const rects = [];
+      bars.forEach(function(barIndex) {
+        const ev = timed.find(function(item) {
+          return typeof item.measureIndex === 'number' && item.measureIndex + 1 === barIndex;
+        });
+        if (!ev) return;
+        const found = selectionRectsForEventIds(node, session.events, [ev.id], voiceStaffIndex);
+        if (found[0]) rects.push({ barIndex: barIndex, rect: found[0] });
+      });
+      setIssueBarRects(rects);
+    }
+    measureIssues();
+    const raf = requestAnimationFrame(measureIssues);
+    return function() { cancelAnimationFrame(raf); };
+  }, [containerRef, issueBarIndices, session.events, session.tuneMeta, displayAbc, voiceStaffIndex]);
+
+  const showIssueBars = issueBarRects.length > 0;
+
   const hasMarquee = !!(marqueeRect
     && Math.abs(marqueeRect.right - marqueeRect.left) > 2
     && Math.abs(marqueeRect.bottom - marqueeRect.top) > 2);
 
-  if (!showPitchTarget && !hasMarquee && !slurGroup && !snapRect) return null;
+  if (!showPitchTarget && !hasMarquee && !slurGroup && !snapRect && !showIssueBars) return null;
 
   function handlePoint(rect, which) {
     if (!rect || typeof onSlurHandlePointerDown !== 'function') return null;
@@ -182,6 +215,22 @@ export default function StaffSelectionOverlay(props) {
           }}
         />
       ) : null}
+      {issueBarRects.map(function(item) {
+        const rect = item.rect;
+        return (
+          <div
+            key={'issue-bar-' + item.barIndex}
+            className="notation-staff-issue-bar"
+            data-testid="notation-staff-issue-bar"
+            style={{
+              left: rect.left + 'px',
+              top: rect.top + 'px',
+              width: Math.max(rect.width, 24) + 'px',
+              height: rect.height + 'px',
+            }}
+          />
+        );
+      })}
       {hasMarquee ? (
         <div
           className="notation-staff-marquee"

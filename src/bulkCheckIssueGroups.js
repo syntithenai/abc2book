@@ -49,6 +49,12 @@ const CHORDS_LYRICS_ISSUE_CODES = new Set([
   'no_lyrics',
   'no_chord_layout',
   'stanza_chord_mismatch',
+  'wline_count_mismatch',
+  'lyric_note_misalignment',
+  'stale_wlines',
+  'visual_line_break_mid_bar',
+  'strain_lyric_count_mismatch',
+  'interleaved_w_spacing',
 ])
 
 const NOTATION_MISSING_CODES = new Set([
@@ -87,6 +93,12 @@ const ACTION_GROUP_IDS = {
   collapseEmptyRepeatBars: ['notation'],
   normalizeAbc: ['notation', 'abcRecord'],
   appendFinalBarline: ['notation'],
+  closeOpenRepeat: ['notation'],
+  padBarWithRests: ['notation'],
+  removeEmptyBars: ['notation'],
+  padVoicesToMatch: ['notation'],
+  rebuildWLines: ['chordsLyrics'],
+  relayoutNoteLines: ['notation'],
 }
 
 /** Issue codes mapped to fix/search actions offered in matching groups. */
@@ -114,9 +126,18 @@ const ISSUE_CODE_ACTIONS = {
   session_linebreak_markers: ['sessionLineBreaks'],
   stanza_strain_mismatch: ['stanzaDoubleBarlines'],
   stanza_barlines: ['stanzaDoubleBarlines'],
-  empty_bar: ['collapseEmptyRepeatBars'],
+  empty_bar: ['collapseEmptyRepeatBars', 'removeEmptyBars'],
   repeat_style_mixed: ['collapseEmptyRepeatBars', 'normalizeRepeatMarks'],
   missing_final_barline: ['appendFinalBarline'],
+  truncated_repeat: ['closeOpenRepeat'],
+  underfull_bar: ['padBarWithRests'],
+  voice_bar_count_mismatch: ['padVoicesToMatch'],
+  wline_count_mismatch: ['rebuildWLines', 'relayoutNoteLines'],
+  lyric_note_misalignment: ['rebuildWLines'],
+  stale_wlines: ['rebuildWLines'],
+  interleaved_w_spacing: ['rebuildWLines'],
+  visual_line_break_mid_bar: ['relayoutNoteLines'],
+  strain_lyric_count_mismatch: ['stanzaDoubleBarlines'],
 }
 
 /** Actions that open the editor instead of mutating the tune in place. */

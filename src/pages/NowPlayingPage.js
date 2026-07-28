@@ -13,6 +13,7 @@ import TuneArtwork from '../components/TuneArtwork'
 import { getTuneArtworkUrl } from '../nowPlayingArtwork'
 import MediaPlaybackSettingsTabs from '../components/MediaPlaybackSettingsTabs'
 import MediaSourcePlaybackButtons from '../components/MediaSourcePlaybackButtons'
+import RemoteOutputButton from '../components/RemoteOutputButton'
 import { useDocumentTitle } from '../pageTitle'
 import './NowPlayingPage.css'
 
@@ -227,6 +228,7 @@ export default function NowPlayingPage(props) {
           <>
             <div className="now-playing-page-seek-row">
               <MediaSeekSlider mediaController={mediaController} className="now-playing-page-seek" />
+              <RemoteOutputButton mediaController={mediaController} tunebook={props.tunebook} />
               <Button
                 variant="outline-secondary"
                 size="sm"

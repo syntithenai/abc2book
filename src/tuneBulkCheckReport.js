@@ -7,6 +7,7 @@ import { formatTuneDisplayName } from './tuneDisplayName'
 import { checkTuneCompleteness } from './tuneCompletenessCheck'
 import { checkTuneAbcCorrectness } from './tuneAbcCorrectnessCheck'
 import { checkTuneAbcStructure } from './tuneAbcStructureCheck'
+import { checkTuneLyricsAlignment } from './tuneLyricsAlignmentCheck'
 import { tuneHasLinkContent } from './checkTuneLinkPlayback'
 import { isSongTitleCapitalized } from './titleCaseUtils'
 
@@ -132,7 +133,23 @@ function flattenCompletenessIssues(completenessResult) {
 function flattenStructureIssues(structureResult) {
   if (!structureResult || !Array.isArray(structureResult.issues)) return []
   return structureResult.issues.map(function(item) {
-    return issue(item.code, item.message, item.severity || 'warning', item.field || 'voices')
+    return Object.assign(
+      issue(item.code, item.message, item.severity || 'warning', item.field || 'voices'),
+      item.barIndex != null ? { barIndex: item.barIndex } : {},
+      item.voiceKey != null ? { voiceKey: item.voiceKey } : {},
+      item.lineIndex != null ? { lineIndex: item.lineIndex } : {}
+    )
+  })
+}
+
+function flattenLyricsAlignmentIssues(lyricsResult) {
+  if (!lyricsResult || !Array.isArray(lyricsResult.issues)) return []
+  return lyricsResult.issues.map(function(item) {
+    return Object.assign(
+      issue(item.code, item.message, item.severity || 'warning', item.field || 'lyrics'),
+      item.barIndex != null ? { barIndex: item.barIndex } : {},
+      item.lineIndex != null ? { lineIndex: item.lineIndex } : {}
+    )
   })
 }
 
@@ -179,11 +196,13 @@ export function buildTuneCheckReport(tune, options) {
   const completenessResult = checkTuneCompleteness(tune, checkOpts)
   const abcResult = checkTuneAbcCorrectness(tune, checkOpts)
   const structureResult = checkTuneAbcStructure(tune, checkOpts)
+  const lyricsResult = checkTuneLyricsAlignment(tune, checkOpts)
 
   const issues = []
   issues.push.apply(issues, flattenCompletenessIssues(completenessResult))
   issues.push.apply(issues, flattenAbcIssues(abcResult))
   issues.push.apply(issues, flattenStructureIssues(structureResult))
+  issues.push.apply(issues, flattenLyricsAlignmentIssues(lyricsResult))
   issues.push.apply(issues, collectFieldWarnings(tune))
   issues.push.apply(issues, collectLyricsWarnings(tune, completenessResult))
   issues.push.apply(issues, collectLinkIssues(tune, opts.linkContext))
@@ -214,6 +233,7 @@ export function buildTuneCheckReport(tune, options) {
     completenessResult: completenessResult,
     abcResult: abcResult,
     structureResult: structureResult,
+    lyricsResult: lyricsResult,
   }
 }
 
@@ -259,6 +279,7 @@ export function collectReportIssuesForFixes(report) {
   addFromResult(report.completenessResult)
   addFromResult(report.abcResult)
   addFromResult(report.structureResult)
+  addFromResult(report.lyricsResult)
   if (Array.isArray(report.issues)) {
     report.issues.forEach(addIssue)
   }

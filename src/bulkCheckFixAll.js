@@ -4,6 +4,7 @@ import { STRUCTURE_FIX_ACTIONS } from './tuneAbcStructureFix'
 export const FIX_ALL_PREVIEW_ACTIONS = new Set([
   'normalizeAbc',
   'appendFinalBarline',
+  'relayoutNoteLines',
 ])
 
 /** Searches started as background jobs during Fix all. */

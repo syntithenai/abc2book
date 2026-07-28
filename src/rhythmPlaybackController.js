@@ -415,9 +415,10 @@ export function enterRhythmPlaying(controller, options) {
   if (typeof opts.musicStartAudioTime === 'number') {
     controller.musicStartAudioTime = opts.musicStartAudioTime
   }
+  // Do not keep a leftover anacrusis slot from a prior count-in.
   controller.musicStartSlot = opts.musicStartSlot != null
     ? opts.musicStartSlot
-    : controller.musicStartSlot
+    : 0
 
   if (controller.audioContext) {
     armRhythmOutputBus(controller.outputBus, controller.audioContext)

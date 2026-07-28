@@ -84,6 +84,14 @@
   stroke: #444;
   stroke-width: 1;
 }
+.piano-roll-barline--issue {
+  stroke: #e67700;
+  stroke-width: 2;
+}
+.piano-roll-issue-bar {
+  fill: rgba(255, 193, 7, 0.12);
+  pointer-events: none;
+}
 .piano-roll-recording-gridline {
   stroke: #3d5a40;
   stroke-width: 1;

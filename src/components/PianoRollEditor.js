@@ -42,6 +42,7 @@ export default function PianoRollEditor(props) {
     onAlignAction,
     onQuantize,
     dispatch,
+    issueBarIndices,
   } = props;
 
   const svgRef = useRef(null);
@@ -118,6 +119,7 @@ export default function PianoRollEditor(props) {
   }, [noteEvents, backgroundNoteEvents]);
 
   const beatsPerBar = beatsPerBarFromMeter(tuneMeta.meter);
+  const issueBars = Array.isArray(issueBarIndices) ? issueBarIndices : [];
   const gridSlots = session.snapSlotsPerBeat || 4;
   const gridBeat = 1 / gridSlots;
   const wfHeight = session.pianoRollShowWaveform ? waveformHeight() : 0;
@@ -442,13 +444,37 @@ export default function PianoRollEditor(props) {
                   fill="transparent"
                   onPointerDown={handleBackgroundPointerDown}
                 />
+                {issueBars.map(function(barIndex) {
+                  const x = (barIndex - 1) * beatsPerBar * beatWidth;
+                  return (
+                    <rect
+                      key={'issue-bar-' + barIndex}
+                      className="piano-roll-issue-bar"
+                      x={x}
+                      y={0}
+                      width={beatsPerBar * beatWidth}
+                      height={height}
+                    />
+                  );
+                })}
                 {Array.from({ length: Math.floor(numBars * beatsPerBar / gridBeat) + 1 }).map(function(_, i) {
                   const x = i * gridBeat * beatWidth;
                   return <line key={'grid-' + i} x1={x} y1={0} x2={x} y2={height} className="piano-roll-gridline" />;
                 })}
                 {Array.from({ length: numBars + 1 }).map(function(_, i) {
                   const x = i * beatsPerBar * beatWidth;
-                  return <line key={'bar-' + i} x1={x} y1={0} x2={x} y2={height} className="piano-roll-barline" />;
+                  const barNumber = i + 1;
+                  const isIssue = issueBars.indexOf(barNumber) >= 0;
+                  return (
+                    <line
+                      key={'bar-' + i}
+                      x1={x}
+                      y1={0}
+                      x2={x}
+                      y2={height}
+                      className={isIssue ? 'piano-roll-barline piano-roll-barline--issue' : 'piano-roll-barline'}
+                    />
+                  );
                 })}
                 {restEvents.map(function(ev) {
                   const x = beatToX(ev.startBeat || 0, beatWidth);

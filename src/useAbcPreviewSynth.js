@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import abcjs from 'abcjs';
-import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig';
+import { getPlaybackSoundFontPlan, getSoundFontVolumeMultiplier } from './soundFontConfig';
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap';
 
 const programOffsets = {
@@ -68,25 +68,25 @@ export default function useAbcPreviewSynth() {
         throw new Error('Could not parse notation');
       }
 
-      const musyngReady = isResolverMusyngKiteReady();
+      const soundFontPlan = getPlaybackSoundFontPlan({});
       const initOptions = {
         audioContext: ac,
         millisecondsPerMeasure: typeof visualObj.millisecondsPerMeasure === 'function'
           ? visualObj.millisecondsPerMeasure()
           : undefined,
         options: {
-          soundFontUrl: getSoundFontUrl({ musyngKiteReady: musyngReady }),
+          soundFontUrl: soundFontPlan.url,
           soundFontVolumeMultiplier: getSoundFontVolumeMultiplier(),
           programOffsets: programOffsets,
         },
       };
 
-      if (musyngReady) {
-        initOptions.visualObj = visualObj;
-      } else {
+      if (soundFontPlan.remap) {
         const flattened = visualObj.setUpAudio({});
         remapFlattenedMidiPrograms(flattened);
         initOptions.sequence = flattened;
+      } else {
+        initOptions.visualObj = visualObj;
       }
 
       const synth = new abcjs.synth.CreateSynth();

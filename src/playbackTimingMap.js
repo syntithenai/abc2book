@@ -52,6 +52,26 @@ export function rhythmBeatBpmForSection(qpm, meterText, beatLength) {
   })
 }
 
+/**
+ * QPM implied by abcjs measure duration (matches CreateSynth / count-in).
+ * Prefer this over getBpm() when they disagree — getBpm() can drift from the
+ * audible millisecondsPerMeasure used by the synth.
+ */
+export function qpmFromVisualMilliseconds(visualObj, meterText, beatLength) {
+  if (!visualObj || typeof visualObj.millisecondsPerMeasure !== 'function') return 0
+  const ms = parseFloat(visualObj.millisecondsPerMeasure()) || 0
+  if (!(ms > 0)) return 0
+  const meter = String(meterText || '4/4').trim() || '4/4'
+  const beatLen = beatLength > 0
+    ? beatLength
+    : defaultAbcBeatLengthForMeter(meter)
+  const model = getBarModel(meter, noteLengthTextFromBeatLength(beatLen))
+  if (!(model.unitSlotsPerBar > 0)) return 0
+  const msPerAbcUnit = ms / model.unitSlotsPerBar
+  if (!(msPerAbcUnit > 0)) return 0
+  return (60000 * (beatLen / 0.25)) / msPerAbcUnit
+}
+
 function pushUniqueSorted(breaks, entry, key) {
   const probe = entry[key]
   const existing = breaks.find(function(item) { return item[key] === probe })
@@ -102,6 +122,14 @@ function walkVoiceTimingEvents(visualObj) {
   }
   if (!(beatLength > 0)) {
     beatLength = defaultAbcBeatLengthForMeter(startingMeter)
+  }
+
+  // Align map tempo with synth/count-in measure duration when getBpm drifts.
+  const qpmFromMs = qpmFromVisualMilliseconds(visualObj, startingMeter, beatLength)
+  if (qpmFromMs > 0 && (
+    !(startingQpm > 0) || Math.abs(startingQpm - qpmFromMs) > 0.5
+  )) {
+    startingQpm = qpmFromMs
   }
 
   let durationCounter = 0

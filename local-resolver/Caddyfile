@@ -9,5 +9,9 @@
 # add `email you@example.com` under a global options block (the first `{ }`).
 
 {$RESOLVER_DOMAIN} {
+	handle /snapcast/* {
+		uri strip_prefix /snapcast
+		reverse_proxy snapserver:1780
+	}
 	reverse_proxy local-resolver:8787
 }

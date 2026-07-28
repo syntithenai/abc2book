@@ -100,7 +100,8 @@
     "docs:musescore-handbook": "bash ./scripts/fetch-musescore-handbook.sh",
     "eject": "react-scripts eject",
     "serveextras": "ws --cors.origin=* -p 4000",
-    "start:soundfonts": "ws --cors.origin=* -p 4000"
+    "start:soundfonts": "ws --cors.origin=* -p 4000",
+    "fetch:selection-soundfonts": "node scripts/fetch-selection-soundfonts.js"
   },
   "eslintConfig": {
     "extends": [

@@ -32,6 +32,8 @@ describe('resolverFeatures', function() {
       europeana: false,
       locAudio: false,
       practiceTrack: false,
+      snapcastControl: false,
+      snapcastPlayback: false,
     });
   });
 
@@ -69,6 +71,8 @@ describe('resolverFeatures', function() {
       europeana: false,
       locAudio: false,
       practiceTrack: false,
+      snapcastControl: false,
+      snapcastPlayback: false,
     });
   });
 

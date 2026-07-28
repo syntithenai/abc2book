@@ -1157,10 +1157,15 @@ a.header-now-playing-label:focus {
   vertical-align: -0.12em;
 }
 
-.header-nav-menu .header-dropdown-btn svg.icon-bitmap {
+.header-nav-menu .header-dropdown-btn svg.icon-bitmap,
+.header-nav-menu .header-dropdown-btn img.icon-bitmap {
   width: 1.45em;
   height: 1.45em;
   vertical-align: -0.2em;
+}
+
+.header-nav-menu .header-dropdown-btn img.icon-bitmap {
+  filter: brightness(0) invert(1);
 }
 
 @media (max-width: 768px) {

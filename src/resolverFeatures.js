@@ -18,6 +18,8 @@ export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
   europeana: false,
   locAudio: false,
   practiceTrack: false,
+  snapcastControl: false,
+  snapcastPlayback: false,
 });
 
 export const ALL_RESOLVER_FEATURES = Object.freeze({
@@ -42,6 +44,8 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   europeana: true,
   locAudio: true,
   practiceTrack: true,
+  snapcastControl: false,
+  snapcastPlayback: false,
 });
 
 export function normalizeResolverFeatures(raw, options) {
@@ -72,6 +76,8 @@ export function normalizeResolverFeatures(raw, options) {
     europeana: raw.europeana === true,
     locAudio: raw.locAudio === true,
     practiceTrack: raw.practiceTrack === true,
+    snapcastControl: raw.snapcastControl === true,
+    snapcastPlayback: raw.snapcastPlayback === true,
   };
 }
 

@@ -68,6 +68,11 @@ services:
       - ./music_collection_browse.py:/app/music_collection_browse.py
       - ./music_collection_curation.py:/app/music_collection_curation.py
       - ./music_collection_moves.py:/app/music_collection_moves.py
+      - ./snapcast_config.py:/app/snapcast_config.py
+      - ./snapcast_playback.py:/app/snapcast_playback.py
+      - ./snapcast_routes.py:/app/snapcast_routes.py
+      - ./cast_transcode_session.py:/app/cast_transcode_session.py
+      - ./scripts/snapcast_tunebook_plugin.py:/app/scripts/snapcast_tunebook_plugin.py
       - ./music_collection_registry.py:/app/music_collection_registry.py
       - ./music_collection_registry.json:/app/music_collection_registry.json
       - ./sheet_image_features.py:/app/sheet_image_features.py
@@ -91,6 +96,12 @@ services:
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
       - ../:/app/www:ro
+      - snapcast_run:/run/snapcast
+      - ./snapcast_config.py:/app/snapcast_config.py
+      - ./snapcast_playback.py:/app/snapcast_playback.py
+      - ./snapcast_routes.py:/app/snapcast_routes.py
+      - ./cast_transcode_session.py:/app/cast_transcode_session.py
+      - ./scripts/snapcast_tunebook_plugin.py:/app/scripts/snapcast_tunebook_plugin.py
     environment:
       REQUIRE_AUTH: "true"
       STATIC_SITE_DIR: /app/www

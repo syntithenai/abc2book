@@ -16,8 +16,28 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
 
   if (urlPlayback) {
     if (urlPlayback.playState === 'playMedia' && hasLinks) {
-      const linkNum = parseInt(urlPlayback.mediaLinkNumber, 10) || 0
-      return { type: 'media', linkNum: linkNum }
+      // /playMedia URLs can lag behind an explicit MIDI request (navigate not
+      // flushed, or navigation suppressed). Prefer controller MIDI intent so the
+      // host does not flip midi↔media and remount Abc mid-kickoff.
+      const wantsMidiOverStaleMediaUrl = hasMusic && (
+        mediaController.requestedPlayState === 'playMidi'
+        || (
+          mediaController.playbackRouteMode === 'midi'
+          && (
+            !!mediaController.isLoading
+            || !!(mediaController.pendingMidiPlayRef && mediaController.pendingMidiPlayRef.current)
+            || !!(mediaController.hasActivePlaybackIntent
+              && mediaController.hasActivePlaybackIntent())
+            || !!(mediaController.isMidiPlaybackRoute
+              && mediaController.isMidiPlaybackRoute())
+          )
+        )
+      )
+      if (!wantsMidiOverStaleMediaUrl) {
+        const linkNum = parseInt(urlPlayback.mediaLinkNumber, 10) || 0
+        return { type: 'media', linkNum: linkNum }
+      }
+      return { type: 'midi' }
     }
     if (urlPlayback.playState === 'playMidi' && hasMusic) {
       return { type: 'midi' }

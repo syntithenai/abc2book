@@ -2,6 +2,8 @@
  * Resolve playable tune IDs for a Books hub collection filter (book / tag / genre / artist).
  */
 
+import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
+
 function isPlayableTune(tune, tunebook) {
   if (!tune || !tune.id || !tunebook) return false
   const hasMusic = tunebook.hasNotesOrChords && tunebook.hasNotesOrChords(tune)
@@ -28,7 +30,7 @@ export function getPlayableTuneIdsForCollection(tunebook, tunes, filter) {
     return isPlayableTune(tune, tunebook)
   }).map(function(tune) {
     return tune.id
-  })
+  }).slice(0, PLAYLIST_MAX_ITEMS)
 }
 
 export function getPlayableTuneIdsFromListRows(filtered, tunes, tunebook, selectedIds) {
@@ -38,12 +40,12 @@ export function getPlayableTuneIdsFromListRows(filtered, tunes, tunebook, select
       const tune = tunes && tunes[id]
       if (isPlayableTune(tune, tunebook)) ids.push(id)
     })
-    return ids
+    return ids.slice(0, PLAYLIST_MAX_ITEMS)
   }
   if (!Array.isArray(filtered)) return ids
   filtered.forEach(function(row) {
     const tune = row && row.tune ? row.tune : row
     if (isPlayableTune(tune, tunebook)) ids.push(tune.id)
   })
-  return ids
+  return ids.slice(0, PLAYLIST_MAX_ITEMS)
 }

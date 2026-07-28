@@ -1,6 +1,6 @@
 import abcjs from 'abcjs';
 import { buildChordFillAbc, chordFillCacheKey } from './chordFillPattern';
-import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig';
+import { getPlaybackSoundFontPlan, getSoundFontVolumeMultiplier } from './soundFontConfig';
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap';
 
 const ORIGINAL_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/';
@@ -34,7 +34,7 @@ function renderFillVisual(abc) {
   }
 }
 
-async function primeSingleFill(abc, audioContext, soundFontUrl, remapLocal) {
+async function primeSingleFill(abc, audioContext, soundFontPlan) {
   const visualObj = renderFillVisual(abc);
   if (!visualObj) {
     throw new Error('ABC render produced no visual object');
@@ -50,7 +50,7 @@ async function primeSingleFill(abc, audioContext, soundFontUrl, remapLocal) {
     audioContext: audioContext,
     millisecondsPerMeasure: msPerMeasure,
     options: {
-      soundFontUrl: soundFontUrl,
+      soundFontUrl: soundFontPlan.url,
       soundFontVolumeMultiplier: getSoundFontVolumeMultiplier(),
       chordsOff: false,
       // Avoid abcjs default 200ms fade tail — it makes looped fills drift from the metronome.
@@ -58,7 +58,7 @@ async function primeSingleFill(abc, audioContext, soundFontUrl, remapLocal) {
       noteEnd: 0,
     },
   };
-  if (remapLocal) {
+  if (soundFontPlan.remap) {
     const flattened = visualObj.setUpAudio({});
     remapFlattenedMidiPrograms(flattened);
     initOptions.sequence = flattened;
@@ -84,13 +84,18 @@ async function primeSingleFill(abc, audioContext, soundFontUrl, remapLocal) {
 }
 
 function soundFontCandidates() {
-  const musyngReady = isResolverMusyngKiteReady();
-  const configured = getSoundFontUrl({ musyngKiteReady: musyngReady });
-  const list = [];
-  if (configured) {
-    list.push({ url: configured, remapLocal: !musyngReady });
+  const plan = getPlaybackSoundFontPlan({});
+  const list = [{ url: plan.url, plan: plan }];
+  if (plan.bank !== 'online') {
+    list.push({
+      url: 'https://paulrosen.github.io/midi-js-soundfonts/MusyngKite/',
+      plan: { url: 'https://paulrosen.github.io/midi-js-soundfonts/MusyngKite/', remap: false, bank: 'online' },
+    });
   }
-  list.push({ url: ORIGINAL_SOUNDFONT_CDN, remapLocal: true });
+  list.push({
+    url: ORIGINAL_SOUNDFONT_CDN,
+    plan: { url: ORIGINAL_SOUNDFONT_CDN, remap: true, bank: 'selection' },
+  });
   return list;
 }
 
@@ -103,8 +108,7 @@ async function primeSingleFillWithFallback(abc, audioContext) {
       return await primeSingleFill(
         abc,
         audioContext,
-        candidates[i].url,
-        candidates[i].remapLocal
+        candidates[i].plan
       );
     } catch (err) {
       lastError = err;
