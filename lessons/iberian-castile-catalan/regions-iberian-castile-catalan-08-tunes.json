@@ -1,0 +1,992 @@
+{
+  "id": "regions-iberian-castile-catalan-08-tunes",
+  "title": "Castile & Catalan Folk — Tunes — Forms, History, and Recordings",
+  "track": "regions",
+  "tier": 4.5,
+  "region": "iberian-castile-catalan",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-iberian-castile-catalan-07-representative-depth"
+  ],
+  "tags": [
+    "iberian",
+    "castile-catalan",
+    "iberian",
+    "tunes",
+    "—"
+  ],
+  "path": "10-regions/iberian/castile-catalan/08-tunes.md",
+  "sections": [
+    {
+      "id": "castile-catalan-folk-tunes-forms-history-and-recordings",
+      "title": "Castile & Catalan Folk — Tunes — Forms, History, and Recordings",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Iberian Folk | **Region:** iberian-castile-catalan | **Tier:** 4.5\n**Prerequisites:** regions-iberian-castile-catalan-07-representative-depth\n**Tags:** iberian, castile-catalan, iberian, tunes, —"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Catalan sardana\n\nCastile & Catalan Folk belongs to the **Iberian Folk** curriculum. Els Berros de la Cort\n\nThis lesson develops listening precision for **Catalan sardana** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-galicia",
+      "title": "Compared with Galicia",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Galician Traditional Music** (`regions-iberian-galicia-08-tunes`) covers the same lesson slot from the anchor perspective. This lesson stresses: **Catalan sardana**.\n\n| Topic | Galicia anchor | Castile & Catalan Folk (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | Muiñeira de Chantada… | Catalan sardana… |\n\n**Parallel anchor lesson:** `regions-iberian-galicia-08-tunes`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-08-tunes`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Catalan sardana\n\nStudy **castile & catalan folk** through listening first. Wikipedia's article on [Music of Catalonia](https://en.wikipedia.org/wiki/Music_of_Catalonia) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "tune-studies",
+      "title": "Tune studies",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Representative repertoire includes **Catalan sardana**. Use the lesson tune panel and **Play all** to compare multiple settings of the same title or form."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Iberian Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **gralla, fiddle, voice**. Ensemble layer: **guitar, cobla**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **sardana, jota**. Dance context: **community dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **regional revival**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Catalan sardana**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Catalan sardana\n- Lead instruments: gralla, fiddle, voice\n- Ensemble: guitar, cobla\n- Forms: sardana, jota\n- Dance: community dance\n- History: regional revival\n- Scenes: festivals\n- Repertoire: Catalan sardana\n- Compared with Galicia: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Castile & Catalan Folk is a living tradition with regional accent.\n- Focus: Catalan sardana.\n- Compared with Galicia: shared heritage, distinct emphasis.\n- Forms: sardana, jota.\n- Dance: community dance.\n- Transmission: regional revival."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nC\na\nt\na\nl\no\nn\ni\na\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nC\na\nt\na\nl\no\nn\ni\na\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nG\na\nl\ni\nc\ni\na\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "els-berros-de-la-cort",
+      "type": "artist",
+      "name": "Els Berros de la Cort",
+      "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+      "blurb": "Study Els Berros de la Cort for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Els_Berros_de_la_Cort",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "castile-catalan-folk",
+      "type": "band",
+      "name": "Castile & Catalan Folk",
+      "summary": "Representative musician or ensemble in iberian-castile-catalan trad",
+      "blurb": "Study Castile & Catalan Folk for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Castile_&_Catalan_Folk",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "els-berros-de-la-cort",
+    "castile-catalan-folk"
+  ],
+  "playlist": [
+    {
+      "id": "regions-iberian-castile-catalan-08-tunes-pl1",
+      "entity_id": "els-berros-de-la-cort",
+      "label": "Els Berros de la Cort — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Els Berros de la Cort"
+    },
+    {
+      "id": "regions-iberian-castile-catalan-08-tunes-pl2",
+      "entity_id": "castile-catalan-folk",
+      "label": "Castile & Catalan Folk — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Castile & Catalan Folk"
+    },
+    {
+      "id": "regions-iberian-castile-catalan-08-tunes-pl3",
+      "label": "Castile & Catalan Folk — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-iberian-castile-catalan-08-tunes-pl4",
+      "label": "Castile & Catalan Folk — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [
+    {
+      "id": "catalan-sardana",
+      "type": "tune",
+      "name": "Catalan sardana",
+      "form": "sardana",
+      "reference": "Music of Catalonia repertoire",
+      "about": "Representative castile & catalan folk listening study.",
+      "playlist": [
+        {
+          "label": "Catalan sardana — regional recording",
+          "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+        }
+      ]
+    },
+    {
+      "id": "castile-catalan-standard-1",
+      "type": "tune",
+      "name": "castile-catalan standard 1",
+      "form": "sardana",
+      "reference": "Music of Catalonia repertoire",
+      "about": "Representative castile & catalan folk listening study.",
+      "playlist": [
+        {
+          "label": "castile-catalan standard 1 — regional recording",
+          "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+        }
+      ]
+    },
+    {
+      "id": "castile-catalan-standard-2",
+      "type": "tune",
+      "name": "castile-catalan standard 2",
+      "form": "sardana",
+      "reference": "Music of Catalonia repertoire",
+      "about": "Representative castile & catalan folk listening study.",
+      "playlist": [
+        {
+          "label": "castile-catalan standard 2 — regional recording",
+          "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    "Castile & Catalan Folk rewards comparative study.",
+    "Focus: Catalan sardana.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: sardana, jota.",
+    "Dance: community dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Castile & Catalan Folk is a living tradition with regional accent.",
+    "Compared with Galicia: shared heritage, distinct emphasis.",
+    "Transmission: regional revival."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Catalonia",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Iberian Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Catalan sardana",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Catalonia",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) Catalan sardana\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) Catalan sardana\n\n### Q2. Castile & Catalan Folk rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Galicia, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) gralla, fiddle, voice\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) gralla, fiddle, voice\n\n### Q5. Ensemble voices include:\n- A) guitar, cobla\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) guitar, cobla\n\n### Q6. Tune and song forms include:\n- A) sardana, jota\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) sardana, jota\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) regional revival\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) regional revival\n\n### Q9. Contemporary scenes include:\n- A) festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Catalan sardana\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Catalan sardana\n\n### Q12. The Compared with Galicia section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "gralla, fiddle, voice",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Catalan sardana",
+          "correct": true
+        }
+      ],
+      "explain": ") Catalan sardana"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Castile & Catalan Folk rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "gralla, fiddle, voice",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "guitar, cobla",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Galicia, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "sardana, jota",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "gralla, fiddle, voice",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, cobla",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "gralla, fiddle, voice",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "guitar, cobla",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "sardana, jota",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "regional revival",
+          "correct": false
+        }
+      ],
+      "explain": ") gralla, fiddle, voice"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "sardana, jota",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "regional revival",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, cobla",
+          "correct": true
+        }
+      ],
+      "explain": ") guitar, cobla"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "sardana, jota",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "regional revival",
+          "correct": false
+        }
+      ],
+      "explain": ") sardana, jota"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "regional revival",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") regional revival"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "festivals",
+          "correct": true
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Catalan sardana",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") Catalan sardana"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Galicia section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-iberian-castile-catalan-08-tunes-quiz",
+    "title": "Castile & Catalan Folk — Tunes — Forms, History, and Recordings quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "gralla, fiddle, voice",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Catalan sardana",
+            "correct": true
+          }
+        ],
+        "explain": ") Catalan sardana"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Castile & Catalan Folk rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "gralla, fiddle, voice",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "guitar, cobla",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Galicia, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "sardana, jota",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "gralla, fiddle, voice",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, cobla",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "gralla, fiddle, voice",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "guitar, cobla",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "sardana, jota",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "regional revival",
+            "correct": false
+          }
+        ],
+        "explain": ") gralla, fiddle, voice"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "sardana, jota",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "regional revival",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, cobla",
+            "correct": true
+          }
+        ],
+        "explain": ") guitar, cobla"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "sardana, jota",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "regional revival",
+            "correct": false
+          }
+        ],
+        "explain": ") sardana, jota"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "regional revival",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") regional revival"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "festivals",
+            "correct": true
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Catalan sardana",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") Catalan sardana"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Galicia section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

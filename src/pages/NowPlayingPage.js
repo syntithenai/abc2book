@@ -128,6 +128,11 @@ export default function NowPlayingPage(props) {
     }
   }
 
+  function handleRewindToStart() {
+    if (!mediaController || !mediaController.rewindToStart) return
+    mediaController.rewindToStart()
+  }
+
   if (!playbackEngaged && !queueActive) {
     return (
       <div className="now-playing-page now-playing-page--empty">
@@ -220,7 +225,20 @@ export default function NowPlayingPage(props) {
 
         {mediaController && playingTune ? (
           <>
-            <MediaSeekSlider mediaController={mediaController} className="now-playing-page-seek" />
+            <div className="now-playing-page-seek-row">
+              <MediaSeekSlider mediaController={mediaController} className="now-playing-page-seek" />
+              <Button
+                variant="outline-secondary"
+                size="sm"
+                className="now-playing-page-rewind-btn"
+                aria-label="Rewind to start"
+                title="Rewind to start"
+                data-testid="now-playing-rewind-button"
+                onClick={handleRewindToStart}
+              >
+                {props.tunebook.icons.skipback}
+              </Button>
+            </div>
             <div className="now-playing-page-media-sources">
               <div className="media-controls-playback-buttons">
                 <MediaSourcePlaybackButtons

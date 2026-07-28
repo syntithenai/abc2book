@@ -176,6 +176,31 @@
   align-self: stretch;
 }
 
+.now-playing-page-seek-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+}
+
+.now-playing-page-seek-row .now-playing-page-seek,
+.now-playing-page-seek-row .media-seek-slider {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.now-playing-page-rewind-btn {
+  flex: 0 0 auto;
+  min-width: 2.25rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.now-playing-page-rewind-btn svg {
+  width: 1.15em;
+  height: 1.15em;
+}
+
 .now-playing-page-transport-row {
   display: flex;
   align-items: center;

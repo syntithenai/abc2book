@@ -157,6 +157,20 @@ describe('resolveHostPlaybackTarget', function() {
     )
     expect(target).toEqual({ type: 'midi' })
   })
+
+  test('defaults to midi when expanded mini player is open', function() {
+    const mediaController = {}
+    const target = resolveHostPlaybackTarget(
+      mediaController,
+      tune,
+      tunebook,
+      null,
+      null,
+      null,
+      { nowPlayingExpanded: true }
+    )
+    expect(target).toEqual({ type: 'midi' })
+  })
 })
 
 describe('shouldSkipHostMidiRouteApply', function() {

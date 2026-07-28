@@ -1,0 +1,857 @@
+{
+  "id": "regions-celtic-diaspora-01-cape-breton",
+  "title": "Cape Breton Fiddle and Dance",
+  "track": "regions",
+  "tier": 3,
+  "region": "celtic-diaspora",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-celtic-brittany-08-tunes"
+  ],
+  "tags": [
+    "celtic",
+    "diaspora",
+    "cape-breton",
+    "diaspora",
+    "fiddle"
+  ],
+  "path": "10-regions/celtic/diaspora/01-cape-breton.md",
+  "sections": [
+    {
+      "id": "cape-breton-fiddle-and-dance",
+      "title": "Cape Breton Fiddle and Dance",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Unit:** Diaspora & fringe | **Tier:** 3 | **Difficulty:** 5/10\n**Prerequisites:** regions-celtic-brittany-08-tunes\n**Tags:** cape-breton, nova-scotia, fiddle, step-dance, scottish-roots, diaspora"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Stand in a community hall in Inverness County, Nova Scotia, on a Saturday night and you may hear a fiddle driving a square set while dancers tap intricate rhythms on a wooden board. The tune might be a reel you recognise from an Irish session — *The Silver Spear*, *The Devil's Dream*, *St. Anne's Reel* — but the bowing, the lift, and the relationship between player and dancer will feel unmistakably Cape Breton. This is not Ireland transported intact across the Atlantic, nor Scotland frozen in time. It is a diaspora tradition that crystallised when Gaelic-speaking settlers from the Scottish Highlands and islands, alongside Irish immigrants, built communities on Cape Breton Island and kept music central to kitchen parties, parish halls, and later radio studios.\n\nCape Breton fiddle style is one of the most celebrated branches of North American Celtic music. Its reputation rests on a distinctive rhythmic pulse, heavy use of cut bowing and drones, close coupling with **step dancing**, and a repertoire that draws heavily from Scottish pipe and fiddle sources while absorbing Irish and French-Canadian influences. Wikipedia's article on Cape Breton fiddling notes that the tradition remained vigorous through the twentieth century partly because community dance — not concert stages alone — demanded skilled players who could hold tempo for hours.\n\nThis lesson maps that world: settlement history, fiddle technique, dance forms, transmission through families and CBC broadcasts, and how the scene relates to Irish trad without being a copy of it.\n\n![Cape Breton fiddler performing](https://en.wikipedia.org/wiki/Special:FilePath/Cape_Breton_fiddler.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "settlement-and-the-gaelic-atlantic-world",
+      "title": "Settlement and the Gaelic Atlantic world",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cape Breton Island lies off the northeast coast of Nova Scotia. From the late eighteenth century, displaced Highlanders and Islanders arrived in large numbers after the Clearances and earlier emigration waves. Irish settlers also came — some via Newfoundland, others directly — adding tune families and song to the mix. Gaelic remained a community language in many districts into the early twentieth century; church, kitchen, and dance floor reinforced a cultural world that mainland anglophone Canada did not share.\n\nMusic travelled in people, not in institutional pipelines. A fiddle learned in Barra or Donegal might pass to grandchildren in Judique or Mabou. Pipe marches became fiddle tunes; songs became instrumental sets. French-Acadian neighbours contributed rhythmic habits and repertoire edges. The result is a **regional accent** within the wider Gaelic diaspora — closer to Scottish Cape Breton cousins in Antigonish and PEI than to Clare sessions, but recognisably part of the same extended family.\n\nRadio transformed reach. CBC programmes and local stations broadcast fiddle music into kitchens where travel to festivals was difficult. Recordings by Buddy MacMaster, Natalie MacMaster, and earlier generations fixed styles that learners still copy — much as Michael Coleman's 78s shaped Sligo fiddle abroad."
+        }
+      ]
+    },
+    {
+      "id": "fiddle-style-what-to-listen-for",
+      "title": "Fiddle style: what to listen for",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cape Breton fiddling prizes **drive** and **lift**. The player keeps a steady dance pulse; ornament serves rhythm more than lyrical decoration. Common techniques include:\n\n- **Cuts and snaps** — short bow strokes that articulate beats sharply.\n- **Drone strings** — open-string or double-stop resonance giving a bagpipe-like floor.\n- **Strong downbows** on beat one — the foot and the bow agree.\n- **Tempo** suited to step dancers, often brisk but never chaotic.\n\nRepertoire leans on **reels**, **strathspeys**, **jigs**, **marches**, and **slow airs** from Scottish sources, with Irish reels and hornpipes in the mix. A tune like *Inverness County Reel* or *The Banks of Spey* signals Scottish genealogy immediately. Yet the same player may follow with a jig heard at an Irish festival — phrased with Cape Breton bow weight, not Sligo rolls.\n\nRegional families matter. The Beatons, the MacMasters, the Cremos, the Chisholms — names learners encounter in tune books and festival programmes. Cape Breton Fiddlers' Association supports teaching, publishing, and the annual Celtic Colours festival circuit.\n\n![Step dancer with fiddler at Celtic Colours](https://en.wikipedia.org/wiki/Special:FilePath/Celtic_Colours_International_Festival.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "step-dance-and-square-sets",
+      "title": "Step dance and square sets",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Unlike Irish céilí or set dancing, which organise groups in formations, Cape Breton social dance often pairs a **solo step dancer** (or small group) with a single fiddler. The dancer's feet mark rhythms on a board or hard floor; the fiddler responds to visible energy, sometimes accelerating into a closing flourish. Step dance is not Riverdance theatrical spectacle — it is community virtuosity honed in kitchens and halls.\n\n**Square sets** and **round dances** fill parish halls and benefit concerts. Fiddlers may trade sets through the night while dancers rotate. The social contract resembles an Irish session in one respect — everyone knows the forms — but leadership is more explicitly **fiddle-led for dance** than tune-led for listeners. In a pub session in Ennis, melody players trade sets for ears; in Mabou, the fiddler's job is to keep feet moving."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish diaspora cities — New York, Chicago, Boston, London — exported **session culture**: informal tune trading, Comhaltas branches, fleadh competition circuits. Irish trad abroad often re-centres on melody instruments in pubs, with dance as a parallel scene (set dancing groups, feiseanna).\n\nCape Breton diverges in several ways:\n\n| Feature | Ireland (reference) | Cape Breton |\n|---------|---------------------|-------------|\n| Primary social stage | Pub session, fleadh stage | Kitchen party, parish hall, square dance |\n| Dance emphasis | Céilí, set, step (feis) | Solo step dance + square sets |\n| Repertoire centre | Reels, jigs, hornpipes, polkas | Scottish-weighted reels, strathspeys, marches |\n| Ornament habit | Rolls, cuts (flute/fiddle) | Cut bowing, drones, dance lift |\n| Language context | Irish/English | Gaelic/English/French edges |\n\nShared heritage is real. Many tunes exist in both traditions under different names or settings. Diaspora 78s crossed borders: Coleman influenced Cape Breton players; Cape Breton fiddlers toured Celtic festivals in Europe. But **accent** differs. Importing Irish session etiquette into a Cape Breton dance — or playing Cape Breton bowing in a Clare session without listening — creates friction.\n\n**Parallel Ireland lessons:** `regions-celtic-ireland-01-overview` for session culture; `regions-celtic-ireland-06-history-transmission` for diaspora 78s; Scotland unit for strathspey and pipe-march sources."
+        }
+      ]
+    },
+    {
+      "id": "transmission-today",
+      "title": "Transmission today",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The tradition is family-strong but no longer family-only. Summer schools, online lessons, tune books, and festivals teach bowing to learners worldwide. Celtic Colours International Festival gathers international audiences each October. The Cape Breton Fiddlers' Association publishes collections and supports youth programmes. Still, the ideal remains: a fiddler who can play all night for dancers, learned by ear from older players.\n\nFusion acts exist — Cape Breton fiddlers collaborate with Irish, Scottish, and Breton musicians on pan-Celtic stages — but community halls remain the heartbeat. When you study this scene, prioritise field recordings and dance-context videos over studio albums stripped of feet."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Cape Breton music grew from Gaelic Scottish and Irish settlement in Nova Scotia, not from a single \"exported Ireland\" package.\n- Fiddle style emphasises rhythmic lift, cut bowing, and drones — optimised for step dancers.\n- Solo step dance and square sets are central social forms; the fiddler leads the floor.\n- Repertoire is Scottish-weighted (reels, strathspeys, marches) with Irish and Acadian edges.\n- Compared with Ireland: shared tune families, different social stage (dance hall vs pub session).\n- Radio, festivals, and family transmission — including the Cape Breton Fiddlers' Association and Celtic Colours — sustain modern practice."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Sheila Johnson Hagerty & Pearl MacDonald, *The Cape Breton Fiddler* — photographic and oral history classic.\n- Allister MacGillivray, *The Cape Breton Collection* — tune book used by many learners.\n- Wikipedia: [Cape Breton fiddling](https://en.wikipedia.org/wiki/Cape_Breton_fiddling) — orientation article.\n- Wikipedia: [Cape Breton step dancing](https://en.wikipedia.org/wiki/Cape_Breton_step_dancing) — dance context.\n- CBC Archives and local Nova Scotia folk collections — historic broadcast trails.\n- Kate Dunlay & David Greenberg, *Traditional Celtic Violin Music of Cape Breton* — analytical study of style."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "buddy-macmaster",
+      "type": "person",
+      "name": "Buddy MacMaster",
+      "summary": "Influential Cape Breton fiddler and teacher",
+      "blurb": "Known as the Dean of Cape Breton Fiddle; broadcast and recorded widely from the mid-twentieth century.",
+      "url": "https://en.wikipedia.org/wiki/Buddy_MacMaster",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Buddy_MacMaster.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "natalie-macmaster",
+      "type": "person",
+      "name": "Natalie MacMaster",
+      "summary": "Cape Breton fiddler with international touring career",
+      "blurb": "Extended Cape Breton fiddle reach through concerts, festivals, and collaborations.",
+      "url": "https://en.wikipedia.org/wiki/Natalie_MacMaster",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Natalie_MacMaster.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "cape-breton-fiddlers-association",
+      "type": "organization",
+      "name": "Cape Breton Fiddlers' Association",
+      "summary": "Organisation supporting Cape Breton fiddle publishing and teaching",
+      "blurb": "Publishes tune collections and supports youth and festival culture on the island.",
+      "url": "https://en.wikipedia.org/wiki/Cape_Breton_fiddling",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Cape_Breton_fiddler.jpg?width=320",
+      "playlist_index": 3
+    },
+    {
+      "id": "celtic-colours",
+      "type": "organization",
+      "name": "Celtic Colours International Festival",
+      "summary": "Annual Cape Breton festival of Celtic music and culture",
+      "blurb": "October gathering linking island tradition with international artists and audiences.",
+      "url": "https://celtic-colours.com/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Celtic_Colours_International_Festival.jpg?width=320",
+      "playlist_index": 2
+    }
+  ],
+  "entity_order": [
+    "cape-breton-fiddlers-association",
+    "celtic-colours"
+  ],
+  "playlist": [
+    {
+      "id": "buddy-macmaster-reel",
+      "entity_id": "buddy-macmaster",
+      "label": "Buddy MacMaster fiddle performance",
+      "youtube": "https://www.youtube.com/watch?v=0YqJYgJhZ5E",
+      "subtitle": "Buddy MacMaster"
+    },
+    {
+      "id": "natalie-step-dance",
+      "entity_id": "natalie-macmaster",
+      "label": "Natalie MacMaster with step dancers",
+      "youtube": "https://www.youtube.com/watch?v=wqJChP8dQ9E",
+      "subtitle": "Natalie MacMaster"
+    },
+    {
+      "id": "celtic-colours-square",
+      "entity_id": "celtic-colours",
+      "label": "Celtic Colours square dance set",
+      "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY",
+      "subtitle": "Celtic Colours International Festival"
+    },
+    {
+      "id": "cape-breton-cutting",
+      "entity_id": "cape-breton-fiddlers-association",
+      "label": "Cape Breton fiddle cutting demonstration",
+      "youtube": "https://www.youtube.com/watch?v=5r8x9sG0k8A",
+      "subtitle": "Cape Breton Fiddlers' Association"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Cape Breton fiddle grew from Gaelic Scottish and Irish settlement in Nova Scotia.",
+    "Cut bowing, drones, and rhythmic lift serve step dancers and square sets.",
+    "Repertoire is Scottish-weighted with Irish and Acadian edges.",
+    "Compared with Ireland: shared tune families, different social stage (dance hall vs pub session).",
+    "Celtic Colours and the Fiddlers' Association sustain modern transmission.",
+    "Cape Breton music grew from Gaelic Scottish and Irish settlement in Nova Scotia, not from a single \"exported Ireland\" package.",
+    "Fiddle style emphasises rhythmic lift, cut bowing, and drones — optimised for step dancers.",
+    "Solo step dance and square sets are central social forms; the fiddler leads the floor.",
+    "Repertoire is Scottish-weighted (reels, strathspeys, marches) with Irish and Acadian edges.",
+    "Radio, festivals, and family transmission — including the Cape Breton Fiddlers' Association and Celtic Colours — sustain modern practice."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "The Cape Breton Fiddler",
+      "author": "Sheila Johnson Hagerty & Pearl MacDonald",
+      "note": "Photographic and oral history classic"
+    },
+    {
+      "type": "link",
+      "title": "Cape Breton fiddling — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cape_Breton_fiddling"
+    },
+    {
+      "type": "link",
+      "title": "Cape Breton step dancing — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cape_Breton_step_dancing"
+    },
+    {
+      "type": "book",
+      "title": "The Cape Breton Collection",
+      "author": "Allister MacGillivray",
+      "note": "Standard tune book for learners"
+    },
+    {
+      "type": "book",
+      "title": "The Cape Breton Fiddle Companion",
+      "author": "Sheldon MacInnes",
+      "note": "Fiddle and dance history"
+    },
+    {
+      "type": "link",
+      "title": "Celtic Colours Festival",
+      "url": "https://celtic-colours.com/",
+      "note": "Nova Scotia showcase"
+    },
+    {
+      "type": "link",
+      "title": "Cape Breton fiddle recordings",
+      "url": "https://www.capebretonfiddlers.com/",
+      "note": "Tune books"
+    },
+    {
+      "type": "book",
+      "author": "Sheila Johnson Hagerty & Pearl MacDonald",
+      "title": "The Cape Breton Fiddler"
+    },
+    {
+      "type": "book",
+      "author": "Allister MacGillivray",
+      "title": "The Cape Breton Collection"
+    },
+    {
+      "type": "link",
+      "title": "Cape Breton fiddling",
+      "url": "https://en.wikipedia.org/wiki/Cape_Breton_fiddling"
+    },
+    {
+      "type": "link",
+      "title": "Cape Breton step dancing",
+      "url": "https://en.wikipedia.org/wiki/Cape_Breton_step_dancing"
+    },
+    {
+      "type": "book",
+      "author": "Kate Dunlay & David Greenberg",
+      "title": "Traditional Celtic Violin Music of Cape Breton"
+    }
+  ],
+  "quiz_markdown": "### Q1. Cape Breton fiddle tradition developed primarily through:\n\n- A) Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre\n- B) French conservatory training imported in the 1990s only\n- C) Exclusive replication of Dublin pub sessions without local change\n- D) Electronic dance music production in Halifax clubs\n\n**Answer:** A\n\n### Q2. Step dancing in Cape Breton is typically performed in close relationship with a fiddler keeping dance tempo.\n\n**Answer:** True\n\n### Q3. Compared with a typical Irish pub session, Cape Breton social music more often emphasises:\n\n- A) Fiddle-led music for square sets and solo step dancers\n- B) Orchestral scores conducted from a podium\n- C) Only unaccompanied sean-nós song\n- D) Synthesiser-only ambient music\n\n**Answer:** A\n\n### Q4. Cape Breton bowing is often characterised by:\n\n- A) Cut strokes, drones, and strong rhythmic lift for dance\n- B) Complete absence of ornament\n- C) Strict adherence to written classical bowings only\n- D) Flamenco rasgueado technique\n\n**Answer:** A\n\n### Q5. The repertoire draws heavily from Scottish sources such as reels, strathspeys, and marches.\n\n**Answer:** True\n\n### Q6. Buddy MacMaster and Natalie MacMaster are associated with:\n\n- A) Cape Breton fiddle performance and transmission\n- B) exclusively Baroque violin concertos\n- C) Irish uilleann pipe manufacture only\n- D) Welsh male voice choirs only\n\n**Answer:** A\n\n### Q7. Celtic Colours International Festival takes place in:\n\n- A) Cape Breton, Nova Scotia\n- B) Inner Mongolia\n- C) Vienna Opera House\n- D) The Antarctic research stations\n\n**Answer:** A\n\n### Q8. A tune like *The Silver Spear* might appear in both Irish sessions and Cape Breton sets, but with different regional accent.\n\n**Answer:** True\n\n### Q9. Gaelic language was part of the historical community context for Cape Breton settlers.\n\n- A) True\n- B) False\n\n**Answer:** A\n\n### Q10. Importing Irish session etiquette without listening to local Cape Breton dance context is a good default approach.\n\n**Answer:** False — regional accent and social stage differ; listen first.\n\n### Q11. The Cape Breton Fiddlers' Association supports publishing, teaching, and festival culture.\n\n**Answer:** True\n\n### Q12. Best study approach after this lesson:\n\n- A) Watch fiddle-and-step-dance footage from community halls and festival stages\n- B) Avoid all recordings and learn only from generic \"Celtic meditation\" albums\n- C) Assume Cape Breton is identical to Sligo fiddle\n- D) Skip dance context and study only slow airs\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Cape Breton fiddle tradition developed primarily through:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Step dancing in Cape Breton is typically performed in close relationship with a fiddler keeping dance tempo.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with a typical Irish pub session, Cape Breton social music more often emphasises:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fiddle-led music for square sets and solo step dancers",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Fiddle-led music for square sets and solo step dancers"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Cape Breton bowing is often characterised by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Cut strokes, drones, and strong rhythmic lift for dance"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "The repertoire draws heavily from Scottish sources such as reels, strathspeys, and marches.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Buddy MacMaster and Natalie MacMaster are associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cape Breton fiddle performance and transmission",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fiddle-led music for square sets and solo step dancers",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Cape Breton fiddle performance and transmission"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Celtic Colours International Festival takes place in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cape Breton, Nova Scotia",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Fiddle-led music for square sets and solo step dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cape Breton fiddle performance and transmission",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Cape Breton, Nova Scotia"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "A tune like *The Silver Spear* might appear in both Irish sessions and Cape Breton sets, but with different regional accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Gaelic language was part of the historical community context for Cape Breton settlers.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cape Breton, Nova Scotia",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Watch fiddle-and-step-dance footage from community halls and festival stages",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Cape Breton fiddle performance and transmission",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Importing Irish session etiquette without listening to local Cape Breton dance context is a good default approach.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "regional accent and social stage differ; listen first."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "The Cape Breton Fiddlers' Association supports publishing, teaching, and festival culture.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Best study approach after this lesson:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Fiddle-led music for square sets and solo step dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Watch fiddle-and-step-dance footage from community halls and festival stages",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Watch fiddle-and-step-dance footage from community halls and festival stages"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-diaspora-01-cape-breton-quiz",
+    "title": "Cape Breton Fiddle and Dance quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Cape Breton fiddle tradition developed primarily through:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Step dancing in Cape Breton is typically performed in close relationship with a fiddler keeping dance tempo.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with a typical Irish pub session, Cape Breton social music more often emphasises:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Fiddle-led music for square sets and solo step dancers"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Cape Breton bowing is often characterised by:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Cut strokes, drones, and strong rhythmic lift for dance"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "The repertoire draws heavily from Scottish sources such as reels, strathspeys, and marches.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Buddy MacMaster and Natalie MacMaster are associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Cape Breton fiddle performance and transmission",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cape Breton fiddle performance and transmission"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Celtic Colours International Festival takes place in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cape Breton, Nova Scotia",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Cut strokes, drones, and strong rhythmic lift for dance",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Cape Breton fiddle performance and transmission",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Cape Breton, Nova Scotia"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "A tune like *The Silver Spear* might appear in both Irish sessions and Cape Breton sets, but with different regional accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Gaelic language was part of the historical community context for Cape Breton settlers.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cape Breton, Nova Scotia",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Watch fiddle-and-step-dance footage from community halls and festival stages",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Cape Breton fiddle performance and transmission",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Importing Irish session etiquette without listening to local Cape Breton dance context is a good default approach.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "regional accent and social stage differ; listen first."
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "The Cape Breton Fiddlers' Association supports publishing, teaching, and festival culture.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Best study approach after this lesson:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Gaelic-speaking Scottish and Irish settlement in Nova Scotia with community dance at its centre",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Fiddle-led music for square sets and solo step dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Watch fiddle-and-step-dance footage from community halls and festival stages",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Watch fiddle-and-step-dance footage from community halls and festival stages"
+      }
+    ]
+  }
+}

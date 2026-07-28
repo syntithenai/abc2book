@@ -1,0 +1,178 @@
+{
+  "id": "legacy-chords-harmony-phrase-structure",
+  "title": "Phrase Structure",
+  "track": "chords",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "chords",
+    "legacy"
+  ],
+  "path": "05-harmony/04-phrase-structure.md",
+  "sections": [
+    {
+      "id": "phrase-structure-in-tunes-and-songs",
+      "title": "Phrase Structure in Tunes and Songs",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** harmony | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Phrases are coherent melodic units, usually 4 or 8 bars, ending with cadences."
+        }
+      ]
+    },
+    {
+      "id": "grouping",
+      "title": "Grouping",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish dance tunes: two-bar cells → eight-bar parts. Songs: antecedent (question) + consequent (answer) phrases."
+        }
+      ]
+    },
+    {
+      "id": "harmonic-rhythm",
+      "title": "Harmonic rhythm",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "How often chords change shapes feel. One chord per bar vs one chord for four bars creates different energy."
+        }
+      ]
+    },
+    {
+      "id": "analysis-skill",
+      "title": "Analysis skill",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Map phrases to find breathe points, variation spots, and percussion turns."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Eight-bar strain often divides into:\n\n- A) Two four-bar phrases\n- B) Eight one-bar phrases\n- C) One sixteen-bar phrase\n- D) Three three-bar phrases\n\n**Answer:** A\n\n### Q2. Phrase endings align with cadences.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Eight-bar strain often divides into:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Two four-bar phrases",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Two four-bar phrases"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Phrase endings align with cadences.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-chords-harmony-phrase-structure-quiz",
+    "title": "Phrase Structure quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Eight-bar strain often divides into:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Two four-bar phrases",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Two four-bar phrases"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Phrase endings align with cadences.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

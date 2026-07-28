@@ -129,6 +129,22 @@ describe('nowPlayingQueuePlayback', function() {
     })).toBe(true)
   })
 
+  test('shouldNowPlayingHostOwnPlayback mounts for expanded mini player on idle tune page', function() {
+    const tunes = {
+      other: { id: 'other', notes: 'CDEF', links: [{ link: 'https://youtu.be/y' }] },
+    }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'other',
+      queue: null,
+      mediaController: { tune: tunes.other },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/other',
+      tunes: tunes,
+      nowPlayingExpanded: true,
+    })).toBe(true)
+  })
+
   test('shouldMusicSingleOwnPlayback on list or settings uses background host', function() {
     expect(shouldMusicSingleOwnPlayback(null, queue)).toBe(false)
     expect(shouldMusicSingleOwnPlayback(undefined, queue)).toBe(false)

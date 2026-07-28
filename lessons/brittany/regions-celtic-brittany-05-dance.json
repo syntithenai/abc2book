@@ -1,0 +1,769 @@
+{
+  "id": "regions-celtic-brittany-05-dance",
+  "title": "Breton Traditional Music — Dance and Rhythm",
+  "track": "regions",
+  "tier": 5,
+  "region": "brittany",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-celtic-brittany-04-genres-forms"
+  ],
+  "tags": [
+    "brittany",
+    "celtic",
+    "dance",
+    "rhythm"
+  ],
+  "path": "10-regions/celtic/brittany/05-dance.md",
+  "sections": [
+    {
+      "id": "breton-traditional-music-dance-and-rhythm",
+      "title": "Breton Traditional Music — Dance and Rhythm",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 5 | **Difficulty:** 5/10\n**Prerequisites:** regions-celtic-brittany-04-genres-forms\n**Tags:** brittany, fest-noz, gavotte, plinn, dance, rond, choreography"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "In Brittany, **dance is not decoration** around concert music — it is the reason bombard players maintain circular breathing and accordionists refuse to rush a **plinn**. A **fest-noz** programmes **gavottes**, **plinns**, **mazurkas**, **sons**, and **rond** circle dances with named figures; musicians, callers, and floor veterans negotiate tempo and repeats in real time. This lesson connects Lesson 4's form map to **feet on the floor**: etiquette, regional choreography accents, and rhythm cues that instrumentalists must internalise.\n\nIf you only study **bagad** competition videos, you may learn massed pipe drill without understanding why a village hall slows a **gavotte** when grandparents join the circle. If you only study **Alan Stivell** fusion, you may miss how **kan ha diskan** pauses the floor for voices. Dance knowledge makes you a better listener, player, and fest-noz guest."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish trad dance spans **céilí** group figures, **set dancing** quadrilles, and **step dance** (hard- and soft-shoe) often performed on stage or in competitions somewhat separate from pub sessions. Breton **fest-noz** integrates **social dance for all ages** with live band repertoire — closer to Irish **house dance** or **set-dancing revival** nights than to a fiddle-only session. **Riverdance** spectacle is a poor model for fest-noz; **set-dancing** nights in Clare or Galway are better analogues for **circle and couple participation**.\n\n| Element | Irish parallel | Breton fest-noz |\n|---------|---------------|-----------------|\n| Social floor | Set dancing, céilí | Gavotte, plinn, rond |\n| Spectacle stage | Step dance shows | Bagad, fusion concerts |\n| Song on dance night | Pub singalong | Kan ha diskan sets |\n| Tempo authority | Dancers vs session lead | Dancers vs band — dancers win |\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-05-dance`."
+        }
+      ]
+    },
+    {
+      "id": "fest-noz-floor-etiquette",
+      "title": "Fest-noz floor etiquette",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Join respectfully.** Circles and lines have direction and hand-hold customs; newcomers watch before entering. Cutting across active figures or pushing to the centre disrupts safety and social trust.\n\n**Follow the caller.** Many nights use a **animateur** naming the next figure — *gavotte*, *plinn*, *rond de Saint-Vincent*. Musicians and dancers depend on that cue chain.\n\n**Do not confuse forms.** Starting plinn music during announced gavotte figures breaks the evening's rhythm as surely as dropping a jig into an Irish reel set unannounced.\n\n**Pace for stamina.** Fest-noz can run hours; bands that accelerate for showmanship empty the floor. **Cornouaille** veterans expect sustainable tempos; **Vannetais** plinn nights prize hypnotic steadiness over flash.\n\n**Song pauses are participation.** When **kan ha diskan** begins, dance may stop — singing is not \"break time\" for disengagement but another branch of the same social contract.\n\nFest-noz organisers (municipalities, **Fédération des Fest-Noz**, cultural associations) publish calendars; bodadeg-ar-sonerion connects musicians to those dates.\n\n![Fest-noz dancers](https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "gavotte-figures-on-the-floor",
+      "title": "Gavotte figures on the floor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Gavotte** nights feature couple turns, chains, and **rond** variants with regional names. Dancers emphasise **hand connection**, **shoulder orientation**, and **collective circle** motion — not solo acrobatics. Musicians match **four-beat** pulse to step accents; bombard–binou unison helps dancers lock timing across noisy halls.\n\n**Cornouaille** programmes may chain multiple gavottes before switching form — echoing **Suite Sudarmoricaine** concert logic on the social floor. Callers teach figures at **fest-noz débutant** (beginner) nights; attending one teaches more rhythm than a week of solo practice."
+        }
+      ]
+    },
+    {
+      "id": "memorable-detail",
+      "title": "Memorable detail",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A gavotte that feels \"slow\" to session fiddlers may be **correct** for mixed-age floors — youth bands touring festivals sometimes learn humility when village halls request slower repeats."
+        }
+      ]
+    },
+    {
+      "id": "plinn-walking-as-dance",
+      "title": "Plinn: walking as dance",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Plinn** reduces choreography to **walking** in lines or circles — deceptively demanding because **uniform pulse** across dozens of walkers requires musical discipline. **Vannetais** accordion bounce provides metronomic side-step cues; northwest **plinn** with fiddle or mixed bands still forbids reel acceleration.\n\nTeachers describe plinn as **meditative** — the opposite of Irish step-dance spectacle. Instrumentalists who ornament heavily can obscure the walking pulse; spare phrasing wins.\n\nPlinn dance culture ties to Morbihan and Vannetais fest-noz calendars more than to Lorient bagad finals."
+        }
+      ]
+    },
+    {
+      "id": "mazurka-and-son-on-the-floor",
+      "title": "Mazurka and son on the floor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Mazurka** couple dances use 3/4 holds and turns; fest-noz programmers often place mazurkas after gavotte blocks when dancers want variety without metre confusion. **Son** sets invite **chorus singing** — the floor may sing while stepping simplified figures, blurring Lesson 4's song-dance boundary."
+        }
+      ]
+    },
+    {
+      "id": "rond-circle-dances",
+      "title": "Rond circle dances",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Rond** figures — **Rond de Saint-Vincent**, **Rond de Landeda**, **Rond de Saint-Malo** — package circle choreography with specific tune associations. Learning one rond teaches how **named dances** bind repertoire: wrong tune breaks muscle memory.\n\nCircle direction, hand grip (little-finger hold traditions in some figures), and **caller cues** vary — copy local veterans at first attendance."
+        }
+      ]
+    },
+    {
+      "id": "bagad-parade-versus-fest-noz-floor",
+      "title": "Bagad parade versus fest-noz floor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Bagad** marching combines **drum cadences**, **massed pipes**, and **bombard** sections in **parade** and **competition** formats — exhilarating but not substitutable for fest-noz etiquette. Dancers at **Festival Interceltique** may dance to bagad concerts in festival grounds; that experience differs from **commune hall** fest-noz where **animateurs** teach figures.\n\nKnow which room you are in: competition **suite** tempi need not match village **gavotte** repeats.\n\n![Bagad in parade context](https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "regional-dance-map",
+      "title": "Regional dance map",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Region | Dance emphasis | Typical lead timbre |\n|--------|---------------|---------------------|\n| Cornouaille | Gavotte, rond | Bombard–binou, fiddle |\n| Léon | Gavotte, kan ha diskan | Sonerion |\n| Vannetais | Plinn, mazurka | Accordion |\n| Trégor | Mixed fest-noz | Fiddle, pipes |\n| Bro Gozh cities | Mixed programmes | Fusion and traditional bands |"
+        }
+      ]
+    },
+    {
+      "id": "practising-rhythm-without-a-floor",
+      "title": "Practising rhythm without a floor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Musicians isolated from dance communities should **watch fest-noz video** with feet visible, **tap plinn pulse** without acceleration, and **play along** at dance tempo rather than competition tempo. Dancers should attend **fest-noz débutant** before advanced nights — Breton communities often welcome newcomers when respect is visible."
+        }
+      ]
+    },
+    {
+      "id": "reading-and-listening-list",
+      "title": "Reading and listening list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Fédération des Fest-Noz** — event listings and beginner workshop calendars.\n- **Dastum** video archives — historical floor footage compared to today.\n- **Festival de Cornouaille** dance programmes — named figures and bands.\n- **Skol an Eost** and regional dance schools — pedagogy for rond and gavotte."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Fest-noz is participatory social dance — tempo and repeats serve the floor.\n- Gavotte, plinn, mazurka, son, and rond name distinct choreography contracts.\n- Kan ha diskan pauses or redirects dance nights — voice is floor participation.\n- Bagad parade and competition differ from village fest-noz etiquette.\n- Compared with Ireland: closer to set-dancing social nights than pub session-only culture."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "fest-noz",
+      "type": "organization",
+      "name": "Fest-noz",
+      "summary": "Participatory Breton night dance festivals",
+      "blurb": "Commune halls and festival tents where gavotte, plinn, and rond figures rule tempo.",
+      "url": "https://en.wikipedia.org/wiki/Fest-noz",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "gavotte",
+      "type": "genre",
+      "name": "Gavotte",
+      "summary": "Couple and circle dance form tied to Cornouaille programmes",
+      "blurb": "Four-beat figures including rond variants announced by callers.",
+      "url": "https://en.wikipedia.org/wiki/Gavotte_(folk_dance)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_de_Cornouaille_2014_-_Bagad_Keriz_-_003.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "plinn",
+      "type": "genre",
+      "name": "Plinn",
+      "summary": "Walking dance form central to Vannetais fest-noz nights",
+      "blurb": "Lines and circles in steady 4/4 — meditative floor discipline.",
+      "url": "https://en.wikipedia.org/wiki/Plinn",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320",
+      "playlist_index": 2
+    }
+  ],
+  "entity_order": [
+    "fest-noz"
+  ],
+  "playlist": [
+    {
+      "id": "fest-noz-floor",
+      "entity_id": "fest-noz",
+      "label": "Fest-noz floor dancing",
+      "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s",
+      "subtitle": "Fest-noz"
+    },
+    {
+      "id": "gavotte-figures",
+      "entity_id": "gavotte",
+      "label": "Gavotte dance figures",
+      "youtube": "https://www.youtube.com/watch?v=lcSKcDwAMhU",
+      "subtitle": "Gavotte"
+    },
+    {
+      "id": "plinn-walk",
+      "entity_id": "plinn",
+      "label": "Plinn walking dance",
+      "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s",
+      "subtitle": "Plinn"
+    },
+    {
+      "id": "fest-noz-circle",
+      "label": "Fest-noz circle dance",
+      "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Fest-noz floors set tempo — musicians follow dancer stamina.",
+    "Gavotte, plinn, mazurka, son, and rond name distinct choreography contracts.",
+    "Kan ha diskan pauses dance for participatory singing.",
+    "Bagad parade differs from commune hall fest-noz etiquette.",
+    "Fest-noz débutant nights teach figures to newcomers.",
+    "Fest-noz is participatory social dance — tempo and repeats serve the floor.",
+    "Kan ha diskan pauses or redirects dance nights — voice is floor participation.",
+    "Bagad parade and competition differ from village fest-noz etiquette.",
+    "Compared with Ireland: closer to set-dancing social nights than pub session-only culture."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Fédération des Fest-Noz",
+      "url": "https://www.fest-noz.bzh/",
+      "note": "Event calendars and beginner workshops"
+    },
+    {
+      "type": "link",
+      "title": "Fest-noz",
+      "url": "https://en.wikipedia.org/wiki/Fest-noz",
+      "note": "Dance-first social context"
+    },
+    {
+      "type": "link",
+      "title": "Festival de Cornouaille",
+      "url": "https://en.wikipedia.org/wiki/Festival_de_Cornouaille",
+      "note": "Major Quimper festival dance programmes"
+    },
+    {
+      "type": "link",
+      "title": "Fest-noz circle dances",
+      "url": "https://en.wikipedia.org/wiki/Fest-noz",
+      "note": "Social dance context"
+    },
+    {
+      "type": "book",
+      "title": "La danse bretonne",
+      "author": "Jean-Michel Guilcher",
+      "note": "Choreography history"
+    },
+    {
+      "type": "link",
+      "title": "Gavotte en dro",
+      "url": "https://en.wikipedia.org/wiki/Gavotte",
+      "note": "Line dance form"
+    }
+  ],
+  "quiz_markdown": "### Q1. At a fest-noz, who typically wins tempo disputes?\n\n- A) Dancers on the floor\n- B) The fastest fiddle player always\n- C) Random audience vote by text message\n- D) Competition adjudicators from bagad finals\n\n**Answer:** A\n\n### Q2. Plinn is characterised by steady walking figures, often in the Vannetais.\n\n**Answer:** True\n\n### Q3. Kan ha diskan on a fest-noz night may pause dance for participatory singing.\n\n**Answer:** True\n\n### Q4. Rond de Saint-Vincent is:\n\n- A) A named circle dance figure associated with specific tunes\n- B) An Irish hard-shoe step dance\n- C) A Scottish pipe march only\n- D) A Welsh hymn tune\n\n**Answer:** A\n\n### Q5. Starting plinn music during an announced gavotte figure set is poor fest-noz etiquette.\n\n**Answer:** True\n\n### Q6. Cornouaille fest-noz programmes emphasise gavotte and related circle dances.\n\n**Answer:** True\n\n### Q7. Bagad competition marching is identical to village fest-noz floor practice.\n\n**Answer:** False — parade/competition formats differ from commune hall dance nights.\n\n### Q8. Fest-noz débutant nights teach figures to newcomers — useful before advanced halls.\n\n**Answer:** True\n\n### Q9. Vannetais fest-noz often features plinn and mazurka with accordion-led bands.\n\n**Answer:** True\n\n### Q10. Gavotte tempo should accelerate whenever younger musicians join the band.\n\n**Answer:** False — sustainable tempo keeps mixed-age floors dancing.\n\n### Q11. Compared with Irish step-dance spectacle, fest-noz emphasises communal social dance for all ages.\n\n**Answer:** True\n\n### Q12. Animateurs or callers help link dance figures to tune types at fest-noz.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "At a fest-noz, who typically wins tempo disputes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "A named circle dance figure associated with specific tunes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Dancers on the floor",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Dancers on the floor"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Plinn is characterised by steady walking figures, often in the Vannetais.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Kan ha diskan on a fest-noz night may pause dance for participatory singing.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Rond de Saint-Vincent is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A named circle dance figure associated with specific tunes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: A named circle dance figure associated with specific tunes"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Starting plinn music during an announced gavotte figure set is poor fest-noz etiquette.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Cornouaille fest-noz programmes emphasise gavotte and related circle dances.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Bagad competition marching is identical to village fest-noz floor practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "parade/competition formats differ from commune hall dance nights."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Fest-noz débutant nights teach figures to newcomers — useful before advanced halls.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Vannetais fest-noz often features plinn and mazurka with accordion-led bands.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Gavotte tempo should accelerate whenever younger musicians join the band.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "sustainable tempo keeps mixed-age floors dancing."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Compared with Irish step-dance spectacle, fest-noz emphasises communal social dance for all ages.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Animateurs or callers help link dance figures to tune types at fest-noz.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-brittany-05-dance-quiz",
+    "title": "Breton Traditional Music — Dance and Rhythm quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "At a fest-noz, who typically wins tempo disputes?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A named circle dance figure associated with specific tunes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Dancers on the floor",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Dancers on the floor"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Plinn is characterised by steady walking figures, often in the Vannetais.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan on a fest-noz night may pause dance for participatory singing.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Rond de Saint-Vincent is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "A named circle dance figure associated with specific tunes",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A named circle dance figure associated with specific tunes"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Starting plinn music during an announced gavotte figure set is poor fest-noz etiquette.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Cornouaille fest-noz programmes emphasise gavotte and related circle dances.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Bagad competition marching is identical to village fest-noz floor practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "parade/competition formats differ from commune hall dance nights."
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Fest-noz débutant nights teach figures to newcomers — useful before advanced halls.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Vannetais fest-noz often features plinn and mazurka with accordion-led bands.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Gavotte tempo should accelerate whenever younger musicians join the band.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "sustainable tempo keeps mixed-age floors dancing."
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Compared with Irish step-dance spectacle, fest-noz emphasises communal social dance for all ages.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Animateurs or callers help link dance figures to tune types at fest-noz.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "legacy-instruments-percussion",
+  "title": "Bodhrán and Percussion",
+  "track": "instruments",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "instruments",
+    "legacy"
+  ],
+  "path": "09-instruments/12-percussion.md",
+  "sections": [
+    {
+      "id": "bodhrán-and-percussion",
+      "title": "Bodhrán and Percussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Percussion: sound from striking, shaking, or scraping. Definite pitch (timpani, xylophone) or indefinite (drum, cymbal)."
+        }
+      ]
+    },
+    {
+      "id": "bodhrán",
+      "title": "Bodhrán",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish frame drum — goatskin head, wooden rim, crossbar handle inside. Played with double-ended tipper (beater). Introduced widely to trad in mid-20th century; controversial if overused in sessions."
+        }
+      ]
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hand on inside of head controls pitch and damping. Kerry style vs West Limerick style. Not traditional in all regions — respect session culture."
+        }
+      ]
+    },
+    {
+      "id": "other-trad-percussion",
+      "title": "Other trad percussion",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Spoons, bones, tambourine. Cajón in fusion. Orchestral: timpani, snare, bass drum, cymbals, triangle."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Bodhrán is:\n\n- A) Irish frame drum\n- B) Brass horn\n- C) Plucked string\n- D) Keyboard\n\n**Answer:** A\n\n### Q2. Bodhrán player may dampen pitch with hand inside the head.\n\n**Answer:** True\n\n### Q3. Tipper is:\n\n- A) Beater for bodhrán\n- B) Tuning peg\n- C) Reed for clarinet\n- D) Piano pedal\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Bodhrán is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Irish frame drum",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Irish frame drum"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Bodhrán player may dampen pitch with hand inside the head.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Tipper is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Beater for bodhrán",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Beater for bodhrán"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-instruments-percussion-quiz",
+    "title": "Bodhrán and Percussion quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Bodhrán is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Irish frame drum",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Irish frame drum"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Bodhrán player may dampen pitch with hand inside the head.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Tipper is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Beater for bodhrán",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Beater for bodhrán"
+      }
+    ]
+  }
+}

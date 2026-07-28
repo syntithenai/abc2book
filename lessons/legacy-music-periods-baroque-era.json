@@ -1,0 +1,178 @@
+{
+  "id": "legacy-music-periods-baroque-era",
+  "title": "Baroque Era Overview",
+  "track": "history",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "history",
+    "legacy"
+  ],
+  "path": "10-music-periods/03-baroque-era.md",
+  "sections": [
+    {
+      "id": "baroque-era-overview-16001750",
+      "title": "Baroque Era Overview (1600–1750)",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** music-periods | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Baroque: birth of opera, oratorio, concerto, and tonality as we know it. Bach, Handel, Vivaldi, Corelli dominate."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "title": "Features",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Basso continuo, terraced dynamics, doctrine of affections (specific emotions per movement). Equal temperament enabled all-key composition."
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Forms",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Fugue, concerto grosso, suite, opera seria. Vivaldi's *Four Seasons*; Handel's *Messiah*."
+        }
+      ]
+    },
+    {
+      "id": "trad-link",
+      "title": "Trad link",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Baroque dance rhythms feed into European folk dance; ornamentation practice influences traditional gracing."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Baroque basso continuo provides:\n\n- A) Harmonic foundation from bass line\n- B) Only percussion\n- C) Random noise\n- D) Lyrics only\n\n**Answer:** A\n\n### Q2. Bach and Handel are Baroque composers.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Baroque basso continuo provides:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Harmonic foundation from bass line",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Harmonic foundation from bass line"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Bach and Handel are Baroque composers.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-music-periods-baroque-era-quiz",
+    "title": "Baroque Era Overview quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Baroque basso continuo provides:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Harmonic foundation from bass line",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Harmonic foundation from bass line"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Bach and Handel are Baroque composers.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

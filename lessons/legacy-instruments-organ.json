@@ -1,0 +1,245 @@
+{
+  "id": "legacy-instruments-organ",
+  "title": "Organ",
+  "track": "instruments",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "instruments",
+    "legacy"
+  ],
+  "path": "09-instruments/14-organ.md",
+  "sections": [
+    {
+      "id": "organ",
+      "title": "Organ",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The pipe organ forces air through pipes of varying length — one of the largest and oldest mechanical instruments. Church and concert hall icon."
+        }
+      ]
+    },
+    {
+      "id": "mechanism",
+      "title": "Mechanism",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Thousands of pipes; stops select which ranks sound. Manuals (keyboards) and pedalboard. Mechanical action (tracker) or electric/pneumatic."
+        }
+      ]
+    },
+    {
+      "id": "sound",
+      "title": "Sound",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Principals (flue pipes), flutes, reeds (trumpet stop), mixtures (multiple ranks). Enormous dynamic range — whisper to full tutti."
+        }
+      ]
+    },
+    {
+      "id": "composers",
+      "title": "Composers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bach (*Toccata and Fugue in D minor*), Franck, Widor, Messiaen. Baroque organ temperament and registration differ from Romantic symphonic organ."
+        }
+      ]
+    },
+    {
+      "id": "related",
+      "title": "Related",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Harmonium (reed organ, pressure bellows). Theatre organ. Hammond organ (electromagnetic tonewheels) in jazz and rock."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Pipe organ sound from:\n\n- A) Air through pipes\n- B) Hammered strings\n- C) Bowed strings\n- D) Plucked nylon\n\n**Answer:** A\n\n### Q2. Bach wrote extensively for organ.\n\n**Answer:** True\n\n### Q3. Organ stops:\n\n- A) Select which pipe ranks sound\n- B) Mute all pipes permanently\n- C) Change time signature\n- D) Tune violin strings\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pipe organ sound from:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Air through pipes",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Air through pipes"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Bach wrote extensively for organ.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Organ stops:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Select which pipe ranks sound",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Select which pipe ranks sound"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-instruments-organ-quiz",
+    "title": "Organ quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Pipe organ sound from:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Air through pipes",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Air through pipes"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Bach wrote extensively for organ.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Organ stops:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Select which pipe ranks sound",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Select which pipe ranks sound"
+      }
+    ]
+  }
+}

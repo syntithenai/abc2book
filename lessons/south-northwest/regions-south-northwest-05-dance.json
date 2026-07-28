@@ -1,0 +1,938 @@
+{
+  "id": "regions-south-northwest-05-dance",
+  "title": "Pakistan & Afghanistan Folk — Dance and Rhythm",
+  "track": "regions",
+  "tier": 5,
+  "region": "south-northwest",
+  "difficulty": 7,
+  "prerequisites": [
+    "regions-south-northwest-04-genres-forms"
+  ],
+  "tags": [
+    "south",
+    "northwest",
+    "south-asia",
+    "dance",
+    "and"
+  ],
+  "path": "10-regions/south-asia/northwest/05-dance.md",
+  "sections": [
+    {
+      "id": "pakistan-afghanistan-folk-dance-and-rhythm",
+      "title": "Pakistan & Afghanistan Folk — Dance and Rhythm",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** South Asian Traditions | **Region:** south-northwest | **Tier:** 5\n**Prerequisites:** regions-south-northwest-04-genres-forms\n**Tags:** south, northwest, south-asia, dance, and"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "social dance\n\nPakistan & Afghanistan Folk belongs to the **South Asian Traditions** curriculum. Nusrat Fateh Ali Khan\n\nThis lesson develops listening precision for **social dance** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-hindustani-tradition",
+      "title": "Compared with Hindustani tradition",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Hindustani Music** (`regions-south-hindustani-05-dance`) covers the same lesson slot from the anchor perspective. This lesson stresses: **social dance**.\n\n| Topic | Hindustani tradition anchor | Pakistan & Afghanistan Folk (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | kathak dance link… | social dance… |\n\n**Parallel anchor lesson:** `regions-south-hindustani-05-dance`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-05-dance`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "social dance\n\nStudy **pakistan & afghanistan folk** through listening first. Wikipedia's article on [Music of Pakistan](https://en.wikipedia.org/wiki/Music_of_Pakistan) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **South Asian Traditions**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **rubab, sitar, voice**. Ensemble layer: **tabla, ensemble**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **ghazal, regional folk**. Dance context: **social dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **cross-border repertoire**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Regional listening**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- social dance\n- Lead instruments: rubab, sitar, voice\n- Ensemble: tabla, ensemble\n- Forms: ghazal, regional folk\n- Dance: social dance\n- History: cross-border repertoire\n- Scenes: festivals\n- Repertoire: Regional listening\n- Compared with Hindustani tradition: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Pakistan & Afghanistan Folk is a living tradition with regional accent.\n- Focus: social dance.\n- Compared with Hindustani tradition: shared heritage, distinct emphasis.\n- Forms: ghazal, regional folk.\n- Dance: social dance.\n- Transmission: cross-border repertoire."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nP\na\nk\ni\ns\nt\na\nn\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nP\na\nk\ni\ns\nt\na\nn\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nH\ni\nn\nd\nu\ns\nt\na\nn\ni\n \nt\nr\na\nd\ni\nt\ni\no\nn\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "nusrat-fateh-ali-khan",
+      "type": "artist",
+      "name": "Nusrat Fateh Ali Khan",
+      "summary": "Representative musician or ensemble in south-northwest trad",
+      "blurb": "Study Nusrat Fateh Ali Khan for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Nusrat_Fateh_Ali_Khan",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "pakistan-afghanistan-folk",
+      "type": "band",
+      "name": "Pakistan & Afghanistan Folk",
+      "summary": "Representative musician or ensemble in south-northwest trad",
+      "blurb": "Study Pakistan & Afghanistan Folk for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Pakistan_&_Afghanistan_Folk",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "nusrat-fateh-ali-khan",
+    "pakistan-afghanistan-folk"
+  ],
+  "playlist": [
+    {
+      "id": "regions-south-northwest-05-dance-pl1",
+      "entity_id": "nusrat-fateh-ali-khan",
+      "label": "Nusrat Fateh Ali Khan — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Nusrat Fateh Ali Khan"
+    },
+    {
+      "id": "regions-south-northwest-05-dance-pl2",
+      "entity_id": "pakistan-afghanistan-folk",
+      "label": "Pakistan & Afghanistan Folk — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Pakistan & Afghanistan Folk"
+    },
+    {
+      "id": "regions-south-northwest-05-dance-pl3",
+      "label": "Pakistan & Afghanistan Folk — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-south-northwest-05-dance-pl4",
+      "label": "Pakistan & Afghanistan Folk — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Pakistan & Afghanistan Folk rewards comparative study.",
+    "Focus: social dance.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: ghazal, regional folk.",
+    "Dance: social dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Pakistan & Afghanistan Folk is a living tradition with regional accent.",
+    "Compared with Hindustani tradition: shared heritage, distinct emphasis.",
+    "Transmission: cross-border repertoire."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Pakistan",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Pakistan",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "South Asian Traditions",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Pakistan",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "social dance",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Pakistan",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) social dance\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) social dance\n\n### Q2. Pakistan & Afghanistan Folk rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Hindustani tradition, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) rubab, sitar, voice\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) rubab, sitar, voice\n\n### Q5. Ensemble voices include:\n- A) tabla, ensemble\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) tabla, ensemble\n\n### Q6. Tune and song forms include:\n- A) ghazal, regional folk\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) ghazal, regional folk\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) cross-border repertoire\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) cross-border repertoire\n\n### Q9. Contemporary scenes include:\n- A) festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Regional listening\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Regional listening\n\n### Q12. The Compared with Hindustani tradition section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "social dance",
+          "correct": true
+        }
+      ],
+      "explain": ") social dance"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pakistan & Afghanistan Folk rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Hindustani tradition, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "social dance",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "rubab, sitar, voice",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "social dance",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") rubab, sitar, voice"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "social dance",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "tabla, ensemble",
+          "correct": true
+        }
+      ],
+      "explain": ") tabla, ensemble"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "rubab, sitar, voice",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "ghazal, regional folk",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") ghazal, regional folk"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ghazal, regional folk",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "rubab, sitar, voice",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "tabla, ensemble",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "cross-border repertoire",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "rubab, sitar, voice",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "tabla, ensemble",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "ghazal, regional folk",
+          "correct": false
+        }
+      ],
+      "explain": ") cross-border repertoire"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "tabla, ensemble",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "ghazal, regional folk",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "cross-border repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "festivals",
+          "correct": true
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regional listening",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional listening"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Hindustani tradition section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-south-northwest-05-dance-quiz",
+    "title": "Pakistan & Afghanistan Folk — Dance and Rhythm quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "social dance",
+            "correct": true
+          }
+        ],
+        "explain": ") social dance"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Pakistan & Afghanistan Folk rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Hindustani tradition, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "social dance",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "rubab, sitar, voice",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "social dance",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") rubab, sitar, voice"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "social dance",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "tabla, ensemble",
+            "correct": true
+          }
+        ],
+        "explain": ") tabla, ensemble"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "rubab, sitar, voice",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "ghazal, regional folk",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") ghazal, regional folk"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "ghazal, regional folk",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "rubab, sitar, voice",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "tabla, ensemble",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "cross-border repertoire",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "rubab, sitar, voice",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "tabla, ensemble",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "ghazal, regional folk",
+            "correct": false
+          }
+        ],
+        "explain": ") cross-border repertoire"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "tabla, ensemble",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "ghazal, regional folk",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "cross-border repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "festivals",
+            "correct": true
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regional listening",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional listening"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Hindustani tradition section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

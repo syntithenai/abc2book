@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkabc2book=self.webpackChunkabc2book||[]).push([[724],{89724:(a,e,s)=>{s.r(e),s.d(e,{TunebookMediaWeb:()=>t});var n=s(66653);class t extends n.Uw{async load(){throw new Error("Native media player is only available in the Android app")}async play(){}async pause(){}async seekTo(){}async setPlaybackSpeed(){}async getState(){return{isPlaying:!1,positionMs:0,durationMs:0}}async stop(){}async openBatterySettings(){}}}}]);
+//# sourceMappingURL=724.e74c2c05.chunk.js.map

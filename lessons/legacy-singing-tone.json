@@ -1,0 +1,189 @@
+{
+  "id": "legacy-singing-tone",
+  "title": "Tone Production",
+  "track": "singing",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "singing",
+    "legacy"
+  ],
+  "path": "08-singing/03-tone.md",
+  "sections": [
+    {
+      "id": "tone-production",
+      "title": "Tone Production",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** singing | **Difficulty:** 2/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tone colour — bright, dark, breathy, focused — comes from vocal tract shaping, breath pressure, and resonance balance."
+        }
+      ]
+    },
+    {
+      "id": "resonance",
+      "title": "Resonance",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Chest resonance (lower notes), head resonance (higher). Mixed voice blends both. Forward placement ('mask' resonance) aids projection without pushing."
+        }
+      ]
+    },
+    {
+      "id": "vowel-uniformity",
+      "title": "Vowel uniformity",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Keep vowel shape consistent across pitch changes. 'Ah' widening at high notes spreads tone thin."
+        }
+      ]
+    },
+    {
+      "id": "folk-context",
+      "title": "Folk context",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Sean-nós embraces natural voice colour — not operatic uniformity. Match tone to song: lullaby vs drinking song vs lament."
+        }
+      ]
+    },
+    {
+      "id": "avoid",
+      "title": "Avoid",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Pushing throat, excessive jaw tension, manufactured vibrato before basic pitch is stable."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Forward placement helps:\n\n- A) Project without throat pushing\n- B) Eliminate all resonance\n- C) Lower pitch by an octave\n- D) Replace breath support\n\n**Answer:** A\n\n### Q2. Mixed voice blends chest and head resonance.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Forward placement helps:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Project without throat pushing",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Project without throat pushing"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Mixed voice blends chest and head resonance.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-singing-tone-quiz",
+    "title": "Tone Production quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Forward placement helps:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Project without throat pushing",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Project without throat pushing"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Mixed voice blends chest and head resonance.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

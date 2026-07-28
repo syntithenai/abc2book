@@ -67,144 +67,6 @@
           "text": "Sing or play one major scale in C, G, and D. Name the intervals as whole or half steps between adjacent notes."
         }
       ]
-    },
-    {
-      "id": "quiz-questions",
-      "title": "Quiz Questions",
-      "level": 2,
-      "blocks": []
-    },
-    {
-      "id": "q1-major-scale-interval-pattern",
-      "title": "Q1. Major scale interval pattern:",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "- A) WWHWWWH\n- B) WHWWHWW\n- C) WWWHWWH\n- D) WHWWWHW\n\n**Answer:** A"
-        }
-      ]
-    },
-    {
-      "id": "q2-the-seventh-degree-in-major-is-called-the-leading-tone",
-      "title": "Q2. The seventh degree in major is called the leading tone.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q3-g-major-has-one-sharp-f",
-      "title": "Q3. G major has one sharp: F♯.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q4-scale-degree-1-is-called",
-      "title": "Q4. Scale degree 1 is called:",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "- A) Tonic\n- B) Dominant\n- C) Mediant\n- D) Subdominant\n\n**Answer:** A"
-        }
-      ]
-    },
-    {
-      "id": "q5-a-major-scale-from-f-requires-one-flat",
-      "title": "Q5. A major scale from F requires one flat.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q6-the-distance-from-b-to-c-in-c-major-is",
-      "title": "Q6. The distance from B to C in C major is:",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "- A) Half step\n- B) Whole step\n- C) Minor third\n- D) Perfect fourth\n\n**Answer:** A"
-        }
-      ]
-    },
-    {
-      "id": "q7-octave-is-scale-degree-8",
-      "title": "Q7. Octave is scale degree 8.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q8-session-keys-often-include-g-and-d-major",
-      "title": "Q8. Session keys often include G and D major.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q9-wwhwwwh-means-two-whole-steps-then-a-half-step-then-three-whole-steps-then-a-half-step",
-      "title": "Q9. WWHWWWH means two whole steps, then a half step, then three whole steps, then a half step.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q10-leading-tone-sits-a-semitone-below-the-tonic",
-      "title": "Q10. Leading tone sits a semitone below the tonic.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q11-c-major-uses-only-white-keys-on-piano",
-      "title": "Q11. C major uses only white keys on piano.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
-    },
-    {
-      "id": "q12-changing-the-starting-note-while-keeping-wwhwwwh-changes-the-key-but-not-the-major-quality",
-      "title": "Q12. Changing the starting note while keeping WWHWWWH changes the key but not the major quality.",
-      "level": 3,
-      "blocks": [
-        {
-          "type": "markdown",
-          "text": "**Answer:** True"
-        }
-      ]
     }
   ],
   "entities": [],
@@ -213,5 +75,505 @@
   "tunes": [],
   "key_points": [],
   "reading_list": [],
-  "quiz_markdown": "### Q1. Major scale interval pattern:\n\n- A) WWHWWWH\n- B) WHWWHWW\n- C) WWWHWWH\n- D) WHWWWHW\n\n**Answer:** A\n\n### Q2. The seventh degree in major is called the leading tone.\n\n**Answer:** True\n\n### Q3. G major has one sharp: F♯.\n\n**Answer:** True\n\n### Q4. Scale degree 1 is called:\n\n- A) Tonic\n- B) Dominant\n- C) Mediant\n- D) Subdominant\n\n**Answer:** A\n\n### Q5. A major scale from F requires one flat.\n\n**Answer:** True\n\n### Q6. The distance from B to C in C major is:\n\n- A) Half step\n- B) Whole step\n- C) Minor third\n- D) Perfect fourth\n\n**Answer:** A\n\n### Q7. Octave is scale degree 8.\n\n**Answer:** True\n\n### Q8. Session keys often include G and D major.\n\n**Answer:** True\n\n### Q9. WWHWWWH means two whole steps, then a half step, then three whole steps, then a half step.\n\n**Answer:** True\n\n### Q10. Leading tone sits a semitone below the tonic.\n\n**Answer:** True\n\n### Q11. C major uses only white keys on piano.\n\n**Answer:** True\n\n### Q12. Changing the starting note while keeping WWHWWWH changes the key but not the major quality.\n\n**Answer:** True"
+  "quiz_markdown": "### Q1. Major scale interval pattern:\n\n- A) WWHWWWH\n- B) WHWWHWW\n- C) WWWHWWH\n- D) WHWWWHW\n\n**Answer:** A\n\n### Q2. The seventh degree in major is called the leading tone.\n\n**Answer:** True\n\n### Q3. G major has one sharp: F♯.\n\n**Answer:** True\n\n### Q4. Scale degree 1 is called:\n\n- A) Tonic\n- B) Dominant\n- C) Mediant\n- D) Subdominant\n\n**Answer:** A\n\n### Q5. A major scale from F requires one flat.\n\n**Answer:** True\n\n### Q6. The distance from B to C in C major is:\n\n- A) Half step\n- B) Whole step\n- C) Minor third\n- D) Perfect fourth\n\n**Answer:** A\n\n### Q7. Octave is scale degree 8.\n\n**Answer:** True\n\n### Q8. Session keys often include G and D major.\n\n**Answer:** True\n\n### Q9. WWHWWWH means two whole steps, then a half step, then three whole steps, then a half step.\n\n**Answer:** True\n\n### Q10. Leading tone sits a semitone below the tonic.\n\n**Answer:** True\n\n### Q11. C major uses only white keys on piano.\n\n**Answer:** True\n\n### Q12. Changing the starting note while keeping WWHWWWH changes the key but not the major quality.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Major scale interval pattern:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "WWHWWWH",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: WWHWWWH"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "The seventh degree in major is called the leading tone.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "G major has one sharp: F♯.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Scale degree 1 is called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tonic",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Tonic"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "A major scale from F requires one flat.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "The distance from B to C in C major is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Half step",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Half step"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Octave is scale degree 8.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Session keys often include G and D major.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "WWHWWWH means two whole steps, then a half step, then three whole steps, then a half step.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Leading tone sits a semitone below the tonic.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "C major uses only white keys on piano.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Changing the starting note while keeping WWHWWWH changes the key but not the major quality.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-scales-major-intro-quiz",
+    "title": "Major Scales — Introduction quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Major scale interval pattern:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "WWHWWWH",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: WWHWWWH"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "The seventh degree in major is called the leading tone.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "G major has one sharp: F♯.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Scale degree 1 is called:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tonic",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Tonic"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "A major scale from F requires one flat.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "The distance from B to C in C major is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Half step",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Half step"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Octave is scale degree 8.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Session keys often include G and D major.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "WWHWWWH means two whole steps, then a half step, then three whole steps, then a half step.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Leading tone sits a semitone below the tonic.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "C major uses only white keys on piano.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Changing the starting note while keeping WWHWWWH changes the key but not the major quality.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
 }

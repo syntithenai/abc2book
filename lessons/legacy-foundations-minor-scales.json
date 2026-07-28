@@ -1,0 +1,245 @@
+{
+  "id": "legacy-foundations-minor-scales",
+  "title": "Natural, Harmonic, and Melodic Minor",
+  "track": "foundations",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "foundations",
+    "legacy"
+  ],
+  "path": "01-foundations/05-minor-scales.md",
+  "sections": [
+    {
+      "id": "natural-harmonic-and-melodic-minor",
+      "title": "Natural, Harmonic, and Melodic Minor",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** foundations | **Difficulty:** 2/10 | **Time:** ~10 min\n**Prerequisites:** Major Scales\n**Tags:** scales, minor, modes"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Minor keys share the tonic–dominant anchor of major but use different pitch collections. Three minor variants — natural, harmonic, and melodic — explain most minor-key accidentals in repertoire from Bach to Irish sessions."
+        }
+      ]
+    },
+    {
+      "id": "natural-minor-aeolian",
+      "title": "Natural minor (Aeolian)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Pattern: W-H-W-W-H-W-W. A natural minor: A B C D E F G A. Same key signature as C major — A is the **relative minor** of C, found a minor third below C. Natural minor has no leading tone; the seventh is a whole step below the tonic."
+        }
+      ]
+    },
+    {
+      "id": "harmonic-minor",
+      "title": "Harmonic minor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Raises the seventh degree by a semitone: A harmonic minor = A B C D E F G♯ A. The raised seventh creates a leading tone, enabling strong V→i cadences. Common in classical harmony and Eastern European folk. The augmented second between ♭6 and ♯7 (F to G♯ in A minor) gives harmonic minor its distinctive colour."
+        }
+      ]
+    },
+    {
+      "id": "melodic-minor",
+      "title": "Melodic minor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ascending: raises 6 and 7 (A B C D E F♯ G♯ A). Descending: often reverts to natural minor (A G F E D C B A), avoiding awkward intervals. Jazz treats melodic minor as a single scale ascending and descending — a different usage worth noting."
+        }
+      ]
+    },
+    {
+      "id": "in-trad-music",
+      "title": "In trad music",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tunes in A minor, E minor, or D minor frequently mix flavours: dorian sixth against aeolian seventh, or raised seventh only at cadences. Listen for which accidentals appear and where."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. What defines harmonic minor vs natural minor?\n\n- A) Raised seventh degree\n- B) Lowered third\n- C) Raised fifth\n- D) All degrees lowered\n\n**Answer:** A — Only the seventh is raised, creating a leading tone.\n\n### Q2. A natural minor shares a key signature with C major.\n\n**Answer:** True — They are relative major and minor.\n\n### Q3. The interval between ♭6 and ♯7 in harmonic minor is:\n\n- A) Augmented second (three semitones)\n- B) Minor second\n- C) Perfect fourth\n- D) Major third\n\n**Answer:** A — This augmented second is harmonic minor's characteristic colour.",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What defines harmonic minor vs natural minor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Raised seventh degree",
+          "correct": true
+        }
+      ],
+      "explain": "Only the seventh is raised, creating a leading tone."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "A natural minor shares a key signature with C major.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "They are relative major and minor."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "The interval between ♭6 and ♯7 in harmonic minor is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Raised seventh degree",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Augmented second (three semitones)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": "This augmented second is harmonic minor's characteristic colour."
+    }
+  ],
+  "quiz": {
+    "id": "legacy-foundations-minor-scales-quiz",
+    "title": "Natural, Harmonic, and Melodic Minor quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "What defines harmonic minor vs natural minor?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Raised seventh degree",
+            "correct": true
+          }
+        ],
+        "explain": "Only the seventh is raised, creating a leading tone."
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "A natural minor shares a key signature with C major.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "They are relative major and minor."
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "The interval between ♭6 and ♯7 in harmonic minor is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Raised seventh degree",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Augmented second (three semitones)",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "This augmented second is harmonic minor's characteristic colour."
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "legacy-instruments-harp",
+  "title": "Harp",
+  "track": "instruments",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "instruments",
+    "legacy"
+  ],
+  "path": "09-instruments/06-harp.md",
+  "sections": [
+    {
+      "id": "harp",
+      "title": "Harp",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The harp is among the oldest instruments — depicted in ancient Egypt and Mesopotamia. Sound from plucked strings; frame holds tension. Pedal harp (modern orchestra) and lever/folk harp (trad) serve different roles."
+        }
+      ]
+    },
+    {
+      "id": "irish-harp",
+      "title": "Irish harp",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Wire-strung cláirseach historically; modern Irish harp (neo-Irish) nylon strings, levers for semitone changes. National symbol of Ireland. Turlough O'Carolan (1670–1738) composed harp music still central to trad repertoire."
+        }
+      ]
+    },
+    {
+      "id": "concert-harp",
+      "title": "Concert harp",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "47 strings, seven pedals each altering pitch by semitone. Complex mechanism. Composers: Debussy (*Danse sacrée et danse profane*), Ravel."
+        }
+      ]
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Pluck near middle of string for warmest tone. Harmonics, pres de la table (near soundboard) effects. Left hand bass, right hand melody in classical; both hands melodic in trad."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. O'Carolan played:\n\n- A) Irish harp\n- B) Electric guitar\n- C) Synthesizer\n- D) Timpani\n\n**Answer:** A\n\n### Q2. Pedal harp uses seven pedals for chromatic alteration.\n\n**Answer:** True\n\n### Q3. Harp is classified as:\n\n- A) Plucked chordophone\n- B) Brass aerophone\n- C) Membranophone\n- D) Electrophone only\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "O'Carolan played:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Irish harp",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Irish harp"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Pedal harp uses seven pedals for chromatic alteration.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Harp is classified as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Plucked chordophone",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Plucked chordophone"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-instruments-harp-quiz",
+    "title": "Harp quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "O'Carolan played:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Irish harp",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Irish harp"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Pedal harp uses seven pedals for chromatic alteration.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Harp is classified as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Plucked chordophone",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Plucked chordophone"
+      }
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": "legacy-styles-pop",
+  "title": "Pop Song Craft",
+  "track": "styles",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "styles",
+    "legacy"
+  ],
+  "path": "07-styles/07-pop.md",
+  "sections": [
+    {
+      "id": "pop-song-craft-hooks-verse-chorus-and-production",
+      "title": "Pop Song Craft: Hooks, Verse-Chorus, and Production",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Popular song favours memorable hooks, verse–chorus form, and repeating four-chord loops."
+        }
+      ]
+    },
+    {
+      "id": "chord-loops",
+      "title": "Chord loops",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "I–V–vi–IV and rotations (vi–IV–I–V) underpin countless hits. Folk singers borrow pop craft for originals and trad arrangements."
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "title": "Production",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Verse stripped to guitar-vocal; chorus adds bodhrán and fiddle. Dynamic build into final chorus. Pacing for festival slots."
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "title": "Form",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Verse narrates; chorus repeats hook. Bridge provides contrast before final chorus."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Common pop loop:\n\n- A) I–V–vi–IV\n- B) vii°–I only\n- C) IV repeated\n- D) Drone only\n\n**Answer:** A\n\n### Q2. Verse–chorus alternates narrative and repeated hook.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Common pop loop:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "I–V–vi–IV",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: I–V–vi–IV"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Verse–chorus alternates narrative and repeated hook.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-styles-pop-quiz",
+    "title": "Pop Song Craft quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Common pop loop:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "I–V–vi–IV",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: I–V–vi–IV"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Verse–chorus alternates narrative and repeated hook.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

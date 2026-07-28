@@ -1,0 +1,938 @@
+{
+  "id": "regions-french-basque-03-instruments-voices-ii",
+  "title": "Basque Traditional Instruments — Ensemble Voices II",
+  "track": "regions",
+  "tier": 3,
+  "region": "french-basque",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-french-basque-02-instruments-voices-i"
+  ],
+  "tags": [
+    "french",
+    "basque",
+    "french-acadian",
+    "session",
+    "&"
+  ],
+  "path": "10-regions/french-acadian/basque/03-instruments-session-voices-ii.md",
+  "sections": [
+    {
+      "id": "basque-traditional-instruments-ensemble-voices-ii",
+      "title": "Basque Traditional Instruments — Ensemble Voices II",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** French & Acadian Folk | **Region:** french-basque | **Tier:** 3\n**Prerequisites:** regions-french-basque-02-instruments-voices-i\n**Tags:** french, basque, french-acadian, session, &"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "tamboril, guitar\n\nBasque Traditional Music belongs to the **French & Acadian Folk** curriculum. Kepa Junkera\n\nThis lesson develops listening precision for **tamboril, guitar** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-quebec",
+      "title": "Compared with Quebec",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Quebecois Traditional Music** (`regions-french-quebec-03-instruments-voices-ii`) covers the same lesson slot from the anchor perspective. This lesson stresses: **tamboril, guitar**.\n\n| Topic | Quebec anchor | Basque Traditional Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | piano, guitar, accordion… | tamboril, guitar… |\n\n**Parallel anchor lesson:** `regions-french-quebec-03-instruments-voices-ii`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-03-instruments-voices-ii`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "tamboril, guitar\n\nStudy **basque traditional music** through listening first. Wikipedia's article on [Music of the Basques](https://en.wikipedia.org/wiki/Music_of_the_Basques) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **French & Acadian Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **txistu, voice, accordion**. Ensemble layer: **tamboril, guitar**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **aurreskar, marches**. Dance context: **social dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **Basque cultural revival**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Basque regional tunes**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- tamboril, guitar\n- Lead instruments: txistu, voice, accordion\n- Ensemble: tamboril, guitar\n- Forms: aurreskar, marches\n- Dance: social dance\n- History: Basque cultural revival\n- Scenes: festivals\n- Repertoire: Basque regional tunes\n- Compared with Quebec: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Basque Traditional Music is a living tradition with regional accent.\n- Focus: tamboril, guitar.\n- Compared with Quebec: shared heritage, distinct emphasis.\n- Forms: aurreskar, marches.\n- Dance: social dance.\n- Transmission: Basque cultural revival."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nt\nh\ne\n \nB\na\ns\nq\nu\ne\ns\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nt\nh\ne\n_\nB\na\ns\nq\nu\ne\ns\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nQ\nu\ne\nb\ne\nc\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "kepa-junkera",
+      "type": "artist",
+      "name": "Kepa Junkera",
+      "summary": "Representative musician or ensemble in french-basque trad",
+      "blurb": "Study Kepa Junkera for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Kepa_Junkera",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "basque-traditional-music",
+      "type": "band",
+      "name": "Basque Traditional Music",
+      "summary": "Representative musician or ensemble in french-basque trad",
+      "blurb": "Study Basque Traditional Music for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Basque_Traditional_Music",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "kepa-junkera",
+    "basque-traditional-music"
+  ],
+  "playlist": [
+    {
+      "id": "regions-french-basque-03-instruments-voices-ii-pl1",
+      "entity_id": "kepa-junkera",
+      "label": "Kepa Junkera — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Kepa Junkera"
+    },
+    {
+      "id": "regions-french-basque-03-instruments-voices-ii-pl2",
+      "entity_id": "basque-traditional-music",
+      "label": "Basque Traditional Music — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Basque Traditional Music"
+    },
+    {
+      "id": "regions-french-basque-03-instruments-voices-ii-pl3",
+      "label": "Basque Traditional Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-french-basque-03-instruments-voices-ii-pl4",
+      "label": "Basque Traditional Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Basque Traditional Music rewards comparative study.",
+    "Focus: tamboril, guitar.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: aurreskar, marches.",
+    "Dance: social dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Basque Traditional Music is a living tradition with regional accent.",
+    "Compared with Quebec: shared heritage, distinct emphasis.",
+    "Transmission: Basque cultural revival."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of the Basques",
+      "url": "https://en.wikipedia.org/wiki/Music_of_the_Basques",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "French & Acadian Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_the_Basques",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "tamboril, guitar",
+      "url": "https://en.wikipedia.org/wiki/Music_of_the_Basques",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) tamboril, guitar\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) tamboril, guitar\n\n### Q2. Basque Traditional Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Quebec, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) txistu, voice, accordion\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) txistu, voice, accordion\n\n### Q5. Ensemble voices include:\n- A) tamboril, guitar\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) tamboril, guitar\n\n### Q6. Tune and song forms include:\n- A) aurreskar, marches\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) aurreskar, marches\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) Basque cultural revival\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) Basque cultural revival\n\n### Q9. Contemporary scenes include:\n- A) festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Basque regional tunes\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Basque regional tunes\n\n### Q12. The Compared with Quebec section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "tamboril, guitar",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") tamboril, guitar"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Basque Traditional Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "tamboril, guitar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "txistu, voice, accordion",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Quebec, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "txistu, voice, accordion",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "aurreskar, marches",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "aurreskar, marches",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Basque cultural revival",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "txistu, voice, accordion",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") txistu, voice, accordion"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "tamboril, guitar",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "aurreskar, marches",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Basque cultural revival",
+          "correct": false
+        }
+      ],
+      "explain": ") tamboril, guitar"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "aurreskar, marches",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Basque cultural revival",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Basque regional tunes",
+          "correct": false
+        }
+      ],
+      "explain": ") aurreskar, marches"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Basque regional tunes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Basque cultural revival",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Basque regional tunes",
+          "correct": false
+        }
+      ],
+      "explain": ") Basque cultural revival"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "festivals",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Basque regional tunes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": ") Basque regional tunes"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Quebec section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-french-basque-03-instruments-voices-ii-quiz",
+    "title": "Basque Traditional Instruments — Ensemble Voices II quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "tamboril, guitar",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") tamboril, guitar"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Basque Traditional Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "tamboril, guitar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "txistu, voice, accordion",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Quebec, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "txistu, voice, accordion",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "aurreskar, marches",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "aurreskar, marches",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Basque cultural revival",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "txistu, voice, accordion",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") txistu, voice, accordion"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "tamboril, guitar",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "aurreskar, marches",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Basque cultural revival",
+            "correct": false
+          }
+        ],
+        "explain": ") tamboril, guitar"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "aurreskar, marches",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Basque cultural revival",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Basque regional tunes",
+            "correct": false
+          }
+        ],
+        "explain": ") aurreskar, marches"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Basque regional tunes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Basque cultural revival",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Basque regional tunes",
+            "correct": false
+          }
+        ],
+        "explain": ") Basque cultural revival"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "festivals",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Basque regional tunes",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": ") Basque regional tunes"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Quebec section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

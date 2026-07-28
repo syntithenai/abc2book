@@ -1,0 +1,178 @@
+{
+  "id": "legacy-italian-terms-articulation",
+  "title": "Articulation Marks",
+  "track": "italian",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "italian",
+    "legacy"
+  ],
+  "path": "02-italian-terms/03-articulation.md",
+  "sections": [
+    {
+      "id": "articulation-marks-legato-staccato-and-accents",
+      "title": "Articulation Marks: Legato, Staccato, and Accents",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** italian-terms | **Difficulty:** 2/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Articulation defines how notes connect or separate — as important as pitch and rhythm for expressive performance."
+        }
+      ]
+    },
+    {
+      "id": "core-markings",
+      "title": "Core markings",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Legato** — smooth, connected. **Staccato** (dot) — detached, separated. **Slur** — curved line; play notes in one breath/bow without re-attacking. **Tenuto** (—) — full value, slight emphasis. **Marcato** (^) — marked, emphatic attack."
+        }
+      ]
+    },
+    {
+      "id": "ornaments",
+      "title": "Ornaments",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Trill** (tr) — rapid alternation with upper note. **Mordent** — quick neighbour-tone flick. **Turn** (∞) — encircle the main note. Irish ornamentation (cuts, rolls, cran) is often learned by ear rather than from symbols."
+        }
+      ]
+    },
+    {
+      "id": "instrument-specific",
+      "title": "Instrument-specific",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "String players articulate primarily through bowing: same-note re-bowing vs slurring changes dance feel entirely. Wind players use tonguing syllables (doo, too, doo-goo). Match articulation to dance type — crisp for reels, more legato for airs."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Legato means:\n\n- A) Smooth and connected\n- B) Short and detached\n- C) Very loud\n- D) Gradually slower\n\n**Answer:** A\n\n### Q2. A slur indicates connected notes without re-articulation.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Legato means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Smooth and connected",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Smooth and connected"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "A slur indicates connected notes without re-articulation.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-italian-terms-articulation-quiz",
+    "title": "Articulation Marks quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Legato means:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Smooth and connected",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Smooth and connected"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "A slur indicates connected notes without re-articulation.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "id": "regions-celtic-scotland-06-history",
+  "title": "Scottish Traditional Music — History, Revival, and Transmission",
+  "track": "regions",
+  "tier": 6,
+  "region": "scotland",
+  "difficulty": 8,
+  "prerequisites": [
+    "regions-celtic-scotland-05-dance"
+  ],
+  "tags": [
+    "scotland",
+    "celtic",
+    "history",
+    "revival"
+  ],
+  "path": "10-regions/celtic/scotland/06-history-transmission.md",
+  "sections": [
+    {
+      "id": "scottish-traditional-music-history-revival-and-transmission",
+      "title": "Scottish Traditional Music — History, Revival, and Transmission",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 6 | **Difficulty:** 8/10\n**Prerequisites:** regions-celtic-scotland-05-dance\n**Tags:** scotland, history, collectors, bbc, revival, piping-competitions"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Scottish traditional music is not a static museum piece. It survived clan warfare, Clearances, urbanisation, and mass media through **oral transmission**, **collectors' manuscripts**, **broadcasting**, and periodic **revivals** that reintroduced bothy ballads, Gaelic song, and fiddle repertoire to new audiences. This lesson traces collectors, **BBC Scotland**'s role, the **folk revival** of the 1950s–1970s, and **piping competitions** as engines of preservation and change."
+        }
+      ]
+    },
+    {
+      "id": "collectors-and-early-documentation",
+      "title": "Collectors and early documentation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Before recording technology, tunes lived in **fiddlers' memory**, **pipers' teaching lines**, and **ballad sheets**. Nineteenth-century collectors gathered songs from workers and travellers:\n\n**Francis Collinson**'s *The Traditional and National Music of Scotland* (1966) synthesised earlier fieldwork and remains a reference for harp, pipe, and fiddle history. **William Motherwell** and **Robert Burns** preserved **Scots song**; Burns edited and adapted orally circulating material for print.\n\n**Hamish Henderson** (1919–2002) — poet, soldier, and folklorist — collected **bothy ballads** from farm workers in the North East, recording singers like **Jeannie Robertson** and **Jimmy MacBeath**. His work anchored the mid-century folk revival in **authentic voice** rather than Victorian parlour arrangements. Hamish Henderson bridged academic folklore and pub performance — the **School of Scottish Studies** at Edinburgh University archives his field tapes.\n\n**Bothy ballads** document harsh farm life — long hours, low pay, humour and defiance in Scots verse. They are as central to Lowland tradition as Gaelic **waulking songs** are to the West.\n\n![Hamish Henderson memorial](https://en.wikipedia.org/wiki/Special:FilePath/Hamish_Henderson_memorial%2C_Mount_Hooly%2C_Edinburgh.JPG?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "bbc-and-national-broadcasting",
+      "title": "BBC and national broadcasting",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**BBC Scotland** and **BBC Radio nan Gàidheal** shaped twentieth-century listening habits — piping recitals, fiddle programmes, Gaelic song hours, and folk clubs on air. Broadcasting could **standardise** repertoire (everyone hears the same strathspey) while also **reviving** forgotten singers when producers mined archives.\n\nRadio connected **island Gaelic** communities to **Lowland cities** and **diaspora** listeners. Competitions like **BBC Radio Scotland Young Traditional Musician of the Year** continue the pipeline from learner to professional stage. BBC Scotland is an institution parallel to Ireland's **RTÉ** and **TG4** — not a replacement for sessions, but a national loudspeaker.\n\nTelevision brought **Highland games**, **pipe bands**, and **Celtic Connections** concerts into living rooms — visual association between kilts, pipes, and \"Scottish music\" owes much to broadcast choices."
+        }
+      ]
+    },
+    {
+      "id": "folk-revival",
+      "title": "Folk revival",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **folk revival** from the 1950s through 1970s paralleled Ireland's Comhaltas era and American folk boom. Henderson, **Ewan MacColl** (Scottish-born, influential in UK folk), and clubs in Edinburgh and Glasgow fostered **singarounds** and **political ballad** culture.\n\n**Revival bands** formed — **Battlefield Band** (1975) blended pipes, fiddle, and later accordion for international touring; **The Corries**, **Ossian**, and **Silly Wizard** (1970s–80s) brought arranged ensemble sound to trad repertoire. Revivalists debated **authenticity** — should ballads be unaccompanied? — while dancers demanded louder ceilidh bands.\n\nThe revival **did not invent** tradition; it **reconnected** urban audiences to rural sources after wartime disruption and emigration. Similar tensions animate Irish transmission debates in Lesson 6 of the Ireland unit."
+        }
+      ]
+    },
+    {
+      "id": "piping-competitions-and-games",
+      "title": "Piping competitions and games",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Highland games** and **piping competitions** preserved **piobaireachd** and **ceòl beag** through judged performance. The **Piobaireachd Society** publishes scores and standards; solo pipers train for **Gold Medal** events at **Inverness** and **Oban**.\n\n**Pipe bands** organised through rspba (Royal Scottish Pipe Band Association) compete in grades from novice to world champions. Winter practice, summer games — seasonal rhythm structures community life in ways pub sessions alone do not.\n\nCompetition can **fossilise** style — judges reward precision — while sessions reward **lift** and **craic**. Healthy tradition holds both: games pipers who also play folk clubs; fiddlers who learned strathspeys from Skinner scores and from ear at ceilidhs."
+        }
+      ]
+    },
+    {
+      "id": "transmission-today",
+      "title": "Transmission today",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modern learners use **YouTube**, **ABC tune databases**, **Fèis** classes for young Gaelic speakers, **RSCDS** dance workshops, and **Hands Up for Trad** advocacy. **Celtic Connections** festival each January concentrates teaching and concerts in Glasgow.\n\nTransmission debates continue: **competition** versus **session** values; **Gaelic language** decline versus song revival; **fusion** bands versus purist folk clubs. Scotland's story matches Ireland's — survival through negotiation, not sealed preservation."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Parallel lesson: `regions-celtic-ireland-06-history`. Ireland has **Edward Bunting** at the 1792 Belfast Harp Festival; Scotland has **Henderson** and **School of Scottish Studies** fieldwork. Ireland has **Comhaltas** and **Fleadh Cheoil**; Scotland has **pipe-band grades**, **Mod** Gaelic competitions, and **Fèisean nan Gàidheal**.\n\nBoth nations use **national broadcasters** to amplify trad. Both experienced mid-century **revival** reconnecting urban youth to rural repertoire. Diaspora **78 rpm** and **emigrant** networks matter in both histories — Scotland's Cape Breton and Nova Scotia branches mirror Irish-American Chicago recordings."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Collectors** from Burns to Henderson preserved songs that oral tradition alone might have lost.\n- **Bothy ballads** document Lowland working life; **Gaelic song** archives document West Highland heritage.\n- **BBC Scotland** and **Radio nan Gàidheal** broadcast trad to national and diaspora audiences.\n- **Folk revival** bands reconnected urban listeners to rural sources without inventing tradition from scratch.\n- **Piping competitions** and **pipe-band grades** structure preservation of ceòl mòr and ceòl beag.\n- Transmission today mixes ear learning, festivals, broadcasting, and online tools — debate over competition versus session continues."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Hamish Henderson** — *Alias MacAlias: Selected Writings* (ballads, politics, folklore).\n- **Francis Collinson** — *The Traditional and National Music of Scotland*.\n- **School of Scottish Studies Archives** — University of Edinburgh ([ed.ac.uk](https://www.ed.ac.uk/)).\n- **Wikipedia** — [Hamish Henderson](https://en.wikipedia.org/wiki/Hamish_Henderson), [Music of Scotland](https://en.wikipedia.org/wiki/Music_of_Scotland).\n- **Piobaireachd Society** — [piobaireachd.co.uk](https://www.piobaireachd.co.uk/) for ceòl mòr context."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "hamish-henderson",
+      "type": "artist",
+      "name": "Hamish Henderson",
+      "summary": "Folk song collector, poet, and revival activist",
+      "blurb": "Collected bothy ballads and campaigned for Scottish folk as living culture, not museum piece.",
+      "url": "https://en.wikipedia.org/wiki/Hamish_Henderson",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Lomax.jpg?width=320",
+      "years": "1919–2002",
+      "region": "Perthshire / Edinburgh",
+      "playlist_index": 0
+    },
+    {
+      "id": "bbc-scotland",
+      "type": "organization",
+      "name": "BBC Scotland",
+      "summary": "National broadcaster for Scottish music and Gaelic radio",
+      "blurb": "BBC Radio nan Gàidheal and television programmes shaped twentieth-century trad listening nationwide.",
+      "url": "https://www.bbc.co.uk/scotland",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/BBC_Scotland_logo.svg?width=320",
+      "playlist_index": 2
+    }
+  ],
+  "entity_order": [
+    "hamish-henderson",
+    "bbc-scotland"
+  ],
+  "playlist": [
+    {
+      "id": "jeannie-robertson",
+      "entity_id": "hamish-henderson",
+      "label": "Jeannie Robertson — ballad (Henderson fieldwork)",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": "Hamish Henderson"
+    },
+    {
+      "id": "bothy-ballad",
+      "label": "Bothy ballad — The Barnyards o' Delgaty",
+      "youtube": "https://www.youtube.com/watch?v=8qH6hZJqHqY",
+      "subtitle": ""
+    },
+    {
+      "id": "bbc-trad",
+      "entity_id": "bbc-scotland",
+      "label": "BBC Scotland traditional music",
+      "youtube": "https://www.youtube.com/watch?v=KxVxZP7VqH0",
+      "subtitle": "BBC Scotland"
+    },
+    {
+      "id": "battlefield-revival",
+      "label": "Battlefield Band — revival era",
+      "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+      "subtitle": ""
+    },
+    {
+      "id": "henderson-ballad",
+      "entity_id": "hamish-henderson",
+      "label": "Hamish Henderson — ballad context",
+      "youtube": "https://www.youtube.com/watch?v=2g6F8h8aZ0E",
+      "subtitle": "Hamish Henderson"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Collectors from Burns to Henderson preserved orally circulating songs.",
+    "Bothy ballads document Lowland farm workers' Scots-language heritage.",
+    "BBC Scotland and Radio nan Gàidheal broadcast trad to national audiences.",
+    "Folk revival bands reconnected urban listeners to rural sources.",
+    "Piping competitions preserve piobaireachd and ceòl beag through judged performance.",
+    "Transmission today mixes ear learning, festivals, broadcasting, and online tools.",
+    "**Collectors** from Burns to Henderson preserved songs that oral tradition alone might have lost.",
+    "**Bothy ballads** document Lowland working life; **Gaelic song** archives document West Highland heritage.",
+    "**BBC Scotland** and **Radio nan Gàidheal** broadcast trad to national and diaspora audiences.",
+    "**Folk revival** bands reconnected urban listeners to rural sources without inventing tradition from scratch.",
+    "**Piping competitions** and **pipe-band grades** structure preservation of ceòl mòr and ceòl beag.",
+    "Transmission today mixes ear learning, festivals, broadcasting, and online tools — debate over competition versus session continues."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "Alias MacAlias: Selected Writings",
+      "author": "Hamish Henderson",
+      "note": "Primary revival source"
+    },
+    {
+      "type": "link",
+      "title": "School of Scottish Studies Archives",
+      "url": "https://www.ed.ac.uk/",
+      "note": "Field recordings and manuscripts"
+    },
+    {
+      "type": "link",
+      "title": "Piobaireachd Society",
+      "url": "https://www.piobaireachd.co.uk/",
+      "note": "Ceòl mòr scores and standards"
+    },
+    {
+      "type": "link",
+      "title": "School of Scottish Studies Archives",
+      "url": "https://www.ed.ac.uk/literatures-languages-cultures/celtic-scottish-studies/archives",
+      "note": "Field recordings"
+    },
+    {
+      "type": "link",
+      "title": "Gaelic college Sabhal Mòr Ostaig",
+      "url": "https://www.smo.uhi.ac.uk/",
+      "note": "Gaelic song and culture"
+    },
+    {
+      "type": "link",
+      "title": "Hamish Henderson Trust",
+      "url": "https://en.wikipedia.org/wiki/Hamish_Henderson",
+      "note": "Collector legacy"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "ed.ac.uk",
+      "url": "https://www.ed.ac.uk/"
+    },
+    {
+      "type": "link",
+      "title": "Hamish Henderson",
+      "url": "https://en.wikipedia.org/wiki/Hamish_Henderson"
+    },
+    {
+      "type": "link",
+      "title": "piobaireachd.co.uk",
+      "url": "https://www.piobaireachd.co.uk/"
+    }
+  ],
+  "quiz_markdown": "### Q1. Hamish Henderson is remembered for:\n\n- A) Collecting bothy ballads and anchoring Scotland's mid-century folk revival\n- B) Inventing the electric guitar in Nashville\n- C) Writing exclusively Italian opera libretti\n- D) Founding the World Wide Web\n\n**Answer:** A\n\n### Q2. Bothy ballads document farm workers' lives in Scots-language song tradition.\n\n**Answer:** True\n\n### Q3. BBC Radio nan Gàidheal broadcasts in support of Gaelic language and music heritage.\n\n**Answer:** True\n\n### Q4. The Royal Scottish Pipe Band Association organises graded pipe-band competition.\n\n**Answer:** True\n\n### Q5. Piobaireachd is preserved partly through piping competitions at Highland games and major contests.\n\n**Answer:** True\n\n### Q6. Francis Collinson's Traditional and National Music of Scotland is a reference work on national music history.\n\n**Answer:** True\n\n### Q7. Folk revival bands like Battlefield Band formed in the 1970s to bring arranged ensemble sound to trad repertoire.\n\n**Answer:** True\n\n### Q8. School of Scottish Studies at Edinburgh University archives field recordings including Henderson's work.\n\n**Answer:** True\n\n### Q9. Competition piping and pub session piping always reward identical values of rhythm and ornament.\n\n**Answer:** False — competition prizes precision; sessions prize dance lift and social flow.\n\n### Q10. Celtic Connections is a major Glasgow winter festival supporting contemporary trad transmission.\n\n**Answer:** True\n\n### Q11. Robert Burns preserved and adapted orally circulating Scots song material for print.\n\n**Answer:** True\n\n### Q12. Compared with Ireland, Scotland emphasises pipe-band competition infrastructure and bothy ballad collection distinct from Comhaltas fleadh structure.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Hamish Henderson is remembered for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Collecting bothy ballads and anchoring Scotland's mid-century folk revival",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Collecting bothy ballads and anchoring Scotland's mid-century folk revival"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Bothy ballads document farm workers' lives in Scots-language song tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "BBC Radio nan Gàidheal broadcasts in support of Gaelic language and music heritage.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "The Royal Scottish Pipe Band Association organises graded pipe-band competition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Piobaireachd is preserved partly through piping competitions at Highland games and major contests.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Francis Collinson's Traditional and National Music of Scotland is a reference work on national music history.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Folk revival bands like Battlefield Band formed in the 1970s to bring arranged ensemble sound to trad repertoire.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "School of Scottish Studies at Edinburgh University archives field recordings including Henderson's work.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Competition piping and pub session piping always reward identical values of rhythm and ornament.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "competition prizes precision; sessions prize dance lift and social flow."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Celtic Connections is a major Glasgow winter festival supporting contemporary trad transmission.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Robert Burns preserved and adapted orally circulating Scots song material for print.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Compared with Ireland, Scotland emphasises pipe-band competition infrastructure and bothy ballad collection distinct from Comhaltas fleadh structure.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-scotland-06-history-quiz",
+    "title": "Scottish Traditional Music — History, Revival, and Transmission quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Hamish Henderson is remembered for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Collecting bothy ballads and anchoring Scotland's mid-century folk revival",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Collecting bothy ballads and anchoring Scotland's mid-century folk revival"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Bothy ballads document farm workers' lives in Scots-language song tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "BBC Radio nan Gàidheal broadcasts in support of Gaelic language and music heritage.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "The Royal Scottish Pipe Band Association organises graded pipe-band competition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Piobaireachd is preserved partly through piping competitions at Highland games and major contests.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Francis Collinson's Traditional and National Music of Scotland is a reference work on national music history.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Folk revival bands like Battlefield Band formed in the 1970s to bring arranged ensemble sound to trad repertoire.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "School of Scottish Studies at Edinburgh University archives field recordings including Henderson's work.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Competition piping and pub session piping always reward identical values of rhythm and ornament.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "competition prizes precision; sessions prize dance lift and social flow."
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Celtic Connections is a major Glasgow winter festival supporting contemporary trad transmission.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Robert Burns preserved and adapted orally circulating Scots song material for print.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Scotland emphasises pipe-band competition infrastructure and bothy ballad collection distinct from Comhaltas fleadh structure.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

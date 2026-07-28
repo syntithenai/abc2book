@@ -246,7 +246,7 @@ function AppQueueLayer(props) {
   const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
   const nowPlayingExpanded = !!props.nowPlayingExpanded
   const setNowPlayingExpanded = props.setNowPlayingExpanded
-  const showPlaylistTransport = shouldShowPlaylistTransportBar(
+  const showPlaylistTransport = !nowPlayingExpanded && shouldShowPlaylistTransportBar(
     location.pathname,
     props.nowPlayingQueue,
     props.gigModeActive,
@@ -322,6 +322,7 @@ function AppQueueLayer(props) {
         pathname={location.pathname}
         practiceSessionActive={props.practiceSessionActive}
         gigModeActive={props.gigModeActive}
+        nowPlayingExpanded={nowPlayingExpanded}
       />
       <LessonExternalMediaHost
         nowPlayingQueue={props.nowPlayingQueue}
@@ -365,18 +366,20 @@ function AppQueueLayer(props) {
           />
         </div>
       ) : null}
-      <NowPlayingTransportBar
-        nowPlayingQueue={props.nowPlayingQueue}
-        setNowPlayingQueue={props.setNowPlayingQueue}
-        tunebook={props.tunebook}
-        tunes={props.tunes}
-        mediaController={props.mediaController}
-        gigModeActive={props.gigModeActive}
-        queuePlayConfirm={props.queuePlayConfirm}
-        setQueuePlayConfirm={props.setQueuePlayConfirm}
-        nowPlayingExpanded={nowPlayingExpanded}
-        onNowPlayingExpandedChange={setNowPlayingExpanded}
-      />
+      {!nowPlayingExpanded ? (
+        <NowPlayingTransportBar
+          nowPlayingQueue={props.nowPlayingQueue}
+          setNowPlayingQueue={props.setNowPlayingQueue}
+          tunebook={props.tunebook}
+          tunes={props.tunes}
+          mediaController={props.mediaController}
+          gigModeActive={props.gigModeActive}
+          queuePlayConfirm={props.queuePlayConfirm}
+          setQueuePlayConfirm={props.setQueuePlayConfirm}
+          nowPlayingExpanded={nowPlayingExpanded}
+          onNowPlayingExpandedChange={setNowPlayingExpanded}
+        />
+      ) : null}
     </>
   )
 }

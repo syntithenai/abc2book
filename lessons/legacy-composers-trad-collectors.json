@@ -1,0 +1,178 @@
+{
+  "id": "legacy-composers-trad-collectors",
+  "title": "Folk Collectors and Revivals",
+  "track": "history",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "history",
+    "legacy"
+  ],
+  "path": "06-history/09-trad-collectors.md",
+  "sections": [
+    {
+      "id": "collectors-and-revivals-saving-oral-tradition",
+      "title": "Collectors and Revivals: Saving Oral Tradition",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Field collectors preserved oral-tradition music that might otherwise have been lost, shaping revival taste through what they published."
+        }
+      ]
+    },
+    {
+      "id": "key-figures",
+      "title": "Key figures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Francis O'Neill** (1848–1936): Chicago police chief who published *The Music of Ireland* (1903) and *O'Neill's 1001* — thousands of tunes from Irish-American musicians. **Cecil Sharp** (1859–1924): documented English morris and country dances. **Alan Lomax** (1915–2002): recorded Appalachian ballads, blues, and global folk across decades."
+        }
+      ]
+    },
+    {
+      "id": "critical-reading",
+      "title": "Critical reading",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Collectors shaped versions through selection and harmonisation. Titles drift; keys may not match local practice. Living players remember alternate turns."
+        }
+      ]
+    },
+    {
+      "id": "modern-chain",
+      "title": "Modern chain",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Kitchen player → collector → digital archive → your tune book. Cite sources; stay open to alternate versions."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Francis O'Neill famous for:\n\n- A) Publishing Irish dance tune collections\n- B) Inventing piano forte\n- C) Vienna symphonies\n- D) Founding bebop\n\n**Answer:** A\n\n### Q2. Collectors preserved music passed primarily by ear.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Francis O'Neill famous for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Publishing Irish dance tune collections",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Publishing Irish dance tune collections"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Collectors preserved music passed primarily by ear.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-composers-trad-collectors-quiz",
+    "title": "Folk Collectors and Revivals quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Francis O'Neill famous for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Publishing Irish dance tune collections",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Publishing Irish dance tune collections"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Collectors preserved music passed primarily by ear.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

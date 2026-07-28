@@ -117,6 +117,8 @@ export default function useAbcSynth(props) {
         }
         return false
     })
+    const mediaControllerRef = useRef(props.mediaController)
+    mediaControllerRef.current = props.mediaController
     
     const [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
     
@@ -709,10 +711,10 @@ export default function useAbcSynth(props) {
          mcMediaLinkNumber,
      ])
 
-    useEffect(function() {
-        if (!props.mediaController) return undefined
+    useLayoutEffect(function() {
+        if (!mediaControllerRef.current) return undefined
         if (props.playbackEngine === false) return undefined
-        const mc = props.mediaController
+        const mc = mediaControllerRef.current
         mc.applyMidiTempoRef.current = applyMidiPlaybackSettings
         mc.applyPlaybackSettingsLiveRef.current = applyMidiPlaybackSettings
         mc.applyPlaybackVolumeRef.current = applySynthPlaybackVolume
@@ -754,12 +756,12 @@ export default function useAbcSynth(props) {
                 mc.playMidiRef.current = null
             }
         }
-    }, [props.mediaController, props.playbackEngine])
+    }, [props.playbackEngine])
 
     const mcAbc = props.abc
     useEffect(function() {
-        if (props.playbackEngine === false || !props.mediaController) return undefined
-        const mc = props.mediaController
+        if (props.playbackEngine === false || !mediaControllerRef.current) return undefined
+        const mc = mediaControllerRef.current
         const pendingMidiPlay = mc.pendingMidiPlayRef && mc.pendingMidiPlayRef.current
         if (!pendingMidiPlay || !gvisualObj.current || !beginMidiPlaybackRef.current) {
             // #region agent log
@@ -781,7 +783,7 @@ export default function useAbcSynth(props) {
         // #endregion
         beginMidiPlaybackRef.current(pendingMidiPlay)
         return undefined
-    }, [props.mediaController, props.playbackEngine, mcAbc])
+    }, [props.playbackEngine, mcAbc])
 
     useLayoutEffect(function() {
         if (!props.playbackControlRef) return undefined
@@ -2211,6 +2213,12 @@ export default function useAbcSynth(props) {
             }
             // #region agent log
             fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'noWantsMidi',force:!!force},timestamp:Date.now()})}).catch(function(){})
+            // #endregion
+            return
+        }
+        if (primePromiseRef.current && isLoading.current) {
+            // #region agent log
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H4',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'primeInFlightPromise',force:!!force},timestamp:Date.now()})}).catch(function(){})
             // #endregion
             return
         }

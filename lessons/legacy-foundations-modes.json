@@ -1,0 +1,245 @@
+{
+  "id": "legacy-foundations-modes",
+  "title": "Modes",
+  "track": "foundations",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "foundations",
+    "legacy"
+  ],
+  "path": "01-foundations/08-modes.md",
+  "sections": [
+    {
+      "id": "modes-dorian-mixolydian-and-beyond",
+      "title": "Modes: Dorian, Mixolydian, and Beyond",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** foundations | **Difficulty:** 4/10 | **Time:** ~12 min\n**Prerequisites:** Major Scales, Minor Scales\n**Tags:** modes, dorian, mixolydian"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modes are scales formed by starting on each degree of the major scale. Seven modes — Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian — predate major/minor tonality and remain central to folk, jazz, and modal composition."
+        }
+      ]
+    },
+    {
+      "id": "the-seven-modes",
+      "title": "The seven modes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Ionian** = major. **Aeolian** = natural minor. **Dorian**: minor 3rd, major 6th (D dorian: D E F G A B C D). **Mixolydian**: major 3rd, minor 7th (G mixolydian: G A B C D E F G). **Phrygian**: minor 2nd. **Lydian**: raised 4th. **Locrian**: diminished 5th — rare as tonal centre."
+        }
+      ]
+    },
+    {
+      "id": "modes-in-folk-music",
+      "title": "Modes in folk music",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish tunes often centre on D with C natural (D mixolydian) or A with G natural (A dorian). Players describe these as 'major with a flat 7' or 'minor with a major 6' without Greek names. Modes explain why certain accidentals persist across a tune."
+        }
+      ]
+    },
+    {
+      "id": "modal-harmony",
+      "title": "Modal harmony",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Do not sharp the characteristic flat note to fit major-key thinking. D mixolydian wants C natural, not C♯. Harmonise with chords built from the mode's scale degrees: I in mixolydian is a dominant-seventh-type chord (G7 in G mixolydian)."
+        }
+      ]
+    },
+    {
+      "id": "parallel-vs-relative",
+      "title": "Parallel vs relative",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "D dorian is *relative* to C major (same notes, different centre). D dorian is *parallel* to D minor (same tonic, different sixth and seventh)."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. D dorian differs from D natural minor by:\n\n- A) Major sixth (B natural)\n- B) Lowered third\n- C) No fourth degree\n- D) Extra sharp on every note\n\n**Answer:** A\n\n### Q2. Mixolydian differs from major by:\n\n- A) Lowered seventh\n- B) Lowered third\n- C) Absent fifth\n- D) 6/8 meter only\n\n**Answer:** A\n\n### Q3. D dorian shares key signature with C major.\n\n**Answer:** True — Same pitch collection, different tonal centre.",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "D dorian differs from D natural minor by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Major sixth (B natural)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Major sixth (B natural)"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Mixolydian differs from major by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Lowered seventh",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Lowered seventh"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "D dorian shares key signature with C major.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Same pitch collection, different tonal centre."
+    }
+  ],
+  "quiz": {
+    "id": "legacy-foundations-modes-quiz",
+    "title": "Modes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "D dorian differs from D natural minor by:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Major sixth (B natural)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Major sixth (B natural)"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Mixolydian differs from major by:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Lowered seventh",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Lowered seventh"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "D dorian shares key signature with C major.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Same pitch collection, different tonal centre."
+      }
+    ]
+  }
+}

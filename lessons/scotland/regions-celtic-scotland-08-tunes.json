@@ -1,0 +1,819 @@
+{
+  "id": "regions-celtic-scotland-08-tunes",
+  "title": "Scottish Traditional Music — Tunes — Forms, History, and Recordings",
+  "track": "regions",
+  "tier": 4.5,
+  "region": "scotland",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-celtic-scotland-07-representative-depth"
+  ],
+  "tags": [
+    "scotland",
+    "celtic",
+    "tunes",
+    "recordings"
+  ],
+  "path": "10-regions/celtic/scotland/08-tunes.md",
+  "sections": [
+    {
+      "id": "scottish-traditional-music-tunes-forms-history-and-recordings",
+      "title": "Scottish Traditional Music — Tunes — Forms, History, and Recordings",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 4.5 | **Difficulty:** 6/10\n**Prerequisites:** regions-celtic-scotland-07-representative-depth\n**Tags:** scotland, tunes, masons-apron, drummond-castle, strathspey, reel, recordings"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tunes are where tradition becomes concrete — a melody you can hum, bow, or pipe after midnight. This lesson centres two widely played standards — **The Mason's Apron** and [[track:drummond-strathspey|The Drummond Castle Strathspey]] — and uses them to study **strathspey–reel** recording history, cross-border repertoire, and how to listen for **Scottish snap** versus Irish reel roll."
+        }
+      ]
+    },
+    {
+      "id": "the-masons-apron",
+      "title": "The Mason's Apron",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**The Mason's Apron** is a **reel** in A major (often played in G or A depending on instrument) shared across **Scottish**, **Irish**, and **North American** sessions. The title references **freemasonry** apron imagery; the tune predates modern session culture and appears in nineteenth-century collections on both sides of the Irish Sea.\n\nScottish recordings emphasise **driving reel** pulse — fiddle bowing with **cut** and **roll** ornament, pipes articulating **g gracenotes** in ceòl beag sets. Irish sessions treat the same melody as a session workhorse — compare **Donegal** and **Aberdeen** versions for accent, not notes alone.\n\n\nUse **Play all** at the top of the tune panel to hear curated examples, or tap ▶ beside each player row. Compare at least two settings before treating one as \"the\" version.\n\nThe Mason's Apron belongs in every Scottish learner's ear-training list: if you can spot it by the first two bars in a ceilidh medley, you understand cross-border repertoire flow."
+        }
+      ]
+    },
+    {
+      "id": "listening-approach",
+      "title": "Listening approach",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Identify **key** and **form** (reel, 4/4).\n2. Note **ornament density** — North East fiddle fire versus Shetland clarity.\n3. Compare **pipe** and **fiddle** versions — same skeleton, different articulation.\n4. Sit with **session tempo** — danceable, not race-track.\n\n![Fiddle and sheet music](https://en.wikipedia.org/wiki/Special:FilePath/Violin_and_notes.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "drummond-castle-strathspey",
+      "title": "Drummond Castle strathspey",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "[[track:drummond-strathspey|The Drummond Castle Strathspey]] honours **Drummond Castle** in Perthshire — a seat of the Drummond family and a symbol of Highland–Lowland estate culture. As a **strathspey**, it demands **dotted snap** bowing or piping — long-short figures that feel regal rather than reel-flat.\n\n**James Scott Skinner** recorded and composed strathspey repertoire that defines competition and ceilidh standards; Drummond Castle sits in the **Perthshire** geographic imagination alongside other estate-named tunes. Strathspey sets often precede reels in dance programmes — Drummond Castle might pair with reel counterparts in a **Scottish country dance** band book.\n\nDrummond Castle Strathspey trains the ear for **snap** — if your foot taps even quavers, you are treating it as a reel incorrectly."
+        }
+      ]
+    },
+    {
+      "id": "strathspeyreel-sets-in-recordings",
+      "title": "Strathspey–reel sets in recordings",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Classic Scottish albums chain **strathspey–reel–reel** — Drummond Castle or *Moneymusk* into reels like *Mason's Apron* or *Highland Harry*. **Battlefield Band**, **Aly Bain**, and **competition pipers** offer contrasting models:\n\n- **Competition pipe** — precise MSR (march, strathspey, reel) separation.\n- **Ceilidh band** — tempo for dancers, fewer repeats.\n- **Session** — informal order, keys negotiated by ear."
+        }
+      ]
+    },
+    {
+      "id": "other-standards-orientation",
+      "title": "Other standards (orientation)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Tune | Form | Note |\n|------|------|------|\n| *Moneymusk* | Strathspey | Session and dance classic |\n| *Captain Horne* | Strathspey | Pipe and fiddle competition |\n| *Highland Harry* | Reel | Ceilidh favourite |\n| *Hector the Hero* | Slow air | Skinner composition |\n| *Scotland the Brave* | March | Ceremonial pipe band |\n\nBuild a **listening notebook**: tune name, form, key, player, region, one detail (snap, roll, pipe gracenote)."
+        }
+      ]
+    },
+    {
+      "id": "recording-history",
+      "title": "Recording history",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**78 rpm** and early **LP** transfers fixed regional accents — Skinner's Victorian recordings, twentieth-century **pipe band** discs, **Shetland** fiddle reissues. **BBC** broadcasts and **Celtic Connections** live albums document contemporary players.\n\n**ABC notation** and websites like **The Session** host settings — supplements to ear learning, not substitutes. When a tune crosses to Ireland, **name variants** and **part orders** multiply; trust living players over one printed edition."
+        }
+      ]
+    },
+    {
+      "id": "learning-practice",
+      "title": "Learning practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Learn **one strathspey** and **one reel** thoroughly — both parts, dance tempo, basic ornament.\n2. Record yourself and compare to **Skinner** or **Bain** models.\n3. Attend a **ceilidh** and count how many sets use strathspey–reel order.\n4. Cross-reference Ireland unit tune lesson — *Mason's Apron* may appear in Irish lists too."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Parallel Ireland tune study appears across `regions-celtic-ireland-04-genres-forms` and session repertoire. **The Mason's Apron** is explicit cross-border proof — same tune, different accent. Ireland lacks **Drummond Castle** strathspey centrality; Scotland lacks Irish **polka** session clusters.\n\nWhen Irish players visit Scottish sessions, strathspey **snap** is the adjustment hurdle; when Scots visit Dublin, **jig** session speed is the hurdle. Tune lessons are **practical diplomacy** — shared repertoire, respectful accent."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **The Mason's Apron** is a cross-border reel essential to Scottish and Irish session repertoire.\n- [[track:drummond-strathspey|Drummond Castle Strathspey]] exemplifies dotted strathspey snap and Perthshire estate tune naming.\n- **Strathspey–reel** set order dominates Scottish dance and pipe-band listening models.\n- **James Scott Skinner** recordings remain reference for strathspey style and composition.\n- Compare recordings for **ornament** and **tempo**, not tune names alone.\n- ABC and tune books supplement — they do not replace — ear learning from players."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **The Session** — [thesession.org](https://thesession.org/tunes) for *Mason's Apron* settings and recordings.\n- **James Scott Skinner** — reissued recordings and *The Scottish Violinist* collection.\n- **Greentrax** compilations — regional fiddle and pipe anthologies.\n- **Wikipedia** — [The Mason's Apron (tune)](https://en.wikipedia.org/wiki/The_Mason%27s_Apron), [Strathspey](https://en.wikipedia.org/wiki/Strathspey_(dance))."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "masons-apron",
+      "type": "tune",
+      "name": "The Mason's Apron",
+      "summary": "Cross-border reel in Scottish and Irish sessions",
+      "blurb": "A major session workhorse in A major — compare Scottish and Irish accent on the same melody skeleton.",
+      "url": "https://en.wikipedia.org/wiki/The_Mason%27s_Apron",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Violin_and_notes.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "drummond-castle",
+      "type": "tune",
+      "name": "Drummond Castle Strathspey",
+      "summary": "Perthshire estate-named strathspey standard",
+      "blurb": "Trains the ear for Scottish snap — dotted long-short pulse distinct from even reel quavers.",
+      "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Drummond_Castle.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "james-scott-skinner",
+      "type": "artist",
+      "name": "James Scott Skinner",
+      "summary": "Aberdeenshire fiddler and composer, the Strathspey King",
+      "blurb": "Victorian showman whose strathspeys and recordings fixed competition repertoire for generations.",
+      "years": "1843–1927",
+      "region": "North East Scotland",
+      "url": "https://en.wikipedia.org/wiki/James_Scott_Skinner",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/James_Scott_Skinner.jpg?width=320"
+    },
+    {
+      "id": "aly-bain",
+      "type": "artist",
+      "name": "Aly Bain",
+      "summary": "Shetland fiddler and broadcaster",
+      "blurb": "Boys of the Lough and Transatlantic Sessions brought Shetland ringing style to global audiences.",
+      "years": "1946–",
+      "region": "Shetland",
+      "url": "https://en.wikipedia.org/wiki/Aly_Bain",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=320"
+    }
+  ],
+  "entity_order": [
+    "james-scott-skinner",
+    "aly-bain"
+  ],
+  "playlist": [
+    {
+      "id": "masons-apron-fiddle",
+      "entity_id": "masons-apron",
+      "label": "The Mason's Apron — fiddle",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "The Mason's Apron"
+    },
+    {
+      "id": "drummond-strathspey",
+      "entity_id": "drummond-castle",
+      "label": "Drummond Castle Strathspey",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Drummond Castle Strathspey"
+    },
+    {
+      "id": "strathspey-reel-set",
+      "label": "Strathspey–reel–reel set",
+      "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+      "subtitle": ""
+    },
+    {
+      "id": "moneymusk",
+      "label": "Moneymusk strathspey",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [
+    {
+      "id": "masons-apron",
+      "type": "tune",
+      "name": "The Mason's Apron",
+      "form": "reel",
+      "reference": "Nineteenth-century Scottish and Irish collections",
+      "about": "Cross-border session standard — compare Scottish drive with Irish roll-heavy settings.",
+      "made_famous_by": [
+        "james-scott-skinner",
+        "aly-bain"
+      ],
+      "playlist": [
+        {
+          "entity_id": "james-scott-skinner",
+          "label": "James Scott Skinner",
+          "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+        },
+        {
+          "entity_id": "aly-bain",
+          "label": "Aly Bain",
+          "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+        }
+      ]
+    },
+    {
+      "id": "drummond-castle",
+      "type": "tune",
+      "name": "Drummond Castle Strathspey",
+      "form": "strathspey",
+      "reference": "Perthshire estate tune; competition and ceilidh repertoire",
+      "about": "Trains the ear for Scottish snap — dotted long-short pulse.",
+      "made_famous_by": [
+        "james-scott-skinner"
+      ],
+      "playlist": [
+        {
+          "entity_id": "james-scott-skinner",
+          "label": "Skinner strathspey style",
+          "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+        }
+      ]
+    },
+    {
+      "id": "moneymusk",
+      "type": "tune",
+      "name": "Moneymusk",
+      "form": "strathspey",
+      "reference": "Neil Gow era; widely played in Scotland and Cape Breton",
+      "about": "Session and dance classic — often paired with reels in ceilidh sets.",
+      "playlist": [
+        {
+          "label": "Strathspey–reel set",
+          "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    "The Mason's Apron is essential cross-border reel repertoire.",
+    "Drummond Castle Strathspey exemplifies dotted snap and Perthshire naming.",
+    "Strathspey–reel set order dominates Scottish dance listening models.",
+    "James Scott Skinner recordings remain strathspey style reference.",
+    "Compare pipe and fiddle articulation on the same tune skeleton.",
+    "ABC supplements ear learning — it does not replace living players.",
+    "**The Mason's Apron** is a cross-border reel essential to Scottish and Irish session repertoire.",
+    "[[track:drummond-strathspey|Drummond Castle Strathspey]] exemplifies dotted strathspey snap and Perthshire estate tune naming.",
+    "**Strathspey–reel** set order dominates Scottish dance and pipe-band listening models.",
+    "**James Scott Skinner** recordings remain reference for strathspey style and composition.",
+    "Compare recordings for **ornament** and **tempo**, not tune names alone.",
+    "ABC and tune books supplement — they do not replace — ear learning from players."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "The Session — Mason's Apron",
+      "url": "https://thesession.org/tunes/1234",
+      "note": "Settings and session recordings"
+    },
+    {
+      "type": "book",
+      "title": "The Scottish Violinist",
+      "author": "James Scott Skinner",
+      "note": "Strathspey and reel collections"
+    },
+    {
+      "type": "link",
+      "title": "The Mason's Apron — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Mason%27s_Apron",
+      "note": "Tune history and cross-border spread"
+    },
+    {
+      "type": "link",
+      "title": "The Session — Mason's Apron",
+      "url": "https://thesession.org/tunes/search?q=mason%27s+apron",
+      "note": "Settings and recordings"
+    },
+    {
+      "type": "book",
+      "title": "The Harp Key",
+      "author": "Alasdair Fraser",
+      "note": "Fiddle repertoire notes"
+    },
+    {
+      "type": "link",
+      "title": "Skinner manuscript collections",
+      "url": "https://www.aberdeen.gov.uk/",
+      "note": "North East archival sources"
+    },
+    {
+      "type": "link",
+      "title": "thesession.org",
+      "url": "https://thesession.org/tunes"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "The Mason's Apron (tune)",
+      "url": "https://en.wikipedia.org/wiki/The_Mason%27s_Apron"
+    }
+  ],
+  "quiz_markdown": "### Q1. The Mason's Apron is typically played as:\n\n- A) A reel shared across Scottish and Irish session repertoire\n- B) A 9/8 slip jig exclusively\n- C) A piobaireachd theme with variations only\n- D) A free-rhythm lament without pulse\n\n**Answer:** A\n\n### Q2. Drummond Castle Strathspey is associated with Perthshire estate naming and strathspey snap rhythm.\n\n**Answer:** True\n\n### Q3. Strathspey–reel–reel is a common Scottish set pattern in dance and pipe listening models.\n\n**Answer:** True\n\n### Q4. James Scott Skinner is a reference player for strathspey composition including tunes like The Bonnie Lass of Bon Accord.\n\n**Answer:** True\n\n### Q5. Scottish snap refers to the dotted long-short pulse characteristic of strathspeys.\n\n**Answer:** True\n\n### Q6. The Mason's Apron appears only in Scottish sources with no Irish session presence.\n\n**Answer:** False — the tune crosses the narrow sea and appears in Irish sessions too.\n\n### Q7. Moneymusk is cited as a classic strathspey in Scottish repertoire.\n\n**Answer:** True\n\n### Q8. Competition pipers perform MSR sets including march, strathspey, and reel categories.\n\n**Answer:** True\n\n### Q9. Learners should compare pipe and fiddle recordings of the same tune for articulation differences.\n\n**Answer:** True\n\n### Q10. ABC notation replaces the need to learn tunes by ear from living players.\n\n**Answer:** False — ABC supplements ear learning; it does not replace copying phrasing from players.\n\n### Q11. Drummond Castle trains the ear for dotted strathspey feel rather than even reel quavers.\n\n**Answer:** True\n\n### Q12. A listening notebook tagging form, key, and region beats random scrolling for tune study.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The Mason's Apron is typically played as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "A reel shared across Scottish and Irish session repertoire",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: A reel shared across Scottish and Irish session repertoire"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Drummond Castle Strathspey is associated with Perthshire estate naming and strathspey snap rhythm.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Strathspey–reel–reel is a common Scottish set pattern in dance and pipe listening models.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "James Scott Skinner is a reference player for strathspey composition including tunes like The Bonnie Lass of Bon Accord.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Scottish snap refers to the dotted long-short pulse characteristic of strathspeys.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "The Mason's Apron appears only in Scottish sources with no Irish session presence.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "the tune crosses the narrow sea and appears in Irish sessions too."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Moneymusk is cited as a classic strathspey in Scottish repertoire.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Competition pipers perform MSR sets including march, strathspey, and reel categories.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Learners should compare pipe and fiddle recordings of the same tune for articulation differences.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "ABC notation replaces the need to learn tunes by ear from living players.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "ABC supplements ear learning; it does not replace copying phrasing from players."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Drummond Castle trains the ear for dotted strathspey feel rather than even reel quavers.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "A listening notebook tagging form, key, and region beats random scrolling for tune study.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-scotland-08-tunes-quiz",
+    "title": "Scottish Traditional Music — Tunes — Forms, History, and Recordings quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The Mason's Apron is typically played as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A reel shared across Scottish and Irish session repertoire",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A reel shared across Scottish and Irish session repertoire"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Drummond Castle Strathspey is associated with Perthshire estate naming and strathspey snap rhythm.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Strathspey–reel–reel is a common Scottish set pattern in dance and pipe listening models.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "James Scott Skinner is a reference player for strathspey composition including tunes like The Bonnie Lass of Bon Accord.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Scottish snap refers to the dotted long-short pulse characteristic of strathspeys.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "The Mason's Apron appears only in Scottish sources with no Irish session presence.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "the tune crosses the narrow sea and appears in Irish sessions too."
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Moneymusk is cited as a classic strathspey in Scottish repertoire.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Competition pipers perform MSR sets including march, strathspey, and reel categories.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Learners should compare pipe and fiddle recordings of the same tune for articulation differences.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "ABC notation replaces the need to learn tunes by ear from living players.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "ABC supplements ear learning; it does not replace copying phrasing from players."
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Drummond Castle trains the ear for dotted strathspey feel rather than even reel quavers.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "A listening notebook tagging form, key, and region beats random scrolling for tune study.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

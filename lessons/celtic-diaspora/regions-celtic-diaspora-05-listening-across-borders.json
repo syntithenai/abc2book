@@ -1,0 +1,807 @@
+{
+  "id": "regions-celtic-diaspora-05-listening-across-borders",
+  "title": "Listening Across Borders",
+  "track": "regions",
+  "tier": 4,
+  "region": "celtic-diaspora",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-celtic-diaspora-04-pan-celtic-festivals"
+  ],
+  "tags": [
+    "celtic",
+    "diaspora",
+    "comparative",
+    "playlist"
+  ],
+  "path": "10-regions/celtic/diaspora/05-listening-across-borders.md",
+  "sections": [
+    {
+      "id": "listening-across-borders",
+      "title": "Listening Across Borders",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Unit:** Diaspora & fringe | **Tier:** 4 | **Difficulty:** 6/10\n**Prerequisites:** regions-celtic-diaspora-04-pan-celtic-festivals\n**Tags:** comparative-listening, playlist, diaspora, tune-families, cross-border\n\n\nThe tune panel below supports **comparative listening** — same tune family or contrasting form across regions. Log what you hear in four columns: form, lead instrument, ornament, social context."
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "You have studied Ireland as anchor, Scotland and Wales as neighbours, Brittany as dance-led cousin, and diaspora scenes from Cape Breton to Galicia. This lesson turns study into **practice**: a guided comparative listening method. Same tune family, multiple regions — hear what changes in tempo, ornament, instrumentation, and social purpose. The goal is not to win arguments about authenticity but to build **ear precision** so generic \"Celtic\" compilations no longer fool you.\n\nThink of this as a lab session. Bring headphones, a notebook, and patience. Each exercise pairs recordings across borders. Metadata in `lesson-meta.json` suggests playlist entries; you may substitute equivalent tracks if links shift.\n\n![Musicians from different Celtic nations performing together](https://en.wikipedia.org/wiki/Special:FilePath/Celtic_festival_musicians.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "method-the-four-column-listen",
+      "title": "Method: the four-column listen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "For each comparison, log four columns:\n\n| Column | Question |\n|--------|----------|\n| **Form** | Reel, jig, strathspey, gavotte, muiñeira? Metre and foot-tap? |\n| **Lead voice** | Fiddle, pipes, harp, box, voice? |\n| **Ornament** | Rolls, cuts, drones, cran, vibrato? |\n| **Social context** | Session, fest-noz, step dance, parade, concert stage? |\n\nAfter three comparisons, patterns emerge. Irish sessions favour melody stacks in moderate pub acoustics. Cape Breton fiddling drives step dancers with cut bowing. Breton fest-noz pairs bombard with biniou at dance tempo. Galician gaita leads outdoor percussion. The tune title may match; the **room** does not."
+        }
+      ]
+    },
+    {
+      "id": "exercise-1-reel-family-across-atlantic-shores",
+      "title": "Exercise 1: reel family across Atlantic shores",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Prompt:** Find *The Wind That Shakes the Barley*, *St. Anne's Reel*, or another widely travelled reel in Irish, Cape Breton, and Scottish settings.\n\n**Listen for:**\n- Irish session: roll-heavy fiddle or flute, guitar/bouzouki backing, steady 4/4.\n- Cape Breton: lifted downbows, possible drone strings, dancer tempo.\n- Scottish: strathspey neighbours in sets; possible pipe band march adaptation.\n\n**Compared with Ireland:** Irish settings often treat the reel as session default — three tunes, next form. Cape Breton may hold one reel for extended dance. Scottish pipe bands compress melody for outdoor march phrasing."
+        }
+      ]
+    },
+    {
+      "id": "exercise-2-six-beat-dance-jig-muiñeira-gavotte",
+      "title": "Exercise 2: six-beat dance — jig, muiñeira, gavotte",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Prompt:** Pair an Irish double jig, a Galician muiñeira, and a Breton gavotte (or plinn-related 6/8).\n\n**Listen for:**\n- Jig: \"jiggedy\" two-beat grouping within 6/8.\n- Muiñeira: Galician melodic contour and gaita/tambor ensemble.\n- Gavotte: call-and-response phrasing, fest-noz circular dance feel.\n\n**Trap to avoid:** Labelling all 6/8 tunes \"jigs.\" Metre alone does not name the dance."
+        }
+      ]
+    },
+    {
+      "id": "exercise-3-pipe-voices",
+      "title": "Exercise 3: pipe voices",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Prompt:** Compare uilleann pipes (Irish), Highland pipes (Scottish), gaita galega (Galician), and if available Cornish or Breton biniou.\n\n**Listen for:**\n- Uilleann: bellows, regulators, indoor dynamic range.\n- Highland: outdoor march and dance sets, massed band discipline.\n- Gaita: drone + snare/bass drum ensemble.\n- Biniou: paired with bombard at fest-noz pitch.\n\nIreland's pipe revival (Willie Clancy, UNESCO listing) differs from Galician parade aesthetic — same word \"bagpipes,\" different technology and room."
+        }
+      ]
+    },
+    {
+      "id": "exercise-4-diaspora-return-trip",
+      "title": "Exercise 4: diaspora return trip",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Prompt:** Hear an Irish tune recorded in New York in the 1920s (Coleman, Morrison) beside a contemporary Clare session version and a Cape Breton or American old-time take.\n\n**Listen for:** How 78 rpm time and piano accompaniment froze accents that modern sessions loosen or reverse. Diaspora recordings **shaped** home tradition retroactively."
+        }
+      ]
+    },
+    {
+      "id": "exercise-5-festival-mashup-versus-source-scene",
+      "title": "Exercise 5: festival mashup versus source scene",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Prompt:** Find a pan-Celtic festival supergroup track, then listen to each participant's home-region recording of similar repertoire.\n\n**Listen for:** Arrangement choices — key changes, drum kits, shortened forms — that obscure regional accent. Festival audio teaches **collaboration**; field audio teaches **default habit**."
+        }
+      ]
+    },
+    {
+      "id": "building-your-comparative-playlist",
+      "title": "Building your comparative playlist",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Organise playlists by **form** (reel set, jig family, slow air) not by nation alone. Within each playlist, slot Ireland first as reference, then contrast tracks. Tag entries with Comhaltas Ceoltóirí Éireann-style session context notes where relevant.\n\nSuggested structure (see lesson-meta.json for concrete links):\n\n1. **Reels Atlantic** — Ireland / Scotland / Cape Breton / Quebec\n2. **Six-beat dances** — jig / muiñeira / gavotte\n3. **Pipes compared** — uilleann / Highland / gaita / biniou\n4. **Diaspora 78s** — Coleman vs modern session\n5. **Festival vs home** — Lorient stage vs Breton fest-noz field"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Every exercise above uses Ireland as **control track**. That is deliberate: this course studied Irish trad first because of repertoire depth, session ubiquity, and diaspora influence. Comparison is not ranking. Breton fest-noz is not \"behind\" Irish sessions — it answers different social needs. Cape Breton dance fiddling is not \"Scottish with errors\" — it is a matured diaspora accent.\n\nIrish listeners abroad should notice their own export bias: tunes everyone knows (*Drowsy Maggie*, *Out on the Ocean*) may dominate cross-border sets while Welsh plygi or Manx carvals stay invisible. Corrective listening widens empathy and repertoire.\n\n**Parallel lessons:** comparative unit (`regions-celtic-comparative-02-shared-instruments`, `03-tune-forms-compared`); Ireland `08-tunes` for session standards; diaspora 01–04 for regional depth."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Comparative listening uses form, lead instrument, ornament, and social context — not tune title alone.\n- Ireland serves as reference track; other regions reveal accent by contrast.\n- Reels, jigs, and pipe timbres travel but change with dance floor and room acoustics.\n- Diaspora 78s and festival stages are lenses — not the only truth of a tradition.\n- Labelling all 6/8 tunes \"jigs\" is a common beginner error; use dance names.\n- A notebook with four-column logs beats passive playlist shuffling."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Fintan Vallely, *Companion to Irish Traditional Music* — cross-referenced tune entries.\n- Gearóid Ó hAllmhuráin, *Flowing Tides* — history of Irish music including diaspora flows.\n- Brittany and Scotland unit lessons in this course — regional anchors for comparisons.\n- Wikipedia: [Celtic music](https://en.wikipedia.org/wiki/Celtic_music) — map of nations and genres.\n- The Session (thesession.org) — tune comments noting regional settings."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "comhaltas",
+      "type": "organization",
+      "name": "Comhaltas Ceoltóirí Éireann",
+      "summary": "Reference institution for Irish session and competition culture",
+      "blurb": "Use as control when comparing cross-border repertoire and pedagogy.",
+      "url": "https://comhaltas.ie/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Comhaltas_Ceolt%C3%B3ir%C3%AD_%C3%89ireann_logo.svg?width=320"
+    },
+    {
+      "id": "coleman",
+      "type": "person",
+      "name": "Michael Coleman",
+      "summary": "Sligo fiddler whose 1920s New York 78s shaped global Irish fiddle accent",
+      "blurb": "Essential diaspora comparison point for Exercise 4 in this lesson.",
+      "url": "https://en.wikipedia.org/wiki/Michael_Coleman_(musician)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Michael_Coleman_(fiddler).jpg?width=320",
+      "playlist_index": 3
+    }
+  ],
+  "entity_order": [
+    "comhaltas"
+  ],
+  "playlist": [
+    {
+      "id": "reel-ireland-session",
+      "label": "Irish session reel — reference track",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
+      "subtitle": ""
+    },
+    {
+      "id": "reel-cape-breton",
+      "label": "Cape Breton reel — dance lift comparison",
+      "youtube": "https://www.youtube.com/watch?v=0YqJYgJhZ5E",
+      "subtitle": ""
+    },
+    {
+      "id": "jig-vs-muiniera",
+      "label": "Irish jig vs Galician muiñeira comparison",
+      "youtube": "https://www.youtube.com/watch?v=0nF5K1d6d0Y",
+      "subtitle": ""
+    },
+    {
+      "id": "coleman-78",
+      "entity_id": "coleman",
+      "label": "Michael Coleman 78 rpm recording",
+      "youtube": "https://www.youtube.com/watch?v=5r8x9sG0k8A",
+      "subtitle": "Michael Coleman"
+    },
+    {
+      "id": "pipes-compared",
+      "label": "Uilleann vs Highland vs gaita pipe comparison set",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [
+    {
+      "id": "silver-spear-compare",
+      "type": "tune",
+      "name": "The Silver Spear (Ireland anchor)",
+      "form": "reel",
+      "reference": "Irish session standard — compare with Scotland/Wales",
+      "about": "Use as reference reel when comparing bowing and ornament.",
+      "playlist": [
+        {
+          "label": "Irish session",
+          "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg"
+        },
+        {
+          "label": "Scottish accent",
+          "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+        }
+      ]
+    },
+    {
+      "id": "masons-apron-compare",
+      "type": "tune",
+      "name": "The Mason's Apron (cross-border)",
+      "form": "reel",
+      "reference": "Shared Scottish and Irish repertoire",
+      "about": "Same tune title, different regional accent.",
+      "playlist": [
+        {
+          "label": "Scottish fiddle",
+          "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+        },
+        {
+          "label": "Irish session",
+          "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+        }
+      ]
+    },
+    {
+      "id": "gavotte-compare",
+      "type": "tune",
+      "name": "Breton gavotte (contrast)",
+      "form": "gavotte",
+      "reference": "Fest-noz dance — not a jig or reel",
+      "about": "Foot-tap in 4/4 dance rhythm; compare with Irish reel flatness.",
+      "playlist": [
+        {
+          "label": "Fest-noz set",
+          "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    "Four-column listening: form, lead voice, ornament, social context.",
+    "Ireland is the reference track; contrast reveals regional accent.",
+    "Same tune title may mask different bowing, tempo, and dance purpose.",
+    "Diaspora 78s and festival stages are lenses, not sole truths.",
+    "Form-based playlists beat nation-only generic compilations.",
+    "Comparative listening uses form, lead instrument, ornament, and social context — not tune title alone.",
+    "Ireland serves as reference track; other regions reveal accent by contrast.",
+    "Reels, jigs, and pipe timbres travel but change with dance floor and room acoustics.",
+    "Diaspora 78s and festival stages are lenses — not the only truth of a tradition.",
+    "Labelling all 6/8 tunes \"jigs\" is a common beginner error; use dance names.",
+    "A notebook with four-column logs beats passive playlist shuffling."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "Companion to Irish Traditional Music",
+      "author": "Fintan Vallely",
+      "note": "Cross-referenced tune and regional entries"
+    },
+    {
+      "type": "book",
+      "title": "Flowing Tides",
+      "author": "Gearóid Ó hAllmhuráin",
+      "note": "Irish music history including diaspora flows"
+    },
+    {
+      "type": "link",
+      "title": "The Session",
+      "url": "https://thesession.org/",
+      "note": "Tune settings and regional comments"
+    },
+    {
+      "type": "link",
+      "title": "Celtic music — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+    },
+    {
+      "type": "link",
+      "title": "The Session — cross-tune search",
+      "url": "https://thesession.org/tunes",
+      "note": "Compare settings"
+    },
+    {
+      "type": "link",
+      "title": "Celtic Connections archive",
+      "url": "https://www.celticconnections.com/",
+      "note": "Pan-regional programming"
+    },
+    {
+      "type": "book",
+      "author": "Fintan Vallely",
+      "title": "Companion to Irish Traditional Music"
+    },
+    {
+      "type": "book",
+      "author": "Gearóid Ó hAllmhuráin",
+      "title": "Flowing Tides"
+    },
+    {
+      "type": "link",
+      "title": "Celtic music",
+      "url": "https://en.wikipedia.org/wiki/Celtic_music"
+    }
+  ],
+  "quiz_markdown": "### Q1. The four-column comparative listen logs form, lead voice, ornament, and:\n\n- A) Social context (session, dance, parade, stage)\n- B) Stock market prices\n- C) Orchestra seating charts only\n- D) Cooking recipes\n\n**Answer:** A\n\n### Q2. Ireland is used as a reference track in this course because students studied it first — not because other traditions are inferior.\n\n**Answer:** True\n\n### Q3. The same reel title may appear in Irish, Scottish, and Cape Breton recordings with different accent and tempo.\n\n**Answer:** True\n\n### Q4. All 6/8 Celtic tunes should be called jigs.\n\n**Answer:** False — muiñeiras, gavottes, and plinn-related forms need distinct names.\n\n### Q5. Michael Coleman's 1920s recordings illustrate how diaspora media shaped tune accents retroactively.\n\n**Answer:** True\n\n### Q6. Festival supergroup arrangements always represent home-region session practice accurately.\n\n**Answer:** False — stage arrangement compresses and blends accents.\n\n### Q7. When comparing pipes, uilleann and Highland pipes differ in bellows vs blow, indoor vs outdoor defaults.\n\n**Answer:** True\n\n### Q8. Comparative playlists should be organised only by nation, never by tune form.\n\n**Answer:** False — form-based playlists reveal family resemblance faster.\n\n### Q9. Cape Breton reel settings often emphasise dance lift and cut bowing compared with many Irish session takes.\n\n**Answer:** True\n\n### Q10. Listening notebooks that track metre and ornament beat passive scrolling.\n\n**Answer:** True\n\n### Q11. Breton gavottes and Irish jigs share metre family resemblance but different dance context.\n\n**Answer:** True\n\n### Q12. Best next step after this lesson:\n\n- A) Complete at least two four-column comparisons using the exercises above\n- B) Stop cross-border listening to avoid confusion\n- C) Assume all Celtic nations share identical session etiquette\n- D) Rely only on one generic compilation album\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The four-column comparative listen logs form, lead voice, ornament, and:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Social context (session, dance, parade, stage)",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Social context (session, dance, parade, stage)"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Ireland is used as a reference track in this course because students studied it first — not because other traditions are inferior.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "The same reel title may appear in Irish, Scottish, and Cape Breton recordings with different accent and tempo.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "All 6/8 Celtic tunes should be called jigs.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "muiñeiras, gavottes, and plinn-related forms need distinct names."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Michael Coleman's 1920s recordings illustrate how diaspora media shaped tune accents retroactively.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Festival supergroup arrangements always represent home-region session practice accurately.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "stage arrangement compresses and blends accents."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "When comparing pipes, uilleann and Highland pipes differ in bellows vs blow, indoor vs outdoor defaults.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Comparative playlists should be organised only by nation, never by tune form.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "form-based playlists reveal family resemblance faster."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Cape Breton reel settings often emphasise dance lift and cut bowing compared with many Irish session takes.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Listening notebooks that track metre and ornament beat passive scrolling.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Breton gavottes and Irish jigs share metre family resemblance but different dance context.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Best next step after this lesson:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Complete at least two four-column comparisons using the exercises above",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Social context (session, dance, parade, stage)",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Complete at least two four-column comparisons using the exercises above"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-diaspora-05-listening-across-borders-quiz",
+    "title": "Listening Across Borders quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The four-column comparative listen logs form, lead voice, ornament, and:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Social context (session, dance, parade, stage)",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Social context (session, dance, parade, stage)"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Ireland is used as a reference track in this course because students studied it first — not because other traditions are inferior.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "The same reel title may appear in Irish, Scottish, and Cape Breton recordings with different accent and tempo.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "All 6/8 Celtic tunes should be called jigs.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "muiñeiras, gavottes, and plinn-related forms need distinct names."
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Michael Coleman's 1920s recordings illustrate how diaspora media shaped tune accents retroactively.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Festival supergroup arrangements always represent home-region session practice accurately.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "stage arrangement compresses and blends accents."
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "When comparing pipes, uilleann and Highland pipes differ in bellows vs blow, indoor vs outdoor defaults.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Comparative playlists should be organised only by nation, never by tune form.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "form-based playlists reveal family resemblance faster."
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Cape Breton reel settings often emphasise dance lift and cut bowing compared with many Irish session takes.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Listening notebooks that track metre and ornament beat passive scrolling.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Breton gavottes and Irish jigs share metre family resemblance but different dance context.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Best next step after this lesson:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Complete at least two four-column comparisons using the exercises above",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Social context (session, dance, parade, stage)",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Complete at least two four-column comparisons using the exercises above"
+      }
+    ]
+  }
+}

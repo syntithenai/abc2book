@@ -1,0 +1,887 @@
+{
+  "id": "regions-celtic-wales-07-representative-depth",
+  "title": "Welsh Traditional Music — Representative Fusions and Scenes",
+  "track": "regions",
+  "tier": 7,
+  "region": "wales",
+  "difficulty": 9,
+  "prerequisites": [
+    "regions-celtic-wales-06-history"
+  ],
+  "tags": [
+    "wales",
+    "celtic",
+    "fusion",
+    "scenes"
+  ],
+  "path": "10-regions/celtic/wales/07-representative-depth.md",
+  "sections": [
+    {
+      "id": "welsh-traditional-music-representative-fusions-and-scenes",
+      "title": "Welsh Traditional Music — Representative Fusions and Scenes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 7 | **Difficulty:** 9/10\n**Prerequisites:** regions-celtic-wales-06-history\n**Tags:** wales, bob-delyn, festival, choral, folk-rock, fusion, eisteddfod, bilingual"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "This lesson maps **how Welsh traditional music left the chapel, the twmpath hall, and the eisteddfod stage** to meet rock amplifiers, festival crowds, diaspora choirs, and Breton collaboration. It assumes you know chapel history, industrial south transmission, and the 1970s revival (Lesson 6). Here the focus is **named bands, festival scenes, and choral crossover** from the 1980s to the present.\n\nThink of Welsh music as braided strands: **male voice choir** hwyl, **folk club** acoustic tradition, **National Eisteddfod** prestige, and **folk-rock** festival energy.  — listen for bilingual lyrics and rock rhythm section beneath fiddle and harp lines. Bob Delyn a'r Ebillion knot them together for international listeners."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ireland's Representative Depth lesson (`regions-celtic-ireland-07-representative-depth`) surveys **showbands, Planxty, Pogues, Riverdance**. Wales offers **Bob Delyn folk-rock**, **eisteddfod–festival pipeline**, and **choral stadium culture** rather than global step-dance spectacle.\n\n| Scene | Ireland | Wales |\n|-------|---------|-------|\n| Rock-folk fusion | Planxty, Horslips, Pogues | [[track:bob-delyn-track|Bob Delyn a'r Ebillion]] |\n| Mega spectacle | Riverdance | **Choral hwyl** (rugby, Cymanfa) |\n| Festival anchor | Fleadh Cheoil | **National Eisteddfod**, folk festivals |\n| Diaspora export | Irish pubs, Comhaltas branches | **Welsh choirs**, St David's societies |\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-07-representative-depth` — compare fusion porousness and return paths to acoustic trad.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "bob-delyn-ar-ebillion",
+      "title": "Bob Delyn a'r Ebillion",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bob Delyn a'r Ebillion (Welsh: \"Every Harp and the Pegs\") is a **folk-rock** band formed **1988**, fronted by **Twm Morys** — poet, *Prifardd* (Chief Bard), and son of writer **John Morris-Jones**. The group sings in **Welsh and Breton**, blending trad tunes with **rock, reggae, country**, and roots arrangements."
+        }
+      ]
+    },
+    {
+      "id": "formation-and-musical-approach",
+      "title": "Formation and musical approach",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lineup has included fiddle, harp, guitar, bass, drums, and brass — **acoustic trad** meets **amplified festival** staging. Albums on **Sain** and **Recordiau Bos** (*Dal i 'Red*, *Surfio*, *Ymlaen*) feature dance tunes, political Welsh-language songs, and cross-Celtic collaboration (e.g. *Meur a Wech* — Welsh and Breton comparison)."
+        }
+      ]
+    },
+    {
+      "id": "landmark-role",
+      "title": "Landmark role",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bob Delyn is a **major figure in the 1990s Welsh folk revival** — proof that alawon gwerin could fill tents without losing language pride. Twm Morys's literary stature links **eisteddfod bardic culture** to **rock audience** — rare double credential.\n\n**Memorable detail:** Band name puns on **every harp** in Wales — ambition as joke and mission.\n\n![Welsh folk festival performance](https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=640)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "festival-culture",
+      "title": "Festival culture",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Welsh festival culture layers **competitive eisteddfod**, **folk weekenders**, and **inter-Celtic** events."
+        }
+      ]
+    },
+    {
+      "id": "national-eisteddfod",
+      "title": "National Eisteddfod",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "National Eisteddfod of Wales moves annually between north and south; **maes** (field) hosts folk concerts, twmpath, harp stages, and rock tents. Winning folk categories launches careers; **evening concerts** mix choir hwyl with Bob Delyn-scale bands."
+        }
+      ]
+    },
+    {
+      "id": "folk-and-world-music-festivals",
+      "title": "Folk and world music festivals",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Green Man Festival** (Brecon Beacons) books Welsh folk alongside indie — crossover audience. **Sesiwn Fawr Dolgellau** and **Gwyl Gregynog** feature trad artists. **Interceltic Festival of Lorient** (Brittany) showcases Welsh acts in pan-Celtic context — Bob Delyn's Breton tracks shine here."
+        }
+      ]
+    },
+    {
+      "id": "trac-cymru-and-touring",
+      "title": "Trac Cymru and touring",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Trac Cymru funds **Welsh Folk Awards**, touring networks, and education — infrastructure Ireland mirrors through Comhaltas but with **smaller scale**, **bilingual mandate**.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "choral-crossover",
+      "title": "Choral crossover",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Choral crossover** connects folk melody to **mass participation**:\n\n- **Male voice choirs** (*Treorchy*, *Morriston Orpheus*) perform hymn and folk arrangements in halls and on television\n- **Only Boys Aloud** and youth choirs modernise image\n- **Cymanfa Ganu** events draw thousands — folk singers join hymn hwyl\n- Rugby internationals feature *Hen Wlad Fy Nhadau* and *Cwm Rhondda* — folk-hymn identity at stadium scale\n\nWelsh male voice choir tradition is not separate from folk — same valleys, same families, different Saturday night.\n\n**Memorable detail:** A folk harpist and a choir bass may share a **eisteddfod coach** as teenagers — scenes interpenetrate.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "other-fusion-and-scene-voices-brief",
+      "title": "Other fusion and scene voices (brief)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Artist / scene | Notes |\n|----------------|-------|\n| **Heather Jones** | Sain star; Welsh-language pop-folk bridge |\n| **9 Bach** | Folk-electronic; trad samples in ambient production |\n| **Calan** | Contemporary folk band; festival circuit |\n| **Bragod** | Early music — crwth, pibgorn scholarship |\n| **Diaspora** | London Welsh societies, Patagonia Welsh choirs |\n\nIrish fusion acts influenced Welsh musicians who heard **Planxty** and **Chieftains** on BBC — porous border, shared retail shelves.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "legacy-porous-boundaries",
+      "title": "Legacy: porous boundaries",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Session purists sometimes dismiss folk-rock; choral traditionalists sometimes dismiss twmpath. Living tradition **ignores** both complaints:\n\n- Bob Delyn fans discover triple harp\n- Choir singers join folk clubs\n- Eisteddfod winners play Green Man\n\n**Memorable detail:** Almost every fusion musician here also plays **straight trad** somewhere — boundary is porous, not walled."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- [[track:bob-delyn-track|Bob Delyn a'r Ebillion]] anchor 1990s Welsh folk-rock with Twm Morys as Chief Bard frontman.\n- **National Eisteddfod** and folk festivals are dual prestige and popular stages.\n- **Choral crossover** links hymn hwyl, male voice choirs, and folk melody at mass scale.\n- Bilingual and **Breton** collaboration mark Welsh festival internationalism.\n- Compared with Ireland: choral stadium culture and eisteddfod over Riverdance model.\n- Trac Cymru and Sain sustain touring and recording infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Wikipedia — [Bob Delyn a'r Ebillion](https://en.wikipedia.org/wiki/Bob_Delyn_a%27r_Ebillion), [Twm Morys](https://en.wikipedia.org/wiki/Twm_Morys)\n- **Sain** catalogue — revival and folk-rock discography\n- **Trac Cymru** — Welsh Folk Awards and artist profiles\n- **National Eisteddfod** — [https://eisteddfod.wales/](https://eisteddfod.wales/)"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "bob-delyn",
+      "type": "band",
+      "name": "Bob Delyn a'r Ebillion",
+      "summary": "Welsh folk-rock band led by Twm Morys",
+      "blurb": "Bilingual lyrics and festival energy bridge twmpath and contemporary rock.",
+      "url": "https://en.wikipedia.org/wiki/Bob_Delyn_a%27r_Ebillion",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_music.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "eisteddfod",
+      "type": "organization",
+      "name": "National Eisteddfod of Wales",
+      "summary": "Festival maes for folk and rock crossover",
+      "blurb": "Prestige stage launching folk careers.",
+      "url": "https://eisteddfod.wales/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Crowndd_beirdd_Ynys_Prydain.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "trac-cymru",
+      "type": "organization",
+      "name": "Trac Cymru",
+      "summary": "Welsh folk awards and touring network",
+      "blurb": "Contemporary festival infrastructure.",
+      "url": "https://trac-cymru.org/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_folk_dancing,_Cardiff_-_DSC09757.JPG?width=320"
+    },
+    {
+      "id": "male-voice-choir",
+      "type": "ensemble",
+      "name": "Welsh male voice choir",
+      "summary": "Choral crossover with folk-hymn identity",
+      "blurb": "Stadium hwyl and diaspora export.",
+      "url": "https://en.wikipedia.org/wiki/Male_voice_choirs_of_Wales",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Treorchy_Male_Voice_Choir.jpg?width=320",
+      "playlist_index": 2
+    }
+  ],
+  "entity_order": [
+    "bob-delyn",
+    "eisteddfod",
+    "trac-cymru"
+  ],
+  "playlist": [
+    {
+      "id": "bob-delyn-track",
+      "entity_id": "bob-delyn",
+      "label": "Bob Delyn a'r Ebillion",
+      "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+      "subtitle": "Bob Delyn a'r Ebillion"
+    },
+    {
+      "id": "eisteddfod-concert",
+      "entity_id": "eisteddfod",
+      "label": "Eisteddfod evening concert",
+      "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s",
+      "subtitle": "National Eisteddfod of Wales"
+    },
+    {
+      "id": "treorchy-choir",
+      "entity_id": "male-voice-choir",
+      "label": "Treorchy Male Voice Choir",
+      "youtube": "https://www.youtube.com/watch?v=hwlbKJECe9U",
+      "subtitle": "Welsh male voice choir"
+    },
+    {
+      "id": "green-man-welsh",
+      "label": "Welsh act at folk festival",
+      "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A",
+      "subtitle": ""
+    },
+    {
+      "id": "bob-delyn-live",
+      "entity_id": "bob-delyn",
+      "label": "Bob Delyn a'r Ebillion live",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
+      "subtitle": "Bob Delyn a'r Ebillion"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Bob Delyn a'r Ebillion anchor 1990s Welsh folk-rock with Twm Morys.",
+    "National Eisteddfod and folk festivals are dual prestige and popular stages.",
+    "Choral crossover links hymn hwyl and folk melody at mass scale.",
+    "Bilingual and Breton collaboration mark festival internationalism.",
+    "Trac Cymru and Sain sustain touring and recording.",
+    "Compared with Ireland: choral stadium culture over Riverdance spectacle.",
+    "[[track:bob-delyn-track|Bob Delyn a'r Ebillion]] anchor 1990s Welsh folk-rock with Twm Morys as Chief Bard frontman.",
+    "**National Eisteddfod** and folk festivals are dual prestige and popular stages.",
+    "**Choral crossover** links hymn hwyl, male voice choirs, and folk melody at mass scale.",
+    "Bilingual and **Breton** collaboration mark Welsh festival internationalism.",
+    "Compared with Ireland: choral stadium culture and eisteddfod over Riverdance model.",
+    "Trac Cymru and Sain sustain touring and recording infrastructure."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Bob Delyn a'r Ebillion — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bob_Delyn_a%27r_Ebillion",
+      "note": "Band history and discography"
+    },
+    {
+      "type": "link",
+      "title": "Twm Morys — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Twm_Morys",
+      "note": "Chief Bard and frontman context"
+    },
+    {
+      "type": "link",
+      "title": "National Eisteddfod",
+      "url": "https://eisteddfod.wales/",
+      "note": "Festival culture"
+    },
+    {
+      "type": "link",
+      "title": "Trac Cymru — Welsh Folk Awards",
+      "url": "https://trac-cymru.org/",
+      "note": "Contemporary scene"
+    },
+    {
+      "type": "album",
+      "title": "Y Cynffonau",
+      "author": "Bob Delyn a'r Ebillion",
+      "note": "Welsh folk-rock"
+    },
+    {
+      "type": "link",
+      "title": "Green Man Festival",
+      "url": "https://www.greenman.net/",
+      "note": "Welsh festival culture"
+    },
+    {
+      "type": "link",
+      "title": "Only Boys Aloud",
+      "url": "https://en.wikipedia.org/wiki/Only_Boys_Aloud",
+      "note": "Choral crossover"
+    },
+    {
+      "type": "link",
+      "title": "Bob Delyn a'r Ebillion",
+      "url": "https://en.wikipedia.org/wiki/Bob_Delyn_a%27r_Ebillion"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "https://eisteddfod.wales/",
+      "url": "https://eisteddfod.wales/"
+    }
+  ],
+  "quiz_markdown": "### Q1. Bob Delyn a'r Ebillion are:\n\n- A) A Welsh folk-rock band fronted by Twm Morys\n- B) A medieval crwth-only trio\n- C) An Irish showband from 1955 only\n- D) A classical opera company exclusively\n\n**Answer:** A\n\n### Q2. Twm Morys holds the title:\n\n- A) Prifardd (Chief Bard)\n- B) Dublin pipe maker only\n- C) Antarctic explorer exclusively\n- D) Jazz trumpeter laureate only\n\n**Answer:** A\n\n### Q3. Bob Delyn was formed in:\n\n- A) 1988\n- B) 1792\n- C) 1921\n- D) Never — the band is fictional\n\n**Answer:** A\n\n### Q4. National Eisteddfod festival culture includes:\n\n- A) Folk concerts, twmpath, and competitive music on the maes\n- B) Only silent meditation\n- C) Exclusive opera in Italian only\n- D) Ban on Welsh language\n\n**Answer:** A\n\n### Q5. Choral crossover in Wales connects:\n\n- A) Male voice choirs, hymn hwyl, and folk melody traditions\n- B) Only electronic dance music\n- C) Strictly solo crwth performance only\n- D) Antarctic research songs exclusively\n\n**Answer:** A\n\n### Q6. Bob Delyn records include songs in Welsh and Breton.\n\n**Answer:** True\n\n### Q7. Trac Cymru supports Welsh folk touring and awards.\n\n**Answer:** True\n\n### Q8. Green Man Festival is unrelated to any Welsh music.\n\n**Answer:** False — it books Welsh folk artists among its lineup.\n\n### Q9. Cwm Rhondda has been sung at large public ceremonies including Princess Diana's funeral.\n\n**Answer:** True\n\n### Q10. Bob Delyn's Sain label releases helped document the folk revival.\n\n**Answer:** True\n\n### Q11. Welsh fusion scenes never interact with eisteddfod culture.\n\n**Answer:** False — bardic prestige and rock staging interpenetrate.\n\n### Q12. Compared with Riverdance, Wales more often exports choral hwyl and hymn-folk identity to stadiums.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Bob Delyn a'r Ebillion are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "A Welsh folk-rock band fronted by Twm Morys",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: A Welsh folk-rock band fronted by Twm Morys"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Twm Morys holds the title:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Prifardd (Chief Bard)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Prifardd (Chief Bard)"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Bob Delyn was formed in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1988",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: 1988"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "National Eisteddfod festival culture includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Folk concerts, twmpath, and competitive music on the maes",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Folk concerts, twmpath, and competitive music on the maes"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Choral crossover in Wales connects:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Male voice choirs, hymn hwyl, and folk melody traditions",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Male voice choirs, hymn hwyl, and folk melody traditions"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Bob Delyn records include songs in Welsh and Breton.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Trac Cymru supports Welsh folk touring and awards.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Green Man Festival is unrelated to any Welsh music.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "it books Welsh folk artists among its lineup."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Cwm Rhondda has been sung at large public ceremonies including Princess Diana's funeral.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Bob Delyn's Sain label releases helped document the folk revival.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Welsh fusion scenes never interact with eisteddfod culture.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "bardic prestige and rock staging interpenetrate."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Compared with Riverdance, Wales more often exports choral hwyl and hymn-folk identity to stadiums.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-wales-07-representative-depth-quiz",
+    "title": "Welsh Traditional Music — Representative Fusions and Scenes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Bob Delyn a'r Ebillion are:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A Welsh folk-rock band fronted by Twm Morys",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A Welsh folk-rock band fronted by Twm Morys"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Twm Morys holds the title:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Prifardd (Chief Bard)",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Prifardd (Chief Bard)"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Bob Delyn was formed in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "1988",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 1988"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "National Eisteddfod festival culture includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Folk concerts, twmpath, and competitive music on the maes",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Folk concerts, twmpath, and competitive music on the maes"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Choral crossover in Wales connects:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Male voice choirs, hymn hwyl, and folk melody traditions",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Male voice choirs, hymn hwyl, and folk melody traditions"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Bob Delyn records include songs in Welsh and Breton.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Trac Cymru supports Welsh folk touring and awards.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Green Man Festival is unrelated to any Welsh music.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "it books Welsh folk artists among its lineup."
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Cwm Rhondda has been sung at large public ceremonies including Princess Diana's funeral.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Bob Delyn's Sain label releases helped document the folk revival.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Welsh fusion scenes never interact with eisteddfod culture.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "bardic prestige and rock staging interpenetrate."
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Compared with Riverdance, Wales more often exports choral hwyl and hymn-folk identity to stadiums.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

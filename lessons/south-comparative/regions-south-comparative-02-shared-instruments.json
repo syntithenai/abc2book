@@ -1,0 +1,859 @@
+{
+  "id": "regions-south-comparative-02-shared-instruments",
+  "title": "Shared Instruments Compared",
+  "track": "regions",
+  "tier": 4,
+  "region": "south-comparative",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-south-comparative-01-what-the-tradition-means"
+  ],
+  "tags": [
+    "south",
+    "comparative",
+    "south-asia"
+  ],
+  "path": "10-regions/south-asia/comparative/02-shared-instruments.md",
+  "sections": [
+    {
+      "id": "shared-instruments-compared",
+      "title": "Shared Instruments Compared",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** South Asian Traditions | **Unit:** Comparative | **Tier:** 4"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different roles."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-hindustani-tradition",
+      "title": "Compared with Hindustani tradition",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Use the anchor nation as reference: when this lesson names a shared instrument or form, ask how practice differs by region and social context."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Regional labels are maps, not single repertoires.\n- Anchor unit provides depth; comparison adds precision.\n- Marketing often flattens specificity — compare recordings."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Anchor unit readings plus cross-border archive resources."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "ravi-shankar",
+      "type": "artist",
+      "name": "Ravi Shankar",
+      "summary": "Representative musician or ensemble in south-hindustani trad",
+      "blurb": "Study Ravi Shankar for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Ravi_Shankar",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "zakir-hussain",
+      "type": "band",
+      "name": "Zakir Hussain",
+      "summary": "Representative musician or ensemble in south-hindustani trad",
+      "blurb": "Study Zakir Hussain for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Zakir_Hussain",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "ravi-shankar",
+    "zakir-hussain"
+  ],
+  "playlist": [
+    {
+      "id": "regions-south-comparative-02-shared-instruments-pl1",
+      "entity_id": "ravi-shankar",
+      "label": "Ravi Shankar — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Ravi Shankar"
+    },
+    {
+      "id": "regions-south-comparative-02-shared-instruments-pl2",
+      "entity_id": "zakir-hussain",
+      "label": "Zakir Hussain — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Zakir Hussain"
+    },
+    {
+      "id": "regions-south-comparative-02-shared-instruments-pl3",
+      "label": "Hindustani Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-south-comparative-02-shared-instruments-pl4",
+      "label": "Hindustani Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Hindustani Music rewards comparative study.",
+    "Focus: Hindustani Music spans sitar, sarod, voice leading voices, raga, tala, bandish, and kathak.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: raga, tala, bandish.",
+    "Dance: kathak dance link.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Regional labels are maps, not single repertoires.",
+    "Anchor unit provides depth; comparison adds precision.",
+    "Marketing often flattens specificity — compare recordings."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Hindustani classical music",
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "South Asian Traditions",
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Hindustani Music spans sitar, sarod, voice leading voices, r",
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. Comparative study uses the anchor nation as a reference point.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q2. This capstone lesson topic:\n- A) Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r\n- B) Only opera staging\n- C) Only synthesizer repair\n- D) Only copyright law\n**Answer:** A) Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r\n\n### Q3. Shared instruments can have different social roles by region.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q4. Tune forms require dance-context listening.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q5. Revival paths diverge by institution and media history.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q6. Avoid flattening traditions under one marketing label.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q7. Ireland Celtic unit can serve as optional secondary comparison.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Recordings beat album-cover assumptions for ear training.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q9. South Asian Traditions includes multiple national units.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q10. Capstone lessons synthesise earlier national units.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Generic compilations are sufficient for advanced study.\n- A) True\n- B) False\n**Answer:** B) False\n\n### Q12. Return to parallel anchor lessons when abstract comparisons appear.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comparative study uses the anchor nation as a reference point.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "This capstone lesson topic:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": ") Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Shared instruments can have different social roles by region.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Tune forms require dance-context listening.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Revival paths diverge by institution and media history.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Avoid flattening traditions under one marketing label.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Ireland Celtic unit can serve as optional secondary comparison.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Recordings beat album-cover assumptions for ear training.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "South Asian Traditions includes multiple national units.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Capstone lessons synthesise earlier national units.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Generic compilations are sufficient for advanced study.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": ") False"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Return to parallel anchor lessons when abstract comparisons appear.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-south-comparative-02-shared-instruments-quiz",
+    "title": "Shared Instruments Compared quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Comparative study uses the anchor nation as a reference point.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "This capstone lesson topic:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": ") Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Shared instruments can have different social roles by region.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Tune forms require dance-context listening.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Revival paths diverge by institution and media history.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Avoid flattening traditions under one marketing label.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Ireland Celtic unit can serve as optional secondary comparison.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Recordings beat album-cover assumptions for ear training.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "South Asian Traditions includes multiple national units.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Fiddle, voice, pipes, and percussion appear across South Asian Traditions with different r",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Capstone lessons synthesise earlier national units.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Generic compilations are sufficient for advanced study.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": ") False"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Return to parallel anchor lessons when abstract comparisons appear.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

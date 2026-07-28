@@ -1,0 +1,938 @@
+{
+  "id": "regions-asia-china-02-instruments-voices-i",
+  "title": "Chinese Folk Traditions — Traditional Voices I",
+  "track": "regions",
+  "tier": 2,
+  "region": "asia-china",
+  "difficulty": 4,
+  "prerequisites": [
+    "regions-asia-china-01-overview"
+  ],
+  "tags": [
+    "asia",
+    "china",
+    "east-asia",
+    "traditional",
+    "voices"
+  ],
+  "path": "10-regions/east-asia/china/02-instruments-traditional-voices-i.md",
+  "sections": [
+    {
+      "id": "chinese-folk-traditions-traditional-voices-i",
+      "title": "Chinese Folk Traditions — Traditional Voices I",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** East Asian Traditions | **Region:** asia-china | **Tier:** 2\n**Prerequisites:** regions-asia-china-01-overview\n**Tags:** asia, china, east-asia, traditional, voices"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "erhu, dizi, voice\n\nChinese Folk Traditions belongs to the **East Asian Traditions** curriculum. Abing\n\nThis lesson develops listening precision for **erhu, dizi, voice** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-japan",
+      "title": "Compared with Japan",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Japanese Traditional Music** (`regions-asia-japan-02-instruments-voices-i`) covers the same lesson slot from the anchor perspective. This lesson stresses: **erhu, dizi, voice**.\n\n| Topic | Japan anchor | Chinese Folk Traditions (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | shakuhachi, shamisen, voice… | erhu, dizi, voice… |\n\n**Parallel anchor lesson:** `regions-asia-japan-02-instruments-voices-i`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-02-instruments-voices-i`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "erhu, dizi, voice\n\nStudy **chinese folk traditions** through listening first. Wikipedia's article on [Music of China](https://en.wikipedia.org/wiki/Music_of_China) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **East Asian Traditions**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **erhu, dizi, voice**. Ensemble layer: **pipa, ensemble**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **regional opera, folk song**. Dance context: **lion dance, folk dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **regional traditions**. Contemporary scenes: **conservatory and folk revival**. Tune repertoire anchor: **Jasmine Flower, regional tunes**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- erhu, dizi, voice\n- Lead instruments: erhu, dizi, voice\n- Ensemble: pipa, ensemble\n- Forms: regional opera, folk song\n- Dance: lion dance, folk dance\n- History: regional traditions\n- Scenes: conservatory and folk revival\n- Repertoire: Jasmine Flower, regional tunes\n- Compared with Japan: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Chinese Folk Traditions is a living tradition with regional accent.\n- Focus: erhu, dizi, voice.\n- Compared with Japan: shared heritage, distinct emphasis.\n- Forms: regional opera, folk song.\n- Dance: lion dance, folk dance.\n- Transmission: regional traditions."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nC\nh\ni\nn\na\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nC\nh\ni\nn\na\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nJ\na\np\na\nn\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "abing",
+      "type": "artist",
+      "name": "Abing",
+      "summary": "Representative musician or ensemble in asia-china trad",
+      "blurb": "Study Abing for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Abing",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "chinese-folk-traditions",
+      "type": "band",
+      "name": "Chinese Folk Traditions",
+      "summary": "Representative musician or ensemble in asia-china trad",
+      "blurb": "Study Chinese Folk Traditions for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Chinese_Folk_Traditions",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "abing",
+    "chinese-folk-traditions"
+  ],
+  "playlist": [
+    {
+      "id": "regions-asia-china-02-instruments-voices-i-pl1",
+      "entity_id": "abing",
+      "label": "Abing — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Abing"
+    },
+    {
+      "id": "regions-asia-china-02-instruments-voices-i-pl2",
+      "entity_id": "chinese-folk-traditions",
+      "label": "Chinese Folk Traditions — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Chinese Folk Traditions"
+    },
+    {
+      "id": "regions-asia-china-02-instruments-voices-i-pl3",
+      "label": "Chinese Folk Traditions — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-asia-china-02-instruments-voices-i-pl4",
+      "label": "Chinese Folk Traditions — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Chinese Folk Traditions rewards comparative study.",
+    "Focus: erhu, dizi, voice.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: regional opera, folk song.",
+    "Dance: lion dance, folk dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Chinese Folk Traditions is a living tradition with regional accent.",
+    "Compared with Japan: shared heritage, distinct emphasis.",
+    "Transmission: regional traditions."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of China",
+      "url": "https://en.wikipedia.org/wiki/Music_of_China",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "East Asian Traditions",
+      "url": "https://en.wikipedia.org/wiki/Music_of_China",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "erhu, dizi, voice",
+      "url": "https://en.wikipedia.org/wiki/Music_of_China",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) erhu, dizi, voice\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) erhu, dizi, voice\n\n### Q2. Chinese Folk Traditions rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Japan, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) erhu, dizi, voice\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) erhu, dizi, voice\n\n### Q5. Ensemble voices include:\n- A) pipa, ensemble\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) pipa, ensemble\n\n### Q6. Tune and song forms include:\n- A) regional opera, folk song\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) regional opera, folk song\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) regional traditions\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) regional traditions\n\n### Q9. Contemporary scenes include:\n- A) conservatory and folk revival\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) conservatory and folk revival\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Jasmine Flower, regional tunes\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Jasmine Flower, regional tunes\n\n### Q12. The Compared with Japan section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "erhu, dizi, voice",
+          "correct": true
+        }
+      ],
+      "explain": ") erhu, dizi, voice"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Chinese Folk Traditions rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "erhu, dizi, voice",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Japan, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "pipa, ensemble",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "erhu, dizi, voice",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "erhu, dizi, voice",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "pipa, ensemble",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "regional opera, folk song",
+          "correct": false
+        }
+      ],
+      "explain": ") erhu, dizi, voice"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "regional opera, folk song",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "regional traditions",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "pipa, ensemble",
+          "correct": true
+        }
+      ],
+      "explain": ") pipa, ensemble"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "regional traditions",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "conservatory and folk revival",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "regional opera, folk song",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "pipa, ensemble",
+          "correct": false
+        }
+      ],
+      "explain": ") regional opera, folk song"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jasmine Flower, regional tunes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "regional traditions",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "conservatory and folk revival",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "regional traditions",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "conservatory and folk revival",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jasmine Flower, regional tunes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": ") regional traditions"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jasmine Flower, regional tunes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "conservatory and folk revival",
+          "correct": true
+        }
+      ],
+      "explain": ") conservatory and folk revival"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jasmine Flower, regional tunes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": ") Jasmine Flower, regional tunes"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Japan section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-asia-china-02-instruments-voices-i-quiz",
+    "title": "Chinese Folk Traditions — Traditional Voices I quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "erhu, dizi, voice",
+            "correct": true
+          }
+        ],
+        "explain": ") erhu, dizi, voice"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Chinese Folk Traditions rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "erhu, dizi, voice",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Japan, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "pipa, ensemble",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "erhu, dizi, voice",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "erhu, dizi, voice",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "pipa, ensemble",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "regional opera, folk song",
+            "correct": false
+          }
+        ],
+        "explain": ") erhu, dizi, voice"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "regional opera, folk song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "regional traditions",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "pipa, ensemble",
+            "correct": true
+          }
+        ],
+        "explain": ") pipa, ensemble"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "regional traditions",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "conservatory and folk revival",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "regional opera, folk song",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "pipa, ensemble",
+            "correct": false
+          }
+        ],
+        "explain": ") regional opera, folk song"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Jasmine Flower, regional tunes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "regional traditions",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "conservatory and folk revival",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "regional traditions",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "conservatory and folk revival",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Jasmine Flower, regional tunes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": ") regional traditions"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Jasmine Flower, regional tunes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "conservatory and folk revival",
+            "correct": true
+          }
+        ],
+        "explain": ") conservatory and folk revival"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Jasmine Flower, regional tunes",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": ") Jasmine Flower, regional tunes"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Japan section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

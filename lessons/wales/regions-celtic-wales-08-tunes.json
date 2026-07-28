@@ -1,0 +1,939 @@
+{
+  "id": "regions-celtic-wales-08-tunes",
+  "title": "Welsh Traditional Music — Tunes — Forms, History, and Recordings",
+  "track": "regions",
+  "tier": 4.5,
+  "region": "wales",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-celtic-wales-07-representative-depth"
+  ],
+  "tags": [
+    "wales",
+    "celtic",
+    "tunes",
+    "recordings"
+  ],
+  "path": "10-regions/celtic/wales/08-tunes.md",
+  "sections": [
+    {
+      "id": "welsh-traditional-music-tunes-forms-history-and-recordings",
+      "title": "Welsh Traditional Music — Tunes — Forms, History, and Recordings",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 4.5 | **Difficulty:** 6/10\n**Prerequisites:** regions-celtic-wales-07-representative-depth\n**Tags:** wales, ar-lan-y-mor, cader-idris, harp, fiddle, recordings, slow-air\n\n\nUse **Play all** on the tune panel to compare harp, fiddle, and song settings. Wales rewards slow-air listening as much as dance tempo."
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "This lesson turns the genre field guide into **named repertoire**. You will meet Ar Lan y Môr and Cader Idris — two pillars of Welsh song and dance music — with harp and fiddle recordings, collector history, and comparative listening. The same title may sound lyrical on triple harp at eisteddfod and driving in a twmpath fiddle set; that variation is tradition working.\n\nListen comparatively: eisteddfod precision versus folk-club swing; Welsh lyrics versus instrumental air."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ireland's Tunes lesson (`regions-celtic-ireland-08-tunes`) centres session standards like *The Silver Spear* and *The Kesh Jig* with Coleman 78 history. Wales centres **song airs** and **harp standards** with **Nicholas Bennett** print lineage and **Nansi Richards** harp recordings.\n\n| Tune | Ireland parallel | Welsh role |\n|------|-----------------|------------|\n| Session reel standard | *The Silver Spear* | **Cader Idris** (dance + harp) |\n| Gateway song/air | *The Rocky Road* | **Ar Lan y Môr** (lyric + air) |\n| Iconic player | Michael Coleman | **Nansi Richards** (harp) |\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-08-tunes` — compare how one recording fixes a \"standard\" setting.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "ar-lan-y-môr-beside-the-sea",
+      "title": "Ar Lan y Môr (Beside the Sea)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ar Lan y Môr (*Beside the Sea*) is among the best-known **Welsh folk songs** — lyrical melody in **6/8** or related feel (settings vary), text evoking seaside love and loss. It circulates as:\n\n- **Unaccompanied or guitar-led song** in folk clubs\n- **Harp slow air** on triple harp\n- **Choral arrangement** for male voice or mixed choir\n- **Audience chorus** at festivals — hwyl moment"
+        }
+      ]
+    },
+    {
+      "id": "history-and-transmission",
+      "title": "History and transmission",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The song entered **national consciousness** through twentieth-century print, radio, and eisteddfod folk song categories. Welsh lyrics are primary; English translations circulate for diaspora. Collectors placed it in **canu gwerin** (folk song) anthologies alongside hymn-influenced airs."
+        }
+      ]
+    },
+    {
+      "id": "recordings-to-compare",
+      "title": "Recordings to compare",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Listen for **phrase breathing** (song), **ornament** (harp), and **tempo** (dance band instrumental settings are rarer but exist). Harpists like **Elinor Bennett** and **Llio Rhydderch** treat it as repertoire cornerstone; fiddle players adapt melody for twmpath **slow set** openings.\n\n**Memorable detail:** *Ar Lan y Môr* is often a learner's **first Welsh song** — gateway to language and ornament.\n\n![Welsh coastal landscape — song setting](https://en.wikipedia.org/wiki/Special:FilePath/Llanddwyn_Island_-_geograph.org.uk_-_1713660.jpg?width=640)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "cader-idris",
+      "title": "Cader Idris",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cader Idris names both **Snowdonia's mountain** (*Cadair Idris*) and a **folk tune** — harp and fiddle standard at eisteddfod and twmpath. Melody is energetic, **penillion-friendly**, and appears in **Nicholas Bennett**'s *Alawon Fy Ngwlad* lineage."
+        }
+      ]
+    },
+    {
+      "id": "form-and-dance",
+      "title": "Form and dance",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Often played as **hornpipe or reel-family** dance tune depending on setting — musicians should agree **form** before starting. Accordion-fiddle bands drive twmpath sets; harp solo showcases **triple harp** technique in competition."
+        }
+      ]
+    },
+    {
+      "id": "named-recordings-tradition",
+      "title": "Named recordings tradition",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Nansi Richards** (\"Queen of the Harp\") embodied *Cader Idris* in twentieth-century imagination. Contemporary **Patrick Rimes** (fiddle) and harpists refresh settings for festival stages. Compare two recordings: note **ornament density** and **tempo for feet**.\n\n**Memorable detail:** Mountain and tune share name — landscape inscribed in repertoire.\n\n![Cader Idris mountain](https://en.wikipedia.org/wiki/Special:FilePath/Cadair_Idris,_Snowdonia,_Wales_-_May_2009.jpg?width=640)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "classic-harp-and-fiddle-recordings",
+      "title": "Classic harp and fiddle recordings",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Artist | Instrument | Notes |\n|--------|------------|-------|\n| **Nansi Richards** | Triple harp | National symbol; coronation tour 1953 |\n| **Llio Rhydderch** | Triple harp | Penillion and trad revival |\n| **Elinor Bennett** | Triple harp | Concert and folk repertoire |\n| **Patrick Rimes** | Fiddle (also crwth) | Contemporary twmpath and festival |\n| **Cass Meurig** | Crwth, fiddle | Scholar-performer crossover |\n\nUse lesson metadata **playlist** entries to hear harp versus fiddle readings of the same tune.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "more-repertoire-table",
+      "title": "More repertoire table",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Tune / song | Form | Note |\n|-------------|------|------|\n| *Dafydd y Garreg Wen* | Slow air / song | David of the White Rock; deathbed harp legend |\n| *Suo Gân* | Lullaby | Welsh lyrics; film *Empire of the Sun* exposure |\n| *Cwm Rhondda* | Hymn tune | Also folk-choral hwyl |\n| *Myfanwy* | Art song / folk | Love lament; male voice favourite |\n| *Ymdaith Gwyr Harlech* | March | Men of Harlech — patriotic association |\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "learning-strategy",
+      "title": "Learning strategy",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Learn **one song** (*Ar Lan y Môr*) with lyrics and melody.\n2. Learn **one dance tune** (*Cader Idris*) at twmpath tempo on your instrument.\n3. Compare **harp and fiddle** recordings of *Cader Idris*.\n4. Note **collector source** (Bennett, folk society edition) for your setting."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Ar Lan y Môr** is a gateway Welsh song and harp slow air with festival chorus life.\n- **Cader Idris** is a harp and fiddle dance standard linked to mountain identity.\n- **Nansi Richards** anchors harp recording history; contemporary artists refresh settings.\n- Nicholas Bennett's *Alawon Fy Ngwlad* is a key print source for tune names.\n- Compare eisteddfod and twmpath readings for regional accent.\n- Compared with Ireland: song-air centrality over session reel marathon."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Nicholas Bennett** — *Alawon Fy Ngwlad*\n- **Phyllis Kinney** — *Welsh Traditional Music*\n- Wikipedia — [Ar Lan y Môr](https://en.wikipedia.org/wiki/Ar_Lan_y_M%C3%B4r), [Cadair Idris](https://en.wikipedia.org/wiki/Cadair_Idris)\n- **Cymdeithas Alawon Gwerin Cymru** — tune book supplements"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "ar-lan-y-mor",
+      "type": "tune",
+      "name": "Ar Lan y Môr",
+      "summary": "Beloved Welsh folk song and harp slow air",
+      "blurb": "Beside the Sea — gateway song for language and festival chorus.",
+      "url": "https://en.wikipedia.org/wiki/Ar_Lan_y_M%C3%B4r",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Llanddwyn_Island_-_geograph.org.uk_-_1713660.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "cader-idris",
+      "type": "tune",
+      "name": "Cader Idris",
+      "summary": "Harp and fiddle dance standard",
+      "blurb": "Tune named for Snowdonia mountain; Bennett collection lineage.",
+      "url": "https://en.wikipedia.org/wiki/Cadair_Idris",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Cadair_Idris,_Snowdonia,_Wales_-_May_2009.jpg?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "nansi-richards",
+      "type": "artist",
+      "name": "Nansi Richards",
+      "summary": "Triple harpist known as Queen of the Harp",
+      "blurb": "1888–1979; bridged chapel, eisteddfod, and folk revival repertoire on telyn deires.",
+      "url": "https://en.wikipedia.org/wiki/Nansi_Richards",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320",
+      "years": "1888–1979",
+      "region": "Wales",
+      "playlist_index": 4
+    },
+    {
+      "id": "triple-harp",
+      "type": "instrument",
+      "name": "Welsh triple harp",
+      "summary": "Primary instrument for slow airs and eisteddfod repertoire",
+      "blurb": "Ar Lan y Môr and Cader Idris harp settings.",
+      "url": "https://en.wikipedia.org/wiki/Welsh_triple_harp",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "dafydd-y-garreg-wen",
+      "type": "tune",
+      "name": "Dafydd y Garreg Wen",
+      "summary": "Welsh air associated with David Owen, the White Rock",
+      "blurb": "Beloved slow air on harp and fiddle; eisteddfod and folk club staple.",
+      "url": "https://en.wikipedia.org/wiki/Dafydd_y_Garreg_Wen",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+    }
+  ],
+  "entity_order": [
+    "nansi-richards"
+  ],
+  "playlist": [
+    {
+      "id": "ar-lan-y-mor-song",
+      "entity_id": "ar-lan-y-mor",
+      "label": "Ar Lan y Môr — folk song",
+      "youtube": "https://www.youtube.com/watch?v=0vxCFIGCqnE",
+      "subtitle": "Ar Lan y Môr"
+    },
+    {
+      "id": "ar-lan-y-mor-harp",
+      "entity_id": "triple-harp",
+      "label": "Ar Lan y Môr — harp air",
+      "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A",
+      "subtitle": "Welsh triple harp"
+    },
+    {
+      "id": "cader-idris-harp",
+      "entity_id": "cader-idris",
+      "label": "Cader Idris — harp",
+      "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s",
+      "subtitle": "Cader Idris"
+    },
+    {
+      "id": "cader-idris-fiddle",
+      "label": "Cader Idris — fiddle",
+      "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+      "subtitle": ""
+    },
+    {
+      "id": "nansi-richards-tune",
+      "entity_id": "nansi-richards",
+      "label": "Nansi Richards — harp recording",
+      "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A",
+      "subtitle": "Nansi Richards"
+    }
+  ],
+  "tunes": [
+    {
+      "id": "ar-lan-y-mor",
+      "type": "tune",
+      "name": "Ar Lan y Môr",
+      "form": "waltz / song air",
+      "reference": "Welsh folk song standard",
+      "about": "Seaside song — harp and penillion settings.",
+      "made_famous_by": [
+        "nansi-richards"
+      ],
+      "playlist": [
+        {
+          "entity_id": "nansi-richards",
+          "label": "Harp setting",
+          "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+        }
+      ]
+    },
+    {
+      "id": "cader-idris",
+      "type": "tune",
+      "name": "Cader Idris",
+      "form": "air / march",
+      "reference": "North Wales landscape tune",
+      "about": "Eisteddfod and folk club favourite.",
+      "playlist": [
+        {
+          "label": "Fiddle and harp",
+          "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM"
+        }
+      ]
+    },
+    {
+      "id": "dafydd-y-garreg-wen",
+      "type": "tune",
+      "name": "Dafydd y Garreg Wen",
+      "form": "slow air",
+      "reference": "David Owen legend; Welsh air classic",
+      "about": "Slow air on harp and fiddle — eisteddfod staple.",
+      "playlist": [
+        {
+          "label": "Triple harp air",
+          "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    "Ar Lan y Môr is a gateway Welsh song and harp slow air.",
+    "Cader Idris is a harp and fiddle standard linked to mountain identity.",
+    "Nansi Richards anchors harp recording history.",
+    "Nicholas Bennett's Alawon Fy Ngwlad is a key print source.",
+    "Compare eisteddfod and twmpath readings for accent.",
+    "Compared with Ireland: song-air centrality over session reel standards.",
+    "**Ar Lan y Môr** is a gateway Welsh song and harp slow air with festival chorus life.",
+    "**Cader Idris** is a harp and fiddle dance standard linked to mountain identity.",
+    "**Nansi Richards** anchors harp recording history; contemporary artists refresh settings.",
+    "Nicholas Bennett's *Alawon Fy Ngwlad* is a key print source for tune names.",
+    "Compare eisteddfod and twmpath readings for regional accent.",
+    "Compared with Ireland: song-air centrality over session reel marathon."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "Alawon Fy Ngwlad",
+      "author": "Nicholas Bennett",
+      "note": "1896 tune collection including Cader Idris lineage"
+    },
+    {
+      "type": "link",
+      "title": "Ar Lan y Môr — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ar_Lan_y_M%C3%B4r",
+      "note": "Song history"
+    },
+    {
+      "type": "link",
+      "title": "Cadair Idris — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cadair_Idris",
+      "note": "Mountain and tune name"
+    },
+    {
+      "type": "link",
+      "title": "Cymdeithas Alawon Gwerin Cymru",
+      "url": "https://alawon-gwerin.cymru/",
+      "note": "Tune book supplements"
+    },
+    {
+      "type": "link",
+      "title": "Ar Lan y Môr — song history",
+      "url": "https://en.wikipedia.org/wiki/Ar_Lan_y_M%C3%B4r",
+      "note": "Welsh folk standard"
+    },
+    {
+      "type": "link",
+      "title": "Cader Idris — tune background",
+      "url": "https://en.wikipedia.org/wiki/Cadair_Idris",
+      "note": "Mountain namesake tune"
+    },
+    {
+      "type": "link",
+      "title": "Dafydd y Garreg Wen",
+      "url": "https://en.wikipedia.org/wiki/Dafydd_y_Garreg_Wen",
+      "note": "Classic Welsh air"
+    },
+    {
+      "type": "book",
+      "title": "Alawon Gwerin Cymru",
+      "author": "Nicholas Bennett",
+      "note": "Historic tune collection"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "Ar Lan y Môr",
+      "url": "https://en.wikipedia.org/wiki/Ar_Lan_y_M%C3%B4r"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    }
+  ],
+  "quiz_markdown": "### Q1. Ar Lan y Môr translates approximately as:\n\n- A) Beside the Sea\n- B) Behind the Mountain only\n- C) Inside the Castle exclusively\n- D) Without the Harp\n\n**Answer:** A\n\n### Q2. Cader Idris is associated with:\n\n- A) A mountain in Snowdonia and a folk tune of the same name\n- B) A Dublin pub session only\n- C) An Italian opera exclusively\n- D) A type of bodhrán\n\n**Answer:** A\n\n### Q3. Nansi Richards was known as:\n\n- A) The Queen of the Harp\n- B) Master of the fiddle in Sligo only\n- C) An Antarctic explorer exclusively\n- D) A jazz saxophonist only\n\n**Answer:** A\n\n### Q4. Alawon Fy Ngwlad was published by:\n\n- A) Nicholas Bennett (1896)\n- B) Francis O'Neill (1903)\n- C) Edward Bunting (1792 only)\n- D) Anonymous with no date\n\n**Answer:** A\n\n### Q5. Ar Lan y Môr circulates as:\n\n- A) Folk song, harp air, and choral arrangement\n- B) Only electronic dance music\n- C) Strictly operatic aria in Italian only\n- D) Military march exclusively\n\n**Answer:** A\n\n### Q6. Triple harp is a primary instrument for Ar Lan y Môr slow air settings.\n\n**Answer:** True\n\n### Q7. Cader Idris appears in Welsh dance and harp repertoire.\n\n**Answer:** True\n\n### Q8. Nansi Richards performed at Queen Elizabeth II's coronation tour in 1953.\n\n**Answer:** True\n\n### Q9. Welsh tune study requires no comparison between harp and fiddle recordings.\n\n**Answer:** False — comparative listening reveals accent and setting.\n\n### Q10. Suo Gân is a Welsh lullaby with wider popular culture exposure.\n\n**Answer:** True\n\n### Q11. Dafydd y Garreg Wen is linked to harp legend tradition.\n\n**Answer:** True\n\n### Q12. Cader Idris is unrelated to any Welsh geographical feature.\n\n**Answer:** False — tune and mountain share the name Cadair Idris.",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Ar Lan y Môr translates approximately as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Beside the Sea",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Beside the Sea"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Cader Idris is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "A mountain in Snowdonia and a folk tune of the same name",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: A mountain in Snowdonia and a folk tune of the same name"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Nansi Richards was known as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Beside the Sea",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "The Queen of the Harp",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: The Queen of the Harp"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Alawon Fy Ngwlad was published by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nicholas Bennett (1896)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Beside the Sea",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "A mountain in Snowdonia and a folk tune of the same name",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Nicholas Bennett (1896)"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ar Lan y Môr circulates as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Beside the Sea",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "A mountain in Snowdonia and a folk tune of the same name",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "The Queen of the Harp",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Folk song, harp air, and choral arrangement",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Folk song, harp air, and choral arrangement"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Triple harp is a primary instrument for Ar Lan y Môr slow air settings.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Cader Idris appears in Welsh dance and harp repertoire.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Nansi Richards performed at Queen Elizabeth II's coronation tour in 1953.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Welsh tune study requires no comparison between harp and fiddle recordings.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "comparative listening reveals accent and setting."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Suo Gân is a Welsh lullaby with wider popular culture exposure.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Dafydd y Garreg Wen is linked to harp legend tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Cader Idris is unrelated to any Welsh geographical feature.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "tune and mountain share the name Cadair Idris."
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-wales-08-tunes-quiz",
+    "title": "Welsh Traditional Music — Tunes — Forms, History, and Recordings quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Ar Lan y Môr translates approximately as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Beside the Sea",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Beside the Sea"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Cader Idris is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A mountain in Snowdonia and a folk tune of the same name"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Nansi Richards was known as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Beside the Sea",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "The Queen of the Harp",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: The Queen of the Harp"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Alawon Fy Ngwlad was published by:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nicholas Bennett (1896)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Beside the Sea",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Nicholas Bennett (1896)"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ar Lan y Môr circulates as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Beside the Sea",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "A mountain in Snowdonia and a folk tune of the same name",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "The Queen of the Harp",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Folk song, harp air, and choral arrangement",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Folk song, harp air, and choral arrangement"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Triple harp is a primary instrument for Ar Lan y Môr slow air settings.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Cader Idris appears in Welsh dance and harp repertoire.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Nansi Richards performed at Queen Elizabeth II's coronation tour in 1953.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Welsh tune study requires no comparison between harp and fiddle recordings.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "comparative listening reveals accent and setting."
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Suo Gân is a Welsh lullaby with wider popular culture exposure.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Dafydd y Garreg Wen is linked to harp legend tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Cader Idris is unrelated to any Welsh geographical feature.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "tune and mountain share the name Cadair Idris."
+      }
+    ]
+  }
+}

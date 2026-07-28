@@ -1,0 +1,738 @@
+{
+  "id": "regions-celtic-scotland-07-representative-depth",
+  "title": "Scottish Traditional Music — Representative Fusions and Scenes",
+  "track": "regions",
+  "tier": 7,
+  "region": "scotland",
+  "difficulty": 9,
+  "prerequisites": [
+    "regions-celtic-scotland-06-history"
+  ],
+  "tags": [
+    "scotland",
+    "celtic",
+    "fusion",
+    "scenes"
+  ],
+  "path": "10-regions/celtic/scotland/07-representative-depth.md",
+  "sections": [
+    {
+      "id": "scottish-traditional-music-representative-fusions-and-scenes",
+      "title": "Scottish Traditional Music — Representative Fusions and Scenes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 7 | **Difficulty:** 9/10\n**Prerequisites:** regions-celtic-scotland-06-history\n**Tags:** scotland, battlefield-band, capercaillie, fusion, session, games"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition and innovation share the same stages. Since the 1970s revival, Scottish ensembles have toured worldwide with pipes, fiddle, and accordion while absorbing rock production, Gaelic song arrangement, and global festival economics. This lesson focuses on **Battlefield Band** and **Capercaillie** as representative fusion voices, then contrasts **pub session** life with **games season** — two calendars that rarely overlap for the same musician."
+        }
+      ]
+    },
+    {
+      "id": "battlefield-band",
+      "title": "Battlefield Band",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Battlefield Band** formed in **1975** in Glasgow, named after the Battlefield district. The lineup evolved but consistently featured **Highland pipes**, **fiddle**, **accordion**, and **guitar** — a template for **Scottish folk rock** before the label existed. Albums like *Home Is Where the Van Is* and *On the Rise* introduced international audiences to reel and strathspey repertoire with **energetic arrangement** and **humour**.\n\nBattlefield Band represents the **revival band** model: trad grammar (pipe ornaments, fiddle snap) with **stage volume** and **touring life**. Founding members included **Brian McNeill** (fiddle, bagpipes) and **Alan Reid** (keyboards, vocals) — songwriters who added **Scots ballad** narrative to instrumental sets.\n\nListen for: pipes and fiddle **unison** on reels; accordion **harmony**; political and historical **song** in Scots. Battlefield Band proved Scottish trad could fill theatres without reducing to shortbread tin cliché.\n\n![Battlefield Band performing](https://en.wikipedia.org/wiki/Special:FilePath/Battlefield_Band_-_Festival_Interceltique_2012_-_001.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "capercaillie-and-gaelic-fusion",
+      "title": "Capercaillie and Gaelic fusion",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Capercaillie** formed on **Islay** in the **1980s**, fronted by **Karen Matheson**'s Gaelic vocals. They blended **puirt à beul**, **waulking song** rhythm, **fiddle**, **pipes**, **keyboard**, and **bass** into a **pop-aware** folk sound that charted in the UK and reached global Celtic festival circuits.\n\n*Coisich a Rùin* (1992) — a nineteenth-century Gaelic song with modern production — brought **Scottish Gaelic** to millions who never attended a Mod competition. Capercaillie demonstrates **language revival through arrangement** — trad melody and Gaelic text with contemporary groove.\n\nListen for: **Gaelic pronunciation** as musical texture; **puirt** rhythms in band settings; **slow airs** arranged for concert hall. Capercaillie sits beside Irish **Clannad** in fusion genealogy — shared Celtic market, distinct Gaelic dialect and repertoire."
+        }
+      ]
+    },
+    {
+      "id": "other-scenes-brief-map",
+      "title": "Other scenes (brief map)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Silly Wizard**, **Ossian**, **The Tannahill Weavers**, and **Runrig** (rock with Gaelic) occupied overlapping niches — dance halls, folk clubs, festival tents. **Dick Gaughan** brought **political Scots ballad** and guitar; **Aly Bain** and **Phil Cunningham** sustained cross-border Nordic–Scottish fiddle–accordion partnership.\n\n**Celtic Connections** in Glasgow each January concentrates **global trad** — Scottish, Irish, Breton, American — in concerts, sessions, and workshops. It is the **winter counterweight** to summer **games** outdoor season."
+        }
+      ]
+    },
+    {
+      "id": "pub-session-versus-games-season",
+      "title": "Pub session versus games season",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Pub sessions** run year-round in Edinburgh, Glasgow, Aberdeen, Inverness, and festival fringe — fiddles, pipes, whistle, guitar, informal sets, listener focus. Etiquette parallels Ireland: listen, match tempo, respect the set.\n\n**Games season** (late spring through autumn) concentrates **pipe bands**, **Highland dancing**, and **solo piping** at outdoor fields. Musicians who compete weekends may not appear in pubs the same months; **calendar rhythm** splits the community.\n\n| Feature | Pub session | Games season |\n|---------|-------------|--------------|\n| Lead voices | Fiddle, whistle, smallpipes | Massed pipes, solo competitors |\n| Audience | Listeners, occasional dancers | Spectators, graded contests |\n| Repertoire | Reels, jigs, strathspeys, songs | Marches, MSR sets, piobaireachd |\n| Volume | Pub acoustic balance | Outdoor pipe dominance |\n\nNeither scene is \"more authentic.\" **Ceilidh halls** bridge both — dancers need bands; bands need session-trained players. Fusion artists tour internationally while games pipers drill scores in church halls.\n\n![Highland games piping](https://en.wikipedia.org/wiki/Special:FilePath/Highland_Games_%28geograph_2453870%29.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "listening-priority",
+      "title": "Listening priority",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Start with **Battlefield Band** for post-revival ensemble balance, then **Capercaillie** for Gaelic song in a fusion frame. Compare both to Irish **Planxty** or **Bothy Band** — shared instrumentation, different language and dance context."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Parallel lesson: `regions-celtic-ireland-07-representative-depth`. Ireland offers **Planxty**, **Bothy Band**, **The Chieftains**, and **Riverdance** as fusion reference points; Scotland offers **Battlefield Band**, **Capercaillie**, and **Runrig**. Irish **showbands** parallel Scottish **dance hall** eras differently — both nations negotiated amplification and pop economics.\n\nIrish pub **session tourism** (Doolin, Dingle) has Scottish equivalents (Edinburgh Festival fringe pubs, Skye venues) but **pipe-band games** lack Irish scale. Cross-border festival bills (Celtic Connections, Fleadh Cheoil visitors) increasingly mix musicians — listen for accent, not nationality alone."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Battlefield Band** (1975) typifies revival ensemble — pipes, fiddle, accordion, song — with international touring reach.\n- **Capercaillie** brought Gaelic song and puirt à beul to global audiences through modern arrangement.\n- **Celtic Connections** is a major winter hub for Scottish and international trad.\n- **Pub sessions** and **games season** follow different calendars and repertoire emphasis.\n- Fusion builds on — does not replace — oral tradition and competition piping.\n- Representative depth means studying **named bands** and **named scenes**, not generic Celtic compilations."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Battlefield Band** — *Home Is Where the Van Is* (album notes and repertoire).\n- **Capercaillie** — *Coisich a Rùin* single and *Delirium* album for Gaelic fusion context.\n- **Gary West** — *Voicing Scotland* (identity and popular folk).\n- **Celtic Connections** — [celticconnections.com](https://www.celticconnections.com/) programme archives."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "battlefield-band",
+      "type": "band",
+      "name": "Battlefield Band",
+      "summary": "Scottish folk revival ensemble since 1969",
+      "blurb": "Pipes, fiddle, and song in a model for post-revival touring bands.",
+      "url": "https://en.wikipedia.org/wiki/Battlefield_Band",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Battlefield_Band.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "capercaillie",
+      "type": "band",
+      "name": "Capercaillie",
+      "summary": "Gaelic fusion band from the Hebrides",
+      "blurb": "Karen Matheson's vocals brought puirt à beul and Gaelic song to global stages.",
+      "url": "https://en.wikipedia.org/wiki/Capercaillie_(band)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Capercaillie_-_Festival_Interceltique_2017_-_002.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "battlefield-band",
+    "capercaillie"
+  ],
+  "playlist": [
+    {
+      "id": "battlefield-home",
+      "entity_id": "battlefield-band",
+      "label": "Battlefield Band — live set",
+      "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+      "subtitle": "Battlefield Band"
+    },
+    {
+      "id": "coisich-a-ruin",
+      "entity_id": "capercaillie",
+      "label": "Capercaillie — Coisich a Rùin",
+      "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ",
+      "subtitle": "Capercaillie"
+    },
+    {
+      "id": "celtic-connections-live",
+      "label": "Celtic Connections concert excerpt",
+      "youtube": "https://www.youtube.com/watch?v=KxVxZP7VqH0",
+      "subtitle": ""
+    },
+    {
+      "id": "edinburgh-session",
+      "label": "Edinburgh pub session",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
+      "subtitle": ""
+    },
+    {
+      "id": "battlefield-live",
+      "entity_id": "battlefield-band",
+      "label": "Battlefield Band live",
+      "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+      "subtitle": "Battlefield Band"
+    },
+    {
+      "id": "capercaillie-gaelic",
+      "entity_id": "capercaillie",
+      "label": "Capercaillie — Coisich a Rùin",
+      "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ",
+      "subtitle": "Capercaillie"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Battlefield Band (1975) typifies revival ensemble with pipes, fiddle, and song.",
+    "Capercaillie brought Gaelic song and puirt à beul to global audiences.",
+    "Celtic Connections is a major winter hub for Scottish and international trad.",
+    "Pub sessions and games season follow different calendars and repertoire.",
+    "Fusion builds on oral tradition — it does not replace it.",
+    "Study named bands and scenes rather than generic Celtic compilations.",
+    "**Battlefield Band** (1975) typifies revival ensemble — pipes, fiddle, accordion, song — with international touring reach.",
+    "**Capercaillie** brought Gaelic song and puirt à beul to global audiences through modern arrangement.",
+    "**Celtic Connections** is a major winter hub for Scottish and international trad.",
+    "**Pub sessions** and **games season** follow different calendars and repertoire emphasis.",
+    "Fusion builds on — does not replace — oral tradition and competition piping.",
+    "Representative depth means studying **named bands** and **named scenes**, not generic Celtic compilations."
+  ],
+  "reading_list": [
+    {
+      "type": "album",
+      "title": "Home Is Where the Van Is",
+      "author": "Battlefield Band",
+      "note": "Revival ensemble repertoire"
+    },
+    {
+      "type": "album",
+      "title": "Delirium",
+      "author": "Capercaillie",
+      "note": "Gaelic fusion landmark"
+    },
+    {
+      "type": "link",
+      "title": "Celtic Connections",
+      "url": "https://www.celticconnections.com/",
+      "note": "Glasgow winter festival"
+    },
+    {
+      "type": "link",
+      "title": "Battlefield Band",
+      "url": "https://en.wikipedia.org/wiki/Battlefield_Band",
+      "note": "Ensemble history"
+    },
+    {
+      "type": "link",
+      "title": "Karen Matheson",
+      "url": "https://en.wikipedia.org/wiki/Karen_Matheson",
+      "note": "Capercaillie vocals"
+    },
+    {
+      "type": "link",
+      "title": "Transatlantic Sessions",
+      "url": "https://en.wikipedia.org/wiki/Transatlantic_Sessions",
+      "note": "Cross-border broadcasting"
+    },
+    {
+      "type": "link",
+      "title": "BBC Radio Scotland",
+      "url": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+      "note": "Living trad radio"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "celticconnections.com",
+      "url": "https://www.celticconnections.com/"
+    }
+  ],
+  "quiz_markdown": "### Q1. Battlefield Band formed in 1975 and is associated with:\n\n- A) Pipes, fiddle, accordion, and Scottish revival ensemble touring\n- B) Only baroque lute duets\n- C) Electronic techno without acoustic instruments\n- D) Exclusive opera in German\n\n**Answer:** A\n\n### Q2. Capercaillie is known for Gaelic vocals fronted by Karen Matheson and fusion arrangements.\n\n**Answer:** True\n\n### Q3. Coisich a Rùin brought nineteenth-century Gaelic song to wide audiences through modern production.\n\n**Answer:** True\n\n### Q4. Celtic Connections is a major winter folk festival in Glasgow.\n\n**Answer:** True\n\n### Q5. Games season concentrates pipe bands and Highland dancing at outdoor fields in late spring through autumn.\n\n**Answer:** True\n\n### Q6. Pub sessions in Scottish cities run with etiquette similar to Irish sessions — listen first, match tempo.\n\n**Answer:** True\n\n### Q7. Brian McNeill was a founding member associated with Battlefield Band fiddle and pipes.\n\n**Answer:** True\n\n### Q8. Capercaillie formed on Islay in the 1980s.\n\n**Answer:** True\n\n### Q9. Fusion bands like Battlefield Band and Capercaillie erased all earlier oral tradition completely.\n\n**Answer:** False — they build on trad repertoire and transmission; they do not replace oral tradition.\n\n### Q10. Runrig represents rock with Gaelic language in Scottish popular music.\n\n**Answer:** True\n\n### Q11. Games season repertoire emphasises marches and MSR sets more than typical pub session sets alone.\n\n**Answer:** True\n\n### Q12. Compared with Ireland, Scotland's games-season pipe-band calendar is a distinct public scene without Irish equivalent scale.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Battlefield Band formed in 1975 and is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pipes, fiddle, accordion, and Scottish revival ensemble touring",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Pipes, fiddle, accordion, and Scottish revival ensemble touring"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Capercaillie is known for Gaelic vocals fronted by Karen Matheson and fusion arrangements.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Coisich a Rùin brought nineteenth-century Gaelic song to wide audiences through modern production.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Celtic Connections is a major winter folk festival in Glasgow.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Games season concentrates pipe bands and Highland dancing at outdoor fields in late spring through autumn.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Pub sessions in Scottish cities run with etiquette similar to Irish sessions — listen first, match tempo.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Brian McNeill was a founding member associated with Battlefield Band fiddle and pipes.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Capercaillie formed on Islay in the 1980s.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Fusion bands like Battlefield Band and Capercaillie erased all earlier oral tradition completely.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "they build on trad repertoire and transmission; they do not replace oral tradition."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Runrig represents rock with Gaelic language in Scottish popular music.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Games season repertoire emphasises marches and MSR sets more than typical pub session sets alone.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Compared with Ireland, Scotland's games-season pipe-band calendar is a distinct public scene without Irish equivalent scale.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-scotland-07-representative-depth-quiz",
+    "title": "Scottish Traditional Music — Representative Fusions and Scenes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Battlefield Band formed in 1975 and is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Pipes, fiddle, accordion, and Scottish revival ensemble touring",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Pipes, fiddle, accordion, and Scottish revival ensemble touring"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Capercaillie is known for Gaelic vocals fronted by Karen Matheson and fusion arrangements.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Coisich a Rùin brought nineteenth-century Gaelic song to wide audiences through modern production.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Celtic Connections is a major winter folk festival in Glasgow.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Games season concentrates pipe bands and Highland dancing at outdoor fields in late spring through autumn.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Pub sessions in Scottish cities run with etiquette similar to Irish sessions — listen first, match tempo.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Brian McNeill was a founding member associated with Battlefield Band fiddle and pipes.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Capercaillie formed on Islay in the 1980s.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Fusion bands like Battlefield Band and Capercaillie erased all earlier oral tradition completely.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "they build on trad repertoire and transmission; they do not replace oral tradition."
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Runrig represents rock with Gaelic language in Scottish popular music.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Games season repertoire emphasises marches and MSR sets more than typical pub session sets alone.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Scotland's games-season pipe-band calendar is a distinct public scene without Irish equivalent scale.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

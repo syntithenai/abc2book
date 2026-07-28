@@ -1,0 +1,234 @@
+{
+  "id": "legacy-instruments-reed-winds",
+  "title": "Clarinet and Saxophone",
+  "track": "instruments",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "instruments",
+    "legacy"
+  ],
+  "path": "09-instruments/11-reed-winds.md",
+  "sections": [
+    {
+      "id": "clarinet-and-saxophone",
+      "title": "Clarinet and Saxophone",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Single-reed woodwinds: reed vibrates against mouthpiece. Despite 'woodwind' name, modern bodies are often plastic or metal."
+        }
+      ]
+    },
+    {
+      "id": "clarinet",
+      "title": "Clarinet",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cylinder bore; cylindrical bore overblows at twelfth. B♭ clarinet most common. Wide dynamic range. Mozart and Brahms clarinet quintets. Klezmer and jazz traditions."
+        }
+      ]
+    },
+    {
+      "id": "saxophone",
+      "title": "Saxophone",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Adolphe Sax, 1840s Belgium. Conical bore overblows at octave. Family from soprano to baritone. Central to jazz — Charlie Parker (alto), John Coltrane (tenor)."
+        }
+      ]
+    },
+    {
+      "id": "double-reeds",
+      "title": "Double reeds",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Oboe and bassoon use two reeds bound together. Distinctive nasal oboe tone; bassoon's wide range in orchestra."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Clarinet is:\n\n- A) Single-reed woodwind\n- B) Brass instrument\n- C) Bowed string\n- D) Percussion\n\n**Answer:** A\n\n### Q2. Saxophone invented by Adolphe Sax.\n\n**Answer:** True\n\n### Q3. Clarinet overblows at the:\n\n- A) Twelfth\n- B) Octave\n- C) Fifth\n- D) Unison only\n\n**Answer:** A — Cylindrical bore property.",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Clarinet is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Single-reed woodwind",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Twelfth",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Single-reed woodwind"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Saxophone invented by Adolphe Sax.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Clarinet overblows at the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Twelfth",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "Cylindrical bore property."
+    }
+  ],
+  "quiz": {
+    "id": "legacy-instruments-reed-winds-quiz",
+    "title": "Clarinet and Saxophone quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Clarinet is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Single-reed woodwind",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Twelfth",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Single-reed woodwind"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Saxophone invented by Adolphe Sax.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Clarinet overblows at the:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Twelfth",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "Cylindrical bore property."
+      }
+    ]
+  }
+}

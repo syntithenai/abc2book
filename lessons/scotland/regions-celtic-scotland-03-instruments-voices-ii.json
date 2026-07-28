@@ -1,0 +1,848 @@
+{
+  "id": "regions-celtic-scotland-03-instruments-voices-ii",
+  "title": "Scottish Instruments — Session Voices II",
+  "track": "regions",
+  "tier": 3,
+  "region": "scotland",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-celtic-scotland-02-instruments-voices-i"
+  ],
+  "tags": [
+    "scotland",
+    "celtic",
+    "instruments",
+    "session"
+  ],
+  "path": "10-regions/celtic/scotland/03-instruments-session-voices-ii.md",
+  "sections": [
+    {
+      "id": "scottish-instruments-session-voices-ii",
+      "title": "Scottish Instruments — Session Voices II",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 3 | **Difficulty:** 5/10\n**Prerequisites:** regions-celtic-scotland-02-instruments-voices-i\n**Tags:** scotland, accordion, piano, guitar, bodhrán, cello, ceilidh-band"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Melody instruments open the tune, but Scottish social music depends equally on **accordion**, **piano**, **guitar**, **percussion**, and increasingly **cello** in folk ensembles. A **ceilidh band** might run fiddle, accordion, piano, drums, and bass for a hall full of dancers. A pub session may pair guitar and bodhrán behind pipes and whistle. Revival bands from **Battlefield Band** to **Capercaillie** layered rock-era instrumentation without abandoning trad grammar.\n\nThis lesson completes the ensemble picture begun in **Traditional Voices I**."
+        }
+      ]
+    },
+    {
+      "id": "accordion-in-ceilidh-bands",
+      "title": "Accordion in ceilidh bands",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **button accordion** (often B/C or C#/D in Irish-influenced lineups; piano accordion in many Scottish ceilidh bands) supplies **chords**, **bass pulse**, and **melody** when needed. Scottish ceilidh repertoire favours **strong left-hand rhythm** for dancers — reels and jigs at steady tempo, strathspeys with lifted dotted feel.\n\n**Phil Cunningham** (with **Aly Bain** in **Boys of the Lough** and solo projects) represents masterful Scottish accordion — melody, harmony, and composition. Accordion often **leads** a ceilidh set when fiddle rests; in sessions it may start the tune with chordal introduction.\n\nCeilidh Band standard lineup frequently includes accordion as harmonic engine alongside fiddle and piano.\n\n![Accordion player](https://en.wikipedia.org/wiki/Special:FilePath/Accordion_player.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "piano",
+      "title": "Piano",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Piano** anchors many **ceilidh bands** and **country dance** groups — vamping chords, bass lines, and occasional melody doubles. Unlike Irish pub sessions, where guitar and bouzouki dominate backing, Scottish hall dances historically relied on **piano** and **drum kit** for volume in large rooms.\n\nPiano style is **rhythmic** rather than classical — think dance-band voicing, not Liszt. Folk revival recordings from the 1970s onward feature piano in **Battlefield Band** and similar groups. Session pianists are rarer in small pubs (portability) but common on stages and in teaching rooms."
+        }
+      ]
+    },
+    {
+      "id": "guitar",
+      "title": "Guitar",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Guitar** in Scottish folk plays **chord accompaniment** — strumming or picking patterns in D, G, A, and related keys. **DADGAD** tuning appears in Celtic folk backing, as in Irish practice. Guitar supports **song sets** in folk clubs and **session backing** where space allows.\n\nGuitar is less central than in Irish bouzouki-led sessions but ubiquitous in **singer-songwriter** folk, **pub singarounds**, and festival workshops. **Dick Gaughan**'s guitar work shows how Scots song and political ballad tradition merge with trad harmony."
+        }
+      ]
+    },
+    {
+      "id": "bodhrán-and-percussion",
+      "title": "Bodhrán and percussion",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **bodhrán** — Irish frame drum — appears in Scottish sessions through cross-border influence, especially where Irish and Scottish musicians share festival bills. Native Scottish percussion includes **snare** and **bass drum** in **pipe bands**, **kit drums** in ceilidh bands, and **spoons** or **bones** in informal settings.\n\nCeilidh **drummers** mark reel and jig lift with clear backbeat; pipe-band **snare** writing uses complex rudiments judged in competition. Session bodhrán players should **listen** — overbearing percussion ruins fiddle and pipe balance, as in Irish etiquette.\n\nPipe Band Drumming are a specialised world distinct from casual session bodhrán — competing drummers study scores and unison patterns for games seasons."
+        }
+      ]
+    },
+    {
+      "id": "cello-in-folk-scenes",
+      "title": "Cello in folk scenes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Cello** entered Scottish folk ensembles through revival and fusion groups seeking **bass lines** and **harmonic colour** below fiddle and accordion. **Capercaillie** and contemporary folk bands use cello for pad and rhythmic bowing; some quartets arrange trad tunes for string ensemble.\n\nCello is not a historical ceilidh instrument, but it is a **living** one on festival stages and recordings. Players adapt **ornament** sparingly — the role is often supportive, anchoring tonality for modern arrangements while fiddle and pipes carry melodic accent.\n\n![Cello being played](https://en.wikipedia.org/wiki/Special:FilePath/Cello_study.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "ensemble-pictures",
+      "title": "Ensemble pictures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Classic ceilidh band:** fiddle, accordion, piano, bass (or cello), drums — tempo for dancers, medleys of reels and jigs, occasional strathspey set.\n\n**Pub session:** fiddle, pipes or whistle, guitar, optional bodhrán — ear-led sets, listener focus.\n\n**Folk revival band:** pipes, fiddle, accordion, guitar, cello, keyboards — concert arrangements, Gaelic song sets, festival sound."
+        }
+      ]
+    },
+    {
+      "id": "famous-players-and-memorable-details",
+      "title": "Famous players and memorable details",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Phil Cunningham** (born 1960) brought accordion to the front of **Silly Wizard** and countless ceilidh stages — his harmony voicings and left-hand rhythm define a generation of box players. **Hamish Moore** revived **Scottish smallpipes** for indoor sessions when Highland pipes would overwhelm the room. **Memorable detail:** Moore's pipes are often heard beside fiddle in folk clubs, not on parade grounds."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Parallel lesson: `regions-celtic-ireland-03-instruments-voices-ii`. Irish sessions lean on **guitar**, **bouzouki**, **banjo**, and **concertina**; Scottish ceilidhs lean on **piano**, **accordion**, and **kit drums** for hall volume. Bodhrán crosses both worlds; **pipe-band percussion** is distinctly Scottish.\n\nIrish **céilí bands** parallel Scottish **ceilidh bands** — similar social function, different standard instrumentations by region. When you hear **Battlefield Band**, notice accordion and pipes sharing lead; when you hear **Planxty**, notice bouzouki and pipes — cousins, not copies."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Accordion** and **piano** are ceilidh-band staples driving dance rhythm in large halls.\n- **Guitar** supports song and session backing; less dominant than in Irish bouzouki culture but widespread.\n- **Bodhrán** appears through cross-border session influence; **pipe-band drums** are a separate competitive art.\n- **Cello** adds bass and harmony in modern folk ensembles and fusion bands.\n- Ceilidh **tempo and lift** matter more than virtuosic solos for dance crowds.\n- Ensemble roles flex — accordion may lead; fiddle may drop to harmony in arranged sets."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Gary West** — *Voicing Scotland* (folk ensembles and national identity).\n- **Battlefield Band** recordings — hear accordion, pipes, and guitar in revival lineup.\n- **Wikipedia** — [Ceilidh](https://en.wikipedia.org/wiki/C%C3%A8ilidh), [Pipe band](https://en.wikipedia.org/wiki/Pipe_band).\n- **Hands Up for Trad** — Scottish Folk Awards listings for contemporary band lineups."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "ceilidh-band",
+      "type": "ensemble",
+      "name": "Ceilidh Band",
+      "summary": "Dance ensemble with fiddle, accordion, piano, and drums",
+      "blurb": "Standard lineup drives reels and jigs for village halls, weddings, and Burns suppers.",
+      "url": "https://en.wikipedia.org/wiki/C%C3%A8ilidh",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Accordion_player.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "pipe-band-drums",
+      "type": "tradition",
+      "name": "Pipe Band Drumming",
+      "summary": "Scored snare, tenor, and bass drum corps with massed pipes",
+      "blurb": "Competitive rudiments judged at Highland games and World Pipe Band Championships.",
+      "url": "https://en.wikipedia.org/wiki/Pipe_band",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Pipe_band_at_the_2005_Scottish_Highland_Games_in_Estes_Park%2C_Colorado.jpg?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "phil-cunningham",
+      "type": "artist",
+      "name": "Phil Cunningham",
+      "summary": "Accordionist and producer in Scottish folk revival",
+      "blurb": "Silly Wizard and solo work defined box-led ceilidh and concert repertoire.",
+      "years": "1960–",
+      "region": "Scotland",
+      "url": "https://en.wikipedia.org/wiki/Phil_Cunningham_(musician)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Accordion.jpg?width=320",
+      "playlist_index": 4
+    },
+    {
+      "id": "hamish-moore",
+      "type": "artist",
+      "name": "Hamish Moore",
+      "summary": "Smallpipes maker and player",
+      "blurb": "Revived Scottish smallpipes for indoor folk ensemble use.",
+      "url": "https://en.wikipedia.org/wiki/Hamish_Moore",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Smallpipes.jpg?width=320",
+      "playlist_index": 5
+    }
+  ],
+  "entity_order": [
+    "phil-cunningham",
+    "hamish-moore"
+  ],
+  "playlist": [
+    {
+      "id": "phil-cunningham",
+      "label": "Phil Cunningham — Scottish accordion",
+      "youtube": "https://www.youtube.com/watch?v=5v8BAzZ0z0Y",
+      "subtitle": ""
+    },
+    {
+      "id": "ceilidh-band-set",
+      "entity_id": "ceilidh-band",
+      "label": "Ceilidh band reel set",
+      "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c",
+      "subtitle": "Ceilidh Band"
+    },
+    {
+      "id": "pipe-band-drumming",
+      "entity_id": "pipe-band-drums",
+      "label": "Pipe band drum corps",
+      "youtube": "https://www.youtube.com/watch?v=0nF5mB1JP8s",
+      "subtitle": "Pipe Band Drumming"
+    },
+    {
+      "id": "dick-gaughan",
+      "label": "Dick Gaughan — Scots song and guitar",
+      "youtube": "https://www.youtube.com/watch?v=8qH6hZJqHqY",
+      "subtitle": ""
+    },
+    {
+      "id": "phil-cunningham-box",
+      "entity_id": "phil-cunningham",
+      "label": "Phil Cunningham accordion",
+      "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+      "subtitle": "Phil Cunningham"
+    },
+    {
+      "id": "smallpipes-indoor",
+      "entity_id": "hamish-moore",
+      "label": "Hamish Moore smallpipes",
+      "youtube": "https://www.youtube.com/watch?v=2g6F8h8aZ0E",
+      "subtitle": "Hamish Moore"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Accordion and piano are ceilidh-band staples for hall volume and dance rhythm.",
+    "Guitar supports song and session backing across folk clubs and festivals.",
+    "Bodhrán appears through cross-border session influence.",
+    "Pipe-band drumming is scored ensemble competition distinct from session bodhrán.",
+    "Cello adds bass and harmony in modern folk and fusion ensembles.",
+    "Ceilidh tempo and lift matter more than solo flash for dancers.",
+    "**Accordion** and **piano** are ceilidh-band staples driving dance rhythm in large halls.",
+    "**Guitar** supports song and session backing; less dominant than in Irish bouzouki culture but widespread.",
+    "**Bodhrán** appears through cross-border session influence; **pipe-band drums** are a separate competitive art.",
+    "**Cello** adds bass and harmony in modern folk ensembles and fusion bands.",
+    "Ceilidh **tempo and lift** matter more than virtuosic solos for dance crowds.",
+    "Ensemble roles flex — accordion may lead; fiddle may drop to harmony in arranged sets."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "Voicing Scotland",
+      "author": "Gary West",
+      "note": "Folk ensembles and identity"
+    },
+    {
+      "type": "link",
+      "title": "Ceilidh — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/C%C3%A8ilidh",
+      "note": "Social dance context"
+    },
+    {
+      "type": "link",
+      "title": "Pipe band — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pipe_band",
+      "note": "Drum corps and competition"
+    },
+    {
+      "type": "book",
+      "title": "The Accordion in Scottish Traditional Music",
+      "author": "Gary West",
+      "note": "Box in ceilidh bands"
+    },
+    {
+      "type": "link",
+      "title": "Phil Cunningham",
+      "url": "https://en.wikipedia.org/wiki/Phil_Cunningham_(musician)",
+      "note": "Accordion in folk revival"
+    },
+    {
+      "type": "album",
+      "title": "Caledonian Road",
+      "author": "Silly Wizard",
+      "note": "Accordion-led ensemble"
+    },
+    {
+      "type": "link",
+      "title": "Savourna Stevenson",
+      "url": "https://en.wikipedia.org/wiki/Savourna_Stevenson",
+      "note": "Harp in folk clubs"
+    },
+    {
+      "type": "link",
+      "title": "Hands Up for Trad",
+      "url": "https://www.handsupfortrad.scot/",
+      "note": "Scottish trad news"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "Ceilidh",
+      "url": "https://en.wikipedia.org/wiki/C%C3%A8ilidh"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    }
+  ],
+  "quiz_markdown": "### Q1. A typical Scottish ceilidh band often includes:\n\n- A) Fiddle, accordion, piano, and drums for dance music\n- B) Only solo harp with no rhythm instruments\n- C) Full symphony orchestra with harp concerto only\n- D) Electronic dance music laptop exclusively\n\n**Answer:** A\n\n### Q2. Phil Cunningham is renowned as a master of Scottish accordion playing.\n\n**Answer:** True\n\n### Q3. Piano in Scottish ceilidh bands primarily provides:\n\n- A) Rhythmic chord accompaniment and bass support for dancers\n- B) Only operatic aria accompaniment\n- C) Silent page-turning without sound\n- D) Timpani rolls in classical repertoire only\n\n**Answer:** A\n\n### Q4. Pipe-band snare drumming is judged in competition with complex unison rudiments.\n\n**Answer:** True\n\n### Q5. Bodhrán appears in some Scottish sessions through influence from Irish session culture.\n\n**Answer:** True\n\n### Q6. Cello in modern Scottish folk bands often plays:\n\n- A) Bass lines and harmonic support beneath fiddle and pipes\n- B) Only piobaireachd on a chanter\n- C) Lead Highland bagpipe melodies exclusively\n- D) DJ scratching techniques\n\n**Answer:** A\n\n### Q7. Scottish hall dances historically relied on piano volume more than small-pub guitar backing.\n\n**Answer:** True\n\n### Q8. Dick Gaughan is associated with:\n\n- A) Scots song tradition and guitar-accompanied folk ballads\n- B) Pipe-band snare rudiments only\n- C) Baroque trumpet concertos\n- D) Electronic techno production exclusively\n\n**Answer:** A\n\n### Q9. Accordion in ceilidh bands may lead a dance set when fiddle rests.\n\n**Answer:** True\n\n### Q10. Compared with Ireland, bouzouki is more central to Irish sessions than to typical Scottish ceilidh bands.\n\n**Answer:** True\n\n### Q11. Overbearing bodhrán volume can disrupt balance with fiddle and pipes in sessions.\n\n**Answer:** True\n\n### Q12. Capercaillie represents a folk ensemble that incorporated instruments like cello in modern arrangements.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "A typical Scottish ceilidh band often includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fiddle, accordion, piano, and drums for dance music",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Fiddle, accordion, piano, and drums for dance music"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Phil Cunningham is renowned as a master of Scottish accordion playing.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Piano in Scottish ceilidh bands primarily provides:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rhythmic chord accompaniment and bass support for dancers",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Rhythmic chord accompaniment and bass support for dancers"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Pipe-band snare drumming is judged in competition with complex unison rudiments.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Bodhrán appears in some Scottish sessions through influence from Irish session culture.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Cello in modern Scottish folk bands often plays:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bass lines and harmonic support beneath fiddle and pipes",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Bass lines and harmonic support beneath fiddle and pipes"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Scottish hall dances historically relied on piano volume more than small-pub guitar backing.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dick Gaughan is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Scots song tradition and guitar-accompanied folk ballads",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Scots song tradition and guitar-accompanied folk ballads"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Accordion in ceilidh bands may lead a dance set when fiddle rests.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Compared with Ireland, bouzouki is more central to Irish sessions than to typical Scottish ceilidh bands.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Overbearing bodhrán volume can disrupt balance with fiddle and pipes in sessions.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Capercaillie represents a folk ensemble that incorporated instruments like cello in modern arrangements.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-scotland-03-instruments-voices-ii-quiz",
+    "title": "Scottish Instruments — Session Voices II quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "A typical Scottish ceilidh band often includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Fiddle, accordion, piano, and drums for dance music",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Fiddle, accordion, piano, and drums for dance music"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Phil Cunningham is renowned as a master of Scottish accordion playing.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Piano in Scottish ceilidh bands primarily provides:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Rhythmic chord accompaniment and bass support for dancers",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Rhythmic chord accompaniment and bass support for dancers"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Pipe-band snare drumming is judged in competition with complex unison rudiments.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Bodhrán appears in some Scottish sessions through influence from Irish session culture.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Cello in modern Scottish folk bands often plays:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Bass lines and harmonic support beneath fiddle and pipes",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Bass lines and harmonic support beneath fiddle and pipes"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Scottish hall dances historically relied on piano volume more than small-pub guitar backing.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Dick Gaughan is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Scots song tradition and guitar-accompanied folk ballads",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Scots song tradition and guitar-accompanied folk ballads"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Accordion in ceilidh bands may lead a dance set when fiddle rests.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, bouzouki is more central to Irish sessions than to typical Scottish ceilidh bands.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Overbearing bodhrán volume can disrupt balance with fiddle and pipes in sessions.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Capercaillie represents a folk ensemble that incorporated instruments like cello in modern arrangements.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "id": "legacy-singing-breath",
+  "title": "Breath Support",
+  "track": "singing",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "singing",
+    "legacy"
+  ],
+  "path": "08-singing/01-breath.md",
+  "sections": [
+    {
+      "id": "breath-support-for-singers",
+      "title": "Breath Support for Singers",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** singing | **Difficulty:** 1/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Breath is the engine of singing. Efficient breath management gives steady tone, reliable pitch, and stamina through long sets without throat tension."
+        }
+      ]
+    },
+    {
+      "id": "low-breath",
+      "title": "Low breath",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Air should expand the lower ribs and belly — not lift the shoulders. Shoulder breathing tightens the throat and looks like 'performing breathing.' Let ribs widen sideways; keep jaw loose."
+        }
+      ]
+    },
+    {
+      "id": "phrase-planning",
+      "title": "Phrase planning",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Map breath marks before long chorus lines. Breathe at lyric commas or between repeated lines — not mid-word. Mark your lyric sheet."
+        }
+      ]
+    },
+    {
+      "id": "rebound-breath",
+      "title": "Rebound breath",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "After a soft exhale on 'ah' or hum, notice the automatic refill. Session singing needs phrase after phrase — quick low refills, not huge gulps. The breath returns naturally after speaking a sentence."
+        }
+      ]
+    },
+    {
+      "id": "try-this",
+      "title": "Try this",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Breathe in through nose for four counts, feel lower ribs widen, release on gentle hum. Hum, release, feel rebound inhale without lifting chest."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Efficient singing breath expands:\n\n- A) Lower ribs and belly\n- B) Shoulders primarily\n- C) Only the throat\n- D) Leg muscles\n\n**Answer:** A\n\n### Q2. Shoulder lifting during inhalation often tightens the throat.\n\n**Answer:** True\n\n### Q3. Phrase planning means:\n\n- A) Marking natural breath points before singing\n- B) Holding breath as long as possible always\n- C) Breathing only between songs\n- D) Avoiding all inhalation\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Efficient singing breath expands:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Lower ribs and belly",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Lower ribs and belly"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Shoulder lifting during inhalation often tightens the throat.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Phrase planning means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marking natural breath points before singing",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Marking natural breath points before singing"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-singing-breath-quiz",
+    "title": "Breath Support quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Efficient singing breath expands:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Lower ribs and belly",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Lower ribs and belly"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Shoulder lifting during inhalation often tightens the throat.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Phrase planning means:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Marking natural breath points before singing",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Marking natural breath points before singing"
+      }
+    ]
+  }
+}

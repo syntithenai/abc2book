@@ -76,6 +76,16 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
     }
   }
 
+  if (h.nowPlayingExpanded) {
+    if (hasMusic) {
+      return { type: 'midi' }
+    }
+    if (hasLinks) {
+      const linkNum = mediaController.mediaLinkNumber != null ? mediaController.mediaLinkNumber : 0
+      return { type: 'media', linkNum: linkNum }
+    }
+  }
+
   return null
 }
 

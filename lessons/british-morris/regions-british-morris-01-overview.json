@@ -1,0 +1,938 @@
+{
+  "id": "regions-british-morris-01-overview",
+  "title": "Morris and Country Dance — Overview",
+  "track": "regions",
+  "tier": 1,
+  "region": "british-morris",
+  "difficulty": 3,
+  "prerequisites": [
+    "regions-celtic-ireland-01-overview"
+  ],
+  "tags": [
+    "british",
+    "morris",
+    "british-folk",
+    "overview"
+  ],
+  "path": "10-regions/british-folk/morris/01-overview.md",
+  "sections": [
+    {
+      "id": "morris-and-country-dance-overview",
+      "title": "Morris and Country Dance — Overview",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** British Isles Folk | **Region:** british-morris | **Tier:** 1\n**Prerequisites:** regions-celtic-ireland-01-overview\n**Tags:** british, morris, british-folk, overview"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Cotswold, Border, Northwest morris.\n\nMorris and Country Dance belongs to the **British Isles Folk** curriculum. Bampton Morris\nOak\n\nThis lesson develops listening precision for **Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polk** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-england",
+      "title": "Compared with England",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**English Traditional Music** (`regions-british-england-01-overview`) covers the same lesson slot from the anchor perspective. This lesson stresses: **morris side vs Irish session**.\n\n| Topic | England anchor | Morris and Country Dance (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | English Traditional Music spans fiddle, concertina, melodeon, and unaccompanied … | Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, … |\n\n**Parallel anchor lesson:** `regions-british-england-01-overview`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-01-overview`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Cotswold, Border, Northwest morris.\n\nStudy **morris and country dance** through listening first. Wikipedia's article on [Morris dance](https://en.wikipedia.org/wiki/Morris_dance) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **British Isles Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **melodeon, pipe and tabor, fiddle**. Ensemble layer: **morris side band, concertina**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **jigs, polkas, processional tunes**. Dance context: **Cotswold, Border, Northwest morris**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **Sharp revival, Morris Ring**. Contemporary scenes: **display sides, May Day**. Tune repertoire anchor: **Banbury Bill, Lads-a-Bunchum**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Cotswold, Border, Northwest morris.\n- Lead instruments: melodeon, pipe and tabor, fiddle\n- Ensemble: morris side band, concertina\n- Forms: jigs, polkas, processional tunes\n- Dance: Cotswold, Border, Northwest morris\n- History: Sharp revival, Morris Ring\n- Scenes: display sides, May Day\n- Repertoire: Banbury Bill, Lads-a-Bunchum\n- Compared with England: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Morris and Country Dance is a living tradition with regional accent.\n- Focus: Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, proces.\n- Compared with England: shared heritage, distinct emphasis.\n- Forms: jigs, polkas, processional tunes.\n- Dance: Cotswold, Border, Northwest morris.\n- Transmission: Sharp revival, Morris Ring."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\no\nr\nr\ni\ns\n \nd\na\nn\nc\ne\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\no\nr\nr\ni\ns\n_\nd\na\nn\nc\ne\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nE\nn\ng\nl\na\nn\nd\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "bampton-morris",
+      "type": "artist",
+      "name": "Bampton Morris",
+      "summary": "Representative musician or ensemble in british-morris trad",
+      "blurb": "Study Bampton Morris for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Bampton_Morris",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "oak",
+      "type": "band",
+      "name": "Oak",
+      "summary": "Representative musician or ensemble in british-morris trad",
+      "blurb": "Study Oak for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Oak",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "bampton-morris",
+    "oak"
+  ],
+  "playlist": [
+    {
+      "id": "regions-british-morris-01-overview-pl1",
+      "entity_id": "bampton-morris",
+      "label": "Bampton Morris — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Bampton Morris"
+    },
+    {
+      "id": "regions-british-morris-01-overview-pl2",
+      "entity_id": "oak",
+      "label": "Oak — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Oak"
+    },
+    {
+      "id": "regions-british-morris-01-overview-pl3",
+      "label": "Morris and Country Dance — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-british-morris-01-overview-pl4",
+      "label": "Morris and Country Dance — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Morris and Country Dance rewards comparative study.",
+    "Focus: Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polk.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: jigs, polkas, processional tunes.",
+    "Dance: Cotswold, Border, Northwest morris.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Morris and Country Dance is a living tradition with regional accent.",
+    "Focus: Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, proces.",
+    "Compared with England: shared heritage, distinct emphasis.",
+    "Transmission: Sharp revival, Morris Ring."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Morris dance",
+      "url": "https://en.wikipedia.org/wiki/Morris_dance",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "British Isles Folk",
+      "url": "https://en.wikipedia.org/wiki/Morris_dance",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Morris and Country Dance spans melodeon, pipe and tabor, fid",
+      "url": "https://en.wikipedia.org/wiki/Morris_dance",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co\n\n### Q2. Morris and Country Dance rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with England, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) melodeon, pipe and tabor, fiddle\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) melodeon, pipe and tabor, fiddle\n\n### Q5. Ensemble voices include:\n- A) morris side band, concertina\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) morris side band, concertina\n\n### Q6. Tune and song forms include:\n- A) jigs, polkas, processional tunes\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) jigs, polkas, processional tunes\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) Sharp revival, Morris Ring\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) Sharp revival, Morris Ring\n\n### Q9. Contemporary scenes include:\n- A) display sides, May Day\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) display sides, May Day\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Banbury Bill, Lads-a-Bunchum\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Banbury Bill, Lads-a-Bunchum\n\n### Q12. The Compared with England section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Morris and Country Dance rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with England, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "melodeon, pipe and tabor, fiddle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "morris side band, concertina",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "melodeon, pipe and tabor, fiddle",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") melodeon, pipe and tabor, fiddle"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "jigs, polkas, processional tunes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "morris side band, concertina",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "melodeon, pipe and tabor, fiddle",
+          "correct": false
+        }
+      ],
+      "explain": ") morris side band, concertina"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "jigs, polkas, processional tunes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "melodeon, pipe and tabor, fiddle",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "morris side band, concertina",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sharp revival, Morris Ring",
+          "correct": false
+        }
+      ],
+      "explain": ") jigs, polkas, processional tunes"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "jigs, polkas, processional tunes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sharp revival, Morris Ring",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "display sides, May Day",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "display sides, May Day",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Banbury Bill, Lads-a-Bunchum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sharp revival, Morris Ring",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "jigs, polkas, processional tunes",
+          "correct": false
+        }
+      ],
+      "explain": ") Sharp revival, Morris Ring"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "display sides, May Day",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sharp revival, Morris Ring",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Banbury Bill, Lads-a-Bunchum",
+          "correct": false
+        }
+      ],
+      "explain": ") display sides, May Day"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Banbury Bill, Lads-a-Bunchum",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": ") Banbury Bill, Lads-a-Bunchum"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with England section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-british-morris-01-overview-quiz",
+    "title": "Morris and Country Dance — Overview quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Morris and Country Dance rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with England, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Morris and Country Dance spans melodeon, pipe and tabor, fiddle leading voices, jigs, polkas, processional tunes, and Co",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "melodeon, pipe and tabor, fiddle",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "morris side band, concertina",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "melodeon, pipe and tabor, fiddle",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") melodeon, pipe and tabor, fiddle"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "jigs, polkas, processional tunes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "morris side band, concertina",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "melodeon, pipe and tabor, fiddle",
+            "correct": false
+          }
+        ],
+        "explain": ") morris side band, concertina"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "jigs, polkas, processional tunes",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "melodeon, pipe and tabor, fiddle",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "morris side band, concertina",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sharp revival, Morris Ring",
+            "correct": false
+          }
+        ],
+        "explain": ") jigs, polkas, processional tunes"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "jigs, polkas, processional tunes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sharp revival, Morris Ring",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "display sides, May Day",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "display sides, May Day",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Banbury Bill, Lads-a-Bunchum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sharp revival, Morris Ring",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "jigs, polkas, processional tunes",
+            "correct": false
+          }
+        ],
+        "explain": ") Sharp revival, Morris Ring"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "display sides, May Day",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sharp revival, Morris Ring",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Banbury Bill, Lads-a-Bunchum",
+            "correct": false
+          }
+        ],
+        "explain": ") display sides, May Day"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Banbury Bill, Lads-a-Bunchum",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": ") Banbury Bill, Lads-a-Bunchum"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with England section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

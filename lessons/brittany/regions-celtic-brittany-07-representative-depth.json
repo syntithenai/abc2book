@@ -1,0 +1,800 @@
+{
+  "id": "regions-celtic-brittany-07-representative-depth",
+  "title": "Breton Traditional Music — Representative Fusions and Scenes",
+  "track": "regions",
+  "tier": 7,
+  "region": "brittany",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-celtic-brittany-06-history"
+  ],
+  "tags": [
+    "brittany",
+    "celtic",
+    "fusion",
+    "scenes"
+  ],
+  "path": "10-regions/celtic/brittany/07-representative-depth.md",
+  "sections": [
+    {
+      "id": "breton-traditional-music-representative-fusions-and-scenes",
+      "title": "Breton Traditional Music — Representative Fusions and Scenes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 7 | **Difficulty:** 6/10\n**Prerequisites:** regions-celtic-brittany-06-history\n**Tags:** brittany, stivell, fest-noz, fusion, bagad, lorient, bro-gozh"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Breton music lives in **two overlapping worlds** tourists often confuse: the **fest-noz floor** — commune halls, dancer stamina, **bombard–binou** unison, **kan ha diskan** participation — and the **concert stage** — **bagad** finals at **Lorient**, **Alan Stivell** harp-rock fusion, **fest-noz rock** bands packing youth into halls with electric guitar. This lesson maps representative **scenes**, not a exhaustive artist catalogue: what each stage optimises, who listens, how repertoire crosses between floor and spotlight, and why flattening everything into \"Celtic fusion\" misses Brittany's social nuance.\n\nRepresentative depth means **hearing institutions in sound**: a **Bagad Kemper** championship set teaches competition transmission; a **Quimper** fest-noz teaches floor tempo; a **Stivell** anniversary concert teaches export fusion. Musicians who excel in one scene may fail in another without recalibration — the same tension Irish step-dance spectacle versus Clare session culture demonstrates."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ireland's representative depth spans **pub sessions**, **fleadh** stages, **Riverdance**-scale spectacle, **Planxty** folk-rock, and diaspora cities. Brittany's parallel centres **fest-noz** (not pub session), **bagad** (not céilí band), **Stivell-line fusion** (not solely Dublin folk-rock), and **Bro Gozh** urban fest-noz rather than Boston Irish pub circuits as the default diaspora image.\n\n| Scene | Irish reference | Breton exemplar |\n|-------|---------------|-----------------|\n| Community dance night | Set dancing, céilí | **Fest-noz** |\n| Massed pipes spectacle | Rare in trad | **Bagad** finals |\n| Fusion export | Planxty, Chieftains rock crossover | **Alan Stivell** |\n| Youth dance-rock | Ceoltóirí plus later bands | **Fest-noz rock** |\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-07-representative-depth`."
+        }
+      ]
+    },
+    {
+      "id": "scene-1-village-fest-noz",
+      "title": "Scene 1: Village fest-noz",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **commune hall fest-noz** is the tradition's heartbeat. Band scale is modest — **sonerion** duo plus fiddle, or accordion-led **Vannetais** lineup. **Animateurs** teach **gavotte** and **plinn** figures; **kan ha diskan** singers step forward between sets. Revenue often funds local cultural associations; alcohol policy varies but **dance participation** is central.\n\n**Musician contract:** Sustain tempo, repeat until released, avoid competition-showmanship accelerations. **Listener contract:** Join floor or respect space; song sections invite voices.\n\nFest-noz calendars list these nights across Brittany — the first scene serious learners should attend.\n\n![Fest-noz community dance](https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "scene-2-festival-dance-tent",
+      "title": "Scene 2: Festival dance tent",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Regional festivals — **Festival de Cornouaille** in Quimper, **Yaouank** in Rennes — host **large fest-noz** with touring bands and mixed audiences. Sound is louder, floors more crowded, repertoire more **standardised** across regions. Useful for hearing star **bombard** players; less ideal as sole model for tempo if you only play village halls.\n\n**Crossover:** Festival programmes preview **bagad** guests and fusion acts — programmers bridge scenes intentionally."
+        }
+      ]
+    },
+    {
+      "id": "scene-3-bagad-championships",
+      "title": "Scene 3: Bagad championships",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Bagad** finals — especially at **Festival Interceltique de Lorient** — showcase massed **binou**, **bombard**, and **percussion** with adjudicated **suites**. Visual drill, uniform, and harmonic arrangement matter. Repertoire includes **gavotte** arrangements and composed **Suite Sudarmoricaine** material scaled for stadium impact.\n\n**Musician contract:** Precision, unison, dynamic control across sections. **Listener contract:** Audience often dances in festival grounds but differently from commune **rond** teaching nights.\n\nBagad Kemper, Bro Kemperle, and Brieg symbolise competitive excellence on recordings.\n\n![Bagad at festival](https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "scene-4-alan-stivell-and-fusion-lineage",
+      "title": "Scene 4: Alan Stivell and fusion lineage",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Alan Stivell** defined Breton **export fusion**: electric bass and drums under **harp** and **binou**, Breton and French lyrics, Pan-Celtic festival circuits. Follow-on artists and collaborators extended **Celtic rock** without single formula — some lean folk, some arena rock.\n\n**Musician contract:** Concert staging, album arc, audience seated or standing — not caller-driven figures. **Listener contract:** Appreciate arrangement and identity politics; do not assume concert tempi suit fest-noz floors.\n\n — listen to *Renaissance de la Harpe Celtique* (1972) before judging Breton fusion by festival staging alone. Alan Stivell remains the reference for international Breton sound — *Chemins de terre*, live anniversary sets, harp-and-pipe dialogues.\n\n![Alan Stivell on stage](https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "scene-5-fest-noz-rock-and-electric-bands",
+      "title": "Scene 5: Fest-noz rock and electric bands",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "From the **1990s–2000s**, **fest-noz rock** (*fest-noz rock* movement) brought electric guitar, rock rhythm, and youth crowds to dance nights — **Red Cardell**, **Bleizi Ruz**, and related bands pack halls with energy closer to rock gig than sonerion duet. Repertoire still ties to **pliñ** and **gavotte** dance function — the pulse remains **fest-noz**, not abstract rock concert.\n\nDebate echoes Ireland's folk-rock history: purists versus youth engagement. Practically, electric bands recruit dancers who may later explore **bombard** classes."
+        }
+      ]
+    },
+    {
+      "id": "scene-6-kan-ha-diskan-and-song-concerts",
+      "title": "Scene 6: Kan ha diskan and song concerts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Yann-Fanch Kemener**, **Annie Ebrel**, and song specialists perform **kan ha diskan** and narrative repertoire in concert halls and fest-noz song sets — voice-forward scenes where instrumental dance bands step back. **Bro Gozh** cultural centres host song circles paralleling Irish sean-nós nights.\n\nKan ha diskan specialists carry language transmission visible on stage."
+        }
+      ]
+    },
+    {
+      "id": "scene-7-bro-gozh-diaspora",
+      "title": "Scene 7: Bro Gozh diaspora",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Paris, Nantes, and other cities host **Bro Gozh** (\"Old Country\") fest-noz, classes, and **bagad** branches. Urban learners often meet tradition here before village travel. Diaspora tempi and repertoire skew toward **portable** standards — Sonerion book favourites, festival hits — with less village variation.\n\nCompared with Irish diaspora sessions in Boston or Chicago, Breton urban scenes emphasise **organised fest-noz** and **bagad** youth more than pub trade."
+        }
+      ]
+    },
+    {
+      "id": "scene-8-pan-celtic-festival-exchange",
+      "title": "Scene 8: Pan-Celtic festival exchange",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Lorient Interceltique** programmes Irish, Welsh, Scottish, Galician, and Breton artists on shared stages — repertoire **cross-pollinates**. Breton **bagads** meet Galician pipe bands; fusion artists collaborate. Risk: **Celtic homogenisation** in festival medleys. Benefit: professional networks and tourist funding for rural associations."
+        }
+      ]
+    },
+    {
+      "id": "navigating-between-scenes",
+      "title": "Navigating between scenes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| If you play… | Learn from… | Avoid… |\n|-------------|-------------|--------|\n| Village fest-noz | Dastum field recordings, local animateurs | Bagad competition tempi only |\n| Bagad competition | Championship recordings, section teachers | Ignoring fest-noz dancer stamina |\n| Fusion concerts | Stivell discography, festival live sets | Assuming export set lists equal floor repeats |\n| Song nights | Kemener, Ebrel, kan ha diskan archives | Forcing dance figures during long song sets |"
+        }
+      ]
+    },
+    {
+      "id": "reading-and-listening-list",
+      "title": "Reading and listening list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Alan Stivell** — live festival recordings vs *Chemins de terre* studio fusion.\n- **Bagad Kemper** — Lorient finals sets.\n- **Red Cardell** — fest-noz rock bridge scene.\n- **Yann-Fanch Kemener** — kan ha diskan concert and fest-noz song.\n- **Festival Interceltique de Lorient** archives — Pan-Celtic context."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Fest-noz floor and concert stage optimise different tempo, arrangement, and participation rules.\n- Bagad championships are spectacle transmission — not substitutes for commune dance pedagogy.\n- Alan Stivell embodies export fusion without replacing fest-noz social core.\n- Fest-noz rock recruits youth through electric dance nights tied to gavotte and plinn function.\n- Bro Gozh and Pan-Celtic festivals mediate diaspora and cross-border repertoire exchange."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "stivell",
+      "type": "person",
+      "name": "Alan Stivell",
+      "summary": "Concert fusion and export face of Breton music",
+      "blurb": "Harp-rock staging at Pan-Celtic festivals alongside fest-noz support.",
+      "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "fest-noz",
+      "type": "organization",
+      "name": "Fest-noz",
+      "summary": "Community dance scene versus concert spectacle",
+      "blurb": "Village halls anchor tradition; festival tents scale participation.",
+      "url": "https://en.wikipedia.org/wiki/Fest-noz",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "bagad",
+      "type": "organization",
+      "name": "Bagad",
+      "summary": "Lorient championship spectacle transmission",
+      "blurb": "Massed pipes and bombards on festival main stages.",
+      "url": "https://en.wikipedia.org/wiki/Bagad",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "kan-ha-diskan",
+      "type": "genre",
+      "name": "Kan ha diskan",
+      "summary": "Voice-forward fest-noz and concert song scenes",
+      "blurb": "Yann-Fanch Kemener lineage carries language and song transmission.",
+      "url": "https://en.wikipedia.org/wiki/Kan_ha_diskan",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fest-noz.jpg?width=320"
+    },
+    {
+      "id": "alan-stivell",
+      "type": "artist",
+      "name": "Alan Stivell",
+      "summary": "Breton harpist and fusion pioneer",
+      "blurb": "Renaissance de la Harpe Celtique (1972) and fest-noz stages linked Brittany to pan-Celtic networks.",
+      "years": "1944–",
+      "region": "Brittany",
+      "url": "https://en.wikipedia.org/wiki/Alan_Stivell",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Alan_Stivell.jpg?width=320",
+      "playlist_index": 4
+    }
+  ],
+  "entity_order": [
+    "fest-noz",
+    "bagad",
+    "alan-stivell"
+  ],
+  "playlist": [
+    {
+      "id": "stivell-concert",
+      "entity_id": "stivell",
+      "label": "Alan Stivell concert fusion",
+      "youtube": "https://www.youtube.com/watch?v=VFp5bMaaMeg",
+      "subtitle": "Alan Stivell"
+    },
+    {
+      "id": "fest-noz-village",
+      "entity_id": "fest-noz",
+      "label": "Village fest-noz atmosphere",
+      "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s",
+      "subtitle": "Fest-noz"
+    },
+    {
+      "id": "bagad-lorient-final",
+      "entity_id": "bagad",
+      "label": "Bagad Lorient finals",
+      "youtube": "https://www.youtube.com/watch?v=RGOlgoGrVnE",
+      "subtitle": "Bagad"
+    },
+    {
+      "id": "fest-noz-rock",
+      "label": "Fest-noz rock energy",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "stivell-renaissance",
+      "entity_id": "alan-stivell",
+      "label": "Alan Stivell — Renaissance de la Harpe Celtique",
+      "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ",
+      "subtitle": "Alan Stivell"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Fest-noz floor and concert stage optimise different tempo and participation.",
+    "Bagad championships are spectacle transmission — not village hall substitutes.",
+    "Stivell embodies export fusion without replacing fest-noz social core.",
+    "Fest-noz rock recruits youth through electric dance nights.",
+    "Bro Gozh and Lorient mediate diaspora and Pan-Celtic exchange.",
+    "Fest-noz floor and concert stage optimise different tempo, arrangement, and participation rules.",
+    "Bagad championships are spectacle transmission — not substitutes for commune dance pedagogy.",
+    "Alan Stivell embodies export fusion without replacing fest-noz social core.",
+    "Fest-noz rock recruits youth through electric dance nights tied to gavotte and plinn function.",
+    "Bro Gozh and Pan-Celtic festivals mediate diaspora and cross-border repertoire exchange."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Festival Interceltique de Lorient",
+      "url": "https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient",
+      "note": "Pan-Celtic festival and bagad finals"
+    },
+    {
+      "type": "link",
+      "title": "Yaouank",
+      "url": "https://en.wikipedia.org/wiki/Yaouank",
+      "note": "Rennes fest-noz and youth festival"
+    },
+    {
+      "type": "link",
+      "title": "Alan Stivell discography",
+      "url": "https://en.wikipedia.org/wiki/Alan_Stivell_discography",
+      "note": "Fusion lineage recordings"
+    },
+    {
+      "type": "album",
+      "title": "Renaissance de la Harpe Celtique",
+      "author": "Alan Stivell",
+      "note": "Landmark LP"
+    },
+    {
+      "type": "link",
+      "title": "Fest-noz vs concert stage",
+      "url": "https://en.wikipedia.org/wiki/Fest-noz",
+      "note": "Social vs commercial"
+    },
+    {
+      "type": "link",
+      "title": "Lorient Interceltique",
+      "url": "https://www.festival-interceltique.com/",
+      "note": "Festival network"
+    }
+  ],
+  "quiz_markdown": "### Q1. The commune hall fest-noz prioritises:\n\n- A) Dancer stamina and participatory dance and song\n- B) Adjudicated pipe-band drill only\n- C) Seated orchestral listening without movement\n- D) DJ turntable battles only\n\n**Answer:** A\n\n### Q2. Bagad finals at Lorient differ from village fest-noz in scale and adjudicated suite format.\n\n**Answer:** True\n\n### Q3. Alan Stivell is associated with concert fusion export, not solely village sonerion duets.\n\n**Answer:** True\n\n### Q4. Fest-noz rock bands connect electric rock energy to dance functions like gavotte and plinn.\n\n**Answer:** True\n\n### Q5. Kan ha diskan specialists perform in voice-forward scenes separate from pure instrumental dance sets.\n\n**Answer:** True\n\n### Q6. Bro Gozh refers to:\n\n- A) Breton diaspora cultural life in cities like Paris and Nantes\n- B) Irish Gaeltacht regions only\n- C) Scottish Highland games\n- D) Welsh male voice choirs only\n\n**Answer:** A\n\n### Q7. Musicians should always play bagad competition tempi at village fest-noz.\n\n**Answer:** False — floor context requires sustainable dance tempo.\n\n### Q8. Festival Interceltique de Lorient programmes Pan-Celtic exchange across regions.\n\n**Answer:** True\n\n### Q9. Compared with Irish pub sessions, Breton representative scenes centre fest-noz rather than fiddle-session trade.\n\n**Answer:** True\n\n### Q10. Concert fusion and fest-noz floor practice cannot coexist in the same cultural ecosystem.\n\n**Answer:** False — they coexist with different contracts.\n\n### Q11. Red Cardell represents fest-noz rock bridging youth audiences to dance nights.\n\n**Answer:** True\n\n### Q12. Flattening all Breton scenes into generic Celtic fusion misrepresents social context.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The commune hall fest-noz prioritises:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Dancer stamina and participatory dance and song",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Dancer stamina and participatory dance and song"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Bagad finals at Lorient differ from village fest-noz in scale and adjudicated suite format.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Alan Stivell is associated with concert fusion export, not solely village sonerion duets.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Fest-noz rock bands connect electric rock energy to dance functions like gavotte and plinn.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Kan ha diskan specialists perform in voice-forward scenes separate from pure instrumental dance sets.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Bro Gozh refers to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Breton diaspora cultural life in cities like Paris and Nantes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Breton diaspora cultural life in cities like Paris and Nantes"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Musicians should always play bagad competition tempi at village fest-noz.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "floor context requires sustainable dance tempo."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Festival Interceltique de Lorient programmes Pan-Celtic exchange across regions.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Compared with Irish pub sessions, Breton representative scenes centre fest-noz rather than fiddle-session trade.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Concert fusion and fest-noz floor practice cannot coexist in the same cultural ecosystem.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "they coexist with different contracts."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Red Cardell represents fest-noz rock bridging youth audiences to dance nights.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Flattening all Breton scenes into generic Celtic fusion misrepresents social context.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-brittany-07-representative-depth-quiz",
+    "title": "Breton Traditional Music — Representative Fusions and Scenes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The commune hall fest-noz prioritises:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Dancer stamina and participatory dance and song",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Dancer stamina and participatory dance and song"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Bagad finals at Lorient differ from village fest-noz in scale and adjudicated suite format.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Alan Stivell is associated with concert fusion export, not solely village sonerion duets.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Fest-noz rock bands connect electric rock energy to dance functions like gavotte and plinn.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Kan ha diskan specialists perform in voice-forward scenes separate from pure instrumental dance sets.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Bro Gozh refers to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Breton diaspora cultural life in cities like Paris and Nantes",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Breton diaspora cultural life in cities like Paris and Nantes"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Musicians should always play bagad competition tempi at village fest-noz.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "floor context requires sustainable dance tempo."
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Festival Interceltique de Lorient programmes Pan-Celtic exchange across regions.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Compared with Irish pub sessions, Breton representative scenes centre fest-noz rather than fiddle-session trade.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Concert fusion and fest-noz floor practice cannot coexist in the same cultural ecosystem.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "they coexist with different contracts."
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Red Cardell represents fest-noz rock bridging youth audiences to dance nights.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Flattening all Breton scenes into generic Celtic fusion misrepresents social context.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

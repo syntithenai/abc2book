@@ -1,0 +1,938 @@
+{
+  "id": "regions-roots-cajun-04-genres-forms",
+  "title": "Cajun & Creole Music — Tunes, Forms, and Style",
+  "track": "regions",
+  "tier": 4,
+  "region": "roots-cajun",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-roots-cajun-03-instruments-voices-ii"
+  ],
+  "tags": [
+    "roots",
+    "cajun",
+    "roots",
+    "tunes,",
+    "forms,"
+  ],
+  "path": "10-regions/north-american-roots/cajun/04-genres-forms.md",
+  "sections": [
+    {
+      "id": "cajun-creole-music-tunes-forms-and-style",
+      "title": "Cajun & Creole Music — Tunes, Forms, and Style",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** North American Roots | **Region:** roots-cajun | **Tier:** 4\n**Prerequisites:** regions-roots-cajun-03-instruments-voices-ii\n**Tags:** roots, cajun, roots, tunes,, forms,"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "two-step, waltz, blues overlap\n\nCajun & Creole Music belongs to the **North American Roots** curriculum. Dennis McGee\nClifton Chenier\n\nThis lesson develops listening precision for **two-step, waltz, blues overlap** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-appalachia",
+      "title": "Compared with Appalachia",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Appalachian Old-Time Music** (`regions-roots-appalachia-04-genres-forms`) covers the same lesson slot from the anchor perspective. This lesson stresses: **two-step, waltz, blues overlap**.\n\n| Topic | Appalachia anchor | Cajun & Creole Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | breakdowns, reels, ballads… | two-step, waltz, blues overlap… |\n\n**Parallel anchor lesson:** `regions-roots-appalachia-04-genres-forms`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-04-genres-forms`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "two-step, waltz, blues overlap\n\nStudy **cajun & creole music** through listening first. Wikipedia's article on [Cajun music](https://en.wikipedia.org/wiki/Cajun_music) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **North American Roots**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **fiddle, accordion, voice**. Ensemble layer: **guitar, triangle, drums**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **two-step, waltz, blues overlap**. Dance context: **fais do-do, dance hall**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **Acadian exile, revival**. Contemporary scenes: **zydeco border, Festivals Acadiens**. Tune repertoire anchor: **Jolie Blonde, Allons à Lafayette**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- two-step, waltz, blues overlap\n- Lead instruments: fiddle, accordion, voice\n- Ensemble: guitar, triangle, drums\n- Forms: two-step, waltz, blues overlap\n- Dance: fais do-do, dance hall\n- History: Acadian exile, revival\n- Scenes: zydeco border, Festivals Acadiens\n- Repertoire: Jolie Blonde, Allons à Lafayette\n- Compared with Appalachia: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Cajun & Creole Music is a living tradition with regional accent.\n- Focus: two-step, waltz, blues overlap.\n- Compared with Appalachia: shared heritage, distinct emphasis.\n- Forms: two-step, waltz, blues overlap.\n- Dance: fais do-do, dance hall.\n- Transmission: Acadian exile, revival."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nC\na\nj\nu\nn\n \nm\nu\ns\ni\nc\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nC\na\nj\nu\nn\n_\nm\nu\ns\ni\nc\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nA\np\np\na\nl\na\nc\nh\ni\na\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "dennis-mcgee",
+      "type": "artist",
+      "name": "Dennis McGee",
+      "summary": "Representative musician or ensemble in roots-cajun trad",
+      "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "clifton-chenier",
+      "type": "band",
+      "name": "Clifton Chenier",
+      "summary": "Representative musician or ensemble in roots-cajun trad",
+      "blurb": "Study Clifton Chenier for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Clifton_Chenier",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "dennis-mcgee",
+    "clifton-chenier"
+  ],
+  "playlist": [
+    {
+      "id": "regions-roots-cajun-04-genres-forms-pl1",
+      "entity_id": "dennis-mcgee",
+      "label": "Dennis McGee — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Dennis McGee"
+    },
+    {
+      "id": "regions-roots-cajun-04-genres-forms-pl2",
+      "entity_id": "clifton-chenier",
+      "label": "Clifton Chenier — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Clifton Chenier"
+    },
+    {
+      "id": "regions-roots-cajun-04-genres-forms-pl3",
+      "label": "Cajun & Creole Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-roots-cajun-04-genres-forms-pl4",
+      "label": "Cajun & Creole Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Cajun & Creole Music rewards comparative study.",
+    "Focus: two-step, waltz, blues overlap.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: two-step, waltz, blues overlap.",
+    "Dance: fais do-do, dance hall.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Cajun & Creole Music is a living tradition with regional accent.",
+    "Compared with Appalachia: shared heritage, distinct emphasis.",
+    "Transmission: Acadian exile, revival."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Cajun music",
+      "url": "https://en.wikipedia.org/wiki/Cajun_music",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "North American Roots",
+      "url": "https://en.wikipedia.org/wiki/Cajun_music",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "two-step, waltz, blues overlap",
+      "url": "https://en.wikipedia.org/wiki/Cajun_music",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) two-step, waltz, blues overlap\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) two-step, waltz, blues overlap\n\n### Q2. Cajun & Creole Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Appalachia, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) fiddle, accordion, voice\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) fiddle, accordion, voice\n\n### Q5. Ensemble voices include:\n- A) guitar, triangle, drums\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) guitar, triangle, drums\n\n### Q6. Tune and song forms include:\n- A) two-step, waltz, blues overlap\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) two-step, waltz, blues overlap\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) Acadian exile, revival\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) Acadian exile, revival\n\n### Q9. Contemporary scenes include:\n- A) zydeco border, Festivals Acadiens\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) zydeco border, Festivals Acadiens\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Jolie Blonde, Allons à Lafayette\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Jolie Blonde, Allons à Lafayette\n\n### Q12. The Compared with Appalachia section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "two-step, waltz, blues overlap",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") two-step, waltz, blues overlap"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Cajun & Creole Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Appalachia, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "two-step, waltz, blues overlap",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "fiddle, accordion, voice",
+          "correct": true
+        }
+      ],
+      "explain": ") fiddle, accordion, voice"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "two-step, waltz, blues overlap",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "guitar, triangle, drums",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": ") guitar, triangle, drums"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "fiddle, accordion, voice",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "two-step, waltz, blues overlap",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") two-step, waltz, blues overlap"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "fiddle, accordion, voice",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, triangle, drums",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "fiddle, accordion, voice",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "guitar, triangle, drums",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Acadian exile, revival",
+          "correct": true
+        }
+      ],
+      "explain": ") Acadian exile, revival"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "guitar, triangle, drums",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Acadian exile, revival",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "zydeco border, Festivals Acadiens",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "fiddle, accordion, voice",
+          "correct": false
+        }
+      ],
+      "explain": ") zydeco border, Festivals Acadiens"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "fiddle, accordion, voice",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, triangle, drums",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "fiddle, accordion, voice",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "guitar, triangle, drums",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jolie Blonde, Allons à Lafayette",
+          "correct": true
+        }
+      ],
+      "explain": ") Jolie Blonde, Allons à Lafayette"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Appalachia section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Acadian exile, revival",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "zydeco border, Festivals Acadiens",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "guitar, triangle, drums",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-roots-cajun-04-genres-forms-quiz",
+    "title": "Cajun & Creole Music — Tunes, Forms, and Style quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "two-step, waltz, blues overlap",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") two-step, waltz, blues overlap"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Cajun & Creole Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Appalachia, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "two-step, waltz, blues overlap",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "fiddle, accordion, voice",
+            "correct": true
+          }
+        ],
+        "explain": ") fiddle, accordion, voice"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "two-step, waltz, blues overlap",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "guitar, triangle, drums",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": ") guitar, triangle, drums"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "fiddle, accordion, voice",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "two-step, waltz, blues overlap",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") two-step, waltz, blues overlap"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "fiddle, accordion, voice",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, triangle, drums",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "fiddle, accordion, voice",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "guitar, triangle, drums",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Acadian exile, revival",
+            "correct": true
+          }
+        ],
+        "explain": ") Acadian exile, revival"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "guitar, triangle, drums",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Acadian exile, revival",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "zydeco border, Festivals Acadiens",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "fiddle, accordion, voice",
+            "correct": false
+          }
+        ],
+        "explain": ") zydeco border, Festivals Acadiens"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "fiddle, accordion, voice",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, triangle, drums",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "fiddle, accordion, voice",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "guitar, triangle, drums",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Jolie Blonde, Allons à Lafayette",
+            "correct": true
+          }
+        ],
+        "explain": ") Jolie Blonde, Allons à Lafayette"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Appalachia section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Acadian exile, revival",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "zydeco border, Festivals Acadiens",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "guitar, triangle, drums",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

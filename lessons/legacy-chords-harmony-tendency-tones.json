@@ -1,0 +1,178 @@
+{
+  "id": "legacy-chords-harmony-tendency-tones",
+  "title": "Tendency Tones and Resolution",
+  "track": "chords",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "chords",
+    "legacy"
+  ],
+  "path": "05-harmony/01-tendency-tones.md",
+  "sections": [
+    {
+      "id": "tendency-tones-and-resolution",
+      "title": "Tendency Tones and Resolution",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** harmony | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Certain pitches in tonal music 'want' to move to others, creating the feeling of arrival or suspense."
+        }
+      ]
+    },
+    {
+      "id": "leading-tone",
+      "title": "Leading tone",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "7th scale degree in major rises to tonic by semitone. In G major, F♯ wants to resolve up to G."
+        }
+      ]
+    },
+    {
+      "id": "tritone-resolution",
+      "title": "Tritone resolution",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The tritone in V7 (B and F in G7→C) resolves outward: B up to C, F down to E. This defines dominant function."
+        }
+      ]
+    },
+    {
+      "id": "melodic-tendency",
+      "title": "Melodic tendency",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "2̂ often steps to 1̂ or 3̂. 4̂ may fall to 3̂. Backing musicians who clash with unresolved melody tendency sound wrong even on 'correct' chords."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Leading tone resolves:\n\n- A) Up to tonic by semitone\n- B) Down to subdominant\n- C) Up by whole tone to mediant\n- D) No preferred direction\n\n**Answer:** A\n\n### Q2. V7 tritone creates tension resolving at cadence.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Leading tone resolves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Up to tonic by semitone",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Up to tonic by semitone"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "V7 tritone creates tension resolving at cadence.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-chords-harmony-tendency-tones-quiz",
+    "title": "Tendency Tones and Resolution quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Leading tone resolves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Up to tonic by semitone",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Up to tonic by semitone"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "V7 tritone creates tension resolving at cadence.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

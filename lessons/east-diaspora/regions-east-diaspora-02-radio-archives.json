@@ -1,0 +1,859 @@
+{
+  "id": "regions-east-diaspora-02-radio-archives",
+  "title": "Radio and Archives Abroad",
+  "track": "regions",
+  "tier": 4,
+  "region": "east-diaspora",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-east-diaspora-01-diaspora-communities"
+  ],
+  "tags": [
+    "east",
+    "diaspora",
+    "eastern-europe"
+  ],
+  "path": "10-regions/eastern-europe/diaspora/02-radio-archives.md",
+  "sections": [
+    {
+      "id": "radio-and-archives-abroad",
+      "title": "Radio and Archives Abroad",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Eastern European Folk | **Unit:** Diaspora | **Tier:** 4"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Broadcasting and field archives shaped how Hungarian village music repertoire spread internationally.\n\nBest study habit: **Listen to regional recordings and compare with the anchor unit.**"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-hungary",
+      "title": "Compared with Hungary",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Diaspora scenes remix anchor traditions with local dance floors, radio, and language communities. Compare accent and social context — not only tune titles."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Diaspora traditions carry anchor roots into new institutional settings.\n- Comparative listening prevents flattening regional specificity.\n- Festivals and archives link communities across borders."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Wikipedia diaspora and folk revival articles for orientation.\n- Lesson playlists when present in metadata."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "muzsik-s",
+      "type": "artist",
+      "name": "Muzsikás",
+      "summary": "Representative musician or ensemble in east-hungary trad",
+      "blurb": "Study Muzsikás for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Muzsikás",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "b-la-bart-k",
+      "type": "band",
+      "name": "Béla Bartók",
+      "summary": "Representative musician or ensemble in east-hungary trad",
+      "blurb": "Study Béla Bartók for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Béla_Bartók",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "muzsik-s",
+    "b-la-bart-k"
+  ],
+  "playlist": [
+    {
+      "id": "regions-east-diaspora-02-radio-archives-pl1",
+      "entity_id": "muzsik-s",
+      "label": "Muzsikás — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Muzsikás"
+    },
+    {
+      "id": "regions-east-diaspora-02-radio-archives-pl2",
+      "entity_id": "b-la-bart-k",
+      "label": "Béla Bartók — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Béla Bartók"
+    },
+    {
+      "id": "regions-east-diaspora-02-radio-archives-pl3",
+      "label": "Hungarian Folk Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-east-diaspora-02-radio-archives-pl4",
+      "label": "Hungarian Folk Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Hungarian Folk Music rewards comparative study.",
+    "Focus: Hungarian Folk Music spans violin, voice, shepherd flute leading voices, csárdás, verbunko.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: csárdás, verbunkos, asymmetric metre.",
+    "Dance: couple dance, village circle.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Diaspora traditions carry anchor roots into new institutional settings.",
+    "Comparative listening prevents flattening regional specificity.",
+    "Festivals and archives link communities across borders."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Hungary",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Eastern European Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Hungarian Folk Music spans violin, voice, shepherd flute lea",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. Diaspora traditions typically remix anchor roots with local context.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q2. Best study habit for this lesson:\n- A) Listen to regional recordings and compare with the anchor unit\n- B) Avoid all comparative study\n- C) Use only one generic compilation\n- D) Skip dance context\n**Answer:** A) Listen to regional recordings and compare with the anchor unit\n\n### Q3. Festivals and archives help transmit diaspora repertoire.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q4. The Compared with section links back to:\n- A) Hungary\n- B) Unrelated pop charts\n- C) Only classical piano\n- D) No anchor tradition\n**Answer:** A) Hungary\n\n### Q5. Generic world-music labels often flatten regional accent.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q6. This lesson's overview emphasises:\n- A) Broadcasting and field archives shaped how Hungarian village music repertoire sp\n- B) Only hip-hop production\n- C) Only ballet syllabus\n- D) Only music engraving\n**Answer:** A) Broadcasting and field archives shaped how Hungarian village music repertoire sp\n\n### Q7. Parallel anchor lessons should be consulted when comparison feels abstract.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Oral and community transmission remain relevant in diaspora trad.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q9. Dance-linked repertoire matters in diaspora trad study.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q10. Listening across borders builds ear precision.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Anchor unit for this block is part of Eastern European Folk.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q12. Substitute equivalent recordings if playlist links shift.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Diaspora traditions typically remix anchor roots with local context.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Best study habit for this lesson:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Listen to regional recordings and compare with the anchor unit",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") Listen to regional recordings and compare with the anchor unit"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Festivals and archives help transmit diaspora repertoire.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "The Compared with section links back to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hungary",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") Hungary"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Generic world-music labels often flatten regional accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "This lesson's overview emphasises:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Broadcasting and field archives shaped how Hungarian village music repertoire sp",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": ") Broadcasting and field archives shaped how Hungarian village music repertoire sp"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parallel anchor lessons should be consulted when comparison feels abstract.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Oral and community transmission remain relevant in diaspora trad.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dance-linked repertoire matters in diaspora trad study.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Listening across borders builds ear precision.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Anchor unit for this block is part of Eastern European Folk.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Substitute equivalent recordings if playlist links shift.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-east-diaspora-02-radio-archives-quiz",
+    "title": "Radio and Archives Abroad quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Diaspora traditions typically remix anchor roots with local context.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Best study habit for this lesson:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Listen to regional recordings and compare with the anchor unit",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") Listen to regional recordings and compare with the anchor unit"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Festivals and archives help transmit diaspora repertoire.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "The Compared with section links back to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Hungary",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") Hungary"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Generic world-music labels often flatten regional accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "This lesson's overview emphasises:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Broadcasting and field archives shaped how Hungarian village music repertoire sp",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": ") Broadcasting and field archives shaped how Hungarian village music repertoire sp"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Parallel anchor lessons should be consulted when comparison feels abstract.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Oral and community transmission remain relevant in diaspora trad.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Dance-linked repertoire matters in diaspora trad study.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Listening across borders builds ear precision.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Anchor unit for this block is part of Eastern European Folk.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Substitute equivalent recordings if playlist links shift.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

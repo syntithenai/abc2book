@@ -78,6 +78,7 @@ export default function NowPlayingHost(props) {
     gigModeActive: gigModeActive,
     pathname: pathname,
     tunes: tunes,
+    nowPlayingExpanded: !!props.nowPlayingExpanded,
   })
 
   const resumePlaybackOnHost = !!(mediaController
@@ -106,6 +107,7 @@ export default function NowPlayingHost(props) {
       {
         isQueueActive: isQueueActive,
         resolvePlaybackForItem: resolvePlaybackForItem,
+        nowPlayingExpanded: !!props.nowPlayingExpanded,
       }
     )
   }, [
@@ -121,6 +123,7 @@ export default function NowPlayingHost(props) {
     mediaController && mediaController.isPlaying,
     mediaController && mediaController.isLoading,
     voiceSettingsRevision,
+    props.nowPlayingExpanded,
   ])
 
   const playbackVoiceKey = useMemo(function() {
@@ -165,7 +168,13 @@ export default function NowPlayingHost(props) {
       consumed = mc.consumePendingPlayRequest(tuneId, 'playMidi', null)
     }
     if (!consumed && tuneChanged && mc.maybeAutostart && !suppressAutostart) {
-      mc.maybeAutostart('playMidi', 'tune', false)
+      const pendingMidi = mc.pendingMidiPlayRef && mc.pendingMidiPlayRef.current
+      const kickoffActive = mc.isMidiKickoffActiveRef && mc.isMidiKickoffActiveRef.current
+          && mc.isMidiKickoffActiveRef.current()
+      const armed = mc.hasActivePlaybackIntent && mc.hasActivePlaybackIntent()
+      if (!pendingMidi && !kickoffActive && armed) {
+        mc.maybeAutostart('playMidi', 'tune', false)
+      }
     }
     return undefined
   }, [shouldHost, playbackTarget && playbackTarget.type, playingTune && playingTune.id, tunebook, suppressAutostart])

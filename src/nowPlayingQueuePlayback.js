@@ -375,6 +375,21 @@ function shouldHostViewedTunePlayback(viewedTuneId, pathname, queue, mediaContro
   return !!resolveHostPlayingTune(hostTuneId, tunes, mediaController)
 }
 
+/** Mount the shared engine while the fullscreen mini player is open on a tune page. */
+function shouldHostExpandedMiniPlayer(viewedTuneId, pathname, queue, mediaController, tunes, nowPlayingExpanded) {
+  if (!nowPlayingExpanded) return false
+  if (!viewedTuneId || !isViewedTunePagePath(pathname)) return false
+  if (isQueueActive(queue) && isQueueOutputting(mediaController)) return false
+  const hostTuneId = resolveHostPlayingTuneId({
+    queue: queue,
+    mediaController: mediaController,
+    viewedTuneId: viewedTuneId,
+    pathname: pathname,
+  })
+  if (hostTuneId !== viewedTuneId) return false
+  return !!resolveHostPlayingTune(hostTuneId, tunes, mediaController)
+}
+
 /**
  * Whether the app-level NowPlayingHost should mount the shared media/midi engine.
  */
@@ -387,6 +402,7 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
     gigModeActive,
     pathname,
     tunes,
+    nowPlayingExpanded,
   } = opts || {}
 
   if (practiceSessionActive || gigModeActive) return false
@@ -405,6 +421,11 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
   const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
   if (urlPlayback) return true
   if (shouldHostViewedTunePlayback(viewedTuneId, pathname, queue, mediaController, tunes)) {
+    return true
+  }
+  if (shouldHostExpandedMiniPlayer(
+    viewedTuneId, pathname, queue, mediaController, tunes, nowPlayingExpanded
+  )) {
     return true
   }
   if (isQueueActive(queue)) {

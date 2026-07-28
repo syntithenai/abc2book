@@ -1,0 +1,938 @@
+{
+  "id": "regions-french-louisiana-cajun-01-overview",
+  "title": "Louisiana Cajun Music — Overview",
+  "track": "regions",
+  "tier": 1,
+  "region": "french-louisiana-cajun",
+  "difficulty": 3,
+  "prerequisites": [
+    "regions-celtic-ireland-01-overview"
+  ],
+  "tags": [
+    "french",
+    "louisiana-cajun",
+    "french-acadian",
+    "overview"
+  ],
+  "path": "10-regions/french-acadian/louisiana-cajun/01-overview.md",
+  "sections": [
+    {
+      "id": "louisiana-cajun-music-overview",
+      "title": "Louisiana Cajun Music — Overview",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** French & Acadian Folk | **Region:** french-louisiana-cajun | **Tier:** 1\n**Prerequisites:** regions-celtic-ireland-01-overview\n**Tags:** french, louisiana-cajun, french-acadian, overview"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall.\n\nLouisiana Cajun Music belongs to the **French & Acadian Folk** curriculum. Dennis McGee\n\nThis lesson develops listening precision for **Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance h** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-quebec",
+      "title": "Compared with Quebec",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Quebecois Traditional Music** (`regions-french-quebec-01-overview`) covers the same lesson slot from the anchor perspective. This lesson stresses: **Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall.**.\n\n| Topic | Quebec anchor | Louisiana Cajun Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | Quebecois Traditional Music spans fiddle, voice leading voices, reels, jigs, qua… | Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, a… |\n\n**Parallel anchor lesson:** `regions-french-quebec-01-overview`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-01-overview`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall.\n\nStudy **louisiana cajun music** through listening first. Wikipedia's article on [Cajun music](https://en.wikipedia.org/wiki/Cajun_music) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **French & Acadian Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **accordion, fiddle**. Ensemble layer: **guitar, triangle**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **two-step, waltz**. Dance context: **dance hall**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **Louisiana French communities**. Contemporary scenes: **Festivals Acadiens**. Tune repertoire anchor: **Jolie Blonde**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall.\n- Lead instruments: accordion, fiddle\n- Ensemble: guitar, triangle\n- Forms: two-step, waltz\n- Dance: dance hall\n- History: Louisiana French communities\n- Scenes: Festivals Acadiens\n- Repertoire: Jolie Blonde\n- Compared with Quebec: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Louisiana Cajun Music is a living tradition with regional accent.\n- Focus: Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall..\n- Compared with Quebec: shared heritage, distinct emphasis.\n- Forms: two-step, waltz.\n- Dance: dance hall.\n- Transmission: Louisiana French communities."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nC\na\nj\nu\nn\n \nm\nu\ns\ni\nc\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nC\na\nj\nu\nn\n_\nm\nu\ns\ni\nc\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nQ\nu\ne\nb\ne\nc\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "dennis-mcgee",
+      "type": "artist",
+      "name": "Dennis McGee",
+      "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+      "blurb": "Study Dennis McGee for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Dennis_McGee",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "louisiana-cajun-music",
+      "type": "band",
+      "name": "Louisiana Cajun Music",
+      "summary": "Representative musician or ensemble in french-louisiana-cajun trad",
+      "blurb": "Study Louisiana Cajun Music for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Louisiana_Cajun_Music",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "dennis-mcgee",
+    "louisiana-cajun-music"
+  ],
+  "playlist": [
+    {
+      "id": "regions-french-louisiana-cajun-01-overview-pl1",
+      "entity_id": "dennis-mcgee",
+      "label": "Dennis McGee — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Dennis McGee"
+    },
+    {
+      "id": "regions-french-louisiana-cajun-01-overview-pl2",
+      "entity_id": "louisiana-cajun-music",
+      "label": "Louisiana Cajun Music — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Louisiana Cajun Music"
+    },
+    {
+      "id": "regions-french-louisiana-cajun-01-overview-pl3",
+      "label": "Louisiana Cajun Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-french-louisiana-cajun-01-overview-pl4",
+      "label": "Louisiana Cajun Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Louisiana Cajun Music rewards comparative study.",
+    "Focus: Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance h.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: two-step, waltz.",
+    "Dance: dance hall.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Louisiana Cajun Music is a living tradition with regional accent.",
+    "Focus: Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall..",
+    "Compared with Quebec: shared heritage, distinct emphasis.",
+    "Transmission: Louisiana French communities."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Cajun music",
+      "url": "https://en.wikipedia.org/wiki/Cajun_music",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "French & Acadian Folk",
+      "url": "https://en.wikipedia.org/wiki/Cajun_music",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Louisiana Cajun Music spans accordion, fiddle leading voices",
+      "url": "https://en.wikipedia.org/wiki/Cajun_music",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall.\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall.\n\n### Q2. Louisiana Cajun Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Quebec, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) accordion, fiddle\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) accordion, fiddle\n\n### Q5. Ensemble voices include:\n- A) guitar, triangle\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) guitar, triangle\n\n### Q6. Tune and song forms include:\n- A) two-step, waltz\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) two-step, waltz\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) Louisiana French communities\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) Louisiana French communities\n\n### Q9. Contemporary scenes include:\n- A) Festivals Acadiens\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) Festivals Acadiens\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Jolie Blonde\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Jolie Blonde\n\n### Q12. The Compared with Quebec section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "two-step, waltz",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louisiana French communities",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Festivals Acadiens",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall.",
+          "correct": true
+        }
+      ],
+      "explain": ") Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Louisiana Cajun Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Festivals Acadiens",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jolie Blonde",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Louisiana French communities",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Quebec, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Festivals Acadiens",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jolie Blonde",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "accordion, fiddle",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Jolie Blonde",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") accordion, fiddle"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, triangle",
+          "correct": true
+        }
+      ],
+      "explain": ") guitar, triangle"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "two-step, waltz",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") two-step, waltz"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Louisiana French communities",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": ") Louisiana French communities"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Festivals Acadiens",
+          "correct": true
+        }
+      ],
+      "explain": ") Festivals Acadiens"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "two-step, waltz",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louisiana French communities",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Festivals Acadiens",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Louisiana French communities",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Festivals Acadiens",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jolie Blonde",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "two-step, waltz",
+          "correct": false
+        }
+      ],
+      "explain": ") Jolie Blonde"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Quebec section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Festivals Acadiens",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jolie Blonde",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-french-louisiana-cajun-01-overview-quiz",
+    "title": "Louisiana Cajun Music — Overview quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "two-step, waltz",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Louisiana French communities",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Festivals Acadiens",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall.",
+            "correct": true
+          }
+        ],
+        "explain": ") Louisiana Cajun Music spans accordion, fiddle leading voices, two-step, waltz, and dance hall."
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Louisiana Cajun Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Festivals Acadiens",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Jolie Blonde",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Louisiana French communities",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Quebec, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Festivals Acadiens",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Jolie Blonde",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "accordion, fiddle",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Jolie Blonde",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") accordion, fiddle"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, triangle",
+            "correct": true
+          }
+        ],
+        "explain": ") guitar, triangle"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "two-step, waltz",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") two-step, waltz"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Louisiana French communities",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": ") Louisiana French communities"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Festivals Acadiens",
+            "correct": true
+          }
+        ],
+        "explain": ") Festivals Acadiens"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "two-step, waltz",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Louisiana French communities",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Festivals Acadiens",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Louisiana French communities",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Festivals Acadiens",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Jolie Blonde",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "two-step, waltz",
+            "correct": false
+          }
+        ],
+        "explain": ") Jolie Blonde"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Quebec section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Festivals Acadiens",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Jolie Blonde",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}
