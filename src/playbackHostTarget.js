@@ -11,11 +11,6 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
 
   if (!playingTune || !tunebook || !mediaController) return null
 
-  if (isQueueActiveFn(queue) && currentItem
-    && playingTune && currentItem.tuneId === playingTune.id) {
-    return resolvePlaybackForItemFn(playingTune, currentItem, tunebook)
-  }
-
   const hasMusic = tunebook.hasNotesOrChords && tunebook.hasNotesOrChords(playingTune)
   const hasLinks = Array.isArray(playingTune.links) && playingTune.links.length > 0
 
@@ -43,6 +38,12 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
   }
   if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute() && hasMusic) {
     return { type: 'midi' }
+  }
+
+  // Queue item only when the active route has not already chosen an engine.
+  if (isQueueActiveFn(queue) && currentItem
+    && playingTune && currentItem.tuneId === playingTune.id) {
+    return resolvePlaybackForItemFn(playingTune, currentItem, tunebook)
   }
 
   if (hasMusic && hasLinks && hasFilteredPlaybackVoices(playingTune)

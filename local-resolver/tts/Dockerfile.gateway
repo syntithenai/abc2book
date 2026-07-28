@@ -1,0 +1,30 @@
+FROM ubuntu:24.04
+
+RUN apt-get update \
+  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    ca-certificates \
+    curl \
+    python3 \
+    python3-pip \
+  && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY requirements-gateway.txt /app/requirements-gateway.txt
+RUN python3 -m pip install --no-cache-dir --break-system-packages -r /app/requirements-gateway.txt
+
+COPY gateway.py gateway_entrypoint.sh /app/
+RUN chmod +x /app/gateway_entrypoint.sh
+
+ENV TTS_GATEWAY_LISTEN_HOST=0.0.0.0 \
+    TTS_GATEWAY_LISTEN_PORT=8789 \
+    TTS_PRIMARY_URL=http://tts-gpu:8880 \
+    TTS_FALLBACK_URL=http://tts-cpu:5000 \
+    TTS_PRIMARY_KIND=openai \
+    TTS_FALLBACK_KIND=piper \
+    PYTHONUNBUFFERED=1
+
+EXPOSE 8789
+HEALTHCHECK --interval=30s --timeout=10s --start-period=20s --retries=5 \
+  CMD curl -fsS --max-time 5 http://127.0.0.1:8789/health || exit 1
+
+ENTRYPOINT ["/app/gateway_entrypoint.sh"]

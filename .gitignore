@@ -102,6 +102,9 @@ android/local.properties
 *.keystore
 !android/keystore.properties.example
 
+# Local Android build toolchain (portable JDK/SDK)
+.tools/
+
 # Theory example generator checkpoint (committed output is examples.js)
 src/feedContent/theory/examples.generated.json
 .cursor/debug-90131e.log

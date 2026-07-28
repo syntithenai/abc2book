@@ -132,6 +132,31 @@ describe('resolveHostPlaybackTarget', function() {
     )
     expect(target).toEqual({ type: 'midi' })
   })
+
+  test('prefers explicit midi route over queue item on same tune', function() {
+    const mediaController = {
+      requestedPlayState: 'playMidi',
+      playbackRouteMode: 'midi',
+      mediaLinkNumber: null,
+      isMidiPlaybackRoute: function() { return true },
+      isMediaPlaybackRoute: function() { return false },
+    }
+    const queueItem = { tuneId: tune.id, prefer: 'auto' }
+    const queue = { items: [queueItem], currentIndex: 0 }
+    const target = resolveHostPlaybackTarget(
+      mediaController,
+      tune,
+      tunebook,
+      queue,
+      queueItem,
+      null,
+      {
+        isQueueActive: function() { return true },
+        resolvePlaybackForItem: function() { return { type: 'media', linkNum: 0 } },
+      }
+    )
+    expect(target).toEqual({ type: 'midi' })
+  })
 })
 
 describe('shouldSkipHostMidiRouteApply', function() {
