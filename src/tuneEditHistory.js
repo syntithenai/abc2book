@@ -1,5 +1,30 @@
 const HISTORY_VERSION = 1
 const DEFAULT_MAX_ENTRIES = 50
+const MAX_ENTRIES_STORAGE_KEY = 'bookstorage_tune_edit_history_max'
+const MAX_ENTRIES_HARD_CAP = 200
+
+export function loadConfiguredMaxEntries() {
+  try {
+    const raw = localStorage.getItem(MAX_ENTRIES_STORAGE_KEY)
+    if (raw == null || raw === '') return DEFAULT_MAX_ENTRIES
+    const parsed = parseInt(raw, 10)
+    if (!isFinite(parsed) || parsed < 1) return DEFAULT_MAX_ENTRIES
+    return Math.min(MAX_ENTRIES_HARD_CAP, parsed)
+  } catch (e) {
+    return DEFAULT_MAX_ENTRIES
+  }
+}
+
+export function saveConfiguredMaxEntries(value) {
+  const parsed = parseInt(value, 10)
+  if (!isFinite(parsed) || parsed < 1) {
+    localStorage.removeItem(MAX_ENTRIES_STORAGE_KEY)
+    return DEFAULT_MAX_ENTRIES
+  }
+  const clamped = Math.min(MAX_ENTRIES_HARD_CAP, parsed)
+  localStorage.setItem(MAX_ENTRIES_STORAGE_KEY, String(clamped))
+  return clamped
+}
 
 function cloneHistoryValue(value) {
   if (value === null || value === undefined) return value
@@ -116,9 +141,11 @@ export function flushPendingTuneEdit(state, pendingEntries, tuneId, maxEntries =
   }
 }
 
+/** Pass null/undefined to skip pruning (e.g. tunes not loaded yet). Pass a Set to prune. */
 export function pruneTuneEditHistoryState(state, validTuneIds, maxEntries = DEFAULT_MAX_ENTRIES) {
   const normalized = normalizeTuneEditHistoryState(state)
-  const allowed = validTuneIds instanceof Set ? validTuneIds : null
+  if (validTuneIds == null) return normalized
+  const allowed = validTuneIds instanceof Set ? validTuneIds : new Set(validTuneIds)
   const nextStacks = {}
 
   Object.keys(normalized.stacks).forEach(function(tuneId) {
@@ -195,4 +222,11 @@ export function stepRedoTuneEdit(state, tuneId) {
   return { state: normalized, entry: entry }
 }
 
-export { DEFAULT_MAX_ENTRIES, HISTORY_VERSION, cloneHistoryValue, historyValuesEqual }
+export {
+  DEFAULT_MAX_ENTRIES,
+  HISTORY_VERSION,
+  MAX_ENTRIES_HARD_CAP,
+  MAX_ENTRIES_STORAGE_KEY,
+  cloneHistoryValue,
+  historyValuesEqual,
+}

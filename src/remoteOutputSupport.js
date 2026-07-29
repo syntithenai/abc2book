@@ -2,6 +2,7 @@
 
 import { playbackNeedsExternalProcessing, pitchShiftIsActive, getMediaPlaybackSettings } from './pitchTempoUtils';
 import { canCastNativeAudio } from './mediaCastSupport';
+import { requiresResolverProxiedPlayback } from './mediaProxyClient';
 
 export function isRemoteOutputActive(remoteOutputEngineRef) {
   const engine = remoteOutputEngineRef && remoteOutputEngineRef.current;
@@ -93,6 +94,18 @@ export function needsCastTranscodeSession(mediaController) {
   return tuneNeedsProcessing(mediaController.tune);
 }
 
+/** Use resolver /cast-playback HLS (or transcode) instead of a direct proxy URL. */
+export function needsCastHlsSession(mediaController, payload) {
+  if (!payload) return false;
+  const features = resolverFeatures(mediaController);
+  if (needsCastTranscodeSession(mediaController)) return true;
+  if (payload.sourceType === 'abc-midi') return true;
+  if (payload.sourceType === 'youtube' && features.castPlayback) return true;
+  if (payload.concatSet && Array.isArray(payload.queue) && payload.queue.length > 1) return true;
+  if (features.castPlayback && requiresResolverProxiedPlayback(payload.source)) return true;
+  return false;
+}
+
 export function canRouteToCastSdk(mediaController) {
   if (!mediaController) return false;
   const features = resolverFeatures(mediaController);
@@ -143,14 +156,24 @@ export function getSnapcastDisabledReason(mediaController) {
 export function getCastSdkDisabledReason(mediaController) {
   if (!mediaController) return 'No media loaded';
   const features = resolverFeatures(mediaController);
+  const srcType = tuneSrcType(mediaController);
   if (!canRouteToCastSdk(mediaController)) {
-    if (tuneSrcType(mediaController) === 'youtube' && !features.youtubeAudio) {
+    if (srcType === 'youtube' && !features.youtubeAudio) {
       return 'YouTube Cast requires resolver youtubeAudio';
+    }
+    if (srcType === 'youtube' && features.youtubeAudio && !features.castPlayback) {
+      return 'YouTube Cast requires a resolver with castPlayback (ffmpeg HLS)';
     }
     if (needsCastTranscodeSession(mediaController) && !features.castPlayback) {
       return 'Processed Cast requires resolver castPlayback (ffmpeg HLS)';
     }
     return 'Chromecast supports audio and YouTube via resolver';
+  }
+  if (srcType === 'youtube' && features.castPlayback) {
+    const castInfo = mediaController.mediaResolverStatus && mediaController.mediaResolverStatus.cast;
+    if (castInfo && castInfo.enabled === false) {
+      return 'This resolver does not offer Chromecast HLS playback';
+    }
   }
   return null;
 }

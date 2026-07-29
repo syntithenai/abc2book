@@ -4,19 +4,30 @@ import {
   exchangeAuthCode,
   loadAuthSession,
   logoutAuthSession,
+  LOGIN_AUTH_WAIT_MS,
+  oauthBffCandidatesForLogin,
+  pickAuthResolverBase,
+  pickAuthResolverBaseForLogin,
+  pickNextAuthResolverBase,
   readStoredAuthSessionId,
   refreshAuthSession,
   setOAuthLoginInFlight,
   storeAuthBase,
   storeAuthSessionId,
 } from './authResolverClient'
-import { waitForAuthBase } from './mediaResolverHealthStore'
+import { getMediaResolverHealthState, waitForAuthBase } from './mediaResolverHealthStore'
 import {
   clearLoginProfile,
   readLoginHintEmail,
   readStoredLoginProfile,
   storeLoginProfile,
 } from './googleLoginTokenClient'
+import {
+  requestGoogleAuthCodeViaBrowser,
+  shouldUseAndroidBrowserOAuth,
+  AndroidOAuthNavigateAway,
+} from './androidGoogleAuth'
+import { getGoogleOAuthRedirectUri } from './googleOAuthRedirectUri'
 
 function loginHintEmail() {
   var hint = readLoginHintEmail()
@@ -31,8 +42,10 @@ function loginHintEmail() {
 }
 
 function redirectUri() {
-  if (typeof window === 'undefined' || !window.location) return ''
-  return window.location.origin
+  return getGoogleOAuthRedirectUri(
+    (typeof process !== 'undefined' && process.env && process.env.REACT_APP_GOOGLE_CLIENT_ID)
+      || ''
+  )
 }
 
 /**
@@ -158,6 +171,21 @@ export function createOAuthBffController(ctx) {
     var prompt = ''
     if (options && options.forceConsent) prompt = 'consent'
     else if (forceConsentNext) prompt = 'consent'
+
+    if (shouldUseAndroidBrowserOAuth()) {
+      var androidScopes = scopesForRequest(extraScopes, options)
+      if (!(options && (options.loginOnly || options.identityOnly))) {
+        rememberExtraScopes(extraScopes)
+      }
+      return requestGoogleAuthCodeViaBrowser({
+        clientId: ctx.clientId,
+        scopes: androidScopes,
+        prompt: prompt,
+        loginHint: loginHintEmail(),
+        incremental: !!(options && options.incremental),
+      })
+    }
+
     // Prefer a synchronous GIS open on login clicks. Polling for GSI here
     // runs after setTimeout and browsers block the OAuth popup.
     var oauth2 = global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2
@@ -243,26 +271,108 @@ export function createOAuthBffController(ctx) {
     })
   }
 
+  function oauthBffExchangeErrorParts(err) {
+    return [
+      err && err.message,
+      err && err.body && err.body.detail,
+      err && err.body && err.body.error,
+      err && err.body && err.body.hint,
+    ].filter(Boolean).join(' ').toLowerCase()
+  }
+
+  function shouldRetryOAuthBffOnAnotherResolver(err) {
+    var text = oauthBffExchangeErrorParts(err)
+    return /client[_\s-]?secret|token_exchange|oauth_bff_unavailable|oauth exchange failed|missing_parameters|could not reach oauth resolver/.test(text)
+  }
+
+  function resolveLoginAuthBase() {
+    if (shouldUseAndroidBrowserOAuth()) {
+      var quickHealth = getMediaResolverHealthState()
+      var quickProbed = quickHealth && quickHealth.status && quickHealth.status.candidates
+        ? quickHealth.status.candidates : []
+      var quickBase = pickAuthResolverBaseForLogin(quickProbed)
+      if (quickBase) {
+        storeAuthBase(quickBase)
+        if (ctx.onAuthBaseResolved) ctx.onAuthBaseResolved(quickBase)
+        return Promise.resolve(quickBase)
+      }
+    }
+    return waitForAuthBase(LOGIN_AUTH_WAIT_MS, { untilProbeSettled: true }).then(function() {
+      var health = getMediaResolverHealthState()
+      var probed = health && health.status && health.status.candidates
+        ? health.status.candidates : []
+      var base = pickAuthResolverBaseForLogin(probed)
+      if (base) {
+        storeAuthBase(base)
+        if (ctx.onAuthBaseResolved) ctx.onAuthBaseResolved(base)
+      }
+      return base || ''
+    })
+  }
+
+  function exchangeCodeWithResolverFallback(codePayload, base, attempt, requestCodeAgain) {
+    attempt = attempt || 0
+    return exchangeCode(codePayload, base).catch(function(err) {
+      var health = getMediaResolverHealthState()
+      var probed = health && health.status && health.status.candidates
+        ? health.status.candidates : []
+      var candidates = oauthBffCandidatesForLogin(probed)
+      var nextBase = pickNextAuthResolverBase(candidates, base)
+      if (!nextBase || attempt >= 1 || !shouldRetryOAuthBffOnAnotherResolver(err)) {
+        throw err
+      }
+      storeAuthBase(nextBase)
+      if (ctx.onAuthBaseResolved) ctx.onAuthBaseResolved(nextBase)
+      console.warn('OAuth BFF exchange failed on ' + base + '; retrying on ' + nextBase, err)
+      return requestCodeAgain().then(function(retryPayload) {
+        return exchangeCodeWithResolverFallback(retryPayload, nextBase, attempt + 1, requestCodeAgain)
+      })
+    })
+  }
+
   function login() {
-    if (loginInFlight) return loginInFlight
+    // Always allow an explicit Login click to start a new attempt (Android WebView
+    // navigation leaves a never-settling promise on the previous try).
+    loginInFlight = null
     setOAuthLoginInFlight(true)
     var needConsent = !!forceConsentNext
-    loginInFlight = waitForAuthBase(5000).then(function(base) {
+    loginInFlight = resolveLoginAuthBase().then(function(base) {
       if (!base) {
-        throw new Error('No OAuth resolver available. Check Settings → Providers.')
+        throw new Error('No OAuth resolver available. Check Settings → Providers or your network connection.')
       }
-      storeAuthBase(base)
-      if (ctx.onAuthBaseResolved) ctx.onAuthBaseResolved(base)
       return requestAuthorizationCode(null, {
         forceConsent: needConsent,
       }).then(function(codePayload) {
-        return exchangeCode(codePayload, base)
+        return exchangeCodeWithResolverFallback(codePayload, base, 0, function() {
+          return requestAuthorizationCode(null, { forceConsent: needConsent })
+        })
       })
+    }).catch(function(err) {
+      if (err && err.name === 'AndroidOAuthNavigateAway') return null
+      throw err
     }).finally(function() {
       loginInFlight = null
       setOAuthLoginInFlight(false)
     })
     return loginInFlight
+  }
+
+  function completeAuthorizationCode(codePayload) {
+    if (!codePayload || !codePayload.code) {
+      return Promise.reject(new Error('No authorization code returned'))
+    }
+    setOAuthLoginInFlight(true)
+    var needConsent = !!forceConsentNext
+    return resolveLoginAuthBase().then(function(base) {
+      if (!base) {
+        throw new Error('No OAuth resolver available. Check Settings → Providers or your network connection.')
+      }
+      return exchangeCodeWithResolverFallback(codePayload, base, 0, function() {
+        return requestAuthorizationCode(null, { forceConsent: needConsent })
+      })
+    }).finally(function() {
+      setOAuthLoginInFlight(false)
+    })
   }
 
   function requestGoogleScopes(extraScopes, options) {
@@ -273,14 +383,14 @@ export function createOAuthBffController(ctx) {
     if (isIdentityOnlyScopes(extraScopes)) {
       scopeOptions.identityOnly = true
     }
-    return waitForAuthBase(5000).then(function(base) {
+    return resolveLoginAuthBase().then(function(base) {
       if (!base) {
         throw new Error('No OAuth resolver available')
       }
-      storeAuthBase(base)
-      if (ctx.onAuthBaseResolved) ctx.onAuthBaseResolved(base)
       return requestAuthorizationCode(extraScopes, scopeOptions).then(function(codePayload) {
-        return exchangeCode(codePayload, base)
+        return exchangeCodeWithResolverFallback(codePayload, base, 0, function() {
+          return requestAuthorizationCode(extraScopes, scopeOptions)
+        })
       })
     })
   }
@@ -411,6 +521,7 @@ export function createOAuthBffController(ctx) {
     rememberExtraScopes: rememberExtraScopes,
     tryRefreshAccessToken: tryRefreshAccessToken,
     resumeSession: resumeSession,
+    completeAuthorizationCode: completeAuthorizationCode,
     dispose: dispose,
   }
 }

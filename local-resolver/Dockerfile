@@ -172,101 +172,13 @@ RUN mkdir -p /opt/autochord-libs \
     && ln -sf /usr/local/bin/python3.11 /opt/vision-venv/bin/python \
     && ln -sf /usr/local/bin/python3.11 /opt/vision-venv/bin/python3
 
-COPY server.py /app/server.py
-COPY allowlists.py /app/allowlists.py
-COPY providers.py /app/providers.py
-COPY provider_cloud.py /app/provider_cloud.py
-COPY provider_stems_cloud.py /app/provider_stems_cloud.py
-COPY soundfont_download.py /app/soundfont_download.py
-COPY oauth_bff.py /app/oauth_bff.py
-COPY oauth_bff_routes.py /app/oauth_bff_routes.py
-COPY subprocess_utils.py /app/subprocess_utils.py
-COPY recording_artists.py /app/recording_artists.py
-COPY background_markdown_links.py /app/background_markdown_links.py
-COPY polite_fetch.py /app/polite_fetch.py
-COPY browser_fetch.py /app/browser_fetch.py
-COPY page_title_meta.py /app/page_title_meta.py
-COPY chords_fetch.py /app/chords_fetch.py
-COPY notation_fetch.py /app/notation_fetch.py
-COPY archive_source_config.py /app/archive_source_config.py
-COPY mediawiki_fetch.py /app/mediawiki_fetch.py
-COPY cpdl_fetch.py /app/cpdl_fetch.py
-COPY imslp_fetch.py /app/imslp_fetch.py
-COPY josquin_fetch.py /app/josquin_fetch.py
-COPY musicalion_fetch.py /app/musicalion_fetch.py
-COPY openscore_fetch.py /app/openscore_fetch.py
-COPY w3c_musicxml_fetch.py /app/w3c_musicxml_fetch.py
-COPY score_attachment_fetch.py /app/score_attachment_fetch.py
-COPY notation_title_variants.py /app/notation_title_variants.py
-COPY musescore_fetch.py /app/musescore_fetch.py
-COPY midi_convert.py /app/midi_convert.py
-COPY midi_analysis.py /app/midi_analysis.py
-COPY midi_to_abc.py /app/midi_to_abc.py
-COPY midi_cleanup.py /app/midi_cleanup.py
-COPY midi_drum_map.py /app/midi_drum_map.py
-COPY midi_import_score.py /app/midi_import_score.py
-COPY midi_import_orchestrator.py /app/midi_import_orchestrator.py
-COPY midi_chord_infer.py /app/midi_chord_infer.py
-COPY midi_harmony_voice.py /app/midi_harmony_voice.py
-COPY midi_fetch.py /app/midi_fetch.py
-COPY midi_resources.py /app/midi_resources.py
-COPY lyrics_fetch.py /app/lyrics_fetch.py
-COPY lyrics_word_tools.py /app/lyrics_word_tools.py
-COPY composer_discovery.py /app/composer_discovery.py
-COPY genre_discovery.py /app/genre_discovery.py
-COPY feed_generation.py /app/feed_generation.py
-COPY feed_source_scrape.py /app/feed_source_scrape.py
-COPY llm_runtime.py /app/llm_runtime.py
-COPY analyze_practice.py /app/analyze_practice.py
-COPY bulk_list_format.py /app/bulk_list_format.py
-COPY tune_background_research.py /app/tune_background_research.py
-COPY practice_track_api.py /app/practice_track_api.py
-COPY midi_render.py /app/midi_render.py
-COPY midi_score_prepare.py /app/midi_score_prepare.py
-COPY midi_drum_guide.py /app/midi_drum_guide.py
-COPY music_generation /app/music_generation
-COPY voice_command.py /app/voice_command.py
-COPY playback_region_detect.py /app/playback_region_detect.py
-COPY detect_chords.py /app/detect_chords.py
-COPY madmom_chords.py /app/madmom_chords.py
+# Single-layer app copy: per-file COPY instructions exceeded overlay2's 128-layer limit.
+COPY *.py music_collection_registry.json /app/
 COPY btc_chords /app/btc_chords
-COPY detect_melody.py /app/detect_melody.py
-COPY midi_note_events.py /app/midi_note_events.py
-COPY provider_amt_cloud.py /app/provider_amt_cloud.py
-COPY detect_timing.py /app/detect_timing.py
-COPY chord_processing.py /app/chord_processing.py
-COPY melody_pitch_processing.py /app/melody_pitch_processing.py
-COPY audio_analysis_filters.py /app/audio_analysis_filters.py
-COPY stem_separation.py /app/stem_separation.py
-COPY separate_stems.py /app/separate_stems.py
-COPY eval_transcription.py /app/eval_transcription.py
-COPY scripts/eval_chords.py /app/scripts/eval_chords.py
-COPY scripts/eval_melody_backends.py /app/scripts/eval_melody_backends.py
-COPY prefetch_kong.py /app/prefetch_kong.py
-COPY prefetch_vision.py /app/prefetch_vision.py
-COPY chord_sheet_utils.py /app/chord_sheet_utils.py
-COPY sheet_image_staff_detect.py /app/sheet_image_staff_detect.py
-COPY sheet_image_ocr.py /app/sheet_image_ocr.py
-COPY sheet_image_omr.py /app/sheet_image_omr.py
-COPY sheet_image_melody.py /app/sheet_image_melody.py
-COPY sheet_image_vlm.py /app/sheet_image_vlm.py
-COPY sheet_image_transcribe.py /app/sheet_image_transcribe.py
-COPY sheet_image_metadata.py /app/sheet_image_metadata.py
-COPY sheet_image_features.py /app/sheet_image_features.py
-COPY image_search.py /app/image_search.py
-COPY music_collection.py /app/music_collection.py
-COPY music_collection_analytics.py /app/music_collection_analytics.py
-COPY music_collection_indexer.py /app/music_collection_indexer.py
-COPY music_collection_browse.py /app/music_collection_browse.py
-COPY music_collection_curation.py /app/music_collection_curation.py
-COPY music_collection_moves.py /app/music_collection_moves.py
-COPY music_collection_registry.py /app/music_collection_registry.py
-COPY music_collection_registry.json /app/music_collection_registry.json
-COPY scripts/build_music_collection_index.py /app/scripts/build_music_collection_index.py
-COPY bandcamp.py /app/bandcamp.py
-COPY internet_archive.py /app/internet_archive.py
-COPY europeana.py /app/europeana.py
-COPY loc_audio.py /app/loc_audio.py
+COPY music_generation /app/music_generation
+COPY scripts/eval_chords.py scripts/eval_melody_backends.py \
+    scripts/build_music_collection_index.py scripts/snapcast_tunebook_plugin.py \
+    /app/scripts/
 
 EXPOSE 8787
 

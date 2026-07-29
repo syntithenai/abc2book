@@ -95,10 +95,12 @@ export default function RemoteOutputButton({ mediaController, tunebook, compact,
       <Dropdown.Toggle
         size={compact ? 'sm' : 'sm'}
         variant={remoteActive ? 'warning' : 'outline-secondary'}
+        className="remote-output-button-toggle"
         data-testid="media-controls-output-button"
         title="Remote output"
+        aria-label="Remote output"
       >
-        {tunebook.icons.cast || 'Output'}
+        <span className="remote-output-button-icon">{tunebook.icons.cast || 'Output'}</span>
       </Dropdown.Toggle>
       <Dropdown.Menu style={{ minWidth: compact ? '16rem' : '18rem' }}>
         <Dropdown.Header>{routingLabel}</Dropdown.Header>

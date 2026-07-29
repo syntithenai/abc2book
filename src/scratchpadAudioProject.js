@@ -12,6 +12,12 @@ const utils = utilsFunctions()
 
 export const AUDIO_PROJECT_VERSION = 2
 export const MAX_PROJECT_UNDO = 20
+export const DEFAULT_MAIN_LANE_HEIGHT = 100
+export const TAKE_LANE_HEIGHT = 28
+
+export function generateFolderId() {
+  return 'fld-' + utils.generateObjectId()
+}
 
 export function nowIso() {
   return new Date().toISOString()
@@ -67,6 +73,8 @@ export function createDefaultAudioTrack(itemId, name, options) {
     compRegions: [],
     compEnabled: false,
     stemSource: opts.stemSource || null,
+    folderId: opts.folderId || null,
+    laneHeight: opts.laneHeight != null ? opts.laneHeight : DEFAULT_MAIN_LANE_HEIGHT,
   }
 }
 
@@ -100,6 +108,8 @@ export function createDefaultMidiTrack(itemId, name) {
     compRegions: [],
     compEnabled: false,
     stemSource: null,
+    folderId: null,
+    laneHeight: DEFAULT_MAIN_LANE_HEIGHT,
   }
 }
 
@@ -118,6 +128,7 @@ export function createDefaultAudioProject(itemId, options) {
     punchInEnabled: false,
     recordMode: 'newTake',
     tracks: [track],
+    trackFolders: [],
     markers: [],
     loops: [],
     stemMeta: null,
@@ -176,8 +187,13 @@ export function normalizeAudioProject(item) {
         next.activeTakeId = next.takes[0].id
       }
       next.compRegions = Array.isArray(next.compRegions) ? next.compRegions.slice() : []
+      if (next.laneHeight == null) next.laneHeight = DEFAULT_MAIN_LANE_HEIGHT
+      if (next.folderId === undefined) next.folderId = null
       return next
     })
+    if (!Array.isArray(audio.trackFolders)) {
+      audio.trackFolders = []
+    }
     if (!audio.tracks.length) {
       audio.tracks = [createDefaultAudioTrack(item.id || 'item', 'Track 1')]
     }
@@ -196,8 +212,13 @@ export function normalizeAudioProject(item) {
       next.activeTakeId = next.takes[0].id
     }
     next.compRegions = Array.isArray(next.compRegions) ? next.compRegions.slice() : []
+    if (next.laneHeight == null) next.laneHeight = DEFAULT_MAIN_LANE_HEIGHT
+    if (next.folderId === undefined) next.folderId = null
     return next
   })
+  if (!Array.isArray(audio.trackFolders)) {
+    audio.trackFolders = []
+  }
   if (!audio.tracks.length) {
     audio.tracks = [createDefaultAudioTrack(item.id, 'Track 1')]
   }
@@ -305,32 +326,63 @@ export async function projectHasAudioContent(audio) {
 export async function loadProjectTracks(item, audioOverride) {
   const audio = resolveAudioProject(item, audioOverride)
   const specs = []
+  const folders = audio.trackFolders || []
   for (let i = 0; i < audio.tracks.length; i += 1) {
     const track = audio.tracks[i]
+    if (!isTrackVisibleInFolder(track, folders)) continue
     if (track.type === 'midi') continue
+    const mainHeight = track.laneHeight != null ? track.laneHeight : DEFAULT_MAIN_LANE_HEIGHT
     const take = getActiveTake(track)
-    if (!take || !take.blobKey) continue
-    let blob = await getScratchpadBlob(take.blobKey)
-    if (track.compEnabled && (track.compRegions || []).length) {
-      const compBlob = await buildCompBuffer(track, getScratchpadBlob)
-      if (compBlob) blob = compBlob
+    if (take && take.blobKey) {
+      let blob = await getScratchpadBlob(take.blobKey)
+      if (track.compEnabled && (track.compRegions || []).length) {
+        const compBlob = await buildCompBuffer(track, getScratchpadBlob)
+        if (compBlob) blob = compBlob
+      }
+      if (blob && blob.size > 0) {
+        const spec = {
+          src: blob,
+          name: track.name || 'Track',
+          gain: track.gain != null ? track.gain : 0.5,
+          muted: !!track.muted,
+          soloed: !!track.soloed,
+          start: track.start || 0,
+          stereoPan: track.stereoPan || 0,
+          customClass: 'main-' + track.id,
+          laneRole: 'main',
+          laneHeight: mainHeight,
+          trackId: track.id,
+        }
+        if (take.cuein) spec.cuein = take.cuein
+        if (take.cueout) spec.cueout = take.cueout
+        if (take.fadeIn) spec.fadeIn = take.fadeIn
+        if (take.fadeOut) spec.fadeOut = take.fadeOut
+        specs.push(spec)
+      }
     }
-    if (!blob || blob.size <= 0) continue
-    const spec = {
-      src: blob,
-      name: track.name || 'Track',
-      gain: track.gain != null ? track.gain : 0.5,
-      muted: !!track.muted,
-      soloed: !!track.soloed,
-      start: track.start || 0,
-      stereoPan: track.stereoPan || 0,
-      customClass: track.id,
+    const takes = track.takes || []
+    for (let t = 0; t < takes.length; t += 1) {
+      const takeRow = takes[t]
+      if (!takeRow || !takeRow.blobKey) continue
+      const takeBlob = await getScratchpadBlob(takeRow.blobKey)
+      if (!takeBlob || takeBlob.size <= 0) continue
+      specs.push({
+        src: takeBlob,
+        name: '',
+        gain: 1,
+        muted: true,
+        soloed: false,
+        start: track.start || 0,
+        stereoPan: 0,
+        customClass: 'take-' + track.id + '-' + takeRow.id,
+        laneRole: 'take',
+        laneHeight: TAKE_LANE_HEIGHT,
+        trackId: track.id,
+        takeId: takeRow.id,
+        activeTake: takeRow.id === track.activeTakeId,
+        waveOutlineColor: takeRow.id === track.activeTakeId ? '#0d6efd' : '#c8d0d8',
+      })
     }
-    if (take.cuein) spec.cuein = take.cuein
-    if (take.cueout) spec.cueout = take.cueout
-    if (take.fadeIn) spec.fadeIn = take.fadeIn
-    if (take.fadeOut) spec.fadeOut = take.fadeOut
-    specs.push(spec)
   }
   return specs
 }
@@ -523,4 +575,121 @@ export function assignCompRegion(track, start, end, takeId, options) {
   })
   regions.sort(function(a, b) { return a.start - b.start })
   return Object.assign({}, track, { compRegions: regions, compEnabled: true })
+}
+
+export function createTrackFolder(name) {
+  return {
+    id: generateFolderId(),
+    name: name || 'Folder',
+    collapsed: false,
+  }
+}
+
+export function reorderTracks(tracks, fromIndex, toIndex) {
+  const list = (tracks || []).slice()
+  if (fromIndex < 0 || fromIndex >= list.length || toIndex < 0 || toIndex >= list.length) {
+    return list
+  }
+  const item = list.splice(fromIndex, 1)[0]
+  list.splice(toIndex, 0, item)
+  return list
+}
+
+export function moveTrackToFolder(track, folderId) {
+  return Object.assign({}, track, { folderId: folderId || null })
+}
+
+export function toggleTrackFolderCollapsed(folders, folderId) {
+  return (folders || []).map(function(folder) {
+    if (folder.id !== folderId) return folder
+    return Object.assign({}, folder, { collapsed: !folder.collapsed })
+  })
+}
+
+export function removeTrackFolder(folders, folderId) {
+  return (folders || []).filter(function(folder) { return folder.id !== folderId })
+}
+
+export function renameTrackFolder(folders, folderId, name) {
+  return (folders || []).map(function(folder) {
+    if (folder.id !== folderId) return folder
+    return Object.assign({}, folder, { name: name || folder.name })
+  })
+}
+
+export function isTrackVisibleInFolder(track, folders) {
+  if (!track || !track.folderId) return true
+  const folder = (folders || []).find(function(f) { return f.id === track.folderId })
+  return !folder || !folder.collapsed
+}
+
+export function trackBlockHeight(track) {
+  if (!track) return DEFAULT_MAIN_LANE_HEIGHT
+  const main = track.laneHeight != null ? track.laneHeight : DEFAULT_MAIN_LANE_HEIGHT
+  if (track.type !== 'audio') return main
+  const takeCount = (track.takes || []).length
+  return main + takeCount * TAKE_LANE_HEIGHT
+}
+
+/**
+ * Lane list in the same order and heights as waveform-playlist rows (main + take lanes per track).
+ */
+export function enumeratePlaylistLanes(audio, advancedFeatures) {
+  const folders = audio.trackFolders || []
+  const lanes = []
+  const tracks = audio.tracks || []
+  for (let i = 0; i < tracks.length; i += 1) {
+    const track = tracks[i]
+    if (!isTrackVisibleInFolder(track, folders)) continue
+    if (track.type === 'midi') {
+      if (!advancedFeatures) continue
+      lanes.push({
+        kind: 'midi',
+        track: track,
+        height: track.laneHeight != null ? track.laneHeight : DEFAULT_MAIN_LANE_HEIGHT,
+      })
+      continue
+    }
+    const mainHeight = track.laneHeight != null ? track.laneHeight : DEFAULT_MAIN_LANE_HEIGHT
+    const take = getActiveTake(track)
+    if (take && take.blobKey) {
+      lanes.push({ kind: 'main', track: track, height: mainHeight })
+    }
+    const takes = track.takes || []
+    for (let t = 0; t < takes.length; t += 1) {
+      const takeRow = takes[t]
+      if (!takeRow || !takeRow.blobKey) continue
+      lanes.push({
+        kind: 'take',
+        track: track,
+        take: takeRow,
+        takeIndex: t,
+        height: TAKE_LANE_HEIGHT,
+      })
+    }
+  }
+  return lanes
+}
+
+export function duplicateAudioTrack(itemId, track) {
+  if (!track || track.type !== 'audio') return track
+  const trackId = generateTrackId()
+  const takes = (track.takes || []).map(function(take) {
+    const takeId = generateTakeId()
+    return Object.assign({}, take, {
+      id: takeId,
+      blobKey: scratchpadTrackTakeBlobKey(itemId, trackId, takeId),
+      driveFileId: null,
+    })
+  })
+  const activeTake = takes.find(function(t) { return t.id === track.activeTakeId }) || takes[0]
+  return Object.assign({}, track, {
+    id: trackId,
+    name: (track.name || 'Track') + ' copy',
+    armed: false,
+    activeTakeId: activeTake ? activeTake.id : null,
+    takes: takes,
+    compRegions: (track.compRegions || []).slice(),
+    folderId: track.folderId || null,
+  })
 }

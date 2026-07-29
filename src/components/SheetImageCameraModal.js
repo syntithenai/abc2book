@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Button, Modal } from 'react-bootstrap';
+import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
+import { isAndroidApp } from '../platformUtils';
 
 const VIDEO_CONSTRAINT_ATTEMPTS = [
   {
@@ -47,7 +49,9 @@ function cameraErrorMessage(error) {
   const name = error && error.name ? error.name : '';
   const message = error && error.message ? error.message : '';
   if (name === 'NotAllowedError' || name === 'PermissionDeniedError') {
-    return 'Camera access was blocked. Allow camera permission for this site in your browser settings.';
+    return isAndroidApp()
+      ? 'Camera access was blocked. Allow camera permission for Tunebook in Android Settings.'
+      : 'Camera access was blocked. Allow camera permission for this site in your browser settings.';
   }
   if (name === 'NotFoundError' || name === 'DevicesNotFoundError' || /not found/i.test(message)) {
     return 'No camera was found. Connect a webcam, or use Choose image / PDF or Google Photos instead.';
@@ -100,6 +104,30 @@ async function openCameraStream(deviceId) {
   throw lastError || new Error('No camera was found');
 }
 
+async function capturePhotoWithCapacitorCamera() {
+  const permission = await Camera.requestPermissions({ permissions: ['camera'] });
+  if (!permission || permission.camera === 'denied') {
+    throw Object.assign(new Error('Camera permission denied'), { name: 'NotAllowedError' });
+  }
+  const photo = await Camera.getPhoto({
+    quality: 90,
+    resultType: CameraResultType.Uri,
+    source: CameraSource.Camera,
+    saveToGallery: false,
+    correctOrientation: true,
+  });
+  const webPath = photo.webPath || photo.path;
+  if (!webPath) {
+    throw new Error('Could not capture the photo.');
+  }
+  const response = await fetch(webPath);
+  if (!response.ok) {
+    throw new Error('Could not read captured photo.');
+  }
+  const blob = await response.blob();
+  return new File([blob], guessCaptureFilename(), { type: blob.type || 'image/jpeg' });
+}
+
 export default function SheetImageCameraModal(props) {
   const videoRef = useRef(null);
   const streamRef = useRef(null);
@@ -108,6 +136,7 @@ export default function SheetImageCameraModal(props) {
   const [cameraDevices, setCameraDevices] = useState([]);
   const [activeDeviceId, setActiveDeviceId] = useState('');
   const [startCounter, setStartCounter] = useState(0);
+  const [androidCameraMode, setAndroidCameraMode] = useState(isAndroidApp());
 
   useEffect(function() {
     if (!props.show) {
@@ -116,6 +145,12 @@ export default function SheetImageCameraModal(props) {
       setReady(false);
       setCameraDevices([]);
       setActiveDeviceId('');
+      setAndroidCameraMode(isAndroidApp());
+      return undefined;
+    }
+
+    if (isAndroidApp()) {
+      setAndroidCameraMode(true);
       return undefined;
     }
 
@@ -182,6 +217,16 @@ export default function SheetImageCameraModal(props) {
   }
 
   function capturePhoto() {
+    if (androidCameraMode) {
+      setError('');
+      capturePhotoWithCapacitorCamera().then(function(file) {
+        if (props.onCapture) props.onCapture(file);
+        if (props.onHide) props.onHide();
+      }).catch(function(e) {
+        setError(cameraErrorMessage(e));
+      });
+      return;
+    }
     const video = videoRef.current;
     if (!video || !video.videoWidth || !video.videoHeight) {
       setError('Camera is not ready yet.');
@@ -223,6 +268,14 @@ export default function SheetImageCameraModal(props) {
             </div>
           </Alert>
         ) : null}
+        {androidCameraMode ? (
+          <div className="text-center py-4">
+            <p className="mb-3">Tunebook will open your device camera to capture a sheet photo.</p>
+            <Button variant="primary" onClick={capturePhoto}>
+              Open camera
+            </Button>
+          </div>
+        ) : (
         <div style={{ background: '#111', borderRadius: '0.5em', overflow: 'hidden' }}>
           <video
             ref={videoRef}
@@ -232,10 +285,13 @@ export default function SheetImageCameraModal(props) {
             style={{ width: '100%', maxHeight: '60vh', display: 'block' }}
           />
         </div>
+        )}
+        {!androidCameraMode ? (
         <div className="small text-muted mt-2">
           Hold the page flat and fill the frame. Use good lighting and avoid glare.
         </div>
-        {cameraDevices.length > 1 ? (
+        ) : null}
+        {!androidCameraMode && cameraDevices.length > 1 ? (
           <div className="mt-2">
             <Button variant="outline-secondary" size="sm" onClick={switchCamera} disabled={!ready}>
               Switch camera
@@ -245,9 +301,11 @@ export default function SheetImageCameraModal(props) {
       </Modal.Body>
       <Modal.Footer>
         <Button variant="outline-secondary" onClick={props.onHide}>Cancel</Button>
+        {!androidCameraMode ? (
         <Button variant="primary" onClick={capturePhoto} disabled={!ready}>
           Capture photo
         </Button>
+        ) : null}
       </Modal.Footer>
     </Modal>
   );

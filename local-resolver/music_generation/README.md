@@ -58,9 +58,9 @@ docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d
 ```
 
 Set `PRACTICE_TRACK_PROVIDER=audio_cpp` and `AUDIO_CPP_URL=http://audio-cpp:8788`
-in `.env` (compose sets this by default when unset). For a host-managed process
-instead, use `AUDIO_CPP_URL=http://host.docker.internal:8788` and optionally
-`docker compose stop audio-cpp`.
+in `.env`, then start compose with `--profile audio-cpp`. For a host-managed process
+instead, use `AUDIO_CPP_URL=http://host.docker.internal:8788` and **do not** enable
+the `audio-cpp` profile (avoids binding host port 8788 twice).
 
 Without the compose sidecar, you can still run audio.cpp on the host:
 

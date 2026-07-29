@@ -152,6 +152,8 @@ import AppEmbedFrameBootstrap from './components/AppEmbedFrameBootstrap'
 import { isEmbeddedAppFrame } from './embedFrameUtils'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
 import { initChromeZoomGuard } from './chromeZoomGuard'
+import { isAndroidApp } from './platformUtils'
+import { staggerNativeStartup } from './deferNativeStartup'
 
 function YouTubeGetID(url){
             url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
@@ -404,7 +406,7 @@ function App(props) {
   useScratchpadLoginSync(token, logout)
   const filesDocumentManager = useGoogleDocument(token, logout)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, tunesContentRevision, flushTunesPersistence, deletedTunes, setDeletedTunes, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset , filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
+  const {tunes, setTunes, setTunesInner, tunesContentRevision, tunesHydrated, flushTunesPersistence, deletedTunes, setDeletedTunes, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset , filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
   useAppFreshLoad()
   useServiceWorker()
   
@@ -504,17 +506,28 @@ function App(props) {
   }, []);
 
   useEffect(function() {
-    scheduleMediaCacheStorageCheck(1500)
+    scheduleMediaCacheStorageCheck(isAndroidApp() ? 15000 : 1500)
   }, [])
+
+  function scheduleTuneReindex(nextTunes) {
+    if (!nextTunes) return
+    if (indexes.reindexTunesAsync) {
+      indexes.reindexTunesAsync(nextTunes).catch(function(err) {
+        console.warn('Tune reindex failed', err)
+      })
+      return
+    }
+    indexes.resetBookIndex()
+    indexes.resetTagIndex()
+    indexes.indexTunes(nextTunes)
+  }
    
   function applySourceUrlMergeWithSelections(batch, recordState) {
     if (!batch) return
     var nextTunes = applySourceUrlMergeBatch(tunes, batch, recordState)
     setTunes(nextTunes)
     buildTunesHash()
-    indexes.resetBookIndex()
-    indexes.resetTagIndex()
-    indexes.indexTunes(nextTunes)
+    scheduleTuneReindex(nextTunes)
     forceRefresh()
     updateSheet(0)
   }
@@ -549,9 +562,7 @@ function App(props) {
     setDeletedTunes(nextDeleted)
     setTunes(nextTunes)
     buildTunesHash()
-    indexes.resetBookIndex()
-    indexes.resetTagIndex()
-    indexes.indexTunes(nextTunes)
+    scheduleTuneReindex(nextTunes)
     setSheetUpdateResults(null)
     updateSheet(0)
     offerPerformanceSetMerge(sheetResults.fullSheet, {
@@ -615,9 +626,7 @@ function App(props) {
     if ((localInserts && Object.keys(localInserts).length > 0) || (localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
       setTunes(tunes)
       buildTunesHash()
-      indexes.resetBookIndex()
-      indexes.resetTagIndex()
-      indexes.indexTunes(tunes)
+      scheduleTuneReindex(tunes)
       setSheetUpdateResults(null)
     }
     offerPerformanceSetMerge(fullSheet, {
@@ -721,9 +730,7 @@ function App(props) {
     }) 
     // update indexes....
     buildTunesHash()
-    indexes.resetBookIndex()
-    indexes.resetTagIndex()
-    indexes.indexTunes(tunes)
+    scheduleTuneReindex(tunes)
     setSheetUpdateResults(null)
     setShowWaitingOverlay(false)
     forceRefresh()
@@ -739,17 +746,30 @@ function App(props) {
   
   var tunesRef = useRef(tunes)
   tunesRef.current = tunes
+  var tunesHydratedRef = useRef(tunesHydrated)
+  tunesHydratedRef.current = tunesHydrated
   const getValidTuneIds = useCallback(function() {
     return Object.keys(tunesRef.current || {})
   }, [])
-  var editHistory = useTuneEditHistory({ getValidTuneIds })
+  const getTunesReady = useCallback(function() {
+    return !!tunesHydratedRef.current
+  }, [])
+  var editHistory = useTuneEditHistory({ getValidTuneIds, getTunesReady })
+  const activeEditorFlushRef = useRef(null)
+  const flushActiveEditor = useCallback(function(tuneId) {
+    if (!tuneId || tuneId !== currentTune) return
+    if (activeEditorFlushRef.current) activeEditorFlushRef.current()
+    if (editHistory && typeof editHistory.flushPendingTune === 'function') {
+      editHistory.flushPendingTune(tuneId)
+    }
+  }, [currentTune, editHistory])
   const practiceSessionActiveRef = useRef(false)
   const nowPlayingQueueRef = useRef(nowPlayingQueue)
   useEffect(function() {
     nowPlayingQueueRef.current = nowPlayingQueue
   }, [nowPlayingQueue])
 
-  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn: !!(token && token.access_token), currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, practiceSessionActiveRef})
+  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn: !!(token && token.access_token), currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef})
   //var abcPlayerRef = useRef()
   let mediaController = useTuneBookMediaController({tunebook, tunes, forceRefresh, token, user, nowPlayingQueue, setNowPlayingQueue, setPlaylist, practiceSessionActiveRef})
 
@@ -818,10 +838,12 @@ function App(props) {
       forceRefresh: forceRefresh,
       abcTools: tunebook.abcTools,
     })
-    restoreAndResume()
-    restoreAndResumeComposerDiscoveryQueue()
-    restoreAndResumeStemCreateQueue()
-    restoreAndResumeFieldLookupQueue()
+    staggerNativeStartup([
+      { fn: restoreAndResume },
+      { fn: restoreAndResumeComposerDiscoveryQueue },
+      { fn: restoreAndResumeStemCreateQueue },
+      { fn: restoreAndResumeFieldLookupQueue },
+    ])
   }, [tunebook.saveTune, forceRefresh]) 
   const practiceSession = usePracticeSession({
     tunebook,
@@ -1108,6 +1130,7 @@ function App(props) {
 
     <div id="topofpage" className="App" >
         {(showWaitingOverlay || waiting) && <div style={{zIndex:999999, position:'fixed', top:0, left:0, backgroundColor: 'grey', opacity:'0.5', height:'100%', width:'100%'}} ><img alt="" src="/spinner.svg" style={{marginTop:'10em', marginLeft:'10em', height:'200px', width:'200px'}} /></div> }
+        <ToastContainer autoClose={2000} style={{ zIndex: 1000001 }} />
           <input type='hidden' name="refreshHash" value={refreshHash} />
           <TunesProvider tunes={tunes} tunesContentRevision={tunesContentRevision}>
           <Router >
@@ -1182,7 +1205,6 @@ function App(props) {
             </> : null}
   
            {tunes !== null && <div >
-              <ToastContainer autoClose={2000} />
               <TuneMediaAnalysisProvider
                 tunebook={tunebook}
                 tunes={tunes}
@@ -1349,8 +1371,8 @@ function App(props) {
                     </Route>  
                     
                     <Route  path={`editor`}     >
-                      <Route  path={`:tuneId`} element={<MusicEditor  logout={logout} token={token} login={login} mediaController={mediaController} editHistory={editHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setNowPlayingQueue={setNowPlayingQueue}  searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} onNotationHelpModeChange={setNotationHelpActive} />} />
-                        <Route  path={`:tuneId/:view`} element={<MusicEditor  logout={logout} token={token} login={login} mediaController={mediaController} editHistory={editHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setNowPlayingQueue={setNowPlayingQueue}  searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} onNotationHelpModeChange={setNotationHelpActive} />} />
+                      <Route  path={`:tuneId`} element={<MusicEditor  logout={logout} token={token} login={login} mediaController={mediaController} editHistory={editHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setNowPlayingQueue={setNowPlayingQueue}  searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} onNotationHelpModeChange={setNotationHelpActive} onRegisterActiveEditorFlush={function(fn) { activeEditorFlushRef.current = fn }} />} />
+                        <Route  path={`:tuneId/:view`} element={<MusicEditor  logout={logout} token={token} login={login} mediaController={mediaController} editHistory={editHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setNowPlayingQueue={setNowPlayingQueue}  searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} onNotationHelpModeChange={setNotationHelpActive} onRegisterActiveEditorFlush={function(fn) { activeEditorFlushRef.current = fn }} />} />
                     </Route>
                     
                     <Route  path={`import`} >

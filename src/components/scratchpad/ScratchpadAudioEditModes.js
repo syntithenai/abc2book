@@ -1,5 +1,6 @@
 import { ButtonGroup, Dropdown } from 'react-bootstrap'
 import { shortcutLabel } from '../../useScratchpadAudioShortcuts'
+import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
 
 const MODES = [
   { id: 'cursor', label: 'Seek', state: 'cursor' },
@@ -21,7 +22,7 @@ function item(label, handler, bindingId) {
     trim: { key: 't', ctrl: true },
     silence: { key: 'l', ctrl: true },
     reverse: null,
-    split: { key: 'i', ctrl: true },
+    split: { key: 's' },
     cut: { key: 'x', ctrl: true },
     copy: { key: 'c', ctrl: true },
     paste: { key: 'v', ctrl: true },
@@ -57,7 +58,7 @@ export default function ScratchpadAudioEditModes(props) {
       <Dropdown.Toggle variant={toggleVariant} className={toggleClass}>
         {props.menuBar ? 'Edit' : ('Edit: ' + activeMode.label)}
       </Dropdown.Toggle>
-      <Dropdown.Menu>
+      <Dropdown.Menu popperConfig={SCRATCHPAD_DROPDOWN_POPPER}>
         {MODES.map(function(m) {
           return (
             <Dropdown.Item

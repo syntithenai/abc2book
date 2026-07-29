@@ -45,6 +45,10 @@ export default function ScratchpadAudioRegionBar(props) {
   }, [editorRef, wrapRef, duration, refreshLayout, props.reloadKey])
 
   useEffect(function() {
+    if (props.onLayoutRefresh) props.onLayoutRefresh(refreshLayout)
+  }, [props.onLayoutRefresh, refreshLayout])
+
+  useEffect(function() {
     function onPointerMove(e) {
       if (!dragRef.current || !layout) return
       if (Math.abs(e.clientX - dragRef.current.startX) > 3) {

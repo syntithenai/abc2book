@@ -5,6 +5,7 @@ import {
   resolveSnapcastControlUrl,
   setStoredSnapcastControlUrl,
 } from '../snapcastSupport';
+import { resolveCastMediaBase } from '../castSupport';
 
 export default function SnapcastSettingsSection({ mediaResolverStatus }) {
   const [url, setUrl] = useState(getStoredSnapcastControlUrl() || '');
@@ -12,6 +13,10 @@ export default function SnapcastSettingsSection({ mediaResolverStatus }) {
   const snapcast = mediaResolverStatus && mediaResolverStatus.snapcast
     ? mediaResolverStatus.snapcast
     : null;
+  const cast = mediaResolverStatus && mediaResolverStatus.cast
+    ? mediaResolverStatus.cast
+    : null;
+  const castBase = resolveCastMediaBase({ healthStatus: mediaResolverStatus });
 
   useEffect(function() {
     setUrl(getStoredSnapcastControlUrl() || '');
@@ -23,11 +28,25 @@ export default function SnapcastSettingsSection({ mediaResolverStatus }) {
 
   return (
     <div className="snapcast-settings-section">
-      <h3 className="h5">Snapcast</h3>
+      <h3 className="h5">Remote output</h3>
+      <p className="text-muted small mb-3">
+        Chromecast uses the media resolver below. Snapcast needs{' '}
+        <code>docker compose --profile snapcast up</code> on your home resolver.
+      </p>
+
+      <h4 className="h6">Chromecast</h4>
+      {cast ? (
+        <ul className="small text-muted">
+          <li>HLS enabled: {cast.enabled ? 'yes' : 'no'}</li>
+          <li>Media base: {cast.publicBase || castBase || 'not discovered'}</li>
+        </ul>
+      ) : (
+        <p className="text-muted small">Cast status not available from resolver health.</p>
+      )}
+
+      <h4 className="h6 mt-3">Snapcast</h4>
       <p className="text-muted small">
-        Multi-room audio via snapserver. Enable with{' '}
-        <code>docker compose --profile snapcast up</code> and set{' '}
-        <code>SNAPCAST_ENABLED=true</code>.
+        Enable with <code>SNAPCAST_ENABLED=true</code> in the resolver <code>.env</code>.
       </p>
       {snapcast ? (
         <ul className="small text-muted">
@@ -35,6 +54,13 @@ export default function SnapcastSettingsSection({ mediaResolverStatus }) {
           <li>Reachable: {snapcast.reachable ? 'yes' : 'no'}</li>
           <li>Stream: {snapcast.streamName || '—'}</li>
           <li>TCP clients: {snapcast.tcpClients != null ? snapcast.tcpClients : '—'}</li>
+          {snapcast.localClient ? (
+            <li>
+              Host speaker: {snapcast.localClient.enabled
+                ? (snapcast.localClient.hostname || 'resolver-host')
+                : 'disabled'}
+            </li>
+          ) : null}
         </ul>
       ) : (
         <p className="text-muted small">Snapcast status not available from resolver health.</p>

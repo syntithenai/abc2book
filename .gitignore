@@ -94,10 +94,11 @@ local-resolver/soundfonts/
 *.bin
 
 # Capacitor / Android
+android/local.properties
 android/.gradle/
 android/app/build/
 android/build/
-android/local.properties
+.android-capacitor-build/
 *.keystore
 !android/keystore.properties.example
 
@@ -106,5 +107,4 @@ android/local.properties
 
 # Theory example generator checkpoint (committed output is examples.js)
 src/feedContent/theory/examples.generated.json
-.cursor/debug-90131e.log
-.cursor/
+.cursor/debug-*.log

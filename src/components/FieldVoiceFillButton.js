@@ -1,11 +1,11 @@
-import { useEffect, useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import { Button } from 'react-bootstrap'
 import { toast } from 'react-toastify'
+import VoiceInputWaveform from './VoiceInputWaveform'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import useVoiceMicRecorder from '../useVoiceMicRecorder'
 import { submitVoiceCommand } from '../voiceCommandClient'
-
-const MIN_HOLD_MS = 300
-const MAX_RECORD_MS = 12000
+import { isTapVoiceInputMode } from '../voiceSettings'
 
 /** Drop trailing sentence punctuation Whisper often appends (e.g. "Hello."). */
 function stripTrailingPunctuation(value) {
@@ -34,119 +34,24 @@ function MicIcon() {
 }
 
 /**
- * Hold-to-speak mic that fills a single form field with the transcript (or
+ * Mic button that fills a single form field with the transcript (or
  * title/artist hint from the voice command response).
  */
 export default function FieldVoiceFillButton(props) {
   const { available: resolverAvailable, features } = useMediaResolverHealth()
-  const [state, setState] = useState('idle')
-  const mediaRecorderRef = useRef(null)
-  const mediaStreamRef = useRef(null)
-  const chunksRef = useRef([])
-  const holdTimerRef = useRef(null)
-  const maxRecordTimerRef = useRef(null)
+  const [processing, setProcessing] = useState(false)
   const abortRef = useRef(null)
-  const pointerActiveRef = useRef(false)
   const fieldKind = props.fieldKind === 'composer'
     ? 'composer'
     : (props.fieldKind === 'search' ? 'search' : 'title')
-
-  useEffect(function() {
-    return function() {
-      cleanupRecording()
-      if (abortRef.current) abortRef.current.abort()
-    }
-  }, [])
-
-  function cleanupRecording() {
-    if (holdTimerRef.current) {
-      clearTimeout(holdTimerRef.current)
-      holdTimerRef.current = null
-    }
-    if (maxRecordTimerRef.current) {
-      clearTimeout(maxRecordTimerRef.current)
-      maxRecordTimerRef.current = null
-    }
-    if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
-      try {
-        mediaRecorderRef.current.stop()
-      } catch (e) {
-        // ignore
-      }
-    }
-    if (mediaStreamRef.current) {
-      mediaStreamRef.current.getTracks().forEach(function(track) {
-        track.stop()
-      })
-      mediaStreamRef.current = null
-    }
-    pointerActiveRef.current = false
-  }
 
   function setKeyboardBlocked(blocked) {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(blocked)
   }
 
-  async function startRecording() {
-    if (!pointerActiveRef.current || state !== 'idle' || !resolverAvailable || !features.whisper) return
-    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-      toast.error('Microphone not supported in this browser')
-      return
-    }
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
-      mediaStreamRef.current = stream
-      chunksRef.current = []
-      const recorder = new MediaRecorder(stream)
-      mediaRecorderRef.current = recorder
-      recorder.ondataavailable = function(event) {
-        if (event.data && event.data.size > 0) chunksRef.current.push(event.data)
-      }
-      recorder.onstop = function() {
-        const blob = new Blob(chunksRef.current, { type: 'audio/webm' })
-        chunksRef.current = []
-        cleanupRecording()
-        processAudio(blob)
-      }
-      recorder.start()
-      setState('recording')
-      setKeyboardBlocked(true)
-      maxRecordTimerRef.current = setTimeout(function() {
-        maxRecordTimerRef.current = null
-        stopRecording()
-      }, MAX_RECORD_MS)
-    } catch (error) {
-      toast.error(error && error.message ? error.message : 'Could not open microphone')
-      cleanupRecording()
-      setState('idle')
-      setKeyboardBlocked(false)
-    }
-  }
-
-  function stopRecording() {
-    if (maxRecordTimerRef.current) {
-      clearTimeout(maxRecordTimerRef.current)
-      maxRecordTimerRef.current = null
-    }
-    const recorder = mediaRecorderRef.current
-    if (recorder && recorder.state !== 'inactive') {
-      try {
-        recorder.stop()
-      } catch (e) {
-        cleanupRecording()
-        setState('idle')
-        setKeyboardBlocked(false)
-      }
-    }
-  }
-
   async function processAudio(blob) {
-    if (!blob || !blob.size) {
-      setState('idle')
-      setKeyboardBlocked(false)
-      return
-    }
-    setState('processing')
+    if (!blob || !blob.size) return
+    setProcessing(true)
     const controller = typeof AbortController !== 'undefined' ? new AbortController() : null
     abortRef.current = controller
     try {
@@ -166,7 +71,9 @@ export default function FieldVoiceFillButton(props) {
       }
       text = stripTrailingPunctuation(text)
       if (!text) {
-        toast.info('No speech recognised')
+        if (!isTapVoiceInputMode()) {
+          toast.info('No speech recognised')
+        }
       } else if (typeof props.onFill === 'function') {
         props.onFill(text)
       }
@@ -174,68 +81,73 @@ export default function FieldVoiceFillButton(props) {
       if (error && error.name === 'AbortError') return
       toast.error(error && error.message ? error.message : 'Voice fill failed')
     } finally {
-      setState('idle')
+      setProcessing(false)
       setKeyboardBlocked(false)
       abortRef.current = null
     }
   }
 
-  function handlePointerDown(event) {
-    event.preventDefault()
-    if (state !== 'idle') return
-    pointerActiveRef.current = true
-    event.currentTarget.setPointerCapture(event.pointerId)
-    holdTimerRef.current = setTimeout(function() {
-      holdTimerRef.current = null
-      if (pointerActiveRef.current) startRecording()
-    }, MIN_HOLD_MS)
-  }
-
-  function handlePointerUp(event) {
-    event.preventDefault()
-    pointerActiveRef.current = false
-    const wasShortTap = !!holdTimerRef.current
-    if (holdTimerRef.current) {
-      clearTimeout(holdTimerRef.current)
-      holdTimerRef.current = null
-    }
-    if (state === 'recording') {
-      stopRecording()
-    } else if (state === 'idle' && wasShortTap) {
+  const {
+    recordingState,
+    analyserNode,
+    isTapMode,
+    handleClick,
+    handlePointerDown,
+    handlePointerUp,
+    handlePointerCancel,
+    microphoneErrorMessage,
+  } = useVoiceMicRecorder({
+    enabled: resolverAvailable && features.whisper,
+    onAudioReady: processAudio,
+    onError: function(error) {
+      toast.error(microphoneErrorMessage(error))
+    },
+    onHoldModeShortTap: function() {
       toast.warning('Hold the mic button down while speaking')
-    }
-    try {
-      event.currentTarget.releasePointerCapture(event.pointerId)
-    } catch (e) {
-      // ignore
-    }
-  }
+    },
+    setKeyboardBlocked: setKeyboardBlocked,
+  })
 
   if (!resolverAvailable || !features.whisper) return null
 
+  const state = processing ? 'processing' : recordingState
+  const isRecording = state === 'recording'
   const label = fieldKind === 'composer'
-    ? 'Hold to speak composer'
-    : (fieldKind === 'search' ? 'Hold to speak search' : 'Hold to speak title')
-  const busy = state === 'recording' || state === 'processing'
+    ? (isTapMode ? 'Tap to speak composer' : 'Hold to speak composer')
+    : (fieldKind === 'search'
+      ? (isTapMode ? 'Tap to speak search' : 'Hold to speak search')
+      : (isTapMode ? 'Tap to speak title' : 'Hold to speak title'))
+  const busy = isRecording || state === 'processing'
   const buttonClassName = ['field-voice-fill-btn']
   if (props.className) buttonClassName.push(props.className)
 
+  const buttonProps = isTapMode
+    ? { onClick: handleClick }
+    : {
+      onPointerDown: handlePointerDown,
+      onPointerUp: handlePointerUp,
+      onPointerCancel: handlePointerUp,
+    }
+
   return (
-    <Button
-      type="button"
-      variant={state === 'recording' ? 'danger' : 'outline-secondary'}
-      size={props.size}
-      className={buttonClassName.join(' ')}
-      disabled={state === 'processing'}
-      title={label}
-      aria-label={label}
-      aria-pressed={state === 'recording'}
-      data-testid={props['data-testid'] || 'field-voice-fill'}
-      onPointerDown={handlePointerDown}
-      onPointerUp={handlePointerUp}
-      onPointerCancel={handlePointerUp}
-    >
-      {busy && state === 'processing' ? '…' : <MicIcon />}
-    </Button>
+    <span className="field-voice-fill-wrap">
+      {isTapMode && isRecording ? (
+        <VoiceInputWaveform analyserNode={analyserNode} variant="field" />
+      ) : null}
+      <Button
+        type="button"
+        variant={isRecording ? 'danger' : 'outline-secondary'}
+        size={props.size}
+        className={buttonClassName.join(' ')}
+        disabled={state === 'processing'}
+        title={label}
+        aria-label={label}
+        aria-pressed={isRecording}
+        data-testid={props['data-testid'] || 'field-voice-fill'}
+        {...buttonProps}
+      >
+        {busy && state === 'processing' ? '…' : <MicIcon />}
+      </Button>
+    </span>
   )
 }

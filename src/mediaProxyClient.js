@@ -12,6 +12,7 @@ import { isMusicCollectionLinkUri, musicCollectionProxyPathFromUri } from './mus
 import { isBandcampLinkUri } from './bandcampLinkUtils';
 import { isArchiveOrgLinkUri, isArchiveOrgDirectDownloadUri } from './archiveOrgLinkUtils';
 import { isLocGovLinkUri } from './locGovLinkUtils';
+import { isLocalhostCastBase, setCastPublicBaseFromHealth } from './castSupport';
 
 let activeProxyBase = null;
 let heavyMlProxyBase = null;
@@ -357,6 +358,7 @@ async function tryHealthAtBase(base, accessToken) {
         ? body.practiceTrackBackend
         : null,
       snapcast: body.snapcast && typeof body.snapcast === 'object' ? body.snapcast : null,
+      cast: body.cast && typeof body.cast === 'object' ? body.cast : null,
     };
   } catch (e) {
     return {
@@ -418,6 +420,14 @@ export async function probeMediaResolverCandidates(accessToken) {
     }
   }
 
+  if (activeCandidate && activeCandidate.cast && activeCandidate.cast.publicBase) {
+    setCastPublicBaseFromHealth(activeCandidate.cast.publicBase);
+  } else if (activeBase && !isLocalhostCastBase(activeBase)) {
+    setCastPublicBaseFromHealth(activeBase);
+  } else {
+    setCastPublicBaseFromHealth(null);
+  }
+
   heavyMlProxyBase = pickHeavyMlBase(candidates);
   midiImportProxyBase = pickMidiImportBase(candidates);
   const preferredAuthBase = pickAuthResolverBase(candidates);
@@ -468,6 +478,9 @@ export async function probeMediaResolverCandidates(accessToken) {
       : null,
     snapcast: activeCandidate && activeCandidate.snapcast
       ? activeCandidate.snapcast
+      : null,
+    cast: activeCandidate && activeCandidate.cast
+      ? activeCandidate.cast
       : null,
   };
 }

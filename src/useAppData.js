@@ -4,6 +4,7 @@ import { normalizeViewMode } from './viewModeUtils'
 import { configureTuneRepository, setMonolithTunesRef } from './tuneRepository'
 import { getTuneHash, getTuneImportHash } from './tuneHashUtils'
 import { loadActiveQueue, persistActiveQueue } from './nowPlayingQueue'
+import { isAndroidApp } from './platformUtils'
 
 /**
  * Top level state for tunebook application
@@ -247,16 +248,25 @@ export default function useAppData() {
   }
   
   // load tunes when the page first loads
+  const [tunesHydrated, setTunesHydrated] = useState(false)
   useEffect(function() {
-    utils.loadLocalforageObject('bookstorage_tunes').then(function(t) {
-            setTunesInner(t)
-            setMonolithTunesRef(t || {})
-            configureTuneRepository({ tunes: t || {} })
-            forceRefresh()
-    })
-    utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(t) {
-            setDeletedTunesInner(t || {})
-    })
+    function hydrateTunes() {
+      utils.loadLocalforageObject('bookstorage_tunes').then(function(t) {
+        setTunesInner(t)
+        setMonolithTunesRef(t || {})
+        configureTuneRepository({ tunes: t || {} })
+        setTunesHydrated(true)
+        forceRefresh()
+      })
+      utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(t) {
+        setDeletedTunesInner(t || {})
+      })
+    }
+    if (isAndroidApp()) {
+      setTimeout(hydrateTunes, 400)
+    } else {
+      hydrateTunes()
+    }
     function handleBeforeUnload() {
       flushTunesPersistence()
     }
@@ -291,6 +301,6 @@ export default function useAppData() {
   const [queuePlayConfirm, setQueuePlayConfirm] = useState(null)
   
   
- return {tunes, setTunes, setTunesInner, tunesContentRevision, flushTunesPersistence, deletedTunes, setDeletedTunes, setDeletedTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport}
+ return {tunes, setTunes, setTunesInner, tunesContentRevision, tunesHydrated, flushTunesPersistence, deletedTunes, setDeletedTunes, setDeletedTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport}
   
 }

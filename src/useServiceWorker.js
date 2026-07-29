@@ -1,9 +1,12 @@
 import {useEffect} from 'react'
 import { prefersFreshAppLoad } from './appFreshLoadUtils'
+import { isCapacitorNative } from './platformUtils'
 
 export default function useServiceWorker() {
    const registerServiceWorker = async () => {
    if (prefersFreshAppLoad()) return
+   // Service worker caching fights Capacitor asset loading and can ANR on startup.
+   if (isCapacitorNative()) return
    if ('serviceWorker' in navigator) {
       try {
         const registration = await navigator.serviceWorker.register(

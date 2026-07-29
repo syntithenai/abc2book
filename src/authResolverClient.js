@@ -1,7 +1,12 @@
+import { getDefaultPublicMediaProxyCandidates } from './mediaProxyConfig'
+import { isCapacitorNative } from './platformUtils'
+
 export const AUTH_SESSION_HEADER = 'X-Abc-Auth-Session'
 export const AUTH_SESSION_ID_KEY = 'abc_auth_session_id'
 export const AUTH_BASE_KEY = 'abc_auth_base'
 export const AUTH_MODE_PROBE_WAIT_MS = 6500
+/** Wait for deferred Android probe + concurrent /health checks before login. */
+export const LOGIN_AUTH_WAIT_MS = 12000
 
 let oauthLoginInFlight = false
 
@@ -29,6 +34,59 @@ export function pickAuthResolverBase(candidates) {
     }
   }
   return ''
+}
+
+/** Next oauthBff candidate after a failed base, in probe priority order. */
+export function pickNextAuthResolverBase(candidates, failedBase) {
+  if (!Array.isArray(candidates) || !failedBase) return ''
+  var seenFailed = false
+  for (var i = 0; i < candidates.length; i++) {
+    var c = candidates[i]
+    if (c.base === failedBase) {
+      seenFailed = true
+      continue
+    }
+    if (seenFailed && candidateOffersOauthBff(c)) {
+      return c.base || ''
+    }
+  }
+  return ''
+}
+
+/** Probed candidates plus native default oauthBff hosts when /health did not settle. */
+export function oauthBffCandidatesForLogin(probedCandidates) {
+  var list = Array.isArray(probedCandidates) ? probedCandidates.slice() : []
+  var hasOauthBff = false
+  for (var i = 0; i < list.length; i++) {
+    if (candidateOffersOauthBff(list[i])) {
+      hasOauthBff = true
+      break
+    }
+  }
+  if (!hasOauthBff && isCapacitorNative()) {
+    getDefaultPublicMediaProxyCandidates().forEach(function(url) {
+      var exists = false
+      for (var j = 0; j < list.length; j++) {
+        if (list[j].base === url) {
+          exists = true
+          if (!candidateOffersOauthBff(list[j])) {
+            list[j] = Object.assign({}, list[j], { reachable: true, oauthBff: true })
+          }
+          break
+        }
+      }
+      if (!exists) {
+        list.push({ base: url, reachable: true, oauthBff: true })
+      }
+    })
+  }
+  return list
+}
+
+/** Auth base for login — probe results first, then native default resolver URLs. */
+export function pickAuthResolverBaseForLogin(probedCandidates) {
+  var candidates = oauthBffCandidatesForLogin(probedCandidates)
+  return pickAuthResolverBase(candidates)
 }
 
 export function readStoredAuthSessionId() {

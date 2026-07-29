@@ -1,5 +1,7 @@
 import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
+import { isAndroidApp } from './platformUtils';
+import { saveBlobToDevice, shareBlobForPrint } from './nativeFileSave';
 
 export const PRINT_PAGE_WIDTH_PX = 794;
 export const PRINT_PAGE_HEIGHT_PX = 1123;
@@ -233,17 +235,20 @@ async function replaceSvgsWithImages(root, scale) {
 }
 
 export function downloadBlob(filename, blob) {
-  const url = URL.createObjectURL(blob);
-  const element = document.createElement('a');
-  element.href = url;
-  element.download = filename;
-  element.style.display = 'none';
-  document.body.appendChild(element);
-  element.click();
-  document.body.removeChild(element);
-  setTimeout(function() {
-    URL.revokeObjectURL(url);
-  }, 1000);
+  saveBlobToDevice(blob, filename).catch(function(err) {
+    console.warn('downloadBlob failed', err);
+    const url = URL.createObjectURL(blob);
+    const element = document.createElement('a');
+    element.href = url;
+    element.download = filename;
+    element.style.display = 'none';
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
+    setTimeout(function() {
+      URL.revokeObjectURL(url);
+    }, 1000);
+  });
 }
 
 /**
@@ -253,6 +258,13 @@ export function downloadBlob(filename, blob) {
 export function openPdfForPrint(blob, filename) {
   if (!blob) {
     throw new Error('No PDF to print.');
+  }
+  if (isAndroidApp()) {
+    shareBlobForPrint(blob, filename).catch(function(err) {
+      console.warn('native print share failed', err);
+      if (filename) downloadBlob(filename, blob);
+    });
+    return;
   }
   const url = URL.createObjectURL(blob);
   const iframe = document.createElement('iframe');
@@ -378,7 +390,7 @@ export async function generateTunesPdf(container, filename) {
     }
 
     const blob = pdf.output('blob');
-    if (filename) {
+    if (filename && !isAndroidApp()) {
       downloadBlob(filename, blob);
     }
     openPdfForPrint(blob, filename);

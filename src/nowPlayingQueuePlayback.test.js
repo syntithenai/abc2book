@@ -145,6 +145,47 @@ describe('nowPlayingQueuePlayback', function() {
     })).toBe(true)
   })
 
+  test('shouldNowPlayingHostOwnPlayback stays mounted for active midi on expanded tune page', function() {
+    const tunes = {
+      other: { id: 'other', notes: 'CDEF', links: [{ link: 'https://youtu.be/y' }] },
+    }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'other',
+      queue: null,
+      mediaController: {
+        tune: tunes.other,
+        isPlaying: true,
+        requestedPlayState: 'playMidi',
+        playbackRouteMode: 'midi',
+        isMidiPlaybackRoute: function() { return true },
+      },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/other',
+      tunes: tunes,
+      nowPlayingExpanded: true,
+    })).toBe(true)
+  })
+
+  test('shouldNowPlayingHostOwnPlayback stays mounted when controller tune not in store yet', function() {
+    const controllerTune = { id: 'other', notes: 'CDEF', links: [] }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'other',
+      queue: null,
+      mediaController: {
+        tune: controllerTune,
+        isPlaying: true,
+        requestedPlayState: 'playMidi',
+        playbackRouteMode: 'midi',
+      },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/other',
+      tunes: {},
+      nowPlayingExpanded: true,
+    })).toBe(true)
+  })
+
   test('shouldMusicSingleOwnPlayback on list or settings uses background host', function() {
     expect(shouldMusicSingleOwnPlayback(null, queue)).toBe(false)
     expect(shouldMusicSingleOwnPlayback(undefined, queue)).toBe(false)

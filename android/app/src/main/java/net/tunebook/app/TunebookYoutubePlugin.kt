@@ -54,4 +54,36 @@ class TunebookYoutubePlugin : Plugin() {
             }
         }
     }
+
+    @PluginMethod
+    fun searchYoutubeVideos(call: PluginCall) {
+        val query = call.getString("query")?.trim() ?: ""
+        val maxResults = call.getInt("maxResults", 25) ?: 25
+        if (query.isEmpty()) {
+            call.reject("Search query is required")
+            return
+        }
+        executor.execute {
+            try {
+                val results = innertube.searchVideos(query, maxResults)
+                val array = com.getcapacitor.JSArray()
+                results.forEach { item ->
+                    val row = JSObject()
+                    row.put("id", item.videoId)
+                    row.put("title", item.title)
+                    row.put("description", item.description)
+                    row.put("image", item.thumbnailUrl)
+                    row.put("link", "https://www.youtube.com/watch?v=${item.videoId}")
+                    row.put("source", "youtube")
+                    array.put(row)
+                }
+                val payload = JSObject()
+                payload.put("candidates", array)
+                payload.put("empty", results.isEmpty())
+                call.resolve(payload)
+            } catch (e: Exception) {
+                call.reject(e.message ?: "YouTube search failed")
+            }
+        }
+    }
 }

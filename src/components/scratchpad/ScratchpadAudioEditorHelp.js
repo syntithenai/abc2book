@@ -74,16 +74,15 @@ export default function ScratchpadAudioEditorHelp() {
             <h2>Tracks and takes</h2>
             <div className="help-section-body">
               <p>
-                Use <strong>+ Track</strong> at the top of the track sidebar to add an audio track, record a new track, or import an audio file.
-                MIDI lanes are available when <strong>View → Advanced features</strong> is enabled.
+                Use <strong>+ Track</strong> at the top of the track panel (left sidebar) to add an audio track, record a new track, or import an audio file.
+                Organize tracks into <strong>folders</strong> with <strong>+ Folder</strong>. Drag the grip on each row to reorder.
               </p>
               <ul>
-                <li>The first audio track is <strong>armed automatically</strong> when you open a project. Only the armed track receives new recordings.</li>
-                <li>Click <strong>Arm</strong> on another track to switch the record target.</li>
-                <li>Each audio track can hold <strong>multiple takes</strong>. Click a take to make it active; use <strong>+ Take</strong> to add another.</li>
-                <li>Enable <strong>Comp</strong> on a track to assign different time ranges to different takes. Select a region on the waveform, then click <strong>Comp</strong> on the target take.</li>
+                <li>Click a track row or choose <strong>Arm for record</strong> from the track menu (▾) to arm it.</li>
+                <li>Each audio track shows a <strong>main waveform</strong> plus thin <strong>take lanes</strong> underneath — click a take lane to select it, or assign a selection when comping.</li>
+                <li>Drag the bottom edge of a track row to change its waveform height.</li>
+                <li>Enable <strong>Comping</strong> from the track menu to combine the best parts of multiple takes per time range.</li>
                 <li>MIDI tracks open a piano-roll editor aligned to the project timeline (advanced mode).</li>
-                <li>Per-track controls on the waveform (mute, solo, volume, pan, collapse, remove) adjust the mix layout.</li>
               </ul>
             </div>
           </section>
@@ -96,7 +95,8 @@ export default function ScratchpadAudioEditorHelp() {
                 Click <strong>Record</strong> again while recording to stop and save. The armed track must be an audio track.
               </p>
               <p>
-                The <strong>Tempo &amp; Zoom</strong> block has BPM, metronome controls, zoom buttons, and <strong>Record settings</strong>.
+                <strong>Scroll</strong> or pinch over the waveform to zoom. Zoom buttons are in the dock (or the More menu on narrow screens).
+                Tempo and count-in are in the metronome settings menu.
               </p>
               <p>Record settings configure:</p>
               <ul>
@@ -196,12 +196,16 @@ export default function ScratchpadAudioEditorHelp() {
           <section id="scratchpad-audio-help-shortcuts" className="help-section">
             <h2>Keyboard shortcuts</h2>
             <div className="help-section-body">
-              <p>Shortcuts are disabled while typing in a text field. On macOS, use ⌘ instead of Ctrl.</p>
+              <p>
+                Shortcuts follow <strong>REAPER</strong> defaults where practical (e.g. <strong>S</strong> splits at the edit cursor,
+                <strong>R</strong> records, <strong>=</strong>/<strong>−</strong> zoom). Disabled while typing in a text field.
+                On macOS, use ⌘ instead of Ctrl.
+              </p>
               <ul>
-                {SCRATCHPAD_SHORTCUT_BINDINGS.map(function(binding) {
+                {SCRATCHPAD_SHORTCUT_BINDINGS.map(function(binding, index) {
                   return (
-                    <li key={binding.id}>
-                      <strong>{shortcutLabel(binding)}</strong> — {binding.id}
+                    <li key={binding.id + '-' + index}>
+                      <strong>{shortcutLabel(binding)}</strong> — {binding.label || binding.id}
                     </li>
                   )
                 })}

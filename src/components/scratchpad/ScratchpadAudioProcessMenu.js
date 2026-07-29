@@ -1,6 +1,7 @@
 import { ButtonGroup, Dropdown } from 'react-bootstrap'
 import ScratchpadAudioEffectsPanel from './ScratchpadAudioEffectsPanel'
 import { GENERATORS } from '../../scratchpadAudioGenerate'
+import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
 
 export default function ScratchpadAudioProcessMenu(props) {
   const icons = props.icons || {}
@@ -17,7 +18,7 @@ export default function ScratchpadAudioProcessMenu(props) {
       className={'scratchpad-audio-tools-dropdown' + (props.menuBar ? ' scratchpad-audio-menu-bar-item' : '')}
     >
       <Dropdown.Toggle variant={toggleVariant} className={toggleClass}>Process</Dropdown.Toggle>
-      <Dropdown.Menu>
+      <Dropdown.Menu popperConfig={SCRATCHPAD_DROPDOWN_POPPER}>
         <Dropdown.Item onClick={props.onAddMarker}>
           {icons.add || icons.plus || '+'} Add marker at playhead
         </Dropdown.Item>

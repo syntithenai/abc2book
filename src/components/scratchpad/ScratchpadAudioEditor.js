@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, useCallback, useMemo } from 'react'
 import { Modal, Form, Button } from 'react-bootstrap'
 import WaveformPlaylist from 'waveform-playlist'
 import ensureWaveformPlayoutDisconnectGuard from '../../waveformPlaylistPlayoutPatch'
+import ensureWaveformPlaylistTrackHeightPatch from '../../waveformPlaylistTrackHeightPatch'
 import ScratchpadEditorChrome from './ScratchpadEditorChrome'
 import ScratchpadAudioMenuBar from './ScratchpadAudioMenuBar'
 import ScratchpadAudioTransportDock from './ScratchpadAudioTransportDock'
@@ -10,10 +11,15 @@ import ScratchpadAudioRegionBar from './ScratchpadAudioRegionBar'
 import ScratchpadAudioFadeLayer from './ScratchpadAudioFadeLayer'
 import ScratchpadAudioExportModal from './ScratchpadAudioExportModal'
 import ScratchpadAudioSettingsModal from './ScratchpadAudioSettingsModal'
-import { ScratchpadTrackList } from './ScratchpadTakeLaneStack'
+import ScratchpadTrackPanel from './ScratchpadTrackPanel'
+import ScratchpadCompRegionOverlay from './ScratchpadCompRegionOverlay'
 import ScratchpadMidiLaneEditor from './ScratchpadMidiLaneEditor'
 import { getScratchpadBlob, putScratchpadBlob, scratchpadMixdownBlobKey } from '../../scratchpadBlobs'
-import { updateScratchpadItem, markScratchpadUploadPending } from '../../scratchpadStore'
+import { getScratchpadItem, updateScratchpadItem, markScratchpadUploadPending } from '../../scratchpadStore'
+import {
+  readScratchpadAudioEditorSession,
+  writeScratchpadAudioEditorSession,
+} from '../../scratchpadAudioEditorSession'
 import Metronome from '../../Metronome'
 import { normalizeRhythmConfig, createRhythmConfig, ENGINE_MODE_DRUMS } from '../../rhythmEngineTypes'
 import { slotsForBeatCount } from '../../metronomeRhythmPresets'
@@ -35,7 +41,6 @@ import {
   setMarkerLoopRole,
 } from './ScratchpadAudioMarkerLayer'
 import {
-  resolveAudioProject,
   loadProjectTracks,
   getProjectDuration,
   getActiveTake,
@@ -47,7 +52,17 @@ import {
   restoreProjectSnapshot,
   createDefaultAudioTrack,
   MAX_PROJECT_UNDO,
+  createTrackFolder,
+  reorderTracks,
+  moveTrackToFolder,
+  toggleTrackFolderCollapsed,
+  removeTrackFolder,
+  renameTrackFolder,
+  duplicateAudioTrack,
 } from '../../scratchpadAudioProject'
+import useScratchpadWaveformZoom from '../../useScratchpadWaveformZoom'
+import useScratchpadTrackScrollSync from '../../useScratchpadTrackScrollSync'
+import { zoomPlaylistToSelection } from '../../scratchpadWaveformZoom'
 import { applyAudioEffectToBlob } from '../../scratchpadAudioEffects'
 import { separateScratchpadStems } from '../../scratchpadStemSeparation'
 import {
@@ -86,6 +101,7 @@ function readAdvancedFeatures() {
 }
 
 ensureWaveformPlayoutDisconnectGuard()
+ensureWaveformPlaylistTrackHeightPatch()
 
 function MarkerEditModal(props) {
   const marker = props.marker
@@ -170,6 +186,7 @@ export default function ScratchpadAudioEditor(props) {
   const icons = props.tunebook && props.tunebook.icons ? props.tunebook.icons : {}
   const editorRef = useRef(null)
   const wrapRef = useRef(null)
+  const panelScrollRef = useRef(null)
   const playlistRef = useRef(null)
   const eeRef = useRef(null)
   const audioContextRef = useRef(null)
@@ -180,19 +197,22 @@ export default function ScratchpadAudioEditor(props) {
   const redoStackRef = useRef([])
   const selectionRef = useRef(null)
   const saveTimerRef = useRef(null)
-  const audioProjectRef = useRef(resolveAudioProject(item))
+  const audioProjectRef = useRef(readScratchpadAudioEditorSession(item))
+  const prevItemIdRef = useRef(null)
   const clipboardRef = useRef(null)
   const lastEffectRef = useRef(null)
   const editorRootRef = useRef(null)
-  const toolbarStripRef = useRef(null)
   const macroRecorderRef = useRef(createMacroRecorder())
   const isRecordingRef = useRef(false)
   const mediaStreamRef = useRef(null)
   const reloadResolveRef = useRef(null)
   const pendingRecordAfterReloadRef = useRef(false)
   const beginRecordingRef = useRef(null)
+  const playlistReloadingRef = useRef(false)
 
-  const [audioProject, setAudioProject] = useState(function() { return resolveAudioProject(item) })
+  const [audioProject, setAudioProject] = useState(function() {
+    return readScratchpadAudioEditorSession(item)
+  })
   const [markers, setMarkers] = useState((item.audio && item.audio.markers) || [])
   const [trimSuggestion, setTrimSuggestion] = useState(item.audio && item.audio.trimSuggestion)
   const [duration, setDuration] = useState(0)
@@ -223,9 +243,26 @@ export default function ScratchpadAudioEditor(props) {
   const [inputAnalyser, setInputAnalyser] = useState(null)
   const [advancedFeatures, setAdvancedFeatures] = useState(readAdvancedFeatures)
   const [highlightArmTrackId, setHighlightArmTrackId] = useState(null)
+  const overlayRefreshRef = useRef(null)
+  const regionRefreshRef = useRef(null)
+
+  const refreshOverlays = useCallback(function() {
+    if (regionRefreshRef.current) regionRefreshRef.current()
+    if (overlayRefreshRef.current) overlayRefreshRef.current()
+  }, [])
   const [micError, setMicError] = useState(false)
-  const toolbarWidth = useScratchpadToolbarWidth(toolbarStripRef)
+  const toolbarWidth = useScratchpadToolbarWidth(editorRootRef)
   const layoutTier = scratchpadToolbarTier(toolbarWidth)
+
+  useScratchpadWaveformZoom({
+    wrapRef: wrapRef,
+    editorRef: editorRef,
+    eeRef: eeRef,
+    playlistRef: playlistRef,
+    onZoom: refreshOverlays,
+  })
+
+  useScratchpadTrackScrollSync(panelScrollRef, editorRef, reloadKey)
 
   audioProjectRef.current = audioProject
 
@@ -516,9 +553,11 @@ export default function ScratchpadAudioEditor(props) {
 
   function handleZoomToSelection() {
     const sel = selectionRef.current
-    const ee = eeRef.current
-    if (!sel || sel.end <= sel.start || !ee) return
-    ee.emit('zoom', sel.start, sel.end)
+    const playlist = playlistRef.current
+    const editorEl = editorRef.current
+    if (!sel || sel.end <= sel.start || !playlist || !editorEl) return
+    zoomPlaylistToSelection(playlist, editorEl, sel.start, sel.end)
+    if (overlayRefreshRef.current) overlayRefreshRef.current()
   }
 
   function handleSetLoopFromSelection() {
@@ -539,7 +578,7 @@ export default function ScratchpadAudioEditor(props) {
   async function initRecorderWithDevice(deviceId) {
     if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
       setMicError(true)
-      return
+      return false
     }
     if (mediaStreamRef.current) {
       mediaStreamRef.current.getTracks().forEach(function(tr) { tr.stop() })
@@ -558,10 +597,19 @@ export default function ScratchpadAudioEditor(props) {
         setInputAnalyser(analyser)
       }
       if (playlistRef.current) playlistRef.current.initRecorder(stream)
+      return !!(playlistRef.current && playlistRef.current.mediaRecorder)
     } catch (e) {
       setMicError(true)
       setAnalysisMessage('Microphone access required to record — check browser permissions or Audio settings.')
+      return false
     }
+  }
+
+  async function ensureRecorderReady() {
+    const playlist = playlistRef.current
+    if (!playlist) return false
+    if (playlist.mediaRecorder) return true
+    return initRecorderWithDevice(audioProjectRef.current.inputDeviceId)
   }
 
   async function runExport(options) {
@@ -645,6 +693,7 @@ export default function ScratchpadAudioEditor(props) {
   function persistProject(nextAudio, extraPatch, notifyParent) {
     const merged = Object.assign({}, nextAudio, extraPatch || {})
     setAudioProject(merged)
+    writeScratchpadAudioEditorSession(item.id, merged)
     updateScratchpadItem(item.id, { audio: merged })
     markScratchpadUploadPending(item.id)
     if (notifyParent && props.onChange) props.onChange()
@@ -657,7 +706,18 @@ export default function ScratchpadAudioEditor(props) {
     }, 500)
   }
 
+  useEffect(function() {
+    if (prevItemIdRef.current === item.id) return
+    prevItemIdRef.current = item.id
+    setAudioProject(readScratchpadAudioEditorSession(item))
+    setReloadKey(function(n) { return n + 1 })
+  }, [item.id])
+
   const armedTrack = (audioProject.tracks || []).find(function(t) { return t.armed })
+
+  const tracksSignature = useMemo(function() {
+    return (audioProject.tracks || []).map(function(t) { return t.id }).join('|')
+  }, [audioProject.tracks])
 
   useEffect(function() {
     const tracks = audioProjectRef.current.tracks || []
@@ -667,7 +727,8 @@ export default function ScratchpadAudioEditor(props) {
     const nextTracks = tracks.map(function(t) {
       return Object.assign({}, t, { armed: t.id === firstAudio.id })
     })
-    persistProject(Object.assign({}, audioProjectRef.current, { tracks: nextTracks }), {}, false)
+    setAudioProject(Object.assign({}, audioProjectRef.current, { tracks: nextTracks }))
+    writeScratchpadAudioEditorSession(item.id, Object.assign({}, audioProjectRef.current, { tracks: nextTracks }))
   }, [item.id])
 
   useEffect(function() {
@@ -716,9 +777,9 @@ export default function ScratchpadAudioEditor(props) {
       exclSolo: true,
       fadeType: 'logarithmic',
       controls: {
-        show: true,
-        width: 150,
-        widgets: { muteOrSolo: true, volume: true, stereoPan: true, collapse: true, remove: true },
+        show: false,
+        width: 0,
+        widgets: { muteOrSolo: false, volume: false, stereoPan: false, collapse: false, remove: false },
       },
       ac: ac,
       isAutomaticScroll: true,
@@ -746,21 +807,11 @@ export default function ScratchpadAudioEditor(props) {
       setSelection({ start: start, end: end })
       selectionRef.current = { start: start, end: end }
     })
-    ee.on('removeTrack', function(removedTrack) {
-      const trackId = removedTrack && (removedTrack.customClass || removedTrack.id)
-      if (!trackId) {
-        schedulePersistArrangement()
-        return
-      }
-      const current = audioProjectRef.current
-      const removed = (current.tracks || []).find(function(t) { return t.id === trackId })
-      if (!removed) {
-        schedulePersistArrangement()
-        return
-      }
-      const nextTracks = current.tracks.filter(function(t) { return t.id !== trackId })
-      persistProject(Object.assign({}, current, { tracks: nextTracks }), {}, false)
+    ee.on('removeTrack', function() {
+      schedulePersistArrangement()
     })
+    ee.on('zoomin', refreshOverlays)
+    ee.on('zoomout', refreshOverlays)
     ee.on('pause', function() {
       stopMetronome()
       if (isRecordingRef.current) persistRecordingFromPlaylist()
@@ -788,39 +839,12 @@ export default function ScratchpadAudioEditor(props) {
     ee.on('volumechange', schedulePersistArrangement)
     ee.on('stereopan', schedulePersistArrangement)
 
-    loadProjectTracks(item, audioProjectRef.current).then(async function(specs) {
-      if (cancelled) return
-      if (specs.length) {
-        await playlist.load(specs)
-        setHasContent(true)
-        try {
-          const first = specs[0]
-          const blob = first.src
-          if (blob) {
-            const audioBuffer = await decodeAudioBlob(blob)
-            if (!cancelled) {
-              setDuration(await getProjectDuration(audioProjectRef.current))
-              const analysis = await analyzeAudioBuffer(audioBuffer)
-              setTrimSuggestion(analysis.trim)
-            }
-          }
-        } catch (e) { /* skip */ }
-      }
-      if (reloadResolveRef.current) {
-        const resolve = reloadResolveRef.current
-        reloadResolveRef.current = null
-        resolve()
-      }
-      if (pendingRecordAfterReloadRef.current && beginRecordingRef.current) {
-        pendingRecordAfterReloadRef.current = false
-        beginRecordingRef.current()
-      }
-    })
-
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
       const deviceId = audioProjectRef.current.inputDeviceId
       initRecorderWithDevice(deviceId).catch(function() {})
     }
+
+    setReloadKey(function(n) { return n + 1 })
 
     return function() {
       cancelled = true
@@ -841,7 +865,52 @@ export default function ScratchpadAudioEditor(props) {
       eeRef.current = null
       if (editorRef.current) editorRef.current.innerHTML = ''
     }
-  }, [item.id, reloadKey])
+  }, [item.id])
+
+  useEffect(function() {
+    const playlist = playlistRef.current
+    if (!playlist) return undefined
+    let cancelled = false
+    playlistReloadingRef.current = true
+
+    const storeItem = getScratchpadItem(item.id) || item
+    loadProjectTracks(storeItem, audioProjectRef.current).then(async function(specs) {
+      if (cancelled || !playlistRef.current) return
+      try {
+        await playlistRef.current.load(specs)
+        setHasContent(specs.length > 0)
+        if (specs.length) {
+          try {
+            const first = specs[0]
+            const blob = first.src
+            if (blob) {
+              const audioBuffer = await decodeAudioBlob(blob)
+              if (!cancelled) {
+                setDuration(await getProjectDuration(audioProjectRef.current))
+                const analysis = await analyzeAudioBuffer(audioBuffer)
+                setTrimSuggestion(analysis.trim)
+              }
+            }
+          } catch (e) { /* skip */ }
+        }
+      } catch (e) { /* skip reload errors during dev HMR */ }
+      playlistReloadingRef.current = false
+      if (reloadResolveRef.current) {
+        const resolve = reloadResolveRef.current
+        reloadResolveRef.current = null
+        resolve()
+      }
+      if (pendingRecordAfterReloadRef.current && beginRecordingRef.current) {
+        pendingRecordAfterReloadRef.current = false
+        beginRecordingRef.current()
+      }
+    })
+
+    return function() {
+      cancelled = true
+      playlistReloadingRef.current = false
+    }
+  }, [item.id, reloadKey, tracksSignature])
 
   function getPlayheadTime() {
     const playlist = playlistRef.current
@@ -938,14 +1007,32 @@ export default function ScratchpadAudioEditor(props) {
   }
 
   function addTrack(track) {
-    const tracks = (audioProject.tracks || []).concat([Object.assign({}, track, { armed: true })])
-    const next = Object.assign({}, audioProject, {
+    const ap = audioProjectRef.current
+    const tracks = (ap.tracks || []).concat([Object.assign({}, track, { armed: true })])
+    const next = Object.assign({}, ap, {
       tracks: tracks.map(function(t) {
         return Object.assign({}, t, { armed: t.id === track.id })
       }),
     })
     persistProject(next, {}, true)
     setReloadKey(function(n) { return n + 1 })
+  }
+
+  function trackNameFromImportFile(file) {
+    const name = String(file && file.name || '').trim()
+    if (!name) return 'Imported'
+    const dot = name.lastIndexOf('.')
+    if (dot > 0) return name.slice(0, dot)
+    return name
+  }
+
+  async function importAudioFileAsTrack(file) {
+    if (!file || !file.size) return
+    const newTrack = createDefaultAudioTrack(item.id, trackNameFromImportFile(file))
+    const take = newTrack.takes[0]
+    await putScratchpadBlob(take.blobKey, file)
+    take.recordedAt = Date.now()
+    addTrack(newTrack)
   }
 
   function addTrackAndRecord(track) {
@@ -973,6 +1060,15 @@ export default function ScratchpadAudioEditor(props) {
     const ap = audioProjectRef.current
     const countInBars = ap.countInBars || 0
     const doRecord = async function() {
+      const ready = await ensureRecorderReady()
+      if (!ready) {
+        setIsRecording(false)
+        setAnalysisMessage('Microphone access required to record — check browser permissions or Audio settings.')
+        return
+      }
+      if (ac.state === 'suspended') {
+        try { await ac.resume() } catch (e) { /* ignore */ }
+      }
       setIsRecording(true)
       if (ap.punchInEnabled && selectionRef.current) {
         const sel = selectionRef.current
@@ -1029,7 +1125,119 @@ export default function ScratchpadAudioEditor(props) {
       return assignCompRegion(t, sel.start, sel.end, takeId)
     })
     persistProject(Object.assign({}, audioProject, { tracks: tracks }), {}, false)
+    setReloadKey(function(n) { return n + 1 })
   }
+
+  function handleTakeLaneClick(trackId, takeId) {
+    const sel = selectionRef.current
+    if (sel && sel.end > sel.start) {
+      handleAssignComp(trackId, takeId, sel)
+      return
+    }
+    selectTake(trackId, takeId)
+  }
+
+  function updateTrack(trackId, patch) {
+    const tracks = audioProject.tracks.map(function(t) {
+      if (t.id !== trackId) return t
+      return Object.assign({}, t, patch)
+    })
+    persistProject(Object.assign({}, audioProject, { tracks: tracks }), {}, false)
+    if (patch.laneHeight != null || patch.muted != null || patch.soloed != null || patch.compEnabled != null) {
+      setReloadKey(function(n) { return n + 1 })
+    }
+  }
+
+  function handleRenameTrack(track) {
+    const name = window.prompt('Track name', track.name || 'Track')
+    if (name === null) return
+    updateTrack(track.id, { name: String(name).trim() || track.name })
+  }
+
+  function handleDuplicateTrack(trackId) {
+    const source = getTrackById(audioProject, trackId)
+    if (!source) return
+    const copy = duplicateAudioTrack(item.id, source)
+    const tracks = (audioProject.tracks || []).concat([copy])
+    persistProject(Object.assign({}, audioProject, { tracks: tracks }), {}, true)
+    setReloadKey(function(n) { return n + 1 })
+  }
+
+  function handleDeleteTrack(trackId) {
+    if (!window.confirm('Delete this track?')) return
+    const nextTracks = (audioProject.tracks || []).filter(function(t) { return t.id !== trackId })
+    persistProject(Object.assign({}, audioProject, { tracks: nextTracks }), {}, false)
+    setReloadKey(function(n) { return n + 1 })
+  }
+
+  function handleMoveTrackToFolder(trackId, folderId) {
+    const tracks = audioProject.tracks.map(function(t) {
+      if (t.id !== trackId) return t
+      return moveTrackToFolder(t, folderId)
+    })
+    persistProject(Object.assign({}, audioProject, { tracks: tracks }), {}, false)
+  }
+
+  function handleNewFolder(forTrackId) {
+    const name = window.prompt('Folder name', 'Folder')
+    if (name === null) return
+    const folder = createTrackFolder(String(name).trim() || 'Folder')
+    let tracks = audioProject.tracks || []
+    if (forTrackId) {
+      tracks = tracks.map(function(t) {
+        if (t.id !== forTrackId) return t
+        return moveTrackToFolder(t, folder.id)
+      })
+    }
+    const trackFolders = (audioProject.trackFolders || []).concat([folder])
+    persistProject(Object.assign({}, audioProject, { tracks: tracks, trackFolders: trackFolders }), {}, false)
+  }
+
+  function handleToggleFolderCollapse(folderId) {
+    const trackFolders = toggleTrackFolderCollapsed(audioProject.trackFolders || [], folderId)
+    persistProject(Object.assign({}, audioProject, { trackFolders: trackFolders }), {}, false)
+    setReloadKey(function(n) { return n + 1 })
+  }
+
+  function handleRenameFolder(folder) {
+    const name = window.prompt('Folder name', folder.name || 'Folder')
+    if (name === null) return
+    const trackFolders = renameTrackFolder(audioProject.trackFolders || [], folder.id, String(name).trim() || folder.name)
+    persistProject(Object.assign({}, audioProject, { trackFolders: trackFolders }), {}, false)
+  }
+
+  function handleReorderTracks(fromIndex, toIndex) {
+    const visible = advancedFeatures
+      ? (audioProject.tracks || []).slice()
+      : (audioProject.tracks || []).filter(function(t) { return t.type !== 'midi' })
+    const reordered = reorderTracks(visible, fromIndex, toIndex)
+    const hidden = advancedFeatures ? [] : (audioProject.tracks || []).filter(function(t) { return t.type === 'midi' })
+    persistProject(Object.assign({}, audioProject, { tracks: reordered.concat(hidden) }), {}, false)
+    setReloadKey(function(n) { return n + 1 })
+  }
+
+  function handleLaneHeightChange(trackId, height) {
+    updateTrack(trackId, { laneHeight: height })
+    setReloadKey(function(n) { return n + 1 })
+  }
+
+  useEffect(function() {
+    const wrapEl = wrapRef.current
+    if (!wrapEl) return undefined
+    function onTakeLaneClick(e) {
+      const wrapper = e.target.closest('.channel-wrapper')
+      if (!wrapper || !playlistRef.current) return
+      const playlist = playlistRef.current
+      const lane = (playlist.tracks || []).find(function(t) {
+        return t.laneRole === 'take' && t.customClass && wrapper.classList.contains(t.customClass)
+      })
+      if (lane && lane.trackId && lane.takeId) {
+        handleTakeLaneClick(lane.trackId, lane.takeId)
+      }
+    }
+    wrapEl.addEventListener('click', onTakeLaneClick)
+    return function() { wrapEl.removeEventListener('click', onTakeLaneClick) }
+  }, [reloadKey])
 
   async function handleRecord() {
     if (isRecordingRef.current) {
@@ -1055,6 +1263,12 @@ export default function ScratchpadAudioEditor(props) {
       persistProject(Object.assign({}, ap, { tracks: tracks }), {}, false)
       setReloadKey(function(n) { return n + 1 })
       await waitForPlaylistReload()
+    }
+
+    const ready = await ensureRecorderReady()
+    if (!ready) {
+      setAnalysisMessage('Microphone access required to record — check browser permissions or Audio settings.')
+      return
     }
 
     await beginRecording()
@@ -1225,9 +1439,7 @@ export default function ScratchpadAudioEditor(props) {
         onRedo={hasContent ? handleRedo : undefined}
         canUndo={canUndo}
         canRedo={canRedo}
-      />
-
-      <div className="scratchpad-audio-menu-strip" ref={toolbarStripRef}>
+      >
         <ScratchpadAudioMenuBar
           icons={icons}
           ee={eeRef.current}
@@ -1278,7 +1490,7 @@ export default function ScratchpadAudioEditor(props) {
             setAnalysisMessage('Realtime FX preview is not available in the browser editor yet.')
           }}
         />
-      </div>
+      </ScratchpadEditorChrome>
 
       {analysisMessage ? (
         <div className="scratchpad-audio-analysis-banner small px-3 py-1 text-muted">{analysisMessage}</div>
@@ -1314,29 +1526,38 @@ export default function ScratchpadAudioEditor(props) {
             </Button>
           </div>
         ) : null}
-        <aside className={'scratchpad-track-sidebar p-2 border-end' + (narrowLayout ? ' scratchpad-track-sidebar--drawer' + (trackDrawerOpen ? ' scratchpad-track-sidebar--open' : '') : '')}>
-          <ScratchpadTrackList
+        <aside className={'scratchpad-track-sidebar scratchpad-track-sidebar--panel border-end' + (narrowLayout ? ' scratchpad-track-sidebar--drawer' + (trackDrawerOpen ? ' scratchpad-track-sidebar--open' : '') : '')}>
+          <ScratchpadTrackPanel
+            panelScrollRef={panelScrollRef}
             tracks={audioProject.tracks || []}
+            trackFolders={audioProject.trackFolders || []}
             itemId={item.id}
             ee={eeRef.current}
             icons={icons}
             advancedFeatures={advancedFeatures}
             onAddTrack={addTrack}
             onAddTrackAndRecord={addTrackAndRecord}
-            onImport={schedulePersistArrangement}
-            selection={selection}
-            highlightArmTrackId={highlightArmTrackId}
+            onImportFile={importAudioFileAsTrack}
             onArm={armTrack}
-            onSelectTake={selectTake}
-            onNewTake={handleNewTake}
+            onRename={handleRenameTrack}
+            onDuplicate={handleDuplicateTrack}
+            onDelete={handleDeleteTrack}
             onCompToggle={function(trackId, enabled) {
-              const tracks = audioProject.tracks.map(function(t) {
-                if (t.id !== trackId) return t
-                return Object.assign({}, t, { compEnabled: enabled })
-              })
-              persistProject(Object.assign({}, audioProject, { tracks: tracks }), {}, false)
+              updateTrack(trackId, { compEnabled: enabled })
             }}
-            onAssignComp={handleAssignComp}
+            onMuteToggle={function(trackId, muted) {
+              updateTrack(trackId, { muted: muted })
+            }}
+            onSoloToggle={function(trackId, soloed) {
+              updateTrack(trackId, { soloed: soloed })
+            }}
+            onMoveToFolder={handleMoveTrackToFolder}
+            onNewFolder={handleNewFolder}
+            onToggleFolderCollapse={handleToggleFolderCollapse}
+            onRenameFolder={handleRenameFolder}
+            onReorder={handleReorderTracks}
+            onLaneHeightChange={handleLaneHeightChange}
+            onSelectTake={selectTake}
             onEditMidi={setMidiEditTrackId}
           />
         </aside>
@@ -1354,6 +1575,7 @@ export default function ScratchpadAudioEditor(props) {
             duration={duration}
             selection={selection}
             reloadKey={reloadKey}
+            onLayoutRefresh={function(fn) { regionRefreshRef.current = fn }}
             onSelectionChange={function(sel) {
               selectionRef.current = sel
               setSelection(sel)
@@ -1379,6 +1601,14 @@ export default function ScratchpadAudioEditor(props) {
           />
           <div className="scratchpad-audio-waveform-wrap" ref={wrapRef}>
             <div className="scratchpad-audio-waveform" ref={editorRef} />
+            <ScratchpadCompRegionOverlay
+              editorRef={editorRef}
+              wrapRef={wrapRef}
+              tracks={audioProject.tracks || []}
+              duration={duration}
+              reloadKey={reloadKey}
+              onLayoutRefresh={function(fn) { overlayRefreshRef.current = fn }}
+            />
             <ScratchpadAudioFadeLayer
               editorRef={editorRef}
               wrapRef={wrapRef}

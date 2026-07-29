@@ -1,6 +1,7 @@
 import { Button, Dropdown, Form } from 'react-bootstrap'
 import DrumPatternEditor from '../DrumPatternEditor'
 import { normalizeRhythmConfig, createRhythmConfig } from '../../rhythmEngineTypes'
+import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
 
 export default function ScratchpadAudioRecordSettings(props) {
   const tempo = props.tempo != null ? props.tempo : 120
@@ -8,13 +9,20 @@ export default function ScratchpadAudioRecordSettings(props) {
   const punchInEnabled = !!props.punchInEnabled
   const recordMode = props.recordMode || 'newTake'
   const rhythm = normalizeRhythmConfig(props.rhythmConfig || createRhythmConfig(4))
+  const compact = !!props.compact
 
   return (
     <Dropdown className="scratchpad-audio-record-settings">
-      <Dropdown.Toggle variant="outline-secondary" size="sm">
-        Record settings
+      <Dropdown.Toggle
+        variant="outline-secondary"
+        size="sm"
+        title="Record settings"
+        aria-label="Record settings"
+        className={'scratchpad-audio-dropdown-caret-toggle' + (compact ? ' scratchpad-audio-record-settings-toggle--compact' : '')}
+      >
+        {compact ? null : 'Record settings'}
       </Dropdown.Toggle>
-      <Dropdown.Menu className="scratchpad-audio-record-settings-menu p-3">
+      <Dropdown.Menu className="scratchpad-audio-record-settings-menu p-3" popperConfig={SCRATCHPAD_DROPDOWN_POPPER}>
         <Form.Group className="mb-2">
           <Form.Label className="small mb-1">Tempo (BPM)</Form.Label>
           <Form.Control

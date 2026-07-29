@@ -15,6 +15,13 @@ data class YoutubeAudioResult(
     val client: String
 )
 
+data class YoutubeSearchResult(
+    val videoId: String,
+    val title: String,
+    val description: String,
+    val thumbnailUrl: String
+)
+
 class YoutubeInnertube(private val http: OkHttpClient = OkHttpClient.Builder()
     .connectTimeout(30, TimeUnit.SECONDS)
     .readTimeout(180, TimeUnit.SECONDS)
@@ -80,6 +87,75 @@ class YoutubeInnertube(private val http: OkHttpClient = OkHttpClient.Builder()
             }
         }
         throw lastError ?: IllegalStateException("YouTube fetch failed")
+    }
+
+    fun searchVideos(query: String, maxResults: Int = 25): List<YoutubeSearchResult> {
+        val trimmed = query.trim()
+        if (trimmed.isEmpty()) return emptyList()
+        var lastError: Exception? = null
+        for (client in clients) {
+            try {
+                return searchWithClient(trimmed, maxResults.coerceIn(1, 50), client)
+            } catch (e: Exception) {
+                lastError = e
+            }
+        }
+        throw lastError ?: IllegalStateException("YouTube search failed")
+    }
+
+    private fun searchWithClient(query: String, maxResults: Int, client: InnertubeClient): List<YoutubeSearchResult> {
+        val url = "https://www.youtube.com/youtubei/v1/search?key=${client.apiKey}&prettyPrint=false"
+        val bodyJson = JSONObject()
+            .put("context", JSONObject(client.contextJson))
+            .put("query", query)
+        val request = Request.Builder()
+            .url(url)
+            .post(bodyJson.toString().toRequestBody("application/json".toMediaType()))
+            .apply {
+                client.headers.forEach { (k, v) -> addHeader(k, v) }
+            }
+            .build()
+        http.newCall(request).execute().use { response ->
+            if (!response.isSuccessful) {
+                throw IllegalStateException("Innertube search HTTP ${response.code} (${client.name})")
+            }
+            val text = response.body?.string() ?: throw IllegalStateException("Empty search response")
+            return parseSearchResults(JSONObject(text), maxResults)
+        }
+    }
+
+    private fun parseSearchResults(root: JSONObject, maxResults: Int): List<YoutubeSearchResult> {
+        val out = mutableListOf<YoutubeSearchResult>()
+        val contents = root.optJSONObject("contents")
+            ?.optJSONArray("contents") ?: return out
+        for (i in 0 until contents.length()) {
+            if (out.size >= maxResults) break
+            val section = contents.optJSONObject(i) ?: continue
+            val items = section.optJSONObject("itemSectionRenderer")
+                ?.optJSONArray("contents") ?: continue
+            for (j in 0 until items.length()) {
+                if (out.size >= maxResults) break
+                val item = items.optJSONObject(j) ?: continue
+                val video = item.optJSONObject("videoRenderer") ?: continue
+                val videoId = video.optString("videoId")
+                if (videoId.isNullOrEmpty()) continue
+                val title = video.optJSONObject("title")
+                    ?.optJSONArray("runs")
+                    ?.optJSONObject(0)
+                    ?.optString("text") ?: ""
+                val description = video.optJSONObject("descriptionSnippet")
+                    ?.optJSONArray("runs")
+                    ?.optJSONObject(0)
+                    ?.optString("text") ?: ""
+                val thumbs = video.optJSONObject("thumbnail")?.optJSONArray("thumbnails")
+                var thumbUrl = ""
+                if (thumbs != null && thumbs.length() > 0) {
+                    thumbUrl = thumbs.optJSONObject(thumbs.length() - 1)?.optString("url") ?: ""
+                }
+                out.add(YoutubeSearchResult(videoId, title, description, thumbUrl))
+            }
+        }
+        return out
     }
 
     private fun fetchWithClient(videoId: String, client: InnertubeClient): YoutubeAudioResult {

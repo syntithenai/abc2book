@@ -3,6 +3,7 @@ import {
   DEFAULT_PUBLIC_MEDIA_PROXY,
   getMediaProxyBaseCandidates,
   normalizeMediaProxyBase,
+  prefersPublicMediaProxyFirst,
 } from './mediaProxyConfig'
 
 describe('mediaProxyConfig', function() {
@@ -43,7 +44,8 @@ describe('mediaProxyConfig', function() {
     Object.defineProperty(window, 'location', { configurable: true, value: originalLocation })
   })
 
-  test('uses localhost then public when no saved setting', function() {
+  test('uses localhost then public in non-production desktop builds', function() {
+    if (prefersPublicMediaProxyFirst()) return
     const candidates = getMediaProxyBaseCandidates()
     expect(candidates[0]).toBe('http://localhost:8787')
     expect(candidates).toContain(DEFAULT_PUBLIC_MEDIA_PROXY)
@@ -54,5 +56,39 @@ describe('mediaProxyConfig', function() {
     expect(candidates.indexOf(DEFAULT_PUBLIC_MEDIA_PROXY)).toBeLessThan(
       candidates.indexOf(DEFAULT_CLOUD_LIGHT_MEDIA_PROXY)
     )
+  })
+
+  test('prefers peppertrees then cloud in production builds', function() {
+    const originalEnv = process.env.NODE_ENV
+    const originalCapacitor = window.Capacitor
+    delete window.Capacitor
+    process.env.NODE_ENV = 'production'
+    try {
+      const candidates = getMediaProxyBaseCandidates()
+      expect(candidates[0]).toBe(DEFAULT_PUBLIC_MEDIA_PROXY)
+      expect(candidates[1]).toBe(DEFAULT_CLOUD_LIGHT_MEDIA_PROXY)
+      expect(candidates).not.toContain('http://localhost:8787')
+    } finally {
+      process.env.NODE_ENV = originalEnv
+      if (originalCapacitor) window.Capacitor = originalCapacitor
+    }
+  })
+
+  test('native app prefers peppertrees then cloud and skips loopback', function() {
+    const originalCapacitor = window.Capacitor
+    window.Capacitor = {
+      isNativePlatform: function() { return true },
+      getPlatform: function() { return 'android' },
+    }
+    try {
+      const candidates = getMediaProxyBaseCandidates()
+      expect(candidates[0]).toBe(DEFAULT_PUBLIC_MEDIA_PROXY)
+      expect(candidates[1]).toBe(DEFAULT_CLOUD_LIGHT_MEDIA_PROXY)
+      expect(candidates).not.toContain('https://localhost')
+      expect(candidates).not.toContain('http://localhost:8787')
+    } finally {
+      if (originalCapacitor) window.Capacitor = originalCapacitor
+      else delete window.Capacitor
+    }
   })
 })

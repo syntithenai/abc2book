@@ -59,6 +59,13 @@ export default function MusicEditor(props) {
       if (embedded && typeof props.onLiveSave === 'function') props.onLiveSave(tuneId)
     }, [embedded, forceRefresh, props.onLiveSave, tuneId])
     const notationFlushRef = useRef(null)
+    useEffect(function() {
+        if (typeof props.onRegisterActiveEditorFlush !== 'function') return undefined
+        props.onRegisterActiveEditorFlush(function() {
+            if (notationFlushRef.current) notationFlushRef.current()
+        })
+        return function() { props.onRegisterActiveEditorFlush(null) }
+    }, [props.onRegisterActiveEditorFlush])
     const canUndo = tuneId && editHistory ? editHistory.canUndo(tuneId) : false
     const canRedo = tuneId && editHistory ? editHistory.canRedo(tuneId) : false
     const undoLabel = tuneId && historyState ? getUndoTuneEditLabel(historyState, tuneId) : ''

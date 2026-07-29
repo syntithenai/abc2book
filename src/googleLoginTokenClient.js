@@ -1,6 +1,7 @@
 import jwt_decode from 'jwt-decode'
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
 import { normalizeToTokenResponse } from './googleLoginTokenAdapter'
+import { shouldUseAndroidBrowserOAuth } from './androidGoogleAuth'
 
 var GOOGLE_LOGIN_PROFILE_KEY = 'google_login_profile'
 var GOOGLE_LOGIN_HINT_EMAIL_KEY = 'google_login_hint_email'
@@ -137,6 +138,12 @@ export function createTokenClientController(ctx) {
         reject(new Error('Not logged in'))
         return
       }
+      if (shouldUseAndroidBrowserOAuth()) {
+        rememberExtraScopes(extraScopes)
+        return Promise.reject(new Error(
+          'Google scope upgrade on Android requires an OAuth resolver. Check your network connection.'
+        ))
+      }
       if (!(global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2)) {
         reject(new Error('Google sign-in is still loading'))
         return
@@ -159,6 +166,12 @@ export function createTokenClientController(ctx) {
   }
 
   function login() {
+    if (shouldUseAndroidBrowserOAuth()) {
+      return Promise.reject(new Error(
+        'Google login on Android requires an OAuth resolver. Check your network connection.'
+      ))
+    }
+
     if (!(global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2)) {
       return Promise.reject(new Error('Google sign-in is still loading'))
     }

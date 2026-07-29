@@ -15,6 +15,7 @@ import {
 } from '../../scratchpadAnalyseAccess'
 import useMediaResolverHealth from '../../useMediaResolverHealth'
 import { scratchpadItemPath } from '../../scratchpadExportToast'
+import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
 import ScratchpadAssociateModal from './ScratchpadAssociateModal'
 import ScratchpadAnalyseModal from './ScratchpadAnalyseModal'
 import ScratchpadCopyModal from './ScratchpadCopyModal'
@@ -111,92 +112,96 @@ export default function ScratchpadEditorChrome(props) {
 
   return (
     <div className="scratchpad-editor-chrome">
-      {props.onBack ? (
-        <Button
-          variant="outline-secondary"
-          size="sm"
-          className="scratchpad-editor-back-btn"
-          title="Back to scratchpad list"
-          onClick={props.onBack}
-        >
-          {icons.scratchpadlist || icons.pencil || icons.menu || '☰'}
-        </Button>
-      ) : null}
-      {props.onUndo || props.onRedo ? (
-        <ButtonGroup size="sm" className="scratchpad-undo-redo" aria-label="Undo and redo">
+      <div className="scratchpad-editor-chrome-leading">
+        {props.onBack ? (
           <Button
             variant="outline-secondary"
-            title={props.undoTitle || 'Undo'}
-            disabled={!props.canUndo}
-            onClick={props.onUndo}
+            size="sm"
+            className="scratchpad-editor-back-btn"
+            title="Back to scratchpad list"
+            onClick={props.onBack}
           >
-            {icons.arrowgoback || 'Undo'}
+            {icons.scratchpadlist || icons.pencil || icons.menu || '☰'}
           </Button>
-          <Button
-            variant="outline-secondary"
-            title={props.redoTitle || 'Redo'}
-            disabled={!props.canRedo}
-            onClick={props.onRedo}
-          >
-            {icons.arrowgoforward || 'Redo'}
-          </Button>
-        </ButtonGroup>
-      ) : null}
+        ) : null}
+        {props.onUndo || props.onRedo ? (
+          <ButtonGroup size="sm" className="scratchpad-undo-redo" aria-label="Undo and redo">
+            <Button
+              variant="outline-secondary"
+              title={props.undoTitle || 'Undo'}
+              disabled={!props.canUndo}
+              onClick={props.onUndo}
+            >
+              {icons.arrowgoback || 'Undo'}
+            </Button>
+            <Button
+              variant="outline-secondary"
+              title={props.redoTitle || 'Redo'}
+              disabled={!props.canRedo}
+              onClick={props.onRedo}
+            >
+              {icons.arrowgoforward || 'Redo'}
+            </Button>
+          </ButtonGroup>
+        ) : null}
+      </div>
       {props.children ? (
-        <div className="scratchpad-editor-chrome-tools">
+        <div className="scratchpad-editor-chrome-tools" ref={props.toolsRef}>
           {props.children}
         </div>
       ) : null}
-      <Form.Group className="scratchpad-item-title-group mb-0">
-        <Form.Label className="scratchpad-item-title-label mb-0">Title</Form.Label>
-        <Form.Control
-          className="scratchpad-item-title-input"
-          size="sm"
-          value={title}
-          onChange={handleTitleChange}
-          placeholder="Title"
-        />
-      </Form.Group>
-      <Dropdown className="scratchpad-item-workspace-select">
-        <Dropdown.Toggle variant="outline-secondary" size="sm">
-          {currentWs ? currentWs.name : 'Workspace'}
-        </Dropdown.Toggle>
-        <Dropdown.Menu popperConfig={{ strategy: 'fixed' }}>
-          {workspaces.map(function(ws) {
-            return (
-              <Dropdown.Item
-                key={ws.id}
-                active={ws.id === item.workspaceId}
-                onClick={function() { handleMove(ws.id) }}
-              >
-                {ws.name}
-              </Dropdown.Item>
-            )
-          })}
-        </Dropdown.Menu>
-      </Dropdown>
-      <Button variant="outline-secondary" size="sm" onClick={openCopyModal} title="Duplicate">
-        {icons.filecopyline || 'Copy'}
-      </Button>
-      <Button variant="danger" size="sm" onClick={handleDelete} title="Delete">
-        {icons.deletebin || 'Delete'}
-      </Button>
-      {associateModes.length ? (
-        <Dropdown className="scratchpad-associate-dropdown">
-          <Dropdown.Toggle variant="outline-primary" size="sm">
-            Use
+      <div className="scratchpad-editor-chrome-main">
+        <Form.Group className="scratchpad-item-title-group mb-0">
+          <Form.Label className="scratchpad-item-title-label mb-0">Title</Form.Label>
+          <Form.Control
+            className="scratchpad-item-title-input"
+            size="sm"
+            value={title}
+            onChange={handleTitleChange}
+            placeholder="Title"
+          />
+        </Form.Group>
+        <Dropdown className="scratchpad-item-workspace-select">
+          <Dropdown.Toggle variant="outline-secondary" size="sm">
+            {currentWs ? currentWs.name : 'Workspace'}
           </Dropdown.Toggle>
-          <Dropdown.Menu popperConfig={{ strategy: 'fixed' }}>
-            {associateModes.map(function(mode) {
+          <Dropdown.Menu popperConfig={SCRATCHPAD_DROPDOWN_POPPER}>
+            {workspaces.map(function(ws) {
               return (
-                <Dropdown.Item key={mode.id} onClick={function() { openUseMode(mode.id) }}>
-                  {mode.label}
+                <Dropdown.Item
+                  key={ws.id}
+                  active={ws.id === item.workspaceId}
+                  onClick={function() { handleMove(ws.id) }}
+                >
+                  {ws.name}
                 </Dropdown.Item>
               )
             })}
           </Dropdown.Menu>
         </Dropdown>
-      ) : null}
+        <Button variant="outline-secondary" size="sm" onClick={openCopyModal} title="Duplicate">
+          {icons.filecopyline || 'Copy'}
+        </Button>
+        <Button variant="danger" size="sm" onClick={handleDelete} title="Delete">
+          {icons.deletebin || 'Delete'}
+        </Button>
+        {associateModes.length ? (
+          <Dropdown className="scratchpad-associate-dropdown">
+            <Dropdown.Toggle variant="outline-primary" size="sm">
+              Use
+            </Dropdown.Toggle>
+            <Dropdown.Menu popperConfig={SCRATCHPAD_DROPDOWN_POPPER}>
+              {associateModes.map(function(mode) {
+                return (
+                  <Dropdown.Item key={mode.id} onClick={function() { openUseMode(mode.id) }}>
+                    {mode.label}
+                  </Dropdown.Item>
+                )
+              })}
+            </Dropdown.Menu>
+          </Dropdown>
+        ) : null}
+      </div>
 
       <ScratchpadAssociateModal
         show={showAssociate}

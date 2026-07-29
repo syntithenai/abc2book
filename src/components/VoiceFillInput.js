@@ -2,7 +2,7 @@ import { Form, InputGroup } from 'react-bootstrap'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
 
 /**
- * Single-line text/search input with optional hold-to-speak mic.
+ * Single-line text/search input with optional voice mic (tap or hold to speak).
  *
  * layout="group" — Bootstrap InputGroup + Form.Control (default)
  * layout="wrap"  — flex row with raw input or Form.Control + mic

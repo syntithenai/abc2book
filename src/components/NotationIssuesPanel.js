@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Badge, Button, Collapse } from 'react-bootstrap'
+import { Badge, Button, Modal } from 'react-bootstrap'
 import { buildBulkCheckIssueGroups } from '../bulkCheckIssueGroups'
 import { FIX_ALL_PREVIEW_ACTIONS } from '../bulkCheckFixAll'
 import BulkCheckFixPreviewModal from './BulkCheckFixPreviewModal'
@@ -13,6 +13,27 @@ function severityVariant(severity) {
   return 'info'
 }
 
+function issueMatchesSeverity(issueItem, severityMode) {
+  const severity = issueItem && issueItem.severity ? issueItem.severity : 'error'
+  if (severityMode === 'error') return severity === 'error'
+  return severity === 'warning' || severity === 'info'
+}
+
+function filterGroupsForSeverity(groups, severityMode) {
+  return groups.map(function(group) {
+    const filteredIssues = group.issues.filter(function(issueItem) {
+      return issueMatchesSeverity(issueItem, severityMode)
+    })
+    if (!filteredIssues.length) return null
+    return {
+      id: group.id,
+      title: group.title,
+      issues: filteredIssues,
+      actions: group.actions,
+    }
+  }).filter(Boolean)
+}
+
 function buildEditorReport(tune, issues, checkResults) {
   return {
     tuneId: tune && tune.id,
@@ -21,6 +42,74 @@ function buildEditorReport(tune, issues, checkResults) {
     structureResult: checkResults && checkResults.structureResult,
     lyricsResult: checkResults && checkResults.lyricsResult,
   }
+}
+
+function SeverityIssuesModal(props) {
+  const {
+    show,
+    onHide,
+    title,
+    severityMode,
+    groups,
+    fixingAction,
+    onNavigateIssue,
+    onApplyFix,
+  } = props
+
+  return (
+    <Modal show={show} onHide={onHide} size="lg" scrollable className="notation-issues-modal">
+      <Modal.Header closeButton>
+        <Modal.Title>{title}</Modal.Title>
+      </Modal.Header>
+      <Modal.Body className="notation-issues-modal-body">
+        {groups.map(function(group) {
+          return (
+            <div key={group.id} className="notation-issues-modal-group">
+              <h6 className="notation-issues-modal-group-title">{group.title}</h6>
+              <ul className="notation-issues-list">
+                {group.issues.map(function(issueItem, index) {
+                  return (
+                    <li key={group.id + '-' + issueItem.code + '-' + index} className="notation-issues-item">
+                      <button
+                        type="button"
+                        className="notation-issues-item-button"
+                        onClick={function() {
+                          if (onNavigateIssue) onNavigateIssue(issueItem)
+                          onHide()
+                        }}
+                      >
+                        <Badge bg={severityVariant(issueItem.severity)} className="notation-issues-severity">
+                          {issueItem.severity || severityMode}
+                        </Badge>
+                        <span>{issueItem.message}</span>
+                      </button>
+                    </li>
+                  )
+                })}
+              </ul>
+              {group.actions.length > 0 ? (
+                <div className="notation-issues-actions">
+                  {group.actions.map(function(action) {
+                    return (
+                      <Button
+                        key={action.id + (action.linkIndex != null ? ':' + action.linkIndex : '')}
+                        size="sm"
+                        variant="outline-secondary"
+                        disabled={fixingAction === action.id}
+                        onClick={function() { onApplyFix(action.id) }}
+                      >
+                        {fixingAction === action.id ? 'Fixing…' : action.label}
+                      </Button>
+                    )
+                  })}
+                </div>
+              ) : null}
+            </div>
+          )
+        })}
+      </Modal.Body>
+    </Modal>
+  )
 }
 
 export default function NotationIssuesPanel(props) {
@@ -32,7 +121,7 @@ export default function NotationIssuesPanel(props) {
   const onTuneSaved = props.onTuneSaved
   const parseAndRender = props.parseAndRender
 
-  const [open, setOpen] = useState(true)
+  const [activeDialog, setActiveDialog] = useState(null)
   const [previewState, setPreviewState] = useState(null)
   const [fixingAction, setFixingAction] = useState(null)
 
@@ -44,6 +133,14 @@ export default function NotationIssuesPanel(props) {
     if (!tune || !issues.length) return []
     return buildBulkCheckIssueGroups(report, tune, tunebook, parseAndRender)
   }, [report, tune, tunebook, parseAndRender, issues.length])
+
+  const errorGroups = useMemo(function() {
+    return filterGroupsForSeverity(groups, 'error')
+  }, [groups])
+
+  const warningGroups = useMemo(function() {
+    return filterGroupsForSeverity(groups, 'warning')
+  }, [groups])
 
   if (!issues.length) return null
 
@@ -86,74 +183,66 @@ export default function NotationIssuesPanel(props) {
   }
 
   const errorCount = issues.filter(function(item) { return item.severity === 'error' }).length
-  const warningCount = issues.filter(function(item) { return item.severity === 'warning' }).length
+  const warningCount = issues.filter(function(item) {
+    return item.severity === 'warning' || item.severity === 'info'
+  }).length
 
   return (
-    <div className="notation-issues-panel">
-      <button
-        type="button"
-        className="notation-issues-panel-toggle"
-        aria-expanded={open}
-        onClick={function() { setOpen(function(value) { return !value }) }}
-      >
-        <span className="notation-issues-panel-title">Notation checks</span>
-        {errorCount > 0 ? (
-          <Badge bg="danger" className="notation-issues-badge">{errorCount}</Badge>
-        ) : null}
-        {warningCount > 0 ? (
-          <Badge bg="warning" text="dark" className="notation-issues-badge">{warningCount}</Badge>
-        ) : null}
-        <span className="notation-issues-panel-chevron" aria-hidden="true">{open ? '▾' : '▸'}</span>
-      </button>
-
-      <Collapse in={open}>
-        <div className="notation-issues-panel-body">
-          {groups.map(function(group) {
-            return (
-              <div key={group.id} className="notation-issues-group">
-                <div className="notation-issues-group-title">{group.title}</div>
-                <ul className="notation-issues-list">
-                  {group.issues.map(function(issueItem, index) {
-                    return (
-                      <li key={group.id + '-' + issueItem.code + '-' + index} className="notation-issues-item">
-                        <button
-                          type="button"
-                          className="notation-issues-item-button"
-                          onClick={function() {
-                            if (onNavigateIssue) onNavigateIssue(issueItem)
-                          }}
-                        >
-                          <Badge bg={severityVariant(issueItem.severity)} className="notation-issues-severity">
-                            {issueItem.severity}
-                          </Badge>
-                          <span>{issueItem.message}</span>
-                        </button>
-                      </li>
-                    )
-                  })}
-                </ul>
-                {group.actions.length > 0 ? (
-                  <div className="notation-issues-actions">
-                    {group.actions.map(function(action) {
-                      return (
-                        <Button
-                          key={action.id}
-                          size="sm"
-                          variant="outline-secondary"
-                          disabled={fixingAction === action.id}
-                          onClick={function() { applyFix(action.id) }}
-                        >
-                          {fixingAction === action.id ? 'Fixing…' : action.label}
-                        </Button>
-                      )
-                    })}
-                  </div>
-                ) : null}
-              </div>
-            )
-          })}
+    <>
+      <div className="notation-issues-toolbar">
+        <div className="notation-issues-toolbar-block">
+          <span className="notation-issues-toolbar-title">Notation checks</span>
+          <div className="notation-issues-toolbar-buttons">
+            {errorCount > 0 ? (
+              <Button
+                variant="outline-danger"
+                size="sm"
+                className="notation-issues-severity-toggle"
+                aria-label={'Errors: ' + errorCount}
+                onClick={function() { setActiveDialog('error') }}
+              >
+                <Badge bg="danger" className="notation-issues-badge">{errorCount}</Badge>
+                <span className="notation-issues-severity-label">Errors</span>
+                <span className="notation-issues-caret" aria-hidden="true">▾</span>
+              </Button>
+            ) : null}
+            {warningCount > 0 ? (
+              <Button
+                variant="outline-warning"
+                size="sm"
+                className="notation-issues-severity-toggle"
+                aria-label={'Warnings: ' + warningCount}
+                onClick={function() { setActiveDialog('warning') }}
+              >
+                <Badge bg="warning" text="dark" className="notation-issues-badge">{warningCount}</Badge>
+                <span className="notation-issues-severity-label">Warnings</span>
+                <span className="notation-issues-caret" aria-hidden="true">▾</span>
+              </Button>
+            ) : null}
+          </div>
         </div>
-      </Collapse>
+      </div>
+
+      <SeverityIssuesModal
+        show={activeDialog === 'error'}
+        onHide={function() { setActiveDialog(null) }}
+        title="Notation errors"
+        severityMode="error"
+        groups={errorGroups}
+        fixingAction={fixingAction}
+        onNavigateIssue={onNavigateIssue}
+        onApplyFix={applyFix}
+      />
+      <SeverityIssuesModal
+        show={activeDialog === 'warning'}
+        onHide={function() { setActiveDialog(null) }}
+        title="Notation warnings"
+        severityMode="warning"
+        groups={warningGroups}
+        fixingAction={fixingAction}
+        onNavigateIssue={onNavigateIssue}
+        onApplyFix={applyFix}
+      />
 
       <BulkCheckFixPreviewModal
         show={!!previewState}
@@ -163,6 +252,6 @@ export default function NotationIssuesPanel(props) {
         actionLabel={previewState && previewState.actionLabel}
         onConfirm={applyPreview}
       />
-    </div>
+    </>
   )
 }

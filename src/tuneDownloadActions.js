@@ -11,6 +11,7 @@ import { getAudioCompressFormat, getAudioCompressExtension } from './audioCompre
 import { encodeAudioBuffer } from './audioCompressEncode'
 import { renderAbcToAudioBuffer } from './notationAudioExport'
 import { FEED_FEEDBACK_ADMIN_EMAIL } from './feedFeedbackUtils'
+import { saveBlobToDevice } from './nativeFileSave'
 
 export const TUNE_DOWNLOAD_FORMATS = [
   { id: 'abc', label: 'ABC', icon: 'music', description: 'ABC notation file' },
@@ -121,17 +122,21 @@ export function tunesToLyricsText(tunes) {
   }).join('\n\n')
 }
 
+
 export function downloadBlob(filename, blob) {
   if (!blob) return
-  var url = window.URL.createObjectURL(blob)
-  var anchor = document.createElement('a')
-  document.body.appendChild(anchor)
-  anchor.style.display = 'none'
-  anchor.href = url
-  anchor.download = filename
-  anchor.click()
-  window.URL.revokeObjectURL(url)
-  document.body.removeChild(anchor)
+  saveBlobToDevice(blob, filename).catch(function(err) {
+    console.warn('downloadBlob failed', err)
+    var url = window.URL.createObjectURL(blob)
+    var anchor = document.createElement('a')
+    document.body.appendChild(anchor)
+    anchor.style.display = 'none'
+    anchor.href = url
+    anchor.download = filename
+    anchor.click()
+    window.URL.revokeObjectURL(url)
+    document.body.removeChild(anchor)
+  })
 }
 
 function pauseBetweenDownloads(ms) {

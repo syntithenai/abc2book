@@ -529,6 +529,31 @@
   z-index:9999;
 }
 
+/* Toasts must sit above the full-screen waiting overlay (z-index 999999). */
+:root {
+  --toastify-z-index: 1000001;
+}
+
+.Toastify__toast-container {
+  pointer-events: none;
+}
+
+.Toastify__toast,
+.incoming-merge-toast,
+.incoming-merge-toast button {
+  pointer-events: auto;
+  touch-action: manipulation;
+}
+
+.incoming-merge-toast-shell {
+  max-width: min(96vw, 42rem);
+}
+
+.incoming-merge-toast button {
+  min-height: 2.25rem;
+  min-width: 4.5rem;
+}
+
 .App-books .nav-tabs .nav-item button {
   font-size:1.6em !important;
   font-weight: 500 !important;
@@ -1020,6 +1045,34 @@ a.header-now-playing-label:focus {
   color: var(--app-text-muted, #666);
 }
 
+.header-voice-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+.field-voice-fill-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.voice-input-waveform {
+  display: block;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.voice-input-waveform--header {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.voice-input-waveform--field {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .header-voice-btn {
   flex-shrink: 0;
   width: 2.6em;
@@ -1038,6 +1091,9 @@ a.header-now-playing-label:focus {
 
 .header-voice-btn.recording {
   background: #dc3545;
+}
+
+.header-voice-btn.recording:not(.tap-mode) {
   animation: voice-pulse 0.8s ease-in-out infinite;
 }
 
@@ -11169,7 +11225,32 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: calc(100vh - 4rem);
+  min-height: calc(
+    100dvh
+    - var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)))
+    - var(--app-playlist-transport-offset, 0px)
+    - 0.2em
+  );
+}
+
+.scratchpad-item-page:has(.scratchpad-audio-editor) {
+  height: calc(
+    100dvh
+    - var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)))
+    - 0.2em
+  );
+  max-height: calc(
+    100dvh
+    - var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)))
+    - 0.2em
+  );
+  min-height: 0;
+  overflow: hidden;
+}
+
+.scratchpad-item-page:has(> .scratchpad-editor-chrome) {
+  padding-top: calc(var(--scratchpad-editor-chrome-height, 3.1rem) * var(--chrome-vv-zoom, 1));
+  box-sizing: border-box;
 }
 
 .scratchpad-list-search {
@@ -11431,17 +11512,36 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   padding: 0.35rem 0.75rem;
   border-bottom: 1px solid #dee2e6;
   background: #f8f9fa;
-  position: sticky;
+  position: fixed;
   top: var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)));
+  left: 0;
+  right: 0;
   z-index: 1020;
   touch-action: manipulation;
   zoom: var(--chrome-vv-zoom, 1);
-  width: calc(100% * var(--chrome-vv-scale, 1));
+  width: 100%;
   max-width: none;
+  margin: 0;
+  overflow: visible;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+}
+
+.scratchpad-editor-chrome-leading,
+.scratchpad-editor-chrome-main {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.35rem;
+  flex: 0 0 auto;
+}
+
+.scratchpad-editor-chrome-main {
+  flex: 1 1 auto;
+  min-width: 0;
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
 }
 
 .scratchpad-item-page .scratchpad-music-editor .notation-editing-controls {
@@ -11457,6 +11557,7 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   align-items: center;
   gap: 0.35rem;
   flex: 0 0 auto;
+  overflow: visible;
 }
 
 .scratchpad-item-title-group {
@@ -11503,7 +11604,9 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 
 /* Fixed-strategy menus escape toolbar overflow clipping. */
 .scratchpad-editor-chrome .dropdown-menu[data-bs-popper],
-.scratchpad-editor-chrome .dropdown-menu[style*="position: fixed"] {
+.scratchpad-editor-chrome .dropdown-menu[style*="position: fixed"],
+.scratchpad-audio-transport-dock .dropdown-menu[data-bs-popper],
+.scratchpad-audio-transport-dock .dropdown-menu[style*="position: fixed"] {
   z-index: 1030;
 }
 
@@ -11543,6 +11646,30 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   display: flex;
   flex-direction: column;
   min-height: 0;
+}
+
+.scratchpad-text-editor,
+.scratchpad-image-editor,
+.scratchpad-audio-editor {
+  padding-top: calc(var(--scratchpad-editor-chrome-height, 3.1rem) * var(--chrome-vv-zoom, 1));
+  box-sizing: border-box;
+}
+
+.scratchpad-audio-editor {
+  --scratchpad-audio-transport-dock-height: 4.5rem;
+  padding-bottom: calc(var(--scratchpad-audio-transport-dock-height) + env(safe-area-inset-bottom, 0px));
+}
+
+.scratchpad-item-page:has(.scratchpad-audio-editor) .scratchpad-item-editor-area {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.scratchpad-item-page:has(.scratchpad-audio-editor) .scratchpad-audio-editor {
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .scratchpad-music-editor .music-editor--notation-only {
@@ -11855,7 +11982,12 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 .scratchpad-audio-daw {
   display: flex;
   flex-direction: column;
-  min-height: 480px;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .scratchpad-audio-daw-main {
@@ -11863,56 +11995,159 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   flex-direction: column;
   flex: 1 1 auto;
   min-height: 0;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .scratchpad-audio-waveform-column {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
   min-width: 0;
   min-height: 0;
 }
 
 .scratchpad-audio-transport-dock {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 0.75rem;
-  padding: 0.5rem 0.75rem;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.65rem;
+  padding-bottom: calc(0.4rem + env(safe-area-inset-bottom, 0px));
+  min-height: calc(var(--scratchpad-audio-transport-dock-height, 4.5rem) + env(safe-area-inset-bottom, 0px));
   border-top: 1px solid #dee2e6;
   background: #f8f9fa;
-  position: sticky;
-  bottom: 0;
-  z-index: 20;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: var(--app-playlist-transport-offset, 0px);
+  z-index: 1025;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.06);
 }
 
-.scratchpad-audio-dock-block {
-  display: inline-flex;
-  flex-direction: column;
+.scratchpad-audio-dock-row {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: nowrap;
   border: 1px solid #dee2e6;
   border-radius: 0.35rem;
   background: #fff;
+  padding: 0.25rem 0.4rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 2.75rem;
+  max-height: 2.75rem;
+  box-sizing: border-box;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scratchpad-audio-transport-dock .scratchpad-audio-transport-controls .btn,
+.scratchpad-audio-transport-dock .scratchpad-audio-record-settings .dropdown-toggle,
+.scratchpad-audio-transport-dock .scratchpad-audio-toolbar-overflow .dropdown-toggle {
+  min-height: 2.25rem;
+  min-width: 2.25rem;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.8125rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scratchpad-audio-transport-dock .scratchpad-audio-transport-controls .btn svg {
+  width: 1.15em;
+  height: 1.15em;
+  flex-shrink: 0;
+}
+
+.scratchpad-audio-transport-dock .scratchpad-audio-dock-tempo-input {
+  width: 3.25rem;
+  max-width: 3.25rem;
+  min-width: 0;
+  flex: 0 0 auto;
+  min-height: 2.25rem;
+  max-height: 2.25rem;
+  padding: 0.2rem 0.25rem;
+  text-align: center;
+}
+
+.scratchpad-audio-transport-dock .scratchpad-audio-dock-tempo-input::-webkit-outer-spin-button,
+.scratchpad-audio-transport-dock .scratchpad-audio-dock-tempo-input::-webkit-inner-spin-button {
+  margin: 0;
+}
+
+.scratchpad-audio-transport-dock .scratchpad-audio-transport-time {
+  font-size: 0.75rem;
+  white-space: nowrap;
+  line-height: 1.1;
+}
+
+.scratchpad-audio-transport-dock .scratchpad-audio-input-meter {
+  height: 0.65rem;
+  max-height: 0.65rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .scratchpad-audio-editor {
+    --scratchpad-audio-transport-dock-height: 4.75rem;
+  }
+
+  .scratchpad-audio-transport-dock {
+    min-height: calc(var(--scratchpad-audio-transport-dock-height, 4.75rem) + env(safe-area-inset-bottom, 0px));
+    padding-left: 0.45rem;
+    padding-right: 0.45rem;
+  }
+
+  .scratchpad-audio-dock-row {
+    min-height: 2.875rem;
+    max-height: 2.875rem;
+  }
+
+  .scratchpad-audio-transport-dock .scratchpad-audio-transport-controls .btn,
+  .scratchpad-audio-transport-dock .scratchpad-audio-record-settings .dropdown-toggle,
+  .scratchpad-audio-transport-dock .scratchpad-audio-toolbar-overflow .dropdown-toggle {
+    min-height: 2.75rem;
+    min-width: 2.75rem;
+    padding: 0.35rem;
+  }
+}
+
+.scratchpad-audio-dock-row > * {
   flex: 0 0 auto;
 }
 
-.scratchpad-audio-dock-block-label {
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #6c757d;
-  padding: 0.15rem 0.5rem 0;
-  line-height: 1.2;
+.scratchpad-audio-dock-divider {
+  width: 1px;
+  align-self: stretch;
+  background: #dee2e6;
+  margin: 0 0.15rem;
+  flex: 0 0 auto;
 }
 
-.scratchpad-audio-dock-block-body {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  padding: 0.35rem 0.5rem;
-  flex-wrap: wrap;
+.scratchpad-editor-chrome .scratchpad-audio-menu-bar {
+  flex-wrap: nowrap;
+}
+
+.scratchpad-editor-chrome .scratchpad-audio-menu-bar-toggle {
+  padding: 0.1rem 0.4rem !important;
+  font-size: 0.875rem;
+  white-space: nowrap;
 }
 
 .scratchpad-audio-dock-tempo-input {
-  width: 4.5rem;
+  width: 3.25rem;
+  max-width: 3.25rem;
 }
 
 .scratchpad-audio-input-meter {
@@ -11968,8 +12203,7 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   background: #fff;
 }
 
-.scratchpad-audio-transport-dock--narrow {
-  flex-wrap: nowrap;
+.scratchpad-audio-transport-dock--narrow .scratchpad-audio-dock-row {
   overflow-x: auto;
 }
 
@@ -12070,7 +12304,28 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  min-height: 10rem;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.scratchpad-audio-waveform {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.scratchpad-audio-waveform .playlist {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.scratchpad-audio-waveform .playlist-tracks {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
 }
 
 .scratchpad-audio-marker-rail {
@@ -12183,21 +12438,29 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 
 .App-header,
 .music-editor-buttons,
-.scratchpad-list-search,
-.scratchpad-editor-chrome {
+.scratchpad-list-search {
   width: calc(100% * var(--chrome-vv-scale, 1));
   max-width: none;
 }
 
 .scratchpad-audio-daw .scratchpad-daw-layout {
-  min-height: 280px;
   flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  align-items: stretch;
 }
 
 .scratchpad-track-sidebar {
   background: #f8f9fa;
-  overflow-y: auto;
-  max-height: 480px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  min-height: 0;
+  max-height: none;
+  height: auto;
+  align-self: stretch;
 }
 
 .scratchpad-take-lane-stack {
@@ -12229,6 +12492,12 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 .scratchpad-audio-toolbar--narrow {
   flex-wrap: nowrap;
   overflow-x: auto;
+}
+
+.scratchpad-audio-analysis-banner,
+.scratchpad-audio-analysis-banner,
+.scratchpad-audio-selection-bar {
+  flex: 0 0 auto;
 }
 
 .scratchpad-audio-selection-bar {
@@ -12332,9 +12601,91 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   }
 }
 
+.scratchpad-audio-track-controls {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 0;
+}
+
+.scratchpad-audio-dock-label {
+  margin-right: 0.4rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.scratchpad-audio-track-arm-controls {
+  margin-left: 0.55rem;
+}
+
+.scratchpad-audio-metronome-group.btn-group {
+  flex-shrink: 0;
+  align-items: stretch;
+}
+
+.scratchpad-audio-metronome-group .btn {
+  padding-top: 0.15rem !important;
+  padding-bottom: 0.15rem !important;
+  min-height: 2.25rem;
+  max-height: 2.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scratchpad-audio-metronome-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.scratchpad-audio-metronome-group > .dropdown-toggle {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  min-height: 2.25rem;
+  min-width: 2rem;
+  padding-left: 0.45rem !important;
+  padding-right: 0.45rem !important;
+}
+
 .scratchpad-audio-metronome-controls {
   display: inline-flex;
   align-items: center;
+}
+
+.scratchpad-audio-transport-dock .scratchpad-audio-metronome-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  min-height: 1rem;
+  max-height: 1.25rem;
+  font-size: 0.95rem;
+  padding: 0;
+}
+
+.scratchpad-audio-transport-dock .scratchpad-audio-metronome-icon svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.scratchpad-audio-dropdown-caret-toggle {
+  min-width: 2rem !important;
+  padding-left: 0.45rem !important;
+  padding-right: 0.45rem !important;
+}
+
+.scratchpad-audio-dropdown-caret-toggle::after {
+  margin-left: 0;
+}
+
+.scratchpad-audio-dropdown-caret-toggle--button::after {
+  display: inline-block;
+  margin-left: 0;
+  vertical-align: 0.15em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
 }
 
 .scratchpad-audio-metronome-icon {
@@ -12352,4 +12703,189 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 .scratchpad-audio-metronome-options {
   border-top: 1px solid #dee2e6;
   padding-top: 0.5rem;
+}
+
+.scratchpad-track-sidebar--panel {
+  min-width: 11rem;
+  max-width: 13rem;
+  width: 12rem;
+}
+
+.scratchpad-track-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  height: 100%;
+  padding: 0.5rem;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+
+.scratchpad-track-panel-header {
+  flex: 0 0 auto;
+  margin-bottom: 0.35rem;
+}
+
+.scratchpad-track-panel-ruler-spacer {
+  flex: 0 0 1.75rem;
+  min-height: 1.75rem;
+}
+
+.scratchpad-track-panel-timescale-spacer {
+  flex: 0 0 30px;
+  min-height: 30px;
+  border-bottom: 1px solid #dee2e6;
+  background: #f8f9fa;
+}
+
+.scratchpad-track-panel-scroll {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scratchpad-track-panel-lane {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #fff;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.scratchpad-track-panel-lane--main {
+  cursor: pointer;
+}
+
+.scratchpad-track-panel-lane--take {
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0.35rem;
+  background: #f8f9fa;
+  cursor: pointer;
+}
+
+.scratchpad-track-panel-lane--take-active {
+  background: rgba(13, 110, 253, 0.12);
+  box-shadow: inset 3px 0 0 #0d6efd;
+}
+
+.scratchpad-track-panel-lane--midi {
+  padding: 0.2rem 0.35rem;
+  background: #fff;
+}
+
+.scratchpad-track-panel-row {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
+  background: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.scratchpad-track-panel-row--armed {
+  border-color: #dc3545;
+  box-shadow: inset 3px 0 0 #dc3545;
+}
+
+.scratchpad-track-panel-row--drag-over {
+  outline: 2px dashed #0d6efd;
+}
+
+.scratchpad-track-panel-row-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.2rem 0.35rem;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.scratchpad-track-panel-drag {
+  color: #adb5bd;
+  font-size: 0.7rem;
+  cursor: grab;
+  user-select: none;
+  flex: 0 0 auto;
+}
+
+.scratchpad-track-panel-menu-toggle {
+  flex: 0 0 auto;
+  min-width: 1.25rem;
+}
+
+.scratchpad-track-panel-name {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.scratchpad-track-panel-resize {
+  flex: 0 0 5px;
+  cursor: ns-resize;
+  background: linear-gradient(to bottom, transparent, #dee2e6);
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.scratchpad-track-panel-folder {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.15rem 0.35rem;
+  background: #f1f3f5;
+  border-radius: 0.25rem;
+  margin-bottom: 0.15rem;
+}
+
+.scratchpad-track-panel-folder-name {
+  flex: 1 1 auto;
+}
+
+.scratchpad-comp-region-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 4;
+}
+
+.scratchpad-comp-region-segment {
+  position: absolute;
+  pointer-events: none;
+  border-bottom: 3px solid #0d6efd;
+  box-sizing: border-box;
+}
+
+.scratchpad-audio-waveform .channel-wrapper[class*="take-"] .controls {
+  display: none !important;
+}
+
+.scratchpad-audio-waveform .channel-wrapper[class*="take-"] {
+  opacity: 0.85;
+}
+
+.scratchpad-audio-waveform .channel-wrapper[class*="take-"]:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.remote-output-button .remote-output-button-toggle.dropdown-toggle::after {
+  display: none;
+}
+
+.remote-output-button .remote-output-button-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.remote-output-button .remote-output-button-icon svg {
+  width: 1.15em;
+  height: 1.15em;
 }

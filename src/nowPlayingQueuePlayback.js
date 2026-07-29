@@ -375,11 +375,30 @@ function shouldHostViewedTunePlayback(viewedTuneId, pathname, queue, mediaContro
   return !!resolveHostPlayingTune(hostTuneId, tunes, mediaController)
 }
 
+/** True when playback is starting or running and the host must stay mounted. */
+function isPlaybackHostLocked(mediaController) {
+  if (!mediaController) return false
+  if (mediaController.isPlaying || mediaController.isLoading) return true
+  if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
+    return true
+  }
+  if (mediaController.requestedPlayState === 'playMidi'
+    || mediaController.requestedPlayState === 'playMedia') {
+    return true
+  }
+  return false
+}
+
 /** Mount the shared engine while the fullscreen mini player is open on a tune page. */
 function shouldHostExpandedMiniPlayer(viewedTuneId, pathname, queue, mediaController, tunes, nowPlayingExpanded) {
   if (!nowPlayingExpanded) return false
   if (!viewedTuneId || !isViewedTunePagePath(pathname)) return false
-  if (isQueueActive(queue) && isQueueOutputting(mediaController)) return false
+  if (isQueueActive(queue) && isQueueOutputting(mediaController)) {
+    const controllerId = mediaController && mediaController.tune && mediaController.tune.id
+    if (!controllerId || String(controllerId) !== String(viewedTuneId)) {
+      return false
+    }
+  }
   const hostTuneId = resolveHostPlayingTuneId({
     queue: queue,
     mediaController: mediaController,
@@ -409,6 +428,25 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
   if (mediaController && mediaController.notationMidiOwner) return false
   if (shouldMusicSingleOwnPlayback(viewedTuneId, queue)) return false
 
+  // Keep the engine mounted while MIDI/media is starting or playing so a route
+  // or queue mismatch does not unmount Abc mid count-in (silent progress bar).
+  if (isPlaybackHostLocked(mediaController)) {
+    const controllerTune = mediaController.tune
+    if (controllerTune && controllerTune.id
+      && resolveHostPlayingTune(controllerTune.id, tunes, mediaController)) {
+      return true
+    }
+    const lockedTuneId = resolveHostPlayingTuneId({
+      queue: queue,
+      mediaController: mediaController,
+      viewedTuneId: viewedTuneId,
+      pathname: pathname,
+    })
+    if (lockedTuneId && resolveHostPlayingTune(lockedTuneId, tunes, mediaController)) {
+      return true
+    }
+  }
+
   const playingTuneId = resolveHostPlayingTuneId({
     queue: queue,
     mediaController: mediaController,
@@ -429,10 +467,13 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
     return true
   }
   if (isQueueActive(queue)) {
-    return isQueuePlaybackEngaged(mediaController, {
+    if (isQueuePlaybackEngaged(mediaController, {
       queue: queue,
       viewedTuneId: viewedTuneId,
-    })
+    })) {
+      return true
+    }
+    return false
   }
   return isMediaControllerPlaybackActive(mediaController)
 }

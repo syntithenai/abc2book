@@ -3401,6 +3401,15 @@ export default function NotationEditor(props) {
               />
             </div>
           ) : null}
+          <NotationIssuesPanel
+            tune={notationCheck.checkTune || props.tune}
+            tunebook={props.tunebook}
+            issues={notationCheck.issues}
+            checkResults={notationCheck}
+            parseAndRender={parseAndRenderAbc}
+            onNavigateIssue={handleNavigateIssue}
+            onTuneSaved={handleFixTuneSaved}
+          />
         </div>
       ) : null}
 
@@ -3409,16 +3418,6 @@ export default function NotationEditor(props) {
         onAction={handleShortcutAction}
         enabled={true}
         noteInputActive={session.mode === EDITOR_MODES.NOTE_INPUT}
-      />
-
-      <NotationIssuesPanel
-        tune={props.tune}
-        tunebook={props.tunebook}
-        issues={notationCheck.issues}
-        checkResults={notationCheck}
-        parseAndRender={parseAndRenderAbc}
-        onNavigateIssue={handleNavigateIssue}
-        onTuneSaved={handleFixTuneSaved}
       />
 
       {isStaffView ? staffPanel

@@ -9,6 +9,14 @@ import {
   AUDIO_PROJECT_VERSION,
   findOrphanedAudioDriveFileIds,
   resolveAudioProject,
+  createTrackFolder,
+  reorderTracks,
+  moveTrackToFolder,
+  toggleTrackFolderCollapsed,
+  trackBlockHeight,
+  DEFAULT_MAIN_LANE_HEIGHT,
+  TAKE_LANE_HEIGHT,
+  enumeratePlaylistLanes,
 } from './scratchpadAudioProject'
 
 describe('scratchpadAudioProject', function() {
@@ -65,12 +73,6 @@ describe('scratchpadAudioProject', function() {
     expect(audio.tracks.length).toBeGreaterThan(0)
   })
 
-  test('resolveAudioProject accepts bare audio override', function() {
-    const project = createDefaultAudioProject('item-2')
-    const resolved = resolveAudioProject({ id: 'item-2', type: 'audio' }, project)
-    expect(resolved.tracks.length).toBe(1)
-  })
-
   test('findOrphanedAudioDriveFileIds returns removed take and mixdown ids', function() {
     const prev = {
       tracks: [{
@@ -92,5 +94,49 @@ describe('scratchpadAudioProject', function() {
       mixdownDriveFileId: null,
     }
     expect(findOrphanedAudioDriveFileIds(prev, next).sort()).toEqual(['drive-b', 'drive-mix'])
+  })
+
+  test('resolveAudioProject accepts bare audio override', function() {
+    const project = createDefaultAudioProject('item-2')
+    const resolved = resolveAudioProject({ id: 'item-2', type: 'audio' }, project)
+    expect(resolved.tracks.length).toBe(1)
+  })
+
+  test('createTrackFolder and moveTrackToFolder', function() {
+    const folder = createTrackFolder('Drums')
+    expect(folder.name).toBe('Drums')
+    const project = createDefaultAudioProject('x')
+    const moved = moveTrackToFolder(project.tracks[0], folder.id)
+    expect(moved.folderId).toBe(folder.id)
+  })
+
+  test('reorderTracks moves item', function() {
+    const project = createDefaultAudioProject('x')
+    const second = addTakeToTrack(project.tracks[0], 'x', null)
+    const tracks = [project.tracks[0], Object.assign({}, second, { id: 'trk-2', name: 'B' })]
+    const reordered = reorderTracks(tracks, 0, 1)
+    expect(reordered[0].id).toBe('trk-2')
+  })
+
+  test('toggleTrackFolderCollapsed flips collapsed', function() {
+    const folder = createTrackFolder('Vocals')
+    const next = toggleTrackFolderCollapsed([folder], folder.id)
+    expect(next[0].collapsed).toBe(true)
+  })
+
+  test('trackBlockHeight includes take lanes', function() {
+    const project = createDefaultAudioProject('x')
+    let track = addTakeToTrack(project.tracks[0], 'x', null)
+    const height = trackBlockHeight(track)
+    expect(height).toBe(DEFAULT_MAIN_LANE_HEIGHT + 2 * TAKE_LANE_HEIGHT)
+  })
+
+  test('enumeratePlaylistLanes matches main and take rows', function() {
+    const project = createDefaultAudioProject('x')
+    const track = project.tracks[0]
+    track.takes[0].blobKey = 'blob-a'
+    const lanes = enumeratePlaylistLanes(project, false)
+    expect(lanes.some(function(l) { return l.kind === 'main' })).toBe(true)
+    expect(lanes.filter(function(l) { return l.kind === 'take' }).length).toBe(1)
   })
 })

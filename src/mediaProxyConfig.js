@@ -1,3 +1,5 @@
+import { isCapacitorNative } from './platformUtils'
+
 const STORAGE_KEY = 'bookstorage_media_proxy_base'
 
 export const DEFAULT_PUBLIC_MEDIA_PROXY = 'https://peppertrees.syntithenai.com'
@@ -103,29 +105,62 @@ export function getDefaultPublicMediaProxyCandidates() {
   return urls
 }
 
+export function isLoopbackMediaProxyBase(value) {
+  const base = normalizeMediaProxyBase(value)
+  if (!base) return false
+  try {
+    const host = new URL(base).hostname
+    return host === 'localhost' || host === '127.0.0.1'
+  } catch (e) {
+    return false
+  }
+}
+
+/** Production + native apps: peppertrees then cloud before loopback env URLs. */
+export function prefersPublicMediaProxyFirst() {
+  return process.env.NODE_ENV === 'production' || isCapacitorNative()
+}
+
+function pushUnique(urls, url) {
+  if (url && urls.indexOf(url) === -1) urls.push(url)
+}
+
 export function getMediaProxyBaseCandidates() {
   const urls = []
   const saved = getSavedMediaProxyBase()
-  // Explicit Settings override wins over automatic localhost / dev-proxy discovery.
-  if (saved) urls.push(saved)
+  const publicFirst = prefersPublicMediaProxyFirst()
+  const native = isCapacitorNative()
 
-  const devBase = getDevServerMediaProxyBase()
-  if (devBase) urls.push(devBase)
+  // Explicit Settings override wins over automatic discovery.
+  if (saved) pushUnique(urls, saved)
 
-  getLocalMediaProxyCandidates().forEach(function(url) {
-    urls.push(url)
-  })
+  if (publicFirst) {
+    getDefaultPublicMediaProxyCandidates().forEach(function(url) {
+      pushUnique(urls, url)
+    })
+  }
+
+  if (!publicFirst && !native) {
+    const devBase = getDevServerMediaProxyBase()
+    if (devBase) pushUnique(urls, devBase)
+
+    getLocalMediaProxyCandidates().forEach(function(url) {
+      pushUnique(urls, url)
+    })
+  }
 
   const fromEnv = normalizeMediaProxyBase(process.env.REACT_APP_MEDIA_PROXY_BASE || '')
-  if (fromEnv) urls.push(fromEnv)
+  if (fromEnv && (!publicFirst || !isLoopbackMediaProxyBase(fromEnv))) {
+    pushUnique(urls, fromEnv)
+  }
 
-  getDefaultPublicMediaProxyCandidates().forEach(function(url) {
-    urls.push(url)
-  })
+  if (!publicFirst) {
+    getDefaultPublicMediaProxyCandidates().forEach(function(url) {
+      pushUnique(urls, url)
+    })
+  }
 
-  return urls.filter(function(url, index, all) {
-    return url && all.indexOf(url) === index
-  })
+  return urls
 }
 
 export function notifyMediaProxySettingsChanged() {

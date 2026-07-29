@@ -1,0 +1,29 @@
+# Runtime data and secrets are bind-mounted, not baked into the image.
+data/
+secrets/
+whisper/
+soundfonts/
+music-collection/
+
+# Build artifacts and local caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Dev / ops (not needed in the resolver image)
+.env
+.env.*
+docker-compose*.yml
+Caddyfile
+ddns-namecheap.sh
+snapcast/
+audio-cpp/
+llm/
+tts/
+tests/
+test_*.py
+*.md
+.git/
+.cursor/

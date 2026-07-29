@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Form } from 'react-bootstrap'
+import { Button, ButtonGroup } from 'react-bootstrap'
 import ScratchpadNewTrackDialog from './ScratchpadNewTrackDialog'
 
 export default function ScratchpadTakeLaneStack(props) {
@@ -10,26 +10,6 @@ export default function ScratchpadTakeLaneStack(props) {
 
   return (
     <div className="scratchpad-take-lane-stack">
-      <div className="scratchpad-take-lane-header d-flex align-items-center justify-content-between">
-        <strong className="small">{track.name}</strong>
-        <div className="d-flex gap-1">
-          <Button
-            size="sm"
-            variant={track.armed ? 'danger' : 'outline-secondary'}
-            className={props.highlightArm ? 'scratchpad-arm-highlight' : ''}
-            onClick={function() { props.onArm && props.onArm(track.id) }}
-          >
-            {track.armed ? 'Armed' : 'Arm'}
-          </Button>
-          <Form.Check
-            type="checkbox"
-            className="mb-0 small"
-            label="Comp"
-            checked={compEnabled}
-            onChange={function(e) { props.onCompToggle && props.onCompToggle(track.id, e.target.checked) }}
-          />
-        </div>
-      </div>
       <div className="scratchpad-take-lanes">
         {takes.map(function(take, index) {
           const active = take.id === activeId
@@ -39,15 +19,15 @@ export default function ScratchpadTakeLaneStack(props) {
                 variant={active ? 'primary' : 'outline-secondary'}
                 onClick={function() { props.onSelectTake && props.onSelectTake(track.id, take.id) }}
               >
-                Take {index + 1}
+                {index + 1}
               </Button>
               {compEnabled && props.selection ? (
                 <Button
                   variant="outline-info"
-                  title="Assign selection to this take"
+                  title="Assign selection to this take for comping"
                   onClick={function() { props.onAssignComp && props.onAssignComp(track.id, take.id, props.selection) }}
                 >
-                  Comp
+                  Use
                 </Button>
               ) : null}
             </ButtonGroup>
@@ -66,7 +46,7 @@ export function ScratchpadTrackList(props) {
   const icons = props.icons || {}
   const advancedFeatures = !!props.advancedFeatures
   const midiTracks = tracks.filter(function(t) { return t.type === 'midi' })
-  const visibleTracks = advancedFeatures ? tracks : tracks.filter(function(t) { return t.type !== 'midi' })
+  const armedTrack = tracks.find(function(t) { return t.armed && t.type === 'audio' })
 
   return (
     <div className="scratchpad-track-list">
@@ -80,7 +60,7 @@ export function ScratchpadTrackList(props) {
           advancedFeatures={advancedFeatures}
           onAddTrack={props.onAddTrack}
           onAddTrackAndRecord={props.onAddTrackAndRecord}
-          onImport={props.onImport}
+          onImportFile={props.onImportFile}
         />
       </div>
       {!advancedFeatures && midiTracks.length > 0 ? (
@@ -89,33 +69,34 @@ export function ScratchpadTrackList(props) {
           Enable <strong>View → Advanced features</strong> to edit.
         </div>
       ) : null}
-      {visibleTracks.map(function(track) {
-        if (track.type === 'midi') {
-          return (
-            <div key={track.id} className="scratchpad-midi-track-row mb-2 p-2 border rounded">
-              <div className="d-flex justify-content-between align-items-center mb-1">
-                <strong className="small">{track.name} (MIDI)</strong>
-                <Button size="sm" variant="outline-primary" onClick={function() { props.onEditMidi && props.onEditMidi(track.id) }}>
-                  Edit
-                </Button>
-              </div>
-            </div>
-          )
-        }
+      {advancedFeatures ? tracks.filter(function(t) { return t.type === 'midi' }).map(function(track) {
         return (
+          <div key={track.id} className="scratchpad-midi-track-row mb-2 p-2 border rounded">
+            <div className="d-flex justify-content-between align-items-center mb-1">
+              <strong className="small">{track.name} (MIDI)</strong>
+              <Button size="sm" variant="outline-primary" onClick={function() { props.onEditMidi && props.onEditMidi(track.id) }}>
+                Edit
+              </Button>
+            </div>
+          </div>
+        )
+      }) : null}
+      {armedTrack ? (
+        <>
+          <div className="scratchpad-track-sidebar-header mb-2">
+            <strong className="small">Takes — {armedTrack.name}</strong>
+          </div>
           <ScratchpadTakeLaneStack
-            key={track.id}
-            track={track}
+            track={armedTrack}
             selection={props.selection}
-            highlightArm={props.highlightArmTrackId === track.id}
-            onArm={props.onArm}
             onSelectTake={props.onSelectTake}
             onNewTake={props.onNewTake}
-            onCompToggle={props.onCompToggle}
             onAssignComp={props.onAssignComp}
           />
-        )
-      })}
+        </>
+      ) : (
+        <div className="small text-muted">Arm a track to view takes.</div>
+      )}
     </div>
   )
 }

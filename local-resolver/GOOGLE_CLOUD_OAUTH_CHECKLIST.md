@@ -20,6 +20,8 @@ GIS Code Client popup mode uses the **page origin** as `redirect_uri`. Register 
 - `https://tunebook.net`
 - `http://localhost:3000`
 - `http://127.0.0.1:3000`
+- `https://localhost` (Capacitor WebView origin only — **do not** use as Android OAuth redirect)
+- `https://tunebook-resolver-light-ytrp5enyda-ts.a.run.app/oauth/android-callback` (**required for Android APK**)
 
 Do **not** add resolver paths like `https://peppertrees.syntithenai.com/auth/callback` unless you switch to redirect UX.
 

@@ -12,7 +12,14 @@ from fastapi.responses import JSONResponse
 from cast_transcode_session import ffmpeg_available, parse_transcode_settings
 from cast_playback import CastQueueItem, parse_queue_items
 from remote_playback_resolve import resolve_session_audio_bytes
-from snapcast_config import snapcast_enabled, snapcast_public_url, snapcast_stream_name
+from snapcast_config import (
+    snapcast_enabled,
+    snapcast_public_url,
+    snapcast_stream_name,
+    snapclient_enabled,
+    snapclient_hostname,
+    snapclient_soundcard,
+)
 from snapcast_playback import get_snapcast_manager, probe_snapserver_http, write_temp_audio_file
 
 ResolveAudioFn = Callable[..., Awaitable[tuple[bytes, str, str | None]]]
@@ -36,6 +43,11 @@ async def build_snapcast_health_payload(
             "reachable": False,
             "controlUrl": None,
             "streamName": snapcast_stream_name(),
+            "localClient": {
+                "enabled": False,
+                "hostname": None,
+                "soundcard": None,
+            },
         }
     public = snapcast_public_url()
     if public:
@@ -55,6 +67,11 @@ async def build_snapcast_health_payload(
         "controlUrl": control_url,
         "streamName": snapcast_stream_name(),
         "tcpClients": manager.tcp_client_count(),
+        "localClient": {
+            "enabled": snapclient_enabled(),
+            "hostname": snapclient_hostname(),
+            "soundcard": snapclient_soundcard(),
+        },
     }
     payload.update(manager.health_fields())
     return payload

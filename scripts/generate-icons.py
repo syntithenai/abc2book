@@ -25,6 +25,7 @@ PUBLIC = ROOT / "public"
 MASTER_SVG = PUBLIC / "tunebook-icon.svg"
 ICON_FILL = "#000000"
 VIEWBOX_SIZE = 48
+ICON_PADDING = 4
 
 PNG_OUTPUTS = {
     "favicon.png": 48,
@@ -44,9 +45,14 @@ def load_icon_path() -> str:
     return match.group(1)
 
 
-def icon_svg(size: int, icon_path: str) -> str:
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}" viewBox="0 0 {VIEWBOX_SIZE} {VIEWBOX_SIZE}">
-  <path fill="{ICON_FILL}" d="{icon_path}"/>
+def icon_svg(size: int, icon_path: str, fill: str = ICON_FILL) -> str:
+    inner = VIEWBOX_SIZE - (ICON_PADDING * 2)
+    scale = inner / VIEWBOX_SIZE
+    offset = ICON_PADDING
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}" viewBox="0 0 {VIEWBOX_SIZE} {VIEWBOX_SIZE}" shape-rendering="geometricPrecision">
+  <g transform="translate({offset} {offset}) scale({scale})">
+    <path fill="{fill}" d="{icon_path}"/>
+  </g>
 </svg>"""
 
 

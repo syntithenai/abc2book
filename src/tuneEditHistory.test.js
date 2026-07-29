@@ -2,12 +2,17 @@ import {
   canRedoTuneEdit,
   canUndoTuneEdit,
   commitTuneHistoryEntry,
+  DEFAULT_MAX_ENTRIES,
   flushPendingTuneEdit,
   getRedoTuneEditLabel,
   getUndoTuneEditLabel,
+  loadConfiguredMaxEntries,
+  MAX_ENTRIES_HARD_CAP,
+  MAX_ENTRIES_STORAGE_KEY,
   normalizeTuneEditHistoryState,
   pruneTuneEditHistoryState,
   queuePendingTuneEdit,
+  saveConfiguredMaxEntries,
   stepRedoTuneEdit,
   stepUndoTuneEdit,
 } from './tuneEditHistory'
@@ -162,5 +167,48 @@ describe('tuneEditHistory', function() {
     expect(Object.keys(pruned.stacks)).toEqual(['a'])
     expect(pruned.stacks.a.entries).toHaveLength(1)
     expect(pruned.stacks.a.entries[0].label).toBe('Two')
+  })
+
+  test('skips pruning when valid tune ids are not ready yet', function() {
+    let state = commitTuneHistoryEntry(undefined, {
+      tuneId: 'a',
+      label: 'Edit',
+      before: tune('a', 'Before'),
+      after: tune('a', 'After'),
+      ts: 100,
+    })
+
+    const skipped = pruneTuneEditHistoryState(state, null, 50)
+    expect(Object.keys(skipped.stacks)).toEqual(['a'])
+    expect(canUndoTuneEdit(skipped, 'a')).toBe(true)
+  })
+
+  test('prunes all stacks when allowed ids are empty after tunes are ready', function() {
+    let state = commitTuneHistoryEntry(undefined, {
+      tuneId: 'a',
+      label: 'Edit',
+      before: tune('a', 'Before'),
+      after: tune('a', 'After'),
+      ts: 100,
+    })
+
+    const pruned = pruneTuneEditHistoryState(state, new Set(), 50)
+    expect(Object.keys(pruned.stacks)).toEqual([])
+  })
+
+  test('loadConfiguredMaxEntries reads and clamps local storage', function() {
+    localStorage.removeItem(MAX_ENTRIES_STORAGE_KEY)
+    expect(loadConfiguredMaxEntries()).toBe(DEFAULT_MAX_ENTRIES)
+
+    localStorage.setItem(MAX_ENTRIES_STORAGE_KEY, '120')
+    expect(loadConfiguredMaxEntries()).toBe(120)
+
+    localStorage.setItem(MAX_ENTRIES_STORAGE_KEY, String(MAX_ENTRIES_HARD_CAP + 50))
+    expect(loadConfiguredMaxEntries()).toBe(MAX_ENTRIES_HARD_CAP)
+
+    expect(saveConfiguredMaxEntries(75)).toBe(75)
+    expect(localStorage.getItem(MAX_ENTRIES_STORAGE_KEY)).toBe('75')
+
+    localStorage.removeItem(MAX_ENTRIES_STORAGE_KEY)
   })
 })

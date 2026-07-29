@@ -5,7 +5,16 @@ from __future__ import annotations
 from typing import Any, Callable, Callable
 
 from fastapi import Request
-from fastapi.responses import JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse
+
+_ANDROID_OAUTH_CALLBACK_HTML = """<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Returning to Tunebook</title></head><body><p>Returning to Tunebook…</p><script>
+(function () {
+  var q = window.location.search || '';
+  window.location.replace('net.tunebook.app://oauth/callback' + q);
+})();
+</script></body></html>"""
 
 
 def _json_error(
@@ -28,6 +37,11 @@ def register_oauth_bff_routes(
     cors_headers: Callable[[str | None], dict[str, str]],
 ) -> None:
     """Mount /auth/google/* on a FastAPI app."""
+
+    @app.get("/oauth/android-callback")
+    async def oauth_android_callback():
+        """Google OAuth redirect target for the Android app (Custom Tabs → app intent)."""
+        return HTMLResponse(content=_ANDROID_OAUTH_CALLBACK_HTML, media_type="text/html; charset=utf-8")
 
     @app.post("/auth/google/exchange")
     async def auth_google_exchange(request: Request):

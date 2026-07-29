@@ -12,6 +12,8 @@ import { isCatalogStorageEnabled } from './tuneStorageFlags'
 import { listCatalogPage, getTune } from './tuneRepository'
 import { searchTextIndex } from './tuneTextSearchIndex'
 
+import { isCapacitorNative } from './platformUtils'
+
 export {
   LIST_PROTECTION_LIMIT,
   PREVIEW_LIST_LIMIT,
@@ -23,7 +25,7 @@ export {
 
 export function yieldToMain() {
   return new Promise(function(resolve) {
-    setTimeout(resolve, 0)
+    setTimeout(resolve, isCapacitorNative() ? 32 : 0)
   })
 }
 

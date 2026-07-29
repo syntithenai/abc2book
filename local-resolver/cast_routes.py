@@ -8,6 +8,7 @@ from typing import Any, Awaitable, Callable
 from fastapi import Body, Header, HTTPException, Request
 from fastapi.responses import FileResponse, JSONResponse
 
+from cast_config import cast_public_url
 from cast_playback import (
     CastQueueItem,
     get_cast_manager,
@@ -24,6 +25,31 @@ CorsFn = Callable[[str | None], dict[str, str]]
 
 def cast_feature_enabled() -> bool:
     return ffmpeg_available()
+
+
+def build_cast_public_base(request: Request) -> str:
+    public = cast_public_url()
+    if public:
+        return public.rstrip("/")
+    host = request.headers.get("host", "").split(",")[0].strip()
+    scheme = request.url.scheme if request.url.scheme in ("http", "https") else "http"
+    if host:
+        return f"{scheme}://{host}"
+    return ""
+
+
+async def build_cast_health_payload(request: Request) -> dict[str, Any]:
+    if not cast_feature_enabled():
+        return {
+            "enabled": False,
+            "publicBase": None,
+        }
+    payload = {
+        "enabled": True,
+        "publicBase": build_cast_public_base(request) or None,
+    }
+    payload.update(get_cast_manager().health_fields())
+    return payload
 
 
 def register_cast_routes(
@@ -308,9 +334,7 @@ def register_cast_routes(
                 )
         return JSONResponse({"ok": True}, headers=cors_headers(origin))
 
-    async def _cast_health(_request: Request) -> dict[str, Any]:
-        if not cast_feature_enabled():
-            return {"enabled": False}
-        return get_cast_manager().health_fields()
+    async def _cast_health(request: Request) -> dict[str, Any]:
+        return await build_cast_health_payload(request)
 
     app.state.cast_health_builder = _cast_health

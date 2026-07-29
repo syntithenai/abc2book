@@ -1,9 +1,13 @@
 services:
   # Stable Audio 3 backing for practice-track generation (Vulkan). Requires a
   # host-built audio.cpp tree and model weights; see music_generation/README.md.
+  # Optional: use profile `audio-cpp` when you want the in-compose sidecar.
+  # If audio.cpp already runs on the host (AUDIO_CPP_URL=host.docker.internal:8788),
+  # omit this profile to avoid port 8788 conflicts.
   audio-cpp:
     build: ./audio-cpp
     container_name: abc2book-audio-cpp
+    profiles: ["audio-cpp"]
     ports:
       - "${AUDIO_CPP_PUBLISH_PORT:-8788}:8788"
     env_file:
@@ -41,9 +45,6 @@ services:
       - "8787:8787"
     env_file:
       - .env
-    depends_on:
-      audio-cpp:
-        condition: service_started
     volumes:
       - ./secrets:/app/secrets:ro
       - ./data:/app/data
@@ -350,6 +351,29 @@ services:
       timeout: 5s
       retries: 3
       start_period: 10s
+    restart: unless-stopped
+
+  # Plays Snapcast audio on the resolver machine's speakers (ALSA via /dev/snd).
+  # Disable on headless hosts with SNAPCLIENT_ENABLED=false in .env.
+  snapclient:
+    build:
+      context: ./snapcast
+      dockerfile: Dockerfile.snapclient
+    container_name: abc2book-snapclient
+    profiles: ["snapcast"]
+    depends_on:
+      snapserver:
+        condition: service_healthy
+    devices:
+      - /dev/snd:/dev/snd
+    group_add:
+      - audio
+    environment:
+      SNAPCLIENT_ENABLED: "${SNAPCLIENT_ENABLED:-true}"
+      SNAPSERVER_HOST: "${SNAPCAST_SERVER_HOST:-snapserver}"
+      SNAPSERVER_PORT: "${SNAPCAST_CLIENT_PORT:-1704}"
+      SNAPCLIENT_HOSTNAME: "${SNAPCLIENT_HOSTNAME:-resolver-host}"
+      SNAPCLIENT_SOUNDCARD: "${SNAPCLIENT_SOUNDCARD:-default}"
     restart: unless-stopped
 
 volumes:

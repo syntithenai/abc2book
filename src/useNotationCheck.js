@@ -117,7 +117,13 @@ export default function useNotationCheck(tune, liveBodies, options) {
     return Array.from(bars)
   }, [checkState.issues])
 
+  const checkTune = useMemo(function() {
+    if (!tune || !tune.id) return null
+    return buildNotationCheckTune(tune, liveBodies)
+  }, [tune, tune && tune.id, bodiesKey])
+
   return Object.assign({}, checkState, {
+    checkTune: checkTune,
     issueBarIndices: issueBarIndices,
     refresh: function() {
       if (!tune || !tune.id) return

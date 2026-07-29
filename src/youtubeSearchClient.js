@@ -1,8 +1,11 @@
 import axios from 'axios'
 import { parseTitleArtistFromYouTubeLabel } from './youtubeTitleParse'
+import { isAndroidApp } from './platformUtils'
+import { TunebookYoutube, isNativeYoutubeAvailable } from './capacitor/tunebookPlugins'
 
 /**
  * Search YouTube via the Google Data API (same as YouTubeSearchModal).
+ * On Android, uses native Innertube search (API key referrer restrictions break WebView).
  * Returns [{ id, title, description, image, link }, ...]
  */
 export async function searchYouTubeVideos(options) {
@@ -12,12 +15,34 @@ export async function searchYouTubeVideos(options) {
     return { empty: true, candidates: [] }
   }
 
+  const maxResults = opts.maxResults || 25
+
+  if (isAndroidApp() && isNativeYoutubeAvailable()) {
+    try {
+      const nativeResult = await TunebookYoutube.searchYoutubeVideos({
+        query: query,
+        maxResults: maxResults,
+      })
+      const nativeCandidates = nativeResult && Array.isArray(nativeResult.candidates)
+        ? nativeResult.candidates
+        : []
+      if (nativeCandidates.length === 0) {
+        return { empty: true, candidates: [] }
+      }
+      if (nativeCandidates.length === 1) {
+        return Object.assign({ empty: false, multiple: false }, nativeCandidates[0])
+      }
+      return { empty: false, multiple: true, candidates: nativeCandidates }
+    } catch (nativeErr) {
+      console.warn('native YouTube search failed, trying API', nativeErr)
+    }
+  }
+
   const key = process.env.REACT_APP_GOOGLE_API_KEY
   if (!key) {
     throw new Error('YouTube search needs REACT_APP_GOOGLE_API_KEY')
   }
 
-  const maxResults = opts.maxResults || 25
   const url = 'https://youtube.googleapis.com/youtube/v3/search'
     + '?part=snippet&type=video&maxResults=' + maxResults
     + '&q=' + encodeURIComponent(query)

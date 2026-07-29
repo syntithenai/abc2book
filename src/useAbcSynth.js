@@ -2615,6 +2615,9 @@ export default function useAbcSynth(props) {
     }
 
     function destroyAudioEngines() {
+        if (isMidiKickoffActive()) {
+            return
+        }
         try {
           destroyPitchShifter()
           //if (props.mediaController) props.mediaController.setDuration(0)
@@ -2791,6 +2794,7 @@ export default function useAbcSynth(props) {
           const midiWasPreScheduled = countInMidiPreScheduledRef.current
               && pitchShifterRef.current
               && pitchShifterRef.current.isConnected()
+              && isMidiAudioEngineRunning()
           if (opts.forceRatio !== undefined) {
               currentTime.current = gmidiBuffer.current && gmidiBuffer.current.duration > 0
                   ? ratio * gmidiBuffer.current.duration
@@ -3318,6 +3322,17 @@ export default function useAbcSynth(props) {
           isLoading.current = true
           midiPrimeInFlightRef.current = true
           if (showUiLoading && props.mediaController) props.mediaController.setIsLoading(true)
+          if (!force && isMidiKickoffActive() && gmidiBuffer.current && gtimingCallbacks.current) {
+            isLoading.current = false
+            midiPrimeInFlightRef.current = false
+            if (showUiLoading && props.mediaController) props.mediaController.setIsLoading(false)
+            resolve({
+              midiBuffer: gmidiBuffer.current,
+              timingCallbacks: gtimingCallbacks.current,
+              cursor: gcursor.current,
+            })
+            return
+          }
           // cleanup first — tear down old engines only; do not bump playback
           // generation or we invalidate the prime we are about to start.
           destroyAudioEngines()

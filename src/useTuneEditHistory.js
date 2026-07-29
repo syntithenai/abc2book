@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import useUtils from './useUtils'
 import {
-  DEFAULT_MAX_ENTRIES,
   canRedoTuneEdit,
   canUndoTuneEdit,
   commitTuneHistoryEntry,
   flushPendingTuneEdit,
   getRedoTuneEditLabel,
   getUndoTuneEditLabel,
+  loadConfiguredMaxEntries,
   normalizeTuneEditHistoryState,
   pruneTuneEditHistoryState,
   queuePendingTuneEdit,
@@ -21,19 +21,22 @@ const DEFAULT_DEBOUNCE_MS = 800
 export default function useTuneEditHistory(options) {
   const utils = useUtils()
   const {
-    maxEntries = DEFAULT_MAX_ENTRIES,
+    maxEntries = loadConfiguredMaxEntries(),
     debounceMs = DEFAULT_DEBOUNCE_MS,
     getValidTuneIds,
+    getTunesReady,
   } = options || {}
 
   const [historyState, setHistoryState] = useState(function() {
     return normalizeTuneEditHistoryState()
   })
+  const [isLoaded, setIsLoaded] = useState(false)
   const historyRef = useRef(historyState)
   const pendingEntriesRef = useRef({})
   const pendingTimersRef = useRef({})
   const loadedRef = useRef(false)
   const getValidTuneIdsRef = useRef(getValidTuneIds)
+  const getTunesReadyRef = useRef(getTunesReady)
 
   const utilsRef = useRef(utils)
   utilsRef.current = utils
@@ -41,6 +44,10 @@ export default function useTuneEditHistory(options) {
   useEffect(function() {
     getValidTuneIdsRef.current = getValidTuneIds
   }, [getValidTuneIds])
+
+  useEffect(function() {
+    getTunesReadyRef.current = getTunesReady
+  }, [getTunesReady])
 
   function replaceHistoryState(nextState) {
     if (historyRef.current === nextState) return
@@ -68,13 +75,21 @@ export default function useTuneEditHistory(options) {
     return result
   }
 
+  function resolvePruneAllowed() {
+    if (!loadedRef.current) return null
+    if (typeof getTunesReadyRef.current === 'function' && !getTunesReadyRef.current()) return null
+    const ids = typeof getValidTuneIdsRef.current === 'function' ? getValidTuneIdsRef.current() : []
+    return new Set(Array.isArray(ids) ? ids : [])
+  }
+
   useEffect(function() {
     let cancelled = false
     utilsRef.current.loadLocalforageObject(STORAGE_KEY).then(function(stored) {
       if (cancelled) return
-      const validTuneIds = typeof getValidTuneIdsRef.current === 'function' ? getValidTuneIdsRef.current() : null
-      const nextState = pruneTuneEditHistoryState(stored, validTuneIds ? new Set(validTuneIds) : null, maxEntries)
+      const allowed = resolvePruneAllowed()
+      const nextState = pruneTuneEditHistoryState(stored, allowed, maxEntries)
       loadedRef.current = true
+      setIsLoaded(true)
       replaceHistoryState(nextState)
     })
     return function() {
@@ -109,7 +124,13 @@ export default function useTuneEditHistory(options) {
   }
 
   function pruneHistory(validTuneIds) {
-    const nextState = pruneTuneEditHistoryState(historyRef.current, validTuneIds ? new Set(validTuneIds) : null, maxEntries)
+    if (!loadedRef.current) return
+    if (validTuneIds === undefined) return
+    const allowed = validTuneIds === null
+      ? resolvePruneAllowed()
+      : new Set(Array.isArray(validTuneIds) ? validTuneIds : [])
+    if (allowed === null) return
+    const nextState = pruneTuneEditHistoryState(historyRef.current, allowed, maxEntries)
     replaceHistoryState(nextState)
   }
 
@@ -137,6 +158,7 @@ export default function useTuneEditHistory(options) {
 
   return {
     historyState: historyState,
+    isLoaded: isLoaded,
     flushPendingTune: flushPendingTune,
     recordChange: recordChange,
     pruneHistory: pruneHistory,

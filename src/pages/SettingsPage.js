@@ -27,6 +27,7 @@ import {
   setYoutubeHelperDisabled,
 } from '../youtubeHelperSettings'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { resolverHasFeature } from '../resolverFeatures'
 import FormFieldHelp, { FieldHelpModal } from '../components/FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
@@ -36,6 +37,7 @@ import DuplicateManagerSettingsSection from '../components/DuplicateManagerSetti
 import LibraryScaleSettingsSection from '../components/LibraryScaleSettingsSection'
 import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
 import SnapcastSettingsSection from '../components/SnapcastSettingsSection'
+import VoiceSettingsSection from '../components/VoiceSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
   loadAudioCompressSettings,
@@ -57,11 +59,17 @@ import {
   setColorScheme,
 } from '../colorSchemeSettings'
 import { runMergeChecksNow } from '../mergeCheckTrigger'
-import { resolverHasFeature } from '../resolverFeatures'
+import {
+  DEFAULT_MAX_ENTRIES,
+  loadConfiguredMaxEntries,
+  MAX_ENTRIES_HARD_CAP,
+  saveConfiguredMaxEntries,
+} from '../tuneEditHistory'
 
 const TAB_BACKGROUND_JOBS = 'background-jobs'
 const TAB_APPEARANCE = 'appearance'
 const TAB_MEDIA = 'media'
+const TAB_VOICE = 'voice'
 const TAB_PROVIDERS = 'providers'
 const TAB_PEDAL = 'pedal'
 const TAB_BACKUP = 'backup'
@@ -130,6 +138,7 @@ export default function SettingsPage(props) {
   const [audioCompressCapabilities, setAudioCompressCapabilities] = useState(null)
   const [performanceBindings, setPerformanceBindingsState] = useState(getPerformanceBindings())
   const [colorScheme, setColorSchemeState] = useState(getColorScheme())
+  const [undoHistoryMaxEntries, setUndoHistoryMaxEntries] = useState(loadConfiguredMaxEntries())
   const [recordingAction, setRecordingAction] = useState(null)
   const [mergeCheckBusy, setMergeCheckBusy] = useState(false)
   const pendingMergeCheckAfterLoginRef = useRef(false)
@@ -320,6 +329,16 @@ export default function SettingsPage(props) {
     setColorSchemeState(next)
   }
 
+  function handleUndoHistoryMaxChange(event) {
+    const raw = event && event.target ? event.target.value : ''
+    const parsed = parseInt(raw, 10)
+    const next = isFinite(parsed) && parsed >= 1
+      ? saveConfiguredMaxEntries(parsed)
+      : saveConfiguredMaxEntries(DEFAULT_MAX_ENTRIES)
+    setUndoHistoryMaxEntries(next)
+    toast.info('Undo history depth saved. Reload the page for the new limit to apply.')
+  }
+
   function handleClearCache(clearFn, successMessage) {
     const lockedTuneIds = getLockedTuneIdSet(tunes)
     Promise.resolve(clearFn(lockedTuneIds)).then(function() {
@@ -423,6 +442,9 @@ export default function SettingsPage(props) {
           <Nav.Link eventKey={TAB_MEDIA}>Media</Nav.Link>
         </Nav.Item>
         <Nav.Item>
+          <Nav.Link eventKey={TAB_VOICE}>Voice</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
           <Nav.Link eventKey={TAB_PROVIDERS}>Providers</Nav.Link>
         </Nav.Item>
         <Nav.Item>
@@ -498,6 +520,25 @@ export default function SettingsPage(props) {
                 )
               })}
             </div>
+          </div>
+          <div className="app-surface-panel App-settings-section">
+            <h2>
+              Undo history
+              <FormFieldHelp title={SETTINGS_FIELD_HELP.undoHistoryDepth.title} body={SETTINGS_FIELD_HELP.undoHistoryDepth.body} />
+            </h2>
+            <p className="app-text-muted" style={{ marginBottom: '0.75rem' }}>
+              Steps kept per tune on this device (default {DEFAULT_MAX_ENTRIES}, max {MAX_ENTRIES_HARD_CAP}). Each step stores full tune snapshots in browser storage.
+            </p>
+            <Form.Group controlId="settings-undo-history-max" style={{ maxWidth: '12rem' }}>
+              <Form.Label className="visually-hidden">Undo history depth</Form.Label>
+              <Form.Control
+                type="number"
+                min={1}
+                max={MAX_ENTRIES_HARD_CAP}
+                value={undoHistoryMaxEntries}
+                onChange={handleUndoHistoryMaxChange}
+              />
+            </Form.Group>
           </div>
         </Tab.Pane>
 
@@ -723,6 +764,10 @@ export default function SettingsPage(props) {
               </Button>
             </div>
           </div>
+        </Tab.Pane>
+
+        <Tab.Pane eventKey={TAB_VOICE}>
+          <VoiceSettingsSection />
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_PROVIDERS}>

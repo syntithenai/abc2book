@@ -1,5 +1,11 @@
-import { fetchViaMediaProxy, getActiveMediaProxyBase } from './mediaProxyClient';
-import { requiresResolverProxiedPlayback } from './mediaProxyClient';
+import { fetchViaMediaProxy, requiresResolverProxiedPlayback } from './mediaProxyClient';
+import {
+  getCastResolverBaseError,
+  isLocalhostCastBase,
+  resolveCastMediaBase,
+} from './castSupport';
+
+export { isLocalhostCastBase, getCastResolverBaseError };
 
 function resolveToken(options) {
   const opts = options || {};
@@ -8,11 +14,7 @@ function resolveToken(options) {
 
 /** Resolver base Chromecast can fetch from (LAN/public URL, not localhost). */
 export function getCastResolverBase(options) {
-  const opts = options || {};
-  if (opts.resolverBase) return String(opts.resolverBase).replace(/\/$/, '');
-  const castBase = process.env.REACT_APP_CAST_RESOLVER_BASE || '';
-  if (castBase) return castBase.replace(/\/$/, '');
-  return (getActiveMediaProxyBase() || '').replace(/\/$/, '');
+  return resolveCastMediaBase(options);
 }
 
 export function buildCastMediaUrl(src, options) {
@@ -27,6 +29,24 @@ export function buildCastMediaUrl(src, options) {
     return base + '/proxy-audio?url=' + encodeURIComponent(src);
   }
   return src;
+}
+
+export function resolveCastContentUrl(src, sessionId, options) {
+  const opts = options || {};
+  if (sessionId) {
+    const hlsUrl = buildCastHlsUrl(sessionId, opts);
+    if (!hlsUrl) throw new Error(getCastResolverBaseError(src, opts));
+    if (isLocalhostCastBase(hlsUrl)) {
+      throw new Error(getCastResolverBaseError(src, opts));
+    }
+    return hlsUrl;
+  }
+  const mediaUrl = buildCastMediaUrl(src, opts);
+  if (!mediaUrl) throw new Error(getCastResolverBaseError(src, opts));
+  if (isLocalhostCastBase(mediaUrl)) {
+    throw new Error(getCastResolverBaseError(src, opts));
+  }
+  return mediaUrl;
 }
 
 export function buildCastHlsUrl(sessionId, options) {

@@ -1,15 +1,14 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 import SearchResultPickerModal from './SearchResultPickerModal';
 import VoiceHelpAnswerModal from './VoiceHelpAnswerModal';
+import VoiceInputWaveform from './VoiceInputWaveform';
 import useMediaResolverHealth from '../useMediaResolverHealth';
+import useVoiceMicRecorder from '../useVoiceMicRecorder';
 import { submitVoiceCommand } from '../voiceCommandClient';
 import { executeVoiceCommand } from '../voiceCommandExecutor';
 import { buildVoiceCatalogs, formatVoiceCommandFeedback } from '../voiceCommandUtils';
 import { primaryArtist } from '../tuneBibliographicUtils';
-
-const MIN_HOLD_MS = 300;
-const MAX_RECORD_MS = 12000;
 
 function MicIcon() {
   return (
@@ -21,53 +20,15 @@ function MicIcon() {
 
 export default function VoiceCommandButton(props) {
   const { available: resolverAvailable, features } = useMediaResolverHealth();
-  const [state, setState] = useState('idle');
+  const [processing, setProcessing] = useState(false);
   const [pickerItems, setPickerItems] = useState([]);
   const [pickerTitle, setPickerTitle] = useState('');
   const [showPicker, setShowPicker] = useState(false);
   const [showHelpAnswer, setShowHelpAnswer] = useState(false);
   const [helpAnswer, setHelpAnswer] = useState(null);
 
-  const mediaRecorderRef = useRef(null);
-  const mediaStreamRef = useRef(null);
-  const chunksRef = useRef([]);
-  const holdTimerRef = useRef(null);
-  const maxRecordTimerRef = useRef(null);
   const abortRef = useRef(null);
   const disambiguateResolverRef = useRef(null);
-  const pointerActiveRef = useRef(false);
-
-  useEffect(function() {
-    return function() {
-      cleanupRecording();
-      if (abortRef.current) abortRef.current.abort();
-    };
-  }, []);
-
-  function cleanupRecording() {
-    if (holdTimerRef.current) {
-      clearTimeout(holdTimerRef.current);
-      holdTimerRef.current = null;
-    }
-    if (maxRecordTimerRef.current) {
-      clearTimeout(maxRecordTimerRef.current);
-      maxRecordTimerRef.current = null;
-    }
-    if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
-      try {
-        mediaRecorderRef.current.stop();
-      } catch (e) {
-        // ignore
-      }
-    }
-    if (mediaStreamRef.current) {
-      mediaStreamRef.current.getTracks().forEach(function(track) {
-        track.stop();
-      });
-      mediaStreamRef.current = null;
-    }
-    pointerActiveRef.current = false;
-  }
 
   function setKeyboardBlocked(blocked) {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(blocked);
@@ -81,76 +42,12 @@ export default function VoiceCommandButton(props) {
     }
   }
 
-  async function startRecording() {
-    if (!pointerActiveRef.current || state !== 'idle' || !resolverAvailable || !features.whisper) return;
-    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-      toast.error('Microphone not supported in this browser');
-      return;
-    }
-
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      mediaStreamRef.current = stream;
-      chunksRef.current = [];
-      const recorder = new MediaRecorder(stream);
-      mediaRecorderRef.current = recorder;
-
-      recorder.ondataavailable = function(event) {
-        if (event.data && event.data.size > 0) chunksRef.current.push(event.data);
-      };
-
-      recorder.onstop = function() {
-        const blob = new Blob(chunksRef.current, {
-          type: recorder.mimeType || 'audio/webm',
-        });
-        chunksRef.current = [];
-        if (mediaStreamRef.current) {
-          mediaStreamRef.current.getTracks().forEach(function(track) {
-            track.stop();
-          });
-          mediaStreamRef.current = null;
-        }
-        if (blob.size > 0) {
-          submitCapturedAudio(blob);
-        } else {
-          setState('idle');
-          setKeyboardBlocked(false);
-        }
-      };
-
-      recorder.start();
-      setState('recording');
-      setKeyboardBlocked(true);
-      maxRecordTimerRef.current = setTimeout(function() {
-        stopRecording();
-      }, MAX_RECORD_MS);
-    } catch (error) {
-      setState('idle');
-      setKeyboardBlocked(false);
-      toast.error(error && error.message ? error.message : 'Microphone access denied');
-    }
-  }
-
-  function stopRecording() {
-    if (maxRecordTimerRef.current) {
-      clearTimeout(maxRecordTimerRef.current);
-      maxRecordTimerRef.current = null;
-    }
-    if (mediaRecorderRef.current && mediaRecorderRef.current.state === 'recording') {
-      setState('processing');
-      mediaRecorderRef.current.stop();
-    } else {
-      setState('idle');
-      setKeyboardBlocked(false);
-    }
-  }
-
   async function submitCapturedAudio(blob) {
     if (abortRef.current) abortRef.current.abort();
     const controller = new AbortController();
     abortRef.current = controller;
 
-    setState('processing');
+    setProcessing(true);
     setKeyboardBlocked(true);
 
     try {
@@ -207,53 +104,33 @@ export default function VoiceCommandButton(props) {
       if (error && error.name === 'AbortError') return;
       toast.error(error && error.message ? error.message : 'Voice command failed');
     } finally {
-      setState('idle');
+      setProcessing(false);
       setKeyboardBlocked(false);
       abortRef.current = null;
     }
   }
 
-  function handlePointerDown(event) {
-    event.preventDefault();
-    if (state !== 'idle') return;
-    pausePlaybackForVoice();
-    pointerActiveRef.current = true;
-    event.currentTarget.setPointerCapture(event.pointerId);
-    holdTimerRef.current = setTimeout(function() {
-      holdTimerRef.current = null;
-      if (pointerActiveRef.current) startRecording();
-    }, MIN_HOLD_MS);
-  }
-
-  function handlePointerUp(event) {
-    event.preventDefault();
-    pointerActiveRef.current = false;
-    const wasShortTap = !!holdTimerRef.current;
-    if (holdTimerRef.current) {
-      clearTimeout(holdTimerRef.current);
-      holdTimerRef.current = null;
-    }
-    if (state === 'recording') {
-      stopRecording();
-    } else if (state === 'idle') {
-      setKeyboardBlocked(false);
-      if (wasShortTap) {
-        toast.warning('Hold the mic button down while speaking');
-      }
-    }
-    try {
-      event.currentTarget.releasePointerCapture(event.pointerId);
-    } catch (e) {
-      // ignore
-    }
-  }
-
-  function handlePointerCancel(event) {
-    handlePointerUp(event);
-    cleanupRecording();
-    setState('idle');
-    setKeyboardBlocked(false);
-  }
+  const {
+    recordingState,
+    analyserNode,
+    isTapMode,
+    handleClick,
+    handlePointerDown,
+    handlePointerUp,
+    handlePointerCancel,
+    microphoneErrorMessage,
+  } = useVoiceMicRecorder({
+    enabled: resolverAvailable && features.whisper,
+    onBeforeStart: pausePlaybackForVoice,
+    onAudioReady: submitCapturedAudio,
+    onError: function(error) {
+      toast.error(microphoneErrorMessage(error));
+    },
+    onHoldModeShortTap: function() {
+      toast.warning('Hold the mic button down while speaking');
+    },
+    setKeyboardBlocked: setKeyboardBlocked,
+  });
 
   function handlePickerSelect(item) {
     setShowPicker(false);
@@ -275,31 +152,48 @@ export default function VoiceCommandButton(props) {
 
   if (!resolverAvailable || !features.whisper) return null;
 
+  const state = processing ? 'processing' : recordingState;
+  const isRecording = state === 'recording';
+
   const micTitle = props.voiceMode === 'help'
-    ? 'Hold to ask a help question'
-    : 'Hold to speak: show, search, play, or stop';
+    ? (isTapMode ? 'Tap to ask a help question' : 'Hold to ask a help question')
+    : (isTapMode
+      ? 'Tap to speak: show, search, play, or stop'
+      : 'Hold to speak: show, search, play, or stop');
 
   const className = 'header-voice-btn'
-    + (state === 'recording' ? ' recording' : '')
-    + (state === 'processing' ? ' processing' : '');
+    + (isRecording ? ' recording' : '')
+    + (state === 'processing' ? ' processing' : '')
+    + (isTapMode ? ' tap-mode' : '');
+
+  const buttonProps = isTapMode
+    ? { onClick: handleClick }
+    : {
+      onPointerDown: handlePointerDown,
+      onPointerUp: handlePointerUp,
+      onPointerCancel: handlePointerCancel,
+    };
 
   return (
     <>
-      <button
-        type="button"
-        className={className}
-        aria-label="Hold to speak a command"
-        title={micTitle}
-        aria-pressed={state === 'recording'}
-        disabled={state === 'processing'}
-        onPointerDown={handlePointerDown}
-        onPointerUp={handlePointerUp}
-        onPointerCancel={handlePointerCancel}
-      >
-        {state === 'processing'
-          ? <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true" />
-          : <MicIcon />}
-      </button>
+      <span className="header-voice-wrap">
+        {isTapMode && isRecording ? (
+          <VoiceInputWaveform analyserNode={analyserNode} variant="header" />
+        ) : null}
+        <button
+          type="button"
+          className={className}
+          aria-label={micTitle}
+          title={micTitle}
+          aria-pressed={isRecording}
+          disabled={state === 'processing'}
+          {...buttonProps}
+        >
+          {state === 'processing'
+            ? <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true" />
+            : <MicIcon />}
+        </button>
+      </span>
       <SearchResultPickerModal
         show={showPicker}
         title={pickerTitle}

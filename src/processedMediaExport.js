@@ -1,3 +1,4 @@
+import { saveBlobToDevice } from './nativeFileSave';
 import { SoundTouch, SimpleFilter, WebAudioBufferSource } from 'soundtouchjs';
 import {
   clamp,
@@ -111,14 +112,17 @@ export async function buildProcessedMediaBlob(cacheOptions, settings) {
 }
 
 export function triggerBlobDownload(blob, filename) {
-  const url = window.URL.createObjectURL(blob);
-  const anchor = document.createElement('a');
-  anchor.href = url;
-  anchor.setAttribute('download', filename);
-  document.body.appendChild(anchor);
-  anchor.click();
-  document.body.removeChild(anchor);
-  window.URL.revokeObjectURL(url);
+  saveBlobToDevice(blob, filename).catch(function(err) {
+    console.warn('download failed', err);
+    const url = window.URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.setAttribute('download', filename);
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+    window.URL.revokeObjectURL(url);
+  });
 }
 
 export async function downloadProcessedMediaBlob(cacheOptions, settings, filename) {

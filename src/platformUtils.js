@@ -15,7 +15,16 @@ export function isMobilePlatform() {
 export function isCapacitorNative() {
   if (typeof window === 'undefined') return false;
   const cap = window.Capacitor;
-  return !!(cap && typeof cap.isNativePlatform === 'function' && cap.isNativePlatform());
+  if (cap && typeof cap.isNativePlatform === 'function' && cap.isNativePlatform()) {
+    return true;
+  }
+  // Capacitor Android WebView (androidScheme https → https://localhost).
+  if (window.location
+    && window.location.protocol === 'https:'
+    && window.location.hostname === 'localhost') {
+    return true;
+  }
+  return false;
 }
 
 /**

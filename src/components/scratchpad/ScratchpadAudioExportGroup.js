@@ -1,4 +1,5 @@
 import { ButtonGroup, Dropdown } from 'react-bootstrap'
+import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
 
 export default function ScratchpadAudioExportGroup(props) {
   const isSaving = !!props.isSaving
@@ -13,7 +14,7 @@ export default function ScratchpadAudioExportGroup(props) {
       className={'scratchpad-audio-export-dropdown' + (props.menuBar ? ' scratchpad-audio-menu-bar-item' : '')}
     >
       <Dropdown.Toggle variant={toggleVariant} className={toggleClass}>Export</Dropdown.Toggle>
-      <Dropdown.Menu>
+      <Dropdown.Menu popperConfig={SCRATCHPAD_DROPDOWN_POPPER}>
         <Dropdown.Item onClick={function() { props.onMix && props.onMix() }} disabled={isSaving}>
           {isSaving ? 'Mixing…' : 'Mix and save'}
         </Dropdown.Item>

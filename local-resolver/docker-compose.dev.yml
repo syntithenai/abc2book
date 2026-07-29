@@ -71,6 +71,7 @@ services:
       - ./snapcast_config.py:/app/snapcast_config.py
       - ./snapcast_playback.py:/app/snapcast_playback.py
       - ./snapcast_routes.py:/app/snapcast_routes.py
+      - ./cast_config.py:/app/cast_config.py
       - ./cast_transcode_session.py:/app/cast_transcode_session.py
       - ./cast_playback.py:/app/cast_playback.py
       - ./cast_routes.py:/app/cast_routes.py
@@ -104,6 +105,7 @@ services:
       - ./snapcast_config.py:/app/snapcast_config.py
       - ./snapcast_playback.py:/app/snapcast_playback.py
       - ./snapcast_routes.py:/app/snapcast_routes.py
+      - ./cast_config.py:/app/cast_config.py
       - ./cast_transcode_session.py:/app/cast_transcode_session.py
       - ./cast_playback.py:/app/cast_playback.py
       - ./cast_routes.py:/app/cast_routes.py

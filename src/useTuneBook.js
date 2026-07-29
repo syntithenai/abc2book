@@ -67,7 +67,7 @@ import {
   saveTuneToRepository,
 } from './tuneRepository'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, practiceSessionActiveRef}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef}) => {
   const utils = useUtils()
   const abcTools = useAbcTools()
   // from old data
@@ -662,11 +662,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   }, [tunes, refreshPersistedTuneSnapshots])
 
   useEffect(function() {
-      if (editHistory && typeof editHistory.pruneHistory === 'function') {
-          editHistory.pruneHistory(Object.keys(tunes || {}))
-      }
+      if (!editHistory || typeof editHistory.pruneHistory !== 'function') return
+      if (!editHistory.isLoaded || !tunesHydrated) return
+      editHistory.pruneHistory(Object.keys(tunes || {}))
   // eslint-disable-next-line react-hooks/exhaustive-deps -- prune when tunes change; editHistory is a new object each render
-  }, [tunes])
+  }, [tunes, tunesHydrated, editHistory && editHistory.isLoaded])
   
   function saveTune(tune, skipTimestampUpdate = false, options = {}) {
       
@@ -1015,11 +1015,43 @@ The main difference between the two functions is the additional condition in app
     if (changed) setDeletedTunes(nextDeleted)
   }
 
+  function flushEditorBeforeMerge(tuneIds) {
+      if (!currentTune || !Array.isArray(tuneIds) || tuneIds.indexOf(currentTune) === -1) return
+      if (typeof flushActiveEditor === 'function') {
+          flushActiveEditor(currentTune)
+      } else if (editHistory && typeof editHistory.flushPendingTune === 'function') {
+          editHistory.flushPendingTune(currentTune)
+      }
+  }
+
   function applyMergeData(data, forceDuplicates=false, discardLocalUpdates = false) {
     return new Promise(function(resolve,reject) {
+        var {inserts, updates, duplicates, localUpdates, deletes, remoteDeleted} = data
+        var affectedTuneIds = tuneIdsFromBucket(updates)
+          .concat(tuneIdsFromBucket(inserts))
+          .concat(tuneIdsFromBucket(deletes))
+        if (discardLocalUpdates) {
+          affectedTuneIds = affectedTuneIds.concat(tuneIdsFromBucket(localUpdates))
+        }
+        flushEditorBeforeMerge(affectedTuneIds)
+
+        var beforeSnapshots = {}
+        Object.keys(updates || {}).forEach(function(id) {
+          beforeSnapshots[id] = getPersistedTuneSnapshot(id)
+        })
+        Object.keys(inserts || {}).forEach(function(id) {
+          beforeSnapshots[id] = getPersistedTuneSnapshot(id)
+        })
+        Object.keys(deletes || {}).forEach(function(id) {
+          beforeSnapshots[id] = getPersistedTuneSnapshot(id)
+        })
+        if (discardLocalUpdates) {
+          Object.keys(localUpdates || {}).forEach(function(id) {
+            beforeSnapshots[id] = getPersistedTuneSnapshot(id)
+          })
+        }
+
         utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
-      
-            var {inserts, updates, duplicates, localUpdates, deletes, remoteDeleted} = data
             var deleteSnapshots = {}
             Object.keys(deletes || {}).forEach(function(id) {
               if (tunes[id]) deleteSnapshots[id] = tunes[id]
@@ -1054,6 +1086,7 @@ The main difference between the two functions is the additional condition in app
             } 
             // any more recent changes locally get saved online
             var bookMergesChanged = false
+            var bookMerge = null
             if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
               Object.values(duplicates).forEach(function(tune) {
                 tune.id = null
@@ -1062,7 +1095,7 @@ The main difference between the two functions is the additional condition in app
               })
               //updateSheet(0)
             } else if (duplicates && Object.keys(duplicates).length > 0) {
-              var bookMerge = applyDuplicateBookMerges({
+              bookMerge = applyDuplicateBookMerges({
                 tunes: tunes,
                 duplicates: duplicates,
                 importhashes: (tunesHash && tunesHash.importhashes) || {},
@@ -1075,6 +1108,76 @@ The main difference between the two functions is the additional condition in app
               tuneIdsFromBucket(updates).concat(tuneIdsFromBucket(inserts))
             )
             if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| bookMergesChanged || (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
+              Object.keys(updates || {}).forEach(function(id) {
+                recordHistoryChange({
+                  tuneId: id,
+                  before: beforeSnapshots[id] || null,
+                  after: tunes[id] || null,
+                  label: 'Sync from Drive',
+                  immediate: true,
+                  meta: {
+                    tombstoneBefore: null,
+                    tombstoneAfter: null,
+                  },
+                })
+              })
+              Object.keys(inserts || {}).forEach(function(id) {
+                recordHistoryChange({
+                  tuneId: id,
+                  before: beforeSnapshots[id] || null,
+                  after: tunes[id] || null,
+                  label: 'Sync from Drive',
+                  immediate: true,
+                  meta: {
+                    tombstoneBefore: null,
+                    tombstoneAfter: null,
+                  },
+                })
+              })
+              if (bookMergesChanged && bookMerge && bookMerge.mergedTuneIds) {
+                bookMerge.mergedTuneIds.forEach(function(id) {
+                  beforeSnapshots[id] = beforeSnapshots[id] || getPersistedTuneSnapshot(id)
+                  recordHistoryChange({
+                    tuneId: id,
+                    before: beforeSnapshots[id] || null,
+                    after: tunes[id] || null,
+                    label: 'Sync from Drive',
+                    immediate: true,
+                    meta: {
+                      tombstoneBefore: null,
+                      tombstoneAfter: null,
+                    },
+                  })
+                })
+              }
+              if (discardLocalUpdates) {
+                Object.keys(localUpdates || {}).forEach(function(id) {
+                  recordHistoryChange({
+                    tuneId: id,
+                    before: beforeSnapshots[id] || null,
+                    after: tunes[id] || null,
+                    label: 'Sync from Drive',
+                    immediate: true,
+                    meta: {
+                      tombstoneBefore: null,
+                      tombstoneAfter: null,
+                    },
+                  })
+                })
+              }
+              Object.keys(deletes || {}).forEach(function(id) {
+                recordHistoryChange({
+                  tuneId: id,
+                  before: beforeSnapshots[id] || null,
+                  after: null,
+                  label: 'Sync from Drive',
+                  immediate: true,
+                  meta: {
+                    tombstoneBefore: deletedTunes && id ? JSON.parse(JSON.stringify(deletedTunes[id] || null)) : null,
+                    tombstoneAfter: remoteDeleted && remoteDeleted[id] ? remoteDeleted[id] : createTombstone(id, deletes[id] && deletes[id].name),
+                  },
+                })
+              })
               refreshPersistedTuneSnapshots(tunes)
               setTunes(tunes)
               buildTunesHash()

@@ -2,6 +2,9 @@ import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
 import {useState, useRef, useEffect} from 'react'
 import { allArtists, allGenres } from './tuneBibliographicUtils'
+import { isCapacitorNative } from './platformUtils'
+import { yieldToMain } from './tuneListFilter'
+import { rebuildIndexesFromTunes } from './tuneIndexRebuilder'
 import {
   INDEX_STORE_KEYS,
   loadAllIndexes,
@@ -39,12 +42,25 @@ var useIndexes = () => {
     var abcTools = useAbcTools()
     var [indexesReady, setIndexesReady] = useState(false)
     var [bookIndex, setBookIndex] = useState(function() {
+      if (isCapacitorNative()) return {}
       return utils.loadLocalObject('bookstorage_index_books')
     })
-    var [tagIndex, setTagIndex] = useState(utils.loadLocalObject('bookstorage_index_tags'))
-    var [genreIndex, setGenreIndex] = useState(utils.loadLocalObject('bookstorage_index_genres'))
-    var [artistIndex, setArtistIndex] = useState(utils.loadLocalObject('bookstorage_index_artists'))
-    var [tagGroups, setTagGroups] = useState(utils.loadLocalObject('bookstorage_tag_groups'))
+    var [tagIndex, setTagIndex] = useState(function() {
+      if (isCapacitorNative()) return {}
+      return utils.loadLocalObject('bookstorage_index_tags')
+    })
+    var [genreIndex, setGenreIndex] = useState(function() {
+      if (isCapacitorNative()) return {}
+      return utils.loadLocalObject('bookstorage_index_genres')
+    })
+    var [artistIndex, setArtistIndex] = useState(function() {
+      if (isCapacitorNative()) return {}
+      return utils.loadLocalObject('bookstorage_index_artists')
+    })
+    var [tagGroups, setTagGroups] = useState(function() {
+      if (isCapacitorNative()) return {}
+      return utils.loadLocalObject('bookstorage_tag_groups')
+    })
     var lastBookIndexRef = useRef(bookIndex)
     var lastTagIndexRef = useRef(tagIndex)
     var lastGenreIndexRef = useRef(genreIndex)
@@ -193,6 +209,28 @@ var useIndexes = () => {
         })
     }
 
+    async function reindexTunesAsync(tunes) {
+        const built = await rebuildIndexesFromTunes(tunes, {
+            yieldToMain: yieldToMain,
+            chunkSize: isCapacitorNative() ? 75 : 500,
+        })
+        const books = built.books || {}
+        const tags = built.tags || {}
+        const genres = built.genres || {}
+        const artists = built.artists || {}
+        const groups = built.tagGroups || {}
+        setBookIndex(books)
+        setTagIndex(tags)
+        setGenreIndex(genres)
+        setArtistIndex(artists)
+        setTagGroups(groups)
+        lastBookIndexRef.current = books
+        lastTagIndexRef.current = tags
+        lastGenreIndexRef.current = genres
+        lastArtistIndexRef.current = artists
+        return built
+    }
+
     function unindexTune(tune) {
         if (!tune || !tune.id) return
 
@@ -255,6 +293,7 @@ var useIndexes = () => {
     return {
       indexTune,
       indexTunes,
+      reindexTunesAsync,
       indexChangedTunes,
       unindexTune,
       resetBookIndex,

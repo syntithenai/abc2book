@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes';
+import { isAndroidApp } from './platformUtils';
 import { getResolverFeaturesFromStatus } from './resolverFeatures';
 import {
   ensureMediaResolverHealthSettingsListener,
@@ -20,8 +21,20 @@ export function useInitMediaResolverHealth(accessToken, requestGoogleScopes) {
     } else {
       setMediaResolverIdentityScopeRequest(null);
     }
-    probeMediaResolverHealth(accessToken);
+    var probeTimer = null
+    function runProbe() {
+      probeMediaResolverHealth(accessToken);
+    }
+    if (isAndroidApp() && !accessToken) {
+      // Defer cold-start probe — useGoogleLogin also probes after login.
+      probeTimer = setTimeout(runProbe, 6000)
+    } else if (isAndroidApp()) {
+      probeTimer = setTimeout(runProbe, 1500)
+    } else {
+      runProbe()
+    }
     return function() {
+      if (probeTimer) clearTimeout(probeTimer)
       setMediaResolverIdentityScopeRequest(null);
     };
   }, [accessToken, requestGoogleScopes]);

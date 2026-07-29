@@ -38,17 +38,22 @@ export default function ScratchpadNewTrackDialog(props) {
 
   function fileSelected(event) {
     const file = event.target.files && event.target.files[0]
-    if (file && props.ee) {
-      props.ee.emit('newtrack', file)
-      if (props.onImport) props.onImport(file)
+    if (file && props.onImportFile) {
+      props.onImportFile(file)
     }
+    event.target.value = ''
     handleClose()
   }
 
   return (
     <>
-      <Button size="sm" variant="success" onClick={function() { setShow(true) }} title="Add track">
-        {icons.plus || '+'} Track
+      <Button
+        size="sm"
+        variant={props.iconOnly ? 'outline-secondary' : 'success'}
+        onClick={function() { setShow(true) }}
+        title="Add track"
+      >
+        {props.iconOnly ? (icons.plus || '+') : ((icons.plus ? icons.plus + ' ' : '+ ') + 'Track')}
       </Button>
       <Modal show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>

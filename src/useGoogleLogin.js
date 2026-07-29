@@ -3,7 +3,9 @@ import { useState, useRef, useEffect, useCallback } from 'react'
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
 import {
   AUTH_MODE_PROBE_WAIT_MS,
+  LOGIN_AUTH_WAIT_MS,
   candidateOffersOauthBff,
+  pickAuthResolverBaseForLogin,
   readStoredAuthBase,
   readStoredAuthSessionId,
 } from './authResolverClient'
@@ -18,6 +20,16 @@ import {
   probeMediaResolverHealth,
 } from './mediaResolverHealthStore'
 import { toast } from 'react-toastify'
+import { isAndroidApp, isCapacitorNative } from './platformUtils'
+import {
+  clearAndroidOAuthResumeGuard,
+  clearAndroidOAuthSession,
+  ensureAndroidOAuthDeepLinkListener,
+  hasPendingAndroidOAuthCallback,
+  isAndroidOAuthResuming,
+  markAndroidOAuthResuming,
+} from './androidGoogleAuth'
+import { getGoogleOAuthRedirectUri } from './googleOAuthRedirectUri'
 import {
   createTokenClientController,
   readStoredLoginProfile,
@@ -67,6 +79,11 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
   authModeRef.current = authMode
   authBaseRef.current = authBase
 
+  /** Native builds must use OAuth BFF — on-device code exchange needs a client_secret. */
+  function mustUseOAuthBffLogin() {
+    return isCapacitorNative() && isMediaProxyConfigured()
+  }
+
   function ensureTokenController() {
     if (!tokenControllerRef.current) {
       tokenControllerRef.current = createTokenClientController({
@@ -113,6 +130,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
           for (var i = 0; i < candidates.length; i++) {
             if (candidateOffersOauthBff(candidates[i])) return
           }
+          if (isAndroidApp()) return
           var tokenCtrl = ensureTokenController()
           activeControllerRef.current = tokenCtrl
           authModeRef.current = 'token'
@@ -146,7 +164,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       authBaseRef.current = nextBase
       setAuthBase(nextBase)
     }
-    if (mode === 'oauth' && nextBase) {
+    if (mode === 'oauth') {
       activeControllerRef.current = ensureOauthController()
     } else {
       activeControllerRef.current = ensureTokenController()
@@ -156,19 +174,62 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
 
   function waitForMode() {
     if (authModeRef.current !== 'pending') {
+      if (mustUseOAuthBffLogin()) {
+        return Promise.resolve(activeControllerRef.current || ensureOauthController())
+      }
       return Promise.resolve(activeControllerRef.current || ensureTokenController())
     }
     if (!modeReadyRef.current) {
-      modeReadyRef.current = waitForAuthBase(AUTH_MODE_PROBE_WAIT_MS).then(function(base) {
+      modeReadyRef.current = waitForAuthBase(
+        mustUseOAuthBffLogin() ? LOGIN_AUTH_WAIT_MS : AUTH_MODE_PROBE_WAIT_MS,
+        { untilProbeSettled: mustUseOAuthBffLogin() }
+      ).then(function(base) {
+        if (mustUseOAuthBffLogin()) {
+          return selectController('oauth', base)
+        }
         return selectController(base ? 'oauth' : 'token', base)
       })
     }
     return modeReadyRef.current
   }
 
+  function finishAndroidOAuthFromDeepLink(codePayload) {
+    if (!codePayload || !codePayload.code) return Promise.resolve()
+    probeMediaResolverHealth(null, { force: true })
+    return waitForAuthBase(LOGIN_AUTH_WAIT_MS, { untilProbeSettled: true }).then(function(base) {
+      var controller = selectController('oauth', base)
+      if (!controller.completeAuthorizationCode) {
+        return Promise.reject(new Error('OAuth login is not ready'))
+      }
+      return controller.completeAuthorizationCode(codePayload).catch(function(err) {
+        console.warn('Google login failed', err)
+        var message = (err && err.message) ? String(err.message) : 'Google login failed'
+        if (err && err.body) {
+          if (err.body.hint) message = String(err.body.hint)
+          else if (err.body.detail) message = String(err.body.detail)
+        }
+        if (!/cancel|closed|popup_closed|disposed|sign-in cancelled/i.test(message)) {
+          toast.error(message)
+        }
+      })
+    })
+  }
+
   /** Prefer BFF code login when an oauthBff resolver is available so renewals
    * stay silent. Fall back to Token Client when no BFF base is known. */
   function login() {
+    clearAndroidOAuthResumeGuard()
+    if (!hasPendingAndroidOAuthCallback()) {
+      clearAndroidOAuthSession()
+    }
+    // Start resolver probe immediately so login waits on a settled oauthBff base
+    // (Android defers the mount-time probe to avoid ANR on cold start).
+    probeMediaResolverHealth(null, { force: true })
+
+    if (isAndroidApp()) {
+      toast.info('Opening Google sign-in…', { autoClose: 2500 })
+    }
+
     function runWithController(controller) {
       activeControllerRef.current = controller
       try {
@@ -181,6 +242,11 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
           }
           if (/still loading/i.test(message)) {
             toast.info('Google sign-in is still loading. Try again in a moment.')
+          } else if (/redirect_uri_mismatch|redirect uri mismatch/i.test(message)) {
+            toast.error(
+              'Google redirect URI mismatch. In Google Cloud Console → OAuth client → '
+              + 'Authorized redirect URIs, add exactly: ' + getGoogleOAuthRedirectUri()
+            )
           } else if (/interrupted|pop-up blocked|allow pop-ups/i.test(message)) {
             toast.info(message)
           } else if (!/cancel|closed|popup_closed|disposed|sign-in cancelled/i.test(message)) {
@@ -195,6 +261,22 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
         }
         return Promise.resolve()
       }
+    }
+
+    if (mustUseOAuthBffLogin()) {
+      // Android: open Google immediately — native builds always have oauthBff
+      // resolver fallbacks (peppertrees / cloud) without waiting on /health.
+      if (isAndroidApp()) {
+        var health = getMediaResolverHealthState()
+        var probed = health && health.status && health.status.candidates
+          ? health.status.candidates : []
+        var androidBase = pickAuthResolverBaseForLogin(probed)
+          || authBaseRef.current || getAuthResolverBase() || readStoredAuthBase()
+        return runWithController(selectController('oauth', androidBase))
+      }
+      return waitForAuthBase(LOGIN_AUTH_WAIT_MS, { untilProbeSettled: true }).then(function(base) {
+        return runWithController(selectController('oauth', base))
+      })
     }
 
     function startLoginWithFreshAuthBase(controller) {
@@ -310,20 +392,56 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
   }, [])
 
   useEffect(function() {
+    if (!isAndroidApp()) return
+
+    ensureAndroidOAuthDeepLinkListener(function(payload, err) {
+      if (err) {
+        console.warn('Google OAuth deep link failed', err)
+        var message = (err && err.message) ? String(err.message) : 'Google login failed'
+        if (!/cancel|closed|sign-in cancelled/i.test(message)) {
+          toast.error(message)
+        }
+        return
+      }
+      finishAndroidOAuthFromDeepLink(payload)
+    })
+
+    if (!hasPendingAndroidOAuthCallback()) return
+    if (isAndroidOAuthResuming()) return
+    markAndroidOAuthResuming()
+    probeMediaResolverHealth(null, { force: true })
+    login().finally(function() {
+      clearAndroidOAuthResumeGuard()
+    })
+  // Resume OAuth after Google redirects back into the WebView — run once on load.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  useEffect(function() {
     var cancelled = false
     var pollTimeout = null
 
     ensureMediaResolverHealthSettingsListener()
-    // Start probe early so auth mode can settle before/during GSI load.
-    probeMediaResolverHealth(null)
+    // Defer resolver probe on Android so first paint is not blocked (reduces ANR risk).
+    if (isAndroidApp()) {
+      setTimeout(function() { probeMediaResolverHealth(null) }, 6000)
+    } else {
+      probeMediaResolverHealth(null)
+    }
 
     // Select auth mode from the probe without waiting for GSI. Login can then
     // open a GIS popup on the click stack once the script is present.
-    waitForAuthBase(AUTH_MODE_PROBE_WAIT_MS).then(function(base) {
+    waitForAuthBase(mustUseOAuthBffLogin() ? LOGIN_AUTH_WAIT_MS : AUTH_MODE_PROBE_WAIT_MS, {
+      untilProbeSettled: mustUseOAuthBffLogin(),
+    }).then(function(base) {
       if (cancelled) return
       // Upgrade a speculative token selection when an oauth base appears.
       if (authModeRef.current === 'pending' || (base && authModeRef.current === 'token')) {
-        selectController(base ? 'oauth' : 'token', base)
+        if (mustUseOAuthBffLogin()) {
+          selectController('oauth', base)
+        } else {
+          selectController(base ? 'oauth' : 'token', base)
+        }
       }
     })
 
@@ -351,16 +469,21 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
         }
       }
 
-      return waitForAuthBase(AUTH_MODE_PROBE_WAIT_MS, { untilProbeSettled: true }).then(function(base) {
+      return waitForAuthBase(
+        mustUseOAuthBffLogin() ? LOGIN_AUTH_WAIT_MS : AUTH_MODE_PROBE_WAIT_MS,
+        { untilProbeSettled: mustUseOAuthBffLogin() }
+      ).then(function(base) {
         if (cancelled) return null
-        var controller = selectController(base ? 'oauth' : 'token', base)
+        var controller = mustUseOAuthBffLogin()
+          ? selectController('oauth', base)
+          : selectController(base ? 'oauth' : 'token', base)
         if (base && controller.resumeSession) {
           // Silent BFF resume only. Do not fall back to Token Client popup on
           // mount when an OAuth resolver is available — user can click Login.
           return controller.resumeSession()
         }
-        // Pop-up renew only when no resolver offers OAuth BFF.
-        if (!base && !resolverOffersOauthBff()) {
+        // Pop-up renew only when no resolver offers OAuth BFF (not on Android).
+        if (!base && !resolverOffersOauthBff() && !isAndroidApp()) {
           controller.refresh()
         }
         return null
@@ -369,6 +492,14 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
 
     function initGoogleIdentity() {
       if (cancelled) return
+      if (isAndroidApp()) {
+        waitForAuthBase(LOGIN_AUTH_WAIT_MS, { untilProbeSettled: true }).then(function(base) {
+          if (cancelled) return
+          selectController('oauth', base)
+          finishModeAndResume()
+        })
+        return
+      }
       if (!(window.google && window.google.accounts && window.google.accounts.id)) {
         pollTimeout = setTimeout(initGoogleIdentity, 100)
         return

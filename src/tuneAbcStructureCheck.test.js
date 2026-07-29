@@ -7,6 +7,8 @@ import {
   fixStanzaDoubleBarlinesInTune,
   normalizeMelodyRepeatMarks,
   previewStructureFix,
+  removeEmptyBarsFromFlatMelody,
+  removeEmptyBarsInTune,
 } from './tuneAbcStructureFix';
 import { buildTuneCheckReport } from './tuneBulkCheckReport';
 
@@ -30,6 +32,13 @@ describe('tuneAbcStructureCheck', function() {
     const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
     expect(result).not.toBeNull();
     expect(result.issues.some(function(i) { return i.code === 'empty_bar'; })).toBe(true);
+  });
+
+  test('does not treat double barlines as empty bars', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Strain') + 'C D E F | G A B c || D E F G | A B c d |');
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    expect(result).not.toBeNull();
+    expect(result.issues.some(function(i) { return i.code === 'empty_bar'; })).toBe(false);
   });
 
   test('detects underfull bar', function() {
@@ -156,6 +165,54 @@ describe('tuneAbcStructureFix', function() {
     expect(preview).not.toBeNull();
     expect(preview.before).toContain('G A B c');
     expect(preview.after).toContain('|]');
+  });
+
+  test('removeEmptyBarsFromFlatMelody removes spaced empty bars but keeps double barlines', function() {
+    expect(removeEmptyBarsFromFlatMelody('C D E F | | G A B c |')).toBe('C D E F | G A B c |');
+    expect(removeEmptyBarsFromFlatMelody('C D E F | G A B c || D E F G |')).toBe('C D E F | G A B c || D E F G |');
+    expect(removeEmptyBarsFromFlatMelody('A2 B2 :| | |: c2 d2 |')).toBe('A2 B2 :: c2 d2 |');
+    expect(removeEmptyBarsFromFlatMelody('CDEF GABc |\n| DEFG |')).toBe('CDEF GABc | DEFG |');
+    expect(removeEmptyBarsFromFlatMelody('CDEF | DEFG |\nABCD |')).toBe('CDEF | DEFG |\nABCD |');
+  });
+
+  test('removeEmptyBarsInTune preserves melody content', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Empty Bar') + 'C D E F | | G A B c |');
+    const fixed = removeEmptyBarsInTune(tune);
+    expect(fixed).not.toBeNull();
+    const flat = fixed.voices[Object.keys(fixed.voices)[0]].notes.join(' ');
+    expect(flat).toContain('C D E F');
+    expect(flat).toContain('G A B c');
+    expect(flat).not.toMatch(/\|\s+\|/);
+    const after = checkTuneAbcStructure(fixed, { abcTools: abcTools });
+    const codes = after && after.issues ? after.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('empty_bar');
+  });
+
+  test('removeEmptyBarsInTune preserves note line breaks', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Lines'), {
+      voices: { '1': { notes: ['CDEF GABc | DEFG |', 'ABCD EFGH |'] } },
+    });
+    const fixed = removeEmptyBarsInTune(tune);
+    expect(fixed).toBeNull();
+
+    const tuneWithEmptyLine = tuneFromAbc(abcTools, abcTools.emptyABC('Empty line'), {
+      voices: { '1': { notes: ['CDEF GABc |', '|', 'DEFG ABcd |'] } },
+    });
+    const fixedLines = removeEmptyBarsInTune(tuneWithEmptyLine);
+    expect(fixedLines).not.toBeNull();
+    const notes = fixedLines.voices['1'].notes;
+    expect(notes.join('\n')).toBe('CDEF GABc |\nDEFG ABcd |');
+    const after = checkTuneAbcStructure(fixedLines, { abcTools: abcTools });
+    const codes = after && after.issues ? after.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('empty_bar');
+  });
+
+  test('removeEmptyBarsInTune does not strip double barlines', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Strain') + 'C D E F | G A B c || D E F G | A B c d |');
+    const fixed = removeEmptyBarsInTune(tune);
+    expect(fixed).toBeNull();
+    const flat = tune.voices[Object.keys(tune.voices)[0]].notes.join(' ');
+    expect(flat).toContain('||');
   });
 });
 

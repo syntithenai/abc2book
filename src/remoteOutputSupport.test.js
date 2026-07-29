@@ -1,6 +1,7 @@
 import {
   canRouteToSnapcastPlayback,
   getSnapcastDisabledReason,
+  needsCastHlsSession,
   usesNativeElementRemoteHandoff,
 } from './remoteOutputSupport';
 
@@ -39,5 +40,17 @@ describe('remoteOutputSupport', function() {
       resolverFeatures: { snapcastControl: false, snapcastPlayback: false },
     };
     expect(getSnapcastDisabledReason(mediaController)).toMatch(/profile snapcast/i);
+  });
+
+  test('needsCastHlsSession for youtube when castPlayback enabled', function() {
+    const mediaController = {
+      resolverFeatures: { castPlayback: true },
+      tune: { links: [{ link: 'https://youtu.be/x' }] },
+      isExternalOutputActive: function() { return false; },
+    };
+    expect(needsCastHlsSession(mediaController, {
+      source: 'https://youtu.be/x',
+      sourceType: 'youtube',
+    })).toBe(true);
   });
 });

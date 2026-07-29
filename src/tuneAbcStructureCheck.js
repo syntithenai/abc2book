@@ -130,7 +130,8 @@ function findEmptyBarNumbers(flat) {
   const parts = String(flat || '').split('|');
   const emptyBars = [];
   for (let i = 1; i < parts.length - 1; i += 1) {
-    if (!String(parts[i]).trim()) emptyBars.push(i + 1);
+    const segment = String(parts[i]);
+    if (!segment.trim() && segment.length > 0) emptyBars.push(i + 1);
   }
   return emptyBars;
 }

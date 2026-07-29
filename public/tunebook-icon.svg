@@ -1,4 +1,4 @@
-<!-- Tune Book icon traced from original favicon. Regenerate PNGs: scripts/generate-icons.sh -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="#000000" aria-hidden="true">
+<!-- Tune Book icon: joined quavers (matches header musicheader). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="#ffffff" aria-hidden="true" shape-rendering="geometricPrecision">
   <path d="M43 0 L47.75 0 L47.75 36.75 L43.75 40.75 L41 40.75 L40.75 41.75 L31 40.75 L27 36.75 L27 32 L31 28 L40.75 27 L41 28 L45 28.75 L44.75 11.75 L34 13.75 L33.75 14.75 L29 14.75 L28.75 15.75 L20.75 17 L20.75 42.75 L16.75 46.75 L14 46.75 L13.75 47.75 L4 46.75 L0 42.75 L0 38 L4 34 L13.75 33 L14 34 L18 34.75 L18 6 L43 0.25 Z"/>
 </svg>

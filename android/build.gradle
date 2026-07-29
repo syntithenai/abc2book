@@ -25,6 +25,18 @@ allprojects {
     }
 }
 
+// Avoid stale root-owned build/ dirs under node_modules (from prior sudo/docker builds).
+subprojects { subproject ->
+    def projectPath = subproject.projectDir.absolutePath
+    if (projectPath.contains('@capacitor')) {
+        def suffix = projectPath.substring(projectPath.indexOf('@capacitor') + '@capacitor'.length() + 1)
+        def slug = suffix.replace(File.separator, '_')
+        subproject.buildDir = new File(rootProject.projectDir.parentFile, ".android-capacitor-build/${slug}")
+    } else if (subproject.name == 'capacitor-cordova-android-plugins') {
+        subproject.buildDir = new File(rootProject.projectDir.parentFile, '.android-capacitor-build/cordova-plugins')
+    }
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

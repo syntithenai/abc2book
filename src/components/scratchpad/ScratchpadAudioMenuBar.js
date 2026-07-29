@@ -4,6 +4,7 @@ import ScratchpadAudioEditModes from './ScratchpadAudioEditModes'
 import ScratchpadAudioProcessMenu from './ScratchpadAudioProcessMenu'
 import ScratchpadAudioExportGroup from './ScratchpadAudioExportGroup'
 import ScratchpadAudioEditorHelpModal from './ScratchpadAudioEditorHelpModal'
+import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
 
 export default function ScratchpadAudioMenuBar(props) {
   const [showHelp, setShowHelp] = useState(false)
@@ -66,7 +67,7 @@ export default function ScratchpadAudioMenuBar(props) {
           <Dropdown.Toggle variant="link" size="sm" className="scratchpad-audio-menu-bar-toggle">
             View
           </Dropdown.Toggle>
-          <Dropdown.Menu>
+          <Dropdown.Menu popperConfig={SCRATCHPAD_DROPDOWN_POPPER}>
             <Dropdown.Item onClick={props.onToggleSpectrogram}>
               {props.spectrogramVisible ? 'Hide spectrogram' : 'Show spectrogram'}
             </Dropdown.Item>

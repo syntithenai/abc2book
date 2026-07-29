@@ -6,6 +6,7 @@ import {
 } from './abcImportNormalize';
 import { splitIntoBlocks } from './chordSheetUtils';
 import { normalizeChordChartRepeatMarks } from './chordSheetUtils';
+import { classifyBar } from './chordBlockMerge';
 import {
   extractBarsFromMelodyText,
   flattenMelodyText,
@@ -329,18 +330,70 @@ export function padBarWithRestsInTune(tune) {
   return next;
 }
 
+function isRemovableEmptyBarSegment(segment) {
+  const text = String(segment || '');
+  if (!text.trim() && text.length > 0) return true;
+  if (!text.trim() && text.length === 0) return false;
+  return classifyBar(text) === 'empty';
+}
+
+export function removeEmptyBarsFromFlatMelody(flat) {
+  const source = String(flat || '');
+  const parts = source.split('|');
+  if (parts.length <= 1) return source;
+
+  let out = parts[0];
+  let afterDoubleBar = false;
+  for (let i = 1; i < parts.length; i++) {
+    const segment = String(parts[i]);
+    const isLast = i === parts.length - 1;
+
+    if (!isLast) {
+      if (isRemovableEmptyBarSegment(segment)) {
+        afterDoubleBar = false;
+        continue;
+      }
+      if (!segment.trim() && segment.length === 0) {
+        if (!out.endsWith('|')) out += '|';
+        out += '|';
+        afterDoubleBar = true;
+        continue;
+      }
+      if (afterDoubleBar) {
+        out += segment;
+        afterDoubleBar = false;
+      } else {
+        out += '|' + segment;
+      }
+      continue;
+    }
+
+    if (!segment) {
+      if (source.trimEnd().endsWith('|') && !out.endsWith('|')) out += '|';
+      continue;
+    }
+    if (afterDoubleBar) {
+      out += segment;
+    } else {
+      out += '|' + segment;
+    }
+  }
+
+  return out.replace(/:\|:/g, '::');
+}
+
 export function removeEmptyBarsInTune(tune) {
   const noteLines = getNoteLines(tune);
   if (noteLines.length === 0) return null;
-  const flat = flattenMelodyText(noteLines);
-  const nextFlat = flat.replace(/\|\s*\|/g, '|').replace(/^\|\s*/, '').replace(/\s*\|\s*$/, function(m) {
-    return m.indexOf('||') >= 0 ? m : '|';
-  });
-  if (nextFlat === flat) return null;
+  const body = noteLines.join('\n');
+  const nextBody = removeEmptyBarsFromFlatMelody(body);
+  if (nextBody === body) return null;
   const next = Object.assign({}, tune);
   const voiceKey = resolvePrimaryVoiceKey(tune.voices);
   next.voices = Object.assign({}, tune.voices);
-  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], {
+    notes: nextBody.split(/\r?\n/),
+  });
   return next;
 }
 

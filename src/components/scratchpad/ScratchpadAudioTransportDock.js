@@ -1,123 +1,101 @@
-import { Button, ButtonGroup, Dropdown, Form } from 'react-bootstrap'
-import ScratchpadAudioRecordSettings from './ScratchpadAudioRecordSettings'
+import { useRef } from 'react'
+import { Button, ButtonGroup } from 'react-bootstrap'
 import ScratchpadAudioMetronomeControls from './ScratchpadAudioMetronomeControls'
 import ScratchpadAudioInputMeter from './ScratchpadAudioInputMeter'
 import ScratchpadAudioToolbarOverflow from './ScratchpadAudioToolbarOverflow'
-import { isScratchpadToolbarNarrow } from '../../scratchpadAudioToolbarLayout'
+import ScratchpadAudioRecordBarControls from './ScratchpadAudioRecordBarControls'
+import useScratchpadToolbarWidth from '../../useScratchpadToolbarWidth'
+import { scratchpadToolbarTier, isScratchpadToolbarNarrow } from '../../scratchpadAudioToolbarLayout'
 
-function TransportBlock(props) {
+function transportGlyph(icons, key, shortLabel) {
+  return icons[key] || shortLabel
+}
+
+export default function ScratchpadAudioTransportDock(props) {
   const icons = props.icons || {}
   const ee = props.ee
+  const dockRef = useRef(null)
+  const dockWidth = useScratchpadToolbarWidth(dockRef)
+  const dockTier = dockWidth > 0 ? scratchpadToolbarTier(dockWidth) : (props.layoutTier || 'wide')
+  const narrow = isScratchpadToolbarNarrow(dockTier)
+  const showExtrasInline = !narrow
   const canRecord = !!props.armedTrackId
   const recordTitle = props.isRecording
     ? 'Stop recording'
-    : (canRecord ? 'Record on armed track' : 'Arm a track in the sidebar to record')
+    : (canRecord ? 'Record on armed track' : 'Arm a track to record')
+
+  const overflowItems = [
+    { key: 'zoom-out', label: 'Zoom out', onClick: function() { ee && ee.emit('zoomout') } },
+    { key: 'zoom-in', label: 'Zoom in', onClick: function() { ee && ee.emit('zoomin') } },
+    { key: 'punch', label: (props.punchInEnabled ? '✓ ' : '') + 'Punch-in', onClick: function() {
+      if (props.onPunchInChange) props.onPunchInChange(!props.punchInEnabled)
+    } },
+    { key: 'record-mode', label: 'Record: ' + ((props.recordMode || 'newTake') === 'replace' ? 'Replace' : 'New take'), onClick: function() {
+      if (props.onRecordModeChange) {
+        const mode = props.recordMode || 'newTake'
+        props.onRecordModeChange(mode === 'replace' ? 'newTake' : 'replace')
+      }
+    } },
+    { key: 'snap', label: (props.snapToGrid ? '✓ ' : '') + 'Snap to grid', onClick: function() {
+      if (props.onSnapChange) props.onSnapChange(!props.snapToGrid)
+    } },
+    { key: 'settings', label: 'Audio settings…', onClick: props.onOpenSettings },
+  ]
 
   return (
-    <div className="scratchpad-audio-dock-block scratchpad-audio-dock-block--transport">
-      <span className="scratchpad-audio-dock-block-label">Transport</span>
-      <div className="scratchpad-audio-dock-block-body">
-        <ButtonGroup size="sm">
-          <Button variant="outline-secondary" title="Rewind" onClick={function() { ee && ee.emit('rewind') }}>
-            {icons.skipback || '⏮'}
+    <div
+      ref={dockRef}
+      className={'scratchpad-audio-transport-dock scratchpad-audio-transport-dock--' + dockTier}
+    >
+      <div className="scratchpad-audio-dock-row">
+        <ButtonGroup size="sm" className="scratchpad-audio-transport-controls">
+          <Button variant="outline-secondary" title="Rewind" aria-label="Rewind" onClick={function() { ee && ee.emit('rewind') }}>
+            {transportGlyph(icons, 'skipback', '⏮')}
           </Button>
           <Button
             variant="success"
             title={props.isPlaying ? 'Pause' : 'Play'}
+            aria-label={props.isPlaying ? 'Pause' : 'Play'}
             onClick={props.onPlayPause}
           >
-            {props.isPlaying ? (icons.pause || 'Pause') : (icons.play || 'Play')}
+            {props.isPlaying ? transportGlyph(icons, 'pause', '⏸') : transportGlyph(icons, 'play', '▶')}
           </Button>
           <Button
             variant="danger"
             title="Stop"
+            aria-label="Stop"
             onClick={function() {
               if (ee) ee.emit('stop')
               if (props.onStop) props.onStop()
             }}
           >
-            {icons.stop || 'Stop'}
+            {transportGlyph(icons, 'stop', '⏹')}
           </Button>
           <Button
             variant={props.isRecording ? 'danger' : 'outline-danger'}
             title={recordTitle}
+            aria-label={props.isRecording ? 'Stop recording' : 'Record'}
             disabled={!canRecord && !props.isRecording}
             onClick={props.onRecord}
           >
-            {icons.record || icons.mic || 'Record'}
+            {transportGlyph(icons, 'record', transportGlyph(icons, 'mic', '●'))}
           </Button>
         </ButtonGroup>
+
         {props.currentTime != null && props.duration != null ? (
           <span className="small text-muted scratchpad-audio-transport-time">
             {props.formatTime(props.currentTime)} / {props.formatTime(props.duration)}
           </span>
         ) : null}
+
         <ScratchpadAudioInputMeter analyserNode={props.inputAnalyser} />
-      </div>
-    </div>
-  )
-}
 
-function TempoZoomBlock(props) {
-  const icons = props.icons || {}
-  const ee = props.ee
-  const narrow = isScratchpadToolbarNarrow(props.layoutTier || 'wide')
-  const tempo = props.tempo != null ? props.tempo : 120
+        <div className="scratchpad-audio-dock-divider" aria-hidden="true" />
 
-  if (narrow) {
-    const overflowItems = [
-      { key: 'tempo', label: 'Tempo: ' + tempo + ' BPM', onClick: function() {} },
-      { key: 'zoom-in', label: 'Zoom in', onClick: function() { ee && ee.emit('zoomin') } },
-      { key: 'zoom-out', label: 'Zoom out', onClick: function() { ee && ee.emit('zoomout') } },
-      { key: 'record-settings', label: 'Record settings…', onClick: props.onOpenRecordSettings },
-      { key: 'settings', label: 'Audio settings…', onClick: props.onOpenSettings },
-    ]
-    return (
-      <div className="scratchpad-audio-dock-block scratchpad-audio-dock-block--tempo">
-        <span className="scratchpad-audio-dock-block-label">Tempo</span>
-        <div className="scratchpad-audio-dock-block-body">
-          <ScratchpadAudioMetronomeControls
-            icons={icons}
-            narrow={true}
-            tempo={props.tempo}
-            countInBars={props.countInBars}
-            rhythmConfig={props.rhythmConfig}
-            metronomeEnabled={props.metronomeEnabled}
-            metronomeDuringPlayback={props.metronomeDuringPlayback}
-            metronomeDuringRecording={props.metronomeDuringRecording}
-            onMetronomeEnabledChange={props.onMetronomeEnabledChange}
-            onCountInChange={props.onCountInChange}
-            onTempoChange={props.onTempoChange}
-            onRhythmConfigChange={props.onRhythmConfigChange}
-            onMetronomeDuringPlaybackChange={props.onMetronomeDuringPlaybackChange}
-            onMetronomeDuringRecordingChange={props.onMetronomeDuringRecordingChange}
-          />
-          <ScratchpadAudioToolbarOverflow items={overflowItems} />
-        </div>
-      </div>
-    )
-  }
-
-  return (
-    <div className="scratchpad-audio-dock-block scratchpad-audio-dock-block--tempo">
-      <span className="scratchpad-audio-dock-block-label">Tempo &amp; Zoom</span>
-      <div className="scratchpad-audio-dock-block-body">
-        <Form.Control
-          size="sm"
-          type="number"
-          min="20"
-          max="300"
-          className="scratchpad-audio-dock-tempo-input"
-          value={tempo}
-          title="Tempo (BPM)"
-          onChange={function(e) {
-            if (props.onTempoChange) props.onTempoChange(parseFloat(e.target.value) || 120)
-          }}
-        />
-        <span className="small text-muted">BPM</span>
         <ScratchpadAudioMetronomeControls
           icons={icons}
-          narrow={false}
+          narrow={narrow}
+          compact={true}
           tempo={props.tempo}
           countInBars={props.countInBars}
           rhythmConfig={props.rhythmConfig}
@@ -131,78 +109,32 @@ function TempoZoomBlock(props) {
           onMetronomeDuringPlaybackChange={props.onMetronomeDuringPlaybackChange}
           onMetronomeDuringRecordingChange={props.onMetronomeDuringRecordingChange}
         />
-        <ButtonGroup size="sm">
-          <Button variant="outline-secondary" title="Zoom out" onClick={function() { ee && ee.emit('zoomout') }}>
-            {icons.zoomout || '−'}
-          </Button>
-          <Button variant="outline-secondary" title="Zoom in" onClick={function() { ee && ee.emit('zoomin') }}>
-            {icons.zoomin || '+'}
-          </Button>
-        </ButtonGroup>
-        <ScratchpadAudioRecordSettings
-          tempo={props.tempo}
-          countInBars={props.countInBars}
-          punchInEnabled={props.punchInEnabled}
-          recordMode={props.recordMode}
-          onTempoChange={props.onTempoChange}
-          onCountInChange={props.onCountInChange}
-          rhythmConfig={props.rhythmConfig}
-          onRhythmConfigChange={props.onRhythmConfigChange}
-          onPunchInChange={props.onPunchInChange}
-          onRecordModeChange={props.onRecordModeChange}
-          onOpenSettings={props.onOpenSettings}
-          snapToGrid={props.snapToGrid}
-          onSnapChange={props.onSnapChange}
-          advancedFeatures={props.advancedFeatures}
-        />
-      </div>
-    </div>
-  )
-}
 
-export default function ScratchpadAudioTransportDock(props) {
-  return (
-    <div className={'scratchpad-audio-transport-dock scratchpad-audio-transport-dock--' + (props.layoutTier || 'wide')}>
-      <TransportBlock
-        icons={props.icons}
-        ee={props.ee}
-        isPlaying={props.isPlaying}
-        isRecording={props.isRecording}
-        armedTrackId={props.armedTrackId}
-        currentTime={props.currentTime}
-        duration={props.duration}
-        formatTime={props.formatTime}
-        inputAnalyser={props.inputAnalyser}
-        onPlayPause={props.onPlayPause}
-        onStop={props.onStop}
-        onRecord={props.onRecord}
-      />
-      <TempoZoomBlock
-        icons={props.icons}
-        ee={props.ee}
-        layoutTier={props.layoutTier}
-        tempo={props.tempo}
-        countInBars={props.countInBars}
-        rhythmConfig={props.rhythmConfig}
-        punchInEnabled={props.punchInEnabled}
-        recordMode={props.recordMode}
-        metronomeEnabled={props.metronomeEnabled}
-        metronomeDuringPlayback={props.metronomeDuringPlayback}
-        metronomeDuringRecording={props.metronomeDuringRecording}
-        onMetronomeEnabledChange={props.onMetronomeEnabledChange}
-        onCountInChange={props.onCountInChange}
-        onTempoChange={props.onTempoChange}
-        onRhythmConfigChange={props.onRhythmConfigChange}
-        onMetronomeDuringPlaybackChange={props.onMetronomeDuringPlaybackChange}
-        onMetronomeDuringRecordingChange={props.onMetronomeDuringRecordingChange}
-        onPunchInChange={props.onPunchInChange}
-        onRecordModeChange={props.onRecordModeChange}
-        onOpenSettings={props.onOpenSettings}
-        onOpenRecordSettings={props.onOpenRecordSettings}
-        snapToGrid={props.snapToGrid}
-        onSnapChange={props.onSnapChange}
-        advancedFeatures={props.advancedFeatures}
-      />
+        {showExtrasInline ? (
+          <>
+            <ButtonGroup size="sm" className="scratchpad-audio-transport-controls">
+              <Button variant="outline-secondary" title="Zoom out" aria-label="Zoom out" onClick={function() { ee && ee.emit('zoomout') }}>
+                {transportGlyph(icons, 'zoomout', '−')}
+              </Button>
+              <Button variant="outline-secondary" title="Zoom in" aria-label="Zoom in" onClick={function() { ee && ee.emit('zoomin') }}>
+                {transportGlyph(icons, 'zoomin', '+')}
+              </Button>
+            </ButtonGroup>
+            <ScratchpadAudioRecordBarControls
+              icons={icons}
+              punchInEnabled={props.punchInEnabled}
+              recordMode={props.recordMode}
+              snapToGrid={props.snapToGrid}
+              onPunchInChange={props.onPunchInChange}
+              onRecordModeChange={props.onRecordModeChange}
+              onSnapChange={props.onSnapChange}
+              onOpenSettings={props.onOpenSettings}
+            />
+          </>
+        ) : (
+          <ScratchpadAudioToolbarOverflow items={overflowItems} />
+        )}
+      </div>
     </div>
   )
 }
