@@ -3,7 +3,6 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { Button } from 'react-bootstrap'
 import {
   isQueueActive,
-  getCurrentTuneId,
   getQueuePositionLabel,
   getQueueItemLabel,
   isExternalQueueItem,
@@ -68,7 +67,7 @@ export default function NowPlayingTransportBar({
   if (!showBar) return null
 
   const activeTuneId = getActivePlaybackTuneId(mediaController, nowPlayingQueue)
-  const queueTuneId = queueActive ? getCurrentTuneId(nowPlayingQueue) : activeTuneId
+  const queueTuneId = activeTuneId
   const currentItem = queueActive
     ? nowPlayingQueue.items[nowPlayingQueue.currentIndex || 0]
     : null

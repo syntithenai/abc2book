@@ -3,12 +3,26 @@ import { isPlaybackInterruptPath } from './toolPlaybackInterrupt'
 
 /** Tune id for the transport bar / now-playing UI (queue item or active engine tune). */
 export function getActivePlaybackTuneId(mediaController, queue) {
+  const controllerTuneId = mediaController && mediaController.tune && mediaController.tune.id
+    ? mediaController.tune.id
+    : null
+
   if (isQueueActive(queue)) {
     const queueTuneId = getCurrentTuneId(queue)
+
+    if (queue.previewOnce && queue.previewOnce.tuneId) {
+      return queue.previewOnce.tuneId
+    }
+
+    if (controllerTuneId && queueTuneId && controllerTuneId !== queueTuneId
+      && isPlaybackActivelyPlaying(mediaController)) {
+      return controllerTuneId
+    }
+
     if (queueTuneId) return queueTuneId
   }
-  const tune = mediaController && mediaController.tune
-  if (tune && tune.id) return tune.id
+
+  if (controllerTuneId) return controllerTuneId
   return null
 }
 

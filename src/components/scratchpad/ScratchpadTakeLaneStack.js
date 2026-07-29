@@ -16,6 +16,7 @@ export default function ScratchpadTakeLaneStack(props) {
           <Button
             size="sm"
             variant={track.armed ? 'danger' : 'outline-secondary'}
+            className={props.highlightArm ? 'scratchpad-arm-highlight' : ''}
             onClick={function() { props.onArm && props.onArm(track.id) }}
           >
             {track.armed ? 'Armed' : 'Arm'}
@@ -63,6 +64,9 @@ export default function ScratchpadTakeLaneStack(props) {
 export function ScratchpadTrackList(props) {
   const tracks = props.tracks || []
   const icons = props.icons || {}
+  const advancedFeatures = !!props.advancedFeatures
+  const midiTracks = tracks.filter(function(t) { return t.type === 'midi' })
+  const visibleTracks = advancedFeatures ? tracks : tracks.filter(function(t) { return t.type !== 'midi' })
 
   return (
     <div className="scratchpad-track-list">
@@ -73,11 +77,19 @@ export function ScratchpadTrackList(props) {
           trackCount={tracks.length}
           ee={props.ee}
           icons={icons}
+          advancedFeatures={advancedFeatures}
           onAddTrack={props.onAddTrack}
+          onAddTrackAndRecord={props.onAddTrackAndRecord}
           onImport={props.onImport}
         />
       </div>
-      {tracks.map(function(track) {
+      {!advancedFeatures && midiTracks.length > 0 ? (
+        <div className="scratchpad-midi-hidden-notice small text-muted mb-2 p-2 border rounded">
+          {midiTracks.length} MIDI track{midiTracks.length > 1 ? 's' : ''} hidden.
+          Enable <strong>View → Advanced features</strong> to edit.
+        </div>
+      ) : null}
+      {visibleTracks.map(function(track) {
         if (track.type === 'midi') {
           return (
             <div key={track.id} className="scratchpad-midi-track-row mb-2 p-2 border rounded">
@@ -95,6 +107,7 @@ export function ScratchpadTrackList(props) {
             key={track.id}
             track={track}
             selection={props.selection}
+            highlightArm={props.highlightArmTrackId === track.id}
             onArm={props.onArm}
             onSelectTake={props.onSelectTake}
             onNewTake={props.onNewTake}

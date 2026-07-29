@@ -68,7 +68,6 @@ from_convert.abc
 to_convert.abc
 
 
-scrape/brooke.abc
 
 scrape/canberrapickersandfiddlers/
 
@@ -108,3 +107,4 @@ android/local.properties
 # Theory example generator checkpoint (committed output is examples.js)
 src/feedContent/theory/examples.generated.json
 .cursor/debug-90131e.log
+.cursor/

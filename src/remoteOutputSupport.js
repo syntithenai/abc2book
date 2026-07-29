@@ -1,6 +1,7 @@
 /** Shared eligibility for remote output targets (Cast, Snapcast, AirPlay). */
 
-import { playbackNeedsExternalProcessing, pitchShiftIsActive } from './pitchTempoUtils';
+import { playbackNeedsExternalProcessing, pitchShiftIsActive, getMediaPlaybackSettings } from './pitchTempoUtils';
+import { canCastNativeAudio } from './mediaCastSupport';
 
 export function isRemoteOutputActive(remoteOutputEngineRef) {
   const engine = remoteOutputEngineRef && remoteOutputEngineRef.current;
@@ -12,32 +13,108 @@ export function getRemoteOutputMode(remoteOutputEngineRef) {
   return engine && engine.mode ? engine.mode : null;
 }
 
+/** AirPlay / Remote Playback handoff — native <audio> stays the clock. */
+export function usesNativeElementRemoteHandoff(remoteOutputEngineRef) {
+  const engine = remoteOutputEngineRef && remoteOutputEngineRef.current;
+  if (!engine || engine.connected === false) return false;
+  if (engine.mode === 'airplay') return true;
+  if (engine.subMode === 'remotePlayback' || engine.subMode === 'airplay') return true;
+  return false;
+}
+
+function tuneNeedsProcessing(tune) {
+  if (!tune) return false;
+  const settings = getMediaPlaybackSettings(tune);
+  return pitchShiftIsActive(settings.pitch, settings.fineTune)
+    || playbackNeedsExternalProcessing(settings);
+}
+
+function tuneSrcType(mediaController) {
+  if (!mediaController || !mediaController.tune) return null;
+  const tune = mediaController.tune;
+  const src = mediaController.getSrc
+    ? mediaController.getSrc(tune, mediaController.mediaLinkNumber)
+    : null;
+  return mediaController.getSrcType ? mediaController.getSrcType(src) : null;
+}
+
+function resolverFeatures(mediaController) {
+  return (mediaController && mediaController.resolverFeatures) || {};
+}
+
+export function canRouteYoutubeToRemote(mediaController) {
+  const features = resolverFeatures(mediaController);
+  if (!features.youtubeAudio) return false;
+  if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute()) return false;
+  if (mediaController.isMidiFileMediaRoute && mediaController.isMidiFileMediaRoute()) return false;
+  return tuneSrcType(mediaController) === 'youtube';
+}
+
+export function canRouteMidiFileToRemote(mediaController) {
+  const features = resolverFeatures(mediaController);
+  if (!features.midiRender) return false;
+  if (!mediaController.isMidiFileMediaRoute || !mediaController.isMidiFileMediaRoute()) return false;
+  return !!mediaController.tune;
+}
+
+export function canRouteAbcMidiToRemote(mediaController) {
+  const features = resolverFeatures(mediaController);
+  if (!features.midiRender) return false;
+  if (!mediaController.isMidiPlaybackRoute || !mediaController.isMidiPlaybackRoute()) return false;
+  return !!mediaController.tune;
+}
+
 export function canRouteToSnapcastPlayback(mediaController) {
   if (!mediaController) return false;
-  if (!mediaController.resolverFeatures || !mediaController.resolverFeatures.snapcastPlayback) {
-    return false;
+  const features = resolverFeatures(mediaController);
+  if (!features.snapcastPlayback) return false;
+  if (canRouteAbcMidiToRemote(mediaController)) return true;
+  if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute()) return false;
+  if (canRouteMidiFileToRemote(mediaController)) return true;
+  if (mediaController.isMidiFileMediaRoute && mediaController.isMidiFileMediaRoute()) return false;
+  const tune = mediaController.tune;
+  if (!tune) return false;
+  const srcType = tuneSrcType(mediaController);
+  if (srcType === 'midi' && canRouteMidiFileToRemote(mediaController)) return true;
+  if (srcType === 'midi') return false;
+  if (srcType === 'youtube') return canRouteYoutubeToRemote(mediaController);
+  if (mediaController.isExternalOutputActive && mediaController.isExternalOutputActive()) {
+    return features.snapcastPlayback && needsCastTranscodeSession(mediaController);
   }
+  if (!needsCastTranscodeSession(mediaController)) {
+    if (tuneNeedsProcessing(tune)) return false;
+  }
+  return srcType === 'audio' || srcType === 'recording' || srcType === 'youtube';
+}
+
+export function needsCastTranscodeSession(mediaController) {
+  if (!mediaController || !mediaController.tune) return false;
+  if (mediaController.isExternalOutputActive && mediaController.isExternalOutputActive()) return true;
+  return tuneNeedsProcessing(mediaController.tune);
+}
+
+export function canRouteToCastSdk(mediaController) {
+  if (!mediaController) return false;
+  const features = resolverFeatures(mediaController);
+  if (!features.castPlayback && !features.proxy) return false;
+  if (canRouteAbcMidiToRemote(mediaController)) return true;
   if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute()) {
     return false;
   }
+  if (canRouteMidiFileToRemote(mediaController)) return true;
   if (mediaController.isMidiFileMediaRoute && mediaController.isMidiFileMediaRoute()) {
     return false;
   }
   const tune = mediaController.tune;
   if (!tune) return false;
-  const srcType = mediaController.getSrcType
-    ? mediaController.getSrcType(
-      mediaController.getSrc ? mediaController.getSrc(tune, mediaController.mediaLinkNumber) : null
-    )
-    : null;
-  if (srcType === 'youtube') return false;
+  const srcType = tuneSrcType(mediaController);
+  if (srcType === 'midi' && canRouteMidiFileToRemote(mediaController)) return true;
   if (srcType === 'midi') return false;
-  if (mediaController.isExternalOutputActive && mediaController.isExternalOutputActive()) {
-    return false;
+  if (srcType === 'youtube') return canRouteYoutubeToRemote(mediaController);
+  if (needsCastTranscodeSession(mediaController)) {
+    return features.castPlayback === true;
   }
-  if (pitchShiftIsActive(tune) || playbackNeedsExternalProcessing(tune)) {
-    return false;
-  }
+  if (tuneNeedsProcessing(tune)) return false;
   return srcType === 'audio' || srcType === 'recording';
 }
 
@@ -52,10 +129,30 @@ export function getSnapcastDisabledReason(mediaController) {
     return 'Snapcast playback requires ffmpeg on the resolver';
   }
   if (!canRouteToSnapcastPlayback(mediaController)) {
-    if (mediaController.isExternalOutputActive && mediaController.isExternalOutputActive()) {
-      return 'Stop pitch shift or stem filters to use Snapcast';
+    if (canRouteYoutubeToRemote(mediaController) === false && tuneSrcType(mediaController) === 'youtube') {
+      return 'YouTube routing requires resolver youtubeAudio';
     }
-    return 'Snapcast supports neutral audio links only';
+    if (needsCastTranscodeSession(mediaController) && !mediaController.resolverFeatures.snapcastPlayback) {
+      return 'Processed Snapcast requires ffmpeg transcode on the resolver';
+    }
+    return 'Snapcast supports audio links with neutral or processed settings';
   }
   return null;
 }
+
+export function getCastSdkDisabledReason(mediaController) {
+  if (!mediaController) return 'No media loaded';
+  const features = resolverFeatures(mediaController);
+  if (!canRouteToCastSdk(mediaController)) {
+    if (tuneSrcType(mediaController) === 'youtube' && !features.youtubeAudio) {
+      return 'YouTube Cast requires resolver youtubeAudio';
+    }
+    if (needsCastTranscodeSession(mediaController) && !features.castPlayback) {
+      return 'Processed Cast requires resolver castPlayback (ffmpeg HLS)';
+    }
+    return 'Chromecast supports audio and YouTube via resolver';
+  }
+  return null;
+}
+
+export { canCastNativeAudio };

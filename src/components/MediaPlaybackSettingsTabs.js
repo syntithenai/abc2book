@@ -112,6 +112,10 @@ export default function MediaPlaybackSettingsTabs({
     && !hasMusic
     && isChromiumDesktopBrowser()
 
+  const remoteOutputLocked = !!(
+    mediaController.isRemoteOutputActive && mediaController.isRemoteOutputActive()
+  )
+
   const showAudioFiltersTab = !!tune
     && activeLinkIndex !== null
     && tune.links
@@ -194,23 +198,35 @@ export default function MediaPlaybackSettingsTabs({
           </Tab>
         ) : null}
         {tune ? (
-          <Tab eventKey="playback" title="Playback">
+          <Tab eventKey="playback" title="Playback" disabled={remoteOutputLocked}>
+            {remoteOutputLocked ? (
+              <p className="text-muted small mb-2">
+                Stop remote output (Cast / Snapcast) to change pitch or tempo, or reload after changing settings.
+              </p>
+            ) : null}
             <PitchTempoControlsPanel
               tune={tune}
               tunebook={tunebook}
               mediaController={mediaController}
               showPitchControls={showPitchControls}
               showYoutubeHelperInvite={showYoutubeHelperInvite}
+              disabled={remoteOutputLocked}
             />
           </Tab>
         ) : null}
         {tune && showAudioFiltersTab ? (
-          <Tab eventKey="filters" title="Audio Filters">
+          <Tab eventKey="filters" title="Audio Filters" disabled={remoteOutputLocked}>
+            {remoteOutputLocked ? (
+              <p className="text-muted small mb-2">
+                Audio filters are locked while routing to a remote speaker.
+              </p>
+            ) : null}
             <AudioFiltersPanel
               tune={tune}
               tunebook={tunebook}
               mediaController={mediaController}
               showFilters={showPitchControls && !!mediaController.stemsCapabilityAvailable}
+              disabled={remoteOutputLocked}
             />
           </Tab>
         ) : null}

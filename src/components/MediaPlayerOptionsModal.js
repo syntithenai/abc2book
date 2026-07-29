@@ -3,6 +3,7 @@ import { Button, Modal } from 'react-bootstrap'
 import { useLocation, useParams } from 'react-router-dom'
 import { getViewedTuneIdFromPath, isMiniPlayerTransportVisible } from '../playbackNavigationUtils'
 import MediaSourcePlaybackButtons from './MediaSourcePlaybackButtons'
+import RemoteOutputButton from './RemoteOutputButton'
 import './MediaPlayerOptionsModal.css'
 
 function resolveTuneRecord(tunes, tune) {
@@ -116,14 +117,25 @@ export default function MediaPlayerOptionsModal({
         </Modal.Header>
         <Modal.Body>
           {(showTunePlaybackControls && sourceTune) ? (
-            <div className="media-controls-playback-buttons">
-              <MediaSourcePlaybackButtons
-                tune={sourceTune}
-                tunebook={tunebook}
-                mediaController={mediaController}
-                suppressRouteNavigation={suppressRouteNavigation}
-              />
-            </div>
+            <>
+              <div className="media-controls-transport-actions d-flex align-items-center gap-2 mb-3">
+                <RemoteOutputButton
+                  mediaController={mediaController}
+                  tunebook={tunebook}
+                  compact
+                  nowPlayingQueue={nowPlayingQueue}
+                  tunes={tunes}
+                />
+              </div>
+              <div className="media-controls-playback-buttons">
+                <MediaSourcePlaybackButtons
+                  tune={sourceTune}
+                  tunebook={tunebook}
+                  mediaController={mediaController}
+                  suppressRouteNavigation={suppressRouteNavigation}
+                />
+              </div>
+            </>
           ) : null}
         </Modal.Body>
       </Modal>

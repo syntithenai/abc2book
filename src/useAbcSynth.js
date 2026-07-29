@@ -3379,6 +3379,11 @@ export default function useAbcSynth(props) {
                       initOptions.millisecondsPerMeasure =
                         synthObj.millisecondsPerMeasure() / meterSize
                     }
+                    // #region agent log
+                    if (fillPlayback.injectCustomFill) {
+                      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',location:'useAbcSynth.js:primeTune',message:'fill prime timing',data:{fillStyle:fillPlayback.settings.style,visualMsPerMeasure:synthObj.millisecondsPerMeasure(),initMsPerMeasure:initOptions.millisecondsPerMeasure,meterNum:meterFrac.num,meterDen:meterFrac.den,meterSize:meterSize,pickupLength:synthObj.getPickupLength?synthObj.getPickupLength():null},timestamp:Date.now(),hypothesisId:'A,B'})}).catch(function(){});
+                    }
+                    // #endregion
                   }
                 }
               } catch (remapErr) {

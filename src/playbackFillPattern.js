@@ -242,6 +242,9 @@ export function buildChordTimelineFromTune(tune, tunebook, abcjsParser, visualOb
       label: label,
     })
   })
+  // #region agent log
+  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',location:'playbackFillPattern.js:buildChordTimelineFromTune',message:'chord timeline built',data:{barCount:timeline.length,barDurationSec:barDurationSec,meterKey:meterKey,msPerMeasureOpt:opts.millisecondsPerMeasure,visualMsPerMeasure:visualObj&&visualObj.millisecondsPerMeasure?visualObj.millisecondsPerMeasure():null,pickupLength:visualObj&&visualObj.getPickupLength?visualObj.getPickupLength():null,chordsPerBar:chordsPerBar.slice(0,8),firstEntries:timeline.slice(0,4).map(function(e){return{startSec:e.startSec,label:e.label,meterKey:e.meterKey}})},timestamp:Date.now(),hypothesisId:'A,B,D'})}).catch(function(){});
+  // #endregion
   return timeline
 }
 
@@ -423,6 +426,11 @@ function generateStrumEvents(entry, styleDef, level) {
       events.push(noteEvent(chord.boom, beatStart, noteLength * 1.5, bassVol, styleDef.bassProgram))
     }
   }
+  // #region agent log
+  if (entry.startSec < 0.01) {
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',location:'playbackFillPattern.js:generateStrumEvents',message:'strum beat schedule bar0',data:{beatsPerBar:beatsPerBar,beatLength:beatLength,barDurationSec:entry.barDurationSec,meterKey:entry.meterKey,noteLength:noteLength,strumStarts:events.filter(function(e){return e.cmd==='note'}).map(function(e){return{start:e.start,dur:e.duration,pitch:e.pitch,inst:e.instrument}})},timestamp:Date.now(),hypothesisId:'A,C'})}).catch(function(){});
+  }
+  // #endregion
   return events
 }
 
@@ -621,6 +629,15 @@ export function buildPlaybackSequence(synthObj, options) {
       fillOptions.settings.level
     )
     if (!fillTracks.length) return flattened
+    // #region agent log
+    var melodyStarts = []
+    if (flattened && flattened.tracks && flattened.tracks[0]) {
+      flattened.tracks[0].filter(function(ev){return ev&&ev.cmd==='note'}).slice(0,12).forEach(function(ev){
+        melodyStarts.push({start:ev.start,dur:ev.duration,pitch:ev.pitch})
+      })
+    }
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',location:'playbackFillPattern.js:buildPlaybackSequence',message:'custom fill sequence built',data:{style:fillOptions.settings&&fillOptions.settings.style,msPerMeasureOpt:opts.millisecondsPerMeasure,visualMsPerMeasure:synthObj.millisecondsPerMeasure?synthObj.millisecondsPerMeasure():null,timelineBars:timeline.length,melodyNoteStarts:melodyStarts,fillTrackCount:fillTracks.length},timestamp:Date.now(),hypothesisId:'A,B,E'})}).catch(function(){});
+    // #endregion
     return Object.assign({}, flattened, {
       tracks: flattened.tracks.concat(fillTracks),
     })

@@ -1,8 +1,10 @@
+import os
 import unittest
 
 from cast_transcode_session import (
     TranscodeSettings,
     build_audio_filter_chain,
+    build_ffmpeg_hls_concat_command,
     build_ffmpeg_pcm_command,
     parse_transcode_settings,
 )
@@ -28,6 +30,18 @@ class CastTranscodeSessionTests(unittest.TestCase):
 
     def test_neutral_filter_chain(self):
         self.assertIsNone(build_audio_filter_chain(TranscodeSettings()))
+
+
+    def test_build_ffmpeg_hls_concat_command(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as output_dir:
+            cmd, concat_list = build_ffmpeg_hls_concat_command(
+                ["/tmp/a.wav", "/tmp/b.wav"],
+                TranscodeSettings(),
+                output_dir=output_dir,
+            )
+            self.assertIn("concat", cmd)
+            self.assertTrue(os.path.isfile(concat_list))
 
 
 if __name__ == "__main__":

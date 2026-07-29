@@ -150,6 +150,65 @@ def build_ffmpeg_hls_command(
     return cmd
 
 
+def build_ffmpeg_hls_concat_command(
+    input_paths: list[str],
+    settings: TranscodeSettings,
+    *,
+    output_dir: str,
+    segment_seconds: float = 2.0,
+) -> tuple[list[str], str]:
+    """Build ffmpeg command concatenating inputs into one HLS playlist."""
+    os.makedirs(output_dir, exist_ok=True)
+    playlist = os.path.join(output_dir, "playlist.m3u8")
+    segment_pattern = os.path.join(output_dir, "seg%04d.ts")
+    concat_list = os.path.join(output_dir, "concat.txt")
+    with open(concat_list, "w", encoding="utf-8") as handle:
+        for path in input_paths:
+            escaped = str(path).replace("'", "'\\''")
+            handle.write(f"file '{escaped}'\n")
+    cmd = [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-f",
+        "concat",
+        "-safe",
+        "0",
+        "-i",
+        concat_list,
+    ]
+    if settings.start_seconds > 0:
+        cmd.extend(["-ss", f"{settings.start_seconds:.3f}"])
+    cmd.extend(["-vn"])
+    af = build_audio_filter_chain(settings)
+    if af:
+        cmd.extend(["-af", af])
+    cmd.extend(
+        [
+            "-ac",
+            "2",
+            "-ar",
+            "44100",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "-f",
+            "hls",
+            "-hls_time",
+            str(segment_seconds),
+            "-hls_list_size",
+            "0",
+            "-hls_segment_filename",
+            segment_pattern,
+            playlist,
+        ]
+    )
+    return cmd, concat_list
+
+
 def parse_transcode_settings(body: dict[str, Any]) -> TranscodeSettings:
     return TranscodeSettings(
         pitch_semitones=float(body.get("pitch") or body.get("pitchSemitones") or 0),

@@ -2694,6 +2694,12 @@ export default function useTuneBookMediaController(props) {
             return
         }
 
+        if (isCastSdkRemoteActive() && remoteOutputHandlersRef.current && remoteOutputHandlersRef.current.seekRemote) {
+            remoteOutputHandlersRef.current.seekRemote(clamped)
+            finalizeMediaSeek(wasPlaying, 'cast')
+            return
+        }
+
         if (isMidiFileMediaRoute()) {
             if (seekMidiFileRef.current) {
                 seekMidiFileRef.current(clamped)
@@ -2815,6 +2821,11 @@ export default function useTuneBookMediaController(props) {
         return isRemoteOutputActive() && remoteOutputEngineRef.current.mode === 'snapcast'
     }
 
+    function isCastSdkRemoteActive() {
+        const remote = remoteOutputEngineRef.current
+        return isRemoteOutputActive() && remote.mode === 'cast' && remote.subMode === 'sdk'
+    }
+
     function setRemoteOutputHandlers(handlers) {
         remoteOutputHandlersRef.current = handlers || null
     }
@@ -2831,10 +2842,18 @@ export default function useTuneBookMediaController(props) {
         setIsPlaying(false)
     }
 
+    function usesNativeElementRemoteHandoff() {
+        const remote = remoteOutputEngineRef.current
+        if (!isRemoteOutputActive() || !remote) return false
+        if (remote.mode === 'airplay') return true
+        if (remote.subMode === 'remotePlayback' || remote.subMode === 'airplay') return true
+        return false
+    }
+
     // Anything else (e.g. a muted native element while external processing is
     // active) is ignored so it cannot corrupt the position.
     function getActivePlaybackEngine() {
-        if (isRemoteOutputActive()) {
+        if (isRemoteOutputActive() && !usesNativeElementRemoteHandoff()) {
             return remoteOutputEngineRef.current.mode === 'cast' ? 'cast' : 'snapcast'
         }
         if (playbackRouteRef.current.mode === 'midi') return 'midi'
@@ -5556,6 +5575,15 @@ export default function useTuneBookMediaController(props) {
             setIsPlaying(true)
             return
         }
+        if (isCastSdkRemoteActive()) {
+            if (remoteOutputHandlersRef.current && remoteOutputHandlersRef.current.resumeCast) {
+                remoteOutputHandlersRef.current.resumeCast()
+            }
+            playingIntentRef.current = true
+            userPausedRef.current = false
+            setIsPlaying(true)
+            return
+        }
         applyPlaybackVolumeToActiveRoute(playbackVolume)
         if (intentShouldBlockPlayDuringSeek(getIntentSnapshot(), opts)) {
             return
@@ -5936,6 +5964,16 @@ export default function useTuneBookMediaController(props) {
         if (isSnapcastRemoteActive()) {
             if (remoteOutputHandlersRef.current && remoteOutputHandlersRef.current.pauseSnapcast) {
                 remoteOutputHandlersRef.current.pauseSnapcast()
+            }
+            seekWasPlayingRef.current = false
+            userPausedRef.current = true
+            playingIntentRef.current = false
+            setIsPlaying(false)
+            return
+        }
+        if (isCastSdkRemoteActive()) {
+            if (remoteOutputHandlersRef.current && remoteOutputHandlersRef.current.pauseCast) {
+                remoteOutputHandlersRef.current.pauseCast()
             }
             seekWasPlayingRef.current = false
             userPausedRef.current = true

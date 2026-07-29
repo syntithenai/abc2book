@@ -228,7 +228,12 @@ export default function NowPlayingPage(props) {
           <>
             <div className="now-playing-page-seek-row">
               <MediaSeekSlider mediaController={mediaController} className="now-playing-page-seek" />
-              <RemoteOutputButton mediaController={mediaController} tunebook={props.tunebook} />
+              <RemoteOutputButton
+                mediaController={mediaController}
+                tunebook={props.tunebook}
+                nowPlayingQueue={props.nowPlayingQueue}
+                tunes={props.tunes}
+              />
               <Button
                 variant="outline-secondary"
                 size="sm"

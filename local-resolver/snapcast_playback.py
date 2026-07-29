@@ -37,6 +37,8 @@ class SnapcastSession:
     bytes_written: int = 0
     title: str | None = None
     artist: str | None = None
+    queue: list[Any] = field(default_factory=list)
+    queue_index: int = 0
     _proc: Any = field(default=None, repr=False)
     _input_path: str | None = field(default=None, repr=False)
     _input_is_temp: bool = False
@@ -57,6 +59,9 @@ class SnapcastSession:
                 "bytesWritten": self.bytes_written,
                 "title": self.title,
                 "artist": self.artist,
+                "queueIndex": self.queue_index,
+                "queueLength": len(self.queue),
+                "canGoNext": self.queue_index + 1 < len(self.queue),
             }
 
     def to_plugin_state(self) -> dict[str, Any]:
@@ -65,7 +70,7 @@ class SnapcastSession:
                 "canPlay": True,
                 "canPause": True,
                 "canSeek": True,
-                "canGoNext": False,
+                "canGoNext": self.queue_index + 1 < len(self.queue),
                 "canGoPrevious": False,
                 "isPlaying": self.is_playing,
                 "currentTime": round(self.current_time, 3),
@@ -182,6 +187,7 @@ class SnapcastPlaybackManager:
         title: str | None = None,
         artist: str | None = None,
         input_is_temp: bool = False,
+        queue: list[Any] | None = None,
     ) -> SnapcastSession:
         self.ensure_started()
         with self._lock:
@@ -200,6 +206,8 @@ class SnapcastPlaybackManager:
                 current_time=settings.start_seconds,
                 title=title,
                 artist=artist,
+                queue=queue or [],
+                queue_index=0,
                 _input_path=input_path,
                 _input_is_temp=input_is_temp,
             )
@@ -263,11 +271,62 @@ class SnapcastPlaybackManager:
                 current_time=settings.start_seconds,
                 title=session.title,
                 artist=session.artist,
+                queue=session.queue,
+                queue_index=session.queue_index,
                 is_playing=True,
                 _input_path=input_path,
                 _input_is_temp=session._input_is_temp,
             )
             new_session._input_is_temp = False  # temp file ownership retained
+            self._sessions[session_id] = new_session
+            self._active_session_id = session_id
+        self._start_ffmpeg(new_session)
+        return new_session
+
+    def advance_queue(
+        self,
+        session_id: str,
+        *,
+        input_path: str,
+        source: str,
+        duration: float,
+        title: str | None,
+        artist: str | None,
+        input_is_temp: bool = True,
+    ) -> SnapcastSession | None:
+        with self._lock:
+            session = self._sessions.get(session_id)
+            if not session:
+                return None
+            next_index = session.queue_index + 1
+            if next_index >= len(session.queue):
+                return None
+            settings = TranscodeSettings(
+                pitch_semitones=session.settings.pitch_semitones,
+                fine_tune_cents=session.settings.fine_tune_cents,
+                tempo=session.settings.tempo,
+                start_seconds=0.0,
+            )
+            queue = session.queue
+            group_id = session.group_id
+            stream_name = session.stream_name
+            self._stop_session_locked(session_id)
+            new_session = SnapcastSession(
+                session_id=session_id,
+                source=source,
+                stream_name=stream_name,
+                settings=settings,
+                group_id=group_id,
+                duration=max(0.0, float(duration or 0)),
+                current_time=0.0,
+                title=title,
+                artist=artist,
+                queue=queue,
+                queue_index=next_index,
+                is_playing=True,
+                _input_path=input_path,
+                _input_is_temp=input_is_temp,
+            )
             self._sessions[session_id] = new_session
             self._active_session_id = session_id
         self._start_ffmpeg(new_session)

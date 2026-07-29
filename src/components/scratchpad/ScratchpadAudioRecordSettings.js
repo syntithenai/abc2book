@@ -92,7 +92,7 @@ export default function ScratchpadAudioRecordSettings(props) {
         ) : null}
         {props.onOpenSettings ? (
           <Button variant="link" size="sm" className="px-0 mt-2" onClick={props.onOpenSettings}>
-            Audio &amp; MIDI settings…
+            {props.advancedFeatures ? 'Audio & MIDI settings…' : 'Audio settings…'}
           </Button>
         ) : null}
       </Dropdown.Menu>

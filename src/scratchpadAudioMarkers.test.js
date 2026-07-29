@@ -5,6 +5,7 @@ import {
   clampMarkerTimeContinuous,
   markerTimeFromClientX,
   getLoopRegion,
+  selectionBetweenMarkers,
 } from './scratchpadAudioMarkers'
 
 describe('scratchpadAudioMarkers', function() {
@@ -49,6 +50,14 @@ describe('scratchpadAudioMarkers', function() {
     const time = markerTimeFromClientX(123, layout, { continuous: true })
     expect(time).toBe(1.23)
     expect(time).not.toBe(roundMarkerTime(time))
+  })
+
+  test('selectionBetweenMarkers selects between adjacent markers', function() {
+    const markers = [{ time: 2 }, { time: 5 }, { time: 10 }]
+    expect(selectionBetweenMarkers(markers, 6, 12)).toEqual({ start: 5, end: 10 })
+    expect(selectionBetweenMarkers(markers, 1, 12)).toEqual({ start: 0, end: 2 })
+    expect(selectionBetweenMarkers(markers, 11, 12)).toEqual({ start: 10, end: 12 })
+    expect(selectionBetweenMarkers([], 5, 12)).toBeNull()
   })
 
   test('getLoopRegion uses marker loop roles', function() {

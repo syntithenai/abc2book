@@ -7,9 +7,16 @@ export default function ScratchpadAudioProcessMenu(props) {
   const trimSuggestion = props.trimSuggestion
   const trimming = !!props.trimming
 
+  const toggleClass = props.menuBar ? 'scratchpad-audio-menu-bar-toggle' : undefined
+  const toggleVariant = props.menuBar ? 'link' : 'outline-secondary'
+
   return (
-    <Dropdown as={ButtonGroup} size="sm" className="scratchpad-audio-tools-dropdown">
-      <Dropdown.Toggle variant="outline-secondary">Process</Dropdown.Toggle>
+    <Dropdown
+      as={ButtonGroup}
+      size="sm"
+      className={'scratchpad-audio-tools-dropdown' + (props.menuBar ? ' scratchpad-audio-menu-bar-item' : '')}
+    >
+      <Dropdown.Toggle variant={toggleVariant} className={toggleClass}>Process</Dropdown.Toggle>
       <Dropdown.Menu>
         <Dropdown.Item onClick={props.onAddMarker}>
           {icons.add || icons.plus || '+'} Add marker at playhead

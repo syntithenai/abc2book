@@ -45,10 +45,17 @@ export default function ScratchpadAudioEditModes(props) {
 
   const activeMode = MODES.find(function(m) { return m.id === mode }) || MODES[0]
 
+  const toggleClass = props.menuBar ? 'scratchpad-audio-menu-bar-toggle' : undefined
+  const toggleVariant = props.menuBar ? 'link' : 'outline-primary'
+
   return (
-    <Dropdown as={ButtonGroup} size="sm" className="scratchpad-audio-edit-dropdown">
-      <Dropdown.Toggle variant="outline-primary">
-        Edit: {activeMode.label}
+    <Dropdown
+      as={ButtonGroup}
+      size="sm"
+      className={'scratchpad-audio-edit-dropdown' + (props.menuBar ? ' scratchpad-audio-menu-bar-item' : '')}
+    >
+      <Dropdown.Toggle variant={toggleVariant} className={toggleClass}>
+        {props.menuBar ? 'Edit' : ('Edit: ' + activeMode.label)}
       </Dropdown.Toggle>
       <Dropdown.Menu>
         {MODES.map(function(m) {

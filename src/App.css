@@ -11820,11 +11820,157 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   pointer-events: none;
 }
 
-.scratchpad-audio-toolbar-strip {
+.scratchpad-audio-toolbar-strip,
+.scratchpad-audio-menu-strip {
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  padding: 0.35rem 0.75rem;
   border-bottom: 1px solid #dee2e6;
   background: #f8f9fa;
+}
+
+.scratchpad-audio-menu-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.scratchpad-audio-menu-bar-item {
+  display: inline-flex;
+}
+
+.scratchpad-audio-menu-bar-toggle {
+  text-decoration: none !important;
+  color: #212529 !important;
+  font-weight: 500;
+  padding: 0.15rem 0.5rem !important;
+}
+
+.scratchpad-audio-menu-bar-toggle:hover,
+.scratchpad-audio-menu-bar-toggle:focus {
+  color: #0d6efd !important;
+  background: rgba(13, 110, 253, 0.08);
+}
+
+.scratchpad-audio-daw {
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+}
+
+.scratchpad-audio-daw-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.scratchpad-audio-waveform-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.scratchpad-audio-transport-dock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid #dee2e6;
+  background: #f8f9fa;
+  position: sticky;
+  bottom: 0;
+  z-index: 20;
+}
+
+.scratchpad-audio-dock-block {
+  display: inline-flex;
+  flex-direction: column;
+  border: 1px solid #dee2e6;
+  border-radius: 0.35rem;
+  background: #fff;
+  flex: 0 0 auto;
+}
+
+.scratchpad-audio-dock-block-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6c757d;
+  padding: 0.15rem 0.5rem 0;
+  line-height: 1.2;
+}
+
+.scratchpad-audio-dock-block-body {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.5rem;
+  flex-wrap: wrap;
+}
+
+.scratchpad-audio-dock-tempo-input {
+  width: 4.5rem;
+}
+
+.scratchpad-audio-input-meter {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.scratchpad-audio-input-meter--idle {
+  font-size: 0.65rem;
+  color: #6c757d;
+  padding: 0 0.25rem;
+}
+
+.scratchpad-audio-region-bar {
+  position: relative;
+  flex: 0 0 1.75rem;
+  border-bottom: 1px solid #dee2e6;
+  background: #f8f9fa;
+  cursor: crosshair;
+  overflow: hidden;
+}
+
+.scratchpad-audio-region-bar-selection {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(13, 110, 253, 0.2);
+  border-left: 1px solid rgba(13, 110, 253, 0.5);
+  border-right: 1px solid rgba(13, 110, 253, 0.5);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.scratchpad-audio-marker--region {
+  top: 0;
+  bottom: auto;
+  height: 100%;
+  z-index: 2;
+}
+
+.scratchpad-arm-highlight {
+  animation: scratchpad-arm-pulse 0.8s ease-in-out 3;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.45);
+}
+
+@keyframes scratchpad-arm-pulse {
+  0%, 100% { box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.45); }
+  50% { box-shadow: 0 0 0 0.35rem rgba(220, 53, 69, 0.25); }
+}
+
+.scratchpad-midi-hidden-notice {
+  background: #fff;
+}
+
+.scratchpad-audio-transport-dock--narrow {
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 .scratchpad-audio-toolbar {
@@ -12044,7 +12190,8 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 }
 
 .scratchpad-audio-daw .scratchpad-daw-layout {
-  min-height: 360px;
+  min-height: 280px;
+  flex: 1 1 auto;
 }
 
 .scratchpad-track-sidebar {

@@ -336,7 +336,9 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             onCanPlayThrough={handleControllerMediaReady} 
             ref={mediaController.playerRef} 
             src={nativeAudioSrc || undefined} 
-            controls={true} 
+            controls={true}
+            playsInline
+            {...{ 'x-webkit-airplay': 'allow' }}
             onPlay={handleNativePlay} 
             onPause={handleNativePause}  
         />
@@ -357,6 +359,8 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         <audio
             ref={mediaController.filteredPlayerRef}
             style={{ display: 'none' }}
+            playsInline
+            {...{ 'x-webkit-airplay': 'allow' }}
             onEnded={mediaController.onEnded}
             onError={mediaController.onError}
             onTimeUpdate={mediaController.onTimeUpdate}

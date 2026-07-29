@@ -73,6 +73,7 @@ import usePracticeRouteSync from './usePracticeRouteSync'
 import useSearchFilterRouteSync from './useSearchFilterRouteSync'
 import ImportModalRoutePage from './pages/ImportModalRoutePage'
 import CollectionCuratorPage from './pages/CollectionCuratorPage'
+import SnapcastPage from './pages/SnapcastPage'
 import AddPage from './pages/AddPage'
 import LegacyShowParamRedirect from './LegacyShowParamRedirect'
 import PracticeSessionModals from './components/PracticeSessionModals'
@@ -1293,6 +1294,7 @@ function App(props) {
                     <Route  path={`scratchpad/:itemId`} element={<ScratchpadItemPage tunebook={tunebook} tunes={tunes} token={token} login={login} editHistory={editHistory} mediaController={mediaController} forceRefresh={forceRefresh} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} />} />
                     <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} deletedTunes={deletedTunes} token={token} login={login} logout={logout} refresh={refresh} requestGoogleScopes={requestGoogleScopes} authMode={authMode} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} indexes={indexes} tunesContentRevision={tunesContentRevision} currentTuneBook={currentTuneBook} />}  />
                     <Route path={`collection-curator`} element={<CollectionCuratorPage token={token} tunebook={tunebook} />} />
+                    <Route path={`snapcast`} element={<SnapcastPage mediaController={mediaController} tunebook={tunebook} />} />
                     <Route  path={`review`} element={<Navigate to="/" replace />} />
                     <Route  path={`practice-lists`} element={<PracticeListsPage tunes={tunes} tunebook={tunebook} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} />} />
                     <Route  path={`practice-lists/:listId`} element={<PracticeListsPage tunes={tunes} tunebook={tunebook} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} />} />

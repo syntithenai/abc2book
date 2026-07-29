@@ -3,8 +3,10 @@ import { Modal, Form, Button } from 'react-bootstrap'
 import WaveformPlaylist from 'waveform-playlist'
 import ensureWaveformPlayoutDisconnectGuard from '../../waveformPlaylistPlayoutPatch'
 import ScratchpadEditorChrome from './ScratchpadEditorChrome'
-import ScratchpadAudioToolbar from './ScratchpadAudioToolbar'
+import ScratchpadAudioMenuBar from './ScratchpadAudioMenuBar'
+import ScratchpadAudioTransportDock from './ScratchpadAudioTransportDock'
 import ScratchpadAudioSelectionBar from './ScratchpadAudioSelectionBar'
+import ScratchpadAudioRegionBar from './ScratchpadAudioRegionBar'
 import ScratchpadAudioFadeLayer from './ScratchpadAudioFadeLayer'
 import ScratchpadAudioExportModal from './ScratchpadAudioExportModal'
 import ScratchpadAudioSettingsModal from './ScratchpadAudioSettingsModal'
@@ -28,7 +30,7 @@ import {
   getLoopRegion,
   clampMarkerTimeContinuous,
 } from '../../scratchpadAudioMarkers'
-import ScratchpadAudioMarkerLayer, {
+import {
   normalizeMarker,
   setMarkerLoopRole,
 } from './ScratchpadAudioMarkerLayer'
@@ -72,6 +74,16 @@ import ScratchpadAudioInsertModal from './ScratchpadAudioInsertModal'
 import { insertAudioBlobAtPlayhead } from '../../scratchpadAudioInsert'
 
 const WAVEFORM_ZOOM_LEVELS = [50, 75, 100, 250, 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 10000, 12500, 15000, 20000, 30000, 40000, 50000]
+const ADVANCED_FEATURES_KEY = 'scratchpadAudioAdvanced'
+const ARM_HINT_KEY = 'scratchpadAudioArmHintShown'
+
+function readAdvancedFeatures() {
+  try {
+    return localStorage.getItem(ADVANCED_FEATURES_KEY) === '1'
+  } catch (e) {
+    return false
+  }
+}
 
 ensureWaveformPlayoutDisconnectGuard()
 
@@ -176,6 +188,9 @@ export default function ScratchpadAudioEditor(props) {
   const macroRecorderRef = useRef(createMacroRecorder())
   const isRecordingRef = useRef(false)
   const mediaStreamRef = useRef(null)
+  const reloadResolveRef = useRef(null)
+  const pendingRecordAfterReloadRef = useRef(false)
+  const beginRecordingRef = useRef(null)
 
   const [audioProject, setAudioProject] = useState(function() { return resolveAudioProject(item) })
   const [markers, setMarkers] = useState((item.audio && item.audio.markers) || [])
@@ -206,12 +221,28 @@ export default function ScratchpadAudioEditor(props) {
   const [trackDurations, setTrackDurations] = useState({})
   const [spectrogramVisible, setSpectrogramVisible] = useState(false)
   const [inputAnalyser, setInputAnalyser] = useState(null)
+  const [advancedFeatures, setAdvancedFeatures] = useState(readAdvancedFeatures)
+  const [highlightArmTrackId, setHighlightArmTrackId] = useState(null)
+  const [micError, setMicError] = useState(false)
   const toolbarWidth = useScratchpadToolbarWidth(toolbarStripRef)
   const layoutTier = scratchpadToolbarTier(toolbarWidth)
 
   audioProjectRef.current = audioProject
 
   useEffect(function() { isRecordingRef.current = isRecording }, [isRecording])
+
+  function waitForPlaylistReload() {
+    return new Promise(function(resolve) {
+      reloadResolveRef.current = resolve
+    })
+  }
+
+  function setAdvancedFeaturesEnabled(enabled) {
+    setAdvancedFeatures(enabled)
+    try {
+      localStorage.setItem(ADVANCED_FEATURES_KEY, enabled ? '1' : '0')
+    } catch (e) { /* ignore */ }
+  }
 
   useEffect(function() {
     let cancelled = false
@@ -506,22 +537,31 @@ export default function ScratchpadAudioEditor(props) {
   }
 
   async function initRecorderWithDevice(deviceId) {
-    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      setMicError(true)
+      return
+    }
     if (mediaStreamRef.current) {
       mediaStreamRef.current.getTracks().forEach(function(tr) { tr.stop() })
     }
     const constraints = deviceId ? { audio: { deviceId: { exact: deviceId } } } : { audio: true }
-    const stream = await navigator.mediaDevices.getUserMedia(constraints)
-    mediaStreamRef.current = stream
-    const ac = audioContextRef.current
-    if (ac) {
-      const source = ac.createMediaStreamSource(stream)
-      const analyser = ac.createAnalyser()
-      analyser.fftSize = 256
-      source.connect(analyser)
-      setInputAnalyser(analyser)
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia(constraints)
+      setMicError(false)
+      mediaStreamRef.current = stream
+      const ac = audioContextRef.current
+      if (ac) {
+        const source = ac.createMediaStreamSource(stream)
+        const analyser = ac.createAnalyser()
+        analyser.fftSize = 256
+        source.connect(analyser)
+        setInputAnalyser(analyser)
+      }
+      if (playlistRef.current) playlistRef.current.initRecorder(stream)
+    } catch (e) {
+      setMicError(true)
+      setAnalysisMessage('Microphone access required to record — check browser permissions or Audio settings.')
     }
-    if (playlistRef.current) playlistRef.current.initRecorder(stream)
   }
 
   async function runExport(options) {
@@ -618,6 +658,34 @@ export default function ScratchpadAudioEditor(props) {
   }
 
   const armedTrack = (audioProject.tracks || []).find(function(t) { return t.armed })
+
+  useEffect(function() {
+    const tracks = audioProjectRef.current.tracks || []
+    if (tracks.some(function(t) { return t.armed })) return
+    const firstAudio = tracks.find(function(t) { return t.type === 'audio' })
+    if (!firstAudio) return
+    const nextTracks = tracks.map(function(t) {
+      return Object.assign({}, t, { armed: t.id === firstAudio.id })
+    })
+    persistProject(Object.assign({}, audioProjectRef.current, { tracks: nextTracks }), {}, false)
+  }, [item.id])
+
+  useEffect(function() {
+    const tracks = audioProject.tracks || []
+    if (tracks.some(function(t) { return t.armed })) return
+    if (!tracks.some(function(t) { return t.type === 'audio' })) return
+    let showHint = true
+    try {
+      showHint = !localStorage.getItem(ARM_HINT_KEY)
+      if (showHint) localStorage.setItem(ARM_HINT_KEY, '1')
+    } catch (e) { /* ignore */ }
+    if (!showHint) return
+    const first = tracks.find(function(t) { return t.type === 'audio' })
+    if (!first) return
+    setHighlightArmTrackId(first.id)
+    const timer = setTimeout(function() { setHighlightArmTrackId(null) }, 3000)
+    return function() { clearTimeout(timer) }
+  }, [item.id, audioProject.tracks])
 
   useEffect(function() {
     let cancelled = false
@@ -738,6 +806,15 @@ export default function ScratchpadAudioEditor(props) {
           }
         } catch (e) { /* skip */ }
       }
+      if (reloadResolveRef.current) {
+        const resolve = reloadResolveRef.current
+        reloadResolveRef.current = null
+        resolve()
+      }
+      if (pendingRecordAfterReloadRef.current && beginRecordingRef.current) {
+        pendingRecordAfterReloadRef.current = false
+        beginRecordingRef.current()
+      }
     })
 
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
@@ -747,6 +824,11 @@ export default function ScratchpadAudioEditor(props) {
 
     return function() {
       cancelled = true
+      if (reloadResolveRef.current) {
+        const resolve = reloadResolveRef.current
+        reloadResolveRef.current = null
+        resolve()
+      }
       clearTimeout(saveTimerRef.current)
       if (eeRef.current) {
         try {
@@ -866,6 +948,71 @@ export default function ScratchpadAudioEditor(props) {
     setReloadKey(function(n) { return n + 1 })
   }
 
+  function addTrackAndRecord(track) {
+    addTrack(track)
+    pendingRecordAfterReloadRef.current = true
+  }
+
+  async function takeHasAudio(take) {
+    if (!take || !take.blobKey) return false
+    try {
+      const blob = await getScratchpadBlob(take.blobKey)
+      return !!(blob && blob.size > 0)
+    } catch (e) {
+      return false
+    }
+  }
+
+  async function beginRecording() {
+    const track = (audioProjectRef.current.tracks || []).find(function(t) { return t.armed })
+    if (!track || track.type === 'midi') return
+    const ee = eeRef.current
+    const ac = audioContextRef.current
+    if (!ee || !ac) return
+
+    const ap = audioProjectRef.current
+    const countInBars = ap.countInBars || 0
+    const doRecord = async function() {
+      setIsRecording(true)
+      if (ap.punchInEnabled && selectionRef.current) {
+        const sel = selectionRef.current
+        await new Promise(function(resolve) {
+          ee.emit('play', Math.max(0, sel.start - 0.5))
+          setTimeout(resolve, Math.max(0, (sel.start - getPlayheadTime()) * 1000))
+        })
+      }
+      ee.emit('record')
+      setIsPlaying(true)
+    }
+
+    if (countInBars > 0) {
+      const rhythm = normalizeRhythmConfig(ap.rhythmConfig || createRhythmConfig(4))
+      const countInBeats = countInBars * rhythm.beatsPerBar
+      const countInSlots = slotsForBeatCount(rhythm, countInBeats)
+      const afterCountIn = function() {
+        if (ap.metronomeEnabled && ap.metronomeDuringRecording) {
+          startContinuousMetronome()
+        }
+        doRecord()
+      }
+      const metro = new Metronome(ac, ap.tempo || 120, rhythm.beatsPerBar, countInSlots, afterCountIn, null, rhythm)
+      metronomeRef.current = metro
+      const startCountIn = function() { metro.start() }
+      if (rhythm.engineMode === ENGINE_MODE_DRUMS) {
+        primeDrumKit(ac).then(startCountIn).catch(startCountIn)
+      } else {
+        startCountIn()
+      }
+    } else {
+      if (ap.metronomeEnabled && ap.metronomeDuringRecording) {
+        startContinuousMetronome()
+      }
+      await doRecord()
+    }
+  }
+
+  beginRecordingRef.current = beginRecording
+
   function handleNewTake(trackId) {
     const tracks = audioProject.tracks.map(function(t) {
       if (t.id !== trackId) return t
@@ -885,59 +1032,32 @@ export default function ScratchpadAudioEditor(props) {
   }
 
   async function handleRecord() {
-    const track = armedTrack
+    if (isRecordingRef.current) {
+      stopMetronome()
+      if (eeRef.current) eeRef.current.emit('stop')
+      return
+    }
+
+    const track = (audioProjectRef.current.tracks || []).find(function(t) { return t.armed })
     if (!track || track.type === 'midi') return
     const ee = eeRef.current
     const ac = audioContextRef.current
     if (!ee || !ac) return
 
-    if (audioProject.recordMode === 'newTake') {
-      const tracks = audioProject.tracks.map(function(t) {
+    const ap = audioProjectRef.current
+    const take = getActiveTake(track)
+    const hasAudio = await takeHasAudio(take)
+    if (ap.recordMode === 'newTake' && hasAudio) {
+      const tracks = ap.tracks.map(function(t) {
         if (t.id !== track.id) return t
         return addTakeToTrack(t, item.id, null)
       })
-      persistProject(Object.assign({}, audioProject, { tracks: tracks }), {}, false)
+      persistProject(Object.assign({}, ap, { tracks: tracks }), {}, false)
       setReloadKey(function(n) { return n + 1 })
+      await waitForPlaylistReload()
     }
 
-    const countInBars = audioProject.countInBars || 0
-    const doRecord = async function() {
-      setIsRecording(true)
-      if (audioProject.punchInEnabled && selectionRef.current) {
-        const sel = selectionRef.current
-        await new Promise(function(resolve) {
-          ee.emit('play', Math.max(0, sel.start - 0.5))
-          setTimeout(resolve, Math.max(0, (sel.start - getPlayheadTime()) * 1000))
-        })
-      }
-      ee.emit('record')
-      setIsPlaying(true)
-    }
-
-    if (countInBars > 0) {
-      const rhythm = normalizeRhythmConfig(audioProject.rhythmConfig || createRhythmConfig(4))
-      const countInBeats = countInBars * rhythm.beatsPerBar
-      const countInSlots = slotsForBeatCount(rhythm, countInBeats)
-      const afterCountIn = function() {
-        if (audioProject.metronomeEnabled && audioProject.metronomeDuringRecording) {
-          startContinuousMetronome()
-        }
-        doRecord()
-      }
-      const metro = new Metronome(ac, audioProject.tempo || 120, rhythm.beatsPerBar, countInSlots, afterCountIn, null, rhythm)
-      metronomeRef.current = metro
-      const startCountIn = function() { metro.start() }
-      if (rhythm.engineMode === ENGINE_MODE_DRUMS) {
-        primeDrumKit(ac).then(startCountIn).catch(startCountIn)
-      } else {
-        startCountIn()
-      }
-    } else {
-      if (audioProject.metronomeEnabled && audioProject.metronomeDuringRecording) {
-        startContinuousMetronome()
-      }
-      await doRecord()
-    }
+    await beginRecording()
   }
 
   async function handleApplyEffect(effectId, params) {
@@ -1107,22 +1227,10 @@ export default function ScratchpadAudioEditor(props) {
         canRedo={canRedo}
       />
 
-      <div className="scratchpad-audio-toolbar-strip" ref={toolbarStripRef}>
-        <ScratchpadAudioToolbar
+      <div className="scratchpad-audio-menu-strip" ref={toolbarStripRef}>
+        <ScratchpadAudioMenuBar
           icons={icons}
           ee={eeRef.current}
-          layoutTier={layoutTier}
-          isPlaying={isPlaying}
-          isRecording={isRecording}
-          armedTrackId={armedTrack && armedTrack.id}
-          currentTime={currentTime}
-          duration={duration}
-          formatTime={formatMarkerTime}
-          tempo={audioProject.tempo || 120}
-          countInBars={audioProject.countInBars || 0}
-          rhythmConfig={audioProject.rhythmConfig}
-          punchInEnabled={audioProject.punchInEnabled}
-          recordMode={audioProject.recordMode}
           editMode={editMode}
           hasContent={hasContent}
           hasSelection={hasSelection}
@@ -1131,29 +1239,9 @@ export default function ScratchpadAudioEditor(props) {
           trimSuggestion={trimSuggestion}
           trimming={trimming}
           isSaving={isSaving}
-          onPlayPause={togglePlayPause}
-          onStop={function() {
-            stopMetronome()
-            if (eeRef.current) eeRef.current.emit('stop')
-            setIsPlaying(false)
-          }}
-          onRecord={handleRecord}
-          metronomeEnabled={!!audioProject.metronomeEnabled}
-          metronomeDuringPlayback={!!audioProject.metronomeDuringPlayback}
-          metronomeDuringRecording={!!audioProject.metronomeDuringRecording}
-          onMetronomeEnabledChange={function(v) { persistProject(audioProject, { metronomeEnabled: v }, false) }}
-          onMetronomeDuringPlaybackChange={function(v) { persistProject(audioProject, { metronomeDuringPlayback: v }, false) }}
-          onMetronomeDuringRecordingChange={function(v) { persistProject(audioProject, { metronomeDuringRecording: v }, false) }}
-          onInsertAudio={function() { setShowInsertModal(true) }}
-          onTempoChange={function(v) { persistProject(audioProject, { tempo: v }, false) }}
-          onCountInChange={function(v) { persistProject(audioProject, { countInBars: v }, false) }}
-          onRhythmConfigChange={function(v) { persistProject(audioProject, { rhythmConfig: v }, false) }}
-          onPunchInChange={function(v) { persistProject(audioProject, { punchInEnabled: v }, false) }}
-          onRecordModeChange={function(v) { persistProject(audioProject, { recordMode: v }, false) }}
-          onOpenSettings={function() { setShowSettingsModal(true) }}
-          snapToGrid={audioProject.snapToGrid}
-          onSnapChange={function(v) { persistProject(audioProject, { snapToGrid: v, snapInterval: audioProject.snapInterval || 0.25 }, false) }}
-          onOpenExport={function() { setShowExportModal(true) }}
+          spectrogramVisible={spectrogramVisible}
+          advancedFeatures={advancedFeatures}
+          selectionBarCompact={narrowLayout && !selectionBarExpanded}
           onEditModeChange={setEditMode}
           onTrim={handleTrimToSelection}
           onCut={handleCut}
@@ -1167,6 +1255,7 @@ export default function ScratchpadAudioEditor(props) {
           onAlignStart={function() { alignTracks('start') }}
           onAlignEnd={function() { alignTracks('end') }}
           onAlignTogether={function() { alignTracks('together') }}
+          onInsertAudio={function() { setShowInsertModal(true) }}
           onAddMarker={handleAddMarker}
           onApplyEffect={handleApplyEffect}
           onSeparateStems={handleSeparateStems}
@@ -1174,9 +1263,11 @@ export default function ScratchpadAudioEditor(props) {
           onAnalyze={handleAnalyze}
           onGenerate={handleGenerate}
           onMix={mixAndSave}
-          onDownload={downloadMixdown}
-          spectrogramVisible={spectrogramVisible}
+          onOpenExport={function() { setShowExportModal(true) }}
           onToggleSpectrogram={function() { setSpectrogramVisible(function(v) { return !v }) }}
+          onZoomToSelection={handleZoomToSelection}
+          onExpandSelectionBar={function() { setSelectionBarExpanded(true) }}
+          onAdvancedFeaturesChange={setAdvancedFeaturesEnabled}
           macroSteps={(macroRecorderRef.current && macroRecorderRef.current.steps.length) || 0}
           onRunMacro={function() {
             runMacro(macroRecorderRef.current, function(step) {
@@ -1191,6 +1282,10 @@ export default function ScratchpadAudioEditor(props) {
 
       {analysisMessage ? (
         <div className="scratchpad-audio-analysis-banner small px-3 py-1 text-muted">{analysisMessage}</div>
+      ) : micError ? (
+        <div className="scratchpad-audio-analysis-banner small px-3 py-1 text-muted">
+          Microphone access required to record — check browser permissions or Audio settings.
+        </div>
       ) : null}
 
       <ScratchpadAudioSelectionBar
@@ -1210,6 +1305,7 @@ export default function ScratchpadAudioEditor(props) {
         onSeek={function(t) { eeRef.current && eeRef.current.emit('seek', t) }}
       />
 
+      <div className="scratchpad-audio-daw-main">
       <div className="scratchpad-daw-layout d-flex">
         {narrowLayout ? (
           <div className="scratchpad-track-drawer-toggle p-2 border-end">
@@ -1224,9 +1320,12 @@ export default function ScratchpadAudioEditor(props) {
             itemId={item.id}
             ee={eeRef.current}
             icons={icons}
+            advancedFeatures={advancedFeatures}
             onAddTrack={addTrack}
+            onAddTrackAndRecord={addTrackAndRecord}
             onImport={schedulePersistArrangement}
             selection={selection}
+            highlightArmTrackId={highlightArmTrackId}
             onArm={armTrack}
             onSelectTake={selectTake}
             onNewTake={handleNewTake}
@@ -1241,15 +1340,44 @@ export default function ScratchpadAudioEditor(props) {
             onEditMidi={setMidiEditTrackId}
           />
         </aside>
-        <div className="flex-grow-1">
+        <div className="flex-grow-1 scratchpad-audio-waveform-column">
           <ScratchpadAudioSpectrogramLayer
             visible={spectrogramVisible}
             itemId={item.id}
             track={getTargetTrack()}
             selection={selection}
           />
+          <ScratchpadAudioRegionBar
+            editorRef={editorRef}
+            wrapRef={wrapRef}
+            markers={markers}
+            duration={duration}
+            selection={selection}
+            reloadKey={reloadKey}
+            onSelectionChange={function(sel) {
+              selectionRef.current = sel
+              setSelection(sel)
+              if (eeRef.current) eeRef.current.emit('select', sel.start, sel.end)
+            }}
+            onMarkerClick={function(index) {
+              eeRef.current && eeRef.current.emit('seek', markers[index].time)
+              setEditingMarkerIndex(index)
+            }}
+            onMarkerDrag={function(index, time) {
+              const clamped = clampMarkerTimeContinuous(time, duration)
+              setMarkers(markers.map(function(m, i) {
+                return i === index ? Object.assign({}, m, { time: clamped }) : m
+              }))
+            }}
+            onMarkerDragEnd={function(index, time, moved) {
+              if (!moved) return
+              const clamped = clampMarkerTimeContinuous(time, duration)
+              saveMarkers(markers.map(function(m, i) {
+                return i === index ? normalizeMarker(Object.assign({}, m, { time: clamped }), duration) : m
+              }))
+            }}
+          />
           <div className="scratchpad-audio-waveform-wrap" ref={wrapRef}>
-            <div className="scratchpad-audio-marker-rail" aria-hidden="true" />
             <div className="scratchpad-audio-waveform" ref={editorRef} />
             <ScratchpadAudioFadeLayer
               editorRef={editorRef}
@@ -1259,32 +1387,50 @@ export default function ScratchpadAudioEditor(props) {
               reloadKey={reloadKey}
               onFadeChange={handleFadeChange}
             />
-            <ScratchpadAudioMarkerLayer
-              editorRef={editorRef}
-              wrapRef={wrapRef}
-              markers={markers}
-              duration={duration}
-              reloadKey={reloadKey}
-              onMarkerClick={function(index) {
-                eeRef.current && eeRef.current.emit('seek', markers[index].time)
-                setEditingMarkerIndex(index)
-              }}
-              onMarkerDrag={function(index, time) {
-                const clamped = clampMarkerTimeContinuous(time, duration)
-                setMarkers(markers.map(function(m, i) {
-                  return i === index ? Object.assign({}, m, { time: clamped }) : m
-                }))
-              }}
-              onMarkerDragEnd={function(index, time, moved) {
-                if (!moved) return
-                const clamped = clampMarkerTimeContinuous(time, duration)
-                saveMarkers(markers.map(function(m, i) {
-                  return i === index ? normalizeMarker(Object.assign({}, m, { time: clamped }), duration) : m
-                }))
-              }}
-            />
           </div>
         </div>
+      </div>
+
+      <ScratchpadAudioTransportDock
+        icons={icons}
+        ee={eeRef.current}
+        layoutTier={layoutTier}
+        isPlaying={isPlaying}
+        isRecording={isRecording}
+        armedTrackId={armedTrack && armedTrack.id}
+        currentTime={currentTime}
+        duration={duration}
+        formatTime={formatMarkerTime}
+        inputAnalyser={inputAnalyser}
+        tempo={audioProject.tempo || 120}
+        countInBars={audioProject.countInBars || 0}
+        rhythmConfig={audioProject.rhythmConfig}
+        punchInEnabled={audioProject.punchInEnabled}
+        recordMode={audioProject.recordMode}
+        metronomeEnabled={!!audioProject.metronomeEnabled}
+        metronomeDuringPlayback={!!audioProject.metronomeDuringPlayback}
+        metronomeDuringRecording={!!audioProject.metronomeDuringRecording}
+        onPlayPause={togglePlayPause}
+        onStop={function() {
+          stopMetronome()
+          if (eeRef.current) eeRef.current.emit('stop')
+          setIsPlaying(false)
+        }}
+        onRecord={handleRecord}
+        onMetronomeEnabledChange={function(v) { persistProject(audioProject, { metronomeEnabled: v }, false) }}
+        onMetronomeDuringPlaybackChange={function(v) { persistProject(audioProject, { metronomeDuringPlayback: v }, false) }}
+        onMetronomeDuringRecordingChange={function(v) { persistProject(audioProject, { metronomeDuringRecording: v }, false) }}
+        onTempoChange={function(v) { persistProject(audioProject, { tempo: v }, false) }}
+        onCountInChange={function(v) { persistProject(audioProject, { countInBars: v }, false) }}
+        onRhythmConfigChange={function(v) { persistProject(audioProject, { rhythmConfig: v }, false) }}
+        onPunchInChange={function(v) { persistProject(audioProject, { punchInEnabled: v }, false) }}
+        onRecordModeChange={function(v) { persistProject(audioProject, { recordMode: v }, false) }}
+        onOpenSettings={function() { setShowSettingsModal(true) }}
+        onOpenRecordSettings={function() { setShowSettingsModal(true) }}
+        snapToGrid={audioProject.snapToGrid}
+        onSnapChange={function(v) { persistProject(audioProject, { snapToGrid: v, snapInterval: audioProject.snapInterval || 0.25 }, false) }}
+        advancedFeatures={advancedFeatures}
+      />
       </div>
 
       <ScratchpadAudioInsertModal
@@ -1327,7 +1473,7 @@ export default function ScratchpadAudioEditor(props) {
       />
 
       <ScratchpadMidiLaneEditor
-        show={!!midiEditTrackId}
+        show={!!midiEditTrackId && advancedFeatures}
         track={midiTrack}
         tempo={audioProject.tempo}
         duration={duration}

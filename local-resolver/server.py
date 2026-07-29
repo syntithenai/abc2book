@@ -76,6 +76,7 @@ from europeana import (
 )
 from snapcast_config import snapcast_enabled, snapcast_server_host
 from snapcast_routes import register_snapcast_routes, snapcast_feature_enabled
+from cast_routes import cast_feature_enabled, register_cast_routes
 from loc_audio import (
     build_loc_audio_candidate,
     is_loc_gov_url,
@@ -617,6 +618,12 @@ def resolver_features(practice_track_ok=None):
     yt_flags = _youtube_audio_feature_flags()
     if practice_track_ok is None:
         practice_track_ok, _ = _practice_track_feature_flags()
+    try:
+        from remote_playback_render import remote_playback_render_enabled
+
+        midi_render_ok = remote_playback_render_enabled()
+    except Exception:
+        midi_render_ok = False
     if RESOLVER_LIGHT_MODE:
         # Slim Cloud Run / light gateway: provider-proxy capabilities only.
         # Stems available via cloud BYO/host keys (fal / Replicate).
@@ -644,6 +651,8 @@ def resolver_features(practice_track_ok=None):
             "practiceTrack": practice_track_ok,
             "snapcastControl": snapcast_enabled(),
             "snapcastPlayback": snapcast_feature_enabled(),
+            "castPlayback": cast_feature_enabled(),
+            "midiRender": midi_render_ok,
         }
     features = sheet_image_features()
     playwright_ok = False
@@ -681,6 +690,8 @@ def resolver_features(practice_track_ok=None):
         "practiceTrack": practice_track_ok,
         "snapcastControl": snapcast_enabled(),
         "snapcastPlayback": snapcast_feature_enabled(),
+        "castPlayback": cast_feature_enabled(),
+        "midiRender": midi_render_ok,
     }
 
 
@@ -1172,6 +1183,19 @@ async def resolve_linked_media_audio_bytes(source_url, source_type="", proxy=Non
         filename = os.path.basename(parsed.path) or "loc.mp3"
         return audio_bytes, filename, content_type
 
+    lower = source_url.lower()
+    if source_type == "midi" or lower.endswith(".mid") or lower.endswith(".midi"):
+        from remote_playback_render import render_midi_bytes_to_audio_bytes, remote_playback_render_enabled
+
+        if not remote_playback_render_enabled():
+            raise HTTPException(status_code=503, detail="MIDI render is not available")
+        validated, error = validate_target_url(source_url)
+        if error:
+            raise HTTPException(status_code=400, detail=error)
+        midi_bytes, content_type = await fetch_upstream_audio_bytes(validated)
+        audio_bytes, filename = render_midi_bytes_to_audio_bytes(midi_bytes)
+        return audio_bytes, filename, content_type
+
     validated, error = validate_target_url(source_url)
     if error:
         raise HTTPException(status_code=400, detail=error)
@@ -1188,6 +1212,14 @@ register_snapcast_routes(
     resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
     resolve_ytdlp_proxy_from_request=resolve_ytdlp_proxy_from_request,
     snapcast_server_host=snapcast_server_host(),
+)
+
+register_cast_routes(
+    app,
+    maybe_require_auth=maybe_require_auth,
+    cors_headers=cors_headers,
+    resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
+    resolve_ytdlp_proxy_from_request=resolve_ytdlp_proxy_from_request,
 )
 
 
@@ -2789,6 +2821,12 @@ async def health(request: Request, authorization: str | None = Header(default=No
             body["snapcast"] = await builder(request)
         else:
             body["snapcast"] = {"enabled": True, "reachable": False, "controlUrl": None}
+    if cast_feature_enabled():
+        cast_builder = getattr(app.state, "cast_health_builder", None)
+        if cast_builder:
+            body["cast"] = await cast_builder(request)
+        else:
+            body["cast"] = {"enabled": True}
     return JSONResponse(body, headers=cors_headers(request.headers.get("origin")))
 
 

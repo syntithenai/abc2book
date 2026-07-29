@@ -34,6 +34,8 @@ describe('resolverFeatures', function() {
       practiceTrack: false,
       snapcastControl: false,
       snapcastPlayback: false,
+      castPlayback: false,
+      midiRender: false,
     });
   });
 
@@ -73,6 +75,8 @@ describe('resolverFeatures', function() {
       practiceTrack: false,
       snapcastControl: false,
       snapcastPlayback: false,
+      castPlayback: false,
+      midiRender: false,
     });
   });
 

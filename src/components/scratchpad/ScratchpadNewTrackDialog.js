@@ -5,6 +5,7 @@ import { createDefaultAudioTrack, createDefaultMidiTrack } from '../../scratchpa
 export default function ScratchpadNewTrackDialog(props) {
   const [show, setShow] = useState(false)
   const icons = props.icons || {}
+  const advancedFeatures = !!props.advancedFeatures
 
   function handleClose() {
     setShow(false)
@@ -22,6 +23,17 @@ export default function ScratchpadNewTrackDialog(props) {
       props.onAddTrack(createDefaultMidiTrack(props.itemId, 'MIDI ' + ((props.trackCount || 0) + 1)))
     }
     handleClose()
+  }
+
+  function startRecordTrack() {
+    const track = createDefaultAudioTrack(props.itemId, 'Track ' + ((props.trackCount || 0) + 1))
+    handleClose()
+    if (props.onAddTrackAndRecord) {
+      props.onAddTrackAndRecord(track)
+    } else if (props.onAddTrack) {
+      props.onAddTrack(track)
+      if (props.onRecord) props.onRecord()
+    }
   }
 
   function fileSelected(event) {
@@ -45,14 +57,10 @@ export default function ScratchpadNewTrackDialog(props) {
         <Modal.Body>
           <div className="d-flex flex-wrap gap-2 mb-3">
             <Button variant="primary" onClick={addAudioTrack}>Audio track</Button>
-            <Button variant="info" onClick={addMidiTrack}>MIDI lane</Button>
-            <Button
-              variant="danger"
-              onClick={function() {
-                if (props.ee) props.ee.emit('record')
-                handleClose()
-              }}
-            >
+            {advancedFeatures ? (
+              <Button variant="info" onClick={addMidiTrack}>MIDI lane</Button>
+            ) : null}
+            <Button variant="danger" onClick={startRecordTrack}>
               {icons.recordcircle || 'Record'}
             </Button>
           </div>

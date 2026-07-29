@@ -114,6 +114,19 @@ describe('playbackNavigationUtils', function() {
     const queue = createQueue({ tuneIds: ['queue-tune'], currentIndex: 0 })
     expect(getActivePlaybackTuneId({ tune: { id: 'engine-tune' } }, queue)).toBe('queue-tune')
     expect(getActivePlaybackTuneId({ tune: { id: 'engine-tune' } }, null)).toBe('engine-tune')
+    const previewQueue = Object.assign({}, queue, {
+      previewOnce: { tuneId: 'preview-tune', returnIndex: 0 },
+    })
+    expect(getActivePlaybackTuneId({ tune: { id: 'preview-tune' }, isPlaying: true }, previewQueue))
+      .toBe('preview-tune')
+    expect(getActivePlaybackTuneId({
+      tune: { id: 'other-tune' },
+      isPlaying: true,
+    }, queue)).toBe('other-tune')
+    expect(getActivePlaybackTuneId({
+      tune: { id: 'other-tune' },
+      canResumePlayback: function() { return true },
+    }, queue)).toBe('queue-tune')
   })
 
   test('shouldPreservePlaylistAudioDuringSearchBrowse keeps queue audio during header browse', function() {

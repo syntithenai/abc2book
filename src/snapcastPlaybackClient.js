@@ -37,6 +37,8 @@ export async function createSnapcastPlaybackSession(options) {
       pitch: opts.pitch || 0,
       fineTune: opts.fineTune || 0,
       tempo: opts.tempo || 1,
+      midiBase64: opts.midiBase64,
+      queue: opts.queue,
     }),
   });
   if (!response.ok) {
@@ -65,6 +67,19 @@ export async function seekSnapcastSession(sessionId, seconds, options) {
   });
   if (!response.ok) {
     throw new Error('Snapcast seek failed');
+  }
+  return response.json();
+}
+
+export async function advanceSnapcastSession(sessionId, options) {
+  const response = await fetchViaMediaProxy(
+    '/snapcast-playback/session/' + encodeURIComponent(sessionId) + '/next',
+    resolveToken(options),
+    { method: 'POST' }
+  );
+  if (!response.ok) {
+    const body = await response.json().catch(function() { return {}; });
+    throw new Error(body.error || body.detail || 'Snapcast queue advance failed');
   }
   return response.json();
 }

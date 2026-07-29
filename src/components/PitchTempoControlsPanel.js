@@ -18,6 +18,7 @@ export default function PitchTempoControlsPanel({
   mediaController,
   showPitchControls = false,
   showYoutubeHelperInvite = false,
+  disabled = false,
 }) {
   const [tempo, setTempo] = useState(1.0);
   const [pitch, setPitch] = useState(0);
@@ -62,6 +63,7 @@ export default function PitchTempoControlsPanel({
   }
 
   function updateSettings(nextTempo, nextPitch, nextFineTune, tempoPresetKey) {
+    if (disabled) return;
     setTempo(nextTempo);
     setPitch(nextPitch);
     setFineTune(nextFineTune);
@@ -109,7 +111,7 @@ export default function PitchTempoControlsPanel({
   const pitchShiftPreparing = !!(mediaController && mediaController.pitchShiftPreparing);
 
   return (
-    <div className="pitch-tempo-panel">
+    <div className={'pitch-tempo-panel' + (disabled ? ' pitch-tempo-panel--disabled' : '')}>
       <div className="control-section">
         <h6>Tempo</h6>
         <div className="control-display">
@@ -124,6 +126,7 @@ export default function PitchTempoControlsPanel({
           value={tempo}
           onChange={(e) => handleTempoChange(parseFloat(e.target.value))}
           className="slider tempo-slider"
+          disabled={disabled}
         />
         <div className="slider-labels"><span>25%</span><span>50%</span><span>100%</span><span>150%</span><span>200%</span></div>
         <div className="preset-buttons">

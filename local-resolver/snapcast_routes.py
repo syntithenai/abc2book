@@ -10,6 +10,8 @@ from fastapi import Body, Header, HTTPException, Request
 from fastapi.responses import JSONResponse
 
 from cast_transcode_session import ffmpeg_available, parse_transcode_settings
+from cast_playback import CastQueueItem, parse_queue_items
+from remote_playback_resolve import resolve_session_audio_bytes
 from snapcast_config import snapcast_enabled, snapcast_public_url, snapcast_stream_name
 from snapcast_playback import get_snapcast_manager, probe_snapserver_http, write_temp_audio_file
 
@@ -97,6 +99,11 @@ def register_snapcast_routes(
         elif action == "seek":
             seconds = float(body.get("seconds") or 0)
             manager.seek_session(session.session_id, seconds)
+        elif action == "next":
+            return JSONResponse(
+                {"ok": True, "needsResolve": True, "sessionId": session.session_id},
+                headers=cors_headers(origin),
+            )
         return JSONResponse({"ok": True}, headers=cors_headers(origin))
 
     @app.post("/snapcast-playback/session")
@@ -115,9 +122,11 @@ def register_snapcast_routes(
                 raise HTTPException(status_code=400, detail="Missing source")
             source_type = str(body.get("sourceType") or "").strip().lower()
             proxy = resolve_ytdlp_proxy_from_request(request)
-            audio_bytes, filename, _content_type = await resolve_linked_media_audio_bytes(
-                source,
-                source_type,
+            audio_bytes, filename = await resolve_session_audio_bytes(
+                source=source,
+                source_type=source_type,
+                body=body,
+                resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
                 proxy=proxy,
             )
             suffix = os.path.splitext(filename or "")[1] or ".audio"
@@ -126,6 +135,17 @@ def register_snapcast_routes(
             duration = float(body.get("duration") or 0)
             if duration <= 0:
                 duration = max(0.0, float(body.get("durationSeconds") or 0))
+            queue = parse_queue_items(body)
+            if not queue:
+                queue = [
+                    CastQueueItem(
+                        source=source,
+                        source_type=source_type,
+                        title=body.get("title"),
+                        artist=body.get("artist"),
+                        duration=duration,
+                    )
+                ]
             session = get_snapcast_manager().create_session(
                 source=source,
                 input_path=input_path,
@@ -135,6 +155,7 @@ def register_snapcast_routes(
                 title=body.get("title"),
                 artist=body.get("artist"),
                 input_is_temp=True,
+                queue=queue,
             )
             return JSONResponse(
                 {
@@ -142,6 +163,55 @@ def register_snapcast_routes(
                     "streamId": session.stream_name,
                     "status": session.to_status(),
                 },
+                headers=cors_headers(origin),
+            )
+        except HTTPException as exc:
+            return JSONResponse(
+                {"error": str(exc.detail)},
+                status_code=exc.status_code,
+                headers=cors_headers(origin),
+            )
+
+    @app.post("/snapcast-playback/session/{session_id}/next")
+    async def snapcast_session_next(
+        request: Request,
+        session_id: str,
+        authorization: str | None = Header(default=None),
+    ):
+        origin = request.headers.get("origin")
+        try:
+            await maybe_require_auth(authorization)
+            manager = get_snapcast_manager()
+            session = manager.get_session(session_id)
+            if not session:
+                raise HTTPException(status_code=404, detail="Session not found")
+            next_index = session.queue_index + 1
+            if next_index >= len(session.queue):
+                raise HTTPException(status_code=400, detail="No next queue item")
+            next_item = session.queue[next_index]
+            proxy = resolve_ytdlp_proxy_from_request(request)
+            audio_bytes, filename = await resolve_session_audio_bytes(
+                next_item.source,
+                next_item.source_type,
+                body={},
+                resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
+                proxy=proxy,
+            )
+            suffix = os.path.splitext(filename or "")[1] or ".audio"
+            input_path = write_temp_audio_file(audio_bytes, suffix=suffix)
+            advanced = manager.advance_queue(
+                session_id,
+                input_path=input_path,
+                source=next_item.source,
+                duration=next_item.duration,
+                title=next_item.title,
+                artist=next_item.artist,
+                input_is_temp=True,
+            )
+            if not advanced:
+                raise HTTPException(status_code=400, detail="Could not advance queue")
+            return JSONResponse(
+                {"sessionId": session_id, "status": advanced.to_status()},
                 headers=cors_headers(origin),
             )
         except HTTPException as exc:

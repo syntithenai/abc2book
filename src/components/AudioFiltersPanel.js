@@ -24,7 +24,7 @@ const FILTER_LABELS = {
   other: 'Other',
 };
 
-export default function AudioFiltersPanel({ tune, tunebook, mediaController, showFilters = false }) {
+export default function AudioFiltersPanel({ tune, tunebook, mediaController, showFilters = false, disabled = false }) {
   const [filters, setFilters] = useState(DEFAULT_AUDIO_FILTERS);
   const [analysisError, setAnalysisError] = useState('');
   const [downloadError, setDownloadError] = useState('');
@@ -117,6 +117,7 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
   }
 
   function updateFilter(key, value) {
+    if (disabled) return;
     const nextFilters = Object.assign({}, filters, { [key]: value });
     setFilters(nextFilters);
     applyLive(nextFilters);
@@ -178,7 +179,7 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
 
   if (!tune) return null;
 
-  const slidersDisabled = showFilters && !stemsReady;
+  const slidersDisabled = disabled || (showFilters && !stemsReady);
   const needsAnalysis = showFilters && !stemsReady && !analysisActive;
 
   return (

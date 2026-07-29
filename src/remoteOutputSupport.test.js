@@ -1,6 +1,25 @@
-import { canRouteToSnapcastPlayback, getSnapcastDisabledReason } from './remoteOutputSupport';
+import {
+  canRouteToSnapcastPlayback,
+  getSnapcastDisabledReason,
+  usesNativeElementRemoteHandoff,
+} from './remoteOutputSupport';
 
 describe('remoteOutputSupport', function() {
+  test('usesNativeElementRemoteHandoff for AirPlay', function() {
+    const ref = { current: { mode: 'airplay', connected: true } };
+    expect(usesNativeElementRemoteHandoff(ref)).toBe(true);
+  });
+
+  test('usesNativeElementRemoteHandoff for Remote Playback', function() {
+    const ref = { current: { mode: 'cast', connected: true, subMode: 'remotePlayback' } };
+    expect(usesNativeElementRemoteHandoff(ref)).toBe(true);
+  });
+
+  test('sdk cast is not native handoff', function() {
+    const ref = { current: { mode: 'cast', connected: true, subMode: 'sdk' } };
+    expect(usesNativeElementRemoteHandoff(ref)).toBe(false);
+  });
+
   test('blocks youtube routes for snapcast playback', function() {
     const mediaController = {
       resolverFeatures: { snapcastPlayback: true, snapcastControl: true },

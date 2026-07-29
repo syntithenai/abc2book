@@ -35,6 +35,7 @@ import SourcesSettingsSection from '../components/SourcesSettingsSection'
 import DuplicateManagerSettingsSection from '../components/DuplicateManagerSettingsSection'
 import LibraryScaleSettingsSection from '../components/LibraryScaleSettingsSection'
 import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
+import SnapcastSettingsSection from '../components/SnapcastSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
   loadAudioCompressSettings,
@@ -626,6 +627,10 @@ export default function SettingsPage(props) {
             />
             </>
             )}
+          </div>
+
+          <div className="app-surface-panel App-settings-section">
+            <SnapcastSettingsSection mediaResolverStatus={resolverStatus} />
           </div>
 
           <div className="app-surface-panel App-settings-section">

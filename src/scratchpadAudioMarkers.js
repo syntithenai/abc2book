@@ -103,6 +103,36 @@ export function getLoopRegion(markers, explicitLoop) {
   return null
 }
 
+/**
+ * Given a click time on the timeline, return a selection spanning the adjacent marker bounds.
+ * Click before the first marker → 0 to first; after the last → last to duration.
+ */
+export function selectionBetweenMarkers(markers, clickTime, duration) {
+  const sorted = (markers || [])
+    .map(function(m) { return Number(m.time) })
+    .filter(function(t) { return Number.isFinite(t) })
+    .sort(function(a, b) { return a - b })
+  if (!sorted.length || !Number.isFinite(duration) || duration <= 0) return null
+  const t = clampMarkerTimeContinuous(clickTime, duration)
+  if (t <= sorted[0]) {
+    return { start: 0, end: sorted[0] }
+  }
+  if (t >= sorted[sorted.length - 1]) {
+    return { start: sorted[sorted.length - 1], end: duration }
+  }
+  let start = sorted[0]
+  let end = sorted[sorted.length - 1]
+  for (let i = 0; i < sorted.length - 1; i += 1) {
+    if (t >= sorted[i] && t < sorted[i + 1]) {
+      start = sorted[i]
+      end = sorted[i + 1]
+      break
+    }
+  }
+  if (end <= start) return null
+  return { start: start, end: end }
+}
+
 export function measureTimelineLayout(editorEl, wrapEl, duration) {
   if (!editorEl || !wrapEl || !duration) return null
   const tracks = editorEl.querySelector('.playlist-tracks')

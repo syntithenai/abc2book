@@ -133,6 +133,32 @@ export class SnapcastClient {
     });
   }
 
+  setGroupName(groupId, name) {
+    return this.request('Group.SetName', { id: groupId, name: name });
+  }
+
+  setGroupMute(groupId, mute) {
+    return this.request('Group.SetMute', { id: groupId, mute: !!mute });
+  }
+
+  setClientName(clientId, name) {
+    return this.request('Client.SetName', { id: clientId, name: name });
+  }
+
+  setClientLatency(clientId, latency) {
+    return this.request('Client.SetLatency', { id: clientId, latency: latency });
+  }
+
+  setGroupVolume(groupId, percent, mute) {
+    return this.request('Group.SetVolume', {
+      id: groupId,
+      volume: {
+        muted: !!mute,
+        percent: Math.max(0, Math.min(100, Math.round(percent))),
+      },
+    });
+  }
+
   listGroups() {
     const server = this.server || {};
     return Array.isArray(server.groups) ? server.groups : [];

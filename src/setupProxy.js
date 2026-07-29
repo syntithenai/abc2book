@@ -66,6 +66,7 @@ function shouldProxyResolver(pathname) {
   if (pathname.startsWith('/generate-practice-track')) return true;
   if (pathname.startsWith('/stems/')) return true;
   if (pathname.startsWith('/snapcast-playback/')) return true;
+  if (pathname.startsWith('/cast-playback/')) return true;
   if (pathname.startsWith('/auth/google/')) return true;
   for (let i = 0; i < STATIC_RESOURCE_PREFIXES.length; i++) {
     if (pathname.startsWith(STATIC_RESOURCE_PREFIXES[i])) return true;
