@@ -15,6 +15,7 @@ from typing import Any
 from providers import openai_compat_chat_url
 
 _llm_override: ContextVar[dict | None] = ContextVar("tunebook_llm_override", default=None)
+_billing_recorder: ContextVar[Any] = ContextVar("tunebook_billing_recorder", default=None)
 
 
 def _strip(value: Any) -> str:
@@ -102,6 +103,20 @@ def use_llm_provider(cfg: dict | None):
         yield
     finally:
         _llm_override.reset(token)
+
+
+def set_billing_recorder(recorder) -> Any:
+    return _billing_recorder.set(recorder)
+
+
+def reset_billing_recorder(token) -> None:
+    _billing_recorder.reset(token)
+
+
+def note_chat_completion_usage(payload: dict | None) -> None:
+    recorder = _billing_recorder.get()
+    if callable(recorder) and isinstance(payload, dict):
+        recorder(payload)
 
 
 def llm_chat_url(cfg: dict | None = None) -> str:

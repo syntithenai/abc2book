@@ -388,6 +388,9 @@ async def generate_supplemental_queries(
     )
     resp.raise_for_status()
     data = resp.json()
+    from llm_runtime import note_chat_completion_usage
+
+    note_chat_completion_usage(data)
     choices = data.get("choices") or []
     if not choices:
         raise ValueError("LLM returned no choices for supplemental queries")
@@ -847,6 +850,9 @@ async def summarize_with_llm(
     )
     resp.raise_for_status()
     data = resp.json()
+    from llm_runtime import note_chat_completion_usage
+
+    note_chat_completion_usage(data)
     choices = data.get("choices") or []
     if not choices:
         raise ValueError("LLM returned no choices")
@@ -894,6 +900,9 @@ async def critique_and_fact_check(
     )
     resp.raise_for_status()
     data = resp.json()
+    from llm_runtime import note_chat_completion_usage
+
+    note_chat_completion_usage(data)
     choices = data.get("choices") or []
     if not choices:
         raise ValueError("LLM returned no choices for critique")

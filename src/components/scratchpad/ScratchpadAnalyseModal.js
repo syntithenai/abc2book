@@ -11,7 +11,9 @@ import {
 import {
   getScratchpadAnalyseChoices,
   getScratchpadAnalyseBackgroundStartMessage,
+  getScratchpadAnalyseUseLabel,
 } from '../../scratchpadAnalyseAccess'
+import { openCreditSettings } from '../../resolverCreditAccess'
 import { runScratchpadAnalyse } from '../../scratchpadAnalyse'
 import useAbcjsParser from '../../useAbcjsParser'
 import ScratchpadWorkspaceDialog from './ScratchpadWorkspaceDialog'
@@ -53,12 +55,13 @@ export default function ScratchpadAnalyseModal(props) {
   }, [props.show, item && item.id, choices])
 
   useEffect(function() {
-    if (!pendingRunAfterLogin || !resolvedToken || access.needsLogin) return undefined
+    if (!pendingRunAfterLogin || !resolvedToken) return undefined
+    if (!access || access.needsLogin || access.needsCredit) return undefined
     if (!workspaceId || !analysisMode) return undefined
     setPendingRunAfterLogin(false)
     startBackgroundAnalysis()
     return undefined
-  }, [pendingRunAfterLogin, resolvedToken, access && access.needsLogin, workspaceId, analysisMode])
+  }, [pendingRunAfterLogin, resolvedToken, access && access.needsLogin, access && access.needsCredit, workspaceId, analysisMode])
 
   function handleHide() {
     if (props.onHide) props.onHide()
@@ -73,7 +76,7 @@ export default function ScratchpadAnalyseModal(props) {
 
   function startBackgroundAnalysis() {
     if (!item || !workspaceId || !analysisMode) return
-    if (access && access.needsLogin) return
+    if (access && (access.needsLogin || access.needsCredit)) return
 
     setActiveWorkspaceId(workspaceId)
     if (props.onHide) props.onHide()
@@ -109,6 +112,10 @@ export default function ScratchpadAnalyseModal(props) {
       })
       return
     }
+    if (access && access.needsCredit) {
+      openCreditSettings()
+      return
+    }
     startBackgroundAnalysis()
   }
 
@@ -119,9 +126,7 @@ export default function ScratchpadAnalyseModal(props) {
   const modalTitle = access && access.itemType === 'image'
     ? 'Optical recognition'
     : 'Analyse scratchpad item'
-  const runLabel = access && access.needsLogin
-    ? (access.itemType === 'image' ? 'Log in for optical recognition' : 'Log in and analyse')
-    : (access && access.itemType === 'image' ? 'Recognise' : 'Analyse')
+  const runLabel = access ? getScratchpadAnalyseUseLabel(access) : 'Analyse'
 
   return (
     <>
@@ -134,7 +139,7 @@ export default function ScratchpadAnalyseModal(props) {
           <Modal.Title>{modalTitle}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          {access && access.needsLogin && access.loginWarning ? (
+          {access && (access.needsLogin || access.needsCredit) && access.loginWarning ? (
             <Alert variant="warning" className="small">
               {access.loginWarning.message}
             </Alert>
@@ -194,7 +199,7 @@ export default function ScratchpadAnalyseModal(props) {
           </Button>
           <Button
             variant="primary"
-            disabled={!canRun && !(access && access.needsLogin && workspaceId && analysisMode)}
+            disabled={!canRun && !(access && (access.needsLogin || access.needsCredit) && workspaceId && analysisMode)}
             onClick={handleRunClick}
           >
             {runLabel}

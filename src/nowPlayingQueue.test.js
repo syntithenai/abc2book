@@ -20,6 +20,8 @@ import {
   persistActiveQueue,
   findQueueIndexForTuneId,
   createLessonQueueFromItems,
+  appendMediaCandidateToQueue,
+  insertMediaCandidateAfterCurrentInQueue,
   isExternalQueueItem,
   isLessonQueue,
   getQueueItemLabel,
@@ -219,5 +221,32 @@ describe('nowPlayingQueue', function() {
     expect(loaded.previewOnce).toBeUndefined()
     persistActiveQueue(null)
     expect(loadActiveQueue()).toBeNull()
+  })
+
+  test('appendMediaCandidateToQueue stores standalone media', function() {
+    const candidate = {
+      source: 'device-file',
+      title: 'Phone Song',
+      artist: 'Local Artist',
+      uri: 'content://media/1',
+    }
+    const q = appendMediaCandidateToQueue(null, candidate)
+    expect(isQueueActive(q)).toBe(true)
+    expect(q.items).toHaveLength(1)
+    expect(isExternalQueueItem(q.items[0])).toBe(true)
+    expect(getQueueItemLabel(q.items[0], {})).toBe('Phone Song — Local Artist')
+  })
+
+  test('insertMediaCandidateAfterCurrentInQueue inserts after current index', function() {
+    const base = createQueue({ tuneIds: ['a', 'b'], currentIndex: 0 })
+    const candidate = {
+      source: 'music-collection',
+      title: 'Library Song',
+      link: '/music-collection/a.mp3',
+      path: 'a.mp3',
+    }
+    const next = insertMediaCandidateAfterCurrentInQueue(base, candidate)
+    expect(next.items).toHaveLength(3)
+    expect(next.items[1].externalMedia.title).toBe('Library Song')
   })
 })

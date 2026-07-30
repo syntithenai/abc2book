@@ -1,11 +1,12 @@
 import { isMusicCollectionAvailable, searchMusicCollection } from './musicCollectionSearchClient';
 import { getActiveResolverAccessToken, getMediaResolverHealthState } from './mediaResolverHealthStore';
-import { fetchViaMediaProxy, isMediaProxyConfigured } from './mediaProxyClient';
+import { fetchViaMediaProxy, isMediaProxyConfigured, hasMusicCollectionAccess } from './mediaProxyClient';
 
 jest.mock('./mediaProxyClient', function() {
   return {
     fetchViaMediaProxy: jest.fn(),
     isMediaProxyConfigured: jest.fn(function() { return true; }),
+    hasMusicCollectionAccess: jest.fn(),
   };
 });
 
@@ -21,38 +22,49 @@ describe('musicCollectionSearchClient', function() {
     fetchViaMediaProxy.mockReset();
     isMediaProxyConfigured.mockReturnValue(true);
     getActiveResolverAccessToken.mockReturnValue('');
+    hasMusicCollectionAccess.mockImplementation(function(candidates) {
+      if (!Array.isArray(candidates)) return false;
+      for (let i = 0; i < candidates.length; i++) {
+        if (candidates[i].musicCollectionAccess) return true;
+      }
+      return false;
+    });
     getMediaResolverHealthState.mockReturnValue({
       available: true,
       checked: true,
       status: {
         available: true,
+        musicCollectionAccess: true,
         features: { musicCollection: true },
         musicCollectionCount: 101290,
       },
     });
   });
 
-  test('isMusicCollectionAvailable reads nested resolver status', function() {
+  test('isMusicCollectionAvailable reads musicCollectionAccess on resolver status', function() {
     expect(isMusicCollectionAvailable()).toBe(true);
     getMediaResolverHealthState.mockReturnValue({
       available: true,
       checked: true,
       status: {
         available: true,
-        features: { musicCollection: false },
+        musicCollectionAccess: false,
+        features: { musicCollection: true },
         musicCollectionCount: 12,
+        candidates: [{ musicCollectionAccess: false }],
       },
     });
-    expect(isMusicCollectionAvailable()).toBe(true);
+    expect(isMusicCollectionAvailable()).toBe(false);
     getMediaResolverHealthState.mockReturnValue({
       available: false,
       checked: true,
       status: {
         available: true,
+        musicCollectionAccess: true,
         features: { musicCollection: true },
       },
     });
-    expect(isMusicCollectionAvailable()).toBe(false);
+    expect(isMusicCollectionAvailable()).toBe(true);
   });
 
   test('searchMusicCollection queries resolver when available', async function() {
@@ -91,8 +103,10 @@ describe('musicCollectionSearchClient', function() {
       checked: true,
       status: {
         available: true,
+        musicCollectionAccess: false,
         features: { musicCollection: false },
         musicCollectionCount: 0,
+        candidates: [{ musicCollectionAccess: false }],
       },
     });
 

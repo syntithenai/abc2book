@@ -77,6 +77,45 @@ describe('mediaProxyClient', function() {
     expect(warning.message).toMatch(/not authorized/i);
   });
 
+  test('getResolverLoginWarning for insufficient credit', function() {
+    const warning = mediaProxyClient.getResolverLoginWarning({
+      available: false,
+      candidates: [{
+        base: 'https://resolver.example',
+        reachable: true,
+        available: false,
+        requireAuth: true,
+        authReason: 'insufficient_credit',
+      }],
+    }, 'ya29.token');
+    expect(warning).not.toBeNull();
+    expect(warning.showBuyCreditButton).toBe(true);
+    expect(warning.showLoginButton).toBe(false);
+  });
+
+  test('getResolverProxiedPlaybackBlock when balance is empty', function() {
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
+    const block = mediaProxyClient.getResolverProxiedPlaybackBlock({
+      billingEnabled: true,
+      creditRequired: true,
+      creditBalanceCents: 0,
+      creditUnlimited: false,
+      candidates: [],
+    }, 'ya29.token');
+    expect(block).not.toBeNull();
+    expect(block.message).toMatch(/empty/i);
+  });
+
+  test('getResolverCreditLowBalanceWarning under 10 cents', function() {
+    const warning = mediaProxyClient.getResolverCreditLowBalanceWarning({
+      billingEnabled: true,
+      creditBalanceCents: 8,
+      creditUnlimited: false,
+    });
+    expect(warning).not.toBeNull();
+    expect(warning.message).toMatch(/Low resolver credit/i);
+  });
+
   test('fetchViaMediaProxy skips mixed-content HTTP bases on HTTPS pages', async function() {
     const originalLocation = window.location;
     Object.defineProperty(window, 'location', {

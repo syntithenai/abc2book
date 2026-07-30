@@ -1,23 +1,11 @@
 import { useMemo } from 'react'
-import { Button, Form, Modal } from 'react-bootstrap'
-import { NotationPreview } from './SuggestionPreviewDialog'
+import { Button, Modal } from 'react-bootstrap'
+import NotationBarOperationPanel from './NotationBarOperationPanel'
 import { applyBarOperationToVoice, tuneMeta, voiceBodyFromNotes } from '../scratchpadNotationBarUtils'
 import { serializeVoiceEvents } from '../notation/abcVoiceSerializer'
 import { parseVoiceEvents } from '../notation/voiceEventModel'
 import { injectAbcBarNumbers } from '../scratchpadNotationMerge'
-
-function modeDescription(mode, fromBar, toBar) {
-  if (mode === 'insert') {
-    return 'Insert clipboard bars at bar ' + fromBar + '. Later bars shift right.'
-  }
-  const rangeNote = toBar != null
-    ? ' Only bars ' + fromBar + '–' + toBar + ' are replaced.'
-    : ''
-  if (mode === 'replace') {
-    return 'Replace tune bars from bar ' + fromBar + ' with clipboard content.' + rangeNote
-  }
-  return 'Merge clipboard notes into bars from ' + fromBar + ', keeping existing notes.' + rangeNote
-}
+import { pasteStrainBoundaryWarnings } from '../notation/notationStrainBoundary'
 
 export default function NotationPasteModeModal(props) {
   const show = !!props.show
@@ -53,62 +41,26 @@ export default function NotationPasteModeModal(props) {
     return injectAbcBarNumbers(headers)
   }, [previewNotes, tune])
 
+  const strainWarnings = useMemo(function() {
+    return pasteStrainBoundaryWarnings(targetNotes, fromBar, toBar, mode)
+  }, [targetNotes, fromBar, toBar, mode])
+
   return (
     <Modal show={show} onHide={props.onHide} size="lg" centered>
       <Modal.Header closeButton>
         <Modal.Title>Paste notation</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <div className="notation-paste-mode-options">
-          {['insert', 'replace', 'merge'].map(function(option) {
-            return (
-              <Form.Check
-                key={option}
-                type="radio"
-                id={'paste-mode-' + option}
-                name="paste-mode"
-                label={option.charAt(0).toUpperCase() + option.slice(1)}
-                checked={mode === option}
-                onChange={function() {
-                  if (props.onModeChange) props.onModeChange(option)
-                }}
-                inline
-              />
-            )
-          })}
-        </div>
-        <p className="text-muted notation-paste-mode-help">{modeDescription(mode, fromBar, toBar)}</p>
-        <div className="notation-paste-mode-bars">
-          <Form.Group className="notation-paste-bar-field">
-            <Form.Label>From bar</Form.Label>
-            <Form.Control
-              type="number"
-              min={1}
-              value={fromBar}
-              onChange={function(e) {
-                if (props.onFromBarChange) props.onFromBarChange(e.target.value)
-              }}
-            />
-          </Form.Group>
-          {mode !== 'insert' ? (
-            <Form.Group className="notation-paste-bar-field">
-              <Form.Label>To bar (optional)</Form.Label>
-              <Form.Control
-                type="number"
-                min={fromBar}
-                value={toBar == null ? '' : toBar}
-                onChange={function(e) {
-                  if (props.onToBarChange) props.onToBarChange(e.target.value)
-                }}
-              />
-            </Form.Group>
-          ) : null}
-        </div>
-        {previewAbc ? (
-          <div className="notation-paste-preview">
-            <NotationPreview abc={previewAbc} />
-          </div>
-        ) : null}
+        <NotationBarOperationPanel
+          mode={mode}
+          fromBar={fromBar}
+          toBar={toBar}
+          previewAbc={previewAbc}
+          strainWarnings={strainWarnings}
+          onModeChange={props.onModeChange}
+          onFromBarChange={props.onFromBarChange}
+          onToBarChange={props.onToBarChange}
+        />
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={props.onHide}>Cancel</Button>

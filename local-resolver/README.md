@@ -173,7 +173,7 @@ Optional TTS for future screen-free practice announcements (not wired into the S
 |---------|------|------|
 | `tts-gateway` (`abc2book-tts-gateway`) | `8789` | Routes to Kokoro when healthy, else Piper |
 | `tts-gpu` (`abc2book-tts-gpu`) | internal `:8880` | Kokoro-82M on AMD ROCm (`profile tts-gpu`) |
-| `tts-cpu` (`abc2book-tts-cpu`) | internal `:5000` | Piper CPU (`en_US-lessac-medium` by default) |
+| `tts-cpu` (`abc2book-tts-cpu`) | internal `:5000` | Piper CPU fallback (`profile tts-cpu`; skipped when Kokoro runs) |
 
 **Start (auto-detects AMD GPU):**
 
@@ -183,11 +183,12 @@ chmod +x scripts/tts-up.sh
 ./scripts/tts-up.sh
 ```
 
-`tts-up.sh` adds the `tts-gpu` profile when `/dev/kfd` and `/dev/dri` exist; otherwise only Piper + gateway start. You can also run manually:
+`tts-up.sh` adds the `tts-gpu` profile when `/dev/kfd` and `/dev/dri` exist; otherwise only Piper + gateway start. With Kokoro, Piper (`tts-cpu`) is not started. On AMD hosts it starts the gateway, then Kokoro (`tts-gpu`). Set `TTS_SKIP_GPU=1` to use Piper only. You can also run manually:
 
 ```bash
-docker compose --profile tts up -d --build                     # CPU Piper only
-docker compose --profile tts --profile tts-gpu up -d --build     # AMD GPU + CPU fallback
+docker compose --profile tts --profile tts-cpu up -d --build           # Piper only
+docker compose --profile tts --profile tts-gpu up -d --build           # Kokoro (no Piper)
+docker compose --profile tts --profile tts-gpu --profile tts-cpu up -d # Kokoro + Piper fallback
 ```
 
 **Smoke test:**
@@ -201,6 +202,23 @@ curl -X POST http://localhost:8789/v1/audio/speech \
 ```
 
 `/health` reports `activeBackend` (`kokoro` or `piper`). Kokoro voices: `af_bella`, `af_sky`, `am_adam`. Piper voice: set `TTS_PIPER_VOICE` (see [piper samples](https://rhasspy.github.io/piper-samples/)). In-compose URL: `TTS_URL=http://tts-gateway:8789`.
+
+**Kokoro pull fails with `unexpected EOF`:** The ROCm image has two ~5 GB layers. Docker’s default pulls several layers in parallel; on many links the connection drops near 100% and Docker discards the partial layer (so the next pull starts over). Fix:
+
+1. Set sequential downloads in `/etc/docker/daemon.json` (merge with existing keys), then restart Docker:
+
+```json
+{
+  "max-concurrent-downloads": 1,
+  "max-download-attempts": 15
+}
+```
+
+2. Pull with retries: `chmod +x scripts/tts-pull-gpu.sh && ./scripts/tts-pull-gpu.sh`
+
+3. Or skip GPU for now: `TTS_SKIP_GPU=1 ./scripts/tts-up.sh` (Piper on `:8789` works immediately).
+
+**Strix Halo / Radeon 8060S (gfx1151):** The published `kokoro-fastapi-rocm` image uses ROCm 6.4 without gfx1151 support and **segfaults** during model load. `tts-up.sh` auto-selects `kokoro-fastapi-cpu` on these machines. Kokoro still runs as the gateway primary (better voices than Piper); GPU ROCm needs a ROCm 7.2+ custom build (see [Kokoro #454](https://github.com/remsky/Kokoro-FastAPI/issues/454)).
 
 First Kokoro start downloads the model and may take several minutes. MIOpen cache volumes persist kernel tuning. After startup, synthesize a few varied sentences once for low latency on short prompts.
 

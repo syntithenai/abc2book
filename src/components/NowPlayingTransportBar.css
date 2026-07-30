@@ -154,7 +154,11 @@
 
 .now-playing-transport-fullscreen-btn {
   flex: 0 0 auto;
-  min-width: 2.25rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 2;
 }

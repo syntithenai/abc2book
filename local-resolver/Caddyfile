@@ -11,7 +11,13 @@
 {$RESOLVER_DOMAIN} {
 	handle /snapcast/* {
 		uri strip_prefix /snapcast
-		reverse_proxy snapserver:1780
+		reverse_proxy snapserver:1780 {
+			header_up X-Forwarded-Proto {scheme}
+			header_up X-Forwarded-Host {host}
+		}
 	}
-	reverse_proxy local-resolver:8787
+	reverse_proxy local-resolver:8787 {
+		header_up X-Forwarded-Proto {scheme}
+		header_up X-Forwarded-Host {host}
+	}
 }

@@ -4,6 +4,7 @@ import {
   getCurrentItem,
   getCurrentTuneId,
   findQueueIndexForTuneId,
+  resolvePlaybackForItem,
 } from './nowPlayingQueue'
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
 import { advanceQueueToNextPlayable, isQueueItemPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
@@ -74,47 +75,36 @@ export function resolvePlaybackTarget(mediaController, tunebook, location, tune)
     return null
 }
 
-function beginPlayback(mediaController, tunebook, navigate, location, tune, target) {
+function buildPlaybackPath(tuneId, target) {
+    if (target.type === 'midi') {
+        return '/tunes/' + tuneId + '/playMidi'
+    }
+    return '/tunes/' + tuneId + '/playMedia/' + target.linkNum
+}
+
+function applyPlaybackSetup(mediaController, tunebook, tune, target) {
     const playState = target.type === 'midi' ? 'playMidi' : 'playMedia'
-    const path = target.type === 'midi'
-        ? '/tunes/' + tune.id + '/playMidi'
-        : '/tunes/' + tune.id + '/playMedia/' + target.linkNum
-
-    const currentPath = location && location.pathname ? location.pathname : ''
-    const needsNavigate = currentPath !== path
-    const item = {
-        tuneId: tune.id,
-        prefer: target.type === 'midi' ? 'midi' : 'media',
-        linkIndex: target.type === 'media' ? target.linkNum : undefined,
-    }
-
-    if (needsNavigate && navigate) {
-        playQueueItem(mediaController, tunebook, tune, item, { deferPlaybackEngine: true })
-        navigate(path)
-        return
-    }
-
-    // NowPlayingHost reads mediaController.tune to mount the engine; set it
-    // before arming intent so the host can appear without a MusicSingle mount.
     if (mediaController.setTune) {
         mediaController.setTune(tune)
     }
-        if (target.type === 'midi') {
-            mediaController.setMediaLinkNumber(null)
-        } else {
-            mediaController.setMediaLinkNumber(target.linkNum)
-        }
+    if (target.type === 'midi') {
+        mediaController.setMediaLinkNumber(null)
+    } else {
+        mediaController.setMediaLinkNumber(target.linkNum)
+    }
+    if (mediaController.applyPlaybackRoute) {
+        mediaController.applyPlaybackRoute(
+            playState,
+            target.type === 'media' ? String(target.linkNum != null ? target.linkNum : 0) : null,
+            tune,
+            tunebook
+        )
+    }
+    return playState
+}
 
-        if (mediaController.applyPlaybackRoute) {
-            mediaController.applyPlaybackRoute(
-                playState,
-                target.type === 'media' ? String(target.linkNum != null ? target.linkNum : 0) : null,
-                tune,
-                tunebook
-            )
-        }
-
-        if (mediaController.requestPlayback) {
+function requestPlaybackForTarget(mediaController, tune, target, playState) {
+    if (mediaController.requestPlayback) {
         mediaController.requestPlayback({
             tuneId: tune.id,
             playState: playState,
@@ -124,13 +114,51 @@ function beginPlayback(mediaController, tunebook, navigate, location, tune, targ
         })
     } else if (mediaController.playFromUserGesture) {
         mediaController.playFromUserGesture({ fresh: true })
-    } else {
+    } else if (mediaController.play) {
         mediaController.play({ fresh: true })
     }
+}
 
-    if (location.pathname !== path) {
+export function requestNavigatePlayback(mediaController, tunebook, navigate, tune, target) {
+    const playState = applyPlaybackSetup(mediaController, tunebook, tune, target)
+    requestPlaybackForTarget(mediaController, tune, target, playState)
+    if (navigate) {
+        navigate(buildPlaybackPath(tune.id, target))
+    }
+}
+
+function beginPlayback(mediaController, tunebook, navigate, location, tune, target) {
+    const path = buildPlaybackPath(tune.id, target)
+    const currentPath = location && location.pathname ? location.pathname : ''
+    const needsNavigate = currentPath !== path
+
+    if (needsNavigate && navigate) {
+        requestNavigatePlayback(mediaController, tunebook, navigate, tune, target)
+        return
+    }
+
+    const playState = applyPlaybackSetup(mediaController, tunebook, tune, target)
+    requestPlaybackForTarget(mediaController, tune, target, playState)
+
+    if (navigate && location && location.pathname !== path) {
         navigate(path)
     }
+}
+
+function requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item) {
+    const target = resolvePlaybackForItem(tune, item, tunebook)
+    if (!target || target.type === 'external') return false
+    const normalizedTarget = target.type === 'midi'
+        ? { type: 'midi' }
+        : { type: 'media', linkNum: target.linkNum != null ? target.linkNum : 0 }
+    const path = buildPlaybackPath(tune.id, normalizedTarget)
+    const currentPath = location && location.pathname ? location.pathname : ''
+    if (currentPath !== path && navigate) {
+        requestNavigatePlayback(mediaController, tunebook, navigate, tune, normalizedTarget)
+    } else {
+        beginPlayback(mediaController, tunebook, navigate, location || { pathname: '' }, tune, normalizedTarget)
+    }
+    return true
 }
 
 /**
@@ -216,10 +244,14 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
                 }
             }
             const item = activeQueue.items[queueIndex]
-            playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
-            if (navigate) {
-                navigateToQueueTune(navigate, tune.id, item, tunebook, ctx.tunes)
-            }
+            requestQueueItemPlayback(
+                mediaController,
+                tunebook,
+                navigate,
+                location,
+                tune,
+                item
+            )
             return true
         }
 
@@ -240,10 +272,14 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
                     prefer: target.type === 'midi' ? 'midi' : 'media',
                     linkIndex: target.type === 'media' ? target.linkNum : undefined,
                 }
-                playQueueItem(mediaController, tunebook, tune, item, { deferPlaybackEngine: true })
-                if (navigate) {
-                    navigateToQueueTune(navigate, tune.id, item, tunebook, ctx.tunes)
-                }
+                requestQueueItemPlayback(
+                    mediaController,
+                    tunebook,
+                    navigate,
+                    location,
+                    tune,
+                    item
+                )
                 return true
             }
             setQueuePlayConfirm({
@@ -253,7 +289,14 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
                     const previewQueue = startPreviewOnce(queue, tune.id)
                     if (ctx.setNowPlayingQueue) ctx.setNowPlayingQueue(previewQueue)
                     const item = { tuneId: tune.id, prefer: target.type === 'midi' ? 'midi' : 'media', linkIndex: target.type === 'media' ? target.linkNum : undefined }
-                    playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+                    requestQueueItemPlayback(
+                        mediaController,
+                        tunebook,
+                        navigate,
+                        location,
+                        tune,
+                        item
+                    )
                 },
                 onResumePlaylist: function() {
                     // Navigation back to the current playlist tune is handled by AppQueueLayer.

@@ -185,11 +185,33 @@
 .notation-marks-fav-btn,
 .notation-barline-compact-btn,
 .notation-tuplet-compact-btn,
-.notation-voice-compact-btn {
+.notation-voice-compact-btn,
+.notation-note-input-fav-btn {
   min-width: 2.25rem;
   padding-left: 0.35rem;
   padding-right: 0.35rem;
   font-weight: 600;
+}
+.notation-signature-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.notation-signature-icon-btn img,
+.notation-signature-icon {
+  width: 1.45rem;
+  height: 1.45rem;
+  display: block;
+  object-fit: contain;
+}
+.notation-toolbar-favorite-menu-item {
+  cursor: pointer;
+}
+.notation-toolbar-favorite-menu-label {
+  min-width: 0;
 }
 .notation-barline-compact-btn {
   font-family: monospace;
@@ -255,7 +277,11 @@
 .notation-midi-dropdown .btn {
   font-weight: 600;
 }
-.notation-marks-menu .dropdown-header {
+.notation-marks-menu .dropdown-header,
+.notation-barlines-menu .dropdown-header,
+.notation-accidental-menu .dropdown-header,
+.notation-tuplet-menu .dropdown-header,
+.notation-note-input-menu .dropdown-header {
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -549,6 +575,10 @@
   overflow: auto;
 }
 .notation-abc-view {
+  min-height: 0;
+}
+
+.notation-chords-view {
   min-height: 0;
 }
 .notation-abc-text-col {
@@ -997,6 +1027,25 @@
   line-height: 1;
   color: #1a3d6b;
   text-shadow: 0 0 2px #fff, 0 0 4px #fff;
+  white-space: nowrap;
+}
+
+.notation-section-labels-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 13;
+}
+.notation-section-label {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #333;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1px 6px;
+  border-radius: 3px;
   white-space: nowrap;
 }
 

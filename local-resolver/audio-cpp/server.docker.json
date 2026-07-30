@@ -16,6 +16,20 @@
       "session_options": {
         "stable_audio.mem_saver": "true"
       }
+    },
+    {
+      "id": "ace-step-cover",
+      "family": "ace_step",
+      "path": "/audio-cpp/models/Ace-Step1.5",
+      "task": "gen",
+      "mode": "offline",
+      "lazy": true,
+      "load_options": {
+        "ace_step.dit_model_path": "acestep-v15-turbo"
+      },
+      "session_options": {
+        "ace_step.mem_saver": "true"
+      }
     }
   ]
 }

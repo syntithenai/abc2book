@@ -1,10 +1,11 @@
-import {Button, Modal} from 'react-bootstrap'
 import YouTube from 'react-youtube';
 import AbcPlayer from './AbcPlayer'
+import PlaybackPromptModal from './PlaybackPromptModal'
 import {useParams, Link, useLocation, useNavigate} from 'react-router-dom'
 import {useState, useEffect, useMemo, useRef} from 'react'
+import { applyStoredOutputDeviceToElement } from '../outputDeviceSupport'
 
-export default function MediaPlayerMedia({mediaController, tunebook, tune, routePlayState, routeMediaLinkNumber, suppressAutostart, suppressTapModal, onMediaEngineReady, instanceId, compactPlayer}) {
+export default function MediaPlayerMedia({mediaController, tunebook, tune, routePlayState, routeMediaLinkNumber, suppressAutostart, suppressTapModal, onMediaEngineReady, instanceId, compactPlayer, forceRefresh, token, googleDocumentId, login, onLinksSaved}) {
     const params = useParams()
     const location = useLocation()
     const playState = routePlayState != null ? routePlayState : params.playState
@@ -208,38 +209,55 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         }
     }
 
+    function assignPlayerRef(el) {
+        const mc = mediaControllerRef.current
+        if (mc && mc.playerRef) {
+            mc.playerRef.current = el
+        }
+        if (el && mc && typeof mc.reapplyStoredOutputDevice === 'function') {
+            mc.reapplyStoredOutputDevice().catch(function() {})
+        } else if (el) {
+            applyStoredOutputDeviceToElement(el).catch(function() {})
+        }
+    }
+
+    function assignFilteredPlayerRef(el) {
+        const mc = mediaControllerRef.current
+        if (mc && mc.filteredPlayerRef) {
+            mc.filteredPlayerRef.current = el
+        }
+        if (el && mc && typeof mc.reapplyStoredOutputDevice === 'function') {
+            mc.reapplyStoredOutputDevice().catch(function() {})
+        } else if (el) {
+            applyStoredOutputDeviceToElement(el).catch(function() {})
+        }
+    }
+
     function renderTapToPlayModal() {
         if (suppressTapModal) return null
         if (!mediaController.tapToPlay) return null
         return (
-      <Modal show={true} data-testid="tap-to-play-modal" onHide={function() {
-                mediaController.setTapToPlay(false)
-                if (mediaController.canResumePlayback && mediaController.canResumePlayback()) {
-                    return
-                }
-                mediaController.stop()
-                mediaController.setPlayCancelled(true)
-            }}>
-            <Modal.Header closeButton>
-              <Modal.Title>Click to allow autoplay</Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-                <Button variant="success" onClick={function() {
-                    if (mediaController.resumeAudioContextAndPlay) {
-                        mediaController.resumeAudioContextAndPlay()
-                    } else {
-                        mediaController.setTapToPlay(false)
-                        mediaController.play()
-                    }
-                }}>Play</Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <Button variant="danger" onClick={function() {mediaController.stop(); mediaController.setPlayCancelled(true); mediaController.setTapToPlay(false)}} >Cancel</Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                {src && <a href={src} target="_new" rel="noreferrer"><Button variant="primary">Open Link</Button></a>}
-            </Modal.Body>
-      </Modal>
+            <PlaybackPromptModal
+                show={true}
+                reason={mediaController.tapToPlayReason || 'autoplay'}
+                mediaController={mediaController}
+                tune={tune}
+                tunebook={tunebook}
+                src={src}
+                forceRefresh={forceRefresh}
+                token={token}
+                googleDocumentId={googleDocumentId}
+                login={login}
+                onLinksSaved={onLinksSaved}
+            />
         )
     }
 
     function handleNativePlay() {
+        if (mediaController.shouldIgnoreNativePlaybackEvents
+            && mediaController.shouldIgnoreNativePlaybackEvents()) {
+            return
+        }
         if (mediaController.isLoading) {
             if (mediaController.hasActivePlaybackIntent
                 && mediaController.hasActivePlaybackIntent()
@@ -263,6 +281,10 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             return
         }
         if (mediaController.shouldSuppressSpuriousPause && mediaController.shouldSuppressSpuriousPause()) {
+            return
+        }
+        if (mediaController.shouldIgnoreNativePlaybackEvents
+            && mediaController.shouldIgnoreNativePlaybackEvents()) {
             return
         }
         if (!mediaController.shouldIgnoreNativePlaybackEvents()) {
@@ -312,9 +334,13 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
     const useCachedAudioPlayer = !!cachedPlaybackSrc
     const srcType = mediaController.getSrcType(src)
     const recordingAwaitingBlob = srcType === 'recording' && !useCachedAudioPlayer
-    const nativeAudioSrc = useCachedAudioPlayer
-        ? cachedPlaybackSrc
-        : (recordingAwaitingBlob ? '' : src)
+    const suppressHtml5AudioSrc = typeof mediaController.shouldSuppressHtml5AudioSrc === 'function'
+        && mediaController.shouldSuppressHtml5AudioSrc()
+    const nativeAudioSrc = suppressHtml5AudioSrc
+        ? ''
+        : (useCachedAudioPlayer
+            ? cachedPlaybackSrc
+            : (recordingAwaitingBlob ? '' : src))
     // Keep the YouTube iframe mounted until the external stem/pitch engine is
     // actually outputting audio. usesExternalPitchTempo() becomes true as soon
     // as a stem slider moves off 100%, and unmounting the iframe immediately
@@ -322,7 +348,10 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
     const externalOutputActive = typeof mediaController.isExternalOutputActive === 'function'
         ? mediaController.isExternalOutputActive()
         : !!mediaController.externalMediaActive
+    const suppressYoutubeEmbed = typeof mediaController.shouldSuppressYoutubeEmbed === 'function'
+        && mediaController.shouldSuppressYoutubeEmbed()
     const showYoutubeEmbed = srcType === 'youtube'
+        && !suppressYoutubeEmbed
         && (instanceId === 'practice'
             || !externalOutputActive
             || (mediaController.nativePlaybackFallbackRequired && !externalOutputActive))
@@ -334,9 +363,10 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             onError={mediaController.onError} 
             onTimeUpdate={mediaController.onTimeUpdate} 
             onCanPlayThrough={handleControllerMediaReady} 
-            ref={mediaController.playerRef} 
+            ref={assignPlayerRef}
             src={nativeAudioSrc || undefined} 
-            controls={true}
+            controls={!suppressHtml5AudioSrc}
+            muted={suppressHtml5AudioSrc || undefined}
             playsInline
             {...{ 'x-webkit-airplay': 'allow' }}
             onPlay={handleNativePlay} 
@@ -353,11 +383,13 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             onError={mediaController.onError}
             onReady={handleYoutubeReady}
          />
+    } else if (srcType === 'youtube' && suppressYoutubeEmbed) {
+        content = <div className="tunebook-youtube-native-loading" aria-live="polite">Preparing playback…</div>
     }
     return <div id={mediaRootId} >
         <div style={{display:'none'}}>{src}</div>
         <audio
-            ref={mediaController.filteredPlayerRef}
+            ref={assignFilteredPlayerRef}
             style={{ display: 'none' }}
             playsInline
             {...{ 'x-webkit-airplay': 'allow' }}

@@ -7,6 +7,10 @@ import {
 function mediaSearchLoginMessage(baseWarning) {
   if (!baseWarning) return '';
 
+  if (baseWarning.showBuyCreditButton) {
+    return 'Buy resolver credit for access to more media sources.';
+  }
+
   if (baseWarning.showLoginButton) {
     return 'Sign in for access to more media sources.';
   }
@@ -55,18 +59,31 @@ export function getMediaSearchAccess(context) {
     opts.resolverStatus,
     token
   );
-  if (!baseWarning || !baseWarning.showLoginButton) {
+  if (!baseWarning || (!baseWarning.showLoginButton && !baseWarning.showBuyCreditButton)) {
     return {
       loginWarning: null,
       needsLogin: false,
+      needsCredit: false,
     };
   }
 
   // Signed in but health still reflects an unauthenticated probe — don't nag.
-  if (token && onlyLoginRequiredBlocked(opts.resolverStatus)) {
+  if (token && baseWarning.showLoginButton && onlyLoginRequiredBlocked(opts.resolverStatus)) {
     return {
       loginWarning: null,
       needsLogin: false,
+      needsCredit: false,
+    };
+  }
+
+  if (baseWarning.showBuyCreditButton) {
+    return {
+      loginWarning: {
+        message: mediaSearchLoginMessage(baseWarning),
+        showBuyCreditButton: true,
+      },
+      needsLogin: false,
+      needsCredit: true,
     };
   }
 
@@ -76,5 +93,6 @@ export function getMediaSearchAccess(context) {
       showLoginButton: true,
     },
     needsLogin: true,
+    needsCredit: false,
   };
 }

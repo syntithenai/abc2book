@@ -14,18 +14,18 @@ MIDI_RENDER_SAMPLE_RATE=44100
 - `POST /render-midi` — multipart `midi` file → WAV (debug / preview)
 - Practice-track jobs accept optional `score` (`score.mid`); when FluidSynth is ready the server prefers that render for the melody stem.
 
-## audio.cpp guide-audio conditioning (Phase 2c spike)
+## audio.cpp source audio paths
 
-`AudioCppProvider` sends guide WAV as base64 using the first accepted request field:
+`AudioCppProvider` passes **filesystem paths** in the request `audio` field (audio.cpp does not accept base64 input). When the resolver and audio.cpp share a machine (`AUDIO_CPP_URL=http://127.0.0.1:8788`), job WAV paths are used directly. When the resolver runs in Docker and audio.cpp on the host, set:
 
-1. `init_audio`
-2. `audio`
-3. `conditioning_audio`
-4. `cover_audio`
+```
+AUDIO_CPP_INPUT_DIR=/audio-cpp-incoming
+AUDIO_CPP_INPUT_API_PATH=/home/you/audio.cpp/incoming
+```
 
-If the sidecar rejects the field, the provider retries without conditioning. **Hybrid fallback** (always available): AI style bed + MIDI drum guide + notation melody/chords — the MIDI guide defines the bar clock; backing is trimmed/tiled, not stretched onto the melody.
+and mount `~/audio.cpp/incoming` into the resolver container at `/audio-cpp-incoming` (see `docker-compose.yml`).
 
-Document results of your sidecar version in Phase 0 below before relying on single-pass conditioned generation.
+Guide melody conditioning for practice tracks uses the same staging (`audio` + `audio_input_kind=init_audio`).
 
 ## Phase 0 spike (run before relying on production generation)
 
@@ -93,14 +93,34 @@ AUDIO_CPP_URL=http://127.0.0.1:8788
 # mock = synthetic backing (no GPU); audio_cpp = sidecar HTTP
 PRACTICE_TRACK_PROVIDER=mock
 PRACTICE_TRACK_CACHE_DIR=/tmp/practice-track-cache
+AUDIO_GEN_COORDINATION_REQUIRED=true
+AUDIO_CPP_IDLE_UNLOAD_SECONDS=300
 ```
+
+Install AceStep for linked-media cover variants:
+
+```bash
+cd ~/audio.cpp
+python3 tools/model_manager.py install ace_step
+```
+
+Register both Stable Audio and AceStep in `~/audio.cpp/server.json` (see `local-resolver/audio-cpp/server.docker.json`).
 
 ## API
 
-- `GET /generate-practice-track/backends` — provider health (+ `midiRender` status)
+Canonical paths under `/generate-audio` (legacy `/generate-practice-track/*` aliases remain):
+
+- `GET /generate-audio/backends` — tasks, quality presets, provider health, `midiRender`
+- `POST /generate-audio` — multipart: `taskId`, `presetId`, plus task payload:
+  - `practice_track`: `timingPlan` (JSON), `melody` (WAV), optional `chords`, `score`
+  - `linked_cover`: `requestJson` with `sourceUrl`, `stylePrompt`, optional `lyrics`, trim `startAt`/`endAt`
+- `GET /generate-audio/{jobId}` — status; `audioUrl` when complete
+- `GET /generate-audio/{jobId}/audio` — output WAV
+- `GET /audio-cpp/idle-status` — idle timer for sidecar supervisor (local resolver)
+
+Also:
+
 - `POST /render-midi` — multipart: `midi` (`.mid`); returns WAV
-- `POST /generate-practice-track` — multipart: `timingPlan` (JSON), `melody` (WAV), optional `chords` (WAV), optional `score` (`.mid`); returns `{ jobId }`
-- `GET /generate-practice-track/{jobId}` — status; `audioUrl` and `stems` when complete
 
 ## Disk
 

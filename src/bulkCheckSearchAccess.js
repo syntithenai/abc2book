@@ -27,7 +27,7 @@ export function isBulkCheckResolverGatedAction(actionId) {
 
 function unavailableReason(access) {
   if (!access) return ''
-  if (access.needsLogin && access.loginWarning) return access.loginWarning.message
+  if ((access.needsLogin || access.needsCredit) && access.loginWarning) return access.loginWarning.message
   if (access.actionId === 'scanLinkRegion') {
     return 'Playback region scan needs the media resolver with Whisper available'
   }
@@ -49,9 +49,11 @@ export function getBulkCheckActionAccess(actionId, context) {
   const fields = tuneSearchFields(tune)
   const resolverAvailable = !!opts.resolverAvailable
   const loginWarning = getResolverLoginWarning(opts.resolverStatus, opts.accessToken)
-  const needsLogin = !!loginWarning
+  const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
+  const blocked = needsLogin || needsCredit
   const lookupContext = {
-    needsLogin: needsLogin,
+    needsLogin: blocked,
     resolverAvailable: resolverAvailable,
     features: opts.features || {},
     hasLocalChordSearch: !!(opts.tunebook && opts.tunebook.abcTools),
@@ -79,27 +81,28 @@ export function getBulkCheckActionAccess(actionId, context) {
       externalUrl = buildExternalSearchUrl('notation', fields.title, fields.artist)
       break
     case 'scanLinkRegion':
-      automaticLookup = resolverAvailable && hasWhisper && !needsLogin
+      automaticLookup = resolverAvailable && hasWhisper && !blocked
       break
     default:
       break
   }
 
   const showExternalOnly = !automaticLookup && !!externalUrl
-  const showSearchButton = automaticLookup || needsLogin
+  const showSearchButton = automaticLookup || blocked
   const requiresTitle = actionId !== 'scanLinkRegion'
-  const searchDisabled = (requiresTitle && !fields.title) || needsLogin || !automaticLookup
+  const searchDisabled = (requiresTitle && !fields.title) || blocked || !automaticLookup
   const access = {
     actionId: actionId,
     title: fields.title,
     needsLogin: needsLogin,
+    needsCredit: needsCredit,
     loginWarning: loginWarning,
     automaticLookup: automaticLookup,
     externalUrl: externalUrl,
     showExternalOnly: showExternalOnly,
     showSearchButton: showSearchButton,
     searchDisabled: searchDisabled,
-    canRunAutomatic: automaticLookup && (!requiresTitle || !!fields.title) && !needsLogin,
+    canRunAutomatic: automaticLookup && (!requiresTitle || !!fields.title) && !blocked,
   }
   access.unavailableReason = unavailableReason(access)
   return access

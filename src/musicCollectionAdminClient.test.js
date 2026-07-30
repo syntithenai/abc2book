@@ -9,27 +9,37 @@ import { resolverHasFeature } from './resolverFeatures';
 jest.mock('./mediaProxyClient', function() {
   return {
     fetchViaMediaProxy: jest.fn(),
+    hasMusicCollectionAccess: jest.fn(),
   };
 });
 
 jest.mock('./mediaResolverHealthStore', function() {
   return {
     getMediaResolverHealthState: jest.fn(),
+    getActiveResolverAccessToken: jest.fn(function() { return ''; }),
   };
 });
 
 import { getMediaResolverHealthState } from './mediaResolverHealthStore';
 
-import { fetchViaMediaProxy } from './mediaProxyClient';
+import { fetchViaMediaProxy, hasMusicCollectionAccess } from './mediaProxyClient';
 
 describe('musicCollectionAdminClient', function() {
   beforeEach(function() {
     fetchViaMediaProxy.mockReset();
+    hasMusicCollectionAccess.mockImplementation(function(candidates) {
+      if (!Array.isArray(candidates)) return false;
+      for (let i = 0; i < candidates.length; i++) {
+        if (candidates[i].musicCollectionAccess) return true;
+      }
+      return false;
+    });
     getMediaResolverHealthState.mockReturnValue({
       available: true,
       checked: true,
       status: {
         available: true,
+        musicCollectionAccess: true,
         activeBase: 'https://resolver.example',
         features: { musicCollection: true },
         musicCollectionCount: 42,
@@ -46,13 +56,14 @@ describe('musicCollectionAdminClient', function() {
     expect(summary.dir).toBe('/music-collection');
   });
 
-  test('is unavailable when feature is off', function() {
+  test('is unavailable when user lacks collection access', function() {
     expect(isMusicCollectionSettingsAvailable({
-      available: true,
-      features: { musicCollection: false },
+      musicCollectionAccess: false,
+      features: { musicCollection: true },
+      candidates: [{ musicCollectionAccess: false }],
     })).toBe(false);
     expect(isMusicCollectionSettingsAvailable({
-      available: true,
+      musicCollectionAccess: true,
       features: { musicCollection: true },
     })).toBe(true);
   });

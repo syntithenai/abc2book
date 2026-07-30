@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { Badge, Button, Modal } from 'react-bootstrap'
 import { buildBulkCheckIssueGroups } from '../bulkCheckIssueGroups'
 import { FIX_ALL_PREVIEW_ACTIONS } from '../bulkCheckFixAll'
@@ -41,6 +41,7 @@ function buildEditorReport(tune, issues, checkResults) {
     abcResult: checkResults && checkResults.abcResult,
     structureResult: checkResults && checkResults.structureResult,
     lyricsResult: checkResults && checkResults.lyricsResult,
+    extendedResult: checkResults && checkResults.extendedResult,
   }
 }
 
@@ -120,6 +121,7 @@ export default function NotationIssuesPanel(props) {
   const onNavigateIssue = props.onNavigateIssue
   const onTuneSaved = props.onTuneSaved
   const parseAndRender = props.parseAndRender
+  const initialOpenDialog = props.initialOpenDialog
 
   const [activeDialog, setActiveDialog] = useState(null)
   const [previewState, setPreviewState] = useState(null)
@@ -141,6 +143,25 @@ export default function NotationIssuesPanel(props) {
   const warningGroups = useMemo(function() {
     return filterGroupsForSeverity(groups, 'warning')
   }, [groups])
+
+  const errorCount = issues.filter(function(item) { return item.severity === 'error' }).length
+  const warningCount = issues.filter(function(item) {
+    return item.severity === 'warning' || item.severity === 'info'
+  }).length
+
+  useEffect(function() {
+    if (!initialOpenDialog || !issues.length) return
+    if (initialOpenDialog === 'error' && errorCount > 0) {
+      setActiveDialog('error')
+      return
+    }
+    if (initialOpenDialog === 'warning' && warningCount > 0) {
+      setActiveDialog('warning')
+      return
+    }
+    if (errorCount > 0) setActiveDialog('error')
+    else if (warningCount > 0) setActiveDialog('warning')
+  }, [initialOpenDialog, issues.length, errorCount, warningCount])
 
   if (!issues.length) return null
 
@@ -181,11 +202,6 @@ export default function NotationIssuesPanel(props) {
     setPreviewState(null)
     if (next && onTuneSaved) onTuneSaved(next)
   }
-
-  const errorCount = issues.filter(function(item) { return item.severity === 'error' }).length
-  const warningCount = issues.filter(function(item) {
-    return item.severity === 'warning' || item.severity === 'info'
-  }).length
 
   return (
     <>

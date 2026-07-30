@@ -130,6 +130,10 @@ export function shouldTriggerAutoplayRecovery(snapshot, flags) {
   if (snapshot.playCancelled) return false
   if (!snapshot.playingIntent || snapshot.userPaused) return false
   if (snapshot.isPlayingUi || f.isLoading) return false
+  // Cold-start kickoff is handled by engine-specific autostart retries and
+  // tap-to-play prompts. Recovery is only for output that dropped after we
+  // had confirmed playback at least once.
+  if (!f.playbackStarted) return false
   return true
 }
 
@@ -143,10 +147,40 @@ export function youtubeAutoplayAppearsBlocked(snapshot, ytPlayerState) {
     || ytPlayerState === YT_STATE.UNSTARTED
 }
 
-export function shouldShowTapToPlayFromYoutubePoll(snapshot, pollToken, activePollToken, ytPlayerState, isLastAttempt) {
+/**
+ * During playlist auto-advance the next engine may still be loading. Suppress
+ * tap-to-play prompts until playback confirms or the transition guard expires.
+ */
+export function shouldSuppressTapToPlayDuringQueueAdvance(flags) {
+  const f = flags || {}
+  return !!(
+    f.playbackTransitionGuardActive
+    && f.playingIntent
+    && !f.userPaused
+    && !f.playbackStarted
+  )
+}
+
+export function shouldShowTapToPlayFromYoutubePoll(
+  snapshot,
+  pollToken,
+  activePollToken,
+  ytPlayerState,
+  isLastAttempt,
+  options
+) {
+  const opts = options || {}
   if (pollToken !== activePollToken) return false
   if (!snapshot.playingIntent || snapshot.playCancelled || snapshot.userPaused) return false
   if (ytPlayerState === YT_STATE.PLAYING) return false
+  if (shouldSuppressTapToPlayDuringQueueAdvance({
+    playbackTransitionGuardActive: opts.playbackTransitionGuardActive,
+    playingIntent: snapshot.playingIntent,
+    userPaused: snapshot.userPaused,
+    playbackStarted: opts.playbackStarted,
+  })) {
+    return false
+  }
   if (isLastAttempt && ytPlayerState !== YT_STATE.BUFFERING
     && youtubeAutoplayAppearsBlocked(snapshot, ytPlayerState)) {
     return true

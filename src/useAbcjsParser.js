@@ -3,7 +3,7 @@ import useAbcTools from './useAbcTools'
 import useUtils from './useUtils'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { getBarModel, normalizeMeter, beatPositionsForBarChords as barModelBeatPositions } from './barModel'
-import { normalizeChordChartRepeatMarks } from './chordSheetUtils'
+import { normalizeChordChartRepeatMarks, isSectionMarkerChordName, isSectionMarkerToken, sectionMarkerChartLine, sectionMarkerAbcChordName, isInlineSignatureToken, isSectionHeader } from './chordSheetUtils'
 
 /**
  * Utilities for converting to/from abcjs object format
@@ -347,10 +347,15 @@ export default function useAbcjsParser() {
         // Display charts only: carry |: / [1 / [2 onto the next written bar.
         var pendingStartRepeat = false
         var pendingEndingLabel = null
+        var pendingLineSectionMarker = null
         
         function writeBar(barLayout, closeBarline) {
             var close = closeBarline || '|'
             var chunks = []
+            if (pendingLineSectionMarker && showDots) {
+              final.push(pendingLineSectionMarker)
+              pendingLineSectionMarker = null
+            }
             if (!showDots) {
                 if (pendingStartRepeat) {
                     chunks.push('|:')
@@ -415,6 +420,12 @@ export default function useAbcjsParser() {
                             if (Array.isArray(symbol.chord) && symbol.chord.length > 0) {
                                 symbol.chord.forEach(function(chordT) {
                                     chordT.name.trim().split("\n").forEach(function(chord) {
+                                        if (isSectionMarkerChordName(chord)) {
+                                          if (showDots) {
+                                            pendingLineSectionMarker = sectionMarkerChartLine(chord)
+                                          }
+                                          return
+                                        }
                                         var renderedChord2 = cleanChord(key, chord, transpose)
                                     
                                         var assignChordToBeat = Math.round(noteLengthsSinceLastBar / noteLength)
@@ -463,7 +474,20 @@ export default function useAbcjsParser() {
                                    pendingEndingLabel = symbol.startEnding
                                }
                            } else {
-                               writeBar(barLayout)
+                               if (!isAnacrusis && !isEmptyBar) writeBar(barLayout, closeBarline)
+                               // Hymns often start the chorus with |: rather than ||.
+                               // Emit a blank line so verse/chorus become separate blocks.
+                               if (symbol.type === 'bar_left_repeat') {
+                                   pendingStartRepeat = true
+                                   if (hasWrittenBar) {
+                                       final.push("\n")
+                                   }
+                               } else if (symbol.type === 'bar_dbl_repeat') {
+                                   pendingStartRepeat = true
+                                   if (hasWrittenBar) {
+                                       final.push("\n")
+                                   }
+                               }
                            }
                            hasWrittenBar = true
                            noteLengthsSinceLastBar = 0
@@ -553,6 +577,8 @@ export default function useAbcjsParser() {
         var tempoByBarKey = {}
         var initialMeter = currentMeter
         var initialTempo = currentTempo
+        var sectionMarkersByLine = {}
+        var pendingSectionMarker = null
         if (chordText && chordText.trim()) {
             var lines = chordText.trim().split("\n")
             var nonEmptyChordLineIndex = -1
@@ -563,6 +589,11 @@ export default function useAbcjsParser() {
                   cleanLine = cleanLine.slice(0, -2)
               } else if (cleanLine.endsWith('|')) {
                   cleanLine = cleanLine.slice(0, -1)
+              }
+              if (isSectionMarkerToken(cleanLine) || (/^#+\s+/.test(cleanLine) && isSectionHeader(cleanLine))) {
+                pendingSectionMarker = sectionMarkerAbcChordName(cleanLine)
+                sectionMarkersByLine[lineNumber] = pendingSectionMarker
+                return
               }
               var bars = cleanLine.split("|")
               var lineHasChords = bars.some(function(bar) { return typeof bar === 'string' && bar.trim() })
@@ -579,6 +610,7 @@ export default function useAbcjsParser() {
                       noteLengthsPerBar = barModel.unitSlotsPerBar
                       if (lineNumber === 0 && bk === 0) initialMeter = currentMeter
                     }
+                    var keyMatch = /\[K:\s*([^\]]+)\]/i.exec(bar)
                     var tempoMatch = /\[Q:\s*([^\]]+)\]/i.exec(bar)
                     if (tempoMatch) {
                       var parsedTempo = abcTools.cleanTempo(tempoMatch[1])
@@ -590,6 +622,7 @@ export default function useAbcjsParser() {
                     meterByBarKey[lineNumber + '-' + bk] = currentMeter
                     if (currentTempo > 0) tempoByBarKey[lineNumber + '-' + bk] = currentTempo
                     var barWithoutMeta = bar
+                      .replace(/\[K:\s*[^\]]+\]/gi, ' ')
                       .replace(/\[M:\s*[^\]]+\]/gi, ' ')
                       .replace(/\[Q:\s*[^\]]+\]/gi, ' ')
                       .trim()
@@ -597,8 +630,15 @@ export default function useAbcjsParser() {
                       result[lineNumber][bk] = {}
                       return
                     }
+                    void keyMatch
                     // cull empties and ensure valid chords
-                    var barChords = barWithoutMeta.split(" ").filter(function(val) {if (!val || !val.trim()) return false; else return true}).map(function(chord) {
+                    var barChords = barWithoutMeta.split(" ").filter(function(val) {
+                        if (!val || !val.trim()) return false
+                        if (isSectionMarkerToken(val)) return false
+                        if (isInlineSignatureToken(val)) return false
+                        return true
+                    }).map(function(chord) {
+                        if (chord === '.' || String(chord).replace(/\./g, '').trim() === '') return '.'
                         var clean = cleanChord(key, chord)
                         return clean
                     })
@@ -624,6 +664,11 @@ export default function useAbcjsParser() {
                             newChords[position].push(barChords[barTokenKey])  
                         }
                     })
+                    if (pendingSectionMarker && lineHasChords && bk === 0) {
+                      if (!Array.isArray(newChords[0])) newChords[0] = []
+                      newChords[0].unshift(pendingSectionMarker)
+                      pendingSectionMarker = null
+                    }
                   
                     result[lineNumber][bk] = newChords
                   }
@@ -637,6 +682,7 @@ export default function useAbcjsParser() {
           tempoByBarKey: tempoByBarKey,
           initialMeter: initialMeter,
           initialTempo: initialTempo,
+          sectionMarkersByLine: sectionMarkersByLine,
         }
     }
     

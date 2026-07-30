@@ -15,8 +15,10 @@ services:
     environment:
       AUDIO_CPP_SERVER_BIN: /audio-cpp/build/linux-vulkan-release/bin/audiocpp_server
       AUDIO_CPP_CONFIG: /app/server.docker.json
+      AUDIO_CPP_INPUT_DIR: /audio-cpp-incoming
     volumes:
       - "${AUDIO_CPP_HOST_DIR:-${HOME}/audio.cpp}:/audio-cpp:ro"
+      - "${AUDIO_CPP_HOST_DIR:-${HOME}/audio.cpp}/incoming:/audio-cpp-incoming"
     devices:
       - /dev/dri:/dev/dri
       - /dev/kfd:/dev/kfd
@@ -53,10 +55,12 @@ services:
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
       - "${MUSIC_COLLECTION_HOST_DIR:-./music-collection}:/music-collection:ro"
       - ../:/app/www:ro
+      - "${AUDIO_CPP_HOST_DIR:-${HOME}/audio.cpp}/incoming:/audio-cpp-incoming"
       - snapcast_run:/run/snapcast
     environment:
       # In-compose sidecar; override in .env for a host-managed process instead.
       AUDIO_CPP_URL: ${AUDIO_CPP_URL:-http://audio-cpp:8788}
+      AUDIO_CPP_INPUT_DIR: ${AUDIO_CPP_INPUT_DIR:-/audio-cpp-incoming}
       PORT: "8787"
       STATIC_SITE_DIR: /app/www
       SOUNDFONT_DIR: /soundfonts
@@ -67,10 +71,12 @@ services:
       MUSIC_COLLECTION_INDEX_DIR: /app/data/music-collection
       SOUNDFONT_DOWNLOAD_ENABLED: "${SOUNDFONT_DOWNLOAD_ENABLED:-true}"
       SNAPCAST_ENABLED: "${SNAPCAST_ENABLED:-false}"
+      SNAPCAST_TCP_MODE: "${SNAPCAST_TCP_MODE:-client}"
+      SNAPCAST_TCP_TARGET: "${SNAPCAST_TCP_TARGET:-snapserver:4954}"
       SNAPCAST_TCP_BIND: "${SNAPCAST_TCP_BIND:-0.0.0.0:4954}"
       SNAPCAST_SERVER_HOST: "${SNAPCAST_SERVER_HOST:-snapserver}"
       SNAPCAST_STREAM_NAME: "${SNAPCAST_STREAM_NAME:-TuneBook}"
-      SNAPCAST_PLUGIN_URL: "${SNAPCAST_PLUGIN_URL:-http://127.0.0.1:8787/snapcast-playback/plugin}"
+      SNAPCAST_PLUGIN_URL: "${SNAPCAST_PLUGIN_URL:-http://local-resolver:8787/snapcast-playback/plugin}"
       # Auth settings (REQUIRE_AUTH, GOOGLE_CLIENT_ID, ALLOWED_EMAILS, ALLOWED_ORIGINS)
       # come from .env via env_file above. Do NOT hardcode REQUIRE_AUTH here, because
       # values in this environment block override env_file and would disable auth.
@@ -103,6 +109,10 @@ services:
       retries: 3
       start_period: 90s
     restart: unless-stopped
+    depends_on:
+      snapserver:
+        condition: service_healthy
+        required: false
 
   # OpenAI-compatible LLM (llama.cpp Vulkan) using the same GGUF LM Studio uses.
   # Set LLM_EXTERNAL_BASE_URL to skip model load and reverse-proxy an external
@@ -193,18 +203,16 @@ services:
       start_period: 20s
     restart: unless-stopped
 
-  # Text-to-speech stack (profile `tts`). Gateway on :8789 auto-selects Kokoro GPU
-  # when healthy (profile `tts-gpu`, AMD ROCm) else Piper CPU.
+  # Text-to-speech stack (profile `tts` = gateway). Backends:
+  #   profile `tts-gpu` — Kokoro (AMD ROCm or Strix Halo CPU image via tts-up.sh)
+  #   profile `tts-cpu` — Piper fallback (only when Kokoro is not used)
   #   ./scripts/tts-up.sh
-  # or manually:
-  #   docker compose --profile tts --profile tts-gpu up -d --build   # AMD GPU
-  #   docker compose --profile tts up -d --build                     # CPU only
   tts-cpu:
     build:
       context: ./tts
       dockerfile: Dockerfile
     container_name: abc2book-tts-cpu
-    profiles: ["tts"]
+    profiles: ["tts-cpu"]
     environment:
       TTS_PIPER_VOICE: ${TTS_PIPER_VOICE:-en_US-lessac-medium}
       TTS_PIPER_DATA_DIR: /voices
@@ -225,15 +233,23 @@ services:
     restart: unless-stopped
 
   tts-gpu:
-    image: ghcr.io/remsky/kokoro-fastapi-rocm:latest
+    # Kokoro primary backend (OpenAI-compatible :8880). Default ROCm image; on Strix Halo
+    # (gfx1151) tts-up.sh auto-selects the CPU image — ROCm 6.4 segfaults on gfx1151.
+    image: ${TTS_KOKORO_IMAGE:-ghcr.io/remsky/kokoro-fastapi-rocm:latest}
     container_name: abc2book-tts-gpu
     profiles: ["tts-gpu"]
+    security_opt:
+      - seccomp:unconfined
+    ulimits:
+      memlock: -1
     environment:
-      USE_GPU: "true"
-      DEVICE: gpu
+      USE_GPU: ${TTS_KOKORO_USE_GPU:-true}
+      DEVICE: ${TTS_KOKORO_DEVICE:-gpu}
       DOWNLOAD_MODEL: "true"
       MIOPEN_FIND_MODE: "2"
       TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL: "1"
+      HSA_OVERRIDE_GFX_VERSION: ${HSA_OVERRIDE_GFX_VERSION:-}
+      HSA_ENABLE_SDMA: ${HSA_ENABLE_SDMA:-}
     devices:
       - /dev/dri:/dev/dri
       - /dev/kfd:/dev/kfd
@@ -244,8 +260,8 @@ services:
       - "c 226:* rmw"
       - "c 511:* rmw"
     volumes:
-      - tts_miopen_config:/home/appuser/.config/miopen
-      - tts_miopen_cache:/home/appuser/.cache/miopen
+      - tts_kokoro_config:/home/appuser/.config
+      - tts_kokoro_cache:/home/appuser/.cache
     healthcheck:
       test:
         [
@@ -254,8 +270,8 @@ services:
         ]
       interval: 30s
       timeout: 10s
-      retries: 5
-      start_period: 300s
+      retries: 8
+      start_period: 600s
     restart: unless-stopped
 
   tts-gateway:
@@ -276,9 +292,6 @@ services:
       TTS_PRIMARY_PROBE_PATH: /health
       TTS_FALLBACK_PROBE_PATH: /info
       TTS_GATEWAY_HEALTH_TTL_SECONDS: ${TTS_GATEWAY_HEALTH_TTL_SECONDS:-15}
-    depends_on:
-      tts-cpu:
-        condition: service_started
     healthcheck:
       test:
         [
@@ -332,7 +345,10 @@ services:
     restart: unless-stopped
 
   snapserver:
-    image: ghcr.io/badaix/snapserver:latest
+    build:
+      context: ./snapcast
+      dockerfile: Dockerfile.snapserver
+    image: abc2book-snapserver:local
     container_name: abc2book-snapserver
     profiles: ["snapcast"]
     ports:
@@ -376,9 +392,26 @@ services:
       SNAPCLIENT_SOUNDCARD: "${SNAPCLIENT_SOUNDCARD:-default}"
     restart: unless-stopped
 
+  # Stripe PayPal Custom Payment Method adapter (after Stripe approval).
+  # See PAYPAL_CPM.md. Replace image/ports with Stripe's deployment guide.
+  #   docker compose --profile paypal-cpm up -d
+  paypal-cpm:
+    image: "${PAYPAL_CPM_IMAGE:-stripe/paypal-cpm-adapter:latest}"
+    container_name: abc2book-paypal-cpm
+    profiles: ["paypal-cpm"]
+    env_file:
+      - .env
+    environment:
+      PAYPAL_CPM_LISTEN_PORT: "${PAYPAL_CPM_LISTEN_PORT:-8080}"
+    ports:
+      - "${PAYPAL_CPM_PUBLISH_PORT:-8080}:8080"
+    restart: unless-stopped
+
 volumes:
   caddy_data:
   caddy_config:
+  tts_kokoro_config:
+  tts_kokoro_cache:
   tts_miopen_config:
   tts_miopen_cache:
   tts_piper_voices:

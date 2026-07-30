@@ -186,6 +186,26 @@ describe('nowPlayingQueuePlayback', function() {
     })).toBe(true)
   })
 
+  test('shouldNowPlayingHostOwnPlayback does not mount on books page for idle route mode only', function() {
+    const tunes = {
+      playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] },
+    }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: null,
+      queue: null,
+      mediaController: {
+        tune: tunes.playing,
+        playbackRouteMode: 'media',
+        hasActivePlaybackIntent: function() { return false },
+        canResumePlayback: function() { return false },
+      },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/books',
+      tunes: tunes,
+    })).toBe(false)
+  })
+
   test('shouldMusicSingleOwnPlayback on list or settings uses background host', function() {
     expect(shouldMusicSingleOwnPlayback(null, queue)).toBe(false)
     expect(shouldMusicSingleOwnPlayback(undefined, queue)).toBe(false)

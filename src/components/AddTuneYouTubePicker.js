@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Alert, Button, Form, ListGroup, Spinner } from 'react-bootstrap'
 import { MAX_MEDIA_SEARCH_RESULTS, searchMediaLinks } from '../mediaLinkSearchClient'
 import { getMediaSearchAccess } from '../mediaSearchAccess'
+import { openCreditSettings } from '../resolverCreditAccess'
 import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
 import { resolveResolverAccessToken } from '../resolverAccessToken'
 import useMediaResolverHealth from '../useMediaResolverHealth'
@@ -172,6 +173,11 @@ export default function AddTuneYouTubePicker(props) {
             {mediaSearchAccess.loginWarning.showLoginButton && typeof props.login === 'function' ? (
               <Button variant="outline-warning" size="sm" onClick={handleLogin}>
                 Log in with Google
+              </Button>
+            ) : null}
+            {mediaSearchAccess.loginWarning.showBuyCreditButton ? (
+              <Button variant="outline-warning" size="sm" onClick={openCreditSettings}>
+                Buy credit
               </Button>
             ) : null}
           </div>

@@ -421,11 +421,10 @@ export const EDITOR_VIEW_MODES = [
   { id: 'info', label: 'Info' },
   { id: 'music', label: 'Music' },
   { id: 'lyrics', label: 'Lyrics' },
-  { id: 'chords', label: 'Chords' },
 ];
 
 /** Editor URL segments that are Music subviews (not header tabs). */
-export const EDITOR_MUSIC_SUBVIEWS = ['pianoRoll', 'notationAbc'];
+export const EDITOR_MUSIC_SUBVIEWS = ['pianoRoll', 'notationAbc', 'chords'];
 
 function isCompositeViewMode(mode) {
   if (!mode || typeof mode !== 'string') return false;
@@ -500,7 +499,7 @@ export function normalizeEditorViewMode(mode) {
 
 export function isNotationEditorView(mode) {
   const normalized = normalizeEditorViewMode(mode);
-  return normalized === 'music' || normalized === 'pianoRoll' || normalized === 'notationAbc';
+  return normalized === 'music' || normalized === 'pianoRoll' || normalized === 'notationAbc' || normalized === 'chords';
 }
 
 /**
@@ -519,6 +518,7 @@ export function isEditorNotationPath(pathname) {
 export function editorViewModeToNotationView(mode) {
   const normalized = normalizeEditorViewMode(mode);
   if (normalized === 'pianoRoll') return 'pianoRoll';
+  if (normalized === 'chords') return 'chords';
   if (normalized === 'music') return 'staff';
   if (normalized === 'notationAbc') return 'abc';
   return 'staff';
@@ -528,16 +528,17 @@ export function getEditorViewModeLabel(mode) {
   var normalized = normalizeEditorViewMode(mode);
   var entry = EDITOR_VIEW_MODES.find(function(item) { return item.id === normalized; });
   if (entry) return entry.label;
-  // Handle music subviews (pianoRoll, notationAbc) which are not in EDITOR_VIEW_MODES
+  // Handle music subviews (pianoRoll, notationAbc, chords) which are not in EDITOR_VIEW_MODES
   if (normalized === 'pianoRoll') return 'Piano roll';
   if (normalized === 'notationAbc') return 'ABC Notes';
+  if (normalized === 'chords') return 'Chords';
   return 'Info';
 }
 
 /** Header tab id for highlighting (pianoRoll/notationAbc → music). */
 export function getPrimaryEditorViewMode(mode) {
   var normalized = normalizeEditorViewMode(mode);
-  if (normalized === 'pianoRoll' || normalized === 'notationAbc') return 'music';
+  if (normalized === 'pianoRoll' || normalized === 'notationAbc' || normalized === 'chords') return 'music';
   return normalized;
 }
 
@@ -545,6 +546,7 @@ export function getPrimaryEditorViewMode(mode) {
 export function notationViewToEditorViewMode(view) {
   if (view === 'pianoRoll') return 'pianoRoll';
   if (view === 'abc') return 'notationAbc';
+  if (view === 'chords') return 'chords';
   return 'music'; // staff (and any other)
 }
 

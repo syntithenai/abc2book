@@ -18,6 +18,7 @@ import { countVoiceBars, maxVoiceBarCount } from './scratchpadNotationMerge';
 import { parseVoiceEvents, beatsToDuration } from './notation/voiceEventModel';
 import { serializeVoiceEvents } from './notation/abcVoiceSerializer';
 import { parseNoteLengthDecimal, beatsPerBarFromMeter } from './notation/beatGrid';
+import { quantizeVoiceEvents } from './notation/quantizeVoiceEvents';
 
 function getNoteLines(tune) {
   if (!tune || !tune.voices) return [];
@@ -111,20 +112,63 @@ export function canNormalizeMelodyRepeatMarks(tune) {
   });
 }
 
+const HEADER_FIELD_MAP = { M: 'meter', K: 'key', L: 'noteLength', Q: 'tempo' };
+
 export function syncTuneFieldsFromAbc(tune, abcTools) {
   if (!tune || !abcTools || typeof abcTools.getMetaValueFromAbc !== 'function') return null;
   const abcText = abcTools.json2abc(tune);
   const next = Object.assign({}, tune);
   let changed = false;
 
-  ['M', 'K', 'L', 'Q'].forEach(function(header) {
+  Object.keys(HEADER_FIELD_MAP).forEach(function(header) {
     const fromAbc = String(abcTools.getMetaValueFromAbc(header, abcText) || '').trim();
     if (!fromAbc) return;
-    const fieldMap = { M: 'meter', K: 'key', L: 'noteLength', Q: 'tempo' };
-    const field = fieldMap[header];
+    const field = HEADER_FIELD_MAP[header];
     const current = String(next[field] || '').trim();
     if (!current && fromAbc) {
       next[field] = fromAbc;
+      changed = true;
+    }
+  });
+
+  return changed ? next : null;
+}
+
+/** Prefer ABC header values when tune fields conflict. */
+export function resolveHeaderConflictFromAbc(tune, abcTools) {
+  if (!tune || !abcTools || typeof abcTools.getMetaValueFromAbc !== 'function') return null;
+  const abcText = abcTools.json2abc(tune);
+  const next = Object.assign({}, tune);
+  let changed = false;
+
+  Object.keys(HEADER_FIELD_MAP).forEach(function(header) {
+    const fromAbc = String(abcTools.getMetaValueFromAbc(header, abcText) || '').trim();
+    if (!fromAbc) return;
+    const field = HEADER_FIELD_MAP[header];
+    const current = String(next[field] || '').trim();
+    if (current && current !== fromAbc) {
+      next[field] = fromAbc;
+      changed = true;
+    }
+  });
+
+  return changed ? next : null;
+}
+
+/** Prefer tune field values over ABC headers (updates tune object for json2abc round-trip). */
+export function resolveHeaderConflictFromTune(tune, abcTools) {
+  if (!tune || !abcTools || typeof abcTools.getMetaValueFromAbc !== 'function') return null;
+  const abcText = abcTools.json2abc(tune);
+  const next = Object.assign({}, tune);
+  let changed = false;
+
+  Object.keys(HEADER_FIELD_MAP).forEach(function(header) {
+    const field = HEADER_FIELD_MAP[header];
+    const fromTune = String(next[field] || '').trim();
+    if (!fromTune) return;
+    const fromAbc = String(abcTools.getMetaValueFromAbc(header, abcText) || '').trim();
+    if (fromAbc && fromAbc !== fromTune) {
+      next[field] = fromTune;
       changed = true;
     }
   });
@@ -453,6 +497,226 @@ export function padVoicesToMatchInTune(tune) {
   return changed ? next : null;
 }
 
+export function wrapEndingInRepeatInTune(tune) {
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const flat = flattenMelodyText(noteLines);
+  const endingIndex = flat.search(/\[[0-9]+\]|\[[0-9]+(?=\s)/);
+  if (endingIndex < 0) return null;
+
+  const before = flat.slice(0, endingIndex).replace(/\s+$/, '');
+  if (/\|:\s*$/.test(before) || /::\s*$/.test(before)) return null;
+
+  let nextFlat = before + ' |: ' + flat.slice(endingIndex).trim();
+  if (!/:\|\s*$/.test(nextFlat.replace(/\s+/g, ' ').trim())) {
+    nextFlat = nextFlat.replace(/\|?\s*$/, '') + ' :|';
+  }
+
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
+  return next;
+}
+
+export function removeEmptyVoiceInTune(tune) {
+  if (!tune || !tune.voices) return null;
+  const keys = Object.keys(tune.voices);
+  if (keys.length <= 1) return null;
+  const primary = resolvePrimaryVoiceKey(tune.voices);
+  const next = Object.assign({}, tune);
+  next.voices = Object.assign({}, tune.voices);
+  let changed = false;
+
+  keys.forEach(function(key) {
+    if (key === primary) return;
+    const voice = tune.voices[key];
+    const notes = voice && Array.isArray(voice.notes) ? voice.notes : [];
+    const hasContent = notes.some(function(line) { return String(line || '').trim().length > 0; });
+    if (!hasContent) {
+      delete next.voices[key];
+      changed = true;
+    }
+  });
+
+  return changed ? next : null;
+}
+
+function scaffoldRestForBar(tune) {
+  const meta = tuneMetaForFix(tune);
+  const beats = beatsPerBarFromMeter(meta.meter);
+  const unit = parseNoteLengthDecimal(meta.noteLength, meta.meter);
+  return serializeVoiceEvents([{
+    id: 'scaffold-rest',
+    type: 'rest',
+    duration: beatsToDuration(beats, unit),
+    tieStart: false,
+    tieEnd: false,
+  }], meta).trim();
+}
+
+export function convertScaffoldToRestsInTune(tune) {
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const flat = flattenMelodyText(noteLines);
+  const bars = extractBarsFromMelodyText(flat);
+  if (!bars.length) return null;
+
+  const restText = scaffoldRestForBar(tune);
+  let changed = false;
+  const rebuilt = bars.map(function(bar) {
+    if (classifyBar(bar) === 'chord_scaffold') {
+      changed = true;
+      return restText;
+    }
+    return bar;
+  });
+  if (!changed) return null;
+
+  const nextFlat = rebuilt.join(' | ');
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
+  return next;
+}
+
+export function declarePickupLengthInTune(tune, abcTools, parseAndRender) {
+  if (!tune || !abcTools) return null;
+  if (typeof parseAndRender === 'function') {
+    const normalized = normalizeTuneAbc(tune, abcTools, parseAndRender);
+    if (normalized) return normalized;
+  }
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const flat = flattenMelodyText(noteLines);
+  if (/^\s*\|/.test(flat)) return null;
+  return null;
+}
+
+export function removeOrphanRepeatEndInTune(tune) {
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const flat = flattenMelodyText(noteLines);
+  const idx = flat.indexOf(':|');
+  if (idx < 0) return null;
+  const before = flat.slice(0, idx);
+  if (/\|:/.test(before)) return null;
+
+  const nextFlat = (before.trim() + ' ' + flat.slice(idx + 2).trim()).replace(/\s+/g, ' ').trim();
+  if (!nextFlat || nextFlat === flat.replace(/\s+/g, ' ').trim()) return null;
+
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
+  return next;
+}
+
+export function closeRepeatAtEndInTune(tune) {
+  return closeOpenRepeatInTune(tune);
+}
+
+function endingBarCounts(flat) {
+  const counts = {};
+  let current = null;
+  const parts = String(flat || '').split('|');
+  parts.forEach(function(segment) {
+    const endingMatch = segment.match(/\[([0-9]+)\]/);
+    if (endingMatch) {
+      current = '[' + endingMatch[1] + ']';
+      if (!counts[current]) counts[current] = 0;
+      return;
+    }
+    if (current && segment.trim()) {
+      counts[current] += 1;
+    }
+  });
+  return counts;
+}
+
+export function balanceEndingsInTune(tune) {
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const flat = flattenMelodyText(noteLines);
+  const counts = endingBarCounts(flat);
+  const keys = Object.keys(counts);
+  if (keys.length < 2) return null;
+
+  const maxBars = Math.max.apply(null, keys.map(function(key) { return counts[key]; }));
+  const minBars = Math.min.apply(null, keys.map(function(key) { return counts[key]; }));
+  if (maxBars === minBars) return null;
+
+  const restText = scaffoldRestForBar(tune);
+  let nextFlat = flat;
+  keys.forEach(function(key) {
+    const deficit = maxBars - counts[key];
+    if (deficit <= 0) return;
+    const marker = key.replace(/[\[\]]/g, '\\$&');
+    const re = new RegExp('(' + marker + '[^|]*)(\\s*\\|)', '');
+    let pads = '';
+    for (let i = 0; i < deficit; i += 1) pads += ' ' + restText + ' |';
+    nextFlat = nextFlat.replace(re, '$1' + pads + '$2');
+  });
+
+  if (nextFlat === flat) return null;
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
+  return next;
+}
+
+export function quantizeOverfullBarsInTune(tune) {
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const meta = tuneMetaForFix(tune);
+  const events = parseVoiceEvents(flattenMelodyText(noteLines), meta);
+  const quantized = quantizeVoiceEvents(events, {
+    meter: meta.meter,
+    noteLength: meta.noteLength,
+    beatsPerBar: beatsPerBarFromMeter(meta.meter),
+    strength: 1,
+    slotsPerBeat: 4,
+  });
+  if (quantized.unchanged) return null;
+  const body = serializeVoiceEvents(quantized, meta);
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], {
+    notes: body.split('\n'),
+  });
+  return next;
+}
+
+export function fillSparseBarsInTune(tune) {
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const flat = flattenMelodyText(noteLines);
+  const bars = extractBarsFromMelodyText(flat);
+  if (!bars.length) return null;
+
+  const restText = scaffoldRestForBar(tune);
+  let changed = false;
+  const rebuilt = bars.map(function(bar) {
+    const kind = classifyBar(bar);
+    if (kind === 'empty' || kind === 'chord_scaffold') {
+      changed = true;
+      return restText;
+    }
+    return bar;
+  });
+  if (!changed) return null;
+
+  const nextFlat = rebuilt.join(' | ');
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
+  return next;
+}
+
 export function rebuildWLinesInTune(tune) {
   if (!tune) return null;
   const wLines = applyNoteSpacingToTune(tune);
@@ -501,6 +765,10 @@ export function previewStructureFix(action, tune, abcTools, parseAndRender) {
     next = fixSessionLineBreaksInTune(tune, abcTools);
   } else if (action === 'syncHeadersFromAbc') {
     next = syncTuneFieldsFromAbc(tune, abcTools);
+  } else if (action === 'resolveHeaderConflict') {
+    next = resolveHeaderConflictFromAbc(tune, abcTools);
+  } else if (action === 'resolveHeaderConflictFromTune') {
+    next = resolveHeaderConflictFromTune(tune, abcTools);
   } else if (action === 'stanzaDoubleBarlines') {
     next = fixStanzaDoubleBarlinesInTune(tune, abcTools);
   } else if (action === 'normalizeRepeatMarks') {
@@ -523,6 +791,24 @@ export function previewStructureFix(action, tune, abcTools, parseAndRender) {
     next = rebuildWLinesInTune(tune);
   } else if (action === 'relayoutNoteLines') {
     next = relayoutNoteLinesInTune(tune, abcTools);
+  } else if (action === 'wrapEndingInRepeat') {
+    next = wrapEndingInRepeatInTune(tune);
+  } else if (action === 'removeEmptyVoice') {
+    next = removeEmptyVoiceInTune(tune);
+  } else if (action === 'declarePickupLength') {
+    next = declarePickupLengthInTune(tune, abcTools, parseAndRender);
+  } else if (action === 'convertScaffoldToRests') {
+    next = convertScaffoldToRestsInTune(tune);
+  } else if (action === 'quantizeOverfullBars') {
+    next = quantizeOverfullBarsInTune(tune);
+  } else if (action === 'balanceEndings') {
+    next = balanceEndingsInTune(tune);
+  } else if (action === 'closeRepeatAtEnd') {
+    next = closeRepeatAtEndInTune(tune);
+  } else if (action === 'removeOrphanRepeatEnd') {
+    next = removeOrphanRepeatEndInTune(tune);
+  } else if (action === 'fillSparseBars') {
+    next = fillSparseBarsInTune(tune);
   }
 
   if (!next) return null;
@@ -557,6 +843,9 @@ export function structureFixAvailable(action, tune, abcTools, issues) {
       || needsSessionLineBreakFix(abcTools.json2abc(tune));
   }
   if (action === 'syncHeadersFromAbc') {
+    return codes.indexOf('header_field_mismatch') >= 0;
+  }
+  if (action === 'resolveHeaderConflict' || action === 'resolveHeaderConflictFromTune') {
     return codes.indexOf('header_field_mismatch') >= 0;
   }
   if (action === 'stanzaDoubleBarlines') {
@@ -599,6 +888,34 @@ export function structureFixAvailable(action, tune, abcTools, issues) {
     return codes.indexOf('visual_line_break_mid_bar') >= 0
       || codes.indexOf('wline_count_mismatch') >= 0;
   }
+  if (action === 'wrapEndingInRepeat') {
+    return codes.indexOf('ending_without_repeat') >= 0;
+  }
+  if (action === 'removeEmptyVoice') {
+    return codes.indexOf('secondary_voice_empty') >= 0;
+  }
+  if (action === 'declarePickupLength') {
+    return codes.indexOf('anacrusis_inconsistent') >= 0;
+  }
+  if (action === 'convertScaffoldToRests') {
+    return codes.indexOf('chord_scaffold_in_melody') >= 0;
+  }
+  if (action === 'quantizeOverfullBars') {
+    return codes.indexOf('overfull_bar') >= 0;
+  }
+  if (action === 'balanceEndings') {
+    return codes.indexOf('ending_bar_mismatch') >= 0;
+  }
+  if (action === 'closeRepeatAtEnd') {
+    return codes.indexOf('unmatched_repeat_start') >= 0
+      || codes.indexOf('truncated_repeat') >= 0;
+  }
+  if (action === 'removeOrphanRepeatEnd') {
+    return codes.indexOf('unmatched_repeat_end') >= 0;
+  }
+  if (action === 'fillSparseBars') {
+    return codes.indexOf('sparse_melody') >= 0;
+  }
   return false;
 }
 
@@ -606,13 +923,24 @@ export const STRUCTURE_FIX_ACTIONS = [
   { id: 'fixHeaders', label: 'Fix missing headers', tier: 'a' },
   { id: 'sessionLineBreaks', label: 'Fix Session ! line breaks', tier: 'a' },
   { id: 'syncHeadersFromAbc', label: 'Sync fields from ABC headers', tier: 'a' },
+  { id: 'resolveHeaderConflict', label: 'Use ABC header values', tier: 'b', requiresPreview: true },
+  { id: 'resolveHeaderConflictFromTune', label: 'Use tune field values', tier: 'b', requiresPreview: true },
   { id: 'stanzaDoubleBarlines', label: 'Insert stanza double bar lines', tier: 'a' },
   { id: 'normalizeRepeatMarks', label: 'Normalize repeat mark spacing', tier: 'a' },
   { id: 'collapseEmptyRepeatBars', label: 'Remove empty bar between repeat marks', tier: 'a' },
   { id: 'closeOpenRepeat', label: 'Close open repeat', tier: 'a' },
+  { id: 'closeRepeatAtEnd', label: 'Close repeat at tune end', tier: 'a' },
+  { id: 'removeOrphanRepeatEnd', label: 'Remove orphan repeat end', tier: 'a' },
+  { id: 'wrapEndingInRepeat', label: 'Wrap ending in repeat marks', tier: 'b', requiresPreview: true },
   { id: 'padBarWithRests', label: 'Pad underfull bars with rests', tier: 'a' },
   { id: 'removeEmptyBars', label: 'Remove empty bars', tier: 'a' },
   { id: 'padVoicesToMatch', label: 'Pad voices to match bar count', tier: 'a' },
+  { id: 'removeEmptyVoice', label: 'Remove empty voice', tier: 'b', requiresPreview: true },
+  { id: 'declarePickupLength', label: 'Fix pickup/anacrusis parsing', tier: 'b', requiresPreview: true },
+  { id: 'convertScaffoldToRests', label: 'Convert chord scaffolds to rests', tier: 'a' },
+  { id: 'quantizeOverfullBars', label: 'Quantize overfull bars', tier: 'b', requiresPreview: true },
+  { id: 'balanceEndings', label: 'Balance first/second endings', tier: 'b', requiresPreview: true },
+  { id: 'fillSparseBars', label: 'Fill sparse bars with rests', tier: 'b', requiresPreview: true },
   { id: 'rebuildWLines', label: 'Rebuild w: lyrics from melody', tier: 'a' },
   { id: 'relayoutNoteLines', label: 'Relayout notation lines', tier: 'b', requiresPreview: true },
   { id: 'normalizeAbc', label: 'Normalize notation (preview)', tier: 'b', requiresPreview: true },

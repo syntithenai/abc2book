@@ -56,6 +56,27 @@ describe('getScratchpadNotationImportAccess', function() {
     expect(access.fileAccept).not.toContain('.mid')
   })
 
+  test('offers buy-credit label when resolver credit is empty', function() {
+    const access = getScratchpadNotationImportAccess({
+      resolverChecked: true,
+      resolverAvailable: false,
+      accessToken: 'token',
+      resolverStatus: {
+        available: false,
+        candidates: [{
+          base: 'https://resolver.example',
+          reachable: true,
+          available: false,
+          requireAuth: true,
+          authReason: 'insufficient_credit',
+        }],
+      },
+    })
+    expect(access.mode).toBe('credit')
+    expect(access.loginImportLabel).toBe('Buy Credit to Import MusicXML/MIDI')
+    expect(access.needsCredit).toBe(true)
+  })
+
   test('offers full import when resolver is available', function() {
     const access = getScratchpadNotationImportAccess({
       resolverChecked: true,

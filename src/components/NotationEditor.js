@@ -23,8 +23,10 @@ import useAbcjsParser from '../useAbcjsParser';
 import useNotationCheck from '../useNotationCheck';
 import NotationIssuesPanel from './NotationIssuesPanel';
 import NotationPasteModeModal from './NotationPasteModeModal';
+import { consumeFocusNotationChecks } from '../bulkCheckReturnContext';
 import { notationViewToEditorViewMode } from '../viewModeUtils';
 import { serializeVoiceEvents } from '../notation/abcVoiceSerializer';
+import NotationSectionLabelsOverlay from './NotationSectionLabelsOverlay';
 import { buildAbcPreviewFromBodies, voiceDisplayLabel, mapAbcClickToVoiceCursor } from '../notation/notationDisplayAbc';
 import { activeVoiceIndicesFromTune } from '../abcVoiceViewSettings';
 import { notationSessionReducer, createInitialSession } from '../notation/notationSession';
@@ -157,6 +159,7 @@ import {
 import { useNoteAudition } from '../hooks/useNoteAudition';
 import NotationAnnotOverlay from './NotationAnnotOverlay';
 import NotationFingeringLabelsOverlay from './NotationFingeringLabelsOverlay';
+import ChordsWizard from './ChordsWizard';
 import './NotationEditor.css';
 
 function voiceBodyForSession(notes) {
@@ -2306,7 +2309,7 @@ export default function NotationEditor(props) {
     setInlineSigModal({ kind: kind });
   }
 
-  function applyInlineSignature(value) {
+  function applyInlineSignature(value, opts) {
     const modal = inlineSigModal;
     if (!modal) return;
     const s = sessionWithEditSelection(sessionRef.current);
@@ -2326,6 +2329,10 @@ export default function NotationEditor(props) {
       label = modal.kind === 'key' ? 'Insert key change' : 'Insert time signature change';
     }
     if (patch) applyEvents(patch, s.view, label);
+    if (opts && opts.keepOpen && modal.kind === 'meter' && modal.eventId) {
+      setInlineSigModal(Object.assign({}, modal, { initialMeter: value }));
+      return;
+    }
     setInlineSigModal(null);
   }
 
@@ -2632,6 +2639,7 @@ export default function NotationEditor(props) {
     const staffPlaceholder = session.view === EDITOR_VIEWS.STAFF || session.view === EDITOR_VIEWS.SPLIT;
     return buildAbcPreviewFromBodies(props.tune, props.tunebook, displayedVoiceKeys, bodies, {
       staffPlaceholder: staffPlaceholder,
+      stripSectionMarkerChords: staffPlaceholder,
     });
   }, [props.tune, props.tunebook, displayedVoiceKeys, displayedVoiceBodiesKey, session.view]);
 
@@ -2656,7 +2664,33 @@ export default function NotationEditor(props) {
       : null,
     parseAndRender: parseAndRenderAbc,
     skipRenderAbc: true,
+    activeVoiceKey: props.voiceKey,
   });
+
+  const [issuesAutoOpen] = useState(function() {
+    return props.tune && props.tune.id && consumeFocusNotationChecks(props.tune.id) ? 'error' : null;
+  });
+
+  useEffect(function() {
+    if (!props.onIssueCountsChange) return undefined;
+    const issues = notationCheck.issues || [];
+    props.onIssueCountsChange({
+      errorCount: issues.filter(function(item) { return item.severity === 'error'; }).length,
+      warningCount: issues.filter(function(item) {
+        return item.severity === 'warning' || item.severity === 'info';
+      }).length,
+    });
+    return undefined;
+  }, [notationCheck.issues, props.onIssueCountsChange]);
+
+  const notationCheckRefreshRef = useRef(notationCheck.refresh);
+  notationCheckRefreshRef.current = notationCheck.refresh;
+
+  useEffect(function() {
+    return function() {
+      notationCheckRefreshRef.current();
+    };
+  }, []);
 
   const handleNavigateIssue = useCallback(function(issueItem) {
     if (!issueItem) return;
@@ -2713,6 +2747,7 @@ export default function NotationEditor(props) {
   const isStaffLikeView = isStaffView || isSplitView;
   const isPianoRollVisible = isPianoRollView || isSplitView;
   const isAbcView = session.view === EDITOR_VIEWS.ABC;
+  const isChordsView = session.view === EDITOR_VIEWS.CHORDS;
 
   useLayoutEffect(function() {
     const mc = props.mediaController;
@@ -3089,6 +3124,12 @@ export default function NotationEditor(props) {
         displayAbc={displayAbc}
         voiceStaffIndex={activeVoiceStaffIndex}
       />
+      <NotationSectionLabelsOverlay
+        containerRef={staffWrapRef}
+        session={session}
+        displayAbc={displayAbc}
+        voiceStaffIndex={activeVoiceStaffIndex}
+      />
       {annotEdit ? (
         <NotationAnnotOverlay
           mode={annotEdit.mode}
@@ -3178,37 +3219,41 @@ export default function NotationEditor(props) {
 
       {!isStaffLikeView ? (
         <div className="notation-nonstaff-controls notation-nonstaff-controls-main mb-2 d-flex align-items-center gap-2 flex-wrap">
-          <NotationPlaybackControls
-            mediaController={props.mediaController}
-            tune={props.tune}
-            tunebook={props.tunebook}
-            getSession={function() { return sessionWithEditSelection(sessionRef.current); }}
-            getLastNoteSelection={function() { return lastNoteSelectionRef.current; }}
-            tempo={tuneMeta.tempo}
-            playbackContext={resolvePlaybackContext()}
-            playbackControlRef={notationPlaybackControlRef}
-            onRefresh={props.forceRefresh}
-          />
-          <NotationVoicesDropdown
-            tune={props.tune}
-            voiceNames={voiceNames}
-            voiceIndex={props.voiceIndex}
-            displayedVoiceIndices={displayedVoiceIndices}
-            onVoiceSelect={handleVoiceSelect}
-            onDisplayedVoicesChange={handleDisplayedVoicesChange}
-            onVoiceNameChange={props.onVoiceMetaChange}
-            onVoiceNotesChange={props.onVoiceNotesChange}
-            onAddVoice={function() {
-              if (sessionRef.current.view === EDITOR_VIEWS.ABC) {
-                flushAllAbcDrafts();
-              } else {
-                flushCommit();
-              }
-              if (props.onAddVoice) props.onAddVoice();
-            }}
-            onDeleteVoice={props.onDeleteVoice}
-            onReorderVoices={props.onReorderVoices}
-          />
+          {!isChordsView ? (
+            <>
+              <NotationPlaybackControls
+                mediaController={props.mediaController}
+                tune={props.tune}
+                tunebook={props.tunebook}
+                getSession={function() { return sessionWithEditSelection(sessionRef.current); }}
+                getLastNoteSelection={function() { return lastNoteSelectionRef.current; }}
+                tempo={tuneMeta.tempo}
+                playbackContext={resolvePlaybackContext()}
+                playbackControlRef={notationPlaybackControlRef}
+                onRefresh={props.forceRefresh}
+              />
+              <NotationVoicesDropdown
+                tune={props.tune}
+                voiceNames={voiceNames}
+                voiceIndex={props.voiceIndex}
+                displayedVoiceIndices={displayedVoiceIndices}
+                onVoiceSelect={handleVoiceSelect}
+                onDisplayedVoicesChange={handleDisplayedVoicesChange}
+                onVoiceNameChange={props.onVoiceMetaChange}
+                onVoiceNotesChange={props.onVoiceNotesChange}
+                onAddVoice={function() {
+                  if (sessionRef.current.view === EDITOR_VIEWS.ABC) {
+                    flushAllAbcDrafts();
+                  } else {
+                    flushCommit();
+                  }
+                  if (props.onAddVoice) props.onAddVoice();
+                }}
+                onDeleteVoice={props.onDeleteVoice}
+                onReorderVoices={props.onReorderVoices}
+              />
+            </>
+          ) : null}
           {props.historyControls ? (
             <span className="notation-toolbar-history">{props.historyControls}</span>
           ) : null}
@@ -3409,6 +3454,7 @@ export default function NotationEditor(props) {
             parseAndRender={parseAndRenderAbc}
             onNavigateIssue={handleNavigateIssue}
             onTuneSaved={handleFixTuneSaved}
+            initialOpenDialog={issuesAutoOpen}
           />
         </div>
       ) : null}
@@ -3439,7 +3485,27 @@ export default function NotationEditor(props) {
           </div>
         </div>
       ) : isPianoRollView ? pianoRollPanel
-      : session.view === EDITOR_VIEWS.ABC ? (
+      : isChordsView ? (
+        <div className="notation-chords-view" data-testid="notation-chords-view">
+          <ChordsWizard
+            tunebook={props.tunebook}
+            tune={props.tune}
+            tuneId={props.tune && props.tune.id}
+            token={props.token}
+            abc={props.abc}
+            saveTune={props.onChordsSaveTune}
+            onGenreAccept={props.onGenreAccept}
+            notes={props.tune && props.tune.voices && Object.keys(props.tune.voices).length > 0 && Object.values(props.tune.voices)[0]
+              ? Object.values(props.tune.voices)[0].notes
+              : []}
+            pendingChordImport={props.pendingChordImport}
+            onConsumePendingChordImport={props.onConsumePendingChordImport}
+            autoActivateChordRecord={props.autoActivateChordRecord}
+            autoStartChordSearch={props.autoStartChordSearch}
+            onLyricsImport={props.onChordsLyricsImport}
+          />
+        </div>
+      ) : session.view === EDITOR_VIEWS.ABC ? (
         <div className="notation-abc-view">
           <Row className="notation-abc-split g-2">
             <Col md={4} xs={12} className="notation-abc-text-col">

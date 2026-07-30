@@ -9,10 +9,37 @@ import {
   isNavigatorOffline,
   isTuneOfflinePlayable,
 } from './offlinePlayback'
+import { cancelPlaylistTitleAnnouncement } from './playlistTitleAnnouncement'
+import { isBackgroundCapablePlayback } from './backgroundPlaybackCapability'
+import { prefersNativeMediaPlayback } from './platformUtils'
+import { getPlaybackSettings } from './pitchTempoUtils'
 
 export function isQueueItemPlayable(tune, item, tunebook) {
   if (isExternalQueueItem(item)) return true
   return !!resolvePlaybackForItem(tune, item, tunebook)
+}
+
+export function isQueueItemBackgroundCapable(tune, item, tunebook, options) {
+  const opts = options || {}
+  if (!prefersNativeMediaPlayback()) return true
+  if (isExternalQueueItem(item)) return true
+  const target = resolvePlaybackForItem(tune, item, tunebook)
+  if (!target) return false
+  const routeMode = target.type === 'midi' ? 'midi' : 'media'
+  const playback = getPlaybackSettings(tune)
+  const settings = Object.assign({}, playback, {
+    audioFilters: tune && tune.playbackAudioFilters ? tune.playbackAudioFilters : playback.audioFilters,
+  })
+  return isBackgroundCapablePlayback({
+    routeMode: routeMode,
+    srcType: target.srcType || '',
+    settings: settings,
+    hasNativeAbcCache: routeMode === 'midi',
+    hasNativeMidiCache: target.srcType === 'midifile',
+    pitchPathOptions: opts.pitchPathOptions || {},
+    nativeActive: false,
+    hasPreRenderedBlob: false,
+  })
 }
 
 export async function isQueueItemFullyPlayable(tune, item, tunebook, options) {
@@ -100,6 +127,7 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
 }
 
 export function stopPlaylistPlayback(mediaController) {
+  cancelPlaylistTitleAnnouncement()
   if (!mediaController) return
   if (mediaController.abortPlayingIntent) {
     mediaController.abortPlayingIntent()

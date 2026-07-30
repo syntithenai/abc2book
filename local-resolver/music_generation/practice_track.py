@@ -34,7 +34,8 @@ from music_generation.mix_tracks import (
     stretch_to_duration,
     tile_backing_loop,
 )
-from music_generation.providers import AudioCppProvider, get_audio_generation_provider
+from music_generation.providers import AudioCppProvider, GenerationSpec, get_audio_generation_provider
+from music_generation.task_catalog import TASK_PRACTICE_TRACK, resolve_preset
 from music_generation.timing_contract import (
     loop_duration_sec,
     section_generation_targets,
@@ -195,6 +196,7 @@ def _generate_backing_loop(
     *,
     bar_boundaries_sec: list[float] | None = None,
     guide_audio_path: Path | None = None,
+    spec=None,
 ) -> None:
     loop_path = output_path.with_suffix(".loop.wav")
     provider.generate_backing(
@@ -203,6 +205,7 @@ def _generate_backing_loop(
         negative_prompt=negative_prompt,
         output_path=loop_path,
         guide_audio_path=guide_audio_path,
+        spec=spec,
     )
     import soundfile as sf
 
@@ -232,6 +235,7 @@ def _assemble_sectional_backing(
     negative_prompt: str,
     *,
     guide_audio_path: Path | None = None,
+    spec=None,
 ) -> None:
     targets = section_generation_targets(plan)
     if not targets:
@@ -256,6 +260,7 @@ def _assemble_sectional_backing(
             section_path,
             bar_boundaries_sec=boundaries,
             guide_audio_path=guide_audio_path,
+            spec=spec,
         )
         _maybe_conform_backing(
             section_path,
@@ -339,6 +344,9 @@ def run_practice_track_job(
 
     write_job_progress(job_id, {"stage": "generating", "progress": 15, "message": "Generating AI backing"})
 
+    preset_id = str(timing_plan_raw.get("presetId") or plan.get("presetId") or "fast")
+    preset = resolve_preset(TASK_PRACTICE_TRACK, preset_id)
+    spec = GenerationSpec.from_preset(preset)
     provider = get_audio_generation_provider()
     backing_path = job_backing_wav(job_id)
     section_targets = section_generation_targets(plan)
@@ -353,6 +361,7 @@ def run_practice_track_job(
             plan["backingPrompt"],
             negative_prompt,
             guide_audio_path=guide_for_ai,
+            spec=spec,
         )
     else:
         _generate_backing_loop(
@@ -364,6 +373,7 @@ def run_practice_track_job(
             backing_path,
             bar_boundaries_sec=boundaries,
             guide_audio_path=guide_for_ai,
+            spec=spec,
         )
 
     write_job_progress(job_id, {"stage": "validating", "progress": 60, "message": "Validating timing"})
@@ -414,6 +424,8 @@ def run_practice_track_job(
         "stage": "complete",
         "progress": 100,
         "message": "Complete",
+        "taskId": TASK_PRACTICE_TRACK,
+        "presetId": preset_id,
         "validation": validation,
         "mix": mix_info,
         "provider": provider.health(),

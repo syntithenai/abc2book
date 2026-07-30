@@ -32,9 +32,22 @@ import FieldVoiceFillButton from './FieldVoiceFillButton'
 import { createScratchpadItemFromLink, linkCanOpenInScratchpad } from '../scratchpadFromLink'
 import { exportMidiLinkToScratchpad } from '../exportMidiLinkToScratchpad'
 import { scratchpadItemPath } from '../scratchpadExportToast'
+import { getGatedActionLabel } from '../resolverCreditAccess'
 import { getMidiExportNotationAccess } from '../midiExportNotationAccess'
 import useMidiFilePlayback from '../useMidiFilePlayback'
 import { resolveMidiLinkPlaybackData } from '../midiLinkResolve'
+import useAbcjsParser from '../useAbcjsParser'
+import { fetchAudioGenerationBackends } from '../musicGenerationClient'
+import { getAudioGenerationAccess } from '../audioGenerationAccess'
+import {
+  defaultCoverStylePrompt,
+  enqueueLinkedCoverJob,
+  enqueuePracticeTrackJob,
+  getPracticeTrackPlan,
+  hasPracticeTrackMidiData,
+  linkSupportsAudioCover,
+} from '../audioGenerationActions'
+import RegenerateCoverModal from './RegenerateCoverModal'
 
 const YT_PLAYING = 1
 const YT_ENDED = 0
@@ -122,6 +135,19 @@ function LinksEditorBody(props) {
     const midiExportAccess = useMemo(function() {
         return getMidiExportNotationAccess(resolverAccessContext)
     }, [resolverAccessContext])
+    const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
+    const [audioBackends, setAudioBackends] = useState(null)
+    const [practiceGenerating, setPracticeGenerating] = useState(false)
+    const [linkRegeneratingIndex, setLinkRegeneratingIndex] = useState(null)
+    const [pendingPracticeGenerate, setPendingPracticeGenerate] = useState(false)
+    const [pendingLinkRegenerateIndex, setPendingLinkRegenerateIndex] = useState(null)
+    const [regenerateCoverLinkIndex, setRegenerateCoverLinkIndex] = useState(null)
+    const [regenerateCoverError, setRegenerateCoverError] = useState('')
+    const audioGenerationAccess = useMemo(function() {
+        return getAudioGenerationAccess(Object.assign({}, resolverAccessContext, {
+            backends: audioBackends,
+        }))
+    }, [resolverAccessContext, audioBackends])
     const recordingStartedAt = useRef(0)
     const recordingIntervalRef = useRef(null)
     const [warning, setWarning] = useState('')
@@ -155,6 +181,28 @@ function LinksEditorBody(props) {
         ? Object.assign({}, props.tune, { id: props.tune.id || props.tuneId || '' })
         : null
     const isYoutubeLink = props.tunebook && props.tunebook.utils && props.tunebook.utils.isYoutubeLink
+    const practiceTrackReady = useMemo(function() {
+        const tune = tuneForMedia || props.tune
+        if (!tune) return false
+        return hasPracticeTrackMidiData(tune, props.tunebook, abcjsParser)
+    }, [tuneForMedia, props.tune, props.tunebook, abcjsParser])
+    const showPracticeGenerate = resolverChecked
+        && (resolverAvailable || resolverFeatures.practiceTrack)
+        && practiceTrackReady
+        && (audioGenerationAccess.practiceTrackAvailable || resolverFeatures.practiceTrack)
+        && (audioGenerationAccess.showButton
+            || audioGenerationAccess.canGenerate
+            || audioGenerationAccess.needsLogin
+            || audioGenerationAccess.needsCredit
+            || resolverFeatures.practiceTrack)
+    const showLinkedCoverRegenerate = resolverChecked
+        && (resolverAvailable || resolverFeatures.practiceTrack)
+        && (audioGenerationAccess.linkedCoverAvailable || resolverFeatures.practiceTrack)
+        && (audioGenerationAccess.showButton
+            || audioGenerationAccess.canGenerate
+            || audioGenerationAccess.needsLogin
+            || audioGenerationAccess.needsCredit
+            || resolverFeatures.practiceTrack)
 
     const midiFilePreview = useMidiFilePlayback({
         onEnded: function() {
@@ -180,6 +228,130 @@ function LinksEditorBody(props) {
         return undefined
     }, [pendingMidiExportLinkIndex, midiExportAccess.canExport, props.token])
 
+    useEffect(function() {
+        if (!resolverChecked || !props.token || !props.token.access_token) return undefined
+        let cancelled = false
+        fetchAudioGenerationBackends({ token: props.token }).then(function(payload) {
+            if (!cancelled) setAudioBackends(payload)
+        }).catch(function() {
+            if (!cancelled) setAudioBackends(null)
+        })
+        return function() {
+            cancelled = true
+        }
+    }, [resolverChecked, props.token])
+
+    function handleTuneChange(updated) {
+        if (typeof props.onTuneChange === 'function') {
+            props.onTuneChange(updated)
+            return
+        }
+        if (updated && Array.isArray(updated.links)) {
+            props.onChange(updated.links)
+        }
+    }
+
+    async function runPracticeTrackGeneration() {
+        const tune = getTuneForOwnedMedia() || tuneForMedia || props.tune
+        if (!tune || !tune.id) {
+            setWarning('Save the tune before generating audio.')
+            return
+        }
+        setPracticeGenerating(true)
+        setWarning('')
+        try {
+            await enqueuePracticeTrackJob({
+                tune: tune,
+                tunebook: props.tunebook,
+                abcjsParser: abcjsParser,
+                token: props.token,
+                onTuneChange: handleTuneChange,
+                forceRefresh: props.forceRefresh,
+            })
+        } catch (err) {
+            if (err && err.message) setWarning(err.message)
+        } finally {
+            setPracticeGenerating(false)
+        }
+    }
+
+    async function runLinkedCoverRegeneration(linkIndex, coverOptions) {
+        const tune = getTuneForOwnedMedia() || tuneForMedia || props.tune
+        const link = props.links && props.links[linkIndex]
+        if (!tune || !tune.id || !link) {
+            setWarning('Save the tune before regenerating audio.')
+            return
+        }
+        setLinkRegeneratingIndex(linkIndex)
+        setWarning('')
+        setRegenerateCoverError('')
+        try {
+            const opts = coverOptions || {}
+            await enqueueLinkedCoverJob({
+                tune: tune,
+                tunebook: props.tunebook,
+                abcjsParser: abcjsParser,
+                token: props.token,
+                link: link,
+                linkIndex: linkIndex,
+                tuneId: getTuneId(),
+                driveApi: driveDocs,
+                onTuneChange: handleTuneChange,
+                forceRefresh: props.forceRefresh,
+                stylePrompt: opts.stylePrompt,
+                lyrics: opts.lyrics,
+                presetId: opts.presetId,
+            })
+            setRegenerateCoverLinkIndex(null)
+        } catch (err) {
+            const message = err && err.message
+                ? err.message
+                : 'Could not start cover regeneration.'
+            setRegenerateCoverError(message)
+            setWarning(message)
+        } finally {
+            setLinkRegeneratingIndex(null)
+        }
+    }
+
+    function beginPracticeTrackGeneration() {
+        runResolverGatedAction(audioGenerationAccess, null, {
+            loginRequiredMessage: 'Log in to generate practice tracks',
+            setPending: function() { setPendingPracticeGenerate(true) },
+            clearPending: function() { setPendingPracticeGenerate(false) },
+            onReady: function() { runPracticeTrackGeneration() },
+        })
+    }
+
+    function beginLinkedCoverRegeneration(linkIndex) {
+        runResolverGatedAction(audioGenerationAccess, linkIndex, {
+            loginRequiredMessage: 'Log in to regenerate audio from this link',
+            setPending: setPendingLinkRegenerateIndex,
+            clearPending: function() { setPendingLinkRegenerateIndex(null) },
+            onReady: function(index) {
+                setRegenerateCoverError('')
+                setRegenerateCoverLinkIndex(index)
+            },
+        })
+    }
+
+    useEffect(function() {
+        if (!pendingPracticeGenerate) return undefined
+        if (!audioGenerationAccess.canGenerate) return undefined
+        setPendingPracticeGenerate(false)
+        runPracticeTrackGeneration()
+        return undefined
+    }, [pendingPracticeGenerate, audioGenerationAccess.canGenerate])
+
+    useEffect(function() {
+        if (pendingLinkRegenerateIndex == null) return undefined
+        if (!audioGenerationAccess.canGenerate) return undefined
+        const index = pendingLinkRegenerateIndex
+        setPendingLinkRegenerateIndex(null)
+        setRegenerateCoverLinkIndex(index)
+        return undefined
+    }, [pendingLinkRegenerateIndex, audioGenerationAccess.canGenerate])
+
     function runResolverGatedAction(access, linkIndex, options) {
         const opts = options || {}
         if (!access.showButton) return
@@ -196,6 +368,12 @@ function LinksEditorBody(props) {
                     setWarning(e.message)
                 }
             })
+            return
+        }
+        if (access.needsCredit) {
+            if (typeof window !== 'undefined') {
+                window.location.assign('/settings?tab=providers&credit=1')
+            }
             return
         }
         if (opts.onReady) opts.onReady(linkIndex)
@@ -768,7 +946,25 @@ function LinksEditorBody(props) {
 
     return (
         <div>
-            <div className="links-editor-toolbar" style={{display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:'0.5em'}} >
+            <div className="links-editor-toolbar" style={{display:'flex', justifyContent:'flex-start', alignItems:'center', flexWrap:'wrap', gap:'0.5em'}} >
+                {showPracticeGenerate ? (
+                    <div className="links-editor-toolbar-group links-editor-toolbar-group--generate" style={{display:'flex', alignItems:'center', flexWrap:'wrap', gap:'0.5em'}} >
+                        <LinksEditorToolbarButton
+                            label="Generate"
+                            variant="primary"
+                            className="links-editor-audio-action-btn"
+                            disabled={practiceGenerating || ownedMediaBusy || audioUtils.isRecording}
+                            title={audioGenerationAccess.loginWarning && (audioGenerationAccess.needsLogin || audioGenerationAccess.needsCredit)
+                                ? audioGenerationAccess.loginWarning.message
+                                : 'Generate a practice track from notation'}
+                            onClick={beginPracticeTrackGeneration}
+                        >
+                            {practiceGenerating
+                                ? 'Starting…'
+                                : getGatedActionLabel(audioGenerationAccess, 'Generate')}
+                        </LinksEditorToolbarButton>
+                    </div>
+                ) : null}
                 <div className="links-editor-toolbar-group" style={{display:'flex', alignItems:'center', flexWrap:'wrap', gap:'0.5em'}} >
                     <FileInputButton
                         icon={props.tunebook.icons.paperclip}
@@ -891,25 +1087,6 @@ function LinksEditorBody(props) {
                                 >
                                     {props.tunebook.icons.arrowdown}
                                 </Button>
-                                {linkIsPreviewable(link, isYoutubeLink) && (
-                                    <Button
-                                        size="sm"
-                                        variant={previewLoadingIndex === lk
-                                            ? 'secondary'
-                                            : (previewLinkIndex === lk ? 'warning' : 'success')}
-                                        aria-label={previewLoadingIndex === lk
-                                            ? 'Cancel loading'
-                                            : (previewLinkIndex === lk ? 'Pause preview' : 'Preview link')}
-                                        title={previewLoadingIndex === lk
-                                            ? 'Cancel loading'
-                                            : (previewLinkIndex === lk ? 'Pause preview' : 'Preview link')}
-                                        onClick={function() { toggleLinkPreview(lk) }}
-                                    >
-                                        {previewLoadingIndex === lk
-                                            ? props.tunebook.icons.waiting
-                                            : (previewLinkIndex === lk ? props.tunebook.icons.pause : props.tunebook.icons.play)}
-                                    </Button>
-                                )}
                                 {linkCanOpenInScratchpad(link, isYoutubeLink) && (
                                     <Button
                                         size="sm"
@@ -924,6 +1101,36 @@ function LinksEditorBody(props) {
                                             : props.tunebook.icons.pencil}
                                     </Button>
                                 )}
+                                {showLinkedCoverRegenerate && linkSupportsAudioCover(link, isYoutubeLink) ? (
+                                    <Button
+                                        size="sm"
+                                        variant="primary"
+                                        className="links-editor-audio-action-btn"
+                                        disabled={linkRegeneratingIndex === lk || practiceGenerating || ownedMediaBusy || audioUtils.isRecording}
+                                        title={audioGenerationAccess.loginWarning && (audioGenerationAccess.needsLogin || audioGenerationAccess.needsCredit)
+                                            ? audioGenerationAccess.loginWarning.message
+                                            : 'Regenerate audio from this recording using AI cover'}
+                                        onClick={function() { beginLinkedCoverRegeneration(lk) }}
+                                    >
+                                        {linkRegeneratingIndex === lk
+                                            ? props.tunebook.icons.waiting
+                                            : getGatedActionLabel(audioGenerationAccess, 'Regenerate')}
+                                    </Button>
+                                ) : null}
+                                {!simplified && linkSrcType !== 'midifile' ? (
+                                    <Button
+                                        size="sm"
+                                        variant="primary"
+                                        onClick={function() {
+                                            if (previewLinkIndex === lk) {
+                                                stopLinkPreview()
+                                            }
+                                            setPlayRangeLinkIndex(lk)
+                                        }}
+                                    >
+                                        Play Range
+                                    </Button>
+                                ) : null}
                                 {(link && link.link && link.link.startsWith('data:audio/')) && (
                                     <Button size="sm" variant="primary" onClick={function() {
                                         var a = document.createElement('a')
@@ -954,6 +1161,26 @@ function LinksEditorBody(props) {
                                         props.onChange(links)
                                     }
                                 }}>{props.tunebook.icons.deletebin}</Button>
+                                {linkIsPreviewable(link, isYoutubeLink) && (
+                                    <Button
+                                        size="sm"
+                                        variant={previewLoadingIndex === lk
+                                            ? 'secondary'
+                                            : (previewLinkIndex === lk ? 'warning' : 'success')}
+                                        className="links-editor-link-actions-play"
+                                        aria-label={previewLoadingIndex === lk
+                                            ? 'Cancel loading'
+                                            : (previewLinkIndex === lk ? 'Pause preview' : 'Preview link')}
+                                        title={previewLoadingIndex === lk
+                                            ? 'Cancel loading'
+                                            : (previewLinkIndex === lk ? 'Pause preview' : 'Preview link')}
+                                        onClick={function() { toggleLinkPreview(lk) }}
+                                    >
+                                        {previewLoadingIndex === lk
+                                            ? props.tunebook.icons.waiting
+                                            : (previewLinkIndex === lk ? props.tunebook.icons.pause : props.tunebook.icons.play)}
+                                    </Button>
+                                )}
                             </div>
                             <div className={'links-editor-fields' + (simplified ? ' links-editor-fields--simplified' : '')}>
                                 <div className="links-editor-fields-row links-editor-fields-row--primary">
@@ -1018,41 +1245,24 @@ function LinksEditorBody(props) {
                                         )}
                                     </Form.Group>
                                 </div>
-                                {!simplified && (
+                                {!simplified && linkSrcType === 'midifile' && (
                                     <div className="links-editor-fields-row links-editor-fields-row--region">
                                         <div className="links-editor-region-actions">
-                                            {linkSrcType === 'midifile' ? (
-                                                midiExportAccess.showButton ? (
-                                                    <Button
-                                                        variant="primary"
-                                                        size="sm"
-                                                        disabled={midiExportBusy}
-                                                        title={midiExportAccess.needsLogin && midiExportAccess.loginWarning
-                                                            ? midiExportAccess.loginWarning.message
-                                                            : 'Convert this MIDI link to scratchpad notation'}
-                                                        onClick={function() { beginMidiExportToNotation(lk) }}
-                                                    >
-                                                        {midiExportBusy && midiExportLinkIndex === lk
-                                                            ? props.tunebook.icons.waiting
-                                                            : (midiExportAccess.needsLogin
-                                                                ? 'Login To Export Notation'
-                                                                : 'Export To Notation')}
-                                                    </Button>
-                                                ) : null
-                                            ) : (
+                                            {midiExportAccess.showButton ? (
                                                 <Button
                                                     variant="primary"
                                                     size="sm"
-                                                    onClick={function() {
-                                                        if (previewLinkIndex === lk) {
-                                                            stopLinkPreview()
-                                                        }
-                                                        setPlayRangeLinkIndex(lk)
-                                                    }}
+                                                    disabled={midiExportBusy}
+                                                    title={midiExportAccess.needsLogin && midiExportAccess.loginWarning
+                                                        ? midiExportAccess.loginWarning.message
+                                                        : 'Convert this MIDI link to scratchpad notation'}
+                                                    onClick={function() { beginMidiExportToNotation(lk) }}
                                                 >
-                                                    Play Range
+                                                    {midiExportBusy && midiExportLinkIndex === lk
+                                                        ? props.tunebook.icons.waiting
+                                                        : getGatedActionLabel(midiExportAccess, 'Export To Notation')}
                                                 </Button>
-                                            )}
+                                            ) : null}
                                         </div>
                                     </div>
                                 )}
@@ -1105,6 +1315,29 @@ function LinksEditorBody(props) {
                     setShowMidiExportPicker(false)
                     if (midiExportLinkIndex == null) return
                     runMidiExportToNotation(midiExportLinkIndex, workspaceId)
+                }}
+            />
+            <RegenerateCoverModal
+                show={regenerateCoverLinkIndex != null}
+                link={regenerateCoverLinkIndex != null && props.links
+                    ? props.links[regenerateCoverLinkIndex]
+                    : null}
+                tune={tuneForMedia || props.tune}
+                defaultStylePrompt={defaultCoverStylePrompt(
+                    tuneForMedia || props.tune,
+                    getPracticeTrackPlan(tuneForMedia || props.tune, props.tunebook, abcjsParser)
+                )}
+                backends={audioBackends}
+                busy={regenerateCoverLinkIndex != null && linkRegeneratingIndex === regenerateCoverLinkIndex}
+                error={regenerateCoverError}
+                onHide={function() {
+                    if (linkRegeneratingIndex != null) return
+                    setRegenerateCoverLinkIndex(null)
+                    setRegenerateCoverError('')
+                }}
+                onConfirm={function(coverOptions) {
+                    if (regenerateCoverLinkIndex == null) return
+                    runLinkedCoverRegeneration(regenerateCoverLinkIndex, coverOptions)
                 }}
             />
             {youtubePreview && (

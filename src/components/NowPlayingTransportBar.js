@@ -15,6 +15,9 @@ import {
   isQueuePlaybackEngaged,
   getActivePlaybackTuneId,
 } from '../playbackNavigationUtils'
+import useMediaResolverHealth from '../useMediaResolverHealth'
+import { getResolverCreditLowBalanceWarning } from '../mediaProxyClient'
+import { openCreditSettings } from '../resolverCreditAccess'
 import MediaSeekSlider from './MediaSeekSlider'
 import TuneArtwork from './TuneArtwork'
 import './NowPlayingTransportBar.css'
@@ -29,10 +32,13 @@ export default function NowPlayingTransportBar({
   setQueuePlayConfirm,
   nowPlayingExpanded,
   onNowPlayingExpandedChange,
+  onOpenNowPlaying,
 }) {
   const location = useLocation()
   const navigate = useNavigate()
   const [, setEngagementTick] = useState(0)
+  const { status: resolverStatus } = useMediaResolverHealth()
+  const creditWarning = getResolverCreditLowBalanceWarning(resolverStatus)
   const isFullscreen = !!nowPlayingExpanded
 
   const queueActive = isQueueActive(nowPlayingQueue)
@@ -139,11 +145,22 @@ export default function NowPlayingTransportBar({
   }
 
   function handleFullscreenToggle() {
-    if (typeof onNowPlayingExpandedChange !== 'function') return
-    onNowPlayingExpandedChange(!isFullscreen)
+    if (isFullscreen) {
+      if (typeof onNowPlayingExpandedChange === 'function') onNowPlayingExpandedChange(false)
+      return
+    }
+    if (typeof onOpenNowPlaying === 'function') {
+      onOpenNowPlaying('playlist')
+    } else if (typeof onNowPlayingExpandedChange === 'function') {
+      onNowPlayingExpandedChange(true)
+    }
   }
 
   function openNowPlaying() {
+    if (typeof onOpenNowPlaying === 'function') {
+      onOpenNowPlaying('playlist')
+      return
+    }
     if (typeof onNowPlayingExpandedChange === 'function') {
       onNowPlayingExpandedChange(true)
     }
@@ -240,7 +257,6 @@ export default function NowPlayingTransportBar({
   const fullscreenButton = (
     <Button
       variant={isFullscreen ? 'secondary' : 'outline-secondary'}
-      size="sm"
       className="now-playing-transport-fullscreen-btn"
       aria-label={isFullscreen ? 'Exit full screen' : 'Full screen'}
       title={isFullscreen ? 'Exit full screen' : 'Full screen'}
@@ -258,6 +274,14 @@ export default function NowPlayingTransportBar({
       role="toolbar"
       aria-label="Now playing transport"
     >
+      {creditWarning ? (
+        <div className="now-playing-transport-credit-warning">
+          <span className="small">{creditWarning.message}</span>
+          <Button variant="link" size="sm" className="p-0 ms-2 align-baseline" onClick={openCreditSettings}>
+            Buy credit
+          </Button>
+        </div>
+      ) : null}
       <div className="now-playing-transport-main">
         <div className="now-playing-transport-left">
           {queueActive ? previousButton : (
@@ -268,6 +292,7 @@ export default function NowPlayingTransportBar({
         <div className="now-playing-transport-center">
           {!isFullscreen ? (
             <div className="now-playing-transport-center-cluster">
+              {fullscreenButton}
               {playPauseButton}
               {playingTune ? (
                 <button
@@ -293,7 +318,7 @@ export default function NowPlayingTransportBar({
           {queueActive ? nextButton : (
             <span className="now-playing-transport-btn-spacer" aria-hidden="true" />
           )}
-          {fullscreenButton}
+          {isFullscreen ? fullscreenButton : null}
         </div>
       </div>
 

@@ -452,6 +452,9 @@ async def translate_cifraclub_section_labels(client, sheet_lines):
     )
     response.raise_for_status()
     payload = response.json()
+    from llm_runtime import note_chat_completion_usage
+
+    note_chat_completion_usage(payload)
     choices = payload.get("choices") or []
     if not choices:
         raise ValueError("LLM returned no choices")

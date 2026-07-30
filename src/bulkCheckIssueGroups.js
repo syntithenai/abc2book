@@ -30,6 +30,12 @@ const NOTATION_ISSUE_CODES = new Set([
   'unexpected_melody',
   'sparse_melody',
   'session_linebreak_markers',
+  'orphan_chord_symbol',
+  'tie_across_barline',
+  'inconsistent_note_length',
+  'duplicate_voice_content',
+  'missing_repeat_second_time',
+  'stale_chord_in_melody',
 ])
 
 const ABC_RECORD_ISSUE_CODES = new Set([
@@ -55,6 +61,8 @@ const CHORDS_LYRICS_ISSUE_CODES = new Set([
   'visual_line_break_mid_bar',
   'strain_lyric_count_mismatch',
   'interleaved_w_spacing',
+  'lyric_line_bar_ratio_suspect',
+  'hymn_single_chart_unmarked',
 ])
 
 const NOTATION_MISSING_CODES = new Set([
@@ -67,6 +75,7 @@ const OTHER_INFO_ISSUE_CODES = new Set([
   'missing_tempo',
   'title_not_capitalized',
   'missing_background',
+  'tempo_mismatch',
 ])
 
 const SEARCH_ACTIONS = new Set([
@@ -99,6 +108,17 @@ const ACTION_GROUP_IDS = {
   padVoicesToMatch: ['notation'],
   rebuildWLines: ['chordsLyrics'],
   relayoutNoteLines: ['notation'],
+  resolveHeaderConflict: ['abcRecord'],
+  resolveHeaderConflictFromTune: ['abcRecord'],
+  wrapEndingInRepeat: ['notation'],
+  removeEmptyVoice: ['notation'],
+  declarePickupLength: ['notation'],
+  convertScaffoldToRests: ['notation'],
+  quantizeOverfullBars: ['notation'],
+  balanceEndings: ['notation'],
+  closeRepeatAtEnd: ['notation'],
+  removeOrphanRepeatEnd: ['notation'],
+  fillSparseBars: ['notation'],
 }
 
 /** Issue codes mapped to fix/search actions offered in matching groups. */
@@ -118,7 +138,7 @@ const ISSUE_CODE_ACTIONS = {
   missing_key_header: ['fixHeaders'],
   missing_meter: ['fixHeaders'],
   missing_key: ['fixHeaders'],
-  header_field_mismatch: ['syncHeadersFromAbc'],
+  header_field_mismatch: ['syncHeadersFromAbc', 'resolveHeaderConflict', 'resolveHeaderConflictFromTune'],
   parse_failure: ['searchAbc'],
   render_failure: ['searchAbc'],
   render_warning: ['normalizeAbc'],
@@ -129,15 +149,26 @@ const ISSUE_CODE_ACTIONS = {
   empty_bar: ['collapseEmptyRepeatBars', 'removeEmptyBars'],
   repeat_style_mixed: ['collapseEmptyRepeatBars', 'normalizeRepeatMarks'],
   missing_final_barline: ['appendFinalBarline'],
-  truncated_repeat: ['closeOpenRepeat'],
+  truncated_repeat: ['closeOpenRepeat', 'closeRepeatAtEnd'],
   underfull_bar: ['padBarWithRests'],
+  overfull_bar: ['quantizeOverfullBars'],
   voice_bar_count_mismatch: ['padVoicesToMatch'],
+  secondary_voice_empty: ['removeEmptyVoice'],
+  anacrusis_inconsistent: ['declarePickupLength'],
+  chord_scaffold_in_melody: ['convertScaffoldToRests'],
+  ending_without_repeat: ['wrapEndingInRepeat'],
+  ending_bar_mismatch: ['balanceEndings'],
+  unmatched_repeat_start: ['closeRepeatAtEnd'],
+  unmatched_repeat_end: ['removeOrphanRepeatEnd'],
+  sparse_melody: ['searchAbc', 'fillSparseBars'],
   wline_count_mismatch: ['rebuildWLines', 'relayoutNoteLines'],
   lyric_note_misalignment: ['rebuildWLines'],
   stale_wlines: ['rebuildWLines'],
   interleaved_w_spacing: ['rebuildWLines'],
   visual_line_break_mid_bar: ['relayoutNoteLines'],
   strain_lyric_count_mismatch: ['stanzaDoubleBarlines'],
+  hymn_single_chart_unmarked: ['stanzaDoubleBarlines'],
+  tempo_mismatch: ['syncHeadersFromAbc', 'resolveHeaderConflict'],
 }
 
 /** Actions that open the editor instead of mutating the tune in place. */

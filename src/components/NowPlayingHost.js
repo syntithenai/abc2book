@@ -216,6 +216,14 @@ export default function NowPlayingHost(props) {
     // screen-off auto-advance / continuous Media Session autoplay.
     : 'host-media'
 
+  function handleLinksSaved(links, tuneId) {
+    if (!tunebook || !tuneId || !links) return
+    const target = (tunes && tunes[tuneId]) || playingTune
+    if (!target || String(target.id) !== String(tuneId)) return
+    target.links = links
+    tunebook.saveTune(target)
+  }
+
   return (
     <div className="now-playing-host" aria-hidden="true">
       {playbackTarget.type === 'media' ? (
@@ -231,6 +239,7 @@ export default function NowPlayingHost(props) {
             suppressTapModal={false}
             instanceId="queue"
             compactPlayer={true}
+            onLinksSaved={handleLinksSaved}
           />
         )
       ) : (

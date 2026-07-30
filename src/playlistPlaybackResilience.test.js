@@ -1,6 +1,7 @@
 import { createQueue } from './nowPlayingQueue'
 import {
   isQueueItemPlayable,
+  isQueueItemBackgroundCapable,
   advanceQueueToNextPlayable,
   findFirstPlayableQueueIndex,
   stopPlaylistPlayback,

@@ -1,9 +1,9 @@
 import {
   fetchViaMediaProxy,
+  hasMusicCollectionAccess,
 } from './mediaProxyClient';
-import { getActiveResolverAccessToken } from './mediaResolverHealthStore';
+import { getActiveResolverAccessToken, getMediaResolverHealthState } from './mediaResolverHealthStore';
 import { resolveResolverAccessToken } from './resolverAccessToken';
-import { isResolverMediaSearchAvailable } from './mediaSearchResolverClient';
 
 function resolveCollectionAccessToken(options) {
   const opts = options || {};
@@ -17,7 +17,10 @@ function emptyResult() {
 }
 
 export function isMusicCollectionAvailable() {
-  return isResolverMediaSearchAvailable();
+  const health = getMediaResolverHealthState();
+  if (!health.checked || !health.status) return false;
+  if (health.status.musicCollectionAccess) return true;
+  return hasMusicCollectionAccess(health.status.candidates || []);
 }
 
 /**

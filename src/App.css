@@ -1061,16 +1061,19 @@ a.header-now-playing-label:focus {
 
 .voice-input-waveform {
   display: block;
-  border-radius: 3px;
+  border-radius: 4px;
   flex-shrink: 0;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .voice-input-waveform--header {
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(220, 53, 69, 0.45);
+  min-height: 44px;
 }
 
 .voice-input-waveform--field {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(108, 117, 125, 0.35);
+  min-height: 32px;
 }
 
 .header-voice-btn {
@@ -1117,6 +1120,7 @@ a.header-now-playing-label:focus {
   border-radius: var(--app-radius);
   padding: 0.1rem;
   box-shadow: 0 1px 3px rgba(20, 50, 100, 0.22);
+  overflow: visible;
 }
 
 .header-nav-buttons > .btn,
@@ -1130,6 +1134,7 @@ a.header-now-playing-label:focus {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  overflow: visible;
 }
 
 .header-nav-dropdown {
@@ -1151,8 +1156,17 @@ a.header-now-playing-label:focus {
 
 .header-nav-tunes-btn {
   box-shadow: none !important;
-  flex: 1 1 auto;
+  flex: 0 0 auto;
+  align-self: stretch !important;
+  height: 100% !important;
+  min-height: 100%;
   border-radius: 0.375rem 0 0 0.375rem !important;
+  overflow: hidden;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  padding: 3px 5px !important;
 }
 
 .header-nav-tunes-btn:hover,
@@ -1169,10 +1183,22 @@ a.header-now-playing-label:focus {
   border-left: 2px solid rgba(255, 255, 255, 0.45) !important;
 }
 
-.header-nav-btn svg {
+.header-nav-btn svg,
+.header-nav-btn img:not(.header-tunebook-icon) {
   width: auto;
   height: 2.2em;
   max-height: 92%;
+}
+
+.header-nav-tunes-btn .header-tunebook-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  object-fit: contain;
+  object-position: center center;
 }
 
 @media (max-width: 768px) {
@@ -2001,6 +2027,8 @@ a.header-now-playing-label:focus {
   padding-top: 0;
   padding-bottom: 0;
   align-items: stretch;
+  overflow: hidden;
+  min-width: 0;
 }
 
 .books-page-collection-card-label {
@@ -2038,12 +2066,15 @@ a.header-now-playing-label:focus {
 }
 
 .books-page-collection-card-cover {
-  height: 90px;
+  height: 100%;
+  max-height: 90px;
   width: auto;
-  max-width: 120px;
+  max-width: 72px;
+  min-width: 0;
   object-fit: cover;
+  object-position: center;
   display: block;
-  flex-shrink: 0;
+  flex: 0 1 auto;
   align-self: stretch;
 }
 
@@ -2408,6 +2439,7 @@ a.header-now-playing-label:focus {
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
   margin-left: -1px;
+  touch-action: manipulation;
 }
 
 .voice-fill-input-group .field-voice-fill-btn {
@@ -10034,6 +10066,27 @@ button img:after {
   display: none;
 }
 
+.links-editor-toolbar-btn-icon-only.btn {
+  min-height: 2.375rem;
+  min-width: 2.75rem;
+  padding: 0.375rem 0.75rem;
+}
+
+.links-editor-toolbar-btn-icon-only .links-editor-toolbar-btn-icon {
+  line-height: 1;
+}
+
+.links-editor-toolbar-group > .btn-group {
+  align-items: stretch;
+}
+
+.links-editor-toolbar-group > .btn-group > .links-editor-toolbar-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+}
+
 .links-editor-toolbar-btn-icon {
   display: inline-flex;
   align-items: center;
@@ -10129,13 +10182,40 @@ button img:after {
 }
 
 .links-editor-link-actions {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: flex-start;
   gap: 0.3em;
-  float: right;
-  margin: 0 0 0.35em 0.5em;
+  margin: 0 0 0.35em 0;
+}
+
+.links-editor-link-actions-play {
+  margin-left: auto;
+}
+
+.links-editor-audio-action-btn.btn {
+  background-color: lightblue;
+  border-color: #7ec8e3;
+  color: #000;
+}
+
+.links-editor-audio-action-btn.btn:hover,
+.links-editor-audio-action-btn.btn:focus,
+.links-editor-audio-action-btn.btn:active,
+.links-editor-audio-action-btn.btn:disabled {
+  background-color: #9dd4ef;
+  border-color: #6bb8d6;
+  color: #000;
+}
+
+.links-editor-audio-action-btn.btn:disabled {
+  opacity: 0.65;
+}
+
+.links-editor-toolbar-group--generate {
+  flex: 0 0 auto;
 }
 
 .links-editor-link-actions .btn {

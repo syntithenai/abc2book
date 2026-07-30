@@ -34,7 +34,6 @@ import useGoogleDocument from '../useGoogleDocument'
 import { findTuneFileMeta, isPdfTuneFileType } from '../tuneFiles'
 import LyricsAutoscrollModal from './LyricsAutoscrollModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
-import PracticeTrackGenerator from './PracticeTrackGenerator'
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings'
 import { NOTATION_FIT_VERTICAL, NOTATION_FIT_HORIZONTAL } from '../gigNotationFit'
 import { stripNotationDisplayMetadata, stripBlockLyricsFromDisplayAbc } from '../notation/notationDisplayAbc'
@@ -724,7 +723,11 @@ export default function MusicSingle(props) {
                     <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
                     <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
                     <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
-                    <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} token={props.token} googleDocumentId={props.googleDocumentId} login={props.login} onChange={
+                    <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} token={props.token} googleDocumentId={props.googleDocumentId} login={props.login} onTuneChange={function(updated) {
+                      setTune(updated)
+                      props.tunebook.saveTune(updated)
+                      props.forceRefresh()
+                    }} onChange={
                       function(links) {
                         if (tune) {
                           tune.links = links
@@ -806,17 +809,6 @@ export default function MusicSingle(props) {
                         {props.tunebook.icons.printer}
                         <span className="music-actions-menu-btn-label"> Print</span>
                       </Button>
-                    </Dropdown.Item>
-                    <Dropdown.Item as="div" className="music-actions-dropdown-item-labeled">
-                      <div className="music-actions-nested-dropdown-wrap" onClick={function(e) { e.stopPropagation() }}>
-                        <PracticeTrackGenerator
-                          tune={tune}
-                          tunebook={props.tunebook}
-                          token={props.token}
-                          login={props.login}
-                          onTuneChange={function(updated) { setTune(updated); props.tunebook.saveTune(updated); }}
-                        />
-                      </div>
                     </Dropdown.Item>
                     <Dropdown.Item as="div" className="music-actions-dropdown-item-labeled">
                       <div className="music-actions-nested-dropdown-wrap" onClick={function(e) { e.stopPropagation() }}>

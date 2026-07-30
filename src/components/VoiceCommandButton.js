@@ -1,10 +1,11 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 import SearchResultPickerModal from './SearchResultPickerModal';
 import VoiceHelpAnswerModal from './VoiceHelpAnswerModal';
 import VoiceInputWaveform from './VoiceInputWaveform';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import useVoiceMicRecorder from '../useVoiceMicRecorder';
+import { kickoffMicrophoneAccess } from '../microphoneAccess';
 import { submitVoiceCommand } from '../voiceCommandClient';
 import { executeVoiceCommand } from '../voiceCommandExecutor';
 import { buildVoiceCatalogs, formatVoiceCommandFeedback } from '../voiceCommandUtils';
@@ -18,6 +19,8 @@ function MicIcon() {
   );
 }
 
+const VOICE_COMMAND_TIMEOUT_MS = 120000
+
 export default function VoiceCommandButton(props) {
   const { available: resolverAvailable, features } = useMediaResolverHealth();
   const [processing, setProcessing] = useState(false);
@@ -29,6 +32,12 @@ export default function VoiceCommandButton(props) {
 
   const abortRef = useRef(null);
   const disambiguateResolverRef = useRef(null);
+
+  useEffect(function() {
+    return function() {
+      if (abortRef.current) abortRef.current.abort();
+    };
+  }, []);
 
   function setKeyboardBlocked(blocked) {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(blocked);
@@ -43,9 +52,17 @@ export default function VoiceCommandButton(props) {
   }
 
   async function submitCapturedAudio(blob) {
+    // #region agent log
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',runId:'post-fix',location:'VoiceCommandButton.js:submitCapturedAudio:entry',message:'submitCapturedAudio called',data:{blobSize:blob&&blob.size},timestamp:Date.now(),hypothesisId:'H10,H11'})}).catch(()=>{});
+    // #endregion
     if (abortRef.current) abortRef.current.abort();
     const controller = new AbortController();
     abortRef.current = controller;
+    let timedOut = false;
+    const timeoutId = setTimeout(function() {
+      timedOut = true;
+      controller.abort();
+    }, VOICE_COMMAND_TIMEOUT_MS);
 
     setProcessing(true);
     setKeyboardBlocked(true);
@@ -61,6 +78,9 @@ export default function VoiceCommandButton(props) {
         accessToken: props.token && props.token.access_token,
         signal: controller.signal,
       });
+      // #region agent log
+      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',runId:'post-fix',location:'VoiceCommandButton.js:submitCapturedAudio:afterSubmit',message:'submitVoiceCommand returned',data:{tool:result&&result.tool,transcript:result&&result.transcript?result.transcript.slice(0,80):''},timestamp:Date.now(),hypothesisId:'H11,H12'})}).catch(()=>{});
+      // #endregion
 
       const speakFeedback = typeof window !== 'undefined'
         && localStorage.getItem('bookstorage_announcesong') === 'true';
@@ -100,10 +120,19 @@ export default function VoiceCommandButton(props) {
           });
         },
       });
+      // #region agent log
+      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',runId:'post-fix',location:'VoiceCommandButton.js:submitCapturedAudio:afterExecute',message:'executeVoiceCommand finished',data:{},timestamp:Date.now(),hypothesisId:'H12'})}).catch(()=>{});
+      // #endregion
     } catch (error) {
-      if (error && error.name === 'AbortError') return;
+      if (error && error.name === 'AbortError') {
+        if (timedOut) {
+          toast.error('Voice command timed out — check that the media resolver is running');
+        }
+        return;
+      }
       toast.error(error && error.message ? error.message : 'Voice command failed');
     } finally {
+      clearTimeout(timeoutId);
       setProcessing(false);
       setKeyboardBlocked(false);
       abortRef.current = null;
@@ -114,7 +143,7 @@ export default function VoiceCommandButton(props) {
     recordingState,
     analyserNode,
     isTapMode,
-    handleClick,
+    handleTapPointerDown,
     handlePointerDown,
     handlePointerUp,
     handlePointerCancel,
@@ -122,6 +151,12 @@ export default function VoiceCommandButton(props) {
   } = useVoiceMicRecorder({
     enabled: resolverAvailable && features.whisper,
     onBeforeStart: pausePlaybackForVoice,
+    onRecordingStopping: function() {
+      setProcessing(true);
+    },
+    onEmptyRecording: function() {
+      setProcessing(false);
+    },
     onAudioReady: submitCapturedAudio,
     onError: function(error) {
       toast.error(microphoneErrorMessage(error));
@@ -131,6 +166,15 @@ export default function VoiceCommandButton(props) {
     },
     setKeyboardBlocked: setKeyboardBlocked,
   });
+
+  function onMicPointerDown(event) {
+    if (isTapMode) {
+      const streamPromise = kickoffMicrophoneAccess();
+      handleTapPointerDown(event, streamPromise);
+    } else {
+      handlePointerDown(event);
+    }
+  }
 
   function handlePickerSelect(item) {
     setShowPicker(false);
@@ -167,9 +211,9 @@ export default function VoiceCommandButton(props) {
     + (isTapMode ? ' tap-mode' : '');
 
   const buttonProps = isTapMode
-    ? { onClick: handleClick }
+    ? { onPointerDown: onMicPointerDown }
     : {
-      onPointerDown: handlePointerDown,
+      onPointerDown: onMicPointerDown,
       onPointerUp: handlePointerUp,
       onPointerCancel: handlePointerCancel,
     };

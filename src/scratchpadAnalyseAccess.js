@@ -1,10 +1,5 @@
+import { getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
-
-function normalizeAccessToken(token) {
-  if (!token) return null
-  if (typeof token === 'string') return token
-  return token.access_token || null
-}
 
 function imageOcrAvailable(resolverAvailable, features) {
   return resolverAvailable && !!(features.sheetImageOcr || features.sheetImage)
@@ -143,6 +138,7 @@ export function getScratchpadAnalyseAccess(context, itemType) {
   const features = opts.features || {}
   const loginWarning = getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
   const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
 
   if (!type) {
     return {
@@ -160,15 +156,16 @@ export function getScratchpadAnalyseAccess(context, itemType) {
     ? buildImageChoices(resolverAvailable, features)
     : buildAudioChoices(resolverAvailable, features)
   const hasUsableChoice = usableChoices.some(function(choice) { return choice.canUse })
-  const showOption = resolverChecked && (hasUsableChoice || needsLogin)
+  const showOption = resolverChecked && (hasUsableChoice || needsLogin || needsCredit)
 
   return {
     itemType: type,
     showOption: showOption,
     needsLogin: needsLogin && showOption,
-    canUse: hasUsableChoice && !needsLogin,
+    needsCredit: needsCredit && showOption,
+    canUse: hasUsableChoice && !needsLogin && !needsCredit,
     loginWarning: loginWarning,
-    choices: needsLogin ? buildLoginPlaceholderChoices(type) : usableChoices,
+    choices: (needsLogin || needsCredit) ? buildLoginPlaceholderChoices(type) : usableChoices,
     unavailableHelperText: unavailableHelperText(type, features),
   }
 }
@@ -181,7 +178,7 @@ function analyseUseLabelForType(itemType) {
 export function getScratchpadAnalyseUseLabel(access) {
   if (!access || !access.showOption) return ''
   const label = analyseUseLabelForType(access.itemType)
-  return access.needsLogin ? ('Login to ' + label) : label
+  return getGatedActionLabel(access, label)
 }
 
 export function getScratchpadAnalyseChoices(access) {

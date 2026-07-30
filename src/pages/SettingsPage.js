@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { Button, ButtonGroup, Form, Nav, Tab } from 'react-bootstrap'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useDocumentTitle } from '../pageTitle'
@@ -35,8 +35,10 @@ import BackupSettingsSection from '../components/BackupSettingsSection'
 import SourcesSettingsSection from '../components/SourcesSettingsSection'
 import DuplicateManagerSettingsSection from '../components/DuplicateManagerSettingsSection'
 import LibraryScaleSettingsSection from '../components/LibraryScaleSettingsSection'
+import { isMusicCollectionSettingsAvailable } from '../musicCollectionAdminClient'
 import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
-import SnapcastSettingsSection from '../components/SnapcastSettingsSection'
+import AndroidLocalMediaSettingsSection from '../components/AndroidLocalMediaSettingsSection'
+import AudioSettingsSection from '../components/AudioSettingsSection'
 import VoiceSettingsSection from '../components/VoiceSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
@@ -69,6 +71,7 @@ import {
 const TAB_BACKGROUND_JOBS = 'background-jobs'
 const TAB_APPEARANCE = 'appearance'
 const TAB_MEDIA = 'media'
+const TAB_AUDIO = 'audio'
 const TAB_VOICE = 'voice'
 const TAB_PROVIDERS = 'providers'
 const TAB_PEDAL = 'pedal'
@@ -101,7 +104,14 @@ function formatCandidateStatus(candidate, activeBase) {
   }
   if (candidate.requireAuth) {
     const reason = describeResolverAuthReason(candidate.authReason)
-    return candidate.base + ' — reachable, ' + (reason || 'not available to this account')
+    let suffix = reason || 'not available to this account'
+    if (candidate.musicCollectionAccess) {
+      suffix += '; music collection allowed'
+    }
+    if (candidate.resolverAccess === false && candidate.authReason === 'resolver_access_denied') {
+      suffix = 'resolver access denied' + (candidate.musicCollectionAccess ? '; music collection allowed' : '')
+    }
+    return candidate.base + ' — reachable, ' + suffix
   }
   return candidate.base + ' — reachable, not available'
 }
@@ -125,6 +135,7 @@ function getResolverMessage(status, checked) {
 export default function SettingsPage(props) {
   useDocumentTitle('Settings')
   const navigate = useNavigate()
+  const [searchParams] = useSearchParams()
   const tunebook = props.tunebook
   const token = props.token
   const accessToken = token && token.access_token ? token.access_token : null
@@ -145,11 +156,15 @@ export default function SettingsPage(props) {
   const [cacheStats, setCacheStats] = useState(null)
   const [cacheStatsLoading, setCacheStatsLoading] = useState(true)
   const [showMediaCacheTunes, setShowMediaCacheTunes] = useState(false)
-  const [activeTab, setActiveTab] = useState(TAB_BACKGROUND_JOBS)
+  const [activeTab, setActiveTab] = useState(function() {
+    const tab = typeof window !== 'undefined'
+      ? new URLSearchParams(window.location.search).get('tab')
+      : null
+    if (tab === TAB_AUDIO) return TAB_AUDIO
+    return TAB_BACKGROUND_JOBS
+  })
   const { status: resolverStatus, checked, features, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
-  const showMusicCollectionTab = checked
-    && !!(resolverStatus && resolverStatus.available)
-    && resolverHasFeature(resolverStatus, 'musicCollection')
+  const showMusicCollectionTab = checked && isMusicCollectionSettingsAvailable(resolverStatus)
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
   const [youtubeHelperStatus, setYoutubeHelperStatus] = useState({
     checking: true,
@@ -199,6 +214,13 @@ export default function SettingsPage(props) {
       return result
     })
   }, [])
+
+  useEffect(function() {
+    const tab = searchParams.get('tab')
+    if (tab === TAB_AUDIO) {
+      setActiveTab(TAB_AUDIO)
+    }
+  }, [searchParams])
 
   useEffect(function() {
     function onHelperSettingsChanged() {
@@ -269,6 +291,32 @@ export default function SettingsPage(props) {
     setResolverMessage(getResolverMessage(resolverStatus, checked))
   }, [resolverStatus, checked])
 
+  useEffect(function() {
+    const tab = searchParams.get('tab')
+    const creditFlag = searchParams.get('credit')
+    const checkoutFlag = searchParams.get('checkout')
+    if (creditFlag === 'success' || checkoutFlag === 'success') {
+      navigate('/billing/success' + (searchParams.get('session_id')
+        ? ('?session_id=' + encodeURIComponent(searchParams.get('session_id')))
+        : ''), { replace: true })
+      return undefined
+    }
+    if (creditFlag === 'cancel' || checkoutFlag === 'cancel') {
+      navigate('/billing/cancel', { replace: true })
+      return undefined
+    }
+    if (tab) {
+      setActiveTab(tab)
+    }
+    if (tab === TAB_PROVIDERS && creditFlag === '1') {
+      const timerId = setTimeout(function() {
+        window.dispatchEvent(new CustomEvent('tunebook-open-credit-settings'))
+      }, 100)
+      return function() { clearTimeout(timerId) }
+    }
+    return undefined
+  }, [searchParams, navigate])
+
   function refreshResolverStatus() {
     setResolverMessage('Checking resolvers...')
     return refreshMediaResolverHealth()
@@ -303,9 +351,16 @@ export default function SettingsPage(props) {
     function onKeyDown(event) {
       event.preventDefault()
       event.stopPropagation()
-      const key = event.key
-      if (!key || key === 'Shift' || key === 'Control' || key === 'Alt' || key === 'Meta') return
-      const next = setPerformanceBindingKeys(recordingAction, [key])
+      const labels = []
+      if (event.key) labels.push(event.key)
+      if (event.code && event.code !== event.key) labels.push(event.code)
+      const key = labels.find(function(label) {
+        return label && label !== 'Shift' && label !== 'Control' && label !== 'Alt' && label !== 'Meta'
+      })
+      if (!key) return
+      const next = setPerformanceBindingKeys(recordingAction, labels.filter(function(label) {
+        return label && label !== 'Shift' && label !== 'Control' && label !== 'Alt' && label !== 'Meta'
+      }))
       setPerformanceBindingsState(next)
       setRecordingAction(null)
     }
@@ -408,24 +463,6 @@ export default function SettingsPage(props) {
   <div className="App-settings">
     <div className="App-settings-toolbar">
       <h1 style={{ margin: 0, flex: '1 1 auto' }}>Settings</h1>
-      <Button variant="success" title="Download" onClick={function() { props.tunebook.downloadTuneBookAbc() }}>
-        {props.tunebook.icons.save} Download Tunebook
-      </Button>
-      <Button variant="danger" onClick={function() {
-      if (props.token) {
-        if (window.confirm('Are you REALLY sure you want to delete all of your tunes from this device and all other devices? Logout if you only want to reset this device')) {
-          if (window.confirm('Are you REALLY sure you want to delete all of your tunes on all your devices?')) {
-            tunebook.deleteAll()
-            navigate('/books')
-          }
-        }
-      } else if (window.confirm('Are you sure you want to delete all of your tunes on this device? Login to delete tunes from all your devices.')) {
-        if (window.confirm('Are you REALLY sure you want to delete all of your tunes from this device?')) {
-          tunebook.deleteAll()
-          navigate('/books')
-        }
-      }
-    }}>Delete All Tunes</Button>
     </div>
 
     <Tab.Container activeKey={activeTab} onSelect={function(key) {
@@ -440,6 +477,9 @@ export default function SettingsPage(props) {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={TAB_MEDIA}>Media</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey={TAB_AUDIO}>Audio</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={TAB_VOICE}>Voice</Nav.Link>
@@ -485,6 +525,7 @@ export default function SettingsPage(props) {
           <BackgroundJobsSettingsSection
             tunes={tunes}
             mediaController={props.mediaController}
+            initialJobsTab={searchParams.get('jobsTab')}
           />
         </Tab.Pane>
 
@@ -609,6 +650,9 @@ export default function SettingsPage(props) {
                     Battery settings
                   </Button>
                 </div>
+                <div style={{ marginTop: '1.25rem' }}>
+                  <AndroidLocalMediaSettingsSection />
+                </div>
               </>
             ) : (
             <>
@@ -668,10 +712,6 @@ export default function SettingsPage(props) {
             />
             </>
             )}
-          </div>
-
-          <div className="app-surface-panel App-settings-section">
-            <SnapcastSettingsSection mediaResolverStatus={resolverStatus} />
           </div>
 
           <div className="app-surface-panel App-settings-section">
@@ -764,6 +804,13 @@ export default function SettingsPage(props) {
               </Button>
             </div>
           </div>
+        </Tab.Pane>
+
+        <Tab.Pane eventKey={TAB_AUDIO}>
+          <AudioSettingsSection
+            mediaController={props.mediaController}
+            mediaResolverStatus={resolverStatus}
+          />
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_VOICE}>
@@ -864,14 +911,14 @@ export default function SettingsPage(props) {
             </div>
             <Form.Group className="mb-2">
               <Form.Label htmlFor="performance-scroll-step">
-                Scroll step ({Math.round((performanceBindings.scrollStepFraction || 0.8) * 100)}% of viewport)
+                Scroll step ({Math.round((performanceBindings.scrollStepFraction || 1) * 100)}% of viewport)
               </Form.Label>
               <Form.Range
                 id="performance-scroll-step"
                 min={0.2}
                 max={1}
                 step={0.05}
-                value={performanceBindings.scrollStepFraction || 0.8}
+                value={performanceBindings.scrollStepFraction || 1}
                 onChange={function(e) { updateScrollStepFraction(e.target.value) }}
               />
             </Form.Group>
@@ -896,6 +943,7 @@ export default function SettingsPage(props) {
             googleDocumentId={props.googleDocumentId}
             overrideTuneBook={props.overrideTuneBook}
             forceRefresh={props.forceRefresh}
+            navigate={navigate}
           />
         </Tab.Pane>
       </Tab.Content>

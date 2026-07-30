@@ -8,6 +8,7 @@ import { checkTuneCompleteness } from './tuneCompletenessCheck'
 import { checkTuneAbcCorrectness } from './tuneAbcCorrectnessCheck'
 import { checkTuneAbcStructure } from './tuneAbcStructureCheck'
 import { checkTuneLyricsAlignment } from './tuneLyricsAlignmentCheck'
+import { checkTuneAbcExtended } from './tuneAbcExtendedCheck'
 import { tuneHasLinkContent } from './checkTuneLinkPlayback'
 import { isSongTitleCapitalized } from './titleCaseUtils'
 
@@ -153,6 +154,16 @@ function flattenLyricsAlignmentIssues(lyricsResult) {
   })
 }
 
+function flattenExtendedIssues(extendedResult) {
+  if (!extendedResult || !Array.isArray(extendedResult.issues)) return []
+  return extendedResult.issues.map(function(item) {
+    return Object.assign(
+      issue(item.code, item.message, item.severity || 'info', item.field || 'voices'),
+      item.barIndex != null ? { barIndex: item.barIndex } : {}
+    )
+  })
+}
+
 function flattenAbcIssues(abcResult) {
   if (!abcResult || !Array.isArray(abcResult.issues)) return []
   return abcResult.issues.map(function(item) {
@@ -197,12 +208,14 @@ export function buildTuneCheckReport(tune, options) {
   const abcResult = checkTuneAbcCorrectness(tune, checkOpts)
   const structureResult = checkTuneAbcStructure(tune, checkOpts)
   const lyricsResult = checkTuneLyricsAlignment(tune, checkOpts)
+  const extendedResult = checkTuneAbcExtended(tune, checkOpts)
 
   const issues = []
   issues.push.apply(issues, flattenCompletenessIssues(completenessResult))
   issues.push.apply(issues, flattenAbcIssues(abcResult))
   issues.push.apply(issues, flattenStructureIssues(structureResult))
   issues.push.apply(issues, flattenLyricsAlignmentIssues(lyricsResult))
+  issues.push.apply(issues, flattenExtendedIssues(extendedResult))
   issues.push.apply(issues, collectFieldWarnings(tune))
   issues.push.apply(issues, collectLyricsWarnings(tune, completenessResult))
   issues.push.apply(issues, collectLinkIssues(tune, opts.linkContext))
@@ -234,6 +247,7 @@ export function buildTuneCheckReport(tune, options) {
     abcResult: abcResult,
     structureResult: structureResult,
     lyricsResult: lyricsResult,
+    extendedResult: extendedResult,
   }
 }
 
@@ -280,6 +294,7 @@ export function collectReportIssuesForFixes(report) {
   addFromResult(report.abcResult)
   addFromResult(report.structureResult)
   addFromResult(report.lyricsResult)
+  addFromResult(report.extendedResult)
   if (Array.isArray(report.issues)) {
     report.issues.forEach(addIssue)
   }

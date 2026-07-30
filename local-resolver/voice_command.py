@@ -731,6 +731,9 @@ async def parse_help_intent_llm(transcript):
         )
         resp.raise_for_status()
         payload = resp.json()
+        from llm_runtime import note_chat_completion_usage
+
+        note_chat_completion_usage(payload)
 
     choices = payload.get("choices") or []
     if not choices:
@@ -828,6 +831,9 @@ async def parse_voice_intent_llm(transcript, books, tags, narrow=False, narrow_t
         )
         resp.raise_for_status()
         payload = resp.json()
+        from llm_runtime import note_chat_completion_usage
+
+        note_chat_completion_usage(payload)
 
     choices = payload.get("choices") or []
     if not choices:

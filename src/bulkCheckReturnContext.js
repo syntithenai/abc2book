@@ -186,8 +186,16 @@ export function beginBulkCheckEditTune(options) {
     activeTab: activeTab,
     tuneId: opts.tuneId,
     returnPath: '/tunes',
+    focusNotationChecks: !!opts.focusNotationChecks,
   })
   if (typeof opts.onNavigate === 'function') {
     opts.onNavigate('/editor/' + encodeURIComponent(opts.tuneId))
   }
+}
+
+export function consumeFocusNotationChecks(tuneId) {
+  const ctx = getBulkCheckReturnContext()
+  if (!ctx || ctx.tuneId !== tuneId || !ctx.focusNotationChecks) return false
+  setBulkCheckReturnContext(Object.assign({}, ctx, { focusNotationChecks: false }))
+  return true
 }

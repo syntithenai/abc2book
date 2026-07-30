@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import logging
 import os
 import socket
 import tempfile
@@ -14,12 +15,22 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from cast_transcode_session import (
+    CHANNELS,
+    SAMPLE_RATE,
     TranscodeSettings,
     build_ffmpeg_pcm_command,
     ffmpeg_available,
     parse_transcode_settings,
 )
-from snapcast_config import snapcast_max_sessions, snapcast_stream_name, snapcast_tcp_bind
+from snapcast_config import (
+    snapcast_max_sessions,
+    snapcast_stream_name,
+    snapcast_tcp_bind,
+    snapcast_tcp_mode,
+    snapcast_tcp_target,
+)
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -81,7 +92,7 @@ class SnapcastSession:
 
 
 class SnapcastTcpHub:
-    """Accepts snapserver TCP client connections and routes PCM from active sessions."""
+    """Routes PCM to snapserver over TCP (client or server mode)."""
 
     def __init__(self) -> None:
         self._clients: list[socket.socket] = []
@@ -89,19 +100,23 @@ class SnapcastTcpHub:
         self._server_socket: socket.socket | None = None
         self._thread: threading.Thread | None = None
         self._running = False
+        self._mode = snapcast_tcp_mode()
 
     def start(self) -> None:
         if self._running:
             return
-        host, _, port_str = snapcast_tcp_bind().partition(":")
-        port = int(port_str or "4954")
-        server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        server.bind((host or "0.0.0.0", port))
-        server.listen(5)
-        self._server_socket = server
         self._running = True
-        self._thread = threading.Thread(target=self._accept_loop, name="snapcast-tcp", daemon=True)
+        if self._mode == "client":
+            self._thread = threading.Thread(target=self._client_loop, name="snapcast-tcp-client", daemon=True)
+        else:
+            host, _, port_str = snapcast_tcp_bind().partition(":")
+            port = int(port_str or "4954")
+            server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            server.bind((host or "0.0.0.0", port))
+            server.listen(5)
+            self._server_socket = server
+            self._thread = threading.Thread(target=self._accept_loop, name="snapcast-tcp-server", daemon=True)
         self._thread.start()
 
     def stop(self) -> None:
@@ -128,6 +143,41 @@ class SnapcastTcpHub:
                     self._clients.append(client)
             except OSError:
                 break
+
+    def _client_loop(self) -> None:
+        target = snapcast_tcp_target()
+        if ":" in target:
+            host, _, port_str = target.rpartition(":")
+            port = int(port_str or "4954")
+        else:
+            host, port = target, 4954
+        logger.info("Snapcast TCP client connecting to %s:%s", host, port)
+        while self._running:
+            sock: socket.socket | None = None
+            try:
+                sock = socket.create_connection((host, port), timeout=5)
+                sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+                with self._clients_lock:
+                    self._clients = [sock]
+                logger.info("Snapcast TCP client linked to %s:%s", host, port)
+                while self._running:
+                    with self._clients_lock:
+                        if not self._clients:
+                            break
+                    time.sleep(0.5)
+            except OSError as exc:
+                logger.warning("Snapcast TCP client could not reach %s:%s: %s", host, port, exc)
+            finally:
+                with self._clients_lock:
+                    if sock in self._clients:
+                        self._clients.remove(sock)
+                    try:
+                        if sock is not None:
+                            sock.close()
+                    except OSError:
+                        pass
+            if self._running:
+                time.sleep(1)
 
     def broadcast(self, data: bytes) -> None:
         dead: list[socket.socket] = []
@@ -226,19 +276,7 @@ class SnapcastPlaybackManager:
             return False
         if self._active_session_id == session_id:
             self._active_session_id = None
-        session._stop_event.set()
-        proc = session._proc
-        if proc and proc.poll() is None:
-            try:
-                proc.terminate()
-                proc.wait(timeout=3)
-            except Exception:
-                try:
-                    proc.kill()
-                except Exception:
-                    pass
-        if session._writer_thread and session._writer_thread.is_alive():
-            session._writer_thread.join(timeout=2)
+        self._halt_ffmpeg(session)
         if session._input_is_temp and session._input_path:
             try:
                 os.unlink(session._input_path)
@@ -332,13 +370,54 @@ class SnapcastPlaybackManager:
         self._start_ffmpeg(new_session)
         return new_session
 
+    def _halt_ffmpeg(self, session: SnapcastSession) -> None:
+        session._stop_event.set()
+        proc = session._proc
+        if proc and proc.poll() is None:
+            try:
+                proc.terminate()
+                proc.wait(timeout=3)
+            except Exception:
+                try:
+                    proc.kill()
+                except Exception:
+                    pass
+        if session._writer_thread and session._writer_thread.is_alive():
+            session._writer_thread.join(timeout=2)
+        session._proc = None
+        session._writer_thread = None
+        session._stop_event.clear()
+
     def set_playing(self, session_id: str, playing: bool) -> bool:
         session = self.get_session(session_id)
         if not session:
             return False
+        should_start = False
+        should_halt = False
         with session._lock:
-            session.is_playing = playing
-            session.last_activity = time.time()
+            if playing:
+                if session.is_playing and session._proc and session._proc.poll() is None:
+                    session.last_activity = time.time()
+                    return True
+                resume_at = session.current_time
+                session.is_playing = True
+                session.last_activity = time.time()
+                session.settings = TranscodeSettings(
+                    pitch_semitones=session.settings.pitch_semitones,
+                    fine_tune_cents=session.settings.fine_tune_cents,
+                    tempo=session.settings.tempo,
+                    start_seconds=max(0.0, resume_at),
+                )
+                should_start = True
+            else:
+                if session._proc and session._proc.poll() is None:
+                    should_halt = True
+                session.is_playing = False
+                session.last_activity = time.time()
+        if should_halt:
+            self._halt_ffmpeg(session)
+        if should_start:
+            self._start_ffmpeg(session)
         return True
 
     def plugin_state(self) -> dict[str, Any]:
@@ -378,8 +457,8 @@ class SnapcastPlaybackManager:
         session._stop_event.clear()
 
         def writer() -> None:
-            start = time.time()
             base_offset = session.settings.start_seconds
+            bytes_per_second = SAMPLE_RATE * CHANNELS * 2
             assert proc.stdout is not None
             try:
                 while not session._stop_event.is_set():
@@ -389,8 +468,8 @@ class SnapcastPlaybackManager:
                     self._tcp_hub.broadcast(chunk)
                     with session._lock:
                         session.bytes_written += len(chunk)
-                        elapsed = time.time() - start
-                        session.current_time = base_offset + elapsed * session.settings.tempo
+                        if bytes_per_second > 0:
+                            session.current_time = base_offset + (session.bytes_written / bytes_per_second)
                         session.last_activity = time.time()
                 with session._lock:
                     session.is_playing = False
@@ -412,7 +491,9 @@ class SnapcastPlaybackManager:
         return {
             "enabled": True,
             "streamName": snapcast_stream_name(),
+            "tcpMode": self._tcp_hub._mode,
             "tcpBind": snapcast_tcp_bind(),
+            "tcpTarget": snapcast_tcp_target(),
             "tcpClients": self.tcp_client_count(),
             "activeSession": self._active_session_id,
             "sessionCount": len(self._sessions),

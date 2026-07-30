@@ -1,0 +1,38 @@
+.tune-list-item--media {
+  background: rgba(56, 132, 255, 0.12);
+}
+
+.tune-list-item--media.tune-list-item--device {
+  background: rgba(46, 160, 67, 0.12);
+}
+
+.tune-list-item--media.tune-list-item--collection {
+  background: rgba(56, 132, 255, 0.12);
+}
+
+.tune-list-item--media .media-list-source-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.tune-list-item--media .media-list-item-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.tune-list-item--media .media-list-item-details {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.tune-list-item--media .media-list-item-play {
+  flex: 0 0 auto;
+}

@@ -85,7 +85,7 @@ describe('getPracticeTrackAccess', function() {
     expect(access.showButton).toBe(false);
   });
 
-  test('hides when audio.cpp sidecar is down', function() {
+  test('still shows when audio.cpp sidecar is down but feature is enabled', function() {
     const access = getPracticeTrackAccess({
       resolverChecked: true,
       resolverAvailable: true,
@@ -101,8 +101,8 @@ describe('getPracticeTrackAccess', function() {
         },
       },
     });
-    expect(access.showButton).toBe(false);
-    expect(access.canGenerate).toBe(false);
+    expect(access.showButton).toBe(true);
+    expect(access.canGenerate).toBe(true);
   });
 
   test('shows when audio.cpp sidecar is healthy', function() {
@@ -127,7 +127,7 @@ describe('getPracticeTrackAccess', function() {
 
 describe('getPracticeTrackGenerateLabel', function() {
   test('uses login label when auth is required', function() {
-    expect(getPracticeTrackGenerateLabel({ needsLogin: true }, {})).toBe('Login to generate');
+    expect(getPracticeTrackGenerateLabel({ needsLogin: true }, {})).toBe('Login to Generate');
   });
 
   test('uses generate label when ready', function() {

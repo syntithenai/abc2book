@@ -1,4 +1,4 @@
-import { inferSectionTypesFromLineCounts, isSectionHeader, normalizeLyricBlocks, normalizeSectionType } from './chordSheetUtils';
+import { inferSectionTypesFromLineCounts, isSectionHeader, normalizeLyricBlocks, normalizeSectionType, normalizeStanzaNameKey } from './chordSheetUtils';
 
 /**
  * Normalize lyric/section lines into typed blocks.
@@ -175,6 +175,32 @@ export function formatLyricSectionHeader(name) {
   if (/^\[.+\]$/.test(trimmed)) return trimmed;
   if (/^#+\s+\S/.test(trimmed)) return trimmed;
   return '[' + trimmed + ']';
+}
+
+/**
+ * Rewrite a matching lyric section header line when a chord section is renamed.
+ * @returns {{ lines: string[], updated: boolean }}
+ */
+export function renameLyricSectionHeader(lyricLines, oldHeader, newHeader) {
+  const lines = Array.isArray(lyricLines)
+    ? lyricLines.map(function(line) { return String(line == null ? '' : line); })
+    : [];
+  const want = normalizeStanzaNameKey(oldHeader);
+  const nextHeader = formatLyricSectionHeader(newHeader);
+  if (!want || !nextHeader) {
+    return { lines: lines, updated: false };
+  }
+  let updated = false;
+  const out = lines.map(function(line) {
+    const trimmed = String(line || '').trim();
+    if (!trimmed) return line;
+    if (normalizeStanzaNameKey(trimmed) === want) {
+      updated = true;
+      return nextHeader;
+    }
+    return line;
+  });
+  return { lines: out, updated: updated };
 }
 
 /**

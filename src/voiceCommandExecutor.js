@@ -127,11 +127,13 @@ function navigateToTune(context, tune, options) {
   }
 
   const action = started ? 'Playing' : 'Opening';
-  if (context.onFeedback) {
+  if (context.onFeedback && !(options && options.suppressFeedback)) {
     context.onFeedback(action + ' ' + (tune.name || 'tune'));
   }
-  if (context.speakFeedback && typeof window !== 'undefined' && typeof window.speak === 'function') {
-    window.speak(action + ' ' + (tune.name || 'tune'));
+  if (!options || !options.suppressFeedback) {
+    if (context.speakFeedback && typeof window !== 'undefined' && typeof window.speak === 'function') {
+      window.speak(action + ' ' + (tune.name || 'tune'));
+    }
   }
 }
 
@@ -170,7 +172,10 @@ async function executeShow(query, context, transcriptLabel, options) {
       return entry.tune;
     }), cleaned);
     if (picked) {
-      navigateToTune(context, picked, { startPlayback: startPlayback });
+      navigateToTune(context, picked, {
+        startPlayback: startPlayback,
+        suppressFeedback: true,
+      });
       return { ok: true, tune: picked };
     }
     return { ok: false };

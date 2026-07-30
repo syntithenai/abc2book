@@ -199,6 +199,9 @@ async def _chat_json(system: str, user: str) -> Any:
         resp = await client.post(llm_chat_url(cfg), headers=headers, json=payload)
         resp.raise_for_status()
         body = resp.json()
+        from llm_runtime import note_chat_completion_usage
+
+        note_chat_completion_usage(body)
     content = (
         body.get("choices", [{}])[0]
         .get("message", {})

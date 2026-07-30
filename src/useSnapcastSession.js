@@ -13,6 +13,7 @@ export default function useSnapcastSession({
 
   return {
     connected: snapcastControl.connected,
+    reconnecting: snapcastControl.reconnecting,
     connectError: snapcastControl.connectError,
     server: snapcastControl.server,
     controlUrl: snapcastControl.controlUrl,
@@ -21,9 +22,11 @@ export default function useSnapcastSession({
     setSelectedGroupId: snapcastControl.setSelectedGroupId,
     routing: snapcastPlayback.routing,
     sessionId: snapcastPlayback.sessionId,
+    routingError: snapcastPlayback.routingError,
     connect: snapcastControl.connect,
     disconnect: snapcastControl.disconnect,
     startRouting: snapcastPlayback.startRouting,
+    startRoutingWithConnect: snapcastPlayback.startRoutingWithConnect,
     stopRouting: snapcastPlayback.stopRouting,
     setClientVolume: snapcastControl.setClientVolume,
     seekRemote: snapcastPlayback.seekRemote,

@@ -3,6 +3,7 @@
 import { playbackNeedsExternalProcessing, pitchShiftIsActive, getMediaPlaybackSettings } from './pitchTempoUtils';
 import { canCastNativeAudio } from './mediaCastSupport';
 import { requiresResolverProxiedPlayback } from './mediaProxyClient';
+import { isCastWebSdkSupported } from './platformUtils';
 
 export function isRemoteOutputActive(remoteOutputEngineRef) {
   const engine = remoteOutputEngineRef && remoteOutputEngineRef.current;
@@ -155,6 +156,9 @@ export function getSnapcastDisabledReason(mediaController) {
 
 export function getCastSdkDisabledReason(mediaController) {
   if (!mediaController) return 'No media loaded';
+  if (!isCastWebSdkSupported()) {
+    return 'Chromecast picker requires desktop Chrome. On Android use Snapcast (Settings → Audio) or pair speakers in system Bluetooth settings.';
+  }
   const features = resolverFeatures(mediaController);
   const srcType = tuneSrcType(mediaController);
   if (!canRouteToCastSdk(mediaController)) {

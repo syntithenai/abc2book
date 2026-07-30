@@ -22,6 +22,7 @@ export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
   snapcastPlayback: false,
   castPlayback: false,
   midiRender: false,
+  tts: false,
 });
 
 export const ALL_RESOLVER_FEATURES = Object.freeze({
@@ -50,6 +51,7 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   snapcastPlayback: false,
   castPlayback: false,
   midiRender: false,
+  tts: false,
 });
 
 export function normalizeResolverFeatures(raw, options) {
@@ -84,6 +86,7 @@ export function normalizeResolverFeatures(raw, options) {
     snapcastPlayback: raw.snapcastPlayback === true,
     castPlayback: raw.castPlayback === true,
     midiRender: raw.midiRender === true,
+    tts: raw.tts === true,
   };
 }
 

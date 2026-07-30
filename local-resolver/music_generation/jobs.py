@@ -50,8 +50,18 @@ def read_job_progress(job_id: str) -> dict | None:
         return None
 
 
-def job_output_wav(job_id: str) -> Path:
+def job_output_wav(job_id: str, *, task_id: str = "practice_track") -> Path:
+    if task_id == "linked_cover":
+        return _job_dir(job_id) / "linked-cover.wav"
     return _job_dir(job_id) / "practice-track.wav"
+
+
+def job_source_wav(job_id: str) -> Path:
+    return _job_dir(job_id) / "source.wav"
+
+
+def job_request_path(job_id: str) -> Path:
+    return _job_dir(job_id) / "request.json"
 
 
 def job_melody_wav(job_id: str) -> Path:

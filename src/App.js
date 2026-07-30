@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header'
+import AppFootPedalHost from './components/AppFootPedalHost'
 import Footer from './components/Footer'
 
 import HomePage from './pages/HomePage'
@@ -18,6 +19,7 @@ import SettingsPage from './pages/SettingsPage'
 import SetsPage from './pages/SetsPage'
 import PracticeListsPage from './pages/PracticeListsPage'
 import PrivacyPage from './pages/PrivacyPage'
+import BillingCheckoutPage from './pages/BillingCheckoutPage'
 import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
 import FeedPage from './pages/FeedPage'
@@ -74,6 +76,7 @@ import useSearchFilterRouteSync from './useSearchFilterRouteSync'
 import ImportModalRoutePage from './pages/ImportModalRoutePage'
 import CollectionCuratorPage from './pages/CollectionCuratorPage'
 import SnapcastPage from './pages/SnapcastPage'
+import { RemoteOutputProvider } from './RemoteOutputProvider'
 import AddPage from './pages/AddPage'
 import LegacyShowParamRedirect from './LegacyShowParamRedirect'
 import PracticeSessionModals from './components/PracticeSessionModals'
@@ -97,6 +100,7 @@ import {
   setBulkComposerDiscoveryQueueContext,
 } from './bulkComposerDiscoveryQueue'
 import { restoreAndResume as restoreAndResumeStemCreateQueue } from './stemCreateQueue'
+import { restoreAndResume as restoreAndResumeAudioGenerationQueue } from './audioGenerationJobStore'
 import {
   restoreAndResume as restoreAndResumeFieldLookupQueue,
   setTuneFieldLookupQueueContext,
@@ -220,17 +224,26 @@ function useIsEmbeddedAppFrame() {
 function AppMainChrome(props) {
   const embedded = useIsEmbeddedAppFrame()
   const [nowPlayingExpanded, setNowPlayingExpanded] = useState(false)
+  const [nowPlayingFocus, setNowPlayingFocus] = useState('playlist')
+
+  function openNowPlaying(focus) {
+    setNowPlayingFocus(focus === 'viewed' ? 'viewed' : 'playlist')
+    setNowPlayingExpanded(true)
+  }
+
   if (embedded) return null
   return (
     <>
       <Header
         {...props.headerProps}
-        onOpenNowPlaying={function() { setNowPlayingExpanded(true) }}
+        onOpenNowPlaying={openNowPlaying}
       />
       <AppQueueLayer
         {...props.queueProps}
         nowPlayingExpanded={nowPlayingExpanded}
         setNowPlayingExpanded={setNowPlayingExpanded}
+        nowPlayingFocus={nowPlayingFocus}
+        onOpenNowPlaying={openNowPlaying}
       />
     </>
   )
@@ -249,6 +262,8 @@ function AppQueueLayer(props) {
   const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
   const nowPlayingExpanded = !!props.nowPlayingExpanded
   const setNowPlayingExpanded = props.setNowPlayingExpanded
+  const nowPlayingFocus = props.nowPlayingFocus === 'viewed' ? 'viewed' : 'playlist'
+  const openNowPlaying = props.onOpenNowPlaying
   const showPlaylistTransport = !nowPlayingExpanded && shouldShowPlaylistTransportBar(
     location.pathname,
     props.nowPlayingQueue,
@@ -282,9 +297,10 @@ function AppQueueLayer(props) {
 
   useEffect(function() {
     if (location.pathname !== '/now-playing') return
-    if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(true)
+    if (typeof openNowPlaying === 'function') openNowPlaying('playlist')
+    else if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(true)
     navigate('/books', { replace: true })
-  }, [location.pathname, navigate, setNowPlayingExpanded])
+  }, [location.pathname, navigate, setNowPlayingExpanded, openNowPlaying])
 
   function handleQueueConfirmPlayThisTune() {
     const request = props.queuePlayConfirm
@@ -363,6 +379,8 @@ function AppQueueLayer(props) {
             setNowPlayingQueue={props.setNowPlayingQueue}
             setQueuePlayConfirm={props.setQueuePlayConfirm}
             returnPath={location.pathname}
+            nowPlayingFocus={nowPlayingFocus}
+            viewedTuneId={viewedTuneId}
             onClose={function() {
               if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(false)
             }}
@@ -381,6 +399,7 @@ function AppQueueLayer(props) {
           setQueuePlayConfirm={props.setQueuePlayConfirm}
           nowPlayingExpanded={nowPlayingExpanded}
           onNowPlayingExpandedChange={setNowPlayingExpanded}
+          onOpenNowPlaying={openNowPlaying}
         />
       ) : null}
     </>
@@ -842,6 +861,22 @@ function App(props) {
       { fn: restoreAndResume },
       { fn: restoreAndResumeComposerDiscoveryQueue },
       { fn: restoreAndResumeStemCreateQueue },
+      {
+        fn: function() {
+          return restoreAndResumeAudioGenerationQueue(function(tuneId) {
+            const tune = getTuneFromStore(tuneId)
+            if (!tune) return null
+            return {
+              tune: tune,
+              tunebook: tunebook,
+              onTuneChange: function(updated) {
+                tunebook.saveTune(updated)
+                forceRefresh()
+              },
+            }
+          })
+        },
+      },
       { fn: restoreAndResumeFieldLookupQueue },
     ])
   }, [tunebook.saveTune, forceRefresh]) 
@@ -1153,6 +1188,11 @@ function App(props) {
               setGroupBy={setGroupBy}
             />
             <LongRunningJobNavigationGuard />
+            <AppFootPedalHost
+              tunebook={tunebook}
+              mediaController={mediaController}
+              nowPlayingQueue={nowPlayingQueue}
+            />
             <BulkCheckYoutubeHost />
             <BulkCheckCompleteToastHost />
             <YoutubeHelperInstallHost />
@@ -1232,6 +1272,7 @@ function App(props) {
                 token={token}
                 forceRefresh={forceRefresh}
               >
+              <RemoteOutputProvider mediaController={mediaController}>
               <AppMainChrome
                 headerProps={{
                   isSyncing: syncWorker.isRunning,
@@ -1316,7 +1357,7 @@ function App(props) {
                     <Route  path={`scratchpad/:itemId`} element={<ScratchpadItemPage tunebook={tunebook} tunes={tunes} token={token} login={login} editHistory={editHistory} mediaController={mediaController} forceRefresh={forceRefresh} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} />} />
                     <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} deletedTunes={deletedTunes} token={token} login={login} logout={logout} refresh={refresh} requestGoogleScopes={requestGoogleScopes} authMode={authMode} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} indexes={indexes} tunesContentRevision={tunesContentRevision} currentTuneBook={currentTuneBook} />}  />
                     <Route path={`collection-curator`} element={<CollectionCuratorPage token={token} tunebook={tunebook} />} />
-                    <Route path={`snapcast`} element={<SnapcastPage mediaController={mediaController} tunebook={tunebook} />} />
+                    <Route path={`snapcast`} element={<SnapcastPage mediaController={mediaController} tunebook={tunebook} nowPlayingQueue={nowPlayingQueue} tunes={tunes} />} />
                     <Route  path={`review`} element={<Navigate to="/" replace />} />
                     <Route  path={`practice-lists`} element={<PracticeListsPage tunes={tunes} tunebook={tunebook} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} />} />
                     <Route  path={`practice-lists/:listId`} element={<PracticeListsPage tunes={tunes} tunebook={tunebook} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} />} />
@@ -1327,6 +1368,8 @@ function App(props) {
                     <Route  path={`gig/:setId`} element={<SetsPage gigMode={true} tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
                     
                     <Route  path={`privacy`}   element={<PrivacyPage    />}  />
+                    <Route  path={`billing/success`} element={<BillingCheckoutPage outcome="success" token={token} login={login} />} />
+                    <Route  path={`billing/cancel`} element={<BillingCheckoutPage outcome="cancel" token={token} login={login} />} />
                     <Route  path={`testme`}   element={<MidiPlayer  tunebook={tunebook} />}  />
                     
                     <Route  path={`chords`} >
@@ -1421,6 +1464,7 @@ function App(props) {
                     
                   </Routes>
               </div>
+              </RemoteOutputProvider>
               </PlaybackRegionScanProvider>
               </TuneMediaAnalysisProvider>
               </div>}

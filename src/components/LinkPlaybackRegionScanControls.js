@@ -4,6 +4,7 @@ import useMediaResolverHealth from '../useMediaResolverHealth';
 import usePlaybackRegionScan from '../usePlaybackRegionScan';
 import SearchProgressBar from './SearchProgressBar';
 import { isScannableLink } from '../linkPlaybackRegionScanUtils';
+import { getGatedActionLabel } from '../resolverCreditAccess';
 import { getLinkPlayRangeAccess } from '../midiExportNotationAccess';
 import { resolveResolverAccessToken } from '../resolverAccessToken';
 
@@ -14,6 +15,7 @@ function getScanTitle(access, whisper, link) {
   if (!access.showButton) return 'Media resolver is not available';
   if (!whisper) return 'Playback region scan is not available on this resolver';
   if (access.needsLogin && access.loginWarning) return access.loginWarning.message;
+  if (access.needsCredit && access.loginWarning) return access.loginWarning.message;
   return 'Detect intro/outro speech and set Start At and End At';
 }
 
@@ -84,15 +86,21 @@ export default function LinkPlaybackRegionScanControls({
       });
       return;
     }
+    if (scanAccess.needsCredit) {
+      if (typeof window !== 'undefined') {
+        window.location.assign('/settings?tab=providers&credit=1');
+      }
+      return;
+    }
     if (!canScan) return;
     startScan();
   }
 
   const buttonLabel = isScanning
     ? (getStatusLabel() || 'Scanning...')
-    : (scanAccess.needsLogin ? 'Login to Scan Range' : idleLabel);
+    : getGatedActionLabel(scanAccess, idleLabel);
   const title = getScanTitle(scanAccess, whisper, link);
-  const enabled = !isScanning && (scanAccess.needsLogin || canScan);
+  const enabled = !isScanning && (scanAccess.needsLogin || scanAccess.needsCredit || canScan);
 
   return (
     <div className={'link-playback-region-scan' + (className ? ' ' + className : '')}>

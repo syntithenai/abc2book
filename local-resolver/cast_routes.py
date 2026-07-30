@@ -9,14 +9,14 @@ from fastapi import Body, Header, HTTPException, Request
 from fastapi.responses import FileResponse, JSONResponse
 
 from cast_config import cast_public_url
+from request_public_url import request_public_base
 from cast_playback import (
     CastQueueItem,
     get_cast_manager,
     parse_queue_items,
-    write_temp_audio_file,
 )
 from cast_transcode_session import ffmpeg_available, parse_transcode_settings
-from remote_playback_resolve import resolve_queue_input_paths, resolve_session_audio_bytes
+from remote_playback_resolve import resolve_queue_input_paths, resolve_session_input_path
 ResolveAudioFn = Callable[..., Awaitable[tuple[bytes, str, str | None]]]
 ResolveProxyFn = Callable[[Request], str | None]
 AuthFn = Callable[[str | None], Awaitable[None]]
@@ -31,11 +31,7 @@ def build_cast_public_base(request: Request) -> str:
     public = cast_public_url()
     if public:
         return public.rstrip("/")
-    host = request.headers.get("host", "").split(",")[0].strip()
-    scheme = request.url.scheme if request.url.scheme in ("http", "https") else "http"
-    if host:
-        return f"{scheme}://{host}"
-    return ""
+    return request_public_base(request).rstrip("/")
 
 
 async def build_cast_health_payload(request: Request) -> dict[str, Any]:
@@ -91,6 +87,7 @@ def register_cast_routes(
                 ]
             input_paths: list[str] = []
             input_path = ""
+            input_is_temp = True
             if len(queue) > 1:
                 input_paths, queue_duration = await resolve_queue_input_paths(
                     queue=queue,
@@ -103,15 +100,13 @@ def register_cast_routes(
                     duration = queue_duration
                 input_path = input_paths[0] if input_paths else ""
             else:
-                audio_bytes, filename = await resolve_session_audio_bytes(
+                input_path, _filename, input_is_temp = await resolve_session_input_path(
                     source=source,
                     source_type=source_type,
                     body=body,
                     resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
                     proxy=proxy,
                 )
-                suffix = os.path.splitext(filename or "")[1] or ".audio"
-                input_path = write_temp_audio_file(audio_bytes, suffix=suffix)
             session = get_cast_manager().create_session(
                 source=source,
                 input_path=input_path,
@@ -119,7 +114,7 @@ def register_cast_routes(
                 settings=settings,
                 title=body.get("title"),
                 artist=body.get("artist"),
-                input_is_temp=True,
+                input_is_temp=input_is_temp if len(queue) <= 1 else True,
                 queue=queue,
                 input_paths=input_paths,
             )
@@ -270,15 +265,13 @@ def register_cast_routes(
                 raise HTTPException(status_code=400, detail="No next queue item")
             next_item = session.queue[next_index]
             proxy = resolve_ytdlp_proxy_from_request(request)
-            audio_bytes, filename = await resolve_session_audio_bytes(
-                next_item.source,
-                next_item.source_type,
+            input_path, _filename, input_is_temp = await resolve_session_input_path(
+                source=next_item.source,
+                source_type=next_item.source_type,
                 body={},
                 resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
                 proxy=proxy,
             )
-            suffix = os.path.splitext(filename or "")[1] or ".audio"
-            input_path = write_temp_audio_file(audio_bytes, suffix=suffix)
             advanced = manager.advance_queue(
                 session_id,
                 input_path=input_path,
@@ -286,7 +279,7 @@ def register_cast_routes(
                 duration=next_item.duration,
                 title=next_item.title,
                 artist=next_item.artist,
-                input_is_temp=True,
+                input_is_temp=input_is_temp,
             )
             if not advanced:
                 raise HTTPException(status_code=400, detail="Could not advance queue")

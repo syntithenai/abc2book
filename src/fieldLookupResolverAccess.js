@@ -5,7 +5,7 @@ import { isCapabilityAvailable, loadProviderSettings } from './providerSettings'
 
 export function fieldLookupAutomaticLookup(kind, context) {
   const opts = context || {}
-  if (opts.needsLogin) return false
+  if (opts.needsLogin || opts.needsCredit) return false
 
   const resolverAvailable = !!opts.resolverAvailable
   const features = opts.features || {}
@@ -37,7 +37,8 @@ export function useFieldLookupResolverAccess(accessToken) {
   const loginWarning = useMemo(function() {
     return getResolverLoginWarning(health.status, accessToken)
   }, [health.status, accessToken])
-  const needsLogin = !!loginWarning
+  const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
 
   return useMemo(function() {
     const base = {
@@ -47,6 +48,7 @@ export function useFieldLookupResolverAccess(accessToken) {
       features: health.features,
       loginWarning: loginWarning,
       needsLogin: needsLogin,
+      needsCredit: needsCredit,
     }
     return Object.assign({}, base, {
       automaticLookupFor: function(kind, extra) {
@@ -60,5 +62,6 @@ export function useFieldLookupResolverAccess(accessToken) {
     health.features,
     loginWarning,
     needsLogin,
+    needsCredit,
   ])
 }

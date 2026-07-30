@@ -5,3 +5,4 @@ python-multipart>=0.0.9
 music21>=9,<10
 cryptography>=42,<45
 google-cloud-firestore>=2.16,<3
+stripe>=11.0.0

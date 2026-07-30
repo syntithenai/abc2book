@@ -26,6 +26,16 @@ export function getActivePlaybackTuneId(mediaController, queue) {
   return null
 }
 
+/** Tune id shown in the expanded now-playing overlay for a given focus mode. */
+export function resolveNowPlayingDisplayTuneId(opts) {
+  const focus = opts && opts.focus
+  const viewedTuneId = opts && opts.viewedTuneId
+  if (focus === 'viewed' && viewedTuneId) {
+    return viewedTuneId
+  }
+  return getActivePlaybackTuneId(opts && opts.mediaController, opts && opts.queue)
+}
+
 function isViewingDifferentFromQueue(viewedTuneId, queue) {
   if (!isQueueActive(queue)) return false
   const playingId = getCurrentTuneId(queue)
@@ -43,6 +53,31 @@ export function isTuneListPath(pathname) {
   return pathname === '/tunes'
     || pathname === '/tunes/'
     || pathname === '/tunes/practice'
+}
+
+/** Single tune view under /tunes (not list, editor, or gig). */
+export function isTuneSingleViewPath(pathname) {
+  if (!pathname || !pathname.startsWith('/tunes/')) return false
+  if (isTuneListPath(pathname)) return false
+  return !!getViewedTuneIdFromPath(pathname)
+}
+
+/** Routes where foot-pedal scroll-then-song bindings are active. */
+export function isFootPedalEnabledPath(pathname) {
+  if (!pathname) return false
+  if (pathname.startsWith('/gig/')) return false
+  if (pathname.startsWith('/editor/')) return false
+  if (isTuneListPath(pathname)) return true
+  return isTuneSingleViewPath(pathname)
+}
+
+/** Home / books / tags hub — not a playback-focused route. */
+export function isPlaybackBrowsePath(pathname) {
+  if (!pathname) return false
+  const normalized = pathname.replace(/\/$/, '') || '/'
+  return normalized === '/'
+    || normalized === '/books'
+    || normalized === '/tags'
 }
 
 export function getAppPathname() {

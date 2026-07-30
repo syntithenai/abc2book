@@ -1,30 +1,21 @@
 import {
+  isDeviceFileResult,
   isMusicCollectionResult,
-  mediaSearchResultArtist,
-  mediaSearchResultRelativePath,
+  mediaSearchSourceLabel,
 } from './mediaLinkSearchDisplay';
 
-describe('mediaLinkSearchDisplay', function() {
-  test('reads artist and relative path from collection candidates', function() {
-    const item = {
-      source: 'music-collection',
-      title: 'Sally Gardens',
-      artist: 'Altan',
-      path: 'Altan/The Gap/01 Sally Gardens.mp3',
-    };
-    expect(isMusicCollectionResult(item)).toBe(true);
-    expect(mediaSearchResultArtist(item)).toBe('Altan');
-    expect(mediaSearchResultRelativePath(item)).toBe('Altan/The Gap/01 Sally Gardens.mp3');
+describe('mediaLinkSearchDisplay device source', function() {
+  test('isDeviceFileResult identifies device-file candidates', function() {
+    expect(isDeviceFileResult({ source: 'device-file' })).toBe(true);
+    expect(isDeviceFileResult({ source: 'music-collection' })).toBe(false);
   });
 
-  test('treats non-collection items as not collection', function() {
-    const item = {
-      source: 'youtube',
-      title: 'Clip',
-      description: 'A video',
-    };
-    expect(isMusicCollectionResult(item)).toBe(false);
-    expect(mediaSearchResultArtist(item)).toBe('');
-    expect(mediaSearchResultRelativePath(item)).toBe('');
+  test('mediaSearchSourceLabel returns Device label', function() {
+    expect(mediaSearchSourceLabel('device-file')).toBe('Device');
+    expect(mediaSearchSourceLabel('music-collection')).toBe('My library');
+  });
+
+  test('isMusicCollectionResult still works', function() {
+    expect(isMusicCollectionResult({ source: 'music-collection' })).toBe(true);
   });
 });

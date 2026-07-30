@@ -2,11 +2,15 @@ import { fetchViaMediaProxy } from './mediaProxyClient';
 import { getActiveResolverAccessToken } from './mediaResolverHealthStore';
 import { resolveResolverAccessToken } from './resolverAccessToken';
 
-function resolveToken(options) {
+export function resolveSnapcastAccessToken(options) {
   const opts = options || {};
   return resolveResolverAccessToken(opts.accessToken || opts.token)
     || getActiveResolverAccessToken()
     || '';
+}
+
+function resolveToken(options) {
+  return resolveSnapcastAccessToken(options);
 }
 
 export async function postSnapcastPluginAction(action, params, options) {
@@ -54,7 +58,9 @@ export async function getSnapcastSessionStatus(sessionId, options) {
     resolveToken(options)
   );
   if (!response.ok) {
-    throw new Error('Snapcast status failed');
+    const err = new Error('Snapcast status failed');
+    err.status = response.status;
+    throw err;
   }
   return response.json();
 }
@@ -80,6 +86,22 @@ export async function advanceSnapcastSession(sessionId, options) {
   if (!response.ok) {
     const body = await response.json().catch(function() { return {}; });
     throw new Error(body.error || body.detail || 'Snapcast queue advance failed');
+  }
+  return response.json();
+}
+
+export async function prefetchSnapcastSession(sessionId, options) {
+  const response = await fetchViaMediaProxy(
+    '/snapcast-playback/session/' + encodeURIComponent(sessionId) + '/prefetch',
+    resolveToken(options),
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ count: (options && options.count) || 2 }),
+    }
+  );
+  if (!response.ok) {
+    return { ok: false, prefetched: 0 };
   }
   return response.json();
 }

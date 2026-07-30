@@ -13,6 +13,25 @@ def snapcast_tcp_bind() -> str:
     return os.getenv("SNAPCAST_TCP_BIND", "0.0.0.0:4954").strip() or "0.0.0.0:4954"
 
 
+def snapcast_tcp_mode() -> str:
+    """server = resolver listens (external snapserver); client = connect to snapserver."""
+    mode = os.getenv("SNAPCAST_TCP_MODE", "client").strip().lower() or "client"
+    return mode if mode in ("client", "server") else "client"
+
+
+def snapcast_tcp_target() -> str:
+    """Host:port for client mode (resolver pushes PCM to snapserver)."""
+    default = f"{snapcast_server_host()}:{snapcast_pcm_port()}"
+    return os.getenv("SNAPCAST_TCP_TARGET", default).strip() or default
+
+
+def snapcast_pcm_port() -> int:
+    try:
+        return max(1, int(os.getenv("SNAPCAST_PCM_PORT", "4954")))
+    except ValueError:
+        return 4954
+
+
 def snapcast_stream_name() -> str:
     return os.getenv("SNAPCAST_STREAM_NAME", "TuneBook").strip() or "TuneBook"
 

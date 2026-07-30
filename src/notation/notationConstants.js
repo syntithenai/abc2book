@@ -38,6 +38,7 @@ export const EDITOR_VIEWS = {
   PIANO_ROLL: 'pianoRoll',
   SPLIT: 'split',
   ABC: 'abc',
+  CHORDS: 'chords',
   HELP: 'help',
 };
 

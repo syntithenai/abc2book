@@ -26,6 +26,8 @@ const RESOLVER_PATHS = new Set([
   '/discover-genre',
   '/separate-stems',
   '/generate-practice-track',
+  '/generate-audio',
+  '/render-midi',
   '/midi2xml',
   '/midi2analyze',
   '/midi2abc',
@@ -64,6 +66,8 @@ function shouldProxyResolver(pathname) {
   if (pathname.startsWith('/loc/')) return true;
   if (isMusicCollectionApiPath(pathname)) return true;
   if (pathname.startsWith('/generate-practice-track')) return true;
+  if (pathname.startsWith('/generate-audio')) return true;
+  if (pathname.startsWith('/render-midi')) return true;
   if (pathname.startsWith('/stems/')) return true;
   if (pathname.startsWith('/snapcast-playback/')) return true;
   if (pathname.startsWith('/cast-playback/')) return true;

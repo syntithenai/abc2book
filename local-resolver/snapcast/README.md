@@ -16,8 +16,8 @@ This starts three Snapcast-related services:
 
 | Service | Role |
 |---------|------|
-| `local-resolver` | PCM source (TCP :4954) + HTTP control API |
-| `snapserver` | Multi-room hub + browser WebSocket control |
+| `local-resolver` | PCM source (connects to snapserver :4954) + HTTP control API |
+| `snapserver` | Multi-room hub + browser WebSocket control (built from [badaix/snapcast](https://github.com/badaix/snapcast) release `.deb`) |
 | `snapclient` | **Resolver host speakers** — plays audio on this machine |
 
 Published ports (defaults):
@@ -27,7 +27,7 @@ Published ports (defaults):
 | 1780 | snapserver HTTP / WebSocket (browser control, snapweb) |
 | 1704 | snapcast client protocol |
 | 1705 | snapcast client protocol (TLS) |
-| 4954 | Resolver TCP PCM feed (internal; snapserver connects as client) |
+| 4954 | snapserver PCM ingest (internal; resolver connects as client) |
 
 ## Resolver host audio (snapclient)
 
@@ -77,16 +77,65 @@ playback to the **TuneBook** stream.
 
 When using `docker compose --profile https --profile snapcast`, Caddy proxies
 `/snapcast/*` to snapserver so browsers on HTTPS Tune Book can use `wss://` for
-control. Set `SNAPCAST_PUBLIC_URL` in `.env` if the public URL differs from the
-resolver origin.
+control.
+
+Set in `.env` when the public hostname differs from the direct resolver port:
+
+```bash
+CAST_PUBLIC_URL=https://peppertrees.example.com
+# HTTPS base path (not wss:// — Tune Book derives wss from this in snapcastSupport.js)
+SNAPCAST_PUBLIC_URL=https://peppertrees.example.com/snapcast
+```
+
+Combine profiles:
+
+```bash
+docker compose --profile https --profile snapcast up -d --build local-resolver
+```
+
+After HTTPS is working, prefer closing public firewall access to port **1780**
+and use the Caddy `/snapcast` path only.
+
+## Health checks and curl troubleshooting
+
+| URL | Use |
+|-----|-----|
+| `http://<host>:8787/health` | Direct resolver (HTTP only) |
+| `https://<domain>/health` | Via Caddy (HTTPS, recommended for tunebook.net) |
+| `https://<host>:8787/health` | **Wrong** — port 8787 speaks plain HTTP; TLS fails silently |
+
+```bash
+# Correct (HTTPS via Caddy)
+curl -s https://peppertrees.example.com/health | jq '{snapcast, cast}'
+
+# Correct (HTTP direct)
+curl -s http://peppertrees.example.com:8787/health | jq '{snapcast, cast}'
+```
+
+If `curl` prints nothing or `curl: (35) TLS connect error`, you are using HTTPS
+on the HTTP port. Use one of the URLs above.
+
+Verify public bases are HTTPS when using Caddy:
+
+```bash
+curl -s https://peppertrees.example.com/health | jq '.cast.publicBase, .snapcast.controlUrl'
+```
+
+## Android
+
+The Chromecast Web SDK is not available in the Tune Book Android app. **Snapcast**
+is the primary whole-home output path on Android: enable the snapcast profile on
+your home resolver and use **Output → Snapcast** (or route via your LAN snapclients).
 
 ## External snapserver (advanced)
 
 If you already run snapserver elsewhere, set `SNAPCAST_ENABLED=true` on the
-resolver and configure your snapserver to read from the resolver TCP feed:
+resolver with `SNAPCAST_TCP_MODE=server` so the resolver listens for PCM, then
+configure your snapserver to read from the resolver TCP feed (use an IP address,
+not a hostname — snapcast 0.35 TCP client mode does not resolve DNS):
 
 ```ini
-source = tcp://<resolver-host>:4954?name=TuneBook&mode=client&sampleformat=48000:16:2
+source = tcp://<resolver-ip>:4954?name=TuneBook&mode=client&sampleformat=48000%3A16%3A2
 ```
 
 Point Tune Book at your snapserver WebSocket URL in **Settings → Snapcast** (or
@@ -104,7 +153,9 @@ set `SNAPCAST_PUBLIC_URL` on the resolver for auto-discovery).
 
 ## Troubleshooting
 
-- **No audio:** confirm snapserver TCP client connected (`health.snapcast.tcpClients` > 0)
+- **snapserver unhealthy / `Invalid argument`:** snapcast 0.35 TCP client sources require an IP, not a hostname. The compose sidecar uses snapserver `mode=server` on :4954 with the resolver in `SNAPCAST_TCP_MODE=client`.
+- **No audio:** confirm resolver connected (`health.snapcast.tcpClients` > 0). If `tcpClients` is 0 while `reachable` is true, check resolver logs for `Snapcast TCP client could not reach` — usually snapserver is not running (`docker compose --profile snapcast up -d`) or `SNAPCAST_TCP_TARGET` is wrong (default `snapserver:4954` in compose).
+- **PCM idle vs routing:** `tcpClients` may be 0 until the resolver TCP hub connects; after `docker compose --profile snapcast up`, restart `local-resolver` if needed. While idle (not playing), Tune Book shows “PCM link activates when you press Play”; if that persists during playback, inspect `docker logs abc2book-local-resolver` and `docker logs abc2book-snapserver`.
 - **Resolver host silent:** check `docker logs abc2book-snapclient`; try `SNAPCLIENT_SOUNDCARD=default` or `aplay -L` on host
 - **Browser cannot connect:** check CORS / mixed content; use `SNAPCAST_PUBLIC_URL` with `wss://`
 - **Pitch shift disabled while casting:** processed cast requires stem cache (Phase S2)

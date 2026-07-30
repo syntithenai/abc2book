@@ -28,9 +28,10 @@ class CastConfigTests(unittest.TestCase):
 
         async def run():
             with mock.patch("cast_routes.cast_feature_enabled", return_value=True):
-                with mock.patch("cast_routes.get_cast_manager") as manager_mock:
-                    manager_mock.return_value.health_fields.return_value = {"sessions": 0}
-                    payload = await build_cast_health_payload(request)
+                with mock.patch("cast_routes.cast_public_url", return_value=None):
+                    with mock.patch("cast_routes.get_cast_manager") as manager_mock:
+                        manager_mock.return_value.health_fields.return_value = {"sessions": 0}
+                        payload = await build_cast_health_payload(request)
             self.assertTrue(payload["enabled"])
             self.assertEqual(payload["publicBase"], "http://localhost:8787")
 

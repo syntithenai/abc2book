@@ -58,3 +58,17 @@ export function snapcastStreamNameFromHealth(healthStatus) {
   }
   return 'TuneBook';
 }
+
+export function snapcastMixedContentWarning(controlUrl) {
+  if (typeof window === 'undefined' || !controlUrl) return '';
+  try {
+    if (window.location.protocol !== 'https:') return '';
+    const url = new URL(controlUrl);
+    if (url.protocol === 'http:') {
+      return 'Snapcast control uses HTTP but this page is HTTPS. Set SNAPCAST_PUBLIC_URL on your resolver or use Settings override.';
+    }
+  } catch (e) {
+    return '';
+  }
+  return '';
+}

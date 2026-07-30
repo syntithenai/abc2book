@@ -3,6 +3,7 @@ import { formatTuneDisplayName } from './tuneDisplayName'
 import { splitIntoBlocks } from './chordSheetUtils'
 import {
   buildNotationLineBarMap,
+  detectBarsPerLyricLine,
   flattenMelodyText,
   splitMelodyIntoBlocks,
 } from './lyricBarAlignmentUtils'
@@ -146,6 +147,38 @@ function checkStrainLyricCount(tune, noteLines) {
   return null
 }
 
+function checkLyricLineBarRatio(tune, noteLines) {
+  const lyricLines = getLyricLines(tune).filter(function(line) {
+    return String(line || '').trim().length > 0
+  })
+  if (lyricLines.length < 2) return null
+  const barMap = buildNotationLineBarMap(noteLines)
+  const barCount = barMap.reduce(function(sum, row) { return sum + row.barCount }, 0)
+  if (barCount < 2) return null
+  const barsPerLine = detectBarsPerLyricLine(lyricLines.length, barCount, [])
+  const evenScore = Math.abs(barsPerLine - Math.round(barCount / lyricLines.length))
+  if (evenScore > 1) {
+    return issue(
+      'lyric_line_bar_ratio_suspect',
+      'Chord/lyric line ratio may not match melody (' + barsPerLine + ' bars per lyric line)',
+      'info'
+    )
+  }
+  return null
+}
+
+function checkHymnSingleChartUnmarked(tune, noteLines) {
+  const melodyBlocks = splitMelodyIntoBlocks(noteLines).length
+  const lyricsBlocks = lyricBlockCount(tune)
+  if (lyricsBlocks !== 1 || melodyBlocks <= 1) return null
+  if (/\|\|/.test(flattenMelodyText(noteLines))) return null
+  return issue(
+    'hymn_single_chart_unmarked',
+    'One lyric block over ' + melodyBlocks + ' melody strains — consider || strain markers',
+    'info'
+  )
+}
+
 function checkInterleavedWSpacing(tune, noteLines, wLines) {
   if (suggestCompletenessPath(tune) !== 'B') return null
   const singable = getLyricLines(tune).filter(function(line) {
@@ -199,6 +232,12 @@ export function checkTuneLyricsAlignment(tune, options) {
 
   const strainIssue = checkStrainLyricCount(tune, noteLines)
   if (strainIssue) issues.push(strainIssue)
+
+  const ratioIssue = checkLyricLineBarRatio(tune, noteLines)
+  if (ratioIssue) issues.push(ratioIssue)
+
+  const hymnIssue = checkHymnSingleChartUnmarked(tune, noteLines)
+  if (hymnIssue) issues.push(hymnIssue)
 
   const spacingIssue = checkInterleavedWSpacing(tune, noteLines, wLines)
   if (spacingIssue) issues.push(spacingIssue)

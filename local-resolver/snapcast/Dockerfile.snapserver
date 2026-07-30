@@ -1,0 +1,25 @@
+# Snapserver for Tune Book resolver (profile: snapcast).
+# Installs the official badaix release .deb — ghcr.io/badaix/snapserver is not public.
+
+ARG SNAPCAST_VERSION=0.35.0
+FROM debian:bookworm-slim
+
+ARG SNAPCAST_VERSION
+ARG TARGETARCH
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends ca-certificates curl python3 \
+  && case "$TARGETARCH" in \
+    amd64) deb_arch="amd64" ;; \
+    arm64) deb_arch="arm64" ;; \
+    arm) deb_arch="armhf" ;; \
+    *) echo "unsupported TARGETARCH=$TARGETARCH" >&2; exit 1 ;; \
+  esac \
+  && deb="snapserver_${SNAPCAST_VERSION}-1_${deb_arch}_bookworm.deb" \
+  && curl -fsSL "https://github.com/badaix/snapcast/releases/download/v${SNAPCAST_VERSION}/${deb}" -o "/tmp/${deb}" \
+  && apt-get install -y "/tmp/${deb}" \
+  && rm -rf /var/lib/apt/lists/* "/tmp/${deb}"
+
+EXPOSE 1780 1704 1705
+
+CMD ["snapserver"]

@@ -1,3 +1,4 @@
+import { createPlaybackAudioContext } from './outputDeviceSupport'
 import {useState, useEffect, useLayoutEffect, useRef} from 'react'
 import * as localForage from "localforage";
 import useAbcTools from './useAbcTools'
@@ -42,6 +43,11 @@ import { primeDrumKit } from './drumSampleKit'
 import { resolveFillPlaybackOptions } from './playbackFillSettings'
 import { buildPlaybackSequence } from './playbackFillPattern'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
+import { prefersNativeMediaPlayback } from './platformUtils'
+import {
+  isAbcNativePlayInFlight,
+  isAndroidNativePlayerActive,
+} from './androidNativePlayback'
 import { preloadCountInCueInstrument, scheduleCountInCueNote, firstWarmupCueMidi, firstPlaybackCueMidiFromVisual } from './countInPitchCue'
 import { playRhythmSlot } from './rhythmSlotPlayback'
 import { getRhythmSwing } from './rhythmGrid'
@@ -156,7 +162,7 @@ export default function useAbcSynth(props) {
         if (!Ctx) return null
         let ctx = gaudioContext.current
         if (!ctx || ctx.state === 'closed') {
-            ctx = new Ctx()
+            ctx = createPlaybackAudioContext() || new Ctx()
             gaudioContext.current = ctx
         }
         if (ctx.state === 'suspended') {
@@ -269,6 +275,9 @@ export default function useAbcSynth(props) {
     }
 
     function startMidiAudioOutput(settings, ratio, startAtAudioTime) {
+        if (shouldDeferSynthStopToNative()) {
+            return { ok: false, actualStartAudioTime: null }
+        }
         const ctx = gaudioContext.current
         const when = ctx && Number.isFinite(startAtAudioTime)
           ? Math.max(ctx.currentTime + 0.002, startAtAudioTime)
@@ -312,6 +321,7 @@ export default function useAbcSynth(props) {
     }
 
     function tryResumeSynthAndStart() {
+        if (prefersNativeMediaPlayback()) return false
         if (isSynthSeekGuardActive()) return false
         if (!wantsMidiPlayback()) return false
         if (gaudioContext.current) {
@@ -617,16 +627,20 @@ export default function useAbcSynth(props) {
             } 
 
             if (props.mediaController.isPlaying !== isLastPlaying) {
-                if (props.mediaController.isPlaying) {
-                    if (midiStartHandledRef.current || isSynthSeekGuardActive()) {
-                        midiStartHandledRef.current = false
+                const nativeOwnsOutput = prefersNativeMediaPlayback()
+                    && shouldDeferSynthStopToNative()
+                if (!nativeOwnsOutput) {
+                    if (props.mediaController.isPlaying) {
+                        if (midiStartHandledRef.current || isSynthSeekGuardActive()) {
+                            midiStartHandledRef.current = false
+                        } else {
+                            startPlayingFromIntent()
+                        }
                     } else {
-                        startPlayingFromIntent()
-                    }
-                } else {
-                    if (!isSynthSeekGuardActive()) {
-                        midiStartHandledRef.current = false
-                        pauseMidiSynth()
+                        if (!isSynthSeekGuardActive()) {
+                            midiStartHandledRef.current = false
+                            pauseMidiSynth()
+                        }
                     }
                 }
             }
@@ -693,6 +707,7 @@ export default function useAbcSynth(props) {
 
      useEffect(function() {
          if (props.playbackEngine === false) return
+         if (prefersNativeMediaPlayback()) return
          if (isSynthSeekGuardActive()) return
          if (props.mediaController && props.mediaController.isMidiPlaybackRoute
              && props.mediaController.isMidiPlaybackRoute()) {
@@ -719,6 +734,9 @@ export default function useAbcSynth(props) {
         mc.applyPlaybackSettingsLiveRef.current = applyMidiPlaybackSettings
         mc.applyPlaybackVolumeRef.current = applySynthPlaybackVolume
         mc.resumeSynthAudioContextRef.current = resumeSynthAudioContext
+        mc.getSynthAudioContextRef.current = function() {
+            return gaudioContext.current || null
+        }
         mc.pauseSynthRef.current = pauseMidiSynth
         mc.stopMetronomeRef.current = stopMetronome
         mc.invalidatePendingMidiStartsRef.current = invalidatePendingMidiStarts
@@ -1458,6 +1476,7 @@ export default function useAbcSynth(props) {
      }
 
      function startMidiAtResolvedSeconds(startSeconds, forcePlayback, opts) {
+        if (shouldDeferSynthStopToNative()) return false
         if (!(startSeconds > 0)) return false
         pendingPlaybackStartSecondsRef.current = startSeconds
         if (gmidiBuffer.current && gmidiBuffer.current.duration > 0) {
@@ -1763,6 +1782,9 @@ export default function useAbcSynth(props) {
          // FINISHED PLAYBACK
         // detect end of tune and handle repeats/call props.onEnded
          if (currentBeat === totalBeats) {
+           if (shouldDeferSynthStopToNative()) {
+             return
+           }
            // infinite repeats
            if (parseInt(props.repeat) === -1) {
              seekPlayer(0)
@@ -2203,6 +2225,10 @@ export default function useAbcSynth(props) {
     }
 
     function startPlaying(force = false) {
+        if (prefersNativeMediaPlayback()) {
+            releaseMidiUiLoading()
+            return
+        }
         // Media-settings MIDI after reload can kick startPlaying from
         // beginMidiPlayback, Abc pending-play, and autoPrime createPlayer.
         // Stacking those restarts count-in mid-schedule (3 quick + 3 even).
@@ -2364,17 +2390,36 @@ export default function useAbcSynth(props) {
         }
     }
 
+    function shouldDeferSynthStopToNative() {
+        if (!prefersNativeMediaPlayback() || !props.mediaController) return false
+        const mc = props.mediaController
+        if (typeof mc.isAndroidNativeOutputActive === 'function' && mc.isAndroidNativeOutputActive()) {
+            return true
+        }
+        if (isAbcNativePlayInFlight() || isAndroidNativePlayerActive()) {
+            return true
+        }
+        return false
+    }
+
     function stopPlaying()  {
         playbackGenerationRef.current += 1
         pauseMidiSynth()
         setForceStop(true)
         setIsPlaying(false)
         clearForcedPlaybackIntent()
+        if (shouldDeferSynthStopToNative()) {
+            return
+        }
         if (props.onStopped) props.onStopped()
     }
 
     function stopMidiSynth() {
         stopMetronome()
+        if (prefersNativeMediaPlayback()) {
+            pauseMidiSynth()
+            return
+        }
         seekPlayer(0)
         currentTime.current = 0
         const midiIsActiveRoute = isMidiActivePlaybackRoute()
@@ -2402,6 +2447,10 @@ export default function useAbcSynth(props) {
     }
 
     function beginMidiPlayback(options) {
+        if (prefersNativeMediaPlayback()) {
+            releaseMidiUiLoading()
+            return false
+        }
         let opts = options || {}
         // #region agent log
         fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:beginMidiPlayback',message:'entry',data:{restart:!!opts.restart,fresh:!!opts.fresh,resume:!!opts.resume,kickoffActive:isMidiKickoffActive(),primePromise:!!primePromiseRef.current,hasBuffer:!!(gmidiBuffer.current&&gmidiBuffer.current.duration>0)},timestamp:Date.now()})}).catch(function(){})
@@ -2927,6 +2976,9 @@ export default function useAbcSynth(props) {
   }
     
   function startPrimedTune(force = false) {
+    if (prefersNativeMediaPlayback()) {
+      return
+    }
     var emergencyStop = getForceStop()
     var fromStart = shouldRestartMidiFromStart(force)
     var useCountIn = shouldUseCountInForStart(force)
@@ -3299,7 +3351,7 @@ export default function useAbcSynth(props) {
           window.webkitAudioContext ||
           navigator.mozAudioContext ||
           navigator.msAudioContext;
-        const audioContext = new window.AudioContext();
+        const audioContext = createPlaybackAudioContext() || new window.AudioContext();
         gaudioContext.current = audioContext
         const fromGesture = props.mediaController && props.mediaController.userGesturePlayRef
             && props.mediaController.userGesturePlayRef.current

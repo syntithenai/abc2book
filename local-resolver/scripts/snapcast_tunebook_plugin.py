@@ -121,6 +121,8 @@ def handle_request(message: dict) -> None:
             ms = command_params.get("position")
             if ms is not None:
                 post_plugin_action("seek", seconds=float(ms) / 1000.0)
+        elif command == "next":
+            post_plugin_action("next")
         write_message({"jsonrpc": "2.0", "id": msg_id, "result": True})
         return
     write_message(

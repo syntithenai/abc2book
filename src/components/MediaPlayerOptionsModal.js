@@ -76,11 +76,25 @@ export default function MediaPlayerOptionsModal({
 
   function handleShow() {
     if (miniPlayerActive) {
-      if (typeof onOpenNowPlaying === 'function') onOpenNowPlaying()
+      const viewedId = getViewedTuneIdFromPath(location.pathname)
+        || (params.tuneId ? params.tuneId : null)
+      if (viewedId && typeof onOpenNowPlaying === 'function') {
+        onOpenNowPlaying('viewed')
+        return
+      }
+      if (typeof onOpenNowPlaying === 'function') {
+        onOpenNowPlaying('playlist')
+        return
+      }
       return
     }
     setShow(true)
   }
+
+  const dropdownAriaLabel = miniPlayerActive
+    ? (viewedTuneId ? 'Open media sources for this tune' : 'Open now playing')
+    : 'Choose media source'
+  const dropdownTitle = dropdownAriaLabel
 
   return (
     <>
@@ -88,8 +102,8 @@ export default function MediaPlayerOptionsModal({
         size={useButtonSize}
         onClick={handleShow}
         variant={(variant ? variant : (mediaController.isLoading ? 'secondary' : (mediaController.isPlaying ? 'warning' : 'success')))}
-        aria-label={miniPlayerActive ? 'Open now playing' : 'Choose media source'}
-        title={miniPlayerActive ? 'Open now playing' : 'Choose media source'}
+        aria-label={dropdownAriaLabel}
+        title={dropdownTitle}
       >
         {tunebook.icons.dropdown}
       </Button>

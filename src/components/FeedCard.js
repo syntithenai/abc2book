@@ -19,7 +19,7 @@ export default function FeedCard(props) {
   const [results, setResults] = useState([])
   const [summary, setSummary] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
-  const showFeedbackControls = isFeedFeedbackAdmin(props.user)
+  const showFeedbackControls = isFeedFeedbackAdmin(props.user, props.resolverStatus)
 
   const quizBundle = item.quiz ? buildQuizBundle(item.quiz, { shuffle: false }) : null
   const questions = quizBundle && quizBundle.questions ? quizBundle.questions : []

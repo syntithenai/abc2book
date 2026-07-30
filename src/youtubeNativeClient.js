@@ -59,10 +59,10 @@ export function isYoutubeNativeConnectedSync() {
 }
 
 /**
- * @param {string} videoId
- * @returns {Promise<{ arrayBuffer: ArrayBuffer, mime: string, title: string|null, filePath: string, via: 'native' }>}
+ * Download YouTube audio to device cache and return the native file path only.
+ * Avoids reading the file back through the WebView (unreliable on Capacitor).
  */
-export async function fetchYoutubeAudioViaNative(videoId) {
+export async function fetchYoutubeAudioFilePathViaNative(videoId) {
   const id = String(videoId || '').trim();
   if (!/^[a-zA-Z0-9_-]{11}$/.test(id)) {
     throw new Error('Invalid YouTube video id');
@@ -75,7 +75,70 @@ export async function fetchYoutubeAudioViaNative(videoId) {
     throw new Error(connected.error || 'Native YouTube fetch is not available');
   }
   const result = await TunebookYoutube.fetchYoutubeAudio({ videoId: id });
-  const webPath = Capacitor.convertFileSrc(result.filePath);
+  if (result && result.filePath) {
+    return {
+      filePath: result.filePath,
+      mime: result.mime || 'audio/mp4',
+      title: result.title || null,
+      client: result.client || null,
+      via: 'native',
+    };
+  }
+  if (result && result.streamUrl) {
+    const requestHeaders = result.requestHeaders || null;
+    return {
+      streamUrl: result.streamUrl,
+      requestHeaders: requestHeaders,
+      mime: result.mime || 'audio/mp4',
+      title: result.title || null,
+      client: result.client || null,
+      via: 'native-stream',
+    };
+  }
+  throw new Error('YouTube fetch returned no audio');
+}
+
+/** Fetch + load into ExoPlayer entirely in Kotlin (avoids bridge header loss). */
+export async function playYoutubeAudioNative(videoId, options) {
+  const id = String(videoId || '').trim();
+  if (!/^[a-zA-Z0-9_-]{11}$/.test(id)) {
+    throw new Error('Invalid YouTube video id');
+  }
+  if (isYoutubeHelperDisabled()) {
+    throw new Error('TuneBook Helper disabled in settings');
+  }
+  const connected = await pingYoutubeNative({ force: true });
+  if (!connected.ok) {
+    throw new Error(connected.error || 'Native YouTube fetch is not available');
+  }
+  const opts = options || {};
+  const result = await TunebookYoutube.playYoutubeAudio({
+    videoId: id,
+    title: opts.title || 'Tunebook',
+    artist: opts.artist || '',
+    positionMs: Math.round((opts.positionSec || 0) * 1000),
+    autoplay: opts.play !== false,
+  });
+  if (!result || !result.ok) {
+    throw new Error('YouTube native playback failed');
+  }
+  return {
+    ok: true,
+    filePath: result.filePath || null,
+    streamUrl: result.streamUrl || null,
+    videoId: result.videoId || id,
+    client: result.client || null,
+    via: result.via || 'native',
+  };
+}
+
+/**
+ * @param {string} videoId
+ * @returns {Promise<{ arrayBuffer: ArrayBuffer, mime: string, title: string|null, filePath: string, via: 'native' }>}
+ */
+export async function fetchYoutubeAudioViaNative(videoId) {
+  const fetched = await fetchYoutubeAudioFilePathViaNative(videoId);
+  const webPath = Capacitor.convertFileSrc(fetched.filePath);
   const response = await fetch(webPath);
   if (!response.ok) {
     throw new Error('Could not read downloaded YouTube audio');
@@ -83,10 +146,10 @@ export async function fetchYoutubeAudioViaNative(videoId) {
   const arrayBuffer = await response.arrayBuffer();
   return {
     arrayBuffer: arrayBuffer,
-    mime: result.mime || 'audio/mp4',
-    title: result.title || null,
-    filePath: result.filePath,
-    client: result.client || null,
+    mime: fetched.mime,
+    title: fetched.title,
+    filePath: fetched.filePath,
+    client: fetched.client,
     via: 'native',
   };
 }

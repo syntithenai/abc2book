@@ -30,8 +30,9 @@ import { runFeedEnrichment } from '../feedEnrichmentClient'
 import { runFeedAiGeneration } from '../feedGenerationClient'
 import { runFeedMusixmatchEnrichment } from '../feedMusixmatchClient'
 import { planInjectWave, streamSeenMaps } from '../feedInjectUtils'
-import { isFeedFeedbackAdmin } from '../feedFeedbackUtils'
+import useMediaResolverHealth from '../useMediaResolverHealth'
 import { downloadFeedFeedbackJson, getAllFeedFeedback, clearAllFeedFeedback } from '../feedFeedbackStore'
+import { isFeedFeedbackAdmin } from '../feedFeedbackUtils'
 
 const PAGE_SIZE = 10
 const INJECT_CAP = 3
@@ -84,7 +85,8 @@ export default function FeedPage(props) {
 
   const location = useLocation()
   const tunes = props.tunes || {}
-  const showFeedbackControls = isFeedFeedbackAdmin(props.user)
+  const { status: resolverStatus } = useMediaResolverHealth()
+  const showFeedbackControls = isFeedFeedbackAdmin(props.user, resolverStatus)
   const [stream, setStream] = useState([])
   const [pendingNew, setPendingNew] = useState([])
   const [expandedId, setExpandedId] = useState(null)
@@ -418,6 +420,7 @@ export default function FeedPage(props) {
             tunes={tunes}
             tunebook={props.tunebook}
             user={props.user}
+            resolverStatus={resolverStatus}
             feedbackSyncKey={feedbackRevision}
             onFeedbackChange={function() {
               setFeedbackCount(getAllFeedFeedback().length)

@@ -2,6 +2,8 @@
  * Client-side search over /lessons/search-index.json (lazy-loaded).
  */
 
+import { runtimePublicBase } from './lessonAssetBaseEnv'
+
 const LESSON_EXPORT_HINT = 'Run: python3 scripts/lesson_plans/export_lessons.py --ireland-only'
 
 const lessonByIdCache = new Map()
@@ -9,9 +11,9 @@ let searchIndexCache = null
 let searchIndexPromise = null
 
 export function lessonAssetBase() {
-  const base = typeof process !== 'undefined' && process.env && process.env.PUBLIC_URL
+  const base = (typeof process !== 'undefined' && process.env && process.env.PUBLIC_URL)
     ? process.env.PUBLIC_URL
-    : ''
+    : runtimePublicBase()
   return (base || '') + '/lessons/'
 }
 

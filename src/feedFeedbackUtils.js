@@ -1,6 +1,7 @@
 export const FEED_FEEDBACK_ADMIN_EMAIL = 'syntithenai@gmail.com'
 
-export function isFeedFeedbackAdmin(user) {
+export function isFeedFeedbackAdmin(user, resolverStatus) {
+  if (resolverStatus && resolverStatus.adminAccess) return true
   return !!(user && user.email === FEED_FEEDBACK_ADMIN_EMAIL)
 }
 

@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
-import { Button, Dropdown } from 'react-bootstrap';
+import { useState } from 'react';
+import { Button, Dropdown, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useSnapcastControl from '../hooks/useSnapcastControl';
-import useSnapcastPlayback from '../hooks/useSnapcastPlayback';
-import useRemoteCastPlayback from '../useRemoteCastPlayback';
-import useMediaCastSession from '../useMediaCastSession';
-import OutputDevicePicker from './OutputDevicePicker';
+import { useSnapcast, useCastSession, useAirplayCast } from '../RemoteOutputProvider';
+import OutputDevicePicker, { isSetSinkIdSupported } from './OutputDevicePicker';
+import SnapcastStatusBadge from './SnapcastStatusBadge';
+import { castHttpOnHttpsPageWarning, resolveCastMediaBase } from '../castSupport';
+import { snapcastMixedContentWarning } from '../snapcastSupport';
 import {
   canCastNativeAudio,
   canRouteToCastSdk,
@@ -16,15 +16,13 @@ import {
 } from '../remoteOutputSupport';
 import { buildRemoteOutputQueue } from '../remoteOutputQueue';
 import { buildRemotePlaybackSessionPayload } from '../remotePlaybackSessionPayload';
+import { isAndroidApp, isCastWebSdkSupported } from '../platformUtils';
 
 export default function RemoteOutputButton({ mediaController, tunebook, compact, nowPlayingQueue, tunes }) {
-  const snapcastControl = useSnapcastControl(mediaController.mediaResolverStatus);
-  const snapcastPlayback = useSnapcastPlayback({
-    mediaController: mediaController,
-    snapcastControl: snapcastControl,
-  });
-  const airplayCast = useRemoteCastPlayback({ mediaController: mediaController });
-  const castSession = useMediaCastSession({ mediaController: mediaController });
+  const [menuOpen, setMenuOpen] = useState(false);
+  const castSession = useCastSession();
+  const snapcast = useSnapcast();
+  const airplayCast = useAirplayCast();
 
   const snapcastEnabled = !!(mediaController.resolverFeatures && mediaController.resolverFeatures.snapcastControl);
   const castSdkEnabled = !!(mediaController.resolverFeatures && (
@@ -37,7 +35,7 @@ export default function RemoteOutputButton({ mediaController, tunebook, compact,
   const castReason = getCastSdkDisabledReason(mediaController);
   const airplayReason = airplayCast.disabledReason;
   const remoteActive = isRemoteOutputActive(mediaController.remoteOutputEngineRef);
-  const routingLabel = snapcastPlayback.routing
+  const routingLabel = snapcast.routing
     ? 'Snapcast'
     : (castSession.connected ? 'Chromecast' : (airplayCast.connected ? 'AirPlay' : 'Output'));
   const outputQueue = buildRemoteOutputQueue(mediaController, nowPlayingQueue, tunes);
@@ -46,52 +44,29 @@ export default function RemoteOutputButton({ mediaController, tunebook, compact,
     nowPlayingQueue: nowPlayingQueue,
     tunes: tunes,
   });
+  const castBase = resolveCastMediaBase({ healthStatus: mediaController.mediaResolverStatus });
+  const castHttpWarning = castHttpOnHttpsPageWarning(castBase);
+  const snapcastMixedWarning = snapcastMixedContentWarning(snapcast.controlUrl);
 
-  useEffect(function() {
-    if (!mediaController || !mediaController.setRemoteOutputHandlers) return undefined;
-    mediaController.setRemoteOutputHandlers({
-      seekRemote: function(seconds) {
-        if (snapcastPlayback.sessionId) snapcastPlayback.seekRemote(seconds);
-        else if (castSession.connected) castSession.castSeek(seconds);
-      },
-      pauseSnapcast: function() {
-        import('../snapcastPlaybackClient').then(function(m) {
-          m.postSnapcastPluginAction('pause').catch(function() {});
-        });
-      },
-      resumeSnapcast: function() {
-        import('../snapcastPlaybackClient').then(function(m) {
-          m.postSnapcastPluginAction('play').catch(function() {});
-        });
-      },
-      stopSnapcast: snapcastPlayback.stopRouting,
-      pauseCast: castSession.castPause,
-      resumeCast: castSession.castPlay,
-      stopCast: castSession.stopCast,
-      disconnectCast: airplayCast.disconnectCast,
-    });
-    return function() {
-      mediaController.setRemoteOutputHandlers(null);
-    };
-  }, [
-    airplayCast.disconnectCast,
-    castSession.castPause,
-    castSession.castPlay,
-    castSession.castSeek,
-    castSession.connected,
-    castSession.stopCast,
-    mediaController,
-    snapcastPlayback.seekRemote,
-    snapcastPlayback.sessionId,
-    snapcastPlayback.stopRouting,
-  ]);
+  const castWebSdkSupported = isCastWebSdkSupported();
+  const showOutputMenu = isAndroidApp()
+    || snapcastEnabled
+    || castSdkEnabled
+    || airplayCast.isAirPlaySupported
+    || airplayCast.isRemotePlaybackSupported
+    || isSetSinkIdSupported();
 
-  if (!snapcastEnabled && !castSdkEnabled && !airplayCast.isAirPlaySupported && !airplayCast.isRemotePlaybackSupported) {
+  if (!showOutputMenu) {
     return null;
   }
 
   return (
-    <Dropdown align="end" className="remote-output-button">
+    <Dropdown
+      align="end"
+      className="remote-output-button"
+      show={menuOpen}
+      onToggle={function(next) { setMenuOpen(!!next); }}
+    >
       <Dropdown.Toggle
         size={compact ? 'sm' : 'sm'}
         variant={remoteActive ? 'warning' : 'outline-secondary'}
@@ -120,10 +95,11 @@ export default function RemoteOutputButton({ mediaController, tunebook, compact,
             </div>
           ) : null}
 
-          {castSdkEnabled ? (
+          {castSdkEnabled && castWebSdkSupported ? (
             <div className="mb-3">
               <div className="fw-semibold small mb-1">Chromecast</div>
               {castReason ? <p className="text-muted small mb-1">{castReason}</p> : null}
+              {castHttpWarning ? <p className="text-warning small mb-1">{castHttpWarning}</p> : null}
               {castSession.joinable && !castSession.connected ? (
                 <div className="mb-2">
                   <p className="text-muted small mb-1">
@@ -166,41 +142,90 @@ export default function RemoteOutputButton({ mediaController, tunebook, compact,
             </div>
           ) : null}
 
-          {snapcastEnabled ? (
+          {castSdkEnabled && !castWebSdkSupported ? (
             <div className="mb-3">
-              <div className="fw-semibold small mb-1">Snapcast</div>
+              <div className="fw-semibold small mb-1">Chromecast</div>
+              <p className="text-muted small mb-0">
+                The Cast device picker is not available in the Android app. Use Snapcast below,
+                pair Bluetooth speakers in Android Settings, or open <Link to="/settings?tab=audio">Settings → Audio</Link>.
+              </p>
+            </div>
+          ) : null}
+
+          {(snapcastEnabled || isAndroidApp()) ? (
+            <div className="mb-3">
+              <div className="d-flex align-items-center gap-2 mb-1">
+                <span className="fw-semibold small">Snapcast</span>
+                <SnapcastStatusBadge
+                  snapcastEnabled={snapcastEnabled}
+                  healthStatus={mediaController.mediaResolverStatus}
+                  connected={snapcast.connected}
+                  reconnecting={snapcast.reconnecting}
+                  routing={snapcast.routing}
+                  groups={snapcast.groups}
+                />
+              </div>
+              {!snapcastEnabled ? (
+                <p className="text-muted small mb-1">
+                  Enable Snapcast on your home resolver, or set a control URL in{' '}
+                  <Link to="/settings?tab=audio">Settings → Audio</Link>.
+                </p>
+              ) : null}
               {snapcastReason ? <p className="text-muted small mb-1">{snapcastReason}</p> : null}
+              {snapcastMixedWarning ? <p className="text-warning small mb-1">{snapcastMixedWarning}</p> : null}
+              {snapcast.routingError ? <p className="text-danger small mb-1">{snapcast.routingError}</p> : null}
+              {snapcast.connected && snapcast.groups.length > 1 ? (
+                <Form.Group className="mb-2">
+                  <Form.Label className="small mb-0">Target group</Form.Label>
+                  <Form.Select
+                    size="sm"
+                    value={snapcast.selectedGroupId}
+                    onChange={function(e) { snapcast.setSelectedGroupId(e.target.value); }}
+                  >
+                    {snapcast.groups.map(function(group) {
+                      return (
+                        <option key={group.id} value={group.id}>{group.name || group.id}</option>
+                      );
+                    })}
+                  </Form.Select>
+                </Form.Group>
+              ) : null}
               <div className="d-flex gap-2 flex-wrap mb-2">
-                {!snapcastControl.connected ? (
-                  <Button size="sm" variant="outline-primary" onClick={function() { snapcastControl.connect(); }}>
-                    Connect
-                  </Button>
-                ) : null}
-                {snapcastControl.connected && !snapcastPlayback.routing ? (
+                {!snapcast.routing ? (
                   <Button
                     size="sm"
                     variant="primary"
                     disabled={!canSnapcast || !sessionPayload}
-                    onClick={function() { snapcastPlayback.startRouting({ payload: sessionPayload }); }}
+                    onClick={function() {
+                      snapcast.startRoutingWithConnect({ payload: sessionPayload });
+                    }}
                   >
-                    Play on Snapcast
+                    {snapcast.connected ? 'Play on Snapcast' : 'Connect & play'}
                   </Button>
                 ) : null}
-                {snapcastPlayback.routing ? (
-                  <Button size="sm" variant="warning" onClick={snapcastPlayback.stopRouting}>
+                {snapcast.routing ? (
+                  <Button size="sm" variant="warning" onClick={snapcast.stopRouting}>
                     Stop
                   </Button>
                 ) : null}
               </div>
-              <Link to="/snapcast" className="small">Open Snapcast home →</Link>
+              <div className="d-flex gap-2 flex-wrap">
+                <Link to="/snapcast" className="small align-self-center">Snapcast manager →</Link>
+                <Link to="/settings?tab=audio" className="small align-self-center">Audio settings →</Link>
+              </div>
             </div>
           ) : null}
 
-          <OutputDevicePicker
-            mediaController={mediaController}
-            disabled={!canAirPlay}
-            disabledReason={airplayReason}
-          />
+          {!isAndroidApp() ? (
+            <OutputDevicePicker
+              mediaController={mediaController}
+              menuOpen={menuOpen}
+            />
+          ) : (
+            <p className="text-muted small mb-0">
+              Bluetooth and wired outputs are chosen in Android system settings while Tunebook plays.
+            </p>
+          )}
         </div>
       </Dropdown.Menu>
     </Dropdown>

@@ -108,3 +108,6 @@ android/build/
 # Theory example generator checkpoint (committed output is examples.js)
 src/feedContent/theory/examples.generated.json
 .cursor/debug-*.log
+
+# Static lesson preview build output
+lesson-preview/dist/

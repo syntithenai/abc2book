@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef } from 'react'
+import { createPlaybackAudioContext } from './outputDeviceSupport'
 import MidiPlayer from 'midi-player-js'
 import {
   loadMidiInstruments,
@@ -26,7 +27,8 @@ export default function useMidiFilePlayback(options) {
 
   function getAudioContext() {
     if (!audioContextRef.current) {
-      audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)()
+      audioContextRef.current = createPlaybackAudioContext()
+        || new (window.AudioContext || window.webkitAudioContext)()
     }
     return audioContextRef.current
   }
@@ -255,6 +257,7 @@ export default function useMidiFilePlayback(options) {
     duration: duration,
     setTempo: setTempo,
     resumeAudioContextFromGesture: resumeAudioContextFromGesture,
+    getAudioContext: getAudioContext,
     playerRef: playerRef,
     isReadyRef: isReadyRef,
   }

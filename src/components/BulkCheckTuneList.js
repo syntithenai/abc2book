@@ -9,6 +9,7 @@ import useAbcjsParser from '../useAbcjsParser'
 import BulkCheckFixPreviewModal from './BulkCheckFixPreviewModal'
 import SearchProgressBar from './SearchProgressBar'
 import { useBulkCheckSearchJobRefresh, useBulkCheckSearchJobStatus } from '../useBulkCheckSearchJobStatus'
+import { getGatedActionLabel } from '../resolverCreditAccess'
 import { useBulkCheckSearchActionAccess } from '../useBulkCheckSearchAccess'
 
 const SEVERITY_CLASS = {
@@ -29,7 +30,11 @@ function BulkCheckSearchActionButton(props) {
   const jobStatus = useBulkCheckSearchJobStatus(props.tuneId, action.id)
   const showProgress = !!(jobStatus && (jobStatus.busy || jobStatus.percent > 0))
   const externalLinkIcon = props.tunebook && props.tunebook.icons ? props.tunebook.icons.externallink : null
-  const label = showProgress && jobStatus.busy ? 'Searching…' : action.label
+  const label = showProgress && jobStatus.busy
+    ? 'Searching…'
+    : (access && (access.needsLogin || access.needsCredit)
+      ? getGatedActionLabel(access, action.label)
+      : action.label)
   const searchDisabled = props.disabled || !access || access.searchDisabled
 
   if (access && access.showExternalOnly && access.externalUrl) {
@@ -56,11 +61,13 @@ function BulkCheckSearchActionButton(props) {
         size="sm"
         disabled={searchDisabled || (jobStatus && jobStatus.busy)}
         onClick={props.onClick}
-        title={access && access.needsLogin && access.loginWarning ? access.loginWarning.message : undefined}
+        title={access && (access.needsLogin || access.needsCredit) && access.loginWarning
+          ? access.loginWarning.message
+          : undefined}
       >
         {label}
       </Button>
-      {access && access.externalUrl && access.needsLogin ? (
+      {access && access.externalUrl && (access.needsLogin || access.needsCredit) ? (
         <Button
           as="a"
           href={access.externalUrl}

@@ -6,6 +6,7 @@ export default function PlayWithQueueDropdown({
   onPlay,
   onAddToQueue,
   onPlayNext,
+  onAddToTunebook,
   playIcon,
   playVariant,
   isPlaying,
@@ -16,12 +17,13 @@ export default function PlayWithQueueDropdown({
   className,
   addToQueueLabel = 'Add to queue',
   playNextLabel = 'Play next',
+  addToTunebookLabel = 'Add to Tunebook',
   buttonSize,
   onContainerClick,
 }) {
   const playButtonVariant = isPlaying ? 'warning' : (playVariant || (variant === 'collection-side' ? 'primary' : 'success'))
   const groupClass = 'play-with-queue-dropdown play-with-queue-dropdown--' + variant + (className ? ' ' + className : '')
-  const hasQueueMenu = showQueueMenu && (onAddToQueue || onPlayNext)
+  const hasQueueMenu = showQueueMenu && (onAddToQueue || onPlayNext || onAddToTunebook)
   const isListItemPlay = !!(className && className.indexOf('tune-list-item-play') !== -1)
   const resolvedButtonSize = buttonSize != null
     ? buttonSize
@@ -86,6 +88,9 @@ export default function PlayWithQueueDropdown({
         ) : null}
         {onPlayNext ? (
           <Dropdown.Item onClick={onPlayNext}>{playNextLabel}</Dropdown.Item>
+        ) : null}
+        {onAddToTunebook ? (
+          <Dropdown.Item onClick={onAddToTunebook}>{addToTunebookLabel}</Dropdown.Item>
         ) : null}
       </Dropdown.Menu>
     </Dropdown>

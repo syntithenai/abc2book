@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { checkTuneAbcCorrectness } from './tuneAbcCorrectnessCheck'
 import { checkTuneAbcStructure } from './tuneAbcStructureCheck'
 import { checkTuneLyricsAlignment } from './tuneLyricsAlignmentCheck'
+import { checkTuneAbcExtended } from './tuneAbcExtendedCheck'
 import { buildNotationCheckTune } from './notationCheckSnapshot'
 
 const DEFAULT_DEBOUNCE_MS = 300
@@ -16,7 +17,7 @@ function flattenIssues(result, source) {
 export function runNotationChecks(tune, options) {
   const opts = options || {}
   if (!tune || !tune.id) {
-    return { issues: [], abcResult: null, structureResult: null, lyricsResult: null }
+    return { issues: [], abcResult: null, structureResult: null, lyricsResult: null, extendedResult: null }
   }
 
   const abcTools = opts.abcTools
@@ -29,17 +30,20 @@ export function runNotationChecks(tune, options) {
   const abcResult = checkTuneAbcCorrectness(tune, checkOpts)
   const structureResult = checkTuneAbcStructure(tune, checkOpts)
   const lyricsResult = checkTuneLyricsAlignment(tune, checkOpts)
+  const extendedResult = checkTuneAbcExtended(tune, checkOpts)
 
   const issues = []
   issues.push.apply(issues, flattenIssues(abcResult, 'abc'))
   issues.push.apply(issues, flattenIssues(structureResult, 'structure'))
   issues.push.apply(issues, flattenIssues(lyricsResult, 'lyrics'))
+  issues.push.apply(issues, flattenIssues(extendedResult, 'extended'))
 
   return {
     issues: issues,
     abcResult: abcResult,
     structureResult: structureResult,
     lyricsResult: lyricsResult,
+    extendedResult: extendedResult,
   }
 }
 
@@ -64,6 +68,7 @@ export default function useNotationCheck(tune, liveBodies, options) {
     abcResult: null,
     structureResult: null,
     lyricsResult: null,
+    extendedResult: null,
     checking: false,
   })
 
@@ -84,6 +89,7 @@ export default function useNotationCheck(tune, liveBodies, options) {
         abcResult: null,
         structureResult: null,
         lyricsResult: null,
+        extendedResult: null,
         checking: false,
       })
       return undefined
@@ -100,6 +106,7 @@ export default function useNotationCheck(tune, liveBodies, options) {
         abcResult: report.abcResult,
         structureResult: report.structureResult,
         lyricsResult: report.lyricsResult,
+        extendedResult: report.extendedResult,
         checking: false,
       })
     }, debounceMs)
@@ -133,6 +140,7 @@ export default function useNotationCheck(tune, liveBodies, options) {
         abcResult: report.abcResult,
         structureResult: report.structureResult,
         lyricsResult: report.lyricsResult,
+        extendedResult: report.extendedResult,
         checking: false,
       })
     },

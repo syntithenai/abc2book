@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkabc2book=self.webpackChunkabc2book||[]).push([[837],{85837:(e,o,a)=>{a.r(o),a.d(o,{TunebookYoutubeWeb:()=>n});var r=a(66653);class n extends r.Uw{async ping(){return{ok:!1,error:"Not available on web"}}async fetchYoutubeAudio(){throw new Error("Native YouTube fetch is only available in the Android app")}async searchYoutubeVideos(){throw new Error("Native YouTube search is only available in the Android app")}}}}]);
-//# sourceMappingURL=837.091b55de.chunk.js.map

@@ -1,5 +1,6 @@
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { assignLyricLinesToBarsForChart } from './lyricBarAlignmentUtils';
+import { getBarModel, defaultNoteLengthForMeter, normalizeMeter } from './barModel';
 
 const parseChord = chordParserFactory();
 const renderChord = chordRendererFactory({ useShortNamings: true });
@@ -121,6 +122,367 @@ export function isSectionHeader(line) {
   if (isBracketChordOnly(raw)) return false;
   if (/^\[.+\]$/.test(raw)) return true;
   return matchesSectionHeaderText(raw);
+}
+
+/** Inline ABC signature tokens in chord charts — not chord symbols. */
+const INLINE_KEY_RE = /^\[K:\s*[^\]]+\]$/i;
+const INLINE_METER_RE = /^\[M:\s*[^\]]+\]$/i;
+const INLINE_TEMPO_RE = /^\[Q:\s*[^\]]+\]$/i;
+
+export function isInlineSignatureToken(token) {
+  const t = String(token == null ? '' : token).trim();
+  if (!t) return false;
+  return INLINE_KEY_RE.test(t) || INLINE_METER_RE.test(t) || INLINE_TEMPO_RE.test(t);
+}
+
+/** Ordered inline [M:…] meters found in chart text (body or full chart). */
+export function inlineMeterTokensInChart(chart) {
+  const tokens = [];
+  const re = /\[M:\s*([^\]]+)\]/gi;
+  const text = String(chart == null ? '' : chart);
+  let match;
+  while ((match = re.exec(text)) !== null) {
+    tokens.push(normalizeMeter(match[1].trim()));
+  }
+  return tokens;
+}
+
+/** True when inline [M:…] tokens differ between two chart strings. */
+export function inlineMeterSignatureChanged(beforeChart, afterChart) {
+  const before = inlineMeterTokensInChart(beforeChart).join('\0');
+  const after = inlineMeterTokensInChart(afterChart).join('\0');
+  return before !== after;
+}
+
+/**
+ * Normalize a stanza/section name for matching (case/bracket insensitive).
+ */
+export function normalizeStanzaNameKey(name) {
+  return String(name == null ? '' : name)
+    .toLowerCase()
+    .replace(/^\[/, '')
+    .replace(/\]$/, '')
+    .replace(/^#+\s*/, '')
+    .replace(/^[-–—−•*]\s*/, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * Token overlap similarity for fuzzy stanza name matching (0–1).
+ */
+export function stanzaNameSimilarity(a, b) {
+  const left = normalizeStanzaNameKey(a);
+  const right = normalizeStanzaNameKey(b);
+  if (!left || !right) return 0;
+  if (left === right) return 1;
+  if (left.includes(right) || right.includes(left)) {
+    const ratio = Math.min(left.length, right.length) / Math.max(left.length, right.length);
+    return 0.85 + ratio * 0.14;
+  }
+  const leftTokens = left.split(/\s+/).filter(Boolean);
+  const rightTokens = right.split(/\s+/).filter(Boolean);
+  if (!leftTokens.length || !rightTokens.length) return 0;
+  let hits = 0;
+  leftTokens.forEach(function(token) {
+    if (rightTokens.indexOf(token) >= 0) hits += 1;
+  });
+  return hits / Math.max(leftTokens.length, rightTokens.length);
+}
+
+/**
+ * Pick best stanza name match from candidates above minScore.
+ */
+export function bestStanzaNameMatch(needle, candidates, options) {
+  const opts = options || {};
+  const minScore = typeof opts.minScore === 'number' ? opts.minScore : 0.85;
+  const list = Array.isArray(candidates) ? candidates : [];
+  let best = null;
+  let bestScore = 0;
+  list.forEach(function(candidate, index) {
+    const score = stanzaNameSimilarity(needle, candidate.label || candidate.name || candidate);
+    if (score >= minScore && score > bestScore) {
+      bestScore = score;
+      best = { index: index, score: score, candidate: candidate };
+    }
+  });
+  return best;
+}
+
+/**
+ * True when a grid token is a section title marker (# Title or [Title] section header).
+ */
+export function isSectionMarkerToken(token) {
+  const raw = String(token == null ? '' : token).trim();
+  if (!raw) return false;
+  if (tokenIsChord(raw)) return false;
+  if (isInlineSignatureToken(raw)) return false;
+  if (tokenIsChartStructureMarker(raw)) return false;
+  if (/^#+\s+/.test(raw) && isSectionHeader(raw)) return true;
+  if (/^\[.+\]$/.test(raw) && isSectionHeader(raw)) return true;
+  return isSectionHeader(raw);
+}
+
+/**
+ * True when an ABC quoted chord name is a section label (e.g. [Verse 1]).
+ */
+export function isSectionMarkerChordName(name) {
+  const raw = String(name == null ? '' : name).trim();
+  if (!raw) return false;
+  const inner = raw.replace(/^"+|"+$/g, '').trim();
+  if (tokenIsChord(inner)) return false;
+  if (/^\[.+\]$/.test(inner)) return isSectionHeader(inner);
+  return isSectionHeader(inner);
+}
+
+/**
+ * Format section title as editor chart header line (# Title).
+ */
+export function sectionMarkerChartLine(header) {
+  const raw = String(header == null ? '' : header).trim();
+  if (!raw) return '';
+  if (/^#+\s+/.test(raw)) return raw;
+  if (/^\[.+\]$/.test(raw)) {
+    const inner = raw.replace(/^\[/, '').replace(/\]$/, '').trim();
+    return '# ' + inner;
+  }
+  return '# ' + raw;
+}
+
+/**
+ * Bracket form for ABC section marker chord name ([Title]).
+ */
+export function sectionMarkerAbcChordName(header) {
+  const raw = String(header == null ? '' : header).trim();
+  if (!raw) return '';
+  if (/^\[.+\]$/.test(raw)) return raw;
+  if (/^#+\s+/.test(raw)) {
+    const inner = raw.replace(/^#+\s*/, '').trim();
+    return inner ? '[' + inner + ']' : '';
+  }
+  return '[' + raw + ']';
+}
+
+/**
+ * True when melody ABC text already contains a section-label quoted chord for header.
+ */
+export function melodyTextHasSectionMarkerChord(melodyText, header) {
+  const text = String(melodyText == null ? '' : melodyText);
+  const expected = sectionMarkerAbcChordName(header);
+  if (!expected) return false;
+  const expectedKey = normalizeStanzaNameKey(expected);
+  const re = /"([^"]*)"/g;
+  let match;
+  while ((match = re.exec(text)) !== null) {
+    if (!isSectionMarkerChordName(match[1])) continue;
+    const marker = sectionMarkerAbcChordName(match[1]);
+    if (marker === expected) return true;
+    if (expectedKey && normalizeStanzaNameKey(marker) === expectedKey) return true;
+  }
+  return false;
+}
+
+/**
+ * Split optional first-line # section marker from chart body.
+ */
+export function splitChartHeaderAndBody(chart) {
+  const text = String(chart == null ? '' : chart);
+  const lines = text.split('\n');
+  if (!lines.length) return { headerLine: '', body: '' };
+  const first = String(lines[0] || '').trim();
+  if (first && (isSectionMarkerToken(first) || (/^#+\s+/.test(first) && isSectionHeader(first)))) {
+    return {
+      headerLine: first,
+      body: lines.slice(1).join('\n').replace(/^\n+/, ''),
+    };
+  }
+  return { headerLine: '', body: text };
+}
+
+export function joinChartHeaderAndBody(headerLine, body) {
+  const header = String(headerLine == null ? '' : headerLine).trim();
+  const chartBody = String(body == null ? '' : body).trim();
+  if (!header) return chartBody;
+  if (!chartBody) return header;
+  return header + '\n' + chartBody;
+}
+
+/**
+ * Rebalance chart bars to unitSlotsPerBar pulse slots per effective meter.
+ * @returns {{ chart: string, droppedChords: string[] }}
+ */
+export function rebalanceChartPulseSlots(chart, defaultMeter, noteLength) {
+  const meterFallback = defaultMeter || '4/4';
+  const lengthFallback = noteLength || defaultNoteLengthForMeter(meterFallback);
+  const droppedChords = [];
+  const split = splitChartHeaderAndBody(chart);
+  let currentMeter = meterFallback;
+  let currentLength = lengthFallback;
+
+  function slotsForMeter(m) {
+    return getBarModel(m, currentLength).unitSlotsPerBar;
+  }
+
+  function normalizeBarTokens(barText, meter) {
+    const targetSlots = slotsForMeter(meter);
+    const tokens = String(barText || '').trim().split(/\s+/).filter(Boolean);
+    const meta = [];
+    const slots = [];
+
+    tokens.forEach(function(token) {
+      if (INLINE_METER_RE.test(token)) {
+        currentMeter = token.replace(/^\[M:\s*/i, '').replace(/\]$/, '').trim();
+        meta.push(token);
+      } else if (INLINE_KEY_RE.test(token) || INLINE_TEMPO_RE.test(token)) {
+        meta.push(token);
+      } else if (isSectionMarkerToken(token)) {
+        meta.push(token);
+      } else if (tokenIsChartStructureMarker(token)) {
+        meta.push(token);
+      } else if (token === '.' || token === '/') {
+        slots.push(null);
+      } else if (tokenIsChord(token)) {
+        slots.push(token);
+      } else if (token.replace(/\./g, '').trim() === '') {
+        slots.push(null);
+      }
+    });
+
+    if (slots.length > targetSlots) {
+      for (let i = targetSlots; i < slots.length; i += 1) {
+        if (slots[i]) droppedChords.push(slots[i]);
+      }
+      slots.length = targetSlots;
+    } else if (slots.length < targetSlots) {
+      while (slots.length < targetSlots) slots.push(null);
+    }
+
+    const out = meta.slice();
+    slots.forEach(function(chord) {
+      out.push(chord || '.');
+    });
+    return out.join(' ');
+  }
+
+  const bodyLines = String(split.body || '').split('\n');
+  const outLines = bodyLines.map(function(line) {
+    const trimmed = String(line || '').trim();
+    if (!trimmed) return line;
+    const parts = splitChordChartLineIntoBars(trimmed);
+    const segments = [];
+    parts.bars.forEach(function(bar, i) {
+      const meterMatch = /\[M:\s*([^\]]+)\]/i.exec(bar);
+      if (meterMatch) {
+        currentMeter = meterMatch[1].trim();
+      }
+      let segment = normalizeBarTokens(bar, currentMeter);
+      const close = parts.barlines[i] || '|';
+      if (close === '|:') {
+        segment = '|: ' + segment;
+      }
+      segments.push(segment);
+    });
+    return segments.join(' | ') + (segments.length ? ' |' : '');
+  });
+
+  const body = outLines.join('\n').trim();
+  return {
+    chart: joinChartHeaderAndBody(split.headerLine, body),
+    droppedChords: droppedChords,
+  };
+}
+
+/**
+ * Expand legacy beat-level bars (4 tokens in 4/4) to full pulse-slot grids.
+ */
+export function expandLegacyBeatSlotsInChart(chart, defaultMeter, noteLength) {
+  const split = splitChartHeaderAndBody(chart);
+  const meterFallback = defaultMeter || '4/4';
+  const lengthFallback = noteLength || defaultNoteLengthForMeter(meterFallback);
+  let currentMeter = meterFallback;
+
+  function expandBarTokens(barText) {
+    const model = getBarModel(currentMeter, lengthFallback);
+    const unitSlots = model.unitSlotsPerBar;
+    const beatCount = model.beatCount;
+    const beatUnitSlots = model.beatUnitSlots;
+    if (unitSlots <= beatCount) return barText;
+
+    const meta = [];
+    const tokens = [];
+    String(barText || '').trim().split(/\s+/).filter(Boolean).forEach(function(token) {
+      if (INLINE_METER_RE.test(token)) {
+        currentMeter = token.replace(/^\[M:\s*/i, '').replace(/\]$/, '').trim();
+        meta.push(token);
+      } else if (INLINE_KEY_RE.test(token) || INLINE_TEMPO_RE.test(token)) {
+        meta.push(token);
+      } else if (isSectionMarkerToken(token)) {
+        meta.push(token);
+      } else if (tokenIsChartStructureMarker(token)) {
+        meta.push(token);
+      } else {
+        tokens.push(token);
+      }
+    });
+
+    if (tokens.length !== beatCount) return barText;
+
+    const slots = new Array(unitSlots);
+    for (let i = 0; i < unitSlots; i += 1) slots[i] = '.';
+    tokens.forEach(function(token, index) {
+      const pulse = index * beatUnitSlots;
+      if (pulse < unitSlots) slots[pulse] = token;
+    });
+    const body = slots.join(' ');
+    return meta.length ? meta.join(' ') + ' ' + body : body;
+  }
+
+  const bodyLines = String(split.body || '').split('\n');
+  const outLines = bodyLines.map(function(line) {
+    const trimmed = String(line || '').trim();
+    if (!trimmed) return line;
+    const parts = splitChordChartLineIntoBars(trimmed);
+    const segments = [];
+    parts.bars.forEach(function(bar, i) {
+      const meterMatch = /\[M:\s*([^\]]+)\]/i.exec(bar);
+      if (meterMatch) {
+        currentMeter = meterMatch[1].trim();
+      }
+      let segment = expandBarTokens(bar);
+      const close = parts.barlines[i] || '|';
+      if (close === '|:') {
+        segment = '|: ' + segment;
+      }
+      segments.push(segment);
+    });
+    return segments.join(' | ') + (segments.length ? ' |' : '');
+  });
+
+  const body = outLines.join('\n').trim();
+  return joinChartHeaderAndBody(split.headerLine, body);
+}
+
+/**
+ * Remove adjacent duplicate inline signature tokens at the chart start.
+ */
+export function dedupeLeadingInlineSignatureDuplicates(chart) {
+  let text = String(chart == null ? '' : chart).trim();
+  let prev = null;
+  while (true) {
+    const match = /^(\[(?:K|M|Q):[^\]]+\])\s+(\[(?:K|M|Q):[^\]]+\])/i.exec(text);
+    if (!match || match[1].toUpperCase() !== match[2].toUpperCase()) break;
+    text = match[1] + text.slice(match[0].length);
+    if (prev === text) break;
+    prev = text;
+  }
+  return text;
+}
+
+/** Remove section-label quoted chords from staff preview ABC (display only). */
+export function stripSectionMarkerChordsFromDisplayAbc(abcText) {
+  return String(abcText || '').replace(/"([^"]+)"/g, function(match, inner) {
+    return isSectionMarkerChordName(inner) ? '' : match;
+  });
 }
 
 /** ChordPro-style inline chord marker: [Am], [F#m7], [C/G], … */
@@ -939,7 +1301,11 @@ export function splitChordChartLineIntoBars(line) {
 
 function chordTokensInBarSegment(segment) {
   return String(segment || '').trim().split(/\s+/).filter(function(token) {
-    return token && !tokenIsChartStructureMarker(token) && tokenIsChord(token);
+    return token
+      && !tokenIsChartStructureMarker(token)
+      && !isInlineSignatureToken(token)
+      && !isSectionMarkerToken(token)
+      && tokenIsChord(token);
   });
 }
 
@@ -1243,14 +1609,7 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
     : null;
 
   function stanzaNameKey(value) {
-    return String(value == null ? '' : value)
-      .toLowerCase()
-      .replace(/^\[/, '')
-      .replace(/\]$/, '')
-      .replace(/^#+\s*/, '')
-      .replace(/^[-–—−•*]\s*/, '')
-      .replace(/\s+/g, ' ')
-      .trim();
+    return normalizeStanzaNameKey(value);
   }
 
   if (hasTypes && soundingLabels && soundingLabels.length > 0) {
@@ -1279,6 +1638,23 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
         hit = chartsByType[b.type];
       } else if (nameKey && Object.prototype.hasOwnProperty.call(chartsByName, nameKey)) {
         hit = chartsByName[nameKey];
+      }
+      if (!hit && b.header) {
+        const candidates = soundingLabels.map(function(label, labelIndex) {
+          return {
+            index: labelIndex,
+            label: label.header || label.title || '',
+          };
+        }).filter(function(c) {
+          return !usedChartIndexes[c.index] && chartBlockHasChords(charts[c.index]);
+        });
+        const fuzzy = bestStanzaNameMatch(b.header, candidates, { minScore: 0.85 });
+        if (fuzzy && charts[fuzzy.candidate.index]) {
+          hit = {
+            chart: sanitizeChordChartBlock(charts[fuzzy.candidate.index]),
+            index: fuzzy.candidate.index,
+          };
+        }
       }
       if (!hit) return;
       chartByBlockIndex[index] = hit.chart;

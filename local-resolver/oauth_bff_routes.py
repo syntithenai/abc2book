@@ -79,6 +79,21 @@ def register_oauth_bff_routes(
             if result.get("detail"):
                 err_body["detail"] = result["detail"]
             return JSONResponse(status_code=status, content=err_body, headers=cors_headers(origin))
+        if result.get("email"):
+            try:
+                from billing import billing_enabled, get_balance_millicents, grant_trial_if_new
+                from billing_rates import millicents_to_cents
+
+                if billing_enabled():
+                    trial = grant_trial_if_new(result["email"])
+                    if trial.get("granted"):
+                        result["trialCreditGranted"] = True
+                    balance = trial.get("balance_millicents")
+                    if balance is None:
+                        balance = get_balance_millicents(result["email"])
+                    result["creditBalanceCents"] = millicents_to_cents(int(balance or 0))
+            except Exception:
+                pass
         return JSONResponse(content=result, headers=cors_headers(origin))
 
     @app.post("/auth/google/refresh")

@@ -1,6 +1,7 @@
 import MusicCollectionArtImage from './MusicCollectionArtImage'
 import {
   isBandcampResult,
+  isDeviceFileResult,
   isEuropeanaResult,
   isInternetArchiveResult,
   isLocAudioResult,
@@ -8,16 +9,11 @@ import {
   mediaSearchResultArtist,
   mediaSearchResultRelativePath,
   mediaSearchPathStyle,
+  mediaSearchSourceLabel,
 } from '../mediaLinkSearchDisplay'
 
 function sourceLabel(source) {
-  if (source === 'music-collection') return 'My library'
-  if (source === 'bandcamp') return 'Bandcamp'
-  if (source === 'internet-archive') return 'Internet Archive'
-  if (source === 'europeana') return 'Europeana'
-  if (source === 'loc') return 'Library of Congress'
-  if (source === 'youtube') return 'YouTube'
-  return source || ''
+  return mediaSearchSourceLabel(source)
 }
 
 export function MediaSearchResultImage(props) {
@@ -51,6 +47,21 @@ export function MediaSearchResultDetails(props) {
   if (!item) return null
 
   if (isMusicCollectionResult(item)) {
+    const artist = mediaSearchResultArtist(item)
+    const relativePath = mediaSearchResultRelativePath(item)
+    return (
+      <div style={{ minWidth: 0, flex: 1 }}>
+        <div className="fw-semibold text-truncate">{item.title || 'Track'}</div>
+        {artist ? <div className="text-truncate">{artist}</div> : null}
+        <div className="small text-muted">{sourceLabel(item.source)}</div>
+        {relativePath ? (
+          <div className="text-truncate mt-1" style={mediaSearchPathStyle}>{relativePath}</div>
+        ) : null}
+      </div>
+    )
+  }
+
+  if (isDeviceFileResult(item)) {
     const artist = mediaSearchResultArtist(item)
     const relativePath = mediaSearchResultRelativePath(item)
     return (
@@ -112,6 +123,21 @@ export function MediaSearchResultDetailsModal(props) {
   if (!item) return null
 
   if (isMusicCollectionResult(item)) {
+    const artist = mediaSearchResultArtist(item)
+    const relativePath = mediaSearchResultRelativePath(item)
+    return (
+      <>
+        <div style={{ fontWeight: 'bold', fontSize: '1.1em' }}>{item.title || 'Track'}</div>
+        {artist ? <div>{artist}</div> : null}
+        <div className="small text-muted">{sourceLabel(item.source)}</div>
+        {relativePath ? (
+          <div className="mt-1" style={mediaSearchPathStyle}>{relativePath}</div>
+        ) : null}
+      </>
+    )
+  }
+
+  if (isDeviceFileResult(item)) {
     const artist = mediaSearchResultArtist(item)
     const relativePath = mediaSearchResultRelativePath(item)
     return (

@@ -1,0 +1,734 @@
+"""Credit ledger for hosted resolver billing.
+
+Storage follows oauth_bff: sqlite (home) or firestore (Cloud Run).
+Balance is stored in millicents (1 millicent = $0.00001).
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import sqlite3
+import time
+import uuid
+from typing import Any, AsyncIterator, Callable
+
+from billing_rates import (
+    MILLICENTS_PER_CENT,
+    TRIAL_CREDIT_CENTS,
+    cents_to_millicents,
+    millicents_to_cents,
+)
+
+BILLING_ENABLED = os.getenv("BILLING_ENABLED", "false").lower() in ("1", "true", "yes")
+BILLING_STORE = os.getenv("BILLING_STORE", os.getenv("AUTH_SESSION_STORE", "sqlite")).strip().lower()
+BILLING_DB_PATH = os.getenv(
+    "BILLING_DB_PATH",
+    os.path.join(os.path.dirname(__file__), "data", "billing.sqlite"),
+).strip()
+BILLING_FIRESTORE_PROJECT = os.getenv(
+    "BILLING_FIRESTORE_PROJECT",
+    os.getenv("AUTH_SESSION_FIRESTORE_PROJECT", ""),
+).strip()
+BILLING_FIRESTORE_COLLECTION = os.getenv("BILLING_FIRESTORE_COLLECTION", "billing_accounts").strip()
+BILLING_LEDGER_COLLECTION = os.getenv("BILLING_LEDGER_COLLECTION", "billing_ledger").strip()
+BILLING_STRIPE_EVENTS_COLLECTION = os.getenv(
+    "BILLING_STRIPE_EVENTS_COLLECTION",
+    "billing_stripe_events",
+).strip()
+BILLING_PAYMENT_EVENTS_COLLECTION = os.getenv(
+    "BILLING_PAYMENT_EVENTS_COLLECTION",
+    "billing_payment_events",
+).strip()
+
+_db_initialized = False
+_firestore_client = None
+
+
+def billing_enabled() -> bool:
+    return BILLING_ENABLED
+
+
+def _use_firestore() -> bool:
+    return BILLING_STORE == "firestore"
+
+
+def _get_firestore_client():
+    global _firestore_client
+    if _firestore_client is not None:
+        return _firestore_client
+    from google.cloud import firestore
+
+    project = BILLING_FIRESTORE_PROJECT or None
+    _firestore_client = firestore.Client(project=project)
+    return _firestore_client
+
+
+def _connect() -> sqlite3.Connection:
+    parent = os.path.dirname(BILLING_DB_PATH)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
+    conn = sqlite3.connect(BILLING_DB_PATH, timeout=30)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+def ensure_db() -> None:
+    global _db_initialized
+    if _use_firestore():
+        return
+    if _db_initialized:
+        return
+    with _connect() as conn:
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS credit_accounts (
+                email TEXT PRIMARY KEY,
+                balance_millicents INTEGER NOT NULL DEFAULT 0,
+                trial_granted INTEGER NOT NULL DEFAULT 0,
+                created_at REAL NOT NULL,
+                updated_at REAL NOT NULL
+            )
+            """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS credit_ledger (
+                id TEXT PRIMARY KEY,
+                email TEXT NOT NULL,
+                delta_millicents INTEGER NOT NULL,
+                balance_after_millicents INTEGER NOT NULL,
+                entry_type TEXT NOT NULL,
+                usage_type TEXT NOT NULL DEFAULT '',
+                detail_json TEXT NOT NULL DEFAULT '{}',
+                created_at REAL NOT NULL
+            )
+            """
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_credit_ledger_email ON credit_ledger(email, created_at DESC)"
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS stripe_events (
+                event_id TEXT PRIMARY KEY,
+                email TEXT NOT NULL,
+                amount_cents INTEGER NOT NULL,
+                created_at REAL NOT NULL
+            )
+            """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS payment_events (
+                provider TEXT NOT NULL,
+                event_id TEXT NOT NULL,
+                email TEXT NOT NULL,
+                amount_cents INTEGER NOT NULL,
+                created_at REAL NOT NULL,
+                PRIMARY KEY (provider, event_id)
+            )
+            """
+        )
+        conn.commit()
+    _db_initialized = True
+
+
+def _normalize_email(email: str) -> str:
+    return (email or "").strip().lower()
+
+
+def is_unlimited_user(
+    email: str,
+    *,
+    free_allowlist: set[str],
+    embedded_allowlist: set[str],
+) -> bool:
+    from allowlists import email_allowed
+
+    normalized = _normalize_email(email)
+    if not normalized:
+        return False
+    return email_allowed(free_allowlist, normalized) or email_allowed(embedded_allowlist, normalized)
+
+
+def should_bill_user(
+    email: str,
+    *,
+    free_allowlist: set[str],
+    embedded_allowlist: set[str],
+) -> bool:
+    if not billing_enabled():
+        return False
+    return not is_unlimited_user(
+        email,
+        free_allowlist=free_allowlist,
+        embedded_allowlist=embedded_allowlist,
+    )
+
+
+def _sqlite_get_account(email: str) -> dict[str, Any] | None:
+    ensure_db()
+    with _connect() as conn:
+        row = conn.execute(
+            "SELECT email, balance_millicents, trial_granted, created_at, updated_at FROM credit_accounts WHERE email = ?",
+            (email,),
+        ).fetchone()
+    if not row:
+        return None
+    return {
+        "email": row["email"],
+        "balance_millicents": int(row["balance_millicents"]),
+        "trial_granted": bool(row["trial_granted"]),
+        "created_at": float(row["created_at"]),
+        "updated_at": float(row["updated_at"]),
+    }
+
+
+def _firestore_account_ref(email: str):
+    client = _get_firestore_client()
+    return client.collection(BILLING_FIRESTORE_COLLECTION).document(email)
+
+
+def _firestore_get_account(email: str) -> dict[str, Any] | None:
+    doc = _firestore_account_ref(email).get()
+    if not doc.exists:
+        return None
+    data = doc.to_dict() or {}
+    return {
+        "email": email,
+        "balance_millicents": int(data.get("balance_millicents") or 0),
+        "trial_granted": bool(data.get("trial_granted")),
+        "created_at": float(data.get("created_at") or 0),
+        "updated_at": float(data.get("updated_at") or 0),
+    }
+
+
+def get_account(email: str) -> dict[str, Any] | None:
+    email = _normalize_email(email)
+    if not email:
+        return None
+    if _use_firestore():
+        return _firestore_get_account(email)
+    return _sqlite_get_account(email)
+
+
+def get_balance_millicents(email: str) -> int:
+    account = get_account(email)
+    if not account:
+        return 0
+    return int(account["balance_millicents"])
+
+
+def get_balance_cents(email: str) -> float:
+    return millicents_to_cents(get_balance_millicents(email))
+
+
+def has_credit_access(
+    email: str,
+    *,
+    free_allowlist: set[str],
+    embedded_allowlist: set[str],
+) -> bool:
+    if not billing_enabled():
+        return True
+    if is_unlimited_user(email, free_allowlist=free_allowlist, embedded_allowlist=embedded_allowlist):
+        return True
+    return get_balance_millicents(email) > 0
+
+
+def _append_ledger_sqlite(
+    conn: sqlite3.Connection,
+    *,
+    email: str,
+    delta_millicents: int,
+    balance_after: int,
+    entry_type: str,
+    usage_type: str,
+    detail: dict[str, Any],
+) -> str:
+    entry_id = uuid.uuid4().hex
+    now = time.time()
+    conn.execute(
+        """
+        INSERT INTO credit_ledger (
+            id, email, delta_millicents, balance_after_millicents,
+            entry_type, usage_type, detail_json, created_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        (
+            entry_id,
+            email,
+            delta_millicents,
+            balance_after,
+            entry_type,
+            usage_type or "",
+            json.dumps(detail or {}),
+            now,
+        ),
+    )
+    return entry_id
+
+
+def _apply_delta_sqlite(
+    email: str,
+    delta_millicents: int,
+    *,
+    entry_type: str,
+    usage_type: str = "",
+    detail: dict[str, Any] | None = None,
+    allow_negative: bool = False,
+) -> dict[str, Any]:
+    ensure_db()
+    email = _normalize_email(email)
+    now = time.time()
+    with _connect() as conn:
+        conn.execute("BEGIN IMMEDIATE")
+        row = conn.execute(
+            "SELECT balance_millicents, trial_granted, created_at FROM credit_accounts WHERE email = ?",
+            (email,),
+        ).fetchone()
+        if row:
+            balance = int(row["balance_millicents"])
+            trial_granted = bool(row["trial_granted"])
+            created_at = float(row["created_at"])
+        else:
+            balance = 0
+            trial_granted = False
+            created_at = now
+            conn.execute(
+                "INSERT INTO credit_accounts (email, balance_millicents, trial_granted, created_at, updated_at) VALUES (?, 0, 0, ?, ?)",
+                (email, now, now),
+            )
+        new_balance = balance + int(delta_millicents)
+        if not allow_negative and new_balance < 0:
+            conn.execute("ROLLBACK")
+            return {"ok": False, "error": "insufficient_credit", "balance_millicents": balance}
+        conn.execute(
+            "UPDATE credit_accounts SET balance_millicents = ?, updated_at = ? WHERE email = ?",
+            (new_balance, now, email),
+        )
+        entry_id = _append_ledger_sqlite(
+            conn,
+            email=email,
+            delta_millicents=int(delta_millicents),
+            balance_after=new_balance,
+            entry_type=entry_type,
+            usage_type=usage_type,
+            detail=detail or {},
+        )
+        conn.commit()
+    return {
+        "ok": True,
+        "entry_id": entry_id,
+        "balance_millicents": new_balance,
+        "trial_granted": trial_granted,
+        "created_at": created_at,
+    }
+
+
+def _firestore_apply_delta(
+    email: str,
+    delta_millicents: int,
+    *,
+    entry_type: str,
+    usage_type: str = "",
+    detail: dict[str, Any] | None = None,
+    allow_negative: bool = False,
+) -> dict[str, Any]:
+    from google.cloud import firestore as fs
+
+    client = _get_firestore_client()
+    account_ref = _firestore_account_ref(email)
+    ledger_ref = client.collection(BILLING_LEDGER_COLLECTION).document()
+    now = time.time()
+
+    @fs.transactional
+    def _txn(transaction):
+        snap = account_ref.get(transaction=transaction)
+        if snap.exists:
+            data = snap.to_dict() or {}
+            balance = int(data.get("balance_millicents") or 0)
+            trial_granted = bool(data.get("trial_granted"))
+            created_at = float(data.get("created_at") or now)
+        else:
+            balance = 0
+            trial_granted = False
+            created_at = now
+        new_balance = balance + int(delta_millicents)
+        if not allow_negative and new_balance < 0:
+            return {"ok": False, "error": "insufficient_credit", "balance_millicents": balance}
+        transaction.set(
+            account_ref,
+            {
+                "email": email,
+                "balance_millicents": new_balance,
+                "trial_granted": trial_granted,
+                "created_at": created_at,
+                "updated_at": now,
+            },
+            merge=True,
+        )
+        transaction.set(
+            ledger_ref,
+            {
+                "email": email,
+                "delta_millicents": int(delta_millicents),
+                "balance_after_millicents": new_balance,
+                "entry_type": entry_type,
+                "usage_type": usage_type or "",
+                "detail": detail or {},
+                "created_at": now,
+            },
+        )
+        return {
+            "ok": True,
+            "entry_id": ledger_ref.id,
+            "balance_millicents": new_balance,
+            "trial_granted": trial_granted,
+            "created_at": created_at,
+        }
+
+    transaction = client.transaction()
+    return _txn(transaction)
+
+
+def apply_delta(
+    email: str,
+    delta_millicents: int,
+    *,
+    entry_type: str,
+    usage_type: str = "",
+    detail: dict[str, Any] | None = None,
+    allow_negative: bool = False,
+) -> dict[str, Any]:
+    email = _normalize_email(email)
+    if not email:
+        return {"ok": False, "error": "missing_email"}
+    if _use_firestore():
+        return _firestore_apply_delta(
+            email,
+            delta_millicents,
+            entry_type=entry_type,
+            usage_type=usage_type,
+            detail=detail,
+            allow_negative=allow_negative,
+        )
+    return _apply_delta_sqlite(
+        email,
+        delta_millicents,
+        entry_type=entry_type,
+        usage_type=usage_type,
+        detail=detail,
+        allow_negative=allow_negative,
+    )
+
+
+def grant_trial_if_new(email: str) -> dict[str, Any]:
+    if not billing_enabled():
+        return {"granted": False, "reason": "billing_disabled"}
+    email = _normalize_email(email)
+    if not email:
+        return {"granted": False, "reason": "missing_email"}
+    trial_millicents = cents_to_millicents(TRIAL_CREDIT_CENTS)
+    if trial_millicents <= 0:
+        return {"granted": False, "reason": "trial_disabled"}
+
+    if _use_firestore():
+        account = _firestore_get_account(email)
+        if account and account.get("trial_granted"):
+            return {"granted": False, "reason": "already_granted", "balance_millicents": account["balance_millicents"]}
+        if not account:
+            apply_delta(email, 0, entry_type="account_created")
+        result = apply_delta(
+            email,
+            trial_millicents,
+            entry_type="trial",
+            usage_type="trial_credit",
+            detail={"cents": TRIAL_CREDIT_CENTS},
+        )
+        if result.get("ok"):
+            _firestore_account_ref(email).set({"trial_granted": True}, merge=True)
+        return {"granted": bool(result.get("ok")), **result}
+
+    ensure_db()
+    with _connect() as conn:
+        row = conn.execute(
+            "SELECT trial_granted FROM credit_accounts WHERE email = ?",
+            (email,),
+        ).fetchone()
+        if row and bool(row["trial_granted"]):
+            balance = get_balance_millicents(email)
+            return {"granted": False, "reason": "already_granted", "balance_millicents": balance}
+    if not get_account(email):
+        apply_delta(email, 0, entry_type="account_created")
+    result = apply_delta(
+        email,
+        trial_millicents,
+        entry_type="trial",
+        usage_type="trial_credit",
+        detail={"cents": TRIAL_CREDIT_CENTS},
+    )
+    if result.get("ok"):
+        with _connect() as conn:
+            conn.execute(
+                "UPDATE credit_accounts SET trial_granted = 1 WHERE email = ?",
+                (email,),
+            )
+            conn.commit()
+    return {"granted": bool(result.get("ok")), **result}
+
+
+def record_usage(
+    email: str,
+    millicents: int,
+    *,
+    usage_type: str,
+    detail: dict[str, Any] | None = None,
+    free_allowlist: set[str],
+    embedded_allowlist: set[str],
+) -> dict[str, Any]:
+    if millicents <= 0:
+        return {"ok": True, "skipped": True}
+    if not should_bill_user(
+        email,
+        free_allowlist=free_allowlist,
+        embedded_allowlist=embedded_allowlist,
+    ):
+        return {"ok": True, "skipped": True, "unlimited": True}
+    return apply_delta(
+        email,
+        -int(millicents),
+        entry_type="usage",
+        usage_type=usage_type,
+        detail=detail,
+        allow_negative=False,
+    )
+
+
+def _payment_event_exists(provider: str, event_id: str) -> bool:
+    provider = (provider or "").strip().lower()
+    event_id = (event_id or "").strip()
+    if not provider or not event_id:
+        return False
+    if _use_firestore():
+        client = _get_firestore_client()
+        doc_id = f"{provider}:{event_id}"
+        if client.collection(BILLING_PAYMENT_EVENTS_COLLECTION).document(doc_id).get().exists:
+            return True
+        if provider == "stripe":
+            return client.collection(BILLING_STRIPE_EVENTS_COLLECTION).document(event_id).get().exists
+        return False
+
+    ensure_db()
+    with _connect() as conn:
+        row = conn.execute(
+            "SELECT provider FROM payment_events WHERE provider = ? AND event_id = ?",
+            (provider, event_id),
+        ).fetchone()
+        if row:
+            return True
+        if provider == "stripe":
+            legacy = conn.execute(
+                "SELECT event_id FROM stripe_events WHERE event_id = ?",
+                (event_id,),
+            ).fetchone()
+            return legacy is not None
+    return False
+
+
+def _record_payment_event(provider: str, event_id: str, email: str, amount_cents: int) -> None:
+    provider = (provider or "").strip().lower()
+    event_id = (event_id or "").strip()
+    email = _normalize_email(email)
+    if not provider or not event_id or not email:
+        return
+    now = time.time()
+    if _use_firestore():
+        client = _get_firestore_client()
+        doc_id = f"{provider}:{event_id}"
+        client.collection(BILLING_PAYMENT_EVENTS_COLLECTION).document(doc_id).set(
+            {
+                "provider": provider,
+                "event_id": event_id,
+                "email": email,
+                "amount_cents": int(amount_cents),
+                "created_at": now,
+            }
+        )
+        if provider == "stripe":
+            client.collection(BILLING_STRIPE_EVENTS_COLLECTION).document(event_id).set(
+                {"email": email, "amount_cents": int(amount_cents), "created_at": now}
+            )
+        return
+
+    ensure_db()
+    with _connect() as conn:
+        conn.execute(
+            """
+            INSERT OR IGNORE INTO payment_events (provider, event_id, email, amount_cents, created_at)
+            VALUES (?, ?, ?, ?, ?)
+            """,
+            (provider, event_id, email, int(amount_cents), now),
+        )
+        if provider == "stripe":
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO stripe_events (event_id, email, amount_cents, created_at)
+                VALUES (?, ?, ?, ?)
+                """,
+                (event_id, email, int(amount_cents), now),
+            )
+        conn.commit()
+
+
+def grant_purchase(
+    email: str,
+    amount_cents: int,
+    *,
+    provider: str,
+    provider_event_id: str,
+    detail: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    email = _normalize_email(email)
+    provider = (provider or "").strip().lower()
+    event_id = (provider_event_id or "").strip()
+    if not email or amount_cents <= 0 or not provider or not event_id:
+        return {"ok": False, "error": "invalid_purchase"}
+
+    if _payment_event_exists(provider, event_id):
+        return {"ok": True, "duplicate": True, "balance_millicents": get_balance_millicents(email)}
+
+    purchase_detail: dict[str, Any] = {"amount_cents": amount_cents, "provider": provider, "provider_event_id": event_id}
+    if detail:
+        purchase_detail.update(detail)
+    usage_type = f"purchase_{provider}"
+    result = apply_delta(
+        email,
+        cents_to_millicents(amount_cents),
+        entry_type="purchase",
+        usage_type=usage_type,
+        detail=purchase_detail,
+    )
+    if result.get("ok"):
+        _record_payment_event(provider, event_id, email, amount_cents)
+    return result
+
+
+def grant_purchase_cents(email: str, amount_cents: int, *, stripe_event_id: str, detail: dict[str, Any] | None = None) -> dict[str, Any]:
+    """Backward-compatible Stripe purchase grant."""
+    merged = dict(detail or {})
+    merged.setdefault("stripe_event_id", stripe_event_id)
+    return grant_purchase(
+        email,
+        amount_cents,
+        provider="stripe",
+        provider_event_id=stripe_event_id,
+        detail=merged,
+    )
+
+
+def list_ledger(email: str, *, limit: int = 50) -> list[dict[str, Any]]:
+    email = _normalize_email(email)
+    if not email:
+        return []
+    limit = max(1, min(int(limit), 200))
+    if _use_firestore():
+        client = _get_firestore_client()
+        query = (
+            client.collection(BILLING_LEDGER_COLLECTION)
+            .where("email", "==", email)
+            .order_by("created_at", direction="DESCENDING")
+            .limit(limit)
+        )
+        out = []
+        for doc in query.stream():
+            data = doc.to_dict() or {}
+            out.append(
+                {
+                    "id": doc.id,
+                    "delta_millicents": int(data.get("delta_millicents") or 0),
+                    "balance_after_millicents": int(data.get("balance_after_millicents") or 0),
+                    "entry_type": data.get("entry_type") or "",
+                    "usage_type": data.get("usage_type") or "",
+                    "detail": data.get("detail") or {},
+                    "created_at": float(data.get("created_at") or 0),
+                }
+            )
+        return out
+
+    ensure_db()
+    with _connect() as conn:
+        rows = conn.execute(
+            """
+            SELECT id, delta_millicents, balance_after_millicents, entry_type, usage_type, detail_json, created_at
+            FROM credit_ledger WHERE email = ? ORDER BY created_at DESC LIMIT ?
+            """,
+            (email, limit),
+        ).fetchall()
+    out = []
+    for row in rows:
+        try:
+            detail = json.loads(row["detail_json"] or "{}")
+        except Exception:
+            detail = {}
+        out.append(
+            {
+                "id": row["id"],
+                "delta_millicents": int(row["delta_millicents"]),
+                "balance_after_millicents": int(row["balance_after_millicents"]),
+                "entry_type": row["entry_type"],
+                "usage_type": row["usage_type"],
+                "detail": detail,
+                "created_at": float(row["created_at"]),
+            }
+        )
+    return out
+
+
+def billing_health_fields(
+    email: str | None,
+    *,
+    free_allowlist: set[str],
+    embedded_allowlist: set[str],
+) -> dict[str, Any]:
+    if not billing_enabled():
+        return {
+            "billingEnabled": False,
+            "creditRequired": False,
+            "creditBalanceCents": None,
+            "creditUnlimited": False,
+        }
+    normalized = _normalize_email(email or "")
+    unlimited = bool(
+        normalized
+        and is_unlimited_user(
+            normalized,
+            free_allowlist=free_allowlist,
+            embedded_allowlist=embedded_allowlist,
+        )
+    )
+    balance_cents = millicents_to_cents(get_balance_millicents(normalized)) if normalized else 0.0
+    return {
+        "billingEnabled": True,
+        "creditRequired": True,
+        "creditBalanceCents": balance_cents,
+        "creditUnlimited": unlimited,
+    }
+
+
+def wrap_streaming_body(
+    body_iter: AsyncIterator[bytes],
+    on_complete: Callable[[int], None],
+) -> AsyncIterator[bytes]:
+    async def _gen():
+        total = 0
+        try:
+            async for chunk in body_iter:
+                if chunk:
+                    total += len(chunk)
+                yield chunk
+        finally:
+            on_complete(total)
+
+    return _gen()

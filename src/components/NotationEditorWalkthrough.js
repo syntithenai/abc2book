@@ -191,10 +191,9 @@ export const WALKTHROUGH_STEPS = [
     title: 'Key and time signature changes',
     summary: 'Insert mid-tune [K:…] and [M:…] changes.',
     body: [
-      'The K split button in the staff toolbar opens signature changes.',
-      'Key change… inserts [K:…] at the caret — for example [K:Am] partway through a tune.',
-      'Time signature change… inserts [M:…] at the start of the current bar (after the preceding bar line).',
-      'Select an existing inline key or meter token and open the same menu to edit it.',
+      'The bar lines split button opens signatures and bar line types. Star favorites to pin them on the toolbar when width allows.',
+      'Key and time signature buttons insert [K:…] and [M:…] changes.',
+      'Select an existing inline key or meter token and click the matching button again to edit it.',
       'Tune-level key and meter (Info tab or staff header click) still set the opening signature for the whole tune.',
     ],
     tryIt: [

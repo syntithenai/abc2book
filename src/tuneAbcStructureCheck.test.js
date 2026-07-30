@@ -3,12 +3,17 @@ import { checkTuneAbcStructure } from './tuneAbcStructureCheck';
 import {
   appendFinalBarlineInTune,
   collapseEmptyRepeatBarsInTune,
+  convertScaffoldToRestsInTune,
   fixSessionLineBreaksInTune,
   fixStanzaDoubleBarlinesInTune,
   normalizeMelodyRepeatMarks,
   previewStructureFix,
   removeEmptyBarsFromFlatMelody,
   removeEmptyBarsInTune,
+  removeEmptyVoiceInTune,
+  removeOrphanRepeatEndInTune,
+  resolveHeaderConflictFromAbc,
+  wrapEndingInRepeatInTune,
 } from './tuneAbcStructureFix';
 import { buildTuneCheckReport } from './tuneBulkCheckReport';
 
@@ -213,6 +218,40 @@ describe('tuneAbcStructureFix', function() {
     expect(fixed).toBeNull();
     const flat = tune.voices[Object.keys(tune.voices)[0]].notes.join(' ');
     expect(flat).toContain('||');
+  });
+
+  test('wrapEndingInRepeat wraps first ending in repeat marks', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Ending') + 'C D E F | [1 C D E F |]');
+    const fixed = wrapEndingInRepeatInTune(tune);
+    expect(fixed).not.toBeNull();
+    const flat = fixed.voices[Object.keys(fixed.voices)[0]].notes.join(' ');
+    expect(flat).toContain('|:');
+    expect(flat).toContain('[1');
+  });
+
+  test('removeEmptyVoiceInTune removes empty secondary voice', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Voices') + 'C D E F |');
+    tune.voices['2'] = { notes: [''] };
+    const fixed = removeEmptyVoiceInTune(tune);
+    expect(fixed).not.toBeNull();
+    expect(fixed.voices['2']).toBeUndefined();
+  });
+
+  test('removeOrphanRepeatEndInTune removes leading orphan repeat end', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Orphan') + ':| C D E F |');
+    const fixed = removeOrphanRepeatEndInTune(tune);
+    expect(fixed).not.toBeNull();
+    const flat = fixed.voices[Object.keys(fixed.voices)[0]].notes.join(' ');
+    expect(flat.startsWith(':|')).toBe(false);
+  });
+
+  test('resolveHeaderConflictFromAbc prefers inline ABC meter marker', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Meter') + '[M:3/4] C D E F |');
+    tune.meter = '4/4';
+    const abcText = abcTools.json2abc(tune);
+    const fixed = resolveHeaderConflictFromAbc(tune, abcTools);
+    expect(fixed).not.toBeNull();
+    expect(fixed.meter).toBe(String(abcTools.getMetaValueFromAbc('M', abcText) || fixed.meter).trim());
   });
 });
 

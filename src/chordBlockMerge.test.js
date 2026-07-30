@@ -10,14 +10,20 @@ import {
   classifyBar,
   classifyBarsInRange,
   countChartBars,
+  enrichBlocksWithNotationMarkerFlags,
   hashAbcNotes,
+  rebuildNoteLinesFromMergedStrains,
   mergeAllChordBlocks,
   mergeChordsForBlock,
   mergeFailure,
+  readChordBlockCache,
   reconcileBlocksFromGrid,
   splitMelodyStrainsWithBarlines,
+  sliceChartAcrossStrainBarCounts,
+  writeChordBlockCache,
 } from './chordBlockMerge'
-import { reconcileChordSectionsFromGrid } from './chordsEditorSections'
+import { reconcileChordSectionsFromGrid, applyChordSectionLabels } from './chordsEditorSections'
+import { splitChordChartIntoBlocks } from './chordSheetUtils'
 import { getPlainLyricLines } from './wLinesUtils'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 import { flattenMelodyText } from './lyricBarAlignmentUtils'
@@ -38,6 +44,21 @@ function baseAbc(notes, extras) {
   ].join('\n')
 }
 
+const REPEAT_STRAIN_LINE_A = '|:"Am"E2A2 ABcd|e2d2 c2A2|"G"B2G2 GFGA|"Em"B2AG E2D2|! "Am"E2A2 ABcd|e2d2 e2ag|"Em"e2d2 "G"BedB|"Am"A4 A4:|'
+const REPEAT_STRAIN_LINE_B = ' |:"Am"a2e2 e2fg|abag e2fg|abaf "Em"g3e|"G"dedB G4|! "Am"a2e2 e2fg|abag e2d2|"Em"B2e2 "G"d2B2|"Am"A4 A4:|'
+
+function repeatStrainAbc() {
+  return [
+    'X:1',
+    'T:RepeatStrain',
+    'M:4/4',
+    'L:1/4',
+    'K:Am',
+    REPEAT_STRAIN_LINE_A,
+    REPEAT_STRAIN_LINE_B,
+  ].join('\n')
+}
+
 describe('chordBlockMerge', function() {
   test('classifyBar distinguishes pitch, rest, scaffold, empty', function() {
     expect(classifyBar('C D E F')).toBe('pitch')
@@ -55,6 +76,18 @@ describe('chordBlockMerge', function() {
     expect(countChartBars('C . . . | F . . . |')).toBe(2)
     expect(countChartBars('Am | G | C |')).toBe(3)
     expect(countChartBars('')).toBe(0)
+    expect(countChartBars('# Bridge\nC . . . . . . . |')).toBe(1)
+  })
+
+  test('enrichBlocksWithNotationMarkerFlags detects ABC section marker chords', function() {
+    const blocks = [{
+      header: '[Verse]',
+      melodyStrainIndex: 0,
+      chart: 'C . . . |',
+    }]
+    const noteLines = ['"[Verse]" z z z | "C" z z z |']
+    const enriched = enrichBlocksWithNotationMarkerFlags(blocks, noteLines)
+    expect(enriched[0].notationMarkerWritten).toBe(true)
   })
 
   test('hashAbcNotes is stable for whitespace-normalized notes', function() {
@@ -81,6 +114,82 @@ describe('chordBlockMerge', function() {
     expect(blocks[0].abcBarStart).toBe(0)
     expect(blocks[0].chart).toContain('C')
     expect(blocks[1].chart).toContain('Am')
+  })
+
+  test('splitMelodyStrainsWithBarlines splits repeat strains on |:', function() {
+    const strains = splitMelodyStrainsWithBarlines([
+      REPEAT_STRAIN_LINE_A,
+      REPEAT_STRAIN_LINE_B,
+    ])
+    expect(strains.length).toBe(2)
+    expect(strains[0].text).toMatch(/E2A2/)
+    expect(strains[1].text).toMatch(/a2e2/)
+  })
+
+  test('sliceChartAcrossStrainBarCounts splits single chart by strain bar counts', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = repeatStrainAbc()
+    const noteLines = abcTools.justNotes(abc).split('\n')
+    const strains = splitMelodyStrainsWithBarlines(noteLines)
+    const strainBarCounts = strains.map(function(s) {
+      return s.text.split('|').filter(function(p) { return /[A-Ga-gzZ\^_\=\d",]/.test(p) }).length
+    })
+    const chart = abcjsParser.renderChords(abc, true)
+    const slices = sliceChartAcrossStrainBarCounts(chart, strainBarCounts)
+    expect(slices.length).toBe(2)
+    expect(countChartBars(slices[0])).toBe(strainBarCounts[0])
+    expect(countChartBars(slices[1])).toBe(strainBarCounts[1])
+  })
+
+  test('repeat strains split chord chart across unified blocks', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = repeatStrainAbc()
+    const noteLines = abcTools.justNotes(abc).split('\n')
+    const chordChart = abcjsParser.renderChords(abc, true)
+    expect(splitChordChartIntoBlocks(chordChart).length).toBe(2)
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: noteLines,
+      chordChart: chordChart,
+      lyricLines: [],
+      defaultMeter: '4/4',
+      defaultKey: 'Am',
+      defaultNoteLength: '1/4',
+    })
+    expect(blocks.length).toBe(2)
+    expect(countChartBars(blocks[0].chart)).toBeGreaterThan(0)
+    expect(countChartBars(blocks[1].chart)).toBeGreaterThan(0)
+    expect(blocks[0].chart).toMatch(/Am/)
+    expect(blocks[1].chart).toMatch(/Am/)
+  })
+
+  test('applyBlockMergeToTune preserves pitched melody on repeat strain save', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = repeatStrainAbc()
+    const tune = abcTools.abc2json(abc)
+    tune.id = 'repeat-strain-save'
+    const voiceKey = Object.keys(tune.voices)[0]
+    const notesBefore = tune.voices[voiceKey].notes.slice()
+    const chordChart = abcjsParser.renderChords(abc, true)
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: notesBefore,
+      chordChart: chordChart,
+      lyricLines: [],
+      defaultMeter: '4/4',
+      defaultKey: 'Am',
+      defaultNoteLength: '1/4',
+    })
+    const result = applyBlockMergeToTune(tune, {
+      abc: abc,
+      blocks: blocks,
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      defaultMeter: '4/4',
+      notesBefore: notesBefore,
+    })
+    expect(result.ok).toBe(true)
+    expect(noteLinesHaveRealMelody(tune.voices[voiceKey].notes)).toBe(true)
+    const notesText = tune.voices[voiceKey].notes.join('\n')
+    expect(notesText).toMatch(/E2A2|e2e2|a2e2/i)
   })
 
   test('buildBarIndexMap covers all bars', function() {
@@ -133,6 +242,106 @@ describe('chordBlockMerge', function() {
     expect(result.error).toBeNull()
     expect(flattenHasDoubleBar(result.noteLines)).toBe(true)
     expect(result.blocks.length).toBeGreaterThanOrEqual(1)
+  })
+
+  test('autoExpandNoteLinesForBlocks adds rest strain', function() {
+    const blocks = [
+      { chart: 'C |', meter: '4/4', needsAbcExpand: false, abcBarStart: 0, abcBarEnd: 0 },
+      { chart: 'G |', meter: '4/4', needsAbcExpand: true, abcBarStart: -1, abcBarEnd: -1 },
+    ]
+    const result = autoExpandNoteLinesForBlocks(['z z z z |'], blocks, '4/4')
+    expect(result.error).toBeNull()
+    expect(flattenHasDoubleBar(result.noteLines)).toBe(true)
+    expect(result.blocks.length).toBeGreaterThanOrEqual(1)
+  })
+
+  test('merge without writeNotationMarker does not inject section label chords', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = baseAbc('z8 |')
+    const sections = [{
+      header: '[Verse]',
+      title: 'Verse',
+      type: 'verse',
+      chart: 'C . . . . . . . |',
+      meter: '4/4',
+      abcKey: 'C',
+      melodyStrainIndex: 0,
+      chartRevisit: false,
+    }]
+    const result = mergeAllChordBlocks(abc, sections, {
+      abcjsParser: abcjsParser,
+      tunebook: { abcTools: abcTools },
+      defaultMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    expect(result.abc).not.toMatch(/"\[Verse\]"/)
+    expect(result.abc).toMatch(/"C"/)
+  })
+
+  test('merge skips duplicate inline meter when melody strain already has [M:]', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = baseAbc('z8 || [M:3/4] z6 |')
+    const sections = [
+      {
+        chart: 'C . . . . . . . |',
+        meter: '4/4',
+        abcKey: 'C',
+        melodyStrainIndex: 0,
+        chartRevisit: false,
+      },
+      {
+        chart: 'Am . . . . . . |',
+        meter: '3/4',
+        abcKey: 'C',
+        melodyStrainIndex: 1,
+        chartRevisit: false,
+      },
+    ]
+    const result = mergeAllChordBlocks(abc, sections, {
+      abcjsParser: abcjsParser,
+      tunebook: { abcTools: abcTools },
+      defaultMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    const notes = flattenMelodyText(abcTools.justNotes(result.abc).split('\n'))
+    expect(notes).not.toMatch(/\[M:3\/4\]\s*\[M:3\/4\]/)
+    expect(notes).toContain('"Am"')
+  })
+
+  test('merge preserves mid-chart inline meter in section chart', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = baseAbc('z8 | z8 | z8 | z8 |')
+    const sections = [{
+      chart: 'C . . . | [M:3/4] Am . . | Am . . | Am . . |',
+      meter: '4/4',
+      abcKey: 'C',
+      melodyStrainIndex: 0,
+      chartRevisit: false,
+    }]
+    const result = mergeAllChordBlocks(abc, sections, {
+      abcjsParser: abcjsParser,
+      tunebook: { abcTools: abcTools },
+      defaultMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    const notes = abcTools.justNotes(result.abc)
+    expect(notes).toMatch(/\[M:3\/4\]/)
+    expect(notes).toMatch(/"Am"/)
+  })
+
+  test('buildUnifiedBlocks preserves mid-chart inline tokens on load', function() {
+    const { abcTools } = tools()
+    const abc = baseAbc('z8 | z8 | z8 | z8 |')
+    const noteLines = abcTools.justNotes(abc).split('\n')
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: noteLines,
+      chordChart: 'C . . . | [M:3/4] Am . . | Am . . | Am . . |',
+      lyricLines: [],
+      defaultMeter: '4/4',
+      defaultNoteLength: '1/8',
+    })
+    expect(blocks[0].chart).toContain('[M:3/4]')
+    expect(blocks[0].chart).toContain('Am')
   })
 
   test('mergeAllChordBlocks wipeNotation rebuilds scaffold', function() {
@@ -258,6 +467,43 @@ describe('chordBlockMerge', function() {
     expect(noteLinesHaveRealMelody(tune.voices[Object.keys(tune.voices)[0]].notes)).toBe(false)
   })
 
+  test('applyBlockMergeToTune without wipe keeps timed fields', function() {
+    const { abcTools, abcjsParser } = tools()
+    const tune = abcTools.abc2json(baseAbc('C D E F | G A B c |'))
+    tune.timedChords = { beatTimes: [0, 1, 2, 3] }
+    tune.timedLyrics = { lines: [] }
+    const result = applyBlockMergeToTune(tune, {
+      abc: abcTools.json2abc(tune),
+      blocks: [{
+        chart: 'Am . . . | F . . . |',
+        meter: '4/4',
+        melodyStrainIndex: 0,
+        chartRevisit: false,
+      }],
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      firstMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    expect(tune.timedChords).toBeDefined()
+    expect(tune.timedLyrics).toBeDefined()
+  })
+
+  test('writeChordBlockCache persists notation marker flags', function() {
+    const { abcTools } = tools()
+    const tune = { id: 't1', meta: {} }
+    writeChordBlockCache(tune, 'hash', [{
+      key: 'a-0',
+      chart: 'C |',
+      notationMarkerWritten: true,
+      writeNotationMarker: true,
+    }])
+    const cache = readChordBlockCache(tune)
+    expect(cache.blocks[0].notationMarkerWritten).toBe(true)
+    expect(cache.blocks[0].writeNotationMarker).toBe(true)
+    void abcTools
+  })
+
   test('mergeFailure includes fix hint', function() {
     const f = mergeFailure('chart_shorter_than_melody')
     expect(f.fixHint).toMatch(/grid|Music|ABC/i)
@@ -342,6 +588,85 @@ describe('chordBlockMerge', function() {
     expect(notes).toMatch(/Am|F/)
     expect(notes).toMatch(/\|\|/)
     expect(Object.keys(tune.voices)).toEqual(['1'])
+  })
+
+  test('merge preserves multi-line note layout for repeat strains', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = repeatStrainAbc()
+    const tune = abcTools.abc2json(abc)
+    const voiceKey = Object.keys(tune.voices)[0]
+    const notesBefore = tune.voices[voiceKey].notes
+    expect(notesBefore.length).toBeGreaterThanOrEqual(2)
+    const chordChart = abcjsParser.renderChords(abc, true)
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: notesBefore,
+      chordChart: chordChart,
+      lyricLines: [],
+      defaultMeter: '4/4',
+      defaultKey: 'Am',
+      defaultNoteLength: '1/4',
+    })
+    const result = mergeAllChordBlocks(abc, blocks, {
+      abcjsParser: abcjsParser,
+      tunebook: { abcTools: abcTools },
+      defaultMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    const notesAfter = abcTools.justNotes(result.abc).split('\n').filter(function(line) {
+      return String(line || '').trim()
+    })
+    expect(notesAfter.length).toBeGreaterThanOrEqual(2)
+  })
+
+  test('merge applies charts by melodyStrainIndex despite fuzzy lyric labels', function() {
+    const { abcTools, abcjsParser } = tools()
+    const noteLines = ['C D E F | G A B c || d e f g | a b c d |']
+    const abc = [
+      'X:1',
+      'T:FuzzyLabels',
+      'M:4/4',
+      'L:1/8',
+      'K:C',
+      noteLines[0],
+    ].join('\n')
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: noteLines,
+      chordChart: 'Am . . . . . . . | F . . . . . . . |\n\nG . . . . . . . | C . . . . . . . |',
+      lyricLines: ['[Verse]', 'line one', '', '[Chorus]', 'chorus line'],
+      defaultMeter: '4/4',
+    })
+    const labeled = applyChordSectionLabels(
+      blocks,
+      [
+        { header: '[Verse 1]', title: 'Verse 1', type: 'verse', chartRevisit: false },
+        { header: '[Chorus]', title: 'Chorus', type: 'chorus', chartRevisit: false },
+      ],
+      ['[Verse]', 'line one', '', '[Chorus]', 'chorus line']
+    )
+    expect(labeled[0].melodyStrainIndex).toBe(0)
+    expect(labeled[1].melodyStrainIndex).toBe(1)
+    const result = mergeAllChordBlocks(abc, labeled, {
+      abcjsParser: abcjsParser,
+      tunebook: { abcTools: abcTools },
+      defaultMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    const strains = splitMelodyStrainsWithBarlines(abcTools.justNotes(result.abc).split('\n'))
+    expect(strains.length).toBeGreaterThanOrEqual(2)
+    expect(strains[0].text).toMatch(/"Am"/)
+    expect(strains[1].text).toMatch(/"G"/)
+    expect(strains[0].text).not.toMatch(/"G"/)
+    expect(strains[1].text).not.toMatch(/"Am"/)
+  })
+
+  test('rebuildNoteLinesFromMergedStrains preserves per-line repeat strains', function() {
+    const original = [REPEAT_STRAIN_LINE_A, REPEAT_STRAIN_LINE_B]
+    const strains = splitMelodyStrainsWithBarlines(original)
+    const updated = strains.map(function(s) { return s.text })
+    const rebuilt = rebuildNoteLinesFromMergedStrains(original, strains, updated)
+    expect(rebuilt.length).toBe(2)
+    expect(rebuilt[0]).toMatch(/^\|:/)
+    expect(rebuilt[1]).toMatch(/^\s*\|:/)
   })
 })
 

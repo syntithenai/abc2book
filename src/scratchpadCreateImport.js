@@ -147,13 +147,13 @@ export function scratchpadSourcesForType(itemType, notationImportAccess, options
       { key: 'drive', label: 'Google Drive' },
     ]
   } else if (itemType === 'notation') {
-    if (notationImportAccess && notationImportAccess.mode === 'login') {
+    if (notationImportAccess && (notationImportAccess.mode === 'login' || notationImportAccess.mode === 'credit')) {
       sources = [
         { key: 'blank', label: 'Blank notation' },
         { key: 'import', label: notationImportAccess.importLabel || 'Import ABC' },
         { key: 'drive', label: 'Google Drive' },
         {
-          key: 'login-import',
+          key: notationImportAccess.mode === 'credit' ? 'credit-import' : 'login-import',
           label: notationImportAccess.loginImportLabel || 'Login to Import MusicXML/MIDI',
         },
       ]

@@ -64,11 +64,21 @@ async def heavy_job_slot(timeout_seconds=None):
     Waits up to HEAVY_JOB_QUEUE_TIMEOUT_SECONDS for a slot, then raises
     HeavyJobQueueFull (map to HTTP 503).
     """
+    from music_generation.resource_coordinator import (
+        AudioGenerationInProgress,
+        check_not_blocked_by_audio_generation,
+    )
+
     global _heavy_jobs_active, _heavy_jobs_waiting
     depth = _heavy_job_depth.get()
     if depth > 0:
         yield
         return
+
+    try:
+        check_not_blocked_by_audio_generation()
+    except AudioGenerationInProgress as exc:
+        raise HeavyJobQueueFull(str(exc)) from exc
 
     wait_s = HEAVY_JOB_QUEUE_TIMEOUT_SECONDS if timeout_seconds is None else float(timeout_seconds)
     sem = _get_heavy_job_semaphore()

@@ -94,6 +94,13 @@ export default function LinksEditorModal(props) {
                     googleDocumentId={props.googleDocumentId}
                     forceRefresh={props.forceRefresh}
                     login={props.login}
+                    onTuneChange={function(updated) {
+                        setEditingTune(updated)
+                        setLinks(JSON.stringify(Array.isArray(updated.links) ? updated.links : []))
+                        if (typeof props.onTuneChange === 'function') {
+                            props.onTuneChange(updated)
+                        }
+                    }}
                 />
             </div>
          

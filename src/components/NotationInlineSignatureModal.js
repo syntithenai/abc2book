@@ -22,11 +22,19 @@ export default function NotationInlineSignatureModal(props) {
     if (typeof props.onHide === 'function') props.onHide();
   }
 
-  function handleApply() {
+  function handleApply(value, opts) {
     if (typeof props.onApply === 'function') {
-      props.onApply(isKey ? key : meter);
+      props.onApply(value, opts);
     }
-    handleClose();
+    if (!(opts && opts.keepOpen)) {
+      handleClose();
+    }
+  }
+
+  function handleMeterChange(val) {
+    const next = val ? val.value : '4/4';
+    setMeter(next);
+    handleApply(next, { keepOpen: !!props.eventId });
   }
 
   const meterOptions = props.tunebook && props.tunebook.abcTools && props.tunebook.abcTools.getTimeSignatureTypes
@@ -61,7 +69,7 @@ export default function NotationInlineSignatureModal(props) {
               inputId="notation-inline-signature-meter-select"
               aria-label="Time signature"
               value={meter ? { value: meter, label: meter } : null}
-              onChange={function(val) { setMeter(val ? val.value : '4/4'); }}
+              onChange={handleMeterChange}
               options={meterOptions}
               isClearable={false}
               blurInputOnSelect={true}
@@ -74,12 +82,14 @@ export default function NotationInlineSignatureModal(props) {
           </Form.Group>
         )}
       </Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>Cancel</Button>
-        <Button variant="primary" onClick={handleApply}>
-          {props.eventId ? 'Update' : 'Insert'}
-        </Button>
-      </Modal.Footer>
+      {isKey ? (
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>Cancel</Button>
+          <Button variant="primary" onClick={function() { handleApply(key); }}>
+            {props.eventId ? 'Update' : 'Insert'}
+          </Button>
+        </Modal.Footer>
+      ) : null}
     </Modal>
   );
 }

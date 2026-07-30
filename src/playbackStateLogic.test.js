@@ -15,6 +15,7 @@ import {
   shouldTriggerAutoplayRecovery,
   youtubeAutoplayAppearsBlocked,
   shouldShowTapToPlayFromYoutubePoll,
+  shouldSuppressTapToPlayDuringQueueAdvance,
   shouldDismissTapToPlayModalWithoutStop,
   canResumePlayback,
   applyPause,
@@ -212,6 +213,26 @@ describe('autoplay and tap-to-play', function() {
     expect(shouldShowTapToPlayFromYoutubePoll(playing, 1, 1, YT_STATE.UNSTARTED, false)).toBe(false)
   })
 
+  test('tap to play suppressed while queue advance transition is in flight', function() {
+    const playing = snap({ playingIntent: true, isPlayingUi: true })
+    const transition = {
+      playbackTransitionGuardActive: true,
+      playbackStarted: false,
+    }
+    expect(shouldSuppressTapToPlayDuringQueueAdvance({
+      playbackTransitionGuardActive: true,
+      playingIntent: true,
+      userPaused: false,
+      playbackStarted: false,
+    })).toBe(true)
+    expect(shouldShowTapToPlayFromYoutubePoll(
+      playing, 1, 1, YT_STATE.UNSTARTED, true, transition
+    )).toBe(false)
+    expect(shouldShowTapToPlayFromYoutubePoll(
+      playing, 1, 1, YT_STATE.UNSTARTED, true, { playbackTransitionGuardActive: false, playbackStarted: false }
+    )).toBe(true)
+  })
+
   test('autoplay recovery does not run while paused or during seek guard', function() {
     const paused = applyPause(snap({ playingIntent: true }))
     expect(shouldTriggerAutoplayRecovery(paused, {})).toBe(false)
@@ -220,9 +241,10 @@ describe('autoplay and tap-to-play', function() {
     expect(shouldTriggerAutoplayRecovery(seeking, { isSeekGuardActive: true })).toBe(false)
   })
 
-  test('autoplay recovery runs when intent set but UI not playing', function() {
+  test('autoplay recovery runs when intent set but UI not playing after start', function() {
     const state = snap({ playingIntent: true, isPlayingUi: false })
-    expect(shouldTriggerAutoplayRecovery(state, {})).toBe(true)
+    expect(shouldTriggerAutoplayRecovery(state, {})).toBe(false)
+    expect(shouldTriggerAutoplayRecovery(state, { playbackStarted: true })).toBe(true)
   })
 
   test('autoplay recovery suppressed when queue item has no playback target', function() {

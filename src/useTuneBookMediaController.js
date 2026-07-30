@@ -1,6 +1,7 @@
 import {useEffect,useState, useRef} from 'react'
 import { flushSync } from 'react-dom'
 import { toast } from 'react-toastify'
+import { App } from '@capacitor/app'
 import ExternalMediaPitchTempo from './externalMediaPitchTempo'
 import { getMediaPlaybackSettings, getPlaybackSettings, getAudioFilterSettings, normalizeAudioFilters, playbackNeedsExternalProcessing, audioFiltersAreNeutral, getAudioFilterKeysForStemNames, getAudioFilterKeysForDemucsModel, pitchShiftIsActive, combinedPitchSemitones } from './pitchTempoUtils'
 import { buildFilteredMediaBlob, getNativeFilteredBlobCacheKey } from './nativeFilteredMedia'
@@ -18,7 +19,12 @@ import {
     seekAndroidNativePlayer,
     stopAndroidNativePlayer,
     isAndroidNativePlayerActive,
+    resumeAndroidNativePlayback,
+    getNativePlayerState,
+    playAndroidNativeYoutube,
     renderAndPlayAbcNative,
+    cancelAbcNativePlayback,
+    isAbcNativePlayInFlight,
 } from './androidNativePlayback'
 import { loadCachedStemSetForMedia } from './audioStemCache'
 import { resampleBufferToContextRate } from './audioStemMixer'
@@ -37,9 +43,12 @@ import {
     isMediaProxyConfigured,
     requiresResolverProxiedPlayback,
     fetchProxiedAudioBlobUrl,
+    getResolverProxiedPlaybackBlock,
 } from './mediaProxyClient'
 import { linkedMediaPitchPathAvailableSync } from './linkedMediaPitchPath'
 import { maybeNotifyYoutubeProxyLimitation } from './youtubeProxyLimitationToast'
+import { openCreditSettings } from './resolverCreditAccess'
+import { fetchYoutubeAudioViaNative } from './youtubeNativeClient'
 import useGoogleDocument from './useGoogleDocument'
 import {
     isOwnedMediaLinkUri,
@@ -57,7 +66,15 @@ import { syncPlaybackRoute } from './playbackRouteSync'
 import { isQueueActive, getCurrentTuneId, getCurrentItem } from './nowPlayingQueue'
 import { isQueueItemPlayable } from './playlistPlaybackResilience'
 import { handleQueueAdvanceOnEnded } from './nowPlayingQueuePlayback'
-import { shouldAdvancePlaybackOnEnd, isTuneListPath, getAppPathname, isQueuePlaybackEngaged } from './playbackNavigationUtils'
+import { isBackgroundCapablePlayback } from './backgroundPlaybackCapability'
+import { logPlaybackDebug, isPlaybackDebugEnabled, agentDebugLog } from './playbackDebug'
+import {
+    hardSilenceWebViewOutputs,
+    isAndroidNativeOutputOwned,
+    shouldBlockWebViewAudioPlay,
+} from './androidPlaybackGate'
+import { startAndroidProcessedBlobPlayback } from './androidProcessedPlayback'
+import { shouldAdvancePlaybackOnEnd, isTuneListPath, isPlaybackBrowsePath, getAppPathname, isQueuePlaybackEngaged } from './playbackNavigationUtils'
 import { playbackModeFromPathname } from './offlinePlayback'
 import {
     getPlaybackVolume,
@@ -65,6 +82,14 @@ import {
     adjustPlaybackVolume as persistAdjustPlaybackVolume,
     PLAYBACK_VOLUME_STEP,
 } from './playbackVolumeSettings'
+import { getOutputDeviceId, setOutputDeviceId } from './outputDeviceSettings'
+import {
+    applyOutputDeviceToAudioContext,
+    applyOutputDeviceToElement,
+    createPlaybackAudioContext,
+    ensurePermittedOutputDeviceId,
+    isSelectAudioOutputSupported,
+} from './outputDeviceSupport'
 import {
     pendingRequestMatchesRoute,
     routeMatchesPendingRequest,
@@ -81,6 +106,7 @@ import {
     resolvePlaybackHandoffPosition,
     youtubeAutoplayAppearsBlocked as intentYoutubeAutoplayAppearsBlocked,
     shouldShowTapToPlayFromYoutubePoll as intentShouldShowTapToPlayFromYoutubePoll,
+    shouldSuppressTapToPlayDuringQueueAdvance as intentShouldSuppressTapToPlayDuringQueueAdvance,
     shouldTriggerAutoplayRecovery as intentShouldTriggerAutoplayRecovery,
     canResumePlayback as intentCanResumePlayback,
     shouldConfirmPlayingStarted as intentShouldConfirmPlayingStarted,
@@ -133,10 +159,39 @@ export default function useTuneBookMediaController(props) {
     var [requestedPlayState, setRequestedPlayState] = useState(null)
     var mediaLinkNumberRef = useRef(null)
     var playbackRouteRef = useRef({ mode: 'none', mediaLinkNumber: null, playState: null })
-    const [tapToPlay, setTapToPlay] = useState(false)
+    const [tapToPlay, setTapToPlayState] = useState(false)
+    const [tapToPlayReason, setTapToPlayReason] = useState(null)
+    const tapToPlayReasonRef = useRef(null)
     const [playlistStalled, setPlaylistStalled] = useState(false)
     const [playCancelled, setPlayCancelled] = useState(false)
     const [notationMidiOwner, setNotationMidiOwnerState] = useState(false)
+
+    function setTapToPlay(value) {
+        setTapToPlayState(!!value)
+        if (!value) {
+            setTapToPlayReason(null)
+            tapToPlayReasonRef.current = null
+        }
+    }
+
+    function showPlaybackPrompt(reason) {
+        const normalized = reason === 'loadFailed' ? 'loadFailed' : 'autoplay'
+        if (tapToPlayReasonRef.current === normalized) return
+        tapToPlayReasonRef.current = normalized
+        setTapToPlayReason(normalized)
+        setTapToPlayState(true)
+    }
+
+    function promptMediaLoadFailed() {
+        showPlaybackPrompt('loadFailed')
+    }
+
+    function dismissLoadFailurePrompt() {
+        setTapToPlay(false)
+        if (shouldAdvanceQueueOnPlaybackEnd()) {
+            advanceQueueOnPlaybackEnd()
+        }
+    }
 
     function setNotationMidiOwner(active) {
         setNotationMidiOwnerState(!!active)
@@ -170,7 +225,9 @@ export default function useTuneBookMediaController(props) {
     var applyMidiTempoRef = useRef(null)
     var applyPlaybackVolumeRef = useRef(null)
     var resumeSynthAudioContextRef = useRef(null)
+    var getSynthAudioContextRef = useRef(null)
     var resumeMidiFileAudioContextRef = useRef(null)
+    var getMidiFileAudioContextRef = useRef(null)
     var pauseSynthRef = useRef(null)
     var stopMetronomeRef = useRef(null)
     var invalidatePendingMidiStartsRef = useRef(null)
@@ -204,6 +261,7 @@ export default function useTuneBookMediaController(props) {
     var playbackClockTuneIdRef = useRef(null)
     var freshPlaybackIntentRef = useRef(false)
     var queueAdvanceGuardUntilRef = useRef(0)
+    var queueAdvanceAutoplayRetryTimerRef = useRef(null)
     var queuePlaybackErrorRetryRef = useRef(false)
     var playlistStallStartedAtRef = useRef(0)
     const PLAYLIST_STALL_MS = 120000
@@ -235,9 +293,13 @@ export default function useTuneBookMediaController(props) {
     const [nativePlaybackFallbackRequired, setNativePlaybackFallbackRequired] = useState(false)
     var nativeFilteredCacheKeyRef = useRef(null)
     var androidNativeActiveRef = useRef(false)
+    var youtubeNativeCacheRef = useRef({ videoId: null, filePath: null })
+    var youtubeNativeHandoffRef = useRef(null)
+    var ytIframeEventSuppressUntilRef = useRef(0)
     var externalHandoffGuardUntilRef = useRef(0)
     var remoteOutputEngineRef = useRef(null)
     var remoteOutputHandlersRef = useRef(null)
+    var snapcastOutputHandlersRef = useRef(null)
     var seekGuardUntilRef = useRef(0)
     var seekInProgressRef = useRef(false)
     var seekWasPlayingRef = useRef(false)
@@ -251,6 +313,9 @@ export default function useTuneBookMediaController(props) {
     var userPausedRef = useRef(false)
     var routeReadyRef = useRef(false)
     var suppressNativePlaybackEventsRef = useRef(false)
+    var nativePlaybackEventSuppressUntilRef = useRef(0)
+    var nativePlaybackLoadInFlightRef = useRef(false)
+    var nativePlaybackPendingRetryRef = useRef(null)
     var youtubePlayPollTokenRef = useRef(0)
     const [externalMediaActive, setExternalMediaActive] = useState(false)
     const [stemSeparationActive, setStemSeparationActive] = useState(false)
@@ -364,7 +429,17 @@ export default function useTuneBookMediaController(props) {
     }
 
     function startPlaybackKeepAlive() {
+        if (prefersNativeMediaPlayback()) {
+            // #region agent log
+            agentDebugLog('useTuneBookMediaController.js:startPlaybackKeepAlive', 'skipped-native-android', {}, 'H1')
+            // #endregion
+            return
+        }
         try {
+            // #region agent log
+            agentDebugLog('useTuneBookMediaController.js:startPlaybackKeepAlive', 'starting-keepalive', {}, 'H1')
+            console.log('[agent-debug] startPlaybackKeepAlive')
+            // #endregion
             getPlaybackKeepAlive().start()
         } catch (e) {}
     }
@@ -403,9 +478,243 @@ export default function useTuneBookMediaController(props) {
         }, 50)
     }
 
+    function isActiveYoutubeMediaRoute() {
+        if (!isMediaPlaybackRoute()) return false
+        const useTune = tuneRef.current || tune
+        const linkIndex = getActiveMediaLinkNumber()
+        const src = getSrc(useTune, linkIndex)
+        return getSrcType(src) === 'youtube'
+    }
+
+    function shouldUseAndroidNativeYoutubeFetch() {
+        return prefersNativeMediaPlayback() && isActiveYoutubeMediaRoute()
+    }
+
+    function shouldPreferAndroidNativeYoutube(settings) {
+        if (!shouldUseAndroidNativeYoutubeFetch()) return false
+        if (isExternalOutputActive()) return false
+        if (hasActivePlaybackIntent() && playbackNeedsExternalProcessing(settings || getActivePlaybackSettings())) {
+            return false
+        }
+        return !canUseExternalPitchTempo(settings || getActivePlaybackSettings())
+    }
+
+    function shouldUseAndroidNativeYoutubeOutput(settings) {
+        if (!shouldUseAndroidNativeYoutubeFetch()) return false
+        if (isExternalOutputActive()) return false
+        if (playbackNeedsExternalProcessing(settings || getActivePlaybackSettings())) {
+            return canUseNativeFilteredPlayback(settings)
+        }
+        return true
+    }
+
+    function shouldUseExternalMediaForPlayIntent(settings) {
+        if (prefersNativeMediaPlayback() && hasActivePlaybackIntent()) {
+            return false
+        }
+        return canUseExternalPitchTempo(settings)
+    }
+
+    function getBackgroundCapabilityContext(settings) {
+        const useTune = tuneRef.current || tune
+        const linkIndex = getActiveMediaLinkNumber()
+        const src = getSrc(useTune, linkIndex)
+        const srcType = getSrcType(src)
+        return {
+            routeMode: playbackRouteRef.current.mode,
+            srcType: srcType,
+            settings: settings || getActivePlaybackSettings(useTune),
+            nativeActive: androidNativeActiveRef.current || isAndroidNativePlayerActive(),
+            hasPreRenderedBlob: !!(nativeFilteredBlobUrlRef.current || cachedNativeBlobUrlRef.current),
+            hasNativeAbcCache: playbackRouteRef.current.mode === 'midi'
+                && (androidNativeActiveRef.current || isAndroidNativePlayerActive()),
+            hasNativeMidiCache: srcType === 'midifile',
+      pitchPathOptions: {
+                srcType: srcType,
+                resolverFeatures: resolverFeatures,
+                resolverStatus: mediaResolverStatus,
+                accessToken: getGoogleAccessToken(),
+            },
+        }
+    }
+
+    function isCurrentPlaybackBackgroundCapable(settings) {
+        return isBackgroundCapablePlayback(getBackgroundCapabilityContext(settings))
+    }
+
+    function skipBackgroundIncapableTrack(reason) {
+        // #region agent log
+        agentDebugLog('useTuneBookMediaController.js:skipBackgroundIncapableTrack', 'queue-skip', {
+            reason: reason,
+            nativeActive: androidNativeActiveRef.current,
+            route: playbackRouteRef.current.mode,
+        }, 'H5')
+        // #endregion
+        logPlaybackDebug('skip', { reason: reason })
+        setIsLoading(false)
+        setIsPlaying(false)
+        toast.info('Skipped — not available for background playback.', { autoClose: 2500 })
+        if (hasActivePlaybackIntent()) {
+            advanceQueueOnPlaybackEnd()
+        } else {
+            pauseAtRegionStart()
+            updateMediaSessionState()
+        }
+    }
+
+    function isAndroidNativeYoutubeOutputActive() {
+        return androidNativeActiveRef.current
+            || isAndroidNativePlayerActive()
+            || !!youtubeNativeHandoffRef.current
+    }
+
+    function shouldIgnoreYoutubeIframeEvents() {
+        if (!isActiveYoutubeMediaRoute()) return false
+        if (isAndroidNativeYoutubeOutputActive()) return true
+        if (shouldUseAndroidNativeYoutubeFetch() && !nativePlaybackFallbackRequired) return true
+        return false
+    }
+
+    function rememberYoutubeNativeCache(videoId, filePath) {
+        if (!videoId || !filePath) return
+        youtubeNativeCacheRef.current = { videoId: videoId, filePath: filePath }
+    }
+
+    function getCachedYoutubeNativePath(videoId) {
+        const cache = youtubeNativeCacheRef.current
+        if (!cache || cache.videoId !== videoId) return null
+        return cache.filePath || null
+    }
+
+    function handoffYoutubeToNativePlayback(options) {
+        const opts = options || {}
+        if (!shouldUseAndroidNativeYoutubeFetch()) {
+            return Promise.resolve(false)
+        }
+        if (androidNativeActiveRef.current) {
+            return resumeAndroidNativePlaybackAfterInterruption()
+        }
+        if (youtubeNativeHandoffRef.current) {
+            return youtubeNativeHandoffRef.current
+        }
+        const useTune = tuneRef.current || tune
+        const linkIndex = getActiveMediaLinkNumber()
+        const src = getSrc(useTune, linkIndex)
+        const youtubeGetId = props.tunebook.utils.YouTubeGetID
+        const videoId = youtubeGetId(src)
+        if (!videoId) return Promise.resolve(false)
+
+        let positionSec = currentTimeRef.current
+        if (opts.preservePosition !== false) {
+            if (ytPlayerRef && ytPlayerRef.current && isYoutubePlayerReadyForActiveSrc()) {
+                try {
+                    positionSec = ytPlayerRef.current.getCurrentTime()
+                } catch (e) {}
+            }
+        } else {
+            positionSec = getLinkStartAt()
+        }
+
+        muteNativePlayers()
+        setIsLoading(true)
+        const settings = getActivePlaybackSettings(useTune)
+        const handoffPromise = playAndroidNativeYoutube(src, {
+            youtubeGetId: youtubeGetId,
+            title: useTune && useTune.name ? useTune.name : 'Tunebook',
+            artist: useTune && useTune.composer ? useTune.composer : '',
+            positionSec: positionSec,
+            tempo: settings.tempo,
+            filePath: getCachedYoutubeNativePath(videoId),
+            accessToken: getGoogleAccessToken(),
+        }).then(function(result) {
+            setIsLoading(false)
+            youtubeNativeHandoffRef.current = null
+            if (result && result.ok) {
+                rememberYoutubeNativeCache(result.videoId, result.filePath)
+                setNativePlaybackFallbackRequired(false)
+                currentTimeRef.current = positionSec
+                setCurrentTime(positionSec)
+                return true
+            }
+            return false
+        }).catch(function() {
+            setIsLoading(false)
+            youtubeNativeHandoffRef.current = null
+            return false
+        })
+        youtubeNativeHandoffRef.current = handoffPromise
+        return handoffPromise
+    }
+
+    function handoffActivePlaybackToNativeOnBackground(options) {
+        if (!prefersNativeMediaPlayback()) return Promise.resolve(false)
+        if (!hasActivePlaybackIntent()) return Promise.resolve(false)
+        if (androidNativeActiveRef.current || isAndroidNativePlayerActive()) {
+            logPlaybackDebug('background-native-active', null)
+            return Promise.resolve(true)
+        }
+        return Promise.resolve(false)
+    }
+
+    function onAppBackgrounded() {
+        if (!hasActivePlaybackIntent()) return
+        const nativeRefActive = androidNativeActiveRef.current
+        const nativePluginActive = isAndroidNativePlayerActive()
+        // #region agent log
+        agentDebugLog('useTuneBookMediaController.js:onAppBackgrounded', 'app-backgrounded', {
+            nativeRefActive: nativeRefActive,
+            nativePluginActive: nativePluginActive,
+            backgroundCapable: isCurrentPlaybackBackgroundCapable(),
+            route: playbackRouteRef.current.mode,
+        }, 'H2')
+        console.log('[agent-debug] onAppBackgrounded', {
+            nativeRefActive: nativeRefActive,
+            nativePluginActive: nativePluginActive,
+        })
+        // #endregion
+        if (prefersNativeMediaPlayback()) {
+            return
+        }
+        logPlaybackDebug('minimize', { native: false })
+        if (!isCurrentPlaybackBackgroundCapable()) {
+            skipBackgroundIncapableTrack('background-incapable')
+            return
+        }
+        startPlaybackKeepAlive()
+        scheduleBackgroundPlaybackResume({ preservePosition: true })
+    }
+
+    function resumeAndroidNativePlaybackAfterInterruption() {
+        if (!shouldUseAndroidNativePlayer()) return Promise.resolve(false)
+        if (!androidNativeActiveRef.current && !isAndroidNativePlayerActive()) {
+            return Promise.resolve(false)
+        }
+        if (!hasActivePlaybackIntent()) return Promise.resolve(false)
+        return resumeAndroidNativePlayback().then(function(resumed) {
+            if (!hasActivePlaybackIntent()) return resumed
+            if (resumed) {
+                confirmPlayingStarted()
+            }
+            return resumed
+        }).catch(function() {
+            return false
+        })
+    }
+
     function resumePlaybackAfterInterruption(options) {
         const opts = options || {}
         if (!hasActivePlaybackIntent()) return
+        if (prefersNativeMediaPlayback()) {
+            return
+        }
+        if (androidNativeActiveRef.current || isAndroidNativePlayerActive()) {
+            resumeAndroidNativePlaybackAfterInterruption()
+            return
+        }
+        if (shouldUseAndroidNativeYoutubeFetch()) {
+            handoffYoutubeToNativePlayback({ preservePosition: opts.preservePosition !== false })
+            return
+        }
         startPlaybackKeepAlive()
         resumeSynthAudioContextFromGesture()
         const shared = acquireExternalAudioContext()
@@ -455,6 +764,9 @@ export default function useTuneBookMediaController(props) {
     }
 
     function recoverUnexpectedNativePause() {
+        if (prefersNativeMediaPlayback()) {
+            return
+        }
         if (!intentShouldRecoverUnexpectedNativePause(getIntentSnapshot(), {
             externalMediaActive: externalMediaActiveRef.current,
             suppressNativePlaybackEvents: suppressNativePlaybackEventsRef.current,
@@ -578,18 +890,27 @@ export default function useTuneBookMediaController(props) {
         if (!shouldUseAndroidNativePlayer()) return undefined
         ensureAndroidNativeListeners({
             onStateChange: function(event) {
-                if (!androidNativeActiveRef.current) return
+                if (!androidNativeActiveRef.current
+                    && !isAndroidNativePlayerActive()
+                    && !nativePlaybackLoadInFlightRef.current) {
+                    return
+                }
                 const positionSec = (event.positionMs || 0) / 1000
                 const durationSec = (event.durationMs || 0) / 1000
                 if (durationSec > 0) {
                     setDuration(durationSec)
+                    setIsReady(true)
                 }
                 setCurrentTime(positionSec)
                 currentTimeRef.current = positionSec
-                setIsPlaying(!!event.isPlaying)
-                setIsLoading(false)
                 if (event.isPlaying) {
+                    setIsPlaying(true)
+                    setIsLoading(false)
+                    androidNativeActiveRef.current = true
+                    nativePlaybackLoadInFlightRef.current = false
                     confirmPlayingStarted()
+                } else if (!playbackStartedRef.current) {
+                    setIsLoading(false)
                 }
             },
             onEnded: function() {
@@ -598,12 +919,22 @@ export default function useTuneBookMediaController(props) {
                 onEnded()
             },
             onError: function(event) {
-                if (!androidNativeActiveRef.current) return
+                if (!androidNativeActiveRef.current
+                    && !nativePlaybackLoadInFlightRef.current
+                    && !isAndroidNativePlayerActive()) {
+                    return
+                }
                 androidNativeActiveRef.current = false
+                nativePlaybackLoadInFlightRef.current = false
                 setIsPlaying(false)
                 setIsLoading(false)
                 if (event && event.message) {
-                    toast.error(event.message)
+                    let errMsg = String(event.message)
+                    if (errMsg.toLowerCase().indexOf('source error') >= 0
+                        || errMsg.indexOf('403') >= 0) {
+                        errMsg = 'Could not play YouTube audio (stream blocked)'
+                    }
+                    toast.error(errMsg)
                 }
             },
         })
@@ -624,15 +955,14 @@ export default function useTuneBookMediaController(props) {
         if (typeof document === 'undefined') return undefined
         function onVisibilityChange() {
             if (document.hidden) {
-                if (hasActivePlaybackIntent()) {
-                    startPlaybackKeepAlive()
-                    scheduleBackgroundPlaybackResume({ preservePosition: true })
-                }
+                onAppBackgrounded()
                 return
             }
             if (intentShouldResumePlaybackOnVisible(getIntentSnapshot())) {
                 requestScreenWakeLock()
-                scheduleBackgroundPlaybackResume({ preservePosition: true })
+                if (!prefersNativeMediaPlayback()) {
+                    scheduleBackgroundPlaybackResume({ preservePosition: true })
+                }
             }
         }
         document.addEventListener('visibilitychange', onVisibilityChange)
@@ -642,9 +972,46 @@ export default function useTuneBookMediaController(props) {
     }, [])
 
     useEffect(function() {
+        if (!shouldUseAndroidNativePlayer()) return undefined
+        let listenerHandle = null
+        App.addListener('appStateChange', function(state) {
+            if (!hasActivePlaybackIntent()) return
+            if (!state.isActive) {
+                onAppBackgrounded()
+                return
+            }
+            if (!androidNativeActiveRef.current && !isAndroidNativePlayerActive()) return
+            getNativePlayerState().then(function(nativeState) {
+                if (!hasActivePlaybackIntent()) return
+                const positionSec = (nativeState.positionMs || 0) / 1000
+                const durationSec = (nativeState.durationMs || 0) / 1000
+                if (durationSec > 0) {
+                    setDuration(durationSec)
+                }
+                setCurrentTime(positionSec)
+                currentTimeRef.current = positionSec
+                setIsPlaying(!!nativeState.isPlaying)
+                if (nativeState.isPlaying) {
+                    confirmPlayingStarted()
+                }
+            }).catch(function() {})
+        }).then(function(handle) {
+            listenerHandle = handle
+        }).catch(function() {})
+        return function() {
+            if (listenerHandle && typeof listenerHandle.remove === 'function') {
+                listenerHandle.remove()
+            }
+        }
+    }, [])
+
+    useEffect(function() {
+        const usingAndroidNative = androidNativeActiveRef.current || isAndroidNativePlayerActive()
         if (isPlaying && playingIntentRef.current && !userPausedRef.current) {
-            requestScreenWakeLock()
-            startPlaybackKeepAlive()
+            if (!usingAndroidNative) {
+                requestScreenWakeLock()
+                startPlaybackKeepAlive()
+            }
         } else if (!playingIntentRef.current || userPausedRef.current) {
             releaseScreenWakeLock()
             if (userPausedRef.current || !playingIntentRef.current) {
@@ -668,6 +1035,92 @@ export default function useTuneBookMediaController(props) {
             }
         }
     }, [])
+
+    function collectPlaybackAudioContexts() {
+        const contexts = []
+        function addContext(ctx) {
+            if (!ctx || ctx.state === 'closed') return
+            if (contexts.indexOf(ctx) >= 0) return
+            contexts.push(ctx)
+        }
+        addContext(sharedExternalAudioContextRef.current)
+        if (externalMediaRef.current && externalMediaRef.current.audioContext) {
+            addContext(externalMediaRef.current.audioContext)
+        }
+        if (getSynthAudioContextRef.current) {
+            addContext(getSynthAudioContextRef.current())
+        }
+        if (getMidiFileAudioContextRef.current) {
+            addContext(getMidiFileAudioContextRef.current())
+        }
+        return contexts
+    }
+
+    async function applyStoredOutputDeviceToActiveRoute(options) {
+        const opts = options || {}
+        const sinkId = opts.deviceId !== undefined ? (opts.deviceId || '') : getOutputDeviceId()
+        const elements = []
+        if (playerRef && playerRef.current) elements.push(playerRef.current)
+        if (filteredPlayerRef && filteredPlayerRef.current) elements.push(filteredPlayerRef.current)
+        const contexts = collectPlaybackAudioContexts()
+        let applied = 0
+        let lastError = null
+        for (let i = 0; i < elements.length; i++) {
+            try {
+                if (await applyOutputDeviceToElement(elements[i], sinkId)) {
+                    applied += 1
+                }
+            } catch (e) {
+                lastError = e
+            }
+        }
+        for (let j = 0; j < contexts.length; j++) {
+            try {
+                if (await applyOutputDeviceToAudioContext(contexts[j], sinkId)) {
+                    applied += 1
+                }
+            } catch (e) {
+                lastError = e
+            }
+        }
+        if (opts.throwOnError && applied === 0 && lastError) {
+            throw lastError
+        }
+        return { applied: applied, deviceId: sinkId }
+    }
+
+    async function reapplyStoredOutputDevice() {
+        return applyStoredOutputDeviceToActiveRoute()
+    }
+
+    async function applyOutputDevice(deviceId) {
+        if (deviceId === undefined) {
+            return reapplyStoredOutputDevice()
+        }
+        const sinkId = setOutputDeviceId(deviceId || '')
+        try {
+            const result = await applyStoredOutputDeviceToActiveRoute({
+                deviceId: sinkId,
+                throwOnError: true,
+            })
+            return Object.assign({}, result, { deviceId: sinkId })
+        } catch (err) {
+            if (sinkId && isSelectAudioOutputSupported()) {
+                const permittedId = await ensurePermittedOutputDeviceId(sinkId)
+                const nextId = setOutputDeviceId(permittedId || '')
+                const result = await applyStoredOutputDeviceToActiveRoute({
+                    deviceId: nextId,
+                    throwOnError: true,
+                })
+                return Object.assign({}, result, { deviceId: nextId })
+            }
+            throw err
+        }
+    }
+
+    function getPlaybackAudioContexts() {
+        return collectPlaybackAudioContexts()
+    }
 
     function applyPlaybackVolumeToActiveRoute(volume) {
         const level = Math.max(0, Math.min(1, parseFloat(volume) || 0))
@@ -799,6 +1252,47 @@ export default function useTuneBookMediaController(props) {
         return playbackRouteRef.current.mode === 'media'
     }
 
+    function getAndroidPlaybackGateContext() {
+        return {
+            playerRef: playerRef,
+            filteredPlayerRef: filteredPlayerRef,
+            stopPlaybackKeepAlive: stopPlaybackKeepAlive,
+            silencePlaybackOutputs: silencePlaybackOutputs,
+            pauseYoutubeOutputOnly: pauseYoutubeOutputOnly,
+            isMidiPlaybackRoute: isMidiPlaybackRoute,
+            isMediaPlaybackRoute: isMediaPlaybackRoute,
+        }
+    }
+
+    function isAndroidNativeOutputActive() {
+        return androidNativeActiveRef.current || isAndroidNativePlayerActive()
+    }
+
+    function shouldSuppressHtml5AudioSrc() {
+        if (!prefersNativeMediaPlayback() || !isMediaPlaybackRoute()) return false
+        const useTune = tuneRef.current || tune
+        const linkIndex = getActiveMediaLinkNumber()
+        const activeLink = useTune && useTune.links ? useTune.links[linkIndex] : null
+        const srcType = getSrcType(getSrc(useTune, linkIndex), activeLink)
+        if (srcType === 'audio' && !nativeFilteredActiveRef.current) return true
+        if (srcType === 'youtube' && shouldUseAndroidNativeYoutubeOutput(getActivePlaybackSettings(useTune))) {
+            return true
+        }
+        return false
+    }
+
+    function shouldSuppressYoutubeEmbed() {
+        if (!prefersNativeMediaPlayback() || !isMediaPlaybackRoute()) return false
+        const useTune = tuneRef.current || tune
+        const linkIndex = getActiveMediaLinkNumber()
+        const activeLink = useTune && useTune.links ? useTune.links[linkIndex] : null
+        const srcType = getSrcType(getSrc(useTune, linkIndex), activeLink)
+        if (srcType !== 'youtube') return false
+        if (practiceSessionActiveRef.current) return false
+        return shouldUseAndroidNativeYoutubeOutput(getActivePlaybackSettings(useTune))
+            && !nativePlaybackFallbackRequired
+    }
+
     function getActiveMediaLinkNumber() {
         return mediaLinkNumberRef.current
     }
@@ -832,7 +1326,7 @@ export default function useTuneBookMediaController(props) {
         destroyExternalMedia()
         destroyNativeFilteredPlayback()
         stopMidiFilePlayback()
-        if (androidNativeActiveRef.current) {
+        if (androidNativeActiveRef.current || isAndroidNativePlayerActive()) {
             androidNativeActiveRef.current = false
             stopAndroidNativePlayer()
         }
@@ -1046,6 +1540,18 @@ export default function useTuneBookMediaController(props) {
 
     function getGoogleAccessToken() {
         return props.token && props.token.access_token ? props.token.access_token : null
+    }
+
+    function blockProxiedPlaybackForInsufficientCredit(src) {
+        if (!src || !requiresResolverProxiedPlayback(src)) return false
+        const block = getResolverProxiedPlaybackBlock(mediaResolverStatus, getGoogleAccessToken())
+        if (!block) return false
+        toast.error(block.message, {
+            onClick: openCreditSettings,
+        })
+        setIsLoading(false)
+        abortPlayingIntent()
+        return true
     }
 
     function getLinkedMediaResolveOptions() {
@@ -1514,6 +2020,19 @@ export default function useTuneBookMediaController(props) {
         })
     }
 
+    function maybePrefetchYoutubeNativeAudio(useTune, linkIndex, src, srcType) {
+        if (practiceSessionActiveRef.current) return
+        if (srcType !== 'youtube' || !src || !useTune) return
+        const settings = getMediaPlaybackSettings(useTune)
+        if (!shouldUseAndroidNativeYoutubeFetch()) return
+        const youtubeGetId = props.tunebook.utils.YouTubeGetID
+        const videoId = youtubeGetId(src)
+        if (!videoId || getCachedYoutubeNativePath(videoId)) return
+        fetchYoutubeAudioViaNative(videoId).then(function(fetched) {
+            rememberYoutubeNativeCache(videoId, fetched.filePath)
+        }).catch(function() {})
+    }
+
     function clearCachedNativePlaybackUrl() {
         if (cachedNativeBlobUrlRef.current) {
             URL.revokeObjectURL(cachedNativeBlobUrlRef.current)
@@ -1529,9 +2048,10 @@ export default function useTuneBookMediaController(props) {
             URL.revokeObjectURL(cachedNativeBlobUrlRef.current)
         }
         cachedNativeBlobUrlRef.current = blobUrl
-        // Apply the blob URL to the controlled <audio> src before waiting/playing.
-        // Without flushSync, imperative player.src assignment races the subsequent
-        // React re-render and the first play() is lost.
+        if (prefersNativeMediaPlayback()) {
+            setNativePlaybackSrcOverride(blobUrl)
+            return
+        }
         flushSync(function() {
             setNativePlaybackSrcOverride(blobUrl)
         })
@@ -1540,6 +2060,9 @@ export default function useTuneBookMediaController(props) {
     async function ensureProxiedNativeAudioBlob(src) {
         if (!src || !requiresResolverProxiedPlayback(src)) {
             return true
+        }
+        if (blockProxiedPlaybackForInsufficientCredit(src)) {
+            return false
         }
         if (cachedNativeBlobUrlRef.current && proxiedNativeBlobSrcRef.current === src) {
             return true
@@ -1651,7 +2174,34 @@ export default function useTuneBookMediaController(props) {
                     mediaCacheQueue.start()
                 }
             }).catch(function() {})
+            maybePrefetchNativeFilteredForQueue(nextTune, resolved)
         }
+    }
+
+    function maybePrefetchNativeFilteredForQueue(nextTune, resolved) {
+        if (!prefersNativeMediaPlayback() || !nextTune || !resolved) return
+        const nextSettings = getMediaPlaybackSettings(nextTune)
+        if (!playbackNeedsExternalProcessing(nextSettings)) return
+        const cacheOptions = {
+            tuneId: nextTune.id,
+            linkIndex: resolved.linkIndex,
+            src: resolved.src,
+            srcType: resolved.srcType,
+            accessToken: getGoogleAccessToken(),
+            demucsModel: getDemucsModel(),
+            youtubeGetId: props.tunebook.utils.YouTubeGetID,
+        }
+        const cacheKey = getNativeFilteredBlobCacheKey(cacheOptions, 'prefetch', nextSettings.audioFilters)
+        if (nativeFilteredBlobCacheRef.current.has(cacheKey)) return
+        buildNativePlaybackBlob(cacheOptions, nextSettings, {
+            allowNetworkSeparation: true,
+        }).then(function(built) {
+            nativeFilteredBlobCacheRef.current.set(cacheKey, {
+                blob: built.blob,
+                duration: built.duration,
+            })
+            logPlaybackDebug('queue-prefetch-hit', { tuneId: nextTune.id })
+        }).catch(function() {})
     }
 
     async function playCachedNativeMedia(srcType, options) {
@@ -1665,6 +2215,32 @@ export default function useTuneBookMediaController(props) {
         if (!cached || !cached.blob) return false
 
         const blobUrl = URL.createObjectURL(cached.blob)
+        if (prefersNativeMediaPlayback()) {
+            const settings = getActivePlaybackSettings(useTune)
+            const regionStart = getLinkStartAt()
+            const positionSec = opts.preservePosition ? getCurrentPlaybackSeconds() : regionStart
+            muteNativePlayers()
+            setIsLoading(true)
+            try {
+                await playAndroidNativeBlob(cached.blob, {
+                    title: useTune && useTune.name ? useTune.name : 'Tunebook',
+                    artist: useTune && useTune.composer ? useTune.composer : '',
+                    positionSec: positionSec,
+                    tempo: settings.tempo,
+                    play: true,
+                })
+                if (cached.duration) {
+                    setDuration(cached.duration)
+                }
+                setIsReady(true)
+                setIsLoading(false)
+                return true
+            } catch (e) {
+                setIsLoading(false)
+                URL.revokeObjectURL(blobUrl)
+                return false
+            }
+        }
         applyNativePlaybackBlobUrl(blobUrl)
         if (cached.duration) {
             setDuration(cached.duration)
@@ -1729,6 +2305,21 @@ export default function useTuneBookMediaController(props) {
     async function startLinkedMediaPlayback(useTune, linkIndex, src, srcType, opts) {
         const settings = getActivePlaybackSettings(useTune)
         const preserveMediaPosition = !opts.restart && !opts.fresh && opts.preservePosition !== false
+        if (prefersNativeMediaPlayback() && (srcType === 'audio' || srcType === 'youtube' || srcType === 'recording')) {
+            hardSilenceWebViewOutputs(getAndroidPlaybackGateContext())
+        }
+        // #region agent log
+        console.log('[agent-debug] startLinkedMediaPlayback', {
+            srcType: srcType,
+            hasSrc: !!src,
+            nativeFiltered: canUseNativeFilteredPlayback(settings),
+        })
+        // #endregion
+
+        if (src && blockProxiedPlaybackForInsufficientCredit(src)) {
+            setIsLoading(false)
+            return
+        }
 
         if (srcType === 'midifile') {
             try {
@@ -1800,6 +2391,34 @@ export default function useTuneBookMediaController(props) {
                 }
 
                 if (playbackNeedsExternalProcessing(settings) && !practiceUsesNativePlaybackOnly(settings)) {
+                    if (prefersNativeMediaPlayback()) {
+                        setIsLoading(true)
+                        startAndroidProcessedBlobPlayback({
+                            sourceBlob: resolved.blob,
+                            settings: settings,
+                            metadata: {
+                                title: useTune && useTune.name ? useTune.name : 'Tunebook',
+                                artist: useTune && useTune.composer ? useTune.composer : '',
+                            },
+                            resumeAt: preserveMediaPosition ? getCurrentPlaybackSeconds() : getLinkStartAt(),
+                            play: true,
+                        }).then(function() {
+                            if (!hasActivePlaybackIntent()) {
+                                setIsLoading(false)
+                                return
+                            }
+                            androidNativeActiveRef.current = true
+                            confirmPlayingStarted()
+                            setIsLoading(false)
+                            scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
+                        }).catch(function() {
+                            setIsLoading(false)
+                            if (hasActivePlaybackIntent()) {
+                                skipBackgroundIncapableTrack('recording-processed-failed')
+                            }
+                        })
+                        return
+                    }
                     prepareExternalMedia(blobUrl, settings, {
                         autoPlay: true,
                         showLoading: true,
@@ -1840,6 +2459,24 @@ export default function useTuneBookMediaController(props) {
 
         if ((srcType === 'audio' || srcType === 'youtube') && cached) {
             if (playbackNeedsExternalProcessing(settings) && !practiceUsesNativePlaybackOnly(settings)) {
+                if (canUseNativeFilteredPlayback(settings)) {
+                    applyNativeFilteredPlayback(settings, {
+                        play: true,
+                        resumeAt: preserveMediaPosition ? getCurrentPlaybackSeconds() : getLinkStartAt(),
+                        forcePlay: true,
+                    }).then(function(ok) {
+                        if (!ok && hasActivePlaybackIntent()) {
+                            skipBackgroundIncapableTrack('cached-processed-failed')
+                        } else if (ok) {
+                            scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
+                        }
+                    })
+                    return
+                }
+                if (prefersNativeMediaPlayback()) {
+                    skipBackgroundIncapableTrack('cached-processed-unavailable')
+                    return
+                }
                 prepareExternalMedia(src, settings, {
                     autoPlay: true,
                     showLoading: true,
@@ -1875,7 +2512,7 @@ export default function useTuneBookMediaController(props) {
 
         clearCachedNativePlaybackUrl()
 
-        if (canUseNativeFilteredPlayback()) {
+        if (canUseNativeFilteredPlayback(settings)) {
             if (isNativeFilteredActive()) {
                 playNativeFilteredMedia({ preservePosition: preserveMediaPosition })
                 scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
@@ -1885,12 +2522,17 @@ export default function useTuneBookMediaController(props) {
                 play: true,
                 resumeAt: preserveMediaPosition ? getCurrentPlaybackSeconds() : getLinkStartAt(),
                 forcePlay: true,
+            }).then(function(ok) {
+                if (!ok && hasActivePlaybackIntent()) {
+                    skipBackgroundIncapableTrack('native-filter-failed')
+                } else if (ok) {
+                    scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
+                }
             })
-            scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
             return
         }
 
-        if (canUseExternalPitchTempo(settings)) {
+        if (shouldUseExternalMediaForPlayIntent(settings)) {
             if (externalMediaRef.current && externalLoadedSrcRef.current === src) {
                 playExternalMedia({ preservePosition: preserveMediaPosition }).then(function(ok) {
                     if (!ok && playingIntentRef.current) {
@@ -1927,6 +2569,13 @@ export default function useTuneBookMediaController(props) {
             return
         }
 
+        if (prefersNativeMediaPlayback() && (srcType === 'audio' || srcType === 'youtube')) {
+            logPlaybackDebug('plain-native', { srcType: srcType })
+            playNativeMedia(srcType, Object.assign({}, opts, { preservePosition: preserveMediaPosition }))
+            scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
+            return
+        }
+
         if (externalMediaActiveRef.current || externalMediaRef.current) {
             destroyExternalMedia()
         }
@@ -1935,6 +2584,7 @@ export default function useTuneBookMediaController(props) {
         }
         if (srcType === 'youtube') {
             maybePrefetchYoutubeExternalAudio(useTune, linkIndex, src, srcType)
+            maybePrefetchYoutubeNativeAudio(useTune, linkIndex, src, srcType)
         }
         playNativeMedia(srcType, { preservePosition: false })
         scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
@@ -2026,8 +2676,9 @@ export default function useTuneBookMediaController(props) {
 
     async function attachNativeFilteredPlayback(blobUrl, duration, settings, options) {
         const opts = options || {}
-        const player = filteredPlayerRef.current
-        if (!player) return false
+        const resumeAt = opts.resumeAt !== undefined && opts.resumeAt !== null
+            ? Math.max(0, parseFloat(opts.resumeAt) || 0)
+            : 0
 
         muteNativePlayers()
         nativeFilteredBlobUrlRef.current = blobUrl
@@ -2036,9 +2687,42 @@ export default function useTuneBookMediaController(props) {
         setDuration(duration)
         setIsReady(true)
 
-        const resumeAt = opts.resumeAt !== undefined && opts.resumeAt !== null
-            ? Math.max(0, parseFloat(opts.resumeAt) || 0)
-            : 0
+        if (opts.play !== false && hasActivePlaybackIntent() && prefersNativeMediaPlayback()) {
+            try {
+                const blob = opts.blob || await fetch(blobUrl).then(function(r) { return r.blob() })
+                const positionSec = duration > 0
+                    ? Math.min(resumeAt, Math.max(0, duration - 0.05))
+                    : resumeAt
+                await playAndroidNativeBlob(blob, {
+                    title: tune && tune.name ? tune.name : 'Tunebook',
+                    artist: tune && tune.composer ? tune.composer : '',
+                    positionSec: positionSec,
+                    tempo: settings.tempo,
+                    play: true,
+                })
+                setCurrentTime(positionSec)
+                // #region agent log
+                agentDebugLog('useTuneBookMediaController.js:attachNativeFilteredPlayback', 'prerender-native-ok', {
+                    duration: duration,
+                    usedPreloadedBlob: !!opts.blob,
+                }, 'H4')
+                // #endregion
+                logPlaybackDebug('prerender-native', { duration: duration })
+                return true
+            } catch (nativeError) {
+                androidNativeActiveRef.current = false
+                console.log('[agent-debug] attachNativeFiltered native failed', nativeError)
+                setIsLoading(false)
+                if (hasActivePlaybackIntent()) {
+                    skipBackgroundIncapableTrack('prerender-native-failed')
+                }
+                return false
+            }
+        }
+
+        const player = filteredPlayerRef.current
+        if (!player) return false
+
         player.src = blobUrl
         player.load()
         await waitForMediaElementReady(player)
@@ -2049,30 +2733,13 @@ export default function useTuneBookMediaController(props) {
         }
 
         if (opts.play !== false && hasActivePlaybackIntent()) {
-            if (prefersNativeMediaPlayback()) {
-                try {
-                    const blob = await fetch(blobUrl).then(function(r) { return r.blob() })
-                    await playAndroidNativeBlob(blob, {
-                        title: tune && tune.name ? tune.name : 'Tunebook',
-                        artist: tune && tune.composer ? tune.composer : '',
-                        positionSec: player.currentTime || 0,
-                        tempo: settings.tempo,
-                        play: true,
-                    })
-                    androidNativeActiveRef.current = true
-                    confirmPlayingStarted()
-                    return true
-                } catch (nativeError) {
-                    androidNativeActiveRef.current = false
-                    console.log(nativeError)
-                }
-            }
             try {
                 await player.play()
+                applyStoredOutputDeviceToActiveRoute().catch(function() {})
                 confirmPlayingStarted()
             } catch (e) {
                 if (isAutoplayBlockedError(e)) {
-                    setTapToPlay(true)
+                    promptTapToPlayWhenAutoplayBlocked()
                 }
                 setIsPlaying(false)
                 setIsLoading(false)
@@ -2144,11 +2811,15 @@ export default function useTuneBookMediaController(props) {
             const blobUrl = URL.createObjectURL(blob)
 
             return await attachNativeFilteredPlayback(blobUrl, duration, settings, {
+                blob: blob,
                 resumeAt: opts.resumeAt !== undefined ? opts.resumeAt : getCurrentPlaybackSeconds(),
                 play: playingNow,
             })
         } catch (e) {
             destroyNativeFilteredPlayback()
+            if (prefersNativeMediaPlayback() && hasActivePlaybackIntent()) {
+                skipBackgroundIncapableTrack('native-filter-error')
+            }
             return false
         } finally {
             if (token === nativeFilteredLoadTokenRef.current) {
@@ -2185,7 +2856,7 @@ export default function useTuneBookMediaController(props) {
             return true
         }).catch(function(e) {
             if (isAutoplayBlockedError(e)) {
-                setTapToPlay(true)
+                promptTapToPlayWhenAutoplayBlocked()
             }
             setIsPlaying(false)
             setIsLoading(false)
@@ -2227,6 +2898,12 @@ export default function useTuneBookMediaController(props) {
     }
 
     function shouldIgnoreNativePlaybackEvents() {
+        if (Date.now() < nativePlaybackEventSuppressUntilRef.current) {
+            return true
+        }
+        if (androidNativeActiveRef.current || isAndroidNativePlayerActive()) {
+            return true
+        }
         return intentShouldIgnoreNativePlaybackEvents(getIntentSnapshot(), {
             externalMediaActive: externalMediaActiveRef.current,
             suppressNativePlaybackEvents: suppressNativePlaybackEventsRef.current,
@@ -2234,6 +2911,9 @@ export default function useTuneBookMediaController(props) {
     }
 
     function shouldSuppressSpuriousPause() {
+        if (androidNativeActiveRef.current || isAndroidNativePlayerActive()) {
+            return true
+        }
         return intentShouldSuppressSpuriousPause(getIntentSnapshot())
     }
 
@@ -2254,9 +2934,10 @@ export default function useTuneBookMediaController(props) {
         if (!Ctx) return null
         if (!sharedExternalAudioContextRef.current
             || sharedExternalAudioContextRef.current.state === 'closed') {
-            sharedExternalAudioContextRef.current = new Ctx()
+            sharedExternalAudioContextRef.current = createPlaybackAudioContext() || new Ctx()
         }
         bindAudioContextBackgroundResume(sharedExternalAudioContextRef.current)
+        applyStoredOutputDeviceToActiveRoute().catch(function() {})
         return sharedExternalAudioContextRef.current
     }
 
@@ -2318,6 +2999,40 @@ export default function useTuneBookMediaController(props) {
             || Date.now() < externalHandoffGuardUntilRef.current
             || !!externalLoadingRef.current
             || !!suppressNativePlaybackEventsRef.current
+    }
+
+    function shouldSuppressTapToPlayForTransition() {
+        return intentShouldSuppressTapToPlayDuringQueueAdvance({
+            playbackTransitionGuardActive: isPlaybackTransitionGuardActive(),
+            playingIntent: playingIntentRef.current,
+            userPaused: userPausedRef.current,
+            playbackStarted: playbackStartedRef.current,
+        })
+    }
+
+    function clearQueueAdvanceAutoplayRetry() {
+        if (queueAdvanceAutoplayRetryTimerRef.current) {
+            clearTimeout(queueAdvanceAutoplayRetryTimerRef.current)
+            queueAdvanceAutoplayRetryTimerRef.current = null
+        }
+    }
+
+    function scheduleQueueAdvanceAutoplayRetry() {
+        if (queueAdvanceAutoplayRetryTimerRef.current) return
+        queueAdvanceAutoplayRetryTimerRef.current = setTimeout(function() {
+            queueAdvanceAutoplayRetryTimerRef.current = null
+            if (!hasActivePlaybackIntent() || playbackStartedRef.current || userPausedRef.current) return
+            if (!isPlaybackTransitionGuardActive()) return
+            play({ preservePosition: true })
+        }, 600)
+    }
+
+    function promptTapToPlayWhenAutoplayBlocked() {
+        if (shouldSuppressTapToPlayForTransition()) {
+            scheduleQueueAdvanceAutoplayRetry()
+            return
+        }
+        showPlaybackPrompt('autoplay')
     }
 
     function shouldIgnorePlaybackEndDuringTransition() {
@@ -2486,6 +3201,7 @@ export default function useTuneBookMediaController(props) {
         externalLoadedSrcRef.current = src
         setDuration(duration)
         setIsReady(true)
+        applyStoredOutputDeviceToActiveRoute().catch(function() {})
 
         if (hasActivePlaybackIntent()) {
             const nativeNow = snapshotNativeMediaClock()
@@ -2688,10 +3404,13 @@ export default function useTuneBookMediaController(props) {
         beginSeekHold(clamped)
         setCurrentTime(clamped)
 
-        if (isSnapcastRemoteActive() && remoteOutputHandlersRef.current && remoteOutputHandlersRef.current.seekRemote) {
-            remoteOutputHandlersRef.current.seekRemote(clamped)
-            finalizeMediaSeek(wasPlaying, 'snapcast')
-            return
+        if (isSnapcastRemoteActive()) {
+            const seekRemote = snapcastOutputHandlersRef.current && snapcastOutputHandlersRef.current.seekRemote
+            if (seekRemote) {
+                seekRemote(clamped)
+                finalizeMediaSeek(wasPlaying, 'snapcast')
+                return
+            }
         }
 
         if (isCastSdkRemoteActive() && remoteOutputHandlersRef.current && remoteOutputHandlersRef.current.seekRemote) {
@@ -2830,6 +3549,10 @@ export default function useTuneBookMediaController(props) {
         remoteOutputHandlersRef.current = handlers || null
     }
 
+    function setSnapcastOutputHandlers(handlers) {
+        snapcastOutputHandlersRef.current = handlers || null
+    }
+
     function muteLocalOutputsForRemote() {
         muteNativePlayers()
         if (externalMediaRef.current && isExternalOutputActive()) {
@@ -2950,6 +3673,12 @@ export default function useTuneBookMediaController(props) {
         if (isMidiPlaybackRoute()) {
             return
         }
+        if (isAndroidNativeOutputActive()) {
+            startProgressSync()
+            setIsPlaying(true)
+            confirmPlayingStarted()
+            return
+        }
         startProgressSync()
         setIsPlaying(true)
         if (shouldRouteMediaThroughExternal()) {
@@ -2965,12 +3694,15 @@ export default function useTuneBookMediaController(props) {
         const currentTune = tuneRef.current || tune
         const srcType = toNativePlayerSrcType(getSrcType(getSrc(currentTune, linkIndex)))
         if (srcType === 'audio' && playerRef && playerRef.current) {
+            if (shouldBlockWebViewAudioPlay(getAndroidPlaybackGateContext(), 'resumeOutputAfterSeek')) {
+                return
+            }
             try {
                 if (playerRef.current.paused) {
                     playerRef.current.play().then(function() {
                         confirmPlayingStarted()
                     }).catch(function(e) {
-                        if (isAutoplayBlockedError(e)) setTapToPlay(true)
+                        if (isAutoplayBlockedError(e)) promptTapToPlayWhenAutoplayBlocked()
                     })
                 } else {
                     confirmPlayingStarted()
@@ -3035,6 +3767,9 @@ export default function useTuneBookMediaController(props) {
         const startAt = getLinkStartAt()
         seekToSeconds(startAt)
         if (!playingIntentRef.current) return
+        if (isAndroidNativeOutputActive()) {
+            return
+        }
         if (externalMediaRef.current) {
             if (!isExternalMediaConnected()) {
                 playExternalMedia()
@@ -3044,6 +3779,9 @@ export default function useTuneBookMediaController(props) {
         const src = getSrc(tune, mediaLinkNumber)
         const srcType = toNativePlayerSrcType(getSrcType(src))
         if (srcType === 'audio' && playerRef && playerRef.current) {
+            if (shouldBlockWebViewAudioPlay(getAndroidPlaybackGateContext(), 'loopCurrentRegion')) {
+                return
+            }
             try {
                 if (playerRef.current.paused) playerRef.current.play()
             } catch (e) {}
@@ -3217,6 +3955,9 @@ export default function useTuneBookMediaController(props) {
     }
 
     function unmuteNativePlayers() {
+        if (prefersNativeMediaPlayback()) {
+            return
+        }
         applyPlaybackVolumeToActiveRoute(playbackVolume)
     }
 
@@ -3334,6 +4075,11 @@ export default function useTuneBookMediaController(props) {
         if (!seekWasPlayingRef.current || userPausedRef.current) return
         playingIntentRef.current = true
 
+        if (isAndroidNativeOutputActive()) {
+            confirmPlayingStarted()
+            return
+        }
+
         if (mediaKind === 'youtube') {
             if (!isYoutubePlayerReady() || isExternalOutputActive()) return
             try {
@@ -3344,6 +4090,9 @@ export default function useTuneBookMediaController(props) {
         }
 
         if (mediaKind === 'audio' && playerRef && playerRef.current) {
+            if (shouldBlockWebViewAudioPlay(getAndroidPlaybackGateContext(), 'resumeMediaOutputSync')) {
+                return
+            }
             try {
                 if (playerRef.current.paused) {
                     const playPromise = playerRef.current.play()
@@ -3351,7 +4100,7 @@ export default function useTuneBookMediaController(props) {
                         playPromise.then(function() {
                             confirmPlayingStarted()
                         }).catch(function(e) {
-                            if (isAutoplayBlockedError(e)) setTapToPlay(true)
+                            if (isAutoplayBlockedError(e)) promptTapToPlayWhenAutoplayBlocked()
                         })
                     }
                 } else {
@@ -3481,6 +4230,7 @@ export default function useTuneBookMediaController(props) {
             midiEngineWaitTimeoutRef.current = null
         }
         setTapToPlay(false)
+        clearQueueAdvanceAutoplayRetry()
         queuePlaybackErrorRetryRef.current = false
         clearPlaylistStall()
         if (!intentShouldConfirmPlayingStarted(getIntentSnapshot())) {
@@ -3493,9 +4243,13 @@ export default function useTuneBookMediaController(props) {
         if (!isExternalOutputActive()) {
             setNativePlaybackFallbackRequired(false)
         }
+        if (prefersNativeMediaPlayback()) {
+            stopPlaybackKeepAlive()
+        } else {
+            startPlaybackKeepAlive()
+        }
         startProgressSync()
         ensureYoutubeProgressPolling()
-        startPlaybackKeepAlive()
         updateMediaSessionState()
     }
 
@@ -3516,9 +4270,13 @@ export default function useTuneBookMediaController(props) {
                         pollToken,
                         youtubePlayPollTokenRef.current,
                         state,
-                        index === delays.length - 1
+                        index === delays.length - 1,
+                        {
+                            playbackTransitionGuardActive: isPlaybackTransitionGuardActive(),
+                            playbackStarted: playbackStartedRef.current,
+                        }
                     )) {
-                        setTapToPlay(true)
+                        promptTapToPlayWhenAutoplayBlocked()
                         setIsLoading(false)
                     }
                 } catch (e) {}
@@ -3530,6 +4288,7 @@ export default function useTuneBookMediaController(props) {
         playingIntentRef.current = false
         playbackStartedRef.current = false
         userGesturePlayRef.current = false
+        clearQueueAdvanceAutoplayRetry()
         pendingMidiPlayRef.current = null
         notationPlaybackStartSecondsRef.current = null
         notationPlaybackSeekRef.current = null
@@ -3905,21 +4664,33 @@ export default function useTuneBookMediaController(props) {
 
     function muteNativePlayers() {
         suppressNativePlaybackEventsRef.current = true
-        if (playerRef && playerRef.current) {
-            playerRef.current.volume = 0
-            playerRef.current.pause()
-        }
-        if (ytPlayerRef && ytPlayerRef.current) {
-            try {
-                ytPlayerRef.current.mute()
-                ytPlayerRef.current.pauseVideo()
-            } catch (e) {}
-        }
-        suppressNativePlaybackEventsRef.current = false
+        nativePlaybackEventSuppressUntilRef.current = Date.now() + 800
+        ytIframeEventSuppressUntilRef.current = Date.now() + 800
+        hardSilenceWebViewOutputs(getAndroidPlaybackGateContext())
+        setTimeout(function() {
+            suppressNativePlaybackEventsRef.current = false
+        }, 800)
+    }
+
+    function shouldSuppressYoutubeIframeEvent() {
+        return shouldIgnoreYoutubeIframeEvents()
+            || Date.now() < ytIframeEventSuppressUntilRef.current
     }
 
     function recoverNativePlaybackAfterFailedPitchHandoff(settings, srcType, resumeAt) {
         setExternalMediaActiveState(false)
+        if (prefersNativeMediaPlayback()) {
+            if (canUseNativeFilteredPlayback(settings)) {
+                applyNativeFilteredPlayback(settings, {
+                    play: true,
+                    resumeAt: resumeAt,
+                    forcePlay: true,
+                })
+            } else {
+                skipBackgroundIncapableTrack('android-pitch-handoff-failed')
+            }
+            return
+        }
         unmuteNativePlayers()
         if (!playingIntentRef.current || userPausedRef.current) {
             return
@@ -4214,6 +4985,19 @@ export default function useTuneBookMediaController(props) {
     async function prepareExternalMedia(forceSrc, playbackSettings, options) {
         const settings = playbackSettings || getMediaPlaybackSettings(tune)
         const opts = options || {}
+        if (prefersNativeMediaPlayback() && hasActivePlaybackIntent() && !opts.prefetchOnly && !opts.warmStemProcessor) {
+            if (canUseNativeFilteredPlayback(settings)) {
+                return applyNativeFilteredPlayback(settings, {
+                    play: opts.autoPlay !== false,
+                    forcePlay: opts.autoPlay !== false,
+                    resumeAt: opts.resumeAt,
+                })
+            }
+            if (isPlaybackDebugEnabled()) {
+                logPlaybackDebug('web-fallback-blocked', { src: forceSrc })
+            }
+            return false
+        }
         if (practiceUsesNativePlaybackOnly(settings)) {
             return false
         }
@@ -4347,6 +5131,7 @@ export default function useTuneBookMediaController(props) {
                 externalLoadedSrcRef.current = src
                 setDuration(loadedDuration)
                 setIsReady(true)
+                applyStoredOutputDeviceToActiveRoute().catch(function() {})
 
                 if (opts.prefetchOnly) {
                     const prefetchSource = pendingExternalSettingsRef.current || finalSettings
@@ -4497,18 +5282,19 @@ export default function useTuneBookMediaController(props) {
             if (!handoff.ok) {
                 unmuteNativePlayers()
                 if (handoff.reason === 'context-not-running' && playingIntentRef.current && !userPausedRef.current) {
-                    setTapToPlay(true)
+                    promptTapToPlayWhenAutoplayBlocked()
                 }
                 return false
             }
             applyPlaybackVolumeToActiveRoute(playbackVolume)
+            applyStoredOutputDeviceToActiveRoute().catch(function() {})
             externalHandoffGuardUntilRef.current = Date.now() + 2000
             confirmPlayingStarted()
             return true
         } catch (e) {
             unmuteNativePlayers()
             if (playingIntentRef.current) {
-                setTapToPlay(true)
+                promptTapToPlayWhenAutoplayBlocked()
             }
             return false
         }
@@ -4528,12 +5314,14 @@ export default function useTuneBookMediaController(props) {
          if (practiceSessionActiveRef.current) return
          const snapshot = getIntentSnapshot()
          if (intentIsSeekGuardActive(snapshot)) return
-         if (isTuneListPath(getAppPathname()) && !isPlaying && !isLoading) return
+         const browsePath = isTuneListPath(getAppPathname()) || isPlaybackBrowsePath(getAppPathname())
+         if (browsePath && !isPlaying && !isLoading) return
          if (intentShouldTriggerAutoplayRecovery(snapshot, {
              tapToPlay: tapToPlay,
              isLoading: isLoading,
              isSeekGuardActive: intentIsSeekGuardActive(snapshot),
              queueItemUnplayable: !isCurrentQueueItemPlayableForQueue(),
+             playbackStarted: playbackStartedRef.current,
          })) {
              play({ preservePosition: true })
          }
@@ -4818,6 +5606,20 @@ export default function useTuneBookMediaController(props) {
             if (settings.pitch === 0 && settings.fineTune === 0
                 && audioFiltersAreNeutral(settings.audioFilters)) {
                 applyNativeMediaPlaybackSettings(settings.tempo)
+            }
+            return
+        }
+
+        if (wantsExternal && prefersNativeMediaPlayback()) {
+            if (canUseNativeFilteredPlayback(settings)) {
+                return applyNativeFilteredPlayback(settings, {
+                    play: playingNow,
+                    resumePlayback: true,
+                    forcePlay: playingNow,
+                })
+            }
+            if (playingNow) {
+                skipBackgroundIncapableTrack('settings-processed-unavailable')
             }
             return
         }
@@ -5271,10 +6073,10 @@ export default function useTuneBookMediaController(props) {
         if (shouldIgnoreNativePlaybackEvents() || externalLoadingRef.current) {
             return
         }
-        if (isPlaybackTransitionGuardActive() && !playbackStartedRef.current) {
-            cleanupTimers()
-            setTapToPlay(true)
-            setIsLoading(false)
+        if (shouldSuppressYoutubeIframeEvent()) {
+            return
+        }
+        if (isPlaybackTransitionGuardActive() && !playbackStartedRef.current && hasActivePlaybackIntent()) {
             return
         }
         // Removed/unavailable media (and other hard failures): skip ahead when
@@ -5295,6 +6097,7 @@ export default function useTuneBookMediaController(props) {
         abortPlayingIntent()
         setIsLoading(false)
         setIsPlaying(false)
+        promptMediaLoadFailed()
     }
     
     
@@ -5322,6 +6125,17 @@ export default function useTuneBookMediaController(props) {
             setDuration(e.target.duration)
         }
         if (hasActivePlaybackIntent() && !externalMediaActiveRef.current) {
+            if (prefersNativeMediaPlayback()) {
+                // #region agent log
+                agentDebugLog('useTuneBookMediaController.js:onMediaReady', 'skip-play-native-android', {
+                    androidNativeActive: androidNativeActiveRef.current,
+                    loadInFlight: nativePlaybackLoadInFlightRef.current,
+                }, 'H2')
+                console.log('[agent-debug] onMediaReady skip playNativeMedia (android native)')
+                // #endregion
+                setIsReady(true)
+                return
+            }
             if (externalLoadingRef.current) {
                 setIsReady(true)
                 return
@@ -5348,6 +6162,7 @@ export default function useTuneBookMediaController(props) {
         if (!externalMediaActiveRef.current) {
             setIsReady(true)
             applyNativeMediaPlaybackSettings(playbackSpeed)
+            applyStoredOutputDeviceToActiveRoute().catch(function() {})
         }
     }
 
@@ -5357,6 +6172,10 @@ export default function useTuneBookMediaController(props) {
         ytPlayerLoadedSrcRef.current = getActiveMediaSrc()
 
         if (isSeekGuardActive()) {
+            setIsReady(true)
+            return
+        }
+        if (prefersNativeMediaPlayback() && shouldUseAndroidNativeYoutubeOutput(getActivePlaybackSettings())) {
             setIsReady(true)
             return
         }
@@ -5433,7 +6252,7 @@ export default function useTuneBookMediaController(props) {
             // Playback never confirmed — the browser refused to autoplay. Ask the
             // user to tap to start.
             cancelYoutubePlayPoll()
-            setTapToPlay(true)
+            promptTapToPlayWhenAutoplayBlocked()
             setIsLoading(false)
         }, 3500)
     }
@@ -5444,7 +6263,7 @@ export default function useTuneBookMediaController(props) {
             // The browser is blocking autoplay — stop retrying and surface the
             // tap-to-play prompt so a single click can start playback.
             cancelYoutubePlayPoll()
-            setTapToPlay(true)
+            promptTapToPlayWhenAutoplayBlocked()
             setIsLoading(false)
             return
         }
@@ -5453,6 +6272,9 @@ export default function useTuneBookMediaController(props) {
     }
 
     function onYtStateChange(e) {
+         if (shouldSuppressYoutubeIframeEvent()) {
+             return
+         }
          if (isExternalOutputActive() || isNativeFilteredActive()) {
              if (e.data === 3) {
                  if (!practiceSessionActiveRef.current || !playbackStartedRef.current) {
@@ -5519,12 +6341,15 @@ export default function useTuneBookMediaController(props) {
             if (userPausedRef.current || !playingIntentRef.current) {
                 setIsPlaying(false)
             } else if (hasActivePlaybackIntent()) {
-                // Android often pauses the YouTube iframe on home/screen-off.
-                // Keep the media session alive and retry so controls can restart
-                // immediately; next-track advance still needs a running engine.
-                startPlaybackKeepAlive()
+                if (shouldUseAndroidNativeYoutubeFetch() && !isCurrentPlaybackBackgroundCapable()) {
+                    skipBackgroundIncapableTrack('youtube-iframe-background')
+                    return
+                }
+                if (!prefersNativeMediaPlayback()) {
+                    startPlaybackKeepAlive()
+                    scheduleBackgroundPlaybackResume({ preservePosition: true })
+                }
                 updateMediaSessionState()
-                scheduleBackgroundPlaybackResume({ preservePosition: true })
             }
         } else if (e.data === 3) {
             if (!practiceSessionActiveRef.current || !playbackStartedRef.current) {
@@ -5543,6 +6368,9 @@ export default function useTuneBookMediaController(props) {
 
     function hasActivePlaybackOutput() {
         if (isMidiPlaybackRoute()) {
+            if (androidNativeActiveRef.current || isAndroidNativePlayerActive()) {
+                return true
+            }
             return false
         }
         if (isExternalOutputActive() || isNativeFilteredActive()) {
@@ -5567,8 +6395,9 @@ export default function useTuneBookMediaController(props) {
     function play(options) {
         const opts = options || {}
         if (isSnapcastRemoteActive()) {
-            if (remoteOutputHandlersRef.current && remoteOutputHandlersRef.current.resumeSnapcast) {
-                remoteOutputHandlersRef.current.resumeSnapcast()
+            const resumeSnapcast = snapcastOutputHandlersRef.current && snapcastOutputHandlersRef.current.resumeSnapcast
+            if (resumeSnapcast) {
+                resumeSnapcast()
             }
             playingIntentRef.current = true
             userPausedRef.current = false
@@ -5702,11 +6531,61 @@ export default function useTuneBookMediaController(props) {
         }
 
         if (route.mode === 'midi') {
-            if (prefersNativeMediaPlayback() && props.tunebook && props.tunebook.abcTools && tune) {
+            function startMidiSynthPlayback(midiOpts) {
                 stopLinkedMediaPlayback()
+                if (resumeSynthAudioContextRef.current) {
+                    resumeSynthAudioContextRef.current()
+                }
+                if (!midiOpts.restart && !userPausedRef.current) {
+                    seekGuardUntilRef.current = 0
+                    seekWasPlayingRef.current = false
+                }
+                trackPlaybackStart('midi')
+                playbackKickoffNeededRef.current = false
+                const midiKickoffActive = isMidiKickoffActiveRef.current
+                    && isMidiKickoffActiveRef.current()
+                if (!midiKickoffActive) {
+                    setIsLoading(true)
+                }
+                pendingMidiPlayRef.current = midiOpts
+                if (playMidiRef.current) {
+                    const midiResult = playMidiRef.current(midiOpts)
+                    if (midiResult === false) {
+                        if (hasActivePlaybackIntent()) {
+                            promptTapToPlayWhenAutoplayBlocked()
+                        } else {
+                            pendingMidiPlayRef.current = null
+                        }
+                        setIsLoading(false)
+                    } else {
+                        pendingMidiPlayRef.current = null
+                    }
+                } else {
+                    scheduleMidiEngineRegistrationFallback()
+                }
+            }
+
+            if (prefersNativeMediaPlayback() && props.tunebook && props.tunebook.abcTools && tune) {
+                if (!opts.restart && !opts.fresh
+                    && (androidNativeActiveRef.current || isAndroidNativePlayerActive())
+                    && isPlaying && !userPausedRef.current) {
+                    return
+                }
+                if (isAbcNativePlayInFlight() || nativePlaybackLoadInFlightRef.current) {
+                    return
+                }
+                stopLinkedMediaPlayback()
+                cancelAbcNativePlayback()
+                if (pauseSynthRef.current) {
+                    pauseSynthRef.current()
+                }
+                playingIntentRef.current = true
+                userPausedRef.current = false
+                playbackStartedRef.current = false
                 trackPlaybackStart('midi')
                 playbackKickoffNeededRef.current = false
                 setIsLoading(true)
+                nativePlaybackLoadInFlightRef.current = true
                 const settings = getMediaPlaybackSettings(tune)
                 const abc = props.tunebook.abcTools.json2abc(tune)
                 renderAndPlayAbcNative(abc, {
@@ -5717,24 +6596,37 @@ export default function useTuneBookMediaController(props) {
                     tempo: settings.tempo,
                     play: true,
                 }).then(function(ok) {
+                    nativePlaybackLoadInFlightRef.current = false
+                    if (!hasActivePlaybackIntent() && !playingIntentRef.current) {
+                        setIsLoading(false)
+                        return
+                    }
                     if (ok) {
                         androidNativeActiveRef.current = true
+                        if (pauseSynthRef.current) {
+                            pauseSynthRef.current()
+                        }
+                        if (playerRef && playerRef.current) {
+                            try {
+                                playerRef.current.pause()
+                            } catch (e) {}
+                        }
                         confirmPlayingStarted()
-                    } else if (hasActivePlaybackIntent()) {
-                        setTapToPlay(true)
+                        return
                     }
                     setIsLoading(false)
+                    if (hasActivePlaybackIntent()) {
+                        toast.error('Could not start notation playback')
+                    }
                 }).catch(function(err) {
+                    nativePlaybackLoadInFlightRef.current = false
                     androidNativeActiveRef.current = false
                     setIsLoading(false)
-                    if (playMidiRef.current) {
-                        playMidiRef.current(opts)
-                    } else {
-                        forceMidiChange()
-                        scheduleMidiEngineRegistrationFallback()
-                    }
                     if (err && err.message) {
                         console.log(err.message)
+                    }
+                    if (hasActivePlaybackIntent()) {
+                        toast.error('Could not start notation playback')
                     }
                 })
                 return
@@ -5757,12 +6649,9 @@ export default function useTuneBookMediaController(props) {
             pendingMidiPlayRef.current = opts
             if (playMidiRef.current) {
                 const midiResult = playMidiRef.current(opts)
-                // #region agent log
-                fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useTuneBookMediaController.js:play:midi',message:'playMidiRef invoked',data:{result:midiResult,restart:!!opts.restart,fresh:!!opts.fresh,kickoffActive:!!midiKickoffActive},timestamp:Date.now()})}).catch(function(){})
-                // #endregion
                 if (midiResult === false) {
                     if (hasActivePlaybackIntent()) {
-                        setTapToPlay(true)
+                        promptTapToPlayWhenAutoplayBlocked()
                     } else {
                         pendingMidiPlayRef.current = null
                     }
@@ -5773,9 +6662,6 @@ export default function useTuneBookMediaController(props) {
                     pendingMidiPlayRef.current = null
                 }
             } else {
-                // #region agent log
-                fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H1',location:'useTuneBookMediaController.js:play:midi',message:'playMidiRef null waiting for engine',data:{restart:!!opts.restart,fresh:!!opts.fresh},timestamp:Date.now()})}).catch(function(){})
-                // #endregion
                 scheduleMidiEngineRegistrationFallback()
             }
             return
@@ -5806,6 +6692,16 @@ export default function useTuneBookMediaController(props) {
     function playNativeMedia(srcType, options) {
         const opts = options || {}
         srcType = toNativePlayerSrcType(srcType)
+        if (prefersNativeMediaPlayback() && hasActivePlaybackIntent()) {
+            hardSilenceWebViewOutputs(getAndroidPlaybackGateContext())
+        }
+        // #region agent log
+        agentDebugLog('useTuneBookMediaController.js:playNativeMedia', 'play-native-media', {
+            srcType: srcType,
+            androidNativeActive: androidNativeActiveRef.current,
+            hasIntent: hasActivePlaybackIntent(),
+        }, 'H1')
+        // #endregion
         if (shouldBlockAutoplayDuringSeek(opts)) {
             return
         }
@@ -5820,13 +6716,17 @@ export default function useTuneBookMediaController(props) {
                 ensureProxiedNativeAudioBlob(activeSrc).then(function(ok) {
                     if (ok && hasActivePlaybackIntent()) {
                         playNativeMedia(srcType, opts)
+                    } else if (!ok) {
+                        setIsLoading(false)
+                        setIsPlaying(false)
                     }
                 })
                 return
             }
         }
-        unmuteNativePlayers()
         if (prefersNativeMediaPlayback() && srcType === 'audio') {
+            hardSilenceWebViewOutputs(getAndroidPlaybackGateContext())
+            muteNativePlayers()
             const useTune = tuneRef.current || tune
             const linkIndex = mediaLinkNumberRef.current !== null && mediaLinkNumberRef.current !== undefined
                 ? mediaLinkNumberRef.current
@@ -5836,7 +6736,18 @@ export default function useTuneBookMediaController(props) {
             const regionStart = getLinkStartAt()
             const positionSec = opts.preservePosition ? getCurrentPlaybackSeconds() : regionStart
             const playUri = cachedNativeBlobUrlRef.current || activeSrc
+            // #region agent log
+            console.log('[agent-debug] playNativeMedia android audio', { playUri: playUri ? playUri.slice(0, 80) : null })
+            agentDebugLog('useTuneBookMediaController.js:playNativeMedia', 'android-audio-uri', {
+                hasUri: !!playUri,
+            }, 'H1')
+            // #endregion
             if (playUri) {
+                if (nativePlaybackLoadInFlightRef.current) {
+                    nativePlaybackPendingRetryRef.current = { srcType: srcType, opts: opts }
+                    return
+                }
+                nativePlaybackLoadInFlightRef.current = true
                 playAndroidNativeUri(playUri, {
                     title: useTune && useTune.name ? useTune.name : 'Tunebook',
                     artist: useTune && useTune.composer ? useTune.composer : '',
@@ -5844,22 +6755,48 @@ export default function useTuneBookMediaController(props) {
                     tempo: settings.tempo,
                     play: true,
                 }).then(function(ok) {
-                    if (ok) {
-                        androidNativeActiveRef.current = true
-                        confirmPlayingStarted()
-                    } else {
+                    nativePlaybackLoadInFlightRef.current = false
+                    const pending = nativePlaybackPendingRetryRef.current
+                    nativePlaybackPendingRetryRef.current = null
+                    if (pending && hasActivePlaybackIntent()) {
+                        playNativeMedia(pending.srcType, pending.opts)
+                        return
+                    }
+                    if (!ok) {
+                        androidNativeActiveRef.current = false
                         setIsPlaying(false)
                         setIsLoading(false)
+                    } else {
+                        androidNativeActiveRef.current = true
+                        confirmPlayingStarted()
                     }
                 }).catch(function() {
+                    nativePlaybackLoadInFlightRef.current = false
+                    nativePlaybackPendingRetryRef.current = null
                     androidNativeActiveRef.current = false
                     setIsPlaying(false)
                     setIsLoading(false)
                 })
                 return
             }
+            if (hasActivePlaybackIntent()) {
+                setIsLoading(false)
+                skipBackgroundIncapableTrack('android-audio-no-uri')
+                return
+            }
+        }
+        if (prefersNativeMediaPlayback() && srcType === 'audio' && hasActivePlaybackIntent()) {
+            setIsPlaying(false)
+            setIsLoading(false)
+            return
+        }
+        if (!prefersNativeMediaPlayback()) {
+            unmuteNativePlayers()
         }
         if (srcType === 'audio' && playerRef && playerRef.current) {
+            if (shouldBlockWebViewAudioPlay(getAndroidPlaybackGateContext(), 'playNativeMedia-fallback')) {
+                return
+            }
             try {
                 const regionStart = getLinkStartAt()
                 const currentPos = playerRef.current.currentTime
@@ -5883,10 +6820,11 @@ export default function useTuneBookMediaController(props) {
                 }
                 playerRef.current.play().then(
                     function() {
+                        applyStoredOutputDeviceToActiveRoute().catch(function() {})
                         confirmPlayingStarted()
                     }).catch(function(e) {
                         if (isAutoplayBlockedError(e)) {
-                            setTapToPlay(true)
+                            promptTapToPlayWhenAutoplayBlocked()
                         }
                         setIsPlaying(false)
                         setIsLoading(false)
@@ -5900,59 +6838,143 @@ export default function useTuneBookMediaController(props) {
                 ? mediaLinkNumberRef.current
                 : mediaLinkNumber
             const activeSrc = getSrc(useTune, linkIndex)
+            const settings = getActivePlaybackSettings(useTune)
             if (hasStemsForCurrentMedia()) {
                 primeStemPlaybackEngine(useTune, linkIndex, activeSrc)
             }
-            setNativePlaybackFallbackRequired(true)
-            if (playingIntentRef.current && !userPausedRef.current) {
-                armYoutubeAutostartWatchdog()
-            }
-            if (isYoutubePlayerReadyForActiveSrc()) {
-                try {
-                    const regionStart = getLinkStartAt()
-                    ytPlayerRef.current.unMute()
-                    let currentPos = 0
+
+            function playYoutubeIframe() {
+                setNativePlaybackFallbackRequired(true)
+                if (playingIntentRef.current && !userPausedRef.current) {
+                    armYoutubeAutostartWatchdog()
+                }
+                if (isYoutubePlayerReadyForActiveSrc()) {
                     try {
-                        currentPos = ytPlayerRef.current.getCurrentTime()
-                    } catch (e) {}
-                    const preservedPos = currentTimeRef.current
-                    const preserve = opts.preservePosition
-                        || (playingIntentRef.current && !userPausedRef.current && preservedPos > regionStart + 0.05)
-                    if (preserve && preservedPos > regionStart + 0.05
-                        && Math.abs(currentPos - preservedPos) > 0.25) {
-                        // Fresh iframe after host handoff starts at 0; seek to
-                        // the position we preserved in controller state.
-                        ytPlayerRef.current.seekTo(preservedPos, true)
-                        setCurrentTime(preservedPos)
-                    } else if (!preserve) {
-                        if (regionStart > 0 && currentPos < regionStart - 0.05) {
-                            ytPlayerRef.current.seekTo(regionStart, true)
-                            setCurrentTime(regionStart)
+                        const regionStart = getLinkStartAt()
+                        ytPlayerRef.current.unMute()
+                        let currentPos = 0
+                        try {
+                            currentPos = ytPlayerRef.current.getCurrentTime()
+                        } catch (e) {}
+                        const preservedPos = currentTimeRef.current
+                        const preserve = opts.preservePosition
+                            || (playingIntentRef.current && !userPausedRef.current && preservedPos > regionStart + 0.05)
+                        if (preserve && preservedPos > regionStart + 0.05
+                            && Math.abs(currentPos - preservedPos) > 0.25) {
+                            ytPlayerRef.current.seekTo(preservedPos, true)
+                            setCurrentTime(preservedPos)
+                        } else if (!preserve) {
+                            if (regionStart > 0 && currentPos < regionStart - 0.05) {
+                                ytPlayerRef.current.seekTo(regionStart, true)
+                                setCurrentTime(regionStart)
+                            }
+                        }
+                        ytPlayerRef.current.playVideo()
+                        pollConfirmYoutubePlaying()
+                    } catch (e) {
+                        if (isYoutubeDetachedError(e)) {
+                            clearYoutubePlayerRef()
+                        }
+                        if (isAutoplayBlockedError(e)) {
+                            promptTapToPlayWhenAutoplayBlocked()
+                            setIsLoading(false)
+                        } else if (playingIntentRef.current) {
+                            setIsLoading(true)
+                        } else {
+                            setIsLoading(false)
                         }
                     }
-                    ytPlayerRef.current.playVideo()
-                    pollConfirmYoutubePlaying()
-                } catch (e) {
-                    if (isYoutubeDetachedError(e)) {
-                        clearYoutubePlayerRef()
-                    }
-                    if (isAutoplayBlockedError(e)) {
-                        setTapToPlay(true)
-                        setIsLoading(false)
-                    } else if (playingIntentRef.current) {
-                        setIsLoading(true)
-                    } else {
-                        setIsLoading(false)
-                    }
+                } else if (playingIntentRef.current) {
+                    setNativePlaybackFallbackRequired(true)
+                    setIsLoading(true)
+                } else {
+                    setIsLoading(false)
                 }
-            } else if (playingIntentRef.current) {
-                // Iframe still loading — onYtReady will call playNativeMedia when ready.
-                setNativePlaybackFallbackRequired(true)
-                setIsLoading(true)
-            } else {
-                setIsLoading(false)
             }
+
+            if (shouldUseAndroidNativeYoutubeOutput(settings)) {
+                const youtubeGetId = props.tunebook.utils.YouTubeGetID
+                const videoId = youtubeGetId(activeSrc)
+                const regionStart = getLinkStartAt()
+                const positionSec = opts.preservePosition ? getCurrentPlaybackSeconds() : regionStart
+                if (playbackNeedsExternalProcessing(settings) && canUseNativeFilteredPlayback(settings)) {
+                    applyNativeFilteredPlayback(settings, {
+                        play: true,
+                        forcePlay: true,
+                        resumeAt: positionSec,
+                    }).then(function(ok) {
+                        if (!ok && hasActivePlaybackIntent()) {
+                            skipBackgroundIncapableTrack('youtube-processed-failed')
+                        }
+                    })
+                    return
+                }
+                hardSilenceWebViewOutputs(getAndroidPlaybackGateContext())
+                muteNativePlayers()
+                setIsLoading(true)
+                nativePlaybackLoadInFlightRef.current = true
+                logPlaybackDebug('plain-native', { srcType: 'youtube', videoId: videoId })
+                console.log('[agent-debug] youtube-native-start', { videoId: videoId })
+                // #region agent log
+                agentDebugLog('useTuneBookMediaController.js:playNativeMedia', 'youtube-native-start', { videoId: videoId }, 'H2')
+                // #endregion
+                playAndroidNativeYoutube(activeSrc, {
+                    youtubeGetId: youtubeGetId,
+                    title: useTune && useTune.name ? useTune.name : 'Tunebook',
+                    artist: useTune && useTune.composer ? useTune.composer : '',
+                    positionSec: positionSec,
+                    tempo: settings.tempo,
+                    filePath: getCachedYoutubeNativePath(videoId),
+                    accessToken: getGoogleAccessToken(),
+                }).then(function(result) {
+                    nativePlaybackLoadInFlightRef.current = false
+                    console.log('[agent-debug] youtube-native-done', {
+                        ok: !!(result && result.ok),
+                        error: result && result.error,
+                    })
+                    // #region agent log
+                    agentDebugLog('useTuneBookMediaController.js:playNativeMedia', 'youtube-native-done', {
+                        ok: !!(result && result.ok),
+                        error: result && result.error,
+                    }, 'H2')
+                    // #endregion
+                    if (result && result.ok) {
+                        rememberYoutubeNativeCache(result.videoId, result.filePath)
+                        setNativePlaybackFallbackRequired(false)
+                        androidNativeActiveRef.current = true
+                        confirmPlayingStarted()
+                        return
+                    }
+                    setIsLoading(false)
+                    setIsPlaying(false)
+                    playingIntentRef.current = false
+                    const errMsg = result && result.error
+                        ? result.error
+                        : 'YouTube playback failed'
+                    toast.error(errMsg, { autoClose: 4000 })
+                }).catch(function(err) {
+                    nativePlaybackLoadInFlightRef.current = false
+                    setIsLoading(false)
+                    setIsPlaying(false)
+                    playingIntentRef.current = false
+                    const errMsg = err && err.message ? err.message : 'YouTube playback failed'
+                    console.log('[agent-debug] youtube-native-catch', errMsg)
+                    toast.error(errMsg, { autoClose: 4000 })
+                })
+                return
+            }
+
+            if (prefersNativeMediaPlayback() && hasActivePlaybackIntent()) {
+                skipBackgroundIncapableTrack('youtube-iframe-blocked')
+                return
+            }
+
+            playYoutubeIframe()
         } else if (srcType === 'audio' && playingIntentRef.current) {
+            if (prefersNativeMediaPlayback()) {
+                playNativeMedia(srcType, opts)
+                return
+            }
             // Audio element not mounted yet — onMediaReady will retry playback.
             setIsLoading(true)
         } else {
@@ -5962,8 +6984,9 @@ export default function useTuneBookMediaController(props) {
     
     function pause() {
         if (isSnapcastRemoteActive()) {
-            if (remoteOutputHandlersRef.current && remoteOutputHandlersRef.current.pauseSnapcast) {
-                remoteOutputHandlersRef.current.pauseSnapcast()
+            const pauseSnapcast = snapcastOutputHandlersRef.current && snapcastOutputHandlersRef.current.pauseSnapcast
+            if (pauseSnapcast) {
+                pauseSnapcast()
             }
             seekWasPlayingRef.current = false
             userPausedRef.current = true
@@ -5995,8 +7018,8 @@ export default function useTuneBookMediaController(props) {
         userGesturePlayRef.current = false
         setIsPlaying(false)
         setIsLoading(false)
-        if (isMidiPlaybackRoute() && pauseSynthRef.current) {
-            pauseSynthRef.current()
+        if (isMidiPlaybackRoute() && stopMidiSynthRef.current && !isAndroidNativeOutputActive()) {
+            stopMidiSynthRef.current()
         }
         if (isMidiPlaybackRoute() && stopMetronomeRef.current) {
             stopMetronomeRef.current()
@@ -6004,7 +7027,7 @@ export default function useTuneBookMediaController(props) {
         if (isMidiFileMediaRoute() && pauseMidiFileRef.current) {
             pauseMidiFileRef.current()
         }
-        if (androidNativeActiveRef.current) {
+        if (androidNativeActiveRef.current || isAndroidNativePlayerActive()) {
             pauseAndroidNativePlayer()
         }
         silencePlaybackOutputs()
@@ -6013,6 +7036,14 @@ export default function useTuneBookMediaController(props) {
     }
 
     function stop() {
+        if (isSnapcastRemoteActive()) {
+            const stopSnapcast = snapcastOutputHandlersRef.current && snapcastOutputHandlersRef.current.stopSnapcast
+            if (stopSnapcast) {
+                stopSnapcast()
+            } else {
+                remoteOutputEngineRef.current = null
+            }
+        }
         seekWasPlayingRef.current = false
         playingIntentRef.current = false
         playbackStartedRef.current = false
@@ -6049,7 +7080,7 @@ export default function useTuneBookMediaController(props) {
                 filteredPlayerRef.current.currentTime = startAt
             } catch (e) {}
         }
-        if (androidNativeActiveRef.current) {
+        if (androidNativeActiveRef.current || isAndroidNativePlayerActive()) {
             androidNativeActiveRef.current = false
             stopAndroidNativePlayer()
         }
@@ -6208,7 +7239,7 @@ export default function useTuneBookMediaController(props) {
     })
     
     
-    return {play, playFromUserGesture, preparePlaybackFromUserGesture, requestPlayback, consumePendingPlayRequest, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, seekToSeconds, seekBySeconds, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef, filteredPlayerRef, ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyLivePlaybackSettings, updateTuneAudioFilterSettings, stemSeparationActive, stemAnalysisProgress, stemsReadyForMedia, hasStemsForCurrentMedia, analyseMediaStems, cancelStemAnalysis, saveProcessedMediaToFile, getDemucsModel, getAvailableAudioFilterKeys, getAvailableStemNames, availableStemNames, pitchShiftPreparing, finishPitchShiftPrepareRef, applyPlaybackSettingsLiveRef, applyMidiTempoRef, applyPlaybackVolumeRef, resumeSynthAudioContextRef, resumeMidiFileAudioContextRef, pauseSynthRef, stopMetronomeRef, invalidatePendingMidiStartsRef, isMidiKickoffActiveRef, armPlaybackFromZeroRef, getRhythmPlaybackPhaseRef, getRhythmDiagnosticsRef, stopMidiSynthRef, playMidiRef, pendingMidiPlayRef, notationPlaybackStartSecondsRef, notationPlaybackSeekRef, notationStaffCursorRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, playMidiFileRef, pauseMidiFileRef, seekMidiFileRef, getMidiFilePlaybackSecondsRef, applyMidiFileTempoRef, prepareMidiFileLinkRef, pendingMidiFilePlayRef, flushPendingMidiFilePlay, stopMidiFileRef, userGesturePlayRef, mediaLinkNumber, playbackRouteMode, requestedPlayState, setMediaLinkNumber, getSrc, getSrcType, getLinkedMediaResolveOptions, playbackSpeed, setPlaybackSpeed, playbackVolume, setPlaybackVolume, adjustPlaybackVolume, playbackVolumeStep: PLAYBACK_VOLUME_STEP, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playlistStalled, clearPlaylistStall, playCancelled, setPlayCancelled, notationMidiOwner, setNotationMidiOwner, startNotationMidiPlayback, stopNotationMidiPlayback, clearNotationPlayRetry, prepareExternalMedia, destroyExternalMedia, notifyYoutubeSrcChanged, clearYoutubePlayerRef, resetPracticeMediaPlayback, pauseYoutubeOutputOnly, silencePlaybackOutputs, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, isExternalOutputActive, nativePlaybackFallbackRequired, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, recoverUnexpectedNativePause, usesExternalPitchTempo, mediaResolverAvailable, mediaResolverChecked, mediaResolverStatus, resolverFeatures, stemsCapabilityAvailable, mediaResolverFeaturesEnabled: stemsCapabilityAvailable, refreshMediaResolverHealth, resumeAudioContextAndPlay, resumeExternalAudioContextFromGesture, clearMidiEngineRegistrationFallback, ensureStemLivePlaybackHandoff, primeStemPlaybackEngine, prepareStemFilterHandoff, confirmPlayingStarted, abortPlayingIntent, armPlaybackIntent, hasPlayingIntent, hasActivePlaybackIntent, isPracticeSessionActive, isSeekGuardActive, isMidiPlaybackRoute, isMidiFileMediaRoute, isMediaPlaybackRoute, applyPlaybackRoute, maybeAutostart, setPracticeSessionHandler, setPracticeSessionActive, invokePracticeSessionHandler, captureSuspendedQueuePlayback, restoreSuspendedQueuePlayback, consumeQueuePlaybackResume, getPlaybackHandoffPosition, applyPreservedPlaybackPosition, getActivePreparedMediaSrc, shouldPreserveMediaEngineOnHostHandoff, nativePlaybackSrcOverride, clearCachedNativePlaybackUrl, remoteOutputEngineRef, setRemoteOutputHandlers, isRemoteOutputActive, muteLocalOutputsForRemote}
+    return {play, playFromUserGesture, preparePlaybackFromUserGesture, requestPlayback, consumePendingPlayRequest, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, seekToSeconds, seekBySeconds, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef, filteredPlayerRef, ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyLivePlaybackSettings, updateTuneAudioFilterSettings, stemSeparationActive, stemAnalysisProgress, stemsReadyForMedia, hasStemsForCurrentMedia, analyseMediaStems, cancelStemAnalysis, saveProcessedMediaToFile, getDemucsModel, getAvailableAudioFilterKeys, getAvailableStemNames, availableStemNames, pitchShiftPreparing, finishPitchShiftPrepareRef, applyPlaybackSettingsLiveRef, applyMidiTempoRef, applyPlaybackVolumeRef, resumeSynthAudioContextRef, getSynthAudioContextRef, resumeMidiFileAudioContextRef, getMidiFileAudioContextRef, pauseSynthRef, stopMetronomeRef, invalidatePendingMidiStartsRef, isMidiKickoffActiveRef, armPlaybackFromZeroRef, getRhythmPlaybackPhaseRef, getRhythmDiagnosticsRef, stopMidiSynthRef, playMidiRef, pendingMidiPlayRef, notationPlaybackStartSecondsRef, notationPlaybackSeekRef, notationStaffCursorRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, playMidiFileRef, pauseMidiFileRef, seekMidiFileRef, getMidiFilePlaybackSecondsRef, applyMidiFileTempoRef, prepareMidiFileLinkRef, pendingMidiFilePlayRef, flushPendingMidiFilePlay, stopMidiFileRef, userGesturePlayRef, mediaLinkNumber, playbackRouteMode, requestedPlayState, setMediaLinkNumber, getSrc, getSrcType, getLinkedMediaResolveOptions, playbackSpeed, setPlaybackSpeed, playbackVolume, setPlaybackVolume, adjustPlaybackVolume, playbackVolumeStep: PLAYBACK_VOLUME_STEP, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, tapToPlayReason, setTapToPlay, dismissLoadFailurePrompt, playlistStalled, clearPlaylistStall, playCancelled, setPlayCancelled, notationMidiOwner, setNotationMidiOwner, startNotationMidiPlayback, stopNotationMidiPlayback, clearNotationPlayRetry, prepareExternalMedia, destroyExternalMedia, notifyYoutubeSrcChanged, clearYoutubePlayerRef, resetPracticeMediaPlayback, pauseYoutubeOutputOnly, silencePlaybackOutputs, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, isExternalOutputActive, isAndroidNativeOutputActive, nativePlaybackFallbackRequired, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, recoverUnexpectedNativePause, usesExternalPitchTempo, shouldSuppressHtml5AudioSrc, shouldSuppressYoutubeEmbed, mediaResolverAvailable, mediaResolverChecked, mediaResolverStatus, resolverFeatures, stemsCapabilityAvailable, mediaResolverFeaturesEnabled: stemsCapabilityAvailable, refreshMediaResolverHealth, resumeAudioContextAndPlay, resumeExternalAudioContextFromGesture, clearMidiEngineRegistrationFallback, ensureStemLivePlaybackHandoff, primeStemPlaybackEngine, prepareStemFilterHandoff, confirmPlayingStarted, abortPlayingIntent, armPlaybackIntent, hasPlayingIntent, hasActivePlaybackIntent, isPracticeSessionActive, isSeekGuardActive, isMidiPlaybackRoute, isMidiFileMediaRoute, isMediaPlaybackRoute, applyPlaybackRoute, maybeAutostart, setPracticeSessionHandler, setPracticeSessionActive, invokePracticeSessionHandler, captureSuspendedQueuePlayback, restoreSuspendedQueuePlayback, consumeQueuePlaybackResume, getPlaybackHandoffPosition, applyPreservedPlaybackPosition, getActivePreparedMediaSrc, shouldPreserveMediaEngineOnHostHandoff, nativePlaybackSrcOverride, clearCachedNativePlaybackUrl, remoteOutputEngineRef, setRemoteOutputHandlers, setSnapcastOutputHandlers, isRemoteOutputActive, muteLocalOutputsForRemote, applyOutputDevice, reapplyStoredOutputDevice, getPlaybackAudioContexts}
    //srcSelection, setSrcSelection, src, setSrc,
 }
  

@@ -7,7 +7,6 @@ import LyricsStructureSyncPanel from './LyricsStructureSyncPanel';
 import LyricsAutoscrollModal from './LyricsAutoscrollModal';
 import ViewModeSelectorModal from './ViewModeSelectorModal';
 import usePerformanceKeyBindings from '../usePerformanceKeyBindings';
-import { GIG_PERFORMANCE_BINDINGS } from '../performanceKeyBindings';
 import useAbcjsParser from '../useAbcjsParser';
 import {
   clampGigZoom,
@@ -431,8 +430,6 @@ export default function GigModeModal(props) {
     allowButtonTargets: true,
     useCapture: true,
     activeModalSelector: '.gig-mode-modal',
-    bindings: GIG_PERFORMANCE_BINDINGS,
-    navigateAtScrollEdge: false,
     musicSingleSelector: '.gig-mode-body',
     onNextTune: handleNext,
     onPreviousTune: handlePrevious,

@@ -10,7 +10,7 @@ import { exportTuneToChordPro, exportTuneToOnSong, tuneHasChordSheetContent } fr
 import { getAudioCompressFormat, getAudioCompressExtension } from './audioCompressSettings'
 import { encodeAudioBuffer } from './audioCompressEncode'
 import { renderAbcToAudioBuffer } from './notationAudioExport'
-import { FEED_FEEDBACK_ADMIN_EMAIL } from './feedFeedbackUtils'
+import { isFeedFeedbackAdmin } from './feedFeedbackUtils'
 import { saveBlobToDevice } from './nativeFileSave'
 
 export const TUNE_DOWNLOAD_FORMATS = [
@@ -45,13 +45,15 @@ export function isRestrictedTuneDownloadFormat(formatId) {
   return isLinkedAudioDownloadFormat(formatId) || formatId === 'stems'
 }
 
-export function canShowRestrictedTuneDownloads(user) {
-  return !!(user && user.email === FEED_FEEDBACK_ADMIN_EMAIL)
+export function canShowRestrictedTuneDownloads(user, resolverStatus) {
+  return isFeedFeedbackAdmin(user, resolverStatus)
 }
 
 export function shouldShowRestrictedTuneDownloads(options) {
   if (options && options.allowRestrictedFormats) return true
-  return canShowRestrictedTuneDownloads(options && options.user)
+  const resolverStatus = (options && options.resolverStatus)
+    || (getMediaResolverHealthState().status || null)
+  return canShowRestrictedTuneDownloads(options && options.user, resolverStatus)
 }
 
 export function getTuneDownloadFormatsForContext(options) {

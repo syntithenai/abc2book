@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkabc2book=self.webpackChunkabc2book||[]).push([[324],{19324:(e,a,n)=>{n.r(a),n.d(a,{TunebookLocalMediaWeb:()=>s});var o=n(66653);class s extends o.Uw{async requestAudioPermission(){return{granted:!1,permission:""}}async searchLocalAudio(){return{candidates:[],count:0}}async getLocalAudioStats(){return{granted:!1,trackCount:0,lastScanAt:0}}async openAudioFileForImport(){throw new Error("Local media import is only available in the Android app")}async openPermissionSettings(){}}}}]);
+//# sourceMappingURL=324.85075706.chunk.js.map

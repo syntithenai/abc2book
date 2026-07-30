@@ -23,10 +23,6 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 MASTER_SVG = PUBLIC / "tunebook-icon.svg"
-ICON_FILL = "#000000"
-VIEWBOX_SIZE = 48
-ICON_PADDING = 4
-
 PNG_OUTPUTS = {
     "favicon.png": 48,
     "home-small.png": 48,
@@ -37,28 +33,13 @@ PNG_OUTPUTS = {
 }
 
 
-def load_icon_path() -> str:
-    text = MASTER_SVG.read_text(encoding="utf-8")
-    match = re.search(r'<path[^>]+d="([^"]+)"', text)
-    if not match:
-        raise SystemExit(f"No path found in {MASTER_SVG}")
-    return match.group(1)
+def favicon_svg() -> str:
+    return MASTER_SVG.read_text(encoding="utf-8")
 
 
-def icon_svg(size: int, icon_path: str, fill: str = ICON_FILL) -> str:
-    inner = VIEWBOX_SIZE - (ICON_PADDING * 2)
-    scale = inner / VIEWBOX_SIZE
-    offset = ICON_PADDING
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}" viewBox="0 0 {VIEWBOX_SIZE} {VIEWBOX_SIZE}" shape-rendering="geometricPrecision">
-  <g transform="translate({offset} {offset}) scale({scale})">
-    <path fill="{fill}" d="{icon_path}"/>
-  </g>
-</svg>"""
-
-
-def write_png(name: str, size: int, dest: Path, icon_path: str) -> None:
+def write_png(name: str, size: int, dest: Path) -> None:
     cairosvg.svg2png(
-        bytestring=icon_svg(size, icon_path).encode("utf-8"),
+        bytestring=favicon_svg().encode("utf-8"),
         write_to=str(dest),
         output_width=size,
         output_height=size,
@@ -66,11 +47,12 @@ def write_png(name: str, size: int, dest: Path, icon_path: str) -> None:
     print(f"  {dest.relative_to(ROOT)} ({size}x{size})")
 
 
-def write_ico(dest: Path, icon_path: str, sizes: tuple[int, ...] = (16, 32, 48)) -> None:
+def write_ico(dest: Path, sizes: tuple[int, ...] = (16, 32, 48)) -> None:
     images = []
+    svg = favicon_svg()
     for size in sizes:
         png_bytes = cairosvg.svg2png(
-            bytestring=icon_svg(size, icon_path).encode("utf-8"),
+            bytestring=svg.encode("utf-8"),
             output_width=size,
             output_height=size,
         )
@@ -83,14 +65,13 @@ def main() -> None:
     if not MASTER_SVG.exists():
         raise SystemExit(f"Missing {MASTER_SVG}")
 
-    icon_path = load_icon_path()
     PUBLIC.mkdir(parents=True, exist_ok=True)
     print("Generating PNG favicon/PWA icons into public/ …")
     for name, size in PNG_OUTPUTS.items():
-        write_png(name, size, PUBLIC / name, icon_path)
+        write_png(name, size, PUBLIC / name)
 
     print("Generating favicon.ico …")
-    write_ico(PUBLIC / "favicon.ico", icon_path)
+    write_ico(PUBLIC / "favicon.ico")
 
     print("Copying icons to repo root …")
     for name in list(PNG_OUTPUTS) + ["favicon.ico"]:

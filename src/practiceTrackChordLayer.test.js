@@ -11,6 +11,11 @@ describe('parseChordChartBars', function() {
     const bars = parseChordChartBars('| . . . . | G |');
     expect(bars[bars.length - 1]).toBe('G');
   });
+
+  test('ignores section marker tokens in chart', function() {
+    const bars = parseChordChartBars('[Verse] . . . | C . . . |');
+    expect(bars).toEqual(['C']);
+  });
 });
 
 describe('attachChordsToStrains', function() {

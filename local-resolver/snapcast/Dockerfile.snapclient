@@ -1,5 +1,5 @@
 # Local snapclient for the resolver host (profile: snapcast).
-# Installs the same Snapcast release family as ghcr.io/badaix/snapserver.
+# Installs the same Snapcast release family as the snapserver sidecar image.
 
 ARG SNAPCAST_VERSION=0.35.0
 FROM debian:bookworm-slim

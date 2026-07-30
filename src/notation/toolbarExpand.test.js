@@ -1,4 +1,15 @@
-import { expandFlagsForWidth, loadMarkFavorites, saveMarkFavorites, toggleMarkFavorite, DEFAULT_MARK_FAVORITES } from './toolbarExpand';
+import {
+  expandFlagsForWidth,
+  loadMarkFavorites,
+  saveMarkFavorites,
+  toggleMarkFavorite,
+  toggleToolbarFavorite,
+  loadToolbarFavorites,
+  saveToolbarFavorites,
+  DEFAULT_MARK_FAVORITES,
+  DEFAULT_BARLINE_FAVORITES,
+  BARLINE_FAVORITES_STORAGE_KEY,
+} from './toolbarExpand';
 
 describe('toolbarExpand', function() {
   test('expandFlagsForWidth expands in planned order', function() {
@@ -26,5 +37,13 @@ describe('toolbarExpand', function() {
     saveMarkFavorites(['staccato', 'trill']);
     expect(loadMarkFavorites()).toEqual(['staccato', 'trill']);
     saveMarkFavorites(DEFAULT_MARK_FAVORITES);
+  });
+
+  test('generic toolbar favorites round-trip', function() {
+    saveToolbarFavorites(BARLINE_FAVORITES_STORAGE_KEY, ['keyChange', '|']);
+    expect(loadToolbarFavorites(BARLINE_FAVORITES_STORAGE_KEY, DEFAULT_BARLINE_FAVORITES))
+      .toEqual(['keyChange', '|']);
+    expect(toggleToolbarFavorite(['keyChange'], 'meterChange')).toEqual(['keyChange', 'meterChange']);
+    saveToolbarFavorites(BARLINE_FAVORITES_STORAGE_KEY, DEFAULT_BARLINE_FAVORITES);
   });
 });

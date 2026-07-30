@@ -154,9 +154,8 @@ export default function Header(props) {
     }).join(",") : ''
     const navButtonSize = compactNav ? undefined : 'lg'
     const headerTunesBtnStyle = {
-        minWidth: compactNav ? '3.4em' : '3.8em',
-        paddingLeft: compactNav ? '0.35em' : '0.4em',
-        paddingRight: compactNav ? '0.65em' : '0.85em',
+        width: compactNav ? '2.7em' : '3em',
+        minWidth: compactNav ? '2.7em' : '3em',
     }
     const playbackButtonSize = navButtonSize
     const onTunesOrEditor = location.pathname.startsWith('/tunes') || location.pathname.startsWith('/editor/')

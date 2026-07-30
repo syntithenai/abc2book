@@ -160,4 +160,19 @@ describe('buildAbcPreviewFromBodies', function() {
     expect(melodyLine).toBe('CDEF | GABc |');
     expect(bassLines).toEqual(['C,2 E,2 |', 'G,2 B,2 |']);
   });
+
+  test('stripSectionMarkerChords removes markers from display ABC only', function() {
+    const tuneWithMarker = Object.assign({}, tune, {
+      voices: {
+        1: { meta: '', notes: ['"[Verse]" z8 | "C" z8 |'] },
+      },
+    });
+    const savedAbc = tunebook.abcTools.json2abc(tuneWithMarker);
+    expect(savedAbc).toMatch(/"\[Verse\]"/);
+    const displayAbc = buildAbcPreviewFromBodies(tuneWithMarker, tunebook, ['1'], {
+      1: '"[Verse]" z8 | "C" z8 |',
+    }, { stripSectionMarkerChords: true });
+    expect(displayAbc).not.toMatch(/"\[Verse\]"/);
+    expect(displayAbc).toMatch(/"C"/);
+  });
 });

@@ -68,6 +68,11 @@ def build_audio_filter_chain(settings: TranscodeSettings) -> str | None:
     return ",".join(filters) if filters else None
 
 
+def transcode_neutral(settings: TranscodeSettings) -> bool:
+    """True when ffmpeg can decode without pitch/tempo filters."""
+    return build_audio_filter_chain(settings) is None
+
+
 def build_ffmpeg_pcm_command(
     input_path: str,
     settings: TranscodeSettings,
@@ -210,11 +215,20 @@ def build_ffmpeg_hls_concat_command(
 
 
 def parse_transcode_settings(body: dict[str, Any]) -> TranscodeSettings:
+    def safe_float(value: Any, default: float = 0.0) -> float:
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return float(default)
+
+    tempo = safe_float(body.get("tempo") or 1.0, 1.0)
+    if tempo <= 0:
+        tempo = 1.0
     return TranscodeSettings(
-        pitch_semitones=float(body.get("pitch") or body.get("pitchSemitones") or 0),
-        fine_tune_cents=float(body.get("fineTune") or body.get("fineTuneCents") or 0),
-        tempo=float(body.get("tempo") or 1.0) or 1.0,
-        start_seconds=float(body.get("startSeconds") or 0),
+        pitch_semitones=safe_float(body.get("pitch") or body.get("pitchSemitones") or 0),
+        fine_tune_cents=safe_float(body.get("fineTune") or body.get("fineTuneCents") or 0),
+        tempo=tempo,
+        start_seconds=max(0.0, safe_float(body.get("startSeconds") or 0)),
     )
 
 

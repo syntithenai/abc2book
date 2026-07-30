@@ -2,6 +2,7 @@ import {
   controlUrlToJsonRpcWs,
   resolveSnapcastControlUrl,
   snapcastAvailableFromHealth,
+  snapcastMixedContentWarning,
 } from './snapcastSupport';
 
 describe('snapcastSupport', function() {
@@ -23,5 +24,14 @@ describe('snapcastSupport', function() {
     expect(snapcastAvailableFromHealth({
       snapcast: { enabled: true, reachable: false },
     })).toBe(false);
+  });
+
+  test('snapcastMixedContentWarning on https page with http control url', function() {
+    const prev = window.location;
+    delete window.location;
+    window.location = { protocol: 'https:' };
+    expect(snapcastMixedContentWarning('http://resolver:1780')).toMatch(/HTTP/);
+    expect(snapcastMixedContentWarning('https://resolver/snapcast')).toBe('');
+    window.location = prev;
   });
 });

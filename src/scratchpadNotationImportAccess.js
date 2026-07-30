@@ -1,14 +1,9 @@
+import { getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
 
 export const SCRATCHPAD_NOTATION_ABC_ACCEPT = '.abc,.txt,text/plain'
 export const SCRATCHPAD_NOTATION_FULL_ACCEPT =
   '.abc,.txt,.xml,.musicxml,.mxl,.mid,.midi,audio/midi,audio/mid'
-
-function normalizeAccessToken(token) {
-  if (!token) return null
-  if (typeof token === 'string') return token
-  return token.access_token || null
-}
 
 /**
  * Scratchpad notation import button + file picker behavior from resolver health.
@@ -22,6 +17,7 @@ export function getScratchpadNotationImportAccess(context) {
   const resolverAvailable = !!opts.resolverAvailable
   const loginWarning = getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
   const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
 
   if (!resolverChecked) {
     return {
@@ -35,14 +31,15 @@ export function getScratchpadNotationImportAccess(context) {
     }
   }
 
-  if (needsLogin) {
+  if (needsLogin || needsCredit) {
     return {
-      mode: 'login',
+      mode: needsCredit ? 'credit' : 'login',
       importLabel: 'Import ABC',
-      loginImportLabel: 'Login to Import MusicXML/MIDI',
+      loginImportLabel: getGatedActionLabel({ needsLogin: needsLogin, needsCredit: needsCredit }, 'Import MusicXML/MIDI'),
       fileAccept: SCRATCHPAD_NOTATION_ABC_ACCEPT,
       canPickFile: true,
-      needsLogin: true,
+      needsLogin: needsLogin,
+      needsCredit: needsCredit,
       abcOnly: true,
       loginWarning: loginWarning,
     }

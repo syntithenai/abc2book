@@ -141,6 +141,10 @@ export default function MediaPlayerMidiFile(props) {
       playbackRef.current.resumeAudioContextFromGesture()
     }
 
+    mc.getMidiFileAudioContextRef.current = function() {
+      return playbackRef.current.getAudioContext()
+    }
+
     // Playback was requested before this engine mounted (common on /editor/).
     flushMountedPendingMidiPlay(mc)
 
@@ -152,6 +156,7 @@ export default function MediaPlayerMidiFile(props) {
       if (mc.applyMidiFileTempoRef) mc.applyMidiFileTempoRef.current = null
       if (mc.prepareMidiFileLinkRef) mc.prepareMidiFileLinkRef.current = null
       if (mc.resumeMidiFileAudioContextRef) mc.resumeMidiFileAudioContextRef.current = null
+      if (mc.getMidiFileAudioContextRef) mc.getMidiFileAudioContextRef.current = null
       if (mc.stopMidiFileRef) mc.stopMidiFileRef.current = null
     }
   }, [tunebook])

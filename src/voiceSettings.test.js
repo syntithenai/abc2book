@@ -1,8 +1,12 @@
 import {
   DEFAULT_VOICE_SETTINGS,
   getVoiceInputMode,
+  isSpeakArtistNamesEnabled,
+  isSpeakSongTitlesEnabled,
   isTapVoiceInputMode,
   loadVoiceSettings,
+  normalizeSpeakArtistNames,
+  normalizeSpeakSongTitles,
   normalizeVoiceInputMode,
   saveVoiceSettings,
   VOICE_SETTINGS_STORAGE_KEY,
@@ -27,7 +31,9 @@ describe('voiceSettings', function() {
 
   it('persists hold mode', function() {
     saveVoiceSettings({ inputMode: 'hold' })
-    expect(localStorage.getItem(VOICE_SETTINGS_STORAGE_KEY)).toBe(JSON.stringify({ inputMode: 'hold' }))
+    expect(localStorage.getItem(VOICE_SETTINGS_STORAGE_KEY)).toBe(
+      JSON.stringify({ inputMode: 'hold', speakSongTitles: false, speakArtistNames: false })
+    )
     expect(getVoiceInputMode()).toBe('hold')
     expect(isTapVoiceInputMode()).toBe(false)
   })
@@ -38,5 +44,31 @@ describe('voiceSettings', function() {
     saveVoiceSettings({ inputMode: 'hold' })
     expect(handler).toHaveBeenCalledTimes(1)
     window.removeEventListener('voiceSettingsChanged', handler)
+  })
+
+  it('defaults speakSongTitles to false', function() {
+    expect(normalizeSpeakSongTitles(null)).toBe(false)
+    expect(isSpeakSongTitlesEnabled()).toBe(false)
+  })
+
+  it('persists speakSongTitles', function() {
+    saveVoiceSettings({ speakSongTitles: true })
+    expect(localStorage.getItem(VOICE_SETTINGS_STORAGE_KEY)).toBe(
+      JSON.stringify({ inputMode: 'tap', speakSongTitles: true, speakArtistNames: false })
+    )
+    expect(isSpeakSongTitlesEnabled()).toBe(true)
+  })
+
+  it('defaults speakArtistNames to false', function() {
+    expect(normalizeSpeakArtistNames(null)).toBe(false)
+    expect(isSpeakArtistNamesEnabled()).toBe(false)
+  })
+
+  it('persists speakArtistNames', function() {
+    saveVoiceSettings({ speakArtistNames: true })
+    expect(localStorage.getItem(VOICE_SETTINGS_STORAGE_KEY)).toBe(
+      JSON.stringify({ inputMode: 'tap', speakSongTitles: false, speakArtistNames: true })
+    )
+    expect(isSpeakArtistNamesEnabled()).toBe(true)
   })
 })

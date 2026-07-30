@@ -326,7 +326,9 @@ describe('isEditorNotationPath', function() {
     expect(isEditorNotationPath('/editor/abc123/music')).toBe(true);
     expect(isEditorNotationPath('/editor/abc123/pianoRoll')).toBe(true);
     expect(isEditorNotationPath('/editor/abc123/notationAbc')).toBe(true);
+    expect(isEditorNotationPath('/editor/abc123/chords')).toBe(true);
     expect(isNotationEditorView('music')).toBe(true);
+    expect(isNotationEditorView('chords')).toBe(true);
   });
 
   it('leaves info/lyrics and non-editor routes for tune-skip arrows', function() {
@@ -346,15 +348,17 @@ describe('normalizeEditorViewMode and helpers', function() {
     expect(normalizeEditorViewMode('abc')).toBe('info');
   });
 
-  it('accepts music/pianoRoll/notationAbc subviews', function() {
+  it('accepts music/pianoRoll/notationAbc/chords subviews', function() {
     expect(normalizeEditorViewMode('pianoRoll')).toBe('pianoRoll');
     expect(normalizeEditorViewMode('notationAbc')).toBe('notationAbc');
+    expect(normalizeEditorViewMode('chords')).toBe('chords');
   });
 
   it('maps notation view to editor mode', function() {
     expect(notationViewToEditorViewMode('staff')).toBe('music');
     expect(notationViewToEditorViewMode('pianoRoll')).toBe('pianoRoll');
     expect(notationViewToEditorViewMode('abc')).toBe('notationAbc');
+    expect(notationViewToEditorViewMode('chords')).toBe('chords');
   });
 
   it('gets editor view mode label', function() {
@@ -362,6 +366,7 @@ describe('normalizeEditorViewMode and helpers', function() {
     expect(getEditorViewModeLabel('lyrics')).toBe('Lyrics');
     expect(getEditorViewModeLabel('pianoRoll')).toBe('Piano roll');
     expect(getEditorViewModeLabel('notationAbc')).toBe('ABC Notes');
+    expect(getEditorViewModeLabel('chords')).toBe('Chords');
     expect(getEditorViewModeLabel('sourceAbc')).toBe('Info');
   });
 

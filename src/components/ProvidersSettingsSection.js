@@ -9,6 +9,8 @@ import {
   getLocalMediaProxyCandidates,
 } from '../mediaProxyConfig'
 import { getResolverLoginWarning } from '../mediaProxyClient'
+import { openCreditSettings } from '../resolverCreditAccess'
+import CreditSettingsSection from './CreditSettingsSection'
 import {
   PROVIDER_CAPABILITIES,
   applyProviderEdits,
@@ -719,8 +721,19 @@ export default function ProvidersSettingsSection({
               </Button>
             </div>
           ) : null}
+          {loginWarning.showBuyCreditButton ? (
+            <div className="mt-2">
+              <Button variant="outline-danger" size="sm" onClick={openCreditSettings}>
+                Buy credit
+              </Button>
+            </div>
+          ) : null}
         </Alert>
       ) : null}
+      <CreditSettingsSection
+        accessToken={accessToken}
+        billingEnabled={!!(resolverStatus && resolverStatus.billingEnabled)}
+      />
       <div className="app-surface-panel App-settings-section App-providers-intro">
         <h2>Providers</h2>
         <p className="app-text-muted App-providers-intro-text">

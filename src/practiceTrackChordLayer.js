@@ -1,5 +1,5 @@
 import { buildChordFillAbc, beatsPerBarFromMeter } from './chordFillPattern';
-import { splitChordChartIntoBlocks, chartBlockHasChords } from './chordSheetUtils';
+import { splitChordChartIntoBlocks, chartBlockHasChords, isSectionMarkerChordName, isSectionMarkerToken } from './chordSheetUtils';
 import { getMelodyChordChart } from './practiceTrackChordUtils';
 import { renderAbcToAudioBuffer } from './notationAudioExport';
 import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
@@ -15,7 +15,9 @@ function primaryChordFromBar(barText) {
   const tokens = stripBarDecorations(barText).split(/\s+/).filter(Boolean);
   for (let i = 0; i < tokens.length; i += 1) {
     const token = tokens[i];
-    if (token !== '.' && !/^\d+$/.test(token)) {
+    if (token !== '.' && !/^\d+$/.test(token)
+      && !isSectionMarkerChordName(token)
+      && !isSectionMarkerToken(token)) {
       return token;
     }
   }
@@ -31,7 +33,17 @@ export function parseChordChartBars(chordChart) {
     String(block || '').split('|').forEach(function(bar) {
       const trimmed = stripBarDecorations(bar);
       if (!trimmed) return;
-      bars.push(primaryChordFromBar(trimmed));
+      const primary = primaryChordFromBar(trimmed);
+      if (!primary) {
+        const hasChord = trimmed.split(/\s+/).filter(Boolean).some(function(token) {
+          return token !== '.'
+            && !/^\d+$/.test(token)
+            && !isSectionMarkerToken(token)
+            && !isSectionMarkerChordName(token);
+        });
+        if (!hasChord) return;
+      }
+      bars.push(primary);
     });
   });
   return bars;

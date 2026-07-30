@@ -257,6 +257,9 @@ async def _rank_writers_llm(client, title, writer_names):
         )
         response.raise_for_status()
         data = response.json()
+        from llm_runtime import note_chat_completion_usage
+
+        note_chat_completion_usage(data)
         choices = data.get("choices") or []
         if not choices:
             return ""
@@ -332,6 +335,9 @@ async def _discover_writer_llm(client, title, artist_hint=""):
         )
         response.raise_for_status()
         data = response.json()
+        from llm_runtime import note_chat_completion_usage
+
+        note_chat_completion_usage(data)
         choices = data.get("choices") or []
         if not choices:
             return ""

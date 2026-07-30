@@ -20,7 +20,8 @@ import {
   scrollBooksPageSection,
 } from '../recentTunes'
 import { trackBookSectionClick } from '../analytics'
-import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
+import { resolvePlaybackForItem } from '../nowPlayingQueue'
+import { requestNavigatePlayback } from '../tunePlaybackActions'
 import { generateCurrentPlaylist } from '../generateCurrentPlaylist'
 import { createQueue } from '../nowPlayingQueue'
 import { toast } from 'react-toastify'
@@ -336,13 +337,24 @@ export default function BooksPage(props) {
             mediaController.preparePlaybackFromUserGesture()
         }
 
-        // 3) Arm the playback engine using the SAME proven path the queue uses when
-        //    auto-advancing to a not-yet-mounted tune page: apply the route + arm
-        //    intent now, then navigate. When the tune page mounts, its media/midi
-        //    onReady handler starts playback (no play() call while unmounted).
+        // 3) Arm a pending play request, then navigate so playback starts when
+        //    the play route mounts (same path as books-page per-tune play).
         var item = { tuneId: tuneId, prefer: 'auto' }
-        playQueueItem(mediaController, props.tunebook, tune, item, { deferPlaybackEngine: true })
-        navigateToQueueTune(navigate, tuneId, item, props.tunebook, props.tunes)
+        var target = resolvePlaybackForItem(tune, item, props.tunebook)
+        if (!target || target.type === 'external') {
+            navigate('/tunes')
+            return
+        }
+        var normalizedTarget = target.type === 'midi'
+            ? { type: 'midi' }
+            : { type: 'media', linkNum: target.linkNum != null ? target.linkNum : 0 }
+        requestNavigatePlayback(
+            mediaController,
+            props.tunebook,
+            navigate,
+            tune,
+            normalizedTarget
+        )
     }
 
     function handleGeneratePlaylist() {

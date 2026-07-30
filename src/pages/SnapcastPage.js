@@ -1,9 +1,14 @@
-import { useCallback } from 'react';
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { Alert, Button, Card, Col, Form, Row } from 'react-bootstrap';
-import useSnapcastControl from '../hooks/useSnapcastControl';
-import useSnapcastPlayback from '../hooks/useSnapcastPlayback';
-import useMediaResolverHealth from '../useMediaResolverHealth';
+import { useSnapcast } from '../RemoteOutputProvider';
+import {
+  canRouteToSnapcastPlayback,
+  getSnapcastDisabledReason,
+} from '../remoteOutputSupport';
+import { buildRemoteOutputQueue } from '../remoteOutputQueue';
+import { buildRemotePlaybackSessionPayload } from '../remotePlaybackSessionPayload';
+import SnapcastStatusBadge, { snapcastStatusSummary } from '../components/SnapcastStatusBadge';
 import { icons } from '../Icons';
 
 function ClientVolumeSlider({ client, onChange }) {
@@ -80,26 +85,36 @@ function GroupCard({ group, streams, streamName, selected, onSelect, onSetStream
   );
 }
 
-export default function SnapcastPage({ mediaController, tunebook }) {
-  const { status } = useMediaResolverHealth();
-  const snapcastControl = useSnapcastControl(status);
-  const snapcastPlayback = useSnapcastPlayback({
-    mediaController: mediaController,
-    snapcastControl: snapcastControl,
-  });
+export default function SnapcastPage({ mediaController, tunebook, nowPlayingQueue, tunes }) {
+  const snapcast = useSnapcast();
   const snapcastEnabled = !!(mediaController.resolverFeatures && mediaController.resolverFeatures.snapcastControl);
-
-  const handleConnect = useCallback(function() {
-    snapcastControl.connect();
-  }, [snapcastControl]);
+  const canSnapcast = canRouteToSnapcastPlayback(mediaController);
+  const snapcastReason = getSnapcastDisabledReason(mediaController);
+  const outputQueue = buildRemoteOutputQueue(mediaController, nowPlayingQueue, tunes);
+  const sessionPayload = useMemo(function() {
+    return buildRemotePlaybackSessionPayload(mediaController, tunebook, {
+      queue: outputQueue,
+      nowPlayingQueue: nowPlayingQueue,
+      tunes: tunes,
+    });
+  }, [mediaController, tunebook, outputQueue, nowPlayingQueue, tunes]);
 
   if (!snapcastEnabled) {
     return (
-      <div className="p-3">
+      <div className="snapcast-page p-3">
         <h1>Snapcast</h1>
         <Alert variant="warning">
-          Snapcast is not enabled on your resolver. Start the snapcast compose profile and set SNAPCAST_ENABLED=true.
+          Snapcast is not enabled on your media resolver. If you run snapserver at home, set the
+          control URL in <Link to="/settings?tab=audio">Settings → Audio</Link> (for example{' '}
+          <code>http://192.168.1.10:1780</code>), then connect below.
         </Alert>
+        <div className="mb-3">
+          <Button size="sm" variant="primary" onClick={snapcast.connect}>Connect</Button>
+          {snapcast.connectError ? (
+            <Alert variant="danger" className="mt-2 mb-0">{snapcast.connectError}</Alert>
+          ) : null}
+        </div>
+        <Link to="/settings?tab=audio" className="btn btn-sm btn-outline-secondary">Audio settings</Link>
       </div>
     );
   }
@@ -108,16 +123,31 @@ export default function SnapcastPage({ mediaController, tunebook }) {
     <div className="snapcast-page p-3">
       <div className="d-flex align-items-start justify-content-between gap-2 mb-3">
         <div>
-          <h1 className="mb-1">Snapcast</h1>
+          <div className="d-flex align-items-center gap-2 mb-1">
+            <h1 className="mb-0">Snapcast</h1>
+            <SnapcastStatusBadge
+              snapcastEnabled={snapcastEnabled}
+              healthStatus={mediaController.mediaResolverStatus}
+              connected={snapcast.connected}
+              reconnecting={snapcast.reconnecting}
+              routing={snapcast.routing}
+              groups={snapcast.groups}
+            />
+          </div>
           <p className="text-muted mb-0">
             Manage groups, clients, and route Tune Book playback to your home speakers.
           </p>
         </div>
-        <Link to="/settings" className="btn btn-sm btn-outline-secondary">Settings</Link>
+        <Link to="/settings?tab=audio" className="btn btn-sm btn-outline-secondary">Audio settings</Link>
       </div>
 
-      {snapcastControl.connectError ? (
-        <Alert variant="danger">{snapcastControl.connectError}</Alert>
+      {snapcast.connectError ? (
+        <Alert variant="danger">{snapcast.connectError}</Alert>
+      ) : null}
+      {snapcast.routingError ? (
+        <Alert variant="danger" className="mb-3">
+          <strong>Snapcast routing failed.</strong> {snapcast.routingError}
+        </Alert>
       ) : null}
 
       <Row>
@@ -126,15 +156,15 @@ export default function SnapcastPage({ mediaController, tunebook }) {
             <Card.Body>
               <Card.Title className="h6">Connection</Card.Title>
               <p className="small text-muted mb-2">
-                {snapcastControl.controlUrl
-                  ? 'Control host: ' + snapcastControl.controlUrl
+                {snapcast.controlUrl
+                  ? 'Control host: ' + snapcast.controlUrl
                   : 'Control URL not discovered — set an override in Settings.'}
               </p>
               <div className="d-flex gap-2 flex-wrap">
-                {!snapcastControl.connected ? (
-                  <Button size="sm" variant="primary" onClick={handleConnect}>Connect</Button>
+                {!snapcast.connected ? (
+                  <Button size="sm" variant="primary" onClick={snapcast.connect}>Connect</Button>
                 ) : (
-                  <Button size="sm" variant="outline-secondary" onClick={snapcastControl.disconnect}>
+                  <Button size="sm" variant="outline-secondary" onClick={snapcast.disconnect}>
                     Disconnect
                   </Button>
                 )}
@@ -142,20 +172,20 @@ export default function SnapcastPage({ mediaController, tunebook }) {
             </Card.Body>
           </Card>
 
-          {snapcastControl.connected ? (
+          {snapcast.connected ? (
             <div>
               <h2 className="h5 mb-2">Groups</h2>
-              {(snapcastControl.groups || []).map(function(group) {
+              {(snapcast.groups || []).map(function(group) {
                 return (
                   <GroupCard
                     key={group.id}
                     group={group}
-                    streams={snapcastControl.streams || []}
-                    streamName={snapcastControl.streamName}
-                    selected={snapcastControl.selectedGroupId === group.id}
-                    onSelect={snapcastControl.setSelectedGroupId}
-                    onSetStream={snapcastControl.setGroupStream}
-                    onClientVolume={snapcastControl.setClientVolume}
+                    streams={snapcast.streams || []}
+                    streamName={snapcast.streamName}
+                    selected={snapcast.selectedGroupId === group.id}
+                    onSelect={snapcast.setSelectedGroupId}
+                    onSetStream={snapcast.setGroupStream}
+                    onClientVolume={snapcast.setClientVolume}
                   />
                 );
               })}
@@ -170,23 +200,44 @@ export default function SnapcastPage({ mediaController, tunebook }) {
               <p className="small text-muted">
                 Play the current tune on the selected Snapcast group. Use the Output menu for quick access while practicing.
               </p>
+              {snapcast.routing ? (
+                <p className="small text-success mb-2">
+                  Routing to Snapcast — local playback is muted; audio should play on your speakers.
+                </p>
+              ) : (
+                <p className="small text-muted mb-2">
+                  Normal Play uses this device. Press Play on Snapcast below to send audio to your home speakers.
+                </p>
+              )}
+              {snapcastReason ? <p className="text-muted small">{snapcastReason}</p> : null}
+              <p className="small text-muted">
+                {snapcastStatusSummary(mediaController.mediaResolverStatus, snapcast.groups, {
+                  routing: snapcast.routing,
+                })}
+              </p>
               <div className="d-flex gap-2 flex-wrap">
                 <Button
                   size="sm"
                   variant="primary"
-                  disabled={!snapcastControl.connected || !snapcastControl.selectedGroupId || snapcastPlayback.routing}
-                  onClick={function() { snapcastPlayback.startRouting(); }}
+                  disabled={
+                    !canSnapcast
+                    || !sessionPayload
+                    || snapcast.routing
+                  }
+                  onClick={function() {
+                    snapcast.startRoutingWithConnect({ payload: sessionPayload });
+                  }}
                 >
-                  {icons.cast || '▶'} Play on Snapcast
+                  {icons.cast || '▶'} {snapcast.connected ? 'Play on Snapcast' : 'Connect & play'}
                 </Button>
-                {snapcastPlayback.routing ? (
-                  <Button size="sm" variant="warning" onClick={snapcastPlayback.stopRouting}>
+                {snapcast.routing ? (
+                  <Button size="sm" variant="warning" onClick={snapcast.stopRouting}>
                     Stop routing
                   </Button>
                 ) : null}
               </div>
-              {snapcastPlayback.routing ? (
-                <p className="small text-success mt-2 mb-0">Routing session {snapcastPlayback.sessionId}</p>
+              {snapcast.routing ? (
+                <p className="small text-success mt-2 mb-0">Routing session {snapcast.sessionId}</p>
               ) : null}
             </Card.Body>
           </Card>

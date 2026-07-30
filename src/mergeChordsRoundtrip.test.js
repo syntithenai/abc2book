@@ -1,6 +1,22 @@
 /* eslint-disable react-hooks/rules-of-hooks -- test helpers call pure hook factories */
 import useAbcjsParser from './useAbcjsParser';
 import useAbcTools from './useAbcTools';
+import { splitChordChartIntoBlocks } from './chordSheetUtils';
+
+const REPEAT_STRAIN_LINE_A = '|:"Am"E2A2 ABcd|e2d2 c2A2|"G"B2G2 GFGA|"Em"B2AG E2D2|! "Am"E2A2 ABcd|e2d2 e2ag|"Em"e2d2 "G"BedB|"Am"A4 A4:|';
+const REPEAT_STRAIN_LINE_B = ' |:"Am"a2e2 e2fg|abag e2fg|abaf "Em"g3e|"G"dedB G4|! "Am"a2e2 e2fg|abag e2d2|"Em"B2e2 "G"d2B2|"Am"A4 A4:|';
+
+function repeatStrainAbc(abcTools) {
+  return [
+    'X:1',
+    'T:RepeatStrain',
+    'M:4/4',
+    'L:1/4',
+    'K:Am',
+    REPEAT_STRAIN_LINE_A,
+    REPEAT_STRAIN_LINE_B,
+  ].join('\n');
+}
 
 function roundtripNotes(tune) {
   const abcjsParser = useAbcjsParser();
@@ -154,5 +170,61 @@ describe('mergeChords note length roundtrip', function() {
     expect(notes).toContain('[M:3/4]');
     expect(notes).toContain('"C"');
     expect(notes).toContain('"Am"');
+  });
+
+  test('pulse slot round-trip places G on pulse 2', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const tune = {
+      id: 'pulse', name: 'Pulse', meter: '4/4', noteLength: '1/8', key: 'C',
+      voices: { 1: { meta: '', notes: ['z8 |'] } },
+    };
+    const abc = abcTools.json2abc(tune);
+    const merged = abcjsParser.mergeChords('C . G . . . . . |', abc);
+    const notes = abcTools.justNotes(merged);
+    expect(notes).toContain('"C"');
+    expect(notes).toContain('"G"');
+    expect(notes.indexOf('"G"')).toBeGreaterThan(notes.indexOf('"C"'));
+  });
+
+  test('renderChords showDots uses pulse slots after inline meter change', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const abc = [
+      'X:1',
+      'T:MeterChange',
+      'M:4/4',
+      'L:1/8',
+      'K:C',
+      '"C" z z z z z z z | [M:3/4] "G" z z z z z |',
+    ].join('\n');
+    const chart = abcjsParser.renderChords(abc, true);
+    expect(chart).toContain('[M:3/4]');
+    const afterMeter = chart.split('[M:3/4]')[1] || '';
+    const dots = (afterMeter.match(/\./g) || []).length;
+    expect(dots).toBeGreaterThanOrEqual(5);
+    expect(dots).toBeLessThanOrEqual(6);
+    expect(afterMeter).toContain('G');
+  });
+
+  test('renderChords showDots emits separate blocks at repeat strain boundaries', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const abc = repeatStrainAbc(abcTools);
+    const chart = abcjsParser.renderChords(abc, true);
+    const blocks = splitChordChartIntoBlocks(chart);
+    expect(blocks.length).toBe(2);
+    expect(blocks[0]).toMatch(/Am/);
+    expect(blocks[1]).toMatch(/Am/);
+  });
+
+  test('renderChords showDots false splits repeat strains like showDots true', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const abc = repeatStrainAbc(abcTools);
+    const withDots = splitChordChartIntoBlocks(abcjsParser.renderChords(abc, true));
+    const withoutDots = splitChordChartIntoBlocks(abcjsParser.renderChords(abc, false));
+    expect(withoutDots.length).toBe(withDots.length);
+    expect(withoutDots.length).toBe(2);
   });
 });

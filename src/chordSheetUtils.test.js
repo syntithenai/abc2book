@@ -741,4 +741,77 @@ describe('chordSheetUtils', function() {
       '# Chorus', 'chorus line one', 'chorus line two',
     ]);
   });
+
+  test('section marker helpers detect chart and ABC forms', function() {
+    const {
+      isSectionMarkerToken,
+      isSectionMarkerChordName,
+      sectionMarkerChartLine,
+      sectionMarkerAbcChordName,
+      splitChartHeaderAndBody,
+      rebalanceChartPulseSlots,
+    } = require('./chordSheetUtils');
+    expect(isSectionMarkerToken('# Verse 1')).toBe(true);
+    expect(isSectionMarkerToken('[Chorus]')).toBe(true);
+    expect(isSectionMarkerToken('Am')).toBe(false);
+    expect(isSectionMarkerChordName('[Verse 1]')).toBe(true);
+    expect(isSectionMarkerChordName('Am')).toBe(false);
+    expect(sectionMarkerChartLine('[Bridge]')).toBe('# Bridge');
+    expect(sectionMarkerAbcChordName('Bridge')).toBe('[Bridge]');
+    const split = splitChartHeaderAndBody('# Bridge\nC . . . |');
+    expect(split.headerLine).toBe('# Bridge');
+    expect(split.body).toContain('C');
+  });
+
+  test('rebalanceChartPulseSlots adjusts slots on meter change', function() {
+    const { rebalanceChartPulseSlots } = require('./chordSheetUtils');
+    const result = rebalanceChartPulseSlots(
+      'C . . . . . . . | [M:3/4] G . . . . . |',
+      '4/4',
+      '1/8'
+    );
+    expect(result.chart).toContain('[M:3/4]');
+    const afterMeter = result.chart.split('[M:3/4]')[1] || '';
+    const dots = (afterMeter.match(/\./g) || []).length;
+    expect(dots).toBeGreaterThanOrEqual(5);
+  });
+
+  test('rebalanceChartPulseSlots preserves chord pulse indices', function() {
+    const { rebalanceChartPulseSlots } = require('./chordSheetUtils');
+    const result = rebalanceChartPulseSlots('C . G . . . . . |', '4/4', '1/8');
+    const parts = result.chart.replace(/\|/g, '').trim().split(/\s+/);
+    expect(parts[0]).toBe('C');
+    expect(parts[2]).toBe('G');
+    expect(parts.filter(function(p) { return p === '.'; }).length).toBe(6);
+  });
+
+  test('melodyTextHasSectionMarkerChord detects quoted section labels in ABC', function() {
+    const { melodyTextHasSectionMarkerChord } = require('./chordSheetUtils');
+    expect(melodyTextHasSectionMarkerChord('"[Verse 1]" z z z | "C" z z z |', '[Verse 1]')).toBe(true);
+    expect(melodyTextHasSectionMarkerChord('"C" z z z |', '[Verse 1]')).toBe(false);
+  });
+
+  test('expandLegacyBeatSlotsInChart expands beat-level bars to pulse slots', function() {
+    const { expandLegacyBeatSlotsInChart } = require('./chordSheetUtils');
+    expect(expandLegacyBeatSlotsInChart('C . . . |', '4/4', '1/8')).toBe('C . . . . . . . |');
+    expect(expandLegacyBeatSlotsInChart('C G Am F |', '4/4', '1/8')).toBe('C . G . Am . F . |');
+  });
+
+  test('extractChordSequence excludes section marker chord names', function() {
+    expect(extractChordSequence('[Verse] . . . | C . . . |')).toEqual(['C']);
+  });
+
+  test('inline meter rebalance mid-block contracts pulse slots', function() {
+    const { rebalanceChartPulseSlots } = require('./chordSheetUtils');
+    const result = rebalanceChartPulseSlots(
+      'C . . . . . . . | [M:3/4] G . . . . . . |',
+      '4/4',
+      '1/8'
+    );
+    expect(result.chart).toContain('[M:3/4]');
+    const afterMeter = result.chart.split('[M:3/4]')[1] || '';
+    const dots = (afterMeter.match(/\./g) || []).length;
+    expect(dots).toBeGreaterThanOrEqual(5);
+    expect(dots).toBeLessThanOrEqual(6);
+  });
 });

@@ -1,4 +1,4 @@
-import { fetchViaMediaProxy } from './mediaProxyClient';
+import { fetchViaMediaProxy, hasMusicCollectionAccess } from './mediaProxyClient';
 import { getActiveResolverAccessToken, getMediaResolverHealthState } from './mediaResolverHealthStore';
 import { resolverHasFeature } from './resolverFeatures';
 import { resolveResolverAccessToken } from './resolverAccessToken';
@@ -25,8 +25,9 @@ export function getMusicCollectionStatusFromHealth(status) {
 }
 
 export function isMusicCollectionSettingsAvailable(status) {
-  if (!status || !status.available) return false;
-  return resolverHasFeature(status, 'musicCollection');
+  if (!status) return false;
+  if (status.musicCollectionAccess) return true;
+  return hasMusicCollectionAccess(status.candidates || []);
 }
 
 export function readMusicCollectionSettingsStatus() {

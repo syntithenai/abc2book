@@ -1,8 +1,8 @@
 import { isFeedFeedbackAdmin } from './feedFeedbackUtils'
 import { lessonFeedbackPresetLabel } from './lessonFeedbackPresets'
 
-export function isLessonFeedbackAdmin(user) {
-  return isFeedFeedbackAdmin(user)
+export function isLessonFeedbackAdmin(user, resolverStatus) {
+  return isFeedFeedbackAdmin(user, resolverStatus)
 }
 
 function simpleHash(text) {

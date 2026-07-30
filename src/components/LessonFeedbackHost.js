@@ -12,7 +12,7 @@ import './LessonFeedback.css'
 
 export default function LessonFeedbackHost(props) {
   const lesson = props.lesson
-  const enabled = isLessonFeedbackAdmin(props.user)
+  const enabled = props.forceEnabled || isLessonFeedbackAdmin(props.user)
   const rootRef = useRef(null)
   const [feedbackDraft, setFeedbackDraft] = useState(null)
   const [showModal, setShowModal] = useState(false)

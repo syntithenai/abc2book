@@ -7,6 +7,7 @@ import {
   buildPlaybackPath,
   shouldSuppressFollowNavigate,
   isExternalQueueItem,
+  isLessonExternalMedia,
 } from './nowPlayingQueue'
 import { isQueuePlaybackEngaged, getViewedTuneIdFromPath } from './playbackNavigationUtils'
 import {
@@ -15,6 +16,8 @@ import {
   stopPlaylistPlayback,
 } from './playlistPlaybackResilience'
 import { playLessonYoutube } from './lessonYoutubePlayer'
+import { playExternalMediaItem } from './standaloneMediaPlayback'
+import { announcePlaylistTrack } from './playlistTitleAnnouncement'
 
 export function playQueueItem(mediaController, tunebook, tune, item, options) {
   if (!mediaController || !item) return false
@@ -107,7 +110,18 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
 
   if (isExternalQueueItem(item)) {
     setQueue(nextQueue)
-    playLessonYoutube({ fromUserGesture: true })
+    const externalMedia = item.externalMedia
+    if (isLessonExternalMedia(externalMedia)) {
+      playLessonYoutube({ fromUserGesture: true })
+      return true
+    }
+    playExternalMediaItem(externalMedia, mediaController, {
+      play: true,
+      fromUserGesture: !!(playbackOptions && playbackOptions.fromUserGesture),
+    }).catch(function() {
+      stopPlaylistPlayback(mediaController)
+      if (failCallback) failCallback('end')
+    })
     return true
   }
 
@@ -130,6 +144,8 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
     if (failCallback) failCallback('end')
     return false
   }
+
+  announcePlaylistTrack(tune)
 
   const shouldFollow = nextQueue.followTune && navigate && !shouldSuppressFollowNavigate({
     pathname: location && location.pathname,
@@ -279,16 +295,18 @@ export function parseTunePagePlaybackFromUrl(pathname) {
 
 export function isMediaControllerPlaybackActive(mediaController) {
   if (!mediaController) return false
-  return !!(
-    (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent())
-    || (mediaController.canResumePlayback && mediaController.canResumePlayback())
-    || mediaController.playbackRouteMode === 'media'
-    || mediaController.playbackRouteMode === 'midi'
-    || mediaController.requestedPlayState === 'playMedia'
-    || mediaController.requestedPlayState === 'playMidi'
-    || mediaController.isPlaying
-    || mediaController.isLoading
-  )
+  if (mediaController.isPlaying || mediaController.isLoading) return true
+  if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
+    return true
+  }
+  if (mediaController.canResumePlayback && mediaController.canResumePlayback()) {
+    return true
+  }
+  if (mediaController.requestedPlayState === 'playMedia'
+    || mediaController.requestedPlayState === 'playMidi') {
+    return true
+  }
+  return false
 }
 
 function isQueueOutputting(mediaController) {

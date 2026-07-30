@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { getCastAppId } from './mediaCastSupport';
+import { isCastWebSdkSupported } from './platformUtils';
 import {
   advanceCastSession,
   buildCastHlsUrl,
@@ -61,6 +62,9 @@ function writeStoredCastMeta(meta) {
 }
 
 function loadCastFramework() {
+  if (!isCastWebSdkSupported()) {
+    return Promise.reject(new Error('Chromecast is not available in the mobile app. Use Snapcast in Settings → Audio.'));
+  }
   if (typeof window === 'undefined') {
     return Promise.reject(new Error('Cast unavailable'));
   }
@@ -352,6 +356,9 @@ export default function useMediaCastSession({ mediaController }) {
   }, [handlePlaybackEnded, updateEngine]);
 
   const initCast = useCallback(async function() {
+    if (!isCastWebSdkSupported()) {
+      return null;
+    }
     const framework = await loadCastFramework();
     const chromeCast = window.chrome && window.chrome.cast;
     if (!chromeCast || !chromeCast.AutoJoinPolicy) {
@@ -573,7 +580,7 @@ export default function useMediaCastSession({ mediaController }) {
     sessionId,
     loading,
     error,
-    canCast: canRouteToCastSdk(mediaController),
+    canCast: canRouteToCastSdk(mediaController) && isCastWebSdkSupported(),
     startCast,
     stopCast,
     leaveCast,

@@ -1,4 +1,5 @@
 import { buildAbcWithNoteSpacing } from '../noteSpacingUtils';
+import { stripSectionMarkerChordsFromDisplayAbc } from '../chordSheetUtils';
 import { parseVoiceMeta } from './voiceMeta';
 
 /** Remove book/tag metadata lines that abcjs renders as text under the staff.
@@ -100,7 +101,11 @@ export function buildAbcPreviewFromBodies(tune, tunebook, voiceKeys, bodyTextsBy
     });
   });
   if (!Object.keys(tuneCopy.voices).length) return '';
-  return notationDisplayAbc(tuneCopy, tunebook);
+  const abc = notationDisplayAbc(tuneCopy, tunebook);
+  if (opts.stripSectionMarkerChords) {
+    return stripSectionMarkerChordsFromDisplayAbc(abc);
+  }
+  return abc;
 }
 
 function notationDisplayAbc(tune, tunebook, options) {

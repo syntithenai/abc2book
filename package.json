@@ -72,6 +72,9 @@
   "scripts": {
     "start": "BROWSERSLIST_IGNORE_OLD_DATA=true craco start",
     "export-lessons": "python3 scripts/lesson_plans/fix_youtube_playlists.py && python3 scripts/lesson_plans/enrich_celtic_units.py && python3 scripts/lesson_plans/enrich_regional_units.py && python3 scripts/lesson_plans/sync_legacy_slots.py && python3 scripts/lesson_plans/export_lessons.py --manifest-scope app && python3 scripts/lesson_plans/export_feed_from_lessons.py",
+    "build:lesson-preview": "vite build --config lesson-preview/vite.config.js",
+    "dev:lesson-preview": "vite --config lesson-preview/vite.config.js",
+    "serve:lesson-preview": "bash -c 'PORT=${PORT:-8766}; if [ ! -f lesson-preview/dist/index.html ]; then echo \"Missing build — run: npm run build:lesson-preview\"; exit 1; fi; exec python3 -m http.server \"$PORT\" --directory lesson-preview/dist'",
     "buildresources": "cd ./abcresources; nodejs ./rename_all.js; nodejs ./indexes_from_files.js",
     "package:youtube-helper": "node scripts/packageYoutubeHelperExtension.js",
     "build": "npm run package:youtube-helper && craco build && rm -rf ./static/ && cp -r ./build/* ./ && cp ./manifest.template.json ./manifest.json && node hackSw.js ",
@@ -98,6 +101,7 @@
     "test:feed:e2e": "node e2e/feed-e2e.js",
     "test:feed:e2e:headed": "HEADLESS=0 node e2e/feed-e2e.js",
     "test:feed:all": "npm run test:feed && npm run test:feed:e2e",
+    "test:snapcast:e2e": "node e2e/snapcast-smoke.js",
     "generate:theory-examples": "PYTHONPATH=local-resolver python local-resolver/scripts/generate_theory_examples.py",
     "docs:musescore-handbook": "bash ./scripts/fetch-musescore-handbook.sh",
     "eject": "react-scripts eject",
@@ -156,7 +160,9 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@craco/craco": "^7.1.0",
+    "@vitejs/plugin-react": "^4.7.0",
     "local-web-server": "^5.3.1",
+    "vite": "^5.4.21",
     "worker-plugin": "^5.0.1",
     "workerize": "^0.1.8",
     "workerize-loader": "^1.3.0"

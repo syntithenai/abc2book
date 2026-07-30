@@ -16,6 +16,44 @@ export const TOOLBAR_EXPAND_THRESHOLDS = {
 export const DEFAULT_MARK_FAVORITES = ['staccato', 'accent', 'tenuto', 'fermata'];
 export const MARK_FAVORITES_STORAGE_KEY = 'notationMarkFavorites';
 
+export const DEFAULT_BARLINE_FAVORITES = ['keyChange', 'meterChange'];
+export const BARLINE_FAVORITES_STORAGE_KEY = 'notationBarlineFavorites';
+
+export const DEFAULT_ACCIDENTAL_FAVORITES = ['1', '-1'];
+export const ACCIDENTAL_FAVORITES_STORAGE_KEY = 'notationAccidentalFavorites';
+
+export const DEFAULT_TUPLET_FAVORITES = ['3-2', '5-4'];
+export const TUPLET_FAVORITES_STORAGE_KEY = 'notationTupletFavorites';
+
+export const DEFAULT_NOTE_INPUT_FAVORITES = ['duration', 'rhythm'];
+export const NOTE_INPUT_FAVORITES_STORAGE_KEY = 'notationNoteInputFavorites';
+
+export function loadToolbarFavorites(storageKey, defaultKeys) {
+  try {
+    const raw = localStorage.getItem(storageKey);
+    if (!raw) return (defaultKeys || []).slice();
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return (defaultKeys || []).slice();
+    return parsed.filter(function(k) { return typeof k === 'string' && k.length; });
+  } catch (err) {
+    return (defaultKeys || []).slice();
+  }
+}
+
+export function saveToolbarFavorites(storageKey, keys) {
+  try {
+    localStorage.setItem(storageKey, JSON.stringify(keys || []));
+  } catch (err) { /* ignore */ }
+}
+
+export function toggleToolbarFavorite(favorites, key) {
+  const list = (favorites || []).slice();
+  const idx = list.indexOf(key);
+  if (idx >= 0) list.splice(idx, 1);
+  else list.push(key);
+  return list;
+}
+
 export function expandFlagsForWidth(widthPx) {
   const w = typeof widthPx === 'number' && widthPx > 0 ? widthPx : 0;
   const t = TOOLBAR_EXPAND_THRESHOLDS;
@@ -31,29 +69,15 @@ export function expandFlagsForWidth(widthPx) {
 }
 
 export function loadMarkFavorites() {
-  try {
-    const raw = localStorage.getItem(MARK_FAVORITES_STORAGE_KEY);
-    if (!raw) return DEFAULT_MARK_FAVORITES.slice();
-    const parsed = JSON.parse(raw);
-    if (!Array.isArray(parsed)) return DEFAULT_MARK_FAVORITES.slice();
-    return parsed.filter(function(k) { return typeof k === 'string' && k.length; });
-  } catch (err) {
-    return DEFAULT_MARK_FAVORITES.slice();
-  }
+  return loadToolbarFavorites(MARK_FAVORITES_STORAGE_KEY, DEFAULT_MARK_FAVORITES);
 }
 
 export function saveMarkFavorites(keys) {
-  try {
-    localStorage.setItem(MARK_FAVORITES_STORAGE_KEY, JSON.stringify(keys || []));
-  } catch (err) { /* ignore */ }
+  saveToolbarFavorites(MARK_FAVORITES_STORAGE_KEY, keys);
 }
 
 export function toggleMarkFavorite(favorites, key) {
-  const list = (favorites || []).slice();
-  const idx = list.indexOf(key);
-  if (idx >= 0) list.splice(idx, 1);
-  else list.push(key);
-  return list;
+  return toggleToolbarFavorite(favorites, key);
 }
 
 /** Compact icon/label for palette favorite buttons. */

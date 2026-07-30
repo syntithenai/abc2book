@@ -21,7 +21,13 @@ import httpx
 from fastapi import FastAPI, File, Header, HTTPException, Request, UploadFile
 from fastapi.responses import FileResponse, JSONResponse, Response
 
-from allowlists import email_allowed, load_embedded_creds_emails, load_free_access_emails
+from allowlists import (
+    email_allowed,
+    load_allowed_admin_emails,
+    load_embedded_creds_emails,
+    load_free_access_emails,
+    load_hosted_free_access_emails,
+)
 from provider_cloud import chat_openai_compat, transcribe_openai_compat
 from providers import (
     is_cloud_stems_provider,
@@ -32,9 +38,30 @@ from providers import (
 from oauth_bff_routes import register_oauth_bff_routes
 from provider_stems_cloud import demucs_stems_for_model
 
+try:
+    from billing import (
+        billing_enabled,
+        billing_health_fields,
+        ensure_db as ensure_billing_db,
+        get_balance_millicents,
+        is_unlimited_user,
+    )
+    from billing_hooks import BillingContext
+    from billing_routes import register_billing_routes
+except ImportError:
+    billing_enabled = lambda: False  # type: ignore[assignment]
+    ensure_billing_db = lambda: None  # type: ignore[assignment]
+    get_balance_millicents = lambda email: 0  # type: ignore[assignment]
+    is_unlimited_user = lambda email, **kwargs: False  # type: ignore[assignment]
+    billing_health_fields = lambda email, **kwargs: {"billingEnabled": False}  # type: ignore[assignment]
+    BillingContext = None  # type: ignore[assignment,misc]
+    register_billing_routes = lambda *args, **kwargs: None  # type: ignore[assignment]
+
 app = FastAPI(title="tunebook-resolver-light")
 
 FREE_ACCESS_EMAILS = load_free_access_emails()
+HOSTED_FREE_ACCESS_EMAILS = load_hosted_free_access_emails()
+ALLOWED_ADMIN_EMAILS = load_allowed_admin_emails()
 EMBEDDED_CREDS_EMAILS = load_embedded_creds_emails()
 ALLOWED_ORIGINS = [
     o.strip()
@@ -82,9 +109,44 @@ def cors_headers(origin: str | None) -> dict[str, str]:
 
 register_oauth_bff_routes(
     app,
-    get_allowed_emails=lambda: FREE_ACCESS_EMAILS,
+    get_allowed_emails=lambda: HOSTED_FREE_ACCESS_EMAILS,
     cors_headers=cors_headers,
 )
+
+
+def billing_context():
+    if BillingContext is None:
+        return None
+    return BillingContext(
+        free_allowlist=HOSTED_FREE_ACCESS_EMAILS,
+        embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+    )
+
+
+def _billing_email(verified: dict | None) -> str:
+    if not verified:
+        return ""
+    return str(verified.get("email") or "").strip().lower()
+
+
+def _apply_billing_access(verified: dict | None) -> dict | None:
+    if not verified or not billing_enabled():
+        return verified
+    email = _billing_email(verified)
+    if not email:
+        return verified
+    unlimited = is_unlimited_user(
+        email,
+        free_allowlist=HOSTED_FREE_ACCESS_EMAILS,
+        embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+    )
+    has_credit = get_balance_millicents(email) > 0
+    out = dict(verified)
+    out["allowed"] = bool(verified.get("allowed")) or has_credit
+    out["freeAccess"] = bool(verified.get("freeAccess")) or unlimited
+    out["embeddedCreds"] = bool(verified.get("embeddedCreds")) or has_credit
+    out["creditUnlimited"] = unlimited
+    return out
 
 
 def get_bearer_token(auth_header: str | None) -> str | None:
@@ -107,10 +169,11 @@ async def verify_google_access_token(access_token: str) -> dict | None:
         email = (user.get("email") or "").lower()
         if not email:
             return None
-        free = email_allowed(FREE_ACCESS_EMAILS, email)
+        free = email_allowed(HOSTED_FREE_ACCESS_EMAILS, email)
         embedded = email_allowed(EMBEDDED_CREDS_EMAILS, email)
         return {
             "email": email,
+            "resolverAccess": True,
             "allowed": free,
             "freeAccess": free,
             "embeddedCreds": embedded,
@@ -126,7 +189,10 @@ async def require_auth(authorization: str | None) -> dict | None:
     verified = await verify_google_access_token(token)
     if not verified:
         raise HTTPException(status_code=401, detail="Invalid or expired Google token")
+    verified = _apply_billing_access(verified)
     if not verified["allowed"]:
+        if billing_enabled():
+            raise HTTPException(status_code=402, detail="Insufficient credit")
         raise HTTPException(status_code=403, detail="Email not authorized")
     return verified
 
@@ -205,6 +271,9 @@ async def _health_body(authorization: str | None) -> dict:
         "lightMode": True,
         "oauthBff": oauth_bff,
         "staticSite": False,
+        "resolverAccess": True,
+        "musicCollectionAccess": False,
+        "adminAccess": False,
     }
     if REQUIRE_AUTH:
         if not token:
@@ -219,19 +288,49 @@ async def _health_body(authorization: str | None) -> dict:
                 body["authReason"] = "invalid_token"
                 body["freeAccess"] = False
                 body["embeddedCreds"] = False
-            elif not verified["allowed"]:
-                body["authorized"] = False
-                body["authReason"] = "email_not_authorized"
-                body["freeAccess"] = False
-                body["embeddedCreds"] = bool(verified.get("embeddedCreds"))
             else:
-                body["authorized"] = True
-                body["freeAccess"] = True
-                body["embeddedCreds"] = bool(verified.get("embeddedCreds"))
+                verified = _apply_billing_access(verified)
+                email = _billing_email(verified)
+                body["adminAccess"] = email_allowed(ALLOWED_ADMIN_EMAILS, email)
+                body.update(
+                    billing_health_fields(
+                        email,
+                        free_allowlist=HOSTED_FREE_ACCESS_EMAILS,
+                        embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+                    )
+                )
+                if not verified.get("allowed"):
+                    body["authorized"] = False
+                    if billing_enabled() and email and not verified.get("creditUnlimited"):
+                        body["authReason"] = "insufficient_credit"
+                    else:
+                        body["authReason"] = "email_not_authorized"
+                    body["freeAccess"] = False
+                    body["embeddedCreds"] = bool(verified.get("embeddedCreds"))
+                else:
+                    body["authorized"] = True
+                    body["freeAccess"] = bool(verified.get("freeAccess"))
+                    body["embeddedCreds"] = bool(verified.get("embeddedCreds"))
     else:
         body["authorized"] = True
         body["freeAccess"] = True
         body["embeddedCreds"] = True
+        body.update(
+            billing_health_fields(
+                None,
+                free_allowlist=HOSTED_FREE_ACCESS_EMAILS,
+                embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+            )
+        )
+
+    if REQUIRE_AUTH and not token:
+        body.update(
+            billing_health_fields(
+                None,
+                free_allowlist=HOSTED_FREE_ACCESS_EMAILS,
+                embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+            )
+        )
 
     flags = auth_flags(verified if body.get("authorized") else None)
     if not REQUIRE_AUTH:
@@ -242,6 +341,20 @@ async def _health_body(authorization: str | None) -> dict:
         local_backends={"llm": False, "whisper": False, "ocr": False, "stems": False},
     )
     return body
+
+
+try:
+    ensure_billing_db()
+    register_billing_routes(
+        app,
+        get_bearer_token=get_bearer_token,
+        verify_google_access_token=verify_google_access_token,
+        cors_headers=cors_headers,
+        get_free_allowlist=lambda: HOSTED_FREE_ACCESS_EMAILS,
+        get_embedded_allowlist=lambda: EMBEDDED_CREDS_EMAILS,
+    )
+except Exception:
+    pass
 
 
 @app.get("/health")
@@ -291,6 +404,21 @@ async def transcribe(
             file.content_type or "application/octet-stream",
             cfg,
         )
+        ctx = billing_context()
+        if ctx and cfg.get("source") == "host":
+            duration = 0.0
+            for seg in body.get("segments") or []:
+                duration += max(
+                    0.0,
+                    float(seg.get("end") or 0) - float(seg.get("start") or 0),
+                )
+            if duration <= 0:
+                duration = max(1.0, len(audio_bytes) / 32000.0)
+            ctx.record_whisper_usage(
+                _billing_email(verified),
+                duration,
+                model=str(cfg.get("model") or ""),
+            )
         return JSONResponse(body, headers=cors_headers(origin))
     except HTTPException as exc:
         return JSONResponse(
@@ -461,7 +589,7 @@ async def youtube_audio(
 
     origin = request.headers.get("origin")
     try:
-        await require_auth(authorization)
+        verified = await require_auth(authorization)
         if not re.match(r"^[a-zA-Z0-9_-]{11}$", video_id or ""):
             raise HTTPException(status_code=400, detail="Invalid YouTube video id")
         proxy = (request.headers.get("x-tunebook-ytdlp-proxy") or "").strip() or os.getenv("YTDLP_PROXY", "").strip()
@@ -496,13 +624,17 @@ async def youtube_audio(
             err = (await proc.stderr.read()).decode("utf-8", errors="ignore")[:400]
             raise HTTPException(status_code=502, detail=err or "yt-dlp produced no audio")
 
+        ctx = billing_context()
+
         async def body():
+            total = len(first)
             yield first
             try:
                 while True:
                     chunk = await proc.stdout.read(64 * 1024)
                     if not chunk:
                         break
+                    total += len(chunk)
                     yield chunk
             finally:
                 if proc.returncode is None:
@@ -511,6 +643,12 @@ async def youtube_audio(
                         await asyncio.wait_for(proc.wait(), timeout=5)
                     except Exception:
                         proc.kill()
+                if ctx:
+                    ctx.record_egress(
+                        _billing_email(verified),
+                        total,
+                        path="youtube-audio",
+                    )
 
         from fastapi.responses import StreamingResponse
 

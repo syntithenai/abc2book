@@ -44,6 +44,18 @@ export function prefersNativeMediaPlayback() {
 }
 
 /**
+ * Google Cast Web Sender SDK (cast_sender.js) only works in desktop Chromium.
+ * Capacitor WebView on Android/iOS cannot load the Cast framework.
+ */
+export function isCastWebSdkSupported() {
+  if (isCapacitorNative()) return false;
+  if (typeof window === 'undefined' || typeof navigator === 'undefined') return false;
+  const ua = navigator.userAgent || '';
+  if (/Android|iPhone|iPad|iPod|Mobile/.test(ua)) return false;
+  return true;
+}
+
+/**
  * Desktop Chromium-based Google Chrome (not Edge, Opera, or mobile Chrome).
  * TuneBook Helper is a desktop Chrome extension.
  */

@@ -451,6 +451,40 @@ describe('voiceCommandExecutor', function() {
     expect(context.tunebook.navigate).not.toHaveBeenCalled();
   });
 
+  test('executeVoiceCommand opens picked tune without feedback after disambiguation', async function() {
+    const picked = { id: 't2', name: 'Whats the Time Mr Wolf', composer: '' };
+    const context = {
+      tunes: {
+        t1: { id: 't1', name: 'Whats the Time', composer: '' },
+        t2: picked,
+      },
+      tunebook: {
+        navigate: jest.fn(),
+      },
+      setCurrentTune: jest.fn(),
+      setFilter: jest.fn(),
+      setCurrentTuneBook: jest.fn(),
+      setTagFilter: jest.fn(),
+      setGroupBy: jest.fn(),
+      onDisambiguate: jest.fn(function() {
+        return Promise.resolve(picked);
+      }),
+      onFeedback: jest.fn(),
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: "show what's time",
+      tool: 'SHOW',
+      title: "what's time",
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(true);
+    expect(context.setCurrentTune).toHaveBeenCalledWith('t2');
+    expect(context.tunebook.navigate).toHaveBeenCalledWith('/tunes/t2');
+    expect(context.onFeedback).not.toHaveBeenCalled();
+  });
+
   test('executeVoiceCommand stays silent when disambiguation picker is dismissed', async function() {
     const context = {
       tunes: {

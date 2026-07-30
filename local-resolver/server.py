@@ -17,14 +17,20 @@ from playback_region_detect import (
     detect_playback_region_from_wav,
 )
 from tune_background_research import research_tune_background
-from practice_track_api import (
+from audio_generation_api import (
+    get_audio_cpp_idle_status,
+    get_audio_generation_audio,
+    get_audio_generation_backends,
+    get_audio_generation_job,
     get_practice_track_audio,
     get_practice_track_backends,
     get_practice_track_job,
+    post_generate_audio,
     post_generate_practice_track,
     post_render_midi,
     practice_track_health,
 )
+from tts_api import refresh_tts_health_if_stale, synthesize_speech, tts_runtime_available
 from feed_generation import generate_feed_articles, generate_feed_quizzes
 from feed_source_scrape import enrich_feed_sources
 from composer_discovery import discover_composer
@@ -109,6 +115,7 @@ import re
 import shutil
 import tempfile
 import time
+from contextlib import contextmanager
 from typing import Any, Callable
 from urllib.parse import parse_qs, urlparse
 
@@ -120,8 +127,13 @@ app = FastAPI()
 
 from allowlists import (
     email_allowed,
+    load_allowed_admin_emails,
     load_embedded_creds_emails,
     load_free_access_emails,
+    load_music_collection_emails,
+    load_resolver_access_emails,
+    music_collection_access_allowed,
+    resolver_access_allowed,
 )
 from providers import (
     host_embedded_providers,
@@ -134,17 +146,49 @@ from providers import (
 )
 from llm_runtime import materialize_llm_config, use_llm_provider
 
+try:
+    from billing import (
+        billing_enabled,
+        billing_health_fields,
+        ensure_db as ensure_billing_db,
+        get_balance_millicents,
+        grant_trial_if_new,
+        has_credit_access,
+        is_unlimited_user,
+        record_usage,
+        should_bill_user,
+        wrap_streaming_body,
+    )
+    from billing_hooks import BillingContext
+    from billing_routes import register_billing_routes
+except ImportError:
+    billing_enabled = lambda: False  # type: ignore[assignment]
+    ensure_billing_db = lambda: None  # type: ignore[assignment]
+    grant_trial_if_new = lambda email: {"granted": False}  # type: ignore[assignment]
+    has_credit_access = lambda email, **kwargs: True  # type: ignore[assignment]
+    is_unlimited_user = lambda email, **kwargs: False  # type: ignore[assignment]
+    should_bill_user = lambda email, **kwargs: False  # type: ignore[assignment]
+    record_usage = lambda *args, **kwargs: {"ok": True}  # type: ignore[assignment]
+    wrap_streaming_body = lambda body_iter, on_complete: body_iter  # type: ignore[assignment]
+    billing_health_fields = lambda email, **kwargs: {"billingEnabled": False}  # type: ignore[assignment]
+    get_balance_millicents = lambda email: 0  # type: ignore[assignment]
+    BillingContext = None  # type: ignore[assignment,misc]
+    register_billing_routes = lambda *args, **kwargs: None  # type: ignore[assignment]
+
 FEATURE_CAPABILITY = {
     "llm": "llm",
     "whisper": "whisper",
     "stems": "stems",
     "sheetImage": "ocr",
+    "tts": "tts",
 }
 
-# Free access to this host's media / heavy ML. FREE_ACCESS_EMAILS preferred;
-# ALLOWED_EMAILS kept as legacy alias (see allowlists.load_free_access_emails).
+# Free access to media / heavy ML (universal). RESOLVER_ACCESS_EMAILS gates this host.
 ALLOWED_EMAILS = load_free_access_emails()
 FREE_ACCESS_EMAILS = ALLOWED_EMAILS
+RESOLVER_ACCESS_EMAILS = load_resolver_access_emails()
+MUSIC_COLLECTION_EMAILS = load_music_collection_emails()
+ALLOWED_ADMIN_EMAILS = load_allowed_admin_emails()
 EMBEDDED_CREDS_EMAILS = load_embedded_creds_emails()
 ALLOWED_ORIGINS = [
     origin.strip()
@@ -278,6 +322,42 @@ register_oauth_bff_routes(
     get_allowed_emails=lambda: ALLOWED_EMAILS,
     cors_headers=cors_headers,
 )
+
+
+def billing_context():
+    if BillingContext is None:
+        return None
+    return BillingContext(
+        free_allowlist=FREE_ACCESS_EMAILS,
+        embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+    )
+
+
+def _billing_email(verified: dict | None) -> str:
+    if not verified:
+        return ""
+    return str(verified.get("email") or "").strip().lower()
+
+
+@contextmanager
+def use_billed_llm(verified: dict | None, llm_cfg: dict | None):
+    from llm_runtime import llm_model, reset_billing_recorder, set_billing_recorder, use_llm_provider
+
+    billing_token = None
+    ctx = billing_context()
+    email = _billing_email(verified)
+    if ctx and email and llm_cfg and llm_cfg.get("source") == "host":
+
+        def _record(payload):
+            ctx.record_llm_usage(email, payload, model=llm_model(llm_cfg))
+
+        billing_token = set_billing_recorder(_record)
+    with use_billed_llm(verified, llm_cfg):
+        try:
+            yield
+        finally:
+            if billing_token is not None:
+                reset_billing_recorder(billing_token)
 
 
 def static_site_root():
@@ -473,6 +553,13 @@ async def verify_autochord_runtime():
         warmup_homr_probe()
     except Exception as exc:
         print(f"WARNING: sheet-image warmup skipped: {exc}")
+    if snapcast_enabled():
+        try:
+            from snapcast_playback import get_snapcast_manager
+
+            get_snapcast_manager().ensure_started()
+        except Exception as exc:
+            print(f"WARNING: snapcast TCP hub failed to start: {exc}")
 
 
 def _proxy_available():
@@ -653,6 +740,7 @@ def resolver_features(practice_track_ok=None):
             "snapcastPlayback": snapcast_feature_enabled(),
             "castPlayback": cast_feature_enabled(),
             "midiRender": midi_render_ok,
+            "tts": tts_runtime_available(),
         }
     features = sheet_image_features()
     playwright_ok = False
@@ -692,6 +780,7 @@ def resolver_features(practice_track_ok=None):
         "snapcastPlayback": snapcast_feature_enabled(),
         "castPlayback": cast_feature_enabled(),
         "midiRender": midi_render_ok,
+        "tts": tts_runtime_available(),
     }
 
 
@@ -700,6 +789,8 @@ async def require_resolver_feature(feature_name, request=None, verified=None):
     # stale miss. Re-probe before gating LLM routes (not only /health/ready).
     if feature_name == "llm":
         await _refresh_llm_health_if_stale()
+    if feature_name == "tts":
+        await refresh_tts_health_if_stale()
     features = resolver_features()
     if features.get(feature_name):
         return
@@ -711,6 +802,7 @@ async def require_resolver_feature(feature_name, request=None, verified=None):
             "whisper": _whisper_local_available(),
             "ocr": _ocr_local_available(),
             "stems": bool(_stems_available() and not RESOLVER_LIGHT_MODE),
+            "tts": tts_runtime_available(),
         }.get(capability, False)
         cfg = await resolve_request_provider(
             capability,
@@ -767,12 +859,36 @@ async def verify_google_access_token(access_token):
 
         free = email_allowed(FREE_ACCESS_EMAILS, email)
         embedded = email_allowed(EMBEDDED_CREDS_EMAILS, email)
+        resolver_ok = resolver_access_allowed(email, RESOLVER_ACCESS_EMAILS, REQUIRE_AUTH)
         return {
             "email": email,
+            "resolverAccess": resolver_ok,
             "allowed": free,
             "freeAccess": free,
             "embeddedCreds": embedded,
         }
+
+
+def _apply_billing_access(verified: dict | None) -> dict | None:
+    if not verified or not billing_enabled():
+        return verified
+    email = _billing_email(verified)
+    if not email:
+        return verified
+    unlimited = is_unlimited_user(
+        email,
+        free_allowlist=FREE_ACCESS_EMAILS,
+        embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+    )
+    has_credit = get_balance_millicents(email) > 0
+    allowed = bool(verified.get("allowed")) or has_credit
+    embedded = bool(verified.get("embeddedCreds")) or has_credit
+    out = dict(verified)
+    out["allowed"] = allowed
+    out["freeAccess"] = bool(verified.get("freeAccess")) or unlimited
+    out["embeddedCreds"] = embedded
+    out["creditUnlimited"] = unlimited
+    return out
 
 
 async def require_auth(authorization):
@@ -783,7 +899,13 @@ async def require_auth(authorization):
     verified = await verify_google_access_token(token)
     if not verified:
         raise HTTPException(status_code=401, detail="Invalid or expired Google token")
+    verified = _apply_billing_access(verified)
+    email = _billing_email(verified)
+    if not resolver_access_allowed(email, RESOLVER_ACCESS_EMAILS, REQUIRE_AUTH):
+        raise HTTPException(status_code=403, detail="Email not authorized for this resolver")
     if not verified["allowed"]:
+        if billing_enabled():
+            raise HTTPException(status_code=402, detail="Insufficient credit")
         raise HTTPException(status_code=403, detail="Email not authorized for media proxy")
 
     return verified
@@ -796,20 +918,22 @@ async def maybe_require_auth(authorization):
 
 
 async def require_music_collection_access(authorization):
-    """Music collection may use a dedicated allowlist even when REQUIRE_AUTH is off."""
-    from music_collection import load_music_collection_emails
-    from allowlists import email_allowed
-
-    allowlist = load_music_collection_emails()
-    if allowlist:
-        token = get_bearer_token(authorization)
+    """Music collection: dedicated list + FREE_ACCESS; independent of resolver access."""
+    token = get_bearer_token(authorization)
+    if MUSIC_COLLECTION_EMAILS or REQUIRE_AUTH:
         if not token:
             raise HTTPException(status_code=401, detail="Missing Authorization Bearer token")
         verified = await verify_google_access_token(token)
         if not verified:
             raise HTTPException(status_code=401, detail="Invalid or expired Google token")
         email = verified.get("email")
-        if not email_allowed(allowlist, email):
+        if not music_collection_access_allowed(
+            email,
+            MUSIC_COLLECTION_EMAILS,
+            FREE_ACCESS_EMAILS,
+            REQUIRE_AUTH,
+            collection_enabled=music_collection_enabled(),
+        ):
             raise HTTPException(status_code=403, detail="Email not authorized for music collection")
         return verified
     return await maybe_require_auth(authorization)
@@ -843,14 +967,50 @@ async def resolve_request_provider(capability, request, verified, local_availabl
     )
 
 
+def _auth_flags_for_health(email: str | None, token_present: bool, verified_failed: bool) -> dict:
+    """Per-user resolver, admin, and music-collection flags for /health."""
+    flags = {
+        "resolverAccess": False,
+        "adminAccess": False,
+        "musicCollectionAccess": False,
+    }
+    if not REQUIRE_AUTH:
+        flags["resolverAccess"] = True
+        flags["musicCollectionAccess"] = music_collection_enabled()
+        if email:
+            flags["adminAccess"] = email_allowed(ALLOWED_ADMIN_EMAILS, email)
+        return flags
+    if not token_present or verified_failed or not email:
+        return flags
+    flags["resolverAccess"] = resolver_access_allowed(email, RESOLVER_ACCESS_EMAILS, True)
+    flags["adminAccess"] = email_allowed(ALLOWED_ADMIN_EMAILS, email)
+    flags["musicCollectionAccess"] = music_collection_access_allowed(
+        email,
+        MUSIC_COLLECTION_EMAILS,
+        FREE_ACCESS_EMAILS,
+        True,
+        collection_enabled=music_collection_enabled(),
+    )
+    return flags
+
+
 def build_auth_health_fields(verified_or_none, token_present, verified_failed):
     """Shared authorized / freeAccess / embeddedCreds for /health responses."""
-    fields = {}
+    email = _billing_email(verified_or_none) if verified_or_none and not verified_failed else ""
+    extra = _auth_flags_for_health(email, token_present, verified_failed)
+    fields = dict(extra)
     if not REQUIRE_AUTH:
         flags = auth_access_flags(None)
         fields["authorized"] = True
         fields["freeAccess"] = flags["freeAccess"]
         fields["embeddedCreds"] = flags["embeddedCreds"]
+        fields.update(
+            billing_health_fields(
+                None,
+                free_allowlist=FREE_ACCESS_EMAILS,
+                embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+            )
+        )
         return fields
 
     if not token_present:
@@ -858,6 +1018,13 @@ def build_auth_health_fields(verified_or_none, token_present, verified_failed):
         fields["authReason"] = "login_required"
         fields["freeAccess"] = False
         fields["embeddedCreds"] = False
+        fields.update(
+            billing_health_fields(
+                None,
+                free_allowlist=FREE_ACCESS_EMAILS,
+                embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+            )
+        )
         return fields
 
     if verified_failed or not verified_or_none:
@@ -865,19 +1032,61 @@ def build_auth_health_fields(verified_or_none, token_present, verified_failed):
         fields["authReason"] = "invalid_token"
         fields["freeAccess"] = False
         fields["embeddedCreds"] = False
+        fields.update(
+            billing_health_fields(
+                None,
+                free_allowlist=FREE_ACCESS_EMAILS,
+                embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+            )
+        )
         return fields
 
-    if not verified_or_none.get("allowed"):
+    verified = _apply_billing_access(verified_or_none)
+    email = _billing_email(verified)
+    fields.update(_auth_flags_for_health(email, True, False))
+    fields.update(
+        billing_health_fields(
+            email,
+            free_allowlist=FREE_ACCESS_EMAILS,
+            embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+        )
+    )
+
+    if not fields.get("resolverAccess"):
         fields["authorized"] = False
-        fields["authReason"] = "email_not_authorized"
+        fields["authReason"] = "resolver_access_denied"
+        fields["freeAccess"] = bool(verified.get("freeAccess"))
+        fields["embeddedCreds"] = bool(verified.get("embeddedCreds"))
+        return fields
+
+    if not verified.get("allowed"):
+        fields["authorized"] = False
+        if billing_enabled() and email and not verified.get("creditUnlimited"):
+            fields["authReason"] = "insufficient_credit"
+        else:
+            fields["authReason"] = "email_not_authorized"
         fields["freeAccess"] = False
-        fields["embeddedCreds"] = bool(verified_or_none.get("embeddedCreds"))
+        fields["embeddedCreds"] = bool(verified.get("embeddedCreds"))
         return fields
 
     fields["authorized"] = True
-    fields["freeAccess"] = bool(verified_or_none.get("freeAccess"))
-    fields["embeddedCreds"] = bool(verified_or_none.get("embeddedCreds"))
+    fields["freeAccess"] = bool(verified.get("freeAccess"))
+    fields["embeddedCreds"] = bool(verified.get("embeddedCreds"))
     return fields
+
+
+try:
+    ensure_billing_db()
+    register_billing_routes(
+        app,
+        get_bearer_token=get_bearer_token,
+        verify_google_access_token=verify_google_access_token,
+        cors_headers=cors_headers,
+        get_free_allowlist=lambda: FREE_ACCESS_EMAILS,
+        get_embedded_allowlist=lambda: EMBEDDED_CREDS_EMAILS,
+    )
+except Exception:
+    pass
 
 
 def is_blocked_host(hostname):
@@ -1052,14 +1261,16 @@ def extract_youtube_video_id(raw_value):
     return None
 
 
-async def stream_youtube_via_ytdlp(video_id, proxy=None):
+async def stream_youtube_via_ytdlp(video_id, proxy=None, billing_email=None, billing_path="youtube-audio"):
     return await stream_url_via_ytdlp(
         "https://www.youtube.com/watch?v=" + str(video_id or "").strip(),
         proxy=proxy,
+        billing_email=billing_email,
+        billing_path=billing_path,
     )
 
 
-async def stream_url_via_ytdlp(target_url, proxy=None):
+async def stream_url_via_ytdlp(target_url, proxy=None, billing_email=None, billing_path="ytdlp-audio"):
     cmd = build_ytdlp_cmd_for_url(target_url, stream_to_stdout=True, proxy=proxy)
 
     proc = await asyncio.create_subprocess_exec(
@@ -1074,13 +1285,17 @@ async def stream_url_via_ytdlp(target_url, proxy=None):
         stderr = (await proc.stderr.read()).decode("utf-8", errors="ignore").strip()[:500]
         return None, ytdlp_error_hint(stderr)
 
+    ctx = billing_context()
+
     async def body():
+        total = len(first_chunk)
         yield first_chunk
         try:
             while True:
                 chunk = await proc.stdout.read(64 * 1024)
                 if not chunk:
                     break
+                total += len(chunk)
                 yield chunk
         finally:
             if proc.returncode is None:
@@ -1090,6 +1305,8 @@ async def stream_url_via_ytdlp(target_url, proxy=None):
                 except asyncio.TimeoutError:
                     proc.kill()
                     await proc.wait()
+            if ctx and billing_email:
+                ctx.record_egress(billing_email, total, path=billing_path or "ytdlp-audio")
 
     return StreamingResponse(
         body(),
@@ -1131,10 +1348,32 @@ async def fetch_url_audio_bytes(target_url, proxy=None):
 
 async def resolve_linked_media_audio_bytes(source_url, source_type="", proxy=None):
     """Resolve audio bytes from a linked tune media URL (YouTube, Bandcamp, or direct HTTPS)."""
+    from urllib.parse import unquote
+
     source_url = str(source_url or "").strip()
     source_type = str(source_type or "").strip().lower()
     if not source_url:
         raise HTTPException(status_code=400, detail="Missing sourceUrl")
+
+    if music_collection_enabled():
+        parsed = urlparse(source_url)
+        path = parsed.path if parsed.scheme else source_url
+        marker = "/music-collection/"
+        marker_index = path.find(marker)
+        if marker_index >= 0:
+            relative_path = unquote(path[marker_index + len(marker):]).lstrip("/")
+            if relative_path:
+                try:
+                    abs_path = resolve_music_collection_file(relative_path)
+                    with open(abs_path, "rb") as handle:
+                        audio_bytes = handle.read()
+                    filename = os.path.basename(abs_path) or "track.mp3"
+                    return audio_bytes, filename, "audio/mpeg"
+                except (ValueError, OSError) as exc:
+                    raise HTTPException(
+                        status_code=404,
+                        detail="Music collection file not found: " + str(exc),
+                    ) from exc
 
     if source_type == "youtube" or "youtu" in source_url.lower():
         video_id = extract_youtube_video_id(source_url)
@@ -1184,7 +1423,7 @@ async def resolve_linked_media_audio_bytes(source_url, source_type="", proxy=Non
         return audio_bytes, filename, content_type
 
     lower = source_url.lower()
-    if source_type == "midi" or lower.endswith(".mid") or lower.endswith(".midi"):
+    if source_type in ("midi", "midifile") or lower.endswith(".mid") or lower.endswith(".midi"):
         from remote_playback_render import render_midi_bytes_to_audio_bytes, remote_playback_render_enabled
 
         if not remote_playback_render_enabled():
@@ -1223,7 +1462,7 @@ register_cast_routes(
 )
 
 
-async def stream_upstream(target_url, request):
+async def stream_upstream(target_url, request, billing_email=None, billing_path="proxy-audio"):
     range_header = request.headers.get("range")
     headers = upstream_headers_for(target_url, range_header)
 
@@ -1258,13 +1497,20 @@ async def stream_upstream(target_url, request):
         if value:
             response_headers[name] = value
 
+    ctx = billing_context()
+
     async def body():
+        total = 0
         try:
             async for chunk in upstream.aiter_bytes():
+                if chunk:
+                    total += len(chunk)
                 yield chunk
         finally:
             await upstream.aclose()
             await client.aclose()
+            if ctx and billing_email:
+                ctx.record_egress(billing_email, total, path=billing_path or "proxy-audio")
 
     return StreamingResponse(body(), status_code=upstream.status_code, headers=response_headers)
 
@@ -1533,7 +1779,7 @@ async def _run_whisper_cli(temp_audio_path, backend, request, whisper_options=No
     return returncode, stdout_text, stderr_text, backend
 
 
-async def forward_to_whisper(audio_bytes, filename, content_type, request, provider_cfg=None):
+async def forward_to_whisper(audio_bytes, filename, content_type, request, provider_cfg=None, billing_email=None):
     if not audio_bytes:
         return {"text": "", "segments": [], "language": "", "backend": "none"}
 
@@ -1542,13 +1788,29 @@ async def forward_to_whisper(audio_bytes, filename, content_type, request, provi
         try:
             from provider_cloud import transcribe_openai_compat
 
-            return await transcribe_openai_compat(
+            result = await transcribe_openai_compat(
                 audio_bytes,
                 filename,
                 content_type,
                 provider_cfg,
                 timeout=WHISPER_TIMEOUT_SECONDS,
             )
+            ctx = billing_context()
+            if ctx and billing_email and provider_cfg.get("source") == "host":
+                duration = 0.0
+                for seg in result.get("segments") or []:
+                    duration += max(
+                        0.0,
+                        float(seg.get("end") or 0) - float(seg.get("start") or 0),
+                    )
+                if duration <= 0:
+                    duration = max(1.0, len(audio_bytes) / 32000.0)
+                ctx.record_whisper_usage(
+                    billing_email,
+                    duration,
+                    model=str(provider_cfg.get("model") or ""),
+                )
+            return result
         except Exception as exc:
             raise HTTPException(status_code=502, detail=str(exc).strip()[:500]) from exc
 
@@ -2182,6 +2444,7 @@ async def _transcribe_from_wav_path(
             "audio/wav",
             request,
             provider_cfg=cfg,
+            billing_email=_billing_email(verified),
         )
 
     temp_json_path = wav_path + ".json"
@@ -2777,6 +3040,7 @@ async def root(request: Request):
 @app.get("/health")
 async def health(request: Request, authorization: str | None = Header(default=None)):
     """Cheap liveness probe — must stay fast so static imports work under ML load."""
+    await refresh_tts_health_if_stale()
     oauth_bff = oauth_bff_available()
     token = get_bearer_token(authorization)
     verified = None
@@ -2834,6 +3098,7 @@ async def health(request: Request, authorization: str | None = Header(default=No
 async def health_ready(request: Request, authorization: str | None = Header(default=None)):
     """Deep readiness probe with feature detection and optional LLM check."""
     await _refresh_llm_health_if_stale()
+    await refresh_tts_health_if_stale()
     features = resolver_features()
     token = get_bearer_token(authorization)
     verified = None
@@ -2881,13 +3146,18 @@ async def proxy_audio(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         await require_resolver_feature("proxy")
         track_resolver_usage('proxy-audio')
         validated, error = validate_target_url(url)
         if error:
             return json_error(400, error, origin)
-        response = await stream_upstream(validated, request)
+        response = await stream_upstream(
+            validated,
+            request,
+            billing_email=_billing_email(verified),
+            billing_path="proxy-audio",
+        )
         response.headers.update(cors_headers(origin))
         return response
     except HTTPException as exc:
@@ -2902,7 +3172,7 @@ async def bandcamp_audio(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         await require_resolver_feature("proxy")
         if not bandcamp_enabled():
             return json_error(404, "Bandcamp is not available", origin)
@@ -2910,7 +3180,12 @@ async def bandcamp_audio(
         if not is_bandcamp_url(url):
             return json_error(400, "Invalid Bandcamp URL", origin)
         proxy = resolve_ytdlp_proxy_from_request(request)
-        response, error = await stream_url_via_ytdlp(url, proxy=proxy)
+        response, error = await stream_url_via_ytdlp(
+            url,
+            proxy=proxy,
+            billing_email=_billing_email(verified),
+            billing_path="bandcamp-audio",
+        )
         if error:
             return json_error(502, "Could not resolve Bandcamp audio stream", origin, error)
         response.headers.update(cors_headers(origin))
@@ -2927,7 +3202,7 @@ async def internet_archive_audio(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         await require_resolver_feature("proxy")
         if not internet_archive_enabled():
             return json_error(404, "Internet Archive is not available", origin)
@@ -2940,7 +3215,12 @@ async def internet_archive_audio(
         validated, error = validate_target_url(playback_url)
         if error:
             return json_error(400, error, origin)
-        response = await stream_upstream(validated, request)
+        response = await stream_upstream(
+            validated,
+            request,
+            billing_email=_billing_email(verified),
+            billing_path="internet-archive-audio",
+        )
         response.headers.update(cors_headers(origin))
         return response
     except HTTPException as exc:
@@ -2955,7 +3235,7 @@ async def loc_audio(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         await require_resolver_feature("proxy")
         if not loc_audio_enabled():
             return json_error(404, "Library of Congress audio is not available", origin)
@@ -2968,7 +3248,12 @@ async def loc_audio(
         validated, error = validate_target_url(playback_url)
         if error:
             return json_error(400, error, origin)
-        response = await stream_upstream(validated, request)
+        response = await stream_upstream(
+            validated,
+            request,
+            billing_email=_billing_email(verified),
+            billing_path="loc-audio",
+        )
         response.headers.update(cors_headers(origin))
         return response
     except HTTPException as exc:
@@ -2983,12 +3268,17 @@ async def youtube_audio(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         await require_resolver_feature("proxy")
         track_resolver_usage('youtube-audio')
         proxy = resolve_ytdlp_proxy_from_request(request)
         ensure_youtube_egress_allowed(proxy)
-        response, error = await stream_youtube_via_ytdlp(video_id, proxy=proxy)
+        response, error = await stream_youtube_via_ytdlp(
+            video_id,
+            proxy=proxy,
+            billing_email=_billing_email(verified),
+            billing_path="youtube-audio",
+        )
         if error:
             status = 400 if error == "Invalid YouTube video id" else 502
             return json_error(status, "Could not resolve YouTube audio stream", origin, error)
@@ -3229,7 +3519,12 @@ async def transcribe(
             local_available=_whisper_local_available(),
         )
         body = await forward_to_whisper(
-            audio_bytes, filename, content_type, request, provider_cfg=provider_cfg
+            audio_bytes,
+            filename,
+            content_type,
+            request,
+            provider_cfg=provider_cfg,
+            billing_email=_billing_email(verified),
         )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
@@ -3419,7 +3714,7 @@ async def _process_voice_command_audio(
             parse_started = time.monotonic()
             try:
                 llm_cfg = await _resolve_llm_for_request(request, verified, voice=True)
-                with use_llm_provider(llm_cfg):
+                with use_billed_llm(verified, llm_cfg):
                     intent = await parse_voice_intent(
                         transcript, books, tags, voice_mode=voice_mode
                     )
@@ -3498,6 +3793,36 @@ async def voice_command_endpoint(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.post("/tts/speech")
+async def tts_speech_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        verified = await maybe_require_auth(authorization)
+        await require_resolver_feature("tts", request, verified)
+        track_resolver_usage("tts-speech")
+
+        payload = await request.json()
+        text = str(payload.get("input") or payload.get("text") or "").strip()
+        if not text:
+            return json_error(400, "Missing speech text", origin)
+
+        audio_bytes = await synthesize_speech(text)
+        return Response(
+            content=audio_bytes,
+            media_type="audio/wav",
+            headers=cors_headers(origin),
+        )
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except RuntimeError as exc:
+        return json_error(503, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
 @app.post("/help-query")
 async def help_query_endpoint(
     request: Request,
@@ -3515,7 +3840,7 @@ async def help_query_endpoint(
             return json_error(400, "Missing help question", origin)
 
         llm_cfg = await _resolve_llm_for_request(request, verified, voice=True)
-        with use_llm_provider(llm_cfg):
+        with use_billed_llm(verified, llm_cfg):
             intent = await parse_help_intent_llm(question)
         body = {
             "question": question,
@@ -3539,7 +3864,7 @@ async def search_lyrics_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         track_resolver_usage('search-lyrics')
 
         payload = await request.json()
@@ -3609,6 +3934,9 @@ async def search_lyrics_endpoint(
         else:
             body = await search_lyrics(title, artist)
 
+        ctx = billing_context()
+        if ctx:
+            ctx.record_scrape(_billing_email(verified), "search_lyrics")
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
@@ -3732,7 +4060,7 @@ async def search_chords_endpoint(
 
                 async def run():
                     try:
-                        with use_llm_provider(llm_cfg):
+                        with use_billed_llm(verified, llm_cfg):
                             if page_url:
                                 body = await fetch_chords_url(page_url, on_progress=on_progress)
                             else:
@@ -3773,7 +4101,7 @@ async def search_chords_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
 
-        with use_llm_provider(llm_cfg):
+        with use_billed_llm(verified, llm_cfg):
             if page_url:
                 body = await fetch_chords_url(page_url)
             else:
@@ -3900,7 +4228,7 @@ async def fetch_score_attachment_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         track_resolver_usage("fetch-score-attachment")
         page_url = str(url or "").strip()
         if not page_url:
@@ -3908,6 +4236,13 @@ async def fetch_score_attachment_endpoint(
         if not is_allowed_score_attachment_url(page_url):
             raise ValueError("URL host is not allowed for score attachment download")
         data, content_type = await fetch_score_attachment_bytes(page_url)
+        ctx = billing_context()
+        if ctx:
+            ctx.record_egress(
+                _billing_email(verified),
+                len(data or b""),
+                path="fetch-score-attachment",
+            )
         headers = cors_headers(origin)
         headers["Content-Type"] = content_type
         headers["Content-Disposition"] = 'inline; filename="score.pdf"'
@@ -3925,7 +4260,7 @@ async def search_images_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         if not image_search_available():
             return json_error(503, "Image search is not configured (set BRAVE_SEARCH_API_KEY)", origin)
         track_resolver_usage("search-images")
@@ -3934,6 +4269,9 @@ async def search_images_endpoint(
         query = str(payload.get("query") or payload.get("q") or "").strip()
         count = payload.get("count")
         body = await search_images(query, count=count or 24)
+        ctx = billing_context()
+        if ctx:
+            ctx.record_scrape(_billing_email(verified), "search_images")
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
@@ -4025,7 +4363,7 @@ async def research_tune_background_endpoint(
         wants_stream = "application/x-ndjson" in accept
         if wants_stream:
             async def body():
-                with use_llm_provider(llm_cfg):
+                with use_billed_llm(verified, llm_cfg):
                     async for line in stream_tune_background_research_events(
                         title, artist, lyrics, existing_background
                     ):
@@ -4035,7 +4373,7 @@ async def research_tune_background_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(body(), media_type="application/x-ndjson", headers=headers)
 
-        with use_llm_provider(llm_cfg):
+        with use_billed_llm(verified, llm_cfg):
             body = await research_tune_background(
                 title, artist, lyrics, existing_background
             )
@@ -4058,7 +4396,7 @@ async def generate_feed_articles_endpoint(
         track_resolver_usage("generate-feed-articles")
         payload = await request.json()
         llm_cfg = await _resolve_llm_for_request(request, verified)
-        with use_llm_provider(llm_cfg):
+        with use_billed_llm(verified, llm_cfg):
             body = await generate_feed_articles(
                 str(payload.get("title") or "").strip(),
                 str(payload.get("artist") or "").strip(),
@@ -4084,7 +4422,7 @@ async def generate_feed_quizzes_endpoint(
         track_resolver_usage("generate-feed-quizzes")
         payload = await request.json()
         llm_cfg = await _resolve_llm_for_request(request, verified)
-        with use_llm_provider(llm_cfg):
+        with use_billed_llm(verified, llm_cfg):
             body = await generate_feed_quizzes(
                 str(payload.get("title") or "").strip(),
                 str(payload.get("artist") or "").strip(),
@@ -4105,13 +4443,16 @@ async def enrich_feed_sources_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         track_resolver_usage("enrich-feed-sources")
         payload = await request.json()
         body = await enrich_feed_sources(
             str(payload.get("title") or "").strip(),
             str(payload.get("artist") or "").strip(),
         )
+        ctx = billing_context()
+        if ctx:
+            ctx.record_scrape(_billing_email(verified), "enrich_feed_sources")
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
@@ -4152,7 +4493,7 @@ async def discover_composer_endpoint(
 
                 async def run():
                     try:
-                        with use_llm_provider(llm_cfg):
+                        with use_billed_llm(verified, llm_cfg):
                             async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
                                 body = await discover_composer(
                                     client,
@@ -4197,7 +4538,7 @@ async def discover_composer_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
 
-        with use_llm_provider(llm_cfg):
+        with use_billed_llm(verified, llm_cfg):
             async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
                 body = await discover_composer(
                     client,
@@ -4251,7 +4592,7 @@ async def discover_genre_endpoint(
 
                 async def run():
                     try:
-                        with use_llm_provider(llm_cfg):
+                        with use_billed_llm(verified, llm_cfg):
                             async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
                                 body = await discover_genre(
                                     client,
@@ -4298,7 +4639,7 @@ async def discover_genre_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
 
-        with use_llm_provider(llm_cfg):
+        with use_billed_llm(verified, llm_cfg):
             async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
                 body = await discover_genre(
                     client,
@@ -4610,6 +4951,14 @@ async def separate_stems(
             provider_cfg=provider_cfg,
             model_override=model_override,
         )
+        ctx = billing_context()
+        if (
+            ctx
+            and is_cloud_stems_provider(provider_cfg)
+            and provider_cfg
+            and provider_cfg.get("source") == "host"
+        ):
+            ctx.record_stem_job(_billing_email(verified))
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
@@ -4643,7 +4992,7 @@ async def get_stem_audio(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         track_resolver_usage('stem-audio')
         if not re.fullmatch(r"[a-f0-9]{32}", cache_id or ""):
             return json_error(400, "Invalid cache id", origin)
@@ -4655,6 +5004,13 @@ async def get_stem_audio(
         stem_path = os.path.join(cache_dir, stem_name + ".wav")
         if not os.path.isfile(stem_path):
             return json_error(404, "Stem not found", origin)
+        ctx = billing_context()
+        if ctx:
+            ctx.record_egress(
+                _billing_email(verified),
+                os.path.getsize(stem_path),
+                path="stem-audio",
+            )
         return FileResponse(
             stem_path,
             media_type="audio/wav",
@@ -4663,6 +5019,19 @@ async def get_stem_audio(
         )
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.get("/generate-audio/backends")
+async def generate_audio_backends(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await get_audio_generation_backends(
+        request,
+        authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
+    )
 
 
 @app.get("/generate-practice-track/backends")
@@ -4693,6 +5062,37 @@ async def render_midi(
     )
 
 
+@app.post("/generate-audio")
+async def generate_audio(
+    request: Request,
+    taskId: str = Form("practice_track"),
+    presetId: str = Form("fast"),
+    timingPlan: str | None = Form(default=None),
+    requestJson: str | None = Form(default=None),
+    melody: UploadFile | None = File(default=None),
+    chords: UploadFile | None = File(default=None),
+    score: UploadFile | None = File(default=None),
+    source: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    return await post_generate_audio(
+        request,
+        task_id=taskId,
+        preset_id=presetId,
+        timing_plan=timingPlan,
+        request_json=requestJson,
+        melody=melody,
+        chords=chords,
+        score=score,
+        source=source,
+        authorization=authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
+        resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
+        trim_audio_bytes=_trim_audio_bytes,
+    )
+
+
 @app.post("/generate-practice-track")
 async def generate_practice_track(
     request: Request,
@@ -4700,10 +5100,13 @@ async def generate_practice_track(
     melody: UploadFile = File(...),
     chords: UploadFile | None = File(default=None),
     score: UploadFile | None = File(default=None),
+    presetId: str = Form("fast"),
     authorization: str | None = Header(default=None),
 ):
     return await post_generate_practice_track(
         request,
+        task_id="practice_track",
+        preset_id=presetId,
         timing_plan=timingPlan,
         melody=melody,
         chords=chords,
@@ -4711,7 +5114,51 @@ async def generate_practice_track(
         authorization=authorization,
         maybe_require_auth=maybe_require_auth,
         cors_headers=cors_headers,
-        heavy_job_slot=heavy_job_slot,
+        resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
+        trim_audio_bytes=_trim_audio_bytes,
+    )
+
+
+@app.get("/generate-audio/{job_id}")
+async def generate_audio_status(
+    job_id: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await get_audio_generation_job(
+        job_id,
+        request,
+        authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
+    )
+
+
+@app.get("/generate-audio/{job_id}/audio")
+async def generate_audio_file(
+    job_id: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await get_audio_generation_audio(
+        job_id,
+        request,
+        authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
+    )
+
+
+@app.get("/audio-cpp/idle-status")
+async def audio_cpp_idle_status(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await get_audio_cpp_idle_status(
+        request,
+        authorization,
+        maybe_require_auth=maybe_require_auth,
+        cors_headers=cors_headers,
     )
 
 

@@ -81,12 +81,28 @@ export function resolveCastMediaBase(options) {
   return normalizeCastBase(getMediaProxyBase() || active || healthBase);
 }
 
+export function castHttpOnHttpsPageWarning(publicBase) {
+  if (typeof window === 'undefined' || !publicBase) return '';
+  try {
+    if (window.location.protocol !== 'https:') return '';
+    const url = new URL(publicBase);
+    if (url.protocol === 'http:') {
+      return 'Chromecast media base is HTTP but this page is HTTPS. Set CAST_PUBLIC_URL on your resolver.';
+    }
+  } catch (e) {
+    return '';
+  }
+  return '';
+}
+
 export function getCastResolverBaseError(src, options) {
   if (!src) return 'No media source to cast';
   const base = resolveCastMediaBase(options);
   if (!base) {
     return 'No Cast media resolver found. Set a media resolver in Settings or REACT_APP_CAST_RESOLVER_BASE.';
   }
+  const mixed = castHttpOnHttpsPageWarning(base);
+  if (mixed) return mixed;
   if (isLocalhostCastBase(base)) {
     return 'Chromecast cannot reach localhost. Use a hosted resolver, set your LAN IP in REACT_APP_CAST_RESOLVER_BASE, or open Tune Book via your computer\'s network address.';
   }

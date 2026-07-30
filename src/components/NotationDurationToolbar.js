@@ -6,8 +6,14 @@ import {
   NOTE_INPUT_METHOD_LABELS,
   STAFF_SELECTION_TOOLS,
 } from '../notation/notationConstants';
+import {
+  DEFAULT_NOTE_INPUT_FAVORITES,
+  NOTE_INPUT_FAVORITES_STORAGE_KEY,
+} from '../notation/toolbarExpand';
+import useToolbarFavorites from '../notation/useToolbarFavorites';
 import NotationDurationDropdown from './NotationDurationDropdown';
 import NotationDurationButtonGroup from './NotationDurationButtonGroup';
+import NotationToolbarFavoriteMenuItem from './NotationToolbarFavoriteMenuItem';
 
 const METHOD_ORDER = [
   NOTE_INPUT_METHODS.NOTE_NAME,
@@ -16,6 +22,14 @@ const METHOD_ORDER = [
   NOTE_INPUT_METHODS.RE_PITCH,
   NOTE_INPUT_METHODS.INSERT,
 ];
+
+const NOTE_INPUT_COMPACT_LABELS = {
+  noteName: 'Name',
+  duration: 'Dur',
+  rhythm: 'Rhy',
+  rePitch: 'Re',
+  insert: 'Ins',
+};
 
 const LONGEST_NOTE_INPUT_LABEL = METHOD_ORDER.reduce(function(longest, method) {
   const label = NOTE_INPUT_METHOD_LABELS[method] || '';
@@ -39,6 +53,10 @@ export default function NotationDurationToolbar(props) {
   const methodLabel = NOTE_INPUT_METHOD_LABELS[method] || 'Note name';
   const staffTool = session.staffSelectionTool || STAFF_SELECTION_TOOLS.NORMAL;
   const marqueeToolActive = staffTool === STAFF_SELECTION_TOOLS.MARQUEE;
+  const [favorites, starToggle] = useToolbarFavorites(
+    NOTE_INPUT_FAVORITES_STORAGE_KEY,
+    DEFAULT_NOTE_INPUT_FAVORITES
+  );
 
   function setStaffSelectionTool(tool) {
     if (!dispatch) return;
@@ -48,47 +66,96 @@ export default function NotationDurationToolbar(props) {
     });
   }
 
-  return (
-    <div className="notation-duration-toolbar">
-      <ButtonGroup className="notation-note-input-method-group">
-        <Button
+  function applyNoteInputMethod(nextMethod) {
+    if (!dispatch) return;
+    dispatch({ type: 'SET_NOTE_INPUT_METHOD', method: nextMethod });
+    if (session.mode !== EDITOR_MODES.NOTE_INPUT) {
+      dispatch({ type: 'SET_MODE', mode: EDITOR_MODES.NOTE_INPUT });
+    }
+  }
+
+  const favoriteMethods = METHOD_ORDER.filter(function(m) {
+    return favorites.indexOf(m) >= 0;
+  });
+
+  const methodMenu = (
+    <Dropdown.Menu className="notation-note-input-menu">
+      <Dropdown.Header>Editing modes</Dropdown.Header>
+      {METHOD_ORDER.map(function(m) {
+        const isFav = favorites.indexOf(m) >= 0;
+        return (
+          <NotationToolbarFavoriteMenuItem
+            key={m}
+            label={NOTE_INPUT_METHOD_LABELS[m] || m}
+            ariaLabel={NOTE_INPUT_METHOD_LABELS[m] || m}
+            isFavorite={isFav}
+            onSelect={function() { applyNoteInputMethod(m); }}
+            onFavoriteToggle={function(e) { starToggle(m, e); }}
+          />
+        );
+      })}
+    </Dropdown.Menu>
+  );
+
+  const noteInputGroup = expandDurations ? (
+    <ButtonGroup className="notation-note-input-method-group notation-note-input-method-group--expanded">
+      <Button
+        size="lg"
+        variant={session.mode === EDITOR_MODES.NOTE_INPUT ? 'primary' : 'outline-secondary'}
+        onClick={onToggleNoteInput}
+        title="Note input (N)"
+        data-testid="notation-note-input-btn"
+      >✎</Button>
+      {favoriteMethods.map(function(m) {
+        return (
+          <Button
+            key={m}
+            size="lg"
+            variant={session.mode === EDITOR_MODES.NOTE_INPUT && method === m ? 'primary' : 'outline-secondary'}
+            title={NOTE_INPUT_METHOD_LABELS[m] || m}
+            className="notation-note-input-fav-btn"
+            onClick={function() { applyNoteInputMethod(m); }}
+          >{NOTE_INPUT_COMPACT_LABELS[m] || m}</Button>
+        );
+      })}
+      <Dropdown as={ButtonGroup}>
+        <Dropdown.Toggle
+          split
           size="lg"
           variant={session.mode === EDITOR_MODES.NOTE_INPUT ? 'primary' : 'outline-secondary'}
-          onClick={onToggleNoteInput}
-          title="Note input (N)"
-          data-testid="notation-note-input-btn"
-        >✎</Button>
-        <Dropdown as={ButtonGroup}>
-          <Dropdown.Toggle
-            split
-            size="lg"
-            variant={session.mode === EDITOR_MODES.NOTE_INPUT ? 'primary' : 'outline-secondary'}
-            title="Note input method"
-            aria-label="Note input method"
-            data-testid="notation-note-input-method"
-          />
-          <Dropdown.Menu>
-            {METHOD_ORDER.map(function(m) {
-              return (
-                <Dropdown.Item
-                  key={m}
-                  active={method === m}
-                  onClick={function() {
-                    if (dispatch) {
-                      dispatch({ type: 'SET_NOTE_INPUT_METHOD', method: m });
-                      if (session.mode !== EDITOR_MODES.NOTE_INPUT) {
-                        dispatch({ type: 'SET_MODE', mode: EDITOR_MODES.NOTE_INPUT });
-                      }
-                    }
-                  }}
-                >
-                  {NOTE_INPUT_METHOD_LABELS[m] || m}
-                </Dropdown.Item>
-              );
-            })}
-          </Dropdown.Menu>
-        </Dropdown>
-      </ButtonGroup>
+          title="Note input method"
+          aria-label="Note input method"
+          data-testid="notation-note-input-method"
+        />
+        {methodMenu}
+      </Dropdown>
+    </ButtonGroup>
+  ) : (
+    <ButtonGroup className="notation-note-input-method-group">
+      <Button
+        size="lg"
+        variant={session.mode === EDITOR_MODES.NOTE_INPUT ? 'primary' : 'outline-secondary'}
+        onClick={onToggleNoteInput}
+        title="Note input (N)"
+        data-testid="notation-note-input-btn"
+      >✎</Button>
+      <Dropdown as={ButtonGroup}>
+        <Dropdown.Toggle
+          split
+          size="lg"
+          variant={session.mode === EDITOR_MODES.NOTE_INPUT ? 'primary' : 'outline-secondary'}
+          title="Note input method"
+          aria-label="Note input method"
+          data-testid="notation-note-input-method"
+        />
+        {methodMenu}
+      </Dropdown>
+    </ButtonGroup>
+  );
+
+  return (
+    <div className="notation-duration-toolbar">
+      {noteInputGroup}
       <span className="notation-mode-badge-input-slot" aria-hidden={session.mode !== EDITOR_MODES.NOTE_INPUT}>
         {session.mode === EDITOR_MODES.NOTE_INPUT ? (
           <span

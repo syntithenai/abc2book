@@ -100,6 +100,7 @@ var mainFiles = [
 'favicon.png',
 'apple-touch-icon.png',
 'tunebook-icon.svg',
+'tunebook-icon-header.svg',
 'manifest.json',
 'home-appicon.png',
 'home-small.png',

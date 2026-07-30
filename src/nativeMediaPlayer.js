@@ -10,8 +10,15 @@ let listenerHandles = [];
 let active = false;
 let currentUri = null;
 
+const NATIVE_LOAD_TIMEOUT_MS = 20000;
+
 export function isNativePlayerActive() {
   return active;
+}
+
+export function markNativePlayerActive(uri) {
+  active = true;
+  if (uri) currentUri = uri;
 }
 
 export function getNativePlayerUri() {
@@ -52,6 +59,46 @@ export async function writeAudioBufferToCacheUri(buffer, filename) {
   return writeBlobToCacheUri(blob, filename);
 }
 
+function waitForNativeLoadComplete(shouldPlay) {
+  return new Promise(function(resolve, reject) {
+    let settled = false
+    const timeout = setTimeout(function() {
+      if (settled) return
+      settled = true
+      remove()
+      reject(new Error('Native playback load timeout'))
+    }, NATIVE_LOAD_TIMEOUT_MS)
+    function finish(ok, err) {
+      if (settled) return
+      settled = true
+      clearTimeout(timeout)
+      remove()
+      if (ok) resolve()
+      else reject(err || new Error('Native playback failed'))
+    }
+    const remove = addNativePlayerListener('stateChange', function(event) {
+      if (!event) return
+      if (shouldPlay) {
+        if (event.isPlaying) finish(true)
+        return
+      }
+      if (event.hasMedia || (event.durationMs && event.durationMs > 0)) {
+        finish(true)
+      }
+    })
+    getNativePlayerState().then(function(state) {
+      if (settled) return
+      if (shouldPlay && state.isPlaying) {
+        finish(true)
+        return
+      }
+      if (!shouldPlay && state.hasMedia) {
+        finish(true)
+      }
+    }).catch(function() {})
+  })
+}
+
 export async function loadNativePlayer(options) {
   if (!isNativeMediaPlayerAvailable()) {
     throw new Error('Native media player is only available in the Android app');
@@ -64,18 +111,29 @@ export async function loadNativePlayer(options) {
   if (!uri) {
     throw new Error('uri or blob is required for native playback');
   }
+  uri = resolveNativePlaybackUri(uri);
   currentUri = uri;
-  active = true;
-  await TunebookMedia.load({
-    uri: uri,
-    title: opts.title || 'Tunebook',
-    artist: opts.artist || '',
-    positionMs: opts.positionMs || 0,
-  });
-  if (opts.play !== false) {
-    await TunebookMedia.play();
+  const shouldPlay = opts.play !== false;
+  try {
+    await TunebookMedia.load({
+      uri: uri,
+      title: opts.title || 'Tunebook',
+      artist: opts.artist || '',
+      positionMs: opts.positionMs || 0,
+      autoplay: shouldPlay,
+      requestHeaders: opts.requestHeaders || undefined,
+    });
+    await waitForNativeLoadComplete(shouldPlay);
+    active = true;
+    if (shouldPlay && opts.tempo && opts.tempo !== 1) {
+      await setNativePlayerSpeed(opts.tempo);
+    }
+    return uri;
+  } catch (e) {
+    active = false;
+    currentUri = null;
+    throw e;
   }
-  return uri;
 }
 
 export async function playNativePlayer() {
@@ -104,7 +162,7 @@ export async function setNativePlayerSpeed(speed) {
 
 export async function getNativePlayerState() {
   if (!isNativeMediaPlayerAvailable()) {
-    return { isPlaying: false, positionMs: 0, durationMs: 0 };
+    return { isPlaying: false, positionMs: 0, durationMs: 0, hasMedia: false };
   }
   return TunebookMedia.getState();
 }
@@ -134,8 +192,31 @@ export async function openBatteryOptimizationSettings() {
 
 export function convertNativeFilePath(filePath) {
   if (!filePath) return '';
+  if (filePath.startsWith('file://') || filePath.startsWith('content://')) {
+    return filePath;
+  }
+  if (filePath.startsWith('/')) {
+    return 'file://' + filePath;
+  }
   if (Capacitor.convertFileSrc) {
     return Capacitor.convertFileSrc(filePath);
   }
   return 'file://' + filePath;
+}
+
+/** URI suitable for ExoPlayer in the native plugin (not WebView bridge URLs). */
+export function resolveNativePlaybackUri(uri) {
+  if (!uri) return uri;
+  if (uri.startsWith('http://') || uri.startsWith('https://')
+    || uri.startsWith('content://') || uri.startsWith('file://')) {
+    if (uri.indexOf('/_capacitor_file_/') >= 0) {
+      const path = uri.split('/_capacitor_file_').pop() || '';
+      return path.startsWith('/') ? 'file://' + path : 'file:///' + path;
+    }
+    return uri;
+  }
+  if (uri.startsWith('/')) {
+    return 'file://' + uri;
+  }
+  return convertNativeFilePath(uri);
 }

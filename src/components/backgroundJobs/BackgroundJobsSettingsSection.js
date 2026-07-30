@@ -1,4 +1,4 @@
-import { useMemo, useState, useSyncExternalStore } from 'react'
+import { useEffect, useMemo, useState, useSyncExternalStore } from 'react'
 import { Badge, Nav, Tab } from 'react-bootstrap'
 import FormFieldHelp from '../FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../../formFieldHelpText'
@@ -23,6 +23,7 @@ import { subscribeBulkCheckRunner } from '../../bulkCheckRunner'
 import { subscribeImportReviewEnrichment } from '../../importReviewEnrichmentBridge'
 import { subscribeLongRunningJobs } from '../../longRunningJobRegistry'
 import { subscribeStemAnalysisJob, getStemAnalysisJobRevision } from '../../stemAnalysisJobStore'
+import { subscribe as subscribeAudioGenerationJobs } from '../../audioGenerationJobStore'
 import * as tuneFieldLookupQueue from '../../tuneFieldLookupQueue'
 import JobQueueTabPanel from './JobQueueTabPanel'
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
@@ -33,12 +34,14 @@ import FileOcrTabPanel from './FileOcrTabPanel'
 import BulkCheckTabPanel from './BulkCheckTabPanel'
 import ImportEnrichmentTabPanel from './ImportEnrichmentTabPanel'
 import StemCreateTabPanel from './StemCreateTabPanel'
+import AudioGenerationTabPanel from './AudioGenerationTabPanel'
 import ActiveSearchesTabPanel from './ActiveSearchesTabPanel'
 
 const TAB_RESEARCH = 'research'
 const TAB_COMPOSER_DISCOVERY = 'composer-discovery'
 const TAB_MEDIA_CACHE = 'media-cache'
 const TAB_STEM_CREATE = 'stem-create'
+const TAB_AUDIO_GENERATION = 'audio-generation'
 const TAB_PLAYBACK_SCANS = 'playback-scans'
 const TAB_MEDIA_ANALYSIS = 'media-analysis'
 const TAB_FILE_OCR = 'file-ocr'
@@ -60,6 +63,7 @@ function subscribeAllBackgroundJobStores(listener) {
     subscribeImportReviewEnrichment(listener),
     subscribeLongRunningJobs(listener),
     subscribeStemAnalysisJob(listener),
+    subscribeAudioGenerationJobs(listener),
     tuneFieldLookupQueue.subscribe(listener),
   ]
   return function unsubscribeAll() {
@@ -108,10 +112,15 @@ function composerDiscoveryStatusLabel(job) {
   return job.status
 }
 
-export default function BackgroundJobsSettingsSection({ tunes, mediaController }) {
+export default function BackgroundJobsSettingsSection({ tunes, mediaController, initialJobsTab }) {
   const [activeTab, setActiveTab] = useState(function() {
+    if (initialJobsTab) return initialJobsTab
     return getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH
   })
+
+  useEffect(function() {
+    if (initialJobsTab) setActiveTab(initialJobsTab)
+  }, [initialJobsTab])
   const researchQueue = useBulkBackgroundResearchQueue()
   const composerDiscoveryQueue = useBulkComposerDiscoveryQueue()
   const mediaCacheQueueHook = useMediaCacheQueue()
@@ -195,6 +204,11 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController }
           <Nav.Item>
             <Nav.Link eventKey={TAB_STEM_CREATE}>
               {renderTabTitle('Stems', tabCounts.stemCreate)}
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey={TAB_AUDIO_GENERATION}>
+              {renderTabTitle('Audio generation', tabCounts.audioGeneration)}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -437,6 +451,13 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController }
                 },
               }}
             />
+          </Tab.Pane>
+
+          <Tab.Pane eventKey={TAB_AUDIO_GENERATION}>
+            <p className="text-muted settings-background-jobs-tab-note">
+              Practice tracks and linked-media cover variants run in the background after you start them from a tune.
+            </p>
+            <AudioGenerationTabPanel />
           </Tab.Pane>
 
           <Tab.Pane eventKey={TAB_PLAYBACK_SCANS}>

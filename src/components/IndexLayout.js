@@ -7,6 +7,12 @@ import IndexSearchForm from './IndexSearchForm'
 import SelectedItemsModal from './SelectedItemsModal'
 import VirtualizedTuneList, { COMPACT_ROW_HEIGHT } from './VirtualizedTuneList'
 import TuneListRow from './TuneListRow'
+import MediaListRow from './MediaListRow'
+import { searchMainMediaSources } from '../mainMediaSearchClient'
+import { tuneRowsFromTunes, mergeSearchListRows, getSearchRowKey, isMediaSearchRow } from '../searchListRows'
+import { stageMediaCandidateToTunebook } from '../stageMediaCandidateToTunebook'
+import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
+import { resolveResolverAccessToken } from '../resolverAccessToken'
     
 import {buildSearchPageTitle, DEFAULT_APP_TITLE, SEARCH_PAGE_TITLE_BASE, setDocumentTitle} from '../pageTitle'
 import { compareSearchGroupKeys } from '../searchListOrder'
@@ -61,7 +67,12 @@ function IndexLayout(props) {
     var [onlyShowDuplicates, setOnlyShowDuplicates] = useState(false)
     var [listPageOffset, setListPageOffset] = useState(0)
     var [listPageMeta, setListPageMeta] = useState(null)
+    var [mediaSearchResults, setMediaSearchResults] = useState([])
+    var [mediaSearchBusy, setMediaSearchBusy] = useState(false)
     var filterRunIdRef = useRef(0)
+    var mediaSearchRunIdRef = useRef(0)
+    var mediaSearchTimerRef = useRef(null)
+    var mediaSearchAbortRef = useRef(null)
     var listSelectionCurtailedToastKeyRef = useRef(null)
     const navigate = useNavigate()
     
@@ -87,6 +98,53 @@ function IndexLayout(props) {
         setSelectedCount(0)
         setListPageOffset(0)
     },[props.groupBy,props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter, props.filter, setSelected, setSelectedCount])
+
+    useEffect(function() {
+      const query = String(props.filter || '').trim()
+      if (mediaSearchTimerRef.current) clearTimeout(mediaSearchTimerRef.current)
+      if (mediaSearchAbortRef.current) {
+        mediaSearchAbortRef.current.abort()
+        mediaSearchAbortRef.current = null
+      }
+      if (query.length < 3) {
+        setMediaSearchResults([])
+        setMediaSearchBusy(false)
+        return undefined
+      }
+      setMediaSearchBusy(true)
+      mediaSearchTimerRef.current = setTimeout(function() {
+        const runId = mediaSearchRunIdRef.current + 1
+        mediaSearchRunIdRef.current = runId
+        const controller = typeof AbortController !== 'undefined' ? new AbortController() : null
+        mediaSearchAbortRef.current = controller
+        const accessToken = resolveResolverAccessToken(props.token) || getActiveResolverAccessToken() || ''
+        searchMainMediaSources({
+          query: query,
+          accessToken: accessToken,
+          token: accessToken,
+          signal: controller ? controller.signal : undefined,
+        }).then(function(result) {
+          if (mediaSearchRunIdRef.current !== runId) return
+          const list = result && Array.isArray(result.candidates) ? result.candidates : []
+          setMediaSearchResults(list)
+        }).catch(function(err) {
+          if (mediaSearchRunIdRef.current !== runId) return
+          if (err && err.name === 'AbortError') return
+          setMediaSearchResults([])
+        }).finally(function() {
+          if (mediaSearchRunIdRef.current === runId) {
+            setMediaSearchBusy(false)
+          }
+        })
+      }, 400)
+      return function() {
+        if (mediaSearchTimerRef.current) clearTimeout(mediaSearchTimerRef.current)
+        if (mediaSearchAbortRef.current) {
+          mediaSearchAbortRef.current.abort()
+          mediaSearchAbortRef.current = null
+        }
+      }
+    }, [props.filter, props.token])
     
     function filterSearch(tune) {
        return props.tunebook.filterSearch(tune, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter)
@@ -275,7 +333,25 @@ function IndexLayout(props) {
 
     function listRowsForTunes(tunes) {
       const list = Array.isArray(tunes) ? tunes : []
-      return expandPdfSnapshotSearchRows(list, props.filter)
+      const tuneRows = tuneRowsFromTunes(list, props.filter)
+      const query = String(props.filter || '').trim()
+      const includeMedia = query.length >= 3
+      return mergeSearchListRows(tuneRows, includeMedia ? mediaSearchResults : [], {
+        includeMedia: includeMedia,
+      })
+    }
+
+    function handleAddMediaToTunebook(candidate) {
+      stageMediaCandidateToTunebook(candidate, {
+        book: props.currentTuneBook || '',
+        tags: Array.isArray(props.tagFilter) ? props.tagFilter : [],
+      }).catch(function(err) {
+        toast.error(err && err.message ? err.message : 'Could not open Add to Tunebook')
+      })
+    }
+
+    function handleMediaPlaybackError(err) {
+      toast.error(err && err.message ? err.message : 'Could not play media')
     }
 
     function isListSelectionCurtailed(tunes) {
@@ -481,6 +557,9 @@ function IndexLayout(props) {
           setNowPlayingQueue: props.setNowPlayingQueue,
           setQueuePlayConfirm: props.setQueuePlayConfirm,
           nowPlayingTuneId: getActivePlaybackTuneId(props.mediaController, props.nowPlayingQueue),
+          onAddToTunebook: handleAddMediaToTunebook,
+          onMediaError: handleMediaPlaybackError,
+          accessToken: resolveResolverAccessToken(props.token) || getActiveResolverAccessToken() || '',
         }
 
         if (rows.length === 0) {
@@ -491,8 +570,19 @@ function IndexLayout(props) {
           return (
             <ListGroup id="tune-index" style={{clear:'both', width: '100%'}}>
               {rows.map(function(row, tk) {
+                if (isMediaSearchRow(row)) {
+                  return (
+                    <MediaListRow
+                      key={getSearchRowKey(row, tk)}
+                      row={row}
+                      rowKey={getSearchRowKey(row, tk)}
+                      index={tk}
+                      {...rowProps}
+                    />
+                  )
+                }
                 return (
-                  <TuneListRow key={(row.tune && row.tune.id ? row.tune.id : tk) + '-' + tk} row={row} index={tk} {...rowProps} />
+                  <TuneListRow key={getSearchRowKey(row, tk)} row={row} index={tk} {...rowProps} />
                 )
               })}
             </ListGroup>
@@ -526,6 +616,9 @@ function IndexLayout(props) {
             setNowPlayingQueue={props.setNowPlayingQueue}
             setQueuePlayConfirm={props.setQueuePlayConfirm}
             nowPlayingTuneId={getActivePlaybackTuneId(props.mediaController, props.nowPlayingQueue)}
+            onAddToTunebook={handleAddMediaToTunebook}
+            onMediaError={handleMediaPlaybackError}
+            accessToken={resolveResolverAccessToken(props.token) || getActiveResolverAccessToken() || ''}
           />
         )
     }

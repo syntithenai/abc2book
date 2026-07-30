@@ -5,9 +5,7 @@ import {
 } from './performanceKeyBindings';
 import {
   getPerformanceScrollRoot,
-  isAtScrollBottom,
-  isAtScrollTop,
-  scrollPageStep,
+  performScrollStep,
 } from './performanceScrollUtils';
 
 function shouldIgnoreTarget(target, options) {
@@ -38,6 +36,7 @@ export default function usePerformanceKeyBindings(options) {
   const navigateAtScrollEdge = options.navigateAtScrollEdge !== false;
   const allowButtonTargets = options.allowButtonTargets === true;
   const useCapture = options.useCapture === true;
+  const listenTarget = options.listenTarget === 'window' ? 'window' : 'document';
   const activeModalSelector = options.activeModalSelector || null;
   const onNextTune = options.onNextTune;
   const onPreviousTune = options.onPreviousTune;
@@ -74,12 +73,14 @@ export default function usePerformanceKeyBindings(options) {
 
     if (action === 'nextTune') {
       event.preventDefault();
+      event.stopPropagation();
       if (handlersRef.current.onNextTune) handlersRef.current.onNextTune();
       return;
     }
 
     if (action === 'previousTune') {
       event.preventDefault();
+      event.stopPropagation();
       if (handlersRef.current.onPreviousTune) handlersRef.current.onPreviousTune();
       return;
     }
@@ -89,38 +90,37 @@ export default function usePerformanceKeyBindings(options) {
     const stepFraction = bindings.scrollStepFraction;
 
     if (action === 'scrollDown') {
-      if (navigateAtScrollEdge && isAtScrollBottom(rootInfo, threshold)) {
-        event.preventDefault();
+      event.preventDefault();
+      event.stopPropagation();
+      const result = performScrollStep(rootInfo, 1, stepFraction, threshold, musicSingleSelector);
+      if (navigateAtScrollEdge && result.atEdge && result.edge === 'bottom') {
         const handled = handlersRef.current.onAtSetEnd && handlersRef.current.onAtSetEnd();
         if (!handled && handlersRef.current.onNextTune) {
           handlersRef.current.onNextTune();
         }
-      } else {
-        event.preventDefault();
-        scrollPageStep(rootInfo, 1, stepFraction);
       }
       return;
     }
 
     if (action === 'scrollUp') {
-      if (navigateAtScrollEdge && isAtScrollTop(rootInfo, threshold)) {
-        event.preventDefault();
+      event.preventDefault();
+      event.stopPropagation();
+      const result = performScrollStep(rootInfo, -1, stepFraction, threshold, musicSingleSelector);
+      if (navigateAtScrollEdge && result.atEdge && result.edge === 'top') {
         const handled = handlersRef.current.onAtSetStart && handlersRef.current.onAtSetStart();
         if (!handled && handlersRef.current.onPreviousTune) {
           handlersRef.current.onPreviousTune();
         }
-      } else {
-        event.preventDefault();
-        scrollPageStep(rootInfo, -1, stepFraction);
       }
     }
   }, [enabled, blockShortcuts, musicSingleSelector, bindingsOverride, navigateAtScrollEdge, allowButtonTargets, activeModalSelector]);
 
   useEffect(function() {
     if (!enabled) return undefined;
-    document.addEventListener('keydown', handleKeyDown, useCapture);
+    const target = listenTarget === 'window' ? window : document;
+    target.addEventListener('keydown', handleKeyDown, useCapture);
     return function() {
-      document.removeEventListener('keydown', handleKeyDown, useCapture);
+      target.removeEventListener('keydown', handleKeyDown, useCapture);
     };
-  }, [enabled, handleKeyDown, useCapture]);
+  }, [enabled, handleKeyDown, useCapture, listenTarget]);
 }

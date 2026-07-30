@@ -183,7 +183,39 @@ export default function BackupSettingsSection(props) {
     }) || 'changed')
     : 'changed'
 
+  function handleDeleteAllTunes() {
+    if (signedIn) {
+      if (window.confirm('Are you REALLY sure you want to delete all of your tunes from this device and all other devices? Logout if you only want to reset this device')) {
+        if (window.confirm('Are you REALLY sure you want to delete all of your tunes on all your devices?')) {
+          tunebook.deleteAll()
+          if (typeof props.navigate === 'function') props.navigate('/books')
+        }
+      }
+    } else if (window.confirm('Are you sure you want to delete all of your tunes on this device? Login to delete tunes from all your devices.')) {
+      if (window.confirm('Are you REALLY sure you want to delete all of your tunes from this device?')) {
+        tunebook.deleteAll()
+        if (typeof props.navigate === 'function') props.navigate('/books')
+      }
+    }
+  }
+
   return <>
+    <div className="app-surface-panel App-settings-section">
+      <h2>Your songbook</h2>
+      <p className="app-text-muted">
+        Download a backup of your current songbook, or delete all tunes from this device
+        {signedIn ? ' and every device where you are logged in' : ''}.
+      </p>
+      <div className="App-settings-actions">
+        <Button variant="success" title="Download" onClick={function() { tunebook.downloadTuneBookAbc() }}>
+          {tunebook.icons.save} Download Tunebook
+        </Button>
+        <Button variant="danger" onClick={handleDeleteAllTunes}>
+          Delete All Tunes
+        </Button>
+      </div>
+    </div>
+
     <div className="app-surface-panel App-settings-section">
       <h2>Google Drive versions</h2>
       <p className="app-text-muted">

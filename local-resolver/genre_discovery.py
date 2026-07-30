@@ -375,6 +375,9 @@ async def _discover_genre_llm(client, title, artist, rhythm, background, web_gen
         )
         response.raise_for_status()
         data = response.json()
+        from llm_runtime import note_chat_completion_usage
+
+        note_chat_completion_usage(data)
         choices = data.get("choices") or []
         if not choices:
             return []

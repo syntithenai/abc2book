@@ -18,6 +18,21 @@ export function isLocAudioResult(item) {
   return !!(item && item.source === 'loc');
 }
 
+export function isDeviceFileResult(item) {
+  return !!(item && item.source === 'device-file');
+}
+
+export function mediaSearchSourceLabel(source) {
+  if (source === 'music-collection') return 'My library';
+  if (source === 'device-file') return 'Device';
+  if (source === 'bandcamp') return 'Bandcamp';
+  if (source === 'internet-archive') return 'Internet Archive';
+  if (source === 'europeana') return 'Europeana';
+  if (source === 'loc') return 'Library of Congress';
+  if (source === 'youtube') return 'YouTube';
+  return source || '';
+}
+
 export function mediaSearchResultArtist(item) {
   if (!item) return '';
   return String(item.artist || '').trim();

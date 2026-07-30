@@ -1,0 +1,38 @@
+import {
+  defaultPresetForTask,
+  isTaskAvailable,
+  linkTitleForTask,
+  presetLabel,
+  TASK_LINKED_COVER,
+  TASK_PRACTICE_TRACK,
+} from './audioGenerationPresets';
+
+describe('audioGenerationPresets', function() {
+  test('default preset is fast for practice track and balanced for linked cover', function() {
+    expect(defaultPresetForTask(TASK_PRACTICE_TRACK)).toBe('fast');
+    expect(defaultPresetForTask(TASK_LINKED_COVER)).toBe('balanced');
+  });
+
+  test('preset labels', function() {
+    expect(presetLabel('fast')).toBe('Fast');
+    expect(presetLabel('high')).toBe('High');
+  });
+
+  test('link titles per task', function() {
+    expect(linkTitleForTask(TASK_PRACTICE_TRACK, 'Reel')).toBe('Reel (AI arrangement)');
+    expect(linkTitleForTask(TASK_LINKED_COVER, 'Reel')).toBe('Reel (AI cover)');
+  });
+
+  test('isTaskAvailable reads backends payload', function() {
+    const backends = {
+      tasks: [
+        {
+          taskId: TASK_LINKED_COVER,
+          presets: [{ id: 'fast', available: true }],
+        },
+      ],
+    };
+    expect(isTaskAvailable(backends, TASK_LINKED_COVER)).toBe(true);
+    expect(isTaskAvailable(backends, TASK_PRACTICE_TRACK)).toBe(false);
+  });
+});

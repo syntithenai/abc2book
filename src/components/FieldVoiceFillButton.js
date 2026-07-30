@@ -1,9 +1,10 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Button } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import VoiceInputWaveform from './VoiceInputWaveform'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useVoiceMicRecorder from '../useVoiceMicRecorder'
+import { kickoffMicrophoneAccess } from '../microphoneAccess'
 import { submitVoiceCommand } from '../voiceCommandClient'
 import { isTapVoiceInputMode } from '../voiceSettings'
 
@@ -45,6 +46,12 @@ export default function FieldVoiceFillButton(props) {
     ? 'composer'
     : (props.fieldKind === 'search' ? 'search' : 'title')
 
+  useEffect(function() {
+    return function() {
+      if (abortRef.current) abortRef.current.abort()
+    }
+  }, [])
+
   function setKeyboardBlocked(blocked) {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(blocked)
   }
@@ -54,6 +61,11 @@ export default function FieldVoiceFillButton(props) {
     setProcessing(true)
     const controller = typeof AbortController !== 'undefined' ? new AbortController() : null
     abortRef.current = controller
+    let timedOut = false
+    const timeoutId = controller ? setTimeout(function() {
+      timedOut = true
+      controller.abort()
+    }, 120000) : null
     try {
       const result = await submitVoiceCommand({
         blob: blob,
@@ -78,9 +90,15 @@ export default function FieldVoiceFillButton(props) {
         props.onFill(text)
       }
     } catch (error) {
-      if (error && error.name === 'AbortError') return
+      if (error && error.name === 'AbortError') {
+        if (timedOut) {
+          toast.error('Voice fill timed out — check that the media resolver is running')
+        }
+        return
+      }
       toast.error(error && error.message ? error.message : 'Voice fill failed')
     } finally {
+      if (timeoutId) clearTimeout(timeoutId)
       setProcessing(false)
       setKeyboardBlocked(false)
       abortRef.current = null
@@ -91,13 +109,19 @@ export default function FieldVoiceFillButton(props) {
     recordingState,
     analyserNode,
     isTapMode,
-    handleClick,
+    handleTapPointerDown,
     handlePointerDown,
     handlePointerUp,
     handlePointerCancel,
     microphoneErrorMessage,
   } = useVoiceMicRecorder({
     enabled: resolverAvailable && features.whisper,
+    onRecordingStopping: function() {
+      setProcessing(true)
+    },
+    onEmptyRecording: function() {
+      setProcessing(false)
+    },
     onAudioReady: processAudio,
     onError: function(error) {
       toast.error(microphoneErrorMessage(error))
@@ -107,6 +131,15 @@ export default function FieldVoiceFillButton(props) {
     },
     setKeyboardBlocked: setKeyboardBlocked,
   })
+
+  function onMicPointerDown(event) {
+    if (isTapMode) {
+      const streamPromise = kickoffMicrophoneAccess()
+      handleTapPointerDown(event, streamPromise)
+    } else {
+      handlePointerDown(event)
+    }
+  }
 
   if (!resolverAvailable || !features.whisper) return null
 
@@ -122,9 +155,9 @@ export default function FieldVoiceFillButton(props) {
   if (props.className) buttonClassName.push(props.className)
 
   const buttonProps = isTapMode
-    ? { onClick: handleClick }
+    ? { onPointerDown: onMicPointerDown }
     : {
-      onPointerDown: handlePointerDown,
+      onPointerDown: onMicPointerDown,
       onPointerUp: handlePointerUp,
       onPointerCancel: handlePointerUp,
     }

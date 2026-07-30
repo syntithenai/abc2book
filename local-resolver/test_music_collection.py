@@ -226,7 +226,15 @@ class MusicCollectionIndexTests(unittest.TestCase):
 
 class MusicCollectionAccessTests(unittest.TestCase):
     def test_dedicated_allowlist(self):
-        with patch.dict(os.environ, {"MUSIC_COLLECTION_EMAILS": "user@example.com", "REQUIRE_AUTH": "false"}):
+        with patch.dict(
+            os.environ,
+            {
+                "MUSIC_COLLECTION_EMAILS": "user@example.com",
+                "FREE_ACCESS_EMAILS": "",
+                "REQUIRE_AUTH": "false",
+            },
+            clear=False,
+        ):
             from music_collection import load_music_collection_emails
 
             allowlist = load_music_collection_emails()
@@ -235,8 +243,26 @@ class MusicCollectionAccessTests(unittest.TestCase):
             self.assertFalse(music_collection_access_allowed(None, require_auth=False))
             self.assertTrue("user@example.com" in allowlist)
 
+    def test_free_access_grants_collection_when_auth_required(self):
+        with patch.dict(
+            os.environ,
+            {
+                "MUSIC_COLLECTION_EMAILS": "user@example.com",
+                "FREE_ACCESS_EMAILS": "free@example.com",
+                "REQUIRE_AUTH": "true",
+            },
+            clear=False,
+        ):
+            self.assertTrue(music_collection_access_allowed("free@example.com", require_auth=True))
+            self.assertTrue(music_collection_access_allowed("user@example.com", require_auth=True))
+            self.assertFalse(music_collection_access_allowed("other@example.com", require_auth=True))
+
     def test_fallback_when_allowlist_empty(self):
-        with patch.dict(os.environ, {"MUSIC_COLLECTION_EMAILS": "", "REQUIRE_AUTH": "false"}, clear=False):
+        with patch.dict(
+            os.environ,
+            {"MUSIC_COLLECTION_EMAILS": "", "FREE_ACCESS_EMAILS": "", "REQUIRE_AUTH": "false"},
+            clear=False,
+        ):
             self.assertTrue(music_collection_access_allowed(None, require_auth=False))
 
 

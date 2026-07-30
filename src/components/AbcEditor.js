@@ -6,7 +6,6 @@ import { toast } from 'react-toastify'
 import Abc from './Abc'
 import NotationEditor from './NotationEditor'
 import { nextVoiceKey, reorderVoicesObject, orderedVoiceKeys } from '../voiceKeyOrder'
-import ChordsWizard from './ChordsWizard'
 import { lyricLinesToText, wLinesEditorText, setPlainLyricLines, setNoteAlignedLyricLines } from '../wLinesUtils'
 import LinksEditor from './LinksEditor'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
@@ -49,6 +48,8 @@ import AlbumsSearchButton from './AlbumsSearchButton'
 import BookSelectorModal from './BookSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
 import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
+import { invalidateChordBlockCache } from '../chordBlockMerge'
+import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
 
 
 export default function AbcEditor(props) {
@@ -76,6 +77,7 @@ export default function AbcEditor(props) {
   const wLinesSaveTimeout = useRef(null)
   const alignedLyricsSaveGenRef = useRef(0)
   const [abcRecordExpanded, setAbcRecordExpanded] = useState(false)
+  const [notationIssueCounts, setNotationIssueCounts] = useState({ errorCount: 0, warningCount: 0 })
   const [backgroundInfoText, setBackgroundInfoText] = useState('')
   const [backgroundInfoPreview, setBackgroundInfoPreview] = useState(false)
   const backgroundInfoSaveTimeout = useRef(null)
@@ -161,6 +163,10 @@ export default function AbcEditor(props) {
       var v = props.tunebook.abcTools.justNotes(notes); 
       tune.voices[voice].notes = v.split("\n")
       tune.id = params.tuneId
+      const primaryVoice = resolvePrimaryVoiceKey(tune.voices)
+      if (String(voice) === String(primaryVoice)) {
+        invalidateChordBlockCache(tune)
+      }
       saveTune(tune, {
         historyLabel: historyLabel || 'Edit notes',
         immediate: !!(historyOptions && historyOptions.immediate),
@@ -288,6 +294,7 @@ export default function AbcEditor(props) {
           if (props.forceRefresh) props.forceRefresh()
         }}
         onWarnings={onWarnings}
+        onIssueCountsChange={setNotationIssueCounts}
         onAbcClick={onAbcClick}
         forceRefresh={props.forceRefresh}
         controlledView={editorViewModeToNotationView(editorViewMode)}
@@ -296,6 +303,19 @@ export default function AbcEditor(props) {
         onHelpModeChange={props.onNotationHelpModeChange}
         historyControls={props.historyControls}
         onRegisterFlushCommit={props.onRegisterFlushCommit}
+        token={props.token}
+        pendingChordImport={pendingChordImport}
+        onConsumePendingChordImport={function() { setPendingChordImport('') }}
+        autoActivateChordRecord={props.autoActivateChordRecord}
+        autoStartChordSearch={props.autoStartChordSearch}
+        onChordsSaveTune={function() { saveTune(tune) }}
+        onGenreAccept={acceptSuggestedGenre}
+        onChordsLyricsImport={function(lines) {
+          setBlockLyricsText(lines.join('\n'))
+          setPlainLyricLines(tune, lines)
+          tune.id = params.tuneId
+          saveTune(tune, { historyLabel: 'Search chords and lyrics', immediate: true })
+        }}
       />
     )
   }
@@ -909,6 +929,9 @@ export default function AbcEditor(props) {
                           forceRefresh={props.forceRefresh}
                           mediaController={props.mediaController}
                           login={props.login}
+                          onTuneChange={function(updated) {
+                            saveTune(Object.assign({}, tune, updated, { id: params.tuneId }))
+                          }}
                           onChange={function(links) {
                             tune.links = links;
                             tune.id = params.tuneId;
@@ -1171,30 +1194,6 @@ export default function AbcEditor(props) {
                       }}
                     />
                     </div>
-      )
-    }
-    if (editorViewMode === 'chords') {
-      return (
-                    <ChordsWizard
-                      tunebook={props.tunebook}
-                      tune={tune}
-                      tuneId={tune.id}
-                      token={props.token}
-                      abc={props.abc}
-                      saveTune={function() {saveTune(tune)}}
-                      onGenreAccept={acceptSuggestedGenre}
-                      notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []}
-                      pendingChordImport={pendingChordImport}
-                      onConsumePendingChordImport={function() { setPendingChordImport('') }}
-                      autoActivateChordRecord={props.autoActivateChordRecord}
-                      autoStartChordSearch={props.autoStartChordSearch}
-                      onLyricsImport={function(lines) {
-                        setBlockLyricsText(lines.join('\n'))
-                        setPlainLyricLines(tune, lines)
-                        tune.id = params.tuneId
-                        saveTune(tune, { historyLabel: 'Search chords and lyrics', immediate: true })
-                      }}
-                    />
       )
     }
     if (editorViewMode === 'sourceAbc') {

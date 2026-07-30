@@ -320,7 +320,7 @@ function getWindowScrollTopOffset(musicSingleEl, contentRootEl) {
   return offset;
 }
 
-function isScrollableContainer(el) {
+export function isScrollableContainer(el) {
   if (!el || el === document.documentElement || el === document.body) return false;
   const style = window.getComputedStyle(el);
   const overflowY = style.overflowY;

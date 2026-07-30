@@ -13,10 +13,20 @@ export const TunebookMedia = registerPlugin('TunebookMedia', {
   },
 });
 
+export const TunebookLocalMedia = registerPlugin('TunebookLocalMedia', {
+  web: function() {
+    return import('./tunebookLocalMediaWeb').then(function(m) { return new m.TunebookLocalMediaWeb(); });
+  },
+});
+
 export function isNativeYoutubeAvailable() {
   return isAndroidApp();
 }
 
 export function isNativeMediaPlayerAvailable() {
+  return isAndroidApp();
+}
+
+export function isNativeLocalMediaAvailable() {
   return isAndroidApp();
 }

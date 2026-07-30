@@ -11,7 +11,11 @@ import threading
 import unicodedata
 from urllib.parse import quote
 
-from allowlists import email_allowed, load_free_access_emails, media_access_allowed, parse_email_allowlist
+from allowlists import (
+    load_free_access_emails,
+    load_music_collection_emails as load_music_collection_emails_from_allowlists,
+    music_collection_access_allowed as check_music_collection_access,
+)
 from chords_fetch import score_title_artist_match
 
 MUSIC_COLLECTION_INDEX_NAME = os.getenv("MUSIC_COLLECTION_INDEX_NAME", "music_collection_index.json").strip()
@@ -63,7 +67,7 @@ def music_collection_art_dir():
 
 
 def load_music_collection_emails():
-    return parse_email_allowlist(os.getenv("MUSIC_COLLECTION_EMAILS", ""))
+    return load_music_collection_emails_from_allowlists()
 
 
 def music_collection_enabled():
@@ -73,10 +77,13 @@ def music_collection_enabled():
 
 
 def music_collection_access_allowed(email: str | None, *, require_auth: bool) -> bool:
-    allowlist = load_music_collection_emails()
-    if allowlist:
-        return email_allowed(allowlist, email)
-    return media_access_allowed(email, load_free_access_emails(), require_auth)
+    return check_music_collection_access(
+        email,
+        load_music_collection_emails(),
+        load_free_access_emails(),
+        require_auth,
+        collection_enabled=True,
+    )
 
 
 def music_collection_health_fields():

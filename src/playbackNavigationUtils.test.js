@@ -2,6 +2,7 @@ import {
   getViewedTuneIdFromPath,
   shouldShowPlaylistTransportBar,
   isTuneListPath,
+  isPlaybackBrowsePath,
   shouldSuppressHostAutostart,
   isQueuePlaybackEngaged,
   shouldAdvancePlaybackOnEnd,
@@ -10,6 +11,7 @@ import {
   shouldPreservePlaylistAudioDuringSearchBrowse,
   shouldPreferQueueNavigation,
   getActivePlaybackTuneId,
+  resolveNowPlayingDisplayTuneId,
   isPlaybackActivelyPlaying,
   shouldStartPlaybackWhenAdvancing,
   isMiniPlayerTransportVisible,
@@ -23,6 +25,29 @@ describe('playbackNavigationUtils', function() {
     expect(isTuneListPath('/tunes/practice')).toBe(true)
     expect(isTuneListPath('/tunes/abc')).toBe(false)
     expect(isTuneListPath('/tunes/abc/playMedia')).toBe(false)
+  })
+
+  test('isFootPedalEnabledPath', function() {
+    const { isFootPedalEnabledPath, isTuneSingleViewPath } = require('./playbackNavigationUtils')
+    expect(isTuneSingleViewPath('/tunes/abc')).toBe(true)
+    expect(isTuneSingleViewPath('/tunes')).toBe(false)
+    expect(isTuneSingleViewPath('/tunes/practice')).toBe(false)
+    expect(isFootPedalEnabledPath('/tunes')).toBe(true)
+    expect(isFootPedalEnabledPath('/tunes/practice')).toBe(true)
+    expect(isFootPedalEnabledPath('/tunes/abc')).toBe(true)
+    expect(isFootPedalEnabledPath('/tunes/abc/playMedia')).toBe(true)
+    expect(isFootPedalEnabledPath('/editor/abc')).toBe(false)
+    expect(isFootPedalEnabledPath('/gig/set1/tune1')).toBe(false)
+    expect(isFootPedalEnabledPath('/settings')).toBe(false)
+  })
+
+  test('isPlaybackBrowsePath', function() {
+    expect(isPlaybackBrowsePath('/')).toBe(true)
+    expect(isPlaybackBrowsePath('/books')).toBe(true)
+    expect(isPlaybackBrowsePath('/books/')).toBe(true)
+    expect(isPlaybackBrowsePath('/tags')).toBe(true)
+    expect(isPlaybackBrowsePath('/tunes')).toBe(false)
+    expect(isPlaybackBrowsePath('/tunes/abc')).toBe(false)
   })
 
   test('shouldSuppressHostAutostart on list unless already playing', function() {
@@ -127,6 +152,23 @@ describe('playbackNavigationUtils', function() {
       tune: { id: 'other-tune' },
       canResumePlayback: function() { return true },
     }, queue)).toBe('queue-tune')
+  })
+
+  test('resolveNowPlayingDisplayTuneId prefers viewed tune in viewed focus', function() {
+    const queue = createQueue({ tuneIds: ['queue-tune'], currentIndex: 0 })
+    const mediaController = { tune: { id: 'queue-tune' }, isPlaying: true }
+    expect(resolveNowPlayingDisplayTuneId({
+      focus: 'viewed',
+      viewedTuneId: 'viewed-tune',
+      mediaController: mediaController,
+      queue: queue,
+    })).toBe('viewed-tune')
+    expect(resolveNowPlayingDisplayTuneId({
+      focus: 'playlist',
+      viewedTuneId: 'viewed-tune',
+      mediaController: mediaController,
+      queue: queue,
+    })).toBe('queue-tune')
   })
 
   test('shouldPreservePlaylistAudioDuringSearchBrowse keeps queue audio during header browse', function() {

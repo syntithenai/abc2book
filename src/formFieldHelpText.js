@@ -161,13 +161,21 @@ export const SETTINGS_FIELD_HELP = {
     title: 'Voice input mode',
     body: 'Tap to speak starts recording on tap and stops when you tap again or after a short pause in speech. Hold to speak records only while you keep the mic button pressed — the original behaviour.',
   },
+  speakSongTitles: {
+    title: 'Speak song titles',
+    body: 'While a playlist is playing, announce each new track title when the queue auto-advances or you press next or previous. The first track when you start a playlist is not announced. Requires a resolver with text-to-speech enabled.',
+  },
+  speakArtistNames: {
+    title: 'Speak artist names',
+    body: 'When song titles are spoken, also say the tune composer or artist (for example, "Blue Moon by Rodgers and Hart").',
+  },
   undoHistoryDepth: {
     title: 'Undo history depth',
     body: 'How many undo steps to keep per tune on this device. Each step stores full before/after tune snapshots in browser storage, so higher values use more space. Changes apply after you reload the page. Undo history is not synced to Google Drive.',
   },
   backgroundJobs: {
     title: 'Background jobs',
-    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, file OCR, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed and awaiting-review field searches.',
+    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, audio generation, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, file OCR, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed and awaiting-review field searches.',
   },
   sources: {
     title: 'Sources',

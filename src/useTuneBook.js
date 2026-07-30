@@ -35,6 +35,7 @@ import {
   resolvePlaybackForItem,
   isLessonQueue,
   isExternalQueueItem,
+  isLessonExternalMedia,
 } from './nowPlayingQueue'
 import {
   playQueueItem,
@@ -43,8 +44,11 @@ import {
   handleQueueAdvanceOnEnded,
   advanceQueueToPlayableAndStart,
 } from './nowPlayingQueuePlayback'
+import { playExternalMediaItem } from './standaloneMediaPlayback'
 import { advanceQueueToNextPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
+import { announcePlaylistTrack } from './playlistTitleAnnouncement'
 import { playLessonYoutube, isLessonYoutubePlaying } from './lessonYoutubePlayer'
+import { requestNavigatePlayback } from './tunePlaybackActions'
 import { playTuneNow } from './tunePlaybackActions'
 import {
   isQueuePlaybackEngaged,
@@ -208,9 +212,18 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     setNowPlayingQueue(queue)
     var item = getCurrentItem(queue)
     if (!item) return null
-    if (item.externalMedia && item.externalMedia.youtubeId) {
+    if (isExternalQueueItem(item)) {
       var opts = options || {}
-      return 'lesson:' + item.externalMedia.youtubeId
+      if (isLessonExternalMedia(item.externalMedia)) {
+        return 'lesson:' + item.externalMedia.youtubeId
+      }
+      if (opts.startPlayback && opts.mediaController) {
+        if (opts.mediaController.preparePlaybackFromUserGesture) {
+          opts.mediaController.preparePlaybackFromUserGesture()
+        }
+        playExternalMediaItem(item.externalMedia, opts.mediaController, { play: true, fromUserGesture: true })
+      }
+      return 'media:' + (item.externalMedia.uri || item.externalMedia.collectionLink || item.externalMedia.title || 'track')
     }
     var tuneId = item && item.tuneId ? item.tuneId : null
     if (!tuneId) return null
@@ -221,13 +234,26 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       if (opts.mediaController.preparePlaybackFromUserGesture) {
         opts.mediaController.preparePlaybackFromUserGesture()
       }
-      var playOpts = { fromUserGesture: true }
-      if (opts.navigate !== false && navigateFn) {
-        playOpts.deferPlaybackEngine = true
+      const target = resolvePlaybackForItem(tune, item, playbackApi())
+      if (target && target.type !== 'external') {
+        const normalizedTarget = target.type === 'midi'
+          ? { type: 'midi' }
+          : { type: 'media', linkNum: target.linkNum != null ? target.linkNum : 0 }
+        if (opts.navigate !== false && navigateFn) {
+          requestNavigatePlayback(
+            opts.mediaController,
+            playbackApi(),
+            navigateFn,
+            tune,
+            normalizedTarget
+          )
+        } else {
+          playQueueItem(opts.mediaController, playbackApi(), tune, item, { fromUserGesture: true })
+        }
+      } else if (opts.navigate !== false && navigateFn) {
+        navigateToQueueTune(navigateFn, tuneId, item, { hasNotesOrChords: hasNotesOrChords, hasLinks: hasLinks }, tunes)
       }
-      playQueueItem(opts.mediaController, playbackApi(), tune, item, playOpts)
-    }
-    if (opts.navigate !== false && navigateFn) {
+    } else if (opts.navigate !== false && navigateFn) {
       if (tune) {
         navigateToQueueTune(navigateFn, tuneId, item, { hasNotesOrChords: hasNotesOrChords, hasLinks: hasLinks }, tunes)
       } else {
@@ -298,18 +324,25 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       var item = result.item
       var tune = result.tune
       var tuneId = queueItemTuneId(item)
-      var isExternal = !!(item && item.externalMedia && item.externalMedia.youtubeId)
+      var isExternal = isExternalQueueItem(item)
 
       setNowPlayingQueue(nextQueue)
       if (isExternal) {
         if (mediaController && startPlayback) stopPlaylistPlayback(mediaController)
-        if (startPlayback) playLessonYoutube({ fromUserGesture: true })
+        if (startPlayback) {
+          if (isLessonExternalMedia(item.externalMedia)) {
+            playLessonYoutube({ fromUserGesture: true })
+          } else {
+            playExternalMediaItem(item.externalMedia, mediaController, { play: true, fromUserGesture: true })
+          }
+        }
         return
       }
       if (!tuneId) return
 
       if (mediaController && startPlayback && tune) {
         playQueueItem(mediaController, tunebookApi, tune, item, { fromUserGesture: true })
+        announcePlaylistTrack(tune)
       }
 
       var shouldFollow = forceNavigate || nextQueue.followTune

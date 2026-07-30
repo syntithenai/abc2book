@@ -5,6 +5,14 @@ export const FIX_ALL_PREVIEW_ACTIONS = new Set([
   'normalizeAbc',
   'appendFinalBarline',
   'relayoutNoteLines',
+  'resolveHeaderConflict',
+  'resolveHeaderConflictFromTune',
+  'wrapEndingInRepeat',
+  'removeEmptyVoice',
+  'declarePickupLength',
+  'quantizeOverfullBars',
+  'balanceEndings',
+  'fillSparseBars',
 ])
 
 /** Searches started as background jobs during Fix all. */

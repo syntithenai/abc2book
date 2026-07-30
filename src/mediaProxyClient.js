@@ -16,7 +16,9 @@ import { isLocalhostCastBase, setCastPublicBaseFromHealth } from './castSupport'
 
 let activeProxyBase = null;
 let heavyMlProxyBase = null;
+let snapcastPlaybackProxyBase = null;
 let midiImportProxyBase = null;
+let musicCollectionProxyBase = null;
 
 // Health checks must fail fast. A configured-but-unreachable candidate (e.g. the
 // public resolver when the browser can't reach it via NAT loopback) would
@@ -54,6 +56,10 @@ export function getHeavyMlMediaProxyBase() {
   return heavyMlProxyBase || activeProxyBase || '';
 }
 
+export function getMusicCollectionMediaProxyBase() {
+  return musicCollectionProxyBase || '';
+}
+
 function isLikelyLocalResolverBase(base) {
   try {
     const host = new URL(base).hostname;
@@ -78,6 +84,7 @@ function pickHeavyMlBase(candidates) {
   for (let i = 0; i < candidates.length; i++) {
     const c = candidates[i];
     if (!c.reachable || !c.available) continue;
+    if (c.resolverAccess === false) continue;
     if (c.freeAccess === false) continue;
     if (!candidateHasHeavyMl(c)) continue;
     if (isLikelyLocalResolverBase(c.base)) return c.base;
@@ -86,13 +93,50 @@ function pickHeavyMlBase(candidates) {
   return fallback;
 }
 
+function candidateHasMusicCollectionHost(candidate) {
+  const f = candidate && candidate.features;
+  return !!(f && f.musicCollection);
+}
+
+function pickMusicCollectionBase(candidates) {
+  let remoteFallback = null;
+  for (let i = 0; i < candidates.length; i++) {
+    const c = candidates[i];
+    if (!c.reachable || !c.musicCollectionAccess) continue;
+    if (!candidateHasMusicCollectionHost(c)) continue;
+    if (isCloudLightResolverBase(c.base)) continue;
+    if (isLikelyLocalResolverBase(c.base)) return c.base;
+    if (!remoteFallback) remoteFallback = c.base;
+  }
+  return remoteFallback;
+}
+
+export function hasMusicCollectionAccess(candidates) {
+  if (!Array.isArray(candidates)) return false;
+  for (let i = 0; i < candidates.length; i++) {
+    if (candidates[i].musicCollectionAccess) return true;
+  }
+  return false;
+}
+
+export function hasAdminAccess(candidates) {
+  if (!Array.isArray(candidates)) return false;
+  for (let i = 0; i < candidates.length; i++) {
+    if (candidates[i].adminAccess) return true;
+  }
+  return false;
+}
+
 export function isMediaProxyConfigured() {
   return getMediaProxyBaseCandidates().length > 0;
 }
 
 export function clearActiveMediaProxyBase() {
   activeProxyBase = null;
+  heavyMlProxyBase = null;
+  snapcastPlaybackProxyBase = null;
   midiImportProxyBase = null;
+  musicCollectionProxyBase = null;
 }
 
 function isCloudLightResolverBase(base) {
@@ -101,12 +145,43 @@ function isCloudLightResolverBase(base) {
   return /resolver-light/i.test(String(base));
 }
 
+function candidateHasSnapcastPlayback(candidate) {
+  const features = candidate && candidate.features;
+  return !!(features && features.snapcastPlayback);
+}
+
+function pickSnapcastPlaybackBase(candidates) {
+  const preferredAuth = pickAuthResolverBase(candidates);
+  if (preferredAuth) {
+    for (let i = 0; i < candidates.length; i++) {
+      const candidate = candidates[i];
+      if (candidate.base !== preferredAuth) continue;
+      if (!candidate.reachable || !candidate.available) continue;
+      if (candidate.resolverAccess === false) continue;
+      if (!candidateHasSnapcastPlayback(candidate)) continue;
+      return candidate.base;
+    }
+  }
+  let remoteFallback = null;
+  for (let i = 0; i < candidates.length; i++) {
+    const candidate = candidates[i];
+    if (!candidate.reachable || !candidate.available) continue;
+    if (candidate.resolverAccess === false) continue;
+    if (!candidateHasSnapcastPlayback(candidate)) continue;
+    if (isCloudLightResolverBase(candidate.base)) continue;
+    if (isLikelyLocalResolverBase(candidate.base)) return candidate.base;
+    if (!remoteFallback) remoteFallback = candidate.base;
+  }
+  return remoteFallback;
+}
+
 function pickMidiImportBase(candidates) {
   let remoteFallback = null;
   let anyFallback = null;
   for (let i = 0; i < candidates.length; i++) {
     const c = candidates[i];
     if (!c.reachable || !c.available) continue;
+    if (c.resolverAccess === false) continue;
     if (!anyFallback) anyFallback = c.base;
     if (isCloudLightResolverBase(c.base)) continue;
     if (isLikelyLocalResolverBase(c.base)) return c.base;
@@ -220,6 +295,8 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/discover-genre') === 0) return 'discover-genre';
   if (pathAndQuery.indexOf('/separate-stems') === 0) return 'separate-stems';
   if (pathAndQuery.indexOf('/generate-practice-track') === 0) return 'generate-practice-track';
+  if (pathAndQuery.indexOf('/generate-audio') === 0) return 'generate-audio';
+  if (pathAndQuery.indexOf('/render-midi') === 0) return 'render-midi';
   if (pathAndQuery.indexOf('/transcribe-sheet-image') === 0) return 'transcribe-sheet-image';
   if (pathAndQuery.indexOf('/search-images') === 0) return 'search-images';
   if (pathAndQuery.indexOf('/midi2abc') === 0) return 'midi2abc';
@@ -242,6 +319,13 @@ function unreachableHealthResult(base) {
     oauthBff: false,
     freeAccess: false,
     embeddedCreds: false,
+    billingEnabled: false,
+    creditRequired: false,
+    creditBalanceCents: null,
+    creditUnlimited: false,
+    resolverAccess: false,
+    adminAccess: false,
+    musicCollectionAccess: false,
     providers: null,
     lightMode: false,
   };
@@ -337,6 +421,13 @@ async function tryHealthAtBase(base, accessToken) {
       oauthBff: oauthBff,
       freeAccess: body.freeAccess === true || (!requireAuth && available),
       embeddedCreds: body.embeddedCreds === true,
+      billingEnabled: body.billingEnabled === true,
+      creditRequired: body.creditRequired === true,
+      creditBalanceCents: typeof body.creditBalanceCents === 'number' ? body.creditBalanceCents : null,
+      creditUnlimited: body.creditUnlimited === true,
+      resolverAccess: body.resolverAccess !== false,
+      adminAccess: body.adminAccess === true,
+      musicCollectionAccess: body.musicCollectionAccess === true,
       providers: body.providers && typeof body.providers === 'object' ? body.providers : null,
       lightMode: body.lightMode === true || features.lightMode === true,
       soundfontsReady: body.soundfontsReady === true,
@@ -429,13 +520,20 @@ export async function probeMediaResolverCandidates(accessToken) {
   }
 
   heavyMlProxyBase = pickHeavyMlBase(candidates);
+  snapcastPlaybackProxyBase = pickSnapcastPlaybackBase(candidates);
   midiImportProxyBase = pickMidiImportBase(candidates);
+  musicCollectionProxyBase = pickMusicCollectionBase(candidates);
   const preferredAuthBase = pickAuthResolverBase(candidates);
   const authBase = resolveStickyAuthBase(candidates, null);
+  const collectionCandidate = musicCollectionProxyBase
+    ? candidates.find(function(c) { return c.base === musicCollectionProxyBase; })
+    : null;
+  const collectionFieldsSource = collectionCandidate || activeCandidate;
   return {
     available: !!activeBase,
     activeBase: activeBase,
     heavyMlBase: heavyMlProxyBase,
+    musicCollectionBase: musicCollectionProxyBase,
     authBase: authBase,
     preferredAuthBase: preferredAuthBase,
     candidates: candidates,
@@ -450,28 +548,37 @@ export async function probeMediaResolverCandidates(accessToken) {
       : null,
     freeAccess: activeCandidate ? !!activeCandidate.freeAccess : false,
     embeddedCreds: activeCandidate ? !!activeCandidate.embeddedCreds : false,
+    billingEnabled: activeCandidate ? !!activeCandidate.billingEnabled : false,
+    creditRequired: activeCandidate ? !!activeCandidate.creditRequired : false,
+    creditBalanceCents: activeCandidate && typeof activeCandidate.creditBalanceCents === 'number'
+      ? activeCandidate.creditBalanceCents
+      : null,
+    creditUnlimited: activeCandidate ? !!activeCandidate.creditUnlimited : false,
+    resolverAccess: activeCandidate ? activeCandidate.resolverAccess !== false : false,
+    adminAccess: hasAdminAccess(candidates),
+    musicCollectionAccess: hasMusicCollectionAccess(candidates),
     requireAuth: activeCandidate ? !!activeCandidate.requireAuth : false,
     authReason: activeCandidate ? (activeCandidate.authReason || '') : '',
     providers: activeCandidate && activeCandidate.providers
       ? activeCandidate.providers
       : null,
-    musicCollectionCount: activeCandidate && typeof activeCandidate.musicCollectionCount === 'number'
-      ? activeCandidate.musicCollectionCount
+    musicCollectionCount: collectionFieldsSource && typeof collectionFieldsSource.musicCollectionCount === 'number'
+      ? collectionFieldsSource.musicCollectionCount
       : 0,
-    musicCollectionDir: activeCandidate && activeCandidate.musicCollectionDir
-      ? activeCandidate.musicCollectionDir
+    musicCollectionDir: collectionFieldsSource && collectionFieldsSource.musicCollectionDir
+      ? collectionFieldsSource.musicCollectionDir
       : null,
-    musicCollectionIndex: activeCandidate && activeCandidate.musicCollectionIndex
-      ? activeCandidate.musicCollectionIndex
+    musicCollectionIndex: collectionFieldsSource && collectionFieldsSource.musicCollectionIndex
+      ? collectionFieldsSource.musicCollectionIndex
       : null,
-    musicCollectionStats: activeCandidate && activeCandidate.musicCollectionStats
-      ? activeCandidate.musicCollectionStats
+    musicCollectionStats: collectionFieldsSource && collectionFieldsSource.musicCollectionStats
+      ? collectionFieldsSource.musicCollectionStats
       : null,
-    musicCollectionBuiltAt: activeCandidate && activeCandidate.musicCollectionBuiltAt
-      ? activeCandidate.musicCollectionBuiltAt
+    musicCollectionBuiltAt: collectionFieldsSource && collectionFieldsSource.musicCollectionBuiltAt
+      ? collectionFieldsSource.musicCollectionBuiltAt
       : null,
-      musicCollectionSummary: activeCandidate && activeCandidate.musicCollectionSummary
-      ? activeCandidate.musicCollectionSummary
+    musicCollectionSummary: collectionFieldsSource && collectionFieldsSource.musicCollectionSummary
+      ? collectionFieldsSource.musicCollectionSummary
       : null,
     practiceTrackBackend: activeCandidate && activeCandidate.practiceTrackBackend
       ? activeCandidate.practiceTrackBackend
@@ -499,7 +606,14 @@ const HEAVY_ML_PATH_PREFIXES = [
   '/detect-chords',
   '/analyze-practice',
   '/generate-practice-track',
+  '/generate-audio',
+  '/render-midi',
 ];
+
+function pathNeedsSnapcastPlayback(pathAndQuery) {
+  const path = String(pathAndQuery || '').split('?')[0];
+  return path.indexOf('/snapcast-playback/') === 0 || path.indexOf('/cast-playback/') === 0;
+}
 
 function pathNeedsHeavyMl(pathAndQuery) {
   const path = String(pathAndQuery || '').split('?')[0];
@@ -519,12 +633,59 @@ function pathNeedsMidiAnalyze(pathAndQuery) {
   return path.indexOf('/midi2analyze') === 0;
 }
 
+function pathNeedsMusicCollection(pathAndQuery) {
+  const endpoint = resolverEndpointForPath(pathAndQuery);
+  return endpoint === 'search-music-collection'
+    || endpoint === 'browse-music-collection'
+    || endpoint === 'music-collection-duplicates'
+    || endpoint === 'music-collection-triage'
+    || endpoint === 'music-collection-triage-bulk'
+    || endpoint === 'music-collection-move-plan'
+    || endpoint === 'music-collection-registry'
+    || endpoint === 'music-collection-artists'
+    || endpoint === 'music-collection-chunks'
+    || endpoint === 'rebuild-music-collection-index'
+    || endpoint === 'music-collection'
+    || endpoint === 'music-collection-art';
+}
+
+function formatRemotePlaybackResolverError(error, bases, pathAndQuery) {
+  if (!pathNeedsSnapcastPlayback(pathAndQuery)) {
+    wrapFetchError(error, bases);
+    return;
+  }
+  const message = error && error.message ? String(error.message) : '';
+  if (message.indexOf('Media proxy error 401') === 0
+    || message.indexOf('Media proxy error 403') === 0) {
+    throw new Error(
+      'Sign in to Tune Book to route audio through your home resolver (Snapcast requires peppertrees).'
+    );
+  }
+  if (snapcastPlaybackProxyBase) {
+    throw new Error(
+      'Could not reach your home resolver for Snapcast (' + snapcastPlaybackProxyBase + '). '
+      + 'Check that docker compose --profile snapcast is running on peppertrees.'
+    );
+  }
+  throw new Error(
+    'No Snapcast-capable resolver is reachable. Snapcast needs your home resolver '
+    + '(https://peppertrees.syntithenai.com), not the cloud fallback. '
+    + 'Sign in, then try again.'
+  );
+}
+
 export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptions = {}) {
+  const preferSnapcast = pathNeedsSnapcastPlayback(pathAndQuery) && snapcastPlaybackProxyBase;
   const preferHeavy = pathNeedsHeavyMl(pathAndQuery) && heavyMlProxyBase;
   const preferMidiAnalyze = pathNeedsMidiAnalyze(pathAndQuery) && midiImportProxyBase;
-  const preferredBase = preferHeavy
-    ? heavyMlProxyBase
-    : (preferMidiAnalyze ? midiImportProxyBase : activeProxyBase);
+  const preferMusicCollection = pathNeedsMusicCollection(pathAndQuery) && musicCollectionProxyBase;
+  const preferredBase = preferSnapcast
+    ? snapcastPlaybackProxyBase
+    : (preferHeavy
+      ? heavyMlProxyBase
+      : (preferMusicCollection
+        ? musicCollectionProxyBase
+        : (preferMidiAnalyze ? midiImportProxyBase : activeProxyBase)));
   const bases = preferredBase
     ? [preferredBase].concat(getMediaProxyBaseCandidates().filter(function(b) { return b !== preferredBase; }))
     : getMediaProxyBaseCandidates();
@@ -543,9 +704,19 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
       if (isMixedContentBlocked(proxyBase)) {
         continue;
       }
+      if (pathNeedsSnapcastPlayback(pathAndQuery)
+        && isCloudLightResolverBase(proxyBase)
+        && proxyBase !== snapcastPlaybackProxyBase) {
+        continue;
+      }
       if (pathNeedsMidiAnalyze(pathAndQuery)
         && isCloudLightResolverBase(proxyBase)
         && proxyBase !== midiImportProxyBase) {
+        continue;
+      }
+      if (pathNeedsMusicCollection(pathAndQuery)
+        && isCloudLightResolverBase(proxyBase)
+        && proxyBase !== musicCollectionProxyBase) {
         continue;
       }
       const url = proxyBase + pathAndQuery;
@@ -570,7 +741,10 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
         let hint = '';
         try {
           const body = await response.json();
-          detail = body.error || '';
+          detail = body.error || body.detail || '';
+          if (detail && typeof detail !== 'string') {
+            detail = JSON.stringify(detail);
+          }
           hint = body.hint || '';
         } catch (e) {}
         const proxyError = new Error(
@@ -597,6 +771,9 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
           throw error;
         }
       }
+    }
+    if (pathNeedsSnapcastPlayback(pathAndQuery)) {
+      formatRemotePlaybackResolverError(lastError || new Error('fetch failed'), bases, pathAndQuery);
     }
     wrapFetchError(lastError || new Error('fetch failed'), bases);
   }
@@ -757,8 +934,51 @@ export async function fetchProxiedAudioBlobUrl(src, srcType, options) {
 export function describeResolverAuthReason(authReason) {
   if (authReason === 'login_required') return 'Login required';
   if (authReason === 'email_not_authorized') return 'Google account not authorized';
+  if (authReason === 'resolver_access_denied') return 'Resolver access denied for this account';
   if (authReason === 'invalid_token') return 'Login expired or invalid';
+  if (authReason === 'insufficient_credit') return 'Insufficient resolver credit';
   return '';
+}
+
+/**
+ * Block starting new resolver-proxied playback when billing requires credit and balance is empty.
+ * Returns { message } or null.
+ */
+export function getResolverProxiedPlaybackBlock(resolverStatus, accessToken) {
+  if (!resolverStatus || !isMediaProxyConfigured()) return null;
+  if (!accessToken) return null;
+  if (resolverStatus.creditUnlimited) return null;
+  if (!resolverStatus.billingEnabled) return null;
+
+  const balance = typeof resolverStatus.creditBalanceCents === 'number'
+    ? resolverStatus.creditBalanceCents
+    : null;
+  const creditRequired = !!resolverStatus.creditRequired;
+  const insufficientFromAuth = (resolverStatus.candidates || []).some(function(candidate) {
+    return candidate.authReason === 'insufficient_credit';
+  });
+
+  if ((creditRequired && balance !== null && balance <= 0) || insufficientFromAuth) {
+    return {
+      message: 'Your resolver credit balance is empty. Buy credit to play library and streaming links through the hosted resolver.',
+    };
+  }
+  return null;
+}
+
+/**
+ * Warn when prepaid credit is running low (< 10¢).
+ */
+export function getResolverCreditLowBalanceWarning(resolverStatus) {
+  if (!resolverStatus || !resolverStatus.billingEnabled || resolverStatus.creditUnlimited) {
+    return null;
+  }
+  const balance = resolverStatus.creditBalanceCents;
+  if (typeof balance !== 'number' || balance > 10 || balance <= 0) return null;
+  const dollars = (balance / 100).toFixed(2);
+  return {
+    message: 'Low resolver credit ($' + dollars + ' remaining). Buy credit to keep using hosted playback and APIs.',
+  };
 }
 
 /**
@@ -795,6 +1015,16 @@ export function getResolverLoginWarning(resolverStatus, accessToken) {
     return {
       message: 'Your Google login has expired. Sign in again to use shared resolver providers.',
       showLoginButton: true,
+    };
+  }
+  const insufficientCredit = authBlocked.some(function(candidate) {
+    return candidate.authReason === 'insufficient_credit';
+  });
+  if (insufficientCredit && hasToken) {
+    return {
+      message: 'Your resolver credit balance is empty. Buy credit to use hosted features, or add your own API keys under Providers.',
+      showLoginButton: false,
+      showBuyCreditButton: true,
     };
   }
   if (notAuthorized) {

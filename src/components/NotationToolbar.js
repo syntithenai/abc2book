@@ -1,6 +1,5 @@
 import React from 'react';
-import { Button, ButtonGroup, Dropdown } from 'react-bootstrap';
-import { BARLINE_TOKENS } from '../notation/notationConstants';
+import { Button } from 'react-bootstrap';
 import NotationToolsDropdown from './NotationToolsDropdown';
 import NotationVoicesDropdown from './NotationVoicesDropdown';
 import NotationClipboardToolbar from './NotationClipboardToolbar';
@@ -11,17 +10,7 @@ import NotationChordSymbolToolbar from './NotationChordSymbolToolbar';
 import NotationViewSelector from './NotationViewSelector';
 import MidiInputPanel from './MidiInputPanel';
 import NotationPlaybackControls from './NotationPlaybackControls';
-import NotationSignaturesDropdown from './NotationSignaturesDropdown';
-
-const BARLINE_OPTIONS = [
-  { token: BARLINE_TOKENS.SINGLE, label: '|', description: 'Bar line' },
-  { token: BARLINE_TOKENS.DOUBLE, label: '||', description: 'Double bar' },
-  { token: BARLINE_TOKENS.START_REPEAT, label: '|:', description: 'Start repeat' },
-  { token: BARLINE_TOKENS.END_REPEAT, label: ':|', description: 'End repeat' },
-  { token: BARLINE_TOKENS.BOTH_REPEAT, label: ':|:', description: 'End/start repeat' },
-  { token: BARLINE_TOKENS.FINAL, label: '|]', description: 'Final bar' },
-  { token: BARLINE_TOKENS.SECTION, label: '[|', description: 'Section bar' },
-];
+import NotationBarlinesDropdown from './NotationBarlinesDropdown';
 
 export default function NotationToolbar(props) {
   const {
@@ -108,60 +97,9 @@ export default function NotationToolbar(props) {
         onInsertMeasure={onInsertMeasure}
         onBeamBreak={onBeamBreak}
       />
-      {expand.barlines ? (
-        <ButtonGroup className="notation-barline-expanded" data-testid="notation-barline-expanded" aria-label="Bar lines">
-          {BARLINE_OPTIONS.map(function(option) {
-            return (
-              <Button
-                key={option.token}
-                size="lg"
-                variant="outline-secondary"
-                className="notation-barline-compact-btn"
-                title={option.description + ' (' + option.label + ')'}
-                data-testid={option.token === BARLINE_TOKENS.SINGLE ? 'notation-barline' : undefined}
-                onClick={function() { onInsertBarline(option.token); }}
-                onMouseDown={function(e) { e.preventDefault(); }}
-              >{option.label}</Button>
-            );
-          })}
-        </ButtonGroup>
-      ) : (
-        <Dropdown as={ButtonGroup} className="notation-barline-dropdown">
-          <Button
-            size="lg"
-            variant="outline-secondary"
-            className="notation-barline-main-btn"
-            title="Bar line (|)"
-            onClick={function() { onInsertBarline(BARLINE_TOKENS.SINGLE); }}
-            onMouseDown={function(e) { e.preventDefault(); }}
-            data-testid="notation-barline"
-          >|</Button>
-          <Dropdown.Toggle
-            split
-            variant="outline-secondary"
-            size="lg"
-            title="Choose bar line type"
-            data-testid="notation-barline-menu"
-            aria-label="Choose bar line type"
-          />
-          <Dropdown.Menu>
-            {BARLINE_OPTIONS.map(function(option) {
-              return (
-                <Dropdown.Item
-                  key={option.token}
-                  title={option.description + ' (' + option.label + ')'}
-                  onMouseDown={function(e) { e.preventDefault(); }}
-                  onClick={function() { onInsertBarline(option.token); }}
-                >
-                  <span className="notation-barline-menu-label">{option.label}</span>
-                  {' '}{option.description}
-                </Dropdown.Item>
-              );
-            })}
-          </Dropdown.Menu>
-        </Dropdown>
-      )}
-      <NotationSignaturesDropdown
+      <NotationBarlinesDropdown
+        expanded={!!expand.barlines}
+        onInsertBarline={onInsertBarline}
         onInsertKeyChange={onInsertKeyChange}
         onInsertMeterChange={onInsertMeterChange}
       />

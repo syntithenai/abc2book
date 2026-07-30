@@ -34,25 +34,21 @@ export default function NotationTuneMetaModal(props) {
     if (typeof props.onHide === 'function') props.onHide();
   }
 
-  function handleSave() {
-    if (!props.tunebook || typeof props.tunebook.saveTune !== 'function' || !tune.id) {
-      handleClose();
-      return;
-    }
+  function persistTuneMeta(nextKey, nextMeter, nextClef) {
+    if (!props.tunebook || typeof props.tunebook.saveTune !== 'function' || !tune.id) return;
     const next = Object.assign({}, tune, {
-      key: key || 'C',
-      meter: meter || '4/4',
+      key: nextKey || 'C',
+      meter: nextMeter || '4/4',
     });
     const voices = Object.assign({}, tune.voices || {});
     const currentVoice = voices[voiceKey] || { meta: '', notes: [''] };
     const metaFields = parseVoiceMeta(currentVoice.meta);
     voices[voiceKey] = Object.assign({}, currentVoice, {
-      meta: formatVoiceMeta(Object.assign({}, metaFields, { clef: clef || DEFAULT_VOICE_CLEF })),
+      meta: formatVoiceMeta(Object.assign({}, metaFields, { clef: nextClef || DEFAULT_VOICE_CLEF })),
     });
     next.voices = voices;
     props.tunebook.saveTune(next);
     if (typeof props.forceRefresh === 'function') props.forceRefresh();
-    handleClose();
   }
 
   const meterOptions = props.tunebook && props.tunebook.abcTools && props.tunebook.abcTools.getTimeSignatureTypes
@@ -79,7 +75,10 @@ export default function NotationTuneMetaModal(props) {
           <Form.Label>Key</Form.Label>
           <KeySignatureInput
             value={key}
-            onChange={setKey}
+            onChange={function(next) {
+              setKey(next);
+              persistTuneMeta(next, meter, clef);
+            }}
             aria-label="Key signature"
           />
         </Form.Group>
@@ -89,7 +88,11 @@ export default function NotationTuneMetaModal(props) {
             inputId="notation-tune-meta-meter-select"
             aria-label="Time signature"
             value={meter ? { value: meter, label: meter } : null}
-            onChange={function(val) { setMeter(val ? val.value : '4/4'); }}
+            onChange={function(val) {
+              const next = val ? val.value : '4/4';
+              setMeter(next);
+              persistTuneMeta(key, next, clef);
+            }}
             options={meterOptions}
             isClearable={false}
             blurInputOnSelect={true}
@@ -102,7 +105,11 @@ export default function NotationTuneMetaModal(props) {
           <Form.Select
             value={clef || DEFAULT_VOICE_CLEF}
             aria-label="Clef"
-            onChange={function(e) { setClef(e.target.value || DEFAULT_VOICE_CLEF); }}
+            onChange={function(e) {
+              const next = e.target.value || DEFAULT_VOICE_CLEF;
+              setClef(next);
+              persistTuneMeta(key, meter, next);
+            }}
           >
             {VOICE_CLEFS.map(function(c) {
               return <option key={c} value={c}>{c}</option>;
@@ -110,10 +117,6 @@ export default function NotationTuneMetaModal(props) {
           </Form.Select>
         </Form.Group>
       </Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>Cancel</Button>
-        <Button variant="primary" onClick={handleSave}>Save</Button>
-      </Modal.Footer>
     </Modal>
   );
 }

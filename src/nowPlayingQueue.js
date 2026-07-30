@@ -12,7 +12,16 @@ export function createQueueId() {
 }
 
 export function isExternalQueueItem(item) {
-  return !!(item && item.externalMedia && item.externalMedia.youtubeId)
+  return !!(item && item.externalMedia && (
+    item.externalMedia.youtubeId
+    || item.externalMedia.uri
+    || item.externalMedia.collectionLink
+    || item.externalMedia.collectionPath
+  ))
+}
+
+export function isLessonExternalMedia(externalMedia) {
+  return !!(externalMedia && externalMedia.youtubeId)
 }
 
 export function isLessonQueue(queue) {
@@ -23,8 +32,12 @@ export function getQueueItemLabel(item, tunesMap) {
   if (!item) return 'Missing item'
   if (isExternalQueueItem(item)) {
     const em = item.externalMedia
-    if (em.subtitle) return em.subtitle + ' — ' + em.title
-    return em.title || 'Lesson track'
+    if (em.youtubeId) {
+      if (em.subtitle) return em.subtitle + ' — ' + em.title
+      return em.title || 'Lesson track'
+    }
+    if (em.artist && em.title) return em.title + ' — ' + em.artist
+    return em.title || 'Media track'
   }
   const tune = item.tuneId && tunesMap ? tunesMap[item.tuneId] : null
   if (tune && tune.name) return tune.name
@@ -359,6 +372,92 @@ export function insertTunesAfterCurrentInQueue(queue, tuneIds, options) {
   return next
 }
 
+function buildExternalQueueItem(externalMedia, options) {
+  const opts = options || {}
+  if (!externalMedia) return null
+  return {
+    tuneId: null,
+    prefer: 'external',
+    externalMedia: Object.assign({}, externalMedia),
+    source: opts.source || 'media-search',
+  }
+}
+
+export function appendMediaCandidateToQueue(queue, candidate, options) {
+  const externalMedia = requireExternalMediaFromCandidate(candidate)
+  if (!externalMedia) return queue
+  const item = buildExternalQueueItem(externalMedia, options)
+  if (!item) return queue
+  if (!isQueueActive(queue)) {
+    return {
+      id: createQueueId(),
+      name: (options && options.name) || 'Media playlist',
+      source: (options && options.source) || 'media-search',
+      items: [item],
+      currentIndex: 0,
+      followTune: false,
+      autoAdvance: options && options.autoAdvance !== false,
+      loop: !!(options && options.loop),
+      shuffle: false,
+      shuffleOrder: null,
+      suspendSnapshot: null,
+      previewOnce: null,
+    }
+  }
+  if (queue.items.length >= PLAYLIST_MAX_ITEMS) return queue
+  return Object.assign({}, queue, {
+    items: queue.items.concat([item]),
+  })
+}
+
+export function insertMediaCandidateAfterCurrentInQueue(queue, candidate, options) {
+  const externalMedia = requireExternalMediaFromCandidate(candidate)
+  if (!externalMedia) return queue
+  const item = buildExternalQueueItem(externalMedia, options)
+  if (!item) return queue
+  if (!isQueueActive(queue)) {
+    return appendMediaCandidateToQueue(null, candidate, options)
+  }
+  if (queue.items.length >= PLAYLIST_MAX_ITEMS) return queue
+  const idx = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
+  const nextItems = queue.items.slice()
+  nextItems.splice(idx + 1, 0, item)
+  let next = Object.assign({}, queue, { items: nextItems })
+  if (next.shuffle) {
+    next = Object.assign({}, next, {
+      shuffleOrder: buildShuffleOrder(next.items.length, next.currentIndex),
+    })
+  }
+  return next
+}
+
+function requireExternalMediaFromCandidate(candidate) {
+  if (!candidate) return null
+  if (candidate.youtubeId) {
+    return Object.assign({}, candidate)
+  }
+  if (candidate.uri) {
+    return {
+      source: candidate.source || 'device-file',
+      title: candidate.title || 'Track',
+      artist: candidate.artist || '',
+      uri: candidate.uri,
+      path: candidate.path || '',
+    }
+  }
+  if (candidate.link || candidate.path) {
+    return {
+      source: candidate.source || 'music-collection',
+      title: candidate.title || 'Track',
+      artist: candidate.artist || '',
+      collectionLink: candidate.link || '',
+      collectionPath: candidate.path || '',
+      image: candidate.image || '',
+    }
+  }
+  return null
+}
+
 function isRecordingLink(link) {
   if (!link) return false
   if (link.recordingId) return true
@@ -438,7 +537,10 @@ export function isPreviewingTune(queue, tuneId) {
 export function resolvePlaybackForItem(tune, item, tunebook) {
   if (!item) return null
   if (isExternalQueueItem(item)) {
-    return { type: 'external', youtubeId: item.externalMedia.youtubeId }
+    if (item.externalMedia && item.externalMedia.youtubeId) {
+      return { type: 'external', youtubeId: item.externalMedia.youtubeId }
+    }
+    return { type: 'external', externalMedia: item.externalMedia }
   }
   if (!tune || !tunebook) return null
   const prefer = item.prefer || 'auto'
