@@ -8,9 +8,11 @@ import {
 } from '../playbackMetronomeSettings'
 import { ENGINE_MODE_CLICK, ENGINE_MODE_DRUMS } from '../rhythmEngineTypes'
 
-import { getPlaybackSettings } from '../pitchTempoUtils'
+import {
+  getPlaybackSettings,
+} from '../pitchTempoUtils'
 
-function getMetronomePreviewTempo(tune, tunebook) {
+function getBaseTuneTempoBpm(tune, tunebook) {
   if (!tune) return 100
   let bpm = 100
   if (tune.tempo != null && String(tune.tempo).trim() !== '') {
@@ -19,9 +21,13 @@ function getMetronomePreviewTempo(tune, tunebook) {
       : parseInt(String(tune.tempo).split('=').pop(), 10)
     if (cleaned > 0) bpm = cleaned
   }
+  return bpm
+}
+
+function getMetronomePreviewTempo(tune, tunebook) {
   const playback = getPlaybackSettings(tune)
   const factor = playback.tempo > 0 ? playback.tempo : 1
-  return Math.max(20, Math.min(300, Math.round(bpm * factor)))
+  return Math.max(20, Math.min(300, Math.round(getBaseTuneTempoBpm(tune, tunebook) * factor)))
 }
 
 export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaController }) {
@@ -87,6 +93,33 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
     persistCountInFields(Object.assign({}, settings, {
       countInBars: bars > 0 ? Math.min(4, bars) : 1,
     }))
+  }
+
+  function handleTempoChange(targetBpm) {
+    if (!tune || !tunebook) return
+    const bpm = Math.max(20, Math.min(300, Math.round(targetBpm)))
+    const playback = getPlaybackSettings(tune)
+    const updated = Object.assign({}, tune, {
+      tempo: bpm,
+      playbackTempo: 1,
+    })
+    tunebook.saveTune(updated, false, { historyLabel: 'Edit tempo' })
+    if (mediaController && mediaController.setTune) {
+      mediaController.setTune(updated)
+    }
+    if (mediaController && mediaController.applyLivePlaybackSettings) {
+      mediaController.applyLivePlaybackSettings(
+        1,
+        playback.pitch,
+        playback.fineTune,
+        { fromUserGesture: true }
+      )
+    } else if (mediaController && mediaController.updateTunePlaybackSettings) {
+      mediaController.updateTunePlaybackSettings(1, playback.pitch, playback.fineTune)
+    }
+    if (mediaController && mediaController.forceMidiChange) {
+      mediaController.forceMidiChange()
+    }
   }
 
   function handleRhythmSettingsChange(next) {
@@ -161,10 +194,11 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
       <MetronomePanel
         settingsOnly={true}
         showPreview={true}
-        hideTempo={true}
+        hideTempo={false}
         tune={tune}
         tunebook={tunebook}
         previewTempo={previewTempo}
+        onTempoChange={handleTempoChange}
         stopOnPlayback={stopPreviewOnPlayback}
         rhythm={settings.rhythm}
         rhythmStores={{

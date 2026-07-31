@@ -4,7 +4,6 @@ import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
 import {
   getPlainLyricLines,
   getNoteAlignedLyricLines,
-  hasStoredNoteAlignedLyrics,
   lyricLineHasNoteSpacing,
 } from './wLinesUtils';
 import {
@@ -334,11 +333,8 @@ export function resolveNoteAlignedWLines(tune) {
     });
   }
 
-  if (hasStoredNoteAlignedLyrics(tune)) {
-    const stored = getNoteAlignedLyricLines(tune);
-    const voiceKey = resolvePrimaryVoiceKey(tune.voices);
-    const voice = tune.voices && tune.voices[voiceKey];
-    const noteLines = voice && Array.isArray(voice.notes) ? voice.notes : [];
+  const stored = getNoteAlignedLyricLines(tune);
+  if (stored.length > 0) {
     if (noteLines.length === 0) return stored;
     const opts = {
       meter: tune.meter,

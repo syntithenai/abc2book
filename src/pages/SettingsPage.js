@@ -205,6 +205,15 @@ export default function SettingsPage(props) {
       return Object.assign({}, prev, { checking: true })
     })
     return pingYoutubeExtension({ force: true }).then(function(result) {
+      if (isYoutubeHelperDisabled()) {
+        setYoutubeHelperStatus({
+          checking: false,
+          ok: false,
+          version: null,
+          error: 'Disabled in settings',
+        })
+        return { ok: false, disabled: true }
+      }
       setYoutubeHelperStatus({
         checking: false,
         ok: !!result.ok,
@@ -956,6 +965,8 @@ export default function SettingsPage(props) {
     tunes={tunes}
     deletedTunes={deletedTunes}
     token={token}
+    driveApi={props.driveApi}
+    saveTune={tunebook && tunebook.saveTune ? tunebook.saveTune.bind(tunebook) : null}
     login={props.login}
     forceRefresh={props.forceRefresh}
     onCacheChanged={refreshCacheStats}

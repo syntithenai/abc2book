@@ -1,11 +1,24 @@
-import { fetchViaMediaProxy } from './mediaProxyClient';
+import { fetchViaMediaProxy, fetchDirectOrProxy } from './mediaProxyClient';
 import { getActiveResolverAccessToken } from './mediaResolverHealthStore';
 import { resolveResolverAccessToken } from './resolverAccessToken';
-import { isMusicCollectionResult, isDeviceFileResult } from './mediaLinkSearchDisplay';
+import { isDeviceFileResult } from './mediaLinkSearchDisplay';
+import {
+  externalMediaFromCandidate,
+  isMusicCollectionSearchCandidate,
+  isStandaloneExternalMedia,
+} from './mediaSearchExternalMedia';
+import { shouldAutoCacheMediaLink } from './mediaLinkAutoCache';
+import {
+  getCachedExternalMediaBlob,
+  getStandaloneProxiedMediaCacheKey,
+  cacheExternalMediaBytes,
+} from './externalMediaAudioCache';
 import { playAndroidNativeUri } from './androidNativePlayback';
 import { prefersNativeMediaPlayback } from './platformUtils';
 import { loadNativePlayer, stopNativePlayer } from './nativeMediaPlayer';
 import { hardSilenceWebViewOutputs } from './androidPlaybackGate';
+
+export { externalMediaFromCandidate, isStandaloneExternalMedia } from './mediaSearchExternalMedia';
 
 function buildCollectionProxyPath(candidate) {
   const path = String(candidate.path || '').trim();
@@ -14,58 +27,21 @@ function buildCollectionProxyPath(candidate) {
   return '/music-collection/' + path.split('/').map(encodeURIComponent).join('/');
 }
 
-export function externalMediaFromCandidate(candidate) {
-  if (!candidate) return null;
-  if (candidate.youtubeId) {
-    return Object.assign({}, candidate, {
-      source: candidate.source || 'youtube',
-      title: candidate.title || 'Lesson track',
-    });
-  }
-  if (isDeviceFileResult(candidate) && candidate.uri) {
-    return {
-      source: 'device-file',
-      title: candidate.title || 'Track',
-      artist: candidate.artist || '',
-      uri: candidate.uri,
-      path: candidate.path || '',
-    };
-  }
-  if (isMusicCollectionResult(candidate) && (candidate.link || candidate.path)) {
-    return {
-      source: 'music-collection',
-      title: candidate.title || 'Track',
-      artist: candidate.artist || '',
-      collectionLink: candidate.link || '',
-      collectionPath: candidate.path || '',
-      image: candidate.image || '',
-    };
-  }
-  return null;
+function resolverAccessToken(accessToken) {
+  return resolveResolverAccessToken(accessToken) || getActiveResolverAccessToken() || '';
 }
 
-export function isStandaloneExternalMedia(externalMedia) {
-  if (!externalMedia) return false;
-  if (externalMedia.youtubeId) return true;
-  if (externalMedia.uri) return true;
-  if (externalMedia.collectionLink || externalMedia.collectionPath) return true;
-  return false;
-}
-
-async function playCollectionCandidate(candidate, options) {
+async function playAudioBlob(blob, meta, options) {
   const opts = options || {};
-  const proxyPath = buildCollectionProxyPath(candidate);
-  if (!proxyPath) throw new Error('Missing collection path');
-  const token = resolveResolverAccessToken(opts.accessToken) || getActiveResolverAccessToken() || '';
-  const response = await fetchViaMediaProxy(proxyPath, token);
-  const blob = await response.blob();
+  const title = meta && meta.title ? meta.title : 'Track';
+  const artist = meta && meta.artist ? meta.artist : '';
   if (!blob || !blob.size) throw new Error('Empty audio');
   if (prefersNativeMediaPlayback()) {
     await loadNativePlayer({
       blob: blob,
-      filename: (candidate.title || 'track') + '.mp3',
-      title: candidate.title || 'Track',
-      artist: candidate.artist || '',
+      filename: title + '.mp3',
+      title: title,
+      artist: artist,
       play: opts.play !== false,
     });
     return true;
@@ -77,6 +53,48 @@ async function playCollectionCandidate(candidate, options) {
     await audio.play();
   }
   return true;
+}
+
+async function playCollectionCandidate(candidate, options) {
+  const opts = options || {};
+  const proxyPath = buildCollectionProxyPath(candidate);
+  if (!proxyPath) throw new Error('Missing collection path');
+  const response = await fetchViaMediaProxy(proxyPath, resolverAccessToken(opts.accessToken));
+  const blob = await response.blob();
+  return playAudioBlob(blob, candidate, opts);
+}
+
+async function fetchResolverProxiedAudioBlob(mediaLink, options) {
+  const opts = options || {};
+  const token = resolverAccessToken(opts.accessToken);
+  const cacheKey = getStandaloneProxiedMediaCacheKey(mediaLink);
+  const cached = await getCachedExternalMediaBlob(cacheKey);
+  if (cached && cached.blob) {
+    return cached.blob;
+  }
+  const { response } = await fetchDirectOrProxy({
+    src: mediaLink,
+    srcType: 'audio',
+    accessToken: token,
+  });
+  const blob = await response.blob();
+  if (shouldAutoCacheMediaLink(mediaLink)) {
+    const mime = response.headers && typeof response.headers.get === 'function'
+      ? response.headers.get('Content-Type')
+      : null;
+    blob.arrayBuffer().then(function(arrayBuffer) {
+      return cacheExternalMediaBytes(cacheKey, arrayBuffer, mime);
+    }).catch(function() {});
+  }
+  return blob;
+}
+
+async function playResolverProxiedCandidate(candidate, options) {
+  const opts = options || {};
+  const mediaLink = String(candidate.link || candidate.mediaLink || '').trim();
+  if (!mediaLink) throw new Error('Missing media link');
+  const blob = await fetchResolverProxiedAudioBlob(mediaLink, opts);
+  return playAudioBlob(blob, candidate, opts);
 }
 
 export async function playMediaCandidate(candidate, mediaController, options) {
@@ -100,8 +118,12 @@ export async function playMediaCandidate(candidate, mediaController, options) {
     });
     return true;
   }
-  if (isMusicCollectionResult(candidate)) {
+  if (isMusicCollectionSearchCandidate(candidate)) {
     await playCollectionCandidate(candidate, opts);
+    return true;
+  }
+  if (candidate.link || candidate.mediaLink) {
+    await playResolverProxiedCandidate(candidate, opts);
     return true;
   }
   return false;
@@ -125,6 +147,10 @@ export async function playExternalMediaItem(externalMedia, mediaController, opti
       artist: externalMedia.artist || '',
       play: options && options.play !== false,
     });
+    return true;
+  }
+  if (externalMedia.mediaLink) {
+    await playResolverProxiedCandidate(externalMedia, options || {});
     return true;
   }
   if (externalMedia.collectionLink || externalMedia.collectionPath) {

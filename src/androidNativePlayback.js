@@ -22,7 +22,7 @@ import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
 import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { fetchYoutubeAudioFilePathViaNative, playYoutubeAudioNative } from './youtubeNativeClient';
-import { logPlaybackDebug } from './playbackDebug';
+import { logPlaybackDebug, agentDebugLog } from './playbackDebug';
 
 let removeListeners = null;
 let callbacks = {
@@ -110,6 +110,12 @@ export async function playAndroidNativeUri(uri, options) {
     requestHeaders: opts.requestHeaders || undefined,
   });
   if (opts.tempo && opts.tempo !== 1) {
+    // #region agent log
+    agentDebugLog('androidNativePlayback.js:playAndroidNativeUri', 'set-speed', {
+      tempo: opts.tempo,
+      uriTail: uri ? String(uri).slice(-40) : null,
+    }, 'H-M');
+    // #endregion
     await setNativePlayerSpeed(opts.tempo);
   }
   return true;
@@ -124,18 +130,60 @@ export async function playAndroidNativeBlobUrl(blobUrl, options) {
 
 function getAbcNativeCachePath(tuneId, tempo) {
   const tempoKey = Math.round((tempo > 0 ? tempo : 1) * 1000);
-  return 'playback/abc-' + String(tuneId || 'unknown') + '-' + tempoKey + '.wav';
+  return 'playback/abc-v2-' + String(tuneId || 'unknown') + '-' + tempoKey + '.wav';
 }
 
-async function readAbcNativeCacheUri(tuneId, tempo) {
+function parseWavDurationSec(arrayBuffer) {
+  if (!arrayBuffer || arrayBuffer.byteLength < 44) return 0;
+  const view = new DataView(arrayBuffer);
+  const byteRate = view.getUint32(28, true);
+  if (!(byteRate > 0)) return 0;
+  const dataSize = view.getUint32(40, true);
+  if (!(dataSize > 0)) return 0;
+  return dataSize / byteRate;
+}
+
+async function readWavDurationFromUri(uri) {
+  if (!uri) return 0;
+  try {
+    const response = await fetch(uri);
+    const buf = await response.arrayBuffer();
+    return parseWavDurationSec(buf);
+  } catch (e) {
+    return 0;
+  }
+}
+
+async function readAbcNativeCacheUri(tuneId, tempo, minDurationSec) {
   const path = getAbcNativeCachePath(tuneId, tempo);
   try {
     const stat = await Filesystem.stat({ path: path, directory: Directory.Cache });
-    if (!stat || !stat.size || stat.size < 1024) {
+    if (!stat || !stat.size || stat.size < 4096) {
       return null;
     }
     const uriResult = await Filesystem.getUri({ path: path, directory: Directory.Cache });
-    return uriResult.uri;
+    const uri = uriResult.uri;
+    const cachedDuration = await readWavDurationFromUri(uri);
+    const minAccept = minDurationSec > 0 ? Math.min(minDurationSec * 0.85, minDurationSec - 0.25) : 3;
+    const floor = minDurationSec > 0 ? Math.max(1, minAccept) : 3;
+    if (!(cachedDuration >= floor)) {
+      agentDebugLog('androidNativePlayback.js:readAbcNativeCacheUri', 'cache-reject-duration', {
+        tuneId: tuneId,
+        cachedDurationSec: cachedDuration,
+        minAcceptSec: floor,
+        fileBytes: stat.size,
+      }, 'H-A');
+      try {
+        await Filesystem.deleteFile({ path: path, directory: Directory.Cache });
+      } catch (e) { /* ignore */ }
+      return null;
+    }
+    agentDebugLog('androidNativePlayback.js:readAbcNativeCacheUri', 'cache-accept', {
+      tuneId: tuneId,
+      cachedDurationSec: cachedDuration,
+      fileBytes: stat.size,
+    }, 'H-A');
+    return uri;
   } catch (e) {
     return null;
   }
@@ -158,12 +206,24 @@ export async function renderAndPlayAbcNative(abc, options) {
   const opts = options || {};
   const tuneId = opts.tune && opts.tune.id ? opts.tune.id : null;
   const tempo = opts.tempo > 0 ? opts.tempo : 1;
+  const minDurationSec = opts.minDurationSec > 0 ? opts.minDurationSec : 0;
+  agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'start', {
+    tuneId: tuneId, tempo: tempo, generation: generation, minDurationSec: minDurationSec,
+  }, 'H-D');
   try {
-    let playUri = tuneId ? await readAbcNativeCacheUri(tuneId, tempo) : null;
-    if (!isGenerationCurrent(generation)) return false;
+    let playUri = tuneId ? await readAbcNativeCacheUri(tuneId, tempo, minDurationSec) : null;
+    if (!isGenerationCurrent(generation)) {
+      agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'stale-after-cache', {
+        generation: generation,
+      }, 'H-E');
+      return false;
+    }
 
     if (playUri) {
       logPlaybackDebug('abc-native-cache-hit', { tuneId: tuneId });
+      agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'cache-hit', {
+        tuneId: tuneId, playUri: playUri ? playUri.slice(-40) : null,
+      }, 'H-A');
     } else {
       logPlaybackDebug('abc-native-render', { tuneId: tuneId });
       const buffer = await renderAbcToAudioBuffer(abc, {
@@ -172,7 +232,31 @@ export async function renderAndPlayAbcNative(abc, options) {
         chordsOff: opts.chordsOff,
       });
       if (!isGenerationCurrent(generation)) return false;
+      logPlaybackDebug('abc-native-rendered', {
+        tuneId: tuneId,
+        durationSec: buffer.duration,
+      });
       const blob = encodeAudioBufferToWav(buffer);
+      if (minDurationSec > 0 && buffer.duration < minDurationSec * 0.85) {
+        agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'render-too-short', {
+          tuneId: tuneId,
+          durationSec: buffer.duration,
+          minDurationSec: minDurationSec,
+        }, 'H-A');
+        throw new Error('Rendered notation audio is too short (' + buffer.duration.toFixed(2) + 's)');
+      }
+      if (buffer.duration < 1) {
+        agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'render-too-short-absolute', {
+          tuneId: tuneId,
+          durationSec: buffer.duration,
+        }, 'H-A');
+        throw new Error('Rendered notation audio is too short (' + buffer.duration.toFixed(2) + 's)');
+      }
+      agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'render-complete', {
+        tuneId: tuneId,
+        durationSec: buffer.duration,
+        blobBytes: blob && blob.size ? blob.size : 0,
+      }, 'H-F');
       if (tuneId) {
         playUri = await writeAbcNativeCache(tuneId, tempo, blob);
       } else {
@@ -181,6 +265,9 @@ export async function renderAndPlayAbcNative(abc, options) {
       if (!isGenerationCurrent(generation)) return false;
     }
 
+    agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'exo-load-start', {
+      tuneId: tuneId, playUri: playUri ? playUri.slice(-40) : null,
+    }, 'H-D');
     await playAndroidNativeUri(playUri, {
       title: opts.title,
       artist: opts.artist,
@@ -188,9 +275,23 @@ export async function renderAndPlayAbcNative(abc, options) {
       play: opts.play !== false,
       tempo: opts.tempo,
     });
-    if (!isGenerationCurrent(generation)) return false;
+    if (!isGenerationCurrent(generation)) {
+      agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'stale-after-load', {
+        generation: generation,
+      }, 'H-E');
+      return false;
+    }
     markNativePlayerActive(playUri);
+    agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'exo-load-ok', {
+      tuneId: tuneId,
+    }, 'H-D');
     return true;
+  } catch (err) {
+    agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'error', {
+      tuneId: tuneId,
+      message: err && err.message ? String(err.message) : 'unknown',
+    }, 'H-D')
+    throw err
   } finally {
     if (isGenerationCurrent(generation)) {
       abcNativePlayInFlight = false;
@@ -287,6 +388,11 @@ export async function seekAndroidNativePlayer(positionSec) {
 
 export async function stopAndroidNativePlayer() {
   if (!shouldUseAndroidNativePlayer()) return false;
+  // #region agent log
+  agentDebugLog('androidNativePlayback.js:stopAndroidNativePlayer', 'called', {
+    stack: String(new Error().stack || '').split('\n').slice(1, 5).join(' | '),
+  }, 'H-G');
+  // #endregion
   await stopNativePlayer();
   return true;
 }
@@ -296,3 +402,4 @@ export function isAndroidNativePlayerActive() {
 }
 
 export { openBatteryOptimizationSettings };
+export { abcMidiUsesAndroidNativePrerender } from './playbackRouter';

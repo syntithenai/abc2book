@@ -2,8 +2,10 @@ import {
   DEFAULT_CLOUD_LIGHT_MEDIA_PROXY,
   DEFAULT_PUBLIC_MEDIA_PROXY,
   getMediaProxyBaseCandidates,
+  getUseCloudResolver,
   normalizeMediaProxyBase,
   prefersPublicMediaProxyFirst,
+  setUseCloudResolver,
 } from './mediaProxyConfig'
 
 describe('mediaProxyConfig', function() {
@@ -90,5 +92,13 @@ describe('mediaProxyConfig', function() {
       if (originalCapacitor) window.Capacitor = originalCapacitor
       else delete window.Capacitor
     }
+  })
+
+  test('skips public cloud candidates when cloud resolver disabled', function() {
+    setUseCloudResolver(false)
+    expect(getUseCloudResolver()).toBe(false)
+    const candidates = getMediaProxyBaseCandidates()
+    expect(candidates).not.toContain(DEFAULT_PUBLIC_MEDIA_PROXY)
+    expect(candidates).not.toContain(DEFAULT_CLOUD_LIGHT_MEDIA_PROXY)
   })
 })

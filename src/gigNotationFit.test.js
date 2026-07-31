@@ -182,6 +182,120 @@ describe('gigNotationFit', function() {
 
       expect(paper.availH).toBe(620 - 100 - 8);
     });
+
+    it('stops above the books/tags footer in single view', function() {
+      const root = document.createElement('div');
+      root.className = 'music-single';
+      const column = document.createElement('div');
+      column.className = 'tune-panel-notation';
+      const renderEl = document.createElement('div');
+      renderEl.id = 'abc_music_viewer';
+      column.appendChild(renderEl);
+      root.appendChild(column);
+      const footer = document.createElement('div');
+      footer.className = 'music-single-footer-meta';
+      footer.getBoundingClientRect = function() {
+        return { left: 0, top: 640, width: 500, height: 72 };
+      };
+      Object.defineProperty(footer, 'offsetHeight', { configurable: true, value: 72 });
+      root.appendChild(footer);
+      document.body.appendChild(root);
+
+      renderEl.getBoundingClientRect = function() {
+        return { left: 40, top: 100, width: 420, height: 50 };
+      };
+      Object.defineProperty(renderEl, 'clientWidth', { configurable: true, value: 420 });
+      column.getBoundingClientRect = function() {
+        return { left: 0, top: 80, width: 500, height: 400 };
+      };
+      Object.defineProperty(column, 'clientWidth', { configurable: true, value: 500 });
+
+      const originalInnerHeight = window.innerHeight;
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: 700 });
+
+      const paper = measureSingleViewPaper(renderEl);
+
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
+      document.body.removeChild(root);
+
+      expect(paper.availH).toBe(640 - 100 - 8);
+    });
+
+    it('reserves footer height when the footer is below the viewport', function() {
+      const root = document.createElement('div');
+      root.className = 'music-single';
+      const column = document.createElement('div');
+      column.className = 'tune-panel-notation';
+      const renderEl = document.createElement('div');
+      renderEl.id = 'abc_music_viewer';
+      column.appendChild(renderEl);
+      root.appendChild(column);
+      const footer = document.createElement('div');
+      footer.className = 'music-single-footer-meta';
+      footer.getBoundingClientRect = function() {
+        return { left: 0, top: 760, width: 500, height: 80 };
+      };
+      Object.defineProperty(footer, 'offsetHeight', { configurable: true, value: 80 });
+      root.appendChild(footer);
+      document.body.appendChild(root);
+
+      renderEl.getBoundingClientRect = function() {
+        return { left: 40, top: 100, width: 420, height: 50 };
+      };
+      Object.defineProperty(renderEl, 'clientWidth', { configurable: true, value: 420 });
+      column.getBoundingClientRect = function() {
+        return { left: 0, top: 80, width: 500, height: 400 };
+      };
+      Object.defineProperty(column, 'clientWidth', { configurable: true, value: 500 });
+
+      const originalInnerHeight = window.innerHeight;
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: 700 });
+
+      const paper = measureSingleViewPaper(renderEl);
+
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
+      document.body.removeChild(root);
+
+      expect(paper.availH).toBe(700 - 100 - 80 - 8);
+    });
+
+    it('ignores an in-viewport footer that is still too close during layout', function() {
+      const root = document.createElement('div');
+      root.className = 'music-single';
+      const column = document.createElement('div');
+      column.className = 'tune-panel-notation';
+      const renderEl = document.createElement('div');
+      renderEl.id = 'abc_music_viewer';
+      column.appendChild(renderEl);
+      root.appendChild(column);
+      const footer = document.createElement('div');
+      footer.className = 'music-single-footer-meta';
+      footer.getBoundingClientRect = function() {
+        return { left: 0, top: 180, width: 500, height: 72 };
+      };
+      Object.defineProperty(footer, 'offsetHeight', { configurable: true, value: 72 });
+      root.appendChild(footer);
+      document.body.appendChild(root);
+
+      renderEl.getBoundingClientRect = function() {
+        return { left: 40, top: 100, width: 420, height: 50 };
+      };
+      Object.defineProperty(renderEl, 'clientWidth', { configurable: true, value: 420 });
+      column.getBoundingClientRect = function() {
+        return { left: 0, top: 80, width: 500, height: 120 };
+      };
+      Object.defineProperty(column, 'clientWidth', { configurable: true, value: 500 });
+
+      const originalInnerHeight = window.innerHeight;
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: 700 });
+
+      const paper = measureSingleViewPaper(renderEl);
+
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
+      document.body.removeChild(root);
+
+      expect(paper.availH).toBe(700 - 100 - 8);
+    });
   });
 
   describe('fitSingleViewVertical', function() {

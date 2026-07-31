@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { SnapcastClient } from '../snapcastClient';
+import { getSnapcastOutputEnabled } from '../preferredRemoteOutputSettings';
 import {
   controlUrlToJsonRpcWs,
   getStoredSnapcastControlUrl,
@@ -60,14 +61,17 @@ export default function useSnapcastControl(mediaResolverStatus) {
   }, [clearReconnectTimer]);
 
   connectInternalRef.current = async function connectInternal(overrideUrl) {
-    const url = resolveSnapcastControlUrl(healthStatus, overrideUrl || getStoredSnapcastControlUrl());
+    const manualOverride = (typeof overrideUrl === 'string' || typeof overrideUrl === 'number')
+      ? String(overrideUrl)
+      : '';
+    const url = resolveSnapcastControlUrl(healthStatus, manualOverride);
     const nextWs = controlUrlToJsonRpcWs(url);
     if (!nextWs) {
       setConnectError('Snapcast control URL not configured');
       setReconnecting(false);
       return false;
     }
-    if (overrideUrl) setStoredSnapcastControlUrl(overrideUrl);
+    if (manualOverride) setStoredSnapcastControlUrl(manualOverride);
     if (clientRef.current) {
       clientRef.current.disconnect();
     }
@@ -103,6 +107,10 @@ export default function useSnapcastControl(mediaResolverStatus) {
   };
 
   const connect = useCallback(async function(overrideUrl) {
+    if (!getSnapcastOutputEnabled()) {
+      setConnectError('Snapcast output is disabled in audio settings');
+      return false;
+    }
     wantsConnectedRef.current = true;
     reconnectAttemptRef.current = 0;
     clearReconnectTimer();

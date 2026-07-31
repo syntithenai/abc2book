@@ -4,13 +4,98 @@ import {
   buildDefaultFieldSelectionsForRecord,
   buildFieldSelectionsForRecord,
 } from '../incomingMergeUtils';
+import { toTuneUpdatedMs } from '../tuneBookSync';
 import {
   buildTuneImportFieldRows,
+  fieldValuesSemanticallyEqual,
   setAllTuneImportSelections,
   setRecommendedTuneImportSelections,
+  tuneHasNotationContent,
 } from '../tuneImportMergeUtils';
 import SelectAllToggle from './SelectAllToggle';
 import CheckToggleButton from './CheckToggleButton';
+import { buildAbcFromTune, NotationPreview } from './SuggestionPreviewDialog';
+
+function formatTuneTimestamp(ts) {
+  const ms = toTuneUpdatedMs(ts);
+  if (!ms) return '—';
+  try {
+    return new Date(ms).toLocaleString();
+  } catch (e) {
+    return String(ms);
+  }
+}
+
+function newerSideLabel(localTune, incomingTune) {
+  const localMs = toTuneUpdatedMs(localTune && localTune.lastUpdated);
+  const incomingMs = toTuneUpdatedMs(incomingTune && incomingTune.lastUpdated);
+  if (incomingMs > localMs) return 'Incoming copy is newer (saved later on Google Drive).';
+  if (localMs > incomingMs) return 'Your copy is newer on this device.';
+  return 'Both copies share the same save timestamp; compare the previews below.';
+}
+
+function notationDiffersBetweenTunes(localTune, incomingTune) {
+  if (!localTune || !incomingTune) return false;
+  if (!fieldValuesSemanticallyEqual('voices', localTune.voices, incomingTune.voices)) return true;
+  if (!fieldValuesSemanticallyEqual('notes', localTune.notes, incomingTune.notes)) return true;
+  return false;
+}
+
+function IncomingNotationPreview(props) {
+  const localTune = props.localTune;
+  const incomingTune = props.incomingTune;
+  const currentLabel = props.currentLabel || 'Current';
+  const incomingLabel = props.incomingLabel || 'Incoming';
+  if (!localTune || !incomingTune) return null;
+
+  return (
+    <div className="incoming-merge-notation-preview mt-3" data-testid="incoming-merge-notation-preview">
+      <h6 className="mb-2">Notation preview</h6>
+      <p className="small text-muted mb-2">{newerSideLabel(localTune, incomingTune)}</p>
+      <div className="row g-2">
+        <div className="col-md-6" style={{ minWidth: 0 }}>
+          <div className="small text-muted mb-1">
+            {currentLabel}
+            {localTune.lastUpdated ? ' · ' + formatTuneTimestamp(localTune.lastUpdated) : ''}
+          </div>
+          <NotationPreview abc={buildAbcFromTune(localTune)} fitWidth={true} maxHeight="35vh" />
+        </div>
+        <div className="col-md-6" style={{ minWidth: 0 }}>
+          <div className="small text-muted mb-1">
+            {incomingLabel}
+            {incomingTune.lastUpdated ? ' · ' + formatTuneTimestamp(incomingTune.lastUpdated) : ''}
+          </div>
+          <NotationPreview abc={buildAbcFromTune(incomingTune)} fitWidth={true} maxHeight="35vh" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function IncomingNotationStatus(props) {
+  const localTune = props.localTune;
+  const incomingTune = props.incomingTune;
+  const currentLabel = props.currentLabel || 'Current';
+  const incomingLabel = props.incomingLabel || 'Incoming';
+  if (!tuneHasNotationContent(localTune) && !tuneHasNotationContent(incomingTune)) {
+    return null;
+  }
+  if (notationDiffersBetweenTunes(localTune, incomingTune)) {
+    return (
+      <IncomingNotationPreview
+        localTune={localTune}
+        incomingTune={incomingTune}
+        currentLabel={currentLabel}
+        incomingLabel={incomingLabel}
+      />
+    );
+  }
+  return (
+    <Alert variant="secondary" className="mb-0 mt-3" data-testid="incoming-merge-notation-identical">
+      Music (notation) matches on both copies.
+    </Alert>
+  );
+}
 
 function RecordFieldTable(props) {
   const record = props.record;
@@ -126,6 +211,9 @@ function MergeRecordSection(props) {
   const record = props.record;
   const state = props.state || {};
   const updateRecordState = props.updateRecordState;
+  const fromSourceUrl = props.mergeKind === 'sourceUrl';
+  const currentLabel = fromSourceUrl ? 'Your tunebook' : 'Current (this device)';
+  const incomingLabel = fromSourceUrl ? 'Source file' : 'Incoming (Google Drive)';
   const differingRows = useMemo(function() {
     if (record.kind !== 'update') return [];
     return buildTuneImportFieldRows(record.localTune, record.incomingTune).filter(function(r) { return r.differs; });
@@ -157,6 +245,14 @@ function MergeRecordSection(props) {
             updateRecordState(record.id, { fieldSelections: nextSelections });
           }}
         />
+        {record.kind === 'update' && (
+          <IncomingNotationStatus
+            localTune={record.localTune}
+            incomingTune={record.incomingTune}
+            currentLabel={currentLabel}
+            incomingLabel={incomingLabel}
+          />
+        )}
         {record.kind === 'update' && (
           <div className="select-all-host" style={{ marginTop: '0.75em', display: 'flex', gap: '0.5em', flexWrap: 'wrap', alignItems: 'stretch' }}>
             <Button

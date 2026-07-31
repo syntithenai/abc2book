@@ -13,6 +13,6 @@ describe('archiveOrgLinkUtils', function() {
 
   test('isArchiveOrgLinkUri rejects non-archive URLs', function() {
     expect(isArchiveOrgLinkUri('https://youtube.com/watch?v=abc')).toBe(false);
-    expect(isArchiveOrgLinkUri('http://archive.org/details/foo')).toBe(false);
+    expect(isArchiveOrgLinkUri('http://archive.org/details/foo')).toBe(true);
   });
 });

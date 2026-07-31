@@ -13,7 +13,8 @@ import {
 import { resolveTuneDisplayLayout, isViewModesEmpty } from '../tuneDisplayLayout'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { getLyricLinesForDisplay } from '../wLinesUtils'
-import { buildAbcWithNoteSpacing, stripEmbeddedChordsFromAbc, stripLyricLinesFromAbc } from '../noteSpacingUtils'
+import { buildAbcWithNoteSpacing } from '../noteSpacingUtils'
+import { prepareGigStaffDisplayAbc } from '../notation/notationDisplayAbc'
 import { effectiveNotationLineCount } from '../notationFitSettings'
 import { filterTuneVoices } from '../abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
@@ -29,25 +30,6 @@ import { chordTransposeWithCapo } from '../capoViewUtils'
 
 const PRACTICE_FIT_HEIGHT_MIN_LINES = 4
 const PRACTICE_FIT_HEIGHT_MAX_LINES = 6
-
-function stripPracticeNotationHeaders(abcText) {
-  if (!abcText) return ''
-  let seenComposer = false
-  return abcText.split('\n').filter(function(line) {
-    const trimmed = line.trim()
-    if (trimmed.startsWith('B:')) return false
-    if (trimmed.startsWith('T:')) return false
-    if (trimmed.startsWith('N: AKA:')) return false
-    if (trimmed.startsWith('% abcbook-tags')) return false
-    if (trimmed.startsWith('% abcbook-albums')) return false
-    if (/^C:/i.test(trimmed)) {
-      if (seenComposer) return false
-      seenComposer = true
-      return true
-    }
-    return true
-  }).join('\n')
-}
 
 function clearNotationEl(el) {
   if (!el) return
@@ -143,11 +125,7 @@ export default function PracticeTuneDisplay(props) {
     clearNotationEl(notationRef.current)
     const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
     const displayAbc = buildAbcWithNoteSpacing(notationTune, tunebook.abcTools, { includeLyrics: false })
-    let staffAbc = stripPracticeNotationHeaders(displayAbc)
-    staffAbc = stripLyricLinesFromAbc(staffAbc)
-    if (!showChordsAnnotate) {
-      staffAbc = stripEmbeddedChordsFromAbc(staffAbc, tunebook.abcTools)
-    }
+    const staffAbc = prepareGigStaffDisplayAbc(displayAbc, tunebook, showChordsAnnotate)
     const initialStaffWidth = props.staffWidth || 700
     try {
       function renderAtWidth(staffWidth) {

@@ -1,6 +1,6 @@
 import { chordParserFactory } from 'chord-symbol';
 import { noteNameToMidi } from './tunerTuningUtils';
-import { extractChordSequence, tokenIsChord } from './chordSheetUtils';
+import { extractChordSequence, tokenIsChord, isSectionMarkerChordName } from './chordSheetUtils';
 
 const parseChord = chordParserFactory();
 
@@ -57,7 +57,7 @@ export function resolveChordPitchTarget(options) {
     }
   }
 
-  if (lastNotationChord && tokenIsChord(lastNotationChord)) {
+  if (lastNotationChord && tokenIsChord(lastNotationChord) && !isSectionMarkerChordName(lastNotationChord)) {
     return lastNotationChord;
   }
 

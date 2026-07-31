@@ -178,9 +178,12 @@
 }
 
 .now-playing-transport-artwork {
-  width: 2.5rem;
-  height: 2.5rem;
-  object-fit: cover;
+  display: block;
+  width: auto;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  height: auto;
+  object-fit: contain;
   border-radius: 0.25rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }

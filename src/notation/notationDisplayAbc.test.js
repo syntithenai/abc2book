@@ -1,10 +1,14 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import useAbcTools from '../useAbcTools';
 import {
+  applyStaffChordDisplayPolicy,
   buildAbcPreviewFromBodies,
   mapAbcClickToVoiceCursor,
+  prepareGigStaffDisplayAbc,
+  prepareTuneViewNotationAbc,
   stripBlockLyricsFromDisplayAbc,
   stripNotationDisplayMetadata,
+  stripStaffNotationHeaders,
 } from './notationDisplayAbc';
 
 describe('stripNotationDisplayMetadata', function() {
@@ -174,5 +178,85 @@ describe('buildAbcPreviewFromBodies', function() {
     }, { stripSectionMarkerChords: true });
     expect(displayAbc).not.toMatch(/"\[Verse\]"/);
     expect(displayAbc).toMatch(/"C"/);
+  });
+});
+
+describe('applyStaffChordDisplayPolicy', function() {
+  const abcTools = useAbcTools();
+
+  test('strips section markers when chords annotate is on', function() {
+    const abc = 'X:1\nK:C\n"[Verse]" z8 | "C" z8 |';
+    const result = applyStaffChordDisplayPolicy(abc, { chordsAnnotate: true });
+    expect(result).not.toMatch(/"\[Verse\]"/);
+    expect(result).toMatch(/"C"/);
+  });
+
+  test('strips all embedded chords when annotate off and stripEmbeddedChordsWhenOff', function() {
+    const abc = 'X:1\nK:C\n"[Verse]" z8 | "C" z8 |';
+    const result = applyStaffChordDisplayPolicy(abc, {
+      chordsAnnotate: false,
+      stripEmbeddedChordsWhenOff: true,
+      abcTools: abcTools,
+    });
+    expect(result).not.toMatch(/"\[Verse\]"/);
+    expect(result).not.toMatch(/"C"/);
+  });
+
+  test('keeps embedded chords when annotate off without stripEmbeddedChordsWhenOff', function() {
+    const abc = 'X:1\nK:C\n"[Verse]" z8 | "C" z8 |';
+    const result = applyStaffChordDisplayPolicy(abc, { chordsAnnotate: false });
+    expect(result).toMatch(/"\[Verse\]"/);
+    expect(result).toMatch(/"C"/);
+  });
+});
+
+describe('prepareGigStaffDisplayAbc', function() {
+  const abcTools = useAbcTools();
+  const tunebook = { abcTools: abcTools };
+
+  test('removes title and section markers for gig staff with chords annotate', function() {
+    const displayAbc = [
+      'X:1',
+      'T:Title',
+      'K:C',
+      '"[Verse]" z8 | "C" z8 |',
+    ].join('\n');
+    const result = prepareGigStaffDisplayAbc(displayAbc, tunebook, true);
+    expect(result).not.toMatch(/^T:/m);
+    expect(result).not.toMatch(/"\[Verse\]"/);
+    expect(result).toMatch(/"C"/);
+  });
+
+  test('strips embedded chords when chords annotate is off', function() {
+    const displayAbc = 'X:1\nK:C\n"[Verse]" z8 | "C" z8 |';
+    const result = prepareGigStaffDisplayAbc(displayAbc, tunebook, false);
+    expect(result).not.toMatch(/"C"/);
+  });
+});
+
+describe('prepareTuneViewNotationAbc', function() {
+  test('keeps note-aligned lyrics and strips block lyrics', function() {
+    const abc = [
+      'X:1',
+      'T:Test',
+      'K:C',
+      'C D E |',
+      'w: Hel- lo',
+      'W: block',
+    ].join('\n');
+    const result = prepareTuneViewNotationAbc(abc, false);
+    expect(result).toMatch(/^w: Hel- lo$/m);
+    expect(result).not.toMatch(/^W:/m);
+    expect(result).toMatch(/^T:Test$/m);
+  });
+});
+
+describe('stripStaffNotationHeaders', function() {
+  test('removes title after metadata strip', function() {
+    const abc = ['X:1', 'T:Title', 'H:History', 'K:C', 'CDEF |'].join('\n');
+    const stripped = stripStaffNotationHeaders(abc);
+    expect(stripped).not.toMatch(/^T:/m);
+    expect(stripped).not.toMatch(/^H:/m);
+    expect(stripped).toMatch(/CDEF/);
   });
 });

@@ -1,12 +1,23 @@
-import { createContext, useContext, useEffect } from 'react';
+import { createContext, useContext, useEffect, useMemo } from 'react';
 import useSnapcastSession from './useSnapcastSession';
 import useMediaCastSession from './useMediaCastSession';
 import useRemoteCastPlayback from './useRemoteCastPlayback';
 import { postSnapcastPluginAction } from './snapcastPlaybackClient';
+import { createPreferredOutputCoordinator } from './preferredOutputCoordinator';
+import {
+  getPreferredRemoteOutput,
+  isSnapcastPreferredOutput,
+} from './preferredRemoteOutputSettings';
 
 const RemoteOutputContext = createContext(null);
 
-export function RemoteOutputProvider({ children, mediaController }) {
+export function RemoteOutputProvider({
+  children,
+  mediaController,
+  tunebook,
+  nowPlayingQueue,
+  tunes,
+}) {
   const snapcast = useSnapcastSession({
     mediaController: mediaController,
     mediaResolverStatus: mediaController && mediaController.mediaResolverStatus
@@ -15,6 +26,30 @@ export function RemoteOutputProvider({ children, mediaController }) {
   });
   const castSession = useMediaCastSession({ mediaController: mediaController });
   const airplayCast = useRemoteCastPlayback({ mediaController: mediaController });
+
+  const coordinator = useMemo(function() {
+    return createPreferredOutputCoordinator({
+      mediaController: mediaController,
+      snapcast: snapcast,
+      tunebook: tunebook,
+      nowPlayingQueue: nowPlayingQueue,
+      tunes: tunes,
+    });
+  }, [
+    mediaController,
+    snapcast,
+    tunebook,
+    nowPlayingQueue,
+    tunes,
+  ]);
+
+  useEffect(function() {
+    if (!mediaController || !mediaController.setPreferredOutputCoordinator) return undefined;
+    mediaController.setPreferredOutputCoordinator(coordinator);
+    return function() {
+      mediaController.setPreferredOutputCoordinator(null);
+    };
+  }, [mediaController, coordinator]);
 
   useEffect(function() {
     if (!mediaController || !mediaController.setSnapcastOutputHandlers) return undefined;
@@ -65,6 +100,7 @@ export function RemoteOutputProvider({ children, mediaController }) {
     snapcast: snapcast,
     castSession: castSession,
     airplayCast: airplayCast,
+    preferredOutputCoordinator: coordinator,
   };
 
   return (
@@ -95,4 +131,13 @@ export function useCastSession() {
 
 export function useAirplayCast() {
   return useRemoteOutputContext().airplayCast;
+}
+
+export function usePreferredRemoteOutput() {
+  const context = useRemoteOutputContext();
+  return {
+    preference: getPreferredRemoteOutput(),
+    isSnapcastDefault: isSnapcastPreferredOutput(),
+    coordinator: context.preferredOutputCoordinator,
+  };
 }

@@ -35,10 +35,9 @@ import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettin
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
 import {
   buildAbcWithNoteSpacing,
-  stripEmbeddedChordsFromAbc,
-  stripLyricLinesFromAbc,
 } from '../noteSpacingUtils';
-import { stripNotationDisplayMetadata } from '../notation/notationDisplayAbc';
+import { prepareGigStaffDisplayAbc } from '../notation/notationDisplayAbc';
+import { isSectionMarkerChordName } from '../chordSheetUtils';
 import { filterTuneVoices } from '../abcVoiceFilter';
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings';
 import { buildGigRoute, getPlaylistTuneIdAtIndex } from '../gigRouteUtils';
@@ -54,15 +53,6 @@ import './GigModeModal.css';
 function requestWakeLock() {
   if (typeof navigator === 'undefined' || !navigator.wakeLock) return null;
   return navigator.wakeLock.request('screen').catch(function() { return null; });
-}
-
-function stripGigNotationHeaders(abcText) {
-  if (!abcText) return '';
-  return stripNotationDisplayMetadata(abcText).split('\n').filter(function(line) {
-    const trimmed = line.trim();
-    if (trimmed.startsWith('T:')) return false;
-    return true;
-  }).join('\n');
 }
 
 export default function GigModeModal(props) {
@@ -208,9 +198,12 @@ export default function GigModeModal(props) {
 
   const handleNotationChordClick = useCallback(function(abcelem) {
     if (abcelem && Array.isArray(abcelem.chord) && abcelem.chord.length > 0) {
-      lastNotationChordRef.current = String(abcelem.chord[0].name || '')
+      const name = String(abcelem.chord[0].name || '')
         .replace(/♭/g, 'b')
         .replace(/♯/g, '#');
+      if (name && !isSectionMarkerChordName(name)) {
+        lastNotationChordRef.current = name;
+      }
     }
   }, []);
 
@@ -289,12 +282,7 @@ export default function GigModeModal(props) {
 
       const notationTune = filterTuneVoices(currentTune, visibleVoiceKeys);
       const displayAbc = buildAbcWithNoteSpacing(notationTune, tunebook.abcTools, { includeLyrics: false });
-      let staffAbc = stripGigNotationHeaders(displayAbc);
-      staffAbc = stripLyricLinesFromAbc(staffAbc);
-      // Structure owns the block chart; strip staff chords unless Chords annotate is on.
-      if (!showChordsAnnotate) {
-        staffAbc = stripEmbeddedChordsFromAbc(staffAbc, tunebook.abcTools);
-      }
+      const staffAbc = prepareGigStaffDisplayAbc(displayAbc, tunebook, showChordsAnnotate);
       const renderOptions = Object.assign({}, buildGigNotationRenderOptions(notationVisualTranspose), {
         clickListener: handleNotationChordClick,
       });

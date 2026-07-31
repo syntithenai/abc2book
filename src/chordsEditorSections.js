@@ -365,7 +365,9 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter,
       || keyFallback
     const key = normalizeKeySignature(blockKey)
     const split = splitChartHeaderAndBody(chartRaw)
-    const chart = String(split.body || '').trim()
+    const chart = split.headerLine
+      ? joinChartHeaderAndBody(split.headerLine, String(split.body || '').trim())
+      : String(split.body || '').trim()
     previousMeter = meter
     previousTempo = tempo
     previousKey = key

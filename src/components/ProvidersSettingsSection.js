@@ -7,6 +7,8 @@ import {
   DEFAULT_CLOUD_LIGHT_MEDIA_PROXY,
   DEFAULT_PUBLIC_MEDIA_PROXY,
   getLocalMediaProxyCandidates,
+  getUseCloudResolver,
+  setUseCloudResolver,
 } from '../mediaProxyConfig'
 import { getResolverLoginWarning } from '../mediaProxyClient'
 import { openCreditSettings } from '../resolverCreditAccess'
@@ -510,12 +512,29 @@ function ResolverTab({
   formatCandidateStatus,
 }) {
   const [showResolverInstallHelp, setShowResolverInstallHelp] = useState(false)
+  const [useCloudResolver, setUseCloudResolverState] = useState(getUseCloudResolver())
 
   return (
     <div className="App-settings-section">
       <h3 style={{ fontSize: '1.1rem' }}>Resolver</h3>
       <p className="app-text-muted">
         Optional override of resolver base URL for pitch/tempo playback, lyrics transcription, chord discovery and more.
+      </p>
+      <Form.Check
+        type="switch"
+        id="use-cloud-resolver"
+        className="mb-3"
+        label="Use hosted cloud resolvers (peppertrees and cloud-light)"
+        checked={useCloudResolver}
+        onChange={function(e) {
+          const next = setUseCloudResolver(e.target.checked)
+          setUseCloudResolverState(next)
+          refreshResolverStatus()
+        }}
+      />
+      <p className="app-text-muted small">
+        Turn off for offline-only use with a local resolver URL. When disabled, only your saved URL,
+        localhost, and environment overrides are probed.
       </p>
       <Form.Group className="mb-2">
         <Form.Label htmlFor="media-proxy-url">
@@ -661,6 +680,10 @@ export default function ProvidersSettingsSection({
       }
       pingYoutubeExtension({ force: true }).then(function(result) {
         if (cancelled) return
+        if (isYoutubeHelperDisabled()) {
+          setHelperStatus({ ok: false, version: null, checking: false })
+          return
+        }
         setHelperStatus({
           ok: !!result.ok,
           version: result.version || null,

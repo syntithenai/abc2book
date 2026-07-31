@@ -1,14 +1,21 @@
 import { splitIntoBlocks, coalesceSectionHeaderBlocks, normalizeLyricBlocks, isSectionHeader } from './chordSheetUtils';
+import {
+  collapseAnacrusisDoubleBarlines,
+  normalizeMelodyBarlines,
+} from './melodyBarlineNormalize';
+
+export { collapseAnacrusisDoubleBarlines, normalizeMelodyBarlines } from './melodyBarlineNormalize';
 
 /**
  * Join ABC note lines for bar/block parsing. Visual line breaks are layout
  * only and must not create extra musical units.
  */
 export function flattenMelodyText(noteLines) {
-  return (Array.isArray(noteLines) ? noteLines : [])
+  const flat = (Array.isArray(noteLines) ? noteLines : [])
     .map(function(line) { return String(line || '').trim(); })
     .filter(Boolean)
     .join(' ');
+  return normalizeMelodyBarlines(flat);
 }
 
 /**
@@ -30,7 +37,7 @@ export function splitMelodyIntoBlocks(noteLines) {
  */
 export function extractBarsFromMelodyText(text) {
   const bars = [];
-  const segments = String(text || '').split('|');
+  const segments = normalizeMelodyBarlines(String(text || '')).split('|');
   segments.forEach(function(segment, index) {
     const trimmed = segment.trim();
     if (!trimmed) return;

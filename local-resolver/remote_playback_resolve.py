@@ -14,6 +14,8 @@ from remote_playback_render import render_midi_bytes_to_audio_bytes, remote_play
 
 ResolveAudioFn = Callable[..., Awaitable[tuple[bytes, str, str | None]]]
 
+MAX_UPLOAD_BYTES = int(os.getenv("MAX_STREAM_BYTES", str(80 * 1024 * 1024)))
+
 
 def decode_midi_base64(body: dict[str, Any]) -> bytes:
     raw = body.get("midiBase64") or body.get("midiData")
@@ -23,6 +25,22 @@ def decode_midi_base64(body: dict[str, Any]) -> bytes:
         return base64.b64decode(str(raw))
     except Exception as exc:
         raise HTTPException(status_code=400, detail="Invalid midiBase64 payload") from exc
+
+
+def decode_uploaded_audio_bytes(body: dict[str, Any]) -> tuple[bytes, str] | None:
+    raw = body.get("audioBase64") or body.get("audioData")
+    if not raw:
+        return None
+    try:
+        audio_bytes = base64.b64decode(str(raw))
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail="Invalid audioBase64 payload") from exc
+    if not audio_bytes:
+        raise HTTPException(status_code=400, detail="Empty audioBase64 payload")
+    if len(audio_bytes) > MAX_UPLOAD_BYTES:
+        raise HTTPException(status_code=413, detail="Uploaded audio too large")
+    filename = str(body.get("audioFilename") or "upload.m4a")
+    return audio_bytes, filename
 
 
 async def resolve_session_audio_bytes(
@@ -40,6 +58,9 @@ async def resolve_session_audio_bytes(
         midi_bytes = decode_midi_base64(body)
         audio_bytes, filename = render_midi_bytes_to_audio_bytes(midi_bytes)
         return audio_bytes, filename
+    uploaded = decode_uploaded_audio_bytes(body)
+    if uploaded:
+        return uploaded
     audio_bytes, filename, _content_type = await resolve_linked_media_audio_bytes(
         source,
         source_type,
@@ -96,7 +117,7 @@ async def resolve_queue_input_paths(
             source = str(item.get("source") or item.get("sourceUrl") or "").strip()
             source_type = str(item.get("sourceType") or "").strip().lower()
             duration = float(item.get("duration") or 0)
-        if not source and not merged.get("midiBase64"):
+        if not source and not merged.get("midiBase64") and not merged.get("audioBase64"):
             continue
         input_path, _filename, _input_is_temp = await resolve_session_input_path(
             source=source or f"queue-item-{index}",

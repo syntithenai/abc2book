@@ -17,17 +17,13 @@ import {
 } from '../viewModeUtils';
 import { resolveTuneDisplayLayout, isViewModesEmpty } from '../tuneDisplayLayout';
 import { getTuneNotationFitMode } from '../notationFitSettings';
-import { stripNotationDisplayMetadata, stripBlockLyricsFromDisplayAbc } from '../notation/notationDisplayAbc';
+import { prepareTuneViewNotationAbc } from '../notation/notationDisplayAbc';
 import { getTuneGigZoom } from '../gigDisplaySettings';
 import { NOTATION_FIT_VERTICAL } from '../gigNotationFit';
 import { tuneImportTitle } from '../importTitleMatch';
 import { useCapoViewState } from '../useCapoViewState';
 import { chordTransposeWithCapo } from '../capoViewUtils';
-
-function stripNotationMeta(abcText) {
-  if (!abcText) return '';
-  return stripBlockLyricsFromDisplayAbc(stripNotationDisplayMetadata(abcText));
-}
+import { isSectionMarkerChordName } from '../chordSheetUtils';
 
 function buildUniqueChords(chordsText) {
   const uniqueChords = {};
@@ -35,6 +31,7 @@ function buildUniqueChords(chordsText) {
     const token = chord.trim();
     if (!token) return;
     if (token === ':' || token === '|:' || token === ':|' || token === ':|:' || /^\[\d+$/.test(token) || /^\d+\.$/.test(token)) return;
+    if (isSectionMarkerChordName(token)) return;
     uniqueChords[token] = true;
   });
   return uniqueChords;
@@ -115,7 +112,10 @@ export function TuneSingleViewContent(props) {
   const useInstrument = localStorage.getItem('bookstorage_last_chord_instrument')
     ? localStorage.getItem('bookstorage_last_chord_instrument')
     : 'guitar';
-  const notationAbc = stripNotationMeta(tunebook.abcTools.json2abc(notationTune));
+  const notationAbc = prepareTuneViewNotationAbc(
+    tunebook.abcTools.json2abc(notationTune),
+    chordsAnnotate
+  );
   const backgroundInfoText = typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo.trim() : '';
   const tuneBooks = Array.isArray(tune.books)
     ? tune.books.map(function(item) { return String(item || '').trim(); }).filter(Boolean)

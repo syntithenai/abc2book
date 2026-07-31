@@ -241,10 +241,17 @@ class SnapcastPlaybackManager:
     ) -> SnapcastSession:
         self.ensure_started()
         with self._lock:
-            if len(self._sessions) >= snapcast_max_sessions():
+            max_sessions = snapcast_max_sessions()
+            while len(self._sessions) >= max_sessions:
+                if not self._sessions:
+                    break
+                victim_id = min(
+                    self._sessions.keys(),
+                    key=lambda sid: self._sessions[sid].last_activity,
+                )
+                self._stop_session_locked(victim_id)
+            if len(self._sessions) >= max_sessions:
                 raise RuntimeError("Maximum concurrent Snapcast sessions reached")
-            for existing_id in list(self._sessions.keys()):
-                self._stop_session_locked(existing_id)
             session_id = uuid.uuid4().hex
             session = SnapcastSession(
                 session_id=session_id,

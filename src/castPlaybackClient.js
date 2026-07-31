@@ -1,15 +1,19 @@
-import { fetchViaMediaProxy, requiresResolverProxiedPlayback } from './mediaProxyClient';
+import {
+  fetchViaMediaProxy,
+  normalizeMediaProxyTargetUrl,
+  requiresResolverProxiedPlayback,
+} from './mediaProxyClient';
 import {
   getCastResolverBaseError,
   isLocalhostCastBase,
   resolveCastMediaBase,
 } from './castSupport';
+import { resolveSnapcastAccessToken } from './snapcastPlaybackClient';
 
 export { isLocalhostCastBase, getCastResolverBaseError };
 
 function resolveToken(options) {
-  const opts = options || {};
-  return opts.accessToken || opts.token || null;
+  return resolveSnapcastAccessToken(options) || null;
 }
 
 /** Resolver base Chromecast can fetch from (LAN/public URL, not localhost). */
@@ -22,11 +26,12 @@ export function buildCastMediaUrl(src, options) {
   if (!src || String(src).startsWith('blob:')) return null;
   const base = getCastResolverBase(opts);
   if (!base) return null;
-  if (requiresResolverProxiedPlayback(src)) {
-    return base + '/proxy-audio?url=' + encodeURIComponent(src);
+  const proxyTarget = normalizeMediaProxyTargetUrl(src);
+  if (requiresResolverProxiedPlayback(proxyTarget)) {
+    return base + '/proxy-audio?url=' + encodeURIComponent(proxyTarget);
   }
-  if (String(src).startsWith('http://') || String(src).startsWith('https://')) {
-    return base + '/proxy-audio?url=' + encodeURIComponent(src);
+  if (String(proxyTarget).startsWith('http://') || String(proxyTarget).startsWith('https://')) {
+    return base + '/proxy-audio?url=' + encodeURIComponent(proxyTarget);
   }
   return src;
 }
@@ -99,6 +104,9 @@ export async function createCastPlaybackSession(options) {
       fineTune: opts.fineTune,
       tempo: opts.tempo,
       midiBase64: opts.midiBase64,
+      audioBase64: opts.audioBase64,
+      audioMime: opts.audioMime,
+      audioFilename: opts.audioFilename,
       queue: opts.queue,
     }),
   });

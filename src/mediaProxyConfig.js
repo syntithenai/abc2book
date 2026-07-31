@@ -1,6 +1,7 @@
 import { isCapacitorNative } from './platformUtils'
 
 const STORAGE_KEY = 'bookstorage_media_proxy_base'
+const CLOUD_RESOLVER_KEY = 'bookstorage_use_cloud_resolver'
 
 export const DEFAULT_PUBLIC_MEDIA_PROXY = 'https://peppertrees.syntithenai.com'
 
@@ -97,6 +98,33 @@ function parseCsvMediaProxyUrls(value) {
   return String(value).split(',').map(normalizeMediaProxyBase).filter(Boolean)
 }
 
+export function getUseCloudResolver() {
+  try {
+    const raw = localStorage.getItem(CLOUD_RESOLVER_KEY)
+    if (raw === '0') return false
+    return true
+  } catch (e) {
+    return true
+  }
+}
+
+export function setUseCloudResolver(enabled) {
+  try {
+    localStorage.setItem(CLOUD_RESOLVER_KEY, enabled ? '1' : '0')
+  } catch (e) {
+    return false
+  }
+  notifyMediaProxySettingsChanged()
+  return !!enabled
+}
+
+function appendPublicResolverCandidates(urls) {
+  if (!getUseCloudResolver()) return
+  getDefaultPublicMediaProxyCandidates().forEach(function(url) {
+    pushUnique(urls, url)
+  })
+}
+
 export function getDefaultPublicMediaProxyCandidates() {
   const urls = [DEFAULT_PUBLIC_MEDIA_PROXY, DEFAULT_CLOUD_LIGHT_MEDIA_PROXY]
   parseCsvMediaProxyUrls(process.env.REACT_APP_PUBLIC_MEDIA_PROXY_URLS || '').forEach(function(url) {
@@ -135,9 +163,7 @@ export function getMediaProxyBaseCandidates() {
   if (saved) pushUnique(urls, saved)
 
   if (publicFirst) {
-    getDefaultPublicMediaProxyCandidates().forEach(function(url) {
-      pushUnique(urls, url)
-    })
+    appendPublicResolverCandidates(urls)
   }
 
   if (!publicFirst && !native) {
@@ -155,9 +181,7 @@ export function getMediaProxyBaseCandidates() {
   }
 
   if (!publicFirst) {
-    getDefaultPublicMediaProxyCandidates().forEach(function(url) {
-      pushUnique(urls, url)
-    })
+    appendPublicResolverCandidates(urls)
   }
 
   return urls

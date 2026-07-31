@@ -22,6 +22,7 @@ export default function OutputDevicePicker({
   disabled,
   disabledReason,
   menuOpen,
+  minimal,
 }) {
   const [devices, setDevices] = useState([]);
   const [selectedId, setSelectedId] = useState(getOutputDeviceId);
@@ -111,8 +112,10 @@ export default function OutputDevicePicker({
   const canChooseSpeaker = isSelectAudioOutputSupported();
 
   return (
-    <div className="output-device-picker">
-      <Form.Label className="small mb-1">Local audio output</Form.Label>
+    <div className={'output-device-picker' + (minimal ? ' output-device-picker--minimal' : '')}>
+      {minimal ? null : (
+        <Form.Label className="small mb-1">Local audio output</Form.Label>
+      )}
       {disabled && disabledReason ? (
         <p className="text-muted small">{disabledReason}</p>
       ) : null}
@@ -121,8 +124,9 @@ export default function OutputDevicePicker({
         value={selectedId}
         disabled={disabled || pickingDevice}
         onChange={function(e) { applySink(e.target.value); }}
+        aria-label={minimal ? 'Local audio output' : undefined}
       >
-        <option value="">Default output</option>
+        <option value="">{minimal ? 'This device' : 'Default output'}</option>
         {devices.map(function(device) {
           if (device.deviceId === 'default') return null;
           return (
@@ -136,14 +140,14 @@ export default function OutputDevicePicker({
         <Button
           size="sm"
           variant="outline-secondary"
-          className="mt-2"
+          className={minimal ? 'mt-1' : 'mt-2'}
           disabled={disabled || pickingDevice}
           onClick={handleChooseDevice}
         >
-          {pickingDevice ? 'Opening speaker picker…' : 'Choose speaker…'}
+          {pickingDevice ? 'Opening…' : (minimal ? 'Choose speaker…' : 'Choose speaker…')}
         </Button>
       ) : null}
-      {selectableDevices.length === 0 && !canChooseSpeaker ? (
+      {!minimal && selectableDevices.length === 0 && !canChooseSpeaker ? (
         <p className="text-muted small mt-1 mb-0">
           No speakers listed yet.
         </p>

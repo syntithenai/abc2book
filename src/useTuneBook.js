@@ -12,6 +12,7 @@ import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 import abcjs from "abcjs";
 import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
+import { linkUriString } from './tuneLinkUri'
 import { getLyricLines } from './wLinesUtils'
 import { buildNotationWLines } from './noteSpacingUtils'
 import { filterTunes } from './tuneListFilter'
@@ -47,7 +48,14 @@ import {
 import { playExternalMediaItem } from './standaloneMediaPlayback'
 import { advanceQueueToNextPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
 import { announcePlaylistTrack } from './playlistTitleAnnouncement'
+import { announceFootPedalOpeningTune } from './footPedalOpeningToast'
 import { playLessonYoutube, isLessonYoutubePlaying } from './lessonYoutubePlayer'
+import { enqueueAutoCacheForTuneLinks, startMediaLinkAutoCacheQueue } from './mediaLinkAutoCache'
+import {
+  tuneHasPendingOwnedMediaUpload,
+  uploadOwnedMediaLinksForTune,
+} from './linkRecording'
+import { getActiveResolverAccessToken } from './mediaResolverHealthStore'
 import { requestNavigatePlayback } from './tunePlaybackActions'
 import { playTuneNow } from './tunePlaybackActions'
 import {
@@ -71,7 +79,7 @@ import {
   saveTuneToRepository,
 } from './tuneRepository'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn, ownedMediaUpload, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef}) => {
   const utils = useUtils()
   const abcTools = useAbcTools()
   // from old data
@@ -97,6 +105,12 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     return { hasNotesOrChords: hasNotesOrChords, hasLinks: hasLinks }
   }
 
+  function maybeAnnounceFootPedalOpening(opts, tuneOrId) {
+    if (!opts || !opts.announceOpening) return
+    var tune = typeof tuneOrId === 'string' ? lookupTune(tuneOrId) : tuneOrId
+    announceFootPedalOpeningTune(tune)
+  }
+
   function navigateSetPlaylistStep(direction, currentSongId, failCallback, locationPathname, options) {
     if (!setPlaylist || !setPlaylist.tunes || setPlaylist.tunes.length === 0) return false
     var opts = options || {}
@@ -117,6 +131,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       setSetPlaylist(newPL)
       var nextTune = newPL.tunes[nextIndex]
       if (nextTune && nextTune.id) {
+        maybeAnnounceFootPedalOpening(opts, tunes && tunes[nextTune.id] ? tunes[nextTune.id] : nextTune)
         setCurrentTune(nextTune.id)
         if (mediaController && startPlayback) {
           var fullTune = tunes && tunes[nextTune.id] ? tunes[nextTune.id] : nextTune
@@ -174,7 +189,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     var useBook = book
     var selectedArray = selected && selected.split ? selected.split(",").filter(function(v) { return !!v }) : []
     if (selectedArray.length > 0) {
-      fillTunes = mediaFromSelection(utils.uniquifyArray(selectedArray).join(",")).filter(function(tune) {
+      fillTunes = mediaFromSelection(utils.uniquifyArray(selectedArray).join(","), mergedTunes).filter(function(tune) {
         if (book && tune.books && tune.books.indexOf(book) !== -1) return true
         if (filterTags && filterTags.length > 0 && tune.tags) {
           for (var i = 0; i < filterTags.length; i++) {
@@ -190,7 +205,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         }
         if (book || (filterTags && filterTags.length > 0) || (filterGenres && filterGenres.length > 0) || (filterArtists && filterArtists.length > 0)) return false
         return true
-      }, mergedTunes)
+      })
       shuffleArray(fillTunes)
       useBook = 'Selection'
     } else {
@@ -223,7 +238,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         }
         playExternalMediaItem(item.externalMedia, opts.mediaController, { play: true, fromUserGesture: true })
       }
-      return 'media:' + (item.externalMedia.uri || item.externalMedia.collectionLink || item.externalMedia.title || 'track')
+      return 'media:' + (item.externalMedia.uri || item.externalMedia.mediaLink || item.externalMedia.collectionLink || item.externalMedia.title || 'track')
     }
     var tuneId = item && item.tuneId ? item.tuneId : null
     if (!tuneId) return null
@@ -339,6 +354,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         return
       }
       if (!tuneId) return
+
+      maybeAnnounceFootPedalOpening(opts, tune)
 
       if (mediaController && startPlayback && tune) {
         playQueueItem(mediaController, tunebookApi, tune, item, { fromUserGesture: true })
@@ -492,6 +509,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     // Fresh search / list with no current tune: land on first (next) or last (prev).
     if (idx === -1) {
       var fallbackIdx = direction > 0 ? 0 : orderedIds.length - 1
+      maybeAnnounceFootPedalOpening(opts, orderedIds[fallbackIdx])
       navigateToSearchListTune(
         orderedIds[fallbackIdx],
         navigateFn,
@@ -518,6 +536,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
           return
         }
         var nextTune = orderedTunes[nextListIndex]
+        maybeAnnounceFootPedalOpening(opts, nextTune)
         navigateToSearchListTune(
           nextTune && nextTune.id ? nextTune.id : null,
           navigateFn,
@@ -532,6 +551,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     var nextIdx = direction > 0
       ? (idx + 1) % orderedIds.length
       : (idx - 1 + orderedIds.length) % orderedIds.length
+    maybeAnnounceFootPedalOpening(opts, orderedIds[nextIdx])
     navigateToSearchListTune(orderedIds[nextIdx], navigateFn, locationPathname, mediaController, startPlayback)
   }
 
@@ -737,6 +757,27 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       }
       setTunes(Object.assign({}, tunes))
       saveTunesOnline()
+      if (tune.id && Array.isArray(tune.links) && tune.links.length > 0) {
+        const cacheJobs = enqueueAutoCacheForTuneLinks(tune, {
+          isYoutubeLink: utils.isYoutubeLink,
+          youtubeGetId: utils.YouTubeGetID,
+          accessToken: getActiveResolverAccessToken(),
+        })
+        if (cacheJobs.length > 0) {
+          startMediaLinkAutoCacheQueue()
+        }
+      }
+      if (isLoggedIn && ownedMediaUpload && ownedMediaUpload.driveApi && tuneHasPendingOwnedMediaUpload(tune)) {
+        uploadOwnedMediaLinksForTune(tune, {
+          token: ownedMediaUpload.token,
+          driveApi: ownedMediaUpload.driveApi,
+          googleDocumentId: ownedMediaUpload.googleDocumentId,
+          onlyPendingUploads: true,
+        }).then(function(result) {
+          if (!result || !result.tune || result.uploaded === 0) return
+          saveTune(result.tune, true, { skipHistory: true })
+        }).catch(function() {})
+      }
     } finally {
       saveTuneInProgressRef.current = false
     }
@@ -1500,8 +1541,14 @@ The main difference between the two functions is the additional condition in app
       ////},100)
     //},[filter,props.currentTuneBook])
     function hasLinks(tune) {
-        var a = (tune && Array.isArray(tune.links) && tune.links.length > 0 && ((tune.links[0].link && tune.links[0].link.trim().length > 0) || (tune.links[0].title && tune.links[0].title.trim().length > 0) || (tune.links[0].startAt && tune.links[0].startAt.trim().length > 0) || (tune.links[0].endAt && tune.links[0].endAt.trim().length > 0) ) )
-        return a
+        var first = tune && Array.isArray(tune.links) && tune.links.length > 0 ? tune.links[0] : null
+        if (!first) return false
+        return (
+            linkUriString(first).trim().length > 0
+            || (first.title && String(first.title).trim().length > 0)
+            || (first.startAt && String(first.startAt).trim().length > 0)
+            || (first.endAt && String(first.endAt).trim().length > 0)
+        )
         
         //return true
         //(
@@ -2003,7 +2050,7 @@ The main difference between the two functions is the additional condition in app
             if (tune.links && tune.links.length > 0) {
                 var found = false
                 tune.links.forEach(function(link) {
-                  if (link.link && link.link.trim()) {
+                  if (linkUriString(link).trim()) {
                       found = true
                   }
                 })
@@ -2018,7 +2065,7 @@ The main difference between the two functions is the additional condition in app
           if (tune.links && tune.links.length > 0) {
                 var found = false
                 tune.links.forEach(function(link) {
-                  if (link.link && link.link.trim()) {
+                  if (linkUriString(link).trim()) {
                       found = true
                   }
                 })
@@ -2123,7 +2170,7 @@ The main difference between the two functions is the additional condition in app
     var final = []
     if (selection && selection.split) {
         var res = selection.split(",").forEach(function(tuneId) {
-            var useTunes = (mergedTunes !== null ? mergedTunes : tunes)
+            var useTunes = mergedTunes != null ? mergedTunes : tunes
             if (useTunes[tuneId]) {
                   var tune = useTunes[tuneId]
                   if (hasLinks(tune)) {

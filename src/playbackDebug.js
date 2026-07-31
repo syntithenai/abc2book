@@ -16,22 +16,26 @@ export function isPlaybackDebugEnabled() {
 }
 
 export function agentDebugLog(location, message, data, hypothesisId) {
+  const payload = {
+    sessionId: AGENT_DEBUG_SESSION,
+    location: location,
+    message: message,
+    data: data || {},
+    hypothesisId: hypothesisId || '',
+    timestamp: Date.now(),
+    runId: 'midi-debug',
+  }
   // #region agent log
+  if (typeof console !== 'undefined' && console.log) {
+    console.log('[DBG-' + AGENT_DEBUG_SESSION + ']', location, message, payload.data)
+  }
   fetch(AGENT_DEBUG_ENDPOINT, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
       'X-Debug-Session-Id': AGENT_DEBUG_SESSION,
     },
-    body: JSON.stringify({
-      sessionId: AGENT_DEBUG_SESSION,
-      location: location,
-      message: message,
-      data: data || {},
-      hypothesisId: hypothesisId || '',
-      timestamp: Date.now(),
-      runId: 'tablet-verify',
-    }),
+    body: JSON.stringify(payload),
   }).catch(function() {})
   // #endregion
 }

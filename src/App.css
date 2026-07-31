@@ -554,6 +554,15 @@
   min-width: 4.5rem;
 }
 
+.incoming-merge-notation-preview .suggestion-preview-notation,
+.incoming-merge-notation-preview .suggestion-preview-notation--wrap {
+  overflow: auto;
+}
+
+.incoming-merge-notation-preview .abcjs-container {
+  max-width: 100%;
+}
+
 .App-books .nav-tabs .nav-item button {
   font-size:1.6em !important;
   font-weight: 500 !important;
@@ -4798,10 +4807,24 @@ button img:after {
   box-sizing: border-box;
 }
 
+/* Side-by-side fit-height: pin notation and lyrics under the toolbar together. */
+.music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-notation {
+  position: sticky;
+  top: calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + calc(var(--music-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1)));
+  align-self: start;
+  overflow-anchor: none;
+}
+
 /* Side lyrics column stays within viewport when notation is fit-height */
 .music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-lyrics {
+  position: sticky;
+  top: calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + calc(var(--music-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1)));
+  align-self: start;
+  box-sizing: border-box;
   max-height: calc(100vh - 8rem - var(--app-playlist-transport-offset, 0px));
   overflow-y: auto;
+  /* Match notation column inset so tops stay aligned after the load scroll. */
+  padding-top: 0.7em;
 }
 
 /* Gig mode: scroll host is already below the header */
@@ -12968,4 +12991,24 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 .remote-output-button .remote-output-button-icon svg {
   width: 1.15em;
   height: 1.15em;
+}
+
+.remote-output-button--large-icon .remote-output-button-toggle--large-icon .remote-output-button-icon svg,
+.remote-output-button--large-icon .remote-output-button-toggle--large-icon .remote-output-button-icon img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.remote-output-menu .remote-output-menu-section + .remote-output-menu-section {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.remote-output-menu .remote-output-menu-active {
+  font-size: 0.8rem;
+  color: #6c757d;
+  padding-bottom: 0.35rem;
+}
+
+.output-device-picker--minimal .form-select {
+  margin-bottom: 0;
 }

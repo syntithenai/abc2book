@@ -73,6 +73,19 @@ snapclient -h <resolver-host> -p 1704
 In Tune Book, open **Now Playing → Output → Snapcast** to pick a group and route
 playback to the **TuneBook** stream.
 
+### Default Snapcast output
+
+In **Settings → Audio**, choose **Default output: Snapcast (home speakers)** so the
+main **Play** button routes eligible tunes through your home resolver to snapserver
+(without a separate “Play on Snapcast” click each time).
+
+- Only routes via your **home resolver** (peppertrees), not the cloud light resolver.
+- **YouTube** links use the same resolver download path as Chromecast HLS — not the
+  official YouTube player. On first enable you must accept a disclaimer confirming
+  you have rights to play the linked media.
+- Ineligible tunes (notation-only ABC, unsupported pitch shift, etc.) play locally
+  when **Fall back to this device** is enabled (default).
+
 ## HTTPS / Caddy
 
 When using `docker compose --profile https --profile snapcast`, Caddy proxies

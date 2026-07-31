@@ -6,7 +6,10 @@ import {
 } from './webshareProxySettings'
 import { isYoutubeHelperDisabled, setYoutubeHelperDisabled } from './youtubeHelperSettings'
 import { youtubeAudioBytesAvailableSync } from './youtubeUnlock'
-import { __resetYoutubeExtensionPingCache } from './youtubeExtensionClient'
+import {
+  __resetYoutubeExtensionPingCache,
+  __setCachedPingForTests,
+} from './youtubeExtensionClient'
 
 describe('webshareProxySettings', function() {
   beforeEach(function() {
@@ -53,14 +56,14 @@ describe('youtubeUnlock', function() {
     })).toBe(true)
   })
 
-  test('extension DOM marker unlocks sync check without resolver', function() {
+  test('successful extension ping unlocks sync check without resolver', function() {
     expect(youtubeAudioBytesAvailableSync({ resolverFeatures: null })).toBe(false)
-    document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.2')
+    __setCachedPingForTests({ ok: true, version: '0.1.2', via: 'ping' })
     expect(youtubeAudioBytesAvailableSync({ resolverFeatures: null })).toBe(true)
   })
 
-  test('disabled helper ignores extension DOM marker', function() {
-    document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.2')
+  test('disabled helper ignores cached extension ping', function() {
+    __setCachedPingForTests({ ok: true, version: '0.1.2', via: 'ping' })
     setYoutubeHelperDisabled(true)
     expect(youtubeAudioBytesAvailableSync({ resolverFeatures: null })).toBe(false)
   })

@@ -116,6 +116,18 @@ describe('noteSpacingUtils', function() {
     expect(resolveNoteAlignedWLines(tune)).toEqual(['hello world']);
   });
 
+  test('resolveNoteAlignedWLines keeps cleared note-aligned lyrics empty', function() {
+    const tune = {
+      meter: '4/4',
+      noteLength: '1/8',
+      key: 'C',
+      voices: { 1: { meta: '', notes: ['C D E F |', 'G A B c |'] } },
+      words: ['Amazing grace how sweet'],
+      wLines: ['', ''],
+    };
+    expect(resolveNoteAlignedWLines(tune)).toEqual(['', '']);
+  });
+
   test('buildAbcWithNoteSpacing prefers stored note-aligned lyrics', function() {
     const abcTools = useAbcTools();
     const tune = {

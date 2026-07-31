@@ -39,7 +39,7 @@ def is_loc_gov_url(raw_url: str) -> bool:
         parsed = urlparse(str(raw_url or "").strip())
     except Exception:
         return False
-    if parsed.scheme != "https":
+    if parsed.scheme not in ("https", "http"):
         return False
     host = (parsed.hostname or "").lower()
     if host.startswith("www."):

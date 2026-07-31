@@ -5,7 +5,7 @@ import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
 import {
   getPlainLyricLines,
   setNoteAlignedLyricLines,
-  getNoteAlignedLyricLines,
+  hasExplicitNoteAlignedStorage,
   stripNoteSpacingFromLine,
 } from '../wLinesUtils'
 import {
@@ -236,12 +236,22 @@ export default function NoteAlignedLyricsModal(props) {
     persistLines(generated)
   }
 
+  function clearAll() {
+    if (!tune) return
+    if (!window.confirm('Clear all note-aligned lyrics? Plain lyrics will not be changed.')) return
+    const cleared = padLines([], noteLines.length)
+    alignedLinesRef.current = cleared
+    setAlignedLines(cleared)
+    persistLines(cleared)
+  }
+
   const plainPreview = getPlainLyricLines(tune).join('\n')
   const hasPlain = plainPreview.trim().length > 0
-  const hadStored = getNoteAlignedLyricLines(tune).some(function(line) {
+  const hasExplicitStorage = hasExplicitNoteAlignedStorage(tune)
+  const displayLines = padLines(alignedLines, noteLines.length)
+  const hasAlignedContent = displayLines.some(function(line) {
     return String(line || '').trim().length > 0
   })
-  const displayLines = padLines(alignedLines, noteLines.length)
 
   return (
     <Modal show={show} onHide={handleHide} size="lg" {...responsiveModalProps}>
@@ -256,12 +266,25 @@ export default function NoteAlignedLyricsModal(props) {
         {!hasPlain ? (
           <p className="text-muted">Add plain lyrics first, then regenerate alignment.</p>
         ) : null}
-        {!hadStored && hasPlain ? (
+        {!hasExplicitStorage && hasPlain ? (
           <p className="text-muted" style={{ fontSize: '0.9em' }}>
             No saved alignment yet — showing a generated match from the current lyrics and notation.
           </p>
         ) : null}
-        <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '0.75em' }}>
+        {hasExplicitStorage && !hasAlignedContent ? (
+          <p className="text-muted" style={{ fontSize: '0.9em' }}>
+            Note-aligned lyrics are cleared. Use Regenerate from lyrics to create a new alignment.
+          </p>
+        ) : null}
+        <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '0.5em', marginBottom: '0.75em' }}>
+          <Button
+            variant="outline-danger"
+            size="sm"
+            onClick={clearAll}
+            disabled={!hasAlignedContent || !hasMelodyNoteLines(noteLines)}
+          >
+            Clear
+          </Button>
           <Button variant="info" size="sm" onClick={regenerate} disabled={!hasPlain || !hasMelodyNoteLines(noteLines)}>
             Regenerate from lyrics
           </Button>

@@ -1,4 +1,4 @@
-import { buildAbcWithNoteSpacing } from '../noteSpacingUtils';
+import { buildAbcWithNoteSpacing, stripEmbeddedChordsFromAbc, stripLyricLinesFromAbc } from '../noteSpacingUtils';
 import { stripSectionMarkerChordsFromDisplayAbc } from '../chordSheetUtils';
 import { parseVoiceMeta } from './voiceMeta';
 
@@ -34,6 +34,57 @@ export function stripBlockLyricsFromDisplayAbc(abcText) {
   return String(abcText).split('\n').filter(function(line) {
     return !/^W:/.test(String(line || '').trim());
   }).join('\n');
+}
+
+/** Strip metadata and block lyrics for tune-view notation (keeps note-aligned w:). */
+export function stripTuneViewNotationMeta(abcText) {
+  if (!abcText) return '';
+  return stripBlockLyricsFromDisplayAbc(stripNotationDisplayMetadata(abcText));
+}
+
+/**
+ * Gig/print/practice staff headers: metadata strip plus title line removal.
+ */
+export function stripStaffNotationHeaders(abcText) {
+  if (!abcText) return '';
+  return stripNotationDisplayMetadata(abcText).split('\n').filter(function(line) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith('T:')) return false;
+    return true;
+  }).join('\n');
+}
+
+/**
+ * Staff chord display policy (G6/G7): strip all embedded chords when annotate is off;
+ * when on, keep real chords but remove section-marker label chords.
+ */
+export function applyStaffChordDisplayPolicy(staffAbc, options) {
+  const opts = options || {};
+  const abc = String(staffAbc == null ? '' : staffAbc);
+  if (!opts.chordsAnnotate) {
+    if (opts.stripEmbeddedChordsWhenOff && opts.abcTools) {
+      return stripEmbeddedChordsFromAbc(abc, opts.abcTools);
+    }
+    return abc;
+  }
+  return stripSectionMarkerChordsFromDisplayAbc(abc);
+}
+
+/** Prepare ABC for gig/print/practice staff rendering after note-spacing build. */
+export function prepareGigStaffDisplayAbc(displayAbc, tunebook, chordsAnnotate) {
+  let staffAbc = stripStaffNotationHeaders(displayAbc);
+  staffAbc = stripLyricLinesFromAbc(staffAbc);
+  return applyStaffChordDisplayPolicy(staffAbc, {
+    chordsAnnotate: chordsAnnotate,
+    stripEmbeddedChordsWhenOff: true,
+    abcTools: tunebook && tunebook.abcTools,
+  });
+}
+
+/** Prepare ABC for MusicSingle / TuneSingleViewDialog notation panels. */
+export function prepareTuneViewNotationAbc(jsonAbc, chordsAnnotate) {
+  const raw = stripTuneViewNotationMeta(jsonAbc);
+  return applyStaffChordDisplayPolicy(raw, { chordsAnnotate: chordsAnnotate });
 }
 
 /** Build ABC for editor display: active voice only, with live edits merged. */
@@ -103,7 +154,7 @@ export function buildAbcPreviewFromBodies(tune, tunebook, voiceKeys, bodyTextsBy
   if (!Object.keys(tuneCopy.voices).length) return '';
   const abc = notationDisplayAbc(tuneCopy, tunebook);
   if (opts.stripSectionMarkerChords) {
-    return stripSectionMarkerChordsFromDisplayAbc(abc);
+    return applyStaffChordDisplayPolicy(abc, { chordsAnnotate: true });
   }
   return abc;
 }

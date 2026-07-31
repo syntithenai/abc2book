@@ -1,6 +1,10 @@
 import {
   controlUrlToJsonRpcWs,
+  getStoredSnapcastControlUrl,
+  isValidSnapcastControlUrl,
+  normalizeSnapcastControlUrl,
   resolveSnapcastControlUrl,
+  setStoredSnapcastControlUrl,
   snapcastAvailableFromHealth,
   snapcastMixedContentWarning,
 } from './snapcastSupport';
@@ -11,7 +15,28 @@ describe('snapcastSupport', function() {
     expect(controlUrlToJsonRpcWs('https://host.example/snapcast')).toBe('wss://host.example/snapcast/jsonrpc');
   });
 
-  test('resolveSnapcastControlUrl prefers health status', function() {
+  test('normalizeSnapcastControlUrl rejects event objects and garbage', function() {
+    expect(normalizeSnapcastControlUrl({})).toBe('');
+    expect(normalizeSnapcastControlUrl('[object Object]')).toBe('');
+    expect(isValidSnapcastControlUrl('[object Object]')).toBe(false);
+    expect(normalizeSnapcastControlUrl('http://localhost:1780')).toBe('http://localhost:1780');
+  });
+
+  test('getStoredSnapcastControlUrl clears invalid stored values', function() {
+    localStorage.setItem('abc2book.snapcast.controlUrl', '[object Object]');
+    expect(getStoredSnapcastControlUrl()).toBe('');
+    expect(localStorage.getItem('abc2book.snapcast.controlUrl')).toBe(null);
+  });
+
+  test('resolveSnapcastControlUrl prefers stored override over health', function() {
+    setStoredSnapcastControlUrl('http://override:1780');
+    expect(resolveSnapcastControlUrl({
+      snapcast: { controlUrl: 'http://resolver:1780' },
+    })).toBe('http://override:1780');
+    setStoredSnapcastControlUrl('');
+  });
+
+  test('resolveSnapcastControlUrl uses health when no override', function() {
     expect(resolveSnapcastControlUrl({
       snapcast: { controlUrl: 'http://resolver:1780' },
     })).toBe('http://resolver:1780');

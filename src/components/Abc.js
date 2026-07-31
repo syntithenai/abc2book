@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef, useCallback } from "react";
 import abcjs from "abcjs";
+import { abcForAbcjs } from '../melodyBarlineNormalize';
 import { isMobile } from 'react-device-detect';
 import {Link, useNavigate} from 'react-router-dom'
 import {Button , Modal} from 'react-bootstrap'
@@ -50,20 +51,27 @@ export default function Abc(props) {
       applyTabOnlyNotationDisplay(root, countActiveTabVoices(tabOptions))
     }
 
-    function getVerticalFitOptions(renderTune, tabOptions) {
+    function getVerticalFitOptions(renderTune, tabOptions, renderEl) {
       const displayTune = getTablatureDisplayTune(renderTune)
-      if (shouldApplyTabOnlyDisplay(displayTune, tabOptions)) return null
-      if (countActiveTabVoices(tabOptions) > 0) {
-        return { preferWidthFit: true }
+      const options = {}
+      if (renderEl && typeof renderEl.closest === 'function'
+          && renderEl.closest('.tune-layout-notation-lyrics')) {
+        options.topAlign = true
       }
-      return null
+      if (shouldApplyTabOnlyDisplay(displayTune, tabOptions)) {
+        return Object.keys(options).length > 0 ? options : null
+      }
+      if (countActiveTabVoices(tabOptions) > 0) {
+        return Object.assign({ preferWidthFit: true }, options)
+      }
+      return Object.keys(options).length > 0 ? options : null
     }
 
     function refitVerticalAfterTablature(renderTune, tabOptions) {
       if (!inputEl || !inputEl.current || props.hideSvg || fitMode !== NOTATION_FIT_VERTICAL) return
       const svg = inputEl.current.querySelector('svg')
       if (!svg) return
-      fitSingleViewVertical(svg, inputEl.current, null, getVerticalFitOptions(renderTune, tabOptions))
+      fitSingleViewVertical(svg, inputEl.current, null, getVerticalFitOptions(renderTune, tabOptions, inputEl.current))
       fitAppliedRef.current = true
     }
 
@@ -99,7 +107,7 @@ export default function Abc(props) {
         tune = props.tunebook.abcTools.abc2json(props.abc)
         tabOptions = resolveTabOptions(tune)
         displayTune = getTablatureDisplayTune(tune)
-        verticalFitOptions = getVerticalFitOptions(tune, tabOptions)
+        verticalFitOptions = getVerticalFitOptions(tune, tabOptions, renderEl)
       }
       fitSingleViewVertical(svg, renderEl, null, verticalFitOptions)
       if (displayTune && tabOptions && shouldApplyTabOnlyDisplay(displayTune, tabOptions)) {
@@ -211,7 +219,14 @@ export default function Abc(props) {
             '.tune-panel-notation, .music-body-notation, .music-notation-section, .music-view-notation, .gig-mode-notation-col, .music-view-main'
           )
           : null
+        const footerRoot = typeof renderEl.closest === 'function'
+          ? renderEl.closest('.music-single, .tune-single-view-dialog-content')
+          : null
+        const footerMeta = footerRoot && typeof footerRoot.querySelector === 'function'
+          ? footerRoot.querySelector('.music-single-footer-meta')
+          : null
         if (section) observer.observe(section)
+        if (footerMeta) observer.observe(footerMeta)
       }
       return function() {
         cancelAnimationFrame(raf1)
@@ -299,7 +314,7 @@ export default function Abc(props) {
         }
         //var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
         //tune.tempo = tune.tempo * useWarp
-        var abcForRender = props.tunebook.abcTools.json2abc(tune)
+        var abcForRender = abcForAbcjs(props.tunebook.abcTools.json2abc(tune))
         renderedAbcRef.current = abcForRender
         var res = null
         fitAppliedRef.current = false
@@ -311,7 +326,7 @@ export default function Abc(props) {
           var pageStaffWidth = (props.staffwidth && props.staffwidth > 0)
             ? props.staffwidth
             : Math.max(200, paper.availW - 16)
-          var verticalFitOptions = getVerticalFitOptions(tune, tabOptions)
+          var verticalFitOptions = getVerticalFitOptions(tune, tabOptions, renderEl)
 
           function renderAtStaffWidth(staffWidth, renderPass) {
             renderEl.innerHTML = ''

@@ -84,7 +84,11 @@ export default function MediaPlayerMidiFile(props) {
     const mc = mediaControllerRef.current
     if (!mc || !mc.playMidiFileRef) return undefined
 
-    mc.playMidiFileRef.current = async function(opts) {
+    function assignRef(ref, value) {
+      if (ref) ref.current = value
+    }
+
+    assignRef(mc.playMidiFileRef, async function(opts) {
       const engine = playbackRef.current
       if (!engine.isReadyRef.current) {
         pendingPlayRef.current = true
@@ -96,29 +100,29 @@ export default function MediaPlayerMidiFile(props) {
       if (ok && mc.setIsLoading) mc.setIsLoading(false)
       if (!ok && mc.setIsLoading) mc.setIsLoading(false)
       return ok
-    }
+    })
 
-    mc.pauseMidiFileRef.current = function() {
+    assignRef(mc.pauseMidiFileRef, function() {
       playbackRef.current.pause()
-    }
+    })
 
-    mc.stopMidiFileRef.current = function() {
+    assignRef(mc.stopMidiFileRef, function() {
       playbackRef.current.stop()
-    }
+    })
 
-    mc.seekMidiFileRef.current = function(seconds) {
+    assignRef(mc.seekMidiFileRef, function(seconds) {
       return playbackRef.current.seek(seconds)
-    }
+    })
 
-    mc.getMidiFilePlaybackSecondsRef.current = function() {
+    assignRef(mc.getMidiFilePlaybackSecondsRef, function() {
       return playbackRef.current.currentTime()
-    }
+    })
 
-    mc.applyMidiFileTempoRef.current = function(tempo) {
+    assignRef(mc.applyMidiFileTempoRef, function(tempo) {
       playbackRef.current.setTempo(tempo)
-    }
+    })
 
-    mc.prepareMidiFileLinkRef.current = async function(useTune, linkIndex, src, opts) {
+    assignRef(mc.prepareMidiFileLinkRef, async function(useTune, linkIndex, src, opts) {
       const link = useTune && useTune.links ? useTune.links[linkIndex] : null
       if (!link) throw new Error('MIDI link is not available')
       const key = useTune.id + ':' + linkIndex + ':' + (src || link.link)
@@ -135,15 +139,15 @@ export default function MediaPlayerMidiFile(props) {
       await playbackRef.current.init(resolved.arrayBuffer)
       loadedKeyRef.current = key
       return true
-    }
+    })
 
-    mc.resumeMidiFileAudioContextRef.current = function() {
+    assignRef(mc.resumeMidiFileAudioContextRef, function() {
       playbackRef.current.resumeAudioContextFromGesture()
-    }
+    })
 
-    mc.getMidiFileAudioContextRef.current = function() {
+    assignRef(mc.getMidiFileAudioContextRef, function() {
       return playbackRef.current.getAudioContext()
-    }
+    })
 
     // Playback was requested before this engine mounted (common on /editor/).
     flushMountedPendingMidiPlay(mc)

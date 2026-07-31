@@ -15,7 +15,7 @@ class BandcampUtilsTest(unittest.TestCase):
         self.assertTrue(is_bandcamp_url("https://artist.bandcamp.com/track/foo"))
         self.assertTrue(is_bandcamp_url("https://bandcamp.com/track/foo"))
         self.assertFalse(is_bandcamp_url("https://youtube.com/watch?v=abc"))
-        self.assertFalse(is_bandcamp_url("http://artist.bandcamp.com/track/foo"))
+        self.assertTrue(is_bandcamp_url("http://artist.bandcamp.com/track/foo"))
 
     def test_repair_doubled_bandcamp_url(self):
         broken = (

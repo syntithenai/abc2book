@@ -2,28 +2,55 @@
 
 const STORAGE_KEY = 'abc2book.snapcast.controlUrl';
 
+export function isValidSnapcastControlUrl(url) {
+  const raw = String(url || '').trim();
+  if (!raw || raw === '[object Object]' || raw === '[object Event]') return false;
+  if (raw.indexOf('://') < 0) return false;
+  try {
+    const parsed = new URL(raw);
+    return parsed.protocol === 'http:' || parsed.protocol === 'https:'
+      || parsed.protocol === 'ws:' || parsed.protocol === 'wss:';
+  } catch (e) {
+    return false;
+  }
+}
+
+export function normalizeSnapcastControlUrl(value) {
+  if (value == null) return '';
+  if (typeof value !== 'string' && typeof value !== 'number') return '';
+  const raw = String(value).trim();
+  return isValidSnapcastControlUrl(raw) ? raw : '';
+}
+
 export function getStoredSnapcastControlUrl() {
   try {
-    return localStorage.getItem(STORAGE_KEY) || '';
+    const raw = localStorage.getItem(STORAGE_KEY) || '';
+    const normalized = normalizeSnapcastControlUrl(raw);
+    if (raw && !normalized) {
+      localStorage.removeItem(STORAGE_KEY);
+    }
+    return normalized;
   } catch (e) {
     return '';
   }
 }
 
 export function setStoredSnapcastControlUrl(url) {
+  const normalized = normalizeSnapcastControlUrl(url);
   try {
-    if (!url) {
+    if (!normalized) {
       localStorage.removeItem(STORAGE_KEY);
     } else {
-      localStorage.setItem(STORAGE_KEY, url);
+      localStorage.setItem(STORAGE_KEY, normalized);
     }
   } catch (e) {
     // ignore
   }
+  return normalized;
 }
 
 export function controlUrlToJsonRpcWs(controlUrl) {
-  const raw = String(controlUrl || '').trim();
+  const raw = normalizeSnapcastControlUrl(controlUrl);
   if (!raw) return '';
   if (raw.endsWith('/jsonrpc')) return raw.replace(/^http/, 'ws');
   const base = raw.replace(/\/$/, '');
@@ -37,10 +64,11 @@ export function controlUrlToJsonRpcWs(controlUrl) {
 }
 
 export function resolveSnapcastControlUrl(healthStatus, overrideUrl) {
-  const override = String(overrideUrl || getStoredSnapcastControlUrl() || '').trim();
+  const override = normalizeSnapcastControlUrl(overrideUrl)
+    || getStoredSnapcastControlUrl();
   if (override) return override;
   if (healthStatus && healthStatus.snapcast && healthStatus.snapcast.controlUrl) {
-    return healthStatus.snapcast.controlUrl;
+    return normalizeSnapcastControlUrl(healthStatus.snapcast.controlUrl);
   }
   return '';
 }

@@ -42,6 +42,9 @@ export async function createSnapcastPlaybackSession(options) {
       fineTune: opts.fineTune || 0,
       tempo: opts.tempo || 1,
       midiBase64: opts.midiBase64,
+      audioBase64: opts.audioBase64,
+      audioMime: opts.audioMime,
+      audioFilename: opts.audioFilename,
       queue: opts.queue,
     }),
   });

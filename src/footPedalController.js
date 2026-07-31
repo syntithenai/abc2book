@@ -56,7 +56,7 @@ function buildNavOpts() {
     controllerState.mediaController,
     controllerState.nowPlayingQueue
   );
-  const opts = { mediaController: controllerState.mediaController };
+  const opts = { mediaController: controllerState.mediaController, announceOpening: true };
   if (!preferQueueNav) {
     opts.forceSearchList = true;
   } else {

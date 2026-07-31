@@ -139,7 +139,7 @@ export default class ExternalMediaPitchTempo {
     }
 
     if (!audioBuffer) {
-      const decoded = await fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, accessToken);
+      const decoded = await fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, accessToken, cacheOptions);
       if (this._loadAborted) return null;
       audioBuffer = decoded.audioBuffer;
       if (cacheable && decoded.arrayBuffer) {

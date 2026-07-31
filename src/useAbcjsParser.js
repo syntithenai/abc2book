@@ -1,6 +1,7 @@
 import abcjs from 'abcjs'
 import useAbcTools from './useAbcTools'
 import useUtils from './useUtils'
+import { abcForAbcjs } from './melodyBarlineNormalize'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { getBarModel, normalizeMeter, beatPositionsForBarChords as barModelBeatPositions } from './barModel'
 import { normalizeChordChartRepeatMarks, isSectionMarkerChordName, isSectionMarkerToken, sectionMarkerChartLine, sectionMarkerAbcChordName, isInlineSignatureToken, isSectionHeader } from './chordSheetUtils'
@@ -332,6 +333,7 @@ export default function useAbcjsParser() {
      *  determine whether to use # or b for display
      */    
     function renderChords(abcString, showDots=true, transpose = 0, forceKey=null, forceNoteLength=null, forceMeter=null) {
+        abcString = abcForAbcjs(abcString)
         var abcJson = abcTools.abc2json(abcString)
         var key = forceKey ? forceKey : abcJson.key
         var noteLengthText = forceNoteLength ? forceNoteLength : abcJson.noteLength
@@ -474,7 +476,7 @@ export default function useAbcjsParser() {
                                    pendingEndingLabel = symbol.startEnding
                                }
                            } else {
-                               if (!isAnacrusis && !isEmptyBar) writeBar(barLayout, closeBarline)
+                               writeBar(barLayout, closeBarline)
                                // Hymns often start the chorus with |: rather than ||.
                                // Emit a blank line so verse/chorus become separate blocks.
                                if (symbol.type === 'bar_left_repeat') {
@@ -518,7 +520,7 @@ export default function useAbcjsParser() {
      * Parse an abc string into abcjs object format
      */
     function parse(abc) {
-        return abcjs.renderAbc("*", abc)
+        return abcjs.renderAbc("*", abcForAbcjs(abc))
     }
     
     /**
@@ -691,8 +693,13 @@ export default function useAbcjsParser() {
      * and return the updated abcString.
      * Optional alignment (chordSheetAlignment) prefers anchor-based beat placement.
      * Inline [M:…] tokens switch bar size and are written into the ABC voice.
+     * options.harmonyOnly — update quoted chords and inline [M:]/[Q:] only; do not
+     * resize bars/lines or rebuild rest scaffold (for bracket-voicing melody).
      */
-    function  mergeChords(chordText, abcString, alignment) {
+    function  mergeChords(chordText, abcString, alignment, options) {
+        abcString = abcForAbcjs(abcString)
+        var opts = options || {}
+        var harmonyOnly = !!opts.harmonyOnly
         var parsedChords = parseChordText(chordText, abcString, alignment)
         var chordLayout = parsedChords.lines
         var meterByBarKey = parsedChords.meterByBarKey || {}
@@ -735,29 +742,30 @@ export default function useAbcjsParser() {
             var noteLengthsSinceLastBar = 0
             var barIndex = {} 
 
-            // abcjs collapses a rest filling an entire bar into a single
-            // symbol (rest.type 'whole'). Split it into beat-sized rests so
-            // incoming chords can be placed mid-bar, not just on beat one.
-            // Also insert inline time signatures from the chord grid.
             var voiceMeter = normalizeMeter(abcJson.meter || meter)
-            abc[0].lines.forEach(function(line, lineNumber) {
-                if (line && line.staff && line.staff.length > 0) {
-                    var voice = line.staff[0].voices[0]
-                    for (var i = voice.length - 1; i >= 0; i--) {
-                        var symbol = voice[i]
-                        if (symbol.el_type === 'note' && symbol.rest && symbol.rest.type === 'whole' && symbol.duration > 0) {
-                            var restMeter = meterByBarKey[lineNumber + '-' + '0'] || voiceMeter
-                            var restState = meterState(restMeter)
-                            var restCount = Math.max(1, Math.round(symbol.duration / restState.noteLength))
-                            var rests = []
-                            for (var j = 0; j < restCount; j++) {
-                                rests.push({rest: {type: 'rest'}, el_type: 'note', duration: restState.noteLength})
+            if (!harmonyOnly) {
+                // abcjs collapses a rest filling an entire bar into a single
+                // symbol (rest.type 'whole'). Split it into beat-sized rests so
+                // incoming chords can be placed mid-bar, not just on beat one.
+                abc[0].lines.forEach(function(line, lineNumber) {
+                    if (line && line.staff && line.staff.length > 0) {
+                        var voice = line.staff[0].voices[0]
+                        for (var i = voice.length - 1; i >= 0; i--) {
+                            var symbol = voice[i]
+                            if (symbol.el_type === 'note' && symbol.rest && symbol.rest.type === 'whole' && symbol.duration > 0) {
+                                var restMeter = meterByBarKey[lineNumber + '-' + '0'] || voiceMeter
+                                var restState = meterState(restMeter)
+                                var restCount = Math.max(1, Math.round(symbol.duration / restState.noteLength))
+                                var rests = []
+                                for (var j = 0; j < restCount; j++) {
+                                    rests.push({rest: {type: 'rest'}, el_type: 'note', duration: restState.noteLength})
+                                }
+                                voice.splice.apply(voice, [i, 1].concat(rests))
                             }
-                            voice.splice.apply(voice, [i, 1].concat(rests))
                         }
                     }
-                }
-            })
+                })
+            }
 
             // iterate parsed note and bar lines to create lookups 
             // per line/bar/beat to symbol number
@@ -828,7 +836,7 @@ export default function useAbcjsParser() {
             var lastEmittedMeter = normalizeMeter(abcJson.meter || meter)
             var lastEmittedTempo = abcTools.cleanTempo(abcJson.tempo) || null
 
-            if (chordLength > parsedLength) {
+            if (!harmonyOnly && chordLength > parsedLength) {
                 // create lines
                 for (var i = 0; i < (chordLength - parsedLength); i++) {
                     var restLine = []
@@ -861,12 +869,13 @@ export default function useAbcjsParser() {
                     //for var
                     abc[0].lines.push({staff:[{voices:[restLine]}]})
                 }
-            } else if (chordLength < parsedLength) {
+            } else if (!harmonyOnly && chordLength < parsedLength) {
                 // chop lines
                 abc[0].lines = abc[0].lines.slice(0,chordLength)
             }
             
             // ensure correct bar lengths and line endings
+            if (!harmonyOnly) {
             abc[0].lines.forEach(function(line, lineNumber) {
                 var barCount = 0
                 var lastSymbol = null
@@ -929,6 +938,7 @@ export default function useAbcjsParser() {
                     abc[0].lines[lineNumber].staff[0].voices[0] = abc[0].lines[lineNumber].staff[0].voices[0].slice(0,barLineIndex) 
                 }
             })
+            }
 
             // Inject missing time signatures at bar starts from the chord grid meters.
             lastEmittedMeter = normalizeMeter(abcJson.meter || meter)

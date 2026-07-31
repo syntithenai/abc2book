@@ -20,6 +20,7 @@ import {
   reconcileBlocksFromGrid,
   splitMelodyStrainsWithBarlines,
   sliceChartAcrossStrainBarCounts,
+  reanchorEditorBlocksToMelody,
   writeChordBlockCache,
 } from './chordBlockMerge'
 import { reconcileChordSectionsFromGrid, applyChordSectionLabels } from './chordsEditorSections'
@@ -27,6 +28,7 @@ import { splitChordChartIntoBlocks } from './chordSheetUtils'
 import { getPlainLyricLines } from './wLinesUtils'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 import { flattenMelodyText } from './lyricBarAlignmentUtils'
+import { ANACRUSIS_THREE_STRAINS } from './testFixtures/anacrusisDoubleBarlineFixtures'
 
 function tools() {
   return { abcTools: useAbcTools(), abcjsParser: useAbcjsParser() }
@@ -100,6 +102,14 @@ describe('chordBlockMerge', function() {
     expect(strains.length).toBe(2)
     expect(strains[0].text).toContain('C D')
     expect(strains[1].text).toContain('d e')
+  })
+
+  test('splitMelodyStrainsWithBarlines keeps three pickup strains without phantom || breaks', function() {
+    const strains = splitMelodyStrainsWithBarlines(ANACRUSIS_THREE_STRAINS.split('\n'))
+    expect(strains.length).toBe(3)
+    expect(strains[0].text).toMatch(/AFDF/)
+    expect(strains[1].text).toMatch(/fdAd/)
+    expect(strains[2].text).toMatch(/fefg/)
   })
 
   test('buildUnifiedBlocks aligns chart blocks to strains', function() {
@@ -667,6 +677,133 @@ describe('chordBlockMerge', function() {
     expect(rebuilt.length).toBe(2)
     expect(rebuilt[0]).toMatch(/^\|:/)
     expect(rebuilt[1]).toMatch(/^\s*\|:/)
+  })
+
+  test('chord save preserves bracket-voicing melody with %%MIDI prefix', function() {
+    const { abcTools, abcjsParser } = tools()
+    const userNotes = [
+      '%%MIDI program 0',
+      '[aa][aa][bc]2[bc]2dd | [aa][ab][cc][cd]dddezAD2D2 | [aa][aa][bc]2[bc]2dd | [aa][ab][cc][cd]dddeA2 |',
+      '[aa][aa][bc]2[bc]2dd | [aa][ab][cd][cd]dcde | aab2b2dd | abcdddde |',
+      'zAD2D2 | | A2 | | H._A2D2^d4A2A2(3D2D2D2 | D2zA2A2A2D2A2A2D2 | E2A2A2z | A4 |]',
+    ]
+    const tune = {
+      id: 'bracket-voicing',
+      name: 'Bracket',
+      meter: '4/4',
+      noteLength: '1/8',
+      key: 'D',
+      voices: { 1: { meta: '', notes: userNotes.slice() } },
+    }
+    const abc = abcTools.json2abc(tune)
+    const notesBefore = tune.voices['1'].notes.slice()
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: notesBefore,
+      chordChart: abcjsParser.renderChords(abc, true),
+      lyricLines: [],
+      defaultMeter: '4/4',
+      defaultKey: 'D',
+      defaultNoteLength: '1/8',
+    })
+    const anchored = reanchorEditorBlocksToMelody(notesBefore, blocks)
+    const result = applyBlockMergeToTune(tune, {
+      abc: abc,
+      blocks: anchored,
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      wipeNotation: false,
+      keepEditorBlocks: true,
+      defaultMeter: '4/4',
+      notesBefore: notesBefore,
+    })
+    expect(result.ok).toBe(true)
+    expect(tune.voices['1'].notes[0]).toMatch(/^%%MIDI/)
+    expect(noteLinesHaveRealMelody(tune.voices['1'].notes)).toBe(true)
+    expect(tune.voices['1'].notes.join('\n')).toMatch(/\[aa\]/)
+  })
+
+  test('chord save writes quoted harmony for bracket voicing', function() {
+    const { abcTools, abcjsParser } = tools()
+    const userNotes = [
+      '[aa][bc]2dd | z2z2z2z2 |',
+    ]
+    const tune = {
+      id: 'bracket-quotes',
+      name: 'BracketQuotes',
+      meter: '4/4',
+      noteLength: '1/8',
+      key: 'D',
+      voices: { 1: { meta: '', notes: userNotes.slice() } },
+    }
+    const abc = abcTools.json2abc(tune)
+    const notesBefore = tune.voices['1'].notes.slice()
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: notesBefore,
+      chordChart: 'Am | G |',
+      lyricLines: [],
+      defaultMeter: '4/4',
+      defaultKey: 'D',
+      defaultNoteLength: '1/8',
+    })
+    const anchored = reanchorEditorBlocksToMelody(notesBefore, blocks)
+    anchored[0] = Object.assign({}, anchored[0], { chart: 'Am | G |' })
+    const result = applyBlockMergeToTune(tune, {
+      abc: abc,
+      blocks: anchored,
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      wipeNotation: false,
+      keepEditorBlocks: true,
+      defaultMeter: '4/4',
+      notesBefore: notesBefore,
+    })
+    expect(result.ok).toBe(true)
+    const notesText = tune.voices['1'].notes.join('\n')
+    expect(notesText).toMatch(/"Am"/)
+    expect(notesText).toMatch(/"G"/)
+    expect(notesText).toMatch(/\[aa\]/)
+  })
+
+  test('chord save harmonyOnly injects inline meter for bracket voicing', function() {
+    const { abcTools, abcjsParser } = tools()
+    const userNotes = [
+      '[aa]dd | z2z2z2z2 |',
+    ]
+    const tune = {
+      id: 'bracket-meter',
+      name: 'BracketMeter',
+      meter: '4/4',
+      noteLength: '1/8',
+      key: 'C',
+      voices: { 1: { meta: '', notes: userNotes.slice() } },
+    }
+    const abc = abcTools.json2abc(tune)
+    const notesBefore = tune.voices['1'].notes.slice()
+    const chart = '[M:3/4] Am | G |'
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: notesBefore,
+      chordChart: chart,
+      lyricLines: [],
+      defaultMeter: '4/4',
+      defaultKey: 'C',
+      defaultNoteLength: '1/8',
+    })
+    const anchored = reanchorEditorBlocksToMelody(notesBefore, blocks)
+    anchored[0] = Object.assign({}, anchored[0], { chart: chart })
+    const result = applyBlockMergeToTune(tune, {
+      abc: abc,
+      blocks: anchored,
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      wipeNotation: false,
+      keepEditorBlocks: true,
+      defaultMeter: '4/4',
+      notesBefore: notesBefore,
+    })
+    expect(result.ok).toBe(true)
+    const notesText = tune.voices['1'].notes.join('\n')
+    expect(notesText).toMatch(/\[M:3\/4\]/)
+    expect(notesText).toMatch(/\[aa\]/)
   })
 })
 

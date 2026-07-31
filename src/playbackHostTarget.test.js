@@ -246,4 +246,21 @@ describe('shouldSkipHostMidiRouteApply', function() {
       isMediaPlaybackRoute: function() { return false },
     })).toBe(true)
   })
+
+  test('skips when Android native playback is starting', function() {
+    expect(shouldSkipHostMidiRouteApply({
+      requestedPlayState: 'playMidi',
+      isMediaPlaybackRoute: function() { return false },
+      isAndroidNativePlaybackStarting: function() { return true },
+    })).toBe(true)
+  })
+
+  test('does not skip when native output is active but not starting', function() {
+    expect(shouldSkipHostMidiRouteApply({
+      requestedPlayState: 'playMidi',
+      isMediaPlaybackRoute: function() { return false },
+      isAndroidNativeOutputActive: function() { return true },
+      isAndroidNativePlaybackStarting: function() { return false },
+    })).toBe(false)
+  })
 })

@@ -791,6 +791,13 @@ describe('chordSheetUtils', function() {
     expect(melodyTextHasSectionMarkerChord('"C" z z z |', '[Verse 1]')).toBe(false);
   });
 
+  test('firstSectionMarkerHeaderInMelodyText returns first quoted section label', function() {
+    const { firstSectionMarkerHeaderInMelodyText } = require('./chordSheetUtils');
+    expect(firstSectionMarkerHeaderInMelodyText('"[Verse 1]" z z z | "C" z z z |')).toBe('[Verse 1]');
+    expect(firstSectionMarkerHeaderInMelodyText('"C" z z z |')).toBe('');
+    expect(firstSectionMarkerHeaderInMelodyText('"[Chorus]" z | "[Bridge]" z |')).toBe('[Chorus]');
+  });
+
   test('expandLegacyBeatSlotsInChart expands beat-level bars to pulse slots', function() {
     const { expandLegacyBeatSlotsInChart } = require('./chordSheetUtils');
     expect(expandLegacyBeatSlotsInChart('C . . . |', '4/4', '1/8')).toBe('C . . . . . . . |');

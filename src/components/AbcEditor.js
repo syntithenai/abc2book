@@ -48,7 +48,10 @@ import AlbumsSearchButton from './AlbumsSearchButton'
 import BookSelectorModal from './BookSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
 import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
-import { invalidateChordBlockCache } from '../chordBlockMerge'
+import {
+  invalidateChordBlockCache,
+  syncChordSectionLabelsFromPrimaryVoice,
+} from '../chordBlockMerge'
 import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
 
 
@@ -166,6 +169,7 @@ export default function AbcEditor(props) {
       const primaryVoice = resolvePrimaryVoiceKey(tune.voices)
       if (String(voice) === String(primaryVoice)) {
         invalidateChordBlockCache(tune)
+        syncChordSectionLabelsFromPrimaryVoice(tune, tune.voices[voice].notes)
       }
       saveTune(tune, {
         historyLabel: historyLabel || 'Edit notes',

@@ -145,6 +145,13 @@ describe('playbackFillPattern', function() {
     expect(extractChordsPerBarFromTuneNotes(tune)).toEqual(['C', 'F', 'G'])
   })
 
+  test('extractChordsPerBarFromTuneNotes skips section marker quoted chords', function() {
+    const tune = {
+      voices: { v1: { notes: ['"[Verse 1]" z8 | "C" z8 | "G" z8 |'] } },
+    }
+    expect(extractChordsPerBarFromTuneNotes(tune)).toEqual(['C', 'G'])
+  })
+
   test('buildPlaybackSequence custom fill skips abcjs chord generation', function() {
     const calls = []
     const synthObj = {

@@ -11,6 +11,7 @@ import {
   PLAYBACK_VOLUME_STEP,
 } from '../playbackVolumeSettings';
 import SnapcastSettingsSection from './SnapcastSettingsSection';
+import PreferredRemoteOutputSettings from './PreferredRemoteOutputSettings';
 import OutputDevicePicker from './OutputDevicePicker';
 
 export default function AudioSettingsSection({ mediaController, mediaResolverStatus }) {
@@ -87,10 +88,17 @@ export default function AudioSettingsSection({ mediaController, mediaResolverSta
       </div>
 
       <div className="app-surface-panel App-settings-section">
+        <h2>Remote playback</h2>
+        <p className="app-text-muted">
+          Optional whole-home audio via Snapcast or Chromecast. Disable here if you only play on this device.
+        </p>
+        <PreferredRemoteOutputSettings mediaResolverStatus={mediaResolverStatus} />
+      </div>
+
+      <div className="app-surface-panel App-settings-section">
         <h2>Snapcast multi-room</h2>
         <p className="app-text-muted">
-          Route playback to Snapcast speakers on your home network. Open the manager to pick rooms,
-          adjust volume, and connect clients.
+          Advanced Snapcast controls and connection manager. Default output is configured under Remote playback above.
         </p>
         <div className="App-settings-actions mb-3">
           <Button as={Link} to="/snapcast" variant="primary">

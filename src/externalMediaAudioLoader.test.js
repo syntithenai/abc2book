@@ -25,17 +25,28 @@ jest.mock('./youtubeExtensionClient', function () {
   }
 })
 
+jest.mock('./linkRecording', function () {
+  return {
+    resolveRecordingLinkAudio: jest.fn(),
+    isOwnedMediaLinkUri: jest.fn(function(uri) {
+      return String(uri || '').indexOf('abcbook-recording:') === 0;
+    }),
+  }
+})
+
 import decode from 'audio-decode'
-import { fetchDirectOrProxy } from './mediaProxyClient'
+import { fetchDirectOrProxy, isMediaProxyConfigured } from './mediaProxyClient'
 import {
   fetchYoutubeAudioViaExtension,
   isYoutubeExtensionConnected,
 } from './youtubeExtensionClient'
+import { resolveRecordingLinkAudio } from './linkRecording'
 import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader'
 
 describe('fetchAndDecodeExternalMedia extension preference', function () {
   beforeEach(function () {
     jest.clearAllMocks()
+    isMediaProxyConfigured.mockReturnValue(false)
     decode.mockResolvedValue({
       duration: 12.5,
       numberOfChannels: 1,
@@ -105,7 +116,28 @@ describe('fetchAndDecodeExternalMedia extension preference', function () {
     expect(result.mime).toBe('audio/mpeg')
   })
 
+  test('throws extension error when helper fails and no resolver is configured', async function () {
+    isYoutubeExtensionConnected.mockResolvedValue(true)
+    fetchYoutubeAudioViaExtension.mockRejectedValue(
+      new Error('Innertube player HTTP 403 (IOS)')
+    )
+
+    await expect(
+      fetchAndDecodeExternalMedia(
+        'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        'youtube',
+        function () {
+          return 'dQw4w9WgXcQ'
+        },
+        null
+      )
+    ).rejects.toThrow(/TuneBook Helper could not download this video/i)
+
+    expect(fetchDirectOrProxy).not.toHaveBeenCalled()
+  })
+
   test('falls back to proxy when extension is connected but fails', async function () {
+    isMediaProxyConfigured.mockReturnValue(true)
     isYoutubeExtensionConnected.mockResolvedValue(true)
     fetchYoutubeAudioViaExtension.mockRejectedValue(
       new Error('Innertube player HTTP 403 (IOS)')
@@ -131,5 +163,35 @@ describe('fetchAndDecodeExternalMedia extension preference', function () {
     expect(fetchYoutubeAudioViaExtension).toHaveBeenCalled()
     expect(fetchDirectOrProxy).toHaveBeenCalled()
     expect(result.sourceUrl).toBe('proxy')
+  })
+
+  test('resolves owned recording links locally without proxy', async function () {
+    const rawBytes = new ArrayBuffer(8)
+    const blob = {
+      type: 'audio/mpeg',
+      arrayBuffer: function() { return Promise.resolve(rawBytes); },
+    }
+    resolveRecordingLinkAudio.mockResolvedValue({
+      blob: blob,
+      duration: 42,
+      source: 'local',
+    })
+
+    const result = await fetchAndDecodeExternalMedia(
+      'abcbook-recording:rec1',
+      'recording',
+      null,
+      'token',
+      {
+        tuneId: 'tune-1',
+        linkIndex: 0,
+        link: { link: 'abcbook-recording:rec1', recordingId: 'rec1' },
+      }
+    )
+
+    expect(resolveRecordingLinkAudio).toHaveBeenCalled()
+    expect(fetchDirectOrProxy).not.toHaveBeenCalled()
+    expect(result.sourceUrl).toBe('local')
+    expect(result.duration).toBe(42)
   })
 })

@@ -175,6 +175,37 @@ describe('mediaProxyClient', function() {
     expect(global.fetch.mock.calls[1][0]).toBe('http://local.example/lyrics-dictionary');
   });
 
+  test('normalizeMediaProxyTargetUrl upgrades public http links to https', function() {
+    expect(mediaProxyClient.normalizeMediaProxyTargetUrl('http://archive.org/details/foo'))
+      .toBe('https://archive.org/details/foo');
+    expect(mediaProxyClient.normalizeMediaProxyTargetUrl('http://example.com/a.mp3'))
+      .toBe('https://example.com/a.mp3');
+    expect(mediaProxyClient.normalizeMediaProxyTargetUrl('http://localhost:8787/music-collection/a.mp3'))
+      .toBe('http://localhost:8787/music-collection/a.mp3');
+    expect(mediaProxyClient.normalizeMediaProxyTargetUrl('https://example.com/a.mp3'))
+      .toBe('https://example.com/a.mp3');
+  });
+
+  test('fetchDirectOrProxy upgrades http archive URLs before proxying', async function() {
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
+
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      arrayBuffer: async function() { return new ArrayBuffer(0); },
+    });
+
+    const result = await mediaProxyClient.fetchDirectOrProxy({
+      src: 'http://archive.org/details/foo',
+      srcType: 'audio',
+      accessToken: 'token',
+    });
+
+    expect(result.viaProxy).toBe(true);
+    expect(global.fetch.mock.calls[0][0]).toContain('/internet-archive/audio?url=');
+    expect(decodeURIComponent(global.fetch.mock.calls[0][0])).toContain('https://archive.org/details/foo');
+  });
+
   test('fetchDirectOrProxy routes Bandcamp URLs through resolver', async function() {
     getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
 

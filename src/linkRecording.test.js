@@ -79,6 +79,15 @@ jest.mock('./externalMediaAudioCache', function() {
   }
 })
 
+jest.mock('./mediaProxyConfig', function() {
+  const actual = jest.requireActual('./mediaProxyConfig')
+  return Object.assign({}, actual, {
+    getMediaProxyBaseCandidates: jest.fn(function() {
+      return []
+    }),
+  })
+})
+
 jest.mock('./mediaProxyClient', function() {
   const actual = jest.requireActual('./mediaProxyClient')
   return Object.assign({}, actual, {
@@ -119,6 +128,7 @@ jest.mock('midi-player-js', function() {
 
 import localforage from 'localforage'
 import * as mediaProxyClient from './mediaProxyClient'
+import { getMediaProxyBaseCandidates } from './mediaProxyConfig'
 import useAbcTools from './useAbcTools'
 import * as externalMediaAudioCache from './externalMediaAudioCache'
 import {
@@ -135,6 +145,8 @@ import {
   patchTunesWithRecordingUpload,
   createAttachedMidiLink,
   resolveRecordingLinkMidi,
+  tuneHasPendingOwnedMediaUpload,
+  listOwnedMediaLinkSyncEntries,
 } from './linkRecording'
 
 describe('linkRecording helpers', function() {
@@ -232,6 +244,7 @@ describe('linkRecording ABC round-trip', function() {
 
 describe('linkRecording create and resolve', function() {
   beforeEach(function() {
+    getMediaProxyBaseCandidates.mockReturnValue([])
     mediaProxyClient.isMediaProxyConfigured.mockReturnValue(false)
     mediaProxyClient.fetchViaMediaProxy.mockReset()
     mediaProxyClient.fetchViaMediaProxy.mockRejectedValue(new Error('Media proxy not configured'))
@@ -303,7 +316,7 @@ describe('linkRecording create and resolve', function() {
   })
 
   test('resolveRecordingLinkAudio falls back to local resolver proxy', async function() {
-    const mp3 = { type: 'audio/mpeg' }
+    const mp3 = { type: 'audio/mpeg', size: 100 }
     const driveApi = {
       getDocumentBlob: jest.fn(function() {
         return Promise.resolve({ error: 'denied' })
@@ -312,6 +325,7 @@ describe('linkRecording create and resolve', function() {
         return Promise.resolve({ error: 'cors blocked' })
       }),
     }
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.test'])
     mediaProxyClient.isMediaProxyConfigured.mockReturnValue(true)
     mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
       blob: jest.fn(function() { return Promise.resolve(mp3) }),
@@ -385,5 +399,26 @@ describe('linkRecording create and resolve', function() {
     const resolved = await resolveRecordingLinkMidi(attached.link, 't-midi', 0, { forPlayback: false })
     expect(['cache', 'local']).toContain(resolved.source)
     expect(resolved.arrayBuffer.byteLength).toBeGreaterThan(0)
+  })
+
+  test('tuneHasPendingOwnedMediaUpload detects uploadPending links', function() {
+    expect(tuneHasPendingOwnedMediaUpload({
+      links: [{ link: 'abcbook-recording:a', uploadPending: true }],
+    })).toBe(true)
+    expect(tuneHasPendingOwnedMediaUpload({
+      links: [{ link: 'abcbook-recording:a' }],
+    })).toBe(false)
+  })
+
+  test('listOwnedMediaLinkSyncEntries lists owned links', function() {
+    const entries = listOwnedMediaLinkSyncEntries({
+      links: [
+        { link: 'abcbook-recording:a', title: 'A', googleId: 'g1' },
+        { link: 'abcbook-recording:b', title: 'B', mediaKind: 'midi' },
+      ],
+    })
+    expect(entries).toHaveLength(2)
+    expect(entries[0].status).toBe('synced')
+    expect(entries[1].mediaKind).toBe('midi')
   })
 })

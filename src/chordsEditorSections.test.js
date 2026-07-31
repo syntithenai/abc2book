@@ -490,6 +490,21 @@ describe('chordsEditorSections', function() {
     expect(next[2].chart).toContain('G');
   });
 
+  test('reconcileChordSectionsFromGrid preserves section marker header in chart', function() {
+    const sections = [
+      { key: 'verse-0', title: 'Verse', header: '[Verse]', chart: 'C . . . . . . . |', meter: '4/4', chartRevisit: false },
+    ];
+    const next = reconcileChordSectionsFromGrid(
+      sections,
+      '# Bridge\nD . . . . . . . |',
+      '4/4'
+    );
+    expect(next[0].chart).toContain('# Bridge');
+    expect(next[0].chart).toContain('D');
+    expect(next[0].writeNotationMarker).toBe(true);
+    expect(next[0].title).toBe('Bridge');
+  });
+
   test('renameChordsEditorSection rewrites matching lyric header', function() {
     const sections = [
       {

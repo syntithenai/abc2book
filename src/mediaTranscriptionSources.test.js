@@ -33,5 +33,14 @@ describe('mediaTranscriptionSources', function() {
       srcType: 'recording',
       linkIndex: 2,
     });
+
+    expect(buildLinkedMediaSource({
+      link: { link: RECORDING_LINK_PREFIX + 'rec2', recordingId: 'rec2' },
+      title: 'Nested rec',
+    }, 3, tunebook)).toMatchObject({
+      src: RECORDING_LINK_PREFIX + 'rec2',
+      srcType: 'recording',
+      linkIndex: 3,
+    });
   });
 });

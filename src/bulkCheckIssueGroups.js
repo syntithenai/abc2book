@@ -7,6 +7,7 @@ import {
   canFixSessionLineBreaks,
   canNormalizeMelodyRepeatMarks,
   canCollapseEmptyRepeatBars,
+  canCollapseAnacrusisDoubleBarlines,
 } from './tuneAbcStructureFix'
 
 const NOTATION_ISSUE_CODES = new Set([
@@ -27,6 +28,8 @@ const NOTATION_ISSUE_CODES = new Set([
   'secondary_voice_empty',
   'voice_bar_count_mismatch',
   'anacrusis_inconsistent',
+  'anacrusis_double_barline',
+  'section_pickup_should_be_ending',
   'unexpected_melody',
   'sparse_melody',
   'session_linebreak_markers',
@@ -100,6 +103,7 @@ const ACTION_GROUP_IDS = {
   stanzaDoubleBarlines: ['notation'],
   normalizeRepeatMarks: ['notation'],
   collapseEmptyRepeatBars: ['notation'],
+  collapseAnacrusisDoubleBarlines: ['notation'],
   normalizeAbc: ['notation', 'abcRecord'],
   appendFinalBarline: ['notation'],
   closeOpenRepeat: ['notation'],
@@ -154,7 +158,9 @@ const ISSUE_CODE_ACTIONS = {
   overfull_bar: ['quantizeOverfullBars'],
   voice_bar_count_mismatch: ['padVoicesToMatch'],
   secondary_voice_empty: ['removeEmptyVoice'],
-  anacrusis_inconsistent: ['declarePickupLength'],
+  anacrusis_inconsistent: ['declarePickupLength', 'collapseAnacrusisDoubleBarlines'],
+  anacrusis_double_barline: ['collapseAnacrusisDoubleBarlines'],
+  section_pickup_should_be_ending: ['convertSectionPickupsToVoltas'],
   chord_scaffold_in_melody: ['convertScaffoldToRests'],
   ending_without_repeat: ['wrapEndingInRepeat'],
   ending_bar_mismatch: ['balanceEndings'],

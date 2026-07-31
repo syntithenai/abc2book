@@ -42,7 +42,7 @@ def is_bandcamp_url(raw_url: str) -> bool:
         parsed = urlparse(repair_bandcamp_url(raw_url))
     except Exception:
         return False
-    if parsed.scheme != "https":
+    if parsed.scheme not in ("https", "http"):
         return False
     host = (parsed.hostname or "").lower()
     if host.startswith("www."):

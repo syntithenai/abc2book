@@ -272,7 +272,7 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
     }
   }
 
-  test('idle queue on another tune is discarded and playback starts', function() {
+  test('idle queue on another tune previews once and keeps playlist', function() {
     const viewed = makeTune(SAMPLE_TUNE_IDS.cooleys)
     const queueTune = makeTune(SAMPLE_TUNE_IDS.amazingGrace)
     const mediaController = makeMockMediaController(queueTune)
@@ -290,7 +290,10 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
     })
 
     expect(setQueuePlayConfirm).not.toHaveBeenCalled()
-    expect(setNowPlayingQueue).toHaveBeenCalledWith(null)
+    expect(setNowPlayingQueue).toHaveBeenCalledWith(expect.objectContaining({
+      previewOnce: { tuneId: viewed.id, returnIndex: 0 },
+    }))
+    expect(setNowPlayingQueue).not.toHaveBeenCalledWith(null)
     expect(mediaController._calls.applyPlaybackRoute[0].tuneId).toBe(viewed.id)
     expect(navigate).toHaveBeenCalledWith('/tunes/' + viewed.id + '/playMidi')
   })

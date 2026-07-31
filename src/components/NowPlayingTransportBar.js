@@ -94,6 +94,9 @@ export default function NowPlayingTransportBar({
   const stallTitle = mediaController && mediaController.playlistStalled
     ? 'Paused — network timeout'
     : null
+  const activeLinkIndex = mediaController && mediaController.mediaLinkNumber != null
+    ? mediaController.mediaLinkNumber
+    : null
 
   const queueContext = {
     tunes: tunes,
@@ -305,6 +308,7 @@ export default function NowPlayingTransportBar({
                   <TuneArtwork
                     tune={playingTune}
                     tunebook={tunebook}
+                    linkIndex={activeLinkIndex}
                     className="now-playing-transport-artwork"
                   />
                 </button>

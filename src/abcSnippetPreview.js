@@ -1,6 +1,7 @@
 /**
  * Clip ABC to a short staff preview: headers + first music line, at most maxBars bars.
  */
+import { normalizeMelodyBarlines } from './melodyBarlineNormalize';
 
 function isHeaderLine(line) {
   return /^[A-Za-z]:/.test(String(line || '').trim())
@@ -18,7 +19,7 @@ function isMusicLine(line) {
  * Count barlines in a music line, treating || :| |: as single boundaries where possible.
  */
 export function countBarsInMusicLine(line) {
-  const text = String(line || '')
+  const text = normalizeMelodyBarlines(String(line || ''))
   if (!text.trim()) return 0
   // Split on barline tokens; content segments between bars.
   const parts = text.split(/\|+/)
@@ -38,7 +39,7 @@ export function countBarsInMusicLine(line) {
  */
 export function clipMusicLineToBars(line, maxBars) {
   const limit = maxBars > 0 ? maxBars : 8
-  const text = String(line || '')
+  const text = normalizeMelodyBarlines(String(line || ''))
   if (!text.trim()) return ''
 
   let bars = 0

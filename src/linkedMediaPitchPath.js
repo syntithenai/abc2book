@@ -18,6 +18,7 @@ function resolverYoutubeBytesAvailable(features) {
 export function linkedMediaPitchPathAvailableSync(options) {
   const opts = options || {}
   const srcType = opts.srcType
+  if (srcType === 'recording') return true
   if (srcType !== 'youtube' && srcType !== 'audio') return false
 
   const features = opts.resolverFeatures || null

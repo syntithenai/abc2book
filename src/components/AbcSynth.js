@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import abcjs from "abcjs";
+import { abcForAbcjs } from '../melodyBarlineNormalize';
 import {Link} from 'react-router-dom'
 import {Button , Modal} from 'react-bootstrap'
 import useAbcTools from '../useAbcTools'
@@ -763,7 +764,7 @@ export default function AbcSynth(props) {
           renderOptions.tablature = tabOptions
         }
         //if (props.tempo > 0) tune.tempo = props.tempo 
-        var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );
+        var res = abcjs.renderAbc(inputEl.current, abcForAbcjs(props.tunebook.abcTools.json2abc(tune)), renderOptions );
         if (shouldApplyTabOnlyDisplay(tune, tabOptions)) {
           applyTabOnlyNotationDisplay(inputEl.current, countActiveTabVoices(tabOptions))
         }

@@ -3,6 +3,7 @@ import { noteNameToMidi } from './tunerTuningUtils'
 import { getFillBeatIndices } from './chordFillPattern'
 import { getFillStyleDefinition } from './playbackFillSettings'
 import { extractChordsPerBar } from './practiceTrackChordLayer'
+import { isSectionMarkerChordName } from './chordSheetUtils'
 
 function getFirstVoiceNoteLines(tune) {
   if (!tune || !tune.voices) return []
@@ -17,7 +18,9 @@ function primaryChordFromBarText(barText) {
   let match
   let last = ''
   while ((match = re.exec(String(barText || ''))) !== null) {
-    last = match[1]
+    if (!isSectionMarkerChordName(match[1])) {
+      last = match[1]
+    }
   }
   return last
 }
@@ -27,11 +30,9 @@ export function extractChordsPerBarFromTuneNotes(tune) {
   if (!lines.length) return []
   const bars = []
   lines.join('\n').split('|').forEach(function(bar) {
-    bars.push(primaryChordFromBarText(bar))
+    const chord = primaryChordFromBarText(bar)
+    if (chord) bars.push(chord)
   })
-  while (bars.length && !bars[bars.length - 1]) {
-    bars.pop()
-  }
   return bars
 }
 

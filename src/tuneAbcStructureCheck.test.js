@@ -2,6 +2,7 @@ import useAbcTools from './useAbcTools';
 import { checkTuneAbcStructure } from './tuneAbcStructureCheck';
 import {
   appendFinalBarlineInTune,
+  collapseAnacrusisDoubleBarlinesInTune,
   collapseEmptyRepeatBarsInTune,
   convertScaffoldToRestsInTune,
   fixSessionLineBreaksInTune,
@@ -14,8 +15,14 @@ import {
   removeOrphanRepeatEndInTune,
   resolveHeaderConflictFromAbc,
   wrapEndingInRepeatInTune,
+  convertSectionPickupsToVoltasInTune,
+  structureFixAvailable,
 } from './tuneAbcStructureFix';
 import { buildTuneCheckReport } from './tuneBulkCheckReport';
+import {
+  ANACRUSIS_THREE_STRAINS,
+  ANACRUSIS_TWO_STRAINS,
+} from './testFixtures/anacrusisDoubleBarlineFixtures';
 
 function tuneFromAbc(abcTools, abc, extras) {
   const json = abcTools.abc2json(abc);
@@ -44,6 +51,75 @@ describe('tuneAbcStructureCheck', function() {
     const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
     expect(result).not.toBeNull();
     expect(result.issues.some(function(i) { return i.code === 'empty_bar'; })).toBe(false);
+  });
+
+  test('pickup || after |: does not create empty_bar or stanza_strain_mismatch', function() {
+    const tune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Pickup Strains') + 'C |'), {
+      voices: { '1': { notes: ANACRUSIS_THREE_STRAINS.split('\n') } },
+    });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('empty_bar');
+    expect(codes).not.toContain('stanza_strain_mismatch');
+  });
+
+  test('detects section_pickup_should_be_ending for two-strain pickup sections', function() {
+    const tune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Volta Pickup') + 'C |', {
+      meter: '4/4',
+      key: 'D',
+      noteLength: '1/8',
+    }), {
+      voices: { '1': { notes: ANACRUSIS_TWO_STRAINS.split('\n') } },
+    });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    expect(result).not.toBeNull();
+    const issues = result.issues.filter(function(i) { return i.code === 'section_pickup_should_be_ending'; });
+    expect(issues.length).toBe(1);
+    expect(issues[0].message).toContain('de');
+    expect(issues[0].message).toContain('second ending');
+  });
+
+  test('detects section_pickup_should_be_ending at A-B boundary in three-strain tune', function() {
+    const tune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Volta Pickup 3') + 'C |', {
+      meter: '4/4',
+      key: 'D',
+      noteLength: '1/8',
+    }), {
+      voices: { '1': { notes: ANACRUSIS_THREE_STRAINS.split('\n') } },
+    });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const issues = result && result.issues
+      ? result.issues.filter(function(i) { return i.code === 'section_pickup_should_be_ending'; })
+      : [];
+    expect(issues.length).toBe(1);
+    expect(issues[0].message).toContain('de');
+  });
+
+  test('does not flag section pickup when voltas already present', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Has Volta') + '|: FG C D E F | [1 FG :| [2 de :|');
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('section_pickup_should_be_ending');
+  });
+
+  test('does not flag single repeat section with pickup', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Single') + '|: FG C D E F | G A B c :|');
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('section_pickup_should_be_ending');
+  });
+
+  test('detects anacrusis_double_barline and fix rewrites stored notes', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Pickup Fix') + '|:FG||"D"AFDF AFDF|');
+    const before = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    expect(before.issues.some(function(i) { return i.code === 'anacrusis_double_barline'; })).toBe(true);
+
+    const fixed = collapseAnacrusisDoubleBarlinesInTune(tune);
+    expect(fixed).not.toBeNull();
+    expect(fixed.voices[Object.keys(fixed.voices)[0]].notes.join(' ')).toContain('|:FG|"D"AFDF');
+    const after = checkTuneAbcStructure(fixed, { abcTools: abcTools });
+    const codes = after && after.issues ? after.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('anacrusis_double_barline');
   });
 
   test('detects underfull bar', function() {
@@ -252,6 +328,44 @@ describe('tuneAbcStructureFix', function() {
     const fixed = resolveHeaderConflictFromAbc(tune, abcTools);
     expect(fixed).not.toBeNull();
     expect(fixed.meter).toBe(String(abcTools.getMetaValueFromAbc('M', abcText) || fixed.meter).trim());
+  });
+
+  test('convertSectionPickupsToVoltasInTune rewrites two-strain pickup sections', function() {
+    const tune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Volta Fix') + 'C |', {
+      meter: '4/4',
+      key: 'D',
+      noteLength: '1/8',
+    }), {
+      voices: { '1': { notes: ANACRUSIS_TWO_STRAINS.split('\n') } },
+    });
+    const before = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    expect(before.issues.some(function(i) { return i.code === 'section_pickup_should_be_ending'; })).toBe(true);
+
+    const fixed = convertSectionPickupsToVoltasInTune(tune, abcTools);
+    expect(fixed).not.toBeNull();
+    const flat = fixed.voices[Object.keys(fixed.voices)[0]].notes.join('\n');
+    expect(flat).toContain('[1 FG :|');
+    expect(flat).toContain('[2 de :|');
+    expect(flat).toContain('[2 FG :|');
+    expect(flat.match(/\|:de\|\|/g)).toBeNull();
+    expect(flat).toMatch(/\[[0-9]+/);
+
+    const after = checkTuneAbcStructure(fixed, { abcTools: abcTools });
+    const codes = after && after.issues ? after.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('section_pickup_should_be_ending');
+  });
+
+  test('convertSectionPickupsToVoltas is not offered for three-strain tunes', function() {
+    const tune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Volta 3') + 'C |', {
+      meter: '4/4',
+      key: 'D',
+      noteLength: '1/8',
+    }), {
+      voices: { '1': { notes: ANACRUSIS_THREE_STRAINS.split('\n') } },
+    });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const issues = result && result.issues ? result.issues : [];
+    expect(structureFixAvailable('convertSectionPickupsToVoltas', tune, abcTools, issues)).toBe(false);
   });
 });
 

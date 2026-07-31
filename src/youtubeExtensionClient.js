@@ -165,40 +165,45 @@ export async function pingYoutubeExtension(options) {
   if (dom) {
     try {
       const live = await pingRoundTrip(timeoutMs)
-      cachedPing = live.ok ? live : Object.assign({}, dom, { swError: live.error })
+      cachedPing = live.ok
+        ? live
+        : {
+          ok: false,
+          error: live.error || 'Extension unavailable',
+        }
       cachedPingAt = Date.now()
       return cachedPing
     } catch (err) {
-      cachedPing = Object.assign({}, dom, {
-        swError: err && err.message ? String(err.message) : 'ping failed',
-      })
+      cachedPing = {
+        ok: false,
+        error:
+          (err && err.message ? String(err.message) : null) ||
+          'Extension not connected — load unpacked browser-extension/ and reload this tab',
+      }
       cachedPingAt = Date.now()
       return cachedPing
     }
   }
 
+  let liveResult
   try {
-    cachedPing = await pingRoundTrip(timeoutMs)
+    liveResult = await pingRoundTrip(timeoutMs)
   } catch (err) {
     await new Promise(function (resolve) {
       setTimeout(resolve, 250)
     })
-    const domRetry = readDomMarker()
-    if (domRetry) {
-      cachedPing = domRetry
-    } else {
-      try {
-        cachedPing = await pingRoundTrip(timeoutMs)
-      } catch (err2) {
-        cachedPing = {
-          ok: false,
-          error:
-            (err2 && err2.message ? String(err2.message) : null) ||
-            'Extension not connected — load unpacked browser-extension/ and reload this tab',
-        }
+    try {
+      liveResult = await pingRoundTrip(timeoutMs)
+    } catch (err2) {
+      liveResult = {
+        ok: false,
+        error:
+          (err2 && err2.message ? String(err2.message) : null) ||
+          'Extension not connected — load unpacked browser-extension/ and reload this tab',
       }
     }
   }
+  cachedPing = liveResult
   cachedPingAt = Date.now()
   return cachedPing
 }
@@ -209,16 +214,14 @@ export async function isYoutubeExtensionConnected() {
 }
 
 /**
- * Cheap sync connectivity check: DOM marker set by the content script, or a
- * recent successful ping. May miss the extension right after page load
- * (before the content script runs); the async check is authoritative.
+ * Cheap sync connectivity check from a recent successful ping. May miss the
+ * extension right after page load (before the content script runs); the async
+ * check is authoritative. Stale DOM markers alone are not trusted — they can
+ * linger after the browser extension is disabled or turned off in settings.
  */
 export function isYoutubeExtensionConnectedSync() {
   if (isYoutubeHelperDisabled()) return false
-  if (cachedPing && cachedPing.ok) {
-    return true
-  }
-  return !!readDomMarker()
+  return !!(cachedPing && cachedPing.ok)
 }
 
 /**
@@ -349,6 +352,11 @@ if (typeof window !== 'undefined') {
 export function __resetYoutubeExtensionPingCache() {
   cachedPing = null
   cachedPingAt = 0
+}
+
+export function __setCachedPingForTests(value) {
+  cachedPing = value
+  cachedPingAt = Date.now()
 }
 
 export function __abortAllYoutubeExtensionFetchesForTests() {

@@ -1,4 +1,5 @@
 import {
+  collapseAnacrusisDoubleBarlines,
   splitMelodyIntoBlocks,
   extractBarsFromMelodyText,
   assignLyricLinesToBars,
@@ -17,6 +18,31 @@ const ASHOKAN_C = 'A3 FD2 | d4 A2 | B3 cd2 | A F3 E2 | F3 ED2 | B,4 G,2 | A,6 | 
 const ASHOKAN_D = 'D2 F2 A2 | =c6 | B3 cd2 | A2 F2 D2 | A,2 D2 F2 | A2 d2 F2 | E3 DC2 | D4 :|';
 
 describe('lyricBarAlignmentUtils', function() {
+  test('collapseAnacrusisDoubleBarlines turns pickup || into a single barline', function() {
+    expect(collapseAnacrusisDoubleBarlines('|:FG||"D"AFDF AFDF|'))
+      .toBe('|:FG|"D"AFDF AFDF|');
+    expect(collapseAnacrusisDoubleBarlines('|:de||fdAd fagf|'))
+      .toBe('|:de|fdAd fagf|');
+    expect(collapseAnacrusisDoubleBarlines('C D E F | G A B c || d e f g |'))
+      .toBe('C D E F | G A B c || d e f g |');
+  });
+
+  test('splitMelodyIntoBlocks does not split on anacrusis double barlines', function() {
+    const strain = '|:FG||"D"AFDF AFDF|A2 d2 d2 cB|AFDF AFDF|"A"G2E2 E2 FG|'
+      + '"D"AFDF AFDF|A2 d2 d2 de|fafd "A"egec|"D"d2f2d2:|';
+    const blocks = splitMelodyIntoBlocks([strain]);
+    expect(blocks.length).toBe(1);
+    expect(extractBarsFromMelodyText(blocks[0]).length).toBe(9);
+  });
+
+  test('buildNotationLineBarMap normalizes pickup || on a single staff line', function() {
+    const strain = '|:FG||"D"AFDF AFDF|A2 d2 d2 cB|AFDF AFDF|"A"G2E2 E2 FG|'
+      + '"D"AFDF AFDF|A2 d2 d2 de|fafd "A"egec|"D"d2f2d2:|';
+    const barMap = buildNotationLineBarMap([strain]);
+    expect(barMap.length).toBe(1);
+    expect(barMap[0].barCount).toBe(9);
+  });
+
   test('splits melody strains at :: ignoring visual line breaks', function() {
     const blocks = splitMelodyIntoBlocks([ASHOKAN_A + ASHOKAN_B, ASHOKAN_C + ASHOKAN_D]);
     expect(blocks.length).toBe(2);

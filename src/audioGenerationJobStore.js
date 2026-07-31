@@ -272,7 +272,7 @@ async function completeJob(job, status, getTuneContext) {
     if (linkResult && linkResult.link) {
       const existingLinks = Array.isArray(tune.links) ? tune.links : [];
       const updated = Object.assign({}, tune, {
-        links: [linkResult.link].concat(existingLinks),
+        links: existingLinks.concat([linkResult.link]),
       });
       if (job.onTuneChange) job.onTuneChange(updated);
       if (job.tunebook && typeof job.tunebook.saveTune === 'function') {

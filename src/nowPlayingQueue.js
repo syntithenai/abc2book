@@ -4,6 +4,7 @@
  */
 
 import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
+import { externalMediaFromCandidate } from './mediaSearchExternalMedia'
 
 const ACTIVE_QUEUE_STORAGE_KEY = 'bookstorage_now_playing_queue'
 
@@ -17,6 +18,7 @@ export function isExternalQueueItem(item) {
     || item.externalMedia.uri
     || item.externalMedia.collectionLink
     || item.externalMedia.collectionPath
+    || item.externalMedia.mediaLink
   ))
 }
 
@@ -432,30 +434,7 @@ export function insertMediaCandidateAfterCurrentInQueue(queue, candidate, option
 }
 
 function requireExternalMediaFromCandidate(candidate) {
-  if (!candidate) return null
-  if (candidate.youtubeId) {
-    return Object.assign({}, candidate)
-  }
-  if (candidate.uri) {
-    return {
-      source: candidate.source || 'device-file',
-      title: candidate.title || 'Track',
-      artist: candidate.artist || '',
-      uri: candidate.uri,
-      path: candidate.path || '',
-    }
-  }
-  if (candidate.link || candidate.path) {
-    return {
-      source: candidate.source || 'music-collection',
-      title: candidate.title || 'Track',
-      artist: candidate.artist || '',
-      collectionLink: candidate.link || '',
-      collectionPath: candidate.path || '',
-      image: candidate.image || '',
-    }
-  }
-  return null
+  return externalMediaFromCandidate(candidate)
 }
 
 function isRecordingLink(link) {

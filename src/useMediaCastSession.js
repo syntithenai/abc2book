@@ -17,10 +17,62 @@ import {
   canRouteToCastSdk,
   needsCastHlsSession,
 } from './remoteOutputSupport';
+import { getChromecastOutputEnabled } from './preferredRemoteOutputSettings';
+import { enrichPayloadWithYoutubeAudioPrefetch } from './youtubeRemoteAudioPrefetch';
 
 const CAST_STORAGE_KEY = 'abc2book.castSession';
 
 let castFrameworkPromise = null;
+
+function withAsyncTimeout(promise, timeoutMs, message) {
+  let timer = null;
+  return Promise.race([
+    promise,
+    new Promise(function(_, reject) {
+      timer = setTimeout(function() {
+        reject(new Error(message));
+      }, timeoutMs);
+    }),
+  ]).finally(function() {
+    if (timer) clearTimeout(timer);
+  });
+}
+
+/** Cast Framework APIs return promises; legacy chrome.cast used callbacks. */
+function invokeCastSdk(tryPromise, tryCallbacks) {
+  const direct = tryPromise();
+  if (direct && typeof direct.then === 'function') return direct;
+  return new Promise(tryCallbacks);
+}
+
+function requestCastSession(context) {
+  return withAsyncTimeout(
+    invokeCastSdk(
+      function() { return context.requestSession(); },
+      function(resolve, reject) { context.requestSession(resolve, reject); }
+    ),
+    120000,
+    'Chromecast device selection timed out'
+  );
+}
+
+function loadCastMedia(session, request) {
+  return withAsyncTimeout(
+    invokeCastSdk(
+      function() { return session.loadMedia(request); },
+      function(resolve, reject) { session.loadMedia(request, resolve, reject); }
+    ),
+    60000,
+    'Timed out loading media on Chromecast'
+  );
+}
+
+function getCastPlayerIdleState() {
+  if (window.chrome && window.chrome.cast && window.chrome.cast.media && window.chrome.cast.media.PlayerState) {
+    return window.chrome.cast.media.PlayerState.IDLE;
+  }
+  return 'IDLE';
+}
 
 function readRemotePlayerState(player, castContext) {
   if (!player) return null;
@@ -126,14 +178,21 @@ export default function useMediaCastSession({ mediaController }) {
   const seekInFlightRef = useRef(false);
   const queueRef = useRef([]);
   const endedHandledRef = useRef(false);
+  const castHandoffInFlightRef = useRef(false);
+  const castMediaLoadedRef = useRef(false);
+  const userStopCastRef = useRef(false);
   const mediaControllerRef = useRef(mediaController);
   mediaControllerRef.current = mediaController;
 
-  const castUrlOptions = useCallback(function() {
+  const castRequestOptions = useCallback(function(extra) {
     const mc = mediaControllerRef.current;
-    return {
+    const linked = mc && mc.getLinkedMediaResolveOptions
+      ? mc.getLinkedMediaResolveOptions()
+      : null;
+    return Object.assign({
+      accessToken: linked && linked.accessToken,
       healthStatus: mc && mc.mediaResolverStatus ? mc.mediaResolverStatus : null,
-    };
+    }, extra || {});
   }, []);
 
   const updateEngine = useCallback(function(patch) {
@@ -148,6 +207,11 @@ export default function useMediaCastSession({ mediaController }) {
     const prev = mediaController.remoteOutputEngineRef.current || {};
     const next = Object.assign({}, prev, patch, { mode: 'cast', subMode: patch.subMode || 'sdk' });
     mediaController.remoteOutputEngineRef.current = next;
+    if (patch.connected === true && prev.connected !== true) {
+      if (mediaController.muteLocalOutputsForRemote) {
+        mediaController.muteLocalOutputsForRemote();
+      }
+    }
     setConnected(!!next.connected);
     setDeviceName(next.deviceName || '');
     setSessionId(next.sessionId || null);
@@ -168,9 +232,9 @@ export default function useMediaCastSession({ mediaController }) {
       const seconds = mc && mc.getPlaybackProgress
         ? (mc.getPlaybackProgress().seconds || 0)
         : 0;
-      sendCastSessionHeartbeat(activeSessionId, seconds).catch(function() {});
+      sendCastSessionHeartbeat(activeSessionId, seconds, castRequestOptions()).catch(function() {});
     }, 30000);
-  }, [stopHeartbeatPoll]);
+  }, [castRequestOptions, stopHeartbeatPoll]);
 
   const stopStatusPoll = useCallback(function() {
     if (statusPollRef.current) {
@@ -182,20 +246,19 @@ export default function useMediaCastSession({ mediaController }) {
 
   const handlePlaybackEnded = useCallback(async function() {
     if (endedHandledRef.current) return;
+    if (!castMediaLoadedRef.current) return;
     endedHandledRef.current = true;
     const mc = mediaControllerRef.current;
     const activeSessionId = sessionId;
     const queue = queueRef.current || [];
+    const requestOpts = castRequestOptions();
     try {
       if (activeSessionId && queue.length > 1) {
-        const status = await getCastSessionStatus(activeSessionId).catch(function() { return null; });
+        const status = await getCastSessionStatus(activeSessionId, requestOpts).catch(function() { return null; });
         if (status && status.canGoNext) {
-          await advanceCastSession(activeSessionId);
+          await advanceCastSession(activeSessionId, requestOpts);
           const context = castContextRef.current;
-          const castOpts = {
-            healthStatus: mc && mc.mediaResolverStatus ? mc.mediaResolverStatus : null,
-          };
-          const contentUrl = buildCastHlsUrl(activeSessionId, castOpts);
+          const contentUrl = buildCastHlsUrl(activeSessionId, requestOpts);
           if (context && contentUrl) {
             const tune = mc.tune;
             await loadMediaOnCastRef.current(context, contentUrl, {
@@ -211,7 +274,7 @@ export default function useMediaCastSession({ mediaController }) {
     } catch (e) {
       if (mc && mc.onEnded) mc.onEnded();
     }
-  }, [sessionId]);
+  }, [sessionId, castRequestOptions]);
 
   const loadMediaOnCastRef = useRef(null);
 
@@ -235,9 +298,7 @@ export default function useMediaCastSession({ mediaController }) {
         const mc = mediaControllerRef.current;
         if (mc && mc.setCurrentTime) mc.setCurrentTime(currentTime || 0);
         if (mc && mc.setDuration && duration) mc.setDuration(duration);
-        const framework = window.cast && window.cast.framework;
-        if (framework
-          && playerState === framework.RemotePlayerState.IDLE
+        if (playerState === getCastPlayerIdleState()
           && duration > 0
           && currentTime >= Math.max(0, duration - 1.5)) {
           handlePlaybackEnded();
@@ -245,7 +306,8 @@ export default function useMediaCastSession({ mediaController }) {
         return;
       }
       if (!activeSessionId) return;
-      getCastSessionStatus(activeSessionId).then(function(status) {
+      const requestOpts = castRequestOptions();
+      getCastSessionStatus(activeSessionId, requestOpts).then(function(status) {
         updateEngine({
           connected: true,
           sessionId: activeSessionId,
@@ -256,11 +318,49 @@ export default function useMediaCastSession({ mediaController }) {
         if (!status.isPlaying && status.duration > 0 && status.currentTime >= status.duration - 1) {
           handlePlaybackEnded();
         }
-      }).catch(function() {});
+      }).catch(function(err) {
+        if (err && String(err.message || err).indexOf('404') >= 0) {
+          failCastPlaybackRef.current('Chromecast session ended on the resolver');
+        }
+      });
     }, 1000);
-  }, [handlePlaybackEnded, stopStatusPoll, updateEngine]);
+  }, [castRequestOptions, handlePlaybackEnded, stopStatusPoll, updateEngine]);
+
+  const failCastPlaybackRef = useRef(function() {});
+
+  const endCastSdkSession = useCallback(function() {
+    const context = castContextRef.current;
+    if (!context) return;
+    try {
+      const session = context.getCurrentSession();
+      if (session) {
+        if (session.endSession) {
+          session.endSession(true);
+        } else if (session.stop) {
+          session.stop();
+        }
+      }
+    } catch (e) { /* ignore */ }
+  }, []);
+
+  const failCastPlayback = useCallback(function(message) {
+    if (userStopCastRef.current) return;
+    stopStatusPoll();
+    castMediaLoadedRef.current = false;
+    castHandoffInFlightRef.current = false;
+    writeStoredCastMeta(null);
+    updateEngine(null);
+    endCastSdkSession();
+    setError(message || 'Chromecast playback stopped');
+    const mc = mediaControllerRef.current;
+    if (mc && mc.silencePlaybackOutputs) {
+      mc.silencePlaybackOutputs();
+    }
+  }, [endCastSdkSession, stopStatusPoll, updateEngine]);
+  failCastPlaybackRef.current = failCastPlayback;
 
   const stopCast = useCallback(async function(endSession) {
+    userStopCastRef.current = true;
     stopStatusPoll();
     const activeId = sessionId;
     const shouldEnd = endSession !== false;
@@ -285,13 +385,12 @@ export default function useMediaCastSession({ mediaController }) {
       } catch (e) { /* ignore */ }
     }
     if (activeId && shouldEnd) {
-      try { await deleteCastSession(activeId); } catch (e) { /* ignore */ }
+      try { await deleteCastSession(activeId, castRequestOptions()); } catch (e) { /* ignore */ }
     }
-  }, [sessionId, stopStatusPoll, updateEngine]);
-
-  const leaveCast = useCallback(function() {
-    return stopCast(false);
-  }, [stopCast]);
+    userStopCastRef.current = false;
+    castMediaLoadedRef.current = false;
+    castHandoffInFlightRef.current = false;
+  }, [castRequestOptions, sessionId, stopStatusPoll, updateEngine]);
 
   const loadMediaOnCast = useCallback(async function(context, contentUrl, metadata, startSeconds) {
     const session = context.getCurrentSession();
@@ -315,9 +414,8 @@ export default function useMediaCastSession({ mediaController }) {
         : 0);
     request.currentTime = startAt;
     endedHandledRef.current = false;
-    await new Promise(function(resolve, reject) {
-      session.loadMedia(request, resolve, reject);
-    });
+    await loadCastMedia(session, request);
+    castMediaLoadedRef.current = true;
   }, [mediaController]);
   loadMediaOnCastRef.current = loadMediaOnCast;
 
@@ -343,7 +441,7 @@ export default function useMediaCastSession({ mediaController }) {
     controller.addEventListener(
       framework.RemotePlayerEventType.PLAYER_STATE_CHANGED,
       function(event) {
-        if (event.value === framework.RemotePlayerState.IDLE) {
+        if (event.value === getCastPlayerIdleState()) {
           const playback = readRemotePlayerState(remotePlayerRef.current, castContextRef.current) || {};
           const duration = playback.duration || 0;
           const currentTime = playback.currentTime || 0;
@@ -356,6 +454,9 @@ export default function useMediaCastSession({ mediaController }) {
   }, [handlePlaybackEnded, updateEngine]);
 
   const initCast = useCallback(async function() {
+    if (!getChromecastOutputEnabled()) {
+      return null;
+    }
     if (!isCastWebSdkSupported()) {
       return null;
     }
@@ -382,8 +483,10 @@ export default function useMediaCastSession({ mediaController }) {
       function(event) {
         const session = context.getCurrentSession();
         if (event.sessionState === framework.SessionState.SESSION_RESUMED && session) {
-          const device = session.getCastDevice ? session.getCastDevice() : null;
+          if (castHandoffInFlightRef.current) return;
           const stored = readStoredCastMeta();
+          if (!stored || (!stored.sessionId && !stored.title)) return;
+          const device = session.getCastDevice ? session.getCastDevice() : null;
           updateEngine({
             connected: true,
             deviceName: device && device.friendlyName ? device.friendlyName : 'Chromecast',
@@ -393,14 +496,20 @@ export default function useMediaCastSession({ mediaController }) {
           startStatusPoll(stored && stored.sessionId ? stored.sessionId : null);
         }
         if (event.sessionState === framework.SessionState.SESSION_ENDED) {
-          updateEngine(null);
-          writeStoredCastMeta(null);
+          castMediaLoadedRef.current = false;
+          castHandoffInFlightRef.current = false;
+          if (!userStopCastRef.current) {
+            failCastPlaybackRef.current('Chromecast disconnected');
+          } else {
+            updateEngine(null);
+            writeStoredCastMeta(null);
+          }
         }
       }
     );
     const existing = context.getCurrentSession();
     const stored = readStoredCastMeta();
-    if (existing) {
+    if (existing && stored && (stored.sessionId || stored.title)) {
       const device = existing.getCastDevice ? existing.getCastDevice() : null;
       const deviceLabel = device && device.friendlyName ? device.friendlyName : 'Chromecast';
       updateEngine({
@@ -424,7 +533,7 @@ export default function useMediaCastSession({ mediaController }) {
     try {
       const context = castContextRef.current || await initCast();
       if (!context.getCurrentSession()) {
-        await context.requestSession();
+        await requestCastSession(context);
       }
       const castSession = context.getCurrentSession();
       const device = castSession && castSession.getCastDevice ? castSession.getCastDevice() : null;
@@ -458,13 +567,14 @@ export default function useMediaCastSession({ mediaController }) {
     if (!payload && !canRouteToCastSdk(mediaController)) return false;
     setLoading(true);
     setError(null);
+    userStopCastRef.current = false;
+    castMediaLoadedRef.current = false;
     queueRef.current = Array.isArray(payload && payload.queue) ? payload.queue : (Array.isArray(opts.queue) ? opts.queue : []);
     endedHandledRef.current = false;
+    let activeSessionId = null;
+    const requestOpts = castRequestOptions();
     try {
       const context = castContextRef.current || await initCast();
-      await context.requestSession();
-      const castSession = context.getCurrentSession();
-      const device = castSession && castSession.getCastDevice ? castSession.getCastDevice() : null;
       const tune = mediaController.tune;
       const startSeconds = payload && payload.startSeconds != null
         ? payload.startSeconds
@@ -475,39 +585,49 @@ export default function useMediaCastSession({ mediaController }) {
         ? payload.duration
         : (mediaController.duration || 0);
       let contentUrl = null;
-      let activeSessionId = null;
-      const castOpts = castUrlOptions();
+      let sessionPayload = Object.assign({}, payload || {}, requestOpts);
+      if (payload && payload.sourceType === 'youtube') {
+        const youtubeGetId = mediaController.youtubeGetId
+          || (mediaController.tunebook && mediaController.tunebook.utils
+            ? mediaController.tunebook.utils.YouTubeGetID
+            : null);
+        sessionPayload = await enrichPayloadWithYoutubeAudioPrefetch(sessionPayload, youtubeGetId);
+      }
       const useHlsSession = !!(payload && needsCastHlsSession(mediaController, payload));
       if (useHlsSession) {
-        const session = await createCastPlaybackSession(payload || {});
+        const session = await createCastPlaybackSession(sessionPayload);
         activeSessionId = session.sessionId;
-        await waitForCastPlaylistReady(activeSessionId);
-        contentUrl = resolveCastContentUrl(payload.source, activeSessionId, castOpts);
+        await waitForCastPlaylistReady(activeSessionId, requestOpts);
+        contentUrl = resolveCastContentUrl(payload.source, activeSessionId, requestOpts);
       } else if (payload) {
-        contentUrl = resolveCastContentUrl(payload.source, null, castOpts);
+        contentUrl = resolveCastContentUrl(payload.source, null, requestOpts);
       } else {
         throw new Error('No media payload for Cast');
       }
+      castHandoffInFlightRef.current = true;
+      await requestCastSession(context);
+      const castSession = context.getCurrentSession();
+      const device = castSession && castSession.getCastDevice ? castSession.getCastDevice() : null;
       if (mediaController.muteLocalOutputsForRemote) {
         mediaController.muteLocalOutputsForRemote();
       } else if (mediaController.pause) {
         mediaController.pause();
       }
       if (!useHlsSession && queueRef.current.length > 1 && castSession) {
-        const queueData = buildCastQueueItems(queueRef.current, startSeconds, castOpts);
+        const queueData = buildCastQueueItems(queueRef.current, startSeconds, requestOpts);
         if (queueData) {
           const request = new window.chrome.cast.media.LoadRequest(queueData.items[0].media);
           request.queueData = queueData;
           request.currentTime = startSeconds;
-          await new Promise(function(resolve, reject) {
-            castSession.loadMedia(request, resolve, reject);
-          });
+          await loadCastMedia(castSession, request);
+          castMediaLoadedRef.current = true;
         } else {
           await loadMediaOnCast(context, contentUrl, { title: tune.name, artist: tune.composer }, startSeconds);
         }
       } else {
         await loadMediaOnCast(context, contentUrl, { title: tune.name, artist: tune.composer }, startSeconds);
       }
+      castHandoffInFlightRef.current = false;
       setJoinable(false);
       setSessionId(activeSessionId);
       writeStoredCastMeta({
@@ -527,12 +647,25 @@ export default function useMediaCastSession({ mediaController }) {
       if (activeSessionId) startHeartbeatPoll(activeSessionId);
       return true;
     } catch (err) {
+      castHandoffInFlightRef.current = false;
+      castMediaLoadedRef.current = false;
+      userStopCastRef.current = true;
+      if (activeSessionId) {
+        try { await deleteCastSession(activeSessionId, requestOpts); } catch (e) { /* ignore */ }
+      }
+      endCastSdkSession();
+      updateEngine(null);
+      writeStoredCastMeta(null);
       setError(String(err.message || err));
+      if (mediaController.silencePlaybackOutputs) {
+        mediaController.silencePlaybackOutputs();
+      }
+      userStopCastRef.current = false;
       return false;
     } finally {
       setLoading(false);
     }
-  }, [initCast, loadMediaOnCast, mediaController, startHeartbeatPoll, startStatusPoll, updateEngine, castUrlOptions]);
+  }, [castRequestOptions, initCast, loadMediaOnCast, mediaController, startHeartbeatPoll, startStatusPoll, updateEngine, endCastSdkSession]);
 
   const castPlay = useCallback(function() {
     const context = castContextRef.current;
@@ -559,13 +692,13 @@ export default function useMediaCastSession({ mediaController }) {
       if (controller) {
         controller.seek(seconds);
       } else if (sessionId) {
-        await seekCastSession(sessionId, seconds);
+        await seekCastSession(sessionId, seconds, castRequestOptions());
       }
       updateEngine({ currentTime: seconds });
     } finally {
       setTimeout(function() { seekInFlightRef.current = false; }, 500);
     }
-  }, [sessionId, updateEngine]);
+  }, [castRequestOptions, sessionId, updateEngine]);
 
   useEffect(function() {
     initCast().catch(function() {});
@@ -583,7 +716,6 @@ export default function useMediaCastSession({ mediaController }) {
     canCast: canRouteToCastSdk(mediaController) && isCastWebSdkSupported(),
     startCast,
     stopCast,
-    leaveCast,
     castPlay,
     castPause,
     castSeek,

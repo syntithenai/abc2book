@@ -584,6 +584,9 @@ export function clearNotationFit(svg, renderEl) {
 /** Space reserved so a horizontal scrollbar does not clip the bottom of the score. */
 export const SINGLE_VIEW_SCROLLBAR_RESERVE_PX = 18;
 
+/** Ignore in-viewport footers closer than this — layout has not settled yet. */
+export const SINGLE_VIEW_MIN_FOOTER_GAP_PX = 200;
+
 /**
  * Usable viewport bottom in px. The Now Playing playlist transport bar is
  * fixed to the bottom of the window; fit-height must stop above it.
@@ -601,11 +604,50 @@ export function measureViewportBottomLimit() {
 }
 
 /**
+ * Height of the books/tags/info footer below notation in single view. Fit-height
+ * must stop above this block so it stays in the scrollable page flow.
+ */
+export function measureSingleViewFooterReserve(renderEl) {
+  if (!renderEl || typeof renderEl.closest !== 'function') return 0;
+  const root = renderEl.closest('.music-single, .tune-single-view-dialog-content');
+  if (!root || typeof root.querySelector !== 'function') return 0;
+  const footer = root.querySelector('.music-single-footer-meta');
+  if (!footer) return 0;
+  if (typeof window === 'undefined' || typeof window.getComputedStyle !== 'function') {
+    const fallback = footer.offsetHeight || 0;
+    return fallback > 0 ? Math.ceil(fallback) : 0;
+  }
+  const style = window.getComputedStyle(footer);
+  if (style.display === 'none' || style.visibility === 'hidden') return 0;
+  const rect = footer.getBoundingClientRect();
+  const height = rect.height || footer.offsetHeight || 0;
+  if (!(height > 0)) return 0;
+  const marginTop = parseFloat(style.marginTop) || 0;
+  const marginBottom = parseFloat(style.marginBottom) || 0;
+  return Math.ceil(height + marginTop + marginBottom);
+}
+
+function measureSingleViewFooterTopLimit(renderEl) {
+  if (!renderEl || typeof renderEl.closest !== 'function') return null;
+  const root = renderEl.closest('.music-single, .tune-single-view-dialog-content');
+  if (!root || typeof root.querySelector !== 'function') return null;
+  const footer = root.querySelector('.music-single-footer-meta');
+  if (!footer) return null;
+  if (typeof window === 'undefined' || typeof window.getComputedStyle !== 'function') return null;
+  const style = window.getComputedStyle(footer);
+  if (style.display === 'none' || style.visibility === 'hidden') return null;
+  const rect = footer.getBoundingClientRect();
+  if (!(rect.height > 0) || !(rect.top > 0)) return null;
+  return rect.top;
+}
+
+/**
  * Available paper for single-view notation.
  * Width prefers the viewer element (inside column padding) so the scaled SVG
  * does not overflow and left-align-clip the title. Falls back to the notation
  * column when the viewer has not laid out yet. Height is from the score top to
- * the bottom of the viewport (above the playlist transport bar when shown).
+ * the bottom of the viewport (above the playlist transport bar and any
+ * books/tags footer when shown).
  */
 export function measureSingleViewPaper(renderEl) {
   if (!renderEl) return { availW: 100, availH: 100 };
@@ -630,9 +672,22 @@ export function measureSingleViewPaper(renderEl) {
   );
   const baseW = renderW > 40 ? Math.min(renderW, columnW || renderW) : columnW;
   const availW = Math.max(100, Math.floor(baseW - rightPad));
+  const viewportBottom = measureViewportBottomLimit();
+  const footerTopLimit = measureSingleViewFooterTopLimit(renderEl);
+  const footerReserve = measureSingleViewFooterReserve(renderEl);
+  const footerInViewport = footerTopLimit != null && footerTopLimit < viewportBottom;
+  let bottomLimit = viewportBottom;
+  if (footerTopLimit != null && footerTopLimit > topRect.top + 80 && footerInViewport) {
+    const footerGap = footerTopLimit - topRect.top - bottomPad;
+    if (footerGap >= SINGLE_VIEW_MIN_FOOTER_GAP_PX) {
+      bottomLimit = footerTopLimit;
+    }
+  } else if (footerReserve > 0 && !footerInViewport) {
+    bottomLimit = Math.max(topRect.top + 100, viewportBottom - footerReserve);
+  }
   const availH = Math.max(
     100,
-    Math.floor(measureViewportBottomLimit() - topRect.top - bottomPad)
+    Math.floor(bottomLimit - topRect.top - bottomPad)
   );
   return { availW: availW, availH: availH };
 }
@@ -680,12 +735,14 @@ export function expandNotationViewBoxForMeta(svg, dims) {
   };
 }
 
-function applyVerticalFitViewBox(svg, frame) {
+function applyVerticalFitViewBox(svg, frame, options) {
   if (!svg || !frame) return;
+  options = options || {};
   svg.setAttribute('viewBox', [frame.x, frame.y, frame.width, frame.height].join(' '));
   svg.removeAttribute('width');
   svg.removeAttribute('height');
-  svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+  const alignY = options.topAlign ? 'YMin' : 'YMid';
+  svg.setAttribute('preserveAspectRatio', 'xMid' + alignY + ' meet');
 }
 
 /**
@@ -705,7 +762,7 @@ export function fitSingleViewVertical(svg, renderEl, paperEl, options) {
     width: dims.width,
     height: dims.height,
   };
-  applyVerticalFitViewBox(svg, frame);
+  applyVerticalFitViewBox(svg, frame, options);
 
   const paper = paperEl
     ? measureNotationPaper(paperEl, renderEl)

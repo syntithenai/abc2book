@@ -50,6 +50,13 @@ describe('chordPitchCue', function() {
     })).toBe('Am');
   });
 
+  test('resolveChordPitchTarget ignores section marker notation clicks', function() {
+    expect(resolveChordPitchTarget({
+      chordChart: 'C G Am |',
+      lastNotationChord: '[Verse 1]',
+    })).toBe('C');
+  });
+
   test('resolveChordPitchTarget falls back to first chord', function() {
     expect(resolveChordPitchTarget({
       chordChart: 'C G Am |',

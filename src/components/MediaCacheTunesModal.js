@@ -14,7 +14,14 @@ import {
   setMediaCacheLockForTunes,
 } from '../mediaCacheLock'
 import {
+  canPromoteCachedLinkToOwned,
+  promoteCachedLinkToOwned,
+  tuneHasPromotableLinkCandidates,
+} from '../promoteCachedLinkToOwned'
+import { getExternalMediaCacheKey, isExternalMediaCached } from '../externalMediaAudioCache'
+import {
   getTuneOwnedMediaDriveSummary,
+  listOwnedMediaLinkSyncEntries,
   ownedMediaDriveStatusLabel,
   ownedMediaDriveStatusVariant,
 } from '../linkRecording'
@@ -112,6 +119,7 @@ export default function MediaCacheTunesModal(props) {
   const [filterText, setFilterText] = useState('')
   const [summaries, setSummaries] = useState({ audio: [], stems: [], midi: [] })
   const [loading, setLoading] = useState(false)
+  const [promotingTuneId, setPromotingTuneId] = useState('')
 
   const refreshSummaries = useCallback(function() {
     setLoading(true)
@@ -167,6 +175,51 @@ export default function MediaCacheTunesModal(props) {
     if (props.forceRefresh) props.forceRefresh()
   }
 
+  async function handlePromoteCachedLinks(row) {
+    const tune = row.tune || getTuneById(tunes, row.tuneId)
+    const saveTune = props.saveTune
+    const driveApi = props.driveApi
+    const token = props.token
+    if (!tune || !saveTune || !driveApi || !token || !token.access_token) {
+      toast.warning('Log in with Google to save cached audio to Drive.')
+      return
+    }
+    if (!utils) return
+    setPromotingTuneId(tune.id)
+    let updatedTune = tune
+    let promoted = 0
+    try {
+      for (let i = 0; i < (tune.links || []).length; i += 1) {
+        const link = tune.links[i]
+        const src = String(link && link.link ? link.link : '').trim()
+        if (!canPromoteCachedLinkToOwned(link, src, utils.isYoutubeLink)) continue
+        const cacheKey = getExternalMediaCacheKey(tune.id, i, src)
+        // eslint-disable-next-line no-await-in-loop
+        if (!(await isExternalMediaCached(cacheKey))) continue
+        // eslint-disable-next-line no-await-in-loop
+        const result = await promoteCachedLinkToOwned(updatedTune, i, {
+          token: token,
+          driveApi: driveApi,
+          isYoutubeLink: utils.isYoutubeLink,
+        })
+        updatedTune = result.tune
+        if (result.uploaded) promoted += 1
+      }
+      if (promoted > 0) {
+        saveTune(updatedTune)
+        toast.success('Saved ' + promoted + ' cached link(s) to Drive.')
+        if (props.forceRefresh) props.forceRefresh()
+        refreshSummaries()
+      } else {
+        toast.info('No eligible cached links to save for this tune.')
+      }
+    } catch (err) {
+      toast.error(err && err.message ? err.message : 'Could not save cached audio to Drive.')
+    } finally {
+      setPromotingTuneId('')
+    }
+  }
+
   function handleClearCache(row, kind) {
     if (!utils) return
     const tuneIds = [row.tuneId]
@@ -212,14 +265,29 @@ export default function MediaCacheTunesModal(props) {
   function renderDriveStatus(row) {
     if (!row.driveSummary) return null
     const summary = row.driveSummary
+    const linkEntries = listOwnedMediaLinkSyncEntries(row.tune)
     let detail = ownedMediaDriveStatusLabel(summary.status)
     if (summary.total > 1) {
       detail += ' (' + summary.synced + '/' + summary.total + ')'
     }
     return (
-      <Badge bg={ownedMediaDriveStatusVariant(summary.status)} className="media-cache-tunes-drive-badge">
-        {detail}
-      </Badge>
+      <div className="media-cache-tunes-drive-status">
+        <Badge bg={ownedMediaDriveStatusVariant(summary.status)} className="media-cache-tunes-drive-badge">
+          {detail}
+        </Badge>
+        {linkEntries.length > 0 ? (
+          <ul className="media-cache-tunes-drive-links small text-muted mb-0 ps-3">
+            {linkEntries.map(function(entry) {
+              const kindLabel = entry.mediaKind === 'midi' ? 'MIDI' : (entry.mediaKind === 'video' ? 'Video' : 'Audio')
+              return (
+                <li key={entry.linkIndex}>
+                  {entry.title} ({kindLabel}): {ownedMediaDriveStatusLabel(entry.status)}
+                </li>
+              )
+            })}
+          </ul>
+        ) : null}
+      </div>
     )
   }
 
@@ -292,6 +360,21 @@ export default function MediaCacheTunesModal(props) {
                       <span className="media-cache-tunes-action-label">Lock</span>
                     </Button>
                   )
+                ) : null}
+                {kind === TAB_AUDIO && props.saveTune && props.driveApi && props.token && props.token.access_token
+                  && utils && tuneHasPromotableLinkCandidates(row.tune || getTuneById(tunes, row.tuneId), utils.isYoutubeLink) ? (
+                  <Button
+                    size="sm"
+                    variant="outline-primary"
+                    className="media-cache-tunes-action-btn"
+                    disabled={promotingTuneId === row.tuneId}
+                    title="Upload cached library links to Google Drive as owned recordings"
+                    onClick={function() { handlePromoteCachedLinks(row) }}
+                  >
+                    <span className="media-cache-tunes-action-label">
+                      {promotingTuneId === row.tuneId ? 'Saving…' : 'Save to Drive'}
+                    </span>
+                  </Button>
                 ) : null}
                 <Button
                   size="sm"

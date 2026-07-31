@@ -294,11 +294,12 @@ class TunebookMediaService : Service(), Player.Listener {
     }
 
     fun pause() {
+        android.util.Log.i("TunebookMedia", "DBG service pause()")
         wantsPlayback = false
         persistedWantsPlayback = false
         player?.playWhenReady = false
         player?.pause()
-        abandonAudioFocus()
+        abandonAudioFocus("pause")
         releaseWakeLock()
         promoteToForeground()
         emitState()
@@ -311,6 +312,7 @@ class TunebookMediaService : Service(), Player.Listener {
     }
 
     fun setPlaybackSpeed(speed: Float) {
+        android.util.Log.i("TunebookMedia", "DBG setPlaybackSpeed speed=$speed posMs=${player?.currentPosition ?: 0} durMs=${player?.duration ?: 0}")
         player?.setPlaybackSpeed(speed)
     }
 
@@ -332,7 +334,7 @@ class TunebookMediaService : Service(), Player.Listener {
         pendingLoadCompletion = null
         player?.stop()
         player?.clearMediaItems()
-        abandonAudioFocus()
+        abandonAudioFocus("stop")
         releaseWakeLock()
         stopForeground(STOP_FOREGROUND_REMOVE)
         stopSelf()
@@ -389,7 +391,8 @@ class TunebookMediaService : Service(), Player.Listener {
         return granted
     }
 
-    private fun abandonAudioFocus() {
+    private fun abandonAudioFocus(reason: String) {
+        android.util.Log.i("TunebookMedia", "DBG abandon focus reason=$reason")
         val manager = audioManager ?: return
         if (!hasAudioFocus) return
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -421,10 +424,18 @@ class TunebookMediaService : Service(), Player.Listener {
 
     override fun onPlaybackStateChanged(playbackState: Int) {
         val exo = player
+        android.util.Log.i(
+            "TunebookMedia",
+            "DBG state=$playbackState posMs=${exo?.currentPosition ?: 0} durMs=${exo?.duration ?: 0} playing=${exo?.isPlaying == true}"
+        )
         if (playbackState == Player.STATE_ENDED) {
+            android.util.Log.i(
+                "TunebookMedia",
+                "DBG playback ended posMs=${exo?.currentPosition ?: 0} durMs=${exo?.duration ?: 0} uri=${lastUri?.take(80)}"
+            )
             wantsPlayback = false
             persistedWantsPlayback = false
-            abandonAudioFocus()
+            abandonAudioFocus("ended")
             releaseWakeLock()
             eventListener?.onEnded()
         } else if (playbackState == Player.STATE_READY) {
@@ -459,8 +470,7 @@ class TunebookMediaService : Service(), Player.Listener {
             else -> "Playback error"
         }
         android.util.Log.e("TunebookMedia", "Player error uri=${lastUri?.take(80)} msg=$message", error)
-        failPendingLoad(message)
-        abandonAudioFocus()
+        abandonAudioFocus("error")
         releaseWakeLock()
         eventListener?.onError(message)
     }
@@ -539,7 +549,7 @@ class TunebookMediaService : Service(), Player.Listener {
             runningInstance = null
         }
         pendingLoadCompletion = null
-        abandonAudioFocus()
+        abandonAudioFocus("destroy")
         releaseWakeLock()
         mediaSession?.release()
         mediaSession = null

@@ -1,5 +1,6 @@
 import localforage from 'localforage';
 import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader';
+import { decodeAudioBytes } from './audioDecodeBytes';
 import { scheduleMediaCacheStorageCheck, tuneIdFromExternalMediaCacheKey } from './mediaCacheStorage';
 import { encodeAudioBufferWithSetting } from './audioCompressEncode';
 
@@ -38,6 +39,25 @@ async function encodeAndStoreExternalMedia(cacheKey, decoded) {
     audioFormat: encoded.format,
     cached: false,
   };
+}
+
+export function getStandaloneProxiedMediaCacheKey(src) {
+  return 'extmedia:src:' + String(src || '').trim();
+}
+
+/** Store fetched resolver-proxied bytes without re-downloading. */
+export async function cacheExternalMediaBytes(cacheKey, arrayBuffer, mime) {
+  const existing = await getCachedExternalMediaBlob(cacheKey);
+  if (existing && existing.blob) {
+    return existing;
+  }
+  const audioBuffer = await decodeAudioBytes(arrayBuffer);
+  return encodeAndStoreExternalMedia(cacheKey, {
+    audioBuffer: audioBuffer,
+    duration: audioBuffer.duration,
+    mime: mime || null,
+    arrayBuffer: arrayBuffer,
+  });
 }
 
 /** Cached compressed linked media blob (format follows Compress Audio setting). */

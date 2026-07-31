@@ -48,6 +48,7 @@ import {
   isAbcNativePlayInFlight,
   isAndroidNativePlayerActive,
 } from './androidNativePlayback'
+import { agentDebugLog } from './playbackDebug'
 import { preloadCountInCueInstrument, scheduleCountInCueNote, firstWarmupCueMidi, firstPlaybackCueMidiFromVisual } from './countInPitchCue'
 import { playRhythmSlot } from './rhythmSlotPlayback'
 import { getRhythmSwing } from './rhythmGrid'
@@ -77,6 +78,13 @@ import {
     buildRhythmDiagnosticsSnapshot,
 } from './rhythmTimingDiagnostics'
 import { buildPlaybackTimingMap, timingAtMusicSeconds } from './playbackTimingMap'
+
+function assignMediaControllerRef(mediaController, refKey, value) {
+    const ref = mediaController && mediaController[refKey]
+    if (ref) {
+        ref.current = value
+    }
+}
 
 export default function useAbcSynth(props) {
     
@@ -183,6 +191,25 @@ export default function useAbcSynth(props) {
             } catch (e) { /* ignore */ }
         }
         return ctx
+    }
+
+    function teardownSynthAudioKeepalive() {
+        if (audioContextKeepAliveRef.current) {
+            try {
+                audioContextKeepAliveRef.current.source.stop()
+            } catch (e) {}
+            audioContextKeepAliveRef.current = null
+        }
+    }
+
+    function suspendSynthAudioContextForNative() {
+        teardownSynthAudioKeepalive()
+        pauseMidiSynth()
+        if (gaudioContext.current && gaudioContext.current.state === 'running') {
+            try {
+                gaudioContext.current.suspend()
+            } catch (e) {}
+        }
     }
 
     async function ensureSynthAudioContextRunning() {
@@ -311,6 +338,10 @@ export default function useAbcSynth(props) {
         }
         if (gmidiBuffer.current) {
             // Native abcjs buffer cannot be scheduled into the future — it starts now.
+            agentDebugLog('useAbcSynth.js:startMidiAudioOutput', 'web-buffer-start', {
+                bufferDur: gmidiBuffer.current.duration,
+                ratio: ratio,
+            }, 'H-B');
             gmidiBuffer.current.start()
             return {
                 ok: true,
@@ -730,47 +761,36 @@ export default function useAbcSynth(props) {
         if (!mediaControllerRef.current) return undefined
         if (props.playbackEngine === false) return undefined
         const mc = mediaControllerRef.current
-        mc.applyMidiTempoRef.current = applyMidiPlaybackSettings
-        mc.applyPlaybackSettingsLiveRef.current = applyMidiPlaybackSettings
-        mc.applyPlaybackVolumeRef.current = applySynthPlaybackVolume
-        mc.resumeSynthAudioContextRef.current = resumeSynthAudioContext
-        mc.getSynthAudioContextRef.current = function() {
+        assignMediaControllerRef(mc, 'applyMidiTempoRef', applyMidiPlaybackSettings)
+        assignMediaControllerRef(mc, 'applyPlaybackSettingsLiveRef', applyMidiPlaybackSettings)
+        assignMediaControllerRef(mc, 'applyPlaybackVolumeRef', applySynthPlaybackVolume)
+        assignMediaControllerRef(mc, 'resumeSynthAudioContextRef', resumeSynthAudioContext)
+        assignMediaControllerRef(mc, 'getSynthAudioContextRef', function() {
             return gaudioContext.current || null
-        }
-        mc.pauseSynthRef.current = pauseMidiSynth
-        mc.stopMetronomeRef.current = stopMetronome
-        mc.invalidatePendingMidiStartsRef.current = invalidatePendingMidiStarts
-        mc.armPlaybackFromZeroRef.current = armPlaybackFromZero
-        if (mc.getRhythmPlaybackPhaseRef) {
-            mc.getRhythmPlaybackPhaseRef.current = function() {
-                return getRhythmPlaybackPhase(getRhythmController())
-            }
-        }
-        if (mc.getRhythmDiagnosticsRef) {
-            mc.getRhythmDiagnosticsRef.current = getRhythmDiagnostics
-        }
-        mc.playMidiRef.current = playMidiBridgeRef.current
+        })
+        assignMediaControllerRef(mc, 'pauseSynthRef', pauseMidiSynth)
+        assignMediaControllerRef(mc, 'suspendSynthAudioContextForNativeRef', suspendSynthAudioContextForNative)
+        assignMediaControllerRef(mc, 'stopMetronomeRef', stopMetronome)
+        assignMediaControllerRef(mc, 'invalidatePendingMidiStartsRef', invalidatePendingMidiStarts)
+        assignMediaControllerRef(mc, 'armPlaybackFromZeroRef', armPlaybackFromZero)
+        assignMediaControllerRef(mc, 'getRhythmPlaybackPhaseRef', function() {
+            return getRhythmPlaybackPhase(getRhythmController())
+        })
+        assignMediaControllerRef(mc, 'getRhythmDiagnosticsRef', getRhythmDiagnostics)
+        assignMediaControllerRef(mc, 'playMidiRef', playMidiBridgeRef.current)
         if (mc.clearMidiEngineRegistrationFallback) {
             mc.clearMidiEngineRegistrationFallback()
         }
-        if (mc.resumeMidiAfterSeekRef) {
-            mc.resumeMidiAfterSeekRef.current = resumeMidiAfterSeek
-        }
-        mc.stopMidiSynthRef.current = stopMidiSynth
-        if (mc.getMidiPlaybackSecondsRef) {
-            mc.getMidiPlaybackSecondsRef.current = getMidiPlaybackSeconds
-        }
-        if (mc.seekMidiRef) {
-            mc.seekMidiRef.current = seekMidiPlayback
-        }
-        if (mc.isMidiKickoffActiveRef) {
-            mc.isMidiKickoffActiveRef.current = isMidiKickoffActive
-        }
+        assignMediaControllerRef(mc, 'resumeMidiAfterSeekRef', resumeMidiAfterSeek)
+        assignMediaControllerRef(mc, 'stopMidiSynthRef', stopMidiSynth)
+        assignMediaControllerRef(mc, 'getMidiPlaybackSecondsRef', getMidiPlaybackSeconds)
+        assignMediaControllerRef(mc, 'seekMidiRef', seekMidiPlayback)
+        assignMediaControllerRef(mc, 'isMidiKickoffActiveRef', isMidiKickoffActive)
         // #region agent log
         fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H5',location:'useAbcSynth.js:engineRegister',message:'midi engine registered',data:{hasVisualObj:!!gvisualObj.current,hasPending:!!(mc.pendingMidiPlayRef&&mc.pendingMidiPlayRef.current),playbackEngine:props.playbackEngine!==false},timestamp:Date.now()})}).catch(function(){})
         // #endregion
         return function() {
-            if (mc.playMidiRef.current === playMidiBridgeRef.current) {
+            if (mc.playMidiRef && mc.playMidiRef.current === playMidiBridgeRef.current) {
                 mc.playMidiRef.current = null
             }
         }
@@ -795,7 +815,9 @@ export default function useAbcSynth(props) {
             }
             clearStaleMidiKickoffLock()
         }
-        mc.pendingMidiPlayRef.current = null
+        if (mc.pendingMidiPlayRef) {
+            mc.pendingMidiPlayRef.current = null
+        }
         // #region agent log
         fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H1',location:'useAbcSynth.js:mcAbcEffect',message:'consuming pending play',data:{restart:!!pendingMidiPlay.restart,fresh:!!pendingMidiPlay.fresh},timestamp:Date.now()})}).catch(function(){})
         // #endregion
@@ -1496,6 +1518,9 @@ export default function useAbcSynth(props) {
      }
 
      function startPlayingFromIntent(force) {
+        if (shouldDeferSynthStopToNative()) {
+            return
+        }
         const pending = props.mediaController && props.mediaController.pendingMidiPlayRef
             ? props.mediaController.pendingMidiPlayRef.current
             : null
@@ -1738,6 +1763,9 @@ export default function useAbcSynth(props) {
     }
 
     function beatCallback(currentBeat,totalBeats,lastMoment,position, debugInfo) {
+        if (shouldDeferSynthStopToNative()) {
+            return
+        }
         if (!gmidiBuffer.current || !(gmidiBuffer.current.duration > 0) || !totalBeats) {
             return
         }
@@ -2050,6 +2078,9 @@ export default function useAbcSynth(props) {
                 if (isSynthSeekGuardActive()) {
                     return
                 }
+                // #region agent log
+                fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'eea50f'},body:JSON.stringify({sessionId:'eea50f',location:'useAbcSynth.js:pitchShifterOnEnded',message:'pitch-shifter-ended',data:{deferNative:shouldDeferSynthStopToNative(),bufferDur:pitchShifterBufferRef.current&&pitchShifterBufferRef.current.duration},timestamp:Date.now(),hypothesisId:'H-K'})}).catch(function(){});
+                // #endregion
                 stopPlaying()
                 if (props.onEnded) props.onEnded()
             },
@@ -2333,7 +2364,9 @@ export default function useAbcSynth(props) {
                      || Math.min(1, pendingStartSeconds / midiBuffer.duration)
                    syncPlaybackSeekFromSeconds(pendingStartSeconds, ratio)
                    setPlayCount(0)
-                   startMidiAndTiming({ forceRatio: ratio, forcePlayback: true })
+                   if (!shouldDeferSynthStopToNative()) {
+                     startMidiAndTiming({ forceRatio: ratio, forcePlayback: true })
+                   }
                    return
                  }
                  setSeekTo(0)
@@ -2404,14 +2437,26 @@ export default function useAbcSynth(props) {
 
     function stopPlaying()  {
         playbackGenerationRef.current += 1
+        const deferNative = shouldDeferSynthStopToNative()
+        agentDebugLog('useAbcSynth.js:stopPlaying', 'called', {
+            deferNative: deferNative,
+            nativeActive: isAndroidNativePlayerActive(),
+            abcInFlight: isAbcNativePlayInFlight(),
+        }, deferNative ? 'H-C' : 'H-B');
+        if (deferNative) {
+            pauseMidiSynth()
+            return
+        }
         pauseMidiSynth()
         setForceStop(true)
         setIsPlaying(false)
         clearForcedPlaybackIntent()
-        if (shouldDeferSynthStopToNative()) {
-            return
+        if (props.onStopped) {
+            // #region agent log
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'eea50f'},body:JSON.stringify({sessionId:'eea50f',location:'useAbcSynth.js:stopPlaying',message:'onStopped-fired',data:{deferNative:false},timestamp:Date.now(),hypothesisId:'H-K'})}).catch(function(){});
+            // #endregion
+            props.onStopped()
         }
-        if (props.onStopped) props.onStopped()
     }
 
     function stopMidiSynth() {
@@ -2751,6 +2796,12 @@ export default function useAbcSynth(props) {
     }
 
     function resumeMidiAfterSeek() {
+        if (shouldDeferSynthStopToNative()) {
+            if (props.mediaController && props.mediaController.confirmPlayingStarted) {
+                props.mediaController.confirmPlayingStarted()
+            }
+            return
+        }
         const shouldResume = props.mediaController && props.mediaController.hasActivePlaybackIntent
             ? props.mediaController.hasActivePlaybackIntent()
             : (props.mediaController && props.mediaController.hasPlayingIntent
@@ -2801,6 +2852,10 @@ export default function useAbcSynth(props) {
     }
     
   async function startMidiAndTiming(startOptions) {
+      if (shouldDeferSynthStopToNative()) {
+          releaseMidiUiLoading()
+          return false
+      }
       const opts = startOptions || {}
       const forceWanted = !!opts.forcePlayback
       const duringPlayback = resolvePlaybackMetronomeOptions().duringPlayback
@@ -3008,13 +3063,27 @@ export default function useAbcSynth(props) {
                     return
                 }
                 if (hasPendingNotationSeek()) {
-                    const pendingSeek = props.mediaController && props.mediaController.pendingMidiPlayRef
-                        ? props.mediaController.pendingMidiPlayRef.current
-                        : null
-                    if (pendingSeek && beginMidiPlaybackRef.current) {
-                        beginMidiPlaybackRef.current(pendingSeek)
+                    const seekOpts = pending || {}
+                    let seekStartSeconds = resolveNotationPlaybackStartSeconds(seekOpts)
+                    if (!(seekStartSeconds > 0)) {
+                        seekStartSeconds = resolveNotationPlaybackStartSeconds({})
                     }
-                    return
+                    if (seekStartSeconds > 0 && gmidiBuffer.current.duration > 0) {
+                        pendingPlaybackStartSecondsRef.current = null
+                        if (props.mediaController && props.mediaController.pendingMidiPlayRef) {
+                            props.mediaController.pendingMidiPlayRef.current = null
+                        }
+                        const ratio = resolveNotationSeekRatio(
+                            seekOpts, seekStartSeconds, gmidiBuffer.current.duration,
+                            seekOpts && seekOpts.tempo)
+                            || Math.min(1, seekStartSeconds / gmidiBuffer.current.duration)
+                        syncPlaybackSeekFromSeconds(seekStartSeconds, ratio)
+                        startMidiAndTiming({ forceRatio: ratio, forcePlayback: true })
+                        return
+                    }
+                    // Do not re-enter beginMidiPlayback here — that path loops back
+                    // through startPrimedTune and overflows the stack.
+                    clearNotationPlaybackSeek()
                 }
                 const resumeRatio = getMidiPlaybackRatio()
                 if (resumeRatio > 0) {

@@ -1,4 +1,5 @@
 import abcjs from 'abcjs';
+import { abcForAbcjs } from './melodyBarlineNormalize';
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
 import { formatTuneDisplayName } from './tuneDisplayName';
 import { classifyBar } from './chordBlockMerge';
@@ -12,6 +13,8 @@ import {
   flattenMelodyText,
   splitMelodyIntoBlocks,
 } from './lyricBarAlignmentUtils';
+import { melodyHasAnacrusisDoubleBarlines } from './melodyBarlineNormalize';
+import { analyzeSectionPickupVoltaBoundaries } from './sectionPickupVolta';
 
 const EPSILON = 0.05;
 const MAX_REPORTED_BARS = 8;
@@ -62,7 +65,7 @@ function collectVoiceEventsFromParsed(parsed) {
   return voices;
 }
 
-function analyzeVoiceBarDurations(parsedTune) {
+export function analyzeVoiceBarDurations(parsedTune) {
   if (!parsedTune || typeof parsedTune.getBeatsPerMeasure !== 'function') return [];
   const beatsPerBar = parsedTune.getBeatsPerMeasure();
   const beatLen = parsedTune.getBeatLength();
@@ -338,6 +341,32 @@ function checkVoiceParity(parsedTune, tune) {
   return issues;
 }
 
+function checkAnacrusisDoubleBarline(noteLines) {
+  const issues = [];
+  if (!melodyHasAnacrusisDoubleBarlines(noteLines)) return issues;
+  issues.push(issue(
+    'anacrusis_double_barline',
+    'Pickup/anacrusis uses || where a single barline is intended',
+    'info',
+    { barIndex: 1 }
+  ));
+  return issues;
+}
+
+function checkSectionPickupAsVolta(noteLines, durationIssues, parsedTune) {
+  const issues = [];
+  const boundaries = analyzeSectionPickupVoltaBoundaries(noteLines, durationIssues, parsedTune);
+  boundaries.forEach(function(boundary) {
+    issues.push(issue(
+      'section_pickup_should_be_ending',
+      boundary.message,
+      'warning',
+      { barIndex: boundary.barIndex }
+    ));
+  });
+  return issues;
+}
+
 function checkAnacrusis(parsedTune, abcText) {
   const issues = [];
   if (!parsedTune || !abcText) return issues;
@@ -434,11 +463,13 @@ export function checkTuneAbcStructure(tune, options) {
   issues.push.apply(issues, checkRepeatStructure(noteLines));
   issues.push.apply(issues, checkScoreFinish(noteLines));
   issues.push.apply(issues, checkStanzaStrain(tune, noteLines));
+  issues.push.apply(issues, checkAnacrusisDoubleBarline(noteLines));
   issues.push.apply(issues, checkHeaderConsistency(tune, abcText, abcTools));
 
+  const abcForParse = abcForAbcjs(abcText);
   let parsedTune = null;
   try {
-    parsedTune = abcjs.parseOnly(abcText)[0];
+    parsedTune = abcjs.parseOnly(abcForParse)[0];
   } catch (e) {}
 
   if (parsedTune) {
@@ -467,7 +498,8 @@ export function checkTuneAbcStructure(tune, options) {
     }
 
     issues.push.apply(issues, checkVoiceParity(parsedTune, tune));
-    issues.push.apply(issues, checkAnacrusis(parsedTune, abcText));
+    issues.push.apply(issues, checkAnacrusis(parsedTune, abcForParse));
+    issues.push.apply(issues, checkSectionPickupAsVolta(noteLines, durationIssues, parsedTune));
   }
 
   if (issues.length === 0) return null;

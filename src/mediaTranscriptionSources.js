@@ -1,4 +1,5 @@
 import { isOwnedMediaLinkUri } from './linkRecording';
+import { linkUriString } from './tuneLinkUri';
 
 export function getLinkedMediaSources(tune, tunebook) {
   const sources = [];
@@ -14,8 +15,8 @@ export function getLinkedMediaSources(tune, tunebook) {
 }
 
 export function buildLinkedMediaSource(link, index, tunebook) {
-  if (!link || !link.link || !link.link.trim()) return null;
-  const src = link.link.trim();
+  const src = linkUriString(link).trim();
+  if (!src) return null;
   const isRecording = isOwnedMediaLinkUri(src);
   return {
     id: 'link-' + index,

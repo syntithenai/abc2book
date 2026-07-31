@@ -5,6 +5,7 @@ import {useEffect, useState, useSyncExternalStore} from 'react'
 import {useNavigate} from 'react-router-dom'
 import MediaPlayerButtons from './MediaPlayerButtons'
 import PracticeSessionButton from './PracticeSessionButton'
+import { THEORY_SECTION_ENABLED } from '../theorySectionEnabled'
 import VoiceCommandButton from './VoiceCommandButton'
 import useKeyPress from '../useKeyPress';
 import { useIsHeaderAuthHidden, useIsHeaderPlaybackInMenu, useIsNarrowViewport } from '../useMediaQuery';
@@ -480,20 +481,22 @@ export default function Header(props) {
                                 <span>Scratchpad</span>
                             </span>
                         </Button>
-                        <Button
-                            as={Link}
-                            to="/feed"
-                            size={navButtonSize}
-                            variant="primary"
-                            className="header-dropdown-btn header-dropdown-feed-btn"
-                            data-testid="header-theory-button"
-                            onClick={function() { setNavMenuOpen(false) }}
-                        >
-                            <span className="header-dropdown-btn-label">
-                                {props.tunebook.icons.theory}
-                                <span>Theory</span>
-                            </span>
-                        </Button>
+                        {THEORY_SECTION_ENABLED ? (
+                            <Button
+                                as={Link}
+                                to="/feed"
+                                size={navButtonSize}
+                                variant="primary"
+                                className="header-dropdown-btn header-dropdown-feed-btn"
+                                data-testid="header-theory-button"
+                                onClick={function() { setNavMenuOpen(false) }}
+                            >
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.theory}
+                                    <span>Theory</span>
+                                </span>
+                            </Button>
+                        ) : null}
                     </div>
                 </div>
             </Dropdown.Menu>

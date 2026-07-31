@@ -26,6 +26,7 @@ def build_resolve_cache_key(
     body: dict[str, Any],
 ) -> str:
     midi_hint = str(body.get("midiBase64") or "")[:64]
+    audio_hint = str(body.get("audioBase64") or "")[:64]
     parts = [
         source,
         source_type,
@@ -33,6 +34,7 @@ def build_resolve_cache_key(
         str(body.get("fineTune") or body.get("fineTuneCents") or 0),
         str(body.get("tempo") or 1),
         midi_hint,
+        audio_hint,
     ]
     digest = hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()
     return digest

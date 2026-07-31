@@ -10,6 +10,7 @@ import { buildRemoteOutputQueue } from '../remoteOutputQueue';
 import { buildRemotePlaybackSessionPayload } from '../remotePlaybackSessionPayload';
 import SnapcastStatusBadge, { snapcastStatusSummary } from '../components/SnapcastStatusBadge';
 import { icons } from '../Icons';
+import { isSnapcastPreferredOutput } from '../preferredRemoteOutputSettings';
 
 function ClientVolumeSlider({ client, onChange }) {
   const config = client.config || {};
@@ -89,6 +90,7 @@ export default function SnapcastPage({ mediaController, tunebook, nowPlayingQueu
   const snapcast = useSnapcast();
   const snapcastEnabled = !!(mediaController.resolverFeatures && mediaController.resolverFeatures.snapcastControl);
   const canSnapcast = canRouteToSnapcastPlayback(mediaController);
+  const snapcastDefault = isSnapcastPreferredOutput();
   const snapcastReason = getSnapcastDisabledReason(mediaController);
   const outputQueue = buildRemoteOutputQueue(mediaController, nowPlayingQueue, tunes);
   const sessionPayload = useMemo(function() {
@@ -109,7 +111,7 @@ export default function SnapcastPage({ mediaController, tunebook, nowPlayingQueu
           <code>http://192.168.1.10:1780</code>), then connect below.
         </Alert>
         <div className="mb-3">
-          <Button size="sm" variant="primary" onClick={snapcast.connect}>Connect</Button>
+          <Button size="sm" variant="primary" onClick={function() { snapcast.connect(); }}>Connect</Button>
           {snapcast.connectError ? (
             <Alert variant="danger" className="mt-2 mb-0">{snapcast.connectError}</Alert>
           ) : null}
@@ -162,9 +164,9 @@ export default function SnapcastPage({ mediaController, tunebook, nowPlayingQueu
               </p>
               <div className="d-flex gap-2 flex-wrap">
                 {!snapcast.connected ? (
-                  <Button size="sm" variant="primary" onClick={snapcast.connect}>Connect</Button>
+                  <Button size="sm" variant="primary" onClick={function() { snapcast.connect(); }}>Connect</Button>
                 ) : (
-                  <Button size="sm" variant="outline-secondary" onClick={snapcast.disconnect}>
+                  <Button size="sm" variant="outline-secondary" onClick={function() { snapcast.disconnect(); }}>
                     Disconnect
                   </Button>
                 )}
@@ -204,9 +206,13 @@ export default function SnapcastPage({ mediaController, tunebook, nowPlayingQueu
                 <p className="small text-success mb-2">
                   Routing to Snapcast — local playback is muted; audio should play on your speakers.
                 </p>
+              ) : snapcastDefault ? (
+                <p className="small text-success mb-2">
+                  Default output is Snapcast — pressing Play on eligible tunes routes to home speakers.
+                </p>
               ) : (
                 <p className="small text-muted mb-2">
-                  Normal Play uses this device. Press Play on Snapcast below to send audio to your home speakers.
+                  Normal Play uses this device. Enable default Snapcast in Settings → Audio, or press Play on Snapcast below.
                 </p>
               )}
               {snapcastReason ? <p className="text-muted small">{snapcastReason}</p> : null}

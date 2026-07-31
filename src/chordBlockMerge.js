@@ -14,6 +14,7 @@ import {
   joinChartHeaderAndBody,
   extractChordBars,
   melodyTextHasSectionMarkerChord,
+  firstSectionMarkerHeaderInMelodyText,
   expandLegacyBeatSlotsInChart,
   isSectionMarkerToken,
 } from './chordSheetUtils'
@@ -75,7 +76,7 @@ export function mergeFailure(code, message, extras) {
 }
 
 export function hashAbcNotes(noteLines) {
-  const normalized = (Array.isArray(noteLines) ? noteLines : [])
+  const normalized = noteLinesForMelodyMerge(noteLines)
     .map(function(line) { return String(line || '').replace(/\s+/g, ' ').trim() })
     .filter(Boolean)
     .join('\n')
@@ -91,9 +92,84 @@ export function hashAbcNotes(noteLines) {
   return String(4294967296 * (2097151 & h2) + (h1 >>> 0))
 }
 
+/** Drop voice-local %%MIDI lines before strain split / mergeChords. */
+export function noteLinesForMelodyMerge(noteLines) {
+  return (Array.isArray(noteLines) ? noteLines : []).filter(function(line) {
+    return !/^%%MIDI\s/i.test(String(line || '').trim())
+  })
+}
+
+function voiceProgramPrefixLines(noteLines) {
+  return (Array.isArray(noteLines) ? noteLines : []).filter(function(line) {
+    return /^%%MIDI\s/i.test(String(line || '').trim())
+  })
+}
+
+function noteLinesFromAbcForMerge(abcString, abcTools) {
+  if (!abcTools) return []
+  if (typeof abcTools.justNotesNoMeta === 'function') {
+    return String(abcTools.justNotesNoMeta(abcString)).split('\n')
+  }
+  return noteLinesForMelodyMerge(abcTools.justNotes(abcString).split('\n'))
+}
+
+/** Re-attach %%MIDI (etc.) prefix lines after a melody-only merge body. */
+export function mergeNoteLinesWithVoicePrefixes(prefixSource, melodyLines) {
+  const prefixes = voiceProgramPrefixLines(prefixSource)
+  const body = Array.isArray(melodyLines) ? melodyLines : []
+  if (!prefixes.length) return body.length ? body : ['']
+  return prefixes.concat(body.length ? body : [''])
+}
+
+/** Prefer live editor voice lines when json2abc / justNotes round-trip drops melody. */
+function primaryVoiceNotesForMerge(abcString, abcTools, opts) {
+  const notesBefore = Array.isArray(opts.notesBefore) ? opts.notesBefore : []
+  let fromAbc = []
+  try {
+    fromAbc = noteLinesFromAbcForMerge(abcString, abcTools)
+  } catch (e) {
+    fromAbc = []
+  }
+  const fromBefore = noteLinesForMelodyMerge(notesBefore)
+  if (!noteLinesHaveRealMelody(fromAbc) && noteLinesHaveRealMelody(fromBefore)) {
+    return fromBefore
+  }
+  return fromAbc
+}
+
+function prefixSourceForMerge(abcString, abcTools, opts) {
+  const notesBefore = Array.isArray(opts.notesBefore) ? opts.notesBefore : []
+  if (notesBefore.length > 0) return notesBefore.slice()
+  try {
+    return abcTools.justNotes(abcString).split('\n')
+  } catch (e) {
+    return []
+  }
+}
+
+function voicesHintForMerge(abcString, abcTools, opts) {
+  try {
+    return headerFromAbc(abcString, abcTools).abcJson.voices
+  } catch (e) {
+    return opts.tune && opts.tune.voices
+  }
+}
+
 function barHasPitch(barText) {
   const stripped = String(barText || '').replace(/"([^"]*)"/g, '')
   return /[a-gA-G]/.test(stripped)
+}
+
+function strainTextHasPitch(strainText) {
+  const bars = extractBarsFromMelodyText(String(strainText || ''))
+  return bars.some(function(bar) { return barHasPitch(bar) })
+}
+
+/** Bracket chord clusters ([aa], [bc]2) — mergeChords cannot preserve this voicing. */
+function melodyUsesBracketChordClusters(noteLines) {
+  return noteLinesForMelodyMerge(noteLines).some(function(line) {
+    return /\[[a-gA-G]{2,}\]/.test(String(line || ''))
+  })
 }
 
 function barIsChordScaffold(barText) {
@@ -279,7 +355,7 @@ function sectionKeyForIndex(index, type, header) {
  */
 export function buildUnifiedBlocks(options) {
   const opts = options || {}
-  const noteLines = Array.isArray(opts.noteLines) ? opts.noteLines : []
+  const noteLines = noteLinesForMelodyMerge(Array.isArray(opts.noteLines) ? opts.noteLines : [])
   const lyricLines = Array.isArray(opts.lyricLines) ? opts.lyricLines : []
   const defaultMeter = normalizeMeter(opts.defaultMeter || '4/4')
   const defaultKey = normalizeKeySignature(opts.defaultKey || 'C')
@@ -546,6 +622,83 @@ export function reconcileBlocksFromGrid(blocks, gridText, defaultMeter, defaultT
   return next
 }
 
+function editableChordBlocks(sections) {
+  return (Array.isArray(sections) ? sections : []).filter(function(b) {
+    return b && !b.chartRevisit
+  })
+}
+
+/**
+ * True when cached chord blocks align 1:1 with melody strains (no duplicate anchors).
+ */
+export function chordBlockCacheMatchesMelody(noteLines, cacheBlocks) {
+  if (!Array.isArray(cacheBlocks) || !cacheBlocks.length) return false
+  const strains = splitMelodyStrainsWithBarlines(noteLines)
+  const editable = editableChordBlocks(cacheBlocks)
+  if (editable.length !== strains.length) return false
+  const used = {}
+  for (let i = 0; i < editable.length; i++) {
+    const idx = editable[i].melodyStrainIndex
+    if (idx == null || idx < 0 || idx >= strains.length) return false
+    if (used[idx]) return false
+    used[idx] = true
+  }
+  return true
+}
+
+/**
+ * Refresh melodyStrainIndex on editor sections before merge (stale cache / lyric remap).
+ */
+export function reanchorEditorBlocksToMelody(noteLines, sections) {
+  const strains = splitMelodyStrainsWithBarlines(noteLines)
+  const list = Array.isArray(sections)
+    ? sections.map(function(s) { return s ? Object.assign({}, s) : s })
+    : []
+  if (!strains.length) return list
+
+  const editableIndexes = []
+  list.forEach(function(s, i) {
+    if (s && !s.chartRevisit) editableIndexes.push(i)
+  })
+
+  if (editableIndexes.length === strains.length) {
+    editableIndexes.forEach(function(sectionIndex, pos) {
+      list[sectionIndex] = Object.assign({}, list[sectionIndex], { melodyStrainIndex: pos })
+    })
+    return list
+  }
+
+  const used = {}
+  editableIndexes.forEach(function(sectionIndex) {
+    const s = list[sectionIndex]
+    const idx = s.melodyStrainIndex
+    if (idx != null && idx >= 0 && idx < strains.length) {
+      if (used[idx]) {
+        list[sectionIndex] = Object.assign({}, s, {
+          needsAbcExpand: true,
+          melodyStrainIndex: -1,
+          abcBarStart: -1,
+          abcBarEnd: -1,
+        })
+      } else {
+        used[idx] = true
+      }
+    }
+  })
+
+  return list.map(function(s, i) {
+    if (!s || s.chartRevisit) return s
+    const idx = s.melodyStrainIndex
+    if (idx == null || idx < 0 || idx >= strains.length) {
+      const pos = editableIndexes.indexOf(i)
+      return Object.assign({}, s, {
+        melodyStrainIndex: Math.min(pos >= 0 ? pos : i, strains.length - 1),
+      })
+    }
+    return s
+  })
+}
+
 function restBarForMeter(meter) {
   const m = normalizeMeter(meter || '4/4')
   if (m === '3/4') return 'z z z'
@@ -556,8 +709,7 @@ function restBarForMeter(meter) {
 
 /**
  * Insert rest-scaffold strains for blocks that lack an ABC range.
- * Also expands when there are more non-revisit sections than melody strains
- * (e.g. New section without an explicit needsAbcExpand flag).
+ * Inserts at each block's editor position (not only at the end of the tune).
  */
 export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
   const lines = Array.isArray(noteLines) ? noteLines.slice() : []
@@ -571,20 +723,25 @@ export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
   list.forEach(function(b) {
     if (b && b.needsAbcExpand) explicitNeeds += 1
   })
-  // Mark trailing blocks that lack a strain so rebuild can reindex them.
   if (deficit > 0) {
+    const usedIndexes = {}
     let marked = 0
-    for (let i = list.length - 1; i >= 0 && marked < deficit; i--) {
+    for (let i = 0; i < list.length && marked < deficit; i++) {
       if (!list[i] || list[i].chartRevisit) continue
-      if (!list[i].needsAbcExpand) {
+      const idx = list[i].melodyStrainIndex
+      const duplicate = idx != null && idx >= 0 && usedIndexes[idx]
+      const unanchored = idx == null || idx < 0
+      if (!list[i].needsAbcExpand && (unanchored || duplicate)) {
         list[i] = Object.assign({}, list[i], {
           needsAbcExpand: true,
           melodyStrainIndex: -1,
           abcBarStart: -1,
           abcBarEnd: -1,
         })
+        marked += 1
+      } else if (idx != null && idx >= 0) {
+        usedIndexes[idx] = true
       }
-      marked += 1
     }
   }
   const needs = list.filter(function(b) { return b && b.needsAbcExpand })
@@ -593,38 +750,60 @@ export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
     return { noteLines: lines, blocks: list, error: null, expanded: false }
   }
 
-  let flat = flattenMelodyText(lines)
   const meter = normalizeMeter(defaultMeter || '4/4')
-  const rest = restBarForMeter(meter)
+  const restBody = restBarForMeter(meter)
+  const newStrains = []
+  let nextSourceIndex = 0
 
-  for (let n = 0; n < expandCount; n++) {
-    const sep = flat.trim() ? ' || ' : ''
-    flat = (flat.trim() + sep + rest + ' |').trim()
-  }
-
-  const nextLines = [flat]
-  const rebuilt = buildUnifiedBlocks({
-    noteLines: nextLines,
-    chordChart: rebuildChordGridFromSections(list),
-    lyricLines: [],
-    defaultMeter: meter,
+  nonRevisit.forEach(function(block, position) {
+    const needsNew = block.needsAbcExpand
+      || block.melodyStrainIndex == null
+      || block.melodyStrainIndex < 0
+    if (needsNew) {
+      newStrains.push({
+        text: restBody,
+        startBarline: position > 0 ? '||' : null,
+        endBarline: null,
+      })
+      return
+    }
+    const si = block.melodyStrainIndex != null && block.melodyStrainIndex >= 0
+      ? (block.melodyStrainIndex | 0)
+      : nextSourceIndex
+    const src = strains[si] || strains[nextSourceIndex]
+    if (src) {
+      newStrains.push({
+        text: src.text,
+        startBarline: position === 0 ? src.startBarline : (src.startBarline || '||'),
+        endBarline: src.endBarline,
+      })
+      nextSourceIndex = Math.max(nextSourceIndex, si >= 0 ? si + 1 : nextSourceIndex + 1)
+    } else {
+      newStrains.push({
+        text: restBody,
+        startBarline: position > 0 ? '||' : null,
+        endBarline: null,
+      })
+    }
   })
 
-  // Preserve charts / titles from editor order; clear expand flags.
-  const mergedBlocks = rebuilt.blocks.map(function(b, i) {
-    const src = list[i] || {}
-    return Object.assign({}, b, {
-      chart: src.chart != null ? src.chart : b.chart,
-      meter: src.meter || b.meter,
-      tempo: src.tempo || b.tempo,
-      title: src.title || b.title,
-      header: src.header || src.lyricSectionHeader || b.lyricSectionHeader,
-      type: src.type || src.lyricSectionType || b.lyricSectionType,
-      key: src.key || b.key,
-      id: src.id || src.key || b.id,
-      chartRevisit: !!src.chartRevisit,
-      sourceTypeKey: src.sourceTypeKey != null ? src.sourceTypeKey : b.sourceTypeKey,
+  const updatedTexts = newStrains.map(function(s) { return s.text })
+  const nextLines = rebuildNoteLinesFromMergedStrains(lines, newStrains, updatedTexts)
+
+  let nonRevisitPos = 0
+  const mergedBlocks = list.map(function(block) {
+    if (!block || block.chartRevisit) return block
+    const position = nonRevisitPos
+    nonRevisitPos += 1
+    const barCount = Math.max(1, countChartBars(block.chart))
+    const strainMeta = newStrains[position] || null
+    return Object.assign({}, block, {
+      melodyStrainIndex: position,
       needsAbcExpand: false,
+      abcBarStart: 0,
+      abcBarEnd: barCount - 1,
+      strainStartBarline: strainMeta ? strainMeta.startBarline : null,
+      strainEndBarline: strainMeta ? strainMeta.endBarline : null,
     })
   })
 
@@ -633,6 +812,37 @@ export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
 
 function stripChordsFromAbcText(text) {
   return String(text || '').replace(/"([^"]*)"/g, '')
+}
+
+/** Melody voicing fingerprint: quotes + inline M/Q/K stripped; bracket pitch order normalized. */
+function normalizeBracketPitchOrder(text) {
+  return String(text || '').replace(/\[([a-gA-G]+)\]/g, function(_, letters) {
+    return '[' + letters.split('').sort().join('') + ']'
+  })
+}
+
+function melodyVoicingFingerprint(text) {
+  let t = stripChordsFromAbcText(text)
+  t = stripInlineSignatureMarkers(t)
+  t = normalizeBracketPitchOrder(t)
+  return t.replace(/\s+/g, '').trim()
+}
+
+/** Count ABC rest duration units (z, z2, z8, …) ignoring quoted chords. */
+export function melodyRestUnitCount(text) {
+  const noChords = stripChordsFromAbcText(text).replace(/"[^"]*"/g, '')
+  let total = 0
+  const re = /z(\d+)?/gi
+  let match
+  while ((match = re.exec(noChords)) !== null) {
+    const mult = match[1] ? parseInt(match[1], 10) : 1
+    total += mult > 0 ? mult : 1
+  }
+  return total
+}
+
+function chartHasInlineMeterToken(chart) {
+  return /\[M:\s*[^\]]+\]/i.test(String(chart || ''))
 }
 
 /**
@@ -788,6 +998,15 @@ function miniAbcForStrain(header, strainText, startBarline) {
   ].join('\n')
 }
 
+/** mergeChords returns rendered note body; only use justNotes when headers are present. */
+function melodyTextFromMergeChordsOutput(mergedMini, abcTools) {
+  const raw = String(mergedMini == null ? '' : mergedMini)
+  const lines = (/^(X:|M:|L:|K:)/m.test(raw)
+    ? abcTools.justNotes(raw).split('\n')
+    : raw.split('\n'))
+  return flattenMelodyText(lines).replace(/^\|:\s*/, '').trim()
+}
+
 function chartHasMergeableContent(chart) {
   const split = splitChartHeaderAndBody(chart || '')
   const stripped = stripInlineSignatureMarkers(split.body || '')
@@ -820,8 +1039,9 @@ export function mergeChordsForBlock(abcString, block, chartText, options) {
   }
 
   let noteLines
+  const prefixSource = abcTools.justNotes(abcString).split('\n')
   try {
-    noteLines = abcTools.justNotes(abcString).split('\n')
+    noteLines = noteLinesFromAbcForMerge(abcString, abcTools)
   } catch (e) {
     return { ok: false, error: mergeFailure('abc_parse_error', e.message || 'ABC parse failed') }
   }
@@ -881,10 +1101,10 @@ export function mergeChordsForBlock(abcString, block, chartText, options) {
     return { ok: false, error: mergeFailure('chart_parse_error', e.message || 'Chord merge failed') }
   }
 
-  const mergedNotes = abcTools.justNotes(mergedMini).split('\n')
-  const mergedFlat = flattenMelodyText(mergedNotes)
+  const mergedNotes = melodyTextFromMergeChordsOutput(mergedMini, abcTools)
+  const mergedFlat = mergedNotes
   // Drop leading |: if we injected it
-  let strainOut = mergedFlat.replace(/^\|:\s*/, '').trim()
+  let strainOut = mergedFlat
 
   const rebuilt = strains.map(function(s, i) {
     if (i === strainIndex) return strainOut
@@ -927,7 +1147,10 @@ export function mergeChordsForBlock(abcString, block, chartText, options) {
   }
 
   void afterOutside
-  const noteLinesOut = [joined.trim()].filter(Boolean)
+  const noteLinesOut = mergeNoteLinesWithVoicePrefixes(
+    prefixSource,
+    [joined.trim()].filter(Boolean)
+  )
   const newAbc = splicePrimaryVoiceNotes(
     abcString,
     noteLinesOut,
@@ -951,6 +1174,8 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
   }
 
   const list = Array.isArray(blocks) ? blocks : []
+  const prefixSource = prefixSourceForMerge(abcString, abcTools, opts)
+
   const grid = rebuildChordGridFromSections(list.map(function(b) {
     // Empty editor slots use `|` as a placeholder; merge needs a real rest bar
     // so we do not corrupt neighbouring scaffold bars.
@@ -987,19 +1212,13 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
         abcTools,
         header.abcJson.voices
       )
-      return { ok: true, abc: spliced, wiped: true, noteLines: noteLines }
+      return { ok: true, abc: spliced, wiped: true, noteLines: mergeNoteLinesWithVoicePrefixes(prefixSource, noteLines) }
     } catch (e) {
       return { ok: false, error: mergeFailure('chart_parse_error', e.message || 'Scaffold rebuild failed') }
     }
   }
 
-  let noteLines
-  try {
-    noteLines = abcTools.justNotes(abcString).split('\n')
-  } catch (e) {
-    return { ok: false, error: mergeFailure('abc_parse_error', e.message || 'ABC parse failed') }
-  }
-
+  let noteLines = primaryVoiceNotesForMerge(abcString, abcTools, opts)
   let workingBlocks = list
   const expand = autoExpandNoteLinesForBlocks(noteLines, list, opts.defaultMeter)
   if (expand.error) {
@@ -1017,12 +1236,18 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     )
   }
 
+  const harmonyOnly = melodyUsesBracketChordClusters(noteLines)
   const hasTimedMedia = !!(opts.tune && (opts.tune.timedChords || opts.tune.timedLyrics || opts.tune.timedMelody))
 
   // Pitch or rest/scaffold: merge per strain onto the primary voice.
   // (Full wipe rewrite is reserved for opts.wipeNotation above.)
   const strains = splitMelodyStrainsWithBarlines(noteLines)
   const header = headerFromAbc(abcString, abcTools)
+  if (harmonyOnly && opts.tune) {
+    if (opts.tune.meter) header.meter = normalizeMeter(opts.tune.meter)
+    if (opts.tune.key) header.key = normalizeKeySignature(opts.tune.key)
+    if (opts.tune.noteLength) header.noteLength = opts.tune.noteLength
+  }
   const firstMeter = firstSectionMeter(workingBlocks, opts.defaultMeter || header.meter)
   const firstKey = firstSectionKey(workingBlocks, header.key)
   const hasTimed = hasTimedMedia
@@ -1093,19 +1318,41 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     }
 
     const miniHeader = {
-      meter: soundingIndex === 0 ? firstMeter : previousSoundingMeter,
+      meter: soundingIndex === 0
+        ? normalizeMeter(header.meter || firstMeter)
+        : previousSoundingMeter,
       noteLength: header.noteLength,
-      key: soundingIndex === 0 ? firstKey : previousSoundingKey,
+      key: soundingIndex === 0
+        ? normalizeKeySignature(header.key || firstKey)
+        : previousSoundingKey,
     }
     const mini = miniAbcForStrain(miniHeader, strainText, strains[strainIndex].startBarline)
     let mergedMini
+    const mergeOpts = harmonyOnly ? { harmonyOnly: true } : null
     try {
-      mergedMini = abcjsParser.mergeChords(chartForMerge, mini, null)
+      mergedMini = abcjsParser.mergeChords(chartForMerge, mini, null, mergeOpts)
     } catch (e) {
       return { ok: false, error: mergeFailure('chart_parse_error', e.message || 'Chord merge failed') }
     }
-    const mergedFlat = flattenMelodyText(abcTools.justNotes(mergedMini).split('\n'))
-    updatedStrainTexts[strainIndex] = mergedFlat.replace(/^\|:\s*/, '').trim()
+    const mergedStrainText = melodyTextFromMergeChordsOutput(mergedMini, abcTools)
+    if (harmonyOnly) {
+      const beforeFp = melodyVoicingFingerprint(strainText)
+      const afterFp = melodyVoicingFingerprint(mergedStrainText)
+      if (beforeFp !== afterFp) {
+        return {
+          ok: false,
+          error: mergeFailure(
+            'invariant_violation',
+            'Chord merge would alter bracket voicing melody'
+          ),
+        }
+      }
+    }
+    if (strainTextHasPitch(strainText) && !strainTextHasPitch(mergedStrainText)) {
+      updatedStrainTexts[strainIndex] = strainText
+    } else {
+      updatedStrainTexts[strainIndex] = mergedStrainText
+    }
     previousSoundingKey = blockAbcKey
     previousSoundingMeter = blockMeter
     if (blockTempo != null) previousSoundingTempo = blockTempo
@@ -1121,7 +1368,7 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
       ok: true,
       abc: abcString,
       blocks: workingBlocks,
-      noteLines: noteLines,
+      noteLines: mergeNoteLinesWithVoicePrefixes(prefixSource, noteLines),
     }
   }
 
@@ -1144,7 +1391,7 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     joined += updatedStrainTexts[i]
   })
 
-  const notesOut = rebuildNoteLinesFromMergedStrains(
+  let notesOut = rebuildNoteLinesFromMergedStrains(
     noteLines,
     strains,
     updatedStrainTexts
@@ -1186,12 +1433,29 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
       const afterNoChords = after.replace(/"[^"]*"/g, '')
       const hasPitch = /[a-gA-G]/.test(beforeNoChords)
       if (hasPitch && before !== after) {
-        const beforePitch = before.replace(/[^a-gA-GzZ]/g, '')
-        const afterPitch = after.replace(/[^a-gA-GzZ]/g, '')
+        const pitchStrip = function(text) {
+          const norm = harmonyOnly ? normalizeBracketPitchOrder(text) : text
+          return norm.replace(/[^a-gA-GzZ]/g, '')
+        }
+        const beforePitch = pitchStrip(beforeNoChords)
+        const afterPitch = pitchStrip(afterNoChords)
         if (beforePitch !== afterPitch) {
           return {
             ok: false,
             error: mergeFailure('invariant_violation', 'Notes outside chord updates changed'),
+          }
+        }
+        if (
+          block
+          && !chartHasInlineMeterToken(block.chart)
+          && melodyRestUnitCount(beforeNoChords) !== melodyRestUnitCount(afterNoChords)
+        ) {
+          return {
+            ok: false,
+            error: mergeFailure(
+              'invariant_violation',
+              'Rest duration changed outside inline meter edits'
+            ),
           }
         }
       }
@@ -1219,6 +1483,7 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
   if (notesOut.length === 0 || !notesOut.some(function(line) { return String(line || '').trim() })) {
     return { ok: false, error: mergeFailure('abc_parse_error', 'Merged notes empty') }
   }
+  notesOut = mergeNoteLinesWithVoicePrefixes(prefixSource, notesOut)
   header.abcJson.voices = Object.assign({}, header.abcJson.voices)
   header.abcJson.voices[voiceKey] = Object.assign(
     {},
@@ -1278,6 +1543,45 @@ export function invalidateChordBlockCache(tune) {
 }
 
 /**
+ * Sync tune.chordSectionLabels from section-marker quoted chords in the primary
+ * voice. ABC marker text wins when present; chartRevisit is preserved from
+ * existing labels at each strain index.
+ */
+export function syncChordSectionLabelsFromPrimaryVoice(tune, noteLines) {
+  if (!tune) return
+  const lines = Array.isArray(noteLines) ? noteLines : []
+  const strains = splitMelodyStrainsWithBarlines(lines)
+  const existing = Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : []
+
+  tune.chordSectionLabels = strains.map(function(strain, index) {
+    const markerHeader = firstSectionMarkerHeaderInMelodyText(strain.text)
+    const prev = existing[index]
+    if (markerHeader) {
+      return {
+        header: markerHeader,
+        title: sectionDisplayTitle({ header: markerHeader, lines: [] }),
+        type: normalizeSectionType(markerHeader),
+        chartRevisit: prev ? !!prev.chartRevisit : false,
+      }
+    }
+    if (prev) {
+      return {
+        header: prev.header || '',
+        title: prev.title || '',
+        type: prev.type != null ? prev.type : null,
+        chartRevisit: !!prev.chartRevisit,
+      }
+    }
+    return {
+      header: '',
+      title: '',
+      type: null,
+      chartRevisit: false,
+    }
+  })
+}
+
+/**
  * Apply merged ABC + optional lyrics onto tune; save path helper.
  */
 export function applyBlockMergeToTune(tune, options) {
@@ -1300,6 +1604,7 @@ export function applyBlockMergeToTune(tune, options) {
     chordSheetAlignment: opts.chordSheetAlignment,
     defaultMeter: opts.defaultMeter || tune.meter,
     tune: tune,
+    notesBefore: opts.notesBefore,
   })
   if (!result.ok) return result
 
@@ -1307,12 +1612,19 @@ export function applyBlockMergeToTune(tune, options) {
   // Always write onto the tune's existing primary voice — never adopt a fresh
   // voice key invented by parsing a notes-only merge body.
   const voiceKey = resolvePrimaryVoiceKey(tune.voices || abcJson.voices)
-  const noteLines = Array.isArray(result.noteLines) && result.noteLines.length
-    ? result.noteLines
-    : noteLinesFromMergedBody(result.abc, abcTools)
+  const mergedMelodyLines = Array.isArray(result.noteLines) && result.noteLines.length
+    ? noteLinesForMelodyMerge(result.noteLines)
+    : noteLinesForMelodyMerge(noteLinesFromMergedBody(result.abc, abcTools))
+  const noteLines = mergeNoteLinesWithVoicePrefixes(
+    Array.isArray(opts.notesBefore) ? opts.notesBefore : [],
+    Array.isArray(result.noteLines) && result.noteLines.length
+      ? result.noteLines
+      : noteLinesFromMergedBody(result.abc, abcTools)
+  )
   const notesBefore = opts.notesBefore
-  const hadMelody = Array.isArray(notesBefore) && noteLinesHaveRealMelody(notesBefore)
-  if (hadMelody && !noteLinesHaveRealMelody(noteLines)) {
+  const melodyBefore = noteLinesForMelodyMerge(notesBefore)
+  const hadMelody = noteLinesHaveRealMelody(melodyBefore)
+  if (hadMelody && !noteLinesHaveRealMelody(mergedMelodyLines)) {
     return {
       ok: false,
       error: mergeFailure('invariant_violation', 'Chord save would remove melody notation'),
@@ -1349,7 +1661,7 @@ export function applyBlockMergeToTune(tune, options) {
   }
 
   const extracted = buildUnifiedBlocks({
-    noteLines: noteLines,
+    noteLines: noteLinesForMelodyMerge(noteLines),
     chordChart: rebuildChordGridFromSections(blocks || []),
     lyricLines: getPlainLyricLines(tune),
     defaultMeter: tune.meter,

@@ -73,8 +73,44 @@ function LinksEditorToolbarButton({ icon, label, variant, style, className, icon
     )
 }
 
+function linkUriString(link) {
+    if (!link) return ''
+    const value = link.link
+    if (value === null || value === undefined) return ''
+    if (typeof value === 'string') return value
+    if (typeof value === 'object' && value && value.link != null) return String(value.link)
+    if (typeof value === 'number' || typeof value === 'boolean') return String(value)
+    return ''
+}
+
+function mediaSearchCandidateUri(candidate) {
+    if (!candidate) return ''
+    const direct = candidate.link
+    if (direct != null && direct !== '') {
+        if (typeof direct === 'string') return direct
+        if (typeof direct === 'object' && direct.link != null) return String(direct.link)
+        if (typeof direct === 'number' || typeof direct === 'boolean') return String(direct)
+    }
+    const uri = String(candidate.uri || '').trim()
+    if (uri) return uri
+    const youtubeId = String(candidate.youtubeId || candidate.id || '').trim()
+    if (youtubeId && candidate.source === 'youtube') {
+        return 'https://www.youtube.com/watch?v=' + youtubeId
+    }
+    return ''
+}
+
+function tuneLinkFromMediaSearchCandidate(candidate) {
+    return {
+        title: candidate && candidate.title ? String(candidate.title) : '',
+        link: mediaSearchCandidateUri(candidate),
+        startAt: '',
+        endAt: '',
+    }
+}
+
 function linkIsPreviewable(link, isYoutubeLink) {
-    if (!link || !link.link || !String(link.link).trim()) return false
+    if (!link || !linkUriString(link).trim()) return false
     const srcType = getLinkSrcType(link, isYoutubeLink)
     return srcType === 'audio' || srcType === 'recording' || srcType === 'youtube' || srcType === 'midifile'
 }
@@ -473,7 +509,7 @@ function LinksEditorBody(props) {
 
     async function resolveLinkPreviewSrc(link, linkIndex, options) {
         const opts = options || {}
-        const src = String(link.link).trim()
+        const src = linkUriString(link).trim()
         const srcType = getLinkSrcType(link, isYoutubeLink)
         if (srcType === 'recording') {
             const tuneId = getTuneId()
@@ -594,7 +630,7 @@ function LinksEditorBody(props) {
 
     function startYoutubePreview(link, linkIndex) {
         const youtubeGetId = props.tunebook && props.tunebook.utils && props.tunebook.utils.YouTubeGetID
-        const videoId = youtubeGetId ? youtubeGetId(String(link.link).trim()) : null
+        const videoId = youtubeGetId ? youtubeGetId(linkUriString(link).trim()) : null
         if (!videoId) {
             throw new Error('Invalid YouTube link.')
         }
@@ -694,7 +730,7 @@ function LinksEditorBody(props) {
     }
 
     function linkHasMedia(link) {
-        return !!(link && link.link && String(link.link).trim())
+        return !!linkUriString(link).trim()
     }
 
     function getTuneId() {
@@ -940,8 +976,9 @@ function LinksEditorBody(props) {
     }
 
     function linkHidesUrlField(link) {
-        if (!link || !link.link) return false
-        return link.link.startsWith('data:audio/') || isOwnedMediaLinkUri(link.link)
+        const uri = linkUriString(link).trim()
+        if (!uri) return false
+        return uri.startsWith('data:audio/') || isOwnedMediaLinkUri(uri)
     }
 
     return (
@@ -1021,7 +1058,7 @@ function LinksEditorBody(props) {
                             login={props.login}
                             onChange={function(link) {
                                 var links = Array.isArray(props.links) ? props.links : []
-                                links.unshift({title: link.title, link: link.link, startAt: '', endAt: ''})
+                                links.unshift(tuneLinkFromMediaSearchCandidate(link))
                                 props.onChange(links)
                             }}
                             setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
@@ -1060,6 +1097,7 @@ function LinksEditorBody(props) {
             <Form>
                 <div style={{clear:'both'}}>
                     {Array.isArray(props.links) && props.links.map(function(link, lk) {
+                        const linkUri = linkUriString(link)
                         const ownedMedia = isOwnedMediaLink(link)
                         const syncStatus = ownedMedia ? getOwnedMediaSyncStatus(link) : null
                         const linkSrcType = getLinkSrcType(link, isYoutubeLink)
@@ -1131,10 +1169,10 @@ function LinksEditorBody(props) {
                                         Play Range
                                     </Button>
                                 ) : null}
-                                {(link && link.link && link.link.startsWith('data:audio/')) && (
+                                {linkUri.startsWith('data:audio/') && (
                                     <Button size="sm" variant="primary" onClick={function() {
                                         var a = document.createElement('a')
-                                        a.href = link.link
+                                        a.href = linkUri
                                         a.download = link.title
                                         a.click()
                                     }}>{props.tunebook.icons.save}</Button>
@@ -1144,8 +1182,8 @@ function LinksEditorBody(props) {
                                         downloadOwnedMediaLink(link, lk)
                                     }}>{props.tunebook.icons.save}</Button>
                                 )}
-                                {(!simplified && link && link.link && link.link.indexOf('youtube') !== -1) && (
-                                    <a target="_blank" rel="noreferrer" href={link.link}>
+                                {(!simplified && linkUri.indexOf('youtube') !== -1) && (
+                                    <a target="_blank" rel="noreferrer" href={linkUri}>
                                         <Button size="sm" variant="primary" aria-label="Open external link" title="Open external link">
                                             {props.tunebook.icons.externallink}
                                         </Button>
@@ -1232,7 +1270,7 @@ function LinksEditorBody(props) {
                                             <Form.Label className="links-editor-field-label">Link</Form.Label>
                                         ) : null}
                                         {!linkHidesUrlField(link) && (
-                                            <Form.Control type="text" value={link.link} onChange={function(e) {
+                                            <Form.Control type="text" value={linkUri} onChange={function(e) {
                                                 var links = props.links
                                                 links[lk].link = e.target.value
                                                 props.onChange(links)
@@ -1240,7 +1278,7 @@ function LinksEditorBody(props) {
                                         )}
                                         {ownedMedia && (
                                             <div className="links-editor-owned-media-uri">
-                                                {link.link}
+                                                {linkUri}
                                             </div>
                                         )}
                                     </Form.Group>

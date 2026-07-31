@@ -36,7 +36,8 @@ import LyricsAutoscrollModal from './LyricsAutoscrollModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings'
 import { NOTATION_FIT_VERTICAL, NOTATION_FIT_HORIZONTAL } from '../gigNotationFit'
-import { stripNotationDisplayMetadata, stripBlockLyricsFromDisplayAbc } from '../notation/notationDisplayAbc'
+import { prepareTuneViewNotationAbc } from '../notation/notationDisplayAbc'
+import { isSectionMarkerChordName } from '../chordSheetUtils'
 import {
   EDITOR_VIEW_MODES,
   viewModeToDisplayFlags,
@@ -443,9 +444,12 @@ export default function MusicSingle(props) {
         const hasAbcChords = props.tunebook.abcTools.hasChords(firstVoice.notes.join('\n'))
         function handleNotationChordClick(abcelem) {
           if (abcelem && Array.isArray(abcelem.chord) && abcelem.chord.length > 0) {
-            lastNotationChordRef.current = String(abcelem.chord[0].name || '')
+            const name = String(abcelem.chord[0].name || '')
               .replace(/♭/g, 'b')
               .replace(/♯/g, '#')
+            if (name && !isSectionMarkerChordName(name)) {
+              lastNotationChordRef.current = name
+            }
           }
         }
         //var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
@@ -461,6 +465,7 @@ export default function MusicSingle(props) {
             if (!token) return
             // Repeat / ending markers are not chord symbols (|: :| [1 …).
             if (token === ':' || token === '|:' || token === ':|' || token === ':|:' || /^\[\d+$/.test(token) || /^\d+\.$/.test(token)) return
+            if (isSectionMarkerChordName(token)) return
             uniqueChords[token] = true
         })
         
@@ -667,15 +672,11 @@ export default function MusicSingle(props) {
                   navigate('/print', { state: { tuneIds: [tune.id] } })
                 }
 
-                function stripNotationMeta(abcText) {
-                  if (!abcText) return ''
-                  // Keep block lyrics (W:) off the staff (shown in the lyrics panel).
-                  // Keep note-aligned lyrics (w:) so abcjs can draw syllables under notes.
-                  return stripBlockLyricsFromDisplayAbc(stripNotationDisplayMetadata(abcText))
-                }
-
                 const notationVisualTranspose = chordTranspose
-                const notationAbc = stripNotationMeta(props.tunebook.abcTools.json2abc(notationTune))
+                const notationAbc = prepareTuneViewNotationAbc(
+                  props.tunebook.abcTools.json2abc(notationTune),
+                  chordsAnnotate
+                )
 
                 const menuControlsVariant = foldControlsIntoMenu ? 'menu' : 'toolbar'
                 const menuControlsStopClose = foldControlsIntoMenu

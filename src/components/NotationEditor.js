@@ -29,6 +29,7 @@ import { serializeVoiceEvents } from '../notation/abcVoiceSerializer';
 import NotationSectionLabelsOverlay from './NotationSectionLabelsOverlay';
 import { buildAbcPreviewFromBodies, voiceDisplayLabel, mapAbcClickToVoiceCursor } from '../notation/notationDisplayAbc';
 import { activeVoiceIndicesFromTune } from '../abcVoiceViewSettings';
+import { resolvePrimaryVoiceKey } from '../abcVoiceUtils';
 import { notationSessionReducer, createInitialSession } from '../notation/notationSession';
 import {
   isShiftMarqueeEnabled,
@@ -3495,9 +3496,12 @@ export default function NotationEditor(props) {
             abc={props.abc}
             saveTune={props.onChordsSaveTune}
             onGenreAccept={props.onGenreAccept}
-            notes={props.tune && props.tune.voices && Object.keys(props.tune.voices).length > 0 && Object.values(props.tune.voices)[0]
-              ? Object.values(props.tune.voices)[0].notes
-              : []}
+            notes={(() => {
+              if (!props.tune || !props.tune.voices) return []
+              const voiceKey = resolvePrimaryVoiceKey(props.tune.voices)
+              const voice = props.tune.voices[voiceKey]
+              return voice && Array.isArray(voice.notes) ? voice.notes : []
+            })()}
             pendingChordImport={props.pendingChordImport}
             onConsumePendingChordImport={props.onConsumePendingChordImport}
             autoActivateChordRecord={props.autoActivateChordRecord}

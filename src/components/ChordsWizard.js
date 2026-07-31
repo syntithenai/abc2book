@@ -38,10 +38,12 @@ import {
 import {
   applyBlockMergeToTune,
   buildUnifiedBlocks,
+  chordBlockCacheMatchesMelody,
   enrichBlocksWithNotationMarkerFlags,
   hashAbcNotes,
   readChordBlockCache,
   reconcileBlocksFromGrid,
+  reanchorEditorBlocksToMelody,
   writeChordBlockCache,
 } from '../chordBlockMerge'
 import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
@@ -125,7 +127,13 @@ export default function ChordsWizard(props) {
     const abcHash = hashAbcNotes(noteLines)
     const labels = Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null
     const cache = readChordBlockCache(tune)
-    if (cache && cache.abcHash === abcHash && Array.isArray(cache.blocks) && cache.blocks.length) {
+    if (
+      cache
+      && cache.abcHash === abcHash
+      && Array.isArray(cache.blocks)
+      && cache.blocks.length
+      && chordBlockCacheMatchesMelody(noteLines, cache.blocks)
+    ) {
       const cached = labels && labels.length
         ? applyChordSectionLabels(cache.blocks, labels, lyricLines)
         : cache.blocks
@@ -236,6 +244,7 @@ export default function ChordsWizard(props) {
     const opts = options || {}
     const currentAbc = currentAbcString()
     const notesBefore = primaryNoteLines()
+    const anchoredSections = reanchorEditorBlocksToMelody(notesBefore, nextSections)
 
     if (tune.timingScaffold) tune.timingScaffold = true
     fillEmptyTuneFieldsFromMeta(tune, opts.meta)
@@ -262,7 +271,7 @@ export default function ChordsWizard(props) {
     )
     const result = applyBlockMergeToTune(tune, {
       abc: currentAbc,
-      blocks: nextSections,
+      blocks: anchoredSections,
       tunebook: props.tunebook,
       abcjsParser: abcjsParser,
       wipeNotation: wipeNotation,

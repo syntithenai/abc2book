@@ -117,7 +117,6 @@ export default function VoiceSettingsSection() {
           id="voice-speak-song-titles"
           label="Speak song titles"
           checked={settings.speakSongTitles === true}
-          disabled={!ttsAvailable}
           onChange={handleSpeakSongTitlesChange}
           className="mb-2"
         />
@@ -126,7 +125,7 @@ export default function VoiceSettingsSection() {
           id="voice-speak-artist-names"
           label="Speak artist names"
           checked={settings.speakArtistNames === true}
-          disabled={!ttsAvailable || settings.speakSongTitles !== true}
+          disabled={settings.speakSongTitles !== true}
           onChange={handleSpeakArtistNamesChange}
         />
       </div>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useCallback, useEffect, useState } from 'react';
 import {
   getStoredSnapcastControlUrl,
+  normalizeSnapcastControlUrl,
   resolveSnapcastControlUrl,
   setStoredSnapcastControlUrl,
 } from '../snapcastSupport';
@@ -28,7 +29,8 @@ export default function SnapcastSettingsSection({ mediaResolverStatus, nested })
   }, [mediaResolverStatus]);
 
   const saveUrl = useCallback(function() {
-    setStoredSnapcastControlUrl(url);
+    const normalized = setStoredSnapcastControlUrl(url);
+    setUrl(normalized);
   }, [url]);
 
   return (

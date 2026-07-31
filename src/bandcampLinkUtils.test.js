@@ -8,7 +8,7 @@ describe('bandcampLinkUtils', function() {
 
   test('isBandcampLinkUri rejects non-bandcamp URLs', function() {
     expect(isBandcampLinkUri('https://youtube.com/watch?v=abc')).toBe(false);
-    expect(isBandcampLinkUri('http://altan.bandcamp.com/track/foo')).toBe(false);
+    expect(isBandcampLinkUri('http://altan.bandcamp.com/track/foo')).toBe(true);
     expect(isBandcampLinkUri('')).toBe(false);
   });
 });

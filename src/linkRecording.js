@@ -2,11 +2,6 @@ import localforage from 'localforage'
 import decode from 'audio-decode'
 import MP3Converter from './MP3Converter'
 import utilsFunctions from './utilsFunctions'
-import {
-  normalizeAccessToken,
-  fetchViaMediaProxy,
-  isMediaProxyConfigured,
-} from './mediaProxyClient'
 import { loadOfflineMediaSettings } from './offlineMediaSettings'
 import { triggerAutoPublicizeIfShared } from './ownedMediaAutoPublicizeTrigger'
 import {
@@ -23,6 +18,10 @@ export const RECORDING_LINK_PREFIX = 'abcbook-recording:'
 
 const recordingsStore = localforage.createInstance({ name: 'recordings' })
 const utils = utilsFunctions()
+
+function getMediaProxyClient() {
+  return require('./mediaProxyClient')
+}
 
 export function isOwnedMediaLinkUri(uri) {
   return !!(uri && String(uri).trim().startsWith(RECORDING_LINK_PREFIX))
@@ -99,6 +98,30 @@ export function getTuneOwnedMediaDriveSummary(tune) {
   return Object.assign({ status: status }, summary)
 }
 
+export function listOwnedMediaLinkSyncEntries(tune) {
+  const entries = []
+  if (!tune || !Array.isArray(tune.links)) return entries
+  tune.links.forEach(function(link, index) {
+    if (!isOwnedMediaLink(link)) return
+    const status = getOwnedMediaSyncStatus(link)
+    entries.push({
+      linkIndex: index,
+      title: link.title || ('Link ' + (index + 1)),
+      status: status,
+      mediaKind: link.mediaKind || 'audio',
+      googleId: link.googleId || null,
+    })
+  })
+  return entries
+}
+
+export function tuneHasPendingOwnedMediaUpload(tune) {
+  if (!tune || !Array.isArray(tune.links)) return false
+  return tune.links.some(function(link) {
+    return isOwnedMediaLink(link) && link.uploadPending === true && !link.googleId
+  })
+}
+
 export async function uploadOwnedMediaLinksForTune(tune, options) {
   const opts = options || {}
   const token = getAccessToken(opts.token)
@@ -119,6 +142,7 @@ export async function uploadOwnedMediaLinksForTune(tune, options) {
     if (!isOwnedMediaLink(link)) continue
     if (Array.isArray(opts.linkIndices) && opts.linkIndices.indexOf(i) === -1) continue
     if (getOwnedMediaSyncStatus(link) === 'synced') continue
+    if (opts.onlyPendingUploads && !link.uploadPending) continue
 
     const recordingId = link.recordingId || parseRecordingIdFromLinkUri(link.link)
     if (!recordingId) {
@@ -225,7 +249,7 @@ async function writeRecordingCache(tuneId, linkIndex, linkUri, mp3Blob, duration
 }
 
 function getAccessToken(token) {
-  return normalizeAccessToken(token)
+  return getMediaProxyClient().normalizeAccessToken(token)
 }
 
 function normalizeMediaKind(kind) {
@@ -572,12 +596,13 @@ export function buildPublicDriveDownloadUrl(googleId) {
 }
 
 async function fetchPublicDriveBlobViaProxy(googleId, accessToken) {
-  if (!googleId || !isMediaProxyConfigured()) return null
+  const mediaProxyClient = getMediaProxyClient()
+  if (!googleId || !mediaProxyClient.isMediaProxyConfigured()) return null
   try {
     const driveUrl = buildPublicDriveDownloadUrl(googleId)
-    const response = await fetchViaMediaProxy(
+    const response = await mediaProxyClient.fetchViaMediaProxy(
       '/proxy-audio?url=' + encodeURIComponent(driveUrl),
-      normalizeAccessToken(accessToken)
+      mediaProxyClient.normalizeAccessToken(accessToken)
     )
     const blob = await response.blob()
     if (!blob || blob.size === 0) return null
@@ -659,16 +684,15 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
     }
   }
 
-  if (googleId && !recording) {
-    if (!accessToken) {
-      throw new Error('Recording not shared publicly — owner may need to log in and save again.')
-    }
+  if (googleId && !recording && !accessToken) {
     throw new Error('Recording not shared publicly — owner may need to log in and save again.')
   }
 
   const online = typeof navigator !== 'undefined' && navigator.onLine
   throw new Error(online
-    ? 'Recording audio is not available — sign in and try again, or use MIDI playback.'
+    ? (googleId && !recording
+      ? 'Recording could not be downloaded from Google Drive — sign in and try again, or use MIDI playback.'
+      : 'Recording audio is not available — sign in and try again, or use MIDI playback.')
     : 'Recording audio is not available offline')
 }
 

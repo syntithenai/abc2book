@@ -31,4 +31,11 @@ describe('mediaLinkSrcType', function() {
       title: 'scratchpad.notation.mid',
     }, isYoutubeLink)).toBe('midifile')
   })
+
+  test('resolveLinkPlaybackSrcType handles nested link objects', function() {
+    expect(resolveLinkPlaybackSrcType({
+      link: { link: 'abcbook-recording:rec1', recordingId: 'rec1' },
+      title: 'Rec',
+    }, isYoutubeLink)).toBe('recording')
+  })
 })

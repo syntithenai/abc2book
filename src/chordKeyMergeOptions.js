@@ -6,6 +6,7 @@ import { chordParserFactory, chordRendererFactory } from 'chord-symbol'
 import { parseKeySignatureForTests } from './melodyPitchSpelling'
 import { normalizePracticeKey, pitchOffsetToPracticeKey } from './practiceSessionPlanner'
 import utilsFunctions from './utilsFunctions'
+import { isInlineSignatureToken, isSectionMarkerToken } from './chordSheetUtils'
 
 const parseChord = chordParserFactory()
 const utils = utilsFunctions()
@@ -219,6 +220,9 @@ export function transposeChordGridText(text, semitones, targetKey) {
   return String(text || '').split('\n').map(function(line) {
     return String(line).replace(/\S+/g, function(token) {
       if (token === '|' || token === '||' || token === '.' || /^[|.:]+$/.test(token)) {
+        return token
+      }
+      if (isInlineSignatureToken(token) || isSectionMarkerToken(token)) {
         return token
       }
       // Tokens like "G|" — transpose chord portion, keep trailing barlines

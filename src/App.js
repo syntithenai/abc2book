@@ -139,6 +139,7 @@ import { normalizeSourceUrlKey } from './sourceUrlSync'
 import PerformanceSetMergeHost from './components/PerformanceSetMergeHost'
 import PlaylistMergeHost from './components/PlaylistMergeHost'
 import { syncPendingRecordingUploads } from './linkRecording'
+import { warmOwnedMediaCacheOnLogin } from './mediaCacheWarmOnLogin'
 import { syncPendingTuneFileUploads } from './tuneFiles'
 import { applyDriveRecordStateToTunes } from './incomingMergeUtils'
 import { TunesProvider } from './TunesContext'
@@ -381,6 +382,8 @@ function AppQueueLayer(props) {
             returnPath={location.pathname}
             nowPlayingFocus={nowPlayingFocus}
             viewedTuneId={viewedTuneId}
+            login={props.login}
+            token={props.token}
             onClose={function() {
               if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(false)
             }}
@@ -673,11 +676,18 @@ function App(props) {
   function mergeTuneBook(tunebookText) {
       return new Promise(function(resolve,reject) {
           setShowWaitingOverlay(true)
+          flushTunesPersistence()
+          if (typeof flushActiveEditor === 'function' && currentTune) {
+            flushActiveEditor(currentTune)
+          }
           Promise.all([
             utils.loadLocalforageObject('bookstorage_tunes'),
             utils.loadLocalforageObject('bookstorage_deleted_tunes'),
           ]).then(async function(results) {
               var localTunes = results[0] || {}
+              if (tunesHydratedRef.current && tunesRef.current && Object.keys(tunesRef.current).length > 0) {
+                localTunes = tunesRef.current
+              }
               var localDeleted = results[1] || {}
               var remoteDeleted = parseDeletedTunesFromAbc(tunebookText)
               var compared
@@ -788,7 +798,7 @@ function App(props) {
     nowPlayingQueueRef.current = nowPlayingQueue
   }, [nowPlayingQueue])
 
-  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn: !!(token && token.access_token), currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef})
+  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn: !!(token && token.access_token), ownedMediaUpload: token && token.access_token ? { token: token, driveApi: filesDocumentManager, googleDocumentId: googleDocumentId } : null, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef})
   //var abcPlayerRef = useRef()
   let mediaController = useTuneBookMediaController({tunebook, tunes, forceRefresh, token, user, nowPlayingQueue, setNowPlayingQueue, setPlaylist, practiceSessionActiveRef})
 
@@ -968,6 +978,15 @@ function App(props) {
         if (result && result.uploaded > 0) {
           const label = result.uploaded === 1 ? 'recording' : 'recordings'
           toast.success(result.uploaded + ' ' + label + ' synced to Google Drive')
+        }
+        return warmOwnedMediaCacheOnLogin(tunesRef.current, {
+          token: token,
+          driveApi: filesDocumentManager,
+        })
+      }).then(function(warmResult) {
+        if (warmResult && warmResult.warmed > 0) {
+          const label = warmResult.warmed === 1 ? 'track' : 'tracks'
+          toast.info('Cached ' + warmResult.warmed + ' owned ' + label + ' for offline playback')
         }
       }).catch(function() {})
       syncPendingTuneFileUploads({
@@ -1272,7 +1291,12 @@ function App(props) {
                 token={token}
                 forceRefresh={forceRefresh}
               >
-              <RemoteOutputProvider mediaController={mediaController}>
+              <RemoteOutputProvider
+                mediaController={mediaController}
+                tunebook={tunebook}
+                nowPlayingQueue={nowPlayingQueue}
+                tunes={tunes}
+              >
               <AppMainChrome
                 headerProps={{
                   isSyncing: syncWorker.isRunning,
@@ -1328,6 +1352,8 @@ function App(props) {
                   setPlaylist: setPlaylist,
                   practiceSessionActive: !!(practiceSession && practiceSession.sessionOpen),
                   gigModeActive: isGigPlaylistActive(setPlaylist),
+                  login: login,
+                  token: token,
                 }}
               />
               <AppOptionalChrome>
@@ -1355,7 +1381,7 @@ function App(props) {
                     <Route  path={`quizzes/:lessonId`} element={<QuizzesPage tunebook={tunebook} user={user} />} />
                     <Route  path={`scratchpad`} element={<ScratchpadPage tunebook={tunebook} tunes={tunes} token={token} login={login} driveApi={filesDocumentManager} requestGoogleScopes={requestGoogleScopes} />} />
                     <Route  path={`scratchpad/:itemId`} element={<ScratchpadItemPage tunebook={tunebook} tunes={tunes} token={token} login={login} editHistory={editHistory} mediaController={mediaController} forceRefresh={forceRefresh} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} />} />
-                    <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} deletedTunes={deletedTunes} token={token} login={login} logout={logout} refresh={refresh} requestGoogleScopes={requestGoogleScopes} authMode={authMode} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} indexes={indexes} tunesContentRevision={tunesContentRevision} currentTuneBook={currentTuneBook} />}  />
+                    <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} deletedTunes={deletedTunes} token={token} login={login} logout={logout} refresh={refresh} requestGoogleScopes={requestGoogleScopes} authMode={authMode} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} indexes={indexes} tunesContentRevision={tunesContentRevision} currentTuneBook={currentTuneBook} driveApi={filesDocumentManager} />}  />
                     <Route path={`collection-curator`} element={<CollectionCuratorPage token={token} tunebook={tunebook} />} />
                     <Route path={`snapcast`} element={<SnapcastPage mediaController={mediaController} tunebook={tunebook} nowPlayingQueue={nowPlayingQueue} tunes={tunes} />} />
                     <Route  path={`review`} element={<Navigate to="/" replace />} />

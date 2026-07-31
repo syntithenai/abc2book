@@ -148,7 +148,9 @@ export async function renderAbcToAudioBuffer(abc, options) {
     throw lastError || new Error('Could not render notation audio')
   } finally {
     if (audioContext.state !== 'closed' && typeof audioContext.close === 'function') {
-      audioContext.close().catch(function() {})
+      try {
+        await audioContext.close()
+      } catch (err) { /* ignore */ }
     }
   }
 }

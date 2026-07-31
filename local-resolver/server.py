@@ -117,7 +117,7 @@ import tempfile
 import time
 from contextlib import contextmanager
 from typing import Any, Callable
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, urlparse, urlunparse
 
 import httpx
 from fastapi import FastAPI, File, Form, Header, HTTPException, Query, Request, UploadFile
@@ -1120,7 +1120,12 @@ def validate_target_url(raw_url):
     except Exception:
         return None, "Invalid URL"
 
-    if parsed.scheme != "https":
+    if parsed.scheme == "http":
+        if is_blocked_host(parsed.hostname):
+            return None, "Only https URLs are allowed"
+        parsed = parsed._replace(scheme="https")
+        raw_url = urlunparse(parsed)
+    elif parsed.scheme != "https":
         return None, "Only https URLs are allowed"
 
     if is_blocked_host(parsed.hostname):
@@ -1226,6 +1231,12 @@ def ytdlp_error_hint(stderr_text):
         hint += (
             " — rebuild the resolver image (docker compose up --build); "
             "logged-in YouTube cookies need Deno + yt-dlp-ejs in the container"
+        )
+    elif "video unavailable" in hint.lower() or "video is not available" in hint.lower():
+        hint += (
+            " — YouTube Topic / licensed uploads often block server download. "
+            "Install the TuneBook Helper browser extension (Settings → Providers), "
+            "re-export local-resolver/secrets/youtube-cookies.txt, or use a different link"
         )
     return hint
 

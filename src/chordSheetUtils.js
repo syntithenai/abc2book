@@ -283,6 +283,21 @@ export function melodyTextHasSectionMarkerChord(melodyText, header) {
 }
 
 /**
+ * First section-label quoted chord in melody text, as normalized bracket header.
+ */
+export function firstSectionMarkerHeaderInMelodyText(melodyText) {
+  const text = String(melodyText == null ? '' : melodyText);
+  const re = /"([^"]*)"/g;
+  let match;
+  while ((match = re.exec(text)) !== null) {
+    if (!isSectionMarkerChordName(match[1])) continue;
+    const header = sectionMarkerAbcChordName(match[1]);
+    if (header) return header;
+  }
+  return '';
+}
+
+/**
  * Split optional first-line # section marker from chart body.
  */
 export function splitChartHeaderAndBody(chart) {
@@ -1137,6 +1152,15 @@ export function inferSectionTypesFromLineCounts(blocks) {
     }
   }
   if (otherLen === null) return blocks;
+
+  let otherCount = 0;
+  let knownCount = 0;
+  lengths.forEach(function(n) {
+    if (n === otherLen) otherCount += 1;
+    if (n === knownLen) knownCount += 1;
+  });
+  // One untyped stanza before the only labeled section (common in hymns) stays unlabeled.
+  if (otherCount < 2 && knownCount < 2) return blocks;
 
   let seenOther = false;
   let returnedToKnown = false;

@@ -1,1 +1,1 @@
-export { RemoteOutputProvider, SnapcastProvider, useSnapcast, useCastSession, useAirplayCast } from './RemoteOutputProvider';
+export { RemoteOutputProvider, SnapcastProvider, useSnapcast, useCastSession, useAirplayCast, usePreferredRemoteOutput } from './RemoteOutputProvider';

@@ -255,16 +255,8 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
             return true
         }
 
-        if (!isQueuePlaybackEngaged(mediaController)) {
-            if (playingId && playingId !== tune.id) {
-                // Viewed tune is outside the idle playlist — discard the stale queue
-                // so single-tune playback is not blocked by the background host.
-                if (ctx.setNowPlayingQueue) {
-                    ctx.setNowPlayingQueue(null)
-                }
-            }
-        } else if (playingId && playingId !== tune.id) {
-            if (ctx.skipQueueConfirm) {
+        if (playingId && playingId !== tune.id) {
+            function startOutsideQueuePreview() {
                 const previewQueue = startPreviewOnce(queue, tune.id)
                 if (ctx.setNowPlayingQueue) ctx.setNowPlayingQueue(previewQueue)
                 const item = {
@@ -280,24 +272,15 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
                     tune,
                     item
                 )
+            }
+            if (ctx.skipQueueConfirm || !isQueuePlaybackEngaged(mediaController)) {
+                startOutsideQueuePreview()
                 return true
             }
             setQueuePlayConfirm({
                 tuneId: tune.id,
                 tuneName: tune.name || '',
-                onPlayThisTune: function() {
-                    const previewQueue = startPreviewOnce(queue, tune.id)
-                    if (ctx.setNowPlayingQueue) ctx.setNowPlayingQueue(previewQueue)
-                    const item = { tuneId: tune.id, prefer: target.type === 'midi' ? 'midi' : 'media', linkIndex: target.type === 'media' ? target.linkNum : undefined }
-                    requestQueueItemPlayback(
-                        mediaController,
-                        tunebook,
-                        navigate,
-                        location,
-                        tune,
-                        item
-                    )
-                },
+                onPlayThisTune: startOutsideQueuePreview,
                 onResumePlaylist: function() {
                     // Navigation back to the current playlist tune is handled by AppQueueLayer.
                 },

@@ -227,4 +227,22 @@ describe('mergeChords note length roundtrip', function() {
     expect(withoutDots.length).toBe(withDots.length);
     expect(withoutDots.length).toBe(2);
   });
+
+  test('renderChords excludes section marker chords from display chart', function() {
+    const abcjsParser = useAbcjsParser();
+    const { extractChordSequence } = require('./chordSheetUtils');
+    const abc = [
+      'X:1',
+      'T:Markers',
+      'M:4/4',
+      'L:1/8',
+      'K:C',
+      '"[Verse 1]" z8 | "C" z8 | "G" z8 |',
+    ].join('\n');
+    const editorChart = abcjsParser.renderChords(abc, true);
+    const displayChart = abcjsParser.renderChords(abc, false);
+    expect(editorChart).toContain('# Verse');
+    expect(extractChordSequence(displayChart)).toEqual(['C', 'G']);
+    expect(extractChordSequence(editorChart)).toEqual(['C', 'G']);
+  });
 });

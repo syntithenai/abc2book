@@ -223,6 +223,22 @@ describe('nowPlayingQueue', function() {
     expect(loadActiveQueue()).toBeNull()
   })
 
+  test('appendMediaCandidateToQueue stores Internet Archive media as mediaLink', function() {
+    const candidate = {
+      source: 'internet-archive',
+      title: 'Archive Song',
+      artist: 'Old Timer',
+      link: 'https://archive.org/details/foo',
+    }
+    const q = appendMediaCandidateToQueue(null, candidate)
+    expect(isQueueActive(q)).toBe(true)
+    expect(q.items).toHaveLength(1)
+    expect(isExternalQueueItem(q.items[0])).toBe(true)
+    expect(q.items[0].externalMedia.mediaLink).toBe('https://archive.org/details/foo')
+    expect(q.items[0].externalMedia.collectionLink).toBeUndefined()
+    expect(getQueueItemLabel(q.items[0], {})).toBe('Archive Song — Old Timer')
+  })
+
   test('appendMediaCandidateToQueue stores standalone media', function() {
     const candidate = {
       source: 'device-file',

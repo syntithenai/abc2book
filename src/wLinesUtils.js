@@ -112,6 +112,11 @@ export function hasStoredNoteAlignedLyrics(tune) {
   });
 }
 
+/** True when w: lines are explicitly stored for notation (including cleared-to-empty). */
+export function hasExplicitNoteAlignedStorage(tune) {
+  return getNoteAlignedLyricLines(tune).length > 0;
+}
+
 /** @deprecated Prefer getPlainLyricLines — kept as the default lyrics accessor. */
 export function getLyricLines(tune) {
   return getPlainLyricLines(tune);

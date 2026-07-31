@@ -115,5 +115,7 @@ export function shouldSkipHostMidiRouteApply(mediaController) {
   if (mediaController.notationMidiOwner) return true
   if (mediaController.requestedPlayState === 'playMedia') return true
   if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute()) return true
+  if (typeof mediaController.isAndroidNativePlaybackStarting === 'function'
+      && mediaController.isAndroidNativePlaybackStarting()) return true
   return false
 }

@@ -89,25 +89,46 @@ describe('youtubeExtensionClient', function () {
     await expect(isYoutubeExtensionConnected()).resolves.toBe(true)
   })
 
-  test('pingYoutubeExtension uses DOM marker when present', async function () {
+  test('pingYoutubeExtension requires live pong when DOM marker is present', async function () {
     document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.1')
     expect(__readDomMarkerForTests()).toEqual({
       ok: true,
       version: '0.1.1',
       via: 'dom',
     })
-    const pending = pingYoutubeExtension({ force: true, timeoutMs: 50 })
-    // no pong — should still succeed via DOM after short timeout
+    const pending = pingYoutubeExtension({ force: true, timeoutMs: 500 })
+    const sent = postMessageSpy.mock.calls[0][0]
+    emitFromExtension({
+      type: 'tunebook.pong',
+      requestId: sent.requestId,
+      ok: true,
+      version: '0.1.1',
+    })
     const result = await pending
     expect(result.ok).toBe(true)
     expect(result.version).toBe('0.1.1')
   })
 
-  test('isYoutubeExtensionConnectedSync uses DOM marker and cached ping', async function () {
+  test('pingYoutubeExtension ignores stale DOM marker when pong fails', async function () {
+    document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.1')
+    const pending = pingYoutubeExtension({ force: true, timeoutMs: 500 })
+    const sent = postMessageSpy.mock.calls[0][0]
+    emitFromExtension({
+      type: 'tunebook.pong',
+      requestId: sent.requestId,
+      ok: false,
+      error: 'Extension service worker unavailable',
+    })
+    const result = await pending
+    expect(result.ok).toBe(false)
+    expect(String(result.error || '')).toMatch(/unavailable/i)
+  })
+
+  test('isYoutubeExtensionConnectedSync uses cached successful ping only', async function () {
     expect(isYoutubeExtensionConnectedSync()).toBe(false)
 
     document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.2')
-    expect(isYoutubeExtensionConnectedSync()).toBe(true)
+    expect(isYoutubeExtensionConnectedSync()).toBe(false)
     document.documentElement.removeAttribute('data-tunebook-yt-helper')
     expect(isYoutubeExtensionConnectedSync()).toBe(false)
 

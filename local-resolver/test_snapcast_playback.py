@@ -26,6 +26,27 @@ class SnapcastPlaybackManagerTests(unittest.TestCase):
         self.assertTrue(manager.delete_session(session.session_id))
         self.assertIsNone(manager.get_session(session.session_id))
 
+    def test_create_replaces_existing_session_at_capacity(self):
+        manager = SnapcastPlaybackManager()
+        with patch.object(manager, 'ensure_started'), patch.object(manager, '_start_ffmpeg'):
+            first = manager.create_session(
+                source='https://example.com/a.mp3',
+                input_path='/tmp/fake-a.mp3',
+                duration=120.0,
+                settings=TranscodeSettings(),
+                input_is_temp=False,
+            )
+            second = manager.create_session(
+                source='https://example.com/b.mp3',
+                input_path='/tmp/fake-b.mp3',
+                duration=90.0,
+                settings=TranscodeSettings(),
+                input_is_temp=False,
+            )
+        self.assertIsNone(manager.get_session(first.session_id))
+        self.assertIsNotNone(manager.get_session(second.session_id))
+        self.assertEqual(len(manager.list_sessions()), 1)
+
     def test_plugin_state_idle_without_session(self):
         manager = SnapcastPlaybackManager()
         state = manager.plugin_state()

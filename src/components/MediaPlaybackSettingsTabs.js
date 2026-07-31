@@ -12,6 +12,7 @@ import { isQueueActive } from '../nowPlayingQueue'
 import { getActiveLinkIndex, getFirstPlayableMediaLinkIndex } from '../mediaPlaybackUtils'
 import { linkedMediaPitchPathAvailable } from '../linkedMediaPitchPath'
 import { isChromiumDesktopBrowser } from '../platformUtils'
+import './MediaPlayerOptionsModal.css'
 
 export default function MediaPlaybackSettingsTabs({
   tune,
@@ -29,6 +30,7 @@ export default function MediaPlaybackSettingsTabs({
     && Array.isArray(nowPlayingQueue.items)
     && nowPlayingQueue.items.length > 0
   const [settingsTab, setSettingsTab] = useState(showPlaylistTab ? 'playlist' : 'playback')
+  const [midiSubTab, setMidiSubTab] = useState('metronome')
   const prevShowPlaylistTab = useRef(showPlaylistTab)
   const hasMusic = !!(tune && tunebook.hasNotesOrChords(tune))
 
@@ -56,7 +58,9 @@ export default function MediaPlaybackSettingsTabs({
       tune.links[activeLinkIndex]
     )
     : null
-  const needsLinkedMediaPitchPath = activeLinkSrcType === 'youtube' || activeLinkSrcType === 'audio'
+  const needsLinkedMediaPitchPath = activeLinkSrcType === 'youtube'
+    || activeLinkSrcType === 'audio'
+    || activeLinkSrcType === 'recording'
 
   const [linkedMediaPitchUnlocked, setLinkedMediaPitchUnlocked] = useState(false)
   useEffect(function() {
@@ -241,21 +245,28 @@ export default function MediaPlaybackSettingsTabs({
           </Tab>
         ) : null}
         {tune && hasMusic ? (
-          <Tab eventKey="midi" title="Metronome">
-            <MidiPlaybackMetronomePanel
-              tune={tune}
-              tunebook={tunebook}
-              mediaController={mediaController}
-            />
-          </Tab>
-        ) : null}
-        {tune && hasMusic ? (
-          <Tab eventKey="fill" title="Fill">
-            <MidiPlaybackFillPanel
-              tune={tune}
-              tunebook={tunebook}
-              mediaController={mediaController}
-            />
+          <Tab eventKey="midi" title="MIDI">
+            <Tabs
+              activeKey={midiSubTab}
+              onSelect={function(key) { if (key) setMidiSubTab(key) }}
+              id="media-controls-midi-subtabs"
+              className="media-playback-midi-subtabs mb-2"
+            >
+              <Tab eventKey="metronome" title="Metronome">
+                <MidiPlaybackMetronomePanel
+                  tune={tune}
+                  tunebook={tunebook}
+                  mediaController={mediaController}
+                />
+              </Tab>
+              <Tab eventKey="fill" title="Fill">
+                <MidiPlaybackFillPanel
+                  tune={tune}
+                  tunebook={tunebook}
+                  mediaController={mediaController}
+                />
+              </Tab>
+            </Tabs>
           </Tab>
         ) : null}
       </Tabs>

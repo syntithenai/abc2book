@@ -73,4 +73,15 @@ describe('chordKeyMergeOptions', function() {
     expect(out).toContain('|')
     expect(out).toContain('.')
   })
+
+  test('transposeChordGridText preserves inline signatures and section markers', function() {
+    const out = transposeChordGridText(
+      '# Bridge\n[M:3/4] G|C . G . . . . . |',
+      2,
+      'D'
+    )
+    expect(out).toContain('# Bridge')
+    expect(out).toContain('[M:3/4]')
+    expect(out).toContain('.')
+  })
 })

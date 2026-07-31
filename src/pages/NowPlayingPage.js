@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap'
 import {
   isQueueActive,
   getQueuePositionLabel,
+  getCurrentTuneId,
 } from '../nowPlayingQueue'
 import { resumePlaylistPlayback, toggleTunePlayback } from '../tunePlaybackActions'
 import {
@@ -14,7 +15,7 @@ import {
 import MediaSeekSlider from '../components/MediaSeekSlider'
 import PlaybackVolumeSlider from '../components/PlaybackVolumeSlider'
 import TuneArtwork from '../components/TuneArtwork'
-import { getTuneArtworkUrl } from '../nowPlayingArtwork'
+import { hasTuneArtwork } from '../nowPlayingArtwork'
 import MediaPlaybackSettingsTabs from '../components/MediaPlaybackSettingsTabs'
 import MediaSourcePlaybackButtons from '../components/MediaSourcePlaybackButtons'
 import RemoteOutputButton from '../components/RemoteOutputButton'
@@ -42,21 +43,30 @@ export default function NowPlayingPage(props) {
     ? mediaController.tune.id
     : null
   const transportControlsEngine = !!(engineTuneId && activeTuneId && engineTuneId === activeTuneId)
-  const showPlaylistControls = queueActive && !showViewedFocus
+  const showQueueNavigation = queueActive
   const playingTune = activeTuneId && props.tunes ? props.tunes[activeTuneId] : (mediaController && mediaController.tune)
   const tuneName = playingTune && playingTune.name ? playingTune.name : 'Now playing'
   const composer = playingTune && playingTune.composer ? playingTune.composer : ''
-  const positionLabel = showPlaylistControls ? getQueuePositionLabel(nowPlayingQueue) : null
+  const positionLabel = showQueueNavigation ? getQueuePositionLabel(nowPlayingQueue) : null
   const mediaIsPlaying = !!(mediaController && mediaController.isPlaying)
   const isLoading = !!(mediaController && mediaController.isLoading)
-  const artworkUrl = playingTune ? getTuneArtworkUrl(playingTune, props.tunebook) : null
-  const [showArtwork, setShowArtwork] = useState(!!artworkUrl)
+  const isEngaged = isQueuePlaybackEngaged(mediaController)
+  const transportControlsDisplay = !showViewedFocus || transportControlsEngine
+  const showTransportLoading = isLoading && isEngaged && transportControlsDisplay
+  const showTransportPause = transportControlsDisplay && mediaIsPlaying
+  const activeLinkIndex = mediaController && mediaController.mediaLinkNumber != null
+    ? mediaController.mediaLinkNumber
+    : null
+  const showArtworkCandidate = playingTune
+    ? hasTuneArtwork(playingTune, props.tunebook, { linkIndex: activeLinkIndex })
+    : false
+  const [showArtwork, setShowArtwork] = useState(!!showArtworkCandidate)
 
   useDocumentTitle(tuneName + ' — Now Playing')
 
   useEffect(function() {
-    setShowArtwork(!!artworkUrl)
-  }, [artworkUrl, activeTuneId])
+    setShowArtwork(!!showArtworkCandidate)
+  }, [showArtworkCandidate, activeTuneId, activeLinkIndex])
 
   const handleClose = useCallback(function() {
     if (typeof props.onClose === 'function') {
@@ -71,10 +81,17 @@ export default function NowPlayingPage(props) {
   }, [navigate, props.onClose])
 
   useEffect(function() {
-    if (!playbackEngaged && !queueActive) return undefined
+    if (!playbackEngaged && !queueActive && !showViewedFocus) return undefined
     const id = setInterval(function() { setTick(function(n) { return n + 1 }) }, 400)
     return function() { clearInterval(id) }
-  }, [playbackEngaged, queueActive, mediaController])
+  }, [
+    playbackEngaged,
+    queueActive,
+    showViewedFocus,
+    mediaController,
+    mediaController && mediaController.isPlaying,
+    mediaController && mediaController.isLoading,
+  ])
 
   useEffect(function() {
     if (props.blockKeyboardShortcuts) return undefined
@@ -149,15 +166,17 @@ export default function NowPlayingPage(props) {
   }
 
   function stepPlaylist(direction) {
-    if (!showPlaylistControls || !activeTuneId) return
+    if (!showQueueNavigation) return
+    const navFromId = getCurrentTuneId(nowPlayingQueue) || activeTuneId
+    if (!navFromId) return
     if (direction >= 0) {
-      props.tunebook.navigateToNextSong(activeTuneId, null, navigate, returnPath, {
+      props.tunebook.navigateToNextSong(navFromId, null, navigate, returnPath, {
         mediaController: mediaController,
         useQueueNavigation: true,
         startPlayback: true,
       })
     } else {
-      props.tunebook.navigateToPreviousSong(activeTuneId, navigate, returnPath, {
+      props.tunebook.navigateToPreviousSong(navFromId, navigate, returnPath, {
         mediaController: mediaController,
         useQueueNavigation: true,
         startPlayback: true,
@@ -205,21 +224,41 @@ export default function NowPlayingPage(props) {
             <div className="now-playing-page-title-row">
               {mediaController ? (
                 <div className="now-playing-page-transport-row">
-                  {showPlaylistControls ? (
-                    <Button variant="outline-primary" className="now-playing-page-step-btn" aria-label="Previous" onClick={function() { stepPlaylist(-1) }}>
+                  {showQueueNavigation ? (
+                    <Button
+                      variant="primary"
+                      className="now-playing-page-step-btn"
+                      aria-label="Previous in playlist"
+                      title="Previous in playlist"
+                      data-testid="now-playing-previous-button"
+                      onClick={function() { stepPlaylist(-1) }}
+                    >
                       {props.tunebook.icons.previous}
                     </Button>
                   ) : null}
                   <Button
-                    variant={transportControlsEngine && mediaIsPlaying ? 'warning' : 'success'}
+                    variant={showTransportLoading ? 'secondary' : (showTransportPause ? 'warning' : 'success')}
                     className="now-playing-page-play-btn"
-                    aria-label={transportControlsEngine && mediaIsPlaying ? 'Pause' : 'Play'}
+                    aria-label={showTransportLoading ? 'Cancel loading' : (showTransportPause ? 'Pause' : 'Play')}
+                    title={showTransportLoading ? 'Cancel loading' : undefined}
+                    data-testid={showTransportLoading
+                      ? 'now-playing-waiting-button'
+                      : (showTransportPause ? 'now-playing-pause-button' : 'now-playing-play-button')}
                     onClick={handlePlayPause}
                   >
-                    {isLoading ? props.tunebook.icons.waiting : (transportControlsEngine && mediaIsPlaying ? props.tunebook.icons.pause : props.tunebook.icons.play)}
+                    {showTransportLoading
+                      ? props.tunebook.icons.waiting
+                      : (showTransportPause ? props.tunebook.icons.pause : props.tunebook.icons.play)}
                   </Button>
-                  {showPlaylistControls ? (
-                    <Button variant="outline-primary" className="now-playing-page-step-btn" aria-label="Next" onClick={function() { stepPlaylist(1) }}>
+                  {showQueueNavigation ? (
+                    <Button
+                      variant="primary"
+                      className="now-playing-page-step-btn"
+                      aria-label="Next in playlist"
+                      title="Next in playlist"
+                      data-testid="now-playing-next-button"
+                      onClick={function() { stepPlaylist(1) }}
+                    >
                       {props.tunebook.icons.next}
                     </Button>
                   ) : null}
@@ -253,6 +292,7 @@ export default function NowPlayingPage(props) {
               <TuneArtwork
                 tune={playingTune}
                 tunebook={props.tunebook}
+                linkIndex={activeLinkIndex}
                 className="now-playing-page-artwork"
                 onHidden={function() { setShowArtwork(false) }}
               />
@@ -264,24 +304,29 @@ export default function NowPlayingPage(props) {
           <>
             {transportControlsEngine ? (
               <div className="now-playing-page-seek-row">
+                <div className="now-playing-page-seek-row-controls">
+                  <Button
+                    variant="outline-secondary"
+                    size="sm"
+                    className="now-playing-page-rewind-btn"
+                    aria-label="Rewind to start"
+                    title="Rewind to start"
+                    data-testid="now-playing-rewind-button"
+                    onClick={handleRewindToStart}
+                  >
+                    {props.tunebook.icons.skipback}
+                  </Button>
+                  <RemoteOutputButton
+                    mediaController={mediaController}
+                    tunebook={props.tunebook}
+                    nowPlayingQueue={props.nowPlayingQueue}
+                    tunes={props.tunes}
+                    login={props.login}
+                    accessToken={props.token}
+                    largeIcon
+                  />
+                </div>
                 <MediaSeekSlider mediaController={mediaController} className="now-playing-page-seek" />
-                <RemoteOutputButton
-                  mediaController={mediaController}
-                  tunebook={props.tunebook}
-                  nowPlayingQueue={props.nowPlayingQueue}
-                  tunes={props.tunes}
-                />
-                <Button
-                  variant="outline-secondary"
-                  size="sm"
-                  className="now-playing-page-rewind-btn"
-                  aria-label="Rewind to start"
-                  title="Rewind to start"
-                  data-testid="now-playing-rewind-button"
-                  onClick={handleRewindToStart}
-                >
-                  {props.tunebook.icons.skipback}
-                </Button>
               </div>
             ) : null}
             <div className="now-playing-page-media-sources">

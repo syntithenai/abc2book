@@ -1,4 +1,5 @@
 import abcjs from 'abcjs';
+import { abcForAbcjs } from './melodyBarlineNormalize';
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
 import { formatTuneDisplayName } from './tuneDisplayName';
 
@@ -38,6 +39,7 @@ export function checkTuneAbcCorrectness(tune, options) {
   const abcText = typeof opts.abcText === 'string'
     ? opts.abcText
     : abcTools.json2abc(tune);
+  const abcForParse = abcForAbcjs(abcText);
   const noteLines = getNoteLines(tune);
 
   if (noteLines.length === 0) {
@@ -52,7 +54,7 @@ export function checkTuneAbcCorrectness(tune, options) {
   }
 
   try {
-    const parsed = abcjs.parseOnly(abcText);
+    const parsed = abcjs.parseOnly(abcForParse);
     if (!parsed || parsed.length === 0) {
       issues.push(issue('parse_failure', 'ABC notation failed to parse', 'error', 'voices'));
     }
@@ -62,7 +64,7 @@ export function checkTuneAbcCorrectness(tune, options) {
 
   if (!opts.skipRenderAbc) {
     try {
-      const visual = abcjs.renderAbc(document.createElement('div'), abcText, { add_classes: true });
+      const visual = abcjs.renderAbc(document.createElement('div'), abcForParse, { add_classes: true });
       const warnings = visual && visual.warnings ? visual.warnings : [];
       warnings.forEach(function(warning) {
         const text = warning && warning.message ? warning.message : String(warning);

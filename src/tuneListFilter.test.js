@@ -76,6 +76,26 @@ describe('tuneListFilter', function() {
     expect(status.hasNotes).toBe(true)
   })
 
+  test('buildTuneStatusEntry handles nested link objects via hasLinks', function() {
+    const tunebook = {
+      hasLyrics: function() { return false },
+      hasLinks: function(tune) {
+        const first = tune && Array.isArray(tune.links) && tune.links.length > 0 ? tune.links[0] : null
+        if (!first) return false
+        const link = first.link
+        const uri = typeof link === 'string'
+          ? link
+          : (link && link.link != null ? String(link.link) : '')
+        return uri.trim().length > 0
+      },
+    }
+    const tune = makeTune('a', 'A', {
+      links: [{ link: { link: 'abcbook-recording:rec1', recordingId: 'rec1' }, title: 'Rec' }],
+    })
+    const status = buildTuneStatusEntry(tune, tunebook)
+    expect(status.hasLinks).toBe(true)
+  })
+
   test('pruneSelectionForStatus clears selections outside status map', function() {
     const result = pruneSelectionForStatus({ a: true, b: true }, { a: { hasNotes: true } })
     expect(result.selected.a).toBe(true)

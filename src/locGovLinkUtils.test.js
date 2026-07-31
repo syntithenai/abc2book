@@ -8,6 +8,6 @@ describe('locGovLinkUtils', function() {
 
   test('isLocGovLinkUri rejects non-loc URLs', function() {
     expect(isLocGovLinkUri('https://archive.org/details/foo')).toBe(false);
-    expect(isLocGovLinkUri('http://www.loc.gov/item/foo')).toBe(false);
+    expect(isLocGovLinkUri('http://www.loc.gov/item/foo')).toBe(true);
   });
 });

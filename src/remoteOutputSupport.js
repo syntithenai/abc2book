@@ -4,6 +4,11 @@ import { playbackNeedsExternalProcessing, pitchShiftIsActive, getMediaPlaybackSe
 import { canCastNativeAudio } from './mediaCastSupport';
 import { requiresResolverProxiedPlayback } from './mediaProxyClient';
 import { isCastWebSdkSupported } from './platformUtils';
+import {
+  getChromecastOutputEnabled,
+  getSnapcastOutputEnabled,
+} from './preferredRemoteOutputSettings';
+import { castHttpOnHttpsPageWarning, resolveCastMediaBase } from './castSupport';
 
 export function isRemoteOutputActive(remoteOutputEngineRef) {
   const engine = remoteOutputEngineRef && remoteOutputEngineRef.current;
@@ -67,6 +72,7 @@ export function canRouteAbcMidiToRemote(mediaController) {
 }
 
 export function canRouteToSnapcastPlayback(mediaController) {
+  if (!getSnapcastOutputEnabled()) return false;
   if (!mediaController) return false;
   const features = resolverFeatures(mediaController);
   if (!features.snapcastPlayback) return false;
@@ -80,6 +86,7 @@ export function canRouteToSnapcastPlayback(mediaController) {
   if (srcType === 'midi' && canRouteMidiFileToRemote(mediaController)) return true;
   if (srcType === 'midi') return false;
   if (srcType === 'youtube') return canRouteYoutubeToRemote(mediaController);
+  if (srcType === 'recording') return false;
   if (mediaController.isExternalOutputActive && mediaController.isExternalOutputActive()) {
     return features.snapcastPlayback && needsCastTranscodeSession(mediaController);
   }
@@ -108,6 +115,7 @@ export function needsCastHlsSession(mediaController, payload) {
 }
 
 export function canRouteToCastSdk(mediaController) {
+  if (!getChromecastOutputEnabled()) return false;
   if (!mediaController) return false;
   const features = resolverFeatures(mediaController);
   if (!features.castPlayback && !features.proxy) return false;
@@ -133,6 +141,9 @@ export function canRouteToCastSdk(mediaController) {
 }
 
 export function getSnapcastDisabledReason(mediaController) {
+  if (!getSnapcastOutputEnabled()) {
+    return 'Snapcast output is disabled in audio settings';
+  }
   if (!mediaController || !mediaController.resolverFeatures) {
     return 'Resolver features unavailable';
   }
@@ -143,6 +154,9 @@ export function getSnapcastDisabledReason(mediaController) {
     return 'Snapcast playback requires ffmpeg on the resolver';
   }
   if (!canRouteToSnapcastPlayback(mediaController)) {
+    if (tuneSrcType(mediaController) === 'recording') {
+      return 'Snapcast cannot play attached recordings — use local speakers or share the recording to Drive first';
+    }
     if (canRouteYoutubeToRemote(mediaController) === false && tuneSrcType(mediaController) === 'youtube') {
       return 'YouTube routing requires resolver youtubeAudio';
     }
@@ -159,6 +173,11 @@ export function getCastSdkDisabledReason(mediaController) {
   if (!isCastWebSdkSupported()) {
     return 'Chromecast picker requires desktop Chrome. On Android use Snapcast (Settings → Audio) or pair speakers in system Bluetooth settings.';
   }
+  const castBase = resolveCastMediaBase({
+    healthStatus: mediaController.mediaResolverStatus,
+  });
+  const httpWarning = castHttpOnHttpsPageWarning(castBase);
+  if (httpWarning) return httpWarning;
   const features = resolverFeatures(mediaController);
   const srcType = tuneSrcType(mediaController);
   if (!canRouteToCastSdk(mediaController)) {

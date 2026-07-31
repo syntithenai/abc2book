@@ -2,6 +2,7 @@ import { buildRemoteOutputQueue } from './remoteOutputQueue';
 import { buildAbcMidiSessionFields, isAbcMidiPlaybackRoute } from './remotePlaybackAbcMidi';
 import { needsCastTranscodeSession } from './remoteOutputSupport';
 import { getMediaPlaybackSettings } from './pitchTempoUtils';
+import { normalizeMediaProxyTargetUrl } from './mediaProxyClient';
 
 export function buildRemotePlaybackSessionPayload(mediaController, tunebook, options) {
   const opts = options || {};
@@ -32,7 +33,7 @@ export function buildRemotePlaybackSessionPayload(mediaController, tunebook, opt
   }
 
   const linkIndex = mediaController.mediaLinkNumber;
-  const src = mediaController.getSrc(tune, linkIndex);
+  const src = normalizeMediaProxyTargetUrl(mediaController.getSrc(tune, linkIndex));
   const activeLink = tune.links && tune.links[linkIndex] ? tune.links[linkIndex] : null;
   const srcType = mediaController.getSrcType(src, activeLink);
   return {

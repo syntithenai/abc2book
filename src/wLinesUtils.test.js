@@ -5,6 +5,8 @@ import {
   getInterleavedLyricLines,
   getPlainLyricLines,
   getNoteAlignedLyricLines,
+  hasExplicitNoteAlignedStorage,
+  hasStoredNoteAlignedLyrics,
   wLinesEditorText,
   setPlainLyricLines,
   setNoteAlignedLyricLines,
@@ -99,6 +101,18 @@ describe('wLinesUtils lyric export helpers', function() {
     setNoteAlignedLyricLines(tune, ['A- maz- ing grace', 'how sweet * *']);
     expect(getNoteAlignedLyricLines(tune)).toEqual(['A- maz- ing grace', 'how sweet * *']);
     expect(getPlainLyricLines(tune)).toEqual(['Amazing grace how sweet']);
+  });
+
+  test('cleared note-aligned wLines count as explicit empty storage', function() {
+    const tune = {
+      voices: { 1: { meta: '', notes: ['C D E F |', 'G A B c |'] } },
+      words: ['Amazing grace how sweet'],
+      wLines: [],
+    };
+    setNoteAlignedLyricLines(tune, ['', '']);
+    expect(hasExplicitNoteAlignedStorage(tune)).toBe(true);
+    expect(hasStoredNoteAlignedLyrics(tune)).toBe(false);
+    expect(getNoteAlignedLyricLines(tune)).toEqual(['', '']);
   });
 
   test('stripNoteSpacingFromLine joins syllables and drops markers', function() {

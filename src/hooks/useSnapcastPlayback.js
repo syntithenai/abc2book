@@ -9,6 +9,7 @@ import {
   resolveSnapcastAccessToken,
   seekSnapcastSession,
 } from '../snapcastPlaybackClient';
+import { enrichPayloadWithYoutubeAudioPrefetch } from '../youtubeRemoteAudioPrefetch';
 
 const POLL_MS = 1000;
 const POLL_BACKOFF_MAX_MS = 10000;
@@ -131,15 +132,45 @@ export default function useSnapcastPlayback({ mediaController, snapcastControl }
       : (mediaController.duration || 0);
     setRouting(true);
     setRoutingError(null);
-    try {
+
+    async function beginSession() {
       const stream = client.findStreamByName(snapcastControl.streamName);
       if (stream) await client.setGroupStream(selectedGroupId, stream.id);
-      const session = await createSnapcastPlaybackSession(Object.assign({}, payload || {}, {
+      let sessionPayload = Object.assign({}, payload || {}, {
         groupId: selectedGroupId,
         startSeconds: startSeconds,
         duration: duration,
         accessToken: accessToken,
-      }));
+      });
+      if (payload && payload.sourceType === 'youtube') {
+        const youtubeGetId = mediaController.youtubeGetId
+          || (mediaController.tunebook && mediaController.tunebook.utils
+            ? mediaController.tunebook.utils.YouTubeGetID
+            : null);
+        sessionPayload = await enrichPayloadWithYoutubeAudioPrefetch(sessionPayload, youtubeGetId);
+      }
+      return createSnapcastPlaybackSession(sessionPayload);
+    }
+
+    try {
+      let session;
+      try {
+        session = await beginSession();
+      } catch (err) {
+        const message = String(err && err.message ? err.message : err);
+        if (message.indexOf('Maximum concurrent Snapcast sessions') >= 0) {
+          const remote = mediaController.remoteOutputEngineRef
+            && mediaController.remoteOutputEngineRef.current;
+          const staleId = sessionId
+            || (remote && remote.mode === 'snapcast' ? remote.sessionId : null);
+          if (staleId) {
+            try { await deleteSnapcastSession(staleId); } catch (e) { /* ignore */ }
+          }
+          session = await beginSession();
+        } else {
+          throw err;
+        }
+      }
       const activeSessionId = session.sessionId;
       setSessionId(activeSessionId);
       if (mediaController.muteLocalOutputsForRemote) {
@@ -167,15 +198,24 @@ export default function useSnapcastPlayback({ mediaController, snapcastControl }
       toast.error(message, { autoClose: 8000 });
       return false;
     }
-  }, [mediaController, snapcastControl, startStatusPoll, updateRemoteEngine]);
+  }, [mediaController, snapcastControl, sessionId, startStatusPoll, updateRemoteEngine]);
 
   const startRoutingWithConnect = useCallback(async function(options) {
     const opts = options || {};
     if (routing && sessionId) {
-      const replace = typeof window !== 'undefined'
-        && window.confirm('Replace active Snapcast playback?');
-      if (!replace) return false;
+      if (!opts.skipReplaceConfirm) {
+        const replace = typeof window !== 'undefined'
+          && window.confirm('Replace active Snapcast playback?');
+        if (!replace) return false;
+      }
       await stopRouting();
+    } else if (opts.skipReplaceConfirm) {
+      const remote = mediaController && mediaController.remoteOutputEngineRef
+        && mediaController.remoteOutputEngineRef.current;
+      const staleId = remote && remote.mode === 'snapcast' ? remote.sessionId : null;
+      if (staleId) {
+        try { await deleteSnapcastSession(staleId); } catch (e) { /* ignore */ }
+      }
     }
     if (!snapcastControl.connected) {
       const ok = await snapcastControl.connect();
@@ -193,7 +233,7 @@ export default function useSnapcastPlayback({ mediaController, snapcastControl }
       return false;
     }
     return startRouting(Object.assign({}, opts, { groupId: groupId }));
-  }, [routing, sessionId, snapcastControl, startRouting, stopRouting]);
+  }, [routing, sessionId, snapcastControl, mediaController, startRouting, stopRouting]);
 
   const seekRemote = useCallback(async function(seconds) {
     if (!sessionId) return;

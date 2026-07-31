@@ -14,12 +14,10 @@ import { hasLyricEmbeddedChords } from '../chordSheetUtils';
 import { getLyricLinesForDisplay } from '../wLinesUtils';
 import {
   buildAbcWithNoteSpacing,
-  stripEmbeddedChordsFromAbc,
-  stripLyricLinesFromAbc,
 } from '../noteSpacingUtils';
+import { prepareGigStaffDisplayAbc } from '../notation/notationDisplayAbc';
 import { filterTuneVoices } from '../abcVoiceFilter';
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings';
-import { stripNotationDisplayMetadata } from '../notation/notationDisplayAbc';
 import {
   buildGigNotationRenderOptions,
   findStaffWidthForHorizontalFit,
@@ -71,15 +69,6 @@ import {
   resolveBackgroundSectionFontSize,
   shouldBackgroundStartOnNewPrintPage,
 } from '../printBackgroundInfoLayout';
-
-function stripPrintNotationHeaders(abcText) {
-  if (!abcText) return '';
-  return stripNotationDisplayMetadata(abcText).split('\n').filter(function(line) {
-    const trimmed = line.trim();
-    if (trimmed.startsWith('T:')) return false;
-    return true;
-  }).join('\n');
-}
 
 function PrintLyricsColumns(props) {
   const columnCount = props.columnCount === 3 ? 3 : 2;
@@ -276,11 +265,7 @@ export default function TunePrintSheet(props) {
       const visibleTune = filterTuneVoices(tune, visibleVoiceKeys);
       const displayTune = Object.assign({}, visibleTune, { transpose: printDisplayTranspose });
       const displayAbc = buildAbcWithNoteSpacing(displayTune, tunebook.abcTools, { includeLyrics: false });
-      let staffAbc = stripPrintNotationHeaders(displayAbc);
-      staffAbc = stripLyricLinesFromAbc(staffAbc);
-      if (!showChordsAnnotate) {
-        staffAbc = stripEmbeddedChordsFromAbc(staffAbc, tunebook.abcTools);
-      }
+      const staffAbc = prepareGigStaffDisplayAbc(displayAbc, tunebook, showChordsAnnotate);
       const renderOptions = buildGigNotationRenderOptions(printDisplayTranspose);
 
       function renderAtStaffWidth(staffWidth) {

@@ -711,7 +711,7 @@
 }
 .notation-abc-textarea {
   flex: 0 0 auto;
-  resize: vertical;
+  resize: both;
   font-size: 1em;
   line-height: 1.4;
   width: 100%;
@@ -747,7 +747,7 @@
   .notation-abc-textarea {
     height: calc(1.4em * 8 + 1rem);
     min-height: calc(1.4em * 8 + 1rem);
-    resize: vertical;
+    resize: both;
   }
   .notation-abc-preview {
     width: 100%;

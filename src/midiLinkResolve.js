@@ -8,6 +8,7 @@ import {
   fetchViaMediaProxy,
   isMediaProxyConfigured,
   normalizeAccessToken,
+  normalizeMediaProxyTargetUrl,
 } from './mediaProxyClient'
 import {
   getExternalMediaCacheKey,
@@ -18,7 +19,7 @@ import { probeMidiDuration } from './midiFileUtils'
 
 export async function fetchHttpMidiArrayBuffer(url, options) {
   const opts = options || {}
-  const trimmed = String(url || '').trim()
+  const trimmed = normalizeMediaProxyTargetUrl(String(url || '').trim())
   if (!isHttpMidiUrl(trimmed)) {
     throw new Error('Not a MIDI URL')
   }

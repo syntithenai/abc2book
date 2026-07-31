@@ -1,4 +1,5 @@
 import abcjs from 'abcjs';
+import { normalizeMelodyBarlines } from '../melodyBarlineNormalize';
 import {
   parseNoteLengthDecimal,
   beatsPerBarFromMeter,
@@ -318,7 +319,7 @@ export function parseVoiceEvents(voiceBody, tuneMeta) {
   const noteLength = tuneMeta && tuneMeta.noteLength ? tuneMeta.noteLength : '';
   const key = tuneMeta && tuneMeta.key ? tuneMeta.key : 'C';
   const unit = parseNoteLengthDecimal(noteLength, meter);
-  const body = String(voiceBody || '').trim();
+  const body = normalizeMelodyBarlines(String(voiceBody || '').trim());
   if (!body) return [];
   const abc = 'X:1\nT:t\nM:' + meter + '\nL:' + (noteLength || '1/8') + '\nK:' + key + '\n' + body + '\n';
   let parsed;

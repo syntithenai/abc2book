@@ -1,6 +1,8 @@
 import { checkTuneLyricsAlignment } from './tuneLyricsAlignmentCheck';
+import { splitMelodyIntoBlocks } from './lyricBarAlignmentUtils';
 import { buildNotationCheckTune } from './notationCheckSnapshot';
 import { runNotationChecks } from './useNotationCheck';
+import { ANACRUSIS_THREE_STRAINS } from './testFixtures/anacrusisDoubleBarlineFixtures';
 
 describe('tuneLyricsAlignmentCheck', function() {
   test('detects wline count mismatch', function() {
@@ -34,6 +36,23 @@ describe('tuneLyricsAlignmentCheck', function() {
     expect(result.issues.some(function(item) {
       return item.code === 'stale_wlines' || item.code === 'lyric_note_misalignment';
     })).toBe(true);
+  });
+
+  test('three pickup strains align with three lyric sections', function() {
+    const tune = {
+      id: 'anacrusis-strains',
+      name: 'Pickup Strains',
+      meter: '4/4',
+      key: 'D',
+      noteLength: '1/8',
+      voices: { '1': { notes: ANACRUSIS_THREE_STRAINS.split('\n') } },
+      words: ['Part one line', '', 'Part two line', '', 'Part three line'],
+    };
+    const melodyBlocks = splitMelodyIntoBlocks(tune.voices['1'].notes).length;
+    expect(melodyBlocks).toBe(3);
+    const result = checkTuneLyricsAlignment(tune);
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('strain_lyric_count_mismatch');
   });
 });
 

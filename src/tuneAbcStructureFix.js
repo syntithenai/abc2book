@@ -11,6 +11,7 @@ import {
   extractBarsFromMelodyText,
   flattenMelodyText,
 } from './lyricBarAlignmentUtils';
+import { melodyHasAnacrusisDoubleBarlines, normalizeMelodyBarlines, abcForAbcjs } from './melodyBarlineNormalize';
 import { fixTuneAbcHeaders, normalizeTuneAbc } from './tuneAbcCorrectnessCheck';
 import { getLyricLines } from './wLinesUtils';
 import { applyNoteSpacingToTune } from './noteSpacingUtils';
@@ -19,6 +20,11 @@ import { parseVoiceEvents, beatsToDuration } from './notation/voiceEventModel';
 import { serializeVoiceEvents } from './notation/abcVoiceSerializer';
 import { parseNoteLengthDecimal, beatsPerBarFromMeter } from './notation/beatGrid';
 import { quantizeVoiceEvents } from './notation/quantizeVoiceEvents';
+import {
+  canConvertSectionPickupsToVoltas,
+  convertSectionPickupsToVoltasFlat,
+} from './sectionPickupVolta';
+import { analyzeVoiceBarDurations } from './tuneAbcStructureCheck';
 
 function getNoteLines(tune) {
   if (!tune || !tune.voices) return [];
@@ -581,6 +587,63 @@ export function convertScaffoldToRestsInTune(tune) {
   return next;
 }
 
+export function collapseAnacrusisDoubleBarlinesInTune(tune) {
+  if (!tune || !tune.voices) return null;
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  const voice = tune.voices[voiceKey];
+  const noteLines = voice && Array.isArray(voice.notes) ? voice.notes : [];
+  if (noteLines.length === 0) return null;
+  if (!melodyHasAnacrusisDoubleBarlines(noteLines)) return null;
+
+  const normalized = noteLines.map(function(line) {
+    return normalizeMelodyBarlines(String(line || ''));
+  });
+  const next = Object.assign({}, tune);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, voice, { notes: normalized });
+  return next;
+}
+
+export function canCollapseAnacrusisDoubleBarlines(tune) {
+  return melodyHasAnacrusisDoubleBarlines(getNoteLines(tune));
+}
+
+export function convertSectionPickupsToVoltasInTune(tune, abcTools) {
+  if (!tune || !abcTools) return null;
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+
+  const abcText = abcForAbcjs(abcTools.json2abc(tune));
+  let parsedTune = null;
+  try {
+    parsedTune = abcjs.parseOnly(abcText)[0];
+  } catch (e) {
+    return null;
+  }
+  if (!parsedTune) return null;
+
+  const durationIssues = analyzeVoiceBarDurations(parsedTune);
+  if (!canConvertSectionPickupsToVoltas(noteLines, durationIssues, parsedTune)) return null;
+
+  const flat = flattenMelodyText(noteLines);
+  const nextFlat = convertSectionPickupsToVoltasFlat(noteLines);
+  if (!nextFlat || nextFlat === flat) return null;
+
+  try {
+    const probeAbc = abcTools.emptyABC('Probe') + '\n' + nextFlat;
+    abcjs.parseOnly(abcForAbcjs(probeAbc));
+  } catch (e) {
+    return null;
+  }
+
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  const nextNotes = nextFlat.indexOf('\n') >= 0 ? nextFlat.split('\n') : [nextFlat];
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: nextNotes });
+  return next;
+}
+
 export function declarePickupLengthInTune(tune, abcTools, parseAndRender) {
   if (!tune || !abcTools) return null;
   if (typeof parseAndRender === 'function') {
@@ -795,6 +858,8 @@ export function previewStructureFix(action, tune, abcTools, parseAndRender) {
     next = wrapEndingInRepeatInTune(tune);
   } else if (action === 'removeEmptyVoice') {
     next = removeEmptyVoiceInTune(tune);
+  } else if (action === 'collapseAnacrusisDoubleBarlines') {
+    next = collapseAnacrusisDoubleBarlinesInTune(tune);
   } else if (action === 'declarePickupLength') {
     next = declarePickupLengthInTune(tune, abcTools, parseAndRender);
   } else if (action === 'convertScaffoldToRests') {
@@ -809,6 +874,8 @@ export function previewStructureFix(action, tune, abcTools, parseAndRender) {
     next = removeOrphanRepeatEndInTune(tune);
   } else if (action === 'fillSparseBars') {
     next = fillSparseBarsInTune(tune);
+  } else if (action === 'convertSectionPickupsToVoltas') {
+    next = convertSectionPickupsToVoltasInTune(tune, abcTools);
   }
 
   if (!next) return null;
@@ -859,6 +926,10 @@ export function structureFixAvailable(action, tune, abcTools, issues) {
     return codes.indexOf('empty_bar') >= 0
       || codes.indexOf('repeat_style_mixed') >= 0
       || canCollapseEmptyRepeatBars(tune);
+  }
+  if (action === 'collapseAnacrusisDoubleBarlines') {
+    return codes.indexOf('anacrusis_double_barline') >= 0
+      || canCollapseAnacrusisDoubleBarlines(tune);
   }
   if (action === 'normalizeAbc') {
     return codes.indexOf('round_trip_drift') >= 0;
@@ -916,6 +987,19 @@ export function structureFixAvailable(action, tune, abcTools, issues) {
   if (action === 'fillSparseBars') {
     return codes.indexOf('sparse_melody') >= 0;
   }
+  if (action === 'convertSectionPickupsToVoltas') {
+    if (codes.indexOf('section_pickup_should_be_ending') < 0) return false;
+    const noteLines = getNoteLines(tune);
+    if (!abcTools || noteLines.length === 0) return false;
+    let parsedTune = null;
+    try {
+      parsedTune = abcjs.parseOnly(abcForAbcjs(abcTools.json2abc(tune)))[0];
+    } catch (e) {
+      return false;
+    }
+    if (!parsedTune) return false;
+    return canConvertSectionPickupsToVoltas(noteLines, analyzeVoiceBarDurations(parsedTune), parsedTune);
+  }
   return false;
 }
 
@@ -936,10 +1020,12 @@ export const STRUCTURE_FIX_ACTIONS = [
   { id: 'removeEmptyBars', label: 'Remove empty bars', tier: 'a' },
   { id: 'padVoicesToMatch', label: 'Pad voices to match bar count', tier: 'a' },
   { id: 'removeEmptyVoice', label: 'Remove empty voice', tier: 'b', requiresPreview: true },
+  { id: 'collapseAnacrusisDoubleBarlines', label: 'Use single barline after pickup', tier: 'a' },
   { id: 'declarePickupLength', label: 'Fix pickup/anacrusis parsing', tier: 'b', requiresPreview: true },
   { id: 'convertScaffoldToRests', label: 'Convert chord scaffolds to rests', tier: 'a' },
   { id: 'quantizeOverfullBars', label: 'Quantize overfull bars', tier: 'b', requiresPreview: true },
   { id: 'balanceEndings', label: 'Balance first/second endings', tier: 'b', requiresPreview: true },
+  { id: 'convertSectionPickupsToVoltas', label: 'Use 1st/2nd endings for section pickups', tier: 'b', requiresPreview: true },
   { id: 'fillSparseBars', label: 'Fill sparse bars with rests', tier: 'b', requiresPreview: true },
   { id: 'rebuildWLines', label: 'Rebuild w: lyrics from melody', tier: 'a' },
   { id: 'relayoutNoteLines', label: 'Relayout notation lines', tier: 'b', requiresPreview: true },
