@@ -21,6 +21,7 @@ import NotationTuneMetaModal from './NotationTuneMetaModal';
 import NotationInlineSignatureModal from './NotationInlineSignatureModal';
 import useAbcjsParser from '../useAbcjsParser';
 import useNotationCheck from '../useNotationCheck';
+import { voiceBodiesFromTune } from '../notationCheckSnapshot';
 import NotationIssuesPanel from './NotationIssuesPanel';
 import NotationPasteModeModal from './NotationPasteModeModal';
 import { consumeFocusNotationChecks } from '../bulkCheckReturnContext';
@@ -160,6 +161,7 @@ import {
 import { useNoteAudition } from '../hooks/useNoteAudition';
 import NotationAnnotOverlay from './NotationAnnotOverlay';
 import NotationFingeringLabelsOverlay from './NotationFingeringLabelsOverlay';
+import { confirmLeaveChordRecord } from '../chordRecordNavigationGuard';
 import ChordsWizard from './ChordsWizard';
 import './NotationEditor.css';
 
@@ -2280,7 +2282,12 @@ export default function NotationEditor(props) {
 
   function handleNotationViewChange(nextView) {
     if (typeof props.onEditorViewChange === 'function') {
-      props.onEditorViewChange(notationViewToEditorViewMode(nextView));
+      const nextMode = notationViewToEditorViewMode(nextView);
+      const currentMode = notationViewToEditorViewMode(session.view);
+      if (nextMode !== currentMode && !confirmLeaveChordRecord()) {
+        return;
+      }
+      props.onEditorViewChange(nextMode);
       return;
     }
     dispatch({ type: 'SET_VIEW', view: nextView });
@@ -2710,9 +2717,32 @@ export default function NotationEditor(props) {
   const handleFixTuneSaved = useCallback(function(nextTune) {
     if (!props.tunebook || !nextTune) return;
     props.tunebook.saveTune(nextTune, false, { historyLabel: 'Notation fix', immediate: true });
+    const voiceNames = props.voiceNames || [];
+    const fixedBodies = voiceBodiesFromTune(nextTune, voiceNames);
+    const activeKey = props.voiceKey;
+    const activeNotes = fixedBodies[activeKey] || '';
+    clearTimeout(abcSaveDebounce.current);
+    clearTimeout(commitDebounce.current);
+    abcEditingRef.current = false;
+    skipExternalLoad.current = false;
+    setAbcDrafts(fixedBodies);
+    abcDraftRef.current = activeNotes;
+    setAbcDraft(activeNotes);
+    const voiceBody = voiceBodyForSession(activeNotes);
+    prevLoadedVoiceBodyRef.current = voiceBody;
+    dispatch({
+      type: 'LOAD_VOICE',
+      tuneMeta: {
+        meter: nextTune.meter || '4/4',
+        noteLength: nextTune.noteLength || '1/8',
+        key: nextTune.key || 'C',
+        tempo: nextTune.tempo || 120,
+      },
+      voiceBody: voiceBody,
+    });
+    notationCheck.refresh({ tune: nextTune, liveBodies: fixedBodies });
     if (props.forceRefresh) props.forceRefresh();
-    notationCheck.refresh();
-  }, [props.tunebook, props.forceRefresh, notationCheck]);
+  }, [props.tunebook, props.forceRefresh, props.voiceNames, props.voiceKey, notationCheck, dispatch]);
 
   const abcPreviewAbc = displayAbc;
 
@@ -3056,6 +3086,7 @@ export default function NotationEditor(props) {
   ]);
 
   const staffPanel = (
+    <div className="notation-staff-scroll" data-testid="notation-staff-scroll">
       <div
       ref={staffWrapRef}
       className={'notation-staff-wrap' + (session.mode === EDITOR_MODES.NOTE_INPUT ? ' notation-staff-wrap--note-input' : '')}
@@ -3146,6 +3177,7 @@ export default function NotationEditor(props) {
           onClear={clearAnnotEdit}
         />
       ) : null}
+      </div>
     </div>
   );
 
@@ -3258,12 +3290,6 @@ export default function NotationEditor(props) {
           {props.historyControls ? (
             <span className="notation-toolbar-history">{props.historyControls}</span>
           ) : null}
-          <NotationViewSelector
-            variant="buttonGroup"
-            tunebook={props.tunebook}
-            view={session.view}
-            onChange={handleNotationViewChange}
-          />
           {props.toolbarEnd ? (
             <div className="notation-toolbar-end">
               {props.toolbarEnd}
@@ -3291,7 +3317,6 @@ export default function NotationEditor(props) {
                 voiceNames={voiceNames}
                 voiceIndex={props.voiceIndex}
                 displayedVoiceIndices={displayedVoiceIndices}
-                historyControls={props.historyControls}
                 onVoiceSelect={handleVoiceSelect}
                 onDisplayedVoicesChange={handleDisplayedVoicesChange}
                 onVoiceNameChange={props.onVoiceMetaChange}
@@ -3306,7 +3331,8 @@ export default function NotationEditor(props) {
                 }}
                 onDeleteVoice={props.onDeleteVoice}
                 onReorderVoices={props.onReorderVoices}
-                onViewChange={handleNotationViewChange}
+                historyControls={props.historyControls}
+                onViewChange={props.suppressInlineViewSelector ? undefined : handleNotationViewChange}
                 clipboardEpoch={clipboardEpoch}
                 onClipboardAction={function(clipboardAction) {
                   if (clipboardAction === 'deleteToRest') {
@@ -3412,6 +3438,19 @@ export default function NotationEditor(props) {
             onToggleDot={function() {
               handleShortcutAction({ action: 'toggleDot' });
             }}
+            issuesPanel={(
+              <NotationIssuesPanel
+                inline
+                tune={notationCheck.checkTune || props.tune}
+                tunebook={props.tunebook}
+                issues={notationCheck.issues}
+                checkResults={notationCheck}
+                parseAndRender={parseAndRenderAbc}
+                onNavigateIssue={handleNavigateIssue}
+                onTuneSaved={handleFixTuneSaved}
+                initialOpenDialog={issuesAutoOpen}
+              />
+            )}
           />
           </div>
           {props.toolbarEnd ? (
@@ -3447,16 +3486,6 @@ export default function NotationEditor(props) {
               />
             </div>
           ) : null}
-          <NotationIssuesPanel
-            tune={notationCheck.checkTune || props.tune}
-            tunebook={props.tunebook}
-            issues={notationCheck.issues}
-            checkResults={notationCheck}
-            parseAndRender={parseAndRenderAbc}
-            onNavigateIssue={handleNavigateIssue}
-            onTuneSaved={handleFixTuneSaved}
-            initialOpenDialog={issuesAutoOpen}
-          />
         </div>
       ) : null}
 

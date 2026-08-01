@@ -46,7 +46,10 @@ export default function NotationViewSelector(props) {
   // ButtonGroup variant for toolbar (no Split option)
   if (props.variant === 'buttonGroup') {
     return (
-      <ButtonGroup className="notation-view-toggle-group" aria-label="Notation view">
+      <ButtonGroup
+        className={'notation-view-toggle-group' + (props.className ? ' ' + props.className : '')}
+        aria-label="Notation view"
+      >
         {TOOLBAR_VIEW_MODES.map(function(mode) {
           var active = current === mode.id;
           return (

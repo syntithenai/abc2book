@@ -14,6 +14,7 @@ import useToolbarFavorites from '../notation/useToolbarFavorites';
 import NotationDurationDropdown from './NotationDurationDropdown';
 import NotationDurationButtonGroup from './NotationDurationButtonGroup';
 import NotationToolbarFavoriteMenuItem from './NotationToolbarFavoriteMenuItem';
+import NotationSelectToolIcon from './NotationSelectToolIcon';
 
 const METHOD_ORDER = [
   NOTE_INPUT_METHODS.NOTE_NAME,
@@ -31,11 +32,6 @@ const NOTE_INPUT_COMPACT_LABELS = {
   insert: 'Ins',
 };
 
-const LONGEST_NOTE_INPUT_LABEL = METHOD_ORDER.reduce(function(longest, method) {
-  const label = NOTE_INPUT_METHOD_LABELS[method] || '';
-  return label.length > longest.length ? label : longest;
-}, 'Note name');
-
 export default function NotationDurationToolbar(props) {
   const {
     session,
@@ -45,6 +41,7 @@ export default function NotationDurationToolbar(props) {
     onInsertSystemBreak,
     onToggleDot,
     expandFlags,
+    issuesPanel,
   } = props;
 
   const expand = expandFlags || {};
@@ -78,6 +75,37 @@ export default function NotationDurationToolbar(props) {
     return favorites.indexOf(m) >= 0;
   });
 
+  const inNoteInput = session.mode === EDITOR_MODES.NOTE_INPUT;
+
+  const modeBadge = (
+    <span
+      className={
+        'notation-mode-badge notation-mode-badge-in-group'
+        + (inNoteInput ? ' notation-mode-badge-input' : ' notation-mode-badge-select')
+      }
+      title={inNoteInput ? 'Note input — ' + methodLabel : 'Selection mode'}
+      data-testid="notation-mode-badge-input"
+    >
+      {inNoteInput ? methodLabel : 'Select'}
+    </span>
+  );
+
+  const selectToolButton = !inNoteInput ? (
+    <Button
+      size="lg"
+      variant={marqueeToolActive ? 'primary' : 'outline-secondary'}
+      title="Selection tool — drag to marquee without Shift (desktop)"
+      aria-label="Selection tool"
+      className="notation-select-tool-btn"
+      data-testid="staff-selection-tool-marquee"
+      onClick={function() {
+        setStaffSelectionTool(
+          marqueeToolActive ? STAFF_SELECTION_TOOLS.NORMAL : STAFF_SELECTION_TOOLS.MARQUEE
+        );
+      }}
+    ><NotationSelectToolIcon /></Button>
+  ) : null;
+
   const methodMenu = (
     <Dropdown.Menu className="notation-note-input-menu">
       <Dropdown.Header>Editing modes</Dropdown.Header>
@@ -99,19 +127,21 @@ export default function NotationDurationToolbar(props) {
 
   const noteInputGroup = expandDurations ? (
     <ButtonGroup className="notation-note-input-method-group notation-note-input-method-group--expanded">
+      {selectToolButton}
       <Button
         size="lg"
-        variant={session.mode === EDITOR_MODES.NOTE_INPUT ? 'primary' : 'outline-secondary'}
+        variant={inNoteInput ? 'primary' : 'outline-secondary'}
         onClick={onToggleNoteInput}
         title="Note input (N)"
         data-testid="notation-note-input-btn"
       >✎</Button>
+      {modeBadge}
       {favoriteMethods.map(function(m) {
         return (
           <Button
             key={m}
             size="lg"
-            variant={session.mode === EDITOR_MODES.NOTE_INPUT && method === m ? 'primary' : 'outline-secondary'}
+            variant={inNoteInput && method === m ? 'primary' : 'outline-secondary'}
             title={NOTE_INPUT_METHOD_LABELS[m] || m}
             className="notation-note-input-fav-btn"
             onClick={function() { applyNoteInputMethod(m); }}
@@ -122,7 +152,7 @@ export default function NotationDurationToolbar(props) {
         <Dropdown.Toggle
           split
           size="lg"
-          variant={session.mode === EDITOR_MODES.NOTE_INPUT ? 'primary' : 'outline-secondary'}
+          variant={inNoteInput ? 'primary' : 'outline-secondary'}
           title="Note input method"
           aria-label="Note input method"
           data-testid="notation-note-input-method"
@@ -132,18 +162,20 @@ export default function NotationDurationToolbar(props) {
     </ButtonGroup>
   ) : (
     <ButtonGroup className="notation-note-input-method-group">
+      {selectToolButton}
       <Button
         size="lg"
-        variant={session.mode === EDITOR_MODES.NOTE_INPUT ? 'primary' : 'outline-secondary'}
+        variant={inNoteInput ? 'primary' : 'outline-secondary'}
         onClick={onToggleNoteInput}
         title="Note input (N)"
         data-testid="notation-note-input-btn"
       >✎</Button>
+      {modeBadge}
       <Dropdown as={ButtonGroup}>
         <Dropdown.Toggle
           split
           size="lg"
-          variant={session.mode === EDITOR_MODES.NOTE_INPUT ? 'primary' : 'outline-secondary'}
+          variant={inNoteInput ? 'primary' : 'outline-secondary'}
           title="Note input method"
           aria-label="Note input method"
           data-testid="notation-note-input-method"
@@ -153,69 +185,54 @@ export default function NotationDurationToolbar(props) {
     </ButtonGroup>
   );
 
+  const dotButton = (
+    <Button
+      size="lg"
+      variant={session.dotted ? 'primary' : 'outline-secondary'}
+      onClick={function() {
+        if (typeof onToggleDot === 'function') onToggleDot();
+        else dispatch({ type: 'TOGGLE_DOT' });
+      }}
+      title="Dot (.) — 1.5× note length"
+      data-testid="notation-dot"
+    >.</Button>
+  );
+
+  const durationControls = expandDurations ? (
+    <NotationDurationButtonGroup
+      session={session}
+      dispatch={dispatch}
+      onApplyDuration={onApplyDuration}
+    />
+  ) : (
+    <NotationDurationDropdown
+      session={session}
+      dispatch={dispatch}
+      onApplyDuration={onApplyDuration}
+    />
+  );
+
   return (
     <div className="notation-duration-toolbar">
       {noteInputGroup}
-      <span className="notation-mode-badge-input-slot" aria-hidden={session.mode !== EDITOR_MODES.NOTE_INPUT}>
-        {session.mode === EDITOR_MODES.NOTE_INPUT ? (
-          <span
-            className="notation-mode-badge notation-mode-badge-input"
-            title={'Note input — ' + methodLabel}
-            data-testid="notation-mode-badge-input"
-          >
-            {methodLabel}
-          </span>
-        ) : (
-          <span className="notation-mode-badge notation-mode-badge-input notation-mode-badge-input--reserved">
-            {LONGEST_NOTE_INPUT_LABEL}
-          </span>
-        )}
-      </span>
-      {expandDurations ? (
-        <NotationDurationButtonGroup
-          session={session}
-          dispatch={dispatch}
-          onApplyDuration={onApplyDuration}
-        />
-      ) : (
-        <NotationDurationDropdown
-          session={session}
-          dispatch={dispatch}
-          onApplyDuration={onApplyDuration}
-        />
-      )}
-      <Button
-        size="lg"
-        variant={session.dotted ? 'primary' : 'outline-secondary'}
-        onClick={function() {
-          if (typeof onToggleDot === 'function') onToggleDot();
-          else dispatch({ type: 'TOGGLE_DOT' });
-        }}
-        title="Dot (.)"
-        data-testid="notation-dot"
-      >.</Button>
-      {onInsertSystemBreak ? (
-        <Button
-          size="lg"
-          variant="outline-secondary"
-          className="notation-system-break-btn"
-          title="System break — start a new line of music (!)"
-          onClick={onInsertSystemBreak}
-          data-testid="notation-system-break-btn"
-        >↵</Button>
-      ) : null}
-      {session.mode !== EDITOR_MODES.NOTE_INPUT ? (
-        <Button
-          size="lg"
-          variant={marqueeToolActive ? 'primary' : 'outline-secondary'}
-          title="Selection tool — drag to marquee without Shift (desktop)"
-          data-testid="staff-selection-tool-marquee"
-          onClick={function() {
-            setStaffSelectionTool(
-              marqueeToolActive ? STAFF_SELECTION_TOOLS.NORMAL : STAFF_SELECTION_TOOLS.MARQUEE
-            );
-          }}
-        >Sel</Button>
+      <ButtonGroup className="notation-duration-with-dot">
+        {dotButton}
+        {durationControls}
+      </ButtonGroup>
+      {onInsertSystemBreak || issuesPanel ? (
+        <span className="notation-duration-toolbar-tail">
+          {onInsertSystemBreak ? (
+            <Button
+              size="lg"
+              variant="outline-secondary"
+              className="notation-system-break-btn"
+              title="System break — start a new line of music (!)"
+              onClick={onInsertSystemBreak}
+              data-testid="notation-system-break-btn"
+            >↵</Button>
+          ) : null}
+          {issuesPanel}
+        </span>
       ) : null}
     </div>
   );

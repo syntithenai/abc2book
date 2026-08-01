@@ -98,7 +98,8 @@ function elementDuration(elem) {
   return parseFloat(elem.duration) || 0
 }
 
-function walkVoiceTimingEvents(visualObj) {
+function walkVoiceTimingEvents(visualObj, options) {
+  const opts = options || {}
   const tempoBreaks = []
   const meterBreaks = []
   let beatLength = visualObj && typeof visualObj.getBeatLength === 'function'
@@ -125,7 +126,14 @@ function walkVoiceTimingEvents(visualObj) {
   }
 
   // Align map tempo with synth/count-in measure duration when getBpm drifts.
-  const qpmFromMs = qpmFromVisualMilliseconds(visualObj, startingMeter, beatLength)
+  const msOverride = parseFloat(opts.millisecondsPerMeasureOverride) || 0
+  const qpmFromMs = msOverride > 0
+    ? qpmFromVisualMilliseconds(
+      { millisecondsPerMeasure: function() { return msOverride } },
+      startingMeter,
+      beatLength
+    )
+    : qpmFromVisualMilliseconds(visualObj, startingMeter, beatLength)
   if (qpmFromMs > 0 && (
     !(startingQpm > 0) || Math.abs(startingQpm - qpmFromMs) > 0.5
   )) {
@@ -294,7 +302,7 @@ function sampleMeterAtAbcTime(map, abcTime) {
 export function buildPlaybackTimingMap(visualObj, options) {
   const opts = options || {}
   if (!visualObj) return null
-  const walked = walkVoiceTimingEvents(visualObj)
+  const walked = walkVoiceTimingEvents(visualObj, opts)
   return finalizeMapTimes(walked, opts.bufferDuration)
 }
 

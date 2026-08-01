@@ -43,8 +43,8 @@
 .notation-editing-controls,
 .notation-nonstaff-controls-main {
   position: sticky;
-  /* Match .App-header height so the toolbar sits just below the fixed nav */
-  top: var(--chrome-header-offset, 3.3em);
+  /* Sit below the fixed app header and sticky music-editor bar when present. */
+  top: var(--music-editor-chrome-offset, var(--chrome-header-offset, 3.3em));
   z-index: 30;
   touch-action: manipulation;
   zoom: var(--chrome-vv-zoom, 1);
@@ -79,6 +79,16 @@
 }
 .notation-toolbar-history .btn svg path:not([fill="none"]) {
   fill: currentColor;
+}
+.notation-toolbar-history .btn.btn-outline-secondary:not(:disabled) {
+  color: #212529;
+  border-color: #adb5bd;
+}
+.notation-toolbar-history .btn:disabled {
+  color: #adb5bd;
+  opacity: 1;
+  border-color: #dee2e6;
+  background-color: #f8f9fa;
 }
 .notation-editing-controls-main {
   flex: 1 1 auto;
@@ -316,12 +326,90 @@
     display: none;
   }
 }
+.notation-staff-scroll {
+  position: relative;
+}
+
 .notation-staff-wrap {
   position: relative;
   /* Keep staff drags (marquee / pitch) from scrolling the page on touch. */
   touch-action: none;
   user-select: none;
   -webkit-user-select: none;
+}
+
+/* Touch: staff surface blocks finger-scroll (drag selection); scroll via scrollbar. */
+@media (pointer: coarse) {
+  .notation-editor.notation-editor-staff-view {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100dvh - var(--notation-staff-scroll-chrome, 10rem));
+  }
+
+  .notation-editor-staff-view .notation-editing-controls {
+    flex: 0 0 auto;
+  }
+
+  .notation-editor-staff-view > .notation-staff-scroll {
+    flex: 1 1 auto;
+    min-height: 10rem;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable;
+    scrollbar-color: #adb5bd #f1f3f5;
+  }
+
+  .notation-editor-staff-view > .notation-staff-scroll::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .notation-editor-staff-view > .notation-staff-scroll::-webkit-scrollbar-track {
+    background: #f1f3f5;
+  }
+
+  .notation-editor-staff-view > .notation-staff-scroll::-webkit-scrollbar-thumb {
+    background: #adb5bd;
+    border-radius: 5px;
+    border: 2px solid #f1f3f5;
+    min-height: 40px;
+  }
+
+  .notation-split-view .notation-split-staff {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+    scrollbar-color: #adb5bd #f1f3f5;
+  }
+
+  .notation-split-view .notation-split-staff::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .notation-split-view .notation-split-staff::-webkit-scrollbar-track {
+    background: #f1f3f5;
+  }
+
+  .notation-split-view .notation-split-staff::-webkit-scrollbar-thumb {
+    background: #adb5bd;
+    border-radius: 5px;
+    border: 2px solid #f1f3f5;
+    min-height: 40px;
+  }
+
+  .notation-split-view .notation-staff-scroll {
+    overflow: visible;
+    max-height: none;
+    flex: 0 0 auto;
+  }
+
+  .music-panels-fit-height .notation-editor.notation-editor-staff-view {
+    max-height: none;
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+
+  .music-editor:not(.music-editor--notation-only) .notation-editor.notation-editor-staff-view {
+    max-height: calc(100dvh - var(--music-editor-chrome-offset, 10rem));
+  }
 }
 .notation-staff-wrap svg,
 .notation-staff-wrap .abcjs-container {
@@ -340,15 +428,129 @@
   background: #0d6efd;
   color: #fff;
 }
-.notation-mode-badge-input-slot {
+.notation-mode-badge-select {
+  background: #f8f9fa;
+  color: #495057;
+}
+.notation-mode-badge-in-group {
   display: inline-flex;
   align-items: center;
-  align-self: center;
-  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  margin: 0;
+  padding: 0 0.5rem;
+  border-radius: 0;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  border-left: 0;
+  border-right: 0;
+  min-height: var(--notation-toolbar-btn-height, 2.35rem);
+  font-size: 0.72rem;
+  line-height: 1.1;
+}
+.notation-note-input-method-group .btn-primary + .notation-mode-badge-in-group,
+.notation-note-input-method-group .btn-primary + .notation-mode-badge-in-group + .btn-primary {
+  border-color: #0b5ed7;
+}
+.notation-note-input-method-group > .btn-primary + .notation-mode-badge-input,
+.notation-note-input-method-group .btn-primary + .notation-mode-badge-in-group {
+  border-top-color: #0b5ed7;
+  border-bottom-color: #0b5ed7;
+}
+.notation-note-input-method-group > .btn:first-child {
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
 }
 .notation-mode-badge-input--reserved {
   visibility: hidden;
   pointer-events: none;
+}
+.notation-mode-badge-tuplet {
+  background: #e7f1ff;
+  color: #0d6efd;
+}
+.notation-tuplet-expanded > .notation-mode-badge-in-group:first-child,
+.notation-tuplet-dropdown > .notation-mode-badge-in-group:first-child {
+  border-left: 1px solid #dee2e6;
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+}
+.notation-duration-with-dot {
+  align-self: center;
+}
+.notation-duration-with-dot > .btn:first-child {
+  font-size: 1.35rem;
+  line-height: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.notation-tuplet-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1;
+}
+.notation-tuplet-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.notation-tuplet-icon-num {
+  fill: currentColor;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.notation-tuplet-icon-arc {
+  fill: currentColor;
+}
+.notation-tuplet-compact-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+.notation-select-tool-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+}
+.notation-select-tool-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  line-height: 1;
+}
+.notation-select-tool-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.notation-select-tool-icon-rect {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-dasharray: 3 2;
+}
+.notation-duration-toolbar-tail {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  align-self: center;
+}
+.notation-issues-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 .notation-note-input-method-group,
 .notation-duration-buttons {
@@ -1135,6 +1337,11 @@
   padding-left: 0.5rem;
   padding-right: 0.55rem;
 }
+.notation-issues-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
 
 .notation-issues-severity-label {
   font-weight: 600;
@@ -1152,6 +1359,20 @@
 
 .notation-issues-modal-body {
   padding-top: 0.5rem;
+}
+
+.notation-issues-modal-body-has-copy {
+  position: relative;
+  padding-top: 2.35rem;
+}
+
+.notation-issues-copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  z-index: 1;
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
 }
 
 .notation-issues-modal-group + .notation-issues-modal-group {

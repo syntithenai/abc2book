@@ -78,6 +78,9 @@ async def resolve_session_input_path(
     proxy: str | None,
 ) -> tuple[str, str, bool]:
     """Resolve audio to a filesystem path, using shared cache when possible."""
+    from server import normalize_linked_media_source
+
+    source, source_type = normalize_linked_media_source(source, source_type)
     cache_key = build_resolve_cache_key(source=source, source_type=source_type, body=body)
     cached = get_cached_input_path(cache_key)
     if cached:

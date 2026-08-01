@@ -4,8 +4,27 @@ import { scoreTitleArtistMatch } from './notationMatchUtils';
 
 export const MAX_LOCAL_AUDIO_SEARCH_RESULTS = 20;
 
+let permissionCache = { granted: null, checkedAt: 0 };
+const PERMISSION_CACHE_MS = 30000;
+
 function collectCandidates(result) {
-  if (result && Array.isArray(result.candidates)) return result.candidates;
+  if (!result) return [];
+  const raw = result.candidates;
+  if (Array.isArray(raw)) return raw;
+  if (raw && typeof raw === 'object') {
+    if (typeof raw.length === 'number') {
+      const out = [];
+      for (let i = 0; i < raw.length; i++) {
+        if (raw[i] != null) out.push(raw[i]);
+      }
+      return out;
+    }
+    return Object.keys(raw)
+      .filter(function(key) { return /^\d+$/.test(key); })
+      .sort(function(a, b) { return Number(a) - Number(b); })
+      .map(function(key) { return raw[key]; })
+      .filter(Boolean);
+  }
   return [];
 }
 
@@ -25,6 +44,28 @@ function withComputedMatchScores(candidates, query) {
   });
 }
 
+export function invalidateAndroidAudioPermissionCache() {
+  permissionCache = { granted: null, checkedAt: 0 };
+}
+
+async function hasAndroidAudioPermissionCached() {
+  if (!isAndroidLocalMediaAvailable()) return false;
+  const now = Date.now();
+  if (permissionCache.granted !== null
+      && (now - permissionCache.checkedAt) < PERMISSION_CACHE_MS) {
+    return permissionCache.granted;
+  }
+  try {
+    const stats = await TunebookLocalMedia.getLocalAudioStats();
+    const granted = !!(stats && stats.granted);
+    permissionCache = { granted: granted, checkedAt: now };
+    return granted;
+  } catch (e) {
+    permissionCache = { granted: false, checkedAt: now };
+    return false;
+  }
+}
+
 export function isAndroidLocalMediaAvailable() {
   return isAndroidApp();
 }
@@ -34,8 +75,11 @@ export async function requestAndroidAudioPermission() {
     return { granted: false, permission: '' };
   }
   try {
-    return await TunebookLocalMedia.requestAudioPermission();
+    const result = await TunebookLocalMedia.requestAudioPermission();
+    invalidateAndroidAudioPermissionCache();
+    return result;
   } catch (e) {
+    invalidateAndroidAudioPermissionCache();
     return { granted: false, permission: '', error: e && e.message ? e.message : String(e) };
   }
 }
@@ -63,6 +107,10 @@ export async function searchAndroidLocalAudio(options) {
   const query = String(opts.query || opts.title || '').trim();
   if (!query || !isAndroidLocalMediaAvailable()) {
     return { empty: true, candidates: [] };
+  }
+  const granted = await hasAndroidAudioPermissionCached();
+  if (!granted) {
+    return { empty: true, candidates: [], needsPermission: true };
   }
   const limit = Math.min(
     Number(opts.maxResults || opts.limit) || MAX_LOCAL_AUDIO_SEARCH_RESULTS,

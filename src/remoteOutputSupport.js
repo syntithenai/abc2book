@@ -9,6 +9,7 @@ import {
   getSnapcastOutputEnabled,
 } from './preferredRemoteOutputSettings';
 import { castHttpOnHttpsPageWarning, resolveCastMediaBase } from './castSupport';
+import { isYoutubePlaybackUri } from './youtubePlaybackUri';
 
 export function isRemoteOutputActive(remoteOutputEngineRef) {
   const engine = remoteOutputEngineRef && remoteOutputEngineRef.current;
@@ -109,6 +110,7 @@ export function needsCastHlsSession(mediaController, payload) {
   if (needsCastTranscodeSession(mediaController)) return true;
   if (payload.sourceType === 'abc-midi') return true;
   if (payload.sourceType === 'youtube' && features.castPlayback) return true;
+  if (features.castPlayback && isYoutubePlaybackUri(payload.source)) return true;
   if (payload.concatSet && Array.isArray(payload.queue) && payload.queue.length > 1) return true;
   if (features.castPlayback && requiresResolverProxiedPlayback(payload.source)) return true;
   return false;

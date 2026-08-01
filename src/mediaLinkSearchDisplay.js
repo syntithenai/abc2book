@@ -38,6 +38,43 @@ export function mediaSearchResultArtist(item) {
   return String(item.artist || '').trim();
 }
 
+function isUnknownMediaLabel(value) {
+  const text = String(value || '').trim().toLowerCase();
+  return !text || text === '<unknown>' || text === 'unknown';
+}
+
+function mediaFilenameBase(item) {
+  if (!item) return '';
+  const path = String(item.path || item.displayName || item.title || '').trim();
+  if (!path) return '';
+  const base = path.split('/').pop() || path;
+  return base.replace(/\.[^.]+$/, '').trim();
+}
+
+function parseArtistTitleFromFilename(name) {
+  const text = String(name || '').trim();
+  if (!text) return { artist: '', title: '' };
+  const dash = text.match(/^(.+?)\s+-\s+(.+)$/);
+  if (dash) {
+    return { artist: dash[1].trim(), title: dash[2].trim() };
+  }
+  return { artist: '', title: text };
+}
+
+export function mediaSearchResultDisplayTitle(item) {
+  const tagged = String(item && item.title || '').trim();
+  if (!isUnknownMediaLabel(tagged)) return tagged;
+  const parsed = parseArtistTitleFromFilename(mediaFilenameBase(item));
+  return parsed.title || 'Track';
+}
+
+export function mediaSearchResultDisplayArtist(item) {
+  const tagged = mediaSearchResultArtist(item);
+  if (!isUnknownMediaLabel(tagged)) return tagged;
+  const parsed = parseArtistTitleFromFilename(mediaFilenameBase(item));
+  return parsed.artist || '';
+}
+
 export function mediaSearchResultRelativePath(item) {
   if (!item) return '';
   return String(item.path || item.relativePath || '').trim();

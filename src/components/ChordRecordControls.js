@@ -3,6 +3,11 @@ import { Alert, Button, Form, Modal } from 'react-bootstrap';
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
 import { createChordRecordSession, CHORD_RECORD_STATES } from '../chordRecordSession';
+import {
+  CHORD_RECORD_RESOLUTION_OPTIONS,
+  DEFAULT_CHORD_RECORD_RESOLUTION,
+  resolutionStatusHint,
+} from '../chordRecordResolution';
 import { chordsForKeyPalette, listChordPaletteKeyOptions } from '../chordPaletteFromKey';
 import { filterKeySignatureOption } from '../keySignatureNormalize';
 import { normalizeMeter } from '../barModel';
@@ -48,6 +53,7 @@ export default function ChordRecordControls(props) {
   const [rhythm, setRhythm] = useState(function() {
     return rhythmFromTimeSignature(propMeter);
   });
+  const [resolution, setResolution] = useState(DEFAULT_CHORD_RECORD_RESOLUTION);
   const [showMetronomeSettings, setShowMetronomeSettings] = useState(false);
   const [snapshot, setSnapshot] = useState(null);
   const [error, setError] = useState('');
@@ -90,10 +96,11 @@ export default function ChordRecordControls(props) {
         tempo: tempo,
         key: key,
         rhythm: rhythm,
+        resolution: resolution,
         chordLabels: palette,
       });
     }
-  }, [meter, tempo, key, rhythm, palette]);
+  }, [meter, tempo, key, rhythm, resolution, palette]);
 
   useEffect(function() {
     if (!seededRef.current && props.initialChords) {
@@ -147,6 +154,16 @@ export default function ChordRecordControls(props) {
     || state === CHORD_RECORD_STATES.READY
     || state === CHORD_RECORD_STATES.STOPPED;
   const showSession = sessionActive || state === CHORD_RECORD_STATES.PREPARING;
+  const sessionDirty = state !== CHORD_RECORD_STATES.IDLE;
+  const slotsPerBar = snapshot && snapshot.captureSlotsPerBar
+    ? snapshot.captureSlotsPerBar
+    : 1;
+
+  useEffect(function() {
+    if (typeof props.onSessionDirtyChange === 'function') {
+      props.onSessionDirtyChange(sessionDirty);
+    }
+  }, [sessionDirty, props.onSessionDirtyChange]);
 
   useEffect(function() {
     if (!props.autoActivate) return;
@@ -231,14 +248,15 @@ export default function ChordRecordControls(props) {
   }
 
   function statusMessage() {
+    const hint = resolutionStatusHint(resolution);
     if (state === CHORD_RECORD_STATES.PREPARING || preparing) return 'Preparing piano fills…';
     if (state === CHORD_RECORD_STATES.READY) {
-      return 'Click chords to hear them. Tap Start, then press chord buttons slightly before each beat change.';
+      return 'Click chords to hear them. Tap Start, then press chord buttons slightly before ' + hint + '.';
     }
     if (state === CHORD_RECORD_STATES.COUNT_IN) {
-      return 'Count-in… tap the first chord before beat 1.';
+      return 'Count-in… tap the first chord before the downbeat.';
     }
-    if (state === CHORD_RECORD_STATES.RECORDING) return 'Tap the next chord before the beat.';
+    if (state === CHORD_RECORD_STATES.RECORDING) return 'Tap the next chord before ' + hint + '.';
     if (state === CHORD_RECORD_STATES.STOPPED) {
       return 'Recording stopped. Edit the chart below, clear to try again, or Start to re-record.';
     }
@@ -309,6 +327,24 @@ export default function ChordRecordControls(props) {
                 menuPortal: function(base) { return Object.assign({}, base, { zIndex: 10050 }); },
               }}
             />
+          </Form.Group>
+
+          <Form.Group className="chord-record-resolution mb-0">
+            <Form.Label className="small mb-1">Resolution</Form.Label>
+            <Form.Select
+              aria-label="Chord recording resolution"
+              value={resolution}
+              disabled={sessionBusy}
+              onChange={function(e) {
+                setResolution(e.target.value);
+              }}
+            >
+              {CHORD_RECORD_RESOLUTION_OPTIONS.map(function(option) {
+                return (
+                  <option key={option.value} value={option.value}>{option.label}</option>
+                );
+              })}
+            </Form.Select>
           </Form.Group>
 
           <Button
@@ -387,7 +423,11 @@ export default function ChordRecordControls(props) {
               ) : (
                 <>
                   <span>Bar <strong>{snapshot && snapshot.barNumber ? snapshot.barNumber : 0}</strong></span>
-                  <span>Beat <strong>{snapshot && snapshot.beatInBar ? snapshot.beatInBar : 0}</strong></span>
+                  <span>
+                    Slot <strong>{snapshot && snapshot.slotInBar ? snapshot.slotInBar : 0}</strong>
+                    {' / '}
+                    <strong>{slotsPerBar}</strong>
+                  </span>
                 </>
               )}
               {snapshot && snapshot.lastAssignedChord ? (

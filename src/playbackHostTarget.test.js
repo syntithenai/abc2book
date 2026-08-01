@@ -94,6 +94,48 @@ describe('resolveHostPlaybackTarget', function() {
     expect(target).toEqual({ type: 'media', linkNum: 1 })
   })
 
+  test('prefers committed media ref over stale playMidi requestedPlayState', function() {
+    const mediaController = {
+      requestedPlayState: 'playMidi',
+      playbackRouteMode: 'midi',
+      mediaLinkNumber: 0,
+      isLoading: true,
+      isMidiPlaybackRoute: function() { return false },
+      isMediaPlaybackRoute: function() { return true },
+      hasActivePlaybackIntent: function() { return true },
+    }
+    const target = resolveHostPlaybackTarget(
+      mediaController,
+      tune,
+      tunebook,
+      null,
+      null,
+      null
+    )
+    expect(target).toEqual({ type: 'media', linkNum: 0 })
+  })
+
+  test('keeps playMedia URL when media route ref committed during switch', function() {
+    const mediaController = {
+      requestedPlayState: 'playMedia',
+      playbackRouteMode: 'midi',
+      mediaLinkNumber: 0,
+      isLoading: true,
+      isMidiPlaybackRoute: function() { return false },
+      isMediaPlaybackRoute: function() { return true },
+      hasActivePlaybackIntent: function() { return true },
+    }
+    const target = resolveHostPlaybackTarget(
+      mediaController,
+      tune,
+      tunebook,
+      null,
+      null,
+      { playState: 'playMedia', mediaLinkNumber: '0' }
+    )
+    expect(target).toEqual({ type: 'media', linkNum: 0 })
+  })
+
   test('prefers requested playMedia over stale midi playbackRouteMode', function() {
     const mediaController = {
       requestedPlayState: 'playMedia',

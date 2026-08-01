@@ -7,6 +7,7 @@ import {
 } from '../notation/toolbarExpand';
 import useToolbarFavorites from '../notation/useToolbarFavorites';
 import NotationToolbarFavoriteMenuItem from './NotationToolbarFavoriteMenuItem';
+import NotationTupletIcon from './NotationTupletIcon';
 
 function tupletKey(preset) {
   return preset.num + '-' + preset.den;
@@ -17,17 +18,37 @@ const TUPLET_ACTION_ITEMS = [
   { key: '_beamBreak', label: 'Beam', title: 'Break beam before selection', action: '_beamBreak' },
 ];
 
+function sortPresetsByNum(presets) {
+  return presets.slice().sort(function(a, b) { return a.num - b.num; });
+}
+
+function tupletModeLabel(mode) {
+  if (!mode) return '';
+  const preset = TUPLET_PRESETS.find(function(p) {
+    return p.num === mode.num && p.den === mode.den;
+  });
+  if (preset) return preset.label;
+  return 'Tuplet ' + mode.num;
+}
+
 export default function NotationTupletDropdown(props) {
   const { session, onTupletAction, expanded } = props;
   const mode = session.tupletMode;
-  const mainLabel = mode ? '(' + mode.num : '(3';
   const [favorites, starToggle] = useToolbarFavorites(
     TUPLET_FAVORITES_STORAGE_KEY,
     DEFAULT_TUPLET_FAVORITES
   );
 
-  const favoritePresets = TUPLET_PRESETS.filter(function(preset) {
+  const favoritePresets = sortPresetsByNum(TUPLET_PRESETS.filter(function(preset) {
     return favorites.indexOf(tupletKey(preset)) >= 0;
+  }));
+
+  const favoriteActions = TUPLET_ACTION_ITEMS.filter(function(item) {
+    return favorites.indexOf(item.key) >= 0;
+  });
+
+  const primaryPreset = favoritePresets[0] || TUPLET_PRESETS.find(function(preset) {
+    return preset.num === 3 && preset.den === 2;
   });
 
   const menu = (
@@ -67,37 +88,50 @@ export default function NotationTupletDropdown(props) {
     </Dropdown.Menu>
   );
 
-  const mainButton = (
-    <Button
-      size="lg"
-      variant={mode ? 'primary' : 'outline-secondary'}
-      title={mode ? 'End tuplet mode' : 'Start triplet'}
-      onClick={function() {
-        if (mode) onTupletAction('_endTuplet');
-        else onTupletAction('_triplet');
-      }}
-    >{mainLabel}</Button>
+  const tupletBadgeLabel = tupletModeLabel(mode);
+  const tupletBadge = mode ? (
+    <span
+      className="notation-mode-badge notation-mode-badge-in-group notation-mode-badge-tuplet"
+      title={tupletBadgeLabel + ' input mode active'}
+      data-testid="notation-mode-badge-tuplet"
+    >
+      {tupletBadgeLabel}
+    </span>
+  ) : null;
+
+  function renderPresetButton(preset) {
+    return (
+      <Button
+        key={tupletKey(preset)}
+        size="lg"
+        variant="outline-secondary"
+        title={preset.label}
+        aria-label={preset.label}
+        className="notation-tuplet-compact-btn"
+        onClick={function() { onTupletAction(preset); }}
+      ><NotationTupletIcon num={preset.num} /></Button>
+    );
+  }
+
+  const dropdownToggle = (
+    <Dropdown as={ButtonGroup}>
+      <Dropdown.Toggle
+        split
+        variant="outline-secondary"
+        size="lg"
+        aria-label="Tuplets and grace menu"
+        data-testid="notation-tuplet-menu"
+      />
+      {menu}
+    </Dropdown>
   );
 
   if (expanded) {
     return (
       <ButtonGroup className="notation-tuplet-expanded" data-testid="notation-tuplet-expanded">
-        {mainButton}
-        {favoritePresets.map(function(preset) {
-          return (
-            <Button
-              key={tupletKey(preset)}
-              size="lg"
-              variant="outline-secondary"
-              title={preset.label}
-              className="notation-tuplet-compact-btn"
-              onClick={function() { onTupletAction(preset); }}
-            >{preset.num}:{preset.den}</Button>
-          );
-        })}
-        {TUPLET_ACTION_ITEMS.filter(function(item) {
-          return favorites.indexOf(item.key) >= 0;
-        }).map(function(item) {
+        {tupletBadge}
+        {favoritePresets.map(renderPresetButton)}
+        {favoriteActions.map(function(item) {
           return (
             <Button
               key={item.key}
@@ -109,25 +143,32 @@ export default function NotationTupletDropdown(props) {
             >{item.label}</Button>
           );
         })}
-        <Dropdown as={ButtonGroup}>
-          <Dropdown.Toggle
-            split
-            variant="outline-secondary"
-            size="lg"
-            aria-label="Tuplets and grace menu"
-            data-testid="notation-tuplet-menu"
-          />
-          {menu}
-        </Dropdown>
+        {dropdownToggle}
       </ButtonGroup>
     );
   }
 
   return (
-    <Dropdown as={ButtonGroup} className="notation-tuplet-dropdown">
-      {mainButton}
-      <Dropdown.Toggle split variant="outline-secondary" size="lg" aria-label="Tuplets and grace menu" data-testid="notation-tuplet-menu" />
-      {menu}
-    </Dropdown>
+    <ButtonGroup className="notation-tuplet-dropdown">
+      {tupletBadge}
+      <Dropdown as={ButtonGroup}>
+        <Button
+          size="lg"
+          variant="outline-secondary"
+          title={primaryPreset.label}
+          aria-label={primaryPreset.label}
+          className="notation-tuplet-compact-btn"
+          onClick={function() { onTupletAction(primaryPreset); }}
+        ><NotationTupletIcon num={primaryPreset.num} /></Button>
+        <Dropdown.Toggle
+          split
+          variant="outline-secondary"
+          size="lg"
+          aria-label="Tuplets and grace menu"
+          data-testid="notation-tuplet-menu"
+        />
+        {menu}
+      </Dropdown>
+    </ButtonGroup>
   );
 }

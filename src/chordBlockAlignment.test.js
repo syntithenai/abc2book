@@ -1,7 +1,9 @@
 /* eslint-disable react-hooks/rules-of-hooks -- test helpers call pure hook factories */
 import useAbcjsParser from './useAbcjsParser';
 import useAbcTools from './useAbcTools';
-import { splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeChordsIntoLyricLines, extractChordBars, formatChordChartForDisplay } from './chordSheetUtils';
+import { splitMelodyStrainsWithBarlines, buildUnifiedBlocks } from './chordBlockMerge';
+import { extractBarsFromMelodyText } from './lyricBarAlignmentUtils';
+import { splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeChordsIntoLyricLines, extractChordBars, formatChordChartForDisplay, formatSectionChartForEditor } from './chordSheetUtils';
 
 // Mirrors the real data shape: a chord scaffold built from z-rests with the
 // melody divided into sections by double barlines (||), plus clean lyrics that
@@ -201,6 +203,41 @@ describe('chord block alignment against melody double barlines', function() {
     expect(extractChordBars(editorChart).length).toBeGreaterThan(3);
   });
 
+  test('editor grid omits empty bar before leading |: repeat', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const body = [
+      '|:"Am"E2A2 ABcd|e2d2 c2A2|"G"B2G2 GFGA|"Em"B2AG E2D2|! "Am"E2A2 ABcd|e2d2 e2ag|"Em"e2d2 "G"BedB|"Am"A4 A4:|',
+      ' |:"Am"a2e2 e2fg|abag e2fg|abaf "Em"g3e|"G"dedB G4|! "Am"a2e2 e2fg|abag e2d2|"Em"B2e2 "G"d2B2|"Am"A4 A4:|',
+    ].join('\n');
+    const melodyAbc = abcTools.emptyABC('Session Repeat') + body;
+    const editorChart = abcjsParser.renderChords(melodyAbc, true, 0, 'Am', '1/8', '4/4');
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'Am', '1/8', '4/4');
+
+    expect(extractChordBars(editorChart)[0]).toEqual(['Am']);
+    expect(displayChart).toMatch(/^\|:\s*Am/);
+    expect(editorChart).not.toMatch(/^\s*\.\s/);
+  });
+
+  test('editor grid bar count matches melody per repeat strain', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const body = [
+      '|:"Am"E2A2 ABcd|e2d2 c2A2|"G"B2G2 GFGA|"Em"B2AG E2D2|! "Am"E2A2 ABcd|e2d2 e2ag|"Em"e2d2 "G"BedB|"Am"A4 A4:|',
+      ' |:"Am"a2e2 e2fg|abag e2fg|abaf "Em"g3e|"G"dedB G4|! "Am"a2e2 e2fg|abag e2d2|"Em"B2e2 "G"d2B2|"Am"A4 A4:|',
+    ].join('\n');
+    const melodyAbc = abcTools.emptyABC('Session Repeat') + body;
+    const noteLines = abcTools.justNotes(melodyAbc).split('\n');
+    const strains = splitMelodyStrainsWithBarlines(noteLines);
+    const editorChart = abcjsParser.renderChords(melodyAbc, true, 0, 'Am', '1/8', '4/4');
+    const chartBlocks = splitChordChartIntoBlocks(editorChart);
+    expect(chartBlocks.length).toBe(strains.length);
+    chartBlocks.forEach(function(block, index) {
+      const melodyBars = extractBarsFromMelodyText(strains[index].text).length;
+      expect(extractChordBars(block).length).toBe(melodyBars);
+    });
+  });
+
   test('display charts emit inline repeats and ending markers', function() {
     const abcjsParser = useAbcjsParser();
     const abcTools = useAbcTools();
@@ -224,6 +261,29 @@ describe('chord block alignment against melody double barlines', function() {
     // Editor grid stays marker-free for merge/edit round-trip.
     expect(editorChart).not.toMatch(/\|:/);
     expect(editorChart).not.toMatch(/\[1/);
+  });
+
+  test('buildUnifiedBlocks populates volta metadata and editor shows ABC markers', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const melodyAbc = abcTools.emptyABC('Volta')
+      + '|: "C"c2 "G"d2 | [1 "Am"e2 "F"f2 :| [2 "G"g2 "C"c2 |]';
+    const editorChart = abcjsParser.renderChords(melodyAbc, true, 0, 'C', '1/4', '4/4');
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'C', '1/4', '4/4');
+    const built = buildUnifiedBlocks({
+      noteLines: abcTools.justNotes(melodyAbc).split('\n'),
+      chordChart: editorChart,
+      displayChordChart: displayChart,
+      defaultMeter: '4/4',
+    });
+    expect(built.blocks.length).toBeGreaterThan(0);
+    const block = built.blocks[0];
+    expect(block.endingMarkers.length).toBeGreaterThanOrEqual(2);
+    expect(block.displayChart).toMatch(/\[1/);
+    const editorText = formatSectionChartForEditor(block);
+    expect(editorText).toMatch(/\|:/);
+    expect(editorText).toMatch(/\[1/);
+    expect(editorText).toMatch(/\[2/);
   });
 
   test('chords do not leak across lyric line boundaries (line-for-line chart)', function() {

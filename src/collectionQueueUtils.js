@@ -3,6 +3,7 @@
  */
 
 import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
+import { buildOrderedSearchListIds } from './searchListOrder'
 
 function isPlayableTune(tune, tunebook) {
   if (!tune || !tune.id || !tunebook) return false
@@ -33,15 +34,33 @@ export function getPlayableTuneIdsForCollection(tunebook, tunes, filter) {
   }).slice(0, PLAYLIST_MAX_ITEMS)
 }
 
-export function getPlayableTuneIdsFromListRows(filtered, tunes, tunebook, selectedIds) {
+export function getPlayableTuneIdsFromListRows(filtered, tunes, tunebook, selectedIds, options) {
+  const opts = options || {}
+  const orderedIds = buildOrderedSearchListIds(filtered, opts.grouped, opts.groupBy)
   const ids = []
+
   if (selectedIds && selectedIds.length) {
+    const selectedSet = {}
     selectedIds.forEach(function(id) {
+      selectedSet[id] = true
+    })
+    const walkOrder = orderedIds && orderedIds.length ? orderedIds : selectedIds
+    walkOrder.forEach(function(id) {
+      if (!selectedSet[id]) return
       const tune = tunes && tunes[id]
       if (isPlayableTune(tune, tunebook)) ids.push(id)
     })
     return ids.slice(0, PLAYLIST_MAX_ITEMS)
   }
+
+  if (orderedIds && orderedIds.length) {
+    orderedIds.forEach(function(id) {
+      const tune = tunes && tunes[id]
+      if (isPlayableTune(tune, tunebook)) ids.push(id)
+    })
+    return ids.slice(0, PLAYLIST_MAX_ITEMS)
+  }
+
   if (!Array.isArray(filtered)) return ids
   filtered.forEach(function(row) {
     const tune = row && row.tune ? row.tune : row

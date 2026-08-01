@@ -1,15 +1,25 @@
-import { Button } from 'react-bootstrap'
+import { Button, Form } from 'react-bootstrap'
 import { useNavigate, useLocation } from 'react-router-dom'
 import {
   mediaLinkPlaybackIcon,
   resolveMediaLinkPlaybackButton,
 } from '../mediaLinkPlaybackButton'
+import {
+  buildMediaSourceOptions,
+  getActiveMediaSourceId,
+  mediaSourceNeedsLogin,
+} from '../mediaSourceMenuAccess'
+import { getMediaPlaybackSettings } from '../pitchTempoUtils'
 
 export default function MediaSourcePlaybackButtons({
   tune,
   tunebook,
   mediaController,
   suppressRouteNavigation = false,
+  presentation = 'buttons',
+  login,
+  accessToken,
+  className,
 }) {
   const navigate = useNavigate()
   const location = useLocation()
@@ -92,9 +102,6 @@ export default function MediaSourcePlaybackButtons({
     const kickoffActive = mediaController.isMidiKickoffActiveRef
       && mediaController.isMidiKickoffActiveRef.current
       && mediaController.isMidiKickoffActiveRef.current()
-    // #region agent log
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H1',location:'MediaSourcePlaybackButtons.js:handleMidiPlayback',message:'midi button click',data:{tuneId:tune&&tune.id,sameSource:!!sameSource,kickoffActive:!!kickoffActive,isLoading:!!mediaController.isLoading,hasPlayMidiRef:!!(mediaController.playMidiRef&&mediaController.playMidiRef.current)},timestamp:Date.now()})}).catch(function(){})
-    // #endregion
     if (kickoffActive || (sameSource && mediaController.isLoading)) {
       return
     }
@@ -112,7 +119,132 @@ export default function MediaSourcePlaybackButtons({
     }
   }
 
+  function handleSourceSelect(sourceId) {
+    if (!sourceId) return
+    if (sourceId === 'midi') {
+      handleMidiPlayback()
+      return
+    }
+    if (sourceId.indexOf('link-') === 0) {
+      const linkKey = parseInt(sourceId.slice(5), 10)
+      if (!isNaN(linkKey)) handleLinkPlayback(linkKey)
+    }
+  }
+
+  function renderSourceLinkButtons() {
+    return (
+      <>
+        {hasLinks ? tune.links.map(function(link, linkKey) {
+          if (!link || !link.link || !String(link.link).trim()) return null
+          const isYoutubeLink = tunebook.utils && tunebook.utils.isYoutubeLink
+          const buttonProps = resolveMediaLinkPlaybackButton(link, isYoutubeLink)
+          const isActiveLink = mediaController.isMediaPlaybackRoute
+            && mediaController.isMediaPlaybackRoute()
+            && mediaController.mediaLinkNumber === linkKey
+          return (
+            <Button
+              key={linkKey}
+              style={{ marginLeft: '0.1em' }}
+              variant={isActiveLink ? buttonProps.variant : 'outline-' + buttonProps.variant}
+              className={buttonProps.className}
+              title={buttonProps.label
+                ? buttonProps.label + ' link ' + (linkKey + 1)
+                : 'Media link ' + (linkKey + 1)}
+              onClick={function() { handleLinkPlayback(linkKey) }}
+            >
+              {mediaLinkPlaybackIcon(tunebook, buttonProps.iconKey)}
+              {' '}
+              {tunebook.icons.play}
+              {' '}
+              {linkKey + 1}
+            </Button>
+          )
+        }) : null}
+        {hasMusic ? (
+          <Button
+            style={{ marginLeft: '0.1em' }}
+            variant={
+              mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute()
+                ? 'success'
+                : 'outline-success'
+            }
+            onClick={handleMidiPlayback}
+          >
+            {tunebook.icons.music} {tunebook.icons.play}
+          </Button>
+        ) : null}
+      </>
+    )
+  }
+
+  function renderSourceSelect(selectClassName) {
+    const options = buildMediaSourceOptions(tune, tunebook)
+    if (options.length === 0) return null
+    const activeId = getActiveMediaSourceId(mediaController)
+    const selectedOption = options.find(function(option) { return option.id === activeId }) || options[0]
+    const loginGate = mediaSourceNeedsLogin(
+      selectedOption,
+      mediaController.mediaResolverStatus,
+      accessToken,
+      mediaController.resolverFeatures,
+      getMediaPlaybackSettings(tune)
+    )
+
+    if (options.length === 1) {
+      return (
+        <div className={'media-source-select' + (selectClassName ? ' ' + selectClassName : '')}>
+          <span className="media-source-select-single">{options[0].label}</span>
+        </div>
+      )
+    }
+
+    return (
+      <div className={'media-source-select' + (selectClassName ? ' ' + selectClassName : '')}>
+        <Form.Select
+          size="sm"
+          className="media-source-select-input"
+          aria-label="Audio source"
+          value={activeId || options[0].id}
+          onChange={function(e) { handleSourceSelect(e.target.value) }}
+        >
+          {options.map(function(option) {
+            return (
+              <option key={option.id} value={option.id}>{option.label}</option>
+            )
+          })}
+        </Form.Select>
+        {loginGate ? (
+          <Button
+            size="sm"
+            variant="primary"
+            className="media-source-select-login"
+            onClick={function() {
+              if (typeof login === 'function') login()
+            }}
+          >
+            Login to play YouTube
+          </Button>
+        ) : null}
+      </div>
+    )
+  }
+
   if (!hasLinks && !hasMusic) return null
+
+  if (presentation === 'both') {
+    return (
+      <div className={'media-source-both' + (className ? ' ' + className : '')}>
+        <div className="media-source-buttons-row">
+          {renderSourceLinkButtons()}
+        </div>
+        {renderSourceSelect('media-source-both-select')}
+      </div>
+    )
+  }
+
+  if (presentation === 'select') {
+    return renderSourceSelect(className)
+  }
 
   return (
     <>
@@ -135,43 +267,7 @@ export default function MediaSourcePlaybackButtons({
           {tunebook.icons.pause} Pause
         </Button>
       ) : (
-        <>
-          {hasLinks ? tune.links.map(function(link, linkKey) {
-            if (!link || !link.link || !String(link.link).trim()) return null
-            const isYoutubeLink = tunebook.utils && tunebook.utils.isYoutubeLink
-            const buttonProps = resolveMediaLinkPlaybackButton(link, isYoutubeLink)
-            const isActiveLink = mediaController.isMediaPlaybackRoute
-              && mediaController.isMediaPlaybackRoute()
-              && mediaController.mediaLinkNumber === linkKey
-            return (
-              <Button
-                key={linkKey}
-                style={{ marginLeft: '0.1em' }}
-                variant={isActiveLink ? buttonProps.variant : 'outline-' + buttonProps.variant}
-                className={buttonProps.className}
-                title={buttonProps.label
-                  ? buttonProps.label + ' link ' + (linkKey + 1)
-                  : 'Media link ' + (linkKey + 1)}
-                onClick={function() { handleLinkPlayback(linkKey) }}
-              >
-                {mediaLinkPlaybackIcon(tunebook, buttonProps.iconKey)}
-                {' '}
-                {tunebook.icons.play}
-                {' '}
-                {linkKey + 1}
-              </Button>
-            )
-          }) : null}
-          {hasMusic ? (
-            <Button
-              style={{ marginLeft: '0.1em' }}
-              variant="success"
-              onClick={handleMidiPlayback}
-            >
-              {tunebook.icons.music} {tunebook.icons.play}
-            </Button>
-          ) : null}
-        </>
+        renderSourceLinkButtons()
       )}
     </>
   )

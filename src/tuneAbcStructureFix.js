@@ -15,6 +15,7 @@ import { melodyHasAnacrusisDoubleBarlines, normalizeMelodyBarlines, abcForAbcjs 
 import { fixTuneAbcHeaders, normalizeTuneAbc } from './tuneAbcCorrectnessCheck';
 import { getLyricLines } from './wLinesUtils';
 import { applyNoteSpacingToTune } from './noteSpacingUtils';
+import { parseTempoBpm } from './tempoRange';
 import { countVoiceBars, maxVoiceBarCount } from './scratchpadNotationMerge';
 import { parseVoiceEvents, beatsToDuration } from './notation/voiceEventModel';
 import { serializeVoiceEvents } from './notation/abcVoiceSerializer';
@@ -25,6 +26,13 @@ import {
   convertSectionPickupsToVoltasFlat,
 } from './sectionPickupVolta';
 import { analyzeVoiceBarDurations } from './tuneAbcStructureCheck';
+import {
+  canFixStrainRepeatEnds,
+  collapseEmptyRepeatBarsOnLines,
+  fixStrainRepeatEndsOnLines,
+  hasEmptyBarsBetweenRepeatMarks,
+  hasOpenRepeatBeforeDoubleBar,
+} from './repeatStrainFix';
 
 function getNoteLines(tune) {
   if (!tune || !tune.voices) return [];
@@ -161,6 +169,30 @@ export function resolveHeaderConflictFromAbc(tune, abcTools) {
   return changed ? next : null;
 }
 
+/** Keep tune tempo; re-export ABC so Q: uses meter beat unit (drops conflicting Q beat unit). */
+export function applyTuneTempoOnlyInTune(tune, abcTools) {
+  if (!tune || !abcTools) return null;
+  const abcText = abcTools.json2abc(tune);
+  const fromAbc = String(abcTools.getMetaValueFromAbc('Q', abcText) || '').trim();
+  if (!fromAbc) return null;
+  const tuneBpm = typeof abcTools.cleanTempo === 'function'
+    ? parseInt(String(abcTools.cleanTempo(tune.tempo) || ''), 10) || 0
+    : parseTempoBpm('Q:' + String(tune.tempo || ''));
+  const abcBpm = parseTempoBpm('Q:' + fromAbc);
+  const bpm = tuneBpm > 0 ? tuneBpm : abcBpm;
+  if (bpm <= 0) return null;
+
+  const next = Object.assign({}, tune, { tempo: bpm });
+  const newAbcText = abcTools.json2abc(next);
+  const newQ = String(abcTools.getMetaValueFromAbc('Q', newAbcText) || '').trim();
+  const tempoNeedsNormalize = String(tune.tempo || '').trim() !== String(bpm);
+  if (fromAbc === newQ && !tempoNeedsNormalize) return null;
+
+  const json = abcTools.abc2json(newAbcText);
+  json.id = tune.id;
+  return Object.assign({}, next, json, { tempo: bpm });
+}
+
 /** Prefer tune field values over ABC headers (updates tune object for json2abc round-trip). */
 export function resolveHeaderConflictFromTune(tune, abcTools) {
   if (!tune || !abcTools || typeof abcTools.getMetaValueFromAbc !== 'function') return null;
@@ -234,16 +266,14 @@ export function normalizeMelodyRepeatMarksInTune(tune) {
 }
 
 /** End-repeat, zero or more empty bars, then start-repeat (e.g. :| |:, :| | |:). */
-const EMPTY_BARS_BETWEEN_REPEATS_RE = /:\|(?:\s*\|)*\s*\|:/g;
-
-export function hasEmptyBarsBetweenRepeatMarks(flat) {
-  EMPTY_BARS_BETWEEN_REPEATS_RE.lastIndex = 0;
-  return EMPTY_BARS_BETWEEN_REPEATS_RE.test(String(flat || ''));
-}
+export { hasEmptyBarsBetweenRepeatMarks, hasOpenRepeatBeforeDoubleBar } from './repeatStrainFix';
 
 export function collapseEmptyBarsBetweenRepeatMarks(flat) {
-  if (!hasEmptyBarsBetweenRepeatMarks(flat)) return String(flat || '');
-  return String(flat || '').replace(/:\|(?:\s*\|)*\s*\|:/g, '::');
+  let next = String(flat || '');
+  if (!hasEmptyBarsBetweenRepeatMarks(next)) return next;
+  next = next.replace(/:\|(?:\s*\|)*\s*\|:/g, '::');
+  next = next.replace(/\|\|(?:\s*\|)+\s*\|:/g, '|| |:');
+  return next;
 }
 
 function normalizeAdjacentRepeatMarks(flat) {
@@ -270,16 +300,46 @@ export function canCollapseEmptyRepeatBars(tune) {
 }
 
 export function collapseEmptyRepeatBarsInTune(tune) {
-  const nextFlat = previewCollapseEmptyRepeatMarks(tune);
-  if (!nextFlat) return null;
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const nextLines = collapseEmptyRepeatBarsOnLines(noteLines);
+  if (!nextLines) return null;
 
   const next = Object.assign({}, tune);
   const voiceKey = resolvePrimaryVoiceKey(tune.voices);
   next.voices = Object.assign({}, tune.voices);
   next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], {
-    notes: [nextFlat],
+    notes: nextLines,
   });
   return next;
+}
+
+export function fixStrainRepeatEndsInTune(tune) {
+  const noteLines = getNoteLines(tune);
+  if (noteLines.length === 0) return null;
+  const nextLines = fixStrainRepeatEndsOnLines(noteLines);
+  if (!nextLines) return null;
+
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], {
+    notes: nextLines,
+  });
+  return next;
+}
+
+export function canFixStrainRepeatEndsInTune(tune) {
+  return canFixStrainRepeatEnds(getNoteLines(tune));
+}
+
+/** One-click: collapse empty repeat bars, insert :| before strain ||, normalize repeat spacing. */
+export function standardizeBarsAndRepeatsInTune(tune) {
+  return fixStrainRepeatEndsInTune(tune);
+}
+
+export function canStandardizeBarsAndRepeats(tune) {
+  return canFixStrainRepeatEndsInTune(tune);
 }
 
 function tuneEndsCleanly(noteLines) {
@@ -435,14 +495,29 @@ export function removeEmptyBarsFromFlatMelody(flat) {
 export function removeEmptyBarsInTune(tune) {
   const noteLines = getNoteLines(tune);
   if (noteLines.length === 0) return null;
-  const body = noteLines.join('\n');
-  const nextBody = removeEmptyBarsFromFlatMelody(body);
-  if (nextBody === body) return null;
+  const originalFlat = flattenMelodyText(noteLines);
+  let body = originalFlat;
+  const needsRepeatFix = hasEmptyBarsBetweenRepeatMarks(body) || hasOpenRepeatBeforeDoubleBar(body);
+  if (needsRepeatFix) {
+    return fixStrainRepeatEndsInTune(tune);
+  }
+
+  let nextNotes;
+  const joinedBody = noteLines.join('\n');
+  const nextBody = removeEmptyBarsFromFlatMelody(joinedBody);
+  if (nextBody === joinedBody) return null;
+  nextNotes = nextBody.split(/\r?\n/);
+
+  if (flattenMelodyText(nextNotes) === originalFlat
+    && nextNotes.join('\n') === noteLines.join('\n')) {
+    return null;
+  }
+
   const next = Object.assign({}, tune);
   const voiceKey = resolvePrimaryVoiceKey(tune.voices);
   next.voices = Object.assign({}, tune.voices);
   next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], {
-    notes: nextBody.split(/\r?\n/),
+    notes: nextNotes,
   });
   return next;
 }
@@ -677,7 +752,8 @@ export function removeOrphanRepeatEndInTune(tune) {
 }
 
 export function closeRepeatAtEndInTune(tune) {
-  return closeOpenRepeatInTune(tune);
+  const closed = closeOpenRepeatInTune(tune);
+  return closed;
 }
 
 function endingBarCounts(flat) {
@@ -838,6 +914,10 @@ export function previewStructureFix(action, tune, abcTools, parseAndRender) {
     next = normalizeMelodyRepeatMarksInTune(tune);
   } else if (action === 'collapseEmptyRepeatBars') {
     next = collapseEmptyRepeatBarsInTune(tune);
+  } else if (action === 'fixStrainRepeatEnds' || action === 'standardizeBarsAndRepeats') {
+    next = fixStrainRepeatEndsInTune(tune);
+  } else if (action === 'applyTuneTempoOnly') {
+    next = applyTuneTempoOnlyInTune(tune, abcTools);
   } else if (action === 'normalizeAbc' && typeof parseAndRender === 'function') {
     next = normalizeTuneAbc(tune, abcTools, parseAndRender);
   } else if (action === 'appendFinalBarline') {
@@ -927,6 +1007,17 @@ export function structureFixAvailable(action, tune, abcTools, issues) {
       || codes.indexOf('repeat_style_mixed') >= 0
       || canCollapseEmptyRepeatBars(tune);
   }
+  if (action === 'fixStrainRepeatEnds' || action === 'standardizeBarsAndRepeats') {
+    return codes.indexOf('strain_missing_repeat_end') >= 0
+      || codes.indexOf('unmatched_repeat_start') >= 0
+      || codes.indexOf('empty_bar') >= 0
+      || codes.indexOf('repeat_style_mixed') >= 0
+      || canFixStrainRepeatEndsInTune(tune);
+  }
+  if (action === 'applyTuneTempoOnly') {
+    return codes.indexOf('tempo_beat_unit_mismatch') >= 0
+      || codes.indexOf('tempo_mismatch') >= 0;
+  }
   if (action === 'collapseAnacrusisDoubleBarlines') {
     return codes.indexOf('anacrusis_double_barline') >= 0
       || canCollapseAnacrusisDoubleBarlines(tune);
@@ -1011,7 +1102,8 @@ export const STRUCTURE_FIX_ACTIONS = [
   { id: 'resolveHeaderConflictFromTune', label: 'Use tune field values', tier: 'b', requiresPreview: true },
   { id: 'stanzaDoubleBarlines', label: 'Insert stanza double bar lines', tier: 'a' },
   { id: 'normalizeRepeatMarks', label: 'Normalize repeat mark spacing', tier: 'a' },
-  { id: 'collapseEmptyRepeatBars', label: 'Remove empty bar between repeat marks', tier: 'a' },
+  { id: 'fixStrainRepeatEnds', label: 'Fix strain repeat ends', tier: 'a' },
+  { id: 'applyTuneTempoOnly', label: 'Use tune tempo (fix Q: beat unit)', tier: 'a' },
   { id: 'closeOpenRepeat', label: 'Close open repeat', tier: 'a' },
   { id: 'closeRepeatAtEnd', label: 'Close repeat at tune end', tier: 'a' },
   { id: 'removeOrphanRepeatEnd', label: 'Remove orphan repeat end', tier: 'a' },

@@ -14,6 +14,25 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
   const hasMusic = tunebook.hasNotesOrChords && tunebook.hasNotesOrChords(playingTune)
   const hasLinks = Array.isArray(playingTune.links) && playingTune.links.length > 0
 
+  function resolveActiveMediaLinkNum(fallbackLinkNum) {
+    if (mediaController.mediaLinkNumber != null) {
+      return mediaController.mediaLinkNumber
+    }
+    if (fallbackLinkNum != null) {
+      const parsed = parseInt(fallbackLinkNum, 10)
+      if (!isNaN(parsed)) return parsed
+    }
+    return 0
+  }
+
+  // Ref-based route beats stale React state (requestedPlayState / playbackRouteMode).
+  if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute() && hasLinks) {
+    return { type: 'media', linkNum: resolveActiveMediaLinkNum() }
+  }
+  if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute() && hasMusic) {
+    return { type: 'midi' }
+  }
+
   if (urlPlayback) {
     if (urlPlayback.playState === 'playMedia' && hasLinks) {
       // /playMedia URLs can lag behind an explicit MIDI request (navigate not
@@ -22,7 +41,8 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
       const wantsMidiOverStaleMediaUrl = hasMusic && (
         mediaController.requestedPlayState === 'playMidi'
         || (
-          mediaController.playbackRouteMode === 'midi'
+          mediaController.requestedPlayState !== 'playMedia'
+          && mediaController.playbackRouteMode === 'midi'
           && (
             !!mediaController.isLoading
             || !!(mediaController.pendingMidiPlayRef && mediaController.pendingMidiPlayRef.current)
@@ -45,18 +65,9 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
   }
 
   if (mediaController.requestedPlayState === 'playMedia' && hasLinks) {
-    const linkNum = mediaController.mediaLinkNumber != null ? mediaController.mediaLinkNumber : 0
-    return { type: 'media', linkNum: linkNum }
+    return { type: 'media', linkNum: resolveActiveMediaLinkNum() }
   }
   if (mediaController.requestedPlayState === 'playMidi' && hasMusic) {
-    return { type: 'midi' }
-  }
-
-  if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute() && hasLinks) {
-    const linkNum = mediaController.mediaLinkNumber != null ? mediaController.mediaLinkNumber : 0
-    return { type: 'media', linkNum: linkNum }
-  }
-  if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute() && hasMusic) {
     return { type: 'midi' }
   }
 

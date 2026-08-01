@@ -430,7 +430,7 @@ export default function useAbcjsParser() {
                                         }
                                         var renderedChord2 = cleanChord(key, chord, transpose)
                                     
-                                        var assignChordToBeat = Math.round(noteLengthsSinceLastBar / noteLength)
+                                        var assignChordToBeat = Math.floor(noteLengthsSinceLastBar / noteLength + 1e-9)
                                         if (assignChordToBeat <= barSize && Array.isArray(barLayout[assignChordToBeat])) {
                                             var current = Array.isArray(barLayout[assignChordToBeat]) ? barLayout[assignChordToBeat] : []
                                             current.push(renderedChord2 ? renderedChord2.trim() : '')
@@ -453,6 +453,9 @@ export default function useAbcjsParser() {
                            // Display charts also omit bars with no notes or rests
                            // (empty between barlines). Rest-only bars still render.
                            var isEmptyBar = noteLengthsSinceLastBar <= 0
+                           // |: / :|: open a repeat without closing a prior bar (abcjs bar symbol only).
+                           var isEmptyRepeatOpen = isEmptyBar
+                             && (symbol.type === 'bar_left_repeat' || symbol.type === 'bar_dbl_repeat')
                            var closeBarline = '|'
                            if (symbol.type === 'bar_right_repeat') closeBarline = ':|'
                            else if (symbol.type === 'bar_dbl_repeat') closeBarline = ':|:'
@@ -476,7 +479,7 @@ export default function useAbcjsParser() {
                                    pendingEndingLabel = symbol.startEnding
                                }
                            } else {
-                               writeBar(barLayout, closeBarline)
+                               if (!isEmptyRepeatOpen) writeBar(barLayout, closeBarline)
                                // Hymns often start the chorus with |: rather than ||.
                                // Emit a blank line so verse/chorus become separate blocks.
                                if (symbol.type === 'bar_left_repeat') {
@@ -604,7 +607,13 @@ export default function useAbcjsParser() {
               var flatAnchors = hints && hints.anchors ? hints.anchors.slice() : []
               var anchorCursor = 0
               bars.forEach(function(bar,bk) {
-                  if (typeof bar === 'string' && bar.trim()) {
+                  if (typeof bar !== 'string') return
+                  var trimmedBar = bar.trim()
+                  if (!trimmedBar) {
+                    result[lineNumber][bk] = { __clear: true }
+                    return
+                  }
+                  if (trimmedBar) {
                     var meterMatch = /\[M:\s*([^\]]+)\]/i.exec(bar)
                     if (meterMatch) {
                       currentMeter = normalizeMeter(meterMatch[1])
@@ -629,7 +638,7 @@ export default function useAbcjsParser() {
                       .replace(/\[Q:\s*[^\]]+\]/gi, ' ')
                       .trim()
                     if (!barWithoutMeta) {
-                      result[lineNumber][bk] = {}
+                      result[lineNumber][bk] = { __clear: true }
                       return
                     }
                     void keyMatch
@@ -671,8 +680,16 @@ export default function useAbcjsParser() {
                       newChords[0].unshift(pendingSectionMarker)
                       pendingSectionMarker = null
                     }
-                  
-                    result[lineNumber][bk] = newChords
+                    var onlyPlaceholders = barChords.length > 0 && barChords.every(function(t) {
+                      return t === '.' || t === '/'
+                    })
+                    if (onlyPlaceholders && Object.keys(newChords).length === 0) {
+                      result[lineNumber][bk] = { __preserve: true }
+                    } else if (Object.keys(newChords).length === 0) {
+                      result[lineNumber][bk] = { __clear: true }
+                    } else {
+                      result[lineNumber][bk] = newChords
+                    }
                   }
               })
             
@@ -687,6 +704,53 @@ export default function useAbcjsParser() {
           sectionMarkersByLine: sectionMarkersByLine,
         }
     }
+
+    function stripChartBarMeta(barText) {
+      return String(barText || '')
+        .replace(/\[K:\s*[^\]]+\]/gi, ' ')
+        .replace(/\[M:\s*[^\]]+\]/gi, ' ')
+        .replace(/\[Q:\s*[^\]]+\]/gi, ' ')
+        .trim()
+    }
+
+    function chartBarChordNames(barText) {
+      var barWithoutMeta = stripChartBarMeta(barText)
+      if (!barWithoutMeta) return []
+      return barWithoutMeta.split(/\s+/).filter(function(val) {
+        if (!val || val === '.' || val === '/') return false
+        if (isSectionMarkerToken(val)) return false
+        if (isInlineSignatureToken(val)) return false
+        return true
+      })
+    }
+
+    function normalizeChartBarTokens(barText) {
+      var barWithoutMeta = stripChartBarMeta(barText)
+      if (!barWithoutMeta) return ''
+      return barWithoutMeta.split(/\s+/).filter(Boolean).map(function(token) {
+        if (token === '.' || token === '/') return '.'
+        return token
+      }).join(' ')
+    }
+
+    function chartBarTextsFromChordText(chordText) {
+      var out = []
+      if (!chordText || !String(chordText).trim()) return out
+      String(chordText).trim().split('\n').forEach(function(line) {
+        var cleanLine = String(line || '').trim()
+        if (!cleanLine) return
+        if (cleanLine.endsWith('||')) cleanLine = cleanLine.slice(0, -2)
+        else if (cleanLine.endsWith('|')) cleanLine = cleanLine.slice(0, -1)
+        if (isSectionMarkerToken(cleanLine) || (/^#+\s+/.test(cleanLine) && isSectionHeader(cleanLine))) {
+          return
+        }
+        var bars = cleanLine.split('|').map(function(bar) { return String(bar || '').trim() })
+        var lineHasChords = bars.some(function(bar) { return String(bar || '').trim() })
+        if (!lineHasChords) return
+        out.push(bars)
+      })
+      return out
+    }
     
     /**
      * Merge compressed chord text into an abcString
@@ -700,10 +764,19 @@ export default function useAbcjsParser() {
         abcString = abcForAbcjs(abcString)
         var opts = options || {}
         var harmonyOnly = !!opts.harmonyOnly
+        function skipBarCountForSymbol(symbol, barCount, barTally) {
+            return harmonyOnly && barCount === 0 && barTally === 0
+                && symbol.el_type === 'bar'
+                && (symbol.type === 'bar_left_repeat' || symbol.type === 'bar_dbl_repeat')
+        }
         var parsedChords = parseChordText(chordText, abcString, alignment)
         var chordLayout = parsedChords.lines
         var meterByBarKey = parsedChords.meterByBarKey || {}
         var tempoByBarKey = parsedChords.tempoByBarKey || {}
+        var userBarTexts = chartBarTextsFromChordText(chordText)
+        var baselineBarTexts = opts.baselineChordText
+          ? chartBarTextsFromChordText(opts.baselineChordText)
+          : null
         var abc = parse(abcString)
         var abcJson = abcTools.abc2json(abcString)
         var noteLengthText = abcJson.noteLength ? abcJson.noteLength : '1/8'
@@ -784,11 +857,14 @@ export default function useAbcjsParser() {
                             barIndex[indexKey].push(symbolNumber)
                             if (symbol.duration > 0) barTally = barTally + (symbol.duration/noteLength)
                         } else if (symbol.el_type === 'bar') {
-                            barCount++
+                            if (!skipBarCountForSymbol(symbol, barCount, barTally)) {
+                                barCount++
+                            }
                             barTally = 0
                         }
-                        // clear chords
-                        abc[0].lines[lineNumber].staff[0].voices[0][symbolNumber].chord = []
+                        if (!harmonyOnly) {
+                            abc[0].lines[lineNumber].staff[0].voices[0][symbolNumber].chord = []
+                        }
                     })
                 }
             })
@@ -1010,7 +1086,9 @@ export default function useAbcjsParser() {
                             barIndex[indexKey].push(symbolNumber)
                             if (symbol.duration > 0) barTally = barTally + (symbol.duration / noteLength)
                         } else if (symbol.el_type === 'bar') {
-                            barCount++
+                            if (!skipBarCountForSymbol(symbol, barCount, barTally)) {
+                                barCount++
+                            }
                             barTally = 0
                         }
                     })
@@ -1018,14 +1096,62 @@ export default function useAbcjsParser() {
             })
             
             
-            var lineCount = 0        
+            var lineCount = 0
+            function clearChordsOnBar(lineNumber, barNumber) {
+                if (!abc[0].lines[lineNumber] || !abc[0].lines[lineNumber].staff
+                  || !abc[0].lines[lineNumber].staff[0]
+                  || !abc[0].lines[lineNumber].staff[0].voices[0]) {
+                  return
+                }
+                var voice = abc[0].lines[lineNumber].staff[0].voices[0]
+                var currentBar = 0
+                var barTally = 0
+                voice.forEach(function(symbol) {
+                    if (symbol.el_type === 'bar') {
+                        if (!skipBarCountForSymbol(symbol, currentBar, barTally)) {
+                            currentBar += 1
+                        }
+                        barTally = 0
+                        return
+                    }
+                    if (symbol.el_type === 'note') {
+                        if (symbol.duration > 0) barTally += (symbol.duration / noteLength)
+                        if (currentBar === barNumber) {
+                            symbol.chord = []
+                        }
+                    }
+                })
+            }
+            function shouldClearHarmonyBar(chartLineIndex, barNumber, bar) {
+                if (bar && bar.__clear) return true
+                if (!bar || !bar.__preserve) return false
+                var userBarText = userBarTexts[chartLineIndex] && userBarTexts[chartLineIndex][barNumber]
+                var baseBarText = baselineBarTexts
+                  && baselineBarTexts[chartLineIndex]
+                  && baselineBarTexts[chartLineIndex][barNumber]
+                if (baseBarText == null) return false
+                return chartBarChordNames(userBarText).length === 0
+                  && chartBarChordNames(baseBarText).length > 0
+                  && normalizeChartBarTokens(userBarText) !== normalizeChartBarTokens(baseBarText)
+            }
             // iterate incoming chords assigning to parsed abc 
             chordLayout.forEach(function(line,lineNumber) {
                 //var addNewLine = false
                 
                 line.forEach(function(bar,barNumber) {
+                    if (harmonyOnly) {
+                        if (shouldClearHarmonyBar(lineCount, barNumber, bar)) {
+                            clearChordsOnBar(lineCount, barNumber)
+                            return
+                        }
+                        if (bar && bar.__preserve) {
+                            return
+                        }
+                    }
                     var lastSymbolNumber = null
-                    Object.keys(bar).sort(function(a, b) {
+                    Object.keys(bar).filter(function(barKey) {
+                        return barKey !== '__preserve' && barKey !== '__clear'
+                    }).sort(function(a, b) {
                         var fa = parseFloat(a)
                         var fb = parseFloat(b)
                         if (fa < fb) return -1

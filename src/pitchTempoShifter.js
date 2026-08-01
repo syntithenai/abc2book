@@ -26,6 +26,9 @@ export default class PitchTempoShifter {
     this._directStopIntent = false;
     this._timeUpdateTimer = null;
     this._pitchOutputPending = false;
+    this._scheduledConnectTimer = null;
+    this._soundtouchStartContextTime = null;
+    this._soundtouchHoldOffset = 0;
   }
 
   setOnPitchOutputReady(callback) {
@@ -49,6 +52,11 @@ export default class PitchTempoShifter {
   getCurrentTime() {
     if (this._mode === 'direct') {
       return Math.max(0, this._getDirectPlaybackSeconds());
+    }
+    if (this._scheduledConnectTimer && this._soundtouchStartContextTime != null) {
+      if (this.audioContext.currentTime < this._soundtouchStartContextTime) {
+        return Math.max(0, this._soundtouchHoldOffset || 0);
+      }
     }
     if (this.shifter && typeof this.shifter.timePlayed === 'number') {
       return Math.max(0, this.shifter.timePlayed);
@@ -161,6 +169,32 @@ export default class PitchTempoShifter {
     return { tempo: this._tempo, pitch: this._pitch, fineTune: this._fineTune };
   }
 
+  _resolveConnectWhen(startWhen) {
+    const ctx = this.audioContext
+    if (!ctx) return null
+    return Number.isFinite(startWhen) && startWhen > ctx.currentTime + 0.001
+      ? startWhen
+      : ctx.currentTime
+  }
+
+  _clearScheduledConnect() {
+    if (this._scheduledConnectTimer) {
+      clearTimeout(this._scheduledConnectTimer)
+      this._scheduledConnectTimer = null
+    }
+  }
+
+  _connectSoundTouchPipeline(scheduledWhen) {
+    this._applySoundTouchSettings()
+    this.shifter.connect(this.gainNode)
+    this.gainNode.connect(this.audioContext.destination)
+    this._connected = true
+    this._soundtouchStartContextTime = scheduledWhen != null
+      ? scheduledWhen
+      : this.audioContext.currentTime
+    this._startTimeUpdates()
+  }
+
   connect(startWhen) {
     if (!this._connected) {
       if (!this.audioBuffer) {
@@ -174,13 +208,28 @@ export default class PitchTempoShifter {
         if (!this._directSource) {
           return false
         }
+        this.gainNode.connect(this.audioContext.destination);
+        this._connected = true;
+        this._startTimeUpdates();
       } else {
-        this._applySoundTouchSettings();
-        this.shifter.connect(this.gainNode);
+        const when = this._resolveConnectWhen(startWhen)
+        const delayMs = (when - this.audioContext.currentTime) * 1000
+        this._soundtouchHoldOffset = this.shifter
+          ? Math.max(0, this.shifter.timePlayed || 0)
+          : 0
+        if (delayMs > 1) {
+          this._clearScheduledConnect()
+          this._soundtouchStartContextTime = when
+          const self = this
+          this._scheduledConnectTimer = setTimeout(function() {
+            self._scheduledConnectTimer = null
+            if (self._connected) return
+            self._connectSoundTouchPipeline(when)
+          }, delayMs)
+          return true
+        }
+        this._connectSoundTouchPipeline(when)
       }
-      this.gainNode.connect(this.audioContext.destination);
-      this._connected = true;
-      this._startTimeUpdates();
     }
     return this._connected;
   }
@@ -189,7 +238,14 @@ export default class PitchTempoShifter {
     return this._connected;
   }
 
+  isConnectedOrPending() {
+    return this._connected || !!this._scheduledConnectTimer
+  }
+
   disconnect() {
+    this._clearScheduledConnect()
+    this._soundtouchStartContextTime = null
+    this._soundtouchHoldOffset = 0
     if (this._connected) {
       this._stopTimeUpdates();
       if (this._mode === 'direct') {

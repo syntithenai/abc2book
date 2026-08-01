@@ -4,6 +4,7 @@ import { formatTuneDisplayName } from './tuneDisplayName';
 import { flattenMelodyText } from './lyricBarAlignmentUtils';
 import { parseVoiceEvents } from './notation/voiceEventModel';
 import { parseNoteLengthDecimal } from './notation/beatGrid';
+import { parseTempoBpm } from './tempoRange';
 
 function issue(code, message, severity, extras) {
   return Object.assign({
@@ -26,12 +27,50 @@ function checkTempoMismatch(tune, abcText, abcTools) {
   const fromAbc = String(abcTools.getMetaValueFromAbc('Q', abcText) || '').trim();
   const fromTune = tune.tempo != null ? String(tune.tempo).trim() : '';
   if (!fromAbc || !fromTune) return null;
-  const abcNum = parseInt(fromAbc.replace(/[^0-9]/g, ''), 10);
-  const tuneNum = parseInt(String(fromTune).replace(/[^0-9]/g, ''), 10);
+  const abcNum = parseTempoBpm('Q:' + fromAbc);
+  const tuneNum = parseTempoBpm('Q:' + fromTune) || parseInt(String(fromTune).replace(/[^0-9]/g, ''), 10);
   if (!abcNum || !tuneNum || abcNum === tuneNum) return null;
   return issue(
     'tempo_mismatch',
     'ABC tempo Q:' + fromAbc + ' differs from tune tempo (' + fromTune + ')',
+    'info',
+    { field: 'tempo' }
+  );
+}
+
+function normalizeFractionText(value) {
+  const parts = String(value || '').trim().split('/');
+  if (parts.length !== 2) return String(value || '').trim();
+  const num = parseInt(parts[0], 10);
+  const den = parseInt(parts[1], 10);
+  if (!num || !den) return String(value || '').trim();
+  return String(num) + '/' + String(den);
+}
+
+function parseQBeatUnit(qText) {
+  const match = String(qText || '').match(/(\d+\s*\/\s*\d+)\s*=/);
+  return match ? normalizeFractionText(match[1]) : null;
+}
+
+function checkTempoBeatUnitMismatch(tune, abcText, abcTools) {
+  if (!abcTools || typeof abcTools.getMetaValueFromAbc !== 'function') return null;
+  const fromAbc = String(abcTools.getMetaValueFromAbc('Q', abcText) || '').trim();
+  if (!fromAbc) return null;
+  const beatUnit = parseQBeatUnit(fromAbc);
+  if (!beatUnit) return null;
+  const meterBeat = typeof abcTools.getBeatLength === 'function'
+    ? normalizeFractionText(abcTools.getBeatLength(tune.meter || '4/4'))
+    : null;
+  if (!meterBeat || beatUnit === meterBeat) return null;
+  const tuneBpm = parseTempoBpm('Q:' + String(tune.tempo || ''))
+    || parseInt(String(tune.tempo || '').replace(/[^0-9]/g, ''), 10) || 0;
+  const abcBpm = parseTempoBpm('Q:' + fromAbc);
+  if (tuneBpm && abcBpm && tuneBpm !== abcBpm) return null;
+  return issue(
+    'tempo_beat_unit_mismatch',
+    'ABC tempo Q:' + fromAbc + ' uses beat unit ' + beatUnit
+      + ' but meter ' + (tune.meter || '4/4') + ' expects ' + meterBeat
+      + ' — use tune tempo only',
     'info',
     { field: 'tempo' }
   );
@@ -189,7 +228,12 @@ export function checkTuneAbcExtended(tune, options) {
 
   const issues = [];
   const tempoIssue = checkTempoMismatch(tune, abcText, abcTools);
-  if (tempoIssue) issues.push(tempoIssue);
+  if (tempoIssue) {
+    issues.push(tempoIssue);
+  } else {
+    const tempoBeatUnitIssue = checkTempoBeatUnitMismatch(tune, abcText, abcTools);
+    if (tempoBeatUnitIssue) issues.push(tempoBeatUnitIssue);
+  }
 
   issues.push.apply(issues, checkOrphanChordSymbols(tune));
   issues.push.apply(issues, checkTieAcrossBarline(tune));

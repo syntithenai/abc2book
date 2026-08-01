@@ -14,6 +14,9 @@ import {
   dedupeLeadingInlineSignatureDuplicates,
   inlineMeterSignatureChanged,
   normalizeStanzaNameKey as stanzaNameKeyFromChordSheet,
+  formatSectionChartForEditor,
+  parseSectionChartFromEditor,
+  stripChartStructureMarkers,
 } from './chordSheetUtils'
 import {
   formatLyricSectionHeader,
@@ -447,7 +450,12 @@ export function rebuildChordGridFromSections(sections) {
     const meter = normalizeMeter(section.meter || previousMeter || '4/4')
     const key = normalizeKeySignature(section.abcKey || previousKey || 'C')
     const tempo = normalizeTempo(section.tempo) || previousTempo
-    let chartPart = String(section.chart || '').trim()
+    let chartPart = formatSectionChartForEditor(
+      Object.assign({}, section, {
+        notationMarkerWritten: false,
+        writeNotationMarker: false,
+      })
+    ).trim()
     const header = section.header || section.lyricSectionHeader || ''
     if (header && (section.notationMarkerWritten || section.writeNotationMarker)) {
       chartPart = joinChartHeaderAndBody(sectionMarkerChartLine(header), chartPart)
@@ -638,9 +646,16 @@ export function prepareChordGridDraft(sections, gridText, noteLength) {
     if (!section || section.chartRevisit) continue
     const draftBlock = blockCursor < chartBlocks.length ? chartBlocks[blockCursor] : ''
     blockCursor += 1
-    const prep = prepareSectionChartDraft(section, draftBlock, noteLength)
+    const parsed = parseSectionChartFromEditor(draftBlock)
+    const prep = prepareSectionChartDraft(section, parsed.cleanChart, noteLength)
     if (!prep.ok) return prep
-    preparedBlocks.push(prep.chart)
+    const prepSplit = splitChartHeaderAndBody(prep.chart)
+    const cleanBody = stripChartStructureMarkers(prepSplit.body || prep.chart)
+    preparedBlocks.push(
+      prepSplit.headerLine
+        ? joinChartHeaderAndBody(prepSplit.headerLine, cleanBody)
+        : cleanBody
+    )
     if (prep.headerPatch) {
       headerPatches.push({ index: index, patch: prep.headerPatch })
     }

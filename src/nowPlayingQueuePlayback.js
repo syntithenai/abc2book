@@ -342,6 +342,10 @@ export function resolveHostPlayingTuneId({ queue, mediaController, viewedTuneId,
     : null
 
   if (isQueueActive(queue)) {
+    const item = getCurrentItem(queue)
+    if (isExternalQueueItem(item) && !isLessonExternalMedia(item.externalMedia)) {
+      return null
+    }
     const queueTuneId = getCurrentTuneId(queue)
     if (isViewingDifferentFromPlaying(viewedTuneId, queue) && viewedTuneId) {
       // User started playback on the tune they are viewing (not the queue item).
@@ -445,6 +449,13 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
   if (practiceSessionActive || gigModeActive) return false
   if (mediaController && mediaController.notationMidiOwner) return false
   if (shouldMusicSingleOwnPlayback(viewedTuneId, queue)) return false
+
+  if (isQueueActive(queue)) {
+    const item = getCurrentItem(queue)
+    if (isExternalQueueItem(item) && !isLessonExternalMedia(item.externalMedia)) {
+      return false
+    }
+  }
 
   // Keep the engine mounted while MIDI/media is starting or playing so a route
   // or queue mismatch does not unmount Abc mid count-in (silent progress bar).

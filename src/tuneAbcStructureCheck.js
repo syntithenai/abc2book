@@ -15,6 +15,7 @@ import {
 } from './lyricBarAlignmentUtils';
 import { melodyHasAnacrusisDoubleBarlines } from './melodyBarlineNormalize';
 import { analyzeSectionPickupVoltaBoundaries } from './sectionPickupVolta';
+import { hasOpenRepeatBeforeDoubleBar } from './repeatStrainFix';
 
 const EPSILON = 0.05;
 const MAX_REPORTED_BARS = 8;
@@ -203,7 +204,6 @@ function checkRepeatStructure(noteLines) {
   let inEnding = false;
   const endingBars = {};
   let currentEnding = null;
-  let unmatchedStart = false;
   let unmatchedEnd = false;
   let hasRepeatMark = false;
 
@@ -213,12 +213,18 @@ function checkRepeatStructure(noteLines) {
     if (token === '|:') {
       hasRepeatMark = true;
       repeatDepth += 1;
-    } else if (token === ':|' || token === '::') {
+    } else if (token === '::') {
+      hasRepeatMark = true;
+      if (repeatDepth <= 0) unmatchedEnd = true;
+      // :: is :| |: in one token — close and reopen without changing depth.
+    } else if (token === ':|') {
       hasRepeatMark = true;
       if (repeatDepth <= 0) unmatchedEnd = true;
       else repeatDepth -= 1;
       inEnding = false;
       currentEnding = null;
+    } else if (token === '||') {
+      // Double bar is a strain separator, not a repeat end — open |: needs :| before ||.
     } else if (/^\[[0-9]+\]$/.test(token) || /^\[[0-9]+$/.test(token)) {
       hasRepeatMark = true;
       if (repeatDepth <= 0 && !hasRepeatToken) {
@@ -236,9 +242,22 @@ function checkRepeatStructure(noteLines) {
     }
   });
 
-  if (repeatDepth > 0) unmatchedStart = true;
-  if (unmatchedStart) {
-    issues.push(issue('unmatched_repeat_start', 'Repeat start |: has no matching end', 'error'));
+  if (repeatDepth > 0) {
+    if (hasOpenRepeatBeforeDoubleBar(flat)) {
+      issues.push(issue(
+        'strain_missing_repeat_end',
+        repeatDepth === 1
+          ? 'Strain ends with || without repeat end :|'
+          : repeatDepth + ' strains end with || without repeat end :|',
+        'warning',
+        { repeatCount: repeatDepth }
+      ));
+    } else {
+      const message = repeatDepth === 1
+        ? 'Repeat start |: has no matching end'
+        : repeatDepth + ' repeat sections (|:) have no matching end';
+      issues.push(issue('unmatched_repeat_start', message, 'error', { repeatCount: repeatDepth }));
+    }
   }
   if (unmatchedEnd) {
     issues.push(issue('unmatched_repeat_end', 'Repeat end :| has no matching start', 'error'));

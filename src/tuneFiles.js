@@ -296,6 +296,7 @@ export async function updateTuneFileBlob(options) {
     type: type,
     googleId: shouldUpload ? null : (existing && existing.googleId) || null,
     uploadPending: shouldUpload || !(existing && existing.googleId),
+    blobUpdatedAt: Date.now(),
   })
 
   if (shouldUpload) {

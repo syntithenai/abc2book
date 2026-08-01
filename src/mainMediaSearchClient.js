@@ -75,9 +75,13 @@ export function mergeMainMediaCandidates(groups, totalCap) {
 async function runSourceSearch(searchFn, searchOpts) {
   try {
     const result = await searchFn(searchOpts);
-    return { candidates: collectCandidates(result), error: null };
+    return {
+      candidates: collectCandidates(result),
+      error: null,
+      needsPermission: !!(result && result.needsPermission),
+    };
   } catch (error) {
-    return { candidates: [], error: error };
+    return { candidates: [], error: error, needsPermission: false };
   }
 }
 
@@ -129,7 +133,15 @@ export async function searchMainMediaSources(options) {
   }, totalCap);
 
   if (!candidates.length) {
-    return { empty: true, candidates: [] };
+    return {
+      empty: true,
+      candidates: [],
+      deviceNeedsPermission: !!results[1].needsPermission,
+    };
   }
-  return { empty: false, candidates: candidates };
+  return {
+    empty: false,
+    candidates: candidates,
+    deviceNeedsPermission: !!results[1].needsPermission,
+  };
 }

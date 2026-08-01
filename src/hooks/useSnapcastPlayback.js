@@ -10,6 +10,7 @@ import {
   seekSnapcastSession,
 } from '../snapcastPlaybackClient';
 import { enrichPayloadWithYoutubeAudioPrefetch } from '../youtubeRemoteAudioPrefetch';
+import { normalizeRemotePlaybackPayload } from '../youtubePlaybackUri';
 
 const POLL_MS = 1000;
 const POLL_BACKOFF_MAX_MS = 10000;
@@ -142,12 +143,15 @@ export default function useSnapcastPlayback({ mediaController, snapcastControl }
         duration: duration,
         accessToken: accessToken,
       });
-      if (payload && payload.sourceType === 'youtube') {
+      if (payload) {
         const youtubeGetId = mediaController.youtubeGetId
           || (mediaController.tunebook && mediaController.tunebook.utils
             ? mediaController.tunebook.utils.YouTubeGetID
             : null);
-        sessionPayload = await enrichPayloadWithYoutubeAudioPrefetch(sessionPayload, youtubeGetId);
+        sessionPayload = normalizeRemotePlaybackPayload(sessionPayload, youtubeGetId);
+        if (sessionPayload.sourceType === 'youtube') {
+          sessionPayload = await enrichPayloadWithYoutubeAudioPrefetch(sessionPayload, youtubeGetId);
+        }
       }
       return createSnapcastPlaybackSession(sessionPayload);
     }

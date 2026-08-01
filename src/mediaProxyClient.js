@@ -2,6 +2,7 @@ import {
   getMediaProxyBaseCandidates as buildMediaProxyBaseCandidates,
   DEFAULT_CLOUD_LIGHT_MEDIA_PROXY,
 } from './mediaProxyConfig';
+import { AUTH_SESSION_HEADER, readStoredAuthSessionId } from './authResolverClient';
 import { trackResolverRequest } from './analytics';
 import { parseResolverFeaturesFromHealthBody } from './resolverFeatures';
 import { pickAuthResolverBase, resolveStickyAuthBase } from './authResolverClient';
@@ -21,6 +22,7 @@ let snapcastPlaybackProxyBase = null;
 let castPlaybackProxyBase = null;
 let midiImportProxyBase = null;
 let musicCollectionProxyBase = null;
+let lastProbeCandidates = [];
 
 // Health checks must fail fast. A configured-but-unreachable candidate (e.g. the
 // public resolver when the browser can't reach it via NAT loopback) would
@@ -70,6 +72,23 @@ function isLikelyLocalResolverBase(base) {
       || host.startsWith('192.168.')
       || host.startsWith('10.')
       || host.startsWith('172.');
+  } catch (e) {
+    return false;
+  }
+}
+
+function isDevServerMediaProxyBase(base) {
+  if (!base) return false;
+  try {
+    const parsed = new URL(base);
+    const host = parsed.hostname;
+    if (host !== 'localhost' && host !== '127.0.0.1') return false;
+    if (parsed.port === '8787') return false;
+    if (typeof window !== 'undefined' && window.location && window.location.origin) {
+      if (base === window.location.origin) return true;
+    }
+    // npm start (3000) and Vite (5173) proxy resolver API paths to :8787.
+    return parsed.port === '3000' || parsed.port === '5173';
   } catch (e) {
     return false;
   }
@@ -134,12 +153,11 @@ export function isMediaProxyConfigured() {
 }
 
 export function clearActiveMediaProxyBase() {
+  // Only clear the last successful fetch target. Playback routing bases come from
+  // the last /health probe and are refreshed in probeMediaResolverCandidates;
+  // wiping them here caused cast/snapcast requests to fail mid-session while the
+  // Settings UI still showed a resolver as "in use".
   activeProxyBase = null;
-  heavyMlProxyBase = null;
-  snapcastPlaybackProxyBase = null;
-  castPlaybackProxyBase = null;
-  midiImportProxyBase = null;
-  musicCollectionProxyBase = null;
 }
 
 export function isCloudLightResolverBase(base) {
@@ -179,12 +197,49 @@ export function resolveSnapcastPlaybackBase(candidates) {
 }
 
 export function getSnapcastPlaybackProxyBase() {
-  return snapcastPlaybackProxyBase || '';
+  if (snapcastPlaybackProxyBase) return snapcastPlaybackProxyBase;
+  if (lastProbeCandidates.length > 0) {
+    const resolved = resolveSnapcastPlaybackBase(lastProbeCandidates);
+    if (resolved) {
+      snapcastPlaybackProxyBase = resolved;
+      return resolved;
+    }
+  }
+  return '';
 }
 
 function candidateHasCastPlayback(candidate) {
   const features = candidate && candidate.features;
-  return !!(features && features.castPlayback);
+  if (features && features.castPlayback) return true;
+  const cast = candidate && candidate.cast;
+  return !!(cast && cast.enabled !== false && cast.publicBase);
+}
+
+function candidateSupportsCastPlayback(candidate, candidates) {
+  if (candidateHasCastPlayback(candidate)) return true;
+  if (!isDevServerMediaProxyBase(candidate.base)) return false;
+  for (let i = 0; i < candidates.length; i++) {
+    const loopback = candidates[i];
+    if (loopback.base !== 'http://localhost:8787' && loopback.base !== 'http://127.0.0.1:8787') {
+      continue;
+    }
+    if (candidateHasCastPlayback(loopback)) return true;
+  }
+  return false;
+}
+
+function preferDirectLocalResolverBase(base, candidates) {
+  if (!isDevServerMediaProxyBase(base)) return base;
+  for (let i = 0; i < candidates.length; i++) {
+    const direct = candidates[i];
+    if (direct.base !== 'http://localhost:8787' && direct.base !== 'http://127.0.0.1:8787') {
+      continue;
+    }
+    if (!direct.reachable || !direct.available || direct.resolverAccess === false) continue;
+    if (!candidateSupportsCastPlayback(direct, candidates)) continue;
+    return direct.base;
+  }
+  return base;
 }
 
 export function resolveCastPlaybackBase(candidates) {
@@ -195,8 +250,8 @@ export function resolveCastPlaybackBase(candidates) {
       if (candidate.base !== preferredAuth) continue;
       if (!candidate.reachable || !candidate.available) continue;
       if (candidate.resolverAccess === false) continue;
-      if (!candidateHasCastPlayback(candidate)) continue;
-      return candidate.base;
+      if (!candidateSupportsCastPlayback(candidate, candidates)) continue;
+      return preferDirectLocalResolverBase(candidate.base, candidates);
     }
   }
   let remoteFallback = null;
@@ -204,16 +259,26 @@ export function resolveCastPlaybackBase(candidates) {
     const candidate = candidates[i];
     if (!candidate.reachable || !candidate.available) continue;
     if (candidate.resolverAccess === false) continue;
-    if (!candidateHasCastPlayback(candidate)) continue;
+    if (!candidateSupportsCastPlayback(candidate, candidates)) continue;
     if (isCloudLightResolverBase(candidate.base)) continue;
-    if (isLikelyLocalResolverBase(candidate.base)) return candidate.base;
+    if (isLikelyLocalResolverBase(candidate.base)) {
+      return preferDirectLocalResolverBase(candidate.base, candidates);
+    }
     if (!remoteFallback) remoteFallback = candidate.base;
   }
   return remoteFallback;
 }
 
 export function getCastPlaybackProxyBase() {
-  return castPlaybackProxyBase || '';
+  if (castPlaybackProxyBase) return castPlaybackProxyBase;
+  if (lastProbeCandidates.length > 0) {
+    const resolved = resolveCastPlaybackBase(lastProbeCandidates);
+    if (resolved) {
+      castPlaybackProxyBase = resolved;
+      return resolved;
+    }
+  }
+  return '';
 }
 
 function pickMidiImportBase(candidates) {
@@ -241,9 +306,16 @@ export function normalizeAccessToken(accessToken) {
 }
 
 function buildAuthHeaders(accessToken) {
+  const headers = {};
   const token = normalizeAccessToken(accessToken);
-  if (!token) return {};
-  return { Authorization: 'Bearer ' + token };
+  if (token) {
+    headers.Authorization = 'Bearer ' + token;
+  }
+  const sessionId = readStoredAuthSessionId();
+  if (sessionId) {
+    headers[AUTH_SESSION_HEADER] = sessionId;
+  }
+  return headers;
 }
 
 function isMixedContentBlocked(base) {
@@ -384,6 +456,10 @@ async function tryHealthAtBase(base, accessToken) {
   const headers = { Accept: 'application/json' };
   if (accessToken) {
     headers.Authorization = 'Bearer ' + accessToken;
+  }
+  const sessionId = readStoredAuthSessionId();
+  if (sessionId) {
+    headers[AUTH_SESSION_HEADER] = sessionId;
   }
 
   try {
@@ -534,6 +610,7 @@ function probeBaseWithHardTimeout(base, accessToken) {
 
 export async function probeMediaResolverCandidates(accessToken) {
   const bases = getMediaProxyBaseCandidates();
+  lastProbeCandidates = [];
 
   // Probe all candidates concurrently so one slow/unreachable base (typically
   // the public resolver) can't block the others. Promise.all preserves order,
@@ -541,6 +618,7 @@ export async function probeMediaResolverCandidates(accessToken) {
   const candidates = await Promise.all(bases.map(function(base) {
     return probeBaseWithHardTimeout(base, accessToken);
   }));
+  lastProbeCandidates = candidates;
 
   let activeBase = null;
   let activeCandidate = null;
@@ -710,9 +788,9 @@ function formatSnapcastPlaybackResolverError(error, bases) {
       'Sign in to Tune Book to route audio through your home resolver (Snapcast requires peppertrees).'
     );
   }
-  if (snapcastPlaybackProxyBase) {
+  if (getSnapcastPlaybackProxyBase()) {
     throw new Error(
-      'Could not reach your home resolver for Snapcast (' + snapcastPlaybackProxyBase + '). '
+      'Could not reach your home resolver for Snapcast (' + getSnapcastPlaybackProxyBase() + '). '
       + 'Check that docker compose --profile snapcast is running on peppertrees.'
     );
   }
@@ -725,15 +803,21 @@ function formatSnapcastPlaybackResolverError(error, bases) {
 
 function formatCastPlaybackResolverError(error, bases) {
   const message = error && error.message ? String(error.message) : '';
+  const castBase = getCastPlaybackProxyBase();
   if (message.indexOf('Media proxy error 401') === 0
     || message.indexOf('Media proxy error 403') === 0) {
     throw new Error(
       'Sign in to Tune Book to route audio through your home resolver for Chromecast.'
     );
   }
-  if (castPlaybackProxyBase) {
+  if (message.indexOf('Media proxy error 402') === 0) {
     throw new Error(
-      'Could not reach your home resolver for Chromecast (' + castPlaybackProxyBase + '). '
+      'Your resolver credit balance is empty. Buy credit or use your own local resolver for Chromecast.'
+    );
+  }
+  if (castBase) {
+    throw new Error(
+      'Could not reach your home resolver for Chromecast (' + castBase + '). '
       + 'Check that your resolver is running and CAST_PUBLIC_URL is set.'
     );
   }
@@ -756,11 +840,13 @@ function formatRemotePlaybackResolverError(error, bases, pathAndQuery) {
 }
 
 function resolvePreferredProxyBase(pathAndQuery) {
-  if (pathNeedsSnapcastPlayback(pathAndQuery) && snapcastPlaybackProxyBase) {
-    return snapcastPlaybackProxyBase;
+  if (pathNeedsSnapcastPlayback(pathAndQuery)) {
+    const snapcastBase = getSnapcastPlaybackProxyBase();
+    if (snapcastBase) return snapcastBase;
   }
-  if (pathNeedsCastPlayback(pathAndQuery) && castPlaybackProxyBase) {
-    return castPlaybackProxyBase;
+  if (pathNeedsCastPlayback(pathAndQuery)) {
+    const castBase = getCastPlaybackProxyBase();
+    if (castBase) return castBase;
   }
   if (pathNeedsHeavyMl(pathAndQuery) && heavyMlProxyBase) {
     return heavyMlProxyBase;
@@ -796,8 +882,8 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
       }
       if (pathNeedsHomeRemotePlayback(pathAndQuery)
         && isCloudLightResolverBase(proxyBase)
-        && proxyBase !== snapcastPlaybackProxyBase
-        && proxyBase !== castPlaybackProxyBase) {
+        && proxyBase !== getSnapcastPlaybackProxyBase()
+        && proxyBase !== getCastPlaybackProxyBase()) {
         continue;
       }
       if (pathNeedsMidiAnalyze(pathAndQuery)
@@ -1009,6 +1095,18 @@ export async function fetchDirectOrProxy(options) {
 
   if (isOwnedMediaLinkUri(src)) {
     throw new Error('Owned recording links must be resolved locally before proxy playback');
+  }
+
+  if (isMusicCollectionLinkUri(src)) {
+    if (!isMediaProxyConfigured()) {
+      throw new Error('Music collection playback requires a configured media resolver');
+    }
+    const proxyPath = musicCollectionProxyPathFromUri(src);
+    if (!proxyPath) {
+      throw new Error('Invalid music collection link');
+    }
+    const response = await fetchViaMediaProxy(proxyPath, accessToken);
+    return { response: response, viaProxy: true };
   }
 
   const directResponse = await tryDirectFetch(src);

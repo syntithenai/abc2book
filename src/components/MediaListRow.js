@@ -4,6 +4,8 @@ import MediaListPlaybackButtons from './MediaListPlaybackButtons'
 import {
   isDeviceFileResult,
   isMusicCollectionResult,
+  mediaSearchResultDisplayArtist,
+  mediaSearchResultDisplayTitle,
   mediaSearchSourceLabel,
 } from '../mediaLinkSearchDisplay'
 import './MediaListRow.css'
@@ -27,25 +29,61 @@ export default function MediaListRow(props) {
     ? ' tune-list-item--device'
     : (isMusicCollectionResult(candidate) ? ' tune-list-item--collection' : '')
   const sourceLabel = mediaSearchSourceLabel(candidate.source)
+  const displayTitle = mediaSearchResultDisplayTitle(candidate)
+  const displayArtist = mediaSearchResultDisplayArtist(candidate)
 
   const playButtons = (
     <MediaListPlaybackButtons
       candidate={candidate}
+      tunebook={props.tunebook}
       mediaController={props.mediaController}
       nowPlayingQueue={props.nowPlayingQueue}
       setNowPlayingQueue={props.setNowPlayingQueue}
       onAddToTunebook={props.onAddToTunebook}
       onError={props.onMediaError}
       playIcon={props.tunebook && props.tunebook.icons ? props.tunebook.icons.play : null}
-      className="media-list-item-play"
+      pauseIcon={props.tunebook && props.tunebook.icons ? props.tunebook.icons.pause : null}
+      className="tune-list-item-play"
       buttonSize={props.showRowExtras ? 'lg' : undefined}
     />
   )
 
+  if (isCompact) {
+    return (
+      <ListGroup.Item
+        key={props.rowKey || ('media-' + tk)}
+        className={'tune-list-item tune-list-item--media' + sourceClass + ' tune-list-item-compact'}
+        style={{ borderTop: '2px solid black', borderLeft: '2px solid black', borderRight: '2px solid black' }}
+      >
+        <div className="tune-list-item-row media-list-item-row">
+          <div className="tune-list-item-title-block">
+            <span className="tune-list-item-title">
+              <span className="tune-list-title-link tune-list-title-link--compact media-list-title-link">
+                <span className="tune-list-title-text">
+                  <span className="tune-list-title-name">{displayTitle}</span>
+                  {displayArtist ? (
+                    <span className="tune-list-title-composer">
+                      <span className="tune-list-title-sep" aria-hidden="true"> — </span>
+                      {displayArtist}
+                    </span>
+                  ) : null}
+                </span>
+                <span className="tune-list-title-badge">{sourceLabel}</span>
+              </span>
+            </span>
+          </div>
+          <div className="tune-list-item-meta">
+            {playButtons}
+          </div>
+        </div>
+      </ListGroup.Item>
+    )
+  }
+
   return (
     <ListGroup.Item
       key={props.rowKey || ('media-' + tk)}
-      className={'tune-list-item tune-list-item--media' + sourceClass + (isCompact ? ' tune-list-item-compact' : ' tune-list-item-detailed')}
+      className={'tune-list-item tune-list-item--media' + sourceClass + ' tune-list-item-detailed'}
       style={{ borderTop: '2px solid black', borderLeft: '2px solid black', borderRight: '2px solid black' }}
     >
       <div className="media-list-item-row">
@@ -56,9 +94,10 @@ export default function MediaListRow(props) {
         />
         <div className="media-list-item-details">
           <MediaSearchResultDetails item={candidate} />
-          <span className="media-list-source-badge">{sourceLabel}</span>
         </div>
-        {playButtons}
+        <div className="tune-list-item-meta">
+          {playButtons}
+        </div>
       </div>
     </ListGroup.Item>
   )

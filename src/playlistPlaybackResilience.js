@@ -13,6 +13,7 @@ import { cancelPlaylistTitleAnnouncement } from './playlistTitleAnnouncement'
 import { isBackgroundCapablePlayback } from './backgroundPlaybackCapability'
 import { prefersNativeMediaPlayback } from './platformUtils'
 import { getPlaybackSettings } from './pitchTempoUtils'
+import { stopStandaloneMediaPlayback } from './standaloneMediaPlayback'
 
 export function isQueueItemPlayable(tune, item, tunebook) {
   if (isExternalQueueItem(item)) return true
@@ -128,6 +129,7 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
 
 export function stopPlaylistPlayback(mediaController) {
   cancelPlaylistTitleAnnouncement()
+  stopStandaloneMediaPlayback().catch(function() {})
   if (!mediaController) return
   if (mediaController.abortPlayingIntent) {
     mediaController.abortPlayingIntent()

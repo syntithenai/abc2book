@@ -14,6 +14,8 @@ import {
   removeEmptyVoiceInTune,
   removeOrphanRepeatEndInTune,
   resolveHeaderConflictFromAbc,
+  fixStrainRepeatEndsInTune,
+  standardizeBarsAndRepeatsInTune,
   wrapEndingInRepeatInTune,
   convertSectionPickupsToVoltasInTune,
   structureFixAvailable,
@@ -185,6 +187,39 @@ describe('tuneAbcStructureCheck', function() {
     const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
     expect(result).toBeNull();
   });
+
+  test('session double-strain repeats flag missing repeat end before double bar', function() {
+    const body = [
+      '|: "Am"E2A2 ABcd | e2d2 c2A2 | "G"B2G2 GFGA | "Em"B2AG E2D2 |',
+      '"Am"E2A2 ABcd | e2d2 e2ag | "Em"e2d2 "G"BedB | "Am"A4 A4 ||',
+      '|: "Am"a2e2 e2fg | abag e2fg | abaf "Em"g3e | "G"dedB G4 |',
+      '"Am"a2e2 e2fg | abag e2d2 | "Em"B2e2 "G"d2B2 | "Am"A4 A4 ||',
+    ].join('\n');
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Session Repeat') + body, { key: 'Am', meter: '4/4' });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).toContain('strain_missing_repeat_end');
+    expect(codes).not.toContain('unmatched_repeat_start');
+  });
+
+  test('adjacent repeat sections with :| then |: are valid (Aughrim pattern)', function() {
+    const body = [
+      '|: "Am"E2A2ABcd | e2d2c2A2 | "G"B2G2GFGA | "Em"B2AGE2D2 |',
+      '"Am"E2A2ABcd | e2d2e2ag | "Em"e2d2"G"BedB | "Am"A4A4 :|',
+      '|: "Am"a2e2e2fg | abage2fg | abaf"Em"g3e | "G"dedBG4 |',
+      '"Am"a2e2e2fg | abage2d2 | "Em"B2e2"G"d2B2 | "Am"A4A4 :|',
+    ].join('\n');
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('After The Battle Of Aughrim') + body, {
+      key: 'Adorian',
+      meter: '4/4',
+      noteLength: '1/8',
+    });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('unmatched_repeat_end');
+    expect(codes).not.toContain('unmatched_repeat_start');
+    expect(codes).not.toContain('section_pickup_should_be_ending');
+  });
 });
 
 describe('tuneAbcStructureFix', function() {
@@ -208,6 +243,38 @@ describe('tuneAbcStructureFix', function() {
     const codes = after && after.issues ? after.issues.map(function(i) { return i.code }) : [];
     expect(codes).not.toContain('empty_bar');
     expect(codes).not.toContain('repeat_style_mixed');
+  });
+
+  test('collapseEmptyRepeatBarsInTune removes empty bar between || and |:', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Strain Gap'), {
+      voices: { '1': { notes: ['"Am"A4 A4 || | |: "G"G4 G4 |]'] } },
+    });
+    const fixed = collapseEmptyRepeatBarsInTune(tune);
+    expect(fixed).not.toBeNull();
+    const notes = fixed.voices[Object.keys(fixed.voices)[0]].notes.join('\n');
+    expect(notes).toMatch(/\|\|\s*\|:/);
+    expect(notes).not.toMatch(/\|\|\s*\|\s*\|:/);
+  });
+
+  test('fixStrainRepeatEndsInTune inserts repeat end before strain double bar', function() {
+    const body = [
+      '|: "Am"E2A2 ABcd | e2d2 c2A2 | "G"B2G2 GFGA | "Em"B2AG E2D2 |',
+      '"Am"E2A2 ABcd | e2d2 e2ag | "Em"e2d2 "G"BedB | "Am"A4 A4 ||',
+      '|: "Am"a2e2 e2fg | abag e2fg | abaf "Em"g3e | "G"dedB G4 |',
+      '"Am"a2e2 e2fg | abag e2d2 | "Em"B2e2 "G"d2B2 | "Am"A4 A4 ||',
+    ].join('\n');
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Session Repeat') + body, { key: 'Am', meter: '4/4' });
+    const before = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    expect(before.issues.some(function(i) { return i.code === 'strain_missing_repeat_end'; })).toBe(true);
+
+    const fixed = fixStrainRepeatEndsInTune(tune);
+    expect(fixed).not.toBeNull();
+    const notes = fixed.voices[Object.keys(fixed.voices)[0]].notes;
+    expect(notes.length).toBe(4);
+    expect(notes.join(' ')).toMatch(/:\|\|/);
+    const after = checkTuneAbcStructure(fixed, { abcTools: abcTools });
+    const codes = after && after.issues ? after.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('strain_missing_repeat_end');
   });
 
   test('fixSessionLineBreaksInTune converts Session markers', function() {

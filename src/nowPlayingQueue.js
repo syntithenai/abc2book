@@ -26,6 +26,10 @@ export function isLessonExternalMedia(externalMedia) {
   return !!(externalMedia && externalMedia.youtubeId)
 }
 
+export function isStandaloneExternalQueueItem(item) {
+  return isExternalQueueItem(item) && !isLessonExternalMedia(item.externalMedia)
+}
+
 export function isLessonQueue(queue) {
   return !!(queue && queue.source === 'lesson')
 }

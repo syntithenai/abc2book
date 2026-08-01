@@ -116,6 +116,63 @@ describe('mediaProxyClient', function() {
     expect(warning.message).toMatch(/Low resolver credit/i);
   });
 
+  test('resolveCastPlaybackBase prefers direct localhost:8787 over dev-server proxy', function() {
+    const originalLocation = window.location;
+    Object.defineProperty(window, 'location', {
+      configurable: true,
+      value: { protocol: 'http:', origin: 'http://localhost:3000', hostname: 'localhost' },
+    });
+    const base = mediaProxyClient.resolveCastPlaybackBase([
+      {
+        base: 'http://localhost:3000',
+        reachable: true,
+        available: true,
+        resolverAccess: true,
+        oauthBff: true,
+        features: { castPlayback: true, oauthBff: true },
+        cast: { enabled: true, publicBase: 'https://peppertrees.example.com' },
+      },
+      {
+        base: 'http://localhost:8787',
+        reachable: true,
+        available: true,
+        resolverAccess: true,
+        features: { castPlayback: true },
+        cast: { enabled: true, publicBase: 'https://peppertrees.example.com' },
+      },
+    ]);
+    Object.defineProperty(window, 'location', { configurable: true, value: originalLocation });
+    expect(base).toBe('http://localhost:8787');
+  });
+
+  test('resolveCastPlaybackBase uses cast health when features omit castPlayback', function() {
+    const base = mediaProxyClient.resolveCastPlaybackBase([
+      {
+        base: 'http://localhost:8787',
+        reachable: true,
+        available: true,
+        resolverAccess: true,
+        features: { proxy: true },
+        cast: { enabled: true, publicBase: 'https://peppertrees.example.com' },
+      },
+    ]);
+    expect(base).toBe('http://localhost:8787');
+  });
+
+  test('clearActiveMediaProxyBase only clears the last fetch target', function() {
+    const candidates = [{
+      base: 'http://localhost:8787',
+      reachable: true,
+      available: true,
+      resolverAccess: true,
+      features: { castPlayback: true },
+      cast: { enabled: true, publicBase: 'https://peppertrees.example.com' },
+    }];
+    expect(mediaProxyClient.resolveCastPlaybackBase(candidates)).toBe('http://localhost:8787');
+    mediaProxyClient.clearActiveMediaProxyBase();
+    expect(mediaProxyClient.getActiveMediaProxyBase()).toBe('');
+  });
+
   test('fetchViaMediaProxy skips mixed-content HTTP bases on HTTPS pages', async function() {
     const originalLocation = window.location;
     Object.defineProperty(window, 'location', {

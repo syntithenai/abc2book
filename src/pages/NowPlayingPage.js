@@ -321,8 +321,6 @@ export default function NowPlayingPage(props) {
                     tunebook={props.tunebook}
                     nowPlayingQueue={props.nowPlayingQueue}
                     tunes={props.tunes}
-                    login={props.login}
-                    accessToken={props.token}
                     largeIcon
                   />
                 </div>
@@ -330,14 +328,16 @@ export default function NowPlayingPage(props) {
               </div>
             ) : null}
             <div className="now-playing-page-media-sources">
-              <div className="media-controls-playback-buttons">
-                <MediaSourcePlaybackButtons
-                  tune={playingTune}
-                  tunebook={props.tunebook}
-                  mediaController={mediaController}
-                  suppressRouteNavigation
-                />
-              </div>
+              <MediaSourcePlaybackButtons
+                tune={playingTune}
+                tunebook={props.tunebook}
+                mediaController={mediaController}
+                suppressRouteNavigation
+                presentation="both"
+                login={props.login}
+                accessToken={props.token}
+                className="now-playing-page-media-sources-picker"
+              />
             </div>
           </>
         ) : null}

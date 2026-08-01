@@ -1,6 +1,6 @@
 /* global window */
 import { useNavigate } from 'react-router-dom'
-import { Button, Badge, ButtonGroup } from 'react-bootstrap'
+import { Button, Badge, ButtonGroup, Alert } from 'react-bootstrap'
 import { ListGroup } from 'react-bootstrap'
 import { useState, useEffect, useRef, memo } from 'react'
 import IndexSearchForm from './IndexSearchForm'
@@ -9,6 +9,10 @@ import VirtualizedTuneList, { COMPACT_ROW_HEIGHT } from './VirtualizedTuneList'
 import TuneListRow from './TuneListRow'
 import MediaListRow from './MediaListRow'
 import { searchMainMediaSources } from '../mainMediaSearchClient'
+import {
+  isAndroidLocalMediaAvailable,
+  requestAndroidAudioPermission,
+} from '../androidLocalMediaSearchClient'
 import { tuneRowsFromTunes, mergeSearchListRows, getSearchRowKey, isMediaSearchRow } from '../searchListRows'
 import { stageMediaCandidateToTunebook } from '../stageMediaCandidateToTunebook'
 import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
@@ -17,7 +21,7 @@ import { resolveResolverAccessToken } from '../resolverAccessToken'
 import {buildSearchPageTitle, DEFAULT_APP_TITLE, SEARCH_PAGE_TITLE_BASE, setDocumentTitle} from '../pageTitle'
 import { compareSearchGroupKeys } from '../searchListOrder'
 import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
-import { appendTunesToQueue, insertTunesAfterCurrentInQueue } from '../nowPlayingQueue'
+import { appendTunesToQueue, createQueue, insertTunesAfterCurrentInQueue } from '../nowPlayingQueue'
 import { getPlayableTuneIdsFromListRows } from '../collectionQueueUtils'
 import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 import SelectAllToggle from './SelectAllToggle'
@@ -69,6 +73,9 @@ function IndexLayout(props) {
     var [listPageMeta, setListPageMeta] = useState(null)
     var [mediaSearchResults, setMediaSearchResults] = useState([])
     var [mediaSearchBusy, setMediaSearchBusy] = useState(false)
+    var [deviceAudioNeedsPermission, setDeviceAudioNeedsPermission] = useState(false)
+    var [deviceAudioPermissionBusy, setDeviceAudioPermissionBusy] = useState(false)
+    var [deviceAudioPermissionRevision, setDeviceAudioPermissionRevision] = useState(0)
     var filterRunIdRef = useRef(0)
     var mediaSearchRunIdRef = useRef(0)
     var mediaSearchTimerRef = useRef(null)
@@ -109,6 +116,7 @@ function IndexLayout(props) {
       if (query.length < 3) {
         setMediaSearchResults([])
         setMediaSearchBusy(false)
+        setDeviceAudioNeedsPermission(false)
         return undefined
       }
       setMediaSearchBusy(true)
@@ -127,6 +135,7 @@ function IndexLayout(props) {
           if (mediaSearchRunIdRef.current !== runId) return
           const list = result && Array.isArray(result.candidates) ? result.candidates : []
           setMediaSearchResults(list)
+          setDeviceAudioNeedsPermission(!!(result && result.deviceNeedsPermission))
         }).catch(function(err) {
           if (mediaSearchRunIdRef.current !== runId) return
           if (err && err.name === 'AbortError') return
@@ -144,7 +153,23 @@ function IndexLayout(props) {
           mediaSearchAbortRef.current = null
         }
       }
-    }, [props.filter, props.token])
+    }, [props.filter, props.token, deviceAudioPermissionRevision])
+
+    async function handleGrantDeviceAudioAccess() {
+      if (!isAndroidLocalMediaAvailable() || deviceAudioPermissionBusy) return
+      setDeviceAudioPermissionBusy(true)
+      try {
+        const result = await requestAndroidAudioPermission()
+        if (result && result.granted) {
+          setDeviceAudioNeedsPermission(false)
+          setDeviceAudioPermissionRevision(function(v) { return v + 1 })
+        } else {
+          toast.warn('Audio library access was not granted. Device tracks will not appear in search.')
+        }
+      } finally {
+        setDeviceAudioPermissionBusy(false)
+      }
+    }
     
     function filterSearch(tune) {
        return props.tunebook.filterSearch(tune, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter)
@@ -637,24 +662,32 @@ function IndexLayout(props) {
         var selectedIds = Object.keys(selected).filter(function(id) {
             return selected[id]
         })
-        return getPlayableTuneIdsFromListRows(filtered, props.tunes, props.tunebook, selectedIds)
+        return getPlayableTuneIdsFromListRows(filtered, props.tunes, props.tunebook, selectedIds, {
+            grouped: grouped,
+            groupBy: props.groupBy,
+        })
     }
 
     function handlePlayFromList() {
-        var selectedIds = Object.keys(selected).filter(function(id) {
-            return selected[id]
-        }).join(',')
-        var tuneId = props.tunebook.fillAnyPlaylist(
-            props.currentTuneBook,
-            selectedIds,
-            props.tagFilter,
-            null,
-            props.genreFilter,
-            props.artistFilter
-        )
-        if (!tuneId) {
+        var tuneIds = getListTuneIds()
+        if (!tuneIds.length) {
             toast.warn('No playable tunes found in the current list.')
             return
+        }
+        var tuneId = tuneIds[0]
+        var playingSelection = freshSelectedCount > 0
+        var queue = createQueue({
+            tuneIds: tuneIds,
+            name: playingSelection ? 'Selection' : 'Filter',
+            source: playingSelection ? 'selection' : 'filter',
+        })
+        if (props.tunebook.startNowPlayingQueue) {
+            props.tunebook.startNowPlayingQueue(queue, null, {
+                startPlayback: false,
+                navigate: false,
+            })
+        } else if (props.setNowPlayingQueue) {
+            props.setNowPlayingQueue(queue)
         }
 
         var mediaController = props.mediaController
@@ -710,6 +743,25 @@ function IndexLayout(props) {
             }).join(",") 
             } nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter} forceRefresh={function() { setListHash(''); props.forceRefresh()}} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} groupBy={props.groupBy} setGroupBy={props.setGroupBy} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} genreFilter={props.genreFilter} setGenreFilter={props.setGenreFilter} artistFilter={props.artistFilter} setArtistFilter={props.setArtistFilter} starredFilter={props.starredFilter} setStarredFilter={props.setStarredFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  listDisplayMode={props.listDisplayMode} setListDisplayMode={props.setListDisplayMode} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} PREVIEW_LIST_LIMIT={PREVIEW_LIST_LIMIT} tagCollation={tagCollation} />
         
+        {isAndroidLocalMediaAvailable()
+          && deviceAudioNeedsPermission
+          && String(props.filter || '').trim().length >= 3 ? (
+          <Alert variant="info" className="mx-2 mt-2 mb-0">
+            <div className="d-flex flex-wrap align-items-center gap-2">
+              <span>
+                Grant audio library access to include music on your device in search results.
+              </span>
+              <Button
+                variant="outline-primary"
+                size="sm"
+                disabled={deviceAudioPermissionBusy}
+                onClick={handleGrantDeviceAudioAccess}
+              >
+                {deviceAudioPermissionBusy ? 'Requesting…' : 'Allow audio access'}
+              </Button>
+            </div>
+          </Alert>
+        ) : null}
 
 			{props.tunes && <div className={'tune-list-toolbar-row' + (showListSelectionControls ? '' : ' tune-list-toolbar-row--compact')}>
 

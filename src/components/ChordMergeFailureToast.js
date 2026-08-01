@@ -24,9 +24,16 @@ export default function ChordMergeFailureToast(props) {
             <div className="small text-muted mt-1">Section: {failure.blockTitle}</div>
           ) : null}
         </div>
-        <Button size="sm" variant="outline-danger" onClick={props.onDismiss}>
-          Dismiss
-        </Button>
+        <div className="d-flex flex-column gap-1">
+          {props.onRefresh ? (
+            <Button size="sm" variant="danger" onClick={props.onRefresh}>
+              Refresh grid from notation
+            </Button>
+          ) : null}
+          <Button size="sm" variant="outline-danger" onClick={props.onDismiss}>
+            Dismiss
+          </Button>
+        </div>
       </div>
     </Alert>
   )

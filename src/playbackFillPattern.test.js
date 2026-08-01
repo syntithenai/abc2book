@@ -7,6 +7,7 @@ import {
   applyPlaybackFillToSequence,
   buildPlaybackSequence,
   extractChordsPerBarFromTuneNotes,
+  inferBarDurationSecFromFlattened,
 } from './playbackFillPattern'
 
 describe('playbackFillPattern', function() {
@@ -150,6 +151,63 @@ describe('playbackFillPattern', function() {
       voices: { v1: { notes: ['"[Verse 1]" z8 | "C" z8 | "G" z8 |'] } },
     }
     expect(extractChordsPerBarFromTuneNotes(tune)).toEqual(['C', 'G'])
+  })
+
+  test('inferBarDurationSecFromFlattened matches melody bar grid', function() {
+    const flattened = {
+      tracks: [[
+        { cmd: 'note', pitch: 64, start: 0, duration: 0.25 },
+        { cmd: 'note', pitch: 69, start: 0.25, duration: 0.25 },
+        { cmd: 'note', pitch: 71, start: 0.5, duration: 0.25 },
+        { cmd: 'note', pitch: 76, start: 1, duration: 0.25 },
+        { cmd: 'note', pitch: 71, start: 2, duration: 0.25 },
+      ]],
+    }
+    expect(inferBarDurationSecFromFlattened(flattened, '4/4')).toBeCloseTo(2, 1)
+  })
+
+  test('inferBarDurationSecFromFlattened matches quarter-note grid from production logs', function() {
+    const flattened = {
+      tracks: [[
+        { cmd: 'note', pitch: 64, start: 0, duration: 0.25 },
+        { cmd: 'note', pitch: 69, start: 0.5, duration: 0.25 },
+        { cmd: 'note', pitch: 71, start: 1, duration: 0.25 },
+        { cmd: 'note', pitch: 76, start: 1.5, duration: 0.25 },
+        { cmd: 'note', pitch: 71, start: 2, duration: 0.25 },
+      ]],
+    }
+    expect(inferBarDurationSecFromFlattened(flattened, '4/4')).toBeCloseTo(2, 1)
+  })
+
+  test('inferBarDurationSecFromFlattened uses chord span when it agrees with melody grid', function() {
+    const flattened = {
+      tracks: [[
+        { cmd: 'note', pitch: 64, start: 0, duration: 0.25 },
+        { cmd: 'note', pitch: 69, start: 0.25, duration: 0.25 },
+        { cmd: 'note', pitch: 71, start: 0.5, duration: 0.125 },
+        { cmd: 'note', pitch: 76, start: 1, duration: 0.25 },
+        { cmd: 'note', pitch: 71, start: 2, duration: 0.25 },
+        { cmd: 'note', pitch: 67, start: 3.75, duration: 0.25 },
+      ]],
+    }
+    expect(inferBarDurationSecFromFlattened(flattened, '4/4', { chordBarCount: 2 })).toBeCloseTo(2, 1)
+  })
+
+  test('inferBarDurationSecFromFlattened prefers melody grid when chord span disagrees', function() {
+    const flattened = {
+      tracks: [[
+        { cmd: 'note', pitch: 64, start: 0, duration: 0.25 },
+        { cmd: 'note', pitch: 69, start: 0.25, duration: 0.25 },
+        { cmd: 'note', pitch: 71, start: 0.5, duration: 0.125 },
+        { cmd: 'note', pitch: 71, start: 0.625, duration: 0.125 },
+        { cmd: 'note', pitch: 72, start: 0.75, duration: 0.125 },
+        { cmd: 'note', pitch: 74, start: 0.875, duration: 0.125 },
+        { cmd: 'note', pitch: 76, start: 1, duration: 0.25 },
+        { cmd: 'note', pitch: 71, start: 2, duration: 0.25 },
+        { cmd: 'note', pitch: 67, start: 31.75, duration: 0.25 },
+      ]],
+    }
+    expect(inferBarDurationSecFromFlattened(flattened, '4/4', { chordBarCount: 12 })).toBeCloseTo(2, 1)
   })
 
   test('buildPlaybackSequence custom fill skips abcjs chord generation', function() {

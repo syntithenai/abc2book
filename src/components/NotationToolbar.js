@@ -116,11 +116,6 @@ export default function NotationToolbar(props) {
       {session.slurMode ? (
         <span className="notation-mode-badge" title="Slur mode — select start and end notes" data-testid="notation-mode-badge-slur">Slur</span>
       ) : null}
-      {session.tupletMode ? (
-        <span className="notation-mode-badge" title="Tuplet input mode active">
-          Tuplet {session.tupletMode.num}
-        </span>
-      ) : null}
       <NotationAccidentalDropdown
         session={session}
         dispatch={dispatch}

@@ -88,7 +88,8 @@ def register_cast_routes(
             input_paths: list[str] = []
             input_path = ""
             input_is_temp = True
-            if len(queue) > 1:
+            concat_set = bool(body.get("concatSet"))
+            if concat_set and len(queue) > 1:
                 input_paths, queue_duration = await resolve_queue_input_paths(
                     queue=queue,
                     body=body,

@@ -16,10 +16,15 @@ import {
   melodyTextHasSectionMarkerChord,
   firstSectionMarkerHeaderInMelodyText,
   expandLegacyBeatSlotsInChart,
+  extractChartBarSlotGrids,
   isSectionMarkerToken,
+  splitChordChartLineIntoBars,
+  rebalanceChartPulseSlots,
+  parseChartStructureMarkers,
+  stripChartStructureMarkers,
 } from './chordSheetUtils'
 import { listLyricSections, sectionDisplayTitle } from './lyricStructureUtils'
-import { normalizeMeter } from './barModel'
+import { normalizeMeter, getBarModel, beatPositionsForBarChords } from './barModel'
 import { normalizeKeySignature } from './keySignatureNormalize'
 import {
   applyChordSectionLabels,
@@ -45,7 +50,7 @@ import {
 } from './wLinesUtils'
 import { buildNotationWLines } from './noteSpacingUtils'
 
-const CACHE_VERSION = 1
+const CACHE_VERSION = 5
 
 const MERGE_FAILURE_FIX = {
   chart_parse_error: 'Fix the chord grid syntax in this section; one | per bar.',
@@ -55,7 +60,7 @@ const MERGE_FAILURE_FIX = {
   chart_longer_no_room: 'Add bars in ABC / Music tab, or remove extra bars from the chord grid.',
   anchor_stale: 'Re-open the chords tab to refresh, then retry.',
   anchor_missing_range: 'Add matching bars in ABC for the new section, or remove the extra blank-line block.',
-  block_count_mismatch: 'Restore the section in the chord grid or delete the matching || strain in ABC.',
+  block_count_mismatch: 'Re-open the chords tab to refresh the chord grid from notation, then retry.',
   anacrusis_bar_mismatch: 'Align pickup in the chord grid or Music tab.',
   meter_change_unsupported: 'Move [M:…] to the start of a bar line, or set meter in the ABC header.',
   strain_barline_conflict: 'Edit barlines in the ABC tab to match section structure, then retry.',
@@ -100,9 +105,11 @@ export function noteLinesForMelodyMerge(noteLines) {
 }
 
 function voiceProgramPrefixLines(noteLines) {
-  return (Array.isArray(noteLines) ? noteLines : []).filter(function(line) {
+  const lines = Array.isArray(noteLines) ? noteLines : []
+  const prefix = lines.find(function(line) {
     return /^%%MIDI\s/i.test(String(line || '').trim())
   })
+  return prefix ? [prefix] : []
 }
 
 function noteLinesFromAbcForMerge(abcString, abcTools) {
@@ -116,7 +123,7 @@ function noteLinesFromAbcForMerge(abcString, abcTools) {
 /** Re-attach %%MIDI (etc.) prefix lines after a melody-only merge body. */
 export function mergeNoteLinesWithVoicePrefixes(prefixSource, melodyLines) {
   const prefixes = voiceProgramPrefixLines(prefixSource)
-  const body = Array.isArray(melodyLines) ? melodyLines : []
+  const body = noteLinesForMelodyMerge(melodyLines)
   if (!prefixes.length) return body.length ? body : ['']
   return prefixes.concat(body.length ? body : [''])
 }
@@ -226,14 +233,11 @@ export function countChartBars(chart) {
   const split = splitChartHeaderAndBody(chart || '')
   const text = stripInlineSignatureMarkers(split.body || '')
   if (!String(text).trim()) return 0
-  // Count trailing | as bar delimiters; empty segments between || ignored.
-  const parts = String(text).replace(/\n+/g, ' ').split('|')
   let count = 0
-  parts.forEach(function(part, index) {
-    const trimmed = part.trim()
-    if (!trimmed && index === parts.length - 1) return
-    if (!trimmed) return
-    count += 1
+  String(text).split('\n').forEach(function(line) {
+    if (!String(line || '').trim()) return
+    const parts = splitChordChartLineIntoBars(line)
+    count += parts.bars.length
   })
   return count
 }
@@ -268,6 +272,173 @@ export function sliceChartAcrossStrainBarCounts(fullChart, strainBarCounts) {
 }
 
 /**
+ * When one editor block contains a chart spanning all melody strains (e.g. a
+ * 16-bar grid pasted without a blank-line strain separator), slice it across
+ * strains and assign each slice to the matching block.
+ */
+export function fanOutMultiStrainBlockCharts(workingBlocks, strains) {
+  if (!Array.isArray(workingBlocks) || !strains || strains.length <= 1) {
+    return workingBlocks
+  }
+  const strainBarCounts = strains.map(function(s) {
+    return extractBarsFromMelodyText(s.text).length
+  })
+  const totalBars = strainBarCounts.reduce(function(a, b) { return a + b }, 0)
+  const chartsByStrain = {}
+
+  workingBlocks.forEach(function(block) {
+    if (!block || block.chartRevisit || !chartHasMergeableContent(block.chart)) return
+    let chartForFanOut = block.chart
+    let chartBars = countChartBars(chartForFanOut)
+    if (chartBars !== totalBars) {
+      const normalized = normalizeChartToBarCount(chartForFanOut, totalBars)
+      if (countChartBars(normalized) === totalBars) {
+        chartForFanOut = normalized
+        chartBars = totalBars
+      }
+    }
+    if (chartBars !== totalBars) return
+    const slices = sliceChartAcrossStrainBarCounts(chartForFanOut, strainBarCounts)
+    slices.forEach(function(slice, strainIdx) {
+      if (slice && chartHasMergeableContent(slice)) {
+        chartsByStrain[strainIdx] = slice
+      }
+    })
+  })
+
+  workingBlocks.forEach(function(block) {
+    if (!block || block.chartRevisit || !chartHasMergeableContent(block.chart)) return
+    const chartBars = countChartBars(block.chart)
+    if (chartBars === totalBars) return
+    const strainIdx = block.melodyStrainIndex
+    if (strainIdx == null || strainIdx < 0 || chartsByStrain[strainIdx] != null) return
+    chartsByStrain[strainIdx] = block.chart
+  })
+
+  if (Object.keys(chartsByStrain).length === 0) return workingBlocks
+
+  return workingBlocks.map(function(block) {
+    if (!block || block.chartRevisit) return block
+    const strainIdx = block.melodyStrainIndex
+    if (strainIdx == null || strainIdx < 0 || chartsByStrain[strainIdx] == null) {
+      return block
+    }
+    return Object.assign({}, block, { chart: chartsByStrain[strainIdx] })
+  })
+}
+
+/**
+ * Fan out multi-strain charts, then trim stale phantom bars so each block matches
+ * its melody strain bar count.
+ */
+export function alignBlockChartsToMelody(noteLines, blocks) {
+  const strains = splitMelodyStrainsWithBarlines(noteLines || [])
+  if (!strains.length) {
+    return Array.isArray(blocks) ? blocks.slice() : []
+  }
+  const strainBarCounts = strains.map(function(s) {
+    return extractBarsFromMelodyText(s.text).length
+  })
+  let working = fanOutMultiStrainBlockCharts(
+    (Array.isArray(blocks) ? blocks : []).map(function(b) {
+      return b ? Object.assign({}, b) : b
+    }),
+    strains
+  )
+  return working.map(function(block) {
+    if (!block || block.chartRevisit || !chartHasMergeableContent(block.chart)) {
+      return block
+    }
+    const strainIdx = block.melodyStrainIndex
+    if (strainIdx == null || strainIdx < 0 || strainIdx >= strainBarCounts.length) {
+      return block
+    }
+    const targetBars = strainBarCounts[strainIdx]
+    const aligned = normalizeChartToBarCount(block.chart, targetBars)
+    if (aligned === block.chart || countChartBars(aligned) !== targetBars) {
+      return block
+    }
+    return Object.assign({}, block, { chart: aligned })
+  })
+}
+
+/**
+ * Split a whole-grid draft across melody strains when one block spans them all.
+ */
+function chartBarTokensAreEmpty(barTokens) {
+  if (!Array.isArray(barTokens) || barTokens.length === 0) return true
+  return barTokens.every(function(token) {
+    return !token || token === '.' || String(token).replace(/\./g, '').trim() === ''
+  })
+}
+
+/**
+ * Remove stale empty leading bar slots from each visual chart line (|: phantom bars).
+ */
+export function dropLeadingEmptyBarsFromEachChartLine(chart) {
+  const split = splitChartHeaderAndBody(chart || '')
+  const bodyText = String(split.body || chart || '').trim()
+  if (!bodyText) {
+    return split.headerLine ? joinChartHeaderAndBody(split.headerLine, '') : String(chart || '').trim()
+  }
+  const lineBars = bodyText.split('\n').map(function(line) {
+    return extractChordBars(line)
+  })
+  let changed = false
+  lineBars.forEach(function(bars) {
+    while (bars.length > 0 && chartBarTokensAreEmpty(bars[0])) {
+      bars.shift()
+      changed = true
+    }
+  })
+  if (!changed) {
+    return split.headerLine ? joinChartHeaderAndBody(split.headerLine, bodyText) : bodyText
+  }
+  const body = lineBars
+    .map(function(bars) { return chartTextFromBarTokenArrays(bars) })
+    .filter(Boolean)
+    .join('\n')
+  return split.headerLine ? joinChartHeaderAndBody(split.headerLine, body) : body
+}
+
+/**
+ * Drop repeat-open phantom bars from each line, then trim to a target bar count.
+ */
+export function normalizeChartToBarCount(chart, barCount) {
+  const target = Math.max(0, Number(barCount) || 0)
+  let current = String(chart == null ? '' : chart).trim()
+  if (!current || target <= 0) return current
+  while (countChartBars(current) > target) {
+    const dropped = dropLeadingEmptyBarsFromEachChartLine(current)
+    if (dropped !== current) {
+      current = dropped
+      if (countChartBars(current) <= target) break
+      continue
+    }
+    break
+  }
+  if (countChartBars(current) > target) {
+    current = trimChartToBarCount(current, target)
+  }
+  return current
+}
+
+export function splitChordGridAcrossMelodyStrains(gridText, noteLines) {
+  const text = String(gridText == null ? '' : gridText)
+  const blocks = splitChordChartIntoBlocks(text)
+  if (blocks.length !== 1) return text
+  const strains = splitMelodyStrainsWithBarlines(noteLines || [])
+  if (strains.length <= 1) return text
+  const strainBarCounts = strains.map(function(s) {
+    return extractBarsFromMelodyText(s.text).length
+  })
+  const total = strainBarCounts.reduce(function(a, b) { return a + b }, 0)
+  const aligned = normalizeChartToBarCount(blocks[0], total)
+  if (countChartBars(aligned) !== total) return text
+  return sliceChartAcrossStrainBarCounts(aligned, strainBarCounts).join('\n\n')
+}
+
+/**
  * Mark sections whose ABC strain already contains a section-label quoted chord.
  */
 export function enrichBlocksWithNotationMarkerFlags(blocks, noteLines) {
@@ -291,7 +462,7 @@ export function enrichBlocksWithNotationMarkerFlags(blocks, noteLines) {
  * @returns {{ text: string, startBarline: string|null, endBarline: string|null }[]}
  */
 export function splitMelodyStrainsWithBarlines(noteLines) {
-  const flat = flattenMelodyText(noteLines)
+  const flat = flattenMelodyText(noteLinesForMelodyMerge(noteLines))
   if (!flat) return []
   const re = /(\|\||::|\|:)/g
   const parts = []
@@ -350,6 +521,16 @@ function sectionKeyForIndex(index, type, header) {
   return base + '-' + index
 }
 
+function structureMetaFromDisplayChart(displayChart, strain) {
+  const parsed = parseChartStructureMarkers(displayChart)
+  return {
+    strainStartBarline: parsed.strainStartBarline || (strain && strain.startBarline) || null,
+    strainEndBarline: parsed.strainEndBarline || (strain && strain.endBarline) || null,
+    endingMarkers: parsed.endingMarkers.slice(),
+    displayChart: String(displayChart || '').trim(),
+  }
+}
+
 /**
  * Build unified chord blocks: one per melody strain (canonical).
  */
@@ -362,7 +543,11 @@ export function buildUnifiedBlocks(options) {
   const defaultTempo = normalizeTempo(opts.defaultTempo) || 120
   const defaultNoteLength = opts.defaultNoteLength || opts.noteLength || null
   const fullChart = String(opts.chordChart == null ? '' : opts.chordChart)
+  const displayFullChart = String(opts.displayChordChart == null ? '' : opts.displayChordChart)
   const chartBlocks = splitChordChartIntoBlocks(fullChart)
+  const displayChartBlocks = displayFullChart
+    ? splitChordChartIntoBlocks(displayFullChart)
+    : []
   const strains = splitMelodyStrainsWithBarlines(noteLines)
   const lyricSections = listLyricSections(lyricLines)
   const warnings = []
@@ -452,6 +637,14 @@ export function buildUnifiedBlocks(options) {
       })
     )
     : null
+  const displayHymnSlices = hymnSingleChart && displayChartBlocks.length === 1
+    ? sliceChartAcrossStrainBarCounts(
+      displayChartBlocks[0],
+      strains.map(function(strain) {
+        return extractBarsFromMelodyText(strain.text).length
+      })
+    )
+    : null
 
   const blocks = strains.map(function(strain, index) {
     const bars = extractBarsFromMelodyText(strain.text)
@@ -461,14 +654,22 @@ export function buildUnifiedBlocks(options) {
 
     let rawChart = ''
     let extraChart = ''
+    let rawDisplayChart = ''
     if (hymnSingleChart) {
       rawChart = hymnChartSlices && hymnChartSlices[index] != null
         ? hymnChartSlices[index]
         : ''
+      rawDisplayChart = displayHymnSlices && displayHymnSlices[index] != null
+        ? displayHymnSlices[index]
+        : ''
     } else if (index < chartBlocks.length) {
       rawChart = String(chartBlocks[index] || '')
+      rawDisplayChart = index < displayChartBlocks.length
+        ? String(displayChartBlocks[index] || '')
+        : ''
     } else {
       rawChart = ''
+      rawDisplayChart = ''
     }
     if (index === strains.length - 1 && chartBlocks.length > strains.length) {
       extraChart = chartBlocks.slice(strains.length).join('\n\n')
@@ -504,6 +705,7 @@ export function buildUnifiedBlocks(options) {
       isSectionMarkerToken(headerSplit.headerLine)
       || /^#+\s+/.test(String(headerSplit.headerLine).trim())
     )
+    const structureMeta = structureMetaFromDisplayChart(rawDisplayChart, strain)
 
     return {
       id: sectionKeyForIndex(index, type, header),
@@ -525,9 +727,10 @@ export function buildUnifiedBlocks(options) {
       title: title,
       chartRevisit: false,
       sourceTypeKey: type,
-      strainStartBarline: strain.startBarline,
-      strainEndBarline: strain.endBarline,
-      endingMarkers: [],
+      strainStartBarline: structureMeta.strainStartBarline,
+      strainEndBarline: structureMeta.strainEndBarline,
+      endingMarkers: structureMeta.endingMarkers,
+      displayChart: structureMeta.displayChart,
       extraChart: extraChart,
       lyricLines: lyricSection ? lyricSection.lines.slice() : [],
       strainText: strain.text,
@@ -642,6 +845,9 @@ export function chordBlockCacheMatchesMelody(noteLines, cacheBlocks) {
     if (idx == null || idx < 0 || idx >= strains.length) return false
     if (used[idx]) return false
     used[idx] = true
+    const strainBars = extractBarsFromMelodyText(strains[idx].text).length
+    const chartBars = countChartBars(editable[i].chart)
+    if (chartBars !== strainBars) return false
   }
   return true
 }
@@ -814,6 +1020,107 @@ function stripChordsFromAbcText(text) {
   return String(text || '').replace(/"([^"]*)"/g, '')
 }
 
+function stripLeadingQuotedChord(barText) {
+  return String(barText || '').replace(/^(\s*)?"[^"]*"\s*/, '$1' || '')
+}
+
+function chartTokensFromBar(barTokens) {
+  return (Array.isArray(barTokens) ? barTokens : []).map(function(t) {
+    const s = String(t == null ? '' : t).trim()
+    if (!s || s === '.' || /^\.+$/.test(s)) return '.'
+    return s.replace(/"/g, '')
+  })
+}
+
+function parseAbcMelodyNoteTokens(barText) {
+  const tokens = []
+  const s = String(barText || '')
+  const re = /(\([^)]+\))|(\[[^\]]+\])(\d*)|((?:\^+|_+|=+)*[a-gA-GzZ])(\d*)/gi
+  let match
+  while ((match = re.exec(s)) !== null) {
+    if (match[1]) {
+      tokens.push({ text: match[1], units: 1 })
+    } else if (match[2]) {
+      const mult = match[3] ? parseInt(match[3], 10) : 1
+      tokens.push({ text: match[2] + (match[3] || ''), units: mult > 0 ? mult : 1 })
+    } else if (match[4]) {
+      const mult = match[5] ? parseInt(match[5], 10) : 1
+      tokens.push({ text: match[4] + (match[5] || ''), units: mult > 0 ? mult : 1 })
+    }
+  }
+  return tokens
+}
+
+function applyQuotedChordsToMelodyBar(melodyBar, chartBarTokens, meter, noteLength) {
+  let bangPrefix = ''
+  let bodyBar = melodyBar
+  const bangMatch = String(melodyBar || '').match(/^(\s*!\s*)/)
+  if (bangMatch) {
+    bangPrefix = bangMatch[1]
+    bodyBar = String(melodyBar).slice(bangMatch[1].length)
+  }
+  const tokens = chartTokensFromBar(chartBarTokens)
+  const barModel = getBarModel(meter || '4/4', noteLength || '1/8')
+  const positions = beatPositionsForBarChords(tokens, barModel, null, 0)
+  const chords = []
+  tokens.forEach(function(token, i) {
+    if (token !== '.') {
+      chords.push({ position: positions[i], name: token })
+    }
+  })
+  chords.sort(function(a, b) { return a.position - b.position })
+
+  const bare = stripChordsFromAbcText(bodyBar).trim()
+  const noteTokens = parseAbcMelodyNoteTokens(bare)
+  if (!noteTokens.length) return bangPrefix + bare
+
+  let unitCursor = 0
+  let chordIdx = 0
+  let out = ''
+  noteTokens.forEach(function(note) {
+    while (chordIdx < chords.length && chords[chordIdx].position <= unitCursor + 0.001) {
+      out += '"' + chords[chordIdx].name + '"'
+      chordIdx += 1
+    }
+    out += note.text
+    unitCursor += note.units
+  })
+  while (chordIdx < chords.length) {
+    out += '"' + chords[chordIdx].name + '"'
+    chordIdx += 1
+  }
+  return bangPrefix + out
+}
+
+function harmonyEditPreservesMelody(beforeText, afterText, useHarmonyOnly) {
+  if (melodiesMatchForChordEdit(beforeText, afterText)) return true
+  if (!useHarmonyOnly) return false
+  return melodyBodyFingerprint(beforeText) === melodyBodyFingerprint(afterText)
+}
+
+/**
+ * Update quoted chords per bar from a chord chart without abcjs render.
+ * Strips existing quoted chords and re-applies chart slots (including removals).
+ * Returns null when bar counts differ.
+ */
+export function applyLeadingChordsFromChart(strainText, chartText, options) {
+  const opts = options || {}
+  const meter = opts.meter || '4/4'
+  const noteLength = opts.noteLength || '1/8'
+  const expanded = expandLegacyBeatSlotsInChart(String(chartText || ''), meter, noteLength)
+  const rebalanced = rebalanceChartPulseSlots(expanded, meter, noteLength)
+  const chartBody = rebalanced.chart || expanded
+  const melodyBars = extractBarsFromMelodyText(strainText)
+  if (!melodyBars.length) return strainText
+  const split = splitChartHeaderAndBody(chartBody || '')
+  const chartBars = extractChartBarSlotGrids(split.body || chartBody || '')
+  if (chartBars.length !== melodyBars.length) return null
+  const out = melodyBars.map(function(melodyBar, i) {
+    return applyQuotedChordsToMelodyBar(melodyBar, chartBars[i], meter, noteLength)
+  })
+  return out.join('|')
+}
+
 /** Melody voicing fingerprint: quotes + inline M/Q/K stripped; bracket pitch order normalized. */
 function normalizeBracketPitchOrder(text) {
   return String(text || '').replace(/\[([a-gA-G]+)\]/g, function(_, letters) {
@@ -822,10 +1129,75 @@ function normalizeBracketPitchOrder(text) {
 }
 
 function melodyVoicingFingerprint(text) {
+  return melodyBodyFingerprint(text)
+}
+
+/** Pitch + rhythm body fingerprint (chords and inline signatures stripped). */
+export function melodyBodyFingerprint(text) {
   let t = stripChordsFromAbcText(text)
   t = stripInlineSignatureMarkers(t)
   t = normalizeBracketPitchOrder(t)
-  return t.replace(/\s+/g, '').trim()
+  t = t.replace(/\s+/g, '')
+  t = t.replace(/\|+/g, '|')
+  return t.trim()
+}
+
+/** Reinsert ABC part-break markers (!) dropped by harmonyOnly render. */
+export function restorePartBreakMarkers(originalText, mergedText) {
+  const original = String(originalText || '')
+  let merged = String(mergedText || '')
+  if (!original.includes('!') || merged.includes('!')) {
+    return merged
+  }
+  let searchFrom = 0
+  while (searchFrom < original.length) {
+    const bangIdx = original.indexOf('!', searchFrom)
+    if (bangIdx < 0) break
+    const barsBefore = extractBarsFromMelodyText(original.slice(0, bangIdx)).length
+    if (barsBefore > 0) {
+      const pipeIdx = pipeIndexAfterBar(merged, barsBefore - 1)
+      if (pipeIdx >= 0) {
+        merged = merged.slice(0, pipeIdx + 1)
+          + '! '
+          + merged.slice(pipeIdx + 1).replace(/^\s*/, '')
+      }
+    }
+    searchFrom = bangIdx + 1
+  }
+  return merged
+}
+
+function pipeIndexAfterBar(text, barIndex) {
+  const target = Math.max(0, barIndex | 0)
+  let bar = 0
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] === '|') {
+      if (bar === target) return i
+      bar += 1
+    }
+  }
+  return -1
+}
+
+/** True when chord-only merge preserved pitched melody (ignores barline / whitespace render diffs). */
+export function melodiesMatchForChordEdit(beforeText, afterText) {
+  const before = String(beforeText || '')
+  const after = String(afterText || '')
+  const looseFingerprint = function(text) {
+    return melodyBodyFingerprint(text).toLowerCase().replace(/!/g, '')
+  }
+  if (looseFingerprint(before) === looseFingerprint(after)) return true
+  if (/\[[a-gA-G]{2,}\]/.test(before)) {
+    return melodyBodyFingerprint(before) === melodyBodyFingerprint(after)
+  }
+  const pitchStrip = function(text) {
+    return stripInlineSignatureMarkers(stripChordsFromAbcText(text))
+      .replace(/!/g, '')
+      .replace(/[^a-gA-GzZ0-9]/gi, '')
+      .toLowerCase()
+  }
+  if (pitchStrip(before) === pitchStrip(after)) return true
+  return false
 }
 
 /** Count ABC rest duration units (z, z2, z8, …) ignoring quoted chords. */
@@ -919,6 +1291,69 @@ function noteLinesFromMergedBody(mergedBody, abcTools) {
  */
 export function rebuildNoteLinesFromMergedStrains(originalNoteLines, strains, updatedStrainTexts) {
   const inputs = Array.isArray(originalNoteLines) ? originalNoteLines : []
+  const strainList = Array.isArray(strains) ? strains : []
+  const mergedStrainTexts = Array.isArray(updatedStrainTexts) ? updatedStrainTexts : []
+
+  function isVoicePrefixLine(line) {
+    return /^%%MIDI\s/i.test(String(line || '').trim())
+  }
+
+  function melodyLineFromBars(bars) {
+    return (Array.isArray(bars) ? bars : []).filter(Boolean).join(' | ')
+  }
+
+  function melodyLineSuffixAfterBars(originalLine) {
+    const trimmed = String(originalLine || '').trim()
+    const bars = extractBarsFromMelodyText(originalLine)
+    if (!bars.length) return ''
+    const lastBar = bars[bars.length - 1]
+    const idx = trimmed.lastIndexOf(lastBar)
+    if (idx < 0) return ''
+    return trimmed.slice(idx + lastBar.length)
+  }
+
+  function countMelodyLines(lines) {
+    return (Array.isArray(lines) ? lines : []).filter(function(line) {
+      const t = String(line || '').trim()
+      return t && !isVoicePrefixLine(line)
+    }).length
+  }
+
+  if (countMelodyLines(inputs) > 1) {
+    const mergedBarsByStrain = strainList.map(function(s, i) {
+      const mergedText = mergedStrainTexts[i] != null
+        ? mergedStrainTexts[i]
+        : (s && s.text) || ''
+      return extractBarsFromMelodyText(mergedText)
+    })
+    let strainIdx = 0
+    let barOffsetInStrain = 0
+    let firstMelodyLine = true
+    return inputs.map(function(originalLine) {
+      const trimmed = String(originalLine || '').trim()
+      if (!trimmed || isVoicePrefixLine(originalLine)) {
+        return originalLine
+      }
+      const origBarCount = extractBarsFromMelodyText(originalLine).length
+      const strainBars = mergedBarsByStrain[strainIdx] || []
+      const slice = strainBars.slice(barOffsetInStrain, barOffsetInStrain + origBarCount)
+      barOffsetInStrain += origBarCount
+      if (barOffsetInStrain >= strainBars.length && strainIdx < mergedBarsByStrain.length - 1) {
+        strainIdx += 1
+        barOffsetInStrain = 0
+      }
+      const lead = (String(originalLine).match(/^\s*/) || [''])[0]
+      let body = melodyLineFromBars(slice)
+      if (firstMelodyLine && strainList[0] && strainList[0].startBarline === '|:') {
+        body = '|: ' + body.replace(/^\|:\s*/, '')
+      } else if (/^\s*\|:\s*/.test(originalLine)) {
+        body = '|: ' + body.replace(/^\|:\s*/, '')
+      }
+      firstMelodyLine = false
+      return lead + body + melodyLineSuffixAfterBars(originalLine)
+    })
+  }
+
   if (inputs.length <= 1) {
     let joined = ''
     strains.forEach(function(s, i) {
@@ -936,6 +1371,10 @@ export function rebuildNoteLinesFromMergedStrains(originalNoteLines, strains, up
   const out = []
   inputs.forEach(function(originalLine) {
     if (!String(originalLine || '').trim()) {
+      out.push(originalLine)
+      return
+    }
+    if (isVoicePrefixLine(originalLine)) {
       out.push(originalLine)
       return
     }
@@ -961,7 +1400,7 @@ export function rebuildNoteLinesFromMergedStrains(originalNoteLines, strains, up
       }
       chunks.push(prefix + body)
     })
-    out.push(lead + chunks.join('').trim())
+    out.push(lead + chunks.join('').trim() + melodyLineSuffixAfterBars(originalLine))
   })
   return out.length ? out : ['']
 }
@@ -1028,6 +1467,52 @@ function padChartToBarCount(chart, barCount, meter) {
 }
 
 /**
+ * Drop excess chart bars — leading empty slots first (|: phantom bars), then tail.
+ */
+export function trimChartToBarCount(chart, barCount) {
+  const target = Math.max(0, Number(barCount) || 0)
+  const split = splitChartHeaderAndBody(chart || '')
+  const bodyText = String(split.body || chart || '').trim()
+  if (!bodyText) {
+    return split.headerLine ? joinChartHeaderAndBody(split.headerLine, '') : String(chart || '').trim()
+  }
+  const lines = bodyText.split('\n')
+  const lineBars = lines.map(function(line) {
+    return extractChordBars(line)
+  })
+  let flat = []
+  lineBars.forEach(function(bars) {
+    flat = flat.concat(bars)
+  })
+  while (flat.length > target && chartBarTokensAreEmpty(flat[0])) {
+    flat.shift()
+    let removed = false
+    for (let i = 0; i < lineBars.length; i++) {
+      if (lineBars[i].length > 0) {
+        lineBars[i].shift()
+        removed = true
+        break
+      }
+    }
+    if (!removed) break
+  }
+  while (flat.length > target) {
+    flat.pop()
+    for (let j = lineBars.length - 1; j >= 0; j--) {
+      if (lineBars[j].length > 0) {
+        lineBars[j].pop()
+        break
+      }
+    }
+  }
+  const body = lineBars
+    .map(function(bars) { return chartTextFromBarTokenArrays(bars) })
+    .filter(Boolean)
+    .join('\n')
+  return split.headerLine ? joinChartHeaderAndBody(split.headerLine, body) : body
+}
+
+/**
  * Merge one block's chart into ABC (strain-scoped).
  */
 export function mergeChordsForBlock(abcString, block, chartText, options) {
@@ -1077,7 +1562,7 @@ export function mergeChordsForBlock(abcString, block, chartText, options) {
   const header = headerFromAbc(abcString, abcTools)
   header.meter = normalizeMeter(block.meter || header.meter)
 
-  let chartForMerge = String(chartText || '').trim()
+  let chartForMerge = stripChartStructureMarkers(String(chartText || '').trim())
   if (block.meter && normalizeMeter(block.meter) !== normalizeMeter(header.abcJson.meter || header.meter)) {
     // Inline meter only for non-first blocks is handled via prepend on full grid;
     // for mini merge, set header meter to block meter when rewriting scaffold.
@@ -1088,15 +1573,29 @@ export function mergeChordsForBlock(abcString, block, chartText, options) {
     chartForMerge = padChartToBarCount(chartForMerge, bars.length, block.meter)
   }
 
-  if (mode === 'pitch' && chartBars > bars.length) {
-    // Allow mergeChords to append rest bars within the strain mini-abc.
+  const chartForMergeBars = countChartBars(chartForMerge)
+  if (mode === 'pitch' && chartForMergeBars !== bars.length) {
+    return {
+      ok: false,
+      error: mergeFailure(
+        'block_count_mismatch',
+        'Chord grid bar count does not match melody in this section',
+        { blockTitle: block.title, blockIndex: strainIndex }
+      ),
+    }
   }
 
   const beforeOutside = notesFingerprintOutsideBlocks(noteLines, null, [strainIndex])
   const mini = miniAbcForStrain(header, strain.text, strain.startBarline)
   let mergedMini
+  const useHarmonyOnly = mode === 'pitch' && chartForMergeBars === bars.length
   try {
-    mergedMini = abcjsParser.mergeChords(chartForMerge, mini, null)
+    mergedMini = abcjsParser.mergeChords(
+      chartForMerge,
+      mini,
+      null,
+      useHarmonyOnly ? { harmonyOnly: true } : null
+    )
   } catch (e) {
     return { ok: false, error: mergeFailure('chart_parse_error', e.message || 'Chord merge failed') }
   }
@@ -1165,12 +1664,17 @@ export function mergeChordsForBlock(abcString, block, chartText, options) {
  * Transactional merge of all blocks (or wipe+scaffold).
  */
 export function mergeAllChordBlocks(abcString, blocks, options) {
-  const opts = options || {}
+  let opts = options || {}
   const abcjsParser = opts.abcjsParser
   const tunebook = opts.tunebook
   const abcTools = tunebook && tunebook.abcTools
   if (!abcjsParser || !abcTools) {
     return { ok: false, error: mergeFailure('abc_parse_error', 'Missing ABC tools') }
+  }
+  if (Array.isArray(opts.notesBefore) && opts.notesBefore.length) {
+    opts = Object.assign({}, opts, {
+      notesBefore: mergeNoteLinesWithVoicePrefixes(opts.notesBefore, opts.notesBefore),
+    })
   }
 
   const list = Array.isArray(blocks) ? blocks : []
@@ -1252,10 +1756,33 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
   const firstKey = firstSectionKey(workingBlocks, header.key)
   const hasTimed = hasTimedMedia
   const updatedStrainTexts = strains.map(function(s) { return s.text })
+  const harmonyOnlyStrainIndexes = {}
   let previousSoundingKey = firstKey
   let previousSoundingMeter = firstMeter
   let previousSoundingTempo = firstSectionTempo(workingBlocks, header.abcJson && header.abcJson.tempo)
   let soundingIndex = 0
+  let chartResyncSlices = null
+
+  function resyncedChartForStrain(strainIdx) {
+    if (!chartResyncSlices && abcjsParser) {
+      const tune = opts.tune || {}
+      const full = abcjsParser.renderChords(
+        abcString,
+        true,
+        0,
+        normalizeKeySignature(tune.key || header.key),
+        tune.noteLength || header.noteLength,
+        normalizeMeter(firstMeter)
+      )
+      chartResyncSlices = sliceChartAcrossStrainBarCounts(
+        full,
+        strains.map(function(s) { return extractBarsFromMelodyText(s.text).length })
+      )
+    }
+    return chartResyncSlices && chartResyncSlices[strainIdx] != null
+      ? chartResyncSlices[strainIdx]
+      : ''
+  }
 
   // Editor blocks from paste/tests may omit melodyStrainIndex — default by order.
   let strainCursor = 0
@@ -1269,6 +1796,8 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     strainCursor = Math.max(strainCursor, (b.melodyStrainIndex | 0) + 1)
     return b
   })
+
+  workingBlocks = alignBlockChartsToMelody(noteLines, workingBlocks)
 
   for (let i = 0; i < workingBlocks.length; i++) {
     const block = workingBlocks[i]
@@ -1313,8 +1842,33 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
         strainText
       )
     }
-    if (mode === 'pitch' && chartBars < bars.length) {
-      chartForMerge = padChartToBarCount(chartForMerge, bars.length, block.meter)
+
+    let chartForMergeBars = countChartBars(chartForMerge)
+    if (chartForMergeBars !== bars.length && (mode === 'pitch' || harmonyOnly)) {
+      const normalized = normalizeChartToBarCount(chartForMerge, bars.length)
+      if (countChartBars(normalized) === bars.length) {
+        chartForMerge = normalized
+        chartForMergeBars = bars.length
+        workingBlocks[i] = Object.assign({}, block, { chart: normalized })
+      }
+      if (chartForMergeBars !== bars.length) {
+        const trimmed = trimChartToBarCount(chartForMerge, bars.length)
+        if (countChartBars(trimmed) === bars.length) {
+          chartForMerge = trimmed
+          chartForMergeBars = bars.length
+          workingBlocks[i] = Object.assign({}, block, { chart: trimmed })
+        }
+      }
+      if (chartForMergeBars !== bars.length) {
+        return {
+          ok: false,
+          error: mergeFailure(
+            'block_count_mismatch',
+            'Chord grid bar count does not match melody in this section',
+            { blockTitle: block.title, blockIndex: strainIndex }
+          ),
+        }
+      }
     }
 
     const miniHeader = {
@@ -1328,28 +1882,56 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     }
     const mini = miniAbcForStrain(miniHeader, strainText, strains[strainIndex].startBarline)
     let mergedMini
-    const mergeOpts = harmonyOnly ? { harmonyOnly: true } : null
+    const useHarmonyOnly = (harmonyOnly || mode === 'pitch') && chartForMergeBars === bars.length
+    if (useHarmonyOnly) {
+      harmonyOnlyStrainIndexes[strainIndex] = true
+    }
+    const baselineChart = useHarmonyOnly ? resyncedChartForStrain(strainIndex) : ''
+    const mergeOpts = useHarmonyOnly
+      ? {
+          harmonyOnly: true,
+          baselineChordText: baselineChart || undefined,
+        }
+      : null
     try {
       mergedMini = abcjsParser.mergeChords(chartForMerge, mini, null, mergeOpts)
     } catch (e) {
       return { ok: false, error: mergeFailure('chart_parse_error', e.message || 'Chord merge failed') }
     }
-    const mergedStrainText = melodyTextFromMergeChordsOutput(mergedMini, abcTools)
-    if (harmonyOnly) {
-      const beforeFp = melodyVoicingFingerprint(strainText)
-      const afterFp = melodyVoicingFingerprint(mergedStrainText)
-      if (beforeFp !== afterFp) {
+    const mergedStrainTextRaw = melodyTextFromMergeChordsOutput(mergedMini, abcTools)
+    let mergedStrainText = useHarmonyOnly
+      ? restorePartBreakMarkers(strainText, mergedStrainTextRaw)
+      : mergedStrainTextRaw
+    if (useHarmonyOnly) {
+      const chartSynced = applyLeadingChordsFromChart(strainText, chartForMerge, {
+        meter: miniHeader.meter,
+        noteLength: miniHeader.noteLength,
+      })
+      if (chartSynced && harmonyEditPreservesMelody(strainText, chartSynced, true)) {
+        mergedStrainText = restorePartBreakMarkers(strainText, chartSynced)
+      } else if (!harmonyEditPreservesMelody(strainText, mergedStrainText, true)) {
         return {
           ok: false,
           error: mergeFailure(
             'invariant_violation',
-            'Chord merge would alter bracket voicing melody'
+            'Chord merge would alter melody notation'
           ),
         }
       }
     }
     if (strainTextHasPitch(strainText) && !strainTextHasPitch(mergedStrainText)) {
       updatedStrainTexts[strainIndex] = strainText
+    } else if (
+      strainTextHasPitch(strainText)
+      && !harmonyEditPreservesMelody(strainText, mergedStrainText, useHarmonyOnly)
+    ) {
+      return {
+        ok: false,
+        error: mergeFailure(
+          'invariant_violation',
+          'Chord merge would alter melody notation'
+        ),
+      }
     } else {
       updatedStrainTexts[strainIndex] = mergedStrainText
     }
@@ -1410,16 +1992,43 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     const chartBars = block ? countChartBars(block.chart) : 0
 
     if (!editedStrainIndexes[i] && before !== after) {
-      return {
-        ok: false,
-        error: mergeFailure(
-          'invariant_violation',
-          'Non-edited strain notation changed during merge'
-        ),
+      const origText = strains[i].text
+      const afterText = afterStrains[i] ? afterStrains[i].text : ''
+      if (!melodiesMatchForChordEdit(origText, afterText)) {
+        return {
+          ok: false,
+          error: mergeFailure(
+            'invariant_violation',
+            'Non-edited strain notation changed during merge'
+          ),
+        }
       }
     }
 
-    if (block && chartBars > 0 && chartBars !== origBars && newBars !== chartBars) {
+    if (editedStrainIndexes[i] && strainTextHasPitch(strains[i].text)) {
+      const afterText = afterStrains[i] ? afterStrains[i].text : ''
+      const referenceText = updatedStrainTexts[i] != null
+        ? updatedStrainTexts[i]
+        : strains[i].text
+      const harmonyStrain = !!harmonyOnlyStrainIndexes[i]
+      if (!harmonyEditPreservesMelody(referenceText, afterText, harmonyStrain)) {
+        return {
+          ok: false,
+          error: mergeFailure(
+            'invariant_violation',
+            'Chord merge would alter melody notation'
+          ),
+        }
+      }
+    }
+
+    if (
+      block
+      && chartBars > 0
+      && chartBars !== origBars
+      && newBars !== chartBars
+      && newBars !== origBars
+    ) {
       return {
         ok: false,
         error: mergeFailure(
@@ -1597,6 +2206,9 @@ export function applyBlockMergeToTune(tune, options) {
   if (!abc) abc = abcTools.json2abc(tune)
 
   const blocks = opts.blocks
+  const notesBeforeClean = Array.isArray(opts.notesBefore) && opts.notesBefore.length
+    ? mergeNoteLinesWithVoicePrefixes(opts.notesBefore, opts.notesBefore)
+    : opts.notesBefore
   const result = mergeAllChordBlocks(abc, blocks, {
     abcjsParser: abcjsParser,
     tunebook: tunebook,
@@ -1604,7 +2216,7 @@ export function applyBlockMergeToTune(tune, options) {
     chordSheetAlignment: opts.chordSheetAlignment,
     defaultMeter: opts.defaultMeter || tune.meter,
     tune: tune,
-    notesBefore: opts.notesBefore,
+    notesBefore: notesBeforeClean,
   })
   if (!result.ok) return result
 
@@ -1612,17 +2224,15 @@ export function applyBlockMergeToTune(tune, options) {
   // Always write onto the tune's existing primary voice — never adopt a fresh
   // voice key invented by parsing a notes-only merge body.
   const voiceKey = resolvePrimaryVoiceKey(tune.voices || abcJson.voices)
-  const mergedMelodyLines = Array.isArray(result.noteLines) && result.noteLines.length
-    ? noteLinesForMelodyMerge(result.noteLines)
-    : noteLinesForMelodyMerge(noteLinesFromMergedBody(result.abc, abcTools))
+  const rawNoteLines = Array.isArray(result.noteLines) && result.noteLines.length
+    ? result.noteLines
+    : noteLinesFromMergedBody(result.abc, abcTools)
+  const mergedMelodyLines = noteLinesForMelodyMerge(rawNoteLines)
   const noteLines = mergeNoteLinesWithVoicePrefixes(
-    Array.isArray(opts.notesBefore) ? opts.notesBefore : [],
-    Array.isArray(result.noteLines) && result.noteLines.length
-      ? result.noteLines
-      : noteLinesFromMergedBody(result.abc, abcTools)
+    Array.isArray(notesBeforeClean) ? notesBeforeClean : [],
+    rawNoteLines
   )
-  const notesBefore = opts.notesBefore
-  const melodyBefore = noteLinesForMelodyMerge(notesBefore)
+  const melodyBefore = noteLinesForMelodyMerge(notesBeforeClean)
   const hadMelody = noteLinesHaveRealMelody(melodyBefore)
   if (hadMelody && !noteLinesHaveRealMelody(mergedMelodyLines)) {
     return {

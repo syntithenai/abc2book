@@ -423,6 +423,11 @@ export const EDITOR_VIEW_MODES = [
   { id: 'lyrics', label: 'Lyrics' },
 ];
 
+/** Single tune view edit pencil — includes Chords deep link into notation editor. */
+export const SINGLE_VIEW_EDIT_MODES = EDITOR_VIEW_MODES.concat([
+  { id: 'chords', label: 'Chords' },
+]);
+
 /** Editor URL segments that are Music subviews (not header tabs). */
 export const EDITOR_MUSIC_SUBVIEWS = ['pianoRoll', 'notationAbc', 'chords'];
 

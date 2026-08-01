@@ -110,6 +110,9 @@ export function beatPositionsForBarChords(barChords, barModel, anchors, lyricWor
   const wordCount = Math.max(1, lyricWordCount || 0)
   const hasAnchors = Array.isArray(anchors) && anchors.length > 0
   const tokenCount = chords.length
+  if (tokenCount === N) {
+    return chords.map(function(_, index) { return index })
+  }
   const snapToBeats = tokenCount > 0
     && tokenCount <= beatCount
     && (model.compound || tokenCount === beatCount)

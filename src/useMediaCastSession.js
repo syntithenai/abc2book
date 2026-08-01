@@ -19,6 +19,7 @@ import {
 } from './remoteOutputSupport';
 import { getChromecastOutputEnabled } from './preferredRemoteOutputSettings';
 import { enrichPayloadWithYoutubeAudioPrefetch } from './youtubeRemoteAudioPrefetch';
+import { normalizeRemotePlaybackPayload } from './youtubePlaybackUri';
 
 const CAST_STORAGE_KEY = 'abc2book.castSession';
 
@@ -585,13 +586,18 @@ export default function useMediaCastSession({ mediaController }) {
         ? payload.duration
         : (mediaController.duration || 0);
       let contentUrl = null;
-      let sessionPayload = Object.assign({}, payload || {}, requestOpts);
-      if (payload && payload.sourceType === 'youtube') {
-        const youtubeGetId = mediaController.youtubeGetId
-          || (mediaController.tunebook && mediaController.tunebook.utils
-            ? mediaController.tunebook.utils.YouTubeGetID
-            : null);
-        sessionPayload = await enrichPayloadWithYoutubeAudioPrefetch(sessionPayload, youtubeGetId);
+      let sessionPayload = Object.assign({}, payload || {}, {
+        accessToken: requestOpts.accessToken,
+      });
+      const youtubeGetId = mediaController.youtubeGetId
+        || (mediaController.tunebook && mediaController.tunebook.utils
+          ? mediaController.tunebook.utils.YouTubeGetID
+          : null);
+      if (payload) {
+        sessionPayload = normalizeRemotePlaybackPayload(sessionPayload, youtubeGetId);
+        if (sessionPayload.sourceType === 'youtube') {
+          sessionPayload = await enrichPayloadWithYoutubeAudioPrefetch(sessionPayload, youtubeGetId);
+        }
       }
       const useHlsSession = !!(payload && needsCastHlsSession(mediaController, payload));
       if (useHlsSession) {

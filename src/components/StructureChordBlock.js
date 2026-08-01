@@ -113,9 +113,9 @@ export default function StructureChordBlock(props) {
       if (!line.trim()) {
         return <div key={keyPrefix + '-sp-' + idx} className="chord-block-spacer" />;
       }
-      // Highlight |: / :| / :|: so the pipe cannot be lost to overflow clipping.
+      // Highlight |: / :| / :|: / [1 / [2 / |] so markers cannot be lost to overflow clipping.
       const parts = [];
-      const re = /:\|:|\|:|:\|/g;
+      const re = /:\|:|\|:|:\||\|\]|\[\d+|\d+\./g;
       let last = 0;
       let match;
       let partKey = 0;

@@ -388,9 +388,11 @@ export function rhythmAlignedCountInInput(visualObj, rhythm, options) {
   }
   const abcBeatsPerMeasure = parseFloat(visualObj.getBeatsPerMeasure()) || 0
   let beatLength = parseFloat(visualObj.getBeatLength()) || 0
-  const msPerMeasure = typeof visualObj.millisecondsPerMeasure === 'function'
-    ? parseFloat(visualObj.millisecondsPerMeasure()) || 0
-    : 0
+  const msPerMeasure = o.effectiveMsPerMeasure > 0
+    ? parseFloat(o.effectiveMsPerMeasure) || 0
+    : (typeof visualObj.millisecondsPerMeasure === 'function'
+      ? parseFloat(visualObj.millisecondsPerMeasure()) || 0
+      : 0)
   const meter = o.meter != null ? String(o.meter).trim() : ''
   if (!(beatLength > 0)) {
     beatLength = defaultAbcBeatLengthForMeter(meter || '4/4')

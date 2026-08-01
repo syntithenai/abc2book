@@ -157,7 +157,7 @@ describe('bulkCheckIssueGroups', function() {
     expect(canRunFixAll(tune, report, tunebook, null)).toBe(false)
   })
 
-  test('offers collapse empty repeat bar fix for empty bar between repeat marks', function() {
+  test('offers strain repeat fix for empty bar between repeat marks', function() {
     const tune = {
       id: 't1',
       name: 'Repeat Gap',
@@ -183,7 +183,8 @@ describe('bulkCheckIssueGroups', function() {
 
     const groups = buildBulkCheckIssueGroups(report, tune, tunebook, null)
     const notationGroup = groups.find(function(group) { return group.id === 'notation' })
-    expect(notationGroup.actions.map(function(item) { return item.id })).toContain('collapseEmptyRepeatBars')
+    expect(notationGroup.actions.map(function(item) { return item.id })).toContain('fixStrainRepeatEnds')
+    expect(notationGroup.actions.map(function(item) { return item.id })).not.toContain('removeEmptyBars')
     expect(canRunFixAll(tune, report, tunebook, null)).toBe(true)
   })
 

@@ -87,6 +87,10 @@ function sectionLabel(index) {
   return String(index + 1);
 }
 
+function barMelodyLength(barText) {
+  return normalizePickupText(barText).replace(/"[^"]*"/g, '').replace(/\s+/g, '').length;
+}
+
 /**
  * Boundaries where the next section's pickup should be a volta ending.
  * @returns {{ sectionIndex: number, nextPickup: string, barIndex: number, message: string }[]}
@@ -109,7 +113,13 @@ export function analyzeSectionPickupVoltaBoundaries(noteLines, durationIssues, p
     const barIndex = globalBarIndexForSection(sections, sectionIndex);
     if (underfull[barIndex]) return true;
     if (sectionIndex === 0 && hasTunePickup) return true;
-    return true;
+    if (/\|\|/.test(String(section.pickupBar || ''))) return true;
+    if (section.bars.length >= 2) {
+      const firstLen = barMelodyLength(section.bars[0]);
+      const secondLen = barMelodyLength(section.bars[1]);
+      if (firstLen > 0 && secondLen > firstLen * 1.5) return true;
+    }
+    return false;
   }
 
   for (let i = 0; i < sections.length - 1; i += 1) {

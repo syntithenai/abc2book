@@ -77,6 +77,7 @@ import {
     shouldBlockWebViewAudioPlay,
 } from './androidPlaybackGate'
 import { startAndroidProcessedBlobPlayback } from './androidProcessedPlayback'
+import { isStandaloneExternalPlaybackEngaged } from './standaloneMediaPlayback'
 import { shouldAdvancePlaybackOnEnd, isTuneListPath, isPlaybackBrowsePath, getAppPathname, isQueuePlaybackEngaged } from './playbackNavigationUtils'
 import { playbackModeFromPathname } from './offlinePlayback'
 import {
@@ -1380,8 +1381,15 @@ export default function useTuneBookMediaController(props) {
         destroyNativeFilteredPlayback()
         stopMidiFilePlayback()
         if (androidNativeActiveRef.current || isAndroidNativePlayerActive()) {
-            androidNativeActiveRef.current = false
-            stopAndroidNativePlayer()
+            if (isStandaloneExternalPlaybackEngaged()
+                && !androidNativeActiveRef.current
+                && !isAbcNativePlayInFlight()
+                && !nativePlaybackLoadInFlightRef.current) {
+                // Keep ExoPlayer running for device/search media until notation takes over.
+            } else {
+                androidNativeActiveRef.current = false
+                stopAndroidNativePlayer()
+            }
         }
         if (playerRef && playerRef.current) {
             try {
@@ -7312,8 +7320,15 @@ export default function useTuneBookMediaController(props) {
         userGesturePlayRef.current = false
         setIsPlaying(false)
         setIsLoading(false)
-        if (isMidiPlaybackRoute() && stopMidiSynthRef.current && !isAndroidNativeOutputActive()) {
-            stopMidiSynthRef.current()
+        if (isMidiPlaybackRoute() && !isAndroidNativeOutputActive()) {
+            // #region agent log
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',location:'useTuneBookMediaController.js:pause',message:'midi pause engine',data:{usesPauseSynth:!!pauseSynthRef.current,usesStopMidi:!!stopMidiSynthRef.current,userPaused:userPausedRef.current,playingIntent:playingIntentRef.current},timestamp:Date.now(),hypothesisId:'F2'})}).catch(function(){});
+            // #endregion
+            if (pauseSynthRef.current) {
+                pauseSynthRef.current()
+            } else if (stopMidiSynthRef.current) {
+                stopMidiSynthRef.current()
+            }
         }
         if (isMidiPlaybackRoute() && stopMetronomeRef.current) {
             stopMetronomeRef.current()

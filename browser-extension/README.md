@@ -26,6 +26,7 @@ Regenerate the zip after editing this folder: `npm run package:youtube-helper` (
 
 If status stays “not connected”:
 
+- Confirm only **one** TuneBook Helper is installed (remove duplicates or old “YouTube helper” copies on `chrome://extensions`)
 - Confirm the extension is enabled and has no errors (chrome://extensions → Details → Errors)
 - Confirm you reloaded the Tunebook tab after loading the extension
 - Click the extension’s **Reload** button on chrome://extensions, then reload Tunebook again

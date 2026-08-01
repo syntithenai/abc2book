@@ -69,6 +69,41 @@ describe('barModel', function() {
     expect(positions).toEqual([0, 2, 4])
   })
 
+  test('eight pulse slots map one chord per slot index', function() {
+    const model = getBarModel('4/4', '1/8')
+    const tokens = ['G', '.', 'D', '.', '.', '.', '.', '.']
+    const positions = beatPositionsForBarChords(tokens, model, null, 0)
+    expect(positions).toEqual([0, 1, 2, 3, 4, 5, 6, 7])
+  })
+
+  test('two adjacent pulse chords stay on consecutive slots', function() {
+    const model = getBarModel('4/4', '1/8')
+    const tokens = ['.', 'G', 'D', '.', '.', '.', '.', '.']
+    const positions = beatPositionsForBarChords(tokens, model, null, 0)
+    expect(positions[1]).toBe(1)
+    expect(positions[2]).toBe(2)
+  })
+
+  test('six pulse slots in 6/8 map one chord per slot index', function() {
+    const model = getBarModel('6/8', '1/8')
+    const tokens = ['G', '.', 'D', '.', '.', '.']
+    const positions = beatPositionsForBarChords(tokens, model, null, 0)
+    expect(positions).toEqual([0, 1, 2, 3, 4, 5])
+  })
+
+  test('nine and twelve pulse slots map one chord per slot index', function() {
+    const nine = getBarModel('9/8', '1/8')
+    const twelve = getBarModel('12/8', '1/8')
+    expect(nine.unitSlotsPerBar).toBe(9)
+    expect(twelve.unitSlotsPerBar).toBe(12)
+    const tokens9 = Array(9).fill('.')
+    tokens9[4] = 'D'
+    const tokens12 = Array(12).fill('.')
+    tokens12[7] = 'D'
+    expect(beatPositionsForBarChords(tokens9, nine, null, 0)[4]).toBe(4)
+    expect(beatPositionsForBarChords(tokens12, twelve, null, 0)[7]).toBe(7)
+  })
+
   test('anchor mapping uses beat span', function() {
     const model = getBarModel('6/8', '1/8')
     const positions = beatPositionsForBarChords(

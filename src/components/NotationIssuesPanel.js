@@ -1,5 +1,6 @@
 import { useMemo, useState, useEffect } from 'react'
 import { Badge, Button, Modal } from 'react-bootstrap'
+import { toast } from 'react-toastify'
 import { buildBulkCheckIssueGroups } from '../bulkCheckIssueGroups'
 import { FIX_ALL_PREVIEW_ACTIONS } from '../bulkCheckFixAll'
 import BulkCheckFixPreviewModal from './BulkCheckFixPreviewModal'
@@ -7,31 +8,54 @@ import { previewStructureFix, STRUCTURE_FIX_ACTIONS } from '../tuneAbcStructureF
 import { diffTuneFields } from '../bulkCheckIssueGroups'
 import { runBulkCheckFixAction } from '../bulkCheckFixActions'
 
+function formatIssueCopyLine(issueItem, groupTitle) {
+  const severity = issueItem && issueItem.severity ? issueItem.severity : 'warning'
+  const code = issueItem && issueItem.code ? issueItem.code : 'unknown'
+  const message = issueItem && issueItem.message ? issueItem.message : ''
+  const field = issueItem && issueItem.field ? issueItem.field : null
+  const parts = []
+  if (groupTitle) parts.push('[' + groupTitle + ']')
+  parts.push(code + ' (' + severity + '): ' + message)
+  if (field) parts.push('field=' + field)
+  return parts.join(' ')
+}
+
+function formatIssuesCopyText(tune, groups, abcText) {
+  const lines = []
+  const tuneName = tune && tune.name ? tune.name : 'Untitled tune'
+  const tuneId = tune && tune.id ? tune.id : null
+  lines.push('Tune: ' + tuneName + (tuneId ? ' (id: ' + tuneId + ')' : ''))
+  lines.push('')
+  lines.push('Issues:')
+  groups.forEach(function(group) {
+    group.issues.forEach(function(issueItem) {
+      lines.push(formatIssueCopyLine(issueItem, group.title))
+    })
+  })
+  if (abcText) {
+    lines.push('')
+    lines.push('ABC:')
+    lines.push(abcText)
+  }
+  return lines.join('\n')
+}
+
+async function copyTextToClipboard(text) {
+  if (!text) return false
+  try {
+    await navigator.clipboard.writeText(text)
+    toast.success('Copied to clipboard')
+    return true
+  } catch (err) {
+    toast.warning('Could not copy to clipboard')
+    return false
+  }
+}
+
 function severityVariant(severity) {
   if (severity === 'error') return 'danger'
   if (severity === 'warning') return 'warning'
   return 'info'
-}
-
-function issueMatchesSeverity(issueItem, severityMode) {
-  const severity = issueItem && issueItem.severity ? issueItem.severity : 'error'
-  if (severityMode === 'error') return severity === 'error'
-  return severity === 'warning' || severity === 'info'
-}
-
-function filterGroupsForSeverity(groups, severityMode) {
-  return groups.map(function(group) {
-    const filteredIssues = group.issues.filter(function(issueItem) {
-      return issueMatchesSeverity(issueItem, severityMode)
-    })
-    if (!filteredIssues.length) return null
-    return {
-      id: group.id,
-      title: group.title,
-      issues: filteredIssues,
-      actions: group.actions,
-    }
-  }).filter(Boolean)
 }
 
 function buildEditorReport(tune, issues, checkResults) {
@@ -45,16 +69,17 @@ function buildEditorReport(tune, issues, checkResults) {
   }
 }
 
-function SeverityIssuesModal(props) {
+function IssuesModal(props) {
   const {
     show,
     onHide,
     title,
-    severityMode,
     groups,
     fixingAction,
     onNavigateIssue,
     onApplyFix,
+    onCopyReport,
+    copyIcon,
   } = props
 
   return (
@@ -62,7 +87,20 @@ function SeverityIssuesModal(props) {
       <Modal.Header closeButton>
         <Modal.Title>{title}</Modal.Title>
       </Modal.Header>
-      <Modal.Body className="notation-issues-modal-body">
+      <Modal.Body className={'notation-issues-modal-body' + (onCopyReport ? ' notation-issues-modal-body-has-copy' : '')}>
+        {onCopyReport ? (
+          <Button
+            type="button"
+            size="sm"
+            variant="outline-secondary"
+            className="notation-issues-copy-btn"
+            title="Copy issues and ABC"
+            aria-label="Copy issues and ABC"
+            onClick={onCopyReport}
+          >
+            {copyIcon || '⧉'}
+          </Button>
+        ) : null}
         {groups.map(function(group) {
           return (
             <div key={group.id} className="notation-issues-modal-group">
@@ -80,7 +118,7 @@ function SeverityIssuesModal(props) {
                         }}
                       >
                         <Badge bg={severityVariant(issueItem.severity)} className="notation-issues-severity">
-                          {issueItem.severity || severityMode}
+                          {issueItem.severity || 'issue'}
                         </Badge>
                         <span>{issueItem.message}</span>
                       </button>
@@ -122,8 +160,9 @@ export default function NotationIssuesPanel(props) {
   const onTuneSaved = props.onTuneSaved
   const parseAndRender = props.parseAndRender
   const initialOpenDialog = props.initialOpenDialog
+  const inline = !!props.inline
 
-  const [activeDialog, setActiveDialog] = useState(null)
+  const [dialogOpen, setDialogOpen] = useState(false)
   const [previewState, setPreviewState] = useState(null)
   const [fixingAction, setFixingAction] = useState(null)
 
@@ -136,14 +175,6 @@ export default function NotationIssuesPanel(props) {
     return buildBulkCheckIssueGroups(report, tune, tunebook, parseAndRender)
   }, [report, tune, tunebook, parseAndRender, issues.length])
 
-  const errorGroups = useMemo(function() {
-    return filterGroupsForSeverity(groups, 'error')
-  }, [groups])
-
-  const warningGroups = useMemo(function() {
-    return filterGroupsForSeverity(groups, 'warning')
-  }, [groups])
-
   const errorCount = issues.filter(function(item) { return item.severity === 'error' }).length
   const warningCount = issues.filter(function(item) {
     return item.severity === 'warning' || item.severity === 'info'
@@ -151,17 +182,8 @@ export default function NotationIssuesPanel(props) {
 
   useEffect(function() {
     if (!initialOpenDialog || !issues.length) return
-    if (initialOpenDialog === 'error' && errorCount > 0) {
-      setActiveDialog('error')
-      return
-    }
-    if (initialOpenDialog === 'warning' && warningCount > 0) {
-      setActiveDialog('warning')
-      return
-    }
-    if (errorCount > 0) setActiveDialog('error')
-    else if (warningCount > 0) setActiveDialog('warning')
-  }, [initialOpenDialog, issues.length, errorCount, warningCount])
+    setDialogOpen(true)
+  }, [initialOpenDialog, issues.length])
 
   if (!issues.length) return null
 
@@ -203,61 +225,72 @@ export default function NotationIssuesPanel(props) {
     if (next && onTuneSaved) onTuneSaved(next)
   }
 
+  function tuneAbcText() {
+    const abcTools = tunebook && tunebook.abcTools
+    if (!abcTools || typeof abcTools.json2abc !== 'function' || !tune) return ''
+    return abcTools.json2abc(tune) || ''
+  }
+
+  async function copyIssuesReport() {
+    const text = formatIssuesCopyText(tune, groups, tuneAbcText())
+    await copyTextToClipboard(text)
+  }
+
+  const copyIcon = (tunebook && tunebook.icons && tunebook.icons.filecopyline) || '⧉'
+  const toggleLabel = errorCount > 0 ? 'Errors' : 'Warnings'
+  const toggleVariant = errorCount > 0 ? 'outline-danger' : 'outline-warning'
+  const ariaParts = []
+  if (errorCount > 0) ariaParts.push('Errors: ' + errorCount)
+  if (warningCount > 0) ariaParts.push('Warnings: ' + warningCount)
+
+  const issuesToggle = (
+    <Button
+      variant={toggleVariant}
+      size={inline ? 'lg' : 'sm'}
+      className="notation-issues-severity-toggle"
+      aria-label={ariaParts.join(', ')}
+      onClick={function() { setDialogOpen(true) }}
+    >
+      <span className="notation-issues-badges">
+        {errorCount > 0 ? (
+          <Badge bg="danger" className="notation-issues-badge">{errorCount}</Badge>
+        ) : null}
+        {warningCount > 0 ? (
+          <Badge bg="warning" text="dark" className="notation-issues-badge">{warningCount}</Badge>
+        ) : null}
+      </span>
+      <span className="notation-issues-severity-label">{toggleLabel}</span>
+      <span className="notation-issues-caret" aria-hidden="true">▾</span>
+    </Button>
+  )
+
   return (
     <>
-      <div className="notation-issues-toolbar">
-        <div className="notation-issues-toolbar-block">
-          <span className="notation-issues-toolbar-title">Notation checks</span>
-          <div className="notation-issues-toolbar-buttons">
-            {errorCount > 0 ? (
-              <Button
-                variant="outline-danger"
-                size="sm"
-                className="notation-issues-severity-toggle"
-                aria-label={'Errors: ' + errorCount}
-                onClick={function() { setActiveDialog('error') }}
-              >
-                <Badge bg="danger" className="notation-issues-badge">{errorCount}</Badge>
-                <span className="notation-issues-severity-label">Errors</span>
-                <span className="notation-issues-caret" aria-hidden="true">▾</span>
-              </Button>
-            ) : null}
-            {warningCount > 0 ? (
-              <Button
-                variant="outline-warning"
-                size="sm"
-                className="notation-issues-severity-toggle"
-                aria-label={'Warnings: ' + warningCount}
-                onClick={function() { setActiveDialog('warning') }}
-              >
-                <Badge bg="warning" text="dark" className="notation-issues-badge">{warningCount}</Badge>
-                <span className="notation-issues-severity-label">Warnings</span>
-                <span className="notation-issues-caret" aria-hidden="true">▾</span>
-              </Button>
-            ) : null}
+      {inline ? (
+        <div className="notation-issues-inline">
+          {issuesToggle}
+        </div>
+      ) : (
+        <div className="notation-issues-toolbar">
+          <div className="notation-issues-toolbar-block">
+            <span className="notation-issues-toolbar-title">Notation checks</span>
+            <div className="notation-issues-toolbar-buttons">
+              {issuesToggle}
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
-      <SeverityIssuesModal
-        show={activeDialog === 'error'}
-        onHide={function() { setActiveDialog(null) }}
-        title="Notation errors"
-        severityMode="error"
-        groups={errorGroups}
+      <IssuesModal
+        show={dialogOpen}
+        onHide={function() { setDialogOpen(false) }}
+        title="Notation checks"
+        groups={groups}
         fixingAction={fixingAction}
         onNavigateIssue={onNavigateIssue}
         onApplyFix={applyFix}
-      />
-      <SeverityIssuesModal
-        show={activeDialog === 'warning'}
-        onHide={function() { setActiveDialog(null) }}
-        title="Notation warnings"
-        severityMode="warning"
-        groups={warningGroups}
-        fixingAction={fixingAction}
-        onNavigateIssue={onNavigateIssue}
-        onApplyFix={applyFix}
+        onCopyReport={copyIssuesReport}
+        copyIcon={copyIcon}
       />
 
       <BulkCheckFixPreviewModal

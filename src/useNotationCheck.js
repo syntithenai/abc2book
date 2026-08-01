@@ -132,9 +132,12 @@ export default function useNotationCheck(tune, liveBodies, options) {
   return Object.assign({}, checkState, {
     checkTune: checkTune,
     issueBarIndices: issueBarIndices,
-    refresh: function() {
-      if (!tune || !tune.id) return
-      const report = buildNotationCheckReport(tune, liveBodies, optionsRef.current)
+    refresh: function(override) {
+      const opts = override || {}
+      const tuneForCheck = opts.tune || tune
+      if (!tuneForCheck || !tuneForCheck.id) return
+      const bodiesForCheck = opts.liveBodies != null ? opts.liveBodies : liveBodies
+      const report = buildNotationCheckReport(tuneForCheck, bodiesForCheck, optionsRef.current)
       setCheckState({
         issues: report.issues || [],
         abcResult: report.abcResult,

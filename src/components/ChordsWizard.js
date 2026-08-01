@@ -15,6 +15,11 @@ import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
 import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import {
   sectionMarkerChartLine,
+  formatSectionChartForEditor,
+  parseSectionChartFromEditor,
+  stripChartStructureMarkers,
+  normalizeChordChartRepeatMarks,
+  splitChartHeaderAndBody,
 } from '../chordSheetUtils'
 import {
   firstSectionMeter,
@@ -37,15 +42,21 @@ import {
 } from '../chordsEditorSections'
 import {
   applyBlockMergeToTune,
+  alignBlockChartsToMelody,
   buildUnifiedBlocks,
   chordBlockCacheMatchesMelody,
   enrichBlocksWithNotationMarkerFlags,
   hashAbcNotes,
+  invalidateChordBlockCache,
+  normalizeChartToBarCount,
   readChordBlockCache,
   reconcileBlocksFromGrid,
   reanchorEditorBlocksToMelody,
+  splitChordGridAcrossMelodyStrains,
+  splitMelodyStrainsWithBarlines,
   writeChordBlockCache,
 } from '../chordBlockMerge'
+import { extractBarsFromMelodyText } from '../lyricBarAlignmentUtils'
 import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
 import { fillEmptyTuneFieldsFromMeta } from '../applyChordSheetToTune'
 import { noteLinesHaveRealMelody } from '../timedImportFinalizer'
@@ -132,17 +143,24 @@ export default function ChordsWizard(props) {
       && cache.abcHash === abcHash
       && Array.isArray(cache.blocks)
       && cache.blocks.length
-      && chordBlockCacheMatchesMelody(noteLines, cache.blocks)
     ) {
-      const cached = labels && labels.length
-        ? applyChordSectionLabels(cache.blocks, labels, lyricLines)
-        : cache.blocks
-      return enrichBlocksWithNotationMarkerFlags(cached, noteLines)
+      if (chordBlockCacheMatchesMelody(noteLines, cache.blocks)) {
+        const cached = labels && labels.length
+          ? applyChordSectionLabels(cache.blocks, labels, lyricLines)
+          : cache.blocks
+        return enrichBlocksWithNotationMarkerFlags(
+          alignBlockChartsToMelody(noteLines, cached),
+          noteLines
+        )
+      }
+      invalidateChordBlockCache(tune)
     }
     const chordChart = abcjsParser.renderChords(currentAbcString(), true)
+    const displayChordChart = abcjsParser.renderChords(currentAbcString(), false)
     const extracted = buildUnifiedBlocks({
       noteLines: noteLines,
       chordChart: chordChart,
+      displayChordChart: displayChordChart,
       lyricLines: lyricLines,
       defaultMeter: tune.meter || '4/4',
       defaultKey: tune.key || 'C',
@@ -152,7 +170,22 @@ export default function ChordsWizard(props) {
     })
     warningsBanner.current = extracted.warnings || []
     writeChordBlockCache(tune, extracted.abcHash, extracted.blocks)
-    return extracted.blocks
+    return enrichBlocksWithNotationMarkerFlags(
+      alignBlockChartsToMelody(noteLines, extracted.blocks),
+      noteLines
+    )
+  }
+
+  function refreshSectionsFromMelody() {
+    invalidateChordBlockCache(tune)
+    const next = loadSectionsFromAbc()
+    localSectionsRef.current = true
+    setSections(next)
+    committedSectionsRef.current = next
+    setSectionDrafts({})
+    setWholeDraft(null)
+    setMergeFailure(null)
+    toast.info('Chord grid refreshed from notation.')
   }
 
   function hasPendingChordDrafts() {
@@ -164,21 +197,28 @@ export default function ChordsWizard(props) {
       localSectionsRef.current = false
       return
     }
-    if (Array.isArray(props.notes) || props.abc) {
-      const noteLines = primaryNoteLines()
-      const abcHash = hashAbcNotes(noteLines)
-      const hashChanged = melodyHashRef.current != null && melodyHashRef.current !== abcHash
-      melodyHashRef.current = abcHash
-      if (hashChanged && hasPendingChordDrafts()) {
-        toast.warning('Melody changed elsewhere; unsaved chord edits were discarded.')
-      }
-      const next = loadSectionsFromAbc()
-      setSections(next)
-      committedSectionsRef.current = next
-      setSectionDrafts({})
-      setWholeDraft(null)
-      setMergeFailure(null)
+    if (!Array.isArray(props.notes) && !props.abc) return
+
+    const noteLines = primaryNoteLines()
+    const abcHash = hashAbcNotes(noteLines)
+    const isFirstLoad = melodyHashRef.current == null
+    const hashChanged = !isFirstLoad && melodyHashRef.current !== abcHash
+
+    if (!isFirstLoad && !hashChanged) {
+      return
     }
+
+    if (hashChanged && hasPendingChordDrafts()) {
+      toast.warning('Melody changed elsewhere; unsaved chord edits were discarded.')
+    }
+
+    melodyHashRef.current = abcHash
+    const next = loadSectionsFromAbc()
+    setSections(next)
+    committedSectionsRef.current = next
+    setSectionDrafts({})
+    setWholeDraft(null)
+    setMergeFailure(null)
   }, [props.notes, props.abc])
 
   const onConsumePendingChordImport = props.onConsumePendingChordImport
@@ -290,14 +330,12 @@ export default function ChordsWizard(props) {
 
     if (!result.ok) {
       setMergeFailure(result.error)
-      // Revert drafts to last committed
-      setSections(committedSectionsRef.current.slice())
-      setSectionDrafts({})
-      setWholeDraft(null)
+      setSavingLabel('')
       return false
     }
 
     setMergeFailure(null)
+    melodyHashRef.current = hashAbcNotes(primaryNoteLines())
     localSectionsRef.current = true
     const committed = Array.isArray(nextSections) ? nextSections.slice() : (result.blocks || [])
     setSections(committed)
@@ -434,7 +472,10 @@ export default function ChordsWizard(props) {
   function handleRecordSave(payload) {
     if (!recordTarget) return
     if (recordTarget.mode === 'all') {
-      const chartText = String(payload.chart || '')
+      const chartText = splitChordGridAcrossMelodyStrains(
+        String(payload.chart || ''),
+        primaryNoteLines()
+      )
       const noteLength = tune.noteLength || '1/8'
       const prep = prepareChordGridDraft(sections, chartText, noteLength)
       const gridText = prep.ok ? prep.grid : chartText
@@ -573,30 +614,41 @@ export default function ChordsWizard(props) {
     if (Object.prototype.hasOwnProperty.call(sectionDrafts, section.key)) {
       return sectionDrafts[section.key]
     }
-    const chart = String(section.chart || '')
-    const header = section.header || section.lyricSectionHeader || ''
-    if (header && (section.notationMarkerWritten || section.writeNotationMarker)) {
-      return sectionMarkerChartLine(header) + (chart ? '\n' + chart : '')
-    }
-    return chart
+    return formatSectionChartForEditor(section)
   }
 
   function sectionsWithDrafts(baseSections, drafts) {
     let next = Array.isArray(baseSections) ? baseSections.slice() : []
     const d = drafts || sectionDrafts
     const noteLength = tune.noteLength || '1/8'
+    const noteLines = primaryNoteLines()
+    const strains = splitMelodyStrainsWithBarlines(noteLines)
     let updateLyrics = false
     let lyricLinesOut = null
     Object.keys(d).forEach(function(key) {
       const sectionIndex = next.findIndex(function(s) { return s && s.key === key })
       if (sectionIndex < 0) return
       const section = next[sectionIndex]
-      const prep = prepareSectionChartDraft(section, d[key], noteLength)
+      const parsed = parseSectionChartFromEditor(d[key])
+      const prep = prepareSectionChartDraft(section, parsed.cleanChart, noteLength)
       if (!prep.ok) {
         const err = new Error(prep.error || 'Chart save blocked')
         err.chartSaveBlocked = true
         err.prep = prep
         throw err
+      }
+      let chart = stripChartStructureMarkers(prep.chart)
+      const strainIdx = section.melodyStrainIndex
+      if (strainIdx != null && strainIdx >= 0 && strains[strainIdx]) {
+        const targetBars = extractBarsFromMelodyText(strains[strainIdx].text).length
+        chart = normalizeChartToBarCount(chart, targetBars)
+      }
+      const draftSplit = splitChartHeaderAndBody(d[key])
+      const structurePatch = {
+        strainStartBarline: parsed.strainStartBarline,
+        strainEndBarline: parsed.strainEndBarline,
+        endingMarkers: parsed.endingMarkers,
+        displayChart: normalizeChordChartRepeatMarks(draftSplit.body || ''),
       }
       if (prep.headerPatch) {
         const oldHeader = section.header || section.title || ''
@@ -618,12 +670,23 @@ export default function ChordsWizard(props) {
       next = replaceSectionChart(
         next,
         key,
-        prep.chart,
+        chart,
         section.meter,
         undefined,
         undefined,
         opts
       )
+      const typeKey = section.sourceTypeKey || section.type
+      next = next.map(function(s) {
+        if (!s) return s
+        if (s.key === key) {
+          return Object.assign({}, s, structurePatch)
+        }
+        if (typeKey && (s.sourceTypeKey || s.type) === typeKey) {
+          return Object.assign({}, s, structurePatch)
+        }
+        return s
+      })
     })
     return {
       sections: reindexChordsEditorSectionKeys(next),
@@ -697,7 +760,8 @@ export default function ChordsWizard(props) {
         return
       }
       const noteLength = tune.noteLength || '1/8'
-      const prep = prepareChordGridDraft(sections, text, noteLength)
+      const alignedText = splitChordGridAcrossMelodyStrains(text, primaryNoteLines())
+      const prep = prepareChordGridDraft(sections, alignedText, noteLength)
       if (!prep.ok) {
         toast.warning(prep.error || 'Could not save chart')
         setSavingLabel('')
@@ -1046,9 +1110,18 @@ export default function ChordsWizard(props) {
                   ) : null}
                 </div>
                 {isRevisit ? (
-                  <div className="text-muted small mb-0">
-                    {reuseTitle ? ('Same chords as ' + reuseTitle) : 'Uses chords from an earlier section'}
-                  </div>
+                  <>
+                    <div className="text-muted small mb-2">
+                      {reuseTitle ? ('Same chords as ' + reuseTitle) : 'Uses chords from an earlier section'}
+                    </div>
+                    <Form.Control
+                      as="textarea"
+                      className="chords-wizard-textarea chords-wizard-textarea--readonly"
+                      readOnly
+                      value={sectionChartValue(section)}
+                      ref={fitChordTextarea}
+                    />
+                  </>
                 ) : (
                   <Form.Control
                     as="textarea"
@@ -1071,6 +1144,14 @@ export default function ChordsWizard(props) {
       <ChordMergeFailureToast
         failure={mergeFailure}
         onDismiss={function() { setMergeFailure(null) }}
+        onRefresh={
+          mergeFailure && (
+            mergeFailure.code === 'block_count_mismatch'
+            || mergeFailure.code === 'invariant_violation'
+          )
+            ? refreshSectionsFromMelody
+            : null
+        }
       />
 
       <ChordSectionRecordModal

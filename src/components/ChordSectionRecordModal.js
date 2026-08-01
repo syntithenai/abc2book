@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Button, Form, Modal } from 'react-bootstrap';
 import { normalizeMeter } from '../barModel';
 import { normalizeTempo } from '../chordsEditorSections';
+import { setChordRecordNavigationBlocker } from '../chordRecordNavigationGuard';
 import ChordRecordControls from './ChordRecordControls';
 import './ChordSectionRecordModal.css';
 
@@ -20,6 +21,7 @@ export default function ChordSectionRecordModal(props) {
   const [draft, setDraft] = useState('');
   const [meter, setMeter] = useState(initialMeter);
   const [tempo, setTempo] = useState(initialTempo);
+  const [sessionDirty, setSessionDirty] = useState(false);
   const [showCloseWarning, setShowCloseWarning] = useState(false);
 
   useEffect(function() {
@@ -27,14 +29,30 @@ export default function ChordSectionRecordModal(props) {
     setDraft('');
     setMeter(initialMeter);
     setTempo(initialTempo);
+    setSessionDirty(false);
     setShowCloseWarning(false);
   }, [show, props.sectionKey, initialMeter, initialTempo]);
 
   const hasUnsavedChords = !!String(draft || '').trim();
+  const needsDismiss = sessionDirty || hasUnsavedChords;
   const canSave = hasUnsavedChords;
+
+  useEffect(function() {
+    if (!show) {
+      setChordRecordNavigationBlocker(null);
+      return undefined;
+    }
+    setChordRecordNavigationBlocker(function() {
+      return needsDismiss;
+    });
+    return function() {
+      setChordRecordNavigationBlocker(null);
+    };
+  }, [show, needsDismiss]);
 
   function closeModal() {
     setShowCloseWarning(false);
+    setSessionDirty(false);
     if (typeof props.onHide === 'function') {
       props.onHide();
     }
@@ -48,7 +66,7 @@ export default function ChordSectionRecordModal(props) {
   }
 
   function requestClose() {
-    if (hasUnsavedChords) {
+    if (needsDismiss) {
       setShowCloseWarning(true);
       return;
     }
@@ -97,6 +115,7 @@ export default function ChordSectionRecordModal(props) {
             meterOptions={props.meterOptions}
             initialChords={existingChart}
             autoActivate={!!props.autoActivate}
+            onSessionDirtyChange={setSessionDirty}
             onMeterTempoChange={function(next) {
               if (next && next.meter) setMeter(normalizeMeter(next.meter));
               if (next && next.tempo != null) {
@@ -142,22 +161,22 @@ export default function ChordSectionRecordModal(props) {
         className="chord-section-record-close-warning"
       >
         <Modal.Header closeButton>
-          <Modal.Title>Unsaved recorded chords</Modal.Title>
+          <Modal.Title>Leave chord recorder?</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          You have recorded chords that have not been saved. Save them to the tune, or discard them and close?
+          Save your recorded chords, or cancel the recording session using the Cancel button below the chord palette, before leaving.
         </Modal.Body>
         <Modal.Footer>
           <Button
             variant="outline-secondary"
             onClick={function() { setShowCloseWarning(false); }}
           >
-            Keep editing
+            Keep recording
           </Button>
           <Button variant="danger" onClick={closeModal}>
-            Discard
+            Leave without saving
           </Button>
-          <Button variant="success" onClick={handleSaveFromWarning}>
+          <Button variant="success" onClick={handleSaveFromWarning} disabled={!canSave}>
             Save
           </Button>
         </Modal.Footer>

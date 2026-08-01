@@ -64,8 +64,8 @@ class TunebookLocalMediaPlugin : Plugin() {
         if (hasAudioPermission()) {
             when (call.methodName) {
                 "requestAudioPermission" -> resolvePermissionStatus(call)
-                "searchLocalAudio" -> searchLocalAudio(call)
-                "getLocalAudioStats" -> getLocalAudioStats(call)
+                "searchLocalAudio" -> executeSearchLocalAudio(call)
+                "getLocalAudioStats" -> executeGetLocalAudioStats(call)
                 else -> call.reject("Unknown method after permission")
             }
         } else {
@@ -105,9 +105,13 @@ class TunebookLocalMediaPlugin : Plugin() {
     @PluginMethod
     fun searchLocalAudio(call: PluginCall) {
         if (!hasAudioPermission()) {
-            promptAudioPermission(call)
+            call.reject("Audio library permission not granted")
             return
         }
+        executeSearchLocalAudio(call)
+    }
+
+    private fun executeSearchLocalAudio(call: PluginCall) {
         val query = call.getString("query")?.trim()?.lowercase(Locale.US) ?: ""
         val limit = call.getInt("limit", 20) ?: 20
         executor.execute {
@@ -136,6 +140,10 @@ class TunebookLocalMediaPlugin : Plugin() {
             call.resolve(result)
             return
         }
+        executeGetLocalAudioStats(call)
+    }
+
+    private fun executeGetLocalAudioStats(call: PluginCall) {
         executor.execute {
             try {
                 val count = countAudioTracks()
@@ -205,6 +213,13 @@ class TunebookLocalMediaPlugin : Plugin() {
         return 0
     }
 
+    private fun escapeLike(value: String): String {
+        return value
+            .replace("\\", "\\\\")
+            .replace("%", "\\%")
+            .replace("_", "\\_")
+    }
+
     private fun searchAudioCandidates(query: String, limit: Int): List<JSObject> {
         val collection = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI
         val projection = arrayOf(
@@ -216,11 +231,32 @@ class TunebookLocalMediaPlugin : Plugin() {
             MediaStore.Audio.Media.DATA,
             MediaStore.Audio.Media.DISPLAY_NAME
         )
-        val selection = MediaStore.Audio.Media.IS_MUSIC + " != 0"
-        val sortOrder = MediaStore.Audio.Media.TITLE + " COLLATE LOCALIZED ASC LIMIT " + (limit * 8)
+        val tokens = query.split(Regex("\\s+")).filter { it.isNotBlank() }
+        val selectionBuilder = StringBuilder("(" + MediaStore.Audio.Media.IS_MUSIC + " != 0)")
+        val selectionArgs = ArrayList<String>()
+        if (tokens.isNotEmpty()) {
+            val primary = escapeLike(tokens[0])
+            val like = "%$primary%"
+            selectionBuilder.append(" AND (")
+            selectionBuilder.append(MediaStore.Audio.Media.TITLE).append(" LIKE ? ESCAPE '\\' OR ")
+            selectionBuilder.append(MediaStore.Audio.Media.ARTIST).append(" LIKE ? ESCAPE '\\' OR ")
+            selectionBuilder.append(MediaStore.Audio.Media.ALBUM).append(" LIKE ? ESCAPE '\\' OR ")
+            selectionBuilder.append(MediaStore.Audio.Media.DISPLAY_NAME).append(" LIKE ? ESCAPE '\\')")
+            repeat(4) { selectionArgs.add(like) }
+        }
+        val maxScan = if (query.isEmpty()) limit else limit * 12
+        val sortOrder = MediaStore.Audio.Media.TITLE + " ASC"
         val out = ArrayList<JSObject>()
-        context.contentResolver.query(collection, projection, selection, null, sortOrder)?.use { cursor ->
-            while (cursor.moveToNext() && out.size < limit) {
+        var scanned = 0
+        context.contentResolver.query(
+            collection,
+            projection,
+            selectionBuilder.toString(),
+            if (selectionArgs.isEmpty()) null else selectionArgs.toTypedArray(),
+            sortOrder
+        )?.use { cursor ->
+            while (cursor.moveToNext() && out.size < limit && scanned < maxScan) {
+                scanned++
                 val title = cursor.getString(cursor.getColumnIndexOrThrow(MediaStore.Audio.Media.TITLE)) ?: ""
                 val artist = cursor.getString(cursor.getColumnIndexOrThrow(MediaStore.Audio.Media.ARTIST)) ?: ""
                 val album = cursor.getString(cursor.getColumnIndexOrThrow(MediaStore.Audio.Media.ALBUM)) ?: ""

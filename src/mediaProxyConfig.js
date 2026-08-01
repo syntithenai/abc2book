@@ -54,7 +54,7 @@ function getPageProtocol() {
   return 'http:'
 }
 
-function getDevServerMediaProxyBase() {
+export function getDevServerMediaProxyBase() {
   if (process.env.NODE_ENV !== 'development') return ''
   if (typeof window === 'undefined' || !window.location || !window.location.origin) return ''
   const origin = window.location.origin
@@ -62,6 +62,11 @@ function getDevServerMediaProxyBase() {
     return origin
   }
   return ''
+}
+
+export function isDevServerMediaProxyBase(base) {
+  const devBase = getDevServerMediaProxyBase()
+  return !!(devBase && base === devBase)
 }
 
 export function getLocalMediaProxyCandidates() {

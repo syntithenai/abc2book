@@ -15,6 +15,7 @@ import {
   isQueuePlaybackEngaged,
   getActivePlaybackTuneId,
 } from '../playbackNavigationUtils'
+import { playExternalMediaItem, isStandaloneExternalPlaybackActive, isStandaloneExternalPlaybackEngaged, pauseStandaloneMediaPlayback, resumeStandaloneMediaPlayback, subscribeStandaloneMediaPlayback } from '../standaloneMediaPlayback'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { getResolverCreditLowBalanceWarning } from '../mediaProxyClient'
 import { openCreditSettings } from '../resolverCreditAccess'
@@ -37,6 +38,7 @@ export default function NowPlayingTransportBar({
   const location = useLocation()
   const navigate = useNavigate()
   const [, setEngagementTick] = useState(0)
+  const [, setStandaloneTick] = useState(0)
   const { status: resolverStatus } = useMediaResolverHealth()
   const creditWarning = getResolverCreditLowBalanceWarning(resolverStatus)
   const isFullscreen = !!nowPlayingExpanded
@@ -64,6 +66,12 @@ export default function NowPlayingTransportBar({
   }, [showBar, mediaController])
 
   useEffect(function() {
+    return subscribeStandaloneMediaPlayback(function() {
+      setStandaloneTick(function(n) { return n + 1 })
+    })
+  }, [])
+
+  useEffect(function() {
     if (!isLessonExternal) return undefined
     return subscribeLessonYoutube(function(state) {
       setLessonYoutubePlaying(!!(state && state.isPlaying))
@@ -86,8 +94,13 @@ export default function NowPlayingTransportBar({
     : (playingTune && playingTune.name ? playingTune.name : 'Now playing')
   const composer = playingTune && playingTune.composer ? playingTune.composer : ''
   const positionLabel = queueActive ? getQueuePositionLabel(nowPlayingQueue) : null
+  const isStandaloneExternal = isExternal && !isLessonExternal
+  const standaloneIsPlaying = isStandaloneExternal && isStandaloneExternalPlaybackActive()
+  const standaloneIsEngaged = isStandaloneExternal && isStandaloneExternalPlaybackEngaged()
   const mediaIsPlaying = !!(mediaController && mediaController.isPlaying)
-  const transportIsPlaying = isLessonExternal ? lessonYoutubePlaying : mediaIsPlaying
+  const transportIsPlaying = isLessonExternal
+    ? lessonYoutubePlaying
+    : (standaloneIsPlaying || mediaIsPlaying)
   const isLoading = !!(mediaController && mediaController.isLoading)
   const isEngaged = isQueuePlaybackEngaged(mediaController)
   const showLoading = isLoading && isEngaged
@@ -127,6 +140,21 @@ export default function NowPlayingTransportBar({
     if (isLessonQueue(nowPlayingQueue) && isExternal) {
       if (transportIsPlaying) pauseLessonYoutube()
       else playLessonYoutube({ fromUserGesture: true })
+      return
+    }
+    if (isStandaloneExternal && currentItem && currentItem.externalMedia) {
+      if (standaloneIsPlaying) {
+        pauseStandaloneMediaPlayback().catch(function() {})
+        return
+      }
+      if (standaloneIsEngaged) {
+        resumeStandaloneMediaPlayback().catch(function() {})
+        return
+      }
+      playExternalMediaItem(currentItem.externalMedia, mediaController, {
+        play: true,
+        fromUserGesture: true,
+      }).catch(function() {})
       return
     }
     if (!mediaController) return

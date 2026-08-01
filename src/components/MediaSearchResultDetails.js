@@ -7,6 +7,8 @@ import {
   isLocAudioResult,
   isMusicCollectionResult,
   mediaSearchResultArtist,
+  mediaSearchResultDisplayArtist,
+  mediaSearchResultDisplayTitle,
   mediaSearchResultRelativePath,
   mediaSearchPathStyle,
   mediaSearchSourceLabel,
@@ -62,16 +64,13 @@ export function MediaSearchResultDetails(props) {
   }
 
   if (isDeviceFileResult(item)) {
-    const artist = mediaSearchResultArtist(item)
-    const relativePath = mediaSearchResultRelativePath(item)
+    const artist = mediaSearchResultDisplayArtist(item)
+    const title = mediaSearchResultDisplayTitle(item)
     return (
       <div style={{ minWidth: 0, flex: 1 }}>
-        <div className="fw-semibold text-truncate">{item.title || 'Track'}</div>
+        <div className="fw-semibold text-truncate">{title}</div>
         {artist ? <div className="text-truncate">{artist}</div> : null}
         <div className="small text-muted">{sourceLabel(item.source)}</div>
-        {relativePath ? (
-          <div className="text-truncate mt-1" style={mediaSearchPathStyle}>{relativePath}</div>
-        ) : null}
       </div>
     )
   }
@@ -138,16 +137,13 @@ export function MediaSearchResultDetailsModal(props) {
   }
 
   if (isDeviceFileResult(item)) {
-    const artist = mediaSearchResultArtist(item)
-    const relativePath = mediaSearchResultRelativePath(item)
+    const artist = mediaSearchResultDisplayArtist(item)
+    const title = mediaSearchResultDisplayTitle(item)
     return (
       <>
-        <div style={{ fontWeight: 'bold', fontSize: '1.1em' }}>{item.title || 'Track'}</div>
+        <div style={{ fontWeight: 'bold', fontSize: '1.1em' }}>{title}</div>
         {artist ? <div>{artist}</div> : null}
         <div className="small text-muted">{sourceLabel(item.source)}</div>
-        {relativePath ? (
-          <div className="mt-1" style={mediaSearchPathStyle}>{relativePath}</div>
-        ) : null}
       </>
     )
   }

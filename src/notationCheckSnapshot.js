@@ -28,6 +28,21 @@ export function buildNotationCheckTune(tune, liveBodies, voiceKeys) {
   return snapshot
 }
 
+export function voiceBodiesFromTune(tune, voiceKeys) {
+  if (!tune) return {}
+  const bodies = {}
+  const keys = Array.isArray(voiceKeys) && voiceKeys.length
+    ? voiceKeys
+    : Object.keys(tune.voices || {})
+  keys.forEach(function(voiceKey) {
+    const voice = tune.voices && tune.voices[voiceKey]
+    bodies[voiceKey] = voice && Array.isArray(voice.notes)
+      ? voice.notes.join('\n')
+      : ''
+  })
+  return bodies
+}
+
 export function primaryVoiceKeyForTune(tune) {
   if (!tune || !tune.voices) return '1'
   return resolvePrimaryVoiceKey(tune.voices)

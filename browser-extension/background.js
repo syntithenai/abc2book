@@ -4,7 +4,7 @@
  * chunked base64 to the content script over a long-lived port.
  */
 
-const EXTENSION_VERSION = '0.1.3'
+const EXTENSION_VERSION = '0.1.7'
 const CHUNK_CHARS = 240000
 // googlevideo throttles un-ranged progressive downloads to ~playback speed;
 // ranged requests (like yt-dlp uses) download at full speed.
@@ -297,7 +297,27 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
 })
 
 chrome.runtime.onConnect.addListener(function (port) {
-  if (!port || port.name !== 'tunebook-yt') return
+  if (!port) return
+
+  if (port.name === 'tunebook-ping') {
+    port.onMessage.addListener(function (message) {
+      if (!message || message.type !== 'tunebook.ping') return
+      port.postMessage({
+        type: 'tunebook.pong',
+        version: EXTENSION_VERSION,
+        extensionId: chrome.runtime.id,
+        ok: true,
+      })
+      try {
+        port.disconnect()
+      } catch (e) {
+        // ignore
+      }
+    })
+    return
+  }
+
+  if (port.name !== 'tunebook-yt') return
 
   port.onMessage.addListener(function (message) {
     if (!message || message.type !== 'tunebook.fetchYoutubeAudio') return

@@ -113,7 +113,7 @@ export default function TuneFilePanel(props) {
       cancelled = true
       if (revoked) URL.revokeObjectURL(revoked)
     }
-  }, [meta && meta.id, meta && meta.googleId, tune && tune.id])
+  }, [meta && meta.id, meta && meta.googleId, meta && meta.blobUpdatedAt, tune && tune.id])
 
   if (!meta) return null
 

@@ -7453,11 +7453,60 @@ button img:after {
 .editor-view-mode-toolbar {
   flex-wrap: wrap;
   align-items: stretch;
-  margin-right: 0.65rem;
+  margin-right: 0;
   padding: 0.15rem;
   border: 1px solid var(--bs-border-color, #ced4da);
   border-radius: 0.375rem;
   background-color: var(--bs-secondary-bg, #e9ecef);
+}
+.music-editor-buttons .editor-view-mode-toolbar,
+.music-editor-buttons .notation-view-toggle-group.music-editor-notation-views,
+.music-editor-buttons .music-editor-history-group {
+  flex-wrap: nowrap;
+  align-items: stretch;
+  padding: 0.15rem;
+  border: 1px solid var(--bs-border-color, #ced4da);
+  border-radius: 0.375rem;
+  background-color: var(--bs-secondary-bg, #e9ecef);
+}
+.music-editor-buttons .editor-view-mode-btn,
+.music-editor-buttons .notation-view-toggle-group .btn,
+.music-editor-buttons .notation-toolbar-history .btn,
+.music-editor-buttons .music-editor-close-btn,
+.music-editor-buttons .music-editor-search .btn {
+  min-height: var(--music-editor-control-height);
+  height: var(--music-editor-control-height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.music-editor-history-group .btn.btn-outline-secondary:not(:disabled) {
+  color: #212529;
+  border-color: #adb5bd;
+}
+.music-editor-history-group .btn:disabled {
+  color: #adb5bd;
+  opacity: 1;
+  border-color: #dee2e6;
+}
+.music-editor-history-group .btn.btn-outline-secondary:disabled {
+  background-color: #f8f9fa;
+}
+.music-editor-history-group .btn.btn-secondary:disabled {
+  background-color: #ced4da;
+  border-color: #ced4da;
+}
+.scratchpad-undo-redo .btn.btn-outline-secondary:not(:disabled) {
+  color: #212529;
+  border-color: #adb5bd;
+}
+.scratchpad-undo-redo .btn:disabled {
+  color: #adb5bd;
+  opacity: 1;
+  border-color: #dee2e6;
+  background-color: #f8f9fa;
 }
 .editor-view-mode-btn {
   display: inline-flex;
@@ -7524,17 +7573,38 @@ button img:after {
   padding: 0.2em;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 0.2em;
+  flex-wrap: nowrap;
+  gap: 0.75rem;
+  --music-editor-control-height: 2.5rem;
+  --music-editor-buttons-sticky-height: 3.2em;
+  position: sticky;
+  top: var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)));
+  z-index: 1001;
+  overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  max-width: 100%;
 }
 .music-editor-buttons-left {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  flex-shrink: 0;
+  flex: 0 0 auto;
+  min-width: 0;
 }
 .music-editor-history-group {
   flex-shrink: 0;
+}
+.music-editor-header-view-groups {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: stretch;
+  gap: 0.35rem;
+  flex: 0 0 auto;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
 }
 .music-editor-header-actions {
   margin-left: auto;
@@ -7567,6 +7637,29 @@ button img:after {
 }
 .music-editor-close-btn {
   flex-shrink: 0;
+}
+
+.music-editor:not(.music-editor--notation-only) {
+  --music-editor-chrome-offset: calc(
+    var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)))
+    + calc(var(--music-editor-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1))
+  );
+}
+
+@media (max-width: 720px) {
+  .music-editor-buttons {
+    flex-wrap: wrap;
+    row-gap: 0.35rem;
+  }
+  .music-editor-header-view-groups {
+    flex: 1 1 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    gap: 0.35rem;
+    margin-left: 0;
+  }
 }
 
 .music-editor--lyrics {
@@ -12546,6 +12639,10 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   max-width: none;
 }
 
+.music-editor-buttons {
+  max-width: 100%;
+}
+
 .scratchpad-audio-daw .scratchpad-daw-layout {
   flex: 1 1 auto;
   min-height: 0;
@@ -12997,18 +13094,4 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 .remote-output-button--large-icon .remote-output-button-toggle--large-icon .remote-output-button-icon img {
   width: 1.75rem;
   height: 1.75rem;
-}
-
-.remote-output-menu .remote-output-menu-section + .remote-output-menu-section {
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-.remote-output-menu .remote-output-menu-active {
-  font-size: 0.8rem;
-  color: #6c757d;
-  padding-bottom: 0.35rem;
-}
-
-.output-device-picker--minimal .form-select {
-  margin-bottom: 0;
 }

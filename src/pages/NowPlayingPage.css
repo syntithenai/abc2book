@@ -103,17 +103,43 @@
 }
 
 .now-playing-page-body .now-playing-page-media-sources {
-  padding: 0.65rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   background: #f8f9fa;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.375rem;
 }
 
-.now-playing-page-body .now-playing-page-media-sources .media-controls-playback-buttons {
+.now-playing-page-media-sources-picker.media-source-both {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  width: 100%;
+}
+
+.now-playing-page-media-sources-picker .media-source-buttons-row {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   align-items: center;
+}
+
+.now-playing-page-media-sources-picker .media-source-both-select {
+  width: 100%;
+}
+
+.now-playing-page-media-sources-picker .media-source-select-input {
+  width: 100%;
+}
+
+.now-playing-page-media-sources-picker .media-source-select-single {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #495057;
+}
+
+.now-playing-page-media-sources-picker .media-source-select-login {
+  margin-top: 0.5rem;
 }
 
 .now-playing-page-main-row {
@@ -137,12 +163,33 @@
 .now-playing-page-artwork {
   display: block;
   width: auto;
-  max-width: min(7rem, 22vw);
-  max-height: min(7rem, 22vw);
+  max-width: min(8rem, 34vw);
+  max-height: min(10rem, 40vw);
   height: auto;
   object-fit: contain;
   border-radius: 0.5rem;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+@media (min-width: 641px) {
+  .now-playing-page-artwork {
+    max-width: min(12rem, 36vw);
+    max-height: min(14rem, 42vw);
+  }
+}
+
+@media (min-width: 768px) {
+  .now-playing-page-artwork {
+    max-width: min(16rem, 42vw);
+    max-height: min(18rem, 48vw);
+  }
+}
+
+@media (min-width: 1024px) {
+  .now-playing-page-artwork {
+    max-width: 20rem;
+    max-height: 22rem;
+  }
 }
 
 .now-playing-page-center {
@@ -341,13 +388,13 @@
 
 @media (max-width: 640px) {
   .now-playing-page-main-row--with-artwork {
-    grid-template-columns: minmax(0, 1fr) min(5.5rem, 24vw);
+    grid-template-columns: minmax(0, 1fr) min(7rem, 34vw);
     gap: 0.65rem;
   }
 
   .now-playing-page-artwork {
-    max-width: min(5.5rem, 24vw);
-    max-height: min(5.5rem, 24vw);
+    max-width: min(7rem, 34vw);
+    max-height: min(9rem, 38vw);
   }
 
   .now-playing-page-volume.playback-volume-slider {

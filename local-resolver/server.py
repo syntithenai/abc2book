@@ -1241,6 +1241,33 @@ def ytdlp_error_hint(stderr_text):
     return hint
 
 
+def normalize_linked_media_source(source_url, source_type=""):
+    """Canonicalize YouTube and unwrap resolver /proxy-audio links before fetch."""
+    source_url = str(source_url or "").strip()
+    source_type = str(source_type or "").strip().lower()
+    if not source_url:
+        return source_url, source_type
+
+    try:
+        parsed = urlparse(source_url)
+        if parsed.path.rstrip("/") == "/proxy-audio":
+            inner = parse_qs(parsed.query).get("url", [None])[0]
+            if inner:
+                source_url = str(inner).strip()
+    except Exception:
+        pass
+
+    if YOUTUBE_ID_RE.match(source_url):
+        return "https://www.youtube.com/watch?v=" + source_url, "youtube"
+
+    if source_type == "youtube" or "youtu" in source_url.lower():
+        video_id = extract_youtube_video_id(source_url)
+        if video_id:
+            return "https://www.youtube.com/watch?v=" + video_id, "youtube"
+
+    return source_url, source_type
+
+
 def extract_youtube_video_id(raw_value):
     value = (raw_value or "").strip()
     if YOUTUBE_ID_RE.match(value):
@@ -1366,9 +1393,13 @@ async def resolve_linked_media_audio_bytes(source_url, source_type="", proxy=Non
     if not source_url:
         raise HTTPException(status_code=400, detail="Missing sourceUrl")
 
+    source_url, source_type = normalize_linked_media_source(source_url, source_type)
+
     if music_collection_enabled():
         parsed = urlparse(source_url)
         path = parsed.path if parsed.scheme else source_url
+        if not path.startswith("/") and path.startswith("music-collection/"):
+            path = "/" + path
         marker = "/music-collection/"
         marker_index = path.find(marker)
         if marker_index >= 0:

@@ -180,9 +180,9 @@
 .now-playing-transport-artwork {
   display: block;
   width: auto;
-  max-width: 2.5rem;
-  max-height: 2.5rem;
-  height: auto;
+  height: 2.75rem;
+  max-width: 2.75rem;
+  max-height: 2.75rem;
   object-fit: contain;
   border-radius: 0.25rem;
   border: 1px solid rgba(0, 0, 0, 0.1);

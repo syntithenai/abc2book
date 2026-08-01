@@ -4,10 +4,15 @@
   flex-shrink: 0;
 }
 
-/* Fixed-strategy menus escape virtualized row clipping. */
-.virtualized-tune-list .play-with-queue-dropdown-menu[data-bs-popper],
-.virtualized-tune-list .play-with-queue-dropdown-menu[style*="position: fixed"] {
+.play-with-queue-dropdown-anchor {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+/* Portaled menus escape react-window transform/overflow clipping. */
+.play-with-queue-dropdown-menu--portal {
   z-index: 10020;
+  display: block;
 }
 
 .play-with-queue-dropdown--compact:not(.tune-list-item-play) .btn {

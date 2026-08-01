@@ -8,6 +8,7 @@ import {
   canNormalizeMelodyRepeatMarks,
   canCollapseEmptyRepeatBars,
   canCollapseAnacrusisDoubleBarlines,
+  canFixStrainRepeatEndsInTune,
 } from './tuneAbcStructureFix'
 
 const NOTATION_ISSUE_CODES = new Set([
@@ -15,6 +16,7 @@ const NOTATION_ISSUE_CODES = new Set([
   'rest_only_bar',
   'chord_scaffold_in_melody',
   'unmatched_repeat_start',
+  'strain_missing_repeat_end',
   'unmatched_repeat_end',
   'ending_without_repeat',
   'ending_bar_mismatch',
@@ -79,6 +81,7 @@ const OTHER_INFO_ISSUE_CODES = new Set([
   'title_not_capitalized',
   'missing_background',
   'tempo_mismatch',
+  'tempo_beat_unit_mismatch',
 ])
 
 const SEARCH_ACTIONS = new Set([
@@ -102,7 +105,8 @@ const ACTION_GROUP_IDS = {
   sessionLineBreaks: ['notation'],
   stanzaDoubleBarlines: ['notation'],
   normalizeRepeatMarks: ['notation'],
-  collapseEmptyRepeatBars: ['notation'],
+  fixStrainRepeatEnds: ['notation'],
+  applyTuneTempoOnly: ['notation', 'abcRecord', 'otherInfo'],
   collapseAnacrusisDoubleBarlines: ['notation'],
   normalizeAbc: ['notation', 'abcRecord'],
   appendFinalBarline: ['notation'],
@@ -150,8 +154,8 @@ const ISSUE_CODE_ACTIONS = {
   session_linebreak_markers: ['sessionLineBreaks'],
   stanza_strain_mismatch: ['stanzaDoubleBarlines'],
   stanza_barlines: ['stanzaDoubleBarlines'],
-  empty_bar: ['collapseEmptyRepeatBars', 'removeEmptyBars'],
-  repeat_style_mixed: ['collapseEmptyRepeatBars', 'normalizeRepeatMarks'],
+  empty_bar: ['fixStrainRepeatEnds', 'removeEmptyBars'],
+  repeat_style_mixed: ['normalizeRepeatMarks'],
   missing_final_barline: ['appendFinalBarline'],
   truncated_repeat: ['closeOpenRepeat', 'closeRepeatAtEnd'],
   underfull_bar: ['padBarWithRests'],
@@ -164,7 +168,8 @@ const ISSUE_CODE_ACTIONS = {
   chord_scaffold_in_melody: ['convertScaffoldToRests'],
   ending_without_repeat: ['wrapEndingInRepeat'],
   ending_bar_mismatch: ['balanceEndings'],
-  unmatched_repeat_start: ['closeRepeatAtEnd'],
+  strain_missing_repeat_end: ['fixStrainRepeatEnds'],
+  unmatched_repeat_start: ['fixStrainRepeatEnds', 'closeRepeatAtEnd'],
   unmatched_repeat_end: ['removeOrphanRepeatEnd'],
   sparse_melody: ['searchAbc', 'fillSparseBars'],
   wline_count_mismatch: ['rebuildWLines', 'relayoutNoteLines'],
@@ -174,7 +179,8 @@ const ISSUE_CODE_ACTIONS = {
   visual_line_break_mid_bar: ['relayoutNoteLines'],
   strain_lyric_count_mismatch: ['stanzaDoubleBarlines'],
   hymn_single_chart_unmarked: ['stanzaDoubleBarlines'],
-  tempo_mismatch: ['syncHeadersFromAbc', 'resolveHeaderConflict'],
+  tempo_mismatch: ['applyTuneTempoOnly'],
+  tempo_beat_unit_mismatch: ['applyTuneTempoOnly'],
 }
 
 /** Actions that open the editor instead of mutating the tune in place. */
@@ -299,7 +305,8 @@ function actionsFromIssues(groupId, groupIssues, tune, abcTools) {
     mapped.forEach(function(actionId) {
       if (actionId === 'sessionLineBreaks' && !canFixSessionLineBreaks(tune, abcTools)) return
       if (actionId === 'normalizeRepeatMarks' && !canNormalizeMelodyRepeatMarks(tune)) return
-      if (actionId === 'collapseEmptyRepeatBars' && !canCollapseEmptyRepeatBars(tune)) return
+      if (actionId === 'fixStrainRepeatEnds' && !canFixStrainRepeatEndsInTune(tune)) return
+      if (actionId === 'removeEmptyBars' && canFixStrainRepeatEndsInTune(tune)) return
       addActionId(actionIds, actionId, groupId)
     })
   })

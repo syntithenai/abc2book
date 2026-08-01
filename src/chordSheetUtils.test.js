@@ -1,4 +1,4 @@
-import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars } from './chordSheetUtils';
+import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor } from './chordSheetUtils';
 
 describe('chordSheetUtils', function() {
   test('recognises chord tokens', function() {
@@ -341,6 +341,49 @@ describe('chordSheetUtils', function() {
 
   test('fillEmptyBarsWithSlash keeps ending markers on empty bars', function() {
     expect(fillEmptyBarsWithSlash('|: C | [1 :| [2 G |')).toBe('|: C | [1 / :| [2 G |');
+  });
+
+  test('stripChartStructureMarkers removes repeats and voltas', function() {
+    expect(stripChartStructureMarkers('|: C G | [1 Am F :| [2 G C |')).toBe('C G | Am F | G C |');
+  });
+
+  test('parseChartStructureMarkers extracts volta segments', function() {
+    const parsed = parseChartStructureMarkers('|: C G | [1 Am F :| [2 G C |');
+    expect(parsed.strainStartBarline).toBe('|:');
+    expect(parsed.endingMarkers).toEqual([
+      { label: 1, barIndex: 1, close: ':|' },
+      { label: 2, barIndex: 2, close: null },
+    ]);
+  });
+
+  test('decorateChartWithRepeatMarks inserts repeat and volta markers', function() {
+    const decorated = decorateChartWithRepeatMarks('C G | Am F | G C |', {
+      strainStartBarline: '|:',
+      endingMarkers: [
+        { label: 1, barIndex: 1, close: ':|' },
+        { label: 2, barIndex: 2, close: '|' },
+      ],
+    });
+    expect(decorated).toMatch(/\|:.*\[1.*:\|.*\[2/);
+    expect(stripChartStructureMarkers(decorated)).toBe('C G | Am F | G C |');
+  });
+
+  test('formatSectionChartForEditor and parseSectionChartFromEditor round-trip voltas', function() {
+    const section = {
+      chart: 'C G | Am F | G C |',
+      strainStartBarline: '|:',
+      endingMarkers: [
+        { label: 1, barIndex: 1, close: ':|' },
+        { label: 2, barIndex: 2, close: '|' },
+      ],
+    };
+    const editor = formatSectionChartForEditor(section);
+    expect(editor).toMatch(/\|:/);
+    expect(editor).toMatch(/\[1/);
+    expect(editor).toMatch(/\[2/);
+    const parsed = parseSectionChartFromEditor(editor);
+    expect(parsed.cleanBody).toBe('C G | Am F | G C |');
+    expect(parsed.endingMarkers.length).toBe(2);
   });
 
   test('aligns repeated sections to the right chord block instead of running down the page', function() {

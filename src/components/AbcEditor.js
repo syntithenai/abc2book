@@ -303,6 +303,7 @@ export default function AbcEditor(props) {
         forceRefresh={props.forceRefresh}
         controlledView={editorViewModeToNotationView(editorViewMode)}
         hideViewSelector={true}
+        suppressInlineViewSelector={props.suppressInlineViewSelector}
         onEditorViewChange={props.onEditorViewModeChange}
         onHelpModeChange={props.onNotationHelpModeChange}
         historyControls={props.historyControls}

@@ -39,7 +39,7 @@ import { NOTATION_FIT_VERTICAL, NOTATION_FIT_HORIZONTAL } from '../gigNotationFi
 import { prepareTuneViewNotationAbc } from '../notation/notationDisplayAbc'
 import { isSectionMarkerChordName } from '../chordSheetUtils'
 import {
-  EDITOR_VIEW_MODES,
+  SINGLE_VIEW_EDIT_MODES,
   viewModeToDisplayFlags,
   resolveDisplayFlagsForTune,
   defaultViewModeForTune,
@@ -747,9 +747,12 @@ export default function MusicSingle(props) {
                       className="music-actions-edit-submenu-menu"
                       popperConfig={{ strategy: 'fixed' }}
                     >
-                      {EDITOR_VIEW_MODES.map(function(mode) {
+                      {SINGLE_VIEW_EDIT_MODES.map(function(mode) {
+                        const editorPath = mode.id === 'info'
+                          ? '/editor/' + params.tuneId
+                          : '/editor/' + params.tuneId + '/' + mode.id
                         return (
-                          <Dropdown.Item key={mode.id} as={Link} to={'/editor/' + params.tuneId + '/' + mode.id}>
+                          <Dropdown.Item key={mode.id} as={Link} to={editorPath}>
                             {mode.label}
                           </Dropdown.Item>
                         )

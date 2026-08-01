@@ -146,6 +146,118 @@ export function barDurationSecFromVisualObj(visualObj, millisecondsPerMeasure) {
   return 2
 }
 
+export function melodyNoteStartsFromFlattened(flattened) {
+  const starts = []
+  if (!flattened || !Array.isArray(flattened.tracks)) return starts
+  flattened.tracks.forEach(function(track) {
+    if (!Array.isArray(track)) return
+    if (findChordTrackIndex([track]) >= 0) return
+    track.forEach(function(ev) {
+      if (ev && ev.cmd === 'note' && typeof ev.start === 'number') {
+        starts.push(ev.start)
+      }
+    })
+  })
+  starts.sort(function(a, b) { return a - b })
+  return starts
+}
+
+export function melodySpanSecFromFlattened(flattened) {
+  let maxEnd = 0
+  if (!flattened || !Array.isArray(flattened.tracks)) return 0
+  flattened.tracks.forEach(function(track) {
+    if (!Array.isArray(track)) return
+    if (findChordTrackIndex([track]) >= 0) return
+    track.forEach(function(ev) {
+      if (ev && ev.cmd === 'note' && typeof ev.start === 'number') {
+        const dur = typeof ev.duration === 'number' ? ev.duration : 0
+        const end = ev.start + dur
+        if (end > maxEnd) maxEnd = end
+      }
+    })
+  })
+  return maxEnd
+}
+
+function inferSlotDurationSec(minDelta, starts) {
+  const tol = 0.05
+  let slotDur = minDelta
+  for (let mult = 1; mult <= 32; mult *= 2) {
+    const candidate = Math.round(minDelta * mult * 1000) / 1000
+    if (candidate > 2) break
+    const aligned = starts.filter(function(s) {
+      const n = Math.round(s / candidate)
+      return n >= 0 && Math.abs(s - n * candidate) < tol
+    }).length
+    if (aligned >= Math.max(4, Math.floor(starts.length * 0.4))) {
+      slotDur = candidate
+    }
+  }
+  return slotDur
+}
+
+/**
+ * Match fill bar length to the flattened melody sequence (abcjs real seconds),
+ * which can differ from visualObj.millisecondsPerMeasure when playback tempo differs.
+ */
+export function inferBarDurationSecFromFlattened(flattened, meterKey, options) {
+  const opts = options || {}
+  const chordBarCount = parseInt(opts.chordBarCount, 10) || 0
+  const slotsPerBar = rhythmSlotsPerBar(meterKey)
+  const starts = melodyNoteStartsFromFlattened(flattened)
+
+  let fromSlots = null
+  if (starts.length >= 2) {
+    let minDelta = null
+    for (let i = 1; i < starts.length; i += 1) {
+      const delta = Math.round((starts[i] - starts[i - 1]) * 1000) / 1000
+      if (delta > 0.001 && (minDelta == null || delta < minDelta)) {
+        minDelta = delta
+      }
+    }
+    if (minDelta > 0) {
+      const slotDur = inferSlotDurationSec(minDelta, starts)
+      fromSlots = Math.round(slotDur * slotsPerBar * 1000) / 1000
+    }
+  }
+
+  let fromSpan = null
+  if (chordBarCount > 0) {
+    const span = melodySpanSecFromFlattened(flattened)
+    if (span > 0) {
+      const spanBar = span / chordBarCount
+      if (spanBar >= 0.4 && spanBar <= 16) {
+        fromSpan = Math.round(spanBar * 1000) / 1000
+      }
+    }
+  }
+
+  if (fromSlots >= 0.4 && fromSlots <= 16) {
+    if (fromSpan != null && Math.abs(fromSpan - fromSlots) / fromSlots <= 0.08) {
+      return fromSpan
+    }
+    return fromSlots
+  }
+
+  if (fromSpan != null) {
+    return fromSpan
+  }
+
+  if (flattened.tempo > 0) {
+    const num = parseInt(String(meterKey || '4/4').split('/')[0], 10) || 4
+    return num * (60 / flattened.tempo)
+  }
+  return null
+}
+
+export function resolveBarDurationSec(flattened, visualObj, millisecondsPerMeasure, meterKey, options) {
+  const fromSequence = flattened
+    ? inferBarDurationSecFromFlattened(flattened, meterKey, options)
+    : null
+  const fromVisual = barDurationSecFromVisualObj(visualObj, millisecondsPerMeasure)
+  return fromSequence > 0 ? fromSequence : fromVisual
+}
+
 export function findChordTrackIndex(tracks) {
   if (!Array.isArray(tracks)) return -1
   for (let i = tracks.length - 1; i >= 0; i -= 1) {
@@ -227,8 +339,10 @@ export function buildChordTimelineFromTune(tune, tunebook, abcjsParser, visualOb
     : extractChordsPerBarFromTuneNotes(tune)
   if (!chordsPerBar.length) return []
 
-  const barDurationSec = barDurationSecFromVisualObj(visualObj, opts.millisecondsPerMeasure)
   const meterKey = meterKeyFromVisualObj(visualObj)
+  const barDurationSec = opts.barDurationSec > 0
+    ? opts.barDurationSec
+    : barDurationSecFromVisualObj(visualObj, opts.millisecondsPerMeasure)
   const transpose = opts.transpose != null ? opts.transpose : (parseInt(tune.transpose, 10) || 0)
   const timeline = []
 
@@ -244,17 +358,24 @@ export function buildChordTimelineFromTune(tune, tunebook, abcjsParser, visualOb
     })
   })
   // #region agent log
-  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',location:'playbackFillPattern.js:buildChordTimelineFromTune',message:'chord timeline built',data:{barCount:timeline.length,barDurationSec:barDurationSec,meterKey:meterKey,msPerMeasureOpt:opts.millisecondsPerMeasure,visualMsPerMeasure:visualObj&&visualObj.millisecondsPerMeasure?visualObj.millisecondsPerMeasure():null,pickupLength:visualObj&&visualObj.getPickupLength?visualObj.getPickupLength():null,chordsPerBar:chordsPerBar.slice(0,8),firstEntries:timeline.slice(0,4).map(function(e){return{startSec:e.startSec,label:e.label,meterKey:e.meterKey}})},timestamp:Date.now(),hypothesisId:'A,B,D'})}).catch(function(){});
+  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'playbackFillPattern.js:buildChordTimelineFromTune',message:'chord timeline built',data:{barCount:timeline.length,barDurationSec:barDurationSec,barDurationFromOpt:opts.barDurationSec,meterKey:meterKey,msPerMeasureOpt:opts.millisecondsPerMeasure,visualMsPerMeasure:visualObj&&visualObj.millisecondsPerMeasure?visualObj.millisecondsPerMeasure():null,pickupLength:visualObj&&visualObj.getPickupLength?visualObj.getPickupLength():null,chordsPerBar:chordsPerBar.slice(0,8),firstEntries:timeline.slice(0,4).map(function(e){return{startSec:e.startSec,label:e.label,meterKey:e.meterKey}})},timestamp:Date.now(),hypothesisId:'A,B,D'})}).catch(function(){});
   // #endregion
   return timeline
 }
 
-function rhythmPatternForMeter(meterKey, barDurationSec, beatLength) {
+function rhythmSlotsPerBar(meterKey) {
+  const pattern = RHYTHM_PATTERNS[meterKey]
+  if (pattern) return pattern.length
+  const num = parseInt(String(meterKey || '4/4').split('/')[0], 10) || 4
+  return Math.max(1, num)
+}
+
+function rhythmPatternForMeter(meterKey, barDurationSec, slotDurationSec) {
   const pattern = RHYTHM_PATTERNS[meterKey]
   if (pattern) return pattern
-  const beats = Math.max(1, Math.round(barDurationSec / beatLength))
+  const beats = Math.max(1, Math.round(barDurationSec / slotDurationSec))
   const fallback = []
-  for (let i = 0; i < beats; i += 1) fallback.push('chick')
+  for (let p = 0; p < beats; p += 1) fallback.push('chick')
   return fallback
 }
 
@@ -288,18 +409,18 @@ function scaledVolume(base, level) {
   return Math.max(1, Math.min(127, Math.round(base * scale * gain)))
 }
 
-function generateBoomChickEvents(entry, pattern, beatLength, styleDef, level) {
+function generateBoomChickEvents(entry, pattern, slotDurationSec, styleDef, level) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const noteLength = beatLength / 2
+  const noteLength = slotDurationSec / 2
   const bassVol = scaledVolume(90, level)
   const chordVol = scaledVolume(76, level)
   const bassProgram = styleDef.bassProgram
   const chordProgram = styleDef.chordProgram
 
   for (let m = 0; m < pattern.length; m += 1) {
-    const beatStart = entry.startSec + m * beatLength
+    const beatStart = entry.startSec + m * slotDurationSec
     switch (pattern[m]) {
       case 'boom':
         if (chord.boom != null) {
@@ -321,16 +442,16 @@ function generateBoomChickEvents(entry, pattern, beatLength, styleDef, level) {
   return events
 }
 
-function generateBassOnlyEvents(entry, pattern, beatLength, styleDef, level) {
+function generateBassOnlyEvents(entry, pattern, slotDurationSec, styleDef, level) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const noteLength = beatLength / 2
+  const noteLength = slotDurationSec / 2
   const bassVol = scaledVolume(90, level)
   const bassProgram = styleDef.bassProgram
 
   for (let m = 0; m < pattern.length; m += 1) {
-    const beatStart = entry.startSec + m * beatLength
+    const beatStart = entry.startSec + m * slotDurationSec
     if (pattern[m] === 'boom' && chord.boom != null) {
       events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, bassProgram))
     } else if (pattern[m] === 'boom2' && chord.boom2 != null) {
@@ -413,15 +534,14 @@ function generateStrumEvents(entry, styleDef, level) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const meterParts = String(entry.meterKey || '4/4').split('/')
-  const beatsPerBar = parseInt(meterParts[0], 10) || 4
-  const beatLength = entry.barDurationSec / Math.max(1, beatsPerBar)
-  const noteLength = beatLength * 0.35
+  const slotsPerBar = rhythmSlotsPerBar(entry.meterKey)
+  const slotDurationSec = entry.barDurationSec / Math.max(1, slotsPerBar)
+  const noteLength = slotDurationSec * 0.35
   const chordVol = scaledVolume(72, level)
   const bassVol = scaledVolume(84, level)
 
-  for (let beat = 0; beat < beatsPerBar; beat += 1) {
-    const beatStart = entry.startSec + beat * beatLength
+  for (let beat = 0; beat < slotsPerBar; beat += 1) {
+    const beatStart = entry.startSec + beat * slotDurationSec
     pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram)
     if (beat % 2 === 0 && chord.boom != null) {
       events.push(noteEvent(chord.boom, beatStart, noteLength * 1.5, bassVol, styleDef.bassProgram))
@@ -429,7 +549,7 @@ function generateStrumEvents(entry, styleDef, level) {
   }
   // #region agent log
   if (entry.startSec < 0.01) {
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',location:'playbackFillPattern.js:generateStrumEvents',message:'strum beat schedule bar0',data:{beatsPerBar:beatsPerBar,beatLength:beatLength,barDurationSec:entry.barDurationSec,meterKey:entry.meterKey,noteLength:noteLength,strumStarts:events.filter(function(e){return e.cmd==='note'}).map(function(e){return{start:e.start,dur:e.duration,pitch:e.pitch,inst:e.instrument}})},timestamp:Date.now(),hypothesisId:'A,C'})}).catch(function(){});
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'playbackFillPattern.js:generateStrumEvents',message:'strum beat schedule bar0',data:{slotsPerBar:slotsPerBar,slotDurationSec:slotDurationSec,barDurationSec:entry.barDurationSec,meterKey:entry.meterKey,noteLength:noteLength,strumStarts:events.filter(function(e){return e.cmd==='note'}).map(function(e){return{start:e.start,dur:e.duration,pitch:e.pitch,inst:e.instrument}})},timestamp:Date.now(),hypothesisId:'A,C'})}).catch(function(){});
   }
   // #endregion
   return events
@@ -439,22 +559,21 @@ function generateFingerpickEvents(entry, styleDef, level) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const meterParts = String(entry.meterKey || '4/4').split('/')
-  const beatsPerBar = parseInt(meterParts[0], 10) || 4
-  const beatLength = entry.barDurationSec / Math.max(1, beatsPerBar)
+  const slotsPerBar = rhythmSlotsPerBar(entry.meterKey)
+  const slotDurationSec = entry.barDurationSec / Math.max(1, slotsPerBar)
   const bassVol = scaledVolume(80, level)
   const chordVol = scaledVolume(60, level)
   const bassNotes = [chord.boom, chord.boom2].filter(function(n) { return n != null })
 
-  for (let beat = 0; beat < beatsPerBar; beat += 1) {
-    const beatStart = entry.startSec + beat * beatLength
+  for (let beat = 0; beat < slotsPerBar; beat += 1) {
+    const beatStart = entry.startSec + beat * slotDurationSec
     if (bassNotes.length) {
       const bassPitch = bassNotes[beat % bassNotes.length]
-      events.push(noteEvent(bassPitch, beatStart, beatLength * 0.45, bassVol, styleDef.bassProgram))
+      events.push(noteEvent(bassPitch, beatStart, slotDurationSec * 0.45, bassVol, styleDef.bassProgram))
     }
     if (beat % 2 === 1 && chord.chick && chord.chick.length) {
       const pitch = chord.chick[beat % chord.chick.length]
-      events.push(noteEvent(pitch, beatStart + beatLength * 0.15, beatLength * 0.35, chordVol, styleDef.chordProgram))
+      events.push(noteEvent(pitch, beatStart + slotDurationSec * 0.15, slotDurationSec * 0.35, chordVol, styleDef.chordProgram))
     }
   }
   return events
@@ -498,14 +617,15 @@ function generateBrassHitsEvents(entry, styleDef, level) {
 
 function generateEventsForEntry(entry, styleDef, level) {
   const generator = styleDef.generator
-  const beatLength = beatLengthFromMeter(entry.meterKey)
-  const pattern = rhythmPatternForMeter(entry.meterKey, entry.barDurationSec, beatLength)
+  const slotsPerBar = rhythmSlotsPerBar(entry.meterKey)
+  const slotDurationSec = entry.barDurationSec / Math.max(1, slotsPerBar)
+  const pattern = rhythmPatternForMeter(entry.meterKey, entry.barDurationSec, slotDurationSec)
 
   switch (generator) {
     case 'boom-chick':
-      return generateBoomChickEvents(entry, pattern, beatLength, styleDef, level)
+      return generateBoomChickEvents(entry, pattern, slotDurationSec, styleDef, level)
     case 'bass-only':
-      return generateBassOnlyEvents(entry, pattern, beatLength, styleDef, level)
+      return generateBassOnlyEvents(entry, pattern, slotDurationSec, styleDef, level)
     case 'block':
       return generateBlockEvents(entry, styleDef, level)
     case 'pad':
@@ -521,7 +641,7 @@ function generateEventsForEntry(entry, styleDef, level) {
     case 'brass-hits':
       return generateBrassHitsEvents(entry, styleDef, level)
     default:
-      return generateBoomChickEvents(entry, pattern, beatLength, styleDef, level)
+      return generateBoomChickEvents(entry, pattern, slotDurationSec, styleDef, level)
   }
 }
 
@@ -616,12 +736,25 @@ export function buildPlaybackSequence(synthObj, options) {
 
   if (fillOptions.injectCustomFill) {
     const flattened = synthObj.setUpAudio({ chordsOff: true })
+    const meterKey = meterKeyFromVisualObj(synthObj)
+    const chordsPerBar = opts.tune
+      ? (opts.abcjsParser
+        ? extractChordsPerBar(opts.tune, opts.tunebook, opts.abcjsParser)
+        : extractChordsPerBarFromTuneNotes(opts.tune))
+      : []
+    const barDurationSec = resolveBarDurationSec(
+      flattened,
+      synthObj,
+      opts.millisecondsPerMeasure,
+      meterKey,
+      { chordBarCount: chordsPerBar.length }
+    )
     const timeline = buildChordTimelineFromTune(
       opts.tune,
       opts.tunebook,
       opts.abcjsParser,
       synthObj,
-      opts
+      Object.assign({}, opts, { barDurationSec: barDurationSec })
     )
     if (!timeline.length) return flattened
     const fillTracks = generatePlaybackFillTracks(
@@ -637,10 +770,11 @@ export function buildPlaybackSequence(synthObj, options) {
         melodyStarts.push({start:ev.start,dur:ev.duration,pitch:ev.pitch})
       })
     }
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',location:'playbackFillPattern.js:buildPlaybackSequence',message:'custom fill sequence built',data:{style:fillOptions.settings&&fillOptions.settings.style,msPerMeasureOpt:opts.millisecondsPerMeasure,visualMsPerMeasure:synthObj.millisecondsPerMeasure?synthObj.millisecondsPerMeasure():null,timelineBars:timeline.length,melodyNoteStarts:melodyStarts,fillTrackCount:fillTracks.length},timestamp:Date.now(),hypothesisId:'A,B,E'})}).catch(function(){});
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'playbackFillPattern.js:buildPlaybackSequence',message:'custom fill sequence built',data:{style:fillOptions.settings&&fillOptions.settings.style,msPerMeasureOpt:opts.millisecondsPerMeasure,visualMsPerMeasure:synthObj.millisecondsPerMeasure?synthObj.millisecondsPerMeasure():null,barDurationSec:barDurationSec,melodySpanSec:melodySpanSecFromFlattened(flattened),chordBarCount:chordsPerBar.length,chordSpanBarSec:chordsPerBar.length>0?Math.round((melodySpanSecFromFlattened(flattened)/chordsPerBar.length)*1000)/1000:null,timelineBars:timeline.length,melodyNoteStarts:melodyStarts,fillTrackCount:fillTracks.length},timestamp:Date.now(),hypothesisId:'A,B,E'})}).catch(function(){});
     // #endregion
     return Object.assign({}, flattened, {
       tracks: flattened.tracks.concat(fillTracks),
+      _resolvedBarDurationSec: barDurationSec,
     })
   }
 

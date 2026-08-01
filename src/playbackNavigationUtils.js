@@ -1,5 +1,6 @@
-import { isQueueActive, getCurrentTuneId } from './nowPlayingQueue'
+import { isQueueActive, getCurrentTuneId, getCurrentItem, isExternalQueueItem, isLessonExternalMedia } from './nowPlayingQueue'
 import { isPlaybackInterruptPath } from './toolPlaybackInterrupt'
+import { isStandaloneExternalPlaybackEngaged } from './standaloneMediaPlayback'
 
 /** Tune id for the transport bar / now-playing UI (queue item or active engine tune). */
 export function getActivePlaybackTuneId(mediaController, queue) {
@@ -8,6 +9,10 @@ export function getActivePlaybackTuneId(mediaController, queue) {
     : null
 
   if (isQueueActive(queue)) {
+    const item = getCurrentItem(queue)
+    if (isExternalQueueItem(item) && !isLessonExternalMedia(item.externalMedia)) {
+      return null
+    }
     const queueTuneId = getCurrentTuneId(queue)
 
     if (queue.previewOnce && queue.previewOnce.tuneId) {
@@ -116,6 +121,14 @@ export function shouldStartPlaybackWhenAdvancing(mediaController, lessonYoutubeP
  */
 export function isQueuePlaybackEngaged(mediaController, context) {
   if (!mediaController) return false
+  const ctx = context || {}
+  if (isQueueActive(ctx.queue)) {
+    const item = getCurrentItem(ctx.queue)
+    if (isExternalQueueItem(item) && !isLessonExternalMedia(item.externalMedia)
+        && isStandaloneExternalPlaybackEngaged()) {
+      return true
+    }
+  }
   if (mediaController.isPlaying || mediaController.isLoading) return true
   if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
     return true

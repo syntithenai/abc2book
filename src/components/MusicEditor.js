@@ -9,7 +9,8 @@ import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
 import { canRedoTuneEdit, canUndoTuneEdit, getRedoTuneEditLabel, getUndoTuneEditLabel } from '../tuneEditHistory'
 import { useBulkCheckReturnToast } from '../useBulkCheckReturnToast'
-import { isNotationEditorView, normalizeEditorViewMode } from '../viewModeUtils'
+import { isNotationEditorView, normalizeEditorViewMode, editorViewModeToNotationView, notationViewToEditorViewMode } from '../viewModeUtils'
+import NotationViewSelector from './NotationViewSelector'
 import { getBackgroundReviewSummary } from '../backgroundReviewQueue'
 import { showBackgroundJobsContinuingNotice } from '../backgroundReviewToast'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
@@ -20,6 +21,7 @@ import {
 } from '../mediaAnalysisJobs'
 import { mediaAnalysisJobHasMelodySourceNotes } from '../mediaAnalysisSuggestions'
 import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
+import { confirmLeaveChordRecord } from '../chordRecordNavigationGuard'
 
 export default function MusicEditor(props) {
     const embedded = !!props.embedded
@@ -94,6 +96,9 @@ export default function MusicEditor(props) {
 
     function handleEditorViewChange(nextView) {
         const normalized = normalizeEditorViewMode(nextView)
+        if (normalized !== editorViewMode && !confirmLeaveChordRecord()) {
+            return
+        }
         setEditorViewMode(normalized)
         if (notationOnly || embedded || !tuneId) return
         const basePath = '/editor/' + encodeURIComponent(tuneId)
@@ -206,24 +211,26 @@ export default function MusicEditor(props) {
     
     const isNotationView = isNotationEditorView(editorViewMode)
     const historyButtonGroup = (
-      <ButtonGroup className={'music-editor-history-group' + (isNotationView ? ' notation-toolbar-history-group' : '')} aria-label="Undo and redo">
-        <Button
-          size={isNotationView ? 'lg' : undefined}
-          title={canUndo && undoLabel ? 'Undo ' + undoLabel : 'Undo'}
-          disabled={!canUndo}
-          variant={isNotationView ? 'outline-secondary' : 'secondary'}
-          className={isNotationView ? undefined : 'btn-secondary'}
-          onClick={handleUndo}
-        >{props.tunebook.icons.arrowgoback}</Button>
-        <Button
-          size={isNotationView ? 'lg' : undefined}
-          title={canRedo && redoLabel ? 'Redo ' + redoLabel : 'Redo'}
-          disabled={!canRedo}
-          variant={isNotationView ? 'outline-secondary' : 'secondary'}
-          className={isNotationView ? undefined : 'btn-secondary'}
-          onClick={handleRedo}
-        >{props.tunebook.icons.arrowgoforward}</Button>
-      </ButtonGroup>
+      <span className={isNotationView ? 'notation-toolbar-history' : undefined}>
+        <ButtonGroup className={'music-editor-history-group' + (isNotationView ? ' notation-toolbar-history-group' : '')} aria-label="Undo and redo">
+          <Button
+            size={isNotationView ? 'lg' : undefined}
+            title={canUndo && undoLabel ? 'Undo ' + undoLabel : 'Undo'}
+            disabled={!canUndo}
+            variant={isNotationView ? 'outline-secondary' : 'secondary'}
+            className={isNotationView ? undefined : 'btn-secondary'}
+            onClick={handleUndo}
+          >{props.tunebook.icons.arrowgoback}</Button>
+          <Button
+            size={isNotationView ? 'lg' : undefined}
+            title={canRedo && redoLabel ? 'Redo ' + redoLabel : 'Redo'}
+            disabled={!canRedo}
+            variant={isNotationView ? 'outline-secondary' : 'secondary'}
+            className={isNotationView ? undefined : 'btn-secondary'}
+            onClick={handleRedo}
+          >{props.tunebook.icons.arrowgoforward}</Button>
+        </ButtonGroup>
+      </span>
     )
 
     if (!tune) return null
@@ -243,6 +250,7 @@ export default function MusicEditor(props) {
                   }
                   navigate('/tunes/' + tune.id)
                 }}>{props.tunebook.icons.close}</Button>
+                {historyButtonGroup}
                 {isNotationView ? (
                   <>
                     <NotationSearchButton
@@ -315,7 +323,7 @@ export default function MusicEditor(props) {
                       }}
                     />
                   </>
-                ) : historyButtonGroup}
+                ) : null}
                 <span className="music-editor-search">
                     {editorViewMode === 'info' ? (
                       <TuneEnhanceButton
@@ -327,7 +335,18 @@ export default function MusicEditor(props) {
                     ) : null}
                 </span>
             </div>
-            <div className="music-editor-header-actions">
+            <div className="music-editor-header-view-groups">
+                {isNotationView && !notationOnly ? (
+                  <NotationViewSelector
+                    variant="buttonGroup"
+                    className="music-editor-notation-views"
+                    tunebook={props.tunebook}
+                    view={editorViewModeToNotationView(editorViewMode)}
+                    onChange={function(nextView) {
+                      handleEditorViewChange(notationViewToEditorViewMode(nextView))
+                    }}
+                  />
+                ) : null}
                 <ViewModeSelectorModal
                   variant="editor"
                   viewMode={editorViewMode}
@@ -351,12 +370,13 @@ export default function MusicEditor(props) {
           tune={tune}
           editorViewMode={editorViewMode}
           onEditorViewModeChange={handleEditorViewChange}
+          suppressInlineViewSelector={!notationOnly && isNotationView}
           autoActivateChordRecord={autoActivateChordRecord}
           autoStartChordSearch={props.autoStartChordSearch}
           searchIndex={props.searchIndex}
           loadTuneTexts={props.loadTuneTexts}
           onNotationHelpModeChange={props.onNotationHelpModeChange}
-          historyControls={embedded && notationOnly ? null : (isNotationView ? historyButtonGroup : null)}
+          historyControls={notationOnly && !embedded ? historyButtonGroup : null}
           alignedLyricsOnly={notationOnly}
           onRegisterFlushCommit={function(fn) { notationFlushRef.current = fn; }}
         />

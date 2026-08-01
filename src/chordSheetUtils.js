@@ -1267,11 +1267,16 @@ export function splitChordChartIntoBlocks(chordChart) {
 export function tokenIsChartStructureMarker(token) {
   const t = String(token || '').trim();
   if (!t) return false;
-  if (t === '|:' || t === ':|' || t === ':|:' || t === '|') return true;
+  if (t === '|:' || t === ':|' || t === ':|:' || t === '|]' || t === '|') return true;
   // ABC-style ending: [1 [2  or fakebook 1. 2.
   if (/^\[\d+$/.test(t)) return true;
   if (/^\d+\.$/.test(t)) return true;
   return false;
+}
+
+/** True when a chart contains repeat or ABC volta structure markers. */
+export function chartHasStructureMarkers(chordChart) {
+  return /\|:|:\||:\|:|\|\]|\[\d+|\d+\./.test(String(chordChart || ''));
 }
 
 /**
@@ -1285,8 +1290,243 @@ export function normalizeChordChartRepeatMarks(chordChart) {
     .replace(/:\s*\|:\s*/g, ':|:')
     .replace(/\|\s+:/g, '|:')
     .replace(/:\s+\|/g, ':|')
+    .replace(/\|\s+\]/g, '|]')
     // End-repeat must be ":|" — a lone trailing colon (not part of |: / :|) is broken.
     .replace(/(^|[^|]):(?!\|)(\s*)$/gm, '$1:|$2');
+}
+
+function normalizeStructureBarline(barline) {
+  const close = normalizeChordChartRepeatMarks(String(barline || '|'));
+  if (close === '|]') return '|]';
+  if (close === ':|') return ':|';
+  if (close === ':|:') return ':|:';
+  if (close === '|:') return '|:';
+  return '|';
+}
+
+function chartLineFromBarSpecs(barSpecs) {
+  if (!Array.isArray(barSpecs) || barSpecs.length === 0) return '';
+  return barSpecs.map(function(spec) {
+    const prefix = Array.isArray(spec.prefix) ? spec.prefix : [];
+    const tokens = Array.isArray(spec.tokens) ? spec.tokens : [];
+    const body = prefix.concat(tokens).filter(Boolean).join(' ');
+    const close = normalizeStructureBarline(spec.close);
+    return body ? body + ' ' + close : close;
+  }).join(' ').replace(/\s+/g, ' ').trim();
+}
+
+/**
+ * Remove repeat / volta markers from a chord chart while preserving bar grid.
+ */
+export function stripChartStructureMarkers(chordChart) {
+  if (!chordChart || !String(chordChart).trim()) return chordChart || '';
+  const split = splitChartHeaderAndBody(chordChart);
+  const strippedLines = String(split.body || '').split('\n').map(function(line) {
+    if (!line.trim()) return '';
+    const parts = splitChordChartLineIntoBars(line);
+    const barSpecs = parts.bars.map(function(segment, index) {
+      const tokens = segment.trim().split(/\s+/).filter(function(token) {
+        return token && !tokenIsChartStructureMarker(token);
+      });
+      return {
+        prefix: [],
+        tokens: tokens,
+        close: '|',
+      };
+    });
+    return normalizeChordChartRepeatMarks(chartLineFromBarSpecs(barSpecs));
+  }).filter(function(line) { return line.trim(); });
+  const body = strippedLines.join('\n');
+  return split.headerLine ? joinChartHeaderAndBody(split.headerLine, body) : body;
+}
+
+/**
+ * Parse repeat / ABC volta layout from a decorated chord chart.
+ * @returns {{ strainStartBarline: string|null, strainEndBarline: string|null, endingMarkers: object[], hasRepeatOpen: boolean, hasRepeatClose: boolean }}
+ */
+export function parseChartStructureMarkers(chordChart) {
+  const result = {
+    strainStartBarline: null,
+    strainEndBarline: null,
+    endingMarkers: [],
+    hasRepeatOpen: false,
+    hasRepeatClose: false,
+  };
+  if (!chordChart || !String(chordChart).trim()) return result;
+
+  const split = splitChartHeaderAndBody(chordChart);
+  let barIndex = 0;
+  String(split.body || '').split('\n').forEach(function(line) {
+    if (!line.trim()) return;
+    const parts = splitChordChartLineIntoBars(line);
+    parts.bars.forEach(function(segment, index) {
+      const close = normalizeStructureBarline(parts.barlines[index] || '|');
+      const tokens = segment.trim().split(/\s+/).filter(Boolean);
+      if (tokens.indexOf('|:') >= 0 || close === '|:') {
+        result.hasRepeatOpen = true;
+        if (!result.strainStartBarline) result.strainStartBarline = '|:';
+      }
+      tokens.forEach(function(token) {
+        const voltaMatch = /^\[(\d+)$/.exec(token);
+        if (voltaMatch) {
+          result.endingMarkers.push({
+            label: parseInt(voltaMatch[1], 10),
+            barIndex: barIndex,
+            close: null,
+          });
+        }
+      });
+      if (result.endingMarkers.length > 0) {
+        const lastEnding = result.endingMarkers[result.endingMarkers.length - 1];
+        if (lastEnding.barIndex === barIndex && (close === ':|' || close === '|]')) {
+          lastEnding.close = close;
+        }
+      }
+      if (close === ':|') {
+        result.hasRepeatClose = true;
+        if (result.endingMarkers.length === 0
+          || result.endingMarkers[result.endingMarkers.length - 1].barIndex !== barIndex) {
+          result.strainEndBarline = ':|';
+        }
+      }
+      if (close === '|]' && result.endingMarkers.length > 0) {
+        const lastEnding = result.endingMarkers[result.endingMarkers.length - 1];
+        if (lastEnding.barIndex === barIndex) {
+          lastEnding.close = '|]';
+        }
+      }
+      barIndex += 1;
+    });
+  });
+  return result;
+}
+
+/**
+ * Rebuild a structured chart using chord bars from a marker-free chart.
+ */
+export function rebuildStructuredChartWithChords(structuredChart, cleanChart) {
+  const structuredText = String(structuredChart || '').trim();
+  const cleanBars = extractChordBars(cleanChart);
+  if (!structuredText) return stripChartStructureMarkers(cleanChart);
+  let barIdx = 0;
+  const lines = [];
+  String(structuredText).split('\n').forEach(function(line) {
+    if (!line.trim()) return;
+    const parts = splitChordChartLineIntoBars(line);
+    const barSpecs = parts.bars.map(function(segment, index) {
+      const close = normalizeStructureBarline(parts.barlines[index] || '|');
+      const tokens = segment.trim().split(/\s+/).filter(Boolean);
+      const prefix = tokens.filter(function(token) { return tokenIsChartStructureMarker(token); });
+      const cleanTokens = barIdx < cleanBars.length ? cleanBars[barIdx] : [];
+      barIdx += 1;
+      return { prefix: prefix, tokens: cleanTokens, close: close };
+    });
+    lines.push(normalizeChordChartRepeatMarks(chartLineFromBarSpecs(barSpecs)));
+  });
+  if (barIdx !== cleanBars.length) {
+    return decorateChartWithRepeatMarks(cleanChart, parseChartStructureMarkers(structuredChart));
+  }
+  return lines.join('\n');
+}
+
+/**
+ * Insert repeat / volta markers onto a marker-free chart using block metadata.
+ */
+export function decorateChartWithRepeatMarks(cleanChart, meta) {
+  const chart = String(cleanChart || '').trim();
+  if (!chart) return '';
+  const split = splitChartHeaderAndBody(chart);
+  const barArrays = [];
+  String(split.body || chart).split('\n').forEach(function(line) {
+    if (!line.trim()) return;
+    extractChordBars(line).forEach(function(tokens) { barArrays.push(tokens); });
+  });
+  if (barArrays.length === 0) return chart;
+
+  const m = meta || {};
+  const endings = Array.isArray(m.endingMarkers) ? m.endingMarkers : [];
+  const endingByBar = {};
+  endings.forEach(function(ending) {
+    if (ending && ending.barIndex != null) endingByBar[ending.barIndex] = ending;
+  });
+
+  const barSpecs = barArrays.map(function(tokens, index) {
+    const prefix = [];
+    if (index === 0 && m.strainStartBarline === '|:') {
+      prefix.push('|:');
+    }
+    const ending = endingByBar[index];
+    if (ending && ending.label != null) {
+      prefix.push('[' + String(ending.label));
+    }
+    let close = '|';
+    if (ending && ending.close) {
+      close = ending.close;
+    } else if (index === barArrays.length - 1 && m.strainEndBarline === ':|') {
+      close = ':|';
+    }
+    return { prefix: prefix, tokens: tokens, close: close };
+  });
+  const body = normalizeChordChartRepeatMarks(chartLineFromBarSpecs(barSpecs));
+  return split.headerLine ? joinChartHeaderAndBody(split.headerLine, body) : body;
+}
+
+/**
+ * Textarea value for the chords editor: ABC repeat/volta notation when available.
+ */
+export function formatSectionChartForEditor(section, options) {
+  if (!section) return '';
+  const opts = options || {};
+  const header = section.header || section.lyricSectionHeader || '';
+  const cleanChart = String(section.chart || '');
+  const displayChart = String(opts.displayChart || section.displayChart || '');
+  const needsDecoration = (displayChart && chartHasStructureMarkers(displayChart))
+    || chartHasStructureMarkers(cleanChart)
+    || section.strainStartBarline === '|:'
+    || section.strainEndBarline === ':|'
+    || (Array.isArray(section.endingMarkers) && section.endingMarkers.length > 0);
+  let body = '';
+
+  if (!needsDecoration) {
+    body = normalizeChordChartRepeatMarks(cleanChart);
+  } else if (displayChart && chartHasStructureMarkers(displayChart)) {
+    body = rebuildStructuredChartWithChords(displayChart, cleanChart);
+  } else if (chartHasStructureMarkers(cleanChart)) {
+    body = normalizeChordChartRepeatMarks(cleanChart);
+  } else {
+    body = decorateChartWithRepeatMarks(cleanChart, {
+      strainStartBarline: section.strainStartBarline,
+      strainEndBarline: section.strainEndBarline,
+      endingMarkers: section.endingMarkers || [],
+    });
+  }
+
+  if (header && (section.notationMarkerWritten || section.writeNotationMarker)) {
+    return sectionMarkerChartLine(header) + (body ? '\n' + body : '');
+  }
+  return body;
+}
+
+/**
+ * Parse editor chart text: strip structure markers for merge, capture metadata.
+ */
+export function parseSectionChartFromEditor(text) {
+  const split = splitChartHeaderAndBody(text);
+  const normalized = normalizeChordChartRepeatMarks(split.body || text);
+  const structure = parseChartStructureMarkers(normalized);
+  const cleanBody = stripChartStructureMarkers(normalized);
+  const cleanChart = split.headerLine
+    ? joinChartHeaderAndBody(split.headerLine, cleanBody)
+    : cleanBody;
+  return {
+    cleanChart: cleanChart,
+    cleanBody: cleanBody,
+    structureMarkers: structure,
+    strainStartBarline: structure.strainStartBarline,
+    strainEndBarline: structure.strainEndBarline,
+    endingMarkers: structure.endingMarkers.slice(),
+    headerLine: split.headerLine,
+  };
 }
 
 /**
@@ -1299,7 +1539,7 @@ export function splitChordChartLineIntoBars(line) {
   const raw = String(line === null || line === undefined ? '' : line);
   if (!raw.trim()) return { bars: [], barlines: [] };
   // Longest / spaced variants first so ": |" and "| :" count as repeat marks.
-  const re = /:\s*\|:\s*|\|\s*:|:\s*\||\|/g;
+  const re = /:\s*\|:\s*|\|\s*:|:\s*\||\|\]|:\|:|\|/g;
   const bars = [];
   const barlines = [];
   let lastIndex = 0;
@@ -1331,6 +1571,50 @@ function chordTokensInBarSegment(segment) {
       && !isSectionMarkerToken(token)
       && tokenIsChord(token);
   });
+}
+
+/**
+ * Pulse-slot tokens for one chart bar segment, including `.` placeholders.
+ * Used when syncing quoted chords to melody at sub-beat positions.
+ */
+export function extractChartBarSlotTokens(barSegment) {
+  const tokens = []
+  String(barSegment || '').trim().split(/\s+/).filter(Boolean).forEach(function(token) {
+    if (INLINE_METER_RE.test(token) || INLINE_KEY_RE.test(token) || INLINE_TEMPO_RE.test(token)) {
+      return
+    }
+    if (isSectionMarkerToken(token) || tokenIsChartStructureMarker(token)) {
+      return
+    }
+    if (token === '.' || token === '/') {
+      tokens.push('.')
+      return
+    }
+    if (tokenIsChord(token)) {
+      tokens.push(String(token).replace(/"/g, ''))
+      return
+    }
+    if (String(token).replace(/\./g, '').trim() === '') {
+      tokens.push('.')
+    }
+  })
+  return tokens
+}
+
+/**
+ * Extract per-bar pulse-slot grids from a chord chart (dots preserved).
+ */
+export function extractChartBarSlotGrids(chordChart) {
+  const bars = []
+  if (!chordChart || !String(chordChart).trim()) return bars
+  String(chordChart).split('\n').forEach(function(line) {
+    if (!line.trim()) return
+    const parts = splitChordChartLineIntoBars(line)
+    parts.bars.forEach(function(segment) {
+      bars.push(extractChartBarSlotTokens(segment))
+    })
+  })
+  return bars
 }
 
 /**

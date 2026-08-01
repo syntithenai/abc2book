@@ -5,11 +5,14 @@ import {
   getCurrentTuneId,
   findQueueIndexForTuneId,
   resolvePlaybackForItem,
+  isExternalQueueItem,
+  isLessonExternalMedia,
 } from './nowPlayingQueue'
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
 import { advanceQueueToNextPlayable, isQueueItemPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
 import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
 import { hasFilteredPlaybackVoices } from './abcVoiceViewSettings'
+import { playExternalMediaItem } from './standaloneMediaPlayback'
 
 export { isQueuePlaybackEngaged }
 
@@ -355,6 +358,11 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
     const item = getCurrentItem(queue)
     const tune = tuneId && tunes ? tunes[tuneId] : null
 
+    if (item && isExternalQueueItem(item) && !isLessonExternalMedia(item.externalMedia)) {
+        playExternalMediaItem(item.externalMedia, mediaController, { play: true, fromUserGesture: true })
+        return true
+    }
+
     function tryResumeCurrent() {
         if (tuneId && navigate) {
             navigateToQueueTune(navigate, tuneId, item, tunebook, tunes)
@@ -378,7 +386,16 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
         direction: 1,
         advanceFirst: false,
     }).then(function(result) {
-        if (result.atEnd || !result.tune || !result.item) {
+        if (result.atEnd || !result.item) {
+            stopPlaylistPlayback(mediaController)
+            return
+        }
+        if (isExternalQueueItem(result.item) && !isLessonExternalMedia(result.item.externalMedia)) {
+            if (setNowPlayingQueue) setNowPlayingQueue(result.queue)
+            playExternalMediaItem(result.item.externalMedia, mediaController, { play: true, fromUserGesture: true })
+            return
+        }
+        if (!result.tune) {
             stopPlaylistPlayback(mediaController)
             return
         }

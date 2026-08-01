@@ -17,6 +17,8 @@ import {
   normalizeEditorViewMode,
   notationViewToEditorViewMode,
   getEditorViewModeLabel,
+  EDITOR_VIEW_MODES,
+  SINGLE_VIEW_EDIT_MODES,
 } from './viewModeUtils';
 import { resolveTuneDisplayLayout } from './tuneDisplayLayout';
 
@@ -373,5 +375,16 @@ describe('normalizeEditorViewMode and helpers', function() {
   it('defaults to Info for unknown modes', function() {
     expect(normalizeEditorViewMode('unknown')).toBe('info');
     expect(getEditorViewModeLabel('unknown')).toBe('Info');
+  });
+});
+
+describe('SINGLE_VIEW_EDIT_MODES', function() {
+  it('extends editor header tabs with chords after lyrics', function() {
+    expect(EDITOR_VIEW_MODES.map(function(mode) { return mode.id; })).toEqual([
+      'info', 'music', 'lyrics',
+    ]);
+    expect(SINGLE_VIEW_EDIT_MODES.map(function(mode) { return mode.id; })).toEqual([
+      'info', 'music', 'lyrics', 'chords',
+    ]);
   });
 });

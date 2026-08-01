@@ -66,9 +66,10 @@ import NowPlayingTransportBar from './components/NowPlayingTransportBar'
 import NowPlayingPage from './pages/NowPlayingPage'
 import QueuePlayConfirmModal from './components/QueuePlayConfirmModal'
 import { getViewedTuneIdFromPath, shouldShowPlaylistTransportBar } from './playbackNavigationUtils'
-import { isQueueActive, suspendQueue, resumeQueue, startPreviewOnce, getCurrentItem, getCurrentTuneId } from './nowPlayingQueue'
+import { isQueueActive, suspendQueue, resumeQueue, startPreviewOnce, getCurrentItem, getCurrentTuneId, isExternalQueueItem, isLessonExternalMedia } from './nowPlayingQueue'
 import { isGigPlaylistActive } from './gigRouteUtils'
 import { handleQueueAdvanceOnEnded, playCurrentQueueItem, playQueueItem, navigateToQueueTune } from './nowPlayingQueuePlayback'
+import { setStandaloneMediaPlaybackEndedHandler } from './standaloneMediaPlayback'
 import useTuneBookMediaController from './useTuneBookMediaController'
 import usePracticeSession from './usePracticeSession'
 import usePracticeRouteSync from './usePracticeRouteSync'
@@ -84,6 +85,7 @@ import { useInitMediaResolverHealth } from './useMediaResolverHealth'
 import { TuneMediaAnalysisProvider } from './useTuneMediaAnalysis'
 import { PlaybackRegionScanProvider } from './usePlaybackRegionScan'
 import LongRunningJobNavigationGuard from './LongRunningJobNavigationGuard'
+import ChordRecordNavigationGuard from './components/ChordRecordNavigationGuard'
 import BulkCheckYoutubeHost from './components/BulkCheckYoutubeHost'
 import BulkCheckCompleteToastHost from './components/BulkCheckCompleteToastHost'
 import YoutubeHelperInstallHost from './components/YoutubeHelperInstallHost'
@@ -819,6 +821,35 @@ function App(props) {
   // eslint-disable-next-line react-hooks/exhaustive-deps -- register once on mount; refs stay current
   }, [])
 
+  useEffect(function() {
+    setStandaloneMediaPlaybackEndedHandler(function() {
+      const queue = nowPlayingQueueRef.current
+      if (!isQueueActive(queue) || queue.source !== 'media-search') return
+      const item = getCurrentItem(queue)
+      if (!isExternalQueueItem(item) || isLessonExternalMedia(item.externalMedia)) return
+      handleQueueAdvanceOnEnded({
+        queue: queue,
+        setQueue: setNowPlayingQueue,
+        tunes: tunesRef.current,
+        tunebook: tunebookRef.current,
+        mediaController: mediaControllerRef.current,
+        navigate: function(path) {
+          if (tunebookRef.current && tunebookRef.current.navigate) tunebookRef.current.navigate(path)
+        },
+        location: typeof window !== 'undefined'
+          ? { pathname: (window.location.hash || '').replace(/^#/, '') }
+          : { pathname: '' },
+        setPlaylist: setPlaylist,
+        practiceSessionActive: practiceSessionActiveRef.current,
+        failCallback: function() {},
+        playbackOptions: { fromUserGesture: false },
+      })
+    })
+    return function() {
+      setStandaloneMediaPlaybackEndedHandler(null)
+    }
+  }, [setNowPlayingQueue, setPlaylist])
+
   const suspendNowPlayingQueue = useCallback(function() {
     const queue = nowPlayingQueueRef.current
     if (!isQueueActive(queue) || queue.suspendSnapshot) return
@@ -1207,6 +1238,7 @@ function App(props) {
               setGroupBy={setGroupBy}
             />
             <LongRunningJobNavigationGuard />
+            <ChordRecordNavigationGuard />
             <AppFootPedalHost
               tunebook={tunebook}
               mediaController={mediaController}

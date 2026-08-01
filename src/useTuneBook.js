@@ -233,8 +233,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         return 'lesson:' + item.externalMedia.youtubeId
       }
       if (opts.startPlayback && opts.mediaController) {
-        if (opts.mediaController.preparePlaybackFromUserGesture) {
-          opts.mediaController.preparePlaybackFromUserGesture()
+        if (opts.mediaController.abortPlayingIntent) {
+          opts.mediaController.abortPlayingIntent()
         }
         playExternalMediaItem(item.externalMedia, opts.mediaController, { play: true, fromUserGesture: true })
       }
@@ -343,7 +343,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
 
       setNowPlayingQueue(nextQueue)
       if (isExternal) {
-        if (mediaController && startPlayback) stopPlaylistPlayback(mediaController)
+        if (mediaController && startPlayback && mediaController.abortPlayingIntent) {
+          mediaController.abortPlayingIntent()
+        }
         if (startPlayback) {
           if (isLessonExternalMedia(item.externalMedia)) {
             playLessonYoutube({ fromUserGesture: true })
