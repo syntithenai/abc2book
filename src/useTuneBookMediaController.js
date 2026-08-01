@@ -445,7 +445,6 @@ export default function useTuneBookMediaController(props) {
         try {
             // #region agent log
             agentDebugLog('useTuneBookMediaController.js:startPlaybackKeepAlive', 'starting-keepalive', {}, 'H1')
-            console.log('[agent-debug] startPlaybackKeepAlive')
             // #endregion
             getPlaybackKeepAlive().start()
         } catch (e) {}
@@ -674,10 +673,6 @@ export default function useTuneBookMediaController(props) {
             backgroundCapable: isCurrentPlaybackBackgroundCapable(),
             route: playbackRouteRef.current.mode,
         }, 'H2')
-        console.log('[agent-debug] onAppBackgrounded', {
-            nativeRefActive: nativeRefActive,
-            nativePluginActive: nativePluginActive,
-        })
         // #endregion
         if (prefersNativeMediaPlayback()) {
             return
@@ -2453,14 +2448,6 @@ export default function useTuneBookMediaController(props) {
         if (prefersNativeMediaPlayback() && (srcType === 'audio' || srcType === 'youtube' || srcType === 'recording')) {
             hardSilenceWebViewOutputs(getAndroidPlaybackGateContext())
         }
-        // #region agent log
-        console.log('[agent-debug] startLinkedMediaPlayback', {
-            srcType: srcType,
-            hasSrc: !!src,
-            nativeFiltered: canUseNativeFilteredPlayback(settings),
-        })
-        // #endregion
-
         if (src && blockProxiedPlaybackForInsufficientCredit(src)) {
             setIsLoading(false)
             return
@@ -2856,7 +2843,6 @@ export default function useTuneBookMediaController(props) {
                 return true
             } catch (nativeError) {
                 androidNativeActiveRef.current = false
-                console.log('[agent-debug] attachNativeFiltered native failed', nativeError)
                 setIsLoading(false)
                 if (hasActivePlaybackIntent()) {
                     skipBackgroundIncapableTrack('prerender-native-failed')
@@ -3224,6 +3210,9 @@ export default function useTuneBookMediaController(props) {
     }
 
     function getActiveLink() {
+        if (playbackRouteRef.current.mode !== 'media') {
+            return null
+        }
         const currentTune = tuneRef.current || tune
         const linkIndex = mediaLinkNumberRef.current !== null && mediaLinkNumberRef.current !== undefined
             ? mediaLinkNumberRef.current
@@ -4137,7 +4126,37 @@ export default function useTuneBookMediaController(props) {
     }
 
     async function saveProcessedMediaToFile(linkIndex) {
-        return saveExternalMediaToFile(linkIndex)
+        if (!tune) throw new Error('No tune loaded')
+        const idx = linkIndex !== undefined && linkIndex !== null ? linkIndex : mediaLinkNumber
+        if (idx === null || !tune.links || !tune.links[idx] || !tune.links[idx].link) {
+            throw new Error('No media link available')
+        }
+        const src = tune.links[idx].link
+        const srcType = getSrcType(src)
+        if (srcType === 'abc') throw new Error('Nothing to download for ABC playback')
+        if (!hasStemsForCurrentMedia()) {
+            throw new Error('Analyse stems before downloading processed audio')
+        }
+        const cacheOptions = getExternalMediaCacheOptions(tune, idx)
+        if (!cacheOptions) throw new Error('No media source available')
+        const settings = getMediaPlaybackSettings(tune)
+        const { getAudioCompressExtension, getAudioCompressFormat } = await import('./audioCompressSettings')
+        const safeName = (tune.name ? tune.name.trim().replace(/[^\w\-]+/g, '_') : 'tune') || 'tune'
+        const extension = getAudioCompressExtension(getAudioCompressFormat())
+        const filename = safeName + '-link-' + (parseInt(idx, 10) + 1) + '-processed.' + extension
+        const { downloadTuneMediaExport } = await import('./mediaExportUtils')
+        await downloadTuneMediaExport({
+            tune: tune,
+            linkIndex: idx,
+            srcType: srcType,
+            filename: filename,
+            youtubeGetId: props.tunebook.utils.YouTubeGetID,
+            accessToken: getGoogleAccessToken(),
+            demucsModel: getDemucsModel(),
+            settings: settings,
+            trim: true,
+        })
+        return true
     }
 
     function unmuteNativePlayers() {
@@ -6353,7 +6372,6 @@ export default function useTuneBookMediaController(props) {
                     androidNativeActive: androidNativeActiveRef.current,
                     loadInFlight: nativePlaybackLoadInFlightRef.current,
                 }, 'H2')
-                console.log('[agent-debug] onMediaReady skip playNativeMedia (android native)')
                 // #endregion
                 setIsReady(true)
                 return
@@ -7033,7 +7051,6 @@ export default function useTuneBookMediaController(props) {
             const positionSec = opts.preservePosition ? getCurrentPlaybackSeconds() : regionStart
             const playUri = cachedNativeBlobUrlRef.current || activeSrc
             // #region agent log
-            console.log('[agent-debug] playNativeMedia android audio', { playUri: playUri ? playUri.slice(0, 80) : null })
             agentDebugLog('useTuneBookMediaController.js:playNativeMedia', 'android-audio-uri', {
                 hasUri: !!playUri,
             }, 'H1')
@@ -7210,7 +7227,6 @@ export default function useTuneBookMediaController(props) {
                 setIsLoading(true)
                 nativePlaybackLoadInFlightRef.current = true
                 logPlaybackDebug('plain-native', { srcType: 'youtube', videoId: videoId })
-                console.log('[agent-debug] youtube-native-start', { videoId: videoId })
                 // #region agent log
                 agentDebugLog('useTuneBookMediaController.js:playNativeMedia', 'youtube-native-start', { videoId: videoId }, 'H2')
                 // #endregion
@@ -7224,10 +7240,6 @@ export default function useTuneBookMediaController(props) {
                     accessToken: getGoogleAccessToken(),
                 }).then(function(result) {
                     nativePlaybackLoadInFlightRef.current = false
-                    console.log('[agent-debug] youtube-native-done', {
-                        ok: !!(result && result.ok),
-                        error: result && result.error,
-                    })
                     // #region agent log
                     agentDebugLog('useTuneBookMediaController.js:playNativeMedia', 'youtube-native-done', {
                         ok: !!(result && result.ok),
@@ -7254,7 +7266,6 @@ export default function useTuneBookMediaController(props) {
                     setIsPlaying(false)
                     playingIntentRef.current = false
                     const errMsg = err && err.message ? err.message : 'YouTube playback failed'
-                    console.log('[agent-debug] youtube-native-catch', errMsg)
                     toast.error(errMsg, { autoClose: 4000 })
                 })
                 return

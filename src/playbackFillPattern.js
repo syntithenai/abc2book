@@ -4,6 +4,7 @@ import { getFillBeatIndices } from './chordFillPattern'
 import { getFillStyleDefinition } from './playbackFillSettings'
 import { extractChordsPerBar } from './practiceTrackChordLayer'
 import { isSectionMarkerChordName } from './chordSheetUtils'
+import { defaultNoteLengthForMeter, getBarModel } from './barModel'
 
 function getFirstVoiceNoteLines(tune) {
   if (!tune || !tune.voices) return []
@@ -196,17 +197,74 @@ function inferSlotDurationSec(minDelta, starts) {
   return slotDur
 }
 
+function meterUnitSlotsPerBar(meterKey) {
+  const noteLength = defaultNoteLengthForMeter(meterKey)
+  const model = getBarModel(meterKey, noteLength)
+  return model.unitSlotsPerBar > 0 ? model.unitSlotsPerBar : 4
+}
+
+function meterBeatCount(meterKey) {
+  const noteLength = defaultNoteLengthForMeter(meterKey)
+  const model = getBarModel(meterKey, noteLength)
+  return model.beatCount > 0 ? model.beatCount : 4
+}
+
+function melodyDeltasSec(starts) {
+  const deltas = []
+  for (let i = 1; i < starts.length; i += 1) {
+    const delta = Math.round((starts[i] - starts[i - 1]) * 1000) / 1000
+    if (delta > 0.001) deltas.push(delta)
+  }
+  return deltas
+}
+
+function barDurationFromBeatGrid(starts, meterKey, spanSec) {
+  const model = getBarModel(meterKey, defaultNoteLengthForMeter(meterKey))
+  const deltas = melodyDeltasSec(starts)
+  if (!deltas.length) return null
+
+  const minDelta = Math.min(...deltas)
+  const alignedSlot = inferSlotDurationSec(minDelta, starts)
+  const finestBeat = Math.round(minDelta * model.beatUnitSlots * 1000) / 1000
+  const beatDur = minDelta >= alignedSlot * 0.9 && minDelta >= 0.35
+    ? minDelta
+    : finestBeat
+  if (!(beatDur > 0)) return null
+
+  let barDur = Math.round(beatDur * model.beatCount * 1000) / 1000
+  const span = spanSec > 0 ? spanSec : 0
+  if (span > 0 && barDur > 0) {
+    const doubled = Math.round(barDur * 2 * 1000) / 1000
+    const errSingle = Math.abs(span - Math.round(span / barDur) * barDur)
+    const errDouble = Math.abs(span - Math.round(span / doubled) * doubled)
+    const estimatedBars = span / barDur
+    if (estimatedBars > 12 && errDouble <= errSingle + 0.001) {
+      barDur = doubled
+    } else if (errSingle > 0.01 && errDouble <= errSingle) {
+      barDur = doubled
+    }
+  }
+  return barDur
+}
+
 /**
  * Match fill bar length to the flattened melody sequence (abcjs real seconds),
  * which can differ from visualObj.millisecondsPerMeasure when playback tempo differs.
  */
 export function inferBarDurationSecFromFlattened(flattened, meterKey, options) {
   const opts = options || {}
+  const slotsPerBar = meterUnitSlotsPerBar(meterKey)
+  const beatCount = meterBeatCount(meterKey)
   const chordBarCount = parseInt(opts.chordBarCount, 10) || 0
-  const slotsPerBar = rhythmSlotsPerBar(meterKey)
   const starts = melodyNoteStartsFromFlattened(flattened)
+  const melodySpan = melodySpanSecFromFlattened(flattened)
 
   let fromSlots = null
+  let fromBeats = null
+  let fromChordSpan = null
+  if (chordBarCount > 0 && melodySpan > 0) {
+    fromChordSpan = Math.round((melodySpan / chordBarCount) * 1000) / 1000
+  }
   if (starts.length >= 2) {
     let minDelta = null
     for (let i = 1; i < starts.length; i += 1) {
@@ -219,35 +277,75 @@ export function inferBarDurationSecFromFlattened(flattened, meterKey, options) {
       const slotDur = inferSlotDurationSec(minDelta, starts)
       fromSlots = Math.round(slotDur * slotsPerBar * 1000) / 1000
     }
+    fromBeats = barDurationFromBeatGrid(starts, meterKey, melodySpan)
   }
 
+  const barHint = fromBeats > 0 ? fromBeats : fromSlots
+
   let fromSpan = null
-  if (chordBarCount > 0) {
-    const span = melodySpanSecFromFlattened(flattened)
-    if (span > 0) {
-      const spanBar = span / chordBarCount
+  if (barHint > 0) {
+    if (melodySpan > 0) {
+      const melodyBarCount = Math.max(1, Math.round(melodySpan / barHint))
+      fromSpan = Math.round((melodySpan / melodyBarCount) * 1000) / 1000
+    }
+  } else {
+    if (chordBarCount > 0 && melodySpan > 0) {
+      const spanBar = melodySpan / chordBarCount
       if (spanBar >= 0.4 && spanBar <= 16) {
         fromSpan = Math.round(spanBar * 1000) / 1000
       }
     }
   }
 
-  if (fromSlots >= 0.4 && fromSlots <= 16) {
-    if (fromSpan != null && Math.abs(fromSpan - fromSlots) / fromSlots <= 0.08) {
-      return fromSpan
+  let resolved = null
+  let source = 'none'
+
+  if (fromBeats >= 0.4 && fromBeats <= 16) {
+    if (fromSlots != null && Math.abs(fromSlots - fromBeats) / fromBeats > 0.12) {
+      if (fromSpan != null && Math.abs(fromSpan - fromBeats) / fromBeats <= 0.05) {
+        resolved = fromSpan
+        source = 'span+beats'
+      } else if (fromChordSpan != null && Math.abs(fromChordSpan - fromBeats) / fromBeats <= 0.12) {
+        resolved = fromChordSpan
+        source = 'chordSpan+beats'
+      } else {
+        resolved = fromBeats
+        source = 'beats'
+      }
+    } else if (fromSpan != null && Math.abs(fromSpan - fromBeats) / fromBeats <= 0.05) {
+      resolved = fromSpan
+      source = 'span'
+    } else if (fromSlots != null && Math.abs(fromSlots - fromBeats) / fromBeats <= 0.12) {
+      resolved = fromSlots
+      source = 'slots'
+    } else {
+      resolved = fromBeats
+      source = 'beats'
     }
-    return fromSlots
-  }
-
-  if (fromSpan != null) {
-    return fromSpan
-  }
-
-  if (flattened.tempo > 0) {
+  } else if (fromSlots >= 0.4 && fromSlots <= 16) {
+    if (fromSpan != null && Math.abs(fromSpan - fromSlots) / fromSlots <= 0.05) {
+      resolved = fromSpan
+      source = 'span'
+    } else {
+      resolved = fromSlots
+      source = 'slots'
+    }
+  } else if (fromSpan != null) {
+    resolved = fromSpan
+    source = 'spanOnly'
+  } else if (flattened.tempo > 0) {
     const num = parseInt(String(meterKey || '4/4').split('/')[0], 10) || 4
-    return num * (60 / flattened.tempo)
+    resolved = num * (60 / flattened.tempo)
+    source = 'tempo'
   }
-  return null
+
+  // #region agent log
+  if (resolved != null) {
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'playbackFillPattern.js:inferBarDuration',message:'bar duration resolved',data:{resolved:resolved,source:source,fromBeats:fromBeats,fromSlots:fromSlots,fromSpan:fromSpan,fromChordSpan:fromChordSpan,beatCount:beatCount,slotsPerBar:slotsPerBar},timestamp:Date.now(),hypothesisId:'A,E'})}).catch(function(){});
+  }
+  // #endregion
+
+  return resolved
 }
 
 export function resolveBarDurationSec(flattened, visualObj, millisecondsPerMeasure, meterKey, options) {
@@ -770,7 +868,7 @@ export function buildPlaybackSequence(synthObj, options) {
         melodyStarts.push({start:ev.start,dur:ev.duration,pitch:ev.pitch})
       })
     }
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'playbackFillPattern.js:buildPlaybackSequence',message:'custom fill sequence built',data:{style:fillOptions.settings&&fillOptions.settings.style,msPerMeasureOpt:opts.millisecondsPerMeasure,visualMsPerMeasure:synthObj.millisecondsPerMeasure?synthObj.millisecondsPerMeasure():null,barDurationSec:barDurationSec,melodySpanSec:melodySpanSecFromFlattened(flattened),chordBarCount:chordsPerBar.length,chordSpanBarSec:chordsPerBar.length>0?Math.round((melodySpanSecFromFlattened(flattened)/chordsPerBar.length)*1000)/1000:null,timelineBars:timeline.length,melodyNoteStarts:melodyStarts,fillTrackCount:fillTracks.length},timestamp:Date.now(),hypothesisId:'A,B,E'})}).catch(function(){});
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'playbackFillPattern.js:buildPlaybackSequence',message:'custom fill sequence built',data:{style:fillOptions.settings&&fillOptions.settings.style,msPerMeasureOpt:opts.millisecondsPerMeasure,visualMsPerMeasure:synthObj.millisecondsPerMeasure?synthObj.millisecondsPerMeasure():null,barDurationSec:barDurationSec,melodySpanSec:melodySpanSecFromFlattened(flattened),meterUnitSlots:meterUnitSlotsPerBar(meterKey),chordBarCount:chordsPerBar.length,timelineBars:timeline.length,melodyNoteStarts:melodyStarts,fillTrackCount:fillTracks.length},timestamp:Date.now(),hypothesisId:'A,B,E'})}).catch(function(){});
     // #endregion
     return Object.assign({}, flattened, {
       tracks: flattened.tracks.concat(fillTracks),

@@ -117,6 +117,13 @@ export default function ScratchpadCreateWizard(props) {
         blob: opts.blob,
       })
     }
+    if (type === 'composition') {
+      return createScratchpadItem({
+        workspaceId: workspaceId,
+        type: 'composition',
+        title: opts.title || title,
+      })
+    }
     return null
   }
 
@@ -333,8 +340,8 @@ export default function ScratchpadCreateWizard(props) {
   function renderTypeChoices() {
     return (
       <div className="scratchpad-wizard-types">
-        {['text', 'image', 'notation', 'audio'].map(function(type) {
-          const label = type.charAt(0).toUpperCase() + type.slice(1)
+        {['text', 'image', 'notation', 'audio', 'composition'].map(function(type) {
+          const label = type === 'composition' ? 'Composition' : type.charAt(0).toUpperCase() + type.slice(1)
           return (
             <Button
               key={type}

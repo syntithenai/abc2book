@@ -48,7 +48,13 @@ import {
   computePlaybackMetronomeTempo,
   computeRhythmGridTempo,
   computeCountInSlotCount,
+  resolveCountInBeatCount,
+  resolveCountInSlotCount,
+  effectiveCountInBars,
+  minimumCountInBarsForMeter,
   computeCountInGridTempo,
+  scoreMsPerMeasureForRhythmGrid,
+  computeCountInDownbeatPlaybackRatio,
   notationBeatToAudioSeconds,
   notationBeatToAudioRatio,
   notationMsToAudioRatio,
@@ -599,6 +605,16 @@ describe('resolveCountInHandoffAnchor', function() {
     expect(anchor.actualStartAudioTime).toBe(10)
     expect(anchor.musicSeconds).toBeCloseTo(0.5, 5)
   })
+
+  test('pre-scheduled handoff just after downbeat keeps grid and advances musicSeconds', function() {
+    const anchor = resolveCountInHandoffAnchor(10, 10.001, {
+      minLeadSec: 0.002,
+      audioStartedAtScheduled: true,
+      tempoFactor: 1,
+    })
+    expect(anchor.actualStartAudioTime).toBe(10)
+    expect(anchor.musicSeconds).toBeCloseTo(0.001, 5)
+  })
 })
 
 describe('shouldUseMidiMetronomeCountIn', function() {
@@ -853,6 +869,52 @@ describe('rhythmAlignedCountInInput', function() {
     expect(countIn.metronomeBeats).toBe(2)
   })
 
+  test('9/8 count-in uses three pulse beats not subdivision slots', function() {
+    const rhythm98 = rhythmFromPreset('9-8')
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 9 },
+      getBeatLength: function() { return 0.125 },
+      millisecondsPerMeasure: function() { return 3000 },
+    })
+    expect(resolveCountInBeatCount(visual, rhythm98, {
+      countInBars: 1,
+      meter: '9/8',
+    }, { countInBars: 1 })).toBe(3)
+    expect(resolveCountInSlotCount(visual, rhythm98, {
+      countInBars: 1,
+      meter: '9/8',
+    }, { countInBars: 1 })).toBe(9)
+    expect(resolveCountInBeatCount(visual, rhythm98, {
+      countInBars: 2,
+      meter: '9/8',
+    }, { countInBars: 2 })).toBe(6)
+    expect(resolveCountInSlotCount(visual, rhythm98, {
+      countInBars: 2,
+      meter: '9/8',
+    }, { countInBars: 2 })).toBe(18)
+    expect(slotsForBeatCount(rhythm98, 3)).toBe(9)
+  })
+
+  test('2/4 count-in uses at least two bars', function() {
+    const rhythm24 = rhythmFromPreset('2-4')
+    const visual = mockVisual({
+      getBeatsPerMeasure: function() { return 4 },
+      getBeatLength: function() { return 0.125 },
+      millisecondsPerMeasure: function() { return 1200 },
+    })
+    expect(minimumCountInBarsForMeter('2/4')).toBe(2)
+    expect(effectiveCountInBars('2/4', 1)).toBe(2)
+    expect(effectiveCountInBars('4/4', 1)).toBe(1)
+    expect(resolveCountInBeatCount(visual, rhythm24, {
+      countInBars: 1,
+      meter: '2/4',
+    }, { countInBars: 1 })).toBe(4)
+    expect(computeCountInSlotCount(visual, rhythm24, {
+      countInBars: 1,
+      meter: '2/4',
+    })).toBe(4)
+  })
+
   test('anacrusis pickup scales to rhythm beat units', function() {
     const visual = mockVisual({
       getBeatsPerMeasure: function() { return 2 },
@@ -1103,6 +1165,59 @@ describe('computeCountInGridTempo', function() {
       meter: '4/4',
       fallbackQpm: 240,
     })).toBe(120)
+  })
+})
+
+describe('scoreMsPerMeasureForRhythmGrid', function() {
+  test('prefers abcjs visual timing over fill-inferred fallback', function() {
+    const visual = {
+      millisecondsPerMeasure: function() { return 1800 },
+    }
+    expect(scoreMsPerMeasureForRhythmGrid(visual, {
+      fallbackMsPerMeasure: 2400,
+    })).toBe(1800)
+  })
+
+  test('falls back when visual timing is missing', function() {
+    expect(scoreMsPerMeasureForRhythmGrid(null, {
+      fallbackMsPerMeasure: 2400,
+    })).toBe(2400)
+  })
+})
+
+describe('computeCountInDownbeatPlaybackRatio', function() {
+  test('3/4 one-beat pickup uses visual timing when available', function() {
+    const visual = {
+      getBeatsPerMeasure: function() { return 3 },
+      getBeatLength: function() { return 0.25 },
+      getPickupLength: function() { return 0.25 },
+      getTotalBeats: function() { return 12 },
+      getTotalTime: function() { return 7200 },
+      millisecondsPerMeasure: function() { return 1800 },
+    }
+    const ratio = computeCountInDownbeatPlaybackRatio({
+      bufferDuration: 7.2,
+      pickupLength: 0.25,
+      beatLength: 0.25,
+      beatsPerMeasure: 3,
+      millisecondsPerMeasure: 1800,
+      tempoFactor: 1,
+      visualObj: visual,
+      tempoBpm: 100,
+    })
+    expect(ratio).toBeCloseTo(1 / 12)
+  })
+
+  test('falls back to measure timing without visual', function() {
+    const ratio = computeCountInDownbeatPlaybackRatio({
+      bufferDuration: 10,
+      pickupLength: 0.25,
+      beatLength: 0.25,
+      beatsPerMeasure: 3,
+      millisecondsPerMeasure: 1800,
+      tempoFactor: 1,
+    })
+    expect(ratio).toBeCloseTo(0.06)
   })
 })
 

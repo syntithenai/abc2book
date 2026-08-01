@@ -1,7 +1,7 @@
 import { PitchShifter } from 'soundtouchjs';
 import { clamp, combinedPitchSemitones, TEMPO_MIN, TEMPO_MAX, PITCH_MIN, PITCH_MAX, FINE_TUNE_MIN, FINE_TUNE_MAX } from './pitchTempoUtils';
 
-const BUFFER_SIZE = 16384;
+const BUFFER_SIZE = 2048;
 
 export default class PitchTempoShifter {
   constructor(audioContext, audioBuffer, onTimeUpdate, onEnded, onPitchOutputReady) {
@@ -29,10 +29,18 @@ export default class PitchTempoShifter {
     this._scheduledConnectTimer = null;
     this._soundtouchStartContextTime = null;
     this._soundtouchHoldOffset = 0;
+    this._loggedFirstAudible = false;
   }
 
   setOnPitchOutputReady(callback) {
     this._onPitchOutputReady = callback || null;
+  }
+
+  getOutputLatencySec() {
+    if (!this.audioContext || this._mode !== 'soundtouch') {
+      return 0
+    }
+    return BUFFER_SIZE / this.audioContext.sampleRate
   }
 
   get duration() {
@@ -185,14 +193,19 @@ export default class PitchTempoShifter {
   }
 
   _connectSoundTouchPipeline(scheduledWhen) {
+    const ctx = this.audioContext
+    const now = ctx ? ctx.currentTime : 0
+    const startContextTime = scheduledWhen != null ? scheduledWhen : now
     this._applySoundTouchSettings()
     this.shifter.connect(this.gainNode)
     this.gainNode.connect(this.audioContext.destination)
     this._connected = true
-    this._soundtouchStartContextTime = scheduledWhen != null
-      ? scheduledWhen
-      : this.audioContext.currentTime
+    this._soundtouchStartContextTime = startContextTime
+    this._loggedFirstAudible = false
     this._startTimeUpdates()
+    // #region agent log
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'pitchTempoShifter.js:_connectSoundTouchPipeline',message:'soundtouch connected',data:{scheduledWhen:scheduledWhen,now:now,startContextTime:startContextTime,connectDriftMs:scheduledWhen!=null?(now-scheduledWhen)*1000:null,tempo:this._tempo,timePlayed:this.shifter?this.shifter.timePlayed:null},timestamp:Date.now(),hypothesisId:'S1'})}).catch(function(){});
+    // #endregion
   }
 
   connect(startWhen) {
@@ -212,26 +225,40 @@ export default class PitchTempoShifter {
         this._connected = true;
         this._startTimeUpdates();
       } else {
+        const ctx = this.audioContext
         const when = this._resolveConnectWhen(startWhen)
-        const delayMs = (when - this.audioContext.currentTime) * 1000
+        const now = ctx.currentTime
+        const delayMs = (when - now) * 1000
         this._soundtouchHoldOffset = this.shifter
           ? Math.max(0, this.shifter.timePlayed || 0)
           : 0
-        if (delayMs > 1) {
+        // Near-term connects must be synchronous — setTimeout is starved by
+        // main-thread work during count-in handoff (observed ~73ms late).
+        if (delayMs > 25) {
           this._clearScheduledConnect()
           this._soundtouchStartContextTime = when
           const self = this
-          this._scheduledConnectTimer = setTimeout(function() {
-            self._scheduledConnectTimer = null
+          const pollConnect = function() {
             if (self._connected) return
-            self._connectSoundTouchPipeline(when)
-          }, delayMs)
+            if (!self.audioContext) return
+            const remainingSec = when - self.audioContext.currentTime
+            if (remainingSec <= 0.0005) {
+              self._scheduledConnectTimer = null
+              self._connectSoundTouchPipeline(when)
+              return
+            }
+            const pollDelayMs = remainingSec > 0.05
+              ? Math.max(1, Math.round((remainingSec - 0.015) * 1000))
+              : 1
+            self._scheduledConnectTimer = setTimeout(pollConnect, pollDelayMs)
+          }
+          pollConnect()
           return true
         }
-        this._connectSoundTouchPipeline(when)
+        this._connectSoundTouchPipeline(now)
       }
     }
-    return this._connected;
+    return this._connected || !!this._scheduledConnectTimer;
   }
 
   isConnected() {
@@ -240,6 +267,10 @@ export default class PitchTempoShifter {
 
   isConnectedOrPending() {
     return this._connected || !!this._scheduledConnectTimer
+  }
+
+  getScheduledConnectTime() {
+    return this._soundtouchStartContextTime
   }
 
   disconnect() {
@@ -290,6 +321,12 @@ export default class PitchTempoShifter {
     shifter.on('play', (detail) => {
       if (this._pitchOutputPending && this._mode === 'soundtouch' && this._connected) {
         this._signalPitchOutputReady();
+      }
+      if (detail.timePlayed > 0.001 && this._soundtouchStartContextTime != null && !this._loggedFirstAudible) {
+        this._loggedFirstAudible = true
+        // #region agent log
+        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'pitchTempoShifter.js:firstAudible',message:'first soundtouch output',data:{timePlayed:detail.timePlayed,startContextTime:this._soundtouchStartContextTime,now:this.audioContext?this.audioContext.currentTime:null,audibleDriftMs:this._soundtouchStartContextTime!=null&&this.audioContext?(this.audioContext.currentTime-this._soundtouchStartContextTime)*1000:null,outputLatencyMs:this.getOutputLatencySec()*1000},timestamp:Date.now(),hypothesisId:'S2'})}).catch(function(){});
+        // #endregion
       }
       if (this._onTimeUpdate) {
         this._onTimeUpdate(detail.timePlayed, detail.percentagePlayed / 100);

@@ -8,6 +8,7 @@ import {
   shouldSuppressFollowNavigate,
   isExternalQueueItem,
   isLessonExternalMedia,
+  isRepeatTrack,
 } from './nowPlayingQueue'
 import { isQueuePlaybackEngaged, getViewedTuneIdFromPath } from './playbackNavigationUtils'
 import {
@@ -247,6 +248,24 @@ export function handleQueueAdvanceOnEnded(params) {
       stopPlaylistPlayback(mediaController)
     }
     return true
+  }
+
+  if (isRepeatTrack(queue)) {
+    const item = getCurrentItem(queue)
+    if (!item) {
+      if (failCallback) failCallback()
+      return false
+    }
+    const tune = item.tuneId && tunes ? tunes[item.tuneId] : null
+    if (isExternalQueueItem(item)) {
+      return finishQueueAdvance(params, queue, item, null)
+    }
+    if (!tune || !tunebook || !isQueueItemPlayable(tune, item, tunebook)) {
+      stopPlaylistPlayback(mediaController)
+      if (failCallback) failCallback('end')
+      return false
+    }
+    return finishQueueAdvance(params, queue, item, tune)
   }
 
   if (!queue.autoAdvance) {

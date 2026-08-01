@@ -35,6 +35,11 @@ export function scratchpadItemSearchHaystack(item) {
     if (snap.name) parts.push(snap.name)
     if (snap.composer) parts.push(snap.composer)
   }
+  if (item.type === 'composition' && item.composition) {
+    const snap = item.composition.tuneSnapshot
+    if (snap && snap.name) parts.push(snap.name)
+    if (item.previewText) parts.push(item.previewText)
+  }
   return parts.map(function(part) { return String(part || '') }).join('\n').toLowerCase()
 }
 

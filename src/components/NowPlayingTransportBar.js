@@ -21,6 +21,7 @@ import { getResolverCreditLowBalanceWarning } from '../mediaProxyClient'
 import { openCreditSettings } from '../resolverCreditAccess'
 import MediaSeekSlider from './MediaSeekSlider'
 import TuneArtwork from './TuneArtwork'
+import PlaylistModeButtons, { PlaylistRepeatButton } from './PlaylistModeButtons'
 import './NowPlayingTransportBar.css'
 
 export default function NowPlayingTransportBar({
@@ -299,6 +300,31 @@ export default function NowPlayingTransportBar({
     </Button>
   )
 
+  const repeatButton = queueActive && setNowPlayingQueue && !isLessonQueue(nowPlayingQueue) ? (
+    <span className="now-playing-transport-repeat-standalone">
+      <PlaylistRepeatButton
+        nowPlayingQueue={nowPlayingQueue}
+        setNowPlayingQueue={setNowPlayingQueue}
+        className="now-playing-transport-repeat-btn"
+        testId="playlist-repeat-button"
+      />
+    </span>
+  ) : null
+
+  const modeButtons = queueActive && setNowPlayingQueue && !isLessonQueue(nowPlayingQueue) ? (
+    <PlaylistModeButtons
+      nowPlayingQueue={nowPlayingQueue}
+      setNowPlayingQueue={setNowPlayingQueue}
+      className="now-playing-transport-mode-buttons"
+      showShuffle={true}
+      showRepeat={true}
+      showFollow={true}
+      size={undefined}
+      compact={true}
+      repeatTestId="playlist-repeat-button-group"
+    />
+  ) : null
+
   return (
     <div
       className={'now-playing-transport-bar' + (isFullscreen ? ' now-playing-transport-bar--fullscreen' : '')}
@@ -324,6 +350,8 @@ export default function NowPlayingTransportBar({
           {!isFullscreen ? (
             <div className="now-playing-transport-center-cluster">
               {fullscreenButton}
+              {modeButtons}
+              {repeatButton}
               {playPauseButton}
               {playingTune ? (
                 <button

@@ -11,6 +11,15 @@ import {
   createEmptyDrumPattern,
   normalizeRhythmConfig,
 } from './rhythmEngineTypes'
+import { rhythmPulseShapeKey, pulseShapeKey } from './rhythmGranularity'
+import { slotsPerBar } from './metronomeRhythmPresets'
+import {
+  isUserDrumPresetId,
+  findUserDrumPresetById,
+  userDrumPresetToRhythm,
+  userDrumPresetIdForRhythm,
+  getCachedUserDrumPresets,
+} from './userDrumPresets'
 
 export const PRESET_CATEGORY_METRONOME = 'Metronome'
 export const PRESET_CATEGORY_ROCK_POP = 'Rock & pop'
@@ -20,8 +29,10 @@ export const PRESET_CATEGORY_LATIN = 'Latin'
 export const PRESET_CATEGORY_FOLK = 'Folk & dance'
 export const PRESET_CATEGORY_PRACTICE = 'Practice'
 export const PRESET_CATEGORY_MINIMAL = 'Minimal'
+export const PRESET_CATEGORY_MY_PATTERNS = 'My patterns'
 
 export const DRUM_PRESET_CATEGORIES = [
+  PRESET_CATEGORY_MY_PATTERNS,
   PRESET_CATEGORY_METRONOME,
   PRESET_CATEGORY_ROCK_POP,
   PRESET_CATEGORY_FUNK_SOUL,
@@ -345,6 +356,101 @@ export function presetMatchesRhythm(preset, rhythm) {
   return rhythmSignatureKey(preset) === rhythmSignatureKey(rhythm)
 }
 
+function uniformDownscaleCompatible(presetPulses, rhythmPulses) {
+  if (presetPulses.length !== rhythmPulses.length) return false
+  for (let i = 0; i < presetPulses.length; i++) {
+    const presetP = presetPulses[i]
+    const rhythmP = rhythmPulses[i]
+    if (presetP === rhythmP) continue
+    if (presetP < rhythmP || presetP % rhythmP !== 0) return false
+  }
+  return true
+}
+
+function uniformUpscaleCompatible(presetPulses, rhythmPulses) {
+  if (presetPulses.length !== rhythmPulses.length) return false
+  for (let i = 0; i < presetPulses.length; i++) {
+    const presetP = presetPulses[i]
+    const rhythmP = rhythmPulses[i]
+    if (presetP === rhythmP) continue
+    if (rhythmP < presetP || rhythmP % presetP !== 0) return false
+  }
+  return true
+}
+
+export function presetCompatibleWithRhythm(preset, rhythm) {
+  if (!preset || !rhythm) return false
+  if (presetMatchesRhythm(preset, rhythm)) return true
+  const normalized = normalizeRhythmConfig(rhythm)
+  if (preset.beatsPerBar !== normalized.beatsPerBar) return false
+  if (rhythmPulseShapeKey(preset) === rhythmPulseShapeKey(normalized)) return true
+  const presetPulses = Array.isArray(preset.pulsesPerBeat)
+    ? preset.pulsesPerBeat
+    : Array.from({ length: preset.beatsPerBar }, function() { return preset.pulsesPerBeat || 1 })
+  const rhythmPulses = normalized.pulsesPerBeat || []
+  return uniformDownscaleCompatible(presetPulses, rhythmPulses)
+    || uniformUpscaleCompatible(presetPulses, rhythmPulses)
+}
+
+export function getCompatibleDrumPresets(rhythm, options) {
+  const opts = options || {}
+  const normalized = normalizeRhythmConfig(rhythm)
+  const source = opts.includeUser !== false && Array.isArray(opts.userPresets)
+    ? DRUM_GROOVE_PRESETS.concat(opts.userPresets)
+    : DRUM_GROOVE_PRESETS
+  const engineMode = opts.engineMode || ENGINE_MODE_DRUMS
+  const filtered = source.filter(function(preset) {
+    if (preset.engineMode !== engineMode) return false
+    return presetCompatibleWithRhythm(preset, normalized)
+  })
+  return filtered.sort(function(a, b) {
+    const aExact = presetMatchesRhythm(a, normalized) ? 0 : 1
+    const bExact = presetMatchesRhythm(b, normalized) ? 0 : 1
+    if (aExact !== bExact) return aExact - bExact
+    return String(a.label).localeCompare(String(b.label))
+  })
+}
+
+/**
+ * Searchable preset list for the drum picker (built-in + user).
+ */
+export function getSearchableRhythmPresets(rhythm, options) {
+  const opts = options || {}
+  const normalized = normalizeRhythmConfig(rhythm)
+  const engineMode = opts.engineMode || normalized.engineMode || ENGINE_MODE_DRUMS
+  const query = (opts.query || '').trim().toLowerCase()
+  let presets = engineMode === ENGINE_MODE_CLICK
+    ? METRONOME_CLICK_PRESETS.slice()
+    : getCompatibleDrumPresets(normalized, {
+      userPresets: opts.userPresets || [],
+      engineMode: ENGINE_MODE_DRUMS,
+    })
+  if (query) {
+    presets = presets.filter(function(preset) {
+      return preset.label.toLowerCase().includes(query)
+        || preset.category.toLowerCase().includes(query)
+        || preset.id.toLowerCase().includes(query)
+    })
+  }
+  return presets
+}
+
+export function groupPresetsForPicker(presets, rhythm) {
+  const normalized = normalizeRhythmConfig(rhythm)
+  const exact = []
+  const compatible = []
+  const myPatterns = []
+  presets.forEach(function(preset) {
+    if (preset.category === PRESET_CATEGORY_MY_PATTERNS) {
+      myPatterns.push(preset)
+      return
+    }
+    if (presetMatchesRhythm(preset, normalized)) exact.push(preset)
+    else compatible.push(preset)
+  })
+  return { exact: exact, compatible: compatible, myPatterns: myPatterns }
+}
+
 export function getDrumPresetsForRhythm(rhythm) {
   return DRUM_GROOVE_PRESETS.filter(function(preset) {
     return presetMatchesRhythm(preset, rhythm)
@@ -368,14 +474,24 @@ export function defaultDrumPresetIdForRhythm(rhythm) {
 }
 
 export function getRhythmPresetById(presetId) {
+  if (isUserDrumPresetId(presetId)) {
+    return findUserDrumPresetById(presetId)
+  }
   return ALL_RHYTHM_PRESETS.find(function(preset) { return preset.id === presetId }) || null
 }
 
 export function getPresetsByCategory(category) {
-  return ALL_RHYTHM_PRESETS.filter(function(preset) { return preset.category === category })
+  const builtins = ALL_RHYTHM_PRESETS.filter(function(preset) { return preset.category === category })
+  if (category !== PRESET_CATEGORY_MY_PATTERNS) return builtins
+  return getCachedUserDrumPresets()
 }
 
 export function applyRhythmPreset(presetId) {
+  if (isUserDrumPresetId(presetId)) {
+    const userPreset = findUserDrumPresetById(presetId)
+    if (userPreset) return userDrumPresetToRhythm(userPreset)
+    return createRhythmConfig(4)
+  }
   const preset = getRhythmPresetById(presetId)
   if (!preset) return createRhythmConfig(4)
 
@@ -399,6 +515,8 @@ export function presetIdForRhythmConfig(rhythm) {
     const preset = getRhythmPresetById(normalized.presetId)
     if (preset) return normalized.presetId
   }
+  const userId = userDrumPresetIdForRhythm(normalized)
+  if (userId) return userId
   const match = ALL_RHYTHM_PRESETS.find(function(preset) {
     const applied = applyRhythmPreset(preset.id)
     return applied.engineMode === normalized.engineMode

@@ -192,6 +192,16 @@ export function isScratchpadAnalyseMode(associateMode) {
   return associateMode === 'analyse'
 }
 
+export function mergeScratchpadCompositionIntoTune(tune, compositionTune) {
+  if (!tune || !compositionTune) return tune
+  const next = Object.assign({}, tune, JSON.parse(JSON.stringify(compositionTune)))
+  next.id = tune.id
+  if (tune.books) next.books = tune.books
+  if (tune.links) next.links = tune.links
+  if (tune.tuneFiles) next.tuneFiles = tune.tuneFiles
+  return next
+}
+
 export function getAssociateModesForItem(item) {
   if (!item) return []
   if (item.type === 'text') {
@@ -212,6 +222,9 @@ export function getAssociateModesForItem(item) {
       { id: 'notation', label: 'As Notation' },
       { id: 'midi', label: 'As Midi Linked Media' },
     ]
+  }
+  if (item.type === 'composition') {
+    return [{ id: 'composition', label: 'Associate to tune' }]
   }
   return []
 }

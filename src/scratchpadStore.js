@@ -28,7 +28,7 @@ const ACTIVE_WORKSPACE_KEY = 'bookstorage_scratchpad_active_workspace'
 
 const changeListeners = []
 
-export const SCRATCHPAD_ITEM_TYPES = ['text', 'image', 'notation', 'audio']
+export const SCRATCHPAD_ITEM_TYPES = ['text', 'image', 'notation', 'audio', 'composition']
 
 export function subscribeScratchpad(listener) {
   if (typeof listener !== 'function') return function() {}
@@ -178,8 +178,19 @@ function normalizeItem(record, itemId) {
   next.workspaceId = String(next.workspaceId || '')
   next.createdAt = next.createdAt || Date.now()
   next.updatedAt = next.updatedAt || next.createdAt
+  if (next.type === 'composition' && !next.composition) {
+    next.composition = blankCompositionState(next.id, next.title)
+  }
   if (next.type === 'text' && next.text) {
     next.previewText = buildPreviewText(next.text.body)
+  }
+  if (next.type === 'composition' && next.composition) {
+    const snap = next.composition.tuneSnapshot
+    const lyricsCount = Array.isArray(next.composition.lyricsChunks) ? next.composition.lyricsChunks.length : 0
+    const notationCount = Array.isArray(next.composition.notationChunks) ? next.composition.notationChunks.length : 0
+    const name = snap && snap.name ? String(snap.name) : ''
+    const summary = lyricsCount + ' lyrics · ' + notationCount + ' notation'
+    next.previewText = name ? name + ' — ' + summary : summary
   }
   return next
 }
@@ -407,6 +418,8 @@ export async function createScratchpadItem(options) {
       await putScratchpadBlob(take.blobKey, opts.blob)
       take.recordedAt = Date.now()
     }
+  } else if (type === 'composition') {
+    item.composition = opts.composition || blankCompositionState(id, title)
   }
 
   return saveScratchpadItem(item)
@@ -417,7 +430,18 @@ function defaultTitleForType(type) {
   if (type === 'image') return 'Image'
   if (type === 'notation') return 'Notation'
   if (type === 'audio') return 'Audio'
+  if (type === 'composition') return 'Composition'
   return 'Scratchpad item'
+}
+
+export function blankCompositionState(id, title) {
+  return {
+    tuneSnapshot: blankNotationTune(id, title),
+    lyricsChunks: [],
+    notationChunks: [],
+    pairings: [],
+    assemblyStale: false,
+  }
 }
 
 export function blankNotationTune(id, title) {
@@ -522,6 +546,9 @@ export async function copyScratchpadItem(itemId, targetWorkspaceId, options) {
       tuneSnapshot: JSON.parse(JSON.stringify(item.notation.tuneSnapshot || blankNotationTune(newId, copy.title))),
     }
     if (copy.notation.tuneSnapshot) copy.notation.tuneSnapshot.id = newId
+  } else if (item.type === 'composition' && item.composition) {
+    copy.composition = JSON.parse(JSON.stringify(item.composition || blankCompositionState(newId, copy.title)))
+    if (copy.composition.tuneSnapshot) copy.composition.tuneSnapshot.id = newId
   }
 
   return saveScratchpadItem(copy)
@@ -542,6 +569,8 @@ export function deleteScratchpadItem(itemId) {
     enqueueScratchpadDriveDeletes([item.text.driveFileId]).catch(function() {})
   } else if (item.type === 'notation' && item.notation && item.notation.driveFileId) {
     enqueueScratchpadDriveDeletes([item.notation.driveFileId]).catch(function() {})
+  } else if (item.type === 'composition' && item.composition && item.composition.driveFileId) {
+    enqueueScratchpadDriveDeletes([item.composition.driveFileId]).catch(function() {})
   }
   removeItemFromWorkspaceOrder(item.workspaceId, itemId)
   const map = readItemsMap()
@@ -554,7 +583,9 @@ export function deleteScratchpadItem(itemId) {
 
 export function getNotationPreviewAbc(item) {
   if (!item) return ''
-  const tune = item.type === 'notation' && item.notation ? item.notation.tuneSnapshot : null
+  const tune = item.type === 'notation' && item.notation
+    ? item.notation.tuneSnapshot
+    : (item.type === 'composition' && item.composition ? item.composition.tuneSnapshot : null)
   if (!tune) return ''
   const voice = tune.voices && Object.keys(tune.voices).length > 0
     ? tune.voices[Object.keys(tune.voices)[0]]

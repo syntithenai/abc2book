@@ -4,13 +4,8 @@ import './reactBootstrapDropdownPatch';
 import './index.css';
 import './breakpoints.css';
 import { applyColorScheme, getColorScheme } from './colorSchemeSettings';
-import { Capacitor } from '@capacitor/core';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-if (Capacitor.getPlatform() === 'android') {
-  window.__tunebookAgentDebug = true;
-}
 
 applyColorScheme(getColorScheme());
 

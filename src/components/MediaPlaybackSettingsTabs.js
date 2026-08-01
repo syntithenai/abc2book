@@ -9,7 +9,7 @@ import MediaSeekSlider from './MediaSeekSlider'
 import NowPlayingQueueManager from './NowPlayingQueueManager'
 import PlaylistToolbar from './PlaylistToolbar'
 import { isQueueActive } from '../nowPlayingQueue'
-import { getActiveLinkIndex, getFirstPlayableMediaLinkIndex } from '../mediaPlaybackUtils'
+import { getActiveLinkIndex, getFirstPlayableMediaLinkIndex, tuneHasPlayableMediaLinks, resolveLoopEditorLinkIndex, isMediaLoopTabEnabled } from '../mediaPlaybackUtils'
 import { linkedMediaPitchPathAvailable } from '../linkedMediaPitchPath'
 import { isChromiumDesktopBrowser } from '../platformUtils'
 import './MediaPlayerOptionsModal.css'
@@ -34,20 +34,22 @@ export default function MediaPlaybackSettingsTabs({
   const prevShowPlaylistTab = useRef(showPlaylistTab)
   const hasMusic = !!(tune && tunebook.hasNotesOrChords(tune))
 
+  const isYoutubeLink = tunebook.utils && tunebook.utils.isYoutubeLink
+
   const activeLinkIndex = tune
     ? (mediaController.mediaLinkNumber !== null && mediaController.mediaLinkNumber !== undefined
       ? getActiveLinkIndex(tune, mediaController.mediaLinkNumber)
       : getFirstPlayableMediaLinkIndex(
         tune,
         null,
-        tunebook.utils && tunebook.utils.isYoutubeLink
+        isYoutubeLink
       ))
     : null
 
-  const showLoopTab = tune
-    && activeLinkIndex !== null
-    && tune.links
-    && tune.links[activeLinkIndex]
+  const showLoopTab = !!(tune && tuneHasPlayableMediaLinks(tune, isYoutubeLink))
+  const loopTabEnabled = !!(tune && isMediaLoopTabEnabled(tune, mediaController, isYoutubeLink))
+  const loopLinkIndex = tune ? resolveLoopEditorLinkIndex(tune, mediaController, isYoutubeLink) : null
+  const loopTabTitle = loopTabEnabled ? 'Loop' : 'Choose media to loop'
 
   const activeLinkSrcType = tune
     && activeLinkIndex !== null
@@ -235,12 +237,14 @@ export default function MediaPlaybackSettingsTabs({
           </Tab>
         ) : null}
         {tune && showLoopTab ? (
-          <Tab eventKey="loop" title="Loop">
+          <Tab eventKey="loop" title={loopTabTitle} disabled={!loopTabEnabled}>
             <MediaPlaybackRegionPanel
               tune={tune}
               tunebook={tunebook}
               mediaController={mediaController}
-              linkIndex={activeLinkIndex}
+              linkIndex={loopLinkIndex}
+              disabled={!loopTabEnabled}
+              disabledMessage="Choose media to loop"
             />
           </Tab>
         ) : null}

@@ -98,6 +98,14 @@ describe('scratchpadStore', function() {
     expect(getActiveWorkspaceId()).toBe(ws.id)
   })
 
+  test('creates composition scratchpad item', async function() {
+    const ws = createWorkspace('Comp')
+    const item = await createScratchpadItem({ workspaceId: ws.id, type: 'composition', title: 'Song build' })
+    expect(item.type).toBe('composition')
+    expect(item.composition.tuneSnapshot.name).toBe('Song build')
+    expect(item.composition.lyricsChunks).toEqual([])
+  })
+
   test('migrates legacy midi scratchpad items to notation', function() {
     const ws = createWorkspace('Legacy')
     const itemId = 'legacy-midi-item'

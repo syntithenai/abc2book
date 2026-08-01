@@ -86,6 +86,9 @@ function collectDriveIdsFromItem(item) {
   if (item && item.type === 'notation' && item.notation && item.notation.driveFileId) {
     ids.push(item.notation.driveFileId)
   }
+  if (item && item.type === 'composition' && item.composition && item.composition.driveFileId) {
+    ids.push(item.composition.driveFileId)
+  }
   if (item && item.type === 'image' && item.image && item.image.driveFileId) {
     ids.push(item.image.driveFileId)
   }
@@ -208,6 +211,30 @@ async function uploadTextItem(driveApi, itemFolderId, item) {
   if (created && !created.error) {
     return Object.assign({}, item, {
       text: Object.assign({}, item.text, { driveFileId: created }),
+    })
+  }
+  return item
+}
+
+async function uploadCompositionItem(driveApi, itemFolderId, item) {
+  if (item.type !== 'composition' || !item.composition) return item
+  const payload = {
+    tuneSnapshot: item.composition.tuneSnapshot || {},
+    lyricsChunks: item.composition.lyricsChunks || [],
+    notationChunks: item.composition.notationChunks || [],
+    pairings: item.composition.pairings || [],
+    assemblyStale: item.composition.assemblyStale || false,
+  }
+  const body = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' })
+  const fileId = item.composition.driveFileId || null
+  if (fileId) {
+    await driveApi.updateDocumentData(fileId, body)
+    return item
+  }
+  const created = await driveApi.createDocument('composition.json', body, 'application/json', 'Scratchpad composition', itemFolderId)
+  if (created && !created.error) {
+    return Object.assign({}, item, {
+      composition: Object.assign({}, item.composition, { driveFileId: created }),
     })
   }
   return item
@@ -345,6 +372,8 @@ export async function syncScratchpadWithDrive(driveApi, options) {
       item = await uploadTextItem(driveApi, itemFolderId, item)
     } else if (item.type === 'notation') {
       item = await uploadNotationItem(driveApi, itemFolderId, item)
+    } else if (item.type === 'composition') {
+      item = await uploadCompositionItem(driveApi, itemFolderId, item)
     } else if (item.type === 'audio') {
       const audioFolderId = await ensureAudioSubfolder(driveApi, itemFolderId)
       const audio = await uploadAudioProjectJson(driveApi, audioFolderId, item)

@@ -160,6 +160,11 @@ describe('rhythmPlaybackController', function() {
         })
       },
     })
+    beginRhythmPlayingAtMusicStart(controller, {
+      musicSeconds: 0,
+      musicStartAudioTime: controller.musicStartAudioTime,
+      musicStartSlot: controller.musicStartSlot,
+    })
     advancePlayingTicks(ctx, 80)
     expect(getRhythmPlaybackPhase(controller)).toBe(PHASE_PLAYING)
     musicSeconds = 0.5
@@ -198,6 +203,11 @@ describe('rhythmPlaybackController', function() {
     const countInBeat = clickTimes[1] - clickTimes[0]
     expect(countInBeat).toBeCloseTo(0.5, 4)
     const musicStart = controller.musicStartAudioTime
+    beginRhythmPlayingAtMusicStart(controller, {
+      musicSeconds: 0,
+      musicStartAudioTime: musicStart,
+      musicStartSlot: controller.musicStartSlot,
+    })
     // Advance past anacrusis onto the first downbeat and next beat.
     ctx.currentTime = musicStart
     jest.advanceTimersByTime(25)
@@ -205,6 +215,53 @@ describe('rhythmPlaybackController', function() {
     const afterMusic = clickTimes.filter(function(t) { return t >= musicStart - 0.001 })
     expect(afterMusic.length).toBeGreaterThanOrEqual(2)
     expect(afterMusic[1] - afterMusic[0]).toBeCloseTo(countInBeat, 3)
+    stopRhythmPlaybackController(controller)
+    jest.useRealTimers()
+  })
+
+  test('9/8 count-in schedules nine pulse slots for three beats then avoids bar burst on handoff', function() {
+    jest.useFakeTimers()
+    const bus = createRhythmOutputBus()
+    const controller = createRhythmPlaybackController(bus)
+    const ctx = mockAudioContext()
+    const rhythm98 = rhythmFromPreset('9-8')
+    const clickTimes = []
+    const slotInBars = []
+    startRhythmCountIn(controller, {
+      rhythm: rhythm98,
+      tempo: 120,
+      slotCount: 9,
+      duringPlayback: true,
+      audioContext: ctx,
+      playSlot: function(ac, audioTime, rhythm, slotInBar) {
+        clickTimes.push(audioTime)
+        slotInBars.push(slotInBar)
+      },
+      getMusicSeconds: function() { return 0 },
+      getTempoFactor: function() { return 1 },
+      onMusicStart: function(startAt) {
+        beginRhythmPlayingAtMusicStart(controller, {
+          musicSeconds: 0,
+          musicStartAudioTime: startAt,
+          musicStartSlot: controller.musicStartSlot,
+        })
+      },
+    })
+    expect(clickTimes.length).toBe(9)
+    expect(slotInBars).toEqual([0, 1, 2, 3, 4, 5, 6, 7, 8])
+    const pulse = clickTimes[1] - clickTimes[0]
+    expect(pulse).toBeCloseTo((60 / 120) / 3, 4)
+    const musicStart = controller.musicStartAudioTime
+    beginRhythmPlayingAtMusicStart(controller, {
+      musicSeconds: 0,
+      musicStartAudioTime: musicStart,
+      musicStartSlot: controller.musicStartSlot,
+    })
+    ctx.currentTime = musicStart
+    jest.advanceTimersByTime(25)
+    const hitsBeforeAdvance = slotInBars.length
+    advancePlayingTicks(ctx, 1)
+    expect(slotInBars.length - hitsBeforeAdvance).toBeLessThanOrEqual(1)
     stopRhythmPlaybackController(controller)
     jest.useRealTimers()
   })

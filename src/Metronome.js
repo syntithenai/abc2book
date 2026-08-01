@@ -20,11 +20,17 @@ export default class Metronome
         this.errorCallback = errorCallback;
         this.currentBeat = 0;
         this.onSlotChange = null;
+        this.onBarDownbeat = null;
+        this.loopMode = false;
         this.lastScheduledTime = 0;
         this.completionTimeoutId = null;
         this.generation = 0;
 
         this.setRhythm(rhythm || createRhythmConfig(beatsPerBar));
+    }
+
+    setLoopMode(enabled) {
+        this.loopMode = !!enabled;
     }
 
     setRhythm(rhythm) {
@@ -76,6 +82,10 @@ export default class Metronome
         this.lastScheduledTime = time;
 
         playRhythmSlot(this.audioContext, time, this.rhythm, slotIndex);
+
+        if (slotIndex === 0 && this.loopMode && typeof this.onBarDownbeat === 'function') {
+            this.onBarDownbeat(time);
+        }
 
         this.currentBeat += 1;
         if (this.currentBeat === 1 && typeof this.onFirstNoteSchedule === 'function') {

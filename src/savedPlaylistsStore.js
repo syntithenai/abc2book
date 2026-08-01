@@ -82,6 +82,8 @@ function normalizeRecord(record, id) {
     items: items,
     followTune: !!record.followTune,
     loop: !!record.loop,
+    repeatTrack: !!record.repeatTrack,
+    repeatMode: record.repeatMode || (record.repeatTrack ? 'track' : (record.loop ? 'playlist' : 'off')),
     shuffle: !!record.shuffle,
     autoAdvance: record.autoAdvance !== false,
     updatedAt: typeof record.updatedAt === 'number' ? record.updatedAt : 0,
@@ -162,6 +164,8 @@ export function savePlaylistFromQueue(queue, options) {
     items: items,
     followTune: !!queue.followTune,
     loop: !!queue.loop,
+    repeatTrack: !!queue.repeatTrack,
+    repeatMode: queue.repeatMode,
     shuffle: !!queue.shuffle,
     autoAdvance: queue.autoAdvance !== false,
   }, { id: opts.id || queue.savedPlaylistId })
@@ -204,6 +208,8 @@ export function queueFromSavedPlaylist(saved, tunesMap) {
     loop: record.loop,
     shuffle: record.shuffle,
     autoAdvance: record.autoAdvance,
+    repeatMode: record.repeatMode,
+    repeatTrack: record.repeatTrack,
   })
   queue.items = items.map(function(item) {
     const next = { tuneId: item.tuneId, prefer: item.prefer || 'auto' }

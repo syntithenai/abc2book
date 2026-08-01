@@ -1,13 +1,17 @@
 import {
   applyRhythmPreset,
   defaultDrumPresetIdForRhythm,
+  getCompatibleDrumPresets,
   getDrumPresetsForRhythm,
   getRhythmPresetById,
+  getSearchableRhythmPresets,
+  presetCompatibleWithRhythm,
   presetMatchesRhythm,
   rhythmSignatureKey,
 } from './drumPatternPresets'
 import { rhythmFromTimeSignature, slotsPerBar } from './metronomeRhythmPresets'
-import { ENGINE_MODE_DRUMS } from './rhythmEngineTypes'
+import { ENGINE_MODE_DRUMS, createRhythmConfig, createEmptyDrumPattern } from './rhythmEngineTypes'
+import { setRhythmGranularity } from './rhythmGranularity'
 
 describe('drumPatternPresets', function() {
   test('template presets have matching slot counts', function() {
@@ -59,5 +63,53 @@ describe('drumPatternPresets', function() {
     })
     expect(matches.some(function(preset) { return preset.id === 'rock-basic' })).toBe(false)
     expect(matches.some(function(preset) { return preset.id === 'tpl-6-8-backbeat' })).toBe(true)
+  })
+
+  test('presetCompatibleWithRhythm matches coarse quarter grid to 16th presets', function() {
+    const coarse = rhythmFromTimeSignature('4/4')
+    const rock = getRhythmPresetById('rock-basic')
+    expect(presetMatchesRhythm(rock, coarse)).toBe(false)
+    expect(presetCompatibleWithRhythm(rock, coarse)).toBe(true)
+  })
+
+  test('getCompatibleDrumPresets sorts exact matches first', function() {
+    const exact = applyRhythmPreset('rock-basic')
+    const compatible = getCompatibleDrumPresets(exact)
+    expect(compatible.length).toBeGreaterThan(0)
+    expect(presetMatchesRhythm(compatible[0], exact)).toBe(true)
+  })
+
+  test('getSearchableRhythmPresets merges user presets', function() {
+    const rhythm = rhythmFromTimeSignature('4/4')
+    const userPreset = {
+      id: 'user-abc',
+      label: 'Custom saved groove',
+      category: 'My patterns',
+      engineMode: ENGINE_MODE_DRUMS,
+      beatsPerBar: 4,
+      accents: rhythm.accents,
+      pulsesPerBeat: [4, 4, 4, 4],
+      swing: 0,
+      drumPattern: applyRhythmPreset('rock-basic').drumPattern,
+    }
+    const compatible = getCompatibleDrumPresets(rhythm, { userPresets: [userPreset] })
+    expect(compatible.some(function(p) { return p.id === 'user-abc' })).toBe(true)
+    const results = getSearchableRhythmPresets(rhythm, {
+      engineMode: ENGINE_MODE_DRUMS,
+      userPresets: [userPreset],
+      query: 'custom saved',
+    })
+    expect(results.some(function(p) { return p.id === 'user-abc' })).toBe(true)
+  })
+
+  test('setRhythmGranularity remaps drum pattern slots', function() {
+    const coarse = createRhythmConfig(4, undefined, [1, 1, 1, 1], {
+      engineMode: ENGINE_MODE_DRUMS,
+      drumPattern: createEmptyDrumPattern(4),
+    })
+    const finer = setRhythmGranularity(coarse, 4)
+    expect(slotsPerBar(finer)).toBe(16)
+    expect(finer.drumPattern.resolution).toBe(16)
+    expect(finer.presetId).toBe('')
   })
 })

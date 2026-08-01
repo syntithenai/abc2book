@@ -6,6 +6,8 @@ import {
   setFollowTune,
   setLoop,
   setShuffle,
+  cycleRepeatMode,
+  getRepeatMode,
   buildShuffleOrder,
   setQueueIndex,
   resolvePlaybackForItem,
@@ -64,7 +66,22 @@ describe('nowPlayingQueue', function() {
   test('setLoop toggles repeat flag', function() {
     const q = createQueue({ tuneIds: ['a', 'b'] })
     expect(setLoop(q, true).loop).toBe(true)
+    expect(getRepeatMode(setLoop(q, true))).toBe('playlist')
     expect(setLoop(q, false).loop).toBe(false)
+    expect(getRepeatMode(setLoop(q, false))).toBe('off')
+  })
+
+  test('cycleRepeatMode advances off, playlist, track', function() {
+    const q = createQueue({ tuneIds: ['a', 'b'] })
+    const playlist = cycleRepeatMode(q)
+    expect(getRepeatMode(playlist)).toBe('playlist')
+    expect(playlist.loop).toBe(true)
+    const track = cycleRepeatMode(playlist)
+    expect(getRepeatMode(track)).toBe('track')
+    expect(track.repeatTrack).toBe(true)
+    expect(track.loop).toBe(false)
+    const off = cycleRepeatMode(track)
+    expect(getRepeatMode(off)).toBe('off')
   })
 
   test('setShuffle builds order with current tune first', function() {

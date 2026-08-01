@@ -185,7 +185,7 @@ export default function ScratchpadEditorChrome(props) {
         <Button variant="danger" size="sm" onClick={handleDelete} title="Delete">
           {icons.deletebin || 'Delete'}
         </Button>
-        {associateModes.length ? (
+        {associateModes.length || (props.extraUseActions && props.extraUseActions.length) ? (
           <Dropdown className="scratchpad-associate-dropdown">
             <Dropdown.Toggle variant="outline-primary" size="sm">
               Use
@@ -195,6 +195,13 @@ export default function ScratchpadEditorChrome(props) {
                 return (
                   <Dropdown.Item key={mode.id} onClick={function() { openUseMode(mode.id) }}>
                     {mode.label}
+                  </Dropdown.Item>
+                )
+              })}
+              {(props.extraUseActions || []).map(function(action) {
+                return (
+                  <Dropdown.Item key={action.id} onClick={action.onClick}>
+                    {action.label}
                   </Dropdown.Item>
                 )
               })}

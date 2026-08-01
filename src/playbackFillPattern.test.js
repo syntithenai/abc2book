@@ -210,6 +210,31 @@ describe('playbackFillPattern', function() {
     expect(inferBarDurationSecFromFlattened(flattened, '4/4', { chordBarCount: 12 })).toBeCloseTo(2, 1)
   })
 
+  test('inferBarDurationSecFromFlattened does not halve bar on eighth-note melody', function() {
+    const flattened = {
+      tracks: [[
+        { cmd: 'note', pitch: 64, start: 0, duration: 0.125 },
+        { cmd: 'note', pitch: 66, start: 0.125, duration: 0.125 },
+        { cmd: 'note', pitch: 68, start: 0.25, duration: 0.125 },
+        { cmd: 'note', pitch: 69, start: 0.375, duration: 0.125 },
+        { cmd: 'note', pitch: 71, start: 0.5, duration: 0.125 },
+        { cmd: 'note', pitch: 72, start: 0.625, duration: 0.125 },
+        { cmd: 'note', pitch: 74, start: 0.75, duration: 0.125 },
+        { cmd: 'note', pitch: 76, start: 0.875, duration: 0.125 },
+        { cmd: 'note', pitch: 71, start: 1, duration: 0.125 },
+        { cmd: 'note', pitch: 69, start: 1.125, duration: 0.125 },
+        { cmd: 'note', pitch: 67, start: 1.25, duration: 0.125 },
+        { cmd: 'note', pitch: 64, start: 1.375, duration: 0.125 },
+        { cmd: 'note', pitch: 62, start: 1.5, duration: 0.125 },
+        { cmd: 'note', pitch: 60, start: 1.625, duration: 0.125 },
+        { cmd: 'note', pitch: 62, start: 1.75, duration: 0.125 },
+        { cmd: 'note', pitch: 64, start: 1.875, duration: 0.125 },
+        { cmd: 'note', pitch: 67, start: 2, duration: 0.125 },
+      ]],
+    }
+    expect(inferBarDurationSecFromFlattened(flattened, '4/4')).toBeCloseTo(2, 1)
+  })
+
   test('buildPlaybackSequence custom fill skips abcjs chord generation', function() {
     const calls = []
     const synthObj = {

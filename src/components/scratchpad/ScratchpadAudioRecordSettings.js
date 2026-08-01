@@ -56,6 +56,7 @@ export default function ScratchpadAudioRecordSettings(props) {
           <DrumPatternEditor
             rhythm={rhythm}
             compact={true}
+            recordingEnabled={false}
             onEngineModeChange={function(mode) {
               if (props.onRhythmConfigChange) {
                 props.onRhythmConfigChange(normalizeRhythmConfig(Object.assign({}, rhythm, { engineMode: mode })))

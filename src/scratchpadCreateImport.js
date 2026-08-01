@@ -71,6 +71,7 @@ function defaultTitle(itemType) {
   if (itemType === 'image') return 'Image'
   if (itemType === 'notation') return 'Notation'
   if (itemType === 'audio') return 'Audio'
+  if (itemType === 'composition') return 'Composition'
   return 'Scratchpad item'
 }
 
@@ -167,6 +168,8 @@ export function scratchpadSourcesForType(itemType, notationImportAccess, options
         { key: 'drive', label: 'Google Drive' },
       ]
     }
+  } else if (itemType === 'composition') {
+    sources = [{ key: 'blank', label: 'Blank composition' }]
   } else {
     sources = [
       { key: 'blank', label: 'Blank text' },

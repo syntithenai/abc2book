@@ -7,6 +7,7 @@ import {
   createPlaybackLoop,
   syncLegacyLinkLoopFields,
 } from '../mediaPlaybackUtils';
+import { buildMediaSourceOptions } from '../mediaSourceMenuAccess';
 
 function formatLoopStartAt(startAt) {
   if (!startAt && startAt !== 0) return '';
@@ -30,7 +31,14 @@ function toStoredEndAt(displayValue) {
   return seconds > 0 ? String(seconds) : '';
 }
 
-export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaController, linkIndex }) {
+export default function MediaPlaybackRegionPanel({
+  tune,
+  tunebook,
+  mediaController,
+  linkIndex,
+  disabled = false,
+  disabledMessage = 'Choose media to loop',
+}) {
   const [loops, setLoops] = useState([]);
   const saveTimerRef = useRef(null);
 
@@ -74,6 +82,7 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
 
   function applyLoops(nextLoops, options) {
     const opts = options || {};
+    if (disabled) return;
     setLoops(nextLoops);
     const payload = nextLoops.map(function(loop) {
       return {
@@ -154,8 +163,23 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
 
   if (!tune || linkIndex === null || !tune.links || !tune.links[linkIndex]) return null;
 
+  const mediaSourceOptions = buildMediaSourceOptions(tune, tunebook);
+  const activeSource = mediaSourceOptions.find(function(option) {
+    return option.kind === 'link' && option.linkIndex === linkIndex;
+  });
+  const mediaLinkLabel = activeSource
+    ? activeSource.label
+    : (tune.links[linkIndex].title || ('Link ' + (linkIndex + 1)));
+
   return (
     <div className="media-playback-region-panel">
+      {disabled ? (
+        <p className="text-muted small mb-2">{disabledMessage}</p>
+      ) : (
+        <p className="scope-note mb-2">
+          Loops apply to: <strong>{mediaLinkLabel}</strong>
+        </p>
+      )}
       <p className="scope-note">
         Create named loops with start and end times (m:ss). Check a loop to enable looping for that region; uncheck to turn looping off.
       </p>
@@ -167,7 +191,7 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
               variant="outline-secondary"
               size="sm"
               className="playback-loop-start"
-              disabled={!canSeekToLoopStart(loop)}
+              disabled={disabled || !canSeekToLoopStart(loop)}
               onClick={function() { handleSeekToLoopStart(loop); }}
               title="Seek to loop start"
             >
@@ -177,6 +201,7 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
               type="checkbox"
               className="playback-loop-active"
               checked={!!loop.active}
+              disabled={disabled}
               onChange={function() { handleActiveChange(loop.id); }}
               aria-label={'Active loop ' + (loop.name || loop.id)}
             />
@@ -185,6 +210,7 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
               className="playback-loop-name"
               placeholder="Name"
               value={loop.name || ''}
+              disabled={disabled}
               onChange={function(e) { updateLoop(loop.id, { name: e.target.value }); }}
             />
             <Form.Group className="region-field">
@@ -194,9 +220,10 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
                   type="text"
                   placeholder="0:00"
                   value={loop.startDisplay || ''}
+                  disabled={disabled}
                   onChange={function(e) { updateLoop(loop.id, { startDisplay: e.target.value }); }}
                 />
-                <Button variant="outline-secondary" size="sm" onClick={function() { handleSetStartFromCurrent(loop.id); }}>
+                <Button variant="outline-secondary" size="sm" disabled={disabled} onClick={function() { handleSetStartFromCurrent(loop.id); }}>
                   Set
                 </Button>
               </div>
@@ -208,9 +235,10 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
                   type="text"
                   placeholder="0:00"
                   value={loop.endDisplay || ''}
+                  disabled={disabled}
                   onChange={function(e) { updateLoop(loop.id, { endDisplay: e.target.value }); }}
                 />
-                <Button variant="outline-secondary" size="sm" onClick={function() { handleSetEndFromCurrent(loop.id); }}>
+                <Button variant="outline-secondary" size="sm" disabled={disabled} onClick={function() { handleSetEndFromCurrent(loop.id); }}>
                   Set
                 </Button>
               </div>
@@ -219,6 +247,7 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
               variant="outline-danger"
               size="sm"
               className="playback-loop-remove"
+              disabled={disabled}
               onClick={function() { handleRemoveLoop(loop.id); }}
               aria-label="Remove loop"
             >
@@ -228,7 +257,7 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
         );
       })}
 
-      <Button variant="outline-primary" size="sm" onClick={handleAddLoop}>
+      <Button variant="outline-primary" size="sm" disabled={disabled} onClick={handleAddLoop}>
         Add loop
       </Button>
     </div>

@@ -69,6 +69,7 @@ def build_drum_guide_midi(config: dict[str, Any]) -> bytes:
     pulses_per_beat = [max(1, int(p)) for p in pulses_per_beat]
     swing = float(config.get("swing") or 0.0)
     tracks = config.get("tracks") or {}
+    track_velocities = config.get("trackVelocities") or {}
     gm = dict(DEFAULT_GM_PITCHES)
     gm.update(config.get("gmPitches") or {})
 
@@ -84,12 +85,16 @@ def build_drum_guide_midi(config: dict[str, Any]) -> bytes:
         )
         for track_id, hit_slots in tracks.items():
             pitch = int(gm.get(track_id, 36))
-            for slot in hit_slots:
+            velocities = track_velocities.get(track_id) or []
+            for hit_index, slot in enumerate(hit_slots):
                 slot_index = int(slot)
                 if slot_index < 0 or slot_index >= len(bar_slots):
                     continue
                 hit_time = bar_slots[slot_index]
-                events.append((hit_time, "note_on", pitch, 90))
+                velocity = 90
+                if hit_index < len(velocities):
+                    velocity = max(1, min(127, int(velocities[hit_index])))
+                events.append((hit_time, "note_on", pitch, velocity))
                 events.append((hit_time + 0.05, "note_off", pitch, 0))
 
     events.sort(key=lambda item: item[0])

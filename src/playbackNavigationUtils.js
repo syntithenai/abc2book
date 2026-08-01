@@ -1,4 +1,4 @@
-import { isQueueActive, getCurrentTuneId, getCurrentItem, isExternalQueueItem, isLessonExternalMedia } from './nowPlayingQueue'
+import { isQueueActive, getCurrentTuneId, getCurrentItem, isExternalQueueItem, isLessonExternalMedia, isRepeatTrack } from './nowPlayingQueue'
 import { isPlaybackInterruptPath } from './toolPlaybackInterrupt'
 import { isStandaloneExternalPlaybackEngaged } from './standaloneMediaPlayback'
 
@@ -49,7 +49,9 @@ function isViewingDifferentFromQueue(viewedTuneId, queue) {
 
 /** Only an active now-playing queue with auto-advance should continue past track end. */
 export function shouldAdvancePlaybackOnEnd(queue, canUpdateQueue) {
-  return isQueueActive(queue) && queue.autoAdvance !== false && !!canUpdateQueue
+  if (!isQueueActive(queue) || !canUpdateQueue) return false
+  if (isRepeatTrack(queue)) return true
+  return queue.autoAdvance !== false
 }
 
 /** Tune index routes (not a single-tune page). */

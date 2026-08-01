@@ -7,6 +7,7 @@ import {
   timingPlanHasBlockingWarnings,
   timingPlanNeedsAcknowledgement,
 } from '../timingSongPlanExtractor';
+import { drumGuideOptionsFromTune } from '../practiceTrackDrumGuide';
 import { renderAbcToAudioBuffer } from '../notationAudioExport';
 import { encodeAudioBufferToWav } from '../encodeAudioBufferToWav';
 import {
@@ -285,7 +286,7 @@ export default function AudioGenerationWizard(props) {
         }
 
         const stylePreset = getStylePreset(renderStyle);
-        const payload = buildPracticeTrackRequestPayload(activePlan, {
+        const payload = buildPracticeTrackRequestPayload(activePlan, drumGuideOptionsFromTune(tune, activePlan, {
           backingPrompt: renderStyle === 'custom' ? backingPrompt : undefined,
           renderStyle: renderStyle,
           melodySource: melodySource,
@@ -293,7 +294,7 @@ export default function AudioGenerationWizard(props) {
           includeDrumGuide: includeDrumGuide && stylePreset.includeDrumGuideDefault,
           acknowledgeBarEstimate: activePlan.timing.source !== 'bar-estimate',
           presetId: presetId,
-        });
+        }));
         const started = await startPracticeTrackGeneration(payload, melody, {
           token: token,
           presetId: presetId,

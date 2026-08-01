@@ -7,6 +7,7 @@ import {
   computeCountInSchedule,
   computeDownbeatAudioTime,
   computeMusicStartAudioTime,
+  musicStartSlotForPickup,
   reanchorTimelineAtSlot,
   scheduleTimelineSlots,
   createTimelineScheduleState,
@@ -25,6 +26,7 @@ describe('rhythmTimeline', function() {
   const rhythm44 = rhythmFromPreset('4-4')
   const rhythm34 = rhythmFromPreset('3-4')
   const rhythm68 = rhythmFromPreset('6-8')
+  const rhythm98 = rhythmFromPreset('9-8')
   const rhythm78 = rhythmFromPreset('7-8')
 
   test('4/4 quarter slots are evenly spaced at 120 BPM', function() {
@@ -57,6 +59,28 @@ describe('rhythmTimeline', function() {
     const eighth = 60 / 120 / 3
     expectSteadySpacing(timeline, 0, 36, eighth)
     expect(timeline.barDur).toBeCloseTo(eighth * 6)
+  })
+
+  test('9/8 pulse count-in uses nine eighth slots for three beats', function() {
+    const timeline = createRhythmTimeline({
+      rhythm: rhythm98,
+      tempo: 120,
+      downbeatAudioTime: 10,
+    })
+    const eighth = 60 / 120 / 3
+    const firstClick = 10 - eighth * 9
+    const schedule = computeCountInSchedule(timeline, {
+      slotCount: 9,
+      pickupBeats: 0,
+      firstClickAudioTime: firstClick,
+      usePulseSlots: true,
+    })
+    expect(schedule.clicks.map(function(c) { return c.globalSlot })).toEqual([
+      -9, -8, -7, -6, -5, -4, -3, -2, -1,
+    ])
+    expect(schedule.clicks.length).toBe(9)
+    expect(schedule.musicStartAudioTime).toBeCloseTo(10)
+    expect(schedule.clicks[1].audioTime - schedule.clicks[0].audioTime).toBeCloseTo(eighth, 4)
   })
 
   test('7/8 compound spacing', function() {
@@ -125,6 +149,25 @@ describe('rhythmTimeline', function() {
     expect(schedule.clicks[0].audioTime).toBeCloseTo(8)
   })
 
+  test('during-playback count-in ends on downbeat without extra beat gap', function() {
+    const timeline = createRhythmTimeline({
+      rhythm: rhythm44,
+      tempo: 120,
+      downbeatAudioTime: 10,
+    })
+    const schedule = computeCountInSchedule(timeline, {
+      slotCount: 4,
+      pickupBeats: 0,
+      firstClickAudioTime: 8,
+      endOnDownbeat: true,
+    })
+    expect(schedule.clicks.map(function(c) { return c.globalSlot })).toEqual([-3, -2, -1, 0])
+    expect(schedule.clicks.length).toBe(4)
+    expect(schedule.musicStartAudioTime).toBeCloseTo(schedule.clicks[3].audioTime)
+    expect(schedule.musicStartAudioTime).toBeCloseTo(9.5)
+    expect(schedule.endOnDownbeat).toBe(true)
+  })
+
   test('3/4 one-beat pickup count-in uses two clicks then anacrusis', function() {
     const timeline = createRhythmTimeline({
       rhythm: rhythm34,
@@ -150,6 +193,57 @@ describe('rhythmTimeline', function() {
     expect(schedule.downbeatAudioTime).toBeCloseTo(100)
     expect(schedule.clicks[0].slotInBar).toBe(0)
     expect(schedule.clicks[1].slotInBar).toBe(1)
+  })
+
+  test('2/4 half-beat pickup anchors slot 0 at downbeat', function() {
+    const rhythm24 = rhythmFromPreset('2-4')
+    const beat = 0.6
+    const pickupBeats = 0.5
+    expect(musicStartSlotForPickup(pickupBeats, rhythm24)).toBe(0)
+    const timeline = createRhythmTimeline({
+      rhythm: rhythm24,
+      tempo: 100,
+      downbeatAudioTime: 100,
+    })
+    const schedule = computeCountInSchedule(timeline, {
+      slotCount: 3,
+      pickupBeats: pickupBeats,
+      firstClickAudioTime: 100 - 3 * beat,
+    })
+    expect(schedule.musicStartSlot).toBe(0)
+    expect(schedule.musicStartAudioTime).toBeCloseTo(100 - pickupBeats * beat)
+    expect(schedule.downbeatAudioTime).toBeCloseTo(100)
+    expect(schedule.clicks.length).toBe(3)
+    expect(schedule.clicks[0].globalSlot).toBe(-3)
+    expect(schedule.clicks[1].globalSlot).toBe(-2)
+    expect(schedule.clicks[2].globalSlot).toBe(-1)
+    expect(schedule.clicks[0].slotInBar).toBe(0)
+    expect(schedule.clicks[1].slotInBar).toBe(1)
+    expect(schedule.clicks[2].slotInBar).toBe(0)
+    expect(schedule.musicStartAudioTime - schedule.clicks[2].audioTime)
+      .toBeCloseTo((1 - pickupBeats) * beat, 6)
+    const runtimeSchedule = computeCountInSchedule(timeline, {
+      slotCount: 3,
+      pickupBeats: pickupBeats,
+      firstClickAudioTime: 0.5193333333333333,
+      endOnDownbeat: false,
+      usePulseSlots: false,
+    })
+    expect(runtimeSchedule.musicStartAudioTime - runtimeSchedule.clicks[2].audioTime)
+      .toBeCloseTo((1 - pickupBeats) * beat, 6)
+    const doubledDelay = computeCountInSchedule(timeline, {
+      slotCount: 3,
+      pickupBeats: pickupBeats,
+      pickupDelaySec: (1 - pickupBeats) * beat,
+      firstClickAudioTime: 100 - 3 * beat,
+      endOnDownbeat: false,
+      usePulseSlots: false,
+    })
+    expect(doubledDelay.musicStartAudioTime - doubledDelay.clicks[2].audioTime)
+      .toBeCloseTo((1 - pickupBeats) * beat, 6)
+    reanchorTimelineAtSlot(timeline, 0, schedule.downbeatAudioTime)
+    expect(audioTimeForGlobalSlot(timeline, 0)).toBeCloseTo(100)
+    expect(audioTimeForGlobalSlot(timeline, 1)).toBeCloseTo(100 + beat)
   })
 
   test('12/8 one-eighth pickup maps to pulse slot -1 (not 0)', function() {

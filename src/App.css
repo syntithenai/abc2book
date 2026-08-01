@@ -3554,6 +3554,16 @@ button.btn-primary {
   flex-shrink: 0;
   display: block;
 }
+.playlist-modal-toolbar .playlist-mode-buttons .playlist-repeat-icon {
+  flex-shrink: 0;
+  display: block;
+}
+.playlist-repeat-icon--active {
+  opacity: 1;
+}
+.playlist-repeat-icon-one {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
 .playlist-modal-toolbar .playlist-action-btn {
   display: inline-flex;
   align-items: center;
@@ -3565,6 +3575,10 @@ button.btn-primary {
   width: 1.125rem;
   height: 1.125rem;
   flex-shrink: 0;
+}
+.now-playing-queue-item-composer {
+  font-weight: 400;
+  opacity: 0.8;
 }
 .playlist .btn-group > .btn:not(:first-child) {
   border-top-left-radius: 0;
@@ -11881,11 +11895,146 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   overflow: visible;
 }
 
-.scratchpad-notation-replace-preview svg,
-.scratchpad-notation-bar-picker svg {
-  max-width: 100%;
-  height: auto;
-  display: block;
+.scratchpad-composition-editor {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--chrome-header-offset, 4rem));
+}
+
+.scratchpad-composition-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 28%) minmax(280px, 1fr) minmax(200px, 24%);
+  gap: 0.75rem;
+  padding: 0.75rem;
+  padding-top: calc(var(--scratchpad-editor-chrome-height, 3.1rem) + 0.75rem);
+  align-items: start;
+}
+
+.scratchpad-composition-sidebar,
+.scratchpad-composition-main,
+.scratchpad-composition-issues {
+  min-height: 0;
+}
+
+.scratchpad-composition-source-list {
+  max-height: 42vh;
+  overflow: auto;
+}
+
+.scratchpad-composition-source-section {
+  margin-top: 0.5rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid #eee;
+}
+
+.scratchpad-composition-source-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.35rem;
+}
+
+.scratchpad-composition-chunk-list {
+  max-height: 24vh;
+  overflow: auto;
+}
+
+.scratchpad-composition-chunk-item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.scratchpad-composition-chunk-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.scratchpad-composition-chunk-reorder {
+  display: flex;
+  gap: 0.15rem;
+}
+
+.scratchpad-composition-chunk-reorder .btn {
+  min-width: 1.75rem;
+  padding: 0.1rem 0.35rem;
+  line-height: 1.2;
+}
+
+.scratchpad-composition-alignment-help {
+  margin-bottom: 0.75rem;
+}
+
+.scratchpad-composition-pairing-row {
+  border: 1px solid #dee2e6;
+  border-radius: 0.35rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.scratchpad-composition-pairing-row--split .scratchpad-composition-pairing-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.scratchpad-composition-pairing-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.scratchpad-composition-pairing-col-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6c757d;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.scratchpad-composition-pairing-preview {
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  background: #fafafa;
+  overflow: auto;
+  max-height: 200px;
+}
+
+.scratchpad-composition-chord-fallback {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.8rem;
+  background: #f8f9fa;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.scratchpad-composition-pairing-textarea {
+  font-size: 0.9rem;
+}
+
+.scratchpad-composition-bar-list {
+  font-size: 0.85rem;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+@media (max-width: 992px) {
+  .scratchpad-composition-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .scratchpad-composition-pairing-columns {
+    grid-template-columns: 1fr;
+  }
 }
 
 .scratchpad-associate-modal--notation .modal-content {

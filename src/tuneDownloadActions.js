@@ -2,10 +2,10 @@ import { lyricLinesToText } from './wLinesUtils'
 import { abcToMusicXml } from './scoreImportClient'
 import { isMediaProxyConfigured } from './mediaProxyClient'
 import { countCacheableLinks, resolveActiveLinkForTune } from './mediaLinkResolve'
+import { getMediaPlaybackSettings } from './pitchTempoUtils'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { getResolverFeaturesFromStatus } from './resolverFeatures'
 import { isStemsCapabilityAvailable, loadProviderSettings } from './providerSettings'
-import * as mediaCacheQueue from './mediaCacheQueue'
 import { exportTuneToChordPro, exportTuneToOnSong, tuneHasChordSheetContent } from './chordProFormatUtils'
 import { getAudioCompressFormat, getAudioCompressExtension } from './audioCompressSettings'
 import { encodeAudioBuffer } from './audioCompressEncode'
@@ -240,6 +240,32 @@ async function downloadNotationAudioForTune(tune, tunebook, audioFormat) {
   )
 }
 
+async function downloadLinkedAudioForTune(tune, tunebook, token, formatId) {
+  const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null
+  const resolved = resolveActiveLinkForTune(tune, null, isYoutubeLink)
+  if (!resolved) {
+    throw new Error('No linked media found for "' + (tune && tune.name ? tune.name : 'tune') + '"')
+  }
+  const audioFormat = linkedAudioDownloadFormat(formatId)
+  const extension = getAudioCompressExtension(audioFormat)
+  const safeName = sanitizeDownloadFilename(tune && tune.name, 'tune')
+  const filename = safeName + '-link-' + (parseInt(resolved.linkIndex, 10) + 1) + '.' + extension
+  const health = getMediaResolverHealthState()
+  const { downloadTuneMediaExport } = await import('./mediaExportUtils')
+  await downloadTuneMediaExport({
+    tune: tune,
+    linkIndex: resolved.linkIndex,
+    srcType: resolved.srcType,
+    filename: filename,
+    audioFormat: audioFormat,
+    youtubeGetId: tunebook.utils.YouTubeGetID,
+    accessToken: token && token.access_token ? token.access_token : null,
+    demucsModel: health.status && health.status.demucsModel ? health.status.demucsModel : 'htdemucs',
+    settings: getMediaPlaybackSettings(tune),
+    trim: true,
+  })
+}
+
 export async function executeTuneDownload(formatId, options) {
   var tunes = Array.isArray(options.tunes) ? options.tunes.filter(Boolean) : []
   var tunebook = options.tunebook
@@ -302,26 +328,21 @@ export async function executeTuneDownload(formatId, options) {
     case 'linked-audio':
     case 'linked-audio-mp3':
     case 'linked-audio-wav': {
-      const audioFormat = linkedAudioDownloadFormat(formatId)
       const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null
-      const queueTunebook = {
-        utils: tunebook.utils,
-        accessToken: token && token.access_token ? token.access_token : null,
-      }
       const linkedTunes = tunes.filter(function(tune) {
         return resolveActiveLinkForTune(tune, null, isYoutubeLink)
       })
       const notationTunes = tunes.filter(function(tune) {
         return !resolveActiveLinkForTune(tune, null, isYoutubeLink) && tuneHasNotationAudio(tune, tunebook)
       })
-      const ids = mediaCacheQueue.enqueueTunesDownloadJobs(linkedTunes, queueTunebook, null, audioFormat)
-      if (!ids.length && !notationTunes.length) {
+      if (!linkedTunes.length && !notationTunes.length) {
         throw new Error('No linked media or notation audio was found on the selected tune(s).')
       }
-      if (ids.length) {
-        mediaCacheQueue.start()
-        if (options.onOpenQueue) {
-          options.onOpenQueue()
+      const audioFormat = linkedAudioDownloadFormat(formatId)
+      for (var linkedIndex = 0; linkedIndex < linkedTunes.length; linkedIndex++) {
+        await downloadLinkedAudioForTune(linkedTunes[linkedIndex], tunebook, token, formatId)
+        if (linkedIndex < linkedTunes.length - 1) {
+          await pauseBetweenDownloads(500)
         }
       }
       for (var notationIndex = 0; notationIndex < notationTunes.length; notationIndex++) {

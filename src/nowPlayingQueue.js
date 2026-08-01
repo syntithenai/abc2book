@@ -8,6 +8,48 @@ import { externalMediaFromCandidate } from './mediaSearchExternalMedia'
 
 const ACTIVE_QUEUE_STORAGE_KEY = 'bookstorage_now_playing_queue'
 
+export const REPEAT_MODES = ['off', 'playlist', 'track']
+
+export function getRepeatMode(queue) {
+  if (!queue) return 'off'
+  if (queue.repeatMode && REPEAT_MODES.indexOf(queue.repeatMode) !== -1) {
+    return queue.repeatMode
+  }
+  if (queue.repeatTrack) return 'track'
+  if (queue.loop) return 'playlist'
+  return 'off'
+}
+
+export function isRepeatPlaylist(queue) {
+  return getRepeatMode(queue) === 'playlist'
+}
+
+export function isRepeatTrack(queue) {
+  return getRepeatMode(queue) === 'track'
+}
+
+function queueWithRepeatMode(queue, repeatMode) {
+  const mode = REPEAT_MODES.indexOf(repeatMode) !== -1 ? repeatMode : 'off'
+  return Object.assign({}, queue, {
+    repeatMode: mode,
+    loop: mode === 'playlist',
+    repeatTrack: mode === 'track',
+  })
+}
+
+export function setRepeatMode(queue, repeatMode) {
+  if (!queue) return null
+  return queueWithRepeatMode(queue, repeatMode)
+}
+
+export function cycleRepeatMode(queue) {
+  if (!queue) return null
+  const current = getRepeatMode(queue)
+  const index = REPEAT_MODES.indexOf(current)
+  const next = REPEAT_MODES[(index + 1) % REPEAT_MODES.length]
+  return setRepeatMode(queue, next)
+}
+
 export function createQueueId() {
   return 'queue-' + Date.now() + '-' + Math.random().toString(36).slice(2, 9)
 }
@@ -84,7 +126,9 @@ export function createQueue(options) {
   const items = tuneIds.map(function(tuneId) {
     return { tuneId: tuneId, prefer: 'auto' }
   })
-  return {
+  const repeatMode = opts.repeatMode
+    || (opts.repeatTrack ? 'track' : (opts.loop ? 'playlist' : 'off'))
+  const queue = {
     id: opts.id || createQueueId(),
     name: opts.name || 'Playlist',
     source: opts.source || 'manual',
@@ -92,12 +136,12 @@ export function createQueue(options) {
     currentIndex: typeof opts.currentIndex === 'number' ? opts.currentIndex : 0,
     followTune: opts.followTune !== undefined ? !!opts.followTune : true,
     autoAdvance: opts.autoAdvance !== false,
-    loop: !!opts.loop,
     shuffle: !!opts.shuffle,
     shuffleOrder: null,
     suspendSnapshot: null,
     previewOnce: null,
   }
+  return queueWithRepeatMode(queue, repeatMode)
 }
 
 export function buildShuffleOrder(length, startIndex) {
@@ -152,7 +196,7 @@ function advanceQueueShuffled(queue, direction) {
         atEdge: false,
       }
     }
-    if (active.loop) {
+    if (isRepeatPlaylist(active)) {
       const newOrder = buildShuffleOrder(active.items.length, order[pos])
       return {
         queue: Object.assign({}, active, {
@@ -171,7 +215,7 @@ function advanceQueueShuffled(queue, direction) {
       atEdge: false,
     }
   }
-  if (active.loop) {
+  if (isRepeatPlaylist(active)) {
     return {
       queue: Object.assign({}, active, { currentIndex: order[order.length - 1] }),
       atEdge: false,
@@ -231,7 +275,7 @@ export function advanceQueue(queue, direction) {
     return { queue: Object.assign({}, queue, { currentIndex: 0 }), atEdge: true, edge: 'start' }
   }
   if (nextIndex >= queue.items.length) {
-    if (queue.loop) {
+    if (isRepeatPlaylist(queue)) {
       return { queue: Object.assign({}, queue, { currentIndex: 0 }), atEdge: false }
     }
     return { queue: queue, atEdge: true, edge: 'end' }
@@ -266,7 +310,7 @@ export function setAutoAdvance(queue, autoAdvance) {
 
 export function setLoop(queue, loop) {
   if (!queue) return null
-  return Object.assign({}, queue, { loop: !!loop })
+  return setRepeatMode(queue, loop ? 'playlist' : 'off')
 }
 
 export function setShuffle(queue, shuffle) {
@@ -600,7 +644,7 @@ export function getQueueTunes(queue, tunesMap) {
 export function getNextQueueItem(queue) {
   if (!isQueueActive(queue)) return null
   const result = advanceQueue(queue, 1)
-  if (result.atEdge && result.edge === 'end' && !queue.loop) return null
+  if (result.atEdge && result.edge === 'end' && !isRepeatPlaylist(queue)) return null
   const nextQueue = result.queue
   return getCurrentItem(nextQueue)
 }

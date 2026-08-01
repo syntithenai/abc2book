@@ -11,6 +11,7 @@ function typeLabel(type) {
   if (type === 'image') return 'Image'
   if (type === 'notation') return 'Notation'
   if (type === 'audio') return 'Audio'
+  if (type === 'composition') return 'Composition'
   return type
 }
 
@@ -134,6 +135,26 @@ export default function ScratchpadItemCard(props) {
       }
       return (
         <div className="scratchpad-card-preview-notation">
+          <NotationPreview
+            abc={abc}
+            fitWidth={true}
+            wrapToWidth={true}
+            maxHeight={null}
+            className="scratchpad-card-notation-preview"
+          />
+        </div>
+      )
+    }
+    if (item.type === 'composition') {
+      const tune = item.composition && item.composition.tuneSnapshot
+      const abc = buildAbcFromTune(tune)
+      const summary = item.previewText || ''
+      if (!abc) {
+        return <div className="scratchpad-card-preview-placeholder">{summary || 'Composition'}</div>
+      }
+      return (
+        <div className="scratchpad-card-preview-notation">
+          {summary ? <div className="scratchpad-card-composition-summary small text-muted">{summary}</div> : null}
           <NotationPreview
             abc={abc}
             fitWidth={true}

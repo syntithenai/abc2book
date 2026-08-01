@@ -22,6 +22,7 @@ import { primeDrumKit } from '../drumSampleKit'
 import {
   applyRhythmPreset,
   defaultDrumPresetIdForRhythm,
+  getCompatibleDrumPresets,
   getRhythmPresetById,
   presetMatchesRhythm,
 } from '../drumPatternPresets'
@@ -252,12 +253,15 @@ export default function MetronomePanel(props) {
   const [accentVolume, setAccentVolume] = useState(initialVolumes.accentVolume)
   const [drumVolume, setDrumVolume] = useState(initialVolumes.drumVolume)
   const isDrumMode = rhythm.engineMode === ENGINE_MODE_DRUMS
+  const [panelAudioContext, setPanelAudioContext] = useState(null)
 
   const metronomeRef = useRef(null)
   const audioContextRef = useRef(null)
   const rhythmRef = useRef(rhythm)
   const tapTimesRef = useRef([])
   const quickRhythmRef = useRef(null)
+  const recordingTransportRef = useRef(null)
+  const startedForRecordingRef = useRef(false)
 
   rhythmRef.current = rhythm
 
@@ -366,6 +370,13 @@ export default function MetronomePanel(props) {
     return applyRhythmPreset(defaultDrumPresetIdForRhythm(nextRhythm))
   }
 
+  function isCoarseQuarterGrid(rhythmConfig) {
+    const pulses = rhythmConfig && Array.isArray(rhythmConfig.pulsesPerBeat)
+      ? rhythmConfig.pulsesPerBeat
+      : []
+    return pulses.length > 0 && pulses.every(function(pulse) { return pulse === 1 })
+  }
+
   function handleEngineModeChange(mode) {
     if (disabled) return
     const stores = props.rhythmStores
@@ -376,6 +387,11 @@ export default function MetronomePanel(props) {
           engineMode: ENGINE_MODE_DRUMS,
         }))
       } else {
+        next = applyRhythmPreset(defaultDrumPresetIdForRhythm(rhythm))
+      }
+      if (getCompatibleDrumPresets(next).length === 0) {
+        next = applyRhythmPreset(defaultDrumPresetIdForRhythm(next))
+      } else if (!(stores && stores.drumRhythm) && isCoarseQuarterGrid(rhythm)) {
         next = applyRhythmPreset(defaultDrumPresetIdForRhythm(rhythm))
       }
     } else if (stores && stores.clickRhythm) {
@@ -402,6 +418,7 @@ export default function MetronomePanel(props) {
   function ensureMetronome() {
     if (!audioContextRef.current) {
       audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)()
+      setPanelAudioContext(audioContextRef.current)
     }
     if (!metronomeRef.current) {
       metronomeRef.current = new Metronome(
@@ -437,10 +454,54 @@ export default function MetronomePanel(props) {
 
   function stopMetronome() {
     if (metronomeRef.current) {
+      metronomeRef.current.setLoopMode(false)
+      metronomeRef.current.onBarDownbeat = null
       metronomeRef.current.stop()
     }
     setIsRunning(false)
     setActiveSlot(-1)
+    startedForRecordingRef.current = false
+  }
+
+  function handleRecordingStart(transport) {
+    const metro = ensureMetronome()
+    recordingTransportRef.current = transport
+    if (!metro.isRunning) {
+      startedForRecordingRef.current = true
+      const startPlayback = function() {
+        metro.setLoopMode(true)
+        metro.onBarDownbeat = function(time) {
+          if (recordingTransportRef.current && recordingTransportRef.current.onBarDownbeat) {
+            recordingTransportRef.current.onBarDownbeat(time)
+          }
+        }
+        metro.start()
+        setIsRunning(true)
+      }
+      if (rhythm.engineMode === ENGINE_MODE_DRUMS) {
+        primeDrumKit(audioContextRef.current).then(startPlayback).catch(startPlayback)
+      } else {
+        startPlayback()
+      }
+    } else {
+      metro.setLoopMode(true)
+      metro.onBarDownbeat = function(time) {
+        if (recordingTransportRef.current && recordingTransportRef.current.onBarDownbeat) {
+          recordingTransportRef.current.onBarDownbeat(time)
+        }
+      }
+    }
+  }
+
+  function handleRecordingStop() {
+    if (metronomeRef.current) {
+      metronomeRef.current.setLoopMode(false)
+      metronomeRef.current.onBarDownbeat = null
+    }
+    recordingTransportRef.current = null
+    if (startedForRecordingRef.current) {
+      stopMetronome()
+    }
   }
 
   useEffect(function() {
@@ -689,6 +750,11 @@ export default function MetronomePanel(props) {
           disabled={disabled}
           compact={settingsOnly && !embedPreview}
           activeSlot={activeSlot}
+          tempo={tempo}
+          audioContext={panelAudioContext}
+          recordingEnabled={!settingsOnly || embedPreview}
+          onRecordingStart={handleRecordingStart}
+          onRecordingStop={handleRecordingStop}
           onEngineModeChange={handleEngineModeChange}
           onRhythmChange={handleDrumRhythmChange}
         />

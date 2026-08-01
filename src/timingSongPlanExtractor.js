@@ -320,7 +320,12 @@ export function buildPracticeTrackRequestPayload(plan, overrides) {
   const drumGuide = o.drumGuide != null
     ? o.drumGuide
     : (includeDrumGuide
-      ? buildDrumGuideConfig(plan, { styleId: styleId, presetId: o.drumPresetId })
+      ? buildDrumGuideConfig(plan, {
+        styleId: styleId,
+        presetId: o.drumPresetId,
+        customPattern: o.customDrumPattern,
+        rhythm: o.drumRhythm || (plan.musical && plan.musical.rhythm),
+      })
       : null);
   const customPrompt = o.backingPrompt != null ? o.backingPrompt : plan.backingPrompt;
   const backingPrompt = styleId === 'custom'

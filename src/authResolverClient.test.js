@@ -5,6 +5,7 @@ import {
   pickNextAuthResolverBase,
   oauthBffCandidatesForLogin,
   resolveStickyAuthBase,
+  selectAuthModeForBase,
   AUTH_SESSION_ID_KEY,
   AUTH_BASE_KEY,
 } from './authResolverClient'
@@ -87,14 +88,23 @@ describe('authResolverClient', function() {
     expect(localStorage.getItem(AUTH_BASE_KEY)).toBe('http://local')
   })
 
-  test('resolveStickyAuthBase clears sticky session when sticky unreachable', function() {
+  test('resolveStickyAuthBase preserves sticky session when sticky temporarily unreachable', function() {
     localStorage.setItem(AUTH_BASE_KEY, 'http://sticky')
     localStorage.setItem(AUTH_SESSION_ID_KEY, 'sess')
     const result = resolveStickyAuthBase([
       { base: 'http://other', reachable: true, oauthBff: true },
     ], 'http://sticky')
-    expect(result).toBe('http://other')
-    expect(localStorage.getItem(AUTH_SESSION_ID_KEY)).toBeFalsy()
+    expect(result).toBe('http://sticky')
+    expect(localStorage.getItem(AUTH_SESSION_ID_KEY)).toBe('sess')
+    expect(localStorage.getItem(AUTH_BASE_KEY)).toBe('http://sticky')
+  })
+
+  test('selectAuthModeForBase uses oauth only when BFF session exists', function() {
+    expect(selectAuthModeForBase('http://resolver', {})).toBe('token')
+    localStorage.setItem(AUTH_SESSION_ID_KEY, 'sess')
+    expect(selectAuthModeForBase('http://resolver', {})).toBe('oauth')
+    expect(selectAuthModeForBase('', {})).toBe('token')
+    expect(selectAuthModeForBase('http://resolver', { mustUseOAuthBff: true })).toBe('oauth')
   })
 })
 

@@ -107,6 +107,12 @@ export function musicStartSlotForPickup(pickupBeats, rhythm) {
   const pulses = rhythm && Array.isArray(rhythm.pulsesPerBeat)
     ? rhythm.pulsesPerBeat
     : null
+  const compound = pulses && pulses.some(function(p) {
+    return (parseInt(p, 10) || 1) > 1
+  })
+  // Sub-beat pickup in simple meters: music starts before slot-0 downbeat.
+  // Anchor slot 0 at the downbeat, not a full beat early.
+  if (beats < 1 - 1e-6 && !compound) return 0
   if (!pulses || pulses.length === 0) {
     return -Math.max(1, Math.round(beats))
   }
@@ -129,6 +135,24 @@ export function musicStartSlotForPickup(pickupBeats, rhythm) {
   return slots > 0 ? -slots : 0
 }
 
+/** Count-in click placement for accent pattern; may differ from musicStartSlot. */
+function countInClickAnchorSlot(musicStartSlot, pickupBeats, rhythm) {
+  const beats = parseFloat(pickupBeats) || 0
+  if (musicStartSlot !== 0 || beats <= 0 || beats >= 1 - 1e-6) {
+    return musicStartSlot
+  }
+  const pulses = rhythm && Array.isArray(rhythm.pulsesPerBeat)
+    ? rhythm.pulsesPerBeat
+    : null
+  const compound = pulses && pulses.some(function(p) {
+    return (parseInt(p, 10) || 1) > 1
+  })
+  if (compound) return musicStartSlot
+  // Sub-beat pickup anchors music at slot 0 downbeat; count-in accents still
+  // align to beat boundaries one slot earlier (same as full-beat anacrusis).
+  return -1
+}
+
 export function beatStartSlotBeforeMusic(timeline, musicStartSlot, beatsBack) {
   const count = Math.max(0, Math.floor(parseFloat(beatsBack) || 0))
   if (count <= 0 || !timeline) return musicStartSlot
@@ -144,12 +168,32 @@ export function beatStartSlotBeforeMusic(timeline, musicStartSlot, beatsBack) {
   return slot - slotPulseIndex(rhythm, inBar)
 }
 
-export function countInBeatClickSlots(timeline, beatCount, musicStartSlot) {
+export function countInPulseClickSlots(timeline, slotCount, musicStartSlot) {
+  const count = Math.max(0, Math.floor(parseFloat(slotCount) || 0))
+  if (count <= 0 || !timeline) return []
+  const startSlot = musicStartSlot != null ? Math.floor(musicStartSlot) : 0
+  const slots = []
+  for (let back = count; back >= 1; back -= 1) {
+    slots.push(startSlot - back)
+  }
+  return slots
+}
+
+export function countInBeatClickSlots(timeline, beatCount, musicStartSlot, options) {
+  const opts = options || {}
   const beats = Math.max(0, Math.floor(parseFloat(beatCount) || 0))
   if (beats <= 0 || !timeline) return []
+  const startSlot = musicStartSlot != null ? Math.floor(musicStartSlot) : 0
+  if (opts.endOnDownbeat === true) {
+    const slots = []
+    for (let i = beats - 1; i >= 0; i -= 1) {
+      slots.push(startSlot - i)
+    }
+    return slots
+  }
   const slots = []
   for (let beatsBack = beats; beatsBack >= 1; beatsBack--) {
-    slots.push(beatStartSlotBeforeMusic(timeline, musicStartSlot, beatsBack))
+    slots.push(beatStartSlotBeforeMusic(timeline, startSlot, beatsBack))
   }
   return slots
 }
@@ -162,12 +206,22 @@ export function countInSlotRange(timeline, options) {
     : (opts.musicStartAudioTime != null
       ? globalSlotAtOrAfterAudioTime(timeline, parseFloat(opts.musicStartAudioTime))
       : musicStartSlotForPickup(opts.pickupBeats, timeline && timeline.rhythm))
-  const clickSlots = countInBeatClickSlots(timeline, beatCount, musicStartSlot)
+  const pickupBeats = parseFloat(opts.pickupBeats) || 0
+  const clickAnchorSlot = countInClickAnchorSlot(
+    musicStartSlot,
+    pickupBeats,
+    timeline && timeline.rhythm
+  )
+  const clickOpts = opts.endOnDownbeat === true ? { endOnDownbeat: true } : null
+  const clickSlots = opts.usePulseSlots === true
+    ? countInPulseClickSlots(timeline, beatCount, musicStartSlot)
+    : countInBeatClickSlots(timeline, beatCount, musicStartSlot, clickOpts)
   const firstSlot = clickSlots.length > 0
     ? clickSlots[0]
     : musicStartSlot - beatCount - 1
   return {
     musicStartSlot: musicStartSlot,
+    clickAccentSlotDelta: clickAnchorSlot - musicStartSlot,
     firstSlot: firstSlot,
     slots: clickSlots,
     gapSlot: musicStartSlot - 1,
@@ -187,30 +241,80 @@ export function computeCountInSchedule(timeline, options) {
     beatCount: beatCount,
     slotCount: beatCount,
     pickupBeats: pickupBeats,
+    endOnDownbeat: opts.endOnDownbeat === true,
+    usePulseSlots: opts.usePulseSlots === true,
   })
   const clickSlots = range.slots
+  const accentDelta = range.clickAccentSlotDelta || 0
+  const fractionalGapApplied = clickSlots.length > 0
+    && opts.usePulseSlots !== true
+    && range.musicStartSlot === 0
+    && pickupBeats > 0
+    && pickupBeats < 1 - 1e-6
   const clicks = []
   let t = firstClickAudioTime
   for (let i = 0; i < clickSlots.length; i++) {
     const globalSlot = clickSlots[i]
+    if (i > 0) {
+      if (opts.usePulseSlots === true) {
+        const prevSlot = clickSlots[i - 1]
+        const slotInBar = slotInBarForGlobal(prevSlot, timeline.totalSlots)
+        t += timeline.slotDurations[slotInBar] || timeline.secPerBeat
+      } else {
+        t += timeline.secPerBeat
+      }
+    }
     clicks.push({
       globalSlot: globalSlot,
       audioTime: t,
-      slotInBar: slotInBarForGlobal(globalSlot, timeline.totalSlots),
+      slotInBar: slotInBarForGlobal(globalSlot + accentDelta, timeline.totalSlots),
     })
-    t += timeline.secPerBeat
   }
-  // Beat-aligned clicks already end one beat before musicStartSlot, so the next
-  // beat boundary is the anacrusis/downbeat. Only add fractional pickup delay.
-  t += pickupDelaySec
-  const downbeatAudioTime = t + pickupBeats * timeline.secPerBeat
+  if (clicks.length > 0) {
+    const lastSlot = clickSlots[clickSlots.length - 1]
+    if (opts.usePulseSlots === true) {
+      const slotInBar = slotInBarForGlobal(lastSlot, timeline.totalSlots)
+      t += timeline.slotDurations[slotInBar] || timeline.secPerBeat
+    } else if (fractionalGapApplied) {
+      // Sub-beat anacrusis: last click is one beat before downbeat; music enters
+      // partway through that beat.
+      t += (1 - pickupBeats) * timeline.secPerBeat
+    } else {
+      t += timeline.secPerBeat
+    }
+  }
+  const endOnDownbeat = opts.endOnDownbeat === true
+  let musicStartAudioTime
+  let downbeatAudioTime
+  if (endOnDownbeat) {
+    musicStartAudioTime = clicks.length > 0
+      ? clicks[clicks.length - 1].audioTime
+      : firstClickAudioTime
+    musicStartAudioTime += pickupDelaySec
+    downbeatAudioTime = musicStartAudioTime + pickupBeats * timeline.secPerBeat
+  } else {
+    // Beat-aligned clicks already end one beat before musicStartSlot, so the next
+    // beat boundary is the anacrusis/downbeat. pickupDelaySec is only needed when
+    // the fractional gap above was not applied (e.g. full-beat anacrusis).
+    if (!fractionalGapApplied) {
+      t += pickupDelaySec
+    }
+    musicStartAudioTime = t
+    downbeatAudioTime = t + pickupBeats * timeline.secPerBeat
+  }
+  // #region agent log
+  if (typeof fetch === 'function' && pickupBeats > 0 && pickupBeats < 1) {
+    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'anacrusis-fix',location:'rhythmTimeline.js:computeCountInSchedule',message:'fractional count-in schedule',data:{pickupBeats:pickupBeats,pickupDelaySec:pickupDelaySec,musicStartSlot:range.musicStartSlot,fractionalGapApplied:fractionalGapApplied,gapLastToMusic:clicks.length>0?musicStartAudioTime-clicks[clicks.length-1].audioTime:null,musicStartAudioTime:musicStartAudioTime,downbeatAudioTime:downbeatAudioTime},timestamp:Date.now(),hypothesisId:'A1'})}).catch(function(){});
+  }
+  // #endregion
   return {
     clicks: clicks,
-    musicStartAudioTime: t,
+    musicStartAudioTime: musicStartAudioTime,
     musicStartSlot: range.musicStartSlot,
     downbeatAudioTime: downbeatAudioTime,
     gapSlot: range.gapSlot,
     range: range,
+    endOnDownbeat: endOnDownbeat,
   }
 }
 
@@ -314,9 +418,13 @@ export function scheduleTimelineSlots(timeline, state, options) {
       const slotDur = timeline.slotDurations[slotInBar] || 0
       if (audioTime < audioContextTime - tolerance) {
         if (slotDur > 0 && audioContextTime - audioTime < slotDur * 0.85) {
-          const when = Math.max(audioContextTime + MIN_SCHEDULE_LEAD_SEC, audioTime)
-          playSlot(when, slotInBar, globalSlot)
-          scheduled += 1
+          const suppressCatchup = opts.suppressCatchupAtMinSlot === true
+              && globalSlot === minGlobalSlot
+          if (!suppressCatchup) {
+            const when = Math.max(audioContextTime + MIN_SCHEDULE_LEAD_SEC, audioTime)
+            playSlot(when, slotInBar, globalSlot)
+            scheduled += 1
+          }
         }
         state.scheduledKeys.add(key)
       } else {

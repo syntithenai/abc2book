@@ -16,6 +16,7 @@ export function isPlaybackDebugEnabled() {
 }
 
 export function agentDebugLog(location, message, data, hypothesisId) {
+  if (!isPlaybackDebugEnabled()) return
   const payload = {
     sessionId: AGENT_DEBUG_SESSION,
     location: location,
@@ -25,7 +26,6 @@ export function agentDebugLog(location, message, data, hypothesisId) {
     timestamp: Date.now(),
     runId: 'midi-debug',
   }
-  // #region agent log
   if (typeof console !== 'undefined' && console.log) {
     console.log('[DBG-' + AGENT_DEBUG_SESSION + ']', location, message, payload.data)
   }
@@ -37,7 +37,6 @@ export function agentDebugLog(location, message, data, hypothesisId) {
     },
     body: JSON.stringify(payload),
   }).catch(function() {})
-  // #endregion
 }
 
 export function logPlaybackDebug(route, detail) {

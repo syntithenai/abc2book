@@ -8,6 +8,7 @@ import {
   pickAuthResolverBaseForLogin,
   readStoredAuthBase,
   readStoredAuthSessionId,
+  selectAuthModeForBase,
 } from './authResolverClient'
 import {
   isMediaProxyConfigured,
@@ -43,17 +44,6 @@ import {
 
 var gsiInitialized = false
 var gsiRenderedButtonIds = {}
-var lastAuthResumeAt = 0
-var AUTH_RESUME_DEDUPE_MS = 5000
-
-function shouldSkipAuthResume() {
-  var now = Date.now()
-  if (lastAuthResumeAt && now - lastAuthResumeAt < AUTH_RESUME_DEDUPE_MS) {
-    return true
-  }
-  lastAuthResumeAt = now
-  return false
-}
 
 export { tryRefreshAccessToken } from './googleLoginRefreshRegistry'
 
@@ -82,6 +72,20 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
   /** Native builds must use OAuth BFF — on-device code exchange needs a client_secret. */
   function mustUseOAuthBffLogin() {
     return isCapacitorNative() && isMediaProxyConfigured()
+  }
+
+  /** OAuth BFF mode requires a stored session; otherwise stay on Token Client for silent GIS renew. */
+  function authModeForBase(base) {
+    return selectAuthModeForBase(base, { mustUseOAuthBff: mustUseOAuthBffLogin() })
+  }
+
+  function tryTokenClientSilentRefresh() {
+    if (isAndroidApp()) return
+    if (!localStorage.getItem('google_login_user')) return
+    var current = accessTokenRef.current
+    var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
+    if (current && current.access_token && expiresAt > Date.now() + 60000) return
+    ensureTokenController().refresh()
   }
 
   function ensureTokenController() {
@@ -187,7 +191,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
         if (mustUseOAuthBffLogin()) {
           return selectController('oauth', base)
         }
-        return selectController(base ? 'oauth' : 'token', base)
+        return selectController(authModeForBase(base), base)
       })
     }
     return modeReadyRef.current
@@ -440,7 +444,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
         if (mustUseOAuthBffLogin()) {
           selectController('oauth', base)
         } else {
-          selectController(base ? 'oauth' : 'token', base)
+          selectController(authModeForBase(base), base)
         }
       }
     })
@@ -456,8 +460,14 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
     }
 
     function finishModeAndResume() {
-      if (cancelled || shouldSkipAuthResume()) return Promise.resolve(null)
+      if (cancelled) return Promise.resolve(null)
       if (!localStorage.getItem('google_login_user')) return Promise.resolve(null)
+
+      function afterBffAttempt() {
+        if (!cancelled && !accessTokenRef.current) {
+          tryTokenClientSilentRefresh()
+        }
+      }
 
       // Stored BFF session: resume immediately without waiting for /health probe.
       var storedBase = readStoredAuthBase()
@@ -465,7 +475,10 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       if (storedBase && storedSession) {
         var storedController = selectController('oauth', storedBase)
         if (storedController.resumeSession) {
-          return storedController.resumeSession()
+          return storedController.resumeSession().then(function(result) {
+            afterBffAttempt()
+            return result
+          })
         }
       }
 
@@ -474,17 +487,19 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
         { untilProbeSettled: mustUseOAuthBffLogin() }
       ).then(function(base) {
         if (cancelled) return null
-        var controller = mustUseOAuthBffLogin()
-          ? selectController('oauth', base)
-          : selectController(base ? 'oauth' : 'token', base)
-        if (base && controller.resumeSession) {
-          // Silent BFF resume only. Do not fall back to Token Client popup on
-          // mount when an OAuth resolver is available — user can click Login.
-          return controller.resumeSession()
+        var mode = mustUseOAuthBffLogin() ? 'oauth' : authModeForBase(base)
+        var controller = selectController(mode, base)
+        if (base && readStoredAuthSessionId() && controller.resumeSession) {
+          return controller.resumeSession().then(function(result) {
+            afterBffAttempt()
+            return result
+          })
         }
         // Pop-up renew only when no resolver offers OAuth BFF (not on Android).
         if (!base && !resolverOffersOauthBff() && !isAndroidApp()) {
           controller.refresh()
+        } else {
+          afterBffAttempt()
         }
         return null
       })
@@ -530,7 +545,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       // If no media proxy configured, skip probe wait and use Token Client immediately.
       if (!isMediaProxyConfigured()) {
         selectController('token', '')
-        if (!shouldSkipAuthResume() && localStorage.getItem('google_login_user')) {
+        if (!cancelled && localStorage.getItem('google_login_user')) {
           ensureTokenController().refresh()
         }
         return

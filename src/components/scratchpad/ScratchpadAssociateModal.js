@@ -16,6 +16,7 @@ import {
   mergeScratchpadLyricsIntoTune,
   mergeScratchpadBackgroundIntoTune,
   mergeScratchpadChordsIntoTune,
+  mergeScratchpadCompositionIntoTune,
   getNotationAssociateMergeMode,
   isNotationAssociateMode,
   isNotationBarPickerMode,
@@ -63,6 +64,7 @@ function successMessageForMode(associateMode, tuneName, notationOperation) {
   if (associateMode === 'chords') return 'Pasted chords and lyrics into ' + name
   if (associateMode === 'lyrics') return 'Merged lyrics into ' + name
   if (associateMode === 'background') return 'Copied background info into ' + name
+  if (associateMode === 'composition') return 'Associated composition with ' + name
   return 'Attached to ' + name
 }
 
@@ -76,6 +78,7 @@ function historyLabelForMode(associateMode, notationOperation) {
   if (associateMode === 'chords') return 'Paste chords and lyrics from scratchpad'
   if (associateMode === 'lyrics') return 'Merge scratchpad lyrics'
   if (associateMode === 'background') return 'Copy scratchpad background info'
+  if (associateMode === 'composition') return 'Associate scratchpad composition'
   return 'Associate scratchpad'
 }
 
@@ -211,6 +214,10 @@ export default function ScratchpadAssociateModal(props) {
       } else {
         setStep('lyrics')
       }
+      return
+    }
+    if (item.type === 'composition') {
+      setStep('confirm')
     }
   }
 
@@ -297,6 +304,10 @@ export default function ScratchpadAssociateModal(props) {
             { voiceMapping: voiceMapping, fromBar: fromBar, toBar: toBar }
           )
         }
+      } else if (item.type === 'composition') {
+        const compositionTune = item.composition && item.composition.tuneSnapshot
+        if (!compositionTune) throw new Error('Composition is empty')
+        tune = mergeScratchpadCompositionIntoTune(tune, compositionTune)
       } else if (item.type === 'text') {
         if (associateMode === 'background') {
           tune = mergeScratchpadBackgroundIntoTune(
@@ -435,8 +446,11 @@ export default function ScratchpadAssociateModal(props) {
 
         {step === 'confirm' ? (
           <p>
-            Attach <strong>{item.title}</strong> to <strong>{selectedTune && selectedTune.name}</strong> as{' '}
-            {item.type === 'image' ? 'a snapshot' : 'audio media'}?
+            Attach <strong>{item.title}</strong> to <strong>{selectedTune && selectedTune.name}</strong>
+            {item.type === 'image' ? ' as a snapshot' : ''}
+            {item.type === 'audio' ? ' as audio media' : ''}
+            {item.type === 'composition' ? ' (replace tune content with composition)' : ''}
+            ?
           </p>
         ) : null}
 

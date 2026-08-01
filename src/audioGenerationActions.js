@@ -4,6 +4,7 @@ import {
   refineTimingFromMelodyDuration,
   timingPlanHasBlockingWarnings,
 } from './timingSongPlanExtractor';
+import { drumGuideOptionsFromTune } from './practiceTrackDrumGuide';
 import { renderAbcToAudioBuffer } from './notationAudioExport';
 import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
 import {
@@ -223,14 +224,14 @@ export async function enqueuePracticeTrackJob(options) {
   });
   const melody = encodeAudioBufferToWav(buffer);
   const activePlan = refineTimingFromMelodyDuration(plan, buffer.duration);
-  const payload = buildPracticeTrackRequestPayload(activePlan, {
+  const payload = buildPracticeTrackRequestPayload(activePlan, drumGuideOptionsFromTune(tune, activePlan, {
     renderStyle: renderStyle,
     melodySource: 'notation_midi',
     includeChordLayer: false,
     includeDrumGuide: stylePreset.includeDrumGuideDefault,
     acknowledgeBarEstimate: true,
     presetId: presetId,
-  });
+  }));
   const started = await startPracticeTrackGeneration(payload, melody, {
     token: token,
     presetId: presetId,

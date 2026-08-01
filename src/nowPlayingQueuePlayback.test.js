@@ -424,6 +424,44 @@ describe('nowPlayingQueuePlayback', function() {
     expect(failReason).toBeNull()
   })
 
+  test('handleQueueAdvanceOnEnded replays current track in repeat-track mode', function() {
+    const tunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) { return !!(tune && tune.links && tune.links.length > 0) },
+    }
+    const tunes = {
+      a: { id: 'a', notes: 'CDEF', links: [{ link: 'https://example.com/a.mp3' }] },
+      b: { id: 'b', notes: 'GABc', links: [{ link: 'https://example.com/b.mp3' }] },
+    }
+    const queue = createQueue({
+      tuneIds: ['a', 'b'],
+      currentIndex: 0,
+      repeatMode: 'track',
+      autoAdvance: false,
+    })
+    const mediaController = {
+      setTune: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      applyPlaybackRoute: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      play: jest.fn(),
+      playFromUserGesture: jest.fn(),
+    }
+    let updatedQueue = null
+    const ok = handleQueueAdvanceOnEnded({
+      queue: queue,
+      setQueue: function(q) { updatedQueue = q },
+      tunes: tunes,
+      tunebook: tunebook,
+      mediaController: mediaController,
+      failCallback: jest.fn(),
+    })
+    expect(ok).toBe(true)
+    expect(updatedQueue.currentIndex).toBe(0)
+    expect(mediaController.setTune).toHaveBeenCalledWith(tunes.a)
+    expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
+  })
+
   test('handleQueueAdvanceOnEnded stops without arming intent when all tunes unplayable', async function() {
     const tunebook = {
       hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },

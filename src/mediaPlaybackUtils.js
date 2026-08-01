@@ -1,4 +1,6 @@
 import { resolveActiveLinkForTune } from './mediaLinkResolve'
+import { resolveLinkPlaybackSrcType } from './mediaLinkSrcType'
+import { linkUriString } from './tuneLinkUri'
 
 export function formatSecondsToMs(totalSeconds) {
   const seconds = Math.max(0, Math.floor(parseFloat(totalSeconds) || 0));
@@ -151,4 +153,56 @@ export function getFirstPlayableMediaLinkIndex(tune, preferredLinkIndex, isYoutu
   if (!tune || !Array.isArray(tune.links) || tune.links.length === 0) return null;
   const resolved = resolveActiveLinkForTune(tune, preferredLinkIndex, isYoutubeLink);
   return resolved ? resolved.linkIndex : null;
+}
+
+function linkAtIndex(tune, index) {
+  if (!tune || !Array.isArray(tune.links) || index < 0 || index >= tune.links.length) {
+    return null;
+  }
+  const link = tune.links[index];
+  if (!link || !linkUriString(link).trim()) return null;
+  return link;
+}
+
+/** First HTTP audio file link in tune.links order, or null. */
+export function getFirstAudioMediaLinkIndex(tune, isYoutubeLink) {
+  if (!tune || !Array.isArray(tune.links) || tune.links.length === 0) return null;
+  for (let i = 0; i < tune.links.length; i += 1) {
+    const link = linkAtIndex(tune, i);
+    if (!link) continue;
+    if (resolveLinkPlaybackSrcType(link, isYoutubeLink) === 'audio') {
+      return i;
+    }
+  }
+  return null;
+}
+
+/** Prefer first audio link; otherwise first playable media link. */
+export function getDefaultLoopMediaLinkIndex(tune, isYoutubeLink) {
+  const audioIndex = getFirstAudioMediaLinkIndex(tune, isYoutubeLink);
+  if (audioIndex !== null) return audioIndex;
+  return getFirstPlayableMediaLinkIndex(tune, null, isYoutubeLink);
+}
+
+export function tuneHasPlayableMediaLinks(tune, isYoutubeLink) {
+  return getDefaultLoopMediaLinkIndex(tune, isYoutubeLink) !== null;
+}
+
+export function resolveLoopEditorLinkIndex(tune, mediaController, isYoutubeLink) {
+  if (!tune || !mediaController) {
+    return getDefaultLoopMediaLinkIndex(tune, isYoutubeLink);
+  }
+  const onMediaRoute = mediaController.isMediaPlaybackRoute
+    && mediaController.isMediaPlaybackRoute();
+  const linkNum = mediaController.mediaLinkNumber;
+  if (onMediaRoute && linkNum !== null && linkNum !== undefined) {
+    return getActiveLinkIndex(tune, linkNum);
+  }
+  return getDefaultLoopMediaLinkIndex(tune, isYoutubeLink);
+}
+
+export function isMediaLoopTabEnabled(tune, mediaController, isYoutubeLink) {
+  if (!tuneHasPlayableMediaLinks(tune, isYoutubeLink)) return false;
+  if (!mediaController || !mediaController.isMidiPlaybackRoute) return true;
+  return !mediaController.isMidiPlaybackRoute();
 }

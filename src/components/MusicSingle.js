@@ -822,6 +822,7 @@ export default function MusicSingle(props) {
                           archiveBaseName={(tune.name ? tune.name.trim() : 'tune')}
                           token={props.token}
                           user={props.user}
+                          allowRestrictedFormats={true}
                           buttonVariant="success"
                           buttonClassName="music-actions-menu-btn music-actions-menu-btn--labeled"
                           labelClassName="music-actions-menu-btn-label"

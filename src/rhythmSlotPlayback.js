@@ -1,6 +1,11 @@
 import { playMetronomeTick, getDrumVolume } from './metronomeTickSounds'
 import { slotAccentLevel, slotBeatIndex } from './metronomeRhythmPresets'
-import { ENGINE_MODE_DRUMS, normalizeRhythmConfig } from './rhythmEngineTypes'
+import {
+  ENGINE_MODE_DRUMS,
+  normalizeRhythmConfig,
+  getDrumStepSample,
+  getDrumStepVelocity,
+} from './rhythmEngineTypes'
 import { playDrumHit } from './drumSampleKit'
 
 export function playRhythmSlot(audioContext, time, rhythm, slotIndex, destination) {
@@ -28,8 +33,9 @@ export function playDrumSlot(audioContext, time, rhythm, slotIndex, destination)
   tracks.forEach(function(track) {
     const steps = track.steps || []
     if (!steps[stepIndex]) return
-    const velocity = (parseFloat(track.velocity) || 0) * masterVolume
-    playDrumHit(audioContext, time, track.sample, velocity, 0, destination)
+    const sampleId = getDrumStepSample(track, stepIndex)
+    const velocity = getDrumStepVelocity(track, stepIndex) * masterVolume
+    playDrumHit(audioContext, time, sampleId, velocity, 0, destination)
   })
 }
 

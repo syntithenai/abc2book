@@ -125,6 +125,18 @@ export function clearAuthSessionStorage() {
 }
 
 /**
+ * Pick SPA auth mode from resolver probe: OAuth BFF only when a session exists
+ * (or native builds that require BFF). Otherwise Token Client for silent GIS renew.
+ */
+export function selectAuthModeForBase(base, options) {
+  var mustUseOAuthBff = !!(options && options.mustUseOAuthBff)
+  if (!base) return 'token'
+  if (mustUseOAuthBff) return 'oauth'
+  if (readStoredAuthSessionId()) return 'oauth'
+  return 'token'
+}
+
+/**
  * Resolve sticky auth base: keep previous sticky base if still offering oauthBff
  * and a BFF session exists to resume; otherwise pick first oauthBff by probe order.
  */
@@ -144,9 +156,9 @@ export function resolveStickyAuthBase(candidates, previousSticky) {
       storeAuthBase(sticky)
       return sticky
     }
-    // Sticky unreachable or no longer oauthBff — clear sticky session keys only.
-    storeAuthBase('')
-    storeAuthSessionId('')
+    // Sticky temporarily unreachable — keep session keys so resume can retry.
+    storeAuthBase(sticky)
+    return sticky
   } else if (sticky && !sessionId) {
     // Signed out: do not keep an old OAuth host; let probe priority pick local first.
     storeAuthBase('')

@@ -3,8 +3,8 @@
  * Used by useTuneBookMediaController and unit-tested without React or DOM.
  */
 
-import { slotBeatIndex, slotsPerBar, rhythmFromTimeSignature } from './metronomeRhythmPresets'
-import { defaultNoteLengthForMeter } from './barModel'
+import { slotBeatIndex, slotsPerBar, rhythmFromTimeSignature, slotsForBeatCount } from './metronomeRhythmPresets'
+import { defaultNoteLengthForMeter, isCompoundMeter, normalizeMeter } from './barModel'
 
 export const YT_STATE = {
   UNSTARTED: -1,
@@ -377,6 +377,21 @@ export function defaultAbcBeatLengthForMeter(meter) {
 }
 
 /**
+ * Minimum count-in bars for meters where a single bar is too short to establish tempo.
+ * 2/4 needs at least two bars so the listener hears a full back-and-forth pulse.
+ */
+export function minimumCountInBarsForMeter(meter) {
+  const normalized = normalizeMeter(meter)
+  if (normalized === '2/4') return 2
+  return 1
+}
+
+export function effectiveCountInBars(meter, countInBars) {
+  const bars = parseFloat(countInBars) > 0 ? parseFloat(countInBars) : 1
+  return Math.max(bars, minimumCountInBarsForMeter(meter))
+}
+
+/**
  * Map abcjs meter units onto the metronome rhythm beat grid. abcjs
  * getBeatsPerMeasure() follows the tune's L: unit (often 2 for 4/4 half-notes)
  * while the metronome rhythm preset counts quarter-note beats (4 for 4/4).
@@ -425,7 +440,7 @@ export function rhythmAlignedCountInInput(visualObj, rhythm, options) {
     tempoFactor: o.tempoFactor > 0 ? parseFloat(o.tempoFactor) : 1,
     countInBeats: o.countInBeats,
     countInBarOnly: !!o.countInBarOnly,
-    countInBars: o.countInBars,
+    countInBars: effectiveCountInBars(meter, o.countInBars),
   }
 }
 
@@ -515,6 +530,53 @@ export function computeCountInSlotCount(visualObj, rhythm, options) {
   return Math.floor(beats)
 }
 
+export function isCompoundMetronomeRhythm(rhythm) {
+  if (!rhythm || !Array.isArray(rhythm.pulsesPerBeat)) return false
+  return rhythm.pulsesPerBeat.some(function(pulses) {
+    return (parseInt(pulses, 10) || 1) > 1
+  })
+}
+
+/**
+ * Rhythm pulse beats for count-in (e.g. 3 dotted quarters in 9/8), never abcjs
+ * eighth-note units or subdivision slot counts.
+ */
+export function resolveCountInBeatCount(visualObj, rhythm, options, metro) {
+  const opts = options || {}
+  const m = metro || {}
+  const meter = opts.meter != null ? String(opts.meter).trim() : ''
+  const bars = effectiveCountInBars(meter, m.countInBars)
+  const rhythmConfig = rhythm || null
+  const compound = (meter && isCompoundMeter(meter)) || isCompoundMetronomeRhythm(rhythmConfig)
+
+  if (compound && rhythmConfig && rhythmConfig.beatsPerBar > 0) {
+    return Math.floor(rhythmConfig.beatsPerBar * bars)
+  }
+
+  const fromVisual = computeCountInSlotCount(visualObj, rhythm, options)
+  if (fromVisual > 0) return fromVisual
+
+  if (rhythmConfig && rhythmConfig.beatsPerBar > 0) {
+    return Math.floor(rhythmConfig.beatsPerBar * bars)
+  }
+  return 0
+}
+
+/**
+ * Count-in click slots on the rhythm grid (includes pulses in compound meters).
+ * E.g. 3 beats in 9/8 → 9 eighth-note slots, not 3 beat-boundary clicks.
+ */
+export function resolveCountInSlotCount(visualObj, rhythm, options, metro) {
+  const beatCount = resolveCountInBeatCount(visualObj, rhythm, options, metro)
+  if (!(beatCount > 0) || !rhythm) return 0
+  const meter = options && options.meter != null ? String(options.meter).trim() : ''
+  const compound = (meter && isCompoundMeter(meter)) || isCompoundMetronomeRhythm(rhythm)
+  if (compound) {
+    return slotsForBeatCount(rhythm, beatCount)
+  }
+  return beatCount
+}
+
 /**
  * Rhythm-grid BPM for count-in scheduling (matches slot spacing to bar duration).
  */
@@ -531,6 +593,20 @@ export function computeCountInGridTempo(visualObj, rhythm, options) {
     tempoFactor: input.tempoFactor,
     fallbackQpm: parseFloat(o.fallbackQpm) || 120,
   })
+}
+
+/**
+ * Measure duration for metronome rhythm-grid spacing. Prefer abcjs visual timing
+ * (audible score tempo) over fill-inferred render ms passed to CreateSynth.
+ */
+export function scoreMsPerMeasureForRhythmGrid(visualObj, options) {
+  const o = options || {}
+  if (visualObj && typeof visualObj.millisecondsPerMeasure === 'function') {
+    const ms = parseFloat(visualObj.millisecondsPerMeasure()) || 0
+    if (ms > 0) return ms
+  }
+  const fallback = parseFloat(o.fallbackMsPerMeasure) || 0
+  return fallback > 0 ? fallback : 0
 }
 
 export function computeRhythmGridTempo(input) {
@@ -600,6 +676,43 @@ export function notationBeatToAudioRatio(startBeat, visualObj, audioDurationSeco
   return Math.min(1, seconds / duration)
 }
 
+/**
+ * Buffer ratio at the notated downbeat when the render includes an anacrusis.
+ * Used for during-playback count-in: full-bar clicks, then enter on bar 1 beat 1.
+ */
+export function computeCountInDownbeatPlaybackRatio(input) {
+  const o = input || {}
+  const bufferDuration = parseFloat(o.bufferDuration)
+  const pickupLength = parseFloat(o.pickupLength) || 0
+  const beatLength = parseFloat(o.beatLength) || 0
+  const beatsPerMeasure = parseFloat(o.beatsPerMeasure) || 0
+  const msPerMeasure = parseFloat(o.millisecondsPerMeasure) || 0
+  const tempoFactor = o.tempoFactor > 0 ? parseFloat(o.tempoFactor) : 1
+  const visualObj = o.visualObj
+  const tempoBpm = parseFloat(o.tempoBpm) || 0
+  if (!(bufferDuration > 0) || pickupLength <= 0 || beatLength <= 0) {
+    return 0
+  }
+  const pickupAbcBeats = pickupLength / beatLength
+  if (pickupAbcBeats > 0 && visualObj) {
+    const visualRatio = notationBeatToAudioRatio(
+      pickupAbcBeats,
+      visualObj,
+      bufferDuration,
+      tempoBpm
+    )
+    if (visualRatio > 0) {
+      return Math.min(1, visualRatio)
+    }
+  }
+  if (!(msPerMeasure > 0) || beatsPerMeasure <= 0) {
+    return 0
+  }
+  const beatDurationSec = (msPerMeasure / beatsPerMeasure) / 1000 / tempoFactor
+  const pickupSec = pickupAbcBeats * beatDurationSec
+  return Math.min(1, Math.max(0, pickupSec / bufferDuration))
+}
+
 /** True when playback should be treated as at the start (not mid-song resume). */
 export function isMidiStartFromBeginning(input) {
   const o = input || {}
@@ -650,15 +763,21 @@ export function resolveCountInHandoffAnchor(scheduledMusicStartAudioTime, audioC
       musicSeconds: 0,
     }
   }
-  if (now > scheduled + safeLead) {
+  if (now > scheduled) {
     if (audioStartedAtScheduled) {
       return {
         actualStartAudioTime: scheduled,
         musicSeconds: Math.max(0, (now - scheduled) * tempoFactor),
       }
     }
+    if (now > scheduled + safeLead) {
+      return {
+        actualStartAudioTime: now + safeLead,
+        musicSeconds: 0,
+      }
+    }
     return {
-      actualStartAudioTime: now + safeLead,
+      actualStartAudioTime: scheduled,
       musicSeconds: 0,
     }
   }

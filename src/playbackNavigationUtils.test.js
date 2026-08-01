@@ -61,6 +61,7 @@ describe('playbackNavigationUtils', function() {
     const queue = createQueue({ tuneIds: ['a', 'b'] })
     expect(shouldAdvancePlaybackOnEnd(queue, true)).toBe(true)
     expect(shouldAdvancePlaybackOnEnd(Object.assign({}, queue, { autoAdvance: false }), true)).toBe(false)
+    expect(shouldAdvancePlaybackOnEnd(Object.assign({}, queue, { repeatTrack: true, repeatMode: 'track' }), true)).toBe(true)
     expect(shouldAdvancePlaybackOnEnd(queue, false)).toBe(false)
     expect(shouldAdvancePlaybackOnEnd(null, true)).toBe(false)
   })

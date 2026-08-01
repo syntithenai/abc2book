@@ -5,13 +5,13 @@ import {
   executeTuneDownload,
   getTuneDownloadFormatsForContext,
   getTuneDownloadStartToastMessage,
+  isStemsDownloadAvailable,
   isStemsDownloadDisabled,
   isTuneDownloadFormatDisabled,
   shouldShowRestrictedTuneDownloads,
 } from '../tuneDownloadActions'
 import useStemDownloadQueue from '../useStemDownloadQueue'
 import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
-import { areStemBulkOperationsEnabled } from '../stemBulkOperations'
 
 const STEMS_FORMAT = {
   id: 'stems',
@@ -99,7 +99,11 @@ function StemsDownloadSection({ tunes, tunebook, token, icons, layout }) {
       <>
         <Dropdown.Item
           disabled={disabled || busy}
-          onClick={runStemsDownload}
+          onClick={function(e) {
+            e.preventDefault()
+            e.stopPropagation()
+            if (!disabled && !busy) runStemsDownload()
+          }}
           className="tune-download-dropdown-item"
         >
           <span className="tune-download-dropdown-icon" aria-hidden="true">{icons[STEMS_FORMAT.icon]}</span>
@@ -169,7 +173,7 @@ export function TuneDownloadModal({
   const downloadFormats = useMemo(function() {
     return getTuneDownloadFormatsForContext({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   }, [user, allowRestrictedFormats])
-  const showStemsDownload = areStemBulkOperationsEnabled()
+  const showStemsDownload = isStemsDownloadAvailable()
     && shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   const { busyFormatId, errorMessage, runDownload } = useTuneDownloadState(
     tuneList,
@@ -242,7 +246,7 @@ export default function TuneDownloadDropdown({
   const downloadFormats = useMemo(function() {
     return getTuneDownloadFormatsForContext({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   }, [user, allowRestrictedFormats])
-  const showStemsDownload = areStemBulkOperationsEnabled()
+  const showStemsDownload = isStemsDownloadAvailable()
     && shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   const toggleLabelClassName = labelClassName || 'bulk-ops-btn-label'
   const { busyFormatId, errorMessage, runDownload } = useTuneDownloadState(
@@ -303,18 +307,22 @@ export default function TuneDownloadDropdown({
           {downloadFormats.map(function(format) {
             var disabled = formatIsDisabled(format, tuneList, tunebook) || !!busyFormatId
             return (
-              <Button
+              <Dropdown.Item
                 key={format.id}
-                variant="outline-primary"
-                className="tune-download-option-btn"
                 disabled={disabled}
-                onClick={function() { runDownload(format.id) }}
-                aria-label={format.label}
-                title={format.description}
+                className="tune-download-dropdown-item"
+                onClick={function(e) {
+                  e.preventDefault()
+                  e.stopPropagation()
+                  if (!disabled) runDownload(format.id)
+                }}
               >
-                {icons[format.icon]}
-                <span className="tune-download-option-label">{format.label}</span>
-              </Button>
+                <span className="tune-download-dropdown-icon" aria-hidden="true">{icons[format.icon]}</span>
+                <span className="tune-download-dropdown-text">
+                  <span className="tune-download-dropdown-label">{format.label}</span>
+                  <span className="tune-download-dropdown-description">{format.description}</span>
+                </span>
+              </Dropdown.Item>
             )
           })}
           {showStemsDownload ? (
@@ -323,7 +331,7 @@ export default function TuneDownloadDropdown({
               tunebook={tunebook}
               token={token}
               icons={icons}
-              layout="modal"
+              layout="dropdown"
             />
           ) : null}
         </div>

@@ -28,6 +28,7 @@ import {
   AndroidOAuthNavigateAway,
 } from './androidGoogleAuth'
 import { getGoogleOAuthRedirectUri } from './googleOAuthRedirectUri'
+import { isTerminalAuthError } from './authSessionErrors'
 
 function loginHintEmail() {
   var hint = readLoginHintEmail()
@@ -403,7 +404,7 @@ export function createOAuthBffController(ctx) {
     var authBase = getAuthBase()
     var sessionId = readStoredAuthSessionId()
     if (!authBase || !sessionId) {
-      return fallbackToTokenClientRenew()
+      return fallbackToTokenClientRenew(null)
     }
     refreshInFlight = refreshAuthSession(authBase, sessionId)
       .then(function(body) {
@@ -424,16 +425,17 @@ export function createOAuthBffController(ctx) {
           return null
         }
         console.warn('OAuth BFF silent refresh failed', err)
-        return fallbackToTokenClientRenew()
+        return fallbackToTokenClientRenew(err)
       })
     return refreshInFlight
   }
 
-  function fallbackToTokenClientRenew() {
-    // Keep current access token; ask facade to renew via Token Client popup.
-    storeAuthSessionId('')
+  function fallbackToTokenClientRenew(err) {
+    if (!err || isTerminalAuthError(err)) {
+      storeAuthSessionId('')
+    }
     if (ctx.onFallbackToTokenClient) {
-      ctx.onFallbackToTokenClient()
+      ctx.onFallbackToTokenClient(err)
     }
     return Promise.resolve(null)
   }
@@ -468,7 +470,9 @@ export function createOAuthBffController(ctx) {
       .catch(function(err) {
         resumeInFlight = null
         console.warn('OAuth BFF session resume failed', err)
-        storeAuthSessionId('')
+        if (isTerminalAuthError(err)) {
+          storeAuthSessionId('')
+        }
         return null
       })
     return resumeInFlight

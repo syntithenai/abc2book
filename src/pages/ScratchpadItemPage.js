@@ -11,6 +11,7 @@ import ScratchpadTextEditor from '../components/scratchpad/ScratchpadTextEditor'
 import ScratchpadImageEditor from '../components/scratchpad/ScratchpadImageEditor'
 import ScratchpadNotationEditor from '../components/scratchpad/ScratchpadNotationEditor'
 import ScratchpadAudioEditor from '../components/scratchpad/ScratchpadAudioEditor'
+import ScratchpadCompositionEditor from '../components/scratchpad/ScratchpadCompositionEditor'
 
 export default function ScratchpadItemPage(props) {
   const params = useParams()
@@ -87,6 +88,21 @@ export default function ScratchpadItemPage(props) {
           loadTuneTexts={props.loadTuneTexts}
           onChange={refresh}
           editHistory={editHistory}
+        />
+      )
+    }
+    if (item.type === 'composition') {
+      return (
+        <ScratchpadCompositionEditor
+          key={item.id}
+          item={item}
+          tunebook={props.tunebook}
+          tunes={props.tunes}
+          token={props.token}
+          onChange={refresh}
+          onDeleted={function() { navigate('/scratchpad') }}
+          onBack={function() { navigate('/scratchpad') }}
+          onOpenItem={function(itemId) { navigate('/scratchpad/' + encodeURIComponent(itemId)) }}
         />
       )
     }

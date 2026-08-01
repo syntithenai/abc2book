@@ -50,7 +50,9 @@ export default function NowPlayingQueueManager(props) {
         {queue.items.map(function(item, index) {
           const tune = item && item.tuneId ? tunes[item.tuneId] : null
           const tuneName = getQueueItemLabel(item, tunes)
-          if (filter && filter.trim().length > 0 && tuneName.toLowerCase().indexOf(filter.toLowerCase()) === -1) {
+          const composer = tune && tune.composer ? String(tune.composer).trim() : ''
+          const filterText = (tuneName + (composer ? ' ' + composer : '')).toLowerCase()
+          if (filter && filter.trim().length > 0 && filterText.indexOf(filter.toLowerCase()) === -1) {
             return null
           }
           const isCurrent = isExternalQueueItem(item)
@@ -101,6 +103,9 @@ export default function NowPlayingQueueManager(props) {
                   }}
                 >
                   {tuneName}
+                  {composer ? (
+                    <span className="now-playing-queue-item-composer"> — {composer}</span>
+                  ) : null}
                 </Button>
               ) : isExternalQueueItem(item) ? (
                 <Button
@@ -110,6 +115,9 @@ export default function NowPlayingQueueManager(props) {
                   onClick={function() { jumpToItem() }}
                 >
                   {tuneName}
+                  {composer ? (
+                    <span className="now-playing-queue-item-composer"> — {composer}</span>
+                  ) : null}
                 </Button>
               ) : (
                 <span className="text-muted" style={{ marginRight: '1em', fontWeight: 'bold' }}>
