@@ -39,6 +39,7 @@ import { resolveMidiLinkPlaybackData } from '../midiLinkResolve'
 import useAbcjsParser from '../useAbcjsParser'
 import { fetchAudioGenerationBackends } from '../musicGenerationClient'
 import { getAudioGenerationAccess } from '../audioGenerationAccess'
+import { useCreditAffordance } from '../useCreditAffordance'
 import {
   defaultCoverStylePrompt,
   enqueueLinkedCoverJob,
@@ -179,11 +180,37 @@ function LinksEditorBody(props) {
     const [pendingLinkRegenerateIndex, setPendingLinkRegenerateIndex] = useState(null)
     const [regenerateCoverLinkIndex, setRegenerateCoverLinkIndex] = useState(null)
     const [regenerateCoverError, setRegenerateCoverError] = useState('')
+    const practiceAffordance = useCreditAffordance(props.token, 'practice_track')
+    const coverAffordance = useCreditAffordance(props.token, 'linked_cover')
+    const combinedAffordance = useMemo(function() {
+        if (!practiceAffordance.checked || !coverAffordance.checked) {
+            return { checked: false, affordable: true }
+        }
+        return {
+            checked: true,
+            affordable: practiceAffordance.affordable && coverAffordance.affordable,
+            estimateCents: Math.max(
+                Number(practiceAffordance.estimateCents) || 0,
+                Number(coverAffordance.estimateCents) || 0
+            ),
+            availableCents: Math.min(
+                Number(practiceAffordance.availableCents) || Infinity,
+                Number(coverAffordance.availableCents) || Infinity
+            ),
+            shortfallCents: Math.max(
+                Number(practiceAffordance.shortfallCents) || 0,
+                Number(coverAffordance.shortfallCents) || 0
+            ),
+            creditUnlimited: practiceAffordance.creditUnlimited || coverAffordance.creditUnlimited,
+            error: practiceAffordance.error || coverAffordance.error,
+        }
+    }, [practiceAffordance, coverAffordance])
     const audioGenerationAccess = useMemo(function() {
         return getAudioGenerationAccess(Object.assign({}, resolverAccessContext, {
             backends: audioBackends,
+            affordance: combinedAffordance,
         }))
-    }, [resolverAccessContext, audioBackends])
+    }, [resolverAccessContext, audioBackends, combinedAffordance])
     const recordingStartedAt = useRef(0)
     const recordingIntervalRef = useRef(null)
     const [warning, setWarning] = useState('')
@@ -406,7 +433,7 @@ function LinksEditorBody(props) {
             })
             return
         }
-        if (access.needsCredit) {
+        if (access.needsCredit || access.cannotAfford) {
             if (typeof window !== 'undefined') {
                 window.location.assign('/settings?tab=providers&credit=1')
             }

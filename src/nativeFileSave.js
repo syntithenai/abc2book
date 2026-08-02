@@ -32,6 +32,58 @@ function guessMimeType(filename) {
   return 'application/octet-stream'
 }
 
+async function blobToUint8Array(blob) {
+  if (!blob || typeof blob.size !== 'number' || blob.size <= 0) {
+    return null
+  }
+  try {
+    if (typeof blob.arrayBuffer === 'function') {
+      const buffer = await blob.arrayBuffer()
+      if (buffer && buffer.byteLength > 0) {
+        return new Uint8Array(buffer)
+      }
+    }
+  } catch (e) {
+    // Fall back to FileReader below.
+  }
+  return new Promise(function(resolve, reject) {
+    const reader = new FileReader()
+    reader.onloadend = function() {
+      if (!reader.result || !reader.result.byteLength) {
+        reject(new Error('Could not read blob data'))
+        return
+      }
+      resolve(new Uint8Array(reader.result))
+    }
+    reader.onerror = reject
+    reader.readAsArrayBuffer(blob)
+  })
+}
+
+async function writeBytesToFileHandle(handle, bytes) {
+  let writable = null
+  try {
+    writable = await handle.createWritable()
+    await writable.write(bytes)
+    await writable.close()
+    writable = null
+    const saved = await handle.getFile()
+    if (!saved || !saved.size) {
+      throw new Error('Saved file is empty')
+    }
+    return saved
+  } catch (err) {
+    if (writable) {
+      try {
+        await writable.abort()
+      } catch (abortErr) {
+        // ignore abort errors
+      }
+    }
+    throw err
+  }
+}
+
 async function saveBlobNative(blob, filename) {
   const safeName = sanitizeDownloadFilename(filename, 'download')
   const base64 = await blobToBase64(blob)
@@ -47,6 +99,92 @@ async function saveBlobNative(blob, filename) {
     directory: Directory.Documents,
   })
   return uriResult.uri
+}
+
+function savePickerTypesForFilename(filename) {
+  const lower = String(filename || '').toLowerCase()
+  if (lower.endsWith('.m4a') || lower.endsWith('.aac')) {
+    return [{ description: 'AAC audio', accept: { 'audio/mp4': ['.m4a', '.aac'] } }]
+  }
+  if (lower.endsWith('.mp3')) {
+    return [{ description: 'MP3 audio', accept: { 'audio/mpeg': ['.mp3'] } }]
+  }
+  if (lower.endsWith('.wav')) {
+    return [{ description: 'WAV audio', accept: { 'audio/wav': ['.wav'] } }]
+  }
+  if (lower.endsWith('.zip')) {
+    return [{ description: 'ZIP archive', accept: { 'application/zip': ['.zip'] } }]
+  }
+  if (lower.endsWith('.pdf')) {
+    return [{ description: 'PDF', accept: { 'application/pdf': ['.pdf'] } }]
+  }
+  const mime = guessMimeType(filename)
+  return [{ description: 'File', accept: mime ? { [mime]: [] } : { 'application/octet-stream': [] } }]
+}
+
+export function canUseSaveFilePicker() {
+  return typeof window !== 'undefined'
+    && typeof window.showSaveFilePicker === 'function'
+    && !isCapacitorNative()
+}
+
+/**
+ * Call at the start of a click handler, before slow async export work.
+ * Reserves a save target while the browser user-gesture is still active.
+ */
+export async function beginBlobSave(filename) {
+  const safeName = sanitizeDownloadFilename(filename, 'download')
+  if (isCapacitorNative()) {
+    return { mode: 'native', filename: safeName }
+  }
+  if (canUseSaveFilePicker()) {
+    try {
+      const handle = await window.showSaveFilePicker({
+        suggestedName: safeName,
+        types: savePickerTypesForFilename(safeName),
+      })
+      return { mode: 'fileHandle', handle: handle, filename: safeName }
+    } catch (err) {
+      if (err && err.name === 'AbortError') {
+        return { mode: 'cancelled', filename: safeName }
+      }
+    }
+  }
+  return { mode: 'manual', filename: safeName }
+}
+
+/**
+ * Write a prepared blob to the save target from beginBlobSave.
+ * Manual mode returns needsManualSave so the UI can offer a fresh click-to-save button.
+ */
+export async function completeBlobSave(session, blob) {
+  if (!session || session.mode === 'cancelled') {
+    return { saved: false, cancelled: true }
+  }
+  if (!blob) {
+    throw new Error('No file to download')
+  }
+
+  if (session.mode === 'native') {
+    await saveBlobToDevice(blob, session.filename)
+    return { saved: true, filename: session.filename }
+  }
+
+  if (session.mode === 'fileHandle' && session.handle) {
+    const bytes = await blobToUint8Array(blob)
+    if (!bytes || !bytes.byteLength) {
+      throw new Error('Export produced an empty file')
+    }
+    await writeBytesToFileHandle(session.handle, bytes)
+    return { saved: true, filename: session.filename }
+  }
+
+  return {
+    saved: false,
+    needsManualSave: true,
+    blob: blob,
+    filename: session.filename,
+  }
 }
 
 /**
@@ -77,7 +215,9 @@ export async function saveBlobToDevice(blob, filename, options) {
   document.body.appendChild(anchor)
   anchor.click()
   document.body.removeChild(anchor)
-  window.URL.revokeObjectURL(url)
+  setTimeout(function() {
+    window.URL.revokeObjectURL(url)
+  }, 1000)
   return true
 }
 

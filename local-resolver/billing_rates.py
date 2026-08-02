@@ -46,6 +46,18 @@ LLM_COST_PER_MILLION_TOKENS = {
 
 OCR_FLAT_COST_MILLICENTS = int(os.getenv("BILLING_OCR_FLAT_COST_MILLICENTS", "150"))
 
+PRACTICE_TRACK_JOB_COST_MILLICENTS = int(os.getenv("BILLING_PRACTICE_TRACK_JOB_COST_MILLICENTS", "500"))
+LINKED_COVER_JOB_COST_MILLICENTS = int(os.getenv("BILLING_LINKED_COVER_JOB_COST_MILLICENTS", "500"))
+
+# BYO API key proxy flat fees (upstream millicents, before markup)
+API_PROXY_FLAT_MILLICENTS = {
+    "llm": int(os.getenv("BILLING_API_PROXY_LLM_FLAT_MILLICENTS", "5")),
+    "whisper": int(os.getenv("BILLING_API_PROXY_WHISPER_FLAT_MILLICENTS", "5")),
+    "ocr": int(os.getenv("BILLING_API_PROXY_OCR_FLAT_MILLICENTS", "5")),
+    "stems": int(os.getenv("BILLING_API_PROXY_STEMS_FLAT_MILLICENTS", "10")),
+    "default": int(os.getenv("BILLING_API_PROXY_FLAT_COST_MILLICENTS", "5")),
+}
+
 MIN_USAGE_MILLICENTS = int(os.getenv("BILLING_MIN_USAGE_MILLICENTS", "1"))
 
 CREDIT_PACKS = [
@@ -92,6 +104,31 @@ def amt_job_cost_millicents() -> int:
 
 def ocr_flat_cost_millicents() -> int:
     return apply_markup(OCR_FLAT_COST_MILLICENTS)
+
+
+def practice_track_job_cost_millicents() -> int:
+    return apply_markup(PRACTICE_TRACK_JOB_COST_MILLICENTS)
+
+
+def linked_cover_job_cost_millicents() -> int:
+    return apply_markup(LINKED_COVER_JOB_COST_MILLICENTS)
+
+
+def api_proxy_flat_cost_millicents(capability: str = "") -> int:
+    key = (capability or "").strip().lower()
+    upstream = API_PROXY_FLAT_MILLICENTS.get(key, API_PROXY_FLAT_MILLICENTS["default"])
+    return apply_markup(upstream)
+
+
+def api_proxy_cost_millicents(
+    capability: str,
+    *,
+    request_bytes: int = 0,
+    response_bytes: int = 0,
+) -> int:
+    flat = api_proxy_flat_cost_millicents(capability)
+    egress = egress_cost_millicents(max(0, int(request_bytes)) + max(0, int(response_bytes)))
+    return max(flat, egress)
 
 
 def whisper_cost_millicents(duration_seconds: float, model: str = "") -> int:

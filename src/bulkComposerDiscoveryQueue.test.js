@@ -1,3 +1,5 @@
+jest.mock('./creditAffordabilityClient')
+
 jest.mock('./composerSearchClient', function() {
   return {
     discoverComposers: jest.fn(function() {
@@ -46,6 +48,7 @@ jest.mock('react-toastify', function() {
 })
 
 import { discoverComposers } from './composerSearchClient'
+import { checkCanAfford } from './creditAffordabilityClient'
 import * as bulkComposerDiscoveryQueue from './bulkComposerDiscoveryQueue'
 
 function makeTune(overrides) {
@@ -61,6 +64,13 @@ describe('bulkComposerDiscoveryQueue', function() {
     bulkComposerDiscoveryQueue.__resetForTests()
     Object.keys(localforageData).forEach(function(key) {
       delete localforageData[key]
+    })
+    checkCanAfford.mockResolvedValue({
+      affordable: true,
+      creditUnlimited: false,
+      estimateCents: 0,
+      availableCents: 100,
+      shortfallCents: 0,
     })
     discoverComposers.mockReset()
     discoverComposers.mockResolvedValue({

@@ -1,4 +1,5 @@
 import localforage from 'localforage'
+import { checkCanAfford } from './creditAffordabilityClient'
 import { researchTuneBackground } from './tuneBackgroundResearchClient'
 import { applyGeneratedBackgroundInfo } from './viewModeUtils'
 import { isAbortError } from './abortUtils'
@@ -474,6 +475,15 @@ async function runJob(job) {
   job.abortController = controller
 
   try {
+    if (job.accessToken) {
+      const afford = await checkCanAfford(job.accessToken, [{ id: 'background_research' }])
+      if (!afford.creditUnlimited && !afford.affordable) {
+        job.status = 'error'
+        job.error = 'Insufficient resolver credit for background research'
+        job.progress = 0
+        return
+      }
+    }
     const result = await researchTuneBackground({
       title: job.title,
       artist: job.artist || '',

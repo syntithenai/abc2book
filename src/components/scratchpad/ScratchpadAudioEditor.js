@@ -87,6 +87,9 @@ import { createMacroRecorder, recordMacroStep, runMacro } from '../../scratchpad
 import ScratchpadAudioSpectrogramLayer from './ScratchpadAudioSpectrogramLayer'
 import ScratchpadAudioInsertModal from './ScratchpadAudioInsertModal'
 import { insertAudioBlobAtPlayhead } from '../../scratchpadAudioInsert'
+import useMediaResolverHealth from '../../useMediaResolverHealth'
+import { useCreditAffordance } from '../../useCreditAffordance'
+import { isStemsCapabilityAvailable, loadProviderSettings } from '../../providerSettings'
 
 const WAVEFORM_ZOOM_LEVELS = [50, 75, 100, 250, 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 10000, 12500, 15000, 20000, 30000, 40000, 50000]
 const ADVANCED_FEATURES_KEY = 'scratchpadAudioAdvanced'
@@ -184,6 +187,16 @@ function MarkerEditModal(props) {
 export default function ScratchpadAudioEditor(props) {
   const item = props.item
   const icons = props.tunebook && props.tunebook.icons ? props.tunebook.icons : {}
+  const { available: resolverAvailable, status: resolverStatus, features } = useMediaResolverHealth()
+  const stemAffordance = useCreditAffordance(
+    props.token,
+    'stem_job'
+  )
+  const stemsCapability = isStemsCapabilityAvailable(
+    features,
+    loadProviderSettings(),
+    resolverStatus
+  )
   const editorRef = useRef(null)
   const wrapRef = useRef(null)
   const panelScrollRef = useRef(null)
@@ -253,6 +266,8 @@ export default function ScratchpadAudioEditor(props) {
   const [micError, setMicError] = useState(false)
   const toolbarWidth = useScratchpadToolbarWidth(editorRootRef)
   const layoutTier = scratchpadToolbarTier(toolbarWidth)
+  const canSeparateStems = hasContent && stemsCapability && resolverAvailable
+    && (stemAffordance.creditUnlimited || !stemAffordance.checked || stemAffordance.affordable)
 
   useScratchpadWaveformZoom({
     wrapRef: wrapRef,
@@ -1448,6 +1463,7 @@ export default function ScratchpadAudioEditor(props) {
           hasSelection={hasSelection}
           canPaste={clipboardHasData}
           stemBusy={stemBusy}
+          canSeparate={canSeparateStems}
           trimSuggestion={trimSuggestion}
           trimming={trimming}
           isSaving={isSaving}

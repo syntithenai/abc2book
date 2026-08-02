@@ -203,6 +203,21 @@ export async function runFeedAiGeneration(options) {
   const onItems = typeof opts.onItems === 'function' ? opts.onItems : function() {}
   const accessToken = opts.token || null
 
+  if (accessToken && !opts.skipAffordCheck) {
+    try {
+      const { checkCanAfford } = await import('./creditAffordabilityClient')
+      const afford = await checkCanAfford(accessToken, [
+        { id: 'feed_article' },
+        { id: 'feed_quiz' },
+      ])
+      if (!afford.creditUnlimited && !afford.affordable) {
+        return
+      }
+    } catch (e) {
+      // soft-fail — server will reject if still insufficient
+    }
+  }
+
   for (var i = 0; i < Math.min(viewIds.length, 3); i++) {
     const tune = tunes[viewIds[i]]
     if (!tune || !tune.name) continue

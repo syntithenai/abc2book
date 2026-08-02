@@ -1,11 +1,13 @@
 import { useMemo } from 'react'
 import { getResolverLoginWarning } from './mediaProxyClient'
 import useMediaResolverHealth from './useMediaResolverHealth'
+import { useCreditAffordance } from './useCreditAffordance'
 import { isCapabilityAvailable, loadProviderSettings } from './providerSettings'
 
 export function fieldLookupAutomaticLookup(kind, context) {
   const opts = context || {}
   if (opts.needsLogin || opts.needsCredit) return false
+  if (kind === 'background' && opts.cannotAffordBackground) return false
 
   const resolverAvailable = !!opts.resolverAvailable
   const features = opts.features || {}
@@ -34,11 +36,15 @@ export function fieldLookupAutomaticLookup(kind, context) {
 
 export function useFieldLookupResolverAccess(accessToken) {
   const health = useMediaResolverHealth()
+  const backgroundAffordance = useCreditAffordance(accessToken, 'background_research')
   const loginWarning = useMemo(function() {
     return getResolverLoginWarning(health.status, accessToken)
   }, [health.status, accessToken])
   const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
   const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
+  const cannotAffordBackground = backgroundAffordance.checked
+    && !backgroundAffordance.creditUnlimited
+    && !backgroundAffordance.affordable
 
   return useMemo(function() {
     const base = {
@@ -49,6 +55,8 @@ export function useFieldLookupResolverAccess(accessToken) {
       loginWarning: loginWarning,
       needsLogin: needsLogin,
       needsCredit: needsCredit,
+      cannotAffordBackground: cannotAffordBackground,
+      backgroundAffordance: backgroundAffordance,
     }
     return Object.assign({}, base, {
       automaticLookupFor: function(kind, extra) {
@@ -63,5 +71,7 @@ export function useFieldLookupResolverAccess(accessToken) {
     loginWarning,
     needsLogin,
     needsCredit,
+    cannotAffordBackground,
+    backgroundAffordance,
   ])
 }

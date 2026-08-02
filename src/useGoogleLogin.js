@@ -4,7 +4,6 @@ import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
 import {
   AUTH_MODE_PROBE_WAIT_MS,
   LOGIN_AUTH_WAIT_MS,
-  candidateOffersOauthBff,
   pickAuthResolverBaseForLogin,
   readStoredAuthBase,
   readStoredAuthSessionId,
@@ -79,7 +78,8 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
     return selectAuthModeForBase(base, { mustUseOAuthBff: mustUseOAuthBffLogin() })
   }
 
-  function tryTokenClientSilentRefresh() {
+  /** Silent GIS Token Client renew after BFF resume — uses login_hint to avoid account picker. */
+  function tryMountSilentTokenRefresh() {
     if (isAndroidApp()) return
     if (!localStorage.getItem('google_login_user')) return
     var current = accessTokenRef.current
@@ -118,37 +118,20 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
           if (base) selectController('oauth', base)
         },
         onFallbackToTokenClient: function() {
-          // Keep OAuth mode when the access token is still valid — missing BFF
-          // session only affects silent renew, not resolver Bearer auth.
           var current = accessTokenRef.current
           var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
           var stillValid = current && current.access_token
             && (!expiresAt || expiresAt > Date.now() + 60000)
-          if (stillValid && (authBaseRef.current || getAuthResolverBase())) {
-            return
-          }
-          // An OAuth BFF resolver can renew silently; never open a GIS popup for that.
-          var health = getMediaResolverHealthState()
-          var candidates = health && health.status && health.status.candidates
-            ? health.status.candidates : []
-          for (var i = 0; i < candidates.length; i++) {
-            if (candidateOffersOauthBff(candidates[i])) return
-          }
+          if (stillValid) return
           if (isAndroidApp()) return
           var tokenCtrl = ensureTokenController()
           activeControllerRef.current = tokenCtrl
-          authModeRef.current = 'token'
-          setAuthMode('token')
+          if (authModeRef.current === 'oauth') {
+            authModeRef.current = 'token'
+            setAuthMode('token')
+          }
           if (localStorage.getItem('google_login_user')) {
-            var expiredToken = accessTokenRef.current
-            var expiredAt = expiredToken && expiredToken.expires_at
-              ? Number(expiredToken.expires_at) : 0
-            var tokenStillValid = expiredToken && expiredToken.access_token
-              && (!expiredAt || expiredAt > Date.now() + 60000)
-            if (!tokenStillValid) {
-              // Try GIS silent renew before prompting — most sessions recover here.
-              tokenCtrl.refresh()
-            }
+            tokenCtrl.refresh()
           }
         },
       })
@@ -449,37 +432,35 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       }
     })
 
-    function resolverOffersOauthBff() {
-      var health = getMediaResolverHealthState()
-      var candidates = health && health.status && health.status.candidates
-        ? health.status.candidates : []
-      for (var i = 0; i < candidates.length; i++) {
-        if (candidateOffersOauthBff(candidates[i])) return true
+    function finishAccessTokenRestore() {
+      function afterBffResume() {
+        if (!cancelled) tryMountSilentTokenRefresh()
       }
-      return false
+
+      var sessionId = readStoredAuthSessionId()
+      var base = readStoredAuthBase() || getAuthResolverBase() || authBaseRef.current
+      if (sessionId && base) {
+        var oauthCtrl = selectController('oauth', base)
+        if (oauthCtrl.resumeSession) {
+          return oauthCtrl.resumeSession().then(function() {
+            afterBffResume()
+            return null
+          })
+        }
+      }
+
+      tryMountSilentTokenRefresh()
+      return Promise.resolve(null)
     }
 
     function finishModeAndResume() {
       if (cancelled) return Promise.resolve(null)
       if (!localStorage.getItem('google_login_user')) return Promise.resolve(null)
 
-      function afterBffAttempt() {
-        if (!cancelled && !accessTokenRef.current) {
-          tryTokenClientSilentRefresh()
-        }
-      }
-
-      // Stored BFF session: resume immediately without waiting for /health probe.
       var storedBase = readStoredAuthBase()
       var storedSession = readStoredAuthSessionId()
       if (storedBase && storedSession) {
-        var storedController = selectController('oauth', storedBase)
-        if (storedController.resumeSession) {
-          return storedController.resumeSession().then(function(result) {
-            afterBffAttempt()
-            return result
-          })
-        }
+        return finishAccessTokenRestore()
       }
 
       return waitForAuthBase(
@@ -488,20 +469,8 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       ).then(function(base) {
         if (cancelled) return null
         var mode = mustUseOAuthBffLogin() ? 'oauth' : authModeForBase(base)
-        var controller = selectController(mode, base)
-        if (base && readStoredAuthSessionId() && controller.resumeSession) {
-          return controller.resumeSession().then(function(result) {
-            afterBffAttempt()
-            return result
-          })
-        }
-        // Pop-up renew only when no resolver offers OAuth BFF (not on Android).
-        if (!base && !resolverOffersOauthBff() && !isAndroidApp()) {
-          controller.refresh()
-        } else {
-          afterBffAttempt()
-        }
-        return null
+        selectController(mode, base)
+        return finishAccessTokenRestore()
       })
     }
 

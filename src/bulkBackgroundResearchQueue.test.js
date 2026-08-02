@@ -1,3 +1,5 @@
+jest.mock('./creditAffordabilityClient')
+
 jest.mock('./tuneBackgroundResearchClient', function() {
   return {
     researchTuneBackground: jest.fn(function() {
@@ -33,6 +35,7 @@ jest.mock('localforage', function() {
 })
 
 import { researchTuneBackground } from './tuneBackgroundResearchClient'
+import { checkCanAfford } from './creditAffordabilityClient'
 import * as bulkBackgroundResearchQueue from './bulkBackgroundResearchQueue'
 
 function makeTune(overrides) {
@@ -50,6 +53,13 @@ describe('bulkBackgroundResearchQueue', function() {
     bulkBackgroundResearchQueue.__resetForTests()
     Object.keys(localforageData).forEach(function(key) {
       delete localforageData[key]
+    })
+    checkCanAfford.mockResolvedValue({
+      affordable: true,
+      creditUnlimited: false,
+      estimateCents: 0,
+      availableCents: 100,
+      shortfallCents: 0,
     })
     researchTuneBackground.mockReset()
     researchTuneBackground.mockResolvedValue({ text: 'Researched background text.' })

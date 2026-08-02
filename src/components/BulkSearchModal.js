@@ -3,6 +3,7 @@ import { Alert, Button, ButtonGroup, Dropdown, Modal, Spinner } from 'react-boot
 import { Link } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
 import useBulkBackgroundResearchQueue from '../useBulkBackgroundResearchQueue'
 import useBulkComposerDiscoveryQueue from '../useBulkComposerDiscoveryQueue'
 import useTuneFieldLookupQueue from '../useTuneFieldLookupQueue'
@@ -115,7 +116,10 @@ export default function BulkSearchModal({
     features,
     refreshMediaResolverHealth,
   } = useMediaResolverHealth()
-  const canResearchBackground = resolverAvailable && isCapabilityAvailable('llm', features, loadProviderSettings())
+  const resolverAccess = useFieldLookupResolverAccess(token)
+  const canResearchBackground = resolverAvailable
+    && isCapabilityAvailable('llm', features, loadProviderSettings())
+    && !resolverAccess.cannotAffordBackground
 
   const analysisDeps = useMemo(function() {
     const tunes = {}

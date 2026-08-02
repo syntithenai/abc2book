@@ -1,4 +1,4 @@
-import { getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
+import { mergeAffordanceIntoAccess, getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
 
 function imageOcrAvailable(resolverAvailable, features) {
@@ -157,8 +157,7 @@ export function getScratchpadAnalyseAccess(context, itemType) {
     : buildAudioChoices(resolverAvailable, features)
   const hasUsableChoice = usableChoices.some(function(choice) { return choice.canUse })
   const showOption = resolverChecked && (hasUsableChoice || needsLogin || needsCredit)
-
-  return {
+  const baseAccess = {
     itemType: type,
     showOption: showOption,
     needsLogin: needsLogin && showOption,
@@ -168,6 +167,7 @@ export function getScratchpadAnalyseAccess(context, itemType) {
     choices: (needsLogin || needsCredit) ? buildLoginPlaceholderChoices(type) : usableChoices,
     unavailableHelperText: unavailableHelperText(type, features),
   }
+  return mergeAffordanceIntoAccess(baseAccess, opts.affordance)
 }
 
 function analyseUseLabelForType(itemType) {

@@ -52,9 +52,6 @@ export default function VoiceCommandButton(props) {
   }
 
   async function submitCapturedAudio(blob) {
-    // #region agent log
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',runId:'post-fix',location:'VoiceCommandButton.js:submitCapturedAudio:entry',message:'submitCapturedAudio called',data:{blobSize:blob&&blob.size},timestamp:Date.now(),hypothesisId:'H10,H11'})}).catch(()=>{});
-    // #endregion
     if (abortRef.current) abortRef.current.abort();
     const controller = new AbortController();
     abortRef.current = controller;
@@ -78,9 +75,6 @@ export default function VoiceCommandButton(props) {
         accessToken: props.token && props.token.access_token,
         signal: controller.signal,
       });
-      // #region agent log
-      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',runId:'post-fix',location:'VoiceCommandButton.js:submitCapturedAudio:afterSubmit',message:'submitVoiceCommand returned',data:{tool:result&&result.tool,transcript:result&&result.transcript?result.transcript.slice(0,80):''},timestamp:Date.now(),hypothesisId:'H11,H12'})}).catch(()=>{});
-      // #endregion
 
       const speakFeedback = typeof window !== 'undefined'
         && localStorage.getItem('bookstorage_announcesong') === 'true';
@@ -120,9 +114,6 @@ export default function VoiceCommandButton(props) {
           });
         },
       });
-      // #region agent log
-      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',runId:'post-fix',location:'VoiceCommandButton.js:submitCapturedAudio:afterExecute',message:'executeVoiceCommand finished',data:{},timestamp:Date.now(),hypothesisId:'H12'})}).catch(()=>{});
-      // #endregion
     } catch (error) {
       if (error && error.name === 'AbortError') {
         if (timedOut) {

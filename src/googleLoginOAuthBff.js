@@ -403,8 +403,12 @@ export function createOAuthBffController(ctx) {
     }
     var authBase = getAuthBase()
     var sessionId = readStoredAuthSessionId()
-    if (!authBase || !sessionId) {
+    if (!sessionId) {
       return fallbackToTokenClientRenew(null)
+    }
+    if (!authBase) {
+      // Probe not settled yet — keep session; BFF resume will retry.
+      return Promise.resolve(null)
     }
     refreshInFlight = refreshAuthSession(authBase, sessionId)
       .then(function(body) {
@@ -431,7 +435,7 @@ export function createOAuthBffController(ctx) {
   }
 
   function fallbackToTokenClientRenew(err) {
-    if (!err || isTerminalAuthError(err)) {
+    if (err && isTerminalAuthError(err)) {
       storeAuthSessionId('')
     }
     if (ctx.onFallbackToTokenClient) {

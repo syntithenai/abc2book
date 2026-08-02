@@ -135,5 +135,5 @@ export async function downloadStemZipForTune(tune, resolvedLink, options) {
   };
   const zipBlob = await buildStemZipBlob(cacheOptions, options);
   const filename = sanitizeDownloadFilename(tune.name, 'tune') + ' stems.zip';
-  downloadBlob(filename, zipBlob);
+  await downloadBlob(filename, zipBlob);
 }

@@ -14,7 +14,6 @@ import { isFeedFeedbackAdmin } from './feedFeedbackUtils'
 import { saveBlobToDevice } from './nativeFileSave'
 
 export const TUNE_DOWNLOAD_FORMATS = [
-  { id: 'abc', label: 'ABC', icon: 'music', description: 'ABC notation file' },
   { id: 'csv', label: 'CSV', icon: 'filelist', description: 'Spreadsheet metadata export' },
   { id: 'json', label: 'JSON', icon: 'stack', description: 'Tune data as JSON' },
   { id: 'midi', label: 'MIDI', icon: 'midi', description: 'Generated MIDI playback' },
@@ -125,9 +124,13 @@ export function tunesToLyricsText(tunes) {
 }
 
 
-export function downloadBlob(filename, blob) {
-  if (!blob) return
-  saveBlobToDevice(blob, filename).catch(function(err) {
+export async function downloadBlob(filename, blob) {
+  if (!blob) {
+    throw new Error('No file to download')
+  }
+  try {
+    await saveBlobToDevice(blob, filename)
+  } catch (err) {
     console.warn('downloadBlob failed', err)
     var url = window.URL.createObjectURL(blob)
     var anchor = document.createElement('a')
@@ -136,9 +139,11 @@ export function downloadBlob(filename, blob) {
     anchor.href = url
     anchor.download = filename
     anchor.click()
-    window.URL.revokeObjectURL(url)
     document.body.removeChild(anchor)
-  })
+    setTimeout(function() {
+      window.URL.revokeObjectURL(url)
+    }, 1000)
+  }
 }
 
 function pauseBetweenDownloads(ms) {
@@ -234,10 +239,20 @@ async function downloadNotationAudioForTune(tune, tunebook, audioFormat) {
   const buffer = await renderAbcToAudioBuffer(abc)
   const encoded = await encodeAudioBuffer(buffer, audioFormat)
   const extension = getAudioCompressExtension(audioFormat)
-  downloadBlob(
+  await downloadBlob(
     sanitizeDownloadFilename(tune && tune.name, 'tune') + '.' + extension,
     encoded.blob
   )
+}
+
+export function getLinkedAudioExportFilename(tune, tunebook, formatId) {
+  const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null
+  const resolved = resolveActiveLinkForTune(tune, null, isYoutubeLink)
+  if (!resolved) return null
+  const audioFormat = linkedAudioDownloadFormat(formatId)
+  const extension = getAudioCompressExtension(audioFormat)
+  const safeName = sanitizeDownloadFilename(tune && tune.name, 'tune')
+  return safeName + '-link-' + (parseInt(resolved.linkIndex, 10) + 1) + '.' + extension
 }
 
 async function downloadLinkedAudioForTune(tune, tunebook, token, formatId) {
@@ -247,9 +262,7 @@ async function downloadLinkedAudioForTune(tune, tunebook, token, formatId) {
     throw new Error('No linked media found for "' + (tune && tune.name ? tune.name : 'tune') + '"')
   }
   const audioFormat = linkedAudioDownloadFormat(formatId)
-  const extension = getAudioCompressExtension(audioFormat)
-  const safeName = sanitizeDownloadFilename(tune && tune.name, 'tune')
-  const filename = safeName + '-link-' + (parseInt(resolved.linkIndex, 10) + 1) + '.' + extension
+  const filename = getLinkedAudioExportFilename(tune, tunebook, formatId)
   const health = getMediaResolverHealthState()
   const { downloadTuneMediaExport } = await import('./mediaExportUtils')
   await downloadTuneMediaExport({

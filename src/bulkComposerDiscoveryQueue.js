@@ -1,5 +1,6 @@
 import localforage from 'localforage'
 import { toast } from 'react-toastify'
+import { checkCanAfford } from './creditAffordabilityClient'
 import { discoverComposers } from './composerSearchClient'
 import { isAbortError } from './abortUtils'
 import { needsComposerDiscovery, parseTitleComposerHints, buildComposerPickerCandidates } from './composerDiscoveryUtils'
@@ -420,6 +421,15 @@ async function runJob(job) {
   job.abortController = controller
 
   try {
+    if (job.accessToken) {
+      const afford = await checkCanAfford(job.accessToken, [{ id: 'composer_discovery' }])
+      if (!afford.creditUnlimited && !afford.affordable) {
+        job.status = 'error'
+        job.error = 'Insufficient resolver credit for composer discovery'
+        job.progress = 0
+        return
+      }
+    }
     const result = await discoverComposers({
       title: job.title,
       artist: job.artist || '',

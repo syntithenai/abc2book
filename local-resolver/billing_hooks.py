@@ -7,6 +7,7 @@ from typing import Any
 from billing import billing_enabled, record_usage, should_bill_user
 from billing_rates import (
     amt_job_cost_millicents,
+    api_proxy_cost_millicents,
     egress_cost_millicents,
     llm_token_cost_millicents,
     ocr_flat_cost_millicents,
@@ -125,6 +126,40 @@ class BillingContext:
     def record_ocr(self, email: str | None) -> dict[str, Any]:
         return self.record(email, ocr_flat_cost_millicents(), usage_type="ocr_vision", detail={})
 
+    def record_linked_cover_job(self, email: str | None) -> dict[str, Any]:
+        from billing_rates import linked_cover_job_cost_millicents
+
+        return self.record(email, linked_cover_job_cost_millicents(), usage_type="linked_cover_job", detail={})
+
+    def record_practice_track_job(self, email: str | None) -> dict[str, Any]:
+        from billing_rates import practice_track_job_cost_millicents
+
+        return self.record(email, practice_track_job_cost_millicents(), usage_type="practice_track_job", detail={})
+
+    def record_api_proxy(
+        self,
+        email: str | None,
+        capability: str,
+        *,
+        request_bytes: int = 0,
+        response_bytes: int = 0,
+        extra: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        millicents = api_proxy_cost_millicents(
+            capability,
+            request_bytes=request_bytes,
+            response_bytes=response_bytes,
+        )
+        detail: dict[str, Any] = {
+            "capability": capability,
+            "request_bytes": int(request_bytes),
+            "response_bytes": int(response_bytes),
+            "source": "user",
+        }
+        if extra:
+            detail.update(extra)
+        return self.record(email, millicents, usage_type="api_proxy", detail=detail)
+
 
 def bill_host_provider_response(
     ctx: BillingContext,
@@ -153,3 +188,49 @@ def bill_host_provider_response(
         return
     if usage_type == "ocr_vision":
         ctx.record_ocr(email)
+
+
+def bill_provider_response(
+    ctx: BillingContext,
+    email: str | None,
+    provider_cfg: dict[str, Any] | None,
+    *,
+    usage_type: str,
+    capability: str = "",
+    payload: dict[str, Any] | None = None,
+    model: str = "",
+    duration_seconds: float = 0.0,
+    request_bytes: int = 0,
+    response_bytes: int = 0,
+) -> None:
+    if not ctx.enabled_for(email) or not provider_cfg:
+        return
+    source = str(provider_cfg.get("source") or "").strip().lower()
+    cap = capability or usage_type.replace("_", "")
+    if source == "user":
+        ctx.record_api_proxy(
+            email,
+            cap,
+            request_bytes=request_bytes,
+            response_bytes=response_bytes,
+            extra={"model": model or str(provider_cfg.get("model") or "")},
+        )
+        return
+    if source != "host":
+        return
+    bill_host_provider_response(
+        ctx,
+        email,
+        provider_cfg,
+        usage_type=usage_type,
+        payload=payload,
+        model=model,
+        duration_seconds=duration_seconds,
+    )
+    if request_bytes > 0 or response_bytes > 0:
+        ctx.record_egress(
+            email,
+            int(request_bytes) + int(response_bytes),
+            usage_type="api_proxy_egress",
+            path=cap,
+        )

@@ -36,7 +36,9 @@ import SourcesSettingsSection from '../components/SourcesSettingsSection'
 import DuplicateManagerSettingsSection from '../components/DuplicateManagerSettingsSection'
 import LibraryScaleSettingsSection from '../components/LibraryScaleSettingsSection'
 import { isMusicCollectionSettingsAvailable } from '../musicCollectionAdminClient'
+import { isBillingAdminAvailable } from '../creditAdminClient'
 import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
+import BillingAdminSettingsSection from '../components/BillingAdminSettingsSection'
 import AndroidLocalMediaSettingsSection from '../components/AndroidLocalMediaSettingsSection'
 import AudioSettingsSection from '../components/AudioSettingsSection'
 import VoiceSettingsSection from '../components/VoiceSettingsSection'
@@ -80,6 +82,7 @@ const TAB_SOURCES = 'sources'
 const TAB_DUPLICATES = 'duplicates'
 const TAB_LIBRARY = 'library'
 const TAB_MUSIC_COLLECTION = 'music-collection'
+const TAB_BILLING_ADMIN = 'billing-admin'
 
 function formatFeatureSummary(features) {
   if (!features) return ''
@@ -165,7 +168,14 @@ export default function SettingsPage(props) {
   })
   const { status: resolverStatus, checked, features, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
   const showMusicCollectionTab = checked && isMusicCollectionSettingsAvailable(resolverStatus)
+  const showBillingAdminTab = checked && isBillingAdminAvailable(resolverStatus, props.user)
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
+
+  useEffect(function() {
+    if (accessToken) {
+      refreshMediaResolverHealth(accessToken)
+    }
+  }, [accessToken, refreshMediaResolverHealth])
   const [youtubeHelperStatus, setYoutubeHelperStatus] = useState({
     checking: true,
     ok: false,
@@ -508,6 +518,11 @@ export default function SettingsPage(props) {
         {showMusicCollectionTab ? (
           <Nav.Item>
             <Nav.Link eventKey={TAB_MUSIC_COLLECTION}>Music collection</Nav.Link>
+          </Nav.Item>
+        ) : null}
+        {showBillingAdminTab ? (
+          <Nav.Item>
+            <Nav.Link eventKey={TAB_BILLING_ADMIN}>Billing admin</Nav.Link>
           </Nav.Item>
         ) : null}
         <Nav.Item>
@@ -883,6 +898,17 @@ export default function SettingsPage(props) {
         {showMusicCollectionTab ? (
           <Tab.Pane eventKey={TAB_MUSIC_COLLECTION}>
             <MusicCollectionSettingsSection accessToken={accessToken} />
+          </Tab.Pane>
+        ) : null}
+
+        {showBillingAdminTab ? (
+          <Tab.Pane eventKey={TAB_BILLING_ADMIN}>
+            {activeTab === TAB_BILLING_ADMIN ? (
+              <BillingAdminSettingsSection
+                accessToken={accessToken}
+                billingEnabled={!!(resolverStatus && resolverStatus.billingEnabled)}
+              />
+            ) : null}
           </Tab.Pane>
         ) : null}
 

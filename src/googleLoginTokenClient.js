@@ -110,7 +110,7 @@ export function createTokenClientController(ctx) {
       return
     }
     var useScopes = scopesForClient(extraScopes, !!identityOnly)
-    client.current = global.window.google.accounts.oauth2.initTokenClient({
+    var refreshConfig = {
       client_id: ctx.clientId,
       prompt: '',
       scope: useScopes.join(' '),
@@ -122,7 +122,10 @@ export function createTokenClientController(ctx) {
       error_callback: function() {
         refreshInFlight = false
       },
-    })
+    }
+    var refreshHint = readLoginHintEmail()
+    if (refreshHint) refreshConfig.login_hint = refreshHint
+    client.current = global.window.google.accounts.oauth2.initTokenClient(refreshConfig)
   }
 
   function getToken() {
@@ -236,11 +239,19 @@ export function createTokenClientController(ctx) {
       scheduleRenew(current)
       return
     }
-    refreshPendingTimeout = setTimeout(function() {
+    function runRefreshAttempt() {
+      if (!(global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2)) {
+        refreshPendingTimeout = setTimeout(function() {
+          refreshPendingTimeout = null
+          runRefreshAttempt()
+        }, 200)
+        return
+      }
       refreshPendingTimeout = null
       initClient(scope, !scope)
       getToken()
-    }, 1000)
+    }
+    refreshPendingTimeout = setTimeout(runRefreshAttempt, 300)
   }
 
   function handleCredentialResponse(response) {

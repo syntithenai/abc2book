@@ -22,6 +22,8 @@ let snapcastPlaybackProxyBase = null;
 let castPlaybackProxyBase = null;
 let midiImportProxyBase = null;
 let musicCollectionProxyBase = null;
+let billingProxyBase = null;
+let billingAdminProxyBase = null;
 let lastProbeCandidates = [];
 
 // Health checks must fail fast. A configured-but-unreachable candidate (e.g. the
@@ -132,6 +134,30 @@ function pickMusicCollectionBase(candidates) {
   return remoteFallback;
 }
 
+function pickBillingProxyBase(candidates) {
+  let remoteFallback = null;
+  for (let i = 0; i < candidates.length; i++) {
+    const c = candidates[i];
+    if (!c.reachable || !c.available) continue;
+    if (!c.billingEnabled) continue;
+    if (isLikelyLocalResolverBase(c.base)) return c.base;
+    if (!remoteFallback) remoteFallback = c.base;
+  }
+  return remoteFallback;
+}
+
+function pickBillingAdminBase(candidates) {
+  let remoteFallback = null;
+  for (let i = 0; i < candidates.length; i++) {
+    const c = candidates[i];
+    if (!c.reachable) continue;
+    if (!c.adminAccess || !c.billingEnabled) continue;
+    if (isLikelyLocalResolverBase(c.base)) return c.base;
+    if (!remoteFallback) remoteFallback = c.base;
+  }
+  return remoteFallback;
+}
+
 export function hasMusicCollectionAccess(candidates) {
   if (!Array.isArray(candidates)) return false;
   for (let i = 0; i < candidates.length; i++) {
@@ -146,6 +172,22 @@ export function hasAdminAccess(candidates) {
     if (candidates[i].adminAccess) return true;
   }
   return false;
+}
+
+export function hasBillingAdminAccess(candidates) {
+  return !!pickBillingAdminBase(candidates);
+}
+
+export function getBillingAdminProxyBase() {
+  if (billingAdminProxyBase) return billingAdminProxyBase;
+  if (lastProbeCandidates.length > 0) {
+    const resolved = pickBillingAdminBase(lastProbeCandidates);
+    if (resolved) {
+      billingAdminProxyBase = resolved;
+      return resolved;
+    }
+  }
+  return '';
 }
 
 export function isMediaProxyConfigured() {
@@ -643,6 +685,8 @@ export async function probeMediaResolverCandidates(accessToken) {
   castPlaybackProxyBase = resolveCastPlaybackBase(candidates);
   midiImportProxyBase = pickMidiImportBase(candidates);
   musicCollectionProxyBase = pickMusicCollectionBase(candidates);
+  billingProxyBase = pickBillingProxyBase(candidates);
+  billingAdminProxyBase = pickBillingAdminBase(candidates);
   const preferredAuthBase = pickAuthResolverBase(candidates);
   const authBase = resolveStickyAuthBase(candidates, null);
   const collectionCandidate = musicCollectionProxyBase
@@ -678,6 +722,7 @@ export async function probeMediaResolverCandidates(accessToken) {
     creditUnlimited: activeCandidate ? !!activeCandidate.creditUnlimited : false,
     resolverAccess: activeCandidate ? activeCandidate.resolverAccess !== false : false,
     adminAccess: hasAdminAccess(candidates),
+    billingAdminAccess: hasBillingAdminAccess(candidates),
     musicCollectionAccess: hasMusicCollectionAccess(candidates),
     requireAuth: activeCandidate ? !!activeCandidate.requireAuth : false,
     authReason: activeCandidate ? (activeCandidate.authReason || '') : '',
@@ -780,6 +825,16 @@ function pathNeedsMusicCollection(pathAndQuery) {
     || endpoint === 'music-collection-art';
 }
 
+function pathNeedsBilling(pathAndQuery) {
+  const path = String(pathAndQuery || '').split('?')[0];
+  return path.indexOf('/billing/') === 0;
+}
+
+function pathNeedsBillingAdmin(pathAndQuery) {
+  const path = String(pathAndQuery || '').split('?')[0];
+  return path.indexOf('/billing/admin/') === 0;
+}
+
 function formatSnapcastPlaybackResolverError(error, bases) {
   const message = error && error.message ? String(error.message) : '';
   if (message.indexOf('Media proxy error 401') === 0
@@ -854,6 +909,12 @@ function resolvePreferredProxyBase(pathAndQuery) {
   if (pathNeedsMusicCollection(pathAndQuery) && musicCollectionProxyBase) {
     return musicCollectionProxyBase;
   }
+  if (pathNeedsBillingAdmin(pathAndQuery) && billingAdminProxyBase) {
+    return billingAdminProxyBase;
+  }
+  if (pathNeedsBilling(pathAndQuery) && billingProxyBase) {
+    return billingProxyBase;
+  }
   if (pathNeedsMidiAnalyze(pathAndQuery) && midiImportProxyBase) {
     return midiImportProxyBase;
   }
@@ -861,13 +922,22 @@ function resolvePreferredProxyBase(pathAndQuery) {
 }
 
 export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptions = {}) {
+  const billingAdminPath = pathNeedsBillingAdmin(pathAndQuery);
   const preferredBase = resolvePreferredProxyBase(pathAndQuery);
-  const bases = preferredBase
-    ? [preferredBase].concat(getMediaProxyBaseCandidates().filter(function(b) { return b !== preferredBase; }))
-    : getMediaProxyBaseCandidates();
+  let bases = billingAdminPath && billingAdminProxyBase
+    ? [billingAdminProxyBase]
+    : preferredBase
+      ? [preferredBase].concat(getMediaProxyBaseCandidates().filter(function(b) { return b !== preferredBase; }))
+      : getMediaProxyBaseCandidates();
 
   if (bases.length === 0) {
     throw new Error('Media proxy not configured');
+  }
+  if (billingAdminPath && !billingAdminProxyBase) {
+    throw new Error(
+      'No resolver with billing admin access is reachable. '
+      + 'Sign in with an admin account and ensure ALLOWED_ADMIN_EMAILS is set on a running billing resolver.'
+    );
   }
 
   let tokenForRequest = accessToken;
@@ -930,6 +1000,9 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
           + (hint ? ' (' + hint + ')' : '')
         );
         proxyError.status = response.status;
+        if (billingAdminPath) {
+          throw proxyError;
+        }
         if ((response.status === 401 || response.status === 403 || response.status === 404 || response.status === 405) && i < bases.length - 1) {
           lastError = proxyError;
           activeProxyBase = null;
@@ -951,6 +1024,24 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
     }
     if (pathNeedsHomeRemotePlayback(pathAndQuery)) {
       formatRemotePlaybackResolverError(lastError || new Error('fetch failed'), bases, pathAndQuery);
+    }
+    if (billingAdminPath) {
+      const message = lastError && lastError.message ? String(lastError.message) : '';
+      if (message.indexOf('Media proxy error 403') === 0) {
+        throw new Error('Admin access required on the billing resolver. Check ALLOWED_ADMIN_EMAILS on that host.');
+      }
+      if (message.indexOf('Media proxy error 404') === 0) {
+        throw new Error(
+          'Billing admin API is not available on '
+          + (billingAdminProxyBase || 'the resolver')
+          + '. Deploy the updated resolver or use a host that supports /billing/admin.'
+        );
+      }
+      const adminBase = billingAdminProxyBase || bases[0] || 'the billing resolver';
+      throw new Error(
+        'Could not reach the billing admin resolver (' + adminBase + '). '
+        + 'Ensure that resolver is running and your account is in ALLOWED_ADMIN_EMAILS.'
+      );
     }
     wrapFetchError(lastError || new Error('fetch failed'), bases);
   }

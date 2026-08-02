@@ -217,9 +217,6 @@ export default function useVoiceMicRecorder(options) {
       mediaRecorderRef.current = null
       cleanupAnalyser()
       setRecordingState('idle')
-      // #region agent log
-      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',runId:'post-fix',location:'useVoiceMicRecorder.js:recorder.onstop',message:'recorder stopped',data:{blobSize:blob.size,mimeType:recorder.mimeType},timestamp:Date.now(),hypothesisId:'H10,H11'})}).catch(()=>{});
-      // #endregion
       if (blob.size === 0) {
         if (typeof onEmptyRecording === 'function') {
           onEmptyRecording()
@@ -251,37 +248,22 @@ export default function useVoiceMicRecorder(options) {
       maxRecordTimerRef.current = null
       stopRecording()
     }, MAX_RECORD_MS)
-    // #region agent log
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',location:'useVoiceMicRecorder.js:attachRecorder:success',message:'recorder attached',data:{withAnalyser:withAnalyser,mimeType:recorder.mimeType},timestamp:Date.now(),hypothesisId:'H3'})}).catch(()=>{});
-    // #endregion
     } catch (attachError) {
-      // #region agent log
-      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',location:'useVoiceMicRecorder.js:attachRecorder:catch',message:'attachRecorder failed',data:{errorName:attachError&&attachError.name,errorMessage:attachError&&attachError.message,withAnalyser:withAnalyser},timestamp:Date.now(),hypothesisId:'H3'})}).catch(()=>{});
-      // #endregion
       throw attachError
     }
   }, [cleanupAnalyser, onAudioReady, onEmptyRecording, setKeyboardBlocked, stopRecording])
 
   const startRecording = useCallback(async function(requirePointerHeld, streamPromise) {
-    // #region agent log
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',runId:'post-fix',location:'useVoiceMicRecorder.js:startRecording:entry',message:'startRecording called',data:{requirePointerHeld:requirePointerHeld,hasStreamPromise:!!streamPromise,enabled:enabled,recordingState:recordingStateRef.current,pointerActive:pointerActiveRef.current,inputMode:inputModeRef.current},timestamp:Date.now(),hypothesisId:'H4,H5,H6'})}).catch(()=>{});
-    // #endregion
     if (!enabled || recordingStateRef.current !== 'idle') return
     if (requirePointerHeld && !pointerActiveRef.current) return
 
     try {
       const stream = await openMicrophoneStream({ audio: true }, streamPromise)
-      // #region agent log
-      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',location:'useVoiceMicRecorder.js:startRecording:afterStream',message:'stream obtained',data:{recordingState:recordingStateRef.current,pointerActive:pointerActiveRef.current,requirePointerHeld:requirePointerHeld,trackCount:stream.getAudioTracks?stream.getAudioTracks().length:0},timestamp:Date.now(),hypothesisId:'H4'})}).catch(()=>{});
-      // #endregion
       if (recordingStateRef.current !== 'idle') {
         stopMicrophoneStream(stream)
         return
       }
       if (requirePointerHeld && !pointerActiveRef.current) {
-        // #region agent log
-        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',location:'useVoiceMicRecorder.js:startRecording:pointerReleased',message:'discarding stream because pointer released',data:{requirePointerHeld:requirePointerHeld},timestamp:Date.now(),hypothesisId:'H4'})}).catch(()=>{});
-        // #endregion
         stopMicrophoneStream(stream)
         return
       }
@@ -292,9 +274,6 @@ export default function useVoiceMicRecorder(options) {
 
       attachRecorder(stream, inputModeRef.current === 'tap')
     } catch (error) {
-      // #region agent log
-      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'552c4e'},body:JSON.stringify({sessionId:'552c4e',location:'useVoiceMicRecorder.js:startRecording:catch',message:'startRecording error',data:{errorName:error&&error.name,errorMessage:error&&error.message,audioInputCount:error&&error.audioInputCount,micPermissionState:error&&error.micPermissionState,friendlyMessage:microphoneErrorMessage(error)},timestamp:Date.now(),hypothesisId:'H2,H3,H8,H9'})}).catch(()=>{});
-      // #endregion
       cleanupRecording()
       setRecordingState('idle')
       if (setKeyboardBlocked) setKeyboardBlocked(false)

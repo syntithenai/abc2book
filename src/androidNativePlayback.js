@@ -110,12 +110,6 @@ export async function playAndroidNativeUri(uri, options) {
     requestHeaders: opts.requestHeaders || undefined,
   });
   if (opts.tempo && opts.tempo !== 1) {
-    // #region agent log
-    agentDebugLog('androidNativePlayback.js:playAndroidNativeUri', 'set-speed', {
-      tempo: opts.tempo,
-      uriTail: uri ? String(uri).slice(-40) : null,
-    }, 'H-M');
-    // #endregion
     await setNativePlayerSpeed(opts.tempo);
   }
   return true;
@@ -388,11 +382,6 @@ export async function seekAndroidNativePlayer(positionSec) {
 
 export async function stopAndroidNativePlayer() {
   if (!shouldUseAndroidNativePlayer()) return false;
-  // #region agent log
-  agentDebugLog('androidNativePlayback.js:stopAndroidNativePlayer', 'called', {
-    stack: String(new Error().stack || '').split('\n').slice(1, 5).join(' | '),
-  }, 'H-G');
-  // #endregion
   await stopNativePlayer();
   return true;
 }

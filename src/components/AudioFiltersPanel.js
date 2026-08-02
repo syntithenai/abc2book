@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useSyncExternalStore } from 'react';
-import { Button, ProgressBar } from 'react-bootstrap';
+import { Alert, Button, ProgressBar } from 'react-bootstrap';
+import { revokeReadyDownload, saveReadyDownload } from '../offerBlobDownload';
 import {
   getStemAnalysisJobRevision,
   getStemAnalysisJobSnapshot,
@@ -29,6 +30,14 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
   const [analysisError, setAnalysisError] = useState('');
   const [downloadError, setDownloadError] = useState('');
   const [downloading, setDownloading] = useState(false);
+  const [readyDownload, setReadyDownload] = useState(null);
+  const downloadInFlightRef = useRef(false);
+
+  useEffect(function() {
+    return function() {
+      revokeReadyDownload(readyDownload);
+    };
+  }, [readyDownload]);
   const saveTimerRef = useRef(null);
   const applyTimerRef = useRef(null);
   const stemJobRevision = useSyncExternalStore(
@@ -160,15 +169,28 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
 
   async function handleDownload() {
     if (!mediaController || !mediaController.saveProcessedMediaToFile) return;
+    if (downloadInFlightRef.current) return;
     setDownloadError('');
+    revokeReadyDownload(readyDownload);
+    setReadyDownload(null);
+    downloadInFlightRef.current = true;
     setDownloading(true);
     try {
-      await mediaController.saveProcessedMediaToFile();
+      const ready = await mediaController.saveProcessedMediaToFile();
+      if (ready && ready.url) {
+        setReadyDownload(ready);
+      }
     } catch (e) {
       setDownloadError(e && e.message ? e.message : 'Download failed');
     } finally {
+      downloadInFlightRef.current = false;
       setDownloading(false);
     }
+  }
+
+  function handleReadyDownloadClick() {
+    if (!readyDownload) return;
+    saveReadyDownload(readyDownload);
   }
 
   function handleCancelAnalysis() {
@@ -253,6 +275,15 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
 
           {downloadError && (
             <div className="audio-filters-error">{downloadError}</div>
+          )}
+
+          {readyDownload && (
+            <Alert variant="success" className="audio-filters-ready-download">
+              <div>Your processed audio is ready.</div>
+              <Button variant="success" size="sm" className="mt-2" onClick={handleReadyDownloadClick}>
+                Save {readyDownload.filename}
+              </Button>
+            </Alert>
           )}
 
           {needsAnalysis && (

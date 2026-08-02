@@ -1,3 +1,4 @@
+import { checkCanAfford } from './creditAffordabilityClient';
 import { searchChords } from './chordsSearchClient';
 import { searchLyrics } from './lyricsSearchClient';
 import { researchTuneBackground } from './tuneBackgroundResearchClient';
@@ -160,7 +161,16 @@ export async function enrichImportCandidate(candidate, options) {
 
   onProgress('Searching for chords, lyrics, and background…', 0.1);
   const hasBackground = !!(typeof tune.backgroundInfo === 'string' && tune.backgroundInfo.trim());
-  const backgroundPromise = token && !hasBackground
+  let canResearchBackground = !!token && !hasBackground;
+  if (canResearchBackground) {
+    try {
+      const afford = await checkCanAfford(token, [{ id: 'background_research' }]);
+      canResearchBackground = afford.creditUnlimited || afford.affordable;
+    } catch (affordError) {
+      console.log(affordError);
+    }
+  }
+  const backgroundPromise = canResearchBackground
     ? researchTuneBackground({
       title: title,
       artist: artist,

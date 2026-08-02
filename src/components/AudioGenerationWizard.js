@@ -18,6 +18,7 @@ import {
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import useAbcjsParser from '../useAbcjsParser';
 import { getAudioGenerationAccess, getPracticeTrackGenerateLabel } from '../audioGenerationAccess';
+import { useCreditAffordance } from '../useCreditAffordance';
 import { openCreditSettings } from '../resolverCreditAccess';
 import { resolveResolverAccessToken } from '../resolverAccessToken';
 import { extractChordsPerBar, renderChordLayerWav } from '../practiceTrackChordLayer';
@@ -94,6 +95,32 @@ export default function AudioGenerationWizard(props) {
   const [backends, setBackends] = useState(null);
   const [backendsError, setBackendsError] = useState('');
 
+  const practiceAffordance = useCreditAffordance(token, 'practice_track');
+  const coverAffordance = useCreditAffordance(token, 'linked_cover');
+  const combinedAffordance = useMemo(function() {
+    if (!practiceAffordance.checked || !coverAffordance.checked) {
+      return { checked: false, affordable: true };
+    }
+    return {
+      checked: true,
+      affordable: practiceAffordance.affordable && coverAffordance.affordable,
+      estimateCents: Math.max(
+        Number(practiceAffordance.estimateCents) || 0,
+        Number(coverAffordance.estimateCents) || 0
+      ),
+      availableCents: Math.min(
+        Number(practiceAffordance.availableCents) || Infinity,
+        Number(coverAffordance.availableCents) || Infinity
+      ),
+      shortfallCents: Math.max(
+        Number(practiceAffordance.shortfallCents) || 0,
+        Number(coverAffordance.shortfallCents) || 0
+      ),
+      creditUnlimited: practiceAffordance.creditUnlimited || coverAffordance.creditUnlimited,
+      error: practiceAffordance.error || coverAffordance.error,
+    };
+  }, [practiceAffordance, coverAffordance]);
+
   const access = useMemo(function() {
     return getAudioGenerationAccess({
       resolverChecked: checked,
@@ -102,8 +129,9 @@ export default function AudioGenerationWizard(props) {
       features: features,
       accessToken: token,
       backends: backends,
+      affordance: combinedAffordance,
     });
-  }, [checked, available, status, features, token, backends]);
+  }, [checked, available, status, features, token, backends, combinedAffordance]);
 
   useEffect(function() {
     if (!checked) return undefined;
@@ -392,7 +420,7 @@ export default function AudioGenerationWizard(props) {
       requestLoginForGeneration();
       return;
     }
-    if (access.needsCredit) {
+    if (access.needsCredit || access.cannotAfford) {
       openCreditSettings();
       return;
     }

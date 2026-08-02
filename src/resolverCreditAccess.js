@@ -1,5 +1,6 @@
 /** Shared resolver credit + gating helpers for SPA feature buttons. */
 
+import { formatEstimateCents } from './creditAffordabilityClient'
 import { getResolverLoginWarning } from './mediaProxyClient'
 
 export function normalizeAccessToken(token) {
@@ -23,7 +24,34 @@ export function getGatedActionLabel(access, actionLabel) {
   if (!access) return label
   if (access.needsLogin) return 'Login to ' + label
   if (access.needsCredit) return 'Buy Credit to ' + label
+  if (access.cannotAfford) {
+    const est = formatEstimateCents(access.estimateCents)
+    if (est) return 'Insufficient credit (~' + est + ' needed) — ' + label
+    return 'Insufficient credit — ' + label
+  }
   return label
+}
+
+export function mergeAffordanceIntoAccess(baseAccess, affordance) {
+  const base = baseAccess || {}
+  const afford = affordance || {}
+  if (!afford.checked || afford.creditUnlimited || afford.error) {
+    return base
+  }
+  const cannotAfford = !afford.affordable
+  const needsCredit = base.needsCredit || cannotAfford
+  const canUse = base.canUse && !cannotAfford
+  const canGenerate = base.canGenerate != null ? (base.canGenerate && !cannotAfford) : undefined
+  return Object.assign({}, base, {
+    cannotAfford: cannotAfford,
+    needsCredit: needsCredit,
+    canUse: canUse,
+    canGenerate: canGenerate != null ? canGenerate : canUse,
+    estimateCents: afford.estimateCents,
+    availableCents: afford.availableCents,
+    shortfallCents: afford.shortfallCents,
+    affordanceChecked: afford.checked,
+  })
 }
 
 export function getResolverGatedActionAccess(context, options) {
@@ -70,6 +98,14 @@ export function runResolverGatedAction(access, handlers) {
     return true
   }
   if (access.needsCredit) {
+    if (typeof opts.buyCredit === 'function') {
+      opts.buyCredit()
+    } else {
+      openCreditSettings()
+    }
+    return true
+  }
+  if (access.cannotAfford) {
     if (typeof opts.buyCredit === 'function') {
       opts.buyCredit()
     } else {

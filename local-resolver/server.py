@@ -161,7 +161,10 @@ try:
     )
     from billing_hooks import BillingContext
     from billing_routes import register_billing_routes
-except ImportError:
+except ImportError as _billing_import_err:
+    import logging
+
+    logging.getLogger(__name__).warning("Billing module not available: %s", _billing_import_err)
     billing_enabled = lambda: False  # type: ignore[assignment]
     ensure_billing_db = lambda: None  # type: ignore[assignment]
     grant_trial_if_new = lambda email: {"granted": False}  # type: ignore[assignment]
@@ -352,12 +355,69 @@ def use_billed_llm(verified: dict | None, llm_cfg: dict | None):
             ctx.record_llm_usage(email, payload, model=llm_model(llm_cfg))
 
         billing_token = set_billing_recorder(_record)
-    with use_billed_llm(verified, llm_cfg):
+    with use_llm_provider(llm_cfg):
         try:
             yield
         finally:
             if billing_token is not None:
                 reset_billing_recorder(billing_token)
+
+
+def http_exception_response(exc: HTTPException, origin):
+    detail = exc.detail
+    if isinstance(detail, dict):
+        return JSONResponse(status_code=exc.status_code, content=detail, headers=cors_headers(origin))
+    return json_error(exc.status_code, str(detail), origin)
+
+
+def _provider_billing_params(provider_cfg: dict | None, **extra) -> dict:
+    source = "host"
+    if provider_cfg:
+        source = str(provider_cfg.get("source") or "host").strip().lower()
+    params = {"providerSource": source}
+    params.update(extra)
+    return params
+
+
+def _billing_reservation(
+    verified: dict | None,
+    operation_id: str,
+    params: dict | None = None,
+    *,
+    provider_cfg: dict | None = None,
+    model: str = "",
+):
+    from billing_reservation import require_credit_reservation
+    from llm_runtime import llm_model
+
+    merged = dict(params or {})
+    if provider_cfg:
+        merged.update(_provider_billing_params(provider_cfg))
+    model_name = model or (llm_model(provider_cfg) if provider_cfg else "")
+    return require_credit_reservation(
+        _billing_email(verified),
+        operation_id,
+        merged,
+        provider_cfg=provider_cfg,
+        model=model_name,
+        free_allowlist=FREE_ACCESS_EMAILS,
+        embedded_allowlist=EMBEDDED_CREDS_EMAILS,
+    )
+
+
+def _make_llm_credit_guard(reservation, provider_cfg, model: str = ""):
+    from billing_estimates import estimate_single_llm_call_millicents
+    from llm_runtime import llm_model
+
+    source = str((provider_cfg or {}).get("source") or "host").lower()
+    model_name = model or llm_model(provider_cfg)
+    estimate = estimate_single_llm_call_millicents(model_name, provider_source=source)
+
+    async def guard(_stage: str = ""):
+        if reservation:
+            reservation.ensure_available(estimate)
+
+    return guard
 
 
 def static_site_root():
@@ -1084,6 +1144,7 @@ try:
         cors_headers=cors_headers,
         get_free_allowlist=lambda: FREE_ACCESS_EMAILS,
         get_embedded_allowlist=lambda: EMBEDDED_CREDS_EMAILS,
+        get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
     )
 except Exception:
     pass
@@ -1838,7 +1899,7 @@ async def forward_to_whisper(audio_bytes, filename, content_type, request, provi
                 timeout=WHISPER_TIMEOUT_SECONDS,
             )
             ctx = billing_context()
-            if ctx and billing_email and provider_cfg.get("source") == "host":
+            if ctx and billing_email:
                 duration = 0.0
                 for seg in result.get("segments") or []:
                     duration += max(
@@ -1847,10 +1908,18 @@ async def forward_to_whisper(audio_bytes, filename, content_type, request, provi
                     )
                 if duration <= 0:
                     duration = max(1.0, len(audio_bytes) / 32000.0)
-                ctx.record_whisper_usage(
+                from billing_hooks import bill_provider_response
+
+                bill_provider_response(
+                    ctx,
                     billing_email,
-                    duration,
+                    provider_cfg,
+                    usage_type="whisper_minutes",
+                    capability="whisper",
+                    duration_seconds=duration,
                     model=str(provider_cfg.get("model") or ""),
+                    request_bytes=len(audio_bytes),
+                    response_bytes=len(json.dumps(result)),
                 )
             return result
         except Exception as exc:
@@ -3560,17 +3629,26 @@ async def transcribe(
             verified,
             local_available=_whisper_local_available(),
         )
-        body = await forward_to_whisper(
-            audio_bytes,
-            filename,
-            content_type,
-            request,
+        reservation = _billing_reservation(
+            verified,
+            "whisper_transcribe",
+            _provider_billing_params(provider_cfg, audio_bytes=len(audio_bytes)),
             provider_cfg=provider_cfg,
-            billing_email=_billing_email(verified),
         )
+        try:
+            body = await forward_to_whisper(
+                audio_bytes,
+                filename,
+                content_type,
+                request,
+                provider_cfg=provider_cfg,
+                billing_email=_billing_email(verified),
+            )
+        finally:
+            reservation.finalize()
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        return http_exception_response(exc, origin)
 
 
 async def _transcribe_wav_for_playback_scan(wav_path, request):
@@ -3821,18 +3899,33 @@ async def voice_command_endpoint(
             voice_mode = "playback"
 
         filename = file.filename or "voice-command.webm"
-        body = await _process_voice_command_audio(
-            audio_bytes,
-            filename,
-            book_list,
-            tag_list,
+        whisper_cfg = await resolve_request_provider(
+            "whisper",
             request,
-            voice_mode,
-            verified=verified,
+            verified,
+            local_available=_whisper_local_available(),
         )
+        reservation = _billing_reservation(
+            verified,
+            "voice_command",
+            _provider_billing_params(whisper_cfg, audio_bytes=len(audio_bytes), duration_seconds=30.0),
+            provider_cfg=whisper_cfg,
+        )
+        try:
+            body = await _process_voice_command_audio(
+                audio_bytes,
+                filename,
+                book_list,
+                tag_list,
+                request,
+                voice_mode,
+                verified=verified,
+            )
+        finally:
+            reservation.finalize()
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        return http_exception_response(exc, origin)
 
 
 @app.post("/tts/speech")
@@ -3882,8 +3975,17 @@ async def help_query_endpoint(
             return json_error(400, "Missing help question", origin)
 
         llm_cfg = await _resolve_llm_for_request(request, verified, voice=True)
-        with use_billed_llm(verified, llm_cfg):
-            intent = await parse_help_intent_llm(question)
+        reservation = _billing_reservation(
+            verified,
+            "help_query",
+            _provider_billing_params(llm_cfg),
+            provider_cfg=llm_cfg,
+        )
+        try:
+            with use_billed_llm(verified, llm_cfg):
+                intent = await parse_help_intent_llm(question)
+        finally:
+            reservation.finalize()
         body = {
             "question": question,
             "answer": intent.get("helpAnswer")
@@ -3896,7 +3998,7 @@ async def help_query_endpoint(
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        return http_exception_response(exc, origin)
 
 
 @app.post("/search-lyrics")
@@ -4324,7 +4426,15 @@ async def search_images_endpoint(
 
 
 async def stream_tune_background_research_events(
-    title, artist, lyrics="", existing_background=""
+    title,
+    artist,
+    lyrics="",
+    existing_background="",
+    *,
+    verified=None,
+    llm_cfg=None,
+    credit_guard=None,
+    reservation=None,
 ):
     queue = asyncio.Queue()
 
@@ -4339,13 +4449,15 @@ async def stream_tune_background_research_events(
 
     async def run():
         try:
-            body = await research_tune_background(
-                title,
-                artist,
-                lyrics,
-                existing_background,
-                on_progress=on_progress,
-            )
+            with use_billed_llm(verified, llm_cfg):
+                body = await research_tune_background(
+                    title,
+                    artist,
+                    lyrics,
+                    existing_background,
+                    on_progress=on_progress,
+                    credit_guard=credit_guard,
+                )
             await queue.put({"type": "result", "body": body})
         except ValueError as exc:
             await queue.put({
@@ -4354,9 +4466,10 @@ async def stream_tune_background_research_events(
                 "status": 400,
             })
         except HTTPException as exc:
+            detail = exc.detail if isinstance(exc.detail, str) else json.dumps(exc.detail)
             await queue.put({
                 "type": "error",
-                "message": str(exc.detail),
+                "message": detail,
                 "status": exc.status_code,
             })
         except Exception as exc:
@@ -4366,6 +4479,8 @@ async def stream_tune_background_research_events(
                 "status": 500,
             })
         finally:
+            if reservation:
+                reservation.finalize()
             await queue.put(None)
 
     task = asyncio.create_task(run())
@@ -4400,30 +4515,50 @@ async def research_tune_background_endpoint(
             or ""
         )
         llm_cfg = await _resolve_llm_for_request(request, verified)
+        reservation = _billing_reservation(
+            verified,
+            "background_research",
+            _provider_billing_params(llm_cfg),
+            provider_cfg=llm_cfg,
+        )
+        credit_guard = _make_llm_credit_guard(reservation, llm_cfg)
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
         if wants_stream:
             async def body():
-                with use_billed_llm(verified, llm_cfg):
-                    async for line in stream_tune_background_research_events(
-                        title, artist, lyrics, existing_background
-                    ):
-                        yield line.encode("utf-8")
+                async for line in stream_tune_background_research_events(
+                    title,
+                    artist,
+                    lyrics,
+                    existing_background,
+                    verified=verified,
+                    llm_cfg=llm_cfg,
+                    credit_guard=credit_guard,
+                    reservation=reservation,
+                ):
+                    yield line.encode("utf-8")
 
             headers = cors_headers(origin)
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(body(), media_type="application/x-ndjson", headers=headers)
 
-        with use_billed_llm(verified, llm_cfg):
-            body = await research_tune_background(
-                title, artist, lyrics, existing_background
-            )
+        try:
+            with use_billed_llm(verified, llm_cfg):
+                body = await research_tune_background(
+                    title,
+                    artist,
+                    lyrics,
+                    existing_background,
+                    credit_guard=credit_guard,
+                )
+        finally:
+            reservation.finalize()
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        return http_exception_response(exc, origin)
 
 
 @app.post("/generate-feed-articles")
@@ -4438,18 +4573,27 @@ async def generate_feed_articles_endpoint(
         track_resolver_usage("generate-feed-articles")
         payload = await request.json()
         llm_cfg = await _resolve_llm_for_request(request, verified)
-        with use_billed_llm(verified, llm_cfg):
-            body = await generate_feed_articles(
-                str(payload.get("title") or "").strip(),
-                str(payload.get("artist") or "").strip(),
-                payload.get("facts") if isinstance(payload.get("facts"), list) else [],
-                str(payload.get("backgroundInfo") or ""),
-            )
+        reservation = _billing_reservation(
+            verified,
+            "feed_article",
+            _provider_billing_params(llm_cfg),
+            provider_cfg=llm_cfg,
+        )
+        try:
+            with use_billed_llm(verified, llm_cfg):
+                body = await generate_feed_articles(
+                    str(payload.get("title") or "").strip(),
+                    str(payload.get("artist") or "").strip(),
+                    payload.get("facts") if isinstance(payload.get("facts"), list) else [],
+                    str(payload.get("backgroundInfo") or ""),
+                )
+        finally:
+            reservation.finalize()
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        return http_exception_response(exc, origin)
 
 
 @app.post("/generate-feed-quizzes")
@@ -4464,18 +4608,27 @@ async def generate_feed_quizzes_endpoint(
         track_resolver_usage("generate-feed-quizzes")
         payload = await request.json()
         llm_cfg = await _resolve_llm_for_request(request, verified)
-        with use_billed_llm(verified, llm_cfg):
-            body = await generate_feed_quizzes(
-                str(payload.get("title") or "").strip(),
-                str(payload.get("artist") or "").strip(),
-                payload.get("facts") if isinstance(payload.get("facts"), list) else [],
-                str(payload.get("backgroundInfo") or ""),
-            )
+        reservation = _billing_reservation(
+            verified,
+            "feed_quiz",
+            _provider_billing_params(llm_cfg),
+            provider_cfg=llm_cfg,
+        )
+        try:
+            with use_billed_llm(verified, llm_cfg):
+                body = await generate_feed_quizzes(
+                    str(payload.get("title") or "").strip(),
+                    str(payload.get("artist") or "").strip(),
+                    payload.get("facts") if isinstance(payload.get("facts"), list) else [],
+                    str(payload.get("backgroundInfo") or ""),
+                )
+        finally:
+            reservation.finalize()
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        return http_exception_response(exc, origin)
 
 
 @app.post("/enrich-feed-sources")
@@ -4517,6 +4670,12 @@ async def discover_composer_endpoint(
         artist = str(payload.get("artist") or "").strip()
         title_hint = str(payload.get("titleHint") or payload.get("title_hint") or "").strip()
         llm_cfg = await _resolve_llm_for_request(request, verified)
+        reservation = _billing_reservation(
+            verified,
+            "composer_discovery",
+            _provider_billing_params(llm_cfg),
+            provider_cfg=llm_cfg,
+        )
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
@@ -4564,6 +4723,7 @@ async def discover_composer_endpoint(
                             "status": 500,
                         })
                     finally:
+                        reservation.finalize()
                         await queue.put(None)
 
                 task = asyncio.create_task(run())
@@ -4580,19 +4740,22 @@ async def discover_composer_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
 
-        with use_billed_llm(verified, llm_cfg):
-            async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
-                body = await discover_composer(
-                    client,
-                    title,
-                    artist=artist,
-                    title_hint=title_hint,
-                )
+        try:
+            with use_billed_llm(verified, llm_cfg):
+                async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
+                    body = await discover_composer(
+                        client,
+                        title,
+                        artist=artist,
+                        title_hint=title_hint,
+                    )
+        finally:
+            reservation.finalize()
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        return http_exception_response(exc, origin)
 
 
 @app.post("/discover-genre")
@@ -4616,6 +4779,12 @@ async def discover_genre_endpoint(
             payload.get("currentGenre") or payload.get("current_genre") or ""
         ).strip()
         llm_cfg = await _resolve_llm_for_request(request, verified)
+        reservation = _billing_reservation(
+            verified,
+            "genre_discovery",
+            _provider_billing_params(llm_cfg),
+            provider_cfg=llm_cfg,
+        )
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
@@ -4665,6 +4834,7 @@ async def discover_genre_endpoint(
                             "status": 500,
                         })
                     finally:
+                        reservation.finalize()
                         await queue.put(None)
 
                 task = asyncio.create_task(run())
@@ -4681,21 +4851,24 @@ async def discover_genre_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
 
-        with use_billed_llm(verified, llm_cfg):
-            async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
-                body = await discover_genre(
-                    client,
-                    title,
-                    artist=artist,
-                    rhythm=rhythm,
-                    background_info=background_info,
-                    current_genre=current_genre,
-                )
+        try:
+            with use_billed_llm(verified, llm_cfg):
+                async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
+                    body = await discover_genre(
+                        client,
+                        title,
+                        artist=artist,
+                        rhythm=rhythm,
+                        background_info=background_info,
+                        current_genre=current_genre,
+                    )
+        finally:
+            reservation.finalize()
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        return http_exception_response(exc, origin)
 
 
 def _sanitize_abc_for_musicxml(abc_text: str) -> str:
@@ -4985,25 +5158,40 @@ async def separate_stems(
         if len(audio_bytes) > MAX_STREAM_BYTES:
             return json_error(413, "Media file too large", origin)
 
-        body = await separate_stems_from_audio(
-            audio_bytes,
-            filename,
-            source_key,
-            request,
+        reservation = _billing_reservation(
+            verified,
+            "stem_job",
+            _provider_billing_params(provider_cfg, audio_bytes=len(audio_bytes)),
             provider_cfg=provider_cfg,
-            model_override=model_override,
         )
-        ctx = billing_context()
-        if (
-            ctx
-            and is_cloud_stems_provider(provider_cfg)
-            and provider_cfg
-            and provider_cfg.get("source") == "host"
-        ):
-            ctx.record_stem_job(_billing_email(verified))
+        try:
+            body = await separate_stems_from_audio(
+                audio_bytes,
+                filename,
+                source_key,
+                request,
+                provider_cfg=provider_cfg,
+                model_override=model_override,
+            )
+            ctx = billing_context()
+            billing_email = _billing_email(verified)
+            if ctx and billing_email and is_cloud_stems_provider(provider_cfg):
+                from billing_hooks import bill_provider_response
+
+                bill_provider_response(
+                    ctx,
+                    billing_email,
+                    provider_cfg,
+                    usage_type="stem_job",
+                    capability="stems",
+                    request_bytes=len(audio_bytes),
+                    response_bytes=len(json.dumps(body)),
+                )
+        finally:
+            reservation.finalize()
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        return http_exception_response(exc, origin)
 
 
 @app.get("/stems/{cache_id}/status")
@@ -5117,6 +5305,21 @@ async def generate_audio(
     source: UploadFile | None = File(default=None),
     authorization: str | None = Header(default=None),
 ):
+    verified = await maybe_require_auth(authorization)
+    task = (taskId or "practice_track").strip()
+    operation = "linked_cover" if task == "linked_cover" else "practice_track"
+    reservation = _billing_reservation(verified, operation, {})
+
+    def on_job_finished(success, task_id):
+        ctx = billing_context()
+        email = _billing_email(verified)
+        if success and ctx and email:
+            if task_id == "linked_cover":
+                ctx.record_linked_cover_job(email)
+            else:
+                ctx.record_practice_track_job(email)
+        reservation.finalize()
+
     return await post_generate_audio(
         request,
         task_id=taskId,
@@ -5132,6 +5335,7 @@ async def generate_audio(
         cors_headers=cors_headers,
         resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
         trim_audio_bytes=_trim_audio_bytes,
+        on_job_finished=on_job_finished,
     )
 
 
@@ -5145,6 +5349,16 @@ async def generate_practice_track(
     presetId: str = Form("fast"),
     authorization: str | None = Header(default=None),
 ):
+    verified = await maybe_require_auth(authorization)
+    reservation = _billing_reservation(verified, "practice_track", {})
+
+    def on_job_finished(success, task_id):
+        ctx = billing_context()
+        email = _billing_email(verified)
+        if success and ctx and email:
+            ctx.record_practice_track_job(email)
+        reservation.finalize()
+
     return await post_generate_practice_track(
         request,
         task_id="practice_track",
@@ -5158,6 +5372,7 @@ async def generate_practice_track(
         cors_headers=cors_headers,
         resolve_linked_media_audio_bytes=resolve_linked_media_audio_bytes,
         trim_audio_bytes=_trim_audio_bytes,
+        on_job_finished=on_job_finished,
     )
 
 
@@ -6401,8 +6616,31 @@ async def transcribe_sheet_image(
         )
         if provider_cfg and provider_cfg.get("provider") != "local" and provider_cfg.get("apiUrl"):
             from provider_cloud import ocr_openai_vision
+            from billing_hooks import bill_provider_response
 
-            body = await ocr_openai_vision(image_bytes, filename, provider_cfg)
+            ocr_op = "sheet_ocr_user" if provider_cfg.get("source") == "user" else "sheet_ocr_host"
+            reservation = _billing_reservation(
+                verified,
+                ocr_op,
+                _provider_billing_params(provider_cfg, image_bytes=len(image_bytes)),
+                provider_cfg=provider_cfg,
+            )
+            try:
+                body = await ocr_openai_vision(image_bytes, filename, provider_cfg)
+                ctx = billing_context()
+                billing_email = _billing_email(verified)
+                if ctx and billing_email:
+                    bill_provider_response(
+                        ctx,
+                        billing_email,
+                        provider_cfg,
+                        usage_type="ocr_vision",
+                        capability="ocr",
+                        request_bytes=len(image_bytes),
+                        response_bytes=len(json.dumps(body)),
+                    )
+            finally:
+                reservation.finalize()
             return JSONResponse(content=body, headers=cors_headers(origin))
 
         title_hint_list: list[str] | None = None

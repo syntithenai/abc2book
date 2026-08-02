@@ -352,6 +352,7 @@ try:
         cors_headers=cors_headers,
         get_free_allowlist=lambda: HOSTED_FREE_ACCESS_EMAILS,
         get_embedded_allowlist=lambda: EMBEDDED_CREDS_EMAILS,
+        get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
     )
 except Exception:
     pass
@@ -405,7 +406,8 @@ async def transcribe(
             cfg,
         )
         ctx = billing_context()
-        if ctx and cfg.get("source") == "host":
+        billing_email = _billing_email(verified)
+        if ctx and billing_email:
             duration = 0.0
             for seg in body.get("segments") or []:
                 duration += max(
@@ -414,10 +416,18 @@ async def transcribe(
                 )
             if duration <= 0:
                 duration = max(1.0, len(audio_bytes) / 32000.0)
-            ctx.record_whisper_usage(
-                _billing_email(verified),
-                duration,
+            from billing_hooks import bill_provider_response
+
+            bill_provider_response(
+                ctx,
+                billing_email,
+                cfg,
+                usage_type="whisper_minutes",
+                capability="whisper",
+                duration_seconds=duration,
                 model=str(cfg.get("model") or ""),
+                request_bytes=len(audio_bytes),
+                response_bytes=len(json.dumps(body)),
             )
         return JSONResponse(body, headers=cors_headers(origin))
     except HTTPException as exc:
@@ -452,7 +462,23 @@ async def provider_llm_chat(request: Request, authorization: str | None = Header
             raise HTTPException(status_code=503, detail="LLM provider required")
         payload = await request.json()
         messages = payload.get("messages") or []
+        req_bytes = len(json.dumps(payload))
         text = await chat_openai_compat(messages, cfg)
+        ctx = billing_context()
+        billing_email = _billing_email(verified)
+        if ctx and billing_email:
+            from billing_hooks import bill_provider_response
+
+            bill_provider_response(
+                ctx,
+                billing_email,
+                cfg,
+                usage_type="llm_tokens",
+                capability="llm",
+                request_bytes=req_bytes,
+                response_bytes=len(text or ""),
+                model=str(cfg.get("model") or ""),
+            )
         return JSONResponse({"text": text, "backend": "provider:" + cfg.get("provider", "cloud")}, headers=cors_headers(origin))
     except HTTPException as exc:
         return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
@@ -959,6 +985,21 @@ async def transcribe_sheet_image_cloud(
         from provider_cloud import ocr_openai_vision
 
         body = await ocr_openai_vision(image_bytes, file.filename or "upload.png", cfg)
+        ctx = billing_context()
+        billing_email = _billing_email(verified)
+        if ctx and billing_email:
+            from billing_hooks import bill_provider_response
+
+            bill_provider_response(
+                ctx,
+                billing_email,
+                cfg,
+                usage_type="ocr_vision",
+                capability="ocr",
+                request_bytes=len(image_bytes),
+                response_bytes=len(json.dumps(body)),
+                model=str(cfg.get("model") or ""),
+            )
         return JSONResponse(body, headers=cors_headers(origin))
     except HTTPException as exc:
         return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))

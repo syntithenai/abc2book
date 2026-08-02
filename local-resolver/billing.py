@@ -40,6 +40,9 @@ BILLING_PAYMENT_EVENTS_COLLECTION = os.getenv(
     "BILLING_PAYMENT_EVENTS_COLLECTION",
     "billing_payment_events",
 ).strip()
+BILLING_HOLDS_COLLECTION = os.getenv("BILLING_HOLDS_COLLECTION", "billing_holds").strip()
+BILLING_RESERVATIONS_ENABLED = os.getenv("BILLING_RESERVATIONS_ENABLED", "true").lower() in ("1", "true", "yes")
+HOLD_TTL_SECONDS = float(os.getenv("BILLING_HOLD_TTL_SECONDS", "600"))
 
 _db_initialized = False
 _firestore_client = None
@@ -129,6 +132,23 @@ def ensure_db() -> None:
                 PRIMARY KEY (provider, event_id)
             )
             """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS credit_holds (
+                hold_id TEXT PRIMARY KEY,
+                email TEXT NOT NULL,
+                millicents INTEGER NOT NULL,
+                operation_id TEXT NOT NULL DEFAULT '',
+                detail_json TEXT NOT NULL DEFAULT '{}',
+                created_at REAL NOT NULL,
+                expires_at REAL NOT NULL,
+                released INTEGER NOT NULL DEFAULT 0
+            )
+            """
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_credit_holds_email ON credit_holds(email, released, expires_at)"
         )
         conn.commit()
     _db_initialized = True
@@ -628,6 +648,247 @@ def grant_purchase_cents(email: str, amount_cents: int, *, stripe_event_id: str,
     )
 
 
+def account_to_api(account: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "email": account["email"],
+        "balanceCents": millicents_to_cents(int(account["balance_millicents"])),
+        "balanceMillicents": int(account["balance_millicents"]),
+        "trialGranted": bool(account.get("trial_granted")),
+        "createdAt": float(account.get("created_at") or 0),
+        "updatedAt": float(account.get("updated_at") or 0),
+    }
+
+
+_account_to_api = account_to_api
+
+
+def list_accounts(
+    *,
+    limit: int = 100,
+    offset: int = 0,
+    query: str = "",
+) -> dict[str, Any]:
+    limit = max(1, min(int(limit), 500))
+    offset = max(0, int(offset))
+    q = (query or "").strip().lower()
+
+    if _use_firestore():
+        client = _get_firestore_client()
+        coll = client.collection(BILLING_FIRESTORE_COLLECTION)
+        if q:
+            docs = [doc for doc in coll.stream() if q in doc.id]
+            docs.sort(key=lambda d: float((d.to_dict() or {}).get("updated_at") or 0), reverse=True)
+            total = len(docs)
+            page = docs[offset : offset + limit]
+        else:
+            docs = list(coll.order_by("updated_at", direction="DESCENDING").offset(offset).limit(limit).stream())
+            total = coll.count().get()[0][0].value
+        accounts = []
+        for doc in page:
+            data = doc.to_dict() or {}
+            accounts.append(
+                _account_to_api(
+                    {
+                        "email": doc.id,
+                        "balance_millicents": int(data.get("balance_millicents") or 0),
+                        "trial_granted": bool(data.get("trial_granted")),
+                        "created_at": float(data.get("created_at") or 0),
+                        "updated_at": float(data.get("updated_at") or 0),
+                    }
+                )
+            )
+        return {"accounts": accounts, "total": int(total)}
+
+    ensure_db()
+    where = ""
+    params: list[Any] = []
+    if q:
+        where = " WHERE email LIKE ?"
+        params.append(f"%{q}%")
+    with _connect() as conn:
+        total_row = conn.execute(
+            f"SELECT COUNT(*) AS c FROM credit_accounts{where}",
+            params,
+        ).fetchone()
+        total = int(total_row["c"]) if total_row else 0
+        rows = conn.execute(
+            f"""
+            SELECT email, balance_millicents, trial_granted, created_at, updated_at
+            FROM credit_accounts{where}
+            ORDER BY updated_at DESC
+            LIMIT ? OFFSET ?
+            """,
+            params + [limit, offset],
+        ).fetchall()
+    accounts = [
+        _account_to_api(
+            {
+                "email": row["email"],
+                "balance_millicents": int(row["balance_millicents"]),
+                "trial_granted": bool(row["trial_granted"]),
+                "created_at": float(row["created_at"]),
+                "updated_at": float(row["updated_at"]),
+            }
+        )
+        for row in rows
+    ]
+    return {"accounts": accounts, "total": total}
+
+
+def admin_set_balance(
+    email: str,
+    target_millicents: int,
+    *,
+    admin_email: str,
+    reason: str = "",
+) -> dict[str, Any]:
+    email = _normalize_email(email)
+    admin_email = _normalize_email(admin_email)
+    if not email:
+        return {"ok": False, "error": "missing_email"}
+    if not admin_email:
+        return {"ok": False, "error": "missing_admin_email"}
+    target_millicents = int(target_millicents)
+    current = get_balance_millicents(email)
+    delta = target_millicents - current
+    if delta == 0:
+        account = get_account(email)
+        return {
+            "ok": True,
+            "no_change": True,
+            "account": _account_to_api(account) if account else None,
+        }
+    detail: dict[str, Any] = {
+        "admin_email": admin_email,
+        "previous_millicents": current,
+        "target_millicents": target_millicents,
+    }
+    if reason:
+        detail["reason"] = reason
+    result = apply_delta(
+        email,
+        delta,
+        entry_type="admin_adjustment",
+        usage_type="admin_set_balance",
+        detail=detail,
+        allow_negative=True,
+    )
+    if not result.get("ok"):
+        return result
+    account = get_account(email)
+    return {"ok": True, "account": _account_to_api(account) if account else None}
+
+
+def admin_rename_account(
+    old_email: str,
+    new_email: str,
+    *,
+    admin_email: str = "",
+) -> dict[str, Any]:
+    old_email = _normalize_email(old_email)
+    new_email = _normalize_email(new_email)
+    admin_email = _normalize_email(admin_email)
+    if not old_email or not new_email:
+        return {"ok": False, "error": "missing_email"}
+    if old_email == new_email:
+        account = get_account(old_email)
+        return {
+            "ok": True,
+            "no_change": True,
+            "account": _account_to_api(account) if account else None,
+        }
+    if get_account(new_email):
+        return {"ok": False, "error": "target_exists"}
+
+    if _use_firestore():
+        return _firestore_rename_account(old_email, new_email, admin_email=admin_email)
+
+    ensure_db()
+    with _connect() as conn:
+        conn.execute("BEGIN IMMEDIATE")
+        row = conn.execute(
+            "SELECT balance_millicents, trial_granted, created_at, updated_at FROM credit_accounts WHERE email = ?",
+            (old_email,),
+        ).fetchone()
+        if not row:
+            conn.execute("ROLLBACK")
+            return {"ok": False, "error": "account_not_found"}
+        exists = conn.execute(
+            "SELECT email FROM credit_accounts WHERE email = ?",
+            (new_email,),
+        ).fetchone()
+        if exists:
+            conn.execute("ROLLBACK")
+            return {"ok": False, "error": "target_exists"}
+        now = time.time()
+        conn.execute(
+            """
+            INSERT INTO credit_accounts (email, balance_millicents, trial_granted, created_at, updated_at)
+            VALUES (?, ?, ?, ?, ?)
+            """,
+            (
+                new_email,
+                int(row["balance_millicents"]),
+                int(row["trial_granted"]),
+                float(row["created_at"]),
+                now,
+            ),
+        )
+        conn.execute("DELETE FROM credit_accounts WHERE email = ?", (old_email,))
+        conn.execute("UPDATE credit_ledger SET email = ? WHERE email = ?", (new_email, old_email))
+        conn.execute("UPDATE payment_events SET email = ? WHERE email = ?", (new_email, old_email))
+        conn.execute("UPDATE stripe_events SET email = ? WHERE email = ?", (new_email, old_email))
+        conn.commit()
+    account = get_account(new_email)
+    return {"ok": True, "account": _account_to_api(account) if account else None}
+
+
+def _firestore_rename_account(old_email: str, new_email: str, *, admin_email: str = "") -> dict[str, Any]:
+    client = _get_firestore_client()
+    old_ref = _firestore_account_ref(old_email)
+    new_ref = _firestore_account_ref(new_email)
+    old_snap = old_ref.get()
+    if not old_snap.exists:
+        return {"ok": False, "error": "account_not_found"}
+    if new_ref.get().exists:
+        return {"ok": False, "error": "target_exists"}
+
+    data = old_snap.to_dict() or {}
+    now = time.time()
+    new_ref.set(
+        {
+            "email": new_email,
+            "balance_millicents": int(data.get("balance_millicents") or 0),
+            "trial_granted": bool(data.get("trial_granted")),
+            "created_at": float(data.get("created_at") or now),
+            "updated_at": now,
+        }
+    )
+    old_ref.delete()
+
+    batch_size = 400
+    while True:
+        query = (
+            client.collection(BILLING_LEDGER_COLLECTION)
+            .where("email", "==", old_email)
+            .limit(batch_size)
+        )
+        docs = list(query.stream())
+        if not docs:
+            break
+        batch = client.batch()
+        for doc in docs:
+            batch.update(doc.reference, {"email": new_email})
+        batch.commit()
+
+    for coll_name in (BILLING_PAYMENT_EVENTS_COLLECTION, BILLING_STRIPE_EVENTS_COLLECTION):
+        for doc in client.collection(coll_name).where("email", "==", old_email).stream():
+            doc.reference.update({"email": new_email})
+
+    account = get_account(new_email)
+    return {"ok": True, "account": _account_to_api(account) if account else None}
+
+
 def list_ledger(email: str, *, limit: int = 50) -> list[dict[str, Any]]:
     email = _normalize_email(email)
     if not email:
@@ -715,6 +976,237 @@ def billing_health_fields(
         "creditBalanceCents": balance_cents,
         "creditUnlimited": unlimited,
     }
+
+
+def billing_reservations_enabled() -> bool:
+    return billing_enabled() and BILLING_RESERVATIONS_ENABLED
+
+
+def _sqlite_sum_active_holds(email: str) -> int:
+    ensure_db()
+    now = time.time()
+    with _connect() as conn:
+        row = conn.execute(
+            """
+            SELECT COALESCE(SUM(millicents), 0) AS total
+            FROM credit_holds
+            WHERE email = ? AND released = 0 AND expires_at > ?
+            """,
+            (email, now),
+        ).fetchone()
+    return int(row["total"] or 0) if row else 0
+
+
+def _firestore_sum_active_holds(email: str) -> int:
+    now = time.time()
+    client = _get_firestore_client()
+    total = 0
+    for doc in client.collection(BILLING_HOLDS_COLLECTION).where("email", "==", email).stream():
+        data = doc.to_dict() or {}
+        if data.get("released"):
+            continue
+        if float(data.get("expires_at") or 0) <= now:
+            continue
+        total += int(data.get("millicents") or 0)
+    return total
+
+
+def get_active_holds_millicents(email: str) -> int:
+    email = _normalize_email(email)
+    if not email:
+        return 0
+    sweep_expired_holds(email)
+    if _use_firestore():
+        return _firestore_sum_active_holds(email)
+    return _sqlite_sum_active_holds(email)
+
+
+def get_available_balance_millicents(email: str) -> int:
+    balance = get_balance_millicents(email)
+    holds = get_active_holds_millicents(email)
+    return max(0, balance - holds)
+
+
+def sweep_expired_holds(email: str | None = None) -> int:
+    """Mark expired holds as released. Returns count swept."""
+    now = time.time()
+    if _use_firestore():
+        client = _get_firestore_client()
+        query = client.collection(BILLING_HOLDS_COLLECTION)
+        if email:
+            query = query.where("email", "==", _normalize_email(email))
+        swept = 0
+        for doc in query.stream():
+            data = doc.to_dict() or {}
+            if data.get("released"):
+                continue
+            if float(data.get("expires_at") or 0) > now:
+                continue
+            doc.reference.update({"released": True, "released_at": now})
+            swept += 1
+        return swept
+
+    ensure_db()
+    email_norm = _normalize_email(email or "")
+    with _connect() as conn:
+        if email_norm:
+            result = conn.execute(
+                """
+                UPDATE credit_holds SET released = 1
+                WHERE email = ? AND released = 0 AND expires_at <= ?
+                """,
+                (email_norm, now),
+            )
+        else:
+            result = conn.execute(
+                """
+                UPDATE credit_holds SET released = 1
+                WHERE released = 0 AND expires_at <= ?
+                """,
+                (now,),
+            )
+        conn.commit()
+        return int(result.rowcount or 0)
+
+
+def reserve_credit(
+    email: str,
+    millicents: int,
+    operation_id: str,
+    *,
+    detail: dict[str, Any] | None = None,
+    free_allowlist: set[str],
+    embedded_allowlist: set[str],
+) -> dict[str, Any]:
+    if not billing_reservations_enabled():
+        return {"ok": True, "skipped": True, "hold_id": None}
+    email = _normalize_email(email)
+    millicents = int(millicents)
+    if not email or millicents <= 0:
+        return {"ok": True, "skipped": True, "hold_id": None}
+    if not should_bill_user(email, free_allowlist=free_allowlist, embedded_allowlist=embedded_allowlist):
+        return {"ok": True, "skipped": True, "unlimited": True, "hold_id": None}
+
+    balance = get_balance_millicents(email)
+    available = get_available_balance_millicents(email)
+    if available < millicents:
+        return {
+            "ok": False,
+            "error": "insufficient_credit",
+            "balance_millicents": balance,
+            "available_millicents": available,
+            "estimate_millicents": millicents,
+        }
+
+    hold_id = uuid.uuid4().hex
+    now = time.time()
+    expires_at = now + HOLD_TTL_SECONDS
+    hold_detail = dict(detail or {})
+    hold_detail["operation_id"] = operation_id
+
+    if _use_firestore():
+        client = _get_firestore_client()
+        client.collection(BILLING_HOLDS_COLLECTION).document(hold_id).set(
+            {
+                "hold_id": hold_id,
+                "email": email,
+                "millicents": millicents,
+                "operation_id": operation_id or "",
+                "detail": hold_detail,
+                "created_at": now,
+                "expires_at": expires_at,
+                "released": False,
+            }
+        )
+    else:
+        ensure_db()
+        with _connect() as conn:
+            conn.execute(
+                """
+                INSERT INTO credit_holds (
+                    hold_id, email, millicents, operation_id, detail_json, created_at, expires_at, released
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, 0)
+                """,
+                (
+                    hold_id,
+                    email,
+                    millicents,
+                    operation_id or "",
+                    json.dumps(hold_detail),
+                    now,
+                    expires_at,
+                ),
+            )
+            conn.commit()
+
+    return {
+        "ok": True,
+        "hold_id": hold_id,
+        "millicents": millicents,
+        "available_millicents": available - millicents,
+        "balance_millicents": balance,
+    }
+
+
+def release_hold(hold_id: str | None) -> dict[str, Any]:
+    if not hold_id:
+        return {"ok": True, "skipped": True}
+    hold_id = str(hold_id).strip()
+    if not hold_id:
+        return {"ok": True, "skipped": True}
+    now = time.time()
+    if _use_firestore():
+        client = _get_firestore_client()
+        ref = client.collection(BILLING_HOLDS_COLLECTION).document(hold_id)
+        doc = ref.get()
+        if not doc.exists:
+            return {"ok": False, "error": "hold_not_found"}
+        ref.update({"released": True, "released_at": now})
+        return {"ok": True}
+
+    ensure_db()
+    with _connect() as conn:
+        row = conn.execute(
+            "SELECT hold_id FROM credit_holds WHERE hold_id = ? AND released = 0",
+            (hold_id,),
+        ).fetchone()
+        if not row:
+            return {"ok": False, "error": "hold_not_found"}
+        conn.execute(
+            "UPDATE credit_holds SET released = 1 WHERE hold_id = ?",
+            (hold_id,),
+        )
+        conn.commit()
+    return {"ok": True}
+
+
+def finalize_hold(hold_id: str | None, consumed_millicents: int = 0) -> dict[str, Any]:
+    """Release a hold after operation completes (usage already debited via record_usage)."""
+    return release_hold(hold_id)
+
+
+def ensure_available_for_millicents(
+    email: str,
+    millicents: int,
+    *,
+    free_allowlist: set[str],
+    embedded_allowlist: set[str],
+) -> dict[str, Any]:
+    if not billing_reservations_enabled():
+        return {"ok": True}
+    email = _normalize_email(email)
+    if not should_bill_user(email, free_allowlist=free_allowlist, embedded_allowlist=embedded_allowlist):
+        return {"ok": True, "unlimited": True}
+    available = get_available_balance_millicents(email)
+    if available < int(millicents):
+        return {
+            "ok": False,
+            "error": "insufficient_credit",
+            "available_millicents": available,
+            "balance_millicents": get_balance_millicents(email),
+            "required_millicents": int(millicents),
+        }
+    return {"ok": True, "available_millicents": available}
 
 
 def wrap_streaming_body(

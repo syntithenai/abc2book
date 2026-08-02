@@ -69,6 +69,24 @@ describe('googleLoginOAuthBff resumeSession', function() {
     expect(localStorage.getItem(AUTH_SESSION_ID_KEY)).toBeFalsy()
   })
 
+  test('silentRefresh keeps session id when auth base not ready yet', async function() {
+    localStorage.setItem(AUTH_SESSION_ID_KEY, 'sess-123')
+    localStorage.setItem('google_login_user', 'user@example.com')
+
+    var fallbackCalled = false
+    global.fetch = jest.fn()
+
+    var setup = makeController({
+      getAuthBase: function() { return '' },
+      onFallbackToTokenClient: function() { fallbackCalled = true },
+    })
+    await setup.controller.refresh()
+
+    expect(localStorage.getItem(AUTH_SESSION_ID_KEY)).toBe('sess-123')
+    expect(fallbackCalled).toBe(false)
+    expect(global.fetch).not.toHaveBeenCalled()
+  })
+
   test('silentRefresh keeps session id on 502 outage', async function() {
     localStorage.setItem(AUTH_SESSION_ID_KEY, 'sess-123')
     localStorage.setItem(AUTH_BASE_KEY, 'http://resolver.test')

@@ -302,11 +302,6 @@ export function computeCountInSchedule(timeline, options) {
     musicStartAudioTime = t
     downbeatAudioTime = t + pickupBeats * timeline.secPerBeat
   }
-  // #region agent log
-  if (typeof fetch === 'function' && pickupBeats > 0 && pickupBeats < 1) {
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'anacrusis-fix',location:'rhythmTimeline.js:computeCountInSchedule',message:'fractional count-in schedule',data:{pickupBeats:pickupBeats,pickupDelaySec:pickupDelaySec,musicStartSlot:range.musicStartSlot,fractionalGapApplied:fractionalGapApplied,gapLastToMusic:clicks.length>0?musicStartAudioTime-clicks[clicks.length-1].audioTime:null,musicStartAudioTime:musicStartAudioTime,downbeatAudioTime:downbeatAudioTime},timestamp:Date.now(),hypothesisId:'A1'})}).catch(function(){});
-  }
-  // #endregion
   return {
     clicks: clicks,
     musicStartAudioTime: musicStartAudioTime,

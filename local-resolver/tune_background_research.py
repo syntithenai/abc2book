@@ -970,7 +970,7 @@ async def _run_search_queries(client, source_store, queries, on_progress, progre
 
 
 async def research_tune_background(
-    title, artist="", lyrics="", existing_background="", on_progress=None
+    title, artist="", lyrics="", existing_background="", on_progress=None, credit_guard=None
 ):
     title = _normalize_space(title)
     artist = _normalize_space(artist)
@@ -1037,6 +1037,8 @@ async def research_tune_background(
                 elapsed_ms(),
             )
             try:
+                if credit_guard:
+                    await credit_guard("supplemental")
                 supplemental_queries = await generate_supplemental_queries(
                     client,
                     title,
@@ -1073,6 +1075,8 @@ async def research_tune_background(
             0.65,
             elapsed_ms(),
         )
+        if credit_guard:
+            await credit_guard("summarize")
         text = await summarize_with_llm(
             client, title, artist, sources, lyrics, existing_background
         )
@@ -1084,6 +1088,8 @@ async def research_tune_background(
             elapsed_ms(),
         )
         try:
+            if credit_guard:
+                await credit_guard("critique")
             text = await critique_and_fact_check(
                 client, title, artist, text, sources, existing_background
             )

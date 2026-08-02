@@ -135,7 +135,7 @@ def _audio_url(request: Request, job_id: str) -> str:
     return base + "/generate-audio/" + job_id + "/audio"
 
 
-async def _enqueue_job(job_id: str, task_id: str, runner):
+async def _enqueue_job(job_id: str, task_id: str, runner, on_finished=None):
     write_job_progress(job_id, {
         "stage": "queued",
         "progress": 0,
@@ -145,9 +145,12 @@ async def _enqueue_job(job_id: str, task_id: str, runner):
     })
 
     async def run_job():
+        success = False
         try:
             async with audio_generation_exclusive():
                 await asyncio.to_thread(runner)
+            progress = read_job_progress(job_id) or {}
+            success = progress.get("stage") == "complete"
         except Exception as exc:
             write_job_progress(job_id, {
                 "stage": "error",
@@ -158,6 +161,11 @@ async def _enqueue_job(job_id: str, task_id: str, runner):
             })
         finally:
             _audio_generation_tasks.pop(job_id, None)
+            if on_finished:
+                try:
+                    on_finished(success, task_id)
+                except Exception:
+                    pass
 
     _audio_generation_tasks[job_id] = asyncio.create_task(run_job())
 
@@ -178,6 +186,7 @@ async def post_generate_audio(
     cors_headers,
     resolve_linked_media_audio_bytes=None,
     trim_audio_bytes=None,
+    on_job_finished=None,
 ):
     origin = request.headers.get("origin")
     try:
@@ -236,7 +245,7 @@ async def post_generate_audio(
                     score_path=score_path,
                 )
 
-            await _enqueue_job(job_id, TASK_PRACTICE_TRACK, runner)
+            await _enqueue_job(job_id, TASK_PRACTICE_TRACK, runner, on_finished=on_job_finished)
 
         elif task == TASK_LINKED_COVER:
             if not request_json:
@@ -300,7 +309,7 @@ async def post_generate_audio(
                     source_wav_path=job_source_wav(job_id),
                 )
 
-            await _enqueue_job(job_id, TASK_LINKED_COVER, runner)
+            await _enqueue_job(job_id, TASK_LINKED_COVER, runner, on_finished=on_job_finished)
         else:
             raise HTTPException(status_code=400, detail=f"Unknown taskId: {task}")
 

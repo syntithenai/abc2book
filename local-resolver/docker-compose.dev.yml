@@ -53,6 +53,16 @@ services:
       - ./chord_processing.py:/app/chord_processing.py
       - ./melody_pitch_processing.py:/app/melody_pitch_processing.py
       - ./audio_analysis_filters.py:/app/audio_analysis_filters.py
+      - ./allowlists.py:/app/allowlists.py
+      - ./billing.py:/app/billing.py
+      - ./billing_estimates.py:/app/billing_estimates.py
+      - ./billing_hooks.py:/app/billing_hooks.py
+      - ./billing_payment_methods.py:/app/billing_payment_methods.py
+      - ./billing_paypal.py:/app/billing_paypal.py
+      - ./billing_rates.py:/app/billing_rates.py
+      - ./billing_reservation.py:/app/billing_reservation.py
+      - ./billing_routes.py:/app/billing_routes.py
+      - ./billing_stripe.py:/app/billing_stripe.py
       - ./stem_separation.py:/app/stem_separation.py
       - ./separate_stems.py:/app/separate_stems.py
       - ./eval_transcription.py:/app/eval_transcription.py

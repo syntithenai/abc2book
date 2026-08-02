@@ -14,6 +14,12 @@ import {
   getScratchpadAnalyseUseLabel,
 } from '../../scratchpadAnalyseAccess'
 import useMediaResolverHealth from '../../useMediaResolverHealth'
+import { useCreditAffordance } from '../../useCreditAffordance'
+import {
+  describeProviderSource,
+  getActiveProvider,
+  loadProviderSettings,
+} from '../../providerSettings'
 import { scratchpadItemPath } from '../../scratchpadExportToast'
 import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
 import ScratchpadAssociateModal from './ScratchpadAssociateModal'
@@ -33,6 +39,25 @@ export default function ScratchpadEditorChrome(props) {
   const [associateMode, setAssociateMode] = useState('')
   const titleTimeout = useRef(null)
   const { available: resolverAvailable, checked: resolverChecked, status: resolverStatus, features } = useMediaResolverHealth()
+  const providerSettings = loadProviderSettings()
+  const resolverBase = (resolverStatus && resolverStatus.activeBase) || ''
+  const healthProviders = resolverStatus && resolverStatus.providers
+  const ocrActive = getActiveProvider(providerSettings, 'ocr')
+  const ocrSource = describeProviderSource(healthProviders, 'ocr', ocrActive, resolverBase)
+  const ocrOperation = ocrSource.kind === 'user' ? 'sheet_ocr_user' : 'sheet_ocr_host'
+  const whisperActive = getActiveProvider(providerSettings, 'whisper')
+  const whisperSource = describeProviderSource(healthProviders, 'whisper', whisperActive, resolverBase)
+  const whisperAffordParams = whisperSource.kind === 'user' ? { providerSource: 'user' } : undefined
+  const imageAffordance = useCreditAffordance(
+    props.token,
+    item && item.type === 'image' ? ocrOperation : null
+  )
+  const audioAffordance = useCreditAffordance(
+    props.token,
+    item && item.type === 'audio' ? 'whisper_transcribe' : null,
+    whisperAffordParams
+  )
+  const analyseAffordance = item && item.type === 'image' ? imageAffordance : audioAffordance
 
   const analyseAccess = useMemo(function() {
     return getScratchpadAnalyseAccess({
@@ -41,8 +66,17 @@ export default function ScratchpadEditorChrome(props) {
       resolverStatus: resolverStatus,
       features: features,
       accessToken: props.token,
+      affordance: analyseAffordance.checked ? analyseAffordance : null,
     }, item && item.type)
-  }, [resolverChecked, resolverAvailable, resolverStatus, features, props.token, item && item.type])
+  }, [
+    resolverChecked,
+    resolverAvailable,
+    resolverStatus,
+    features,
+    props.token,
+    item && item.type,
+    analyseAffordance,
+  ])
 
   const associateModes = useMemo(function() {
     const modes = getAssociateModesForItem(item).slice()

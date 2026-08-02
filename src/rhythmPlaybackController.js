@@ -206,9 +206,6 @@ function scheduleCountInClicks(controller, generation) {
   controller.countInSchedule = schedule
   resetPlayingScheduleState(controller.scheduleState)
 
-  // #region agent log
-  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'rhythmPlaybackController.js:scheduleCountInClicks',message:'count-in clicks scheduled',data:{clickCount:schedule.clicks.length,globalSlots:schedule.clicks.map(function(c){return c.globalSlot}),slotInBars:schedule.clicks.map(function(c){return c.slotInBar}),musicStartSlot:schedule.musicStartSlot,pickupBeats:controller.pickupBeats,pickupDelaySec:(parseFloat(controller.entryGapDelayMs)||0)/1000,musicStartAudioTime:schedule.musicStartAudioTime,downbeatAudioTime:schedule.downbeatAudioTime,lastClickTime:schedule.clicks.length>0?schedule.clicks[schedule.clicks.length-1].audioTime:null,gapLastToMusic:schedule.clicks.length>0?schedule.musicStartAudioTime-schedule.clicks[schedule.clicks.length-1].audioTime:null,endOnDownbeat:schedule.endOnDownbeat,tempo:controller.tempo,duringPlayback:controller.duringPlayback},timestamp:Date.now(),hypothesisId:'G2,A1'})}).catch(function(){});
-  // #endregion
 
   const scheduleClicks = function() {
     schedule.clicks.forEach(function(click, index) {
@@ -250,11 +247,6 @@ function triggerMusicStart(controller) {
   const onMusicStart = controller.callbacks.onMusicStart
   const scheduledMusicStartAudioTime = controller.musicStartAudioTime
   const now = controller.audioContext ? controller.audioContext.currentTime : null
-  // #region agent log
-  if (duringPlayback && typeof scheduledMusicStartAudioTime === 'number' && now != null) {
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'rhythmPlaybackController.js:triggerMusicStart',message:'music start trigger',data:{scheduledStart:scheduledMusicStartAudioTime,now:now,driftMs:(now-scheduledMusicStartAudioTime)*1000,endOnDownbeat:controller.countInEndedOnDownbeat===true},timestamp:Date.now(),hypothesisId:'G2'})}).catch(function(){});
-  }
-  // #endregion
   if (duringPlayback) {
     controller.phase = PHASE_ENTRY_GAP
     if (typeof onMusicStart === 'function') {
@@ -347,11 +339,7 @@ function bootstrapPlayingFromMusicStart(controller, musicSeconds) {
 
 export function stopRhythmPlaybackController(controller) {
   if (!controller) return
-  const prevGen = controller.generation
   bumpGeneration(controller)
-  // #region agent log
-  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'rewind-debug',location:'rhythmPlaybackController.js:stopRhythmPlaybackController',message:'rhythm stopped',data:{prevGen:prevGen,newGen:controller.generation,phase:controller.phase,hadTimeline:!!controller.timeline,musicStartSlot:controller.musicStartSlot},timestamp:Date.now(),hypothesisId:'R3'})}).catch(function(){});
-  // #endregion
   clearSchedulerInterval(controller)
   clearMusicStartTimeout(controller)
   removeStatechangeHandler(controller)
@@ -646,9 +634,6 @@ export function beginRhythmPlayingAtMusicStart(controller, options) {
         }
         controller.scheduleState.nextGlobalSlot = firstLiveSlot
       }
-      // #region agent log
-      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix-v2',location:'rhythmPlaybackController.js:beginRhythmPlayingAtMusicStart',message:'handoff slot skip',data:{startSlot:startSlot,nextGlobalSlot:controller.scheduleState.nextGlobalSlot,skipped:Math.max(0,controller.scheduleState.nextGlobalSlot-startSlot),musicStartAudioTime:controller.musicStartAudioTime,slotMinus1Time:controller.timeline?audioTimeForGlobalSlot(controller.timeline,-1):null,slot0Time:controller.timeline?audioTimeForGlobalSlot(controller.timeline,0):null,now:now,musicSeconds:musicSeconds,duringPlayback:controller.duringPlayback===true},timestamp:Date.now(),hypothesisId:'H1,H2'})}).catch(function(){});
-      // #endregion
     } else {
       bootstrapPlayingFromMusicStart(controller, musicSeconds)
     }

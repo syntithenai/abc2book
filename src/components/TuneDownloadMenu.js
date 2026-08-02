@@ -58,7 +58,9 @@ function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplet
       })
       if (onComplete) onComplete(formatId)
     } catch (error) {
-      setErrorMessage(error && error.message ? error.message : 'Download failed.')
+      const message = error && error.message ? error.message : 'Download failed.'
+      setErrorMessage(message)
+      toast.error(message, { autoClose: 5000 })
     } finally {
       setBusyFormatId('')
     }

@@ -231,6 +231,7 @@ export default function FeedPage(props) {
         return runFeedAiGeneration({
           tunes: tunes,
           viewIds: getRecentViewedTuneIds(5),
+          token: props.accessToken || null,
           onItems: function(items) { if (!cancelled) injectWave(items) },
         })
       })

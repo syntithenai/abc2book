@@ -111,22 +111,29 @@ export async function buildProcessedMediaBlob(cacheOptions, settings) {
   };
 }
 
-export function triggerBlobDownload(blob, filename) {
-  saveBlobToDevice(blob, filename).catch(function(err) {
-    console.warn('download failed', err);
-    const url = window.URL.createObjectURL(blob);
-    const anchor = document.createElement('a');
-    anchor.href = url;
-    anchor.setAttribute('download', filename);
-    document.body.appendChild(anchor);
-    anchor.click();
-    document.body.removeChild(anchor);
-    window.URL.revokeObjectURL(url);
-  });
+export async function triggerBlobDownload(blob, filename) {
+  if (!blob) {
+    throw new Error('No file to download')
+  }
+  try {
+    await saveBlobToDevice(blob, filename)
+  } catch (err) {
+    console.warn('download failed', err)
+    const url = window.URL.createObjectURL(blob)
+    const anchor = document.createElement('a')
+    anchor.href = url
+    anchor.setAttribute('download', filename)
+    document.body.appendChild(anchor)
+    anchor.click()
+    document.body.removeChild(anchor)
+    setTimeout(function() {
+      window.URL.revokeObjectURL(url)
+    }, 1000)
+  }
 }
 
 export async function downloadProcessedMediaBlob(cacheOptions, settings, filename) {
   const result = await buildProcessedMediaBlob(cacheOptions, settings);
-  triggerBlobDownload(result.blob, filename);
+  await triggerBlobDownload(result.blob, filename);
   return result;
 }

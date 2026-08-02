@@ -348,9 +348,6 @@ export default function useAbcSynth(props) {
             const actualStart = pitchShifterRef.current.isConnected()
                 ? (ctx ? ctx.currentTime : when)
                 : (when != null ? when : (ctx ? ctx.currentTime : null))
-            // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:startMidiAudioOutput',message:'midi output connect',data:{requestedWhen:when,targetAudible:targetAudible,ctxNow:ctx?ctx.currentTime:null,ratio:ratio,tempo:settings.tempo,isConnected:!!(pitchShifterRef.current&&pitchShifterRef.current.isConnected()),isPending:!!(pitchShifterRef.current&&pitchShifterRef.current.isConnectedOrPending&&!pitchShifterRef.current.isConnected()),actualStart:actualStart,connectDriftMs:ctx&&when!=null?(ctx.currentTime-when)*1000:null,outputLatencyMs:pitchShifterRef.current.getOutputLatencySec?pitchShifterRef.current.getOutputLatencySec()*1000:null},timestamp:Date.now(),hypothesisId:'S1'})}).catch(function(){});
-            // #endregion
             if (props.mediaController && props.mediaController.playbackVolume !== undefined) {
                 pitchShifterRef.current.setDirectOutputGain(false)
                 pitchShifterRef.current.setOutputVolume(props.mediaController.playbackVolume)
@@ -813,9 +810,6 @@ export default function useAbcSynth(props) {
         assignMediaControllerRef(mc, 'getMidiPlaybackSecondsRef', getMidiPlaybackSeconds)
         assignMediaControllerRef(mc, 'seekMidiRef', seekMidiPlayback)
         assignMediaControllerRef(mc, 'isMidiKickoffActiveRef', isMidiKickoffActive)
-        // #region agent log
-        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H5',location:'useAbcSynth.js:engineRegister',message:'midi engine registered',data:{hasVisualObj:!!gvisualObj.current,hasPending:!!(mc.pendingMidiPlayRef&&mc.pendingMidiPlayRef.current),playbackEngine:props.playbackEngine!==false},timestamp:Date.now()})}).catch(function(){})
-        // #endregion
         return function() {
             if (mc.playMidiRef && mc.playMidiRef.current === playMidiBridgeRef.current) {
                 mc.playMidiRef.current = null
@@ -829,9 +823,6 @@ export default function useAbcSynth(props) {
         const mc = mediaControllerRef.current
         const pendingMidiPlay = mc.pendingMidiPlayRef && mc.pendingMidiPlayRef.current
         if (!pendingMidiPlay || !gvisualObj.current || !beginMidiPlaybackRef.current) {
-            // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H1',location:'useAbcSynth.js:mcAbcEffect',message:'pending play not consumed',data:{hasPending:!!pendingMidiPlay,hasVisualObj:!!gvisualObj.current,hasBeginRef:!!beginMidiPlaybackRef.current,routeMidi:!!(mc.isMidiPlaybackRoute&&mc.isMidiPlaybackRoute()),hasIntent:!!(mc.hasActivePlaybackIntent&&mc.hasActivePlaybackIntent())},timestamp:Date.now()})}).catch(function(){})
-            // #endregion
             return undefined
         }
         if (mc.isMidiPlaybackRoute && !mc.isMidiPlaybackRoute()) return undefined
@@ -845,9 +836,6 @@ export default function useAbcSynth(props) {
         if (mc.pendingMidiPlayRef) {
             mc.pendingMidiPlayRef.current = null
         }
-        // #region agent log
-        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H1',location:'useAbcSynth.js:mcAbcEffect',message:'consuming pending play',data:{restart:!!pendingMidiPlay.restart,fresh:!!pendingMidiPlay.fresh},timestamp:Date.now()})}).catch(function(){})
-        // #endregion
         beginMidiPlaybackRef.current(pendingMidiPlay)
         return undefined
     }, [props.playbackEngine, mcAbc])
@@ -983,9 +971,6 @@ export default function useAbcSynth(props) {
             return
         }
         if (meta && meta.globalSlot != null && meta.globalSlot >= -5 && meta.globalSlot <= 4) {
-            // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:rhythmPlaySlotFn',message:'metronome click played',data:{globalSlot:meta.globalSlot,slotInBar:slotInBar,phase:phase,audioTime:audioTime,now:gaudioContext.current?gaudioContext.current.currentTime:null},timestamp:Date.now(),hypothesisId:'G2'})}).catch(function(){});
-            // #endregion
         }
         recordRhythmSlotEvent(rhythmTimingDiagnostics.current, {
             slotInBar: slotInBar,
@@ -1238,9 +1223,6 @@ export default function useAbcSynth(props) {
           if (meterChanged && at.rhythm && !force) {
             setRhythmPlaybackRhythm(controller, at.rhythm)
           }
-          // #region agent log
-          fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:syncPlaybackTimingFromMap',message:'timeline meter-only sync',data:{force:!!force,mapBpm:at.rhythmBeatBpm,targetRhythmBpm:targetRhythmBpm,timelineTempo:controller.tempo,tempoFactor:tempoFactor,meterText:at.meterText,meterChanged:!!meterChanged,musicSeconds:musicSeconds,musicStartSlot:controller.musicStartSlot,effectiveMsPerMeasure:effectiveMsPerMeasureRef.current},timestamp:Date.now(),hypothesisId:'M'})}).catch(function(){});
-          // #endregion
           lastPlaybackTimingSampleRef.current = {
             meterText: at.meterText,
             rhythmBeatBpm: targetRhythmBpm,
@@ -1256,9 +1238,6 @@ export default function useAbcSynth(props) {
         if (meterChanged) {
             setRhythmPlaybackRhythm(controller, at.rhythm)
         }
-        // #region agent log
-        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:syncPlaybackTimingFromMap',message:'playing tempo sync',data:{force:!!force,mapBpm:at.rhythmBeatBpm,targetRhythmBpm:targetRhythmBpm,controllerTempo:controller.tempo,tempoFactor:tempoFactor,musicSeconds:musicSeconds,effectiveMsPerMeasure:effectiveMsPerMeasureRef.current},timestamp:Date.now(),hypothesisId:'M'})}).catch(function(){});
-        // #endregion
         lastPlaybackTimingSampleRef.current = {
             meterText: at.meterText,
             rhythmBeatBpm: targetRhythmBpm,
@@ -1346,9 +1325,6 @@ export default function useAbcSynth(props) {
      function invalidatePendingMidiStarts() {
         const prevGen = playbackGenerationRef.current
         playbackGenerationRef.current += 1
-        // #region agent log
-        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'rewind-debug',location:'useAbcSynth.js:invalidatePendingMidiStarts',message:'playback generation bumped',data:{prevGen:prevGen,newGen:playbackGenerationRef.current,phase:getRhythmPlaybackPhase(getRhythmController()),countInPending:!!countInPendingRef.current},timestamp:Date.now(),hypothesisId:'R1'})}).catch(function(){});
-        // #endregion
         stopMetronome()
         if (primeTimerRef.current) {
             clearTimeout(primeTimerRef.current)
@@ -1806,9 +1782,6 @@ export default function useAbcSynth(props) {
      }
 
      function notifyPlaybackStarted() {
-        // #region agent log
-        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H3',location:'useAbcSynth.js:notifyPlaybackStarted',message:'playback started',data:{wantsMidi:wantsMidiPlayback()},timestamp:Date.now()})}).catch(function(){})
-        // #endregion
         if (!wantsMidiPlayback()) {
             releaseMidiUiLoading()
             midiPrimeInFlightRef.current = false
@@ -2212,9 +2185,6 @@ export default function useAbcSynth(props) {
                 if (isSynthSeekGuardActive()) {
                     return
                 }
-                // #region agent log
-                fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'eea50f'},body:JSON.stringify({sessionId:'eea50f',location:'useAbcSynth.js:pitchShifterOnEnded',message:'pitch-shifter-ended',data:{deferNative:shouldDeferSynthStopToNative(),bufferDur:pitchShifterBufferRef.current&&pitchShifterBufferRef.current.duration},timestamp:Date.now(),hypothesisId:'H-K'})}).catch(function(){});
-                // #endregion
                 stopPlaying()
                 if (props.onEnded) props.onEnded()
             },
@@ -2398,40 +2368,25 @@ export default function useAbcSynth(props) {
         // beginMidiPlayback, Abc pending-play, and autoPrime createPlayer.
         // Stacking those restarts count-in mid-schedule (3 quick + 3 even).
         if (countInPendingRef.current || isRhythmHandoffPhase()) {
-            // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'714b89'},body:JSON.stringify({sessionId:'714b89',runId:'post-fix',hypothesisId:'W1',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'countInOrHandoff',force:!!force,phase:getRhythmPlaybackPhase(getRhythmController()),countInPending:!!countInPendingRef.current},timestamp:Date.now()})}).catch(function(){})
-            // #endregion
             return
         }
         if (midiPrimeInFlightRef.current) {
             if (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase()) {
-                // #region agent log
-                fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'primeInFlight',force:!!force},timestamp:Date.now()})}).catch(function(){})
-                // #endregion
                 return
             }
             midiPrimeInFlightRef.current = false
         }
         if (!force && isSynthSeekGuardActive()) {
             releaseMidiUiLoading()
-            // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'seekGuard',force:!!force},timestamp:Date.now()})}).catch(function(){})
-            // #endregion
             return
         }
         if (!wantsMidiPlayback(force)) {
             if (force) {
                 releaseMidiUiLoading()
             }
-            // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H2',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'noWantsMidi',force:!!force},timestamp:Date.now()})}).catch(function(){})
-            // #endregion
             return
         }
         if (primePromiseRef.current && isLoading.current) {
-            // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H4',location:'useAbcSynth.js:startPlaying',message:'early return',data:{reason:'primeInFlightPromise',force:!!force},timestamp:Date.now()})}).catch(function(){})
-            // #endregion
             return
         }
         if (force) {
@@ -2444,21 +2399,12 @@ export default function useAbcSynth(props) {
         midiPrimeInFlightRef.current = true
         resumeSynthAudioContext()
         if (gaudioContext.current && gmidiBuffer.current) {
-          // #region agent log
-          fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H3',location:'useAbcSynth.js:startPlaying',message:'startPrimedTune',data:{force:!!force,bufferDur:gmidiBuffer.current&&gmidiBuffer.current.duration},timestamp:Date.now()})}).catch(function(){})
-          // #endregion
           startPrimedTune(force)
         } else {
-            // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H4',location:'useAbcSynth.js:startPlaying',message:'createPlayer starting',data:{force:!!force,hasVisualObj:!!gvisualObj.current,generation:playbackGenerationRef.current},timestamp:Date.now()})}).catch(function(){})
-            // #endregion
             setStarted(true)
             const loadGeneration = playbackGenerationRef.current
             createPlayer(tune, gvisualObj.current, { showUiLoading: true }).then(function(p) {
                   if (!isPlaybackGenerationCurrent(loadGeneration)) {
-                      // #region agent log
-                      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0569dc'},body:JSON.stringify({sessionId:'0569dc',hypothesisId:'H4',location:'useAbcSynth.js:createPlayer',message:'prime cancelled stale generation',data:{loadGeneration:loadGeneration,currentGeneration:playbackGenerationRef.current},timestamp:Date.now()})}).catch(function(){})
-                      // #endregion
                       releaseMidiUiLoading()
                       return
                   }
@@ -2586,9 +2532,6 @@ export default function useAbcSynth(props) {
         setIsPlaying(false)
         clearForcedPlaybackIntent()
         if (props.onStopped) {
-            // #region agent log
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'eea50f'},body:JSON.stringify({sessionId:'eea50f',location:'useAbcSynth.js:stopPlaying',message:'onStopped-fired',data:{deferNative:false},timestamp:Date.now(),hypothesisId:'H-K'})}).catch(function(){});
-            // #endregion
             props.onStopped()
         }
     }
@@ -2631,9 +2574,6 @@ export default function useAbcSynth(props) {
             return false
         }
         let opts = options || {}
-        // #region agent log
-        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'rewind-debug',hypothesisId:'R1,R2',location:'useAbcSynth.js:beginMidiPlayback',message:'entry',data:{restart:!!opts.restart,fresh:!!opts.fresh,resume:!!opts.resume,kickoffActive:isMidiKickoffActive(),countInPending:!!countInPendingRef.current,phase:getRhythmPlaybackPhase(getRhythmController()),playbackGen:playbackGenerationRef.current,anchorActive:!!rhythmMusicAnchorRef.current.active},timestamp:Date.now()})}).catch(function(){});
-        // #endregion
         // Media-controls "Play MIDI" uses fresh:true after reload; treat like
         // From start so count-in is a single clean rewind path.
         if (opts.fresh && !opts.resume && !opts.preservePosition) {
@@ -2726,9 +2666,6 @@ export default function useAbcSynth(props) {
         if (fromBeginning) {
             if (isMidiKickoffActive()) {
                 if (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase()) {
-                    // #region agent log
-                    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'714b89'},body:JSON.stringify({sessionId:'714b89',runId:'post-fix',hypothesisId:'W1',location:'useAbcSynth.js:beginMidiPlayback',message:'kickoff no-op return true',data:{primePromise:!!primePromiseRef.current,countIn:!!countInPendingRef.current,handoff:isRhythmHandoffPhase(),phase:getRhythmPlaybackPhase(getRhythmController())},timestamp:Date.now()})}).catch(function(){})
-                    // #endregion
                     return true
                 }
                 clearStaleMidiKickoffLock()
@@ -3153,9 +3090,6 @@ export default function useAbcSynth(props) {
                       }
                   }
                   rebuildPlaybackTimingMap()
-                  // #region agent log
-                  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'rewind-debug',location:'useAbcSynth.js:countInHandoff',message:'already handed off',data:{playbackGen:generation,preservedAnchor:priorAnchor.active,anchorAudioTime:priorAnchor.active?priorAnchor.audioContextTime:null,controllerMusicStart:controller.musicStartAudioTime,musicStartSlot:controller.musicStartSlot,slot0Time:controller.timeline?audioTimeForGlobalSlot(controller.timeline,0):null,now:now},timestamp:Date.now(),hypothesisId:'R2'})}).catch(function(){});
-                  // #endregion
               } else {
               const handoff = resolveCountInHandoffAnchor(
                   scheduledStart,
@@ -3221,9 +3155,6 @@ export default function useAbcSynth(props) {
               var _mapBpm = _map0 && _map0.tempoBreaks && _map0.tempoBreaks[0]
                   ? _map0.tempoBreaks[0].rhythmBeatBpm
                   : null
-              // #region agent log
-              fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:countInHandoff',message:'count-in handoff',data:{hasTimeline:!!controller.timeline,timelineTempo:controller.tempo,scheduledStart:scheduledStart,now:now,musicStartAudioTime:musicStartAudioTime,musicSeconds:musicSeconds,handoffMusicSeconds:handoffMusicSeconds,alreadyHandedOff:alreadyHandedOff,actualMusicSeconds:isMidiAudioEngineRunning()?getRhythmMusicSeconds():null,musicStartSlot:controller.musicStartSlot,gridTempo:getRhythmGridMetronomeTempo(),tempoFactor:tempoFactor,mapBpm:_mapBpm,effectiveMsPerMeasure:effectiveMsPerMeasureRef.current,audioStartedAtScheduled:midiWasPreScheduled,forceTimelineReanchor:forceTimelineReanchor,rhythmPhaseAtStart:rhythmPhaseAtStart,rhythmAlreadyPlaying:rhythmAlreadyPlaying,countInPending:!!countInPendingRef.current},timestamp:Date.now(),hypothesisId:'M,H'})}).catch(function(){});
-              // #endregion
               syncPlaybackTimingFromMap(true)
               if (deferTimingUntilHandoff && gtimingCallbacks.current) {
                   const bufDur = gmidiBuffer.current && gmidiBuffer.current.duration > 0
@@ -3238,9 +3169,6 @@ export default function useAbcSynth(props) {
                   }
               }
           } else if (rhythmHandoffReady) {
-              // #region agent log
-              fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'rewind-debug',location:'useAbcSynth.js:countInHandoff',message:'stale handoff skipped',data:{playbackGen:generation,currentGen:playbackGenerationRef.current,rhythmPhase:rhythmPhase},timestamp:Date.now(),hypothesisId:'R1'})}).catch(function(){});
-              // #endregion
           }
           if (duringPlayback
               && rhythmPhase !== PHASE_PLAYING
@@ -3441,15 +3369,6 @@ export default function useAbcSynth(props) {
                         }
                         if (!(effectiveTempo > 0)) effectiveTempo = getPlaybackMetronomeTempo()
                         if (!(effectiveTempo > 0)) effectiveTempo = 120
-                        // #region agent log
-                        try {
-                          var _ms = o.millisecondsPerMeasure ? o.millisecondsPerMeasure() : null
-                          var _bpm = o.getBpm ? o.getBpm() : null
-                          var _beats = o.getBeatsPerMeasure ? o.getBeatsPerMeasure() : null
-                          var _mf = o.getMeterFraction ? o.getMeterFraction() : null
-                          fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:startWithMetronome',message:'count-in tempo sources',data:{effectiveTempo:effectiveTempo,tempoFactor:tempoFactor,msPerMeasure:_ms,scoreMsPerMeasure:scoreMsPerMeasure,primedMsPerMeasure:primedMsPerMeasureRef.current,rhythmGridBpm:getRhythmGridMetronomeTempo(o),getEffectiveMs:getEffectiveMsPerMeasure(o),getBpm:_bpm,beatsPerMeasure:_beats,meter:_mf?(_mf.num+'/'+_mf.den):null,rhythmBeats:countInRhythm&&countInRhythm.beatsPerBar,gridTempoFallback:getRhythmGridMetronomeTempo()},timestamp:Date.now(),hypothesisId:'T1'})}).catch(function(){})
-                        } catch (e) {}
-                        // #endregion
                         var countInBeatCount = resolveCountInBeatCount(
                             o,
                             countInRhythm,
@@ -3465,9 +3384,6 @@ export default function useAbcSynth(props) {
                         if (!(countInSlots > 0)) countInSlots = metronomeBeats
                         metronomeBeats = countInBeatCount > 0 ? countInBeatCount : countInSlots
                         const duringPlayback = metro.duringPlayback === true
-                        // #region agent log
-                        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:startWithMetronome',message:'count-in slots',data:{countInSlots:countInSlots,countInBeatCount:countInBeatCount,metronomeBeats:metronomeBeats,pickupBeats:pickupBeats,rhythmPickupBeats:pickupBeats,scoreMsPerMeasure:scoreMsPerMeasure,primedMsPerMeasure:primedMsPerMeasureRef.current,rhythmGridBpm:getRhythmGridMetronomeTempo(o),rhythmBeatsPerBar:countInRhythm&&countInRhythm.beatsPerBar,duringPlayback:duringPlayback,countInBarOnly:!!metro.countInBarOnly,countInBars:metro.countInBars,effectiveMsPerMeasure:effectiveMsPerMeasureRef.current},timestamp:Date.now(),hypothesisId:'C1,C2'})}).catch(function(){});
-                        // #endregion
                         const preferredCue = (props.metronomeCountInCueMidi != null
                           && Number.isFinite(props.metronomeCountInCueMidi))
                           ? Math.round(props.metronomeCountInCueMidi)
@@ -3638,9 +3554,6 @@ export default function useAbcSynth(props) {
                                                 ? snap.musicStartSlot
                                                 : 0,
                                         })
-                                        // #region agent log
-                                        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix-v3',location:'useAbcSynth.js:onMusicStart',message:'early metronome handoff',data:{scheduledStart:startAt,now:handoffNow,timelineMusicStart:timelineMusicStart,audibleMusicStart:audibleMusicStart,entrySlot:entrySlot,outputLatencyMs:outputLatencySec*1000,connectDriftMs:connectDrift*1000,needsReanchor:needsReanchor,musicStartSlot:snap&&snap.musicStartSlot,midiConnected:!!(midiOut&&midiOut.ok),timePlayed:pitchShifterRef.current&&pitchShifterRef.current.isConnected()?pitchShifterRef.current.getCurrentTime():null},timestamp:Date.now(),hypothesisId:'H3'})}).catch(function(){});
-                                        // #endregion
                                     }
                                     // Keep count-in pending until handoff finishes so media
                                     // cold-start kicks cannot stack a second startMidiAndTiming.
@@ -3834,9 +3747,6 @@ export default function useAbcSynth(props) {
                 }
                 if (fillPlayback.injectCustomFill && initOptions.millisecondsPerMeasure > 0) {
                   effectiveMsPerMeasureRef.current = initOptions.millisecondsPerMeasure
-                  // #region agent log
-                  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:primeTune',message:'fill prime timing',data:{fillStyle:fillPlayback.settings.style,visualMsPerMeasure:synthObj.millisecondsPerMeasure(),initMsPerMeasure:initOptions.millisecondsPerMeasure,effectiveMsPerMeasure:effectiveMsPerMeasureRef.current,meterNum:meterFrac&&meterFrac.num,meterDen:meterFrac&&meterFrac.den,pickupLength:synthObj.getPickupLength?synthObj.getPickupLength():null},timestamp:Date.now(),hypothesisId:'A,B,G'})}).catch(function(){});
-                  // #endregion
                 }
               } catch (remapErr) {
                 console.warn('Local soundfont program remap failed; using visualObj', remapErr)
@@ -3891,16 +3801,10 @@ export default function useAbcSynth(props) {
             }
              
             function primeAndResolve() {
-                // #region agent log
-                fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:primeAndResolve',message:'fresh audio prime',data:{injectCustomFill:!!fillPlayback.injectCustomFill,initMsPerMeasure:initOptions.millisecondsPerMeasure,hasSequence:!!initOptions.sequence},timestamp:Date.now(),hypothesisId:'H'})}).catch(function(){});
-                // #endregion
                 //if (force) { 
                   midiBuffer.init(initOptions).then(
                   function (response) { 
                     midiBuffer.prime().then(function(presponse) {
-                      // #region agent log
-                      fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:primeAndResolve',message:'prime complete',data:{bufferDuration:midiBuffer.duration,initMsPerMeasure:initOptions.millisecondsPerMeasure},timestamp:Date.now(),hypothesisId:'H'})}).catch(function(){});
-                      // #endregion
                       //if (props.setMidiData) props.setMidiData(abcjs.synth.getMidiFile(visualObj, { midiOutputType: 'binary', bpm: tune.tempo ? tune.tempo : 100 }))
                       resolveWithTimingAndCursor(midiBuffer)
                       if (tune && tune.id && props.cacheAudio !== false) {
@@ -3938,9 +3842,6 @@ export default function useAbcSynth(props) {
                           
                           const [duration, audioBuffers] = audioResult
                           if (audioBuffers) {
-                             // #region agent log
-                             fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'useAbcSynth.js:primeTune',message:'audio cache hit',data:{cachedDuration:duration,initMsPerMeasure:initOptions.millisecondsPerMeasure,hash:getAudioHash(tune)},timestamp:Date.now(),hypothesisId:'H'})}).catch(function(){});
-                             // #endregion
                              if (initOptions.millisecondsPerMeasure > 0) {
                                primedMsPerMeasureRef.current = initOptions.millisecondsPerMeasure
                              }

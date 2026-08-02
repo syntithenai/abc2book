@@ -203,9 +203,6 @@ export default class PitchTempoShifter {
     this._soundtouchStartContextTime = startContextTime
     this._loggedFirstAudible = false
     this._startTimeUpdates()
-    // #region agent log
-    fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'pitchTempoShifter.js:_connectSoundTouchPipeline',message:'soundtouch connected',data:{scheduledWhen:scheduledWhen,now:now,startContextTime:startContextTime,connectDriftMs:scheduledWhen!=null?(now-scheduledWhen)*1000:null,tempo:this._tempo,timePlayed:this.shifter?this.shifter.timePlayed:null},timestamp:Date.now(),hypothesisId:'S1'})}).catch(function(){});
-    // #endregion
   }
 
   connect(startWhen) {
@@ -324,9 +321,6 @@ export default class PitchTempoShifter {
       }
       if (detail.timePlayed > 0.001 && this._soundtouchStartContextTime != null && !this._loggedFirstAudible) {
         this._loggedFirstAudible = true
-        // #region agent log
-        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',location:'pitchTempoShifter.js:firstAudible',message:'first soundtouch output',data:{timePlayed:detail.timePlayed,startContextTime:this._soundtouchStartContextTime,now:this.audioContext?this.audioContext.currentTime:null,audibleDriftMs:this._soundtouchStartContextTime!=null&&this.audioContext?(this.audioContext.currentTime-this._soundtouchStartContextTime)*1000:null,outputLatencyMs:this.getOutputLatencySec()*1000},timestamp:Date.now(),hypothesisId:'S2'})}).catch(function(){});
-        // #endregion
       }
       if (this._onTimeUpdate) {
         this._onTimeUpdate(detail.timePlayed, detail.percentagePlayed / 100);

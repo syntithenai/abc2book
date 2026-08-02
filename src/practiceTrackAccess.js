@@ -1,4 +1,4 @@
-import { getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
+import { getGatedActionLabel, mergeAffordanceIntoAccess, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
 
 function getPracticeTrackBackendFromStatus(status) {
@@ -55,13 +55,14 @@ export function getPracticeTrackAccess(context) {
   const hasCapability = resolverAvailable && supportsPracticeTrack
   const showButton = resolverChecked && supportsPracticeTrack && (hasCapability || needsLogin || needsCredit)
 
-  return {
+  return mergeAffordanceIntoAccess({
     showButton: showButton,
     needsLogin: needsLogin && showButton,
     needsCredit: needsCredit && showButton,
+    hasCapability: hasCapability,
     canGenerate: hasCapability && !needsLogin && !needsCredit,
     loginWarning: loginWarning,
-  }
+  }, opts.affordance)
 }
 
 export function getPracticeTrackGenerateLabel(access, options) {

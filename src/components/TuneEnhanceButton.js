@@ -1,6 +1,8 @@
 import { Button } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
+import { useCreditAffordance } from '../useCreditAffordance'
 import useBulkBackgroundResearchQueue from '../useBulkBackgroundResearchQueue'
 import useBulkComposerDiscoveryQueue from '../useBulkComposerDiscoveryQueue'
 import useTuneFieldLookupQueue from '../useTuneFieldLookupQueue'
@@ -23,6 +25,8 @@ export default function TuneEnhanceButton({
   forceRefresh,
 }) {
   const { available: resolverAvailable, checked } = useMediaResolverHealth()
+  const resolverAccess = useFieldLookupResolverAccess(token)
+  const composerAffordance = useCreditAffordance(token, 'composer_discovery')
   const fieldLookupQueue = useTuneFieldLookupQueue()
   const backgroundQueue = useBulkBackgroundResearchQueue()
   const composerQueue = useBulkComposerDiscoveryQueue()
@@ -88,7 +92,10 @@ export default function TuneEnhanceButton({
     })
 
     const discoveryPreview = composerQueue.previewEnqueueTunes([tune])
-    if (!needsMetadata && discoveryPreview.willDiscover > 0) {
+    const canAffordComposer = composerAffordance.creditUnlimited
+      || !composerAffordance.checked
+      || composerAffordance.affordable
+    if (!needsMetadata && discoveryPreview.willDiscover > 0 && canAffordComposer) {
       composerQueue.enqueueTunes([tune], { accessToken: tokenValue })
       composerQueue.start()
     }
@@ -99,7 +106,8 @@ export default function TuneEnhanceButton({
     const willResearch = backgroundPreview
       ? backgroundPreview.willResearch
       : 1
-    if (willResearch > 0) {
+    const canAffordBackground = !resolverAccess.cannotAffordBackground
+    if (willResearch > 0 && canAffordBackground) {
       backgroundQueue.enqueueTunes([tune], {
         accessToken: tokenValue,
         lyricsForTune: lyricLinesToText,
@@ -107,7 +115,10 @@ export default function TuneEnhanceButton({
       backgroundQueue.start()
     }
 
-    if (queued > 0 || (!needsMetadata && discoveryPreview.willDiscover > 0) || willResearch > 0) {
+    const queuedBackground = willResearch > 0 && canAffordBackground
+    if (queued > 0
+      || (!needsMetadata && discoveryPreview.willDiscover > 0 && canAffordComposer)
+      || queuedBackground) {
       toast.success('Queued enhancements for this tune.')
     } else {
       toast.info('No new enhancements queued (fields already filled or jobs already running).')

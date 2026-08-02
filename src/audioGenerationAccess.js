@@ -17,16 +17,18 @@ export function getAudioGenerationAccess(context) {
   const coverAvailable = coverFromBackends || base.hasCapability || featureEnabled || backendsOk;
   const hasAnyTask = practiceAvailable || coverAvailable;
 
+  const cannotAfford = !!base.cannotAfford
+
   const canGenerate = (
     base.canGenerate
     || backendsOk
     || (featureEnabled && resolverAvailable && resolverChecked)
-  ) && !base.needsLogin && !base.needsCredit;
+  ) && !base.needsLogin && !base.needsCredit && !cannotAfford;
 
   const showButton = resolverChecked
     && resolverAvailable
     && hasAnyTask
-    && (canGenerate || base.needsLogin || base.needsCredit);
+    && (canGenerate || base.needsLogin || base.needsCredit || cannotAfford);
 
   return Object.assign({}, base, {
     practiceTrackAvailable: practiceAvailable,

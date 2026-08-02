@@ -137,7 +137,7 @@ export default function ScratchpadAudioToolbar(props) {
                 canApply={props.hasContent}
                 onApplyEffect={props.onApplyEffect}
                 stemBusy={props.stemBusy}
-                canSeparate={props.hasContent}
+                canSeparate={props.canSeparate}
                 onSeparateStems={props.onSeparateStems}
                 trimSuggestion={props.trimSuggestion}
                 trimming={props.trimming}
