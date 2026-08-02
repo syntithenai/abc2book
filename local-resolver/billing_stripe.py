@@ -9,6 +9,8 @@ from typing import Any, Callable
 from fastapi import Header, Request
 from fastapi.responses import JSONResponse
 
+from urllib.parse import urlparse
+
 from billing import billing_enabled, grant_purchase
 from billing_paypal import apply_paypal_cpm_to_checkout_params
 from billing_rates import CREDIT_PACKS
@@ -23,6 +25,40 @@ BILLING_CHECKOUT_CANCEL_URL = os.getenv(
     "BILLING_CHECKOUT_CANCEL_URL",
     "https://tunebook.net/#/billing/cancel",
 ).strip()
+_DEFAULT_CHECKOUT_RETURN_ORIGINS = (
+    "https://tunebook.net",
+    "https://www.tunebook.net",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+)
+
+
+def _checkout_return_origins() -> tuple[str, ...]:
+    raw = os.getenv("BILLING_CHECKOUT_ALLOWED_RETURN_ORIGINS", "").strip()
+    if not raw:
+        return _DEFAULT_CHECKOUT_RETURN_ORIGINS
+    return tuple(part.strip().rstrip("/") for part in raw.split(",") if part.strip())
+
+
+def _checkout_return_url_allowed(url: str) -> bool:
+    try:
+        parsed = urlparse((url or "").strip())
+    except Exception:
+        return False
+    if parsed.scheme not in ("http", "https") or not parsed.netloc:
+        return False
+    origin = f"{parsed.scheme}://{parsed.netloc}".rstrip("/")
+    return origin in _checkout_return_origins()
+
+
+def _resolve_checkout_return_urls(body: dict[str, Any]) -> tuple[str, str]:
+    success = str(body.get("success_url") or body.get("successUrl") or "").strip() or BILLING_CHECKOUT_SUCCESS_URL
+    cancel = str(body.get("cancel_url") or body.get("cancelUrl") or "").strip() or BILLING_CHECKOUT_CANCEL_URL
+    if not _checkout_return_url_allowed(success) or not _checkout_return_url_allowed(cancel):
+        raise ValueError("invalid_checkout_return_url")
+    return success, cancel
 
 
 def stripe_configured() -> bool:
@@ -114,6 +150,14 @@ def register_stripe_billing_routes(
                 content={"error": "invalid_pack"},
                 headers=cors_headers(origin),
             )
+        try:
+            success_url, cancel_url = _resolve_checkout_return_urls(body if isinstance(body, dict) else {})
+        except ValueError:
+            return JSONResponse(
+                status_code=400,
+                content={"error": "invalid_checkout_return_url"},
+                headers=cors_headers(origin),
+            )
 
         import stripe
 
@@ -122,7 +166,6 @@ def register_stripe_billing_routes(
             "mode": "payment",
             "customer_email": email,
             "client_reference_id": email,
-            "automatic_payment_methods": {"enabled": True},
             "line_items": [
                 {
                     "price_data": {
@@ -141,8 +184,8 @@ def register_stripe_billing_routes(
                 "pack_id": pack["id"],
                 "amount_cents": str(pack["amount_cents"]),
             },
-            "success_url": BILLING_CHECKOUT_SUCCESS_URL,
-            "cancel_url": BILLING_CHECKOUT_CANCEL_URL,
+            "success_url": success_url,
+            "cancel_url": cancel_url,
         }
         session_params = apply_paypal_cpm_to_checkout_params(session_params)
         session = stripe.checkout.Session.create(**session_params)

@@ -105,13 +105,28 @@ export default function CreditSettingsSection(props) {
       <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
         <strong>Balance:</strong>
         {loading ? <Spinner animation="border" size="sm" /> : (
-          <span>{creditUnlimited ? 'Unlimited (allowlisted)' : formatCreditCents(balanceCents)}</span>
+          <span>
+            {creditUnlimited ? (
+              <>
+                Unlimited (allowlisted)
+                {typeof balanceCents === 'number' && balanceCents > 0 ? (
+                  <span className="app-text-muted"> — {formatCreditCents(balanceCents)} purchased</span>
+                ) : null}
+              </>
+            ) : formatCreditCents(balanceCents)}
+          </span>
         )}
         <Button variant="outline-secondary" size="sm" disabled={loading || !accessToken} onClick={loadBilling}>
           Refresh
         </Button>
       </div>
-      {accessToken && !creditUnlimited ? (
+      {accessToken && creditUnlimited ? (
+        <p className="app-text-muted small mb-2">
+          Your account has unlimited resolver access via the allowlist. You can still buy credit to test checkout
+          or build ledger history; usage is not deducted while you remain allowlisted.
+        </p>
+      ) : null}
+      {accessToken ? (
         <div className="d-flex flex-wrap gap-2 mb-3">
           {(packs.length ? packs : [
             { id: 'pack_5', label: '$5', amount_cents: 500 },
@@ -132,7 +147,7 @@ export default function CreditSettingsSection(props) {
           })}
         </div>
       ) : null}
-      {accessToken && !creditUnlimited && paymentMethods ? (
+      {accessToken && paymentMethods ? (
         <p className="app-text-muted small mb-3">
           Pay with {formatPaymentMethodsCopy(paymentMethods)} via secure Stripe Checkout.
         </p>

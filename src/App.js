@@ -225,6 +225,14 @@ function useIsEmbeddedAppFrame() {
 }
 
 /** Header + queue host; omitted when the app is loaded in an embed iframe (e.g. Lyrics Tools). */
+/** Main shell waits for tunes unless the user landed on Stripe checkout return URLs. */
+function AppTunesGatedShell(props) {
+  const location = useLocation()
+  const billingCheckout = location.pathname === '/billing/success' || location.pathname === '/billing/cancel'
+  if (props.tunes === null && !billingCheckout) return null
+  return props.children
+}
+
 function AppMainChrome(props) {
   const embedded = useIsEmbeddedAppFrame()
   const [nowPlayingExpanded, setNowPlayingExpanded] = useState(false)
@@ -1297,7 +1305,8 @@ function App(props) {
               }} overrideTuneBook={overrideTuneBook} />
             </> : null}
   
-           {tunes !== null && <div >
+           <AppTunesGatedShell tunes={tunes}>
+           <div >
               <TuneMediaAnalysisProvider
                 tunebook={tunebook}
                 tunes={tunes}
@@ -1527,7 +1536,8 @@ function App(props) {
               </RemoteOutputProvider>
               </PlaybackRegionScanProvider>
               </TuneMediaAnalysisProvider>
-              </div>}
+              </div>
+           </AppTunesGatedShell>
               
             </Router>
           </TunesProvider>

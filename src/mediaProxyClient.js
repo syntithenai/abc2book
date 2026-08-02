@@ -1,6 +1,7 @@
 import {
   getMediaProxyBaseCandidates as buildMediaProxyBaseCandidates,
   DEFAULT_CLOUD_LIGHT_MEDIA_PROXY,
+  getBillingMediaProxyCandidates,
 } from './mediaProxyConfig';
 import { AUTH_SESSION_HEADER, readStoredAuthSessionId } from './authResolverClient';
 import { trackResolverRequest } from './analytics';
@@ -134,28 +135,78 @@ function pickMusicCollectionBase(candidates) {
   return remoteFallback;
 }
 
-function pickBillingProxyBase(candidates) {
-  let remoteFallback = null;
+/** Hosted resolver ledger (Cloud Run) — not peppertrees or local dev. */
+export function pickBillingProxyBase(candidates) {
+  const preferred = getBillingMediaProxyCandidates() || [];
+  for (let i = 0; i < preferred.length; i++) {
+    const base = preferred[i];
+    for (let j = 0; j < candidates.length; j++) {
+      const c = candidates[j];
+      if (c.base === base && c.reachable && c.available && c.billingEnabled) {
+        return c.base;
+      }
+    }
+  }
+  let localFallback = null;
   for (let i = 0; i < candidates.length; i++) {
     const c = candidates[i];
-    if (!c.reachable || !c.available) continue;
-    if (!c.billingEnabled) continue;
-    if (isLikelyLocalResolverBase(c.base)) return c.base;
-    if (!remoteFallback) remoteFallback = c.base;
+    if (!c.reachable || !c.available || !c.billingEnabled) continue;
+    if (!isLikelyLocalResolverBase(c.base)) return c.base;
+    if (!localFallback) localFallback = c.base;
   }
-  return remoteFallback;
+  return localFallback;
 }
 
 function pickBillingAdminBase(candidates) {
-  let remoteFallback = null;
+  const preferred = getBillingMediaProxyCandidates() || [];
+  for (let i = 0; i < preferred.length; i++) {
+    const base = preferred[i];
+    for (let j = 0; j < candidates.length; j++) {
+      const c = candidates[j];
+      if (c.base === base && c.reachable && c.adminAccess && c.billingEnabled) {
+        return c.base;
+      }
+    }
+  }
+  let localFallback = null;
   for (let i = 0; i < candidates.length; i++) {
     const c = candidates[i];
-    if (!c.reachable) continue;
-    if (!c.adminAccess || !c.billingEnabled) continue;
-    if (isLikelyLocalResolverBase(c.base)) return c.base;
-    if (!remoteFallback) remoteFallback = c.base;
+    if (!c.reachable || !c.adminAccess || !c.billingEnabled) continue;
+    if (!isLikelyLocalResolverBase(c.base)) return c.base;
+    if (!localFallback) localFallback = c.base;
   }
-  return remoteFallback;
+  return localFallback;
+}
+
+export function getBillingProxyBase() {
+  if (billingProxyBase) return billingProxyBase;
+  if (lastProbeCandidates.length > 0) {
+    const resolved = pickBillingProxyBase(lastProbeCandidates);
+    if (resolved) {
+      billingProxyBase = resolved;
+      return resolved;
+    }
+  }
+  return '';
+}
+
+function billingFieldsFromCandidate(candidate) {
+  if (!candidate) {
+    return {
+      billingEnabled: false,
+      creditRequired: false,
+      creditBalanceCents: null,
+      creditUnlimited: false,
+    };
+  }
+  return {
+    billingEnabled: !!candidate.billingEnabled,
+    creditRequired: !!candidate.creditRequired,
+    creditBalanceCents: typeof candidate.creditBalanceCents === 'number'
+      ? candidate.creditBalanceCents
+      : null,
+    creditUnlimited: !!candidate.creditUnlimited,
+  };
 }
 
 export function hasMusicCollectionAccess(candidates) {
@@ -687,6 +738,10 @@ export async function probeMediaResolverCandidates(accessToken) {
   musicCollectionProxyBase = pickMusicCollectionBase(candidates);
   billingProxyBase = pickBillingProxyBase(candidates);
   billingAdminProxyBase = pickBillingAdminBase(candidates);
+  const billingCandidate = billingProxyBase
+    ? candidates.find(function(c) { return c.base === billingProxyBase; })
+    : null;
+  const billingFields = billingFieldsFromCandidate(billingCandidate);
   const preferredAuthBase = pickAuthResolverBase(candidates);
   const authBase = resolveStickyAuthBase(candidates, null);
   const collectionCandidate = musicCollectionProxyBase
@@ -714,12 +769,11 @@ export async function probeMediaResolverCandidates(accessToken) {
       : null,
     freeAccess: activeCandidate ? !!activeCandidate.freeAccess : false,
     embeddedCreds: activeCandidate ? !!activeCandidate.embeddedCreds : false,
-    billingEnabled: activeCandidate ? !!activeCandidate.billingEnabled : false,
-    creditRequired: activeCandidate ? !!activeCandidate.creditRequired : false,
-    creditBalanceCents: activeCandidate && typeof activeCandidate.creditBalanceCents === 'number'
-      ? activeCandidate.creditBalanceCents
-      : null,
-    creditUnlimited: activeCandidate ? !!activeCandidate.creditUnlimited : false,
+    billingEnabled: billingFields.billingEnabled,
+    creditRequired: billingFields.creditRequired,
+    creditBalanceCents: billingFields.creditBalanceCents,
+    creditUnlimited: billingFields.creditUnlimited,
+    billingProxyBase: billingProxyBase || '',
     resolverAccess: activeCandidate ? activeCandidate.resolverAccess !== false : false,
     adminAccess: hasAdminAccess(candidates),
     billingAdminAccess: hasBillingAdminAccess(candidates),
@@ -923,12 +977,18 @@ function resolvePreferredProxyBase(pathAndQuery) {
 
 export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptions = {}) {
   const billingAdminPath = pathNeedsBillingAdmin(pathAndQuery);
+  const billingPath = pathNeedsBilling(pathAndQuery);
   const preferredBase = resolvePreferredProxyBase(pathAndQuery);
-  let bases = billingAdminPath && billingAdminProxyBase
-    ? [billingAdminProxyBase]
-    : preferredBase
-      ? [preferredBase].concat(getMediaProxyBaseCandidates().filter(function(b) { return b !== preferredBase; }))
-      : getMediaProxyBaseCandidates();
+  let bases;
+  if (billingAdminPath && billingAdminProxyBase) {
+    bases = [billingAdminProxyBase];
+  } else if (billingPath && billingProxyBase) {
+    bases = [billingProxyBase];
+  } else if (preferredBase) {
+    bases = [preferredBase].concat(getMediaProxyBaseCandidates().filter(function(b) { return b !== preferredBase; }));
+  } else {
+    bases = getMediaProxyBaseCandidates();
+  }
 
   if (bases.length === 0) {
     throw new Error('Media proxy not configured');
@@ -937,6 +997,12 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
     throw new Error(
       'No resolver with billing admin access is reachable. '
       + 'Sign in with an admin account and ensure ALLOWED_ADMIN_EMAILS is set on a running billing resolver.'
+    );
+  }
+  if (billingPath && !billingProxyBase) {
+    throw new Error(
+      'No hosted resolver with billing is reachable. '
+      + 'Credit purchases and balances are managed on the central Cloud Run resolver.'
     );
   }
 

@@ -23,11 +23,28 @@ export async function fetchBillingHistory(accessToken, limit) {
   return response.json()
 }
 
+export function buildBillingCheckoutReturnUrls() {
+  if (typeof window === 'undefined' || !window.location || !window.location.origin) {
+    return null
+  }
+  const origin = String(window.location.origin).replace(/\/$/, '')
+  return {
+    success_url: origin + '/#/billing/success?session_id={CHECKOUT_SESSION_ID}',
+    cancel_url: origin + '/#/billing/cancel',
+  }
+}
+
 export async function createCreditCheckoutSession(accessToken, packId) {
+  const returnUrls = buildBillingCheckoutReturnUrls()
+  const body = { pack_id: packId }
+  if (returnUrls) {
+    body.success_url = returnUrls.success_url
+    body.cancel_url = returnUrls.cancel_url
+  }
   const response = await fetchViaMediaProxy('/billing/create-checkout-session', accessToken, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ pack_id: packId }),
+    body: JSON.stringify(body),
   })
   if (!response.ok) {
     const body = await response.json().catch(function() { return {} })

@@ -1,6 +1,8 @@
 import {
+  DEFAULT_BILLING_MEDIA_PROXY,
   DEFAULT_CLOUD_LIGHT_MEDIA_PROXY,
   DEFAULT_PUBLIC_MEDIA_PROXY,
+  getBillingMediaProxyCandidates,
   getMediaProxyBaseCandidates,
   getUseCloudResolver,
   normalizeMediaProxyBase,
@@ -92,6 +94,12 @@ describe('mediaProxyConfig', function() {
       if (originalCapacitor) window.Capacitor = originalCapacitor
       else delete window.Capacitor
     }
+  })
+
+  test('billing candidates target Cloud Run not peppertrees', function() {
+    expect(getBillingMediaProxyCandidates()).toEqual([DEFAULT_BILLING_MEDIA_PROXY])
+    expect(DEFAULT_BILLING_MEDIA_PROXY).toBe(DEFAULT_CLOUD_LIGHT_MEDIA_PROXY)
+    expect(DEFAULT_BILLING_MEDIA_PROXY).not.toBe(DEFAULT_PUBLIC_MEDIA_PROXY)
   })
 
   test('skips public cloud candidates when cloud resolver disabled', function() {

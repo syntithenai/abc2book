@@ -72,6 +72,7 @@ export default function BillingCheckoutPage(props) {
         <h1>Checkout cancelled</h1>
         <Alert variant="info">
           No charge was made. You can buy resolver credit any time from Settings → Providers.
+          If you left checkout after a card decline, try again with a different card or payment method.
         </Alert>
         <div className="d-flex flex-wrap gap-2">
           <Button variant="primary" onClick={openCreditSettings}>

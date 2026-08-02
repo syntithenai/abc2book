@@ -39,6 +39,28 @@ def payment_methods_payload() -> dict[str, Any]:
     }
 
 
+def apply_checkout_payment_options(params: dict[str, Any]) -> dict[str, Any]:
+    """Set Stripe Checkout Session payment options.
+
+    Checkout Sessions use payment_method_types (or payment_method_configuration for
+    PayPal CPM), not PaymentIntent automatic_payment_methods.
+    """
+    out = dict(params)
+    out.pop("automatic_payment_methods", None)
+    if paypal_cpm_configured():
+        out["payment_method_configuration"] = PAYPAL_CPM_PAYMENT_METHOD_CONFIGURATION
+        out.pop("payment_method_types", None)
+    else:
+        out.pop("payment_method_configuration", None)
+        types: list[str] = []
+        if BILLING_STRIPE_CARDS_ENABLED:
+            types.append("card")
+        if not types:
+            types = ["card"]
+        out["payment_method_types"] = types
+    return out
+
+
 def payment_methods_help_text(methods: dict[str, Any] | None) -> str:
     opts = methods or payment_methods_payload()
     stripe = opts.get("stripe") if isinstance(opts.get("stripe"), dict) else {}

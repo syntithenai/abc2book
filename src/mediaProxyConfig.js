@@ -138,6 +138,20 @@ export function getDefaultPublicMediaProxyCandidates() {
   return urls
 }
 
+/** Central credit ledger on Cloud Run — not home peppertrees or localhost. */
+export const DEFAULT_BILLING_MEDIA_PROXY = DEFAULT_CLOUD_LIGHT_MEDIA_PROXY
+
+export function getBillingMediaProxyCandidates() {
+  const urls = []
+  parseCsvMediaProxyUrls(process.env.REACT_APP_BILLING_MEDIA_PROXY_URLS || '').forEach(function(url) {
+    pushUnique(urls, url)
+  })
+  if (!urls.length) {
+    pushUnique(urls, DEFAULT_BILLING_MEDIA_PROXY)
+  }
+  return urls
+}
+
 export function isLoopbackMediaProxyBase(value) {
   const base = normalizeMediaProxyBase(value)
   if (!base) return false

@@ -488,6 +488,15 @@ class BillingPaymentMethodTests(unittest.TestCase):
         self.assertTrue(payload["stripe"]["googlePay"])
         self.assertFalse(payload["paypal"])
 
+    def test_checkout_uses_payment_method_types_for_cards(self):
+        with patch.dict(os.environ, {"PAYPAL_CPM_ENABLED": "false"}, clear=False):
+            billing_payment_methods.PAYPAL_CPM_ENABLED = False
+            billing_payment_methods.PAYPAL_CPM_PAYMENT_METHOD_CONFIGURATION = ""
+            billing_payment_methods.BILLING_STRIPE_CARDS_ENABLED = True
+            params = billing_payment_methods.apply_checkout_payment_options({"mode": "payment"})
+        self.assertEqual(params["payment_method_types"], ["card"])
+        self.assertNotIn("automatic_payment_methods", params)
+
     def test_paypal_cpm_applied_when_configured(self):
         with patch.dict(
             os.environ,
@@ -501,6 +510,22 @@ class BillingPaymentMethodTests(unittest.TestCase):
             billing_payment_methods.PAYPAL_CPM_PAYMENT_METHOD_CONFIGURATION = "pmc_test"
             params = billing_paypal.apply_paypal_cpm_to_checkout_params({"mode": "payment"})
         self.assertEqual(params["payment_method_configuration"], "pmc_test")
+        self.assertNotIn("payment_method_types", params)
+
+    def test_checkout_return_urls_allowlisted(self):
+        success, cancel = billing_stripe._resolve_checkout_return_urls({
+            "success_url": "http://localhost:3000/#/billing/success?session_id={CHECKOUT_SESSION_ID}",
+            "cancel_url": "http://localhost:3000/#/billing/cancel",
+        })
+        self.assertIn("localhost:3000", success)
+        self.assertIn("localhost:3000", cancel)
+
+    def test_checkout_return_urls_reject_unknown_origin(self):
+        with self.assertRaises(ValueError):
+            billing_stripe._resolve_checkout_return_urls({
+                "success_url": "https://evil.example/#/billing/success",
+                "cancel_url": "https://evil.example/#/billing/cancel",
+            })
 
     def test_extract_checkout_payment_method_wallet(self):
         class FakeStripe:

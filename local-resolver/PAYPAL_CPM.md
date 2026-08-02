@@ -33,7 +33,7 @@ No SPA changes beyond copy—the same **Buy credit** button opens Stripe Checkou
 
 Completed payments still emit `checkout.session.completed` to:
 
-`https://peppertrees.syntithenai.com/billing/webhook`
+`https://tunebook-resolver-light-ytrp5enyda-ts.a.run.app/billing/webhook`
 
 The resolver records `payment_method: paypal` in ledger detail when detected.
 

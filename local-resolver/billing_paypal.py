@@ -11,14 +11,10 @@ from billing_payment_methods import (
 
 
 def apply_paypal_cpm_to_checkout_params(params: dict[str, Any]) -> dict[str, Any]:
-    """Attach PayPal CPM Checkout options when enabled and configured."""
-    if not paypal_cpm_configured():
-        return params
-    from billing_payment_methods import PAYPAL_CPM_PAYMENT_METHOD_CONFIGURATION
+    """Attach Checkout payment options (card and/or PayPal CPM)."""
+    from billing_payment_methods import apply_checkout_payment_options
 
-    out = dict(params)
-    out["payment_method_configuration"] = PAYPAL_CPM_PAYMENT_METHOD_CONFIGURATION
-    return out
+    return apply_checkout_payment_options(params)
 
 
 def paypal_cpm_status() -> dict[str, Any]:

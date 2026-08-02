@@ -1,6 +1,9 @@
 jest.mock('./mediaProxyConfig', function() {
   return {
     getMediaProxyBaseCandidates: jest.fn(),
+    getBillingMediaProxyCandidates: jest.fn(function() {
+      return ['https://cloud-hosted.example.com'];
+    }),
   };
 });
 
@@ -11,13 +14,16 @@ jest.mock('./analytics', function() {
 });
 
 import * as mediaProxyClient from './mediaProxyClient';
-import { getMediaProxyBaseCandidates } from './mediaProxyConfig';
+import { getMediaProxyBaseCandidates, getBillingMediaProxyCandidates } from './mediaProxyConfig';
 
 const fetchMock = global.fetch;
 
 describe('mediaProxyClient', function() {
   beforeEach(function() {
     jest.clearAllMocks();
+    getBillingMediaProxyCandidates.mockReturnValue([
+      'https://cloud-hosted.example.com',
+    ]);
     mediaProxyClient.clearActiveMediaProxyBase();
   });
 
@@ -91,6 +97,70 @@ describe('mediaProxyClient', function() {
     expect(warning).not.toBeNull();
     expect(warning.showBuyCreditButton).toBe(true);
     expect(warning.showLoginButton).toBe(false);
+  });
+
+  test('pickBillingProxyBase prefers Cloud Run over peppertrees and local billing', function() {
+    const base = mediaProxyClient.pickBillingProxyBase([
+      {
+        base: 'http://localhost:8787',
+        reachable: true,
+        available: true,
+        billingEnabled: true,
+      },
+      {
+        base: 'https://peppertrees.example.com',
+        reachable: true,
+        available: true,
+        billingEnabled: true,
+      },
+      {
+        base: 'https://cloud-hosted.example.com',
+        reachable: true,
+        available: true,
+        billingEnabled: true,
+      },
+    ]);
+    expect(base).toBe('https://cloud-hosted.example.com');
+  });
+
+  test('fetchViaMediaProxy pins billing requests to hosted billing resolver', async function() {
+    getMediaProxyBaseCandidates.mockReturnValue([
+      'http://localhost:8787',
+      'https://peppertrees.example.com',
+      'https://cloud-hosted.example.com',
+    ]);
+
+    global.fetch = jest.fn().mockImplementation(function(url) {
+      if (String(url).indexOf('/health') >= 0) {
+        return Promise.resolve({
+          ok: true,
+          status: 200,
+          headers: { get: function() { return 'application/json'; } },
+          json: async function() {
+            return {
+              ok: true,
+              authorized: true,
+              billingEnabled: true,
+              creditBalanceCents: 12.5,
+            };
+          },
+        });
+      }
+      return Promise.resolve({
+        ok: true,
+        status: 200,
+        json: async function() { return { balanceCents: 12.5 }; },
+      });
+    });
+
+    await mediaProxyClient.probeMediaResolverCandidates('token');
+    await mediaProxyClient.fetchViaMediaProxy('/billing/balance', 'token', { method: 'GET' });
+
+    const billingCall = global.fetch.mock.calls.find(function(call) {
+      return String(call[0]).indexOf('/billing/balance') >= 0;
+    });
+    expect(billingCall).toBeTruthy();
+    expect(billingCall[0]).toBe('https://cloud-hosted.example.com/billing/balance');
   });
 
   test('getResolverProxiedPlaybackBlock when balance is empty', function() {
