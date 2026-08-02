@@ -2,7 +2,8 @@
  * Lightweight catalog rows + per-tune bodies in IndexedDB.
  */
 import localforage from 'localforage'
-import { allArtists, allGenres } from './tuneBibliographicUtils'
+import { allArtists, allGenres, allTitles } from './tuneBibliographicUtils'
+import { matchesMainSearchText } from './searchTextUtils'
 import { MIGRATION_BATCH_SIZE } from './tuneScaleConstants'
 
 const catalogStore = localforage.createInstance({ name: 'tunecatalog', storeName: 'catalog' })
@@ -14,6 +15,17 @@ const META_MIGRATION_STATUS = 'migrationStatus'
 const META_CATALOG_REVISION = 'catalogRevision'
 
 let catalogCountCache = null
+
+export function catalogRowSearchHaystack(row) {
+  if (!row) return []
+  return allTitles({ name: row.name, aliases: row.aliases }).concat(row.artists || [])
+}
+
+export function catalogRowMatchesTextFilter(row, filterText) {
+  const query = String(filterText || '').trim()
+  if (!query) return true
+  return matchesMainSearchText(catalogRowSearchHaystack(row), query)
+}
 
 export function buildCatalogRowFromTune(tune) {
   if (!tune || tune.id == null) return null
@@ -34,6 +46,7 @@ export function buildCatalogRowFromTune(tune) {
   return {
     id: String(tune.id),
     name: name,
+    aliases: Array.isArray(tune.aliases) ? tune.aliases.slice() : [],
     sortName: name.toLowerCase(),
     books: Array.isArray(tune.books) ? tune.books.slice() : [],
     tags: Array.isArray(tune.tags) ? tune.tags.slice() : [],
@@ -143,11 +156,7 @@ function rowMatchesFilters(row, filters) {
     }
   }
   if (f.starredFilter && !row.starred) return false
-  const query = String(f.textFilter || f.filter || '').trim().toLowerCase()
-  if (query) {
-    const hay = [row.name, (row.artists || []).join(' ')].join(' ').toLowerCase()
-    if (hay.indexOf(query) === -1) return false
-  }
+  if (!catalogRowMatchesTextFilter(row, f.textFilter || f.filter)) return false
   return true
 }
 

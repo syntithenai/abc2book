@@ -782,7 +782,6 @@ export default function TuneRecordForm(props) {
                 resolverAvailable={props.resolverAvailable}
                 existingLyrics={values.lyrics || ''}
                 disabled={!String(values.title || '').trim()}
-                alsoSearchChords={true}
                 forceReview={true}
                 onGenreAccept={function(genre) {
                   patchField('genres', function(current) {

@@ -6,6 +6,7 @@ import useMediaResolverHealth from '../useMediaResolverHealth'
 import {useParams} from 'react-router-dom'
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
+import { hasLyricEmbeddedChords, stripChordsFromLyricLines } from '../chordSheetUtils'
 import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
@@ -102,6 +103,16 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
 
     setLyricsToolsQuery(firstLine)
     setShowLyricsTools(true)
+  }
+
+  function stripChordsFromLyrics() {
+    const lines = lyricLinesToText(tune).split('\n')
+    if (!hasLyricEmbeddedChords(lines)) {
+      toast.info('No chords to strip')
+      return
+    }
+    saveLyrics(stripChordsFromLyricLines(lines))
+    toast.success('Chords stripped from lyrics')
   }
 
   return (
@@ -263,6 +274,14 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                           onClick={function() { setShowLyricChordSheet(true) }}
                         >
                           {tunebook.icons.words} Lyric chord sheet
+                        </Button>
+                        <Button
+                          variant="outline-primary"
+                          style={{display: 'inline-flex', alignItems: 'center', gap: '0.35em'}}
+                          title="Remove chord lines and inline ChordPro chords"
+                          onClick={stripChordsFromLyrics}
+                        >
+                          {tunebook.icons.eraser} Strip chords
                         </Button>
                         <Button
                           variant="outline-primary"

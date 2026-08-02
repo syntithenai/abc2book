@@ -2,7 +2,7 @@
  * Inverted text search index for catalog rows.
  */
 import localforage from 'localforage'
-import { buildCatalogRowFromTune } from './tuneCatalogStore'
+import { buildCatalogRowFromTune, catalogRowSearchHaystack } from './tuneCatalogStore'
 
 const tokenStore = localforage.createInstance({ name: 'tunesearch', storeName: 'tokens' })
 const META_KEY = 'meta'
@@ -41,7 +41,7 @@ async function saveTextSearchIndex(index) {
 export async function indexCatalogRow(row) {
   if (!row || !row.id) return
   const index = await loadTextSearchIndex()
-  const source = [row.name, (row.artists || []).join(' ')].join(' ')
+  const source = catalogRowSearchHaystack(row).join(' ')
   const tokens = tokenize(source)
   const id = String(row.id)
   Object.keys(index).forEach(function(token) {
@@ -104,7 +104,7 @@ export async function rebuildTextSearchIndexFromTunes(tunes) {
   list.forEach(function(tune) {
     const row = buildCatalogRowFromTune(tune)
     if (!row) return
-    const tokens = tokenize([row.name, (row.artists || []).join(' ')].join(' '))
+    const tokens = tokenize(catalogRowSearchHaystack(row).join(' '))
     const id = String(row.id)
     tokens.forEach(function(token) {
       if (!Array.isArray(index[token])) index[token] = []

@@ -1,4 +1,5 @@
 from oauth_bff_routes import register_oauth_bff_routes
+from chords_fetch import fetch_chords_url, search_chords
 from lyrics_fetch import fetch_lyrics_url, search_lyrics
 from lyrics_word_tools import (
     lookup_alliteration,

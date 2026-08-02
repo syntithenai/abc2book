@@ -687,6 +687,31 @@ export function hasLyricEmbeddedChords(lines) {
 }
 
 /**
+ * Remove chord-only lines and inline ChordPro `[Am]` markers from lyric text.
+ */
+export function stripChordsFromLyricLines(lines) {
+  const source = Array.isArray(lines) ? lines : String(lines || '').split(/\r?\n/);
+  const result = [];
+  classifyLyricChordLines(source).forEach(function(item) {
+    if (item.type === 'chord') return;
+    if (item.type === 'blank') {
+      result.push('');
+      return;
+    }
+    if (item.type === 'header') {
+      result.push(item.text);
+      return;
+    }
+    const plain = parseChordProInlineLyricLine(item.text)
+      .map(function(token) { return token.text; })
+      .join('');
+    if (!plain.trim() && item.text.trim()) return;
+    result.push(plain);
+  });
+  return result;
+}
+
+/**
  * True when the source uses two consecutive blank lines somewhere (stanza
  * separator in double-spaced verse sheets).
  */

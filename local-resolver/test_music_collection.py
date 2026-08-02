@@ -201,6 +201,39 @@ class MusicCollectionIndexTests(unittest.TestCase):
             self.assertTrue(matches)
             self.assertIn("sally", matches[0]["title"].lower())
 
+    def test_matches_life_in_you_by_okee_dokee_brothers(self):
+        index = {
+            "version": 1,
+            "entries": {
+                "4": {
+                    "title": "The Life That's in You",
+                    "artist": "The Okee Dokee Brothers",
+                    "path": "Kids/The Life That's in You.mp3",
+                    "duration": 210,
+                    "hasArt": False,
+                },
+            },
+            "tokens": {
+                "life": ["4"],
+                "you": ["4"],
+                "okee": ["4"],
+                "dokee": ["4"],
+                "brothers": ["4"],
+            },
+        }
+        with open(os.path.join(self.root, "music_collection_index.json"), "w", encoding="utf-8") as handle:
+            json.dump(index, handle)
+        with patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root}):
+            from music_collection import load_music_collection_index
+
+            load_music_collection_index(force_reload=True)
+            by_life = search_music_collection("life", artist="")
+            by_okee = search_music_collection("okee", artist="")
+            self.assertTrue(by_life)
+            self.assertTrue(by_okee)
+            self.assertEqual(by_life[0]["title"], "The Life That's in You")
+            self.assertEqual(by_okee[0]["artist"], "The Okee Dokee Brothers")
+
     def test_resolve_file(self):
         with patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root}):
             from music_collection import load_music_collection_index

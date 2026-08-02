@@ -11,7 +11,8 @@ import {
   buildCatalogRowFromTune,
   deleteTuneFromCatalog,
 } from './tuneCatalogStore'
-import { removeFromTextSearchIndex } from './tuneTextSearchIndex'
+import { indexTuneForSearch, removeFromTextSearchIndex } from './tuneTextSearchIndex'
+import { catalogRowMatchesTextFilter } from './tuneCatalogStore'
 import { BODY_LRU_CACHE_SIZE } from './tuneScaleConstants'
 
 let monolithTunesRef = {}
@@ -98,6 +99,7 @@ export async function saveTuneToRepository(tune) {
   if (isCatalogStorageEnabled()) {
     await saveTuneBody(tune)
     touchBodyCache(key, tune)
+    await indexTuneForSearch(tune)
   } else {
     monolithTunesRef[key] = tune
     touchBodyCache(key, tune)
@@ -118,8 +120,7 @@ export async function listCatalogPage(filters, options) {
     const f = filters || {}
     const book = f.currentTuneBook || ''
     if (book && Array.isArray(row.books) && row.books.indexOf(book) === -1) return false
-    const query = String(f.textFilter || f.filter || '').trim().toLowerCase()
-    if (query && String(row.name || '').toLowerCase().indexOf(query) === -1) return false
+    if (!catalogRowMatchesTextFilter(row, f.textFilter || f.filter)) return false
     return true
   })
   all.sort(function(a, b) {

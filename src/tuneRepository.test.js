@@ -12,6 +12,7 @@ jest.mock('./tuneCatalogStore', function() {
 
 jest.mock('./tuneTextSearchIndex', function() {
   return {
+    indexTuneForSearch: jest.fn(function() { return Promise.resolve() }),
     removeFromTextSearchIndex: jest.fn(function() { return Promise.resolve() }),
   }
 })

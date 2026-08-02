@@ -10,6 +10,7 @@ import { listLyricSections } from './lyricStructureUtils'
 import {
   hasLyricEmbeddedChords,
   classifyLyricChordLines,
+  stripChordsFromLyricLines,
   splitChordChartIntoBlocks,
   extractChordSequence,
   normalizeStanzaNameKey,
@@ -363,9 +364,5 @@ export function createChordSheetNotationChunk(text, options) {
  * Strip chord-only lines from text for plain-lyrics import.
  */
 export function plainLyricLinesFromText(text) {
-  const lines = String(text || '').split(/\r?\n/)
-  const classified = classifyLyricChordLines(lines)
-  return classified
-    .filter(function(item) { return item.type !== 'chord' })
-    .map(function(item) { return item.text })
+  return stripChordsFromLyricLines(String(text || '').split(/\r?\n/))
 }

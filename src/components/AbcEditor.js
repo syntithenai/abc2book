@@ -22,7 +22,7 @@ import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
 import ComposerNameInput from './ComposerNameInput'
 import CollapsibleButtonRow from './CollapsibleButtonRow'
-import ChordsSearchButton from './ChordsSearchButton'
+import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
 import GenreSearchButton from './GenreSearchButton'
@@ -52,6 +52,7 @@ import {
   invalidateChordBlockCache,
   syncChordSectionLabelsFromPrimaryVoice,
 } from '../chordBlockMerge'
+import { hasLyricEmbeddedChords, stripChordsFromLyricLines } from '../chordSheetUtils'
 import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
 
 
@@ -375,6 +376,22 @@ export default function AbcEditor(props) {
     }
     setLyricsToolsQuery(firstLine)
     setShowLyricsTools(true)
+  }
+
+  function stripChordsFromBlockLyrics() {
+    const lines = blockLyricsText.split('\n')
+    if (!hasLyricEmbeddedChords(lines)) {
+      toast.info('No chords to strip')
+      return
+    }
+    const stripped = stripChordsFromLyricLines(lines)
+    const next = stripped.join('\n')
+    if (wLinesSaveTimeout.current) clearTimeout(wLinesSaveTimeout.current)
+    setBlockLyricsText(next)
+    setPlainLyricLines(tune, stripped)
+    tune.id = params.tuneId
+    saveTune(tune, { historyLabel: 'Strip chords from lyrics', immediate: true })
+    toast.success('Chords stripped from lyrics')
   }
 
   function renderNoteAlignedLyricsButton(extraStyle) {
@@ -1055,7 +1072,7 @@ export default function AbcEditor(props) {
                         {props.tunebook.icons.quillpen} Tools
                       </Button>
                       <div className="abc-editor-toolbar-end">
-                        <ChordsSearchButton
+                        <LyricsSearchButton
                           tuneId={params.tuneId || tune.id}
                           title={tune.name}
                           artist={tune.composer || ''}
@@ -1064,11 +1081,13 @@ export default function AbcEditor(props) {
                           onGenreAccept={acceptSuggestedGenre}
                           token={props.token}
                           tunebook={props.tunebook}
-                          showLyricsCheckbox={false}
-                          defaultUpdateLyrics={true}
-                          forceUpdateLyrics={true}
-                          confirmOverwrite={true}
                           existingLyrics={blockLyricsText}
+                          confirmOverwriteChords={true}
+                          onLyrics={function(result) {
+                            const text = result && (result.text
+                              || (Array.isArray(result.lines) ? result.lines.join('\n') : ''))
+                            if (text) setBlockLyricsText(text)
+                          }}
                           onChords={function(result, options) {
                             const committed = commitChordSearchResultToTune({
                               result: result,
@@ -1098,8 +1117,16 @@ export default function AbcEditor(props) {
                                 : 'Chords updated from search'
                             )
                           }}
-                          onLyrics={function() { /* lyrics applied via merge when empty */ }}
                         />
+                        <Button
+                          variant="outline-primary"
+                          style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
+                          title="Remove chord lines and inline ChordPro chords"
+                          onClick={stripChordsFromBlockLyrics}
+                        >
+                          {props.tunebook.icons.eraser}
+                          Strip chords
+                        </Button>
                         <Button
                           variant="outline-primary"
                           style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}

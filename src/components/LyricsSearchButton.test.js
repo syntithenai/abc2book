@@ -94,7 +94,7 @@ jest.mock('./FieldLookupButtonGroup', function() {
   }
 })
 
-describe('LyricsSearchButton alsoSearchChords fallback', function() {
+describe('LyricsSearchButton import chords fallback', function() {
   let container
   let root
 
@@ -121,7 +121,8 @@ describe('LyricsSearchButton alsoSearchChords fallback', function() {
           candidateId: 'cand-1',
           title: 'Am I Ever Going to See Your Face Again',
           artist: 'The Angels',
-          alsoSearchChords: true,
+          defaultImportChords: true,
+          onChords: jest.fn(),
           leaveAwaiting: true,
           forceReview: true,
         })
