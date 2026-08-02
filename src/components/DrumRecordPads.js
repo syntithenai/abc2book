@@ -1,26 +1,23 @@
-import { useCallback } from 'react'
-import { Button, ButtonGroup } from 'react-bootstrap'
+import { useCallback, useEffect } from 'react'
+import { Button } from 'react-bootstrap'
 import { DRUM_TRACK_DEFAULTS } from '../rhythmEngineTypes'
-import { primeDrumKit, playDrumHit } from '../drumSampleKit'
+import { primeDrumKit } from '../drumSampleKit'
 
 export default function DrumRecordPads(props) {
   const disabled = !!props.disabled
   const recording = !!props.recording
-  const recordMode = props.recordMode || 'overdub'
   const flashSlot = props.flashSlot
 
-  const hitPad = useCallback(function(trackId) {
-    if (!props.onPadHit || disabled) return
-    props.onPadHit(trackId)
+  useEffect(function() {
     if (props.audioContext) {
-      const track = DRUM_TRACK_DEFAULTS.find(function(t) { return t.id === trackId })
-      if (track) {
-        primeDrumKit(props.audioContext).then(function() {
-          playDrumHit(props.audioContext, props.audioContext.currentTime, track.sample, track.velocity, 0)
-        }).catch(function() { /* ignore */ })
-      }
+      primeDrumKit(props.audioContext).catch(function() { /* ignore */ })
     }
-  }, [props.onPadHit, props.audioContext, disabled])
+  }, [props.audioContext])
+
+  const hitPad = useCallback(function(trackId) {
+    if (disabled || !props.onPadHit) return
+    props.onPadHit(trackId)
+  }, [props.onPadHit, disabled])
 
   return (
     <div className="drum-pattern-editor__record-pads">
@@ -34,22 +31,6 @@ export default function DrumRecordPads(props) {
         >
           {recording ? 'Stop recording' : 'Record'}
         </Button>
-        <ButtonGroup size="sm" aria-label="Record mode">
-          <Button
-            variant={recordMode === 'replace' ? 'primary' : 'outline-primary'}
-            disabled={disabled || recording}
-            onClick={function() { if (props.onRecordModeChange) props.onRecordModeChange('replace') }}
-          >
-            Replace
-          </Button>
-          <Button
-            variant={recordMode === 'overdub' ? 'primary' : 'outline-primary'}
-            disabled={disabled || recording}
-            onClick={function() { if (props.onRecordModeChange) props.onRecordModeChange('overdub') }}
-          >
-            Overdub
-          </Button>
-        </ButtonGroup>
         {recording && props.onUndoHit ? (
           <Button variant="outline-secondary" size="sm" disabled={disabled} onClick={props.onUndoHit}>
             Undo hit

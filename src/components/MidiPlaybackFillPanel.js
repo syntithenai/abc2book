@@ -4,10 +4,13 @@ import {
   applyPlaybackFillSettings,
   getPlaybackFillSettings,
   getFillStyleDefinition,
+  hasStoredDrumRhythm,
   listFillStyleGroups,
   MAX_FILL_LEVEL,
   MIN_FILL_LEVEL,
 } from '../playbackFillSettings'
+import { getPlaybackMetronomeSettings } from '../playbackMetronomeSettings'
+import { presetLabelForId } from '../drumPatternPresets'
 import './MidiPlaybackFillPanel.css'
 
 export default function MidiPlaybackFillPanel({ tune, tunebook, mediaController }) {
@@ -21,6 +24,9 @@ export default function MidiPlaybackFillPanel({ tune, tunebook, mediaController 
     tune && tune.id,
     tune && tune.playbackFillStyle,
     tune && tune.playbackFillLevel,
+    tune && tune.playbackFillFollowDrumGroove,
+    tune && tune.playbackMetronomeDrumRhythm,
+    tune && tune.playbackMetronomePresetId,
   ])
 
   const styleGroups = useMemo(function() {
@@ -30,6 +36,17 @@ export default function MidiPlaybackFillPanel({ tune, tunebook, mediaController 
   const selectedStyle = useMemo(function() {
     return getFillStyleDefinition(settings.style)
   }, [settings.style])
+
+  const drumRhythmAvailable = useMemo(function() {
+    return hasStoredDrumRhythm(tune)
+  }, [tune])
+
+  const linkedDrumPresetLabel = useMemo(function() {
+    if (!tune || !drumRhythmAvailable) return ''
+    const metro = getPlaybackMetronomeSettings(tune, tunebook)
+    const presetId = metro.drumRhythm && metro.drumRhythm.presetId
+    return presetId ? presetLabelForId(presetId) : 'Custom drum pattern'
+  }, [tune, tunebook, drumRhythmAvailable])
 
   function persist(nextSettings) {
     setSettings(nextSettings)
@@ -54,6 +71,12 @@ export default function MidiPlaybackFillPanel({ tune, tunebook, mediaController 
       level: level >= MIN_FILL_LEVEL ? Math.min(MAX_FILL_LEVEL, level) : MIN_FILL_LEVEL,
     }))
   }
+
+  function handleFollowDrumGrooveChange(event) {
+    persist(Object.assign({}, settings, { followDrumGroove: !!event.target.checked }))
+  }
+
+  const fillDisabled = settings.style === 'off'
 
   return (
     <div className="midi-playback-fill-panel">
@@ -86,6 +109,31 @@ export default function MidiPlaybackFillPanel({ tune, tunebook, mediaController 
       </Form.Group>
 
       <Form.Group className="mb-3">
+        <Form.Check
+          type="checkbox"
+          id="midi-fill-follow-drum-groove"
+          label="Follow drum groove"
+          checked={!!settings.followDrumGroove}
+          disabled={fillDisabled || !drumRhythmAvailable}
+          onChange={handleFollowDrumGrooveChange}
+        />
+        {settings.followDrumGroove && linkedDrumPresetLabel ? (
+          <Form.Text muted>
+            Using {linkedDrumPresetLabel} from the Metronome tab.
+          </Form.Text>
+        ) : null}
+        {!drumRhythmAvailable ? (
+          <Form.Text muted>
+            Set a drum pattern on the Metronome tab (Drums mode) to enable groove-synced fills.
+          </Form.Text>
+        ) : (
+          <Form.Text muted>
+            Uses the drum pattern from the Metronome tab. Switch to Drums mode there to edit the groove.
+          </Form.Text>
+        )}
+      </Form.Group>
+
+      <Form.Group className="mb-3">
         <Form.Label htmlFor="midi-fill-level">
           Fill level ({settings.level}%)
         </Form.Label>
@@ -95,7 +143,7 @@ export default function MidiPlaybackFillPanel({ tune, tunebook, mediaController 
           max={MAX_FILL_LEVEL}
           step="5"
           value={settings.level}
-          disabled={settings.style === 'off'}
+          disabled={fillDisabled}
           onChange={handleLevelChange}
         />
         <Form.Text muted>

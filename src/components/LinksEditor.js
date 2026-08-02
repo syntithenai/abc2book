@@ -167,8 +167,9 @@ function LinksEditorBody(props) {
             resolverStatus: resolverStatus,
             features: resolverFeatures,
             accessToken: props.token,
+            user: props.user,
         }
-    }, [resolverAvailable, resolverChecked, resolverStatus, resolverFeatures, props.token])
+    }, [resolverAvailable, resolverChecked, resolverStatus, resolverFeatures, props.token, props.user])
     const midiExportAccess = useMemo(function() {
         return getMidiExportNotationAccess(resolverAccessContext)
     }, [resolverAccessContext])

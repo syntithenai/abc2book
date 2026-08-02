@@ -16,6 +16,8 @@ update the corresponding tests listed in the regression section below.
 | **Rhythm-grid tempo** | `computeRhythmGridTempo` — BPM for one rhythm beat. Used for all click/drum scheduling. |
 | **Music tempo** | `computePlaybackMetronomeTempo` — BPM for abcjs `TimingCallbacks` / music playhead (follows tune `L:` unit). **Do not** use for click spacing. |
 
+**Drum editor subdivision** (standalone metronome / pattern editor): **Beats** groups pulse slots for editing only; **Pulses** (default) matches one toggle per metronome pulse; **Half pulses** doubles `pulsesPerBeat` on the shared click+drum grid. Pulses per beat are set via the metronome controls and apply in drum mode as well.
+
 ### abcjs vs rhythm beat units
 
 abcjs `getBeatsPerMeasure()` follows the tune's `L:` default (often **2** half-note

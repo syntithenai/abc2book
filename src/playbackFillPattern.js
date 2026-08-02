@@ -5,6 +5,12 @@ import { getFillStyleDefinition } from './playbackFillSettings'
 import { extractChordsPerBar } from './practiceTrackChordLayer'
 import { isSectionMarkerChordName } from './chordSheetUtils'
 import { defaultNoteLengthForMeter, getBarModel } from './barModel'
+import {
+  buildBarScheduleFromContext,
+  buildActiveSlotIndices,
+  buildChordHitSlots,
+  roleIsActive,
+} from './fillDrumRhythm'
 
 function getFirstVoiceNoteLines(tune) {
   if (!tune || !tune.voices) return []
@@ -51,6 +57,9 @@ const RHYTHM_PATTERNS = {
   '9/8': ['boom', '', 'chick', 'boom2', '', 'chick', 'boom2', '', 'chick'],
   '12/8': ['boom', '', 'chick', 'boom2', '', 'chick', 'boom', '', 'chick', 'boom2', '', 'chick'],
 }
+
+/** Melody stays on abcjs channel 0; fill tracks use dedicated channels. */
+export const FILL_CHANNELS = { bass: 1, chord: 2, accent: 3 }
 
 const BASS_ROOT_MIDI = {
   C: 36, D: 38, E: 40, F: 41, G: 43, A: 33, B: 35,
@@ -475,7 +484,51 @@ function beatLengthFromMeter(meterKey) {
   return 1 / den
 }
 
-function noteEvent(pitch, start, duration, volume, instrument) {
+function buildMeterEntrySchedule(entry) {
+  const slotsPerBarCount = rhythmSlotsPerBar(entry.meterKey)
+  const slotDurationSec = entry.barDurationSec / Math.max(1, slotsPerBarCount)
+  const pattern = rhythmPatternForMeter(entry.meterKey, entry.barDurationSec, slotDurationSec)
+  const slotStartsSec = []
+  const slotDurationsSec = []
+  const roles = []
+  for (let m = 0; m < slotsPerBarCount; m += 1) {
+    slotStartsSec.push(m * slotDurationSec)
+    slotDurationsSec.push(slotDurationSec)
+    const slot = pattern[m]
+    roles.push({
+      bass: slot === 'boom' || slot === 'boom2',
+      chord: slot === 'chick',
+      accent: slot === 'boom2',
+      arpeggio: false,
+    })
+  }
+  return {
+    source: 'meter',
+    slotsPerBar: slotsPerBarCount,
+    slotStartsSec: slotStartsSec,
+    slotDurationsSec: slotDurationsSec,
+    pattern: pattern,
+    roles: roles,
+  }
+}
+
+function resolveEntryRhythm(entry, rhythmContext) {
+  if (rhythmContext) {
+    const drumSchedule = buildBarScheduleFromContext(rhythmContext, entry.barDurationSec)
+    if (drumSchedule) return drumSchedule
+  }
+  return buildMeterEntrySchedule(entry)
+}
+
+function slotStartSec(entry, schedule, slotIndex) {
+  return entry.startSec + schedule.slotStartsSec[slotIndex]
+}
+
+function slotDurationSecAt(schedule, slotIndex) {
+  return schedule.slotDurationsSec[slotIndex]
+}
+
+function noteEvent(pitch, start, duration, volume, instrument, channel) {
   return {
     cmd: 'note',
     pitch: pitch,
@@ -484,12 +537,13 @@ function noteEvent(pitch, start, duration, volume, instrument) {
     duration: durationRounded(duration),
     gap: 0,
     instrument: instrument,
+    channel: channel != null ? channel : FILL_CHANNELS.chord,
   }
 }
 
-function pushChordNotes(events, pitches, start, duration, volume, instrument) {
+function pushChordNotes(events, pitches, start, duration, volume, instrument, channel) {
   ;(pitches || []).forEach(function(pitch) {
-    if (pitch != null) events.push(noteEvent(pitch, start, duration, volume, instrument))
+    if (pitch != null) events.push(noteEvent(pitch, start, duration, volume, instrument, channel))
   })
 }
 
@@ -499,76 +553,106 @@ function scaledVolume(base, level) {
   return Math.max(1, Math.min(127, Math.round(base * scale * gain)))
 }
 
-function generateBoomChickEvents(entry, pattern, slotDurationSec, styleDef, level) {
+function generateBoomChickEvents(entry, schedule, styleDef, level, rhythmContext) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const noteLength = slotDurationSec / 2
   const bassVol = scaledVolume(90, level)
   const chordVol = scaledVolume(76, level)
   const bassProgram = styleDef.bassProgram
   const chordProgram = styleDef.chordProgram
 
-  for (let m = 0; m < pattern.length; m += 1) {
-    const beatStart = entry.startSec + m * slotDurationSec
-    switch (pattern[m]) {
-      case 'boom':
-        if (chord.boom != null) {
-          events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, bassProgram))
-        }
-        break
-      case 'boom2':
-        if (chord.boom2 != null) {
-          events.push(noteEvent(chord.boom2, beatStart, noteLength, bassVol, bassProgram))
-        }
-        break
-      case 'chick':
-        pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, chordProgram)
-        break
-      default:
-        break
+  for (let m = 0; m < schedule.slotsPerBar; m += 1) {
+    const beatStart = slotStartSec(entry, schedule, m)
+    const noteLength = slotDurationSecAt(schedule, m) / 2
+    const role = schedule.roles[m]
+    if (role && role.bass && chord.boom != null) {
+      events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, bassProgram, FILL_CHANNELS.bass))
+    } else if (role && role.accent && chord.boom2 != null) {
+      events.push(noteEvent(chord.boom2, beatStart, noteLength, bassVol, bassProgram, FILL_CHANNELS.bass))
+    } else if (!rhythmContext) {
+      switch (schedule.pattern[m]) {
+        case 'boom':
+          if (chord.boom != null) {
+            events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, bassProgram, FILL_CHANNELS.bass))
+          }
+          break
+        case 'boom2':
+          if (chord.boom2 != null) {
+            events.push(noteEvent(chord.boom2, beatStart, noteLength, bassVol, bassProgram, FILL_CHANNELS.bass))
+          }
+          break
+        default:
+          break
+      }
+    }
+    if (role && role.chord) {
+      pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, chordProgram, FILL_CHANNELS.chord)
+    } else if (!rhythmContext && schedule.pattern[m] === 'chick') {
+      pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, chordProgram, FILL_CHANNELS.chord)
     }
   }
   return events
 }
 
-function generateBassOnlyEvents(entry, pattern, slotDurationSec, styleDef, level) {
+function generateBassOnlyEvents(entry, schedule, styleDef, level) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const noteLength = slotDurationSec / 2
   const bassVol = scaledVolume(90, level)
   const bassProgram = styleDef.bassProgram
 
-  for (let m = 0; m < pattern.length; m += 1) {
-    const beatStart = entry.startSec + m * slotDurationSec
-    if (pattern[m] === 'boom' && chord.boom != null) {
-      events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, bassProgram))
-    } else if (pattern[m] === 'boom2' && chord.boom2 != null) {
-      events.push(noteEvent(chord.boom2, beatStart, noteLength, bassVol, bassProgram))
+  for (let m = 0; m < schedule.slotsPerBar; m += 1) {
+    const beatStart = slotStartSec(entry, schedule, m)
+    const noteLength = slotDurationSecAt(schedule, m) / 2
+    const role = schedule.roles[m]
+    if (role && role.bass && chord.boom != null) {
+      events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, bassProgram, FILL_CHANNELS.bass))
+    } else if (role && role.accent && chord.boom2 != null) {
+      events.push(noteEvent(chord.boom2, beatStart, noteLength, bassVol, bassProgram, FILL_CHANNELS.bass))
+    } else if (schedule.pattern[m] === 'boom' && chord.boom != null) {
+      events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, bassProgram, FILL_CHANNELS.bass))
+    } else if (schedule.pattern[m] === 'boom2' && chord.boom2 != null) {
+      events.push(noteEvent(chord.boom2, beatStart, noteLength, bassVol, bassProgram, FILL_CHANNELS.bass))
     }
   }
   return events
 }
 
-function generateBlockEvents(entry, styleDef, level) {
+function generateBlockEvents(entry, schedule, styleDef, level, rhythmContext) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
+  const chordVol = scaledVolume(72, level)
+  const bassVol = scaledVolume(80, level)
+
+  if (rhythmContext) {
+    schedule.roles.forEach(function(role, index) {
+      if (!roleIsActive(role)) return
+      const beatStart = slotStartSec(entry, schedule, index)
+      const noteLength = slotDurationSecAt(schedule, index) * 0.85
+      if (role.bass && chord.boom != null && styleDef.bassProgram !== styleDef.chordProgram) {
+        events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      }
+      if (role.chord || role.arpeggio) {
+        pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
+      }
+    })
+    return events
+  }
+
   const meterParts = String(entry.meterKey || '4/4').split('/')
   const beatsPerBar = parseInt(meterParts[0], 10) || 4
   const beatLength = entry.barDurationSec / Math.max(1, beatsPerBar)
   const fillBeats = getFillBeatIndices(beatsPerBar)
-  const chordVol = scaledVolume(72, level)
-  const bassVol = scaledVolume(80, level)
   const noteLength = beatLength * 0.85
 
   fillBeats.forEach(function(beat) {
     const beatStart = entry.startSec + beat * beatLength
     if (chord.boom != null && styleDef.bassProgram !== styleDef.chordProgram) {
-      events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, styleDef.bassProgram))
+      events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
     }
-    pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram)
+    pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
   })
   return events
 }
@@ -581,9 +665,9 @@ function generatePadEvents(entry, styleDef, level) {
   const chordVol = scaledVolume(68, level)
   const bassVol = scaledVolume(74, level)
   if (chord.boom != null) {
-    events.push(noteEvent(chord.boom, entry.startSec, duration, bassVol, styleDef.bassProgram))
+    events.push(noteEvent(chord.boom, entry.startSec, duration, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
   }
-  pushChordNotes(events, chord.chick, entry.startSec, duration, chordVol, styleDef.chordProgram)
+  pushChordNotes(events, chord.chick, entry.startSec, duration, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
   return events
 }
 
@@ -605,7 +689,8 @@ function generateArpeggioEvents(entry, styleDef, level) {
       entry.startSec + index * beatLength,
       noteLength,
       vol,
-      styleDef.chordProgram
+      styleDef.chordProgram,
+      FILL_CHANNELS.chord
     ))
   })
   if (chord.boom != null) {
@@ -614,52 +699,493 @@ function generateArpeggioEvents(entry, styleDef, level) {
       entry.startSec,
       entry.barDurationSec * 0.95,
       scaledVolume(64, level),
-      styleDef.bassProgram
+      styleDef.bassProgram,
+      FILL_CHANNELS.bass
     ))
   }
   return events
 }
 
-function generateStrumEvents(entry, styleDef, level) {
+function generateStrumEvents(entry, schedule, styleDef, level, rhythmContext) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const slotsPerBar = rhythmSlotsPerBar(entry.meterKey)
-  const slotDurationSec = entry.barDurationSec / Math.max(1, slotsPerBar)
-  const noteLength = slotDurationSec * 0.35
   const chordVol = scaledVolume(72, level)
   const bassVol = scaledVolume(84, level)
 
-  for (let beat = 0; beat < slotsPerBar; beat += 1) {
-    const beatStart = entry.startSec + beat * slotDurationSec
-    pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram)
+  if (rhythmContext) {
+    schedule.roles.forEach(function(role, index) {
+      if (!roleIsActive(role)) return
+      const beatStart = slotStartSec(entry, schedule, index)
+      const noteLength = slotDurationSecAt(schedule, index) * 0.35
+      if (role.chord || role.arpeggio) {
+        pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
+      }
+      if (role.bass && chord.boom != null) {
+        events.push(noteEvent(chord.boom, beatStart, noteLength * 1.5, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      }
+    })
+    return events
+  }
+
+  for (let beat = 0; beat < schedule.slotsPerBar; beat += 1) {
+    const beatStart = slotStartSec(entry, schedule, beat)
+    const noteLength = slotDurationSecAt(schedule, beat) * 0.35
+    pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
     if (beat % 2 === 0 && chord.boom != null) {
-      events.push(noteEvent(chord.boom, beatStart, noteLength * 1.5, bassVol, styleDef.bassProgram))
+      events.push(noteEvent(chord.boom, beatStart, noteLength * 1.5, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
     }
   }
   return events
 }
 
-function generateFingerpickEvents(entry, styleDef, level) {
+function arpeggioCyclePitches(chord) {
+  const triad = (chord.chick || []).slice(0, 3)
+  const bass = chord.boom
+  if (bass == null && !triad.length) return []
+  const third = triad[0] || (bass != null ? bass + 12 : null)
+  const fifth = triad[1] || triad[0] || (bass != null ? bass + 19 : null)
+  const highThird = triad[2] || fifth
+  return [bass, third, fifth, highThird].filter(function(p) { return p != null })
+}
+
+function generateFingerpickEvents(entry, schedule, styleDef, level, rhythmContext) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
+  const vol = scaledVolume(72, level)
+  const program = styleDef.chordProgram
+  const cycle = arpeggioCyclePitches(chord)
+  if (!cycle.length) return events
+
+  if (rhythmContext) {
+    const activeSlots = buildActiveSlotIndices(schedule)
+    activeSlots.forEach(function(slotIndex, stepIndex) {
+      const pitch = cycle[stepIndex % cycle.length]
+      const start = slotStartSec(entry, schedule, slotIndex)
+      const noteLen = slotDurationSecAt(schedule, slotIndex) * 0.4
+      events.push(noteEvent(pitch, start, noteLen, vol, program, FILL_CHANNELS.chord))
+    })
+    return events
+  }
+
+  const steps = schedule.slotsPerBar * 2
+  const stepDur = entry.barDurationSec / Math.max(1, steps)
+  const noteLen = stepDur * 0.4
+  for (let i = 0; i < steps; i += 1) {
+    const pitch = cycle[i % cycle.length]
+    events.push(noteEvent(
+      pitch,
+      entry.startSec + i * stepDur,
+      noteLen,
+      vol,
+      program,
+      FILL_CHANNELS.chord
+    ))
+  }
+  return events
+}
+
+function generatePizzicatoEvents(entry, schedule, styleDef, level, rhythmContext) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const pizzVol = scaledVolume(70, level)
+  const bassVol = scaledVolume(76, level)
+
+  if (rhythmContext) {
+    const chordSlots = buildChordHitSlots(schedule)
+    chordSlots.forEach(function(slotIndex, beat) {
+      const beatStart = slotStartSec(entry, schedule, slotIndex)
+      const noteLength = slotDurationSecAt(schedule, slotIndex) * 0.15
+      const role = schedule.roles[slotIndex]
+      if (role && role.bass && chord.boom != null) {
+        events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      }
+      const voices = (chord.chick || []).slice(0, 2)
+      if (voices.length) {
+        const pitch = voices[beat % voices.length]
+        events.push(noteEvent(pitch, beatStart, noteLength, pizzVol, styleDef.chordProgram, FILL_CHANNELS.chord))
+      }
+    })
+    return events
+  }
+
+  const meterParts = String(entry.meterKey || '4/4').split('/')
+  const beatsPerBar = parseInt(meterParts[0], 10) || 4
+  const beatLength = entry.barDurationSec / Math.max(1, beatsPerBar)
+  const fillBeats = getFillBeatIndices(beatsPerBar)
+  const noteLength = beatLength * 0.15
+
+  fillBeats.forEach(function(beat) {
+    const beatStart = entry.startSec + beat * beatLength
+    if (chord.boom != null) {
+      events.push(noteEvent(
+        chord.boom,
+        beatStart,
+        noteLength,
+        bassVol,
+        styleDef.bassProgram,
+        FILL_CHANNELS.bass
+      ))
+    }
+    const voices = (chord.chick || []).slice(0, 2)
+    if (voices.length) {
+      const pitch = voices[beat % voices.length]
+      events.push(noteEvent(
+        pitch,
+        beatStart,
+        noteLength,
+        pizzVol,
+        styleDef.chordProgram,
+        FILL_CHANNELS.chord
+      ))
+    }
+  })
+  return events
+}
+
+function generateReelDriveEvents(entry, schedule, styleDef, level, rhythmContext) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const chordVol = scaledVolume(74, level)
+  const bassVol = scaledVolume(86, level)
+
+  if (rhythmContext) {
+    schedule.roles.forEach(function(role, index) {
+      if (!roleIsActive(role)) return
+      const beatStart = slotStartSec(entry, schedule, index)
+      const noteLength = slotDurationSecAt(schedule, index) * 0.35
+      if (role.chord || role.arpeggio) {
+        pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
+      }
+      if (role.bass && chord.boom != null) {
+        events.push(noteEvent(chord.boom, beatStart, noteLength * 1.4, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      }
+    })
+    return events
+  }
+
+  for (let beat = 0; beat < schedule.slotsPerBar; beat += 1) {
+    const beatStart = slotStartSec(entry, schedule, beat)
+    const noteLength = slotDurationSecAt(schedule, beat) * 0.35
+    pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
+    if (beat % 2 === 0 && chord.boom != null) {
+      events.push(noteEvent(chord.boom, beatStart, noteLength * 1.4, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+    }
+  }
+  return events
+}
+
+function generateWaltzRollEvents(entry, styleDef, level) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const triad = (chord.chick || []).slice(0, 3)
+  const roll = [chord.boom, triad[0], triad[1] || triad[0]].filter(function(p) { return p != null })
+  if (!roll.length) return events
+  const steps = Math.max(3, meterBeatCount(entry.meterKey))
+  const stepDur = entry.barDurationSec / steps
+  const noteLen = stepDur * 0.65
+  const vol = scaledVolume(70, level)
+  for (let i = 0; i < steps; i += 1) {
+    const pitch = roll[i % roll.length]
+    events.push(noteEvent(
+      pitch,
+      entry.startSec + i * stepDur,
+      noteLen,
+      vol,
+      styleDef.chordProgram,
+      FILL_CHANNELS.chord
+    ))
+  }
+  return events
+}
+
+function generateHornpipeLiltEvents(entry, schedule, styleDef, level, rhythmContext) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const fiddleVol = scaledVolume(72, level)
+  const bassVol = scaledVolume(78, level)
+  const triad = (chord.chick || []).slice(0, 2)
+
+  if (rhythmContext) {
+    schedule.roles.forEach(function(role, index) {
+      if (!roleIsActive(role)) return
+      const beatStart = slotStartSec(entry, schedule, index)
+      const slotDur = slotDurationSecAt(schedule, index)
+      if ((role.chord || role.arpeggio) && triad.length) {
+        events.push(noteEvent(triad[0], beatStart, slotDur * 0.7, fiddleVol, styleDef.chordProgram, FILL_CHANNELS.chord))
+      }
+      if (role.bass && chord.boom != null) {
+        events.push(noteEvent(chord.boom, beatStart, slotDur * 0.35, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      }
+    })
+    return events
+  }
+
+  for (let beat = 0; beat < schedule.slotsPerBar; beat += 1) {
+    const beatStart = slotStartSec(entry, schedule, beat)
+    const slotDur = slotDurationSecAt(schedule, beat)
+    const longDur = slotDur * 0.72
+    const shortDur = slotDur * 0.22
+    const shortStart = beatStart + longDur * 0.85
+    if (triad.length) {
+      events.push(noteEvent(triad[0], beatStart, longDur, fiddleVol, styleDef.chordProgram, FILL_CHANNELS.chord))
+      if (triad[1] != null) {
+        events.push(noteEvent(triad[1], beatStart + 0.01, longDur, fiddleVol - 6, styleDef.chordProgram, FILL_CHANNELS.chord))
+      }
+    }
+    if (chord.boom != null) {
+      events.push(noteEvent(chord.boom, shortStart, shortDur, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+    }
+  }
+  return events
+}
+
+function generatePolkaBounceEvents(entry, schedule, styleDef, level, rhythmContext) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const chordVol = scaledVolume(74, level)
+  const bassVol = scaledVolume(84, level)
+
+  if (rhythmContext) {
+    schedule.roles.forEach(function(role, index) {
+      if (!roleIsActive(role)) return
+      const beatStart = slotStartSec(entry, schedule, index)
+      const noteLength = slotDurationSecAt(schedule, index) * 0.42
+      if (role.bass && chord.boom != null) {
+        events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      } else if (role.chord || role.arpeggio) {
+        pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
+      }
+    })
+    return events
+  }
+
+  for (let beat = 0; beat < schedule.slotsPerBar; beat += 1) {
+    const beatStart = slotStartSec(entry, schedule, beat)
+    const noteLength = slotDurationSecAt(schedule, beat) * 0.42
+    if (beat % 2 === 0) {
+      if (chord.boom != null) {
+        events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      }
+    } else {
+      pushChordNotes(events, chord.chick, beatStart, noteLength, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
+    }
+  }
+  return events
+}
+
+function generateSlipJigRollEvents(entry, schedule, styleDef, level, rhythmContext) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const triad = (chord.chick || []).slice(0, 3)
+  const group = [chord.boom, triad[0], triad[1] || triad[0]].filter(function(p) { return p != null })
+  if (!group.length) return events
+  const harpVol = scaledVolume(68, level)
+  const celloVol = scaledVolume(62, level)
+
+  const slots = rhythmContext
+    ? buildActiveSlotIndices(schedule)
+    : Array.from({ length: schedule.slotsPerBar }, function(_, i) { return i })
+
+  slots.forEach(function(slotIndex, i) {
+    const pitch = group[i % group.length]
+    const slotStart = slotStartSec(entry, schedule, slotIndex)
+    const noteLen = slotDurationSecAt(schedule, slotIndex) * 0.55
+    const isBass = pitch === chord.boom
+    events.push(noteEvent(
+      pitch,
+      slotStart,
+      noteLen,
+      isBass ? celloVol : harpVol,
+      isBass ? styleDef.bassProgram : styleDef.chordProgram,
+      isBass ? FILL_CHANNELS.bass : FILL_CHANNELS.chord
+    ))
+  })
+  return events
+}
+
+function generateFiddleBassEvents(entry, schedule, styleDef, level, rhythmContext) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const bassVol = scaledVolume(84, level)
+  const fiddleVol = scaledVolume(70, level)
+  const triad = (chord.chick || []).slice(0, 2)
+
+  for (let m = 0; m < schedule.slotsPerBar; m += 1) {
+    const beatStart = slotStartSec(entry, schedule, m)
+    const noteLength = slotDurationSecAt(schedule, m) * 0.45
+    const role = schedule.roles[m]
+    if (role && role.bass && chord.boom != null) {
+      const bassPitch = role.accent && chord.boom2 != null ? chord.boom2 : chord.boom
+      events.push(noteEvent(bassPitch, beatStart, noteLength, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+    } else if (role && (role.chord || role.arpeggio) && triad.length) {
+      events.push(noteEvent(triad[0], beatStart, noteLength, fiddleVol, styleDef.chordProgram, FILL_CHANNELS.chord))
+      if (triad[1] != null) {
+        events.push(noteEvent(triad[1], beatStart + 0.01, noteLength, fiddleVol - 8, styleDef.chordProgram, FILL_CHANNELS.chord))
+      }
+    } else {
+      const slot = schedule.pattern[m]
+      if ((slot === 'boom' || slot === 'boom2') && chord.boom != null) {
+        const bassPitch = slot === 'boom2' && chord.boom2 != null ? chord.boom2 : chord.boom
+        events.push(noteEvent(bassPitch, beatStart, noteLength, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      } else if (slot === 'chick' && triad.length) {
+        events.push(noteEvent(triad[0], beatStart, noteLength, fiddleVol, styleDef.chordProgram, FILL_CHANNELS.chord))
+        if (triad[1] != null) {
+          events.push(noteEvent(triad[1], beatStart + 0.01, noteLength, fiddleVol - 8, styleDef.chordProgram, FILL_CHANNELS.chord))
+        }
+      }
+    }
+  }
+  return events
+}
+
+function generateHarpCelloEvents(entry, styleDef, level) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const duration = entry.barDurationSec * 0.98
+  if (chord.boom != null) {
+    events.push(noteEvent(chord.boom, entry.startSec, duration, scaledVolume(70, level), styleDef.bassProgram, FILL_CHANNELS.bass))
+  }
   const slotsPerBar = rhythmSlotsPerBar(entry.meterKey)
   const slotDurationSec = entry.barDurationSec / Math.max(1, slotsPerBar)
-  const bassVol = scaledVolume(80, level)
-  const chordVol = scaledVolume(60, level)
-  const bassNotes = [chord.boom, chord.boom2].filter(function(n) { return n != null })
-
+  const triad = (chord.chick || []).slice(0, 3)
+  const roll = [triad[0], triad[1] || triad[0], triad[2] || triad[1] || triad[0]].filter(function(p) { return p != null })
+  if (!roll.length) return events
+  const noteLen = slotDurationSec * 0.35
+  const harpVol = scaledVolume(66, level)
   for (let beat = 0; beat < slotsPerBar; beat += 1) {
     const beatStart = entry.startSec + beat * slotDurationSec
-    if (bassNotes.length) {
-      const bassPitch = bassNotes[beat % bassNotes.length]
-      events.push(noteEvent(bassPitch, beatStart, slotDurationSec * 0.45, bassVol, styleDef.bassProgram))
+    roll.forEach(function(pitch, idx) {
+      events.push(noteEvent(
+        pitch,
+        beatStart + idx * noteLen * 0.35,
+        noteLen,
+        harpVol,
+        styleDef.chordProgram,
+        FILL_CHANNELS.chord
+      ))
+    })
+  }
+  return events
+}
+
+function generateBrassStringsEvents(entry, schedule, styleDef, level, rhythmContext) {
+  const events = generatePadEvents(entry, styleDef, level)
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const stabVol = scaledVolume(78, level)
+
+  if (rhythmContext) {
+    buildChordHitSlots(schedule).forEach(function(slotIndex) {
+      const beatStart = slotStartSec(entry, schedule, slotIndex)
+      const stabDur = slotDurationSecAt(schedule, slotIndex) * 0.35
+      pushChordNotes(events, (chord.chick || []).slice(0, 2), beatStart, stabDur, stabVol, styleDef.accentProgram, FILL_CHANNELS.accent)
+    })
+    return events
+  }
+
+  const meterParts = String(entry.meterKey || '4/4').split('/')
+  const beatsPerBar = parseInt(meterParts[0], 10) || 4
+  const beatLength = entry.barDurationSec / Math.max(1, beatsPerBar)
+  const stabDur = beatLength * 0.35
+  ;[0, 2].forEach(function(beat) {
+    if (beat >= beatsPerBar) return
+    const beatStart = entry.startSec + beat * beatLength
+    pushChordNotes(events, (chord.chick || []).slice(0, 2), beatStart, stabDur, stabVol, styleDef.accentProgram, FILL_CHANNELS.accent)
+  })
+  return events
+}
+
+function generateGuitarMandolinEvents(entry, schedule, styleDef, level, rhythmContext) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const mandolinVol = scaledVolume(68, level)
+  const bassVol = scaledVolume(80, level)
+  const highTriad = (chord.chick || []).map(function(p) { return p + 12 })
+
+  if (rhythmContext) {
+    const activeSlots = buildActiveSlotIndices(schedule)
+    activeSlots.forEach(function(slotIndex, stepIndex) {
+      const stepStart = slotStartSec(entry, schedule, slotIndex)
+      const noteLen = slotDurationSecAt(schedule, slotIndex) * 0.38
+      const role = schedule.roles[slotIndex]
+      if (role && role.bass && chord.boom != null) {
+        events.push(noteEvent(chord.boom, stepStart, noteLen * 1.2, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      } else if (highTriad.length) {
+        const pitch = highTriad[stepIndex % highTriad.length]
+        events.push(noteEvent(pitch, stepStart, noteLen, mandolinVol, styleDef.chordProgram, FILL_CHANNELS.chord))
+      }
+    })
+    return events
+  }
+
+  const steps = schedule.slotsPerBar * 2
+  const stepDur = entry.barDurationSec / Math.max(1, steps)
+  const noteLen = stepDur * 0.38
+  for (let i = 0; i < steps; i += 1) {
+    const stepStart = entry.startSec + i * stepDur
+    if (i % 4 === 0 && chord.boom != null) {
+      events.push(noteEvent(chord.boom, stepStart, noteLen * 1.2, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+    } else if (highTriad.length) {
+      const pitch = highTriad[i % highTriad.length]
+      events.push(noteEvent(pitch, stepStart, noteLen, mandolinVol, styleDef.chordProgram, FILL_CHANNELS.chord))
     }
-    if (beat % 2 === 1 && chord.chick && chord.chick.length) {
-      const pitch = chord.chick[beat % chord.chick.length]
-      events.push(noteEvent(pitch, beatStart + slotDurationSec * 0.15, slotDurationSec * 0.35, chordVol, styleDef.chordProgram))
-    }
+  }
+  return events
+}
+
+function generatePipeDroneEvents(entry, styleDef, level) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const duration = entry.barDurationSec * 0.98
+  const droneVol = scaledVolume(64, level)
+  const bassVol = scaledVolume(72, level)
+  const triad = (chord.chick || []).slice(0, 3)
+  const dronePitch = triad[1] || triad[0] || (chord.boom != null ? chord.boom + 7 : null)
+  if (chord.boom != null) {
+    events.push(noteEvent(chord.boom, entry.startSec, duration, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+  }
+  if (dronePitch != null) {
+    events.push(noteEvent(dronePitch, entry.startSec, duration, droneVol, styleDef.chordProgram, FILL_CHANNELS.chord))
+  }
+  return events
+}
+
+function generateBodhranAccentEvents(entry, schedule, styleDef, level) {
+  const events = []
+  const chord = entry.chord
+  if (!chord || chord.break) return events
+  const bassVol = scaledVolume(92, level)
+
+  for (let m = 0; m < schedule.slotsPerBar; m += 1) {
+    const role = schedule.roles[m]
+    const slot = schedule.pattern[m]
+    const isHit = (role && (role.bass || role.accent)) || slot === 'boom' || slot === 'boom2'
+    if (!isHit || chord.boom == null) continue
+    const bassPitch = (role && role.accent && chord.boom2 != null) || slot === 'boom2'
+      ? (chord.boom2 != null ? chord.boom2 : chord.boom)
+      : chord.boom
+    const beatStart = slotStartSec(entry, schedule, m)
+    const noteLength = slotDurationSecAt(schedule, m) * 0.3
+    events.push(noteEvent(
+      bassPitch,
+      beatStart,
+      noteLength,
+      bassVol,
+      styleDef.bassProgram,
+      FILL_CHANNELS.bass
+    ))
   }
   return events
 }
@@ -679,54 +1205,91 @@ function generateOrchestraEvents(entry, styleDef, level) {
       entry.startSec + index * beatLength,
       beatLength * 0.55,
       vol,
-      styleDef.accentProgram
+      styleDef.accentProgram,
+      FILL_CHANNELS.accent
     ))
   })
   return events
 }
 
-function generateBrassHitsEvents(entry, styleDef, level) {
+function generateBrassHitsEvents(entry, schedule, styleDef, level, rhythmContext) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const hitStart = entry.startSec
-  const hitDuration = Math.min(entry.barDurationSec * 0.4, 0.6)
   const chordVol = scaledVolume(80, level)
   const bassVol = scaledVolume(76, level)
-  pushChordNotes(events, chord.chick, hitStart, hitDuration, chordVol, styleDef.chordProgram)
+
+  if (rhythmContext) {
+    buildChordHitSlots(schedule).forEach(function(slotIndex) {
+      const hitStart = slotStartSec(entry, schedule, slotIndex)
+      const hitDuration = Math.min(slotDurationSecAt(schedule, slotIndex) * 0.85, 0.6)
+      pushChordNotes(events, chord.chick, hitStart, hitDuration, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
+      if (chord.boom != null) {
+        events.push(noteEvent(chord.boom, hitStart, hitDuration, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+      }
+    })
+    return events
+  }
+
+  const hitStart = entry.startSec
+  const hitDuration = Math.min(entry.barDurationSec * 0.4, 0.6)
+  pushChordNotes(events, chord.chick, hitStart, hitDuration, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
   if (chord.boom != null) {
-    events.push(noteEvent(chord.boom, hitStart, hitDuration, bassVol, styleDef.bassProgram))
+    events.push(noteEvent(chord.boom, hitStart, hitDuration, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
   }
   return events
 }
 
-function generateEventsForEntry(entry, styleDef, level) {
+function generateEventsForEntry(entry, styleDef, level, rhythmContext) {
   const generator = styleDef.generator
-  const slotsPerBar = rhythmSlotsPerBar(entry.meterKey)
-  const slotDurationSec = entry.barDurationSec / Math.max(1, slotsPerBar)
-  const pattern = rhythmPatternForMeter(entry.meterKey, entry.barDurationSec, slotDurationSec)
+  const schedule = resolveEntryRhythm(entry, rhythmContext)
 
   switch (generator) {
     case 'boom-chick':
-      return generateBoomChickEvents(entry, pattern, slotDurationSec, styleDef, level)
+    case 'jig-bass':
+      return generateBoomChickEvents(entry, schedule, styleDef, level, rhythmContext)
     case 'bass-only':
-      return generateBassOnlyEvents(entry, pattern, slotDurationSec, styleDef, level)
+      return generateBassOnlyEvents(entry, schedule, styleDef, level)
     case 'block':
-      return generateBlockEvents(entry, styleDef, level)
+      return generateBlockEvents(entry, schedule, styleDef, level, rhythmContext)
     case 'pad':
       return generatePadEvents(entry, styleDef, level)
     case 'arpeggio':
       return generateArpeggioEvents(entry, styleDef, level)
     case 'strum':
-      return generateStrumEvents(entry, styleDef, level)
+      return generateStrumEvents(entry, schedule, styleDef, level, rhythmContext)
     case 'fingerpick':
-      return generateFingerpickEvents(entry, styleDef, level)
+      return generateFingerpickEvents(entry, schedule, styleDef, level, rhythmContext)
+    case 'pizzicato':
+      return generatePizzicatoEvents(entry, schedule, styleDef, level, rhythmContext)
     case 'orchestra':
       return generateOrchestraEvents(entry, styleDef, level)
     case 'brass-hits':
-      return generateBrassHitsEvents(entry, styleDef, level)
+      return generateBrassHitsEvents(entry, schedule, styleDef, level, rhythmContext)
+    case 'reel-drive':
+      return generateReelDriveEvents(entry, schedule, styleDef, level, rhythmContext)
+    case 'waltz-roll':
+      return generateWaltzRollEvents(entry, styleDef, level)
+    case 'hornpipe-lilt':
+      return generateHornpipeLiltEvents(entry, schedule, styleDef, level, rhythmContext)
+    case 'polka-bounce':
+      return generatePolkaBounceEvents(entry, schedule, styleDef, level, rhythmContext)
+    case 'slip-jig-roll':
+      return generateSlipJigRollEvents(entry, schedule, styleDef, level, rhythmContext)
+    case 'fiddle-bass':
+      return generateFiddleBassEvents(entry, schedule, styleDef, level, rhythmContext)
+    case 'harp-cello':
+      return generateHarpCelloEvents(entry, styleDef, level)
+    case 'brass-strings':
+      return generateBrassStringsEvents(entry, schedule, styleDef, level, rhythmContext)
+    case 'guitar-mandolin':
+      return generateGuitarMandolinEvents(entry, schedule, styleDef, level, rhythmContext)
+    case 'pipe-drone':
+      return generatePipeDroneEvents(entry, styleDef, level)
+    case 'bodhran-accent':
+      return generateBodhranAccentEvents(entry, schedule, styleDef, level)
     default:
-      return generateBoomChickEvents(entry, pattern, slotDurationSec, styleDef, level)
+      return generateBoomChickEvents(entry, schedule, styleDef, level, rhythmContext)
   }
 }
 
@@ -746,14 +1309,16 @@ function splitEventsByInstrument(events, bassProgram, chordProgram, accentProgra
   return { bassTrack: bassTrack, chordTrack: chordTrack, accentTrack: accentTrack }
 }
 
-function trackWithProgram(events, program) {
+function trackWithProgram(events, program, channel) {
   if (!events.length) return null
-  const track = [{ cmd: 'program', channel: 0, instrument: program }]
-  events.forEach(function(ev) { track.push(ev) })
+  const track = [{ cmd: 'program', channel: channel, instrument: program }]
+  events.forEach(function(ev) {
+    track.push(Object.assign({}, ev, { channel: channel }))
+  })
   return track
 }
 
-export function generatePlaybackFillTracks(timeline, styleId, level) {
+export function generatePlaybackFillTracks(timeline, styleId, level, rhythmContext) {
   const styleDef = getFillStyleDefinition(styleId)
   if (!styleDef || !styleDef.generator || !Array.isArray(timeline) || !timeline.length) {
     return []
@@ -761,7 +1326,7 @@ export function generatePlaybackFillTracks(timeline, styleId, level) {
 
   const allEvents = []
   timeline.forEach(function(entry) {
-    const events = generateEventsForEntry(entry, styleDef, level)
+    const events = generateEventsForEntry(entry, styleDef, level, rhythmContext)
     allEvents.push.apply(allEvents, events)
   })
   if (!allEvents.length) return []
@@ -773,17 +1338,14 @@ export function generatePlaybackFillTracks(timeline, styleId, level) {
     styleDef.accentProgram
   )
   const tracks = []
-  const bass = trackWithProgram(split.bassTrack, styleDef.bassProgram)
-  const chord = trackWithProgram(split.chordTrack, styleDef.chordProgram)
+  const bass = trackWithProgram(split.bassTrack, styleDef.bassProgram, FILL_CHANNELS.bass)
+  const chord = trackWithProgram(split.chordTrack, styleDef.chordProgram, FILL_CHANNELS.chord)
   const accent = styleDef.accentProgram != null
-    ? trackWithProgram(split.accentTrack, styleDef.accentProgram)
+    ? trackWithProgram(split.accentTrack, styleDef.accentProgram, FILL_CHANNELS.accent)
     : null
   if (bass) tracks.push(bass)
   if (chord) tracks.push(chord)
   if (accent) tracks.push(accent)
-  // #region agent log
-  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'fill-metro',hypothesisId:'H6,H7',location:'playbackFillPattern.js:generatePlaybackFillTracks',message:'fill track programs',data:{styleId:styleId,generator:styleDef.generator,bassProgram:styleDef.bassProgram,chordProgram:styleDef.chordProgram,eventCount:allEvents.length,barDurationSec:timeline[0]&&timeline[0].barDurationSec},timestamp:Date.now()})}).catch(function(){});
-  // #endregion
   return tracks
 }
 
@@ -805,7 +1367,8 @@ export function applyPlaybackFillToSequence(sequence, visualObj, options) {
   const fillTracks = generatePlaybackFillTracks(
     timeline,
     fillOptions.settings.style,
-    fillOptions.settings.level
+    fillOptions.settings.level,
+    fillOptions.rhythmContext
   )
   if (!fillTracks.length) return stripped
 
@@ -848,7 +1411,8 @@ export function buildPlaybackSequence(synthObj, options) {
     const fillTracks = generatePlaybackFillTracks(
       timeline,
       fillOptions.settings.style,
-      fillOptions.settings.level
+      fillOptions.settings.level,
+      fillOptions.rhythmContext
     )
     if (!fillTracks.length) return flattened
     return Object.assign({}, flattened, {

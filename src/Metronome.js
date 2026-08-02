@@ -1,6 +1,7 @@
 import { playRhythmSlot } from './rhythmSlotPlayback'
-import { createRhythmConfig, normalizeRhythmConfig } from './rhythmEngineTypes'
-import { slotBeatIndex, slotsPerBar } from './metronomeRhythmPresets'
+import { createRhythmConfig, normalizeRhythmConfig, ENGINE_MODE_DRUMS } from './rhythmEngineTypes'
+import { slotsPerBar } from './metronomeRhythmPresets'
+import { slotDurationSec, getRhythmSwing } from './rhythmGrid'
 
 export default class Metronome
 {
@@ -47,6 +48,13 @@ export default class Metronome
         }
     }
 
+    updateDrumPattern(drumPattern) {
+        if (!this.rhythm) return;
+        this.rhythm = normalizeRhythmConfig(Object.assign({}, this.rhythm, {
+            drumPattern: drumPattern,
+        }));
+    }
+
     setTempo(tempo) {
         const nextTempo = parseFloat(tempo);
         if (!(nextTempo > 0)) return;
@@ -65,9 +73,10 @@ export default class Metronome
     nextNote()
     {
         const secondsPerBeat = 60.0 / this.tempo;
-        const beatIndex = slotBeatIndex(this.rhythm, this.currentSlotInBar);
-        const pulsesForBeat = (this.rhythm.pulsesPerBeat && this.rhythm.pulsesPerBeat[beatIndex]) || 1;
-        this.nextNoteTime += secondsPerBeat / pulsesForBeat;
+        const swing = this.rhythm && this.rhythm.engineMode === ENGINE_MODE_DRUMS
+            ? getRhythmSwing(this.rhythm)
+            : 0;
+        this.nextNoteTime += slotDurationSec(this.rhythm, this.currentSlotInBar, secondsPerBeat, swing);
 
         this.currentSlotInBar++;
         const totalSlots = slotsPerBar(this.rhythm);

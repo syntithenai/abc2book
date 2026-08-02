@@ -2,11 +2,13 @@ import { ButtonGroup, Dropdown } from 'react-bootstrap'
 import ScratchpadAudioEffectsPanel from './ScratchpadAudioEffectsPanel'
 import { GENERATORS } from '../../scratchpadAudioGenerate'
 import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
+import { isMusicGenerationAdmin } from '../../musicGenerationAdmin'
 
 export default function ScratchpadAudioProcessMenu(props) {
   const icons = props.icons || {}
   const trimSuggestion = props.trimSuggestion
   const trimming = !!props.trimming
+  const showGenerate = isMusicGenerationAdmin(props.user)
 
   const toggleClass = props.menuBar ? 'scratchpad-audio-menu-bar-toggle' : undefined
   const toggleVariant = props.menuBar ? 'link' : 'outline-secondary'
@@ -29,15 +31,19 @@ export default function ScratchpadAudioProcessMenu(props) {
           onApply={props.onApplyEffect}
           triggerVariant="menuItem"
         />
-        <Dropdown.Divider />
-        <Dropdown.Header>Generate</Dropdown.Header>
-        {GENERATORS.map(function(g) {
-          return (
-            <Dropdown.Item key={g.id} onClick={function() { props.onGenerate && props.onGenerate(g.id) }}>
-              {g.label}
-            </Dropdown.Item>
-          )
-        })}
+        {showGenerate ? (
+          <>
+            <Dropdown.Divider />
+            <Dropdown.Header>Generate</Dropdown.Header>
+            {GENERATORS.map(function(g) {
+              return (
+                <Dropdown.Item key={g.id} onClick={function() { props.onGenerate && props.onGenerate(g.id) }}>
+                  {g.label}
+                </Dropdown.Item>
+              )
+            })}
+          </>
+        ) : null}
         <Dropdown.Divider />
         <Dropdown.Header>Analyze</Dropdown.Header>
         <Dropdown.Item onClick={function() { props.onAnalyze && props.onAnalyze('rms') }}>Measure RMS / peak</Dropdown.Item>

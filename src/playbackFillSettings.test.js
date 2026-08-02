@@ -10,30 +10,39 @@ import {
   fillNeedsCustomTrack,
   resolveFillPlaybackOptions,
   listFillStyleGroups,
+  hasStoredDrumRhythm,
 } from './playbackFillSettings'
+import { applyRhythmPreset } from './drumPatternPresets'
+import { serializePlaybackMetronomeRhythmStore } from './playbackMetronomeSettings'
+import { ENGINE_MODE_DRUMS } from './rhythmEngineTypes'
 
 describe('playbackFillSettings', function() {
   test('defaults to boom-chick', function() {
     expect(getPlaybackFillSettings(null)).toEqual({
       style: DEFAULT_FILL_STYLE,
       level: 100,
+      followDrumGroove: false,
     })
     expect(getPlaybackFillSettings({})).toEqual({
       style: FILL_STYLE_BOOM_CHICK,
       level: 100,
+      followDrumGroove: false,
     })
   })
 
-  test('reads and applies tune fields', function() {
+  test('reads and applies tune fields including followDrumGroove', function() {
     const applied = applyPlaybackFillSettings({ id: 't1' }, {
       style: 'guitar-strum',
       level: 80,
+      followDrumGroove: true,
     })
     expect(applied.playbackFillStyle).toBe('guitar-strum')
     expect(applied.playbackFillLevel).toBe(80)
+    expect(applied.playbackFillFollowDrumGroove).toBe(true)
     expect(getPlaybackFillSettings(applied)).toEqual({
       style: 'guitar-strum',
       level: 80,
+      followDrumGroove: true,
     })
   })
 
@@ -55,10 +64,34 @@ describe('playbackFillSettings', function() {
     expect(resolveFillPlaybackOptions({ playbackFillStyle: 'fingerpick' }).chordsOff).toBe(true)
   })
 
-  test('catalog includes classic guitar and orchestral groups', function() {
+  test('resolveFillPlaybackOptions includes rhythmContext when followDrumGroove is enabled', function() {
+    const drumRhythm = applyRhythmPreset('rock-basic')
+    const tune = {
+      playbackFillStyle: 'fingerpick',
+      playbackFillFollowDrumGroove: true,
+      playbackMetronomeDrumRhythm: serializePlaybackMetronomeRhythmStore(drumRhythm, ENGINE_MODE_DRUMS),
+    }
+    const options = resolveFillPlaybackOptions(tune, null)
+    expect(options.rhythmContext).not.toBeNull()
+    expect(options.rhythmContext.slotsPerBar).toBe(16)
+  })
+
+  test('hasStoredDrumRhythm detects saved drum pattern', function() {
+    const drumRhythm = applyRhythmPreset('rock-basic')
+    expect(hasStoredDrumRhythm({
+      playbackMetronomeDrumRhythm: serializePlaybackMetronomeRhythmStore(drumRhythm, ENGINE_MODE_DRUMS),
+    })).toBe(true)
+    expect(hasStoredDrumRhythm({})).toBe(false)
+  })
+
+  test('catalog includes classic guitar orchestral rhythmic and ensemble groups', function() {
     const groups = listFillStyleGroups()
-    expect(groups.map(function(g) { return g.id })).toEqual(['classic', 'guitar', 'orchestral'])
+    expect(groups.map(function(g) { return g.id })).toEqual([
+      'classic', 'guitar', 'orchestral', 'rhythmic', 'combo',
+    ])
     expect(fillUsesAbcjsChords(FILL_STYLE_BOOM_CHICK)).toBe(true)
     expect(fillNeedsCustomTrack('orchestra')).toBe(true)
+    expect(fillNeedsCustomTrack('jig-bass')).toBe(true)
+    expect(fillNeedsCustomTrack('fiddle-bass')).toBe(true)
   })
 })

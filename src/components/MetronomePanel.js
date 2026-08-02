@@ -12,11 +12,12 @@ import {
 import {
   ENGINE_MODE_CLICK,
   ENGINE_MODE_DRUMS,
+  createEmptyDrumPattern,
   createRhythmConfig,
   normalizeRhythmConfig,
   rhythmConfigKey,
+  rhythmsDifferOnlyInDrumPattern,
   rhythmsEqual,
-  resizeDrumPattern,
 } from '../rhythmEngineTypes'
 import { primeDrumKit } from '../drumSampleKit'
 import {
@@ -26,6 +27,7 @@ import {
   getRhythmPresetById,
   presetMatchesRhythm,
 } from '../drumPatternPresets'
+import { remapDrumPatternGranularity } from '../rhythmGranularity'
 import DrumPatternEditor from './DrumPatternEditor'
 import {
   METRONOME_PULSE_OPTIONS,
@@ -299,6 +301,16 @@ export default function MetronomePanel(props) {
     if (!externalRhythm) return
     const next = normalizeRhythmConfig(externalRhythm)
     if (rhythmConfigKey(rhythmRef.current) === rhythmConfigKey(next)) return
+    const recordingActive = !!recordingTransportRef.current
+    const patternOnly = recordingActive
+      && metronomeRef.current
+      && metronomeRef.current.isRunning
+      && rhythmsDifferOnlyInDrumPattern(rhythmRef.current, next)
+    if (patternOnly) {
+      metronomeRef.current.updateDrumPattern(next.drumPattern)
+      setRhythm(next)
+      return
+    }
     if (metronomeRef.current && metronomeRef.current.isRunning) {
       metronomeRef.current.stop()
       setIsRunning(false)
@@ -339,12 +351,24 @@ export default function MetronomePanel(props) {
 
   function applyRhythm(nextRhythm, rhythmText, presetId, options) {
     if (disabled) return
-    const notifyParent = !options || options.notifyParent !== false
+    const opts = options || {}
+    const notifyParent = opts.notifyParent !== false
     const normalized = normalizeRhythmConfig(nextRhythm)
+    const preserveTransport = !!opts.preserveTransport
+      || (!!recordingTransportRef.current
+        && metronomeRef.current
+        && metronomeRef.current.isRunning
+        && rhythmsDifferOnlyInDrumPattern(rhythmRef.current, normalized))
     setRhythm(normalized)
     setQuickRhythmText(rhythmText)
     setActivePresetId(presetId || normalized.presetId || '')
-    if (metronomeRef.current) metronomeRef.current.setRhythm(normalized)
+    if (metronomeRef.current) {
+      if (preserveTransport && normalized.drumPattern) {
+        metronomeRef.current.updateDrumPattern(normalized.drumPattern)
+      } else {
+        metronomeRef.current.setRhythm(normalized)
+      }
+    }
     if (notifyParent && props.onRhythmChange) {
       props.onRhythmChange({ rhythm: normalized })
     }
@@ -354,27 +378,27 @@ export default function MetronomePanel(props) {
     if (nextRhythm.engineMode !== ENGINE_MODE_DRUMS) return nextRhythm
 
     const prevPresetId = previousRhythm.presetId
+    const pattern = nextRhythm.drumPattern || previousRhythm.drumPattern
+    if (pattern) {
+      const remapped = remapDrumPatternGranularity(pattern, previousRhythm, nextRhythm)
+      const presetStillMatches = prevPresetId
+        && presetMatchesRhythm(getRhythmPresetById(prevPresetId), nextRhythm)
+      return normalizeRhythmConfig(Object.assign({}, nextRhythm, {
+        drumPattern: remapped,
+        presetId: presetStillMatches ? prevPresetId : '',
+      }))
+    }
+
     if (prevPresetId) {
       const prevPreset = getRhythmPresetById(prevPresetId)
       if (prevPreset && presetMatchesRhythm(prevPreset, nextRhythm)) {
         return applyRhythmPreset(prevPresetId)
       }
-      return applyRhythmPreset(defaultDrumPresetIdForRhythm(nextRhythm))
     }
-
-    if (nextRhythm.drumPattern) {
-      return Object.assign({}, nextRhythm, {
-        drumPattern: resizeDrumPattern(nextRhythm.drumPattern, slotsPerBar(nextRhythm)),
-      })
-    }
-    return applyRhythmPreset(defaultDrumPresetIdForRhythm(nextRhythm))
-  }
-
-  function isCoarseQuarterGrid(rhythmConfig) {
-    const pulses = rhythmConfig && Array.isArray(rhythmConfig.pulsesPerBeat)
-      ? rhythmConfig.pulsesPerBeat
-      : []
-    return pulses.length > 0 && pulses.every(function(pulse) { return pulse === 1 })
+    return normalizeRhythmConfig(Object.assign({}, nextRhythm, {
+      drumPattern: createEmptyDrumPattern(slotsPerBar(nextRhythm)),
+      presetId: '',
+    }))
   }
 
   function handleEngineModeChange(mode) {
@@ -386,13 +410,15 @@ export default function MetronomePanel(props) {
         next = normalizeRhythmConfig(Object.assign({}, stores.drumRhythm, {
           engineMode: ENGINE_MODE_DRUMS,
         }))
+      } else if (rhythm.drumPattern) {
+        next = normalizeRhythmConfig(Object.assign({}, rhythm, {
+          engineMode: ENGINE_MODE_DRUMS,
+        }))
       } else {
         next = applyRhythmPreset(defaultDrumPresetIdForRhythm(rhythm))
       }
-      if (getCompatibleDrumPresets(next).length === 0) {
+      if (getCompatibleDrumPresets(next).length === 0 && !next.drumPattern) {
         next = applyRhythmPreset(defaultDrumPresetIdForRhythm(next))
-      } else if (!(stores && stores.drumRhythm) && isCoarseQuarterGrid(rhythm)) {
-        next = applyRhythmPreset(defaultDrumPresetIdForRhythm(rhythm))
       }
     } else if (stores && stores.clickRhythm) {
       next = normalizeRhythmConfig(Object.assign({}, stores.clickRhythm, {
@@ -411,8 +437,8 @@ export default function MetronomePanel(props) {
     }
   }
 
-  function handleDrumRhythmChange(nextRhythm) {
-    applyRhythm(nextRhythm, formatRhythmText(nextRhythm), nextRhythm.presetId || '')
+  function handleDrumRhythmChange(nextRhythm, options) {
+    applyRhythm(nextRhythm, formatRhythmText(nextRhythm), nextRhythm.presetId || '', options)
   }
 
   function ensureMetronome() {
@@ -434,9 +460,19 @@ export default function MetronomePanel(props) {
         setActiveSlot(slotIndex)
       }
     }
-    metronomeRef.current.setTempo(tempo)
-    metronomeRef.current.setRhythm(rhythm)
-    return metronomeRef.current
+    const metro = metronomeRef.current
+    metro.setTempo(tempo)
+    if (!metro.isRunning) {
+      metro.setRhythm(rhythm)
+    } else if (rhythmsDifferOnlyInDrumPattern(metro.rhythm, rhythm)) {
+      metro.updateDrumPattern(rhythm.drumPattern)
+    } else if (rhythmConfigKey(metro.rhythm) !== rhythmConfigKey(rhythm)) {
+      const slot = metro.currentSlotInBar
+      const nextTime = metro.nextNoteTime
+      metro.setRhythm(rhythm)
+      metro.alignToSlot(slot, nextTime)
+    }
+    return metro
   }
 
   function startMetronome() {
@@ -521,11 +557,19 @@ export default function MetronomePanel(props) {
       setQuickRhythmText(formatRhythmText(rhythm))
       return
     }
-    const nextRhythm = createRhythmConfig(parsed.beatsPerBar, parsed.accents, parsed.pulsesPerBeat, {
-      engineMode: ENGINE_MODE_CLICK,
-      presetId: presetIdForRhythm(parsed),
+    let nextRhythm = createRhythmConfig(parsed.beatsPerBar, parsed.accents, parsed.pulsesPerBeat, {
+      engineMode: rhythm.engineMode,
+      presetId: rhythm.engineMode === ENGINE_MODE_DRUMS ? '' : presetIdForRhythm(parsed),
+      drumPattern: rhythm.drumPattern,
     })
-    applyRhythm(nextRhythm, formatRhythmText(parsed), presetIdForRhythm(parsed))
+    if (nextRhythm.engineMode === ENGINE_MODE_DRUMS && rhythm.drumPattern) {
+      nextRhythm = normalizeRhythmConfig(Object.assign({}, nextRhythm, {
+        drumPattern: remapDrumPatternGranularity(rhythm.drumPattern, rhythm, nextRhythm),
+      }))
+    } else if (nextRhythm.engineMode !== ENGINE_MODE_DRUMS) {
+      nextRhythm.presetId = presetIdForRhythm(parsed)
+    }
+    applyRhythm(nextRhythm, formatRhythmText(parsed), nextRhythm.presetId || '')
   }
 
   function setBeatsPerBar(count) {
@@ -533,7 +577,7 @@ export default function MetronomePanel(props) {
     let nextRhythm = createRhythmConfig(nextCount, rhythm.accents, rhythm.pulsesPerBeat, {
       engineMode: rhythm.engineMode,
       drumPattern: rhythm.drumPattern,
-      presetId: rhythm.presetId || '',
+      presetId: rhythm.engineMode === ENGINE_MODE_DRUMS ? '' : (rhythm.presetId || ''),
     })
     if (nextRhythm.engineMode === ENGINE_MODE_DRUMS) {
       nextRhythm = resolveDrumRhythmAfterMeterChange(nextRhythm, rhythm)
@@ -547,7 +591,7 @@ export default function MetronomePanel(props) {
     let nextRhythm = createRhythmConfig(rhythm.beatsPerBar, rhythm.accents, nextPulses, {
       engineMode: rhythm.engineMode,
       drumPattern: rhythm.drumPattern,
-      presetId: rhythm.presetId || '',
+      presetId: '',
     })
     if (nextRhythm.engineMode === ENGINE_MODE_DRUMS) {
       nextRhythm = resolveDrumRhythmAfterMeterChange(nextRhythm, rhythm)
@@ -745,23 +789,8 @@ export default function MetronomePanel(props) {
         </div>
         ) : null}
 
-        <DrumPatternEditor
-          rhythm={rhythm}
-          disabled={disabled}
-          compact={settingsOnly && !embedPreview}
-          activeSlot={activeSlot}
-          tempo={tempo}
-          audioContext={panelAudioContext}
-          recordingEnabled={!settingsOnly || embedPreview}
-          onRecordingStart={handleRecordingStart}
-          onRecordingStop={handleRecordingStop}
-          onEngineModeChange={handleEngineModeChange}
-          onRhythmChange={handleDrumRhythmChange}
-        />
-
+        {!isDrumMode ? (
         <div className={'metronome-panel__volume-row' + (disabled ? ' metronome-panel__volume-row--disabled' : '')}>
-          {!isDrumMode ? (
-          <>
           <label className="metronome-panel__volume-control">
             <span className="metronome-panel__volume-label">Volume</span>
             <input
@@ -796,28 +825,10 @@ export default function MetronomePanel(props) {
             />
             <span className="metronome-panel__volume-value">{Math.round(accentVolume * 100)}</span>
           </label>
-          </>
-          ) : (
-          <label className="metronome-panel__volume-control">
-            <span className="metronome-panel__volume-label">Drum volume</span>
-            <input
-              type="range"
-              className="metronome-panel__volume-slider"
-              min="0"
-              max="100"
-              step="1"
-              value={Math.round(drumVolume * 100)}
-              disabled={disabled}
-              aria-label="Drum volume"
-              onChange={function(e) {
-                commitDrumVolume(parseInt(e.target.value, 10) / 100)
-              }}
-            />
-            <span className="metronome-panel__volume-value">{Math.round(drumVolume * 100)}</span>
-          </label>
-          )}
         </div>
+        ) : null}
 
+        {!isDrumMode ? (
         <div className={'metronome-panel__rhythm-row' + (disabled ? ' metronome-panel__rhythm-row--disabled' : '')}>
           {!isDrumMode ? (
           <div className="metronome-panel__preset-wrap" ref={quickRhythmRef}>
@@ -885,6 +896,7 @@ export default function MetronomePanel(props) {
           </div>
           ) : null}
 
+          {!isDrumMode ? (
           <ButtonGroup className="metronome-panel__control-group" aria-label="Beats per bar">
             <Button variant="light" className="metronome-panel__group-label" disabled>
               Beats per bar
@@ -907,9 +919,9 @@ export default function MetronomePanel(props) {
               +
             </Button>
           </ButtonGroup>
+          ) : null}
 
           {!isDrumMode ? (
-          <>
           <ButtonGroup className="metronome-panel__control-group metronome-panel__accents-group" aria-label="Beat accents">
             <Button variant="light" className="metronome-panel__group-label" disabled>
               Beat accents
@@ -930,7 +942,9 @@ export default function MetronomePanel(props) {
               )
             })}
           </ButtonGroup>
+          ) : null}
 
+          {!isDrumMode ? (
           <ButtonGroup className="metronome-panel__control-group metronome-panel__pulses-group" aria-label="Pulses per beat">
             <Button variant="light" className="metronome-panel__group-label" disabled>
               Pulses per beat
@@ -955,9 +969,27 @@ export default function MetronomePanel(props) {
               )
             })}
           </ButtonGroup>
-          </>
           ) : null}
         </div>
+        ) : null}
+
+        <DrumPatternEditor
+          rhythm={rhythm}
+          disabled={disabled}
+          compact={settingsOnly && !embedPreview}
+          activeSlot={activeSlot}
+          tempo={tempo}
+          audioContext={panelAudioContext}
+          recordingEnabled={!settingsOnly || embedPreview}
+          drumVolume={drumVolume}
+          onDrumVolumeChange={commitDrumVolume}
+          onBeatsPerBarChange={setBeatsPerBar}
+          onPulsesForBeatChange={setPulsesForBeat}
+          onRecordingStart={handleRecordingStart}
+          onRecordingStop={handleRecordingStop}
+          onEngineModeChange={handleEngineModeChange}
+          onRhythmChange={handleDrumRhythmChange}
+        />
       </div>
     </div>
   )

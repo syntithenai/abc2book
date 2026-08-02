@@ -1,115 +1,415 @@
-import { useMemo, useState } from 'react'
-import { Alert, Button, Form, ListGroup, Modal } from 'react-bootstrap'
+import { useEffect, useMemo, useState } from 'react'
+import { Button, Form, ListGroup, Modal } from 'react-bootstrap'
 import {
   listScratchpadItemsForWorkspaceFilter,
   scratchpadItemSearchHaystack,
+  sortScratchpadItemsByUpdatedAt,
 } from '../../scratchpadListSearch'
-import { getScratchpadItem } from '../../scratchpadStore'
-import { listLyricSections } from '../../lyricStructureUtils'
-import { splitMelodyStrainsWithBarlines } from '../../chordBlockMerge'
-import { resolvePrimaryVoiceKey } from '../../abcVoiceUtils'
+import { getScratchpadItem, listWorkspaces } from '../../scratchpadStore'
+import { getTuneVoiceKeys } from '../../abcVoiceViewSettings'
+import { sectionDisplayTitle } from '../../lyricStructureUtils'
 import {
   sectionHasImportableChordContent,
+  sectionTextForChunk,
   sectionTextFromItem,
-  imageBlockText,
   generateCompositionChunkId,
+  lyricSectionHasMarkerHeader,
+  analyzeTextForCompositionSelect,
 } from '../../scratchpadCompositionChordImport'
+import {
+  textScratchpadItemPreviewLines,
+  notationScratchpadItemPreviewLines,
+  assignedNotationSourceItemIds,
+  sortScratchpadItemsForNotationSelect,
+} from '../../scratchpadCompositionUiUtils'
+import { listNotationStrainsForItem } from '../../scratchpadCompositionNotation'
+import ScratchpadCompositionVoiceSelectModal from './ScratchpadCompositionVoiceSelectModal'
 
-function strainLabelsFromTune(tuneSnapshot) {
-  if (!tuneSnapshot || !tuneSnapshot.voices) return []
-  const voiceKey = resolvePrimaryVoiceKey(tuneSnapshot.voices)
-  const notes = tuneSnapshot.voices[voiceKey] && tuneSnapshot.voices[voiceKey].notes
-  const strains = splitMelodyStrainsWithBarlines(Array.isArray(notes) ? notes : [])
-  return strains.map(function(strain, index) {
-    return {
-      index: index,
-      label: 'Strain ' + (index + 1),
-      preview: String(strain.text || '').slice(0, 60),
-    }
-  })
+function wholeTextChunkDraft(item) {
+  return {
+    sourceKind: 'text-section',
+    sourceItemId: item.id,
+    wholeItem: true,
+  }
 }
 
-function EmbeddedChordWarning(props) {
-  if (!props.show) return null
+function textItemHasChordContent(item) {
+  if (!item || item.type !== 'text') return false
+  const text = sectionTextForChunk(item, wholeTextChunkDraft(item))
+  return sectionHasImportableChordContent(text)
+}
+
+function TextImportActionButtons(props) {
+  const analysis = props.analysis
+  if (!analysis) return null
+  const sectionLabel = props.sectionLabel
+  const buttons = []
+
+  if (analysis.isChordOnly) {
+    buttons.push(
+      <Button
+        key="chords"
+        size="sm"
+        variant="primary"
+        onClick={props.onChords}
+      >
+        {sectionLabel ? sectionLabel + ' · chords' : 'Import chords'}
+      </Button>
+    )
+  } else {
+    if (analysis.hasLyrics) {
+      buttons.push(
+        <Button
+          key="lyrics"
+          size="sm"
+          variant={sectionLabel ? 'outline-primary' : 'primary'}
+          onClick={props.onLyrics}
+        >
+          {sectionLabel ? sectionLabel + ' · lyrics' : 'All lyrics'}
+        </Button>
+      )
+    }
+    if (analysis.hasChords) {
+      buttons.push(
+        <Button
+          key="chords"
+          size="sm"
+          variant={sectionLabel || !analysis.hasLyrics ? 'outline-primary' : 'primary'}
+          onClick={props.onChords}
+        >
+          {sectionLabel ? sectionLabel + ' · chords' : 'All chords'}
+        </Button>
+      )
+    }
+  }
+
+  if (!buttons.length) return null
+  return buttons
+}
+
+function TextSelectItemRow(props) {
+  const item = props.item
+  const previewLines = props.previewLines || []
+  const body = item.text && item.text.body || ''
+  const wholeAnalysis = analyzeTextForCompositionSelect(body)
+  const sectionEntries = []
+
+  wholeAnalysis.sections.forEach(function(section, sectionIndex) {
+    const isMarked = lyricSectionHasMarkerHeader(section)
+    if (!isMarked && wholeAnalysis.sections.length <= 1) return
+    if (!isMarked && sectionIndex === 0 && wholeAnalysis.markedSections.length) return
+    sectionEntries.push({
+      section: section,
+      sectionIndex: sectionIndex,
+      label: sectionDisplayTitle(section),
+    })
+  })
+
   return (
-    <Alert variant="warning" className="scratchpad-composition-chord-warning mt-2">
-      <div>This text includes chord symbols. Plain lyrics import may lose chord placement.</div>
-      <div className="scratchpad-composition-chord-warning-actions mt-2">
-        <Button size="sm" variant="outline-primary" onClick={props.onChordPro}>
-          Standardize to ChordPro
-        </Button>
-        <Button size="sm" variant="outline-secondary" onClick={props.onNotationBlock}>
-          Create notation block from chords
-        </Button>
-        <Button size="sm" variant="outline-secondary" onClick={props.onPlain}>
-          Import plain lyrics
-        </Button>
+    <ListGroup.Item className="scratchpad-composition-select-row scratchpad-composition-select-text-row">
+      <div className="scratchpad-composition-select-title">{item.title || 'Untitled'}</div>
+      {previewLines.map(function(line, index) {
+        return (
+          <div key={index} className="scratchpad-composition-select-preview-line text-muted small">
+            {line}
+          </div>
+        )
+      })}
+      <div className="scratchpad-composition-select-text-actions">
+        <TextImportActionButtons
+          analysis={wholeAnalysis}
+          onLyrics={function() { props.onImportLyrics(item) }}
+          onChords={function() { props.onImportChords(item) }}
+        />
+        {sectionEntries.map(function(entry) {
+          const sectionText = sectionTextFromItem(item, entry.sectionIndex)
+          const sectionAnalysis = analyzeTextForCompositionSelect(sectionText)
+          return (
+            <TextImportActionButtons
+              key={item.id + '-section-' + entry.sectionIndex}
+              analysis={sectionAnalysis}
+              sectionLabel={entry.label}
+              onLyrics={function() {
+                props.onImportLyrics(item, entry.section, entry.sectionIndex)
+              }}
+              onChords={function() {
+                props.onImportChords(item, entry.section, entry.sectionIndex)
+              }}
+            />
+          )
+        })}
       </div>
-    </Alert>
+    </ListGroup.Item>
+  )
+}
+
+function ChordTextSelectItemRow(props) {
+  const item = props.item
+  const previewLines = props.previewLines || []
+  const body = item.text && item.text.body || ''
+  const wholeAnalysis = analyzeTextForCompositionSelect(body)
+  const sectionEntries = []
+
+  wholeAnalysis.sections.forEach(function(section, sectionIndex) {
+    const isMarked = lyricSectionHasMarkerHeader(section)
+    if (!isMarked && wholeAnalysis.sections.length <= 1) return
+    if (!isMarked && sectionIndex === 0 && wholeAnalysis.markedSections.length) return
+    sectionEntries.push({
+      section: section,
+      sectionIndex: sectionIndex,
+      label: sectionDisplayTitle(section),
+    })
+  })
+
+  const rowClass = ['scratchpad-composition-select-row', 'scratchpad-composition-select-text-row']
+  if (props.highlighted) rowClass.push('scratchpad-composition-select-row--paired')
+
+  return (
+    <ListGroup.Item className={rowClass.join(' ')}>
+      <div className="scratchpad-composition-select-title-row">
+        <div className="scratchpad-composition-select-title">{item.title || 'Untitled'}</div>
+        {props.highlighted ? (
+          <span className="scratchpad-composition-select-paired-badge">In pairing</span>
+        ) : null}
+      </div>
+      {previewLines.map(function(line, index) {
+        return (
+          <div key={index} className="scratchpad-composition-select-preview-line text-muted small">
+            {line}
+          </div>
+        )
+      })}
+      <div className="scratchpad-composition-select-text-actions">
+        <TextImportActionButtons
+          analysis={wholeAnalysis}
+          onChords={function() { props.onImportChords(item) }}
+        />
+        {sectionEntries.map(function(entry) {
+          const sectionText = sectionTextFromItem(item, entry.sectionIndex)
+          const sectionAnalysis = analyzeTextForCompositionSelect(sectionText)
+          return (
+            <TextImportActionButtons
+              key={item.id + '-section-' + entry.sectionIndex}
+              analysis={sectionAnalysis}
+              sectionLabel={entry.label}
+              onChords={function() {
+                props.onImportChords(item, entry.section, entry.sectionIndex)
+              }}
+            />
+          )
+        })}
+      </div>
+    </ListGroup.Item>
+  )
+}
+
+function NotationSelectItemRow(props) {
+  const item = props.item
+  const previewLines = props.previewLines || []
+  const strains = listNotationStrainsForItem(item)
+  const rowClass = ['scratchpad-composition-select-row', 'scratchpad-composition-select-text-row']
+  if (props.highlighted) rowClass.push('scratchpad-composition-select-row--paired')
+
+  return (
+    <ListGroup.Item className={rowClass.join(' ')}>
+      <div className="scratchpad-composition-select-title-row">
+        <div className="scratchpad-composition-select-title">{item.title || 'Untitled'}</div>
+        {props.highlighted ? (
+          <span className="scratchpad-composition-select-paired-badge">In pairing</span>
+        ) : null}
+      </div>
+      {previewLines.map(function(line, index) {
+        return (
+          <div key={index} className="scratchpad-composition-select-preview-line text-muted small">
+            {line}
+          </div>
+        )
+      })}
+      <div className="scratchpad-composition-select-text-actions">
+        <Button
+          size="sm"
+          variant="primary"
+          onClick={function() { props.onSelectAll(item) }}
+        >
+          Select all
+        </Button>
+        {strains.length > 1 ? strains.map(function(strain) {
+          return (
+            <Button
+              key={item.id + '-strain-' + strain.index}
+              size="sm"
+              variant="outline-primary"
+              onClick={function() { props.onSelectStrain(item, strain) }}
+            >
+              {strain.label}
+            </Button>
+          )
+        }) : null}
+      </div>
+    </ListGroup.Item>
   )
 }
 
 export default function ScratchpadCompositionChunkSelectModal(props) {
-  const workspaceId = props.workspaceId || ''
   const composition = props.composition || {}
   const mode = props.mode === 'notation' ? 'notation' : 'lyrics'
   const [searchText, setSearchText] = useState('')
-  const [pending, setPending] = useState(null)
+  const [workspaceFilterId, setWorkspaceFilterId] = useState('')
+  const [workspaces, setWorkspaces] = useState([])
+  const [voiceSelectPending, setVoiceSelectPending] = useState(null)
+
+  useEffect(function() {
+    if (!props.show) return
+    setSearchText('')
+    setWorkspaceFilterId('')
+    setVoiceSelectPending(null)
+    setWorkspaces(listWorkspaces())
+  }, [props.show])
+
+  const assignedNotationSourceIds = useMemo(function() {
+    if (mode !== 'notation') return new Set()
+    return assignedNotationSourceItemIds(composition)
+  }, [composition, mode])
 
   const items = useMemo(function() {
-    const list = listScratchpadItemsForWorkspaceFilter(workspaceId)
+    const list = sortScratchpadItemsByUpdatedAt(
+      listScratchpadItemsForWorkspaceFilter(workspaceFilterId)
+    )
     const q = String(searchText || '').trim().toLowerCase()
-    return list.filter(function(item) {
+    const assignedSources = mode === 'notation'
+      ? assignedNotationSourceItemIds(composition)
+      : new Set()
+    const filtered = list.filter(function(item) {
       if (!item || item.id === props.itemId) return false
-      if (item.type !== 'text' && item.type !== 'image' && item.type !== 'notation') return false
-      if (mode === 'lyrics' && item.type === 'notation') return false
-      if (mode === 'notation' && item.type !== 'notation' && item.type !== 'text' && item.type !== 'image') return false
+      if (mode === 'lyrics') {
+        if (item.type !== 'text') return false
+      } else if (item.type === 'notation') {
+        // notation items always eligible
+      } else if (item.type === 'text') {
+        if (!textItemHasChordContent(item)) return false
+      } else {
+        return false
+      }
+      if (mode === 'notation' && assignedSources.has(String(item.id))) {
+        return true
+      }
       if (!q) return true
       return scratchpadItemSearchHaystack(item).indexOf(q) >= 0
     })
-  }, [workspaceId, searchText, props.itemId, mode])
+    if (mode === 'notation') {
+      return sortScratchpadItemsForNotationSelect(filtered, composition)
+    }
+    return filtered
+  }, [workspaceFilterId, searchText, props.itemId, mode, composition])
 
   function closeModal() {
-    setPending(null)
+    setVoiceSelectPending(null)
     setSearchText('')
     if (props.onHide) props.onHide()
   }
 
-  function selectLyricsChunk(chunkDraft, text) {
-    if (sectionHasImportableChordContent(text)) {
-      setPending({
-        mode: 'lyrics',
-        chunkDraft: chunkDraft,
-        text: text,
-      })
-      return
+  function importLyricsFromText(item, section, sectionIndex) {
+    const isWhole = section == null
+    const chunkDraft = {
+      id: generateCompositionChunkId(),
+      sourceKind: 'text-section',
+      sourceItemId: item.id,
+      wholeItem: isWhole,
+      sectionIndex: isWhole ? undefined : sectionIndex,
+      sectionMarker: isWhole ? '' : (section.header || ''),
+      label: isWhole
+        ? (item.title || 'Text')
+        : (section.title || section.header || sectionDisplayTitle(section) || 'Section'),
+      order: (composition.lyricsChunks || []).length,
+      enabled: true,
+    }
+    const sectionText = isWhole
+      ? sectionTextForChunk(item, chunkDraft)
+      : sectionTextFromItem(item, sectionIndex)
+    if (analyzeTextForCompositionSelect(sectionText).hasChords) {
+      chunkDraft.plainLyricsOnly = true
     }
     if (props.onSelectLyricsChunk) props.onSelectLyricsChunk(chunkDraft)
     closeModal()
   }
 
-  function finishPending(action) {
-    if (!pending) return
-    if (props.onEmbeddedChordAction) {
-      props.onEmbeddedChordAction(action, pending)
+  function importChordsFromText(item, section, sectionIndex) {
+    const isWhole = section == null
+    const text = isWhole
+      ? sectionTextForChunk(item, wholeTextChunkDraft(item))
+      : sectionTextFromItem(item, sectionIndex)
+    const label = isWhole
+      ? (item.title || 'Chord sheet')
+      : (section.title || section.header || sectionDisplayTitle(section) || 'Section')
+    const payload = {
+      sourceItemId: item.id,
+      wholeItem: isWhole,
+      sectionIndex: isWhole ? undefined : sectionIndex,
+      sectionMarker: isWhole ? '' : (section.header || ''),
+      label: label,
+      chordMode: 'chords-only',
+      text: text,
+      order: (composition.notationChunks || []).length,
     }
-    setPending(null)
+    if (props.onImportChords) {
+      props.onImportChords(payload)
+    } else if (props.onSelectChordSheet) {
+      props.onSelectChordSheet(payload)
+    }
     closeModal()
   }
 
-  function selectChordSheet(payload) {
-    if (props.onSelectChordSheet) props.onSelectChordSheet(payload)
+  function finishNotationSelect(item, draft, voiceKeys) {
+    if (!props.onSelectNotationStrain) return
+    props.onSelectNotationStrain({
+      sourceItemId: item.id,
+      wholeItem: draft.wholeItem || false,
+      strainIndex: draft.strainIndex,
+      strainMarker: draft.strainMarker || '',
+      label: draft.label || item.title || 'Notation',
+      voiceKeys: voiceKeys,
+      order: (composition.notationChunks || []).length,
+    })
     closeModal()
   }
 
-  function selectNotationStrain(payload) {
-    if (props.onSelectNotationStrain) props.onSelectNotationStrain(payload)
-    closeModal()
+  function beginNotationSelect(item, draft) {
+    const tune = item.notation && item.notation.tuneSnapshot
+    const keys = getTuneVoiceKeys(tune)
+    if (keys.length > 1) {
+      setVoiceSelectPending({ item: item, draft: draft })
+      return
+    }
+    finishNotationSelect(item, draft, keys)
   }
 
-  const title = mode === 'notation'
-    ? 'Select notation from scratchpad'
-    : 'Select lyrics from scratchpad'
+  function selectNotationAll(item) {
+    beginNotationSelect(item, {
+      wholeItem: true,
+      label: item.title || 'Notation',
+    })
+  }
+
+  function selectNotationStrain(item, strain) {
+    beginNotationSelect(item, {
+      wholeItem: false,
+      strainIndex: strain.index,
+      strainMarker: strain.marker || '',
+      label: strain.label || 'Strain',
+    })
+  }
+
+  function handleVoiceSelectConfirm(voiceKeys) {
+    if (!voiceSelectPending) return
+    finishNotationSelect(
+      voiceSelectPending.item,
+      voiceSelectPending.draft,
+      voiceKeys
+    )
+    setVoiceSelectPending(null)
+  }
+
+  const title = mode === 'notation' ? 'Select notation' : 'Select text'
 
   return (
     <Modal
@@ -123,182 +423,63 @@ export default function ScratchpadCompositionChunkSelectModal(props) {
         <Modal.Title>{title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Form.Control
-          type="search"
-          size="sm"
-          className="mb-3"
-          placeholder="Search scratchpad items…"
-          value={searchText}
-          onChange={function(e) { setSearchText(e.target.value) }}
-        />
-        {pending ? (
-          <EmbeddedChordWarning
-            show={true}
-            onChordPro={function() { finishPending('chordpro') }}
-            onNotationBlock={function() { finishPending('notation-block') }}
-            onPlain={function() { finishPending('plain') }}
+        <div className="scratchpad-composition-chunk-select-filters mb-3">
+          <Form.Select
+            size="sm"
+            className="scratchpad-composition-chunk-select-workspace"
+            aria-label="Filter scratchpad items by workspace"
+            value={workspaceFilterId}
+            onChange={function(e) { setWorkspaceFilterId(e.target.value) }}
+          >
+            <option value="">All workspaces</option>
+            {workspaces.map(function(ws) {
+              return <option key={ws.id} value={ws.id}>{ws.name}</option>
+            })}
+          </Form.Select>
+          <Form.Control
+            type="search"
+            size="sm"
+            className="scratchpad-composition-chunk-select-search"
+            placeholder="Search scratchpad items…"
+            value={searchText}
+            onChange={function(e) { setSearchText(e.target.value) }}
           />
-        ) : null}
-        <ListGroup className="scratchpad-composition-source-list">
+        </div>
+        <ListGroup className="scratchpad-composition-select-list">
           {items.map(function(item) {
             const fresh = getScratchpadItem(item.id) || item
-            if (fresh.type === 'text') {
-              const sections = listLyricSections(fresh.text && fresh.text.body || '')
+            if (mode === 'lyrics' && fresh.type === 'text') {
               return (
-                <ListGroup.Item key={fresh.id} className="scratchpad-composition-source-item">
-                  <div className="scratchpad-composition-source-title">{fresh.title} <span className="text-muted">text</span></div>
-                  {sections.map(function(section, index) {
-                    const sectionText = sectionTextFromItem(fresh, index)
-                    const hasChords = sectionHasImportableChordContent(sectionText)
-                    const chunkDraft = {
-                      id: generateCompositionChunkId(),
-                      sourceKind: 'text-section',
-                      sourceItemId: fresh.id,
-                      sectionIndex: index,
-                      label: section.title || 'Section ' + (index + 1),
-                      order: (composition.lyricsChunks || []).length,
-                      enabled: true,
-                    }
-                    return (
-                      <div key={fresh.id + '-section-' + index} className="scratchpad-composition-source-section">
-                        <div className="scratchpad-composition-source-section-label">
-                          {section.title}
-                          {hasChords ? <span className="badge bg-secondary ms-1">chords</span> : null}
-                        </div>
-                        <div className="scratchpad-composition-source-actions">
-                          {mode === 'lyrics' ? (
-                            <Button size="sm" variant="primary" onClick={function() { selectLyricsChunk(chunkDraft, sectionText) }}>
-                              Use as lyrics
-                            </Button>
-                          ) : null}
-                          {mode === 'notation' && hasChords ? (
-                            <>
-                              <Button size="sm" variant="outline-secondary" onClick={function() {
-                                selectChordSheet({
-                                  sourceItemId: fresh.id,
-                                  sectionIndex: index,
-                                  label: section.title || 'Section ' + (index + 1),
-                                  chordMode: 'chords-only',
-                                  text: sectionText,
-                                  order: (composition.notationChunks || []).length,
-                                })
-                              }}>
-                                Chords only
-                              </Button>
-                              <Button size="sm" variant="outline-secondary" onClick={function() {
-                                selectChordSheet({
-                                  sourceItemId: fresh.id,
-                                  sectionIndex: index,
-                                  label: section.title || 'Section ' + (index + 1),
-                                  chordMode: 'chords-and-lyrics',
-                                  text: sectionText,
-                                  order: (composition.notationChunks || []).length,
-                                })
-                              }}>
-                                Chords + lyrics
-                              </Button>
-                            </>
-                          ) : null}
-                        </div>
-                      </div>
-                    )
-                  })}
-                </ListGroup.Item>
+                <TextSelectItemRow
+                  key={fresh.id}
+                  item={fresh}
+                  previewLines={textScratchpadItemPreviewLines(fresh)}
+                  onImportLyrics={importLyricsFromText}
+                  onImportChords={importChordsFromText}
+                />
               )
             }
-            if (fresh.type === 'image') {
-              const blocks = (fresh.image && fresh.image.textBlocks) || []
+            if (mode === 'notation' && fresh.type === 'notation') {
               return (
-                <ListGroup.Item key={fresh.id} className="scratchpad-composition-source-item">
-                  <div className="scratchpad-composition-source-title">{fresh.title} <span className="text-muted">image</span></div>
-                  {blocks.length ? blocks.map(function(block) {
-                    const blockText = imageBlockText(fresh, block.id)
-                    const hasChords = sectionHasImportableChordContent(blockText)
-                    const chunkDraft = {
-                      id: generateCompositionChunkId(),
-                      sourceKind: 'image-text-block',
-                      sourceItemId: fresh.id,
-                      sourceBlockId: block.id,
-                      label: String(block.text || 'Text block').slice(0, 40),
-                      order: (composition.lyricsChunks || []).length,
-                      enabled: true,
-                    }
-                    return (
-                      <div key={block.id} className="scratchpad-composition-source-section">
-                        <div className="scratchpad-composition-source-section-label">
-                          {String(block.text || 'Text block').slice(0, 50)}
-                          {hasChords ? <span className="badge bg-secondary ms-1">chords</span> : null}
-                        </div>
-                        <div className="scratchpad-composition-source-actions">
-                          {mode === 'lyrics' ? (
-                            <Button size="sm" variant="primary" onClick={function() { selectLyricsChunk(chunkDraft, blockText) }}>
-                              Use as lyrics
-                            </Button>
-                          ) : null}
-                          {mode === 'notation' && hasChords ? (
-                            <>
-                              <Button size="sm" variant="outline-secondary" onClick={function() {
-                                selectChordSheet({
-                                  sourceItemId: fresh.id,
-                                  sourceBlockId: block.id,
-                                  label: String(block.text || 'Text block').slice(0, 40),
-                                  chordMode: 'chords-only',
-                                  text: blockText,
-                                  order: (composition.notationChunks || []).length,
-                                })
-                              }}>
-                                Chords only
-                              </Button>
-                              <Button size="sm" variant="outline-secondary" onClick={function() {
-                                selectChordSheet({
-                                  sourceItemId: fresh.id,
-                                  sourceBlockId: block.id,
-                                  label: String(block.text || 'Text block').slice(0, 40),
-                                  chordMode: 'chords-and-lyrics',
-                                  text: blockText,
-                                  order: (composition.notationChunks || []).length,
-                                })
-                              }}>
-                                Chords + lyrics
-                              </Button>
-                            </>
-                          ) : null}
-                        </div>
-                      </div>
-                    )
-                  }) : <div className="text-muted small">No text blocks</div>}
-                </ListGroup.Item>
+                <NotationSelectItemRow
+                  key={fresh.id}
+                  item={fresh}
+                  previewLines={notationScratchpadItemPreviewLines(fresh)}
+                  highlighted={assignedNotationSourceIds.has(String(fresh.id))}
+                  onSelectAll={selectNotationAll}
+                  onSelectStrain={selectNotationStrain}
+                />
               )
             }
-            if (fresh.type === 'notation' && mode === 'notation') {
-              const strains = strainLabelsFromTune(fresh.notation && fresh.notation.tuneSnapshot)
+            if (mode === 'notation' && fresh.type === 'text') {
               return (
-                <ListGroup.Item key={fresh.id} className="scratchpad-composition-source-item">
-                  <div className="scratchpad-composition-source-title">{fresh.title} <span className="text-muted">notation</span></div>
-                  {strains.map(function(strain) {
-                    return (
-                      <div key={fresh.id + '-strain-' + strain.index} className="scratchpad-composition-source-section">
-                        <div className="scratchpad-composition-source-section-label">{strain.label}</div>
-                        <div className="text-muted small">{strain.preview}</div>
-                        <Button
-                          size="sm"
-                          variant="primary"
-                          className="mt-1"
-                          onClick={function() {
-                            selectNotationStrain({
-                              sourceItemId: fresh.id,
-                              strainIndex: strain.index,
-                              label: strain.label,
-                              order: (composition.notationChunks || []).length,
-                            })
-                          }}
-                        >
-                          Use strain
-                        </Button>
-                      </div>
-                    )
-                  })}
-                </ListGroup.Item>
+                <ChordTextSelectItemRow
+                  key={fresh.id}
+                  item={fresh}
+                  previewLines={textScratchpadItemPreviewLines(fresh)}
+                  highlighted={assignedNotationSourceIds.has(String(fresh.id))}
+                  onImportChords={importChordsFromText}
+                />
               )
             }
             return null
@@ -308,6 +489,14 @@ export default function ScratchpadCompositionChunkSelectModal(props) {
           <div className="text-muted small mt-2">No matching scratchpad items.</div>
         ) : null}
       </Modal.Body>
+      <ScratchpadCompositionVoiceSelectModal
+        show={!!voiceSelectPending}
+        sourceTune={voiceSelectPending && voiceSelectPending.item
+          ? voiceSelectPending.item.notation && voiceSelectPending.item.notation.tuneSnapshot
+          : null}
+        onHide={function() { setVoiceSelectPending(null) }}
+        onConfirm={handleVoiceSelectConfirm}
+      />
     </Modal>
   )
 }

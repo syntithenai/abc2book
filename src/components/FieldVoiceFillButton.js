@@ -78,6 +78,8 @@ export default function FieldVoiceFillButton(props) {
         text = result.artist || result.transcript || ''
       } else if (fieldKind === 'search') {
         text = result.searchText || result.title || result.transcript || ''
+      } else if (fieldKind === 'transcript') {
+        text = result.transcript || ''
       } else {
         text = result.title || result.searchText || result.transcript || ''
       }
@@ -149,7 +151,9 @@ export default function FieldVoiceFillButton(props) {
     ? (isTapMode ? 'Tap to speak composer' : 'Hold to speak composer')
     : (fieldKind === 'search'
       ? (isTapMode ? 'Tap to speak search' : 'Hold to speak search')
-      : (isTapMode ? 'Tap to speak title' : 'Hold to speak title'))
+      : (fieldKind === 'transcript'
+        ? (isTapMode ? 'Tap to speak' : 'Hold to speak')
+        : (isTapMode ? 'Tap to speak title' : 'Hold to speak title')))
   const busy = isRecording || state === 'processing'
   const buttonClassName = ['field-voice-fill-btn']
   if (props.className) buttonClassName.push(props.className)

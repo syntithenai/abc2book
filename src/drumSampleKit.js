@@ -59,6 +59,28 @@ export function primeDrumKit(audioContext) {
   return loadDrumKit(audioContext)
 }
 
+/** Low-latency pad preview — play synchronously when samples are already loaded. */
+export function auditionDrumSample(audioContext, sampleId, velocity) {
+  if (!audioContext || !sampleId) return
+  if (audioContext.state === 'suspended') {
+    audioContext.resume().catch(function() { /* ignore */ })
+  }
+  const playNow = function() {
+    playDrumHit(
+      audioContext,
+      audioContext.currentTime,
+      sampleId,
+      velocity != null ? velocity : 1,
+      0
+    )
+  }
+  if (isDrumKitLoaded()) {
+    playNow()
+    return
+  }
+  primeDrumKit(audioContext).then(playNow).catch(function() { /* ignore */ })
+}
+
 export function playDrumHit(audioContext, time, sampleId, velocity, pan, destination) {
   if (!audioContext || !bufferCache) return false
   const buffer = bufferCache[sampleId]

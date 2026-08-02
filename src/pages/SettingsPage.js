@@ -550,6 +550,7 @@ export default function SettingsPage(props) {
             tunes={tunes}
             mediaController={props.mediaController}
             initialJobsTab={searchParams.get('jobsTab')}
+            user={props.user}
           />
         </Tab.Pane>
 

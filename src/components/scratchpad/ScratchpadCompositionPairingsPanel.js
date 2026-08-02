@@ -7,6 +7,8 @@ import {
   buildCompositionPairingRows,
   buildAbcForNotationChunk,
 } from '../../scratchpadCompositionAssembly'
+import { isLyricsChunkSourceResolved } from '../../scratchpadCompositionChordImport'
+import { isNotationChunkSourceResolved } from '../../scratchpadCompositionNotation'
 import {
   sourceItemIdForCompositionChunk,
   previewSnippet,
@@ -21,8 +23,21 @@ function sourceItemTitle(chunk) {
 function pairingLyricsText(chunk) {
   if (!chunk) return ''
   const sourceItem = getScratchpadItem(chunk.sourceItemId)
+  if (!isLyricsChunkSourceResolved(sourceItem, chunk)) return ''
   const lines = extractLyricsChunkLines(sourceItem, chunk)
   return lines.join('\n')
+}
+
+function lyricsChunkSourceLost(chunk) {
+  if (!chunk || chunk.sourceKind !== 'text-section' || chunk.wholeItem) return false
+  const sourceItem = getScratchpadItem(chunk.sourceItemId)
+  return !isLyricsChunkSourceResolved(sourceItem, chunk)
+}
+
+function notationChunkSourceLost(chunk) {
+  if (!chunk || chunk.sourceKind !== 'notation-strain' || chunk.wholeItem) return false
+  const sourceItem = getScratchpadItem(chunk.sourceItemId)
+  return !isNotationChunkSourceResolved(sourceItem, chunk)
 }
 
 function IconButton(props) {
@@ -49,6 +64,8 @@ function PairingSide(props) {
   const previewText = isLyrics ? pairingLyricsText(chunk) : ''
   const notationAbc = !isLyrics && chunk ? buildAbcForNotationChunk(chunk) : ''
   const sourceTitle = chunk ? sourceItemTitle(chunk) : ''
+  const lyricsSourceLost = isLyrics && lyricsChunkSourceLost(chunk)
+  const notationSourceLost = !isLyrics && notationChunkSourceLost(chunk)
 
   return (
     <div className={'scratchpad-composition-pairing-col scratchpad-composition-pairing-' + props.side}>
@@ -71,6 +88,13 @@ function PairingSide(props) {
               {icons.pencil || '✎'}
             </IconButton>
           ) : null}
+          <IconButton
+            icons={icons}
+            title={isLyrics ? 'Create new text item' : 'Create new notation item'}
+            onClick={props.onCreateNew}
+          >
+            {icons.plus || '+'}
+          </IconButton>
         </div>
       </div>
       {chunk ? (
@@ -78,10 +102,30 @@ function PairingSide(props) {
           <div className="scratchpad-composition-pairing-side-label">
             <strong>{chunk.label}</strong>
             {sourceTitle ? <span className="text-muted small ms-1">({sourceTitle})</span> : null}
+            {chunk.sectionMarker ? (
+              <span className="text-muted small ms-1">· {chunk.sectionMarker}</span>
+            ) : null}
+            {chunk.strainMarker ? (
+              <span className="text-muted small ms-1">· {chunk.strainMarker}</span>
+            ) : null}
           </div>
+          {lyricsSourceLost ? (
+            <div className="scratchpad-composition-source-lost text-warning small">
+              Section marker no longer in source — re-select lyrics.
+            </div>
+          ) : null}
+          {notationSourceLost ? (
+            <div className="scratchpad-composition-source-lost text-warning small">
+              Strain marker no longer in source — re-select notation.
+            </div>
+          ) : null}
           {isLyrics ? (
             <div className="scratchpad-composition-readonly-preview">
-              {previewSnippet(previewText, 280) || <span className="text-muted">Empty</span>}
+              {previewSnippet(previewText, 280) || (
+                lyricsSourceLost
+                  ? <span className="text-muted">Selection lost</span>
+                  : <span className="text-muted">Empty</span>
+              )}
             </div>
           ) : notationAbc ? (
             <div className="scratchpad-composition-pairing-preview">
@@ -93,6 +137,8 @@ function PairingSide(props) {
                 className="scratchpad-composition-chunk-preview"
               />
             </div>
+          ) : notationSourceLost ? (
+            <span className="text-muted">Selection lost</span>
           ) : chunk.sourceKind === 'chord-sheet' && chunk.sourceText ? (
             <pre className="scratchpad-composition-chord-fallback small">{chunk.sourceText}</pre>
           ) : (
@@ -167,6 +213,9 @@ export default function ScratchpadCompositionPairingsPanel(props) {
                       if (props.onSelectSide) props.onSelectSide(row.id, 'lyrics')
                     }}
                     onEdit={row.lyricsChunk ? function() { openSourceEditor(row.lyricsChunk) } : null}
+                    onCreateNew={function() {
+                      if (props.onCreateNewSource) props.onCreateNewSource(row.id, 'lyrics')
+                    }}
                   />
                   <PairingSide
                     side="notation"
@@ -176,6 +225,9 @@ export default function ScratchpadCompositionPairingsPanel(props) {
                       if (props.onSelectSide) props.onSelectSide(row.id, 'notation')
                     }}
                     onEdit={row.notationChunk ? function() { openSourceEditor(row.notationChunk) } : null}
+                    onCreateNew={function() {
+                      if (props.onCreateNewSource) props.onCreateNewSource(row.id, 'notation')
+                    }}
                   />
                 </div>
               </div>

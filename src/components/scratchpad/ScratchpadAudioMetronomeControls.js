@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Button, ButtonGroup, Dropdown, Form, Modal } from 'react-bootstrap'
 import MetronomePanel from '../MetronomePanel'
-import DrumPatternEditor from '../DrumPatternEditor'
 import { normalizeRhythmConfig, createRhythmConfig } from '../../rhythmEngineTypes'
 import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
 
@@ -30,21 +29,6 @@ export default function ScratchpadAudioMetronomeControls(props) {
           }
         }}
       />
-      <div className="mb-2">
-        <DrumPatternEditor
-          rhythm={rhythm}
-          compact={true}
-          recordingEnabled={false}
-          onEngineModeChange={function(mode) {
-            if (props.onRhythmConfigChange) {
-              props.onRhythmConfigChange(normalizeRhythmConfig(Object.assign({}, rhythm, { engineMode: mode })))
-            }
-          }}
-          onRhythmChange={function(nextRhythm) {
-            if (props.onRhythmConfigChange) props.onRhythmConfigChange(nextRhythm)
-          }}
-        />
-      </div>
       <FormChecks props={props} />
       <CountInSelect countInBars={countInBars} onCountInChange={props.onCountInChange} />
     </>

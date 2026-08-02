@@ -3,7 +3,7 @@ import { splitMelodyStrainsWithBarlines } from './chordBlockMerge'
 import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
 import { extractBarsFromMelodyText } from './lyricBarAlignmentUtils'
 import { getScratchpadItem, blankNotationTune } from './scratchpadStore'
-import { appendVoiceNoteLines } from './scratchpadNotationMerge'
+import { appendVoiceNoteLines, applyScratchpadNotationMerge, buildDefaultVoiceMapping, countVoiceBars, voiceBodyFromNotes } from './scratchpadNotationMerge'
 import { applyNoteSpacingToTune } from './noteSpacingUtils'
 import {
   createChordSheetNotationChunk,
@@ -11,12 +11,27 @@ import {
   standardizeTextToChordProOnTune,
   sectionTextForChunk,
   generateCompositionChunkId,
+  isLyricsChunkSourceResolved,
 } from './scratchpadCompositionChordImport'
+import {
+  buildNotationChunkSourceTune,
+  isNotationChunkSourceResolved,
+} from './scratchpadCompositionNotation'
 import { setPlainLyricLines, getPlainLyricLines } from './wLinesUtils'
 import { buildAbcFromTune } from './components/SuggestionPreviewDialog'
 
 function cloneTune(tune) {
   return JSON.parse(JSON.stringify(tune || {}))
+}
+
+function isPlaceholderNotation(tune) {
+  if (!tune || !tune.voices) return true
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices)
+  const notes = tune.voices[voiceKey] && tune.voices[voiceKey].notes
+  if (!Array.isArray(notes) || !notes.length) return true
+  const body = String(voiceBodyFromNotes(notes) || '').trim()
+  if (!body) return true
+  return /^z\d+$/i.test(body.replace(/\s+/g, ''))
 }
 
 function sortChunks(chunks) {
@@ -33,10 +48,6 @@ function enabledChunks(chunks) {
   })
 }
 
-function textFromTextSection(item, sectionIndex) {
-  return sectionTextForChunk(item, { sourceKind: 'text-section', sectionIndex: sectionIndex })
-}
-
 function textFromImageBlock(item, blockId) {
   return sectionTextForChunk(item, { sourceKind: 'image-text-block', sourceBlockId: blockId })
 }
@@ -47,7 +58,7 @@ export function resolveChunkSourceText(item, chunk) {
     return textFromImageBlock(item, chunk.sourceBlockId)
   }
   if (chunk.sourceKind === 'text-section' || chunk.sourceKind === 'chord-sheet') {
-    return textFromTextSection(item, chunk.sectionIndex)
+    return sectionTextForChunk(item, chunk)
   }
   if (item.type === 'text' && item.text) {
     return String(item.text.body || '')
@@ -59,6 +70,9 @@ export function resolveChunkSourceText(item, chunk) {
 }
 
 export function extractLyricsChunkLines(item, chunk) {
+  if (chunk && chunk.sourceKind === 'text-section' && !chunk.wholeItem) {
+    if (!isLyricsChunkSourceResolved(item, chunk)) return []
+  }
   const text = resolveChunkSourceText(item, chunk)
   if (!text.trim()) return []
   if (chunk && chunk.plainLyricsOnly) {
@@ -103,20 +117,9 @@ export function buildAbcForNotationChunk(chunk) {
   if (chunk.sourceKind === 'notation-strain') {
     const sourceItem = getScratchpadItem(chunk.sourceItemId)
     if (!sourceItem || sourceItem.type !== 'notation' || !sourceItem.notation) return ''
-    const sourceTune = sourceItem.notation.tuneSnapshot
-    const strainText = strainTextFromTune(
-      sourceTune,
-      chunk.strainIndex,
-      chunk.fromBar,
-      chunk.toBar
-    )
-    if (!String(strainText || '').trim()) return ''
-    return buildAbcFromTune({
-      meter: sourceTune.meter || '4/4',
-      noteLength: sourceTune.noteLength || '1/8',
-      key: sourceTune.key || 'C',
-      voices: { V: { notes: [strainText] } },
-    })
+    const slice = buildNotationChunkSourceTune(sourceItem.notation.tuneSnapshot, chunk)
+    if (!slice) return ''
+    return buildAbcFromTune(slice)
   }
   return ''
 }
@@ -311,7 +314,25 @@ export function assignNotationChunkToPairingRow(composition, pairingId, chunk) {
   return next
 }
 
-function strainNoteLinesFromTune(tune, strainIndex, fromBar, toBar) {
+function strainNoteLinesFromTune(tune, strainIndex, fromBar, toBar, wholeItem) {
+  if (wholeItem) {
+    const noteLines = melodyNoteLinesFromTune(tune)
+    const strains = splitMelodyStrainsWithBarlines(noteLines)
+    if (!strains.length) return []
+    let melodyLines = []
+    strains.forEach(function(strain) {
+      const text = String(strain.text || '').trim()
+      if (!text) return
+      if (!melodyLines.length) {
+        melodyLines = [text]
+      } else {
+        const lastIdx = melodyLines.length - 1
+        melodyLines[lastIdx] = (melodyLines[lastIdx] + ' || ').trim()
+        melodyLines = appendVoiceNoteLines(melodyLines, [text])
+      }
+    })
+    return melodyLines
+  }
   const text = strainTextFromTune(tune, strainIndex, fromBar, toBar)
   if (!text) return []
   return [text]
@@ -323,8 +344,11 @@ function chunkSourceKey(chunk) {
     chunk.sourceItemId || '',
     chunk.sourceKind || '',
     chunk.sectionIndex != null ? chunk.sectionIndex : '',
+    chunk.sectionMarker || '',
     chunk.sourceBlockId || '',
     chunk.strainIndex != null ? chunk.strainIndex : '',
+    chunk.strainMarker || '',
+    Array.isArray(chunk.voiceKeys) ? chunk.voiceKeys.join(',') : '',
   ].join(':')
 }
 
@@ -420,36 +444,52 @@ export function assembleCompositionTune(composition, options) {
     }
   })
 
-  let melodyLines = []
+  let mergedNotationStrainCount = 0
   notationChunks.forEach(function(notationChunk) {
     if (notationChunk.sourceKind !== 'notation-strain') return
     const sourceItem = getScratchpadItem(notationChunk.sourceItemId)
     if (!sourceItem || sourceItem.type !== 'notation' || !sourceItem.notation) return
-    const sourceTune = sourceItem.notation.tuneSnapshot
-    const strainLines = strainNoteLinesFromTune(
-      sourceTune,
-      notationChunk.strainIndex,
-      notationChunk.fromBar,
-      notationChunk.toBar
-    )
-    if (!strainLines.length) return
-    if (!melodyLines.length) {
-      melodyLines = strainLines.slice()
-    } else {
-      const separator = ' || '
-      const lastIdx = melodyLines.length - 1
-      melodyLines[lastIdx] = (melodyLines[lastIdx] + separator).trim()
-      melodyLines = appendVoiceNoteLines(melodyLines, strainLines)
+    if (!isNotationChunkSourceResolved(sourceItem, notationChunk)) return
+    const slice = buildNotationChunkSourceTune(sourceItem.notation.tuneSnapshot, notationChunk)
+    if (!slice) return
+    let strainSlice = slice
+    if (mergedNotationStrainCount > 0) {
+      const sliceKey = resolvePrimaryVoiceKey(strainSlice.voices || {})
+      const sliceVoice = strainSlice.voices && strainSlice.voices[sliceKey]
+      if (sliceVoice && Array.isArray(sliceVoice.notes) && sliceVoice.notes.length) {
+        strainSlice = cloneTune(strainSlice)
+        const notes = sliceVoice.notes.slice()
+        const firstIdx = notes.findIndex(function(line) {
+          return String(line || '').trim().length > 0
+        })
+        if (firstIdx >= 0) {
+          notes[firstIdx] = '|| ' + String(notes[firstIdx]).trim()
+        } else {
+          notes.unshift('||')
+        }
+        strainSlice.voices[sliceKey] = Object.assign({}, sliceVoice, { notes: notes })
+      }
     }
-  })
-
-  if (melodyLines.length) {
-    const voiceKey = resolvePrimaryVoiceKey(tune.voices || { V: { notes: ['z4'] } })
-    tune.voices = Object.assign({}, tune.voices || {})
-    tune.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey] || {}, {
-      notes: melodyLines,
+    const mapping = buildDefaultVoiceMapping(strainSlice, tune)
+    const destKey = mapping[resolvePrimaryVoiceKey(strainSlice.voices || {})]
+      || resolvePrimaryVoiceKey(tune.voices || {})
+    const destNotes = tune.voices && tune.voices[destKey] ? tune.voices[destKey].notes : []
+    let mergeMode = 'merge'
+    let fromBar = 1
+    if (mergedNotationStrainCount === 0 && isPlaceholderNotation(tune)) {
+      mergeMode = 'replace'
+      fromBar = 1
+    } else if (mergedNotationStrainCount > 0) {
+      mergeMode = 'insert'
+      fromBar = countVoiceBars(destNotes, tune) + 1
+    }
+    tune = applyScratchpadNotationMerge(tune, strainSlice, {
+      mode: mergeMode,
+      fromBar: fromBar,
+      voiceMapping: mapping,
     })
-  }
+    mergedNotationStrainCount += 1
+  })
 
   const lyricLines = []
   lyricsChunks.forEach(function(lyricsChunk) {

@@ -11,7 +11,7 @@ import {
   meterDenominator,
 } from './playbackMetronomeSettings'
 import { rhythmFromPreset, slotsPerBar } from './metronomeRhythmPresets'
-import { normalizeRhythmConfig, ENGINE_MODE_CLICK, ENGINE_MODE_DRUMS } from './rhythmEngineTypes'
+import { normalizeRhythmConfig, ENGINE_MODE_CLICK, ENGINE_MODE_DRUMS, createRhythmConfig } from './rhythmEngineTypes'
 import { applyRhythmPreset } from './drumPatternPresets'
 
 function expectRhythmPreset(actual, presetId) {
@@ -49,19 +49,48 @@ describe('playbackMetronomeSettings', function() {
     expect(meterDenominator('6/8')).toBe(8)
   })
 
+  test('alignPlaybackRhythmToMeter preserves finer drum grid on matching meter', function() {
+    const drumRhythm = applyRhythmPreset('rock-basic')
+    expect(slotsPerBar(drumRhythm)).toBe(16)
+    const aligned = alignPlaybackRhythmToMeter(drumRhythm, '4/4')
+    expect(slotsPerBar(aligned)).toBe(16)
+    expect(aligned.pulsesPerBeat).toEqual([4, 4, 4, 4])
+    expect(aligned.drumPattern.resolution).toBe(16)
+  })
+
+  test('alignPlaybackRhythmToMeter keeps custom click pulses when beat count matches', function() {
+    const finer = normalizeRhythmConfig(createRhythmConfig(4, undefined, [4, 4, 4, 4], {
+      engineMode: ENGINE_MODE_CLICK,
+    }))
+    const aligned = alignPlaybackRhythmToMeter(finer, '4/4')
+    expect(slotsPerBar(aligned)).toBe(16)
+    expect(aligned.pulsesPerBeat).toEqual([4, 4, 4, 4])
+  })
+
   test('alignPlaybackRhythmToMeter corrects compound pulses on simple meters', function() {
     const compound = normalizeRhythmConfig(rhythmFromPreset('9-8'))
     const aligned = alignPlaybackRhythmToMeter(compound, '3/4')
-    expect(slotsPerBar(aligned)).toBe(3)
-    expect(aligned.pulsesPerBeat).toEqual([1, 1, 1])
+    expect(slotsPerBar(aligned)).toBe(9)
+    expect(aligned.pulsesPerBeat).toEqual([3, 3, 3])
   })
 
-  test('alignPlaybackRhythmToMeter preserves drum preset id when realigning grid', function() {
+  test('alignPlaybackRhythmToMeter preserves drum meter when it differs from tune', function() {
+    const drumRhythm = normalizeRhythmConfig(Object.assign({}, applyRhythmPreset('rock-basic'), {
+      beatsPerBar: 5,
+      accents: [1, 0, 0, 0, 0],
+      pulsesPerBeat: [1, 1, 1, 1, 1],
+    }))
+    const aligned = alignPlaybackRhythmToMeter(drumRhythm, '4/4')
+    expect(aligned.beatsPerBar).toBe(5)
+    expect(aligned.pulsesPerBeat).toEqual([1, 1, 1, 1, 1])
+  })
+
+  test('alignPlaybackRhythmToMeter preserves drum preset id without realigning beats', function() {
     const drumRhythm = applyRhythmPreset('rock-basic')
     const aligned = alignPlaybackRhythmToMeter(drumRhythm, '3/4')
     expect(aligned.presetId).toBe('rock-basic')
-    expect(aligned.beatsPerBar).toBe(3)
-    expect(slotsPerBar(aligned)).toBe(3)
+    expect(aligned.beatsPerBar).toBe(4)
+    expect(slotsPerBar(aligned)).toBe(16)
   })
 
   test('alignPlaybackRhythmToMeter leaves compound meters unchanged', function() {

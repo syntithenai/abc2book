@@ -1,22 +1,32 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Button, ButtonGroup, Form } from 'react-bootstrap'
 import { toast } from 'react-toastify'
+import { icons } from '../Icons'
 import {
   applyRhythmPreset,
   getSearchableRhythmPresets,
   groupPresetsForPicker,
-  presetLabelForId,
   PRESET_CATEGORY_MY_PATTERNS,
 } from '../drumPatternPresets'
+import { METRONOME_PULSE_OPTIONS } from '../metronomeRhythmPresets'
 import {
   ENGINE_MODE_CLICK,
   ENGINE_MODE_DRUMS,
   setDrumSwing,
   toggleDrumStep,
+  DRUM_TRACK_DEFAULTS,
   DRUM_TRACK_IDS,
 } from '../rhythmEngineTypes'
-import { slotsPerBar } from '../metronomeRhythmPresets'
-import { getGranularityOptions, setRhythmGranularity } from '../rhythmGranularity'
+import {
+  applyEditorSubdivision,
+  editorSubdivisionHint,
+  getEditorSlotCount,
+  getEditorSubdivisionOptions,
+  EDITOR_SUBDIVISION_PULSES,
+  EDITOR_SUBDIVISION_HALF_PULSES,
+  beatGroupIsOn,
+  setDrumBeatSteps,
+} from '../rhythmGranularity'
 import { isUserDrumPresetId } from '../userDrumPresets'
 import useUserDrumPresets from '../useUserDrumPresets'
 import {
@@ -28,14 +38,11 @@ import {
   canRedoDrumPattern,
 } from '../drumPatternUndo'
 import {
-  loadDrumEditorMode,
-  saveDrumEditorMode,
-  loadDrumGridCollapsed,
-  saveDrumGridCollapsed,
-  EDITOR_MODE_SIMPLE,
-  EDITOR_MODE_ADVANCED,
+  loadEditorSubdivision,
+  saveEditorSubdivision,
 } from '../drumPatternEditorPrefs'
 import { createRecordingSession } from '../drumPatternRecorder'
+import { auditionDrumSample } from '../drumSampleKit'
 import DrumPatternGrid from './DrumPatternGrid'
 import DrumPatternToolbar from './DrumPatternToolbar'
 import DrumRecordPads from './DrumRecordPads'
@@ -47,27 +54,28 @@ const SWING_OPTIONS = [
   { label: 'Medium', value: 0.33 },
 ]
 
+function SectionDivider() {
+  return <hr className="drum-pattern-editor__section-divider" aria-hidden="true" />
+}
+
 export default function DrumPatternEditor(props) {
   const rhythm = props.rhythm
   const disabled = !!props.disabled
   const compact = !!props.compact
   const recordingEnabled = props.recordingEnabled !== false
+  const showMeterControls = props.showMeterControls !== false
   const [presetOpen, setPresetOpen] = useState(false)
   const [presetFilter, setPresetFilter] = useState('')
-  const [editorMode, setEditorMode] = useState(function() {
-    return compact ? EDITOR_MODE_SIMPLE : loadDrumEditorMode()
-  })
-  const [gridCollapsed, setGridCollapsed] = useState(loadDrumGridCollapsed)
   const [showVelocityLanes, setShowVelocityLanes] = useState(false)
   const [selectedTrackIndex, setSelectedTrackIndex] = useState(0)
   const [selectedStep, setSelectedStep] = useState(0)
   const [recording, setRecording] = useState(false)
-  const [recordMode, setRecordMode] = useState('overdub')
   const [flashSlot, setFlashSlot] = useState(null)
   const [countInBarsRemaining, setCountInBarsRemaining] = useState(0)
   const [saveOpen, setSaveOpen] = useState(false)
   const [saveLabel, setSaveLabel] = useState('')
   const [saveBusy, setSaveBusy] = useState(false)
+  const [editorSubdivision, setEditorSubdivision] = useState(loadEditorSubdivision)
   const undoStackRef = useRef(createDrumPatternUndoStack(null))
   const [, forceUndoRender] = useState(0)
   const recordSessionRef = useRef(null)
@@ -79,14 +87,20 @@ export default function DrumPatternEditor(props) {
 
   const engineMode = rhythm.engineMode || ENGINE_MODE_CLICK
   const isDrums = engineMode === ENGINE_MODE_DRUMS
-  const totalSlots = slotsPerBar(rhythm)
   const drumPattern = rhythm.drumPattern
-  const showAdvanced = editorMode === EDITOR_MODE_ADVANCED
-  const showGrid = isDrums && drumPattern && (showAdvanced || props.forceShowGrid) && !gridCollapsed
-
-  const granularityOptions = useMemo(function() {
-    return getGranularityOptions(rhythm)
+  const subdivisionOptions = useMemo(function() {
+    return getEditorSubdivisionOptions(rhythm)
   }, [rhythm.beatsPerBar, rhythm.pulsesPerBeat])
+  const effectiveSubdivision = useMemo(function() {
+    if (subdivisionOptions.some(function(option) { return option.id === editorSubdivision })) {
+      return editorSubdivision
+    }
+    return EDITOR_SUBDIVISION_PULSES
+  }, [editorSubdivision, subdivisionOptions])
+  const editorColumnCount = useMemo(function() {
+    return getEditorSlotCount(rhythm, effectiveSubdivision)
+  }, [rhythm, effectiveSubdivision])
+  const showGrid = isDrums && drumPattern
 
   const searchablePresets = useMemo(function() {
     return getSearchableRhythmPresets(rhythm, {
@@ -102,6 +116,13 @@ export default function DrumPatternEditor(props) {
 
   const canSavePattern = isDrums && drumPattern && !disabled
   const showSaveButton = canSavePattern && (!rhythm.presetId || !isUserDrumPresetId(rhythm.presetId))
+  const hasMeterRow = showMeterControls && (
+    props.onDrumVolumeChange != null
+    || props.onBeatsPerBarChange != null
+    || props.onPulsesForBeatChange != null
+    || (isDrums && subdivisionOptions.length > 0)
+    || (isDrums && drumPattern)
+  )
 
   useEffect(function() {
     if (!presetOpen) return
@@ -123,22 +144,29 @@ export default function DrumPatternEditor(props) {
     props.onRhythmChange(Object.assign({}, rhythm, {
       drumPattern: nextPattern,
       presetId: opts.keepPreset ? rhythm.presetId : '',
-    }))
-  }, [drumPattern, props.onRhythmChange, rhythm])
+    }), { preserveTransport: !!opts.preserveTransport || recording })
+  }, [drumPattern, props.onRhythmChange, recording, rhythm])
 
   function selectPreset(preset) {
     const next = applyRhythmPreset(preset.id)
     undoStackRef.current = createDrumPatternUndoStack(next.drumPattern)
     forceUndoRender(function(n) { return n + 1 })
+    saveEditorSubdivision(EDITOR_SUBDIVISION_PULSES)
+    setEditorSubdivision(EDITOR_SUBDIVISION_PULSES)
     if (props.onRhythmChange) {
       props.onRhythmChange(next)
     }
     setPresetOpen(false)
+    setPresetFilter('')
   }
 
-  function handleGranularityChange(multiplier) {
+  function handleSubdivisionChange(nextSubdivision) {
+    const previousSubdivision = effectiveSubdivision
+    saveEditorSubdivision(nextSubdivision)
+    setEditorSubdivision(nextSubdivision)
     if (!props.onRhythmChange) return
-    const next = setRhythmGranularity(rhythm, multiplier)
+    const next = applyEditorSubdivision(rhythm, nextSubdivision, previousSubdivision)
+    if (next === rhythm) return
     undoStackRef.current = createDrumPatternUndoStack(next.drumPattern)
     forceUndoRender(function(n) { return n + 1 })
     props.onRhythmChange(next)
@@ -180,13 +208,12 @@ export default function DrumPatternEditor(props) {
       <div key={title} className="drum-pattern-editor__preset-category">
         <div className="drum-pattern-editor__preset-category-label">{title}</div>
         {items.map(function(preset) {
-          const isActive = rhythm.presetId === preset.id
           const isUser = preset.category === PRESET_CATEGORY_MY_PATTERNS
           return (
             <div key={preset.id} className="drum-pattern-editor__preset-option-row">
               <button
                 type="button"
-                className={'drum-pattern-editor__preset-option' + (isActive ? ' is-active' : '')}
+                className="drum-pattern-editor__preset-option"
                 onClick={function() { selectPreset(preset) }}
               >
                 {preset.label}
@@ -212,15 +239,6 @@ export default function DrumPatternEditor(props) {
   function changeSwing(value) {
     if (!drumPattern || !props.onRhythmChange) return
     commitPatternChange(setDrumSwing(drumPattern, value))
-  }
-
-  function handleEditorModeChange(mode) {
-    setEditorMode(mode)
-    saveDrumEditorMode(mode)
-    if (mode === EDITOR_MODE_ADVANCED) {
-      setGridCollapsed(false)
-      saveDrumGridCollapsed(false)
-    }
   }
 
   function handleUndo() {
@@ -262,7 +280,6 @@ export default function DrumPatternEditor(props) {
     recordSessionRef.current = createRecordingSession({
       rhythm: rhythm,
       tempo: props.tempo || 120,
-      mode: recordMode,
       initialPattern: drumPattern,
     })
     setRecording(true)
@@ -277,7 +294,7 @@ export default function DrumPatternEditor(props) {
             countInRef.current -= 1
             setCountInBarsRemaining(countInRef.current)
             if (countInRef.current <= 0) {
-              session.arm(recordMode === 'replace')
+              session.arm()
               session.setDownbeatTime(time)
             }
           } else {
@@ -286,7 +303,7 @@ export default function DrumPatternEditor(props) {
         },
       })
     }
-  }, [drumPattern, props.onRecordingStart, props.tempo, recordMode, recordingEnabled, rhythm])
+  }, [drumPattern, props.onRecordingStart, props.tempo, recordingEnabled, rhythm])
 
   function toggleRecording() {
     if (recording) {
@@ -297,10 +314,22 @@ export default function DrumPatternEditor(props) {
   }
 
   function handlePadHit(trackId) {
-    if (!recording || !recordSessionRef.current || !props.audioContext) return
-    const result = recordSessionRef.current.noteHit(trackId, props.audioContext.currentTime)
+    if (!props.audioContext) return
+    const track = DRUM_TRACK_DEFAULTS.find(function(t) { return t.id === trackId })
+    if (track) {
+      auditionDrumSample(props.audioContext, track.sample, track.velocity)
+    }
+    if (!recording || !recordSessionRef.current) return
+    const preferredSlot = props.activeSlot != null && props.activeSlot >= 0
+      ? props.activeSlot
+      : null
+    const result = recordSessionRef.current.noteHit(
+      trackId,
+      props.audioContext.currentTime,
+      preferredSlot
+    )
     if (!result) return
-    commitPatternChange(result.pattern, { skipUndo: true })
+    commitPatternChange(result.pattern, { skipUndo: true, preserveTransport: true })
     setFlashSlot({ trackId: result.trackId, slotIndex: result.slotIndex })
     setTimeout(function() { setFlashSlot(null) }, 120)
   }
@@ -326,12 +355,15 @@ export default function DrumPatternEditor(props) {
         countInRef.current -= 1
         setCountInBarsRemaining(countInRef.current)
         if (countInRef.current <= 0) {
-          recordSessionRef.current.arm(recordMode === 'replace')
+          recordSessionRef.current.arm()
+          if (props.audioContext) {
+            recordSessionRef.current.setDownbeatTime(props.audioContext.currentTime)
+          }
         }
       }
     }
     prevActiveSlotRef.current = activeSlot
-  }, [props.activeSlot, recording, recordMode])
+  }, [props.activeSlot, recording, props.audioContext])
 
   useEffect(function() {
     function onKeyDown(e) {
@@ -356,11 +388,18 @@ export default function DrumPatternEditor(props) {
         const trackId = DRUM_TRACK_IDS[selectedTrackIndex]
         if (trackId) {
           const track = drumPattern.tracks.find(function(t) { return t.id === trackId })
-          const steps = track && track.steps ? track.steps : []
-          const stepIndex = selectedStep % steps.length
-          commitPatternChange(
-            toggleDrumStep(drumPattern, trackId, stepIndex)
-          )
+          if (effectiveSubdivision === EDITOR_SUBDIVISION_HALF_PULSES
+              || effectiveSubdivision === EDITOR_SUBDIVISION_PULSES) {
+            const steps = track && track.steps ? track.steps : []
+            const stepIndex = selectedStep % steps.length
+            commitPatternChange(
+              toggleDrumStep(drumPattern, trackId, stepIndex)
+            )
+          } else if (track) {
+            const beatIndex = selectedStep % rhythm.beatsPerBar
+            const on = !beatGroupIsOn(track, rhythm, beatIndex)
+            commitPatternChange(setDrumBeatSteps(drumPattern, trackId, beatIndex, rhythm, on))
+          }
         }
         return
       }
@@ -371,16 +410,173 @@ export default function DrumPatternEditor(props) {
       }
       if (key === 'ArrowRight') {
         e.preventDefault()
-        setSelectedStep(function(s) { return Math.min(totalSlots - 1, s + 1) })
+        setSelectedStep(function(s) { return Math.min(editorColumnCount - 1, s + 1) })
       }
     }
     window.addEventListener('keydown', onKeyDown)
     return function() { window.removeEventListener('keydown', onKeyDown) }
   })
 
-  const presetLabel = rhythm.presetId
-    ? presetLabelForId(rhythm.presetId)
-    : (isDrums ? 'Custom pattern' : '')
+  function renderMeterControls() {
+    if (!hasMeterRow) return null
+    return (
+      <div className="drum-pattern-editor__section drum-pattern-editor__section--meter">
+        <div className="drum-pattern-editor__meter-row drum-pattern-editor__meter-row--primary">
+          {props.onBeatsPerBarChange != null ? (
+            <label className="drum-pattern-editor__beats-control">
+              <span className="drum-pattern-editor__control-label">Beats</span>
+              <Form.Control
+                type="number"
+                size="sm"
+                className="drum-pattern-editor__beats-input"
+                min={1}
+                max={16}
+                disabled={disabled}
+                aria-label="Beats per bar"
+                value={rhythm.beatsPerBar}
+                onChange={function(e) {
+                  const next = parseInt(e.target.value, 10)
+                  if (!Number.isNaN(next)) {
+                    props.onBeatsPerBarChange(next)
+                  }
+                }}
+              />
+            </label>
+          ) : null}
+
+          {props.onPulsesForBeatChange != null ? (
+            <div className="drum-pattern-editor__pulses-control" aria-label="Pulses per beat">
+              <span className="drum-pattern-editor__control-label">Pulses</span>
+              {rhythm.pulsesPerBeat.map(function(pulses, beatIndex) {
+                return (
+                  <select
+                    key={'pulses-' + beatIndex}
+                    className="drum-pattern-editor__pulse-select"
+                    value={pulses}
+                    disabled={disabled}
+                    aria-label={'Pulses for beat ' + (beatIndex + 1)}
+                    title={'Pulses for beat ' + (beatIndex + 1)}
+                    onChange={function(e) {
+                      props.onPulsesForBeatChange(beatIndex, parseInt(e.target.value, 10))
+                    }}
+                  >
+                    {METRONOME_PULSE_OPTIONS.map(function(option) {
+                      return (
+                        <option key={option} value={option}>{option}</option>
+                      )
+                    })}
+                  </select>
+                )
+              })}
+            </div>
+          ) : null}
+
+          {isDrums && subdivisionOptions.length > 0 ? (
+            <div
+              className="drum-pattern-editor__granularity-row"
+              title={editorSubdivisionHint(rhythm, effectiveSubdivision)}
+            >
+              <span className="drum-pattern-editor__granularity-label">Subdivision</span>
+              {compact ? (
+                <Form.Select
+                  size="sm"
+                  className="drum-pattern-editor__granularity-select"
+                  disabled={disabled}
+                  aria-label="Editor subdivision"
+                  value={effectiveSubdivision}
+                  onChange={function(e) {
+                    handleSubdivisionChange(e.target.value)
+                  }}
+                >
+                  {subdivisionOptions.map(function(option) {
+                    return (
+                      <option key={option.id} value={option.id}>
+                        {option.label}
+                      </option>
+                    )
+                  })}
+                </Form.Select>
+              ) : (
+                <ButtonGroup size="sm" aria-label="Editor subdivision">
+                  {subdivisionOptions.map(function(option) {
+                    return (
+                      <Button
+                        key={option.id}
+                        variant={effectiveSubdivision === option.id ? 'primary' : 'outline-primary'}
+                        disabled={disabled}
+                        onClick={function() { handleSubdivisionChange(option.id) }}
+                      >
+                        {option.label}
+                      </Button>
+                    )
+                  })}
+                </ButtonGroup>
+              )}
+            </div>
+          ) : null}
+        </div>
+
+        <div className="drum-pattern-editor__meter-row drum-pattern-editor__meter-row--volume-swing">
+          {props.onDrumVolumeChange != null ? (
+            <label className="drum-pattern-editor__volume-control">
+              <span className="drum-pattern-editor__control-label">Volume</span>
+              <input
+                type="range"
+                className="drum-pattern-editor__volume-slider"
+                min="0"
+                max="100"
+                step="1"
+                disabled={disabled}
+                value={Math.round((props.drumVolume != null ? props.drumVolume : 0) * 100)}
+                aria-label="Drum volume"
+                onChange={function(e) {
+                  props.onDrumVolumeChange(parseInt(e.target.value, 10) / 100)
+                }}
+              />
+              <span className="drum-pattern-editor__volume-value">
+                {Math.round((props.drumVolume != null ? props.drumVolume : 0) * 100)}
+              </span>
+            </label>
+          ) : null}
+
+          {isDrums && drumPattern ? (
+            <div className="drum-pattern-editor__swing-row">
+              <span className="drum-pattern-editor__swing-label">Swing</span>
+              <input
+                type="range"
+                className="drum-pattern-editor__swing-slider"
+                min="0"
+                max="50"
+                step="1"
+                disabled={disabled}
+                value={Math.round((drumPattern.swing || 0) * 100)}
+                aria-label="Swing amount"
+                onChange={function(e) {
+                  changeSwing(parseInt(e.target.value, 10) / 100)
+                }}
+              />
+              <ButtonGroup size="sm" aria-label="Swing presets">
+                {SWING_OPTIONS.map(function(option) {
+                  const currentSwing = drumPattern.swing || 0
+                  const isActive = Math.abs(currentSwing - option.value) < 0.01
+                  return (
+                    <Button
+                      key={option.label}
+                      variant={isActive ? 'primary' : 'outline-primary'}
+                      disabled={disabled}
+                      onClick={function() { changeSwing(option.value) }}
+                    >
+                      {option.label}
+                    </Button>
+                  )
+                })}
+              </ButtonGroup>
+            </div>
+          ) : null}
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div
@@ -388,7 +584,7 @@ export default function DrumPatternEditor(props) {
       className={'drum-pattern-editor' + (compact ? ' drum-pattern-editor--compact' : '')}
       tabIndex={-1}
     >
-      <div className="drum-pattern-editor__preset-row">
+      <div className="drum-pattern-editor__mode-row">
         <ButtonGroup aria-label="Sound mode">
           <Button
             variant={engineMode === ENGINE_MODE_CLICK ? 'primary' : 'outline-primary'}
@@ -409,295 +605,153 @@ export default function DrumPatternEditor(props) {
             Drums
           </Button>
         </ButtonGroup>
-
-        {isDrums && !compact ? (
-          <ButtonGroup size="sm" aria-label="Editor mode" className="drum-pattern-editor__mode-toggle">
-            <Button
-              variant={editorMode === EDITOR_MODE_SIMPLE ? 'primary' : 'outline-primary'}
-              disabled={disabled}
-              onClick={function() { handleEditorModeChange(EDITOR_MODE_SIMPLE) }}
-            >
-              Simple
-            </Button>
-            <Button
-              variant={editorMode === EDITOR_MODE_ADVANCED ? 'primary' : 'outline-primary'}
-              disabled={disabled}
-              onClick={function() { handleEditorModeChange(EDITOR_MODE_ADVANCED) }}
-            >
-              Advanced
-            </Button>
-          </ButtonGroup>
-        ) : null}
-
-        {isDrums ? (
-          <div className="drum-pattern-editor__preset-picker" ref={presetPickerRef}>
-            <Button
-              variant="outline-secondary"
-              className="drum-pattern-editor__preset-button"
-              disabled={disabled}
-              aria-expanded={presetOpen}
-              onClick={function() { setPresetOpen(!presetOpen) }}
-            >
-              {presetLabel || 'Choose preset'}
-            </Button>
-            {presetOpen ? (
-              <div className="drum-pattern-editor__preset-menu">
-                <input
-                  type="search"
-                  className="drum-pattern-editor__preset-search"
-                  placeholder="Search presets…"
-                  value={presetFilter}
-                  onChange={function(e) { setPresetFilter(e.target.value) }}
-                />
-                {groupedPresets.myPatterns.length > 0
-                  ? renderPresetGroup('My patterns', groupedPresets.myPatterns)
-                  : null}
-                {renderPresetGroup('Matching grid', groupedPresets.exact)}
-                {renderPresetGroup('Other patterns (changes grid)', groupedPresets.compatible)}
-                {searchablePresets.length === 0 ? (
-                  <p className="drum-pattern-editor__preset-empty text-muted small">
-                    No patterns for this meter — try changing granularity below
-                  </p>
-                ) : null}
-              </div>
-            ) : null}
-          </div>
-        ) : null}
-
-        {isDrums && showAdvanced && !compact ? (
-          <Button
-            variant="link"
-            size="sm"
-            className="drum-pattern-editor__collapse-toggle"
-            disabled={disabled}
-            onClick={function() {
-              const next = !gridCollapsed
-              setGridCollapsed(next)
-              saveDrumGridCollapsed(next)
-            }}
-          >
-            {gridCollapsed ? 'Show grid' : 'Hide grid'}
-          </Button>
-        ) : null}
-
-        {isDrums && editorMode === EDITOR_MODE_SIMPLE && !compact ? (
-          <Button
-            variant="outline-secondary"
-            size="sm"
-            disabled={disabled}
-            onClick={function() { handleEditorModeChange(EDITOR_MODE_ADVANCED) }}
-          >
-            Customize pattern
-          </Button>
-        ) : null}
-
-        {showSaveButton ? (
-          <Button
-            variant="outline-secondary"
-            size="sm"
-            disabled={disabled || saveBusy}
-            onClick={function() {
-              setSaveLabel('')
-              setSaveOpen(!saveOpen)
-            }}
-          >
-            Save pattern…
-          </Button>
-        ) : null}
       </div>
 
-      {saveOpen ? (
-        <div className="drum-pattern-editor__save-row">
-          <Form.Control
-            type="text"
-            size="sm"
-            placeholder="Pattern name"
-            value={saveLabel}
-            disabled={disabled || saveBusy}
-            onChange={function(e) { setSaveLabel(e.target.value) }}
-            onKeyDown={function(e) {
-              if (e.key === 'Enter') handleSavePattern()
-            }}
-          />
-          <Button
-            size="sm"
-            variant="primary"
-            disabled={disabled || saveBusy || !saveLabel.trim()}
-            onClick={handleSavePattern}
-          >
-            Save
-          </Button>
-          <Button
-            size="sm"
-            variant="outline-secondary"
-            disabled={saveBusy}
-            onClick={function() { setSaveOpen(false) }}
-          >
-            Cancel
-          </Button>
-        </div>
-      ) : null}
+      {isDrums ? (
+        <>
+          {hasMeterRow ? <SectionDivider /> : null}
+          {renderMeterControls()}
+          {hasMeterRow ? <SectionDivider /> : null}
 
-      {isDrums && granularityOptions.length > 1 ? (
-        <div className="drum-pattern-editor__granularity-row">
-          <span className="drum-pattern-editor__granularity-label">Grid</span>
-          {compact ? (
-            <Form.Select
-              size="sm"
-              className="drum-pattern-editor__granularity-select"
-              disabled={disabled}
-              aria-label="Grid granularity"
-              value={String(
-                (granularityOptions.find(function(o) { return o.isActive }) || granularityOptions[0]).multiplier
-              )}
-              onChange={function(e) {
-                handleGranularityChange(parseInt(e.target.value, 10))
-              }}
-            >
-              {granularityOptions.map(function(option) {
-                return (
-                  <option key={option.multiplier} value={String(option.multiplier)}>
-                    {option.label}
-                  </option>
-                )
-              })}
-            </Form.Select>
-          ) : (
-            <ButtonGroup size="sm" aria-label="Grid granularity">
-              {granularityOptions.map(function(option) {
-                return (
-                  <Button
-                    key={option.multiplier}
-                    variant={option.isActive ? 'primary' : 'outline-primary'}
-                    disabled={disabled}
-                    onClick={function() { handleGranularityChange(option.multiplier) }}
-                  >
-                    {option.label}
-                  </Button>
-                )
-              })}
-            </ButtonGroup>
-          )}
-          <span className="drum-pattern-editor__granularity-hint text-muted small">
-            {totalSlots} steps per bar
-          </span>
-        </div>
-      ) : null}
-
-      {isDrums && recordingEnabled && drumPattern && !compact ? (
-        <DrumRecordPads
-          disabled={disabled}
-          recording={recording}
-          recordMode={recordMode}
-          flashSlot={flashSlot}
-          audioContext={props.audioContext}
-          onToggleRecord={toggleRecording}
-          onRecordModeChange={setRecordMode}
-          onPadHit={handlePadHit}
-          onUndoHit={handleUndoHit}
-        />
-      ) : null}
-
-      {recording && countInBarsRemaining > 0 ? (
-        <p className="drum-pattern-editor__count-in text-muted small">Count-in…</p>
-      ) : null}
-
-      {isDrums && drumPattern && !compact ? (
-        <div className="drum-pattern-editor__swing-row">
-          <span className="drum-pattern-editor__swing-label">Swing</span>
-          <input
-            type="range"
-            className="drum-pattern-editor__swing-slider"
-            min="0"
-            max="50"
-            step="1"
-            disabled={disabled}
-            value={Math.round((drumPattern.swing || 0) * 100)}
-            aria-label="Swing amount"
-            onChange={function(e) {
-              changeSwing(parseInt(e.target.value, 10) / 100)
-            }}
-          />
-          <ButtonGroup aria-label="Swing presets" size="sm">
-            {SWING_OPTIONS.map(function(option) {
-              const currentSwing = drumPattern.swing || 0
-              const isActive = Math.abs(currentSwing - option.value) < 0.01
-              return (
-                <Button
-                  key={option.label}
-                  variant={isActive ? 'primary' : 'outline-primary'}
+          {recordingEnabled && drumPattern ? (
+            <>
+              <div className="drum-pattern-editor__section drum-pattern-editor__section--record">
+                <DrumRecordPads
                   disabled={disabled}
-                  onClick={function() { changeSwing(option.value) }}
-                >
-                  {option.label}
-                </Button>
-              )
-            })}
-          </ButtonGroup>
-        </div>
-      ) : null}
-
-      {showGrid ? (
-        <div className="drum-pattern-editor__grid-section">
-          <DrumPatternToolbar
-            drumPattern={drumPattern}
-            disabled={disabled}
-            canUndo={canUndoDrumPattern(undoStackRef.current)}
-            canRedo={canRedoDrumPattern(undoStackRef.current)}
-            showVelocityLanes={showVelocityLanes}
-            onUndo={handleUndo}
-            onRedo={handleRedo}
-            onToggleVelocityLanes={function() { setShowVelocityLanes(!showVelocityLanes) }}
-            onPatternChange={commitPatternChange}
-          />
-          <DrumPatternGrid
-            rhythm={rhythm}
-            drumPattern={drumPattern}
-            totalSlots={totalSlots}
-            disabled={disabled}
-            activeSlot={props.activeSlot}
-            selectedTrackIndex={selectedTrackIndex}
-            selectedStep={selectedStep}
-            showVelocityLanes={showVelocityLanes}
-            flashSlot={flashSlot}
-            audioContext={props.audioContext}
-            tracks={drumPattern.tracks}
-            onPatternChange={commitPatternChange}
-            onSelectionChange={function(trackId, stepIndex) {
-              const idx = DRUM_TRACK_IDS.indexOf(trackId)
-              if (idx >= 0) setSelectedTrackIndex(idx)
-              if (stepIndex != null) setSelectedStep(stepIndex)
-            }}
-          />
-        </div>
-      ) : null}
-
-      {isDrums && drumPattern && compact ? (
-        <div className="drum-pattern-editor__compact-grid">
-          <Button
-            variant="link"
-            size="sm"
-            className="drum-pattern-editor__edit-toggle"
-            disabled={disabled}
-            onClick={function() {
-              handleEditorModeChange(EDITOR_MODE_ADVANCED)
-              setGridCollapsed(false)
-            }}
-          >
-            Customize pattern
-          </Button>
-          {showAdvanced && !gridCollapsed ? (
-            <DrumPatternGrid
-              rhythm={rhythm}
-              drumPattern={drumPattern}
-              totalSlots={totalSlots}
-              disabled={disabled}
-              activeSlot={props.activeSlot}
-              audioContext={props.audioContext}
-              onPatternChange={commitPatternChange}
-            />
+                  recording={recording}
+                  flashSlot={flashSlot}
+                  audioContext={props.audioContext}
+                  onToggleRecord={toggleRecording}
+                  onPadHit={handlePadHit}
+                  onUndoHit={handleUndoHit}
+                />
+                {recording && countInBarsRemaining > 0 ? (
+                  <p className="drum-pattern-editor__count-in text-muted small">Count-in…</p>
+                ) : null}
+              </div>
+              <SectionDivider />
+            </>
           ) : null}
-        </div>
+
+          {showGrid ? (
+            <div className="drum-pattern-editor__section drum-pattern-editor__section--pattern">
+              <div className="drum-pattern-editor__pattern-header">
+                <div className="drum-pattern-editor__preset-picker" ref={presetPickerRef}>
+                  <Button
+                    variant="outline-secondary"
+                    className="drum-pattern-editor__preset-icon-button"
+                    disabled={disabled}
+                    aria-expanded={presetOpen}
+                    aria-label="Load pattern template"
+                    title="Load pattern template"
+                    onClick={function() { setPresetOpen(!presetOpen) }}
+                  >
+                    {icons.wizard}
+                  </Button>
+                  {presetOpen ? (
+                    <div className="drum-pattern-editor__preset-menu">
+                      <input
+                        type="search"
+                        className="drum-pattern-editor__preset-search"
+                        placeholder="Search templates…"
+                        value={presetFilter}
+                        onChange={function(e) { setPresetFilter(e.target.value) }}
+                      />
+                      {groupedPresets.myPatterns.length > 0
+                        ? renderPresetGroup('My patterns', groupedPresets.myPatterns)
+                        : null}
+                      {renderPresetGroup('Matching grid', groupedPresets.exact)}
+                      {renderPresetGroup('Other patterns (changes grid)', groupedPresets.compatible)}
+                      {searchablePresets.length === 0 ? (
+                        <p className="drum-pattern-editor__preset-empty text-muted small">
+                          No patterns for this meter — try changing subdivision above
+                        </p>
+                      ) : null}
+                    </div>
+                  ) : null}
+                </div>
+
+                {showSaveButton ? (
+                  <Button
+                    variant="outline-secondary"
+                    size="sm"
+                    disabled={disabled || saveBusy}
+                    onClick={function() {
+                      setSaveLabel('')
+                      setSaveOpen(!saveOpen)
+                    }}
+                  >
+                    Save pattern…
+                  </Button>
+                ) : null}
+              </div>
+
+              {saveOpen ? (
+                <div className="drum-pattern-editor__save-row">
+                  <Form.Control
+                    type="text"
+                    size="sm"
+                    placeholder="Pattern name"
+                    value={saveLabel}
+                    disabled={disabled || saveBusy}
+                    onChange={function(e) { setSaveLabel(e.target.value) }}
+                    onKeyDown={function(e) {
+                      if (e.key === 'Enter') handleSavePattern()
+                    }}
+                  />
+                  <Button
+                    size="sm"
+                    variant="primary"
+                    disabled={disabled || saveBusy || !saveLabel.trim()}
+                    onClick={handleSavePattern}
+                  >
+                    Save
+                  </Button>
+                  <Button
+                    size="sm"
+                    variant="outline-secondary"
+                    disabled={saveBusy}
+                    onClick={function() { setSaveOpen(false) }}
+                  >
+                    Cancel
+                  </Button>
+                </div>
+              ) : null}
+
+              <DrumPatternToolbar
+                drumPattern={drumPattern}
+                disabled={disabled}
+                canUndo={canUndoDrumPattern(undoStackRef.current)}
+                canRedo={canRedoDrumPattern(undoStackRef.current)}
+                showVelocityLanes={showVelocityLanes}
+                onUndo={handleUndo}
+                onRedo={handleRedo}
+                onToggleVelocityLanes={function() { setShowVelocityLanes(!showVelocityLanes) }}
+                onPatternChange={commitPatternChange}
+              />
+              <DrumPatternGrid
+                rhythm={rhythm}
+                drumPattern={drumPattern}
+                subdivision={effectiveSubdivision}
+                totalSlots={editorColumnCount}
+                disabled={disabled}
+                activeSlot={props.activeSlot}
+                selectedTrackIndex={selectedTrackIndex}
+                selectedStep={selectedStep}
+                showVelocityLanes={showVelocityLanes}
+                flashSlot={flashSlot}
+                audioContext={props.audioContext}
+                tracks={drumPattern.tracks}
+                onPatternChange={commitPatternChange}
+                onSelectionChange={function(trackId, stepIndex) {
+                  const idx = DRUM_TRACK_IDS.indexOf(trackId)
+                  if (idx >= 0) setSelectedTrackIndex(idx)
+                  if (stepIndex != null) setSelectedStep(stepIndex)
+                }}
+              />
+            </div>
+          ) : null}
+        </>
       ) : null}
     </div>
   )

@@ -5,6 +5,7 @@ import {
   deleteScratchpadBlobsForItem,
   putScratchpadBlob,
   scratchpadBlobKey,
+  scratchpadCompositionMediaBlobKey,
 } from './scratchpadBlobs'
 import {
   createDefaultAudioProject,
@@ -516,6 +517,7 @@ export function blankCompositionState(id, title) {
     lyricsChunks: [],
     notationChunks: [],
     pairings: [],
+    mediaAttachments: [],
     assemblyStale: false,
   }
 }
@@ -625,6 +627,15 @@ export async function copyScratchpadItem(itemId, targetWorkspaceId, options) {
   } else if (item.type === 'composition' && item.composition) {
     copy.composition = JSON.parse(JSON.stringify(item.composition || blankCompositionState(newId, copy.title)))
     if (copy.composition.tuneSnapshot) copy.composition.tuneSnapshot.id = newId
+    const mediaAttachments = Array.isArray(copy.composition.mediaAttachments)
+      ? copy.composition.mediaAttachments.slice()
+      : []
+    copy.composition.mediaAttachments = await Promise.all(mediaAttachments.map(async function(entry) {
+      if (!entry || !entry.id || !entry.blobKey) return entry
+      const newKey = scratchpadCompositionMediaBlobKey(newId, entry.id)
+      await copyScratchpadBlob(entry.blobKey, newKey)
+      return Object.assign({}, entry, { blobKey: newKey, driveFileId: null })
+    }))
   }
 
   return saveScratchpadItem(copy)

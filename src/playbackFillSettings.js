@@ -1,3 +1,6 @@
+import { getPlaybackMetronomeSettings } from './playbackMetronomeSettings'
+import { buildFillRhythmContext } from './fillDrumRhythm'
+
 export const FILL_STYLE_OFF = 'off'
 export const FILL_STYLE_BOOM_CHICK = 'boom-chick'
 export const DEFAULT_FILL_STYLE = FILL_STYLE_BOOM_CHICK
@@ -12,12 +15,15 @@ export const FILL_GM = {
   steelGuitar: 25,
   acousticBass: 32,
   fingerBass: 33,
+  slapBass: 36,
   cello: 42,
   tremoloStrings: 45,
   pizzicato: 46,
   harp: 47,
   strings: 48,
+  accordion: 21,
   brass: 61,
+  fiddle: 108,
 }
 
 export const FILL_STYLE_GROUPS = [
@@ -102,7 +108,7 @@ export const FILL_STYLE_GROUPS = [
       {
         id: 'fingerpick',
         label: 'Fingerpick',
-        description: 'Alternating bass notes with sparse plucked chord tones.',
+        description: 'Even double-time nylon guitar arpeggio through chord tones.',
         usesAbcjsChords: false,
         generator: 'fingerpick',
         bassProgram: FILL_GM.acousticBass,
@@ -126,9 +132,9 @@ export const FILL_STYLE_GROUPS = [
       {
         id: 'pizzicato',
         label: 'Pizzicato',
-        description: 'Short pizzicato hits on the beat pattern with soft bass.',
+        description: 'Short staccato pizzicato hits on the beat pattern with soft cello bass.',
         usesAbcjsChords: false,
-        generator: 'block',
+        generator: 'pizzicato',
         bassProgram: FILL_GM.cello,
         chordProgram: FILL_GM.pizzicato,
       },
@@ -150,6 +156,127 @@ export const FILL_STYLE_GROUPS = [
         generator: 'brass-hits',
         bassProgram: FILL_GM.cello,
         chordProgram: FILL_GM.brass,
+      },
+    ],
+  },
+  {
+    id: 'rhythmic',
+    label: 'Rhythmic',
+    styles: [
+      {
+        id: 'jig-bass',
+        label: 'Jig bass',
+        description: 'Boom-chick pulse for 6/8, 9/8, and 12/8 jigs with bass and guitar.',
+        usesAbcjsChords: false,
+        generator: 'jig-bass',
+        bassProgram: FILL_GM.acousticBass,
+        chordProgram: FILL_GM.nylonGuitar,
+      },
+      {
+        id: 'reel-drive',
+        label: 'Reel drive',
+        description: 'Every-beat strum with bass on 1 and 3 for reels and marches.',
+        usesAbcjsChords: false,
+        generator: 'reel-drive',
+        bassProgram: FILL_GM.fingerBass,
+        chordProgram: FILL_GM.steelGuitar,
+      },
+      {
+        id: 'waltz-roll',
+        label: 'Waltz roll',
+        description: 'Bass–3rd–5th arpeggio roll across each waltz bar.',
+        usesAbcjsChords: false,
+        generator: 'waltz-roll',
+        bassProgram: FILL_GM.nylonGuitar,
+        chordProgram: FILL_GM.nylonGuitar,
+      },
+      {
+        id: 'hornpipe-lilt',
+        label: 'Hornpipe lilt',
+        description: 'Dotted long-short fiddle pattern with bass accents.',
+        usesAbcjsChords: false,
+        generator: 'hornpipe-lilt',
+        bassProgram: FILL_GM.acousticBass,
+        chordProgram: FILL_GM.fiddle,
+      },
+      {
+        id: 'polka-bounce',
+        label: 'Polka bounce',
+        description: 'Alternating bass and chord on every quarter in 2/4.',
+        usesAbcjsChords: false,
+        generator: 'polka-bounce',
+        bassProgram: FILL_GM.fingerBass,
+        chordProgram: FILL_GM.accordion,
+      },
+      {
+        id: 'slip-jig-roll',
+        label: 'Slip jig roll',
+        description: 'Three-note arpeggio groups for 9/8 slip jigs.',
+        usesAbcjsChords: false,
+        generator: 'slip-jig-roll',
+        bassProgram: FILL_GM.cello,
+        chordProgram: FILL_GM.harp,
+      },
+    ],
+  },
+  {
+    id: 'combo',
+    label: 'Ensemble',
+    styles: [
+      {
+        id: 'fiddle-bass',
+        label: 'Fiddle + bass',
+        description: 'Bass on strong beats with fiddle double-stops on offbeats.',
+        usesAbcjsChords: false,
+        generator: 'fiddle-bass',
+        bassProgram: FILL_GM.acousticBass,
+        chordProgram: FILL_GM.fiddle,
+      },
+      {
+        id: 'harp-cello',
+        label: 'Harp + cello',
+        description: 'Sustained cello root with harp rolls on each beat.',
+        usesAbcjsChords: false,
+        generator: 'harp-cello',
+        bassProgram: FILL_GM.cello,
+        chordProgram: FILL_GM.harp,
+      },
+      {
+        id: 'brass-strings',
+        label: 'Brass + strings',
+        description: 'String pad with brass stabs on beats 1 and 3.',
+        usesAbcjsChords: false,
+        generator: 'brass-strings',
+        bassProgram: FILL_GM.cello,
+        chordProgram: FILL_GM.strings,
+        accentProgram: FILL_GM.brass,
+      },
+      {
+        id: 'guitar-mandolin',
+        label: 'Guitar + mandolin',
+        description: 'Nylon bass roots with high steel mandolin-style arpeggios.',
+        usesAbcjsChords: false,
+        generator: 'guitar-mandolin',
+        bassProgram: FILL_GM.nylonGuitar,
+        chordProgram: FILL_GM.steelGuitar,
+      },
+      {
+        id: 'pipe-drone',
+        label: 'Pipe drone',
+        description: 'Sustained accordion fifth with acoustic bass root.',
+        usesAbcjsChords: false,
+        generator: 'pipe-drone',
+        bassProgram: FILL_GM.acousticBass,
+        chordProgram: FILL_GM.accordion,
+      },
+      {
+        id: 'bodhran-accent',
+        label: 'Bodhrán accent',
+        description: 'Sparse slap-bass hits on strong rhythm slots only.',
+        usesAbcjsChords: false,
+        generator: 'bodhran-accent',
+        bassProgram: FILL_GM.slapBass,
+        chordProgram: FILL_GM.slapBass,
       },
     ],
   },
@@ -186,7 +313,15 @@ export function defaultPlaybackFillSettings() {
   return {
     style: DEFAULT_FILL_STYLE,
     level: DEFAULT_FILL_LEVEL,
+    followDrumGroove: false,
   }
+}
+
+export function hasStoredDrumRhythm(tune) {
+  return !!(tune
+    && tune.playbackMetronomeDrumRhythm
+    && typeof tune.playbackMetronomeDrumRhythm === 'object'
+    && tune.playbackMetronomeDrumRhythm.drumPattern)
 }
 
 export function getPlaybackFillSettings(tune) {
@@ -197,6 +332,7 @@ export function getPlaybackFillSettings(tune) {
     level: tune.playbackFillLevel != null
       ? normalizeFillLevel(tune.playbackFillLevel)
       : defaults.level,
+    followDrumGroove: tune.playbackFillFollowDrumGroove === true,
   }
 }
 
@@ -205,6 +341,7 @@ export function applyPlaybackFillSettings(tune, settings) {
   const next = Object.assign({}, tune)
   next.playbackFillStyle = normalizeFillStyle(settings.style)
   next.playbackFillLevel = normalizeFillLevel(settings.level)
+  next.playbackFillFollowDrumGroove = settings.followDrumGroove === true
   return next
 }
 
@@ -220,13 +357,21 @@ export function fillNeedsCustomTrack(styleId) {
   return !def.usesAbcjsChords
 }
 
-export function resolveFillPlaybackOptions(tune) {
+export function resolveFillPlaybackOptions(tune, tunebook) {
   const settings = getPlaybackFillSettings(tune)
   const def = getFillStyleDefinition(settings.style)
+  let rhythmContext = null
+  if (settings.followDrumGroove && tune) {
+    const metro = getPlaybackMetronomeSettings(tune, tunebook)
+    if (metro.drumRhythm && metro.drumRhythm.drumPattern) {
+      rhythmContext = buildFillRhythmContext(metro.drumRhythm)
+    }
+  }
   return {
     settings: settings,
     styleDef: def,
     chordsOff: settings.style === FILL_STYLE_OFF || fillNeedsCustomTrack(settings.style),
     injectCustomFill: fillNeedsCustomTrack(settings.style),
+    rhythmContext: rhythmContext,
   }
 }

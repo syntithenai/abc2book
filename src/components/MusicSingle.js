@@ -76,6 +76,9 @@ import { isMobilePlatform } from '../platformUtils'
 import useMusicToolbarWidth from '../useMusicToolbarWidth'
 import { isMusicToolbarCompact, isMusicToolbarFolded } from '../musicToolbarLayout'
 import { getTune as getTuneFromRepository } from '../tuneRepository'
+import ScratchpadWorkspacePickerModal from './scratchpad/ScratchpadWorkspacePickerModal'
+import { exportTuneToScratchpadComposition } from '../exportTuneToScratchpadComposition'
+import { scratchpadItemPath } from '../scratchpadExportToast'
 
 export default function MusicSingle(props) {
     let params = useParams();
@@ -127,6 +130,8 @@ export default function MusicSingle(props) {
     const [showAutoEnrichNotationPaste, setShowAutoEnrichNotationPaste] = useState(false)
     const autoEnrichSummaryShownRef = useRef('')
     const [pdfToolbarHost, setPdfToolbarHost] = useState(null)
+    const [showScratchpadCopyPicker, setShowScratchpadCopyPicker] = useState(false)
+    const [copyToScratchpadBusy, setCopyToScratchpadBusy] = useState(false)
 
     useTuneSnapshotRouteSync(tune, function(next) {
       setTune(next)
@@ -174,6 +179,26 @@ export default function MusicSingle(props) {
       toast.info(summary, { autoClose: 12000 })
       dismissAddTuneAutoEnrichSummary(params.tuneId)
     }, [autoEnrichPending, autoEnrichState.summary, params.tuneId])
+
+    async function runCopyToScratchpad(workspaceId) {
+        if (!tune || !workspaceId) return
+        setCopyToScratchpadBusy(true)
+        try {
+            await exportTuneToScratchpadComposition({
+                tune: tune,
+                workspaceId: workspaceId,
+                tunebook: props.tunebook,
+                abcjsParser: abcjsParser,
+                onOpenItem: function(itemId) {
+                    navigate(scratchpadItemPath(itemId))
+                },
+            })
+        } catch (e) {
+            // export helper shows toast for errors
+        } finally {
+            setCopyToScratchpadBusy(false)
+        }
+    }
 
     function handleAutoEnrichNotationAbandoned() {
       if (!tune || !props.tunebook) {
@@ -724,7 +749,7 @@ export default function MusicSingle(props) {
                     <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
                     <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
                     <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
-                    <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} token={props.token} googleDocumentId={props.googleDocumentId} login={props.login} onTuneChange={function(updated) {
+                    <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} token={props.token} user={props.user} googleDocumentId={props.googleDocumentId} login={props.login} onTuneChange={function(updated) {
                       setTune(updated)
                       props.tunebook.saveTune(updated)
                       props.forceRefresh()
@@ -757,6 +782,13 @@ export default function MusicSingle(props) {
                           </Dropdown.Item>
                         )
                       })}
+                      <Dropdown.Divider />
+                      <Dropdown.Item
+                        disabled={copyToScratchpadBusy}
+                        onClick={function() { setShowScratchpadCopyPicker(true) }}
+                      >
+                        Copy To Scratchpad
+                      </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
                 )
@@ -1117,6 +1149,19 @@ export default function MusicSingle(props) {
           if (typeof props.forceRefresh === 'function') props.forceRefresh()
           setShowAutoEnrichChordPaste(false)
           dismissAddTuneAutoEnrichChordPaste(params.tuneId)
+        }}
+      />
+      <ScratchpadWorkspacePickerModal
+        show={showScratchpadCopyPicker}
+        onHide={function() {
+          if (copyToScratchpadBusy) return
+          setShowScratchpadCopyPicker(false)
+        }}
+        title="Copy tune to scratchpad"
+        description="Choose a workspace for the composition created from this tune."
+        onConfirm={function(workspaceId) {
+          setShowScratchpadCopyPicker(false)
+          runCopyToScratchpad(workspaceId)
         }}
       />
       <LockedSourcePasteModal

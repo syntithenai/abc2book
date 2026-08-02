@@ -82,6 +82,32 @@ describe('scratchpadCompositionAssembly', function() {
     expect(tune.words.join('\n')).toContain('Verse one line')
   })
 
+  test('assembleCompositionTune merges whole text item lyrics chunk', async function() {
+    const ws = createWorkspace('Assembly')
+    const textItem = await createScratchpadItem({
+      workspaceId: ws.id,
+      type: 'text',
+      title: 'Lyrics',
+      textBody: 'Verse one line\nSecond line',
+    })
+    const comp = await createScratchpadItem({ workspaceId: ws.id, type: 'composition' })
+    const composition = Object.assign({}, comp.composition, {
+      lyricsChunks: [{
+        id: 'lc1',
+        sourceKind: 'text-section',
+        sourceItemId: textItem.id,
+        wholeItem: true,
+        label: 'Lyrics',
+        order: 0,
+        enabled: true,
+        plainLyricsOnly: true,
+      }],
+    })
+    const tune = assembleCompositionTune(composition)
+    expect(tune.words.join('\n')).toContain('Verse one line')
+    expect(tune.words.join('\n')).toContain('Second line')
+  })
+
   test('applyEmbeddedChordAction plain adds lyrics chunk flag', function() {
     const composition = blankCompositionState('c1', 'Comp')
     const result = applyEmbeddedChordAction(composition, 'plain', {

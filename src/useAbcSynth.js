@@ -638,6 +638,7 @@ export default function useAbcSynth(props) {
             && props.mediaController.isMidiPlaybackRoute()) {
             const currentMidiHash = props.mediaController.midiHash ? props.mediaController.midiHash.current : null
             if (lastMidiHashRef.current !== undefined && currentMidiHash !== lastMidiHashRef.current) {
+                stopRhythmPlayback()
                 destroyAudioEngines()
                 const pendingMidiPlay = props.mediaController.pendingMidiPlayRef
                     && props.mediaController.pendingMidiPlayRef.current
@@ -1088,8 +1089,6 @@ export default function useAbcSynth(props) {
         const o = visualObj || gvisualObj.current
         const rhythm = resolvePlaybackMetronomeRhythm()
         const fallback = getBaseQpm()
-        const visualMs = o && o.millisecondsPerMeasure ? parseFloat(o.millisecondsPerMeasure()) || 0 : 0
-        const effectiveMs = getEffectiveMsPerMeasure(o)
         const msPerMeasure = getMsPerMeasureForRhythmGrid(o)
         const gridBpm = (!o || !(msPerMeasure > 0))
             ? fallback
@@ -1099,11 +1098,6 @@ export default function useAbcSynth(props) {
                 tempoFactor: 1,
                 fallbackQpm: fallback,
             })
-        // #region agent log
-        if (effectiveMsPerMeasureRef.current > 0) {
-            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',hypothesisId:'H1',location:'useAbcSynth.js:getRhythmGridMetronomeTempo',message:'grid tempo sources',data:{visualMs:visualMs,effectiveMs:effectiveMs,gridMsUsed:msPerMeasure,gridBpm:gridBpm,fillStyle:props.tune&&props.tune.playbackFillStyle},timestamp:Date.now()})}).catch(function(){});
-        }
-        // #endregion
         if (!o || !(msPerMeasure > 0)) {
             return fallback
         }
@@ -3399,9 +3393,6 @@ export default function useAbcSynth(props) {
                         if (!(countInSlots > 0)) countInSlots = metronomeBeats
                         metronomeBeats = countInBeatCount > 0 ? countInBeatCount : countInSlots
                         const duringPlayback = metro.duringPlayback === true
-                        // #region agent log
-                        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',hypothesisId:'H1,H3',location:'useAbcSynth.js:startWithMetronome',message:'count-in tempo sources',data:{fillStyle:props.tune&&props.tune.playbackFillStyle,scoreMsPerMeasure:scoreMsPerMeasure,effectiveMs:effectiveMsPerMeasureRef.current,primedMs:primedMsPerMeasureRef.current,gridTempo:getRhythmGridMetronomeTempo(o),playbackTempo:getPlaybackMetronomeTempo(o),visualMs:o.millisecondsPerMeasure?parseFloat(o.millisecondsPerMeasure()):null},timestamp:Date.now()})}).catch(function(){});
-                        // #endregion
                         const preferredCue = (props.metronomeCountInCueMidi != null
                           && Number.isFinite(props.metronomeCountInCueMidi))
                           ? Math.round(props.metronomeCountInCueMidi)
@@ -3699,7 +3690,7 @@ export default function useAbcSynth(props) {
             setMidiBuffer(null)
             var midiBuffer = new abcjs.synth.CreateSynth()
             var count = 0
-            var fillPlayback = resolveFillPlaybackOptions(tune)
+            var fillPlayback = resolveFillPlaybackOptions(tune, props.tunebook)
             var soundFontPlan = getPlaybackSoundFontPlan({ tune: tune })
             var a = soundFontPlan.url
             //var warp =  props.warp > 0 ? props.warp : 1
@@ -3766,9 +3757,6 @@ export default function useAbcSynth(props) {
                 if (fillPlayback.injectCustomFill && initOptions.millisecondsPerMeasure > 0) {
                   effectiveMsPerMeasureRef.current = initOptions.millisecondsPerMeasure
                 }
-                // #region agent log
-                fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',hypothesisId:'H1,H2',location:'useAbcSynth.js:primeTune',message:'fill prime ms sources',data:{fillStyle:fillPlayback.settings&&fillPlayback.settings.style,injectCustomFill:!!fillPlayback.injectCustomFill,visualMs:synthObj.millisecondsPerMeasure?parseFloat(synthObj.millisecondsPerMeasure()):null,primedMs:primedMsPerMeasureRef.current,effectiveMs:effectiveMsPerMeasureRef.current,meterKey:meterFrac?meterFrac.num+'/'+meterFrac.den:null,bufferDurHint:flattened&&flattened.duration},timestamp:Date.now()})}).catch(function(){});
-                // #endregion
               } catch (remapErr) {
                 console.warn('Local soundfont program remap failed; using visualObj', remapErr)
                 if (!fillPlayback.injectCustomFill) {

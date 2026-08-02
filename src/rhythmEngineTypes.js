@@ -211,6 +211,20 @@ export function rhythmsEqual(left, right) {
   return true
 }
 
+export function rhythmsDifferOnlyInDrumPattern(left, right) {
+  if (!left || !right) return false
+  const leftNorm = normalizeRhythmConfig(left)
+  const rightNorm = normalizeRhythmConfig(right)
+  if (leftNorm.engineMode !== ENGINE_MODE_DRUMS || rightNorm.engineMode !== ENGINE_MODE_DRUMS) {
+    return false
+  }
+  return leftNorm.beatsPerBar === rightNorm.beatsPerBar
+    && JSON.stringify(leftNorm.accents) === JSON.stringify(rightNorm.accents)
+    && JSON.stringify(leftNorm.pulsesPerBeat) === JSON.stringify(rightNorm.pulsesPerBeat)
+    && (leftNorm.presetId || '') === (rightNorm.presetId || '')
+    && !drumPatternsEqual(leftNorm.drumPattern, rightNorm.drumPattern)
+}
+
 export function rhythmConfigKey(rhythm) {
   const normalized = normalizeRhythmConfig(rhythm)
   const baseKey = normalized.beatsPerBar + '|'

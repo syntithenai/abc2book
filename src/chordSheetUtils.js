@@ -121,6 +121,7 @@ export function isSectionHeader(line) {
   if (!raw) return false;
   if (isBracketChordOnly(raw)) return false;
   if (/^\[.+\]$/.test(raw)) return true;
+  if (/^#+\s+/.test(raw)) return true;
   return matchesSectionHeaderText(raw);
 }
 

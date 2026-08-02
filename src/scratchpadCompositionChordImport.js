@@ -12,6 +12,8 @@ import {
   classifyLyricChordLines,
   splitChordChartIntoBlocks,
   extractChordSequence,
+  normalizeStanzaNameKey,
+  isSectionHeader,
 } from './chordSheetUtils'
 import { setPlainLyricLines } from './wLinesUtils'
 import utilsFunctions from './utilsFunctions'
@@ -74,20 +76,145 @@ export function detectEmbeddedChordsInText(text) {
   return sectionHasImportableChordContent(text)
 }
 
+export function lyricSectionHasMarkerHeader(section) {
+  const header = String(section && section.header || '').trim()
+  if (!header) return false
+  return /^#+\s+/.test(header) || /^\[.+\]$/.test(header) || isSectionHeader(header)
+}
+
+export function analyzeTextForCompositionSelect(text) {
+  const raw = String(text || '')
+  const lines = raw.split(/\r?\n/)
+  const classified = classifyLyricChordLines(lines)
+  let hasChordLines = false
+  let hasLyricLines = false
+  let hasEmbeddedChords = false
+
+  classified.forEach(function(item) {
+    if (item.type === 'chord') hasChordLines = true
+    if (item.type === 'lyric' && String(item.text || '').trim()) hasLyricLines = true
+  })
+  for (let i = 0; i < lines.length; i += 1) {
+    if (lineHasChordProInlineChords(lines[i])) hasEmbeddedChords = true
+  }
+
+  const hasChords = hasChordLines || hasEmbeddedChords || sectionHasImportableChordContent(raw)
+  const contentLines = classified.filter(function(item) {
+    return item.type !== 'blank' && item.type !== 'header'
+  })
+  const isChordOnly = contentLines.length > 0 && contentLines.every(function(item) {
+    return item.type === 'chord'
+  })
+  const sections = listLyricSections(raw)
+  const markedSections = sections.filter(function(section) {
+    return lyricSectionHasMarkerHeader(section)
+  })
+
+  return {
+    hasLyrics: hasLyricLines || (!hasChords && contentLines.length > 0),
+    hasChords: hasChords,
+    isChordOnly: isChordOnly,
+    sections: sections,
+    markedSections: markedSections,
+  }
+}
+
+export function plainLyricsTextForCompositionImport(text) {
+  const raw = String(text || '')
+  const analysis = analyzeTextForCompositionSelect(raw)
+  if (!analysis.hasChords) return raw
+  return plainLyricLinesFromText(raw).join('\n').trim()
+}
+
+export function findLyricSectionIndexByMarker(sections, marker) {
+  const list = Array.isArray(sections) ? sections : []
+  const rawMarker = String(marker || '').trim()
+  if (!rawMarker || !list.length) return -1
+  const want = normalizeStanzaNameKey(rawMarker)
+  for (let i = 0; i < list.length; i += 1) {
+    const section = list[i]
+    if (!section || !section.header) continue
+    const header = String(section.header).trim()
+    if (header === rawMarker) return i
+    if (want && normalizeStanzaNameKey(header) === want) return i
+  }
+  return -1
+}
+
+function sectionLinesToText(section, item) {
+  if (!section) return ''
+  const lines = []
+  if (section.header) lines.push(section.header)
+  ;(section.lines || []).forEach(function(line) { lines.push(String(line || '')) })
+  const bodyText = lines.join('\n')
+  const chordPro = item && item.text
+    ? String(item.text.chordProSource || '').trim()
+    : ''
+  if (chordPro && !sectionHasImportableChordContent(bodyText) && sectionHasImportableChordContent(chordPro)) {
+    return chordPro
+  }
+  return bodyText
+}
+
+export function resolveTextSectionChunk(item, chunk) {
+  if (!item || item.type !== 'text' || !item.text || !chunk) {
+    return { resolved: false, text: '', sectionIndex: -1 }
+  }
+  if (chunk.wholeItem) {
+    return {
+      resolved: true,
+      text: sectionTextForChunk(item, chunk),
+      sectionIndex: null,
+      sectionMarker: null,
+    }
+  }
+  const sections = listLyricSections(item.text.body || '')
+  const marker = String(chunk.sectionMarker || '').trim()
+  if (marker) {
+    const idx = findLyricSectionIndexByMarker(sections, marker)
+    if (idx < 0) {
+      return {
+        resolved: false,
+        text: '',
+        sectionIndex: -1,
+        sectionMarker: marker,
+      }
+    }
+    const section = sections[idx]
+    return {
+      resolved: true,
+      text: sectionLinesToText(section, item),
+      sectionIndex: idx,
+      sectionMarker: section.header || marker,
+    }
+  }
+  const idx = chunk.sectionIndex != null ? chunk.sectionIndex : 0
+  if (idx < 0 || idx >= sections.length) {
+    return { resolved: false, text: '', sectionIndex: idx }
+  }
+  const section = sections[idx]
+  return {
+    resolved: true,
+    text: sectionLinesToText(section, item),
+    sectionIndex: idx,
+    sectionMarker: section.header || '',
+  }
+}
+
+export function isLyricsChunkSourceResolved(item, chunk) {
+  if (!chunk) return false
+  if (chunk.sourceKind !== 'text-section') return true
+  if (chunk.wholeItem) return true
+  if (!item || item.type !== 'text') return false
+  return resolveTextSectionChunk(item, chunk).resolved
+}
+
 export function sectionTextFromItem(item, sectionIndex) {
   if (!item || item.type !== 'text' || !item.text) return ''
   const sections = listLyricSections(item.text.body || '')
   const section = sections[sectionIndex != null ? sectionIndex : 0]
   if (!section) return String(item.text.body || '')
-  const lines = []
-  if (section.header) lines.push(section.header)
-  section.lines.forEach(function(line) { lines.push(String(line || '')) })
-  const bodyText = lines.join('\n')
-  const chordPro = String(item.text.chordProSource || '').trim()
-  if (chordPro && !sectionHasImportableChordContent(bodyText) && sectionHasImportableChordContent(chordPro)) {
-    return chordPro
-  }
-  return bodyText
+  return sectionLinesToText(section, item)
 }
 
 export function imageBlockText(item, blockId) {
@@ -103,7 +230,16 @@ export function sectionTextForChunk(item, chunk) {
     return imageBlockText(item, chunk.sourceBlockId)
   }
   if (item.type === 'text') {
-    return sectionTextFromItem(item, chunk.sectionIndex)
+    if (chunk.wholeItem) {
+      const body = String(item.text.body || '')
+      const chordPro = String(item.text.chordProSource || '').trim()
+      if (chordPro && !sectionHasImportableChordContent(body) && sectionHasImportableChordContent(chordPro)) {
+        return chordPro
+      }
+      return body
+    }
+    const resolved = resolveTextSectionChunk(item, chunk)
+    return resolved.resolved ? resolved.text : ''
   }
   if (item.type === 'image' && chunk.sourceBlockId) {
     return imageBlockText(item, chunk.sourceBlockId)
@@ -205,6 +341,7 @@ export function createChordSheetNotationChunk(text, options) {
     sourceItemId: opts.sourceItemId || '',
     sourceBlockId: opts.sourceBlockId || '',
     sectionIndex: opts.sectionIndex != null ? opts.sectionIndex : undefined,
+    wholeItem: opts.wholeItem || false,
     chordMode: chordMode,
     label: label,
     order: opts.order != null ? opts.order : 0,

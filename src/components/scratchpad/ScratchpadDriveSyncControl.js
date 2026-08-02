@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { Alert, Button, Spinner } from 'react-bootstrap'
-import { toast } from 'react-toastify'
+import { Button, ButtonGroup, Spinner } from 'react-bootstrap'
+import { icons } from '../../Icons'
 import { scratchpadPendingSyncSummary, subscribeScratchpad } from '../../scratchpadStore'
 import { tokenHasDriveAccess, ensureDriveFileScope } from '../../googleDrivePickerClient'
 import {
@@ -12,19 +12,16 @@ export default function ScratchpadDriveSyncControl(props) {
   const scratchpadSync = props.scratchpadSync || {}
   const compact = !!props.compact
   const [revision, setRevision] = useState(0)
-  const [dismissed, setDismissed] = useState(false)
 
   useEffect(function() {
     return subscribeScratchpad(function() {
       setRevision(function(n) { return n + 1 })
-      setDismissed(false)
     })
   }, [])
 
   useEffect(function() {
     return subscribeScratchpadSync(function() {
       setRevision(function(n) { return n + 1 })
-      setDismissed(false)
     })
   }, [])
 
@@ -33,7 +30,11 @@ export default function ScratchpadDriveSyncControl(props) {
   const syncing = syncState.status === 'syncing'
   const token = props.token
   const hasDrive = token && tokenHasDriveAccess(token)
-  const showStatus = !dismissed && syncState.message && syncState.status !== 'idle'
+  const showResultStatus = !summary.pending
+    && !syncing
+    && syncState.message
+    && (syncState.status === 'success' || syncState.status === 'error')
+  const statusVariant = syncState.status === 'error' ? 'outline-danger' : 'outline-success'
   const pendingLabel = summary.pending
     ? (summary.pendingItems + summary.tombstones > 0
       ? String(summary.pendingItems + summary.tombstones) + ' pending'
@@ -45,7 +46,6 @@ export default function ScratchpadDriveSyncControl(props) {
       if (props.login) props.login()
       return
     }
-    setDismissed(false)
     let activeToken = token
     if (!tokenHasDriveAccess(token) && props.requestGoogleScopes) {
       const updated = await ensureDriveFileScope(props.requestGoogleScopes, token)
@@ -53,44 +53,59 @@ export default function ScratchpadDriveSyncControl(props) {
       activeToken = updated
     }
     if (scratchpadSync.syncNow) {
-      const result = await scratchpadSync.syncNow()
-      if (compact && result) {
-        if (result.ok && !result.skipped) {
-          toast.success(getScratchpadSyncState().message || 'Scratchpad synced with Google Drive.')
-        } else if (!result.ok) {
-          toast.error(result.error || getScratchpadSyncState().message || 'Scratchpad sync failed')
-        }
-      }
+      await scratchpadSync.syncNow()
     }
   }
 
+  function renderMainLabel() {
+    if (syncing) {
+      return (
+        <span>
+          <Spinner animation="border" size="sm" className="me-1" />
+          Syncing
+        </span>
+      )
+    }
+    if (showResultStatus) {
+      return syncState.message
+    }
+    return 'Sync Drive'
+  }
+
+  const buttonVariant = showResultStatus ? statusVariant : 'outline-secondary'
+  const reloadIcon = icons.repeat || icons.arrowgoback || '↻'
+
   return (
-    <div className={compact ? 'scratchpad-drive-sync-control scratchpad-drive-sync-control--compact' : 'scratchpad-drive-sync-control'}>
+    <ButtonGroup
+      size="sm"
+      className={compact
+        ? 'scratchpad-drive-sync-control scratchpad-drive-sync-control--compact'
+        : 'scratchpad-drive-sync-control'}
+    >
+      {showResultStatus ? (
+        <Button
+          variant={buttonVariant}
+          className="scratchpad-drive-sync-reload-btn"
+          title="Sync again"
+          onClick={handleSync}
+        >
+          {reloadIcon}
+        </Button>
+      ) : null}
       <Button
-        size="sm"
-        variant="outline-secondary"
-        className="scratchpad-drive-sync-btn"
+        variant={buttonVariant}
+        className={'scratchpad-drive-sync-btn' + (showResultStatus ? ' scratchpad-drive-sync-status-btn' : '')}
         disabled={syncing}
-        title={hasDrive ? 'Sync scratchpad with Google Drive' : 'Sign in with Google Drive access to sync'}
-        onClick={handleSync}
+        title={showResultStatus
+          ? syncState.message
+          : (hasDrive ? 'Sync scratchpad with Google Drive' : 'Sign in with Google Drive access to sync')}
+        onClick={showResultStatus ? undefined : handleSync}
       >
-        {syncing ? (
-          <span><Spinner animation="border" size="sm" className="me-1" /> Syncing</span>
-        ) : 'Sync Drive'}
-        {summary.pending && !syncing ? (
+        {renderMainLabel()}
+        {summary.pending && !syncing && !showResultStatus ? (
           <span className="scratchpad-drive-sync-pending badge bg-warning text-dark ms-1">{pendingLabel}</span>
         ) : null}
       </Button>
-      {showStatus && !compact ? (
-        <Alert
-          variant={syncState.status === 'error' ? 'danger' : syncState.status === 'success' ? 'success' : 'info'}
-          className="scratchpad-drive-sync-alert py-2 mt-2"
-          dismissible
-          onClose={function() { setDismissed(true) }}
-        >
-          {syncState.message}
-        </Alert>
-      ) : null}
-    </div>
+    </ButtonGroup>
   )
 }

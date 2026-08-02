@@ -87,6 +87,13 @@ export function defaultVoiceMeta(displayName) {
   });
 }
 
+/** Coerce stored voice meta (string or legacy object) to an ABC V: suffix. */
+export function voiceMetaToAbcString(meta) {
+  if (meta == null || meta === '') return '';
+  if (typeof meta === 'string') return meta.trim();
+  return formatVoiceMeta(parseVoiceMeta(meta));
+}
+
 export function voiceLines(notes) {
   if (Array.isArray(notes)) return notes.map(function(line) { return String(line == null ? '' : line); });
   if (notes == null || notes === '') return [''];

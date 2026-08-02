@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, useCallback, useMemo } from 'react'
 import { Modal, Form, Button } from 'react-bootstrap'
 import WaveformPlaylist from 'waveform-playlist'
 import ensureWaveformPlayoutDisconnectGuard from '../../waveformPlaylistPlayoutPatch'
-import ensureWaveformPlaylistTrackHeightPatch from '../../waveformPlaylistTrackHeightPatch'
+import ensureWaveformPlaylistTrackHeightPatch, { reloadWaveformPlaylistTracks } from '../../waveformPlaylistTrackHeightPatch'
 import ScratchpadEditorChrome from './ScratchpadEditorChrome'
 import ScratchpadAudioMenuBar from './ScratchpadAudioMenuBar'
 import ScratchpadAudioTransportDock from './ScratchpadAudioTransportDock'
@@ -892,7 +892,7 @@ export default function ScratchpadAudioEditor(props) {
     loadProjectTracks(storeItem, audioProjectRef.current).then(async function(specs) {
       if (cancelled || !playlistRef.current) return
       try {
-        await playlistRef.current.load(specs)
+        await reloadWaveformPlaylistTracks(playlistRef.current, specs)
         setHasContent(specs.length > 0)
         if (specs.length) {
           try {
@@ -1454,6 +1454,14 @@ export default function ScratchpadAudioEditor(props) {
         onRedo={hasContent ? handleRedo : undefined}
         canUndo={canUndo}
         canRedo={canRedo}
+        beforeTitle={
+          <span className="scratchpad-audio-under-construction" title="This editor is still being built">
+            <span className="scratchpad-audio-under-construction-icon" aria-hidden="true">
+              {icons.construction || '⚒'}
+            </span>
+            Under Construction
+          </span>
+        }
       >
         <ScratchpadAudioMenuBar
           icons={icons}

@@ -25,6 +25,10 @@ export function scratchpadMixdownBlobKey(itemId) {
   return 'scratchpad:' + String(itemId || '') + ':mixdown'
 }
 
+export function scratchpadCompositionMediaBlobKey(itemId, attachmentId) {
+  return 'scratchpad:' + String(itemId || '') + ':media:' + String(attachmentId || '')
+}
+
 export function scratchpadAudioProjectJsonKey(itemId) {
   return 'scratchpad:' + String(itemId || '') + ':audio-project-json'
 }

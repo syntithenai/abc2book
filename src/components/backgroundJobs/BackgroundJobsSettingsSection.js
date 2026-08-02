@@ -38,6 +38,7 @@ import ImportEnrichmentTabPanel from './ImportEnrichmentTabPanel'
 import StemCreateTabPanel from './StemCreateTabPanel'
 import AudioGenerationTabPanel from './AudioGenerationTabPanel'
 import ActiveSearchesTabPanel from './ActiveSearchesTabPanel'
+import { isMusicGenerationAdmin } from '../../musicGenerationAdmin'
 
 const TAB_RESEARCH = 'research'
 const TAB_COMPOSER_DISCOVERY = 'composer-discovery'
@@ -116,15 +117,26 @@ function composerDiscoveryStatusLabel(job) {
   return job.status
 }
 
-export default function BackgroundJobsSettingsSection({ tunes, mediaController, initialJobsTab }) {
+export default function BackgroundJobsSettingsSection({ tunes, mediaController, initialJobsTab, user }) {
+  const showAudioGeneration = isMusicGenerationAdmin(user)
   const [activeTab, setActiveTab] = useState(function() {
-    if (initialJobsTab) return initialJobsTab
+    if (initialJobsTab && (initialJobsTab !== TAB_AUDIO_GENERATION || showAudioGeneration)) {
+      return initialJobsTab
+    }
     return getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH
   })
 
   useEffect(function() {
-    if (initialJobsTab) setActiveTab(initialJobsTab)
-  }, [initialJobsTab])
+    if (initialJobsTab && (initialJobsTab !== TAB_AUDIO_GENERATION || showAudioGeneration)) {
+      setActiveTab(initialJobsTab)
+    }
+  }, [initialJobsTab, showAudioGeneration])
+
+  useEffect(function() {
+    if (!showAudioGeneration && activeTab === TAB_AUDIO_GENERATION) {
+      setActiveTab(getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH)
+    }
+  }, [showAudioGeneration, activeTab, mediaController])
   const researchQueue = useBulkBackgroundResearchQueue()
   const composerDiscoveryQueue = useBulkComposerDiscoveryQueue()
   const mediaCacheQueueHook = useMediaCacheQueue()
@@ -210,11 +222,13 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
               {renderTabTitle('Stems', tabCounts.stemCreate)}
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_AUDIO_GENERATION}>
-              {renderTabTitle('Audio generation', tabCounts.audioGeneration)}
-            </Nav.Link>
-          </Nav.Item>
+          {showAudioGeneration ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_AUDIO_GENERATION}>
+                {renderTabTitle('Audio generation', tabCounts.audioGeneration)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
           <Nav.Item>
             <Nav.Link eventKey={TAB_PLAYBACK_SCANS}>
               {renderTabTitle('Playback scans', tabCounts.playbackScans)}
@@ -471,12 +485,14 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
             />
           </Tab.Pane>
 
-          <Tab.Pane eventKey={TAB_AUDIO_GENERATION}>
-            <p className="text-muted settings-background-jobs-tab-note">
-              Practice tracks and linked-media cover variants run in the background after you start them from a tune.
-            </p>
-            <AudioGenerationTabPanel />
-          </Tab.Pane>
+          {showAudioGeneration ? (
+            <Tab.Pane eventKey={TAB_AUDIO_GENERATION}>
+              <p className="text-muted settings-background-jobs-tab-note">
+                Practice tracks and linked-media cover variants run in the background after you start them from a tune.
+              </p>
+              <AudioGenerationTabPanel />
+            </Tab.Pane>
+          ) : null}
 
           <Tab.Pane eventKey={TAB_PLAYBACK_SCANS}>
             <p className="text-muted settings-background-jobs-tab-note">

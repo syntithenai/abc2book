@@ -1,5 +1,10 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
 import { slotBeatIndex } from '../metronomeRhythmPresets'
+import {
+  EDITOR_SUBDIVISION_BEATS,
+  beatGroupIsOn,
+  setDrumBeatSteps,
+} from '../rhythmGranularity'
 import {
   cycleDrumStepSample,
   getDrumStepSample,
@@ -14,6 +19,8 @@ export default function DrumPatternGrid(props) {
   const rhythm = props.rhythm
   const drumPattern = props.drumPattern
   const disabled = !!props.disabled
+  const subdivision = props.subdivision
+  const isBeatView = subdivision === EDITOR_SUBDIVISION_BEATS
   const totalSlots = props.totalSlots
   const activeSlot = props.activeSlot
   const selectedTrackIndex = props.selectedTrackIndex != null ? props.selectedTrackIndex : 0
@@ -30,16 +37,31 @@ export default function DrumPatternGrid(props) {
     props.onPatternChange(setDrumStep(drumPattern, trackId, stepIndex, value))
   }, [drumPattern, props.onPatternChange])
 
+  const applyBeatStep = useCallback(function(trackId, beatIndex, value) {
+    if (!drumPattern || !props.onPatternChange) return
+    props.onPatternChange(setDrumBeatSteps(drumPattern, trackId, beatIndex, rhythm, value))
+  }, [drumPattern, props.onPatternChange, rhythm])
+
   const cycleStep = useCallback(function(trackId, stepIndex) {
     if (!drumPattern || !props.onPatternChange) return
     props.onPatternChange(cycleDrumStepSample(drumPattern, trackId, stepIndex))
   }, [drumPattern, props.onPatternChange])
 
-  function beginPaint(trackId, stepIndex, pointerType) {
+  function beginPaint(trackId, columnIndex, pointerType) {
     if (disabled || !drumPattern) return
     const track = drumPattern.tracks.find(function(t) { return t.id === trackId })
-    const steps = track && track.steps ? track.steps : []
-    const index = ((stepIndex % steps.length) + steps.length) % steps.length
+    if (!track) return
+
+    if (isBeatView) {
+      const paintOn = !beatGroupIsOn(track, rhythm, columnIndex)
+      paintRef.current = { trackId: trackId, paintOn: paintOn, beatView: true }
+      applyBeatStep(trackId, columnIndex, paintOn)
+      if (props.onSelectionChange) props.onSelectionChange(trackId, columnIndex)
+      return
+    }
+
+    const steps = track.steps || []
+    const index = ((columnIndex % steps.length) + steps.length) % steps.length
     const paintOn = !steps[index]
     paintRef.current = { trackId: trackId, paintOn: paintOn, pointerType: pointerType || 'mouse' }
     if (pointerType === 'cycle' || (trackId === 'hat' && pointerType === 'alt')) {
@@ -51,10 +73,15 @@ export default function DrumPatternGrid(props) {
     if (props.onSelectionChange) props.onSelectionChange(trackId, index)
   }
 
-  function continuePaint(trackId, stepIndex) {
+  function continuePaint(trackId, columnIndex) {
     if (disabled || !paintRef.current || paintRef.current.trackId !== trackId) return
-    applyStep(trackId, stepIndex, paintRef.current.paintOn)
-    if (props.onSelectionChange) props.onSelectionChange(trackId, stepIndex)
+    if (paintRef.current.beatView) {
+      applyBeatStep(trackId, columnIndex, paintRef.current.paintOn)
+      if (props.onSelectionChange) props.onSelectionChange(trackId, columnIndex)
+      return
+    }
+    applyStep(trackId, columnIndex, paintRef.current.paintOn)
+    if (props.onSelectionChange) props.onSelectionChange(trackId, columnIndex)
   }
 
   function endPaint() {
@@ -78,18 +105,25 @@ export default function DrumPatternGrid(props) {
     }).catch(function() { /* ignore */ })
   }
 
-  function cellClass(track, stepIndex, step) {
-    const isPlayhead = stepIndex === activeSlot
+  function cellClass(track, columnIndex, step) {
+    const pulseIndex = isBeatView ? -1 : columnIndex
+    const isPlayhead = isBeatView
+      ? (activeSlot >= 0 && slotBeatIndex(rhythm, activeSlot) === columnIndex)
+      : (columnIndex === activeSlot)
     const isSelected = props.tracks && props.tracks[selectedTrackIndex]
       && props.tracks[selectedTrackIndex].id === track.id
-      && stepIndex === selectedStep
-    const beatIndex = slotBeatIndex(rhythm, stepIndex)
-    const isBeatStart = stepIndex === 0 || slotBeatIndex(rhythm, stepIndex - 1) !== beatIndex
-    const sample = getDrumStepSample(track, stepIndex)
+      && columnIndex === selectedStep
+    const beatIndex = isBeatView ? columnIndex : slotBeatIndex(rhythm, columnIndex)
+    const isBeatStart = isBeatView
+      || columnIndex === 0
+      || slotBeatIndex(rhythm, columnIndex - 1) !== beatIndex
+    const sample = isBeatView ? null : getDrumStepSample(track, pulseIndex)
     const isOpenHat = step && track.id === 'hat' && sample === HAT_OPEN
     const isFlash = flashSlot
       && flashSlot.trackId === track.id
-      && flashSlot.slotIndex === stepIndex
+      && (isBeatView
+        ? slotBeatIndex(rhythm, flashSlot.slotIndex) === columnIndex
+        : flashSlot.slotIndex === columnIndex)
     return [
       'drum-pattern-editor__grid-cell',
       step ? ' is-on' : '',
@@ -114,15 +148,20 @@ export default function DrumPatternGrid(props) {
           style={{ gridTemplateColumns: gridColumnTemplate }}
         >
           <div className="drum-pattern-editor__grid-label-cell" role="columnheader" />
-          {Array.from({ length: totalSlots }).map(function(_, slotIndex) {
-            const beatIndex = slotBeatIndex(rhythm, slotIndex)
-            const isBeatStart = slotIndex === 0 || slotBeatIndex(rhythm, slotIndex - 1) !== beatIndex
+          {Array.from({ length: totalSlots }).map(function(_, columnIndex) {
+            const beatIndex = isBeatView ? columnIndex : slotBeatIndex(rhythm, columnIndex)
+            const isBeatStart = isBeatView
+              || columnIndex === 0
+              || slotBeatIndex(rhythm, columnIndex - 1) !== beatIndex
+            const isPlayhead = isBeatView
+              ? (activeSlot >= 0 && slotBeatIndex(rhythm, activeSlot) === columnIndex)
+              : (columnIndex === activeSlot)
             return (
               <div
-                key={'hdr-' + slotIndex}
+                key={'hdr-' + columnIndex}
                 className={'drum-pattern-editor__grid-slot-header'
                   + (isBeatStart ? ' is-beat-start' : '')
-                  + (slotIndex === activeSlot ? ' is-active' : '')}
+                  + (isPlayhead ? ' is-active' : '')}
                 role="columnheader"
               >
                 {isBeatStart ? (beatIndex + 1) : ''}
@@ -130,7 +169,7 @@ export default function DrumPatternGrid(props) {
             )
           })}
         </div>
-        {tracks.map(function(track, trackIndex) {
+        {tracks.map(function(track) {
           return (
             <div key={track.id}>
               <div
@@ -151,22 +190,25 @@ export default function DrumPatternGrid(props) {
                 >
                   {track.label}
                 </button>
-                {(track.steps || []).map(function(step, stepIndex) {
+                {Array.from({ length: totalSlots }).map(function(_, columnIndex) {
+                  const step = isBeatView
+                    ? beatGroupIsOn(track, rhythm, columnIndex)
+                    : (track.steps || [])[columnIndex]
                   return (
                     <button
-                      key={track.id + '-' + stepIndex}
+                      key={track.id + '-' + columnIndex}
                       type="button"
-                      className={cellClass(track, stepIndex, step)}
+                      className={cellClass(track, columnIndex, step)}
                       disabled={disabled}
-                      aria-label={track.label + ' step ' + (stepIndex + 1)}
+                      aria-label={track.label + ' ' + (isBeatView ? 'beat' : 'step') + ' ' + (columnIndex + 1)}
                       onMouseDown={function(e) {
                         e.preventDefault()
-                        beginPaint(track.id, stepIndex, e.altKey ? 'alt' : 'mouse')
+                        beginPaint(track.id, columnIndex, e.altKey ? 'alt' : 'mouse')
                       }}
-                      onMouseEnter={function() { continuePaint(track.id, stepIndex) }}
+                      onMouseEnter={function() { continuePaint(track.id, columnIndex) }}
                       onTouchStart={function(e) {
                         e.preventDefault()
-                        beginPaint(track.id, stepIndex, 'touch')
+                        beginPaint(track.id, columnIndex, 'touch')
                       }}
                       onTouchMove={function(e) {
                         const touch = e.touches[0]
@@ -177,17 +219,17 @@ export default function DrumPatternGrid(props) {
                         }
                       }}
                       data-track-id={track.id}
-                      data-step-index={stepIndex}
+                      data-step-index={columnIndex}
                       onContextMenu={function(e) {
-                        if (track.id !== 'hat') return
+                        if (isBeatView || track.id !== 'hat') return
                         e.preventDefault()
-                        beginPaint(track.id, stepIndex, 'cycle')
+                        beginPaint(track.id, columnIndex, 'cycle')
                       }}
                     />
                   )
                 })}
               </div>
-              {showVelocityLanes ? (
+              {showVelocityLanes && !isBeatView ? (
                 <VelocityLane
                   track={track}
                   totalSlots={totalSlots}

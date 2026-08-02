@@ -92,6 +92,21 @@ describe('SuggestionPreviewDialog helpers', function() {
     expect(abc).toContain('K:D')
     expect(abc).toContain('DEFG|')
   })
+
+  test('buildAbcFromTune stringifies object voice meta', function() {
+    const abc = buildAbcFromTune({
+      meter: '4/4',
+      noteLength: '1/8',
+      key: 'D',
+      voices: {
+        '1': { meta: { name: 'Melody', clef: 'treble' }, notes: ['DEFG|'] },
+        '2': { meta: 'Bass clef=bass', notes: ['D,F,A,|'] },
+      },
+    })
+    expect(abc).not.toContain('[object Object]')
+    expect(abc).toContain('V:1 Melody clef=treble')
+    expect(abc).toContain('V:2 Bass clef=bass')
+  })
 })
 
 describe('SuggestionPreviewDialog lyrics editing', function() {

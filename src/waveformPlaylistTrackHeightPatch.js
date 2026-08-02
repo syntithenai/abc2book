@@ -6,6 +6,17 @@ import Playlist from 'waveform-playlist/lib/Playlist'
 let patched = false
 
 /**
+ * Replace all playlist lanes. Upstream load() appends tracks; DAW reloads need a full replace.
+ */
+export async function reloadWaveformPlaylistTracks(playlist, trackList) {
+  if (!playlist) return undefined
+  if ((playlist.tracks || []).length) {
+    await playlist.clear()
+  }
+  return playlist.load(trackList || [])
+}
+
+/**
  * Patches waveform-playlist to honor per-track laneHeight and lane metadata from load specs.
  */
 export default function ensureWaveformPlaylistTrackHeightPatch() {

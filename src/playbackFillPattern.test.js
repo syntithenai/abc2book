@@ -8,7 +8,10 @@ import {
   buildPlaybackSequence,
   extractChordsPerBarFromTuneNotes,
   inferBarDurationSecFromFlattened,
+  FILL_CHANNELS,
 } from './playbackFillPattern'
+import { applyRhythmPreset } from './drumPatternPresets'
+import { buildFillRhythmContext } from './fillDrumRhythm'
 
 describe('playbackFillPattern', function() {
   test('interpretChordLabel builds boom boom2 and chick for C major', function() {
@@ -38,7 +41,11 @@ describe('playbackFillPattern', function() {
     expect(bassNotes.length).toBeGreaterThan(0)
     expect(chordNotes.length).toBeGreaterThan(0)
     expect(tracks[0][0].instrument).toBe(33)
+    expect(tracks[0][0].channel).toBe(FILL_CHANNELS.bass)
     expect(tracks[1][0].instrument).toBe(24)
+    expect(tracks[1][0].channel).toBe(FILL_CHANNELS.chord)
+    bassNotes.forEach(function(n) { expect(n.channel).toBe(FILL_CHANNELS.bass) })
+    chordNotes.forEach(function(n) { expect(n.channel).toBe(FILL_CHANNELS.chord) })
   })
 
   test('generatePlaybackFillTracks block style hits primary beats in 4/4', function() {
@@ -57,7 +64,7 @@ describe('playbackFillPattern', function() {
     expect(starts.indexOf(1)).toBeGreaterThan(-1)
   })
 
-  test('generatePlaybackFillTracks orchestra includes accent track', function() {
+  test('generatePlaybackFillTracks orchestra includes accent track on distinct channels', function() {
     const timeline = [{
       startSec: 0,
       barDurationSec: 2,
@@ -66,7 +73,121 @@ describe('playbackFillPattern', function() {
     }]
     const tracks = generatePlaybackFillTracks(timeline, 'orchestra', 100)
     expect(tracks.length).toBe(3)
+    expect(tracks[0][0].channel).toBe(FILL_CHANNELS.bass)
+    expect(tracks[1][0].channel).toBe(FILL_CHANNELS.chord)
     expect(tracks[2][0].instrument).toBe(47)
+    expect(tracks[2][0].channel).toBe(FILL_CHANNELS.accent)
+    const channels = tracks.map(function(t) { return t[0].channel })
+    expect(new Set(channels).size).toBe(3)
+  })
+
+  test('generatePlaybackFillTracks fingerpick uses double-time even arpeggio on guitar channel', function() {
+    const timeline = [{
+      startSec: 0,
+      barDurationSec: 2,
+      meterKey: '4/4',
+      chord: interpretChordLabel('C', 0),
+    }]
+    const tracks = generatePlaybackFillTracks(timeline, 'fingerpick', 100)
+    expect(tracks.length).toBe(1)
+    const notes = tracks[0].filter(function(ev) { return ev.cmd === 'note' })
+    expect(notes.length).toBe(8)
+    notes.forEach(function(n) {
+      expect(n.instrument).toBe(24)
+      expect(n.channel).toBe(FILL_CHANNELS.chord)
+    })
+    const starts = notes.map(function(n) { return n.start })
+    for (let i = 1; i < starts.length; i += 1) {
+      expect(starts[i] - starts[i - 1]).toBeCloseTo(0.25, 3)
+    }
+  })
+
+  test('generatePlaybackFillTracks pizzicato uses short staccato notes on bass and pizz channels', function() {
+    const timeline = [{
+      startSec: 0,
+      barDurationSec: 2,
+      meterKey: '4/4',
+      chord: interpretChordLabel('Am', 0),
+    }]
+    const tracks = generatePlaybackFillTracks(timeline, 'pizzicato', 100)
+    expect(tracks.length).toBe(2)
+    const bassNotes = tracks[0].filter(function(ev) { return ev.cmd === 'note' })
+    const pizzNotes = tracks[1].filter(function(ev) { return ev.cmd === 'note' })
+    expect(bassNotes.length).toBeGreaterThan(0)
+    expect(pizzNotes.length).toBeGreaterThan(0)
+    bassNotes.forEach(function(n) {
+      expect(n.channel).toBe(FILL_CHANNELS.bass)
+      expect(n.duration).toBeLessThan(0.2)
+    })
+    pizzNotes.forEach(function(n) {
+      expect(n.instrument).toBe(46)
+      expect(n.channel).toBe(FILL_CHANNELS.chord)
+      expect(n.duration).toBeLessThan(0.2)
+    })
+  })
+
+  test('generatePlaybackFillTracks brass-strings produces three tracks with brass accent', function() {
+    const timeline = [{
+      startSec: 0,
+      barDurationSec: 2,
+      meterKey: '4/4',
+      chord: interpretChordLabel('D', 0),
+    }]
+    const tracks = generatePlaybackFillTracks(timeline, 'brass-strings', 100)
+    expect(tracks.length).toBe(3)
+    expect(tracks[2][0].instrument).toBe(61)
+    expect(tracks[2][0].channel).toBe(FILL_CHANNELS.accent)
+  })
+
+  test('generatePlaybackFillTracks jig-bass produces events for 6/8', function() {
+    const timeline = [{
+      startSec: 0,
+      barDurationSec: 2,
+      meterKey: '6/8',
+      chord: interpretChordLabel('G', 0),
+    }]
+    const tracks = generatePlaybackFillTracks(timeline, 'jig-bass', 100)
+    const noteCount = tracks.reduce(function(sum, track) {
+      return sum + track.filter(function(ev) { return ev.cmd === 'note' }).length
+    }, 0)
+    expect(noteCount).toBeGreaterThan(0)
+  })
+
+  test('generatePlaybackFillTracks fingerpick follows drum groove slot count', function() {
+    const timeline = [{
+      startSec: 0,
+      barDurationSec: 2,
+      meterKey: '4/4',
+      chord: interpretChordLabel('C', 0),
+    }]
+    const rhythmContext = buildFillRhythmContext(applyRhythmPreset('rock-basic'))
+    const tracks = generatePlaybackFillTracks(timeline, 'fingerpick', 100, rhythmContext)
+    const notes = tracks[0].filter(function(ev) { return ev.cmd === 'note' })
+    expect(notes.length).toBe(8)
+    const starts = notes.map(function(n) { return n.start }).sort(function(a, b) { return a - b })
+    expect(starts[1] - starts[0]).toBeCloseTo(0.25, 2)
+    expect(starts[0]).toBeCloseTo(0, 3)
+  })
+
+  test('generatePlaybackFillTracks guitar boom-chick aligns bass and chords to kick and snare', function() {
+    const timeline = [{
+      startSec: 0,
+      barDurationSec: 2,
+      meterKey: '4/4',
+      chord: interpretChordLabel('C', 0),
+    }]
+    const rhythmContext = buildFillRhythmContext(applyRhythmPreset('rock-basic'))
+    const tracks = generatePlaybackFillTracks(timeline, 'guitar-boom-chick', 100, rhythmContext)
+    const bassNotes = tracks[0].filter(function(ev) { return ev.cmd === 'note' })
+    const chordNotes = tracks[1].filter(function(ev) { return ev.cmd === 'note' })
+    const bassStarts = [...new Set(bassNotes.map(function(n) { return n.start }))].sort(function(a, b) { return a - b })
+    const chordStarts = [...new Set(chordNotes.map(function(n) { return n.start }))].sort(function(a, b) { return a - b })
+    expect(bassStarts.length).toBe(2)
+    expect(chordStarts.length).toBeGreaterThanOrEqual(2)
+    expect(bassStarts[0]).toBeCloseTo(0, 2)
+    expect(bassStarts[1]).toBeCloseTo(1, 2)
+    expect(chordStarts[0]).toBeCloseTo(0.5, 2)
+    expect(chordStarts[1]).toBeCloseTo(1.5, 2)
   })
 
   test('removeChordTracks strips accompaniment track', function() {

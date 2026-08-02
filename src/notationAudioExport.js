@@ -47,7 +47,7 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOpti
     throw new Error('Invalid notation timing for audio export')
   }
 
-  const fillPlayback = resolveFillPlaybackOptions(opts.tune)
+  const fillPlayback = resolveFillPlaybackOptions(opts.tune, opts.tunebook)
   const synth = new abcjs.synth.CreateSynth()
   const initOptions = {
     audioContext: audioContext,

@@ -4,9 +4,9 @@ import { toast } from 'react-toastify'
 import useAbcjsParser from '../../useAbcjsParser'
 import ScratchpadEditorChrome from './ScratchpadEditorChrome'
 import ScratchpadCompositionPairingsPanel from './ScratchpadCompositionPairingsPanel'
+import ScratchpadCompositionMediaPanel from './ScratchpadCompositionMediaPanel'
 import ScratchpadCompositionChunkSelectModal from './ScratchpadCompositionChunkSelectModal'
 import ScratchpadCompositionSourceEditorModal from './ScratchpadCompositionSourceEditorModal'
-import ScratchpadDriveSyncControl from './ScratchpadDriveSyncControl'
 import { updateScratchpadItem, createScratchpadItem } from '../../scratchpadStore'
 import {
   assembleCompositionTune,
@@ -18,8 +18,8 @@ import {
   assignNotationChunkToPairingRow,
 } from '../../scratchpadCompositionAssembly'
 import {
-  createChordSheetNotationChunk,
   generateCompositionChunkId,
+  createChordSheetNotationChunk,
 } from '../../scratchpadCompositionChordImport'
 import useScratchpadCompositionHistory from '../../useScratchpadCompositionHistory'
 
@@ -149,7 +149,8 @@ export default function ScratchpadCompositionEditor(props) {
       sourceItemId: payload.sourceItemId,
       sourceBlockId: payload.sourceBlockId,
       sectionIndex: payload.sectionIndex,
-      chordMode: payload.chordMode,
+      wholeItem: payload.wholeItem || false,
+      chordMode: payload.chordMode || 'chords-only',
       order: payload.order,
     })
     if (!result.ok) {
@@ -168,8 +169,13 @@ export default function ScratchpadCompositionEditor(props) {
       id: generateCompositionChunkId(),
       sourceKind: 'notation-strain',
       sourceItemId: payload.sourceItemId,
-      strainIndex: payload.strainIndex,
-      label: payload.label || 'Strain',
+      strainIndex: payload.wholeItem ? undefined : (payload.strainIndex != null ? payload.strainIndex : 0),
+      strainMarker: payload.wholeItem ? '' : (payload.strainMarker || ''),
+      wholeItem: payload.wholeItem || false,
+      voiceKeys: Array.isArray(payload.voiceKeys) && payload.voiceKeys.length
+        ? payload.voiceKeys.slice()
+        : undefined,
+      label: payload.label || 'Notation',
       order: payload.order,
       enabled: true,
     }
@@ -177,6 +183,45 @@ export default function ScratchpadCompositionEditor(props) {
       return assignNotationChunkToPairingRow(next, selectModal.pairingId, chunk)
     }, { assemble: true })
     setSelectModal(null)
+  }
+
+  async function handleCreateNewSource(pairingId, side) {
+    const isNotation = side === 'notation'
+    try {
+      const created = await createScratchpadItem({
+        workspaceId: item.workspaceId,
+        type: isNotation ? 'notation' : 'text',
+        title: isNotation ? 'Notation' : 'Text note',
+      })
+      if (!created || !created.id) return
+      applyCompositionMutation(function(next) {
+        if (isNotation) {
+          const chunk = {
+            id: generateCompositionChunkId(),
+            sourceKind: 'notation-strain',
+            sourceItemId: created.id,
+            wholeItem: true,
+            label: created.title || 'Notation',
+            order: (next.notationChunks || []).length,
+            enabled: true,
+          }
+          return assignNotationChunkToPairingRow(next, pairingId, chunk)
+        }
+        const chunk = {
+          id: generateCompositionChunkId(),
+          sourceKind: 'text-section',
+          sourceItemId: created.id,
+          wholeItem: true,
+          label: created.title || 'Text',
+          order: (next.lyricsChunks || []).length,
+          enabled: true,
+        }
+        return assignLyricsChunkToPairingRow(next, pairingId, chunk)
+      }, { assemble: true })
+      setSourceEditorId(created.id)
+    } catch (e) {
+      toast.error(e && e.message ? e.message : 'Could not create scratchpad item')
+    }
   }
 
   function handleEmbeddedChordAction(action, pending) {
@@ -259,15 +304,7 @@ export default function ScratchpadCompositionEditor(props) {
           { id: 'save-notation', label: 'Save as notation item', onClick: handleSaveAsNotation },
         ]}
         onOpenItem={props.onOpenItem}
-      >
-        <ScratchpadDriveSyncControl
-          scratchpadSync={props.scratchpadSync}
-          token={props.token}
-          login={props.login}
-          requestGoogleScopes={props.requestGoogleScopes}
-          compact={true}
-        />
-      </ScratchpadEditorChrome>
+      />
       {reassemblyConfirm ? (
         <Alert variant="warning" className="m-2">
           The working tune was edited manually. Re-assemble from pairings?
@@ -282,6 +319,16 @@ export default function ScratchpadCompositionEditor(props) {
         </Alert>
       ) : null}
       <div className="scratchpad-composition-pairings-page">
+        <ScratchpadCompositionMediaPanel
+          item={item}
+          composition={composition}
+          tunebook={tunebook}
+          onCompositionChange={function(nextComposition) {
+            applyCompositionMutation(function() {
+              return nextComposition
+            })
+          }}
+        />
         <ScratchpadCompositionPairingsPanel
           composition={composition}
           tunebook={tunebook}
@@ -289,19 +336,19 @@ export default function ScratchpadCompositionEditor(props) {
           onRemovePairing={handleRemovePairing}
           onSelectSide={handleSelectSide}
           onEditSource={function(sourceId) { setSourceEditorId(sourceId) }}
+          onCreateNewSource={handleCreateNewSource}
         />
       </div>
       <ScratchpadCompositionChunkSelectModal
         show={!!selectModal}
         mode={selectModal && selectModal.side}
         itemId={item.id}
-        workspaceId={item.workspaceId}
         composition={composition}
         onHide={function() { setSelectModal(null) }}
         onSelectLyricsChunk={handleSelectLyricsChunk}
         onSelectChordSheet={handleSelectChordSheet}
+        onImportChords={handleSelectChordSheet}
         onSelectNotationStrain={handleSelectNotationStrain}
-        onEmbeddedChordAction={handleEmbeddedChordAction}
       />
       <ScratchpadCompositionSourceEditorModal
         show={!!sourceEditorId}

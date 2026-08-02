@@ -4,7 +4,6 @@ import {
   formatRhythmText,
   rhythmFromTimeSignature,
   slotsPerBar,
-  pulsesPatternEqual,
   presetIdForRhythm,
 } from './metronomeRhythmPresets'
 import {
@@ -14,6 +13,7 @@ import {
   ENGINE_MODE_CLICK,
   ENGINE_MODE_DRUMS,
 } from './rhythmEngineTypes'
+import { remapDrumPatternGranularity } from './rhythmGranularity'
 
 export function resolveTuneTimeSignature(tune, tunebook) {
   if (!tune) return ''
@@ -45,11 +45,29 @@ export function meterDenominator(meter) {
 export function alignPlaybackRhythmToMeter(storedRhythm, meter) {
   const stored = normalizeRhythmConfig(storedRhythm || defaultMetronomeRhythm())
   if (!meter) return stored
+
+  // Drum editor meter is user-controlled; only normalize pattern resolution.
+  if (stored.engineMode === ENGINE_MODE_DRUMS) {
+    if (stored.drumPattern) {
+      return normalizeRhythmConfig(Object.assign({}, stored, {
+        drumPattern: normalizeDrumPattern(stored.drumPattern, slotsPerBar(stored)),
+      }))
+    }
+    return stored
+  }
+
   const meterRhythm = normalizeRhythmConfig(rhythmFromTimeSignature(meter))
-  const sameGrid = stored.beatsPerBar === meterRhythm.beatsPerBar
-    && slotsPerBar(stored) === slotsPerBar(meterRhythm)
-    && pulsesPatternEqual(stored.pulsesPerBeat, meterRhythm.pulsesPerBeat)
-  if (sameGrid) return stored
+
+  // Same beat count as the tune meter — keep custom pulse subdivisions and drum grids.
+  if (stored.beatsPerBar === meterRhythm.beatsPerBar) {
+    if (stored.engineMode === ENGINE_MODE_DRUMS && stored.drumPattern) {
+      return normalizeRhythmConfig(Object.assign({}, stored, {
+        drumPattern: normalizeDrumPattern(stored.drumPattern, slotsPerBar(stored)),
+      }))
+    }
+    return stored
+  }
+
   const aligned = normalizeRhythmConfig(Object.assign({}, meterRhythm, {
     engineMode: stored.engineMode,
     presetId: stored.engineMode === ENGINE_MODE_DRUMS && stored.presetId
@@ -58,7 +76,7 @@ export function alignPlaybackRhythmToMeter(storedRhythm, meter) {
   }))
   if (aligned.engineMode === ENGINE_MODE_DRUMS && stored.drumPattern) {
     return normalizeRhythmConfig(Object.assign({}, aligned, {
-      drumPattern: normalizeDrumPattern(stored.drumPattern, slotsPerBar(meterRhythm)),
+      drumPattern: remapDrumPatternGranularity(stored.drumPattern, stored, aligned),
     }))
   }
   return aligned

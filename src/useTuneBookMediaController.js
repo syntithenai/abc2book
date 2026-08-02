@@ -5618,7 +5618,12 @@ export default function useTuneBookMediaController(props) {
     
     var midiHash = useRef()
     function forceMidiChange() {
-        midiHash.current = Math.random()* 1000000000
+        if (isMidiPlaybackRoute() && (isPlaying || playingIntentRef.current)) {
+            playingIntentRef.current = false
+            pause()
+            setIsPlaying(false)
+        }
+        midiHash.current = Math.random() * 1000000000
     }
     //forceMidiChange()
     const tuneId = tune ? tune.id : null

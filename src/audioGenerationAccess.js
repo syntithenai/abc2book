@@ -1,9 +1,23 @@
 import { getPracticeTrackAccess } from './practiceTrackAccess';
 import { isTaskAvailable } from './audioGenerationPresets';
+import { isMusicGenerationAdmin } from './musicGenerationAdmin';
+
+function hiddenAudioGenerationAccess(base) {
+  return Object.assign({}, base, {
+    practiceTrackAvailable: false,
+    linkedCoverAvailable: false,
+    hasAnyTask: false,
+    showButton: false,
+    canGenerate: false,
+  });
+}
 
 export function getAudioGenerationAccess(context) {
   const opts = context || {};
   const base = getPracticeTrackAccess(opts);
+  if (!isMusicGenerationAdmin(opts.user)) {
+    return hiddenAudioGenerationAccess(base);
+  }
   const backends = opts.backends || null;
   const features = opts.features || {};
   const resolverChecked = opts.resolverChecked !== false;

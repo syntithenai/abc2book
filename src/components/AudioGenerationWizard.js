@@ -128,10 +128,11 @@ export default function AudioGenerationWizard(props) {
       resolverStatus: status,
       features: features,
       accessToken: token,
+      user: props.user,
       backends: backends,
       affordance: combinedAffordance,
     });
-  }, [checked, available, status, features, token, backends, combinedAffordance]);
+  }, [checked, available, status, features, token, props.user, backends, combinedAffordance]);
 
   useEffect(function() {
     if (!checked) return undefined;

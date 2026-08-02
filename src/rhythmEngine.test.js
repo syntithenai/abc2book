@@ -179,15 +179,20 @@ describe('drumPatternRecorder', function() {
     expect(slot).toBe(0)
   })
 
+  test('quantizeHitTimeToSlot prefers active transport slot', function() {
+    const rhythm = applyRhythmPreset('rock-basic')
+    const slot = quantizeHitTimeToSlot(0.9, 0, rhythm, 120, 4)
+    expect(slot).toBe(4)
+  })
+
   test('recording session captures hits', function() {
     const rhythm = applyRhythmPreset('rock-basic')
     const session = createRecordingSession({
       rhythm: rhythm,
       tempo: 120,
-      mode: 'overdub',
       initialPattern: rhythm.drumPattern,
     })
-    session.arm(false)
+    session.arm()
     session.setDownbeatTime(0)
     const result = session.noteHit('kick', 0.05)
     expect(result).toBeTruthy()

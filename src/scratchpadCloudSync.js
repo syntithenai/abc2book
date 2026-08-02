@@ -155,6 +155,20 @@ function collectItemBlobRefs(item) {
       })
     }
   }
+  if (item.type === 'composition' && item.composition) {
+    const attachments = Array.isArray(item.composition.mediaAttachments)
+      ? item.composition.mediaAttachments
+      : []
+    attachments.forEach(function(entry) {
+      if (!entry || !entry.blobKey) return
+      refs.push({
+        blobKey: entry.blobKey,
+        driveFileId: entry.driveFileId || null,
+        fileName: entry.fileName || 'composition-audio.webm',
+        subfolder: SCRATCHPAD_AUDIO_FOLDER,
+      })
+    })
+  }
   return refs
 }
 
@@ -225,6 +239,7 @@ async function uploadCompositionItem(driveApi, itemFolderId, item) {
     lyricsChunks: item.composition.lyricsChunks || [],
     notationChunks: item.composition.notationChunks || [],
     pairings: item.composition.pairings || [],
+    mediaAttachments: item.composition.mediaAttachments || [],
     assemblyStale: item.composition.assemblyStale || false,
   }
   const body = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' })
@@ -301,6 +316,17 @@ function applyBlobRefsToItem(item, refs) {
       audio.mixdownDriveFileId = refByKey[audio.mixdownBlobKey].driveFileId
     }
     item.audio = audio
+  }
+  if (item.type === 'composition' && item.composition) {
+    const attachments = Array.isArray(item.composition.mediaAttachments)
+      ? item.composition.mediaAttachments.slice()
+      : []
+    item.composition = Object.assign({}, item.composition, {
+      mediaAttachments: attachments.map(function(entry) {
+        if (!entry || !entry.blobKey || !refByKey[entry.blobKey]) return entry
+        return Object.assign({}, entry, { driveFileId: refByKey[entry.blobKey].driveFileId })
+      }),
+    })
   }
   return item
 }

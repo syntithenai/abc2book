@@ -21,6 +21,7 @@ import {
   isNotationAssociateMode,
   isNotationBarPickerMode,
 } from '../../scratchpadAssociate'
+import { attachCompositionMediaToTune } from '../../scratchpadCompositionMedia'
 import {
   buildDefaultVoiceMapping,
   countVoiceBars,
@@ -308,6 +309,10 @@ export default function ScratchpadAssociateModal(props) {
         const compositionTune = item.composition && item.composition.tuneSnapshot
         if (!compositionTune) throw new Error('Composition is empty')
         tune = mergeScratchpadCompositionIntoTune(tune, compositionTune)
+        tune = await attachCompositionMediaToTune(tune, item.composition, item.id, {
+          token: props.token,
+          driveApi: props.tunebook && props.tunebook.googleDocument,
+        })
       } else if (item.type === 'text') {
         if (associateMode === 'background') {
           tune = mergeScratchpadBackgroundIntoTune(

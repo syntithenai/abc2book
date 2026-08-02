@@ -4,13 +4,29 @@ import {
   normalizeDrumPattern,
   normalizeRhythmConfig,
   ENGINE_MODE_DRUMS,
+  setDrumStep,
 } from './rhythmEngineTypes'
 
 export const MAX_SLOTS_PER_BAR = 32
 
+export const EDITOR_SUBDIVISION_BEATS = 'beats'
+export const EDITOR_SUBDIVISION_PULSES = 'pulses'
+export const EDITOR_SUBDIVISION_HALF_PULSES = 'halfPulses'
+
+const SUBDIVISION_LABELS = {
+  [EDITOR_SUBDIVISION_BEATS]: 'Beats',
+  [EDITOR_SUBDIVISION_PULSES]: 'Pulses',
+  [EDITOR_SUBDIVISION_HALF_PULSES]: 'Half pulses',
+}
+
 function pulsesArray(rhythm) {
   const r = normalizeRhythmConfig(rhythm)
   return Array.isArray(r.pulsesPerBeat) ? r.pulsesPerBeat.slice() : [1]
+}
+
+function pulsesEqual(left, right) {
+  if (!left || !right || left.length !== right.length) return false
+  return left.every(function(value, index) { return value === right[index] })
 }
 
 function gcd(a, b) {
@@ -58,55 +74,116 @@ export function rhythmPulseShapeKey(rhythm) {
   return r.beatsPerBar + ':' + pulseShapeKey(r.pulsesPerBeat)
 }
 
-/**
- * @returns {Array<{ multiplier: number, label: string, pulsesPerBeat: number[] }>}
- */
-export function getGranularityOptions(rhythm) {
+export function slotRangeForBeat(rhythm, beatIndex) {
   const config = normalizeRhythmConfig(rhythm)
-  const pulses = pulsesArray(config)
-  const shape = pulseShapeKey(pulses)
-  const multipliers = [1, 2, 4]
-  const labelsByShape = {
-    '1+1+1+1': { 1: 'Quarter', 2: 'Eighth', 4: '16th' },
-    '1+1': { 1: 'Beat groups', 2: 'Finer', 4: 'Finest' },
-    '1+1+1': { 1: 'Quarter', 2: 'Eighth', 4: '16th' },
-    '1+1+1+1+1': { 1: 'Quarter', 2: 'Eighth', 4: '16th' },
+  let start = 0
+  for (let i = 0; i < beatIndex; i++) {
+    start += config.pulsesPerBeat[i] || 1
   }
-  const defaultLabels = { 1: 'Coarse', 2: 'Medium', 4: 'Fine' }
-  const labelMap = labelsByShape[shape] || defaultLabels
-  const options = []
-  multipliers.forEach(function(multiplier) {
-    const scaled = pulses.map(function(p) { return p * multiplier })
-    const total = scaled.reduce(function(s, p) { return s + p }, 0)
-    if (total > MAX_SLOTS_PER_BAR) return
-    options.push({
-      multiplier: multiplier,
-      label: labelMap[multiplier] || ('×' + multiplier),
-      pulsesPerBeat: scaled,
-      slotsPerBar: total,
-      isActive: pulses.every(function(p, i) { return p === scaled[i] }),
-    })
-  })
-  if (options.length === 0) {
-    options.push({
-      multiplier: 1,
-      label: 'Current',
-      pulsesPerBeat: pulses,
+  const count = config.pulsesPerBeat[beatIndex] || 1
+  return { start: start, count: count, end: start + count }
+}
+
+export function beatsMatchPulsesView(rhythm) {
+  return pulsesArray(rhythm).every(function(pulses) { return pulses === 1 })
+}
+
+export function getEditorSubdivisionOptions(rhythm) {
+  const config = normalizeRhythmConfig(rhythm)
+  const options = [
+    {
+      id: EDITOR_SUBDIVISION_BEATS,
+      label: SUBDIVISION_LABELS[EDITOR_SUBDIVISION_BEATS],
+      slotsPerBar: config.beatsPerBar,
+    },
+    {
+      id: EDITOR_SUBDIVISION_PULSES,
+      label: SUBDIVISION_LABELS[EDITOR_SUBDIVISION_PULSES],
       slotsPerBar: slotsPerBar(config),
-      isActive: true,
-    })
-  } else {
-    options.forEach(function(opt) {
-      opt.isActive = pulses.every(function(p, i) { return p === opt.pulsesPerBeat[i] })
+    },
+  ]
+  const doubled = pulsesArray(config).map(function(pulses) { return pulses * 2 })
+  const doubledSlots = doubled.reduce(function(sum, pulses) { return sum + pulses }, 0)
+  if (doubledSlots <= MAX_SLOTS_PER_BAR) {
+    options.push({
+      id: EDITOR_SUBDIVISION_HALF_PULSES,
+      label: SUBDIVISION_LABELS[EDITOR_SUBDIVISION_HALF_PULSES],
+      slotsPerBar: doubledSlots,
     })
   }
   return options
 }
 
-export function getActiveGranularityMultiplier(rhythm) {
-  const options = getGranularityOptions(rhythm)
-  const active = options.find(function(o) { return o.isActive })
-  return active ? active.multiplier : 1
+export function getEditorSlotCount(rhythm, subdivision) {
+  const config = normalizeRhythmConfig(rhythm)
+  if (subdivision === EDITOR_SUBDIVISION_BEATS) return config.beatsPerBar
+  return slotsPerBar(config)
+}
+
+export function editorSubdivisionHint(rhythm, subdivision) {
+  const config = normalizeRhythmConfig(rhythm)
+  if (subdivision === EDITOR_SUBDIVISION_BEATS) {
+    return config.beatsPerBar + ' beat groups'
+  }
+  if (subdivision === EDITOR_SUBDIVISION_HALF_PULSES) {
+    return slotsPerBar(config) + ' half-pulse steps per bar'
+  }
+  return slotsPerBar(config) + ' pulse steps per bar'
+}
+
+function targetPulsesForSubdivision(rhythm, subdivision, previousSubdivision) {
+  const pulses = pulsesArray(rhythm)
+  if (subdivision === EDITOR_SUBDIVISION_HALF_PULSES) {
+    if (previousSubdivision !== EDITOR_SUBDIVISION_HALF_PULSES) {
+      return pulses.map(function(p) { return p * 2 })
+    }
+    return pulses
+  }
+  if (subdivision === EDITOR_SUBDIVISION_PULSES
+      && previousSubdivision === EDITOR_SUBDIVISION_HALF_PULSES) {
+    return pulses.map(function(p) { return Math.max(1, p / 2) })
+  }
+  return pulses
+}
+
+export function applyEditorSubdivision(rhythm, subdivision, previousSubdivision) {
+  const config = normalizeRhythmConfig(rhythm)
+  if (subdivision === EDITOR_SUBDIVISION_BEATS) return config
+
+  const targetPulses = targetPulsesForSubdivision(config, subdivision, previousSubdivision)
+  if (pulsesEqual(targetPulses, pulsesArray(config))) return config
+
+  const base = createRhythm(config.beatsPerBar, config.accents, targetPulses)
+  const nextRhythm = createRhythmConfig(base.beatsPerBar, base.accents, base.pulsesPerBeat, {
+    engineMode: config.engineMode,
+    presetId: '',
+    drumPattern: config.engineMode === ENGINE_MODE_DRUMS && config.drumPattern
+      ? remapDrumPatternGranularity(config.drumPattern, config, base)
+      : null,
+  })
+  if (config.engineMode === ENGINE_MODE_DRUMS && nextRhythm.drumPattern && config.drumPattern) {
+    nextRhythm.drumPattern.swing = config.drumPattern.swing
+  }
+  return nextRhythm
+}
+
+export function beatGroupIsOn(track, rhythm, beatIndex) {
+  if (!track || !Array.isArray(track.steps)) return false
+  const range = slotRangeForBeat(rhythm, beatIndex)
+  for (let i = 0; i < range.count; i++) {
+    if (track.steps[range.start + i]) return true
+  }
+  return false
+}
+
+export function setDrumBeatSteps(pattern, trackId, beatIndex, rhythm, on) {
+  if (!pattern) return pattern
+  const range = slotRangeForBeat(rhythm, beatIndex)
+  let next = pattern
+  for (let i = 0; i < range.count; i++) {
+    next = setDrumStep(next, trackId, range.start + i, on)
+  }
+  return next
 }
 
 function remapTrackSteps(steps, stepSamples, velocities, oldSlots, newSlots, factor) {
@@ -179,27 +256,13 @@ export function remapDrumPatternGranularity(pattern, oldRhythm, newRhythm) {
   }), newSlots)
 }
 
-/**
- * Scale pulsesPerBeat by multiplier and remap drum pattern.
- * @param {object} rhythm - full rhythm config
- * @param {number} multiplier - 1, 2, or 4
- */
-export function setRhythmGranularity(rhythm, multiplier) {
-  const config = normalizeRhythmConfig(rhythm)
-  const option = getGranularityOptions(config).find(function(o) {
-    return o.multiplier === multiplier
-  })
-  if (!option) return config
-  const base = createRhythm(config.beatsPerBar, config.accents, option.pulsesPerBeat)
-  const nextRhythm = createRhythmConfig(base.beatsPerBar, base.accents, base.pulsesPerBeat, {
-    engineMode: config.engineMode,
-    presetId: '',
-    drumPattern: config.engineMode === ENGINE_MODE_DRUMS && config.drumPattern
-      ? remapDrumPatternGranularity(config.drumPattern, config, base)
-      : null,
-  })
-  if (config.engineMode === ENGINE_MODE_DRUMS && nextRhythm.drumPattern) {
-    nextRhythm.drumPattern.swing = config.drumPattern.swing
+export function remapDrumRhythmPulses(previousRhythm, nextRhythm) {
+  const prev = normalizeRhythmConfig(previousRhythm)
+  const next = normalizeRhythmConfig(nextRhythm)
+  if (!next.drumPattern && prev.drumPattern) {
+    next.drumPattern = remapDrumPatternGranularity(prev.drumPattern, prev, next)
+  } else if (next.drumPattern) {
+    next.drumPattern = remapDrumPatternGranularity(next.drumPattern, prev, next)
   }
-  return nextRhythm
+  return next
 }

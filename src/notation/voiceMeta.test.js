@@ -2,6 +2,7 @@ import {
   parseVoiceMeta,
   formatVoiceMeta,
   defaultVoiceMeta,
+  voiceMetaToAbcString,
   isMidiProgramLine,
   parseMidiProgramFromNotes,
   setMidiProgramInNotes,
@@ -39,6 +40,11 @@ describe('voiceMeta', function() {
   test('formatVoiceMeta always writes clef', function() {
     expect(formatVoiceMeta({ name: 'Voice 2', clef: 'alto' })).toBe('Voice 2 clef=alto');
     expect(defaultVoiceMeta('Voice 1')).toBe('Voice 1 clef=treble');
+  });
+
+  test('voiceMetaToAbcString coerces object meta', function() {
+    expect(voiceMetaToAbcString({ name: 'Melody', clef: 'treble' })).toBe('Melody clef=treble');
+    expect(voiceMetaToAbcString('Bass clef=bass')).toBe('Bass clef=bass');
   });
 
   test('round-trips name and clef', function() {

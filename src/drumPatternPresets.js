@@ -119,6 +119,11 @@ const DRUM_GROOVE_PRESETS = [
     snare: [8],
     hat: [0, 2, 4, 6, 8, 10, 12, 14],
   }),
+  drumPreset('blues-rock', 'Blues rock', PRESET_CATEGORY_ROCK_POP, 4, SIXTEEN, {
+    kick: [0, 6, 10],
+    snare: [4, 12],
+    hat: [0, 2, 4, 6, 8, 10, 12, 14],
+  }),
   drumPreset('four-on-floor', 'Four on the floor', PRESET_CATEGORY_ROCK_POP, 4, SIXTEEN, {
     kick: [0, 4, 8, 12],
     snare: [4, 12],

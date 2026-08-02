@@ -3,6 +3,7 @@ import { Button, Form, Modal } from 'react-bootstrap'
 import abcjs from 'abcjs'
 import { fitNotationToWidth } from '../gigNotationFit'
 import { applyBarSlotHighlights } from '../notationPreviewBarHighlights'
+import { voiceMetaToAbcString } from '../notation/voiceMeta'
 
 function hasRenderableNotes(abc) {
   return String(abc || '').split(/\n/).some(function(line) {
@@ -31,7 +32,8 @@ function buildAbcFromChoice(choice, metadata) {
         const voice = value.voices[key] || {}
         const notes = Array.isArray(voice.notes) ? voice.notes.join('\n') : String(voice.notes || '')
         if (Object.keys(value.voices).length > 1) {
-          lines.push('V:' + key + (voice.meta ? ' ' + voice.meta : ''))
+          const voiceMeta = voiceMetaToAbcString(voice.meta)
+          lines.push('V:' + key + (voiceMeta ? ' ' + voiceMeta : ''))
         }
         String(notes || '').split(/\r?\n/).forEach(function(line) {
           if (String(line || '').trim()) lines.push(line)

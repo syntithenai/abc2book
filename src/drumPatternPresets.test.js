@@ -11,7 +11,11 @@ import {
 } from './drumPatternPresets'
 import { rhythmFromTimeSignature, slotsPerBar } from './metronomeRhythmPresets'
 import { ENGINE_MODE_DRUMS, createRhythmConfig, createEmptyDrumPattern } from './rhythmEngineTypes'
-import { setRhythmGranularity } from './rhythmGranularity'
+import {
+  applyEditorSubdivision,
+  EDITOR_SUBDIVISION_HALF_PULSES,
+  EDITOR_SUBDIVISION_PULSES,
+} from './rhythmGranularity'
 
 describe('drumPatternPresets', function() {
   test('template presets have matching slot counts', function() {
@@ -102,14 +106,18 @@ describe('drumPatternPresets', function() {
     expect(results.some(function(p) { return p.id === 'user-abc' })).toBe(true)
   })
 
-  test('setRhythmGranularity remaps drum pattern slots', function() {
+  test('applyEditorSubdivision remaps drum pattern slots', function() {
     const coarse = createRhythmConfig(4, undefined, [1, 1, 1, 1], {
       engineMode: ENGINE_MODE_DRUMS,
       drumPattern: createEmptyDrumPattern(4),
     })
-    const finer = setRhythmGranularity(coarse, 4)
-    expect(slotsPerBar(finer)).toBe(16)
-    expect(finer.drumPattern.resolution).toBe(16)
+    const finer = applyEditorSubdivision(
+      coarse,
+      EDITOR_SUBDIVISION_HALF_PULSES,
+      EDITOR_SUBDIVISION_PULSES
+    )
+    expect(slotsPerBar(finer)).toBe(8)
+    expect(finer.drumPattern.resolution).toBe(8)
     expect(finer.presetId).toBe('')
   })
 })

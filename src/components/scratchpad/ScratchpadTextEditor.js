@@ -2,6 +2,7 @@ import { useRef, useState, useCallback } from 'react'
 import { Button } from 'react-bootstrap'
 import LyricsSectionsDropdown from '../LyricsSectionsDropdown'
 import LyricsToolsModal from '../LyricsToolsModal'
+import FieldVoiceFillButton from '../FieldVoiceFillButton'
 import ScratchpadEditorChrome from './ScratchpadEditorChrome'
 import { updateScratchpadItem } from '../../scratchpadStore'
 
@@ -71,6 +72,26 @@ export default function ScratchpadTextEditor(props) {
     setShowLyricsTools(true)
   }
 
+  function insertTextAtCursor(spoken) {
+    const text = String(spoken || '').trim()
+    if (!text) return
+    const el = textareaRef.current
+    const start = el && typeof el.selectionStart === 'number' ? el.selectionStart : body.length
+    const end = el && typeof el.selectionEnd === 'number' ? el.selectionEnd : start
+    const before = body.slice(0, start)
+    const after = body.slice(end)
+    const needsSpace = before.length > 0 && !/\s$/.test(before)
+    const insert = (needsSpace ? ' ' : '') + text
+    const next = before + insert + after
+    handleChange(next)
+    const cursor = before.length + insert.length
+    requestAnimationFrame(function() {
+      if (!el) return
+      el.focus()
+      el.setSelectionRange(cursor, cursor)
+    })
+  }
+
   return (
     <div className="scratchpad-text-editor abc-editor-lyrics-panel">
       <ScratchpadEditorChrome
@@ -102,13 +123,22 @@ export default function ScratchpadTextEditor(props) {
           {props.tunebook.icons.quillpen} Tools
         </Button>
       </ScratchpadEditorChrome>
-      <textarea
-        ref={textareaRef}
-        className="form-control scratchpad-text-area"
-        value={body}
-        onChange={function(e) { handleChange(e.target.value) }}
-        placeholder="Lyrics, notes, chord charts…"
-      />
+      <div className="scratchpad-text-area-wrap">
+        <textarea
+          ref={textareaRef}
+          className="form-control scratchpad-text-area"
+          value={body}
+          onChange={function(e) { handleChange(e.target.value) }}
+          placeholder="Lyrics, notes, chord charts…"
+        />
+        <FieldVoiceFillButton
+          fieldKind="transcript"
+          token={props.token}
+          size="sm"
+          className="scratchpad-text-area-voice-btn"
+          onFill={insertTextAtCursor}
+        />
+      </div>
       <LyricsToolsModal
         show={showLyricsTools}
         onHide={function() { setShowLyricsTools(false) }}
