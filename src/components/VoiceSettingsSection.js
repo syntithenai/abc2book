@@ -3,6 +3,9 @@ import { useEffect, useState } from 'react'
 import FormFieldHelp from './FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { useCreditAffordance } from '../useCreditAffordance'
+import { openCreditSettings } from '../resolverCreditAccess'
+import { formatEstimateCents } from '../creditAffordabilityClient'
 import {
   loadVoiceSettings,
   saveVoiceSettings,
@@ -21,10 +24,17 @@ const INPUT_MODE_OPTIONS = [
   },
 ]
 
-export default function VoiceSettingsSection() {
-  const { available: resolverAvailable, features } = useMediaResolverHealth()
+export default function VoiceSettingsSection(props) {
+  const accessToken = props.accessToken || null
+  const { available: resolverAvailable, features, status: resolverStatus } = useMediaResolverHealth()
+  const ttsAffordance = useCreditAffordance(accessToken, 'tts_speech')
   const [settings, setSettings] = useState(loadVoiceSettings)
   const ttsAvailable = resolverAvailable && features.tts
+  const billingEnabled = !!(resolverStatus && resolverStatus.billingEnabled)
+  const cannotAffordTts = billingEnabled
+    && ttsAffordance.checked
+    && !ttsAffordance.creditUnlimited
+    && !ttsAffordance.affordable
 
   useEffect(function() {
     function handleChange() {
@@ -42,6 +52,10 @@ export default function VoiceSettingsSection() {
 
   function handleSpeakSongTitlesChange(event) {
     const checked = event.target.checked
+    if (checked && cannotAffordTts) {
+      openCreditSettings()
+      return
+    }
     setSettings(saveVoiceSettings({
       speakSongTitles: checked,
       speakArtistNames: checked ? settings.speakArtistNames : false,
@@ -112,11 +126,23 @@ export default function VoiceSettingsSection() {
             Text-to-speech is not available from your resolver right now.
           </p>
         ) : null}
+        {ttsAvailable && cannotAffordTts ? (
+          <p className="app-text-muted small">
+            Insufficient prepaid credit for title announcements
+            {ttsAffordance.estimateCents != null
+              ? ' (about ' + formatEstimateCents(ttsAffordance.estimateCents) + ' per announcement)'
+              : ''}.
+            <button type="button" className="btn btn-link btn-sm p-0 align-baseline" onClick={openCreditSettings}>
+              Buy credit
+            </button>
+          </p>
+        ) : null}
         <Form.Check
           type="checkbox"
           id="voice-speak-song-titles"
           label="Speak song titles"
           checked={settings.speakSongTitles === true}
+          disabled={!ttsAvailable}
           onChange={handleSpeakSongTitlesChange}
           className="mb-2"
         />

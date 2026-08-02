@@ -163,6 +163,10 @@ export default function NowPlayingHost(props) {
 
     mc.applyPlaybackRoute('playMidi', '0', playingTune, tunebook)
 
+    if (mc.flushPendingPlayRequest) {
+      mc.flushPendingPlayRequest()
+    }
+
     let consumed = false
     if (mc.consumePendingPlayRequest) {
       consumed = mc.consumePendingPlayRequest(tuneId, 'playMidi', null)

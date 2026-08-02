@@ -99,6 +99,16 @@ export default function ScratchpadItemPage(props) {
           tunebook={props.tunebook}
           tunes={props.tunes}
           token={props.token}
+          login={props.login}
+          editHistory={editHistory}
+          mediaController={props.mediaController}
+          forceRefresh={props.forceRefresh}
+          blockKeyboardShortcuts={props.blockKeyboardShortcuts}
+          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+          searchIndex={props.searchIndex}
+          loadTuneTexts={props.loadTuneTexts}
+          scratchpadSync={props.scratchpadSync}
+          requestGoogleScopes={props.requestGoogleScopes}
           onChange={refresh}
           onDeleted={function() { navigate('/scratchpad') }}
           onBack={function() { navigate('/scratchpad') }}
@@ -133,6 +143,9 @@ export default function ScratchpadItemPage(props) {
           tunes={props.tunes}
           token={props.token}
           editHistory={editHistory}
+          scratchpadSync={props.scratchpadSync}
+          requestGoogleScopes={props.requestGoogleScopes}
+          login={props.login}
           onChange={refresh}
           onDeleted={function() { navigate('/scratchpad') }}
           onBack={function() { navigate('/scratchpad') }}

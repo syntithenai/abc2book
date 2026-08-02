@@ -77,6 +77,7 @@ import {
   runScratchpadAudioChordsAnalyse,
   runScratchpadAudioMelodyAnalyse,
   runScratchpadAudioLyricsAnalyse,
+  runScratchpadAudioTranscribe,
 } from './scratchpadAnalyse'
 import { createScratchpadItem } from './scratchpadStore'
 
@@ -243,6 +244,32 @@ describe('scratchpadAnalyse', function() {
       workspaceId: 'ws-1',
       title: 'Vocal take — lyrics',
       textBody: 'First line\nSecond line',
+    }))
+  })
+
+  test('runScratchpadAudioTranscribe creates text item with transcription', async function() {
+    resolveScratchpadItemAudioBlob.mockResolvedValue(new Blob(['wav'], { type: 'audio/wav' }))
+    transcribeLyricsSource.mockResolvedValue({
+      text: 'Hello world',
+      segments: [],
+      language: 'en',
+      backend: 'whisper',
+    })
+
+    await runScratchpadAudioTranscribe({
+      id: 'aud-4',
+      type: 'audio',
+      title: 'Voice memo',
+      audio: { tracks: [] },
+    }, {
+      workspaceId: 'ws-1',
+    })
+
+    expect(createScratchpadItem).toHaveBeenCalledWith(expect.objectContaining({
+      type: 'text',
+      workspaceId: 'ws-1',
+      title: 'Voice memo — transcription',
+      textBody: 'Hello world',
     }))
   })
 

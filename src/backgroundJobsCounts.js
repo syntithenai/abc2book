@@ -13,6 +13,7 @@ import {
 import { isBulkCheckRunnerActive } from './bulkCheckRunner'
 import { getImportReviewEnrichmentSnapshot } from './importReviewEnrichmentBridge'
 import { getManualTrackedSearchJobs } from './longRunningJobRegistry'
+import { countScratchpadBackgroundIncomplete } from './scratchpadBackgroundJobs'
 import { enrichmentSummary } from './importReviewEnrichmentQueue'
 import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 import { isMediaAnalysisLookupJob } from './mediaAnalysisSuggestions'
@@ -103,6 +104,7 @@ export const BACKGROUND_JOB_TAB_ORDER = [
   { eventKey: 'bulk-check', countKey: 'bulkCheck' },
   { eventKey: 'media-analysis', countKey: 'mediaAnalysis' },
   { eventKey: 'file-ocr', countKey: 'fileOcr' },
+  { eventKey: 'scratchpad', countKey: 'scratchpad' },
   { eventKey: 'import-enrichment', countKey: 'importEnrichment' },
   { eventKey: 'active-searches', countKey: 'activeSearches' },
 ]
@@ -117,6 +119,7 @@ export function getBackgroundJobTabCounts(mediaController) {
     playbackScans: countPlaybackScanIncomplete(),
     mediaAnalysis: countMediaAnalysisIncomplete(),
     fileOcr: countFileOcrIncomplete(),
+    scratchpad: countScratchpadBackgroundIncomplete(),
     bulkCheck: countBulkCheckIncomplete(),
     importEnrichment: countImportEnrichmentIncomplete(),
     activeSearches: countActiveSearchIncomplete(),
@@ -144,6 +147,7 @@ export function getBackgroundJobTabCountsKey(mediaController) {
     counts.playbackScans,
     counts.mediaAnalysis,
     counts.fileOcr,
+    counts.scratchpad,
     counts.bulkCheck,
     counts.importEnrichment,
     counts.activeSearches,

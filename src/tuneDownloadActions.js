@@ -261,22 +261,23 @@ async function downloadLinkedAudioForTune(tune, tunebook, token, formatId) {
   if (!resolved) {
     throw new Error('No linked media found for "' + (tune && tune.name ? tune.name : 'tune') + '"')
   }
-  const audioFormat = linkedAudioDownloadFormat(formatId)
-  const filename = getLinkedAudioExportFilename(tune, tunebook, formatId)
-  const health = getMediaResolverHealthState()
-  const { downloadTuneMediaExport } = await import('./mediaExportUtils')
-  await downloadTuneMediaExport({
-    tune: tune,
-    linkIndex: resolved.linkIndex,
-    srcType: resolved.srcType,
-    filename: filename,
-    audioFormat: audioFormat,
-    youtubeGetId: tunebook.utils.YouTubeGetID,
-    accessToken: token && token.access_token ? token.access_token : null,
-    demucsModel: health.status && health.status.demucsModel ? health.status.demucsModel : 'htdemucs',
-    settings: getMediaPlaybackSettings(tune),
-    trim: true,
-  })
+  const mediaCacheQueue = await import('./mediaCacheQueue')
+  const { showAudioExportStartToast } = await import('./audioExportDownloadToast')
+  const tunebookAdapter = {
+    utils: tunebook.utils,
+    getGoogleAccessToken: function() {
+      return token && token.access_token ? token.access_token : null
+    },
+  }
+  const jobIds = mediaCacheQueue.enqueueTunesDownloadJobs([tune], tunebookAdapter, null, formatId)
+  if (!jobIds.length) {
+    throw new Error('Could not queue audio download for "' + (tune && tune.name ? tune.name : 'tune') + '"')
+  }
+  showAudioExportStartToast({ tuneName: tune.name || 'Tune', processed: false })
+  mediaCacheQueue.start()
+  for (let i = 0; i < jobIds.length; i += 1) {
+    await mediaCacheQueue.whenJobSettles(jobIds[i])
+  }
 }
 
 export async function executeTuneDownload(formatId, options) {

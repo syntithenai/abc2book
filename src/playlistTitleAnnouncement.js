@@ -4,6 +4,8 @@ import {
 } from './voiceSettings'
 import { isGenericArtist } from './genericArtistUtils'
 import { synthesizeSpeech } from './ttsClient'
+import { checkCanAfford } from './creditAffordabilityClient'
+import { getActiveResolverAccessToken } from './mediaResolverHealthStore'
 
 const speechCache = new Map()
 let announcementGeneration = 0
@@ -82,6 +84,25 @@ export function buildPlaylistTrackAnnouncementText(tune) {
   return name + ' by ' + artist
 }
 
+async function canAffordTtsSpeech(text) {
+  const token = getActiveResolverAccessToken()
+  if (!token) return true
+  const textChars = typeof text === 'string' ? text.length : 0
+  try {
+    const afford = await checkCanAfford(token, [{
+      id: 'tts_speech',
+      params: {
+        text_chars: textChars,
+        text_bytes: textChars + 32,
+      },
+    }])
+    return afford.creditUnlimited || afford.affordable
+  } catch (e) {
+    console.log(e)
+    return true
+  }
+}
+
 export function announcePlaylistTrack(tune) {
   if (!isSpeakSongTitlesEnabled()) return
   const text = buildPlaylistTrackAnnouncementText(tune)
@@ -97,12 +118,20 @@ export function announcePlaylistTrack(tune) {
     return
   }
 
-  synthesizeSpeech(text).then(function(blob) {
-    if (generation !== announcementGeneration) return
-    speechCache.set(text, blob)
-    playSpeechBlob(blob, generation)
-  }).catch(function(err) {
-    if (generation !== announcementGeneration) return
-    console.warn('Playlist title announcement failed:', err && err.message ? err.message : err)
+  canAffordTtsSpeech(text).then(function(affordable) {
+    if (!affordable) {
+      if (generation === announcementGeneration) {
+        console.warn('Playlist title announcement skipped: insufficient resolver credit')
+      }
+      return
+    }
+    synthesizeSpeech(text).then(function(blob) {
+      if (generation !== announcementGeneration) return
+      speechCache.set(text, blob)
+      playSpeechBlob(blob, generation)
+    }).catch(function(err) {
+      if (generation !== announcementGeneration) return
+      console.warn('Playlist title announcement failed:', err && err.message ? err.message : err)
+    })
   })
 }

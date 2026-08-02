@@ -91,6 +91,7 @@ import BulkCheckCompleteToastHost from './components/BulkCheckCompleteToastHost'
 import YoutubeHelperInstallHost from './components/YoutubeHelperInstallHost'
 import AndroidBatteryPrompt from './components/AndroidBatteryPrompt'
 import BackgroundJobCompletionNotifications from './backgroundJobCompletionNotifications'
+import AudioExportDownloadNotifications from './AudioExportDownloadNotifications'
 import BackgroundReviewNotifications from './backgroundReviewNotifications'
 import ImportReviewBridge from './components/ImportReviewBridge'
 import {
@@ -427,7 +428,7 @@ function App(props) {
     authMode === 'token' ? requestGoogleScopes : null
   )
   useAudioAnalysisLoginSync(token, logout)
-  useScratchpadLoginSync(token, logout)
+  const scratchpadSync = useScratchpadLoginSync(token, logout)
   const filesDocumentManager = useGoogleDocument(token, logout)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
   const {tunes, setTunes, setTunesInner, tunesContentRevision, tunesHydrated, flushTunesPersistence, deletedTunes, setDeletedTunes, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset , filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
@@ -1249,6 +1250,7 @@ function App(props) {
             <YoutubeHelperInstallHost />
             <AndroidBatteryPrompt />
             <BackgroundJobCompletionNotifications />
+            <AudioExportDownloadNotifications />
             <BackgroundReviewNotifications
               practiceSessionActive={!!(practiceSession && practiceSession.sessionOpen)}
             />
@@ -1411,8 +1413,8 @@ function App(props) {
                     <Route  path={`lessons/:lessonId?`} element={<LessonsPage tunebook={tunebook} mediaController={mediaController} user={user} />} />
                     <Route  path={`quizzes`} element={<QuizzesPage tunebook={tunebook} user={user} />} />
                     <Route  path={`quizzes/:lessonId`} element={<QuizzesPage tunebook={tunebook} user={user} />} />
-                    <Route  path={`scratchpad`} element={<ScratchpadPage tunebook={tunebook} tunes={tunes} token={token} login={login} driveApi={filesDocumentManager} requestGoogleScopes={requestGoogleScopes} />} />
-                    <Route  path={`scratchpad/:itemId`} element={<ScratchpadItemPage tunebook={tunebook} tunes={tunes} token={token} login={login} editHistory={editHistory} mediaController={mediaController} forceRefresh={forceRefresh} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} />} />
+                    <Route  path={`scratchpad`} element={<ScratchpadPage tunebook={tunebook} tunes={tunes} token={token} login={login} driveApi={filesDocumentManager} requestGoogleScopes={requestGoogleScopes} scratchpadSync={scratchpadSync} />} />
+                    <Route  path={`scratchpad/:itemId`} element={<ScratchpadItemPage tunebook={tunebook} tunes={tunes} token={token} login={login} editHistory={editHistory} mediaController={mediaController} forceRefresh={forceRefresh} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} requestGoogleScopes={requestGoogleScopes} scratchpadSync={scratchpadSync} />} />
                     <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} deletedTunes={deletedTunes} token={token} login={login} logout={logout} refresh={refresh} requestGoogleScopes={requestGoogleScopes} authMode={authMode} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} indexes={indexes} tunesContentRevision={tunesContentRevision} currentTuneBook={currentTuneBook} driveApi={filesDocumentManager} />}  />
                     <Route path={`collection-curator`} element={<CollectionCuratorPage token={token} tunebook={tunebook} />} />
                     <Route path={`snapcast`} element={<SnapcastPage mediaController={mediaController} tunebook={tunebook} nowPlayingQueue={nowPlayingQueue} tunes={tunes} />} />

@@ -838,7 +838,7 @@ export default function SettingsPage(props) {
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_VOICE}>
-          <VoiceSettingsSection />
+          <VoiceSettingsSection accessToken={accessToken} />
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_PROVIDERS}>

@@ -40,6 +40,16 @@ function queueHadWork(jobs) {
   })
 }
 
+function finishedJobsAreExportDownloadsOnly(jobs) {
+  const finished = (jobs || []).filter(function(job) {
+    return job.status === 'done' || job.status === 'error'
+  })
+  if (!finished.length) return false
+  return finished.every(function(job) {
+    return job.type === 'download' || job.type === 'processed-download'
+  })
+}
+
 export default function BackgroundJobCompletionNotifications() {
   const trackingRef = useRef({})
 
@@ -55,7 +65,7 @@ export default function BackgroundJobCompletionNotifications() {
       }
 
       if (tracking.hadActive && !state.running && activeCount === 0) {
-        if (queueHadWork(state.jobs)) {
+        if (queueHadWork(state.jobs) && !finishedJobsAreExportDownloadsOnly(state.jobs)) {
           const errors = (state.jobs || []).filter(function(job) { return job.status === 'error' }).length
           if (errors > 0) {
             toast.warning(queue.label + ' finished with ' + errors + ' error' + (errors === 1 ? '' : 's') + '.', {

@@ -136,6 +136,31 @@ class BillingContext:
 
         return self.record(email, practice_track_job_cost_millicents(), usage_type="practice_track_job", detail={})
 
+    def record_tts_speech(
+        self,
+        email: str | None,
+        *,
+        request_bytes: int = 0,
+        response_bytes: int = 0,
+        text_chars: int = 0,
+    ) -> dict[str, Any]:
+        from billing_rates import tts_speech_cost_millicents
+
+        millicents = tts_speech_cost_millicents(
+            request_bytes=request_bytes,
+            response_bytes=response_bytes,
+        )
+        return self.record(
+            email,
+            millicents,
+            usage_type="tts_speech",
+            detail={
+                "request_bytes": int(request_bytes),
+                "response_bytes": int(response_bytes),
+                "text_chars": int(text_chars),
+            },
+        )
+
     def record_api_proxy(
         self,
         email: str | None,

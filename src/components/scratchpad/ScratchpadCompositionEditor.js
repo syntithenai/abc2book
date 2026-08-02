@@ -1,58 +1,30 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
-import { Alert, Button, Form, ListGroup } from 'react-bootstrap'
+import { useCallback, useEffect, useState } from 'react'
+import { Alert, Button } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import useAbcjsParser from '../../useAbcjsParser'
-import { runNotationChecks } from '../../useNotationCheck'
-import NotationIssuesPanel from '../NotationIssuesPanel'
 import ScratchpadEditorChrome from './ScratchpadEditorChrome'
-import ScratchpadCompositionChunkPicker from './ScratchpadCompositionChunkPicker'
-import ScratchpadCompositionAlignmentPanel from './ScratchpadCompositionAlignmentPanel'
+import ScratchpadCompositionPairingsPanel from './ScratchpadCompositionPairingsPanel'
+import ScratchpadCompositionChunkSelectModal from './ScratchpadCompositionChunkSelectModal'
+import ScratchpadCompositionSourceEditorModal from './ScratchpadCompositionSourceEditorModal'
+import ScratchpadDriveSyncControl from './ScratchpadDriveSyncControl'
 import { updateScratchpadItem, createScratchpadItem } from '../../scratchpadStore'
 import {
   assembleCompositionTune,
   applyEmbeddedChordAction,
-  reorderCompositionChunks,
-  setCompositionPairing,
+  normalizeCompositionPairingRows,
+  addCompositionPairingRow,
+  removeCompositionPairingRow,
+  assignLyricsChunkToPairingRow,
+  assignNotationChunkToPairingRow,
 } from '../../scratchpadCompositionAssembly'
 import {
   createChordSheetNotationChunk,
   generateCompositionChunkId,
 } from '../../scratchpadCompositionChordImport'
-import { setPlainLyricLines } from '../../wLinesUtils'
+import useScratchpadCompositionHistory from '../../useScratchpadCompositionHistory'
 
 function cloneComposition(composition) {
   return JSON.parse(JSON.stringify(composition || {}))
-}
-
-function sortChunks(chunks) {
-  return (Array.isArray(chunks) ? chunks.slice() : []).sort(function(a, b) {
-    return (Number(a && a.order) || 0) - (Number(b && b.order) || 0)
-  })
-}
-
-function ChunkReorderButtons(props) {
-  return (
-    <div className="scratchpad-composition-chunk-reorder">
-      <Button
-        size="sm"
-        variant="outline-secondary"
-        title="Move up"
-        disabled={props.disableUp}
-        onClick={function() { props.onReorder('up') }}
-      >
-        ↑
-      </Button>
-      <Button
-        size="sm"
-        variant="outline-secondary"
-        title="Move down"
-        disabled={props.disableDown}
-        onClick={function() { props.onReorder('down') }}
-      >
-        ↓
-      </Button>
-    </div>
-  )
 }
 
 export default function ScratchpadCompositionEditor(props) {
@@ -60,33 +32,27 @@ export default function ScratchpadCompositionEditor(props) {
   const tunebook = props.tunebook
   const tunes = props.tunes || {}
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
+  const history = useScratchpadCompositionHistory()
   const [composition, setComposition] = useState(function() {
-    return cloneComposition(item.composition)
+    return normalizeCompositionPairingRows(cloneComposition(item.composition))
   })
   const [reassemblyConfirm, setReassemblyConfirm] = useState(false)
+  const [sourceEditorId, setSourceEditorId] = useState(null)
+  const [selectModal, setSelectModal] = useState(null)
 
   useEffect(function() {
-    setComposition(cloneComposition(item.composition))
-  }, [item && item.id, item && item.composition && item.composition.tuneSnapshot])
+    setComposition(normalizeCompositionPairingRows(cloneComposition(item.composition)))
+    history.reset()
+  }, [item && item.id])
 
   const workingTune = composition.tuneSnapshot
 
-  const checkResults = useMemo(function() {
-    if (!workingTune) return { issues: [] }
-    const abcTools = tunebook && tunebook.abcTools
-    return runNotationChecks(workingTune, {
-      abcTools: abcTools,
-      abcText: abcTools ? abcTools.json2abc(workingTune) : '',
-      skipRenderAbc: true,
-    })
-  }, [workingTune, tunebook])
-
   const persistComposition = useCallback(function(nextComposition, options) {
     const opts = options || {}
-    const payload = cloneComposition(nextComposition)
-    setComposition(payload)
+    const normalized = normalizeCompositionPairingRows(cloneComposition(nextComposition))
+    setComposition(normalized)
     updateScratchpadItem(item.id, {
-      composition: payload,
+      composition: normalized,
       title: opts.title || item.title,
     })
     if (props.onChange) props.onChange()
@@ -95,12 +61,13 @@ export default function ScratchpadCompositionEditor(props) {
   function runAssembly(nextComposition, options) {
     const opts = options || {}
     try {
-      const assembled = assembleCompositionTune(nextComposition, {
+      const normalized = normalizeCompositionPairingRows(nextComposition)
+      const assembled = assembleCompositionTune(normalized, {
         tunebook: tunebook,
         abcjsParser: abcjsParser,
         mergeLyrics: opts.mergeLyrics,
       })
-      const merged = cloneComposition(nextComposition)
+      const merged = cloneComposition(normalized)
       merged.tuneSnapshot = assembled
       merged.assemblyStale = false
       persistComposition(merged)
@@ -109,6 +76,19 @@ export default function ScratchpadCompositionEditor(props) {
       toast.error(e && e.message ? e.message : 'Could not assemble composition')
       return null
     }
+  }
+
+  function applyCompositionMutation(mutator, options) {
+    const opts = options || {}
+    history.record(composition)
+    const next = mutator(cloneComposition(composition))
+    if (!next) return null
+    next.assemblyStale = true
+    if (opts.assemble) {
+      return runAssembly(next, opts)
+    }
+    persistComposition(next)
+    return next
   }
 
   function requestReassembly(nextComposition) {
@@ -120,19 +100,47 @@ export default function ScratchpadCompositionEditor(props) {
     runAssembly(nextComposition)
   }
 
-  function handleAddLyricsChunk(chunkDraft) {
-    const next = cloneComposition(composition)
-    next.lyricsChunks = (next.lyricsChunks || []).concat(chunkDraft)
-    next.assemblyStale = true
-    if (composition.assemblyStale) {
-      persistComposition(next)
-      requestReassembly(next)
-    } else {
-      runAssembly(next)
-    }
+  function handleUndo() {
+    const previous = history.undo(composition)
+    if (!previous) return
+    runAssembly(normalizeCompositionPairingRows(previous))
   }
 
-  function handleAddChordSheetChunk(payload) {
+  function handleRedo() {
+    const next = history.redo(composition)
+    if (!next) return
+    runAssembly(normalizeCompositionPairingRows(next))
+  }
+
+  function handleAddPairing() {
+    applyCompositionMutation(function(next) {
+      return addCompositionPairingRow(next)
+    })
+  }
+
+  function handleRemovePairing(pairingId) {
+    applyCompositionMutation(function(next) {
+      return removeCompositionPairingRow(next, pairingId)
+    }, { assemble: true })
+  }
+
+  function handleSelectSide(pairingId, side) {
+    setSelectModal({
+      pairingId: pairingId,
+      side: side === 'notation' ? 'notation' : 'lyrics',
+    })
+  }
+
+  function handleSelectLyricsChunk(chunkDraft) {
+    if (!selectModal || !selectModal.pairingId) return
+    applyCompositionMutation(function(next) {
+      return assignLyricsChunkToPairingRow(next, selectModal.pairingId, chunkDraft)
+    }, { assemble: true })
+    setSelectModal(null)
+  }
+
+  function handleSelectChordSheet(payload) {
+    if (!selectModal || !selectModal.pairingId) return
     const result = createChordSheetNotationChunk(payload.text, {
       tunebook: tunebook,
       abcjsParser: abcjsParser,
@@ -148,13 +156,14 @@ export default function ScratchpadCompositionEditor(props) {
       toast.error(result.error && result.error.message ? result.error.message : 'Could not add chord sheet')
       return
     }
-    const next = cloneComposition(composition)
-    next.notationChunks = (next.notationChunks || []).concat(result.chunk)
-    next.assemblyStale = true
-    runAssembly(next)
+    applyCompositionMutation(function(next) {
+      return assignNotationChunkToPairingRow(next, selectModal.pairingId, result.chunk)
+    }, { assemble: true })
+    setSelectModal(null)
   }
 
-  function handleAddNotationStrainChunk(payload) {
+  function handleSelectNotationStrain(payload) {
+    if (!selectModal || !selectModal.pairingId) return
     const chunk = {
       id: generateCompositionChunkId(),
       sourceKind: 'notation-strain',
@@ -164,13 +173,14 @@ export default function ScratchpadCompositionEditor(props) {
       order: payload.order,
       enabled: true,
     }
-    const next = cloneComposition(composition)
-    next.notationChunks = (next.notationChunks || []).concat(chunk)
-    next.assemblyStale = true
-    runAssembly(next)
+    applyCompositionMutation(function(next) {
+      return assignNotationChunkToPairingRow(next, selectModal.pairingId, chunk)
+    }, { assemble: true })
+    setSelectModal(null)
   }
 
   function handleEmbeddedChordAction(action, pending) {
+    const pairingId = selectModal && selectModal.pairingId
     const result = applyEmbeddedChordAction(composition, action, {
       text: pending.text,
       lyricsChunk: pending.chunkDraft,
@@ -185,59 +195,27 @@ export default function ScratchpadCompositionEditor(props) {
       toast.error(result.error && result.error.message ? result.error.message : 'Could not apply chord action')
       return
     }
-    const next = result.composition
-    next.assemblyStale = true
-    runAssembly(next)
+    applyCompositionMutation(function(next) {
+      let merged = cloneComposition(result.composition)
+      if (pairingId && pending.chunkDraft) {
+        const lyricsChunk = merged.lyricsChunks.find(function(chunk) {
+          return chunk && chunk.id === pending.chunkDraft.id
+        }) || pending.chunkDraft
+        merged = assignLyricsChunkToPairingRow(merged, pairingId, lyricsChunk)
+      }
+      if (pairingId && result.notationChunk) {
+        merged = assignNotationChunkToPairingRow(merged, pairingId, result.notationChunk)
+      }
+      return merged
+    }, { assemble: true })
+    setSelectModal(null)
   }
 
-  function toggleChunkEnabled(kind, chunkId, enabled) {
-    const next = cloneComposition(composition)
-    const listKey = kind === 'lyrics' ? 'lyricsChunks' : 'notationChunks'
-    next[listKey] = (next[listKey] || []).map(function(chunk) {
-      if (chunk.id !== chunkId) return chunk
-      return Object.assign({}, chunk, { enabled: enabled })
-    })
-    next.assemblyStale = true
-    runAssembly(next)
-  }
-
-  function removeChunk(kind, chunkId) {
-    const next = cloneComposition(composition)
-    const listKey = kind === 'lyrics' ? 'lyricsChunks' : 'notationChunks'
-    next[listKey] = (next[listKey] || []).filter(function(chunk) { return chunk.id !== chunkId })
-    next.pairings = (next.pairings || []).filter(function(pair) {
-      return pair.lyricsChunkId !== chunkId && pair.notationChunkId !== chunkId
-    })
-    next.assemblyStale = true
-    runAssembly(next)
-  }
-
-  function handleLyricsEdit(chunkId, text) {
-    const next = cloneComposition(composition)
-    next.assemblyStale = true
-    setPlainLyricLines(next.tuneSnapshot, String(text || '').split(/\r?\n/))
-    persistComposition(next)
-  }
-
-  function handleChunkReorder(kind, chunkId, direction) {
-    const next = reorderCompositionChunks(composition, kind, chunkId, direction)
-    if (next === composition) return
-    next.assemblyStale = true
-    runAssembly(next)
-  }
-
-  function handlePairingChange(lyricsChunkId, notationChunkId) {
-    const next = setCompositionPairing(composition, lyricsChunkId, notationChunkId)
-    next.assemblyStale = true
-    runAssembly(next)
-  }
-
-  function handleTuneSavedFromFix(nextTune) {
-    if (!nextTune) return
-    const next = cloneComposition(composition)
-    next.tuneSnapshot = nextTune
-    next.assemblyStale = true
-    persistComposition(next)
+  function handleSourceChanged() {
+    applyCompositionMutation(function(next) {
+      return next
+    }, { assemble: true })
+    if (props.onChange) props.onChange()
   }
 
   async function handleSaveAsNotation() {
@@ -255,27 +233,44 @@ export default function ScratchpadCompositionEditor(props) {
     }
   }
 
-  const lyricsChunks = sortChunks(composition.lyricsChunks || [])
-  const notationChunks = sortChunks(composition.notationChunks || [])
-
   return (
-    <div className="scratchpad-composition-editor">
+    <div className="scratchpad-composition-editor scratchpad-composition-editor--pairings">
       <ScratchpadEditorChrome
         item={item}
         tunebook={tunebook}
         tunes={tunes}
         token={props.token}
+        login={props.login}
+        scratchpadSync={props.scratchpadSync}
+        requestGoogleScopes={props.requestGoogleScopes}
         onChange={props.onChange}
         onDeleted={props.onDeleted}
         onBack={props.onBack}
+        onUndo={handleUndo}
+        onRedo={handleRedo}
+        canUndo={history.canUndo}
+        canRedo={history.canRedo}
+        beforeTitle={
+          <Button size="sm" variant="primary" onClick={handleAddPairing}>
+            Add pairing
+          </Button>
+        }
         extraUseActions={[
           { id: 'save-notation', label: 'Save as notation item', onClick: handleSaveAsNotation },
         ]}
         onOpenItem={props.onOpenItem}
-      />
+      >
+        <ScratchpadDriveSyncControl
+          scratchpadSync={props.scratchpadSync}
+          token={props.token}
+          login={props.login}
+          requestGoogleScopes={props.requestGoogleScopes}
+          compact={true}
+        />
+      </ScratchpadEditorChrome>
       {reassemblyConfirm ? (
         <Alert variant="warning" className="m-2">
-          The working tune was edited manually. Re-assemble from chunks?
+          The working tune was edited manually. Re-assemble from pairings?
           <div className="mt-2">
             <Button size="sm" variant="primary" onClick={function() { requestReassembly(composition) }}>
               Re-assemble
@@ -286,90 +281,45 @@ export default function ScratchpadCompositionEditor(props) {
           </div>
         </Alert>
       ) : null}
-      <div className="scratchpad-composition-layout">
-        <div className="scratchpad-composition-sidebar">
-          <h6>Sources</h6>
-          <ScratchpadCompositionChunkPicker
-            itemId={item.id}
-            workspaceId={item.workspaceId}
-            composition={composition}
-            onAddLyricsChunk={handleAddLyricsChunk}
-            onAddChordSheetChunk={handleAddChordSheetChunk}
-            onAddNotationStrainChunk={handleAddNotationStrainChunk}
-            onEmbeddedChordAction={handleEmbeddedChordAction}
-          />
-          <h6 className="mt-3">Selected chunks</h6>
-          <p className="text-muted small">Order here sets default lyrics ↔ notation pairing.</p>
-          <ListGroup className="scratchpad-composition-chunk-list">
-            {lyricsChunks.map(function(chunk, index) {
-              return (
-                <ListGroup.Item key={chunk.id} className="scratchpad-composition-chunk-item">
-                  <div className="scratchpad-composition-chunk-item-head">
-                    <Form.Check
-                      type="checkbox"
-                      checked={chunk.enabled !== false}
-                      onChange={function(e) { toggleChunkEnabled('lyrics', chunk.id, e.target.checked) }}
-                      label={(index + 1) + '. Lyrics: ' + chunk.label}
-                    />
-                    <div className="scratchpad-composition-chunk-item-actions">
-                      <ChunkReorderButtons
-                        disableUp={index === 0}
-                        disableDown={index === lyricsChunks.length - 1}
-                        onReorder={function(dir) { handleChunkReorder('lyrics', chunk.id, dir) }}
-                      />
-                      <Button size="sm" variant="outline-danger" onClick={function() { removeChunk('lyrics', chunk.id) }}>×</Button>
-                    </div>
-                  </div>
-                  {chunk.plainLyricsOnly ? <span className="badge bg-secondary">plain lyrics</span> : null}
-                </ListGroup.Item>
-              )
-            })}
-            {notationChunks.map(function(chunk, index) {
-              return (
-                <ListGroup.Item key={chunk.id} className="scratchpad-composition-chunk-item">
-                  <div className="scratchpad-composition-chunk-item-head">
-                    <Form.Check
-                      type="checkbox"
-                      checked={chunk.enabled !== false}
-                      onChange={function(e) { toggleChunkEnabled('notation', chunk.id, e.target.checked) }}
-                      label={(index + 1) + '. Notation: ' + chunk.label + (chunk.chordMode ? ' (' + chunk.chordMode + ')' : '')}
-                    />
-                    <div className="scratchpad-composition-chunk-item-actions">
-                      <ChunkReorderButtons
-                        disableUp={index === 0}
-                        disableDown={index === notationChunks.length - 1}
-                        onReorder={function(dir) { handleChunkReorder('notation', chunk.id, dir) }}
-                      />
-                      <Button size="sm" variant="outline-danger" onClick={function() { removeChunk('notation', chunk.id) }}>×</Button>
-                    </div>
-                  </div>
-                </ListGroup.Item>
-              )
-            })}
-          </ListGroup>
-          <Button size="sm" variant="outline-primary" className="mt-2" onClick={function() { runAssembly(composition) }}>
-            Re-assemble
-          </Button>
-        </div>
-        <div className="scratchpad-composition-main">
-          <ScratchpadCompositionAlignmentPanel
-            composition={composition}
-            onLyricsChange={handleLyricsEdit}
-            onPairingChange={handlePairingChange}
-          />
-        </div>
-        <div className="scratchpad-composition-issues">
-          <NotationIssuesPanel
-            inline={true}
-            tune={workingTune}
-            tunebook={tunebook}
-            issues={checkResults.issues}
-            checkResults={checkResults}
-            parseAndRender={abcjsParser.parseAndRender}
-            onTuneSaved={handleTuneSavedFromFix}
-          />
-        </div>
+      <div className="scratchpad-composition-pairings-page">
+        <ScratchpadCompositionPairingsPanel
+          composition={composition}
+          tunebook={tunebook}
+          onAddPairing={handleAddPairing}
+          onRemovePairing={handleRemovePairing}
+          onSelectSide={handleSelectSide}
+          onEditSource={function(sourceId) { setSourceEditorId(sourceId) }}
+        />
       </div>
+      <ScratchpadCompositionChunkSelectModal
+        show={!!selectModal}
+        mode={selectModal && selectModal.side}
+        itemId={item.id}
+        workspaceId={item.workspaceId}
+        composition={composition}
+        onHide={function() { setSelectModal(null) }}
+        onSelectLyricsChunk={handleSelectLyricsChunk}
+        onSelectChordSheet={handleSelectChordSheet}
+        onSelectNotationStrain={handleSelectNotationStrain}
+        onEmbeddedChordAction={handleEmbeddedChordAction}
+      />
+      <ScratchpadCompositionSourceEditorModal
+        show={!!sourceEditorId}
+        sourceItemId={sourceEditorId}
+        tunebook={tunebook}
+        tunes={tunes}
+        token={props.token}
+        login={props.login}
+        editHistory={props.editHistory}
+        mediaController={props.mediaController}
+        forceRefresh={props.forceRefresh}
+        blockKeyboardShortcuts={props.blockKeyboardShortcuts}
+        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+        searchIndex={props.searchIndex}
+        loadTuneTexts={props.loadTuneTexts}
+        onSourceChanged={handleSourceChanged}
+        onHide={function() { setSourceEditorId(null) }}
+      />
     </div>
   )
 }

@@ -7,6 +7,8 @@ import {
   listWorkspaces,
   replaceAllScratchpadData,
   notifyScratchpadChanged,
+  listScratchpadTombstones,
+  clearScratchpadTombstones,
 } from './scratchpadStore'
 import { normalizeAudioProject } from './scratchpadAudioProject'
 import { getScratchpadBlob as getBlob, putScratchpadBlob as putBlob } from './scratchpadBlobs'
@@ -336,7 +338,7 @@ export async function syncScratchpadWithDrive(driveApi, options) {
   const remoteWorkspaces = remote.data && remote.data.workspaces ? remote.data.workspaces : []
   const remoteItems = remote.data && remote.data.items ? remote.data.items : []
   const remoteTombstones = remote.data && remote.data.tombstones ? remote.data.tombstones : []
-  const localTombstones = remote.data && remote.data.localTombstones ? remote.data.localTombstones : []
+  const localTombstones = listScratchpadTombstones()
   const remoteItemById = {}
   remoteItems.forEach(function(remoteItem) {
     if (remoteItem && remoteItem.id) remoteItemById[remoteItem.id] = remoteItem
@@ -413,6 +415,7 @@ export async function syncScratchpadWithDrive(driveApi, options) {
   }
   await uploadOrUpdateJson(driveApi, scratchpadFolderId, remote.indexId, SCRATCHPAD_INDEX_NAME, indexPayload)
   await flushScratchpadDriveDeletes(driveApi, opts)
+  clearScratchpadTombstones()
 
   if (typeof opts.onProgress === 'function') {
     opts.onProgress({ uploaded: uploaded, downloaded: downloaded, items: nextItems.length })

@@ -11523,6 +11523,34 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   flex: 0 0 auto;
 }
 
+.scratchpad-drive-sync-control {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.scratchpad-drive-sync-control--compact {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.scratchpad-drive-sync-btn {
+  white-space: nowrap;
+}
+
+.scratchpad-drive-sync-pending {
+  font-size: 0.65rem;
+  vertical-align: middle;
+}
+
+.scratchpad-drive-sync-alert {
+  width: 100%;
+  max-width: 28rem;
+  margin-bottom: 0;
+}
+
 .scratchpad-associate-tune-suggestions__buttons {
   display: flex;
   flex-wrap: wrap;
@@ -11992,9 +12020,170 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
   font-size: 0.75rem;
   font-weight: 600;
   color: #6c757d;
-  margin-bottom: 0.35rem;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+}
+
+.scratchpad-composition-pairing-col-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.scratchpad-composition-readonly-preview {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  padding: 0.5rem;
+  border: 1px solid #e9ecef;
+  border-radius: 0.35rem;
+  background: #fafafa;
+  white-space: pre-wrap;
+}
+
+.scratchpad-composition-association-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.scratchpad-composition-association-row {
+  border: 1px solid #dee2e6;
+  border-radius: 0.35rem;
+  padding: 0.65rem;
+  background: #fff;
+}
+
+.scratchpad-composition-association-row-head,
+.scratchpad-composition-unused-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.scratchpad-composition-association-index {
+  color: #6c757d;
+  margin-right: 0.25rem;
+}
+
+.scratchpad-composition-unused-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.scratchpad-composition-sources-panel {
+  border: 1px solid #dee2e6;
+  border-radius: 0.35rem;
+  padding: 0.65rem;
+  background: #fafafa;
+}
+
+.scratchpad-composition-source-modal-body {
+  padding: 0;
+  min-height: 0;
+}
+
+.scratchpad-composition-source-modal .scratchpad-text-editor,
+.scratchpad-composition-source-modal .scratchpad-item-page {
+  min-height: 100%;
+}
+
+.scratchpad-composition-editor--pairings {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.scratchpad-composition-pairings-page {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 0.75rem;
+  padding-top: calc(var(--scratchpad-editor-chrome-height, 3.1rem) * var(--chrome-vv-zoom, 1) + 0.75rem);
+  overflow: auto;
+}
+
+.scratchpad-editor-chrome-before-title {
+  flex: 0 0 auto;
+}
+
+.scratchpad-composition-pairings-empty {
+  padding: 1rem;
+  border: 1px dashed #dee2e6;
+  border-radius: 0.35rem;
+  background: #fafafa;
+  text-align: center;
+}
+
+.scratchpad-composition-pairings-panel {
+  max-width: 1100px;
+}
+
+.scratchpad-composition-pairings-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.35rem;
+}
+
+.scratchpad-composition-pairings-title {
+  margin: 0;
+}
+
+.scratchpad-composition-pairings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.scratchpad-composition-pairing-block {
+  border: 1px solid #dee2e6;
+  border-radius: 0.4rem;
+  padding: 0.75rem;
+  background: #fff;
+}
+
+.scratchpad-composition-pairing-block-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.65rem;
+}
+
+.scratchpad-composition-pairing-block-index {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.scratchpad-composition-pairing-col-actions {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.scratchpad-composition-icon-btn {
+  min-width: 2rem;
+  padding: 0.15rem 0.4rem;
+}
+
+.scratchpad-composition-pairing-empty {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  border: 1px dashed #dee2e6;
+  border-radius: 0.35rem;
+  background: #fafafa;
+}
+
+.scratchpad-composition-pairing-side-label {
+  margin-bottom: 0.35rem;
+}
+
+.scratchpad-composition-chunk-select-modal .modal-body {
+  max-height: 70vh;
 }
 
 .scratchpad-composition-pairing-preview {

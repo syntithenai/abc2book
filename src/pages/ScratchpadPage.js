@@ -17,6 +17,7 @@ import {
 import ScratchpadItemGrid from '../components/scratchpad/ScratchpadItemGrid'
 import ScratchpadWorkspaceDialog from '../components/scratchpad/ScratchpadWorkspaceDialog'
 import ScratchpadCreateWizard from '../components/scratchpad/ScratchpadCreateWizard'
+import ScratchpadDriveSyncControl from '../components/scratchpad/ScratchpadDriveSyncControl'
 import SelectAllToggle from '../components/SelectAllToggle'
 
 export default function ScratchpadPage(props) {
@@ -183,6 +184,12 @@ export default function ScratchpadPage(props) {
             </Dropdown.Menu>
           </Dropdown>
         ) : null}
+        <ScratchpadDriveSyncControl
+          scratchpadSync={props.scratchpadSync}
+          token={props.token}
+          login={props.login}
+          requestGoogleScopes={props.requestGoogleScopes}
+        />
         <Button
           variant="success"
           className="scratchpad-create-btn"

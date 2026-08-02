@@ -263,6 +263,20 @@ class BillingLedgerTests(unittest.TestCase):
         self.assertFalse(result.get("ok"))
 
 
+class BillingEstimatesTests(unittest.TestCase):
+    def test_tts_speech_estimate_uses_text_length(self):
+        from billing_estimates import estimate_operation_millicents
+
+        short = estimate_operation_millicents("tts_speech", {"text_chars": 20})
+        long = estimate_operation_millicents("tts_speech", {"text_chars": 200})
+        self.assertGreater(long, short)
+
+    def test_tts_speech_in_catalog(self):
+        from billing_estimates import OPERATION_CATALOG
+
+        self.assertIn("tts_speech", OPERATION_CATALOG)
+
+
 class BillingAdminRouteTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()

@@ -5,11 +5,27 @@ import {
 } from './playlistTitleAnnouncement'
 import * as voiceSettings from './voiceSettings'
 import * as ttsClient from './ttsClient'
+import { checkCanAfford } from './creditAffordabilityClient'
+import { getActiveResolverAccessToken } from './mediaResolverHealthStore'
 
 jest.mock('./voiceSettings', function() {
   return {
     isSpeakSongTitlesEnabled: jest.fn(function() { return true }),
     isSpeakArtistNamesEnabled: jest.fn(function() { return false }),
+  }
+})
+
+jest.mock('./creditAffordabilityClient', function() {
+  return {
+    __esModule: true,
+    checkCanAfford: jest.fn(),
+  }
+})
+
+jest.mock('./mediaResolverHealthStore', function() {
+  return {
+    __esModule: true,
+    getActiveResolverAccessToken: jest.fn(function() { return null }),
   }
 })
 
@@ -26,6 +42,11 @@ describe('playlistTitleAnnouncement', function() {
     voiceSettings.isSpeakSongTitlesEnabled.mockReturnValue(true)
     voiceSettings.isSpeakArtistNamesEnabled.mockReturnValue(false)
     ttsClient.synthesizeSpeech.mockReset()
+    checkCanAfford.mockResolvedValue({
+      affordable: true,
+      creditUnlimited: false,
+    })
+    getActiveResolverAccessToken.mockReturnValue(null)
     URL.createObjectURL = jest.fn(function() { return 'blob:test' })
     URL.revokeObjectURL = jest.fn()
   })
@@ -50,21 +71,23 @@ describe('playlistTitleAnnouncement', function() {
     expect(ttsClient.synthesizeSpeech).not.toHaveBeenCalled()
   })
 
-  test('requests TTS for tune name when enabled', function() {
+  test('requests TTS for tune name when enabled', async function() {
     const blob = new Blob(['wav'], { type: 'audio/wav' })
     ttsClient.synthesizeSpeech.mockResolvedValue(blob)
 
     announcePlaylistTrack({ name: 'Blue Moon' })
+    await Promise.resolve()
 
     expect(ttsClient.synthesizeSpeech).toHaveBeenCalledWith('Blue Moon')
   })
 
-  test('requests TTS with artist when enabled', function() {
+  test('requests TTS with artist when enabled', async function() {
     const blob = new Blob(['wav'], { type: 'audio/wav' })
     ttsClient.synthesizeSpeech.mockResolvedValue(blob)
     voiceSettings.isSpeakArtistNamesEnabled.mockReturnValue(true)
 
     announcePlaylistTrack({ name: 'Blue Moon', composer: 'Rodgers' })
+    await Promise.resolve()
 
     expect(ttsClient.synthesizeSpeech).toHaveBeenCalledWith('Blue Moon by Rodgers')
   })
@@ -82,6 +105,20 @@ describe('playlistTitleAnnouncement', function() {
 
     await pending
     expect(document.getElementById('player')).toBeNull()
+  })
+
+  test('skips TTS when cannot afford', async function() {
+    getActiveResolverAccessToken.mockReturnValue('token')
+    checkCanAfford.mockResolvedValue({
+      affordable: false,
+      creditUnlimited: false,
+    })
+
+    announcePlaylistTrack({ name: 'Cannot Afford Tune' })
+    await new Promise(function(resolve) { setTimeout(resolve, 0) })
+
+    expect(checkCanAfford).toHaveBeenCalled()
+    expect(ttsClient.synthesizeSpeech).not.toHaveBeenCalled()
   })
 
   test('uses cache on repeat title', async function() {

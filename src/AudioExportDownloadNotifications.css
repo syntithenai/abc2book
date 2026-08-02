@@ -1,0 +1,36 @@
+.audio-export-ready-toasts {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 1000002;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  max-width: min(96vw, 28rem);
+  pointer-events: none;
+}
+
+.audio-export-ready-toast {
+  pointer-events: auto;
+  touch-action: manipulation;
+  background: #198754;
+  color: #fff;
+  padding: 0.85em 1em;
+  border-radius: 0.375rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.18);
+}
+
+.audio-export-ready-toast-message {
+  margin-bottom: 0.65em;
+  line-height: 1.35;
+}
+
+.audio-export-ready-toast-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.audio-export-ready-toast-actions .btn {
+  min-height: 2rem;
+}

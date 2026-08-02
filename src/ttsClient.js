@@ -1,5 +1,6 @@
 import { fetchViaMediaProxy } from './mediaProxyClient'
 import { getActiveResolverAccessToken } from './mediaResolverHealthStore'
+import { parseInsufficientCreditBody } from './creditAffordabilityClient'
 
 export async function synthesizeSpeech(text, accessToken) {
   const input = typeof text === 'string' ? text.trim() : ''
@@ -21,7 +22,12 @@ export async function synthesizeSpeech(text, accessToken) {
     let message = 'Speech synthesis failed'
     try {
       const body = await response.json()
-      if (body && body.error) message = body.error
+      const insufficient = parseInsufficientCreditBody(body)
+      if (insufficient && insufficient.shortfallCents != null) {
+        message = 'Insufficient credit for speech synthesis'
+      } else if (body && body.error) {
+        message = body.error
+      }
     } catch (e) {
       // ignore
     }

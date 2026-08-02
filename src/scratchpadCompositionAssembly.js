@@ -10,6 +10,7 @@ import {
   plainLyricLinesFromText,
   standardizeTextToChordProOnTune,
   sectionTextForChunk,
+  generateCompositionChunkId,
 } from './scratchpadCompositionChordImport'
 import { setPlainLyricLines, getPlainLyricLines } from './wLinesUtils'
 import { buildAbcFromTune } from './components/SuggestionPreviewDialog'
@@ -157,8 +158,155 @@ export function setCompositionPairing(composition, lyricsChunkId, notationChunkI
       notationChunkId: notationChunkId,
     })
   } else {
-    pairings.push({ lyricsChunkId: lyricsChunkId, notationChunkId: notationChunkId })
+    pairings.push({
+      id: generateCompositionChunkId(),
+      order: pairings.length,
+      lyricsChunkId: lyricsChunkId,
+      notationChunkId: notationChunkId,
+    })
   }
+  next.pairings = reindexPairingOrders(pairings)
+  return next
+}
+
+function reindexPairingOrders(pairings) {
+  return (Array.isArray(pairings) ? pairings : []).map(function(pair, index) {
+    return Object.assign({}, pair, { order: index })
+  })
+}
+
+function removeOrphanChunk(composition, kind, chunkId, pairingId) {
+  const listKey = kind === 'lyrics' ? 'lyricsChunks' : 'notationChunks'
+  const field = kind === 'lyrics' ? 'lyricsChunkId' : 'notationChunkId'
+  const pairings = composition.pairings || []
+  const stillUsed = pairings.some(function(pair) {
+    return pair && pair.id !== pairingId && pair[field] === chunkId
+  })
+  if (stillUsed) return composition
+  composition[listKey] = (composition[listKey] || []).filter(function(chunk) {
+    return chunk && chunk.id !== chunkId
+  })
+  return composition
+}
+
+export function normalizeCompositionPairingRows(composition) {
+  if (!composition) return composition
+  const next = cloneTune(composition)
+  const pairings = Array.isArray(next.pairings) ? next.pairings : []
+  if (pairings.length && pairings.every(function(pair) { return pair && pair.id })) {
+    next.pairings = reindexPairingOrders(pairings)
+    return next
+  }
+
+  const built = buildCompositionPairings(next)
+  const rows = []
+  built.forEach(function(pair, index) {
+    if (!pair.lyricsChunk && !pair.notationChunk) return
+    rows.push({
+      id: generateCompositionChunkId(),
+      order: index,
+      lyricsChunkId: pair.lyricsChunk ? pair.lyricsChunk.id : null,
+      notationChunkId: pair.notationChunk ? pair.notationChunk.id : null,
+    })
+  })
+  next.pairings = rows
+  return next
+}
+
+export function buildCompositionPairingRows(composition) {
+  const comp = composition || {}
+  const lyricsById = {}
+  const notationById = {}
+  enabledChunks(comp.lyricsChunks).forEach(function(chunk) {
+    lyricsById[chunk.id] = chunk
+  })
+  enabledChunks(comp.notationChunks).forEach(function(chunk) {
+    notationById[chunk.id] = chunk
+  })
+  const rows = sortChunks(comp.pairings || []).filter(function(row) {
+    return row && row.id
+  })
+  return rows.map(function(row) {
+    return {
+      id: row.id,
+      order: row.order,
+      lyricsChunk: row.lyricsChunkId ? lyricsById[row.lyricsChunkId] : null,
+      notationChunk: row.notationChunkId ? notationById[row.notationChunkId] : null,
+    }
+  })
+}
+
+export function addCompositionPairingRow(composition) {
+  if (!composition) return composition
+  const next = cloneTune(composition)
+  const pairings = Array.isArray(next.pairings) ? next.pairings.slice() : []
+  pairings.push({
+    id: generateCompositionChunkId(),
+    order: pairings.length,
+    lyricsChunkId: null,
+    notationChunkId: null,
+  })
+  next.pairings = reindexPairingOrders(pairings)
+  return next
+}
+
+export function removeCompositionPairingRow(composition, pairingId) {
+  if (!composition || !pairingId) return composition
+  const next = cloneTune(composition)
+  const row = (next.pairings || []).find(function(pair) {
+    return pair && pair.id === pairingId
+  })
+  if (!row) return composition
+  next.pairings = reindexPairingOrders((next.pairings || []).filter(function(pair) {
+    return pair && pair.id !== pairingId
+  }))
+  if (row.lyricsChunkId) {
+    removeOrphanChunk(next, 'lyrics', row.lyricsChunkId, pairingId)
+  }
+  if (row.notationChunkId) {
+    removeOrphanChunk(next, 'notation', row.notationChunkId, pairingId)
+  }
+  return next
+}
+
+export function assignLyricsChunkToPairingRow(composition, pairingId, chunk) {
+  if (!composition || !pairingId || !chunk || !chunk.id) return composition
+  const next = cloneTune(composition)
+  const pairings = Array.isArray(next.pairings) ? next.pairings.slice() : []
+  const index = pairings.findIndex(function(pair) { return pair && pair.id === pairingId })
+  if (index < 0) return composition
+  const row = pairings[index]
+  if (row.lyricsChunkId && row.lyricsChunkId !== chunk.id) {
+    removeOrphanChunk(next, 'lyrics', row.lyricsChunkId, pairingId)
+  }
+  const lyricsChunks = Array.isArray(next.lyricsChunks) ? next.lyricsChunks.slice() : []
+  const existingIdx = lyricsChunks.findIndex(function(c) { return c && c.id === chunk.id })
+  const nextChunk = Object.assign({}, chunk, { enabled: true })
+  if (existingIdx >= 0) lyricsChunks[existingIdx] = Object.assign({}, lyricsChunks[existingIdx], nextChunk)
+  else lyricsChunks.push(nextChunk)
+  next.lyricsChunks = lyricsChunks
+  pairings[index] = Object.assign({}, row, { lyricsChunkId: chunk.id })
+  next.pairings = pairings
+  return next
+}
+
+export function assignNotationChunkToPairingRow(composition, pairingId, chunk) {
+  if (!composition || !pairingId || !chunk || !chunk.id) return composition
+  const next = cloneTune(composition)
+  const pairings = Array.isArray(next.pairings) ? next.pairings.slice() : []
+  const index = pairings.findIndex(function(pair) { return pair && pair.id === pairingId })
+  if (index < 0) return composition
+  const row = pairings[index]
+  if (row.notationChunkId && row.notationChunkId !== chunk.id) {
+    removeOrphanChunk(next, 'notation', row.notationChunkId, pairingId)
+  }
+  const notationChunks = Array.isArray(next.notationChunks) ? next.notationChunks.slice() : []
+  const existingIdx = notationChunks.findIndex(function(c) { return c && c.id === chunk.id })
+  const nextChunk = Object.assign({}, chunk, { enabled: true })
+  if (existingIdx >= 0) notationChunks[existingIdx] = Object.assign({}, notationChunks[existingIdx], nextChunk)
+  else notationChunks.push(nextChunk)
+  next.notationChunks = notationChunks
+  pairings[index] = Object.assign({}, row, { notationChunkId: chunk.id })
   next.pairings = pairings
   return next
 }

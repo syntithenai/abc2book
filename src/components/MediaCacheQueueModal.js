@@ -48,8 +48,10 @@ export function MediaCacheQueueModal({
           renderJobMeta={function(job, QueueBadge) {
             return (
               <>
-                <QueueBadge variant={job.type === 'download' ? 'info' : 'cache'} classPrefix="media-cache">
-                  {job.type === 'download' ? 'Download' : 'Cache'}
+                <QueueBadge variant={job.type === 'cache' ? 'cache' : 'info'} classPrefix="media-cache">
+                  {job.type === 'cache'
+                    ? 'Cache'
+                    : (job.type === 'processed-download' ? 'Processed download' : 'Download')}
                 </QueueBadge>
                 {job.srcType === 'youtube' ? (
                   <QueueBadge variant="youtube" classPrefix="media-cache">YouTube</QueueBadge>
@@ -61,9 +63,16 @@ export function MediaCacheQueueModal({
             )
           }}
           renderJobExtra={function(job) {
-            return job.error ? (
-              <div className="text-danger media-cache-queue-item-error">{job.error}</div>
-            ) : null
+            return (
+              <>
+                {job.message ? (
+                  <div className="text-muted media-cache-queue-item-message">{job.message}</div>
+                ) : null}
+                {job.error ? (
+                  <div className="text-danger media-cache-queue-item-error">{job.error}</div>
+                ) : null}
+              </>
+            )
           }}
         />
       </Modal.Body>

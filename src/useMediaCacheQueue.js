@@ -44,5 +44,8 @@ export default function useMediaCacheQueue() {
     enqueueDownloadJob: mediaCacheQueue.enqueueDownloadJob,
     enqueueTunesCacheJobs: mediaCacheQueue.enqueueTunesCacheJobs,
     enqueueTunesDownloadJobs: mediaCacheQueue.enqueueTunesDownloadJobs,
+    enqueueProcessedDownloadJob: mediaCacheQueue.enqueueProcessedDownloadJob,
+    hasActiveExportJobForTune: mediaCacheQueue.hasActiveExportJobForTune,
+    whenJobSettles: mediaCacheQueue.whenJobSettles,
   }
 }

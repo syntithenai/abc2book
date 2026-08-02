@@ -8,11 +8,19 @@ import {
   deleteScratchpadItem,
   listWorkspaces,
 } from '../../scratchpadStore'
-import { getAssociateModesForItem, isScratchpadAnalyseMode } from '../../scratchpadAssociate'
+import {
+  getAssociateModesForItem,
+  isScratchpadAnalyseMode,
+  isScratchpadTranscribeMode,
+} from '../../scratchpadAssociate'
 import {
   getScratchpadAnalyseAccess,
   getScratchpadAnalyseUseLabel,
 } from '../../scratchpadAnalyseAccess'
+import {
+  getScratchpadTranscribeAccess,
+  getScratchpadTranscribeUseLabel,
+} from '../../scratchpadTranscribeAccess'
 import useMediaResolverHealth from '../../useMediaResolverHealth'
 import { useCreditAffordance } from '../../useCreditAffordance'
 import {
@@ -24,7 +32,9 @@ import { scratchpadItemPath } from '../../scratchpadExportToast'
 import { SCRATCHPAD_DROPDOWN_POPPER } from '../../scratchpadDropdownPopper'
 import ScratchpadAssociateModal from './ScratchpadAssociateModal'
 import ScratchpadAnalyseModal from './ScratchpadAnalyseModal'
+import ScratchpadTranscribeModal from './ScratchpadTranscribeModal'
 import ScratchpadCopyModal from './ScratchpadCopyModal'
+import ScratchpadDriveSyncControl from './ScratchpadDriveSyncControl'
 
 export default function ScratchpadEditorChrome(props) {
   const item = props.item
@@ -35,6 +45,7 @@ export default function ScratchpadEditorChrome(props) {
   const [workspaces, setWorkspaces] = useState([])
   const [showAssociate, setShowAssociate] = useState(false)
   const [showAnalyse, setShowAnalyse] = useState(false)
+  const [showTranscribe, setShowTranscribe] = useState(false)
   const [showCopyModal, setShowCopyModal] = useState(false)
   const [associateMode, setAssociateMode] = useState('')
   const titleTimeout = useRef(null)
@@ -78,8 +89,37 @@ export default function ScratchpadEditorChrome(props) {
     analyseAffordance,
   ])
 
+  const transcribeAffordance = item && item.type === 'audio' ? audioAffordance : null
+  const transcribeAccess = useMemo(function() {
+    if (!item || item.type !== 'audio') {
+      return { showOption: false }
+    }
+    return getScratchpadTranscribeAccess({
+      resolverChecked: resolverChecked,
+      resolverAvailable: resolverAvailable,
+      resolverStatus: resolverStatus,
+      features: features,
+      accessToken: props.token,
+      affordance: transcribeAffordance && transcribeAffordance.checked ? transcribeAffordance : null,
+    })
+  }, [
+    resolverChecked,
+    resolverAvailable,
+    resolverStatus,
+    features,
+    props.token,
+    item && item.type,
+    transcribeAffordance,
+  ])
+
   const associateModes = useMemo(function() {
     const modes = getAssociateModesForItem(item).slice()
+    if (transcribeAccess.showOption) {
+      modes.push({
+        id: 'transcribe',
+        label: getScratchpadTranscribeUseLabel(transcribeAccess),
+      })
+    }
     if (analyseAccess.showOption) {
       modes.push({
         id: 'analyse',
@@ -87,7 +127,7 @@ export default function ScratchpadEditorChrome(props) {
       })
     }
     return modes
-  }, [item, analyseAccess])
+  }, [item, analyseAccess, transcribeAccess])
 
   useEffect(function() {
     setTitle(item.title || '')
@@ -132,6 +172,10 @@ export default function ScratchpadEditorChrome(props) {
   function openUseMode(modeId) {
     if (isScratchpadAnalyseMode(modeId)) {
       setShowAnalyse(true)
+      return
+    }
+    if (isScratchpadTranscribeMode(modeId)) {
+      setShowTranscribe(true)
       return
     }
     setAssociateMode(modeId)
@@ -185,6 +229,11 @@ export default function ScratchpadEditorChrome(props) {
         </div>
       ) : null}
       <div className="scratchpad-editor-chrome-main">
+        {props.beforeTitle ? (
+          <div className="scratchpad-editor-chrome-before-title">
+            {props.beforeTitle}
+          </div>
+        ) : null}
         <Form.Group className="scratchpad-item-title-group mb-0">
           <Form.Label className="scratchpad-item-title-label mb-0">Title</Form.Label>
           <Form.Control
@@ -216,6 +265,13 @@ export default function ScratchpadEditorChrome(props) {
         <Button variant="outline-secondary" size="sm" onClick={openCopyModal} title="Duplicate">
           {icons.filecopyline || 'Copy'}
         </Button>
+        <ScratchpadDriveSyncControl
+          scratchpadSync={props.scratchpadSync}
+          token={props.token}
+          login={props.login}
+          requestGoogleScopes={props.requestGoogleScopes}
+          compact={true}
+        />
         <Button variant="danger" size="sm" onClick={handleDelete} title="Delete">
           {icons.deletebin || 'Delete'}
         </Button>
@@ -272,6 +328,20 @@ export default function ScratchpadEditorChrome(props) {
         onHide={function() { setShowAnalyse(false) }}
         onCreated={function() {
           setShowAnalyse(false)
+          if (props.onChange) props.onChange()
+        }}
+        onOpenItem={openCreatedItem}
+      />
+
+      <ScratchpadTranscribeModal
+        show={showTranscribe}
+        item={item}
+        access={transcribeAccess}
+        token={props.token}
+        login={props.login}
+        onHide={function() { setShowTranscribe(false) }}
+        onCreated={function() {
+          setShowTranscribe(false)
           if (props.onChange) props.onChange()
         }}
         onOpenItem={openCreatedItem}

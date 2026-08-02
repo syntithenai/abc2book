@@ -1,6 +1,13 @@
+import React from 'react'
 import localforage from 'localforage'
 import { toast } from 'react-toastify'
 import { filterUnlockedTuneIds } from './mediaCacheLock'
+
+export const MEDIA_CACHE_SETTINGS_TAB = 'media'
+
+export function mediaCacheSettingsPath() {
+  return '/settings?tab=' + MEDIA_CACHE_SETTINGS_TAB
+}
 
 export const MEDIA_CACHE_WARN_THRESHOLD_KEY = 'bookstorage_media_cache_warn_threshold_mb'
 export const MEDIA_CACHE_FIRST_WARN_MB = 100
@@ -328,10 +335,27 @@ export function maybeWarnMediaCacheStorage(stats) {
 
   if (exceededMb > lastWarned) {
     setLastWarnedThresholdMb(exceededMb)
-    toast.warning(
-      'Media caches are using over ' + exceededMb + ' MB. Open Settings to review or free space.',
-      { autoClose: 10000, toastId: 'media-cache-storage-warning' }
-    )
+    const message = 'Media caches are using over ' + exceededMb + ' MB. Review or free space in Settings.'
+    toast.warning(function(renderProps) {
+      return (
+        <div
+          className="media-cache-storage-toast"
+          style={{ display: 'flex', alignItems: 'center', gap: '0.75em', flexWrap: 'wrap' }}
+        >
+          <span>{message}</span>
+          <button
+            type="button"
+            className="btn btn-sm btn-primary"
+            onClick={function() {
+              if (typeof renderProps.closeToast === 'function') renderProps.closeToast()
+              window.location.assign(mediaCacheSettingsPath())
+            }}
+          >
+            Open Settings
+          </button>
+        </div>
+      )
+    }, { autoClose: 10000, toastId: 'media-cache-storage-warning' })
     return { warned: true, thresholdMb: exceededMb, totalBytes: totalBytes }
   }
 

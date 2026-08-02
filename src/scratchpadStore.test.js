@@ -12,17 +12,22 @@ import {
   buildPreviewText,
   getActiveWorkspaceId,
   setActiveWorkspaceId,
+  listScratchpadTombstones,
+  scratchpadHasPendingSync,
+  saveScratchpadItem,
 } from './scratchpadStore'
 import { getScratchpadBlob } from './scratchpadBlobs'
 
 const WORKSPACES_KEY = 'bookstorage_scratchpad_workspaces'
 const ITEMS_KEY = 'bookstorage_scratchpad_items'
 const ACTIVE_WORKSPACE_KEY = 'bookstorage_scratchpad_active_workspace'
+const TOMBSTONES_KEY = 'bookstorage_scratchpad_tombstones'
 
 beforeEach(function() {
   localStorage.removeItem(WORKSPACES_KEY)
   localStorage.removeItem(ITEMS_KEY)
   localStorage.removeItem(ACTIVE_WORKSPACE_KEY)
+  localStorage.removeItem(TOMBSTONES_KEY)
 })
 
 describe('scratchpadStore', function() {
@@ -83,8 +88,25 @@ describe('scratchpadStore', function() {
     const item = await createScratchpadItem({ workspaceId: ws.id, type: 'text' })
     deleteScratchpadItem(item.id)
     expect(getScratchpadItem(item.id)).toBeNull()
+    expect(listScratchpadTombstones().some(function(t) {
+      return t.kind === 'item' && t.id === item.id
+    })).toBe(true)
     deleteWorkspace(ws.id)
     expect(listWorkspaces().find(function(w) { return w.id === ws.id })).toBeUndefined()
+    expect(listScratchpadTombstones().some(function(t) {
+      return t.kind === 'workspace' && t.id === ws.id
+    })).toBe(true)
+  })
+
+  test('saveScratchpadItem clears tombstone for same id', async function() {
+    const ws = createWorkspace('Tomb')
+    const item = await createScratchpadItem({ workspaceId: ws.id, type: 'text' })
+    deleteScratchpadItem(item.id)
+    expect(scratchpadHasPendingSync()).toBe(true)
+    saveScratchpadItem(Object.assign({}, item, { workspaceId: ws.id }))
+    expect(listScratchpadTombstones().some(function(t) {
+      return t.kind === 'item' && t.id === item.id
+    })).toBe(false)
   })
 
   test('buildPreviewText limits lines', function() {

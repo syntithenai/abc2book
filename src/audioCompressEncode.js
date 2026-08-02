@@ -213,13 +213,26 @@ async function encodeAacViaWebCodecs(audioBuffer) {
     }
   }
 
-  await encoder.flush();
-  encoder.close();
+  try {
+    await Promise.race([
+      encoder.flush(),
+      new Promise(function(_resolve, reject) {
+        setTimeout(function() {
+          reject(new Error('AAC encode timed out'));
+        }, 120000);
+      }),
+    ]);
+  } finally {
+    encoder.close();
+  }
   if (encodeError) {
     throw encodeError;
   }
   muxer.finalize();
   const blob = new Blob([target.buffer], { type: 'audio/mp4' });
+  if (!blob.size) {
+    throw new Error('AAC encode produced an empty file');
+  }
   return resultForFormat(blob, 'aac');
 }
 

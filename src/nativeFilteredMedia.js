@@ -1,7 +1,7 @@
 import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
 import { mixStemBuffers } from './audioStemMixer';
 import { fetchStemBuffers, separateStemsFromSource } from './mediaStemClient';
-import { getCachedStemSet, getStemSourceCacheKey, saveCachedStemSet } from './audioStemCache';
+import { getCachedStemSet, getStemSourceCacheKey, saveCachedStemSet, loadCachedStemSetForMedia } from './audioStemCache';
 
 export { encodeAudioBufferToWav };
 
@@ -23,6 +23,20 @@ export async function loadStemBuffersForSource(cacheOptions, options) {
     srcType: cacheOptions.srcType,
     label: cacheOptions.label || '',
   };
+  if (!opts.forceRefresh) {
+    const cached = await loadCachedStemSetForMedia(cacheOptions);
+    if (cached && cached.stemBuffers) {
+      return {
+        separation: cached.separation,
+        stemBuffers: cached.stemBuffers,
+        stemWavBytes: cached.stemWavBytes || cached.stemAudioBytes || null,
+        stemAudioBytes: cached.stemAudioBytes || cached.stemWavBytes || null,
+        audioFormat: cached.audioFormat || null,
+        fromCache: true,
+      };
+    }
+  }
+
   const cacheKey = getStemSourceCacheKey(
     cacheOptions.tuneId,
     cacheOptions.linkIndex,

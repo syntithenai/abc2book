@@ -3934,6 +3934,7 @@ async def tts_speech_endpoint(
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
+    reservation = None
     try:
         verified = await maybe_require_auth(authorization)
         await require_resolver_feature("tts", request, verified)
@@ -3944,18 +3945,44 @@ async def tts_speech_endpoint(
         if not text:
             return json_error(400, "Missing speech text", origin)
 
+        text_chars = len(text)
+        text_bytes = len(text.encode("utf-8"))
+        reservation = _billing_reservation(
+            verified,
+            "tts_speech",
+            {"text_chars": text_chars, "text_bytes": text_bytes},
+        )
+
         audio_bytes = await synthesize_speech(text)
+        ctx = billing_context()
+        email = _billing_email(verified)
+        if ctx and email:
+            request_bytes = text_bytes + 48
+            ctx.record_tts_speech(
+                email,
+                request_bytes=request_bytes,
+                response_bytes=len(audio_bytes),
+                text_chars=text_chars,
+            )
+        if reservation:
+            reservation.finalize()
         return Response(
             content=audio_bytes,
             media_type="audio/wav",
             headers=cors_headers(origin),
         )
     except ValueError as exc:
+        if reservation:
+            reservation.release()
         return json_error(400, str(exc), origin)
     except RuntimeError as exc:
+        if reservation:
+            reservation.release()
         return json_error(503, str(exc), origin)
     except HTTPException as exc:
-        return json_error(exc.status_code, str(exc.detail), origin)
+        if reservation:
+            reservation.release()
+        return http_exception_response(exc, origin)
 
 
 @app.post("/help-query")

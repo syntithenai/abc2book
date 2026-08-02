@@ -21,9 +21,14 @@ function normalizeAudioFormat(audioFormat) {
   return normalizeAudioCompressFormat(audioFormat)
 }
 
-async function encodeBufferForExport(buffer, audioFormat) {
+async function encodeBufferForExport(buffer, audioFormat, options) {
+  const opts = options || {}
   const requested = normalizeAudioFormat(audioFormat)
-  const formats = [requested]
+  const formats = []
+  if (opts.preferFastOfflineEncode && requested === 'aac') {
+    formats.push('mp3')
+  }
+  if (formats.indexOf(requested) === -1) formats.push(requested)
   if (formats.indexOf('mp3') === -1) formats.push('mp3')
   if (formats.indexOf('wav') === -1) formats.push('wav')
   for (let i = 0; i < formats.length; i += 1) {
@@ -92,13 +97,21 @@ async function buildStemMixExportBlob(cacheOptions, settings, options) {
   const loaded = await loadStemBuffersForSource(cacheOptions, {
     allowNetworkSeparation: allowNetworkSeparation,
     signal: options.signal,
-    onProgress: options.onProgress,
+    onProgress: function(message, progress) {
+      if (typeof options.onProgress === 'function') {
+        options.onProgress(message || 'Loading stems...', progress)
+      }
+    },
     onStatus: options.onStatus,
   })
   if (!loaded || !loaded.stemBuffers) {
     throw new Error(allowNetworkSeparation
       ? 'Could not load stems for download'
       : 'Stem filters require analysed stems. Open Media Controls → Audio Filters and click Analyse first.')
+  }
+
+  if (typeof options.onProgress === 'function') {
+    options.onProgress('Mixing stems...', 70)
   }
 
   let buffer = mixStemBuffersOffline(loaded.stemBuffers, settings.audioFilters)
@@ -113,7 +126,12 @@ async function buildStemMixExportBlob(cacheOptions, settings, options) {
   }
 
   const processed = await applyPlaybackSettingsOffline(buffer, settings)
-  const encoded = await encodeBufferForExport(processed, audioFormat)
+  if (typeof options.onProgress === 'function') {
+    options.onProgress('Encoding audio...', 90)
+  }
+  const encoded = await encodeBufferForExport(processed, audioFormat, {
+    preferFastOfflineEncode: options.preferFastOfflineEncode,
+  })
   return {
     blob: assertExportBlob(encoded.blob, 'Export produced an empty file'),
     duration: processed.duration,
@@ -160,6 +178,7 @@ export async function buildTuneMediaExportBlob(options) {
       trim: trim,
       trimBounds: bounds,
       allowNetworkSeparation: options.allowNetworkSeparation,
+      preferFastOfflineEncode: options.preferFastOfflineEncode,
       signal: options.signal,
       onProgress: options.onProgress,
       onStatus: options.onStatus,
@@ -233,7 +252,7 @@ export async function downloadTuneMediaExport(options) {
   assertExportBlob(result.blob, 'Export produced an empty file')
   const filename = resolveExportFilename(options.filename, result.audioFormat)
   const delivery = await offerBlobDownload(result.blob, filename, {
-    alwaysPrompt: true,
+    tryImmediate: false,
   })
   return Object.assign({}, result, { delivery: delivery })
 }

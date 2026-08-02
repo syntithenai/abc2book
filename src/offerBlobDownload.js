@@ -1,3 +1,4 @@
+import React from 'react'
 import { toast } from 'react-toastify'
 import { downloadBlob } from './tuneDownloadActions'
 
@@ -11,9 +12,68 @@ function saveViaAnchor(url, filename) {
   document.body.removeChild(anchor)
 }
 
+function renderReadyDownloadToast(ready, renderProps, options) {
+  const opts = options || {}
+  const text = opts.message || ((ready.filename || 'download') + ' is ready.')
+  return (
+    <div
+      className="ready-download-toast"
+      style={{ display: 'flex', alignItems: 'center', gap: '0.75em', flexWrap: 'wrap' }}
+    >
+      <span>{text}</span>
+      <button
+        type="button"
+        className="btn btn-sm btn-primary"
+        onClick={function() {
+          saveReadyDownload(ready)
+          if (typeof renderProps.closeToast === 'function') renderProps.closeToast()
+        }}
+      >
+        Download
+      </button>
+      <button
+        type="button"
+        className="btn btn-sm btn-outline-secondary"
+        onClick={function() {
+          revokeReadyDownload(ready)
+          if (typeof renderProps.closeToast === 'function') renderProps.closeToast()
+        }}
+      >
+        Discard
+      </button>
+    </div>
+  )
+}
+
+export function showReadyDownloadToast(ready, options) {
+  const opts = options || {}
+  if (!ready || !ready.url) {
+    throw new Error('No file to download')
+  }
+  const toastId = toast.success(function(renderProps) {
+    return renderReadyDownloadToast(ready, renderProps, opts)
+  }, {
+    autoClose: false,
+    closeOnClick: false,
+    hideProgressBar: true,
+    toastId: opts.toastId,
+  })
+
+  return {
+    delivered: false,
+    method: 'toast',
+    filename: ready.filename,
+    url: ready.url,
+    dismiss: function() {
+      toast.dismiss(toastId)
+      revokeReadyDownload(ready)
+    },
+  }
+}
+
 /**
- * Try an immediate browser download, then show a click-to-save toast that
- * carries a fresh user gesture (required after slow async export work).
+ * Try an immediate browser download; on failure show a ready toast with
+ * Download / Discard buttons (fresh user gesture after slow async export).
  */
 export async function offerBlobDownload(blob, filename, options) {
   const opts = options || {}
@@ -22,41 +82,30 @@ export async function offerBlobDownload(blob, filename, options) {
     throw new Error('No file to download')
   }
 
+  const ready = createReadyDownload(blob, safeName)
+
+  if (opts.prompt === 'never') {
+    try {
+      await downloadBlob(safeName, blob)
+      revokeReadyDownload(ready)
+      return { delivered: true, method: 'immediate', filename: safeName }
+    } catch (e) {
+      revokeReadyDownload(ready)
+      throw e
+    }
+  }
+
   if (opts.tryImmediate !== false) {
     try {
       await downloadBlob(safeName, blob)
-      if (!opts.alwaysPrompt) {
-        return { delivered: true, method: 'immediate', filename: safeName }
-      }
+      revokeReadyDownload(ready)
+      return { delivered: true, method: 'immediate', filename: safeName }
     } catch (e) {
       // Fall through to click-to-save prompt.
     }
   }
 
-  const url = URL.createObjectURL(blob)
-  const message = opts.message || ('Audio ready — click here to save ' + safeName)
-  const toastId = toast.info(message, {
-    autoClose: false,
-    closeOnClick: false,
-    onClick: function() {
-      saveViaAnchor(url, safeName)
-      toast.dismiss(toastId)
-      setTimeout(function() {
-        URL.revokeObjectURL(url)
-      }, 1000)
-    },
-  })
-
-  return {
-    delivered: false,
-    method: 'toast',
-    filename: safeName,
-    url: url,
-    dismiss: function() {
-      toast.dismiss(toastId)
-      URL.revokeObjectURL(url)
-    },
-  }
+  return showReadyDownloadToast(ready, opts)
 }
 
 export function saveReadyDownload(ready) {

@@ -108,6 +108,9 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
     useEffect(function() {
         const mc = mediaControllerRef.current
         if (!tune || !mc || !mc.applyPlaybackRoute) return
+        if (mc.flushPendingPlayRequest) {
+            mc.flushPendingPlayRequest()
+        }
         if (mc.requestedPlayState === 'playMidi') return
         if (mc.playbackRouteMode === 'midi') return
         if (mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()) return

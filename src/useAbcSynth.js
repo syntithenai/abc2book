@@ -805,6 +805,9 @@ export default function useAbcSynth(props) {
         if (mc.clearMidiEngineRegistrationFallback) {
             mc.clearMidiEngineRegistrationFallback()
         }
+        if (mc.flushPendingPlayRequest) {
+            mc.flushPendingPlayRequest()
+        }
         assignMediaControllerRef(mc, 'resumeMidiAfterSeekRef', resumeMidiAfterSeek)
         assignMediaControllerRef(mc, 'stopMidiSynthRef', stopMidiSynth)
         assignMediaControllerRef(mc, 'getMidiPlaybackSecondsRef', getMidiPlaybackSeconds)
@@ -838,7 +841,7 @@ export default function useAbcSynth(props) {
         }
         beginMidiPlaybackRef.current(pendingMidiPlay)
         return undefined
-    }, [props.playbackEngine, mcAbc])
+    }, [props.playbackEngine, mcAbc, ready])
 
     useLayoutEffect(function() {
         if (!props.playbackControlRef) return undefined
@@ -1067,33 +1070,51 @@ export default function useAbcSynth(props) {
         return 0
      }
 
+     function getMsPerMeasureForRhythmGrid(visualObj) {
+        const o = visualObj || gvisualObj.current
+        // Custom fill reprimes MIDI with inferred bar length; clicks must match
+        // the rendered buffer, not abcjs visual timing alone.
+        if (effectiveMsPerMeasureRef.current > 0) {
+            return effectiveMsPerMeasureRef.current
+        }
+        return scoreMsPerMeasureForRhythmGrid(o, {
+            fallbackMsPerMeasure: getEffectiveMsPerMeasure(o),
+        })
+     }
+
      function getRhythmGridMetronomeTempo(visualObj) {
         // Score BPM only — playback speed is applied via tempoFactor when
         // mapping music seconds onto the audio clock (see schedulePlayingSlots).
         const o = visualObj || gvisualObj.current
         const rhythm = resolvePlaybackMetronomeRhythm()
         const fallback = getBaseQpm()
-        const msPerMeasure = scoreMsPerMeasureForRhythmGrid(o, {
-            fallbackMsPerMeasure: getEffectiveMsPerMeasure(o),
-        })
+        const visualMs = o && o.millisecondsPerMeasure ? parseFloat(o.millisecondsPerMeasure()) || 0 : 0
+        const effectiveMs = getEffectiveMsPerMeasure(o)
+        const msPerMeasure = getMsPerMeasureForRhythmGrid(o)
+        const gridBpm = (!o || !(msPerMeasure > 0))
+            ? fallback
+            : computeRhythmGridTempo({
+                rhythmBeatsPerBar: rhythm.beatsPerBar,
+                millisecondsPerMeasure: msPerMeasure,
+                tempoFactor: 1,
+                fallbackQpm: fallback,
+            })
+        // #region agent log
+        if (effectiveMsPerMeasureRef.current > 0) {
+            fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',hypothesisId:'H1',location:'useAbcSynth.js:getRhythmGridMetronomeTempo',message:'grid tempo sources',data:{visualMs:visualMs,effectiveMs:effectiveMs,gridMsUsed:msPerMeasure,gridBpm:gridBpm,fillStyle:props.tune&&props.tune.playbackFillStyle},timestamp:Date.now()})}).catch(function(){});
+        }
+        // #endregion
         if (!o || !(msPerMeasure > 0)) {
             return fallback
         }
-        return computeRhythmGridTempo({
-            rhythmBeatsPerBar: rhythm.beatsPerBar,
-            millisecondsPerMeasure: msPerMeasure,
-            tempoFactor: 1,
-            fallbackQpm: fallback,
-        })
+        return gridBpm
      }
 
      function getWallRhythmMetronomeTempo(visualObj) {
         const o = visualObj || gvisualObj.current
         const rhythm = resolvePlaybackMetronomeRhythm()
         const fallback = getBaseQpm()
-        const msPerMeasure = scoreMsPerMeasureForRhythmGrid(o, {
-            fallbackMsPerMeasure: getEffectiveMsPerMeasure(o),
-        })
+        const msPerMeasure = getMsPerMeasureForRhythmGrid(o)
         if (!o || !(msPerMeasure > 0)) {
             return fallback
         }
@@ -1183,9 +1204,7 @@ export default function useAbcSynth(props) {
             return
         }
         const bufDur = gmidiBuffer.current && gmidiBuffer.current.duration
-        const scoreMs = scoreMsPerMeasureForRhythmGrid(visual, {
-            fallbackMsPerMeasure: getEffectiveMsPerMeasure(visual),
-        })
+        const scoreMs = getMsPerMeasureForRhythmGrid(visual)
         playbackTimingMapRef.current = buildPlaybackTimingMap(visual, {
             bufferDuration: bufDur,
             millisecondsPerMeasureOverride: scoreMs > 0 ? scoreMs : 0,
@@ -1195,9 +1214,7 @@ export default function useAbcSynth(props) {
 
      function resolveRhythmBeatBpmFromMap(at) {
         const visual = gvisualObj.current
-        const scoreMs = scoreMsPerMeasureForRhythmGrid(visual, {
-            fallbackMsPerMeasure: getEffectiveMsPerMeasure(visual),
-        })
+        const scoreMs = getMsPerMeasureForRhythmGrid(visual)
         if (scoreMs > 0) {
             return getRhythmGridMetronomeTempo(visual)
         }
@@ -3268,9 +3285,7 @@ export default function useAbcSynth(props) {
                     props.tunebook
                 )
                 // Full bar when practice forces it or there is no anacrusis.
-                const scoreMsPerMeasure = scoreMsPerMeasureForRhythmGrid(o, {
-                    fallbackMsPerMeasure: getEffectiveMsPerMeasure(o),
-                })
+                const scoreMsPerMeasure = getMsPerMeasureForRhythmGrid(o)
                 const countInOptions = {
                     tempoFactor: tempoFactor,
                     countInBeats: metro.countInBeats,
@@ -3384,6 +3399,9 @@ export default function useAbcSynth(props) {
                         if (!(countInSlots > 0)) countInSlots = metronomeBeats
                         metronomeBeats = countInBeatCount > 0 ? countInBeatCount : countInSlots
                         const duringPlayback = metro.duringPlayback === true
+                        // #region agent log
+                        fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',hypothesisId:'H1,H3',location:'useAbcSynth.js:startWithMetronome',message:'count-in tempo sources',data:{fillStyle:props.tune&&props.tune.playbackFillStyle,scoreMsPerMeasure:scoreMsPerMeasure,effectiveMs:effectiveMsPerMeasureRef.current,primedMs:primedMsPerMeasureRef.current,gridTempo:getRhythmGridMetronomeTempo(o),playbackTempo:getPlaybackMetronomeTempo(o),visualMs:o.millisecondsPerMeasure?parseFloat(o.millisecondsPerMeasure()):null},timestamp:Date.now()})}).catch(function(){});
+                        // #endregion
                         const preferredCue = (props.metronomeCountInCueMidi != null
                           && Number.isFinite(props.metronomeCountInCueMidi))
                           ? Math.round(props.metronomeCountInCueMidi)
@@ -3748,6 +3766,9 @@ export default function useAbcSynth(props) {
                 if (fillPlayback.injectCustomFill && initOptions.millisecondsPerMeasure > 0) {
                   effectiveMsPerMeasureRef.current = initOptions.millisecondsPerMeasure
                 }
+                // #region agent log
+                fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'post-fix',hypothesisId:'H1,H2',location:'useAbcSynth.js:primeTune',message:'fill prime ms sources',data:{fillStyle:fillPlayback.settings&&fillPlayback.settings.style,injectCustomFill:!!fillPlayback.injectCustomFill,visualMs:synthObj.millisecondsPerMeasure?parseFloat(synthObj.millisecondsPerMeasure()):null,primedMs:primedMsPerMeasureRef.current,effectiveMs:effectiveMsPerMeasureRef.current,meterKey:meterFrac?meterFrac.num+'/'+meterFrac.den:null,bufferDurHint:flattened&&flattened.duration},timestamp:Date.now()})}).catch(function(){});
+                // #endregion
               } catch (remapErr) {
                 console.warn('Local soundfont program remap failed; using visualObj', remapErr)
                 if (!fillPlayback.injectCustomFill) {

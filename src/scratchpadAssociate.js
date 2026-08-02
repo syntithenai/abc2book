@@ -192,6 +192,10 @@ export function isScratchpadAnalyseMode(associateMode) {
   return associateMode === 'analyse'
 }
 
+export function isScratchpadTranscribeMode(associateMode) {
+  return associateMode === 'transcribe'
+}
+
 export function mergeScratchpadCompositionIntoTune(tune, compositionTune) {
   if (!tune || !compositionTune) return tune
   const next = Object.assign({}, tune, JSON.parse(JSON.stringify(compositionTune)))

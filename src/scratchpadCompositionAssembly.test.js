@@ -10,6 +10,11 @@ import {
   reorderCompositionChunks,
   setCompositionPairing,
   buildAbcForNotationChunk,
+  addCompositionPairingRow,
+  assignLyricsChunkToPairingRow,
+  assignNotationChunkToPairingRow,
+  buildCompositionPairingRows,
+  normalizeCompositionPairingRows,
 } from './scratchpadCompositionAssembly'
 import { standardizeTextToChordProOnTune } from './scratchpadCompositionChordImport'
 
@@ -129,5 +134,45 @@ describe('scratchpadCompositionAssembly', function() {
     const abc = buildAbcForNotationChunk(chunk)
     expect(abc).toMatch(/X:/)
     expect(abc).toMatch(/K:/)
+  })
+
+  test('addCompositionPairingRow and assign chunks', function() {
+    let composition = blankCompositionState('c1', 'Comp')
+    composition = addCompositionPairingRow(composition)
+    const rows = buildCompositionPairingRows(composition)
+    expect(rows.length).toBe(1)
+    const pairingId = rows[0].id
+    composition = assignLyricsChunkToPairingRow(composition, pairingId, {
+      id: 'l1',
+      label: 'Verse',
+      sourceKind: 'text-section',
+      sourceItemId: 'text1',
+      sectionIndex: 0,
+      order: 0,
+      enabled: true,
+    })
+    composition = assignNotationChunkToPairingRow(composition, pairingId, {
+      id: 'n1',
+      label: 'Strain 1',
+      sourceKind: 'notation-strain',
+      sourceItemId: 'note1',
+      strainIndex: 0,
+      order: 0,
+      enabled: true,
+    })
+    const nextRows = buildCompositionPairingRows(composition)
+    expect(nextRows[0].lyricsChunk.id).toBe('l1')
+    expect(nextRows[0].notationChunk.id).toBe('n1')
+  })
+
+  test('normalizeCompositionPairingRows migrates legacy pairings', function() {
+    const composition = blankCompositionState('c1', 'Comp')
+    composition.lyricsChunks = [{ id: 'l1', label: 'L1', order: 0, enabled: true }]
+    composition.notationChunks = [{ id: 'n1', label: 'N1', order: 0, enabled: true }]
+    composition.pairings = [{ lyricsChunkId: 'l1', notationChunkId: 'n1' }]
+    const normalized = normalizeCompositionPairingRows(composition)
+    expect(normalized.pairings.length).toBe(1)
+    expect(normalized.pairings[0].id).toBeTruthy()
+    expect(buildCompositionPairingRows(normalized)[0].notationChunk.id).toBe('n1')
   })
 })

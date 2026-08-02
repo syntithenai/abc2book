@@ -22,6 +22,10 @@ async function readPendingDriveDeletes() {
   return Array.isArray(list) ? list.filter(Boolean).map(String) : []
 }
 
+export async function listPendingScratchpadDriveDeletes() {
+  return readPendingDriveDeletes()
+}
+
 async function writePendingDriveDeletes(ids) {
   const unique = []
   const seen = {}

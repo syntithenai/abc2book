@@ -781,6 +781,9 @@ export function generatePlaybackFillTracks(timeline, styleId, level) {
   if (bass) tracks.push(bass)
   if (chord) tracks.push(chord)
   if (accent) tracks.push(accent)
+  // #region agent log
+  fetch('http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'4cba4b'},body:JSON.stringify({sessionId:'4cba4b',runId:'fill-metro',hypothesisId:'H6,H7',location:'playbackFillPattern.js:generatePlaybackFillTracks',message:'fill track programs',data:{styleId:styleId,generator:styleDef.generator,bassProgram:styleDef.bassProgram,chordProgram:styleDef.chordProgram,eventCount:allEvents.length,barDurationSec:timeline[0]&&timeline[0].barDurationSec},timestamp:Date.now()})}).catch(function(){});
+  // #endregion
   return tracks
 }
 

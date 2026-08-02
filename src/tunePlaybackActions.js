@@ -108,14 +108,20 @@ function applyPlaybackSetup(mediaController, tunebook, tune, target) {
 
 function requestPlaybackForTarget(mediaController, tune, target, playState) {
     if (mediaController.requestPlayback) {
-        mediaController.requestPlayback({
+        if (mediaController.requestPlayback({
             tuneId: tune.id,
             playState: playState,
             linkNum: target.type === 'media' ? target.linkNum : null,
             fromUserGesture: true,
             fresh: true,
-        })
-    } else if (mediaController.playFromUserGesture) {
+        })) {
+            return
+        }
+        if (mediaController.hasPendingPlayRequest && mediaController.hasPendingPlayRequest()) {
+            return
+        }
+    }
+    if (mediaController.playFromUserGesture) {
         mediaController.playFromUserGesture({ fresh: true })
     } else if (mediaController.play) {
         mediaController.play({ fresh: true })

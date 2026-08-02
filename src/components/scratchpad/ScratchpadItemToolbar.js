@@ -55,6 +55,9 @@ export default function ScratchpadItemToolbar(props) {
       canRedo={canRedo}
       undoTitle={undoTitle}
       redoTitle={redoTitle}
+      scratchpadSync={props.scratchpadSync}
+      requestGoogleScopes={props.requestGoogleScopes}
+      login={props.login}
     />
   )
 }

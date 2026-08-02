@@ -43,8 +43,14 @@ function renderWithSoundTouch(buffer, tempo, pitch, fineTune) {
   const leftParts = [];
   const rightParts = [];
   let totalFrames = 0;
+  const tempoFactor = 1 / clamp(tempo > 0 ? tempo : 1, TEMPO_MIN, TEMPO_MAX);
+  const maxFrames = Math.ceil(buffer.length * tempoFactor * 2) + RENDER_CHUNK_SIZE;
 
   while (!ended) {
+    if (totalFrames >= maxFrames) {
+      console.warn('SoundTouch export reached frame cap; stopping early');
+      break;
+    }
     const extracted = filter.extract(temp, RENDER_CHUNK_SIZE);
     if (!extracted) break;
     const left = new Float32Array(extracted);

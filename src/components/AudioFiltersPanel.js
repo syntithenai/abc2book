@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef, useSyncExternalStore } from 'react';
-import { Alert, Button, ProgressBar } from 'react-bootstrap';
-import { revokeReadyDownload, saveReadyDownload } from '../offerBlobDownload';
+import { Button, ProgressBar } from 'react-bootstrap';
+import { resolveActiveLinkForTune } from '../mediaLinkResolve';
+import { showAudioExportStartToast } from '../audioExportDownloadToast';
+import useMediaCacheQueue from '../useMediaCacheQueue';
 import {
   getStemAnalysisJobRevision,
   getStemAnalysisJobSnapshot,
@@ -29,15 +31,8 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
   const [filters, setFilters] = useState(DEFAULT_AUDIO_FILTERS);
   const [analysisError, setAnalysisError] = useState('');
   const [downloadError, setDownloadError] = useState('');
-  const [downloading, setDownloading] = useState(false);
-  const [readyDownload, setReadyDownload] = useState(null);
-  const downloadInFlightRef = useRef(false);
-
-  useEffect(function() {
-    return function() {
-      revokeReadyDownload(readyDownload);
-    };
-  }, [readyDownload]);
+  const mediaCacheQueue = useMediaCacheQueue();
+  const downloading = !!(tune && tune.id && mediaCacheQueue.hasActiveExportJobForTune(tune.id));
   const saveTimerRef = useRef(null);
   const applyTimerRef = useRef(null);
   const stemJobRevision = useSyncExternalStore(
@@ -167,30 +162,52 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
     });
   }
 
-  async function handleDownload() {
-    if (!mediaController || !mediaController.saveProcessedMediaToFile) return;
-    if (downloadInFlightRef.current) return;
-    setDownloadError('');
-    revokeReadyDownload(readyDownload);
-    setReadyDownload(null);
-    downloadInFlightRef.current = true;
-    setDownloading(true);
-    try {
-      const ready = await mediaController.saveProcessedMediaToFile();
-      if (ready && ready.url) {
-        setReadyDownload(ready);
-      }
-    } catch (e) {
-      setDownloadError(e && e.message ? e.message : 'Download failed');
-    } finally {
-      downloadInFlightRef.current = false;
-      setDownloading(false);
+  function handleDownload() {
+    if (!tunebook || !tunebook.utils) return;
+    const effectiveTune = tune
+      || (mediaController && mediaController.tune && mediaController.tune.id ? mediaController.tune : null);
+    if (!effectiveTune || !effectiveTune.id) {
+      setDownloadError('No tune selected');
+      return;
     }
-  }
-
-  function handleReadyDownloadClick() {
-    if (!readyDownload) return;
-    saveReadyDownload(readyDownload);
+    const preferredLink = mediaController && mediaController.mediaLinkNumber !== undefined
+      && mediaController.mediaLinkNumber !== null
+      ? mediaController.mediaLinkNumber
+      : null;
+    const resolved = resolveActiveLinkForTune(
+      effectiveTune,
+      preferredLink,
+      tunebook.utils.isYoutubeLink
+    );
+    if (!resolved) {
+      setDownloadError('No media link available');
+      return;
+    }
+    const accessToken = tunebook.getGoogleAccessToken
+      ? tunebook.getGoogleAccessToken()
+      : null;
+    const jobId = mediaCacheQueue.enqueueProcessedDownloadJob({
+      tuneId: effectiveTune.id,
+      tune: effectiveTune,
+      linkIndex: resolved.linkIndex,
+      src: resolved.src,
+      srcType: resolved.srcType,
+      tuneName: effectiveTune.name || '',
+      linkTitle: resolved.linkTitle,
+      youtubeGetId: tunebook.utils.YouTubeGetID,
+      accessToken: accessToken,
+      tunebook: tunebook,
+    });
+    if (!jobId) {
+      setDownloadError('A download is already in progress for this tune');
+      return;
+    }
+    setDownloadError('');
+    showAudioExportStartToast({
+      tuneName: effectiveTune.name || 'Tune',
+      processed: true,
+    });
+    mediaCacheQueue.start();
   }
 
   function handleCancelAnalysis() {
@@ -275,15 +292,6 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
 
           {downloadError && (
             <div className="audio-filters-error">{downloadError}</div>
-          )}
-
-          {readyDownload && (
-            <Alert variant="success" className="audio-filters-ready-download">
-              <div>Your processed audio is ready.</div>
-              <Button variant="success" size="sm" className="mt-2" onClick={handleReadyDownloadClick}>
-                Save {readyDownload.filename}
-              </Button>
-            </Alert>
           )}
 
           {needsAnalysis && (

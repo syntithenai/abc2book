@@ -86,7 +86,9 @@ export default function MediaSourcePlaybackButtons({
       linkNum: linkKey,
       fresh: !sameSource,
     })) {
-      startPlaybackFromGesture(sameSource ? {} : { fresh: true })
+      if (!mediaController.hasPendingPlayRequest || !mediaController.hasPendingPlayRequest()) {
+        startPlaybackFromGesture(sameSource ? {} : { fresh: true })
+      }
     }
     if (!suppressRouteNavigation && location.pathname !== path) {
       navigate(path)
@@ -112,7 +114,9 @@ export default function MediaSourcePlaybackButtons({
       fresh: !sameSource,
       restart: true,
     })) {
-      startPlaybackFromGesture({ fresh: true, restart: true })
+      if (!mediaController.hasPendingPlayRequest || !mediaController.hasPendingPlayRequest()) {
+        startPlaybackFromGesture({ fresh: true, restart: true })
+      }
     }
     if (!suppressRouteNavigation && location.pathname !== path) {
       navigate(path)

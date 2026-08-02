@@ -6,11 +6,13 @@ import {
 import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import { getMediaPlaybackSettings } from './pitchTempoUtils'
 import { sanitizeDownloadFilename } from './tuneDownloadActions'
+import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import {
   getAudioCompressExtension,
   getAudioCompressFormat,
   normalizeAudioCompressFormat,
 } from './audioCompressSettings'
+import { createReadyDownload, revokeReadyDownload } from './offerBlobDownload'
 
 let jobCounter = 0
 let running = false
@@ -18,6 +20,33 @@ let paused = false
 let jobs = []
 const listeners = new Set()
 let currentJobId = null
+
+function revokeJobReadyDownload(job) {
+  if (!job || !job.readyDownload) return
+  revokeReadyDownload(job.readyDownload)
+  job.readyDownload = null
+}
+
+export function claimJobReadyDownload(jobId) {
+  const job = jobs.find(function(item) { return item.id === jobId })
+  if (!job || !job.readyDownload) return null
+  const ready = job.readyDownload
+  job.readyDownload = null
+  return ready
+}
+
+export function getSnapshotRevision() {
+  return jobs.map(function(job) {
+    return [
+      job.id,
+      job.type,
+      job.status,
+      job.readyDownload ? '1' : '0',
+      job.error || '',
+      job.message || '',
+    ].join(':')
+  }).join('|')
+}
 
 function notify() {
   const snapshot = getState()
@@ -42,6 +71,10 @@ function normalizeAudioFormat(audioFormat) {
   return normalizeAudioCompressFormat(audioFormat)
 }
 
+function isExportJobType(type) {
+  return type === 'download' || type === 'processed-download'
+}
+
 function findDuplicateJob(type, tuneId, linkIndex, src, audioFormat) {
   return jobs.find(function(job) {
     return job.type === type
@@ -51,6 +84,12 @@ function findDuplicateJob(type, tuneId, linkIndex, src, audioFormat) {
       && (type !== 'download' || normalizeAudioFormat(job.audioFormat) === normalizeAudioFormat(audioFormat))
       && (job.status === 'pending' || job.status === 'running')
   })
+}
+
+function getResolverDemucsModel(tunebook) {
+  if (tunebook && tunebook.demucsModel) return tunebook.demucsModel
+  const health = getMediaResolverHealthState()
+  return (health.status && health.status.demucsModel) ? health.status.demucsModel : 'htdemucs'
 }
 
 function publicJob(job) {
@@ -66,6 +105,8 @@ function publicJob(job) {
     status: job.status,
     error: job.error,
     filename: job.filename,
+    awaitingSave: !!(job.readyDownload),
+    message: job.message || '',
   }
 }
 
@@ -153,6 +194,78 @@ export function enqueueDownloadJob(options) {
   return job.id
 }
 
+export function enqueueProcessedDownloadJob(options) {
+  const tuneId = options.tuneId
+  const linkIndex = options.linkIndex
+  const src = options.src
+  if (!tuneId || linkIndex === null || linkIndex === undefined || !src || !options.tune) {
+    return null
+  }
+
+  const duplicate = findDuplicateJob('processed-download', tuneId, linkIndex, src)
+  if (duplicate) return duplicate.id
+
+  const job = {
+    id: makeJobId(),
+    type: 'processed-download',
+    tuneId: tuneId,
+    linkIndex: linkIndex,
+    src: src,
+    srcType: options.srcType || 'audio',
+    tuneName: options.tuneName || '',
+    linkTitle: options.linkTitle || '',
+    status: 'pending',
+    error: null,
+    filename: options.filename || '',
+    cancelled: false,
+    tune: options.tune,
+    youtubeGetId: options.youtubeGetId,
+    accessToken: options.accessToken,
+    demucsModel: options.demucsModel || getResolverDemucsModel(options.tunebook),
+  }
+  jobs.push(job)
+  notify()
+  return job.id
+}
+
+export function hasActiveExportJobForTune(tuneId) {
+  return jobs.some(function(job) {
+    return job.tuneId === tuneId
+      && isExportJobType(job.type)
+      && (job.status === 'pending' || job.status === 'running')
+  })
+}
+
+export function whenJobSettles(id) {
+  return new Promise(function(resolve, reject) {
+    function inspect() {
+      const job = jobs.find(function(item) { return item.id === id })
+      if (!job) {
+        reject(new Error('Job not found'))
+        return true
+      }
+      if (job.status === 'done') {
+        resolve(publicJob(job))
+        return true
+      }
+      if (job.status === 'error') {
+        reject(new Error(job.error || 'Job failed'))
+        return true
+      }
+      if (job.status === 'cancelled') {
+        reject(new Error('Cancelled'))
+        return true
+      }
+      return false
+    }
+    if (inspect()) return undefined
+    const unsub = subscribe(function() {
+      if (inspect()) unsub()
+    })
+    return undefined
+  })
+}
+
 export function enqueueTunesCacheJobs(tunes, tunebook, preferredLinkIndexByTuneId) {
   const ids = []
   const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null
@@ -195,6 +308,7 @@ export function enqueueTunesDownloadJobs(tunes, tunebook, preferredLinkIndexByTu
   const accessToken = tunebook && tunebook.getGoogleAccessToken
     ? tunebook.getGoogleAccessToken()
     : (tunebook && tunebook.accessToken ? tunebook.accessToken : null)
+  const demucsModel = getResolverDemucsModel(tunebook)
 
   if (!Array.isArray(tunes)) return ids
 
@@ -218,6 +332,7 @@ export function enqueueTunesDownloadJobs(tunes, tunebook, preferredLinkIndexByTu
       audioFormat: format,
       youtubeGetId: youtubeGetId,
       accessToken: accessToken,
+      demucsModel: demucsModel,
     })
     if (jobId) ids.push(jobId)
   })
@@ -232,6 +347,7 @@ export function cancelJob(id) {
   job.cancelled = true
   if (job.status === 'pending') {
     job.status = 'cancelled'
+    revokeJobReadyDownload(job)
   }
   notify()
   return true
@@ -251,6 +367,11 @@ export function cancelAllJobs() {
 }
 
 export function clearFinishedJobs() {
+  jobs.forEach(function(job) {
+    if (job.status !== 'pending' && job.status !== 'running') {
+      revokeJobReadyDownload(job)
+    }
+  })
   jobs = jobs.filter(function(job) {
     return job.status === 'pending' || job.status === 'running'
   })
@@ -269,6 +390,76 @@ export function start() {
 export function stop() {
   paused = true
   notify()
+}
+
+async function runExportDownloadJob(job) {
+  if (!job.tune) {
+    throw new Error('Tune data missing for download job')
+  }
+  const isProcessed = job.type === 'processed-download'
+  job.message = isProcessed ? 'Loading analysed stems...' : 'Preparing audio export...'
+  notify()
+
+  const { buildTuneMediaExportBlob, buildTuneMediaExportFilename } = await import('./mediaExportUtils')
+  const { getAudioCompressExtension } = await import('./audioCompressSettings')
+  const { loadCachedStemSetForMedia } = await import('./audioStemCache')
+
+  if (isProcessed) {
+    const cached = await loadCachedStemSetForMedia({
+      tuneId: job.tuneId,
+      linkIndex: job.linkIndex,
+      src: job.src,
+      srcType: job.srcType,
+      demucsModel: job.demucsModel,
+      accessToken: job.accessToken,
+    })
+    if (!cached || !cached.stemBuffers) {
+      throw new Error('Analyse stems before downloading processed audio')
+    }
+  }
+
+  let filename = job.filename
+  const buildOptions = {
+    tune: job.tune,
+    linkIndex: job.linkIndex,
+    srcType: job.srcType,
+    youtubeGetId: job.youtubeGetId,
+    accessToken: job.accessToken,
+    demucsModel: job.demucsModel,
+    settings: getMediaPlaybackSettings(job.tune),
+    trim: true,
+    onProgress: function(message) {
+      if (job.cancelled) return
+      job.message = message || job.message
+      notify()
+    },
+  }
+
+  if (isProcessed) {
+    filename = buildTuneMediaExportFilename(job.tune, job.linkIndex, { processed: true, audioFormat: 'mp3' })
+    buildOptions.preferStemMix = true
+    buildOptions.allowNetworkSeparation = false
+    buildOptions.audioFormat = 'mp3'
+    buildOptions.preferFastOfflineEncode = true
+    job.message = 'Mixing stems with current filter settings...'
+    notify()
+  } else {
+    buildOptions.audioFormat = job.audioFormat
+    buildOptions.preferFastOfflineEncode = true
+    job.message = 'Encoding audio...'
+    notify()
+  }
+
+  const result = await buildTuneMediaExportBlob(buildOptions)
+  if (!result || !result.blob || result.blob.size <= 0) {
+    throw new Error('Export produced an empty file')
+  }
+
+  const extension = getAudioCompressExtension(result.audioFormat)
+  const resolvedFilename = String(filename).replace(/\.[^.]+$/, '') + '.' + extension
+  const ready = createReadyDownload(result.blob, resolvedFilename)
+  job.filename = resolvedFilename
+  job.readyDownload = ready
 }
 
 async function runJob(job) {
@@ -307,25 +498,11 @@ async function runJob(job) {
       return
     }
 
-    if (job.type === 'download') {
-      if (!job.tune) {
-        throw new Error('Tune data missing for download job')
-      }
-      const { downloadTuneMediaExport } = await import('./mediaExportUtils')
-      await downloadTuneMediaExport({
-        tune: job.tune,
-        linkIndex: job.linkIndex,
-        srcType: job.srcType,
-        filename: job.filename,
-        audioFormat: job.audioFormat,
-        youtubeGetId: job.youtubeGetId,
-        accessToken: job.accessToken,
-        demucsModel: job.demucsModel,
-        settings: getMediaPlaybackSettings(job.tune),
-        trim: true,
-      })
+    if (job.type === 'download' || job.type === 'processed-download') {
+      await runExportDownloadJob(job)
       if (job.cancelled) {
         job.status = 'cancelled'
+        revokeJobReadyDownload(job)
         return
       }
       job.status = 'done'
@@ -337,9 +514,11 @@ async function runJob(job) {
   } catch (e) {
     if (job.cancelled) {
       job.status = 'cancelled'
+      revokeJobReadyDownload(job)
     } else {
       job.status = 'error'
       job.error = e && e.message ? e.message : 'Job failed'
+      revokeJobReadyDownload(job)
     }
   } finally {
     if (currentJobId === job.id) {
@@ -373,4 +552,11 @@ export function removeJobsForCacheKey(tuneId, linkIndex, src) {
 
 export function getExternalMediaCacheKeyForJob(job) {
   return getExternalMediaCacheKey(job.tuneId, job.linkIndex, job.src)
+}
+
+export function __resetMediaCacheQueueForTests() {
+  running = false
+  paused = false
+  currentJobId = null
+  jobs = []
 }

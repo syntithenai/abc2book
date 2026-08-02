@@ -18,6 +18,7 @@ import * as stemCreateQueue from '../../stemCreateQueue'
 import { subscribePlaybackRegionScanJobs } from '../../playbackRegionScanJobs'
 import { subscribeMediaAnalysisJobs } from '../../mediaAnalysisJobs'
 import { subscribeFileOcrJobs } from '../../fileOcrJobs'
+import { subscribeScratchpadBackgroundJobs } from '../../scratchpadBackgroundJobs'
 import { subscribeBulkCheckSession } from '../../bulkCheckSessionStore'
 import { subscribeBulkCheckRunner } from '../../bulkCheckRunner'
 import { subscribeImportReviewEnrichment } from '../../importReviewEnrichmentBridge'
@@ -31,6 +32,7 @@ import { fifoStatusVariant } from './jobQueueUtils'
 import PlaybackScanTabPanel from './PlaybackScanTabPanel'
 import MediaAnalysisTabPanel from './MediaAnalysisTabPanel'
 import FileOcrTabPanel from './FileOcrTabPanel'
+import ScratchpadJobsTabPanel from './ScratchpadJobsTabPanel'
 import BulkCheckTabPanel from './BulkCheckTabPanel'
 import ImportEnrichmentTabPanel from './ImportEnrichmentTabPanel'
 import StemCreateTabPanel from './StemCreateTabPanel'
@@ -45,6 +47,7 @@ const TAB_AUDIO_GENERATION = 'audio-generation'
 const TAB_PLAYBACK_SCANS = 'playback-scans'
 const TAB_MEDIA_ANALYSIS = 'media-analysis'
 const TAB_FILE_OCR = 'file-ocr'
+const TAB_SCRATCHPAD = 'scratchpad'
 const TAB_BULK_CHECK = 'bulk-check'
 const TAB_IMPORT_ENRICHMENT = 'import-enrichment'
 const TAB_ACTIVE_SEARCHES = 'active-searches'
@@ -58,6 +61,7 @@ function subscribeAllBackgroundJobStores(listener) {
     subscribePlaybackRegionScanJobs(listener),
     subscribeMediaAnalysisJobs(listener),
     subscribeFileOcrJobs(listener),
+    subscribeScratchpadBackgroundJobs(listener),
     subscribeBulkCheckSession(listener),
     subscribeBulkCheckRunner(listener),
     subscribeImportReviewEnrichment(listener),
@@ -232,6 +236,11 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
+            <Nav.Link eventKey={TAB_SCRATCHPAD}>
+              {renderTabTitle('Scratchpad', tabCounts.scratchpad)}
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
             <Nav.Link eventKey={TAB_IMPORT_ENRICHMENT}>
               {renderTabTitle('Import enrichment', tabCounts.importEnrichment)}
             </Nav.Link>
@@ -376,8 +385,10 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
               renderJobMeta={function(job, QueueBadge) {
                 return (
                   <>
-                    <QueueBadge variant={job.type === 'download' ? 'info' : 'cache'}>
-                      {job.type === 'download' ? 'Download' : 'Cache'}
+                    <QueueBadge variant={job.type === 'cache' ? 'cache' : 'info'}>
+                      {job.type === 'cache'
+                        ? 'Cache'
+                        : (job.type === 'processed-download' ? 'Processed download' : 'Download')}
                     </QueueBadge>
                     {job.srcType === 'youtube' ? (
                       <QueueBadge variant="youtube">YouTube</QueueBadge>
@@ -387,9 +398,16 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
                 )
               }}
               renderJobExtra={function(job) {
-                return job.error ? (
-                  <div className="text-danger background-jobs-queue-item-error">{job.error}</div>
-                ) : null
+                return (
+                  <>
+                    {job.message ? (
+                      <div className="text-muted background-jobs-queue-item-message">{job.message}</div>
+                    ) : null}
+                    {job.error ? (
+                      <div className="text-danger background-jobs-queue-item-error">{job.error}</div>
+                    ) : null}
+                  </>
+                )
               }}
             />
           </Tab.Pane>
@@ -486,6 +504,13 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
               Reads attached sheet images and chord charts; you choose what to merge when OCR finishes.
             </p>
             <FileOcrTabPanel />
+          </Tab.Pane>
+
+          <Tab.Pane eventKey={TAB_SCRATCHPAD}>
+            <p className="text-muted settings-background-jobs-tab-note">
+              Transcribes scratchpad audio to text in the background. Safe to leave the scratchpad page while transcription runs.
+            </p>
+            <ScratchpadJobsTabPanel />
           </Tab.Pane>
 
           <Tab.Pane eventKey={TAB_IMPORT_ENRICHMENT}>

@@ -49,6 +49,9 @@ OCR_FLAT_COST_MILLICENTS = int(os.getenv("BILLING_OCR_FLAT_COST_MILLICENTS", "15
 PRACTICE_TRACK_JOB_COST_MILLICENTS = int(os.getenv("BILLING_PRACTICE_TRACK_JOB_COST_MILLICENTS", "500"))
 LINKED_COVER_JOB_COST_MILLICENTS = int(os.getenv("BILLING_LINKED_COVER_JOB_COST_MILLICENTS", "500"))
 
+# TTS speech synthesis (upstream millicents flat per call, before markup)
+TTS_SPEECH_FLAT_COST_MILLICENTS = int(os.getenv("BILLING_TTS_SPEECH_FLAT_COST_MILLICENTS", "20"))
+
 # BYO API key proxy flat fees (upstream millicents, before markup)
 API_PROXY_FLAT_MILLICENTS = {
     "llm": int(os.getenv("BILLING_API_PROXY_LLM_FLAT_MILLICENTS", "5")),
@@ -112,6 +115,16 @@ def practice_track_job_cost_millicents() -> int:
 
 def linked_cover_job_cost_millicents() -> int:
     return apply_markup(LINKED_COVER_JOB_COST_MILLICENTS)
+
+
+def tts_speech_cost_millicents(
+    *,
+    request_bytes: int = 0,
+    response_bytes: int = 0,
+) -> int:
+    flat = apply_markup(TTS_SPEECH_FLAT_COST_MILLICENTS)
+    egress = egress_cost_millicents(max(0, int(request_bytes)) + max(0, int(response_bytes)))
+    return flat + egress
 
 
 def api_proxy_flat_cost_millicents(capability: str = "") -> int:

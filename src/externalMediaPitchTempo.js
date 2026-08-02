@@ -192,9 +192,16 @@ export default class ExternalMediaPitchTempo {
           if (token !== this._stemLoadToken || this._loadAborted) {
             return null;
           }
+          const normalized = normalizeStemBufferMap(cached.stemBuffers);
+          const stemBuffers = {};
+          Object.keys(normalized).forEach(function(stemName) {
+            const buffer = normalized[stemName];
+            if (!buffer) return;
+            stemBuffers[stemName] = resampleBufferToContextRate(this.audioContext, buffer);
+          }, this);
           this._stemSeparation = cached.separation || this._stemSeparation;
-          this._stemBuffers = cached.stemBuffers;
-          return cached.stemBuffers;
+          this._stemBuffers = stemBuffers;
+          return this._stemBuffers;
         }
       } else {
         this._stemBuffers = null;
@@ -260,7 +267,11 @@ export default class ExternalMediaPitchTempo {
     }
 
     if (this._canUseStemLiveMixer(tempo, pitch, fineTune)) {
-      return this._applyStemLiveMix(audioFilters, tempo);
+      const mixer = this._ensureStemLiveMixer();
+      if (mixer.isConnected()) {
+        return this._applyStemLiveMix(audioFilters, tempo);
+      }
+      // Live mixer prepared but not connected — remix through the shifter so filters are audible.
     }
 
     this._teardownStemLiveMixer();

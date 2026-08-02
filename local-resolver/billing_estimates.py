@@ -15,6 +15,7 @@ from billing_rates import (
     practice_track_job_cost_millicents,
     scrape_cost_millicents,
     stem_job_cost_millicents,
+    tts_speech_cost_millicents,
     whisper_cost_millicents,
 )
 
@@ -34,6 +35,8 @@ _HELP_LLM_OUT = 800
 _HELP_PROMPT_BUDGET = 2000
 _VOICE_LLM_OUT = 400
 _CHORD_LLM_OUT = 128
+_TTS_DEFAULT_TEXT_CHARS = 80
+_TTS_DEFAULT_RESPONSE_BYTES = 150_000
 
 OPERATION_CATALOG: dict[str, dict[str, str]] = {
     "background_research": {
@@ -91,6 +94,10 @@ OPERATION_CATALOG: dict[str, dict[str, str]] = {
     "whisper_transcribe": {
         "label": "Whisper transcription",
         "description": "Speech-to-text on audio.",
+    },
+    "tts_speech": {
+        "label": "Text-to-speech",
+        "description": "Speak track titles and voice feedback via resolver TTS.",
     },
 }
 
@@ -204,6 +211,21 @@ def estimate_operation_millicents(
                 response_bytes=4096,
             )
         return whisper_cost_millicents(duration or 60.0, whisper_model)
+
+    if op == "tts_speech":
+        text_chars = int(p.get("text_chars") or p.get("textChars") or 0)
+        if text_chars <= 0:
+            text_chars = _TTS_DEFAULT_TEXT_CHARS
+        request_bytes = int(p.get("text_bytes") or p.get("textBytes") or 0)
+        if request_bytes <= 0:
+            request_bytes = text_chars + 32
+        response_bytes = int(p.get("response_bytes") or p.get("responseBytes") or 0)
+        if response_bytes <= 0:
+            response_bytes = min(500_000, max(_TTS_DEFAULT_RESPONSE_BYTES, text_chars * 2500))
+        return tts_speech_cost_millicents(
+            request_bytes=request_bytes,
+            response_bytes=response_bytes,
+        )
 
     if op.startswith("api_proxy_"):
         cap = op.replace("api_proxy_", "")

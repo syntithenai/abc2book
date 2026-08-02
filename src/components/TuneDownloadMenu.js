@@ -5,6 +5,7 @@ import {
   executeTuneDownload,
   getTuneDownloadFormatsForContext,
   getTuneDownloadStartToastMessage,
+  isLinkedAudioDownloadFormat,
   isStemsDownloadAvailable,
   isStemsDownloadDisabled,
   isTuneDownloadFormatDisabled,
@@ -47,7 +48,9 @@ function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplet
   async function runDownload(formatId) {
     setErrorMessage('')
     setBusyFormatId(formatId)
-    toast.info(getTuneDownloadStartToastMessage(formatId, tunes.length), { autoClose: 3000 })
+    if (!isLinkedAudioDownloadFormat(formatId)) {
+      toast.info(getTuneDownloadStartToastMessage(formatId, tunes.length), { autoClose: 3000 })
+    }
     try {
       await executeTuneDownload(formatId, {
         tunes: tunes,

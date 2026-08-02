@@ -15,6 +15,8 @@ import {
   formatBytes,
   getHighestExceededThresholdMb,
   maybeWarnMediaCacheStorage,
+  mediaCacheSettingsPath,
+  MEDIA_CACHE_SETTINGS_TAB,
   tuneIdFromExternalMediaCacheKey,
   tuneIdFromStemCacheKey,
   tuneIdFromMidiCacheKey,
@@ -38,6 +40,8 @@ describe('mediaCacheStorage', function() {
   beforeEach(function() {
     localStorage.clear()
     toast.warning.mockClear()
+    delete window.location
+    window.location = { assign: jest.fn() }
   })
 
   test('estimateStoredValueBytes sums blobs and nested objects', function() {
@@ -105,6 +109,10 @@ describe('mediaCacheStorage', function() {
     expect(filterUnlockedTuneIds(['t1'], null)).toEqual(['t1'])
   })
 
+  test('mediaCacheSettingsPath targets media settings tab', function() {
+    expect(mediaCacheSettingsPath()).toBe('/settings?tab=' + MEDIA_CACHE_SETTINGS_TAB)
+  })
+
   test('maybeWarnMediaCacheStorage warns once per threshold', function() {
     const MB = 1024 * 1024
     const first = maybeWarnMediaCacheStorage({ totalBytes: 101 * MB })
@@ -121,6 +129,22 @@ describe('mediaCacheStorage', function() {
     expect(next.warned).toBe(true)
     expect(next.thresholdMb).toBe(150)
     expect(toast.warning).toHaveBeenCalledTimes(1)
+  })
+
+  test('maybeWarnMediaCacheStorage renders Open Settings button', function() {
+    const MB = 1024 * 1024
+    const closeToast = jest.fn()
+    maybeWarnMediaCacheStorage({ totalBytes: 101 * MB })
+    expect(toast.warning).toHaveBeenCalledTimes(1)
+    const renderFn = toast.warning.mock.calls[0][0]
+    const rendered = renderFn({ closeToast: closeToast })
+    const button = rendered.props.children.find(function(child) {
+      return child && child.type === 'button'
+    })
+    expect(button.props.children).toBe('Open Settings')
+    button.props.onClick()
+    expect(closeToast).toHaveBeenCalled()
+    expect(window.location.assign).toHaveBeenCalledWith(mediaCacheSettingsPath())
   })
 
   test('maybeWarnMediaCacheStorage lowers stored threshold after cleanup', function() {

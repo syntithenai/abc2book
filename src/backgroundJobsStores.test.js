@@ -34,6 +34,14 @@ import {
   __resetFileOcrJobsForTests,
 } from './fileOcrJobs'
 import {
+  enqueueScratchpadTranscribeJob,
+  cancelScratchpadBackgroundJob,
+  clearInactiveScratchpadBackgroundJobs,
+  getScratchpadBackgroundJobs,
+  countScratchpadBackgroundIncomplete,
+  __resetScratchpadBackgroundJobsForTests,
+} from './scratchpadBackgroundJobs'
+import {
   countPlaybackScanIncomplete,
   countMediaAnalysisIncomplete,
   countFileOcrIncomplete,
@@ -46,6 +54,14 @@ jest.mock('./tuneFiles', function() {
   return {
     resolveTuneFileBlob: jest.fn(function() {
       return Promise.resolve({ blob: new Blob(['x'], { type: 'image/png' }) })
+    }),
+  }
+})
+
+jest.mock('./scratchpadAnalyse', function() {
+  return {
+    runScratchpadAudioTranscribe: jest.fn(function() {
+      return new Promise(function() { /* hang so job stays active for cancel tests */ })
     }),
   }
 })
@@ -65,6 +81,8 @@ describe('background job store APIs', function() {
     clearInactiveMediaAnalysisJobs()
     clearInactiveFileOcrJobs()
     __resetFileOcrJobsForTests()
+    clearInactiveScratchpadBackgroundJobs()
+    __resetScratchpadBackgroundJobsForTests()
     clearImportReviewEnrichmentBridge()
     __resetImportReviewEnrichmentBridgeForTests()
     __resetForTests()
@@ -127,6 +145,23 @@ describe('background job store APIs', function() {
 
     clearInactiveFileOcrJobs()
     expect(getFileOcrJobs().length).toBe(0)
+  })
+
+  test('scratchpadBackgroundJobs list, cancel, clear inactive, and count', function() {
+    const job = enqueueScratchpadTranscribeJob({
+      item: { id: 'aud-1', type: 'audio', title: 'Memo' },
+      workspaceId: 'ws-1',
+    })
+    expect(getScratchpadBackgroundJobs().length).toBe(1)
+    expect(countScratchpadBackgroundIncomplete()).toBe(1)
+    expect(getFirstActiveBackgroundJobTab(null)).toBe('scratchpad')
+
+    cancelScratchpadBackgroundJob(job.id)
+    expect(getScratchpadBackgroundJobs()[0].status).toBe('cancelled')
+    expect(countScratchpadBackgroundIncomplete()).toBe(0)
+
+    clearInactiveScratchpadBackgroundJobs()
+    expect(getScratchpadBackgroundJobs().length).toBe(0)
   })
 
   test('mediaAnalysisJobs list, cancel all, and clear inactive', function() {

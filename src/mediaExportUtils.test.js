@@ -177,6 +177,6 @@ describe('mediaExportUtils', function() {
       },
     })
 
-    expect(offerBlobDownload).toHaveBeenCalledWith(expect.any(Blob), 'test.m4a', { alwaysPrompt: true })
+    expect(offerBlobDownload).toHaveBeenCalledWith(expect.any(Blob), 'test.m4a', { tryImmediate: false })
   })
 })

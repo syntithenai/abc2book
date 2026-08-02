@@ -25,8 +25,76 @@ const utils = utilsFunctions()
 const WORKSPACES_KEY = 'bookstorage_scratchpad_workspaces'
 const ITEMS_KEY = 'bookstorage_scratchpad_items'
 const ACTIVE_WORKSPACE_KEY = 'bookstorage_scratchpad_active_workspace'
+const TOMBSTONES_KEY = 'bookstorage_scratchpad_tombstones'
 
 const changeListeners = []
+
+function readTombstonesList() {
+  try {
+    const raw = localStorage.getItem(TOMBSTONES_KEY)
+    if (!raw) return []
+    const parsed = JSON.parse(raw)
+    return Array.isArray(parsed) ? parsed.filter(function(entry) {
+      return entry && entry.id && entry.kind
+    }) : []
+  } catch (e) {
+    return []
+  }
+}
+
+function writeTombstonesList(list) {
+  localStorage.setItem(TOMBSTONES_KEY, JSON.stringify(list || []))
+}
+
+export function listScratchpadTombstones() {
+  return readTombstonesList()
+}
+
+export function addScratchpadTombstone(tombstone) {
+  if (!tombstone || !tombstone.id || !tombstone.kind) return null
+  const list = readTombstonesList()
+  const next = Object.assign({}, tombstone, {
+    id: String(tombstone.id),
+    kind: tombstone.kind === 'workspace' ? 'workspace' : 'item',
+    deletedAt: tombstone.deletedAt || nowIso(),
+  })
+  const filtered = list.filter(function(entry) {
+    return entry.id !== next.id || entry.kind !== next.kind
+  })
+  filtered.push(next)
+  writeTombstonesList(filtered)
+  notifyScratchpadChanged()
+  return next
+}
+
+export function clearScratchpadTombstone(id, kind) {
+  if (!id) return
+  const tombKind = kind === 'workspace' ? 'workspace' : 'item'
+  const list = readTombstonesList().filter(function(entry) {
+    return entry.id !== String(id) || entry.kind !== tombKind
+  })
+  writeTombstonesList(list)
+}
+
+export function clearScratchpadTombstones() {
+  writeTombstonesList([])
+}
+
+export function scratchpadPendingSyncSummary() {
+  const pendingItems = listAllScratchpadItems().filter(function(item) {
+    return item.sync && item.sync.uploadPending
+  }).length
+  const tombstones = readTombstonesList().length
+  return {
+    pendingItems: pendingItems,
+    tombstones: tombstones,
+    pending: pendingItems > 0 || tombstones > 0,
+  }
+}
+
+export function scratchpadHasPendingSync() {
+  return scratchpadPendingSyncSummary().pending
+}
 
 export const SCRATCHPAD_ITEM_TYPES = ['text', 'image', 'notation', 'audio', 'composition']
 
@@ -253,6 +321,7 @@ export function createWorkspace(name) {
   const map = readWorkspacesMap()
   map[id] = workspace
   writeWorkspacesMap(map)
+  clearScratchpadTombstone(id, 'workspace')
   setActiveWorkspaceId(id)
   notifyScratchpadChanged()
   return normalizeWorkspace(workspace, id)
@@ -276,6 +345,12 @@ export function deleteWorkspace(workspaceId) {
   const workspace = normalizeWorkspace(map[workspaceId], workspaceId)
   workspace.itemOrder.forEach(function(itemId) {
     deleteScratchpadItem(itemId)
+  })
+  addScratchpadTombstone({
+    kind: 'workspace',
+    id: workspaceId,
+    label: workspace.name,
+    deletedAt: nowIso(),
   })
   delete map[workspaceId]
   writeWorkspacesMap(map)
@@ -367,6 +442,7 @@ export function saveScratchpadItem(item) {
   delete next.id
   itemsMap[id] = next
   writeItemsMap(itemsMap)
+  clearScratchpadTombstone(id, 'item')
   addItemToWorkspaceOrder(workspaceId, id)
   notifyScratchpadChanged()
   return normalizeItem(next, id)
@@ -557,6 +633,12 @@ export async function copyScratchpadItem(itemId, targetWorkspaceId, options) {
 export function deleteScratchpadItem(itemId) {
   const item = getScratchpadItem(itemId)
   if (!item) return false
+  addScratchpadTombstone({
+    kind: 'item',
+    id: itemId,
+    label: item.title,
+    deletedAt: nowIso(),
+  })
   if (item.type === 'audio' && item.audio) {
     const driveIds = collectAudioDriveFileIds(item.audio)
     if (item.audio.projectDriveFileId) driveIds.push(String(item.audio.projectDriveFileId))

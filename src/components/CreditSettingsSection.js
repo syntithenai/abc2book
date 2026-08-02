@@ -94,7 +94,7 @@ export default function CreditSettingsSection(props) {
     <div className="mb-4">
       <h3>Resolver credit</h3>
       <p className="app-text-muted">
-        Prepaid credit covers hosted resolver features (LLM, Whisper, OCR, stems, media proxy egress, and feed enrichment).
+        Prepaid credit covers hosted resolver features (LLM, Whisper, OCR, stems, TTS title announcements, media proxy egress, and feed enrichment).
         When you use your own API keys (BYO), Tunebook still charges a small flat proxy fee plus egress for traffic through the hosted resolver.
         Usage is billed at twice the upstream cost. New accounts receive trial credit on first sign-in.
       </p>

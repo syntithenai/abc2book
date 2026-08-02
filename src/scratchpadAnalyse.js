@@ -228,7 +228,7 @@ export async function runScratchpadAudioMelodyAnalyse(item, options) {
   })
 }
 
-export async function runScratchpadAudioLyricsAnalyse(item, options) {
+async function runScratchpadAudioWhisperTranscribe(item, options, labels) {
   const opts = options || {}
   const blob = await resolveScratchpadItemAudioBlob(item, { source: 'mixdown' })
   if (!blob || blob.size === 0) throw new Error('Audio data is not available')
@@ -251,18 +251,34 @@ export async function runScratchpadAudioLyricsAnalyse(item, options) {
     },
   })
 
-  const lyricsText = transcription && transcription.text ? String(transcription.text).trim() : ''
-  if (!lyricsText) {
-    throw new Error('No lyrics were transcribed from this audio')
+  const text = transcription && transcription.text ? String(transcription.text).trim() : ''
+  if (!text) {
+    throw new Error(labels.emptyError || 'No text was transcribed from this audio')
   }
 
   return createAnalysedItem({
     type: 'text',
     workspaceId: opts.workspaceId,
-    title: sourceTitle(item) + ' — lyrics',
-    textBody: lyricsText,
-    successMessage: 'Lyrics transcription saved to scratchpad',
+    title: sourceTitle(item) + labels.titleSuffix,
+    textBody: text,
+    successMessage: labels.successMessage,
     onOpenItem: opts.onOpenItem,
+  })
+}
+
+export async function runScratchpadAudioLyricsAnalyse(item, options) {
+  return runScratchpadAudioWhisperTranscribe(item, options, {
+    titleSuffix: ' — lyrics',
+    successMessage: 'Lyrics transcription saved to scratchpad',
+    emptyError: 'No lyrics were transcribed from this audio',
+  })
+}
+
+export async function runScratchpadAudioTranscribe(item, options) {
+  return runScratchpadAudioWhisperTranscribe(item, options, {
+    titleSuffix: ' — transcription',
+    successMessage: 'Transcription saved to scratchpad',
+    emptyError: 'No text was transcribed from this audio',
   })
 }
 
