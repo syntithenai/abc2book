@@ -105,6 +105,13 @@ android/build/
 # Local Android build toolchain (portable JDK/SDK)
 .tools/
 
+# Generated wiki index (too large for git)
+lesson plans/wiki_index/wiki.db
+
+# Android debug builds
+tunebook-android-debug.apk
+*.apk
+
 # Theory example generator checkpoint (committed output is examples.js)
 src/feedContent/theory/examples.generated.json
 .cursor/debug-*.log
