@@ -354,8 +354,9 @@ try:
         get_embedded_allowlist=lambda: EMBEDDED_CREDS_EMAILS,
         get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
     )
-except Exception:
-    pass
+except Exception as exc:
+    import logging
+    logging.getLogger("tunebook.billing").warning("Billing routes not registered: %s", exc)
 
 
 @app.get("/health")

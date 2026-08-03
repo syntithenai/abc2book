@@ -25,6 +25,15 @@ COPY oauth_bff_routes.py /app/oauth_bff_routes.py
 COPY midi_convert.py /app/midi_convert.py
 COPY lyrics_word_tools.py /app/lyrics_word_tools.py
 COPY bulk_list_format.py /app/bulk_list_format.py
+COPY billing.py /app/billing.py
+COPY billing_rates.py /app/billing_rates.py
+COPY billing_estimates.py /app/billing_estimates.py
+COPY billing_payment_methods.py /app/billing_payment_methods.py
+COPY billing_paypal.py /app/billing_paypal.py
+COPY billing_stripe.py /app/billing_stripe.py
+COPY billing_reservation.py /app/billing_reservation.py
+COPY billing_hooks.py /app/billing_hooks.py
+COPY billing_routes.py /app/billing_routes.py
 
 ENV RESOLVER_LIGHT_MODE=true
 ENV REQUIRE_AUTH=true
