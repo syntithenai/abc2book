@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "billing_ledger",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "email", "order": "ASCENDING" },
+        { "fieldPath": "created_at", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

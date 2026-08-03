@@ -7,6 +7,7 @@ Balance is stored in millicents (1 millicent = $0.00001).
 from __future__ import annotations
 
 import json
+import logging
 import os
 import sqlite3
 import time
@@ -889,34 +890,50 @@ def _firestore_rename_account(old_email: str, new_email: str, *, admin_email: st
     return {"ok": True, "account": _account_to_api(account) if account else None}
 
 
+def _ledger_entry_from_firestore_doc(doc) -> dict[str, Any]:
+    data = doc.to_dict() or {}
+    return {
+        "id": doc.id,
+        "delta_millicents": int(data.get("delta_millicents") or 0),
+        "balance_after_millicents": int(data.get("balance_after_millicents") or 0),
+        "entry_type": data.get("entry_type") or "",
+        "usage_type": data.get("usage_type") or "",
+        "detail": data.get("detail") or {},
+        "created_at": float(data.get("created_at") or 0),
+    }
+
+
+def _firestore_list_ledger(email: str, *, limit: int) -> list[dict[str, Any]]:
+    client = _get_firestore_client()
+    # Equality on email alone does not need a composite index. Sort in memory so
+    # /billing/history works before Firestore composite indexes are deployed.
+    scan_cap = max(limit, min(int(os.getenv("BILLING_LEDGER_SCAN_CAP", "2000")), 5000))
+    docs = []
+    for index, doc in enumerate(
+        client.collection(BILLING_LEDGER_COLLECTION).where("email", "==", email).stream()
+    ):
+        if index >= scan_cap:
+            logging.getLogger("tunebook.billing").warning(
+                "Ledger scan cap reached for %s (%s docs); history may be incomplete",
+                email,
+                scan_cap,
+            )
+            break
+        docs.append(doc)
+    docs.sort(
+        key=lambda doc: float((doc.to_dict() or {}).get("created_at") or 0),
+        reverse=True,
+    )
+    return [_ledger_entry_from_firestore_doc(doc) for doc in docs[:limit]]
+
+
 def list_ledger(email: str, *, limit: int = 50) -> list[dict[str, Any]]:
     email = _normalize_email(email)
     if not email:
         return []
     limit = max(1, min(int(limit), 200))
     if _use_firestore():
-        client = _get_firestore_client()
-        query = (
-            client.collection(BILLING_LEDGER_COLLECTION)
-            .where("email", "==", email)
-            .order_by("created_at", direction="DESCENDING")
-            .limit(limit)
-        )
-        out = []
-        for doc in query.stream():
-            data = doc.to_dict() or {}
-            out.append(
-                {
-                    "id": doc.id,
-                    "delta_millicents": int(data.get("delta_millicents") or 0),
-                    "balance_after_millicents": int(data.get("balance_after_millicents") or 0),
-                    "entry_type": data.get("entry_type") or "",
-                    "usage_type": data.get("usage_type") or "",
-                    "detail": data.get("detail") or {},
-                    "created_at": float(data.get("created_at") or 0),
-                }
-            )
-        return out
+        return _firestore_list_ledger(email, limit=limit)
 
     ensure_db()
     with _connect() as conn:

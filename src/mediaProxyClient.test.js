@@ -1,10 +1,11 @@
 jest.mock('./mediaProxyConfig', function() {
-  return {
+  const actual = jest.requireActual('./mediaProxyConfig');
+  return Object.assign({}, actual, {
     getMediaProxyBaseCandidates: jest.fn(),
     getBillingMediaProxyCandidates: jest.fn(function() {
       return ['https://cloud-hosted.example.com'];
     }),
-  };
+  });
 });
 
 jest.mock('./analytics', function() {
@@ -121,6 +122,39 @@ describe('mediaProxyClient', function() {
       },
     ]);
     expect(base).toBe('https://cloud-hosted.example.com');
+  });
+
+  test('pickBillingProxyBase uses dev-server proxy in development when Cloud Run billing is up', function() {
+    const originalEnv = process.env.NODE_ENV;
+    const originalLocation = window.location;
+    process.env.NODE_ENV = 'development';
+    Object.defineProperty(window, 'location', {
+      configurable: true,
+      value: { protocol: 'http:', origin: 'http://localhost:3000', hostname: 'localhost', port: '3000' },
+    });
+    try {
+      const base = mediaProxyClient.pickBillingProxyBase([
+        {
+          base: 'http://localhost:3000',
+          reachable: true,
+          available: true,
+          billingEnabled: false,
+        },
+        {
+          base: 'https://cloud-hosted.example.com',
+          reachable: true,
+          available: true,
+          billingEnabled: true,
+        },
+      ]);
+      expect(base).toBe('http://localhost:3000');
+    } finally {
+      process.env.NODE_ENV = originalEnv;
+      Object.defineProperty(window, 'location', {
+        configurable: true,
+        value: originalLocation,
+      });
+    }
   });
 
   test('fetchViaMediaProxy pins billing requests to hosted billing resolver', async function() {

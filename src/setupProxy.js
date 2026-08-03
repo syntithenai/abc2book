@@ -1,5 +1,10 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
+const CLOUD_RESOLVER_TARGET =
+  process.env.REACT_APP_BILLING_PROXY_TARGET ||
+  process.env.REACT_APP_CLOUD_RESOLVER_URL ||
+  'https://tunebook-resolver-light-ytrp5enyda-ts.a.run.app';
+
 const RESOLVER_PATHS = new Set([
   '/health',
   '/proxy-audio',
@@ -80,8 +85,21 @@ function shouldProxyResolver(pathname) {
 }
 
 module.exports = function(app) {
+  // Central billing ledger lives on Cloud Run; local resolver has BILLING_ENABLED=false.
   app.use(
-    createProxyMiddleware(shouldProxyResolver, {
+    '/billing',
+    createProxyMiddleware({
+      target: CLOUD_RESOLVER_TARGET,
+      changeOrigin: true,
+      secure: true,
+    })
+  );
+
+  app.use(
+    createProxyMiddleware(function(pathname) {
+      if (pathname.startsWith('/billing/')) return false;
+      return shouldProxyResolver(pathname);
+    }, {
       target: 'http://localhost:8787',
       changeOrigin: true,
     })

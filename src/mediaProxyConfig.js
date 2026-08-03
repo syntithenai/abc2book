@@ -66,7 +66,17 @@ export function getDevServerMediaProxyBase() {
 
 export function isDevServerMediaProxyBase(base) {
   const devBase = getDevServerMediaProxyBase()
-  return !!(devBase && base === devBase)
+  if (devBase && base === devBase) return true
+  if (!base) return false
+  try {
+    const parsed = new URL(base)
+    const host = parsed.hostname
+    if (host !== 'localhost' && host !== '127.0.0.1') return false
+    if (parsed.port === '8787') return false
+    return parsed.port === '3000' || parsed.port === '5173'
+  } catch (e) {
+    return false
+  }
 }
 
 export function getLocalMediaProxyCandidates() {

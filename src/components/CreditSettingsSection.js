@@ -30,17 +30,28 @@ export default function CreditSettingsSection(props) {
     }
     setLoading(true)
     setError('')
-    return Promise.all([
+    return Promise.allSettled([
       fetchBillingBalance(accessToken),
       fetchBillingHistory(accessToken, 30),
     ]).then(function(results) {
-      const balanceBody = results[0] || {}
-      const historyBody = results[1] || {}
+      const balanceResult = results[0]
+      const historyResult = results[1]
+      if (balanceResult.status === 'rejected') {
+        throw balanceResult.reason
+      }
+      const balanceBody = balanceResult.value || {}
+      const historyBody = historyResult.status === 'fulfilled' ? (historyResult.value || {}) : {}
       setBalanceCents(typeof balanceBody.balanceCents === 'number' ? balanceBody.balanceCents : null)
       setCreditUnlimited(!!balanceBody.creditUnlimited)
       setPacks(Array.isArray(balanceBody.packs) ? balanceBody.packs : [])
       setPaymentMethods(balanceBody.paymentMethods || null)
       setEntries(Array.isArray(historyBody.entries) ? historyBody.entries : [])
+      if (historyResult.status === 'rejected') {
+        const historyMessage = historyResult.reason && historyResult.reason.message
+          ? historyResult.reason.message
+          : 'Could not load usage history'
+        setError(historyMessage + ' (balance loaded)')
+      }
     }).catch(function(err) {
       setError(err && err.message ? err.message : 'Could not load billing')
     }).finally(function() {
@@ -129,9 +140,9 @@ export default function CreditSettingsSection(props) {
       {accessToken ? (
         <div className="d-flex flex-wrap gap-2 mb-3">
           {(packs.length ? packs : [
+            { id: 'pack_1', label: '$1', amount_cents: 100 },
             { id: 'pack_5', label: '$5', amount_cents: 500 },
             { id: 'pack_10', label: '$10', amount_cents: 1000 },
-            { id: 'pack_25', label: '$25', amount_cents: 2500 },
           ]).map(function(pack) {
             return (
               <Button

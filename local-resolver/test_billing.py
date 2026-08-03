@@ -166,6 +166,83 @@ class BillingLedgerTests(unittest.TestCase):
         entries = billing.list_ledger("rename-new@example.com", limit=10)
         self.assertTrue(len(entries) >= 1)
 
+    def test_firestore_list_ledger_sorts_without_composite_index(self):
+        class FakeDoc:
+            def __init__(self, doc_id, data):
+                self.id = doc_id
+                self._data = data
+
+            def to_dict(self):
+                return self._data
+
+        class FakeQuery:
+            def __init__(self, docs):
+                self._docs = docs
+
+            def where(self, field, op, value):
+                self._field = field
+                self._value = value
+                return self
+
+            def stream(self):
+                return [
+                    doc for doc in self._docs
+                    if doc.to_dict().get(self._field) == self._value
+                ]
+
+        class FakeCollection:
+            def __init__(self, docs):
+                self._docs = docs
+
+            def where(self, field, op, value):
+                return FakeQuery(self._docs).where(field, op, value)
+
+        class FakeClient:
+            def __init__(self, docs):
+                self._docs = docs
+
+            def collection(self, name):
+                return FakeCollection(self._docs)
+
+        docs = [
+            FakeDoc("old", {
+                "email": "ledger@example.com",
+                "created_at": 1.0,
+                "delta_millicents": 100,
+                "balance_after_millicents": 100,
+                "entry_type": "purchase",
+                "usage_type": "",
+                "detail": {},
+            }),
+            FakeDoc("new", {
+                "email": "ledger@example.com",
+                "created_at": 3.0,
+                "delta_millicents": 200,
+                "balance_after_millicents": 300,
+                "entry_type": "purchase",
+                "usage_type": "",
+                "detail": {},
+            }),
+            FakeDoc("other", {
+                "email": "other@example.com",
+                "created_at": 9.0,
+                "delta_millicents": 50,
+                "balance_after_millicents": 50,
+                "entry_type": "purchase",
+                "usage_type": "",
+                "detail": {},
+            }),
+        ]
+
+        with patch.object(billing, "_use_firestore", return_value=True), patch.object(
+            billing, "_get_firestore_client", return_value=FakeClient(docs)
+        ):
+            entries = billing.list_ledger("ledger@example.com", limit=1)
+
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(entries[0]["id"], "new")
+        self.assertEqual(entries[0]["created_at"], 3.0)
+
     def test_admin_rename_account_rejects_duplicate_target(self):
         billing.apply_delta("keep@example.com", 0, entry_type="account_created")
         billing.apply_delta("move@example.com", 0, entry_type="account_created")

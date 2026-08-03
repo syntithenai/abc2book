@@ -15,6 +15,15 @@ if [[ -z "${STRIPE_SECRET_KEY:-}" || -z "${STRIPE_WEBHOOK_SECRET:-}" ]]; then
   exit 1
 fi
 
+if [[ "$STRIPE_SECRET_KEY" == sk_test_* ]]; then
+  echo "WARNING: STRIPE_SECRET_KEY starts with sk_test_ (Stripe test mode)." >&2
+  echo "Checkout will show test-mode prompts (e.g. 3DS code 000000). For real charges use sk_live_ from the Stripe Dashboard with Test mode OFF." >&2
+  if [[ "${ALLOW_STRIPE_TEST_SECRETS:-}" != "1" ]]; then
+    echo "Refusing to upload test keys. Export ALLOW_STRIPE_TEST_SECRETS=1 to override, or set live keys." >&2
+    exit 1
+  fi
+fi
+
 PROJECT_NUMBER="$(gcloud projects describe "$PROJECT" --format='value(projectNumber)')"
 SA="${PROJECT_NUMBER}-compute@developer.gserviceaccount.com"
 

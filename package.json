@@ -81,6 +81,7 @@
     "build:web": "npm run package:youtube-helper && craco build",
     "build:android": "npm run build:web && npx cap sync android",
     "android:apk": "bash scripts/build-android-apk.sh",
+    "android:install": "bash scripts/install-android-debug.sh",
     "android:open": "npx cap open android",
     "android:run": "npm run build:android && cd android && ./gradlew assembleDebug",
     "build:chordlib": "node scripts/buildChordLib.js",

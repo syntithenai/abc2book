@@ -5,6 +5,7 @@ import {
   getBillingMediaProxyCandidates,
   getMediaProxyBaseCandidates,
   getUseCloudResolver,
+  isDevServerMediaProxyBase,
   normalizeMediaProxyBase,
   prefersPublicMediaProxyFirst,
   setUseCloudResolver,
@@ -19,6 +20,13 @@ describe('mediaProxyConfig', function() {
     expect(normalizeMediaProxyBase('')).toBe('')
     expect(normalizeMediaProxyBase('  https://example.com/  ')).toBe('https://example.com')
     expect(normalizeMediaProxyBase('ftp://example.com')).toBe('')
+  })
+
+  test('isDevServerMediaProxyBase detects npm start and Vite dev hosts', function() {
+    expect(isDevServerMediaProxyBase('http://localhost:3000')).toBe(true)
+    expect(isDevServerMediaProxyBase('http://localhost:5173')).toBe(true)
+    expect(isDevServerMediaProxyBase('http://localhost:8787')).toBe(false)
+    expect(isDevServerMediaProxyBase('https://peppertrees.example.com')).toBe(false)
   })
 
   test('orders saved settings before localhost and public defaults', function() {

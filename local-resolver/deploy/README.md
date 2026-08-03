@@ -19,11 +19,13 @@ The SPA always sends `/billing/*` to Cloud Run. Peppertrees and localhost handle
    # edit deploy/cloud-run-env.yaml (non-secrets only)
    ```
 
-2. Upload Stripe + existing secrets:
+2. Upload Stripe + existing secrets (use **live** keys with Stripe Dashboard test mode **off**):
 
    ```bash
-   # Reads STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET from ../.env
+   # In .env: STRIPE_SECRET_KEY=sk_live_... and live webhook whsec_...
+   set -a && source .env && set +a
    ./deploy/setup-cloud-billing-secrets.sh
+   ./deploy-cloud-light.sh   # restart Cloud Run so it picks up new secret versions
    ```
 
 3. Deploy:

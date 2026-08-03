@@ -64,9 +64,9 @@ API_PROXY_FLAT_MILLICENTS = {
 MIN_USAGE_MILLICENTS = int(os.getenv("BILLING_MIN_USAGE_MILLICENTS", "1"))
 
 CREDIT_PACKS = [
+    {"id": "pack_1", "label": "$1", "amount_cents": 100},
     {"id": "pack_5", "label": "$5", "amount_cents": 500},
     {"id": "pack_10", "label": "$10", "amount_cents": 1000},
-    {"id": "pack_25", "label": "$25", "amount_cents": 2500},
 ]
 
 

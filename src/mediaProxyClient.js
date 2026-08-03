@@ -2,6 +2,8 @@ import {
   getMediaProxyBaseCandidates as buildMediaProxyBaseCandidates,
   DEFAULT_CLOUD_LIGHT_MEDIA_PROXY,
   getBillingMediaProxyCandidates,
+  getDevServerMediaProxyBase,
+  isDevServerMediaProxyBase,
 } from './mediaProxyConfig';
 import { AUTH_SESSION_HEADER, readStoredAuthSessionId } from './authResolverClient';
 import { trackResolverRequest } from './analytics';
@@ -80,23 +82,6 @@ function isLikelyLocalResolverBase(base) {
   }
 }
 
-function isDevServerMediaProxyBase(base) {
-  if (!base) return false;
-  try {
-    const parsed = new URL(base);
-    const host = parsed.hostname;
-    if (host !== 'localhost' && host !== '127.0.0.1') return false;
-    if (parsed.port === '8787') return false;
-    if (typeof window !== 'undefined' && window.location && window.location.origin) {
-      if (base === window.location.origin) return true;
-    }
-    // npm start (3000) and Vite (5173) proxy resolver API paths to :8787.
-    return parsed.port === '3000' || parsed.port === '5173';
-  } catch (e) {
-    return false;
-  }
-}
-
 function candidateHasHeavyMl(candidate) {
   const f = candidate && candidate.features;
   if (!f) return false;
@@ -136,13 +121,56 @@ function pickMusicCollectionBase(candidates) {
 }
 
 /** Hosted resolver ledger (Cloud Run) — not peppertrees or local dev. */
-export function pickBillingProxyBase(candidates) {
+function findCloudBillingCandidate(candidates) {
   const preferred = getBillingMediaProxyCandidates() || [];
   for (let i = 0; i < preferred.length; i++) {
     const base = preferred[i];
     for (let j = 0; j < candidates.length; j++) {
       const c = candidates[j];
-      if (c.base === base && c.reachable && c.available && c.billingEnabled) {
+      if (c.base === base && c.reachable && c.billingEnabled) {
+        return c;
+      }
+    }
+  }
+  return null;
+}
+
+function findBillingHealthCandidate(candidates, proxyBase) {
+  if (proxyBase && isDevServerMediaProxyBase(proxyBase)) {
+    const cloud = findCloudBillingCandidate(candidates);
+    if (cloud) return cloud;
+  }
+  if (proxyBase) {
+    return candidates.find(function(c) { return c.base === proxyBase; }) || null;
+  }
+  return findCloudBillingCandidate(candidates);
+}
+
+export function pickBillingProxyBase(candidates) {
+  const cloudBilling = findCloudBillingCandidate(candidates);
+
+  if (process.env.NODE_ENV === 'development') {
+    const devBase = getDevServerMediaProxyBase();
+    if (devBase && cloudBilling) {
+      for (let j = 0; j < candidates.length; j++) {
+        const c = candidates[j];
+        if (c.base === devBase && c.reachable) {
+          return devBase;
+        }
+      }
+    }
+  }
+
+  if (cloudBilling) {
+    return cloudBilling.base;
+  }
+
+  const preferred = getBillingMediaProxyCandidates() || [];
+  for (let i = 0; i < preferred.length; i++) {
+    const base = preferred[i];
+    for (let j = 0; j < candidates.length; j++) {
+      const c = candidates[j];
+      if (c.base === base && c.reachable && c.billingEnabled) {
         return c.base;
       }
     }
@@ -150,7 +178,7 @@ export function pickBillingProxyBase(candidates) {
   let localFallback = null;
   for (let i = 0; i < candidates.length; i++) {
     const c = candidates[i];
-    if (!c.reachable || !c.available || !c.billingEnabled) continue;
+    if (!c.reachable || !c.billingEnabled) continue;
     if (!isLikelyLocalResolverBase(c.base)) return c.base;
     if (!localFallback) localFallback = c.base;
   }
@@ -158,6 +186,20 @@ export function pickBillingProxyBase(candidates) {
 }
 
 function pickBillingAdminBase(candidates) {
+  const cloudBilling = findCloudBillingCandidate(candidates);
+
+  if (process.env.NODE_ENV === 'development') {
+    const devBase = getDevServerMediaProxyBase();
+    if (devBase && cloudBilling) {
+      for (let j = 0; j < candidates.length; j++) {
+        const c = candidates[j];
+        if (c.base === devBase && c.reachable && c.adminAccess) {
+          return devBase;
+        }
+      }
+    }
+  }
+
   const preferred = getBillingMediaProxyCandidates() || [];
   for (let i = 0; i < preferred.length; i++) {
     const base = preferred[i];
@@ -451,7 +493,9 @@ function wrapFetchError(error, bases) {
     }
     throw new Error(
       'Could not reach any media resolver (tried: ' + baseList.join(', ') + '). '
-      + 'Start it with: cd local-resolver && docker compose up --build'
+      + (baseList.length === 1 && String(baseList[0]).indexOf('run.app') >= 0
+        ? 'On localhost, restart the dev server (npm start) so /billing proxies to Cloud Run, and ensure the local resolver is running on :8787 for other features.'
+        : 'Start the local resolver with: cd local-resolver && docker compose up --build')
     );
   }
   throw error;
@@ -738,9 +782,7 @@ export async function probeMediaResolverCandidates(accessToken) {
   musicCollectionProxyBase = pickMusicCollectionBase(candidates);
   billingProxyBase = pickBillingProxyBase(candidates);
   billingAdminProxyBase = pickBillingAdminBase(candidates);
-  const billingCandidate = billingProxyBase
-    ? candidates.find(function(c) { return c.base === billingProxyBase; })
-    : null;
+  const billingCandidate = findBillingHealthCandidate(candidates, billingProxyBase);
   const billingFields = billingFieldsFromCandidate(billingCandidate);
   const preferredAuthBase = pickAuthResolverBase(candidates);
   const authBase = resolveStickyAuthBase(candidates, null);
