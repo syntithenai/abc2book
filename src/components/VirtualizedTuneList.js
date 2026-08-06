@@ -81,6 +81,7 @@ export default function VirtualizedTuneList(props) {
           nowPlayingQueue={props.nowPlayingQueue}
           setNowPlayingQueue={props.setNowPlayingQueue}
           setQueuePlayConfirm={props.setQueuePlayConfirm}
+          setCurrentTune={props.setCurrentTune}
           nowPlayingTuneId={props.nowPlayingTuneId}
         />
       </div>

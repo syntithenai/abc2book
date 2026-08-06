@@ -1,8 +1,7 @@
-"""Email allowlist parsing for resolver access, free access, and embedded credentials.
+"""Email allowlist parsing for resolver access and admin features.
 
 Special token ALL (case-insensitive) allows every verified Google email.
-Empty list is deny-all when auth gates apply (fail-closed), except resolver
-access where an empty list means allow-all (local dev default).
+Empty RESOLVER_ACCESS_EMAILS means allow-all when auth is required.
 """
 
 from __future__ import annotations
@@ -35,29 +34,9 @@ def email_allowed(allowlist: set[str] | None, email: str | None) -> bool:
     return email.strip().lower() in allowlist
 
 
-def load_free_access_emails() -> set[str]:
-    """Universal free-access list: FREE_ACCESS_EMAILS only (no ALLOWED_EMAILS fallback)."""
-    return parse_email_allowlist(os.getenv("FREE_ACCESS_EMAILS", ""))
-
-
 def load_resolver_access_emails() -> set[str]:
-    """Who may use the operator full resolver. Legacy fallback: ALLOWED_EMAILS."""
-    resolver = parse_email_allowlist(os.getenv("RESOLVER_ACCESS_EMAILS", ""))
-    if resolver:
-        return resolver
-    return parse_email_allowlist(os.getenv("ALLOWED_EMAILS", ""))
-
-
-def load_hosted_free_access_emails() -> set[str]:
-    """Free tier on cloud-lite: HOSTED_FREE_ACCESS_EMAILS, else FREE_ACCESS_EMAILS."""
-    hosted = parse_email_allowlist(os.getenv("HOSTED_FREE_ACCESS_EMAILS", ""))
-    if hosted:
-        return hosted
-    return load_free_access_emails()
-
-
-def load_embedded_creds_emails() -> set[str]:
-    return parse_email_allowlist(os.getenv("EMBEDDED_CREDS_EMAILS", ""))
+    """Who may use this resolver host. Empty list = allow all signed-in users."""
+    return parse_email_allowlist(os.getenv("RESOLVER_ACCESS_EMAILS", ""))
 
 
 def load_allowed_admin_emails() -> set[str]:
@@ -81,32 +60,20 @@ def resolver_access_allowed(
     return email_allowed(resolver_access, email)
 
 
-def media_access_allowed(email: str | None, free_access: set[str], require_auth: bool) -> bool:
-    """When REQUIRE_AUTH is off, anyone may use media; else must be free-access allowlisted."""
-    if not require_auth:
-        return True
-    return email_allowed(free_access, email)
-
-
 def music_collection_access_allowed(
     email: str | None,
     collection_allowlist: set[str],
-    free_access: set[str],
     require_auth: bool,
     *,
     collection_enabled: bool = True,
 ) -> bool:
-    """Music collection: FREE_ACCESS users always allowed; dedicated list when set."""
+    """Music collection: dedicated list when set; open when auth is off and list empty."""
     if not collection_enabled:
         return False
-    if email_allowed(free_access, email):
-        return True
     if collection_allowlist:
         if not email:
             return False
         return email_allowed(collection_allowlist, email)
     if not require_auth:
         return True
-    if not email:
-        return False
-    return media_access_allowed(email, free_access, require_auth)
+    return False

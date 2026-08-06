@@ -87,6 +87,12 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
   var saveOnlineTimeout = null
   const persistedTunesRef = useRef({})
   const saveTuneInProgressRef = useRef(false)
+
+  function syncTuneToCatalogStores(tune) {
+    if (!tune || tune.id == null) return
+    rememberTuneBody(tune)
+    saveTuneToRepository(tune).catch(function() {})
+  }
   //indexes.resetBookIndex()
   //var tunesFrom = Object.values(utils.loadLocalObject('abc2book_tunes')).map(function(tune) {
     //tune.id = utils.generateObjectId()
@@ -672,6 +678,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
           indexes.indexTune(restoredTune)
           updateTunesHash(restoredTune)
           savePersistedTuneSnapshot(restoredTune)
+          syncTuneToCatalogStores(restoredTune)
           if (options.hasOwnProperty('tombstone')) {
               setTombstoneStateForTune(tuneId, options.tombstone)
           }
@@ -744,6 +751,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       indexes.indexTune(tune)
       updateTunesHash(tune)
       savePersistedTuneSnapshot(tune)
+      syncTuneToCatalogStores(tune)
       if (!options.skipHistory) {
         recordHistoryChange({
           tuneId: tune.id,
@@ -1003,8 +1011,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         indexes.indexTune(tunes[id])
         updateTunesHash(tunes[id])
         savePersistedTuneSnapshot(tunes[id])
-        rememberTuneBody(tunes[id])
-        saveTuneToRepository(tunes[id]).catch(function() {})
+        syncTuneToCatalogStores(tunes[id])
         historyChanges.push({
               tuneId: id,
               before: before,
@@ -1255,6 +1262,14 @@ The main difference between the two functions is the additional condition in app
                 })
               })
               refreshPersistedTuneSnapshots(tunes)
+              Object.keys(updates || {}).concat(Object.keys(inserts || {}))
+                .concat(Object.keys(localUpdates || {}))
+                .forEach(function(id) {
+                  if (tunes[id]) syncTuneToCatalogStores(tunes[id])
+                })
+              Object.keys(deletes || {}).forEach(function(id) {
+                purgeDeletedTuneStorage(id)
+              })
               setTunes(tunes)
               buildTunesHash()
               reindexImportBuckets({ updates: updates, inserts: inserts, localUpdates: localUpdates, duplicates: duplicates, deletes: deletes }, deleteSnapshots)
@@ -1490,6 +1505,15 @@ The main difference between the two functions is the additional condition in app
                 })
               })
               refreshPersistedTuneSnapshots(tunes)
+              Object.keys(updates || {}).concat(Object.keys(inserts || {}))
+                .concat(Object.keys(localUpdates || {}))
+                .concat(Object.keys(skippedUpdates || {}))
+                .forEach(function(id) {
+                  if (tunes[id]) syncTuneToCatalogStores(tunes[id])
+                })
+              Object.keys(deletes || {}).forEach(function(id) {
+                purgeDeletedTuneStorage(id)
+              })
               setTunes(tunes)
               buildTunesHash()
               reindexImportBuckets({ updates: updates, inserts: inserts, localUpdates: localUpdates, skippedUpdates: skippedUpdates, duplicates: duplicates, deletes: deletes }, beforeSnapshots)

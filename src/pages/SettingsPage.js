@@ -892,6 +892,7 @@ export default function SettingsPage(props) {
               tunes={tunes}
               indexes={props.indexes}
               tunesContentRevision={props.tunesContentRevision}
+              forceRefresh={props.forceRefresh}
             />
           ) : null}
         </Tab.Pane>

@@ -21,7 +21,14 @@ from billing_rates import (
     millicents_to_cents,
 )
 
-BILLING_ENABLED = os.getenv("BILLING_ENABLED", "false").lower() in ("1", "true", "yes")
+def _billing_enabled_from_env() -> bool:
+    raw = os.getenv("BILLING_ENABLED", "").strip()
+    if raw:
+        return raw.lower() in ("1", "true", "yes")
+    return os.getenv("RESOLVER_LIGHT_MODE", "false").lower() in ("1", "true", "yes")
+
+
+BILLING_ENABLED = _billing_enabled_from_env()
 BILLING_STORE = os.getenv("BILLING_STORE", os.getenv("AUTH_SESSION_STORE", "sqlite")).strip().lower()
 BILLING_DB_PATH = os.getenv(
     "BILLING_DB_PATH",
@@ -159,33 +166,16 @@ def _normalize_email(email: str) -> str:
     return (email or "").strip().lower()
 
 
-def is_unlimited_user(
-    email: str,
-    *,
-    free_allowlist: set[str],
-    embedded_allowlist: set[str],
-) -> bool:
-    from allowlists import email_allowed
-
-    normalized = _normalize_email(email)
-    if not normalized:
-        return False
-    return email_allowed(free_allowlist, normalized) or email_allowed(embedded_allowlist, normalized)
-
-
-def should_bill_user(
-    email: str,
-    *,
-    free_allowlist: set[str],
-    embedded_allowlist: set[str],
-) -> bool:
+def should_bill_user(email: str) -> bool:
     if not billing_enabled():
         return False
-    return not is_unlimited_user(
-        email,
-        free_allowlist=free_allowlist,
-        embedded_allowlist=embedded_allowlist,
-    )
+    return bool(_normalize_email(email))
+
+
+def has_credit_access(email: str) -> bool:
+    if not billing_enabled():
+        return True
+    return get_balance_millicents(email) > 0
 
 
 def _sqlite_get_account(email: str) -> dict[str, Any] | None:
@@ -243,19 +233,6 @@ def get_balance_millicents(email: str) -> int:
 
 def get_balance_cents(email: str) -> float:
     return millicents_to_cents(get_balance_millicents(email))
-
-
-def has_credit_access(
-    email: str,
-    *,
-    free_allowlist: set[str],
-    embedded_allowlist: set[str],
-) -> bool:
-    if not billing_enabled():
-        return True
-    if is_unlimited_user(email, free_allowlist=free_allowlist, embedded_allowlist=embedded_allowlist):
-        return True
-    return get_balance_millicents(email) > 0
 
 
 def _append_ledger_sqlite(
@@ -363,6 +340,7 @@ def _firestore_apply_delta(
     account_ref = _firestore_account_ref(email)
     ledger_ref = client.collection(BILLING_LEDGER_COLLECTION).document()
     now = time.time()
+    delta = int(delta_millicents)
 
     @fs.transactional
     def _txn(transaction):
@@ -376,14 +354,16 @@ def _firestore_apply_delta(
             balance = 0
             trial_granted = False
             created_at = now
-        new_balance = balance + int(delta_millicents)
+        new_balance = balance + delta
         if not allow_negative and new_balance < 0:
             return {"ok": False, "error": "insufficient_credit", "balance_millicents": balance}
         transaction.set(
             account_ref,
             {
                 "email": email,
-                "balance_millicents": new_balance,
+                # Atomic increment avoids lost updates when trial credit and checkout
+                # webhooks land close together on a new account.
+                "balance_millicents": fs.Increment(delta),
                 "trial_granted": trial_granted,
                 "created_at": created_at,
                 "updated_at": now,
@@ -394,7 +374,7 @@ def _firestore_apply_delta(
             ledger_ref,
             {
                 "email": email,
-                "delta_millicents": int(delta_millicents),
+                "delta_millicents": delta,
                 "balance_after_millicents": new_balance,
                 "entry_type": entry_type,
                 "usage_type": usage_type or "",
@@ -506,17 +486,11 @@ def record_usage(
     *,
     usage_type: str,
     detail: dict[str, Any] | None = None,
-    free_allowlist: set[str],
-    embedded_allowlist: set[str],
 ) -> dict[str, Any]:
     if millicents <= 0:
         return {"ok": True, "skipped": True}
-    if not should_bill_user(
-        email,
-        free_allowlist=free_allowlist,
-        embedded_allowlist=embedded_allowlist,
-    ):
-        return {"ok": True, "skipped": True, "unlimited": True}
+    if not should_bill_user(email):
+        return {"ok": True, "skipped": True}
     return apply_delta(
         email,
         -int(millicents),
@@ -633,6 +607,13 @@ def grant_purchase(
     )
     if result.get("ok"):
         _record_payment_event(provider, event_id, email, amount_cents)
+        if not result.get("duplicate"):
+            try:
+                grant_trial_if_new(email)
+            except Exception:
+                logging.getLogger("tunebook.billing").exception(
+                    "grant_trial_if_new after purchase failed for %s", email
+                )
     return result
 
 
@@ -676,14 +657,15 @@ def list_accounts(
     if _use_firestore():
         client = _get_firestore_client()
         coll = client.collection(BILLING_FIRESTORE_COLLECTION)
+        docs = list(coll.stream())
         if q:
-            docs = [doc for doc in coll.stream() if q in doc.id]
-            docs.sort(key=lambda d: float((d.to_dict() or {}).get("updated_at") or 0), reverse=True)
-            total = len(docs)
-            page = docs[offset : offset + limit]
-        else:
-            docs = list(coll.order_by("updated_at", direction="DESCENDING").offset(offset).limit(limit).stream())
-            total = coll.count().get()[0][0].value
+            docs = [doc for doc in docs if q in doc.id.lower()]
+        docs.sort(
+            key=lambda doc: float((doc.to_dict() or {}).get("updated_at") or 0),
+            reverse=True,
+        )
+        total = len(docs)
+        page = docs[offset : offset + limit]
         accounts = []
         for doc in page:
             data = doc.to_dict() or {}
@@ -964,34 +946,21 @@ def list_ledger(email: str, *, limit: int = 50) -> list[dict[str, Any]]:
     return out
 
 
-def billing_health_fields(
-    email: str | None,
-    *,
-    free_allowlist: set[str],
-    embedded_allowlist: set[str],
-) -> dict[str, Any]:
+def billing_health_fields(email: str | None) -> dict[str, Any]:
     if not billing_enabled():
         return {
             "billingEnabled": False,
             "creditRequired": False,
             "creditBalanceCents": None,
-            "creditUnlimited": False,
+            "creditUnlimited": True,
         }
     normalized = _normalize_email(email or "")
-    unlimited = bool(
-        normalized
-        and is_unlimited_user(
-            normalized,
-            free_allowlist=free_allowlist,
-            embedded_allowlist=embedded_allowlist,
-        )
-    )
     balance_cents = millicents_to_cents(get_balance_millicents(normalized)) if normalized else 0.0
     return {
         "billingEnabled": True,
         "creditRequired": True,
         "creditBalanceCents": balance_cents,
-        "creditUnlimited": unlimited,
+        "creditUnlimited": False,
     }
 
 
@@ -1092,8 +1061,6 @@ def reserve_credit(
     operation_id: str,
     *,
     detail: dict[str, Any] | None = None,
-    free_allowlist: set[str],
-    embedded_allowlist: set[str],
 ) -> dict[str, Any]:
     if not billing_reservations_enabled():
         return {"ok": True, "skipped": True, "hold_id": None}
@@ -1101,8 +1068,8 @@ def reserve_credit(
     millicents = int(millicents)
     if not email or millicents <= 0:
         return {"ok": True, "skipped": True, "hold_id": None}
-    if not should_bill_user(email, free_allowlist=free_allowlist, embedded_allowlist=embedded_allowlist):
-        return {"ok": True, "skipped": True, "unlimited": True, "hold_id": None}
+    if not should_bill_user(email):
+        return {"ok": True, "skipped": True, "hold_id": None}
 
     balance = get_balance_millicents(email)
     available = get_available_balance_millicents(email)
@@ -1205,15 +1172,12 @@ def finalize_hold(hold_id: str | None, consumed_millicents: int = 0) -> dict[str
 def ensure_available_for_millicents(
     email: str,
     millicents: int,
-    *,
-    free_allowlist: set[str],
-    embedded_allowlist: set[str],
 ) -> dict[str, Any]:
     if not billing_reservations_enabled():
         return {"ok": True}
     email = _normalize_email(email)
-    if not should_bill_user(email, free_allowlist=free_allowlist, embedded_allowlist=embedded_allowlist):
-        return {"ok": True, "unlimited": True}
+    if not should_bill_user(email):
+        return {"ok": True}
     available = get_available_balance_millicents(email)
     if available < int(millicents):
         return {

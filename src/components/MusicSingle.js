@@ -59,6 +59,7 @@ import { filterTuneVoices } from '../abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
+import { shouldSyncViewedTuneToMediaController } from '../playbackNavigationUtils'
 import { useCapoViewState } from '../useCapoViewState'
 import { chordTransposeWithCapo } from '../capoViewUtils'
 import { recordTuneView } from '../tuneViewHistoryStore'
@@ -256,7 +257,12 @@ export default function MusicSingle(props) {
         if (fromProps) {
             setTune(applyTuneSnapshotFromSearchParams(fromProps, searchParams))
             setTuneLoadState('ready')
-            if (props.mediaController && props.mediaController.setTune) {
+            if (props.mediaController && props.mediaController.setTune
+              && shouldSyncViewedTuneToMediaController(
+                props.mediaController,
+                props.nowPlayingQueue,
+                fromProps.id
+              )) {
               props.mediaController.setTune(fromProps)
             }
             return undefined
@@ -269,7 +275,12 @@ export default function MusicSingle(props) {
             if (loaded) {
                 setTune(applyTuneSnapshotFromSearchParams(loaded, searchParams))
                 setTuneLoadState('ready')
-                if (props.mediaController && props.mediaController.setTune) {
+                if (props.mediaController && props.mediaController.setTune
+                  && shouldSyncViewedTuneToMediaController(
+                    props.mediaController,
+                    props.nowPlayingQueue,
+                    loaded.id
+                  )) {
                   props.mediaController.setTune(loaded)
                 }
                 return

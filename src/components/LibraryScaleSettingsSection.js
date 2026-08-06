@@ -78,6 +78,30 @@ export default function LibraryScaleSettingsSection(props) {
     }
   }
 
+  async function handleRebuildCatalog() {
+    setBusy(true)
+    setError('')
+    setMessage('')
+    try {
+      const result = await migrateMonolithToCatalog(tunes, {
+        onProgress: function(done, total) {
+          setMessage('Rebuilding catalog from library… ' + done + ' / ' + total)
+        },
+        yieldToMain: yieldToMain,
+      })
+      await rebuildTextSearchIndexFromTunes(tunes)
+      if (indexes && indexes.reloadFromStore) await indexes.reloadFromStore()
+      if (typeof props.forceRefresh === 'function') props.forceRefresh()
+      const count = result && result.count != null ? result.count : Object.keys(tunes).length
+      setMessage('Catalog rebuilt from library (' + count + ' tunes). Search metadata is up to date.')
+      await refreshStats()
+    } catch (e) {
+      setError(e && e.message ? e.message : 'Catalog rebuild failed')
+    } finally {
+      setBusy(false)
+    }
+  }
+
   function handleCatalogToggle(e) {
     const next = !!e.target.checked
     setUseCatalog(next)
@@ -125,11 +149,19 @@ export default function LibraryScaleSettingsSection(props) {
         <Button variant="outline-secondary" size="sm" disabled={busy} onClick={handleMigrateCatalog}>
           Migrate to catalog storage
         </Button>
+        <Button variant="outline-secondary" size="sm" disabled={busy} onClick={handleRebuildCatalog}>
+          Rebuild catalog from library
+        </Button>
         <Button variant="outline-secondary" size="sm" disabled={busy} onClick={refreshStats}>
           Refresh stats
         </Button>
       </div>
 
+      {useCatalog ? (
+        <p className="app-text-muted small mb-2">
+          If search misses tunes after title edits, use <strong>Rebuild catalog from library</strong> to refresh stored titles and artists.
+        </p>
+      ) : null}
       <Form.Check
         type="switch"
         id="library-use-catalog"

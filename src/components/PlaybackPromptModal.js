@@ -42,6 +42,11 @@ export default function PlaybackPromptModal(props) {
 
   function dismissPrompt() {
     mediaController.setTapToPlay(false)
+    if (isLoadFailed) {
+      mediaController.stop()
+      mediaController.setPlayCancelled(true)
+      return
+    }
     if (mediaController.canResumePlayback && mediaController.canResumePlayback()) {
       return
     }

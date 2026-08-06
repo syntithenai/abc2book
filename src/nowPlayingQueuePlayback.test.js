@@ -311,17 +311,40 @@ describe('nowPlayingQueuePlayback', function() {
     })).toBe(true)
   })
 
-  test('shouldNowPlayingHostOwnPlayback yields to notation editor midi owner', function() {
+  test('shouldNowPlayingHostOwnPlayback yields to notation editor midi owner when idle', function() {
     const tunes = { playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] } }
     expect(shouldNowPlayingHostOwnPlayback({
       viewedTuneId: 'playing',
       queue: queue,
-      mediaController: { isPlaying: true, notationMidiOwner: true, tune: tunes.playing },
+      mediaController: {
+        isPlaying: false,
+        isLoading: false,
+        notationMidiOwner: true,
+        tune: tunes.playing,
+      },
       practiceSessionActive: false,
       gigModeActive: false,
       pathname: '/tunes/playing/playMidi',
       tunes: tunes,
     })).toBe(false)
+  })
+
+  test('shouldNowPlayingHostOwnPlayback stays mounted when notation preview and playlist both active', function() {
+    const tunes = { playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] } }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'playing',
+      queue: queue,
+      mediaController: {
+        isPlaying: true,
+        notationMidiOwner: true,
+        tune: tunes.playing,
+        requestedPlayState: 'playMedia',
+      },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/playing/playMedia/0',
+      tunes: tunes,
+    })).toBe(true)
   })
 
   test('shouldMusicSingleMountMediaEngine defers to NowPlayingHost during normal playback', function() {

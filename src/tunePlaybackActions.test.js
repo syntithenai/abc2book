@@ -511,6 +511,37 @@ describe('resumePlaylistPlayback', function() {
     expect(mediaController.playFromUserGesture).toHaveBeenCalled()
   })
 
+  test('does not navigate when follow tune is off', async function() {
+    const tunebook = makeMockTunebook()
+    const tunes = {
+      empty: makeTune('empty', { notes: '', links: [] }),
+      playable: makeTune('playable', { notes: '', links: [{ link: 'https://example.com/a.mp3' }] }),
+    }
+    const queue = Object.assign(
+      createQueue({ tuneIds: ['empty', 'playable'], currentIndex: 0 }),
+      { followTune: false }
+    )
+    const mediaController = makeMockMediaController(tunes.empty, {
+      applyPlaybackRoute: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      playFromUserGesture: jest.fn(),
+    })
+    const navigate = jest.fn()
+
+    resumePlaylistPlayback(
+      mediaController,
+      tunebook,
+      navigate,
+      queue,
+      tunes,
+      jest.fn(),
+      { pathname: '/tunes' }
+    )
+
+    await new Promise(function(resolve) { setTimeout(resolve, 0) })
+    expect(navigate).not.toHaveBeenCalled()
+  })
+
   test('stops playlist when no playable tunes remain', async function() {
     const tunebook = makeMockTunebook()
     const tunes = { empty: makeTune('empty', { notes: '', links: [] }) }

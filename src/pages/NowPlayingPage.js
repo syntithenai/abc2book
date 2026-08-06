@@ -152,7 +152,8 @@ export default function NowPlayingPage(props) {
         navigate,
         nowPlayingQueue,
         props.tunes,
-        props.setNowPlayingQueue
+        props.setNowPlayingQueue,
+        { pathname: location.pathname }
       )
       return
     }

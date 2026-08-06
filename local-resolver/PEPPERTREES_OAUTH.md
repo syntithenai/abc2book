@@ -16,7 +16,7 @@ AUTH_SESSION_DB_PATH=/app/data/oauth_sessions.sqlite
 AUTH_REFRESH_TOKEN_FERNET_KEY=<optional but recommended>
 REQUIRE_AUTH=true
 ALLOWED_ORIGINS=https://tunebook.net,http://localhost:3000,http://127.0.0.1:3000
-FREE_ACCESS_EMAILS=your@gmail.com
+RESOLVER_ACCESS_EMAILS=your@gmail.com,friend@gmail.com
 ```
 
 `oauth_bff_configured()` is true only when `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, and `AUTH_SESSION_SECRET` are all set.

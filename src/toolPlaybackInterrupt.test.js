@@ -10,6 +10,12 @@ describe('toolPlaybackInterrupt', function() {
     expect(isPlaybackInterruptPath('/tunes/1')).toBe(false)
   })
 
+  test('recognizes settings paths', function() {
+    expect(isPlaybackInterruptPath('/settings')).toBe(true)
+    expect(isPlaybackInterruptPath('/settings/')).toBe(true)
+    expect(isPlaybackInterruptPath('/books')).toBe(false)
+  })
+
   test('does not pause when notation editor owns midi on scratchpad', function() {
     expect(shouldPausePlaybackOnToolPageEnter({
       pathname: '/scratchpad/item-1',

@@ -211,7 +211,10 @@ export async function runTuneListFilterAsync(params) {
 
   let filtered
   let listPage = null
-  if (isCatalogStorageEnabled() && filterContext) {
+  const monolithIds = tunes && typeof tunes === 'object' ? Object.keys(tunes) : []
+  // Prefer the hydrated in-memory monolith for text search. Catalog row metadata can lag
+  // behind edits because not every save path used to update IndexedDB catalog rows.
+  if (isCatalogStorageEnabled() && filterContext && monolithIds.length === 0) {
     const catalogContext = Object.assign({}, filterContext, {
       textFilter: filterContext.textFilter || filterContext.filter || '',
     })

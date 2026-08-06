@@ -1,16 +1,27 @@
 import { useNavigate, useLocation } from 'react-router-dom'
-import { startTunePlayback } from '../tunePlaybackActions'
-import { appendTuneToQueue, insertTuneAfterCurrentInQueue } from '../nowPlayingQueue'
+import { startTunePlayback, isQueuePlaybackEngaged } from '../tunePlaybackActions'
+import { appendTuneToQueue, insertTuneAfterCurrentInQueue, getCurrentTuneId } from '../nowPlayingQueue'
 import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 
 function buildQueueContext(props) {
+  const queue = props.nowPlayingQueue
+  const queuePlayingId = getCurrentTuneId(queue)
+  const showPlaylistMismatch = !!(
+    props.mediaController
+    && props.tunebook
+    && props.tune && props.tune.id
+    && queuePlayingId
+    && String(props.tune.id) !== String(queuePlayingId)
+    && isQueuePlaybackEngaged(props.mediaController, { queue: queue })
+  )
   return {
     tunes: props.tunes,
     playTuneId: props.tune && props.tune.id,
     nowPlayingQueue: props.nowPlayingQueue,
     setNowPlayingQueue: props.setNowPlayingQueue,
     setQueuePlayConfirm: props.setQueuePlayConfirm,
-    skipQueueConfirm: props.skipQueueConfirm !== false,
+    setCurrentTune: props.setCurrentTune,
+    skipQueueConfirm: props.skipQueueConfirm !== false && !showPlaylistMismatch,
   }
 }
 

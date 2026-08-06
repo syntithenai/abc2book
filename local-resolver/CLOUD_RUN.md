@@ -48,8 +48,9 @@ Install/auth if needed: `gcloud auth login` and `gcloud auth configure-docker ${
 |----------|-------------------|
 | `REQUIRE_AUTH` | `true` |
 | `GOOGLE_CLIENT_ID` | Same Web client ID as the Tunebook SPA (`REACT_APP_GOOGLE_CLIENT_ID`) |
-| `FREE_ACCESS_EMAILS` or `ALLOWED_EMAILS` | Who may call media routes. Use your email(s), or `ALL` for every signed-in Google user. **Empty + auth = nobody can use it.** |
+| `RESOLVER_ACCESS_EMAILS` | Who may use this host. Omit or leave empty for any signed-in Google user. Comma list or `ALL`. |
 | `ALLOWED_ORIGINS` | Comma-separated SPA origins that may CORS-call the service. Include production + local: `https://tunebook.net,http://localhost:3000,http://127.0.0.1:3000` |
+| `BILLING_ENABLED` | `true` on Cloud Run (default when `RESOLVER_LIGHT_MODE=true` unless overridden) |
 
 ### Strongly recommended (feature toggles — already defaulted in the image, but set explicitly)
 
@@ -63,11 +64,10 @@ Install/auth if needed: `gcloud auth login` and `gcloud auth configure-docker ${
 
 ### Optional — operator-paid (“host”) API keys
 
-Only callers on `EMBEDDED_CREDS_EMAILS` (or `ALL`) use these. Everyone else must put keys in **Settings → Providers**.
+Users with resolver access may use these keys when they have credit (`BILLING_ENABLED=true`) or when billing is off (home resolver). Everyone can still overlay keys in **Settings → Providers**.
 
 | Variable | Purpose |
 |----------|---------|
-| `EMBEDDED_CREDS_EMAILS` | Who may spend your keys (e.g. `you@gmail.com` or `ALL`) |
 | `PROVIDER_LLM_PROVIDER` | e.g. `groq` / `openai` / `custom` |
 | `PROVIDER_LLM_BASE_URL` | e.g. `https://api.groq.com/openai/v1` |
 | `PROVIDER_LLM_API_KEY` | Secret |
@@ -246,8 +246,6 @@ PROXY_ENABLED: "true"
 YTDLP_REQUIRE_USER_PROXY: "true"
 WHISPER_ENABLED: "true"
 LLM_ENABLED: "true"
-FREE_ACCESS_EMAILS: "syntithenai@gmail.com"
-EMBEDDED_CREDS_EMAILS: "syntithenai@gmail.com"
 ALLOWED_ORIGINS: "https://tunebook.net,http://localhost:3000,http://127.0.0.1:3000"
 PROVIDER_WHISPER_PROVIDER: "groq"
 PROVIDER_WHISPER_BASE_URL: "https://api.groq.com/openai/v1"
@@ -289,8 +287,7 @@ PROVIDER_OCR_API_KEY=provider-groq-api-key:latest\
 Notes:
 
 - `--allow-unauthenticated` means Cloud Run itself does not require a Google identity token; **app** auth is still `REQUIRE_AUTH=true` + Bearer Google access token + allowlist.
-- Only **`syntithenai@gmail.com`** gets free access and embedded Groq spend on this service (as configured above).
-- Other signed-in users will get 403 on media unless you widen `FREE_ACCESS_EMAILS`; they can still use Settings → Providers with their own keys if you later open allowlists.
+- Any signed-in Google user may use the service when `RESOLVER_ACCESS_EMAILS` is omitted (open cloud). Billing deducts credits for embedded provider usage.
 
 Capture the service URL:
 
@@ -337,25 +334,32 @@ On this Cloud Run service, `/youtube` needs one of:
 
 ---
 
-## 6. Typical “just me for free APIs” vs “friends with their own keys”
+## 6. Typical cloud vs home configuration
 
-**Just you (you pay Groq) — current default:**
+**Public Cloud Run (open access + billing):**
 
 ```text
-FREE_ACCESS_EMAILS=syntithenai@gmail.com
-EMBEDDED_CREDS_EMAILS=syntithenai@gmail.com
+# omit RESOLVER_ACCESS_EMAILS — any signed-in Google user
+BILLING_ENABLED=true
 PROVIDER_LLM_MODEL=openai/gpt-oss-120b
 PROVIDER_OCR_MODEL=qwen/qwen3.6-27b
 PROVIDER_WHISPER_MODEL=whisper-large-v3
 + Groq key in Secret Manager (provider-groq-api-key)
 ```
 
-**Friends bring their own keys:**
+**Home peppertrees (restricted list, no billing):**
 
 ```text
-FREE_ACCESS_EMAILS=ALL   # or a comma list
-EMBEDDED_CREDS_EMAILS=   # empty — no free ride on your bill
-# omit PROVIDER_* secrets
+RESOLVER_ACCESS_EMAILS=you@gmail.com,friend@gmail.com
+BILLING_ENABLED=false
++ PROVIDER_* keys in .env
+```
+
+**Friends bring their own keys only:**
+
+```text
+RESOLVER_ACCESS_EMAILS=ALL   # or a comma list
+# omit PROVIDER_* secrets — users set keys in Settings → Providers
 ```
 
 Friends open Settings → Providers → Wizard.

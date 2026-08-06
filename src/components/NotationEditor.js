@@ -2780,16 +2780,6 @@ export default function NotationEditor(props) {
   const isAbcView = session.view === EDITOR_VIEWS.ABC;
   const isChordsView = session.view === EDITOR_VIEWS.CHORDS;
 
-  useLayoutEffect(function() {
-    const mc = props.mediaController;
-    if (!mc || !mc.setNotationMidiOwner) return undefined;
-    mc.setNotationMidiOwner(true);
-    return function() {
-      mc.setNotationMidiOwner(false);
-      if (mc.clearNotationPlayRetry) mc.clearNotationPlayRetry();
-    };
-  }, [props.mediaController]);
-
   const resolvePlaybackContext = useCallback(function() {
     const s = sessionRef.current;
     if (s.view !== EDITOR_VIEWS.ABC) return null;

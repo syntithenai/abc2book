@@ -20,7 +20,7 @@ describe('creditAdminClient', function() {
       billingEnabled: true,
       adminAccess: true,
       candidates: [],
-    }, { email: 'syntithenai@gmail.com' })).toBe(true)
+    }, { email: 'syntithenai@gmail.com' })).toBe(false)
     expect(isBillingAdminAvailable({
       adminAccess: true,
       billingEnabled: true,

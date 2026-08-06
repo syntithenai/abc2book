@@ -2,7 +2,7 @@
 
 Session ids are opaque and sent only via the X-Abc-Auth-Session header.
 Media routes continue to use Authorization: Bearer <google_access_token>.
-ALLOWED_EMAILS never blocks exchange — it only informs allowed_for_media.
+ALLOWED_EMAILS never blocks exchange — it only informs allowed_for_media via RESOLVER_ACCESS_EMAILS.
 
 Session storage:
   AUTH_SESSION_STORE=sqlite (default) — home resolver / local dev

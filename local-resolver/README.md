@@ -116,7 +116,7 @@ python3 scripts/build_music_collection_index.py ./music-collection
 
 Tunebook searches this library before YouTube when adding links. Files stream at
 `/music-collection/...`. Access is gated by `MUSIC_COLLECTION_EMAILS` when set
-(fail-closed allowlist, independent of `FREE_ACCESS_EMAILS`). Override the host
+(fail-closed allowlist, independent of resolver access). Override the host
 path with `MUSIC_COLLECTION_HOST_DIR` in `.env`. Re-run the index script after
 adding or renaming files, or use **Settings → Music collection → Rebuild index**
 (background build with per-file timeouts and `build_errors.jsonl` logging).
@@ -486,9 +486,10 @@ Set in `local-resolver/.env`:
 |----------|-------------|
 | `REQUIRE_AUTH` | Set `true` to require Google login (default `false` in `.env.example`; enabled in `docker-compose.dev.yml`) |
 | `GOOGLE_CLIENT_ID` | Required when `REQUIRE_AUTH=true` |
-| `FREE_ACCESS_EMAILS` | Comma-separated emails (or `ALL`) allowed free media / heavy ML on this host |
-| `EMBEDDED_CREDS_EMAILS` | Comma-separated emails (or `ALL`) allowed to use host-embedded provider API keys |
-| `ALLOWED_EMAILS` | Legacy alias for free access when `FREE_ACCESS_EMAILS` is empty |
+| `RESOLVER_ACCESS_EMAILS` | Who may use this host when auth is on; empty = any signed-in Google user; `ALL` = explicit open |
+| `MUSIC_COLLECTION_EMAILS` | Dedicated allowlist for personal music library streaming |
+| `ALLOWED_ADMIN_EMAILS` | Admin UI (billing panel, feedback) |
+| `BILLING_ENABLED` | Credit metering (default `false` locally; default `true` on Cloud Run via `RESOLVER_LIGHT_MODE`) |
 | `PROVIDER_LLM_*` / `PROVIDER_WHISPER_*` / `PROVIDER_OCR_*` | Optional host-embedded cloud providers (`_PROVIDER`, `_BASE_URL`, `_API_KEY`, `_MODEL`) |
 | `RESOLVER_LIGHT_MODE` | Slim gateway: no local Whisper/Demucs/OCR (see [CLOUD_RUN.md](CLOUD_RUN.md)) |
 | `YTDLP_PROXY` | Optional host residential proxy for yt-dlp |

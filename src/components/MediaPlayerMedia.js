@@ -122,10 +122,11 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         const tuneChanged = tune.id !== lastTuneId
         const linkChanged = requestedLinkNum !== lastMediaLinkNumber
         const playStateChanged = playState !== lastPlayState
+        const kickoffPending = mc.needsPlaybackKickoff && mc.needsPlaybackKickoff()
 
         // tune/tunebook are new object references on most App renders; only
         // re-apply the route when the logical playback target actually changed.
-        if (!isFirstTuneLoad && !tuneChanged && !linkChanged && !playStateChanged) {
+        if (!isFirstTuneLoad && !tuneChanged && !linkChanged && !playStateChanged && !kickoffPending) {
             return
         }
 
@@ -139,6 +140,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
 
         let changeType = null
         if (tuneChanged) {
+            changeType = 'tune'
             mediaController.setTune(tune)
             if (mediaController.clearCachedNativePlaybackUrl) {
                 mediaController.clearCachedNativePlaybackUrl()
@@ -159,12 +161,14 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
                 if (mediaController.setIsPlaying) {
                     mediaController.setIsPlaying(false)
                 }
-            } else {
+            } else if (!kickoffPending) {
                 mediaController.setCurrentTime(0)
                 mediaController.setClickSeek(0)
             }
             mediaController.setDuration(0)
-            mediaController.cleanupTimers()
+            if (!kickoffPending) {
+                mediaController.cleanupTimers()
+            }
             if (mediaController.hasActivePlaybackIntent && !mediaController.hasActivePlaybackIntent()) {
                 mediaController.setIsLoading(false)
             }
@@ -179,6 +183,9 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             mediaController.cleanupTimers()
         } else if (playStateChanged) {
             changeType = 'playState'
+        } else if (kickoffPending) {
+            // Repeat-track / same-tune advance: armPlaybackIntent ran but tune id did not change.
+            changeType = 'tune'
         }
 
         if (changeType === 'playState' && playState !== 'playMidi' && playState !== 'playMedia') {
@@ -292,6 +299,14 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         }
         if (!mediaController.shouldIgnoreNativePlaybackEvents()) {
             if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
+                const nativePlayer = mediaController.playerRef && mediaController.playerRef.current
+                if (nativePlayer && nativePlayer.ended) {
+                    return
+                }
+                if (mediaController.shouldAdvanceQueueOnPlaybackEnd
+                    && mediaController.shouldAdvanceQueueOnPlaybackEnd()) {
+                    return
+                }
                 if (mediaController.recoverUnexpectedNativePause) {
                     mediaController.recoverUnexpectedNativePause()
                 }

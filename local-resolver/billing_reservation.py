@@ -28,16 +28,12 @@ class BillingReservation:
         email: str,
         operation_id: str,
         estimate_millicents: int,
-        free_allowlist: set[str],
-        embedded_allowlist: set[str],
         skipped: bool = False,
     ):
         self.hold_id = hold_id
         self.email = email
         self.operation_id = operation_id
         self.estimate_millicents = estimate_millicents
-        self.free_allowlist = free_allowlist
-        self.embedded_allowlist = embedded_allowlist
         self.skipped = skipped
         self._released = False
 
@@ -46,12 +42,7 @@ class BillingReservation:
             return
         from billing import ensure_available_for_millicents
 
-        result = ensure_available_for_millicents(
-            self.email,
-            millicents,
-            free_allowlist=self.free_allowlist,
-            embedded_allowlist=self.embedded_allowlist,
-        )
+        result = ensure_available_for_millicents(self.email, millicents)
         if not result.get("ok"):
             raise HTTPException(
                 status_code=402,
@@ -112,8 +103,6 @@ def require_credit_reservation(
     *,
     provider_cfg: dict[str, Any] | None = None,
     model: str = "",
-    free_allowlist: set[str],
-    embedded_allowlist: set[str],
 ) -> BillingReservation:
     if _provider_skips_reservation(provider_cfg):
         return BillingReservation(
@@ -121,8 +110,6 @@ def require_credit_reservation(
             email=email or "",
             operation_id=operation_id,
             estimate_millicents=0,
-            free_allowlist=free_allowlist,
-            embedded_allowlist=embedded_allowlist,
             skipped=True,
         )
 
@@ -132,8 +119,6 @@ def require_credit_reservation(
             email=email or "",
             operation_id=operation_id,
             estimate_millicents=0,
-            free_allowlist=free_allowlist,
-            embedded_allowlist=embedded_allowlist,
             skipped=True,
         )
 
@@ -144,23 +129,15 @@ def require_credit_reservation(
             email="",
             operation_id=operation_id,
             estimate_millicents=0,
-            free_allowlist=free_allowlist,
-            embedded_allowlist=embedded_allowlist,
             skipped=True,
         )
 
-    if not should_bill_user(
-        normalized,
-        free_allowlist=free_allowlist,
-        embedded_allowlist=embedded_allowlist,
-    ):
+    if not should_bill_user(normalized):
         return BillingReservation(
             hold_id=None,
             email=normalized,
             operation_id=operation_id,
             estimate_millicents=0,
-            free_allowlist=free_allowlist,
-            embedded_allowlist=embedded_allowlist,
             skipped=True,
         )
 
@@ -171,8 +148,6 @@ def require_credit_reservation(
             email=normalized,
             operation_id=operation_id,
             estimate_millicents=0,
-            free_allowlist=free_allowlist,
-            embedded_allowlist=embedded_allowlist,
             skipped=True,
         )
 
@@ -181,8 +156,6 @@ def require_credit_reservation(
         estimate,
         operation_id,
         detail={"params": params or {}, "model": model},
-        free_allowlist=free_allowlist,
-        embedded_allowlist=embedded_allowlist,
     )
     if not result.get("ok"):
         balance = int(result.get("balance_millicents") or get_balance_millicents(normalized))
@@ -202,8 +175,6 @@ def require_credit_reservation(
         email=normalized,
         operation_id=operation_id,
         estimate_millicents=estimate,
-        free_allowlist=free_allowlist,
-        embedded_allowlist=embedded_allowlist,
     )
 
 

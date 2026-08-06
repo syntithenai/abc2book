@@ -10,11 +10,37 @@ import {
 } from './nowPlayingQueue'
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
 import { advanceQueueToNextPlayable, isQueueItemPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
-import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
+import {
+  isQueuePlaybackEngaged,
+  isTuneListPath,
+  getAppPathname,
+} from './playbackNavigationUtils'
+import { shouldSuppressFollowNavigate } from './nowPlayingQueue'
 import { hasFilteredPlaybackVoices } from './abcVoiceViewSettings'
 import { playExternalMediaItem } from './standaloneMediaPlayback'
 
 export { isQueuePlaybackEngaged }
+
+function shouldNavigateWithQueue(queue, options) {
+    if (!queue || !queue.followTune) return false
+    const opts = options || {}
+    return !shouldSuppressFollowNavigate({
+        pathname: opts.pathname || getAppPathname(),
+        setPlaylist: opts.setPlaylist,
+        practiceSessionActive: opts.practiceSessionActive,
+    })
+}
+
+function playOutsideQueuePreview(mediaController, tunebook, navigate, location, tune, item, previewQueue, ctx) {
+    if (ctx.setNowPlayingQueue) ctx.setNowPlayingQueue(previewQueue)
+    if (ctx.setCurrentTune) ctx.setCurrentTune(tune.id)
+    const pathname = location && location.pathname ? location.pathname : ''
+    if (isTuneListPath(pathname)) {
+        playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+        return
+    }
+    requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item)
+}
 
 function resolveTuneForPlayback(mediaController, location, queueContext) {
     const ctx = queueContext || {}
@@ -253,6 +279,12 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
                 }
             }
             const item = activeQueue.items[queueIndex]
+            const pathname = location && location.pathname ? location.pathname : ''
+            if (isTuneListPath(pathname) && !activeQueue.followTune) {
+                if (ctx.setCurrentTune) ctx.setCurrentTune(tune.id)
+                playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+                return true
+            }
             requestQueueItemPlayback(
                 mediaController,
                 tunebook,
@@ -267,19 +299,20 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
         if (playingId && playingId !== tune.id) {
             function startOutsideQueuePreview() {
                 const previewQueue = startPreviewOnce(queue, tune.id)
-                if (ctx.setNowPlayingQueue) ctx.setNowPlayingQueue(previewQueue)
                 const item = {
                     tuneId: tune.id,
                     prefer: target.type === 'midi' ? 'midi' : 'media',
                     linkIndex: target.type === 'media' ? target.linkNum : undefined,
                 }
-                requestQueueItemPlayback(
+                playOutsideQueuePreview(
                     mediaController,
                     tunebook,
                     navigate,
                     location,
                     tune,
-                    item
+                    item,
+                    previewQueue,
+                    ctx
                 )
             }
             if (ctx.skipQueueConfirm || !isQueuePlaybackEngaged(mediaController)) {
@@ -358,8 +391,9 @@ export function toggleTunePlayback(mediaController, tunebook, navigate, location
     return startTunePlayback(mediaController, tunebook, navigate, location, queueContext)
 }
 
-export function resumePlaylistPlayback(mediaController, tunebook, navigate, queue, tunes, setNowPlayingQueue) {
+export function resumePlaylistPlayback(mediaController, tunebook, navigate, queue, tunes, setNowPlayingQueue, options) {
     if (!isQueueActive(queue)) return false
+    const navOpts = options || {}
     const tuneId = getCurrentTuneId(queue)
     const item = getCurrentItem(queue)
     const tune = tuneId && tunes ? tunes[tuneId] : null
@@ -370,7 +404,7 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
     }
 
     function tryResumeCurrent() {
-        if (tuneId && navigate) {
+        if (tuneId && navigate && shouldNavigateWithQueue(queue, navOpts)) {
             navigateToQueueTune(navigate, tuneId, item, tunebook, tunes)
         }
         if (mediaController && mediaController.canResumePlayback && mediaController.canResumePlayback()) {
@@ -410,7 +444,7 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
         }
         const nextItem = result.item
         const nextTune = result.tune
-        if (navigate) {
+        if (navigate && shouldNavigateWithQueue(result.queue, navOpts)) {
             navigateToQueueTune(navigate, nextItem.tuneId, nextItem, tunebook, tunes)
         }
         playQueueItem(mediaController, tunebook, nextTune, nextItem, { fromUserGesture: true })

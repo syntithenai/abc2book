@@ -106,8 +106,10 @@ export default function CreditSettingsSection(props) {
       <h3>Resolver credit</h3>
       <p className="app-text-muted">
         Prepaid credit covers hosted resolver features (LLM, Whisper, OCR, stems, TTS title announcements, media proxy egress, and feed enrichment).
+        Credit balances are in <strong>US dollars</strong>. New accounts receive <strong>30¢ trial credit</strong> on first sign-in (added to any purchases).
+        Stripe may charge your card in local currency (for example AUD) at checkout; that amount can differ from the USD credit added to your account.
         When you use your own API keys (BYO), Tunebook still charges a small flat proxy fee plus egress for traffic through the hosted resolver.
-        Usage is billed at twice the upstream cost. New accounts receive trial credit on first sign-in.
+        Usage is billed at twice the upstream cost.
       </p>
       {!accessToken ? (
         <Alert variant="warning">Sign in with Google to view balance and buy credit.</Alert>

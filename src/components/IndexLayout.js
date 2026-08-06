@@ -421,61 +421,57 @@ function IndexLayout(props) {
     
     function selectAllToggle(groupKey=null) {
         if (groupKey === null) {
+            var nextSelected = Object.assign({}, selected)
             if (countSelected() > 0) {
                 filtered.forEach(function(tune) {
-                    selected[tune.id] = false
+                    nextSelected[tune.id] = false
                 })
             } else {
                 var selectedCount = 0
                 getVisibleFilteredTunes().forEach(function(tune) {
                     if (selectedCount >= BULK_SELECTION_LIMIT) return
-                    selected[tune.id] = true
+                    nextSelected[tune.id] = true
                     selectedCount += 1
                 })
             }
-            setSelected(enforceSelectionLimit(selected))
-            setSelectedCount(countSelected())
+            setSelected(enforceSelectionLimit(nextSelected))
+            setSelectedCount(countSelectedFrom(nextSelected))
             props.forceRefresh()
         } else {
              if (grouped && Array.isArray(grouped[groupKey])) {
-                var count = 0
+                var nextSelected = Object.assign({}, selected)
                 if (grouped[groupKey].length === countSelected(groupKey)) {
-                    // all off
                     grouped[groupKey].forEach(function(id) {
-                        if (filtered[id] && filtered[id].id) selected[filtered[id].id] = false
+                        if (filtered[id] && filtered[id].id) nextSelected[filtered[id].id] = false
                     })
                 } else {
-                    // all on
                     grouped[groupKey].forEach(function(id) {
-                        if (filtered[id] && filtered[id].id) selected[filtered[id].id] = true
+                        if (filtered[id] && filtered[id].id) nextSelected[filtered[id].id] = true
                     })
                 }
-                setSelected(enforceSelectionLimit(selected))
-                setSelectedCount(countSelected())
+                setSelected(enforceSelectionLimit(nextSelected))
+                setSelectedCount(countSelectedFrom(nextSelected))
                 props.forceRefresh()
-                //grouped[groupKey].forEach(function(id) {
-                    //if (filtered[id] && filtered[id].id && selected[filtered[id].id]) count++ 
-                //})
-                //Object.keys(selected).forEach(function(key) {
              }
         }
     }
     
     function selectBetween(startId,endId) {
         if (startId && endId) {
+            var nextSelected = Object.assign({}, selected)
             var started = false
             filtered.forEach(function(tune) {
                 if (tune.id === startId || tune.id === endId) {
                     started = !started
-                    selected[tune.id] = true
+                    nextSelected[tune.id] = true
                 }
                 if (started) {
-                    selected[tune.id] = true
+                    nextSelected[tune.id] = true
                 }
             })
             
-            setSelected(enforceSelectionLimit(selected))
-            setSelectedCount(countSelected())
+            setSelected(enforceSelectionLimit(nextSelected))
+            setSelectedCount(countSelectedFrom(nextSelected))
             props.forceRefresh()
         }
     }
@@ -499,35 +495,38 @@ function IndexLayout(props) {
         } else {
             e.preventDefault(); 
             e.stopPropagation();
-            if (selected[tuneId] === true) {
-                selected[tuneId] = false
+            var nextSelected = Object.assign({}, selected)
+            if (nextSelected[tuneId] === true) {
+                nextSelected[tuneId] = false
                 setLastSelected(null)
             } else {
-                selected[tuneId] = true
+                nextSelected[tuneId] = true
                 setLastSelected(tuneId)
             }
             
-            setSelected(enforceSelectionLimit(selected))
-            setSelectedCount(countSelected())
-            //props.forceRefresh()
+            setSelected(enforceSelectionLimit(nextSelected))
+            setSelectedCount(countSelectedFrom(nextSelected))
         }
         
     }
     
-    function countSelected(groupKey = null) {
+    function countSelectedFrom(sel, groupKey = null) {
         if (grouped && Array.isArray(grouped[groupKey])) {
             var count = 0
             grouped[groupKey].forEach(function(id) {
-                if (filtered[id] && filtered[id].id && selected[filtered[id].id]) count++ 
-            })
-            return count
-        } else {
-            var count = 0
-            Object.keys(selected).forEach(function(key) {
-                if (selected[key]) count++ 
+                if (filtered[id] && filtered[id].id && sel[filtered[id].id]) count++
             })
             return count
         }
+        var count = 0
+        Object.keys(sel).forEach(function(key) {
+            if (sel[key]) count++
+        })
+        return count
+    }
+
+    function countSelected(groupKey = null) {
+        return countSelectedFrom(selected, groupKey)
     }
     
     

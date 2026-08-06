@@ -10,7 +10,12 @@ import {
   isLessonExternalMedia,
   isRepeatTrack,
 } from './nowPlayingQueue'
-import { isQueuePlaybackEngaged, getViewedTuneIdFromPath } from './playbackNavigationUtils'
+import {
+  isQueuePlaybackEngaged,
+  getViewedTuneIdFromPath,
+  isTuneListPath,
+  isPlaybackBrowsePath,
+} from './playbackNavigationUtils'
 import {
   advanceQueueToNextPlayable,
   isQueueItemPlayable,
@@ -366,10 +371,22 @@ export function resolveHostPlayingTuneId({ queue, mediaController, viewedTuneId,
       return null
     }
     const queueTuneId = getCurrentTuneId(queue)
+    if (queue.previewOnce && queue.previewOnce.tuneId) {
+      const previewId = queue.previewOnce.tuneId
+      if (isTuneListPath(pathname) || isPlaybackBrowsePath(pathname)) {
+        return previewId
+      }
+      if (viewedTuneId && String(viewedTuneId) === String(previewId)) {
+        return previewId
+      }
+    }
     if (isViewingDifferentFromPlaying(viewedTuneId, queue) && viewedTuneId) {
       // User started playback on the tune they are viewing (not the queue item).
       if (controllerTuneId === viewedTuneId) {
-        return viewedTuneId
+        if (!isQueueOutputting(mediaController)
+          || String(controllerTuneId) === String(queueTuneId)) {
+          return viewedTuneId
+        }
       }
       if (!isQueueOutputting(mediaController)) {
         return viewedTuneId
@@ -466,7 +483,6 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
   } = opts || {}
 
   if (practiceSessionActive || gigModeActive) return false
-  if (mediaController && mediaController.notationMidiOwner) return false
   if (shouldMusicSingleOwnPlayback(viewedTuneId, queue)) return false
 
   if (isQueueActive(queue)) {
@@ -494,6 +510,8 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
       return true
     }
   }
+
+  if (mediaController && mediaController.notationMidiOwner) return false
 
   const playingTuneId = resolveHostPlayingTuneId({
     queue: queue,

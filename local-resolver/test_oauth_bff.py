@@ -74,7 +74,7 @@ class OAuthBffTests(unittest.TestCase):
         server.GOOGLE_CLIENT_ID = "client-id"
         server.GOOGLE_CLIENT_SECRET = "client-secret"
         server.AUTH_SESSION_SECRET = "session-secret-value-32bytes-min"
-        server.ALLOWED_EMAILS = {"allowed@example.com"}
+        server.RESOLVER_ACCESS_EMAILS = {"allowed@example.com"}
         self.client = TestClient(server.app)
 
     def tearDown(self):
@@ -95,8 +95,8 @@ class OAuthBffTests(unittest.TestCase):
         self.assertIn("features", body)
         self.assertTrue(body["features"].get("oauthBff"))
         self.assertIn("providers", body)
-        self.assertIn("freeAccess", body)
         self.assertIn("embeddedCreds", body)
+        self.assertIn("resolverAccess", body)
 
     def test_health_ready_features_include_oauth_bff(self):
         with patch.object(server, "_refresh_llm_health_if_stale", new_callable=AsyncMock, return_value=True):

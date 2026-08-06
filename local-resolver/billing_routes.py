@@ -18,7 +18,6 @@ from billing import (
     get_available_balance_millicents,
     get_balance_cents,
     get_balance_millicents,
-    is_unlimited_user,
     list_accounts,
     list_ledger,
 )
@@ -35,8 +34,6 @@ def register_billing_routes(
     get_bearer_token: Callable[[str | None], str | None],
     verify_google_access_token: Callable,
     cors_headers: Callable[[str | None], dict[str, str]],
-    get_free_allowlist: Callable[[], set[str]],
-    get_embedded_allowlist: Callable[[], set[str]],
     get_admin_allowlist: Callable[[], set[str]] | None = None,
 ) -> None:
     async def _verified_email(authorization: str | None) -> str:
@@ -72,9 +69,7 @@ def register_billing_routes(
                 headers=cors_headers(origin),
             )
         email = await _verified_email(authorization)
-        free = get_free_allowlist()
-        embedded = get_embedded_allowlist()
-        fields = billing_health_fields(email, free_allowlist=free, embedded_allowlist=embedded)
+        fields = billing_health_fields(email)
         return JSONResponse(
             {
                 "billingEnabled": True,
@@ -126,9 +121,6 @@ def register_billing_routes(
         if not billing_enabled():
             return JSONResponse({"billingEnabled": False, "results": []}, headers=cors_headers(origin))
         email = await _verified_email(authorization)
-        free = get_free_allowlist()
-        embedded = get_embedded_allowlist()
-        unlimited = is_unlimited_user(email, free_allowlist=free, embedded_allowlist=embedded)
         try:
             body = await request.json()
         except Exception:
@@ -149,20 +141,6 @@ def register_billing_routes(
                 continue
             params = item.get("params") if isinstance(item.get("params"), dict) else {}
             op_model = str(item.get("model") or model or "")
-            if unlimited:
-                est = estimate_operation_millicents(op_id, params, model=op_model)
-                from billing_rates import millicents_to_cents as _mc
-
-                results.append(
-                    {
-                        "id": op_id,
-                        "affordable": True,
-                        "estimateCents": _mc(est),
-                        "estimateMillicents": est,
-                        "creditUnlimited": True,
-                    }
-                )
-                continue
             payload = affordance_payload(
                 email,
                 op_id,
@@ -180,13 +158,13 @@ def register_billing_routes(
         return JSONResponse(
             {
                 "billingEnabled": True,
-                "creditUnlimited": unlimited,
+                "creditUnlimited": False,
                 "results": results,
                 "totalEstimateCents": millicents_to_cents(total_estimate),
                 "availableCents": millicents_to_cents(available),
                 "balanceCents": get_balance_cents(email),
                 "totalShortfallCents": millicents_to_cents(total_shortfall),
-                "affordable": unlimited or total_shortfall == 0,
+                "affordable": total_shortfall == 0,
             },
             headers=cors_headers(origin),
         )

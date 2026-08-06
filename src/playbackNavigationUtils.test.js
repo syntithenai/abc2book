@@ -3,6 +3,7 @@ import {
   shouldShowPlaylistTransportBar,
   isTuneListPath,
   isPlaybackBrowsePath,
+  isPlaybackAdministrativePath,
   shouldSuppressHostAutostart,
   isQueuePlaybackEngaged,
   shouldAdvancePlaybackOnEnd,
@@ -50,6 +51,14 @@ describe('playbackNavigationUtils', function() {
     expect(isPlaybackBrowsePath('/tunes/abc')).toBe(false)
   })
 
+  test('isPlaybackAdministrativePath', function() {
+    expect(isPlaybackAdministrativePath('/settings')).toBe(true)
+    expect(isPlaybackAdministrativePath('/settings/')).toBe(true)
+    expect(isPlaybackAdministrativePath('/settings/media')).toBe(true)
+    expect(isPlaybackAdministrativePath('/tunes')).toBe(false)
+    expect(isPlaybackAdministrativePath('/books')).toBe(false)
+  })
+
   test('shouldSuppressHostAutostart on list unless already playing', function() {
     expect(shouldSuppressHostAutostart('/tunes', { isPlaying: false }, true, null)).toBe(true)
     expect(shouldSuppressHostAutostart('/tunes', { isPlaying: true }, true, null)).toBe(false)
@@ -64,6 +73,12 @@ describe('playbackNavigationUtils', function() {
     expect(shouldAdvancePlaybackOnEnd(Object.assign({}, queue, { repeatTrack: true, repeatMode: 'track' }), true)).toBe(true)
     expect(shouldAdvancePlaybackOnEnd(queue, false)).toBe(false)
     expect(shouldAdvancePlaybackOnEnd(null, true)).toBe(false)
+    expect(shouldAdvancePlaybackOnEnd(queue, true, 'outside')).toBe(false)
+    expect(shouldAdvancePlaybackOnEnd(
+      Object.assign({}, queue, { previewOnce: { tuneId: 'z', returnIndex: 0 } }),
+      true,
+      'z'
+    )).toBe(true)
   })
 
   test('isQueuePlaybackEngaged', function() {
@@ -112,7 +127,7 @@ describe('playbackNavigationUtils', function() {
     expect(isMiniPlayerTransportVisible('/tunes/a', queue, false)).toBe(true)
     expect(isMiniPlayerTransportVisible('/scratchpad', queue, false)).toBe(false)
     expect(isMiniPlayerTransportVisible('/tunes/a', queue, true)).toBe(false)
-    expect(isMiniPlayerTransportVisible('/settings', null, false, { isPlaying: true })).toBe(true)
+    expect(isMiniPlayerTransportVisible('/settings', null, false, { isPlaying: true })).toBe(false)
   })
 
   test('getSkipNavigationTuneId uses viewed tune only', function() {

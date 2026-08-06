@@ -9,7 +9,9 @@ MILLICENTS_PER_DOLLAR = 100_000
 MILLICENTS_PER_CENT = 1_000
 
 BILLING_MARKUP = float(os.getenv("BILLING_MARKUP", "2.0"))
-TRIAL_CREDIT_CENTS = float(os.getenv("BILLING_TRIAL_CREDIT_CENTS", "30"))
+TRIAL_CREDIT_CENTS = float(
+    os.getenv("BILLING_TRIAL_CREDIT_CENTS") or os.getenv("TRIAL_CREDIT_CENTS") or "30"
+)
 
 # Cloud Run egress baseline USD per byte (before markup)
 EGRESS_COST_PER_BYTE = float(os.getenv("BILLING_EGRESS_COST_PER_BYTE", str(0.12 / (1024 ** 3))))

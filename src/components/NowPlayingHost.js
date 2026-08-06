@@ -3,6 +3,7 @@ import MediaPlayerMedia from './MediaPlayerMedia'
 import Abc from './Abc'
 import {
   isQueueActive,
+  isRepeatTrack,
   getCurrentItem,
   resolvePlaybackForItem,
 } from '../nowPlayingQueue'
@@ -69,6 +70,14 @@ export default function NowPlayingHost(props) {
     mediaController,
     mediaController && mediaController.tune,
   ])
+
+  const notationPlaybackRepeat = useMemo(function() {
+    if (!playingTune) return 1
+    const queueHandlesPlaybackEnd = isQueueActive(queue)
+      && (isRepeatTrack(queue) || queue.autoAdvance !== false)
+    if (queueHandlesPlaybackEnd) return 1
+    return playingTune.repeats > 0 ? playingTune.repeats : 1
+  }, [queue, playingTune])
 
   const shouldHost = shouldNowPlayingHostOwnPlayback({
     viewedTuneId: viewedTuneId,
@@ -245,7 +254,7 @@ export default function NowPlayingHost(props) {
           autoPrime={true}
           autoStart={resumePlaybackOnHost && !suppressAutostart}
           editableTempo={false}
-          repeat={playingTune.repeats > 0 ? playingTune.repeats : 1}
+          repeat={notationPlaybackRepeat}
           hideSvg={true}
           hidePlayer={true}
           suppressPlaybackVisuals={true}

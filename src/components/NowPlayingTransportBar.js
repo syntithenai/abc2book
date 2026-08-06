@@ -170,7 +170,9 @@ export default function NowPlayingTransportBar({
         mediaController.pause()
         return
       }
-      resumePlaylistPlayback(mediaController, tunebook, navigate, nowPlayingQueue, tunes, setNowPlayingQueue)
+      resumePlaylistPlayback(mediaController, tunebook, navigate, nowPlayingQueue, tunes, setNowPlayingQueue, {
+        pathname: location.pathname,
+      })
       return
     }
     toggleTunePlayback(mediaController, tunebook, navigate, location, queueContext)
@@ -260,11 +262,15 @@ export default function NowPlayingTransportBar({
     </Button>
   )
 
+  const tuneLinkTitle = 'Go to ' + tuneName
+    + (composer ? ' — ' + composer : '')
+    + (positionLabel ? ' (' + positionLabel + ')' : '')
+
   const tuneTitle = playingTune && queueTuneId ? (
     <Link
       to={'/tunes/' + queueTuneId}
       className="now-playing-transport-tune-link"
-      title={'Go to ' + tuneName}
+      title={tuneLinkTitle}
     >
       <span className="now-playing-transport-tune-name">{tuneName}</span>
       {composer ? (
@@ -275,7 +281,7 @@ export default function NowPlayingTransportBar({
       ) : null}
     </Link>
   ) : (
-    <span className="now-playing-transport-tune-link">
+    <span className="now-playing-transport-tune-link" title={tuneLinkTitle}>
       <span className="now-playing-transport-tune-name">{tuneName}</span>
       {composer ? (
         <span className="now-playing-transport-composer"> — {composer}</span>

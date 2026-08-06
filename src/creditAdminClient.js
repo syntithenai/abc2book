@@ -1,12 +1,9 @@
 import { fetchViaMediaProxy, hasBillingAdminAccess } from './mediaProxyClient'
-import { isFeedFeedbackAdmin } from './feedFeedbackUtils'
 
 export function isBillingAdminAvailable(status, user) {
   if (!status) return false
   if (status.billingAdminAccess) return true
   if (hasBillingAdminAccess(status.candidates || [])) return true
-  // Fallback when health reports admin/billing on different probe fields but user is admin.
-  if (user && isFeedFeedbackAdmin(user, status) && status.billingEnabled) return true
   return false
 }
 

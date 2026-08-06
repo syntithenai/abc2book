@@ -129,8 +129,6 @@ app = FastAPI()
 from allowlists import (
     email_allowed,
     load_allowed_admin_emails,
-    load_embedded_creds_emails,
-    load_free_access_emails,
     load_music_collection_emails,
     load_resolver_access_emails,
     music_collection_access_allowed,
@@ -155,7 +153,6 @@ try:
         get_balance_millicents,
         grant_trial_if_new,
         has_credit_access,
-        is_unlimited_user,
         record_usage,
         should_bill_user,
         wrap_streaming_body,
@@ -169,9 +166,8 @@ except ImportError as _billing_import_err:
     billing_enabled = lambda: False  # type: ignore[assignment]
     ensure_billing_db = lambda: None  # type: ignore[assignment]
     grant_trial_if_new = lambda email: {"granted": False}  # type: ignore[assignment]
-    has_credit_access = lambda email, **kwargs: True  # type: ignore[assignment]
-    is_unlimited_user = lambda email, **kwargs: False  # type: ignore[assignment]
-    should_bill_user = lambda email, **kwargs: False  # type: ignore[assignment]
+    has_credit_access = lambda email: True  # type: ignore[assignment]
+    should_bill_user = lambda email: False  # type: ignore[assignment]
     record_usage = lambda *args, **kwargs: {"ok": True}  # type: ignore[assignment]
     wrap_streaming_body = lambda body_iter, on_complete: body_iter  # type: ignore[assignment]
     billing_health_fields = lambda email, **kwargs: {"billingEnabled": False}  # type: ignore[assignment]
@@ -187,13 +183,10 @@ FEATURE_CAPABILITY = {
     "tts": "tts",
 }
 
-# Free access to media / heavy ML (universal). RESOLVER_ACCESS_EMAILS gates this host.
-ALLOWED_EMAILS = load_free_access_emails()
-FREE_ACCESS_EMAILS = ALLOWED_EMAILS
+# RESOLVER_ACCESS_EMAILS gates this host (empty = allow all signed-in users).
 RESOLVER_ACCESS_EMAILS = load_resolver_access_emails()
 MUSIC_COLLECTION_EMAILS = load_music_collection_emails()
 ALLOWED_ADMIN_EMAILS = load_allowed_admin_emails()
-EMBEDDED_CREDS_EMAILS = load_embedded_creds_emails()
 ALLOWED_ORIGINS = [
     origin.strip()
     for origin in os.getenv("ALLOWED_ORIGINS", "").split(",")
@@ -323,7 +316,7 @@ def cors_headers(origin):
 
 register_oauth_bff_routes(
     app,
-    get_allowed_emails=lambda: ALLOWED_EMAILS,
+    get_allowed_emails=lambda: RESOLVER_ACCESS_EMAILS,
     cors_headers=cors_headers,
 )
 
@@ -331,10 +324,7 @@ register_oauth_bff_routes(
 def billing_context():
     if BillingContext is None:
         return None
-    return BillingContext(
-        free_allowlist=FREE_ACCESS_EMAILS,
-        embedded_allowlist=EMBEDDED_CREDS_EMAILS,
-    )
+    return BillingContext()
 
 
 def _billing_email(verified: dict | None) -> str:
@@ -401,8 +391,6 @@ def _billing_reservation(
         merged,
         provider_cfg=provider_cfg,
         model=model_name,
-        free_allowlist=FREE_ACCESS_EMAILS,
-        embedded_allowlist=EMBEDDED_CREDS_EMAILS,
     )
 
 
@@ -895,6 +883,28 @@ def get_bearer_token(auth_header):
     return None
 
 
+def _resolver_host_access(email: str) -> dict[str, bool]:
+    resolver_ok = resolver_access_allowed(email, RESOLVER_ACCESS_EMAILS, REQUIRE_AUTH)
+    if not resolver_ok:
+        return {
+            "resolverAccess": False,
+            "allowed": False,
+            "embeddedCreds": False,
+        }
+    if not billing_enabled():
+        return {
+            "resolverAccess": True,
+            "allowed": True,
+            "embeddedCreds": True,
+        }
+    has_credit = get_balance_millicents(email) > 0
+    return {
+        "resolverAccess": True,
+        "allowed": has_credit,
+        "embeddedCreds": has_credit,
+    }
+
+
 async def verify_google_access_token(access_token):
     async with httpx.AsyncClient(timeout=20) as client:
         resp = await client.get(
@@ -918,37 +928,21 @@ async def verify_google_access_token(access_token):
             except Exception:
                 pass
 
-        free = email_allowed(FREE_ACCESS_EMAILS, email)
-        embedded = email_allowed(EMBEDDED_CREDS_EMAILS, email)
-        resolver_ok = resolver_access_allowed(email, RESOLVER_ACCESS_EMAILS, REQUIRE_AUTH)
+        access = _resolver_host_access(email)
         return {
             "email": email,
-            "resolverAccess": resolver_ok,
-            "allowed": free,
-            "freeAccess": free,
-            "embeddedCreds": embedded,
+            **access,
         }
 
 
 def _apply_billing_access(verified: dict | None) -> dict | None:
-    if not verified or not billing_enabled():
+    if not verified:
         return verified
     email = _billing_email(verified)
     if not email:
         return verified
-    unlimited = is_unlimited_user(
-        email,
-        free_allowlist=FREE_ACCESS_EMAILS,
-        embedded_allowlist=EMBEDDED_CREDS_EMAILS,
-    )
-    has_credit = get_balance_millicents(email) > 0
-    allowed = bool(verified.get("allowed")) or has_credit
-    embedded = bool(verified.get("embeddedCreds")) or has_credit
     out = dict(verified)
-    out["allowed"] = allowed
-    out["freeAccess"] = bool(verified.get("freeAccess")) or unlimited
-    out["embeddedCreds"] = embedded
-    out["creditUnlimited"] = unlimited
+    out.update(_resolver_host_access(email))
     return out
 
 
@@ -979,7 +973,7 @@ async def maybe_require_auth(authorization):
 
 
 async def require_music_collection_access(authorization):
-    """Music collection: dedicated list + FREE_ACCESS; independent of resolver access."""
+    """Music collection: dedicated list; independent of resolver access."""
     token = get_bearer_token(authorization)
     if MUSIC_COLLECTION_EMAILS or REQUIRE_AUTH:
         if not token:
@@ -991,7 +985,6 @@ async def require_music_collection_access(authorization):
         if not music_collection_access_allowed(
             email,
             MUSIC_COLLECTION_EMAILS,
-            FREE_ACCESS_EMAILS,
             REQUIRE_AUTH,
             collection_enabled=music_collection_enabled(),
         ):
@@ -1001,14 +994,12 @@ async def require_music_collection_access(authorization):
 
 
 def auth_access_flags(verified):
-    """Normalize freeAccess / embeddedCreds from require_auth result or anonymous."""
+    """Normalize embeddedCreds from require_auth result or anonymous."""
     if not verified:
-        # Auth off (trusted LAN / personal): full access including host-embedded keys.
         if not REQUIRE_AUTH:
-            return {"freeAccess": True, "embeddedCreds": True}
-        return {"freeAccess": False, "embeddedCreds": False}
+            return {"embeddedCreds": True}
+        return {"embeddedCreds": False}
     return {
-        "freeAccess": bool(verified.get("freeAccess")),
         "embeddedCreds": bool(verified.get("embeddedCreds")),
     }
 
@@ -1048,7 +1039,6 @@ def _auth_flags_for_health(email: str | None, token_present: bool, verified_fail
     flags["musicCollectionAccess"] = music_collection_access_allowed(
         email,
         MUSIC_COLLECTION_EMAILS,
-        FREE_ACCESS_EMAILS,
         True,
         collection_enabled=music_collection_enabled(),
     )
@@ -1056,82 +1046,52 @@ def _auth_flags_for_health(email: str | None, token_present: bool, verified_fail
 
 
 def build_auth_health_fields(verified_or_none, token_present, verified_failed):
-    """Shared authorized / freeAccess / embeddedCreds for /health responses."""
+    """Shared authorized / embeddedCreds for /health responses."""
     email = _billing_email(verified_or_none) if verified_or_none and not verified_failed else ""
     extra = _auth_flags_for_health(email, token_present, verified_failed)
     fields = dict(extra)
     if not REQUIRE_AUTH:
         flags = auth_access_flags(None)
         fields["authorized"] = True
-        fields["freeAccess"] = flags["freeAccess"]
         fields["embeddedCreds"] = flags["embeddedCreds"]
-        fields.update(
-            billing_health_fields(
-                None,
-                free_allowlist=FREE_ACCESS_EMAILS,
-                embedded_allowlist=EMBEDDED_CREDS_EMAILS,
-            )
-        )
+        fields.update(billing_health_fields(None))
         return fields
 
     if not token_present:
         fields["authorized"] = False
         fields["authReason"] = "login_required"
-        fields["freeAccess"] = False
         fields["embeddedCreds"] = False
-        fields.update(
-            billing_health_fields(
-                None,
-                free_allowlist=FREE_ACCESS_EMAILS,
-                embedded_allowlist=EMBEDDED_CREDS_EMAILS,
-            )
-        )
+        fields.update(billing_health_fields(None))
         return fields
 
     if verified_failed or not verified_or_none:
         fields["authorized"] = False
         fields["authReason"] = "invalid_token"
-        fields["freeAccess"] = False
         fields["embeddedCreds"] = False
-        fields.update(
-            billing_health_fields(
-                None,
-                free_allowlist=FREE_ACCESS_EMAILS,
-                embedded_allowlist=EMBEDDED_CREDS_EMAILS,
-            )
-        )
+        fields.update(billing_health_fields(None))
         return fields
 
     verified = _apply_billing_access(verified_or_none)
     email = _billing_email(verified)
     fields.update(_auth_flags_for_health(email, True, False))
-    fields.update(
-        billing_health_fields(
-            email,
-            free_allowlist=FREE_ACCESS_EMAILS,
-            embedded_allowlist=EMBEDDED_CREDS_EMAILS,
-        )
-    )
+    fields.update(billing_health_fields(email))
 
     if not fields.get("resolverAccess"):
         fields["authorized"] = False
         fields["authReason"] = "resolver_access_denied"
-        fields["freeAccess"] = bool(verified.get("freeAccess"))
         fields["embeddedCreds"] = bool(verified.get("embeddedCreds"))
         return fields
 
     if not verified.get("allowed"):
         fields["authorized"] = False
-        if billing_enabled() and email and not verified.get("creditUnlimited"):
+        if billing_enabled() and email:
             fields["authReason"] = "insufficient_credit"
         else:
             fields["authReason"] = "email_not_authorized"
-        fields["freeAccess"] = False
         fields["embeddedCreds"] = bool(verified.get("embeddedCreds"))
         return fields
 
     fields["authorized"] = True
-    fields["freeAccess"] = bool(verified.get("freeAccess"))
     fields["embeddedCreds"] = bool(verified.get("embeddedCreds"))
     return fields
 
@@ -1143,8 +1103,6 @@ try:
         get_bearer_token=get_bearer_token,
         verify_google_access_token=verify_google_access_token,
         cors_headers=cors_headers,
-        get_free_allowlist=lambda: FREE_ACCESS_EMAILS,
-        get_embedded_allowlist=lambda: EMBEDDED_CREDS_EMAILS,
         get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
     )
 except Exception:
@@ -3178,12 +3136,10 @@ async def health(request: Request, authorization: str | None = Header(default=No
     body.update(music_collection_health_fields())
     body.update(build_auth_health_fields(verified, bool(token), verified_failed))
     flags = {
-        "freeAccess": body.get("freeAccess", False),
         "embeddedCreds": body.get("embeddedCreds", False),
     }
     if not REQUIRE_AUTH:
         flags = auth_access_flags(None)
-        body["freeAccess"] = flags["freeAccess"]
         body["embeddedCreds"] = flags["embeddedCreds"]
         body["authorized"] = True
     body["providers"] = providers_health_payload(
@@ -3234,12 +3190,10 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
     body.update(music_collection_health_fields())
     body.update(build_auth_health_fields(verified, bool(token), verified_failed))
     flags = {
-        "freeAccess": body.get("freeAccess", False),
         "embeddedCreds": body.get("embeddedCreds", False),
     }
     if not REQUIRE_AUTH:
         flags = auth_access_flags(None)
-        body["freeAccess"] = flags["freeAccess"]
         body["embeddedCreds"] = flags["embeddedCreds"]
         body["authorized"] = True
     body["providers"] = providers_health_payload(

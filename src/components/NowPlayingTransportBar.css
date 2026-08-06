@@ -186,7 +186,8 @@
 }
 
 .now-playing-transport-mode-buttons {
-  display: none;
+  /* Bootstrap .btn-group sets display:inline-flex after this sheet — !important keeps small-view repeat-only. */
+  display: none !important;
   flex: 0 0 auto;
 }
 
@@ -205,6 +206,39 @@
   height: 1.15em;
 }
 
+@media (max-width: 991px) {
+  .now-playing-transport-main {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 0.35rem;
+  }
+
+  .now-playing-transport-center {
+    justify-content: stretch;
+  }
+
+  .now-playing-transport-center-cluster {
+    max-width: 100%;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .now-playing-transport-artwork-link {
+    display: none;
+  }
+
+  .now-playing-transport-position {
+    display: none;
+  }
+
+  .now-playing-transport-center-cluster .now-playing-transport-tune-link,
+  .now-playing-transport-center-cluster .now-playing-transport-tune-link:link,
+  .now-playing-transport-center-cluster .now-playing-transport-tune-link:visited {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .now-playing-transport-center-cluster {
     max-width: min(calc(100vw - 12rem), 36rem);
@@ -217,7 +251,7 @@
   }
 
   .now-playing-transport-mode-buttons {
-    display: inline-flex;
+    display: inline-flex !important;
   }
 
   .now-playing-transport-repeat-standalone {

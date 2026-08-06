@@ -94,7 +94,7 @@ function pickHeavyMlBase(candidates) {
     const c = candidates[i];
     if (!c.reachable || !c.available) continue;
     if (c.resolverAccess === false) continue;
-    if (c.freeAccess === false) continue;
+    if (c.resolverAccess === false) continue;
     if (!candidateHasHeavyMl(c)) continue;
     if (isLikelyLocalResolverBase(c.base)) return c.base;
     if (!fallback) fallback = c.base;
@@ -185,19 +185,37 @@ export function pickBillingProxyBase(candidates) {
   return localFallback;
 }
 
+function findCloudBillingAdminCandidate(candidates) {
+  const preferred = getBillingMediaProxyCandidates() || [];
+  for (let i = 0; i < preferred.length; i++) {
+    const base = preferred[i];
+    for (let j = 0; j < candidates.length; j++) {
+      const c = candidates[j];
+      if (c.base === base && c.reachable && c.billingEnabled && c.adminAccess) {
+        return c;
+      }
+    }
+  }
+  return null;
+}
+
 function pickBillingAdminBase(candidates) {
-  const cloudBilling = findCloudBillingCandidate(candidates);
+  const cloudAdmin = findCloudBillingAdminCandidate(candidates);
 
   if (process.env.NODE_ENV === 'development') {
     const devBase = getDevServerMediaProxyBase();
-    if (devBase && cloudBilling) {
+    if (devBase && cloudAdmin) {
       for (let j = 0; j < candidates.length; j++) {
         const c = candidates[j];
-        if (c.base === devBase && c.reachable && c.adminAccess) {
+        if (c.base === devBase && c.reachable) {
           return devBase;
         }
       }
     }
+  }
+
+  if (cloudAdmin) {
+    return cloudAdmin.base;
   }
 
   const preferred = getBillingMediaProxyCandidates() || [];
@@ -567,7 +585,6 @@ function unreachableHealthResult(base) {
     authReason: '',
     mixedContent: isMixedContentBlocked(base),
     oauthBff: false,
-    freeAccess: false,
     embeddedCreds: false,
     billingEnabled: false,
     creditRequired: false,
@@ -673,7 +690,6 @@ async function tryHealthAtBase(base, accessToken) {
       demucsStems: Array.isArray(body.demucsStems) ? body.demucsStems : null,
       features: features,
       oauthBff: oauthBff,
-      freeAccess: body.freeAccess === true || (!requireAuth && available),
       embeddedCreds: body.embeddedCreds === true,
       billingEnabled: body.billingEnabled === true,
       creditRequired: body.creditRequired === true,
@@ -809,7 +825,6 @@ export async function probeMediaResolverCandidates(accessToken) {
     features: activeCandidate && activeCandidate.features
       ? activeCandidate.features
       : null,
-    freeAccess: activeCandidate ? !!activeCandidate.freeAccess : false,
     embeddedCreds: activeCandidate ? !!activeCandidate.embeddedCreds : false,
     billingEnabled: billingFields.billingEnabled,
     creditRequired: billingFields.creditRequired,

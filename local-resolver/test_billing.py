@@ -10,6 +10,7 @@ from unittest.mock import patch
 import billing
 import billing_payment_methods
 import billing_paypal
+import billing_rates
 import billing_stripe
 
 
@@ -23,6 +24,7 @@ class BillingLedgerTests(unittest.TestCase):
                 "BILLING_ENABLED": "true",
                 "BILLING_STORE": "sqlite",
                 "BILLING_DB_PATH": self.db_path,
+                "BILLING_TRIAL_CREDIT_CENTS": "30",
             },
             clear=False,
         )
@@ -32,9 +34,18 @@ class BillingLedgerTests(unittest.TestCase):
         billing.BILLING_DB_PATH = self.db_path
         billing._db_initialized = False
         billing._firestore_client = None
+        billing_rates.TRIAL_CREDIT_CENTS = 30.0
         billing.ensure_db()
+        # Most ledger tests seed balances via grant_purchase; disable auto-trial there.
+        self.trial_patch = patch.object(
+            billing,
+            "grant_trial_if_new",
+            return_value={"granted": False},
+        )
+        self.trial_patch.start()
 
     def tearDown(self):
+        self.trial_patch.stop()
         self.env.stop()
         self.tmp.cleanup()
 
@@ -243,6 +254,68 @@ class BillingLedgerTests(unittest.TestCase):
         self.assertEqual(entries[0]["id"], "new")
         self.assertEqual(entries[0]["created_at"], 3.0)
 
+    def test_process_checkout_session_completed_grants_credit(self):
+        self.trial_patch.stop()
+        class FakeStripe:
+            pass
+
+        class FakeEvent:
+            def to_dict(self):
+                return {
+                    "id": "evt_checkout_1",
+                    "type": "checkout.session.completed",
+                    "data": {
+                        "object": {
+                            "id": "cs_test_1",
+                            "customer_email": "buyer@example.com",
+                            "client_reference_id": "buyer@example.com",
+                            "metadata": {
+                                "email": "buyer@example.com",
+                                "amount_cents": "100",
+                                "pack_id": "pack_1",
+                            },
+                            "amount_total": 142,
+                            "currency": "aud",
+                            "payment_method_types": ["card"],
+                        }
+                    },
+                }
+
+        billing.apply_delta("buyer@example.com", 0, entry_type="account_created")
+        result = billing_stripe.process_checkout_session_completed(FakeEvent(), FakeStripe())
+        self.assertTrue(result.get("ok"))
+        self.assertEqual(billing.get_balance_cents("buyer@example.com"), 130.0)
+        dup = billing_stripe.process_checkout_session_completed(FakeEvent(), FakeStripe())
+        self.assertTrue(dup.get("duplicate"))
+
+    def test_trial_then_purchase_preserves_balance(self):
+        self.trial_patch.stop()
+        trial = billing.grant_trial_if_new("trial@example.com")
+        self.assertTrue(trial.get("granted"))
+        self.assertEqual(billing.get_balance_cents("trial@example.com"), 30.0)
+        purchase = billing.grant_purchase(
+            "trial@example.com",
+            100,
+            provider="stripe",
+            provider_event_id="evt_trial_then_purchase",
+        )
+        self.assertTrue(purchase.get("ok"))
+        self.assertEqual(billing.get_balance_cents("trial@example.com"), 130.0)
+
+    def test_purchase_then_trial_preserves_balance(self):
+        self.trial_patch.stop()
+        purchase = billing.grant_purchase(
+            "buyer@example.com",
+            100,
+            provider="stripe",
+            provider_event_id="evt_purchase_then_trial",
+        )
+        self.assertTrue(purchase.get("ok"))
+        self.assertEqual(billing.get_balance_cents("buyer@example.com"), 130.0)
+        trial = billing.grant_trial_if_new("buyer@example.com")
+        self.assertFalse(trial.get("granted"))
+        self.assertEqual(billing.get_balance_cents("buyer@example.com"), 130.0)
+
     def test_admin_rename_account_rejects_duplicate_target(self):
         billing.apply_delta("keep@example.com", 0, entry_type="account_created")
         billing.apply_delta("move@example.com", 0, entry_type="account_created")
@@ -262,8 +335,6 @@ class BillingLedgerTests(unittest.TestCase):
             "hold@example.com",
             50000,
             "background_research",
-            free_allowlist=set(),
-            embedded_allowlist=set(),
         )
         self.assertFalse(result.get("ok"))
         self.assertEqual(result.get("error"), "insufficient_credit")
@@ -281,8 +352,6 @@ class BillingLedgerTests(unittest.TestCase):
             "hold2@example.com",
             1000,
             "feed_article",
-            free_allowlist=set(),
-            embedded_allowlist=set(),
         )
         self.assertTrue(reserve.get("ok"))
         self.assertEqual(billing.get_available_balance_millicents("hold2@example.com"), before - 1000)
@@ -301,16 +370,12 @@ class BillingLedgerTests(unittest.TestCase):
             "hold3@example.com",
             40000,
             "practice_track",
-            free_allowlist=set(),
-            embedded_allowlist=set(),
         )
         self.assertTrue(first.get("ok"))
         second = billing.reserve_credit(
             "hold3@example.com",
             40000,
             "practice_track",
-            free_allowlist=set(),
-            embedded_allowlist=set(),
         )
         self.assertFalse(second.get("ok"))
         billing.release_hold(first["hold_id"])
@@ -327,15 +392,11 @@ class BillingLedgerTests(unittest.TestCase):
             "hold4@example.com",
             9000,
             usage_type="llm_tokens",
-            free_allowlist=set(),
-            embedded_allowlist=set(),
         )
         result = billing.reserve_credit(
             "hold4@example.com",
             5000,
             "feed_article",
-            free_allowlist=set(),
-            embedded_allowlist=set(),
         )
         self.assertFalse(result.get("ok"))
 
@@ -394,8 +455,6 @@ class BillingAdminRouteTests(unittest.TestCase):
             get_bearer_token=lambda auth: "token" if auth else None,
             verify_google_access_token=verify_admin,
             cors_headers=lambda _origin: {},
-            get_free_allowlist=lambda: set(),
-            get_embedded_allowlist=lambda: set(),
             get_admin_allowlist=lambda: self.admin_allowlist,
         )
         from fastapi.testclient import TestClient
@@ -438,8 +497,6 @@ class BillingAdminRouteTests(unittest.TestCase):
             get_bearer_token=lambda auth: "token" if auth else None,
             verify_google_access_token=verify_user,
             cors_headers=lambda _origin: {},
-            get_free_allowlist=lambda: set(),
-            get_embedded_allowlist=lambda: set(),
             get_admin_allowlist=lambda: {"stever@syntithenai.com"},
         )
         from fastapi.testclient import TestClient
@@ -466,8 +523,6 @@ class BillingAdminRouteTests(unittest.TestCase):
             get_bearer_token=lambda auth: "token" if auth else None,
             verify_google_access_token=verify_user,
             cors_headers=lambda _origin: {},
-            get_free_allowlist=lambda: set(),
-            get_embedded_allowlist=lambda: set(),
             get_admin_allowlist=lambda: {"stever@syntithenai.com"},
         )
         from fastapi.testclient import TestClient
@@ -504,8 +559,6 @@ class BillingAdminRouteTests(unittest.TestCase):
             get_bearer_token=lambda auth: "token" if auth else None,
             verify_google_access_token=verify_user,
             cors_headers=lambda _origin: {},
-            get_free_allowlist=lambda: set(),
-            get_embedded_allowlist=lambda: set(),
             get_admin_allowlist=lambda: {"stever@syntithenai.com"},
         )
         from fastapi.testclient import TestClient
@@ -537,8 +590,6 @@ class BillingAdminRouteTests(unittest.TestCase):
             get_bearer_token=lambda auth: "token" if auth else None,
             verify_google_access_token=verify_user,
             cors_headers=lambda _origin: {},
-            get_free_allowlist=lambda: set(),
-            get_embedded_allowlist=lambda: set(),
             get_admin_allowlist=lambda: {"stever@syntithenai.com"},
         )
         from fastapi.testclient import TestClient
@@ -621,6 +672,67 @@ class BillingPaymentMethodTests(unittest.TestCase):
             FakeStripe(),
         )
         self.assertEqual(method, "google_pay")
+
+    def test_stripe_object_to_dict_reads_stripe_sdk_objects(self):
+        class FakeSession:
+            def to_dict(self):
+                return {
+                    "id": "cs_test",
+                    "customer_email": "buyer@example.com",
+                    "metadata": {"email": "buyer@example.com", "amount_cents": "100", "pack_id": "pack_1"},
+                    "amount_total": 142,
+                    "currency": "aud",
+                }
+
+        data = billing_stripe.stripe_object_to_dict(FakeSession())
+        self.assertEqual(data["id"], "cs_test")
+        self.assertEqual(data["metadata"]["amount_cents"], "100")
+
+    def test_firestore_list_accounts_without_query(self):
+        class FakeDoc:
+            def __init__(self, doc_id, data):
+                self.id = doc_id
+                self._data = data
+
+            def to_dict(self):
+                return self._data
+
+        class FakeCollection:
+            def __init__(self, docs):
+                self._docs = docs
+
+            def stream(self):
+                return list(self._docs)
+
+        class FakeClient:
+            def __init__(self, docs):
+                self._docs = docs
+
+            def collection(self, name):
+                return FakeCollection(self._docs)
+
+        docs = [
+            FakeDoc("alpha@example.com", {
+                "balance_millicents": 100000,
+                "trial_granted": False,
+                "created_at": 1.0,
+                "updated_at": 2.0,
+            }),
+            FakeDoc("beta@example.com", {
+                "balance_millicents": 0,
+                "trial_granted": True,
+                "created_at": 1.0,
+                "updated_at": 3.0,
+            }),
+        ]
+
+        with patch.object(billing, "_use_firestore", return_value=True), patch.object(
+            billing, "_get_firestore_client", return_value=FakeClient(docs)
+        ):
+            result = billing.list_accounts(limit=10)
+
+        self.assertEqual(result["total"], 2)
+        self.assertEqual(result["accounts"][0]["email"], "beta@example.com")
 
 
 if __name__ == "__main__":

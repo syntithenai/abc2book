@@ -140,6 +140,12 @@ export default function useAbcSynth(props) {
     })
     const mediaControllerRef = useRef(props.mediaController)
     mediaControllerRef.current = props.mediaController
+
+    function shouldSuppressPlaybackEndSeek() {
+        const mc = mediaControllerRef.current
+        return !!(mc && typeof mc.shouldSuppressPlaybackEndSeek === 'function'
+            && mc.shouldSuppressPlaybackEndSeek())
+    }
     
     const [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
     
@@ -1931,29 +1937,46 @@ export default function useAbcSynth(props) {
            }
            // infinite repeats
            if (parseInt(props.repeat) === -1) {
-             seekPlayer(0)
+             if (shouldSuppressPlaybackEndSeek()) {
+               stopPlaying()
+               if (props.onEnded) props.onEnded()
+             } else {
+               seekPlayer(0)
+             }
            // single repeat
            } else if (parseInt(props.repeat) === 0) {
              stopPlaying()
-             seekPlayer(0)
+             if (!shouldSuppressPlaybackEndSeek()) {
+               seekPlayer(0)
+             }
              if (props.onEnded) props.onEnded()
            // specified repeats > 0
            } else if (parseInt(props.repeat, 10) > 0 ) {
              if (playCountRef.current < parseInt(props.repeat, 10) - 1) {
-               incrementPlayCount()
-               if (props.onRepeat) props.onRepeat(playCountRef.current + 1)
-               forcePlaybackUntilStartRef.current = true
-               setForceStop(false)
-               scheduleRepeatRestart()
+               if (shouldSuppressPlaybackEndSeek()) {
+                 stopPlaying()
+                 setPlayCount(0)
+                 if (props.onEnded) props.onEnded()
+               } else {
+                 incrementPlayCount()
+                 if (props.onRepeat) props.onRepeat(playCountRef.current + 1)
+                 forcePlaybackUntilStartRef.current = true
+                 setForceStop(false)
+                 scheduleRepeatRestart()
+               }
              } else {
                 stopPlaying()
                 setPlayCount(0)
                 if (props.onEnded) props.onEnded()
-                seekPlayer(0)
+                if (!shouldSuppressPlaybackEndSeek()) {
+                  seekPlayer(0)
+                }
              }  
            } else {
               stopPlaying()
-              seekPlayer(0)
+              if (!shouldSuppressPlaybackEndSeek()) {
+                seekPlayer(0)
+              }
               if (props.onEnded) props.onEnded()
            }
          }

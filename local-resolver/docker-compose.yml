@@ -77,7 +77,7 @@ services:
       SNAPCAST_SERVER_HOST: "${SNAPCAST_SERVER_HOST:-snapserver}"
       SNAPCAST_STREAM_NAME: "${SNAPCAST_STREAM_NAME:-TuneBook}"
       SNAPCAST_PLUGIN_URL: "${SNAPCAST_PLUGIN_URL:-http://local-resolver:8787/snapcast-playback/plugin}"
-      # Auth settings (REQUIRE_AUTH, GOOGLE_CLIENT_ID, ALLOWED_EMAILS, ALLOWED_ORIGINS)
+      # Auth settings (REQUIRE_AUTH, GOOGLE_CLIENT_ID, RESOLVER_ACCESS_EMAILS, ALLOWED_ORIGINS)
       # come from .env via env_file above. Do NOT hardcode REQUIRE_AUTH here, because
       # values in this environment block override env_file and would disable auth.
       YTDLP_COOKIES_PATH: /app/secrets/youtube-cookies.txt

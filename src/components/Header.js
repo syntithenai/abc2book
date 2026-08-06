@@ -15,6 +15,7 @@ import {
   getViewedTuneIdFromPath,
   getSkipNavigationTuneId,
   isTuneListPath,
+  isTuneSingleViewPath,
   shouldPreferQueueNavigation,
 } from '../playbackNavigationUtils';
 import { toggleTunePlayback } from '../tunePlaybackActions';
@@ -70,6 +71,8 @@ export default function Header(props) {
     const verySmallScreen = useIsHeaderAuthHidden();
     const narrowViewport = useIsNarrowViewport();
     const playbackInMenu = useIsHeaderPlaybackInMenu();
+    const onSingleTuneView = isTuneSingleViewPath(location.pathname)
+    const keepPlaybackInHeader = onSingleTuneView || !playbackInMenu
     const { available: resolverAvailable } = useMediaResolverHealth();
     useToolPagePlaybackInterrupt(props.mediaController, location.pathname);
 
@@ -161,7 +164,7 @@ export default function Header(props) {
     const playbackButtonSize = navButtonSize
     const onTunesOrEditor = location.pathname.startsWith('/tunes') || location.pathname.startsWith('/editor/')
     const onPlaybackInterruptTool = isPlaybackInterruptPath(location.pathname)
-    const showHeaderPlayback = onTunesOrEditor && !playbackInMenu
+    const showHeaderPlayback = onTunesOrEditor && keepPlaybackInHeader
     const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
     const skipTuneId = getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue)
     const searchListIds = props.tunebook.getSearchListOrderedIds
@@ -176,6 +179,7 @@ export default function Header(props) {
         (skipTuneId && viewedTuneId)
         || (onTuneList && hasSearchList)
         || preferQueueNav
+        || (onSingleTuneView && hasSearchList)
     )
     // On settings/chords/help/etc., show the full player while a queue is active.
     // Hide on metronome/tuner/piano (those pages pause playback for their own audio).
@@ -267,7 +271,7 @@ export default function Header(props) {
     function renderNavMenu() {
         return (
             <Dropdown.Menu className="header-nav-menu" align="start">
-                {playbackInMenu && onTunesOrEditor && <>
+                {playbackInMenu && !keepPlaybackInHeader && onTunesOrEditor && <>
                 <div className="header-dropdown-section header-dropdown-section-media">
                     {renderMediaPlayerSection(playbackButtonSize)}
                 </div>

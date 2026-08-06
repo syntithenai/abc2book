@@ -1,4 +1,12 @@
-import { isQueueActive, getCurrentTuneId, getCurrentItem, isExternalQueueItem, isLessonExternalMedia, isRepeatTrack } from './nowPlayingQueue'
+import {
+  isQueueActive,
+  getCurrentTuneId,
+  getCurrentItem,
+  isExternalQueueItem,
+  isLessonExternalMedia,
+  isRepeatTrack,
+  findQueueIndexForTuneId,
+} from './nowPlayingQueue'
 import { isPlaybackInterruptPath } from './toolPlaybackInterrupt'
 import { isStandaloneExternalPlaybackEngaged } from './standaloneMediaPlayback'
 
@@ -47,11 +55,40 @@ function isViewingDifferentFromQueue(viewedTuneId, queue) {
   return !!(playingId && viewedTuneId && playingId !== viewedTuneId)
 }
 
-/** Only an active now-playing queue with auto-advance should continue past track end. */
-export function shouldAdvancePlaybackOnEnd(queue, canUpdateQueue) {
+/**
+ * Only an active now-playing queue with auto-advance should continue past track end.
+ * Pass playingTuneId so audition / non-queue tunes do not advance the playlist.
+ */
+export function shouldAdvancePlaybackOnEnd(queue, canUpdateQueue, playingTuneId) {
   if (!isQueueActive(queue) || !canUpdateQueue) return false
   if (isRepeatTrack(queue)) return true
+  if (queue.previewOnce) {
+    return true
+  }
+  if (playingTuneId) {
+    const currentId = getCurrentTuneId(queue)
+    if (currentId && String(playingTuneId) !== String(currentId)) {
+      return false
+    }
+    if (findQueueIndexForTuneId(queue, playingTuneId) === -1) {
+      return false
+    }
+  }
   return queue.autoAdvance !== false
+}
+
+/** Whether a tune page should update the shared media controller tune while a playlist plays. */
+export function shouldSyncViewedTuneToMediaController(mediaController, queue, tuneId) {
+  if (!tuneId) return false
+  if (!isQueueActive(queue)) return true
+  if (queue.previewOnce && queue.previewOnce.tuneId
+    && String(queue.previewOnce.tuneId) === String(tuneId)) {
+    return true
+  }
+  const queueId = getCurrentTuneId(queue)
+  if (queueId && String(queueId) === String(tuneId)) return true
+  if (isQueuePlaybackEngaged(mediaController, { queue })) return false
+  return true
 }
 
 /** Tune index routes (not a single-tune page). */
@@ -85,6 +122,13 @@ export function isPlaybackBrowsePath(pathname) {
   return normalized === '/'
     || normalized === '/books'
     || normalized === '/tags'
+}
+
+/** Settings and similar admin routes — not a playback-focused route. */
+export function isPlaybackAdministrativePath(pathname) {
+  if (!pathname) return false
+  const normalized = pathname.replace(/\/$/, '') || '/'
+  return normalized === '/settings' || normalized.startsWith('/settings/')
 }
 
 export function getAppPathname() {

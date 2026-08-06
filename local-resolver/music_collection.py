@@ -12,7 +12,6 @@ import unicodedata
 from urllib.parse import quote
 
 from allowlists import (
-    load_free_access_emails,
     load_music_collection_emails as load_music_collection_emails_from_allowlists,
     music_collection_access_allowed as check_music_collection_access,
 )
@@ -80,7 +79,6 @@ def music_collection_access_allowed(email: str | None, *, require_auth: bool) ->
     return check_music_collection_access(
         email,
         load_music_collection_emails(),
-        load_free_access_emails(),
         require_auth,
         collection_enabled=True,
     )

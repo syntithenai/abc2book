@@ -65,6 +65,7 @@ export default function TuneListRow(props) {
       nowPlayingQueue={props.nowPlayingQueue}
       setNowPlayingQueue={props.setNowPlayingQueue}
       setQueuePlayConfirm={props.setQueuePlayConfirm}
+      setCurrentTune={props.setCurrentTune}
       nowPlayingTuneId={props.nowPlayingTuneId}
       className="tune-list-item-play"
       buttonSize={showRowExtras ? 'lg' : undefined}

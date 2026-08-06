@@ -18,23 +18,10 @@ from billing_rates import (
 
 
 class BillingContext:
-    def __init__(
-        self,
-        *,
-        free_allowlist: set[str],
-        embedded_allowlist: set[str],
-    ):
-        self.free_allowlist = free_allowlist
-        self.embedded_allowlist = embedded_allowlist
-
     def enabled_for(self, email: str | None) -> bool:
         if not billing_enabled() or not email:
             return False
-        return should_bill_user(
-            email,
-            free_allowlist=self.free_allowlist,
-            embedded_allowlist=self.embedded_allowlist,
-        )
+        return should_bill_user(email)
 
     def record(
         self,
@@ -51,8 +38,6 @@ class BillingContext:
             millicents,
             usage_type=usage_type,
             detail=detail,
-            free_allowlist=self.free_allowlist,
-            embedded_allowlist=self.embedded_allowlist,
         )
 
     def record_llm_usage(

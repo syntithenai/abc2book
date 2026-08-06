@@ -141,3 +141,40 @@ describe('tuneListFilter', function() {
     expect(a).not.toBe(b)
   })
 })
+
+describe('runTuneListFilterAsync catalog search', function() {
+  const tuneStorageFlags = require('./tuneStorageFlags')
+  const tuneRepository = require('./tuneRepository')
+
+  beforeEach(function() {
+    jest.spyOn(tuneStorageFlags, 'isCatalogStorageEnabled').mockReturnValue(true)
+    jest.spyOn(tuneRepository, 'listCatalogPage').mockResolvedValue({ ids: [], rows: [] })
+    jest.spyOn(tuneRepository, 'getTune').mockResolvedValue(null)
+  })
+
+  afterEach(function() {
+    jest.restoreAllMocks()
+  })
+
+  test('uses hydrated monolith for text search when catalog rows are stale', async function() {
+    const { runTuneListFilterAsync } = require('./tuneListFilter')
+    const tunes = {
+      abc: makeTune('abc', 'Ideas Run Free'),
+    }
+    const result = await runTuneListFilterAsync({
+      tunes: tunes,
+      filterSearchFn: function(tune) {
+        return tune && tune.name && tune.name.toLowerCase().indexOf('free') !== -1
+      },
+      groupBy: null,
+      tunebook: {
+        hasLyrics: function() { return false },
+        hasLinks: function() { return false },
+      },
+      filterContext: { filter: 'free', textFilter: 'free' },
+    })
+    expect(result.filtered).toHaveLength(1)
+    expect(result.filtered[0].name).toBe('Ideas Run Free')
+    expect(tuneRepository.listCatalogPage).not.toHaveBeenCalled()
+  })
+})
