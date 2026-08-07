@@ -13,6 +13,9 @@ export default function PlaylistToolbar({
   onCleared,
   className,
   showSave = true,
+  dialogZIndex,
+  startPlaybackOnOpen,
+  mediaController,
 }) {
   const [showOpen, setShowOpen] = useState(false)
   const isLesson = isLessonQueue(nowPlayingQueue)
@@ -91,6 +94,9 @@ export default function PlaylistToolbar({
         setNowPlayingQueue={setNowPlayingQueue}
         onOpened={function() { setShowOpen(false) }}
         title="Open playlist"
+        dialogZIndex={dialogZIndex}
+        startPlaybackOnOpen={startPlaybackOnOpen}
+        mediaController={mediaController}
       />
     </>
   )

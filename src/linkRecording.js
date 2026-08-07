@@ -37,6 +37,81 @@ export function buildRecordingLinkUri(recordingId) {
   return RECORDING_LINK_PREFIX + recordingId
 }
 
+/** Canonical URI for external-media cache keys (matches resolveRecordingLinkAudio). */
+export function resolveTuneLinkCacheSrc(tune, linkIndex) {
+  if (!tune || !Array.isArray(tune.links)) return ''
+  const idx = parseInt(linkIndex, 10)
+  if (isNaN(idx) || idx < 0 || idx >= tune.links.length) return ''
+  const link = tune.links[idx]
+  if (!link) return ''
+  const direct = link.link != null ? String(link.link).trim() : ''
+  if (direct) return direct
+  if (link.recordingId && String(link.recordingId).trim()) {
+    return buildRecordingLinkUri(link.recordingId)
+  }
+  return ''
+}
+
+function collectLinkCacheUris(link) {
+  const uris = []
+  if (!link) return uris
+  const direct = link.link != null ? String(link.link).trim() : ''
+  if (direct) uris.push(direct)
+  const recordingId = link.recordingId || parseRecordingIdFromLinkUri(direct)
+  if (recordingId) {
+    const built = buildRecordingLinkUri(recordingId)
+    if (uris.indexOf(built) < 0) uris.push(built)
+  }
+  return uris
+}
+
+export async function findCachedExternalMediaForLink(tuneId, linkIndex, link, linkCount) {
+  if (!tuneId || !link) return null
+  const uris = collectLinkCacheUris(link)
+  if (uris.length === 0) return null
+
+  const indices = []
+  const idx = parseInt(linkIndex, 10)
+  if (!isNaN(idx) && idx >= 0) indices.push(idx)
+  const maxLinks = parseInt(linkCount, 10) || 0
+  for (let i = 0; i < maxLinks; i++) {
+    if (indices.indexOf(i) < 0) indices.push(i)
+  }
+
+  for (let i = 0; i < indices.length; i++) {
+    for (let u = 0; u < uris.length; u++) {
+      const cached = await getCachedExternalMediaBlob(
+        getExternalMediaCacheKey(tuneId, indices[i], uris[u])
+      )
+      if (cached && cached.blob) return cached
+    }
+  }
+  return null
+}
+
+export async function isLinkMediaCached(tune, linkIndex) {
+  if (!tune || !tune.id) return false
+  const link = tune.links && tune.links[linkIndex]
+  if (link && isOwnedMediaLink(link)) {
+    const cached = await findCachedExternalMediaForLink(
+      tune.id,
+      linkIndex,
+      link,
+      tune.links ? tune.links.length : 0
+    )
+    if (cached && cached.blob) return true
+    const recordingId = link.recordingId || parseRecordingIdFromLinkUri(link.link)
+    if (recordingId) {
+      const recording = await getRecording(recordingId)
+      if (recording) return true
+    }
+    return false
+  }
+  const src = resolveTuneLinkCacheSrc(tune, linkIndex)
+  if (!src) return false
+  return isExternalMediaCached(tune.id, linkIndex, src)
+}
+
 export function isOwnedMediaLink(link) {
   if (!link) return false
   if (isOwnedMediaLinkUri(link.link)) return true
@@ -658,20 +733,29 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
   const linkUri = link.link || buildRecordingLinkUri(link.recordingId)
   const recordingId = link.recordingId || parseRecordingIdFromLinkUri(linkUri)
   const cacheKey = getExternalMediaCacheKey(tuneId, linkIndex, linkUri)
+  const linkCount = opts.linkCount != null
+    ? opts.linkCount
+    : (opts.tune && Array.isArray(opts.tune.links) ? opts.tune.links.length : 0)
 
-  const cached = await getCachedExternalMediaBlob(cacheKey)
+  let cached = await findCachedExternalMediaForLink(tuneId, linkIndex, link, linkCount)
+  if (!cached) {
+    cached = await getCachedExternalMediaBlob(cacheKey)
+  }
   if (cached && cached.blob) {
     return { blob: cached.blob, duration: cached.duration, source: 'cache' }
   }
 
   const recording = recordingId ? await getRecording(recordingId) : null
   if (recording) {
-    const mp3 = await recordingDataToMp3(recording)
-    if (mp3 && mp3.blob) {
+    let blobResult = await recordingDataToMp3(recording)
+    if (!blobResult || !blobResult.blob) {
+      blobResult = await recordingDataToBlob(recording)
+    }
+    if (blobResult && blobResult.blob) {
       if (forPlayback || loadOfflineMediaSettings().autocacheOnPlay) {
-        await putExternalMediaCache(cacheKey, mp3.blob, mp3.duration)
+        await putExternalMediaCache(cacheKey, blobResult.blob, blobResult.duration)
       }
-      return { blob: mp3.blob, duration: mp3.duration, source: 'local' }
+      return { blob: blobResult.blob, duration: blobResult.duration, source: 'local' }
     }
   }
 
@@ -776,10 +860,21 @@ export async function resolveRecordingLinkMidi(link, tuneId, linkIndex, options)
   throw new Error('MIDI recording is not available offline')
 }
 
-export async function isOwnedMediaLinkCached(tuneId, linkIndex, link) {
+export async function isOwnedMediaLinkCached(tuneId, linkIndex, link, linkCount) {
   if (!link || !isOwnedMediaLink(link)) return false
-  const linkUri = link.link || buildRecordingLinkUri(link.recordingId)
-  return isExternalMediaCached(tuneId, linkIndex, linkUri)
+  const cached = await findCachedExternalMediaForLink(
+    tuneId,
+    linkIndex,
+    link,
+    linkCount || 0
+  )
+  if (cached && cached.blob) return true
+  const recordingId = link.recordingId || parseRecordingIdFromLinkUri(link.link)
+  if (recordingId) {
+    const recording = await getRecording(recordingId)
+    if (recording) return true
+  }
+  return false
 }
 
 export async function cacheOwnedMediaLinkIfNeeded(tuneId, linkIndex, link, options) {

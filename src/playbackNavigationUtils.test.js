@@ -11,6 +11,7 @@ import {
   shouldUseQueueNavigationForAdjacent,
   shouldPreservePlaylistAudioDuringSearchBrowse,
   shouldPreferQueueNavigation,
+  getListHighlightTuneId,
   getActivePlaybackTuneId,
   resolveNowPlayingDisplayTuneId,
   isPlaybackActivelyPlaying,
@@ -149,6 +150,21 @@ describe('playbackNavigationUtils', function() {
     const queue = createQueue({ tuneIds: ['a'] })
     expect(shouldPreferQueueNavigation({ isPlaying: true }, queue)).toBe(true)
     expect(shouldPreferQueueNavigation({}, queue)).toBe(false)
+  })
+
+  test('getListHighlightTuneId prefers engaged queue item over controller tune', function() {
+    const queue = createQueue({ tuneIds: ['queue-tune', 'other'], currentIndex: 0 })
+    expect(getListHighlightTuneId({
+      tune: { id: 'other-tune' },
+      isPlaying: true,
+    }, queue)).toBe('queue-tune')
+    expect(getListHighlightTuneId({
+      tune: { id: 'other-tune' },
+      isPlaying: false,
+      canResumePlayback: function() { return true },
+    }, queue)).toBe('queue-tune')
+    expect(getListHighlightTuneId({ tune: { id: 'solo-tune' }, isPlaying: true }, null))
+      .toBe('solo-tune')
   })
 
   test('getActivePlaybackTuneId', function() {

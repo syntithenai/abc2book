@@ -11,10 +11,12 @@
 //   await window.seedTunebook({ replace: true, preset: '1k' })
 //   window.clearTunebook()               // remove the sample tunes again
 // Or load the app with ?seed=demo to auto-seed when empty,
-// or ?seed=notation-basic for notation E2E fixtures.
+// or ?seed=notation-basic for notation E2E fixtures,
+// or ?seed=playback-router for playback router E2E fixtures.
 
 import { SAMPLE_TUNEBOOK_ABC, SAMPLE_TUNE_IDS } from './sampleTunebookAbc'
 import { NOTATION_E2E_FULL_ABC } from './notationE2eFixtures'
+import { PLAYBACK_E2E_FULL_ABC } from './playbackRouterE2eFixtures'
 
 const STUB_PRESETS = {
   '1k': 1000,
@@ -143,13 +145,18 @@ export function registerDevTunebookSeeder(context) {
   const search = window.location.search || ''
   const seedMatch = search.match(/[?&]seed=([^&]+)/)
   const seedMode = seedMatch ? decodeURIComponent(seedMatch[1]) : ''
-  if (!window.__abcSeedAutoRan && (seedMode === 'demo' || seedMode === 'notation-basic' || STUB_PRESETS[seedMode])) {
+  if (!window.__abcSeedAutoRan && (seedMode === 'demo' || seedMode === 'notation-basic' || seedMode === 'playback-router' || STUB_PRESETS[seedMode])) {
     window.__abcSeedAutoRan = true
     const tunes = context.getTunes() || {}
     const empty = Object.keys(tunes).length === 0
     if (seedMode === 'notation-basic') {
       seedSampleTunebook(context.getTunebook(), tunes, {
         abc: NOTATION_E2E_FULL_ABC,
+        replace: true,
+      })
+    } else if (seedMode === 'playback-router') {
+      seedSampleTunebook(context.getTunebook(), tunes, {
+        abc: PLAYBACK_E2E_FULL_ABC,
         replace: true,
       })
     } else if (STUB_PRESETS[seedMode]) {

@@ -15,9 +15,15 @@ export function getRepeatMode(queue) {
   if (queue.repeatMode && REPEAT_MODES.indexOf(queue.repeatMode) !== -1) {
     return queue.repeatMode
   }
-  if (queue.repeatTrack) return 'track'
-  if (queue.loop) return 'playlist'
   return 'off'
+}
+
+/** Clear legacy loop/repeatTrack flags unless repeatMode was explicitly stored. */
+export function normalizeQueuePlaybackModes(queue) {
+  if (!queue) return queue
+  const hasExplicitRepeatMode = queue.repeatMode && REPEAT_MODES.indexOf(queue.repeatMode) !== -1
+  const repeatMode = hasExplicitRepeatMode ? queue.repeatMode : 'off'
+  return queueWithRepeatMode(queue, repeatMode)
 }
 
 export function isRepeatPlaylist(queue) {
@@ -128,20 +134,21 @@ export function createQueue(options) {
   })
   const repeatMode = opts.repeatMode
     || (opts.repeatTrack ? 'track' : (opts.loop ? 'playlist' : 'off'))
-  const queue = {
+  const queue = normalizeQueuePlaybackModes({
     id: opts.id || createQueueId(),
     name: opts.name || 'Playlist',
     source: opts.source || 'manual',
     items: items,
     currentIndex: typeof opts.currentIndex === 'number' ? opts.currentIndex : 0,
-    followTune: opts.followTune !== undefined ? !!opts.followTune : true,
+    followTune: opts.followTune !== undefined ? !!opts.followTune : false,
     autoAdvance: opts.autoAdvance !== false,
     shuffle: !!opts.shuffle,
     shuffleOrder: null,
     suspendSnapshot: null,
     previewOnce: null,
-  }
-  return queueWithRepeatMode(queue, repeatMode)
+    repeatMode: repeatMode,
+  })
+  return queue
 }
 
 export function buildShuffleOrder(length, startIndex) {
@@ -183,7 +190,9 @@ function ensureShuffleOrder(queue) {
   })
 }
 
-function advanceQueueShuffled(queue, direction) {
+function advanceQueueShuffled(queue, direction, options) {
+  const opts = options || {}
+  const wrap = !!opts.wrap
   const dir = direction >= 0 ? 1 : -1
   let active = ensureShuffleOrder(queue)
   const order = active.shuffleOrder
@@ -196,12 +205,17 @@ function advanceQueueShuffled(queue, direction) {
         atEdge: false,
       }
     }
-    if (isRepeatPlaylist(active)) {
-      const newOrder = buildShuffleOrder(active.items.length, order[pos])
+    if (isRepeatPlaylist(active) || wrap) {
+      const newOrder = isRepeatPlaylist(active)
+        ? buildShuffleOrder(active.items.length, order[pos])
+        : active.shuffleOrder
+      const wrapIndex = wrap && !isRepeatPlaylist(active)
+        ? order[0]
+        : newOrder[0]
       return {
         queue: Object.assign({}, active, {
           shuffleOrder: newOrder,
-          currentIndex: newOrder[0],
+          currentIndex: wrapIndex,
         }),
         atEdge: false,
       }
@@ -215,7 +229,7 @@ function advanceQueueShuffled(queue, direction) {
       atEdge: false,
     }
   }
-  if (isRepeatPlaylist(active)) {
+  if (isRepeatPlaylist(active) || wrap) {
     return {
       queue: Object.assign({}, active, { currentIndex: order[order.length - 1] }),
       atEdge: false,
@@ -261,21 +275,29 @@ export function getQueuePositionLabel(queue) {
   return (idx + 1) + '/' + queue.items.length
 }
 
-export function advanceQueue(queue, direction) {
+export function advanceQueue(queue, direction, options) {
+  const opts = options || {}
+  const wrap = !!opts.wrap
   const dir = direction >= 0 ? 1 : -1
   if (!isQueueActive(queue)) {
     return { queue: null, atEdge: true, edge: dir > 0 ? 'end' : 'start' }
   }
   if (queue.shuffle) {
-    return advanceQueueShuffled(queue, direction)
+    return advanceQueueShuffled(queue, direction, options)
   }
   const idx = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
   const nextIndex = idx + dir
   if (nextIndex < 0) {
+    if (wrap) {
+      return {
+        queue: Object.assign({}, queue, { currentIndex: queue.items.length - 1 }),
+        atEdge: false,
+      }
+    }
     return { queue: Object.assign({}, queue, { currentIndex: 0 }), atEdge: true, edge: 'start' }
   }
   if (nextIndex >= queue.items.length) {
-    if (isRepeatPlaylist(queue)) {
+    if (isRepeatPlaylist(queue) || wrap) {
       return { queue: Object.assign({}, queue, { currentIndex: 0 }), atEdge: false }
     }
     return { queue: queue, atEdge: true, edge: 'end' }
@@ -498,7 +520,7 @@ export function loadActiveQueue() {
     if (!raw) return null
     const parsed = JSON.parse(raw)
     if (!isQueueActive(parsed)) return null
-    return parsed
+    return normalizeQueuePlaybackModes(parsed)
   } catch (e) {
     return null
   }

@@ -1,12 +1,5 @@
 import React from 'react'
-
-function chromeExtensionsLink() {
-  return React.createElement(
-    'a',
-    { href: 'chrome://extensions', target: '_blank', rel: 'noreferrer' },
-    'chrome://extensions'
-  )
-}
+import { ChromeExtensionsAddress } from './components/FormFieldHelp'
 
 export const EDITOR_INFO_FIELD_HELP = {
   tuning: {
@@ -127,7 +120,7 @@ export const SETTINGS_FIELD_HELP = {
         title: '3. Load unpacked in Chrome',
         body: [
           'Open ',
-          chromeExtensionsLink(),
+          React.createElement(ChromeExtensionsAddress, { key: 'chrome-extensions' }),
           ', turn on Developer mode, click Load unpacked, and select that folder.',
         ],
       },
@@ -139,7 +132,7 @@ export const SETTINGS_FIELD_HELP = {
         title: '5. Confirm connected',
         body: [
           'Status on Settings → Media should show connected. If it stays disconnected, reload the extension on ',
-          chromeExtensionsLink(),
+          React.createElement(ChromeExtensionsAddress, { key: 'chrome-extensions-reload', showHint: false }),
           ', then hard-reload Tunebook again.',
         ],
       },

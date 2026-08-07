@@ -25,6 +25,7 @@ export default function MediaPlaybackSettingsTabs({
   setNowPlayingQueue,
   tunes,
   onPlaylistCleared,
+  elevatedPlaylistModal,
 }) {
   const showPlaylistTab = isQueueActive(nowPlayingQueue)
     && Array.isArray(nowPlayingQueue.items)
@@ -158,12 +159,14 @@ export default function MediaPlaybackSettingsTabs({
     }
   }, [settingsTab, showLoopTab, showAudioFiltersTab, hasMusic])
 
+  const refreshMediaResolverHealth = mediaController.refreshMediaResolverHealth
+
   useEffect(function() {
     if (!active) return
-    if (mediaController.refreshMediaResolverHealth) {
-      mediaController.refreshMediaResolverHealth()
+    if (refreshMediaResolverHealth) {
+      refreshMediaResolverHealth()
     }
-  }, [active, mediaController])
+  }, [active, refreshMediaResolverHealth])
 
   if (!tune && !showPlaylistTab) return null
 
@@ -191,6 +194,9 @@ export default function MediaPlaybackSettingsTabs({
                 setNowPlayingQueue={setNowPlayingQueue}
                 tunes={tunes}
                 onCleared={onPlaylistCleared}
+                dialogZIndex={elevatedPlaylistModal ? 1300 : undefined}
+                startPlaybackOnOpen={elevatedPlaylistModal}
+                mediaController={mediaController}
               />
               <NowPlayingQueueManager
                 tunebook={tunebook}

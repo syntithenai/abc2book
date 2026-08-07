@@ -17,9 +17,28 @@ import {
   setSnapcastOutputEnabled,
   setPreferredRemoteOutput,
   PREFERRED_OUTPUT_SNAPCAST,
+  PREFERRED_OUTPUT_LOCAL,
 } from './preferredRemoteOutputSettings';
+import { buildPlaybackRouterContext } from './playbackRouterContext';
+import { classifyPlayBranch } from './playbackRouterParity';
+import { PLAYBACK_ROUTER_FIXTURES } from './playbackRouter.fixtures';
 
 const { prefersNativeMediaPlayback } = require('./platformUtils');
+
+function applyFixtureSettings(settings) {
+  if (!settings) return;
+  if (settings.snapcastPreferred) {
+    setPreferredRemoteOutput(PREFERRED_OUTPUT_SNAPCAST);
+  } else {
+    setPreferredRemoteOutput(PREFERRED_OUTPUT_LOCAL);
+  }
+  if (settings.snapcastOutputEnabled === false) {
+    setSnapcastOutputEnabled(false);
+  }
+  if (settings.chromecastOutputEnabled === false) {
+    setChromecastOutputEnabled(false);
+  }
+}
 
 describe('playbackRouter', function() {
   beforeEach(function() {
@@ -28,6 +47,23 @@ describe('playbackRouter', function() {
     setChromecastOutputEnabled(true);
     prefersNativeMediaPlayback.mockReturnValue(false);
   });
+
+  test.each(PLAYBACK_ROUTER_FIXTURES.map(function(f) { return [f.name, f]; }))(
+    'fixture %s',
+    function(_name, fixture) {
+      applyFixtureSettings(fixture.settings);
+      if (fixture.snapshot.prefersNative) {
+        prefersNativeMediaPlayback.mockReturnValue(true);
+      } else {
+        prefersNativeMediaPlayback.mockReturnValue(false);
+      }
+      const route = resolvePlaybackRoute(buildPlaybackRouterContext(fixture.snapshot));
+      expect(route.engine).toBe(fixture.expectedEngine);
+      expect(route.resolverRequired).toBe(fixture.expectedResolverRequired);
+      const branch = classifyPlayBranch(fixture.snapshot, {});
+      expect(fixture.allowedBranches).toContain(branch);
+    }
+  );
 
   test('notation midi uses web synth by default', function() {
     const route = resolvePlaybackRoute({

@@ -16,6 +16,7 @@ import { enrichTuneMetadataFromMusicBrainz } from './tuneMetadataEnhance'
 
 const enrichByTuneId = {}
 const listeners = new Set()
+const activeEnrichAbortByTuneId = {}
 
 export function dismissAddTuneAutoEnrichSummary(tuneId) {
   const key = String(tuneId || '').trim()
@@ -136,6 +137,14 @@ export function getAddTuneAutoEnrichState(tuneId) {
 
 export function isAddTuneAutoEnrichPending(tuneId) {
   return !!getAddTuneAutoEnrichState(tuneId).pending
+}
+
+export function cancelAddTuneAutoEnrich(tuneId) {
+  const key = String(tuneId || '').trim()
+  if (!key) return
+  const controller = activeEnrichAbortByTuneId[key]
+  if (controller) controller.abort()
+  clearState(tuneId)
 }
 
 export function dismissAddTuneAutoEnrichFailure(tuneId) {
@@ -299,6 +308,14 @@ export async function runAddTuneAutoEnrich(options) {
   if (!title) return false
   const songType = opts.songType || inferNotationSongType(tune.rhythm || '', artist)
 
+  const controller = typeof AbortController !== 'undefined' ? new AbortController() : null
+  const signal = controller ? controller.signal : undefined
+  activeEnrichAbortByTuneId[tuneId] = controller
+
+  function isCancelled() {
+    return !!(controller && controller.signal.aborted)
+  }
+
   function notationPickOptions() {
     return {
       songType: songType,
@@ -358,6 +375,7 @@ export async function runAddTuneAutoEnrich(options) {
       artist: artist,
       accessToken: opts.accessToken || '',
       resolverAvailable: opts.resolverAvailable,
+      signal: signal,
       abcTools: opts.tunebook.abcTools || null,
       renderChords: opts.abcjsParser && typeof opts.abcjsParser.renderChords === 'function'
         ? function(abc) { return opts.abcjsParser.renderChords(abc, true) }
@@ -374,6 +392,7 @@ export async function runAddTuneAutoEnrich(options) {
       artist: artist,
       accessToken: opts.accessToken || '',
       resolverAvailable: opts.resolverAvailable,
+      signal: signal,
       abcTools: opts.tunebook.abcTools || null,
       onProgress: function(message, progress) {
         const frac = fractionProgress(progress)
@@ -391,6 +410,7 @@ export async function runAddTuneAutoEnrich(options) {
       artist: artist,
       accessToken: opts.accessToken || '',
       resolverAvailable: opts.resolverAvailable,
+      signal: signal,
       abcTools: opts.tunebook.abcTools || null,
       searchIndex: opts.searchIndex || null,
       loadTuneTexts: opts.loadTuneTexts || null,
@@ -421,6 +441,7 @@ export async function runAddTuneAutoEnrich(options) {
         failure: '',
       })
       const chordResult = await chordPromise
+      if (isCancelled()) return false
       chordFrac = 1
       emitParallelProgress()
       chordManualCandidates = manualCandidatesFromSearchResult(chordResult)
@@ -462,6 +483,7 @@ export async function runAddTuneAutoEnrich(options) {
         failure: '',
       })
       const lyricCandidate = pickFirstSearchCandidate(await lyricPromise)
+      if (isCancelled()) return false
       lyricFrac = 1
       emitParallelProgress()
       if (lyricCandidate && isTuneFieldEmptyForKind(tune, 'lyrics')) {
@@ -504,6 +526,7 @@ export async function runAddTuneAutoEnrich(options) {
         failure: '',
       })
       const settled = await notationSettled
+      if (isCancelled()) return false
       if (!settled.ok) {
         notationSearchFailed = true
       } else {
@@ -558,7 +581,9 @@ export async function runAddTuneAutoEnrich(options) {
         artist: artist,
         accessToken: opts.accessToken || '',
         resolverAvailable: opts.resolverAvailable,
+        signal: signal,
       })
+      if (isCancelled()) return false
       const applied = metaResult && metaResult.applied ? metaResult.applied : {}
       if (applied.composer) metadataComposer = 'MusicBrainz'
       if (applied.artists && applied.artists.length) metadataArtists = 'MusicBrainz'
@@ -571,6 +596,9 @@ export async function runAddTuneAutoEnrich(options) {
 
     return true
   } finally {
+    delete activeEnrichAbortByTuneId[tuneId]
+    if (isCancelled()) return
+
     const stillNeedsChords = !chordApplied && isTuneFieldEmptyForKind(tune, 'chords')
     const stillNeedsNotation = notationAttempted
       && !notationApplied

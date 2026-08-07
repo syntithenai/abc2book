@@ -449,13 +449,14 @@ export default function usePracticeSession(options) {
   }, [])
 
   useEffect(function() {
-    if (!mediaController || !mediaController.setPracticeSessionActive) return
+    const controller = mediaControllerRef.current
+    if (!controller || !controller.setPracticeSessionActive) return
     const active = sessionOpen && phase !== 'idle'
-    mediaController.setPracticeSessionActive(active)
+    controller.setPracticeSessionActive(active)
     if (active) {
       mediaCacheQueue.stop()
     }
-  }, [sessionOpen, phase, mediaController])
+  }, [sessionOpen, phase])
 
   useEffect(function() {
     return function() {

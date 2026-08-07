@@ -1,12 +1,13 @@
 import {
   isQueueActive,
-  startPreviewOnce,
   getCurrentItem,
   getCurrentTuneId,
   findQueueIndexForTuneId,
   resolvePlaybackForItem,
   isExternalQueueItem,
   isLessonExternalMedia,
+  appendTuneToQueue,
+  createQueue,
 } from './nowPlayingQueue'
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
 import { advanceQueueToNextPlayable, isQueueItemPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
@@ -29,17 +30,6 @@ function shouldNavigateWithQueue(queue, options) {
         setPlaylist: opts.setPlaylist,
         practiceSessionActive: opts.practiceSessionActive,
     })
-}
-
-function playOutsideQueuePreview(mediaController, tunebook, navigate, location, tune, item, previewQueue, ctx) {
-    if (ctx.setNowPlayingQueue) ctx.setNowPlayingQueue(previewQueue)
-    if (ctx.setCurrentTune) ctx.setCurrentTune(tune.id)
-    const pathname = location && location.pathname ? location.pathname : ''
-    if (isTuneListPath(pathname)) {
-        playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
-        return
-    }
-    requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item)
 }
 
 function resolveTuneForPlayback(mediaController, location, queueContext) {
@@ -196,10 +186,6 @@ function requestQueueItemPlayback(mediaController, tunebook, navigate, location,
     return true
 }
 
-/**
- * Start the given tune (media preferred, else midi).
- * Used by header next/prev when continuing an already-playing session.
- */
 export function playTuneNow(mediaController, tunebook, navigate, tune) {
     if (!mediaController || !tunebook || !tune) return false
     const hasMusic = tunebook.hasNotesOrChords && tunebook.hasNotesOrChords(tune)
@@ -220,13 +206,79 @@ export function playTuneNow(mediaController, tunebook, navigate, tune) {
     return true
 }
 
-export function resumeTunePlayback(mediaController, viewedTuneId) {
+/**
+ * Append a tune to the active queue (or create one), jump to it, and start playback.
+ * Used by header play and viewed-focus fullscreen play.
+ */
+export function enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, location, tune, context) {
+    const ctx = context || {}
+    const setQueue = ctx.setNowPlayingQueue
+    if (!mediaController || !tunebook || !tune || !tune.id || !setQueue) return false
+
+    let queue = ctx.nowPlayingQueue
+    const tuneId = tune.id
+    const existingIndex = findQueueIndexForTuneId(queue, tuneId)
+
+    if (existingIndex !== -1) {
+        queue = Object.assign({}, queue, {
+            currentIndex: existingIndex,
+            previewOnce: null,
+        })
+    } else if (isQueueActive(queue)) {
+        queue = appendTuneToQueue(queue, tuneId)
+        queue = Object.assign({}, queue, {
+            currentIndex: queue.items.length - 1,
+            previewOnce: null,
+        })
+    } else {
+        queue = createQueue({
+            tuneIds: [tuneId],
+            followTune: false,
+            repeatMode: 'off',
+        })
+    }
+
+    setQueue(queue)
+    if (ctx.setCurrentTune) ctx.setCurrentTune(tuneId)
+
+    const item = queue.items[queue.currentIndex]
+    if (!item) return false
+
+    if (mediaController.preparePlaybackFromUserGesture) {
+        mediaController.preparePlaybackFromUserGesture()
+    }
+
+    const pathname = location && location.pathname ? location.pathname : ''
+    if (isTuneListPath(pathname) && !queue.followTune) {
+        playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+        return true
+    }
+
+    if (requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item)) {
+        return true
+    }
+
+    playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+    return true
+}
+
+export function resumeTunePlayback(mediaController, viewedTuneId, options) {
     if (!mediaController) return false
+    const opts = options || {}
     // Never resume paused/pending playback that belongs to a different tune
     // than the one the user is looking at — that silently restarts the old
     // tune's media and looks like the play button is broken.
-    if (viewedTuneId && mediaController.tune && mediaController.tune.id !== viewedTuneId) {
-        return false
+    if (viewedTuneId) {
+        if (!mediaController.tune || mediaController.tune.id !== viewedTuneId) {
+            return false
+        }
+        const queue = opts.queue
+        if (isQueueActive(queue)) {
+            const queueTuneId = getCurrentTuneId(queue)
+            if (queueTuneId && queueTuneId !== viewedTuneId) {
+                return false
+            }
+        }
     }
     if (mediaController.canResumePlayback && mediaController.canResumePlayback()) {
         if (mediaController.playFromUserGesture) {
@@ -248,87 +300,19 @@ export function resumeTunePlayback(mediaController, viewedTuneId) {
 }
 
 export function startTunePlayback(mediaController, tunebook, navigate, location, queueContext) {
+    const ctx = queueContext || {}
     const tune = resolveTuneForPlayback(mediaController, location, queueContext)
     if (!tune) return false
 
-    if (resumeTunePlayback(mediaController, tune.id)) {
+    if (resumeTunePlayback(mediaController, tune.id, { queue: ctx.nowPlayingQueue })) {
         return true
     }
 
     const target = resolvePlaybackTarget(mediaController, tunebook, location, tune)
     if (!target) return false
 
-    const ctx = queueContext || {}
-    const queue = ctx.nowPlayingQueue
-    const setQueuePlayConfirm = ctx.setQueuePlayConfirm
-
-    if (isQueueActive(queue) && setQueuePlayConfirm) {
-        const playingId = getCurrentTuneId(queue)
-        const queueIndex = findQueueIndexForTuneId(queue, tune.id)
-
-        if (queueIndex !== -1) {
-            let activeQueue = queue
-            if (ctx.setNowPlayingQueue) {
-                const needsUpdate = queueIndex !== queue.currentIndex || queue.previewOnce
-                if (needsUpdate) {
-                    activeQueue = Object.assign({}, queue, {
-                        currentIndex: queueIndex,
-                        previewOnce: null,
-                    })
-                    ctx.setNowPlayingQueue(activeQueue)
-                }
-            }
-            const item = activeQueue.items[queueIndex]
-            const pathname = location && location.pathname ? location.pathname : ''
-            if (isTuneListPath(pathname) && !activeQueue.followTune) {
-                if (ctx.setCurrentTune) ctx.setCurrentTune(tune.id)
-                playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
-                return true
-            }
-            requestQueueItemPlayback(
-                mediaController,
-                tunebook,
-                navigate,
-                location,
-                tune,
-                item
-            )
-            return true
-        }
-
-        if (playingId && playingId !== tune.id) {
-            function startOutsideQueuePreview() {
-                const previewQueue = startPreviewOnce(queue, tune.id)
-                const item = {
-                    tuneId: tune.id,
-                    prefer: target.type === 'midi' ? 'midi' : 'media',
-                    linkIndex: target.type === 'media' ? target.linkNum : undefined,
-                }
-                playOutsideQueuePreview(
-                    mediaController,
-                    tunebook,
-                    navigate,
-                    location,
-                    tune,
-                    item,
-                    previewQueue,
-                    ctx
-                )
-            }
-            if (ctx.skipQueueConfirm || !isQueuePlaybackEngaged(mediaController)) {
-                startOutsideQueuePreview()
-                return true
-            }
-            setQueuePlayConfirm({
-                tuneId: tune.id,
-                tuneName: tune.name || '',
-                onPlayThisTune: startOutsideQueuePreview,
-                onResumePlaylist: function() {
-                    // Navigation back to the current playlist tune is handled by AppQueueLayer.
-                },
-            })
-            return true
-        }
+    if (ctx.setNowPlayingQueue) {
+        return enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, location, tune, ctx)
     }
 
     beginPlayback(mediaController, tunebook, navigate, location, tune, target)
@@ -385,7 +369,7 @@ export function toggleTunePlayback(mediaController, tunebook, navigate, location
         mediaController.pause()
         return true
     }
-    if (resumeTunePlayback(mediaController, tune.id)) {
+    if (resumeTunePlayback(mediaController, tune.id, { queue: queueContext && queueContext.nowPlayingQueue })) {
         return true
     }
     return startTunePlayback(mediaController, tunebook, navigate, location, queueContext)

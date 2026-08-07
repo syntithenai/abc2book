@@ -39,6 +39,7 @@ import IncomingMergeHost from './components/IncomingMergeHost'
 import SyncSourcesHost from './components/SyncSourcesHost'
 import { applySourceUrlMergeBatch } from './sourceUrlSync'
 import { registerMergeCheckHandler, unregisterMergeCheckHandler, runMergeChecksNow } from './mergeCheckTrigger'
+import { beginDriveMergeCheckingToast, endDriveMergeCheckingToast } from './driveMergeCheckingToast'
 import MidiPlayer from './components/MidiPlayer'
 
 import useTuneBook from './useTuneBook'
@@ -429,7 +430,6 @@ function App(props) {
   //window.onclick=function(e) {
     ////window.scrollTo(0,e.y)
   //}
-  var [showWaitingOverlay, setShowWaitingOverlay] = useState(false)
   var {user, token, login, logout, refresh, requestGoogleScopes, loadCurrentUser, loadUserImage, breakLoginToken, authMode, authBase} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
   useInitMediaResolverHealth(
     token && token.access_token ? token.access_token : null,
@@ -686,7 +686,7 @@ function App(props) {
    */
   function mergeTuneBook(tunebookText) {
       return new Promise(function(resolve,reject) {
-          setShowWaitingOverlay(true)
+          beginDriveMergeCheckingToast()
           flushTunesPersistence()
           if (typeof flushActiveEditor === 'function' && currentTune) {
             flushActiveEditor(currentTune)
@@ -745,17 +745,16 @@ function App(props) {
                 fullSheet: tunebookText,
                 remoteDeleted: remoteDeleted,
               })
-              setShowWaitingOverlay(false)
+              endDriveMergeCheckingToast()
               resolve(ret)
             }).catch(function(err) {
-              setShowWaitingOverlay(false)
+              endDriveMergeCheckingToast()
               reject(err)
             })
     })
   }
   
   function overrideTuneBook(fullSheet) {
-    setShowWaitingOverlay(true)
     pauseSheetUpdates.current = true
     var tunes = {}
     abcTools.abc2Tunebook(fullSheet).forEach(function(tune) {
@@ -772,7 +771,6 @@ function App(props) {
     buildTunesHash()
     scheduleTuneReindex(tunes)
     setSheetUpdateResults(null)
-    setShowWaitingOverlay(false)
     forceRefresh()
   }
   
@@ -1223,7 +1221,6 @@ function App(props) {
   return (
 
     <div id="topofpage" className="App" >
-        {(showWaitingOverlay || waiting) && <div style={{zIndex:999999, position:'fixed', top:0, left:0, backgroundColor: 'grey', opacity:'0.5', height:'100%', width:'100%'}} ><img alt="" src="/spinner.svg" style={{marginTop:'10em', marginLeft:'10em', height:'200px', width:'200px'}} /></div> }
         <ToastContainer autoClose={2000} style={{ zIndex: 1000001 }} />
           <input type='hidden' name="refreshHash" value={refreshHash} />
           <TunesProvider tunes={tunes} tunesContentRevision={tunesContentRevision}>

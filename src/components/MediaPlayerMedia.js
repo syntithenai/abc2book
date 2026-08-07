@@ -174,13 +174,23 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             }
         } else if (linkChanged) {
             changeType = 'link'
-            if (mediaController.clearCachedNativePlaybackUrl) {
+            const nextSrc = route.src
+            const mediaInFlight = mediaController.isLinkedMediaPlaybackInFlight
+                && mediaController.isLinkedMediaPlaybackInFlight()
+            const activePreparedSrc = mediaController.getActivePreparedMediaSrc
+                ? mediaController.getActivePreparedMediaSrc()
+                : null
+            if (!mediaInFlight
+                && (!activePreparedSrc || nextSrc !== activePreparedSrc)
+                && mediaController.clearCachedNativePlaybackUrl) {
                 mediaController.clearCachedNativePlaybackUrl()
             }
-            mediaController.setCurrentTime(0)
-            mediaController.setClickSeek(0)
-            mediaController.setDuration(0)
-            mediaController.cleanupTimers()
+            if (!mediaInFlight) {
+                mediaController.setCurrentTime(0)
+                mediaController.setClickSeek(0)
+                mediaController.setDuration(0)
+                mediaController.cleanupTimers()
+            }
         } else if (playStateChanged) {
             changeType = 'playState'
         } else if (kickoffPending) {
@@ -290,6 +300,11 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         if (mediaController.isLoading) {
             return
         }
+        if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute()
+            && mediaController.hasActivePlaybackIntent
+            && mediaController.hasActivePlaybackIntent()) {
+            return
+        }
         if (mediaController.shouldSuppressSpuriousPause && mediaController.shouldSuppressSpuriousPause()) {
             return
         }
@@ -369,6 +384,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
     const suppressYoutubeEmbed = typeof mediaController.shouldSuppressYoutubeEmbed === 'function'
         && mediaController.shouldSuppressYoutubeEmbed()
     const showYoutubeEmbed = srcType === 'youtube'
+        && !useCachedAudioPlayer
         && !suppressYoutubeEmbed
         && (instanceId === 'practice'
             || !externalOutputActive

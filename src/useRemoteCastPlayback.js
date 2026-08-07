@@ -14,13 +14,16 @@ export default function useRemoteCastPlayback({ mediaController }) {
   const [connected, setConnected] = useState(false);
   const [mode, setMode] = useState(null);
   const cleanupRef = useRef(null);
+  const mediaControllerRef = useRef(mediaController);
+  mediaControllerRef.current = mediaController;
 
   const updateEngine = useCallback(function(next) {
-    if (!mediaController || !mediaController.remoteOutputEngineRef) return;
-    mediaController.remoteOutputEngineRef.current = next;
+    const mc = mediaControllerRef.current;
+    if (!mc || !mc.remoteOutputEngineRef) return;
+    mc.remoteOutputEngineRef.current = next;
     setConnected(!!(next && next.connected));
     setMode(next ? next.mode : null);
-  }, [mediaController]);
+  }, []);
 
   const disconnectCast = useCallback(function() {
     if (cleanupRef.current) {
@@ -31,7 +34,7 @@ export default function useRemoteCastPlayback({ mediaController }) {
   }, [updateEngine]);
 
   const startAirPlay = useCallback(function() {
-    const el = getNativeAudioElement(mediaController);
+    const el = getNativeAudioElement(mediaControllerRef.current);
     if (!el) return false;
     if (cleanupRef.current) cleanupRef.current();
     cleanupRef.current = watchRemotePlaybackConnection(el, {
@@ -48,10 +51,10 @@ export default function useRemoteCastPlayback({ mediaController }) {
       return true;
     }
     return false;
-  }, [disconnectCast, mediaController, updateEngine]);
+  }, [disconnectCast, updateEngine]);
 
   const startRemotePlayback = useCallback(function() {
-    const el = getNativeAudioElement(mediaController);
+    const el = getNativeAudioElement(mediaControllerRef.current);
     if (!el) return false;
     if (cleanupRef.current) cleanupRef.current();
     cleanupRef.current = watchRemotePlaybackConnection(el, {
@@ -66,10 +69,10 @@ export default function useRemoteCastPlayback({ mediaController }) {
       if (ok) return true;
       return startAirPlay();
     });
-  }, [disconnectCast, mediaController, startAirPlay, updateEngine]);
+  }, [disconnectCast, startAirPlay, updateEngine]);
 
   const startCastHandoff = useCallback(function() {
-    if (!canCastNativeAudio(mediaController)) return Promise.resolve(false);
+    if (!canCastNativeAudio(mediaControllerRef.current)) return Promise.resolve(false);
     if (isRemotePlaybackSupported()) {
       return startRemotePlayback();
     }
@@ -77,7 +80,7 @@ export default function useRemoteCastPlayback({ mediaController }) {
       return Promise.resolve(startAirPlay());
     }
     return Promise.resolve(false);
-  }, [mediaController, startAirPlay, startRemotePlayback]);
+  }, [startAirPlay, startRemotePlayback]);
 
   useEffect(function() {
     return function() {
@@ -88,8 +91,8 @@ export default function useRemoteCastPlayback({ mediaController }) {
   return {
     connected,
     mode,
-    canCast: canCastNativeAudio(mediaController),
-    disabledReason: getCastDisabledReason(mediaController),
+    canCast: canCastNativeAudio(mediaControllerRef.current),
+    disabledReason: getCastDisabledReason(mediaControllerRef.current),
     isAirPlaySupported: isAirPlaySupported(),
     isRemotePlaybackSupported: isRemotePlaybackSupported(),
     startCastHandoff,

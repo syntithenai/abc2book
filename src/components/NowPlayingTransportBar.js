@@ -116,8 +116,6 @@ export default function NowPlayingTransportBar({
     tunes: tunes,
     nowPlayingQueue: nowPlayingQueue,
     setNowPlayingQueue: setNowPlayingQueue,
-    setQueuePlayConfirm: setQueuePlayConfirm,
-    skipQueueConfirm: true,
   }
 
   function stepPlaylist(direction) {
@@ -325,7 +323,7 @@ export default function NowPlayingTransportBar({
       showShuffle={true}
       showRepeat={true}
       showFollow={true}
-      size={undefined}
+      size="sm"
       compact={true}
       repeatTestId="playlist-repeat-button-group"
     />

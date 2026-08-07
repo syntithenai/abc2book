@@ -136,6 +136,7 @@ import {
   isOwnedMediaLinkUri,
   parseRecordingIdFromLinkUri,
   buildRecordingLinkUri,
+  resolveTuneLinkCacheSrc,
   isOwnedMediaLink,
   getOwnedMediaSyncStatus,
   getTuneOwnedMediaDriveSummary,
@@ -156,6 +157,17 @@ describe('linkRecording helpers', function() {
     expect(parseRecordingIdFromLinkUri('abcbook-recording:abc123')).toBe('abc123')
     expect(buildRecordingLinkUri('abc123')).toBe(RECORDING_LINK_PREFIX + 'abc123')
   })
+
+  test('resolveTuneLinkCacheSrc uses recordingId when link URI is empty', function() {
+    const tune = {
+      id: 't1',
+      links: [{ recordingId: 'rec1' }],
+    }
+    expect(resolveTuneLinkCacheSrc(tune, 0)).toBe(RECORDING_LINK_PREFIX + 'rec1')
+    expect(resolveTuneLinkCacheSrc(tune, 1)).toBe('')
+    expect(resolveTuneLinkCacheSrc(null, 0)).toBe('')
+  })
+
 
   test('reports sync status from link metadata', function() {
     const owned = { link: 'abcbook-recording:x' }

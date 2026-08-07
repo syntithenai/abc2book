@@ -1,7 +1,7 @@
 import { Link  , useLocation} from 'react-router-dom'
 import {Button, Dropdown, ButtonGroup} from 'react-bootstrap'
 import SavedPlaylistsOpenModal from './SavedPlaylistsOpenModal'
-import {useEffect, useState, useSyncExternalStore} from 'react'
+import { useState, useEffect, useRef, useSyncExternalStore} from 'react'
 import {useNavigate} from 'react-router-dom'
 import MediaPlayerButtons from './MediaPlayerButtons'
 import PracticeSessionButton from './PracticeSessionButton'
@@ -16,7 +16,6 @@ import {
   getSkipNavigationTuneId,
   isTuneListPath,
   isTuneSingleViewPath,
-  shouldPreferQueueNavigation,
 } from '../playbackNavigationUtils';
 import { toggleTunePlayback } from '../tunePlaybackActions';
 import { isEditorNotationPath } from '../viewModeUtils';
@@ -94,9 +93,6 @@ export default function Header(props) {
         // Arrow list-browse starts from the viewed tune, or first result on a fresh search list.
         const navTuneId = viewedTuneId || null;
 
-        const preferQueueNav = shouldPreferQueueNavigation(mediaController, props.nowPlayingQueue);
-        const searchListNav = ctrlSeek || !preferQueueNav;
-
         if (ctrlSeek && (event.key === 'ArrowLeft' || event.key === 'ArrowRight') && mediaController && mediaController.seekBySeconds) {
             event.preventDefault();
             mediaController.seekBySeconds(event.key === 'ArrowLeft' ? -5 : 5);
@@ -109,7 +105,6 @@ export default function Header(props) {
                 tunes: props.tunes,
                 nowPlayingQueue: props.nowPlayingQueue,
                 setNowPlayingQueue: props.setNowPlayingQueue,
-                setQueuePlayConfirm: props.setQueuePlayConfirm,
             });
             return;
         }
@@ -123,21 +118,16 @@ export default function Header(props) {
             return;
         }
 
+        const onTunePage = !!(viewedTuneId && (location.pathname.startsWith('/tunes/') || location.pathname.startsWith('/editor/')));
+
         if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
-            const onTunePage = !!(viewedTuneId && (location.pathname.startsWith('/tunes/') || location.pathname.startsWith('/editor/')));
-            const useSearchList = searchListNav;
-            if (!onTunePage && !queueActive && !(onTuneList && hasSearchList) && !preferQueueNav) return;
-            if (!navTuneId && !(onTuneList && hasSearchList) && !preferQueueNav) return;
+            if (!onTunePage && !queueActive && !(onTuneList && hasSearchList)) return;
+            if (!navTuneId && !(onTuneList && hasSearchList)) return;
             event.preventDefault();
             const navOpts = {
                 mediaController: props.mediaController,
+                forceSearchList: true,
             };
-            if (useSearchList) {
-                navOpts.forceSearchList = true;
-            } else {
-                navOpts.useQueueNavigation = true;
-                navOpts.startPlayback = true;
-            }
             if (event.key === 'ArrowRight') {
                 props.tunebook.navigateToNextSong(navTuneId || getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue), null, navigate, location.pathname, navOpts);
             } else {
@@ -172,14 +162,14 @@ export default function Header(props) {
         : []
     const hasSearchList = Array.isArray(searchListIds) && searchListIds.length > 0
     const onTuneList = isTuneListPath(location.pathname)
+    const hasBrowsableList = hasSearchList || !!(props.currentTuneBook && String(props.currentTuneBook).length > 0)
     // Offer prev/next on a tune page, and on the list after a search so the
     // first result can be opened without clicking a row first.
-    const preferQueueNav = shouldPreferQueueNavigation(props.mediaController, props.nowPlayingQueue)
     const showSkipButtons = !!(
-        (skipTuneId && viewedTuneId)
+        (onSingleTuneView && viewedTuneId)
+        || (skipTuneId && viewedTuneId)
         || (onTuneList && hasSearchList)
-        || preferQueueNav
-        || (onSingleTuneView && hasSearchList)
+        || (onSingleTuneView && hasBrowsableList)
     )
     // On settings/chords/help/etc., show the full player while a queue is active.
     // Hide on metronome/tuner/piano (those pages pause playback for their own audio).
@@ -195,12 +185,9 @@ export default function Header(props) {
     function renderSkipButtons(buttonSize) {
         if (!showSkipButtons) return null
         const navFromId = viewedTuneId || getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue) || null
-        const useQueueNav = preferQueueNav
-        const prevLabel = useQueueNav ? 'Previous in playlist' : 'Previous search result (Ctrl+← to seek)'
-        const nextLabel = useQueueNav ? 'Next in playlist' : 'Next search result (Ctrl+→ to seek)'
-        const navOpts = useQueueNav
-            ? { mediaController: props.mediaController, useQueueNavigation: true, startPlayback: true }
-            : { mediaController: props.mediaController, forceSearchList: true }
+        const prevLabel = 'Previous search result (Ctrl+← to seek)'
+        const nextLabel = 'Next search result (Ctrl+→ to seek)'
+        const navOpts = { mediaController: props.mediaController, forceSearchList: true }
         return (
             <span className="header-list-nav">
                 <ButtonGroup className="header-skip-buttons">
@@ -255,8 +242,6 @@ export default function Header(props) {
                 buttonSize={buttonSize}
                 nowPlayingQueue={props.nowPlayingQueue}
                 setNowPlayingQueue={props.setNowPlayingQueue}
-                queuePlayConfirm={props.queuePlayConfirm}
-                setQueuePlayConfirm={props.setQueuePlayConfirm}
                 tunes={props.tunes}
                 currentTuneBook={props.currentTuneBook}
                 tagFilter={props.tagFilter}

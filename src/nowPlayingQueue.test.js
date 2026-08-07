@@ -46,7 +46,7 @@ describe('nowPlayingQueue', function() {
     expect(isQueueActive(q)).toBe(true)
     expect(getCurrentTuneId(q)).toBe('a')
     expect(getQueuePositionLabel(q)).toBe('1/3')
-    expect(q.followTune).toBe(true)
+    expect(q.followTune).toBe(false)
   })
 
   test('advanceQueue wraps with loop', function() {
@@ -61,6 +61,16 @@ describe('nowPlayingQueue', function() {
     const next = advanceQueue(q, 1)
     expect(next.atEdge).toBe(true)
     expect(next.edge).toBe('end')
+  })
+
+  test('advanceQueue wraps on manual navigation when repeat off', function() {
+    const q = createQueue({ tuneIds: ['a', 'b'], currentIndex: 1 })
+    const next = advanceQueue(q, 1, { wrap: true })
+    expect(next.atEdge).toBe(false)
+    expect(next.queue.currentIndex).toBe(0)
+    const back = advanceQueue(createQueue({ tuneIds: ['a', 'b'], currentIndex: 0 }), -1, { wrap: true })
+    expect(back.atEdge).toBe(false)
+    expect(back.queue.currentIndex).toBe(1)
   })
 
   test('setLoop toggles repeat flag', function() {

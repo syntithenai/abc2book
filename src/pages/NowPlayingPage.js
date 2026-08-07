@@ -6,7 +6,7 @@ import {
   getQueuePositionLabel,
   getCurrentTuneId,
 } from '../nowPlayingQueue'
-import { resumePlaylistPlayback, toggleTunePlayback } from '../tunePlaybackActions'
+import { resumePlaylistPlayback, enqueueTuneInQueueAndPlay, toggleTunePlayback } from '../tunePlaybackActions'
 import {
   isQueuePlaybackEngaged,
   getViewedTuneIdFromPath,
@@ -126,13 +126,17 @@ export default function NowPlayingPage(props) {
         mediaController.pause()
         return
       }
-      toggleTunePlayback(
-        mediaController,
-        props.tunebook,
-        navigate,
-        { pathname: '/tunes/' + viewedTuneId },
-        queueContext
-      )
+      const viewedTune = props.tunes && props.tunes[viewedTuneId]
+      if (viewedTune) {
+        enqueueTuneInQueueAndPlay(
+          mediaController,
+          props.tunebook,
+          navigate,
+          { pathname: '/tunes/' + viewedTuneId },
+          viewedTune,
+          queueContext
+        )
+      }
       return
     }
     if (queueActive) {
@@ -359,6 +363,7 @@ export default function NowPlayingPage(props) {
             setNowPlayingQueue={props.setNowPlayingQueue}
             tunes={props.tunes}
             onPlaylistCleared={handleClose}
+            elevatedPlaylistModal={true}
           />
         </div>
       ) : null}

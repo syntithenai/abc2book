@@ -201,9 +201,21 @@
 }
 
 .now-playing-transport-mode-buttons .playlist-toggle-icon,
-.now-playing-transport-mode-buttons .playlist-repeat-icon {
+.now-playing-transport-mode-buttons .playlist-repeat-icon,
+.now-playing-transport-mode-buttons .playlist-follow-icon {
   width: 1.15em;
   height: 1.15em;
+  object-fit: contain;
+}
+
+.playlist-follow-icon {
+  opacity: 0.55;
+  filter: grayscale(1);
+}
+
+.playlist-follow-icon--active {
+  opacity: 1;
+  filter: none;
 }
 
 @media (max-width: 991px) {
@@ -271,17 +283,29 @@
   padding: 0;
   background: transparent;
   cursor: pointer;
+  width: 2.75rem;
+  height: 2.75rem;
+  overflow: hidden;
 }
 
 .now-playing-transport-artwork {
   display: block;
-  width: auto;
+  width: 2.75rem;
   height: 2.75rem;
   max-width: 2.75rem;
   max-height: 2.75rem;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 0.25rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.now-playing-transport-artwork-link img,
+.now-playing-transport-artwork-link .now-playing-transport-artwork {
+  width: 2.75rem;
+  height: 2.75rem;
+  max-width: 2.75rem;
+  max-height: 2.75rem;
+  object-fit: cover;
 }
 
 .now-playing-transport-bar--fullscreen {

@@ -384,6 +384,19 @@ export default function useAbcSynth(props) {
     function tryResumeSynthAndStart() {
         if (prefersNativeMediaPlayback()) return false
         if (isSynthSeekGuardActive()) return false
+        if (props.mediaController) {
+            if (props.mediaController.isMediaPlaybackRoute
+                && props.mediaController.isMediaPlaybackRoute()) {
+                return false
+            }
+            if (props.mediaController.isLinkedMediaPlaybackInFlight
+                && props.mediaController.isLinkedMediaPlaybackInFlight()) {
+                return false
+            }
+            if (props.mediaController.requestedPlayState === 'playMedia') {
+                return false
+            }
+        }
         if (!wantsMidiPlayback()) return false
         if (gaudioContext.current) {
             if (gaudioContext.current.state === 'running') {
@@ -421,6 +434,13 @@ export default function useAbcSynth(props) {
 
     function wantsMidiPlayback(force) {
         if (props.mediaController) {
+            if (props.mediaController.requestedPlayState === 'playMedia') {
+                return false
+            }
+            if (props.mediaController.isLinkedMediaPlaybackInFlight
+                && props.mediaController.isLinkedMediaPlaybackInFlight()) {
+                return false
+            }
             if (props.mediaController.isMidiPlaybackRoute && !props.mediaController.isMidiPlaybackRoute()) {
                 return false
             }
@@ -629,70 +649,102 @@ export default function useAbcSynth(props) {
         return false
     }
 
+    function shouldSkipMidiEngineResetOnLinkChange(newLink, prevLink) {
+        // Switching from a media link to notation MIDI must not tear down the
+        // synth while play() is handing off from stopLinkedMediaPlayback().
+        if (newLink != null || prevLink == null) return false
+        if (!props.mediaController || !props.mediaController.isMidiPlaybackRoute) return false
+        if (!props.mediaController.isMidiPlaybackRoute()) return false
+        return !!(props.mediaController.hasActivePlaybackIntent
+            && props.mediaController.hasActivePlaybackIntent())
+    }
+
     const mediaController = props.mediaController
     const mcIsPlaying = mediaController ? mediaController.isPlaying : null
     const mcMediaLinkNumber = mediaController ? mediaController.mediaLinkNumber : null
     const mcMidiHashCurrent = mediaController && mediaController.midiHash ? mediaController.midiHash.current : null
     const mcTuneId = mediaController && mediaController.tune ? mediaController.tune.id : null
+    const mcRequestedPlayState = mediaController ? mediaController.requestedPlayState : null
+    const mcPlaybackRouteMode = mediaController ? mediaController.playbackRouteMode : null
 
       //// listen to properties on media controller to control local player
     useEffect(function() {
         // Display-only notation must not drive or reset the shared midi engine.
         if (props.playbackEngine === false) return
+        const mc = props.mediaController
+        if (!mc) return
+
+        const mediaRouteActive = mc.isMediaPlaybackRoute && mc.isMediaPlaybackRoute()
+        const mediaInFlight = mc.isLinkedMediaPlaybackInFlight && mc.isLinkedMediaPlaybackInFlight()
+        const mediaRequested = mc.requestedPlayState === 'playMedia' || mc.playbackRouteMode === 'media'
+
+        if (mediaRouteActive || mediaInFlight || mediaRequested) {
+            if (mediaRouteActive && mc.mediaLinkNumber !== lastMediaLinkNumber) {
+                stopPlaying()
+                resetAudioState()
+            }
+            setLastTuneId(mc.tune ? mc.tune.id : null)
+            setClickSeek(mc.clickSeek)
+            setLastPlaybackSpeed(mc.playbackSpeed)
+            setIsLastPlaying(mc.isPlaying)
+            setLastMediaLinkNumber(mc.mediaLinkNumber)
+            return
+        }
+
         //props.mediaController.isPlaying, isLastPlaying,"TIME", props.mediaController.currentTime,"CLICKTIME", props.mediaController.clickSeek,clickSeek,  props.mediaController.mediaLinkNumber, props.mediaController.midiHash.current, props.mediaController.mediaLinkNumber,lastMediaLinkNumber)
-        if (props.mediaController && props.mediaController.isMidiPlaybackRoute
-            && props.mediaController.isMidiPlaybackRoute()) {
-            const currentMidiHash = props.mediaController.midiHash ? props.mediaController.midiHash.current : null
+        if (mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()) {
+            const currentMidiHash = mc.midiHash ? mc.midiHash.current : null
             if (lastMidiHashRef.current !== undefined && currentMidiHash !== lastMidiHashRef.current) {
                 stopRhythmPlayback()
                 destroyAudioEngines()
-                const pendingMidiPlay = props.mediaController.pendingMidiPlayRef
-                    && props.mediaController.pendingMidiPlayRef.current
+                const pendingMidiPlay = mc.pendingMidiPlayRef && mc.pendingMidiPlayRef.current
                 if (pendingMidiPlay
                     && !hasPendingNotationSeek()
-                    && props.mediaController.hasActivePlaybackIntent
-                    && props.mediaController.hasActivePlaybackIntent()
+                    && mc.hasActivePlaybackIntent
+                    && mc.hasActivePlaybackIntent()
                     && !isSynthSeekGuardActive()) {
                     startPlayingFromIntent(true)
                 }
             }
             lastMidiHashRef.current = currentMidiHash
-            if (props.mediaController.playbackSpeed !== lastPlaybackSpeed) {
+            if (mc.playbackSpeed !== lastPlaybackSpeed) {
                 syncPitchTempoSettingsFromController()
-                pitchTempoSettingsRef.current.tempo = props.mediaController.playbackSpeed > 0
-                    ? parseFloat(props.mediaController.playbackSpeed) : 1
+                pitchTempoSettingsRef.current.tempo = mc.playbackSpeed > 0
+                    ? parseFloat(mc.playbackSpeed) : 1
             }
-            var nowTuneId = props.mediaController.tune ? props.mediaController.tune.id : null
+            var nowTuneId = mc.tune ? mc.tune.id : null
             if (nowTuneId !== lastTuneId) {
                 syncPitchTempoSettingsFromController()
                 if (!shouldPreserveNotationMidiEngines()) {
                     resetAudioState()
                 }
-                if (props.mediaController.hasActivePlaybackIntent
-                    && props.mediaController.hasActivePlaybackIntent()
+                if (mc.hasActivePlaybackIntent
+                    && mc.hasActivePlaybackIntent()
                     && !isSynthSeekGuardActive()) {
                         startPlayingFromIntent(true)
                 } 
                 
             }
-            if (props.mediaController.mediaLinkNumber !== lastMediaLinkNumber) {
-                if (!shouldPreserveNotationMidiEngines()) {
+            if (mc.mediaLinkNumber !== lastMediaLinkNumber) {
+                const newLink = mc.mediaLinkNumber
+                const prevLink = lastMediaLinkNumber
+                if (!shouldPreserveNotationMidiEngines()
+                    && !shouldSkipMidiEngineResetOnLinkChange(newLink, prevLink)) {
                     resetAudioState()
                 }
-                if (props.mediaController.hasActivePlaybackIntent
-                    && props.mediaController.hasActivePlaybackIntent()
-                    && !isSynthSeekGuardActive()) {
+                if (mc.hasActivePlaybackIntent
+                    && mc.hasActivePlaybackIntent()
+                    && !isSynthSeekGuardActive()
+                    && !(mc.isLinkedMediaPlaybackInFlight && mc.isLinkedMediaPlaybackInFlight())) {
                     startPlayingFromIntent()
-                } else {
-                    //resetAudioState()
                 }
             } 
 
-            if (props.mediaController.isPlaying !== isLastPlaying) {
+            if (mc.isPlaying !== isLastPlaying) {
                 const nativeOwnsOutput = prefersNativeMediaPlayback()
                     && shouldDeferSynthStopToNative()
                 if (!nativeOwnsOutput) {
-                    if (props.mediaController.isPlaying) {
+                    if (mc.isPlaying) {
                         if (midiStartHandledRef.current || isSynthSeekGuardActive()) {
                             midiStartHandledRef.current = false
                         } else {
@@ -706,45 +758,19 @@ export default function useAbcSynth(props) {
                     }
                 }
             }
-        
-        //if (props.mediaController && props.mediaController.mediaLinkNumber === null) {
-            ////if (lastPlaybackSpeed !== props.mediaController.playbackSpeed) {
-                ////resetAudioState()
-            ////}
-            ////if (props.mediaController.currentTime == 0 || clickSeek !== props.mediaController.clickSeek) {
-                ////setSeekTo(props.mediaController.clickSeek)
-                ////seekPlayer(parseFloat(props.mediaController.clickSeek))
-                ////currentTime.current = parseFloat(props.mediaController.clickSeek)
-            ////}
-            //if (props.mediaController.isPlaying) {
-                ////if (props.mediaController.isPlaying) {
-                    ////bodyClick()
-                    //startPlaying()
-                ////} else {
-                    ////stopPlaying()
-                ////}
-            //} else {
-                //stopPlaying()
-            //}
-            setLastTuneId(props.mediaController && props.mediaController.tune ? props.mediaController.tune.id : null)
-            setClickSeek(props.mediaController.clickSeek)
-            setLastPlaybackSpeed(props.mediaController.playbackSpeed)
-            setIsLastPlaying(props.mediaController.isPlaying)
-            
-        } else if (props.mediaController
-            && props.mediaController.isMediaPlaybackRoute
-            && props.mediaController.isMediaPlaybackRoute()
-            && props.mediaController.mediaLinkNumber !== lastMediaLinkNumber) {
-            stopPlaying()
-            resetAudioState()
+
+            setLastTuneId(mc.tune ? mc.tune.id : null)
+            setClickSeek(mc.clickSeek)
+            setLastPlaybackSpeed(mc.playbackSpeed)
+            setIsLastPlaying(mc.isPlaying)
+            setLastMediaLinkNumber(mc.mediaLinkNumber)
         }
-        if (props.mediaController) setLastMediaLinkNumber(props.mediaController.mediaLinkNumber)
         //return function cleanup() {
            //resetAudioState()
         //}
         
     // eslint-disable-next-line react-hooks/exhaustive-deps -- syncs synth playback from mediaController snapshot fields above
-    },[mcIsPlaying, mcMediaLinkNumber, mcMidiHashCurrent, mcTuneId])
+    },[mcIsPlaying, mcMediaLinkNumber, mcMidiHashCurrent, mcTuneId, mcRequestedPlayState, mcPlaybackRouteMode])
     function getMidiPlaybackSeconds() {
         // currentTime.current is the single source of truth for the MIDI playhead.
         // It is driven by the abcjs timing callbacks (beat callback), which seek and
@@ -771,7 +797,19 @@ export default function useAbcSynth(props) {
          if (props.playbackEngine === false) return
          if (prefersNativeMediaPlayback()) return
          if (isSynthSeekGuardActive()) return
-         if (props.mediaController && props.mediaController.isMidiPlaybackRoute
+         if (!props.mediaController) return
+         if (props.mediaController.isMediaPlaybackRoute
+             && props.mediaController.isMediaPlaybackRoute()) {
+             return
+         }
+         if (props.mediaController.isLinkedMediaPlaybackInFlight
+             && props.mediaController.isLinkedMediaPlaybackInFlight()) {
+             return
+         }
+         if (props.mediaController.requestedPlayState === 'playMedia') {
+             return
+         }
+         if (props.mediaController.isMidiPlaybackRoute
              && props.mediaController.isMidiPlaybackRoute()) {
              if (!getTapToPlay() && !getPlayCancelled()) {
                  const wantsPlay = props.mediaController.hasActivePlaybackIntent
@@ -786,6 +824,8 @@ export default function useAbcSynth(props) {
          mcTapToPlay,
          mcPlayCancelled,
          mcMediaLinkNumber,
+         mcRequestedPlayState,
+         mcPlaybackRouteMode,
      ])
 
     useLayoutEffect(function() {
@@ -1348,6 +1388,7 @@ export default function useAbcSynth(props) {
             primeTimerRef.current = null
         }
         primePromiseRef.current = null
+        midiPrimeInFlightRef.current = false
         isLoading.current = false
         if (props.mediaController) {
             const keepLoading = props.mediaController.hasPlayingIntent

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Modal, Button } from 'react-bootstrap';
 import { submitHelpQuery } from '../helpQueryClient';
@@ -41,6 +41,9 @@ function resolveHelpAnswer(primary, fallback, links) {
 export default function VoiceHelpAnswerModal(props) {
   const navigate = useNavigate();
   const [retryNonce, setRetryNonce] = useState(0);
+  const linksKey = useMemo(function() {
+    return JSON.stringify(normalizeLinks(props.links));
+  }, [props.links]);
   const [answerState, setAnswerState] = useState(function() {
     return {
       question: props.question || '',
@@ -50,16 +53,19 @@ export default function VoiceHelpAnswerModal(props) {
   });
 
   useEffect(function() {
+    if (!props.show) return;
+    const links = normalizeLinks(props.links);
     setAnswerState({
       question: props.question || '',
-      answer: resolveHelpAnswer(props.answer, '', props.links),
-      links: normalizeLinks(props.links),
+      answer: resolveHelpAnswer(props.answer, '', links),
+      links: links,
     });
-  }, [props.question, props.answer, props.links, props.show]);
+  }, [props.question, props.answer, linksKey, props.show]);
 
   useEffect(function() {
     if (!props.show || !props.question) return;
     let cancelled = false;
+    const fallbackLinks = normalizeLinks(props.links);
 
     submitHelpQuery({
       question: props.question,
@@ -67,7 +73,7 @@ export default function VoiceHelpAnswerModal(props) {
       onProgress: props.onProgress,
     }).then(function(result) {
       if (cancelled) return;
-      const nextLinks = normalizeLinks(result.links && result.links.length ? result.links : props.links);
+      const nextLinks = normalizeLinks(result.links && result.links.length ? result.links : fallbackLinks);
       setAnswerState({
         question: result.question || props.question,
         answer: resolveHelpAnswer(result.answer, props.answer, nextLinks),
@@ -80,7 +86,7 @@ export default function VoiceHelpAnswerModal(props) {
     return function() {
       cancelled = true;
     };
-  }, [props.show, props.question, props.answer, props.links, props.accessToken, props.onProgress, retryNonce]);
+  }, [props.show, props.question, props.answer, linksKey, props.accessToken, props.onProgress, retryNonce]);
 
   function openHelpLink(link) {
     const sectionId = helpSectionIdFromLink(link);

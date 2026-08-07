@@ -110,7 +110,7 @@ describe('mediaCacheStorage', function() {
   })
 
   test('mediaCacheSettingsPath targets media settings tab', function() {
-    expect(mediaCacheSettingsPath()).toBe('/settings?tab=' + MEDIA_CACHE_SETTINGS_TAB)
+    expect(mediaCacheSettingsPath()).toBe('/#/settings?tab=' + MEDIA_CACHE_SETTINGS_TAB)
   })
 
   test('maybeWarnMediaCacheStorage warns once per threshold', function() {

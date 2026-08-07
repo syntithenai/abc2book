@@ -21,6 +21,7 @@ import {
   isQueueItemPlayable,
   stopPlaylistPlayback,
 } from './playlistPlaybackResilience'
+import { advanceQueueAfterPlaybackFailure } from './playlistPlaybackSkip'
 import { playLessonYoutube } from './lessonYoutubePlayer'
 import { playExternalMediaItem } from './standaloneMediaPlayback'
 import { announcePlaylistTrack } from './playlistTitleAnnouncement'
@@ -94,6 +95,20 @@ function syncQueueIndex(queue, currentPlayingTuneId) {
   return Object.assign({}, queue, { currentIndex: syncIndex })
 }
 
+function retryQueueAdvanceAfterFailure(params, reason) {
+  const queue = params && params.queue
+  if (!isQueueActive(queue) || !queue.autoAdvance) {
+    stopPlaylistPlayback(params.mediaController)
+    if (params.failCallback) params.failCallback(reason || 'end')
+    return false
+  }
+  advanceQueueToPlayableAndStart(Object.assign({}, params, {
+    advanceFirst: true,
+    failCallback: params.failCallback,
+  }))
+  return false
+}
+
 function finishQueueAdvance(params, nextQueue, item, tune) {
   const {
     setQueue,
@@ -125,30 +140,23 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
       play: true,
       fromUserGesture: !!(playbackOptions && playbackOptions.fromUserGesture),
     }).catch(function() {
-      stopPlaylistPlayback(mediaController)
-      if (failCallback) failCallback('end')
+      retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
     })
     return true
   }
 
   if (!tune || !tunebook) {
-    stopPlaylistPlayback(mediaController)
-    if (failCallback) failCallback('end')
-    return false
+    return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
 
   if (!isQueueItemPlayable(tune, item, tunebook)) {
-    stopPlaylistPlayback(mediaController)
-    if (failCallback) failCallback('end')
-    return false
+    return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
 
   setQueue(nextQueue)
   const started = playQueueItem(mediaController, tunebook, tune, item, playbackOptions || { deferPlaybackEngine: true })
   if (!started) {
-    stopPlaylistPlayback(mediaController)
-    if (failCallback) failCallback('end')
-    return false
+    return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
 
   announcePlaylistTrack(tune)
@@ -198,6 +206,23 @@ export async function advanceQueueToPlayableAndStart(params) {
   })
 
   if (result.atEnd || !result.item) {
+    if (queue && queue.autoAdvance) {
+      const skipResult = await advanceQueueAfterPlaybackFailure(queue, tunes, tunebook, {
+        isYoutubeLink: isYoutubeLink,
+        playbackMode: playbackMode,
+      })
+      if (!skipResult.atEnd && skipResult.item) {
+        if (isExternalQueueItem(skipResult.item)) {
+          return finishQueueAdvance(params, skipResult.queue, skipResult.item, null)
+        }
+        if (!skipResult.tune) {
+          stopPlaylistPlayback(mediaController)
+          if (failCallback) failCallback('end')
+          return false
+        }
+        return finishQueueAdvance(params, skipResult.queue, skipResult.item, skipResult.tune)
+      }
+    }
     stopPlaylistPlayback(mediaController)
     if (failCallback) failCallback('end')
     return false

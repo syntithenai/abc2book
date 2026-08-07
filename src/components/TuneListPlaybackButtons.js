@@ -1,27 +1,15 @@
 import { useNavigate, useLocation } from 'react-router-dom'
-import { startTunePlayback, isQueuePlaybackEngaged } from '../tunePlaybackActions'
+import { startTunePlayback } from '../tunePlaybackActions'
 import { appendTuneToQueue, insertTuneAfterCurrentInQueue, getCurrentTuneId } from '../nowPlayingQueue'
 import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 
 function buildQueueContext(props) {
-  const queue = props.nowPlayingQueue
-  const queuePlayingId = getCurrentTuneId(queue)
-  const showPlaylistMismatch = !!(
-    props.mediaController
-    && props.tunebook
-    && props.tune && props.tune.id
-    && queuePlayingId
-    && String(props.tune.id) !== String(queuePlayingId)
-    && isQueuePlaybackEngaged(props.mediaController, { queue: queue })
-  )
   return {
     tunes: props.tunes,
     playTuneId: props.tune && props.tune.id,
     nowPlayingQueue: props.nowPlayingQueue,
     setNowPlayingQueue: props.setNowPlayingQueue,
-    setQueuePlayConfirm: props.setQueuePlayConfirm,
     setCurrentTune: props.setCurrentTune,
-    skipQueueConfirm: props.skipQueueConfirm !== false && !showPlaylistMismatch,
   }
 }
 
@@ -30,7 +18,8 @@ export default function TuneListPlaybackButtons(props) {
   const location = useLocation()
   const tune = props.tune
   if (!tune || !tune.id) return null
-  if (!props.tunebook || !props.mediaController) return null
+  const mediaController = props.mediaControllerRef && props.mediaControllerRef.current
+  if (!props.tunebook || !mediaController) return null
 
   const hasMusic = props.tunebook.hasNotesOrChords && props.tunebook.hasNotesOrChords(tune)
   const hasLinks = props.tunebook.hasLinks
@@ -39,17 +28,17 @@ export default function TuneListPlaybackButtons(props) {
   if (!hasMusic && !hasLinks) return null
 
   const isPlaying = props.nowPlayingTuneId === tune.id
-    && props.mediaController
-    && (props.mediaController.isPlaying || props.mediaController.isLoading)
+    && mediaController
+    && (mediaController.isPlaying || mediaController.isLoading)
 
   function handlePlay(event) {
     event.preventDefault()
     event.stopPropagation()
-    if (props.mediaController.preparePlaybackFromUserGesture) {
-      props.mediaController.preparePlaybackFromUserGesture()
+    if (mediaController.preparePlaybackFromUserGesture) {
+      mediaController.preparePlaybackFromUserGesture()
     }
     startTunePlayback(
-      props.mediaController,
+      mediaController,
       props.tunebook,
       navigate,
       location,

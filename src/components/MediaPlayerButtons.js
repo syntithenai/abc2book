@@ -6,10 +6,8 @@ import {
   startTunePlayback,
   resumeTunePlayback,
   resolvePlaybackTarget,
-  isQueuePlaybackEngaged,
-  playTuneNow,
 } from '../tunePlaybackActions'
-import { isQueueActive, getCurrentTuneId } from '../nowPlayingQueue'
+import { getCurrentTuneId } from '../nowPlayingQueue'
 import { isNavigatorOffline, isTuneOfflinePlayable } from '../offlinePlayback'
 import { getViewedTuneIdFromPath, isTuneListPath } from '../playbackNavigationUtils'
 
@@ -66,13 +64,27 @@ function viewedTuneIsPlayable(tunebook, tune) {
     || (Array.isArray(tune.links) && tune.links.length > 0)
 }
 
+function resolveViewedTuneForHeader(tunebook, tunes, viewedTuneId, currentTuneBook) {
+  if (!viewedTuneId) return null
+  if (tunes && tunes[viewedTuneId]) return tunes[viewedTuneId]
+  if (tunebook && currentTuneBook && typeof tunebook.fromBook === 'function') {
+    const bookTunes = tunebook.fromBook(currentTuneBook)
+    if (Array.isArray(bookTunes)) {
+      for (let i = 0; i < bookTunes.length; i++) {
+        const candidate = bookTunes[i]
+        if (candidate && candidate.id === viewedTuneId) return candidate
+      }
+    }
+  }
+  return null
+}
+
 export default function MediaPlayerButtons({
   mediaController,
   tunebook,
   buttonSize,
   nowPlayingQueue,
   setNowPlayingQueue,
-  setQueuePlayConfirm,
   currentTuneBook,
   tagFilter,
   genreFilter,
@@ -86,7 +98,7 @@ export default function MediaPlayerButtons({
    const location = useLocation()
    const navigate = useNavigate()
    const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
-   const viewedTune = viewedTuneId && tunes ? tunes[viewedTuneId] : null
+   const viewedTune = resolveViewedTuneForHeader(tunebook, tunes, viewedTuneId, currentTuneBook)
    const searchListIds = tunebook.getSearchListOrderedIds
      ? tunebook.getSearchListOrderedIds()
      : []
@@ -103,14 +115,6 @@ export default function MediaPlayerButtons({
    )
    const playTargetTune = viewedTune || (canPlayFirstSearchResult ? firstSearchTune : null)
    const playDisabledOffline = useOfflinePlayDisabled(mediaController, tunebook, location, playTargetTune)
-   const queuePlayingId = getCurrentTuneId(nowPlayingQueue)
-   const showPlaylistMismatch = !!(
-     isQueueActive(nowPlayingQueue)
-     && isQueuePlaybackEngaged(mediaController)
-     && viewedTuneId
-     && queuePlayingId
-     && viewedTuneId !== queuePlayingId
-   )
 
    if (!viewedTuneId) {
      if (!canPlayFirstSearchResult) {
@@ -121,21 +125,13 @@ export default function MediaPlayerButtons({
    }
 
    function startPlayback() {
-       if (!viewedTuneId && firstSearchTune) {
-         playTuneNow(mediaController, tunebook, navigate, firstSearchTune)
-         return
-       }
+       const tune = playTargetTune
+       if (!tune) return
        startTunePlayback(mediaController, tunebook, navigate, location, {
          nowPlayingQueue: nowPlayingQueue,
-         setQueuePlayConfirm: setQueuePlayConfirm,
          setNowPlayingQueue: setNowPlayingQueue,
-         currentTuneBook: currentTuneBook,
-         tagFilter: tagFilter,
-         genreFilter: genreFilter,
-         artistFilter: artistFilter,
-         selected: selected,
          tunes: tunes,
-         skipQueueConfirm: showPlaylistMismatch,
+         playTuneId: tune.id,
        })
    }
 
@@ -144,7 +140,7 @@ export default function MediaPlayerButtons({
          startPlayback()
          return
        }
-       if (!resumeTunePlayback(mediaController, viewedTuneId)) {
+       if (!resumeTunePlayback(mediaController, viewedTuneId, { queue: nowPlayingQueue })) {
            startPlayback()
        }
    }

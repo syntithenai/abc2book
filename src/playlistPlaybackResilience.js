@@ -80,6 +80,8 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
   const isYoutubeLink = opts.isYoutubeLink
   const playbackMode = opts.playbackMode || 'auto'
   const advanceFirst = opts.advanceFirst !== false
+  const wrapManual = !!opts.wrapManualNavigation
+  const advanceOpts = wrapManual ? { wrap: true } : undefined
 
   if (!isQueueActive(queue)) {
     return { queue: queue, tune: null, item: null, atEnd: true, skipped: 0 }
@@ -89,7 +91,7 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
   let skipped = 0
 
   if (advanceFirst) {
-    const stepped = advanceQueue(workingQueue, direction)
+    const stepped = advanceQueue(workingQueue, direction, advanceOpts)
     if (stepped.atEdge) {
       return { queue: workingQueue, tune: null, item: null, atEnd: true, skipped: 0 }
     }
@@ -117,7 +119,7 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
     }
 
     skipped += 1
-    const stepped = advanceQueue(workingQueue, direction)
+    const stepped = advanceQueue(workingQueue, direction, advanceOpts)
     if (stepped.atEdge) {
       return { queue: workingQueue, tune: null, item: null, atEnd: true, skipped: skipped }
     }

@@ -2,7 +2,7 @@
 import { useNavigate } from 'react-router-dom'
 import { Button, Badge, ButtonGroup, Alert } from 'react-bootstrap'
 import { ListGroup } from 'react-bootstrap'
-import { useState, useEffect, useRef, memo } from 'react'
+import { useState, useEffect, useRef, memo, useMemo, useCallback } from 'react'
 import IndexSearchForm from './IndexSearchForm'
 import SelectedItemsModal from './SelectedItemsModal'
 import VirtualizedTuneList, { COMPACT_ROW_HEIGHT } from './VirtualizedTuneList'
@@ -21,12 +21,12 @@ import { resolveResolverAccessToken } from '../resolverAccessToken'
 import {buildSearchPageTitle, DEFAULT_APP_TITLE, SEARCH_PAGE_TITLE_BASE, setDocumentTitle} from '../pageTitle'
 import { compareSearchGroupKeys } from '../searchListOrder'
 import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
-import { appendTunesToQueue, createQueue, insertTunesAfterCurrentInQueue } from '../nowPlayingQueue'
+import { appendTunesToQueue, createQueue, insertTunesAfterCurrentInQueue, getCurrentTuneId } from '../nowPlayingQueue'
 import { getPlayableTuneIdsFromListRows } from '../collectionQueueUtils'
 import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 import SelectAllToggle from './SelectAllToggle'
 import { toast } from 'react-toastify'
-import { getActivePlaybackTuneId } from '../playbackNavigationUtils'
+import { getListHighlightTuneId } from '../playbackNavigationUtils'
 import {
   expandPdfSnapshotSearchRows,
 } from '../pdfSnapshotIndex'
@@ -45,6 +45,9 @@ import {
 import { isCatalogStorageEnabled } from '../tuneStorageFlags'
 
 function IndexLayout(props) {
+    const mediaControllerRef = useRef(props.mediaController)
+    mediaControllerRef.current = props.mediaController
+
     //var [filtered, setFiltered] = useState('')
     //var [grouped, setGrouped] = useState({})
     //var [tuneStatus, setTuneStatus] = useState({})
@@ -231,9 +234,11 @@ function IndexLayout(props) {
           textFilter: props.filter,
         },
       }).then(function(result) {
-        if (!result || filterRunIdRef.current !== runId) return
-        applyFilterResult(result)
+        if (filterRunIdRef.current !== runId) return
+        if (result) applyFilterResult(result)
         props.stopWaiting()
+      }).catch(function() {
+        if (filterRunIdRef.current === runId) props.stopWaiting()
       })
     }
 
@@ -287,6 +292,13 @@ function IndexLayout(props) {
         },300)
     // eslint-disable-next-line react-hooks/exhaustive-deps -- restore scroll position once on mount
     },[])
+
+    useEffect(function() {
+      return function() {
+        props.stopWaiting()
+      }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- clear list-waiting indicator on unmount
+    }, [])
     
     const lastScrollTopRef = useRef(0);
 	const [fixedSingleMenu, setFixedSingleMenu] = useState(false)
@@ -366,18 +378,30 @@ function IndexLayout(props) {
       })
     }
 
-    function handleAddMediaToTunebook(candidate) {
+    const handleBookClick = useCallback(function(book) {
+        props.setCurrentTuneBook(book)
+        props.setFilter('')
+        props.forceRefresh()
+    }, [props.setCurrentTuneBook, props.setFilter, props.forceRefresh])
+
+    const handleTagClick = useCallback(function(tag) {
+        props.setTagFilter([tag])
+        props.setFilter('')
+        props.forceRefresh()
+    }, [props.setTagFilter, props.setFilter, props.forceRefresh])
+
+    const handleAddMediaToTunebook = useCallback(function(candidate) {
       stageMediaCandidateToTunebook(candidate, {
         book: props.currentTuneBook || '',
         tags: Array.isArray(props.tagFilter) ? props.tagFilter : [],
       }).catch(function(err) {
         toast.error(err && err.message ? err.message : 'Could not open Add to Tunebook')
       })
-    }
+    }, [props.currentTuneBook, props.tagFilter])
 
-    function handleMediaPlaybackError(err) {
+    const handleMediaPlaybackError = useCallback(function(err) {
       toast.error(err && err.message ? err.message : 'Could not play media')
-    }
+    }, [])
 
     function isListSelectionCurtailed(tunes) {
       const rows = listRowsForTunes(tunes)
@@ -549,13 +573,13 @@ function IndexLayout(props) {
         //props.forceRefresh()
     }
 
-    function renderListItems(items) {
+    function renderListItems(items, prebuiltRows) {
         var displayMode = props.listDisplayMode || 'compact'
         var previewAllowed = !(props.filtered && props.filtered.length > PREVIEW_LIST_LIMIT)
         var isCompact = displayMode === 'compact'
         var isPreview = displayMode === 'preview' && previewAllowed
         var isDetailed = displayMode === 'detailed' || (displayMode === 'preview' && !previewAllowed)
-        var rows = listRowsForTunes(items)
+        var rows = prebuiltRows || listRowsForTunes(items)
         var showRowExtras = (isDetailed || isPreview) && rows.length > 0 && rows.length < LIST_PROTECTION_LIMIT
         var showStarToggle = isDetailed
         var showFilterChips = isDetailed || isPreview
@@ -571,16 +595,16 @@ function IndexLayout(props) {
           setCurrentTune: props.setCurrentTune,
           currentTuneBook: props.currentTuneBook,
           tagFilter: props.tagFilter,
-          onBookClick: function(book) { props.setCurrentTuneBook(book); props.setFilter(''); props.forceRefresh() },
-          onTagClick: function(tag) { props.setTagFilter([tag]); props.setFilter(''); props.forceRefresh() },
+          onBookClick: handleBookClick,
+          onTagClick: handleTagClick,
           onSelect: handleSelection,
           forceRefresh: props.forceRefresh,
-          mediaController: props.mediaController,
+          mediaControllerRef: mediaControllerRef,
           tunes: props.tunes,
           nowPlayingQueue: props.nowPlayingQueue,
           setNowPlayingQueue: props.setNowPlayingQueue,
           setQueuePlayConfirm: props.setQueuePlayConfirm,
-          nowPlayingTuneId: getActivePlaybackTuneId(props.mediaController, props.nowPlayingQueue),
+          nowPlayingTuneId: listHighlightTuneId,
           onAddToTunebook: handleAddMediaToTunebook,
           onMediaError: handleMediaPlaybackError,
           accessToken: resolveResolverAccessToken(props.token) || getActiveResolverAccessToken() || '',
@@ -634,12 +658,12 @@ function IndexLayout(props) {
             onTagClick={rowProps.onTagClick}
             onSelect={handleSelection}
             forceRefresh={props.forceRefresh}
-            mediaController={props.mediaController}
+            mediaControllerRef={mediaControllerRef}
             tunes={props.tunes}
             nowPlayingQueue={props.nowPlayingQueue}
             setNowPlayingQueue={props.setNowPlayingQueue}
             setQueuePlayConfirm={props.setQueuePlayConfirm}
-            nowPlayingTuneId={getActivePlaybackTuneId(props.mediaController, props.nowPlayingQueue)}
+            nowPlayingTuneId={listHighlightTuneId}
             onAddToTunebook={handleAddMediaToTunebook}
             onMediaError={handleMediaPlaybackError}
             accessToken={resolveResolverAccessToken(props.token) || getActiveResolverAccessToken() || ''}
@@ -647,6 +671,20 @@ function IndexLayout(props) {
         )
     }
     
+    const queueHighlightTuneId = props.nowPlayingQueue ? getCurrentTuneId(props.nowPlayingQueue) : null
+    const controllerHighlightTuneId = props.mediaController && props.mediaController.tune
+      ? props.mediaController.tune.id
+      : null
+    const listHighlightTuneId = useMemo(function() {
+      return getListHighlightTuneId(props.mediaController, props.nowPlayingQueue)
+    }, [
+      queueHighlightTuneId,
+      controllerHighlightTuneId,
+      props.mediaController && props.mediaController.isPlaying,
+      props.mediaController && props.mediaController.isLoading,
+      props.nowPlayingQueue && props.nowPlayingQueue.previewOnce && props.nowPlayingQueue.previewOnce.tuneId,
+    ])
+
     var visibleFiltered = getVisibleFilteredTunes()
     var listPageTotal = getListPageTotal()
     var showPagination = usesPaginatedList() && listPageTotal > CATALOG_PAGE_SIZE
@@ -656,6 +694,10 @@ function IndexLayout(props) {
     var freshSelectedCount = countSelected()
     var listDisplayMode = props.listDisplayMode || 'compact'
     var showListSelectionControls = listDisplayMode !== 'compact'
+
+    const visibleListRows = useMemo(function() {
+      return listRowsForTunes(visibleFiltered)
+    }, [visibleFiltered, props.filter, mediaSearchResults])
 
     function getListTuneIds() {
         var selectedIds = Object.keys(selected).filter(function(id) {
@@ -679,6 +721,8 @@ function IndexLayout(props) {
             tuneIds: tuneIds,
             name: playingSelection ? 'Selection' : 'Filter',
             source: playingSelection ? 'selection' : 'filter',
+            followTune: false,
+            repeatMode: 'off',
         })
         if (props.tunebook.startNowPlayingQueue) {
             props.tunebook.startNowPlayingQueue(queue, null, {
@@ -868,7 +912,7 @@ function IndexLayout(props) {
             Updating tune list...
           </div>
         )}
-        {!grouped && renderListItems(visibleFiltered)}
+        {!grouped && renderListItems(visibleFiltered, visibleListRows)}
         
         {grouped && <div>{ Object.keys(grouped).sort(function(a,b) {
             return compareSearchGroupKeys(props.groupBy, a, b)
@@ -910,4 +954,24 @@ function IndexLayout(props) {
     </div>
 }
 
-export default memo(IndexLayout)
+export default memo(IndexLayout, function indexLayoutPropsAreEqual(prev, next) {
+    const keys = Object.keys(prev)
+    if (keys.length !== Object.keys(next).length) return false
+    for (let i = 0; i < keys.length; i++) {
+        const key = keys[i]
+        if (key === 'mediaController') {
+            const pm = prev.mediaController
+            const nm = next.mediaController
+            if (pm === nm) continue
+            if (!pm || !nm) return false
+            if (pm.isPlaying !== nm.isPlaying) return false
+            if (pm.isLoading !== nm.isLoading) return false
+            const pt = pm.tune && pm.tune.id
+            const nt = nm.tune && nm.tune.id
+            if (pt !== nt) return false
+            continue
+        }
+        if (prev[key] !== next[key]) return false
+    }
+    return true
+})

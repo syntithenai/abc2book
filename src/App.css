@@ -529,7 +529,6 @@
   z-index:9999;
 }
 
-/* Toasts must sit above the full-screen waiting overlay (z-index 999999). */
 :root {
   --toastify-z-index: 1000001;
 }
@@ -6071,21 +6070,22 @@ button img:after {
   align-items: center;
   min-height: 100%;
   flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 0.25em;
 }
 
 .virtualized-tune-list .virtualized-tune-list-row .tune-list-item-compact .tune-list-item-title-block {
-  gap: 0;
-  flex: 1 1 0%;
+  grid-column: 1;
+  position: relative;
+  z-index: 1;
   min-width: 0;
-  max-width: 100%;
-  align-items: stretch;
-  width: 100%;
 }
 
 .virtualized-tune-list .virtualized-tune-list-row .tune-list-item-compact .tune-list-item-meta {
-  flex: 0 0 auto;
+  grid-column: 2;
+  flex-shrink: 0;
   max-width: none;
-  align-items: center;
 }
 
 .tune-list-item-compact .tune-list-item-meta:empty {
@@ -6110,6 +6110,8 @@ button img:after {
   margin: -0.15rem 0;
   padding-top: 0.15rem;
   padding-bottom: 0.15rem;
+  position: relative;
+  z-index: 1;
 }
 
 .tune-list-item-compact .tune-list-title-text {
@@ -6148,7 +6150,12 @@ button img:after {
   max-width: 55%;
 }
 
+.tune-list-item-meta .tune-list-item-play.play-with-queue-dropdown--compact {
+  pointer-events: none;
+}
+
 .tune-list-item-meta .tune-list-item-play.play-with-queue-dropdown--compact > .btn {
+  pointer-events: auto;
   min-width: 2rem;
   display: inline-flex;
   align-items: center;

@@ -177,6 +177,23 @@ export default function MediaPlayerMidiFile(props) {
     if (mc.requestedPlayState === 'playMidi') return undefined
     if (mc.playbackRouteMode === 'midi') return undefined
     if (mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()) return undefined
+    if (mc.flushPendingPlayRequest) {
+      mc.flushPendingPlayRequest()
+    }
+
+    const parsedLinkNum = parseInt(mediaLinkNumberParam, 10)
+    const requestedLinkNum = !isNaN(parsedLinkNum) ? parsedLinkNum : 0
+    const isFirstTuneLoad = !lastTuneId
+    const tuneChanged = tune.id !== lastTuneId
+    const linkChanged = requestedLinkNum !== lastMediaLinkNumber
+    const playStateChanged = playState !== lastPlayState
+    const kickoffPending = mc.needsPlaybackKickoff && mc.needsPlaybackKickoff()
+
+    // tune/tunebook are new object references on most App renders; only
+    // re-apply the route when the logical playback target actually changed.
+    if (!isFirstTuneLoad && !tuneChanged && !linkChanged && !playStateChanged && !kickoffPending) {
+      return undefined
+    }
 
     const route = mc.applyPlaybackRoute(playState, mediaLinkNumberParam, tune, tunebook)
     const linkIndex = route.mediaLinkNumber
@@ -187,7 +204,7 @@ export default function MediaPlayerMidiFile(props) {
     if (srcType !== 'midifile') return undefined
 
     let changeType = null
-    if (tune.id !== lastTuneId) {
+    if (tuneChanged) {
       changeType = 'tune'
       mc.setTune(tune)
       mc.setCurrentTime(0)
@@ -202,7 +219,7 @@ export default function MediaPlayerMidiFile(props) {
           if (mc.onError) mc.onError(err && err.message ? err.message : 'Failed to load MIDI')
         })
       }
-    } else if (String(linkIndex) !== String(lastMediaLinkNumber)) {
+    } else if (linkChanged) {
       changeType = 'link'
       mc.setCurrentTime(0)
       mc.setClickSeek(0)
@@ -216,8 +233,10 @@ export default function MediaPlayerMidiFile(props) {
           if (mc.onError) mc.onError(err && err.message ? err.message : 'Failed to load MIDI')
         })
       }
-    } else if (playState !== lastPlayState) {
+    } else if (playStateChanged) {
       changeType = 'playState'
+    } else if (kickoffPending) {
+      changeType = 'tune'
     }
 
     if (changeType && !suppressAutostart) {
@@ -226,20 +245,18 @@ export default function MediaPlayerMidiFile(props) {
         consumed = mc.consumePendingPlayRequest(tune.id, playState, route.mediaLinkNumber)
       }
       if (!consumed && mc.maybeAutostart) {
-        mc.maybeAutostart(playState, changeType, tune.id !== lastTuneId)
+        mc.maybeAutostart(playState, changeType, isFirstTuneLoad || tuneChanged)
       }
     }
 
     setLastTuneId(tune.id)
-    setLastMediaLinkNumber(String(route.mediaLinkNumber))
+    setLastMediaLinkNumber(route.mediaLinkNumber)
     setLastPlayState(playState)
     return undefined
   }, [
     tuneId,
     mediaLinkNumberParam,
     playState,
-    tune,
-    tunebook,
     lastTuneId,
     lastMediaLinkNumber,
     lastPlayState,

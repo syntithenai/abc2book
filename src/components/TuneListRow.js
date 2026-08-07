@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from 'react-bootstrap'
 import { ListGroup } from 'react-bootstrap'
@@ -13,7 +14,7 @@ import {
   displayTitleForSearchRow,
 } from '../pdfSnapshotIndex'
 
-export default function TuneListRow(props) {
+function TuneListRow(props) {
   const row = props.row
   const tk = props.index
   const tune = row && row.tune
@@ -60,7 +61,7 @@ export default function TuneListRow(props) {
     <TuneListPlaybackButtons
       tune={tune}
       tunebook={props.tunebook}
-      mediaController={props.mediaController}
+      mediaControllerRef={props.mediaControllerRef}
       tunes={props.tunes}
       nowPlayingQueue={props.nowPlayingQueue}
       setNowPlayingQueue={props.setNowPlayingQueue}
@@ -159,3 +160,18 @@ export default function TuneListRow(props) {
     </ListGroup.Item>
   )
 }
+
+export default memo(TuneListRow, function tuneListRowPropsEqual(prev, next) {
+  const prevId = prev.row && prev.row.tune && prev.row.tune.id
+  const nextId = next.row && next.row.tune && next.row.tune.id
+  if (prevId !== nextId) return false
+  if (prev.index !== next.index) return false
+  if (prev.nowPlayingTuneId !== next.nowPlayingTuneId) return false
+  if (prev.isCompact !== next.isCompact) return false
+  if (prev.isPreview !== next.isPreview) return false
+  if (prev.showRowExtras !== next.showRowExtras) return false
+  if (prev.showStarToggle !== next.showStarToggle) return false
+  if (prev.showFilterChips !== next.showFilterChips) return false
+  if (prevId && (prev.selected && prev.selected[prevId]) !== (next.selected && next.selected[prevId])) return false
+  return true
+})

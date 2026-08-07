@@ -203,6 +203,17 @@ Dev hook: `window.__abc2bookNotationTest` (ABC, selection, mode, caret).
 
 **CI:** Jest notation tests run on every PR (`npm test`). Puppeteer tiers are optional nightly jobs.
 
+## Playback router parity E2E
+
+Asserts `window.__tunebookPlaybackRouteLog` policy fields per link type.
+
+```bash
+npm run test:playback:router:e2e
+npm run test:playback:router:all   # unit + playback-smoke + router e2e
+```
+
+Fixtures: `?seed=playback-router` — see [playbackRouterE2eFixtures.js](../src/devSeed/playbackRouterE2eFixtures.js) and [docs/PLAYBACK_ROUTER.md](../docs/PLAYBACK_ROUTER.md).
+
 ## Test pyramid (playback)
 
 | Layer | Command | Covers |

@@ -25,6 +25,14 @@ export function syncPlaybackRoute({ playState, mediaLinkNumberParam, tune, hasNo
     return { mode: 'none', mediaLinkNumber: null, src: null }
   }
 
+  if (playState === 'playMedia') {
+    if (!hasLinks) {
+      return { mode: 'none', mediaLinkNumber: null, src: null }
+    }
+    const idx = resolveMediaLinkIndex(mediaLinkNumberParam, tune)
+    return { mode: 'media', mediaLinkNumber: idx, src: getSrc(tune, idx) }
+  }
+
   let linkFromRoute = resolveMediaLinkIndex(mediaLinkNumberParam, tune)
   if (!hasLinks) {
     linkFromRoute = null

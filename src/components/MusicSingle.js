@@ -19,7 +19,6 @@ import abcjs from "abcjs";
 import useAbcjsParser from '../useAbcjsParser'
 import useWindowSize from '../useWindowSize'
 import TitleAndLyricsEditorModal from './TitleAndLyricsEditorModal'
-import MediaSeekSlider from '../components/MediaSeekSlider'
 import MediaPlayerMedia from '../components/MediaPlayerMedia'
 import PDFViewer from './PDFViewer'
 import ImagesManagerModal from './ImagesManagerModal'
@@ -64,7 +63,7 @@ import { useCapoViewState } from '../useCapoViewState'
 import { chordTransposeWithCapo } from '../capoViewUtils'
 import { recordTuneView } from '../tuneViewHistoryStore'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
-import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, abandonAutoEnrichNotationPaste } from '../addTuneAutoEnrich'
+import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, abandonAutoEnrichNotationPaste, cancelAddTuneAutoEnrich } from '../addTuneAutoEnrich'
 import { toast } from 'react-toastify'
 import SearchProgressBar from './SearchProgressBar'
 import PasteChordSheetModal from './PasteChordSheetModal'
@@ -130,6 +129,10 @@ export default function MusicSingle(props) {
     const [showAutoEnrichChordPaste, setShowAutoEnrichChordPaste] = useState(false)
     const [showAutoEnrichNotationPaste, setShowAutoEnrichNotationPaste] = useState(false)
     const autoEnrichSummaryShownRef = useRef('')
+    const mediaControllerRef = useRef(props.mediaController)
+    mediaControllerRef.current = props.mediaController
+    const nowPlayingQueueRef = useRef(props.nowPlayingQueue)
+    nowPlayingQueueRef.current = props.nowPlayingQueue
     const [pdfToolbarHost, setPdfToolbarHost] = useState(null)
     const [showScratchpadCopyPicker, setShowScratchpadCopyPicker] = useState(false)
     const [copyToScratchpadBusy, setCopyToScratchpadBusy] = useState(false)
@@ -257,13 +260,14 @@ export default function MusicSingle(props) {
         if (fromProps) {
             setTune(applyTuneSnapshotFromSearchParams(fromProps, searchParams))
             setTuneLoadState('ready')
-            if (props.mediaController && props.mediaController.setTune
+            const mc = mediaControllerRef.current
+            if (mc && mc.setTune
               && shouldSyncViewedTuneToMediaController(
-                props.mediaController,
-                props.nowPlayingQueue,
+                mc,
+                nowPlayingQueueRef.current,
                 fromProps.id
               )) {
-              props.mediaController.setTune(fromProps)
+              mc.setTune(fromProps)
             }
             return undefined
         }
@@ -275,13 +279,14 @@ export default function MusicSingle(props) {
             if (loaded) {
                 setTune(applyTuneSnapshotFromSearchParams(loaded, searchParams))
                 setTuneLoadState('ready')
-                if (props.mediaController && props.mediaController.setTune
+                const mc = mediaControllerRef.current
+                if (mc && mc.setTune
                   && shouldSyncViewedTuneToMediaController(
-                    props.mediaController,
-                    props.nowPlayingQueue,
+                    mc,
+                    nowPlayingQueueRef.current,
                     loaded.id
                   )) {
-                  props.mediaController.setTune(loaded)
+                  mc.setTune(loaded)
                 }
                 return
             }
@@ -296,7 +301,7 @@ export default function MusicSingle(props) {
         return function() {
             cancelled = true
         }
-    },[params.tuneId, props.tunes, props.mediaController, props.mediaController && props.mediaController.playbackSpeed, searchParams])
+    },[params.tuneId, props.tunes, props.mediaController && props.mediaController.playbackSpeed, searchParams])
     
     //const [abc, setAbc] = useState('')
     //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
@@ -1008,13 +1013,25 @@ export default function MusicSingle(props) {
 			</div>
       {autoEnrichPending ? (
         <Alert variant="warning" className="m-2 mb-0" data-testid="auto-enrich-pending-alert">
-          More information is loading. Please wait.
-          <SearchProgressBar
-            visible={true}
-            percent={autoEnrichState.progress || 0}
-            message={autoEnrichState.message || 'Searching...'}
-            defaultMessage="Searching..."
-          />
+          <div className="d-flex flex-wrap align-items-start justify-content-between gap-2">
+            <div className="flex-grow-1">
+              More information is loading. Please wait.
+              <SearchProgressBar
+                visible={true}
+                percent={autoEnrichState.progress || 0}
+                message={autoEnrichState.message || 'Searching...'}
+                defaultMessage="Searching..."
+              />
+            </div>
+            <Button
+              size="sm"
+              variant="outline-secondary"
+              data-testid="auto-enrich-cancel"
+              onClick={function() { cancelAddTuneAutoEnrich(params.tuneId) }}
+            >
+              Cancel enhancement
+            </Button>
+          </div>
         </Alert>
       ) : null}
       {!autoEnrichPending && autoEnrichState.needsChordPaste ? (
@@ -1223,14 +1240,13 @@ export default function MusicSingle(props) {
 				{tune.composer && <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by <span>{tune.composer}</span></span>} 
 			</div>}
 			
-             {(props.mediaController.mediaLinkNumber != null) && <MediaSeekSlider  mediaController={props.mediaController} />}
              {(fileManager && Array.isArray(fileManager.filtered))  && fileManager.filtered.map(function(file, fk) {
 				return <FileRenderer key={fk} tunebook={props.tunebook} file={file} /> 
 			 })}
 
              {fileOverlayActive ? (
                <TuneFilePanel
-                 tune={tune}
+                 tune={tune} 
                  token={props.token}
                  driveApi={driveDocs}
                  tunebook={props.tunebook}

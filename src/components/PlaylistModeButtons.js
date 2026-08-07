@@ -93,6 +93,56 @@ export function PlaylistRepeatButton({
   )
 }
 
+export function PlaylistFollowIcon({ className, size, active }) {
+  const dimension = size || 18
+  return (
+    <img
+      src={process.env.PUBLIC_URL + '/playlist-follow-icon.png'}
+      width={dimension}
+      height={dimension}
+      alt=""
+      aria-hidden="true"
+      className={
+        'playlist-follow-icon playlist-toggle-icon'
+        + (active ? ' playlist-follow-icon--active' : '')
+        + (className ? ' ' + className : '')
+      }
+    />
+  )
+}
+
+export function PlaylistFollowButton({
+  nowPlayingQueue,
+  setNowPlayingQueue,
+  className,
+  variant = 'outline-secondary',
+  size,
+  testId = 'playlist-follow-button',
+}) {
+  const active = !!nowPlayingQueue.followTune
+  const btnSize = size || undefined
+
+  return (
+    <Button
+      type="button"
+      variant={active ? 'secondary' : variant}
+      size={btnSize}
+      className={className}
+      title={active
+        ? 'Following — navigate to each song when it starts'
+        : 'Follow off — stay on the current page while the playlist plays'}
+      aria-label={active ? 'Follow on' : 'Follow off'}
+      aria-pressed={active}
+      data-testid={testId}
+      onClick={function() {
+        setNowPlayingQueue(setFollowTune(nowPlayingQueue, !nowPlayingQueue.followTune))
+      }}
+    >
+      <PlaylistFollowIcon active={active} size={btnSize === 'sm' ? 16 : 18} />
+    </Button>
+  )
+}
+
 export default function PlaylistModeButtons({
   nowPlayingQueue,
   setNowPlayingQueue,
@@ -148,25 +198,23 @@ export default function PlaylistModeButtons({
         </Button>
       ) : null}
       {showFollow && !isLesson ? (
-        <ToggleButton
+        <Button
           id="playlist-mode-follow"
-          type="checkbox"
-          variant="outline-secondary"
-          checked={!!nowPlayingQueue.followTune}
-          value="follow"
-          title="Navigate to each song when it starts playing"
+          type="button"
+          variant={nowPlayingQueue.followTune ? 'secondary' : 'outline-secondary'}
+          title={nowPlayingQueue.followTune
+            ? 'Following — navigate to each song when it starts'
+            : 'Follow off — stay on the current page while the playlist plays'}
+          aria-label={nowPlayingQueue.followTune ? 'Follow on' : 'Follow off'}
+          aria-pressed={!!nowPlayingQueue.followTune}
           data-testid="playlist-follow-button"
-          onChange={function(e) {
-            setNowPlayingQueue(setFollowTune(nowPlayingQueue, e.currentTarget.checked))
+          onClick={function() {
+            setNowPlayingQueue(setFollowTune(nowPlayingQueue, !nowPlayingQueue.followTune))
           }}
         >
-          {compact ? (
-            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" className="playlist-toggle-icon">
-              <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-3.58 3.59L12 18l6-6-6-6z" />
-            </svg>
-          ) : null}
+          <PlaylistFollowIcon active={!!nowPlayingQueue.followTune} />
           {compact ? null : 'Follow'}
-        </ToggleButton>
+        </Button>
       ) : null}
     </ButtonGroup>
   )

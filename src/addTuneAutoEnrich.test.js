@@ -1,4 +1,5 @@
 import {
+  cancelAddTuneAutoEnrich,
   dismissAddTuneAutoEnrichFailure,
   getAddTuneAutoEnrichState,
   isAddTuneAutoEnrichPending,
@@ -656,5 +657,41 @@ describe('addTuneAutoEnrich', function() {
     expect(state.summary).toContain('Chords from ultimate-guitar.com')
     expect(state.summary).toContain('Lyrics from lyrics.ovh')
     expect(state.summary).toContain('Not found: notation')
+  })
+
+  test('cancelAddTuneAutoEnrich aborts in-flight enrichment and clears state', async function() {
+    const tune = { id: 't-cancel', name: 'Song', composer: 'Writer' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+    let resolveChords
+    const chordsPromise = new Promise(function(resolve) {
+      resolveChords = resolve
+    })
+
+    searchChords.mockReturnValue(chordsPromise)
+    searchLyrics.mockResolvedValue({ empty: true })
+    searchNotation.mockResolvedValue({ empty: true, found: false, manualCandidates: [] })
+    isTuneFieldEmptyForKind.mockReturnValue(true)
+
+    const promise = runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: { renderChords: jest.fn() },
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    expect(isAddTuneAutoEnrichPending('t-cancel')).toBe(true)
+    cancelAddTuneAutoEnrich('t-cancel')
+    expect(isAddTuneAutoEnrichPending('t-cancel')).toBe(false)
+    expect(getAddTuneAutoEnrichState('t-cancel').pending).toBe(false)
+
+    resolveChords({ empty: true })
+    await promise
+    expect(getAddTuneAutoEnrichState('t-cancel').pending).toBe(false)
+    expect(getAddTuneAutoEnrichState('t-cancel').message).toBe('')
   })
 })

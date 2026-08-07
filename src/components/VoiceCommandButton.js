@@ -20,6 +20,7 @@ function MicIcon() {
 }
 
 const VOICE_COMMAND_TIMEOUT_MS = 120000
+const EMPTY_HELP_LINKS = []
 
 export default function VoiceCommandButton(props) {
   const { available: resolverAvailable, features } = useMediaResolverHealth();
@@ -241,7 +242,7 @@ export default function VoiceCommandButton(props) {
         show={showHelpAnswer}
         question={helpAnswer && helpAnswer.question ? helpAnswer.question : ''}
         answer={helpAnswer && helpAnswer.answer ? helpAnswer.answer : ''}
-        links={helpAnswer && helpAnswer.links ? helpAnswer.links : []}
+        links={helpAnswer && helpAnswer.links ? helpAnswer.links : EMPTY_HELP_LINKS}
         accessToken={props.token && props.token.access_token}
         onHide={function() { setShowHelpAnswer(false) }}
       />

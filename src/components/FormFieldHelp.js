@@ -2,6 +2,51 @@ import { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import { icons } from '../Icons';
 
+const CHROME_EXTENSIONS_URL = 'chrome://extensions';
+
+export function ChromeExtensionsAddress({ showHint }) {
+  const [copied, setCopied] = useState(false);
+
+  function handleCopy() {
+    if (!navigator.clipboard || typeof navigator.clipboard.writeText !== 'function') return;
+    navigator.clipboard.writeText(CHROME_EXTENSIONS_URL).then(function() {
+      setCopied(true);
+      setTimeout(function() { setCopied(false); }, 2000);
+    }).catch(function() {});
+  }
+
+  return (
+    <span className="chrome-extensions-address">
+      <code className="user-select-all">{CHROME_EXTENSIONS_URL}</code>
+      {' '}
+      <Button
+        type="button"
+        size="sm"
+        variant="outline-secondary"
+        className="align-baseline"
+        onClick={handleCopy}
+      >
+        {copied ? 'Copied' : 'Copy'}
+      </Button>
+      {showHint !== false ? (
+        <span className="text-muted small d-block mt-1">
+          Browsers block web pages from opening internal Chrome addresses — copy and paste this into the address bar.
+        </span>
+      ) : null}
+    </span>
+  );
+}
+
+function renderHelpBody(body) {
+  if (Array.isArray(body)) {
+    return body.map(function(part, index) {
+      if (typeof part === 'string') return part;
+      return <span key={'help-body-part-' + index}>{part}</span>;
+    });
+  }
+  return body;
+}
+
 export function FieldHelpModal({ show, title, body, fields, onHide }) {
   const items = fields && fields.length > 0
     ? fields
@@ -17,7 +62,7 @@ export function FieldHelpModal({ show, title, body, fields, onHide }) {
           return (
             <div key={(field.title || 'help') + '-' + index} style={{ marginBottom: '1em' }}>
               <strong>{field.title}</strong>
-              <div style={{ marginTop: '0.25em' }}>{field.body}</div>
+              <div style={{ marginTop: '0.25em' }}>{renderHelpBody(field.body)}</div>
             </div>
           );
         })}

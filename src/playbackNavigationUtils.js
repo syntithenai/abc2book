@@ -10,6 +10,30 @@ import {
 import { isPlaybackInterruptPath } from './toolPlaybackInterrupt'
 import { isStandaloneExternalPlaybackEngaged } from './standaloneMediaPlayback'
 
+/** Tune id for list-row now-playing highlight (stable while a playlist is engaged). */
+export function getListHighlightTuneId(mediaController, queue) {
+  if (isQueueActive(queue)) {
+    const item = getCurrentItem(queue)
+    if (isExternalQueueItem(item) && !isLessonExternalMedia(item.externalMedia)) {
+      return null
+    }
+    if (queue.previewOnce && queue.previewOnce.tuneId) {
+      return queue.previewOnce.tuneId
+    }
+    const queueTuneId = getCurrentTuneId(queue)
+    if (queueTuneId && isQueuePlaybackEngaged(mediaController, { queue })) {
+      return queueTuneId
+    }
+  }
+  const controllerTuneId = mediaController && mediaController.tune && mediaController.tune.id
+    ? mediaController.tune.id
+    : null
+  if (controllerTuneId && isPlaybackActivelyPlaying(mediaController)) {
+    return controllerTuneId
+  }
+  return null
+}
+
 /** Tune id for the transport bar / now-playing UI (queue item or active engine tune). */
 export function getActivePlaybackTuneId(mediaController, queue) {
   const controllerTuneId = mediaController && mediaController.tune && mediaController.tune.id

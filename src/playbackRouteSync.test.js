@@ -55,4 +55,16 @@ describe('playbackRouteSync', function() {
     expect(resolveMediaLinkIndex(undefined, tuneWithBoth)).toBe(0)
     expect(resolveMediaLinkIndex('bad', tuneWithBoth)).toBe(0)
   })
+
+  test('playMedia never falls back to midi when tune has notation', function() {
+    const route = syncPlaybackRoute({
+      playState: 'playMedia',
+      mediaLinkNumberParam: '0',
+      tune: tuneWithBoth,
+      hasNotesOrChords: hasNotesOrChords,
+      getSrc: getSrc,
+    })
+    expect(route.mode).toBe('media')
+    expect(route.mediaLinkNumber).toBe(0)
+  })
 })

@@ -334,6 +334,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       advanceFirst: true,
       isYoutubeLink: utils.isYoutubeLink,
       playbackMode: playbackMode,
+      wrapManualNavigation: true,
     }).then(function(result) {
       if (result.atEnd || !result.item) {
         if (startPlayback) stopPlaylistPlayback(mediaController)
@@ -2316,7 +2317,7 @@ The main difference between the two functions is the additional condition in app
         tuneIds: clampTuneIds(tuneIds),
         name: opts.name || 'Playlist',
         source: opts.source || 'manual',
-        followTune: opts.followTune !== undefined ? !!opts.followTune : true,
+        followTune: opts.followTune !== undefined ? !!opts.followTune : false,
       })
       setNowPlayingQueue(queue)
       return queue

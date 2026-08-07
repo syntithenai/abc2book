@@ -13,21 +13,31 @@ export default function MediaSeekSlider({mediaController, className}) {
     const scrubValueRef = useRef(0)
     const [liveProgress, setLiveProgress] = useState({ currentTime: 0, duration: 0, ratio: 0 })
 
+    const mediaControllerRef = useRef(mediaController)
+    mediaControllerRef.current = mediaController
+
     useEffect(function() {
         function refresh() {
-            if (scrubbing || !mediaController.getPlaybackProgress) return
-            const next = mediaController.getPlaybackProgress()
+            const mc = mediaControllerRef.current
+            if (scrubbing || !mc || !mc.getPlaybackProgress) return
+            const next = mc.getPlaybackProgress()
             if (!next) return
-            setLiveProgress({
-                currentTime: safeSeconds(next.currentTime),
-                duration: safeSeconds(next.duration),
-                ratio: safeSeconds(next.ratio),
+            const currentTime = safeSeconds(next.currentTime)
+            const duration = safeSeconds(next.duration)
+            const ratio = safeSeconds(next.ratio)
+            setLiveProgress(function(prev) {
+                if (prev.currentTime === currentTime
+                    && prev.duration === duration
+                    && prev.ratio === ratio) {
+                    return prev
+                }
+                return { currentTime, duration, ratio }
             })
         }
         refresh()
         const id = setInterval(refresh, 100)
         return function() { clearInterval(id) }
-    }, [scrubbing, mediaController])
+    }, [scrubbing])
 
     const duration = liveProgress.duration > 0
         ? liveProgress.duration

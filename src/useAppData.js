@@ -3,7 +3,7 @@ import useUtils from './useUtils'
 import { normalizeViewMode } from './viewModeUtils'
 import { configureTuneRepository, setMonolithTunesRef } from './tuneRepository'
 import { getTuneHash, getTuneImportHash } from './tuneHashUtils'
-import { loadActiveQueue, persistActiveQueue } from './nowPlayingQueue'
+import { loadActiveQueue, persistActiveQueue, normalizeQueuePlaybackModes } from './nowPlayingQueue'
 import { isAndroidApp } from './platformUtils'
 
 /**
@@ -70,7 +70,7 @@ export default function useAppData() {
   // value is cached to save rendering time
   var [selectedCount, setSelectedCount] = useState({})
   
-  // waiting overlay
+  // tune list filter in progress (inline indicator in IndexLayout)
   const [waiting, setWaiting] = useState('') 
   function startWaiting() {
     setWaiting(true)
@@ -294,8 +294,9 @@ export default function useAppData() {
     return loadActiveQueue()
   })
   const setNowPlayingQueue = useCallback(function(queue) {
-    persistActiveQueue(queue)
-    setNowPlayingQueueInner(queue)
+    const normalized = queue ? normalizeQueuePlaybackModes(queue) : queue
+    persistActiveQueue(normalized)
+    setNowPlayingQueueInner(normalized)
   }, [])
   const [setPlaylist, setSetPlaylist] = useState(null)
   const [queuePlayConfirm, setQueuePlayConfirm] = useState(null)

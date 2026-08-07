@@ -51,6 +51,9 @@ export default function SavedPlaylistsOpenModal({
   login,
   googleDocumentId,
   setBlockKeyboardShortcuts,
+  dialogZIndex,
+  startPlaybackOnOpen,
+  mediaController,
 }) {
   const navigate = useNavigate()
   const [playlists, setPlaylists] = useState([])
@@ -87,7 +90,10 @@ export default function SavedPlaylistsOpenModal({
       return
     }
     if (tunebook.startNowPlayingQueue) {
-      tunebook.startNowPlayingQueue(queue, navigate)
+      tunebook.startNowPlayingQueue(queue, navigate, {
+        startPlayback: !!startPlaybackOnOpen,
+        mediaController: mediaController,
+      })
     } else if (setNowPlayingQueue) {
       setNowPlayingQueue(queue)
     }
@@ -166,6 +172,8 @@ export default function SavedPlaylistsOpenModal({
       tuneIds: tuneIds,
       name: String(name).trim() || defaultName,
       source: 'filter',
+      followTune: false,
+      repeatMode: 'off',
     })
     const saved = savePlaylistFromQueue(queue, { name: queue.name })
     if (!saved) {
@@ -183,6 +191,8 @@ export default function SavedPlaylistsOpenModal({
       onHide={onHide}
       onClick={function(e) { e.stopPropagation() }}
       size="md"
+      style={dialogZIndex ? { zIndex: dialogZIndex } : undefined}
+      backdropClassName={dialogZIndex ? 'media-controls-modal-backdrop-elevated' : undefined}
     >
       <Modal.Header closeButton>
         <Modal.Title>{title || 'Playlists'}</Modal.Title>

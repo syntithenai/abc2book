@@ -6,7 +6,7 @@ import { filterUnlockedTuneIds } from './mediaCacheLock'
 export const MEDIA_CACHE_SETTINGS_TAB = 'media'
 
 export function mediaCacheSettingsPath() {
-  return '/settings?tab=' + MEDIA_CACHE_SETTINGS_TAB
+  return '/#/settings?tab=' + MEDIA_CACHE_SETTINGS_TAB
 }
 
 export const MEDIA_CACHE_WARN_THRESHOLD_KEY = 'bookstorage_media_cache_warn_threshold_mb'
