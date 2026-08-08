@@ -293,11 +293,17 @@ export function runTuneListFilterSync(params) {
   }
 }
 
-export function pruneSelectionForStatus(selected, tuneStatus) {
+/** Drop selections for tunes no longer in the current filtered list. */
+export function pruneSelectionForStatus(selected, filteredTunes) {
   const next = Object.assign({}, selected || {})
+  const visibleIds = {}
+  const list = Array.isArray(filteredTunes) ? filteredTunes : []
+  list.forEach(function(tune) {
+    if (tune && tune.id) visibleIds[tune.id] = true
+  })
   let count = 0
   Object.keys(next).forEach(function(tuneId) {
-    if (!tuneStatus[tuneId]) {
+    if (!visibleIds[tuneId]) {
       next[tuneId] = false
     } else if (next[tuneId]) {
       count += 1

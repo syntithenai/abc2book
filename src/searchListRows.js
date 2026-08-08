@@ -32,6 +32,15 @@ export function isSearchSectionHeaderRow(row) {
   return !!(row && row.kind === 'section-header');
 }
 
+export function isTuneSearchRow(row) {
+  return !!(row && row.kind === 'tune' && row.tune && row.tune.id);
+}
+
+export function countTuneSearchRows(rows) {
+  if (!Array.isArray(rows)) return 0;
+  return rows.filter(isTuneSearchRow).length;
+}
+
 function mediaCandidateDuplicatesTuneRows(candidate, tuneRows) {
   if (!candidate) return false;
   const rows = Array.isArray(tuneRows) ? tuneRows : [];
@@ -87,8 +96,4 @@ export function getSearchRowKey(row, index) {
 
 export function isMediaSearchRow(row) {
   return !!(row && row.kind === 'media' && row.candidate);
-}
-
-export function isTuneSearchRow(row) {
-  return !!(row && row.kind === 'tune' && row.tune && row.tune.id);
 }

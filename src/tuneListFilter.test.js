@@ -96,8 +96,9 @@ describe('tuneListFilter', function() {
     expect(status.hasLinks).toBe(true)
   })
 
-  test('pruneSelectionForStatus clears selections outside status map', function() {
-    const result = pruneSelectionForStatus({ a: true, b: true }, { a: { hasNotes: true } })
+  test('pruneSelectionForStatus clears selections outside filtered list', function() {
+    const filtered = [makeTune('a', 'Alpha')]
+    const result = pruneSelectionForStatus({ a: true, b: true }, filtered)
     expect(result.selected.a).toBe(true)
     expect(result.selected.b).toBe(false)
     expect(result.selectedCount).toBe(1)

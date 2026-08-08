@@ -14,7 +14,7 @@ import {
   isAndroidLocalMediaAvailable,
   requestAndroidAudioPermission,
 } from '../androidLocalMediaSearchClient'
-import { tuneRowsFromTunes, mergeSearchListRows, getSearchRowKey, isMediaSearchRow, isSearchSectionHeaderRow } from '../searchListRows'
+import { tuneRowsFromTunes, mergeSearchListRows, getSearchRowKey, isMediaSearchRow, isSearchSectionHeaderRow, countTuneSearchRows } from '../searchListRows'
 import SearchListSectionHeader from './SearchListSectionHeader'
 import { stageMediaCandidateToTunebook } from '../stageMediaCandidateToTunebook'
 import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
@@ -203,9 +203,11 @@ function IndexLayout(props) {
       setTagCollation(result.tagCollation)
       setListPageMeta(result.listPage || null)
       setListPageOffset(0)
-      const pruned = pruneSelectionForStatus(selected, result.tuneStatus)
-      setSelected(pruned.selected)
-      setSelectedCount(pruned.selectedCount)
+      setSelected(function(prev) {
+        const pruned = pruneSelectionForStatus(prev, result.filtered)
+        setSelectedCount(pruned.selectedCount)
+        return pruned.selected
+      })
     }
 
     function usesPaginatedList() {
@@ -421,8 +423,8 @@ function IndexLayout(props) {
     }, [])
 
     function isListSelectionCurtailed(tunes) {
-      const rows = listRowsForTunes(tunes)
-      return rows.length > 0 && rows.length >= LIST_PROTECTION_LIMIT
+      const tuneRowCount = countTuneSearchRows(listRowsForTunes(tunes))
+      return tuneRowCount > 0 && tuneRowCount >= LIST_PROTECTION_LIMIT
     }
 
     function selectionCurtailedInCurrentView() {
@@ -462,36 +464,43 @@ function IndexLayout(props) {
     
     function selectAllToggle(groupKey=null) {
         if (groupKey === null) {
-            var nextSelected = Object.assign({}, selected)
-            if (countSelected() > 0) {
-                filtered.forEach(function(tune) {
-                    nextSelected[tune.id] = false
-                })
-            } else {
-                var selectedCount = 0
-                getVisibleFilteredTunes().forEach(function(tune) {
-                    if (selectedCount >= BULK_SELECTION_LIMIT) return
-                    nextSelected[tune.id] = true
-                    selectedCount += 1
-                })
-            }
-            setSelected(enforceSelectionLimit(nextSelected))
-            setSelectedCount(countSelectedFrom(nextSelected))
+            setSelected(function(prev) {
+                var nextSelected = Object.assign({}, prev)
+                var prevCount = countSelectedFrom(prev)
+                if (prevCount > 0) {
+                    filtered.forEach(function(tune) {
+                        nextSelected[tune.id] = false
+                    })
+                } else {
+                    var selectedCount = 0
+                    getVisibleFilteredTunes().forEach(function(tune) {
+                        if (selectedCount >= BULK_SELECTION_LIMIT) return
+                        nextSelected[tune.id] = true
+                        selectedCount += 1
+                    })
+                }
+                var trimmed = enforceSelectionLimit(nextSelected)
+                setSelectedCount(countSelectedFrom(trimmed))
+                return trimmed
+            })
             props.forceRefresh()
         } else {
              if (grouped && Array.isArray(grouped[groupKey])) {
-                var nextSelected = Object.assign({}, selected)
-                if (grouped[groupKey].length === countSelected(groupKey)) {
-                    grouped[groupKey].forEach(function(id) {
-                        if (filtered[id] && filtered[id].id) nextSelected[filtered[id].id] = false
-                    })
-                } else {
-                    grouped[groupKey].forEach(function(id) {
-                        if (filtered[id] && filtered[id].id) nextSelected[filtered[id].id] = true
-                    })
-                }
-                setSelected(enforceSelectionLimit(nextSelected))
-                setSelectedCount(countSelectedFrom(nextSelected))
+                setSelected(function(prev) {
+                    var nextSelected = Object.assign({}, prev)
+                    if (grouped[groupKey].length === countSelectedFrom(prev, groupKey)) {
+                        grouped[groupKey].forEach(function(id) {
+                            if (filtered[id] && filtered[id].id) nextSelected[filtered[id].id] = false
+                        })
+                    } else {
+                        grouped[groupKey].forEach(function(id) {
+                            if (filtered[id] && filtered[id].id) nextSelected[filtered[id].id] = true
+                        })
+                    }
+                    var trimmed = enforceSelectionLimit(nextSelected)
+                    setSelectedCount(countSelectedFrom(trimmed))
+                    return trimmed
+                })
                 props.forceRefresh()
              }
         }
@@ -499,20 +508,22 @@ function IndexLayout(props) {
     
     function selectBetween(startId,endId) {
         if (startId && endId) {
-            var nextSelected = Object.assign({}, selected)
-            var started = false
-            filtered.forEach(function(tune) {
-                if (tune.id === startId || tune.id === endId) {
-                    started = !started
-                    nextSelected[tune.id] = true
-                }
-                if (started) {
-                    nextSelected[tune.id] = true
-                }
+            setSelected(function(prev) {
+                var nextSelected = Object.assign({}, prev)
+                var started = false
+                filtered.forEach(function(tune) {
+                    if (tune.id === startId || tune.id === endId) {
+                        started = !started
+                        nextSelected[tune.id] = true
+                    }
+                    if (started) {
+                        nextSelected[tune.id] = true
+                    }
+                })
+                var trimmed = enforceSelectionLimit(nextSelected)
+                setSelectedCount(countSelectedFrom(trimmed))
+                return trimmed
             })
-            
-            setSelected(enforceSelectionLimit(nextSelected))
-            setSelectedCount(countSelectedFrom(nextSelected))
             props.forceRefresh()
         }
     }
@@ -536,17 +547,19 @@ function IndexLayout(props) {
         } else {
             e.preventDefault(); 
             e.stopPropagation();
-            var nextSelected = Object.assign({}, selected)
-            if (nextSelected[tuneId] === true) {
-                nextSelected[tuneId] = false
-                setLastSelected(null)
-            } else {
-                nextSelected[tuneId] = true
-                setLastSelected(tuneId)
-            }
-            
-            setSelected(enforceSelectionLimit(nextSelected))
-            setSelectedCount(countSelectedFrom(nextSelected))
+            setSelected(function(prev) {
+                var nextSelected = Object.assign({}, prev)
+                if (nextSelected[tuneId] === true) {
+                    nextSelected[tuneId] = false
+                    setLastSelected(null)
+                } else {
+                    nextSelected[tuneId] = true
+                    setLastSelected(tuneId)
+                }
+                var trimmed = enforceSelectionLimit(nextSelected)
+                setSelectedCount(countSelectedFrom(trimmed))
+                return trimmed
+            })
         }
         
     }
@@ -597,7 +610,8 @@ function IndexLayout(props) {
         var isPreview = displayMode === 'preview' && previewAllowed
         var isDetailed = displayMode === 'detailed' || (displayMode === 'preview' && !previewAllowed)
         var rows = prebuiltRows || listRowsForTunes(items)
-        var showRowExtras = (isDetailed || isPreview) && rows.length > 0 && rows.length < LIST_PROTECTION_LIMIT
+        var tuneRowCount = countTuneSearchRows(rows)
+        var showRowExtras = (isDetailed || isPreview) && tuneRowCount > 0 && tuneRowCount < LIST_PROTECTION_LIMIT
         var showStarToggle = isDetailed
         var showFilterChips = isDetailed || isPreview
         var rowProps = {

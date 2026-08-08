@@ -708,7 +708,7 @@ export default function NotationEditor(props) {
 
   useEffect(function() {
     setDisplayedVoiceIndices(activeVoiceIndicesFromTune(props.tune, props.voiceNames || []));
-  }, [props.tune && props.tune.id, props.voiceNames]);
+  }, [props.tune && props.tune.id, (props.voiceNames || []).join('\0')]);
 
   useEffect(function() {
     if (session.view !== EDITOR_VIEWS.ABC) {

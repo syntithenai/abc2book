@@ -298,15 +298,24 @@ export default function IncomingMergeModal(props) {
 
   useEffect(function() {
     if (!show || !batch) return;
-    const next = {};
-    batch.records.forEach(function(record) {
-      next[record.id] = {
-        accept: true,
-        fieldSelections: buildDefaultFieldSelectionsForRecord(record, true),
-      };
+    setRecordState(function(prev) {
+      const next = Object.assign({}, prev);
+      (batch.records || []).forEach(function(record) {
+        if (!next[record.id]) {
+          next[record.id] = {
+            accept: true,
+            fieldSelections: buildDefaultFieldSelectionsForRecord(record, true),
+          };
+        }
+      });
+      Object.keys(next).forEach(function(id) {
+        if (!(batch.records || []).some(function(record) { return record.id === id; })) {
+          delete next[id];
+        }
+      });
+      return next;
     });
-    setRecordState(next);
-  }, [show, batch]);
+  }, [show, batch && batch.records && batch.records.map(function(r) { return r.id }).join('\0')]);
 
   function updateRecordState(recordId, patch) {
     setRecordState(function(prev) {

@@ -224,6 +224,9 @@ export default function AbcEditor(props) {
       meta: 'Voice ' + key + ' clef=treble',
       notes: ['%%MIDI program 0', ''],
     }
+    if (Array.isArray(tune.activeVoices)) {
+      tune.activeVoices = tune.activeVoices.concat([key])
+    }
     tune.id = params.tuneId
     saveTune(tune)
     setCurrentVoice(keys.length)

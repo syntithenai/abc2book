@@ -198,15 +198,25 @@ export default function PerformanceSetMergeModal(props) {
 
   useEffect(function() {
     if (!show || !batch || !batch.prepared) return;
-    const next = {};
-    batch.prepared.records.forEach(function(record) {
-      next[record.id] = {
-        accept: true,
-        fieldSelections: buildDefaultFieldSelectionsForSetRecord(record, true, batch.prepared.tunesById),
-      };
+    const records = batch.prepared.records || [];
+    setRecordState(function(prev) {
+      const next = Object.assign({}, prev);
+      records.forEach(function(record) {
+        if (!next[record.id]) {
+          next[record.id] = {
+            accept: true,
+            fieldSelections: buildDefaultFieldSelectionsForSetRecord(record, true, batch.prepared.tunesById),
+          };
+        }
+      });
+      Object.keys(next).forEach(function(id) {
+        if (!records.some(function(record) { return record.id === id; })) {
+          delete next[id];
+        }
+      });
+      return next;
     });
-    setRecordState(next);
-  }, [show, batch]);
+  }, [show, batch && batch.prepared && batch.prepared.records && batch.prepared.records.map(function(r) { return r.id }).join('\0')]);
 
   function updateRecordState(recordId, patch) {
     setRecordState(function(prev) {
