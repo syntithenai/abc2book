@@ -180,7 +180,8 @@ export default function NowPlayingHost(props) {
     if (mc.consumePendingPlayRequest) {
       consumed = mc.consumePendingPlayRequest(tuneId, 'playMidi', null)
     }
-    if (!consumed && tuneChanged && mc.maybeAutostart && !suppressAutostart) {
+    const kickoffPending = mc.needsPlaybackKickoff && mc.needsPlaybackKickoff()
+    if (!consumed && (tuneChanged || kickoffPending) && mc.maybeAutostart && !suppressAutostart) {
       const pendingMidi = mc.pendingMidiPlayRef && mc.pendingMidiPlayRef.current
       const kickoffActive = mc.isMidiKickoffActiveRef && mc.isMidiKickoffActiveRef.current
           && mc.isMidiKickoffActiveRef.current()

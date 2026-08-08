@@ -118,11 +118,13 @@ export default function PlayWithQueueDropdown({
   onContainerClick,
   listItemMenu = false,
 }) {
-  const playButtonVariant = isPlaying ? 'warning' : (playVariant || (variant === 'collection-side' ? 'primary' : 'success'))
+  const isListItemPlay = !!(className && className.indexOf('tune-list-item-play') !== -1)
+  const basePlayVariant = playVariant || (variant === 'collection-side' ? 'primary' : 'success')
+  // Search list row buttons stay green while playing; the row uses tune-list-item--now-playing.
+  const playButtonVariant = (isPlaying && !isListItemPlay) ? 'warning' : basePlayVariant
   const resolvedPlayIcon = isPlaying && pauseIcon ? pauseIcon : playIcon
   const playButtonTitle = isPlaying && pauseIcon ? 'Pause' : (isPlaying ? 'Now playing' : 'Play')
   const hasQueueMenu = showQueueMenu && (onAddToQueue || onPlayNext || onAddToTunebook)
-  const isListItemPlay = !!(className && className.indexOf('tune-list-item-play') !== -1)
   const useListItemMenu = listItemMenu || (variant === 'compact' && isListItemPlay)
   const resolvedButtonSize = buttonSize != null
     ? buttonSize

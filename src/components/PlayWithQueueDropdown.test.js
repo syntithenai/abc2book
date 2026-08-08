@@ -26,6 +26,42 @@ describe('PlayWithQueueDropdown', function() {
     })
   })
 
+  test('keeps list item play buttons green while playing', function() {
+    act(function() {
+      root.render(React.createElement(PlayWithQueueDropdown, {
+        variant: 'compact',
+        playIcon: '▶',
+        isPlaying: true,
+        className: 'tune-list-item-play',
+        onPlay: jest.fn(),
+        onAddToQueue: jest.fn(),
+        onPlayNext: jest.fn(),
+      }))
+    })
+
+    const playBtn = container.querySelector('.play-with-queue-dropdown-play')
+    expect(playBtn).toBeTruthy()
+    expect(playBtn.className).toMatch(/btn-success/)
+    expect(playBtn.className).not.toMatch(/btn-warning/)
+  })
+
+  test('uses warning variant for non-list playback while playing', function() {
+    act(function() {
+      root.render(React.createElement(PlayWithQueueDropdown, {
+        variant: 'toolbar',
+        playIcon: '▶',
+        isPlaying: true,
+        onPlay: jest.fn(),
+        onAddToQueue: jest.fn(),
+        onPlayNext: jest.fn(),
+      }))
+    })
+
+    const playBtn = container.querySelector('.play-with-queue-dropdown-play')
+    expect(playBtn).toBeTruthy()
+    expect(playBtn.className).toMatch(/btn-warning/)
+  })
+
   test('closes the queue menu after choosing an action', function() {
     const onAddToQueue = jest.fn(function(event) {
       event.stopPropagation()

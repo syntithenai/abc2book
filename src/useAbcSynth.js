@@ -2606,6 +2606,11 @@ export default function useAbcSynth(props) {
         setForceStop(true)
         setIsPlaying(false)
         clearForcedPlaybackIntent()
+        if (props.mediaController && props.mediaController.isMidiPlaybackRoute
+            && props.mediaController.isMidiPlaybackRoute()
+            && props.mediaController.setIsPlaying) {
+            props.mediaController.setIsPlaying(false)
+        }
         if (props.onStopped) {
             props.onStopped()
         }
@@ -2739,8 +2744,16 @@ export default function useAbcSynth(props) {
                     || (explicitStartMs != null && explicitStartMs > 0))
                 : (!hasStartPosition && shouldRestartMidiFromStart(opts.restart)))
         if (fromBeginning) {
+            if (opts.restart) {
+                invalidatePendingMidiStarts()
+                countInPendingRef.current = false
+                if (!primePromiseRef.current) {
+                    midiPrimeInFlightRef.current = false
+                }
+            }
             if (isMidiKickoffActive()) {
-                if (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase()) {
+                if (!opts.restart
+                    && (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase())) {
                     return true
                 }
                 clearStaleMidiKickoffLock()

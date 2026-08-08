@@ -277,6 +277,7 @@ describe('autoplay and tap-to-play', function() {
     const seeking = beginSeekOperation(captured.snapshot, 3000, NOW)
     expect(shouldBlockPlayDuringSeek(seeking, {}, NOW)).toBe(true)
     expect(shouldBlockPlayDuringSeek(seeking, { restart: true }, NOW)).toBe(false)
+    expect(shouldBlockPlayDuringSeek(seeking, { fresh: true }, NOW)).toBe(false)
   })
 
   test('paused seek does not block a subsequent play request', function() {

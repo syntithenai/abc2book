@@ -1,4 +1,4 @@
-import { createQueue } from './nowPlayingQueue'
+import { createQueue, setRepeatMode } from './nowPlayingQueue'
 import {
   shouldMusicSingleOwnPlayback,
   shouldMusicSingleMountMediaEngine,
@@ -550,6 +550,52 @@ describe('nowPlayingQueuePlayback', function() {
     expect(ok).toBe(true)
     expect(updatedQueue.currentIndex).toBe(0)
     expect(mediaController.setTune).toHaveBeenCalledWith(tunes.a)
+    expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
+  })
+
+  test('handleQueueAdvanceOnEnded does not repeat when repeat was turned off before track end', async function() {
+    const tunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) { return !!(tune && tune.links && tune.links.length > 0) },
+    }
+    const tunes = {
+      a: { id: 'a', notes: 'CDEF', links: [{ link: 'https://example.com/a.mp3' }] },
+      b: { id: 'b', notes: 'GABc', links: [{ link: 'https://example.com/b.mp3' }] },
+    }
+    const staleQueue = createQueue({
+      tuneIds: ['a', 'b'],
+      currentIndex: 0,
+      repeatMode: 'track',
+      autoAdvance: true,
+    })
+    const liveQueue = setRepeatMode(staleQueue, 'off')
+    const mediaController = {
+      setTune: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      applyPlaybackRoute: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      play: jest.fn(),
+      abortPlayingIntent: jest.fn(),
+      pause: jest.fn(),
+      setIsLoading: jest.fn(),
+      setIsPlaying: jest.fn(),
+      setIsReady: jest.fn(),
+    }
+    let updatedQueue = null
+    const ok = handleQueueAdvanceOnEnded({
+      queue: staleQueue,
+      getLatestQueue: function() { return liveQueue },
+      setQueue: function(q) { updatedQueue = q },
+      tunes: tunes,
+      tunebook: tunebook,
+      mediaController: mediaController,
+      failCallback: jest.fn(),
+    })
+    await new Promise(function(resolve) { setTimeout(resolve, 50) })
+    expect(ok).toBe(true)
+    expect(updatedQueue).not.toBeNull()
+    expect(updatedQueue.currentIndex).toBe(1)
+    expect(updatedQueue.repeatMode).toBe('off')
     expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
   })
 

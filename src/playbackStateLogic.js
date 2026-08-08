@@ -90,7 +90,7 @@ export function shouldBlockAutoplayDuringSeek(snapshot, opts, now) {
 
 export function shouldBlockPlayDuringSeek(snapshot, opts, now) {
   const o = opts || {}
-  if (o.restart) return false
+  if (o.restart || o.fresh) return false
   // Only a seek captured while playback was running auto-resumes itself
   // (finalizeMediaSeek), so only that case needs to swallow play() calls.
   // A seek made while paused must not block the user's next play.

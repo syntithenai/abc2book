@@ -1447,6 +1447,7 @@ function App(props) {
                     <Route  path={`gig/:setId/:tuneId`} element={<SetsPage gigMode={true} tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
                     <Route  path={`gig/:setId`} element={<SetsPage gigMode={true} tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
                     
+                    <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`privacy`}   element={<PrivacyPage    />}  />
                     <Route  path={`billing/success`} element={<BillingCheckoutPage outcome="success" token={token} login={login} />} />
                     <Route  path={`billing/cancel`} element={<BillingCheckoutPage outcome="cancel" token={token} login={login} />} />

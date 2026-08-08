@@ -142,7 +142,15 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         if (tuneChanged) {
             changeType = 'tune'
             mediaController.setTune(tune)
-            if (mediaController.clearCachedNativePlaybackUrl) {
+            const nextSrc = route.src
+            const mediaInFlight = mediaController.isLinkedMediaPlaybackInFlight
+                && mediaController.isLinkedMediaPlaybackInFlight()
+            const activePreparedSrc = mediaController.getActivePreparedMediaSrc
+                ? mediaController.getActivePreparedMediaSrc()
+                : null
+            if (!mediaInFlight
+                && (!activePreparedSrc || nextSrc !== activePreparedSrc)
+                && mediaController.clearCachedNativePlaybackUrl) {
                 mediaController.clearCachedNativePlaybackUrl()
             }
             let resumePos = null
@@ -238,6 +246,11 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             mc.reapplyStoredOutputDevice().catch(function() {})
         } else if (el) {
             applyStoredOutputDeviceToElement(el).catch(function() {})
+        }
+        if (el && mc && mc.kickPlaybackAfterEngineReady) {
+            queueMicrotask(function() {
+                mc.kickPlaybackAfterEngineReady()
+            })
         }
     }
 

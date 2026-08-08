@@ -9,6 +9,8 @@ import {
   isExternalQueueItem,
   isLessonExternalMedia,
   isRepeatTrack,
+  getRepeatMode,
+  setRepeatMode,
 } from './nowPlayingQueue'
 import {
   isQueuePlaybackEngaged,
@@ -25,6 +27,21 @@ import { advanceQueueAfterPlaybackFailure } from './playlistPlaybackSkip'
 import { playLessonYoutube } from './lessonYoutubePlayer'
 import { playExternalMediaItem } from './standaloneMediaPlayback'
 import { announcePlaylistTrack } from './playlistTitleAnnouncement'
+
+function resolveActiveQueue(params) {
+  const queue = params && params.queue
+  if (!params || !params.getLatestQueue) return queue
+  const latest = params.getLatestQueue()
+  return latest || queue
+}
+
+/** Keep repeat/shuffle prefs from the live queue when persisting a computed next queue. */
+function queueWithLatestPlaybackPreferences(nextQueue, getLatestQueue) {
+  if (!nextQueue || !getLatestQueue) return nextQueue
+  const latest = getLatestQueue()
+  if (!latest || !isQueueActive(latest)) return nextQueue
+  return setRepeatMode(nextQueue, getRepeatMode(latest))
+}
 
 /** Merge persisted tunes with any in-memory tunebook map (e.g. freshly materialized mymedia). */
 export function resolveQueueTunesMap(tunes, tunebook) {
@@ -138,7 +155,12 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
     practiceSessionActive,
     failCallback,
     playbackOptions,
+    getLatestQueue,
   } = params
+
+  function persistQueue(queue) {
+    setQueue(queueWithLatestPlaybackPreferences(queue, getLatestQueue))
+  }
 
   if (!item || !mediaController || !setQueue) {
     stopPlaylistPlayback(mediaController)
@@ -147,7 +169,7 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
   }
 
   if (isExternalQueueItem(item)) {
-    setQueue(nextQueue)
+    persistQueue(nextQueue)
     const externalMedia = item.externalMedia
     if (isLessonExternalMedia(externalMedia)) {
       playLessonYoutube({ fromUserGesture: true })
@@ -170,7 +192,7 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
     return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
 
-  setQueue(nextQueue)
+  persistQueue(nextQueue)
   const started = playQueueItem(mediaController, tunebook, tune, item, playbackOptions || { deferPlaybackEngine: true })
   if (!started) {
     return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
@@ -194,8 +216,8 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
  * Used by track-end, error skip, and manual next/prev (via options.direction).
  */
 export async function advanceQueueToPlayableAndStart(params) {
+  const queue = resolveActiveQueue(params)
   const {
-    queue,
     setQueue,
     tunes,
     tunebook,
@@ -260,8 +282,8 @@ export async function advanceQueueToPlayableAndStart(params) {
 }
 
 export function handleQueueAdvanceOnEnded(params) {
+  const queue = resolveActiveQueue(params)
   const {
-    queue,
     setQueue,
     tunes,
     tunebook,
@@ -280,7 +302,7 @@ export function handleQueueAdvanceOnEnded(params) {
 
   if (queue.previewOnce) {
     const restored = endPreviewOnce(queue)
-    setQueue(restored)
+    setQueue(queueWithLatestPlaybackPreferences(restored, params.getLatestQueue))
     const item = getCurrentItem(restored)
     const tune = item && tunes ? tunes[item.tuneId] : null
     if (tune && mediaController && isQueueItemPlayable(tune, item, tunebook)) {
