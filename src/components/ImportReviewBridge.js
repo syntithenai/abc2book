@@ -1247,7 +1247,7 @@ export default function ImportReviewBridge(props) {
         dismissContentHashDuplicateToast()
         dismissBackgroundReviewToast()
         if (savedTune && savedTune.id) {
-          runAddTuneAutoEnrich({
+          Promise.resolve(runAddTuneAutoEnrich({
             tune: savedTune,
             tunebook: props.tunebook,
             abcjsParser: abcjsParser,
@@ -1257,7 +1257,7 @@ export default function ImportReviewBridge(props) {
             loadTuneTexts: props.loadTuneTexts,
             forceRefresh: props.forceRefresh,
             songType: inferNotationSongType(savedTune.rhythm || '', savedTune.composer || ''),
-          })
+          })).catch(function() {})
           navigate('/tunes/' + encodeURIComponent(savedTune.id))
         } else {
           navigate('/tunes')

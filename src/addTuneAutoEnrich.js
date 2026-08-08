@@ -13,6 +13,7 @@ import {
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 import { getPlainLyricLines } from './wLinesUtils'
 import { enrichTuneMetadataFromMusicBrainz } from './tuneMetadataEnhance'
+import { isAbortError } from './abortUtils'
 
 const enrichByTuneId = {}
 const listeners = new Set()
@@ -318,6 +319,14 @@ export async function runAddTuneAutoEnrich(options) {
     return !!(controller && controller.signal.aborted)
   }
 
+  function swallowAbort(promise) {
+    if (!promise || typeof promise.catch !== 'function') return promise
+    return promise.catch(function(e) {
+      if (isAbortError(e) || isCancelled()) return null
+      throw e
+    })
+  }
+
   function notationPickOptions() {
     return {
       songType: songType,
@@ -374,7 +383,7 @@ export async function runAddTuneAutoEnrich(options) {
 
   try {
     if (artist) {
-    const chordPromise = searchChords({
+    const chordPromise = swallowAbort(searchChords({
       title: title,
       artist: artist,
       accessToken: opts.accessToken || '',
@@ -391,8 +400,8 @@ export async function runAddTuneAutoEnrich(options) {
         if (message) lastMessage = String(message)
         emitParallelProgress()
       },
-    })
-    const lyricPromise = searchLyrics({
+    }))
+    const lyricPromise = swallowAbort(searchLyrics({
       title: title,
       artist: artist,
       accessToken: opts.accessToken || '',
@@ -406,7 +415,7 @@ export async function runAddTuneAutoEnrich(options) {
         if (message) lastMessage = String(message)
         emitParallelProgress()
       },
-    })
+    }))
     // Start notation early so instrumental tunes (e.g. The Session) are not
     // blocked behind long chords/lyrics searches.
     // Settle immediately so a fast miss cannot become an unhandled rejection
@@ -612,11 +621,14 @@ export async function runAddTuneAutoEnrich(options) {
           opts.forceRefresh()
         }
       } catch (e) {
-        if (isCancelled()) return false
+        if (isCancelled() || isAbortError(e)) return false
       }
     }
 
     return true
+  } catch (e) {
+    if (isCancelled() || isAbortError(e)) return false
+    throw e
   } finally {
     delete activeEnrichAbortByTuneId[tuneId]
     if (isCancelled()) return

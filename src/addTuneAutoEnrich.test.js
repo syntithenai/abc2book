@@ -782,4 +782,46 @@ describe('addTuneAutoEnrich', function() {
     expect(getAddTuneAutoEnrichState('t-cancel-lyrics').message).not.toContain('notation')
     expect(searchNotation).toHaveBeenCalledTimes(1)
   })
+
+  test('cancelAddTuneAutoEnrich swallows stream AbortError without unhandled rejection', async function() {
+    const tune = { id: 't-cancel-stream', name: 'Song', composer: 'Writer' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+    const abortError = new DOMException('BodyStreamBuffer was aborted', 'AbortError')
+    let rejectChords
+    const chordsPromise = new Promise(function(resolve, reject) {
+      rejectChords = reject
+    })
+
+    searchChords.mockReturnValue(chordsPromise)
+    searchLyrics.mockReturnValue(new Promise(function() {}))
+    searchNotation.mockResolvedValue({ empty: true, found: false, manualCandidates: [] })
+    isTuneFieldEmptyForKind.mockReturnValue(true)
+
+    const unhandled = []
+    function onUnhandled(event) {
+      unhandled.push(event.reason)
+    }
+    process.on('unhandledRejection', onUnhandled)
+
+    const promise = runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: { renderChords: jest.fn() },
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    cancelAddTuneAutoEnrich('t-cancel-stream')
+    rejectChords(abortError)
+    await promise
+    await Promise.resolve()
+
+    process.removeListener('unhandledRejection', onUnhandled)
+    expect(unhandled).toEqual([])
+    expect(getAddTuneAutoEnrichState('t-cancel-stream').pending).toBe(false)
+  })
 })

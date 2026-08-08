@@ -1,13 +1,13 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
-import { Button, ButtonGroup, Dropdown } from 'react-bootstrap'
+import { Button, ButtonGroup } from 'react-bootstrap'
 import './PlayWithQueueDropdown.css'
 
-const LIST_ITEM_MENU_WIDTH = 200
-const LIST_ITEM_MENU_ESTIMATED_HEIGHT = 132
+const MENU_WIDTH = 200
+const MENU_ESTIMATED_HEIGHT = 132
 const VIEWPORT_PADDING = 8
 
-function useListItemPortalMenuPosition(show, anchorRef) {
+function usePortalMenuPosition(show, anchorRef) {
   const [style, setStyle] = useState(null)
 
   useLayoutEffect(function() {
@@ -22,8 +22,8 @@ function useListItemPortalMenuPosition(show, anchorRef) {
       const rect = anchor.getBoundingClientRect()
       const viewportWidth = window.innerWidth
       const viewportHeight = window.innerHeight
-      const menuWidth = LIST_ITEM_MENU_WIDTH
-      const menuHeight = LIST_ITEM_MENU_ESTIMATED_HEIGHT
+      const menuWidth = MENU_WIDTH
+      const menuHeight = MENU_ESTIMATED_HEIGHT
       let top = rect.bottom + 2
       let left = Math.min(
         Math.max(VIEWPORT_PADDING, rect.right - menuWidth),
@@ -64,29 +64,15 @@ function QueueMenuItems({
   playNextLabel,
   addToTunebookLabel,
   onClose,
-  asDropdownItems = true,
 }) {
   function wrapHandler(handler) {
     return function(event) {
-      if (handler) handler(event)
+      if (event) {
+        event.preventDefault()
+      }
       if (onClose) onClose()
+      if (handler) handler(event)
     }
-  }
-
-  if (asDropdownItems) {
-    return (
-      <>
-        {onAddToQueue ? (
-          <Dropdown.Item onClick={wrapHandler(onAddToQueue)}>{addToQueueLabel}</Dropdown.Item>
-        ) : null}
-        {onPlayNext ? (
-          <Dropdown.Item onClick={wrapHandler(onPlayNext)}>{playNextLabel}</Dropdown.Item>
-        ) : null}
-        {onAddToTunebook ? (
-          <Dropdown.Item onClick={wrapHandler(onAddToTunebook)}>{addToTunebookLabel}</Dropdown.Item>
-        ) : null}
-      </>
-    )
   }
 
   return (
@@ -135,7 +121,6 @@ export default function PlayWithQueueDropdown({
   const playButtonVariant = isPlaying ? 'warning' : (playVariant || (variant === 'collection-side' ? 'primary' : 'success'))
   const resolvedPlayIcon = isPlaying && pauseIcon ? pauseIcon : playIcon
   const playButtonTitle = isPlaying && pauseIcon ? 'Pause' : (isPlaying ? 'Now playing' : 'Play')
-  const groupClass = 'play-with-queue-dropdown play-with-queue-dropdown--' + variant + (className ? ' ' + className : '')
   const hasQueueMenu = showQueueMenu && (onAddToQueue || onPlayNext || onAddToTunebook)
   const isListItemPlay = !!(className && className.indexOf('tune-list-item-play') !== -1)
   const useListItemMenu = listItemMenu || (variant === 'compact' && isListItemPlay)
@@ -144,23 +129,44 @@ export default function PlayWithQueueDropdown({
     : (variant === 'compact' ? (isListItemPlay ? undefined : 'sm') : undefined)
   const [menuOpen, setMenuOpen] = useState(false)
   const anchorRef = useRef(null)
-  const portalMenuStyle = useListItemPortalMenuPosition(menuOpen && useListItemMenu, anchorRef)
+  const menuRef = useRef(null)
+  const portalMenuStyle = usePortalMenuPosition(menuOpen && hasQueueMenu, anchorRef)
+  const groupClass = 'play-with-queue-dropdown play-with-queue-dropdown--' + variant + (className ? ' ' + className : '') + (menuOpen ? ' show' : '')
+
+  function closeMenu() {
+    setMenuOpen(false)
+  }
+
+  function handleToggleMenu(event) {
+    if (event) {
+      event.preventDefault()
+      event.stopPropagation()
+    }
+    if (disabled) return
+    setMenuOpen(function(open) { return !open })
+  }
 
   useEffect(function() {
-    if (!useListItemMenu || !menuOpen) return undefined
+    if (!menuOpen) return undefined
     function handlePointerDown(event) {
       const anchor = anchorRef.current
-      if (!anchor) return
-      const portalMenu = document.querySelector('.play-with-queue-dropdown-menu--portal')
-      if (anchor.contains(event.target)) return
-      if (portalMenu && portalMenu.contains(event.target)) return
+      const menu = menuRef.current
+      if (anchor && anchor.contains(event.target)) return
+      if (menu && menu.contains(event.target)) return
       setMenuOpen(false)
     }
+    function handleKeyDown(event) {
+      if (event.key === 'Escape') setMenuOpen(false)
+    }
     document.addEventListener('mousedown', handlePointerDown, true)
+    document.addEventListener('touchstart', handlePointerDown, true)
+    document.addEventListener('keydown', handleKeyDown, true)
     return function() {
       document.removeEventListener('mousedown', handlePointerDown, true)
+      document.removeEventListener('touchstart', handlePointerDown, true)
+      document.removeEventListener('keydown', handleKeyDown, true)
     }
-  }, [useListItemMenu, menuOpen])
+  }, [menuOpen])
 
   function handleContainerClick(event) {
     if (onContainerClick) onContainerClick(event)
@@ -191,20 +197,18 @@ export default function PlayWithQueueDropdown({
     addToQueueLabel: addToQueueLabel,
     playNextLabel: playNextLabel,
     addToTunebookLabel: addToTunebookLabel,
+    onClose: closeMenu,
   }
 
-  const portalMenu = useListItemMenu && menuOpen && portalMenuStyle && typeof document !== 'undefined'
+  const portalMenu = menuOpen && portalMenuStyle && typeof document !== 'undefined'
     ? createPortal(
       <div
-        className="dropdown-menu show play-with-queue-dropdown-menu play-with-queue-dropdown-menu--portal"
+        ref={menuRef}
+        className={'dropdown-menu show play-with-queue-dropdown-menu play-with-queue-dropdown-menu--portal' + (useListItemMenu ? '' : ' play-with-queue-dropdown-menu--toolbar')}
         style={portalMenuStyle}
         role="menu"
       >
-        <QueueMenuItems
-          {...menuItemsProps}
-          asDropdownItems={false}
-          onClose={function() { setMenuOpen(false) }}
-        />
+        <QueueMenuItems {...menuItemsProps} />
       </div>,
       document.body
     )
@@ -213,12 +217,9 @@ export default function PlayWithQueueDropdown({
   return (
     <>
       <div ref={anchorRef} className="play-with-queue-dropdown-anchor">
-        <Dropdown
-          as={ButtonGroup}
+        <ButtonGroup
           className={groupClass}
           onClick={handleContainerClick}
-          show={useListItemMenu ? menuOpen : undefined}
-          onToggle={useListItemMenu ? setMenuOpen : undefined}
         >
           <Button
             variant={playButtonVariant}
@@ -233,24 +234,16 @@ export default function PlayWithQueueDropdown({
             {resolvedPlayIcon}
             {playLabel || null}
           </Button>
-          <Dropdown.Toggle
-            split
+          <Button
             variant={playButtonVariant}
             size={resolvedButtonSize}
-            className={'play-with-queue-dropdown-toggle' + (variant === 'collection-side' ? ' books-page-collection-card-side' : '')}
+            className={'dropdown-toggle dropdown-toggle-split play-with-queue-dropdown-toggle' + (variant === 'collection-side' ? ' books-page-collection-card-side' : '')}
             aria-label="Queue options"
+            aria-expanded={menuOpen}
             disabled={disabled}
+            onClick={handleToggleMenu}
           />
-          {!useListItemMenu ? (
-            <Dropdown.Menu
-              align="end"
-              className="play-with-queue-dropdown-menu"
-              popperConfig={{ strategy: 'fixed' }}
-            >
-              <QueueMenuItems {...menuItemsProps} />
-            </Dropdown.Menu>
-          ) : null}
-        </Dropdown>
+        </ButtonGroup>
       </div>
       {portalMenu}
     </>

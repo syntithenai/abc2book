@@ -5,6 +5,7 @@ import { searchGenreLight } from './genreSearchClient'
 import { isTuneFieldEmptyForKind, applyCandidateToTune } from './fieldLookupApplyUtils'
 import { mergeBibliographicList } from './tuneBibliographicUtils'
 import { isGenericArtist } from './genericArtistUtils'
+import { isAbortError } from './abortUtils'
 
 const DEFAULT_FIELDS = ['composer', 'artists', 'albums', 'genre']
 
@@ -43,7 +44,7 @@ export async function enrichTuneMetadataFromMusicBrainz(tune, options) {
         applied.composer = discovered
       }
     } catch (e) {
-      if (e && e.name === 'AbortError') throw e
+      if (isAbortError(e)) return { applied: applied }
     }
   }
 
@@ -79,7 +80,7 @@ export async function enrichTuneMetadataFromMusicBrainz(tune, options) {
         applied.artists = names
       }
     } catch (e) {
-      if (e && e.name === 'AbortError') throw e
+      if (isAbortError(e)) return { applied: applied }
     }
   }
 
@@ -104,7 +105,7 @@ export async function enrichTuneMetadataFromMusicBrainz(tune, options) {
         applied.albums = albums
       }
     } catch (e) {
-      if (e && e.name === 'AbortError') throw e
+      if (isAbortError(e)) return { applied: applied }
     }
   }
 
@@ -139,7 +140,7 @@ export async function enrichTuneMetadataFromMusicBrainz(tune, options) {
         applied.genre = genre
       }
     } catch (e) {
-      if (e && e.name === 'AbortError') throw e
+      if (isAbortError(e)) return { applied: applied }
     }
   }
 

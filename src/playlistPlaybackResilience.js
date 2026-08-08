@@ -9,6 +9,12 @@ import {
   isNavigatorOffline,
   isTuneOfflinePlayable,
 } from './offlinePlayback'
+import {
+  isLinkMediaCached,
+  isOwnedMediaLink,
+  getRecording,
+  parseRecordingIdFromLinkUri,
+} from './linkRecording'
 import { cancelPlaylistTitleAnnouncement } from './playlistTitleAnnouncement'
 import { isBackgroundCapablePlayback } from './backgroundPlaybackCapability'
 import { prefersNativeMediaPlayback } from './platformUtils'
@@ -43,11 +49,33 @@ export function isQueueItemBackgroundCapable(tune, item, tunebook, options) {
   })
 }
 
+export async function isOwnedMediaLinkLocallyAvailable(tune, linkIndex) {
+  if (!tune || !Array.isArray(tune.links)) return true
+  const idx = parseInt(linkIndex, 10)
+  if (isNaN(idx) || idx < 0 || idx >= tune.links.length) return true
+  const link = tune.links[idx]
+  if (!isOwnedMediaLink(link)) return true
+  if (await isLinkMediaCached(tune, linkIndex)) return true
+  const recordingId = link.recordingId || parseRecordingIdFromLinkUri(link.link)
+  if (recordingId) {
+    const recording = await getRecording(recordingId)
+    if (recording) return true
+  }
+  if (link.googleId) return true
+  return false
+}
+
 export async function isQueueItemFullyPlayable(tune, item, tunebook, options) {
   const opts = options || {}
   if (!isQueueItemPlayable(tune, item, tunebook)) return false
-  if (!isNavigatorOffline()) return true
   const target = resolvePlaybackForItem(tune, item, tunebook)
+  if (!isNavigatorOffline()) {
+    if (target && target.type === 'media') {
+      const linkIndex = target.linkNum != null ? target.linkNum : 0
+      return isOwnedMediaLinkLocallyAvailable(tune, linkIndex)
+    }
+    return true
+  }
   return isTuneOfflinePlayable(
     tune,
     target,

@@ -58,6 +58,7 @@ import { filterTuneVoices } from '../abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
+import { isQueueActive, getCurrentTuneId } from '../nowPlayingQueue'
 import { shouldSyncViewedTuneToMediaController } from '../playbackNavigationUtils'
 import { useCapoViewState } from '../useCapoViewState'
 import { chordTransposeWithCapo } from '../capoViewUtils'
@@ -310,6 +311,18 @@ export default function MusicSingle(props) {
             cancelled = true
         }
     },[params.tuneId, props.tunes, props.mediaController && props.mediaController.playbackSpeed, searchParams])
+
+    useEffect(function() {
+        if (tuneLoadState !== 'missing') return undefined
+        const mc = mediaControllerRef.current
+        const queue = nowPlayingQueueRef.current
+        if (!mc || !isQueueActive(queue) || queue.autoAdvance === false) return undefined
+        const currentId = getCurrentTuneId(queue)
+        if (!currentId || String(currentId) !== String(params.tuneId)) return undefined
+        if (typeof mc.reportPlaybackFailure === 'function') {
+            mc.reportPlaybackFailure()
+        }
+    }, [tuneLoadState, params.tuneId])
     
     //const [abc, setAbc] = useState('')
     //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null

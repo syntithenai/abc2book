@@ -22,6 +22,42 @@ import { playExternalMediaItem } from './standaloneMediaPlayback'
 
 export { isQueuePlaybackEngaged }
 
+/**
+ * When nothing is currently playing, jump to the newly inserted "play next"
+ * item and start the queue. No-op if playback is already engaged.
+ */
+export function startQueueItemIfPlaybackIdle(mediaController, tunebook, queue) {
+  if (!isQueueActive(queue)) return false
+  if (isQueuePlaybackEngaged(mediaController, { queue: queue })) return false
+  if (!tunebook || !tunebook.startNowPlayingQueue) return false
+  if (mediaController && mediaController.preparePlaybackFromUserGesture) {
+    mediaController.preparePlaybackFromUserGesture()
+  }
+  tunebook.startNowPlayingQueue(queue, null, {
+    startPlayback: true,
+    mediaController: mediaController,
+    navigate: false,
+  })
+  return true
+}
+
+export function finalizePlayNextQueue(mediaController, tunebook, priorQueue, nextQueue, setQueue) {
+  if (!setQueue || !nextQueue) return nextQueue
+  const wasEngaged = isQueuePlaybackEngaged(mediaController, { queue: priorQueue })
+  const priorIndex = isQueueActive(priorQueue) ? (priorQueue.currentIndex || 0) : -1
+  let resolved = nextQueue
+  if (!wasEngaged) {
+    resolved = Object.assign({}, nextQueue, {
+      currentIndex: priorIndex >= 0 ? priorIndex + 1 : 0,
+    })
+  }
+  setQueue(resolved)
+  if (!wasEngaged) {
+    startQueueItemIfPlaybackIdle(mediaController, tunebook, resolved)
+  }
+  return resolved
+}
+
 function shouldNavigateWithQueue(queue, options) {
     if (!queue || !queue.followTune) return false
     const opts = options || {}

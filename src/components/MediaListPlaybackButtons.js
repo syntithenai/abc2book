@@ -2,7 +2,6 @@ import { useNavigate, useLocation } from 'react-router-dom'
 import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 import {
   appendMediaCandidateToActiveQueue,
-  insertMediaCandidateNextInActiveQueue,
   isMediaCandidateCurrentQueueItem,
   pauseMediaCandidateQueuePlayback,
   resumeMediaCandidateQueuePlayback,
@@ -10,8 +9,12 @@ import {
 } from '../mediaSearchQueuePlayback'
 import { isStandaloneMediaCandidateEngaged } from '../standaloneMediaPlayback'
 import { useStandaloneMediaPlaybackState } from '../useStandaloneMediaPlaybackState'
-import { startTunePlayback } from '../tunePlaybackActions'
-import { appendTuneToQueue, insertTuneAfterCurrentInQueue } from '../nowPlayingQueue'
+import { startTunePlayback, finalizePlayNextQueue } from '../tunePlaybackActions'
+import {
+  appendTuneToQueue,
+  insertTuneAfterCurrentInQueue,
+  insertMediaCandidateAfterCurrentInQueue,
+} from '../nowPlayingQueue'
 import {
   ensureMediaSearchTune,
   findExistingMediaSearchTune,
@@ -55,10 +58,11 @@ export default function MediaListPlaybackButtons(props) {
     ? findExistingMediaSearchTune(props.tunes, candidate)
     : null
 
-  const isPlaying = materializable && materializedTune && props.nowPlayingTuneId === materializedTune.id
-    && mediaController
-    && (mediaController.isPlaying || mediaController.isLoading)
-    ? true
+  const isPlaying = materializable
+    ? !!(materializedTune
+      && props.nowPlayingTuneId === materializedTune.id
+      && mediaController
+      && (mediaController.isPlaying || mediaController.isLoading))
     : playbackState.isPlaying
 
   const isEngaged = materializable
@@ -106,8 +110,9 @@ export default function MediaListPlaybackButtons(props) {
     if (!props.setNowPlayingQueue || !props.tunebook) return
     try {
       const tune = await ensureMediaSearchTune(candidate, props.tunebook, buildMaterializeOptions(props))
-      const next = insertTuneAfterCurrentInQueue(props.nowPlayingQueue, tune.id)
-      props.setNowPlayingQueue(next)
+      const priorQueue = props.nowPlayingQueue
+      const next = insertTuneAfterCurrentInQueue(priorQueue, tune.id)
+      finalizePlayNextQueue(mediaController, props.tunebook, priorQueue, next, props.setNowPlayingQueue)
     } catch (err) {
       if (props.onError) props.onError(err)
     }
@@ -115,6 +120,12 @@ export default function MediaListPlaybackButtons(props) {
 
   async function handlePlay(event) {
     if (materializable) {
+      if (isPlaying && mediaController && mediaController.pause) {
+        event.preventDefault()
+        event.stopPropagation()
+        mediaController.pause()
+        return
+      }
       await handleMaterializedPlay(event)
       return
     }
@@ -169,11 +180,12 @@ export default function MediaListPlaybackButtons(props) {
     }
     event.preventDefault()
     event.stopPropagation()
-    insertMediaCandidateNextInActiveQueue(
-      props.nowPlayingQueue,
-      candidate,
-      props.setNowPlayingQueue
-    )
+    const priorQueue = props.nowPlayingQueue
+    const next = insertMediaCandidateAfterCurrentInQueue(priorQueue, candidate, {
+      source: 'media-search',
+      autoAdvance: true,
+    })
+    finalizePlayNextQueue(mediaController, props.tunebook, priorQueue, next, props.setNowPlayingQueue)
   }
 
   function handleAddToTunebook(event) {

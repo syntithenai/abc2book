@@ -1,5 +1,5 @@
 import { useNavigate, useLocation } from 'react-router-dom'
-import { startTunePlayback } from '../tunePlaybackActions'
+import { startTunePlayback, finalizePlayNextQueue } from '../tunePlaybackActions'
 import { appendTuneToQueue, insertTuneAfterCurrentInQueue, getCurrentTuneId } from '../nowPlayingQueue'
 import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 
@@ -58,8 +58,9 @@ export default function TuneListPlaybackButtons(props) {
     event.preventDefault()
     event.stopPropagation()
     if (!props.setNowPlayingQueue) return
-    const next = insertTuneAfterCurrentInQueue(props.nowPlayingQueue, tune.id)
-    props.setNowPlayingQueue(next)
+    const priorQueue = props.nowPlayingQueue
+    const next = insertTuneAfterCurrentInQueue(priorQueue, tune.id)
+    finalizePlayNextQueue(mediaController, props.tunebook, priorQueue, next, props.setNowPlayingQueue)
   }
 
   return (

@@ -5,6 +5,8 @@ import {
   isQueuePlaybackEngaged,
   playTuneNow,
   resumePlaylistPlayback,
+  finalizePlayNextQueue,
+  startQueueItemIfPlaybackIdle,
 } from './tunePlaybackActions'
 import { createQueue } from './nowPlayingQueue'
 import { setVoiceViewSettings } from './abcVoiceViewSettings'
@@ -482,6 +484,51 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
     expect(isQueuePlaybackEngaged(makeMockMediaController(null, {
       canResumePlayback: function() { return true },
     }))).toBe(true)
+  })
+
+  test('finalizePlayNextQueue starts playback when queue was idle', function() {
+    const tunebook = makeMockTunebook()
+    tunebook.startNowPlayingQueue = jest.fn()
+    const mediaController = makeMockMediaController(null)
+    const setQueue = jest.fn()
+    const priorQueue = null
+    const nextQueue = createQueue({ tuneIds: ['a'], currentIndex: 0 })
+
+    finalizePlayNextQueue(mediaController, tunebook, priorQueue, nextQueue, setQueue)
+
+    expect(setQueue).toHaveBeenCalledWith(nextQueue)
+    expect(tunebook.startNowPlayingQueue).toHaveBeenCalledWith(
+      nextQueue,
+      null,
+      expect.objectContaining({ startPlayback: true, mediaController: mediaController })
+    )
+  })
+
+  test('finalizePlayNextQueue does not restart playback when already engaged', function() {
+    const tunebook = makeMockTunebook()
+    tunebook.startNowPlayingQueue = jest.fn()
+    const mediaController = makeMockMediaController(null, { isPlaying: true })
+    const setQueue = jest.fn()
+    const priorQueue = createQueue({ tuneIds: ['a'], currentIndex: 0 })
+    const nextQueue = createQueue({ tuneIds: ['a', 'b'], currentIndex: 0 })
+
+    finalizePlayNextQueue(mediaController, tunebook, priorQueue, nextQueue, setQueue)
+
+    expect(setQueue).toHaveBeenCalledWith(nextQueue)
+    expect(tunebook.startNowPlayingQueue).not.toHaveBeenCalled()
+  })
+
+  test('startQueueItemIfPlaybackIdle is a no-op when playback is engaged', function() {
+    const tunebook = makeMockTunebook()
+    tunebook.startNowPlayingQueue = jest.fn()
+    const queue = createQueue({ tuneIds: ['a'] })
+    const ok = startQueueItemIfPlaybackIdle(
+      makeMockMediaController(null, { isPlaying: true }),
+      tunebook,
+      queue
+    )
+    expect(ok).toBe(false)
+    expect(tunebook.startNowPlayingQueue).not.toHaveBeenCalled()
   })
 
   test('playTuneNow prefers media links and starts playback', function() {
