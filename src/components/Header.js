@@ -14,6 +14,7 @@ import { isQueueActive } from '../nowPlayingQueue';
 import {
   getViewedTuneIdFromPath,
   getSkipNavigationTuneId,
+  isQueuePlaybackEngaged,
   isTuneListPath,
   isTuneSingleViewPath,
 } from '../playbackNavigationUtils';
@@ -71,7 +72,14 @@ export default function Header(props) {
     const narrowViewport = useIsNarrowViewport();
     const playbackInMenu = useIsHeaderPlaybackInMenu();
     const onSingleTuneView = isTuneSingleViewPath(location.pathname)
-    const keepPlaybackInHeader = onSingleTuneView || !playbackInMenu
+    const onTuneList = isTuneListPath(location.pathname)
+    const searchListIds = props.tunebook.getSearchListOrderedIds
+        ? props.tunebook.getSearchListOrderedIds()
+        : []
+    const hasSearchList = Array.isArray(searchListIds) && searchListIds.length > 0
+    const queuePlaybackEngaged = isQueueActive(props.nowPlayingQueue)
+        && isQueuePlaybackEngaged(props.mediaController, { queue: props.nowPlayingQueue })
+    const keepPlaybackInHeader = onSingleTuneView || !playbackInMenu || (onTuneList && hasSearchList)
     const { available: resolverAvailable } = useMediaResolverHealth();
     useToolPagePlaybackInterrupt(props.mediaController, location.pathname);
 
@@ -154,14 +162,9 @@ export default function Header(props) {
     const playbackButtonSize = navButtonSize
     const onTunesOrEditor = location.pathname.startsWith('/tunes') || location.pathname.startsWith('/editor/')
     const onPlaybackInterruptTool = isPlaybackInterruptPath(location.pathname)
-    const showHeaderPlayback = onTunesOrEditor && keepPlaybackInHeader
+    const showHeaderPlayback = (onTunesOrEditor && keepPlaybackInHeader) || queuePlaybackEngaged
     const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
     const skipTuneId = getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue)
-    const searchListIds = props.tunebook.getSearchListOrderedIds
-        ? props.tunebook.getSearchListOrderedIds()
-        : []
-    const hasSearchList = Array.isArray(searchListIds) && searchListIds.length > 0
-    const onTuneList = isTuneListPath(location.pathname)
     const hasBrowsableList = hasSearchList || !!(props.currentTuneBook && String(props.currentTuneBook).length > 0)
     // Offer prev/next on a tune page, and on the list after a search so the
     // first result can be opened without clicking a row first.
@@ -176,7 +179,7 @@ export default function Header(props) {
     // Keep skip-only on narrow tunes/editor layouts where playback lives in the menu.
     // Also show play on the tune list when search results exist (plays first result).
     const showFullHeaderPlayback = !onPlaybackInterruptTool && showHeaderPlayback && (
-        !!viewedTuneId || (onTuneList && hasSearchList)
+        !!viewedTuneId || (onTuneList && hasSearchList) || queuePlaybackEngaged
     )
     const headerDropdownBtnStyle = {
         width: compactNav ? '2.55em' : '3em',

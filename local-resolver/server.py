@@ -6013,6 +6013,7 @@ async def get_music_collection_file(
     resource_path: str,
     request: Request,
     authorization: str | None = Header(default=None),
+    playable: bool = Query(default=False),
 ):
     origin = request.headers.get("origin")
     try:
@@ -6022,9 +6023,26 @@ async def get_music_collection_file(
         track_resolver_usage("music-collection")
         abs_path = resolve_music_collection_file(resource_path)
         filename = os.path.basename(abs_path)
+        if playable:
+            from music_collection_transcode import resolve_playable_audio_path
+
+            try:
+                serve_path, mime = await resolve_playable_audio_path(
+                    abs_path,
+                    playable=True,
+                    timeout_seconds=FFMPEG_TIMEOUT_SECONDS,
+                )
+            except RuntimeError as exc:
+                return json_error(502, str(exc) or "Audio transcode failed", origin)
+            if serve_path != abs_path:
+                base, _ext = os.path.splitext(filename)
+                filename = (base or "audio") + ".mp3"
+        else:
+            serve_path = abs_path
+            mime = guess_audio_mime_type(abs_path)
         return FileResponse(
-            abs_path,
-            media_type=guess_audio_mime_type(abs_path),
+            serve_path,
+            media_type=mime,
             filename=filename,
             headers=cors_headers(origin),
         )

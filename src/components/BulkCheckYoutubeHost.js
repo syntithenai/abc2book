@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import YouTube from 'react-youtube'
+import SafeYouTube from './SafeYouTube'
 import {
   getBulkCheckYoutubeProbe,
   reportBulkCheckYoutubeError,
@@ -21,7 +21,7 @@ export default function BulkCheckYoutubeHost() {
 
   return (
     <div style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', overflow: 'hidden' }} aria-hidden="true">
-      <YouTube
+      <SafeYouTube
         key={probe.id + ':' + probe.videoId}
         videoId={probe.videoId}
         opts={{

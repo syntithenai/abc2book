@@ -1,0 +1,57 @@
+.artist-discography-browse-modal__loading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.artist-discography-browse-modal__album {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.5rem 0;
+}
+
+.artist-discography-browse-modal__album-toggle {
+  text-decoration: none;
+}
+
+.artist-discography-browse-modal__album-toggle:hover {
+  text-decoration: underline;
+}
+
+.artist-discography-browse-modal__tracks {
+  padding-left: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+.artist-discography-browse-modal__track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+
+.artist-discography-browse-modal__track.is-seed {
+  background: rgba(56, 132, 255, 0.08);
+  border-radius: 4px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.artist-discography-browse-modal__track-title {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.artist-discography-browse-modal__track-number {
+  display: inline-block;
+  width: 1.75rem;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.media-list-title-link--browseable {
+  cursor: pointer;
+}
+
+.media-list-title-link--browseable:hover .tune-list-title-text {
+  text-decoration: underline;
+}

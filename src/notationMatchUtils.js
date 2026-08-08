@@ -1,5 +1,9 @@
+import { foldEuropeanLetters } from './searchTextUtils'
+
 export function normalizeMatchText(value) {
-  return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '')
+  return foldEuropeanLetters(String(value || ''))
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '')
 }
 
 /**
@@ -122,6 +126,29 @@ export function isVeryCloseNotationTitleMatch(candidate, title) {
   return notationTitleMatchScore(candidate, title) >= 80
 }
 
+export function notationCandidateImportFormat(candidate) {
+  return notationImportFormat(candidate)
+}
+
+export function hasSolidAbcNotationMatch(result, title) {
+  const candidates = notationCandidatesFromResult(result)
+  return candidates.some(function(candidate) {
+    return notationImportFormat(candidate) === 'abc'
+      && String(candidate.abc || '').trim()
+      && isVeryCloseNotationTitleMatch(candidate, title)
+  })
+}
+
+export function pickRankedSolidAbcNotationCandidate(result, title) {
+  const candidates = notationCandidatesFromResult(result)
+  if (!candidates.length) return null
+  const first = candidates[0]
+  if (notationImportFormat(first) !== 'abc') return null
+  if (!String(first.abc || '').trim()) return null
+  if (!isVeryCloseNotationTitleMatch(first, title)) return null
+  return first
+}
+
 export function pickAutoApplyNotationCandidate(result, title, artist, options) {
   const candidates = notationCandidatesFromResult(result)
   for (let i = 0; i < candidates.length; i++) {
@@ -145,11 +172,18 @@ export function shouldAutoApplyNotationCandidate(candidate, title, artist, optio
   const isArchive = importFormat === 'musescore' || importFormat === 'musicxml' || importFormat === 'pdf'
   const preferMuseScoreImport = opts.preferMuseScoreImport === true
   const fallbackPool = opts.fallbackPool === true
+  const closeTitle = isVeryCloseNotationTitleMatch(item, title)
+  const isAbc = importFormat === 'abc' && !isArchive
 
   if (fallbackPool) {
-    if (isMidi) return false
-    if (!isVeryCloseNotationTitleMatch(item, title)) return false
+    if (!closeTitle) return false
     if (artistKey && isTraditionalNotationSource(source) && artistScore < 30) return false
+    return true
+  }
+
+  if (isAbc && closeTitle) {
+    if (artistKey && baseScore > 0 && baseScore < 60) return false
+    if (baseScore === 0) return false
     return true
   }
 
@@ -158,9 +192,8 @@ export function shouldAutoApplyNotationCandidate(candidate, title, artist, optio
   if (artistKey && source === 'thesession.org' && baseScore < 80) return false
   if (artistKey && baseScore > 0 && baseScore < 60) return false
   if (!artistKey && baseScore > 0 && baseScore < 45) return false
-  // Named-artist songs: offer MuseScore import before ABC/MIDI auto-apply.
   if (preferMuseScoreImport || (songType === 'song' && artistKey)) {
-    if (importFormat === 'abc' && !isArchive) return false
+    if (isAbc && !closeTitle) return false
     if (isMidi) return false
   }
   if (baseScore === 0 && item.abc && !source) {

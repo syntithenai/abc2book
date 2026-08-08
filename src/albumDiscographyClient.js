@@ -1,4 +1,3 @@
-import axios from 'axios'
 import {
   albumYearFromDate,
   BIBLIO_CONFIDENCE_HIGH,
@@ -14,18 +13,10 @@ import {
   resolveArtistMbid,
 } from './artistDiscographyClient'
 import { normalizeArtistKey, titleVariants } from './recordingArtistsClient'
+import { musicBrainzGet } from './musicBrainzRequest'
 
-const MUSICBRAINZ_BASE = 'https://musicbrainz.org/ws/2'
-const CLIENT_USER_AGENT = 'ABC2Book/1.0 (https://tunebook.net)'
 const RELEASE_GROUP_SEARCH_LIMIT = 25
 const MAX_CANDIDATES = 12
-
-function mbRequestConfig(signal) {
-  return {
-    headers: { 'User-Agent': CLIENT_USER_AGENT },
-    signal: signal,
-  }
-}
 
 function emitProgress(onProgress, message, progress) {
   if (typeof onProgress === 'function') {
@@ -128,9 +119,9 @@ async function searchReleaseGroups(albumName, artistMbid, signal) {
     let query = 'releasegroup:"' + escapeQueryTerm(searchTitle) + '" AND primarytype:album'
     if (artistMbid) query += ' AND arid:' + artistMbid
     try {
-      const response = await axios.get(MUSICBRAINZ_BASE + '/release-group', {
+      const response = await musicBrainzGet('/release-group', {
         params: { query: query, fmt: 'json', limit: RELEASE_GROUP_SEARCH_LIMIT },
-        ...mbRequestConfig(signal),
+        signal: signal,
       })
       ;((response.data && response.data['release-groups']) || []).forEach(function(releaseGroup) {
         if (!releaseGroup || !releaseGroup.id || seen[releaseGroup.id]) return
@@ -150,9 +141,9 @@ async function enrichReleaseGroupArtistCredit(releaseGroup, signal) {
   if (!releaseGroup || !releaseGroup.id) return releaseGroup
   if (releaseGroupArtistName(releaseGroup)) return releaseGroup
   try {
-    const response = await axios.get(MUSICBRAINZ_BASE + '/release-group/' + releaseGroup.id, {
+    const response = await musicBrainzGet('/release-group/' + releaseGroup.id, {
       params: { fmt: 'json', inc: 'artist-credits' },
-      ...mbRequestConfig(signal),
+      signal: signal,
     })
     return response.data || releaseGroup
   } catch (e) {
@@ -304,22 +295,22 @@ function trackTitlesFromRelease(data) {
 
 async function browseReleasesForGroup(releaseGroupId, signal) {
   if (!releaseGroupId) return []
-  const response = await axios.get(MUSICBRAINZ_BASE + '/release', {
+  const response = await musicBrainzGet('/release', {
     params: {
       'release-group': releaseGroupId,
       fmt: 'json',
       limit: 100,
     },
-    ...mbRequestConfig(signal),
+    signal: signal,
   })
   return (response.data && response.data.releases) || []
 }
 
 async function fetchReleaseTrackTitles(releaseMbid, signal, onProgress) {
   emitProgress(onProgress, 'Loading album tracks…', 70)
-  const response = await axios.get(MUSICBRAINZ_BASE + '/release/' + releaseMbid, {
+  const response = await musicBrainzGet('/release/' + releaseMbid, {
     params: { inc: 'recordings', fmt: 'json' },
-    ...mbRequestConfig(signal),
+    signal: signal,
   })
   return trackTitlesFromRelease(response.data || {})
 }

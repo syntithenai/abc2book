@@ -1,4 +1,6 @@
 import { expandPdfSnapshotSearchRows } from './pdfSnapshotIndex';
+import { dedupeMediaSearchCandidates } from './artistDiscographyCatalog';
+import { findExistingMediaSearchTuneByLink } from './mediaSearchTuneMaterialize';
 
 export function tuneRowsFromTunes(tunes, filterText) {
   const list = Array.isArray(tunes) ? tunes : [];
@@ -19,17 +21,51 @@ export function mediaRowsFromCandidates(candidates) {
   }).filter(Boolean);
 }
 
+export function createMediaSourcesHeaderRow() {
+  return {
+    kind: 'section-header',
+    label: 'Media Sources',
+  };
+}
+
+export function isSearchSectionHeaderRow(row) {
+  return !!(row && row.kind === 'section-header');
+}
+
+function mediaCandidateDuplicatesTuneRows(candidate, tuneRows) {
+  if (!candidate) return false;
+  const rows = Array.isArray(tuneRows) ? tuneRows : [];
+  const tunesMap = {};
+  rows.forEach(function(row) {
+    if (row && row.tune && row.tune.id) {
+      tunesMap[row.tune.id] = row.tune;
+    }
+  });
+  return !!findExistingMediaSearchTuneByLink(tunesMap, candidate);
+}
+
 export function mergeSearchListRows(tuneRows, mediaCandidates, options) {
   const opts = options || {};
   const tunes = Array.isArray(tuneRows) ? tuneRows : [];
   const includeMedia = opts.includeMedia !== false;
-  const media = includeMedia ? mediaRowsFromCandidates(mediaCandidates) : [];
-  return tunes.concat(media);
+  const dedupedMedia = includeMedia
+    ? dedupeMediaSearchCandidates(Array.isArray(mediaCandidates) ? mediaCandidates : [])
+    : [];
+  const media = mediaRowsFromCandidates(
+    dedupedMedia.filter(function(candidate) {
+      return !mediaCandidateDuplicatesTuneRows(candidate, tunes);
+    })
+  );
+  if (!media.length) return tunes;
+  return tunes.concat([createMediaSourcesHeaderRow()], media);
 }
 
 export function getSearchRowKey(row, index) {
   const idx = typeof index === 'number' ? index : 0;
   if (!row) return 'row-' + idx;
+  if (isSearchSectionHeaderRow(row)) {
+    return 'section-header:' + String(row.label || 'media-sources').toLowerCase();
+  }
   if (row.kind === 'media' && row.candidate) {
     const candidate = row.candidate;
     return [

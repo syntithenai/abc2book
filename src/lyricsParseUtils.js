@@ -1,6 +1,7 @@
 import {
   isTabStaffLine,
   isUsenetOrTabMetaLine,
+  isNoLyricsPlaceholderLine,
   isUsableLyricContent,
 } from './lyricsQualityUtils'
 
@@ -15,6 +16,7 @@ export function cleanLyricsLine(line) {
 
 export function isNoiseLine(line) {
   if (!line) return true
+  if (isNoLyricsPlaceholderLine(line)) return true
   if (NOISE_LINE_RE.test(line)) return true
   if (TRANSLATION_LANGUAGE_RE.test(line)) return true
   if (line.length > 180 && line.indexOf(' ') === -1) return true

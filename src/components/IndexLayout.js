@@ -8,12 +8,14 @@ import SelectedItemsModal from './SelectedItemsModal'
 import VirtualizedTuneList, { COMPACT_ROW_HEIGHT } from './VirtualizedTuneList'
 import TuneListRow from './TuneListRow'
 import MediaListRow from './MediaListRow'
+import ArtistDiscographyBrowseModal from './ArtistDiscographyBrowseModal'
 import { searchMainMediaSources } from '../mainMediaSearchClient'
 import {
   isAndroidLocalMediaAvailable,
   requestAndroidAudioPermission,
 } from '../androidLocalMediaSearchClient'
-import { tuneRowsFromTunes, mergeSearchListRows, getSearchRowKey, isMediaSearchRow } from '../searchListRows'
+import { tuneRowsFromTunes, mergeSearchListRows, getSearchRowKey, isMediaSearchRow, isSearchSectionHeaderRow } from '../searchListRows'
+import SearchListSectionHeader from './SearchListSectionHeader'
 import { stageMediaCandidateToTunebook } from '../stageMediaCandidateToTunebook'
 import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
 import { resolveResolverAccessToken } from '../resolverAccessToken'
@@ -27,6 +29,7 @@ import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 import SelectAllToggle from './SelectAllToggle'
 import { toast } from 'react-toastify'
 import { getListHighlightTuneId } from '../playbackNavigationUtils'
+import useMediaResolverHealth from '../useMediaResolverHealth'
 import {
   expandPdfSnapshotSearchRows,
 } from '../pdfSnapshotIndex'
@@ -47,6 +50,7 @@ import { isCatalogStorageEnabled } from '../tuneStorageFlags'
 function IndexLayout(props) {
     const mediaControllerRef = useRef(props.mediaController)
     mediaControllerRef.current = props.mediaController
+    const { available: resolverAvailable } = useMediaResolverHealth()
 
     //var [filtered, setFiltered] = useState('')
     //var [grouped, setGrouped] = useState({})
@@ -79,6 +83,8 @@ function IndexLayout(props) {
     var [deviceAudioNeedsPermission, setDeviceAudioNeedsPermission] = useState(false)
     var [deviceAudioPermissionBusy, setDeviceAudioPermissionBusy] = useState(false)
     var [deviceAudioPermissionRevision, setDeviceAudioPermissionRevision] = useState(0)
+    var [discographySeedCandidate, setDiscographySeedCandidate] = useState(null)
+    var [showDiscographyModal, setShowDiscographyModal] = useState(false)
     var filterRunIdRef = useRef(0)
     var mediaSearchRunIdRef = useRef(0)
     var mediaSearchTimerRef = useRef(null)
@@ -157,6 +163,17 @@ function IndexLayout(props) {
         }
       }
     }, [props.filter, props.token, deviceAudioPermissionRevision])
+
+    function handleBrowseArtistFromMediaRow(candidate) {
+      if (!candidate) return
+      setDiscographySeedCandidate(candidate)
+      setShowDiscographyModal(true)
+    }
+
+    function handleCloseDiscographyModal() {
+      setShowDiscographyModal(false)
+      setDiscographySeedCandidate(null)
+    }
 
     async function handleGrantDeviceAudioAccess() {
       if (!isAndroidLocalMediaAvailable() || deviceAudioPermissionBusy) return
@@ -607,7 +624,11 @@ function IndexLayout(props) {
           nowPlayingTuneId: listHighlightTuneId,
           onAddToTunebook: handleAddMediaToTunebook,
           onMediaError: handleMediaPlaybackError,
+          onBrowseArtist: handleBrowseArtistFromMediaRow,
           accessToken: resolveResolverAccessToken(props.token) || getActiveResolverAccessToken() || '',
+          resolverAvailable: resolverAvailable,
+          searchIndex: props.searchIndex,
+          loadTuneTexts: props.loadTuneTexts,
         }
 
         if (rows.length === 0) {
@@ -618,6 +639,14 @@ function IndexLayout(props) {
           return (
             <ListGroup id="tune-index" style={{clear:'both', width: '100%'}}>
               {rows.map(function(row, tk) {
+                if (isSearchSectionHeaderRow(row)) {
+                  return (
+                    <SearchListSectionHeader
+                      key={getSearchRowKey(row, tk)}
+                      label={row.label}
+                    />
+                  )
+                }
                 if (isMediaSearchRow(row)) {
                   return (
                     <MediaListRow
@@ -666,7 +695,11 @@ function IndexLayout(props) {
             nowPlayingTuneId={listHighlightTuneId}
             onAddToTunebook={handleAddMediaToTunebook}
             onMediaError={handleMediaPlaybackError}
+            onBrowseArtist={handleBrowseArtistFromMediaRow}
             accessToken={resolveResolverAccessToken(props.token) || getActiveResolverAccessToken() || ''}
+            resolverAvailable={resolverAvailable}
+            searchIndex={props.searchIndex}
+            loadTuneTexts={props.loadTuneTexts}
           />
         )
     }
@@ -951,6 +984,22 @@ function IndexLayout(props) {
         })}</div>}
        
         
+    <ArtistDiscographyBrowseModal
+      show={showDiscographyModal}
+      onHide={handleCloseDiscographyModal}
+      seedCandidate={discographySeedCandidate}
+      tunebook={props.tunebook}
+      mediaController={props.mediaController}
+      tunes={props.tunes}
+      setCurrentTune={props.setCurrentTune}
+      nowPlayingQueue={props.nowPlayingQueue}
+      setNowPlayingQueue={props.setNowPlayingQueue}
+      accessToken={resolveResolverAccessToken(props.token) || getActiveResolverAccessToken() || ''}
+      resolverAvailable={resolverAvailable}
+      searchIndex={props.searchIndex}
+      loadTuneTexts={props.loadTuneTexts}
+      forceRefresh={props.forceRefresh}
+    />
     </div>
 }
 

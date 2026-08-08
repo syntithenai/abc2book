@@ -2,10 +2,11 @@ import { readAudioFileMetadata, isVideoImportFile, titleArtistFromFilename } fro
 import { createAttachedAudioLink, createAttachedVideoLink } from './linkRecording'
 import { freshTuneId } from './importReviewCandidateUtils'
 import { primaryArtist } from './tuneBibliographicUtils'
+import { toSearchText } from './searchTextUtils'
 
 export function normalizeMediaIdentityKey(title, artist) {
-  const normalizedTitle = String(title || '').trim().toLowerCase().replace(/\s+/g, ' ')
-  const normalizedArtist = String(artist || '').trim().toLowerCase().replace(/\s+/g, ' ')
+  const normalizedTitle = toSearchText(title).replace(/\s+/g, ' ')
+  const normalizedArtist = toSearchText(artist).replace(/\s+/g, ' ')
   if (!normalizedTitle && !normalizedArtist) return ''
   return normalizedTitle + '\0' + normalizedArtist
 }

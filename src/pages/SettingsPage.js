@@ -7,7 +7,7 @@ import {
   formatBytes,
   getAllMediaCacheStats,
 } from '../mediaCacheStorage'
-import { countMediaCacheLockedTunes, getLockedTuneIdSet } from '../mediaCacheLock'
+import { getLockedTuneIdSet } from '../mediaCacheLock'
 import MediaCacheTunesModal from '../components/MediaCacheTunesModal'
 import BackgroundJobsSettingsSection from '../components/backgroundJobs/BackgroundJobsSettingsSection'
 import {
@@ -37,6 +37,7 @@ import DuplicateManagerSettingsSection from '../components/DuplicateManagerSetti
 import LibraryScaleSettingsSection from '../components/LibraryScaleSettingsSection'
 import { isMusicCollectionSettingsAvailable } from '../musicCollectionAdminClient'
 import { isBillingAdminAvailable } from '../creditAdminClient'
+import { isMusicGenerationAdmin } from '../musicGenerationAdmin'
 import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
 import BillingAdminSettingsSection from '../components/BillingAdminSettingsSection'
 import AndroidLocalMediaSettingsSection from '../components/AndroidLocalMediaSettingsSection'
@@ -146,7 +147,6 @@ export default function SettingsPage(props) {
   const tunesHash = props.tunesHash || {}
   const deletedTunes = props.deletedTunes || {}
   const totalTuneCount = Object.keys(tunes).length
-  const lockedCacheTuneCount = countMediaCacheLockedTunes(tunes)
   const [mediaProxyUrl, setMediaProxyUrl] = useState(getSavedMediaProxyBase())
   const [audioCompressSettings, setAudioCompressSettings] = useState(loadAudioCompressSettings())
   const [audioCompressCapabilities, setAudioCompressCapabilities] = useState(null)
@@ -167,7 +167,10 @@ export default function SettingsPage(props) {
     return TAB_BACKGROUND_JOBS
   })
   const { status: resolverStatus, checked, features, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
-  const showMusicCollectionTab = checked && isMusicCollectionSettingsAvailable(resolverStatus)
+  const showMusicCollectionTab = checked
+    && isMusicCollectionSettingsAvailable(resolverStatus)
+    && isMusicGenerationAdmin(props.user)
+  const showDuplicatesTab = isMusicGenerationAdmin(props.user)
   const showBillingAdminTab = checked && isBillingAdminAvailable(resolverStatus, props.user)
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
 
@@ -242,6 +245,14 @@ export default function SettingsPage(props) {
   }, [searchParams])
 
   useEffect(function() {
+    if (activeTab === TAB_MUSIC_COLLECTION && !showMusicCollectionTab) {
+      setActiveTab(TAB_BACKGROUND_JOBS)
+    } else if (activeTab === TAB_DUPLICATES && !showDuplicatesTab) {
+      setActiveTab(TAB_BACKGROUND_JOBS)
+    }
+  }, [activeTab, showMusicCollectionTab, showDuplicatesTab])
+
+  useEffect(function() {
     function onHelperSettingsChanged() {
       setYoutubeHelperDisabledState(isYoutubeHelperDisabled())
       refreshYoutubeHelperStatus()
@@ -278,7 +289,8 @@ export default function SettingsPage(props) {
 
   const refreshCacheStats = useCallback(function() {
     setCacheStatsLoading(true)
-    return getAllMediaCacheStats().then(function(stats) {
+    const lockedTuneIds = getLockedTuneIdSet(tunes)
+    return getAllMediaCacheStats({ lockedTuneIds: lockedTuneIds }).then(function(stats) {
       setCacheStats(stats)
       setCacheStatsLoading(false)
       return stats
@@ -286,7 +298,7 @@ export default function SettingsPage(props) {
       setCacheStatsLoading(false)
       return null
     })
-  }, [])
+  }, [tunes])
 
   useEffect(function() {
     refreshCacheStats()
@@ -509,9 +521,11 @@ export default function SettingsPage(props) {
         <Nav.Item>
           <Nav.Link eventKey={TAB_SOURCES}>Sources</Nav.Link>
         </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_DUPLICATES}>Duplicates</Nav.Link>
-        </Nav.Item>
+        {showDuplicatesTab ? (
+          <Nav.Item>
+            <Nav.Link eventKey={TAB_DUPLICATES}>Duplicates</Nav.Link>
+          </Nav.Item>
+        ) : null}
         <Nav.Item>
           <Nav.Link eventKey={TAB_LIBRARY}>Library</Nav.Link>
         </Nav.Item>
@@ -761,6 +775,11 @@ export default function SettingsPage(props) {
                             {formatBytes(cache.bytes)}
                             <span className="settings-cache-stats-meta">
                               {' · '}{cache.entries} entr{cache.entries === 1 ? 'y' : 'ies'}
+                              {cache.id === 'audio' && cache.lockedEntries > 0 ? (
+                                <>
+                                  {' · '}{cache.lockedEntries} locked ({formatBytes(cache.lockedBytes)})
+                                </>
+                              ) : null}
                             </span>
                           </span>
                         </li>
@@ -775,9 +794,6 @@ export default function SettingsPage(props) {
                     {(cacheStats.audio && cacheStats.audio.tuneCount) || 0} of {totalTuneCount} tune{totalTuneCount === 1 ? '' : 's'} have downloaded cache
                     {(cacheStats.audio && cacheStats.audio.entries)
                       ? ' (' + cacheStats.audio.entries + ' cached link' + (cacheStats.audio.entries === 1 ? '' : 's') + ')'
-                      : ''}
-                    {lockedCacheTuneCount > 0
-                      ? ' · ' + lockedCacheTuneCount + ' locked'
                       : ''}
                     .
                   </p>
@@ -875,16 +891,18 @@ export default function SettingsPage(props) {
           />
         </Tab.Pane>
 
-        <Tab.Pane eventKey={TAB_DUPLICATES}>
-          {activeTab === TAB_DUPLICATES ? (
-            <DuplicateManagerSettingsSection
-              tunes={tunes}
-              tunesHash={tunesHash}
-              tunebook={tunebook}
-              currentTuneBook={props.currentTuneBook}
-            />
-          ) : null}
-        </Tab.Pane>
+        {showDuplicatesTab ? (
+          <Tab.Pane eventKey={TAB_DUPLICATES}>
+            {activeTab === TAB_DUPLICATES ? (
+              <DuplicateManagerSettingsSection
+                tunes={tunes}
+                tunesHash={tunesHash}
+                tunebook={tunebook}
+                currentTuneBook={props.currentTuneBook}
+              />
+            ) : null}
+          </Tab.Pane>
+        ) : null}
 
         <Tab.Pane eventKey={TAB_LIBRARY}>
           {activeTab === TAB_LIBRARY ? (

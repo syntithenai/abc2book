@@ -4,7 +4,6 @@ import { escapeMusicBrainzQueryTerm } from './bibliographicSearchUtils'
 import { normalizeMatchText } from './notationMatchUtils'
 
 const MUSICBRAINZ_BASE = 'https://musicbrainz.org/ws/2'
-const CLIENT_USER_AGENT = 'ABC2Book/1.0 (https://tunebook.net)'
 
 const GENERIC_ARTIST_KEYS = {
   '': true,
@@ -68,7 +67,6 @@ export async function searchRecordingsScoped(title, artistMbid, options) {
   try {
     const response = await axios.get(MUSICBRAINZ_BASE + '/recording', {
       params: { query: query, fmt: 'json', limit: limit },
-      headers: { 'User-Agent': CLIENT_USER_AGENT },
       signal: opts.signal,
     })
     return (response.data && response.data.recordings) || []
@@ -159,7 +157,6 @@ async function discoverWritersFromWork(workId, signal) {
         fmt: 'json',
         inc: 'artist-rels',
       },
-      headers: { 'User-Agent': CLIENT_USER_AGENT },
       signal: signal,
     })
     const relations = (response.data && response.data.relations) || []
@@ -223,7 +220,6 @@ export async function discoverWorkWritersWithProminence(options) {
           fmt: 'json',
           limit: 15,
         },
-        headers: { 'User-Agent': CLIENT_USER_AGENT },
         signal: opts.signal,
       })
       works = (response.data && response.data.works) || []

@@ -1,6 +1,8 @@
 import {
   isUsableLyricContent,
   looksLikeNonLyricDump,
+  looksLikeNoLyricsPlaceholder,
+  isNoLyricsPlaceholderLine,
   isTabStaffLine,
 } from './lyricsQualityUtils'
 import { parsePlainLyricsText } from './lyricsParseUtils'
@@ -58,6 +60,20 @@ describe('lyricsQualityUtils', function() {
     expect(looksLikeNonLyricDump(MOONLIGHT_TAB_DUMP)).toBe(true)
     expect(isUsableLyricContent(MOONLIGHT_TAB_DUMP).ok).toBe(false)
     expect(parsePlainLyricsText(MOONLIGHT_TAB_DUMP)[2]).toBe('')
+  })
+
+  test('rejects letras.mus.br instrumental placeholder as non-lyrics', function() {
+    const twoLines = 'Música Instrumental\nEsta música não possui letra'
+    expect(isNoLyricsPlaceholderLine('Música Instrumental')).toBe(true)
+    expect(isNoLyricsPlaceholderLine('Esta música não possui letra')).toBe(true)
+    expect(looksLikeNoLyricsPlaceholder(twoLines)).toBe(true)
+    expect(isUsableLyricContent(twoLines).ok).toBe(false)
+    expect(parsePlainLyricsText(twoLines)[2]).toBe('')
+
+    const oneLine = 'Música InstrumentalEsta música não possui letra'
+    expect(isNoLyricsPlaceholderLine(oneLine)).toBe(true)
+    expect(isUsableLyricContent(oneLine).ok).toBe(false)
+    expect(parsePlainLyricsText(oneLine)[2]).toBe('')
   })
 
   test('keeps ordinary song lyrics', function() {

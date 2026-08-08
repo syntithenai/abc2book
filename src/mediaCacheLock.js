@@ -1,3 +1,5 @@
+import { isOwnedMediaLink } from './linkRecording'
+
 export function isMediaCacheLocked(tune) {
   return !!(tune && tune.mediaCacheLocked)
 }
@@ -45,4 +47,12 @@ export function setMediaCacheLockForTunes(tunebook, tunes, locked) {
     updated.push(next)
   })
   return updated
+}
+
+export function shouldLockMediaCacheForLink(link) {
+  if (!link) return false
+  if (isOwnedMediaLink(link)) return true
+  if (link.source === 'music-collection') return true
+  if (String(link.deviceFileUri || '').trim()) return true
+  return false
 }

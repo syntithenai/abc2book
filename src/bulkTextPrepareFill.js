@@ -9,7 +9,8 @@ import { prepareBulkTextQueue } from './bulkTextPrepare';
  * @returns {Promise<{ text: string, filled: number, enriched: number, prepared: Array }>}
  */
 export async function prepareBulkTextIntoTextarea(text, options) {
-  const prepared = await prepareBulkTextQueue(text, options);
+  const opts = options || {};
+  const prepared = await prepareBulkTextQueue(text, opts);
   const list = Array.isArray(prepared) ? prepared : [];
   const lines = String(text || '').split(/\r?\n/);
   const nonEmptyIndexes = [];

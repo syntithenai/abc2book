@@ -4,12 +4,15 @@ import { fetchViaMediaProxy } from '../mediaProxyClient'
 import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
 import { resolveResolverAccessToken } from '../resolverAccessToken'
 import { clearActiveCollectionPlayer, registerActiveCollectionPlayer } from '../musicCollectionStreamPlayerState'
+import { musicCollectionPlaybackProxyPathFromUri } from '../musicCollectionLinkUtils'
 
 function buildProxyPath(path) {
   const rel = String(path || '').trim()
   if (!rel) return ''
-  if (rel.indexOf('/music-collection/') === 0) return rel
-  return '/music-collection/' + rel.split('/').map(encodeURIComponent).join('/')
+  const base = rel.indexOf('/music-collection/') === 0
+    ? rel
+    : '/music-collection/' + rel.split('/').map(encodeURIComponent).join('/')
+  return musicCollectionPlaybackProxyPathFromUri(base)
 }
 
 export default function MusicCollectionStreamPlayer(props) {

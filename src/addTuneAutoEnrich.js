@@ -3,7 +3,7 @@ import { searchLyrics } from './lyricsSearchClient'
 import { searchNotation } from './notationSearchClient'
 import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
 import { pickChordPasteCandidate, pickNotationPasteCandidate } from './chordSearchSites'
-import { pickAutoApplyNotationCandidate } from './notationMatchUtils'
+import { pickAutoApplyNotationCandidate, hasSolidAbcNotationMatch, pickRankedSolidAbcNotationCandidate } from './notationMatchUtils'
 import { inferNotationSongType } from './textSearchIndexUtils'
 import {
   applyCandidateToTune,
@@ -105,6 +105,8 @@ function notify() {
 function updateState(tuneId, patch) {
   const key = String(tuneId || '').trim()
   if (!key) return
+  const controller = activeEnrichAbortByTuneId[key]
+  if (controller && controller.signal.aborted) return
   enrichByTuneId[key] = Object.assign({}, emptyState(), enrichByTuneId[key] || {}, patch)
   notify()
 }
@@ -328,6 +330,7 @@ export async function runAddTuneAutoEnrich(options) {
   let lastMessage = 'Searching for chords and lyrics...'
 
   function emitParallelProgress() {
+    if (isCancelled()) return
     const avg = (chordFrac + lyricFrac) / 2
     updateState(tuneId, {
       pending: true,
@@ -360,6 +363,7 @@ export async function runAddTuneAutoEnrich(options) {
   let chordManualCandidates = []
   let notationManualCandidates = []
   let notationMusescorePaywalled = false
+  let notationSettledResult = null
   let chordSource = chordApplied ? 'already on tune' : ''
   let lyricSource = lyricApplied ? 'already on tune' : ''
   let notationSource = notationApplied ? 'already on tune' : ''
@@ -381,6 +385,7 @@ export async function runAddTuneAutoEnrich(options) {
         ? function(abc) { return opts.abcjsParser.renderChords(abc, true) }
         : undefined,
       onProgress: function(message, progress) {
+        if (isCancelled()) return
         const frac = fractionProgress(progress)
         if (frac != null) chordFrac = frac
         if (message) lastMessage = String(message)
@@ -395,6 +400,7 @@ export async function runAddTuneAutoEnrich(options) {
       signal: signal,
       abcTools: opts.tunebook.abcTools || null,
       onProgress: function(message, progress) {
+        if (isCancelled()) return
         const frac = fractionProgress(progress)
         if (frac != null) lyricFrac = frac
         if (message) lastMessage = String(message)
@@ -416,6 +422,7 @@ export async function runAddTuneAutoEnrich(options) {
       loadTuneTexts: opts.loadTuneTexts || null,
       songType: songType,
       onProgress: function(message, progress) {
+        if (isCancelled()) return
         // Keep early notation progress quiet while chords/lyrics own the bar;
         // surface it once those parallel searches have finished.
         if (chordFrac < 1 || lyricFrac < 1) return
@@ -473,7 +480,11 @@ export async function runAddTuneAutoEnrich(options) {
           }
         }
       }
-    } catch (e) {}
+    } catch (e) {
+      if (isCancelled()) return false
+    }
+
+    if (isCancelled()) return false
 
     try {
       updateState(tuneId, {
@@ -511,8 +522,11 @@ export async function runAddTuneAutoEnrich(options) {
         lyricsSearchFailed = !lyricApplied
       }
     } catch (e) {
+      if (isCancelled()) return false
       lyricsSearchFailed = !lyricApplied
     }
+
+    if (isCancelled()) return false
 
     // Always try notation when the staff is empty/replaceable — art songs often
     // have lyrics and MuseScore notation; lyrics must not suppress notation.
@@ -526,6 +540,7 @@ export async function runAddTuneAutoEnrich(options) {
         failure: '',
       })
       const settled = await notationSettled
+      notationSettledResult = settled
       if (isCancelled()) return false
       if (!settled.ok) {
         notationSearchFailed = true
@@ -537,11 +552,14 @@ export async function runAddTuneAutoEnrich(options) {
           && settled.value.musescorePaywalled
         )
         const notationCandidate = settled.ok
-          ? pickAutoApplyNotationCandidate(
-            settled.value,
-            title,
-            artist,
-            notationPickOptions()
+          ? (
+            pickAutoApplyNotationCandidate(
+              settled.value,
+              title,
+              artist,
+              notationPickOptions()
+            )
+            || pickRankedSolidAbcNotationCandidate(settled.value, title)
           )
           : null
         if (notationCandidate) {
@@ -575,24 +593,28 @@ export async function runAddTuneAutoEnrich(options) {
     }
     }
 
-    try {
-      const metaResult = await enrichTuneMetadataFromMusicBrainz(tune, {
-        title: title,
-        artist: artist,
-        accessToken: opts.accessToken || '',
-        resolverAvailable: opts.resolverAvailable,
-        signal: signal,
-      })
-      if (isCancelled()) return false
-      const applied = metaResult && metaResult.applied ? metaResult.applied : {}
-      if (applied.composer) metadataComposer = 'MusicBrainz'
-      if (applied.artists && applied.artists.length) metadataArtists = 'MusicBrainz'
-      if (applied.albums && applied.albums.length) metadataAlbums = 'MusicBrainz'
-      if (applied.genre) metadataGenre = applied.genre
-      if (Object.keys(applied).length && typeof opts.forceRefresh === 'function') {
-        opts.forceRefresh()
+    if (!isCancelled()) {
+      try {
+        const metaResult = await enrichTuneMetadataFromMusicBrainz(tune, {
+          title: title,
+          artist: artist,
+          accessToken: opts.accessToken || '',
+          resolverAvailable: opts.resolverAvailable,
+          signal: signal,
+        })
+        if (isCancelled()) return false
+        const applied = metaResult && metaResult.applied ? metaResult.applied : {}
+        if (applied.composer) metadataComposer = 'MusicBrainz'
+        if (applied.artists && applied.artists.length) metadataArtists = 'MusicBrainz'
+        if (applied.albums && applied.albums.length) metadataAlbums = 'MusicBrainz'
+        if (applied.genre) metadataGenre = applied.genre
+        if (Object.keys(applied).length && typeof opts.forceRefresh === 'function') {
+          opts.forceRefresh()
+        }
+      } catch (e) {
+        if (isCancelled()) return false
       }
-    } catch (e) {}
+    }
 
     return true
   } finally {
@@ -604,6 +626,11 @@ export async function runAddTuneAutoEnrich(options) {
       && !notationApplied
       && notationLooksReplaceable(tune)
     const notationPasteCandidate = stillNeedsNotation
+      && !(
+        notationSettledResult
+        && notationSettledResult.ok
+        && hasSolidAbcNotationMatch(notationSettledResult.value, title)
+      )
       ? pickNotationPasteCandidate(notationManualCandidates, title, artist, {
         musescorePaywalled: notationMusescorePaywalled,
       })

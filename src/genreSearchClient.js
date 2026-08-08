@@ -22,7 +22,6 @@ import { isGenericArtist, searchRecordingsScoped } from './recordingArtistsClien
 
 const GENRE_ACCEPT_HEADER = 'application/x-ndjson, application/json'
 const MUSICBRAINZ_BASE = 'https://musicbrainz.org/ws/2'
-const CLIENT_USER_AGENT = 'ABC2Book/1.0 (https://tunebook.net)'
 
 function normalizeSingleGenreResult(body) {
   const genre = typeof body.genre === 'string' ? body.genre.trim() : ''
@@ -321,7 +320,6 @@ async function fetchMusicBrainzArtistGenres(artist, signal) {
 
     const detailRes = await axios.get(MUSICBRAINZ_BASE + '/artist/' + resolved.id, {
       params: { fmt: 'json', inc: 'tags+genres' },
-      headers: { 'User-Agent': CLIENT_USER_AGENT },
       signal: signal,
     })
     return collectScoredGenreLabels(detailRes.data || {})
@@ -369,7 +367,6 @@ async function fetchMusicBrainzRecordingGenres(title, artist, signal) {
   try {
     const detailRes = await axios.get(MUSICBRAINZ_BASE + '/recording/' + best.id, {
       params: { fmt: 'json', inc: 'genres+tags+work-rels' },
-      headers: { 'User-Agent': CLIENT_USER_AGENT },
       signal: signal,
     })
     const data = detailRes.data || {}
@@ -380,7 +377,6 @@ async function fetchMusicBrainzRecordingGenres(title, artist, signal) {
     if (workRelation && workRelation.work && workRelation.work.id) {
       const workRes = await axios.get(MUSICBRAINZ_BASE + '/work/' + workRelation.work.id, {
         params: { fmt: 'json', inc: 'genres+tags' },
-        headers: { 'User-Agent': CLIENT_USER_AGENT },
         signal: signal,
       })
       collectScoredGenreLabels(workRes.data || {}).forEach(function(name) {

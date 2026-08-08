@@ -12,6 +12,12 @@ describe('importTitleMatch', function() {
     expect(normalizeImportTitle("Maggie's Favourite!")).toBe("maggie's favourite")
   })
 
+  test('normalizeImportTitle folds diacritics and case', function() {
+    expect(normalizeImportTitle('Après un rêve')).toBe('apres un reve')
+    expect(normalizeImportTitle('APRES UN REVE')).toBe('apres un reve')
+    expect(importTitlesMatchForDeduping('Après un rêve', 'Apres un reve')).toBe(true)
+  })
+
   test('exact titles match', function() {
     expect(importTitlesMatchForDeduping('A Flag Of Our Own', 'A Flag Of Our Own')).toBe(true)
   })

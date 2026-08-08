@@ -1,4 +1,4 @@
-import YouTube from 'react-youtube';
+import SafeYouTube from './SafeYouTube';
 import AbcPlayer from './AbcPlayer'
 import PlaybackPromptModal from './PlaybackPromptModal'
 import {useParams, Link, useLocation, useNavigate} from 'react-router-dom'
@@ -407,7 +407,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
             onPause={handleNativePause}  
         />
     } else if (showYoutubeEmbed) {
-        content =  <YouTube  
+        content =  <SafeYouTube  
             key={src}
             videoId={tunebook.utils.YouTubeGetID(src)} 
             id={youtubeElementId}

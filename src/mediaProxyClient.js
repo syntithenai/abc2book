@@ -12,7 +12,7 @@ import { pickAuthResolverBase, resolveStickyAuthBase } from './authResolverClien
 import { tryRefreshAccessToken } from './googleLoginRefreshRegistry';
 import { getActiveProviderHeaders, loadProviderSettings } from './providerSettings';
 import { getYoutubeEgressHeaders } from './youtubeUnlock';
-import { isMusicCollectionLinkUri, musicCollectionProxyPathFromUri } from './musicCollectionLinkUtils';
+import { isMusicCollectionLinkUri, musicCollectionPlaybackProxyPathFromUri } from './musicCollectionLinkUtils';
 import { isBandcampLinkUri } from './bandcampLinkUtils';
 import { isArchiveOrgLinkUri, isArchiveOrgDirectDownloadUri } from './archiveOrgLinkUtils';
 import { isLocGovLinkUri } from './locGovLinkUtils';
@@ -1259,7 +1259,7 @@ export async function fetchDirectOrProxy(options) {
     if (!isMediaProxyConfigured()) {
       throw new Error('Music collection playback requires a configured media resolver');
     }
-    const proxyPath = musicCollectionProxyPathFromUri(src);
+    const proxyPath = musicCollectionPlaybackProxyPathFromUri(src);
     if (!proxyPath) {
       throw new Error('Invalid music collection link');
     }
@@ -1315,7 +1315,7 @@ export async function fetchDirectOrProxy(options) {
     if (!isMediaProxyConfigured()) {
       throw new Error('Music collection playback requires a configured media resolver');
     }
-    const proxyPath = musicCollectionProxyPathFromUri(src);
+    const proxyPath = musicCollectionPlaybackProxyPathFromUri(src);
     if (!proxyPath) {
       throw new Error('Invalid music collection link');
     }

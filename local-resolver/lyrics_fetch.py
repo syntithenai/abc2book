@@ -1,5 +1,6 @@
 import html
 import re
+import unicodedata
 from urllib.parse import quote, urlparse
 
 import httpx
@@ -57,6 +58,58 @@ GUITAR_TECH_RE = re.compile(
 FINGER_ONLY_RE = re.compile(r"^(?:[1-4]\s*){2,}$")
 ROMAN_BARRE_RE = re.compile(r"^(?:I{1,3}|IV|VI{0,3}|IX|X{0,3})\.{2,}")
 MOSTLY_SYMBOL_RE = re.compile(r"^[\d\s|./\\~\-=*hpbrxX()]+$")
+
+
+def _strip_accents(text):
+    normalized = unicodedata.normalize("NFD", str(text or ""))
+    return "".join(ch for ch in normalized if unicodedata.category(ch) != "Mn")
+
+
+def is_no_lyrics_placeholder_line(line):
+    """Site placeholders like letras.mus.br instrumental notices — not lyrics."""
+    collapsed = re.sub(r"\s+", " ", _strip_accents(str(line or "").strip())).lower()
+    if not collapsed:
+        return False
+    if re.match(r"^musica instrumental$", collapsed):
+        return True
+    if re.match(r"^esta (musica|cancion) (nao possui|no tiene) letra$", collapsed):
+        return True
+    if re.match(
+        r"^musica instrumental esta (musica|cancion) (nao possui|no tiene) letra$",
+        collapsed,
+    ):
+        return True
+    if re.match(r"^this (song|track) (has no|does not have) lyrics?$", collapsed):
+        return True
+    if re.match(r"^(no lyrics?( available| found| yet)?|lyrics? not available)$", collapsed):
+        return True
+    if re.match(r"^there are no lyrics", collapsed):
+        return True
+    if collapsed == "instrumental":
+        return True
+    flat = re.sub(r"\s+", "", collapsed)
+    if re.search(r"musicainstrumental(estamusica|estacancion)", flat):
+        return True
+    if "musicainstrumental" in flat and re.search(r"naopossuiletra|notieneletra|semletra", flat):
+        return True
+    return False
+
+
+def looks_like_no_lyrics_placeholder(lines_or_text):
+    if isinstance(lines_or_text, str):
+        lines = [ln.strip() for ln in lines_or_text.replace("\r", "").split("\n") if ln.strip()]
+    else:
+        lines = [str(ln or "").strip() for ln in (lines_or_text or []) if str(ln or "").strip()]
+    if not lines:
+        return True
+    if all(is_no_lyrics_placeholder_line(line) for line in lines):
+        return True
+    if len(lines) <= 2:
+        content = [line for line in lines if not is_no_lyrics_placeholder_line(line)]
+        if not content:
+            return True
+    return False
+
 
 AZLYRICS_BODY_RE = re.compile(
     r"<!-- Usage of azlyrics\.com content.*?-->\s*(.*?)</div>",
@@ -168,6 +221,8 @@ def clean_lyrics_line(line):
 def is_noise_line(line):
     if not line:
         return True
+    if is_no_lyrics_placeholder_line(line):
+        return True
     if NOISE_LINE_RE.match(line):
         return True
     if TRANSLATION_LANGUAGE_RE.match(line):
@@ -260,6 +315,8 @@ def is_usable_lyric_content(lines_or_text):
     while kept and kept[-1] == "":
         kept.pop()
     if not any(str(line or "").strip() for line in kept):
+        return False, []
+    if looks_like_no_lyrics_placeholder(kept) or looks_like_no_lyrics_placeholder(raw):
         return False, []
     if looks_like_non_lyric_dump(kept) or looks_like_non_lyric_dump(raw):
         return False, []

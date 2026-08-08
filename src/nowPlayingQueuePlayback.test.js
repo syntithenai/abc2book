@@ -10,6 +10,8 @@ import {
   resolveHostPlayingTuneId,
   playQueueItem,
   handleQueueAdvanceOnEnded,
+  resolveQueueTune,
+  resolveQueueTunesMap,
 } from './nowPlayingQueuePlayback'
 
 describe('nowPlayingQueuePlayback', function() {
@@ -56,6 +58,20 @@ describe('nowPlayingQueuePlayback', function() {
     expect(resolveHostPlayingTuneId({
       queue: queue,
       mediaController: { isPlaying: true },
+      viewedTuneId: 'other',
+      pathname: '/tunes/other',
+    })).toBe('playing')
+  })
+
+  test('resolveHostPlayingTuneId keeps queue tune when controller matches queue during stall', function() {
+    expect(resolveHostPlayingTuneId({
+      queue: queue,
+      mediaController: {
+        tune: { id: 'playing' },
+        isPlaying: false,
+        isLoading: false,
+        hasActivePlaybackIntent: function() { return false },
+      },
       viewedTuneId: 'other',
       pathname: '/tunes/other',
     })).toBe('playing')
@@ -280,6 +296,25 @@ describe('nowPlayingQueuePlayback', function() {
     })).toBe('abc')
   })
 
+  test('resolveHostPlayingTuneId follows queue item on playMedia URL during playlist', function() {
+    const queue = createQueue({ tuneIds: ['first', 'second'], currentIndex: 1 })
+    expect(resolveHostPlayingTuneId({
+      queue: queue,
+      mediaController: { isLoading: true, hasActivePlaybackIntent: function() { return true } },
+      viewedTuneId: 'first',
+      pathname: '/tunes/first/playMedia/0',
+    })).toBe('second')
+  })
+
+  test('resolveHostPlayingTuneId still uses playMedia URL when no queue is active', function() {
+    expect(resolveHostPlayingTuneId({
+      queue: null,
+      mediaController: { isPlaying: true },
+      viewedTuneId: 'abc',
+      pathname: '/tunes/abc/playMedia/0',
+    })).toBe('abc')
+  })
+
   test('shouldMusicSingleOwnMidiEngine only for preview-once', function() {
     expect(shouldMusicSingleOwnMidiEngine('abc', null)).toBe(false)
     expect(shouldMusicSingleOwnMidiEngine('abc', null, { hostOwnsPlayback: false })).toBe(false)
@@ -384,6 +419,20 @@ describe('nowPlayingQueuePlayback', function() {
     expect(shouldMusicSingleOwnMidiEngine('playing', queue)).toBe(false)
   })
 
+  test('resolveQueueTunesMap prefers explicit tunes over tunebook entries', function() {
+    const merged = resolveQueueTunesMap(
+      { a: { id: 'a', name: 'Explicit' } },
+      { tunes: { a: { id: 'a', name: 'Book' }, b: { id: 'b' } } }
+    )
+    expect(merged.a.name).toBe('Explicit')
+    expect(merged.b.id).toBe('b')
+  })
+
+  test('resolveQueueTune finds freshly materialized mymedia tunes', function() {
+    const tune = resolveQueueTune({}, { tunes: { c: { id: 'c', links: [{ link: '/music-collection/c.mp3' }] } } }, 'c')
+    expect(tune && tune.id).toBe('c')
+  })
+
   test('playQueueItem can defer engine start for queue advance', function() {
     const mediaController = {
       setTune: jest.fn(),
@@ -402,6 +451,25 @@ describe('nowPlayingQueuePlayback', function() {
     expect(ok).toBe(true)
     expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
     expect(mediaController.play).not.toHaveBeenCalled()
+  })
+
+  test('playQueueItem arms playback intent before committing the next tune', function() {
+    const callOrder = []
+    const mediaController = {
+      setTune: jest.fn(function() { callOrder.push('setTune') }),
+      setMediaLinkNumber: jest.fn(function() { callOrder.push('setMediaLinkNumber') }),
+      applyPlaybackRoute: jest.fn(function() { callOrder.push('applyPlaybackRoute') }),
+      armPlaybackIntent: jest.fn(function() { callOrder.push('armPlaybackIntent') }),
+      play: jest.fn(),
+    }
+    const tune = { id: 'b', links: [{ link: '/music-collection/b.mp3' }] }
+    const tunebook = {
+      hasNotesOrChords: function() { return false },
+      hasLinks: function() { return true },
+    }
+    playQueueItem(mediaController, tunebook, tune, { tuneId: 'b', prefer: 'auto' }, { deferPlaybackEngine: true })
+    expect(callOrder[0]).toBe('armPlaybackIntent')
+    expect(callOrder.indexOf('setTune')).toBeGreaterThan(0)
   })
 
   test('handleQueueAdvanceOnEnded skips unplayable tunes and stops when none remain', async function() {

@@ -14,6 +14,11 @@ describe('mediaLinkSrcType', function() {
     expect(resolveUriPlaybackSrcType('https://example.com/tune.mp3', isYoutubeLink)).toBe('audio')
   })
 
+  test('resolveUriPlaybackSrcType treats music-collection paths as audio', function() {
+    expect(resolveUriPlaybackSrcType('/music-collection/Altan/track.mp3', isYoutubeLink)).toBe('audio')
+    expect(resolveUriPlaybackSrcType('http://localhost:8787/music-collection/Altan/track.mp3', isYoutubeLink)).toBe('audio')
+  })
+
   test('resolveLinkPlaybackSrcType prefers owned MIDI mediaKind', function() {
     expect(resolveLinkPlaybackSrcType({
       link: 'abcbook-recording:abc123',

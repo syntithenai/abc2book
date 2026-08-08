@@ -188,6 +188,55 @@ export function deleteSavedPlaylist(id) {
   notifyPlaylistsChanged()
 }
 
+/** Remove tune references from every saved playlist; delete playlists that become empty. */
+export function removeTunesFromAllSavedPlaylists(tuneIds) {
+  const ids = Array.isArray(tuneIds) ? tuneIds.filter(Boolean) : []
+  if (!ids.length) return
+  const removeSet = new Set(ids.map(function(id) { return String(id) }))
+  const map = readMap()
+  const toDelete = []
+  let changed = false
+
+  Object.keys(map).forEach(function(playlistId) {
+    const record = map[playlistId]
+    if (!record || !Array.isArray(record.items)) return
+    const nextItems = record.items.filter(function(item) {
+      return !(item && item.tuneId != null && removeSet.has(String(item.tuneId)))
+    })
+    if (nextItems.length === record.items.length) return
+    changed = true
+    if (!nextItems.length) {
+      toDelete.push({ id: playlistId, name: record.name })
+      return
+    }
+    map[playlistId] = Object.assign({}, record, {
+      items: nextItems,
+      updatedAt: Date.now(),
+    })
+  })
+
+  if (!changed) return
+
+  toDelete.forEach(function(entry) {
+    delete map[entry.id]
+  })
+  writeMap(map)
+
+  if (toDelete.length) {
+    const deleted = readDeletedPlaylists()
+    toDelete.forEach(function(entry) {
+      deleted[entry.id] = createPlaylistTombstone(
+        entry.id,
+        entry.name,
+        Date.now()
+      )
+    })
+    writeDeletedPlaylists(deleted)
+  }
+
+  notifyPlaylistsChanged()
+}
+
 /**
  * Build an active now-playing queue from a saved playlist.
  * Drops items whose tunes are missing from the tunebook.

@@ -4,7 +4,8 @@ import { FixedSizeList } from 'react-window'
 import AutoSizer from 'react-virtualized-auto-sizer'
 import TuneListRow from './TuneListRow'
 import MediaListRow from './MediaListRow'
-import { getSearchRowKey, isMediaSearchRow } from '../searchListRows'
+import SearchListSectionHeader from './SearchListSectionHeader'
+import { getSearchRowKey, isMediaSearchRow, isSearchSectionHeaderRow } from '../searchListRows'
 
 export const COMPACT_ROW_HEIGHT = 48
 export const DETAILED_ROW_HEIGHT = 96
@@ -16,6 +17,13 @@ const TuneListScrollOuter = forwardRef(function TuneListScrollOuter({ style, ...
 function VirtualizedRow({ index, style, data }) {
   const row = data.rows[index]
   const rowKey = getSearchRowKey(row, index)
+  if (isSearchSectionHeaderRow(row)) {
+    return (
+      <div style={style} className="virtualized-tune-list-row">
+        <SearchListSectionHeader label={row.label} />
+      </div>
+    )
+  }
   if (isMediaSearchRow(row)) {
     return (
       <div style={style} className="virtualized-tune-list-row">
@@ -26,12 +34,21 @@ function VirtualizedRow({ index, style, data }) {
           isCompact={data.isCompact}
           showRowExtras={data.showRowExtras}
           tunebook={data.tunebook}
+          mediaControllerRef={data.mediaControllerRef}
           mediaController={data.mediaControllerRef && data.mediaControllerRef.current}
+          tunes={data.tunes}
+          setCurrentTune={data.setCurrentTune}
+          nowPlayingTuneId={data.nowPlayingTuneId}
           nowPlayingQueue={data.nowPlayingQueue}
           setNowPlayingQueue={data.setNowPlayingQueue}
           onAddToTunebook={data.onAddToTunebook}
           onMediaError={data.onMediaError}
+          onBrowseArtist={data.onBrowseArtist}
           accessToken={data.accessToken}
+          resolverAvailable={data.resolverAvailable}
+          searchIndex={data.searchIndex}
+          loadTuneTexts={data.loadTuneTexts}
+          forceRefresh={data.forceRefresh}
         />
       </div>
     )
@@ -109,7 +126,11 @@ function VirtualizedTuneList(props) {
       nowPlayingTuneId: props.nowPlayingTuneId,
       onAddToTunebook: props.onAddToTunebook,
       onMediaError: props.onMediaError,
+      onBrowseArtist: props.onBrowseArtist,
       accessToken: props.accessToken,
+      resolverAvailable: props.resolverAvailable,
+      searchIndex: props.searchIndex,
+      loadTuneTexts: props.loadTuneTexts,
     }
   }, [
     rows,
@@ -136,7 +157,11 @@ function VirtualizedTuneList(props) {
     props.nowPlayingTuneId,
     props.onAddToTunebook,
     props.onMediaError,
+    props.onBrowseArtist,
     props.accessToken,
+    props.resolverAvailable,
+    props.searchIndex,
+    props.loadTuneTexts,
   ])
 
   const rowRenderer = useCallback(function(rendererProps) {

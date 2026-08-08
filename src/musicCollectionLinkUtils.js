@@ -46,6 +46,24 @@ export function getCollectionLinkSyncStatus(link) {
   return 'local';
 }
 
+const BROWSER_TRANSCODE_EXTENSIONS = ['.wma'];
+
+export function musicCollectionNeedsBrowserTranscode(uri) {
+  const src = String(uri || '').trim();
+  if (!src) return false;
+  let pathname = src;
+  try {
+    pathname = new URL(src).pathname;
+  } catch (e) {
+    const idx = src.indexOf(MUSIC_COLLECTION_PATH);
+    if (idx >= 0) pathname = src.slice(idx).split('?')[0];
+  }
+  const lower = pathname.toLowerCase();
+  return BROWSER_TRANSCODE_EXTENSIONS.some(function(ext) {
+    return lower.endsWith(ext);
+  });
+}
+
 export function musicCollectionProxyPathFromUri(uri) {
   const src = String(uri || '').trim();
   if (!isMusicCollectionLinkUri(src)) return '';
@@ -57,6 +75,18 @@ export function musicCollectionProxyPathFromUri(uri) {
     if (idx < 0) return '';
     return src.slice(idx);
   }
+}
+
+/** Resolver path for in-browser playback (adds ?playable=1 when ffmpeg transcode is needed). */
+export function musicCollectionPlaybackProxyPathFromUri(uri) {
+  const proxyPath = musicCollectionProxyPathFromUri(uri);
+  if (!proxyPath) return '';
+  if (!musicCollectionNeedsBrowserTranscode(uri)) return proxyPath;
+  const queryStart = proxyPath.indexOf('?');
+  const pathname = queryStart >= 0 ? proxyPath.slice(0, queryStart) : proxyPath;
+  const params = new URLSearchParams(queryStart >= 0 ? proxyPath.slice(queryStart + 1) : '');
+  params.set('playable', '1');
+  return pathname + '?' + params.toString();
 }
 
 const MUSIC_COLLECTION_ART_PATH = '/music-collection-art/';

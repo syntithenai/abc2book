@@ -57,6 +57,26 @@ class MusicCollectionHelperTests(unittest.TestCase):
         self.assertIn("/music-collection/Altan/sally.mp3", candidate["link"])
         self.assertIn("/music-collection-art/0", candidate["image"])
 
+    def test_build_candidate_includes_tag_metadata(self):
+        candidate = build_music_collection_candidate({
+            "id": "1",
+            "title": "Track",
+            "artist": "Band",
+            "path": "Band/track.mp3",
+            "genre": "Folk",
+            "year": "1998",
+            "composer": "Writer",
+            "duration": 200,
+            "tracknumber": "3",
+            "albumartist": "Various",
+        }, request_base_url="https://resolver.example")
+        self.assertEqual(candidate["genre"], "Folk")
+        self.assertEqual(candidate["year"], "1998")
+        self.assertEqual(candidate["composer"], "Writer")
+        self.assertEqual(candidate["duration"], 200)
+        self.assertEqual(candidate["tracknumber"], "3")
+        self.assertEqual(candidate["albumartist"], "Various")
+
     def test_build_candidate_includes_art_url_without_has_art_flag(self):
         candidate = build_music_collection_candidate({
             "id": "12",

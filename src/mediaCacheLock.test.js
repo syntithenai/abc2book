@@ -3,6 +3,7 @@ import {
   getLockedTuneIdSet,
   isMediaCacheLocked,
   setMediaCacheLockForTunes,
+  shouldLockMediaCacheForLink,
 } from './mediaCacheLock'
 
 describe('mediaCacheLock', function() {
@@ -21,5 +22,12 @@ describe('mediaCacheLock', function() {
     }
     expect(getLockedTuneIdSet(tunes)).toEqual({ t1: true, t3: true })
     expect(countMediaCacheLockedTunes(tunes)).toBe(2)
+  })
+
+  test('shouldLockMediaCacheForLink detects owned, collection, and device links', function() {
+    expect(shouldLockMediaCacheForLink({ link: 'abcbook-recording:1' })).toBe(true)
+    expect(shouldLockMediaCacheForLink({ link: 'http://x', source: 'music-collection' })).toBe(true)
+    expect(shouldLockMediaCacheForLink({ link: 'http://x', deviceFileUri: 'content://1' })).toBe(true)
+    expect(shouldLockMediaCacheForLink({ link: 'https://youtube.com/watch?v=abc' })).toBe(false)
   })
 })

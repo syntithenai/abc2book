@@ -2,13 +2,14 @@ import {useState} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import ShareTunebookModal from './ShareTunebookModal'
-import {useNavigate} from 'react-router-dom'
 
 function TuneBookOptionsModal(props) {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const navigate = useNavigate()
+  const bookName = props.tunebookOption || props.currentTuneBook || ''
+
+  if (!bookName) return null
 
   return (
     <>
@@ -16,39 +17,24 @@ function TuneBookOptionsModal(props) {
 
       <Modal style={{width:'100%', marginTop:'5em'}} show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{props.currentTuneBook ? 'Book Tools - '+props.currentTuneBook : 'Tools for All Tunes'}</Modal.Title>
+          <Modal.Title>{'Book Tools - ' + bookName}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Button variant="success"  style={{color:'black'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
+          <Button variant="success"  style={{color:'black'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc(bookName);  handleClose()}}  >
             {props.tunebook.icons.save}  Download
           </Button>
-          <Button style={{marginLeft:'0.1em'}} onClick={function() {props.tunebook.fillMediaPlaylist(props.tunebookOption); navigate("/tunes")}} variant={"danger"} size="small" >{props.tunebook.icons.play} Play Media</Button>
-          
-          <Button style={{marginLeft:'0.1em'}}  onClick={function() {props.tunebook.fillAbcPlaylist(props.tunebookOption,'',navigate); navigate("/tunes")}} variant={"success"} size="small" >{props.tunebook.icons.play} Play Midi</Button>
-         
-          
-          {props.currentTuneBook && <hr style={{width:'100%', clear:'both'}} />}
-           {props.currentTuneBook && <span style={{marginLeft:'0.3em',float:'right', paddingBottom:'1em'}} ><ShareTunebookModal tunebook={props.tunebook} token={props.token} login={props.login} googleDocumentId={props.googleDocumentId} shareKind="book" tiny={false} currentTuneBook={props.currentTuneBook} tunes={props.tunes} saveTune={props.tunebook.saveTune} /></span>}
+          <span style={{marginLeft:'0.3em',float:'right', paddingBottom:'1em'}} ><ShareTunebookModal tunebook={props.tunebook} token={props.token} login={props.login} googleDocumentId={props.googleDocumentId} shareKind="book" tiny={false} currentTuneBook={bookName} tunes={props.tunes} saveTune={props.tunebook.saveTune} /></span>
            
          <hr style={{width:'100%', clear:'both'}} />
-          <Button style={{float:'left', marginBottom:'1em', color:'black'}} variant="primary" onClick={function(e) { props.tunebook.copyTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
+          <Button style={{float:'left', marginBottom:'1em', color:'black'}} variant="primary" onClick={function(e) { props.tunebook.copyTuneBookAbc(bookName);  handleClose()}}  >
            {props.tunebook.icons.filecopyline} Copy ABC
           </Button>
-          {props.currentTuneBook ? <Link to={"/cheatsheet/"+props.currentTuneBook} ><Button  style={{color:'black'}} variant="primary" >
+          <Link to={"/cheatsheet/"+encodeURIComponent(bookName)} ><Button  style={{color:'black'}} variant="primary" >
             {props.tunebook.icons.music}  Cheat Sheet
-          </Button></Link> : null}
-          {props.currentTuneBook ? <Link to={"/print/"+props.currentTuneBook} ><Button   style={{color:'black'}}  variant="primary" >
+          </Button></Link>
+          <Link to={"/print/"+encodeURIComponent(bookName)} ><Button   style={{color:'black'}}  variant="primary" >
             {props.tunebook.icons.printer} Print
-          </Button></Link> : null}
-          <hr style={{width:'100%', clear:'both'}} />
-        
-          {props.currentTuneBook ? <Button style={{float:'left', color:'black'}} variant="danger" onClick={function(e) { if (window.confirm('Do you really want to delete the tune book '+props.currentTuneBook+'?')) {props.tunebook.deleteTuneBook(props.currentTuneBook)}; props.setCurrentTuneBook(''); handleClose()}}>
-            
-            {props.tunebook.icons.deletebin} Delete book
-          </Button> : null}
-          {!props.currentTuneBook && <Button style={{float:'left', color:'black'}} variant="danger" onClick={function(e) { if (window.confirm('Do you really want to delete all your stored tunes?')) {props.tunebook.deleteAll()}; props.setCurrentTuneBook(''); handleClose()}}>
-            {props.tunebook.icons.deletebin}  Delete All
-          </Button>}
+          </Button></Link>
         </Modal.Body>
       </Modal>
     </>

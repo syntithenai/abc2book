@@ -13,7 +13,9 @@ from lyrics_fetch import (
     extract_songlyrics,
     finalize_lyrics_lines,
     genius_song_candidates,
+    is_no_lyrics_placeholder_line,
     is_usable_lyric_content,
+    looks_like_no_lyrics_placeholder,
     looks_like_non_lyric_dump,
     parse_plain_lyrics_text,
     score_title_artist_match,
@@ -187,6 +189,25 @@ class LyricsFetchTests(unittest.TestCase):
         self.assertEqual(stanzas, [["Line one", "Line two"], ["Chorus line"]])
         self.assertEqual(lines, ["Line one", "Line two", "", "Chorus line"])
         self.assertEqual(text, "Line one\nLine two\n\nChorus line")
+
+    def test_rejects_letras_instrumental_placeholder(self):
+        two_lines = "Música Instrumental\nEsta música não possui letra"
+        self.assertTrue(is_no_lyrics_placeholder_line("Música Instrumental"))
+        self.assertTrue(is_no_lyrics_placeholder_line("Esta música não possui letra"))
+        self.assertTrue(looks_like_no_lyrics_placeholder(two_lines))
+        ok, kept = is_usable_lyric_content(two_lines)
+        self.assertFalse(ok)
+        self.assertEqual(kept, [])
+        _, lines, text = parse_plain_lyrics_text(two_lines)
+        self.assertEqual(lines, [])
+        self.assertEqual(text, "")
+
+        one_line = "Música InstrumentalEsta música não possui letra"
+        self.assertTrue(is_no_lyrics_placeholder_line(one_line))
+        ok, kept = is_usable_lyric_content(one_line)
+        self.assertFalse(ok)
+        _, lines, text = parse_plain_lyrics_text(one_line)
+        self.assertEqual(text, "")
 
     def test_finalize_lyrics_lines_filters_noise(self):
         _, lines, text = finalize_lyrics_lines(

@@ -232,12 +232,32 @@ services:
       start_period: 120s
     restart: unless-stopped
 
+  # Kokoro runs as appuser (uid 1000). Named volumes are root-owned on first
+  # create, which breaks uv cache init and leaves tts-gpu in a restart loop.
+  tts-gpu-init:
+    image: alpine:3.21
+    container_name: abc2book-tts-gpu-init
+    profiles: ["tts-gpu"]
+    volumes:
+      - tts_kokoro_config:/config
+      - tts_kokoro_cache:/cache
+    entrypoint:
+      [
+        "/bin/sh",
+        "-c",
+        "chown -R ${TTS_KOKORO_UID:-1000}:${TTS_KOKORO_GID:-1000} /config /cache",
+      ]
+    restart: "no"
+
   tts-gpu:
     # Kokoro primary backend (OpenAI-compatible :8880). Default ROCm image; on Strix Halo
     # (gfx1151) tts-up.sh auto-selects the CPU image — ROCm 6.4 segfaults on gfx1151.
     image: ${TTS_KOKORO_IMAGE:-ghcr.io/remsky/kokoro-fastapi-rocm:latest}
     container_name: abc2book-tts-gpu
     profiles: ["tts-gpu"]
+    depends_on:
+      tts-gpu-init:
+        condition: service_completed_successfully
     security_opt:
       - seccomp:unconfined
     ulimits:

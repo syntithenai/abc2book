@@ -62,13 +62,18 @@ async function searchChordsAndLyricsForTune(tune, tunebook, token, signal, fixOp
     }
   } catch (chordError) {
     if (chordError && chordError.name === 'AbortError') throw chordError
-    const lyricResult = unwrapSearchResult(await searchLyrics(searchOpts))
-    return {
-      chordText: '',
-      lyricLines: Array.isArray(lyricResult.lines)
-        ? lyricResult.lines
-        : String(lyricResult.text || '').replace(/\r\n/g, '\n').split('\n'),
-      artist: lyricResult.artist || artist,
+    try {
+      const lyricResult = unwrapSearchResult(await searchLyrics(searchOpts))
+      return {
+        chordText: '',
+        lyricLines: Array.isArray(lyricResult.lines)
+          ? lyricResult.lines
+          : String(lyricResult.text || '').replace(/\r\n/g, '\n').split('\n'),
+        artist: lyricResult.artist || artist,
+      }
+    } catch (lyricError) {
+      if (lyricError && lyricError.name === 'AbortError') throw lyricError
+      return { chordText: '', lyricLines: [], artist: artist }
     }
   }
 }

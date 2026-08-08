@@ -17,6 +17,7 @@ function getTuneImportHash(tunebook) {
 export default function SyncSourcesHost(props) {
   const token = props.token;
   const tunes = props.tunes;
+  const tunesHydrated = props.tunesHydrated;
   const deletedTunes = props.deletedTunes;
   const tunebook = props.tunebook;
   const driveApi = props.driveApi;
@@ -92,7 +93,7 @@ export default function SyncSourcesHost(props) {
   }, [pendingBatch, processQueue, tunebook]);
 
   const handlePoll = useCallback(async function() {
-    if (!token || !tunes || !tunebook) return;
+    if (!token || !tunes || !tunebook || !tunesHydrated) return;
     if (!backfilledRef.current) {
       backfillSourcesFromTunes(tunes);
       backfilledRef.current = true;
@@ -108,16 +109,16 @@ export default function SyncSourcesHost(props) {
       queueRef.current = queueRef.current.concat(batches);
       processQueue();
     }
-  }, [token, tunes, deletedTunes, tunebook, driveApi, processQueue, props.onSourceUrlAbcFetched]);
+  }, [token, tunes, tunesHydrated, deletedTunes, tunebook, driveApi, processQueue, props.onSourceUrlAbcFetched]);
 
   const handlePollRef = useRef(handlePoll);
   handlePollRef.current = handlePoll;
 
   const hasTunes = !!tunes;
   useEffect(function() {
-    if (!token || !hasTunes) return undefined;
+    if (!token || !hasTunes || !tunesHydrated) return undefined;
     return startSourceUrlPolling({ onPoll: function() { return handlePollRef.current(); } });
-  }, [token, hasTunes]);
+  }, [token, hasTunes, tunesHydrated]);
 
   useEffect(function() {
     registerMergeCheckHandler('sourceUrl', function() { return handlePollRef.current(); });

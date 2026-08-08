@@ -2,6 +2,7 @@ import { searchMusicCollection, isMusicCollectionAvailable } from './musicCollec
 import { searchAndroidLocalAudio, isAndroidLocalMediaAvailable } from './androidLocalMediaSearchClient';
 import { scoreTitleArtistMatch } from './notationMatchUtils';
 import { inferTitleArtistFromQuery } from './mediaSearchQueryUtils';
+import { dedupeMediaSearchCandidates } from './artistDiscographyCatalog';
 
 export const MAX_MAIN_MEDIA_SEARCH_RESULTS = 20;
 
@@ -45,22 +46,8 @@ function sourceRank(source) {
 export function mergeMainMediaCandidates(groups, totalCap) {
   const collection = sortByMatchScore(groups.collection || []);
   const device = sortByMatchScore(groups.device || []);
-  const merged = collection.concat(device);
-  const seen = {};
-  const out = [];
-  merged.forEach(function(candidate) {
-    if (!candidate) return;
-    const key = [
-      String(candidate.source || ''),
-      String(candidate.title || ''),
-      String(candidate.artist || ''),
-      String(candidate.link || candidate.uri || candidate.path || ''),
-    ].join('::');
-    if (seen[key]) return;
-    seen[key] = true;
-    out.push(candidate);
-  });
-  out.sort(function(a, b) {
+  const merged = dedupeMediaSearchCandidates(collection.concat(device));
+  merged.sort(function(a, b) {
     const rankA = sourceRank(a && a.source);
     const rankB = sourceRank(b && b.source);
     if (rankA !== rankB) return rankA - rankB;
@@ -69,7 +56,7 @@ export function mergeMainMediaCandidates(groups, totalCap) {
     if (scoreB !== scoreA) return scoreB - scoreA;
     return String(a && a.title || '').localeCompare(String(b && b.title || ''));
   });
-  return out.slice(0, totalCap);
+  return merged.slice(0, totalCap);
 }
 
 async function runSourceSearch(searchFn, searchOpts) {

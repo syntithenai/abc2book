@@ -15,6 +15,8 @@ import TuneSingleViewDialog from './TuneSingleViewDialog';
 import SelectAllToggle from './SelectAllToggle';
 import CheckToggleButton from './CheckToggleButton';
 
+const EMPTY_TUNE_IDS = [];
+
 function buildTuneMapFromGroup(group, liveTunes) {
   const map = {};
   if (group && Array.isArray(group.tunes)) {
@@ -149,11 +151,14 @@ export default function DuplicateMergeModal(props) {
   const group = props.group;
   const tunes = props.tunes || {};
   const groupId = group && group.id ? group.id : '';
-  const tuneIds = group && Array.isArray(group.tuneIds) ? group.tuneIds : [];
+  const tuneIds = useMemo(function() {
+    if (!group || !Array.isArray(group.tuneIds)) return EMPTY_TUNE_IDS;
+    return group.tuneIds;
+  }, [group, groupId]);
 
   const tuneMap = useMemo(function() {
     return buildTuneMapFromGroup(group, tunes);
-  }, [group, groupId]);
+  }, [group, groupId, tunes]);
 
   const [survivorId, setSurvivorId] = useState(null);
   const [activeDuplicateId, setActiveDuplicateId] = useState(null);
@@ -163,17 +168,21 @@ export default function DuplicateMergeModal(props) {
 
   useEffect(function() {
     if (!show || !group) {
-      setSurvivorId(null);
-      setActiveDuplicateId(null);
-      setSelectionsByTuneId({});
-      setInitializing(false);
-      setPreviewTuneId(null);
+      setSurvivorId(function(prev) { return prev === null ? prev : null; });
+      setActiveDuplicateId(function(prev) { return prev === null ? prev : null; });
+      setSelectionsByTuneId(function(prev) {
+        return Object.keys(prev).length === 0 ? prev : {};
+      });
+      setInitializing(function(prev) { return prev ? false : prev; });
+      setPreviewTuneId(function(prev) { return prev === null ? prev : null; });
       return;
     }
 
     let cancelled = false;
-    setInitializing(true);
-    setSelectionsByTuneId({});
+    setInitializing(function(prev) { return prev ? prev : true; });
+    setSelectionsByTuneId(function(prev) {
+      return Object.keys(prev).length === 0 ? prev : {};
+    });
 
     const timer = setTimeout(function() {
       if (cancelled) return;

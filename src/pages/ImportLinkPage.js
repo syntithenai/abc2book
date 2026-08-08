@@ -28,6 +28,7 @@ function looksLikeAbc(text) {
 
 export default function ImportLinkPage({
   tunebook,
+  tunesHydrated,
   autoplay,
   setCurrentTuneBook,
   setTagFilter,
@@ -60,6 +61,9 @@ export default function ImportLinkPage({
   useEffect(function() {
     if (!params.link) {
       navigate('/tunes')
+      return
+    }
+    if (!tunesHydrated) {
       return
     }
     const sourceUrl = resolveImportSourceUrl(params.link)
@@ -145,8 +149,8 @@ export default function ImportLinkPage({
         setError('Error loading import source')
       }
     })
-  // eslint-disable-next-line react-hooks/exhaustive-deps -- one-time import when link route mounts
-  }, [])
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- import once after tunes hydrate
+  }, [tunesHydrated])
 
   // Review UI is owned by ImportWarningDialog; avoid a stray page heading under it.
   // importAbc also sets app-scoped importResults before local finished flips.

@@ -27,7 +27,6 @@ export {
 } from './bibliographicSearchUtils'
 
 const MUSICBRAINZ_BASE = 'https://musicbrainz.org/ws/2'
-const CLIENT_USER_AGENT = 'ABC2Book/1.0 (https://tunebook.net)'
 const RECORDING_SEARCH_LIMIT = 15
 const MAX_WORKS = 5
 const MAX_PERFORMERS = 6
@@ -36,7 +35,6 @@ const MAX_RELEASES_PER_RECORDING = 50
 
 function mbRequestConfig(signal) {
   return {
-    headers: { 'User-Agent': CLIENT_USER_AGENT },
     signal: signal,
   }
 }

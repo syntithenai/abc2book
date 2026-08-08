@@ -5,10 +5,10 @@ import {
   isMediaResolverInfrastructureError,
 } from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
-import { handleLyricsSearchStreamEvent, normalizeLyricsSearch } from './lyricsSearchNormalize'
+import { handleLyricsSearchStreamEvent, isLyricsSearchSoftMissMessage, normalizeLyricsSearch } from './lyricsSearchNormalize'
 import { searchLyricsLight } from './lyricsSearchLight'
 
-export { normalizeLyricsSearch, handleLyricsSearchStreamEvent } from './lyricsSearchNormalize'
+export { normalizeLyricsSearch, handleLyricsSearchStreamEvent, isLyricsSearchSoftMissMessage } from './lyricsSearchNormalize'
 
 const LYRICS_ACCEPT_HEADER = 'application/x-ndjson, application/json'
 
@@ -120,20 +120,38 @@ function shouldUseResolver(options) {
   return true
 }
 
+function shouldFallbackFromResolverResult(result) {
+  if (!result || typeof result !== 'object') return true
+  if (!result.empty) return false
+  return !(Array.isArray(result.manualCandidates) && result.manualCandidates.length > 0)
+}
+
+function shouldFallbackFromResolverError(err) {
+  return isMediaResolverInfrastructureError(err)
+    || isLyricsSearchSoftMissMessage(err && err.message)
+}
+
 export async function searchLyrics(options) {
   const opts = options || {}
 
   if (opts.url) {
-    return searchLyricsViaResolver(opts)
+    try {
+      const result = await searchLyricsViaResolver(opts)
+      if (!shouldFallbackFromResolverResult(result)) return result
+    } catch (err) {
+      if (!shouldFallbackFromResolverError(err)) throw err
+    }
+    return searchLyricsLight(opts)
   }
 
   const useResolver = shouldUseResolver(opts)
 
   if (useResolver) {
     try {
-      return await searchLyricsViaResolver(opts)
+      const result = await searchLyricsViaResolver(opts)
+      if (!shouldFallbackFromResolverResult(result)) return result
     } catch (err) {
-      if (!isMediaResolverInfrastructureError(err)) throw err
+      if (!shouldFallbackFromResolverError(err)) throw err
     }
   }
 

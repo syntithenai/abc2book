@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Button, Form, InputGroup, Modal } from 'react-bootstrap'
-import YouTube from 'react-youtube'
+import SafeYouTube from './SafeYouTube'
 import LinkPlaybackRegionScanControls from './LinkPlaybackRegionScanControls'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { LINKS_FIELD_HELP } from '../formFieldHelpText'
@@ -565,7 +565,7 @@ export default function LinkPlayRangeModal({
           {loading && <div className="link-play-range-preview__placeholder">Loading preview…</div>}
           {!loading && isYoutube && youtubeVideoId && (
             <div className="link-play-range-preview__youtube">
-              <YouTube
+              <SafeYouTube
                 key={youtubeVideoId + ':' + linkIndex}
                 videoId={youtubeVideoId}
                 opts={{

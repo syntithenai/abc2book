@@ -4,6 +4,7 @@ import {
   savePlaylistFromQueue,
   appendTunesToPlaylist,
   deleteSavedPlaylist,
+  removeTunesFromAllSavedPlaylists,
   queueFromSavedPlaylist,
 } from './savedPlaylistsStore'
 import { createQueue, createLessonQueueFromItems } from './nowPlayingQueue'
@@ -92,6 +93,24 @@ describe('savedPlaylistsStore', function() {
     const queue = createQueue({ tuneIds: ['a'], name: 'Gone' })
     const saved = savePlaylistFromQueue(queue)
     deleteSavedPlaylist(saved.id)
+    expect(listSavedPlaylists()).toHaveLength(0)
+    expect(getSavedPlaylist(saved.id)).toBeNull()
+  })
+
+  test('removeTunesFromAllSavedPlaylists drops deleted tune references', function() {
+    const queue = createQueue({ tuneIds: ['a', 'b', 'c'], name: 'Mixed' })
+    const saved = savePlaylistFromQueue(queue)
+    removeTunesFromAllSavedPlaylists(['b'])
+    expect(getSavedPlaylist(saved.id).items).toEqual([
+      { tuneId: 'a' },
+      { tuneId: 'c' },
+    ])
+  })
+
+  test('removeTunesFromAllSavedPlaylists deletes empty playlists', function() {
+    const queue = createQueue({ tuneIds: ['only'], name: 'Solo' })
+    const saved = savePlaylistFromQueue(queue)
+    removeTunesFromAllSavedPlaylists(['only'])
     expect(listSavedPlaylists()).toHaveLength(0)
     expect(getSavedPlaylist(saved.id)).toBeNull()
   })

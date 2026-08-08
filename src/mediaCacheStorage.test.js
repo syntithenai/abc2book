@@ -26,6 +26,7 @@ import {
   selectHalfOldestCacheKeys,
   filterCacheKeysForTuneIds,
   MEDIA_CACHE_WARN_THRESHOLD_KEY,
+  getAllMediaCacheStats,
 } from './mediaCacheStorage'
 import { filterUnlockedTuneIds } from './mediaCacheLock'
 
@@ -152,5 +153,12 @@ describe('mediaCacheStorage', function() {
     const result = maybeWarnMediaCacheStorage({ totalBytes: 50 * 1024 * 1024 })
     expect(result.warned).toBe(false)
     expect(localStorage.getItem(MEDIA_CACHE_WARN_THRESHOLD_KEY)).toBeNull()
+  })
+
+  test('getAllMediaCacheStats reports locked file cache subset fields', async function() {
+    const stats = await getAllMediaCacheStats({ lockedTuneIds: { t1: true } })
+    expect(stats.audio.lockedEntries).toBe(0)
+    expect(stats.audio.lockedBytes).toBe(0)
+    expect(stats.audio.entries).toBeGreaterThanOrEqual(0)
   })
 })

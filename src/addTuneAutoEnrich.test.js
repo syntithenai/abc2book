@@ -586,6 +586,53 @@ describe('addTuneAutoEnrich', function() {
     )
   })
 
+  test('applies solid ABC notation instead of MuseScore paste for named-artist songs', async function() {
+    const tune = { id: 't-galtee', name: 'Galtee Hunt', composer: 'Clannad' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+
+    searchChords.mockResolvedValue({ empty: true })
+    searchLyrics.mockResolvedValue({ empty: true })
+    searchNotation.mockResolvedValue({
+      multiple: true,
+      candidates: [
+        {
+          source: 'thesession.org',
+          title: 'Galtee Hunt',
+          abc: 'X:1\nK:G\n|:G2|',
+        },
+        {
+          source: 'musescore.com',
+          title: 'Galtee Hunt',
+          musicXml: '<score-partwise/>',
+        },
+      ],
+    })
+    isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
+      return kind === 'lyrics' || kind === 'chords' || kind === 'notation'
+    })
+    applyCandidateToTune.mockReturnValue(true)
+
+    await runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    expect(applyCandidateToTune).toHaveBeenCalledWith(
+      tune,
+      'notation',
+      expect.objectContaining({ source: 'thesession.org' }),
+      tunebook.abcTools
+    )
+    const state = getAddTuneAutoEnrichState('t-galtee')
+    expect(state.needsNotationPaste).toBe(false)
+  })
+
   test('shows enrichment source summary after successful lookup', async function() {
     const tune = { id: 't10', name: 'Song', composer: 'Writer' }
     const tunebook = {
@@ -693,5 +740,46 @@ describe('addTuneAutoEnrich', function() {
     await promise
     expect(getAddTuneAutoEnrichState('t-cancel').pending).toBe(false)
     expect(getAddTuneAutoEnrichState('t-cancel').message).toBe('')
+    expect(getAddTuneAutoEnrichState('t-cancel').needsNotationPaste).toBe(false)
+  })
+
+  test('cancelAddTuneAutoEnrich does not start notation after lyrics phase', async function() {
+    const tune = { id: 't-cancel-lyrics', name: 'Song', composer: 'Writer' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+    let resolveLyrics
+    const lyricsPromise = new Promise(function(resolve) {
+      resolveLyrics = resolve
+    })
+
+    searchChords.mockResolvedValue({ empty: true })
+    searchLyrics.mockReturnValue(lyricsPromise)
+    searchNotation.mockResolvedValue({ empty: true, found: false, manualCandidates: [] })
+    isTuneFieldEmptyForKind.mockReturnValue(true)
+
+    const promise = runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: { renderChords: jest.fn() },
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    await Promise.resolve()
+    await Promise.resolve()
+    expect(isAddTuneAutoEnrichPending('t-cancel-lyrics')).toBe(true)
+
+    cancelAddTuneAutoEnrich('t-cancel-lyrics')
+    expect(isAddTuneAutoEnrichPending('t-cancel-lyrics')).toBe(false)
+
+    resolveLyrics({ empty: true })
+    await promise
+
+    expect(getAddTuneAutoEnrichState('t-cancel-lyrics').pending).toBe(false)
+    expect(getAddTuneAutoEnrichState('t-cancel-lyrics').message).not.toContain('notation')
+    expect(searchNotation).toHaveBeenCalledTimes(1)
   })
 })

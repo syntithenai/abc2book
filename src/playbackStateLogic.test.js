@@ -16,6 +16,7 @@ import {
   youtubeAutoplayAppearsBlocked,
   shouldShowTapToPlayFromYoutubePoll,
   shouldSuppressTapToPlayDuringQueueAdvance,
+  shouldAllowPlaybackEndDespiteGuards,
   shouldDismissTapToPlayModalWithoutStop,
   canResumePlayback,
   applyPause,
@@ -217,6 +218,19 @@ describe('autoplay and tap-to-play', function() {
     expect(shouldShowTapToPlayFromYoutubePoll(playing, 1, 1, YT_STATE.BUFFERING, true)).toBe(false)
     // Not the last attempt: keep waiting, don't prompt yet.
     expect(shouldShowTapToPlayFromYoutubePoll(playing, 1, 1, YT_STATE.UNSTARTED, false)).toBe(false)
+  })
+
+  test('shouldAllowPlaybackEndDespiteGuards when engine finished', function() {
+    expect(shouldAllowPlaybackEndDespiteGuards({})).toBe(false)
+    expect(shouldAllowPlaybackEndDespiteGuards({ nativeMediaEnded: true })).toBe(true)
+    expect(shouldAllowPlaybackEndDespiteGuards({
+      pastRegionEnd: true,
+      noActiveOutput: true,
+    })).toBe(true)
+    expect(shouldAllowPlaybackEndDespiteGuards({
+      pastRegionEnd: true,
+      noActiveOutput: false,
+    })).toBe(false)
   })
 
   test('tap to play suppressed while queue advance transition is in flight', function() {

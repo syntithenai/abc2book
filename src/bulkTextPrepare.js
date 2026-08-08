@@ -149,6 +149,28 @@ async function enrichTuneFromYouTubeLink(tune, link, fetchMeta) {
   }
 }
 
+function emitPrepareProgress(options, payload) {
+  if (typeof options.onProgress === 'function') {
+    options.onProgress(payload);
+  }
+}
+
+function buildPrepareProgressMessage(index, total, title, step) {
+  const prefix = 'Preparing ' + index + ' of ' + total + ': ' + title;
+  if (!step) return prefix + '…';
+  return prefix + ' — ' + step + '…';
+}
+
+function reportPrepareProgress(options, index, total, title, step) {
+  emitPrepareProgress(options, {
+    index: index,
+    total: total,
+    title: title,
+    step: step || '',
+    message: buildPrepareProgressMessage(index, total, title, step),
+  });
+}
+
 /**
  * Build prepared candidates from bulk text. Optionally search collection then YouTube for lines without a URL.
  */
@@ -160,6 +182,7 @@ export async function prepareBulkTextQueue(text, options) {
   const base = bulkLinesToCandidates(lines, opts.tunebook, opts.book);
   const searchMedia = opts.searchYouTube !== false;
   const prepared = [];
+  const total = base.length;
 
   for (let i = 0; i < base.length; i += 1) {
     const candidate = Object.assign({}, base[i], {
@@ -169,10 +192,14 @@ export async function prepareBulkTextQueue(text, options) {
     });
     let tune = candidate.tune || {};
     const hasLink = !!firstTuneLink(tune);
+    const lineTitle = String(tune.name || '').trim() || 'Untitled';
+
+    reportPrepareProgress(opts, i + 1, total, lineTitle, '');
 
     if (!hasLink && searchMedia && tune.name) {
       let autoselected = false;
       try {
+        reportPrepareProgress(opts, i + 1, total, lineTitle, 'searching collection');
         const collectionResult = await searchMusicCollection({
           query: [tune.name, tune.composer].filter(Boolean).join(' '),
           title: tune.name,
@@ -202,6 +229,7 @@ export async function prepareBulkTextQueue(text, options) {
 
       if (!autoselected) {
         try {
+          reportPrepareProgress(opts, i + 1, total, lineTitle, 'searching YouTube');
           const query = [tune.name, tune.composer].filter(Boolean).join(' ');
           const result = await searchYouTubeVideos({
             query: query,
@@ -233,6 +261,7 @@ export async function prepareBulkTextQueue(text, options) {
       }
     } else if (hasLink) {
       candidate.youtubeConfidence = 'given';
+      reportPrepareProgress(opts, i + 1, total, lineTitle, 'enriching from link');
       const enriched = await enrichTuneFromYouTubeLink(
         tune,
         firstTuneLink(tune),

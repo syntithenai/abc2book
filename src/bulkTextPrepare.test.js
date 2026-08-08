@@ -71,6 +71,21 @@ describe('bulkTextPrepare', function() {
     expect(prepared[0].tune.name).toBe('Song One');
   });
 
+  test('prepareBulkTextQueue reports progress while processing lines', async function() {
+    const progress = [];
+    await prepareBulkTextQueue('Song One by Artist\nSong Two', {
+      searchYouTube: false,
+      onProgress: function(info) { progress.push(info); },
+    });
+    expect(progress.length).toBeGreaterThan(0);
+    expect(progress[0].index).toBe(1);
+    expect(progress[0].total).toBe(2);
+    expect(progress[0].message).toMatch(/Preparing 1 of 2/);
+    expect(progress.some(function(info) {
+      return info.index === 2 && info.total === 2;
+    })).toBe(true);
+  });
+
   test('prepareBulkTextQueue enriches missing artist from linked YouTube', async function() {
     const fetchMeta = jest.fn(function() {
       return Promise.resolve({

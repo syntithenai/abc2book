@@ -3,6 +3,8 @@ import {
   isShareableCollectionLink,
   getCollectionLinkSyncStatus,
   musicCollectionProxyPathFromUri,
+  musicCollectionPlaybackProxyPathFromUri,
+  musicCollectionNeedsBrowserTranscode,
   musicCollectionArtProxyPathFromUrl,
 } from './musicCollectionLinkUtils';
 
@@ -35,6 +37,24 @@ describe('musicCollectionLinkUtils', function() {
   test('extracts proxy path from absolute url', function() {
     expect(musicCollectionProxyPathFromUri('https://example.com/music-collection/Altan/a.mp3'))
       .toBe('/music-collection/Altan/a.mp3');
+  });
+
+  test('detects browser-incompatible collection formats', function() {
+    expect(musicCollectionNeedsBrowserTranscode(
+      'http://localhost:8787/music-collection/Altan/track.wma'
+    )).toBe(true);
+    expect(musicCollectionNeedsBrowserTranscode(
+      'http://localhost:8787/music-collection/Altan/track.mp3'
+    )).toBe(false);
+  });
+
+  test('adds playable query for wma playback paths', function() {
+    expect(musicCollectionPlaybackProxyPathFromUri(
+      'http://localhost:8787/music-collection/Altan/track.wma'
+    )).toBe('/music-collection/Altan/track.wma?playable=1');
+    expect(musicCollectionPlaybackProxyPathFromUri(
+      'http://localhost:8787/music-collection/Altan/track.mp3'
+    )).toBe('/music-collection/Altan/track.mp3');
   });
 
   test('extracts art proxy path from absolute url', function() {

@@ -9,6 +9,7 @@ import { isMediaProxyConfigured } from './mediaProxyClient';
 import { getActiveResolverAccessToken, getMediaResolverHealthState, probeMediaResolverHealth } from './mediaResolverHealthStore';
 import { resolveResolverAccessToken } from './resolverAccessToken';
 import { inferTitleArtistFromQuery } from './mediaSearchQueryUtils';
+import { dedupeMediaSearchCandidates } from './artistDiscographyCatalog';
 
 export const MAX_MEDIA_SEARCH_RESULTS = 50;
 
@@ -21,30 +22,8 @@ const SOURCE_FETCH_LIMITS = {
   youtube: 25,
 };
 
-function normalizeTitleArtistKey(title, artist) {
-  return [String(title || ''), String(artist || '')]
-    .join(' ')
-    .toLowerCase()
-    .replace(/[^\w\s]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
 function dedupeCandidates(candidates) {
-  const seen = {};
-  const out = [];
-  candidates.forEach(function(candidate) {
-    if (!candidate) return;
-    const key = [
-      String(candidate.source || ''),
-      normalizeTitleArtistKey(candidate.title, candidate.artist || ''),
-      String(candidate.link || ''),
-    ].join('::');
-    if (seen[key]) return;
-    seen[key] = true;
-    out.push(candidate);
-  });
-  return out;
+  return dedupeMediaSearchCandidates(candidates);
 }
 
 function sortByMatchScore(candidates) {

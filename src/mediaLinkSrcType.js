@@ -1,5 +1,6 @@
 import { isOwnedMediaLinkUri } from './linkRecording'
 import { isHttpMidiUrl, isMidiFileName, isMidiOwnedMediaLink } from './midiFileUtils'
+import { isMusicCollectionLinkUri } from './musicCollectionLinkUtils'
 import { linkUriString } from './tuneLinkUri'
 import { isYoutubePlaybackUri } from './youtubePlaybackUri'
 
@@ -50,6 +51,7 @@ export function resolveUriPlaybackSrcType(src, isYoutubeLink) {
   if (trimmed.startsWith('data:')) return 'skip'
   if (typeof isYoutubeLink === 'function' && isYoutubeLink(trimmed)) return 'youtube'
   if (isHttpMidiUrl(trimmed)) return 'midifile'
+  if (isMusicCollectionLinkUri(trimmed)) return 'audio'
   if (/^https?:\/\//i.test(trimmed)) return 'audio'
   return 'abc'
 }

@@ -1,0 +1,22 @@
+.search-list-section-header {
+  display: flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem 0.15rem;
+  margin-top: 0.25rem;
+  border-top: 1px solid var(--bs-border-color, #dee2e6);
+  background: transparent;
+}
+
+.search-list-section-header-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color, #6c757d);
+}
+
+.virtualized-tune-list-row .search-list-section-header {
+  height: 100%;
+  margin-top: 0;
+  box-sizing: border-box;
+}

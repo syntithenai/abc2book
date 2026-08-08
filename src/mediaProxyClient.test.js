@@ -474,6 +474,25 @@ describe('mediaProxyClient', function() {
     expect(global.fetch.mock.calls[0][0]).toContain('/music-collection/clementine/track.mp3');
   });
 
+  test('fetchProxiedAudioBlobUrl requests playable transcode for wma collection links', async function() {
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
+    const blob = new Blob(['audio'], { type: 'audio/mpeg' });
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      blob: async function() { return blob; },
+    });
+    global.URL.createObjectURL = jest.fn(function() { return 'blob:proxied-audio'; });
+
+    await mediaProxyClient.fetchProxiedAudioBlobUrl(
+      'http://localhost:8787/music-collection/clementine/track.wma',
+      'audio',
+      { accessToken: 'token' }
+    );
+
+    expect(global.fetch.mock.calls[0][0]).toContain('/music-collection/clementine/track.wma?playable=1');
+  });
+
   afterEach(function() {
     global.fetch = fetchMock;
   });

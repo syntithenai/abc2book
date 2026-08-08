@@ -1,7 +1,7 @@
 import {useRef, useState, useEffect, useMemo} from 'react'
 import {useNavigate} from 'react-router-dom'
 import {Button, ButtonGroup, Form, Badge} from 'react-bootstrap'
-import YouTube from 'react-youtube'
+import SafeYouTube from './SafeYouTube'
 import YouTubeSearchModal from './YouTubeSearchModal'
 import LinkPlayRangeModal from './LinkPlayRangeModal'
 import ScratchpadWorkspacePickerModal from './scratchpad/ScratchpadWorkspacePickerModal'
@@ -25,6 +25,11 @@ import {
     resolveRecordingLinkAudio,
     resolveRecordingLinkMidi,
 } from '../linkRecording'
+import { isYoutubeDetachedPlayerError } from '../youtubePlayerErrors'
+import { shouldLockMediaCacheForLink } from '../mediaCacheLock'
+import { scheduleSelectedMediaLinkCache } from '../mediaLinkAutoCache'
+import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
+import { isDeviceFileResult, isMusicCollectionResult } from '../mediaLinkSearchDisplay'
 import { mediaFileAcceptList, isAudioImportFile, isMidiImportFile, readAudioFileMetadata } from '../audioFileMetadata'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
 import { fetchDirectOrProxy } from '../mediaProxyClient'
@@ -102,12 +107,18 @@ function mediaSearchCandidateUri(candidate) {
 }
 
 function tuneLinkFromMediaSearchCandidate(candidate) {
-    return {
+    const link = {
         title: candidate && candidate.title ? String(candidate.title) : '',
         link: mediaSearchCandidateUri(candidate),
         startAt: '',
         endAt: '',
     }
+    if (candidate && candidate.source) link.source = String(candidate.source)
+    if (candidate && candidate.id) link.collectionEntryId = String(candidate.id)
+    if (candidate && candidate.path) link.collectionPath = String(candidate.path)
+    if (candidate && candidate.uri) link.deviceFileUri = String(candidate.uri)
+    if (candidate && candidate.image) link.image = candidate.image
+    return link
 }
 
 function linkIsPreviewable(link, isYoutubeLink) {
@@ -632,6 +643,7 @@ function LinksEditorBody(props) {
         try {
             player.playVideo()
         } catch (e) {
+            if (isYoutubeDetachedPlayerError(e)) return
             setWarning('Could not preview this YouTube link.')
             stopLinkPreview()
         }
@@ -870,6 +882,11 @@ function LinksEditorBody(props) {
         const links = Array.isArray(props.links) ? props.links.slice() : []
         links.unshift(newLink)
         setWarning('')
+        const tune = getTuneForOwnedMedia()
+        if (tune && shouldLockMediaCacheForLink(newLink)) {
+            handleTuneChange(Object.assign({}, tune, { links: links, mediaCacheLocked: true }))
+            return
+        }
         onChange(links)
     }
 
@@ -1086,8 +1103,40 @@ function LinksEditorBody(props) {
                             login={props.login}
                             onChange={function(link) {
                                 var links = Array.isArray(props.links) ? props.links : []
-                                links.unshift(tuneLinkFromMediaSearchCandidate(link))
+                                var newLink = tuneLinkFromMediaSearchCandidate(link)
+                                links.unshift(newLink)
+                                var tune = getTuneForOwnedMedia()
+                                var isYoutube = !!(link && link.source === 'youtube')
+                                var cacheOpts = {
+                                    isYoutubeLink: isYoutubeLink,
+                                    youtubeGetId: props.tunebook && props.tunebook.utils && props.tunebook.utils.YouTubeGetID,
+                                    accessToken: getActiveResolverAccessToken() || props.token || null,
+                                }
+                                if (tune) {
+                                    if (isYoutube) {
+                                        if (shouldLockMediaCacheForLink(newLink)
+                                            || isMusicCollectionResult(link)
+                                            || isDeviceFileResult(link)) {
+                                            handleTuneChange(Object.assign({}, tune, { links: links, mediaCacheLocked: true }))
+                                        } else {
+                                            props.onChange(links)
+                                        }
+                                        return
+                                    }
+                                    var updated = Object.assign({}, tune, { links: links })
+                                    if (shouldLockMediaCacheForLink(newLink)) {
+                                        updated.mediaCacheLocked = true
+                                    }
+                                    handleTuneChange(updated)
+                                    if (typeof props.onTuneChange !== 'function') {
+                                        scheduleSelectedMediaLinkCache(newLink, updated, cacheOpts)
+                                    }
+                                    return
+                                }
                                 props.onChange(links)
+                                if (!isYoutube) {
+                                    scheduleSelectedMediaLinkCache(newLink, null, cacheOpts)
+                                }
                             }}
                             setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                             value={youtubeSearchQuery}
@@ -1411,7 +1460,7 @@ function LinksEditorBody(props) {
                     style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', overflow: 'hidden' }}
                     aria-hidden="true"
                 >
-                    <YouTube
+                    <SafeYouTube
                         key={youtubePreview.linkIndex + ':' + youtubePreview.videoId}
                         videoId={youtubePreview.videoId}
                         opts={{

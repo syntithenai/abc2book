@@ -198,30 +198,42 @@ export function filterCacheKeysForTuneIds(keys, tuneIds, tuneIdFromKey) {
 
 async function collectStoreStats(store, options) {
   const opts = options || {}
+  const lockedTuneIds = opts.lockedTuneIds || {}
   let bytes = 0
   let entries = 0
+  let lockedBytes = 0
+  let lockedEntries = 0
   const tuneIds = {}
   await store.iterate(function(value, key) {
     entries += 1
-    bytes += estimateStoredValueBytes(value)
+    const entryBytes = estimateStoredValueBytes(value)
+    bytes += entryBytes
     const tuneId = opts.tuneIdFromKey ? opts.tuneIdFromKey(key) : key
     if (tuneId) tuneIds[tuneId] = true
+    if (tuneId && lockedTuneIds[tuneId]) {
+      lockedEntries += 1
+      lockedBytes += entryBytes
+    }
   })
   return {
     id: opts.id,
     label: opts.label,
     bytes: bytes,
     entries: entries,
+    lockedBytes: lockedBytes,
+    lockedEntries: lockedEntries,
     tuneCount: Object.keys(tuneIds).length,
     tuneIds: Object.keys(tuneIds),
   }
 }
 
-export async function getExternalMediaCacheStats() {
+export async function getExternalMediaCacheStats(options) {
+  const opts = options || {}
   return collectStoreStats(externalMediaStore, {
     id: 'audio',
     label: 'File Cache',
     tuneIdFromKey: tuneIdFromExternalMediaCacheKey,
+    lockedTuneIds: opts.lockedTuneIds,
   })
 }
 
@@ -299,9 +311,11 @@ export async function getMidiCacheTuneSummaries(tunes) {
 /**
  * Aggregate stats for audio, MIDI, and stem caches.
  */
-export async function getAllMediaCacheStats() {
+export async function getAllMediaCacheStats(options) {
+  const opts = options || {}
+  const lockedTuneIds = opts.lockedTuneIds || {}
   const [audio, midi, stems] = await Promise.all([
-    getExternalMediaCacheStats(),
+    getExternalMediaCacheStats({ lockedTuneIds: lockedTuneIds }),
     getMidiCacheStats(),
     getStemCacheStats(),
   ])

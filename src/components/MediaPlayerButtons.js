@@ -7,9 +7,9 @@ import {
   resumeTunePlayback,
   resolvePlaybackTarget,
 } from '../tunePlaybackActions'
-import { getCurrentTuneId } from '../nowPlayingQueue'
+import { getCurrentTuneId, isQueueActive } from '../nowPlayingQueue'
 import { isNavigatorOffline, isTuneOfflinePlayable } from '../offlinePlayback'
-import { getViewedTuneIdFromPath, isTuneListPath } from '../playbackNavigationUtils'
+import { getViewedTuneIdFromPath, isQueuePlaybackEngaged, isTuneListPath } from '../playbackNavigationUtils'
 
 function useOfflinePlayDisabled(mediaController, tunebook, location, viewedTune) {
   const [playDisabled, setPlayDisabled] = useState(false)
@@ -105,8 +105,12 @@ export default function MediaPlayerButtons({
    const firstSearchTuneId = Array.isArray(searchListIds) && searchListIds.length > 0
      ? searchListIds[0]
      : null
-   const firstSearchTune = firstSearchTuneId && tunes ? tunes[firstSearchTuneId] : null
+   const firstSearchTune = resolveViewedTuneForHeader(tunebook, tunes, firstSearchTuneId, currentTuneBook)
    const onTuneList = isTuneListPath(location.pathname)
+   const queuePlaybackActive = !!(
+     isQueueActive(nowPlayingQueue)
+     && isQueuePlaybackEngaged(mediaController, { queue: nowPlayingQueue })
+   )
    const canPlayFirstSearchResult = !!(
      !viewedTuneId
      && onTuneList
@@ -117,10 +121,10 @@ export default function MediaPlayerButtons({
    const playDisabledOffline = useOfflinePlayDisabled(mediaController, tunebook, location, playTargetTune)
 
    if (!viewedTuneId) {
-     if (!canPlayFirstSearchResult) {
+     if (!canPlayFirstSearchResult && !queuePlaybackActive) {
        return null
      }
-   } else if (!viewedTuneIsPlayable(tunebook, viewedTune)) {
+   } else if (!queuePlaybackActive && !viewedTuneIsPlayable(tunebook, viewedTune)) {
      return null
    }
 
@@ -137,7 +141,13 @@ export default function MediaPlayerButtons({
 
    function handlePlayPress() {
        if (!viewedTuneId) {
-         startPlayback()
+         if (canPlayFirstSearchResult) {
+           startPlayback()
+           return
+         }
+         if (queuePlaybackActive) {
+           resumeTunePlayback(mediaController, getCurrentTuneId(nowPlayingQueue), { queue: nowPlayingQueue })
+         }
          return
        }
        if (!resumeTunePlayback(mediaController, viewedTuneId, { queue: nowPlayingQueue })) {
@@ -152,7 +162,7 @@ export default function MediaPlayerButtons({
    const canResumeViewed = mediaController.canResumePlayback
      && mediaController.canResumePlayback()
      && mediaController.tune
-     && mediaController.tune.id === viewedTuneId
+     && (!viewedTuneId || mediaController.tune.id === viewedTuneId)
    const playLabel = canResumeViewed ? 'Resume' : 'Play'
    const playTitle = playDisabledOffline
      ? 'Media is not cached for offline playback'

@@ -112,20 +112,25 @@ async function searchChordsAndLyrics(options) {
     return { chordText: '', lyricLines: [], artist: '' };
   }
 
-  const lyricResult = unwrapSearchResult(await searchLyrics(Object.assign({}, searchOpts, {
-    onProgress: function(message, progress) {
-      if (typeof onProgress === 'function') {
-        onProgress(message || 'Searching for lyrics...', progress);
-      }
-    },
-  })));
-  return {
-    chordText: '',
-    lyricLines: Array.isArray(lyricResult.lines)
-      ? lyricResult.lines
-      : String(lyricResult.text || '').replace(/\r\n/g, '\n').split('\n'),
-    artist: lyricResult.artist || '',
-  };
+  try {
+    const lyricResult = unwrapSearchResult(await searchLyrics(Object.assign({}, searchOpts, {
+      onProgress: function(message, progress) {
+        if (typeof onProgress === 'function') {
+          onProgress(message || 'Searching for lyrics...', progress);
+        }
+      },
+    })));
+    return {
+      chordText: '',
+      lyricLines: Array.isArray(lyricResult.lines)
+        ? lyricResult.lines
+        : String(lyricResult.text || '').replace(/\r\n/g, '\n').split('\n'),
+      artist: lyricResult.artist || '',
+    };
+  } catch (lyricError) {
+    if (lyricError && lyricError.name === 'AbortError') throw lyricError;
+    return { chordText: '', lyricLines: [], artist: '' };
+  }
 }
 
 export async function enrichImportCandidate(candidate, options) {

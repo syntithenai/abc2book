@@ -132,10 +132,9 @@ export async function pollRegisteredSourceUpdates(options) {
     try {
       const text = await fetchSourceUrlAbc(sourceUrl, driveApi);
       const incomingTunes = tunebook.abcTools.abc2Tunebook(text);
-      const scopedLocal = filterLocalTunesForSource(tunes, source);
       const batch = finalizeSourceUrlMergeBatch(
         buildSourceUrlMergeBatch(
-          scopedLocal,
+          tunes,
           sourceUrl,
           incomingTunes,
           {
@@ -213,8 +212,16 @@ export async function pollSourceUrlUpdates(options) {
   return batches;
 }
 
+function stampSourceUrlOnTune(tune, sourceUrl) {
+  const url = String(sourceUrl || '').trim();
+  if (!url || !tune || typeof tune !== 'object') return tune;
+  if (tune.srcUrl) return tune;
+  return Object.assign({}, tune, { srcUrl: url });
+}
+
 export function applySourceUrlMergeBatch(localTunes, batch, recordState) {
   const next = Object.assign({}, localTunes || {});
+  const sourceUrl = batch && batch.sourceUrl;
   (batch.records || []).forEach(function(record) {
     const state = recordState && recordState[record.id];
     if (state && state.accept === false) return;
@@ -223,14 +230,15 @@ export function applySourceUrlMergeBatch(localTunes, batch, recordState) {
       return;
     }
     if (record.kind === 'insert') {
-      next[record.id] = record.incomingTune;
+      next[record.id] = stampSourceUrlOnTune(record.incomingTune, sourceUrl);
       return;
     }
     const selections = state && state.fieldSelections
       ? state.fieldSelections
       : buildDefaultTuneImportSelections(buildTuneImportFieldRows(record.localTune, record.incomingTune).filter(function(r) { return r.differs; }));
-    next[record.id] = applyTuneImportSelections(record.localTune, record.incomingTune, selections);
-    next[record.id].lastUpdated = Math.max(Date.now(), toTuneUpdatedMs(record.incomingTune.lastUpdated) + 1);
+    const merged = applyTuneImportSelections(record.localTune, record.incomingTune, selections);
+    merged.lastUpdated = Math.max(Date.now(), toTuneUpdatedMs(record.incomingTune.lastUpdated) + 1);
+    next[record.id] = stampSourceUrlOnTune(merged, sourceUrl);
   });
   return next;
 }

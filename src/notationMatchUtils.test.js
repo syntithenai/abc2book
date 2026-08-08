@@ -1,4 +1,4 @@
-import { isVeryCloseNotationTitleMatch, shouldAutoApplyNotationCandidate } from './notationMatchUtils'
+import { isVeryCloseNotationTitleMatch, shouldAutoApplyNotationCandidate, hasSolidAbcNotationMatch, pickRankedSolidAbcNotationCandidate } from './notationMatchUtils'
 
 describe('shouldAutoApplyNotationCandidate', function() {
   test('rejects The Session notation for named-artist songs', function() {
@@ -12,7 +12,7 @@ describe('shouldAutoApplyNotationCandidate', function() {
     })).toBe(false)
   })
 
-  test('rejects title-only folk ABC for named-artist songs', function() {
+  test('accepts close-title folk ABC for named-artist songs', function() {
     const candidate = {
       source: 'thesession.org',
       title: "Hell's Bells (reel)",
@@ -20,7 +20,46 @@ describe('shouldAutoApplyNotationCandidate', function() {
     }
     expect(shouldAutoApplyNotationCandidate(candidate, 'Hells Bells', 'AC/DC', {
       songType: 'song',
-    })).toBe(false)
+    })).toBe(true)
+  })
+
+  test('auto-applies solid ABC title matches for named-artist songs', function() {
+    const candidate = {
+      source: 'thesession.org',
+      title: 'Galtee Hunt (polka)',
+      tuneMeta: { name: 'Galtee Hunt' },
+      abc: 'X:1\nK:G\n|:G2|',
+    }
+    expect(shouldAutoApplyNotationCandidate(candidate, 'Galtee Hunt', 'Clannad', {
+      songType: 'song',
+      preferMuseScoreImport: true,
+    })).toBe(true)
+  })
+
+  test('hasSolidAbcNotationMatch detects close-title ABC in multi results', function() {
+    expect(hasSolidAbcNotationMatch({
+      candidates: [
+        {
+          source: 'thesession.org',
+          title: 'Galtee Hunt',
+          abc: 'X:1\nK:G\n|:G2|',
+        },
+        {
+          source: 'musescore.com',
+          title: 'Galtee Hunt',
+          musicXml: '<score-partwise/>',
+        },
+      ],
+    }, 'Galtee Hunt')).toBe(true)
+    expect(pickRankedSolidAbcNotationCandidate({
+      candidates: [
+        {
+          source: 'thesession.org',
+          title: 'Galtee Hunt',
+          abc: 'X:1\nK:G\n|:G2|',
+        },
+      ],
+    }, 'Galtee Hunt')).toMatchObject({ source: 'thesession.org' })
   })
 
   test('allows bare abc payloads without source metadata for instrumental tunes', function() {

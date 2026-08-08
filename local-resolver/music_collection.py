@@ -560,7 +560,7 @@ def build_music_collection_candidate(entry, *, public_base=None, request_base_ur
     link = build_music_collection_public_url(path, public_base=public_base)
     image = build_music_collection_art_url(entry_id, request_base_url=request_base_url) if entry_id else ""
 
-    return {
+    candidate = {
         "id": entry_id,
         "title": title,
         "artist": artist,
@@ -571,6 +571,11 @@ def build_music_collection_candidate(entry, *, public_base=None, request_base_ur
         "source": "music-collection",
         "matchScore": int(entry.get("matchScore") or 0),
     }
+    for field in ("genre", "year", "composer", "duration", "tracknumber", "albumartist"):
+        value = entry.get(field)
+        if value not in (None, ""):
+            candidate[field] = value
+    return candidate
 
 
 def rebuild_music_collection_index(extract_art=True, resume=False, background=False):

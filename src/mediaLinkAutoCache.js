@@ -2,7 +2,13 @@ import { isArchiveOrgLinkUri } from './archiveOrgLinkUtils';
 import { isBandcampLinkUri } from './bandcampLinkUtils';
 import { isLocGovLinkUri } from './locGovLinkUtils';
 import { isMusicCollectionLinkUri } from './musicCollectionLinkUtils';
-import { isExternalMediaCached } from './externalMediaAudioCache';
+import {
+  cacheExternalMediaBytes,
+  getCachedExternalMediaBlob,
+  getStandaloneProxiedMediaCacheKey,
+  isExternalMediaCached,
+} from './externalMediaAudioCache';
+import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader';
 import { resolveUriPlaybackSrcType } from './mediaLinkSrcType';
 import * as mediaCacheQueue from './mediaCacheQueue';
 
@@ -90,4 +96,57 @@ export async function scheduleMediaLinkCacheIfNeeded(tune, linkIndex, link, opti
     return false;
   }
   return false;
+}
+
+function scheduleStandaloneMediaLinkCache(link, options) {
+  const opts = options || {};
+  const src = String(link && link.link || '').trim();
+  if (!src) return false;
+  const isYoutubeLink = opts.isYoutubeLink;
+  const srcType = resolveUriPlaybackSrcType(src, isYoutubeLink);
+  if (!shouldScheduleMediaLinkCache(src, srcType, isYoutubeLink, false)) {
+    return false;
+  }
+  const cacheKey = getStandaloneProxiedMediaCacheKey(src);
+  Promise.resolve(
+    getCachedExternalMediaBlob(cacheKey).then(function(existing) {
+      if (existing && existing.blob) return null;
+      return fetchAndDecodeExternalMedia(src, srcType, opts.youtubeGetId, opts.accessToken);
+    }).then(function(decoded) {
+      if (!decoded) return null;
+      return cacheExternalMediaBytes(cacheKey, decoded.arrayBuffer, decoded.mime);
+    })
+  ).catch(function() {});
+  return true;
+}
+
+/**
+ * Start caching a media link selected in the links editor (non-YouTube).
+ */
+export function scheduleSelectedMediaLinkCache(link, tune, options) {
+  const opts = options || {};
+  const src = String(link && link.link || '').trim();
+  if (!src) return false;
+  const isYoutubeLink = opts.isYoutubeLink;
+  const srcType = resolveUriPlaybackSrcType(src, isYoutubeLink);
+  if (!shouldScheduleMediaLinkCache(src, srcType, isYoutubeLink, false)) {
+    return false;
+  }
+  if (tune && tune.id && Array.isArray(tune.links)) {
+    let linkIndex = -1;
+    for (let i = 0; i < tune.links.length; i += 1) {
+      if (String(tune.links[i] && tune.links[i].link || '').trim() === src) {
+        linkIndex = i;
+        break;
+      }
+    }
+    if (linkIndex < 0) linkIndex = 0;
+    const jobId = enqueueCacheJobForLink(tune, linkIndex, link, opts);
+    if (jobId) {
+      startMediaLinkAutoCacheQueue();
+      return true;
+    }
+    return false;
+  }
+  return scheduleStandaloneMediaLinkCache(link, opts);
 }

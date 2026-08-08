@@ -87,6 +87,8 @@ export default function AddBulkImportPanel(props) {
   const [enhanceBusy, setEnhanceBusy] = useState(false);
   const [enhanceProgress, setEnhanceProgress] = useState('');
   const [enhanceProgressDetail, setEnhanceProgressDetail] = useState(null);
+  const [prepareProgress, setPrepareProgress] = useState('');
+  const [prepareProgressDetail, setPrepareProgressDetail] = useState(null);
 
   const book = props.currentTuneBook || DEFAULT_BOOK;
 
@@ -203,13 +205,22 @@ export default function AddBulkImportPanel(props) {
     if (!bulkText.trim()) return;
     setBulkBusy(true);
     setImportError('');
+    setPrepareProgress('');
+    setPrepareProgressDetail(null);
     try {
+      setPrepareProgress('Cleaning up lines…');
       const tidied = retidyBulkText(bulkText);
+      setPrepareProgress('Normalizing lines…');
       const normalized = await normalizeBulkText(tidied);
       const result = await prepareBulkTextIntoTextarea(normalized, {
         tunebook: props.tunebook,
         book: book,
         searchYouTube: true,
+        onProgress: function(info) {
+          const message = info && info.message ? info.message : '';
+          setPrepareProgress(message);
+          setPrepareProgressDetail(info || null);
+        },
       });
       setBulkText(result.text);
       const parts = [];
@@ -232,6 +243,8 @@ export default function AddBulkImportPanel(props) {
       setImportError(e && e.message ? e.message : 'Prepare failed.');
     } finally {
       setBulkBusy(false);
+      setPrepareProgress('');
+      setPrepareProgressDetail(null);
     }
   }
 
@@ -444,11 +457,30 @@ export default function AddBulkImportPanel(props) {
             variant="outline-success"
             disabled={bulkBusy || audioImportBusy || enhanceBusy || !bulkText.trim()}
             onClick={handleBulkPrepare}
-            title="Clean up lines and fill missing YouTube links / title / artist"
+            title={bulkBusy && prepareProgress ? prepareProgress : 'Clean up lines and fill missing YouTube links / title / artist'}
             data-testid="bulk-prepare"
           >
-            {bulkBusy ? 'Preparing…' : 'Prepare'}
+            {bulkBusy ? (
+              <>
+                <Spinner animation="border" size="sm" className="me-1" aria-hidden="true" />
+                Preparing…
+              </>
+            ) : 'Prepare'}
           </Button>
+          {bulkBusy && prepareProgress ? (
+            <div className="small text-muted mt-1 mb-0" data-testid="bulk-prepare-progress" role="status">
+              {prepareProgress}
+              {prepareProgressDetail && prepareProgressDetail.total > 0 ? (
+                <ProgressBar
+                  className="mt-1"
+                  now={Math.round((prepareProgressDetail.index / prepareProgressDetail.total) * 100)}
+                  label={prepareProgressDetail.index + '/' + prepareProgressDetail.total}
+                  visuallyHidden
+                  style={{ height: '0.45em' }}
+                />
+              ) : null}
+            </div>
+          ) : null}
         </div>
         <div className="add-bulk-toolbar-block ms-auto" data-testid="bulk-actions">
           <span className="small text-muted d-block mb-1">Import</span>

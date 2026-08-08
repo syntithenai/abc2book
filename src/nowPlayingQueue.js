@@ -373,6 +373,34 @@ export function removeQueueItem(queue, index) {
   return next
 }
 
+/** Remove queue items whose tuneId is in tuneIds. Returns null when the queue becomes empty. */
+export function removeTunesFromQueue(queue, tuneIds) {
+  if (!isQueueActive(queue) || !tuneIds || !tuneIds.length) return queue
+  const removeSet = new Set(tuneIds.map(function(id) { return String(id) }))
+  const currentIndex = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
+  let removedBeforeCurrent = 0
+  const nextItems = []
+  queue.items.forEach(function(item, index) {
+    if (item && item.tuneId != null && removeSet.has(String(item.tuneId))) {
+      if (index < currentIndex) removedBeforeCurrent += 1
+      return
+    }
+    nextItems.push(item)
+  })
+  if (nextItems.length === queue.items.length) return queue
+  if (nextItems.length === 0) return null
+  let newCurrentIndex = currentIndex - removedBeforeCurrent
+  if (newCurrentIndex >= nextItems.length) newCurrentIndex = nextItems.length - 1
+  if (newCurrentIndex < 0) newCurrentIndex = 0
+  let next = Object.assign({}, queue, { items: nextItems, currentIndex: newCurrentIndex })
+  if (next.shuffle) {
+    next = Object.assign({}, next, {
+      shuffleOrder: buildShuffleOrder(next.items.length, newCurrentIndex),
+    })
+  }
+  return next
+}
+
 function buildQueueItem(tuneId, options) {
   const opts = options || {}
   const item = {

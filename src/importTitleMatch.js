@@ -3,6 +3,9 @@
  * Unrelated titles must not be treated as the same tune.
  */
 
+import { foldEuropeanLetters, toSearchText } from './searchTextUtils'
+import { normalizeArtistKey } from './recordingArtistsClient'
+
 /** Arrangement / format noise stripped before compare (not part of the song identity). */
 const VERSION_DESCRIPTOR_RE = /\b(ukulele|ukelele|uke|guitar|piano|banjo|mandolin|bass|tab|tabs|chords?|lyrics?|instrumental|karaoke|backing\s*track|play[\s-]?along|easy|simplified|beginner|advanced|arrangement|arr\.?|version|ver\.?|cover|remix|live|acoustic|electric|solo|duet|trio|quartet|sheet\s*music|lead\s*sheet|fake\s*book)\b/gi
 
@@ -10,7 +13,7 @@ const VERSION_DESCRIPTOR_RE = /\b(ukulele|ukelele|uke|guitar|piano|banjo|mandoli
 const TRAILING_PAREN_RE = /\s*\([^)]*\)\s*$/g
 
 export function normalizeImportTitle(value) {
-  return String(value == null ? '' : value)
+  return foldEuropeanLetters(String(value == null ? '' : value))
     .toLowerCase()
     .replace(/[^a-z0-9\s']/g, ' ')
     .replace(/\s+/g, ' ')
@@ -26,6 +29,14 @@ export function cleanImportTitleForMatching(value) {
   text = text.replace(TRAILING_PAREN_RE, ' ')
   text = text.replace(VERSION_DESCRIPTOR_RE, ' ')
   return normalizeImportTitle(text)
+}
+
+/** Canonical artist+title key for media dedupe and tune lookup. */
+export function mediaArtistTitleIdentityKey(title, artist) {
+  const normalizedTitle = toSearchText(cleanImportTitleForMatching(title))
+  const normalizedArtist = normalizeArtistKey(artist)
+  if (!normalizedTitle && !normalizedArtist) return ''
+  return normalizedTitle + '\0' + normalizedArtist
 }
 
 /**

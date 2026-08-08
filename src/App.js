@@ -112,6 +112,7 @@ import {
 import useSyncWorker from './useSyncWorker'	
 import useRouteAnalytics from './useRouteAnalytics'
 import { compareTuneBooks, mergeDeletedTuneMaps, parseDeletedTunesFromAbc } from './tuneBookSync'
+import { pruneDeletedTunesFromPlaylists } from './playlistTunePrune'
 import { compareTuneBooksStreaming } from './tuneBookSyncStreaming'
 import { iterateTunesFromAbcAsync } from './tuneAbcStream'
 import { parseSyncManifest, iterateShardedTunesFromAbc } from './tuneShardSync'
@@ -594,6 +595,9 @@ function App(props) {
     })
     setDeletedTunes(nextDeleted)
     setTunes(nextTunes)
+    if (applied.deletes && Object.keys(applied.deletes).length > 0) {
+      pruneDeletedTunesFromPlaylists(Object.keys(applied.deletes), nowPlayingQueue, setNowPlayingQueue)
+    }
     buildTunesHash()
     scheduleTuneReindex(nextTunes)
     setSheetUpdateResults(null)
@@ -651,6 +655,15 @@ function App(props) {
       delete nextDeleted[tuneId]
     })
     setDeletedTunes(nextDeleted)
+    var deletedTuneIds = Object.keys(deletes || {})
+    Object.keys(remoteDeleted || {}).forEach(function(tuneId) {
+      if (!tunes[tuneId] && deletedTuneIds.indexOf(tuneId) === -1) {
+        deletedTuneIds.push(tuneId)
+      }
+    })
+    if (deletedTuneIds.length > 0) {
+      pruneDeletedTunesFromPlaylists(deletedTuneIds, nowPlayingQueue, setNowPlayingQueue)
+    }
     
     if ((localInserts && Object.keys(localInserts).length > 0) || (localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)|| (filesToLoad && Object.keys(filesToLoad).length > 0) || (filesToSave && Object.keys(filesToSave).length > 0)) {
       setTunes(tunes)
@@ -1271,6 +1284,7 @@ function App(props) {
               token={token}
               tunebook={tunebook}
               tunes={tunes}
+              tunesHydrated={tunesHydrated}
               deletedTunes={deletedTunes}
               driveApi={filesDocumentManager}
               onApplySourceUrlMerge={applySourceUrlMergeWithSelections}
@@ -1508,22 +1522,22 @@ function App(props) {
                     />
                     
                     <Route  path={`importlink`} >
-                      <Route  path={`:link`} element={<ImportLinkPage   tunes={tunes} setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}   setTagFilter={setTagFilter} navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
-                       <Route  path={`:link/book/:bookName`} element={<ImportLinkPage   tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
+                      <Route  path={`:link`} element={<ImportLinkPage   tunesHydrated={tunesHydrated} tunes={tunes} setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}   setTagFilter={setTagFilter} navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
+                       <Route  path={`:link/book/:bookName`} element={<ImportLinkPage   tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
                        
-                       <Route  path={`:link/book/:bookName/play`} element={<ImportLinkPage autoplay={true}  tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults}  forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}   setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
+                       <Route  path={`:link/book/:bookName/play`} element={<ImportLinkPage autoplay={true}  tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults}  forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}   setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
                        
-                       <Route  path={`:link/book/:bookName/tag/:tagName`} element={<ImportLinkPage   tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport}  />} />
+                       <Route  path={`:link/book/:bookName/tag/:tagName`} element={<ImportLinkPage   tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport}  />} />
                        
-                       <Route  path={`:link/book/:bookName/tag/:tagName/play`} element={<ImportLinkPage autoplay={true} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults}  forceRefresh={forceRefresh}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport}  />} />
+                       <Route  path={`:link/book/:bookName/tag/:tagName/play`} element={<ImportLinkPage autoplay={true} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults}  forceRefresh={forceRefresh}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport}  />} />
                        
-                       <Route  path={`:link/tag/:tagName`} element={<ImportLinkPage   tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter} />} />
+                       <Route  path={`:link/tag/:tagName`} element={<ImportLinkPage   tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter} />} />
                        
-                       <Route  path={`:link/tag/:tagName/play`} element={<ImportLinkPage autoplay={true} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults}  forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport}  />} />
+                       <Route  path={`:link/tag/:tagName/play`} element={<ImportLinkPage autoplay={true} tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults}  forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport}  />} />
                       
-                       <Route  path={`:link/tune/:tuneId`} element={<ImportLinkPage   tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
+                       <Route  path={`:link/tune/:tuneId`} element={<ImportLinkPage   tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
                        
-                       <Route  path={`:link/tune/:tuneId/play`} element={<ImportLinkPage  autoplay={true}  tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
+                       <Route  path={`:link/tune/:tuneId/play`} element={<ImportLinkPage  autoplay={true}  tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
                     </Route>
                     
                     <Route path={'blank'} element={<BlankPage mediaController={mediaController} />} />

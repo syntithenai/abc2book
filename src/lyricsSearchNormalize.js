@@ -39,10 +39,30 @@ function isEmptyManualResult(body) {
   return body.found === false && Array.isArray(body.manualCandidates)
 }
 
+function emptyLyricsResult(manualCandidates) {
+  return {
+    multiple: false,
+    empty: true,
+    found: false,
+    manualCandidates: normalizeManualCandidates(manualCandidates),
+  }
+}
+
+export function isLyricsSearchSoftMissMessage(message) {
+  const text = String(message || '').trim().toLowerCase()
+  if (!text) return false
+  if (text.indexOf('no lyrics found') >= 0) return true
+  if (text.indexOf('no usable text') >= 0) return true
+  if (text.indexOf('did not contain usable text') >= 0) return true
+  if (text.indexOf('could not extract lyrics') >= 0) return true
+  if (text.indexOf('lyrics search returned no') >= 0) return true
+  return false
+}
+
 function normalizeSingleLyricsResult(body) {
   const text = typeof body.text === 'string' ? body.text.trim() : ''
   if (!text) {
-    throw new Error('Lyrics search returned no text')
+    return null
   }
 
   const lines = Array.isArray(body.lines) && body.lines.length > 0
@@ -53,7 +73,7 @@ function normalizeSingleLyricsResult(body) {
   if (!quality.ok || !(quality.lines || []).some(function(line) {
     return String(line || '').trim()
   })) {
-    throw new Error('Lyrics search returned no usable text')
+    return null
   }
 
   const usableLines = quality.lines
@@ -80,6 +100,9 @@ export function normalizeLyricsSearch(body) {
   }
 
   if (body.error) {
+    if (isLyricsSearchSoftMissMessage(body.error)) {
+      return emptyLyricsResult(body.manualCandidates)
+    }
     throw new Error(body.error)
   }
 
@@ -95,14 +118,11 @@ export function normalizeLyricsSearch(body) {
   if (body.multiple === true && Array.isArray(body.candidates)) {
     const candidates = []
     body.candidates.forEach(function(candidate) {
-      try {
-        candidates.push(normalizeSingleLyricsResult(candidate))
-      } catch (e) {
-        // Skip non-lyric dumps (TAB, Usenet posts, etc.).
-      }
+      const normalized = normalizeSingleLyricsResult(candidate)
+      if (normalized) candidates.push(normalized)
     })
     if (candidates.length === 0) {
-      throw new Error('Lyrics search returned no candidates')
+      return emptyLyricsResult(body.manualCandidates)
     }
     return {
       multiple: true,
@@ -110,7 +130,11 @@ export function normalizeLyricsSearch(body) {
     }
   }
 
-  return Object.assign({ multiple: false }, normalizeSingleLyricsResult(body))
+  const single = normalizeSingleLyricsResult(body)
+  if (!single) {
+    return emptyLyricsResult(body.manualCandidates)
+  }
+  return Object.assign({ multiple: false }, single)
 }
 
 export function handleLyricsSearchStreamEvent(event, onProgress) {
@@ -126,6 +150,9 @@ export function handleLyricsSearchStreamEvent(event, onProgress) {
     return null
   }
   if (event.type === 'error') {
+    if (isLyricsSearchSoftMissMessage(event.message)) {
+      return emptyLyricsResult()
+    }
     throw new Error(event.message || 'Lyrics search failed')
   }
   if (event.type === 'result') {

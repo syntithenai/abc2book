@@ -26,6 +26,19 @@ import { playLessonYoutube } from './lessonYoutubePlayer'
 import { playExternalMediaItem } from './standaloneMediaPlayback'
 import { announcePlaylistTrack } from './playlistTitleAnnouncement'
 
+/** Merge persisted tunes with any in-memory tunebook map (e.g. freshly materialized mymedia). */
+export function resolveQueueTunesMap(tunes, tunebook) {
+  const bookTunes = tunebook && tunebook.tunes ? tunebook.tunes : null
+  if (!bookTunes) return tunes || {}
+  return Object.assign({}, bookTunes, tunes || {})
+}
+
+export function resolveQueueTune(tunes, tunebook, tuneId) {
+  if (!tuneId) return null
+  const map = resolveQueueTunesMap(tunes, tunebook)
+  return map[tuneId] || map[String(tuneId)] || null
+}
+
 export function playQueueItem(mediaController, tunebook, tune, item, options) {
   if (!mediaController || !item) return false
   if (isExternalQueueItem(item)) {
@@ -34,6 +47,13 @@ export function playQueueItem(mediaController, tunebook, tune, item, options) {
   if (!tunebook || !tune) return false
   const target = resolvePlaybackForItem(tune, item, tunebook)
   if (!target) return false
+
+  const opts = options || {}
+  // Arm kickoff before route/tune commits so MediaPlayerMedia does not replay the
+  // previous track while the next queue item is still loading.
+  if (opts.deferPlaybackEngine && mediaController.armPlaybackIntent) {
+    mediaController.armPlaybackIntent({ fresh: true })
+  }
 
   mediaController.setTune(tune)
   if (target.type === 'midi') {
@@ -48,11 +68,8 @@ export function playQueueItem(mediaController, tunebook, tune, item, options) {
     }
   }
 
-  const opts = options || {}
   if (opts.deferPlaybackEngine) {
-    if (mediaController.armPlaybackIntent) {
-      mediaController.armPlaybackIntent({ fresh: true })
-    } else {
+    if (!mediaController.armPlaybackIntent) {
       mediaController.play({ fresh: true })
     }
     return true
@@ -197,8 +214,9 @@ export async function advanceQueueToPlayableAndStart(params) {
     return false
   }
 
+  const tunesMap = resolveQueueTunesMap(tunes, tunebook)
   const synced = syncQueueIndex(queue, currentPlayingTuneId)
-  const result = await advanceQueueToNextPlayable(synced, tunes, tunebook, {
+  const result = await advanceQueueToNextPlayable(synced, tunesMap, tunebook, {
     direction: direction != null ? direction : 1,
     advanceFirst: advanceFirst !== false,
     isYoutubeLink: isYoutubeLink,
@@ -207,7 +225,7 @@ export async function advanceQueueToPlayableAndStart(params) {
 
   if (result.atEnd || !result.item) {
     if (queue && queue.autoAdvance) {
-      const skipResult = await advanceQueueAfterPlaybackFailure(queue, tunes, tunebook, {
+      const skipResult = await advanceQueueAfterPlaybackFailure(queue, tunesMap, tunebook, {
         isYoutubeLink: isYoutubeLink,
         playbackMode: playbackMode,
       })
@@ -382,9 +400,6 @@ export function resolveHostPlayingTune(hostPlayingTuneId, tunes, mediaController
 export function resolveHostPlayingTuneId({ queue, mediaController, viewedTuneId, pathname }) {
   const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
   const pathTuneId = viewedTuneId || getViewedTuneIdFromPath(pathname)
-  if (urlPlayback && pathTuneId) {
-    return pathTuneId
-  }
 
   const controllerTuneId = mediaController && mediaController.tune && mediaController.tune.id
     ? mediaController.tune.id
@@ -406,18 +421,30 @@ export function resolveHostPlayingTuneId({ queue, mediaController, viewedTuneId,
       }
     }
     if (isViewingDifferentFromPlaying(viewedTuneId, queue) && viewedTuneId) {
-      // User started playback on the tune they are viewing (not the queue item).
-      if (controllerTuneId === viewedTuneId) {
-        if (!isQueueOutputting(mediaController)
-          || String(controllerTuneId) === String(queueTuneId)) {
-          return viewedTuneId
-        }
+      // User explicitly started playback on the tune they are viewing.
+      if (controllerTuneId === viewedTuneId
+        && String(controllerTuneId) !== String(queueTuneId)) {
+        return viewedTuneId
+      }
+      // Keep the queue item while the controller already committed to it, even if
+      // output briefly paused between tracks (prevents snapping back to viewed tune).
+      const explicitViewedPlaybackUrl = urlPlayback && pathTuneId && viewedTuneId
+        && String(pathTuneId) === String(viewedTuneId)
+        && String(viewedTuneId) !== String(queueTuneId)
+      if (controllerTuneId && String(controllerTuneId) === String(queueTuneId)
+        && !explicitViewedPlaybackUrl) {
+        return queueTuneId
       }
       if (!isQueueOutputting(mediaController)) {
         return viewedTuneId
       }
     }
     return queueTuneId
+  }
+
+  // Non-queue playback from an explicit /playMedia or /playMidi URL.
+  if (urlPlayback && pathTuneId) {
+    return pathTuneId
   }
 
   if (controllerTuneId) {

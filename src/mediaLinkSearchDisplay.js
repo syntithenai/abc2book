@@ -18,6 +18,17 @@ export function isLocAudioResult(item) {
   return !!(item && item.source === 'loc');
 }
 
+export function isYoutubeResult(item) {
+  return !!(item && item.source === 'youtube');
+}
+
+export function isWebMediaSearchResult(item) {
+  return isBandcampResult(item)
+    || isInternetArchiveResult(item)
+    || isLocAudioResult(item)
+    || isYoutubeResult(item);
+}
+
 export function isDeviceFileResult(item) {
   return !!(item && item.source === 'device-file');
 }

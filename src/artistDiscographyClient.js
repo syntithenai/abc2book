@@ -1,20 +1,11 @@
-import axios from 'axios'
 import {
   cleanImportTitleForMatching,
   preferCleanImportTitle,
 } from './importTitleMatch'
+import { musicBrainzGet } from './musicBrainzRequest'
 
-const MUSICBRAINZ_BASE = 'https://musicbrainz.org/ws/2'
-const CLIENT_USER_AGENT = 'ABC2Book/1.0 (https://tunebook.net)'
 const PAGE_SIZE = 100
 const PAGE_DELAY_MS = 1000
-
-function mbRequestConfig(signal) {
-  return {
-    headers: { 'User-Agent': CLIENT_USER_AGENT },
-    signal: signal,
-  }
-}
 
 function delay(ms) {
   return new Promise(function(resolve) {
@@ -118,9 +109,9 @@ export async function resolveArtistMbid(name, signal, onProgress) {
   const query = String(name || '').trim()
   if (!query) return null
   emitProgress(onProgress, 'Looking up artist…', 5)
-  const response = await axios.get(MUSICBRAINZ_BASE + '/artist', {
+  const response = await musicBrainzGet('/artist', {
     params: { query: query, fmt: 'json', limit: 25 },
-    ...mbRequestConfig(signal),
+    signal: signal,
   })
   const artists = (response.data && response.data.artists) || []
   if (!artists.length) return null
@@ -170,14 +161,14 @@ async function paginateMusicBrainz(fetchPage, signal, pageDelayMs, pageSize, onP
 
 async function fetchRecordingTitles(mbid, signal, pageDelayMs, pageSize, onProgress) {
   return paginateMusicBrainz(function(offset) {
-    return axios.get(MUSICBRAINZ_BASE + '/recording', {
+    return musicBrainzGet('/recording', {
       params: {
         query: 'arid:' + mbid,
         fmt: 'json',
         limit: pageSize,
         offset: offset,
       },
-      ...mbRequestConfig(signal),
+      signal: signal,
     }).then(function(response) {
       const data = response.data || {}
       return {
@@ -192,14 +183,14 @@ async function fetchRecordingTitles(mbid, signal, pageDelayMs, pageSize, onProgr
 
 async function fetchWorkTitles(mbid, signal, pageDelayMs, pageSize, onProgress) {
   return paginateMusicBrainz(function(offset) {
-    return axios.get(MUSICBRAINZ_BASE + '/work', {
+    return musicBrainzGet('/work', {
       params: {
         artist: mbid,
         fmt: 'json',
         limit: pageSize,
         offset: offset,
       },
-      ...mbRequestConfig(signal),
+      signal: signal,
     }).then(function(response) {
       const data = response.data || {}
       return {

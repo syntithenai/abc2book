@@ -161,6 +161,18 @@ export function shouldSuppressTapToPlayDuringQueueAdvance(flags) {
   )
 }
 
+/**
+ * When the engine has genuinely finished (native ended or past trim end with no
+ * output), end handling must not be suppressed by queue-advance latches or
+ * transition guards — otherwise the UI can remain stuck in "playing".
+ */
+export function shouldAllowPlaybackEndDespiteGuards(flags) {
+  const f = flags || {}
+  if (f.nativeMediaEnded) return true
+  if (f.pastRegionEnd && f.noActiveOutput) return true
+  return false
+}
+
 export function shouldShowTapToPlayFromYoutubePoll(
   snapshot,
   pollToken,

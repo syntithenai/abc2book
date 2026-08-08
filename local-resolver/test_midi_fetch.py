@@ -183,6 +183,35 @@ class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(finalized[0]["matchScore"], finalized[1]["matchScore"])
         self.assertGreater(finalized[1]["matchScore"], finalized[2]["matchScore"])
 
+    async def test_finalize_keeps_solid_abc_for_named_artist_song(self):
+        title = "Galtee Hunt"
+        artist = "Clannad"
+        abc = {
+            "abc": "X:1\nT:Galtee Hunt\nM:4/4\nL:1/8\nK:G\n|:G2|",
+            "title": "Galtee Hunt (polka)",
+            "artist": "",
+            "source": "thesession.org",
+            "sourceUrl": "https://thesession.org/tunes/123",
+            "preview": "X:1",
+            "titleOnly": False,
+            "tuneMeta": {"name": "Galtee Hunt", "composer": ""},
+        }
+        muse = annotate_musescore_candidate(
+            MINIMAL_MUSICXML,
+            title=title,
+            source_url="https://musescore.com/user/1/scores/1",
+            score_id="1",
+        )
+        finalized = finalize_notation_candidates(
+            [muse, abc],
+            title,
+            artist,
+            song_type="song",
+        )
+        self.assertEqual(len(finalized), 2)
+        self.assertEqual(finalized[0]["source"], "thesession.org")
+        self.assertEqual(finalized[1]["source"], "musescore.com")
+
     async def test_finalize_caps_at_20(self):
         title = "Demo Tune"
         many = []

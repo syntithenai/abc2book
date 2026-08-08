@@ -18,6 +18,7 @@ import {
   suspendQueue,
   resumeQueue,
   removeQueueItem,
+  removeTunesFromQueue,
   loadActiveQueue,
   persistActiveQueue,
   findQueueIndexForTuneId,
@@ -234,6 +235,23 @@ describe('nowPlayingQueue', function() {
   test('removeQueueItem clears queue when last item removed', function() {
     const q = createQueue({ tuneIds: ['a'] })
     expect(removeQueueItem(q, 0)).toBeNull()
+  })
+
+  test('removeTunesFromQueue removes multiple tunes and adjusts currentIndex', function() {
+    const q = createQueue({ tuneIds: ['a', 'b', 'c', 'd'], currentIndex: 3 })
+    const next = removeTunesFromQueue(q, ['b', 'd'])
+    expect(next.items.map(function(item) { return item.tuneId })).toEqual(['a', 'c'])
+    expect(next.currentIndex).toBe(1)
+  })
+
+  test('removeTunesFromQueue returns null when queue becomes empty', function() {
+    const q = createQueue({ tuneIds: ['a', 'b'] })
+    expect(removeTunesFromQueue(q, ['a', 'b'])).toBeNull()
+  })
+
+  test('removeTunesFromQueue is a no-op when ids are not in queue', function() {
+    const q = createQueue({ tuneIds: ['a', 'b'] })
+    expect(removeTunesFromQueue(q, ['missing'])).toBe(q)
   })
 
   test('persistActiveQueue survives reload', function() {

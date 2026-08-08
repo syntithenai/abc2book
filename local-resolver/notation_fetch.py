@@ -843,6 +843,7 @@ SOURCE_BONUS_MUSESCORE = 30
 SOURCE_BONUS_OPENSCORE = 32
 SOURCE_BONUS_ARCHIVE_MUSICXML = 25
 SOURCE_BONUS_ABC = 10
+SOURCE_BONUS_ABC_SOLID_TITLE_SONG = 35
 SOURCE_BONUS_PDF = 5
 SOURCE_BONUS_CPDL_CHORAL = 8
 SOURCE_BONUS_MIDI = -45
@@ -885,10 +886,19 @@ def _is_traditional_abc_source(candidate):
     )
 
 
-def notation_source_bonus(candidate, song_type="instrumental", artist=""):
-    """Rank preference: MuseScore/archives up, ABC slight boost, MIDI demoted unless song+artist."""
+def notation_source_bonus(candidate, song_type="instrumental", artist="", title=""):
+    """Rank preference: solid-match ABC for named-artist songs, then MuseScore/archives, MIDI last."""
     import_format = _candidate_import_format(candidate)
     source = str((candidate or {}).get("source") or "").lower()
+    title = str(title or "").strip()
+    if (
+        import_format == "abc"
+        and title
+        and is_very_close_title_match(candidate, title)
+        and normalize_song_type(song_type) == "song"
+        and normalize_match_text(artist)
+    ):
+        return SOURCE_BONUS_ABC_SOLID_TITLE_SONG
     if import_format == "midi":
         if normalize_song_type(song_type) == "song" and normalize_match_text(artist):
             return SOURCE_BONUS_MIDI_SONG
@@ -920,7 +930,12 @@ def notation_source_bonus(candidate, song_type="instrumental", artist=""):
 
 def notation_priority_score(candidate, title, artist, song_type="instrumental"):
     base = notation_candidate_score(candidate, title, artist)
-    return base + notation_source_bonus(candidate, song_type=song_type, artist=artist)
+    return base + notation_source_bonus(
+        candidate,
+        song_type=song_type,
+        artist=artist,
+        title=title,
+    )
 
 
 def _with_match_score(candidate, score):
@@ -950,10 +965,12 @@ def finalize_notation_candidates(candidates, title, artist, relax_midi=False, so
             or str(candidate.get("source") or "").lower() == "musescore.com"
         )
         if song and artist_key and import_format == "abc" and not is_midi and not is_muse and not is_pdf:
-            if notation_artist_match_score(candidate, artist) < 30 and base < 100:
-                continue
-            if _is_traditional_abc_source(candidate) and notation_artist_match_score(candidate, artist) < 30:
-                continue
+            close_title = is_very_close_title_match(candidate, title)
+            if not close_title:
+                if notation_artist_match_score(candidate, artist) < 30 and base < 100:
+                    continue
+                if _is_traditional_abc_source(candidate) and notation_artist_match_score(candidate, artist) < 30:
+                    continue
         if is_midi and base < min_midi_score:
             continue
         if is_pdf and base < MIN_PDF_BASE_SCORE:
@@ -964,6 +981,7 @@ def finalize_notation_candidates(candidates, title, artist, relax_midi=False, so
             candidate,
             song_type=song_type,
             artist=artist,
+            title=title,
         )
         filtered.append(_with_match_score(candidate, priority))
 

@@ -79,6 +79,25 @@ import { getTune as getTuneFromRepository } from '../tuneRepository'
 import ScratchpadWorkspacePickerModal from './scratchpad/ScratchpadWorkspacePickerModal'
 import { exportTuneToScratchpadComposition } from '../exportTuneToScratchpadComposition'
 import { scratchpadItemPath } from '../scratchpadExportToast'
+import {
+  buildMuseScoreSearchUrl,
+  filterActionableNotationManualCandidates,
+  isMuseScoreUrl,
+} from '../chordSearchSites'
+
+function museScoreManualCandidates(manualCandidates) {
+  return filterActionableNotationManualCandidates(manualCandidates).filter(function(item) {
+    return isMuseScoreUrl(item.url)
+  })
+}
+
+function truncateEnrichLabel(text, maxLen) {
+  const value = String(text || '').trim()
+  if (!value) return ''
+  const limit = maxLen || 72
+  if (value.length <= limit) return value
+  return value.slice(0, limit - 1) + '…'
+}
 
 export default function MusicSingle(props) {
     let params = useParams();
@@ -163,17 +182,6 @@ export default function MusicSingle(props) {
       setShowAutoEnrichChordPaste(false)
       setShowAutoEnrichNotationPaste(false)
     }, [params.tuneId])
-
-    useEffect(function() {
-      if (autoEnrichPending) return
-      // Chords/lyrics paste first; MuseScore notation after chord paste is resolved.
-      if (autoEnrichState.needsChordPaste) {
-        setShowAutoEnrichChordPaste(true)
-        setShowAutoEnrichNotationPaste(false)
-      } else if (autoEnrichState.needsNotationPaste) {
-        setShowAutoEnrichNotationPaste(true)
-      }
-    }, [autoEnrichPending, autoEnrichState.needsChordPaste, autoEnrichState.needsNotationPaste, params.tuneId])
 
     useEffect(function() {
       const summary = String(autoEnrichState.summary || '').trim()
@@ -1085,6 +1093,30 @@ export default function MusicSingle(props) {
             {autoEnrichState.message
               || 'Notation was found on MuseScore, but needs a manual download (MusicXML, .mxl, .mscz, or MIDI) or paste.'}
           </div>
+          {museScoreManualCandidates(autoEnrichState.notationManualCandidates).length > 0 ? (
+            <div className="mt-2">
+              <div className="small text-muted mb-1">MuseScore matches</div>
+              <div className="d-flex flex-wrap gap-2">
+                {museScoreManualCandidates(autoEnrichState.notationManualCandidates).slice(0, 6).map(function(item, index) {
+                  const label = truncateEnrichLabel(item.title, 72) || ('Score ' + (index + 1))
+                  return (
+                    <Button
+                      key={item.url || index}
+                      size="sm"
+                      variant="outline-primary"
+                      as="a"
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-testid="auto-enrich-notation-musescore-link"
+                    >
+                      {label}
+                    </Button>
+                  )
+                })}
+              </div>
+            </div>
+          ) : null}
           <div className="mt-2 d-flex flex-wrap gap-2">
             <Button
               size="sm"
@@ -1092,7 +1124,7 @@ export default function MusicSingle(props) {
               data-testid="auto-enrich-open-notation-paste"
               onClick={function() { setShowAutoEnrichNotationPaste(true) }}
             >
-              Open MuseScore and import
+              Paste or import notation
             </Button>
             {autoEnrichState.notationPasteCandidate && autoEnrichState.notationPasteCandidate.url ? (
               <Button
@@ -1122,6 +1154,29 @@ export default function MusicSingle(props) {
         >
           {autoEnrichState.message
             || 'MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.'}
+          {tune && buildMuseScoreSearchUrl(tune.name, tune.composer) ? (
+            <div className="mt-2 d-flex flex-wrap gap-2">
+              <Button
+                size="sm"
+                variant="outline-primary"
+                as="a"
+                href={buildMuseScoreSearchUrl(tune.name, tune.composer)}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="auto-enrich-musescore-paywalled-search"
+              >
+                Search MuseScore
+              </Button>
+              <Button
+                size="sm"
+                variant="primary"
+                data-testid="auto-enrich-open-notation-paste"
+                onClick={function() { setShowAutoEnrichNotationPaste(true) }}
+              >
+                Paste or import notation
+              </Button>
+            </div>
+          ) : null}
         </Alert>
       ) : null}
       {!autoEnrichPending && autoEnrichState.failure ? (

@@ -4,7 +4,7 @@ import { searchNotation } from './notationSearchClient'
 import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
 import { applyCandidateToTune, isTuneFieldEmptyForKind } from './fieldLookupApplyUtils'
 import { pickFirstSearchCandidate } from './addTuneAutoEnrich'
-import { pickAutoApplyNotationCandidate } from './notationMatchUtils'
+import { pickAutoApplyNotationCandidate, pickRankedSolidAbcNotationCandidate } from './notationMatchUtils'
 import { inferNotationSongType } from './textSearchIndexUtils'
 import { enrichTuneMetadataFromMusicBrainz } from './tuneMetadataEnhance'
 
@@ -136,7 +136,7 @@ export async function enrichBulkImportTune(tune, options) {
           songType: songType,
           preferMuseScoreImport: songType === 'song' && !!artist,
         }
-      )
+      ) || pickRankedSolidAbcNotationCandidate(notationResult, title)
       if (notationCandidate) {
         applyCandidateToTune(next, 'notation', notationCandidate, tunebook && tunebook.abcTools)
       }

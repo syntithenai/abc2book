@@ -50,6 +50,7 @@ import { advanceQueueToNextPlayable, stopPlaylistPlayback } from './playlistPlay
 import { announcePlaylistTrack } from './playlistTitleAnnouncement'
 import { announceFootPedalOpeningTune } from './footPedalOpeningToast'
 import { playLessonYoutube, isLessonYoutubePlaying } from './lessonYoutubePlayer'
+import { pruneDeletedTunesFromPlaylists } from './playlistTunePrune'
 import { enqueueAutoCacheForTuneLinks, startMediaLinkAutoCacheQueue } from './mediaLinkAutoCache'
 import {
   tuneHasPendingOwnedMediaUpload,
@@ -766,8 +767,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
           },
         })
       }
-      setTunes(Object.assign({}, tunes))
-      saveTunesOnline()
+      if (!options.deferCommit) {
+        setTunes(Object.assign({}, tunes))
+        saveTunesOnline()
+      }
       if (tune.id && Array.isArray(tune.links) && tune.links.length > 0) {
         const cacheJobs = enqueueAutoCacheForTuneLinks(tune, {
           isYoutubeLink: utils.isYoutubeLink,
@@ -793,6 +796,16 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       saveTuneInProgressRef.current = false
     }
     return tune
+  }
+
+  function beginTunesBatchCommit() {
+    pauseSheetUpdates.current = true
+  }
+
+  function commitTunesBatch() {
+    pauseSheetUpdates.current = true
+    setTunes(Object.assign({}, tunes))
+    saveTunesOnline()
   }
   
   // Record tombstones for one or more deleted tunes in a single state update.
@@ -821,6 +834,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     purgeTuneFromSecondaryStores(tuneId).catch(function() {})
   }
 
+  function removeDeletedTunesFromPlaylists(tuneIds) {
+    pruneDeletedTunesFromPlaylists(tuneIds, nowPlayingQueue, setNowPlayingQueue)
+  }
+
   function deleteTune(tuneId) {
     pauseSheetUpdates.current = true
     var tune = tunes[tuneId]
@@ -838,6 +855,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
 
     delete tunes[tuneId]
     deletePersistedTuneSnapshot(tuneId)
+    removeDeletedTunesFromPlaylists([tuneId])
     recordHistoryChange({
       tuneId: tuneId,
       before: before,
@@ -888,6 +906,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       historyChanges.forEach(function(change) {
         recordHistoryChange(change)
       })
+      removeDeletedTunesFromPlaylists(tuneIds)
       setTunes(tunes)
       saveTunesOnline()
       if (typeof forceRefresh === 'function') forceRefresh()
@@ -1054,6 +1073,7 @@ The main difference between the two functions is the additional condition in app
       }
     })
     if (setDeletedTunes) setDeletedTunes(nextDeleted)
+    removeDeletedTunesFromPlaylists(Object.keys(deleteMap || {}))
     return nextTunes
   }
 
@@ -1910,6 +1930,7 @@ The main difference between the two functions is the additional condition in app
     pauseSheetUpdates.current = true
     var final = {}
     var tombstones = []
+    var deletedTuneIds = []
     Object.values(tunes).map(function(tune) {
       if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
         if (tune.books.length > 1) {
@@ -1918,12 +1939,14 @@ The main difference between the two functions is the additional condition in app
           final[tune.id] = tune
         } else {
           tombstones.push({id: tune.id, name: tune.name})
+          deletedTuneIds.push(tune.id)
         }
       } else {
         final[tune.id] = tune
       }
     })
     commitTombstones(tombstones)
+    removeDeletedTunesFromPlaylists(deletedTuneIds)
     indexes.removeBookFromIndex(book)
     setTunes(final)
     buildTunesHash(final)
@@ -1933,6 +1956,7 @@ The main difference between the two functions is the additional condition in app
   }
   
   function deleteAll() {
+    var allTuneIds = Object.keys(tunes || {})
     if (setDeletedTunes) {
       if (isLoggedIn) {
         // logged in: propagate the purge to other devices via tombstones
@@ -1943,6 +1967,8 @@ The main difference between the two functions is the additional condition in app
         setDeletedTunes({})
       }
     }
+    removeDeletedTunesFromPlaylists(allTuneIds)
+    if (setNowPlayingQueue) setNowPlayingQueue(null)
     setTunes({})
     resetTuneBook()
     setCurrentTuneBook(null)
@@ -2410,6 +2436,6 @@ The main difference between the two functions is the additional condition in app
         }
     
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, getSearchListOrderedIds: buildSearchListOrderedIds, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, clearNowPlayingQueue, createQueueFromTuneIds, startNowPlayingQueue, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions, getTuneGenreOptions, getSearchTuneGenreOptions, getTuneArtistOptions, getSearchTuneArtistOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, getExportAbc, getNotationExportAbc, getMusicXmlExportAbc, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, beginTunesBatchCommit, commitTunesBatch, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, getSearchListOrderedIds: buildSearchListOrderedIds, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, clearNowPlayingQueue, createQueueFromTuneIds, startNowPlayingQueue, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions, getTuneGenreOptions, getSearchTuneGenreOptions, getTuneArtistOptions, getSearchTuneArtistOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, getExportAbc, getNotationExportAbc, getMusicXmlExportAbc, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
 }
 export default useTuneBook

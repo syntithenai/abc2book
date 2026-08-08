@@ -1,6 +1,7 @@
 import {
   normalizeLyricsSearch,
   handleLyricsSearchStreamEvent,
+  isLyricsSearchSoftMissMessage,
   searchLyrics,
   searchLyricsViaResolver,
 } from './lyricsSearchClient'
@@ -57,9 +58,20 @@ describe('lyricsSearchClient', function() {
   });
 
   test('normalizeLyricsSearch rejects empty text', function() {
-    expect(function() {
-      normalizeLyricsSearch({ text: '   ' });
-    }).toThrow('Lyrics search returned no text');
+    const result = normalizeLyricsSearch({ text: '   ' });
+    expect(result.empty).toBe(true);
+    expect(result.found).toBe(false);
+    expect(result.manualCandidates).toEqual([]);
+  });
+
+  test('normalizeLyricsSearch rejects non-lyric dumps as empty', function() {
+    const result = normalizeLyricsSearch({
+      text: 'E|------------------3----|s4-----------------2----|\nB|-------1-----1s--5-----5|-----',
+      lines: ['E|------------------3----|s4-----------------2----|', 'B|-------1-----1s--5-----5|-----'],
+      source: 'example.com',
+    });
+    expect(result.empty).toBe(true);
+    expect(result.found).toBe(false);
   });
 
   test('normalizeLyricsSearch returns empty manualCandidates without throwing', function() {
@@ -98,6 +110,21 @@ describe('lyricsSearchClient', function() {
       progress: 0.15,
       stage: 'search',
     }]);
+  });
+
+  test('handleLyricsSearchStreamEvent treats soft miss errors as empty', function() {
+    const result = handleLyricsSearchStreamEvent({
+      type: 'error',
+      message: 'Lyrics page did not contain usable text',
+    }, function() {});
+    expect(result.empty).toBe(true);
+    expect(result.found).toBe(false);
+  });
+
+  test('isLyricsSearchSoftMissMessage recognizes resolver miss phrases', function() {
+    expect(isLyricsSearchSoftMissMessage('No lyrics found for this song')).toBe(true);
+    expect(isLyricsSearchSoftMissMessage('Lyrics search returned no usable text')).toBe(true);
+    expect(isLyricsSearchSoftMissMessage('Media proxy error 401')).toBe(false);
   });
 
   test('handleLyricsSearchStreamEvent returns result events', function() {
@@ -177,6 +204,53 @@ describe('lyricsSearchClient', function() {
       mediaProxyClient.fetchViaMediaProxy.mockRejectedValue(
         new Error('Could not reach the media resolver')
       )
+
+      const result = await searchLyrics({ title: 'Yesterday' })
+
+      expect(searchLyricsLight).toHaveBeenCalled()
+      expect(result.source).toBe('local')
+    })
+
+    test('falls back to lightweight search on resolver soft miss errors', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: true,
+        headers: { get: function() { return 'application/x-ndjson' } },
+        body: {
+          getReader: function() {
+            const events = [
+              '{"type":"error","message":"No lyrics found for this song"}\n',
+            ]
+            let index = 0
+            return {
+              read: async function() {
+                if (index >= events.length) return { done: true, value: undefined }
+                const value = new TextEncoder().encode(events[index])
+                index += 1
+                return { done: false, value: value }
+              },
+            }
+          },
+        },
+      })
+
+      const result = await searchLyrics({ title: 'Yesterday' })
+
+      expect(searchLyricsLight).toHaveBeenCalled()
+      expect(result.source).toBe('local')
+    })
+
+    test('falls back to lightweight search when resolver returns unusable lyrics', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: true,
+        headers: { get: function() { return 'application/json' } },
+        json: async function() {
+          return {
+            text: 'E|------------------3----|s4-----------------2----|',
+            lines: ['E|------------------3----|s4-----------------2----|'],
+            source: 'example.com',
+          }
+        },
+      })
 
       const result = await searchLyrics({ title: 'Yesterday' })
 

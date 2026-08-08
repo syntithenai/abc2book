@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './reactBootstrapDropdownPatch';
 import './index.css';
 import './breakpoints.css';
+import { installYoutubeDetachedPlayerErrorHandlers } from './youtubePlayerErrors';
 import { applyColorScheme, getColorScheme } from './colorSchemeSettings';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 applyColorScheme(getColorScheme());
+installYoutubeDetachedPlayerErrorHandlers();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
